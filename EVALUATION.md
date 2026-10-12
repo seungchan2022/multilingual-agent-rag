@@ -165,6 +165,43 @@
       passage: "Each team consists of a maximum of eleven players"
 ```
 
+### 채점 기록
+
+채점 기록은 사용자가 시스템의 최종 답을 보고 판정을 적는 답안지다. 질문 하나와 시스템 하나(Baseline 또는 Agent-RAG)마다 한 항목이다. 빈 양식은 `data/scoring/template.yaml`에 있다. 개발용과 최종 평가용에 같은 형식을 쓴다. 판정의 뜻과 기준은 ④에 있고, 여기서는 그 판정을 적는 칸만 정한다.
+
+시스템이 돌면서 저장하는 실행 기록(최종 답, 가져온 청크, 도구 호출, 걸린 시간)의 구조는 4단계에서 정한다.
+
+| 칸 | 적는 것 | 대상 |
+|---|---|---|
+| `question_id`, `system`, `run_id` | 어느 질문의 어느 시스템의 어느 실행인지 | 둘 다 |
+| `correctness` | `correct`(정답), `partial`(일부만 답함), `refused`(거절함), `wrong`(오답). 답 없는 질문에서 맞는 거절은 `correct` | 둘 다 |
+| `required_facts_found` | 필수 사실마다 답에 있으면 `true`, 없으면 `false` | 둘 다 |
+| `hallucination` | `yes`, `no` | 둘 다 |
+| `contradicted_claims` | 환각 있음이면 어긋난 주장을 그대로 적는다 | 둘 다 |
+| `unverifiable` | 확인 불가인 주장이 있으면 `yes` | 둘 다 |
+| `language_confusion` | `yes`, `no` | 둘 다 |
+| `claims[].supported` | 주장마다 최종 답에 들어간 청크가 뒷받침하면 `yes` | Agent-RAG |
+| `claims[].origin` | `judge_model`(판정 모델의 목록 그대로), `edited`(사용자가 고침), `added`(사용자가 더함) | Agent-RAG |
+| `chunk_relevance[].relevant` | 최종 답에 들어간 청크마다 관련 있으면 `yes` | Agent-RAG |
+| `note` | 판정한 이유나 메모 | 둘 다 |
+
+### 지표마다 계산에 쓰는 칸
+
+| 지표 | 분자 | 분모 | 값이 적히는 곳 |
+|---|---|---|---|
+| 정답 비율 | `correctness`가 `correct`인 답의 수 | 답 있는 질문의 수 | 채점 기록, 질문 파일의 `type` |
+| 맞는 거절 비율 | `correctness`가 `correct`인 답의 수 | 답 없는 질문의 수 | 채점 기록, 질문 파일의 `type` |
+| Hallucination 비율 | `hallucination`이 `yes`인 답의 수 | 전체 질문 수 | 채점 기록 |
+| 확인 불가의 수 | `unverifiable`이 `yes`인 답의 수 | — | 채점 기록 |
+| 언어 혼동의 수 | `language_confusion`이 `yes`인 답의 수 | — | 채점 기록 |
+| Faithfulness | `supported`가 `yes`인 주장의 수 | 주장의 수. `claims`가 `[]`인 답은 뺀다 | 채점 기록 |
+| 주장 목록을 고친 수 | `origin`이 `edited`, `added`인 주장의 수 | — | 채점 기록 |
+| 관련성 비율 | `relevant`가 `yes`인 청크의 수 | `chunk_relevance`의 청크 수. 답 없는 질문은 뺀다 | 채점 기록 |
+| Precision@k | 최종 답에 들어간 청크 가운데 질문 파일의 `chunk_ids`에 있는 청크의 수 | 최종 답에 들어간 청크의 수. 답 없는 질문은 뺀다 | 실행 기록(가져온 청크), 질문 파일 |
+| 첫 검색의 Precision@k | 첫 검색의 청크 가운데 질문 파일의 `chunk_ids`에 있는 청크의 수 | 첫 검색의 청크 수 | 실행 기록, 질문 파일 |
+
+언어별, 유형별 결과는 질문 파일의 `question_language`, `evidence_language`, `type`으로 묶어서 낸다. 평균 응답 시간과 도구 호출 지표는 실행 기록에서 나오며 ⑧과 ⑤에서 정한다.
+
 ## ④ 채점 방법과 환각의 정의
 
 판정은 사용자가 한다. 시스템 안의 판정 모델의 결과는 채점에 쓰지 않는다.

@@ -1,0 +1,35 @@
+# 채점 기록의 빈 양식. 칸의 뜻과 규칙은 EVALUATION.md ③과 ④에 있다.
+# 사용자가 시스템의 최종 답을 보고 적는다. 질문 하나와 시스템 하나마다 한 항목이다.
+# 개발용과 최종 평가용에 같은 형식을 쓴다.
+# 시스템이 저장하는 실행 기록(최종 답, 가져온 청크, 도구 호출, 걸린 시간)의 구조는 4단계에서 정한다.
+
+# Baseline의 답 하나
+- question_id: ""             # 질문 파일의 id
+  system: baseline
+  run_id: ""                  # 실행 기록과 잇는 이름
+  correctness: ""             # correct(정답), partial(일부만 답함), refused(거절함), wrong(오답). 답 없는 질문에서 맞는 거절은 correct
+  required_facts_found: []    # 필수 사실마다 답에 있으면 true, 없으면 false. 질문 파일의 순서대로. 답 없는 질문은 []
+  hallucination: ""           # yes(환각 있음), no(환각 없음)
+  contradicted_claims: []     # 환각 있음이면 어긋난 주장을 그대로 적는다
+  unverifiable: ""            # yes(확인 불가인 주장이 있다), no
+  language_confusion: ""      # yes(언어 혼동 있음), no
+  note: ""                    # 판정한 이유나 메모
+
+# Agent-RAG의 답 하나. 위 칸에 두 가지가 더 있다
+- question_id: ""
+  system: agent_rag
+  run_id: ""
+  correctness: ""
+  required_facts_found: []
+  hallucination: ""
+  contradicted_claims: []
+  unverifiable: ""
+  language_confusion: ""
+  claims:                     # 최종 답의 주장 목록. 판정 모델이 만든 것을 가져오고 사용자가 판정한다. 주장이 없는 답은 []
+    - claim: ""               # 주장 하나
+      supported: ""           # yes(최종 답에 들어간 청크가 뒷받침함), no(뒷받침하지 않음)
+      origin: ""              # judge_model(판정 모델의 목록 그대로), edited(사용자가 고침), added(사용자가 더함)
+  chunk_relevance:            # 최종 답을 쓸 때 입력으로 들어간 청크마다. 답 없는 질문은 []
+    - chunk_id: ""
+      relevant: ""            # yes(이 질문에 답하는 데 쓸 수 있는 내용이 있다), no
+  note: ""
