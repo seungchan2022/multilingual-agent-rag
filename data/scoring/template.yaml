@@ -7,7 +7,7 @@
 - question_id: ""             # 질문 파일의 id
   system: baseline
   run_id: ""                  # 실행 기록과 잇는 이름
-  correctness: ""             # correct(정답), partial(일부만 답함), refused(거절함), wrong(오답). 답 없는 질문에서 맞는 거절은 correct
+  correctness: ""             # correct(정답), partial(일부만 답함), refused(답이 있는데 거절), wrong(오답). 답 없는 질문에서 거절한 답(답이 없어서 거절)은 correct
   required_facts_found: []    # 필수 사실마다 답에 있으면 true, 없으면 false. 질문 파일의 순서대로. 답 없는 질문은 []
   hallucination: ""           # yes(환각 있음), no(환각 없음)
   contradicted_claims: []     # 환각 있음이면 어긋난 주장을 그대로 적는다
