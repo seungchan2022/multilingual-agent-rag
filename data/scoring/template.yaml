@@ -25,7 +25,7 @@
   contradicted_claims: []
   unverifiable: ""
   language_confusion: ""
-  claims:                     # 최종 답의 주장 목록. 판정 모델이 만든 것을 가져오고 사용자가 판정한다. 주장이 없는 답은 []
+  claims:                     # 최종 답의 주장 목록. 판정 모델이 만든 것을 초안으로 가져와 사용자가 확정한 뒤 판정한다. 주장이 없는 답은 []
     - claim: ""               # 주장 하나
       supported: ""           # yes(최종 답에 들어간 청크가 뒷받침함), no(뒷받침하지 않음)
       origin: ""              # judge_model(판정 모델의 목록 그대로), edited(사용자가 고침), added(사용자가 더함)
