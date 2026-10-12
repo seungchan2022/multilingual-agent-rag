@@ -46,7 +46,7 @@
 
 ```
 { cat .codex/review-prompt.md; printf '\n## 이번 검토\n%s\n' "<단계와 산출물, 1차/2차>"; } \
-  | codex exec --sandbox read-only -C . -o <결과 파일> -
+  | codex exec -m gpt-6.1-sol -c model_reasoning_effort="max" --sandbox read-only -C . -o <결과 파일> -
 ```
 
-모델과 effort는 `~/.codex/config.toml`의 값(`gpt-6.1-sol`, `max`)을 쓴다.
+모델과 effort는 명령에 적은 값(`gpt-6.1-sol`, `max`)을 쓴다. 전역 설정의 값과 무관하다.
