@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git push*)",
+      "Bash(*git push*)",
+      "Bash(*git -C * push*)",
+      "Bash(*gh repo create*--push*)",
+      "Bash(*gh repo sync*)",
+      "Bash(git add -A*)",
+      "Bash(*git add -A*)",
+      "Bash(git add .)",
+      "Bash(git add . *)",
+      "Bash(*git add --all*)",
+      "Bash(*--no-verify*)",
+      "Bash(rm -rf*)",
+      "Bash(*git reset --hard*)",
+      "Edit(.env*)"
+    ]
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "hooks": {
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/pre-compact-backup.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
