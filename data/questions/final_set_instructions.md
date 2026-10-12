@@ -74,7 +74,6 @@
 - `passage`는 원문에서 글자 그대로 옮긴다. 줄이거나 고치거나 번역하지 마라. 띄어쓰기와 문장 부호도 그대로 둔다.
 - 답이 표에 있으면 `passage`에 표의 머리글 행과 해당 행을 원문 그대로 적는다. 구분선 행(`|---|---|`)은 적지 않는다.
 - `location`에는 그 구절이 있는 절의 제목을 적는다.
-- `chunk_ids`는 `[]`로 둔다.
 
 ### 6. 답 없는 질문의 규칙
 
@@ -104,13 +103,11 @@ YAML로 낸다. 코드 블록 하나에 전부 넣는다. `id`는 `c-001`부터 
         - doc_id: en-football
           location: Players and equipment
           passage: "Each team consists of a maximum of eleven players"
-          chunk_ids: []
     - fact: 농구의 선발은 5명이다
       evidence:
         - doc_id: en-basketball
           location: Rules
           passage: "Five players from each team may be on the court at one time"
-          chunk_ids: []
     - fact: 축구가 농구보다 선발 인원이 많다
       evidence: []
 
@@ -128,7 +125,6 @@ YAML로 낸다. 코드 블록 하나에 전부 넣는다. `id`는 `c-001`부터 
           passage: |
             | 종목 | 선발 인원 | 경기 시간 |
             | 축구 | 11 | 90분 |
-          chunk_ids: []
 
 - id: c-003
   question: 축구에서 선발 12번째 선수의 포지션 이름은 무엇인가
