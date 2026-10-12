@@ -89,6 +89,82 @@
 
 한계: 비율이 50% 근처일 때 95% 범위(`1.96 × √(0.5 × 0.5 / n)`)는 답 있는 질문 24개에서 약 ±20%p다. 후보 사이의 작은 차이는 가려낼 수 없다. 차이가 작을 때 어떻게 고를지는 4단계에서 정한다.
 
+## ③ 평가 데이터 형식
+
+질문 파일은 YAML이다. 빈 양식은 `data/questions/template.yaml`에 있다. 개발용과 최종 평가용은 같은 형식이고 파일만 다르다. 최종 평가용 파일은 프로젝트 폴더 밖에 둔다.
+
+### 질문마다 적는 칸
+
+| 칸 | 적는 것 | 쓰이는 지표와 판정 |
+|---|---|---|
+| `id` | 질문의 이름 | 실행 결과와 채점 기록을 질문에 잇는다 |
+| `question` | 질문 문장 | 시스템에 넣는 입력 |
+| `question_language` | `ko`, `en` | 언어 혼동 판정, 언어 조합별 결과 |
+| `evidence_language` | `ko`, `en`. 답 없는 질문은 `null` | 언어 조합별 결과 (질문 언어와 합쳐 네 조합이 된다) |
+| `type` | `single_fact`(단일 사실), `table_numeric`(표·수치·조건), `multi_doc`(여러 문서 연결), `paraphrase`(표현 불일치), `no_answer`(답 없음) | 유형별 결과. `no_answer`이면 답 없는 질문이라 맞는 거절 비율에 들어가고 검색 지표에서 빠진다 |
+| `answer` | 정답 문장. 답 없는 질문은 `null` | 정답 여부, 환각 여부 |
+| `required_facts` | 정답에 꼭 들어가야 하는 사실의 목록. 답 없는 질문은 `[]` | 정답 여부(다 있으면 정답, 일부만 있으면 일부만 답함), 환각 여부 |
+| `required_facts[].evidence` | 그 사실의 근거 구절 목록. 구절마다 `doc_id`, `location`, `passage`(원문 그대로) | 환각 여부(주장을 비추는 자료) |
+| `required_facts[].evidence[].chunk_ids` | 그 구절이 들어 있는 청크. 5단계와 7단계에서 채운다 | Precision@k (근거 청크) |
+| `expected_refusal` | 답 없는 질문에만. 기대하는 거절 방식 | 맞는 거절 판정 |
+| `no_answer_reason` | 답 없는 질문에만. 코퍼스에서 찾아본 범위와, 일반 지식으로도 답할 수 없다고 본 이유 | 3단계의 확인 기록 |
+| `rebuttal` | 답 없는 질문에만. 전제를 반박하는 구절. 코퍼스에 없으면 `[]` | 거절에 붙은 설명의 환각 여부 |
+
+### 규칙
+
+- 필수 사실이 여러 개이면 모두 있어야 정답이다. 한 필수 사실 아래 근거 구절이 여러 개이면 어느 것이든 그 사실의 근거가 된다. 다른 사실들에서 나오는 결론인 필수 사실은 근거 구절을 `[]`로 둔다.
+- 한 질문에 적힌 근거 구절 가운데 어느 하나라도 들어 있는 청크는 전부 그 질문의 근거 청크다. 근거 구절이 두 청크에 걸치면 `chunk_ids`에 둘 다 적는다.
+- 답 있는 질문은 한쪽 언어 문서에만 있는 사실로 만든다. 한 질문의 근거 구절은 모두 `evidence_language`의 문서에서 나와야 한다. 문서는 여러 개여도 된다. 반대 언어 문서에는 같은 사실이 없어야 하고, 사용자가 3단계에서 질문마다 확인한다. 교차 언어 칸과 같은 언어 칸에 똑같이 적용한다. 이것은 질문을 고를 때의 조건이며, 시스템이 가져오는 청크에 대한 조건이 아니다.
+- 근거 없음 표시는 `required_facts: []`이다. 답 없는 질문은 `answer: null`, `evidence_language: null`도 함께 적는다.
+- `rebuttal`의 구절이 든 청크는 그 질문의 근거 청크로 세지 않는다. 답 없는 질문은 검색 지표에서 빠진다.
+- 관련성 판정을 하다가 적어 두지 않은 근거 구절을 발견하면, 개발용은 해당 필수 사실 아래에 추가한다. 최종 평가용은 고치지 않는다.
+
+### 적은 예
+
+지어낸 예다. 문서와 구절은 형식을 보여 주려는 것이다.
+
+```yaml
+- id: dev-007
+  question: 축구와 농구 중 선발 인원이 더 많은 종목은 무엇인가
+  question_language: ko
+  evidence_language: en
+  type: multi_doc
+  answer: 축구가 더 많다. 축구는 11명, 농구는 5명이 선발로 뛴다
+  required_facts:
+    - fact: 축구의 선발은 11명이다
+      evidence:
+        - doc_id: en-football
+          location: Players and equipment
+          passage: "Each team consists of a maximum of eleven players"
+          chunk_ids: []
+        - doc_id: en-football-rules
+          location: Law 3
+          passage: "A match is played by two teams, each with a maximum of eleven players"
+          chunk_ids: []
+    - fact: 농구의 선발은 5명이다
+      evidence:
+        - doc_id: en-basketball
+          location: Rules
+          passage: "Five players from each team may be on the court at one time"
+          chunk_ids: []
+    - fact: 축구가 농구보다 선발 인원이 많다
+      evidence: []
+
+- id: dev-025
+  question: 축구에서 선발 12번째 선수의 포지션 이름은 무엇인가
+  question_language: ko
+  evidence_language: null
+  type: no_answer
+  answer: null
+  required_facts: []
+  expected_refusal: 선발은 11명이라 12번째 선수는 없다고 답한다
+  no_answer_reason: 코퍼스의 축구 문서 전체에서 선발 인원을 찾아봤고 모두 11명으로 적혀 있다. 12번째 선발 선수는 실제로도 없어서 일반 지식으로도 답할 수 없다
+  rebuttal:
+    - doc_id: en-football
+      location: Players and equipment
+      passage: "Each team consists of a maximum of eleven players"
+```
+
 ## ④ 채점 방법과 환각의 정의
 
 판정은 사용자가 한다. 시스템 안의 판정 모델의 결과는 채점에 쓰지 않는다.
