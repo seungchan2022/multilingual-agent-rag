@@ -1,0 +1,21 @@
+# 과제 원문과 과제 요구 요약 (추적 제외)
+*.pages
+.codex/assignment-requirements.md
+
+# 스텝퍼 PDF와 그 원본 (이 컴퓨터에만 둠)
+STEPPER.pdf
+tools/stepper_pdf.html
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 비밀값
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
