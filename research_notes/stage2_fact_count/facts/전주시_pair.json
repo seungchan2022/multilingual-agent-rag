@@ -1,0 +1,485 @@
+{
+  "city": "전주시",
+  "ko_only": [
+    {
+      "fact": "전주시의 면적은 205.5 km2이다.",
+      "quote": "면적은 205.5 km2, 인구는 약 65만 명이다.",
+      "from_table": false,
+      "kind": "area",
+      "value": "205.5 km2",
+      "keys_num": [
+        "205.5"
+      ],
+      "keys_name": [
+        "205.5 km2"
+      ]
+    },
+    {
+      "fact": "전주시 완산구의 면적은 92.54 km2이다.",
+      "quote": "| 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |",
+      "from_table": true,
+      "kind": "area",
+      "value": "92.54 km2",
+      "keys_num": [
+        "92.54",
+        "338,839",
+        "143,731"
+      ],
+      "keys_name": [
+        "Wansan District"
+      ]
+    },
+    {
+      "fact": "전주시 덕진구의 면적은 112.95 km2이다.",
+      "quote": "| 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |",
+      "from_table": true,
+      "kind": "area",
+      "value": "112.95 km2",
+      "keys_num": [
+        "112.95",
+        "315,555",
+        "130,022"
+      ],
+      "keys_name": [
+        "Deokjin District"
+      ]
+    },
+    {
+      "fact": "전주시 완산구의 인구는 338,839명이다.",
+      "quote": "| 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |",
+      "from_table": true,
+      "kind": "population",
+      "value": "338,839",
+      "keys_num": [
+        "338,839",
+        "92.54"
+      ],
+      "keys_name": [
+        "Wansan District"
+      ]
+    },
+    {
+      "fact": "전주시 덕진구의 인구는 315,555명이다.",
+      "quote": "| 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |",
+      "from_table": true,
+      "kind": "population",
+      "value": "315,555",
+      "keys_num": [
+        "315,555",
+        "112.95"
+      ],
+      "keys_name": [
+        "Deokjin District"
+      ]
+    },
+    {
+      "fact": "전주시의 2019년 총인구는 662,086명이고 그중 외국인은 10,994명(1.7%)이다.",
+      "quote": "| 2019년 | 662,086명 | | 외국인: 10,994 (1.7%) |",
+      "from_table": true,
+      "kind": "population",
+      "value": "662,086",
+      "keys_num": [
+        "662,086",
+        "10,994",
+        "1.7%"
+      ],
+      "keys_name": [
+        "Jeonju population 2019"
+      ]
+    },
+    {
+      "fact": "전주시의 2025년 총인구는 624,717명이다.",
+      "quote": "| 2025년 | 624,717명 | | |",
+      "from_table": true,
+      "kind": "population",
+      "value": "624,717",
+      "keys_num": [
+        "624,717"
+      ],
+      "keys_name": [
+        "Jeonju population 2025"
+      ]
+    },
+    {
+      "fact": "전주시의 2024년 6월 말 주민등록 인구는 63만9354명이고 완주군은 9만8878명이었다.",
+      "quote": "2024년 6월 말 주민등록 기준으로 전주시의 인구는 63만9354명, 완주군의 인구는 9만8878명이었다.",
+      "from_table": false,
+      "kind": "population",
+      "value": "63만9354명",
+      "keys_num": [
+        "63만9354",
+        "9만8878"
+      ],
+      "keys_name": [
+        "639,354",
+        "98,878"
+      ]
+    },
+    {
+      "fact": "전주시의 이름은 757년(경덕왕 16년)에 완산주를 전주로 고치면서 시작되었다.",
+      "quote": "전주라는 지명은 남북국 시대인 757년(경덕왕 16년)에 지명 한화(漢化) 정책에 따라",
+      "from_table": false,
+      "kind": "other",
+      "value": "757년",
+      "keys_num": [
+        "757",
+        "16"
+      ],
+      "keys_name": [
+        "757",
+        "Gyeongdeok"
+      ]
+    },
+    {
+      "fact": "전주의 풍남문은 보물 제308호이다.",
+      "quote": "풍남문은 보물 제308호이다.",
+      "from_table": false,
+      "kind": "other",
+      "value": "보물 제308호",
+      "keys_num": [
+        "308"
+      ],
+      "keys_name": [
+        "Pungnammun",
+        "Treasure No. 308"
+      ]
+    },
+    {
+      "fact": "전주의 경기전은 사적 제339호이고 조선 태조의 영정(국보 제317호)을 봉안했으며 1614년에 중건되었다.",
+      "quote": "경기전은 대한민국의 사적 제339호로 전주시 완산구 태조로 44에 위치하고 있다.",
+      "from_table": false,
+      "kind": "other",
+      "value": "사적 제339호",
+      "keys_num": [
+        "339",
+        "317",
+        "1614"
+      ],
+      "keys_name": [
+        "Gyeonggijeon",
+        "Historic Site No. 339",
+        "1614"
+      ]
+    },
+    {
+      "fact": "전주의 풍남문 등 전주부성은 1388년에 축성되었다.",
+      "quote": "1388년 : 풍남문 등 전주부성이 축성되었다.",
+      "from_table": false,
+      "kind": "other",
+      "value": "1388년",
+      "keys_num": [
+        "1388"
+      ],
+      "keys_name": [
+        "Pungnammun",
+        "1388"
+      ]
+    },
+    {
+      "fact": "2013년 6월 26일 완주군 주민투표에서 유효투표 총수의 55%가 반대해 전주시와 완주군의 통합이 무산되었다.",
+      "quote": "2013년 6월 26일에 실시된 완주군 주민투표에서 유효투표 총수의 55%가 반대해 통합이 무산된 적이 있다.",
+      "from_table": false,
+      "kind": "other",
+      "value": "55%",
+      "keys_num": [
+        "2013",
+        "6",
+        "26",
+        "55%"
+      ],
+      "keys_name": [
+        "Wanju",
+        "referendum",
+        "55%"
+      ]
+    },
+    {
+      "fact": "전주시에는 2013년 기준 919개의 의료기관이 있다.",
+      "quote": "전주에는 2013년 기준 919개의 의료기관이 있다.",
+      "from_table": false,
+      "kind": "other",
+      "value": "919개",
+      "keys_num": [
+        "2013",
+        "919"
+      ],
+      "keys_name": [
+        "919",
+        "medical institutions"
+      ]
+    },
+    {
+      "fact": "전주시와 미국 샌디에고의 자매 도시 관계는 1983년 5월 20일에 시작되었다.",
+      "quote": "미국 샌디에고 (1983. 05. 20 ~ )",
+      "from_table": false,
+      "kind": "other",
+      "value": "1983년 5월 20일",
+      "keys_num": [
+        "1983",
+        "05",
+        "20"
+      ],
+      "keys_name": [
+        "San Diego",
+        "1983"
+      ]
+    }
+  ],
+  "en_only": [
+    {
+      "fact": "전주시는 쾨펜 기후 구분으로 Cwa(온대 하계 다우 기후)에 해당하는 습윤 아열대 기후이다.",
+      "quote": "Jeonju has a cooler version of a humid subtropical climate (Köppen climate classification Cwa)",
+      "from_table": false,
+      "kind": "koppen",
+      "value": "Cwa",
+      "keys_num": [],
+      "keys_name": [
+        "쾨펜",
+        "Cwa"
+      ]
+    },
+    {
+      "fact": "전주시의 연간 가능 일조율은 46.2%이다.",
+      "quote": "| Percentage possible sunshine | 48.7 | 51.3 | 50.1 | 53.9 | 50.0 | 39.6 | 30.8 | 38.4 | 45.1 | 55.6 | 50.0 | 47.0 | 46.2 |",
+      "from_table": true,
+      "kind": "annual_sunshine_percent",
+      "value": "46.2",
+      "keys_num": [
+        "46.2"
+      ],
+      "keys_name": [
+        "가능 일조율",
+        "46.2"
+      ]
+    },
+    {
+      "fact": "전주시의 7월 가능 일조율은 30.8%로 열두 달 가운데 가장 낮다.",
+      "quote": "| Percentage possible sunshine | 48.7 | 51.3 | 50.1 | 53.9 | 50.0 | 39.6 | 30.8 | 38.4 | 45.1 | 55.6 | 50.0 | 47.0 | 46.2 |",
+      "from_table": true,
+      "kind": "other",
+      "value": "30.8",
+      "keys_num": [
+        "30.8"
+      ],
+      "keys_name": [
+        "가능 일조율",
+        "7월",
+        "30.8"
+      ]
+    },
+    {
+      "fact": "전주시의 10월 가능 일조율은 55.6%로 열두 달 가운데 가장 높다.",
+      "quote": "| Percentage possible sunshine | 48.7 | 51.3 | 50.1 | 53.9 | 50.0 | 39.6 | 30.8 | 38.4 | 45.1 | 55.6 | 50.0 | 47.0 | 46.2 |",
+      "from_table": true,
+      "kind": "other",
+      "value": "55.6",
+      "keys_num": [
+        "55.6"
+      ],
+      "keys_name": [
+        "가능 일조율",
+        "10월",
+        "55.6"
+      ]
+    },
+    {
+      "fact": "전주시 기후 표의 일조율 자료는 1981~2010년 기준이다.",
+      "quote": "| Source: Korea Meteorological Administration (percent sunshine 1981–2010) |",
+      "from_table": true,
+      "kind": "other",
+      "value": "1981–2010",
+      "keys_num": [
+        "1981",
+        "2010"
+      ],
+      "keys_name": [
+        "일조율",
+        "1981"
+      ]
+    },
+    {
+      "fact": "전주국제영화제에는 매년 약 5만 명이 방문한다.",
+      "quote": "The Jeonju International Film Festival draws about 50,000 visitors annually.",
+      "from_table": false,
+      "kind": "other",
+      "value": "약 50,000명",
+      "keys_num": [
+        "50,000"
+      ],
+      "keys_name": [
+        "전주국제영화제",
+        "5만"
+      ]
+    },
+    {
+      "fact": "전주 영화 스튜디오 단지는 2009년에 지어졌다.",
+      "quote": "The Jeonju Film Studio Complex was built in 2009",
+      "from_table": false,
+      "kind": "other",
+      "value": "2009년",
+      "keys_num": [
+        "2009"
+      ],
+      "keys_name": [
+        "전주영화종합촬영소",
+        "2009"
+      ]
+    },
+    {
+      "fact": "전주 KCC 이지스 농구단은 2001년부터 2023년까지 전주를 연고로 하다가 부산으로 옮겼다.",
+      "quote": "between 2001 and 2023, when they relocated to Busan after the city of Jeonju postponed the construction of a new gymnasium.",
+      "from_table": false,
+      "kind": "other",
+      "value": "2001~2023년",
+      "keys_num": [
+        "2001",
+        "2023"
+      ],
+      "keys_name": [
+        "KCC 이지스",
+        "부산"
+      ]
+    },
+    {
+      "fact": "전주는 1413년에 조선왕조실록 사본을 보관하는 영예를 얻었다.",
+      "quote": "In 1413, Jeonju (along with three other cities) was given the honor of safekeeping copies of the Annals of the Joseon Dynasty",
+      "from_table": false,
+      "kind": "other",
+      "value": "1413년",
+      "keys_num": [
+        "1413"
+      ],
+      "keys_name": [
+        "조선왕조실록",
+        "1413"
+      ]
+    },
+    {
+      "fact": "전주는 일제강점기에 젠슈(Zenshū)로 이름이 바뀌었다.",
+      "quote": "Jeonju was occupied by the Japanese beginning from 1910 to 1945, and was renamed to Zenshū during the period.",
+      "from_table": false,
+      "kind": "other",
+      "value": "Zenshū",
+      "keys_num": [
+        "1910",
+        "1945"
+      ],
+      "keys_name": [
+        "젠슈",
+        "Zenshū"
+      ]
+    },
+    {
+      "fact": "전주는 1894년 동학농민혁명 때 점령되었다.",
+      "quote": "The town was occupied by the Donghak Peasant Revolution in 1894.",
+      "from_table": false,
+      "kind": "other",
+      "value": "1894년",
+      "keys_num": [
+        "1894"
+      ],
+      "keys_name": [
+        "동학",
+        "1894"
+      ]
+    },
+    {
+      "fact": "전주는 기원전 57년경 백제 안의 시장 도시로 세워졌다고 여겨진다.",
+      "quote": "It is believed that Jeonju was founded as a market town within Baekje around 57 BC.",
+      "from_table": false,
+      "kind": "other",
+      "value": "기원전 57년경",
+      "keys_num": [
+        "57"
+      ],
+      "keys_name": [
+        "시장 도시",
+        "기원전 57"
+      ]
+    },
+    {
+      "fact": "신라 경애왕은 927년에 암살되었다.",
+      "quote": "the destruction of Geumseong (the capital of the Silla kingdom) and the assassination of King Gyeongae in 927.",
+      "from_table": false,
+      "kind": "other",
+      "value": "927년",
+      "keys_num": [
+        "927"
+      ],
+      "keys_name": [
+        "경애왕",
+        "927"
+      ]
+    },
+    {
+      "fact": "전주 전동성당은 프랑스 신부 Xavier Baudonet가 1791년과 1801년 천주교 순교 터에 지었다.",
+      "quote": "Jeongdong Catholic Church was built on 1908–1914 by French priest Xavier Baudonet on the site of the Korean Catholic martyrs in 1791 and 1801.",
+      "from_table": false,
+      "kind": "other",
+      "value": "Xavier Baudonet",
+      "keys_num": [
+        "1908",
+        "1914",
+        "1791",
+        "1801"
+      ],
+      "keys_name": [
+        "바우도네",
+        "보도네",
+        "Baudonet"
+      ]
+    },
+    {
+      "fact": "전주세계소리축제는 2014년 Songlines의 세계 25대 국제 축제에 뽑혔다.",
+      "quote": "The Jeonju International Sori Festival was among Songlines' 25 Best International Festivals in 2014.",
+      "from_table": false,
+      "kind": "other",
+      "value": "2014년",
+      "keys_num": [
+        "25",
+        "2014"
+      ],
+      "keys_name": [
+        "소리축제",
+        "Songlines"
+      ]
+    }
+  ],
+  "conflict": [
+    {
+      "what": "6월 역대 최고 기온",
+      "ko": "36.5°C",
+      "en": "35.8°C"
+    },
+    {
+      "what": "전주한옥마을의 한옥 수",
+      "ko": "650여 채",
+      "en": "over 800"
+    },
+    {
+      "what": "전주 전동성당의 사적 번호",
+      "ko": "사적 제228호",
+      "en": "historic site No. 288"
+    },
+    {
+      "what": "1182년 봉기가 이어진 기간",
+      "ko": "여러 달 동안 저항",
+      "en": "봉기 시작 40일 뒤 진압(forty days)"
+    },
+    {
+      "what": "후백제가 끝난 해",
+      "ko": "936년",
+      "en": "935년 전주가 왕건에게 항복"
+    },
+    {
+      "what": "자매 도시 수",
+      "ko": "자매 도시 4곳(우호 도시 5곳 별도)",
+      "en": "Sister cities 8곳"
+    },
+    {
+      "what": "동(행정동) 수",
+      "ko": "35행정동 82법정동",
+      "en": "약 40 neighborhoods"
+    }
+  ]
+}

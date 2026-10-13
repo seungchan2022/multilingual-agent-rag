@@ -1,0 +1,6658 @@
+[
+ {
+  "fact": "강릉시의 인구는 2017년 기준 213,658명이다.",
+  "quote": "It has a population of 213,658 (as of 2017)",
+  "from_table": false,
+  "kind": "population",
+  "value": "213,658 (2017)",
+  "keys_num": [
+   "213,658",
+   "2017"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 총면적은 2015년 말 기준 약 1,040.4 km2이다.",
+  "quote": "The total area of Gangneung is about 1,040.4 km2",
+  "from_table": false,
+  "kind": "area",
+  "value": "1,040.4 km2",
+  "keys_num": [
+   "1,040.4",
+   "2015"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_02",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_ko",
+    "key": "2015 + 강릉",
+    "around": "## 스포츠 팀 강원 FC: 1부리그인 K리그1 소속으로 강릉종합운동장 원주종합운동장 속초종합운동장과 함께 춘천종합운동장을 경기장으로 사용한다. 한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다. 하이원 아이스하키단: 프로 아이스하키팀으로 아시아리그에 참가하며 춘천 의암실내빙상장을 홈구장으로 사용한다. 춘천 FC: K"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "강릉시는 1995년 강릉과 명주 지역이 합쳐져 시로 설치되었다.",
+  "quote": "Gangneung City was established in 1995 as the areas of Gangneung and Myeongju merged",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "1995",
+  "keys_num": [
+   "1995"
+  ],
+  "keys_name": [
+   "명주"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 연평균 기온(Daily mean의 Year 값)은 13.5도이다.",
+  "quote": "| 24.7 (76.5) | 25.0 (77.0) | 20.5 (68.9) | 15.6 (60.1) | 9.5 (49.1) | 3.3 (37.9) | 13.5 (56.3) |",
+  "from_table": true,
+  "kind": "annual_mean_temp",
+  "value": "13.5 °C",
+  "keys_num": [
+   "13.5"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 연 강수량은 1,444.9 mm이다.",
+  "quote": "Average precipitation mm (inches) | 47.9 (1.89) | 48.0 (1.89) | 65.1 (2.56) | 81.9 (3.22) | 79.2 (3.12) | 118.5 (4.67) | 250.2 (9.85) | 292.9 (11.53) | 229.3 (9.03) | 113.9 (4.48) | 81.1 (3.19) | 36.9 (1.45) | 1,444.9 (56.89)",
+  "from_table": true,
+  "kind": "annual_precip",
+  "value": "1,444.9 mm",
+  "keys_num": [
+   "1,444.9"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 연간 가능 일조율은 47.3%이다.",
+  "quote": "Percentage possible sunshine | 60.0 | 56.7 | 50.3 | 51.6 | 47.5 | 37.3 | 30.8 | 35.1 | 42.1 | 54.1 | 55.9 | 61.5 | 47.3",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "47.3",
+  "keys_num": [
+   "47.3"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 쾨펜 기후 구분은 Cfa(온난 습윤 아열대 기후)이다.",
+  "quote": "Gangneung experiences a humid subtropical climate (Köppen: Cfa)",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "Cfa",
+  "keys_num": [],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 역대 최고 기온은 39.4도이다(7월).",
+  "quote": "| 38.9 (102.0) | 35.8 (96.4) | 32.8 (91.0) | 29.1 (84.4) | 21.8 (71.2) | 39.4 (102.9) |",
+  "from_table": true,
+  "kind": "record_high",
+  "value": "39.4 °C",
+  "keys_num": [
+   "39.4"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 역대 최저 기온은 −20.2도이다(1월).",
+  "quote": "| Record low °C (°F) | −20.2 (−4.4) | −15.9 (3.4) | −11.7 (10.9) | −3.5 (25.7) | −0.8 (30.6) | 6.0 (42.8) | 11.3 (52.3) | 13.7 (56.7) | 6.3 (43.3) | −1.9 (28.6) | −9.3 (15.3) | −15.3 (4.5) | −20.2 (−4.4) |",
+  "from_table": true,
+  "kind": "record_low",
+  "value": "−20.2 °C",
+  "keys_num": [
+   "−20.2"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시는 1개의 읍, 7개의 면, 13개의 동으로 이루어져 있다.",
+  "quote": "The district includes one town (eup), seven townships (myeon), 13 neighborhoods (dong).",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "읍 1, 면 7, 동 13",
+  "keys_num": [
+   "13"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 면적 1,040 km2 중 산림은 837.36 km2로 80.4%를 차지한다.",
+  "quote": "80.4% of the area of Gangneung, 837.36 km2 (323.31 sq mi), is forestland.",
+  "from_table": false,
+  "kind": "other",
+  "value": "837.36 km2 (80.4%)",
+  "keys_num": [
+   "80.4",
+   "837.36"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "주문진읍의 인구는 19,299명이다.",
+  "quote": "| Jumunjin-eup | 주문진읍 | 60.52 | 19,299 | 9,098 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "19,299",
+  "keys_num": [
+   "60.52",
+   "19,299",
+   "9,098"
+  ],
+  "keys_name": [
+   "주문진읍"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시에서 면적이 가장 넓은 면인 왕산면은 245.28 km2이다.",
+  "quote": "| Wangsan-myeon | 왕산면 | 245.28 | 1,682 | 881 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "245.28 km2",
+  "keys_num": [
+   "245.28",
+   "1,682"
+  ],
+  "keys_name": [
+   "왕산면"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시 교1동의 인구는 29,995명이다.",
+  "quote": "| Gyo 1-dong | 교1동 | 2.73 | 29,995 | 11,122 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "29,995",
+  "keys_num": [
+   "2.73",
+   "29,995",
+   "11,122"
+  ],
+  "keys_name": [
+   "교1동"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시 관내에는 해변이 20개 있다.",
+  "quote": "There are 20 beaches such as Anmok Beach, Gyeongpo Beach and Gangmun Beach.",
+  "from_table": false,
+  "kind": "other",
+  "value": "20",
+  "keys_num": [
+   "20"
+  ],
+  "keys_name": [
+   "안목해변",
+   "경포해변",
+   "강문해변"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 문화재는 모두 136개이다.",
+  "quote": "There are a total of 136 cultural properties in Gangneung.",
+  "from_table": false,
+  "kind": "other",
+  "value": "136",
+  "keys_num": [
+   "136",
+   "40",
+   "60"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "오죽헌은 신사임당과 율곡 이이의 출생지로 보물 제165호로 지정되었다.",
+  "quote": "Ojukheon is the birthplace of Shin Saimdang and Yi I. It was designated as treasure No. 165",
+  "from_table": false,
+  "kind": "other",
+  "value": "보물 제165호",
+  "keys_num": [
+   "165"
+  ],
+  "keys_name": [
+   "오죽헌",
+   "신사임당",
+   "이이"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "굴산사는 851년 범일이 창건했고 터는 사적 제448호이다.",
+  "quote": "Gulsansa was founded by Beomil in 851. The site of the temple was designated as historic site No. 448.",
+  "from_table": false,
+  "kind": "other",
+  "value": "851",
+  "keys_num": [
+   "851",
+   "448"
+  ],
+  "keys_name": [
+   "굴산사",
+   "범일"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉단오제는 1967년 국가무형문화재로, 2005년 유네스코 인류구전및무형유산걸작으로 지정되었다.",
+  "quote": "It was designated as the National Intangible Cultural Heritage in 1967 and Masterpieces of the Oral and Intangible Heritage of Humanity by UNESCO in 2005.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1967, 2005",
+  "keys_num": [
+   "1967",
+   "2005"
+  ],
+  "keys_name": [
+   "강릉단오제",
+   "관노가면극"
+  ],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강릉시의 택시 기본요금은 2km에 2,800원이다.",
+  "quote": "The basic fare of Gangneung taxi is 2,800 won for 2 km.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2,800 won",
+  "keys_num": [
+   "2,800",
+   "2"
+  ],
+  "keys_name": [],
+  "city": "강릉시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "강릉시_en_20",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시의 인구는 2022년 기준 247,489명이다.",
+  "quote": "인구는 2022년 기준 247,489명이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "247,489명 (2022년 기준)",
+  "keys_num": [
+   "247,489",
+   "2022"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시의 2025년 말 기준 인구는 244,411명이다.",
+  "quote": "2025년 말 기준 인구는 244,411명이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "244,411명 (2025년 말 기준)",
+  "keys_num": [
+   "2025",
+   "244,411"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시의 행정구역 면적은 1,324.41km2로 경상북도에서 안동시에 이어 두 번째로 넓은 기초자치단체이다.",
+  "quote": "경주시의 행정구역 면적은 1,324.41km2로, 경상북도에서 안동시에 이어 두 번째로 넓은 기초자치단체이다.",
+  "from_table": false,
+  "kind": "area",
+  "value": "1,324.41km2",
+  "keys_num": [
+   "1,324.41"
+  ],
+  "keys_name": [
+   "Andong"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주군 경주읍과 내동면 등이 1955년 9월 1일 경주시로 승격되었다.",
+  "quote": "1955년 9월 1일 경주군 경주읍과 내동면 등이 경주시로 승격되고",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "1955년",
+  "keys_num": [
+   "1955",
+   "9",
+   "1"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시의 행정구역은 4읍 8면 10동이다.",
+  "quote": "행정구역은 4읍 8면 10동이다.",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "4읍 8면 10동",
+  "keys_num": [
+   "4",
+   "8",
+   "10"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시의 연평균 강수량은 1,091 밀리미터이다.",
+  "quote": "연평균 강수량은 1,091 밀리미터 (43.0 in)",
+  "from_table": false,
+  "kind": "annual_precip",
+  "value": "1,091 밀리미터",
+  "keys_num": [
+   "1,091",
+   "43.0"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시에는 대학교가 3곳 있다.",
+  "quote": "대학교와 대학원이 각각 3곳이 있으며",
+  "from_table": false,
+  "kind": "universities_count",
+  "value": "3곳",
+  "keys_num": [
+   "3"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시와 경주군을 통합해 도농복합형태의 경주시가 1995년 1월 1일 설치되었다.",
+  "quote": "1995년 1월 1일 경주시와 경주군을 통합하여 도농복합형태의 경주시가 설치되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1995년 1월 1일",
+  "keys_num": [
+   "1995",
+   "1",
+   "1"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시는 기원전 57년 신라 건국부터 935년 신라 멸망까지 992년 동안 신라의 수도였다.",
+  "quote": "기원전 57년 신라의 건국부터 시작해서 935년 신라 멸망까지 992년 동안 신라의 수도였고",
+  "from_table": false,
+  "kind": "other",
+  "value": "992년",
+  "keys_num": [
+   "57",
+   "935",
+   "992"
+  ],
+  "keys_name": [
+   "Silla"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_en",
+    "key": "935 + Silla",
+    "around": "sula. However Wang Geon and his forces invaded Later Baekje in 934 and Jeonju surrendered to him in 935. ### Goryeo (918–1392) Under Goryeo rule Jeonju reverted to being a provincial capital and enjoy"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "경주시에서 가장 높은 산은 해발 1013m의 문복산이다.",
+  "quote": "경주에서 가장 높은 산은 해발 1013m의 문복산이며",
+  "from_table": false,
+  "kind": "other",
+  "value": "문복산 (해발 1013m)",
+  "keys_num": [
+   "1013"
+  ],
+  "keys_name": [
+   "Munbok"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2016년 9월 12일 경주시 남서쪽 9km 지점에서 규모 5.1, 5.8의 한반도 최대의 강진이 일어났다.",
+  "quote": "2016년 9월 12일 경주시 남서쪽 9km 지점에서 각각 규모 5.1, 5.8의 한반도 최대의 강진이 일어났다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "규모 5.1, 5.8",
+  "keys_num": [
+   "2016",
+   "9",
+   "12",
+   "9",
+   "5.1",
+   "5.8"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_11",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "부산광역시_en",
+    "key": "2016 + Gyeongju",
+    "around": " include the Donghae Nambu Line which connects Ulsan Pohang and Gyeongju. SRT was first launched in 2016 and runs along the Gyeongbu and Honam high-speed railways. SRT offers a new gateway connecting "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "경주시는 총 396점의 문화재를 보유하고 있다.",
+  "quote": "총 합계 396점의 문화재를 보유하고 있다",
+  "from_table": false,
+  "kind": "other",
+  "value": "396점",
+  "keys_num": [
+   "396"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "1995년에 불국사와 석굴암이 유네스코 세계문화유산으로 등재되었다.",
+  "quote": "1995년에 유네스코 세계문화유산에서 불국사와 석굴암을 등재했고",
+  "from_table": false,
+  "kind": "other",
+  "value": "1995년",
+  "keys_num": [
+   "1995"
+  ],
+  "keys_name": [
+   "Bulguksa",
+   "Seokguram",
+   "UNESCO"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2025년 10월 31일부터 11월 1일까지 경주에서 APEC 경주 정상회의가 개최되었다.",
+  "quote": "2025년 10월 31일부터 11월 1일까지 이곳에서 APEC 경주 정상회의가 성공적으로 개최되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2025년 10월 31일~11월 1일",
+  "keys_num": [
+   "2025",
+   "10",
+   "31",
+   "11",
+   "1"
+  ],
+  "keys_name": [
+   "APEC"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_14",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "부산광역시_en",
+    "key": "2025 + APEC",
+    "around": "nternational conventions hosting an APEC summit in 2005 and the China–United States Busan Summit in 2025. It is also a center for sports tournaments in Korea having hosted the 2002 Asian Games and FIF"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "경주역은 2010년 11월 1일 경부고속선 2단계 전용선 구간 개통과 함께 영업을 시작했다.",
+  "quote": "2010년 11월 1일 경부고속선 2단계 전용선 구간 개통과 함께 영업을 시작했다",
+  "from_table": false,
+  "kind": "other",
+  "value": "2010년 11월 1일",
+  "keys_num": [
+   "2010",
+   "11",
+   "1",
+   "2"
+  ],
+  "keys_name": [
+   "Gyeongbu"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시 감포읍의 면적은 44.83, 인구는 5,083명, 세대는 3,170이다.",
+  "quote": "| 감포읍 | 甘浦邑 | 44.83 | 5,083 | 3,170 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "면적 44.83, 인구 5,083, 세대 3,170",
+  "keys_num": [
+   "44.83",
+   "5,083",
+   "3,170"
+  ],
+  "keys_name": [
+   "Gampo"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주의 일평균 최고 기온의 연간 값은 18.2 °C이다.",
+  "quote": "8.6 (47.5) | 18.2 (64.7) |",
+  "from_table": true,
+  "kind": "other",
+  "value": "18.2 °C",
+  "keys_num": [
+   "18.2",
+   "64.7"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시의 1970년 총인구는 280,106명이다.",
+  "quote": "| 1970년 | 280,106명 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "280,106명",
+  "keys_num": [
+   "1970",
+   "280,106"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2009년 경주시의 병원·의원 등 의료시설 건수 합계는 245개소이다.",
+  "quote": "| 건수 | 2개소 | 13개소 | 1개소 | 9개소 | 114개소 | 46개소 | 60개소 | 245개소 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "245개소",
+  "keys_num": [
+   "2009",
+   "245"
+  ],
+  "keys_name": [],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "경주시는 1985년 10월 14일 이탈리아 폼페이와 자매결연을 맺었다.",
+  "quote": "| 폼페이 | 이탈리아 | 1985년 10월 14일 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "1985년 10월 14일",
+  "keys_num": [
+   "1985",
+   "10",
+   "14"
+  ],
+  "keys_name": [
+   "Pompeii",
+   "Italy"
+  ],
+  "city": "경주시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "경주시_ko_20",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시의 2015년 12월 31일 기준 인구는 1,472,199명(580,427세대)이다.",
+  "quote": "2015년 12월 31일 기준 인구는 580,427세대, 1,472,199명이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "1,472,199명 (2015년 12월 31일 기준)",
+  "keys_num": [
+   "2015",
+   "12",
+   "31",
+   "580,427",
+   "1,472,199"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시의 면적은 501.18km2이다.",
+  "quote": "면적은 501.18km2이다.",
+  "from_table": false,
+  "kind": "area",
+  "value": "501.18km2",
+  "keys_num": [
+   "501.18"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주는 1986년 11월 직할시로 승격되어 전라남도와 별도의 행정 체계를 가졌다.",
+  "quote": "대한민국 정부 수립 이후 1986년 11월 직할시로 승격되어 전라남도와 별도의 행정 체계를 가지고",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "1986년 11월",
+  "keys_num": [
+   "1986",
+   "11"
+  ],
+  "keys_name": [
+   "Jeollanam-do"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시 광주지방기상청 관측 기후 자료의 연간 일일 평균 기온은 14.1 °C이다.",
+  "quote": "| 일일 평균 기온 °C (°F) | 1.0 (33.8) | 2.9 (37.2) | 7.5 (45.5) | 13.4 (56.1) | 18.7 (65.7) | 22.7 (72.9) | 25.9 (78.6) | 26.5 (79.7) | 22.2 (72.0) | 16.1 (61.0) | 9.6 (49.3) | 3.2 (37.8) | 14.1 (57.4) |",
+  "from_table": true,
+  "kind": "annual_mean_temp",
+  "value": "14.1 °C",
+  "keys_num": [
+   "14.1",
+   "57.4"
+  ],
+  "keys_name": [
+   "Gwangju Regional Office of Meteorology"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시 광주지방기상청 관측 기후 자료의 연간 평균 강수량은 1,380.6 mm이다.",
+  "quote": "59.0 (2.32) | 50.2 (1.98) | 37.1 (1.46) | 1,380.6 (54.35) |",
+  "from_table": true,
+  "kind": "annual_precip",
+  "value": "1,380.6 mm",
+  "keys_num": [
+   "1,380.6",
+   "54.35"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시 광주지방기상청 관측 기후 자료의 역대 최고 기온은 38.5 °C이다.",
+  "quote": "31.1 (88.0) | 27.1 (80.8) | 20.3 (68.5) | 38.5 (101.3) |",
+  "from_table": true,
+  "kind": "record_high",
+  "value": "38.5 °C",
+  "keys_num": [
+   "38.5",
+   "101.3"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시 광주지방기상청 관측 기후 자료의 역대 최저 기온은 −19.4 °C이다.",
+  "quote": "−2.7 (27.1) | −7.2 (19.0) | −13.7 (7.3) | −19.4 (−2.9) |",
+  "from_table": true,
+  "kind": "record_low",
+  "value": "−19.4 °C",
+  "keys_num": [
+   "19.4",
+   "2.9"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시에는 5개 자치구와 90개 동이 있다.",
+  "quote": "광주광역시에는 5개 자치구(광산구, 동구, 서구, 북구, 남구)와 90개 동이 있다.",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "5개 자치구, 90개 동",
+  "keys_num": [
+   "5",
+   "90"
+  ],
+  "keys_name": [
+   "Gwangsan",
+   "Dong-gu",
+   "Seo-gu",
+   "Buk-gu",
+   "Nam-gu"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_08",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "부산광역시_en",
+    "key": "Seo-gu",
+    "around": ": Gimhae International Airport ↔ Seomyeon Busanjin Station Busan Station Nampo-dong ↔ Chungmu-dong (Seo-gu Office) - Haeundae No.1: Gimhae International Airport ↔ Namcheon-dong BEXCO Dongbaekseom (Wes"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "광주에는 8개의 4년제 대학교와 8개의 전문대학이 있다.",
+  "quote": "조선대학교·광주대학교·호남대학교·광주교육대학교 등 8개의 4년제 대학교, 조선간호대학교 등을 포함한 8개의 전문대학이 있다.",
+  "from_table": false,
+  "kind": "universities_count",
+  "value": "4년제 대학교 8개, 전문대학 8개",
+  "keys_num": [
+   "8",
+   "8"
+  ],
+  "keys_name": [
+   "Chonnam National University",
+   "Chosun University"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주라는 이름은 940년 고려의 태조가 통일신라 시절 무주로 부르던 이름을 광주로 개칭한 것에서 유래한다.",
+  "quote": "광주의 이름은 940년 고려의 태조가 통일신라 시절 무주로 부르던 이름을 광주로 개칭한 것에서 유래한다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "940년",
+  "keys_num": [
+   "940"
+  ],
+  "keys_name": [
+   "Goryeo",
+   "Taejo",
+   "Muju"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_10",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_en",
+    "key": "940 + Goryeo",
+    "around": "the reign of King Gyeongdeok it was renamed to Sak-ju (삭주; 朔州) and later Gwanghae-ju (광해주; 光海州). In 940 (23th year of the reign of King Taejo) it was renamed to Chun-ju (춘주; 春州). In mid Goryeo the reg"
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "940 + Taejo",
+    "around": "the reign of King Gyeongdeok it was renamed to Sak-ju (삭주; 朔州) and later Gwanghae-ju (광해주; 光海州). In 940 (23th year of the reign of King Taejo) it was renamed to Chun-ju (춘주; 春州). In mid Goryeo the reg"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "광주광역시의 동서간 연장거리는 34.3km, 남북간 연장거리는 23.1km이다.",
+  "quote": "동서간, 남북간의 연장거리 간격은 각각 34.3km, 23.1km이다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "동서 34.3km, 남북 23.1km",
+  "keys_num": [
+   "34.3",
+   "23.1"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시 북구의 면적은 120.29km2이고 인구는 446,316명이다.",
+  "quote": "| 북구 | 北區 | 178,735 | 446,316 | 120.29 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "120.29km2",
+  "keys_num": [
+   "178,735",
+   "446,316",
+   "120.29"
+  ],
+  "keys_name": [
+   "Buk-gu"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시의 1960년 인구는 409,283명이다.",
+  "quote": "| 1960년 | 409,283 | | |",
+  "from_table": true,
+  "kind": "population",
+  "value": "409,283명 (1960년)",
+  "keys_num": [
+   "1960",
+   "409,283"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전라남도청은 2005년에 전라남도 무안군 삼향읍 남악리로 이전했다.",
+  "quote": "전라남도청은 2005년에 전라남도 무안군 삼향읍 남악리로 이전했다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2005년",
+  "keys_num": [
+   "2005"
+  ],
+  "keys_name": [
+   "Jeollanam-do Provincial Office",
+   "Muan",
+   "Samhyang",
+   "Namak"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2012년 광주광역시의 지역내총생산(GRDP)은 26조 7,700억 원이고 실질성장률은 0.7%이다.",
+  "quote": "2012년 광주광역시의 지역내총생산(GRDP)은 26조 7,700억 원이며, 실질성장률은 0.7%이다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "26조 7,700억 원",
+  "keys_num": [
+   "2012",
+   "26",
+   "7,700",
+   "0.7"
+  ],
+  "keys_name": [
+   "GRDP"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시 광산업의 2012년 고용인원은 8,242명이다.",
+  "quote": "| 고용인원(명) | 1,896 | 2,834 | 6,018 | 8,242 | 8,445 | 6,799 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "8,242명",
+  "keys_num": [
+   "1,896",
+   "2,834",
+   "6,018",
+   "8,242",
+   "8,445",
+   "6,799"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주를 연고지로 하는 프로 야구단 KIA 타이거즈의 창단연도는 1982년이고 홈 경기장은 광주기아챔피언스필드이다.",
+  "quote": "| KBO 리그 | KIA 타이거즈 | 1982년 | 광주기아챔피언스필드 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "1982년",
+  "keys_num": [
+   "1982"
+  ],
+  "keys_name": [
+   "KIA Tigers",
+   "KBO League",
+   "Gwangju-Kia Champions Field"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주 도시철도 1호선 1구간은 2004년 4월 28일 동구 소태동에서 서구 상무 신시가지까지 개통되었다.",
+  "quote": "2004년 4월 28일 동구 소태동에서부터 서구 상무 신시가지까지를 잇는 광주 도시철도 1호선 1구간이 개통되었고",
+  "from_table": false,
+  "kind": "other",
+  "value": "2004년 4월 28일",
+  "keys_num": [
+   "2004",
+   "4",
+   "28",
+   "1"
+  ],
+  "keys_name": [
+   "Gwangju Metro Line 1",
+   "Sotae",
+   "Sangmu"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "오송역에서 광주송정역 구간의 호남고속선 1단계 공사는 2015년 4월 2일에 완공되어 용산역에서 광주송정역까지 1시간 30분대에 이용할 수 있다.",
+  "quote": "2015년 4월 2일에 오송역에서 광주송정역 구간의 호남고속선 1단계 공사가 완공되어 용산역에서 광주송정역까지 1시간 30분대에 이용이 가능하다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2015년 4월 2일",
+  "keys_num": [
+   "2015",
+   "4",
+   "2",
+   "1",
+   "30"
+  ],
+  "keys_name": [
+   "Osong",
+   "Gwangju-Songjeong",
+   "Yongsan",
+   "Honam High-speed Railway"
+  ],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "광주광역시의 버스는 2006년 12월 21일부터 준공영제와 무료환승제가 시행되고 있다.",
+  "quote": "2006년 12월 21일부터 준공영제와 무료환승제가 시행되고 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2006년 12월 21일",
+  "keys_num": [
+   "2006",
+   "12",
+   "21"
+  ],
+  "keys_name": [],
+  "city": "광주광역시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "광주광역시_ko_20",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산광역시의 인구는 2024년 기준 330만 명이 넘는다.",
+  "quote": "it has a population of over 3.3 million as of 2024",
+  "from_table": false,
+  "kind": "population",
+  "value": "3.3 million (2024)",
+  "keys_num": [
+   "3.3",
+   "2024"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산광역시는 15개 구와 1개 군으로 나뉜다.",
+  "quote": "Today, Busan has divided into fifteen gu and one gun (county).",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "15개 구, 1개 군",
+  "keys_num": [],
+  "keys_name": [
+   "구",
+   "군"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산은 1963년 경상남도에서 분리되어 대한민국 최초의 직할시가 되었다.",
+  "quote": "In 1963, Busan separated from South Gyeongsang Province to become the first Directly Governed City of South Korea.",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "1963",
+  "keys_num": [
+   "1963"
+  ],
+  "keys_name": [
+   "경상남도",
+   "직할시"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 쾨펜 기후 구분은 Cfa이며 Cwa에 가깝다.",
+  "quote": "(Köppen: Cfa, bordering on Cwa)",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "Cfa (Cwa에 인접)",
+  "keys_num": [],
+  "keys_name": [
+   "온난습윤기후"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 역대 최고 기온은 38.8 °C이다.",
+  "quote": "The highest temperature ever recorded is 38.8 °C (101.8 °F)",
+  "from_table": false,
+  "kind": "record_high",
+  "value": "38.8 °C",
+  "keys_num": [
+   "38.8"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 역대 최저 기온은 -14.0 °C이다.",
+  "quote": "the lowest temperature ever recorded is −14.0 °C (6.8 °F)",
+  "from_table": false,
+  "kind": "record_low",
+  "value": "−14.0 °C",
+  "keys_num": [
+   "−14.0"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 연평균 기온은 15.0 °C이다.",
+  "quote": "Daily mean °C (°F) | 3.6 (38.5) | 5.4 (41.7) | 9.1 (48.4) | 13.8 (56.8) | 17.9 (64.2) | 21.0 (69.8) | 24.4 (75.9) | 26.1 (79.0) | 22.6 (72.7) | 17.9 (64.2) | 11.9 (53.4) | 5.8 (42.4) | 15.0 (59.0)",
+  "from_table": true,
+  "kind": "annual_mean_temp",
+  "value": "15.0 °C",
+  "keys_num": [
+   "15.0"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 연 강수량은 1,576.7 mm이다.",
+  "quote": "nches) | 34.5 (1.36) | 49.6 (1.95) | 89.7 (3.53) | 140.9 (5.55) | 155.9 (6.14) | 188.4 (7.42) | 326.8 (12.87) | 266.5 (10.49) | 160.6 (6.32) | 79.6 (3.13) | 50.4 (1.98) | 33.8 (1.33) | 1,576.7 (62.07)",
+  "from_table": true,
+  "kind": "annual_precip",
+  "value": "1,576.7 mm",
+  "keys_num": [
+   "1,576.7"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 연간 가능 일조율은 52.3%이다.",
+  "quote": "Percentage possible sunshine | 63.6 | 59.3 | 52.0 | 53.6 | 51.1 | 41.4 | 37.5 | 48.2 | 44.9 | 59.6 | 62.6 | 67.0 | 52.3",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "52.3",
+  "keys_num": [
+   "52.3"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산문화회관의 좌석 수는 2,389석이다.",
+  "quote": "1 | Busan Cultural Center | 2,389",
+  "from_table": true,
+  "kind": "other",
+  "value": "2,389",
+  "keys_num": [
+   "2,389"
+  ],
+  "keys_name": [
+   "부산문화회관"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "벡스코 오디토리움의 좌석 수는 2,644석이다.",
+  "quote": "3 | BEXCO Auditorium | 2,644",
+  "from_table": true,
+  "kind": "other",
+  "value": "2,644",
+  "keys_num": [
+   "2,644"
+  ],
+  "keys_name": [
+   "벡스코"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산대학교병원의 병상 수는 1180개이다.",
+  "quote": "Pusan National University Hospital at Busan | 1180",
+  "from_table": true,
+  "kind": "other",
+  "value": "1180",
+  "keys_num": [
+   "1180"
+  ],
+  "keys_name": [
+   "부산대학교병원"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "동아대학교병원의 병상 수는 920개이다.",
+  "quote": "Dong-A University Hospital | 920",
+  "from_table": true,
+  "kind": "other",
+  "value": "920",
+  "keys_num": [
+   "920"
+  ],
+  "keys_name": [
+   "동아대학교병원"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "롯데 자이언츠의 홈구장 사직야구장의 수용 인원은 28,500명이다.",
+  "quote": "Lotte Giants | KBO League | Sajik Baseball Stadium | 28,500 | Baseball",
+  "from_table": true,
+  "kind": "other",
+  "value": "28,500",
+  "keys_num": [
+   "28,500"
+  ],
+  "keys_name": [
+   "롯데 자이언츠",
+   "사직야구장"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산 아이파크의 홈구장 부산 구덕운동장의 수용 인원은 12,349명이다.",
+  "quote": "Busan IPark | K League 2 | Busan Gudeok Stadium | 12,349 | Football",
+  "from_table": true,
+  "kind": "other",
+  "value": "12,349",
+  "keys_num": [
+   "12,349"
+  ],
+  "keys_name": [
+   "부산 아이파크",
+   "구덕운동장"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산의 인구는 1990년 3,798,113명으로 표에서 가장 많았다.",
+  "quote": "1990 | 3,798,113 | +20.2%",
+  "from_table": true,
+  "kind": "other",
+  "value": "3,798,113",
+  "keys_num": [
+   "1990",
+   "3,798,113"
+  ],
+  "keys_name": [],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산항은 2020년 컨테이너 물동량 2,181만 TEU를 처리했다.",
+  "quote": "the port of Busan processed 21.81 million TEU of container cargo volume in 2020",
+  "from_table": false,
+  "kind": "other",
+  "value": "21.81 million TEU",
+  "keys_num": [
+   "21.81",
+   "2020"
+  ],
+  "keys_name": [
+   "부산항"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2002년 부산 아시안 게임에는 44개국 9,900명의 선수가 38개 종목에 참가했다.",
+  "quote": "9,900 athletes from 44 countries competed in 38 sports",
+  "from_table": false,
+  "kind": "other",
+  "value": "9,900명, 44개국, 38개 종목",
+  "keys_num": [
+   "9,900",
+   "44",
+   "38",
+   "2002"
+  ],
+  "keys_name": [
+   "아시안 게임"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "부산은 1876년 강화도 조약에 따라 한국 최초의 국제 항구가 되었다.",
+  "quote": "In 1876, Busan became the first international port in Korea under the terms of the Treaty of Ganghwa.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1876",
+  "keys_num": [
+   "1876"
+  ],
+  "keys_name": [
+   "강화도 조약"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2003년 9월 12일 태풍 매미로 부산에서 48명이 넘게 사망했다.",
+  "quote": "An unusually severe storm on September 12, 2003, Typhoon Maemi, also caused damage to ships and buildings and resulted in over 48 fatalities.",
+  "from_table": false,
+  "kind": "other",
+  "value": "48명 이상",
+  "keys_num": [
+   "2003",
+   "48"
+  ],
+  "keys_name": [
+   "태풍 매미"
+  ],
+  "city": "부산광역시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "부산광역시_en_20",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 2025년 12월 말 기준 주민등록 인구는 391,965명이다.",
+  "quote": "2025년 12월 말 기준 세종특별자치시의 주민등록 인구는 391,965명, 세대수는 165,220세대이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "391,965명 (2025년 12월 말)",
+  "keys_num": [
+   "2025",
+   "391,965",
+   "165,220"
+  ],
+  "keys_name": [
+   "Sejong"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 면적은 465km2로 서울시 면적의 약 70%이다.",
+  "quote": "면적은 465km2로 서울시 면적의 약 70%며",
+  "from_table": false,
+  "kind": "area",
+  "value": "465km2",
+  "keys_num": [
+   "465",
+   "70"
+  ],
+  "keys_name": [
+   "Seoul"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시는 2012년 7월 1일에 출범하였다.",
+  "quote": "2012년 7월 1일에 출범하였다.",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "2012년 7월 1일",
+  "keys_num": [
+   "2012",
+   "7",
+   "1"
+  ],
+  "keys_name": [],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다.",
+  "quote": "시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다.",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "1읍 9면 14행정동 18법정동 122리",
+  "keys_num": [
+   "1",
+   "9",
+   "14",
+   "18",
+   "122"
+  ],
+  "keys_name": [],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시는 대한민국의 유일한 특별자치시이다.",
+  "quote": "세종특별자치시(世宗特別自治市, 영어: Sejong City)는 대한민국의 유일한 특별자치시이다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "대한민국의 유일한 특별자치시",
+  "keys_num": [],
+  "keys_name": [
+   "Sejong City",
+   "Special Self-Governing City"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 시 명칭은 국민 공모를 통해 선정되었으며 조선 세종의 묘호를 따랐다.",
+  "quote": "시의 명칭은 국민 공모를 통해 선정되었으며, 조선 세종의 묘호를 따라서 세상(世)의 으뜸(宗)이라는 의미를 담고 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "조선 세종의 묘호",
+  "keys_num": [],
+  "keys_name": [
+   "Sejong the Great",
+   "Joseon"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_06",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_en",
+    "key": "Joseon",
+    "around": "ed to do heavy labor along slaves. The rebellion was soon suppressed forty days after it began. ### Joseon (1392–1897) The Joseon defeated Goryeo and founded a new dynasty in 1392 and took all their p"
+   },
+   {
+    "doc": "전주시_en",
+    "key": "Joseon",
+    "around": "ong slaves. The rebellion was soon suppressed forty days after it began. ### Joseon (1392–1897) The Joseon defeated Goryeo and founded a new dynasty in 1392 and took all their possessions including Je"
+   },
+   {
+    "doc": "청주시_en",
+    "key": "Joseon",
+    "around": "bute to Buddha. It was listed as a National Treasure in 1962 by the South Korean government. In the Joseon period the Cheongju region began to adopt Confucianism as its main religion. Throughout the h"
+   },
+   {
+    "doc": "청주시_en",
+    "key": "Joseon",
+    "around": "ongju during 1896. During the Baekje period several tombs were built around the city in addition to Joseon forts such as Sangdangsanseong which served to connect the northern and southern provinces af"
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "Joseon",
+    "around": "| 25231 | | Sinsau-dong | 신사우동 | 11.6 | 25041 | | Total | 1166.8 | 290281 | | | ## Education In the Joseon dynasty Chuncheon Hyanggyo was in Gyo-dong. As of 2015 there are 42 elementary schools 18 mid"
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "Joseon",
+    "around": "5 is held to honor Ryu In-seok who organized an army against Japanese imperialism at the end of the Joseon Dynasty. In May Chuncheon Mime Festival which began in 1993 is held for the popularization an"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "Sejong the Great",
+    "around": "usan (부산포) and a waegwan (Japanese concession community) were established. During the reign of King Sejong the Great (r. 1418–1450) the population in Dongnae-hyeon was reportedly 2416 people in 290 ho"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "Joseon",
+    "around": "Hall. ### Festivals A variety of festivals are held in the Busan throughout the year. Following the Joseon Tongsinsa Festival (Registration of Documents on Joseon Tongsinsa on the UNESCO Memory of the"
+   },
+   {
+    "doc": "안동시_en",
+    "key": "Joseon",
+    "around": "yeo army led by Wanggeon who won control of the city and renamed it Andong. After the ascent of the Joseon dynasty to the throne of Korea Andong became a centre of Confucianism. The area was extremely"
+   },
+   {
+    "doc": "안동시_en",
+    "key": "Joseon",
+    "around": " of the dish. One is that the it is a specialty food of the inner rich village of Andong during the Joseon period prepared and eaten for special occasions. The more likely explanation is that during t"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "Joseon",
+    "around": "# History Gangneung was the home of the Yemaek people in ancient times and became the land of Wiman Joseon in 129 BC. In 128 BC Nam Ryeo the army officer of Yaekam punished Wujang of Wiman Korea and b"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "Joseon",
+    "around": "gneung-do but it has always been the center of administration and military. At the beginning of the Joseon Dynasty it called to Hwadangdo and Wonchundo and rename Gangneung by the name of Gangwon Prov"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "1977년 박정희 정부의 백지계획은 수도 이전 최종 후보지로 공주군 장기면(현 세종특별자치시 장군면)을 선정하였다.",
+  "quote": "최종적으로 공주군 장기면(현 세종특별자치시 장군면)을 선정하였다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "공주군 장기면 (현 장군면)",
+  "keys_num": [
+   "1977"
+  ],
+  "keys_name": [
+   "Park Chung-hee",
+   "Gongju",
+   "Janggi",
+   "Janggun"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "헌법재판소는 2004년 10월 '신행정수도 건설 특별법'에 위헌 결정을 내렸다.",
+  "quote": "헌법재판소는 2004년 10월 서울이 수도라는 관습 헌법이 존재한다는 판단을 내리며",
+  "from_table": false,
+  "kind": "other",
+  "value": "2004년 10월",
+  "keys_num": [
+   "2004",
+   "10"
+  ],
+  "keys_name": [
+   "Constitutional Court"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 주민등록 인구는 2015년 10월에 20만 명을 돌파했다.",
+  "quote": "2015년 10월: 세종특별자치시의 주민등록 인구가 20만 명을 돌파하였다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2015년 10월",
+  "keys_num": [
+   "2015",
+   "10",
+   "20"
+  ],
+  "keys_name": [],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시 조치원읍의 면적은 13.56km2, 인구는 40,796명, 세대는 20,738이다.",
+  "quote": "| 조치원읍 | 鳥致院邑 | 13.56 | 40,796 | 20,738 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "인구 40,796명",
+  "keys_num": [
+   "13.56",
+   "40,796",
+   "20,738"
+  ],
+  "keys_name": [
+   "Jochiwon"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 2023년 총인구는 386,525명이다.",
+  "quote": "| 2023년 | 386,525 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "386,525명 (2023년)",
+  "keys_num": [
+   "2023",
+   "386,525"
+  ],
+  "keys_name": [],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 2019년 출생은 3,895명, 사망은 1,236명, 혼인은 1,899쌍, 이혼은 403쌍이다.",
+  "quote": "| 2019년 | 3,895 | 1,236 | 1,899 | 403 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "출생 3,895명",
+  "keys_num": [
+   "2019",
+   "3,895",
+   "1,236",
+   "1,899",
+   "403"
+  ],
+  "keys_name": [],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_12",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_en",
+    "key": "2019 + Sejong",
+    "around": "seon Dynasty and restoration work began in December 2017 and construction was completed in December 2019. It opened in June 2020. Also Chojeong Mineral Water produced near here is quite famous carbona"
+   },
+   {
+    "doc": "청주시_en",
+    "key": "2019 + Sejong",
+    "around": "seon Dynasty and restoration work began in December 2017 and construction was completed in December 2019. It opened in June 2020. Also Chojeong Mineral Water produced near here is quite famous carbona"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "세종특별자치시에서 중앙행정기관 이전은 2012년 9월 14일 국무총리실의 이전으로 시작되었다.",
+  "quote": "2012년 9월 14일 국무총리실의 이전을 시작으로 중앙행정기관의 본격적인 정부세종청사 이주가 시작되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2012년 9월 14일",
+  "keys_num": [
+   "2012",
+   "9",
+   "14"
+  ],
+  "keys_name": [
+   "Government Complex Sejong",
+   "Office for Government Policy Coordination"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 정부세종청사로 이전한 기관은 중앙행정기관 16개와 소속기관 20개를 합쳐 36개 기관이다.",
+  "quote": "| 36개 기관 | 16개 기관 (9부, 2처, 2청, 1실, 2위원회) | 20개 기관 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "36개 기관",
+  "keys_num": [
+   "36",
+   "16",
+   "9",
+   "2",
+   "20"
+  ],
+  "keys_name": [],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시의 대통령기록관은 2015년 4월 신청사가 준공되었고 같은 해 11월 20일부터 업무를 개시했다.",
+  "quote": "같은 해 11월 20일부터 업무를 개시하였다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2015년 11월 20일",
+  "keys_num": [
+   "2015",
+   "4",
+   "11",
+   "20"
+  ],
+  "keys_name": [
+   "Presidential Archives"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시에는 2012년 9월부터 대전 도시철도 1호선 반석역과 오송역 사이 30.7km 구간에 간선급행버스체계 B2가 운행되고 있다.",
+  "quote": "대전 도시철도 1호선 반석역 ~ 행정중심복합도시 ~ 오송역 30.7km에 간선급행버스체계 B2를 운행하고 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "30.7km",
+  "keys_num": [
+   "2012",
+   "9",
+   "1",
+   "30.7",
+   "2"
+  ],
+  "keys_name": [
+   "Banseok",
+   "Osong",
+   "BRT"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시에서 열리는 축제 중 조치원 복숭아 축제는 8월에, 세종축제는 10월에 열린다.",
+  "quote": "| 조치원 복숭아 축제 | 8월 | 복숭아와 어울림, 복사꽃 새싹공연, 축하공연 | 복숭아축제추진위원회 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "8월",
+  "keys_num": [
+   "8"
+  ],
+  "keys_name": [
+   "Jochiwon Peach Festival",
+   "Sejong Festival"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "세종특별자치시에는 조치원읍에 고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스가 있다.",
+  "quote": "세종특별자치시에는 조치원읍에 고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스, 전의면에 대전가톨릭대학교, 장군면에 한국영상대학교가 있고",
+  "from_table": false,
+  "kind": "other",
+  "value": "고려대학교 세종캠퍼스, 홍익대학교 세종캠퍼스",
+  "keys_num": [],
+  "keys_name": [
+   "Korea University Sejong Campus",
+   "Hongik University Sejong Campus",
+   "Jochiwon"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2021년 9월 28일 국회법 개정으로 세종특별자치시에 국회 분원인 세종의사당을 두는 규정이 마련되었다.",
+  "quote": "2021년 9월 28일, 제21대 국회에서 국회법 개정을 통해 세종특별자치시에 국회 분원 의사당을 설치하도록 하는 법 규정이 마련됐다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2021년 9월 28일",
+  "keys_num": [
+   "2021",
+   "9",
+   "28",
+   "21"
+  ],
+  "keys_name": [
+   "National Assembly Sejong Hall"
+  ],
+  "city": "세종특별자치시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "세종특별자치시_ko_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 인구는 2023년 기준 1,233,431명이다.",
+  "quote": "수원시의 인구는 2023년 기준 537,078세대 1,233,431명이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "1,233,431명 (2023년 기준)",
+  "keys_num": [
+   "2023",
+   "1,233,431"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 총 면적은 121.05 km2이다.",
+  "quote": "수원시의 총 면적은 121.05 km2의 주형 분지로 되어 있다.",
+  "from_table": false,
+  "kind": "area",
+  "value": "121.05 km2",
+  "keys_num": [
+   "121.05"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시는 1949년에 부(현재의 시)로 승격되었다.",
+  "quote": "| 1949년 | 52,772명 | | 1949년 8월 14일 시 승격 |",
+  "from_table": true,
+  "kind": "city_status_year",
+  "value": "1949년",
+  "keys_num": [
+   "1949",
+   "8",
+   "14"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 연평균 기온은 13.1°C이다.",
+  "quote": "연평균 기온은 13.1°C이고",
+  "from_table": false,
+  "kind": "annual_mean_temp",
+  "value": "13.1°C",
+  "keys_num": [
+   "13.1"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시 기후 표의 연 평균 강수량은 1,320.3 mm이다(본문에는 13,996.5 mm로 적혀 서로 다르다).",
+  "quote": "| 122.9 (4.84) | 385.1 (15.16) | 296.3 (11.67) | 133.5 (5.26) | 54.1 (2.13) | 48.9 (1.93) | 25.8 (1.02) | 1,320.3 (51.98) |",
+  "from_table": true,
+  "kind": "annual_precip",
+  "value": "1,320.3 mm",
+  "keys_num": [
+   "1,320.3",
+   "51.98"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 쾨펜 기후 구분은 냉대 동계 소우 기후(Dwa)이다.",
+  "quote": "냉대 동계 소우 기후(Dwa)이다. 겨울에는 저온건조하고",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "냉대 동계 소우 기후(Dwa)",
+  "keys_num": [],
+  "keys_name": [
+   "Dwa",
+   "Humid continental"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_06",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_en",
+    "key": "Dwa",
+    "around": "lassification Cwa) with winter being warm enough to avoid being classified as an humid continental (Dwa) if the 0 °C isotherm is used. Jeonju like all of Korea has four distinct seasons (spring summer"
+   },
+   {
+    "doc": "전주시_en",
+    "key": "Humid continental",
+    "around": "e (Köppen climate classification Cwa) with winter being warm enough to avoid being classified as an humid continental (Dwa) if the 0 °C isotherm is used. Jeonju like all of Korea has four distinct sea"
+   },
+   {
+    "doc": "청주시_en",
+    "key": "Dwa",
+    "around": " is a temperate zone so there are four seasons. The climate is a humid continental climate (Köppen: Dwa) but can be considered a borderline humid subtropical climate (Köppen: Cwa) using the −3 °C (27 "
+   },
+   {
+    "doc": "청주시_en",
+    "key": "Humid continental",
+    "around": "e of Cheongju. ### Climate Cheongju is a temperate zone so there are four seasons. The climate is a humid continental climate (Köppen: Dwa) but can be considered a borderline humid subtropical climate"
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "Dwa",
+    "around": "ake are developed. ## Climate Chuncheon has a monsoon-influenced humid continental climate (Köppen: Dwa) with cold dry winters and hot rainy summers. The lowest measured temperature was −27.9 °C (−18 "
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "Humid continental",
+    "around": "ido Jungdo and Bungeoseom in Uiam Lake are developed. ## Climate Chuncheon has a monsoon-influenced humid continental climate (Köppen: Dwa) with cold dry winters and hot rainy summers. The lowest meas"
+   },
+   {
+    "doc": "천안시_en",
+    "key": "Dwa",
+    "around": " Asan Jincheon Pyeongtaek and Anseong. ### Climate Cheonan has a humid continental climate (Köppen: Dwa) but can be considered a borderline humid subtropical climate (Köppen: Cwa) using the −3 °C (27 "
+   },
+   {
+    "doc": "천안시_en",
+    "key": "Humid continental",
+    "around": "nect to Seoul Daejeon Sejong Gongju Asan Jincheon Pyeongtaek and Anseong. ### Climate Cheonan has a humid continental climate (Köppen: Dwa) but can be considered a borderline humid subtropical climate"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "Dwa",
+    "around": "it attracts tourists from all over the country to its six beaches. Luxury hotels and a carnival boardwalk line the beach at Haeundae. Gwangalli Beach has cafés bars and restaurants along the beach and"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "Dwa",
+    "around": "useum features special art pieces including artwork made with wires. Jeonpo Café Street a former hardware district in Busanjin-gu has been transformed into a cafe hub and was highlighted in the New Yo"
+   },
+   {
+    "doc": "안동시_en",
+    "key": "Dwa",
+    "around": "Andong International Mask Dance Festival ## Climate Andong has a humid continental climate (Köppen: Dwa) but can be considered a borderline humid subtropical climate (Köppen: Cwa) using the −3 °C (27 "
+   },
+   {
+    "doc": "안동시_en",
+    "key": "Humid continental",
+    "around": " parks and Unbu parks. ## Festival Andong International Mask Dance Festival ## Climate Andong has a humid continental climate (Köppen: Dwa) but can be considered a borderline humid subtropical climate"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "Dwa",
+    "around": "since 2014 Algemesí Spain since 2015 ## Notable people Choi Kyu-Ha former president of South Korea Edward Young-min Kwon celebrity chef Yeon Woo-jin actor JR (NU'EST) idol Yezi (Fiestar) idol Kim Seo-"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "수원시의 역대 최고 기온은 8월의 39.3°C이다.",
+  "quote": "| 역대 최고 기온 °C (°F) | 15.3 (59.5) | 19.3 (66.7) | 25.0 (77.0) | 30.5 (86.9) | 33.2 (91.8) | 35.1 (95.2) | 37.5 (99.5) | 39.3 (102.7) |",
+  "from_table": true,
+  "kind": "record_high",
+  "value": "39.3°C (8월)",
+  "keys_num": [
+   "39.3",
+   "102.7"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 역대 최저 기온은 2월의 −25.8°C이다.",
+  "quote": "| 역대 최저 기온 °C (°F) | −24.8 (−12.6) | −25.8 (−14.4) |",
+  "from_table": true,
+  "kind": "record_low",
+  "value": "−25.8°C (2월)",
+  "keys_num": [
+   "25.8",
+   "14.4"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 행정 구역은 4개 구, 44개 행정동, 56개 법정동이다.",
+  "quote": "수원시의 행정 구역은 장안구, 권선구, 팔달구, 영통구의 4개 구로 44개 행정동, 56개 법정동을 두고 있다.",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "4개 구, 44개 행정동, 56개 법정동",
+  "keys_num": [
+   "4",
+   "44",
+   "56"
+  ],
+  "keys_name": [
+   "Jangan",
+   "Gwonseon",
+   "Paldal",
+   "Yeongtong"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시 권선구의 면적은 47.17 km2로 네 개 구 가운데 가장 넓다.",
+  "quote": "| 권선구 | 勸善區 | 47.17 | 347,928 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "47.17",
+  "keys_num": [
+   "47.17",
+   "347,928"
+  ],
+  "keys_name": [
+   "Gwonseon"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시 팔달구의 면적은 12.86 km2이다.",
+  "quote": "| 팔달구 | 八達區 | 12.86 | 217,229 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "12.86 km2",
+  "keys_num": [
+   "12.86",
+   "217,229"
+  ],
+  "keys_name": [
+   "Paldal"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 2000년 총인구는 946,704명이다.",
+  "quote": "| 2000년 | 946,704명 | | 외국인: 2,465 (0.3%) |",
+  "from_table": true,
+  "kind": "other",
+  "value": "946,704명",
+  "keys_num": [
+   "2000",
+   "946,704",
+   "2,465"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 제조업 사업체 수는 2009년 3,000개에서 2018년 3,892개로 29.7% 늘었다.",
+  "quote": "| 제조업 | 3,000 | 3,892 | 29.7 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "3,892개 (2018년)",
+  "keys_num": [
+   "2009",
+   "2018",
+   "3,000",
+   "3,892",
+   "29.7"
+  ],
+  "keys_name": [],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원 화성은 1997년 12월 4일 유네스코 세계문화유산에 등록되었다.",
+  "quote": "수원 화성은 1997년 12월 4일 유네스코 세계문화유산에 등록되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1997년 12월 4일",
+  "keys_num": [
+   "1997",
+   "12",
+   "4"
+  ],
+  "keys_name": [
+   "Hwaseong Fortress",
+   "UNESCO World Heritage"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시에서 2023년 기준 인구가 가장 많은 구는 권선구로 347,928명이다.",
+  "quote": "권선구가 347,928명(수원시 인구의 28.8%)로 가장 많은 비율을 차지하고",
+  "from_table": false,
+  "kind": "other",
+  "value": "권선구 347,928명",
+  "keys_num": [
+   "2023",
+   "347,928",
+   "28.8"
+  ],
+  "keys_name": [
+   "Gwonseon"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시 영통구 광교동은 61,145명으로 수원시의 동 가운데 인구가 가장 많다.",
+  "quote": "영통구 광교동이 61,145명으로 수원시의 동 중 가장 인구가 많고",
+  "from_table": false,
+  "kind": "other",
+  "value": "광교동 61,145명",
+  "keys_num": [
+   "61,145"
+  ],
+  "keys_name": [
+   "Gwanggyo",
+   "Yeongtong"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시에서 가장 높은 산은 광교산으로 높이가 582 m이다.",
+  "quote": "북쪽에는 수원에서 가장 높은 산인 광교산 (582 m)을 필두로",
+  "from_table": false,
+  "kind": "other",
+  "value": "광교산 582 m",
+  "keys_num": [
+   "582"
+  ],
+  "keys_name": [
+   "Gwanggyosan"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원시의 대표적인 지진으로 1613년 7월 6일경 발생한 규모 6.3의 1613년 수원 지진이 있다.",
+  "quote": "1613년 7월 6일경 발생한 규모 M6.3의 1613년 수원 지진이 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "규모 6.3 (1613년)",
+  "keys_num": [
+   "1613",
+   "7",
+   "6",
+   "6.3"
+  ],
+  "keys_name": [
+   "1613 Suwon earthquake"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "수원 화성행궁의 1단계 복원은 2003년 10월 일반에게 공개되었다.",
+  "quote": "1996년 복원공사가 시작되어 마침내 화성행궁 1단계 복원이 완료되어 2003년 10월 일반에게 공개하기에 이르렀다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2003년 10월",
+  "keys_num": [
+   "1996",
+   "2003",
+   "10"
+  ],
+  "keys_name": [
+   "Hwaseong Haenggung"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2021년 프로농구단 KT 소닉붐이 부산광역시에서 수원시로 연고지를 옮겼다.",
+  "quote": "2021년 프로농구단 KBL KT 소닉붐이 부산광역시에서 수원시로 연고지 이전해 오면서",
+  "from_table": false,
+  "kind": "other",
+  "value": "2021년",
+  "keys_num": [
+   "2021"
+  ],
+  "keys_name": [
+   "KT Sonicboom",
+   "Busan"
+  ],
+  "city": "수원시",
+  "lang": "ko",
+  "group": "한 언어 도시",
+  "id": "수원시_ko_20",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "부산광역시_en",
+    "key": "2021 + KT Sonicboom",
+    "around": " (KBL) and Busan BNK Sum (WKBL). Busan BNK Sum previously used the Geumjeong Gymnasium from 2019 to 2021 before moving to Sajik Arena. KBL franchises that formerly used Sajik Arena include KT Sonicboo"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2021 + Busan",
+    "around": " (KBL) and Busan BNK Sum (WKBL). Busan BNK Sum previously used the Geumjeong Gymnasium from 2019 to 2021 before moving to Sajik Arena. KBL franchises that formerly used Sajik Arena include KT Sonicboo"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "안동시의 인구는 2010년 10월 기준 167,821명이다.",
+  "quote": "with a population of 167,821 as of October 2010",
+  "from_table": false,
+  "kind": "population",
+  "value": "167,821 (October 2010)",
+  "keys_num": [
+   "167,821",
+   "2010"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시는 1개 읍, 13개 면, 10개 동으로 나뉜다.",
+  "quote": "Andong is divided into 1 eup, 13 myeon and 10 dong.",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "1 eup, 13 myeon, 10 dong",
+  "keys_num": [
+   "1",
+   "13",
+   "10"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 쾨펜 기후 구분은 Dwa(습윤 대륙성 기후)이다.",
+  "quote": "Andong has a humid continental climate (Köppen: Dwa)",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "Dwa",
+  "keys_num": [],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 연평균 기온은 12.2 °C이다.",
+  "quote": "| Daily mean °C (°F) | −1.8 (28.8) | 0.8 (33.4) | 6.0 (42.8) | 12.4 (54.3) | 17.8 (64.0) | 21.9 (71.4) | 24.8 (76.6) | 25.1 (77.2) | 20.0 (68.0) | 13.5 (56.3) | 6.4 (43.5) | −0.1 (31.8) | 12.2 (54.0) |",
+  "from_table": true,
+  "kind": "annual_mean_temp",
+  "value": "12.2 °C",
+  "keys_num": [
+   "12.2"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 연 강수량은 1,045.7 mm이다.",
+  "quote": "Average precipitation mm (inches) | 16.7 (0.66)",
+  "from_table": true,
+  "kind": "annual_precip",
+  "value": "1,045.7 mm",
+  "keys_num": [
+   "1,045.7"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 연간 가능 일조율은 49.3%이다.",
+  "quote": "| Percentage possible sunshine | 59.9 | 59.7 | 54.1 | 55.6 | 51.4 | 43.4 | 33.4 | 39.8 | 40.5 | 52.0 | 53.5 | 58.9 | 49.3 |",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "49.3%",
+  "keys_num": [
+   "49.3"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 역대 최고 기온은 7월의 38.9 °C이다.",
+  "quote": "| Record high °C (°F) | 13.2 (55.8) | 23.2 (73.8) | 26.6 (79.9) | 32.1 (89.8) | 35.1 (95.2) | 35.7 (96.3) | 38.9 (102.0) |",
+  "from_table": true,
+  "kind": "record_high",
+  "value": "38.9 °C",
+  "keys_num": [
+   "38.9"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 역대 최저 기온은 1월의 −20.4 °C이다.",
+  "quote": "| Record low °C (°F) | −20.4 (−4.7) | −18.6 (−1.5)",
+  "from_table": true,
+  "kind": "record_low",
+  "value": "−20.4 °C",
+  "keys_num": [
+   "−20.4"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 자매도시는 코린토스, 쿠스코, 핑딩산, 사가에, 시안, 슈샤 등 6곳이다.",
+  "quote": "Andong has a sister city relationship with:",
+  "from_table": false,
+  "kind": "sister_cities_count",
+  "value": "6",
+  "keys_num": [
+   "6"
+  ],
+  "keys_name": [
+   "코린토스",
+   "쿠스코",
+   "핑딩산",
+   "사가에",
+   "시안",
+   "슈샤"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_ko",
+    "key": "시안",
+    "around": "박물관 권진규 미술관 춘천막국수체험박물관 모형항공기박물관 애니메이션박물관 이상원 미술관 춘천미술관 한림대학교박물관 #### 기타 구봉산 전망대 명동 상상마당 춘천 소양강처녀상 엘리시안 강촌 춘천향교 춘천인형극장 물레길 봄내길 자전거길 ### 문화 및 향토 축제 김유정문학제 (김유정 추모제 3/29) 춘천마임축제 춘천아트페스티벌 춘천古음악축제 춘천인형극제 춘"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "시안",
+    "around": "오바마시 | 일본 | 1977년 2월 13일 | | 폼페이 | 이탈리아 | 1985년 10월 14일 | | 베르사유 | 프랑스 | 1987년 4월 15일 | | 산시성 (섬서성) 시안시 | 중화인민공화국 | 1994년 11월 18일 | | 후에시 | 베트남 | 2007년 9월 7일 | | 니트라 | 슬로바키아 | 2014년 8월 21일 | | 오이타현 우사"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "시안",
+    "around": "용으로 각각 양해각서를 체결하였다. KAIST에 할당될 공간은 약 30만 9821m2이다. ## 방송·언론 ## 국회의원 ## 교육감 ## 사건·사고 및 논란 ### 충청남도 세종시안과 정부 직할 세종특별자치시안 대립 2007년 5월 9일 충청남도는 행정자치부 주재 회의에서 \"행정도시를 '충청남도 산하 기초단체'로 만들되 예정지역뿐 아니라 연기군 전 지역을"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "시안",
+    "around": "였다. KAIST에 할당될 공간은 약 30만 9821m2이다. ## 방송·언론 ## 국회의원 ## 교육감 ## 사건·사고 및 논란 ### 충청남도 세종시안과 정부 직할 세종특별자치시안 대립 2007년 5월 9일 충청남도는 행정자치부 주재 회의에서 \"행정도시를 '충청남도 산하 기초단체'로 만들되 예정지역뿐 아니라 연기군 전 지역을 행정도시 관할구역으로 편입해"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "안동시의 연간 월평균 일조 시간 합계는 2,292.6시간이다.",
+  "quote": "| Mean monthly sunshine hours | 194.8 | 193.8 | 214.1 | 222.3 | 235.2 | 200.4 | 161.9 | 172.8 | 157.0 | 188.5 | 166.7 | 185.1 | 2,292.6 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "2,292.6 hours",
+  "keys_num": [
+   "2,292.6"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 7월 평균 강수량은 235.2 mm로 연중 가장 많다.",
+  "quote": "| 235.2 (9.26) | 226.4 (8.91)",
+  "from_table": true,
+  "kind": "other",
+  "value": "235.2 mm",
+  "keys_num": [
+   "235.2"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시의 연간 강수일수(0.1 mm 이상)는 97.8일이다.",
+  "quote": "| Average precipitation days (≥ 0.1 mm) | 4.9 | 4.9 | 7.2 | 8.0 | 8.7 | 9.6 | 14.2 | 13.9 | 9.0 | 5.7 | 6.2 | 5.5 | 97.8 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "97.8 days",
+  "keys_num": [
+   "97.8",
+   "0.1"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시는 1999년 영국 엘리자베스 2세 여왕이 73번째 생일을 보낸 곳이다.",
+  "quote": "In 1999, Her Majesty the Queen Elizabeth II of the United Kingdom celebrated her 73rd birthday in the city.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1999",
+  "keys_num": [
+   "1999",
+   "73rd"
+  ],
+  "keys_name": [
+   "엘리자베스 2세",
+   "영국",
+   "하회마을"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동시는 2016년 유네스코 학습도시 글로벌 네트워크에 가입했다.",
+  "quote": "Andong joined the UNESCO Global Network of Learning Cities in 2016.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2016",
+  "keys_num": [
+   "2016"
+  ],
+  "keys_name": [
+   "유네스코"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "930년 고창 전투에서 왕건이 이끈 고려군이 후백제군을 물리치고 고창을 안동으로 이름 바꿨다.",
+  "quote": "The Battle of Gochang in 930 was fought here between Hubaekje forces and the Goryeo army led by Wanggeon, who won control of the city and renamed it Andong.",
+  "from_table": false,
+  "kind": "other",
+  "value": "930",
+  "keys_num": [
+   "930"
+  ],
+  "keys_name": [
+   "고창",
+   "후백제",
+   "고려",
+   "왕건"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_15",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "천안시_ko",
+    "key": "930 + 후백제",
+    "around": "# 역사 삼한시대 마한 54개 소국 중의 하나인 목지국이 있었다. 삼국시대에는 백제의 대목악군과 감매현·순치현이었다. 천안이라는 지명은 고려 초기에 처음 등장하였다. 고려 태조는 930년에 동서도솔을 합쳐 천안도독부를 설치하였다. 태조 왕건은 술사 예방이 삼국의 중앙에 해당하는 천안은 다섯 용이 구슬을 다투는 지세이므로 이곳에 큰 관부를 설치하면 후백제가 "
+   },
+   {
+    "doc": "천안시_ko",
+    "key": "930 + 고려",
+    "around": "# 역사 삼한시대 마한 54개 소국 중의 하나인 목지국이 있었다. 삼국시대에는 백제의 대목악군과 감매현·순치현이었다. 천안이라는 지명은 고려 초기에 처음 등장하였다. 고려 태조는 930년에 동서도솔을 합쳐 천안도독부를 설치하였다. 태조 왕건은 술사 예방이 삼국의 중앙에 해당하는 천안은 다섯 용이 구슬을 다투는 지세이므로 이곳에 큰 관부를 설치하면 후백제가 "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "안동 출신 학자 퇴계 이황(1501–1570)은 도산서원 건립을 시작했다.",
+  "quote": "Toe-gye Yi Hwang (1501–1570), one of the most prominent of all Korean scholars, came from Andong.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1501–1570",
+  "keys_num": [
+   "1501",
+   "1570"
+  ],
+  "keys_name": [
+   "퇴계",
+   "이황",
+   "도산서원"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동댐은 1976년에 건설되어 안동에 안정적인 전력을 공급했다.",
+  "quote": "In 1976 the Andong Dam was built, providing the city with a reliable source of electricity.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1976",
+  "keys_num": [
+   "1976"
+  ],
+  "keys_name": [
+   "안동댐"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "안동에서 가장 가까운 국제공항은 안동에서 남쪽으로 92 km 떨어진 대구국제공항이다.",
+  "quote": "The nearest international airport is Daegu International Airport, located 92 kilometres (57 mi) south of Andong.",
+  "from_table": false,
+  "kind": "other",
+  "value": "92 km",
+  "keys_num": [
+   "92",
+   "57"
+  ],
+  "keys_name": [
+   "대구국제공항"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_18",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "경주시_ko",
+    "key": "대구국제공항",
+    "around": "강동면 - 안강읍 - 현곡면 - 경주시 ### 항공 교통 경주시에는 공항이 없고 포항경주공항 울산공항을 통해 김포나 제주와 연결된다. 중국·일본·동남아시아방면 항공편을 이용하려면 대구국제공항이나 김해국제공항을 이용해야 하고 장거리 국제선을 이용하려면 인천국제공항으로 올라가야 한다. 경주시외버스터미널에서 김해국제공항으로 가는 리무진버스가 40~60분 간격으로"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "하회마을은 2010년 양동마을과 함께 유네스코 세계유산으로 등재되었다.",
+  "quote": "This village is listed by the South Korean government with UNESCO as a World Heritage site with Yangdong Folk Village in 2010.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2010",
+  "keys_num": [
+   "2010"
+  ],
+  "keys_name": [
+   "하회마을",
+   "양동마을",
+   "유네스코"
+  ],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_19",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "경주시_ko",
+    "key": "2010 + 하회마을",
+    "around": "엄파크 촬영지로 각광을 받았다. 같은 해 6월 8일에 천년의 꿈 경주의 빛 타임캡슐 매설식을 가졌다. 그리고 2008년부터 제정해 6월 8일 경주시민의 날이 매년 개최하고 있다. 2010년 5월 15일부터 5월 16일까지 제4차 한·중·일 외교장관 회의 가 열렸고 같은 해 7월 31일에 하회마을과 함께 양동마을의 유네스코 세계문화유산 등재가 확정되었다. 같"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "2010 + 양동마을",
+    "around": "엄파크 촬영지로 각광을 받았다. 같은 해 6월 8일에 천년의 꿈 경주의 빛 타임캡슐 매설식을 가졌다. 그리고 2008년부터 제정해 6월 8일 경주시민의 날이 매년 개최하고 있다. 2010년 5월 15일부터 5월 16일까지 제4차 한·중·일 외교장관 회의 가 열렸고 같은 해 7월 31일에 하회마을과 함께 양동마을의 유네스코 세계문화유산 등재가 확정되었다. 같"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "안동시의 연평균 상대 습도는 66.2%이다.",
+  "quote": "| Average relative humidity (%) | 59.9 | 57.3 | 56.8 | 55.4 | 61.0 | 68.8 | 77.5 | 77.7 | 76.5 | 72.7 | 68.2 | 62.7 | 66.2 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "66.2%",
+  "keys_num": [
+   "66.2"
+  ],
+  "keys_name": [],
+  "city": "안동시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "안동시_en_20",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시의 면적은 205.5 km2이다.",
+  "quote": "면적은 205.5 km2, 인구는 약 65만 명이다.",
+  "from_table": false,
+  "kind": "area",
+  "value": "205.5 km2",
+  "keys_num": [
+   "205.5"
+  ],
+  "keys_name": [
+   "205.5 km2"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시 완산구의 면적은 92.54 km2이다.",
+  "quote": "| 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |",
+  "from_table": true,
+  "kind": "area",
+  "value": "92.54 km2",
+  "keys_num": [
+   "92.54",
+   "338,839",
+   "143,731"
+  ],
+  "keys_name": [
+   "Wansan District"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시 덕진구의 면적은 112.95 km2이다.",
+  "quote": "| 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |",
+  "from_table": true,
+  "kind": "area",
+  "value": "112.95 km2",
+  "keys_num": [
+   "112.95",
+   "315,555",
+   "130,022"
+  ],
+  "keys_name": [
+   "Deokjin District"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시 완산구의 인구는 338,839명이다.",
+  "quote": "| 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "338,839",
+  "keys_num": [
+   "338,839",
+   "92.54"
+  ],
+  "keys_name": [
+   "Wansan District"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시 덕진구의 인구는 315,555명이다.",
+  "quote": "| 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "315,555",
+  "keys_num": [
+   "315,555",
+   "112.95"
+  ],
+  "keys_name": [
+   "Deokjin District"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시의 2019년 총인구는 662,086명이고 그중 외국인은 10,994명(1.7%)이다.",
+  "quote": "| 2019년 | 662,086명 | | 외국인: 10,994 (1.7%) |",
+  "from_table": true,
+  "kind": "population",
+  "value": "662,086",
+  "keys_num": [
+   "662,086",
+   "10,994",
+   "1.7%"
+  ],
+  "keys_name": [
+   "Jeonju population 2019"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시의 2025년 총인구는 624,717명이다.",
+  "quote": "| 2025년 | 624,717명 | | |",
+  "from_table": true,
+  "kind": "population",
+  "value": "624,717",
+  "keys_num": [
+   "624,717"
+  ],
+  "keys_name": [
+   "Jeonju population 2025"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시의 2024년 6월 말 주민등록 인구는 63만9354명이고 완주군은 9만8878명이었다.",
+  "quote": "2024년 6월 말 주민등록 기준으로 전주시의 인구는 63만9354명, 완주군의 인구는 9만8878명이었다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "63만9354명",
+  "keys_num": [
+   "63만9354",
+   "9만8878"
+  ],
+  "keys_name": [
+   "639,354",
+   "98,878"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시의 이름은 757년(경덕왕 16년)에 완산주를 전주로 고치면서 시작되었다.",
+  "quote": "전주라는 지명은 남북국 시대인 757년(경덕왕 16년)에 지명 한화(漢化) 정책에 따라",
+  "from_table": false,
+  "kind": "other",
+  "value": "757년",
+  "keys_num": [
+   "757",
+   "16"
+  ],
+  "keys_name": [
+   "757",
+   "Gyeongdeok"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "부산광역시_en",
+    "key": "757 + 757",
+    "around": "the town's harbor on the Suyeong (the later Silla district of Geochilsan-gun was renamed Dongnae in 757). ## History The area that Busan now occupies was inhabited during the Neolithic period. Artifac"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "757 + 757",
+    "around": "it was absorbed by Silla and made an administrative division called Koch'ilsan-gun (거칠산군; 居漆山郡). In 757 it was renamed Dongnae-gun (동래군). In 835 the Buddhist temple Beomeosa was founded in the area. I"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "757 + 757",
+    "around": " abolished the Sogyeong and made an arsenal to send the todok because it was adjacent to Malgal. In 757 it was renamed Sungju and restored it in 776. It was renamed Myungju again during the Goryeo per"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주의 풍남문은 보물 제308호이다.",
+  "quote": "풍남문은 보물 제308호이다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "보물 제308호",
+  "keys_num": [
+   "308"
+  ],
+  "keys_name": [
+   "Pungnammun",
+   "Treasure No. 308"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주의 경기전은 사적 제339호이고 조선 태조의 영정(국보 제317호)을 봉안했으며 1614년에 중건되었다.",
+  "quote": "경기전은 대한민국의 사적 제339호로 전주시 완산구 태조로 44에 위치하고 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "사적 제339호",
+  "keys_num": [
+   "339",
+   "317",
+   "1614"
+  ],
+  "keys_name": [
+   "Gyeonggijeon",
+   "Historic Site No. 339",
+   "1614"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주의 풍남문 등 전주부성은 1388년에 축성되었다.",
+  "quote": "1388년 : 풍남문 등 전주부성이 축성되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1388년",
+  "keys_num": [
+   "1388"
+  ],
+  "keys_name": [
+   "Pungnammun",
+   "1388"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2013년 6월 26일 완주군 주민투표에서 유효투표 총수의 55%가 반대해 전주시와 완주군의 통합이 무산되었다.",
+  "quote": "2013년 6월 26일에 실시된 완주군 주민투표에서 유효투표 총수의 55%가 반대해 통합이 무산된 적이 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "55%",
+  "keys_num": [
+   "2013",
+   "6",
+   "26",
+   "55%"
+  ],
+  "keys_name": [
+   "Wanju",
+   "referendum",
+   "55%"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시에는 2013년 기준 919개의 의료기관이 있다.",
+  "quote": "전주에는 2013년 기준 919개의 의료기관이 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "919개",
+  "keys_num": [
+   "2013",
+   "919"
+  ],
+  "keys_name": [
+   "919",
+   "medical institutions"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주시와 미국 샌디에고의 자매 도시 관계는 1983년 5월 20일에 시작되었다.",
+  "quote": "미국 샌디에고 (1983. 05. 20 ~ )",
+  "from_table": false,
+  "kind": "other",
+  "value": "1983년 5월 20일",
+  "keys_num": [
+   "1983",
+   "05",
+   "20"
+  ],
+  "keys_name": [
+   "San Diego",
+   "1983"
+  ],
+  "city": "전주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "전주시_ko_15",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_en",
+    "key": "1983 + 1983",
+    "around": "blic. Cheongnamdae is a former presidential villa located near Daecheong Lake in Cheongju. Built in 1983 it served as a private retreat for South Korean presidents for about two decades. The site was "
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "1983 + 1983",
+    "around": "arated from South Gyeongsang Province to become the first Directly Governed City of South Korea. In 1983 the provincial capital of Gyeongsangnam-do was moved from Busan to Changwon. ## Geography Busan"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "1983 + 1983",
+    "around": " the world. Kaohsiung Taiwan (1966) Los Angeles US (1967) Shimonoseki Japan (1976) Barcelona Spain (1983) Rio de Janeiro Brazil (1985) Vladivostok Russia (1992) Shanghai China (1993) Surabaya Indonesi"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "1983 + 1983",
+    "around": "th century. A closer view at Seongyojang. ## Sister cities Chichibu Saitama Japan since February 16 1983 Öskemen East Kazakhstan Kazakhstan since 2011 Mangshi Yunnan China since November 21 2012 Indan"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주시는 쾨펜 기후 구분으로 Cwa(온대 하계 다우 기후)에 해당하는 습윤 아열대 기후이다.",
+  "quote": "Jeonju has a cooler version of a humid subtropical climate (Köppen climate classification Cwa)",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "Cwa",
+  "keys_num": [],
+  "keys_name": [
+   "쾨펜",
+   "Cwa"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_01",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "Cwa",
+    "around": " 위치해있고 서쪽은 대체로 낮은 구릉이나 평지를 이루고 있다. ### 기후 청주시의 기후는 온난 습윤 기후와 냉대 동계 소우 기후 등 2가지의 기후가 혼재되어 있으며 실질적으로는 Cwa보다는 Dwa에 해당되기도 한다. | 청주기상지청 (청주시 흥덕구 복대동 해발 58.7m)의 기후 자료 | | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주시의 연간 가능 일조율은 46.2%이다.",
+  "quote": "| Percentage possible sunshine | 48.7 | 51.3 | 50.1 | 53.9 | 50.0 | 39.6 | 30.8 | 38.4 | 45.1 | 55.6 | 50.0 | 47.0 | 46.2 |",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "46.2",
+  "keys_num": [
+   "46.2"
+  ],
+  "keys_name": [
+   "가능 일조율",
+   "46.2"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_02",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "46.2 + 46.2",
+    "around": " | 역대 최저 기온 °C (°F) | −24.1 (−11.4) | −26.4 (−15.5) | −12.5 (9.5) | −4.8 (23.4) | 2.8 (37.0) | 7.9 (46.2) | 12.3 (54.1) | 12.7 (54.9) | 3.7 (38.7) | −4.3 (24.3) | −11.0 (12.2) | −20.6 (−5.1) | −26.4 ("
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주시의 7월 가능 일조율은 30.8%로 열두 달 가운데 가장 낮다.",
+  "quote": "| Percentage possible sunshine | 48.7 | 51.3 | 50.1 | 53.9 | 50.0 | 39.6 | 30.8 | 38.4 | 45.1 | 55.6 | 50.0 | 47.0 | 46.2 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "30.8",
+  "keys_num": [
+   "30.8"
+  ],
+  "keys_name": [
+   "가능 일조율",
+   "7월",
+   "30.8"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_03",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "수원시_ko",
+    "key": "30.8 + 30.8",
+    "around": " 한창이던 1979년 290272 명을 거쳐 1994년 728083 명을 기록하였다. 2023년 기준 수원시의 인구는 1233431 명이다. 수원시는 2020년 기준 전체 인구의 30.8%가 20~30세대로 21세기 들어 두드러진 출산율 감소로 수원시 창용중학교가 2028년까지 폐교하기로 결정되는 등 사회 문제가 되고 있다. 1969년 경부고속도로 개통으로"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주시의 10월 가능 일조율은 55.6%로 열두 달 가운데 가장 높다.",
+  "quote": "| Percentage possible sunshine | 48.7 | 51.3 | 50.1 | 53.9 | 50.0 | 39.6 | 30.8 | 38.4 | 45.1 | 55.6 | 50.0 | 47.0 | 46.2 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "55.6",
+  "keys_num": [
+   "55.6"
+  ],
+  "keys_name": [
+   "가능 일조율",
+   "10월",
+   "55.6"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_04",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "55.6 + 55.6",
+    "around": ".0 (73.4) | 25.8 (78.4) | 26.2 (79.2) | 21.3 (70.3) | 14.6 (58.3) | 7.5 (45.5) | 0.6 (33.1) | 13.1 (55.6) | | 일평균 최저 기온 °C (°F) | −5.8 (21.6) | −3.8 (25.2) | 1.0 (33.8) | 7.0 (44.6) | 13.1 (55.6) | 18"
+   },
+   {
+    "doc": "청주시_ko",
+    "key": "55.6 + 55.6",
+    "around": ".0 (73.4) | 25.8 (78.4) | 26.2 (79.2) | 21.3 (70.3) | 14.6 (58.3) | 7.5 (45.5) | 0.6 (33.1) | 13.1 (55.6) | | 일평균 최저 기온 °C (°F) | −5.8 (21.6) | −3.8 (25.2) | 1.0 (33.8) | 7.0 (44.6) | 13.1 (55.6) | 18"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주시 기후 표의 일조율 자료는 1981~2010년 기준이다.",
+  "quote": "| Source: Korea Meteorological Administration (percent sunshine 1981–2010) |",
+  "from_table": true,
+  "kind": "other",
+  "value": "1981–2010",
+  "keys_num": [
+   "1981",
+   "2010"
+  ],
+  "keys_name": [
+   "일조율",
+   "1981"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_05",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "경주시_ko",
+    "key": "1981 + 1981",
+    "around": " 있으며 일제강점기에 여러 재단법인 수봉교육재단 설립의건 인가의 경주공립고등보통학교 가 세워졌다. 1979년 동국대학교 WISE캠퍼스 가 경주 역사상 최초의 대학교로 설립되었다. 1981년 1월 설립자인 김일윤이고 학교법인 원석학원의 설립하여 같은 해 3월 경주실업전문대학을 개교했다. 2000년대는 인구의 증가와 함께 학교의 숫자도 늘어나기 시작했으며 20"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "2010 + 1981",
+    "around": "77명 | 0명 | 0명 | 3731명 | | 의료인력 : 의사 420명 약사 128명 간호사 515명 의료기사 266명 | | 자료 : 꿈과 희망이 있는 도시 경주 - 경주시정 2010 | ## 교육 조선시대부터 이 지역에는 경주향교를 비롯해 서악서원 옥산서원도 있다. 1907년에 개교한 공립 경주보통학교가 있으며 일제강점기에 여러 재단법인 수봉교육재단 "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주국제영화제에는 매년 약 5만 명이 방문한다.",
+  "quote": "The Jeonju International Film Festival draws about 50,000 visitors annually.",
+  "from_table": false,
+  "kind": "other",
+  "value": "약 50,000명",
+  "keys_num": [
+   "50,000"
+  ],
+  "keys_name": [
+   "전주국제영화제",
+   "5만"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주 영화 스튜디오 단지는 2009년에 지어졌다.",
+  "quote": "The Jeonju Film Studio Complex was built in 2009",
+  "from_table": false,
+  "kind": "other",
+  "value": "2009년",
+  "keys_num": [
+   "2009"
+  ],
+  "keys_name": [
+   "전주영화종합촬영소",
+   "2009"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_07",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_ko",
+    "key": "2009 + 2009",
+    "around": "거관리위원회 전북지방중소벤처기업청 전북지방우정청 등의 관공서와 주요시설이 들어서 있다. 전북혁신도시 전주시 덕진구 혁신동 완주군 이서면 갈산리·금평리·반교리 일대 9.9 km2에 2009년 착공하여 2017년까지 국민연금공단 농촌진흥청 한국국토정보공사 한국전기안전공사 등 12개 이전 대상 공공기관이 모두 이전을 완료하였다. 전국 10개 혁신도시 중 최대 규"
+   },
+   {
+    "doc": "전주시_ko",
+    "key": "2009 + 2009",
+    "around": " 공원을 조성하였다. 이 사업은 2008년 한국토지공사가 맡아 2013년 부지조성사업이 준공될 계획이었으나 한국토지공사와 대한주택공사가 합병해 LH가 출범하면서 자금난에 부닥치자 2009년 실시설계용역 단계에서 멈추었다가 2013년 9월 착공해 2018년에 준공하였다. 전주에코시티 전주 북부권 핵심 개발사업이다. 에코시티로 부르기도 하는데 전주시 송천동에서"
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "2009 + 2009",
+    "around": " 개선되었다. 2012년 2월 25일에는 ITX-청춘이 경춘선에서 운행을 시작하였다. 춘천에서 출발하여 대구광역시를 거쳐 부산광역시까지 이어지는 중앙고속도로가 2001년 개통되고 2009년 서울특별시에서 출발하여 춘천을 거쳐 양양군으로 이어지는 서울양양고속도로가 개통되는 등 타 지역과의 도로 연결망도 잘 갖추어진 편이다. 2016년 7월 8일 서울∼춘천~속"
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "2009 + 2009",
+    "around": "우시 | 중화인민공화국 | 1994년 9월 1일 | | 랴오닝성 선양시 | 1998년 11월 14일 | | 랴오닝성 다롄시 | 2001년 3월 28일 | | 장쑤성 창저우 시 | 2009년 10월 29일 | | 허난성 난양 시 | 2012년 9월 15일 | ## 같이 보기 대한민국의 설치순 도시 목록 ## 각주 이 문서에는 다음커뮤니케이션(현 카카오)에서 "
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "2009 + 2009",
+    "around": "이 큰 차이를 보이지 않으며 오히려 감소하는 사이 정보통신 사업은 크게 늘었다. 제조업 회사와 정보통신업 회사의 증감 현황은 아래의 표와 같다. 수원시 사업체수 변화 | 산업 | 2009년 | 2018년 | 증감율 (%) | | 제조업 | 3000 | 3892 | 29.7 | | 정보통신업 | 295 | 619 | 109.8 | ## 도시 구조 ### 건축"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "2009 + 2009",
+    "around": "동신학대학원대학교가 설립되었다. 1985년 영통구 원천동에 한국방송통신대학교 경기지역 학습관이 설립되었다. (2003년 5월 권선구 오목천동으로 이전하고 경기지역대학으로 개명됨) 2009년 영통구 이의동에 서울대학교 융합과학기술대학원이 설립되었다. ## 관광 수원에는 북쪽 광교산과 서쪽 칠보산 동쪽 청명산이 위치해 있어 주민들의 휴식처 역할을 한다. 파장동"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "2009 + 2009",
+    "around": "올려서 먹는 음식이다. 황남빵 - 경주의 유명한 빵이다. 찰보리빵 - 경주의 유명한 빵이다. 십원빵 - 경주의 유명한 빵이다. ## 관광 보문관광단지 첨성대 천마총 포석정 분황사 2009년에 선덕여왕을 소재로 한 사극 드라마의 신라밀레니엄파크 촬영지로 각광을 받았다. 같은 해 6월 8일에 천년의 꿈 경주의 빛 타임캡슐 매설식을 가졌다. 그리고 2008년부터"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "2009 + 2009",
+    "around": "황성)가 있다. 동국대학교 경주병원 경주시에는 인구에 비하여 많은 병·의원이 밀집해 있으며 종합병원 2개소(경주동산병원 동국대학교 경주병원)가 있다. | 경주시의 의료시설 현황 (2009년) | | 구분 | 종합병원 | 병원 | 한방병원 | 요양병원 | 의원 | 치과의원 | 한의원 | 합계 | | 건수 | 2개소 | 13개소 | 1개소 | 9개소 | 114"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2009 + 2009",
+    "around": "는 2006년 건설교통부 외청으로 행정중심복합도시건설청을 설립하였다. 이후 12월에는 국민 공모를 통해 행정중심복합도시 명칭을 세종으로 확정하였다. 이명박 정부가 출범한 이듬해인 2009년에 대통령 이명박은 '국가백년대계를 위한 정책의 적당한 타협은 없다'며 세종특별자치시 건설을 재검토하겠다고 밝혔다. 같은 해 국무총리 정운찬은 내정 당시 '원안대로 추진하"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2009 + 2009",
+    "around": ". 그러나 민주당 등 야당뿐만 아니라 한나라당 대표 박근혜는 '세종시는 국민과의 약속'이라며 원안대로 정상적으로 추진해야 한다고 주장하며 여권 내에서도 이명박 정부와 충돌하였다. 2009년 12월에는 이명박의 행정수도건설 재검토에 반발하여 당시 현직 충청남도지사였던 이완구가 사퇴하였다. 2010년 1월 이명박 정부는 행정부처 이전 계획을 전면 백지화하고 세"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "2009 + 2009",
+    "around": "772 | 8487 | 2974 | | 2007년 | 14810 | 6107 | 8858 | 2925 | | 2008년 | 13890 | 6132 | 8472 | 2836 | | 2009년 | 13101 | 6179 | 8808 | 3076 | | 2010년 | 13979 | 6532 | 8566 | 3002 | | 2011년 | 13916 | 6593 |"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "2009 + 2009",
+    "around": "조업 생산지수 연평균 증가율 8.8%인데 반해 자동차산업 생산지수 증가율은 16.5%로 고도성장 (단위 : 천억원 대 억불 등) | 년도 | 2004 | 2006 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 (추정) | 2014 (예측) | 생산대수 | 184567 | 312622 | 312644 | 323066 | 41119"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주 KCC 이지스 농구단은 2001년부터 2023년까지 전주를 연고로 하다가 부산으로 옮겼다.",
+  "quote": "between 2001 and 2023, when they relocated to Busan after the city of Jeonju postponed the construction of a new gymnasium.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2001~2023년",
+  "keys_num": [
+   "2001",
+   "2023"
+  ],
+  "keys_name": [
+   "KCC 이지스",
+   "부산"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_08",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_ko",
+    "key": "2001 + 부산",
+    "around": "교할 수 없을 정도로 개선되었다. 2012년 2월 25일에는 ITX-청춘이 경춘선에서 운행을 시작하였다. 춘천에서 출발하여 대구광역시를 거쳐 부산광역시까지 이어지는 중앙고속도로가 2001년 개통되고 2009년 서울특별시에서 출발하여 춘천을 거쳐 양양군으로 이어지는 서울양양고속도로가 개통되는 등 타 지역과의 도로 연결망도 잘 갖추어진 편이다. 2016년 7월"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "2001 + 부산",
+    "around": "의 제1금고를 맡고 있는 중소기업은행에서 kt wiz 제휴 카드를 발행하고 있다. ### 농구 1997년 프로농구단 KBL 삼성 썬더스와 WKBL 삼성생명 비추미가 있었으나 각각 2001년과 2005년에 서울특별시과 용인시으로 연고를 이전하였다. 2021년 프로농구단 KBL KT 소닉붐이 부산광역시에서 수원시로 연고지 이전해 오면서 20년만에 프로농구팀이 "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주는 1413년에 조선왕조실록 사본을 보관하는 영예를 얻었다.",
+  "quote": "In 1413, Jeonju (along with three other cities) was given the honor of safekeeping copies of the Annals of the Joseon Dynasty",
+  "from_table": false,
+  "kind": "other",
+  "value": "1413년",
+  "keys_num": [
+   "1413"
+  ],
+  "keys_name": [
+   "조선왕조실록",
+   "1413"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_ko",
+    "key": "1413 + 1413",
+    "around": "년) 춘주(春州)라 칭하고 고려 성종 14년(995년) 단련사(團練使)를 두어 안변부에 예속 신종 6년(1203) 안양도호부로 승격 지춘주사(知春州事)로 격하되었다. 태종 13년(1413) 춘천으로 고쳐 군이 되고 1415년 도호부 고종 24년(1887) 5번째 유수부로 춘천유수부(留守府)을 두고 이궁(離宮)을 신축하여 위급할 때의 피난지로 지정했다. 18"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "1413 + 1413",
+    "around": "호부'(都護府)로 다시 승격되었다. 그러나 공민왕 시기 홍건적의 난 당시 수원 지역이 양광도에서 가장 먼저 항복해 군으로 강등되었고 김용에게 뇌물을 주어 부로 승격될 수 있었다. 1413년 태종이 조선의 행정구역을 팔도로 개편한 이후 수원은 도호부가 되었다. 남양도호부 안산군 안성군 진위현 용인현 양성현 양지현이 수원도호부에 속했다. 조선 초 수원을 본관으"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "전주는 일제강점기에 젠슈(Zenshū)로 이름이 바뀌었다.",
+  "quote": "Jeonju was occupied by the Japanese beginning from 1910 to 1945, and was renamed to Zenshū during the period.",
+  "from_table": false,
+  "kind": "other",
+  "value": "Zenshū",
+  "keys_num": [
+   "1910",
+   "1945"
+  ],
+  "keys_name": [
+   "젠슈",
+   "Zenshū"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주는 1894년 동학농민혁명 때 점령되었다.",
+  "quote": "The town was occupied by the Donghak Peasant Revolution in 1894.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1894년",
+  "keys_num": [
+   "1894"
+  ],
+  "keys_name": [
+   "동학",
+   "1894"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주는 기원전 57년경 백제 안의 시장 도시로 세워졌다고 여겨진다.",
+  "quote": "It is believed that Jeonju was founded as a market town within Baekje around 57 BC.",
+  "from_table": false,
+  "kind": "other",
+  "value": "기원전 57년경",
+  "keys_num": [
+   "57"
+  ],
+  "keys_name": [
+   "시장 도시",
+   "기원전 57"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_12",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "경주시_ko",
+    "key": "기원전 57",
+    "around": "경주시(慶州市)는 대한민국 경상북도 동남부에 있는 시이다. 시청 소재지는 동천동이고 행정구역은 4읍 8면 10동이다. 인구는 2022년 기준 247489명이다. 기원전 57년 신라의 건국부터 시작해서 935년 신라 멸망까지 992년 동안 신라의 수도였고 서라벌(徐羅伐) 금성(金城) 등으로 불렸다. 신라가 멸망한 935년(고려 태조 18년)"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "기원전 57",
+    "around": " 있었던 황룡사의 복원모형. 삼한 시대에 '사로국'이라는 이름으로 비(非)한국 문헌에 처음 등장한다. 한국의 기록(아마도 신라의 왕조 실록을 기반으로 한 자료)에 따르면 사로국은 기원전 57년 경주 지역의 여섯 개 마을이 박혁거세를 중심으로 통합되며 세워졌다고 한다. 이후 왕국이 성장하면서 국호를 신라로 변경했다. 신라 시기 이 도시는 서라벌이라 불렸으며 "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "신라 경애왕은 927년에 암살되었다.",
+  "quote": "the destruction of Geumseong (the capital of the Silla kingdom) and the assassination of King Gyeongae in 927.",
+  "from_table": false,
+  "kind": "other",
+  "value": "927년",
+  "keys_num": [
+   "927"
+  ],
+  "keys_name": [
+   "경애왕",
+   "927"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주 전동성당은 프랑스 신부 Xavier Baudonet가 1791년과 1801년 천주교 순교 터에 지었다.",
+  "quote": "Jeongdong Catholic Church was built on 1908–1914 by French priest Xavier Baudonet on the site of the Korean Catholic martyrs in 1791 and 1801.",
+  "from_table": false,
+  "kind": "other",
+  "value": "Xavier Baudonet",
+  "keys_num": [
+   "1908",
+   "1914",
+   "1791",
+   "1801"
+  ],
+  "keys_name": [
+   "바우도네",
+   "보도네",
+   "Baudonet"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "전주세계소리축제는 2014년 Songlines의 세계 25대 국제 축제에 뽑혔다.",
+  "quote": "The Jeonju International Sori Festival was among Songlines' 25 Best International Festivals in 2014.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2014년",
+  "keys_num": [
+   "25",
+   "2014"
+  ],
+  "keys_name": [
+   "소리축제",
+   "Songlines"
+  ],
+  "city": "전주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "전주시_en_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 인구는 2024년 5월 기준 486,604명이다.",
+  "quote": "The population of Jeju City is 486,604 people and 225,139 households",
+  "from_table": false,
+  "kind": "population",
+  "value": "486,604명 (2024년 5월)",
+  "keys_num": [
+   "486,604",
+   "225,139",
+   "2024"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 인구 밀도는 2020년 기준 1제곱킬로미터당 503.18명이다.",
+  "quote": "The population density is 503.18 (per square km, 2020).",
+  "from_table": false,
+  "kind": "other",
+  "value": "503.18명/km2 (2020)",
+  "keys_num": [
+   "503.18",
+   "2020"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시는 1955년에 북제주군에서 분리되어 시가 되었다.",
+  "quote": "The city was separated from Bukjeju County in 1955.",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "1955",
+  "keys_num": [
+   "1955"
+  ],
+  "keys_name": [
+   "북제주군"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시는 2006년 7월에 북제주군과 통합되었다.",
+  "quote": "That change was put into effect in July 2006.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2006년 7월",
+  "keys_num": [
+   "2006"
+  ],
+  "keys_name": [
+   "북제주군",
+   "서귀포시",
+   "남제주군"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 일도1동 관측소 기준 연평균 기온은 16.2도이다.",
+  "quote": "| Daily mean °C (°F) | 6.1 (43.0) | 6.8 (44.2) | 9.8 (49.6) | 14.2 (57.6) | 18.3 (64.9) | 21.7 (71.1) | 26.2 (79.2) | 27.2 (81.0) | 23.3 (73.9) | 18.6 (65.5) | 13.3 (55.9) | 8.3 (46.9) | 16.2 (61.2) |",
+  "from_table": true,
+  "kind": "annual_mean_temp",
+  "value": "16.2 °C",
+  "keys_num": [
+   "16.2"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 일도1동 관측소 기준 연 강수량은 1,502.3밀리미터이다.",
+  "quote": "| Average precipitation mm (inches) | 67.5 (2.66) | 57.2 (2.25) | 90.6 (3.57) | 89.7 (3.53) | 95.6 (3.76) | 171.2 (6.74) | 210.2 (8.28) | 272.3 (10.72) | 227.8 (8.97) | 95.1 (3.74) | 69.5 (2.74) | 55.6 (2.19) | 1,502.3 (59.15) |",
+  "from_table": true,
+  "kind": "annual_precip",
+  "value": "1,502.3 mm",
+  "keys_num": [
+   "1,502.3"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 일도1동 관측소 기준 연간 가능 일조율은 41.7퍼센트이다.",
+  "quote": "| Percentage possible sunshine | 22.2 | 34.0 | 42.8 | 49.8 | 49.2 | 39.7 | 44.7 | 47.2 | 43.5 | 50.7 | 40.2 | 27.4 | 41.7 |",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "41.7%",
+  "keys_num": [
+   "41.7"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 기후는 쾨펜 기후 구분으로 Cfa(온난 습윤 기후)이다.",
+  "quote": "Jeju City has a humid subtropical climate (Köppen: Cfa)",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "Cfa",
+  "keys_num": [],
+  "keys_name": [
+   "온난 습윤 기후",
+   "아열대 습윤 기후"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_08",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "온난 습윤 기후",
+    "around": " 이들 하천의 여러 지류가 도시 곳곳을 흐른다. 동남부에는 구녀산 양성산 등 높은 산들이 위치해있고 서쪽은 대체로 낮은 구릉이나 평지를 이루고 있다. ### 기후 청주시의 기후는 온난 습윤 기후와 냉대 동계 소우 기후 등 2가지의 기후가 혼재되어 있으며 실질적으로는 Cwa보다는 Dwa에 해당되기도 한다. | 청주기상지청 (청주시 흥덕구 복대동 해발 58.7"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "제주시의 역대 최고 기온은 1942년 7월 25일에 기록한 37.5도이다.",
+  "quote": "The highest temperature ever recorded is 37.5 °C (99.5 °F) on 25 July 1942",
+  "from_table": false,
+  "kind": "record_high",
+  "value": "37.5 °C (1942-07-25)",
+  "keys_num": [
+   "37.5",
+   "1942"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 역대 최저 기온은 1977년 2월 16일에 기록한 영하 6.0도이다.",
+  "quote": "the lowest temperature ever recorded is −6.0 °C (21.2 °F) on 16 February 1977",
+  "from_table": false,
+  "kind": "record_low",
+  "value": "−6.0 °C (1977-02-16)",
+  "keys_num": [
+   "−6.0",
+   "1977"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시는 19개 동, 4개 읍, 3개 면으로 나뉜다.",
+  "quote": "Jeju is divided into 19 neighbourhoods (dong), 4 towns (eup), and 3 townships (myeon):",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "19개 동, 4개 읍, 3개 면",
+  "keys_num": [
+   "19",
+   "4",
+   "3"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 자매도시는 중국 구이린, 중국 라이저우, 프랑스 루앙, 일본 산다, 미국 산타로사, 일본 와카야마의 6곳이다.",
+  "quote": "Jeju City is twinned with:",
+  "from_table": false,
+  "kind": "sister_cities_count",
+  "value": "6 (원문에 수가 적혀 있지 않아 목록 항목을 세었다)",
+  "keys_num": [],
+  "keys_name": [
+   "구이린",
+   "라이저우",
+   "루앙",
+   "산다",
+   "산타로사",
+   "와카야마"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 인구는 1980년에 290,116명이었다.",
+  "quote": "| 1980 | 290,116 | — |",
+  "from_table": true,
+  "kind": "other",
+  "value": "290,116명",
+  "keys_num": [
+   "1980",
+   "290,116"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시의 인구는 2020년에 492,306명이었다.",
+  "quote": "| 2020 | 492,306 | +1.73% |",
+  "from_table": true,
+  "kind": "other",
+  "value": "492,306명",
+  "keys_num": [
+   "2020",
+   "492,306",
+   "1.73"
+  ],
+  "keys_name": [],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 노형동의 2024년 인구는 54,954명이다.",
+  "quote": "| Nohyeong-dong | 노형동 | 54,954 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "54,954명",
+  "keys_num": [
+   "54,954",
+   "2024"
+  ],
+  "keys_name": [
+   "노형동"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 애월읍의 2024년 인구는 38,009명이다.",
+  "quote": "| Aewol-eup | 애월읍 | 38,009 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "38,009명",
+  "keys_num": [
+   "38,009",
+   "2024"
+  ],
+  "keys_name": [
+   "애월읍"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_16",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 앞바다의 우도는 2016년에 방문객 223만 명을 맞았다.",
+  "quote": "It received 2.23 million visitors in 2016.",
+  "from_table": false,
+  "kind": "other",
+  "value": "223만 명 (2016)",
+  "keys_num": [
+   "2.23",
+   "2016"
+  ],
+  "keys_name": [
+   "우도"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_17",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시 중심부 가까이에 있는 제주 야구장은 8,500석 규모이다.",
+  "quote": "The 8,500-seat Jeju Baseball Stadium is near the center of the city.",
+  "from_table": false,
+  "kind": "other",
+  "value": "8,500석",
+  "keys_num": [
+   "8,500"
+  ],
+  "keys_name": [
+   "제주야구장"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_18",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "제주시는 2012년에 김상오가 시장이 되었다.",
+  "quote": "In 2012 Sang-Oh Kim became mayor",
+  "from_table": false,
+  "kind": "other",
+  "value": "김상오 (2012)",
+  "keys_num": [
+   "2012"
+  ],
+  "keys_name": [
+   "김상오"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_19",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2011년에 서울과 제주 사이를 오간 승객은 990만 명으로, 김포-제주 노선은 세계에서 가장 붐비는 항공 노선이었다.",
+  "quote": "In 2011, 9.9 million passengers flew between the two cities of Seoul and Jeju",
+  "from_table": false,
+  "kind": "other",
+  "value": "990만 명 (2011)",
+  "keys_num": [
+   "9.9",
+   "2011"
+  ],
+  "keys_name": [
+   "김포"
+  ],
+  "city": "제주시",
+  "lang": "en",
+  "group": "한 언어 도시",
+  "id": "제주시_en_20",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 2018년 9월 주민등록 인구는 669,928명이다.",
+  "quote": "2018년 9월 주민등록 인구는 669,928명이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "669,928명",
+  "keys_num": [
+   "2018",
+   "9",
+   "669,928"
+  ],
+  "keys_name": [
+   "669,928"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2019년 1월 주민등록 기준 천안시 서북구의 인구는 400,566명이다.",
+  "quote": "| 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "400,566명",
+  "keys_num": [
+   "2019",
+   "1",
+   "400,566"
+  ],
+  "keys_name": [
+   "Seobuk District",
+   "400,566"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2019년 1월 주민등록 기준 천안시 동남구의 인구는 264,312명이다.",
+  "quote": "| 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "264,312명",
+  "keys_num": [
+   "2019",
+   "1",
+   "264,312"
+  ],
+  "keys_name": [
+   "Dongnam District",
+   "264,312"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2019년 1월 주민등록 기준 천안시 전체 인구는 683,453명이다.",
+  "quote": "| 총계 | 683,453 | 255,696 | 636.2 | |",
+  "from_table": true,
+  "kind": "population",
+  "value": "683,453명",
+  "keys_num": [
+   "2019",
+   "1",
+   "683,453"
+  ],
+  "keys_name": [
+   "total population",
+   "683,453"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시 서북구의 면적은 197.68 km2이다.",
+  "quote": "| 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |",
+  "from_table": true,
+  "kind": "area",
+  "value": "197.68 km2",
+  "keys_num": [
+   "197.68"
+  ],
+  "keys_name": [
+   "Seobuk District",
+   "197.68 km2"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시 동남구의 면적은 438.54 km2이다.",
+  "quote": "| 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |",
+  "from_table": true,
+  "kind": "area",
+  "value": "438.54 km2",
+  "keys_num": [
+   "438.54"
+  ],
+  "keys_name": [
+   "Dongnam District",
+   "438.54 km2"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시청은 2005년 9월 30일 문화동에서 불당동으로 이전하였다.",
+  "quote": "2005년 9월 30일 : 시청사를 문화동에서 시내 서부의 불당동으로 이전하였다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2005년 9월 30일",
+  "keys_num": [
+   "2005",
+   "9",
+   "30"
+  ],
+  "keys_name": [
+   "city hall",
+   "Buldang-dong",
+   "2005"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_07",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_en",
+    "key": "2005 + 2005",
+    "around": " 431000 | +18.7% | | 1990 | 511000 | +18.6% | | 1995 | 561000 | +9.8% | | 2000 | 612000 | +9.1% | | 2005 | 623000 | +1.8% | | 2010 | 648000 | +4.0% | | 2015 | 658000 | +1.5% | | 2020 | 663000 | +0.8% "
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "2005 + 2005",
+    "around": " | 213198 | +1.0% | | 1990 | 217869 | +2.2% | | 1995 | 233016 | +7.0% | | 2000 | 251991 | +8.1% | | 2005 | 256455 | +1.8% | | 2010 | 272739 | +6.3% | | 2015 | 281005 | +3.0% | | 2020 | 284489 | +1.2% "
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "2005 + 2005",
+    "around": " an ice hockey team based in Chuncheon. The club was a member of the Asia League Ice Hockey between 2005 and 2019. Founded in 2004 it was dissolved in 2023. ### Sports events There are three marathons"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2005 + 2005",
+    "around": " country's largest beach. Busan is a center for international conventions hosting an APEC summit in 2005 and the China–United States Busan Summit in 2025. It is also a center for sports tournaments in"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2005 + 2005",
+    "around": " House and hotels nearby natural environments. Major international conferences in Busan include the 2005 APEC Economic Leaders' Meeting ASEAN–Republic of Korea Commemorative Summit 2014 and 2018 Afric"
+   },
+   {
+    "doc": "제주시_en",
+    "key": "2005 + 2005",
+    "around": "he 1970s are gradually disappearing. The city was separated from Bukjeju County in 1955. However in 2005 Jeju Province voters approved a proposal to merge the city with Bukjeju County also merging Seo"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "2005 + 2005",
+    "around": "ural Heritage in 1967 and Masterpieces of the Oral and Intangible Heritage of Humanity by UNESCO in 2005. It is a combination of several commemoration rites and traditional plays with the highlight be"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "고려 태조는 930년에 천안도독부를 설치하였다.",
+  "quote": "고려 태조는 930년에 동서도솔을 합쳐 천안도독부를 설치하였다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "930년",
+  "keys_num": [
+   "930"
+  ],
+  "keys_name": [
+   "Cheonan Dodobu",
+   "930"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_08",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "안동시_en",
+    "key": "930 + 930",
+    "around": "ng the Three Kingdoms period the area was controlled by the Silla kingdom. The Battle of Gochang in 930 was fought here between Hubaekje forces and the Goryeo army led by Wanggeon who won control of t"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "천안시의 동남구와 서북구는 2008년 6월 23일에 설치되었다.",
+  "quote": "2008년 6월 23일 : 동남구와 서북구가 설치되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2008년 6월 23일",
+  "keys_num": [
+   "2008",
+   "6",
+   "23"
+  ],
+  "keys_name": [
+   "Dongnam District",
+   "Seobuk District",
+   "2008"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_en",
+    "key": "2008 + 2008",
+    "around": "e | Japan | 1991 | | | Wuhan | Hubei | China | 2000 | | | Bellingham | Washington | United States | 2008 | | | Rostov-on-Don | Rostov oblast | Russia | 1999 | | | Wrocław | Lower Silesian Voivodeship "
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "2008 + 2008",
+    "around": "er of Teen Top Gim Yu-jeong: novelist Jin Jong-oh: Shooting sports athlete who competed at the 2004 2008 2012 and 2016 Summer Olympics Han Seung-soo: 39th prime minister of Rep. of Korea tenure 2008–2"
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "2008 + 2008",
+    "around": "er of Teen Top Gim Yu-jeong: novelist Jin Jong-oh: Shooting sports athlete who competed at the 2004 2008 2012 and 2016 Summer Olympics Han Seung-soo: 39th prime minister of Rep. of Korea tenure 2008–2"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2008 + 2008",
+    "around": "nbul Turkey (2002) Dubai UAE (2006) Fukuoka Japan (2007) Chicago US (2007) Saint Petersburg Russia (2008) Phnom Penh Cambodia (2009) Mumbai India (2009) Thessaloniki Greece (2010) Casablanca Morocco ("
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2008 + 2008",
+    "around": " has 11 friendship cities in six countries. Shenzhen China (2007) Tianjin China (2007) Osaka Japan (2008) Chongqing China (2010) Bangkok Thailand (2011) Beijing China (2013) Nagasaki Japan (2014) Band"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "천안 독립기념관의 누적 관람객은 2011년 8월에 4,000만명을 돌파하였다.",
+  "quote": "2011년 8월 누적 관람객 4,000만명을 돌파하였다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "4,000만명",
+  "keys_num": [
+   "2011",
+   "8",
+   "4,000"
+  ],
+  "keys_name": [
+   "Independence Hall of Korea",
+   "40 million visitors"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 2012년 지역 내 총생산은 69조 124억원이다.",
+  "quote": "천안시의 2012년 지역 내 총생산은 69조 124억원으로 충청남도 지역 내 총생산의 23.6%를 차지하고 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "69조 124억원",
+  "keys_num": [
+   "2012",
+   "69",
+   "124",
+   "23.6"
+  ],
+  "keys_name": [
+   "gross regional domestic product",
+   "GRDP"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시 산업의 2014년 총종사자 수는 253,698명이다.",
+  "quote": "2014년 천안시 산업의 총종사자 수는 253,698명으로 충청남도 총종사자 수의 31.2%를 차지하고있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "253,698명",
+  "keys_num": [
+   "2014",
+   "253,698",
+   "31.2"
+  ],
+  "keys_name": [
+   "total employees",
+   "253,698"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안아산역은 2004년 4월 1일 개업하였다.",
+  "quote": "2004년 4월 1일, 천안시와 아산시의 경계지역인 아산시 배방읍 장재리에 천안아산역이 개업하였고",
+  "from_table": false,
+  "kind": "other",
+  "value": "2004년 4월 1일",
+  "keys_num": [
+   "2004",
+   "4",
+   "1"
+  ],
+  "keys_name": [
+   "Cheonan-Asan Station",
+   "2004"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_13",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_en",
+    "key": "2004 + 2004",
+    "around": "in Chuncheon. The club was a member of the Asia League Ice Hockey between 2005 and 2019. Founded in 2004 it was dissolved in 2023. ### Sports events There are three marathons in Chuncheon. Chuncheon N"
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "2004 + 2004",
+    "around": " member of Teen Top Gim Yu-jeong: novelist Jin Jong-oh: Shooting sports athlete who competed at the 2004 2008 2012 and 2016 Summer Olympics Han Seung-soo: 39th prime minister of Rep. of Korea tenure 2"
+   },
+   {
+    "doc": "천안시_en",
+    "key": "2004 + 2004",
+    "around": "carrying paraphernalia. The museum was not constructed here but rather moved from Seoul in February 2004 to its current home in the Ministry of Information and Communication Officials Training Institu"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2004 + 2004",
+    "around": "ed 2019) singer actress and former member of F(x) Choi Jiwoo (born 1975) actress Choi Kwonsoo (born 2004) actor Choi Min-gi / Ren (born 1995) singer songwriter actor and former member of NU'EST Choi Y"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "천안시는 전라남도 완도군과 2007년에 자매도시를 맺었다.",
+  "quote": "대한민국 전라남도 완도군 (2007년)",
+  "from_table": false,
+  "kind": "other",
+  "value": "완도군 (2007년)",
+  "keys_num": [
+   "2007"
+  ],
+  "keys_name": [
+   "Wando County",
+   "Wando",
+   "2007"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_14",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "천안시_en",
+    "key": "2007 + 2007",
+    "around": "The festival started in 2003 and it received the position of \"prepared\" and \"promising\" in 2006 and 2007 respectively. As of 26 December 2007 the festival was promoted to the degree of \"excellent fest"
+   },
+   {
+    "doc": "천안시_en",
+    "key": "2007 + 2007",
+    "around": "The festival started in 2003 and it received the position of \"prepared\" and \"promising\" in 2006 and 2007 respectively. As of 26 December 2007 the festival was promoted to the degree of \"excellent fest"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2007 + 2007",
+    "around": "nada (2000) Western Cape South Africa (2000) Istanbul Turkey (2002) Dubai UAE (2006) Fukuoka Japan (2007) Chicago US (2007) Saint Petersburg Russia (2008) Phnom Penh Cambodia (2009) Mumbai India (2009"
+   },
+   {
+    "doc": "부산광역시_en",
+    "key": "2007 + 2007",
+    "around": "nada (2000) Western Cape South Africa (2000) Istanbul Turkey (2002) Dubai UAE (2006) Fukuoka Japan (2007) Chicago US (2007) Saint Petersburg Russia (2008) Phnom Penh Cambodia (2009) Mumbai India (2009"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "고려 현종은 1021년 홍경사를 세웠다.",
+  "quote": "고려 현종이 1021년 아버지 안종의 뜻을 받들어 세운 280칸짜리 고려 10대 사찰 중의 하나인 홍경사",
+  "from_table": false,
+  "kind": "other",
+  "value": "1021년",
+  "keys_num": [
+   "1021",
+   "280"
+  ],
+  "keys_name": [
+   "Honggyeongsa",
+   "1021"
+  ],
+  "city": "천안시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "천안시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 연간 눈 오는 날 수는 25.9일이다.",
+  "quote": "| Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.1 | 2.4 | 7.2 | 25.9 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "25.9일",
+  "keys_num": [
+   "25.9"
+  ],
+  "keys_name": [
+   "눈 오는 날"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 1월 평균 눈 오는 날 수는 8.7일이다.",
+  "quote": "| Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "8.7일",
+  "keys_num": [
+   "8.7"
+  ],
+  "keys_name": [
+   "눈 오는 날",
+   "1월"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 연간 가능 일조율은 54.2%이다.",
+  "quote": "| Percentage possible sunshine | 55.6 | 60.0 | 58.5 | 59.2 | 56.9 | 50.4 | 41.3 | 49.3 | 53.3 | 61.5 | 53.4 | 53.3 | 54.2 |",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "54.2%",
+  "keys_num": [
+   "54.2"
+  ],
+  "keys_name": [
+   "가능 일조율"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 7월 가능 일조율은 41.3%로 12개월 중 가장 낮다.",
+  "quote": "| Percentage possible sunshine | 55.6 | 60.0 | 58.5 | 59.2 | 56.9 | 50.4 | 41.3 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "41.3%",
+  "keys_num": [
+   "41.3"
+  ],
+  "keys_name": [
+   "가능 일조율",
+   "7월"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시의 쾨펜 기후 구분은 Dwa(냉온대 습윤 기후)이다.",
+  "quote": "Cheonan has a humid continental climate (Köppen: Dwa)",
+  "from_table": false,
+  "kind": "koppen",
+  "value": "Dwa",
+  "keys_num": [],
+  "keys_name": [
+   "쾨펜",
+   "Dwa",
+   "습윤대륙성"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_05",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "Dwa",
+    "around": "서쪽은 대체로 낮은 구릉이나 평지를 이루고 있다. ### 기후 청주시의 기후는 온난 습윤 기후와 냉대 동계 소우 기후 등 2가지의 기후가 혼재되어 있으며 실질적으로는 Cwa보다는 Dwa에 해당되기도 한다. | 청주기상지청 (청주시 흥덕구 복대동 해발 58.7m)의 기후 자료 | | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 "
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "Dwa",
+    "around": "발달하여 수향(水鄕) 도시를 이루며 호반의 도시라 별칭된다. 시의 중앙부에는 춘천의 진산(鎭山)인 봉의산(鳳儀山)이 솟아 있다. ### 기후 춘천시의 기후는 냉대 동계 소우 기후(Dwa)이다. | 춘천기상관측소 (춘천시 우두동 해발 95.61m)의 기후 자료 | | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 | 9월 | 10"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "Dwa",
+    "around": "되면서 수원도호부가 되어 현재의 수원이란 이름을 얻었다. 수원은 선캄브리아기의 화성암을 기반으로 하는 넓은 평야 지역으로 중부지방의 전형적인 대륙성 기후대인 냉대 동계 소우 기후(Dwa)이다. 이를 바탕으로 옛부터 벼농사를 중심으로 한 각종 농업이 발달하였다. 서호공원은 오래된 저수지인 축만제 주변에 조성된 공원이다. 1963년 경기도청이 이전해 오면서 도"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "Dwa",
+    "around": "는 광교저수지 원천저수지 신대저수지 서호저수지 만석거 일월저수지 왕송저수지 총 7개가 있다. ### 기후 수원시의 기후는 중부지방의 전형적인 대륙성 기후대인 냉대 동계 소우 기후(Dwa)이다. 겨울에는 저온건조하고 여름에는 고온다습하다. 연평균 기온은 13.1°C이고 연평균 강수량은 13996.5 mm이다. | 수도권기상청 (수원시 권선구 고색동 해발 39"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "천안 독립기념관은 면적 980에이커(4.0 km2)의 조경된 부지 위에 있다.",
+  "quote": "The hall stands on 980 acres (4.0 km2) of landscaped grounds.",
+  "from_table": false,
+  "kind": "other",
+  "value": "980에이커 (4.0 km2)",
+  "keys_num": [
+   "980",
+   "4.0"
+  ],
+  "keys_name": [
+   "독립기념관",
+   "980"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안 각원사의 청동 좌불상은 높이 15m, 둘레 30m, 무게 60톤이 넘는다.",
+  "quote": "which is 15m high, 30m in circumference, and weighs over 60 tonnes",
+  "from_table": false,
+  "kind": "other",
+  "value": "높이 15m, 둘레 30m, 60톤 이상",
+  "keys_num": [
+   "15",
+   "30",
+   "60"
+  ],
+  "keys_name": [
+   "각원사",
+   "청동 좌불상"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_07",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "천안시_ko",
+    "key": "각원사",
+    "around": "에 대한 교육 홍보 등을 하고 있다. 천안박물관 우정박물관 아라리오미술관 리각미술관 천안홍대용과학관 천안흥타령관 산사현대시 100년관 이동녕선생기념관 유관순열사기념관 ### 국보 각원사 청동 좌불상 봉선홍경사사적갈비 보협인석탑 성거산 천흥사 동종 ### 공공도서관 천안시중앙도서관 (동남구 원성동) 쌍용도서관 (서북구 쌍용동) 성거도서관 (서북구 성거읍) 직"
+   },
+   {
+    "doc": "천안시_ko",
+    "key": "청동 좌불상",
+    "around": " 교육 홍보 등을 하고 있다. 천안박물관 우정박물관 아라리오미술관 리각미술관 천안홍대용과학관 천안흥타령관 산사현대시 100년관 이동녕선생기념관 유관순열사기념관 ### 국보 각원사 청동 좌불상 봉선홍경사사적갈비 보협인석탑 성거산 천흥사 동종 ### 공공도서관 천안시중앙도서관 (동남구 원성동) 쌍용도서관 (서북구 쌍용동) 성거도서관 (서북구 성거읍) 직산도서관"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "천안의 우정박물관은 2004년 2월 서울에서 천안으로 옮겨 왔다.",
+  "quote": "The museum was not constructed here, but rather moved from Seoul in February 2004",
+  "from_table": false,
+  "kind": "other",
+  "value": "2004년 2월",
+  "keys_num": [
+   "2004",
+   "2"
+  ],
+  "keys_name": [
+   "우정박물관",
+   "2004"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_08",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_ko",
+    "key": "2004 + 2004",
+    "around": "사업이다. 2019년에 준공하였으며 주택공급 규모는 총 4539가구이다. ### 정치 전주시는 갑·을·병 선거구 등 총 3개의 선거구가 있다. 16대 국회까지는 2개 선거구였으나 2004년에 완산구 선거구가 완산구 갑·을 선거구로 분리되어 3개 선거구가 되었다. ### 시장 ## 인구 인구 변화 | 연도 | 인구 | ±% | | 1950 | 83000 | "
+   },
+   {
+    "doc": "전주시_ko",
+    "key": "2004 + 2004",
+    "around": "1 ~ ) 일본 가나자와시 (2002. 04. 30 ~ ) 튀르키예 안탈리아 (2013. 07. 04 ~ ) ### 우호 도시 전주시의 우호 도시는 다음과 같다. 미국 호놀룰루 (2004. 12. 20 ~ ) 중국 선양시 (2006. 07. 17 ~ ) 중국 창춘시 (2006. 07. 18 ~ ) 이탈리아 피렌체 (2007. 03. 28 ~ ) 중국 시닝시"
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "2004 + 2004",
+    "around": "민국 | 2003년 11월 28일 | | 경기도 안산시 | 2011년 10월 27일 | | 서울특별시 강남구 | 2019년 12월 10일 | | 아디스아바바 시 | 에티오피아 | 2004년 5월 2일 | | 일리노이주 시카고 | 미국 | 2014년 3월 20일 | | 럼동성 달랏시 | 베트남 | 2016년 10월 18일 | ### 우호 도시 | 도시 이름 "
+   },
+   {
+    "doc": "천안시_ko",
+    "key": "2004 + 2004",
+    "around": "학교 축구부 ## 교통 천안역 ### 철도 경부선과 장항선이 시의 서부를 지난다. 경부선은 남북으로 뻗은 형태이며 장항선은 시의 서부를 통해 아산 예산 홍성으로 향하는 형태이다. 2004년 4월 1일 천안시와 아산시의 경계지역인 아산시 배방읍 장재리에 천안아산역이 개업하였고 2005년 1월 20일부터 경부선 2008년 12월 15일부터 장항선에 수도권 전철"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2004 + 2004",
+    "around": "설추진기획단·지원단을 발족시켰다. 7월 신행정수도특별조치법(안)의 입법을 예고하였고 12월 신행정수도특별조치법(안)이 국회 본회의에서 여야 합의로 가결되었다. 그러나 헌법재판소는 2004년 10월 서울이 수도라는 관습 헌법이 존재한다는 판단을 내리며 수도 이전은 법률 제정이 아닌 헌법 개정을 통해 이뤄져야 한다며 '신행정수도 건설 특별법' 위헌 결정을 내렸"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2004 + 2004",
+    "around": ") 정부세종청사 전경 세종특별자치시청 세종특별자치시의회 세종특별자치시교육청 세종우체국 세종세무서 ## 같이 보기 행정중심복합도시 특별자치시 정부세종청사 세종의사당 백지계획 연기군 2004년 대한민국 행정수도 이전 계획 행정중심복합도시 행정중심복합도시건설청 세종특별자치시청 세종특별자치시교육청 혁신도시 행정도시 기업도시 신도시 ## 각주 ## 외부 링크 위키미"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "2004 + 2004",
+    "around": "31 | 13401 | 7176 | | 2002년 | 16036 | 5899 | 8230 | 3732 | | 2003년 | 15954 | 5952 | 7760 | 4336 | | 2004년 | 14729 | 6042 | 8012 | 3558 | | 2005년 | 13327 | 5939 | 7827 | 3127 | | 2006년 | 13679 | 5772 |"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "2004 + 2004",
+    "around": "5% 차지) (생산지수) 광주 지역 제조업 생산지수 연평균 증가율 8.8%인데 반해 자동차산업 생산지수 증가율은 16.5%로 고도성장 (단위 : 천억원 대 억불 등) | 년도 | 2004 | 2006 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 (추정) | 2014 (예측) | 생산대수 | 184567 | 312622 | 31"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "천안시에는 9,000명이 넘는 외국인이 거주한다.",
+  "quote": "There are more than 9,000 foreigners residing in the Cheonan area.",
+  "from_table": false,
+  "kind": "other",
+  "value": "9,000명 이상",
+  "keys_num": [
+   "9,000"
+  ],
+  "keys_name": [
+   "외국인",
+   "9,000"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안에는 외국인 수감자만을 위한 교도소가 있고 외국인 수감자가 1,000명이 넘는다.",
+  "quote": "Cheonan is the site of the prison exclusively intended for foreign prisoners, with more than 1,000 foreign inmates.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1,000명 이상",
+  "keys_num": [
+   "1,000"
+  ],
+  "keys_name": [
+   "외국인 수감자",
+   "교도소"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안백석종합운동장의 수용 인원은 26,000명이다.",
+  "quote": "Cheonan is also home to a 26,000 capacity stadium called the Cheonan Baekseok Stadium.",
+  "from_table": false,
+  "kind": "other",
+  "value": "26,000명",
+  "keys_num": [
+   "26,000"
+  ],
+  "keys_name": [
+   "천안백석종합운동장",
+   "백석"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안 흥타령 축제는 2003년에 시작되었다.",
+  "quote": "The festival started in 2003 and it received the position of",
+  "from_table": false,
+  "kind": "other",
+  "value": "2003년",
+  "keys_num": [
+   "2003"
+  ],
+  "keys_name": [
+   "흥타령 축제",
+   "2003"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_12",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "2003 + 2003",
+    "around": "상당구는 248321명(전체인구의 37%) 흥덕구는 426020명(전체인구의 63%)이다. 1963년과 1983년 청원군 일부가 청주시로 편입되어 전체면적이 8.4배 증가하였다. 2003년에는 대통대반제 시행으로 통반이 현저히 감소하였고 2012년 말 기준 통반은 1004개 통에 4982개 반으로 구성되어 있다. 2014년 7월 1일 청원군과 통합하여 도농"
+   },
+   {
+    "doc": "청주시_ko",
+    "key": "2003 + 2003",
+    "around": "안심사 영산회괘불탱 (국보297호) 청주 보살사 영산회괘불탱 (보물1258호) ## 관광지 청남대 청남대(前 대통령 별장) 청남대는 1983년에 전두환 대통령의 별장으로 건립하여 2003년에 노무현 대통령이 일반에 반환할 때까지 20년간 대한민국 대통령의 별장으로 사용된 곳이다. 상당구 문의면 신대리에 있다. 성안길 일제 강점기에는 본정이라 불리며 철도가 "
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "2003 + 2003",
+    "around": "신 인물 ## 자매 도시 ### 자매결연 도시 | 도시 이름 | 국가 | 체결 연도 | | 야마구치현 호후시 | 일본 | 1991년 10월 29일 | | 기후현 가카미가하라시 | 2003년 10월 31일 | | 서울특별시 동대문구 | 대한민국 | 2003년 11월 28일 | | 경기도 안산시 | 2011년 10월 27일 | | 서울특별시 강남구 | 2019"
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "2003 + 2003",
+    "around": "신 인물 ## 자매 도시 ### 자매결연 도시 | 도시 이름 | 국가 | 체결 연도 | | 야마구치현 호후시 | 일본 | 1991년 10월 29일 | | 기후현 가카미가하라시 | 2003년 10월 31일 | | 서울특별시 동대문구 | 대한민국 | 2003년 11월 28일 | | 경기도 안산시 | 2011년 10월 27일 | | 서울특별시 강남구 | 2019"
+   },
+   {
+    "doc": "천안시_ko",
+    "key": "2003 + 2003",
+    "around": " 천안군을 통합하여 도농복합시인 천안시가 되었다. (2읍 10면 13행정동) 2002년 1월 1일 : 직산면이 직산읍으로 목천면이 목천읍으로 승격하였다. (4읍 8면 13행정동) 2003년 8월 1일 : 쌍용3동이 쌍용2동에서 분동하였다. (4읍 8면 14행정동) 2005년 9월 30일 : 시청사를 문화동에서 시내 서부의 불당동으로 이전하였다. 2006년 "
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "2003 + 2003",
+    "around": "06년 권업모범장이 설치된 이후 수원은 농업 연구의 중심지였고 1933년 교배하여 만든 신품종인 팔달벼가 만들어지기도 하였다. 권업모범장에서 시작한 서울대학교 농업생명과 시험장은 2003년까지 계속하여 있다가 관악캠퍼스로 이전하였다. 한국전쟁이 끝난 뒤인 전후 재건기까지도 그리 큰 인구를 보이지 않았던 수원에 인구가 모이기 시작한 것은 경기도청이 이전한 1"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "2003 + 2003",
+    "around": "되었다. 1990년대 후반에 들며 한국의 산업 구조는 재편되었고 기존에 강점을 보이던 직물 섬유 등은 경쟁력을 잃었고 수원에서 시작하여 SK그룹의 모태가 되었던 SK케미칼은 결국 2003년 문을 닫았다. 수원시의 산업 구조는 여전히 급속히 변화하는 중이다. 제조업 회사가 수는 늘었지만 고용이 큰 차이를 보이지 않으며 오히려 감소하는 사이 정보통신 사업은 크"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "2003 + 2003",
+    "around": "등재했고 2000년에는 남산지구 월성지구 대릉원지구 황룡사 지구와 함께 경주역사유적지구로 등재되었다. 1998년에 경주세계문화엑스포를 시작해 매년 4차례씩 열어 1998·2000·2003·2007년 등이 개최하였다. 동궁과 월지 다만 문화재가 많다는 특성이 오히려 시의 발전에는 저해 요소가 되고 있다. 시내권에는 문화재 보호 차원에서 고도 제한이 걸려 있으"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "2003 + 2003",
+    "around": "스포츠 2008년 10월 10일 경주시민운동장에서 열린 제28회 경주시민체육대회의 모습 | 리그명 | 팀명 | 창단연도 | 홈 경기장 | | 내셔널리그 | 경주 한국수력원자력 | 2003년 | 경주시민운동장 | 2007년을 기준으로 경주시는 공공체육시설로 2개의 종합경기장 2개의 실내체육관 2개의 테니스장 1곳의 수영장 등을 갖추고 있다. 울창한 소나무 숲"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2003 + 2003",
+    "around": "도권 집중 억제와 낙후된 지역경제 문제점의 근본적인 해소와 발전을 위해 충청권에 행정수도를 건설하며 청와대와 중앙부처부터 이동하여 배치하겠다고 공약했다. 대통령에 당선된 노무현은 2003년 4월에 신행정수도건설추진기획단·지원단을 발족시켰다. 7월 신행정수도특별조치법(안)의 입법을 예고하였고 12월 신행정수도특별조치법(안)이 국회 본회의에서 여야 합의로 가결"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2003 + 2003",
+    "around": "| | 2023년 | 2761 | 1595 | 1705 | 569 | | 2024년 | 2895 | 1700 | 1842 | 560 | | 2025년 | 2960 | 1632 | 2003 | 538 | ## 이전 기관 ### 중앙행정기관 계획 초기 정부서울청사와 정부과천청사에 있었던 12부 4처 2청을 이전 대상으로 삼았으나 이후 9부 2처 2청으로 바뀌었"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "2003 + 2003",
+    "around": "66 | 9557 | 3052 | | 2001년 | 18198 | 5731 | 13401 | 7176 | | 2002년 | 16036 | 5899 | 8230 | 3732 | | 2003년 | 15954 | 5952 | 7760 | 4336 | | 2004년 | 14729 | 6042 | 8012 | 3558 | | 2005년 | 13327 | 5939 |"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "2003 + 2003",
+    "around": "소(광주과학기술원) #### 광산업 광산업은 자동차·가전산업에 이어 지역 3대 주력산업으로 확고한 위상 정립 (단위 : 억원 명 개사 %) | 구분 | 1999년 (육성이전) | 2003년 (1단계완료) | 2008년 (2단계완료) | 2012년 (3단계완료) | 2013년 | 2014년 | | 고용인원(명) | 1896 | 2834 | 6018 | 824"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "1919년 3월 31일 매봉산 등에서 봉화 24개를 올리며 만세 운동이 시작되었다.",
+  "quote": "The popular movement began with the lighting of 24 beacons at Mt. Maebongsan and other mountains on March 31, 1919.",
+  "from_table": false,
+  "kind": "other",
+  "value": "봉화 24개",
+  "keys_num": [
+   "24",
+   "1919",
+   "31"
+  ],
+  "keys_name": [
+   "매봉산",
+   "봉화",
+   "24"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시는 미국 델라웨어주 윌밍턴과 자매도시이다.",
+  "quote": "Wilmington, Delaware, United States",
+  "from_table": false,
+  "kind": "other",
+  "value": "윌밍턴",
+  "keys_num": [],
+  "keys_name": [
+   "윌밍턴",
+   "델라웨어"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "천안시는 베트남 빈(Vinh)과 자매도시이다.",
+  "quote": "Vinh, Vietnam",
+  "from_table": false,
+  "kind": "other",
+  "value": "빈",
+  "keys_num": [],
+  "keys_name": [
+   "빈",
+   "베트남"
+  ],
+  "city": "천안시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "천안시_en_15",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_ko",
+    "key": "베트남",
+    "around": " | 2019년 12월 10일 | | 아디스아바바 시 | 에티오피아 | 2004년 5월 2일 | | 일리노이주 시카고 | 미국 | 2014년 3월 20일 | | 럼동성 달랏시 | 베트남 | 2016년 10월 18일 | ### 우호 도시 | 도시 이름 | 국가 | 체결 연도 | | 저장성 항저우시 | 중화인민공화국 | 1994년 9월 1일 | | 랴오닝성 선"
+   },
+   {
+    "doc": "천안시_ko",
+    "key": "베트남",
+    "around": "(2017년) 브라질 상파울루 주 깜삐나스 (2019년) ### 국제 교류도시 프랑스 끌루세시 (2006년) 일본 사카이시 (2012년) 미국 뉴욕 주 나소 카운티 (2019년) 베트남 박닌 (2019년) ### 교류 전국다문화도시협의회 전국평생학습도시협의회 전국대도시시장협의회 대한민국건강도시협의회 ## 같이 보기 천안아산 ## 각주 ## 외부 링크 (한국"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "베트남",
+    "around": " | | 러시아 | 니즈니노브고로드시 | | | 루마니아 | 클루지나포카시 | | | 멕시코 | 톨루카 | | | 모로코 | 페즈 | | | 미국 | 애리조나주 피닉스 | | | 베트남 | 하이즈엉성 하이즈엉시 | | | 브라질 | 파라나주 쿠리치바 | | | 오스트레일리아 | 퀸즐랜드주 타운즈빌 | | | 인도네시아 | 서자와주 반둥 | | | 일본 | "
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "베트남",
+    "around": "| 1985년 10월 14일 | | 베르사유 | 프랑스 | 1987년 4월 15일 | | 산시성 (섬서성) 시안시 | 중화인민공화국 | 1994년 11월 18일 | | 후에시 | 베트남 | 2007년 9월 7일 | | 니트라 | 슬로바키아 | 2014년 8월 21일 | | 오이타현 우사시 | 일본 | 2023년 10월 13일 | | 안후이성 츠저우시 | 중"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "청주시의 통합 이전(구 청주시) 면적은 2012년 기준 153.45km2였다.",
+  "quote": "도농 통합 이전 청주시 면적은 2012년 기준 153.45km2으로",
+  "from_table": false,
+  "kind": "area",
+  "value": "153.45km2",
+  "keys_num": [
+   "153.45",
+   "2012"
+  ],
+  "keys_name": [
+   "153.45"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "통합 청주시의 전체 면적은 940.33km2이다.",
+  "quote": "| 총합계 | 380,651 | 846,691 | 940.33 | 4구 |",
+  "from_table": true,
+  "kind": "area",
+  "value": "940.33km2",
+  "keys_num": [
+   "940.33"
+  ],
+  "keys_name": [
+   "940.33"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시 상당구의 면적은 404.40km2이다.",
+  "quote": "| 상당구 | 上黨區 | 83,394 | 193,673 | 404.40 |",
+  "from_table": true,
+  "kind": "area",
+  "value": "404.40km2",
+  "keys_num": [
+   "404.40"
+  ],
+  "keys_name": [
+   "Sangdang District",
+   "404.40"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시 흥덕구의 인구는 265,316명이다(2021년 5월말 기준 표).",
+  "quote": "| 흥덕구 | 興德區 | 121,161 | 265,316 | 198.34 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "265,316명",
+  "keys_num": [
+   "265,316"
+  ],
+  "keys_name": [
+   "Heungdeok District",
+   "265,316"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시 서원구의 인구는 193,630명이다(2021년 5월말 기준 표).",
+  "quote": "| 서원구 | 西原區 | 88,082 | 193,630 | 122.63 |",
+  "from_table": true,
+  "kind": "population",
+  "value": "193,630명",
+  "keys_num": [
+   "193,630"
+  ],
+  "keys_name": [
+   "Seowon District",
+   "193,630"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 2021년 5월말 주민등록 인구는 846,291명(380,651세대)이다.",
+  "quote": "2021년 5월말 주민등록 인구는 380,651세대, 846,291명이다.",
+  "from_table": false,
+  "kind": "population",
+  "value": "846,291명",
+  "keys_num": [
+   "2021",
+   "380,651",
+   "846,291"
+  ],
+  "keys_name": [
+   "846,291"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "통합 이전 청주시의 인구는 2014년 4월말 기준 674,341명이었다.",
+  "quote": "통합 이전의 청주시 인구는 2014년 4월말을 기준으로 674,341명",
+  "from_table": false,
+  "kind": "population",
+  "value": "674,341명",
+  "keys_num": [
+   "2014",
+   "674,341"
+  ],
+  "keys_name": [
+   "674,341"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시는 940년(고려 태조 23년) 청주라는 이름으로 바뀌었다.",
+  "quote": "940년(고려 태조 23년) 청주로 개명되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "940년",
+  "keys_num": [
+   "940",
+   "23"
+  ],
+  "keys_name": [
+   "940"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_08",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_en",
+    "key": "940 + 940",
+    "around": "the reign of King Gyeongdeok it was renamed to Sak-ju (삭주; 朔州) and later Gwanghae-ju (광해주; 光海州). In 940 (23th year of the reign of King Taejo) it was renamed to Chun-ju (춘주; 春州). In mid Goryeo the reg"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "청주시·청원군 통합 주민투표(2012년 6월)의 투표율은 36.75%였고 투표자의 79%가 찬성했다.",
+  "quote": "전체 유권자의 36.75%가 투표에 참여하였고, 총 투표자의 79%가 시·군 통합에 찬성하여",
+  "from_table": false,
+  "kind": "other",
+  "value": "투표율 36.75%, 찬성 79%",
+  "keys_num": [
+   "2012",
+   "36.75",
+   "79"
+  ],
+  "keys_name": [
+   "36.75",
+   "79%"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시 청남대는 1983년 전두환 대통령의 별장으로 지어졌다.",
+  "quote": "청남대는 1983년에 전두환 대통령의 별장으로 건립하여",
+  "from_table": false,
+  "kind": "other",
+  "value": "전두환 대통령 별장",
+  "keys_num": [
+   "1983"
+  ],
+  "keys_name": [
+   "Chun Doo-hwan"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주산업단지는 1969년에 착공되어 5차례에 걸쳐 단계적으로 개발되었다.",
+  "quote": "청주산업단지가 1969년 착공된 이래 5차례에 걸쳐 단계적으로 개발되었다",
+  "from_table": false,
+  "kind": "other",
+  "value": "1969년 착공, 5차례 개발",
+  "keys_num": [
+   "1969",
+   "5"
+  ],
+  "keys_name": [
+   "Cheongju Industrial Complex"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시에는 2013년 기준 약 780개의 의료기관이 있다.",
+  "quote": "청주에는 2013년 기준 약 780개의 의료기관이 있다",
+  "from_table": false,
+  "kind": "other",
+  "value": "약 780개",
+  "keys_num": [
+   "2013",
+   "780"
+  ],
+  "keys_name": [
+   "780"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시는 82개 법정동을 관할한다.",
+  "quote": "3읍 10면 30행정동 82법정동을 관할하는",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "82개 법정동",
+  "keys_num": [
+   "82"
+  ],
+  "keys_name": [
+   "82"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 청주야구장은 KBO 리그 한화 이글스의 제2홈구장이다.",
+  "quote": "KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "한화 이글스",
+  "keys_num": [],
+  "keys_name": [
+   "Hanwha Eagles"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주는 983년(고려 성종 2년) 십이목을 처음 둘 때 청주목이 되었다.",
+  "quote": "983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었을 때 청주목(淸州牧)이 되었다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "983년 청주목",
+  "keys_num": [
+   "983",
+   "2",
+   "12"
+  ],
+  "keys_name": [
+   "Cheongju-mok"
+  ],
+  "city": "청주시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "청주시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 연간 가능 일조율은 49.7%이다.",
+  "quote": "| Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "49.7%",
+  "keys_num": [
+   "49.7"
+  ],
+  "keys_name": [
+   "49.7"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 7월 가능 일조율은 34.3%로 한 해 중 가장 낮다.",
+  "quote": "| Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "34.3%",
+  "keys_num": [
+   "34.3"
+  ],
+  "keys_name": [
+   "34.3"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_02",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "광주광역시_ko",
+    "key": "34.3 + 34.3",
+    "around": "동이 동쪽은 북구 용강동 영산강변 동부지역이 장성군 남면과의 경계를 이루고 있다. 서쪽은 광산구 양동이 함평군 나산면과 경계를 이루고 있다. 동서간 남북간의 연장거리 간격은 각각 34.3km 23.1km이다. 대한민국 서남부에 위치한 광주는 호남 지방의 중핵도시로서 역할을 수행한다. 광주를 기점으로 하여 나주시 무안군 목포시를 잇는 광목선 영암군 해남군 완"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "청주시의 10월 가능 일조율은 57.3%로 한 해 중 가장 높다.",
+  "quote": "| Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |",
+  "from_table": true,
+  "kind": "other",
+  "value": "57.3%",
+  "keys_num": [
+   "57.3"
+  ],
+  "keys_name": [
+   "57.3"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_03",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_ko",
+    "key": "57.3 + 57.3",
+    "around": " (2.11) | 78.4 (3.09) | 82.8 (3.26) | 159.0 (6.26) | 302.8 (11.92) | 289.6 (11.40) | 128.2 (5.05) | 57.3 (2.26) | 49.8 (1.96) | 34.0 (1.34) | 1299.3 (51.15) | | 평균 강수일수 (≥ 0.1 mm) | 8.3 | 6.9 | 9.4 | "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "청주시는 중국 우한(후베이성)과 2000년에 자매결연했다.",
+  "quote": "| Wuhan | Hubei | China | 2000 | |",
+  "from_table": true,
+  "kind": "other",
+  "value": "우한, 2000년",
+  "keys_num": [
+   "2000"
+  ],
+  "keys_name": [
+   "우한"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시는 러시아 로스토프나도누(로스토프주)와 1999년에 자매결연했다.",
+  "quote": "| Rostov-on-Don | Rostov oblast | Russia | 1999 | |",
+  "from_table": true,
+  "kind": "other",
+  "value": "로스토프나도누, 1999년",
+  "keys_num": [
+   "1999"
+  ],
+  "keys_name": [
+   "로스토프나도누"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시는 폴란드 브로츠와프(하슬레스키에주)와 2023년에 자매결연했다.",
+  "quote": "| Wrocław | Lower Silesian Voivodeship | Poland | 2023 | |",
+  "from_table": true,
+  "kind": "other",
+  "value": "브로츠와프, 2023년",
+  "keys_num": [
+   "2023"
+  ],
+  "keys_name": [
+   "브로츠와프"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 인구는 1970년 약 147,000명에서 2000년 582,158명으로 거의 4배가 되었다.",
+  "quote": "almost quadrupled its population from 147,000 in 1970 to 582,158 in 2000",
+  "from_table": false,
+  "kind": "population",
+  "value": "1970년 147,000명, 2000년 582,158명",
+  "keys_num": [
+   "147,000",
+   "1970",
+   "582,158",
+   "2000"
+  ],
+  "keys_name": [
+   "582,158"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주 전투는 1593년에 일본군과 조선군 사이에 벌어졌다.",
+  "quote": "In 1593, the Battle of Cheongju took place between Japanese forces and Joseon",
+  "from_table": false,
+  "kind": "other",
+  "value": "1593년",
+  "keys_num": [
+   "1593"
+  ],
+  "keys_name": [
+   "청주 전투"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 용두사지 철당간은 962년에 세워졌다.",
+  "quote": "Cheoldanggan, built in the year 962 in the center of the city",
+  "from_table": false,
+  "kind": "other",
+  "value": "962년",
+  "keys_num": [
+   "962"
+  ],
+  "keys_name": [
+   "철당간"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_09",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시의 용두사지 철당간은 철제 원통 20개로 이루어져 높이가 13.1m이다.",
+  "quote": "Made of twenty iron cylinders, the flagpole stands 13.1 metres (43.0 feet) tall",
+  "from_table": false,
+  "kind": "other",
+  "value": "20개 원통, 13.1m",
+  "keys_num": [
+   "20",
+   "13.1"
+  ],
+  "keys_name": [
+   "철당간",
+   "13.1"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_10",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "13.1 + 13.1",
+    "around": ") | 23.0 (73.4) | 25.8 (78.4) | 26.2 (79.2) | 21.3 (70.3) | 14.6 (58.3) | 7.5 (45.5) | 0.6 (33.1) | 13.1 (55.6) | | 일평균 최저 기온 °C (°F) | −5.8 (21.6) | −3.8 (25.2) | 1.0 (33.8) | 7.0 (44.6) | 13.1 (55.6"
+   },
+   {
+    "doc": "청주시_ko",
+    "key": "13.1 + 13.1",
+    "around": ") | 23.0 (73.4) | 25.8 (78.4) | 26.2 (79.2) | 21.3 (70.3) | 14.6 (58.3) | 7.5 (45.5) | 0.6 (33.1) | 13.1 (55.6) | | 일평균 최저 기온 °C (°F) | −5.8 (21.6) | −3.8 (25.2) | 1.0 (33.8) | 7.0 (44.6) | 13.1 (55.6"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "13.1 + 13.1",
+    "around": " 총 7개가 있다. ### 기후 수원시의 기후는 중부지방의 전형적인 대륙성 기후대인 냉대 동계 소우 기후(Dwa)이다. 겨울에는 저온건조하고 여름에는 고온다습하다. 연평균 기온은 13.1°C이고 연평균 강수량은 13996.5 mm이다. | 수도권기상청 (수원시 권선구 고색동 해발 39.81m)의 기후 자료 | | 월 | 1월 | 2월 | 3월 | 4월 | "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "청주시 상당산성의 성벽 둘레는 4.2km이다.",
+  "quote": "stretches over 4.2 kilometres (2.6 miles) in circumference",
+  "from_table": false,
+  "kind": "other",
+  "value": "4.2km",
+  "keys_num": [
+   "4.2"
+  ],
+  "keys_name": [
+   "상당산성",
+   "4.2"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_11",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "수원시_ko",
+    "key": "4.2 + 4.2",
+    "around": " | 12.3 (54.1) | 17.9 (64.2) | 22.1 (71.8) | 22.7 (72.9) | 17.1 (62.8) | 9.4 (48.9) | 2.4 (36.3) | −4.2 (24.4) | 8.0 (46.4) | | 역대 최저 기온 °C (°F) | −24.8 (−12.6) | −25.8 (−14.4) | −11.3 (11.7) | −4.7 ("
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "2023년 청주의 터널(지하차도) 침수로 차량 15대가 갇혀 최소 7명이 숨지고 11명이 실종 보고되었다.",
+  "quote": "In 2023, the Cheongju tunnel flooded during the annual monsoon which trapped 15 vehicles and resulted in at least 7 deaths and 11 reported missing.",
+  "from_table": false,
+  "kind": "other",
+  "value": "15대, 사망 7명 이상, 실종 11명",
+  "keys_num": [
+   "2023",
+   "15",
+   "7",
+   "11"
+  ],
+  "keys_name": [
+   "15대"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "충청북도에서 가장 먼저 세워진 학교 가운데 하나가 1896년 청주에 세워졌다.",
+  "quote": "One of the first schools established in North Chungcheong Province was founded in Cheongju during 1896.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1896년",
+  "keys_num": [
+   "1896"
+  ],
+  "keys_name": [
+   "1896"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_13",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_ko",
+    "key": "1896 + 1896",
+    "around": "(조선 태종 10년) : 이태조 어용진전을 창건하였다. 1439년(조선 세종 21년) : 전주에 실록각이 설치되었다. 1895년 6월 23일(음력 윤5월 1일) : 전주부 전주군 1896년 8월 4일 : 전라북도의 수부(首部)가 전주에 설치되었다. ### 일제강점기 일제시대의 전주부 다이쇼 정(현재의 중앙동) 1914년 4월 1일 : 부군통폐합 때 고산군을"
+   },
+   {
+    "doc": "춘천시_ko",
+    "key": "1896 + 1896",
+    "around": "415년 도호부 고종 24년(1887) 5번째 유수부로 춘천유수부(留守府)을 두고 이궁(離宮)을 신축하여 위급할 때의 피난지로 지정했다. 1895년 6월 23일 : 춘천부 춘천군 1896년 8월 4일 : 강원도 춘천군 1914년 4월 1일 : 면·리를 통폐합하였다. 12면 - 부내면 신북면 사북면 서하면 신남면 남산외일작면 남산외이작면 동산외일작면 동산외이"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "1896 + 1896",
+    "around": "정비가 이루어져 수원향교가 오늘날 자리로 이전했다. 1895년 을미개혁으로 조선 행정체계가 23부제가 되면서 수원도호부가 폐지되고 수원군으로 명칭이 변경되고 인천부로 편입되었지만 1896년 23부제가 폐지되면서 수원군은 별도의 행정구역으로 돌아왔다. 이후 1896년 8월 4일 13도로 다시 행정구역이 개편되었고 수원이 도의 중심지가 되었다. ## 지리와 지"
+   },
+   {
+    "doc": "수원시_ko",
+    "key": "1896 + 1896",
+    "around": "정비가 이루어져 수원향교가 오늘날 자리로 이전했다. 1895년 을미개혁으로 조선 행정체계가 23부제가 되면서 수원도호부가 폐지되고 수원군으로 명칭이 변경되고 인천부로 편입되었지만 1896년 23부제가 폐지되면서 수원군은 별도의 행정구역으로 돌아왔다. 이후 1896년 8월 4일 13도로 다시 행정구역이 개편되었고 수원이 도의 중심지가 되었다. ## 지리와 지"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "1896 + 1896",
+    "around": ") | 구분 | 1999년 (육성이전) | 2003년 (1단계완료) | 2008년 (2단계완료) | 2012년 (3단계완료) | 2013년 | 2014년 | | 고용인원(명) | 1896 | 2834 | 6018 | 8242 | 8445 | 6799 | | 업체수(개) | 47 | 190 | 327 | 360 | 360 | 306 | | 매출액(억원) | "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "질병관리청과 식품의약품안전처 본부는 청주시 오송보건의료행정타운에 있다.",
+  "quote": "The headquarters of the Korea Disease Control and Prevention Agency, and the Ministry of Food and Drug Safety are located in the Osong Health Technology Administration Complex.",
+  "from_table": false,
+  "kind": "other",
+  "value": "질병관리청, 식품의약품안전처",
+  "keys_num": [],
+  "keys_name": [
+   "질병관리청",
+   "식품의약품안전처"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "청주시 초정행궁은 2017년 12월 복원을 시작해 2019년 12월 완공되었고 2020년 6월 개방되었다.",
+  "quote": "restoration work began in December 2017, and construction was completed in December 2019. It opened in June 2020.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2017년 12월 착공, 2019년 12월 완공, 2020년 6월 개방",
+  "keys_num": [
+   "2017",
+   "2019",
+   "2020"
+  ],
+  "keys_name": [
+   "초정행궁"
+  ],
+  "city": "청주시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "청주시_en_15",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2017 + 청주",
+    "around": "는 수준에 머물렀다. 2013년 이후 정부 부처와 공공기관이 단계적으로 이전함에 따라 세종시의 인구는 빠른 속도로 증가하였다. 2015년경에는 인구가 약 20만 명을 돌파하였으며 2017년에는 30만 명을 넘어섰고 2020년에는 34만 명을 상회하였다. 이 시기는 세종시가 대한민국에서 가장 높은 인구 증가율을 기록한 시기로 젊은 공무원 및 공공기관 종사자와"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "2017 + 청주",
+    "around": "-3생활권(소담동-반곡동) 남쪽의 세종특별자치시 금남면 일대에서 대전광역시 유성구의 대덕연구개발특구 및 대덕테크노밸리를 연결하는 BRT 연계 왕복 6차로 도로가 신설 개통되었다. 2017년까지 기존의 국도 제1호선 국도 제36호선 (공주시 방면) 행정중심복합도시 ~ 장군면 ~ 서산영덕고속도로 공주 나들목 국가지원지방도 제96호선 등이 각각 4차로에서 6차로"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "춘천시의 2025년 인구는 285,234명이다.",
+  "quote": "2025 | 285,234 | +0.2%",
+  "from_table": true,
+  "kind": "population",
+  "value": "285,234명",
+  "keys_num": [
+   "2025",
+   "285,234"
+  ],
+  "keys_name": [
+   "Chuncheon population 2025"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 2017년 3월 31일 기준 인구는 282,439명, 세대는 116,273이다.",
+  "quote": "인구는 2017년 3월 31일 기준으로 116,273세대, 282,439명이다",
+  "from_table": false,
+  "kind": "population",
+  "value": "282,439명",
+  "keys_num": [
+   "2017",
+   "282,439",
+   "116,273"
+  ],
+  "keys_name": [
+   "population"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_02",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "강릉시_en",
+    "key": "2017 + population",
+    "around": "ean state of Gangwon located on the east coast of South Korea. It has a population of 213658 (as of 2017). Gangneung is the economic centre of the Yeongdong region of Gangwon State. It has many touris"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "춘천시 춘천기상관측소는 우두동에 있고 해발 95.61m이다.",
+  "quote": "춘천기상관측소 (춘천시 우두동, 해발 95.61m)의 기후 자료",
+  "from_table": true,
+  "kind": "other",
+  "value": "우두동, 해발 95.61m",
+  "keys_num": [
+   "95.61"
+  ],
+  "keys_name": [
+   "Udu-dong",
+   "Chuncheon weather station"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시 퇴계동의 세대 수는 16,970이다.",
+  "quote": "퇴계동 | 退溪洞 | 4.13 | 16,970 | 44,653",
+  "from_table": true,
+  "kind": "other",
+  "value": "16,970세대",
+  "keys_num": [
+   "16,970",
+   "44,653",
+   "4.13"
+  ],
+  "keys_name": [
+   "Toegye-dong",
+   "households"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시는 2014년 3월 20일 미국 일리노이주 시카고와 자매결연을 맺었다.",
+  "quote": "일리노이주 시카고 | 미국 | 2014년 3월 20일",
+  "from_table": true,
+  "kind": "other",
+  "value": "2014년 3월 20일",
+  "keys_num": [
+   "2014",
+   "3",
+   "20"
+  ],
+  "keys_name": [
+   "Chicago",
+   "Illinois"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시는 1991년 10월 29일 일본 야마구치현 호후시와 자매결연을 맺었다.",
+  "quote": "야마구치현 호후시 | 일본 | 1991년 10월 29일",
+  "from_table": true,
+  "kind": "other",
+  "value": "1991년 10월 29일",
+  "keys_num": [
+   "1991",
+   "10",
+   "29"
+  ],
+  "keys_name": [
+   "Hōfu",
+   "Yamaguchi"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시 시의회 다선거구(3명)는 석사동과 후평3동이다.",
+  "quote": "다선거구 (3명) | 석사동, 후평3동",
+  "from_table": true,
+  "kind": "other",
+  "value": "석사동, 후평3동",
+  "keys_num": [
+   "3"
+  ],
+  "keys_name": [
+   "Seoksa-dong",
+   "Hupyeong-3-dong",
+   "electoral district"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_07",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "춘천시_en",
+    "key": "Seoksa-dong",
+    "around": " | 효자1동 | 0.5 | 3899 | | Hyoja-2-dong | 효자2동 | 1.9 | 12067 | | Hyoja-3-dong | 효자3동 | 0.4 | 4232 | | Seoksa-dong | 석사동 | 3.9 | 32149 | | Toegye-dong | 퇴계동 | 4.2 | 45299 | | Gangnam-dong | 강남동 | 14.7 | "
+   },
+   {
+    "doc": "춘천시_en",
+    "key": "Hupyeong-3-dong",
+    "around": " | 9.6 | 8818 | | Hupyeong-1-dong | 후평1동 | 2.1 | 10761 | | Hupyeong-2-dong | 후평2동 | 0.7 | 13491 | | Hupyeong-3-dong | 후평3동 | 1.1 | 18855 | | Hyoja-1-dong | 효자1동 | 0.5 | 3899 | | Hyoja-2-dong | 효자2동 | "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "춘천시는 1949년 8월 15일 춘천부를 춘천시로 개칭했다.",
+  "quote": "1949년 8월 15일 : 춘천부를 춘천시로 개칭하였다.",
+  "from_table": false,
+  "kind": "city_status_year",
+  "value": "1949년",
+  "keys_num": [
+   "1949",
+   "8",
+   "15"
+  ],
+  "keys_name": [
+   "Chuncheon-bu",
+   "renamed Chuncheon City 1949"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 행정 구역은 1읍 9면 15동이다.",
+  "quote": "행정 구역은 1읍(신북읍) 9면 15동",
+  "from_table": false,
+  "kind": "districts_count",
+  "value": "1읍 9면 15동",
+  "keys_num": [
+   "1",
+   "9",
+   "15"
+  ],
+  "keys_name": [
+   "1 eup",
+   "9 myeon",
+   "15 dong"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "안동시_en",
+    "key": "1 eup",
+    "around": "nd dong. Note that the map is in Hangeul and Hanja. Map of Andong city core. Andong is divided into 1 eup 13 myeon and 10 dong. The following is a list of eup myeon and dong: | Name | Hangeul | Hanja "
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "춘천시청 신청사는 2018년 5월 14일 개청했다.",
+  "quote": "2018년 5월 14일 : 본래 춘천시청 자리에 춘천시청 신청사를 개청했다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2018년 5월 14일",
+  "keys_num": [
+   "2018",
+   "5",
+   "14"
+  ],
+  "keys_name": [
+   "new city hall",
+   "Chuncheon City Hall"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "2026년 춘천 시장은 37대 육동한이다.",
+  "quote": "현재 2026년 춘천 시장은 37대 육동한 시장입니다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "육동한(37대)",
+  "keys_num": [
+   "2026",
+   "37"
+  ],
+  "keys_name": [
+   "Yuk Dong-han",
+   "mayor"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시를 찾는 관광객은 연간 1000만여 명이다.",
+  "quote": "연간 1000만여 명에 달하여 관광 수입도 많다",
+  "from_table": false,
+  "kind": "other",
+  "value": "연간 1000만여 명",
+  "keys_num": [
+   "1000"
+  ],
+  "keys_name": [
+   "10 million tourists per year"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "한화 이글스는 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 쓴다.",
+  "quote": "한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2015년부터",
+  "keys_num": [
+   "1986",
+   "2015"
+  ],
+  "keys_name": [
+   "Hanwha Eagles",
+   "Uiam Baseball Stadium"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "강원 FC는 K리그1 소속이며 춘천종합운동장을 경기장 중 하나로 쓴다.",
+  "quote": "강원 FC: 1부리그인 K리그1 소속으로 강릉종합운동장, 원주종합운동장, 속초종합운동장과 함께 춘천종합운동장을 경기장으로 사용한다.",
+  "from_table": false,
+  "kind": "other",
+  "value": "K리그1",
+  "keys_num": [],
+  "keys_name": [
+   "Gangwon FC",
+   "K League 1"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_14",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "전주시_en",
+    "key": "K League 1",
+    "around": "al Museum Jeonju Hanok Village Gyeonggijeon Shrine ### Sports Jeonju World Cup Stadium Jeonju hosts K League 1 team Jeonbuk Hyundai Motors. The team's home ground is the Jeonju World Cup Stadium. Jeon"
+   },
+   {
+    "doc": "강릉시_en",
+    "key": "Gangwon FC",
+    "around": " the K3 League football club FC Gangneung and is one of the two cities where K League football team Gangwon FC plays its home matches. Since 1976 Gangneung Jeil High School and Gangneung Junior high s"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "춘천시의 경춘선은 2010년 12월 21일 복선 전철화 개량사업이 완료되어 수도권 전철 노선이 되었다.",
+  "quote": "2010년 12월 21일, 경춘선이 복선 전철화 개량사업이 완료됨과 동시에 수도권 전철 노선으로 개편되면서",
+  "from_table": false,
+  "kind": "other",
+  "value": "2010년 12월 21일",
+  "keys_num": [
+   "2010",
+   "12",
+   "21"
+  ],
+  "keys_name": [
+   "Gyeongchun Line electrification"
+  ],
+  "city": "춘천시",
+  "lang": "ko",
+  "group": "두 언어 도시",
+  "id": "춘천시_ko_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 연간 가능 일조율은 47.7%이다.",
+  "quote": "Percentage possible sunshine | 54.1 | 56.6 | 53.3 | 54.5 | 50.2 | 45.3 | 32.1 | 40.1 | 46.6 | 50.0 | 46.4 | 50.0 | 47.7",
+  "from_table": true,
+  "kind": "annual_sunshine_percent",
+  "value": "47.7%",
+  "keys_num": [
+   "47.7"
+  ],
+  "keys_name": [
+   "일조율"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_01",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 연간 평균 눈 오는 날은 27.7일이다.",
+  "quote": "Average snowy days | 8.8 | 6.3 | 3.9 | 0.2 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.8 | 6.7 | 27.7",
+  "from_table": true,
+  "kind": "other",
+  "value": "27.7일",
+  "keys_num": [
+   "27.7"
+  ],
+  "keys_name": [
+   "눈 오는 날",
+   "적설일수"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_02",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 2026년 외국인 포함 인구는 290,281명이다.",
+  "quote": "Total | 1,166.8 | 290,281",
+  "from_table": true,
+  "kind": "population",
+  "value": "290,281명",
+  "keys_num": [
+   "290,281",
+   "2026"
+  ],
+  "keys_name": [
+   "290,281"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_03",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 자매 도시에는 이탈리아 에밀리아로마냐주 파르마가 있다.",
+  "quote": "Parma | Emilia-Romagna | Italy",
+  "from_table": true,
+  "kind": "other",
+  "value": "파르마(이탈리아)",
+  "keys_num": [],
+  "keys_name": [
+   "파르마",
+   "에밀리아로마냐"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_04",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 자매 도시에는 덴마크 남덴마크 지역의 바일레가 있다.",
+  "quote": "Vejle | Southern Denmark | Denmark",
+  "from_table": true,
+  "kind": "other",
+  "value": "바일레(덴마크)",
+  "keys_num": [],
+  "keys_name": [
+   "바일레",
+   "벨레",
+   "덴마크"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_05",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 역대 최저 기온 -27.9도는 1969년 2월 6일에 관측되었다.",
+  "quote": "The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)",
+  "from_table": false,
+  "kind": "record_low",
+  "value": "1969년 2월 6일",
+  "keys_num": [
+   "1969",
+   "6"
+  ],
+  "keys_name": [
+   "1969년 2월 6일"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_06",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 역대 최고 기온 39.5도는 2018년 8월 1일에 관측되었다.",
+  "quote": "the highest was 39.5 °C (103 °F) (1 August 2018)",
+  "from_table": false,
+  "kind": "record_high",
+  "value": "2018년 8월 1일",
+  "keys_num": [
+   "2018",
+   "1"
+  ],
+  "keys_name": [
+   "2018년 8월 1일"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_07",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 춘천댐, 의암댐, 소양강댐은 각각 1965년, 1967년, 1973년에 지어졌다.",
+  "quote": "Chuncheon Dam, Uiam Dam, and Soyang Dam were built in 1965, 1967, and 1973 respectively.",
+  "from_table": false,
+  "kind": "other",
+  "value": "1965, 1967, 1973",
+  "keys_num": [
+   "1965",
+   "1967",
+   "1973"
+  ],
+  "keys_name": [
+   "춘천댐 1965",
+   "의암댐 1967",
+   "소양강댐 1973"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_08",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 문화재는 국가지정 12개, 도지정 34개이다.",
+  "quote": "there are 12 state-designated and 34 province-designated cultural properties in Chuncheon",
+  "from_table": false,
+  "kind": "other",
+  "value": "국가 12, 도 34",
+  "keys_num": [
+   "12",
+   "34"
+  ],
+  "keys_name": [
+   "문화재",
+   "국가지정",
+   "도지정"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_09",
+  "quote_ok": true,
+  "hits": [
+   {
+    "doc": "청주시_ko",
+    "key": "문화재",
+    "around": "당구 용정동) 용정축구공원 (상당구 용정동) 청주배드민턴ㆍ태권도체육관 (서원구 사직동) 청원공설운동장 (청원구 내수읍) 청주흥덕지구축구공원 (흥덕구 휴암동) ## 출신 인물 ## 문화재 청주 용두사지 철당간 (국보 제41호) 계유명전씨아미타불비상 (국보 제106호) 청주 용화사 석조불상군 (보물 제985호) 청주 운천동 출토 동종 (보물 제1167호) 청주"
+   },
+   {
+    "doc": "청주시_ko",
+    "key": "문화재",
+    "around": " 수암골 전망대가 있어 시내를 한눈에 볼 수 있다. 전망대를 타고 내려가면 청주대 학생을 비롯한 예술인들이 만든 벽화거리가 있는데 굉장히 친근하고 아름다운 모습을 선사한다. 문의 문화재 단지 상당구 문의면 문산리에 있다. 대청댐 건설로 수몰된 마을을 기리기 위해 청주시 내 각종 문화재들을 수집 전시하였으며 옛 전통 마을의 모습을 복원하여 역사 학습 전통 문"
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "문화재",
+    "around": " '경주'로 바뀌었다. 이후 동경(東京) 계림부(鷄林府) 등으로 바뀌었다가 조선 시대에 다시 경주로 바뀌었으며 영남 남인의 구심점 역할을 했다. 사찰 유적 석탑 등 많은 신라시대 문화재와 경주 양동마을 등 조선시대 양반마을이 보존되어 있다. 불국사 석굴암 남산 월성 대릉원 황룡사지 산성 등 5곳의 경주역사유적지구와 경주 양동마을이 유네스코 세계문화유산으로 "
+   },
+   {
+    "doc": "경주시_ko",
+    "key": "문화재",
+    "around": "스포 축제를 성공리에 개최하여 역사적으로 유명한 이미지뿐만 아니라 국제적 위상까지 성공적으로 끌어올렸다. 문화유산 보유율은 전국의 5.5% 경상북도의 30%로 총 합계 396점의 문화재를 보유하고 있다. 국가지정문화재의 국보 30점 보물 76점 사적 72점 중요민속자료 16점 기타 6점이며 도지정의 유형문화유산 28점 무형문화유산 1점 기념물 17점 민속자"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "문화재",
+    "around": "용한다. ## 문화 ### 국보 계유명전씨아미타불비상: 국보 국립청주박물관 소장 ### 보물 세종 연화사 무인명불비상 및 대좌: 보물 세종 연화사 칠존불비상: 보물 ### 중요민속문화재 세종 유계화 가옥: 중요민속문화재 ### 천연기념물 세종 봉산동 향나무: 천연기념물 ### 시 지정문화재 세종특별자치시 출범에 따라 충청남도와 충청북도로부터 이관된 도지정문"
+   },
+   {
+    "doc": "세종특별자치시_ko",
+    "key": "문화재",
+    "around": "유명전씨아미타불비상: 국보 국립청주박물관 소장 ### 보물 세종 연화사 무인명불비상 및 대좌: 보물 세종 연화사 칠존불비상: 보물 ### 중요민속문화재 세종 유계화 가옥: 중요민속문화재 ### 천연기념물 세종 봉산동 향나무: 천연기념물 ### 시 지정문화재 세종특별자치시 출범에 따라 충청남도와 충청북도로부터 이관된 도지정문화재를 2012년 12월 25일 시"
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "문화재",
+    "around": "원 아시아문화개발원 세계김치연구소(한국식품연구원 부설) #### 금융기관 광주은행(JB금융지주 산하) #### 기타기관 광주정보문화산업진흥원 광주광역시체육회(대한체육회 산하) 광주문화재단 ### 의료기관 전남대학교병원 응급의료센터 2010년 기준으로 의료기관 1800여 개 의사 3000여 명이 있다. 전국 광역시 중 인구 1000명당 의사 수가 가장 많다."
+   },
+   {
+    "doc": "광주광역시_ko",
+    "key": "문화재",
+    "around": "해 세계적으로 가치 있는 도시로 자리매김하고 있다. 광주 여행을 희망하는 여행객은 광주광역시에서 운영하는 '오매광주'를 통해 광주관광에 대한 다양한 정보를 얻을 수 있다. ### 문화재 광주광역시의 문화유산자료 광주광역시의 유형문화재 광주광역시의 무형문화재 광주광역시의 민속문화재 광주광역시의 국가등록문화유산 광주광역시의 기념물을 참고하십시오. ### 박물관"
+   }
+  ],
+  "status": "겹칠 수 있음"
+ },
+ {
+  "fact": "춘천시의 청평사는 973년에 세워진 절이고 문 회전문은 보물이다.",
+  "quote": "Cheongpyeongsa is a Buddhist temple established in 973. Its gate, Hoejeonmun, is designated as Treasure.",
+  "from_table": false,
+  "kind": "other",
+  "value": "973년",
+  "keys_num": [
+   "973"
+  ],
+  "keys_name": [
+   "청평사",
+   "회전문",
+   "보물"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_10",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천 닭갈비는 1960년대 돼지고기 식당 주인 김영석이 처음 만든 것으로 알려져 있다.",
+  "quote": "Kim Yeong-seok, an owner of a pork restaurant, is credited with inventing the dish in the 1960s",
+  "from_table": false,
+  "kind": "other",
+  "value": "김영석, 1960년대",
+  "keys_num": [
+   "1960"
+  ],
+  "keys_name": [
+   "김영석",
+   "닭갈비"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_11",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 레고랜드 코리아는 2022년에 문을 열었고 세계에서 10번째, 두 번째로 큰 레고랜드이다.",
+  "quote": "Legoland Korea Resort, the 10th Legoland theme park and the 2nd largest in the world, opened in 2022.",
+  "from_table": false,
+  "kind": "other",
+  "value": "2022년, 10번째",
+  "keys_num": [
+   "10",
+   "2",
+   "2022"
+  ],
+  "keys_name": [
+   "레고랜드",
+   "2022년 개장"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_12",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시의 대학은 강원대 춘천캠퍼스와 한림대 2곳이고, 전문대학 3곳과 교육대학 1곳이 있다.",
+  "quote": "one university of education (Chuncheon National University of Education), two universities (Kangwon National University Chuncheon Campus and Hallym University)",
+  "from_table": false,
+  "kind": "universities_count",
+  "value": "대학교 2곳",
+  "keys_num": [
+   "2",
+   "3",
+   "1"
+  ],
+  "keys_name": [
+   "대학교 2곳",
+   "전문대학 3곳"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_13",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천시외버스터미널은 2025년 기준 41개 노선을 운행한다.",
+  "quote": "Chuncheon Intercity Bus Terminal operates 41 routes as of 2025.",
+  "from_table": false,
+  "kind": "other",
+  "value": "41개 노선",
+  "keys_num": [
+   "41",
+   "2025"
+  ],
+  "keys_name": [
+   "41개 노선",
+   "시외버스터미널"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_14",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ },
+ {
+  "fact": "춘천마임축제는 1993년에 시작되었다.",
+  "quote": "Chuncheon Mime Festival which began in 1993",
+  "from_table": false,
+  "kind": "other",
+  "value": "1993년",
+  "keys_num": [
+   "1993"
+  ],
+  "keys_name": [
+   "춘천마임축제 1993"
+  ],
+  "city": "춘천시",
+  "lang": "en",
+  "group": "두 언어 도시",
+  "id": "춘천시_en_15",
+  "quote_ok": true,
+  "hits": [],
+  "status": "통과"
+ }
+]

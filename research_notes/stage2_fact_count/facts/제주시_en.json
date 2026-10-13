@@ -1,0 +1,264 @@
+{
+ "city": "제주시",
+ "lang": "en",
+ "facts": [
+  {
+   "fact": "제주시의 인구는 2024년 5월 기준 486,604명이다.",
+   "quote": "The population of Jeju City is 486,604 people and 225,139 households",
+   "from_table": false,
+   "kind": "population",
+   "value": "486,604명 (2024년 5월)",
+   "keys_num": [
+    "486,604",
+    "225,139",
+    "2024"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시의 인구 밀도는 2020년 기준 1제곱킬로미터당 503.18명이다.",
+   "quote": "The population density is 503.18 (per square km, 2020).",
+   "from_table": false,
+   "kind": "other",
+   "value": "503.18명/km2 (2020)",
+   "keys_num": [
+    "503.18",
+    "2020"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시는 1955년에 북제주군에서 분리되어 시가 되었다.",
+   "quote": "The city was separated from Bukjeju County in 1955.",
+   "from_table": false,
+   "kind": "city_status_year",
+   "value": "1955",
+   "keys_num": [
+    "1955"
+   ],
+   "keys_name": [
+    "북제주군"
+   ]
+  },
+  {
+   "fact": "제주시는 2006년 7월에 북제주군과 통합되었다.",
+   "quote": "That change was put into effect in July 2006.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2006년 7월",
+   "keys_num": [
+    "2006"
+   ],
+   "keys_name": [
+    "북제주군",
+    "서귀포시",
+    "남제주군"
+   ]
+  },
+  {
+   "fact": "제주시 일도1동 관측소 기준 연평균 기온은 16.2도이다.",
+   "quote": "| Daily mean °C (°F) | 6.1 (43.0) | 6.8 (44.2) | 9.8 (49.6) | 14.2 (57.6) | 18.3 (64.9) | 21.7 (71.1) | 26.2 (79.2) | 27.2 (81.0) | 23.3 (73.9) | 18.6 (65.5) | 13.3 (55.9) | 8.3 (46.9) | 16.2 (61.2) |",
+   "from_table": true,
+   "kind": "annual_mean_temp",
+   "value": "16.2 °C",
+   "keys_num": [
+    "16.2"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시 일도1동 관측소 기준 연 강수량은 1,502.3밀리미터이다.",
+   "quote": "| Average precipitation mm (inches) | 67.5 (2.66) | 57.2 (2.25) | 90.6 (3.57) | 89.7 (3.53) | 95.6 (3.76) | 171.2 (6.74) | 210.2 (8.28) | 272.3 (10.72) | 227.8 (8.97) | 95.1 (3.74) | 69.5 (2.74) | 55.6 (2.19) | 1,502.3 (59.15) |",
+   "from_table": true,
+   "kind": "annual_precip",
+   "value": "1,502.3 mm",
+   "keys_num": [
+    "1,502.3"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시 일도1동 관측소 기준 연간 가능 일조율은 41.7퍼센트이다.",
+   "quote": "| Percentage possible sunshine | 22.2 | 34.0 | 42.8 | 49.8 | 49.2 | 39.7 | 44.7 | 47.2 | 43.5 | 50.7 | 40.2 | 27.4 | 41.7 |",
+   "from_table": true,
+   "kind": "annual_sunshine_percent",
+   "value": "41.7%",
+   "keys_num": [
+    "41.7"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시의 기후는 쾨펜 기후 구분으로 Cfa(온난 습윤 기후)이다.",
+   "quote": "Jeju City has a humid subtropical climate (Köppen: Cfa)",
+   "from_table": false,
+   "kind": "koppen",
+   "value": "Cfa",
+   "keys_num": [],
+   "keys_name": [
+    "온난 습윤 기후",
+    "아열대 습윤 기후"
+   ]
+  },
+  {
+   "fact": "제주시의 역대 최고 기온은 1942년 7월 25일에 기록한 37.5도이다.",
+   "quote": "The highest temperature ever recorded is 37.5 °C (99.5 °F) on 25 July 1942",
+   "from_table": false,
+   "kind": "record_high",
+   "value": "37.5 °C (1942-07-25)",
+   "keys_num": [
+    "37.5",
+    "1942"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시의 역대 최저 기온은 1977년 2월 16일에 기록한 영하 6.0도이다.",
+   "quote": "the lowest temperature ever recorded is −6.0 °C (21.2 °F) on 16 February 1977",
+   "from_table": false,
+   "kind": "record_low",
+   "value": "−6.0 °C (1977-02-16)",
+   "keys_num": [
+    "−6.0",
+    "1977"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시는 19개 동, 4개 읍, 3개 면으로 나뉜다.",
+   "quote": "Jeju is divided into 19 neighbourhoods (dong), 4 towns (eup), and 3 townships (myeon):",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "19개 동, 4개 읍, 3개 면",
+   "keys_num": [
+    "19",
+    "4",
+    "3"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시의 자매도시는 중국 구이린, 중국 라이저우, 프랑스 루앙, 일본 산다, 미국 산타로사, 일본 와카야마의 6곳이다.",
+   "quote": "Jeju City is twinned with:",
+   "from_table": false,
+   "kind": "sister_cities_count",
+   "value": "6 (원문에 수가 적혀 있지 않아 목록 항목을 세었다)",
+   "keys_num": [],
+   "keys_name": [
+    "구이린",
+    "라이저우",
+    "루앙",
+    "산다",
+    "산타로사",
+    "와카야마"
+   ]
+  },
+  {
+   "fact": "제주시의 인구는 1980년에 290,116명이었다.",
+   "quote": "| 1980 | 290,116 | — |",
+   "from_table": true,
+   "kind": "other",
+   "value": "290,116명",
+   "keys_num": [
+    "1980",
+    "290,116"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시의 인구는 2020년에 492,306명이었다.",
+   "quote": "| 2020 | 492,306 | +1.73% |",
+   "from_table": true,
+   "kind": "other",
+   "value": "492,306명",
+   "keys_num": [
+    "2020",
+    "492,306",
+    "1.73"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "제주시 노형동의 2024년 인구는 54,954명이다.",
+   "quote": "| Nohyeong-dong | 노형동 | 54,954 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "54,954명",
+   "keys_num": [
+    "54,954",
+    "2024"
+   ],
+   "keys_name": [
+    "노형동"
+   ]
+  },
+  {
+   "fact": "제주시 애월읍의 2024년 인구는 38,009명이다.",
+   "quote": "| Aewol-eup | 애월읍 | 38,009 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "38,009명",
+   "keys_num": [
+    "38,009",
+    "2024"
+   ],
+   "keys_name": [
+    "애월읍"
+   ]
+  },
+  {
+   "fact": "제주시 앞바다의 우도는 2016년에 방문객 223만 명을 맞았다.",
+   "quote": "It received 2.23 million visitors in 2016.",
+   "from_table": false,
+   "kind": "other",
+   "value": "223만 명 (2016)",
+   "keys_num": [
+    "2.23",
+    "2016"
+   ],
+   "keys_name": [
+    "우도"
+   ]
+  },
+  {
+   "fact": "제주시 중심부 가까이에 있는 제주 야구장은 8,500석 규모이다.",
+   "quote": "The 8,500-seat Jeju Baseball Stadium is near the center of the city.",
+   "from_table": false,
+   "kind": "other",
+   "value": "8,500석",
+   "keys_num": [
+    "8,500"
+   ],
+   "keys_name": [
+    "제주야구장"
+   ]
+  },
+  {
+   "fact": "제주시는 2012년에 김상오가 시장이 되었다.",
+   "quote": "In 2012 Sang-Oh Kim became mayor",
+   "from_table": false,
+   "kind": "other",
+   "value": "김상오 (2012)",
+   "keys_num": [
+    "2012"
+   ],
+   "keys_name": [
+    "김상오"
+   ]
+  },
+  {
+   "fact": "2011년에 서울과 제주 사이를 오간 승객은 990만 명으로, 김포-제주 노선은 세계에서 가장 붐비는 항공 노선이었다.",
+   "quote": "In 2011, 9.9 million passengers flew between the two cities of Seoul and Jeju",
+   "from_table": false,
+   "kind": "other",
+   "value": "990만 명 (2011)",
+   "keys_num": [
+    "9.9",
+    "2011"
+   ],
+   "keys_name": [
+    "김포"
+   ]
+  }
+ ]
+}

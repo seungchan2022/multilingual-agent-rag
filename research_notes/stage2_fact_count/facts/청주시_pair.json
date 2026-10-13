@@ -1,0 +1,452 @@
+{
+ "city": "청주시",
+ "ko_only": [
+  {
+   "fact": "청주시의 통합 이전(구 청주시) 면적은 2012년 기준 153.45km2였다.",
+   "quote": "도농 통합 이전 청주시 면적은 2012년 기준 153.45km2으로",
+   "from_table": false,
+   "kind": "area",
+   "value": "153.45km2",
+   "keys_num": [
+    "153.45",
+    "2012"
+   ],
+   "keys_name": [
+    "153.45"
+   ]
+  },
+  {
+   "fact": "통합 청주시의 전체 면적은 940.33km2이다.",
+   "quote": "| 총합계 | 380,651 | 846,691 | 940.33 | 4구 |",
+   "from_table": true,
+   "kind": "area",
+   "value": "940.33km2",
+   "keys_num": [
+    "940.33"
+   ],
+   "keys_name": [
+    "940.33"
+   ]
+  },
+  {
+   "fact": "청주시 상당구의 면적은 404.40km2이다.",
+   "quote": "| 상당구 | 上黨區 | 83,394 | 193,673 | 404.40 |",
+   "from_table": true,
+   "kind": "area",
+   "value": "404.40km2",
+   "keys_num": [
+    "404.40"
+   ],
+   "keys_name": [
+    "Sangdang District",
+    "404.40"
+   ]
+  },
+  {
+   "fact": "청주시 흥덕구의 인구는 265,316명이다(2021년 5월말 기준 표).",
+   "quote": "| 흥덕구 | 興德區 | 121,161 | 265,316 | 198.34 |",
+   "from_table": true,
+   "kind": "population",
+   "value": "265,316명",
+   "keys_num": [
+    "265,316"
+   ],
+   "keys_name": [
+    "Heungdeok District",
+    "265,316"
+   ]
+  },
+  {
+   "fact": "청주시 서원구의 인구는 193,630명이다(2021년 5월말 기준 표).",
+   "quote": "| 서원구 | 西原區 | 88,082 | 193,630 | 122.63 |",
+   "from_table": true,
+   "kind": "population",
+   "value": "193,630명",
+   "keys_num": [
+    "193,630"
+   ],
+   "keys_name": [
+    "Seowon District",
+    "193,630"
+   ]
+  },
+  {
+   "fact": "청주시의 2021년 5월말 주민등록 인구는 846,291명(380,651세대)이다.",
+   "quote": "2021년 5월말 주민등록 인구는 380,651세대, 846,291명이다.",
+   "from_table": false,
+   "kind": "population",
+   "value": "846,291명",
+   "keys_num": [
+    "2021",
+    "380,651",
+    "846,291"
+   ],
+   "keys_name": [
+    "846,291"
+   ]
+  },
+  {
+   "fact": "통합 이전 청주시의 인구는 2014년 4월말 기준 674,341명이었다.",
+   "quote": "통합 이전의 청주시 인구는 2014년 4월말을 기준으로 674,341명",
+   "from_table": false,
+   "kind": "population",
+   "value": "674,341명",
+   "keys_num": [
+    "2014",
+    "674,341"
+   ],
+   "keys_name": [
+    "674,341"
+   ]
+  },
+  {
+   "fact": "청주시는 940년(고려 태조 23년) 청주라는 이름으로 바뀌었다.",
+   "quote": "940년(고려 태조 23년) 청주로 개명되었다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "940년",
+   "keys_num": [
+    "940",
+    "23"
+   ],
+   "keys_name": [
+    "940"
+   ]
+  },
+  {
+   "fact": "청주시·청원군 통합 주민투표(2012년 6월)의 투표율은 36.75%였고 투표자의 79%가 찬성했다.",
+   "quote": "전체 유권자의 36.75%가 투표에 참여하였고, 총 투표자의 79%가 시·군 통합에 찬성하여",
+   "from_table": false,
+   "kind": "other",
+   "value": "투표율 36.75%, 찬성 79%",
+   "keys_num": [
+    "2012",
+    "36.75",
+    "79"
+   ],
+   "keys_name": [
+    "36.75",
+    "79%"
+   ]
+  },
+  {
+   "fact": "청주시 청남대는 1983년 전두환 대통령의 별장으로 지어졌다.",
+   "quote": "청남대는 1983년에 전두환 대통령의 별장으로 건립하여",
+   "from_table": false,
+   "kind": "other",
+   "value": "전두환 대통령 별장",
+   "keys_num": [
+    "1983"
+   ],
+   "keys_name": [
+    "Chun Doo-hwan"
+   ]
+  },
+  {
+   "fact": "청주산업단지는 1969년에 착공되어 5차례에 걸쳐 단계적으로 개발되었다.",
+   "quote": "청주산업단지가 1969년 착공된 이래 5차례에 걸쳐 단계적으로 개발되었다",
+   "from_table": false,
+   "kind": "other",
+   "value": "1969년 착공, 5차례 개발",
+   "keys_num": [
+    "1969",
+    "5"
+   ],
+   "keys_name": [
+    "Cheongju Industrial Complex"
+   ]
+  },
+  {
+   "fact": "청주시에는 2013년 기준 약 780개의 의료기관이 있다.",
+   "quote": "청주에는 2013년 기준 약 780개의 의료기관이 있다",
+   "from_table": false,
+   "kind": "other",
+   "value": "약 780개",
+   "keys_num": [
+    "2013",
+    "780"
+   ],
+   "keys_name": [
+    "780"
+   ]
+  },
+  {
+   "fact": "청주시는 82개 법정동을 관할한다.",
+   "quote": "3읍 10면 30행정동 82법정동을 관할하는",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "82개 법정동",
+   "keys_num": [
+    "82"
+   ],
+   "keys_name": [
+    "82"
+   ]
+  },
+  {
+   "fact": "청주시의 청주야구장은 KBO 리그 한화 이글스의 제2홈구장이다.",
+   "quote": "KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "한화 이글스",
+   "keys_num": [],
+   "keys_name": [
+    "Hanwha Eagles"
+   ]
+  },
+  {
+   "fact": "청주는 983년(고려 성종 2년) 십이목을 처음 둘 때 청주목이 되었다.",
+   "quote": "983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었을 때 청주목(淸州牧)이 되었다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "983년 청주목",
+   "keys_num": [
+    "983",
+    "2",
+    "12"
+   ],
+   "keys_name": [
+    "Cheongju-mok"
+   ]
+  }
+ ],
+ "en_only": [
+  {
+   "fact": "청주시의 연간 가능 일조율은 49.7%이다.",
+   "quote": "| Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |",
+   "from_table": true,
+   "kind": "annual_sunshine_percent",
+   "value": "49.7%",
+   "keys_num": [
+    "49.7"
+   ],
+   "keys_name": [
+    "49.7"
+   ]
+  },
+  {
+   "fact": "청주시의 7월 가능 일조율은 34.3%로 한 해 중 가장 낮다.",
+   "quote": "| Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "34.3%",
+   "keys_num": [
+    "34.3"
+   ],
+   "keys_name": [
+    "34.3"
+   ]
+  },
+  {
+   "fact": "청주시의 10월 가능 일조율은 57.3%로 한 해 중 가장 높다.",
+   "quote": "| Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "57.3%",
+   "keys_num": [
+    "57.3"
+   ],
+   "keys_name": [
+    "57.3"
+   ]
+  },
+  {
+   "fact": "청주시는 중국 우한(후베이성)과 2000년에 자매결연했다.",
+   "quote": "| Wuhan | Hubei | China | 2000 | |",
+   "from_table": true,
+   "kind": "other",
+   "value": "우한, 2000년",
+   "keys_num": [
+    "2000"
+   ],
+   "keys_name": [
+    "우한"
+   ]
+  },
+  {
+   "fact": "청주시는 러시아 로스토프나도누(로스토프주)와 1999년에 자매결연했다.",
+   "quote": "| Rostov-on-Don | Rostov oblast | Russia | 1999 | |",
+   "from_table": true,
+   "kind": "other",
+   "value": "로스토프나도누, 1999년",
+   "keys_num": [
+    "1999"
+   ],
+   "keys_name": [
+    "로스토프나도누"
+   ]
+  },
+  {
+   "fact": "청주시는 폴란드 브로츠와프(하슬레스키에주)와 2023년에 자매결연했다.",
+   "quote": "| Wrocław | Lower Silesian Voivodeship | Poland | 2023 | |",
+   "from_table": true,
+   "kind": "other",
+   "value": "브로츠와프, 2023년",
+   "keys_num": [
+    "2023"
+   ],
+   "keys_name": [
+    "브로츠와프"
+   ]
+  },
+  {
+   "fact": "청주시의 인구는 1970년 약 147,000명에서 2000년 582,158명으로 거의 4배가 되었다.",
+   "quote": "almost quadrupled its population from 147,000 in 1970 to 582,158 in 2000",
+   "from_table": false,
+   "kind": "population",
+   "value": "1970년 147,000명, 2000년 582,158명",
+   "keys_num": [
+    "147,000",
+    "1970",
+    "582,158",
+    "2000"
+   ],
+   "keys_name": [
+    "582,158"
+   ]
+  },
+  {
+   "fact": "청주 전투는 1593년에 일본군과 조선군 사이에 벌어졌다.",
+   "quote": "In 1593, the Battle of Cheongju took place between Japanese forces and Joseon",
+   "from_table": false,
+   "kind": "other",
+   "value": "1593년",
+   "keys_num": [
+    "1593"
+   ],
+   "keys_name": [
+    "청주 전투"
+   ]
+  },
+  {
+   "fact": "청주시의 용두사지 철당간은 962년에 세워졌다.",
+   "quote": "Cheoldanggan, built in the year 962 in the center of the city",
+   "from_table": false,
+   "kind": "other",
+   "value": "962년",
+   "keys_num": [
+    "962"
+   ],
+   "keys_name": [
+    "철당간"
+   ]
+  },
+  {
+   "fact": "청주시의 용두사지 철당간은 철제 원통 20개로 이루어져 높이가 13.1m이다.",
+   "quote": "Made of twenty iron cylinders, the flagpole stands 13.1 metres (43.0 feet) tall",
+   "from_table": false,
+   "kind": "other",
+   "value": "20개 원통, 13.1m",
+   "keys_num": [
+    "20",
+    "13.1"
+   ],
+   "keys_name": [
+    "철당간",
+    "13.1"
+   ]
+  },
+  {
+   "fact": "청주시 상당산성의 성벽 둘레는 4.2km이다.",
+   "quote": "stretches over 4.2 kilometres (2.6 miles) in circumference",
+   "from_table": false,
+   "kind": "other",
+   "value": "4.2km",
+   "keys_num": [
+    "4.2"
+   ],
+   "keys_name": [
+    "상당산성",
+    "4.2"
+   ]
+  },
+  {
+   "fact": "2023년 청주의 터널(지하차도) 침수로 차량 15대가 갇혀 최소 7명이 숨지고 11명이 실종 보고되었다.",
+   "quote": "In 2023, the Cheongju tunnel flooded during the annual monsoon which trapped 15 vehicles and resulted in at least 7 deaths and 11 reported missing.",
+   "from_table": false,
+   "kind": "other",
+   "value": "15대, 사망 7명 이상, 실종 11명",
+   "keys_num": [
+    "2023",
+    "15",
+    "7",
+    "11"
+   ],
+   "keys_name": [
+    "15대"
+   ]
+  },
+  {
+   "fact": "충청북도에서 가장 먼저 세워진 학교 가운데 하나가 1896년 청주에 세워졌다.",
+   "quote": "One of the first schools established in North Chungcheong Province was founded in Cheongju during 1896.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1896년",
+   "keys_num": [
+    "1896"
+   ],
+   "keys_name": [
+    "1896"
+   ]
+  },
+  {
+   "fact": "질병관리청과 식품의약품안전처 본부는 청주시 오송보건의료행정타운에 있다.",
+   "quote": "The headquarters of the Korea Disease Control and Prevention Agency, and the Ministry of Food and Drug Safety are located in the Osong Health Technology Administration Complex.",
+   "from_table": false,
+   "kind": "other",
+   "value": "질병관리청, 식품의약품안전처",
+   "keys_num": [],
+   "keys_name": [
+    "질병관리청",
+    "식품의약품안전처"
+   ]
+  },
+  {
+   "fact": "청주시 초정행궁은 2017년 12월 복원을 시작해 2019년 12월 완공되었고 2020년 6월 개방되었다.",
+   "quote": "restoration work began in December 2017, and construction was completed in December 2019. It opened in June 2020.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2017년 12월 착공, 2019년 12월 완공, 2020년 6월 개방",
+   "keys_num": [
+    "2017",
+    "2019",
+    "2020"
+   ],
+   "keys_name": [
+    "초정행궁"
+   ]
+  }
+ ],
+ "conflict": [
+  {
+   "what": "3월 역대 최고 기온(°C)",
+   "ko": "25.9",
+   "en": "28.2"
+  },
+  {
+   "what": "9월 역대 최고 기온(°C)",
+   "ko": "36.2",
+   "en": "34.7"
+  },
+  {
+   "what": "11월 역대 최고 기온(°C)",
+   "ko": "26.5",
+   "en": "25.1"
+  },
+  {
+   "what": "12월 역대 최고 기온(°C)",
+   "ko": "19.6",
+   "en": "19.3"
+  },
+  {
+   "what": "충북선 개통 연도",
+   "ko": "1920년",
+   "en": "1926년"
+  },
+  {
+   "what": "자매도시 수와 구성",
+   "ko": "8곳(서울 용산구, 사천시, 벨링헴, 아부다비, 키토, 돗토리시, 고후시, 오타와)",
+   "en": "5곳(Tottori, Wuhan, Bellingham, Rostov-on-Don, Wrocław)"
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "city": "수원시",
+ "lang": "ko",
+ "facts": [
+  {
+   "fact": "수원시의 인구는 2023년 기준 1,233,431명이다.",
+   "quote": "수원시의 인구는 2023년 기준 537,078세대 1,233,431명이다.",
+   "from_table": false,
+   "kind": "population",
+   "value": "1,233,431명 (2023년 기준)",
+   "keys_num": [
+    "2023",
+    "1,233,431"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시의 총 면적은 121.05 km2이다.",
+   "quote": "수원시의 총 면적은 121.05 km2의 주형 분지로 되어 있다.",
+   "from_table": false,
+   "kind": "area",
+   "value": "121.05 km2",
+   "keys_num": [
+    "121.05"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시는 1949년에 부(현재의 시)로 승격되었다.",
+   "quote": "| 1949년 | 52,772명 | | 1949년 8월 14일 시 승격 |",
+   "from_table": true,
+   "kind": "city_status_year",
+   "value": "1949년",
+   "keys_num": [
+    "1949",
+    "8",
+    "14"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시의 연평균 기온은 13.1°C이다.",
+   "quote": "연평균 기온은 13.1°C이고",
+   "from_table": false,
+   "kind": "annual_mean_temp",
+   "value": "13.1°C",
+   "keys_num": [
+    "13.1"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시 기후 표의 연 평균 강수량은 1,320.3 mm이다(본문에는 13,996.5 mm로 적혀 서로 다르다).",
+   "quote": "| 122.9 (4.84) | 385.1 (15.16) | 296.3 (11.67) | 133.5 (5.26) | 54.1 (2.13) | 48.9 (1.93) | 25.8 (1.02) | 1,320.3 (51.98) |",
+   "from_table": true,
+   "kind": "annual_precip",
+   "value": "1,320.3 mm",
+   "keys_num": [
+    "1,320.3",
+    "51.98"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시의 쾨펜 기후 구분은 냉대 동계 소우 기후(Dwa)이다.",
+   "quote": "냉대 동계 소우 기후(Dwa)이다. 겨울에는 저온건조하고",
+   "from_table": false,
+   "kind": "koppen",
+   "value": "냉대 동계 소우 기후(Dwa)",
+   "keys_num": [],
+   "keys_name": [
+    "Dwa",
+    "Humid continental"
+   ]
+  },
+  {
+   "fact": "수원시의 역대 최고 기온은 8월의 39.3°C이다.",
+   "quote": "| 역대 최고 기온 °C (°F) | 15.3 (59.5) | 19.3 (66.7) | 25.0 (77.0) | 30.5 (86.9) | 33.2 (91.8) | 35.1 (95.2) | 37.5 (99.5) | 39.3 (102.7) |",
+   "from_table": true,
+   "kind": "record_high",
+   "value": "39.3°C (8월)",
+   "keys_num": [
+    "39.3",
+    "102.7"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시의 역대 최저 기온은 2월의 −25.8°C이다.",
+   "quote": "| 역대 최저 기온 °C (°F) | −24.8 (−12.6) | −25.8 (−14.4) |",
+   "from_table": true,
+   "kind": "record_low",
+   "value": "−25.8°C (2월)",
+   "keys_num": [
+    "25.8",
+    "14.4"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시의 행정 구역은 4개 구, 44개 행정동, 56개 법정동이다.",
+   "quote": "수원시의 행정 구역은 장안구, 권선구, 팔달구, 영통구의 4개 구로 44개 행정동, 56개 법정동을 두고 있다.",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "4개 구, 44개 행정동, 56개 법정동",
+   "keys_num": [
+    "4",
+    "44",
+    "56"
+   ],
+   "keys_name": [
+    "Jangan",
+    "Gwonseon",
+    "Paldal",
+    "Yeongtong"
+   ]
+  },
+  {
+   "fact": "수원시 권선구의 면적은 47.17 km2로 네 개 구 가운데 가장 넓다.",
+   "quote": "| 권선구 | 勸善區 | 47.17 | 347,928 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "47.17",
+   "keys_num": [
+    "47.17",
+    "347,928"
+   ],
+   "keys_name": [
+    "Gwonseon"
+   ]
+  },
+  {
+   "fact": "수원시 팔달구의 면적은 12.86 km2이다.",
+   "quote": "| 팔달구 | 八達區 | 12.86 | 217,229 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "12.86 km2",
+   "keys_num": [
+    "12.86",
+    "217,229"
+   ],
+   "keys_name": [
+    "Paldal"
+   ]
+  },
+  {
+   "fact": "수원시의 2000년 총인구는 946,704명이다.",
+   "quote": "| 2000년 | 946,704명 | | 외국인: 2,465 (0.3%) |",
+   "from_table": true,
+   "kind": "other",
+   "value": "946,704명",
+   "keys_num": [
+    "2000",
+    "946,704",
+    "2,465"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원시의 제조업 사업체 수는 2009년 3,000개에서 2018년 3,892개로 29.7% 늘었다.",
+   "quote": "| 제조업 | 3,000 | 3,892 | 29.7 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "3,892개 (2018년)",
+   "keys_num": [
+    "2009",
+    "2018",
+    "3,000",
+    "3,892",
+    "29.7"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "수원 화성은 1997년 12월 4일 유네스코 세계문화유산에 등록되었다.",
+   "quote": "수원 화성은 1997년 12월 4일 유네스코 세계문화유산에 등록되었다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1997년 12월 4일",
+   "keys_num": [
+    "1997",
+    "12",
+    "4"
+   ],
+   "keys_name": [
+    "Hwaseong Fortress",
+    "UNESCO World Heritage"
+   ]
+  },
+  {
+   "fact": "수원시에서 2023년 기준 인구가 가장 많은 구는 권선구로 347,928명이다.",
+   "quote": "권선구가 347,928명(수원시 인구의 28.8%)로 가장 많은 비율을 차지하고",
+   "from_table": false,
+   "kind": "other",
+   "value": "권선구 347,928명",
+   "keys_num": [
+    "2023",
+    "347,928",
+    "28.8"
+   ],
+   "keys_name": [
+    "Gwonseon"
+   ]
+  },
+  {
+   "fact": "수원시 영통구 광교동은 61,145명으로 수원시의 동 가운데 인구가 가장 많다.",
+   "quote": "영통구 광교동이 61,145명으로 수원시의 동 중 가장 인구가 많고",
+   "from_table": false,
+   "kind": "other",
+   "value": "광교동 61,145명",
+   "keys_num": [
+    "61,145"
+   ],
+   "keys_name": [
+    "Gwanggyo",
+    "Yeongtong"
+   ]
+  },
+  {
+   "fact": "수원시에서 가장 높은 산은 광교산으로 높이가 582 m이다.",
+   "quote": "북쪽에는 수원에서 가장 높은 산인 광교산 (582 m)을 필두로",
+   "from_table": false,
+   "kind": "other",
+   "value": "광교산 582 m",
+   "keys_num": [
+    "582"
+   ],
+   "keys_name": [
+    "Gwanggyosan"
+   ]
+  },
+  {
+   "fact": "수원시의 대표적인 지진으로 1613년 7월 6일경 발생한 규모 6.3의 1613년 수원 지진이 있다.",
+   "quote": "1613년 7월 6일경 발생한 규모 M6.3의 1613년 수원 지진이 있다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "규모 6.3 (1613년)",
+   "keys_num": [
+    "1613",
+    "7",
+    "6",
+    "6.3"
+   ],
+   "keys_name": [
+    "1613 Suwon earthquake"
+   ]
+  },
+  {
+   "fact": "수원 화성행궁의 1단계 복원은 2003년 10월 일반에게 공개되었다.",
+   "quote": "1996년 복원공사가 시작되어 마침내 화성행궁 1단계 복원이 완료되어 2003년 10월 일반에게 공개하기에 이르렀다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2003년 10월",
+   "keys_num": [
+    "1996",
+    "2003",
+    "10"
+   ],
+   "keys_name": [
+    "Hwaseong Haenggung"
+   ]
+  },
+  {
+   "fact": "2021년 프로농구단 KT 소닉붐이 부산광역시에서 수원시로 연고지를 옮겼다.",
+   "quote": "2021년 프로농구단 KBL KT 소닉붐이 부산광역시에서 수원시로 연고지 이전해 오면서",
+   "from_table": false,
+   "kind": "other",
+   "value": "2021년",
+   "keys_num": [
+    "2021"
+   ],
+   "keys_name": [
+    "KT Sonicboom",
+    "Busan"
+   ]
+  }
+ ]
+}

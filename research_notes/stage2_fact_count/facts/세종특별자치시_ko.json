@@ -1,0 +1,281 @@
+{
+ "city": "세종특별자치시",
+ "lang": "ko",
+ "facts": [
+  {
+   "fact": "세종특별자치시의 2025년 12월 말 기준 주민등록 인구는 391,965명이다.",
+   "quote": "2025년 12월 말 기준 세종특별자치시의 주민등록 인구는 391,965명, 세대수는 165,220세대이다.",
+   "from_table": false,
+   "kind": "population",
+   "value": "391,965명 (2025년 12월 말)",
+   "keys_num": [
+    "2025",
+    "391,965",
+    "165,220"
+   ],
+   "keys_name": [
+    "Sejong"
+   ]
+  },
+  {
+   "fact": "세종특별자치시의 면적은 465km2로 서울시 면적의 약 70%이다.",
+   "quote": "면적은 465km2로 서울시 면적의 약 70%며",
+   "from_table": false,
+   "kind": "area",
+   "value": "465km2",
+   "keys_num": [
+    "465",
+    "70"
+   ],
+   "keys_name": [
+    "Seoul"
+   ]
+  },
+  {
+   "fact": "세종특별자치시는 2012년 7월 1일에 출범하였다.",
+   "quote": "2012년 7월 1일에 출범하였다.",
+   "from_table": false,
+   "kind": "city_status_year",
+   "value": "2012년 7월 1일",
+   "keys_num": [
+    "2012",
+    "7",
+    "1"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "세종특별자치시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다.",
+   "quote": "시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다.",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "1읍 9면 14행정동 18법정동 122리",
+   "keys_num": [
+    "1",
+    "9",
+    "14",
+    "18",
+    "122"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "세종특별자치시는 대한민국의 유일한 특별자치시이다.",
+   "quote": "세종특별자치시(世宗特別自治市, 영어: Sejong City)는 대한민국의 유일한 특별자치시이다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "대한민국의 유일한 특별자치시",
+   "keys_num": [],
+   "keys_name": [
+    "Sejong City",
+    "Special Self-Governing City"
+   ]
+  },
+  {
+   "fact": "세종특별자치시의 시 명칭은 국민 공모를 통해 선정되었으며 조선 세종의 묘호를 따랐다.",
+   "quote": "시의 명칭은 국민 공모를 통해 선정되었으며, 조선 세종의 묘호를 따라서 세상(世)의 으뜸(宗)이라는 의미를 담고 있다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "조선 세종의 묘호",
+   "keys_num": [],
+   "keys_name": [
+    "Sejong the Great",
+    "Joseon"
+   ]
+  },
+  {
+   "fact": "1977년 박정희 정부의 백지계획은 수도 이전 최종 후보지로 공주군 장기면(현 세종특별자치시 장군면)을 선정하였다.",
+   "quote": "최종적으로 공주군 장기면(현 세종특별자치시 장군면)을 선정하였다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "공주군 장기면 (현 장군면)",
+   "keys_num": [
+    "1977"
+   ],
+   "keys_name": [
+    "Park Chung-hee",
+    "Gongju",
+    "Janggi",
+    "Janggun"
+   ]
+  },
+  {
+   "fact": "헌법재판소는 2004년 10월 '신행정수도 건설 특별법'에 위헌 결정을 내렸다.",
+   "quote": "헌법재판소는 2004년 10월 서울이 수도라는 관습 헌법이 존재한다는 판단을 내리며",
+   "from_table": false,
+   "kind": "other",
+   "value": "2004년 10월",
+   "keys_num": [
+    "2004",
+    "10"
+   ],
+   "keys_name": [
+    "Constitutional Court"
+   ]
+  },
+  {
+   "fact": "세종특별자치시의 주민등록 인구는 2015년 10월에 20만 명을 돌파했다.",
+   "quote": "2015년 10월: 세종특별자치시의 주민등록 인구가 20만 명을 돌파하였다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2015년 10월",
+   "keys_num": [
+    "2015",
+    "10",
+    "20"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "세종특별자치시 조치원읍의 면적은 13.56km2, 인구는 40,796명, 세대는 20,738이다.",
+   "quote": "| 조치원읍 | 鳥致院邑 | 13.56 | 40,796 | 20,738 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "인구 40,796명",
+   "keys_num": [
+    "13.56",
+    "40,796",
+    "20,738"
+   ],
+   "keys_name": [
+    "Jochiwon"
+   ]
+  },
+  {
+   "fact": "세종특별자치시의 2023년 총인구는 386,525명이다.",
+   "quote": "| 2023년 | 386,525 |",
+   "from_table": true,
+   "kind": "population",
+   "value": "386,525명 (2023년)",
+   "keys_num": [
+    "2023",
+    "386,525"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "세종특별자치시의 2019년 출생은 3,895명, 사망은 1,236명, 혼인은 1,899쌍, 이혼은 403쌍이다.",
+   "quote": "| 2019년 | 3,895 | 1,236 | 1,899 | 403 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "출생 3,895명",
+   "keys_num": [
+    "2019",
+    "3,895",
+    "1,236",
+    "1,899",
+    "403"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "세종특별자치시에서 중앙행정기관 이전은 2012년 9월 14일 국무총리실의 이전으로 시작되었다.",
+   "quote": "2012년 9월 14일 국무총리실의 이전을 시작으로 중앙행정기관의 본격적인 정부세종청사 이주가 시작되었다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2012년 9월 14일",
+   "keys_num": [
+    "2012",
+    "9",
+    "14"
+   ],
+   "keys_name": [
+    "Government Complex Sejong",
+    "Office for Government Policy Coordination"
+   ]
+  },
+  {
+   "fact": "세종특별자치시의 정부세종청사로 이전한 기관은 중앙행정기관 16개와 소속기관 20개를 합쳐 36개 기관이다.",
+   "quote": "| 36개 기관 | 16개 기관 (9부, 2처, 2청, 1실, 2위원회) | 20개 기관 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "36개 기관",
+   "keys_num": [
+    "36",
+    "16",
+    "9",
+    "2",
+    "20"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "세종특별자치시의 대통령기록관은 2015년 4월 신청사가 준공되었고 같은 해 11월 20일부터 업무를 개시했다.",
+   "quote": "같은 해 11월 20일부터 업무를 개시하였다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2015년 11월 20일",
+   "keys_num": [
+    "2015",
+    "4",
+    "11",
+    "20"
+   ],
+   "keys_name": [
+    "Presidential Archives"
+   ]
+  },
+  {
+   "fact": "세종특별자치시에는 2012년 9월부터 대전 도시철도 1호선 반석역과 오송역 사이 30.7km 구간에 간선급행버스체계 B2가 운행되고 있다.",
+   "quote": "대전 도시철도 1호선 반석역 ~ 행정중심복합도시 ~ 오송역 30.7km에 간선급행버스체계 B2를 운행하고 있다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "30.7km",
+   "keys_num": [
+    "2012",
+    "9",
+    "1",
+    "30.7",
+    "2"
+   ],
+   "keys_name": [
+    "Banseok",
+    "Osong",
+    "BRT"
+   ]
+  },
+  {
+   "fact": "세종특별자치시에서 열리는 축제 중 조치원 복숭아 축제는 8월에, 세종축제는 10월에 열린다.",
+   "quote": "| 조치원 복숭아 축제 | 8월 | 복숭아와 어울림, 복사꽃 새싹공연, 축하공연 | 복숭아축제추진위원회 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "8월",
+   "keys_num": [
+    "8"
+   ],
+   "keys_name": [
+    "Jochiwon Peach Festival",
+    "Sejong Festival"
+   ]
+  },
+  {
+   "fact": "세종특별자치시에는 조치원읍에 고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스가 있다.",
+   "quote": "세종특별자치시에는 조치원읍에 고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스, 전의면에 대전가톨릭대학교, 장군면에 한국영상대학교가 있고",
+   "from_table": false,
+   "kind": "other",
+   "value": "고려대학교 세종캠퍼스, 홍익대학교 세종캠퍼스",
+   "keys_num": [],
+   "keys_name": [
+    "Korea University Sejong Campus",
+    "Hongik University Sejong Campus",
+    "Jochiwon"
+   ]
+  },
+  {
+   "fact": "2021년 9월 28일 국회법 개정으로 세종특별자치시에 국회 분원인 세종의사당을 두는 규정이 마련되었다.",
+   "quote": "2021년 9월 28일, 제21대 국회에서 국회법 개정을 통해 세종특별자치시에 국회 분원 의사당을 설치하도록 하는 법 규정이 마련됐다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2021년 9월 28일",
+   "keys_num": [
+    "2021",
+    "9",
+    "28",
+    "21"
+   ],
+   "keys_name": [
+    "National Assembly Sejong Hall"
+   ]
+  }
+ ]
+}

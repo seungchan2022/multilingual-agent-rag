@@ -1,0 +1,478 @@
+{
+ "city": "천안시",
+ "ko_only": [
+  {
+   "fact": "천안시의 2018년 9월 주민등록 인구는 669,928명이다.",
+   "quote": "2018년 9월 주민등록 인구는 669,928명이다.",
+   "from_table": false,
+   "kind": "population",
+   "value": "669,928명",
+   "keys_num": [
+    "2018",
+    "9",
+    "669,928"
+   ],
+   "keys_name": [
+    "669,928"
+   ]
+  },
+  {
+   "fact": "2019년 1월 주민등록 기준 천안시 서북구의 인구는 400,566명이다.",
+   "quote": "| 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |",
+   "from_table": true,
+   "kind": "population",
+   "value": "400,566명",
+   "keys_num": [
+    "2019",
+    "1",
+    "400,566"
+   ],
+   "keys_name": [
+    "Seobuk District",
+    "400,566"
+   ]
+  },
+  {
+   "fact": "2019년 1월 주민등록 기준 천안시 동남구의 인구는 264,312명이다.",
+   "quote": "| 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |",
+   "from_table": true,
+   "kind": "population",
+   "value": "264,312명",
+   "keys_num": [
+    "2019",
+    "1",
+    "264,312"
+   ],
+   "keys_name": [
+    "Dongnam District",
+    "264,312"
+   ]
+  },
+  {
+   "fact": "2019년 1월 주민등록 기준 천안시 전체 인구는 683,453명이다.",
+   "quote": "| 총계 | 683,453 | 255,696 | 636.2 | |",
+   "from_table": true,
+   "kind": "population",
+   "value": "683,453명",
+   "keys_num": [
+    "2019",
+    "1",
+    "683,453"
+   ],
+   "keys_name": [
+    "total population",
+    "683,453"
+   ]
+  },
+  {
+   "fact": "천안시 서북구의 면적은 197.68 km2이다.",
+   "quote": "| 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |",
+   "from_table": true,
+   "kind": "area",
+   "value": "197.68 km2",
+   "keys_num": [
+    "197.68"
+   ],
+   "keys_name": [
+    "Seobuk District",
+    "197.68 km2"
+   ]
+  },
+  {
+   "fact": "천안시 동남구의 면적은 438.54 km2이다.",
+   "quote": "| 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |",
+   "from_table": true,
+   "kind": "area",
+   "value": "438.54 km2",
+   "keys_num": [
+    "438.54"
+   ],
+   "keys_name": [
+    "Dongnam District",
+    "438.54 km2"
+   ]
+  },
+  {
+   "fact": "천안시청은 2005년 9월 30일 문화동에서 불당동으로 이전하였다.",
+   "quote": "2005년 9월 30일 : 시청사를 문화동에서 시내 서부의 불당동으로 이전하였다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2005년 9월 30일",
+   "keys_num": [
+    "2005",
+    "9",
+    "30"
+   ],
+   "keys_name": [
+    "city hall",
+    "Buldang-dong",
+    "2005"
+   ]
+  },
+  {
+   "fact": "고려 태조는 930년에 천안도독부를 설치하였다.",
+   "quote": "고려 태조는 930년에 동서도솔을 합쳐 천안도독부를 설치하였다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "930년",
+   "keys_num": [
+    "930"
+   ],
+   "keys_name": [
+    "Cheonan Dodobu",
+    "930"
+   ]
+  },
+  {
+   "fact": "천안시의 동남구와 서북구는 2008년 6월 23일에 설치되었다.",
+   "quote": "2008년 6월 23일 : 동남구와 서북구가 설치되었다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2008년 6월 23일",
+   "keys_num": [
+    "2008",
+    "6",
+    "23"
+   ],
+   "keys_name": [
+    "Dongnam District",
+    "Seobuk District",
+    "2008"
+   ]
+  },
+  {
+   "fact": "천안 독립기념관의 누적 관람객은 2011년 8월에 4,000만명을 돌파하였다.",
+   "quote": "2011년 8월 누적 관람객 4,000만명을 돌파하였다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "4,000만명",
+   "keys_num": [
+    "2011",
+    "8",
+    "4,000"
+   ],
+   "keys_name": [
+    "Independence Hall of Korea",
+    "40 million visitors"
+   ]
+  },
+  {
+   "fact": "천안시의 2012년 지역 내 총생산은 69조 124억원이다.",
+   "quote": "천안시의 2012년 지역 내 총생산은 69조 124억원으로 충청남도 지역 내 총생산의 23.6%를 차지하고 있다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "69조 124억원",
+   "keys_num": [
+    "2012",
+    "69",
+    "124",
+    "23.6"
+   ],
+   "keys_name": [
+    "gross regional domestic product",
+    "GRDP"
+   ]
+  },
+  {
+   "fact": "천안시 산업의 2014년 총종사자 수는 253,698명이다.",
+   "quote": "2014년 천안시 산업의 총종사자 수는 253,698명으로 충청남도 총종사자 수의 31.2%를 차지하고있다.",
+   "from_table": false,
+   "kind": "other",
+   "value": "253,698명",
+   "keys_num": [
+    "2014",
+    "253,698",
+    "31.2"
+   ],
+   "keys_name": [
+    "total employees",
+    "253,698"
+   ]
+  },
+  {
+   "fact": "천안아산역은 2004년 4월 1일 개업하였다.",
+   "quote": "2004년 4월 1일, 천안시와 아산시의 경계지역인 아산시 배방읍 장재리에 천안아산역이 개업하였고",
+   "from_table": false,
+   "kind": "other",
+   "value": "2004년 4월 1일",
+   "keys_num": [
+    "2004",
+    "4",
+    "1"
+   ],
+   "keys_name": [
+    "Cheonan-Asan Station",
+    "2004"
+   ]
+  },
+  {
+   "fact": "천안시는 전라남도 완도군과 2007년에 자매도시를 맺었다.",
+   "quote": "대한민국 전라남도 완도군 (2007년)",
+   "from_table": false,
+   "kind": "other",
+   "value": "완도군 (2007년)",
+   "keys_num": [
+    "2007"
+   ],
+   "keys_name": [
+    "Wando County",
+    "Wando",
+    "2007"
+   ]
+  },
+  {
+   "fact": "고려 현종은 1021년 홍경사를 세웠다.",
+   "quote": "고려 현종이 1021년 아버지 안종의 뜻을 받들어 세운 280칸짜리 고려 10대 사찰 중의 하나인 홍경사",
+   "from_table": false,
+   "kind": "other",
+   "value": "1021년",
+   "keys_num": [
+    "1021",
+    "280"
+   ],
+   "keys_name": [
+    "Honggyeongsa",
+    "1021"
+   ]
+  }
+ ],
+ "en_only": [
+  {
+   "fact": "천안시의 연간 눈 오는 날 수는 25.9일이다.",
+   "quote": "| Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.1 | 2.4 | 7.2 | 25.9 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "25.9일",
+   "keys_num": [
+    "25.9"
+   ],
+   "keys_name": [
+    "눈 오는 날"
+   ]
+  },
+  {
+   "fact": "천안시의 1월 평균 눈 오는 날 수는 8.7일이다.",
+   "quote": "| Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "8.7일",
+   "keys_num": [
+    "8.7"
+   ],
+   "keys_name": [
+    "눈 오는 날",
+    "1월"
+   ]
+  },
+  {
+   "fact": "천안시의 연간 가능 일조율은 54.2%이다.",
+   "quote": "| Percentage possible sunshine | 55.6 | 60.0 | 58.5 | 59.2 | 56.9 | 50.4 | 41.3 | 49.3 | 53.3 | 61.5 | 53.4 | 53.3 | 54.2 |",
+   "from_table": true,
+   "kind": "annual_sunshine_percent",
+   "value": "54.2%",
+   "keys_num": [
+    "54.2"
+   ],
+   "keys_name": [
+    "가능 일조율"
+   ]
+  },
+  {
+   "fact": "천안시의 7월 가능 일조율은 41.3%로 12개월 중 가장 낮다.",
+   "quote": "| Percentage possible sunshine | 55.6 | 60.0 | 58.5 | 59.2 | 56.9 | 50.4 | 41.3 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "41.3%",
+   "keys_num": [
+    "41.3"
+   ],
+   "keys_name": [
+    "가능 일조율",
+    "7월"
+   ]
+  },
+  {
+   "fact": "천안시의 쾨펜 기후 구분은 Dwa(냉온대 습윤 기후)이다.",
+   "quote": "Cheonan has a humid continental climate (Köppen: Dwa)",
+   "from_table": false,
+   "kind": "koppen",
+   "value": "Dwa",
+   "keys_num": [],
+   "keys_name": [
+    "쾨펜",
+    "Dwa",
+    "습윤대륙성"
+   ]
+  },
+  {
+   "fact": "천안 독립기념관은 면적 980에이커(4.0 km2)의 조경된 부지 위에 있다.",
+   "quote": "The hall stands on 980 acres (4.0 km2) of landscaped grounds.",
+   "from_table": false,
+   "kind": "other",
+   "value": "980에이커 (4.0 km2)",
+   "keys_num": [
+    "980",
+    "4.0"
+   ],
+   "keys_name": [
+    "독립기념관",
+    "980"
+   ]
+  },
+  {
+   "fact": "천안 각원사의 청동 좌불상은 높이 15m, 둘레 30m, 무게 60톤이 넘는다.",
+   "quote": "which is 15m high, 30m in circumference, and weighs over 60 tonnes",
+   "from_table": false,
+   "kind": "other",
+   "value": "높이 15m, 둘레 30m, 60톤 이상",
+   "keys_num": [
+    "15",
+    "30",
+    "60"
+   ],
+   "keys_name": [
+    "각원사",
+    "청동 좌불상"
+   ]
+  },
+  {
+   "fact": "천안의 우정박물관은 2004년 2월 서울에서 천안으로 옮겨 왔다.",
+   "quote": "The museum was not constructed here, but rather moved from Seoul in February 2004",
+   "from_table": false,
+   "kind": "other",
+   "value": "2004년 2월",
+   "keys_num": [
+    "2004",
+    "2"
+   ],
+   "keys_name": [
+    "우정박물관",
+    "2004"
+   ]
+  },
+  {
+   "fact": "천안시에는 9,000명이 넘는 외국인이 거주한다.",
+   "quote": "There are more than 9,000 foreigners residing in the Cheonan area.",
+   "from_table": false,
+   "kind": "other",
+   "value": "9,000명 이상",
+   "keys_num": [
+    "9,000"
+   ],
+   "keys_name": [
+    "외국인",
+    "9,000"
+   ]
+  },
+  {
+   "fact": "천안에는 외국인 수감자만을 위한 교도소가 있고 외국인 수감자가 1,000명이 넘는다.",
+   "quote": "Cheonan is the site of the prison exclusively intended for foreign prisoners, with more than 1,000 foreign inmates.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1,000명 이상",
+   "keys_num": [
+    "1,000"
+   ],
+   "keys_name": [
+    "외국인 수감자",
+    "교도소"
+   ]
+  },
+  {
+   "fact": "천안백석종합운동장의 수용 인원은 26,000명이다.",
+   "quote": "Cheonan is also home to a 26,000 capacity stadium called the Cheonan Baekseok Stadium.",
+   "from_table": false,
+   "kind": "other",
+   "value": "26,000명",
+   "keys_num": [
+    "26,000"
+   ],
+   "keys_name": [
+    "천안백석종합운동장",
+    "백석"
+   ]
+  },
+  {
+   "fact": "천안 흥타령 축제는 2003년에 시작되었다.",
+   "quote": "The festival started in 2003 and it received the position of",
+   "from_table": false,
+   "kind": "other",
+   "value": "2003년",
+   "keys_num": [
+    "2003"
+   ],
+   "keys_name": [
+    "흥타령 축제",
+    "2003"
+   ]
+  },
+  {
+   "fact": "1919년 3월 31일 매봉산 등에서 봉화 24개를 올리며 만세 운동이 시작되었다.",
+   "quote": "The popular movement began with the lighting of 24 beacons at Mt. Maebongsan and other mountains on March 31, 1919.",
+   "from_table": false,
+   "kind": "other",
+   "value": "봉화 24개",
+   "keys_num": [
+    "24",
+    "1919",
+    "31"
+   ],
+   "keys_name": [
+    "매봉산",
+    "봉화",
+    "24"
+   ]
+  },
+  {
+   "fact": "천안시는 미국 델라웨어주 윌밍턴과 자매도시이다.",
+   "quote": "Wilmington, Delaware, United States",
+   "from_table": false,
+   "kind": "other",
+   "value": "윌밍턴",
+   "keys_num": [],
+   "keys_name": [
+    "윌밍턴",
+    "델라웨어"
+   ]
+  },
+  {
+   "fact": "천안시는 베트남 빈(Vinh)과 자매도시이다.",
+   "quote": "Vinh, Vietnam",
+   "from_table": false,
+   "kind": "other",
+   "value": "빈",
+   "keys_num": [],
+   "keys_name": [
+    "빈",
+    "베트남"
+   ]
+  }
+ ],
+ "conflict": [
+  {
+   "what": "천안시 면적",
+   "ko": "636.07 km2 (행정 구역 본문. 표 총계는 636.2)",
+   "en": "636.25 km2"
+  },
+  {
+   "what": "천안시 행정동 수",
+   "ko": "19행정동 (2구 4읍 8면 19행정동)",
+   "en": "16 administrative dong (2 gu, 4 eup, 8 myeon)"
+  },
+  {
+   "what": "12월 역대 최고 기온",
+   "ko": "19.1 °C",
+   "en": "18.5 °C"
+  },
+  {
+   "what": "3월 역대 최고 기온",
+   "ko": "26.7 °C",
+   "en": "26.9 °C"
+  },
+  {
+   "what": "태조산 높이",
+   "ko": "424m",
+   "en": "422m (Taejosan)"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "city": "안동시",
+ "lang": "en",
+ "facts": [
+  {
+   "fact": "안동시의 인구는 2010년 10월 기준 167,821명이다.",
+   "quote": "with a population of 167,821 as of October 2010",
+   "from_table": false,
+   "kind": "population",
+   "value": "167,821 (October 2010)",
+   "keys_num": [
+    "167,821",
+    "2010"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시는 1개 읍, 13개 면, 10개 동으로 나뉜다.",
+   "quote": "Andong is divided into 1 eup, 13 myeon and 10 dong.",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "1 eup, 13 myeon, 10 dong",
+   "keys_num": [
+    "1",
+    "13",
+    "10"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 쾨펜 기후 구분은 Dwa(습윤 대륙성 기후)이다.",
+   "quote": "Andong has a humid continental climate (Köppen: Dwa)",
+   "from_table": false,
+   "kind": "koppen",
+   "value": "Dwa",
+   "keys_num": [],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 연평균 기온은 12.2 °C이다.",
+   "quote": "| Daily mean °C (°F) | −1.8 (28.8) | 0.8 (33.4) | 6.0 (42.8) | 12.4 (54.3) | 17.8 (64.0) | 21.9 (71.4) | 24.8 (76.6) | 25.1 (77.2) | 20.0 (68.0) | 13.5 (56.3) | 6.4 (43.5) | −0.1 (31.8) | 12.2 (54.0) |",
+   "from_table": true,
+   "kind": "annual_mean_temp",
+   "value": "12.2 °C",
+   "keys_num": [
+    "12.2"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 연 강수량은 1,045.7 mm이다.",
+   "quote": "Average precipitation mm (inches) | 16.7 (0.66)",
+   "from_table": true,
+   "kind": "annual_precip",
+   "value": "1,045.7 mm",
+   "keys_num": [
+    "1,045.7"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 연간 가능 일조율은 49.3%이다.",
+   "quote": "| Percentage possible sunshine | 59.9 | 59.7 | 54.1 | 55.6 | 51.4 | 43.4 | 33.4 | 39.8 | 40.5 | 52.0 | 53.5 | 58.9 | 49.3 |",
+   "from_table": true,
+   "kind": "annual_sunshine_percent",
+   "value": "49.3%",
+   "keys_num": [
+    "49.3"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 역대 최고 기온은 7월의 38.9 °C이다.",
+   "quote": "| Record high °C (°F) | 13.2 (55.8) | 23.2 (73.8) | 26.6 (79.9) | 32.1 (89.8) | 35.1 (95.2) | 35.7 (96.3) | 38.9 (102.0) |",
+   "from_table": true,
+   "kind": "record_high",
+   "value": "38.9 °C",
+   "keys_num": [
+    "38.9"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 역대 최저 기온은 1월의 −20.4 °C이다.",
+   "quote": "| Record low °C (°F) | −20.4 (−4.7) | −18.6 (−1.5)",
+   "from_table": true,
+   "kind": "record_low",
+   "value": "−20.4 °C",
+   "keys_num": [
+    "−20.4"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 자매도시는 코린토스, 쿠스코, 핑딩산, 사가에, 시안, 슈샤 등 6곳이다.",
+   "quote": "Andong has a sister city relationship with:",
+   "from_table": false,
+   "kind": "sister_cities_count",
+   "value": "6",
+   "keys_num": [
+    "6"
+   ],
+   "keys_name": [
+    "코린토스",
+    "쿠스코",
+    "핑딩산",
+    "사가에",
+    "시안",
+    "슈샤"
+   ]
+  },
+  {
+   "fact": "안동시의 연간 월평균 일조 시간 합계는 2,292.6시간이다.",
+   "quote": "| Mean monthly sunshine hours | 194.8 | 193.8 | 214.1 | 222.3 | 235.2 | 200.4 | 161.9 | 172.8 | 157.0 | 188.5 | 166.7 | 185.1 | 2,292.6 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "2,292.6 hours",
+   "keys_num": [
+    "2,292.6"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 7월 평균 강수량은 235.2 mm로 연중 가장 많다.",
+   "quote": "| 235.2 (9.26) | 226.4 (8.91)",
+   "from_table": true,
+   "kind": "other",
+   "value": "235.2 mm",
+   "keys_num": [
+    "235.2"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시의 연간 강수일수(0.1 mm 이상)는 97.8일이다.",
+   "quote": "| Average precipitation days (≥ 0.1 mm) | 4.9 | 4.9 | 7.2 | 8.0 | 8.7 | 9.6 | 14.2 | 13.9 | 9.0 | 5.7 | 6.2 | 5.5 | 97.8 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "97.8 days",
+   "keys_num": [
+    "97.8",
+    "0.1"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "안동시는 1999년 영국 엘리자베스 2세 여왕이 73번째 생일을 보낸 곳이다.",
+   "quote": "In 1999, Her Majesty the Queen Elizabeth II of the United Kingdom celebrated her 73rd birthday in the city.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1999",
+   "keys_num": [
+    "1999",
+    "73rd"
+   ],
+   "keys_name": [
+    "엘리자베스 2세",
+    "영국",
+    "하회마을"
+   ]
+  },
+  {
+   "fact": "안동시는 2016년 유네스코 학습도시 글로벌 네트워크에 가입했다.",
+   "quote": "Andong joined the UNESCO Global Network of Learning Cities in 2016.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2016",
+   "keys_num": [
+    "2016"
+   ],
+   "keys_name": [
+    "유네스코"
+   ]
+  },
+  {
+   "fact": "930년 고창 전투에서 왕건이 이끈 고려군이 후백제군을 물리치고 고창을 안동으로 이름 바꿨다.",
+   "quote": "The Battle of Gochang in 930 was fought here between Hubaekje forces and the Goryeo army led by Wanggeon, who won control of the city and renamed it Andong.",
+   "from_table": false,
+   "kind": "other",
+   "value": "930",
+   "keys_num": [
+    "930"
+   ],
+   "keys_name": [
+    "고창",
+    "후백제",
+    "고려",
+    "왕건"
+   ]
+  },
+  {
+   "fact": "안동 출신 학자 퇴계 이황(1501–1570)은 도산서원 건립을 시작했다.",
+   "quote": "Toe-gye Yi Hwang (1501–1570), one of the most prominent of all Korean scholars, came from Andong.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1501–1570",
+   "keys_num": [
+    "1501",
+    "1570"
+   ],
+   "keys_name": [
+    "퇴계",
+    "이황",
+    "도산서원"
+   ]
+  },
+  {
+   "fact": "안동댐은 1976년에 건설되어 안동에 안정적인 전력을 공급했다.",
+   "quote": "In 1976 the Andong Dam was built, providing the city with a reliable source of electricity.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1976",
+   "keys_num": [
+    "1976"
+   ],
+   "keys_name": [
+    "안동댐"
+   ]
+  },
+  {
+   "fact": "안동에서 가장 가까운 국제공항은 안동에서 남쪽으로 92 km 떨어진 대구국제공항이다.",
+   "quote": "The nearest international airport is Daegu International Airport, located 92 kilometres (57 mi) south of Andong.",
+   "from_table": false,
+   "kind": "other",
+   "value": "92 km",
+   "keys_num": [
+    "92",
+    "57"
+   ],
+   "keys_name": [
+    "대구국제공항"
+   ]
+  },
+  {
+   "fact": "하회마을은 2010년 양동마을과 함께 유네스코 세계유산으로 등재되었다.",
+   "quote": "This village is listed by the South Korean government with UNESCO as a World Heritage site with Yangdong Folk Village in 2010.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2010",
+   "keys_num": [
+    "2010"
+   ],
+   "keys_name": [
+    "하회마을",
+    "양동마을",
+    "유네스코"
+   ]
+  },
+  {
+   "fact": "안동시의 연평균 상대 습도는 66.2%이다.",
+   "quote": "| Average relative humidity (%) | 59.9 | 57.3 | 56.8 | 55.4 | 61.0 | 68.8 | 77.5 | 77.7 | 76.5 | 72.7 | 68.2 | 62.7 | 66.2 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "66.2%",
+   "keys_num": [
+    "66.2"
+   ],
+   "keys_name": []
+  }
+ ]
+}

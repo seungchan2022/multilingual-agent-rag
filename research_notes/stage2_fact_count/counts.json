@@ -1,0 +1,40 @@
+{
+ "ko": {
+  "통과한 사실": 118,
+  "그중 표에서 나온 사실": 45,
+  "한 언어 도시의 문서에서": 70,
+  "두 언어 도시의 문서에서": 48,
+  "여러 문서 연결 후보(같은 종류의 사실 둘)": 267,
+  "종류별 문서 수": {
+   "annual_mean_temp": 2,
+   "annual_precip": 3,
+   "area": 7,
+   "city_status_year": 5,
+   "districts_count": 4,
+   "population": 8,
+   "record_high": 2,
+   "record_low": 2,
+   "universities_count": 2
+  }
+ },
+ "en": {
+  "통과한 사실": 113,
+  "그중 표에서 나온 사실": 47,
+  "한 언어 도시의 문서에서": 74,
+  "두 언어 도시의 문서에서": 39,
+  "여러 문서 연결 후보(같은 종류의 사실 둘)": 80,
+  "종류별 문서 수": {
+   "annual_mean_temp": 4,
+   "annual_precip": 4,
+   "annual_sunshine_percent": 7,
+   "city_status_year": 3,
+   "districts_count": 4,
+   "koppen": 3,
+   "population": 6,
+   "record_high": 5,
+   "record_low": 5,
+   "sister_cities_count": 1,
+   "universities_count": 1
+  }
+ }
+}

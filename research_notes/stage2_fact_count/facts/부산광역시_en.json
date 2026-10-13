@@ -1,0 +1,259 @@
+{
+ "city": "부산광역시",
+ "lang": "en",
+ "facts": [
+  {
+   "fact": "부산광역시의 인구는 2024년 기준 330만 명이 넘는다.",
+   "quote": "it has a population of over 3.3 million as of 2024",
+   "from_table": false,
+   "kind": "population",
+   "value": "3.3 million (2024)",
+   "keys_num": [
+    "3.3",
+    "2024"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산광역시는 15개 구와 1개 군으로 나뉜다.",
+   "quote": "Today, Busan has divided into fifteen gu and one gun (county).",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "15개 구, 1개 군",
+   "keys_num": [],
+   "keys_name": [
+    "구",
+    "군"
+   ]
+  },
+  {
+   "fact": "부산은 1963년 경상남도에서 분리되어 대한민국 최초의 직할시가 되었다.",
+   "quote": "In 1963, Busan separated from South Gyeongsang Province to become the first Directly Governed City of South Korea.",
+   "from_table": false,
+   "kind": "city_status_year",
+   "value": "1963",
+   "keys_num": [
+    "1963"
+   ],
+   "keys_name": [
+    "경상남도",
+    "직할시"
+   ]
+  },
+  {
+   "fact": "부산의 쾨펜 기후 구분은 Cfa이며 Cwa에 가깝다.",
+   "quote": "(Köppen: Cfa, bordering on Cwa)",
+   "from_table": false,
+   "kind": "koppen",
+   "value": "Cfa (Cwa에 인접)",
+   "keys_num": [],
+   "keys_name": [
+    "온난습윤기후"
+   ]
+  },
+  {
+   "fact": "부산의 역대 최고 기온은 38.8 °C이다.",
+   "quote": "The highest temperature ever recorded is 38.8 °C (101.8 °F)",
+   "from_table": false,
+   "kind": "record_high",
+   "value": "38.8 °C",
+   "keys_num": [
+    "38.8"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산의 역대 최저 기온은 -14.0 °C이다.",
+   "quote": "the lowest temperature ever recorded is −14.0 °C (6.8 °F)",
+   "from_table": false,
+   "kind": "record_low",
+   "value": "−14.0 °C",
+   "keys_num": [
+    "−14.0"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산의 연평균 기온은 15.0 °C이다.",
+   "quote": "Daily mean °C (°F) | 3.6 (38.5) | 5.4 (41.7) | 9.1 (48.4) | 13.8 (56.8) | 17.9 (64.2) | 21.0 (69.8) | 24.4 (75.9) | 26.1 (79.0) | 22.6 (72.7) | 17.9 (64.2) | 11.9 (53.4) | 5.8 (42.4) | 15.0 (59.0)",
+   "from_table": true,
+   "kind": "annual_mean_temp",
+   "value": "15.0 °C",
+   "keys_num": [
+    "15.0"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산의 연 강수량은 1,576.7 mm이다.",
+   "quote": "nches) | 34.5 (1.36) | 49.6 (1.95) | 89.7 (3.53) | 140.9 (5.55) | 155.9 (6.14) | 188.4 (7.42) | 326.8 (12.87) | 266.5 (10.49) | 160.6 (6.32) | 79.6 (3.13) | 50.4 (1.98) | 33.8 (1.33) | 1,576.7 (62.07)",
+   "from_table": true,
+   "kind": "annual_precip",
+   "value": "1,576.7 mm",
+   "keys_num": [
+    "1,576.7"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산의 연간 가능 일조율은 52.3%이다.",
+   "quote": "Percentage possible sunshine | 63.6 | 59.3 | 52.0 | 53.6 | 51.1 | 41.4 | 37.5 | 48.2 | 44.9 | 59.6 | 62.6 | 67.0 | 52.3",
+   "from_table": true,
+   "kind": "annual_sunshine_percent",
+   "value": "52.3",
+   "keys_num": [
+    "52.3"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산문화회관의 좌석 수는 2,389석이다.",
+   "quote": "1 | Busan Cultural Center | 2,389",
+   "from_table": true,
+   "kind": "other",
+   "value": "2,389",
+   "keys_num": [
+    "2,389"
+   ],
+   "keys_name": [
+    "부산문화회관"
+   ]
+  },
+  {
+   "fact": "벡스코 오디토리움의 좌석 수는 2,644석이다.",
+   "quote": "3 | BEXCO Auditorium | 2,644",
+   "from_table": true,
+   "kind": "other",
+   "value": "2,644",
+   "keys_num": [
+    "2,644"
+   ],
+   "keys_name": [
+    "벡스코"
+   ]
+  },
+  {
+   "fact": "부산대학교병원의 병상 수는 1180개이다.",
+   "quote": "Pusan National University Hospital at Busan | 1180",
+   "from_table": true,
+   "kind": "other",
+   "value": "1180",
+   "keys_num": [
+    "1180"
+   ],
+   "keys_name": [
+    "부산대학교병원"
+   ]
+  },
+  {
+   "fact": "동아대학교병원의 병상 수는 920개이다.",
+   "quote": "Dong-A University Hospital | 920",
+   "from_table": true,
+   "kind": "other",
+   "value": "920",
+   "keys_num": [
+    "920"
+   ],
+   "keys_name": [
+    "동아대학교병원"
+   ]
+  },
+  {
+   "fact": "롯데 자이언츠의 홈구장 사직야구장의 수용 인원은 28,500명이다.",
+   "quote": "Lotte Giants | KBO League | Sajik Baseball Stadium | 28,500 | Baseball",
+   "from_table": true,
+   "kind": "other",
+   "value": "28,500",
+   "keys_num": [
+    "28,500"
+   ],
+   "keys_name": [
+    "롯데 자이언츠",
+    "사직야구장"
+   ]
+  },
+  {
+   "fact": "부산 아이파크의 홈구장 부산 구덕운동장의 수용 인원은 12,349명이다.",
+   "quote": "Busan IPark | K League 2 | Busan Gudeok Stadium | 12,349 | Football",
+   "from_table": true,
+   "kind": "other",
+   "value": "12,349",
+   "keys_num": [
+    "12,349"
+   ],
+   "keys_name": [
+    "부산 아이파크",
+    "구덕운동장"
+   ]
+  },
+  {
+   "fact": "부산의 인구는 1990년 3,798,113명으로 표에서 가장 많았다.",
+   "quote": "1990 | 3,798,113 | +20.2%",
+   "from_table": true,
+   "kind": "other",
+   "value": "3,798,113",
+   "keys_num": [
+    "1990",
+    "3,798,113"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "부산항은 2020년 컨테이너 물동량 2,181만 TEU를 처리했다.",
+   "quote": "the port of Busan processed 21.81 million TEU of container cargo volume in 2020",
+   "from_table": false,
+   "kind": "other",
+   "value": "21.81 million TEU",
+   "keys_num": [
+    "21.81",
+    "2020"
+   ],
+   "keys_name": [
+    "부산항"
+   ]
+  },
+  {
+   "fact": "2002년 부산 아시안 게임에는 44개국 9,900명의 선수가 38개 종목에 참가했다.",
+   "quote": "9,900 athletes from 44 countries competed in 38 sports",
+   "from_table": false,
+   "kind": "other",
+   "value": "9,900명, 44개국, 38개 종목",
+   "keys_num": [
+    "9,900",
+    "44",
+    "38",
+    "2002"
+   ],
+   "keys_name": [
+    "아시안 게임"
+   ]
+  },
+  {
+   "fact": "부산은 1876년 강화도 조약에 따라 한국 최초의 국제 항구가 되었다.",
+   "quote": "In 1876, Busan became the first international port in Korea under the terms of the Treaty of Ganghwa.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1876",
+   "keys_num": [
+    "1876"
+   ],
+   "keys_name": [
+    "강화도 조약"
+   ]
+  },
+  {
+   "fact": "2003년 9월 12일 태풍 매미로 부산에서 48명이 넘게 사망했다.",
+   "quote": "An unusually severe storm on September 12, 2003, Typhoon Maemi, also caused damage to ships and buildings and resulted in over 48 fatalities.",
+   "from_table": false,
+   "kind": "other",
+   "value": "48명 이상",
+   "keys_num": [
+    "2003",
+    "48"
+   ],
+   "keys_name": [
+    "태풍 매미"
+   ]
+  }
+ ]
+}

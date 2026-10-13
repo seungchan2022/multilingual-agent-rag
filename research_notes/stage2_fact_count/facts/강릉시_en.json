@@ -1,0 +1,259 @@
+{
+ "city": "강릉시",
+ "lang": "en",
+ "facts": [
+  {
+   "fact": "강릉시의 인구는 2017년 기준 213,658명이다.",
+   "quote": "It has a population of 213,658 (as of 2017)",
+   "from_table": false,
+   "kind": "population",
+   "value": "213,658 (2017)",
+   "keys_num": [
+    "213,658",
+    "2017"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 총면적은 2015년 말 기준 약 1,040.4 km2이다.",
+   "quote": "The total area of Gangneung is about 1,040.4 km2",
+   "from_table": false,
+   "kind": "area",
+   "value": "1,040.4 km2",
+   "keys_num": [
+    "1,040.4",
+    "2015"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시는 1995년 강릉과 명주 지역이 합쳐져 시로 설치되었다.",
+   "quote": "Gangneung City was established in 1995 as the areas of Gangneung and Myeongju merged",
+   "from_table": false,
+   "kind": "city_status_year",
+   "value": "1995",
+   "keys_num": [
+    "1995"
+   ],
+   "keys_name": [
+    "명주"
+   ]
+  },
+  {
+   "fact": "강릉시의 연평균 기온(Daily mean의 Year 값)은 13.5도이다.",
+   "quote": "| 24.7 (76.5) | 25.0 (77.0) | 20.5 (68.9) | 15.6 (60.1) | 9.5 (49.1) | 3.3 (37.9) | 13.5 (56.3) |",
+   "from_table": true,
+   "kind": "annual_mean_temp",
+   "value": "13.5 °C",
+   "keys_num": [
+    "13.5"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 연 강수량은 1,444.9 mm이다.",
+   "quote": "Average precipitation mm (inches) | 47.9 (1.89) | 48.0 (1.89) | 65.1 (2.56) | 81.9 (3.22) | 79.2 (3.12) | 118.5 (4.67) | 250.2 (9.85) | 292.9 (11.53) | 229.3 (9.03) | 113.9 (4.48) | 81.1 (3.19) | 36.9 (1.45) | 1,444.9 (56.89)",
+   "from_table": true,
+   "kind": "annual_precip",
+   "value": "1,444.9 mm",
+   "keys_num": [
+    "1,444.9"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 연간 가능 일조율은 47.3%이다.",
+   "quote": "Percentage possible sunshine | 60.0 | 56.7 | 50.3 | 51.6 | 47.5 | 37.3 | 30.8 | 35.1 | 42.1 | 54.1 | 55.9 | 61.5 | 47.3",
+   "from_table": true,
+   "kind": "annual_sunshine_percent",
+   "value": "47.3",
+   "keys_num": [
+    "47.3"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 쾨펜 기후 구분은 Cfa(온난 습윤 아열대 기후)이다.",
+   "quote": "Gangneung experiences a humid subtropical climate (Köppen: Cfa)",
+   "from_table": false,
+   "kind": "koppen",
+   "value": "Cfa",
+   "keys_num": [],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 역대 최고 기온은 39.4도이다(7월).",
+   "quote": "| 38.9 (102.0) | 35.8 (96.4) | 32.8 (91.0) | 29.1 (84.4) | 21.8 (71.2) | 39.4 (102.9) |",
+   "from_table": true,
+   "kind": "record_high",
+   "value": "39.4 °C",
+   "keys_num": [
+    "39.4"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 역대 최저 기온은 −20.2도이다(1월).",
+   "quote": "| Record low °C (°F) | −20.2 (−4.4) | −15.9 (3.4) | −11.7 (10.9) | −3.5 (25.7) | −0.8 (30.6) | 6.0 (42.8) | 11.3 (52.3) | 13.7 (56.7) | 6.3 (43.3) | −1.9 (28.6) | −9.3 (15.3) | −15.3 (4.5) | −20.2 (−4.4) |",
+   "from_table": true,
+   "kind": "record_low",
+   "value": "−20.2 °C",
+   "keys_num": [
+    "−20.2"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시는 1개의 읍, 7개의 면, 13개의 동으로 이루어져 있다.",
+   "quote": "The district includes one town (eup), seven townships (myeon), 13 neighborhoods (dong).",
+   "from_table": false,
+   "kind": "districts_count",
+   "value": "읍 1, 면 7, 동 13",
+   "keys_num": [
+    "13"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "강릉시의 면적 1,040 km2 중 산림은 837.36 km2로 80.4%를 차지한다.",
+   "quote": "80.4% of the area of Gangneung, 837.36 km2 (323.31 sq mi), is forestland.",
+   "from_table": false,
+   "kind": "other",
+   "value": "837.36 km2 (80.4%)",
+   "keys_num": [
+    "80.4",
+    "837.36"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "주문진읍의 인구는 19,299명이다.",
+   "quote": "| Jumunjin-eup | 주문진읍 | 60.52 | 19,299 | 9,098 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "19,299",
+   "keys_num": [
+    "60.52",
+    "19,299",
+    "9,098"
+   ],
+   "keys_name": [
+    "주문진읍"
+   ]
+  },
+  {
+   "fact": "강릉시에서 면적이 가장 넓은 면인 왕산면은 245.28 km2이다.",
+   "quote": "| Wangsan-myeon | 왕산면 | 245.28 | 1,682 | 881 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "245.28 km2",
+   "keys_num": [
+    "245.28",
+    "1,682"
+   ],
+   "keys_name": [
+    "왕산면"
+   ]
+  },
+  {
+   "fact": "강릉시 교1동의 인구는 29,995명이다.",
+   "quote": "| Gyo 1-dong | 교1동 | 2.73 | 29,995 | 11,122 |",
+   "from_table": true,
+   "kind": "other",
+   "value": "29,995",
+   "keys_num": [
+    "2.73",
+    "29,995",
+    "11,122"
+   ],
+   "keys_name": [
+    "교1동"
+   ]
+  },
+  {
+   "fact": "강릉시 관내에는 해변이 20개 있다.",
+   "quote": "There are 20 beaches such as Anmok Beach, Gyeongpo Beach and Gangmun Beach.",
+   "from_table": false,
+   "kind": "other",
+   "value": "20",
+   "keys_num": [
+    "20"
+   ],
+   "keys_name": [
+    "안목해변",
+    "경포해변",
+    "강문해변"
+   ]
+  },
+  {
+   "fact": "강릉시의 문화재는 모두 136개이다.",
+   "quote": "There are a total of 136 cultural properties in Gangneung.",
+   "from_table": false,
+   "kind": "other",
+   "value": "136",
+   "keys_num": [
+    "136",
+    "40",
+    "60"
+   ],
+   "keys_name": []
+  },
+  {
+   "fact": "오죽헌은 신사임당과 율곡 이이의 출생지로 보물 제165호로 지정되었다.",
+   "quote": "Ojukheon is the birthplace of Shin Saimdang and Yi I. It was designated as treasure No. 165",
+   "from_table": false,
+   "kind": "other",
+   "value": "보물 제165호",
+   "keys_num": [
+    "165"
+   ],
+   "keys_name": [
+    "오죽헌",
+    "신사임당",
+    "이이"
+   ]
+  },
+  {
+   "fact": "굴산사는 851년 범일이 창건했고 터는 사적 제448호이다.",
+   "quote": "Gulsansa was founded by Beomil in 851. The site of the temple was designated as historic site No. 448.",
+   "from_table": false,
+   "kind": "other",
+   "value": "851",
+   "keys_num": [
+    "851",
+    "448"
+   ],
+   "keys_name": [
+    "굴산사",
+    "범일"
+   ]
+  },
+  {
+   "fact": "강릉단오제는 1967년 국가무형문화재로, 2005년 유네스코 인류구전및무형유산걸작으로 지정되었다.",
+   "quote": "It was designated as the National Intangible Cultural Heritage in 1967 and Masterpieces of the Oral and Intangible Heritage of Humanity by UNESCO in 2005.",
+   "from_table": false,
+   "kind": "other",
+   "value": "1967, 2005",
+   "keys_num": [
+    "1967",
+    "2005"
+   ],
+   "keys_name": [
+    "강릉단오제",
+    "관노가면극"
+   ]
+  },
+  {
+   "fact": "강릉시의 택시 기본요금은 2km에 2,800원이다.",
+   "quote": "The basic fare of Gangneung taxi is 2,800 won for 2 km.",
+   "from_table": false,
+   "kind": "other",
+   "value": "2,800 won",
+   "keys_num": [
+    "2,800",
+    "2"
+   ],
+   "keys_name": []
+  }
+ ]
+}
