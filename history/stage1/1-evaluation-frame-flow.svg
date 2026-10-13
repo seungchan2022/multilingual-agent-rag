@@ -1,0 +1,25 @@
+<svg viewBox="0 0 480 720" role="img" aria-labelledby="stage1-flow-title stage1-flow-desc" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <title id="stage1-flow-title">1단계가 진행된 순서</title>
+  <desc id="stage1-flow-desc">질문을 만드는 방법, 답을 채점하는 방법, 결과를 세고 비교하는 방법을 차례로 정한 뒤, 완료 기준 대조와 Codex 검토 두 번을 거쳐 닫았다.</desc>
+  <defs><marker id="s1-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#3b4558"/></marker></defs>
+  <g stroke="#3b4558" stroke-width="1.2" marker-end="url(#s1-arrow)"><line x1="240" y1="128" x2="240" y2="150"/><line x1="240" y1="264" x2="240" y2="286"/><line x1="240" y1="400" x2="240" y2="422"/><line x1="240" y1="480" x2="240" y2="502"/><line x1="240" y1="560" x2="240" y2="582"/><line x1="240" y1="640" x2="240" y2="662"/></g>
+  <g><rect x="32" y="16" width="416" height="112" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="44" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">01</text><text x="76" y="44" font-size="16" font-weight="700" fill="#1f2230">질문을 어떻게 만들까</text>
+  <circle cx="80" cy="64" r="2" fill="#59627a"/><text x="92" y="68" font-size="12" fill="#3b4558">유형 5개, 교차 언어는 축</text>
+  <circle cx="80" cy="84" r="2" fill="#59627a"/><text x="92" y="88" font-size="12" fill="#3b4558">최종 평가용 30개, 개발용 30개</text>
+  <circle cx="80" cy="104" r="2" fill="#59627a"/><text x="92" y="108" font-size="12" fill="#3b4558">한쪽 언어 문서에만 있는 사실</text>
+  </g>
+  <g><rect x="32" y="152" width="416" height="112" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="180" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">02</text><text x="76" y="180" font-size="16" font-weight="700" fill="#1f2230">답 하나를 어떻게 채점할까</text>
+  <circle cx="80" cy="200" r="2" fill="#59627a"/><text x="92" y="204" font-size="12" fill="#3b4558">환각 여부와 정답 여부를 따로</text>
+  <circle cx="80" cy="220" r="2" fill="#59627a"/><text x="92" y="224" font-size="12" fill="#3b4558">거절의 뜻</text>
+  <circle cx="80" cy="240" r="2" fill="#59627a"/><text x="92" y="244" font-size="12" fill="#3b4558">Faithfulness와 검색 지표 두 개</text>
+  </g>
+  <g><rect x="32" y="288" width="416" height="112" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="316" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">03</text><text x="76" y="316" font-size="16" font-weight="700" fill="#1f2230">결과를 어떻게 세고 비교할까</text>
+  <circle cx="80" cy="336" r="2" fill="#59627a"/><text x="92" y="340" font-size="12" fill="#3b4558">“높았다”고 적는 기준</text>
+  <circle cx="80" cy="356" r="2" fill="#59627a"/><text x="92" y="360" font-size="12" fill="#3b4558">오류 유형 7개</text>
+  <circle cx="80" cy="376" r="2" fill="#59627a"/><text x="92" y="380" font-size="12" fill="#3b4558">사례를 고르는 규칙</text>
+  </g>
+  <g><rect x="32" y="424" width="416" height="56" rx="6" fill="#f4f5f7" stroke="#3b4558"/><text x="240" y="448" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">완료 기준 대조</text><text x="240" y="468" font-size="12" fill="#3b4558" text-anchor="middle">빈 곳 여섯을 찾아 먼저 정했다</text></g>
+  <g><rect x="32" y="504" width="416" height="56" rx="6" fill="#fdf1ea" stroke="#eb6c36"/><text x="240" y="528" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">Codex 1차 검토</text><text x="240" y="548" font-size="12" fill="#3b4558" text-anchor="middle">지적 13개. 채점 규칙의 중심이 바뀌었다</text></g>
+  <g><rect x="32" y="584" width="416" height="56" rx="6" fill="#f4f5f7" stroke="#3b4558"/><text x="240" y="608" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">Codex 2차 검토</text><text x="240" y="628" font-size="12" fill="#3b4558" text-anchor="middle">지적 4개. 셋은 1차를 반영하며 넣은 규칙에서 나왔다</text></g>
+  <g><rect x="176" y="664" width="128" height="40" rx="20" fill="#1f2230"/><text x="240" y="688" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">닫음</text></g>
+</svg>
