@@ -64,7 +64,7 @@ class Body(HTMLParser):
         if skip:
             self.skip += 1
         if is_table:
-            self.cur.append({"rows": 0, "wide": 0, "cells": 0, "head": "", "ok": bool(TABLE.search(cls))})
+            self.cur.append({"rows": 0, "wide": 0, "cells": 0, "head": "", "cls": cls, "ok": bool(TABLE.search(cls))})
         if self.cur and not self.skip:
             t = self.cur[0]
             if tag == "tr":
@@ -112,7 +112,7 @@ def measure(html):
     b.feed(html)
     b.close()
     text = re.sub(r"\s+", " ", "".join(b.text)).strip()
-    tables = [{"rows": t["rows"], "head": re.sub(r"\s+", " ", t["head"])[:80]} for t in b.tables]
+    tables = [{"rows": t["rows"], "head": re.sub(r"\s+", " ", t["head"])[:80], "cls": t["cls"]} for t in b.tables]
     return {"chars": len(text), "tables": tables}
 
 

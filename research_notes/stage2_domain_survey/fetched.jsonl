@@ -24,7 +24,6 @@
 {"domain": "도시철도", "subject": "인천 도시철도 1호선", "resolved": "제목 그대로", "ko": {"title": "인천 도시철도 1호선", "revid": 42649416}, "en": {"title": "Incheon Subway Line 1", "revid": 1370306962}}
 {"domain": "우주", "subject": "누리호", "resolved": "제목 그대로", "ko": {"title": "누리호", "revid": 42623725}, "en": {"title": "Nuri (rocket)", "revid": 1379026185}}
 {"domain": "우주", "subject": "나로호", "resolved": "제목 그대로", "ko": {"title": "나로호", "revid": 42156813}, "en": {"title": "Naro-1", "revid": 1335757226}}
-{"domain": "우주", "subject": "다누리", "resolved": "제목 그대로 · 동음이의 문서", "ko": {"title": "다누리", "revid": 36191067}, "en": null}
 {"domain": "우주", "subject": "아폴로 11호", "resolved": "제목 그대로", "ko": {"title": "아폴로 11호", "revid": 41558495}, "en": {"title": "Apollo 11", "revid": 1379979658}}
 {"domain": "우주", "subject": "보이저 1호", "resolved": "제목 그대로", "ko": {"title": "보이저 1호", "revid": 42570119}, "en": {"title": "Voyager 1", "revid": 1379941857}}
 {"domain": "우주", "subject": "국제우주정거장", "resolved": "제목 그대로", "ko": {"title": "국제우주정거장", "revid": 42093155}, "en": {"title": "International Space Station", "revid": 1379562415}}
@@ -107,7 +106,6 @@
 {"domain": "섬", "subject": "독도", "resolved": "제목 그대로", "ko": {"title": "독도", "revid": 42570597}, "en": {"title": "Liancourt Rocks", "revid": 1374983972}}
 {"domain": "섬", "subject": "거제도", "resolved": "제목 그대로", "ko": {"title": "거제도", "revid": 40624759}, "en": {"title": "Geojedo", "revid": 1375497547}}
 {"domain": "섬", "subject": "강화도", "resolved": "제목 그대로", "ko": {"title": "강화도", "revid": 40812246}, "en": {"title": "Ganghwa Island", "revid": 1362286290}}
-{"domain": "섬", "subject": "진도", "resolved": "제목 그대로 · 동음이의 문서", "ko": {"title": "진도", "revid": 38197927}, "en": {"title": "Jindo", "revid": 1367399467}}
 {"domain": "섬", "subject": "완도", "resolved": "제목 그대로", "ko": {"title": "완도", "revid": 42045225}, "en": {"title": "Wando (island)", "revid": 1364786267}}
 {"domain": "섬", "subject": "백령도", "resolved": "제목 그대로", "ko": {"title": "백령도", "revid": 41077855}, "en": {"title": "Baengnyeongdo", "revid": 1373845518}}
 {"domain": "자동차 모델", "subject": "현대 쏘나타", "resolved": "제목 그대로", "ko": {"title": "현대 쏘나타", "revid": 42620169}, "en": {"title": "Hyundai Sonata", "revid": 1378042309}}
@@ -140,7 +138,6 @@
 {"domain": "아이돌 그룹", "subject": "빅뱅 (음악 그룹)", "resolved": "제목 그대로", "ko": {"title": "빅뱅 (음악 그룹)", "revid": 42629875}, "en": {"title": "BigBang (South Korean band)", "revid": 1376681295}}
 {"domain": "아이돌 그룹", "subject": "엑소 (음악 그룹)", "resolved": "검색으로 찾음", "ko": {"title": "EXO", "revid": 41839116}, "en": {"title": "Exo", "revid": 1378028787}}
 {"domain": "아이돌 그룹", "subject": "트와이스", "resolved": "제목 그대로", "ko": {"title": "트와이스", "revid": 42650448}, "en": {"title": "Twice", "revid": 1375616638}}
-{"domain": "아이돌 그룹", "subject": "세븐틴", "resolved": "제목 그대로 · 동음이의 문서", "ko": {"title": "세븐틴", "revid": 40965618}, "en": null}
 {"domain": "아이돌 그룹", "subject": "뉴진스", "resolved": "제목 그대로", "ko": {"title": "NewJeans", "revid": 42468267}, "en": {"title": "NewJeans", "revid": 1375886908}}
 {"domain": "조선의 왕", "subject": "세종", "resolved": "제목 그대로", "ko": {"title": "세종", "revid": 42642237}, "en": {"title": "Sejong the Great", "revid": 1379296400}}
 {"domain": "조선의 왕", "subject": "정조", "resolved": "제목 그대로", "ko": {"title": "정조", "revid": 42642220}, "en": {"title": "Jeongjo of Joseon", "revid": 1379112858}}
@@ -164,3 +161,96 @@
 {"domain": "스포츠 종목", "subject": "배구", "resolved": "제목 그대로", "ko": {"title": "배구", "revid": 41528554}, "en": {"title": "Volleyball", "revid": 1376035751}}
 {"domain": "스포츠 종목", "subject": "테니스", "resolved": "제목 그대로", "ko": {"title": "테니스", "revid": 42437207}, "en": {"title": "Tennis", "revid": 1375888835}}
 {"domain": "스포츠 종목", "subject": "골프", "resolved": "제목 그대로", "ko": {"title": "골프", "revid": 42250075}, "en": {"title": "Golf", "revid": 1376705088}}
+{"domain": "스포츠 종목", "subject": "수영 (스포츠)", "resolved": "제목 그대로", "ko": {"title": "수영 (스포츠)", "revid": 39575567}, "en": {"title": "Competitive swimming", "revid": 1364935958}}
+{"domain": "스포츠 종목", "subject": "태권도", "resolved": "제목 그대로", "ko": {"title": "태권도", "revid": 42250414}, "en": {"title": "Taekwondo", "revid": 1379591394}}
+{"domain": "동물", "subject": "호랑이", "resolved": "제목 그대로", "ko": {"title": "호랑이", "revid": 42528812}, "en": {"title": "Tiger", "revid": 1379390513}}
+{"domain": "동물", "subject": "사자", "resolved": "제목 그대로", "ko": {"title": "사자", "revid": 42590917}, "en": {"title": "Lion", "revid": 1379222844}}
+{"domain": "동물", "subject": "코끼리", "resolved": "제목 그대로", "ko": {"title": "코끼리", "revid": 42470730}, "en": {"title": "Elephant", "revid": 1378665714}}
+{"domain": "동물", "subject": "기린", "resolved": "제목 그대로", "ko": {"title": "기린", "revid": 41742226}, "en": {"title": "Giraffe", "revid": 1379256820}}
+{"domain": "동물", "subject": "대왕판다", "resolved": "제목 그대로", "ko": {"title": "대왕판다", "revid": 42578063}, "en": {"title": "Giant panda", "revid": 1377777946}}
+{"domain": "동물", "subject": "늑대", "resolved": "제목 그대로", "ko": {"title": "회색늑대", "revid": 42465454}, "en": {"title": "Wolf", "revid": 1376352576}}
+{"domain": "동물", "subject": "펭귄", "resolved": "제목 그대로", "ko": {"title": "펭귄", "revid": 42087775}, "en": {"title": "Penguin", "revid": 1379566007}}
+{"domain": "동물", "subject": "돌고래", "resolved": "제목 그대로", "ko": {"title": "돌고래", "revid": 42141594}, "en": {"title": "Dolphin", "revid": 1375794602}}
+{"domain": "과일과 채소", "subject": "사과", "resolved": "제목 그대로", "ko": {"title": "사과", "revid": 42577253}, "en": {"title": "Apple", "revid": 1378395484}}
+{"domain": "과일과 채소", "subject": "바나나", "resolved": "제목 그대로", "ko": {"title": "바나나", "revid": 42614913}, "en": {"title": "Banana", "revid": 1379162251}}
+{"domain": "과일과 채소", "subject": "포도", "resolved": "제목 그대로", "ko": {"title": "포도", "revid": 42644530}, "en": {"title": "Grape", "revid": 1379727561}}
+{"domain": "과일과 채소", "subject": "딸기", "resolved": "제목 그대로", "ko": {"title": "딸기", "revid": 41771307}, "en": {"title": "Strawberry", "revid": 1376208670}}
+{"domain": "과일과 채소", "subject": "수박", "resolved": "제목 그대로", "ko": {"title": "수박", "revid": 42590728}, "en": {"title": "Watermelon", "revid": 1374422516}}
+{"domain": "과일과 채소", "subject": "감자", "resolved": "제목 그대로", "ko": {"title": "감자", "revid": 42522458}, "en": {"title": "Potato", "revid": 1378814806}}
+{"domain": "과일과 채소", "subject": "토마토", "resolved": "제목 그대로", "ko": {"title": "토마토", "revid": 42620885}, "en": {"title": "Tomato", "revid": 1375083804}}
+{"domain": "과일과 채소", "subject": "고추", "resolved": "제목 그대로", "ko": {"title": "고추", "revid": 42650641}, "en": {"title": "Chili pepper", "revid": 1379204514}}
+{"domain": "질병", "subject": "인플루엔자", "resolved": "제목 그대로", "ko": {"title": "인플루엔자", "revid": 42150872}, "en": {"title": "Influenza", "revid": 1369108661}}
+{"domain": "질병", "subject": "당뇨병", "resolved": "제목 그대로", "ko": {"title": "당뇨병", "revid": 42425954}, "en": {"title": "Diabetes", "revid": 1378703532}}
+{"domain": "질병", "subject": "고혈압", "resolved": "제목 그대로", "ko": {"title": "고혈압", "revid": 42149744}, "en": {"title": "Hypertension", "revid": 1379458003}}
+{"domain": "질병", "subject": "결핵", "resolved": "제목 그대로", "ko": {"title": "결핵", "revid": 42155040}, "en": {"title": "Tuberculosis", "revid": 1379729728}}
+{"domain": "질병", "subject": "코로나바이러스감염증-19", "resolved": "제목 그대로", "ko": {"title": "코로나바이러스감염증-19", "revid": 42570463}, "en": {"title": "COVID-19", "revid": 1379966995}}
+{"domain": "질병", "subject": "감기", "resolved": "제목 그대로", "ko": {"title": "감기", "revid": 42152947}, "en": {"title": "Common cold", "revid": 1377844322}}
+{"domain": "질병", "subject": "암", "resolved": "제목 그대로", "ko": {"title": "암", "revid": 42060419}, "en": {"title": "Cancer", "revid": 1378798277}}
+{"domain": "질병", "subject": "치매", "resolved": "제목 그대로", "ko": {"title": "치매", "revid": 42423325}, "en": {"title": "Dementia", "revid": 1379548480}}
+{"domain": "나라", "subject": "대한민국", "resolved": "제목 그대로", "ko": {"title": "대한민국", "revid": 42562205}, "en": {"title": "South Korea", "revid": 1380021401}}
+{"domain": "나라", "subject": "일본", "resolved": "제목 그대로", "ko": {"title": "일본", "revid": 42403627}, "en": {"title": "Japan", "revid": 1380021877}}
+{"domain": "나라", "subject": "중국", "resolved": "제목 그대로", "ko": {"title": "중국", "revid": 42513081}, "en": {"title": "China (disambiguation)", "revid": 1378458802}}
+{"domain": "나라", "subject": "미국", "resolved": "제목 그대로", "ko": {"title": "미국", "revid": 42607286}, "en": {"title": "United States", "revid": 1380019142}}
+{"domain": "나라", "subject": "프랑스", "resolved": "제목 그대로", "ko": {"title": "프랑스", "revid": 42522447}, "en": {"title": "France", "revid": 1379979516}}
+{"domain": "나라", "subject": "독일", "resolved": "제목 그대로", "ko": {"title": "독일", "revid": 42646235}, "en": {"title": "Germany", "revid": 1380020945}}
+{"domain": "나라", "subject": "영국", "resolved": "제목 그대로", "ko": {"title": "영국", "revid": 42508892}, "en": {"title": "United Kingdom", "revid": 1379975250}}
+{"domain": "나라", "subject": "베트남", "resolved": "제목 그대로", "ko": {"title": "베트남", "revid": 42640192}, "en": {"title": "Vietnam", "revid": 1378659268}}
+{"domain": "악기", "subject": "피아노", "resolved": "제목 그대로", "ko": {"title": "피아노", "revid": 42162526}, "en": {"title": "Piano", "revid": 1379771061}}
+{"domain": "악기", "subject": "기타", "resolved": "제목 그대로", "ko": {"title": "기타", "revid": 41076525}, "en": {"title": "Guitar", "revid": 1379136457}}
+{"domain": "악기", "subject": "바이올린", "resolved": "제목 그대로", "ko": {"title": "바이올린", "revid": 42152283}, "en": {"title": "Violin", "revid": 1379798042}}
+{"domain": "악기", "subject": "드럼", "resolved": "제목 그대로", "ko": {"title": "드럼 세트", "revid": 42146162}, "en": {"title": "Drum kit", "revid": 1379041565}}
+{"domain": "악기", "subject": "플루트", "resolved": "제목 그대로", "ko": {"title": "플루트", "revid": 42130075}, "en": {"title": "Flute", "revid": 1374057000}}
+{"domain": "악기", "subject": "첼로", "resolved": "제목 그대로", "ko": {"title": "첼로", "revid": 41272420}, "en": {"title": "Cello", "revid": 1378321411}}
+{"domain": "악기", "subject": "트럼펫", "resolved": "제목 그대로", "ko": {"title": "트럼펫", "revid": 41077577}, "en": {"title": "Trumpet", "revid": 1379812658}}
+{"domain": "악기", "subject": "가야금", "resolved": "제목 그대로", "ko": {"title": "가야금", "revid": 41221185}, "en": {"title": "Gayageum", "revid": 1360542337}}
+{"domain": "자연재해", "subject": "태풍", "resolved": "제목 그대로", "ko": {"title": "태풍", "revid": 42429177}, "en": {"title": "Typhoon", "revid": 1379385533}}
+{"domain": "자연재해", "subject": "지진", "resolved": "제목 그대로", "ko": {"title": "지진", "revid": 42414084}, "en": {"title": "Earthquake", "revid": 1379800890}}
+{"domain": "자연재해", "subject": "화산", "resolved": "제목 그대로", "ko": {"title": "화산", "revid": 42463487}, "en": {"title": "Volcano", "revid": 1378168594}}
+{"domain": "자연재해", "subject": "지진 해일", "resolved": "제목 그대로", "ko": {"title": "지진해일", "revid": 42413167}, "en": {"title": "Tsunami", "revid": 1376798379}}
+{"domain": "자연재해", "subject": "홍수", "resolved": "제목 그대로", "ko": {"title": "홍수", "revid": 42463166}, "en": {"title": "Flood", "revid": 1376832392}}
+{"domain": "자연재해", "subject": "가뭄", "resolved": "제목 그대로", "ko": {"title": "가뭄", "revid": 42517221}, "en": {"title": "Drought", "revid": 1378555067}}
+{"domain": "자연재해", "subject": "산불", "resolved": "제목 그대로", "ko": {"title": "산불", "revid": 42087451}, "en": {"title": "Wildfire", "revid": 1376359132}}
+{"domain": "자연재해", "subject": "토네이도", "resolved": "제목 그대로", "ko": {"title": "토네이도", "revid": 42274739}, "en": {"title": "Tornado", "revid": 1378210995}}
+{"domain": "도시", "subject": "서울특별시", "resolved": "제목 그대로", "ko": {"title": "서울특별시", "revid": 42648690}, "en": {"title": "Seoul", "revid": 1379372717}}
+{"domain": "도시", "subject": "부산광역시", "resolved": "제목 그대로", "ko": {"title": "부산광역시", "revid": 42339930}, "en": {"title": "Busan", "revid": 1379685823}}
+{"domain": "도시", "subject": "인천광역시", "resolved": "제목 그대로", "ko": {"title": "인천광역시", "revid": 42499756}, "en": {"title": "Incheon", "revid": 1379305552}}
+{"domain": "도시", "subject": "대구광역시", "resolved": "제목 그대로", "ko": {"title": "대구광역시", "revid": 42606432}, "en": {"title": "Daegu", "revid": 1379205728}}
+{"domain": "도시", "subject": "수원시", "resolved": "제목 그대로", "ko": {"title": "수원시", "revid": 42534963}, "en": {"title": "Suwon", "revid": 1374338421}}
+{"domain": "도시", "subject": "전주시", "resolved": "제목 그대로", "ko": {"title": "전주시", "revid": 42643645}, "en": {"title": "Jeonju", "revid": 1379135207}}
+{"domain": "도시", "subject": "경주시", "resolved": "제목 그대로", "ko": {"title": "경주시", "revid": 42639825}, "en": {"title": "Gyeongju", "revid": 1377369570}}
+{"domain": "도시", "subject": "제주시", "resolved": "제목 그대로", "ko": {"title": "제주시", "revid": 42613842}, "en": {"title": "Jeju City", "revid": 1377658564}}
+{"domain": "여행지·문화유산", "subject": "경복궁", "resolved": "제목 그대로", "ko": {"title": "경복궁", "revid": 42649919}, "en": {"title": "Gyeongbokgung", "revid": 1356452765}}
+{"domain": "여행지·문화유산", "subject": "창덕궁", "resolved": "제목 그대로", "ko": {"title": "창덕궁", "revid": 41865085}, "en": {"title": "Changdeokgung", "revid": 1367576116}}
+{"domain": "여행지·문화유산", "subject": "불국사", "resolved": "제목 그대로", "ko": {"title": "불국사", "revid": 42381680}, "en": {"title": "Bulguksa", "revid": 1372941366}}
+{"domain": "여행지·문화유산", "subject": "수원 화성", "resolved": "제목 그대로", "ko": {"title": "수원 화성", "revid": 41997154}, "en": {"title": "Hwaseong Fortress", "revid": 1362026505}}
+{"domain": "여행지·문화유산", "subject": "한라산", "resolved": "제목 그대로", "ko": {"title": "한라산", "revid": 42457286}, "en": {"title": "Hallasan", "revid": 1377899354}}
+{"domain": "여행지·문화유산", "subject": "성산 일출봉", "resolved": "제목 그대로", "ko": {"title": "성산일출봉", "revid": 40513430}, "en": {"title": "Seongsan Ilchulbong", "revid": 1377450207}}
+{"domain": "여행지·문화유산", "subject": "N서울타워", "resolved": "제목 그대로", "ko": {"title": "YTN서울타워", "revid": 42091888}, "en": {"title": "Namsan Seoul Tower", "revid": 1378924965}}
+{"domain": "여행지·문화유산", "subject": "해운대해수욕장", "resolved": "제목 그대로", "ko": {"title": "해운대해수욕장", "revid": 40864495}, "en": {"title": "Haeundae Beach", "revid": 1362884688}}
+{"domain": "독립운동가", "subject": "안중근", "resolved": "제목 그대로", "ko": {"title": "안중근", "revid": 42641416}, "en": {"title": "An Jung-geun", "revid": 1379876637}}
+{"domain": "독립운동가", "subject": "윤봉길", "resolved": "제목 그대로", "ko": {"title": "윤봉길", "revid": 41773049}, "en": {"title": "Yun Bong-gil", "revid": 1363113476}}
+{"domain": "독립운동가", "subject": "김구", "resolved": "제목 그대로", "ko": {"title": "김구", "revid": 42548324}, "en": {"title": "Kim Ku", "revid": 1376739626}}
+{"domain": "독립운동가", "subject": "유관순", "resolved": "제목 그대로", "ko": {"title": "유관순", "revid": 42409090}, "en": {"title": "Yu Gwan-sun", "revid": 1379797839}}
+{"domain": "독립운동가", "subject": "안창호", "resolved": "제목 그대로", "ko": {"title": "안창호", "revid": 41799372}, "en": {"title": "Ahn Chang Ho", "revid": 1366482715}}
+{"domain": "독립운동가", "subject": "이봉창", "resolved": "제목 그대로", "ko": {"title": "이봉창", "revid": 42583382}, "en": {"title": "Lee Bong-chang", "revid": 1311003012}}
+{"domain": "독립운동가", "subject": "홍범도", "resolved": "제목 그대로", "ko": {"title": "홍범도", "revid": 42631417}, "en": {"title": "Hong Beom-do", "revid": 1376360869}}
+{"domain": "독립운동가", "subject": "김좌진", "resolved": "제목 그대로", "ko": {"title": "김좌진", "revid": 42157751}, "en": {"title": "Kim Chwajin", "revid": 1379312239}}
+{"domain": "지역 축제", "subject": "보령머드축제", "resolved": "제목 그대로", "ko": {"title": "보령머드축제", "revid": 42585516}, "en": {"title": "Boryeong Mud Festival", "revid": 1322787075}}
+{"domain": "지역 축제", "subject": "진주남강유등축제", "resolved": "제목 그대로", "ko": {"title": "진주남강유등축제", "revid": 42461635}, "en": {"title": "Jinju Namgang Yudeung Festival", "revid": 1368755934}}
+{"domain": "지역 축제", "subject": "화천산천어축제", "resolved": "제목 그대로", "ko": {"title": "얼음나라 화천 산천어 축제", "revid": 39048969}, "en": null}
+{"domain": "지역 축제", "subject": "부산국제영화제", "resolved": "제목 그대로", "ko": {"title": "부산국제영화제", "revid": 42624911}, "en": {"title": "Busan International Film Festival", "revid": 1375326548}}
+{"domain": "지역 축제", "subject": "전주국제영화제", "resolved": "제목 그대로", "ko": {"title": "전주국제영화제", "revid": 41777049}, "en": {"title": "Jeonju International Film Festival", "revid": 1376624917}}
+{"domain": "지역 축제", "subject": "안동국제탈춤페스티벌", "resolved": "제목 그대로", "ko": {"title": "안동국제탈춤페스티벌", "revid": 39156657}, "en": null}
+{"domain": "지역 축제", "subject": "함평나비대축제", "resolved": "제목 그대로", "ko": {"title": "함평나비대축제", "revid": 42071804}, "en": null}
+{"domain": "지역 축제", "subject": "서울세계불꽃축제", "resolved": "제목 그대로", "ko": {"title": "서울세계불꽃축제", "revid": 42506753}, "en": {"title": "Seoul International Fireworks Festival", "revid": 1334342166}}
+{"domain": "박물관", "subject": "국립중앙박물관", "resolved": "제목 그대로", "ko": {"title": "국립중앙박물관", "revid": 42536962}, "en": {"title": "National Museum of Korea", "revid": 1375520878}}
+{"domain": "박물관", "subject": "국립경주박물관", "resolved": "제목 그대로", "ko": {"title": "국립경주박물관", "revid": 42565558}, "en": {"title": "Gyeongju National Museum", "revid": 1374704980}}
+{"domain": "박물관", "subject": "국립민속박물관", "resolved": "제목 그대로", "ko": {"title": "국립민속박물관", "revid": 42652059}, "en": {"title": "National Folk Museum of Korea", "revid": 1369165254}}
+{"domain": "박물관", "subject": "전쟁기념관", "resolved": "제목 그대로", "ko": {"title": "전쟁기념물", "revid": 41588900}, "en": {"title": "War memorial", "revid": 1375278142}}
+{"domain": "박물관", "subject": "국립현대미술관", "resolved": "제목 그대로", "ko": {"title": "국립현대미술관", "revid": 41650369}, "en": {"title": "National Museum of Modern and Contemporary Art", "revid": 1379959116}}
+{"domain": "박물관", "subject": "국립고궁박물관", "resolved": "제목 그대로", "ko": {"title": "국립고궁박물관", "revid": 40390303}, "en": {"title": "National Palace Museum of Korea", "revid": 1367808449}}
+{"domain": "박물관", "subject": "서대문형무소역사관", "resolved": "제목 그대로", "ko": {"title": "서대문형무소", "revid": 41865030}, "en": {"title": "Seodaemun Prison", "revid": 1369512378}}
+{"domain": "우주", "subject": "다누리 (우주선)", "resolved": "제목 그대로", "ko": {"title": "다누리 (우주선)", "revid": 39546539}, "en": {"title": "Danuri", "revid": 1354033209}}
+{"domain": "섬", "subject": "진도 (섬)", "resolved": "제목 그대로", "ko": {"title": "진도 (섬)", "revid": 42063936}, "en": {"title": "Jindo (island)", "revid": 1377446932}}
+{"domain": "아이돌 그룹", "subject": "세븐틴 (음악 그룹)", "resolved": "제목 그대로", "ko": {"title": "세븐틴 (음악 그룹)", "revid": 42464179}, "en": {"title": "Seventeen (South Korean band)", "revid": 1379988577}}
+{"domain": "박물관", "subject": "독립기념관 (대한민국)", "resolved": "제목 그대로", "ko": {"title": "독립기념관 (대한민국)", "revid": 42571207}, "en": {"title": "Independence Hall of Korea", "revid": 1375204156}}
