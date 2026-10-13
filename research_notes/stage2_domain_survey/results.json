@@ -14348,5 +14348,853 @@
    "chars": 3966,
    "tables": []
   }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "대전광역시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "대전광역시",
+   "revid": 42561464,
+   "chars": 45161,
+   "tables": [
+    {
+     "rows": 13,
+     "head": "대전지방기상청 (대전광역시 유성구 구성동, 해발 67.79m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 7,
+     "head": "자치구 | 한자 | 세대 | 인구 | 면적(km2) | 법정동 | 행정동 | 대전광역시 | 大田廣域市 | 697,348 | 1,440,729 |",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 31,
+     "head": "연도 | 출생(명) | 사망(명) | 혼인(쌍) | 이혼(쌍) | 1980년 | 1985년 | 1990년 | 1995년 | 2000년 | 200",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 10,
+     "head": "민선 | 이름 | 임기 | 시정 구호 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 7,
+     "head": "유통업체 | 매장 수 | 지점명 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 4,
+     "head": "영화관 | 지점 수 | 지점명 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 6,
+     "head": "",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 2,
+     "head": "텔레비전/라디오 방송사 | 라디오 방송사 | 신문사 | ",
+     "cls": ""
+    },
+    {
+     "rows": 35,
+     "head": "자매도시 | 우호도시 | 국가 | 도시 | 체결년도 | 체결년도 | 국가 | 도시 | ",
+     "cls": "wikitable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Daejeon",
+   "revid": 1379885470,
+   "chars": 40461,
+   "tables": [
+    {
+     "rows": 16,
+     "head": "Climate data for Daejeon (1991–2020 normals, extremes 1969–present) | Month | Ja",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 6,
+     "head": " | Subdivision | Korean | Area (km2) | Population(September 2021) | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 8,
+     "head": "Historical population | Year | Pop. | ±% | 1970 | 1980 | 1990 | 2000 | 2010 | 20",
+     "cls": "table-pale"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "광주광역시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "광주광역시",
+   "revid": 42623705,
+   "chars": 19222,
+   "tables": [
+    {
+     "rows": 13,
+     "head": "광주지방기상청 (광주광역시 북구 운암동, 해발 70.28m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 7,
+     "head": "자치구 | 한자 | 세대 | 인구 (명) | 면적 (km2) | 광주광역시 | 光州廣域市 | 580,427 | 1,472,199 | 501.18",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 21,
+     "head": "광주광역시의 인구 | 연도 | 인구(명) | 그래프 | 비고 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 31,
+     "head": "연도 | 출생(명) | 사망(명) | 혼인(쌍) | 이혼(쌍) | 1980년 | 1985년 | 1990년 | 1995년 | 2000년 | 200",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 8,
+     "head": "년도 | 2004 | 2006 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013(추정) | 2014(예측) | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 6,
+     "head": "연구기관 | 설립 목적 | 주요 업무 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 5,
+     "head": "연구기관 | 설립목적 | 주요업무 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 4,
+     "head": "구분 | 2009년 | 2010년 | 2011년 | 2012년 | 2013년 | 2014년 | 2015년 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 2,
+     "head": "구분 | 합계 | 태양광 | 에너지저장 | 풍력 | 연료전지 | 지열 | 기타 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 4,
+     "head": "구분 | 1999년(육성이전) | 2003년(1단계완료) | 2008년(2단계완료) | 2012년(3단계완료) | 2013년 | 2014년 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 4,
+     "head": "구분 | 2007년 | 2008년(센터준공) | 2009년 | 2010년 | 2011년 | 2012년 | 2013년 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 13,
+     "head": "박물관 | 주소 | 홈페이지 | 미술관 | 주소 | 홈페이지 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 21,
+     "head": "자치구 | 공원명 | 주소 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 9,
+     "head": "숙박업소 | 주소 | 연락처 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 12,
+     "head": "시설 | 주소 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 4,
+     "head": "",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 30,
+     "head": "자매도시 | 관심 도시 및 달빛 동맹 | 우호도시 | 국가 | 도시 | 국가 | 도시 | 국가 | 도시 | ",
+     "cls": "wikitable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Gwangju",
+   "revid": 1378167601,
+   "chars": 15134,
+   "tables": [
+    {
+     "rows": 8,
+     "head": "Map | Name | Korean | Hanja | Districts | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 8,
+     "head": "Historical population | Year | Pop. | ±% | 1970 | 1980 | 1990 | 2000 | 2010 | 20",
+     "cls": "table-pale"
+    },
+    {
+     "rows": 16,
+     "head": "Climate data for Gwangju (1991–2020 normals, extremes 1939–present) | Month | Ja",
+     "cls": "wikitable mw-collapsible"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "울산광역시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "울산광역시",
+   "revid": 42621842,
+   "chars": 28787,
+   "tables": [
+    {
+     "rows": 13,
+     "head": "울산기상대 (울산광역시 중구 약사동, 해발 81.14m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 7,
+     "head": "자치구·군 | 한자 | 면적 (km2) | 세대 | 인구 (명) | 지도 | 울산광역시 | 蔚山廣域市 | 1,062.9 | 500,541 | 1",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 22,
+     "head": "연도 | 인구 (명) | 인구그래프 | 비고 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 35,
+     "head": "연도 | 출생(명) | 사망(명) | 혼인(쌍) | 이혼(쌍) | 1985년 | 1990년 | 1995년 | 1996년 | 1997년 | 199",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 11,
+     "head": "종류 | 노선수 | 총연장 | 개설 | 미개설 | 계 | 포장 | 미포장 | 계 | 고속도로 | 일반국도 | 국가지원지방도 | 울산광역시도 | ",
+     "cls": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "Ulsan",
+   "revid": 1377970923,
+   "chars": 15885,
+   "tables": [
+    {
+     "rows": 16,
+     "head": "Climate data for Ulsan (1991–2020 normals, extremes 1932–present) | Month | Jan ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 8,
+     "head": "Historical population | Year | Pop. | ±% | 1970 | 1980 | 1990 | 2000 | 2010 | 20",
+     "cls": "table-pale"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "세종특별자치시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "세종특별자치시",
+   "revid": 42585449,
+   "chars": 18971,
+   "tables": [
+    {
+     "rows": 27,
+     "head": "읍·면·행정동 | 한자 | 면적(km2) | 인구 | 세대 | 세종특별자치시 | 世宗特別自治市 | 465 | 391,965 | 165,220 |",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 11,
+     "head": "연도 | 총인구(명) | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 15,
+     "head": "연도 | 출생(명) | 사망(명) | 혼인(쌍) | 이혼(쌍) | 2012년 | 2013년 | 2014년 | 2015년 | 2016년 | 201",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 20,
+     "head": "구분 | 중앙행정기관 | 소속기관 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 4,
+     "head": "소관별 | 연구기관 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "축제명 | 개최시기 | 주요 내용 | 주최/주관 | ",
+     "cls": "wikitable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Sejong City",
+   "revid": 1377832512,
+   "chars": 17664,
+   "tables": [
+    {
+     "rows": 8,
+     "head": "Climate data forYeonseo-myeon, Sejong City (1993–2020 normals) | Month | Jan | F",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 30,
+     "head": "Map | Name | Hangul | Hanja | Population(2024–7) | Area(km2) | Total | 351,007 |",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 8,
+     "head": "Historical population | Year | Pop. | ±% | 1970 | 1980 | 1990 | 2000 | 2010 | 20",
+     "cls": "table-pale"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "창원시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "창원시",
+   "revid": 42382595,
+   "chars": 6366,
+   "tables": [
+    {
+     "rows": 7,
+     "head": "지도 | 행정구 | 한자 | 면적 | 인구 | 세대 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 13,
+     "head": "창원기상대 (창원시 마산합포구 가포동, 해발 34.97m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 |",
+     "cls": "wikitable mw-collapsible"
+    }
+   ]
+  },
+  "en": {
+   "title": "Changwon",
+   "revid": 1377148502,
+   "chars": 21891,
+   "tables": [
+    {
+     "rows": 14,
+     "head": "Climate data for Changwon (1991–2020 normals, extremes 1985–present) | Month | J",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 8,
+     "head": "Map | | District | Hangul | Hanja | Area (km2) | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 5,
+     "head": "Club | Sport | League | Venue | Established | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 16,
+     "head": "International Sister Cities | Friendship Cities | Municipality | Year | Municipa",
+     "cls": "wikitable"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "청주시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "청주시",
+   "revid": 42630014,
+   "chars": 11696,
+   "tables": [
+    {
+     "rows": 13,
+     "head": "청주기상지청 (청주시 흥덕구 복대동, 해발 58.7m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 6,
+     "head": "일반구 | 한자 | 세대 | 인구 | 면적(km2) | 구 | 읍·면·동 | 총합계 | 380,651 | 846,691 | 940.33 | 4구",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 5,
+     "head": "고속도로 | 1경부고속도로 | 30서산영덕고속도로 | 32당진청주고속도로 | 35중부고속도로 | ",
+     "cls": ""
+    },
+    {
+     "rows": 5,
+     "head": "일반 도로 | 1 | 17 | 19 | 25 | 36 | 32 | 96 | 508 | 509 | 511 | 512 | 540 | 591 | 59",
+     "cls": ""
+    },
+    {
+     "rows": 10,
+     "head": "지역 & 국가 | 도시 | ",
+     "cls": "wikitable sortable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Cheongju",
+   "revid": 1378953230,
+   "chars": 13271,
+   "tables": [
+    {
+     "rows": 14,
+     "head": "Climate data for Cheongju (1991–2020 normals, extremes 1967–present) | Month | J",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 6,
+     "head": "City | Prefecture/Province/State | Country | Year | Sources | ",
+     "cls": "wikitable"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "춘천시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "춘천시",
+   "revid": 42647646,
+   "chars": 12619,
+   "tables": [
+    {
+     "rows": 12,
+     "head": "춘천기상관측소 (춘천시 우두동, 해발 95.61m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 28,
+     "head": "읍면동 | 한자 | 면적 | 세대 | 인구 | ",
+     "cls": ""
+    },
+    {
+     "rows": 15,
+     "head": "연도별 인구 | 연도 | 인구 | ±% | 1965 | 1970 | 1975 | 1980 | 1985 | 1990 | 1995 | 2000 | ",
+     "cls": "table-pale"
+    },
+    {
+     "rows": 14,
+     "head": "연도 | 총인구 | | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 10,
+     "head": "선거구 | 지역 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "철도 | ●수도권 전철 경춘선 | 경춘선(ITX-청춘) | ",
+     "cls": ""
+    },
+    {
+     "rows": 3,
+     "head": "고속도로 | 55중앙고속도로 | 60서울양양고속도로 | ",
+     "cls": ""
+    },
+    {
+     "rows": 3,
+     "head": "일반 도로 | 5 | 46 | 56 | 70 | 403 | 407 | ",
+     "cls": ""
+    },
+    {
+     "rows": 5,
+     "head": "종합대학 | 국공립대학교 | 사립대학교 | 전문대학 | 사립전문대학 | 폴리텍대학 | 사이버대학 | ",
+     "cls": ""
+    },
+    {
+     "rows": 6,
+     "head": "고등학교 | 일반계 | 대안 | 특성화 | 특수목적 | ",
+     "cls": ""
+    },
+    {
+     "rows": 16,
+     "head": "도시 이름 | 국가 | 체결 연도 | 도시 이름 | 국가 | 체결 연도 | ",
+     "cls": "col-begin"
+    }
+   ]
+  },
+  "en": {
+   "title": "Chuncheon",
+   "revid": 1376994978,
+   "chars": 12984,
+   "tables": [
+    {
+     "rows": 14,
+     "head": "Historical population | Year | Pop. | ±% | 1965 | 1970 | 1975 | 1980 | 1985 | 19",
+     "cls": "table-pale"
+    },
+    {
+     "rows": 28,
+     "head": "Name | Korean text | Area(km2) | Population(including foreigners, 2026) | ",
+     "cls": ""
+    },
+    {
+     "rows": 14,
+     "head": "Climate data for Chuncheon (1991–2020 normals, extremes 1966–present) | Month | ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 19,
+     "head": "City | State | Country | ",
+     "cls": "wikitable"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "강릉시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "강릉시",
+   "revid": 42651389,
+   "chars": 15327,
+   "tables": [
+    {
+     "rows": 4,
+     "head": "강릉의 기후 도표 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 | 9월 | 10월 | 11월 | 12월 | ",
+     "cls": "collapsable collapsed"
+    },
+    {
+     "rows": 12,
+     "head": "강릉기상관측소 (강릉시 용강동, 해발 27.12m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 7,
+     "head": "강릉탄전지역평안 누층군층서 (색칠된 지층은무연탄이 나오는 지층) | 지층명 | 구성 암석 | 두께 (m) | 언별리층 | 망덕산층 | 함백산층 ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 23,
+     "head": "읍면동 | 한자 | 면적(km2) | 인구 | 세대 | 행정구역 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 14,
+     "head": "연도 | 총인구 | | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "고속도로 | 50영동고속도로 | 65동해고속도로 | ",
+     "cls": ""
+    },
+    {
+     "rows": 3,
+     "head": "철도 | 영동선 | KTX강릉선 | ",
+     "cls": ""
+    },
+    {
+     "rows": 21,
+     "head": "강릉시의 대한민국 자매결연도시(8개) | 결연일 | 이름 | 비고 | 강릉시의 대한민국 외 자매결연도시(8개) | 결연일 | 이름 | 비고 | ",
+     "cls": "wikitable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Gangneung",
+   "revid": 1378182836,
+   "chars": 13665,
+   "tables": [
+    {
+     "rows": 14,
+     "head": "Climate data for Gangneung (1991–2020 normals, extremes 1911–present) | Month | ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 23,
+     "head": "Name | Korean name | Area(km2) | Population | Households | Map | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "Train | Yeongdong Line | Gyeonggang Line | ",
+     "cls": ""
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "포항시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "포항시",
+   "revid": 42587035,
+   "chars": 34699,
+   "tables": [
+    {
+     "rows": 5,
+     "head": "포항시의 동서남북단 | 단 | 법정구역 | 극점 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 13,
+     "head": "포항기상관측소 (포항시 남구 송도동, 해발 3.94m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 17,
+     "head": "행정동 | 한자 | 면적 | 인구 | 세대 | 북구 | 北區 | 734.80 | 272,494 | 119,668 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 16,
+     "head": "행정동 | 한자 | 면적 | 인구 | 세대 | 남구 | 南區 | 393.02 | 230,422 | 106,025 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 16,
+     "head": "연도 | 총인구 | | 비고 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 13,
+     "head": "1경 | 호미곶 일출 | 2경 | 내연산 12폭포 | 3경 | 운제산 오어사 | 4경 | 호미반도 해안둘레길 | 5경 | 영일대&포스코 야경 |",
+     "cls": "toccolours"
+    },
+    {
+     "rows": 2,
+     "head": "동해선 | 괴동선 | ",
+     "cls": ""
+    },
+    {
+     "rows": 3,
+     "head": "고속 도로 | 20새만금포항고속도로 | 65동해고속도로 | ",
+     "cls": ""
+    },
+    {
+     "rows": 4,
+     "head": "일반 도로 | 7 | 14 | 20 | 28 | 31 | 20 | 68 | 69 | 921 | 925 | 929 | 930 | ",
+     "cls": ""
+    },
+    {
+     "rows": 3,
+     "head": "리그명 | 팀명 | 창단년도 | 경기장 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 17,
+     "head": "지역 & 국가 | 도시 | ",
+     "cls": "wikitable sortable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Pohang",
+   "revid": 1378795059,
+   "chars": 21049,
+   "tables": [
+    {
+     "rows": 10,
+     "head": "Historical population | Year | Pop. | ±% | 1950 | 1960 | 1970 | 1980 | 1990 | 20",
+     "cls": "table-pale"
+    },
+    {
+     "rows": 14,
+     "head": "Climate data for Pohang (1991–2020 normals, extremes 1943–present) | Month | Jan",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 30,
+     "head": "District | Hangeul | Hanja | eup/myeon/dong | Hangeul | Hanja | ",
+     "cls": "wikitable sortable"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "여수시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "여수시",
+   "revid": 42639089,
+   "chars": 20263,
+   "tables": [
+    {
+     "rows": 19,
+     "head": "구 행정구역 | 신 행정구역 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 13,
+     "head": "여수기상관측소 (여수시 고소동, 해발 65.93m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 29,
+     "head": "읍면동 | 한자 | 세대 | 인구 | 면적 | 행정구역 | 여수시 | 麗水市 | 127,124 | 260,190 | 512.48 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 15,
+     "head": "연도 | 총인구 | | ",
+     "cls": "wikitable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Yeosu",
+   "revid": 1379652680,
+   "chars": 20260,
+   "tables": [
+    {
+     "rows": 14,
+     "head": "Climate data for Yeosu (1991–2020 normals, extremes 1942–present) | Month | Jan ",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 8,
+     "head": "Climate data forGeomundo, Yeosu (1993–2020 normals) | Month | Jan | Feb | Mar | ",
+     "cls": "wikitable mw-collapsible"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "안동시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "안동시",
+   "revid": 42433640,
+   "chars": 16597,
+   "tables": [
+    {
+     "rows": 13,
+     "head": "안동기상대 (안동시 운안동, 해발 141.26m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 | 7월 | 8월 |",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 26,
+     "head": "읍면동 | 한자 | 면적 | 세대 | 인구 | 안동시 | 安東市 | 1,521.23 | 70,595 | 167,590 | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 11,
+     "head": "연도 | 총인구 | | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 9,
+     "head": "선거구 | 지역 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 5,
+     "head": "지역 | 축제 명 | 개최시기 | 주요 내용 | 주최/주관 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 2,
+     "head": "종교인구 | 불교 | 개신교 | 천주교 | 유교 | 원불교 | 증산도 | 천도교 | 기타 | 종교없음 | 합계 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 3,
+     "head": "안동시 학생 현황 (2008.4.1)(단위 : 명) | 유치원 | 초등학교 | 중학교 | 고등학교(일반계) | 고등학교(전문계) | 전문대학 |",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 10,
+     "head": "도시 | 소속 | ",
+     "cls": "wikitable"
+    },
+    {
+     "rows": 4,
+     "head": "도시 | 소속 | ",
+     "cls": "wikitable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Andong",
+   "revid": 1378924154,
+   "chars": 11990,
+   "tables": [
+    {
+     "rows": 25,
+     "head": "Name | Hangeul | Hanja | ",
+     "cls": "wikitable sortable"
+    },
+    {
+     "rows": 14,
+     "head": "Climate data for Andong (1991–2020 normals, extremes 1973–present) | Month | Jan",
+     "cls": "wikitable mw-collapsible"
+    }
+   ]
+  }
+ },
+ {
+  "domain": "도시(2차에서 더한 12곳)",
+  "subject": "천안시",
+  "resolved": "제목 그대로",
+  "ko": {
+   "title": "천안시",
+   "revid": 42545685,
+   "chars": 10077,
+   "tables": [
+    {
+     "rows": 12,
+     "head": "천안지역기상서비스센터 (천안시 동남구 병천면 병천리, 해발 21.3m)의 기후 자료 | 월 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월",
+     "cls": "wikitable mw-collapsible"
+    },
+    {
+     "rows": 35,
+     "head": "읍·면·행정동 | 한자 | 인구 | 세대 | 면적(km2) | 지도 | 총계 | 683,453 | 255,696 | 636.2 | | ",
+     "cls": "wikitable sortable"
+    }
+   ]
+  },
+  "en": {
+   "title": "Cheonan",
+   "revid": 1378953224,
+   "chars": 17676,
+   "tables": [
+    {
+     "rows": 14,
+     "head": "Climate data for Cheonan (1991–2020 normals, extremes 1972–present) | Month | Ja",
+     "cls": "wikitable mw-collapsible"
+    }
+   ]
+  }
  }
 ]

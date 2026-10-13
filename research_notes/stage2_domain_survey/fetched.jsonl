@@ -254,3 +254,15 @@
 {"domain": "섬", "subject": "진도 (섬)", "resolved": "제목 그대로", "ko": {"title": "진도 (섬)", "revid": 42063936}, "en": {"title": "Jindo (island)", "revid": 1377446932}}
 {"domain": "아이돌 그룹", "subject": "세븐틴 (음악 그룹)", "resolved": "제목 그대로", "ko": {"title": "세븐틴 (음악 그룹)", "revid": 42464179}, "en": {"title": "Seventeen (South Korean band)", "revid": 1379988577}}
 {"domain": "박물관", "subject": "독립기념관 (대한민국)", "resolved": "제목 그대로", "ko": {"title": "독립기념관 (대한민국)", "revid": 42571207}, "en": {"title": "Independence Hall of Korea", "revid": 1375204156}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "대전광역시", "resolved": "제목 그대로", "ko": {"title": "대전광역시", "revid": 42561464}, "en": {"title": "Daejeon", "revid": 1379885470}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "광주광역시", "resolved": "제목 그대로", "ko": {"title": "광주광역시", "revid": 42623705}, "en": {"title": "Gwangju", "revid": 1378167601}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "울산광역시", "resolved": "제목 그대로", "ko": {"title": "울산광역시", "revid": 42621842}, "en": {"title": "Ulsan", "revid": 1377970923}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "세종특별자치시", "resolved": "제목 그대로", "ko": {"title": "세종특별자치시", "revid": 42585449}, "en": {"title": "Sejong City", "revid": 1377832512}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "창원시", "resolved": "제목 그대로", "ko": {"title": "창원시", "revid": 42382595}, "en": {"title": "Changwon", "revid": 1377148502}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "청주시", "resolved": "제목 그대로", "ko": {"title": "청주시", "revid": 42630014}, "en": {"title": "Cheongju", "revid": 1378953230}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "춘천시", "resolved": "제목 그대로", "ko": {"title": "춘천시", "revid": 42647646}, "en": {"title": "Chuncheon", "revid": 1376994978}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "강릉시", "resolved": "제목 그대로", "ko": {"title": "강릉시", "revid": 42651389}, "en": {"title": "Gangneung", "revid": 1378182836}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "포항시", "resolved": "제목 그대로", "ko": {"title": "포항시", "revid": 42587035}, "en": {"title": "Pohang", "revid": 1378795059}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "여수시", "resolved": "제목 그대로", "ko": {"title": "여수시", "revid": 42639089}, "en": {"title": "Yeosu", "revid": 1379652680}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "안동시", "resolved": "제목 그대로", "ko": {"title": "안동시", "revid": 42433640}, "en": {"title": "Andong", "revid": 1378924154}}
+{"domain": "도시(2차에서 더한 12곳)", "subject": "천안시", "resolved": "제목 그대로", "ko": {"title": "천안시", "revid": 42545685}, "en": {"title": "Cheonan", "revid": 1378953224}}
