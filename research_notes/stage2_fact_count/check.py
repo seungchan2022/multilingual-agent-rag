@@ -19,6 +19,10 @@ HERE = Path(__file__).parent
 norm = lambda s: re.sub(r"\s+", " ", s).strip()
 docs = json.loads((HERE / "docs.json").read_text(encoding="utf-8"))
 text = {(d["city"], d["lang"]): norm((HERE / d["file"]).read_text(encoding="utf-8")) for d in docs}
+# 고른 명소 소개 글과 통계 표(text/extra_이름_언어.txt)도 반대 언어 문서로 넣어 대조한다
+for f in sorted((HERE / "text").glob("extra_*.txt")):
+    name, lang = f.stem[len("extra_"):].rsplit("_", 1)
+    text[("포털:" + name, lang)] = norm(f.read_text(encoding="utf-8"))
 cleared = json.loads((HERE / "cleared.json").read_text(encoding="utf-8")) if (HERE / "cleared.json").exists() else {}
 
 facts = []

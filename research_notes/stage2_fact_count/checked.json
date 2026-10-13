@@ -1846,6 +1846,11 @@
     "doc": "강릉시_en",
     "key": "Joseon",
     "around": "gneung-do but it has always been the center of administration and military. At the beginning of the Joseon Dynasty it called to Hwadangdo and Wonchundo and rename Gangneung by the name of Gangwon Prov"
+   },
+   {
+    "doc": "포털:cheonan_en",
+    "key": "Joseon",
+    "around": "a junction of the Samnamdaero (Great Road connecting Hanyang Gyeongsang-do and Jeolla-do) since the Joseon dynasty and famous for the folk song Heungtaryeong. The space previously used primarily for e"
    }
   ],
   "status": "겹칠 수 있음"
@@ -3440,6 +3445,11 @@
     "doc": "강릉시_en",
     "key": "1983 + 1983",
     "around": "th century. A closer view at Seongyojang. ## Sister cities Chichibu Saitama Japan since February 16 1983 Öskemen East Kazakhstan Kazakhstan since 2011 Mangshi Yunnan China since November 21 2012 Indan"
+   },
+   {
+    "doc": "포털:cheongju_en",
+    "key": "1983 + 1983",
+    "around": " April 18 2003. It is located near Daecheong Dam in Cheongwon-gu Chungcheongbuk-do and was built in 1983. The area consists of a main building golf range heliport and fishing area. The natural ecosyst"
    }
   ],
   "status": "겹칠 수 있음"
@@ -3777,8 +3787,19 @@
   "group": "두 언어 도시",
   "id": "전주시_en_10",
   "quote_ok": true,
-  "hits": [],
-  "status": "통과"
+  "hits": [
+   {
+    "doc": "포털:jeonju_ko",
+    "key": "1910 + 전주",
+    "around": "전주 한옥마을은 전주 풍남동 일대에 700여 채의 한옥이 군락을 이루고 있는 국내 최대 규모의 전통 한옥촌으로 전국 유일의 도심 한옥군이다. 1910년 조성되기 시작한 우리나라 근대 주거문화 발달과정의 중요한 공간으로 경기전 오목대 향교 등 중요 문화재와 20여 개의 문화시설이 산재되어 있다. 향교길 최명희길 경기전길 "
+   },
+   {
+    "doc": "포털:jeonju_ko",
+    "key": "1910 + 전주",
+    "around": "전주 한옥마을은 전주 풍남동 일대에 700여 채의 한옥이 군락을 이루고 있는 국내 최대 규모의 전통 한옥촌으로 전국 유일의 도심 한옥군이다. 1910년 조성되기 시작한 우리나라 근대 주거문화 발달과정의 중요한 공간으로 경기전 오목대 향교 등 중요 문화재와 20여 개의 문화시설이 산재되어 있다. 향교길 최명희길 경기전길 "
+   }
+  ],
+  "status": "겹칠 수 있음"
  },
  {
   "fact": "전주는 1894년 동학농민혁명 때 점령되었다.",
@@ -5142,6 +5163,11 @@
     "doc": "광주광역시_ko",
     "key": "2003 + 2003",
     "around": "소(광주과학기술원) #### 광산업 광산업은 자동차·가전산업에 이어 지역 3대 주력산업으로 확고한 위상 정립 (단위 : 억원 명 개사 %) | 구분 | 1999년 (육성이전) | 2003년 (1단계완료) | 2008년 (2단계완료) | 2012년 (3단계완료) | 2013년 | 2014년 | | 고용인원(명) | 1896 | 2834 | 6018 | 824"
+   },
+   {
+    "doc": "포털:cheongju_ko",
+    "key": "2003 + 2003",
+    "around": " 한편 여러 국빈들을 맞이하기도 했다. 주요 시설로는 본관을 중심으로 골프장 그늘집 헬기장 양어장 오각정 초가정 등이 있고 개방 전까지 총 다섯 분의 대통령이 88회 이용하였으며 2003년 4월 18일 일반인에게 개방되었다. 사계(四季)에 따라 제 모습을 바꾸는 조경수와 야생화는 청남대의 또 다른 자랑거리 중 하나이다. 자연생태계도 잘 보존되어 천연기념물 "
    }
   ],
   "status": "겹칠 수 있음"
@@ -6520,6 +6546,11 @@
     "doc": "광주광역시_ko",
     "key": "문화재",
     "around": "해 세계적으로 가치 있는 도시로 자리매김하고 있다. 광주 여행을 희망하는 여행객은 광주광역시에서 운영하는 '오매광주'를 통해 광주관광에 대한 다양한 정보를 얻을 수 있다. ### 문화재 광주광역시의 문화유산자료 광주광역시의 유형문화재 광주광역시의 무형문화재 광주광역시의 민속문화재 광주광역시의 국가등록문화유산 광주광역시의 기념물을 참고하십시오. ### 박물관"
+   },
+   {
+    "doc": "포털:jeonju_ko",
+    "key": "문화재",
+    "around": "고 있는 국내 최대 규모의 전통 한옥촌으로 전국 유일의 도심 한옥군이다. 1910년 조성되기 시작한 우리나라 근대 주거문화 발달과정의 중요한 공간으로 경기전 오목대 향교 등 중요 문화재와 20여 개의 문화시설이 산재되어 있다. 향교길 최명희길 경기전길 등을 거닐면 한옥마을의 아름다운 골목길 모습과 한옥의 정취를 느낄 수 있다. 전주 한옥마을에 밤이 찾아오면"
    }
   ],
   "status": "겹칠 수 있음"
