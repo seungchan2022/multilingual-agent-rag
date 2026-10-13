@@ -18,6 +18,9 @@ UA = {"User-Agent": "MultilingualAgentRAG-survey/0.3 (study project)"}
 SKIP = re.compile(r"infobox|navbox|sidebar|metadata|ambox|reflist|references|mw-editsection|catlinks|toc\b|noprint|hatnote|sistersitebox|authority-control|portalbox|mw-empty-elt|navigation-not-searchable|side-box|thumbcaption")
 TABLE = re.compile(r"wikitable|toccolours|sortable|table-pale")
 # 기후 자료 틀과 인구 변화 틀. 두 언어 문서에 같은 값으로 들어가는 일이 많아 참고 칸에서 따로 센다.
+# 표의 틀로 그린 그림. 가계도(Ancestors of ...)와 노선도가 이 class만 달고 나온다. 표로 세지 않는다.
+# 글자로 바꾸면 선과 위치가 사라져 보통의 표처럼 쓸 수 없고, 쓰려면 그 그림만을 위한 전처리가 따로 필요하다.
+DRAWING = re.compile(r"collapsible( RMbox)?")
 TEMPLATE_TABLE = re.compile(r"Climate data|기후 자료|Historical population|인구 변화")
 VOID = {"br", "img", "hr", "input", "meta", "link", "col", "wbr", "source", "area", "base", "embed", "param", "track"}
 
@@ -90,7 +93,7 @@ class Body(HTMLParser):
                 rec = self.cur.pop()
                 if rec["cells"] >= 2:
                     rec["wide"] += 1
-                if not self.cur and rec["ok"] and rec["wide"] >= 2:
+                if not self.cur and rec["ok"] and rec["wide"] >= 2 and not DRAWING.fullmatch(rec["cls"].strip()):
                     self.tables.append(rec)
             if t in ("caption", "th") and self.in_head:
                 self.in_head -= 1

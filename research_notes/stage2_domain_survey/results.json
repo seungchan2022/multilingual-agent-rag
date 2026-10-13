@@ -2173,11 +2173,6 @@
    "chars": 19345,
    "tables": [
     {
-     "rows": 211,
-     "head": "수도권 전철 1호선 | ",
-     "cls": "collapsible"
-    },
-    {
      "rows": 9,
      "head": "노선명 | 역 번호 | 하행 기점 | 상행 기점 | 소유자 | 관리자 | 운영자 | 경원선 | 100-3~100-1, 100 ~ 123 | 종로",
      "cls": "wikitable"
@@ -2242,11 +2237,6 @@
    "chars": 9117,
    "tables": [
     {
-     "rows": 178,
-     "head": "서울 지하철 2호선 | ",
-     "cls": "collapsible"
-    },
-    {
      "rows": 46,
      "head": "역번호 | 역명 | 접속 노선 | 역간거리 | 누적거리 | 소재지 | 한글 | 로마자 | 한자 | 201 | 202 | 203 | 204 | 2",
      "cls": "wikitable"
@@ -2305,11 +2295,6 @@
    "revid": 42551175,
    "chars": 9132,
    "tables": [
-    {
-     "rows": 127,
-     "head": "서울 지하철 9호선 | ",
-     "cls": "collapsible"
-    },
     {
      "rows": 40,
      "head": "역번호 | 역명 | 급행 | 접속 노선 | 역간거리 | 누적거리 | 소재지 | 한글 | 로마자 | 한자 | 901 | 902 | 903 | 90",
@@ -2379,11 +2364,6 @@
    "chars": 11402,
    "tables": [
     {
-     "rows": 156,
-     "head": "서울 지하철 7호선(장암-석남) | ",
-     "cls": "collapsible"
-    },
-    {
      "rows": 55,
      "head": "역번호 | 역명 | 접속 노선 | 역간거리 | 누적거리 | 소재지 | 한글 | 로마자 | 한자 | 709 | 710 | 711 | 712 | 7",
      "cls": "wikitable"
@@ -2422,11 +2402,6 @@
    "revid": 42145056,
    "chars": 6377,
    "tables": [
-    {
-     "rows": 54,
-     "head": "신분당선(신사-광교) | ",
-     "cls": "collapsible"
-    },
     {
      "rows": 17,
      "head": "역 번호 | 역명 | 로마자 역명 | 한자 역명 | 접속 노선 | 역간거리 | 영업거리 | 소재지 | D04 | D05 | D06 | D07 |",
@@ -2496,11 +2471,6 @@
    "chars": 5378,
    "tables": [
     {
-     "rows": 92,
-     "head": "인천 도시철도 1호선(검단호수공원-송도달빛축제공원) | ",
-     "cls": "collapsible"
-    },
-    {
      "rows": 34,
      "head": "역 번호 | 역명 | 국한문역명 | 영문역명 | 접속 노선 | 역간거리 | 영업거리 | 소재지 | I107 | I108 | I109 | I110",
      "cls": "wikitable"
@@ -2517,11 +2487,6 @@
    "revid": 1370306962,
    "chars": 4186,
    "tables": [
-    {
-     "rows": 37,
-     "head": "Incheon Subway Line 1 | ",
-     "cls": "collapsible RMbox"
-    },
     {
      "rows": 36,
      "head": "StationNumber | Station NameEnglish | Station NameHangul | Transfer | Distancein",
@@ -10379,11 +10344,6 @@
    "chars": 63243,
    "tables": [
     {
-     "rows": 57,
-     "head": "Ancestors of Sejong the Great | ",
-     "cls": "collapsible"
-    },
-    {
      "rows": 19,
      "head": "Television series | Year | Portrayed by | Title | Refs | ",
      "cls": "wikitable"
@@ -10436,13 +10396,7 @@
    "title": "Jeongjo of Joseon",
    "revid": 1379112858,
    "chars": 13308,
-   "tables": [
-    {
-     "rows": 121,
-     "head": "Ancestors of Jeongjo of Joseon | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
@@ -10485,13 +10439,7 @@
    "title": "Yeongjo of Joseon",
    "revid": 1379112480,
    "chars": 15910,
-   "tables": [
-    {
-     "rows": 121,
-     "head": "Ancestors of Yeongjo of Joseon | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
@@ -10549,13 +10497,7 @@
    "title": "Taejo of Joseon",
    "revid": 1379815521,
    "chars": 15716,
-   "tables": [
-    {
-     "rows": 113,
-     "head": "Ancestors of Taejo of Joseon | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
@@ -10603,13 +10545,7 @@
    "title": "Taejong of Joseon",
    "revid": 1379102683,
    "chars": 13216,
-   "tables": [
-    {
-     "rows": 113,
-     "head": "Ancestors of Taejong of Joseon | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
@@ -10652,13 +10588,7 @@
    "title": "Seonjo of Joseon",
    "revid": 1379109863,
    "chars": 16495,
-   "tables": [
-    {
-     "rows": 113,
-     "head": "Ancestors of Seonjo of Joseon | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
@@ -10701,13 +10631,7 @@
    "title": "Gwanghaegun of Joseon",
    "revid": 1379109957,
    "chars": 10804,
-   "tables": [
-    {
-     "rows": 121,
-     "head": "Ancestors of Gwanghaegun of Joseon | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
@@ -10730,13 +10654,7 @@
    "title": "Gojong of Korea",
    "revid": 1379111068,
    "chars": 27857,
-   "tables": [
-    {
-     "rows": 121,
-     "head": "Ancestors of Emperor Gojong | ",
-     "cls": "collapsible"
-    }
-   ]
+   "tables": []
   }
  },
  {
