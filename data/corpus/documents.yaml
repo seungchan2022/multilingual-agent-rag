@@ -1,0 +1,284 @@
+# 코퍼스의 문서 목록. 28개(한국어 14, 영어 14).
+# 정한 과정은 decisions/stage2.md의 2026-10-13 줄들에 있다. 수집 코드(이슈 #4의 ③)가 이 파일을 읽는다.
+# version은 고른 때의 판이다: 위키백과는 판 번호(revid), 관광공사 글은 수정 시각(modifiedtime), 통계 표는 파일에 적힌 데이터기준일자.
+documents:
+  - doc_id: wiki-ko-jeonju
+    language: ko
+    title: "전주시"
+    city: "전주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42643645"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42643645"
+    version: "revid 42643645"
+  - doc_id: wiki-en-jeonju
+    language: en
+    title: "Jeonju"
+    city: "전주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1379135207"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1379135207"
+    version: "revid 1379135207"
+  - doc_id: wiki-ko-cheongju
+    language: ko
+    title: "청주시"
+    city: "청주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42630014"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42630014"
+    version: "revid 42630014"
+  - doc_id: wiki-en-cheongju
+    language: en
+    title: "Cheongju"
+    city: "청주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1378953230"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1378953230"
+    version: "revid 1378953230"
+  - doc_id: wiki-ko-chuncheon
+    language: ko
+    title: "춘천시"
+    city: "춘천시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42647646"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42647646"
+    version: "revid 42647646"
+  - doc_id: wiki-en-chuncheon
+    language: en
+    title: "Chuncheon"
+    city: "춘천시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1376994978"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1376994978"
+    version: "revid 1376994978"
+  - doc_id: wiki-ko-cheonan
+    language: ko
+    title: "천안시"
+    city: "천안시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42545685"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42545685"
+    version: "revid 42545685"
+  - doc_id: wiki-en-cheonan
+    language: en
+    title: "Cheonan"
+    city: "천안시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1378953224"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1378953224"
+    version: "revid 1378953224"
+  - doc_id: wiki-en-busan
+    language: en
+    title: "Busan"
+    city: "부산광역시"
+    city_group: "영어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1379685823"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1379685823"
+    version: "revid 1379685823"
+  - doc_id: wiki-en-jeju
+    language: en
+    title: "Jeju City"
+    city: "제주시"
+    city_group: "영어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1377658564"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1377658564"
+    version: "revid 1377658564"
+  - doc_id: wiki-en-andong
+    language: en
+    title: "Andong"
+    city: "안동시"
+    city_group: "영어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1378924154"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1378924154"
+    version: "revid 1378924154"
+  - doc_id: wiki-en-gangneung
+    language: en
+    title: "Gangneung"
+    city: "강릉시"
+    city_group: "영어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 1378182836"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1378182836"
+    version: "revid 1378182836"
+  - doc_id: wiki-ko-suwon
+    language: ko
+    title: "수원시"
+    city: "수원시"
+    city_group: "한국어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42534963"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42534963"
+    version: "revid 42534963"
+  - doc_id: wiki-ko-gyeongju
+    language: ko
+    title: "경주시"
+    city: "경주시"
+    city_group: "한국어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42639825"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42639825"
+    version: "revid 42639825"
+  - doc_id: wiki-ko-sejong
+    language: ko
+    title: "세종특별자치시"
+    city: "세종특별자치시"
+    city_group: "한국어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42585449"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42585449"
+    version: "revid 42585449"
+  - doc_id: wiki-ko-gwangju
+    language: ko
+    title: "광주광역시"
+    city: "광주광역시"
+    city_group: "한국어 문서만 넣는 도시"
+    source: "위키백과"
+    kind: "도시 문서"
+    identifier: "revid 42623705"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42623705"
+    version: "revid 42623705"
+  - doc_id: kto-ko-jeonju-hanok-village
+    language: ko
+    title: "전북 전주 한옥마을 [슬로시티]"
+    city: "전주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 264284"
+    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=264284"
+    version: "modifiedtime 20260630155423"
+  - doc_id: kto-en-jeonju-hanok-village
+    language: en
+    title: "Jeonju Hanok Village [Slow City] (전북 전주 한옥마을 [슬로시티])"
+    city: "전주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 264285"
+    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=264285"
+    version: "modifiedtime 20260907140157"
+  - doc_id: kto-ko-cheongju-cheongnamdae
+    language: ko
+    title: "청남대"
+    city: "청주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 127916"
+    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=127916"
+    version: "modifiedtime 20260605084251"
+  - doc_id: kto-en-cheongju-cheongnamdae
+    language: en
+    title: "Cheongnamdae Presidential Villa (청남대)"
+    city: "청주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 795179"
+    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=795179"
+    version: "modifiedtime 20261012141518"
+  - doc_id: kto-ko-chuncheon-samaksan-cable-car
+    language: ko
+    title: "춘천 삼악산 호수케이블카"
+    city: "춘천시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 2814588"
+    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=2814588"
+    version: "modifiedtime 20261001092603"
+  - doc_id: kto-en-chuncheon-samaksan-cable-car
+    language: en
+    title: "Chuncheon Samaksan Mountain Lake Cable Car (춘천 삼악산 호수케이블카)"
+    city: "춘천시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 2971541"
+    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2971541"
+    version: "modifiedtime 20260212093513"
+  - doc_id: kto-ko-cheonan-samgeori-park
+    language: ko
+    title: "천안삼거리공원"
+    city: "천안시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 126922"
+    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=126922"
+    version: "modifiedtime 20260927115418"
+  - doc_id: kto-en-cheonan-samgeori-park
+    language: en
+    title: "Cheonan Three-way Intersection Park (천안삼거리공원)"
+    city: "천안시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 1840356"
+    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=1840356"
+    version: "modifiedtime 20260929144034"
+  - doc_id: kto-en-busan-haeundae-green-railway
+    language: en
+    title: "Haeundae Green Railway (Mipo-Songjeong) (해운대 그린레일웨이 (미포~송정 구간))"
+    city: "부산광역시"
+    city_group: "영어 문서만 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 2990076"
+    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2990076"
+    version: "modifiedtime 20241010132555"
+  - doc_id: kto-en-jeju-ara-dong-trail
+    language: en
+    title: "Ara-dong History and Culture Trail (아라동 역사문화탐방로)"
+    city: "제주시"
+    city_group: "영어 문서만 넣는 도시"
+    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
+    kind: "명소 소개 글"
+    identifier: "contentid 3079418"
+    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=3079418"
+    version: "modifiedtime 20250520110131"
+  - doc_id: portal-ko-suwon-population
+    language: ko
+    title: "경기도 수원시_인구현황"
+    city: "수원시"
+    city_group: "한국어 문서만 넣는 도시"
+    source: "공공데이터포털 (파일데이터)"
+    kind: "통계 표"
+    identifier: "data.go.kr 15051539, atchFileId FILE_000000002404642"
+    url: "https://www.data.go.kr/data/15051539/fileData.do"
+    version: "데이터기준일자 2021-05-31"
+  - doc_id: portal-ko-jeonju-population
+    language: ko
+    title: "전북특별자치도 전주시_인구현황"
+    city: "전주시"
+    city_group: "두 언어 문서를 다 넣는 도시"
+    source: "공공데이터포털 (파일데이터)"
+    kind: "통계 표"
+    identifier: "data.go.kr 15126886, atchFileId FILE_000000003611561"
+    url: "https://www.data.go.kr/data/15126886/fileData.do"
+    version: "데이터기준일자 2026-03-17"
