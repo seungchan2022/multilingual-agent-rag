@@ -1,0 +1,146 @@
+[
+ {
+  "city": "전주시",
+  "group": "both",
+  "lang": "ko",
+  "title": "전주시",
+  "revid": 42643645,
+  "file": "text/전주시_ko.txt",
+  "chars": 13386
+ },
+ {
+  "city": "전주시",
+  "group": "both",
+  "lang": "en",
+  "title": "Jeonju",
+  "revid": 1379135207,
+  "file": "text/전주시_en.txt",
+  "chars": 13298
+ },
+ {
+  "city": "청주시",
+  "group": "both",
+  "lang": "ko",
+  "title": "청주시",
+  "revid": 42630014,
+  "file": "text/청주시_ko.txt",
+  "chars": 12609
+ },
+ {
+  "city": "청주시",
+  "group": "both",
+  "lang": "en",
+  "title": "Cheongju",
+  "revid": 1378953230,
+  "file": "text/청주시_en.txt",
+  "chars": 13830
+ },
+ {
+  "city": "춘천시",
+  "group": "both",
+  "lang": "ko",
+  "title": "춘천시",
+  "revid": 42647646,
+  "file": "text/춘천시_ko.txt",
+  "chars": 14122
+ },
+ {
+  "city": "춘천시",
+  "group": "both",
+  "lang": "en",
+  "title": "Chuncheon",
+  "revid": 1376994978,
+  "file": "text/춘천시_en.txt",
+  "chars": 14039
+ },
+ {
+  "city": "천안시",
+  "group": "both",
+  "lang": "ko",
+  "title": "천안시",
+  "revid": 42545685,
+  "file": "text/천안시_ko.txt",
+  "chars": 11075
+ },
+ {
+  "city": "천안시",
+  "group": "both",
+  "lang": "en",
+  "title": "Cheonan",
+  "revid": 1378953224,
+  "file": "text/천안시_en.txt",
+  "chars": 18201
+ },
+ {
+  "city": "부산광역시",
+  "group": "en",
+  "lang": "en",
+  "title": "Busan",
+  "revid": 1379685823,
+  "file": "text/부산광역시_en.txt",
+  "chars": 53790
+ },
+ {
+  "city": "제주시",
+  "group": "en",
+  "lang": "en",
+  "title": "Jeju City",
+  "revid": 1377658564,
+  "file": "text/제주시_en.txt",
+  "chars": 13391
+ },
+ {
+  "city": "안동시",
+  "group": "en",
+  "lang": "en",
+  "title": "Andong",
+  "revid": 1378924154,
+  "file": "text/안동시_en.txt",
+  "chars": 12731
+ },
+ {
+  "city": "강릉시",
+  "group": "en",
+  "lang": "en",
+  "title": "Gangneung",
+  "revid": 1378182836,
+  "file": "text/강릉시_en.txt",
+  "chars": 14578
+ },
+ {
+  "city": "수원시",
+  "group": "ko",
+  "lang": "ko",
+  "title": "수원시",
+  "revid": 42534963,
+  "file": "text/수원시_ko.txt",
+  "chars": 16559
+ },
+ {
+  "city": "경주시",
+  "group": "ko",
+  "lang": "ko",
+  "title": "경주시",
+  "revid": 42639825,
+  "file": "text/경주시_ko.txt",
+  "chars": 19518
+ },
+ {
+  "city": "세종특별자치시",
+  "group": "ko",
+  "lang": "ko",
+  "title": "세종특별자치시",
+  "revid": 42585449,
+  "file": "text/세종특별자치시_ko.txt",
+  "chars": 19923
+ },
+ {
+  "city": "광주광역시",
+  "group": "ko",
+  "lang": "ko",
+  "title": "광주광역시",
+  "revid": 42623705,
+  "file": "text/광주광역시_ko.txt",
+  "chars": 21673
+ }
+]
