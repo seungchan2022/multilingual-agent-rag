@@ -1,0 +1,314 @@
+[
+ {
+  "city": "서울특별시",
+  "en_title": "Aromind (아로마인드)",
+  "en_id": "3091370",
+  "nearest_ko_title": "한지가헌",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.000596
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Cheonggyecheon Old Books Street (청계천헌책방거리)",
+  "en_id": "3074203",
+  "nearest_ko_title": "전태일동상",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.001894
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Cheonho-dong Rose Village (천호동 장미마을)",
+  "en_id": "3082350",
+  "nearest_ko_title": "서울 풍납동 토성",
+  "nearest_ko_type": "빈값",
+  "nearest_dist": 0.000968
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Gwanghwamun Square (광화문 광장)",
+  "en_id": "929909",
+  "nearest_ko_title": "광화문광장",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Insadong Cultural Street (인사동 문화의 거리)",
+  "en_id": "3075115",
+  "nearest_ko_title": "아름다운 차박물관",
+  "nearest_ko_type": "빈값",
+  "nearest_dist": 0.000501
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Jingwansa Temple (Seoul) [진관사(서울)]",
+  "en_id": "1158841",
+  "nearest_ko_title": "진관사(서울)",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.000957
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Mangnidan Street (망리단길)",
+  "en_id": "2992439",
+  "nearest_ko_title": "망원정 터",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.005458
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Saekjang Rice Mill (색장정미소)",
+  "en_id": "2990883",
+  "nearest_ko_title": "천마근린공원",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 1.731482
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Sunset Leisure 435 (썬셋레저 435)",
+  "en_id": "2992450",
+  "nearest_ko_title": "서울함공원",
+  "nearest_ko_type": "빈값",
+  "nearest_dist": 0.004094
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Supsok Hanbang Land (숲속한방랜드)",
+  "en_id": "3110038",
+  "nearest_ko_title": "봉원사(서울)",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.002997
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Dong-Lim Knot Museum (동림매듭박물관)",
+  "en_id": "562863",
+  "nearest_ko_title": "동림매듭공방",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Dosan Ahn Changho Memorial Hall (도산안창호 기념관)",
+  "en_id": "1748357",
+  "nearest_ko_title": "도산안창호기념관",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Museum of Art, Seoul National University (서울대학교미술관)",
+  "en_id": "1752538",
+  "nearest_ko_title": "서울대학교 미술관",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "서울특별시",
+  "en_title": "Seongsu Museum (성수미술관)",
+  "en_id": "3394605",
+  "nearest_ko_title": "스탈릿성수",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.001997
+ },
+ {
+  "city": "부산광역시",
+  "en_title": "Ocean Spa Cimer (오션스파 씨메르)",
+  "en_id": "3078806",
+  "nearest_ko_title": "갤러리이알디 부산",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.000394
+ },
+ {
+  "city": "부산광역시",
+  "en_title": "Taejongdae Cruise (Milky Way No. 3) (태종대 유람선 (은하수 3호))",
+  "en_id": "3112121",
+  "nearest_ko_title": "감지해변",
+  "nearest_ko_type": "빈값",
+  "nearest_dist": 0.000259
+ },
+ {
+  "city": "인천광역시",
+  "en_title": "Cheongil Jogyeji Stairway (청일조계지 경계 계단)",
+  "en_id": "3078396",
+  "nearest_ko_title": "대불호텔전시관",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.000937
+ },
+ {
+  "city": "인천광역시",
+  "en_title": "Hanjungwon (한중원)",
+  "en_id": "3078395",
+  "nearest_ko_title": "한중문화관",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.000601
+ },
+ {
+  "city": "대구광역시",
+  "en_title": "February 28th Jungang Memorial Park (2.28기념중앙공원)",
+  "en_id": "2953371",
+  "nearest_ko_title": "2·28 기념중앙공원",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.000147
+ },
+ {
+  "city": "대전광역시",
+  "en_title": "Daejeon Modern History Exhibition Hall (대전근현대사전시관(옛 충남도청사 본관))",
+  "en_id": "2500869",
+  "nearest_ko_title": "대전근현대사전시관",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.001425
+ },
+ {
+  "city": "울산광역시",
+  "en_title": "Jinha Beach (진하 해수욕장)",
+  "en_id": "1341832",
+  "nearest_ko_title": "진하해수욕장",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.001903
+ },
+ {
+  "city": "울산광역시",
+  "en_title": "Oegosan Onggi Village (외고산옹기마을)",
+  "en_id": "1342923",
+  "nearest_ko_title": "외고산 옹기마을",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 7.2e-05
+ },
+ {
+  "city": "울산광역시",
+  "en_title": "Ulsan Ilsan Beach (일산해수욕장 (울산))",
+  "en_id": "1326122",
+  "nearest_ko_title": "일산해수욕장(울산)",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 7.3e-05
+ },
+ {
+  "city": "청주시",
+  "en_title": "Ullidan Street (운리단길)",
+  "en_id": "3109489",
+  "nearest_ko_title": "청주 흥덕사지",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.00706
+ },
+ {
+  "city": "포항시",
+  "en_title": "Seokbyeong 1-ri (Hongbanjang’s house, Hyejin’s house) (석병1리)",
+  "en_id": "3397896",
+  "nearest_ko_title": "석병리마을",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 7.3e-05
+ },
+ {
+  "city": "경주시",
+  "en_title": "Gyeongju Hanbokpan (경주한복판)",
+  "en_id": "3113183",
+  "nearest_ko_title": "경주 황리단길",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.000345
+ },
+ {
+  "city": "경주시",
+  "en_title": "Hwarang Hill (화랑의언덕)",
+  "en_id": "3403847",
+  "nearest_ko_title": "화랑의 언덕",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 7.3e-05
+ },
+ {
+  "city": "창원시",
+  "en_title": "Hackberry Tree in Bukbu-ri (창원북부리팽나무)",
+  "en_id": "3078728",
+  "nearest_ko_title": "대산플라워랜드",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.017844
+ },
+ {
+  "city": "제주시",
+  "en_title": "Ara-dong History and Culture Trail (아라동 역사문화탐방로)",
+  "en_id": "3079418",
+  "nearest_ko_title": "수월봉과 차귀해안",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 159.457129
+ },
+ {
+  "city": "제주시",
+  "en_title": "Dotoreum Parasitic Cone (돛오름(돝오름))",
+  "en_id": "3074025",
+  "nearest_ko_title": "스누피가든",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "제주시",
+  "en_title": "Gimnyeong Seongsegihaebyeon Beach (김녕성세기해변 (김녕해수욕장))",
+  "en_id": "778986",
+  "nearest_ko_title": "세기알해변",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.004371
+ },
+ {
+  "city": "제주시",
+  "en_title": "Gwonjeoreum Parasitic Cone (권제오름)",
+  "en_id": "3079442",
+  "nearest_ko_title": "수월봉과 차귀해안",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 159.457129
+ },
+ {
+  "city": "제주시",
+  "en_title": "Gyorae Natural Recreation Forest (교래자연휴양림)",
+  "en_id": "3530486",
+  "nearest_ko_title": "제주 교래자연휴양림",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "제주시",
+  "en_title": "Jewon Haneul (제원 하늘농원)",
+  "en_id": "3441635",
+  "nearest_ko_title": "제원하늘농원",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.0
+ },
+ {
+  "city": "제주시",
+  "en_title": "Nuunoreum Parasitic Cone (누운오름)",
+  "en_id": "3079450",
+  "nearest_ko_title": "수월봉과 차귀해안",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 159.457129
+ },
+ {
+  "city": "강릉시",
+  "en_title": "Anbandegi Village (안반데기 마을)",
+  "en_id": "3060320",
+  "nearest_ko_title": "안반데기",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 4.6e-05
+ },
+ {
+  "city": "전주시",
+  "en_title": "Ahyeon Supermarket (아현슈퍼)",
+  "en_id": "3333747",
+  "nearest_ko_title": "충경사(전주)",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 0.002212
+ },
+ {
+  "city": "전주시",
+  "en_title": "Hanbyeok Tunnel (한벽터널)",
+  "en_id": "2946560",
+  "nearest_ko_title": "한벽굴",
+  "nearest_ko_type": "Type1",
+  "nearest_dist": 6.1e-05
+ },
+ {
+  "city": "전주시",
+  "en_title": "Jeonju Digital Independent Movie Cinema (전주디지털독립영화관)",
+  "en_id": "3337250",
+  "nearest_ko_title": "전주영화제작소",
+  "nearest_ko_type": "Type3",
+  "nearest_dist": 5.7e-05
+ }
+]

@@ -1,0 +1,202 @@
+[
+ {
+  "city": "서울특별시",
+  "ko_all": 1344,
+  "ko_type1": 584,
+  "en_all": 577,
+  "en_type1": 53,
+  "pairs_both_type1": 38,
+  "en_type1_ko_not_type1": 1,
+  "en_type1_unmatched": 14
+ },
+ {
+  "city": "부산광역시",
+  "ko_all": 474,
+  "ko_type1": 153,
+  "en_all": 159,
+  "en_type1": 27,
+  "pairs_both_type1": 22,
+  "en_type1_ko_not_type1": 3,
+  "en_type1_unmatched": 2
+ },
+ {
+  "city": "인천광역시",
+  "ko_all": 564,
+  "ko_type1": 268,
+  "en_all": 136,
+  "en_type1": 17,
+  "pairs_both_type1": 14,
+  "en_type1_ko_not_type1": 1,
+  "en_type1_unmatched": 2
+ },
+ {
+  "city": "대구광역시",
+  "ko_all": 410,
+  "ko_type1": 200,
+  "en_all": 89,
+  "en_type1": 8,
+  "pairs_both_type1": 6,
+  "en_type1_ko_not_type1": 1,
+  "en_type1_unmatched": 1
+ },
+ {
+  "city": "대전광역시",
+  "ko_all": 185,
+  "ko_type1": 60,
+  "en_all": 43,
+  "en_type1": 7,
+  "pairs_both_type1": 6,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 1
+ },
+ {
+  "city": "울산광역시",
+  "ko_all": 235,
+  "ko_type1": 93,
+  "en_all": 51,
+  "en_type1": 12,
+  "pairs_both_type1": 9,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 3
+ },
+ {
+  "city": "세종특별자치시",
+  "ko_all": 71,
+  "ko_type1": 26,
+  "en_all": 24,
+  "en_type1": 4,
+  "pairs_both_type1": 4,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 0
+ },
+ {
+  "city": "여수시",
+  "ko_all": 149,
+  "ko_type1": 87,
+  "en_all": 38,
+  "en_type1": 7,
+  "pairs_both_type1": 5,
+  "en_type1_ko_not_type1": 2,
+  "en_type1_unmatched": 0
+ },
+ {
+  "city": "수원시",
+  "ko_all": 126,
+  "ko_type1": 64,
+  "en_all": 36,
+  "en_type1": 8,
+  "pairs_both_type1": 6,
+  "en_type1_ko_not_type1": 2,
+  "en_type1_unmatched": 0
+ },
+ {
+  "city": "청주시",
+  "ko_all": 125,
+  "ko_type1": 41,
+  "en_all": 27,
+  "en_type1": 5,
+  "pairs_both_type1": 4,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 1
+ },
+ {
+  "city": "천안시",
+  "ko_all": 80,
+  "ko_type1": 31,
+  "en_all": 10,
+  "en_type1": 1,
+  "pairs_both_type1": 1,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 0
+ },
+ {
+  "city": "포항시",
+  "ko_all": 131,
+  "ko_type1": 65,
+  "en_all": 32,
+  "en_type1": 9,
+  "pairs_both_type1": 8,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 1
+ },
+ {
+  "city": "경주시",
+  "ko_all": 234,
+  "ko_type1": 108,
+  "en_all": 61,
+  "en_type1": 12,
+  "pairs_both_type1": 9,
+  "en_type1_ko_not_type1": 1,
+  "en_type1_unmatched": 2
+ },
+ {
+  "city": "안동시",
+  "ko_all": 133,
+  "ko_type1": 67,
+  "en_all": 28,
+  "en_type1": 4,
+  "pairs_both_type1": 4,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 0
+ },
+ {
+  "city": "창원시",
+  "ko_all": 190,
+  "ko_type1": 77,
+  "en_all": 17,
+  "en_type1": 1,
+  "pairs_both_type1": 0,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 1
+ },
+ {
+  "city": "제주시",
+  "ko_all": 361,
+  "ko_type1": 171,
+  "en_all": 95,
+  "en_type1": 17,
+  "pairs_both_type1": 10,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 7
+ },
+ {
+  "city": "춘천시",
+  "ko_all": 131,
+  "ko_type1": 40,
+  "en_all": 27,
+  "en_type1": 5,
+  "pairs_both_type1": 5,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 0
+ },
+ {
+  "city": "강릉시",
+  "ko_all": 180,
+  "ko_type1": 41,
+  "en_all": 48,
+  "en_type1": 4,
+  "pairs_both_type1": 3,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 1
+ },
+ {
+  "city": "전주시",
+  "ko_all": 126,
+  "ko_type1": 75,
+  "en_all": 33,
+  "en_type1": 6,
+  "pairs_both_type1": 3,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 3
+ },
+ {
+  "city": "광주광역시",
+  "ko_all": 240,
+  "ko_type1": 77,
+  "en_all": 85,
+  "en_type1": 6,
+  "pairs_both_type1": 6,
+  "en_type1_ko_not_type1": 0,
+  "en_type1_unmatched": 0
+ }
+]
