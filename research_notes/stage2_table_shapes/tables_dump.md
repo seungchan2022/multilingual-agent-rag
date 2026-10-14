@@ -451,9 +451,8 @@ rowspan 글자: 종합대학
 구조: 6×6, top_th_rows 1, mid_th_rows [], row_header_rows 4, rowspan 2, colspan 0, br 0, list 0, nested False, caption None, class [], full_width_rows []
 rowspan 글자: 고등학교 | 일반계
 마크다운:
-    | 고등학교 |  |  |  |  |  |
-    |---|---|---|---|---|---|
     | 고등학교 | 일반계 | 강원고등학교 | 강원대학교 사범대학 부설고등학교 | 봉의고등학교 | 성수고등학교 |
+    |---|---|---|---|---|---|
     | 고등학교 | 일반계 | 성수여자고등학교 | 유봉여자고등학교 | 춘천고등학교 | 춘천여자고등학교 |
     | 고등학교 | 대안 | 전인고등학교 |  |  |  |
     | 고등학교 | 특성화 | 강원생명과학고등학교 | 강원애니고등학교 | 춘천기계공업고등학교 | 춘천한샘고등학교 |
@@ -478,7 +477,7 @@ list 예: 강원명진학교 | 춘천계성학교 | 춘천동원학교
 구조: 1×2, top_th_rows 0, mid_th_rows [], row_header_rows 0, rowspan 0, colspan 0, br 0, list 0, nested True, caption None, class ['col-begin'], full_width_rows []
 첫 칸들: 자매결연 도시 도시 이름 국가 체결 연도 야마구치현 호후시 일본 1991년 10월 29일 기후현 가카미가하라시 2003년 10월 31일 서울특별
 
-### wiki-ko-chuncheon #19 [markdown] (parent 18) — md 545줄 — ## 자매 도시 / ### 자매결연 도시
+### wiki-ko-chuncheon #19 [markdown] (parent 18) — md 544줄 — ## 자매 도시 / ### 자매결연 도시
 구조: 9×3, top_th_rows 1, mid_th_rows [], row_header_rows 0, rowspan 2, colspan 0, br 0, list 0, nested False, caption None, class ['wikitable', 'sortable'], full_width_rows []
 rowspan 글자: 일본 | 대한민국
 마크다운:
@@ -493,7 +492,7 @@ rowspan 글자: 일본 | 대한민국
     | 일리노이주 시카고 | 미국 | 2014년 3월 20일 |
     | 럼동성 달랏시 | 베트남 | 2016년 10월 18일 |
 
-### wiki-ko-chuncheon #20 [markdown] (parent 18) — md 558줄 — ## 자매 도시 / ### 우호 도시
+### wiki-ko-chuncheon #20 [markdown] (parent 18) — md 557줄 — ## 자매 도시 / ### 우호 도시
 구조: 6×3, top_th_rows 1, mid_th_rows [], row_header_rows 0, rowspan 1, colspan 0, br 0, list 0, nested False, caption None, class ['wikitable', 'sortable'], full_width_rows []
 rowspan 글자: 중화인민공화국
 마크다운:

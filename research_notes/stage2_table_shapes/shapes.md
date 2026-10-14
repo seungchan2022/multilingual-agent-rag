@@ -6,11 +6,11 @@
 
 | 모양 | 판정 | 표 수 |
 |---|---|---|
-| 머리글 줄이 없는 표 | 읽어서 판정 | 11 |
+| 머리글 줄이 없는 표 | 읽어서 판정 | 12 |
 | 한 줄에 여러 대상이 옆으로 놓인 표 | 읽어서 판정 | 6 |
 | 머리글이 두 줄인 표 | 읽어서 판정 | 1 |
 | 같은 머리글이 여러 열에 붙은 표 | 읽어서 판정 | 4 |
-| 머리글 칸이 일부만 찬 표 | 읽어서 판정 | 1 |
+| 머리글 칸이 일부만 찬 표 | 읽어서 판정 | 0 |
 | 표 중간에 머리글이 다시 나오는 표 | 읽어서 판정 | 1 |
 | 합계 줄이 있는 표 | 읽어서 판정 | 13 |
 | 줄의 소속이 순서로만 드러나는 표 | 읽어서 판정 | 2 |
@@ -70,7 +70,7 @@
 - wiki-ko-gwangju#8 — 한 칸의 설명 글이 줄을 넘긴 것. 옆 칸과 짝을 이루지 않는다
 - wiki-ko-gwangju#12 — 제목 칸 안의 구분 줄(1999년 / (육성이전))
 
-## 머리글 줄이 없는 표 (11개)
+## 머리글 줄이 없는 표 (12개)
 
 원문에 제목 줄이 없어, 첫 줄(내용)이 마크다운 표의 머리글 자리에 놓였다.
 
@@ -94,6 +94,8 @@
   `data/corpus/markdown/wiki-ko-chuncheon.md` 399번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 교통 / 고속·시외버스
 - wiki-ko-chuncheon#13 — 대학 종류와 학교 이름  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 426번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 교육 기관
+- wiki-ko-chuncheon#14 — 고등학교 종류와 학교 이름(세로로 긴 '고등학교' 칸만 있던 첫 줄을 지운 뒤)  
+  `data/corpus/markdown/wiki-ko-chuncheon.md` 433번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 교육 기관
 - wiki-en-gangneung#4 — 철도 노선과 역  
   `data/corpus/markdown/wiki-en-gangneung.md` 166번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Transportation(교통) / Trains(철도)
 
@@ -134,12 +136,10 @@
 - wiki-ko-sejong#4 — 구분 2열(이전 단계와 분야)  
   `data/corpus/markdown/wiki-ko-sejong.md` 186번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42585449 · 절: 이전 기관 / 중앙행정기관
 
-## 머리글 칸이 일부만 찬 표 (1개)
+## 머리글 칸이 일부만 찬 표 (0개)
 
-제목 줄의 칸 대부분이 비어 있다.
+제목 줄의 칸 대부분이 비어 있다 (2026-10-14 변환 규칙을 고쳐 춘천 고등학교 표의 그 줄을 지웠다. 지금은 없다).
 
-- wiki-ko-chuncheon#14 — 제목 줄이 '고등학교'와 빈칸 5개  
-  `data/corpus/markdown/wiki-ko-chuncheon.md` 433번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 교육 기관
 
 ## 표 중간에 머리글이 다시 나오는 표 (1개)
 
@@ -263,9 +263,9 @@
 - wiki-ko-chuncheon#14  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 433번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 교육 기관
 - wiki-ko-chuncheon#19  
-  `data/corpus/markdown/wiki-ko-chuncheon.md` 545번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 자매 도시 / 자매결연 도시
+  `data/corpus/markdown/wiki-ko-chuncheon.md` 544번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 자매 도시 / 자매결연 도시
 - wiki-ko-chuncheon#20  
-  `data/corpus/markdown/wiki-ko-chuncheon.md` 558번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 자매 도시 / 우호 도시
+  `data/corpus/markdown/wiki-ko-chuncheon.md` 557번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 자매 도시 / 우호 도시
 - wiki-en-chuncheon#5  
   `data/corpus/markdown/wiki-en-chuncheon.md` 215번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Sister cities(자매 도시)
 - wiki-ko-cheonan#2  
