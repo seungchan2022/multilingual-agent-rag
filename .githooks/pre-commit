@@ -18,3 +18,11 @@ git -c core.quotepath=off diff --cached --name-only --diff-filter=ACMR | while I
       ;;
   esac
 done
+
+# 문서 파일은 fetch.py와 build.py만 바꾼다. 파일만 바뀌고 해시가 그대로이면 손으로 고친 것으로 보고 막는다
+if git -c core.quotepath=off diff --cached --name-only | grep -q '^data/corpus/'; then
+  if ! uv run --quiet python src/corpus/check_staged.py; then
+    echo "커밋 거부: data/corpus/의 파일이 collected.yaml의 해시와 다르다. 손으로 고친 파일이면 git restore로 되돌린다." >&2
+    exit 1
+  fi
+fi
