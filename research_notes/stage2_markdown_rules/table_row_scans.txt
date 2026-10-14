@@ -1,0 +1,29 @@
+## 고치기 전 판(8a7f2e3^)
+① 빈 열 지우기로 첫 줄의 글자가 사라진 표 11개, 그중 첫 줄이 th가 아닌 표 2개
+   wiki-ko-cheongju 첫 줄 th 아님 ['36 국도 제36호선', '가로수로, 사직대로, 상당로, 충청대로, 1순환로']
+   wiki-en-cheongju 첫 줄 전부 th ['Sources']
+   wiki-ko-chuncheon 첫 줄 th 아님 ['한국방송통신대학교 강원지역대학']
+   wiki-ko-cheonan 첫 줄 전부 th ['지도']
+   wiki-en-gangneung 첫 줄 전부 th ['Map']
+   wiki-ko-suwon 첫 줄 전부 th ['비고']
+   wiki-ko-gyeongju 첫 줄 전부 th ['비고']
+   wiki-ko-gyeongju 첫 줄 전부 th ['비고']
+   wiki-ko-gyeongju 첫 줄 전부 th ['행정지도']
+   wiki-ko-gyeongju 첫 줄 전부 th ['비고']
+   wiki-ko-gwangju 첫 줄 전부 th ['그래프', '비고']
+② 틀이 아닌 표 99개에서 칸이 전부 아래로 걸친 줄 1개
+   wiki-ko-chuncheon 28 0 ['고등학교']
+
+## 지금 판
+① 빈 열 지우기로 첫 줄의 글자가 사라진 표 9개, 그중 첫 줄이 th가 아닌 표 0개
+   wiki-en-cheongju 첫 줄 전부 th ['Sources']
+   wiki-ko-cheonan 첫 줄 전부 th ['지도']
+   wiki-en-gangneung 첫 줄 전부 th ['Map']
+   wiki-ko-suwon 첫 줄 전부 th ['비고']
+   wiki-ko-gyeongju 첫 줄 전부 th ['비고']
+   wiki-ko-gyeongju 첫 줄 전부 th ['비고']
+   wiki-ko-gyeongju 첫 줄 전부 th ['행정지도']
+   wiki-ko-gyeongju 첫 줄 전부 th ['비고']
+   wiki-ko-gwangju 첫 줄 전부 th ['그래프', '비고']
+② 틀이 아닌 표 99개에서 칸이 전부 아래로 걸친 줄 1개
+   wiki-ko-chuncheon 28 0 ['고등학교']
