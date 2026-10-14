@@ -65,7 +65,7 @@ BANNED = ["[편집", "[edit", "원본 편집", "출처 필요", "citation needed
 # 주소 글자를 허용하는 곳: 표의 칸 전체가 주소인 곳(광주 한국어 박물관·미술관 표의 '홈페이지' 열)과
 # 정보 상자의 '- 웹사이트:' / '- Website:' 줄, 관광공사 글의 '홈페이지:' / 'Homepage:' 줄. 그 밖의 주소는 실패다.
 URL_CELL = re.compile(r"\|\s*https?://\S*\s*(?=\|)")
-SITE_LINE = re.compile(r"^(- (웹사이트|Website)|홈페이지|Homepage): https?://\S+$")
+SITE_LINE = re.compile(r"^((  )?- (웹사이트|Website)|홈페이지|Homepage): https?://\S+$")
 bad = [f"{k}:{n} '{w}'" for k, ls in LINES.items() for n, l in enumerate(ls, 1)
        if not SITE_LINE.match(l) for w in BANNED if w in URL_CELL.sub("|", l)]
 report("2. 편집 표시, 태그 찌꺼기, 주소가 없다 (표 칸 전체가 주소인 곳, 정보 상자 웹사이트 줄, 관광공사 홈페이지 줄은 제외)", bad)
@@ -121,16 +121,17 @@ report("5. 표의 모든 줄이 머리글 줄과 열 수가 같다", bad)
 
 # 6
 doc = "wiki-ko-jeonju"
-EXPECT = ["- 전주시 全州市", "- 행정", "- 행정 구역: 2구 35행정동 82법정동",
-          "- 청사 소재지: 전북특별자치도 전주시 완산구 노송광장로 10", "- 단체장: 조지훈(더불어민주당)",
-          "- 국회의원: 갑: 김윤덕(더불어민주당) 을: 이성윤(더불어민주당) 병: 정동영(더불어민주당)",
-          "- 지리", "- 면적: 205.5 km2", "- 인문", "- 인구: 655,879명(2022년 3월년)", "- 상징",
-          "- 시목: 은행나무", "- 시화: 개나리", "- 시조: 까치", "- 동물: 독수리", "- 지역 부호"]
+EXPECT = ["- 전주시 全州市", "- 행정", "  - 행정 구역: 2구 35행정동 82법정동",
+          "  - 청사 소재지: 전북특별자치도 전주시 완산구 노송광장로 10", "  - 단체장: 조지훈(더불어민주당)",
+          "  - 국회의원: 갑: 김윤덕(더불어민주당) 을: 이성윤(더불어민주당) 병: 정동영(더불어민주당)",
+          "- 지리", "  - 면적: 205.5 km2", "- 인문", "  - 인구: 655,879명(2022년 3월년)", "- 상징",
+          "  - 시목: 은행나무", "  - 시화: 개나리", "  - 시조: 까치", "  - 동물: 독수리", "- 지역 부호",
+          "  - 웹사이트: https://www.jeonju.go.kr/"]
 t = TEXT.get(doc, "")
-bad = [f"없는 줄: {e}" for e in EXPECT if e not in LINES.get(doc, [])]
+bad = [] if LINES.get(doc, [])[2:2 + len(EXPECT)] == EXPECT else ["정보 상자 줄이 들여 쓰기까지 기대와 같지 않음"]
 bad += [f"있으면 안 되는 글자: {w}" for w in ["휘장", "전주시의 위치"] if w in t]
-if "- 웹사이트: https://www.jeonju.go.kr/" not in LINES.get(doc, []):
-    bad.append("'- 웹사이트: https://www.jeonju.go.kr/' 줄이 없음")
+if "  - 웹사이트: https://www.jeonju.go.kr/" not in LINES.get(doc, []):
+    bad.append("'  - 웹사이트: https://www.jeonju.go.kr/' 줄이 없음")
 if not has_line(doc, "| 1949년 | 100,624명 |"):
     bad.append("'| 1949년 | 100,624명 |'로 시작하는 줄이 없음")
 elif cells(next(l for l in LINES[doc] if l.startswith("| 1949년 | 100,624명 |"))) != 3:
@@ -230,7 +231,7 @@ report("13. 부산 영어: 기후 도표, 정보 상자 이름표가 없고 원�
 
 # 14
 doc = "wiki-en-jeonju"
-first = next((l for l in LINES.get(doc, [])[1:] if l.strip() and not l.startswith(("-", "#"))), "")
+first = next((l for l in LINES.get(doc, [])[1:] if l.strip() and not l.startswith(("-", "#", " "))), "")
 report("14. 전주 영어: 첫 문단에 발음 기호가 있다",
        [] if "Korean pronunciation: [t͡ɕʌɲ.d͡ʑu]" in first else ["첫 문단에 'Korean pronunciation: [t͡ɕʌɲ.d͡ʑu]'가 없음"])
 
@@ -385,6 +386,18 @@ for d in DOCS:
     elif not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest() != r["markdown_sha256"]:
         bad.append(f"{d['doc_id']}: 해시가 파일과 다름")
 report(f"25. collected.yaml의 {len(DOCS)}줄에 마크다운 파일과 해시가 있고 맞다", bad)
+
+# 26
+bad = []
+ls = LINES.get("wiki-en-busan", [])
+for head, nxt in [("- Area", "  - Metropolitan city: 770.04 km2 (297.31 sq mi)"),
+                  ("- Population (January 2026)", "  - Metropolitan city: 3,285,147")]:
+    if head not in ls:
+        bad.append(f"'{head}' 줄이 없음")
+    elif ls[ls.index(head) + 1] != nxt:
+        bad.append(f"'{head}' 다음 줄이 '{nxt}'이 아님")
+bad += [f"{k}:{n} '{l[:30]}'" for k, v in LINES.items() for n, l in enumerate(v, 1) if l.startswith(("- •", "  - •"))]
+report("26. 부산 영어 정보 상자의 묶음이 들여 쓰였고 어느 파일에도 '•'로 시작하는 목록 줄이 없다", bad)
 
 # 15
 def hashes():

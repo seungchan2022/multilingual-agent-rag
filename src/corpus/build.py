@@ -152,9 +152,12 @@ def infobox_lines(box):
     """정보 상자에서 글자로 된 줄을 '- ...'로 뽑는다.
 
     웹사이트 줄만 화면의 글자 대신 바깥 링크의 주소를 값으로 적는다(링크가 없으면 화면의 글자).
-    아래에 줄이 하나도 남지 않는 묶음 제목(infobox-header)은 지운다.
+    묶음 제목(th.infobox-header)에 딸린 줄은 두 칸 들여 쓴다. 딸린 줄은 이렇게 정한다.
+      - 제목 바로 다음 줄의 이름표가 '•'로 시작하면(영어): '•'로 시작하는 줄이 이어지는 동안.
+      - 아니면(한국어 상자, 영어의 Korean name 상자): 다음 묶음 제목이나 상자의 끝까지.
+    딸린 줄 앞의 '•'는 뺀다. 딸린 줄이 하나도 없는 묶음 제목은 지운다.
     """
-    items = []  # (묶음 제목인가, 줄)
+    entries = []  # (종류: head/row/text, 이름표가 •로 시작하는가, 글자)
     for tr in own_rows(box):
         cells = own_cells(tr)
         texts = [inline(c) for c in cells]
@@ -166,14 +169,33 @@ def infobox_lines(box):
                     value = link["href"].strip()
             if not value:
                 continue
-            items.append((False, f"- {texts[0]}: {value}" if texts[0] else f"- {value}"))
+            bullet = texts[0].startswith("•")
+            label = re.sub(r"^•\s*", "", texts[0])
+            entries.append(("row", bullet, f"{label}: {value}" if label else value))
         else:
             text = norm(" ".join(t for t in texts if t))
             if text:
                 head = len(cells) == 1 and cells[0].name == "th" and "infobox-header" in cells[0].get("class", [])
-                items.append((head, f"- {text}"))
-    return [line for i, (head, line) in enumerate(items)
-            if not head or (i + 1 < len(items) and not items[i + 1][0])]
+                entries.append(("head" if head else "text", False, text))
+    lines, i = [], 0
+    while i < len(entries):
+        kind, _, text = entries[i]
+        if kind != "head":
+            lines.append(f"- {text}")
+            i += 1
+            continue
+        j = i + 1
+        if j < len(entries) and entries[j][0] == "row" and entries[j][1]:
+            while j < len(entries) and entries[j][0] == "row" and entries[j][1]:
+                j += 1
+        else:
+            while j < len(entries) and entries[j][0] != "head":
+                j += 1
+        if j > i + 1:
+            lines.append(f"- {text}")
+            lines += [f"  - {e[2]}" for e in entries[i + 1:j]]
+        i = j
+    return lines
 
 
 # ---------------------------------------------------------------- 표
