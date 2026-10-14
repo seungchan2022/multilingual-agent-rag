@@ -1,0 +1,89 @@
+{
+ "total": {
+  "documents": 16,
+  "same_bytes": 2,
+  "same_without_comments": 16
+ },
+ "documents": [
+  {
+   "doc_id": "wiki-ko-jeonju",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-jeonju",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-cheongju",
+   "same_bytes": true,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-cheongju",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-chuncheon",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-chuncheon",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-cheonan",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-cheonan",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-busan",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-jeju",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-andong",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-en-gangneung",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-suwon",
+   "same_bytes": true,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-gyeongju",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-sejong",
+   "same_bytes": false,
+   "same_without_comments": true
+  },
+  {
+   "doc_id": "wiki-ko-gwangju",
+   "same_bytes": false,
+   "same_without_comments": true
+  }
+ ]
+}
