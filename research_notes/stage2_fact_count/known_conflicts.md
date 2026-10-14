@@ -31,6 +31,10 @@
 - `wiki-ko-jeonju`: 전주시의 면적은 205.5 km2이다. — 같은 것이 다른 모양으로 적힘: 면적이 205.5 km2와 206 km2(본문 지형 절)로 적혀 있다
 - `wiki-ko-gyeongju`: 경주시의 연평균 강수량은 1,091 밀리미터이다. — 같은 것이 다른 모양으로 적힘: 연평균 강수량이 본문 1,091 밀리미터, 기후 표 연간 1,090.9 mm다
 - `wiki-ko-sejong`: 세종특별자치시의 2023년 총인구는 386,525명이다. — 같은 것이 다른 모양으로 적힘: 2023년 인구가 표 386,525명, 본문 '약 38만 명'이다
+- `wiki-ko-gwangju`: 광주는 1986년 11월 직할시로 승격되어 전라남도와 별도의 행정 체계를 가졌다. — 같은 것이 다른 모양으로 적힘: 직할시 승격이 '1986년 11월'과 '1986년'으로 적혀 있다(덜 자세한 값도 다른 값으로 본다)
+- `wiki-ko-sejong`: 세종특별자치시의 주민등록 인구는 2015년 10월에 20만 명을 돌파했다. — 같은 것이 다른 모양으로 적힘: 20만 명 돌파가 '2015년 10월'과 '2015년경 약 20만 명'으로 적혀 있다
+- `wiki-en-gangneung`: 강릉과 명주 지역은 1995년에 합쳐졌다. — 같은 것이 다른 모양으로 적힘: 명주 지역과의 합병이 정보 상자 'January 1, 1995'와 본문 '1995'로 적혀 있다(덜 자세한 값도 다른 값으로 본다)
+- `wiki-ko-sejong`: 세종특별자치시는 2012년 7월 1일에 출범하였다. — 같은 것이 다른 모양으로 적힘: 출범(설치)이 '2012년 7월 1일'과 '2012년 7월'로 적혀 있다(덜 자세한 값도 다른 값으로 본다)
 
 ### 같은 도시의 두 언어 문서가 서로 어긋나는 값
 
@@ -68,7 +72,7 @@
 - `wiki-en-cheonan`: 연평균 기온과 역대 최고·최저 기온 — 본문 "The average temperature in the city is 12.5 °C, with a recorded high of 34.2 °C and a low of -13.4 °C.", 기후 표 연평균 12.0 °C, 역대 최고 37.8 °C, 역대 최저 −23.9 °C (미정 목록 "질문을 만들 때 지킬 것" ②의 천안 연평균 기온)
 - `wiki-en-jeju`: 6~9월 강수량 — 본문 "more than 180 millimetres (7.1 in) of rain falling in each month from June to September", 일도1동 기후 표의 6월 171.2 mm (2026-10-14 같은 문서 안의 다른 값을 찾던 서브에이전트가 사실 밖에서 본 것)
 - `wiki-ko-gyeongju`: 달마다의 평균 최고 기온 범위 — 본문 "연평균 최고 기온은 8.6–31.1 °C (47–88 °F)이다", 기후 표의 일평균 최고 기온은 가장 높은 달(8월)이 29.7 °C (같은 서브에이전트들이 사실 밖에서 본 것)
-- `wiki-en-gangneung`: 시로 설치된 해 — 정보 상자 "City established: September 1, 1955", 본문 "Gangneung City was established in 1995 as the areas of Gangneung and Myeongju merged" (명주 지역과 합친 해 1995년은 두 곳이 같아 쓸 수 있다. 2026-10-14 Codex 2차 지적 1)
+- `wiki-en-gangneung`: 시로 설치된 해 — 정보 상자 "City established: September 1, 1955", 본문 "Gangneung City was established in 1995 as the areas of Gangneung and Myeongju merged" (2026-10-14 Codex 2차 지적 1)
 - `wiki-en-gangneung`: 면적 — 정보 상자·표 1,040 km2, 본문 "about 1,040.4 km2" (2026-10-14, 반올림·어림도 다른 값으로 본다)
 
 ### 한 문서에 인구 표가 둘 있고 같은 해의 값이 다른 곳

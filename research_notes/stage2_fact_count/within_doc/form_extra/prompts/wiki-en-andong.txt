@@ -1,0 +1,21 @@
+You check ONE document of a Korean/English city corpus. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-andong.md`
+Open it with the Read tool and read it from the first line to the last line (use several Read calls with offset/limit if it is long). Do not rely on grep alone: a restatement can use different words or a different number format. In your reply, give the file's line count and the line ranges you read.
+
+Below is a fixed list of 1 facts extracted from this document. An earlier check looked at these facts for conflicting values, but deliberately ignored values that differ only by rounding, truncation or approximation. Now look for exactly those. For EACH fact: is the SAME quantity or attribute of the SAME subject written anywhere else in the document (the info box at the top, body text, any table, a caption or source line) in a DIFFERENT FORM of the number — e.g. rounded ("1,091" vs "1,090.9"), truncated ("465" vs "465.96"), approximate ("약 20만 명", "about 1,040", "over 3.3 million", "65만여"), different unit/precision ("1,040.4 km2" vs "1,040 km2"), or written in words? Only count it if it is the same subject and the same attribute and the same reference date/basis (or no date stated on one side). A value computed by you (an average or sum you calculate) does NOT count; only values written in the document count. The identical value written again in exactly the same form does NOT count.
+
+Verdict, exactly one of these two strings:
+- "다른 모양 없음": the value is not written elsewhere, or only written again in exactly the same form, or other values are for a different subject/attribute/date.
+- "다른 모양 있음": the same thing is written elsewhere in a different form as described above.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/form_extra/wiki-en-andong.answer.json`, one object per fact, same order, every id exactly once:
+{"id": "<fact id>", "verdict": "<one of the two>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown that hold the other form; whole table rows are fine>"], "reason": "<one short Korean sentence: what the other form is, or why there is none>"}
+For "다른 모양 없음" use "quotes": []. Quotes must appear verbatim in the file; a program checks this.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/form_extra/check_form.py 2>&1 | grep 'wiki-en-andong' -A20 | head -25` and fix your file until the line for wiki-en-andong shows no 문제 (other documents may show "답 파일 없음"; ignore those).
+
+Reply with: line count and ranges read, counts per verdict, and every "다른 모양 있음" with id, the other form and the reason.
+
+Facts:
+- 안동시_en_01: 안동시의 인구는 2010년 10월 기준 167,821명이다. (값: 167,821 (October 2010)) — 원문 구절: with a population of 167,821 as of October 2010
