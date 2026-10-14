@@ -7,21 +7,21 @@
 - Region: Hoseo
 - Administrative divisions: 2 gu, 16 legal dong, 4 eup, 8 myeon
 - Government
-- • Mayor: Park Sang-don (박상돈)
+  - Mayor: Park Sang-don (박상돈)
 - Area
-- • Total: 636.25 km2 (245.66 sq mi)
+  - Total: 636.25 km2 (245.66 sq mi)
 - Elevation: 22 m (72 ft)
 - Population (September 2024)
-- • Total: 658,831
-- • Density: 1,035.31/km2 (2,681.4/sq mi)
-- • Dialect: Chungcheong
+  - Total: 658,831
+  - Density: 1,035.31/km2 (2,681.4/sq mi)
+  - Dialect: Chungcheong
 - Time zone: UTC+9 (Korea Standard Time)
 - Website: http://www.cheonan.go.kr/EgovPageLink.do?link=/en/index
 - Korean name
-- Hangul: 천안시
-- Hanja: 天安市
-- RR: Cheonan-si
-- MR: Ch'ŏnan-si
+  - Hangul: 천안시
+  - Hanja: 天安市
+  - RR: Cheonan-si
+  - MR: Ch'ŏnan-si
 
 Cheonan (Korean: 천안; Korean pronunciation: [tɕʰʌ.nan] ) is the largest and most densely populated city of South Chungcheong Province, South Korea, and the third largest city in the Hoseo region after Daejeon and Cheongju. Cheonan borders Gyeonggi Province (Pyeongtaek and Anseong) in the north, North Chungcheong Province (Jincheon County and Cheongju) to the east and southeast, Sejong to the south and Asan and Gongju to the west and southwest.
 

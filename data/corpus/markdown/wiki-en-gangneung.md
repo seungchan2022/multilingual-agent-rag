@@ -10,20 +10,20 @@
 - As merger with Myeongju area: January 1, 1995
 - Administrative divisions: 1 eup, 7 myeon, 13 dong
 - Government
-- • Mayor: Kim Hong-gyu
+  - Mayor: Kim Hong-gyu
 - Area
-- • Total: 1,040 km2 (400 sq mi)
+  - Total: 1,040 km2 (400 sq mi)
 - Population (September 2024)
-- • Total: 208,161
-- • Density: 200/km2 (518/sq mi)
-- • Dialect: Gangwon
+  - Total: 208,161
+  - Density: 200/km2 (518/sq mi)
+  - Dialect: Gangwon
 - Area code: +82-33
 - Climate: Cfa
 - Korean name
-- Hangul: 강릉시
-- Hanja: 江陵市
-- RR: Gangneung-si
-- MR: Kangnŭng-si
+  - Hangul: 강릉시
+  - Hanja: 江陵市
+  - RR: Gangneung-si
+  - MR: Kangnŭng-si
 
 Gangneung (Korean: 강릉; Korean pronunciation: [kaŋ.nɯŋ]) is a municipal city in the South Korean state of Gangwon, located on the east coast of South Korea. It has a population of 213,658 (as of 2017). Gangneung is the economic centre of the Yeongdong region of Gangwon State. It has many tourist attractions, such as Jeongdongjin, a very popular area for watching the sunrise, and Gyeongpo Beach. The city hosted all the ice events for the 2018 Winter Olympics and the 2024 Winter Youth Olympics.
 

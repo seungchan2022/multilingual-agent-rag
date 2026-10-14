@@ -12,7 +12,7 @@ documents:
   raw_file: raw/wiki-ko-jeonju.html
   raw_sha256: 62f534f77d02bf78dc979099ec523d768022475015840d79e3242d3c4a25fda6
   markdown_file: markdown/wiki-ko-jeonju.md
-  markdown_sha256: bc4e7fae5ead60702670cb989bf0937b3d7c9395a8921e8a9d3a5f6106bebe05
+  markdown_sha256: bbe8a76e1f026e231d4e012011ebcd5d629dc3f3d2634252125a51d5e7f51cf4
 - doc_id: wiki-en-jeonju
   fetched_at: '2026-10-14T10:18:43+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379135207&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -25,7 +25,7 @@ documents:
   raw_file: raw/wiki-en-jeonju.html
   raw_sha256: bea8a632aaac691466881523a486210849f64a66b997bd00f9586866ddf77e1a
   markdown_file: markdown/wiki-en-jeonju.md
-  markdown_sha256: 8a0d714a3c10fc63ce23dfcbd1fc6f84757fefddee69787c78f4dd6f7f455d7e
+  markdown_sha256: 0c0f757a8215f9c41aa80212c8dfd6ff3da3a93a206fb18524f2a5e5ff9ee707
 - doc_id: wiki-ko-cheongju
   fetched_at: '2026-10-14T10:18:46+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42630014&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -38,7 +38,7 @@ documents:
   raw_file: raw/wiki-ko-cheongju.html
   raw_sha256: fa2313be84ff103bcb78fb9214d97c6712c28d9b35b9743202de0f55d44e0155
   markdown_file: markdown/wiki-ko-cheongju.md
-  markdown_sha256: 667928bc2212821870b16e8ac55f6e050e41e0e50807c24509503bc2cda8b767
+  markdown_sha256: 3dab4a074a0d1552149ce61dc239d55dc8c9611136ae37919b54a924f1d979b2
 - doc_id: wiki-en-cheongju
   fetched_at: '2026-10-14T10:18:50+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378953230&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -51,7 +51,7 @@ documents:
   raw_file: raw/wiki-en-cheongju.html
   raw_sha256: 0d84020e6417e516d2bd77511e2e8279d8d27056edb0a01ccf5ee3d581abe266
   markdown_file: markdown/wiki-en-cheongju.md
-  markdown_sha256: 7dae5e49f446e88617dc720c768f253364d9c4857fd0ca9559d362b9377e28c2
+  markdown_sha256: 385575804887896e90df0e9a571699bb7a9a0048c3dfcdb81df91a391223161a
 - doc_id: wiki-ko-chuncheon
   fetched_at: '2026-10-14T10:18:54+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42647646&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -64,7 +64,7 @@ documents:
   raw_file: raw/wiki-ko-chuncheon.html
   raw_sha256: f66d33cd6256deab1b42e72ed3f773a8792a0c0715cd047fefc58345709e2a09
   markdown_file: markdown/wiki-ko-chuncheon.md
-  markdown_sha256: 7bb02d926b2761ed71fc7ba227352ddc91b7ea603b8405e92b6f0f523896bc60
+  markdown_sha256: 57f0902de5fa6c190c162cc717a67c98dacfeac9e8717783a3d620f235b5592b
 - doc_id: wiki-en-chuncheon
   fetched_at: '2026-10-14T10:18:58+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1376994978&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -77,7 +77,7 @@ documents:
   raw_file: raw/wiki-en-chuncheon.html
   raw_sha256: d20a38c0356a729e4d885192dcd457b98dd408c9b09017c2e0cfed5bfb68eb0e
   markdown_file: markdown/wiki-en-chuncheon.md
-  markdown_sha256: 5b9eb448a23a7972b292b50901f10a5a1138c65fdd21e0d738a3ca7fab635e81
+  markdown_sha256: b95402d4b524cee5894df61dcc8cbfd0771bb0da1e9d50d37e07d5c12b0412fb
 - doc_id: wiki-ko-cheonan
   fetched_at: '2026-10-14T10:19:03+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42545685&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -90,7 +90,7 @@ documents:
   raw_file: raw/wiki-ko-cheonan.html
   raw_sha256: de32e5c971de3986b18f929094c7c33dced2bb3a3bad5066710ad7e79e47cbba
   markdown_file: markdown/wiki-ko-cheonan.md
-  markdown_sha256: dd2e118ef80229504934231c13445c5231943821cd454622b9ad23cc408abdf4
+  markdown_sha256: f58026a185bcc75b6228e4a6f9cd0f27f4d0739747e023a3477ea1a8f37e777e
 - doc_id: wiki-en-cheonan
   fetched_at: '2026-10-14T10:19:06+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378953224&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -103,7 +103,7 @@ documents:
   raw_file: raw/wiki-en-cheonan.html
   raw_sha256: 676daa752712ac1c8ad72d71f1a7bea2847c86f74b9e6aa461264ed58a18bc8e
   markdown_file: markdown/wiki-en-cheonan.md
-  markdown_sha256: d7ace35e7a4c831860b817ad3c585397a87a3fa9187f1618b14c77dddd85dcb2
+  markdown_sha256: 35d0c2364f0657703ccd2e09fa9a4b0356cff0623c29188a71d546f699afed59
 - doc_id: wiki-en-busan
   fetched_at: '2026-10-14T10:19:10+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379685823&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -116,7 +116,7 @@ documents:
   raw_file: raw/wiki-en-busan.html
   raw_sha256: ac898e33ba1fd8e3707b705b0ad36181806099d68a128a624965bdf0de21abdb
   markdown_file: markdown/wiki-en-busan.md
-  markdown_sha256: fca7aba5ae2e67cd40e2efdb97f07846d2f6d90b2d6ab03fc8c1284604e7a2ce
+  markdown_sha256: 8b01849bd15367e5a6c6799db7b7a57e08feae57c6689b0ad0103ac11cb09562
 - doc_id: wiki-en-jeju
   fetched_at: '2026-10-14T10:19:13+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1377658564&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -129,7 +129,7 @@ documents:
   raw_file: raw/wiki-en-jeju.html
   raw_sha256: b7ccc8ca00c5924853b5e7d873805e5211334a8ac7efc0165b5d7340c2d8f59d
   markdown_file: markdown/wiki-en-jeju.md
-  markdown_sha256: 390611d2ea845456af7920aef7098c616199bc29e335e7f0b14b8cfe9361e94f
+  markdown_sha256: 4045f588a5c4f1bcd36a8d8f620a7af92063f99b5dad0e2aa9bb0f18c9dbf3dd
 - doc_id: wiki-en-andong
   fetched_at: '2026-10-14T10:19:18+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378924154&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -142,7 +142,7 @@ documents:
   raw_file: raw/wiki-en-andong.html
   raw_sha256: c912a88a7adde2d3435f67e63add4d4ddfe5b915e0239efd6b182d13029fec8d
   markdown_file: markdown/wiki-en-andong.md
-  markdown_sha256: 9f687360afc2424ab7b3324a3444cb04c1e285a9cfd63feda481104d42008c98
+  markdown_sha256: d577efc5a98078ab6abaf553bb1ccffc4e77a93e6a87171bbf43671bcdce177d
 - doc_id: wiki-en-gangneung
   fetched_at: '2026-10-14T10:19:21+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378182836&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -155,7 +155,7 @@ documents:
   raw_file: raw/wiki-en-gangneung.html
   raw_sha256: c2a0dcccec2afd19aa6c93da83c5b60f210dffbfa38cf0305797122fd4c31d74
   markdown_file: markdown/wiki-en-gangneung.md
-  markdown_sha256: d312d52ddcfbc5769f23f3b6c577978b82a0b65cdb208115c8bb6f8d26c77730
+  markdown_sha256: b1d6c28821a98682d1f2d3c152be347410ae6128becf56b1d6458f54e4054f5d
 - doc_id: wiki-ko-suwon
   fetched_at: '2026-10-14T10:19:25+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42534963&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -168,7 +168,7 @@ documents:
   raw_file: raw/wiki-ko-suwon.html
   raw_sha256: 1b7461a79db021d4e77e7aa987e4ff7bc494eb6b4022930178a24d8f694fa1dd
   markdown_file: markdown/wiki-ko-suwon.md
-  markdown_sha256: b96d8d3a4043d009cfad1a95a94e2b1cf26c8d5a94ab94aa122537c3294b27f2
+  markdown_sha256: fa132bfa966ac229a0430168e498437136803c155c0060a65e83f6e0bf901acd
 - doc_id: wiki-ko-gyeongju
   fetched_at: '2026-10-14T10:19:30+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42639825&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -181,7 +181,7 @@ documents:
   raw_file: raw/wiki-ko-gyeongju.html
   raw_sha256: 6b301c77b639c9e11e553d09fc3eee73caeaab65f9aa3a4e7393a6e21ba1137e
   markdown_file: markdown/wiki-ko-gyeongju.md
-  markdown_sha256: 0322ac5262606e84584157fb0eadd7a40c8f9a3d9246d5a49622603c86735228
+  markdown_sha256: 636005a0c21daca4b9a55ef9b2be97a1166bb4d25680bd6dbea68fb2434b8745
 - doc_id: wiki-ko-sejong
   fetched_at: '2026-10-14T10:19:34+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42585449&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -194,7 +194,7 @@ documents:
   raw_file: raw/wiki-ko-sejong.html
   raw_sha256: e4beb8410cc39a894ec43adc300a06e7fae77d93644806d125d14aa9923abe04
   markdown_file: markdown/wiki-ko-sejong.md
-  markdown_sha256: a0591f875b4154430f2f76e0a02b6a3bec598a06a890a9b5e1e98072b6f22b08
+  markdown_sha256: fd97bd5fc8c970ad836174a6019ed2a5999c7df3b1ec33ca4b301aeef7dad36e
 - doc_id: wiki-ko-gwangju
   fetched_at: '2026-10-14T10:19:39+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42623705&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -207,7 +207,7 @@ documents:
   raw_file: raw/wiki-ko-gwangju.html
   raw_sha256: cf717a133cbca98dbacf0501d232a1bf3ff69ee55e7532bac57783a0c9e74bf2
   markdown_file: markdown/wiki-ko-gwangju.md
-  markdown_sha256: a86049eb20ae80d659303af07c23dc021216e15a5428c2a6eadbafcd8336d796
+  markdown_sha256: 72b0464a3a90b7aaf10e3a789837601c2cea3275a47a932afd7fb8497aa68da7
 - doc_id: kto-ko-jeonju-hanok-village
   fetched_at: '2026-10-14T10:19:41+09:00'
   request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=264284

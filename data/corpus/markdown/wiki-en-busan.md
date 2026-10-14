@@ -8,21 +8,21 @@
 - Region: Yeongnam
 - Districts: 16
 - Government
-- • Type: Mayor-Council
-- • Mayor: Chun Jae-soo (Democratic)
-- • Body: Busan Metropolitan Council
-- • National Representation - National Assembly: 18 / 299 6.0% (total seats) 18 / 245 7.3% (constituency seats) List Jeon Jaesoo (Democratic) Buk-gu / Gangseo-gu A district, Kim Do-eup (People Power) Buk-gu / Gangseo-gu B district, Suh Byung-soo (People Power) Busanjin-gu A district, Lee Heon-seung (People Power) Busanjin-gu B district, Kim Heegon (People Power) Dongnae-gu district, Baek Jong-heon (People Power) Geumjeong-gu district, Ha Tae-keung (People Power) Haeundae-gu A district, Kim Mi-ae (People Power) Haeundae-gu B district, Hwangbo Seunghee (People Power) Jung-gu / Yeongdo-gu district, Park Soo-young (People Power) Nam-gu A district, Park Jaeho (Democratic) Nam-gu B district, Choi Inho (Democratic) Saha-gu A district, Cho Kyoung Tae (People Power) Saha-gu B district, Chang Je Won (People Power) Sasang-gu district, Ahn Byung-gil (People Power) Seo-gu / Dong-gu district, Jeon Bong-gil (People Power) Suyeong-gu district, Jeong Dongman (People Power) Gijang district, Lee Juhwan (People Power) Yeonje-gu district
+  - Type: Mayor-Council
+  - Mayor: Chun Jae-soo (Democratic)
+  - Body: Busan Metropolitan Council
+  - National Representation - National Assembly: 18 / 299 6.0% (total seats) 18 / 245 7.3% (constituency seats) List Jeon Jaesoo (Democratic) Buk-gu / Gangseo-gu A district, Kim Do-eup (People Power) Buk-gu / Gangseo-gu B district, Suh Byung-soo (People Power) Busanjin-gu A district, Lee Heon-seung (People Power) Busanjin-gu B district, Kim Heegon (People Power) Dongnae-gu district, Baek Jong-heon (People Power) Geumjeong-gu district, Ha Tae-keung (People Power) Haeundae-gu A district, Kim Mi-ae (People Power) Haeundae-gu B district, Hwangbo Seunghee (People Power) Jung-gu / Yeongdo-gu district, Park Soo-young (People Power) Nam-gu A district, Park Jaeho (Democratic) Nam-gu B district, Choi Inho (Democratic) Saha-gu A district, Cho Kyoung Tae (People Power) Saha-gu B district, Chang Je Won (People Power) Sasang-gu district, Ahn Byung-gil (People Power) Seo-gu / Dong-gu district, Jeon Bong-gil (People Power) Suyeong-gu district, Jeong Dongman (People Power) Gijang district, Lee Juhwan (People Power) Yeonje-gu district
 - Area
-- • Metropolitan city: 770.04 km2 (297.31 sq mi)
+  - Metropolitan city: 770.04 km2 (297.31 sq mi)
 - Population (January 2026)
-- • Metropolitan city: 3,285,147
-- • Density: 4,266.2/km2 (11,049/sq mi)
-- • Metro: 4,000,000
-- • Dialect: Gyeongsang
+  - Metropolitan city: 3,285,147
+  - Density: 4,266.2/km2 (11,049/sq mi)
+  - Metro: 4,000,000
+  - Dialect: Gyeongsang
 - Demonym: Busanian
 - GDP (Nominal, 2023)
-- • Metropolitan city: KRW 114 trillion (US$ 91 billion)
-- • Per capita: US$ 31,611
+  - Metropolitan city: KRW 114 trillion (US$ 91 billion)
+  - Per capita: US$ 31,611
 - Area code: (+82) 051
 - ISO 3166 code: KR-26
 - Flower: Camellia
@@ -30,10 +30,10 @@
 - Bird: Seagull
 - Website: https://www.busan.go.kr/eng/index
 - Korean name
-- Hangul: 부산광역시
-- Hanja: 釜山廣域市
-- RR: Busan-gwangyeoksi
-- MR: Pusan-gwangyŏksi
+  - Hangul: 부산광역시
+  - Hanja: 釜山廣域市
+  - RR: Busan-gwangyeoksi
+  - MR: Pusan-gwangyŏksi
 
 Busan (Korean: 부산; pronounced [pusʰan]; alternatively romanized as Pusan), officially Busan Metropolitan City, is the second most populous city in South Korea, after Seoul; it has a population of over 3.3 million as of 2024. It is the economic, cultural and educational center of southeastern South Korea, with its port being South Korea's busiest and the sixth-busiest in the world. The surrounding "Southeastern Maritime Industrial Region" (including Ulsan, South Gyeongsang, Daegu, and part of North Gyeongsang and South Jeolla) is South Korea's largest industrial area. The large volumes of port traffic and urban population in excess of 1 million makes Busan a Large-Port metropolis using the Southampton System of Port-City classification. As of 2025, Busan Port is the primary port in Korea and the world's sixth-largest container port.
 

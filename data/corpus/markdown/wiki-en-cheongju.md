@@ -9,23 +9,23 @@
 - Founded: 1946
 - Administrative divisions: 4 gu, 30 legal dong, 3 eup, 10 myeon
 - Government
-- • mayor: Lee Jang-seop (이장섭)
+  - mayor: Lee Jang-seop (이장섭)
 - Area
-- • Total: 940.3 km2 (363.1 sq mi)
+  - Total: 940.3 km2 (363.1 sq mi)
 - Elevation: 39 m (128 ft)
 - Population (February 2026)
-- • Total: 852,147
-- • Density: 906.3/km2 (2,347/sq mi)
-- • Dialect: Chungcheong
+  - Total: 852,147
+  - Density: 906.3/km2 (2,347/sq mi)
+  - Dialect: Chungcheong
 - Time zone: UTC+09:00 (KST)
 - Postal code: 28100~28899
 - Area code: (+82) 43-2xx
 - Website: http://cheongju.go.kr/english/index.do
 - Korean name
-- Hangul: 청주시
-- Hanja: 淸州市
-- RR: Cheongju-si
-- MR: Ch'ŏngju-si
+  - Hangul: 청주시
+  - Hanja: 淸州市
+  - RR: Cheongju-si
+  - MR: Ch'ŏngju-si
 
 Cheongju (Korean: 청주; Korean pronunciation: [tɕʰʌŋ.dʑu]) is the capital and largest city of North Chungcheong Province in South Korea. The "Cheong" in the name of the province is the same as in Cheongju.
 

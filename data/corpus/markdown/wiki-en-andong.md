@@ -9,24 +9,24 @@
 - City status: 1963
 - Administrative divisions: 1 eup, 13 myeon, 10 dong
 - Government
-- • mayor: Ki Chang Kwon (권기창)
+  - mayor: Ki Chang Kwon (권기창)
 - Area
-- • Total: 1,590.91 km2 (614.25 sq mi)
+  - Total: 1,590.91 km2 (614.25 sq mi)
 - Elevation: 139 m (456 ft)
 - Population (September 2024)
-- • Total: 153,348
-- • Density: 96.3901/km2 (249.649/sq mi)
-- • Dialect: Gyeongsang
+  - Total: 153,348
+  - Density: 96.3901/km2 (249.649/sq mi)
+  - Dialect: Gyeongsang
 - Demonym: Andongite
 - Time zone: UTC+9 (Korea Standard Time)
 - Postal code: 760003-760944
 - Area code: (+82) 054
 - Website: https://web.archive.org/web/20131011100754/http://city.andong.go.kr/open_content/en/
 - Korean name
-- Hangul: 안동시
-- Hanja: 安東市
-- RR: Andong-si
-- MR: Andong-si
+  - Hangul: 안동시
+  - Hanja: 安東市
+  - RR: Andong-si
+  - MR: Andong-si
 
 Andong (Korean: 안동; pronounced [an.doŋ]) is a city in South Korea, and the capital of North Gyeongsang Province. It is the largest city in the northern part of the province with a population of 167,821 as of October 2010. The Nakdong River flows through the city. Andong is a market centre for the surrounding agricultural areas.
 

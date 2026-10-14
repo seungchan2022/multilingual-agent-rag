@@ -7,20 +7,20 @@
 - Province: Jeju
 - Administrative divisions: 19 dong, 4 eup, 3 myeon
 - Government
-- • Type: Mayor appointed by governor, no city council (unique in Korea due to Jeju's autonomy)
-- • Mayor: Kim Wan-geun (Independent)
+  - Type: Mayor appointed by governor, no city council (unique in Korea due to Jeju's autonomy)
+  - Mayor: Kim Wan-geun (Independent)
 - Area
-- • Total: 977.8 km2 (377.5 sq mi)
+  - Total: 977.8 km2 (377.5 sq mi)
 - Population
-- • Total: 488,844
-- • Density: 503.18/km2 (1,303.2/sq mi)
-- • Dialect: Jeju
+  - Total: 488,844
+  - Density: 503.18/km2 (1,303.2/sq mi)
+  - Dialect: Jeju
 - Website: http://jejusi.go.kr
 - Korean name
-- Hangul: 제주시
-- Hanja: 濟州市
-- RR: Jeju-si
-- MR: Cheju-si
+  - Hangul: 제주시
+  - Hanja: 濟州市
+  - RR: Jeju-si
+  - MR: Cheju-si
 
 Jeju City (Korean: 제주; Korean pronunciation: [tɕe.dʑu]) is the capital of the Jeju Province in South Korea and the largest city on Jeju Island. The city is served by Jeju International Airport (IATA code CJU).
 

@@ -7,24 +7,24 @@
 - Province: Jeonbuk
 - Administrative divisions: 2 Gu, 40 dong
 - Government
-- • Type: City government
-- • Mayor: Cho Ji Hun (Democratic)
-- • Council: Jeonju City Council
+  - Type: City government
+  - Mayor: Cho Ji Hun (Democratic)
+  - Council: Jeonju City Council
 - Area
-- • Total: 206.22 km2 (79.62 sq mi)
+  - Total: 206.22 km2 (79.62 sq mi)
 - Population (February 2026)
-- • Total: 638,421
-- • Density: 3,164/km2 (8,190/sq mi)
-- • Dialect: Jeolla
+  - Total: 638,421
+  - Density: 3,164/km2 (8,190/sq mi)
+  - Dialect: Jeolla
 - Time zone: UTC+9
 - ZIP codes: 560011-561870
 - Area Code: +82-63-2xx
 - Website: http://www.jeonju.go.kr/open_content/en/main_page.jsp
 - Korean name
-- Hangul: 전주시
-- Hanja: 全州市
-- RR: Jeonju-si
-- MR: Chŏnju-si
+  - Hangul: 전주시
+  - Hanja: 全州市
+  - RR: Jeonju-si
+  - MR: Chŏnju-si
 
 Jeonju (Korean: 전주; Korean pronunciation: [t͡ɕʌɲ.d͡ʑu], lit. 'Perfect region') is the capital and largest city of the province of Jeonbuk, South Korea. It is both urban and rural due to the closeness of Wanju County which almost entirely surrounds Jeonju (Wanju County has many residents who work in Jeonju). It is an important tourist center famous for South Korean cuisine, historic buildings, sports activities, and innovative festivals.
 

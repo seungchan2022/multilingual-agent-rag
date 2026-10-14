@@ -7,19 +7,19 @@
 - State: Gangwon
 - Administrative divisions: 1 eup, 9 myeon, 15 dong
 - Government
-- • Mayor: Yuk Dong-han (육동한)
+  - Mayor: Yuk Dong-han (육동한)
 - Area
-- • Total: 1,166.8 km2 (450.5 sq mi)
+  - Total: 1,166.8 km2 (450.5 sq mi)
 - Population (February 2026, excluding foreigners)
-- • Total: 284,855
-- • Density: 244.1/km2 (632/sq mi)
+  - Total: 284,855
+  - Density: 244.1/km2 (632/sq mi)
 - Area code: +82-33-2xx
 - Climate: Dwa
 - Korean name
-- Hangul: 춘천시
-- Hanja: 春川市
-- RR: Chuncheon-si
-- MR: Ch'unch'ŏn-si
+  - Hangul: 춘천시
+  - Hanja: 春川市
+  - RR: Chuncheon-si
+  - MR: Ch'unch'ŏn-si
 
 Chuncheon (Korean: 춘천) is the capital city of Gangwon Province, South Korea. Its population is about 290,000 as of 2026. It has a long history dating back to the Paleolithic Age. Its economy is dominated by the service sector. It produces hydroelectric power through dams such as the Soyang Dam and Uiam Dam.
 
