@@ -15,7 +15,7 @@
 | 합계 줄이 있는 표 | 읽어서 판정 | 13 |
 | 줄의 소속이 순서로만 드러나는 표 | 읽어서 판정 | 2 |
 | 줄 이름이 없는 표 | 읽어서 판정 | 1 |
-| 줄이 측정 항목이고 열이 달·해인 표 | 읽어서 판정 | 26 |
+| 열이 달·해·종류로 나뉜 표 | 읽어서 판정 | 26 |
 | 세로로 합친 칸이 있는 표 | 기계 판정 | 16 |
 | 가로로 합친 칸이 있는 표 | 기계 판정 | 10 |
 | 칸 안에 줄바꿈이 있는 표 | 기계 판정 | 31 |
@@ -26,6 +26,8 @@
 | 위 모양이 하나도 없는 표 | 기계 판정(위 목록의 나머지) | 32 |
 
 ## 원문 표 전체(틀로 풀린 표 포함)
+
+변환 코드가 받은 원문 표 가운데 마크다운 표가 되지 않은 것: 틀로 풀린 표는 목록이나 표를 옆으로 나란히 놓으려고 표의 틀만 빌린 것이라, 표로 옮기지 않고 칸의 내용을 위에서 아래로 적었다(`decisions/stage2.md` 2026-10-14 표 규칙 ㉣㉤). 비어서 빠진 표는 글자가 없는 표다(춘천 한국어 문서 '교육 기관' 절).
 
 | 항목 | 수 |
 |---|---|
@@ -92,7 +94,7 @@
 - wiki-ko-chuncheon#13 — 대학 종류와 학교 이름  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 426번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 교육 기관
 - wiki-en-gangneung#4 — 철도 노선과 역  
-  `data/corpus/markdown/wiki-en-gangneung.md` 166번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Transportation / Trains
+  `data/corpus/markdown/wiki-en-gangneung.md` 166번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Transportation(교통) / Trains(철도)
 
 ## 한 줄에 여러 대상이 옆으로 놓인 표 (6개)
 
@@ -116,17 +118,17 @@
 제목 줄이 두 줄이라, 마크다운에서는 둘째 제목 줄이 내용 줄처럼 놓였다.
 
 - wiki-en-gangneung#3 — 1줄: 국가 지정/도 지정, 2줄: 국보·보물 등  
-  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture / Heritage
+  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture(문화) / Heritage(문화유산)
 
 ## 같은 머리글이 여러 열에 붙은 표 (4개)
 
 가로로 합친 제목 칸이 펴져, 서로 다른 열이 같은 이름을 가졌다.
 
 - wiki-en-gangneung#3 — State-designated heritage가 9열, Province-designated heritage가 5열  
-  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture / Heritage
-- wiki-ko-suwon#6 — 지방자치단체 2열(시·도와 시·군)  
+  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture(문화) / Heritage(문화유산)
+- wiki-ko-suwon#6 — 지방자치단체 2열(국내 도시는 시·도와 시·군, 외국 도시는 나라와 도시)  
   `data/corpus/markdown/wiki-ko-suwon.md` 319번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42534963 · 절: 교류 도시
-- wiki-ko-cheongju#8 — 도시 2열(시·도와 시·군·구)  
+- wiki-ko-cheongju#8 — 도시 2열(시·도·주와 시·군·구)  
   `data/corpus/markdown/wiki-ko-cheongju.md` 488번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42630014 · 절: 자매 도시
 - wiki-ko-sejong#4 — 구분 2열(이전 단계와 분야)  
   `data/corpus/markdown/wiki-ko-sejong.md` 186번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42585449 · 절: 이전 기관 / 중앙행정기관
@@ -147,7 +149,7 @@
 
 ## 합계 줄이 있는 표 (13개)
 
-대상 줄들 사이나 끝에 그 합계 줄이 있다.
+대상 줄들의 앞이나 사이나 끝에 그 합계 줄이 있다.
 
 - wiki-ko-jeonju#2 — 끝 줄 전주시  
   `data/corpus/markdown/wiki-ko-jeonju.md` 117번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42643645 · 절: 행정 구역
@@ -156,7 +158,7 @@
 - wiki-ko-chuncheon#3 — 끝 줄 합계  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 92번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 행정 구역
 - wiki-en-chuncheon#3 — 끝 줄 Total  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-chuncheon.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Administrative divisions(행정 구역)
 - wiki-ko-cheonan#2 — 구 소계 2줄과 끝 줄 총계  
   `data/corpus/markdown/wiki-ko-cheonan.md` 79번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42545685 · 절: 행정 구역
 - wiki-ko-suwon#5 — 끝 줄 수원시  
@@ -168,7 +170,7 @@
 - wiki-ko-gwangju#2 — 끝 줄 광주광역시  
   `data/corpus/markdown/wiki-ko-gwangju.md` 79번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42623705 · 절: 행정 구역
 - wiki-en-gangneung#2 — 끝 줄 Gangneung-si  
-  `data/corpus/markdown/wiki-en-gangneung.md` 78번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-gangneung.md` 78번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Administrative divisions(행정 구역)
 - wiki-ko-sejong#4 — 첫 줄 36개 기관  
   `data/corpus/markdown/wiki-ko-sejong.md` 186번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42585449 · 절: 이전 기관 / 중앙행정기관
 - wiki-ko-gwangju#10 — 첫 줄 합계  
@@ -192,40 +194,40 @@
 - wiki-ko-gyeongju#8 — 학생 수 줄과 교직원 수 줄에 이름이 없고, 표 위 제목('학생 · 교직원 현황')으로만 짐작된다  
   `data/corpus/markdown/wiki-ko-gyeongju.md` 327번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42639825 · 절: 교육
 
-## 줄이 측정 항목이고 열이 달·해인 표 (26개)
+## 열이 달·해·종류로 나뉜 표 (26개)
 
-줄마다 다른 항목(단위가 다르다)이고 열이 달이나 해라서, 값 하나의 뜻에 줄 이름과 열 이름이 둘 다 필요하다.
+맨 윗줄이 달·해·종류처럼 한 항목을 나눈 칸이고, 맨 왼쪽 열은 무엇을 센 값인지를 적는다. 그래서 값 하나의 뜻에 줄 이름과 열 이름이 둘 다 필요하다.
 
 - wiki-ko-jeonju#1 — 기후 표  
   `data/corpus/markdown/wiki-ko-jeonju.md` 98번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42643645 · 절: 지리 / 기후
 - wiki-en-jeonju#1 — 기후 표  
-  `data/corpus/markdown/wiki-en-jeonju.md` 53번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379135207 · 절: Geography and administrative divisions / Climate
+  `data/corpus/markdown/wiki-en-jeonju.md` 53번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379135207 · 절: Geography and administrative divisions(지리와 행정 구역) / Climate(기후)
 - wiki-ko-cheongju#1 — 기후 표  
   `data/corpus/markdown/wiki-ko-cheongju.md` 84번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42630014 · 절: 지리 / 기후
 - wiki-en-cheongju#1 — 기후 표  
-  `data/corpus/markdown/wiki-en-cheongju.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953230 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-cheongju.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953230 · 절: Geography(지리) / Climate(기후)
 - wiki-ko-chuncheon#1 — 기후 표  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 70번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 지리 / 기후
 - wiki-en-chuncheon#4 — 기후 표  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 182번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Climate
+  `data/corpus/markdown/wiki-en-chuncheon.md` 182번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Climate(기후)
 - wiki-ko-cheonan#1 — 기후 표  
   `data/corpus/markdown/wiki-ko-cheonan.md` 59번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42545685 · 절: 지리 / 기후
 - wiki-en-cheonan#1 — 기후 표  
-  `data/corpus/markdown/wiki-en-cheonan.md` 52번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953224 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-cheonan.md` 52번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953224 · 절: Geography(지리) / Climate(기후)
 - wiki-en-busan#1 — 기후 표  
-  `data/corpus/markdown/wiki-en-busan.md` 88번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-busan.md` 88번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Geography(지리) / Climate(기후)
 - wiki-en-jeju#2 — 기후 표  
-  `data/corpus/markdown/wiki-en-jeju.md` 90번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 90번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-jeju#3 — 기후 표  
-  `data/corpus/markdown/wiki-en-jeju.md` 108번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 108번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-jeju#4 — 기후 표  
-  `data/corpus/markdown/wiki-en-jeju.md` 126번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 126번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-jeju#5 — 기후 표  
-  `data/corpus/markdown/wiki-en-jeju.md` 138번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 138번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-andong#2 — 기후 표  
-  `data/corpus/markdown/wiki-en-andong.md` 196번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378924154 · 절: Climate
+  `data/corpus/markdown/wiki-en-andong.md` 196번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378924154 · 절: Climate(기후)
 - wiki-en-gangneung#1 — 기후 표  
-  `data/corpus/markdown/wiki-en-gangneung.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-gangneung.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Geography(지리) / Climate(기후)
 - wiki-ko-suwon#1 — 기후 표  
   `data/corpus/markdown/wiki-ko-suwon.md` 81번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42534963 · 절: 지리와 지질 / 기후
 - wiki-ko-gyeongju#2 — 기후 표  
@@ -264,13 +266,13 @@
 - wiki-ko-chuncheon#20  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 558번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 자매 도시 / 우호 도시
 - wiki-en-chuncheon#5  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 215번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Sister cities
+  `data/corpus/markdown/wiki-en-chuncheon.md` 215번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Sister cities(자매 도시)
 - wiki-ko-cheonan#2  
   `data/corpus/markdown/wiki-ko-cheonan.md` 79번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42545685 · 절: 행정 구역
 - wiki-en-gangneung#2  
-  `data/corpus/markdown/wiki-en-gangneung.md` 78번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-gangneung.md` 78번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Administrative divisions(행정 구역)
 - wiki-en-gangneung#3  
-  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture / Heritage
+  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture(문화) / Heritage(문화유산)
 - wiki-ko-suwon#6  
   `data/corpus/markdown/wiki-ko-suwon.md` 319번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42534963 · 절: 교류 도시
 - wiki-ko-gyeongju#4  
@@ -297,13 +299,13 @@
 - wiki-ko-chuncheon#3  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 92번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 행정 구역
 - wiki-en-chuncheon#3  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-chuncheon.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Administrative divisions(행정 구역)
 - wiki-en-chuncheon#5  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 215번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Sister cities
+  `data/corpus/markdown/wiki-en-chuncheon.md` 215번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Sister cities(자매 도시)
 - wiki-ko-cheonan#2  
   `data/corpus/markdown/wiki-ko-cheonan.md` 79번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42545685 · 절: 행정 구역
 - wiki-en-gangneung#3  
-  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture / Heritage
+  `data/corpus/markdown/wiki-en-gangneung.md` 127번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Culture(문화) / Heritage(문화유산)
 - wiki-ko-suwon#6  
   `data/corpus/markdown/wiki-ko-suwon.md` 319번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42534963 · 절: 교류 도시
 - wiki-ko-sejong#4  
@@ -320,41 +322,41 @@
 - wiki-ko-jeonju#2  
   `data/corpus/markdown/wiki-ko-jeonju.md` 117번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42643645 · 절: 행정 구역
 - wiki-en-jeonju#1  
-  `data/corpus/markdown/wiki-en-jeonju.md` 53번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379135207 · 절: Geography and administrative divisions / Climate
+  `data/corpus/markdown/wiki-en-jeonju.md` 53번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379135207 · 절: Geography and administrative divisions(지리와 행정 구역) / Climate(기후)
 - wiki-ko-cheongju#1  
   `data/corpus/markdown/wiki-ko-cheongju.md` 84번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42630014 · 절: 지리 / 기후
 - wiki-ko-cheongju#5  
   `data/corpus/markdown/wiki-ko-cheongju.md` 356번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42630014 · 절: 교통 / 도로
 - wiki-en-cheongju#1  
-  `data/corpus/markdown/wiki-en-cheongju.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953230 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-cheongju.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953230 · 절: Geography(지리) / Climate(기후)
 - wiki-ko-chuncheon#1  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 70번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 지리 / 기후
 - wiki-en-chuncheon#3  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-chuncheon.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Administrative divisions(행정 구역)
 - wiki-en-chuncheon#4  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 182번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Climate
+  `data/corpus/markdown/wiki-en-chuncheon.md` 182번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Climate(기후)
 - wiki-ko-cheonan#1  
   `data/corpus/markdown/wiki-ko-cheonan.md` 59번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42545685 · 절: 지리 / 기후
 - wiki-ko-cheonan#2  
   `data/corpus/markdown/wiki-ko-cheonan.md` 79번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42545685 · 절: 행정 구역
 - wiki-en-cheonan#1  
-  `data/corpus/markdown/wiki-en-cheonan.md` 52번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953224 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-cheonan.md` 52번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953224 · 절: Geography(지리) / Climate(기후)
 - wiki-en-busan#1  
-  `data/corpus/markdown/wiki-en-busan.md` 88번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-busan.md` 88번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Geography(지리) / Climate(기후)
 - wiki-en-busan#2  
-  `data/corpus/markdown/wiki-en-busan.md` 111번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-busan.md` 111번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Administrative divisions(행정 구역)
 - wiki-en-jeju#2  
-  `data/corpus/markdown/wiki-en-jeju.md` 90번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 90번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-jeju#3  
-  `data/corpus/markdown/wiki-en-jeju.md` 108번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 108번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-jeju#4  
-  `data/corpus/markdown/wiki-en-jeju.md` 126번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 126번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-jeju#5  
-  `data/corpus/markdown/wiki-en-jeju.md` 138번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate
+  `data/corpus/markdown/wiki-en-jeju.md` 138번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Climate(기후)
 - wiki-en-andong#2  
-  `data/corpus/markdown/wiki-en-andong.md` 196번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378924154 · 절: Climate
+  `data/corpus/markdown/wiki-en-andong.md` 196번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378924154 · 절: Climate(기후)
 - wiki-en-gangneung#1  
-  `data/corpus/markdown/wiki-en-gangneung.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Geography / Climate
+  `data/corpus/markdown/wiki-en-gangneung.md` 58번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378182836 · 절: Geography(지리) / Climate(기후)
 - wiki-ko-suwon#1  
   `data/corpus/markdown/wiki-ko-suwon.md` 81번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42534963 · 절: 지리와 지질 / 기후
 - wiki-ko-gyeongju#2  
@@ -421,9 +423,9 @@
 - wiki-ko-jeonju#4  
   `data/corpus/markdown/wiki-ko-jeonju.md` 197번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42643645 · 절: 인구
 - wiki-en-jeonju#2  
-  `data/corpus/markdown/wiki-en-jeonju.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379135207 · 절: Geography and administrative divisions / Demographics
+  `data/corpus/markdown/wiki-en-jeonju.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379135207 · 절: Geography and administrative divisions(지리와 행정 구역) / Demographics(인구)
 - wiki-en-cheongju#2  
-  `data/corpus/markdown/wiki-en-cheongju.md` 146번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953230 · 절: Twin towns – sister cities
+  `data/corpus/markdown/wiki-en-cheongju.md` 146번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378953230 · 절: Twin towns – sister cities(자매 도시)
 - wiki-ko-chuncheon#4  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 136번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 인구
 - wiki-ko-chuncheon#5  
@@ -431,27 +433,27 @@
 - wiki-ko-chuncheon#6  
   `data/corpus/markdown/wiki-ko-chuncheon.md` 198번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42647646 · 절: 행정 / 춘천시의회
 - wiki-en-chuncheon#1  
-  `data/corpus/markdown/wiki-en-chuncheon.md` 54번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Population
+  `data/corpus/markdown/wiki-en-chuncheon.md` 54번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1376994978 · 절: Population(인구)
 - wiki-en-busan#3  
-  `data/corpus/markdown/wiki-en-busan.md` 284번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Culture and attractions / Festivals
+  `data/corpus/markdown/wiki-en-busan.md` 284번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Culture and attractions(문화와 명소) / Festivals(축제)
 - wiki-en-busan#4  
-  `data/corpus/markdown/wiki-en-busan.md` 330번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Culture and attractions / Media
+  `data/corpus/markdown/wiki-en-busan.md` 330번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Culture and attractions(문화와 명소) / Media(언론)
 - wiki-en-busan#5  
-  `data/corpus/markdown/wiki-en-busan.md` 358번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Demographics
+  `data/corpus/markdown/wiki-en-busan.md` 358번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Demographics(인구)
 - wiki-en-busan#6  
-  `data/corpus/markdown/wiki-en-busan.md` 393번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Sports
+  `data/corpus/markdown/wiki-en-busan.md` 393번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Sports(스포츠)
 - wiki-en-busan#7  
-  `data/corpus/markdown/wiki-en-busan.md` 424번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Festivals and events
+  `data/corpus/markdown/wiki-en-busan.md` 424번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Festivals and events(축제와 행사)
 - wiki-en-busan#8  
-  `data/corpus/markdown/wiki-en-busan.md` 445번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Medical facilities / Major medical centers
+  `data/corpus/markdown/wiki-en-busan.md` 445번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1379685823 · 절: Medical facilities(의료 시설) / Major medical centers(주요 병원)
 - wiki-en-jeju#1  
-  `data/corpus/markdown/wiki-en-jeju.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Demographics
+  `data/corpus/markdown/wiki-en-jeju.md` 73번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Demographics(인구)
 - wiki-en-jeju#7  
-  `data/corpus/markdown/wiki-en-jeju.md` 152번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-jeju.md` 152번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Administrative divisions(행정 구역)
 - wiki-en-jeju#8  
-  `data/corpus/markdown/wiki-en-jeju.md` 162번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-jeju.md` 162번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1377658564 · 절: Administrative divisions(행정 구역)
 - wiki-en-andong#1  
-  `data/corpus/markdown/wiki-en-andong.md` 55번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378924154 · 절: Administrative divisions
+  `data/corpus/markdown/wiki-en-andong.md` 55번째 줄 · 원문 https://en.wikipedia.org/w/index.php?oldid=1378924154 · 절: Administrative divisions(행정 구역)
 - wiki-ko-suwon#2  
   `data/corpus/markdown/wiki-ko-suwon.md` 104번째 줄 · 원문 https://ko.wikipedia.org/w/index.php?oldid=42534963 · 절: 인구통계
 - wiki-ko-gyeongju#1  

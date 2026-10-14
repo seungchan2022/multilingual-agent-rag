@@ -56,8 +56,8 @@ MANUAL = [
     ("같은 머리글이 여러 열에 붙은 표",
      "가로로 합친 제목 칸이 펴져, 서로 다른 열이 같은 이름을 가졌다",
      {key("wiki-en-gangneung", 3): "State-designated heritage가 9열, Province-designated heritage가 5열",
-      key("wiki-ko-suwon", 6): "지방자치단체 2열(시·도와 시·군)",
-      key("wiki-ko-cheongju", 8): "도시 2열(시·도와 시·군·구)",
+      key("wiki-ko-suwon", 6): "지방자치단체 2열(국내 도시는 시·도와 시·군, 외국 도시는 나라와 도시)",
+      key("wiki-ko-cheongju", 8): "도시 2열(시·도·주와 시·군·구)",
       key("wiki-ko-sejong", 4): "구분 2열(이전 단계와 분야)"}),
     ("머리글 칸이 일부만 찬 표",
      "제목 줄의 칸 대부분이 비어 있다",
@@ -66,7 +66,7 @@ MANUAL = [
      "표 중간에 제목 줄이 한 번 더 있어, 그 아래 줄은 첫 제목이 아니라 새 제목에 속한다",
      {key("wiki-ko-gwangju", 14): "박물관 6줄 뒤에 '미술관 | 주소 | 홈페이지' 줄"}),
     ("합계 줄이 있는 표",
-     "대상 줄들 사이나 끝에 그 합계 줄이 있다",
+     "대상 줄들의 앞이나 사이나 끝에 그 합계 줄이 있다",
      {key("wiki-ko-jeonju", 2): "끝 줄 전주시", key("wiki-ko-cheongju", 2): "끝 줄 총합계",
       key("wiki-ko-chuncheon", 3): "끝 줄 합계", key("wiki-en-chuncheon", 3): "끝 줄 Total",
       key("wiki-ko-cheonan", 2): "구 소계 2줄과 끝 줄 총계", key("wiki-ko-suwon", 5): "끝 줄 수원시",
@@ -81,8 +81,8 @@ MANUAL = [
     ("줄 이름이 없는 표",
      "줄마다 무엇을 센 값인지 적힌 칸이 없다",
      {key("wiki-ko-gyeongju", 8): "학생 수 줄과 교직원 수 줄에 이름이 없고, 표 위 제목('학생 · 교직원 현황')으로만 짐작된다"}),
-    ("줄이 측정 항목이고 열이 달·해인 표",
-     "줄마다 다른 항목(단위가 다르다)이고 열이 달이나 해라서, 값 하나의 뜻에 줄 이름과 열 이름이 둘 다 필요하다",
+    ("열이 달·해·종류로 나뉜 표",
+     "맨 윗줄이 달·해·종류처럼 한 항목을 나눈 칸이고, 맨 왼쪽 열은 무엇을 센 값인지를 적는다. 그래서 값 하나의 뜻에 줄 이름과 열 이름이 둘 다 필요하다",
      {**{key(d, n): "기후 표" for d, n in [
          ("wiki-ko-jeonju", 1), ("wiki-en-jeonju", 1), ("wiki-ko-cheongju", 1), ("wiki-en-cheongju", 1),
          ("wiki-ko-chuncheon", 1), ("wiki-en-chuncheon", 4), ("wiki-ko-cheonan", 1), ("wiki-en-cheonan", 1),
@@ -172,9 +172,19 @@ out = {"markdown_tables": len(md), "shapes": shapes, "all_source_tables": all_ca
 (HERE / "shapes.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
+# 영어 절 이름의 한국어 뜻(사용자가 영어를 읽지 않는다).
+KO = {"Administrative divisions": "행정 구역", "Climate": "기후", "Culture": "문화", "Heritage": "문화유산",
+      "Culture and attractions": "문화와 명소", "Festivals": "축제", "Media": "언론", "Demographics": "인구",
+      "Festivals and events": "축제와 행사", "Geography": "지리",
+      "Geography and administrative divisions": "지리와 행정 구역", "Medical facilities": "의료 시설",
+      "Major medical centers": "주요 병원", "Population": "인구", "Sister cities": "자매 도시", "Sports": "스포츠",
+      "Transportation": "교통", "Trains": "철도", "Twin towns – sister cities": "자매 도시"}
+
+
 def where(k):
     t = by[k]
-    sec = (t.get("section") or "").replace("### ", "").replace("## ", "")
+    parts = [s.lstrip("# ") for s in (t.get("section") or "").split(" / ") if s]
+    sec = " / ".join(f"{s}({KO[s]})" if s in KO else s for s in parts)
     return f"`data/corpus/markdown/{t['doc_id']}.md` {t['md_line_no']}번째 줄 · 원문 {URL[t['doc_id']]} · 절: {sec}"
 
 
@@ -183,7 +193,11 @@ lines = ["# 마크다운 표의 모양", "",
          f"마크다운 표 {len(md)}개(위키백과 {sum(t['doc_id'].startswith('wiki-') for t in md)}, 통계 표 {sum(t['doc_id'].startswith('portal-') for t in md)}).", "",
          "| 모양 | 판정 | 표 수 |", "|---|---|---|"]
 lines += [f"| {s['shape']} | {s['how']} | {len(s['tables'])} |" for s in shapes]
-lines += ["", "## 원문 표 전체(틀로 풀린 표 포함)", "", "| 항목 | 수 |", "|---|---|"]
+lines += ["", "## 원문 표 전체(틀로 풀린 표 포함)", "",
+          "변환 코드가 받은 원문 표 가운데 마크다운 표가 되지 않은 것: 틀로 풀린 표는 목록이나 표를 옆으로 나란히 놓으려고 "
+          "표의 틀만 빌린 것이라, 표로 옮기지 않고 칸의 내용을 위에서 아래로 적었다(`decisions/stage2.md` 2026-10-14 "
+          "표 규칙 ㉣㉤). 비어서 빠진 표는 글자가 없는 표다(춘천 한국어 문서 '교육 기관' 절).", "",
+          "| 항목 | 수 |", "|---|---|"]
 lines += [f"| {k} | {v} |" for k, v in all_calls.items()]
 lines += ["", f"## 한 칸에 값이 둘 들어 줄끼리 짝을 이루는 표 (0개)", "",
           f"후보 표 {len(pair)}개(한 줄에서 칸 둘 이상이 같은 수의 조각으로 나뉜 줄이 있는 표)를 AI가 전부 읽었다. 짝을 이루는 표는 없었다.", ""]
