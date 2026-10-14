@@ -411,6 +411,16 @@ for head, nxt in [("- Area", "  - Metropolitan city: 770.04 km2 (297.31 sq mi)")
 bad += [f"{k}:{n} '{l[:30]}'" for k, v in LINES.items() for n, l in enumerate(v, 1) if l.startswith(("- •", "  - •"))]
 report("26. 부산 영어 정보 상자의 묶음이 들여 쓰였고 어느 파일에도 '•'로 시작하는 목록 줄이 없다", bad)
 
+# 28
+bad = []
+ls = LINES.get("wiki-ko-cheongju", [])
+if not any(l.startswith("|") and "36 국도 제36호선" in l and "가로수로, 사직대로, 상당로, 충청대로, 1순환로" in l for l in ls):
+    bad.append("청주: 일반 도로 표 첫 줄의 '36 국도 제36호선', '가로수로, ...' 칸이 한 줄에 없음")
+ls = LINES.get("wiki-ko-chuncheon", [])
+if not any(l.startswith("|") and "한국방송통신대학교 강원지역대학" in l for l in ls):
+    bad.append("춘천: 교육 기관 표에 '한국방송통신대학교 강원지역대학' 칸이 없음")
+report("28. 머리글 줄이 없는 표에서 첫 줄에만 글자가 있는 열이 남아 있다 (청주 일반 도로, 춘천 교육 기관)", bad)
+
 # 15
 bad = []
 runs = []

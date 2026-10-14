@@ -313,9 +313,13 @@ def table_items(table):
         if not all(src[i] is None or src[i][c] == src[i][c - 1] for i in rows):
             cols.append(c)
     head, body = [grid[rows[0]][c] for c in cols], [[grid[i][c] for c in cols] for i in rows[1:]]
-    # 머리글 줄을 뺀 모든 줄에서 글자가 없는 열은 머리글까지 지운다.
+    # 머리글 줄을 뺀 모든 줄에서 글자가 없는 열은 머리글까지 지운다. 첫 줄이 머리글(th)이 아닌 표는
+    # 첫 줄도 내용 줄이므로 첫 줄에만 글자가 있는 열도 남긴다(마크다운 머리글 자리에는 그대로 첫 줄을 쓴다).
     # 머리글 줄밖에 없는 표는 줄이 없어 모든 열이 비게 되므로, 머리글 칸이 빈 열만 지운다.
-    keep = [c for c in range(len(head)) if any(r[c] for r in body)] if body else [c for c in range(len(head)) if head[c]]
+    if not all_th[rows[0]]:
+        keep = [c for c in range(len(head)) if head[c] or any(r[c] for r in body)]
+    else:
+        keep = [c for c in range(len(head)) if any(r[c] for r in body)] if body else [c for c in range(len(head)) if head[c]]
     head, body = [head[c] for c in keep], [[r[c] for c in keep] for r in body]
     if not head:
         return out + below
