@@ -513,6 +513,8 @@ def save_collected(docs, rows):
 def main():
     ap = argparse.ArgumentParser(description="받아 둔 원본에서 마크다운을 만든다.")
     ap.add_argument("--only", nargs="+", metavar="DOC_ID", help="그 문서만 바꾼다")
+    ap.add_argument("--verify", action="store_true",
+                    help="파일과 기록을 쓰지 않고, 다시 만든 마크다운의 해시를 기록과 견준다")
     args = ap.parse_args()
 
     docs = yaml.safe_load(DOCS.read_text(encoding="utf-8"))["documents"]
@@ -522,9 +524,11 @@ def main():
             sys.exit(f"documents.yaml에 없는 doc_id: {sorted(unknown)}")
     rows = load_collected()
     done = {r["doc_id"]: r for r in rows}
-    MARKDOWN.mkdir(parents=True, exist_ok=True)
+    if not args.verify:
+        MARKDOWN.mkdir(parents=True, exist_ok=True)
 
     made, skipped = 0, 0
+    same, differ, missing = 0, 0, 0
     for d in docs:
         doc_id = d["doc_id"]
         if args.only and doc_id not in args.only:
@@ -534,6 +538,19 @@ def main():
             continue  # 아직 바꾸는 함수가 없는 출처
         row = done.get(doc_id)
         raw_path = CORPUS / row["raw_file"] if row and row.get("raw_file") else None
+        if args.verify:
+            if raw_path is None or not raw_path.is_file() or not row.get("markdown_sha256"):
+                missing += 1
+                print(f"{doc_id}  없음")
+                continue
+            digest = hashlib.sha256(CONVERT[kind](d, raw_path.read_bytes()).encode("utf-8")).hexdigest()
+            if digest == row["markdown_sha256"]:
+                same += 1
+                print(f"{doc_id}  같음")
+            else:
+                differ += 1
+                print(f"{doc_id}  다름")
+            continue
         if raw_path is None or not raw_path.is_file():
             skipped += 1
             print(f"{doc_id}  건너뜀: 원본이 없음")
@@ -545,6 +562,9 @@ def main():
         row["markdown_sha256"] = hashlib.sha256(body).hexdigest()
         made += 1
         print(f"{doc_id}  만듦  {len(text)}글자")
+    if args.verify:
+        print(f"\n같음 {same}, 다름 {differ}, 없음 {missing}")
+        sys.exit(1 if differ or missing else 0)
     save_collected(docs, rows)
 
     print(f"\n만듦 {made}, 건너뜀 {skipped}")

@@ -412,22 +412,20 @@ bad += [f"{k}:{n} '{l[:30]}'" for k, v in LINES.items() for n, l in enumerate(v,
 report("26. 부산 영어 정보 상자의 묶음이 들여 쓰였고 어느 파일에도 '•'로 시작하는 목록 줄이 없다", bad)
 
 # 15
-def hashes():
-    return {d["doc_id"]: hashlib.sha256((MARKDOWN / f"{d['doc_id']}.md").read_bytes()).hexdigest()
-            for d in DOCS if (MARKDOWN / f"{d['doc_id']}.md").is_file()}
-
-
-runs = []
 bad = []
+runs = []
 for _ in range(2):
-    r = subprocess.run([sys.executable, str(ROOT / "src" / "corpus" / "build.py")],
+    r = subprocess.run([sys.executable, str(ROOT / "src" / "corpus" / "build.py"), "--verify"],
                        capture_output=True, text=True)
+    runs.append(r.stdout)
     if r.returncode != 0:
-        bad.append(f"build.py가 실패함: {r.stderr[-200:]}")
-    runs.append(hashes())
-if len(runs[0]) != len(DOCS):
-    bad.append(f"해시를 낸 파일이 {len(runs[0])}개")
-bad += [f"{k}: 두 번의 해시가 다름" for k in runs[0] if runs[0][k] != runs[1].get(k)]
-report("15. build.py를 두 번 돌려도 28개 파일의 해시가 같다", bad)
+        bad += [f"{l}" for l in r.stdout.splitlines() if l.endswith(("다름", "없음"))]
+        if not any(l.endswith(("다름", "없음")) for l in r.stdout.splitlines()):
+            bad.append(f"build.py --verify가 실패함: {r.stderr[-200:]}")
+if f"같음 {len(DOCS)}," not in runs[0]:
+    bad.append(f"같음이 {len(DOCS)}개가 아님")
+if runs[0] != runs[1]:
+    bad.append("두 번의 출력이 다름")
+report(f"15. 원본으로 다시 만든 마크다운 {len(DOCS)}개의 해시가 기록과 같다 (두 번, 파일을 쓰지 않음)", bad)
 
 sys.exit(0 if all(results) else 1)
