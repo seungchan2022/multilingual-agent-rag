@@ -5,6 +5,7 @@
 - 1차 검토: 2026-10-14 20:45:53~21:05:37, `gpt-6.1-sol`, `max` (세션 기록 `~/.codex/sessions/2026/10/14/rollout-2026-10-14T20-45-54-…jsonl`에서 확인)
 - 1차 검토에 넘긴 "이번 검토" 부분은 아래 "1차 요청"에 그대로 옮겼다. 어느 `decisions/` 파일을 열라고는 적지 않았다(이슈 ⑦을 보려는 것)
 
+- 2차 검토: 2026-10-14 22:27:49~22:43:18, `gpt-6.1-sol`, `max`. 결과 원문은 아래 "2차 지적 원문"
 ## 1차 지적의 처리
 
 (지적마다 판정과 처리 내용을 사용자가 정하는 대로 적는다)
@@ -112,3 +113,44 @@
 **문제없다고 판단한 부분**  
 문서 목록·원본·마크다운·수집 기록은 28개로 일치하며, 한국어·영어 각 14개이고 출처 조건을 충족합니다. 현재 환경의 검사 27개는 통과했고, 저장된 사실·표 집계는 재계산과 일치하며 지시서의 문서 목록과 자리 안내도 맞습니다.  
 실제 재수집과 커밋 훅의 환경 변경 실행은 확인하지 않았습니다. 최종 평가용 질문은 찾거나 열지 않았습니다.
+
+## 2차 지적 원문
+
+**1차 지적 6개는 모두 해소됐습니다. 고치는 과정에서 추가된 산출물에서 보통 문제 3개를 찾았습니다. 심각한 새 문제는 발견하지 못했습니다.**
+
+| 1차 지적 | 판정 | 확인 근거 |
+|---|---|---|
+| 1. 표 첫 줄 내용 삭제 | 해소됨 | 두 누락이 복구됐고 검사 28·29번 통과. 표 글자 대조 결과도 저장본과 일치 |
+| 2. 검색 키 없는 사실 자동 통과 | 해소됨 | 자동 통과를 차단했고, 9개에 대조 기록과 별도 판정을 남김 |
+| 3. 제외할 값이 집계에 포함 | 해소됨 | 기존 5개를 포함한 29개 제외. 재계산도 한국어 93개·표 34개·연결 후보 87개, 영어 100개·표 39개·연결 후보 64개와 일치 |
+| 4. stage와 검사 환경 불일치 | 해소됨 | 버전 파일 불일치를 거부하는 코드 확인. 거부 분기도 모의 실행으로 확인 |
+| 5. 사용자 확인 기록 누락 | 해소됨 | [판단 기록 37·38번째 줄](/Users/seungchan/Workspace/MultilingualAgentRAG/decisions/judgments.md:37)에 대상과 확인 범위가 기록됨 |
+| 6. 표 조사 수량 설명 오류 | 해소됨 | HTML 123개·CSV 2개로 구분됐고, 줄바꿈 후보 분류도 18·4·1로 일치 |
+
+1. **문제**: 서로 다른 사건을 충돌로 판정해 사용 가능한 사실을 제외했습니다. [강릉 판정:12](/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-en-gangneung.answer.json:12), [excluded.json:7](/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/excluded.json:7), [진행 안내:90](/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/final_set_guide.md:90).
+
+   **근거**: [강릉 마크다운의 9·10번째 줄](/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-gangneung.md:9)은 **시 설치 1955년**과 **명주 지역 합병 1995년**을 별도 항목으로 구분합니다. 본문 38번째 줄도 1995년 사건을 합병으로 설명합니다. 그런데 판정은 1955년만 인용해 두 사건을 같은 사실의 다른 값으로 묶었습니다. 이는 지시문의 “같은 대상의 같은 속성” 조건에 맞지 않습니다.
+
+   **심각도**: 보통
+
+   **고칠 방법**: `강릉시_en_03`을 합병 사건으로 구분해 판정을 고치고 제외 목록에서 빼십시오. 관련 집계·판단 기록·충돌 목록·진행 안내도 함께 다시 만드십시오.
+
+2. **문제**: 결측값이 있는 부분합을 완전한 합처럼 사용해 충돌을 확정했습니다. [천안 판정:3](/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-ko-cheonan.answer.json:3), [excluded.json:9](/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/excluded.json:9).
+
+   **근거**: 서북구의 알려진 동별 인구 합은 330,499명이지만, [원문 표 91·92번째 줄](/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-cheonan.md:91)의 불당1·2동 인구는 `-`입니다. 따라서 이 합만으로 소계 400,566명이 틀렸다고 확정할 수 없습니다. [판단 기록:36](/Users/seungchan/Workspace/MultilingualAgentRAG/decisions/judgments.md:36)은 같은 두 결측칸 때문에 **면적 합은 대조할 수 없다**고 정정했지만, 인구에는 같은 처리를 적용하지 않았습니다.
+
+   **심각도**: 보통
+
+   **고칠 방법**: 결측칸이 있는 합계 대조는 검증 불가로 기록하십시오. 다른 독립적인 충돌 근거가 있다면 그 근거를 제외 사유로 쓰고, 없다면 현재의 부분합만으로 제외를 확정하지 마십시오. 충돌 목록과 안내서에도 같은 처리를 적용하십시오.
+
+3. **문제**: 사실 검사에서 적용한 반올림 예외가 새 최종 평가셋 지시서에 빠졌습니다. [지시서:115](/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/final_set_instructions.md:115), [진행 안내:38](/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/final_set_guide.md:38).
+
+   **근거**: 문서별 검사 지시문은 반올림·어림 표현을 충돌로 보지 않습니다. 실제 [경주 판정:40](/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-ko-gyeongju.answer.json:40)도 본문의 **1,091 mm**와 표의 **1,090.9 mm**를 같은 값으로 인정했습니다. 반면 새 지시서는 다른 값이면 제외하도록 하고 날짜가 다른 경우만 예외로 설명합니다. 그대로 따르면 사실 세기에서 허용한 값을 질문 생성에서는 잘못 제외할 수 있습니다.
+
+   **심각도**: 보통
+
+   **고칠 방법**: 지시서와 진행 안내에 “동일 단위에서 표시 자리수에 맞게 반올림하면 같은 값인 경우는 충돌로 보지 않는다”는 예외를 명시하십시오.
+
+**문제없다고 판단한 부분**  
+문서 28개·언어별 14개·출처 조건, 재현 및 해시 검사 29개, 저장된 사실·표 집계의 재계산은 일치했습니다.  
+실제 부분 stage와 환경 변경을 동반한 훅 실행, 사용자 확인의 대화 원문은 확인하지 못했습니다. 파일은 수정하지 않았고 최종 평가용 질문은 찾거나 열지 않았습니다.
