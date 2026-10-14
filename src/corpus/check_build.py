@@ -387,6 +387,18 @@ for d in DOCS:
         bad.append(f"{d['doc_id']}: 해시가 파일과 다름")
 report(f"25. collected.yaml의 {len(DOCS)}줄에 마크다운 파일과 해시가 있고 맞다", bad)
 
+# 27
+bad = []
+for d in DOCS:
+    r = by.get(d["doc_id"])
+    if not r or not r.get("raw_file") or not r.get("raw_sha256"):
+        bad.append(f"{d['doc_id']}: raw_file/raw_sha256이 없음")
+    else:
+        p = CORPUS / r["raw_file"]
+        if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest() != r["raw_sha256"]:
+            bad.append(f"{d['doc_id']}: 원본의 해시가 기록과 다름")
+report(f"27. collected.yaml의 {len(DOCS)}줄에 원본 파일과 해시가 있고 맞다", bad)
+
 # 26
 bad = []
 ls = LINES.get("wiki-en-busan", [])
