@@ -12,6 +12,8 @@
     수 하나가 상관없는 자리에 나온 것(연도 등)은 겹침으로 보지 않는다. 처음에는 낱말이 나오기만 하면 겹침으로 봤는데
     279개 가운데 194개가 걸려(대부분 연도) 읽을 수 없었다. 바꾼 것은 decisions/stage2.md에 적었다.
     그 자리를 사람이 읽고 내린 판정은 cleared.json에 {사실의 id: "같은 사실 아님" 또는 "같은 사실"}로 적는다.
+ ③ 찾을 낱말(nums, names)이 하나도 없는 사실은 검사할 수 없으므로 통과시키지 않고 "겹칠 수 있음"으로 두어 사람이 읽게 한다(판정은 cleared.json).
+ ④ excluded.json({사실의 id: 이유})에 있는 사실은 질문에 쓰지 않기로 한 것이다. 상태는 그대로 두고 "excluded"에 이유를 달아 세기에서 뺀다.
 """
 import itertools, json, re, sys
 from pathlib import Path
@@ -39,6 +41,7 @@ else:
         name, lang = f.stem[len("extra_"):].rsplit("_", 1)
         text[("포털:" + name, lang)] = norm(f.read_text(encoding="utf-8"))
 cleared = json.loads((HERE / "cleared.json").read_text(encoding="utf-8")) if (HERE / "cleared.json").exists() else {}
+excluded = json.loads((HERE / "excluded.json").read_text(encoding="utf-8")) if (HERE / "excluded.json").exists() else {}
 
 facts = []
 for f in sorted((HERE / "facts").glob("*.json")):
@@ -93,9 +96,12 @@ for x in facts:
         for k, q, a in strong[:2]:
             hits.append({"doc": f"{city}_{lang}", "key": k + (" + " + a if a else ""), "around": tn[max(0, q - 100): q + 100]})
     x["hits"] = hits
+    no_key = not nums and not names   # 찾을 낱말이 없으면 hits가 비어도 검사한 것이 아니다
+    if x["id"] in excluded:
+        x["excluded"] = excluded[x["id"]]
     if not x["quote_ok"]:
         x["status"] = "버림: 구절이 원문에 없음"
-    elif not hits:
+    elif not hits and not no_key:
         x["status"] = "통과"
     elif cleared.get(x["id"]) == "같은 사실 아님":
         x["status"] = "통과(읽고 확인)"
@@ -104,11 +110,14 @@ for x in facts:
     else:
         x["status"] = "겹칠 수 있음"
         lines.append(f"## {x['id']} [{x['kind']}] {x['fact']} (값: {x.get('value')})")
+        if no_key:
+            lines.append("   - 찾을 낱말이 없음(반대 언어 문서를 읽어 확인해야 함)")
         lines += [f"   - {h['doc']} '{h['key']}': …{h['around']}…" for h in hits]
 (HERE / f"checked{SUFFIX}.json").write_text(json.dumps(facts, ensure_ascii=False, indent=1), encoding="utf-8")
 (HERE / f"hits{SUFFIX}.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-ok = [x for x in facts if x["status"].startswith("통과")]
+passed = [x for x in facts if x["status"].startswith("통과")]
+ok = [x for x in passed if "excluded" not in x]
 print("상태별:", {s: sum(1 for x in facts if x["status"] == s) for s in sorted({x["status"] for x in facts})})
 out = {}
 for lang in ("ko", "en"):
@@ -119,6 +128,7 @@ for lang in ("ko", "en"):
                  "한 언어 도시의 문서에서": sum(1 for x in L if x["group"] == "한 언어 도시"),
                  "두 언어 도시의 문서에서": sum(1 for x in L if x["group"] == "두 언어 도시"),
                  "여러 문서 연결 후보(같은 종류의 사실 둘)": len(multi),
-                 "종류별 문서 수": {k: len({x["city"] for x in L if x["kind"] == k}) for k in sorted({x["kind"] for x in L}) if k != "other"}}
+                 "종류별 문서 수": {k: len({x["city"] for x in L if x["kind"] == k}) for k in sorted({x["kind"] for x in L}) if k != "other"},
+                 "통과했지만 질문에 안 씀": sum(1 for x in passed if x["lang"] == lang and "excluded" in x)}
     print(lang, json.dumps(out[lang], ensure_ascii=False))
 (HERE / f"counts{SUFFIX}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

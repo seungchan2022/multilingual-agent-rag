@@ -1,40 +1,42 @@
 {
  "ko": {
-  "통과한 사실": 110,
-  "그중 표에서 나온 사실": 39,
-  "한 언어 도시의 문서에서": 67,
-  "두 언어 도시의 문서에서": 43,
-  "여러 문서 연결 후보(같은 종류의 사실 둘)": 197,
+  "통과한 사실": 93,
+  "그중 표에서 나온 사실": 34,
+  "한 언어 도시의 문서에서": 55,
+  "두 언어 도시의 문서에서": 38,
+  "여러 문서 연결 후보(같은 종류의 사실 둘)": 87,
   "종류별 문서 수": {
-   "annual_mean_temp": 2,
-   "annual_precip": 3,
-   "area": 7,
+   "annual_mean_temp": 1,
+   "annual_precip": 2,
+   "area": 4,
    "city_status_year": 4,
-   "districts_count": 3,
-   "population": 8,
+   "districts_count": 2,
+   "population": 6,
    "record_high": 2,
    "record_low": 2,
-   "universities_count": 2
-  }
+   "universities_count": 1
+  },
+  "통과했지만 질문에 안 씀": 17
  },
  "en": {
-  "통과한 사실": 112,
-  "그중 표에서 나온 사실": 46,
-  "한 언어 도시의 문서에서": 74,
-  "두 언어 도시의 문서에서": 38,
-  "여러 문서 연결 후보(같은 종류의 사실 둘)": 80,
+  "통과한 사실": 100,
+  "그중 표에서 나온 사실": 39,
+  "한 언어 도시의 문서에서": 68,
+  "두 언어 도시의 문서에서": 32,
+  "여러 문서 연결 후보(같은 종류의 사실 둘)": 64,
   "종류별 문서 수": {
    "annual_mean_temp": 4,
    "annual_precip": 4,
    "annual_sunshine_percent": 7,
-   "city_status_year": 3,
+   "city_status_year": 2,
    "districts_count": 4,
    "koppen": 3,
-   "population": 6,
+   "population": 2,
    "record_high": 5,
    "record_low": 5,
    "sister_cities_count": 1,
    "universities_count": 1
-  }
+  },
+  "통과했지만 질문에 안 씀": 12
  }
 }
