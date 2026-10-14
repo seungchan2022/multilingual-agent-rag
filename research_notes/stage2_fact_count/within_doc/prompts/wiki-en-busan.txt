@@ -1,0 +1,40 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-busan.md`
+
+Below is a fixed list of 20 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-en-busan.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-en-busan' -A20 | head -25` and fix your file until the line for wiki-en-busan shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 부산광역시_en_01: 부산광역시의 인구는 2024년 기준 330만 명이 넘는다. (값: 3.3 million (2024)) — 원문 구절: it has a population of over 3.3 million as of 2024
+- 부산광역시_en_02: 부산광역시는 15개 구와 1개 군으로 나뉜다. (값: 15개 구, 1개 군) — 원문 구절: Today, Busan has divided into fifteen gu and one gun (county).
+- 부산광역시_en_03: 부산은 1963년 경상남도에서 분리되어 대한민국 최초의 직할시가 되었다. (값: 1963) — 원문 구절: In 1963, Busan separated from South Gyeongsang Province to become the first Directly Governed City of South Korea.
+- 부산광역시_en_04: 부산의 쾨펜 기후 구분은 Cfa이며 Cwa에 가깝다. (값: Cfa (Cwa에 인접)) — 원문 구절: (Köppen: Cfa, bordering on Cwa)
+- 부산광역시_en_05: 부산의 역대 최고 기온은 38.8 °C이다. (값: 38.8 °C) — 원문 구절: The highest temperature ever recorded is 38.8 °C (101.8 °F)
+- 부산광역시_en_06: 부산의 역대 최저 기온은 -14.0 °C이다. (값: −14.0 °C) — 원문 구절: the lowest temperature ever recorded is −14.0 °C (6.8 °F)
+- 부산광역시_en_07: 부산의 연평균 기온은 15.0 °C이다. (값: 15.0 °C) — 원문 구절: Daily mean °C (°F) | 3.6 (38.5) | 5.4 (41.7) | 9.1 (48.4) | 13.8 (56.8) | 17.9 (64.2) | 21.0 (69.8) | 24.4 (75.9) | 26.1 (79.0) | 22.6 (72.7) | 17.9 (64.2) | 11.9 (53.4) | 5.8 (42.4) | 15.0 (59.0)
+- 부산광역시_en_08: 부산의 연 강수량은 1,576.7 mm이다. (값: 1,576.7 mm) — 원문 구절: nches) | 34.5 (1.36) | 49.6 (1.95) | 89.7 (3.53) | 140.9 (5.55) | 155.9 (6.14) | 188.4 (7.42) | 326.8 (12.87) | 266.5 (10.49) | 160.6 (6.32) | 79.6 (3.13) | 50.4 (1.98) | 33.8 (1.33) | 1,576.7 (62.07)
+- 부산광역시_en_09: 부산의 연간 가능 일조율은 52.3%이다. (값: 52.3) — 원문 구절: Percentage possible sunshine | 63.6 | 59.3 | 52.0 | 53.6 | 51.1 | 41.4 | 37.5 | 48.2 | 44.9 | 59.6 | 62.6 | 67.0 | 52.3
+- 부산광역시_en_10: 부산문화회관의 좌석 수는 2,389석이다. (값: 2,389) — 원문 구절: 1 | Busan Cultural Center | 2,389
+- 부산광역시_en_11: 벡스코 오디토리움의 좌석 수는 2,644석이다. (값: 2,644) — 원문 구절: 3 | BEXCO Auditorium | 2,644
+- 부산광역시_en_12: 부산대학교병원의 병상 수는 1180개이다. (값: 1180) — 원문 구절: Pusan National University Hospital at Busan | 1180
+- 부산광역시_en_13: 동아대학교병원의 병상 수는 920개이다. (값: 920) — 원문 구절: Dong-A University Hospital | 920
+- 부산광역시_en_14: 롯데 자이언츠의 홈구장 사직야구장의 수용 인원은 28,500명이다. (값: 28,500) — 원문 구절: Lotte Giants | KBO League | Sajik Baseball Stadium | 28,500 | Baseball
+- 부산광역시_en_15: 부산 아이파크의 홈구장 부산 구덕운동장의 수용 인원은 12,349명이다. (값: 12,349) — 원문 구절: Busan IPark | K League 2 | Busan Gudeok Stadium | 12,349 | Football
+- 부산광역시_en_16: 부산의 인구는 1990년 3,798,113명으로 표에서 가장 많았다. (값: 3,798,113) — 원문 구절: 1990 | 3,798,113 | +20.2%
+- 부산광역시_en_17: 부산항은 2020년 컨테이너 물동량 2,181만 TEU를 처리했다. (값: 21.81 million TEU) — 원문 구절: the port of Busan processed 21.81 million TEU of container cargo volume in 2020
+- 부산광역시_en_18: 2002년 부산 아시안 게임에는 44개국 9,900명의 선수가 38개 종목에 참가했다. (값: 9,900명, 44개국, 38개 종목) — 원문 구절: 9,900 athletes from 44 countries competed in 38 sports
+- 부산광역시_en_19: 부산은 1876년 강화도 조약에 따라 한국 최초의 국제 항구가 되었다. (값: 1876) — 원문 구절: In 1876, Busan became the first international port in Korea under the terms of the Treaty of Ganghwa.
+- 부산광역시_en_20: 2003년 9월 12일 태풍 매미로 부산에서 48명이 넘게 사망했다. (값: 48명 이상) — 원문 구절: An unusually severe storm on September 12, 2003, Typhoon Maemi, also caused damage to ships and buildings and resulted in over 48 fatalities.

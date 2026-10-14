@@ -1,0 +1,34 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-chuncheon.md`
+
+Below is a fixed list of 14 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-en-chuncheon.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-en-chuncheon' -A20 | head -25` and fix your file until the line for wiki-en-chuncheon shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 춘천시_en_01: 춘천시의 연간 가능 일조율은 47.7%이다. (값: 47.7%) — 원문 구절: Percentage possible sunshine | 54.1 | 56.6 | 53.3 | 54.5 | 50.2 | 45.3 | 32.1 | 40.1 | 46.6 | 50.0 | 46.4 | 50.0 | 47.7
+- 춘천시_en_02: 춘천시의 연간 평균 눈 오는 날은 27.7일이다. (값: 27.7일) — 원문 구절: Average snowy days | 8.8 | 6.3 | 3.9 | 0.2 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.8 | 6.7 | 27.7
+- 춘천시_en_03: 춘천시의 2026년 외국인 포함 인구는 290,281명이다. (값: 290,281명) — 원문 구절: Total | 1,166.8 | 290,281
+- 춘천시_en_04: 춘천시의 자매 도시에는 이탈리아 에밀리아로마냐주 파르마가 있다. (값: 파르마(이탈리아)) — 원문 구절: Parma | Emilia-Romagna | Italy
+- 춘천시_en_05: 춘천시의 자매 도시에는 덴마크 남덴마크 지역의 바일레가 있다. (값: 바일레(덴마크)) — 원문 구절: Vejle | Southern Denmark | Denmark
+- 춘천시_en_06: 춘천시의 역대 최저 기온 -27.9도는 1969년 2월 6일에 관측되었다. (값: 1969년 2월 6일) — 원문 구절: The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)
+- 춘천시_en_07: 춘천시의 역대 최고 기온 39.5도는 2018년 8월 1일에 관측되었다. (값: 2018년 8월 1일) — 원문 구절: the highest was 39.5 °C (103 °F) (1 August 2018)
+- 춘천시_en_08: 춘천시의 춘천댐, 의암댐, 소양강댐은 각각 1965년, 1967년, 1973년에 지어졌다. (값: 1965, 1967, 1973) — 원문 구절: Chuncheon Dam, Uiam Dam, and Soyang Dam were built in 1965, 1967, and 1973 respectively.
+- 춘천시_en_10: 춘천시의 청평사는 973년에 세워진 절이고 문 회전문은 보물이다. (값: 973년) — 원문 구절: Cheongpyeongsa is a Buddhist temple established in 973. Its gate, Hoejeonmun, is designated as Treasure.
+- 춘천시_en_11: 춘천 닭갈비는 1960년대 돼지고기 식당 주인 김영석이 처음 만든 것으로 알려져 있다. (값: 김영석, 1960년대) — 원문 구절: Kim Yeong-seok, an owner of a pork restaurant, is credited with inventing the dish in the 1960s
+- 춘천시_en_12: 춘천시의 레고랜드 코리아는 2022년에 문을 열었고 세계에서 10번째, 두 번째로 큰 레고랜드이다. (값: 2022년, 10번째) — 원문 구절: Legoland Korea Resort, the 10th Legoland theme park and the 2nd largest in the world, opened in 2022.
+- 춘천시_en_13: 춘천시의 대학은 강원대 춘천캠퍼스와 한림대 2곳이고, 전문대학 3곳과 교육대학 1곳이 있다. (값: 대학교 2곳) — 원문 구절: one university of education (Chuncheon National University of Education), two universities (Kangwon National University Chuncheon Campus and Hallym University)
+- 춘천시_en_14: 춘천시외버스터미널은 2025년 기준 41개 노선을 운행한다. (값: 41개 노선) — 원문 구절: Chuncheon Intercity Bus Terminal operates 41 routes as of 2025.
+- 춘천시_en_15: 춘천마임축제는 1993년에 시작되었다. (값: 1993년) — 원문 구절: Chuncheon Mime Festival which began in 1993

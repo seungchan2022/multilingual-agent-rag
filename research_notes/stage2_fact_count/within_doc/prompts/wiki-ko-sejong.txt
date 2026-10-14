@@ -1,0 +1,37 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-sejong.md`
+
+Below is a fixed list of 17 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-ko-sejong.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-ko-sejong' -A20 | head -25` and fix your file until the line for wiki-ko-sejong shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 세종특별자치시_ko_01: 세종특별자치시의 2025년 12월 말 기준 주민등록 인구는 391,965명이다. (값: 391,965명 (2025년 12월 말)) — 원문 구절: 2025년 12월 말 기준 세종특별자치시의 주민등록 인구는 391,965명, 세대수는 165,220세대이다.
+- 세종특별자치시_ko_02: 세종특별자치시의 면적은 465km2로 서울시 면적의 약 70%이다. (값: 465km2) — 원문 구절: 면적은 465km2로 서울시 면적의 약 70%며
+- 세종특별자치시_ko_03: 세종특별자치시는 2012년 7월 1일에 출범하였다. (값: 2012년 7월 1일) — 원문 구절: 2012년 7월 1일에 출범하였다.
+- 세종특별자치시_ko_04: 세종특별자치시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다. (값: 1읍 9면 14행정동 18법정동 122리) — 원문 구절: 시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다.
+- 세종특별자치시_ko_05: 세종특별자치시는 대한민국의 유일한 특별자치시이다. (값: 대한민국의 유일한 특별자치시) — 원문 구절: 세종특별자치시(世宗特別自治市, 영어: Sejong City)는 대한민국의 유일한 특별자치시이다.
+- 세종특별자치시_ko_07: 1977년 박정희 정부의 백지계획은 수도 이전 최종 후보지로 공주군 장기면(현 세종특별자치시 장군면)을 선정하였다. (값: 공주군 장기면 (현 장군면)) — 원문 구절: 최종적으로 공주군 장기면(현 세종특별자치시 장군면)을 선정하였다.
+- 세종특별자치시_ko_08: 헌법재판소는 2004년 10월 '신행정수도 건설 특별법'에 위헌 결정을 내렸다. (값: 2004년 10월) — 원문 구절: 헌법재판소는 2004년 10월 서울이 수도라는 관습 헌법이 존재한다는 판단을 내리며
+- 세종특별자치시_ko_09: 세종특별자치시의 주민등록 인구는 2015년 10월에 20만 명을 돌파했다. (값: 2015년 10월) — 원문 구절: 2015년 10월: 세종특별자치시의 주민등록 인구가 20만 명을 돌파하였다.
+- 세종특별자치시_ko_10: 세종특별자치시 조치원읍의 면적은 13.56km2, 인구는 40,796명, 세대는 20,738이다. (값: 인구 40,796명) — 원문 구절: | 조치원읍 | 鳥致院邑 | 13.56 | 40,796 | 20,738 |
+- 세종특별자치시_ko_11: 세종특별자치시의 2023년 총인구는 386,525명이다. (값: 386,525명 (2023년)) — 원문 구절: | 2023년 | 386,525 |
+- 세종특별자치시_ko_13: 세종특별자치시에서 중앙행정기관 이전은 2012년 9월 14일 국무총리실의 이전으로 시작되었다. (값: 2012년 9월 14일) — 원문 구절: 2012년 9월 14일 국무총리실의 이전을 시작으로 중앙행정기관의 본격적인 정부세종청사 이주가 시작되었다.
+- 세종특별자치시_ko_14: 세종특별자치시의 정부세종청사로 이전한 기관은 중앙행정기관 16개와 소속기관 20개를 합쳐 36개 기관이다. (값: 36개 기관) — 원문 구절: | 36개 기관 | 16개 기관 (9부, 2처, 2청, 1실, 2위원회) | 20개 기관 |
+- 세종특별자치시_ko_15: 세종특별자치시의 대통령기록관은 2015년 4월 신청사가 준공되었고 같은 해 11월 20일부터 업무를 개시했다. (값: 2015년 11월 20일) — 원문 구절: 같은 해 11월 20일부터 업무를 개시하였다.
+- 세종특별자치시_ko_16: 세종특별자치시에는 2012년 9월부터 대전 도시철도 1호선 반석역과 오송역 사이 30.7km 구간에 간선급행버스체계 B2가 운행되고 있다. (값: 30.7km) — 원문 구절: 대전 도시철도 1호선 반석역 ~ 행정중심복합도시 ~ 오송역 30.7km에 간선급행버스체계 B2를 운행하고 있다.
+- 세종특별자치시_ko_17: 세종특별자치시에서 열리는 축제 중 조치원 복숭아 축제는 8월에, 세종축제는 10월에 열린다. (값: 8월) — 원문 구절: | 조치원 복숭아 축제 | 8월 | 복숭아와 어울림, 복사꽃 새싹공연, 축하공연 | 복숭아축제추진위원회 |
+- 세종특별자치시_ko_18: 세종특별자치시에는 조치원읍에 고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스가 있다. (값: 고려대학교 세종캠퍼스, 홍익대학교 세종캠퍼스) — 원문 구절: 세종특별자치시에는 조치원읍에 고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스, 전의면에 대전가톨릭대학교, 장군면에 한국영상대학교가 있고
+- 세종특별자치시_ko_19: 2021년 9월 28일 국회법 개정으로 세종특별자치시에 국회 분원인 세종의사당을 두는 규정이 마련되었다. (값: 2021년 9월 28일) — 원문 구절: 2021년 9월 28일, 제21대 국회에서 국회법 개정을 통해 세종특별자치시에 국회 분원 의사당을 설치하도록 하는 법 규정이 마련됐다.

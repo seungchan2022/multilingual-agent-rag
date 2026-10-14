@@ -1,0 +1,36 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-andong.md`
+
+Below is a fixed list of 16 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-en-andong.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-en-andong' -A20 | head -25` and fix your file until the line for wiki-en-andong shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 안동시_en_01: 안동시의 인구는 2010년 10월 기준 167,821명이다. (값: 167,821 (October 2010)) — 원문 구절: with a population of 167,821 as of October 2010
+- 안동시_en_02: 안동시는 1개 읍, 13개 면, 10개 동으로 나뉜다. (값: 1 eup, 13 myeon, 10 dong) — 원문 구절: Andong is divided into 1 eup, 13 myeon and 10 dong.
+- 안동시_en_03: 안동시의 쾨펜 기후 구분은 Dwa(습윤 대륙성 기후)이다. (값: Dwa) — 원문 구절: Andong has a humid continental climate (Köppen: Dwa)
+- 안동시_en_04: 안동시의 연평균 기온은 12.2 °C이다. (값: 12.2 °C) — 원문 구절: | Daily mean °C (°F) | −1.8 (28.8) | 0.8 (33.4) | 6.0 (42.8) | 12.4 (54.3) | 17.8 (64.0) | 21.9 (71.4) | 24.8 (76.6) | 25.1 (77.2) | 20.0 (68.0) | 13.5 (56.3) | 6.4 (43.5) | −0.1 (31.8) | 12.2 (54.0) |
+- 안동시_en_05: 안동시의 연 강수량은 1,045.7 mm이다. (값: 1,045.7 mm) — 원문 구절: Average precipitation mm (inches) | 16.7 (0.66)
+- 안동시_en_06: 안동시의 연간 가능 일조율은 49.3%이다. (값: 49.3%) — 원문 구절: | Percentage possible sunshine | 59.9 | 59.7 | 54.1 | 55.6 | 51.4 | 43.4 | 33.4 | 39.8 | 40.5 | 52.0 | 53.5 | 58.9 | 49.3 |
+- 안동시_en_07: 안동시의 역대 최고 기온은 7월의 38.9 °C이다. (값: 38.9 °C) — 원문 구절: | Record high °C (°F) | 13.2 (55.8) | 23.2 (73.8) | 26.6 (79.9) | 32.1 (89.8) | 35.1 (95.2) | 35.7 (96.3) | 38.9 (102.0) |
+- 안동시_en_08: 안동시의 역대 최저 기온은 1월의 −20.4 °C이다. (값: −20.4 °C) — 원문 구절: | Record low °C (°F) | −20.4 (−4.7) | −18.6 (−1.5)
+- 안동시_en_10: 안동시의 연간 월평균 일조 시간 합계는 2,292.6시간이다. (값: 2,292.6 hours) — 원문 구절: | Mean monthly sunshine hours | 194.8 | 193.8 | 214.1 | 222.3 | 235.2 | 200.4 | 161.9 | 172.8 | 157.0 | 188.5 | 166.7 | 185.1 | 2,292.6 |
+- 안동시_en_11: 안동시의 7월 평균 강수량은 235.2 mm로 연중 가장 많다. (값: 235.2 mm) — 원문 구절: | 235.2 (9.26) | 226.4 (8.91)
+- 안동시_en_12: 안동시의 연간 강수일수(0.1 mm 이상)는 97.8일이다. (값: 97.8 days) — 원문 구절: | Average precipitation days (≥ 0.1 mm) | 4.9 | 4.9 | 7.2 | 8.0 | 8.7 | 9.6 | 14.2 | 13.9 | 9.0 | 5.7 | 6.2 | 5.5 | 97.8 |
+- 안동시_en_13: 안동시는 1999년 영국 엘리자베스 2세 여왕이 73번째 생일을 보낸 곳이다. (값: 1999) — 원문 구절: In 1999, Her Majesty the Queen Elizabeth II of the United Kingdom celebrated her 73rd birthday in the city.
+- 안동시_en_14: 안동시는 2016년 유네스코 학습도시 글로벌 네트워크에 가입했다. (값: 2016) — 원문 구절: Andong joined the UNESCO Global Network of Learning Cities in 2016.
+- 안동시_en_16: 안동 출신 학자 퇴계 이황(1501–1570)은 도산서원 건립을 시작했다. (값: 1501–1570) — 원문 구절: Toe-gye Yi Hwang (1501–1570), one of the most prominent of all Korean scholars, came from Andong.
+- 안동시_en_17: 안동댐은 1976년에 건설되어 안동에 안정적인 전력을 공급했다. (값: 1976) — 원문 구절: In 1976 the Andong Dam was built, providing the city with a reliable source of electricity.
+- 안동시_en_20: 안동시의 연평균 상대 습도는 66.2%이다. (값: 66.2%) — 원문 구절: | Average relative humidity (%) | 59.9 | 57.3 | 56.8 | 55.4 | 61.0 | 68.8 | 77.5 | 77.7 | 76.5 | 72.7 | 68.2 | 62.7 | 66.2 |

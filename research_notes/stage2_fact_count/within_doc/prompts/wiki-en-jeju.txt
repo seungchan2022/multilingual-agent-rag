@@ -1,0 +1,39 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-jeju.md`
+
+Below is a fixed list of 19 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-en-jeju.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-en-jeju' -A20 | head -25` and fix your file until the line for wiki-en-jeju shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 제주시_en_01: 제주시의 인구는 2024년 5월 기준 486,604명이다. (값: 486,604명 (2024년 5월)) — 원문 구절: The population of Jeju City is 486,604 people and 225,139 households
+- 제주시_en_02: 제주시의 인구 밀도는 2020년 기준 1제곱킬로미터당 503.18명이다. (값: 503.18명/km2 (2020)) — 원문 구절: The population density is 503.18 (per square km, 2020).
+- 제주시_en_03: 제주시는 1955년에 북제주군에서 분리되어 시가 되었다. (값: 1955) — 원문 구절: The city was separated from Bukjeju County in 1955.
+- 제주시_en_04: 제주시는 2006년 7월에 북제주군과 통합되었다. (값: 2006년 7월) — 원문 구절: That change was put into effect in July 2006.
+- 제주시_en_05: 제주시 일도1동 관측소 기준 연평균 기온은 16.2도이다. (값: 16.2 °C) — 원문 구절: | Daily mean °C (°F) | 6.1 (43.0) | 6.8 (44.2) | 9.8 (49.6) | 14.2 (57.6) | 18.3 (64.9) | 21.7 (71.1) | 26.2 (79.2) | 27.2 (81.0) | 23.3 (73.9) | 18.6 (65.5) | 13.3 (55.9) | 8.3 (46.9) | 16.2 (61.2) |
+- 제주시_en_06: 제주시 일도1동 관측소 기준 연 강수량은 1,502.3밀리미터이다. (값: 1,502.3 mm) — 원문 구절: | Average precipitation mm (inches) | 67.5 (2.66) | 57.2 (2.25) | 90.6 (3.57) | 89.7 (3.53) | 95.6 (3.76) | 171.2 (6.74) | 210.2 (8.28) | 272.3 (10.72) | 227.8 (8.97) | 95.1 (3.74) | 69.5 (2.74) | 55.6 (2.19) | 1,502.3 (59.15) |
+- 제주시_en_07: 제주시 일도1동 관측소 기준 연간 가능 일조율은 41.7퍼센트이다. (값: 41.7%) — 원문 구절: | Percentage possible sunshine | 22.2 | 34.0 | 42.8 | 49.8 | 49.2 | 39.7 | 44.7 | 47.2 | 43.5 | 50.7 | 40.2 | 27.4 | 41.7 |
+- 제주시_en_09: 제주시의 역대 최고 기온은 1942년 7월 25일에 기록한 37.5도이다. (값: 37.5 °C (1942-07-25)) — 원문 구절: The highest temperature ever recorded is 37.5 °C (99.5 °F) on 25 July 1942
+- 제주시_en_10: 제주시의 역대 최저 기온은 1977년 2월 16일에 기록한 영하 6.0도이다. (값: −6.0 °C (1977-02-16)) — 원문 구절: the lowest temperature ever recorded is −6.0 °C (21.2 °F) on 16 February 1977
+- 제주시_en_11: 제주시는 19개 동, 4개 읍, 3개 면으로 나뉜다. (값: 19개 동, 4개 읍, 3개 면) — 원문 구절: Jeju is divided into 19 neighbourhoods (dong), 4 towns (eup), and 3 townships (myeon):
+- 제주시_en_12: 제주시의 자매도시는 중국 구이린, 중국 라이저우, 프랑스 루앙, 일본 산다, 미국 산타로사, 일본 와카야마의 6곳이다. (값: 6 (원문에 수가 적혀 있지 않아 목록 항목을 세었다)) — 원문 구절: Jeju City is twinned with:
+- 제주시_en_13: 제주시의 인구는 1980년에 290,116명이었다. (값: 290,116명) — 원문 구절: | 1980 | 290,116 | — |
+- 제주시_en_14: 제주시의 인구는 2020년에 492,306명이었다. (값: 492,306명) — 원문 구절: | 2020 | 492,306 | +1.73% |
+- 제주시_en_15: 제주시 노형동의 2024년 인구는 54,954명이다. (값: 54,954명) — 원문 구절: | Nohyeong-dong | 노형동 | 54,954 |
+- 제주시_en_16: 제주시 애월읍의 2024년 인구는 38,009명이다. (값: 38,009명) — 원문 구절: | Aewol-eup | 애월읍 | 38,009 |
+- 제주시_en_17: 제주시 앞바다의 우도는 2016년에 방문객 223만 명을 맞았다. (값: 223만 명 (2016)) — 원문 구절: It received 2.23 million visitors in 2016.
+- 제주시_en_18: 제주시 중심부 가까이에 있는 제주 야구장은 8,500석 규모이다. (값: 8,500석) — 원문 구절: The 8,500-seat Jeju Baseball Stadium is near the center of the city.
+- 제주시_en_19: 제주시는 2012년에 김상오가 시장이 되었다. (값: 김상오 (2012)) — 원문 구절: In 2012 Sang-Oh Kim became mayor
+- 제주시_en_20: 2011년에 서울과 제주 사이를 오간 승객은 990만 명으로, 김포-제주 노선은 세계에서 가장 붐비는 항공 노선이었다. (값: 990만 명 (2011)) — 원문 구절: In 2011, 9.9 million passengers flew between the two cities of Seoul and Jeju

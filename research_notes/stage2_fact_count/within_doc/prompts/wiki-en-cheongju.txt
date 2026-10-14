@@ -1,0 +1,28 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-cheongju.md`
+
+Below is a fixed list of 8 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-en-cheongju.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-en-cheongju' -A20 | head -25` and fix your file until the line for wiki-en-cheongju shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 청주시_en_01: 청주시의 연간 가능 일조율은 49.7%이다. (값: 49.7%) — 원문 구절: | Percentage possible sunshine | 53.1 | 55.9 | 54.0 | 56.6 | 53.5 | 44.6 | 34.3 | 42.5 | 47.6 | 57.3 | 51.5 | 52.4 | 49.7 |
+- 청주시_en_04: 청주시는 중국 우한(후베이성)과 2000년에 자매결연했다. (값: 우한, 2000년) — 원문 구절: | Wuhan | Hubei | China | 2000 | |
+- 청주시_en_05: 청주시는 러시아 로스토프나도누(로스토프주)와 1999년에 자매결연했다. (값: 로스토프나도누, 1999년) — 원문 구절: | Rostov-on-Don | Rostov oblast | Russia | 1999 | |
+- 청주시_en_07: 청주시의 인구는 1970년 약 147,000명에서 2000년 582,158명으로 거의 4배가 되었다. (값: 1970년 147,000명, 2000년 582,158명) — 원문 구절: almost quadrupled its population from 147,000 in 1970 to 582,158 in 2000
+- 청주시_en_08: 청주 전투는 1593년에 일본군과 조선군 사이에 벌어졌다. (값: 1593년) — 원문 구절: In 1593, the Battle of Cheongju took place between Japanese forces and Joseon
+- 청주시_en_09: 청주시의 용두사지 철당간은 962년에 세워졌다. (값: 962년) — 원문 구절: Cheoldanggan, built in the year 962 in the center of the city
+- 청주시_en_12: 2023년 청주의 터널(지하차도) 침수로 차량 15대가 갇혀 최소 7명이 숨지고 11명이 실종 보고되었다. (값: 15대, 사망 7명 이상, 실종 11명) — 원문 구절: In 2023, the Cheongju tunnel flooded during the annual monsoon which trapped 15 vehicles and resulted in at least 7 deaths and 11 reported missing.
+- 청주시_en_14: 질병관리청과 식품의약품안전처 본부는 청주시 오송보건의료행정타운에 있다. (값: 질병관리청, 식품의약품안전처) — 원문 구절: The headquarters of the Korea Disease Control and Prevention Agency, and the Ministry of Food and Drug Safety are located in the Osong Health Technology Administration Complex.

@@ -1,0 +1,30 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-chuncheon.md`
+
+Below is a fixed list of 10 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-ko-chuncheon.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-ko-chuncheon' -A20 | head -25` and fix your file until the line for wiki-ko-chuncheon shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 춘천시_ko_01: 춘천시의 2025년 인구는 285,234명이다. (값: 285,234명) — 원문 구절: 2025 | 285,234 | +0.2%
+- 춘천시_ko_03: 춘천시 춘천기상관측소는 우두동에 있고 해발 95.61m이다. (값: 우두동, 해발 95.61m) — 원문 구절: 춘천기상관측소 (춘천시 우두동, 해발 95.61m)의 기후 자료
+- 춘천시_ko_04: 춘천시 퇴계동의 세대 수는 16,970이다. (값: 16,970세대) — 원문 구절: 퇴계동 | 退溪洞 | 4.13 | 16,970 | 44,653
+- 춘천시_ko_05: 춘천시는 2014년 3월 20일 미국 일리노이주 시카고와 자매결연을 맺었다. (값: 2014년 3월 20일) — 원문 구절: 일리노이주 시카고 | 미국 | 2014년 3월 20일
+- 춘천시_ko_06: 춘천시는 1991년 10월 29일 일본 야마구치현 호후시와 자매결연을 맺었다. (값: 1991년 10월 29일) — 원문 구절: 야마구치현 호후시 | 일본 | 1991년 10월 29일
+- 춘천시_ko_08: 춘천시는 1949년 8월 15일 춘천부를 춘천시로 개칭했다. (값: 1949년) — 원문 구절: 1949년 8월 15일 : 춘천부를 춘천시로 개칭하였다.
+- 춘천시_ko_10: 춘천시청 신청사는 2018년 5월 14일 개청했다. (값: 2018년 5월 14일) — 원문 구절: 2018년 5월 14일 : 본래 춘천시청 자리에 춘천시청 신청사를 개청했다.
+- 춘천시_ko_12: 춘천시를 찾는 관광객은 연간 1000만여 명이다. (값: 연간 1000만여 명) — 원문 구절: 연간 1000만여 명에 달하여 관광 수입도 많다
+- 춘천시_ko_13: 한화 이글스는 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 쓴다. (값: 2015년부터) — 원문 구절: 한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다.
+- 춘천시_ko_15: 춘천시의 경춘선은 2010년 12월 21일 복선 전철화 개량사업이 완료되어 수도권 전철 노선이 되었다. (값: 2010년 12월 21일) — 원문 구절: 2010년 12월 21일, 경춘선이 복선 전철화 개량사업이 완료됨과 동시에 수도권 전철 노선으로 개편되면서

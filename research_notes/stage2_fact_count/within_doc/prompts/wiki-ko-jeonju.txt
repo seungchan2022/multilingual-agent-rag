@@ -1,0 +1,31 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-jeonju.md`
+
+Below is a fixed list of 11 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-ko-jeonju.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-ko-jeonju' -A20 | head -25` and fix your file until the line for wiki-ko-jeonju shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 전주시_ko_01: 전주시의 면적은 205.5 km2이다. (값: 205.5 km2) — 원문 구절: 면적은 205.5 km2, 인구는 약 65만 명이다.
+- 전주시_ko_02: 전주시 완산구의 면적은 92.54 km2이다. (값: 92.54 km2) — 원문 구절: | 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |
+- 전주시_ko_03: 전주시 덕진구의 면적은 112.95 km2이다. (값: 112.95 km2) — 원문 구절: | 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |
+- 전주시_ko_04: 전주시 완산구의 인구는 338,839명이다. (값: 338,839) — 원문 구절: | 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |
+- 전주시_ko_05: 전주시 덕진구의 인구는 315,555명이다. (값: 315,555) — 원문 구절: | 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |
+- 전주시_ko_08: 전주시의 2024년 6월 말 주민등록 인구는 63만9354명이고 완주군은 9만8878명이었다. (값: 63만9354명) — 원문 구절: 2024년 6월 말 주민등록 기준으로 전주시의 인구는 63만9354명, 완주군의 인구는 9만8878명이었다.
+- 전주시_ko_10: 전주의 풍남문은 보물 제308호이다. (값: 보물 제308호) — 원문 구절: 풍남문은 보물 제308호이다.
+- 전주시_ko_11: 전주의 경기전은 사적 제339호이고 조선 태조의 영정(국보 제317호)을 봉안했으며 1614년에 중건되었다. (값: 사적 제339호) — 원문 구절: 경기전은 대한민국의 사적 제339호로 전주시 완산구 태조로 44에 위치하고 있다.
+- 전주시_ko_12: 전주의 풍남문 등 전주부성은 1388년에 축성되었다. (값: 1388년) — 원문 구절: 1388년 : 풍남문 등 전주부성이 축성되었다.
+- 전주시_ko_13: 2013년 6월 26일 완주군 주민투표에서 유효투표 총수의 55%가 반대해 전주시와 완주군의 통합이 무산되었다. (값: 55%) — 원문 구절: 2013년 6월 26일에 실시된 완주군 주민투표에서 유효투표 총수의 55%가 반대해 통합이 무산된 적이 있다.
+- 전주시_ko_14: 전주시에는 2013년 기준 919개의 의료기관이 있다. (값: 919개) — 원문 구절: 전주에는 2013년 기준 919개의 의료기관이 있다.

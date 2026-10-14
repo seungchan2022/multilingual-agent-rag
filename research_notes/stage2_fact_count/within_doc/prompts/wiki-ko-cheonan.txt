@@ -1,0 +1,29 @@
+You check ONE document of a Korean/English city corpus for internal inconsistencies. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document (read the WHOLE file, every line, including the info box at the top and every table): `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-cheonan.md`
+
+Below is a fixed list of 9 facts that were extracted from this document. For EACH fact, look through the whole document for another place that states the SAME quantity or attribute of the SAME subject with a DIFFERENT value. Examples of the same thing: the city's total population, the area of one district, the number of administrative dong, the population of one gu, a sister city list (its count or members), a founding year, a record temperature. Also check tables: if the fact's value is a row of a table that has a subtotal or total (e.g. a gu row above or below its dong rows, or a "총계/총합계/Total" row), add up the parts yourself and compare; if the fact's value is itself a total or subtotal and it does not equal the sum of its parts, or the parts of a fact don't add up to the stated total, that is a different value. Rounded or approximate restatements ("about 1,040 km2" vs "1,040.4 km2", "약 65만" vs "654,394") are NOT a conflict.
+
+Verdict, exactly one of these three strings:
+- "다른 값 없음": nothing in the document states this same thing with a different value.
+- "다른 값 있음": somewhere else the same thing has a different value and nothing (a stated reference date or basis) tells them apart, OR the same reference date/basis is stated for both, OR a table total/subtotal does not match the sum of its parts.
+- "기준이 다른 값만 있음": a different value exists but the document states a different reference date or basis for it (e.g. "2019년" vs "2024년 6월 말"), so it is a different fact.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/wiki-ko-cheonan.answer.json`, one object per fact, in the same order, every id exactly once (even when the verdict is "다른 값 없음"):
+{"id": "<fact id>", "verdict": "<one of the three>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown file that hold the other value(s); for a sum mismatch, the total row and say the sum in reason>"], "reason": "<one short Korean sentence: what the other value is and why it is or isn't the same thing; for sums give the numbers you added>"}
+For "다른 값 없음" use "quotes": [] and a short reason. Quotes must be copied exactly from the file (whole table rows are fine), because a program will check that each quote appears verbatim in the file. Do not paraphrase inside quotes.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/check_answers.py 2>&1 | grep 'wiki-ko-cheonan' -A20 | head -25` and fix your file until the line for wiki-ko-cheonan shows no 문제 (other documents' lines may show "답 파일 없음"; ignore those).
+
+Then reply with: the counts per verdict, and for every fact that is not "다른 값 없음", its id, the other value and the reason.
+
+Facts:
+- 천안시_ko_01: 천안시의 2018년 9월 주민등록 인구는 669,928명이다. (값: 669,928명) — 원문 구절: 2018년 9월 주민등록 인구는 669,928명이다.
+- 천안시_ko_02: 2019년 1월 주민등록 기준 천안시 서북구의 인구는 400,566명이다. (값: 400,566명) — 원문 구절: | 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |
+- 천안시_ko_03: 2019년 1월 주민등록 기준 천안시 동남구의 인구는 264,312명이다. (값: 264,312명) — 원문 구절: | 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |
+- 천안시_ko_05: 천안시 서북구의 면적은 197.68 km2이다. (값: 197.68 km2) — 원문 구절: | 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |
+- 천안시_ko_06: 천안시 동남구의 면적은 438.54 km2이다. (값: 438.54 km2) — 원문 구절: | 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |
+- 천안시_ko_10: 천안 독립기념관의 누적 관람객은 2011년 8월에 4,000만명을 돌파하였다. (값: 4,000만명) — 원문 구절: 2011년 8월 누적 관람객 4,000만명을 돌파하였다.
+- 천안시_ko_11: 천안시의 2012년 지역 내 총생산은 69조 124억원이다. (값: 69조 124억원) — 원문 구절: 천안시의 2012년 지역 내 총생산은 69조 124억원으로 충청남도 지역 내 총생산의 23.6%를 차지하고 있다.
+- 천안시_ko_12: 천안시 산업의 2014년 총종사자 수는 253,698명이다. (값: 253,698명) — 원문 구절: 2014년 천안시 산업의 총종사자 수는 253,698명으로 충청남도 총종사자 수의 31.2%를 차지하고있다.
+- 천안시_ko_15: 고려 현종은 1021년 홍경사를 세웠다. (값: 1021년) — 원문 구절: 고려 현종이 1021년 아버지 안종의 뜻을 받들어 세운 280칸짜리 고려 10대 사찰 중의 하나인 홍경사
