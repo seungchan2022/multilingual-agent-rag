@@ -3,13 +3,13 @@
   uv run python src/corpus/build.py                       원본이 있는 문서를 모두 바꾼다
   uv run python src/corpus/build.py --only <doc_id> ...   그 문서만 바꾼다
 
-data/corpus/raw/<doc_id>.html을 읽어 data/corpus/markdown/<doc_id>.md를 쓰고,
+collected.yaml의 raw_file(data/corpus/raw/)을 읽어 data/corpus/markdown/<doc_id>.md를 쓰고,
 마크다운의 해시를 data/corpus/collected.yaml에 적는다. 인터넷과 시계를 쓰지 않는다.
 같은 원본에서는 항상 글자 하나까지 같은 마크다운이 나온다.
 규칙은 decisions/stage2.md의 2026-10-14 줄(남기는 것과 지우는 것 / 표를 옮기는 규칙 / 제목)에 있다.
-지금은 위키백과(wiki-) 문서만 바꾼다. 관광공사(kto-)와 통계 표(portal-)는 CONVERT에 함수를 더하면 된다.
+doc_id 앞머리(wiki, kto, portal)마다 바꾸는 함수가 CONVERT에 있다.
 """
-import argparse, hashlib, re, sys
+import argparse, csv, hashlib, html, io, json, re, sys
 from pathlib import Path
 
 import yaml
@@ -440,8 +440,36 @@ def convert_wiki(d, raw):
     return render(d["title"], info, prune(items))
 
 
-# 출처마다 바꾸는 함수. 관광공사(kto)와 통계 표(portal)는 여기에 함수를 더한다.
-CONVERT = {"wiki": convert_wiki}
+def convert_kto(d, raw):
+    """관광공사 명소 소개 글: 제목, 주소 줄, 홈페이지 줄, 소개 글. 쓰는 칸은 title, addr1, homepage, overview뿐이다."""
+    item = json.loads(raw.decode("utf-8"))["response"]["body"]["items"]["item"]
+    item = item[0] if isinstance(item, list) else item
+    en = d["language"] == "en"
+    blocks = [f"# {item['title'].strip()}"]
+    homepage = (item.get("homepage") or "").strip()
+    if "<" in homepage:  # <a …>주소</a>: 화면에 보이는 글자만
+        homepage = norm(BeautifulSoup(homepage, "html.parser").get_text())
+    for label, value in (("Address" if en else "주소", (item.get("addr1") or "").strip()),
+                         ("Homepage" if en else "홈페이지", homepage)):
+        if value:
+            blocks.append(f"{label}: {value}")
+    # <br>만 줄바꿈으로 바꾼다. <…> 모양을 통째로 지우지 않는다(<기생충>처럼 꺾쇠로 적은 글자가 남아야 한다).
+    text = re.sub(r"<br\s*/?>", "\n", item.get("overview") or "", flags=re.I)
+    text = html.unescape(text).replace("\xa0", " ")
+    paragraphs = [re.sub(r"[ \t]+", " ", l).strip() for l in re.split(r"\r\n|\r|\n", text)]
+    blocks += [p for p in paragraphs if p]
+    return "\n\n".join(blocks) + "\n"
+
+
+def convert_portal(d, raw):
+    """통계 표: CSV를 칸 이름과 값을 바꾸지 않고 마크다운 표로 옮긴다."""
+    rows = [[c.strip() for c in r] for r in csv.reader(io.StringIO(raw.decode("cp949"), newline="")) if r]
+    lines = [md_row(rows[0]), "|" + "---|" * len(rows[0])] + [md_row(r) for r in rows[1:]]
+    return "\n".join([f"# {d['title']}", ""] + lines) + "\n"
+
+
+# 출처마다 바꾸는 함수.
+CONVERT = {"wiki": convert_wiki, "kto": convert_kto, "portal": convert_portal}
 
 
 # ---------------------------------------------------------------- collected.yaml
