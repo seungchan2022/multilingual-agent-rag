@@ -1,0 +1,2 @@
+# 수집한 원본은 받은 바이트 그대로 둔다. git이 줄바꿈 글자를 바꾸면 collected.yaml의 해시와 달라진다.
+data/corpus/raw/* -text
