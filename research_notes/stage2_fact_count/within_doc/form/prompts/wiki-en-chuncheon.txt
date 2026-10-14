@@ -1,0 +1,33 @@
+You check ONE document of a Korean/English city corpus. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-chuncheon.md`
+Open it with the Read tool and read it from the first line to the last line (use several Read calls with offset/limit if it is long). Do not rely on grep alone: a restatement can use different words or a different number format. In your reply, give the file's line count and the line ranges you read.
+
+Below is a fixed list of 13 facts extracted from this document. An earlier check found no CONFLICTING value for them, but that check deliberately ignored values that differ only by rounding, truncation or approximation. Now look for exactly those. For EACH fact: is the SAME quantity or attribute of the SAME subject written anywhere else in the document (the info box at the top, body text, any table, a caption or source line) in a DIFFERENT FORM of the number — e.g. rounded ("1,091" vs "1,090.9"), truncated ("465" vs "465.96"), approximate ("약 20만 명", "about 1,040", "over 3.3 million", "65만여"), different unit/precision ("1,040.4 km2" vs "1,040 km2"), or written in words? Only count it if it is the same subject and the same attribute and the same reference date/basis (or no date stated on one side). A value computed by you (an average or sum you calculate) does NOT count; only values written in the document count. The identical value written again in exactly the same form does NOT count.
+
+Verdict, exactly one of these two strings:
+- "다른 모양 없음": the value is not written elsewhere, or only written again in exactly the same form, or other values are for a different subject/attribute/date.
+- "다른 모양 있음": the same thing is written elsewhere in a different form as described above.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/form/wiki-en-chuncheon.answer.json`, one object per fact, same order, every id exactly once:
+{"id": "<fact id>", "verdict": "<one of the two>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown that hold the other form; whole table rows are fine>"], "reason": "<one short Korean sentence: what the other form is, or why there is none>"}
+For "다른 모양 없음" use "quotes": []. Quotes must appear verbatim in the file; a program checks this.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/form/check_form.py 2>&1 | grep 'wiki-en-chuncheon' -A20 | head -25` and fix your file until the line for wiki-en-chuncheon shows no 문제 (other documents may show "답 파일 없음"; ignore those).
+
+Reply with: line count and ranges read, counts per verdict, and every "다른 모양 있음" with id, the other form and the reason.
+
+Facts:
+- 춘천시_en_01: 춘천시의 연간 가능 일조율은 47.7%이다. (값: 47.7%) — 원문 구절: Percentage possible sunshine | 54.1 | 56.6 | 53.3 | 54.5 | 50.2 | 45.3 | 32.1 | 40.1 | 46.6 | 50.0 | 46.4 | 50.0 | 47.7
+- 춘천시_en_02: 춘천시의 연간 평균 눈 오는 날은 27.7일이다. (값: 27.7일) — 원문 구절: Average snowy days | 8.8 | 6.3 | 3.9 | 0.2 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 1.8 | 6.7 | 27.7
+- 춘천시_en_04: 춘천시의 자매 도시에는 이탈리아 에밀리아로마냐주 파르마가 있다. (값: 파르마(이탈리아)) — 원문 구절: Parma | Emilia-Romagna | Italy
+- 춘천시_en_05: 춘천시의 자매 도시에는 덴마크 남덴마크 지역의 바일레가 있다. (값: 바일레(덴마크)) — 원문 구절: Vejle | Southern Denmark | Denmark
+- 춘천시_en_06: 춘천시의 역대 최저 기온 -27.9도는 1969년 2월 6일에 관측되었다. (값: 1969년 2월 6일) — 원문 구절: The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)
+- 춘천시_en_07: 춘천시의 역대 최고 기온 39.5도는 2018년 8월 1일에 관측되었다. (값: 2018년 8월 1일) — 원문 구절: the highest was 39.5 °C (103 °F) (1 August 2018)
+- 춘천시_en_08: 춘천시의 춘천댐, 의암댐, 소양강댐은 각각 1965년, 1967년, 1973년에 지어졌다. (값: 1965, 1967, 1973) — 원문 구절: Chuncheon Dam, Uiam Dam, and Soyang Dam were built in 1965, 1967, and 1973 respectively.
+- 춘천시_en_10: 춘천시의 청평사는 973년에 세워진 절이고 문 회전문은 보물이다. (값: 973년) — 원문 구절: Cheongpyeongsa is a Buddhist temple established in 973. Its gate, Hoejeonmun, is designated as Treasure.
+- 춘천시_en_11: 춘천 닭갈비는 1960년대 돼지고기 식당 주인 김영석이 처음 만든 것으로 알려져 있다. (값: 김영석, 1960년대) — 원문 구절: Kim Yeong-seok, an owner of a pork restaurant, is credited with inventing the dish in the 1960s
+- 춘천시_en_12: 춘천시의 레고랜드 코리아는 2022년에 문을 열었고 세계에서 10번째, 두 번째로 큰 레고랜드이다. (값: 2022년, 10번째) — 원문 구절: Legoland Korea Resort, the 10th Legoland theme park and the 2nd largest in the world, opened in 2022.
+- 춘천시_en_13: 춘천시의 대학은 강원대 춘천캠퍼스와 한림대 2곳이고, 전문대학 3곳과 교육대학 1곳이 있다. (값: 대학교 2곳) — 원문 구절: one university of education (Chuncheon National University of Education), two universities (Kangwon National University Chuncheon Campus and Hallym University)
+- 춘천시_en_14: 춘천시외버스터미널은 2025년 기준 41개 노선을 운행한다. (값: 41개 노선) — 원문 구절: Chuncheon Intercity Bus Terminal operates 41 routes as of 2025.
+- 춘천시_en_15: 춘천마임축제는 1993년에 시작되었다. (값: 1993년) — 원문 구절: Chuncheon Mime Festival which began in 1993

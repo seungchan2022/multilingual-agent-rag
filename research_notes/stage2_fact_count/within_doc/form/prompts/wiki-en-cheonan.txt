@@ -1,0 +1,31 @@
+You check ONE document of a Korean/English city corpus. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-cheonan.md`
+Open it with the Read tool and read it from the first line to the last line (use several Read calls with offset/limit if it is long). Do not rely on grep alone: a restatement can use different words or a different number format. In your reply, give the file's line count and the line ranges you read.
+
+Below is a fixed list of 11 facts extracted from this document. An earlier check found no CONFLICTING value for them, but that check deliberately ignored values that differ only by rounding, truncation or approximation. Now look for exactly those. For EACH fact: is the SAME quantity or attribute of the SAME subject written anywhere else in the document (the info box at the top, body text, any table, a caption or source line) in a DIFFERENT FORM of the number — e.g. rounded ("1,091" vs "1,090.9"), truncated ("465" vs "465.96"), approximate ("약 20만 명", "about 1,040", "over 3.3 million", "65만여"), different unit/precision ("1,040.4 km2" vs "1,040 km2"), or written in words? Only count it if it is the same subject and the same attribute and the same reference date/basis (or no date stated on one side). A value computed by you (an average or sum you calculate) does NOT count; only values written in the document count. The identical value written again in exactly the same form does NOT count.
+
+Verdict, exactly one of these two strings:
+- "다른 모양 없음": the value is not written elsewhere, or only written again in exactly the same form, or other values are for a different subject/attribute/date.
+- "다른 모양 있음": the same thing is written elsewhere in a different form as described above.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/form/wiki-en-cheonan.answer.json`, one object per fact, same order, every id exactly once:
+{"id": "<fact id>", "verdict": "<one of the two>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown that hold the other form; whole table rows are fine>"], "reason": "<one short Korean sentence: what the other form is, or why there is none>"}
+For "다른 모양 없음" use "quotes": []. Quotes must appear verbatim in the file; a program checks this.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/form/check_form.py 2>&1 | grep 'wiki-en-cheonan' -A20 | head -25` and fix your file until the line for wiki-en-cheonan shows no 문제 (other documents may show "답 파일 없음"; ignore those).
+
+Reply with: line count and ranges read, counts per verdict, and every "다른 모양 있음" with id, the other form and the reason.
+
+Facts:
+- 천안시_en_01: 천안시의 연간 눈 오는 날 수는 25.9일이다. (값: 25.9일) — 원문 구절: | Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.1 | 2.4 | 7.2 | 25.9 |
+- 천안시_en_02: 천안시의 1월 평균 눈 오는 날 수는 8.7일이다. (값: 8.7일) — 원문 구절: | Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 |
+- 천안시_en_03: 천안시의 연간 가능 일조율은 54.2%이다. (값: 54.2%) — 원문 구절: | Percentage possible sunshine | 55.6 | 60.0 | 58.5 | 59.2 | 56.9 | 50.4 | 41.3 | 49.3 | 53.3 | 61.5 | 53.4 | 53.3 | 54.2 |
+- 천안시_en_04: 천안시의 7월 가능 일조율은 41.3%로 12개월 중 가장 낮다. (값: 41.3%) — 원문 구절: | Percentage possible sunshine | 55.6 | 60.0 | 58.5 | 59.2 | 56.9 | 50.4 | 41.3 |
+- 천안시_en_06: 천안 독립기념관은 면적 980에이커(4.0 km2)의 조경된 부지 위에 있다. (값: 980에이커 (4.0 km2)) — 원문 구절: The hall stands on 980 acres (4.0 km2) of landscaped grounds.
+- 천안시_en_07: 천안 각원사의 청동 좌불상은 높이 15m, 둘레 30m, 무게 60톤이 넘는다. (값: 높이 15m, 둘레 30m, 60톤 이상) — 원문 구절: which is 15m high, 30m in circumference, and weighs over 60 tonnes
+- 천안시_en_09: 천안시에는 9,000명이 넘는 외국인이 거주한다. (값: 9,000명 이상) — 원문 구절: There are more than 9,000 foreigners residing in the Cheonan area.
+- 천안시_en_10: 천안에는 외국인 수감자만을 위한 교도소가 있고 외국인 수감자가 1,000명이 넘는다. (값: 1,000명 이상) — 원문 구절: Cheonan is the site of the prison exclusively intended for foreign prisoners, with more than 1,000 foreign inmates.
+- 천안시_en_11: 천안백석종합운동장의 수용 인원은 26,000명이다. (값: 26,000명) — 원문 구절: Cheonan is also home to a 26,000 capacity stadium called the Cheonan Baekseok Stadium.
+- 천안시_en_13: 1919년 3월 31일 매봉산 등에서 봉화 24개를 올리며 만세 운동이 시작되었다. (값: 봉화 24개) — 원문 구절: The popular movement began with the lighting of 24 beacons at Mt. Maebongsan and other mountains on March 31, 1919.
+- 천안시_en_14: 천안시는 미국 델라웨어주 윌밍턴과 자매도시이다. (값: 윌밍턴) — 원문 구절: Wilmington, Delaware, United States

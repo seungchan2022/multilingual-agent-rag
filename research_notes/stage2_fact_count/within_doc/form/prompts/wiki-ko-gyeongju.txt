@@ -1,0 +1,33 @@
+You check ONE document of a Korean/English city corpus. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-gyeongju.md`
+Open it with the Read tool and read it from the first line to the last line (use several Read calls with offset/limit if it is long). Do not rely on grep alone: a restatement can use different words or a different number format. In your reply, give the file's line count and the line ranges you read.
+
+Below is a fixed list of 13 facts extracted from this document. An earlier check found no CONFLICTING value for them, but that check deliberately ignored values that differ only by rounding, truncation or approximation. Now look for exactly those. For EACH fact: is the SAME quantity or attribute of the SAME subject written anywhere else in the document (the info box at the top, body text, any table, a caption or source line) in a DIFFERENT FORM of the number — e.g. rounded ("1,091" vs "1,090.9"), truncated ("465" vs "465.96"), approximate ("약 20만 명", "about 1,040", "over 3.3 million", "65만여"), different unit/precision ("1,040.4 km2" vs "1,040 km2"), or written in words? Only count it if it is the same subject and the same attribute and the same reference date/basis (or no date stated on one side). A value computed by you (an average or sum you calculate) does NOT count; only values written in the document count. The identical value written again in exactly the same form does NOT count.
+
+Verdict, exactly one of these two strings:
+- "다른 모양 없음": the value is not written elsewhere, or only written again in exactly the same form, or other values are for a different subject/attribute/date.
+- "다른 모양 있음": the same thing is written elsewhere in a different form as described above.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/form/wiki-ko-gyeongju.answer.json`, one object per fact, same order, every id exactly once:
+{"id": "<fact id>", "verdict": "<one of the two>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown that hold the other form; whole table rows are fine>"], "reason": "<one short Korean sentence: what the other form is, or why there is none>"}
+For "다른 모양 없음" use "quotes": []. Quotes must appear verbatim in the file; a program checks this.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/form/check_form.py 2>&1 | grep 'wiki-ko-gyeongju' -A20 | head -25` and fix your file until the line for wiki-ko-gyeongju shows no 문제 (other documents may show "답 파일 없음"; ignore those).
+
+Reply with: line count and ranges read, counts per verdict, and every "다른 모양 있음" with id, the other form and the reason.
+
+Facts:
+- 경주시_ko_04: 경주군 경주읍과 내동면 등이 1955년 9월 1일 경주시로 승격되었다. (값: 1955년) — 원문 구절: 1955년 9월 1일 경주군 경주읍과 내동면 등이 경주시로 승격되고
+- 경주시_ko_05: 경주시의 행정구역은 4읍 8면 10동이다. (값: 4읍 8면 10동) — 원문 구절: 행정구역은 4읍 8면 10동이다.
+- 경주시_ko_06: 경주시의 연평균 강수량은 1,091 밀리미터이다. (값: 1,091 밀리미터) — 원문 구절: 연평균 강수량은 1,091 밀리미터 (43.0 in)
+- 경주시_ko_07: 경주시에는 대학교가 3곳 있다. (값: 3곳) — 원문 구절: 대학교와 대학원이 각각 3곳이 있으며
+- 경주시_ko_08: 경주시와 경주군을 통합해 도농복합형태의 경주시가 1995년 1월 1일 설치되었다. (값: 1995년 1월 1일) — 원문 구절: 1995년 1월 1일 경주시와 경주군을 통합하여 도농복합형태의 경주시가 설치되었다.
+- 경주시_ko_10: 경주시에서 가장 높은 산은 해발 1013m의 문복산이다. (값: 문복산 (해발 1013m)) — 원문 구절: 경주에서 가장 높은 산은 해발 1013m의 문복산이며
+- 경주시_ko_12: 경주시는 총 396점의 문화재를 보유하고 있다. (값: 396점) — 원문 구절: 총 합계 396점의 문화재를 보유하고 있다
+- 경주시_ko_13: 1995년에 불국사와 석굴암이 유네스코 세계문화유산으로 등재되었다. (값: 1995년) — 원문 구절: 1995년에 유네스코 세계문화유산에서 불국사와 석굴암을 등재했고
+- 경주시_ko_15: 경주역은 2010년 11월 1일 경부고속선 2단계 전용선 구간 개통과 함께 영업을 시작했다. (값: 2010년 11월 1일) — 원문 구절: 2010년 11월 1일 경부고속선 2단계 전용선 구간 개통과 함께 영업을 시작했다
+- 경주시_ko_17: 경주의 일평균 최고 기온의 연간 값은 18.2 °C이다. (값: 18.2 °C) — 원문 구절: 8.6 (47.5) | 18.2 (64.7) |
+- 경주시_ko_18: 경주시의 1970년 총인구는 280,106명이다. (값: 280,106명) — 원문 구절: | 1970년 | 280,106명 |
+- 경주시_ko_19: 2009년 경주시의 병원·의원 등 의료시설 건수 합계는 245개소이다. (값: 245개소) — 원문 구절: | 건수 | 2개소 | 13개소 | 1개소 | 9개소 | 114개소 | 46개소 | 60개소 | 245개소 |
+- 경주시_ko_20: 경주시는 1985년 10월 14일 이탈리아 폼페이와 자매결연을 맺었다. (값: 1985년 10월 14일) — 원문 구절: | 폼페이 | 이탈리아 | 1985년 10월 14일 |

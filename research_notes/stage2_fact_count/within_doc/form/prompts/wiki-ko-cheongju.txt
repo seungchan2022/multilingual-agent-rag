@@ -1,0 +1,30 @@
+You check ONE document of a Korean/English city corpus. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-ko-cheongju.md`
+Open it with the Read tool and read it from the first line to the last line (use several Read calls with offset/limit if it is long). Do not rely on grep alone: a restatement can use different words or a different number format. In your reply, give the file's line count and the line ranges you read.
+
+Below is a fixed list of 10 facts extracted from this document. An earlier check found no CONFLICTING value for them, but that check deliberately ignored values that differ only by rounding, truncation or approximation. Now look for exactly those. For EACH fact: is the SAME quantity or attribute of the SAME subject written anywhere else in the document (the info box at the top, body text, any table, a caption or source line) in a DIFFERENT FORM of the number — e.g. rounded ("1,091" vs "1,090.9"), truncated ("465" vs "465.96"), approximate ("약 20만 명", "about 1,040", "over 3.3 million", "65만여"), different unit/precision ("1,040.4 km2" vs "1,040 km2"), or written in words? Only count it if it is the same subject and the same attribute and the same reference date/basis (or no date stated on one side). A value computed by you (an average or sum you calculate) does NOT count; only values written in the document count. The identical value written again in exactly the same form does NOT count.
+
+Verdict, exactly one of these two strings:
+- "다른 모양 없음": the value is not written elsewhere, or only written again in exactly the same form, or other values are for a different subject/attribute/date.
+- "다른 모양 있음": the same thing is written elsewhere in a different form as described above.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/form/wiki-ko-cheongju.answer.json`, one object per fact, same order, every id exactly once:
+{"id": "<fact id>", "verdict": "<one of the two>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown that hold the other form; whole table rows are fine>"], "reason": "<one short Korean sentence: what the other form is, or why there is none>"}
+For "다른 모양 없음" use "quotes": []. Quotes must appear verbatim in the file; a program checks this.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/form/check_form.py 2>&1 | grep 'wiki-ko-cheongju' -A20 | head -25` and fix your file until the line for wiki-ko-cheongju shows no 문제 (other documents may show "답 파일 없음"; ignore those).
+
+Reply with: line count and ranges read, counts per verdict, and every "다른 모양 있음" with id, the other form and the reason.
+
+Facts:
+- 청주시_ko_01: 청주시의 통합 이전(구 청주시) 면적은 2012년 기준 153.45km2였다. (값: 153.45km2) — 원문 구절: 도농 통합 이전 청주시 면적은 2012년 기준 153.45km2으로
+- 청주시_ko_02: 통합 청주시의 전체 면적은 940.33km2이다. (값: 940.33km2) — 원문 구절: | 총합계 | 380,651 | 846,691 | 940.33 | 4구 |
+- 청주시_ko_03: 청주시 상당구의 면적은 404.40km2이다. (값: 404.40km2) — 원문 구절: | 상당구 | 上黨區 | 83,394 | 193,673 | 404.40 |
+- 청주시_ko_07: 통합 이전 청주시의 인구는 2014년 4월말 기준 674,341명이었다. (값: 674,341명) — 원문 구절: 통합 이전의 청주시 인구는 2014년 4월말을 기준으로 674,341명
+- 청주시_ko_09: 청주시·청원군 통합 주민투표(2012년 6월)의 투표율은 36.75%였고 투표자의 79%가 찬성했다. (값: 투표율 36.75%, 찬성 79%) — 원문 구절: 전체 유권자의 36.75%가 투표에 참여하였고, 총 투표자의 79%가 시·군 통합에 찬성하여
+- 청주시_ko_10: 청주시 청남대는 1983년 전두환 대통령의 별장으로 지어졌다. (값: 전두환 대통령 별장) — 원문 구절: 청남대는 1983년에 전두환 대통령의 별장으로 건립하여
+- 청주시_ko_11: 청주산업단지는 1969년에 착공되어 5차례에 걸쳐 단계적으로 개발되었다. (값: 1969년 착공, 5차례 개발) — 원문 구절: 청주산업단지가 1969년 착공된 이래 5차례에 걸쳐 단계적으로 개발되었다
+- 청주시_ko_12: 청주시에는 2013년 기준 약 780개의 의료기관이 있다. (값: 약 780개) — 원문 구절: 청주에는 2013년 기준 약 780개의 의료기관이 있다
+- 청주시_ko_14: 청주시의 청주야구장은 KBO 리그 한화 이글스의 제2홈구장이다. (값: 한화 이글스) — 원문 구절: KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다.
+- 청주시_ko_15: 청주는 983년(고려 성종 2년) 십이목을 처음 둘 때 청주목이 되었다. (값: 983년 청주목) — 원문 구절: 983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었을 때 청주목(淸州牧)이 되었다.

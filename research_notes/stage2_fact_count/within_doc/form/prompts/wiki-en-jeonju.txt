@@ -1,0 +1,25 @@
+You check ONE document of a Korean/English city corpus. Read-only except for writing one answer file. Do not commit, do not touch any other file.
+
+Document: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/corpus/markdown/wiki-en-jeonju.md`
+Open it with the Read tool and read it from the first line to the last line (use several Read calls with offset/limit if it is long). Do not rely on grep alone: a restatement can use different words or a different number format. In your reply, give the file's line count and the line ranges you read.
+
+Below is a fixed list of 5 facts extracted from this document. An earlier check found no CONFLICTING value for them, but that check deliberately ignored values that differ only by rounding, truncation or approximation. Now look for exactly those. For EACH fact: is the SAME quantity or attribute of the SAME subject written anywhere else in the document (the info box at the top, body text, any table, a caption or source line) in a DIFFERENT FORM of the number — e.g. rounded ("1,091" vs "1,090.9"), truncated ("465" vs "465.96"), approximate ("약 20만 명", "about 1,040", "over 3.3 million", "65만여"), different unit/precision ("1,040.4 km2" vs "1,040 km2"), or written in words? Only count it if it is the same subject and the same attribute and the same reference date/basis (or no date stated on one side). A value computed by you (an average or sum you calculate) does NOT count; only values written in the document count. The identical value written again in exactly the same form does NOT count.
+
+Verdict, exactly one of these two strings:
+- "다른 모양 없음": the value is not written elsewhere, or only written again in exactly the same form, or other values are for a different subject/attribute/date.
+- "다른 모양 있음": the same thing is written elsewhere in a different form as described above.
+
+Answer: write a JSON array to `/Users/seungchan/Workspace/MultilingualAgentRAG/research_notes/stage2_fact_count/within_doc/form/wiki-en-jeonju.answer.json`, one object per fact, same order, every id exactly once:
+{"id": "<fact id>", "verdict": "<one of the two>", "quotes": ["<line(s) copied CHARACTER FOR CHARACTER from the markdown that hold the other form; whole table rows are fine>"], "reason": "<one short Korean sentence: what the other form is, or why there is none>"}
+For "다른 모양 없음" use "quotes": []. Quotes must appear verbatim in the file; a program checks this.
+
+After writing, run: `cd /Users/seungchan/Workspace/MultilingualAgentRAG && uv run python -I research_notes/stage2_fact_count/within_doc/form/check_form.py 2>&1 | grep 'wiki-en-jeonju' -A20 | head -25` and fix your file until the line for wiki-en-jeonju shows no 문제 (other documents may show "답 파일 없음"; ignore those).
+
+Reply with: line count and ranges read, counts per verdict, and every "다른 모양 있음" with id, the other form and the reason.
+
+Facts:
+- 전주시_en_06: 전주국제영화제에는 매년 약 5만 명이 방문한다. (값: 약 50,000명) — 원문 구절: The Jeonju International Film Festival draws about 50,000 visitors annually.
+- 전주시_en_11: 전주는 1894년 동학농민혁명 때 점령되었다. (값: 1894년) — 원문 구절: The town was occupied by the Donghak Peasant Revolution in 1894.
+- 전주시_en_13: 신라 경애왕은 927년에 암살되었다. (값: 927년) — 원문 구절: the destruction of Geumseong (the capital of the Silla kingdom) and the assassination of King Gyeongae in 927.
+- 전주시_en_14: 전주 전동성당은 프랑스 신부 Xavier Baudonet가 1791년과 1801년 천주교 순교 터에 지었다. (값: Xavier Baudonet) — 원문 구절: Jeongdong Catholic Church was built on 1908–1914 by French priest Xavier Baudonet on the site of the Korean Catholic martyrs in 1791 and 1801.
+- 전주시_en_15: 전주세계소리축제는 2014년 Songlines의 세계 25대 국제 축제에 뽑혔다. (값: 2014년) — 원문 구절: The Jeonju International Sori Festival was among Songlines' 25 Best International Festivals in 2014.

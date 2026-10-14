@@ -1,0 +1,109 @@
+[
+ {
+  "id": "강릉시_en_04",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "연평균 기온 13.5는 표의 Year 칸에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_05",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "연 강수량 1,444.9는 표에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_06",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "연간 일조율 47.3은 표에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_07",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "Cfa는 정보 상자와 본문에 같은 모양으로만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_08",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "39.4는 7월 칸과 Year 칸에 같은 모양으로만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_09",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "−20.2는 1월 칸과 Year 칸에 같은 모양으로만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_10",
+  "verdict": "다른 모양 있음",
+  "quotes": [
+   "- Administrative divisions: 1 eup, 7 myeon, 13 dong",
+   "The district includes one town (eup), seven townships (myeon), 13 neighborhoods (dong)."
+  ],
+  "reason": "정보 상자는 숫자(1, 7, 13)로, 본문은 one, seven을 영어 단어로 적어 같은 읍·면·동 수가 다른 모양이다."
+ },
+ {
+  "id": "강릉시_en_11",
+  "verdict": "다른 모양 있음",
+  "quotes": [
+   "The total area of Gangneung is about 1,040.4 km2 (401.7 sq mi) as of the end of 2015, which accounts for 6.2% of Gangwon State's 16,873 km2 (6,515 sq mi). 80.4% of the area of Gangneung, 837.36 km2 (323.31 sq mi), is forestland."
+  ],
+  "reason": "사실문에 든 전체 면적 1,040 km2가 본문에는 1,040.4 km2로도 적혀 있다(산림 837.36 km2와 80.4%는 한 번뿐)."
+ },
+ {
+  "id": "강릉시_en_12",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "주문진읍 인구 19,299는 표에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_13",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "왕산면 면적 245.28은 표에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_14",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "교1동 인구 29,995는 표에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_15",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "해변 20개는 본문에만 한 번 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_16",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "문화재 136은 본문과 표에 같은 모양으로만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_17",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "오죽헌의 보물 제165호는 한 번만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_18",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "851년과 사적 448호는 한 번만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_19",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "1967년과 2005년은 한 번만 적혀 있다."
+ },
+ {
+  "id": "강릉시_en_20",
+  "verdict": "다른 모양 없음",
+  "quotes": [],
+  "reason": "택시 기본요금 2,800원 2km는 한 번만 적혀 있다."
+ }
+]
