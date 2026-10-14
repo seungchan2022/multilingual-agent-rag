@@ -304,7 +304,11 @@ def table_items(table):
     if lead >= len(grid) or not any(any(r) for r in grid):
         return out
     below = [("b", [row_texts[i][0]]) for i in range(lead, len(grid)) if full[i] and row_texts[i][0]]
-    rows = [i for i in range(lead, len(grid)) if not full[i]]
+    # 자기 칸이 모두 아래 줄로 걸친(rowspan>1) 줄은 표에서 뺀다. 그 칸의 글자는 걸친 아래 줄마다 이미 되풀이되어 있어
+    # 잃는 것이 없고, 두면 칸이 빈 줄이 따로 남는다. 빼고 나면 다음 줄이 첫 줄(머리글 자리)이 된다.
+    own_rs = [[span(c, "rowspan") for c in own_cells(tr)] for tr in own_rows(table)]
+    spanned = [bool(rs) and all(n > 1 for n in rs) for rs in own_rs]
+    rows = [i for i in range(lead, len(grid)) if not full[i] and not spanned[i]]
     if not rows:
         return out + below
     # 이웃한 두 열이 모든 줄에서 같은 원래 칸에서 나왔으면(가로로 합친 칸을 편 것) 하나로 합친다.

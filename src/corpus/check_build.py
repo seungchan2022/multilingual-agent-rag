@@ -421,6 +421,18 @@ if not any(l.startswith("|") and "한국방송통신대학교 강원지역대학
     bad.append("춘천: 교육 기관 표에 '한국방송통신대학교 강원지역대학' 칸이 없음")
 report("28. 머리글 줄이 없는 표에서 첫 줄에만 글자가 있는 열이 남아 있다 (청주 일반 도로, 춘천 교육 기관)", bad)
 
+# 29
+bad = []
+ls = LINES.get("wiki-ko-chuncheon", [])
+if "| 고등학교 |  |  |  |  |  |" in ls:
+    bad.append("춘천: '| 고등학교 |  |  |  |  |  |' 줄이 남아 있음")
+sep = [n for n, l in enumerate(ls) if l.startswith("|---") and n > 0 and ls[n - 1].startswith("| 고등학교 |")]
+if not sep:
+    bad.append("춘천: 고등학교 표의 '|---' 줄을 찾지 못함")
+elif not ls[sep[0] - 1].startswith("| 고등학교 | 일반계 | 강원고등학교 |"):
+    bad.append(f"춘천: 고등학교 표의 첫 줄이 '| 고등학교 | 일반계 | 강원고등학교 |'로 시작하지 않음: {ls[sep[0] - 1][:40]}")
+report("29. 칸이 모두 아래로 걸친 줄(춘천 고등학교 표의 첫 줄)이 표에 따로 남지 않는다", bad)
+
 # 15
 bad = []
 runs = []
