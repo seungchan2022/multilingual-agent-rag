@@ -776,7 +776,8 @@
   }
  ],
  "all_source_tables": {
-  "table_items가 받은 원문 표": 125,
+  "table_items가 받은 위키백과 원문 HTML 표": 123,
+  "table_items가 받은 통계 표(CSV)": 2,
   "마크다운 표가 됨": 100,
   "틀로 풀림": 24,
   "비어서 빠짐": 1,

@@ -135,9 +135,10 @@ plain = [key(t["doc_id"], t["n"]) for t in md if key(t["doc_id"], t["n"]) not in
 shapes.append({"shape": "위 모양이 하나도 없는 표", "meaning": "제목 줄 한 줄, 줄마다 대상 하나인 표",
                "how": "기계 판정(위 목록의 나머지)", "tables": [{"table": k, "note": ""} for k in plain]})
 
-# 지난 세션의 HTML 수(116, 52, 30, 17, 7)와 견주려고, 원문 표 125개 전체(틀로 풀린 표 포함)에서도 센다.
+# 지난 세션의 HTML 수(116, 52, 30, 17, 7)와 견주려고, 원문 표 전체(위키백과 HTML 표와 통계 표 CSV, 틀로 풀린 표 포함)에서도 센다.
 all_calls = {
-    "table_items가 받은 원문 표": len(TABLES),
+    "table_items가 받은 위키백과 원문 HTML 표": sum(t["doc_id"].startswith("wiki-") for t in TABLES),
+    "table_items가 받은 통계 표(CSV)": sum(t["doc_id"].startswith("portal-") for t in TABLES),
     "마크다운 표가 됨": sum(t["outcome"] == "markdown" for t in TABLES),
     "틀로 풀림": sum(t["outcome"] == "frame" for t in TABLES),
     "비어서 빠짐": sum(t["outcome"] == "empty" for t in TABLES),
