@@ -1,6 +1,7 @@
 """서브에이전트가 뽑은 사실(facts/)을 검사하고 센다.
 
   python check.py            checked.json과 hits.txt를 쓰고 수를 낸다
+  uv run python check.py --markdown   코퍼스의 마크다운으로 다시 센다. checked_markdown.json 등에 쓴다
 
 규칙은 decisions/stage2.md의 2026-10-13 "문서 16개에서 한쪽 언어 문서에만 있는 사실을 세는 방법" 줄에 있다.
  ① 옮긴 구절(quote)이 원문에 글자 그대로 없으면 버린다(공백만 하나로 줄여 견준다).
@@ -12,17 +13,31 @@
     279개 가운데 194개가 걸려(대부분 연도) 읽을 수 없었다. 바꾼 것은 decisions/stage2.md에 적었다.
     그 자리를 사람이 읽고 내린 판정은 cleared.json에 {사실의 id: "같은 사실 아님" 또는 "같은 사실"}로 적는다.
 """
-import itertools, json, re
+import itertools, json, re, sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
 norm = lambda s: re.sub(r"\s+", " ", s).strip()
 docs = json.loads((HERE / "docs.json").read_text(encoding="utf-8"))
-text = {(d["city"], d["lang"]): norm((HERE / d["file"]).read_text(encoding="utf-8")) for d in docs}
-# 고른 명소 소개 글과 통계 표(text/extra_이름_언어.txt)도 반대 언어 문서로 넣어 대조한다
-for f in sorted((HERE / "text").glob("extra_*.txt")):
-    name, lang = f.stem[len("extra_"):].rsplit("_", 1)
-    text[("포털:" + name, lang)] = norm(f.read_text(encoding="utf-8"))
+# --markdown: 대조할 글을 코퍼스의 마크다운(data/corpus/markdown/)으로 바꾼다. 검사 규칙은 같고 글만 다르다.
+# 2026-10-14에 정보 상자를 코퍼스에 남기기로 해서 다시 세는 것이다(decisions/stage2.md). 결과는 *_markdown 파일에 따로 쓴다.
+MARKDOWN = "--markdown" in sys.argv
+SUFFIX = "_markdown" if MARKDOWN else ""
+if MARKDOWN:
+    import yaml
+    CORPUS = HERE.parents[1] / "data" / "corpus"
+    text = {}
+    for d in yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]:
+        t = norm((CORPUS / "markdown" / (d["doc_id"] + ".md")).read_text(encoding="utf-8"))
+        key = (d["city"], d["language"]) if d["doc_id"].startswith("wiki-") else ("포털:" + d["doc_id"], d["language"])
+        text[key] = t
+    assert all((d["city"], d["lang"]) in text for d in docs), "문서 목록의 도시 이름이 docs.json과 다르다"
+else:
+    text = {(d["city"], d["lang"]): norm((HERE / d["file"]).read_text(encoding="utf-8")) for d in docs}
+    # 고른 명소 소개 글과 통계 표(text/extra_이름_언어.txt)도 반대 언어 문서로 넣어 대조한다
+    for f in sorted((HERE / "text").glob("extra_*.txt")):
+        name, lang = f.stem[len("extra_"):].rsplit("_", 1)
+        text[("포털:" + name, lang)] = norm(f.read_text(encoding="utf-8"))
 cleared = json.loads((HERE / "cleared.json").read_text(encoding="utf-8")) if (HERE / "cleared.json").exists() else {}
 
 facts = []
@@ -90,8 +105,8 @@ for x in facts:
         x["status"] = "겹칠 수 있음"
         lines.append(f"## {x['id']} [{x['kind']}] {x['fact']} (값: {x.get('value')})")
         lines += [f"   - {h['doc']} '{h['key']}': …{h['around']}…" for h in hits]
-(HERE / "checked.json").write_text(json.dumps(facts, ensure_ascii=False, indent=1), encoding="utf-8")
-(HERE / "hits.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+(HERE / f"checked{SUFFIX}.json").write_text(json.dumps(facts, ensure_ascii=False, indent=1), encoding="utf-8")
+(HERE / f"hits{SUFFIX}.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 ok = [x for x in facts if x["status"].startswith("통과")]
 print("상태별:", {s: sum(1 for x in facts if x["status"] == s) for s in sorted({x["status"] for x in facts})})
@@ -106,4 +121,4 @@ for lang in ("ko", "en"):
                  "여러 문서 연결 후보(같은 종류의 사실 둘)": len(multi),
                  "종류별 문서 수": {k: len({x["city"] for x in L if x["kind"] == k}) for k in sorted({x["kind"] for x in L}) if k != "other"}}
     print(lang, json.dumps(out[lang], ensure_ascii=False))
-(HERE / "counts.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+(HERE / f"counts{SUFFIX}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
