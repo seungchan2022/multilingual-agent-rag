@@ -1,0 +1,304 @@
+# 수집 기록. src/corpus/fetch.py가 원본을 받을 때 쓴다. 마크다운의 해시는 src/corpus/build.py가 채운다.
+documents:
+- doc_id: wiki-ko-jeonju
+  fetched_at: '2026-10-14T10:18:32+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42643645&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "전주시" (revid 42643645)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42643645
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-jeonju.html
+  raw_sha256: 62f534f77d02bf78dc979099ec523d768022475015840d79e3242d3c4a25fda6
+- doc_id: wiki-en-jeonju
+  fetched_at: '2026-10-14T10:18:43+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379135207&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Jeonju" (revid 1379135207)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1379135207
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-jeonju.html
+  raw_sha256: bea8a632aaac691466881523a486210849f64a66b997bd00f9586866ddf77e1a
+- doc_id: wiki-ko-cheongju
+  fetched_at: '2026-10-14T10:18:46+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42630014&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "청주시" (revid 42630014)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42630014
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-cheongju.html
+  raw_sha256: fa2313be84ff103bcb78fb9214d97c6712c28d9b35b9743202de0f55d44e0155
+- doc_id: wiki-en-cheongju
+  fetched_at: '2026-10-14T10:18:50+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378953230&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Cheongju" (revid 1378953230)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1378953230
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-cheongju.html
+  raw_sha256: 0d84020e6417e516d2bd77511e2e8279d8d27056edb0a01ccf5ee3d581abe266
+- doc_id: wiki-ko-chuncheon
+  fetched_at: '2026-10-14T10:18:54+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42647646&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "춘천시" (revid 42647646)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42647646
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-chuncheon.html
+  raw_sha256: f66d33cd6256deab1b42e72ed3f773a8792a0c0715cd047fefc58345709e2a09
+- doc_id: wiki-en-chuncheon
+  fetched_at: '2026-10-14T10:18:58+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1376994978&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Chuncheon" (revid 1376994978)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1376994978
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-chuncheon.html
+  raw_sha256: d20a38c0356a729e4d885192dcd457b98dd408c9b09017c2e0cfed5bfb68eb0e
+- doc_id: wiki-ko-cheonan
+  fetched_at: '2026-10-14T10:19:03+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42545685&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "천안시" (revid 42545685)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42545685
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-cheonan.html
+  raw_sha256: de32e5c971de3986b18f929094c7c33dced2bb3a3bad5066710ad7e79e47cbba
+- doc_id: wiki-en-cheonan
+  fetched_at: '2026-10-14T10:19:06+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378953224&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Cheonan" (revid 1378953224)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1378953224
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-cheonan.html
+  raw_sha256: 676daa752712ac1c8ad72d71f1a7bea2847c86f74b9e6aa461264ed58a18bc8e
+- doc_id: wiki-en-busan
+  fetched_at: '2026-10-14T10:19:10+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379685823&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Busan" (revid 1379685823)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1379685823
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-busan.html
+  raw_sha256: ac898e33ba1fd8e3707b705b0ad36181806099d68a128a624965bdf0de21abdb
+- doc_id: wiki-en-jeju
+  fetched_at: '2026-10-14T10:19:13+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1377658564&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Jeju City" (revid 1377658564)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1377658564
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-jeju.html
+  raw_sha256: b7ccc8ca00c5924853b5e7d873805e5211334a8ac7efc0165b5d7340c2d8f59d
+- doc_id: wiki-en-andong
+  fetched_at: '2026-10-14T10:19:18+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378924154&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Andong" (revid 1378924154)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1378924154
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-andong.html
+  raw_sha256: c912a88a7adde2d3435f67e63add4d4ddfe5b915e0239efd6b182d13029fec8d
+- doc_id: wiki-en-gangneung
+  fetched_at: '2026-10-14T10:19:21+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378182836&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Gangneung" (revid 1378182836)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1378182836
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-gangneung.html
+  raw_sha256: c2a0dcccec2afd19aa6c93da83c5b60f210dffbfa38cf0305797122fd4c31d74
+- doc_id: wiki-ko-suwon
+  fetched_at: '2026-10-14T10:19:25+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42534963&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "수원시" (revid 42534963)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42534963
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-suwon.html
+  raw_sha256: 1b7461a79db021d4e77e7aa987e4ff7bc494eb6b4022930178a24d8f694fa1dd
+- doc_id: wiki-ko-gyeongju
+  fetched_at: '2026-10-14T10:19:30+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42639825&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "경주시" (revid 42639825)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42639825
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-gyeongju.html
+  raw_sha256: 6b301c77b639c9e11e553d09fc3eee73caeaab65f9aa3a4e7393a6e21ba1137e
+- doc_id: wiki-ko-sejong
+  fetched_at: '2026-10-14T10:19:34+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42585449&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "세종특별자치시" (revid 42585449)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42585449
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-sejong.html
+  raw_sha256: e4beb8410cc39a894ec43adc300a06e7fae77d93644806d125d14aa9923abe04
+- doc_id: wiki-ko-gwangju
+  fetched_at: '2026-10-14T10:19:39+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42623705&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "광주광역시" (revid 42623705)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42623705
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-ko-gwangju.html
+  raw_sha256: cf717a133cbca98dbacf0501d232a1bf3ff69ee55e7532bac57783a0c9e74bf2
+- doc_id: kto-ko-jeonju-hanok-village
+  fetched_at: '2026-10-14T10:19:41+09:00'
+  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=264284
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "전북 전주 한옥마을 [슬로시티]" (modifiedtime 20260630155423)
+  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=264284
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-ko-jeonju-hanok-village.json
+  raw_sha256: 59b255b6911e6db5fccc151bcb0bebb4d661bc4d7effb8fa6f31a06c932873b2
+- doc_id: kto-en-jeonju-hanok-village
+  fetched_at: '2026-10-14T10:19:43+09:00'
+  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=264285
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Jeonju Hanok Village [Slow City] (전북 전주 한옥마을
+    [슬로시티])" (modifiedtime 20260907140157)
+  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=264285
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-en-jeonju-hanok-village.json
+  raw_sha256: 0bd931f11d2ef4eefd0e783597b37be49074c9406c9ca96d8da298177c5eb803
+- doc_id: kto-ko-cheongju-cheongnamdae
+  fetched_at: '2026-10-14T10:19:46+09:00'
+  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=127916
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "청남대" (modifiedtime 20260605084251)
+  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=127916
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-ko-cheongju-cheongnamdae.json
+  raw_sha256: be2426f3225376ffbe851bfccb987e6acf278313bd1cd6e9083e15725f509188
+- doc_id: kto-en-cheongju-cheongnamdae
+  fetched_at: '2026-10-14T10:19:48+09:00'
+  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=795179
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Cheongnamdae Presidential Villa (청남대)" (modifiedtime
+    20261012141518)
+  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=795179
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-en-cheongju-cheongnamdae.json
+  raw_sha256: 055016b11ca97aac154b3e5f2948a0272d077000ef4e6c6e9a314d922acf3c84
+- doc_id: kto-ko-chuncheon-samaksan-cable-car
+  fetched_at: '2026-10-14T10:19:50+09:00'
+  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2814588
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "춘천 삼악산 호수케이블카" (modifiedtime 20261001092603)
+  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=2814588
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-ko-chuncheon-samaksan-cable-car.json
+  raw_sha256: 661801768ae04cba115a5584c4c37a2a0bb871d29e22692809025339fd41b494
+- doc_id: kto-en-chuncheon-samaksan-cable-car
+  fetched_at: '2026-10-14T10:19:52+09:00'
+  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2971541
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Chuncheon Samaksan Mountain Lake Cable Car (춘천
+    삼악산 호수케이블카)" (modifiedtime 20260212093513)
+  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2971541
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-en-chuncheon-samaksan-cable-car.json
+  raw_sha256: fad4ddaf6a29a2267a77b8f6aab328e80a2e28d0ecad45c7df34d658ecc37680
+- doc_id: kto-ko-cheonan-samgeori-park
+  fetched_at: '2026-10-14T10:21:00+09:00'
+  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=126922
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "천안삼거리공원" (modifiedtime 20260927115418)
+  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=126922
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-ko-cheonan-samgeori-park.json
+  raw_sha256: b23f30f3e13da9e1b3401fbd5b87ddac35eb805638eccdfe5bb02a29d498cf8d
+- doc_id: kto-en-cheonan-samgeori-park
+  fetched_at: '2026-10-14T10:21:02+09:00'
+  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=1840356
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Cheonan Three-way Intersection Park (천안삼거리공원)"
+    (modifiedtime 20260929144034)
+  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=1840356
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-en-cheonan-samgeori-park.json
+  raw_sha256: f738f045eeaf78da51afa0db32c7e8a17b5dfdc13abf7f820ef4bc6d44396455
+- doc_id: kto-en-busan-haeundae-green-railway
+  fetched_at: '2026-10-14T10:21:04+09:00'
+  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2990076
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Haeundae Green Railway (Mipo-Songjeong) (해운대
+    그린레일웨이 (미포~송정 구간))" (modifiedtime 20241010132555)
+  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2990076
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-en-busan-haeundae-green-railway.json
+  raw_sha256: 11feec85a3c7eecc01f3cf8abcfa0bfe82255d7922c26d311b4282380835690a
+- doc_id: kto-en-jeju-ara-dong-trail
+  fetched_at: '2026-10-14T10:18:34+09:00'
+  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=3079418
+  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Ara-dong History and Culture Trail (아라동 역사문화탐방로)"
+    (modifiedtime 20250520110131)
+  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=3079418
+  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
+  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/kto-en-jeju-ara-dong-trail.json
+  raw_sha256: b8c6965a77205a5b11dab6b50c70948d95d7860c83bf1b9fb410bfb1d2a3b7b6
+- doc_id: portal-ko-suwon-population
+  fetched_at: '2026-10-14T10:21:06+09:00'
+  request_url: https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002404642&fileDetailSn=1&insertDataPrcus=N
+  source: 공공데이터포털 (파일데이터) "경기도 수원시_인구현황" (데이터기준일자 2021-05-31)
+  source_url: https://www.data.go.kr/data/15051539/fileData.do
+  license: '이용허락범위: 제한 없음 (자료 설명 페이지에 적힌 값)'
+  modified: 파일의 칸 이름과 값을 바꾸지 않고 마크다운 표로 옮기고 제목을 붙였다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/portal-ko-suwon-population.csv
+  raw_sha256: e368b6506badd3dc4bb7b2f07f7bc36bd9894fd34f48fce7bece51f1b32018de
+- doc_id: portal-ko-jeonju-population
+  fetched_at: '2026-10-14T10:18:36+09:00'
+  request_url: https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003611561&fileDetailSn=1&insertDataPrcus=N
+  source: 공공데이터포털 (파일데이터) "전북특별자치도 전주시_인구현황" (데이터기준일자 2026-03-17)
+  source_url: https://www.data.go.kr/data/15126886/fileData.do
+  license: '이용허락범위: 제한 없음 (자료 설명 페이지에 적힌 값)'
+  modified: 파일의 칸 이름과 값을 바꾸지 않고 마크다운 표로 옮기고 제목을 붙였다. 규칙은 decisions/stage2.md의 2026-10-14
+    줄에 있다.
+  raw_file: raw/portal-ko-jeonju-population.csv
+  raw_sha256: 51c8ece312b7ef46d6d6d1ac32c365f65bdc20f0e6fceebb91be1fc89795bb41
