@@ -2,7 +2,7 @@
 
   uv run python src/corpus/fetch.py                       documents.yaml의 문서를 차례로 받는다
   uv run python src/corpus/fetch.py --only <doc_id> ...   그 문서만 받는다
-  uv run python src/corpus/fetch.py --force               이미 받은 문서도 다시 받는다
+  uv run python src/corpus/fetch.py --only <doc_id> --force   그 문서를 이미 받았어도 다시 받는다(원본을 덮어쓴다)
 
 원본은 data/corpus/raw/에 받은 그대로 쓰고, 받은 사실은 data/corpus/collected.yaml에 적는다.
 마크다운으로 바꾸는 일은 여기서 하지 않는다. 요청은 한 번에 하나씩, 2초 간격으로 보낸다.
@@ -173,8 +173,10 @@ def save_collected(docs, rows):
 def main():
     ap = argparse.ArgumentParser(description="코퍼스 문서의 원본을 받는다.")
     ap.add_argument("--only", nargs="+", metavar="DOC_ID", help="그 문서만 받는다")
-    ap.add_argument("--force", action="store_true", help="이미 받은 문서도 다시 받는다")
+    ap.add_argument("--force", action="store_true", help="--only로 지정한 문서를 이미 받았어도 다시 받는다(원본을 덮어쓴다)")
     args = ap.parse_args()
+    if args.force and not args.only:
+        sys.exit("--force는 --only로 다시 받을 문서를 지정할 때만 쓴다. 고정 원본을 한꺼번에 덮어쓰지 않기 위해서다(decisions/stage2.md의 2026-10-14 줄).")
 
     docs = yaml.safe_load(DOCS.read_text(encoding="utf-8"))["documents"]
     if args.only:
