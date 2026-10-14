@@ -23,6 +23,20 @@
 - 지적 5로 사용자가 바뀐 표를 열어 보다가 춘천 고등학교 표의 빈 첫 줄을 짚었다. 원본 줄의 칸이 전부 아래로 걸친 칸뿐이면 그 줄을 표에서 빼는 규칙을 더했다(`build.py` `table_items`, `check_build.py` 29번, `decisions/stage2.md` 2026-10-14 줄). 표 모양 분류에서 이 표를 "머리글 칸이 일부만 찬 표"에서 "머리글 줄이 없는 표"로 옮겼다
 - 양이 많은 확인 작업은 나눠서 맡기고 빠진 항목을 세기로 했다(`decisions/common.md` 2026-10-14 줄)
 
+## 2차 요청
+
+- 단계: 2단계 (문서). 2차 검토다. `CODEX_REVIEW.md`에 1차 요청, 1차 지적 원문, 지적마다의 처리, 1차 지적 밖에서 고친 것이 있다.
+- 1차 지적 6개를 하나씩 해소됨 / 절반만 됨 / 안 됨으로 가르고, 고치면서 새로 생긴 문제만 추가로 써라.
+- 1차 검토 뒤의 변경은 커밋 `0d56b77` 다음부터 `HEAD`까지다(`git log --oneline 0d56b77..HEAD`, `git diff 0d56b77 HEAD`).
+- 1차 뒤에 새로 생기거나 크게 바뀐 산출물:
+  - 변환 코드와 검사: `src/corpus/build.py`의 `table_items`(머리글 줄을 가리는 기준, 칸이 모두 아래로 걸친 줄 빼기), `src/corpus/check_build.py` 28·29번, `.githooks/pre-commit`(버전 파일의 stage본과 작업 폴더본 비교), 다시 만든 마크다운 `data/corpus/markdown/wiki-ko-cheongju.md`, `wiki-ko-chuncheon.md`
+  - 표 글자 대조와 표 줄 찾기: `research_notes/stage2_markdown_rules/cell_loss_check.py`·`.txt`, `table_row_scans.py`·`.txt`
+  - 사실 세기: `research_notes/stage2_fact_count/check.py`, `cleared.json`, `excluded.json`, `checked_markdown.json`, `counts_markdown.json`, `no_key_city_mentions.py`·`.txt`, `within_doc/`(문서 16개를 나눠 같은 문서 안의 다른 값을 찾은 지시문·답·검사), `known_conflicts.py`·`.md`
+  - 표 모양: `research_notes/stage2_table_shapes/classify.py`, `shapes.md`
+  - 최종 평가셋 지시서와 진행 안내: `data/questions/final_set_instructions.md`, `final_set_guide.md`(값이 부딪히는 사실의 규칙과 "알려진 부딪히는 값" 목록)
+  - 일하는 방식의 결정 한 줄: `decisions/common.md`의 2026-10-14 줄
+- 이슈 #4의 완료 기준은 `CODEX_REVIEW.md`의 "1차 요청"에 있다. ⑦은 이 검토 자체에 관한 항목이라 검토하지 않아도 된다.
+
 ## 1차 요청
 
 - 단계: 2단계 (문서). 1차 검토다.
