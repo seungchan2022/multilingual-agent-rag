@@ -1,0 +1,400 @@
+[
+ {
+  "doc_id": "wiki-ko-jeonju",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 2구 35행정동 82법정동"
+   ],
+   "area": [
+    "면적: 205.5 km2"
+   ],
+   "population": [
+    "인구: 655,879명(2022년 3월년)"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "205.5 km2 ← 면적은 205.5 km2, 인구는 약 65만 명이다.",
+    "92.54 km2 ← | 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |",
+    "112.95 km2 ← | 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |"
+   ],
+   "population": [
+    "338,839 ← | 완산구 | 完山區 | 92.54 | 338,839 | 143,731 |",
+    "315,555 ← | 덕진구 | 德津區 | 112.95 | 315,555 | 130,022 |",
+    "662,086 ← | 2019년 | 662,086명 | | 외국인: 10,994 (1.7%) |",
+    "624,717 ← | 2025년 | 624,717명 | | |",
+    "63만9354명 ← 2024년 6월 말 주민등록 기준으로 전주시의 인구는 63만9354명, 완주군의 인구는 9만8878명이었다."
+   ],
+   "districts_count": []
+  }
+ },
+ {
+  "doc_id": "wiki-en-jeonju",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 2 Gu, 40 dong"
+   ],
+   "area": [
+    "Total: 206.22 km2 (79.62 sq mi)",
+    "Area Code: +82-63-2xx"
+   ],
+   "population": [
+    "Total: 638,421"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [],
+   "districts_count": []
+  }
+ },
+ {
+  "doc_id": "wiki-ko-cheongju",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 4구 3읍 10면 30행정동 82법정동"
+   ],
+   "area": [
+    "면적: 940.33 km2"
+   ],
+   "population": [
+    "인구: 849,029명(2022년 2월년)",
+    "인구 밀도: 905.2명/km2"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "153.45km2 ← 도농 통합 이전 청주시 면적은 2012년 기준 153.45km2으로",
+    "940.33km2 ← | 총합계 | 380,651 | 846,691 | 940.33 | 4구 |",
+    "404.40km2 ← | 상당구 | 上黨區 | 83,394 | 193,673 | 404.40 |"
+   ],
+   "population": [
+    "265,316명 ← | 흥덕구 | 興德區 | 121,161 | 265,316 | 198.34 |",
+    "193,630명 ← | 서원구 | 西原區 | 88,082 | 193,630 | 122.63 |",
+    "846,291명 ← 2021년 5월말 주민등록 인구는 380,651세대, 846,291명이다.",
+    "674,341명 ← 통합 이전의 청주시 인구는 2014년 4월말을 기준으로 674,341명"
+   ],
+   "districts_count": [
+    "82개 법정동 ← 3읍 10면 30행정동 82법정동을 관할하는"
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-en-cheongju",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 4 gu, 30 legal dong, 3 eup, 10 myeon"
+   ],
+   "area": [
+    "Total: 940.3 km2 (363.1 sq mi)",
+    "Area code: (+82) 43-2xx"
+   ],
+   "population": [
+    "Total: 852,147"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [
+    "1970년 147,000명, 2000년 582,158명 ← almost quadrupled its population from 147,000 in 1970 to 582,158 in 20"
+   ],
+   "districts_count": []
+  }
+ },
+ {
+  "doc_id": "wiki-ko-chuncheon",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 1읍, 9면, 15동",
+    "법정동: 29동"
+   ],
+   "area": [
+    "면적: 1,116.35km2"
+   ],
+   "population": [
+    "인구: 285,907명 (2022년 6월년)"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [
+    "285,234명 ← 2025 | 285,234 | +0.2%",
+    "282,439명 ← 인구는 2017년 3월 31일 기준으로 116,273세대, 282,439명이다"
+   ],
+   "districts_count": [
+    "1읍 9면 15동 ← 행정 구역은 1읍(신북읍) 9면 15동"
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-en-chuncheon",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 1 eup, 9 myeon, 15 dong"
+   ],
+   "area": [
+    "Total: 1,166.8 km2 (450.5 sq mi)",
+    "Area code: +82-33-2xx"
+   ],
+   "population": [
+    "Total: 284,855"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [
+    "290,281명 ← Total | 1,166.8 | 290,281"
+   ],
+   "districts_count": []
+  }
+ },
+ {
+  "doc_id": "wiki-ko-cheonan",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 2구 4읍 8면 19행정동 30법정동"
+   ],
+   "area": [
+    "면적: 636.2 km2"
+   ],
+   "population": [
+    "인구: 66만 1,153명(2025년)"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "197.68 km2 ← | 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |",
+    "438.54 km2 ← | 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |"
+   ],
+   "population": [
+    "669,928명 ← 2018년 9월 주민등록 인구는 669,928명이다.",
+    "400,566명 ← | 서북구 | 西北區 | 400,566 | 385,713 | 197.68 |",
+    "264,312명 ← | 동남구 | 東南區 | 264,312 | 107,475 | 438.54 |",
+    "683,453명 ← | 총계 | 683,453 | 255,696 | 636.2 | |"
+   ],
+   "districts_count": []
+  }
+ },
+ {
+  "doc_id": "wiki-en-cheonan",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 2 gu, 16 legal dong, 4 eup, 8 myeon"
+   ],
+   "area": [
+    "Total: 636.25 km2 (245.66 sq mi)"
+   ],
+   "population": [
+    "Total: 658,831"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [],
+   "districts_count": []
+  }
+ },
+ {
+  "doc_id": "wiki-en-busan",
+  "infobox": {
+   "districts_count": [
+    "Districts: 16"
+   ],
+   "area": [
+    "Metropolitan city: 770.04 km2 (297.31 sq mi)",
+    "Area code: (+82) 051"
+   ],
+   "population": [
+    "Metropolitan city: 3,285,147"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [
+    "3.3 million (2024) ← it has a population of over 3.3 million as of 2024"
+   ],
+   "districts_count": [
+    "15개 구, 1개 군 ← Today, Busan has divided into fifteen gu and one gun (county)."
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-en-jeju",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 19 dong, 4 eup, 3 myeon"
+   ],
+   "area": [
+    "Total: 977.8 km2 (377.5 sq mi)"
+   ],
+   "population": [
+    "Total: 488,844"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [
+    "486,604명 (2024년 5월) ← The population of Jeju City is 486,604 people and 225,139 households"
+   ],
+   "districts_count": [
+    "19개 동, 4개 읍, 3개 면 ← Jeju is divided into 19 neighbourhoods (dong), 4 towns (eup), and 3 to"
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-en-andong",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 1 eup, 13 myeon, 10 dong"
+   ],
+   "area": [
+    "Total: 1,590.91 km2 (614.25 sq mi)",
+    "Area code: (+82) 054"
+   ],
+   "population": [
+    "Total: 153,348"
+   ]
+  },
+  "body_facts": {
+   "area": [],
+   "population": [
+    "167,821 (October 2010) ← with a population of 167,821 as of October 2010"
+   ],
+   "districts_count": [
+    "1 eup, 13 myeon, 10 dong ← Andong is divided into 1 eup, 13 myeon and 10 dong."
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-en-gangneung",
+  "infobox": {
+   "districts_count": [
+    "Administrative divisions: 1 eup, 7 myeon, 13 dong"
+   ],
+   "area": [
+    "Total: 1,040 km2 (400 sq mi)",
+    "Area code: +82-33"
+   ],
+   "population": [
+    "Total: 208,161"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "1,040.4 km2 ← The total area of Gangneung is about 1,040.4 km2"
+   ],
+   "population": [
+    "213,658 (2017) ← It has a population of 213,658 (as of 2017)"
+   ],
+   "districts_count": [
+    "읍 1, 면 7, 동 13 ← The district includes one town (eup), seven townships (myeon), 13 neig"
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-ko-suwon",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 4구 44행정동 56법정동"
+   ],
+   "area": [
+    "면적: 121.05 km2"
+   ],
+   "population": [
+    "인구: 1,228,165명(2025년)"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "121.05 km2 ← 수원시의 총 면적은 121.05 km2의 주형 분지로 되어 있다."
+   ],
+   "population": [
+    "1,233,431명 (2023년 기준) ← 수원시의 인구는 2023년 기준 537,078세대 1,233,431명이다."
+   ],
+   "districts_count": [
+    "4개 구, 44개 행정동, 56개 법정동 ← 수원시의 행정 구역은 장안구, 권선구, 팔달구, 영통구의 4개 구로 44개 행정동, 56개 법정동을 두고 있다."
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-ko-gyeongju",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 4읍, 8면, 10동",
+    "법정동: 44동"
+   ],
+   "area": [
+    "면적: 1,324.95km2"
+   ],
+   "population": [
+    "인구: 247,489명 (2022년)"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "1,324.41km2 ← 경주시의 행정구역 면적은 1,324.41km2로, 경상북도에서 안동시에 이어 두 번째로 넓은 기초자치단체이다."
+   ],
+   "population": [
+    "247,489명 (2022년 기준) ← 인구는 2022년 기준 247,489명이다.",
+    "244,411명 (2025년 말 기준) ← 2025년 말 기준 인구는 244,411명이다."
+   ],
+   "districts_count": [
+    "4읍 8면 10동 ← 행정구역은 4읍 8면 10동이다."
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-ko-sejong",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 1읍 9면 15행정동 23법정동"
+   ],
+   "area": [
+    "면적: 465.96 km2"
+   ],
+   "population": [
+    "인구: 392,230명(2025년)",
+    "인구 밀도: 805.11명/km2"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "465km2 ← 면적은 465km2로 서울시 면적의 약 70%며"
+   ],
+   "population": [
+    "391,965명 (2025년 12월 말) ← 2025년 12월 말 기준 세종특별자치시의 주민등록 인구는 391,965명, 세대수는 165,220세대이다.",
+    "386,525명 (2023년) ← | 2023년 | 386,525 |"
+   ],
+   "districts_count": [
+    "1읍 9면 14행정동 18법정동 122리 ← 시의 행정구역은 1읍 9면 14행정동 18법정동 122리로 구성되어 있다."
+   ]
+  }
+ },
+ {
+  "doc_id": "wiki-ko-gwangju",
+  "infobox": {
+   "districts_count": [
+    "행정 구역: 5구"
+   ],
+   "area": [
+    "면적: 500.9 km2"
+   ],
+   "population": [
+    "인구: 1,397,122명(2024년)",
+    "인구 밀도: 2,814.18명/km2"
+   ]
+  },
+  "body_facts": {
+   "area": [
+    "501.18km2 ← 면적은 501.18km2이다."
+   ],
+   "population": [
+    "1,472,199명 (2015년 12월 31일 기준) ← 2015년 12월 31일 기준 인구는 580,427세대, 1,472,199명이다.",
+    "409,283명 (1960년) ← | 1960년 | 409,283 | | |"
+   ],
+   "districts_count": [
+    "5개 자치구, 90개 동 ← 광주광역시에는 5개 자치구(광산구, 동구, 서구, 북구, 남구)와 90개 동이 있다."
+   ]
+  }
+ }
+]
