@@ -1,0 +1,884 @@
+{
+ "markdown_tables": 100,
+ "shapes": [
+  {
+   "shape": "머리글 줄이 없는 표",
+   "meaning": "원문에 제목 줄이 없어, 첫 줄(내용)이 마크다운 표의 머리글 자리에 놓였다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheongju#3",
+     "note": "고속철도 노선과 역"
+    },
+    {
+     "table": "wiki-ko-cheongju#4",
+     "note": "일반철도 노선과 역"
+    },
+    {
+     "table": "wiki-ko-cheongju#5",
+     "note": "고속도로 이름과 나들목"
+    },
+    {
+     "table": "wiki-ko-cheongju#6",
+     "note": "일반 도로 번호와 도로 이름"
+    },
+    {
+     "table": "wiki-ko-cheongju#7",
+     "note": "버스 터미널과 운행"
+    },
+    {
+     "table": "wiki-ko-chuncheon#8",
+     "note": "철도 노선과 역"
+    },
+    {
+     "table": "wiki-ko-chuncheon#9",
+     "note": "고속도로 이름과 나들목"
+    },
+    {
+     "table": "wiki-ko-chuncheon#10",
+     "note": "일반 도로 번호와 도로 이름"
+    },
+    {
+     "table": "wiki-ko-chuncheon#11",
+     "note": "버스 터미널과 운행"
+    },
+    {
+     "table": "wiki-ko-chuncheon#13",
+     "note": "대학 종류와 학교 이름"
+    },
+    {
+     "table": "wiki-en-gangneung#4",
+     "note": "철도 노선과 역"
+    }
+   ]
+  },
+  {
+   "shape": "한 줄에 여러 대상이 옆으로 놓인 표",
+   "meaning": "한 줄에 서로 다른 대상 여럿이 나란히 있어, 줄 하나가 대상 하나가 아니다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheongju#6",
+     "note": "도로 번호·도로 이름 짝 4개가 한 줄에"
+    },
+    {
+     "table": "wiki-ko-cheongju#7",
+     "note": "터미널·운행 짝 2개가 한 줄에"
+    },
+    {
+     "table": "wiki-ko-chuncheon#10",
+     "note": "도로 번호·도로 이름 짝 3개가 한 줄에"
+    },
+    {
+     "table": "wiki-ko-chuncheon#11",
+     "note": "터미널·운행 짝 2개가 한 줄에"
+    },
+    {
+     "table": "wiki-ko-chuncheon#13",
+     "note": "같은 종류의 학교 이름이 여러 열에 흩어짐"
+    },
+    {
+     "table": "wiki-ko-chuncheon#14",
+     "note": "같은 종류의 학교 이름이 여러 열에 흩어짐"
+    }
+   ]
+  },
+  {
+   "shape": "머리글이 두 줄인 표",
+   "meaning": "제목 줄이 두 줄이라, 마크다운에서는 둘째 제목 줄이 내용 줄처럼 놓였다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-en-gangneung#3",
+     "note": "1줄: 국가 지정/도 지정, 2줄: 국보·보물 등"
+    }
+   ]
+  },
+  {
+   "shape": "같은 머리글이 여러 열에 붙은 표",
+   "meaning": "가로로 합친 제목 칸이 펴져, 서로 다른 열이 같은 이름을 가졌다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-en-gangneung#3",
+     "note": "State-designated heritage가 9열, Province-designated heritage가 5열"
+    },
+    {
+     "table": "wiki-ko-suwon#6",
+     "note": "지방자치단체 2열(시·도와 시·군)"
+    },
+    {
+     "table": "wiki-ko-cheongju#8",
+     "note": "도시 2열(시·도와 시·군·구)"
+    },
+    {
+     "table": "wiki-ko-sejong#4",
+     "note": "구분 2열(이전 단계와 분야)"
+    }
+   ]
+  },
+  {
+   "shape": "머리글 칸이 일부만 찬 표",
+   "meaning": "제목 줄의 칸 대부분이 비어 있다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-chuncheon#14",
+     "note": "제목 줄이 '고등학교'와 빈칸 5개"
+    }
+   ]
+  },
+  {
+   "shape": "표 중간에 머리글이 다시 나오는 표",
+   "meaning": "표 중간에 제목 줄이 한 번 더 있어, 그 아래 줄은 첫 제목이 아니라 새 제목에 속한다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-gwangju#14",
+     "note": "박물관 6줄 뒤에 '미술관 | 주소 | 홈페이지' 줄"
+    }
+   ]
+  },
+  {
+   "shape": "합계 줄이 있는 표",
+   "meaning": "대상 줄들 사이나 끝에 그 합계 줄이 있다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-jeonju#2",
+     "note": "끝 줄 전주시"
+    },
+    {
+     "table": "wiki-ko-cheongju#2",
+     "note": "끝 줄 총합계"
+    },
+    {
+     "table": "wiki-ko-chuncheon#3",
+     "note": "끝 줄 합계"
+    },
+    {
+     "table": "wiki-en-chuncheon#3",
+     "note": "끝 줄 Total"
+    },
+    {
+     "table": "wiki-ko-cheonan#2",
+     "note": "구 소계 2줄과 끝 줄 총계"
+    },
+    {
+     "table": "wiki-ko-suwon#5",
+     "note": "끝 줄 수원시"
+    },
+    {
+     "table": "wiki-ko-gyeongju#4",
+     "note": "끝 줄 경주시"
+    },
+    {
+     "table": "wiki-ko-sejong#1",
+     "note": "끝 줄 세종특별자치시"
+    },
+    {
+     "table": "wiki-ko-gwangju#2",
+     "note": "끝 줄 광주광역시"
+    },
+    {
+     "table": "wiki-en-gangneung#2",
+     "note": "끝 줄 Gangneung-si"
+    },
+    {
+     "table": "wiki-ko-sejong#4",
+     "note": "첫 줄 36개 기관"
+    },
+    {
+     "table": "wiki-ko-gwangju#10",
+     "note": "첫 줄 합계"
+    },
+    {
+     "table": "wiki-ko-gwangju#7",
+     "note": "매출액 합계, 수출액 합계 줄"
+    }
+   ]
+  },
+  {
+   "shape": "줄의 소속이 순서로만 드러나는 표",
+   "meaning": "줄 이름만으로는 무엇에 속한 줄인지 알 수 없고, 위나 아래의 줄을 봐야 안다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheonan#2",
+     "note": "동 줄들 뒤에 그 동들이 속한 구의 소계 줄(서북구, 동남구)"
+    },
+    {
+     "table": "wiki-ko-gwangju#7",
+     "note": "'완성차'·'부품' 줄이 두 번 나오고, 위의 합계 줄(매출액, 수출액)에 따라 뜻이 갈린다"
+    }
+   ]
+  },
+  {
+   "shape": "줄 이름이 없는 표",
+   "meaning": "줄마다 무엇을 센 값인지 적힌 칸이 없다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-gyeongju#8",
+     "note": "학생 수 줄과 교직원 수 줄에 이름이 없고, 표 위 제목('학생 · 교직원 현황')으로만 짐작된다"
+    }
+   ]
+  },
+  {
+   "shape": "줄이 측정 항목이고 열이 달·해인 표",
+   "meaning": "줄마다 다른 항목(단위가 다르다)이고 열이 달이나 해라서, 값 하나의 뜻에 줄 이름과 열 이름이 둘 다 필요하다",
+   "how": "읽어서 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-jeonju#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-jeonju#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-cheongju#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-cheongju#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-chuncheon#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-chuncheon#4",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-cheonan#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-cheonan#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-busan#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-jeju#2",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-jeju#3",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-jeju#4",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-jeju#5",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-andong#2",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-en-gangneung#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-suwon#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-gyeongju#2",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-gwangju#1",
+     "note": "기후 표"
+    },
+    {
+     "table": "wiki-ko-suwon#3",
+     "note": "산업별 사업체 수(2009년, 2018년, 증감율)"
+    },
+    {
+     "table": "wiki-ko-gyeongju#7",
+     "note": "의료시설 건수·병상수"
+    },
+    {
+     "table": "wiki-ko-gyeongju#8",
+     "note": "학생·교직원 수"
+    },
+    {
+     "table": "wiki-ko-gwangju#7",
+     "note": "자동차 생산·매출·수출"
+    },
+    {
+     "table": "wiki-ko-gwangju#10",
+     "note": "기업 수"
+    },
+    {
+     "table": "wiki-ko-gwangju#11",
+     "note": "제조업체 수"
+    },
+    {
+     "table": "wiki-ko-gwangju#12",
+     "note": "고용·업체·매출"
+    },
+    {
+     "table": "wiki-ko-gwangju#13",
+     "note": "고용·기업체·매출"
+    }
+   ]
+  },
+  {
+   "shape": "세로로 합친 칸이 있는 표",
+   "meaning": "칸 하나가 아래로 여러 줄에 걸쳐 있었다. 마크다운에서는 같은 글자가 줄마다 되풀이된다",
+   "how": "기계 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheongju#8",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#13",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#14",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#19",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#20",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-chuncheon#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheonan#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-gangneung#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-gangneung#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-suwon#6",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#9",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#15",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#20",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#22",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "shape": "가로로 합친 칸이 있는 표",
+   "meaning": "칸 하나가 옆으로 여러 칸에 걸쳐 있었다(표 전체 너비의 줄은 뺀다)",
+   "how": "기계 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheongju#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheongju#8",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-chuncheon#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-chuncheon#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheonan#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-gangneung#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-suwon#6",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#15",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "shape": "칸 안에 줄바꿈이 있는 표",
+   "meaning": "칸 하나 안에서 줄이 바뀌었다. 마크다운에서는 빈칸 하나가 된다",
+   "how": "기계 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-jeonju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-jeonju#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeonju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheongju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheongju#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-cheongju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-chuncheon#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-chuncheon#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheonan#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheonan#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-cheonan#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-andong#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-gangneung#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-suwon#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#6",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#8",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#8",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#9",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "shape": "칸 안에 목록이 있는 표",
+   "meaning": "칸 하나 안에 점 목록이 있었다. 마크다운에서는 쉼표로 이어진다",
+   "how": "기계 판정",
+   "tables": []
+  },
+  {
+   "shape": "내용 줄이 없는 표",
+   "meaning": "마크다운 표가 머리글 자리 한 줄뿐이다",
+   "how": "기계 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheongju#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheongju#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-cheongju#7",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#11",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "shape": "모든 칸이 빈 줄이 있는 표",
+   "meaning": "내용 줄 가운데 모든 칸이 빈 줄이 있다",
+   "how": "기계 판정",
+   "tables": [
+    {
+     "table": "wiki-ko-cheongju#8",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "shape": "통계 표",
+   "meaning": "공공데이터포털의 CSV를 옮긴 표(원문 HTML이 없다)",
+   "how": "기계 판정",
+   "tables": [
+    {
+     "table": "portal-ko-suwon-population#1",
+     "note": ""
+    },
+    {
+     "table": "portal-ko-jeonju-population#1",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "shape": "위 모양이 하나도 없는 표",
+   "meaning": "제목 줄 한 줄, 줄마다 대상 하나인 표",
+   "how": "기계 판정(위 목록의 나머지)",
+   "tables": [
+    {
+     "table": "wiki-ko-jeonju#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-jeonju#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeonju#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-cheongju#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-chuncheon#6",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-chuncheon#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#6",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#7",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-busan#8",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#7",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-jeju#8",
+     "note": ""
+    },
+    {
+     "table": "wiki-en-andong#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-suwon#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#1",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#5",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#10",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gyeongju#11",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#2",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-sejong#6",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#3",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#4",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#16",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#17",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#18",
+     "note": ""
+    },
+    {
+     "table": "wiki-ko-gwangju#21",
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "all_source_tables": {
+  "table_items가 받은 원문 표": 125,
+  "마크다운 표가 됨": 100,
+  "틀로 풀림": 24,
+  "비어서 빠짐": 1,
+  "칸을 합친 표(세로나 가로)": 19,
+  "칸 안에 줄바꿈이 있는 표": 33,
+  "칸 안에 목록이 있는 표": 17,
+  "표 안에 표가 있는 것": 7,
+  "칸을 합쳤거나 표 전체 너비의 줄이 있는 표": 54
+ },
+ "pair_candidates": [
+  {
+   "table": "wiki-ko-jeonju#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-jeonju#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-cheongju#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-cheongju#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-chuncheon#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-chuncheon#3",
+   "note": "제목 칸 안의 단위 줄(Area / (km2))"
+  },
+  {
+   "table": "wiki-en-chuncheon#4",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-cheonan#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-cheonan#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-busan#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-jeju#2",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-jeju#3",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-jeju#4",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-jeju#5",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-andong#2",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-en-gangneung#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-suwon#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-gyeongju#2",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-gyeongju#8",
+   "note": "제목 칸 안의 구분 줄(고등학교 / (일반계))"
+  },
+  {
+   "table": "wiki-ko-gwangju#1",
+   "note": "같은 값의 섭씨와 화씨(또는 mm와 인치). 짝을 이루는 서로 다른 값이 아니다"
+  },
+  {
+   "table": "wiki-ko-gwangju#7",
+   "note": "제목 칸 안의 구분 줄(2013 / (추정))"
+  },
+  {
+   "table": "wiki-ko-gwangju#8",
+   "note": "한 칸의 설명 글이 줄을 넘긴 것. 옆 칸과 짝을 이루지 않는다"
+  },
+  {
+   "table": "wiki-ko-gwangju#12",
+   "note": "제목 칸 안의 구분 줄(1999년 / (육성이전))"
+  }
+ ],
+ "pair_found": 0
+}
