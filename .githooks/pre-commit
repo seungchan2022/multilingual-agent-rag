@@ -19,8 +19,15 @@ git -c core.quotepath=off diff --cached --name-only --diff-filter=ACMR | while I
   esac
 done
 
-# 문서 파일은 fetch.py와 build.py만 바꾼다. data/corpus/나 변환 코드·라이브러리 버전(build.py, uv.lock, .python-version)이 stage되면 해시와 다시 만든 마크다운을 기록과 견주고, 어긋나면 막는다
+# 문서 파일은 fetch.py와 build.py만 바꾼다. data/corpus/나 변환 코드·라이브러리 버전(build.py, uv.lock, .python-version)이 stage되면 해시와 다시 만든 마크다운을 기록과 견주고, 어긋나면 막는다. 검사는 작업 폴더의 파이썬 버전과 라이브러리로 돌므로 그 파일들이 stage본과 다르면 먼저 막는다
 if git -c core.quotepath=off diff --cached --name-only | grep -Eq '^(data/corpus/|src/corpus/build\.py$|uv\.lock$|\.python-version$)'; then
+  # uv run은 작업 폴더의 파일로 환경을 고르므로, stage본과 다르면 검사가 엉뚱한 환경에서 돌아 잘못 통과할 수 있다
+  for file in .python-version uv.lock pyproject.toml; do
+    if ! git diff --quiet -- "$file"; then
+      echo "커밋 거부: ${file}의 작업 폴더 내용이 stage된 내용과 다르다. git add로 다시 stage하거나, 작업 폴더를 stage된 내용으로 되돌린다." >&2
+      exit 1
+    fi
+  done
   if ! uv run --quiet python src/corpus/check_staged.py; then
     echo "커밋 거부: data/corpus/의 파일이 collected.yaml의 해시와 다르거나, 원본으로 다시 만든 마크다운이 기록과 다르다. 손으로 고친 파일이면 git restore로 되돌리고, 원본이나 변환 코드를 바꿨으면 build.py로 마크다운을 다시 만든다." >&2
     exit 1
