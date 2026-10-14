@@ -19,10 +19,10 @@ git -c core.quotepath=off diff --cached --name-only --diff-filter=ACMR | while I
   esac
 done
 
-# 문서 파일은 fetch.py와 build.py만 바꾼다. 파일만 바뀌고 해시가 그대로이면 손으로 고친 것으로 보고 막는다
-if git -c core.quotepath=off diff --cached --name-only | grep -q '^data/corpus/'; then
+# 문서 파일은 fetch.py와 build.py만 바꾼다. data/corpus/나 변환 코드·라이브러리 버전(build.py, uv.lock, .python-version)이 stage되면 해시와 다시 만든 마크다운을 기록과 견주고, 어긋나면 막는다
+if git -c core.quotepath=off diff --cached --name-only | grep -Eq '^(data/corpus/|src/corpus/build\.py$|uv\.lock$|\.python-version$)'; then
   if ! uv run --quiet python src/corpus/check_staged.py; then
-    echo "커밋 거부: data/corpus/의 파일이 collected.yaml의 해시와 다르다. 손으로 고친 파일이면 git restore로 되돌린다." >&2
+    echo "커밋 거부: data/corpus/의 파일이 collected.yaml의 해시와 다르거나, 원본으로 다시 만든 마크다운이 기록과 다르다. 손으로 고친 파일이면 git restore로 되돌리고, 원본이나 변환 코드를 바꿨으면 build.py로 마크다운을 다시 만든다." >&2
     exit 1
   fi
 fi
