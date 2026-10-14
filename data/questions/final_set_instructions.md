@@ -1,10 +1,10 @@
 # 최종 평가셋 지시서
 
-이 글은 사용자가 웹 임시 채팅의 AI에게 주는 글이다. 아래 "AI에게 주는 글" 부분을 그대로 붙여 넣고, 2단계에서 만든 문서 목록과 원문(마크다운 파일)을 함께 올린다. 규칙의 출처는 `EVALUATION.md`의 ①②③이고, 이 글과 어긋나면 `EVALUATION.md`가 맞다. 사용자가 진행하는 순서와 문제가 생겼을 때의 대처는 `final_set_guide.md`에 있다.
+이 글은 사용자가 웹 임시 채팅의 AI에게 주는 글이다. 아래 "AI에게 주는 글" 부분을 그대로 붙여 넣고, 원문(마크다운 파일 28개)을 함께 올린다. 문서 목록은 "AI에게 주는 글" 안에 들어 있다. 규칙의 출처는 `EVALUATION.md`의 ①②③이고, 이 글과 어긋나면 `EVALUATION.md`가 맞다. 사용자가 진행하는 순서와 문제가 생겼을 때의 대처는 `final_set_guide.md`에 있다.
 
 이 글에는 실제 질문이 없다. 형식을 보여 주는 예는 지어낸 것이다.
 
-`<...>`로 적은 곳은 3단계에서 채운다.
+문서 목록은 2단계에서 채웠다. 남은 `<...>`는 요청할 때마다 그때 넣는 값이다.
 
 ---
 
@@ -14,8 +14,39 @@
 
 ### 1. 내가 올린 것
 
-- 문서 목록: 문서마다 식별자(`doc_id`), 언어(`ko` 또는 `en`), 제목이 있다. `<문서 목록을 여기에 붙인다>`
+- 문서 목록: 아래 표다. 문서마다 식별자(`doc_id`), 언어(`ko` 또는 `en`), 제목이 있다.
 - 문서 본문: 마크다운 파일이다. 아래에서 "원문"은 이 마크다운 파일을 가리킨다.
+
+| doc_id | 언어 | 제목 |
+|---|---|---|
+| `wiki-ko-jeonju` | ko | 전주시 |
+| `wiki-en-jeonju` | en | Jeonju |
+| `wiki-ko-cheongju` | ko | 청주시 |
+| `wiki-en-cheongju` | en | Cheongju |
+| `wiki-ko-chuncheon` | ko | 춘천시 |
+| `wiki-en-chuncheon` | en | Chuncheon |
+| `wiki-ko-cheonan` | ko | 천안시 |
+| `wiki-en-cheonan` | en | Cheonan |
+| `wiki-en-busan` | en | Busan |
+| `wiki-en-jeju` | en | Jeju City |
+| `wiki-en-andong` | en | Andong |
+| `wiki-en-gangneung` | en | Gangneung |
+| `wiki-ko-suwon` | ko | 수원시 |
+| `wiki-ko-gyeongju` | ko | 경주시 |
+| `wiki-ko-sejong` | ko | 세종특별자치시 |
+| `wiki-ko-gwangju` | ko | 광주광역시 |
+| `kto-ko-jeonju-hanok-village` | ko | 전북 전주 한옥마을 [슬로시티] |
+| `kto-en-jeonju-hanok-village` | en | Jeonju Hanok Village [Slow City] (전북 전주 한옥마을 [슬로시티]) |
+| `kto-ko-cheongju-cheongnamdae` | ko | 청남대 |
+| `kto-en-cheongju-cheongnamdae` | en | Cheongnamdae Presidential Villa (청남대) |
+| `kto-ko-chuncheon-samaksan-cable-car` | ko | 춘천 삼악산 호수케이블카 |
+| `kto-en-chuncheon-samaksan-cable-car` | en | Chuncheon Samaksan Mountain Lake Cable Car (춘천 삼악산 호수케이블카) |
+| `kto-ko-cheonan-samgeori-park` | ko | 천안삼거리공원 |
+| `kto-en-cheonan-samgeori-park` | en | Cheonan Three-way Intersection Park (천안삼거리공원) |
+| `kto-en-busan-haeundae-green-railway` | en | Haeundae Green Railway (Mipo-Songjeong) (해운대 그린레일웨이 (미포~송정 구간)) |
+| `kto-en-jeju-ara-dong-trail` | en | Ara-dong History and Culture Trail (아라동 역사문화탐방로) |
+| `portal-ko-suwon-population` | ko | 경기도 수원시_인구현황 |
+| `portal-ko-jeonju-population` | ko | 전북특별자치도 전주시_인구현황 |
 
 ### 2. 만들 것
 
@@ -70,6 +101,11 @@
 - `evidence_language`는 그 질문의 근거 구절이 있는 문서의 언어다.
 - 한 질문의 근거 구절은 모두 한 가지 언어의 문서에서 나와야 한다. 문서는 여러 개여도 된다.
 - 반대 언어의 문서에 같은 사실이 있으면 그 사실로 질문을 만들지 마라. 예를 들어 영어 문서의 사실로 질문을 만들려면, 한국어 문서 어디에도 그 사실이 없어야 한다. 만들기 전에 반대 언어 문서 전체에서 그 사실을 찾아봐라.
+- 아래 두 영어 문서는 한국어 문서를 줄여 옮긴 것이다. 그 안의 사실은 모두 짝이 되는 한국어 문서에도 있다.
+  - `kto-en-jeonju-hanok-village` (짝이 되는 한국어 문서: `kto-ko-jeonju-hanok-village`)
+  - `kto-en-cheonan-samgeori-park` (짝이 되는 한국어 문서: `kto-ko-cheonan-samgeori-park`)
+  - 이 두 문서의 구절은 `passage`에도 `rebuttal`에도 옮겨 적지 마라.
+  - 이 두 문서도 바로 위 규칙의 "반대 언어 문서"에 들어간다. 한국어 문서의 사실로 질문을 만들기 전에 이 두 문서에서도 그 사실을 찾아봐라.
 - 정답(`answer`)과 필수 사실(`fact`)은 질문과 같은 언어로 쓴다. 근거 구절(`passage`)은 원문의 언어 그대로 둔다.
 
 ### 5. 답 있는 질문의 규칙
