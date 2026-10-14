@@ -218,6 +218,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-ko-jeonju-hanok-village.json
   raw_sha256: 59b255b6911e6db5fccc151bcb0bebb4d661bc4d7effb8fa6f31a06c932873b2
+  markdown_file: markdown/kto-ko-jeonju-hanok-village.md
+  markdown_sha256: fe08972821074230e058b15693d1d42f3eae82b388af919addb5b2383b281398
 - doc_id: kto-en-jeonju-hanok-village
   fetched_at: '2026-10-14T10:19:43+09:00'
   request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=264285
@@ -229,6 +231,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-en-jeonju-hanok-village.json
   raw_sha256: 0bd931f11d2ef4eefd0e783597b37be49074c9406c9ca96d8da298177c5eb803
+  markdown_file: markdown/kto-en-jeonju-hanok-village.md
+  markdown_sha256: ec56c270543837cd1eee3e1d9660f6c937f0e26f243465688c3c9debce871e75
 - doc_id: kto-ko-cheongju-cheongnamdae
   fetched_at: '2026-10-14T10:19:46+09:00'
   request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=127916
@@ -239,6 +243,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-ko-cheongju-cheongnamdae.json
   raw_sha256: be2426f3225376ffbe851bfccb987e6acf278313bd1cd6e9083e15725f509188
+  markdown_file: markdown/kto-ko-cheongju-cheongnamdae.md
+  markdown_sha256: 75194e1dee51fe6b510bc153bff1cb96264538fdbed341a808d5ec111a1916c7
 - doc_id: kto-en-cheongju-cheongnamdae
   fetched_at: '2026-10-14T10:19:48+09:00'
   request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=795179
@@ -250,6 +256,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-en-cheongju-cheongnamdae.json
   raw_sha256: 055016b11ca97aac154b3e5f2948a0272d077000ef4e6c6e9a314d922acf3c84
+  markdown_file: markdown/kto-en-cheongju-cheongnamdae.md
+  markdown_sha256: 4af38f94333018fc95b063a2d0fae2b09b524a6c32debaf2b3f30de631bd8df8
 - doc_id: kto-ko-chuncheon-samaksan-cable-car
   fetched_at: '2026-10-14T10:19:50+09:00'
   request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2814588
@@ -260,6 +268,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-ko-chuncheon-samaksan-cable-car.json
   raw_sha256: 661801768ae04cba115a5584c4c37a2a0bb871d29e22692809025339fd41b494
+  markdown_file: markdown/kto-ko-chuncheon-samaksan-cable-car.md
+  markdown_sha256: 339b80992041c8ad50bcb6ffea0c33152b1b656b5874e3da5ac4c873c0d51cd7
 - doc_id: kto-en-chuncheon-samaksan-cable-car
   fetched_at: '2026-10-14T10:19:52+09:00'
   request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2971541
@@ -271,6 +281,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-en-chuncheon-samaksan-cable-car.json
   raw_sha256: fad4ddaf6a29a2267a77b8f6aab328e80a2e28d0ecad45c7df34d658ecc37680
+  markdown_file: markdown/kto-en-chuncheon-samaksan-cable-car.md
+  markdown_sha256: 7f14adaf6f91c0f863c2fc6852ea361e845d6a884094d5e3ae5742becc9bd46a
 - doc_id: kto-ko-cheonan-samgeori-park
   fetched_at: '2026-10-14T10:21:00+09:00'
   request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=126922
@@ -281,6 +293,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-ko-cheonan-samgeori-park.json
   raw_sha256: b23f30f3e13da9e1b3401fbd5b87ddac35eb805638eccdfe5bb02a29d498cf8d
+  markdown_file: markdown/kto-ko-cheonan-samgeori-park.md
+  markdown_sha256: b4739ae187b86dfb30bef32fa62fc074e19157641535d9e909ec4529358dffdf
 - doc_id: kto-en-cheonan-samgeori-park
   fetched_at: '2026-10-14T10:21:02+09:00'
   request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=1840356
@@ -292,6 +306,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-en-cheonan-samgeori-park.json
   raw_sha256: f738f045eeaf78da51afa0db32c7e8a17b5dfdc13abf7f820ef4bc6d44396455
+  markdown_file: markdown/kto-en-cheonan-samgeori-park.md
+  markdown_sha256: 53f10f6f755a2e642212081f996801ff9e6f7d3d2e77a0ed144a94f9387649ed
 - doc_id: kto-en-busan-haeundae-green-railway
   fetched_at: '2026-10-14T10:21:04+09:00'
   request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2990076
@@ -303,6 +319,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-en-busan-haeundae-green-railway.json
   raw_sha256: 11feec85a3c7eecc01f3cf8abcfa0bfe82255d7922c26d311b4282380835690a
+  markdown_file: markdown/kto-en-busan-haeundae-green-railway.md
+  markdown_sha256: 303bb87d041f0b38cf6dc950ef6d01701a684dc88f9e93a8cc0b83ab1abff027
 - doc_id: kto-en-jeju-ara-dong-trail
   fetched_at: '2026-10-14T10:18:34+09:00'
   request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=3079418
@@ -314,6 +332,8 @@ documents:
     줄에 있다.
   raw_file: raw/kto-en-jeju-ara-dong-trail.json
   raw_sha256: b8c6965a77205a5b11dab6b50c70948d95d7860c83bf1b9fb410bfb1d2a3b7b6
+  markdown_file: markdown/kto-en-jeju-ara-dong-trail.md
+  markdown_sha256: 23e4c617d0a6b5c78b9ba73c58e69b8e4a6d10069215db87535dcc6b474c69a7
 - doc_id: portal-ko-suwon-population
   fetched_at: '2026-10-14T10:21:06+09:00'
   request_url: https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002404642&fileDetailSn=1&insertDataPrcus=N
@@ -324,6 +344,8 @@ documents:
     줄에 있다.
   raw_file: raw/portal-ko-suwon-population.csv
   raw_sha256: e368b6506badd3dc4bb7b2f07f7bc36bd9894fd34f48fce7bece51f1b32018de
+  markdown_file: markdown/portal-ko-suwon-population.md
+  markdown_sha256: 53e97f65cfa442b7aac93de772b6b9577248e1c825048bdc9b26bb6367eb31d9
 - doc_id: portal-ko-jeonju-population
   fetched_at: '2026-10-14T10:18:36+09:00'
   request_url: https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003611561&fileDetailSn=1&insertDataPrcus=N
@@ -334,3 +356,5 @@ documents:
     줄에 있다.
   raw_file: raw/portal-ko-jeonju-population.csv
   raw_sha256: 51c8ece312b7ef46d6d6d1ac32c365f65bdc20f0e6fceebb91be1fc89795bb41
+  markdown_file: markdown/portal-ko-jeonju-population.md
+  markdown_sha256: 4398cb0457187a6269dd1c00d437a72a2900ad8e884f8676905d090e52f3e507

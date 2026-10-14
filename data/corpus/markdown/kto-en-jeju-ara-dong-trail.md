@@ -1,0 +1,7 @@
+# Ara-dong History and Culture Trail (아라동 역사문화탐방로)
+
+Homepage: https://visitjeju.net/kr/
+
+Being an island, Jeju is home to an ecosystem that developed independently from the mainland. This means that today, visitors to the island can find trails that offer sceneries like no other. The Ara-dong History and Culture Trail likewise brings this facet of Jeju to life. The trail is divided into two courses, both terminating at Gwaneumsa Temple. Course 1 goes through the two oreum (Samiakoreum and Saemioreum Parasitic Cones) to the Bracken Field, Kaldaripokpo Falls, and Sillyeongbawi Rock. Course 2 starts from Sancheondan Altar and takes visitors along the Jeju Starlight World Park and Planetarium, Sosanoreum Parisitic Cone, Cypress Rest Area, Songaksan Mountain Cave Fortification, Kaldaripokpo Falls, and Sillyeongbawi Rock. Both courses are about 4 to 5 kilometers long and take about 2 hours and 30 minutes to complete. The two courses are quite similar, but the first has a better view of the parasitic cones, springs, and falls, while the second has a better view of the cypress forests and Songaksan Mountain Cave Fortification.
+
+The area around Kaldaripokpo Falls, in particular, is the place where Se-ri (Son Ye-jin) meets Ri Jeong-hyeok (Hyun Bin) for the first time after crash-landing her paraglider in North Korea in the drama “Crash Landing on You (2019).” Fans of the show can still find the massive tree that Se-ri crashed into on the premises.
