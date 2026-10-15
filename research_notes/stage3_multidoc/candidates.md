@@ -15,7 +15,7 @@
 | K5 | 견주기 | 역대 최고 기온: 광주 38.5 °C(`wiki-ko-gwangju`), 수원 39.3°C(`wiki-ko-suwon`) | 한 + 한 | |
 | K6 | 견주기 | 역대 최저 기온: 광주 −19.4 °C(`wiki-ko-gwangju`), 수원 −25.8°C(`wiki-ko-suwon`) | 한 + 한 | |
 | K7 | 견주기 | 구의 면적: 천안 동남구 438.54 km2(`wiki-ko-cheonan`), 청주 상당구 404.40km2(`wiki-ko-cheongju`) | 두 + 두 | 시 전체와 구가 아니라 구끼리다 |
-| K8 | 견주기 | 시가 된 해: 경주 1955년 9월 1일 승격(`wiki-ko-gyeongju`), 춘천 1949년 8월 15일 춘천부를 춘천시로 개칭(`wiki-ko-chuncheon`) | 한 + 두 | 확인 필요: 승격과 개칭을 같은 "시가 된 해"로 물을 수 있는가 |
+| K8 | 견주기 | 시가 된 해: 경주 1955년 9월 1일 승격(`wiki-ko-gyeongju`), 춘천 1949년 8월 15일 춘천부를 춘천시로 개칭(`wiki-ko-chuncheon`) | 한 + 두 | 2026-10-15 사용자 확인: 쓸 수 있다. `wiki-ko-chuncheon` 41줄(1946년 춘천부로 승격)과 42줄(1949년 춘천시로 개칭) 어느 쪽을 시가 된 해로 봐도 경주(1955년)보다 이르다. "어느 곳이 먼저인가"로만 묻는다(해를 물으면 답이 둘) |
 | K9 | 이어 찾기 | 전두환 대통령의 별장으로 지은 곳이 청남대(`wiki-ko-cheongju`), 청남대는 개방 전까지 대통령 다섯 분이 88회 이용(`kto-ko-cheongju-cheongnamdae`) | 두 (같은 도시 두 문서) | 영어 문서에 `Doo-hwan`, `88 times`, `five presidents` 없음(AI grep) |
 | K10 | 이어 찾기 | 전주 한옥마을은 풍남동 일대(`kto-ko-jeonju-hanok-village`, `wiki-ko-jeonju`), 풍남동 인구 3,354명(2026-03-17, `portal-ko-jeonju-population`) | 두 (같은 도시 세 문서) | 확인 필요: `wiki-ko-jeonju` 232줄은 "교동과 풍남동 일대"라 동이 하나로 정해지지 않을 수 있다. 영어 문서에 `Pungnam-dong` 없음(`Pungnammun`은 문 이름) |
 
