@@ -10,6 +10,7 @@ passage는 data/corpus/markdown/의 글자와 그대로 견준다(유니코드 �
 YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄의 줄 끝 공백만 뗀다.
 표 구절(비어 있지 않은 줄이 모두 |로 시작하는 구절)은 첫 줄이 원문 표의 머리글 행이고 나머지 줄이 같은 표의 줄이어야 한다.
 구분선 행은 '|'와 '-'를 함께 쓴 줄(|---|---| 꼴)로 본다.
+답 있는 묶음은 후보 12개 가운데 6개가 두 언어 도시, 6개가 그 묶음의 근거 언어만 넣는 도시의 문서를 근거로 써야 하고, 그 개수를 묶음 구성 아래에 한 줄로 보인다.
 --hide를 주면 후보와 원문의 글자(질문, 답, 사실, 구절, 위치 등)를 출력에 넣지 않고 id, 칸 경로, doc_id, 개수, 규칙 이름만 보인다.
 """
 import re, sys
@@ -22,7 +23,11 @@ ROOT = Path(__file__).resolve().parents[2]
 CORPUS = ROOT / "data" / "corpus"
 MARKDOWN = CORPUS / "markdown"
 
-DOC_LANG = {d["doc_id"]: d["language"] for d in yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]}
+_DOCS = yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]
+DOC_LANG = {d["doc_id"]: d["language"] for d in _DOCS}
+CITY_GROUP = {d["doc_id"]: d["city_group"] for d in _DOCS}
+BOTH_CITY = "두 언어 문서를 다 넣는 도시"
+ONLY_CITY = {"ko": "한국어 문서만 넣는 도시", "en": "영어 문서만 넣는 도시"}
 BANNED = {"kto-en-jeonju-hanok-village", "kto-en-cheonan-samgeori-park"}
 LANGS = {"ko", "en"}
 TYPES = {"single_fact", "table_numeric", "multi_doc", "paraphrase", "no_answer"}
@@ -332,6 +337,33 @@ def label(c, n):
     return f"{n}번째 항목"
 
 
+def candidate_city(c, only):
+    """후보의 도시 묶음: 'both'(두 언어 도시), 'only'(근거 언어만 넣는 도시), None(알 수 없음)."""
+    facts = c.get("required_facts")
+    groups = set()
+    for f in facts if isinstance(facts, list) else []:
+        ev = f.get("evidence") if isinstance(f, dict) else None
+        for item in ev if isinstance(ev, list) else []:
+            doc = item.get("doc_id") if isinstance(item, dict) else None
+            if isinstance(doc, str) and doc in CITY_GROUP:
+                groups.add(CITY_GROUP[doc])
+    if BOTH_CITY in groups:
+        return "both"
+    return "only" if groups == {only} else None
+
+
+def city_counts(items, batch):
+    """(두 언어 도시 후보 수, 근거 언어만 넣는 도시 후보 수, 알 수 없는 후보 수)."""
+    only = ONLY_CITY[BATCHES[batch][1]]
+    kinds = [candidate_city(c, only) for c in items if isinstance(c, dict)]
+    both, single = kinds.count("both"), kinds.count("only")
+    return both, single, len(kinds) - both - single
+
+
+def city_name(batch):
+    return "한국어 도시" if BATCHES[batch][1] == "ko" else "영어 도시"
+
+
 def batch_problems(items, infos, batch):
     problems = []
     cands = [c for c in items if isinstance(c, dict)]
@@ -368,6 +400,9 @@ def batch_problems(items, infos, batch):
                 problems.append(f"type {t}가 {n}개임 (기대 {want_n}개)")
         if not any(info["table"] for c, info in zip(items, infos) if isinstance(c, dict) and c.get("type") == "table_numeric"):
             problems.append("table_numeric 후보 가운데 표 구절(근거 구절이 | 줄로만 이뤄진 것)을 가진 것이 없음")
+        both, single, unknown = city_counts(items, batch)
+        if both != 6 or single != 6:
+            problems.append(f"도시 묶음: 두 언어 도시 {both}개, {city_name(batch)} {single}개 (기대 6개씩)" + (f", 알 수 없음 {unknown}개" if unknown else ""))
     return problems
 
 
@@ -460,6 +495,9 @@ def main():
 
     bp = batch_problems(data, infos, batch)
     report("묶음 구성", bp)
+    if batch != "no-answer":
+        both, single, _ = city_counts(data, batch)
+        print(f"도시 묶음  두 언어 도시 {both}개, {city_name(batch)} {single}개")
     for w in warnings:
         print(w)
     print(f"후보 {len(data)}개 가운데 {passed}개 통과, 묶음 구성 {'통과' if not bp else '실패'}")

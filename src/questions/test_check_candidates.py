@@ -14,8 +14,9 @@ ROOT = Path(__file__).resolve().parents[2]
 CHECKER = ROOT / "src" / "questions" / "check_candidates.py"
 CORPUS = ROOT / "data" / "corpus"
 DOCS = {d["doc_id"]: d["language"] for d in yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]}
+# 앞 넷은 두 언어 도시의 문서, 뒤 넷은 그 언어만 넣는 도시의 문서
 KO_POOL = ["wiki-ko-jeonju", "wiki-ko-cheongju", "wiki-ko-chuncheon", "wiki-ko-cheonan", "wiki-ko-suwon", "wiki-ko-gyeongju", "wiki-ko-sejong", "wiki-ko-gwangju"]
-EN_POOL = ["wiki-en-andong", "wiki-en-busan", "wiki-en-cheonan", "wiki-en-cheongju", "wiki-en-chuncheon", "wiki-en-gangneung", "wiki-en-jeju", "wiki-en-jeonju"]
+EN_POOL = ["wiki-en-jeonju", "wiki-en-cheongju", "wiki-en-chuncheon", "wiki-en-cheonan", "wiki-en-andong", "wiki-en-busan", "wiki-en-gangneung", "wiki-en-jeju"]
 START = {"ko-ko": 1, "en-en": 13, "ko-en": 25, "en-ko": 37, "no-answer": 49}
 
 
@@ -89,17 +90,20 @@ def answered(cid, typ, ql, el, evs, tag):
             "answer": f"{tag} 정답 {cid}", "required_facts": facts}
 
 
-def make_batch(batch, shift=0, table_row=0, with_table=True):
-    """실제 말뭉치 글자로 올바른 묶음을 만든다."""
+def make_batch(batch, shift=0, table_row=0, with_table=True, both=6):
+    """실제 말뭉치 글자로 올바른 묶음을 만든다. 앞에서부터 짝수 번째(0부터) 후보 가운데 both개는 두 언어 도시, 나머지는 그 언어만 넣는 도시의 문서를 쓴다."""
     ql, el = batch.split("-")
-    pool = Pool(KO_POOL if el == "ko" else EN_POOL, shift)
+    docs = KO_POOL if el == "ko" else EN_POOL
+    pools = [Pool(docs[:4], shift), Pool(docs[4:], shift)]   # 두 언어 도시, 그 언어만 넣는 도시
+    two = set(range(0, 12, 2)[:both])
     tag = "한국어" if ql == "ko" else "english"
     types = ["single_fact"] * 2 + ["table_numeric"] * 2 + ["multi_doc"] * 4 + ["paraphrase"] * 4
     out = []
     for k, typ in enumerate(types):
         cid = f"c-{START[batch] + k:03d}"
+        pool = pools[0 if k in two else 1]
         if typ == "table_numeric" and k == 2 and with_table:
-            d = table_doc(["portal-ko-jeonju-population"] if el == "ko" else EN_POOL)
+            d = table_doc(["portal-ko-jeonju-population"] if el == "ko" else docs[:4])
             evs = [(d, Block(table_passage(d, table_row)))]
         elif typ == "multi_doc":
             evs = [pool.take(), pool.take()]
@@ -421,6 +425,31 @@ class CheckCandidatesTest(unittest.TestCase):
         text = dump(b)
         self.assertIn("passage: |", text)
         self.assertPasses(text)
+
+    # ---- 도시 묶음 ----
+
+    def test_24_city_imbalance(self):
+        b = make_batch("ko-ko", both=3)
+        out = self.assertFailsFor("묶음 구성", b)
+        self.assertIn("두 언어 도시 3개", out)
+        self.assertIn("한국어 도시 9개 (기대 6개씩)", out)
+        self.assertIn("도시 묶음  두 언어 도시 3개, 한국어 도시 9개", out)
+
+    def test_25_mixed_candidate_counts_as_two_language(self):
+        b = make_batch("ko-ko")
+        c = b[4]   # multi_doc, 두 언어 도시 후보
+        self.assertEqual(c["type"], "multi_doc")
+        doc = KO_POOL[4]   # 한국어만 넣는 도시
+        c["required_facts"][1]["evidence"] = [ev(doc, prose(doc)[5], "고유위치 섞음")]
+        self.assertEqual(DOCS[first_ev(c, 0)["doc_id"]], "ko")
+        out = self.assertPasses(b)
+        self.assertIn("도시 묶음  두 언어 도시 6개, 한국어 도시 6개", out)
+
+    def test_26_valid_en_en_city_line(self):
+        out = self.assertPasses(make_batch("en-en"), "en-en")
+        self.assertIn("도시 묶음  두 언어 도시 6개, 영어 도시 6개", out)
+        out = self.assertPasses(make_batch("en-en"), "en-en", hide=True)
+        self.assertIn("도시 묶음  두 언어 도시 6개, 영어 도시 6개", out)
 
 
 if __name__ == "__main__":
