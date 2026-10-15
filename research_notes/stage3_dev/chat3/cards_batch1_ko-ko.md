@@ -75,9 +75,9 @@ Gemini가 영어 문서에서 `1969`를 찾았고, 나오는 곳은 아래 2곳�
 - 더 찾아본 말과 걸린 곳(6번에서 직접 찾은 것. 예: "industrial → 영어 문서 3곳, 모두 다른 이야기"):
   - Light, Light Industry, Industry -> 모두 관련이 없음
 - 메모(애매한 것, Claude에게 물을 것):
-  - 지금 칸은 괜찮은것 같은데, yaml파일이 어떻게 구성이 되는지는 볼 필요가 없는가? 여기 위에 적은 구성 말고도 그안에 다른 여러 표현들이 되게 많은데 그것들을 알필요가 없는건가? 그것에 대해서도 알아야 한다면 그 양식에 익숙해지기 위해서 그것을 같이 비교하는게 더 맞지 않을까도 생각이듬
-  - 너가 생각했을때 문제가 될만한게 있는지? 아니면 지금 우리가한것에 대해서 잘되어있는지 어드바이저 검토를 한번하는건 어떤지? 
-  - 이것에 대해서 gemini가 이렇게 까지 만들어주는건가? 아니면 이거는 특정 코드로 인해서 계속 이렇게 만들어지는건가? 왜냐하면 이것도 결국 처음에 만들어진것을 사용하는게 아니라 우리가 계속 대화를 하면서 수정을 한것이니까 이렇게 나올수가 있는지 모르겠음.
+  - 물음: YAML 구성도 알아야 하나? → 답(Claude): 대조에는 필요 없다. 7단계에서 YAML을 직접 다루므로, 카드 맨 아래 "참고용 원본 YAML"로 익힌다(반영함).
+  - 물음: 문제가 될 만한 것이 있나? 어드바이저 검토는? → 답(Claude): 검토했다. 나온 것은 셋이다: 대조 시간, 묶음 2~4의 준비(ChatGPT 유형 확인 글, 영어 근거의 같은 언어 문서 확인), Claude 재대조의 기록 자리(`audit_batch1_ko-ko.md`를 만듦).
+  - 물음: 이 카드는 Gemini가 만드나, 코드가 만드나? → 답(Claude): Gemini는 YAML만 만든다. 카드는 `src/questions/make_cards.py`가 YAML에서 만든다. 이 c-001 카드만 Claude가 손으로 쓴 시험판이다.
 
 ---
 
@@ -158,44 +158,10 @@ Gemini가 영어 문서에서 찾은 말과 걸린 곳이다. 찾을 말마다 �
 - 이유(한 줄. 문제가 없으면 "1~9 문제 없음"):
 - 더 찾아본 말과 걸린 곳(6번에서 직접 찾은 것. 예: "industrial → 영어 문서 3곳, 모두 다른 이야기"):
 - 메모(시작·끝 시각, 애매한 것, Claude에게 물을 것):
-  - "찾을 말: 질문에서 그 사실의 이름(무엇에 대한 질문인지)을 하나 이상 고르고, 정답의 값도 찾는다. 정답에서 뽑은 숫자: 없음" 3번칸에서 여기 없음이라고 하는건 너가 뽑은거야? 그리고 찾을말은 내가 알아서 찾아서 찾으라는거야?
-  - 6번에서 더 찾은 말에 대해서 이렇게 아래 적게하는것보다 해당 칸에서 적을 자리를 만드는건 어떻게 생각하는가? (여기서 gemini가 찾은말 말고도 bird, blue만 해서 찾아봤는데 다른 내용은 관계없음)
-  - 영어 문서에 대해서 전체를 읽을때 해당 url을 줘야 내가 그것을 열어서 한국어로 변역해서 볼건데 여기에 왜 url을 안주는건가? 
-
-<details><summary>참고용 원본 YAML</summary>
-
-```yaml
-id: c-002
-question: 세종특별자치시를 상징하는 시조(새)는 무엇인가?
-question_language: ko
-evidence_language: ko
-type: single_fact
-answer: 파랑새
-required_facts:
-- fact: 세종특별자치시의 시조는 파랑새이다
-  evidence:
-  - doc_id: wiki-ko-sejong
-    location: 첫 부분
-    passage: '- 시조: 파랑새'
-opposite_check:
-- term: Bluebird
-  hits: []
-- term: Parangsae
-  hits: []
-- term: City bird
-  hits:
-  - doc_id: wiki-en-busan
-    excerpt: The mascot was a seagull, the city bird of Busan named, "Duria". East
-      Timor took part in the games for the first time.
-    same_fact: false
-    why: 부산광역시의 상징 새에 대한 내용임
-  - doc_id: wiki-en-cheonan
-    excerpt: '- City Bird: Dove'
-    same_fact: false
-    why: 천안시의 상징 새에 대한 내용임
-```
-
-</details>
+  - 걸린 시간: 약 10분(대화에서 알림)
+  - 물음: 3번의 "정답에서 뽑은 숫자: 없음"은 누가 정했나? 찾을 말은 내가 고르나? → 답(Claude): 프로그램이 정답과 근거 구절에서 숫자를 뽑은 결과다. "무엇에 대한 질문인지"(예: 시조)는 사용자가 고른다. 정답의 값(`파랑새`)도 찾을 말로 적도록 고쳤다(반영함).
+  - 의견: 6번에서 더 찾은 말을 그 칸 안에 적게 하자 → 반영함.
+  - 물음: 영어 문서를 통째로 읽을 주소는 왜 없나? → 답(Claude): 세종은 영어 문서가 없는 도시라 7번에 읽을 문서가 없다. 5번의 걸린 곳에는 문맥을 볼 수 있게 주소를 붙였다(반영함).
 
 ---
 
