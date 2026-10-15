@@ -106,6 +106,7 @@ class MakeCardsTest(unittest.TestCase):
         i5 = item_text(t, 5)
         self.assertIn("- `term`(찾을 말) `1969`:", i5)
         self.assertIn("걸린 곳 1: [wiki-en-chuncheon.md", i5)
+        self.assertIn(f" · 원문 주소(앞뒤 문맥을 볼 때): {URLS['wiki-en-chuncheon']}", i5)
         self.assertIn(f"    > {hit}", i5)
         self.assertIn("Gemini의 판단: 같은 사실 아님 — 기온 날짜", i5)
         self.assertIn("- `passage`(근거 구절):", t)
@@ -124,7 +125,7 @@ class MakeCardsTest(unittest.TestCase):
         r = Run(self, [candidate(doc="wiki-ko-sejong")]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         self.assertIn("한국어 도시(세종특별자치시)", r.text)
-        self.assertIn("같은 도시의 영어 문서가 없다(한국어 도시). 이 칸은 `[x]`로 바꾼다.", item_text(r.text, 7))
+        self.assertIn("세종특별자치시는 영어 문서가 없는 도시라 통째로 읽을 문서가 없다. 이 칸은 `[x]`로 바꾼다.", item_text(r.text, 7))
 
     def test_table_passage_points_to_header_row(self):
         ls = lines_of("wiki-ko-sejong")
@@ -189,13 +190,13 @@ class MakeCardsTest(unittest.TestCase):
         src.write_text(raw, encoding="utf-8")
         r = Run(self, src=src).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
-        self.assertIn("`1969`은(는) 영어 문서 어디에도 없다", item_text(r.text, 5))
+        self.assertIn("`1969`: 영어 문서 어디에도 없다", item_text(r.text, 5))
 
     def test_no_hits_at_all(self):
         oc = [{"term": "alpha", "hits": []}, {"term": "beta", "hits": []}]
         r = Run(self, [candidate(oc=oc)]).go()
         i5 = item_text(r.text, 5)
-        self.assertIn("`alpha`, `beta`은(는) 영어 문서 어디에도 없다(검사 프로그램이 확인함). 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다.", i5)
+        self.assertIn("Gemini가 찾은 말 `alpha`, `beta`: 영어 문서 어디에도 없다(검사 프로그램이 확인함). 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다.", i5)
         self.assertIn("읽을 것이 없으니", i5)
         self.assertIn("- Gemini가 찾은 말: `alpha`, `beta`", item_text(r.text, 6))
 
@@ -203,9 +204,27 @@ class MakeCardsTest(unittest.TestCase):
         c = candidate()
         c["answer"] = "1,234명과 12.5%, 1969년"
         r = Run(self, [c]).go()
-        self.assertIn("정답에서 뽑은 숫자: `1,234`, `12.5`, `1969`", item_text(r.text, 3))
+        self.assertIn("정답과 근거 구절에서 뽑은 숫자: `1,234`, `12.5`, `1969`", item_text(r.text, 3))
         r2 = Run(self, [candidate()]).go()
-        self.assertIn("정답에서 뽑은 숫자:", item_text(r2.text, 3))
+        self.assertIn("정답과 근거 구절에서 뽑은 숫자:", item_text(r2.text, 3))
+
+    def test_answer_value_in_item3(self):
+        c = candidate()
+        c["answer"] = "파랑새이다"
+        self.assertIn("정답의 값: `파랑새` · 정답과", item_text(Run(self, [c]).go().text, 3))
+        c["answer"] = "1969년"
+        self.assertIn("정답의 값: `1969년` · 정답과", item_text(Run(self, [c]).go().text, 3))
+        c["answer"] = "가나다라마바사아자차카타파하 " * 3
+        i3 = item_text(Run(self, [c]).go().text, 3)
+        self.assertIn("정답의 값: 위 `answer`(정답)에서 값마다 골라 찾는다 · 정답과", i3)
+        self.assertNotIn("가나다라마바사아자차카타파하 가나다", i3)
+
+    def test_item6_has_search_line_and_verdict_does_not(self):
+        t = Run(self, [candidate()]).go().text
+        i6 = item_text(t, 6)
+        self.assertTrue(i6.rstrip().endswith("- 더 찾아본 말과 걸린 곳:\n- [ ] 확인함"))
+        self.assertNotIn("맨 아래", i6)
+        self.assertNotIn("더 찾아본 말과 걸린 곳", t.split("#### 적기")[1])
 
     def test_details_block_has_raw_yaml(self):
         r = Run(self, [candidate(oc=[{"term": "x", "hits": []}])]).go()

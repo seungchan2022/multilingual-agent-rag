@@ -37,6 +37,12 @@ TYPE_KO = {"single_fact": "단일 사실", "table_numeric": "표·수치·조건
            "paraphrase": "표현 불일치", "no_answer": "답 없음"}
 
 
+
+def topic(word):
+    """한글 낱말 뒤에 붙일 '은'/'는'. 마지막 글자에 받침이 있으면 '은'."""
+    ch = word[-1] if word else ""
+    return "은" if "가" <= ch <= "힣" and (ord(ch) - 0xAC00) % 28 else "는"
+
 def type_label(t):
     return f"{t}({TYPE_KO[t]})" if t in TYPE_KO else str(t)
 
@@ -111,10 +117,10 @@ def link(out_dir, doc_id, line=None, found=True):
 def source_note(doc_id):
     """링크 뒤에 붙일 원문 안내. 읽히는 웹 페이지는 위키백과 문서뿐이라 그 주소만 보이고, 나머지는 보는 방법을 적는다."""
     if doc_id.startswith("wiki-"):
-        return f"원문 주소: {DOC[doc_id]['url']}"
+        return f" · 원문 주소(앞뒤 문맥을 볼 때): {DOC[doc_id]['url']}"
     if doc_id.startswith("portal-"):
-        return "표 문서라 파일을 직접 본다"
-    return "짧은 문서라 파일 내용을 그대로 번역기에 붙인다"
+        return " · 표 문서라 링크를 열어 본다"
+    return " · 짧은 문서라 링크를 열어 전체를 볼 수 있다"
 
 
 def quote(text, indent):
@@ -173,15 +179,26 @@ def numbers_of(c):
     return list(dict.fromkeys(n for t in texts for n in NUM_RE.findall(t)))[:6]
 
 
+def answer_value(answer):
+    """정답 글에서 끝의 "이다", "입니다", "."를 떼고 앞뒤 공백을 없앤다."""
+    a = str(answer).strip()
+    prev = None
+    while prev != a:
+        prev = a
+        for suf in ("입니다", "이다", "."):
+            if a.endswith(suf):
+                a = a[:-len(suf)].strip()
+    return a
+
+
 def item(n, title, body):
     return ["", f"#### {n}. {title}"] + body + ["- [ ] 확인함"]
 
 
-def verdict_block(searched):
+def verdict_block():
     return ["", "#### 적기",
             "- 판정(하나만 남긴다): 채택 / 수정 / 폐기",
             "- 이유(한 줄. 문제가 없으면 \"1~9 문제 없음\"):",
-            f"- 더 찾아본 말과 걸린 곳({searched}):",
             "- 메모(시작·끝 시각, 애매한 것, Claude에게 물을 것):"]
 
 
@@ -225,10 +242,13 @@ def answered_card(c, out_dir):
         "- 할 일: 위 `passage`(근거 구절)에 질문의 답이 될 만한 값(숫자, 이름)이 몇 개 있는지 본다.",
         "- 판단할 질문: 그런 값이 여러 개라면, 질문이 그중 하나만 가리키는가?"])
     nums = numbers_of(c)
+    val = answer_value(c["answer"])
+    value_part = ("위 `answer`(정답)에서 값마다 골라 찾는다" if len(val) > 30 else f"`{val}`")
     docs = evidence_docs(c)
     doc_links = f" 근거 문서: {', '.join(link(out_dir, d) for d in docs)}." if len(docs) > 1 else ""
     out += item(3, "같은 문서 안에 다른 값이 없다", [
-        "- 찾을 말: 질문에서 그 사실의 이름(무엇에 대한 질문인지)을 하나 이상 고르고, 정답의 값도 찾는다. 정답에서 뽑은 숫자: "
+        "- 찾을 말: 질문에서 무엇에 대한 질문인지 나타내는 이름(예: 시조, 인구)을 하나 이상 골라 찾고, 아래 정답의 값도 찾는다. "
+        f"정답의 값: {value_part} · 정답과 근거 구절에서 뽑은 숫자: "
         + (", ".join(f"`{n}`" for n in nums) if nums else "없음"),
         "- 할 일: 위 근거 문서 링크를 `Cmd+클릭`해 열고, `Cmd+F`로 찾을 말을 하나씩 찾아 걸린 곳을 `Enter`로 넘겨 본다. "
         "근거 구절이 있는 줄에서는 앞뒤 한두 문장도 읽는다." + doc_links,
@@ -243,17 +263,17 @@ def answered_card(c, out_dir):
     none_terms = [f"`{it['term']}`" for it in checks if not it.get("hits")]
     if with_hits:
         body = [f"Gemini가 {opp} 문서에서 찾은 말과 걸린 곳이다. 찾을 말마다 나오는 곳은 아래가 전부다(검사 프로그램이 확인함)."
-                + (f" {', '.join(none_terms)}은(는) {opp} 문서 어디에도 없다." if none_terms else "")]
+                + (f" 찾을 말 {', '.join(none_terms)}: {opp} 문서 어디에도 없다." if none_terms else "")]
         for it in with_hits:
             body.append(f"- `term`(찾을 말) `{it['term']}`:")
             for k, h in enumerate(it["hits"], 1):
                 line = line_of_text(h["doc_id"], h["excerpt"])
-                body += [f"  - 걸린 곳 {k}: {link(out_dir, h['doc_id'], line, line is not None)}", quote(h["excerpt"], 4), "",
+                body += [f"  - 걸린 곳 {k}: {link(out_dir, h['doc_id'], line, line is not None)}{source_note(h['doc_id'])}", quote(h["excerpt"], 4), "",
                          f"    Gemini의 판단: 같은 사실 {'맞음' if h['same_fact'] else '아님'} — {h['why']}"]
         body += [f"- 할 일: 걸린 문장을 하나씩 {tr}읽는다." if opposite == "ko" else "- 할 일: 걸린 문장을 하나씩 번역기에 붙여 읽는다.",
                  "- 판단할 질문: 이 문장이 위 `required_facts`(꼭 필요한 사실)와 같은 사실을 말하는가?"]
     elif terms:
-        body = [f"Gemini가 찾은 말 {', '.join(none_terms)}은(는) {opp} 문서 어디에도 없다(검사 프로그램이 확인함). 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다."]
+        body = [f"Gemini가 찾은 말 {', '.join(none_terms)}: {opp} 문서 어디에도 없다(검사 프로그램이 확인함). 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다."]
     else:
         body = ["Gemini가 찾은 말이 없다. 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다."]
     out += item(5, f"{opp} 문서: Gemini가 찾은 걸린 곳을 {tr}읽었다", body)
@@ -264,7 +284,7 @@ def answered_card(c, out_dir):
         + (f"번역기로 그 이름을 {opp}로 옮겨 나온 말이나 더 짧은 말로 폴더 찾기를 한다. " if opposite == "en" else "더 짧은 말이나 비슷한 말로 폴더 찾기를 한다. ")
         + f"\"포함할 파일\"은 `data/corpus/markdown/*-{opposite}-*`. 걸린 곳이 있으면 그 줄을 {tr}읽는다.",
         f"- 판단할 질문: {opp} 문서 어딘가에 같은 사실이 다른 표현으로 있는가?",
-        "- 찾아본 말과 결과를 맨 아래 \"더 찾아본 말과 걸린 곳\"에 적는다."])
+        "- 더 찾아본 말과 걸린 곳:"])
 
     cities = list(dict.fromkeys(DOC[d]["city"] for d in docs))
     same_city = [d for d in _DOCS if d["city"] in cities and d["language"] == opposite]
@@ -272,7 +292,7 @@ def answered_card(c, out_dir):
         body = [f"- 할 일 {n} ({d['doc_id']}): {source_hint(d, out_dir, opposite)}" for n, d in enumerate(same_city, 1)]
         body.append(f"- 판단할 질문: 이 문서 어디에든 위 `required_facts`(꼭 필요한 사실)와 같은 사실이 있는가?")
     else:
-        body = [f"같은 도시의 {opp} 문서가 없다({own} 도시). 이 칸은 `[x]`로 바꾼다."]
+        body = [f"{', '.join(cities)}{topic(cities[-1]) if cities else '는'} {opp} 문서가 없는 도시라 통째로 읽을 문서가 없다. 이 칸은 `[x]`로 바꾼다."]
     out += item(7, f"{opp} 문서: 같은 도시({', '.join(cities)})의 {opp} 문서를 통째로 읽었다", body)
 
     out += item(8, "꼭 필요한 사실이 빠짐없고 군더더기 없다", [
@@ -282,7 +302,7 @@ def answered_card(c, out_dir):
         f"- 할 일: 이 후보의 유형은 {type_label(c['type'])}다. 아래 뜻과 견준다.",
         f"- {TYPE_MEANING.get(c['type'], '')} 두 유형에 다 맞으면 여러 문서 연결 → 표·수치·조건 → 단일 사실/표현 불일치 순서로 먼저 맞는 것이다.",
         "- 판단할 질문: 이 후보가 이 뜻에 맞는가?"])
-    return out + verdict_block("6번에서 직접 찾은 것. 예: \"industrial → 영어 문서 3곳, 모두 다른 이야기\"") + details_block(c)
+    return out + verdict_block() + details_block(c)
 
 
 def no_answer_card(c, out_dir):
@@ -298,14 +318,15 @@ def no_answer_card(c, out_dir):
         out.append(quote(item_["passage"], 4))
     out += item(1, "문서 전체에서 한국어 표현과 영어 표현으로 찾아봐도 답이 없다", [
         "- 할 일: 질문의 이름과 숫자를 한국어와 영어(번역기)로 폴더 찾기를 한다. \"포함할 파일\"은 `data/corpus/markdown`.",
-        "- 판단할 질문: 질문의 답이 되는 내용이 어디에도 없는가?"])
+        "- 판단할 질문: 질문의 답이 되는 내용이 어디에도 없는가?",
+        "- 찾아본 말과 걸린 곳:"])
     out += item(2, "문서를 보지 않고 일반 지식으로도 답할 수 없다", [
         "- 할 일: 문서를 열지 않고 `question`(질문)을 읽는다.",
         "- 판단할 질문: 세상에 실제로 답이 있는 질문은 아닌가?"])
     out += item(3, "전제가 너무 뻔하게 틀리지 않았다", [
         "- 할 일: `question`(질문)이 깔고 있는 전제를 찾는다.",
         "- 판단할 질문: 그 전제가 한눈에 틀렸다고 보이지 않는가?"])
-    return out + verdict_block("찾아본 말과 걸린 곳") + details_block(c)
+    return out + verdict_block() + details_block(c)
 
 
 def build(data, batch_name, out_dir):
