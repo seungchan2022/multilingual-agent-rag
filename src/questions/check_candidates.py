@@ -202,6 +202,8 @@ def table_problem(doc_id, L):
     if not tables:
         return "원문에 글자 그대로 없음 (이 문서에는 표가 없음)"
     same = [t for t in tables if t[0] == L[0]]
+    if not same and any(L[0] in t[2:] for t in tables):
+        return "원문에 글자 그대로 없음 (표의 머리글 행이 없음: 첫 줄이 머리글 행이 아니라 표의 다른 줄임. 표 구절은 머리글 행과 해당 행을 함께 적는다)"
     if not same:
         best = max((t[0] for t in tables), key=lambda h: common_len(L[0], h))
         n = common_len(L[0], best)
@@ -342,6 +344,8 @@ def check_opposite(c, el, problems, info):
             problems.append(f"{p}: 키와 값 묶음이 아님")
             continue
         term, hits = it.get("term"), it.get("hits")
+        if isinstance(term, (int, float)) and not isinstance(term, bool):
+            term = str(term)   # 따옴표 없이 적은 숫자(예: 1969)는 YAML이 숫자로 읽으므로 글자로 바꿔 본다
         term_ok = isinstance(term, str) and bool(term.strip())
         if not term_ok:
             problems.append(f"{p}.term: 비었거나 없거나 글자가 아님")

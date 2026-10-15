@@ -656,6 +656,27 @@ class CheckCandidatesTest(unittest.TestCase):
             out = self.assertPasses(b, hide=hide)
             self.assertIn(f"      찾은 기록: 찾을 말 3개, 걸린 곳 {n}곳", out)
 
+    def test_41_unquoted_number_term(self):
+        # 따옴표 없이 적은 숫자 찾을 말(YAML이 숫자로 읽음)도 글자로 바꿔 검사한다
+        b = make_batch("ko-ko")
+        item = oc_of(b[0], "zqxwv")
+        item.update(oc_item("ko", "2024"))
+        item["term"] = 2024
+        self.assertGreater(len(item["hits"]), 0)
+        self.assertPasses(b)
+        item["hits"] = item["hits"][1:]
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("적지 않음", out)
+
+    def test_42_table_row_without_header(self):
+        # 머리글 행 없이 표의 줄 하나만 적으면, 머리글 행이 없다고 알린다
+        b = make_batch("ko-ko")
+        c = next(x for x in b if x["type"] == "table_numeric" and "|" in first_ev(x)["passage"])
+        rows = [l for l in first_ev(c)["passage"].rstrip("\n").split("\n") if l.strip()]
+        first_ev(c)["passage"] = rows[-1]
+        out = self.assertFailsFor(c["id"], b)
+        self.assertIn("머리글 행이 없음", out)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
