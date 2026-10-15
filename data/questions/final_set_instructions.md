@@ -68,6 +68,19 @@
 
 특정 문서에 몰리지 않게 여러 문서에서 고르게 만든다.
 
+답 있는 질문은 도시 묶음을 반반으로 만든다. 도시는 문서가 어느 언어로 들어 있는지에 따라 세 묶음이다.
+
+| 묶음 | 도시와 문서 |
+|---|---|
+| 두 언어 도시 (한국어와 영어 문서가 다 있다) | 전주(`wiki-ko-jeonju`, `wiki-en-jeonju`, `kto-ko-jeonju-hanok-village`, `kto-en-jeonju-hanok-village`, `portal-ko-jeonju-population`), 청주(`wiki-ko-cheongju`, `wiki-en-cheongju`, `kto-ko-cheongju-cheongnamdae`, `kto-en-cheongju-cheongnamdae`), 춘천(`wiki-ko-chuncheon`, `wiki-en-chuncheon`, `kto-ko-chuncheon-samaksan-cable-car`, `kto-en-chuncheon-samaksan-cable-car`), 천안(`wiki-ko-cheonan`, `wiki-en-cheonan`, `kto-ko-cheonan-samgeori-park`, `kto-en-cheonan-samgeori-park`) |
+| 한국어 도시 (한국어 문서만 있다) | 수원(`wiki-ko-suwon`, `portal-ko-suwon-population`), 경주(`wiki-ko-gyeongju`), 세종(`wiki-ko-sejong`), 광주(`wiki-ko-gwangju`) |
+| 영어 도시 (영어 문서만 있다) | 부산(`wiki-en-busan`, `kto-en-busan-haeundae-green-railway`), 제주(`wiki-en-jeju`, `kto-en-jeju-ara-dong-trail`), 안동(`wiki-en-andong`), 강릉(`wiki-en-gangneung`) |
+
+- 근거 문서 언어가 `ko`인 질문은 절반을 두 언어 도시의 문서에서, 절반을 한국어 도시의 문서에서 만든다.
+- 근거 문서 언어가 `en`인 질문은 절반을 두 언어 도시의 문서에서, 절반을 영어 도시의 문서에서 만든다.
+- 두 묶음의 도시를 함께 쓰는 질문(예: 천안과 광주)은 두 언어 도시 쪽으로 센다.
+- 두 언어 도시의 질문이 더 어렵다. 같은 도시를 다룬 반대 언어 문서가 있어서, 그 문서에 같은 사실이 없는지 더 꼼꼼히 봐야 한다. 그래도 그쪽을 피하지 마라.
+
 ### 3. 유형의 뜻
 
 | 유형 | 뜻 |
@@ -262,7 +275,7 @@ YAML 코드 블록 하나에 28개를 모두 넣어 낸다. 모양은 아래와 
 첫 번째 요청(네 번째 메시지)에는 위 "AI에게 주는 글" 전체를 붙이고 그 뒤에 아래 문단을 붙인다.
 
 ````text
-이번에는 2번 표에서 질문 언어 `<ko 또는 en>`, 근거 문서 언어 `<ko 또는 en>` 칸만 만든다. `single_fact` 2개, `table_numeric` 2개, `multi_doc` 4개, `paraphrase` 4개로 12개다. `table_numeric` 2개 가운데 1개 이상은 답이 표에 있게 한다. `id`는 `c-<시작 번호>`부터 붙인다. 나머지 칸은 내가 다음에 따로 요청한다. 근거는 세 번에 걸쳐 올린 문서 28개 전체에서 고르게 찾고, 마지막에 올린 파일에 몰리지 않게 한다. 반대 언어 문서에 같은 사실이 없는지 볼 때도 28개 가운데 반대 언어 문서 전부를 본다.
+이번에는 2번 표에서 질문 언어 `<ko 또는 en>`, 근거 문서 언어 `<ko 또는 en>` 칸만 만든다. `single_fact` 2개, `table_numeric` 2개, `multi_doc` 4개, `paraphrase` 4개로 12개다. `table_numeric` 2개 가운데 1개 이상은 답이 표에 있게 한다. 12개 가운데 6개는 두 언어 도시의 문서에서, 6개는 한 언어 도시(근거가 `ko`이면 한국어 도시, `en`이면 영어 도시)의 문서에서 만든다(2번의 도시 묶음 표). `id`는 `c-<시작 번호>`부터 붙인다. 나머지 칸은 내가 다음에 따로 요청한다. 근거는 세 번에 걸쳐 올린 문서 28개 전체에서 고르게 찾고, 마지막에 올린 파일에 몰리지 않게 한다. 반대 언어 문서에 같은 사실이 없는지 볼 때도 28개 가운데 반대 언어 문서 전부를 본다.
 ````
 
 두 번째부터 네 번째 요청에는 위 문단만 붙이고, 그 뒤에 아래 문장을 붙인다.
