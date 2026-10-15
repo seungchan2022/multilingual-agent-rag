@@ -18,6 +18,9 @@
 | K8 | 견주기 | 시가 된 해: 경주 1955년 9월 1일 승격(`wiki-ko-gyeongju`), 춘천 1949년 8월 15일 춘천부를 춘천시로 개칭(`wiki-ko-chuncheon`) | 한 + 두 | 2026-10-15 사용자 확인: 쓸 수 있다. `wiki-ko-chuncheon` 41줄(1946년 춘천부로 승격)과 42줄(1949년 춘천시로 개칭) 어느 쪽을 시가 된 해로 봐도 경주(1955년)보다 이르다. "어느 곳이 먼저인가"로만 묻는다(해를 물으면 답이 둘) |
 | K9 | 이어 찾기 | 전두환 대통령의 별장으로 지은 곳이 청남대(`wiki-ko-cheongju`), 청남대는 개방 전까지 대통령 다섯 분이 88회 이용(`kto-ko-cheongju-cheongnamdae`) | 두 (같은 도시 두 문서) | 영어 문서에 `Doo-hwan`, `88 times`, `five presidents` 없음(AI grep) |
 | K10 | 이어 찾기 | 전주 한옥마을은 풍남동 일대(`kto-ko-jeonju-hanok-village`, `wiki-ko-jeonju`), 풍남동 인구 3,354명(2026-03-17, `portal-ko-jeonju-population`) | 두 (같은 도시 세 문서) | 2026-10-15 사용자 확인: 버린다. 한옥마을이 있는 동이 문서마다 남노송동(`kto-ko-jeonju-hanok-village` 3줄 주소), 풍남동(같은 파일 7줄), 교동과 풍남동(`wiki-ko-jeonju` 232줄)으로 다르고, 포털 표에는 풍남동·노송동 줄만 있어 그 설명에 맞는 인구가 다 있지 않다. 남노송동·교동이 표의 어느 동에 속하는지는 코퍼스에 없다 |
+| K11 | 이어 찾기 | 한화 이글스의 제2홈구장은 청주야구장(`wiki-ko-cheongju` 451줄), 제3경기장은 춘천 의암야구장(`wiki-ko-chuncheon` 412줄) | 두 + 두 | 2026-10-15 AI가 찾고 사용자 확인: 쓸 수 있다. 사용자가 영어 원문에서 `Hanwha`, `Eagles`, `baseball`, `stadium`을 찾아 한화 야구팀 정보가 없음을 확인했다. 한국어 문서에서 `한화 이글스`는 이 두 줄뿐이다(AI grep) |
+
+같은 방법으로 더 찾다가 거른 것(고리 사실이 반대 언어 문서에 있음): 청남대가 있는 구(상당구)의 면적(`kto-en-cheongju-cheongnamdae` 주소에 `Sangdang-gu`), 청주의 고속철도역 오송역(`wiki-en-cheongju`에 `Osong`), 강원 FC가 함께 쓰는 경기장(`wiki-en-gangneung`에 `Gangwon FC`). 천안삼거리공원의 동(삼룡동)은 `wiki-ko-cheonan`에 나오지 않아 이어지지 않는다.
 
 참고: 한옥의 수는 `kto-ko-jeonju-hanok-village`가 700여 채, `wiki-ko-jeonju` 232줄이 650여채라 같은 언어의 다른 문서끼리 값이 다르다. 질문으로 쓰지 않는다.
 
