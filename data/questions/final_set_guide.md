@@ -298,9 +298,12 @@ uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/
 
 1. 그 묶음의 검사 명령(5단계)을 다시 돌리고, 출력 전체를 복사한다.
 2. 같은 Gemini 채팅의 입력창에 아래 상자의 글을 붙이고, 한 줄 띄운 뒤 복사한 출력을 붙여 보낸다.
-3. 답이 끝까지 나온 뒤, YAML 상자를 복사해 같은 폴더에 `batch<번호>_<묶음>_fix1.yaml`로 저장한다(예: `batch1_ko-ko_fix1.yaml`). 두 번째로 고치게 하면 `_fix2`로 저장한다.
+3. 답이 끝까지 나온 뒤, YAML 상자를 복사해 같은 폴더에 `batch<번호>_<묶음>_fix1.yaml`로 저장한다(예: `batch1_ko-ko_fix1.yaml`). 답 전체도 복사해 `batch<번호>_<묶음>_full_fix1.md`로 저장한다(고친 답의 YAML 뒤 메모를 남기기 위해서다). 두 번째로 고치게 하면 `_fix2`, `_full_fix2`로 저장한다.
 4. 그 묶음의 검사 명령에서 파일 이름만 `_fix1.yaml`로 바꿔 돌린다. 예: `uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch1_ko-ko_fix1.yaml --batch ko-ko`
-5. 통과하면 VS Code 탐색기에서 이름을 바꾼다: 원래 파일 `batch1_ko-ko.yaml` → `batch1_ko-ko_before_fix.yaml`, 고친 파일 `batch1_ko-ko_fix1.yaml` → `batch1_ko-ko.yaml`. 그러면 5단계의 다음 묶음 명령을 그대로 쓸 수 있다. **개발용:** 바꾸기 전에 Claude에게 알린다.
+5. 통과하면 VS Code 탐색기에서 파일을 누르고 `Enter`로 이름을 바꾼다. 원래 파일은 기록으로 남기고, 고친 파일이 원래 이름을 갖게 한다. 5단계의 다음 묶음 명령이 앞 묶음 파일을 원래 이름(`batch1_ko-ko.yaml` 등)으로 넣기 때문이다.
+   - `batch1_ko-ko.yaml` → `batch1_ko-ko_before_fix.yaml`, `batch1_ko-ko_full.md` → `batch1_ko-ko_full_before_fix.md`
+   - `batch1_ko-ko_fix1.yaml` → `batch1_ko-ko.yaml`, `batch1_ko-ko_full_fix1.md` → `batch1_ko-ko_full.md`
+   - **개발용:** 사용자가 통과를 알리면 Claude가 바꾼다.
 
 ```text
 아래는 내 검사 프로그램이 네 답에서 찾은 문제다. 문제가 난 후보를 지시서의 규칙대로 고쳐라. 고친 후보와 문제가 없던 후보를 합쳐 이 묶음 12개 전부를 YAML 코드 블록 하나로 다시 내라. 문제가 없던 후보는 글자 하나 바꾸지 말고 그대로 낸다. `opposite_check`는 반대 언어 문서 14개에서 실제로 찾아 나오는 곳을 빠짐없이 적고, `excerpt`는 원문에서 글자 그대로 옮긴다. 표가 근거이면 `passage`에 머리글 행과 해당 행을 함께 적는다.

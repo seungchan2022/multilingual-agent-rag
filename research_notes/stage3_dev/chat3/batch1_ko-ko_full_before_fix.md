@@ -1,3 +1,4 @@
+```yaml
 - id: c-001
   question: 춘천경공업단지가 조성되기 시작한 연도는 언제인가?
   question_language: ko
@@ -14,13 +15,10 @@
     - term: 1969
       hits:
         - doc_id: wiki-en-chuncheon
-          excerpt: "The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969), and the highest was 39.5 °C (103 °F) (1 August 2018)."
+          excerpt: |-
+            | Record low °C (°F) | −25.6 (−14.1) | −27.9 (−18.2) | −16.2 (2.8) | −6.4 (20.5) | 1.6 (34.9) | 5.6 (42.1) | 11.7 (53.1) | 11.3 (52.3) | 1.9 (35.4) | −5.4 (22.3) | −15.8 (3.6) | −21.7 (−7.1) | −27.9 (−18.2) |
           same_fact: false
           why: 1969년이라는 연도가 아니라, 최저 기온이 관측된 날짜(1969년 2월 6일)를 설명하는 내용 중 일부로 쓰였음
-        - doc_id: wiki-en-busan
-          excerpt: "- Kim Wonhae (born 1969), actor and comedian"
-          same_fact: false
-          why: 배우 김원해의 출생 연도를 나타냄
     - term: Chuncheon Light Industrial Complex
       hits: []
     - term: Light Industrial
@@ -46,7 +44,7 @@
     - term: City bird
       hits:
         - doc_id: wiki-en-busan
-          excerpt: "The mascot was a seagull, the city bird of Busan named, \"Duria\". East Timor took part in the games for the first time."
+          excerpt: "- Bird: Seagull"
           same_fact: false
           why: 부산광역시의 상징 새에 대한 내용임
         - doc_id: wiki-en-cheonan
@@ -151,10 +149,6 @@
           excerpt: "- City Bird: Dove"
           same_fact: false
           why: 천안시의 상징 새에 대한 내용임
-        - doc_id: wiki-en-busan
-          excerpt: "The mascot was a seagull, the city bird of Busan named, \"Duria\". East Timor took part in the games for the first time."
-          same_fact: false
-          why: 부산광역시의 상징 새에 대한 내용임
     - term: Magpie
       hits: []
     - term: Mountain magpie
@@ -171,37 +165,27 @@
       evidence:
         - doc_id: wiki-ko-gwangju
           location: 행정 구역
-          passage: |
-            | 자치구 | 한자 | 세대 | 인구 (명) | 면적 (km2) |
-            | 동구 | 東區 | 45,860 | 98,784 | 49.2 |
+          passage: "| 동구 | 東區 | 45,860 | 98,784 | 49.2 |"
     - fact: 서구의 세대 수는 120,107이다
       evidence:
         - doc_id: wiki-ko-gwangju
           location: 행정 구역
-          passage: |
-            | 자치구 | 한자 | 세대 | 인구 (명) | 면적 (km2) |
-            | 서구 | 西區 | 120,107 | 305,028 | 47.78 |
+          passage: "| 서구 | 西區 | 120,107 | 305,028 | 47.78 |"
     - fact: 남구의 세대 수는 87,514이다
       evidence:
         - doc_id: wiki-ko-gwangju
           location: 행정 구역
-          passage: |
-            | 자치구 | 한자 | 세대 | 인구 (명) | 면적 (km2) |
-            | 남구 | 南區 | 87,514 | 220,165 | 61.01 |
+          passage: "| 남구 | 南區 | 87,514 | 220,165 | 61.01 |"
     - fact: 북구의 세대 수는 178,735이다
       evidence:
         - doc_id: wiki-ko-gwangju
           location: 행정 구역
-          passage: |
-            | 자치구 | 한자 | 세대 | 인구 (명) | 면적 (km2) |
-            | 북구 | 北區 | 178,735 | 446,316 | 120.29 |
+          passage: "| 북구 | 北區 | 178,735 | 446,316 | 120.29 |"
     - fact: 광산구의 세대 수는 148,252이다
       evidence:
         - doc_id: wiki-ko-gwangju
           location: 행정 구역
-          passage: |
-            | 자치구 | 한자 | 세대 | 인구 (명) | 면적 (km2) |
-            | 광산구 | 光山區 | 148,252 | 400,753 | 222.9 |
+          passage: "| 광산구 | 光山區 | 148,252 | 400,753 | 222.9 |"
     - fact: 광주광역시 5개 자치구 중 세대 수가 가장 많은 곳은 북구, 가장 적은 곳은 동구이다
       evidence: []
   opposite_check:
@@ -212,13 +196,9 @@
     - term: Buk-gu
       hits:
         - doc_id: wiki-en-busan
-          excerpt: "List Jeon Jaesoo (Democratic) Buk-gu / Gangseo-gu A district,"
+          excerpt: "| Buk District | 북구; 北區 | 39.36 | 303,955 |"
           same_fact: false
-          why: 국회의원 지역구 이름의 일부임
-        - doc_id: wiki-en-busan
-          excerpt: "Kim Do-eup (People Power) Buk-gu / Gangseo-gu B district, Suh Byung-soo (People Power)"
-          same_fact: false
-          why: 국회의원 지역구 이름의 일부임
+          why: 광주광역시 북구가 아닌 부산광역시 북구의 내용임
 
 - id: c-008
   question: 2026년 3월 17일을 기준으로, 전주시 노송동과 완산동의 18세미만인구수(계)를 합하면 총 몇 명인가?
@@ -265,19 +245,7 @@
           passage: 경주시의 행정구역 면적은 1,324.41km2로, 경상북도에서 안동시에 이어 두 번째로 넓은 기초자치단체이다.
   opposite_check:
     - term: second largest
-      hits:
-        - doc_id: wiki-en-busan
-          excerpt: "Busan is the second largest city in Korea, a maritime logistics hub, and a world-class mega port, it acts as a gateway to the Eurasian continent."
-          same_fact: false
-          why: 부산이 한국에서 두 번째로 큰 도시라는 내용임
-        - doc_id: wiki-en-jeju
-          excerpt: "A bus ride from Jeju City to Seogwipo (the second largest city on the island) is typically an hour."
-          same_fact: false
-          why: 서귀포가 제주도에서 두 번째로 큰 도시라는 내용임
-        - doc_id: wiki-en-gangneung
-          excerpt: "Gyeongpo Lake is the second largest lagoon in the east coast. Its size has shrunk due to continuous development since the early 20th century."
-          same_fact: false
-          why: 경포호가 동해안에서 두 번째로 큰 석호라는 내용임
+      hits: []
     - term: after Andong
       hits: []
     - term: 1,324.41
@@ -340,21 +308,17 @@
       hits: []
     - term: Samguk Sagi
       hits: []
-    - term: Wansan
+    - term: alias
       hits:
-        - doc_id: wiki-en-jeonju
-          excerpt: "Jeonju is divided into two wards, Deokjin District and Wansan District that, in turn, are divided into approximately 40 neighborhoods."
+        - doc_id: wiki-en-busan
+          excerpt: "Busan... alternatively romanized as Pusan"
           same_fact: false
-          why: 전주시 완산구에 대한 내용임
-        - doc_id: wiki-en-jeonju
-          excerpt: "In 892 (or 900), Gyeon Hwon renamed the city Wansan and established it as the capital of the Later Baekje kingdom."
-          same_fact: false
-          why: 견훤이 전주의 이름을 완산으로 바꾸었다는 내용임
-        - doc_id: wiki-en-jeonju
-          excerpt: "From Wansan, Gyeon Hwon campaigned against Silla which climaxed with the destruction of Geumseong (the capital of the Silla kingdom) and the assassination of King Gyeongae in 927."
-          same_fact: false
-          why: 완산에서 신라에 대항하여 작전을 펼쳤다는 내용임
-        - doc_id: kto-en-jeonju-hanok-village
-          excerpt: "Address: 99 Girin-daero, Wansan-gu, Jeonju-si, Jeonbuk-do"
-          same_fact: false
-          why: 주소의 일부인 완산구를 나타냄
+          why: 부산의 로마자 표기에 대한 언급이며 삼국사기의 별칭이 아님
+
+```
+
+YAML 뒤 메모
+c-009: "땅 넓이 기준"을 "면적"으로, "다음으로 큰 곳"을 "이어 두 번째로 넓은"으로 바꿈
+c-010: "길을 오가는 사람들의 편의를 도모할 목적으로 만들어졌던"을 "교통의 편의를 위해 설치되었던"으로, "전소된"을 "불태우고"로 바꿈
+c-011: "내부에 시, 군, 구 같은 하급 지자체를 전혀 포함하지 않고 단독으로 운영되는"을 "하위 행정구역으로 시·군·구의 기초지방자치단체를 두지 않는 단층제"로 바꿈
+c-012: "어떠한 별명을 달아 놓았는가"를 "별칭이 '비사벌'이라고 주(註)를 달았기 때문이다"로 바꿈
