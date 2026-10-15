@@ -39,6 +39,19 @@ def show(s):
     return "'" + (s if len(s) <= 60 else s[:60] + "...") + "'"
 
 
+def diff_at(expected, given):
+    """처음 다른 글자의 자리(1부터)와 앞뒤 10글자를 보여 주는 글. 한쪽이 먼저 끝나면 그쪽 칸은 비어 있다."""
+    n = 0
+    for a, b in zip(expected, given):
+        if a != b:
+            break
+        n += 1
+    flat = lambda t: t.replace("\n", "↵")
+    before = flat(expected[max(0, n - 10):n])
+    side = lambda t: f"…{before}[{flat(t[n:n + 1])}]{flat(t[n + 1:n + 11])}…"
+    return f"{n + 1}번째 글자부터 다름: 기대 {side(expected)}, 답 {side(given)}"
+
+
 def read_answer(path):
     """답 파일에서 YAML 글자를 꺼낸다. ``` 줄이 있으면 첫 번째와 그다음 ``` 줄 사이만 쓴다."""
     lines = Path(path).read_text(encoding="utf-8").split("\n")
@@ -69,7 +82,7 @@ def begins(label, actual, given):
         return f"{label}: 값이 비었거나 글자가 아님 (기대 {show(actual)})"
     given = given.rstrip()
     if not actual.startswith(given):
-        return f"{label}: 줄의 앞부분이 아님. 기대 {show(actual)}, 답 {show(given)}"
+        return f"{label}: 줄의 앞부분이 아님. 기대 {show(actual)}, 답 {show(given)}. {diff_at(actual, given)}"
     if len(given) < min(MIN_LEN, len(actual)):
         return f"{label}: {len(given)}글자로 너무 짧음 (최소 {min(MIN_LEN, len(actual))}글자). 기대 {show(actual)}, 답 {show(given)}"
     return None
@@ -100,7 +113,7 @@ def check_doc(doc_id, entries):
                 continue
             g = s.get("heading")
             if not isinstance(g, str) or g.rstrip() != h:
-                bad.append(f"{i}번째 heading이 다름. 기대 {show(h)}, 답 {show(g)}")
+                bad.append(f"{i}번째 heading이 다름. 기대 {show(h)}, 답 {show(g)}" + (f". {diff_at(h, g.rstrip())}" if isinstance(g, str) else ""))
             r = begins(f"{i}번째 next_line", nxt, s.get("next_line"))
             if r:
                 bad.append(r)
