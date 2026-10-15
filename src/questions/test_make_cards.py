@@ -38,6 +38,29 @@ def candidate(cid="c-001", doc="wiki-ko-chuncheon", passage=None, el="ko", ctype
             "answer": "시험 정답", "required_facts": [{"fact": "시험 사실", "evidence": ev}], "opposite_check": oc or []}
 
 
+def split_cards(text):
+    return [c for c in text.split("\n---\n") if c.startswith("\n## c-")]
+
+
+def item_text(text, n):
+    """첫 카드의 n번 칸 글자(다음 칸 또는 '적기' 앞까지)."""
+    return re.split(r"\n#### ", text.split(f"#### {n}. ")[1])[0]
+
+
+def check_labels(tc, card):
+    """칸들에서 쓴 `이름`(뜻) 이름표는 **후보** 블록(첫 칸 앞)에 이미 나와 있어야 한다. 찾을 말 목록의 `term`은 정의라 뺀다."""
+    head, rest = card.split("#### 1. ", 1)
+    items = rest.split("#### 적기")[0]
+    used = 0
+    for line in items.split("\n"):
+        if line.startswith("- `term`(찾을 말)"):
+            continue
+        for label in re.findall(r"`[a-z_]+`\([^)]+\)", line):
+            used += 1
+            tc.assertIn(label, head, f"{label} 이(가) 후보 블록에 없음: {line}")
+    tc.assertGreater(used, 0)
+
+
 class Run:
     """후보 목록을 임시 폴더의 파일로 쓰고 프로그램을 실행한다."""
 
@@ -76,14 +99,17 @@ class MakeCardsTest(unittest.TestCase):
         self.assertEqual((r.out.parent / m.group(2)).resolve(), (MARKDOWN / "wiki-ko-chuncheon.md").resolve())
         self.assertTrue(lines_of("wiki-ko-chuncheon")[int(m.group(1)) - 1].startswith(passage[:20]))
         self.assertIn(URLS["wiki-en-chuncheon"], t)
-        same = t.split("같은 도시의 반대 언어 문서")[1].split("`opposite_check`")[0]
-        self.assertIn("wiki-en-chuncheon.md", same)
+        same = item_text(t, 7)
+        self.assertIn("wiki-en-chuncheon", same)
         self.assertIn("kto-en-chuncheon-samaksan-cable-car.md", same)
-        self.assertIn("(통째로 번역해 읽는다)", same)
-        self.assertIn("`hits`(걸린 곳) 1곳", t)
-        self.assertIn("`passage`(근거 구절):", t)
-        self.assertIn("`excerpt`(걸린 구절):", t)
-        self.assertIn("`same_fact`·`why`(Gemini의 판단): 같은 사실 아님 — 기온 날짜", t)
+        self.assertIn("한국어로 번역", same)
+        i5 = item_text(t, 5)
+        self.assertIn("- `term`(찾을 말) `1969`:", i5)
+        self.assertIn("걸린 곳 1: [wiki-en-chuncheon.md", i5)
+        self.assertIn(f"    > {hit}", i5)
+        self.assertIn("Gemini의 판단: 같은 사실 아님 — 기온 날짜", i5)
+        self.assertIn("- `passage`(근거 구절):", t)
+        self.assertIn("  - 사실 1의 근거 1: [wiki-ko-chuncheon.md", t)
 
     def test_kto_document_shows_no_api_url(self):
         ex = "Samaksan Mountain Lake Cable Car is the longest cable car in Korea"
@@ -91,14 +117,14 @@ class MakeCardsTest(unittest.TestCase):
         r = Run(self, [candidate(oc=oc)]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         self.assertNotIn("apis.data.go.kr", r.text)
-        self.assertGreaterEqual(r.text.count("짧은 문서라 파일 내용을 그대로 번역기에 붙인다"), 2)
+        self.assertIn("내용 전체를 번역기에 붙여 읽는다. 짧은 글이다.", item_text(r.text, 7))
         self.assertIn(URLS["wiki-en-chuncheon"], r.text)
 
     def test_korean_only_city(self):
         r = Run(self, [candidate(doc="wiki-ko-sejong")]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         self.assertIn("한국어 도시(세종특별자치시)", r.text)
-        self.assertIn("없음(한국어 도시)", r.text)
+        self.assertIn("같은 도시의 영어 문서가 없다(한국어 도시). 이 칸은 `[x]`로 바꾼다.", item_text(r.text, 7))
 
     def test_table_passage_points_to_header_row(self):
         ls = lines_of("wiki-ko-sejong")
@@ -108,13 +134,13 @@ class MakeCardsTest(unittest.TestCase):
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         self.assertIn(f"wiki-ko-sejong.md#L{n + 1})", r.text)
         self.assertIn(f"{n + 1}줄]", r.text)
-        self.assertIn(f"      > {ls[n]}\n      > {ls[n + 2]}\n", r.text)
+        self.assertIn(f"    > {ls[n]}\n    > {ls[n + 2]}\n", r.text)
 
     def test_empty_evidence(self):
         c = candidate()
         c["required_facts"].append({"fact": "결론", "evidence": []})
         r = Run(self, [c]).go()
-        self.assertIn("`evidence`(근거): 없음 — 다른 사실에서 나오는 결론", r.text)
+        self.assertIn("`fact`(사실) 2: 결론 (근거 없음 — 다른 사실에서 나오는 결론)", r.text)
 
     def test_no_answer(self):
         passage, line_no = prose("wiki-ko-sejong")
@@ -127,20 +153,23 @@ class MakeCardsTest(unittest.TestCase):
         t = r.text
         self.assertIn("## c-049 · `type`(유형): no_answer(답 없음) · 질문 언어 ko", t)
         self.assertIn("- `expected_refusal`(기대하는 거절): 없다고 답한다", t)
+        self.assertIn("#### 1. 문서 전체에서 한국어 표현과 영어 표현으로 찾아봐도 답이 없다", t)
+        self.assertIn("#### 2. 문서를 보지 않고 일반 지식으로도 답할 수 없다", t)
         self.assertIn("- `no_answer_reason`(답이 없다고 본 까닭): 찾아도 없음", t)
-        self.assertIn(f"- `doc_id`(문서): [wiki-ko-sejong.md {line_no}줄]", t)
+        self.assertIn(f"  - [wiki-ko-sejong.md {line_no}줄]", t)
         self.assertIn(f"    > {passage}", t)
-        self.assertIn("### `rebuttal`(반박 구절)\n없음", t)
-        self.assertIn("- [ ] 3. 전제가 너무 뻔하게 틀리지 않았다", t)
-        self.assertNotIn("반대 언어 문서 확인 재료", t)
+        self.assertIn("- `rebuttal`(반박 구절):\n  - 없음", t)
+        self.assertIn("#### 3. 전제가 너무 뻔하게 틀리지 않았다", t)
+        self.assertNotIn("같은 도시", t)
 
     def test_en_evidence_same_city_docs_are_korean(self):
         r = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
-        same = r.text.split("같은 도시의 반대 언어 문서")[1].split("`opposite_check`")[0]
-        self.assertIn("(직접 읽는다)", same)
+        same = item_text(r.text, 7)
         self.assertIn("wiki-ko-jeonju.md", same)
+        self.assertIn("3번의 찾을 말로 `Cmd+F` 하고", same)
         self.assertNotIn("wiki-en-", same)
+        self.assertNotIn("번역", item_text(r.text, 5) + item_text(r.text, 6) + same)
         self.assertIn("`data/corpus/markdown/*-ko-*`", r.text)
 
     def test_refuses_to_overwrite(self):
@@ -160,37 +189,48 @@ class MakeCardsTest(unittest.TestCase):
         src.write_text(raw, encoding="utf-8")
         r = Run(self, src=src).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
-        self.assertIn("`term`(찾을 말) `1969` → `hits`(걸린 곳) 없음", r.text)
+        self.assertIn("`1969`은(는) 영어 문서 어디에도 없다", item_text(r.text, 5))
 
-    def test_look_at_labels_appear_earlier_in_card(self):
+    def test_no_hits_at_all(self):
+        oc = [{"term": "alpha", "hits": []}, {"term": "beta", "hits": []}]
+        r = Run(self, [candidate(oc=oc)]).go()
+        i5 = item_text(r.text, 5)
+        self.assertIn("`alpha`, `beta`은(는) 영어 문서 어디에도 없다(검사 프로그램이 확인함). 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다.", i5)
+        self.assertIn("읽을 것이 없으니", i5)
+        self.assertIn("- Gemini가 찾은 말: `alpha`, `beta`", item_text(r.text, 6))
+
+    def test_numbers_from_answer_in_item3(self):
+        c = candidate()
+        c["answer"] = "1,234명과 12.5%, 1969년"
+        r = Run(self, [c]).go()
+        self.assertIn("정답에서 뽑은 숫자: `1,234`, `12.5`, `1969`", item_text(r.text, 3))
+        r2 = Run(self, [candidate()]).go()
+        self.assertIn("정답에서 뽑은 숫자:", item_text(r2.text, 3))
+
+    def test_details_block_has_raw_yaml(self):
+        r = Run(self, [candidate(oc=[{"term": "x", "hits": []}])]).go()
+        details = r.text.split("<details>")[1].split("</details>")[0]
+        self.assertIn("opposite_check:", details)
+        self.assertIn("```yaml", details)
+
+    def test_labels_appear_in_candidate_block_first(self):
         hit = "The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)"
         oc = [{"term": "1969", "hits": [{"doc_id": "wiki-en-chuncheon", "excerpt": hit, "same_fact": False, "why": "기온 날짜"}]}]
         r = Run(self, [candidate(oc=oc), candidate(cid="c-002", doc="wiki-en-jeonju", el="en", oc=oc)]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
-        cards = [c for c in r.text.split("\n---\n") if c.startswith("\n## c-")]
+        cards = split_cards(r.text)
         self.assertEqual(len(cards), 2)
         for card in cards:
-            body, checklist = card.split("### 판정")
-            checked = 0
-            for line in checklist.split("\n"):
-                if "볼 곳:" not in line:
-                    continue
-                for label in re.findall(r"`[^`]+`\([^)]+\)", line.split("볼 곳:")[1]):
-                    checked += 1
-                    self.assertIn(label, body, f"{label} 이(가) 위에 없음: {line}")
-            self.assertGreaterEqual(checked, 8)
+            check_labels(self, card)
 
     def test_real_batch(self):
         r = Run(self, src=REAL_BATCH).go()
-        # 실제 묶음의 카드마다 "볼 곳"에 나오는 이름이 그 카드 위쪽에 있다(걸린 곳이 없는 카드 포함)
-        for card in [c for c in r.text.split("\n---\n") if c.startswith("\n## c-")]:
-            body, checklist = card.split("### 판정")
-            for line in checklist.split("\n"):
-                if "볼 곳:" in line or "해당 없음:" in line:
-                    for label in re.findall(r"`[^`]+`\([^)]+\)", line.split(":", 1)[1]):
-                        self.assertIn(label, body, f"{label} 이(가) 위에 없음: {line}")
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        cards = split_cards(r.text)
+        self.assertEqual(len(cards), 12)
         self.assertEqual(len(re.findall(r"^## c-\d{3} · ", r.text, re.M)), 12)
+        for card in cards:
+            check_labels(self, card)
         self.assertNotIn("apis.data.go.kr", r.text)
         self.assertNotIn("원문에서 찾지 못함", r.text)
 
