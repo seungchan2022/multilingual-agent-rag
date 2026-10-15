@@ -134,6 +134,9 @@ def main():
     if len(sys.argv) != 2:
         print("사용법: uv run python src/questions/check_read_test.py <답 파일>")
         return 1
+    if not Path(sys.argv[1]).is_file():
+        print(f"실패  답 파일이 없음: {sys.argv[1]}")
+        return 1
     try:
         data = yaml.safe_load(read_answer(sys.argv[1]))
     except yaml.YAMLError as err:
