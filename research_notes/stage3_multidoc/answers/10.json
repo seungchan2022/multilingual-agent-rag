@@ -1,0 +1,459 @@
+[
+ {
+  "name": "가옥",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(wiki-ko-sejong 267줄은 '유계화 가옥' 문화재, wiki-ko-cheongju 314줄은 운보 김기창의 전통 가옥으로 낱말 자체는 일반어)"
+ },
+ {
+  "name": "가치",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "개선",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "개정안",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "개청",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "계유명전씨아미타불비상",
+  "verdict": "후보",
+  "question": "국보 계유명전씨아미타불비상을 소장한 박물관은 청주의 어느 구 어느 동에 있나?",
+  "answer": "상당구 명암동 (국립청주박물관)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 258,
+   "passage": "계유명전씨아미타불비상: 국보, 국립청주박물관 소장"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 233,
+   "passage": "국립청주박물관 (상당구 명암동)"
+  },
+  "en_terms": [
+   "Gyeyu",
+   "Amitabha",
+   "Cheongju National Museum",
+   "Myeongam",
+   "Uam",
+   "national treasure"
+  ],
+  "en_result": "Gyeyu·Amitabha는 걸리지 않음. wiki-en-cheongju 101줄은 박물관이 Mt. Uam 근처라고만 하고 구·동과 비상 소장은 없음(88줄 Myeongam-dong은 동 목록뿐)",
+  "ko_conflict": "한국어 문서에서 계유명전씨아미타불비상은 wiki-ko-sejong 258줄(소장처)과 wiki-ko-cheongju 274줄(국보 제106호 목록)뿐이고 박물관 위치는 233줄뿐이라 값이 부딪히지 않음. 같은 사슬이 두 낱말('계유명전씨아미타불비상', '국립청주박물관')에서 나옴",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "고려대학교",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "wiki-ko-cheongju 201줄에 '고려대학교 세종캠퍼스 의생명공학원'이 그대로 적혀 있어 세종 문서의 조치원읍 캠퍼스 설명 없이 청주 문서 한 줄로 답이 나옴"
+ },
+ {
+  "name": "공공기관",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "공식",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "공약",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "공주",
+  "verdict": "영어 문서에 있음",
+  "reason": "천안 남쪽에 공주가 접한다는 사실이 wiki-en-cheonan 42줄('to the south is the county of Sejong and the city of Gongju')에 있음"
+ },
+ {
+  "name": "공주시",
+  "verdict": "영어 문서에 있음",
+  "reason": "천안 남쪽에 공주시가 접한다는 사실이 wiki-en-cheonan 42줄에 있음"
+ },
+ {
+  "name": "과학기술",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "관련",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "광역시",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어(wiki-ko-sejong 449줄·wiki-ko-gwangju 4줄에서 특정 도시가 아니라 제도명으로 쓰임)"
+ },
+ {
+  "name": "구축",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "국립청주박물관",
+  "verdict": "후보",
+  "question": "국보 계유명전씨아미타불비상을 소장한 박물관은 청주의 어느 구 어느 동에 있나?",
+  "answer": "상당구 명암동 (국립청주박물관)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 258,
+   "passage": "계유명전씨아미타불비상: 국보, 국립청주박물관 소장"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 233,
+   "passage": "국립청주박물관 (상당구 명암동)"
+  },
+  "en_terms": [
+   "Gyeyu",
+   "Amitabha",
+   "Cheongju National Museum",
+   "Myeongam",
+   "Uam",
+   "national treasure"
+  ],
+  "en_result": "Gyeyu·Amitabha는 걸리지 않음. wiki-en-cheongju 101줄은 박물관이 Mt. Uam 근처라고만 하고 구·동과 비상 소장은 없음(88줄 Myeongam-dong은 동 목록뿐)",
+  "ko_conflict": "한국어 문서에서 계유명전씨아미타불비상은 wiki-ko-sejong 258줄(소장처)과 wiki-ko-cheongju 274줄(국보 제106호 목록)뿐이고 박물관 위치는 233줄뿐이라 값이 부딪히지 않음. 같은 사슬이 두 낱말('계유명전씨아미타불비상', '국립청주박물관')에서 나옴",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "국민",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "국민권익위원회",
+  "verdict": "후보",
+  "question": "세종시 이전 3단계(2014년 이전)에서 중심관리로 분류된 위원회의 청렴연수원은 청주의 어느 구 어느 동에 있나?",
+  "answer": "서원구 수곡동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 202,
+   "passage": "3단계 2014년 이전 | 중심관리 | 국민권익위원회"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 394,
+   "passage": "국민권익위원회 청렴연수원 (서원구 수곡동)"
+  },
+  "en_terms": [
+   "Anti-Corruption",
+   "Civil Rights Commission",
+   "Integrity",
+   "SuGok"
+  ],
+  "en_result": "국민권익위원회·청렴연수원 관련 영어 문장 걸리지 않음(Integrity grep 무결과)",
+  "ko_conflict": "한국어 문서에서 국민권익위원회는 wiki-ko-sejong 202줄과 wiki-ko-cheongju 394줄뿐. 세종 3단계 중심관리 행(법제처·국민권익위원회)에서 '위원회'는 국민권익위원회 하나(201줄 법제처는 처)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "국토교통부",
+  "verdict": "후보",
+  "question": "대전~세종 간 차세대 지능형교통시스템(C-ITS) 시범사업을 전국 최초로 추진하는 정부 부처가 2014년에 확정한 중추도시생활권에서, 춘천시와 함께 춘천권으로 규정된 군은 몇 곳인가?",
+  "answer": "4곳(홍천군, 화천군, 철원군, 양구군)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 234,
+   "passage": "국토교통부는 대전광역시 ~ 세종특별자치시 간 주요 도로에 전국 최초로 '차세대 지능형교통시스템'(C-ITS) 시범 사업을 추진한다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 130,
+   "passage": "2014년 국토교통부에서 확정한 20개 중추도시생활권에서 춘천시, 홍천군, 화천군, 철원군, 양구군 등을 춘천권으로 규정하고 있다."
+  },
+  "en_terms": [
+   "Ministry of Land",
+   "C-ITS",
+   "Intelligent Transport",
+   "Hongcheon",
+   "Hwacheon",
+   "Cheorwon",
+   "Yanggu"
+  ],
+  "en_result": "C-ITS·국토교통부는 걸리지 않음. Hongcheon(wiki-en-chuncheon 36줄 전투 서술)·Yanggu(168줄 소양호 배편)는 춘천권 규정과 무관",
+  "ko_conflict": "한국어 문서에서 국토교통부는 wiki-ko-sejong 234줄과 wiki-ko-chuncheon 130줄뿐이고 중추도시생활권·춘천권은 130줄 한 곳",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "그런",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각이 아닌 지시 관형어, 특정 대상 아님"
+ },
+ {
+  "name": "기능",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "기반시설",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "기술",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "기초",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "남북",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "남청주",
+  "verdict": "후보",
+  "question": "세종시의 연계 도로망으로 적힌 경부고속도로 나들목은, 청주의 경부고속도로 구간 표에서 신탄진 나들목과 어느 시설 사이에 있나?",
+  "answer": "신탄진 나들목과 청주 분기점 사이(남청주 나들목)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 236,
+   "passage": "경부고속도로 남청주 나들목"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 356,
+   "passage": "신탄진 나들목 ↔ 남청주 나들목 ↔ 청주 분기점"
+  },
+  "en_terms": [
+   "Namcheongju",
+   "Sintanjin",
+   "interchange",
+   "Gyeongbu Expressway"
+  ],
+  "en_result": "Namcheongju·Sintanjin 걸리지 않음. Gyeongbu는 철도·고속도로 일반 서술만",
+  "ko_conflict": "남청주 나들목은 wiki-ko-cheongju 352·356·358줄에 있고 356줄(경부)과 358줄(서산영덕) 모두 신탄진과 청주 분기점 사이로 같은 값. 청주 경부 구간 표에는 청주 나들목·옥산 나들목도 있어 세종 문서(경부 나들목은 남청주 하나)로 골라야 함",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "남풍세",
+  "verdict": "후보",
+  "question": "세종시의 연계 도로망으로 꼽힌 논산천안고속도로의 천안 쪽 나들목 바로 다음에 오는 나들목은 무엇인가?",
+  "answer": "남천안 나들목",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 236,
+   "passage": "논산천안고속도로 남풍세 나들목"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 292,
+   "passage": "25호선 논산천안고속도로 (공주시) ← 남풍세 나들목 - 남천안 나들목 - 천안 분기점"
+  },
+  "en_terms": [
+   "Nampungse",
+   "Namcheonan",
+   "Nonsan"
+  ],
+  "en_result": "Nampungse·Namcheonan·Nonsan 걸리지 않음",
+  "ko_conflict": "남풍세 나들목은 wiki-ko-sejong 230·236줄과 wiki-ko-cheonan 292줄에 있고 순서 값은 292줄 한 곳. 같은 사슬이 '논산천안고속도' 낱말에서도 나오나 그쪽은 한 문서로 답이 나와 후보로 쓰지 않음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "노무현",
+  "verdict": "후보",
+  "question": "2002년 민주당 중앙선거대책위원회 출범식에서 충청권으로 청와대 이전을 공약한 대선 후보가 대통령이 되어 2003년에 일반에 반환한 별장을 1983년에 건립한 당시 대통령은 누구인가?",
+  "answer": "전두환 대통령(청남대)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 44,
+   "passage": "2002년 민주당 중앙선거대책위원회 출범식에서 충청권으로 청와대 이전 정책을 공약하였다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 290,
+   "passage": "청남대는 1983년에 전두환 대통령의 별장으로 건립하여 2003년에 노무현 대통령이 일반에 반환할 때까지"
+  },
+  "en_terms": [
+   "Roh",
+   "Moo-hyun",
+   "Mu-hyeon",
+   "Chun Doo-hwan",
+   "Chun Doo Hwan",
+   "Doo-hwan"
+  ],
+  "en_result": "Roh·Moo-hyun·Chun Doo-hwan 어느 표기도 걸리지 않음. kto-en-cheongju-cheongnamdae 7줄은 2003-04-18 개방만, wiki-en-cheongju 106줄은 1983 건립·2003 개방만 있고 두 대통령 이름은 없음",
+  "ko_conflict": "노무현은 wiki-ko-chuncheon 184줄(2002년 득표)에도 나오나 다른 사실이고, 청남대 건립·반환 대통령은 wiki-ko-cheongju 290줄 한 곳",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "논산천안고속도",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "노선 번호(25호선)와 나들목 순서가 wiki-ko-cheonan 292줄 한 줄에 있고 세종 문서의 사실이 답에 필요하지 않음"
+ },
+ {
+  "name": "단계",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "대거",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "대상",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "대안",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "대전지방검찰청",
+  "verdict": "후보",
+  "question": "세종시가 출범 뒤에도 직속 관할로 유지한 지방검찰청의 천안지청은 천안의 어느 동에 있나?",
+  "answer": "청당동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 117,
+   "passage": "대전지방법원, 대전지방검찰청 직속 관할 지역으로 그대로 유지하되"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 369,
+   "passage": "대전지방검찰청 천안지청 (청당동)"
+  },
+  "en_terms": [
+   "Daejeon District Prosecutors",
+   "Cheonan Branch",
+   "Cheongdang"
+  ],
+  "en_result": "검찰청 관련 영어 문장 걸리지 않음",
+  "ko_conflict": "대전지방검찰청 천안지청은 wiki-ko-cheonan 369줄 한 곳. 세종 117줄의 '직속 관할 유지'는 법원과 함께 적혀 있어 지방검찰청은 하나로 정해짐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "대전지방법원",
+  "verdict": "후보",
+  "question": "세종시법원의 상급 법원으로, 산하 연기군법원이 세종시법원으로 이름이 바뀐 지방법원의 천안지원은 천안의 어느 동에 있나?",
+  "answer": "청당동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 117,
+   "passage": "대전지방법원 산하 연기군법원은 세종시법원으로 명칭이 변경되었으며"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 368,
+   "passage": "대전지방법원 천안지원 (청당동)"
+  },
+  "en_terms": [
+   "Daejeon District Court",
+   "Cheonan Branch",
+   "Cheongdang"
+  ],
+  "en_result": "법원 관련 영어 문장 걸리지 않음(wiki-en-cheonan 130줄 courts는 테니스·농구 코트)",
+  "ko_conflict": "대전지방법원 천안지원은 wiki-ko-cheonan 368줄 한 곳. 청당동은 다른 기관에도 적혀 있으나 이 기관의 값과 부딪히지 않음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "대해",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "도농복합시",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어"
+ },
+ {
+  "name": "도로망",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "독립",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "돌파",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "동부지역",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "둔화",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "만드",
+  "verdict": "이름 아님",
+  "reason": "'만들' 등에서 떨어진 어간 조각"
+ },
+ {
+  "name": "맑은",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "무산",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "무형문화재",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ },
+ {
+  "name": "미호강",
+  "verdict": "영어 문서에 있음",
+  "reason": "미호강이 무심천과 만난다는 청주 문서(74줄)의 사실이 wiki-en-cheongju 50줄('tributaries of Musim and Miho flow together')에 있음"
+ },
+ {
+  "name": "민주통합당",
+  "verdict": "후보",
+  "question": "2012년 6월에 세종시 청와대 제2집무실·국회 분원 설치를 주장하는 공동성명을 낸 충청권 시·도당 위원장들의 정당 후보는, 같은 해 제18대 대통령 선거에서 춘천에서 몇 표를 얻었나?",
+  "answer": "69,365표(문재인)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 487,
+   "passage": "2012년 6월 28일 민주통합당 충청권 시ㆍ도당 위원장 등이 공동성명을 내고"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 186,
+   "passage": "2012년 제18대 대통령 선거에서는 새누리당 박근혜가 93,414표를 얻었으며 민주통합당 문재인은 69,365표를 획득하였다."
+  },
+  "en_terms": [
+   "Moon Jae-in",
+   "Democratic United",
+   "18th presidential",
+   "69,365",
+   "Park Geun-hye"
+  ],
+  "en_result": "wiki-en-chuncheon에 대통령 선거·득표 서술 없음(grep 무결과)",
+  "ko_conflict": "민주통합당은 wiki-ko-sejong 487·491줄과 wiki-ko-chuncheon 186줄뿐. 춘천 득표 69,365는 186줄 한 곳",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "밀도",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말로, 특정한 대상을 가리키지 않는다"
+ }
+]

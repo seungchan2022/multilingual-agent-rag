@@ -1,0 +1,227 @@
+[
+ {
+  "name": "선양시",
+  "verdict": "제외 목록",
+  "reason": "선양시는 같은 도시(전주 488 우호 도시 2006. 07. 17, 춘천 560 우호 도시 1998년 11월 14일)로 이을 수 있으나, 전주 우호 도시 목록은 영어 문서에 없고 영어 전주 자매도시 목록과도 달라 excluded.json의 '두 언어 자매도시 목록이 서로 다름' 이유에 해당한다."
+ },
+ {
+  "name": "송정동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 77줄은 광산구 송정동, wiki-ko-cheongju 144줄은 흥덕구 송정동으로 서로 다른 동이다."
+ },
+ {
+  "name": "수출",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "숙박",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(광주 566줄은 절 제목, 천안 168줄은 업종 이름)"
+ },
+ {
+  "name": "시절",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "신문왕",
+  "verdict": "후보",
+  "question": "전주에 완산주를 설치한 신라 왕의 재위 6년에, 광주 지역에 붙인 이름은 무엇인가?",
+  "answer": "무진주(신문왕 5년에 완산주를 설치했고, 신문왕 6년에 광주 지역을 무진주라 함)",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 37,
+   "passage": "685년(신라 신문왕 5년) : 완산주를 설치하였다."
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 36,
+   "passage": "삼국통일 이후 신문왕 6년에 무진주라고 하였다가"
+  },
+  "en_terms": [
+   "Sinmun",
+   "Mujin",
+   "Mujinju",
+   "Wansan",
+   "Wansanju",
+   "685",
+   "nine chu"
+  ],
+  "en_result": "Sinmun·Mujin·Wansan은 영어 문서에 없음. wiki-en-jeonju 97줄에 '685년 전주가 9주 중 하나(one of the nine chu)가 되었다'는 같은 해의 설치만 있고 신문왕·완산주 이름은 없으며, 광주 영어 문서는 없음. 고리 사실이 일부 겹칠 수 있어 사용자 확인이 필요함",
+  "ko_conflict": "한국어 문서에서 신문왕은 이 두 줄뿐이고(5년 완산주 설치, 6년 무진주) 서로 다른 사건이라 값이 부딪히지 않음. 무진주/완산주는 jeonju 29·38줄, gwangju 36줄에만 있고 다른 연도 값은 없음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "신안동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 428줄은 광주 북구 신안동, wiki-ko-cheonan 112줄은 천안의 신안동으로 서로 다른 동이다."
+ },
+ {
+  "name": "신용동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 525줄은 광주 북구 신용동, wiki-ko-cheonan 45줄은 천안의 신용동으로 서로 다른 동이다."
+ },
+ {
+  "name": "야구단",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(천안 230·231줄은 리틀야구 팀 이름의 일부)"
+ },
+ {
+  "name": "양성",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "어린",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각('어린이')"
+ },
+ {
+  "name": "여행",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "완도군",
+  "verdict": "제외 목록",
+  "reason": "wiki-ko-gwangju 44줄 광완선이 연결하는 완도군과 wiki-ko-cheonan 403줄 자매 도시 완도군(2007년)은 이을 수 있으나, 천안 자매도시 완도군은 영어 문서 목록에 없어 excluded.json의 '두 언어 자매도시 목록이 서로 다름' 이유에 해당한다."
+ },
+ {
+  "name": "운동",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(광주 쪽은 3·1 운동·5·18 운동 등 사건 이름 속 낱말, 천안 195줄은 독립만세 운동 서술)"
+ },
+ {
+  "name": "원래",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "유래",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "유사",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "이래",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "이용",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "전라남",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각('전라남도'의 앞부분)이며, 완도군 줄은 자매도시 목록이라 완도군과 같은 이유로 제외 목록에 해당한다."
+ },
+ {
+  "name": "전북",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 48·349줄은 지역 이름, wiki-ko-jeonju 468줄은 '전북 현대 모터스' 구단 이름의 일부라 같은 대상을 거쳐 사실이 이어지지 않는다."
+ },
+ {
+  "name": "제조업체",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "중핵도시",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(광주 42줄은 호남의 중핵도시라는 서술, 전주 151줄은 신도시 사업 목표로 서로 다른 뜻)"
+ },
+ {
+  "name": "직후",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "추억",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "통계청",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "두 문서 모두 표의 출처 표기일 뿐 통계청에 관한 사실이 없어 질문으로 이어지지 않는다."
+ },
+ {
+  "name": "특징",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "하나로클럽",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 437줄은 광주점(광산구 수완동), wiki-ko-jeonju 360·361줄은 전주점·효자점으로 서로 다른 점포다."
+ },
+ {
+  "name": "핵심",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "향하",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각('향하는')"
+ },
+ {
+  "name": "호남",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "지역 이름이지만 광주 쪽 줄들은 호남의 중심지라는 서술이고 전주 23줄도 호남 지방의 중심지 역할이라는 같은 종류의 서술이라 한 사실에서 다른 사실로 넘어가는 질문이 되지 않는다."
+ },
+ {
+  "name": "호남고속도로",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 649줄은 광주 북부를 관통한다는 서술, wiki-ko-jeonju 392줄은 전주 나들목 둘에서 진입한다는 서술이라 질문을 만들면 답이 나들목 둘로 갈려 하나로 정해지지 않는다."
+ },
+ {
+  "name": "호남고속선",
+  "verdict": "후보",
+  "question": "2015년 4월 2일에 호남고속선 1단계 공사가 완공된, 광주송정역까지 가는 구간의 출발역은 청주의 어느 구, 어느 읍에 있나?",
+  "answer": "출발역은 오송역이며 청주 흥덕구 오송읍에 있다",
+  "bridge": {
+   "doc": "wiki-ko-gwangju",
+   "line": 665,
+   "passage": "2015년 4월 2일에 오송역에서 광주송정역 구간의 호남고속선 1단계 공사가 완공되어"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 338,
+   "passage": "흥덕구 오송읍에 있는 오송역은 경부고속철도와 호남고속철도가 분기하고"
+  },
+  "en_terms": [
+   "Osong",
+   "Honam",
+   "high-speed",
+   "station",
+   "Heungdeok",
+   "Gwangju Songjeong"
+  ],
+  "en_result": "wiki-en-cheongju 80줄에 Heungdeok District 아래 Osong-eup이 나열될 뿐 오송역이 오송읍에 있다는 서술은 없고, 111줄은 오그장 역만 언급함. Honam은 wiki-en-busan 498, wiki-en-cheonan 28·118줄에 나오나 호남고속선 1단계 완공 사실은 없음",
+  "ko_conflict": "한국어 문서에서 오송역 위치는 cheongju 338줄에만 적혀 있고 다른 값이 없음. 호남고속선 1단계 완공일은 gwangju 665줄에만 있음. cheongju 342줄 표는 같은 노선을 호남고속선, 338줄은 호남고속철도라 적지만 사실은 부딪히지 않음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "호남고속철도",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 28줄은 광주를 잇는 철도로 이름만 나열하고, 같은 노선의 사실은 호남고속선 항목에서 다룬다."
+ },
+ {
+  "name": "확고히",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "효천지구",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 77줄은 광주 남구 효천지구, wiki-ko-jeonju 165줄은 전주의 효천지구라 서로 다른 지구다."
+ }
+]

@@ -1,0 +1,279 @@
+[
+ {
+  "name": "고속국",
+  "verdict": "이름 아님",
+  "reason": "고속국도의 조각이다(wiki-ko-cheongju 356~360 고속국도 제N호선)."
+ },
+ {
+  "name": "공주부",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 49와 wiki-ko-cheonan 31 모두 1895년 공주부 소속이라는 같은 종류의 사실이라, 한 문서에서 다른 문서로 넘어갈 사실이 없다."
+ },
+ {
+  "name": "당진청주고속도",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "당진청주고속도로의 조각이다. wiki-ko-cheongju 359와 wiki-ko-cheonan 291은 각각 나들목 나열일 뿐이라 한 문서의 사실로 다른 문서의 사실을 찾아가는 질문이 되지 않는다."
+ },
+ {
+  "name": "대전지방고용노동청",
+  "verdict": "후보",
+  "question": "대전지방고용노동청의 청주지청과 천안지청이 있는 동은 각각 어디인가?",
+  "answer": "청주지청은 서원구 분평동, 천안지청은 두정동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 388,
+   "passage": "대전지방고용노동청 청주지청 (서원구 분평동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 389,
+   "passage": "대전지방고용노동청 천안지청 (두정동)"
+  },
+  "en_terms": [
+   "Employment",
+   "Labor",
+   "Daejeon Regional"
+  ],
+  "en_result": "영어 문서 14개 grep에서 고용노동청 또는 같은 기관은 걸리지 않음",
+  "ko_conflict": "한국어 문서에서 이 기관의 청주·천안 지청은 이 두 줄뿐(광주지방고용노동청은 다른 기관)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "대전지방국세청",
+  "verdict": "답이 하나 아님",
+  "reason": "wiki-ko-cheongju 384는 청주세무서와 동청주세무서 두 곳에 (상당구 상당로), (청원구 율량동) 두 위치를 묶어 적어 청주세무서 하나의 위치가 정해지지 않는다(wiki-ko-cheonan 390은 천안세무서 청당동)."
+ },
+ {
+  "name": "대전지방기상청",
+  "verdict": "후보",
+  "question": "대전지방기상청의 청주기상대와 천안기상대가 있는 동은 각각 어디인가?",
+  "answer": "청주기상대는 흥덕구 복대동, 천안기상대는 신방동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 390,
+   "passage": "대전지방기상청 청주기상대 (흥덕구 복대동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 391,
+   "passage": "대전지방기상청 천안기상대 (신방동)"
+  },
+  "en_terms": [
+   "Meteorological",
+   "weather station",
+   "Daejeon Regional",
+   "Bokdae",
+   "Sinbang"
+  ],
+  "en_result": "영어 문서에서 Meteorological은 기후 표 출처(Korea Meteorological Administration)뿐이고 기상대 위치는 없음",
+  "ko_conflict": "한국어 문서에서 청주기상대와 천안기상대는 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "대청호반",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-cheongju 366의 대청호반은 지방도 32호선의 도로명 대청호반로의 일부이고, kto-ko-cheongju-cheongnamdae 7의 대청호반은 호숫가라 다른 대상이다."
+ },
+ {
+  "name": "동종",
+  "verdict": "이름 아님",
+  "reason": "동종(구리 종)은 일반 낱말이고 wiki-ko-cheongju 276의 운천동 출토 동종과 wiki-ko-cheonan 138의 천흥사 동종은 서로 다른 유물이다."
+ },
+ {
+  "name": "롯데웰푸드",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 144는 공장을 둔 기업을 나열할 뿐이고 wiki-ko-cheonan 170은 '롯데웰푸드 천안공장' 한 줄뿐이라 한 문서의 사실로 다른 문서의 사실을 찾아갈 수 없다."
+ },
+ {
+  "name": "문화동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-cheongju 381의 문화동은 상당구 청주 문화동이고 wiki-ko-cheonan 23·43의 문화동은 천안 동남구 문화동이라 다른 장소이다."
+ },
+ {
+  "name": "별장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다. 이름은 청남대이고 거기서 따로 판정했다."
+ },
+ {
+  "name": "봉명동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-cheongju 155 등의 봉명동은 청주 흥덕구이고 wiki-ko-cheonan 108의 봉명동은 천안 동남구라 다른 동이다."
+ },
+ {
+  "name": "삼성SDI",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 144는 공장을 둔 기업 나열이고 wiki-ko-cheonan 173은 '삼성SDI 천안사업장' 한 줄뿐이라 이어 찾을 사실이 없다."
+ },
+ {
+  "name": "상당구",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "kto-ko-cheongju-cheongnamdae 3은 주소에 상당구가 들어 있을 뿐이라 상당구를 거쳐 다른 문서의 사실로 넘어갈 질문이 되지 않는다."
+ },
+ {
+  "name": "수동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-cheongju 214·298·427의 수동은 청주 상당구 수동이고 wiki-ko-chuncheon 218의 수동은 춘천 수동 농공단지(수동면)라 다른 장소이다."
+ },
+ {
+  "name": "수집",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다(wiki-ko-cheongju 302, wiki-ko-cheonan 122)."
+ },
+ {
+  "name": "시외",
+  "verdict": "이름 아님",
+  "reason": "시외버스의 조각인 일반 낱말이다(wiki-ko-cheongju 374, wiki-ko-chuncheon 399, wiki-ko-cheonan 305)."
+ },
+ {
+  "name": "신축",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다(wiki-ko-cheongju 125, wiki-ko-chuncheon 27)."
+ },
+ {
+  "name": "이글스",
+  "verdict": "후보",
+  "question": "한화 이글스가 제2홈구장과 제3경기장으로 쓰는 야구장은 각각 어느 도시에 있나?",
+  "answer": "제2홈구장 청주야구장은 청주, 제3경기장 의암야구장은 춘천",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 451,
+   "passage": "KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 412,
+   "passage": "한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다."
+  },
+  "en_terms": [
+   "Hanwha",
+   "Eagles",
+   "Eagle",
+   "baseball",
+   "stadium"
+  ],
+  "en_result": "Hanwha는 wiki-en-jeonju 207줄의 Hanwha Life Esports(게임단)만 걸림. wiki-en-chuncheon 142줄은 8,500석 야구장만 적고 구단 없음. 같은 사실 없음",
+  "ko_conflict": "한국어 문서에서 한화 이글스는 이 두 줄뿐(wiki-ko-cheongju 256의 청주야구장은 체육 시설 목록)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "임시청사",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다. wiki-ko-cheongju 121은 청주시청, wiki-ko-chuncheon 57은 춘천시청의 임시청사라 서로 다른 건물이다."
+ },
+ {
+  "name": "전망대",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다. 수암골 전망대(wiki-ko-cheongju 298), 소양정·구봉산 전망대(wiki-ko-chuncheon 267·332), 삼악산 케이블카 전망대(kto 9)는 각각 다른 시설이다."
+ },
+ {
+  "name": "조례",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다(wiki-ko-cheongju 68, wiki-ko-chuncheon 56의 조례 제338호는 다른 조례)."
+ },
+ {
+  "name": "진천",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 360은 중부고속도로 나들목 이름이고 wiki-ko-cheonan 53은 접경 서술이라 이름을 거쳐 넘어갈 사실이 없다."
+ },
+ {
+  "name": "진천군",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 29와 wiki-ko-cheonan 53은 둘 다 진천군과 접한다는 서술뿐이라 한 문서에서 다른 문서로 넘어갈 사실이 없다."
+ },
+ {
+  "name": "천안아산역",
+  "verdict": "후보",
+  "question": "청주시 문서의 고속철도 표에서 경부고속선·대전북연결선·호남고속선 구간의 첫 역은 언제 개업했나?",
+  "answer": "2004년 4월 1일",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 342,
+   "passage": "| 경부고속선, 대전북연결선, 호남고속선 | 천안아산역 ↔ 오송역 ↔ 대전역(경부고속선)/공주역(호남고속선) |"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 281,
+   "passage": "2004년 4월 1일, 천안시와 아산시의 경계지역인 아산시 배방읍 장재리에 천안아산역이 개업하였고"
+  },
+  "en_terms": [
+   "Cheonan-Asan",
+   "Asan Station",
+   "2004",
+   "KTX"
+  ],
+  "en_result": "wiki-en-cheonan 156에 Cheonan-Asan Station이 KTX 역이라고만 있고 개업일 없음. 2004는 무관한 줄만 걸림. 같은 사실 없음",
+  "ko_conflict": "한국어 문서에서 천안아산역은 이 두 줄뿐이고 개업일은 281줄 하나뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "청남대",
+  "verdict": "후보",
+  "question": "전두환 대통령의 별장으로 지어진 곳을 개방 전까지 대통령들이 몇 번 이용했나?",
+  "answer": "88회(다섯 분의 대통령)",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 290,
+   "passage": "청남대는 1983년에 전두환 대통령의 별장으로 건립하여"
+  },
+  "target": {
+   "doc": "kto-ko-cheongju-cheongnamdae",
+   "line": 7,
+   "passage": "개방 전까지 총 다섯 분의 대통령이 88회 이용하였으며"
+  },
+  "en_terms": [
+   "Chun Doo-hwan",
+   "Chun Doo Hwan",
+   "Doo-hwan",
+   "Cheongnamdae",
+   "88",
+   "five presidents"
+  ],
+  "en_result": "전두환은 영어 문서에 없음. kto-en-cheongju-cheongnamdae 7과 wiki-en-cheongju 106은 청남대의 건립 연도·개방만 적고 이용 횟수·전두환 없음. 같은 사실 없음",
+  "ko_conflict": "한국어 문서에서 전두환은 wiki-ko-cheongju 290뿐이고 88회는 kto-ko-cheongju-cheongnamdae 7뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "체육",
+  "verdict": "이름 아님",
+  "reason": "체육 시설 소제목의 일반 낱말이다(wiki-ko-cheongju 253, wiki-ko-chuncheon 416)."
+ },
+ {
+  "name": "충주",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 39·50은 관찰사 이전, wiki-ko-chuncheon 43은 6사단 철수지로 충주가 나올 뿐 서로 이어지는 사실이 없다."
+ },
+ {
+  "name": "충청지방통계청",
+  "verdict": "후보",
+  "question": "충청지방통계청의 청주사무소와 천안사무소가 있는 동은 각각 어디인가?",
+  "answer": "청주사무소는 흥덕구 봉명동, 천안사무소는 두정동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 391,
+   "passage": "충청지방통계청 청주사무소 (흥덕구 봉명동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 396,
+   "passage": "충청지방통계청 천안사무소 (두정동)"
+  },
+  "en_terms": [
+   "Statistics",
+   "Chungcheong Regional",
+   "Statistical"
+  ],
+  "en_result": "영어 문서 14개 grep에서 통계청 사무소는 걸리지 않음",
+  "ko_conflict": "한국어 문서에서 충청지방통계청은 이 두 줄뿐(wiki-ko-chuncheon 152 등의 통계청은 출처 표기)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "투표",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다(wiki-ko-cheongju 39·68은 주민투표, wiki-ko-chuncheon 180은 대통령 선거)."
+ },
+ {
+  "name": "한눈",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다('한눈에 볼 수 있다', wiki-ko-cheongju 298, kto 9)."
+ }
+]

@@ -1,0 +1,327 @@
+[
+ {
+  "name": "울산광역시",
+  "verdict": "후보",
+  "question": "경주시가 남쪽으로 접하고 있는 광역시의 2025년 3월 기준 인구는 몇 명인가?",
+  "answer": "울산광역시, 1,122,221명",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 63,
+   "passage": "남쪽으로 울산광역시와 접하고 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-suwon",
+   "line": 98,
+   "passage": "울산광역시의 2025년 3월 기준 인구 1,122,221명보다 많다."
+  },
+  "en_terms": [
+   "Ulsan",
+   "울산",
+   "1,122,221",
+   "1122221"
+  ],
+  "en_result": "Ulsan은 wiki-en-busan 38줄(동남권 지역 나열)과 482줄(버스 행선지)에 지명으로만 나오고 인구나 경주와의 접경은 없음. 1,122,221은 어디에도 없음",
+  "ko_conflict": "한국어 문서에서 울산 인구가 적힌 곳은 wiki-ko-suwon 98줄뿐(다른 줄은 울산을 지명으로만 언급)",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "원천동",
+  "verdict": "후보",
+  "question": "수원시에서 1973년에 아주대학교가 설립된 동의 2021년 5월 31일 기준 인구(합계)는 몇 명인가?",
+  "answer": "원천동, 39,858명",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 200,
+   "passage": "1973년 영통구 원천동에 아주대학교가 설립되었다."
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 41,
+   "passage": "| 영통구 | 원천동 | 18037 | 39858 | 38885 | 19688 | 19197 | 39855 | 3 | 973 | 504 | 469 | 2021-05-31 |"
+  },
+  "en_terms": [
+   "Ajou",
+   "Wonchon",
+   "원천동",
+   "39858"
+  ],
+  "en_result": "영어 문서 14개에 Ajou·Wonchon 걸리는 줄 없음",
+  "ko_conflict": "원천동 인구는 portal 41줄뿐이고 wiki-ko-suwon의 원천동 줄(59·200·204·205)에는 인구가 없다. 기준일은 2021-05-31",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "유물",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "유역",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "음력",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "음식",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "이러",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각"
+ },
+ {
+  "name": "이씨",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 41줄은 수원 본관 성씨, wiki-ko-jeonju 220·240줄은 전주 이씨, wiki-ko-cheongju 474줄은 청주 이씨라 서로 다른 성씨 집단이다."
+ },
+ {
+  "name": "이어져",
+  "verdict": "이름 아님",
+  "reason": "동사 활용형"
+ },
+ {
+  "name": "이전해",
+  "verdict": "이름 아님",
+  "reason": "동사 활용형"
+ },
+ {
+  "name": "이하",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "인계동",
+  "verdict": "후보",
+  "question": "수원시청 청사가 있는 동의 2021년 5월 31일 기준 인구(합계)는 몇 명인가?",
+  "answer": "인계동, 40,581명",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 8,
+   "passage": "청사 소재지: (우편번호:16490) 경기도 수원시 팔달구 효원로 241(인계동)"
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 36,
+   "passage": "| 팔달구 | 인계동 | 21528 | 40581 | 39398 | 19907 | 19491 | 40380 | 201 | 1183 | 588 | 595 | 2021-05-31 |"
+  },
+  "en_terms": [
+   "Ingye",
+   "인계동",
+   "Suwon City Hall",
+   "40581"
+  ],
+  "en_result": "영어 문서 14개에 Ingye·수원시청 관련 줄 없음",
+  "ko_conflict": "인계동 인구는 portal 36줄뿐이고 wiki-ko-suwon 8·183줄에는 인구가 없다. 기준일은 2021-05-31",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "인구증가율",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "인구통계",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "일반계",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "일반도",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "일제",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(일제 강점기를 가리키는 시대 일반어)"
+ },
+ {
+  "name": "임진왜란",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 41줄(권율 독산성 대치), wiki-ko-gyeongju 41줄(불국사 목조건물 소실), wiki-ko-jeonju 228줄(경기전 소실)은 같은 전쟁의 서로 다른 사실이라 한 사실에서 다른 문서의 사실로 넘어가는 질문이 되지 않는다."
+ },
+ {
+  "name": "있었으나",
+  "verdict": "이름 아님",
+  "reason": "동사 활용형"
+ },
+ {
+  "name": "자매도시",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(표 항목 이름)"
+ },
+ {
+  "name": "작은",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "장소",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "장안구",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "portal-ko-suwon-population이 구·동별 인구를 구 이름과 함께 모두 적고 있어 장안구를 거치는 질문은 wiki-ko-suwon 없이 portal 하나로 답이 나온다."
+ },
+ {
+  "name": "저장성",
+  "verdict": "후보",
+  "question": "수원시가 우호도시로 맺은 저장성의 중국 도시와 춘천시가 우호도시 협정을 맺은 날은 언제인가?",
+  "answer": "1994년 9월 1일(춘천시와 항저우시)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 344,
+   "passage": "| 우호도시 | 중국 | 저장성 항저우 |"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 559,
+   "passage": "| 저장성 항저우시 | 중화인민공화국 | 1994년 9월 1일 |"
+  },
+  "en_terms": [
+   "Hangzhou",
+   "Zhejiang",
+   "1994",
+   "September 1"
+  ],
+  "en_result": "wiki-en-chuncheon 226줄에 Hangzhou|Zhejiang|China 이름만 있고 체결일은 없음. 영어 문서의 1994는 busan·jeonju의 다른 사실뿐. 수원 문서의 영어판은 없음",
+  "ko_conflict": "항저우는 한국어 문서에서 wiki-ko-suwon 344줄과 wiki-ko-chuncheon 559줄뿐(광주는 원저우시라 다른 도시)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "저하",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "전통",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "절반",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "점차",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "제시",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "조선시대",
+  "verdict": "이름 아님",
+  "reason": "시대 일반어"
+ },
+ {
+  "name": "조정",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "종사자",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "주택",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "중생대",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "중소",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "중소기업은행",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 250줄(수원시 제1금고, kt wiz 제휴 카드)과 wiki-ko-gyeongju 304줄(경주 지점 보유 은행 나열)은 서로 이어지는 사실 관계가 없고 은행 이름만 같다."
+ },
+ {
+  "name": "중심부",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "중앙",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "증가율",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지동",
+  "verdict": "답이 하나 아님",
+  "reason": "wiki-ko-suwon 37줄은 중기 구석기 유물이 발견된 곳으로 지동과 이의동을 함께 적고, portal-ko-suwon-population 33줄에는 지동만 있어 두 구절만으로 지동 하나를 가리킬 수 없다."
+ },
+ {
+  "name": "지방자치단체",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지역경제",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지역내총생산",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지진",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지질",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "직결",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "진행",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "차례나",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각"
+ },
+ {
+  "name": "차별",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ }
+]

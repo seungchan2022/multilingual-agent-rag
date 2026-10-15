@@ -1,0 +1,359 @@
+[
+ {
+  "name": "박근혜",
+  "verdict": "후보",
+  "question": "2009년 '세종시는 국민과의 약속'이라며 세종시를 원안대로 추진해야 한다고 주장한 당시 한나라당 대표가 2012년 제18대 대통령 선거에서 춘천에서 얻은 표는 몇 표인가?",
+  "answer": "93,414표",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 50,
+   "passage": "한나라당 대표 박근혜는 '세종시는 국민과의 약속'이라며 원안대로 정상적으로 추진해야 한다고 주장하며"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 186,
+   "passage": "가장 최근에 치러진 2012년 제18대 대통령 선거에서는 새누리당 박근혜가 93,414표를 얻었으며 민주통합당 문재인은 69,365표를 획득하였다."
+  },
+  "en_terms": [
+   "Park Geun-hye",
+   "Park Geun Hye",
+   "Geun-hye",
+   "Park Chung",
+   "93,414",
+   "Moon Jae"
+  ],
+  "en_result": "영어 문서 14개에서 위 표기와 숫자 모두 걸리는 줄 없음(대통령 선거 득표 기록 자체가 없음)",
+  "ko_conflict": "한국어 문서에서 박근혜는 이 두 줄뿐이고 93,414도 이 줄 하나뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "박정희",
+  "verdict": "후보",
+  "question": "1977년 수도 이전 '백지계획'을 만든 정부의 대통령이 1971년 제7대 대통령 선거에서 춘천시·군에서 얻은 표는 몇 표인가?",
+  "answer": "48,607표",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 40,
+   "passage": "1977년, 박정희 정부에서 대통령비서실 산하 중화학공업추진위원회 실무기획단이 2년 동안 150여 명의 국내외 전문 인력을 투입해서 만든 이른바 '백지계획'"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 180,
+   "passage": "1971년 제7대 대통령 선거에서는 박정희가 48,607표를 얻고 김대중이 38,802표를 얻는 등 강원도의 일반적인 성향과 유사해지는 모습을 보였다."
+  },
+  "en_terms": [
+   "Park Chung-hee",
+   "Park Chung Hee",
+   "Chung-hee",
+   "48,607",
+   "28,984"
+  ],
+  "en_result": "영어 문서 14개에서 위 표기와 숫자 모두 걸리는 줄 없음",
+  "ko_conflict": "wiki-ko-chuncheon 180줄에 박정희 득표가 1963년 28,984표와 1971년 48,607표로 함께 적혀 있으나 선거(1971년 제7대)가 달라 질문에서 구분됨",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "발의",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(법안 발의)다."
+ },
+ {
+  "name": "발전방안",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "발표",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "방언",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-sejong 18과 wiki-ko-cheongju 16은 모두 정보 상자의 지역어 칸 '충청 방언'뿐이라 사실이 없어 질문을 만들 수 없다."
+ },
+ {
+  "name": "범위",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "법률",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "복선",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(복선 전철)다."
+ },
+ {
+  "name": "부상",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "북부지역",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(방위 지역어)다."
+ },
+ {
+  "name": "분동",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어다."
+ },
+ {
+  "name": "비슷",
+  "verdict": "이름 아님",
+  "reason": "조사를 뗀 일반 낱말 조각다."
+ },
+ {
+  "name": "사례",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "사립대학교",
+  "verdict": "이름 아님",
+  "reason": "일반 분류어(대학 구분 표)다."
+ },
+ {
+  "name": "사립전문대학",
+  "verdict": "이름 아님",
+  "reason": "일반 분류어(대학 구분 표)다."
+ },
+ {
+  "name": "사망",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "사법",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "사용해",
+  "verdict": "이름 아님",
+  "reason": "동사 활용 조각다."
+ },
+ {
+  "name": "산하",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "상회",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "서산영덕고속도",
+  "verdict": "후보",
+  "question": "세종특별자치시를 관통하는 고속도로 가운데 서세종 나들목과 남세종 나들목이 있는 고속도로는 고속국도 제 몇 호선인가?",
+  "answer": "제30호선",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 236,
+   "passage": "세종특별자치시를 관통하는 고속도로로는 서산영덕고속도로 서세종 나들목과 남세종 나들목 이 있으며"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 358,
+   "passage": "| 30 고속국도 제30호선 서산영덕고속도로 | 신탄진 나들목 ↔ 남청주 나들목 ↔ 청주 분기점 ↔ 문의청남대 나들목 ↔ 회인 나들목 |"
+  },
+  "en_terms": [
+   "Seosan",
+   "Yeongdeok",
+   "Route 30",
+   "Expressway No. 30",
+   "West Sejong",
+   "South Sejong"
+  ],
+  "en_result": "Seosan·Yeongdeok·Sejong 나들목 이름은 영어 문서에 없음(Seosan 계열은 걸리는 줄 없고 Sejong은 wiki-en-cheonan 지리 서술에만 나옴)",
+  "ko_conflict": "한국어 문서에서 서산영덕고속도로의 호선 번호는 wiki-ko-cheongju 358줄 한 곳뿐이고 다른 번호로 적은 줄 없음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "서원구",
+  "verdict": "후보",
+  "question": "2015년 행정중심복합도시에서 충청북도 청주시의 한 일반구에 있는 남이면을 경유해 3순환로 석곡 분기점을 연결한 왕복 4차로 도로가 지나는 그 일반구의 면적은 몇 km2인가?",
+  "answer": "122.63km2",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 230,
+   "passage": "2015년에는 행정중심복합도시에서 세종특별자치시 연동면과 부강면, 충청북도 청주시 서원구 남이면을 경유하여 3순환로 석곡 분기점을 연결하는 왕복 4차로 도로가"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 112,
+   "passage": "| 서원구 | 西原區 | 88,082 | 193,630 | 122.63 | 서원구 | 2면 9행정동 10법정동 |"
+  },
+  "en_terms": [
+   "Seowon",
+   "Seowon District",
+   "122.63",
+   "Namil"
+  ],
+  "en_result": "Seowon은 wiki-en-cheongju 82줄의 'Seowon District (서원구; 西原區) South'(면적 없음)와 129줄 Seowon University, wiki-en-andong의 서원(향교류)만 걸림. 122.63은 영어 문서에 없음",
+  "ko_conflict": "122.63은 wiki-ko-cheongju 112줄 한 곳뿐이고, 서원구 면적을 다른 값으로 적은 한국어 줄은 없음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "서창",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-sejong 244의 서창은 세종 서창 4거리이고 wiki-ko-gwangju 649의 서창은 광주 제2순환도로 서창 나들목이라 서로 다른 곳이다."
+ },
+ {
+  "name": "세종캠퍼스",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 201은 고려대학교 세종캠퍼스 의생명공학원이라는 목록 항목뿐이라 이어질 사실이 없다."
+ },
+ {
+  "name": "세종특별자치시",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "wiki-ko-cheongju 63(청원군 부용면 9개리 중 8개리를 2012년 7월 1일 세종특별자치시로 편입)은 그 한 줄이 고리와 답을 함께 적고 있어 청주 문서 하나로 답이 나온다."
+ },
+ {
+  "name": "소방본부",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-sejong 126은 세종특별자치시 소방본부이고 wiki-ko-cheongju 408은 충청북도 소방본부라 다른 기관이다."
+ },
+ {
+  "name": "수준",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "순우리말",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "순환",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "시의회",
+  "verdict": "이름 아님",
+  "reason": "세종·청주·춘천 문서의 시의회는 각 도시의 서로 다른 의회를 가리키는 행정 기관 일반어다(wiki-ko-sejong 491, wiki-ko-cheongju 68, wiki-ko-chuncheon 196)."
+ },
+ {
+  "name": "시행",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "신도심",
+  "verdict": "이름 아님",
+  "reason": "wiki-ko-sejong 228의 신도심은 세종의 구역이고 wiki-ko-jeonju 123의 신도심은 전주 완산구의 구역이라, 일반어이며 같은 대상도 아니다."
+ },
+ {
+  "name": "신설",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "신청사",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-sejong 220의 신청사는 대통령기록관 신청사이고 wiki-ko-chuncheon 58의 신청사는 춘천시청 신청사라 다른 건물이다."
+ },
+ {
+  "name": "아산시",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-sejong 493의 아산시는 정기회가 열린 장소일 뿐이고 wiki-ko-cheonan 281의 천안아산역(2004년 4월 1일 개업)은 아산시 배방읍 장재리라는 말로 천안 문서만 보고도 찾아지므로 세종 문서가 필요한 고리가 되지 못한다."
+ },
+ {
+  "name": "안에",
+  "verdict": "이름 아님",
+  "reason": "조사가 붙은 일반 낱말 조각다."
+ },
+ {
+  "name": "양상",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "업무",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "없이",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말 조각다."
+ },
+ {
+  "name": "여론",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "여야",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "연구기관",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "예를",
+  "verdict": "이름 아님",
+  "reason": "조사를 뗀 일반 낱말 조각다."
+ },
+ {
+  "name": "예산",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "오송역",
+  "verdict": "후보",
+  "question": "2012년 9월부터 대전 도시철도 1호선 반석역과 행정중심복합도시를 거쳐 간선급행버스체계 B2가 닿는 철도역에서 광주송정역까지 호남고속선 1단계 공사가 완공된 날은 언제인가?",
+  "answer": "2015년 4월 2일",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 226,
+   "passage": "2012년 9월부터 ● 대전 도시철도 1호선 반석역 ~ 행정중심복합도시 ~ 오송역 30.7km에 간선급행버스체계 B2를 운행하고 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 665,
+   "passage": "2015년 4월 2일에 오송역에서 광주송정역 구간의 호남고속선 1단계 공사가 완공되어 용산역에서 광주송정역까지 1시간 30분대에 이용이 가능하다."
+  },
+  "en_terms": [
+   "Osong",
+   "Honam High",
+   "Gwangju-Songjeong",
+   "Gwangjusongjeong",
+   "2015",
+   "BRT"
+  ],
+  "en_result": "Osong은 wiki-en-cheongju 80·96·133·140·142줄의 지명·기관·행사만 걸리고 호남고속선 1단계 완공 사실은 영어 문서에 없음",
+  "ko_conflict": "호남고속선 1단계 완공일은 wiki-ko-gwangju 665줄에만 있고 다른 한국어 줄에 다른 값 없음",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "운영",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "유입",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ },
+ {
+  "name": "유형문화재",
+  "verdict": "이름 아님",
+  "reason": "문화재 종류를 가리키는 일반어다."
+ },
+ {
+  "name": "음식점",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말다."
+ }
+]

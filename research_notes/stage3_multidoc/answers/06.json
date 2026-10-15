@@ -1,0 +1,375 @@
+[
+ {
+  "name": "KB국민은행",
+  "verdict": "후보",
+  "question": "청주를 연고지로 하는 한국여자프로농구 구단의 이름에 들어 있는 시중은행은 경주시의 어느 곳에 지점을 두었나?",
+  "answer": "경주",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 455,
+   "passage": "한국여자프로농구의 청주 KB국민은행 스타즈의 연고지이다."
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 304,
+   "passage": "KB국민은행 (경주)"
+  },
+  "en_terms": [
+   "KB",
+   "국민은행",
+   "Kookmin",
+   "Stars",
+   "basketball",
+   "bank"
+  ],
+  "en_result": "영어 문서 전체에서 KB·Kookmin·KB Stars는 걸리지 않음. basketball은 wiki-en-cheongju 157줄(Choi Eun-sil, 선수 인명)과 wiki-en-chuncheon 202줄(Hur Jae)만 걸리고 구단 사실은 없음",
+  "ko_conflict": "한국어 문서에서 'KB국민은행'은 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "LG헬로비전",
+  "verdict": "후보",
+  "question": "춘천의 방송사 가운데 LG헬로비전 강원방송과 같은 회사가 경주에서 운영하는 방송사는 무엇인가?",
+  "answer": "신라방송(LG헬로비전 신라방송)",
+  "bridge": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 532,
+   "passage": "LG헬로비전 강원방송"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 484,
+   "passage": "LG헬로비전 신라방송 (경주·영천·경산·청도 전 지역)"
+  },
+  "en_terms": [
+   "LG HelloVision",
+   "HelloVision",
+   "Hello",
+   "cable",
+   "broadcast"
+  ],
+  "en_result": "영어 문서 전체에서 Hello·HelloVision·cable·broadcast는 걸리는 줄이 없거나 이 사실과 무관함",
+  "ko_conflict": "wiki-ko-gyeongju 266의 'LG 헬로비전 신라방송'(경주·청도·영천·경산 지역)은 같은 값이고, 한국어 문서에서 LG헬로비전은 이 세 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "km",
+  "verdict": "이름 아님",
+  "reason": "단위 기호(wiki-ko-gyeongju 65, wiki-ko-jeonju 240)로 이름이 아니다"
+ },
+ {
+  "name": "가야",
+  "verdict": "이름 아님",
+  "reason": "'가야 볼 수 있다'·'특례시로 가야 한다'의 동사 활용형이다(wiki-ko-gyeongju 192, wiki-ko-sejong 475·477)"
+ },
+ {
+  "name": "강화",
+  "verdict": "이름 아님",
+  "reason": "'강화되었다' 같은 일반 낱말이다(wiki-ko-gyeongju 57 등)"
+ },
+ {
+  "name": "거리",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "거의",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "건축물",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "경부고속선",
+  "verdict": "후보",
+  "question": "천안아산역과 오송역, 대전역을 잇는 고속철도 노선의 2단계 전용선 구간이 개통될 때 영업을 시작한 경주시의 역은 언제 문을 열었나?",
+  "answer": "경주역, 2010년 11월 1일",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 342,
+   "passage": "| 경부고속선, 대전북연결선, 호남고속선 | 천안아산역 ↔ 오송역 ↔ 대전역(경부고속선)/공주역(호남고속선) |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 358,
+   "passage": "경주역이 있으며, 2010년 11월 1일 경부고속선 2단계 전용선 구간 개통과 함께 영업을 시작했다."
+  },
+  "en_terms": [
+   "Gyeongbu high-speed",
+   "Gyeongbu",
+   "경부고속",
+   "Osong",
+   "Gyeongju",
+   "2010"
+  ],
+  "en_result": "Gyeongbu는 wiki-en-cheonan 28·44(경부선), wiki-en-busan 64·496·498만 걸리고 경부고속선 사실 없음. Osong은 wiki-en-cheongju의 지명·캠퍼스뿐이며 오송역 노선 사실 없음",
+  "ko_conflict": "wiki-ko-gyeongju 358·360의 경주역 기록은 신 경주역 개통(2010-11-01)과 구 성동동 경주역 폐역(2021-12-28)으로 서로 다른 역의 사실이며 개통일은 하나뿐. wiki-ko-suwon 264의 2010-11-01은 수원역 이야기라 별개",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "경상",
+  "verdict": "이름 아님",
+  "reason": "wiki-ko-gyeongju 88은 '경상 분지·경상 누층군', kto-ko-cheonan-samgeori-park 7은 '경상도'의 줄임으로 서로 다른 일반 지질·지역어다"
+ },
+ {
+  "name": "경유",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(거쳐 간다는 뜻)"
+ },
+ {
+  "name": "고대",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "고분군",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gyeongju 218은 대릉원 황남대총 고분군, wiki-ko-cheongju 279는 청주 신봉동 고분군으로 서로 다른 유적이다"
+ },
+ {
+  "name": "고속버스",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "곳곳",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "공공",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "공급",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "공연",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "공연장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "과거",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "과학",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "관람객",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "관찰사",
+  "verdict": "이름 아님",
+  "reason": "벼슬 이름 일반어이고 wiki-ko-gyeongju 39는 영남도, wiki-ko-cheongju 39·50은 충청북도 관찰사라 특정한 대상도 아니다"
+ },
+ {
+  "name": "광복",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(해방을 뜻함)"
+ },
+ {
+  "name": "광업",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "광주",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gyeongju 379는 고속버스 목적지 목록(서울, 광주, 목포)일 뿐이고 광주는 wiki-ko-gwangju 문서 전체의 주제라, 목록의 한 항목에서 넘어가는 질문을 만들면 고리 사실이 질문에 그대로 들어간다"
+ },
+ {
+  "name": "교차",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "구릉성",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "국립",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "국민의힘",
+  "verdict": "후보",
+  "question": "춘천시·철원군·화천군·양구군 을 선거구 국회의원과 같은 정당 소속인 경주시장은 누구인가?",
+  "answer": "주낙영",
+  "bridge": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 10,
+   "passage": "한기호(국민의힘, 춘천시·철원군·화천군·양구군 을)"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 9,
+   "passage": "단체장: 주낙영(국민의힘)"
+  },
+  "en_terms": [
+   "People Power",
+   "Han Ki-ho",
+   "Han Gi-ho",
+   "Joo Nak-young",
+   "Kim Seok-ki",
+   "Kim Seok-gi"
+  ],
+  "en_result": "영어 문서 전체에서 People Power·한기호·주낙영·김석기의 로마자 표기는 걸리지 않음(wiki-en-busan 14줄은 부산 의원 목록뿐)",
+  "ko_conflict": "wiki-ko-gyeongju 9·110에서 시장 주낙영은 국민의힘으로 같고, 춘천은 시장 육동한이 더불어민주당, 갑 선거구 허영이 더불어민주당이라 '을 선거구 + 시장' 조건으로 한 명이 정해짐. 다만 경주 국회의원 김석기(10줄)도 같은 정당이라 질문에 '시장'을 반드시 넣어야 함",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "국제선",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "국회",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "대한민국 국회 일반 기관이며 wiki-ko-gyeongju 110은 경주 선거구 국회의원 소개, wiki-ko-sejong는 입법·표결 서술이라 서로 넘어가는 사실이 없다"
+ },
+ {
+  "name": "귀환민",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "규모나",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각('규모나')"
+ },
+ {
+  "name": "극점",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "근교",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "근처",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "기념물",
+  "verdict": "이름 아님",
+  "reason": "문화재 분류 일반어"
+ },
+ {
+  "name": "까치",
+  "verdict": "이름 아님",
+  "reason": "시의 상징 새(일반 낱말) 항목이며 도시마다 따로 적힌 상징물이다"
+ },
+ {
+  "name": "날이",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각"
+ },
+ {
+  "name": "남동부",
+  "verdict": "이름 아님",
+  "reason": "일반 방위어"
+ },
+ {
+  "name": "남동쪽",
+  "verdict": "이름 아님",
+  "reason": "일반 방위어"
+ },
+ {
+  "name": "남서부",
+  "verdict": "이름 아님",
+  "reason": "일반 방위어"
+ },
+ {
+  "name": "낮은",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "내륙",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "농산물",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "농협",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gyeongju 304는 NH농협은행 지점·단위농협, wiki-ko-jeonju 360·361은 농협 하나로클럽 매장 이름이라 같은 기관 안의 서로 다른 사업이고 넘어가는 사실을 만들 수 없다"
+ },
+ {
+  "name": "다만",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "다섯",
+  "verdict": "이름 아님",
+  "reason": "수를 나타내는 일반 낱말"
+ },
+ {
+  "name": "담은",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "당선",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "대구광역시",
+  "verdict": "후보",
+  "question": "광주광역시가 2009년에 달빛 동맹(관심 도시)으로 적은 국내 도시에서 경주는 어느 쪽으로 몇 km 떨어져 있나?",
+  "answer": "그 도시(대구광역시)에서 경주는 동쪽으로 약 55 km",
+  "bridge": {
+   "doc": "wiki-ko-gwangju",
+   "line": 696,
+   "passage": "| 대한민국 | 대구광역시(2009년) |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 65,
+   "passage": "대구광역시에서는 동쪽으로 약 55 km 떨어져 있다."
+  },
+  "en_terms": [
+   "Daegu",
+   "Taegu",
+   "대구",
+   "Dalbit",
+   "55"
+  ],
+  "en_result": "Daegu는 wiki-en-andong 33·172, wiki-en-busan 38·68·496 등에만 걸리고 경주–대구 거리나 광주–대구 동맹 사실은 없음",
+  "ko_conflict": "wiki-ko-gyeongju에서 대구와의 거리는 65줄뿐(369줄은 역 순서, 512줄은 1998-01-20 자매도시로 다른 사실). wiki-ko-gwangju에서 대구는 696줄 표에만 2009년으로 적힘(28·649줄은 광주대구고속도로)",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "대규모",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ }
+]

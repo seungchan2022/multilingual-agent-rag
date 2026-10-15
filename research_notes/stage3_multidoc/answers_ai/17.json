@@ -1,0 +1,143 @@
+[
+ {
+  "name": "데이터기준일자",
+  "verdict": "이름 아님",
+  "reason": "표의 머리글 낱말"
+ },
+ {
+  "name": "세대수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(표 머리글)"
+ },
+ {
+  "name": "인구수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(표 머리글)"
+ },
+ {
+  "name": "인구현황",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(표 제목)"
+ },
+ {
+  "name": "평동",
+  "verdict": "같은 대상 아님",
+  "reason": "portal-ko-suwon-population 18줄은 수원 권선구 평동, wiki-ko-gwangju 28줄은 광주의 평동으로 다른 곳"
+ },
+ {
+  "name": "개의",
+  "verdict": "이름 아님",
+  "reason": "조사가 붙은 조각"
+ },
+ {
+  "name": "바닥",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "아름다운",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "강원특별자치",
+  "verdict": "이름 아님",
+  "reason": "행정 구역 이름의 조각(강원특별자치도)이고 두 문서를 잇는 사실이 아님"
+ },
+ {
+  "name": "모다아울렛",
+  "verdict": "후보",
+  "question": "모다아울렛 춘천점과 천안아산점은 각각 어느 동에 있나?",
+  "answer": "춘천점은 온의동, 천안아산점은 서북구 불당동",
+  "bridge": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 234,
+   "passage": "모다아울렛 춘천점 (온의동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 203,
+   "passage": "모다아울렛 천안아산점 (서북구 불당동)"
+  },
+  "en_terms": [
+   "Moda",
+   "outlet",
+   "Onui",
+   "Buldang"
+  ],
+  "en_result": "Moda 없음, outlet은 무관한 줄만 걸림. Onui 없음. Buldang은 wiki-en-cheonan 200줄의 동 목록(Buldang-dong)뿐이라 아울렛 사실은 없음(AI grep)",
+  "ko_conflict": "한국어 문서에서 모다아울렛은 이 두 줄뿐",
+  "bucket": "두 언어 도시",
+  "note": "쇼핑 목록의 항목이라 약한 재료. 한화 이글스처럼 같은 이름으로 두 문서를 묶는 모양"
+ },
+ {
+  "name": "물놀이장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "서북부",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "서울로",
+  "verdict": "이름 아님",
+  "reason": "지명에 조사가 붙은 조각"
+ },
+ {
+  "name": "오이",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(농산물)"
+ },
+ {
+  "name": "의암호",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "케이블카가 의암호를 지난다는 것과 길이 3.61㎞가 kto-ko-chuncheon-samaksan-cable-car 7줄에 함께 있어 그 문서 하나로 답이 나온다. wiki-ko-chuncheon 23·267·298·299줄은 의암호를 늘어놓을 뿐 다른 사실로 넘어가는 고리가 없다"
+ },
+ {
+  "name": "인제군",
+  "verdict": "이름 아님",
+  "reason": "이웃 지역 이름으로 두 문서를 잇는 사실이 없음"
+ },
+ {
+  "name": "청춘",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-chuncheon은 ITX-청춘(열차), kto 13줄은 아이브의 청춘 코스"
+ },
+ {
+  "name": "춘천",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "도시 이름 자체라 고리가 되지 않는다"
+ },
+ {
+  "name": "춘천시",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "도시 이름 자체라 고리가 되지 않는다"
+ },
+ {
+  "name": "호수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "편의",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "cheonan",
+  "verdict": "이름 아님",
+  "reason": "홈페이지 주소의 조각"
+ },
+ {
+  "name": "동남구",
+  "verdict": "영어 문서에 있음",
+  "reason": "천안삼거리공원이 동남구에 있다는 고리가 kto-en-cheonan-samgeori-park 3줄 주소(Dongnam-gu)에 있다"
+ },
+ {
+  "name": "흥타령",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "흥타령과 천안삼거리공원의 사실이 kto-ko-cheonan-samgeori-park 7줄에 함께 있다. kto-en-cheonan-samgeori-park에도 Heungtaryeong이 있다"
+ }
+]

@@ -1,0 +1,259 @@
+[
+ {
+  "name": "NC",
+  "verdict": "후보",
+  "question": "전주 완산구 고사동에 '전주객사점'이 있는 점포와 같은 이름의 광주 점포는 어느 도로에 있나?",
+  "answer": "동구 충장로4가(충장점)",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 350,
+   "passage": "NC WAVE 전주객사점 (완산구 고사동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 429,
+   "passage": "NC WAVE 충장점 (동구 충장로4가)"
+  },
+  "en_terms": [
+   "NC",
+   "WAVE",
+   "NC WAVE"
+  ],
+  "en_result": "en 14개 문서에서 NC WAVE 및 NC백화점 걸리는 줄 없음(NC 대문자 단어 grep 0건)",
+  "ko_conflict": "한국어 문서에서 'NC WAVE'는 이 두 줄뿐",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "NC백화점",
+  "verdict": "후보",
+  "question": "흥덕구 가경동에 청주점이 있는 백화점과 같은 이름의 광주 점포는 어느 구 어느 동에 있나?",
+  "answer": "북구 신안동(광주역점)",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 172,
+   "passage": "NC백화점 청주점 (흥덕구 가경동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 428,
+   "passage": "NC백화점 광주역점 (북구 신안동)"
+  },
+  "en_terms": [
+   "NC",
+   "department store",
+   "NC Department"
+  ],
+  "en_result": "NC백화점·광주 점포 관련 영어 문서 줄 없음",
+  "ko_conflict": "한국어 문서에서 'NC백화점'은 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "WAVE",
+  "verdict": "이름 아님",
+  "reason": "'NC WAVE'의 조각이라 'NC' 항목에서 같은 줄 쌍을 후보로 판정함"
+ },
+ {
+  "name": "가공",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "간의",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "거점",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "검찰청",
+  "verdict": "이름 아님",
+  "reason": "행정 기관 일반어이고 wiki-ko-cheonan 366줄은 소제목이다."
+ },
+ {
+  "name": "경공업",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이다."
+ },
+ {
+  "name": "공공도서관",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이고 wiki-ko-cheonan 140줄은 소제목이다."
+ },
+ {
+  "name": "광산",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 649줄의 광산은 광주 광산구 나들목 이름이고 wiki-ko-chuncheon 86줄의 광산은 춘천 옥광산이라 다른 대상이다."
+ },
+ {
+  "name": "광주고등법원",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 203줄과 wiki-ko-jeonju 135줄은 기관 이름만 나열한 목록 항목이라 한 문서에서 다른 문서의 사실로 넘어갈 값이 없다."
+ },
+ {
+  "name": "광주지방고용노동청",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 188줄과 wiki-ko-jeonju 141줄은 기관 이름만 나열한 목록 항목이라 이어 갈 사실 값이 없다."
+ },
+ {
+  "name": "광주지방보훈청",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 186줄과 wiki-ko-jeonju 140줄은 기관 이름만 나열한 목록 항목이라 이어 갈 사실 값이 없다."
+ },
+ {
+  "name": "구청",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "국내",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "기업",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "노령산맥",
+  "verdict": "답이 하나 아님",
+  "reason": "wiki-ko-gwangju 48줄은 전남 북쪽 산맥이라 하고 wiki-ko-jeonju 86줄은 기린봉·고덕산·남고산·모악산을 지류로 적어, 이어 묻는 답이 산 4개로 갈린다."
+ },
+ {
+  "name": "농산물도매시장",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 421줄은 각화동 시장, wiki-ko-chuncheon 226줄은 사농동 시장으로 서로 다른 시설을 가리키는 일반 명칭이다."
+ },
+ {
+  "name": "농수산물도매시장",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gwangju 422줄은 서부 농수산물도매시장, wiki-ko-cheongju 155줄은 봉명동 시장으로 서로 다른 시설이다."
+ },
+ {
+  "name": "담당",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "대체",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "랴오닝성",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "wiki-ko-gwangju 711줄은 광주의 자매도시가 랴오닝성 다롄·선양이라고만 적고, 춘천의 결연일은 wiki-ko-chuncheon 560·561줄 한 문서에서 도시 이름만으로 나오며 wiki-en-chuncheon 227줄에도 Dalian, Shenyang | Liaoning이 있다."
+ },
+ {
+  "name": "롯데백화점",
+  "verdict": "후보",
+  "question": "완산구 서신동에 전주점이 있는 백화점과 같은 이름의 광주 점포는 어느 구 어느 동에 있나?",
+  "answer": "동구 대인동(광주점)",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 346,
+   "passage": "롯데백화점 전주점 (완산구 서신동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 427,
+   "passage": "롯데백화점 광주점 (동구 대인동)"
+  },
+  "en_terms": [
+   "Lotte",
+   "Lotte Department Store",
+   "Seosin"
+  ],
+  "en_result": "wiki-en-cheongju 103줄은 청주 용두사지 철당간이 롯데백화점 근처라는 문장, wiki-en-busan은 부산 롯데. 전주·광주 점포 사실 없음",
+  "ko_conflict": "한국어 문서에서 '롯데백화점'은 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "롯데아울렛",
+  "verdict": "후보",
+  "question": "흥덕구 비하동에 청주점이 있는 아웃렛과 같은 이름의 광주 점포 두 곳은 각각 어느 구 어느 동에 있나?",
+  "answer": "월드컵점은 서구 풍암동, 수완점은 광산구 수완동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 173,
+   "passage": "롯데아울렛 청주점 (흥덕구 비하동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 430,
+   "passage": "롯데아울렛 : 월드컵점 (서구 풍암동), 수완점 (광산구 수완동)"
+  },
+  "en_terms": [
+   "Lotte",
+   "Lotte Outlet",
+   "Premium Outlet",
+   "Bihadong"
+  ],
+  "en_result": "Lotte Premium Outlet은 wiki-en-busan 148줄(김해·기장)만 걸림. 청주·광주 사실 없음",
+  "ko_conflict": "한국어 문서에서 '롯데아울렛'은 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "먹거리",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "명소",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "명이",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "미술관",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말이고 세 문서의 미술관은 서로 다른 시설이다."
+ },
+ {
+  "name": "번화가",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "법원",
+  "verdict": "이름 아님",
+  "reason": "기관 일반어이다."
+ },
+ {
+  "name": "본래",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "부설",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "부족",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ },
+ {
+  "name": "삼한시대",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-gwangju 36줄, wiki-ko-cheongju 35줄, wiki-ko-cheonan 27줄 모두 각 도시의 고대 연혁이라 하나의 대상을 거쳐 넘어가는 사실이 아니라 시대 일반 표현이다."
+ },
+ {
+  "name": "상급종합병원",
+  "verdict": "이름 아님",
+  "reason": "의료기관 종류를 가리키는 일반어이다."
+ },
+ {
+  "name": "새로",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(또는 조각)이다."
+ }
+]

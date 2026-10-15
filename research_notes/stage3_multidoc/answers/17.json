@@ -1,0 +1,122 @@
+[
+ {
+  "name": "데이터기준일자",
+  "verdict": "이름 아님",
+  "reason": "표 머리글의 일반 낱말(portal 두 문서 3줄)"
+ },
+ {
+  "name": "세대수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(통계 용어)"
+ },
+ {
+  "name": "인구수",
+  "verdict": "이름 아님",
+  "reason": "표 머리글의 일반 낱말"
+ },
+ {
+  "name": "인구현황",
+  "verdict": "이름 아님",
+  "reason": "문서 제목에 붙는 일반 낱말"
+ },
+ {
+  "name": "평동",
+  "verdict": "같은 대상 아님",
+  "reason": "portal-ko-suwon-population 18줄은 수원 권선구의 평동이고 wiki-ko-gwangju 28줄은 광주 영산강 서쪽의 평동 지역이라 다른 곳이다."
+ },
+ {
+  "name": "개의",
+  "verdict": "이름 아님",
+  "reason": "'700여 개의'처럼 수 세는 말 '개'에 조사 '의'가 붙은 조각이다."
+ },
+ {
+  "name": "바닥",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "아름다운",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(형용사)"
+ },
+ {
+  "name": "강원특별자치",
+  "verdict": "이름 아님",
+  "reason": "'강원특별자치도'를 조사 앞에서 자른 조각이다."
+ },
+ {
+  "name": "모다아울렛",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-chuncheon 234줄은 춘천점(온의동), wiki-ko-cheonan 203줄은 천안아산점(서북구 불당동)으로 점포가 서로 다르고 두 줄 모두 점포 이름과 동만 적혀 있다."
+ },
+ {
+  "name": "물놀이장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(wiki-ko-chuncheon 287줄 '꿈자람 물놀이장'과 kto-ko-cheonan-samgeori-park 7줄은 서로 다른 시설)"
+ },
+ {
+  "name": "서북부",
+  "verdict": "이름 아님",
+  "reason": "방위를 나타내는 일반 낱말(춘천은 도의 서북부, 천안은 지형이 서북부 낮음)"
+ },
+ {
+  "name": "서울로",
+  "verdict": "이름 아님",
+  "reason": "'서울로의'에서 조사까지 붙은 조각이다."
+ },
+ {
+  "name": "오이",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(작물). wiki-ko-chuncheon 214줄은 농산물, wiki-ko-cheonan 184줄은 '천안 오이' 특산물 이름만 있다."
+ },
+ {
+  "name": "의암호",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-chuncheon 23·267·298·299줄에는 호수 이름만 나열되고 의암호에 대한 사실이 없어 kto-ko-chuncheon-samaksan-cable-car 7·9·13줄의 사실로 넘어갈 고리가 없다."
+ },
+ {
+  "name": "인제군",
+  "verdict": "제외 목록",
+  "reason": "wiki-ko-cheonan 405줄 자매도시 '인제군 (2013년)'은 wiki-en-cheonan 자매도시 목록에 없는 한쪽 언어에만 있는 항목이라, excluded.json의 '두 언어 문서의 자매도시 목록이 서로 다름' 이유(춘천시_ko_05 시카고와 같은 경우)에 해당한다."
+ },
+ {
+  "name": "청춘",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-chuncheon 369·377줄은 열차 이름 ITX-청춘이고 kto-ko-chuncheon-samaksan-cable-car 13줄은 '아이브의 청춘 코스'라는 홍보 문구라 다르다."
+ },
+ {
+  "name": "춘천",
+  "verdict": "영어 문서에 있음",
+  "reason": "고리 사실인 삼악산 케이블카가 춘천에 있다는 것이 kto-en-chuncheon-samaksan-cable-car 3줄 주소 'Chuncheon-si'와 영어 문서에 이미 있다."
+ },
+ {
+  "name": "춘천시",
+  "verdict": "영어 문서에 있음",
+  "reason": "kto-ko-chuncheon-samaksan-cable-car 3줄 주소의 춘천시는 kto-en-chuncheon-samaksan-cable-car 3줄 'Chuncheon-si'에 그대로 있다."
+ },
+ {
+  "name": "호수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "편의",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(편의 시설, 교통의 편의)"
+ },
+ {
+  "name": "cheonan",
+  "verdict": "이름 아님",
+  "reason": "홈페이지 주소 cheonan.go.kr의 일부일 뿐 사실이 없다."
+ },
+ {
+  "name": "동남구",
+  "verdict": "영어 문서에 있음",
+  "reason": "고리 사실(천안삼거리공원이 동남구에 있음)이 kto-en-cheonan-samgeori-park 3줄 'Dongnam-gu'에 있다(wiki-ko-cheonan 113줄 면적 438.54 자체는 영어에 없고 인구 264,312는 excluded.json 천안시_ko_02·03에 해당)."
+ },
+ {
+  "name": "흥타령",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheonan 156·230줄은 '천안 흥타령 축제', '천안 흥타령 리틀 야구단' 이름만 있고 흥타령에 대한 사실이 없다."
+ }
+]

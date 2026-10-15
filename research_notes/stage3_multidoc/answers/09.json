@@ -1,0 +1,338 @@
+[
+ {
+  "name": "전환",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "존재",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "좋은",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "주차장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "중부",
+  "verdict": "이름 아님",
+  "reason": "방위·지역 일반어다."
+ },
+ {
+  "name": "중앙부",
+  "verdict": "이름 아님",
+  "reason": "방위·지역 일반어다."
+ },
+ {
+  "name": "중앙시장",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-gyeongju 302줄은 경주공설시장, wiki-ko-cheongju 161줄은 상당구 북문로2가, wiki-ko-chuncheon 226줄은 약사명동의 시장으로 도시마다 다른 시장이다."
+ },
+ {
+  "name": "중의",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각이나 일반 낱말(예: wiki-ko-cheonan 27줄의 '중의')이다."
+ },
+ {
+  "name": "중화인민공화국",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "나라 이름이라 wiki-ko-gyeongju·wiki-ko-gwangju·wiki-ko-chuncheon의 자매도시 표에 나올 뿐 특정 사실로 이어지는 고리가 못 된다."
+ },
+ {
+  "name": "지위",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지점",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "직접",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "차례",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "차원",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "창단연",
+  "verdict": "이름 아님",
+  "reason": "'창단연도' 표 머리글에서 조사를 떼다 남은 조각이다(wiki-ko-gyeongju 336줄, wiki-ko-gwangju 599줄)."
+ },
+ {
+  "name": "체계",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "촉진",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "추세",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "축소",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "출장소",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어다."
+ },
+ {
+  "name": "충청남도",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "같은 도지만 wiki-ko-gyeongju 380줄은 버스 노선 설명이고 wiki-ko-sejong·wiki-ko-cheonan은 위치·정치 서술이라 한 문서의 사실에서 다른 문서의 답 하나로 이어지는 질문을 만들 수 없다."
+ },
+ {
+  "name": "침입",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "카페",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "태백산맥",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "같은 산맥이지만 wiki-ko-gyeongju 78줄은 '하단부', wiki-ko-chuncheon 23줄은 '서쪽'이라는 위치 서술이라 한 문서의 사실이 다른 문서의 답으로 이어지지 않는다."
+ },
+ {
+  "name": "태풍",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "토마토",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "특성",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "특성화",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "팀명",
+  "verdict": "이름 아님",
+  "reason": "wiki-ko-gyeongju 336줄과 wiki-ko-gwangju 599줄의 표 머리글일 뿐 특정 대상의 이름이 아니다."
+ },
+ {
+  "name": "펼쳐지는데",
+  "verdict": "이름 아님",
+  "reason": "동사 활용형이다."
+ },
+ {
+  "name": "폐역",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "푸젠성",
+  "verdict": "후보",
+  "question": "경주가 2021년 7월 13일에 자매결연을 맺은 난핑시가 속한 성에 있는, 광주광역시의 중국 자매도시는 어디인가?",
+  "answer": "취안저우시",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 539,
+   "passage": "| 푸젠성 난핑시 | 중화인민공화국 | 2021년 7월 13일 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 713,
+   "passage": "| 중국 | 푸젠성(福建省) 취안저우시(泉州市) |"
+  },
+  "en_terms": [
+   "Fujian",
+   "Nanping",
+   "Quanzhou"
+  ],
+  "en_result": "wiki-en-* 14개에서 Fujian·Nanping·Quanzhou 모두 걸린 줄 없음",
+  "ko_conflict": "한국어 문서에서 '푸젠성'은 이 두 줄뿐이고 취안저우시도 wiki-ko-gwangju 713줄뿐",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "피해",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "하였으나",
+  "verdict": "이름 아님",
+  "reason": "동사 활용형이다."
+ },
+ {
+  "name": "학교",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "학생",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "한반도",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "같은 대상이지만 wiki-ko-gyeongju 35줄(신라의 통일)과 wiki-ko-chuncheon 39줄(1945년 38선 분할 점령)은 지리 범위 표현일 뿐 한 사실에서 다른 사실로 넘어가는 고리가 되지 않는다."
+ },
+ {
+  "name": "합쳐",
+  "verdict": "이름 아님",
+  "reason": "동사 활용형이다."
+ },
+ {
+  "name": "항공편",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "행정구역상",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어다."
+ },
+ {
+  "name": "향토음식",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "허난성",
+  "verdict": "후보",
+  "question": "경주가 2009년 11월 5일에 자매결연을 맺은 자오쭤시가 속한 성에 있는, 광주광역시의 중국 자매도시는 어디인가?",
+  "answer": "뤄양시",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 531,
+   "passage": "| 허난성 자오쭤 시 | 중화인민공화국 | 2009년 11월 5일 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 714,
+   "passage": "| 중국 | 허난성(河南省) 뤄양시(洛陽市) |"
+  },
+  "en_terms": [
+   "Henan",
+   "Jiaozuo",
+   "Luoyang",
+   "Nanyang"
+  ],
+  "en_result": "wiki-en-chuncheon 229줄에 Nanyang|Henan|China(춘천의 자매도시)만 걸리고, 경주의 자오쭤와 광주광역시의 뤄양은 없음",
+  "ko_conflict": "한국어 문서에서 '허난성'은 wiki-ko-gyeongju 531줄, wiki-ko-gwangju 714줄, wiki-ko-chuncheon 563줄(난양)에 있다. 질문을 '광주광역시의'로 한정하므로 답은 뤄양시 하나다",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "허베이성",
+  "verdict": "영어 문서에 있음",
+  "reason": "답 사실 wiki-ko-cheonan 407줄의 스자좡시 자매결연이 wiki-en-cheonan 217줄 '- Shijiazhuang, China'에 있다."
+ },
+ {
+  "name": "현종",
+  "verdict": "후보",
+  "question": "경주가 '동경'이라는 칭호를 잃은 해(현종 3년)의 고려 왕이, 아버지 안종의 뜻을 받들어 1021년에 세운 사찰은 무엇인가?",
+  "answer": "홍경사",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 39,
+   "passage": "그러나 정치적 갈등으로 인해, 1012년 현종 3년에 이 칭호는 폐지되었다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 29,
+   "passage": "고려 현종이 1021년 아버지 안종의 뜻을 받들어 세운 280칸짜리 고려 10대 사찰 중의 하나인 홍경사의 승려들을 죽였다는 기록이 있다."
+  },
+  "en_terms": [
+   "Hyeonjong",
+   "Hyunjong",
+   "Honggyeong",
+   "Hongkyeong",
+   "Hong-gyeong",
+   "Anjong",
+   "1021"
+  ],
+  "en_result": "wiki-en-* 14개에서 Hyeonjong·Hyunjong·Honggyeong·Hongkyeong·Hong-gyeong·Anjong은 걸린 줄이 없고, 1021은 같은 사실이 없으며 wiki-en-cheonan의 Temples 절(108~114줄)에도 홍경사는 없음",
+  "ko_conflict": "한국어 문서에서 '현종'은 wiki-ko-gyeongju 39줄, wiki-ko-jeonju 42줄(1018년 현종 9년 안남대도호부), wiki-ko-cheonan 29줄뿐이고 홍경사는 wiki-ko-cheonan 29줄에만 있다(136줄은 비석 '봉선홍경사사적갈비'로 다른 사실). 같은 왕의 서로 다른 사실이라 값이 부딪히지 않음",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "현직",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "협력",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "혹은",
+  "verdict": "이름 아님",
+  "reason": "접속 부사다."
+ },
+ {
+  "name": "홍수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "회의",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "후베이성",
+  "verdict": "후보",
+  "question": "경주가 2013년 10월 16일에 자매결연을 맺은 이창시가 속한 성에 있는, 광주광역시의 중국 자매도시는 어디인가?",
+  "answer": "우한시",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 534,
+   "passage": "| 후베이성 이창 시 | 중화인민공화국 | 2013년 10월 16일 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 715,
+   "passage": "| 중국 | 후베이성(湖北省) 우한시(武汉市) |"
+  },
+  "en_terms": [
+   "Hubei",
+   "Wuhan",
+   "Yichang"
+  ],
+  "en_result": "wiki-en-cheongju 149줄에 Wuhan|Hubei|China|2000이 있으나 청주의 자매도시 사실이고 광주광역시의 우한 자매결연과는 다른 사실이다. Yichang은 없음",
+  "ko_conflict": "한국어 문서에서 '후베이성'은 이 두 줄뿐이고 우한시도 wiki-ko-gwangju 715줄뿐",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "희망",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ }
+]

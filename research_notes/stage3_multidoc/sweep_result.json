@@ -1,0 +1,1476 @@
+[
+ {
+  "batch": "01",
+  "name": "고등동",
+  "question": "1936년 수원공립가정여학교로 개교한 학교가 있는 동의 2021년 5월 31일 기준 인구(합계)는 몇 명인가?",
+  "answer": "21,931명 (팔달구 고등동, 세대수 8,991, 데이터기준일자 2021-05-31)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 181,
+   "passage": "1936년 팔달구 고등동에 수원공립가정여학교로 개교, 1951년에 공립 일반계 여고인 수원여자고등학교로 개편되었다."
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 30,
+   "passage": "| 팔달구 | 고등동 | 8991 | 21931 | 19082 | 9630 | 9452 | 21445 | 486 | 2849 | 1562 | 1287 | 2021-05-31 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "01",
+  "name": "광둥성",
+  "question": "수원시의 중국 우호도시 주하이가 속한 광둥성에서, 광주광역시와 자매도시를 맺은 도시는 어디인가?",
+  "answer": "광저우시",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 343,
+   "passage": "| 우호도시 | 중국 | 광둥성 주하이 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 684,
+   "passage": "| 중국 | 광둥성(广东省) 광저우시(广州市) |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "성 이름만 같고 두 도시는 다르다",
+  "dup": null
+ },
+ {
+  "batch": "02",
+  "name": "매교동",
+  "question": "1943년에 수원상업전수학교가 자리 잡았던 동은, 2021년 5월 31일 기준 외국인을 포함한 인구 합계가 몇 명인가?",
+  "answer": "6715명(매교동. 내국인 5928명, 외국인 787명)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 180,
+   "passage": "1943년 매교동에 수원상업전수학교를 거쳐 1951년에 수원고등학교로 개편되었다."
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 28,
+   "passage": "| 팔달구 | 매교동 | 3308 | 6715 | 5928 | 3127 | 2801 | 6724 | -9 | 787 | 403 | 384 | 2021-05-31 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "03",
+  "name": "안성천",
+  "question": "수원을 흐르는 황구지천이 합류하는 하천으로, 천안에서는 북부의 어느 네 지역의 지표수가 북쪽으로 흘러 이 하천으로 유출되나?",
+  "answer": "성환, 성거, 직산, 입장 지역",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 71,
+   "passage": "황구지천은 다시 흘러 안성천에 합류되어 아산호를 향해 흐른다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 53,
+   "passage": "북부지역은 성환, 성거, 직산, 입장지역의 지표수가 북류하여 안성천으로 유출되어 서해로 유입되고"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "04",
+  "name": "울산광역시",
+  "question": "경주시가 남쪽으로 접하고 있는 광역시의 2025년 3월 기준 인구는 몇 명인가?",
+  "answer": "울산광역시, 1,122,221명",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 63,
+   "passage": "남쪽으로 울산광역시와 접하고 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-suwon",
+   "line": 98,
+   "passage": "울산광역시의 2025년 3월 기준 인구 1,122,221명보다 많다."
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "04",
+  "name": "원천동",
+  "question": "수원시에서 1973년에 아주대학교가 설립된 동의 2021년 5월 31일 기준 인구(합계)는 몇 명인가?",
+  "answer": "원천동, 39,858명",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 200,
+   "passage": "1973년 영통구 원천동에 아주대학교가 설립되었다."
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 41,
+   "passage": "| 영통구 | 원천동 | 18037 | 39858 | 38885 | 19688 | 19197 | 39855 | 3 | 973 | 504 | 469 | 2021-05-31 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "04",
+  "name": "인계동",
+  "question": "수원시청 청사가 있는 동의 2021년 5월 31일 기준 인구(합계)는 몇 명인가?",
+  "answer": "인계동, 40,581명",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 8,
+   "passage": "청사 소재지: (우편번호:16490) 경기도 수원시 팔달구 효원로 241(인계동)"
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 36,
+   "passage": "| 팔달구 | 인계동 | 21528 | 40581 | 39398 | 19907 | 19491 | 40380 | 201 | 1183 | 588 | 595 | 2021-05-31 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "04",
+  "name": "저장성",
+  "question": "수원시가 우호도시로 맺은 저장성의 중국 도시와 춘천시가 우호도시 협정을 맺은 날은 언제인가?",
+  "answer": "1994년 9월 1일(춘천시와 항저우시)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 344,
+   "passage": "| 우호도시 | 중국 | 저장성 항저우 |"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 559,
+   "passage": "| 저장성 항저우시 | 중화인민공화국 | 1994년 9월 1일 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": "춘천의 우호도시 사실이다. 청주·춘천·천안은 두 언어 문서의 자매도시 목록이 서로 달라 자매도시 사실을 쓰지 않는다(DECISIONS.md 미정 목록 ⑦)",
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "05",
+  "name": "파장동",
+  "question": "수원에서 경수간 도로변에 지지대와 노송지대가 있는 동의 2021년 5월 31일 기준 인구(인구_합계)는 몇 명인가?",
+  "answer": "23,833명 (장안구 파장동)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 210,
+   "passage": "파장동 경수간 도로변의 지지대와 노송지대"
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 5,
+   "passage": "| 장안구 | 파장동 | 10686 | 23833 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "05",
+  "name": "포항시",
+  "question": "수원시가 자매도시를 맺은 경상북도 도시는 경주시의 어느 방향에서 경주시와 닿아 있나?",
+  "answer": "북쪽 (포항시)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 322,
+   "passage": "| 자매도시 | 경상북도 | 포항시 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 63,
+   "passage": "경상북도 내에서는 북쪽은 포항시와, 남서쪽은 청도군과, 북서쪽은 영천시와 닿아 있으며"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "05",
+  "name": "후쿠이현",
+  "question": "수원시가 우호도시를 맺은 일본 후쿠이시가 속한 현에서, 경주시와 자매결연한 도시는 어디이며 언제 결연했나?",
+  "answer": "후쿠이현 오바마시, 1977년 2월 13일",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 345,
+   "passage": "| 우호도시 | 일본 | 후쿠이현 후쿠이시 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 514,
+   "passage": "| 후쿠이현 오바마시 | 일본 | 1977년 2월 13일 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "두 문서의 도시가 서로 다르고 현 이름만 같다",
+  "dup": null
+ },
+ {
+  "batch": "06",
+  "name": "KB국민은행",
+  "question": "청주를 연고지로 하는 한국여자프로농구 구단의 이름에 들어 있는 시중은행은 경주시의 어느 곳에 지점을 두었나?",
+  "answer": "경주",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 455,
+   "passage": "한국여자프로농구의 청주 KB국민은행 스타즈의 연고지이다."
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 304,
+   "passage": "KB국민은행 (경주)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "구단 이름에 은행 이름이 들어 있다는 것으로 잇는다",
+  "dup": null
+ },
+ {
+  "batch": "06",
+  "name": "LG헬로비전",
+  "question": "춘천의 방송사 가운데 LG헬로비전 강원방송과 같은 회사가 경주에서 운영하는 방송사는 무엇인가?",
+  "answer": "신라방송(LG헬로비전 신라방송)",
+  "bridge": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 532,
+   "passage": "LG헬로비전 강원방송"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 484,
+   "passage": "LG헬로비전 신라방송 (경주·영천·경산·청도 전 지역)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "같은 회사의 다른 지역 방송사로 잇는다",
+  "dup": null
+ },
+ {
+  "batch": "06",
+  "name": "경부고속선",
+  "question": "천안아산역과 오송역, 대전역을 잇는 고속철도 노선의 2단계 전용선 구간이 개통될 때 영업을 시작한 경주시의 역은 언제 문을 열었나?",
+  "answer": "경주역, 2010년 11월 1일",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 342,
+   "passage": "| 경부고속선, 대전북연결선, 호남고속선 | 천안아산역 ↔ 오송역 ↔ 대전역(경부고속선)/공주역(호남고속선) |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 358,
+   "passage": "경주역이 있으며, 2010년 11월 1일 경부고속선 2단계 전용선 구간 개통과 함께 영업을 시작했다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "노선 이름만으로 다른 도시의 역 개업일로 넘어간다",
+  "dup": null
+ },
+ {
+  "batch": "06",
+  "name": "국민의힘",
+  "question": "춘천시·철원군·화천군·양구군 을 선거구 국회의원과 같은 정당 소속인 경주시장은 누구인가?",
+  "answer": "주낙영",
+  "bridge": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 10,
+   "passage": "한기호(국민의힘, 춘천시·철원군·화천군·양구군 을)"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 9,
+   "passage": "단체장: 주낙영(국민의힘)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "정당이 같다는 것만으로 잇는다",
+  "dup": null
+ },
+ {
+  "batch": "06",
+  "name": "대구광역시",
+  "question": "광주광역시가 2009년에 달빛 동맹(관심 도시)으로 적은 국내 도시에서 경주는 어느 쪽으로 몇 km 떨어져 있나?",
+  "answer": "그 도시(대구광역시)에서 경주는 동쪽으로 약 55 km",
+  "bridge": {
+   "doc": "wiki-ko-gwangju",
+   "line": 696,
+   "passage": "| 대한민국 | 대구광역시(2009년) |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 65,
+   "passage": "대구광역시에서는 동쪽으로 약 55 km 떨어져 있다."
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "광주 문서는 '달빛 동맹'이라고 풀어 쓰지 않았다(표 이름만 있음)",
+  "dup": null
+ },
+ {
+  "batch": "09",
+  "name": "푸젠성",
+  "question": "경주가 2021년 7월 13일에 자매결연을 맺은 난핑시가 속한 성에 있는, 광주광역시의 중국 자매도시는 어디인가?",
+  "answer": "취안저우시",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 539,
+   "passage": "| 푸젠성 난핑시 | 중화인민공화국 | 2021년 7월 13일 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 713,
+   "passage": "| 중국 | 푸젠성(福建省) 취안저우시(泉州市) |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "성 이름만 같고 두 도시는 다르다",
+  "dup": null
+ },
+ {
+  "batch": "09",
+  "name": "허난성",
+  "question": "경주가 2009년 11월 5일에 자매결연을 맺은 자오쭤시가 속한 성에 있는, 광주광역시의 중국 자매도시는 어디인가?",
+  "answer": "뤄양시",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 531,
+   "passage": "| 허난성 자오쭤 시 | 중화인민공화국 | 2009년 11월 5일 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 714,
+   "passage": "| 중국 | 허난성(河南省) 뤄양시(洛陽市) |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "성 이름만 같고 두 도시는 다르다",
+  "dup": null
+ },
+ {
+  "batch": "09",
+  "name": "현종",
+  "question": "경주가 '동경'이라는 칭호를 잃은 해(현종 3년)의 고려 왕이, 아버지 안종의 뜻을 받들어 1021년에 세운 사찰은 무엇인가?",
+  "answer": "홍경사",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 39,
+   "passage": "그러나 정치적 갈등으로 인해, 1012년 현종 3년에 이 칭호는 폐지되었다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 29,
+   "passage": "고려 현종이 1021년 아버지 안종의 뜻을 받들어 세운 280칸짜리 고려 10대 사찰 중의 하나인 홍경사의 승려들을 죽였다는 기록이 있다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "09",
+  "name": "후베이성",
+  "question": "경주가 2013년 10월 16일에 자매결연을 맺은 이창시가 속한 성에 있는, 광주광역시의 중국 자매도시는 어디인가?",
+  "answer": "우한시",
+  "bridge": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 534,
+   "passage": "| 후베이성 이창 시 | 중화인민공화국 | 2013년 10월 16일 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 715,
+   "passage": "| 중국 | 후베이성(湖北省) 우한시(武汉市) |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "성 이름만 같고 두 도시는 다르다",
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "계유명전씨아미타불비상",
+  "question": "국보 계유명전씨아미타불비상을 소장한 박물관은 청주의 어느 구 어느 동에 있나?",
+  "answer": "상당구 명암동 (국립청주박물관)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 258,
+   "passage": "계유명전씨아미타불비상: 국보, 국립청주박물관 소장"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 233,
+   "passage": "국립청주박물관 (상당구 명암동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "국립청주박물관",
+  "question": "국보 계유명전씨아미타불비상을 소장한 박물관은 청주의 어느 구 어느 동에 있나?",
+  "answer": "상당구 명암동 (국립청주박물관)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 258,
+   "passage": "계유명전씨아미타불비상: 국보, 국립청주박물관 소장"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 233,
+   "passage": "국립청주박물관 (상당구 명암동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": "계유명전씨아미타불비상"
+ },
+ {
+  "batch": "10",
+  "name": "국민권익위원회",
+  "question": "세종시 이전 3단계(2014년 이전)에서 중심관리로 분류된 위원회의 청렴연수원은 청주의 어느 구 어느 동에 있나?",
+  "answer": "서원구 수곡동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 202,
+   "passage": "3단계 2014년 이전 | 중심관리 | 국민권익위원회"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 394,
+   "passage": "국민권익위원회 청렴연수원 (서원구 수곡동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "국토교통부",
+  "question": "대전~세종 간 차세대 지능형교통시스템(C-ITS) 시범사업을 전국 최초로 추진하는 정부 부처가 2014년에 확정한 중추도시생활권에서, 춘천시와 함께 춘천권으로 규정된 군은 몇 곳인가?",
+  "answer": "4곳(홍천군, 화천군, 철원군, 양구군)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 234,
+   "passage": "국토교통부는 대전광역시 ~ 세종특별자치시 간 주요 도로에 전국 최초로 '차세대 지능형교통시스템'(C-ITS) 시범 사업을 추진한다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 130,
+   "passage": "2014년 국토교통부에서 확정한 20개 중추도시생활권에서 춘천시, 홍천군, 화천군, 철원군, 양구군 등을 춘천권으로 규정하고 있다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "남청주",
+  "question": "세종시의 연계 도로망으로 적힌 경부고속도로 나들목은, 청주의 경부고속도로 구간 표에서 신탄진 나들목과 어느 시설 사이에 있나?",
+  "answer": "신탄진 나들목과 청주 분기점 사이(남청주 나들목)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 236,
+   "passage": "경부고속도로 남청주 나들목"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 356,
+   "passage": "신탄진 나들목 ↔ 남청주 나들목 ↔ 청주 분기점"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "표에서 나들목의 위치(사이에 있는 시설)를 묻는다",
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "남풍세",
+  "question": "세종시의 연계 도로망으로 꼽힌 논산천안고속도로의 천안 쪽 나들목 바로 다음에 오는 나들목은 무엇인가?",
+  "answer": "남천안 나들목",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 236,
+   "passage": "논산천안고속도로 남풍세 나들목"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 292,
+   "passage": "25호선 논산천안고속도로 (공주시) ← 남풍세 나들목 - 남천안 나들목 - 천안 분기점"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "표에서 바로 다음 나들목을 묻는다",
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "노무현",
+  "question": "2002년 민주당 중앙선거대책위원회 출범식에서 충청권으로 청와대 이전을 공약한 대선 후보가 대통령이 되어 2003년에 일반에 반환한 별장을 1983년에 건립한 당시 대통령은 누구인가?",
+  "answer": "전두환 대통령(청남대)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 44,
+   "passage": "2002년 민주당 중앙선거대책위원회 출범식에서 충청권으로 청와대 이전 정책을 공약하였다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 290,
+   "passage": "청남대는 1983년에 전두환 대통령의 별장으로 건립하여 2003년에 노무현 대통령이 일반에 반환할 때까지"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "대전지방검찰청",
+  "question": "세종시가 출범 뒤에도 직속 관할로 유지한 지방검찰청의 천안지청은 천안의 어느 동에 있나?",
+  "answer": "청당동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 117,
+   "passage": "대전지방법원, 대전지방검찰청 직속 관할 지역으로 그대로 유지하되"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 369,
+   "passage": "대전지방검찰청 천안지청 (청당동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "대전지방법원",
+  "question": "세종시법원의 상급 법원으로, 산하 연기군법원이 세종시법원으로 이름이 바뀐 지방법원의 천안지원은 천안의 어느 동에 있나?",
+  "answer": "청당동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 117,
+   "passage": "대전지방법원 산하 연기군법원은 세종시법원으로 명칭이 변경되었으며"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 368,
+   "passage": "대전지방법원 천안지원 (청당동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "10",
+  "name": "민주통합당",
+  "question": "2012년 6월에 세종시 청와대 제2집무실·국회 분원 설치를 주장하는 공동성명을 낸 충청권 시·도당 위원장들의 정당 후보는, 같은 해 제18대 대통령 선거에서 춘천에서 몇 표를 얻었나?",
+  "answer": "69,365표(문재인)",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 487,
+   "passage": "2012년 6월 28일 민주통합당 충청권 시ㆍ도당 위원장 등이 공동성명을 내고"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 186,
+   "passage": "2012년 제18대 대통령 선거에서는 새누리당 박근혜가 93,414표를 얻었으며 민주통합당 문재인은 69,365표를 획득하였다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "11",
+  "name": "박근혜",
+  "question": "2009년 '세종시는 국민과의 약속'이라며 세종시를 원안대로 추진해야 한다고 주장한 당시 한나라당 대표가 2012년 제18대 대통령 선거에서 춘천에서 얻은 표는 몇 표인가?",
+  "answer": "93,414표",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 50,
+   "passage": "한나라당 대표 박근혜는 '세종시는 국민과의 약속'이라며 원안대로 정상적으로 추진해야 한다고 주장하며"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 186,
+   "passage": "가장 최근에 치러진 2012년 제18대 대통령 선거에서는 새누리당 박근혜가 93,414표를 얻었으며 민주통합당 문재인은 69,365표를 획득하였다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "11",
+  "name": "박정희",
+  "question": "1977년 수도 이전 '백지계획'을 만든 정부의 대통령이 1971년 제7대 대통령 선거에서 춘천시·군에서 얻은 표는 몇 표인가?",
+  "answer": "48,607표",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 40,
+   "passage": "1977년, 박정희 정부에서 대통령비서실 산하 중화학공업추진위원회 실무기획단이 2년 동안 150여 명의 국내외 전문 인력을 투입해서 만든 이른바 '백지계획'"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 180,
+   "passage": "1971년 제7대 대통령 선거에서는 박정희가 48,607표를 얻고 김대중이 38,802표를 얻는 등 강원도의 일반적인 성향과 유사해지는 모습을 보였다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "11",
+  "name": "서산영덕고속도",
+  "question": "세종특별자치시를 관통하는 고속도로 가운데 서세종 나들목과 남세종 나들목이 있는 고속도로는 고속국도 제 몇 호선인가?",
+  "answer": "제30호선",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 236,
+   "passage": "세종특별자치시를 관통하는 고속도로로는 서산영덕고속도로 서세종 나들목과 남세종 나들목 이 있으며"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 358,
+   "passage": "| 30 고속국도 제30호선 서산영덕고속도로 | 신탄진 나들목 ↔ 남청주 나들목 ↔ 청주 분기점 ↔ 문의청남대 나들목 ↔ 회인 나들목 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "11",
+  "name": "서원구",
+  "question": "2015년 행정중심복합도시에서 충청북도 청주시의 한 일반구에 있는 남이면을 경유해 3순환로 석곡 분기점을 연결한 왕복 4차로 도로가 지나는 그 일반구의 면적은 몇 km2인가?",
+  "answer": "122.63km2",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 230,
+   "passage": "2015년에는 행정중심복합도시에서 세종특별자치시 연동면과 부강면, 충청북도 청주시 서원구 남이면을 경유하여 3순환로 석곡 분기점을 연결하는 왕복 4차로 도로가"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 112,
+   "passage": "| 서원구 | 西原區 | 88,082 | 193,630 | 122.63 | 서원구 | 2면 9행정동 10법정동 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "11",
+  "name": "오송역",
+  "question": "2012년 9월부터 대전 도시철도 1호선 반석역과 행정중심복합도시를 거쳐 간선급행버스체계 B2가 닿는 철도역에서 광주송정역까지 호남고속선 1단계 공사가 완공된 날은 언제인가?",
+  "answer": "2015년 4월 2일",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 226,
+   "passage": "2012년 9월부터 ● 대전 도시철도 1호선 반석역 ~ 행정중심복합도시 ~ 오송역 30.7km에 간선급행버스체계 B2를 운행하고 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 665,
+   "passage": "2015년 4월 2일에 오송역에서 광주송정역 구간의 호남고속선 1단계 공사가 완공되어 용산역에서 광주송정역까지 1시간 30분대에 이용이 가능하다."
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "12",
+  "name": "이명박",
+  "question": "2009년에 세종특별자치시 건설을 재검토하겠다고 밝힌 대통령은 2007년 제17대 대통령 선거에서 춘천에서 몇 표를 얻었나?",
+  "answer": "66,113표",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 50,
+   "passage": "이명박 정부가 출범한 이듬해인 2009년에 대통령 이명박은 '국가백년대계를 위한 정책의 적당한 타협은 없다'며 세종특별자치시 건설을 재검토하겠다고 밝혔다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 184,
+   "passage": "2007년 제17대 대통령 선거에서는 이명박이 66,113표를 얻었고"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "12",
+  "name": "지식경제부",
+  "question": "호남광역경제권선도산업지원단이 설립된 계기인 '5+2 광역경제권 선도산업 육성사업'을 추진한 부처 소관으로 2012년에 세종으로 이전한 정부출연 연구기관은?",
+  "answer": "산업기술연구회",
+  "bridge": {
+   "doc": "wiki-ko-gwangju",
+   "line": 349,
+   "passage": "지식경제부가 추진 중인 “5+2 광역경제권 선도산업 육성사업”의 일환으로"
+  },
+  "target": {
+   "doc": "wiki-ko-sejong",
+   "line": 216,
+   "passage": "| 지식경제부 2012년 이전 | 산업기술연구회 |"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "12",
+  "name": "청주국제공항",
+  "question": "세종시 교통 계획에서 오송역과 잇는 도로를 새로 내기로 한 공항은 청주시 어느 구 어느 읍에 있나?",
+  "answer": "청원구 내수읍",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 232,
+   "passage": "오송역 ~ 청주국제공항 연결 도로가 신설되고"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 334,
+   "passage": "청원구 내수읍에 청주국제공항이 있다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "12",
+  "name": "충청북도청",
+  "question": "세종 행정도시 관할 구역을 예정지역으로만 하자는 입장을 밝힌 충청북도청은 청주시 어느 구 어느 동에 있나?",
+  "answer": "상당구 문화동",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 447,
+   "passage": "충청북도청은 \"행정도시 관할 구역은 예정지역으로만 하고 주변지역은 제외하는 것이 좋다\"며"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 381,
+   "passage": "- 충청북도청 (상당구 문화동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "12",
+  "name": "호남선",
+  "question": "충청권 광역철도에서 경부선과 함께 활용하는 노선이 광주광역시 서부에서 지나는 역은 어디인가?",
+  "answer": "광주송정역",
+  "bridge": {
+   "doc": "wiki-ko-sejong",
+   "line": 240,
+   "passage": "기존의 경부선과 호남선을 활용하여"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 661,
+   "passage": "광주시 서부로 광주송정역을 지나는 호남선이 위치하며"
+  },
+  "bucket_by_docs": "한국어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "13",
+  "name": "NC",
+  "question": "전주 완산구 고사동에 '전주객사점'이 있는 점포와 같은 이름의 광주 점포는 어느 도로에 있나?",
+  "answer": "동구 충장로4가(충장점)",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 350,
+   "passage": "NC WAVE 전주객사점 (완산구 고사동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 429,
+   "passage": "NC WAVE 충장점 (동구 충장로4가)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "한국어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "13",
+  "name": "NC백화점",
+  "question": "흥덕구 가경동에 청주점이 있는 백화점과 같은 이름의 광주 점포는 어느 구 어느 동에 있나?",
+  "answer": "북구 신안동(광주역점)",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 172,
+   "passage": "NC백화점 청주점 (흥덕구 가경동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 428,
+   "passage": "NC백화점 광주역점 (북구 신안동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "13",
+  "name": "롯데백화점",
+  "question": "완산구 서신동에 전주점이 있는 백화점과 같은 이름의 광주 점포는 어느 구 어느 동에 있나?",
+  "answer": "동구 대인동(광주점)",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 346,
+   "passage": "롯데백화점 전주점 (완산구 서신동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 427,
+   "passage": "롯데백화점 광주점 (동구 대인동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "13",
+  "name": "롯데아울렛",
+  "question": "흥덕구 비하동에 청주점이 있는 아웃렛과 같은 이름의 광주 점포 두 곳은 각각 어느 구 어느 동에 있나?",
+  "answer": "월드컵점은 서구 풍암동, 수완점은 광산구 수완동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 173,
+   "passage": "롯데아울렛 청주점 (흥덕구 비하동)"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 430,
+   "passage": "롯데아울렛 : 월드컵점 (서구 풍암동), 수완점 (광산구 수완동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "14",
+  "name": "신문왕",
+  "question": "전주에 완산주를 설치한 신라 왕의 재위 6년에, 광주 지역에 붙인 이름은 무엇인가?",
+  "answer": "무진주(신문왕 5년에 완산주를 설치했고, 신문왕 6년에 광주 지역을 무진주라 함)",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 37,
+   "passage": "685년(신라 신문왕 5년) : 완산주를 설치하였다."
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 36,
+   "passage": "삼국통일 이후 신문왕 6년에 무진주라고 하였다가"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "14",
+  "name": "호남고속선",
+  "question": "2015년 4월 2일에 호남고속선 1단계 공사가 완공된, 광주송정역까지 가는 구간의 출발역은 청주의 어느 구, 어느 읍에 있나?",
+  "answer": "출발역은 오송역이며 청주 흥덕구 오송읍에 있다",
+  "bridge": {
+   "doc": "wiki-ko-gwangju",
+   "line": 665,
+   "passage": "2015년 4월 2일에 오송역에서 광주송정역 구간의 호남고속선 1단계 공사가 완공되어"
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 338,
+   "passage": "흥덕구 오송읍에 있는 오송역은 경부고속철도와 호남고속철도가 분기하고"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "FK리그",
+  "question": "전주매그FC가 속한 리그에서 청주를 대표하는 풋살 팀은 어느 팀인가?",
+  "answer": "청주팔라시오FS",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 470,
+   "passage": "FK리그의 전주매그FC가 전주시를 홈으로 삼고 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 467,
+   "passage": "FK리그의 청주팔라시오FS"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "금암동",
+  "question": "전주시에서 전북대학교병원이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "17,562명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 367,
+   "passage": "- 전북대학교병원(덕진구 금암동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 29,
+   "passage": "| 금암동 | 11385 | 17562 | 8982 | 8580 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "덕진동",
+  "question": "전주시에서 한국소리문화의전당이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "19,741명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 253,
+   "passage": "- 한국소리문화의전당 (덕진구 덕진동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 28,
+   "passage": "| 덕진동 | 10745 | 19741 | 10078 | 9663 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "서신동",
+  "question": "전주시에서 롯데백화점 전주점이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "38,071명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 346,
+   "passage": "- 롯데백화점 전주점 (완산구 서신동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 13,
+   "passage": "| 서신동 | 17457 | 38071 | 18507 | 19564 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "십이목",
+  "question": "983년에 처음 십이목을 두었을 때 전주와 청주에 각각 둔 목의 이름은?",
+  "answer": "전주는 전주목, 청주는 청주목",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 40,
+   "passage": "983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었는데 이 때, 전주에 전주목(全州牧)을 두었다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 48,
+   "passage": "983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었을 때 청주목(淸州牧)이 되었다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "장항선",
+  "question": "2008년 1월 구 군산선 일부와 연결되며 전주권 통근열차 운행 중단의 계기가 된 철도 노선에 수도권 전철 1호선이 들어오기 시작한 날짜는?",
+  "answer": "2008년 12월 15일",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 396,
+   "passage": "2008년 1월에 장항선과 구 군산선 일부가 연결되면서 통근열차 운행은 중단되었다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 281,
+   "passage": "2008년 12월 15일부터 장항선에 수도권 전철 1호선이 들어오게 되어"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "정동영",
+  "question": "전주시 병 지역구 국회의원(더불어민주당)이 2007년 제17대 대통령 선거에서 춘천에서 얻은 표는 몇 표인가?",
+  "answer": "22,632표",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 8,
+   "passage": "병: 정동영(더불어민주당)"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 184,
+   "passage": "정동영이 22,632표"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "두 문서의 사람이 같다는 근거가 이름뿐이다",
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "진북동",
+  "question": "전주시에서 전북특별자치도교육청전주학생교육문화관이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "12,004명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 256,
+   "passage": "- 전북특별자치도교육청전주학생교육문화관 (덕진구 진북동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 24,
+   "passage": "| 진북동 | 6335 | 12004 | 5744 | 6260 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "태조로",
+  "question": "전주 한옥마을에서 밤에 천사초롱이 길을 밝혀 주는 도로의 51번지에 있는 성당은 몇 년에 준공되었나?",
+  "answer": "1914년",
+  "bridge": {
+   "doc": "kto-ko-jeonju-hanok-village",
+   "line": 9,
+   "passage": "전주 한옥마을에 밤이 찾아오면 태조로를 밝히는 천사초롱"
+  },
+  "target": {
+   "doc": "wiki-ko-jeonju",
+   "line": 236,
+   "passage": "전동성당은 전북특별자치도 전주시 완산구 태조로 51(전동 경기전 맞은 편)에 위치하고 있으며 1914년에 준공되었다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "팔복동",
+  "question": "전주시에서 옛 전라선의 일부가 화물전용선 북전주선으로 분기해 끝나는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "7,130명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 396,
+   "passage": "옛 전라선의 일부가 화물전용선인 북전주선(北全州線)이라는 이름으로 분기하여 팔복동에서 끝난다"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 30,
+   "passage": "| 팔복동 | 4497 | 7130 | 3892 | 3238 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "풍남동",
+  "question": "전주시에서 교동아트센터가 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "3,354명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 258,
+   "passage": "- 교동아트센터 (완산구 풍남동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 6,
+   "passage": "| 풍남동 | 2141 | 3354 | 1629 | 1725 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "한국국토정보공사",
+  "question": "전북혁신도시로 2017년까지 이전을 완료한 공공기관 중 국민연금공단, 농촌진흥청 다음에 나오고 한국전기안전공사 앞에 나오는 기관의 천안지사는 어느 동에 있나?",
+  "answer": "청당동",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 155,
+   "passage": "국민연금공단, 농촌진흥청, 한국국토정보공사, 한국전기안전공사"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 397,
+   "passage": "한국국토정보공사 천안지사(청당동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "열거 순서로 대상을 가리킨다",
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "한화",
+  "question": "한화 이글스가 제2홈구장과 제3경기장으로 쓰는 야구장은 각각 어느 도시에 있나?",
+  "answer": "제2홈구장 청주야구장은 청주, 제3경기장 의암야구장은 춘천",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 451,
+   "passage": "KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 412,
+   "passage": "한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": "이미 재료 목록의 K11"
+ },
+ {
+  "batch": "15",
+  "name": "혁신동",
+  "question": "2009년 착공해 2017년까지 12개 공공기관 이전이 완료된 혁신도시에서 전주시 덕진구에 속한 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "35,976명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 155,
+   "passage": "전주시 덕진구 혁신동, 완주군 이서면 갈산리·금평리·반교리 일대 9.9 km2에 2009년 착공하여 2017년까지"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 39,
+   "passage": "| 혁신동 | 13135 | 35976 | 17718 | 18258 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "15",
+  "name": "호성동",
+  "question": "전주시에서 건지도서관이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "17,995명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 288,
+   "passage": "- 건지도서관 (덕진구 호성동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 33,
+   "passage": "| 호성동 | 7861 | 17995 | 8535 | 9460 |"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "16",
+  "name": "대전지방고용노동청",
+  "question": "대전지방고용노동청의 청주지청과 천안지청이 있는 동은 각각 어디인가?",
+  "answer": "청주지청은 서원구 분평동, 천안지청은 두정동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 388,
+   "passage": "대전지방고용노동청 청주지청 (서원구 분평동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 389,
+   "passage": "대전지방고용노동청 천안지청 (두정동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "16",
+  "name": "대전지방기상청",
+  "question": "대전지방기상청의 청주기상대와 천안기상대가 있는 동은 각각 어디인가?",
+  "answer": "청주기상대는 흥덕구 복대동, 천안기상대는 신방동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 390,
+   "passage": "대전지방기상청 청주기상대 (흥덕구 복대동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 391,
+   "passage": "대전지방기상청 천안기상대 (신방동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ },
+ {
+  "batch": "16",
+  "name": "이글스",
+  "question": "한화 이글스가 제2홈구장과 제3경기장으로 쓰는 야구장은 각각 어느 도시에 있나?",
+  "answer": "제2홈구장 청주야구장은 청주, 제3경기장 의암야구장은 춘천",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 451,
+   "passage": "KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 412,
+   "passage": "한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다."
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": "이미 재료 목록의 K11"
+ },
+ {
+  "batch": "16",
+  "name": "천안아산역",
+  "question": "청주시 문서의 고속철도 표에서 경부고속선·대전북연결선·호남고속선 구간의 첫 역은 언제 개업했나?",
+  "answer": "2004년 4월 1일",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 342,
+   "passage": "| 경부고속선, 대전북연결선, 호남고속선 | 천안아산역 ↔ 오송역 ↔ 대전역(경부고속선)/공주역(호남고속선) |"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 281,
+   "passage": "2004년 4월 1일, 천안시와 아산시의 경계지역인 아산시 배방읍 장재리에 천안아산역이 개업하였고"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": "표에 적힌 역의 순서로 대상을 가리킨다",
+  "dup": null
+ },
+ {
+  "batch": "16",
+  "name": "청남대",
+  "question": "전두환 대통령의 별장으로 지어진 곳을 개방 전까지 대통령들이 몇 번 이용했나?",
+  "answer": "88회(다섯 분의 대통령)",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 290,
+   "passage": "청남대는 1983년에 전두환 대통령의 별장으로 건립하여"
+  },
+  "target": {
+   "doc": "kto-ko-cheongju-cheongnamdae",
+   "line": 7,
+   "passage": "개방 전까지 총 다섯 분의 대통령이 88회 이용하였으며"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "따라가기",
+  "blocked": null,
+  "weak": null,
+  "dup": "이미 재료 목록의 K9"
+ },
+ {
+  "batch": "16",
+  "name": "충청지방통계청",
+  "question": "충청지방통계청의 청주사무소와 천안사무소가 있는 동은 각각 어디인가?",
+  "answer": "청주사무소는 흥덕구 봉명동, 천안사무소는 두정동",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 391,
+   "passage": "충청지방통계청 청주사무소 (흥덕구 봉명동)"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 396,
+   "passage": "충청지방통계청 천안사무소 (두정동)"
+  },
+  "bucket_by_docs": "두 언어 도시",
+  "bucket_by_agent": "두 언어 도시",
+  "shape": "나란히",
+  "blocked": null,
+  "weak": null,
+  "dup": null
+ }
+]

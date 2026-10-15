@@ -1,0 +1,543 @@
+[
+ {
+  "name": "FK리그",
+  "verdict": "후보",
+  "question": "전주매그FC가 속한 리그에서 청주를 대표하는 풋살 팀은 어느 팀인가?",
+  "answer": "청주팔라시오FS",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 470,
+   "passage": "FK리그의 전주매그FC가 전주시를 홈으로 삼고 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 467,
+   "passage": "FK리그의 청주팔라시오FS"
+  },
+  "en_terms": [
+   "FK",
+   "futsal",
+   "Palacio",
+   "Mag"
+  ],
+  "en_result": "영어 문서 14개에서 FK, futsal, Palacio, Mag 모두 걸리는 줄 없음",
+  "ko_conflict": "한국어 문서에서 'FK리그'는 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "jeonju",
+  "verdict": "이름 아님",
+  "reason": "wiki-ko-jeonju 19와 kto-ko-jeonju-hanok-village 5의 jeonju는 웹주소(jeonju.go.kr) 조각이라 대상의 이름이 아니다."
+ },
+ {
+  "name": "경기전",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "wiki-ko-jeonju 228(경기전의 사적 번호·중건)과 232(한옥마을이 경기전 앞 길 중심)가 한 문서에 함께 있어 kto 7은 보탤 답 사실이 없다."
+ },
+ {
+  "name": "관광객",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "교동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-jeonju 232의 교동은 전주 한옥마을 일대이고 wiki-ko-chuncheon 105·204의 교동은 춘천의 행정동이다."
+ },
+ {
+  "name": "군락",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "금암동",
+  "verdict": "후보",
+  "question": "전주시에서 전북대학교병원이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "17,562명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 367,
+   "passage": "- 전북대학교병원(덕진구 금암동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 29,
+   "passage": "| 금암동 | 11385 | 17562 | 8982 | 8580 |"
+  },
+  "en_terms": [
+   "Geumam",
+   "National University Hospital",
+   "hospital",
+   "Jeonbuk"
+  ],
+  "en_result": "wiki-en-jeonju 124줄의 Geumam Library(이름만)만 걸림. 전북대학교병원이나 금암동 인구는 영어 문서에 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 금암동 행은 하나뿐이고, wiki-ko-jeonju에는 금암동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "남노송동",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju 291(전북시각장애인도서관)과 kto 3(한옥마을 주소)은 동 이름만 같고, portal에 남노송동 행이 없어 이름을 거쳐 닿을 답 사실이 없다."
+ },
+ {
+  "name": "대곡리",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-jeonju 163은 임실군 임실읍 대곡리이고 wiki-ko-chuncheon 123은 춘천시 북산면 대곡리다."
+ },
+ {
+  "name": "대학부속병원",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "덕진동",
+  "verdict": "후보",
+  "question": "전주시에서 한국소리문화의전당이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "19,741명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 253,
+   "passage": "- 한국소리문화의전당 (덕진구 덕진동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 28,
+   "passage": "| 덕진동 | 10745 | 19741 | 10078 | 9663 |"
+  },
+  "en_terms": [
+   "Sori",
+   "Arts Center",
+   "Deokjin"
+  ],
+  "en_result": "wiki-en-jeonju 162줄의 Sori Festival만 걸림. 한국소리문화의전당 위치나 덕진동 인구는 영어 문서에 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 덕진동 행은 하나뿐이고, wiki-ko-jeonju에는 덕진동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "뒤에",
+  "verdict": "이름 아님",
+  "reason": "조사 '뒤에'가 낱말로 뽑힌 일반 낱말"
+ },
+ {
+  "name": "백제시대",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju 36(완산)과 wiki-ko-cheongju 35·44(상당현)는 시대 이름 아래 도시마다 부른 이름을 나란히 적은 것뿐이라 한쪽 사실로 다른 쪽 답을 찾아가지 않는다."
+ },
+ {
+  "name": "부설고등학교",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "북동쪽",
+  "verdict": "이름 아님",
+  "reason": "방향을 가리키는 일반 낱말"
+ },
+ {
+  "name": "사범대학",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "삼천동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-jeonju 167·282의 삼천동은 전주시 동이고 wiki-ko-chuncheon 55와 kto 7의 삼천동은 춘천의 동이다."
+ },
+ {
+  "name": "서남부지역",
+  "verdict": "이름 아님",
+  "reason": "방위로 부르는 일반 낱말"
+ },
+ {
+  "name": "서신동",
+  "verdict": "후보",
+  "question": "전주시에서 롯데백화점 전주점이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "38,071명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 346,
+   "passage": "- 롯데백화점 전주점 (완산구 서신동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 13,
+   "passage": "| 서신동 | 17457 | 38071 | 18507 | 19564 |"
+  },
+  "en_terms": [
+   "Lotte",
+   "Sinseo",
+   "Seosin"
+  ],
+  "en_result": "wiki-en-jeonju 125줄의 Sinseo-dong Library(이름만)만 걸림. 롯데백화점 위치나 서신동 인구는 영어 문서에 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 서신동 행은 하나뿐이고, wiki-ko-jeonju에는 서신동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "성종",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "고려 성종 2년의 십이목(wiki-ko-jeonju 40, wiki-ko-cheongju 48)은 십이목 후보로 올렸고, wiki-ko-jeonju 224의 성종은 조선 성종이라 다른 왕이다."
+ },
+ {
+  "name": "세계",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "소양",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-jeonju 392의 소양은 완주군 소양면(나들목)이고 wiki-ko-chuncheon 391의 소양은 춘천의 소양로다."
+ },
+ {
+  "name": "시이자",
+  "verdict": "이름 아님",
+  "reason": "'시이자'는 '시이자 소재지'에서 떼어낸 조각이다."
+ },
+ {
+  "name": "십이목",
+  "verdict": "후보",
+  "question": "983년에 처음 십이목을 두었을 때 전주와 청주에 각각 둔 목의 이름은?",
+  "answer": "전주는 전주목, 청주는 청주목",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 40,
+   "passage": "983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었는데 이 때, 전주에 전주목(全州牧)을 두었다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheongju",
+   "line": 48,
+   "passage": "983년(고려 성종 2년) 처음으로 십이목(十二牧)을 두었을 때 청주목(淸州牧)이 되었다."
+  },
+  "en_terms": [
+   "Jeonju-mok",
+   "Cheongju-mok",
+   "mok",
+   "983",
+   "Seongjong",
+   "Twelve"
+  ],
+  "en_result": "영어 문서 14개에서 mok, 983, Seongjong, Twelve 모두 이 사실로 걸리는 줄 없음(983은 청남대·부산의 다른 사실)",
+  "ko_conflict": "한국어 문서에서 십이목은 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "완산구",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "kto-ko-jeonju-hanok-village 3은 완산구가 들어간 주소 한 줄뿐이라 wiki-ko-jeonju의 완산구 사실로 이어 갈 답 사실이 없다."
+ },
+ {
+  "name": "우호",
+  "verdict": "이름 아님",
+  "reason": "'우호 도시' 제목에서 떼어낸 일반 낱말"
+ },
+ {
+  "name": "원도심",
+  "verdict": "이름 아님",
+  "reason": "도시마다 다른 곳을 가리키는 일반 낱말(wiki-ko-jeonju 123·125, wiki-ko-cheonan 23)"
+ },
+ {
+  "name": "유수부",
+  "verdict": "이름 아님",
+  "reason": "옛 행정 단위 일반어(wiki-ko-jeonju 51 완산 유수부, wiki-ko-chuncheon 27 춘천유수부)"
+ },
+ {
+  "name": "이유",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "장항선",
+  "verdict": "후보",
+  "question": "2008년 1월 구 군산선 일부와 연결되며 전주권 통근열차 운행 중단의 계기가 된 철도 노선에 수도권 전철 1호선이 들어오기 시작한 날짜는?",
+  "answer": "2008년 12월 15일",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 396,
+   "passage": "2008년 1월에 장항선과 구 군산선 일부가 연결되면서 통근열차 운행은 중단되었다."
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 281,
+   "passage": "2008년 12월 15일부터 장항선에 수도권 전철 1호선이 들어오게 되어"
+  },
+  "en_terms": [
+   "Janghang",
+   "2008",
+   "Line 1",
+   "Gunsan",
+   "commuter"
+  ],
+  "en_result": "wiki-en-cheonan 28·44줄에 Janghang Line 이름만 있고, 2008년 12월 15일 전철 개통도 군산선 연결·통근열차 중단도 영어 문서에 없음",
+  "ko_conflict": "한국어 문서에서 장항선 전철 개통일은 wiki-ko-cheonan 281줄뿐이고 285줄은 노선도다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "전국대도시시장협의회",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju 23과 wiki-ko-cheonan 428은 회원 여부만 적은 줄이라 한쪽 사실로 다른 쪽 답을 찾아갈 수 없다."
+ },
+ {
+  "name": "전라도",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju 50의 감영 소재지 사실과 kto-ko-cheonan-samgeori-park 7의 삼남대로 연결 설명 사이에 넘어갈 질문이 없다."
+ },
+ {
+  "name": "전주",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju와 kto-ko-jeonju-hanok-village는 모두 전주 자체가 주제라 전주라는 이름이 두 문서를 잇는 고리가 되지 않는다."
+ },
+ {
+  "name": "전주비빔밥",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju 274는 유명 음식 나열이고 kto 15는 비빔밥을 맛본다는 문장뿐이라 넘어갈 새 사실이 없다."
+ },
+ {
+  "name": "정동영",
+  "verdict": "후보",
+  "question": "전주시 병 지역구 국회의원(더불어민주당)이 2007년 제17대 대통령 선거에서 춘천에서 얻은 표는 몇 표인가?",
+  "answer": "22,632표",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 8,
+   "passage": "병: 정동영(더불어민주당)"
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 184,
+   "passage": "정동영이 22,632표"
+  },
+  "en_terms": [
+   "Chung Dong-young",
+   "Jeong Dong-young",
+   "Dong-young",
+   "22,632"
+  ],
+  "en_result": "영어 문서 14개에서 정동영의 로마자 표기도 22,632도 걸리는 줄 없음(wiki-en-busan 14줄 Dong은 다른 사람)",
+  "ko_conflict": "한국어 문서에서 정동영은 이 두 줄뿐. 두 줄이 같은 사람임은 이름이 같다는 것뿐이라 7단계 전 확인 필요",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "준공",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "지류",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "진북동",
+  "verdict": "후보",
+  "question": "전주시에서 전북특별자치도교육청전주학생교육문화관이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "12,004명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 256,
+   "passage": "- 전북특별자치도교육청전주학생교육문화관 (덕진구 진북동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 24,
+   "passage": "| 진북동 | 6335 | 12004 | 5744 | 6260 |"
+  },
+  "en_terms": [
+   "Jinbuk",
+   "Education Office",
+   "Student Education"
+  ],
+  "en_result": "영어 문서 14개에서 이 시설과 진북동 모두 걸리는 줄 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 진북동 행은 하나뿐이고, wiki-ko-jeonju에는 진북동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "추천",
+  "verdict": "이름 아님",
+  "reason": "wiki-ko-jeonju 88은 팔복동(추천) 괄호, 404와 kto 13은 일반 낱말 '추천'이다."
+ },
+ {
+  "name": "태조로",
+  "verdict": "후보",
+  "question": "전주 한옥마을에서 밤에 천사초롱이 길을 밝혀 주는 도로의 51번지에 있는 성당은 몇 년에 준공되었나?",
+  "answer": "1914년",
+  "bridge": {
+   "doc": "kto-ko-jeonju-hanok-village",
+   "line": 9,
+   "passage": "전주 한옥마을에 밤이 찾아오면 태조로를 밝히는 천사초롱"
+  },
+  "target": {
+   "doc": "wiki-ko-jeonju",
+   "line": 236,
+   "passage": "전동성당은 전북특별자치도 전주시 완산구 태조로 51(전동 경기전 맞은 편)에 위치하고 있으며 1914년에 준공되었다."
+  },
+  "en_terms": [
+   "Cathedral",
+   "Jeondong",
+   "lantern",
+   "Taejo-ro",
+   "Cheonsachorong"
+  ],
+  "en_result": "영어 문서 14개에서 Cathedral, Jeondong, Taejo-ro 걸리는 줄 없음. lantern은 wiki-en-cheonan 152줄 연등(다른 사실)",
+  "ko_conflict": "한국어 문서에서 전동성당은 wiki-ko-jeonju 234·236뿐, 태조로 51은 236줄뿐(경기전은 태조로 44)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "팔복동",
+  "verdict": "후보",
+  "question": "전주시에서 옛 전라선의 일부가 화물전용선 북전주선으로 분기해 끝나는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "7,130명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 396,
+   "passage": "옛 전라선의 일부가 화물전용선인 북전주선(北全州線)이라는 이름으로 분기하여 팔복동에서 끝난다"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 30,
+   "passage": "| 팔복동 | 4497 | 7130 | 3892 | 3238 |"
+  },
+  "en_terms": [
+   "Bukjeonju",
+   "freight",
+   "Palbok"
+  ],
+  "en_result": "영어 문서 14개에서 북전주선과 팔복동 모두 걸리는 줄 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 팔복동 행은 하나뿐이고, wiki-ko-jeonju에는 팔복동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "풍남동",
+  "verdict": "후보",
+  "question": "전주시에서 교동아트센터가 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "3,354명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 258,
+   "passage": "- 교동아트센터 (완산구 풍남동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 6,
+   "passage": "| 풍남동 | 2141 | 3354 | 1629 | 1725 |"
+  },
+  "en_terms": [
+   "Gyodong",
+   "Art Center",
+   "Pungnam"
+  ],
+  "en_result": "영어 문서 14개에서 교동아트센터와 풍남동 모두 걸리는 줄 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 풍남동 행은 하나뿐이고, wiki-ko-jeonju에는 풍남동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "한국국토정보공사",
+  "verdict": "후보",
+  "question": "전북혁신도시로 2017년까지 이전을 완료한 공공기관 중 국민연금공단, 농촌진흥청 다음에 나오고 한국전기안전공사 앞에 나오는 기관의 천안지사는 어느 동에 있나?",
+  "answer": "청당동",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 155,
+   "passage": "국민연금공단, 농촌진흥청, 한국국토정보공사, 한국전기안전공사"
+  },
+  "target": {
+   "doc": "wiki-ko-cheonan",
+   "line": 397,
+   "passage": "한국국토정보공사 천안지사(청당동)"
+  },
+  "en_terms": [
+   "Land and Geospatial",
+   "Korea Land",
+   "LX",
+   "Cheongdang",
+   "Innovation City"
+  ],
+  "en_result": "영어 문서 14개에서 이 기관·청당동·혁신도시 이전 모두 걸리는 줄 없음",
+  "ko_conflict": "한국어 문서에서 한국국토정보공사는 이 두 줄뿐",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "한옥생활체험관",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-jeonju 232는 시설 나열에 이름만 있고 kto 13의 설명도 같은 이름을 직접 부르면 kto 하나로 풀려 두 문서가 서로 필요한 질문이 안 된다."
+ },
+ {
+  "name": "한화",
+  "verdict": "후보",
+  "question": "한화 이글스가 제2홈구장과 제3경기장으로 쓰는 야구장은 각각 어느 도시에 있나?",
+  "answer": "제2홈구장 청주야구장은 청주, 제3경기장 의암야구장은 춘천",
+  "bridge": {
+   "doc": "wiki-ko-cheongju",
+   "line": 451,
+   "passage": "KBO 리그의 한화 이글스의 제 2홈구장인 청주야구장이 있다."
+  },
+  "target": {
+   "doc": "wiki-ko-chuncheon",
+   "line": 412,
+   "passage": "한화 이글스: 1986년에 창단해 2015년부터 춘천 의암야구장을 제3경기장으로 사용한다."
+  },
+  "en_terms": [
+   "Hanwha",
+   "Eagles",
+   "baseball",
+   "Uiam"
+  ],
+  "en_result": "Hanwha는 wiki-en-jeonju 207줄의 Hanwha Life Esports(게임단)만 걸림. Eagles·baseball 구장 사실은 영어 문서에 없음(baseball은 wiki-en-busan 롯데 자이언츠뿐)",
+  "ko_conflict": "한국어 문서에서 '한화 이글스'는 이 두 줄뿐(wiki-ko-jeonju 29의 한화는 漢化)",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "혁신동",
+  "verdict": "후보",
+  "question": "2009년 착공해 2017년까지 12개 공공기관 이전이 완료된 혁신도시에서 전주시 덕진구에 속한 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "35,976명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 155,
+   "passage": "전주시 덕진구 혁신동, 완주군 이서면 갈산리·금평리·반교리 일대 9.9 km2에 2009년 착공하여 2017년까지"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 39,
+   "passage": "| 혁신동 | 13135 | 35976 | 17718 | 18258 |"
+  },
+  "en_terms": [
+   "Hyeoksin",
+   "Innovation City"
+  ],
+  "en_result": "영어 문서 14개에서 혁신도시도 혁신동도 걸리는 줄 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 혁신동 행은 하나뿐이고, wiki-ko-jeonju에는 혁신동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "호성동",
+  "verdict": "후보",
+  "question": "전주시에서 건지도서관이 있는 동의 2026-03-17 기준 인구수(계)는 몇 명인가?",
+  "answer": "17,995명",
+  "bridge": {
+   "doc": "wiki-ko-jeonju",
+   "line": 288,
+   "passage": "- 건지도서관 (덕진구 호성동)"
+  },
+  "target": {
+   "doc": "portal-ko-jeonju-population",
+   "line": 33,
+   "passage": "| 호성동 | 7861 | 17995 | 8535 | 9460 |"
+  },
+  "en_terms": [
+   "Gunji",
+   "Hoseong"
+  ],
+  "en_result": "wiki-en-jeonju 123줄에 Gunji Library 이름만 있고 호성동 위치나 인구는 영어 문서에 없음",
+  "ko_conflict": "portal-ko-jeonju-population에 호성동 행은 하나뿐이고, wiki-ko-jeonju에는 호성동의 인구 값이 없다",
+  "bucket": "두 언어 도시"
+ },
+ {
+  "name": "환원",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "후백제",
+  "verdict": "영어 문서에 있음",
+  "reason": "wiki-ko-jeonju 39의 '견훤이 후백제를 건국하고 전주를 도읍지로 삼았다'는 wiki-en-jeonju 97줄(Gyeon Hwon, 892, capital of the Later Baekje)에 같은 사실이 있다."
+ }
+]

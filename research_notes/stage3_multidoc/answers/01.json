@@ -1,0 +1,295 @@
+[
+ {
+  "name": "Dwa",
+  "verdict": "이름 아님",
+  "reason": "쾨펜 기후 분류 기호이며 특정한 대상의 이름이 아니다(wiki-ko-suwon 29·77, wiki-ko-cheongju 80, wiki-ko-chuncheon 66 모두 기후 구분 표기)."
+ },
+ {
+  "name": "KBO",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 250, wiki-ko-gwangju 601, wiki-ko-cheongju 451 모두 리그 이름만 나오고 한 문서의 사실에서 다른 문서의 사실로 넘어가는 질문이 안 된다."
+ },
+ {
+  "name": "KT",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 256은 프로농구단 KBL KT 소닉붐, wiki-ko-gyeongju 441은 KT 경주지사, 442는 KT&G 경주지사, wiki-ko-cheongju 422는 KT HCN 충북방송으로 서로 다른 대상이다."
+ },
+ {
+  "name": "KTX",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 264·269·270, wiki-ko-gwangju 661, wiki-ko-cheongju 340은 도시별 정차 사실을 따로 적을 뿐 한 문서의 사실이 다른 문서의 사실로 이어지지 않는다."
+ },
+ {
+  "name": "K리그",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 240~244(수원 삼성 K리그 4회 우승 등)와 wiki-ko-gwangju 597·602(광주 FC 2010년, 광주축구전용경기장)는 리그 이름만 같고 서로 이어지는 사실이 없다."
+ },
+ {
+  "name": "index",
+  "verdict": "이름 아님",
+  "reason": "웹 주소 조각(suwon.go.kr/index.do, museum.go.kr/index.jsp)이며 이름이 아니다."
+ },
+ {
+  "name": "가로수",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(wiki-ko-suwon 65, wiki-ko-cheongju 364)."
+ },
+ {
+  "name": "간격",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "강력",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "개교",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "개최",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "개편",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "거쳐",
+  "verdict": "이름 아님",
+  "reason": "조사·동사 활용 조각이며 일반 낱말이다."
+ },
+ {
+  "name": "걸쳐",
+  "verdict": "이름 아님",
+  "reason": "조사·동사 활용 조각이며 일반 낱말이다."
+ },
+ {
+  "name": "것은",
+  "verdict": "이름 아님",
+  "reason": "조사가 붙은 일반 낱말이다."
+ },
+ {
+  "name": "견해",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "결과",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "결국",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "경부선",
+  "verdict": "한 문서로 답 나옴",
+  "reason": "wiki-ko-sejong 238에 세종에 편입된 경부선 역이 8개라고 적혀 있어 답이 세종 문서 하나로 나오고, wiki-ko-cheonan 23·281·284와 wiki-ko-suwon 271은 경부선이 지난다는 것뿐이라 고리 사실이 되지 못한다."
+ },
+ {
+  "name": "경사",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "경상북",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "조각이 된 경상북도(광역 도 이름)이며, wiki-ko-suwon 322의 자매도시 포항시와 wiki-ko-gyeongju 25의 경주시 인구는 경상북도에 속한다는 것 말고 이어지는 사실이 없어 답이 경주 문서에서만 나온다."
+ },
+ {
+  "name": "경영",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "경쟁력",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "계속",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "고구려",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 27·37의 매홀군 편입과 wiki-ko-chuncheon 27의 맥국 정복은 같은 나라 이름이 나올 뿐 한쪽 사실에서 다른 쪽 사실을 찾아가는 질문이 안 된다."
+ },
+ {
+  "name": "고도",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(wiki-ko-suwon 33·139, wiki-ko-gyeongju 186·192)."
+ },
+ {
+  "name": "고등동",
+  "verdict": "후보",
+  "question": "1936년 수원공립가정여학교로 개교한 학교가 있는 동의 2021년 5월 31일 기준 인구(합계)는 몇 명인가?",
+  "answer": "21,931명 (팔달구 고등동, 세대수 8,991, 데이터기준일자 2021-05-31)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 181,
+   "passage": "1936년 팔달구 고등동에 수원공립가정여학교로 개교, 1951년에 공립 일반계 여고인 수원여자고등학교로 개편되었다."
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 30,
+   "passage": "| 팔달구 | 고등동 | 8991 | 21931 | 19082 | 9630 | 9452 | 21445 | 486 | 2849 | 1562 | 1287 | 2021-05-31 |"
+  },
+  "en_terms": [
+   "Suwon",
+   "Godeung",
+   "Godung",
+   "girls",
+   "home economics",
+   "21931",
+   "21,931",
+   "8991"
+  ],
+  "en_result": "영어 문서에서 Suwon은 wiki-en-cheonan 48(기후 비교)과 wiki-en-busan 410·482(농구·버스 노선)에만 걸리고 수원여고나 고등동 사실은 없음. Godeung/Godung은 없음. girls는 wiki-en-jeonju 181의 Girls' Generation뿐. 21931·8991 숫자는 코퍼스 전체에서 portal 30줄 한 곳뿐",
+  "ko_conflict": "한국어 문서에서 '고등동'은 wiki-ko-suwon 181과 portal-ko-suwon-population 30줄 두 곳뿐이고, 같은 동의 다른 인구 값이 없음. 수원여자고등학교 개교는 wiki-ko-suwon 181 한 곳뿐",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "고령화",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "고속도로",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(wiki-ko-suwon 262, wiki-ko-sejong 236, wiki-ko-cheonan 53)."
+ },
+ {
+  "name": "곳에",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각이다."
+ },
+ {
+  "name": "곳으",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각이다."
+ },
+ {
+  "name": "곳의",
+  "verdict": "이름 아님",
+  "reason": "조사를 떼다 남은 조각이다."
+ },
+ {
+  "name": "공립",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "관입",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(지질 용어)."
+ },
+ {
+  "name": "관통",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "광둥성",
+  "verdict": "후보",
+  "question": "수원시의 중국 우호도시 주하이가 속한 광둥성에서, 광주광역시와 자매도시를 맺은 도시는 어디인가?",
+  "answer": "광저우시",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 343,
+   "passage": "| 우호도시 | 중국 | 광둥성 주하이 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gwangju",
+   "line": 684,
+   "passage": "| 중국 | 광둥성(广东省) 광저우시(广州市) |"
+  },
+  "en_terms": [
+   "Guangdong",
+   "Guangzhou",
+   "Zhuhai",
+   "광둥",
+   "광저우",
+   "주하이",
+   "Suwon",
+   "Gwangju"
+  ],
+  "en_result": "Guangzhou는 wiki-en-busan 558(부산의 자매도시)에만 걸림. 수원·광주광역시의 자매·우호도시 사실은 영어 문서에 없음",
+  "ko_conflict": "한국어 문서에서 광둥성은 wiki-ko-suwon 343과 wiki-ko-gwangju 684뿐이고, 688줄의 '광둥어'는 언어라 다른 사실. 주하이·광저우시도 이 줄들에만 있음. 광주광역시 자매도시 중 광둥성은 광저우시 하나뿐",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "구성",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "구장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말(wiki-ko-suwon 256 서수원칠보체육관, wiki-ko-chuncheon 414 송암주경기장은 서로 다른 시설)."
+ },
+ {
+  "name": "군사",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "권선구",
+  "verdict": "답이 하나 아님",
+  "reason": "wiki-ko-suwon의 권선구 사실(탑동, 고색동, 서둔동 등)에서 portal-ko-suwon-population 15~26줄로 넘어가면 권선구 동이 12개라 정답이 하나로 정해지지 않고, 구 전체 인구는 wiki-ko-suwon 167에 이미 있다."
+ },
+ {
+  "name": "근대",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "급격",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "급격히",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "기간",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "기반",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "기본",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "기점",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말."
+ },
+ {
+  "name": "기초자치단체",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어."
+ },
+ {
+  "name": "김씨",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 41은 수원을 본관으로 하는 김씨, wiki-ko-cheongju 478은 청주 김씨로 본관이 달라 같은 대상이 아니다."
+ }
+]

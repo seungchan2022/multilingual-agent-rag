@@ -1,0 +1,285 @@
+[
+ {
+  "name": "차이",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "착공",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "창단",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "창단해",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ },
+ {
+  "name": "체제",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "최씨",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 41줄은 수원을 본관으로 하는 성씨 최씨, wiki-ko-cheongju 483줄은 청주 최씨(淸州 崔氏)로 서로 다른 본관(다른 집안)이다."
+ },
+ {
+  "name": "최종",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "축구",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "출산율",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "출토",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "침식",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "탑동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 67줄은 권선구 탑동, wiki-ko-gyeongju 225~227줄은 경주 탑동으로 서로 다른 동이다."
+ },
+ {
+  "name": "태종",
+  "verdict": "영어 문서에 있음",
+  "reason": "답 사실인 wiki-ko-chuncheon 27줄(태종 13년(1413) 춘천으로 고침)이 wiki-en-chuncheon 34줄에 'In 1413 (13th year of the reign of King Taejong), it was renamed to Chunch...'로 있다."
+ },
+ {
+  "name": "통과",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "통일",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "튀르키예",
+  "verdict": "답이 하나 아님",
+  "reason": "wiki-ko-suwon 338줄 얄로바, wiki-ko-jeonju 481줄 안탈리아, wiki-ko-cheonan 412줄 뷰첵메제로 도시마다 튀르키예의 다른 자매도시라 하나로 정해지는 질문이 없다."
+ },
+ {
+  "name": "특례시",
+  "verdict": "이름 아님",
+  "reason": "행정 단위 일반어(법적 지위 이름)"
+ },
+ {
+  "name": "파장동",
+  "verdict": "후보",
+  "question": "수원에서 경수간 도로변에 지지대와 노송지대가 있는 동의 2021년 5월 31일 기준 인구(인구_합계)는 몇 명인가?",
+  "answer": "23,833명 (장안구 파장동)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 210,
+   "passage": "파장동 경수간 도로변의 지지대와 노송지대"
+  },
+  "target": {
+   "doc": "portal-ko-suwon-population",
+   "line": 5,
+   "passage": "| 장안구 | 파장동 | 10686 | 23833 |"
+  },
+  "en_terms": [
+   "Pajang",
+   "Jijidae",
+   "Pyeongtaek",
+   "23833"
+  ],
+  "en_result": "영어 문서 14개에 수원 문서가 없고 Pajang·Jijidae·23833 모두 걸리는 줄 없음",
+  "ko_conflict": "파장동은 wiki-ko-suwon에서 210줄 한 곳뿐이고 인구는 portal 5줄에만 있음(데이터기준일자 2021-05-31이 표에 적혀 있음)",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "팔달구",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon의 팔달구 줄들은 청사 주소·인구·학교 연혁이고 portal-ko-suwon-population 27~36줄은 동별 표라, 하나의 사실에서 하나의 값으로 이어지는 질문이 되지 않고 9개 동 값을 집계해야 한다."
+ },
+ {
+  "name": "평야",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "평택시",
+  "verdict": "영어 문서에 있음",
+  "reason": "wiki-ko-suwon 270줄(수서평택고속선 종점 평택시)에서 wiki-ko-cheonan 23·53줄(북쪽은 평택시)로 잇는 질문이 되지만, 답 사실이 wiki-en-cheonan 42줄 'to the north are the cities of Anseong and Pyeongtaek'에 있다."
+ },
+ {
+  "name": "포항시",
+  "verdict": "후보",
+  "question": "수원시가 자매도시를 맺은 경상북도 도시는 경주시의 어느 방향에서 경주시와 닿아 있나?",
+  "answer": "북쪽 (포항시)",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 322,
+   "passage": "| 자매도시 | 경상북도 | 포항시 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 63,
+   "passage": "경상북도 내에서는 북쪽은 포항시와, 남서쪽은 청도군과, 북서쪽은 영천시와 닿아 있으며"
+  },
+  "en_terms": [
+   "Pohang",
+   "Suwon",
+   "Gyeongju"
+  ],
+  "en_result": "Pohang 걸리는 줄 없음. 영어 문서 14개에 수원·경주 문서가 없음",
+  "ko_conflict": "수원 교류 도시 표에서 경상북도 도시는 포항시 하나뿐. 경주 84줄도 '북쪽의 포항'으로 같은 방향",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "프랑스",
+  "verdict": "답이 하나 아님",
+  "reason": "wiki-ko-suwon 339줄 뚜르, wiki-ko-gyeongju 516줄 베르사유, wiki-ko-cheonan 419줄 끌루세시로 서로 다른 도시라 하나로 정해지는 질문이 없다."
+ },
+ {
+  "name": "하동",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 59줄은 영통구 하동, wiki-ko-gyeongju 214·260줄은 경주 하동(민속공예촌)으로 서로 다른 동이다."
+ },
+ {
+  "name": "하천",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "학교법",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "한국방송통신대학교",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-cheongju 193줄·wiki-ko-chuncheon 426줄은 대학 이름만 나열하고 사실이 없어 wiki-ko-suwon 205줄(1985년 설립)에서 넘어갈 답 사실이 없다."
+ },
+ {
+  "name": "한국철도공사",
+  "verdict": "이어 찾기 안 됨",
+  "reason": "wiki-ko-suwon 268줄과 wiki-ko-cheonan 283줄 모두 철도 노선 목록의 운영 기관 항목일 뿐 사실이 적혀 있지 않다."
+ },
+ {
+  "name": "한반",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ },
+ {
+  "name": "합류해",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ },
+ {
+  "name": "항복해",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ },
+ {
+  "name": "해도",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ },
+ {
+  "name": "해외",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "향나무",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "향해",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ },
+ {
+  "name": "향후",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "현대",
+  "verdict": "같은 대상 아님",
+  "reason": "wiki-ko-suwon 248줄은 현대 유니콘스(야구단), wiki-ko-jeonju 468줄은 전북 현대 모터스(축구단), wiki-ko-gyeongju 96줄은 '현대의 홍수 통제'로 서로 다르다."
+ },
+ {
+  "name": "형성",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "홈구장",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "홍보",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "화강암",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "회사",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "후반",
+  "verdict": "이름 아님",
+  "reason": "일반 낱말"
+ },
+ {
+  "name": "후쿠이현",
+  "verdict": "후보",
+  "question": "수원시가 우호도시를 맺은 일본 후쿠이시가 속한 현에서, 경주시와 자매결연한 도시는 어디이며 언제 결연했나?",
+  "answer": "후쿠이현 오바마시, 1977년 2월 13일",
+  "bridge": {
+   "doc": "wiki-ko-suwon",
+   "line": 345,
+   "passage": "| 우호도시 | 일본 | 후쿠이현 후쿠이시 |"
+  },
+  "target": {
+   "doc": "wiki-ko-gyeongju",
+   "line": 514,
+   "passage": "| 후쿠이현 오바마시 | 일본 | 1977년 2월 13일 |"
+  },
+  "en_terms": [
+   "Fukui",
+   "Obama",
+   "sister city"
+  ],
+  "en_result": "Fukui·Obama 걸리는 줄 없음(Obama 검색에 영어 문서 해당 없음). 영어 문서에 수원·경주 문서가 없음",
+  "ko_conflict": "후쿠이현은 수원 345줄과 경주 514줄 두 곳뿐이고 결연일은 514줄에만 있음",
+  "bucket": "한국어 도시"
+ },
+ {
+  "name": "흘러",
+  "verdict": "이름 아님",
+  "reason": "조사·어미를 떼다 남은 조각이거나 일반 낱말"
+ }
+]
