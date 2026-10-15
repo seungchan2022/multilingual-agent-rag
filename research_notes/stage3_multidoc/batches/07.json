@@ -1,0 +1,788 @@
+[
+ {
+  "name": "대폭",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    395
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "대학원",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    323,
+    327
+   ],
+   "wiki-ko-sejong": [
+    437
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "대형",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    96,
+    302
+   ],
+   "wiki-ko-cheongju": [
+    177
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "더욱",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    375
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    9
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "도농복합형태",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    53
+   ],
+   "wiki-ko-chuncheon": [
+    51
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "도시이자",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    78
+   ],
+   "wiki-ko-gwangju": [
+    102
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "동경",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    27,
+    39,
+    71,
+    72
+   ],
+   "wiki-ko-jeonju": [
+    86
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "동구",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    369
+   ],
+   "wiki-ko-gwangju": [
+    73,
+    75,
+    81,
+    173,
+    427,
+    429,
+    455,
+    463,
+    515,
+    515,
+    515,
+    516,
+    516,
+    517,
+    517,
+    536,
+    570,
+    571,
+    572,
+    573,
+    669
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "동남부",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    25
+   ],
+   "wiki-ko-cheongju": [
+    76
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "동부",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    88
+   ],
+   "wiki-ko-gwangju": [
+    48,
+    52,
+    625
+   ],
+   "wiki-ko-cheongju": [
+    39,
+    39
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "들어설",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    192
+   ],
+   "wiki-ko-sejong": [
+    449
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "등으",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    27,
+    27
+   ],
+   "wiki-ko-sejong": [
+    40
+   ],
+   "wiki-ko-jeonju": [
+    163
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "등장",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    33
+   ],
+   "wiki-ko-gwangju": [
+    36
+   ],
+   "wiki-ko-cheonan": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "등재",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    190,
+    208
+   ],
+   "wiki-ko-sejong": [
+    449
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "때의",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    186
+   ],
+   "wiki-ko-chuncheon": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "떨어져",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    65,
+    65
+   ],
+   "wiki-ko-cheongju": [
+    338
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "리그명",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    336
+   ],
+   "wiki-ko-gwangju": [
+    599
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "마라톤",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    274,
+    275,
+    282,
+    282,
+    350
+   ],
+   "wiki-ko-chuncheon": [
+    363,
+    363,
+    364
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "많이",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    157
+   ],
+   "wiki-ko-jeonju": [
+    123
+   ],
+   "wiki-ko-cheonan": [
+    191
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "머리",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    41
+   ],
+   "wiki-ko-jeonju": [
+    220
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "몇몇",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    196
+   ],
+   "wiki-ko-gwangju": [
+    657
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "모두",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    375
+   ],
+   "wiki-ko-sejong": [
+    244,
+    250,
+    459
+   ],
+   "wiki-ko-jeonju": [
+    155
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "문화시설",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    470
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "문화재자료",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    188
+   ],
+   "wiki-ko-sejong": [
+    275
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "밀집",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    234
+   ],
+   "wiki-ko-jeonju": [
+    123
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "밀집해",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    306
+   ],
+   "wiki-ko-cheonan": [
+    191
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "발전",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    51,
+    192
+   ],
+   "wiki-ko-sejong": [
+    44,
+    435,
+    475
+   ],
+   "wiki-ko-gwangju": [
+    96,
+    339,
+    393
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "방송",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    482
+   ],
+   "wiki-ko-chuncheon": [
+    525
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "방송사",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    266
+   ],
+   "wiki-ko-gwangju": [
+    169
+   ],
+   "wiki-ko-cheongju": [
+    414
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "버섯",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    280
+   ],
+   "wiki-ko-cheonan": [
+    185
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "번영",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    35
+   ],
+   "wiki-ko-cheonan": [
+    6
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "본사",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    436,
+    437
+   ],
+   "wiki-ko-gwangju": [
+    28
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "부문",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    286
+   ],
+   "wiki-ko-cheonan": [
+    164,
+    168
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "북구",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    367,
+    401,
+    405
+   ],
+   "wiki-ko-gwangju": [
+    42,
+    42,
+    54,
+    73,
+    75,
+    75,
+    77,
+    77,
+    84,
+    171,
+    173,
+    428,
+    436,
+    453,
+    454,
+    456,
+    458,
+    460,
+    462,
+    521,
+    521,
+    522,
+    522,
+    523,
+    523,
+    524,
+    524,
+    525,
+    525,
+    583,
+    584,
+    585,
+    586,
+    587
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "북동부",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    88
+   ],
+   "wiki-ko-cheongju": [
+    31
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "북서쪽",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    63
+   ],
+   "wiki-ko-jeonju": [
+    88,
+    90
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "북위",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    73,
+    74
+   ],
+   "wiki-ko-jeonju": [
+    86
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "북한군",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    47
+   ],
+   "wiki-ko-chuncheon": [
+    43
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "비롯해",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    321
+   ],
+   "wiki-ko-chuncheon": [
+    267
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "사과",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    294
+   ],
+   "wiki-ko-chuncheon": [
+    214
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "사찰",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    29,
+    186,
+    217,
+    224,
+    228,
+    230
+   ],
+   "wiki-ko-cheonan": [
+    29
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "산맥",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    82
+   ],
+   "wiki-ko-gwangju": [
+    48
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "산성",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    29
+   ],
+   "wiki-ko-cheongju": [
+    367
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "산시성",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    517
+   ],
+   "wiki-ko-gwangju": [
+    685
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "산이",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    80
+   ],
+   "wiki-ko-jeonju": [
+    86
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "산책로",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    344
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7,
+    9
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "상태",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    43
+   ],
+   "wiki-ko-sejong": [
+    228,
+    230
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "생산",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    286,
+    296
+   ],
+   "wiki-ko-gwangju": [
+    346
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "생산되",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    296
+   ],
+   "wiki-ko-jeonju": [
+    232
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "서비스",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    286,
+    302
+   ],
+   "wiki-ko-sejong": [
+    432
+   ],
+   "wiki-ko-gwangju": [
+    390
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "서비스업",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    288,
+    290,
+    300
+   ],
+   "wiki-ko-gwangju": [
+    98
+   ],
+   "wiki-ko-cheonan": [
+    164,
+    168
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "선거",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    110
+   ],
+   "wiki-ko-sejong": [
+    44
+   ],
+   "wiki-ko-chuncheon": [
+    178,
+    180,
+    180,
+    180,
+    180,
+    182,
+    182,
+    184,
+    184,
+    184,
+    186
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ },
+ {
+  "name": "선거구",
+  "docs": {
+   "wiki-ko-gyeongju": [
+    110
+   ],
+   "wiki-ko-jeonju": [
+    171,
+    171,
+    171,
+    171,
+    171
+   ],
+   "wiki-ko-chuncheon": [
+    196,
+    196,
+    198
+   ]
+  },
+  "owner": "wiki-ko-gyeongju"
+ }
+]

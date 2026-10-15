@@ -1,0 +1,479 @@
+[
+ {
+  "name": "NC",
+  "docs": {
+   "wiki-ko-gwangju": [
+    429
+   ],
+   "wiki-ko-jeonju": [
+    350
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "NC백화점",
+  "docs": {
+   "wiki-ko-gwangju": [
+    428
+   ],
+   "wiki-ko-cheongju": [
+    172
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "WAVE",
+  "docs": {
+   "wiki-ko-gwangju": [
+    429
+   ],
+   "wiki-ko-jeonju": [
+    350
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "가공",
+  "docs": {
+   "wiki-ko-gwangju": [
+    400
+   ],
+   "wiki-ko-cheonan": [
+    195
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "간의",
+  "docs": {
+   "wiki-ko-gwangju": [
+    348
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "거점",
+  "docs": {
+   "wiki-ko-gwangju": [
+    98
+   ],
+   "wiki-ko-chuncheon": [
+    23
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "검찰청",
+  "docs": {
+   "wiki-ko-gwangju": [
+    173,
+    173
+   ],
+   "wiki-ko-cheonan": [
+    366
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "경공업",
+  "docs": {
+   "wiki-ko-gwangju": [
+    98
+   ],
+   "wiki-ko-cheongju": [
+    144
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "공공도서관",
+  "docs": {
+   "wiki-ko-gwangju": [
+    639
+   ],
+   "wiki-ko-cheonan": [
+    140
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "광산",
+  "docs": {
+   "wiki-ko-gwangju": [
+    649
+   ],
+   "wiki-ko-chuncheon": [
+    86
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "광주고등법원",
+  "docs": {
+   "wiki-ko-gwangju": [
+    203
+   ],
+   "wiki-ko-jeonju": [
+    135
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "광주지방고용노동청",
+  "docs": {
+   "wiki-ko-gwangju": [
+    188
+   ],
+   "wiki-ko-jeonju": [
+    141
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "광주지방보훈청",
+  "docs": {
+   "wiki-ko-gwangju": [
+    186
+   ],
+   "wiki-ko-jeonju": [
+    140
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "구청",
+  "docs": {
+   "wiki-ko-gwangju": [
+    657
+   ],
+   "wiki-ko-cheongju": [
+    123
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "국내",
+  "docs": {
+   "wiki-ko-gwangju": [
+    338
+   ],
+   "wiki-ko-jeonju": [
+    274
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "기업",
+  "docs": {
+   "wiki-ko-gwangju": [
+    340,
+    346,
+    347,
+    349
+   ],
+   "wiki-ko-cheongju": [
+    144
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "노령산맥",
+  "docs": {
+   "wiki-ko-gwangju": [
+    48,
+    48
+   ],
+   "wiki-ko-jeonju": [
+    86,
+    88
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "농산물도매시장",
+  "docs": {
+   "wiki-ko-gwangju": [
+    421
+   ],
+   "wiki-ko-chuncheon": [
+    226
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "농수산물도매시장",
+  "docs": {
+   "wiki-ko-gwangju": [
+    422
+   ],
+   "wiki-ko-cheongju": [
+    155
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "담당",
+  "docs": {
+   "wiki-ko-gwangju": [
+    173,
+    173
+   ],
+   "wiki-ko-cheonan": [
+    309
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "대체",
+  "docs": {
+   "wiki-ko-gwangju": [
+    48,
+    52
+   ],
+   "wiki-ko-jeonju": [
+    90
+   ],
+   "wiki-ko-cheongju": [
+    76
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "랴오닝성",
+  "docs": {
+   "wiki-ko-gwangju": [
+    711
+   ],
+   "wiki-ko-chuncheon": [
+    560,
+    561
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "롯데백화점",
+  "docs": {
+   "wiki-ko-gwangju": [
+    427
+   ],
+   "wiki-ko-jeonju": [
+    346
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "롯데아울렛",
+  "docs": {
+   "wiki-ko-gwangju": [
+    430
+   ],
+   "wiki-ko-cheongju": [
+    173
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "먹거리",
+  "docs": {
+   "wiki-ko-gwangju": [
+    562
+   ],
+   "wiki-ko-cheonan": [
+    187
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "명소",
+  "docs": {
+   "wiki-ko-gwangju": [
+    477
+   ],
+   "wiki-ko-jeonju": [
+    23
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "명이",
+  "docs": {
+   "wiki-ko-gwangju": [
+    167,
+    255
+   ],
+   "wiki-ko-cheongju": [
+    21
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "미술관",
+  "docs": {
+   "wiki-ko-gwangju": [
+    449,
+    459
+   ],
+   "wiki-ko-cheongju": [
+    231,
+    306,
+    314
+   ],
+   "wiki-ko-chuncheon": [
+    314,
+    318,
+    322,
+    326
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "번화가",
+  "docs": {
+   "wiki-ko-gwangju": [
+    75
+   ],
+   "wiki-ko-jeonju": [
+    322
+   ],
+   "wiki-ko-cheongju": [
+    150
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "법원",
+  "docs": {
+   "wiki-ko-gwangju": [
+    173,
+    173
+   ],
+   "wiki-ko-jeonju": [
+    159
+   ],
+   "wiki-ko-cheonan": [
+    366
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "본래",
+  "docs": {
+   "wiki-ko-gwangju": [
+    663
+   ],
+   "wiki-ko-chuncheon": [
+    57,
+    58
+   ],
+   "wiki-ko-cheonan": [
+    29
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "부설",
+  "docs": {
+   "wiki-ko-gwangju": [
+    241
+   ],
+   "wiki-ko-chuncheon": [
+    438,
+    438
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "부족",
+  "docs": {
+   "wiki-ko-gwangju": [
+    336
+   ],
+   "wiki-ko-chuncheon": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "삼한시대",
+  "docs": {
+   "wiki-ko-gwangju": [
+    36
+   ],
+   "wiki-ko-cheongju": [
+    35,
+    43
+   ],
+   "wiki-ko-cheonan": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "상급종합병원",
+  "docs": {
+   "wiki-ko-gwangju": [
+    257
+   ],
+   "wiki-ko-jeonju": [
+    365
+   ],
+   "wiki-ko-cheongju": [
+    436
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "새로",
+  "docs": {
+   "wiki-ko-gwangju": [
+    651
+   ],
+   "wiki-ko-cheongju": [
+    105,
+    125
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ }
+]

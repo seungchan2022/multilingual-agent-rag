@@ -1,0 +1,448 @@
+[
+ {
+  "name": "고속국",
+  "docs": {
+   "wiki-ko-cheongju": [
+    356,
+    358,
+    359,
+    360
+   ],
+   "wiki-ko-chuncheon": [
+    383,
+    385
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "공주부",
+  "docs": {
+   "wiki-ko-cheongju": [
+    49
+   ],
+   "wiki-ko-cheonan": [
+    31
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "당진청주고속도",
+  "docs": {
+   "wiki-ko-cheongju": [
+    359
+   ],
+   "wiki-ko-cheonan": [
+    23,
+    291
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "대전지방고용노동청",
+  "docs": {
+   "wiki-ko-cheongju": [
+    388
+   ],
+   "wiki-ko-cheonan": [
+    389
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "대전지방국세청",
+  "docs": {
+   "wiki-ko-cheongju": [
+    384
+   ],
+   "wiki-ko-cheonan": [
+    390
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "대전지방기상청",
+  "docs": {
+   "wiki-ko-cheongju": [
+    390
+   ],
+   "wiki-ko-cheonan": [
+    391
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "대청호반",
+  "docs": {
+   "wiki-ko-cheongju": [
+    366
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "동종",
+  "docs": {
+   "wiki-ko-cheongju": [
+    276
+   ],
+   "wiki-ko-cheonan": [
+    138
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "롯데웰푸드",
+  "docs": {
+   "wiki-ko-cheongju": [
+    144
+   ],
+   "wiki-ko-cheonan": [
+    170
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "문화동",
+  "docs": {
+   "wiki-ko-cheongju": [
+    381
+   ],
+   "wiki-ko-cheonan": [
+    23,
+    43
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "별장",
+  "docs": {
+   "wiki-ko-cheongju": [
+    290,
+    290
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "봉명동",
+  "docs": {
+   "wiki-ko-cheongju": [
+    155,
+    167,
+    175,
+    391,
+    392
+   ],
+   "wiki-ko-cheonan": [
+    108
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "삼성SDI",
+  "docs": {
+   "wiki-ko-cheongju": [
+    144
+   ],
+   "wiki-ko-cheonan": [
+    173
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "상당구",
+  "docs": {
+   "wiki-ko-cheongju": [
+    8,
+    10,
+    31,
+    31,
+    59,
+    64,
+    68,
+    103,
+    103,
+    105,
+    111,
+    111,
+    121,
+    125,
+    131,
+    150,
+    154,
+    160,
+    161,
+    180,
+    181,
+    182,
+    212,
+    214,
+    226,
+    233,
+    236,
+    265,
+    266,
+    290,
+    298,
+    302,
+    381,
+    384,
+    419,
+    422,
+    427,
+    429,
+    441,
+    442
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    3
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "수동",
+  "docs": {
+   "wiki-ko-cheongju": [
+    214,
+    298,
+    427
+   ],
+   "wiki-ko-chuncheon": [
+    218
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "수집",
+  "docs": {
+   "wiki-ko-cheongju": [
+    302
+   ],
+   "wiki-ko-cheonan": [
+    122
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "시외",
+  "docs": {
+   "wiki-ko-cheongju": [
+    374
+   ],
+   "wiki-ko-chuncheon": [
+    399
+   ],
+   "wiki-ko-cheonan": [
+    305
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "신축",
+  "docs": {
+   "wiki-ko-cheongju": [
+    125
+   ],
+   "wiki-ko-chuncheon": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "이글스",
+  "docs": {
+   "wiki-ko-cheongju": [
+    451
+   ],
+   "wiki-ko-chuncheon": [
+    412
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "임시청사",
+  "docs": {
+   "wiki-ko-cheongju": [
+    121
+   ],
+   "wiki-ko-chuncheon": [
+    57
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "전망대",
+  "docs": {
+   "wiki-ko-cheongju": [
+    298,
+    298
+   ],
+   "wiki-ko-chuncheon": [
+    267,
+    332
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    9,
+    9,
+    9
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "조례",
+  "docs": {
+   "wiki-ko-cheongju": [
+    68
+   ],
+   "wiki-ko-chuncheon": [
+    56
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "진천",
+  "docs": {
+   "wiki-ko-cheongju": [
+    360
+   ],
+   "wiki-ko-cheonan": [
+    53,
+    53
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "진천군",
+  "docs": {
+   "wiki-ko-cheongju": [
+    29
+   ],
+   "wiki-ko-cheonan": [
+    23,
+    53,
+    53,
+    295
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "천안아산역",
+  "docs": {
+   "wiki-ko-cheongju": [
+    342
+   ],
+   "wiki-ko-cheonan": [
+    281
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "청남대",
+  "docs": {
+   "wiki-ko-cheongju": [
+    288,
+    290
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    1,
+    7,
+    7,
+    7,
+    7
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "체육",
+  "docs": {
+   "wiki-ko-cheongju": [
+    253
+   ],
+   "wiki-ko-chuncheon": [
+    416
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "충주",
+  "docs": {
+   "wiki-ko-cheongju": [
+    39,
+    50
+   ],
+   "wiki-ko-chuncheon": [
+    43
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "충청지방통계청",
+  "docs": {
+   "wiki-ko-cheongju": [
+    391
+   ],
+   "wiki-ko-cheonan": [
+    396
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "투표",
+  "docs": {
+   "wiki-ko-cheongju": [
+    39,
+    68
+   ],
+   "wiki-ko-chuncheon": [
+    180,
+    180
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ },
+ {
+  "name": "한눈",
+  "docs": {
+   "wiki-ko-cheongju": [
+    298
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    9
+   ]
+  },
+  "owner": "wiki-ko-cheongju"
+ }
+]

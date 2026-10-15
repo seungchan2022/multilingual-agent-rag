@@ -1,0 +1,828 @@
+[
+ {
+  "name": "이관",
+  "docs": {
+   "wiki-ko-sejong": [
+    275
+   ],
+   "wiki-ko-chuncheon": [
+    45
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "이내",
+  "docs": {
+   "wiki-ko-sejong": [
+    250,
+    289
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "이동",
+  "docs": {
+   "wiki-ko-sejong": [
+    44
+   ],
+   "wiki-ko-gwangju": [
+    52
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "이로써",
+  "docs": {
+   "wiki-ko-sejong": [
+    449
+   ],
+   "wiki-ko-gwangju": [
+    98
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "이명박",
+  "docs": {
+   "wiki-ko-sejong": [
+    50,
+    50,
+    50,
+    52,
+    52,
+    52
+   ],
+   "wiki-ko-chuncheon": [
+    184
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "이혼",
+  "docs": {
+   "wiki-ko-sejong": [
+    163
+   ],
+   "wiki-ko-gwangju": [
+    132
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "인구동태",
+  "docs": {
+   "wiki-ko-sejong": [
+    161
+   ],
+   "wiki-ko-gwangju": [
+    130
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "인구추",
+  "docs": {
+   "wiki-ko-sejong": [
+    144
+   ],
+   "wiki-ko-gwangju": [
+    104
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "인력",
+  "docs": {
+   "wiki-ko-sejong": [
+    40
+   ],
+   "wiki-ko-gwangju": [
+    336,
+    346,
+    348
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "입장",
+  "docs": {
+   "wiki-ko-sejong": [
+    445,
+    445,
+    447,
+    447,
+    451,
+    457
+   ],
+   "wiki-ko-cheonan": [
+    180
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "입주",
+  "docs": {
+   "wiki-ko-sejong": [
+    432,
+    432
+   ],
+   "wiki-ko-gwangju": [
+    400,
+    400
+   ],
+   "wiki-ko-jeonju": [
+    159
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "자동차",
+  "docs": {
+   "wiki-ko-sejong": [
+    234,
+    234
+   ],
+   "wiki-ko-gwangju": [
+    307,
+    312,
+    380
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "자치구",
+  "docs": {
+   "wiki-ko-sejong": [
+    449
+   ],
+   "wiki-ko-gwangju": [
+    73,
+    79,
+    509
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "자치단체",
+  "docs": {
+   "wiki-ko-sejong": [
+    451,
+    481
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "전문",
+  "docs": {
+   "wiki-ko-sejong": [
+    40
+   ],
+   "wiki-ko-gwangju": [
+    340,
+    348
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "전역",
+  "docs": {
+   "wiki-ko-sejong": [
+    132
+   ],
+   "wiki-ko-gwangju": [
+    657
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "접근성",
+  "docs": {
+   "wiki-ko-sejong": [
+    250
+   ],
+   "wiki-ko-chuncheon": [
+    369
+   ],
+   "wiki-ko-cheonan": [
+    281
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "정보",
+  "docs": {
+   "wiki-ko-sejong": [
+    234
+   ],
+   "wiki-ko-gwangju": [
+    443,
+    657,
+    657
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    11
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "정부",
+  "docs": {
+   "wiki-ko-sejong": [
+    40,
+    48,
+    50,
+    50,
+    52,
+    52,
+    132,
+    136,
+    443,
+    447,
+    449,
+    451,
+    451,
+    451,
+    457,
+    465,
+    465,
+    465,
+    467,
+    473,
+    473,
+    473,
+    475,
+    479,
+    495
+   ],
+   "wiki-ko-gwangju": [
+    24,
+    337
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "정체",
+  "docs": {
+   "wiki-ko-sejong": [
+    142
+   ],
+   "wiki-ko-gwangju": [
+    102
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "조치원역",
+  "docs": {
+   "wiki-ko-sejong": [
+    238,
+    238,
+    244
+   ],
+   "wiki-ko-cheongju": [
+    347
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "종전",
+  "docs": {
+   "wiki-ko-sejong": [
+    30,
+    479,
+    479
+   ],
+   "wiki-ko-jeonju": [
+    396
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "종점",
+  "docs": {
+   "wiki-ko-sejong": [
+    240
+   ],
+   "wiki-ko-chuncheon": [
+    23
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "주거지역",
+  "docs": {
+   "wiki-ko-sejong": [
+    42
+   ],
+   "wiki-ko-jeonju": [
+    123
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "주민투표",
+  "docs": {
+   "wiki-ko-sejong": [
+    447,
+    451,
+    451
+   ],
+   "wiki-ko-jeonju": [
+    129
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "지금",
+  "docs": {
+   "wiki-ko-sejong": [
+    469
+   ],
+   "wiki-ko-gwangju": [
+    24,
+    653
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "지방선거",
+  "docs": {
+   "wiki-ko-sejong": [
+    52
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "지식경제부",
+  "docs": {
+   "wiki-ko-sejong": [
+    197,
+    216
+   ],
+   "wiki-ko-gwangju": [
+    349
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "지원",
+  "docs": {
+   "wiki-ko-sejong": [
+    459,
+    463,
+    465
+   ],
+   "wiki-ko-gwangju": [
+    336,
+    337,
+    337,
+    339,
+    339,
+    340,
+    346,
+    348,
+    349,
+    390,
+    649
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "천안",
+  "docs": {
+   "wiki-ko-sejong": [
+    40
+   ],
+   "wiki-ko-cheonan": [
+    23,
+    27,
+    27,
+    27,
+    53,
+    53,
+    156,
+    183,
+    184,
+    185,
+    191,
+    191,
+    212,
+    217,
+    219,
+    228,
+    229,
+    230,
+    231,
+    290,
+    290,
+    291,
+    292
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "천연기념물",
+  "docs": {
+   "wiki-ko-sejong": [
+    269,
+    271
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "청와대",
+  "docs": {
+   "wiki-ko-sejong": [
+    44,
+    44,
+    485,
+    487,
+    491,
+    493
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "청원군",
+  "docs": {
+   "wiki-ko-sejong": [
+    34,
+    34,
+    81,
+    132,
+    451,
+    457,
+    465
+   ],
+   "wiki-ko-cheongju": [
+    29,
+    39,
+    39,
+    39,
+    53,
+    55,
+    56,
+    56,
+    58,
+    60,
+    61,
+    62,
+    63,
+    64,
+    64,
+    66,
+    68,
+    68,
+    68,
+    101,
+    103,
+    105,
+    125,
+    125
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "청주",
+  "docs": {
+   "wiki-ko-sejong": [
+    134,
+    232
+   ],
+   "wiki-ko-cheongju": [
+    22,
+    37,
+    37,
+    39,
+    47,
+    50,
+    68,
+    68,
+    144,
+    273,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    338,
+    352,
+    356,
+    356,
+    358,
+    436,
+    455,
+    459,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "청주국제공항",
+  "docs": {
+   "wiki-ko-sejong": [
+    232
+   ],
+   "wiki-ko-cheongju": [
+    334
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "체결",
+  "docs": {
+   "wiki-ko-sejong": [
+    439
+   ],
+   "wiki-ko-chuncheon": [
+    544,
+    557
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "출범",
+  "docs": {
+   "wiki-ko-sejong": [
+    34,
+    38,
+    50,
+    54,
+    56,
+    117,
+    117,
+    117,
+    132,
+    132,
+    134,
+    252,
+    275
+   ],
+   "wiki-ko-cheongju": [
+    39,
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "출생",
+  "docs": {
+   "wiki-ko-sejong": [
+    163
+   ],
+   "wiki-ko-gwangju": [
+    132
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "충남",
+  "docs": {
+   "wiki-ko-sejong": [
+    449,
+    457,
+    457,
+    463,
+    465
+   ],
+   "wiki-ko-cheonan": [
+    195
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "충북",
+  "docs": {
+   "wiki-ko-sejong": [
+    457,
+    465
+   ],
+   "wiki-ko-cheongju": [
+    459
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "충청",
+  "docs": {
+   "wiki-ko-sejong": [
+    18,
+    52
+   ],
+   "wiki-ko-cheongju": [
+    16
+   ],
+   "wiki-ko-cheonan": [
+    31
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "충청북도청",
+  "docs": {
+   "wiki-ko-sejong": [
+    447,
+    447,
+    451
+   ],
+   "wiki-ko-cheongju": [
+    29,
+    381
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "치러진",
+  "docs": {
+   "wiki-ko-sejong": [
+    52
+   ],
+   "wiki-ko-chuncheon": [
+    182,
+    186
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "특별법",
+  "docs": {
+   "wiki-ko-sejong": [
+    48,
+    459,
+    473
+   ],
+   "wiki-ko-gwangju": [
+    90
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "향상",
+  "docs": {
+   "wiki-ko-sejong": [
+    250
+   ],
+   "wiki-ko-gwangju": [
+    338
+   ],
+   "wiki-ko-cheonan": [
+    281
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "형상화",
+  "docs": {
+   "wiki-ko-sejong": [
+    250
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "호남선",
+  "docs": {
+   "wiki-ko-sejong": [
+    240
+   ],
+   "wiki-ko-gwangju": [
+    24,
+    96,
+    661,
+    665,
+    665
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "확장",
+  "docs": {
+   "wiki-ko-sejong": [
+    230
+   ],
+   "wiki-ko-gwangju": [
+    52,
+    52
+   ],
+   "wiki-ko-jeonju": [
+    129
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "환경",
+  "docs": {
+   "wiki-ko-sejong": [
+    457
+   ],
+   "wiki-ko-gwangju": [
+    338
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "환승",
+  "docs": {
+   "wiki-ko-sejong": [
+    228
+   ],
+   "wiki-ko-gwangju": [
+    657
+   ],
+   "wiki-ko-cheonan": [
+    281
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ }
+]

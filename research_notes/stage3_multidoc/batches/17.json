@@ -1,0 +1,395 @@
+[
+ {
+  "name": "데이터기준일자",
+  "docs": {
+   "portal-ko-suwon-population": [
+    3
+   ],
+   "portal-ko-jeonju-population": [
+    3
+   ]
+  },
+  "owner": "portal-ko-suwon-population"
+ },
+ {
+  "name": "세대수",
+  "docs": {
+   "portal-ko-suwon-population": [
+    3
+   ],
+   "wiki-ko-sejong": [
+    84
+   ],
+   "portal-ko-jeonju-population": [
+    3
+   ]
+  },
+  "owner": "portal-ko-suwon-population"
+ },
+ {
+  "name": "인구수",
+  "docs": {
+   "portal-ko-suwon-population": [
+    3,
+    3,
+    3
+   ],
+   "portal-ko-jeonju-population": [
+    3,
+    3,
+    3
+   ]
+  },
+  "owner": "portal-ko-suwon-population"
+ },
+ {
+  "name": "인구현황",
+  "docs": {
+   "portal-ko-suwon-population": [
+    1
+   ],
+   "portal-ko-jeonju-population": [
+    1
+   ]
+  },
+  "owner": "portal-ko-suwon-population"
+ },
+ {
+  "name": "평동",
+  "docs": {
+   "portal-ko-suwon-population": [
+    18
+   ],
+   "wiki-ko-gwangju": [
+    28
+   ]
+  },
+  "owner": "portal-ko-suwon-population"
+ },
+ {
+  "name": "개의",
+  "docs": {
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ],
+   "wiki-ko-cheongju": [
+    144
+   ]
+  },
+  "owner": "kto-ko-jeonju-hanok-village"
+ },
+ {
+  "name": "바닥",
+  "docs": {
+   "kto-ko-jeonju-hanok-village": [
+    11
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7,
+    13
+   ]
+  },
+  "owner": "kto-ko-jeonju-hanok-village"
+ },
+ {
+  "name": "아름다운",
+  "docs": {
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ],
+   "wiki-ko-cheongju": [
+    298
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7,
+    9,
+    13
+   ]
+  },
+  "owner": "kto-ko-jeonju-hanok-village"
+ },
+ {
+  "name": "강원특별자치",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    8,
+    23
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    3
+   ],
+   "wiki-ko-cheonan": [
+    405
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "모다아울렛",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    234
+   ],
+   "wiki-ko-cheonan": [
+    203
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "물놀이장",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    287
+   ],
+   "kto-ko-cheonan-samgeori-park": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "서북부",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    62
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "서울로",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    369
+   ],
+   "wiki-ko-cheonan": [
+    281
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "오이",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    214
+   ],
+   "wiki-ko-cheonan": [
+    184
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "의암호",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    23,
+    267,
+    298,
+    299
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7,
+    7,
+    9,
+    9,
+    13
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "인제군",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    48,
+    62
+   ],
+   "wiki-ko-cheonan": [
+    405
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "청춘",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    369,
+    377
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    13
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "춘천",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    27,
+    27,
+    43,
+    43,
+    43,
+    62,
+    86,
+    86,
+    192,
+    218,
+    250,
+    251,
+    259,
+    267,
+    308,
+    310,
+    311,
+    312,
+    334,
+    348,
+    353,
+    369,
+    369,
+    369,
+    369,
+    383,
+    383,
+    385,
+    412,
+    413,
+    414
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    1,
+    7,
+    9,
+    13
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "춘천시",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    1,
+    3,
+    8,
+    10,
+    10,
+    23,
+    42,
+    48,
+    51,
+    51,
+    56,
+    62,
+    62,
+    66,
+    68,
+    86,
+    86,
+    90,
+    123,
+    124,
+    125,
+    126,
+    130,
+    152,
+    154,
+    180,
+    196,
+    208,
+    404
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    3
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "호수",
+  "docs": {
+   "wiki-ko-chuncheon": [
+    23,
+    62,
+    267,
+    290
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7,
+    13,
+    13
+   ]
+  },
+  "owner": "wiki-ko-chuncheon"
+ },
+ {
+  "name": "편의",
+  "docs": {
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    9
+   ],
+   "wiki-ko-cheonan": [
+    29
+   ]
+  },
+  "owner": "kto-ko-chuncheon-samaksan-cable-car"
+ },
+ {
+  "name": "cheonan",
+  "docs": {
+   "wiki-ko-cheonan": [
+    19
+   ],
+   "kto-ko-cheonan-samgeori-park": [
+    5
+   ]
+  },
+  "owner": "wiki-ko-cheonan"
+ },
+ {
+  "name": "동남구",
+  "docs": {
+   "wiki-ko-cheonan": [
+    46,
+    49,
+    57,
+    113,
+    142,
+    147,
+    150,
+    151,
+    152,
+    202,
+    207,
+    216,
+    217
+   ],
+   "kto-ko-cheonan-samgeori-park": [
+    3
+   ]
+  },
+  "owner": "wiki-ko-cheonan"
+ },
+ {
+  "name": "흥타령",
+  "docs": {
+   "wiki-ko-cheonan": [
+    156,
+    230
+   ],
+   "kto-ko-cheonan-samgeori-park": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-cheonan"
+ }
+]

@@ -1,0 +1,731 @@
+[
+ {
+  "name": "FK리그",
+  "docs": {
+   "wiki-ko-jeonju": [
+    470
+   ],
+   "wiki-ko-cheongju": [
+    467
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "jeonju",
+  "docs": {
+   "wiki-ko-jeonju": [
+    19
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    5
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "경기전",
+  "docs": {
+   "wiki-ko-jeonju": [
+    23,
+    226,
+    228,
+    232,
+    236
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "관광객",
+  "docs": {
+   "wiki-ko-jeonju": [
+    123
+   ],
+   "wiki-ko-chuncheon": [
+    267
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "교동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    232
+   ],
+   "wiki-ko-chuncheon": [
+    105,
+    204
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "군락",
+  "docs": {
+   "wiki-ko-jeonju": [
+    232
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "금암동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    125,
+    280,
+    367,
+    394
+   ],
+   "portal-ko-jeonju-population": [
+    29
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "남노송동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    291
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    3
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "대곡리",
+  "docs": {
+   "wiki-ko-jeonju": [
+    163
+   ],
+   "wiki-ko-chuncheon": [
+    123
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "대학부속병원",
+  "docs": {
+   "wiki-ko-jeonju": [
+    365
+   ],
+   "wiki-ko-cheongju": [
+    436
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "덕진동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    125,
+    253,
+    255,
+    257,
+    371
+   ],
+   "portal-ko-jeonju-population": [
+    28
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "뒤에",
+  "docs": {
+   "wiki-ko-jeonju": [
+    45
+   ],
+   "wiki-ko-cheongju": [
+    298
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "백제시대",
+  "docs": {
+   "wiki-ko-jeonju": [
+    36
+   ],
+   "wiki-ko-cheongju": [
+    35,
+    44
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "부설고등학교",
+  "docs": {
+   "wiki-ko-jeonju": [
+    444,
+    455
+   ],
+   "wiki-ko-chuncheon": [
+    433
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "북동쪽",
+  "docs": {
+   "wiki-ko-jeonju": [
+    396
+   ],
+   "wiki-ko-cheongju": [
+    29
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "사범대학",
+  "docs": {
+   "wiki-ko-jeonju": [
+    444,
+    455
+   ],
+   "wiki-ko-chuncheon": [
+    433
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "삼천동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    167,
+    274,
+    282
+   ],
+   "wiki-ko-chuncheon": [
+    55
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "서남부지역",
+  "docs": {
+   "wiki-ko-jeonju": [
+    167
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "서신동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    284,
+    346,
+    381
+   ],
+   "portal-ko-jeonju-population": [
+    13
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "성종",
+  "docs": {
+   "wiki-ko-jeonju": [
+    40,
+    224
+   ],
+   "wiki-ko-cheongju": [
+    48
+   ],
+   "wiki-ko-chuncheon": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "세계",
+  "docs": {
+   "wiki-ko-jeonju": [
+    267
+   ],
+   "wiki-ko-cheongju": [
+    37
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "소양",
+  "docs": {
+   "wiki-ko-jeonju": [
+    392
+   ],
+   "wiki-ko-chuncheon": [
+    391
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "시이자",
+  "docs": {
+   "wiki-ko-jeonju": [
+    21
+   ],
+   "wiki-ko-chuncheon": [
+    23
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "십이목",
+  "docs": {
+   "wiki-ko-jeonju": [
+    40
+   ],
+   "wiki-ko-cheongju": [
+    48
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "완산구",
+  "docs": {
+   "wiki-ko-jeonju": [
+    6,
+    21,
+    74,
+    77,
+    119,
+    123,
+    171,
+    171,
+    228,
+    236,
+    254,
+    258,
+    278,
+    279,
+    282,
+    284,
+    285,
+    289,
+    291,
+    292,
+    322,
+    326,
+    334,
+    336,
+    337,
+    338,
+    346,
+    347,
+    348,
+    350,
+    368,
+    369,
+    372,
+    377,
+    379,
+    380,
+    381,
+    382,
+    383,
+    386,
+    387,
+    388
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    3
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "우호",
+  "docs": {
+   "wiki-ko-jeonju": [
+    483,
+    485
+   ],
+   "wiki-ko-chuncheon": [
+    555
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "원도심",
+  "docs": {
+   "wiki-ko-jeonju": [
+    123,
+    123,
+    123,
+    125
+   ],
+   "wiki-ko-cheonan": [
+    23
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "유수부",
+  "docs": {
+   "wiki-ko-jeonju": [
+    51
+   ],
+   "wiki-ko-chuncheon": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "이유",
+  "docs": {
+   "wiki-ko-jeonju": [
+    51
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "장항선",
+  "docs": {
+   "wiki-ko-jeonju": [
+    396
+   ],
+   "wiki-ko-cheonan": [
+    23,
+    23,
+    53,
+    281,
+    281,
+    281,
+    285
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "전국대도시시장협의회",
+  "docs": {
+   "wiki-ko-jeonju": [
+    23
+   ],
+   "wiki-ko-cheonan": [
+    428
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "전라도",
+  "docs": {
+   "wiki-ko-jeonju": [
+    50,
+    50
+   ],
+   "kto-ko-cheonan-samgeori-park": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "전주",
+  "docs": {
+   "wiki-ko-jeonju": [
+    23,
+    29,
+    29,
+    29,
+    29,
+    31,
+    38,
+    39,
+    40,
+    41,
+    42,
+    54,
+    56,
+    94,
+    125,
+    163,
+    220,
+    220,
+    222,
+    224,
+    232,
+    232,
+    240,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    274,
+    274,
+    322,
+    326,
+    365,
+    365,
+    392,
+    398
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    1,
+    7,
+    7,
+    9
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "전주비빔밥",
+  "docs": {
+   "wiki-ko-jeonju": [
+    274
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    15
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "정동영",
+  "docs": {
+   "wiki-ko-jeonju": [
+    8
+   ],
+   "wiki-ko-chuncheon": [
+    184
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "준공",
+  "docs": {
+   "wiki-ko-jeonju": [
+    159,
+    236
+   ],
+   "wiki-ko-chuncheon": [
+    218
+   ],
+   "wiki-ko-cheonan": [
+    122
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "지류",
+  "docs": {
+   "wiki-ko-jeonju": [
+    86,
+    88
+   ],
+   "wiki-ko-cheongju": [
+    74,
+    74
+   ],
+   "wiki-ko-chuncheon": [
+    62
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "진북동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    125,
+    256,
+    290
+   ],
+   "portal-ko-jeonju-population": [
+    24
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "추천",
+  "docs": {
+   "wiki-ko-jeonju": [
+    88,
+    404
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    13
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "태조로",
+  "docs": {
+   "wiki-ko-jeonju": [
+    232
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    9
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "팔복동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    88,
+    396
+   ],
+   "portal-ko-jeonju-population": [
+    30
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "풍남동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    232,
+    258
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    7
+   ],
+   "portal-ko-jeonju-population": [
+    6
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "한국국토정보공사",
+  "docs": {
+   "wiki-ko-jeonju": [
+    155
+   ],
+   "wiki-ko-cheonan": [
+    397
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "한옥생활체험관",
+  "docs": {
+   "wiki-ko-jeonju": [
+    232
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    13,
+    13
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "한화",
+  "docs": {
+   "wiki-ko-jeonju": [
+    29
+   ],
+   "wiki-ko-cheongju": [
+    451
+   ],
+   "wiki-ko-chuncheon": [
+    412
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "혁신동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    155
+   ],
+   "portal-ko-jeonju-population": [
+    39
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "호성동",
+  "docs": {
+   "wiki-ko-jeonju": [
+    163,
+    288
+   ],
+   "portal-ko-jeonju-population": [
+    33
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "환원",
+  "docs": {
+   "wiki-ko-jeonju": [
+    45
+   ],
+   "wiki-ko-chuncheon": [
+    50
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ },
+ {
+  "name": "후백제",
+  "docs": {
+   "wiki-ko-jeonju": [
+    39,
+    39
+   ],
+   "wiki-ko-cheonan": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-jeonju"
+ }
+]

@@ -1,0 +1,760 @@
+[
+ {
+  "name": "브라질",
+  "docs": {
+   "wiki-ko-suwon": [
+    332
+   ],
+   "wiki-ko-cheonan": [
+    415
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "비율",
+  "docs": {
+   "wiki-ko-suwon": [
+    100,
+    123,
+    156
+   ],
+   "wiki-ko-chuncheon": [
+    180
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "비정",
+  "docs": {
+   "wiki-ko-suwon": [
+    37
+   ],
+   "wiki-ko-jeonju": [
+    29
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "사립",
+  "docs": {
+   "wiki-ko-suwon": [
+    179,
+    183,
+    184,
+    186
+   ],
+   "wiki-ko-jeonju": [
+    413
+   ],
+   "wiki-ko-cheonan": [
+    348
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "사업서비스업",
+  "docs": {
+   "wiki-ko-suwon": [
+    127
+   ],
+   "wiki-ko-cheonan": [
+    164,
+    168
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "산악지대",
+  "docs": {
+   "wiki-ko-suwon": [
+    57
+   ],
+   "wiki-ko-gyeongju": [
+    45
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "산업화",
+  "docs": {
+   "wiki-ko-suwon": [
+    33,
+    98
+   ],
+   "wiki-ko-gyeongju": [
+    51
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "삼국",
+  "docs": {
+   "wiki-ko-suwon": [
+    27,
+    37
+   ],
+   "wiki-ko-gyeongju": [
+    430
+   ],
+   "wiki-ko-cheonan": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "삼성전자",
+  "docs": {
+   "wiki-ko-suwon": [
+    33,
+    129,
+    129,
+    139
+   ],
+   "wiki-ko-gwangju": [
+    77
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "서둔동",
+  "docs": {
+   "wiki-ko-suwon": [
+    27,
+    199
+   ],
+   "portal-ko-suwon-population": [
+    19
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "서문",
+  "docs": {
+   "wiki-ko-suwon": [
+    218
+   ],
+   "wiki-ko-jeonju": [
+    220
+   ],
+   "wiki-ko-cheongju": [
+    150
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "선사",
+  "docs": {
+   "wiki-ko-suwon": [
+    27,
+    37
+   ],
+   "wiki-ko-cheongju": [
+    298
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "선정",
+  "docs": {
+   "wiki-ko-suwon": [
+    192,
+    193
+   ],
+   "wiki-ko-sejong": [
+    40,
+    432
+   ],
+   "wiki-ko-jeonju": [
+    274
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "섬유",
+  "docs": {
+   "wiki-ko-suwon": [
+    33,
+    141
+   ],
+   "wiki-ko-cheongju": [
+    144
+   ],
+   "wiki-ko-chuncheon": [
+    218,
+    218
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "성씨",
+  "docs": {
+   "wiki-ko-suwon": [
+    41
+   ],
+   "wiki-ko-cheongju": [
+    469
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "세계문화유산",
+  "docs": {
+   "wiki-ko-suwon": [
+    218
+   ],
+   "wiki-ko-gyeongju": [
+    29,
+    190,
+    208
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "세종대왕",
+  "docs": {
+   "wiki-ko-suwon": [
+    226
+   ],
+   "wiki-ko-sejong": [
+    82,
+    284
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "소국",
+  "docs": {
+   "wiki-ko-suwon": [
+    27
+   ],
+   "wiki-ko-cheonan": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "소나무",
+  "docs": {
+   "wiki-ko-suwon": [
+    18,
+    67,
+    67
+   ],
+   "wiki-ko-gyeongju": [
+    17,
+    342
+   ],
+   "wiki-ko-sejong": [
+    20
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "소우",
+  "docs": {
+   "wiki-ko-suwon": [
+    29,
+    77
+   ],
+   "wiki-ko-cheongju": [
+    80
+   ],
+   "wiki-ko-chuncheon": [
+    66
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "속내",
+  "docs": {
+   "wiki-ko-suwon": [
+    248
+   ],
+   "wiki-ko-sejong": [
+    477
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "송죽동",
+  "docs": {
+   "wiki-ko-suwon": [
+    185
+   ],
+   "portal-ko-suwon-population": [
+    11
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "수가",
+  "docs": {
+   "wiki-ko-suwon": [
+    98
+   ],
+   "wiki-ko-gyeongju": [
+    321
+   ],
+   "wiki-ko-gwangju": [
+    255
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "수계",
+  "docs": {
+   "wiki-ko-suwon": [
+    69
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "수목원",
+  "docs": {
+   "wiki-ko-suwon": [
+    210
+   ],
+   "wiki-ko-chuncheon": [
+    280
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "수원시",
+  "docs": {
+   "wiki-ko-suwon": [
+    1,
+    3,
+    8,
+    25,
+    31,
+    31,
+    31,
+    37,
+    49,
+    49,
+    53,
+    53,
+    57,
+    57,
+    57,
+    57,
+    59,
+    59,
+    59,
+    63,
+    63,
+    67,
+    77,
+    79,
+    98,
+    100,
+    100,
+    100,
+    102,
+    123,
+    127,
+    129,
+    135,
+    143,
+    145,
+    156,
+    162,
+    170,
+    210,
+    230,
+    250,
+    256,
+    262,
+    262,
+    280,
+    280
+   ],
+   "portal-ko-suwon-population": [
+    1
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "수주",
+  "docs": {
+   "wiki-ko-suwon": [
+    39,
+    39
+   ],
+   "wiki-ko-gwangju": [
+    400
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "숫자",
+  "docs": {
+   "wiki-ko-suwon": [
+    230
+   ],
+   "wiki-ko-gyeongju": [
+    321
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "시민",
+  "docs": {
+   "wiki-ko-suwon": [
+    248
+   ],
+   "wiki-ko-gyeongju": [
+    279
+   ],
+   "wiki-ko-cheongju": [
+    22
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "시작해",
+  "docs": {
+   "wiki-ko-suwon": [
+    71,
+    250
+   ],
+   "wiki-ko-gyeongju": [
+    190
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "신도시",
+  "docs": {
+   "wiki-ko-suwon": [
+    67
+   ],
+   "wiki-ko-sejong": [
+    244
+   ],
+   "wiki-ko-jeonju": [
+    155,
+    163
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "안산시",
+  "docs": {
+   "wiki-ko-suwon": [
+    25,
+    49
+   ],
+   "wiki-ko-chuncheon": [
+    549
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "안성천",
+  "docs": {
+   "wiki-ko-suwon": [
+    53,
+    71
+   ],
+   "wiki-ko-cheonan": [
+    53,
+    53,
+    53
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "야구",
+  "docs": {
+   "wiki-ko-suwon": [
+    246,
+    250
+   ],
+   "wiki-ko-cheongju": [
+    449
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "약간",
+  "docs": {
+   "wiki-ko-suwon": [
+    63
+   ],
+   "wiki-ko-gyeongju": [
+    94
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "여자",
+  "docs": {
+   "wiki-ko-suwon": [
+    244
+   ],
+   "wiki-ko-gyeongju": [
+    352
+   ],
+   "wiki-ko-cheonan": [
+    251,
+    263,
+    274
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "역시",
+  "docs": {
+   "wiki-ko-suwon": [
+    129
+   ],
+   "wiki-ko-gyeongju": [
+    45
+   ],
+   "wiki-ko-gwangju": [
+    75
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "열리",
+  "docs": {
+   "wiki-ko-suwon": [
+    230
+   ],
+   "wiki-ko-gyeongju": [
+    270
+   ],
+   "wiki-ko-sejong": [
+    279
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "열차",
+  "docs": {
+   "wiki-ko-suwon": [
+    264
+   ],
+   "wiki-ko-gwangju": [
+    665,
+    665,
+    665,
+    665,
+    665
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "영업",
+  "docs": {
+   "wiki-ko-suwon": [
+    264
+   ],
+   "wiki-ko-gyeongju": [
+    358
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "영통구",
+  "docs": {
+   "wiki-ko-suwon": [
+    59,
+    100,
+    100,
+    162,
+    169,
+    189,
+    190,
+    191,
+    192,
+    200,
+    203,
+    204,
+    205,
+    206,
+    226
+   ],
+   "portal-ko-suwon-population": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "영화동",
+  "docs": {
+   "wiki-ko-suwon": [
+    182
+   ],
+   "portal-ko-suwon-population": [
+    10
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "오늘날",
+  "docs": {
+   "wiki-ko-suwon": [
+    43
+   ],
+   "wiki-ko-gyeongju": [
+    35
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "오래",
+  "docs": {
+   "wiki-ko-suwon": [
+    29,
+    67
+   ],
+   "wiki-ko-gyeongju": [
+    302
+   ],
+   "wiki-ko-jeonju": [
+    236
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "오히려",
+  "docs": {
+   "wiki-ko-suwon": [
+    143
+   ],
+   "wiki-ko-gyeongju": [
+    192
+   ],
+   "wiki-ko-chuncheon": [
+    184
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "완료",
+  "docs": {
+   "wiki-ko-suwon": [
+    65
+   ],
+   "wiki-ko-sejong": [
+    228,
+    228
+   ],
+   "wiki-ko-jeonju": [
+    155
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "완만",
+  "docs": {
+   "wiki-ko-suwon": [
+    51
+   ],
+   "wiki-ko-jeonju": [
+    90
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "우승",
+  "docs": {
+   "wiki-ko-suwon": [
+    240,
+    242,
+    250
+   ],
+   "wiki-ko-gyeongju": [
+    352,
+    352,
+    352
+   ],
+   "wiki-ko-chuncheon": [
+    364
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "우호도시",
+  "docs": {
+   "wiki-ko-suwon": [
+    340,
+    341,
+    342,
+    343,
+    344,
+    345
+   ],
+   "wiki-ko-gwangju": [
+    698
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ }
+]

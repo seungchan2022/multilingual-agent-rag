@@ -1,0 +1,719 @@
+[
+ {
+  "name": "가옥",
+  "docs": {
+   "wiki-ko-sejong": [
+    267
+   ],
+   "wiki-ko-cheongju": [
+    314
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "가치",
+  "docs": {
+   "wiki-ko-sejong": [
+    30
+   ],
+   "wiki-ko-gwangju": [
+    443
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "개선",
+  "docs": {
+   "wiki-ko-sejong": [
+    232
+   ],
+   "wiki-ko-chuncheon": [
+    369
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "개정안",
+  "docs": {
+   "wiki-ko-sejong": [
+    497,
+    497
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "개청",
+  "docs": {
+   "wiki-ko-sejong": [
+    117
+   ],
+   "wiki-ko-chuncheon": [
+    58
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "계유명전씨아미타불비상",
+  "docs": {
+   "wiki-ko-sejong": [
+    258
+   ],
+   "wiki-ko-cheongju": [
+    274
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "고려대학교",
+  "docs": {
+   "wiki-ko-sejong": [
+    301,
+    430,
+    432
+   ],
+   "wiki-ko-cheongju": [
+    201
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "공공기관",
+  "docs": {
+   "wiki-ko-sejong": [
+    132,
+    136,
+    140,
+    142
+   ],
+   "wiki-ko-jeonju": [
+    131,
+    155
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "공식",
+  "docs": {
+   "wiki-ko-sejong": [
+    132,
+    432,
+    483
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "공약",
+  "docs": {
+   "wiki-ko-sejong": [
+    44,
+    44
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "공주",
+  "docs": {
+   "wiki-ko-sejong": [
+    40,
+    232,
+    435,
+    449
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "공주시",
+  "docs": {
+   "wiki-ko-sejong": [
+    30,
+    34,
+    34,
+    81,
+    132,
+    232,
+    445,
+    457,
+    465
+   ],
+   "wiki-ko-cheonan": [
+    23,
+    53,
+    292,
+    296
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "과학기술",
+  "docs": {
+   "wiki-ko-sejong": [
+    439
+   ],
+   "wiki-ko-gwangju": [
+    338,
+    346
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "관련",
+  "docs": {
+   "wiki-ko-sejong": [
+    82,
+    220,
+    220,
+    449,
+    449,
+    451,
+    455,
+    459,
+    479,
+    481,
+    495
+   ],
+   "wiki-ko-gwangju": [
+    330
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "광역시",
+  "docs": {
+   "wiki-ko-sejong": [
+    449,
+    457,
+    477,
+    479
+   ],
+   "wiki-ko-gwangju": [
+    4,
+    22,
+    100,
+    255
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "구축",
+  "docs": {
+   "wiki-ko-sejong": [
+    228,
+    228
+   ],
+   "wiki-ko-gwangju": [
+    339,
+    346,
+    347,
+    348,
+    349,
+    390,
+    399
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "국립청주박물관",
+  "docs": {
+   "wiki-ko-sejong": [
+    258
+   ],
+   "wiki-ko-cheongju": [
+    233
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "국민",
+  "docs": {
+   "wiki-ko-sejong": [
+    30,
+    48,
+    50
+   ],
+   "wiki-ko-cheonan": [
+    122,
+    122
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "국민권익위원회",
+  "docs": {
+   "wiki-ko-sejong": [
+    202
+   ],
+   "wiki-ko-cheongju": [
+    394
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "국토교통부",
+  "docs": {
+   "wiki-ko-sejong": [
+    234
+   ],
+   "wiki-ko-chuncheon": [
+    130
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "그런",
+  "docs": {
+   "wiki-ko-sejong": [
+    477
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "기능",
+  "docs": {
+   "wiki-ko-sejong": [
+    42,
+    228
+   ],
+   "wiki-ko-gwangju": [
+    96
+   ],
+   "wiki-ko-jeonju": [
+    123
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "기반시설",
+  "docs": {
+   "wiki-ko-sejong": [
+    246
+   ],
+   "wiki-ko-gwangju": [
+    369
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "기술",
+  "docs": {
+   "wiki-ko-sejong": [
+    234
+   ],
+   "wiki-ko-gwangju": [
+    338,
+    340,
+    340,
+    346,
+    346,
+    349
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "기초",
+  "docs": {
+   "wiki-ko-sejong": [
+    449,
+    449
+   ],
+   "wiki-ko-gwangju": [
+    338
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "남북",
+  "docs": {
+   "wiki-ko-sejong": [
+    236
+   ],
+   "wiki-ko-cheongju": [
+    31
+   ],
+   "wiki-ko-cheonan": [
+    53,
+    53,
+    281
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "남청주",
+  "docs": {
+   "wiki-ko-sejong": [
+    236
+   ],
+   "wiki-ko-cheongju": [
+    352,
+    356,
+    358
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "남풍세",
+  "docs": {
+   "wiki-ko-sejong": [
+    230,
+    236
+   ],
+   "wiki-ko-cheonan": [
+    292
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "노무현",
+  "docs": {
+   "wiki-ko-sejong": [
+    44,
+    46
+   ],
+   "wiki-ko-cheongju": [
+    290
+   ],
+   "wiki-ko-chuncheon": [
+    184
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "논산천안고속도",
+  "docs": {
+   "wiki-ko-sejong": [
+    230,
+    236
+   ],
+   "wiki-ko-cheonan": [
+    292
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "단계",
+  "docs": {
+   "wiki-ko-sejong": [
+    455
+   ],
+   "wiki-ko-jeonju": [
+    159
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "대거",
+  "docs": {
+   "wiki-ko-sejong": [
+    140
+   ],
+   "wiki-ko-cheongju": [
+    51
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "대상",
+  "docs": {
+   "wiki-ko-sejong": [
+    184
+   ],
+   "wiki-ko-jeonju": [
+    155
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "대안",
+  "docs": {
+   "wiki-ko-sejong": [
+    457,
+    481
+   ],
+   "wiki-ko-chuncheon": [
+    436
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "대전지방검찰청",
+  "docs": {
+   "wiki-ko-sejong": [
+    117
+   ],
+   "wiki-ko-cheonan": [
+    369
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "대전지방법원",
+  "docs": {
+   "wiki-ko-sejong": [
+    117,
+    117
+   ],
+   "wiki-ko-cheonan": [
+    368
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "대해",
+  "docs": {
+   "wiki-ko-sejong": [
+    457,
+    471,
+    473,
+    473
+   ],
+   "wiki-ko-jeonju": [
+    404
+   ],
+   "wiki-ko-cheonan": [
+    122
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "도농복합시",
+  "docs": {
+   "wiki-ko-sejong": [
+    445
+   ],
+   "wiki-ko-cheongju": [
+    29,
+    39,
+    105
+   ],
+   "wiki-ko-cheonan": [
+    40
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "도로망",
+  "docs": {
+   "wiki-ko-sejong": [
+    42,
+    228,
+    228,
+    230,
+    236
+   ],
+   "wiki-ko-gwangju": [
+    96
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "독립",
+  "docs": {
+   "wiki-ko-sejong": [
+    203,
+    204,
+    205,
+    206
+   ],
+   "wiki-ko-gwangju": [
+    26
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "돌파",
+  "docs": {
+   "wiki-ko-sejong": [
+    60,
+    65
+   ],
+   "wiki-ko-gwangju": [
+    98
+   ],
+   "wiki-ko-cheonan": [
+    122
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "동부지역",
+  "docs": {
+   "wiki-ko-sejong": [
+    238
+   ],
+   "wiki-ko-gwangju": [
+    42
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "둔화",
+  "docs": {
+   "wiki-ko-sejong": [
+    142
+   ],
+   "wiki-ko-gwangju": [
+    100
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "만드",
+  "docs": {
+   "wiki-ko-sejong": [
+    467
+   ],
+   "wiki-ko-jeonju": [
+    232
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    9
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "맑은",
+  "docs": {
+   "wiki-ko-sejong": [
+    289
+   ],
+   "wiki-ko-gwangju": [
+    52
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "무산",
+  "docs": {
+   "wiki-ko-sejong": [
+    433
+   ],
+   "wiki-ko-jeonju": [
+    129
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "무형문화재",
+  "docs": {
+   "wiki-ko-sejong": [
+    275
+   ],
+   "wiki-ko-gwangju": [
+    447
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "미호강",
+  "docs": {
+   "wiki-ko-sejong": [
+    34
+   ],
+   "wiki-ko-cheongju": [
+    74
+   ],
+   "wiki-ko-cheonan": [
+    53
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "민주통합당",
+  "docs": {
+   "wiki-ko-sejong": [
+    487,
+    491
+   ],
+   "wiki-ko-chuncheon": [
+    186
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ },
+ {
+  "name": "밀도",
+  "docs": {
+   "wiki-ko-sejong": [
+    17
+   ],
+   "wiki-ko-gwangju": [
+    13
+   ],
+   "wiki-ko-cheongju": [
+    15
+   ]
+  },
+  "owner": "wiki-ko-sejong"
+ }
+]

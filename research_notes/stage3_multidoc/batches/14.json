@@ -1,0 +1,471 @@
+[
+ {
+  "name": "선양시",
+  "docs": {
+   "wiki-ko-gwangju": [
+    711
+   ],
+   "wiki-ko-jeonju": [
+    488
+   ],
+   "wiki-ko-chuncheon": [
+    560
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "송정동",
+  "docs": {
+   "wiki-ko-gwangju": [
+    77
+   ],
+   "wiki-ko-cheongju": [
+    144
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "수출",
+  "docs": {
+   "wiki-ko-gwangju": [
+    312,
+    312
+   ],
+   "wiki-ko-chuncheon": [
+    222
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "숙박",
+  "docs": {
+   "wiki-ko-gwangju": [
+    566
+   ],
+   "wiki-ko-cheonan": [
+    168
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "시절",
+  "docs": {
+   "wiki-ko-gwangju": [
+    24
+   ],
+   "wiki-ko-jeonju": [
+    123
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "신문왕",
+  "docs": {
+   "wiki-ko-gwangju": [
+    36
+   ],
+   "wiki-ko-jeonju": [
+    37
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "신안동",
+  "docs": {
+   "wiki-ko-gwangju": [
+    428
+   ],
+   "wiki-ko-cheonan": [
+    112
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "신용동",
+  "docs": {
+   "wiki-ko-gwangju": [
+    525
+   ],
+   "wiki-ko-cheonan": [
+    45
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "야구단",
+  "docs": {
+   "wiki-ko-gwangju": [
+    597
+   ],
+   "wiki-ko-cheonan": [
+    230,
+    231
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "양성",
+  "docs": {
+   "wiki-ko-gwangju": [
+    338,
+    338,
+    346
+   ],
+   "wiki-ko-chuncheon": [
+    363
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "어린",
+  "docs": {
+   "wiki-ko-gwangju": [
+    542
+   ],
+   "wiki-ko-chuncheon": [
+    288
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "여행",
+  "docs": {
+   "wiki-ko-gwangju": [
+    443
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    9,
+    11
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "완도군",
+  "docs": {
+   "wiki-ko-gwangju": [
+    44
+   ],
+   "wiki-ko-cheonan": [
+    403
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "운동",
+  "docs": {
+   "wiki-ko-gwangju": [
+    26,
+    26,
+    26,
+    26,
+    26,
+    75,
+    102,
+    173
+   ],
+   "wiki-ko-cheonan": [
+    195
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "원래",
+  "docs": {
+   "wiki-ko-gwangju": [
+    34,
+    77
+   ],
+   "wiki-ko-jeonju": [
+    31,
+    220
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "유래",
+  "docs": {
+   "wiki-ko-gwangju": [
+    24
+   ],
+   "wiki-ko-jeonju": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "유사",
+  "docs": {
+   "wiki-ko-gwangju": [
+    52
+   ],
+   "wiki-ko-chuncheon": [
+    182
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "이래",
+  "docs": {
+   "wiki-ko-gwangju": [
+    94
+   ],
+   "wiki-ko-cheongju": [
+    144
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "이용",
+  "docs": {
+   "wiki-ko-gwangju": [
+    665
+   ],
+   "wiki-ko-cheongju": [
+    338
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "전라남",
+  "docs": {
+   "wiki-ko-gwangju": [
+    90,
+    173
+   ],
+   "wiki-ko-cheonan": [
+    403
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "전북",
+  "docs": {
+   "wiki-ko-gwangju": [
+    48,
+    349
+   ],
+   "wiki-ko-jeonju": [
+    468,
+    468
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    1
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "제조업체",
+  "docs": {
+   "wiki-ko-gwangju": [
+    367
+   ],
+   "wiki-ko-chuncheon": [
+    218
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "중핵도시",
+  "docs": {
+   "wiki-ko-gwangju": [
+    42
+   ],
+   "wiki-ko-jeonju": [
+    151
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "직후",
+  "docs": {
+   "wiki-ko-gwangju": [
+    98
+   ],
+   "wiki-ko-cheongju": [
+    68
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "추억",
+  "docs": {
+   "wiki-ko-gwangju": [
+    552
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    9
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "통계청",
+  "docs": {
+   "wiki-ko-gwangju": [
+    328
+   ],
+   "wiki-ko-chuncheon": [
+    152
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "특징",
+  "docs": {
+   "wiki-ko-gwangju": [
+    52
+   ],
+   "kto-ko-jeonju-hanok-village": [
+    11,
+    11,
+    11
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "하나로클럽",
+  "docs": {
+   "wiki-ko-gwangju": [
+    437
+   ],
+   "wiki-ko-jeonju": [
+    360,
+    361
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "핵심",
+  "docs": {
+   "wiki-ko-gwangju": [
+    26
+   ],
+   "wiki-ko-jeonju": [
+    163
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "향하",
+  "docs": {
+   "wiki-ko-gwangju": [
+    651
+   ],
+   "wiki-ko-cheonan": [
+    281
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "호남",
+  "docs": {
+   "wiki-ko-gwangju": [
+    24,
+    24,
+    24,
+    26,
+    28,
+    28,
+    42,
+    44,
+    94,
+    98,
+    98
+   ],
+   "wiki-ko-jeonju": [
+    23
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "호남고속도로",
+  "docs": {
+   "wiki-ko-gwangju": [
+    649
+   ],
+   "wiki-ko-jeonju": [
+    392
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "호남고속선",
+  "docs": {
+   "wiki-ko-gwangju": [
+    665
+   ],
+   "wiki-ko-cheongju": [
+    342,
+    342
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "호남고속철도",
+  "docs": {
+   "wiki-ko-gwangju": [
+    28
+   ],
+   "wiki-ko-cheongju": [
+    338
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "확고히",
+  "docs": {
+   "wiki-ko-gwangju": [
+    98
+   ],
+   "wiki-ko-chuncheon": [
+    267
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ },
+ {
+  "name": "효천지구",
+  "docs": {
+   "wiki-ko-gwangju": [
+    77
+   ],
+   "wiki-ko-jeonju": [
+    165
+   ]
+  },
+  "owner": "wiki-ko-gwangju"
+ }
+]

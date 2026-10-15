@@ -1,0 +1,677 @@
+[
+ {
+  "name": "나무",
+  "docs": {
+   "wiki-ko-suwon": [
+    67,
+    67
+   ],
+   "wiki-ko-gyeongju": [
+    17
+   ],
+   "wiki-ko-chuncheon": [
+    17
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "남문",
+  "docs": {
+   "wiki-ko-suwon": [
+    218
+   ],
+   "wiki-ko-jeonju": [
+    220,
+    220
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "남부",
+  "docs": {
+   "wiki-ko-suwon": [
+    53
+   ],
+   "wiki-ko-gyeongju": [
+    290
+   ],
+   "wiki-ko-cheongju": [
+    364
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "내셔널리그",
+  "docs": {
+   "wiki-ko-suwon": [
+    244
+   ],
+   "wiki-ko-gyeongju": [
+    338
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "냉대",
+  "docs": {
+   "wiki-ko-suwon": [
+    29,
+    77
+   ],
+   "wiki-ko-cheongju": [
+    80
+   ],
+   "wiki-ko-chuncheon": [
+    66
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "넓은",
+  "docs": {
+   "wiki-ko-suwon": [
+    29
+   ],
+   "wiki-ko-gyeongju": [
+    123
+   ],
+   "wiki-ko-jeonju": [
+    129
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "년도",
+  "docs": {
+   "wiki-ko-suwon": [
+    104
+   ],
+   "wiki-ko-gwangju": [
+    318
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "논산시",
+  "docs": {
+   "wiki-ko-suwon": [
+    324
+   ],
+   "wiki-ko-cheonan": [
+    296
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "농구",
+  "docs": {
+   "wiki-ko-suwon": [
+    252
+   ],
+   "wiki-ko-cheongju": [
+    453
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "높이",
+  "docs": {
+   "wiki-ko-suwon": [
+    51,
+    67
+   ],
+   "wiki-ko-gyeongju": [
+    80
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "느티나무",
+  "docs": {
+   "wiki-ko-suwon": [
+    65
+   ],
+   "wiki-ko-cheongju": [
+    18
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "단위",
+  "docs": {
+   "wiki-ko-suwon": [
+    100
+   ],
+   "wiki-ko-gwangju": [
+    316,
+    382
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "단층",
+  "docs": {
+   "wiki-ko-suwon": [
+    59
+   ],
+   "wiki-ko-gyeongju": [
+    90,
+    90,
+    90
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "대로",
+  "docs": {
+   "wiki-ko-suwon": [
+    301
+   ],
+   "wiki-ko-sejong": [
+    449,
+    473
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "대륙성",
+  "docs": {
+   "wiki-ko-suwon": [
+    29,
+    77
+   ],
+   "wiki-ko-gwangju": [
+    52
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "대비",
+  "docs": {
+   "wiki-ko-suwon": [
+    156
+   ],
+   "wiki-ko-gyeongju": [
+    45
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "대전광역시",
+  "docs": {
+   "wiki-ko-suwon": [
+    269
+   ],
+   "wiki-ko-sejong": [
+    34,
+    132,
+    230,
+    230,
+    234,
+    234,
+    248,
+    248,
+    250,
+    449
+   ],
+   "wiki-ko-cheongju": [
+    29
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "도시철",
+  "docs": {
+   "wiki-ko-suwon": [
+    264
+   ],
+   "wiki-ko-sejong": [
+    226,
+    240
+   ],
+   "wiki-ko-gwangju": [
+    667,
+    669
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "도시화",
+  "docs": {
+   "wiki-ko-suwon": [
+    31
+   ],
+   "wiki-ko-gyeongju": [
+    157
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "도호부",
+  "docs": {
+   "wiki-ko-suwon": [
+    39,
+    41
+   ],
+   "wiki-ko-chuncheon": [
+    27
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "독일",
+  "docs": {
+   "wiki-ko-suwon": [
+    325
+   ],
+   "wiki-ko-gwangju": [
+    702,
+    703
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "동계",
+  "docs": {
+   "wiki-ko-suwon": [
+    29,
+    77
+   ],
+   "wiki-ko-cheongju": [
+    80
+   ],
+   "wiki-ko-chuncheon": [
+    66
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "동시",
+  "docs": {
+   "wiki-ko-suwon": [
+    43
+   ],
+   "wiki-ko-sejong": [
+    252
+   ],
+   "wiki-ko-chuncheon": [
+    43,
+    369
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "들어간",
+  "docs": {
+   "wiki-ko-suwon": [
+    39
+   ],
+   "wiki-ko-jeonju": [
+    240
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "등과",
+  "docs": {
+   "wiki-ko-suwon": [
+    27
+   ],
+   "wiki-ko-gyeongju": [
+    296
+   ],
+   "wiki-ko-sejong": [
+    40
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "등은",
+  "docs": {
+   "wiki-ko-suwon": [
+    141
+   ],
+   "wiki-ko-sejong": [
+    477,
+    477
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "따른",
+  "docs": {
+   "wiki-ko-suwon": [
+    98
+   ],
+   "wiki-ko-gwangju": [
+    311
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "마을버스",
+  "docs": {
+   "wiki-ko-suwon": [
+    280
+   ],
+   "wiki-ko-gwangju": [
+    657,
+    657,
+    657
+   ],
+   "wiki-ko-chuncheon": [
+    402
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "만나",
+  "docs": {
+   "wiki-ko-suwon": [
+    71
+   ],
+   "wiki-ko-sejong": [
+    479,
+    481
+   ],
+   "kto-ko-chuncheon-samaksan-cable-car": [
+    11
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "매교동",
+  "docs": {
+   "wiki-ko-suwon": [
+    180
+   ],
+   "portal-ko-suwon-population": [
+    28
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "먼저",
+  "docs": {
+   "wiki-ko-suwon": [
+    39
+   ],
+   "wiki-ko-jeonju": [
+    125,
+    224
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "명으",
+  "docs": {
+   "wiki-ko-suwon": [
+    31,
+    127
+   ],
+   "wiki-ko-gyeongju": [
+    155
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "명의",
+  "docs": {
+   "wiki-ko-suwon": [
+    127
+   ],
+   "wiki-ko-sejong": [
+    40
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "목표",
+  "docs": {
+   "wiki-ko-suwon": [
+    248
+   ],
+   "wiki-ko-sejong": [
+    40,
+    455
+   ],
+   "wiki-ko-jeonju": [
+    151
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "몽골군",
+  "docs": {
+   "wiki-ko-suwon": [
+    39
+   ],
+   "wiki-ko-gyeongju": [
+    41
+   ],
+   "wiki-ko-chuncheon": [
+    246
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "문제",
+  "docs": {
+   "wiki-ko-suwon": [
+    31
+   ],
+   "wiki-ko-jeonju": [
+    127
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "물이",
+  "docs": {
+   "wiki-ko-suwon": [
+    71
+   ],
+   "wiki-ko-gwangju": [
+    34
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "바탕",
+  "docs": {
+   "wiki-ko-suwon": [
+    29,
+    127
+   ],
+   "wiki-ko-gyeongju": [
+    35
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "발생",
+  "docs": {
+   "wiki-ko-suwon": [
+    59
+   ],
+   "wiki-ko-gyeongju": [
+    90,
+    96
+   ],
+   "wiki-ko-gwangju": [
+    26
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "발원",
+  "docs": {
+   "wiki-ko-suwon": [
+    71
+   ],
+   "wiki-ko-jeonju": [
+    88
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "벼농사",
+  "docs": {
+   "wiki-ko-suwon": [
+    29
+   ],
+   "wiki-ko-cheongju": [
+    140
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "별도",
+  "docs": {
+   "wiki-ko-suwon": [
+    45
+   ],
+   "wiki-ko-sejong": [
+    481
+   ],
+   "wiki-ko-gwangju": [
+    24
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "복원",
+  "docs": {
+   "wiki-ko-suwon": [
+    222
+   ],
+   "wiki-ko-cheongju": [
+    302
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "본관",
+  "docs": {
+   "wiki-ko-suwon": [
+    41
+   ],
+   "wiki-ko-cheongju": [
+    212,
+    216
+   ],
+   "kto-ko-cheongju-cheongnamdae": [
+    7
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "부가가치",
+  "docs": {
+   "wiki-ko-suwon": [
+    127
+   ],
+   "wiki-ko-gwangju": [
+    311,
+    311,
+    311,
+    311
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "부로",
+  "docs": {
+   "wiki-ko-suwon": [
+    39
+   ],
+   "wiki-ko-gwangju": [
+    24
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "부산광역시",
+  "docs": {
+   "wiki-ko-suwon": [
+    256
+   ],
+   "wiki-ko-chuncheon": [
+    369
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "북부",
+  "docs": {
+   "wiki-ko-suwon": [
+    57,
+    57
+   ],
+   "wiki-ko-gwangju": [
+    649
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ },
+ {
+  "name": "분포",
+  "docs": {
+   "wiki-ko-suwon": [
+    57,
+    100
+   ],
+   "wiki-ko-gyeongju": [
+    88
+   ]
+  },
+  "owner": "wiki-ko-suwon"
+ }
+]
