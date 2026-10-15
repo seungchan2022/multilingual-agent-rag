@@ -77,6 +77,48 @@ class Pool:
         return doc, prose(doc)[idx]
 
 
+WHY = "시험용 까닭"
+# 반대 언어에서 찾을 말: (실제로 나오는 말, 어디에도 없는 지어낸 말, 어디에도 없는 말)
+TERMS = {"ko": ["flower", "zqxwv", "peach"], "en": ["벚꽃", "쿼쿼쿼", "쌍무지개"]}
+
+
+def opposite_docs(el):
+    return [d for d, lang in DOCS.items() if lang != el]
+
+
+def hits_for(el, term, exact_case=False):
+    """찾을 말이 반대 언어 문서에 나오는 곳마다 걸린 곳 하나. 줄이 200글자 이하면 줄 전체, 아니면 40글자 구간을 원문에서 그대로 옮긴다."""
+    out = []
+    for d in opposite_docs(el):
+        t = text_of(d)
+        for m in re.finditer(re.escape(term), t, 0 if exact_case else re.IGNORECASE):
+            a, b = m.span()
+            s_ = t.rfind("\n", 0, a) + 1
+            e_ = t.find("\n", b)
+            e_ = len(t) if e_ == -1 else e_
+            if e_ - s_ <= 200:
+                ex = t[s_:e_]
+            else:
+                s_ = max(0, a - 10)
+                e_ = max(s_ + 40, b)
+                ex = t[s_:e_]
+            assert ex in t and term.lower() in ex.lower()
+            out.append({"doc_id": d, "excerpt": ex, "same_fact": False, "why": WHY})
+    return out
+
+
+def oc_item(el, term, exact_case=False):
+    return {"term": term, "hits": hits_for(el, term, exact_case)}
+
+
+def opposite_check(el):
+    return [oc_item(el, t) for t in TERMS[el]]
+
+
+def oc_of(c, term):
+    return next(x for x in c["opposite_check"] if x["term"] == term)
+
+
 def ev(doc, passage, loc="고유위치"):
     return {"doc_id": doc, "location": loc, "passage": passage}
 
@@ -87,7 +129,7 @@ def answered(cid, typ, ql, el, evs, tag):
     if len(evs) > 1:
         facts.append({"fact": f"사실 {cid}-결론", "evidence": []})
     return {"id": cid, "question": f"{tag} 질문 {cid}", "question_language": ql, "evidence_language": el, "type": typ,
-            "answer": f"{tag} 정답 {cid}", "required_facts": facts}
+            "answer": f"{tag} 정답 {cid}", "required_facts": facts, "opposite_check": opposite_check(el)}
 
 
 def make_batch(batch, shift=0, table_row=0, with_table=True, both=6):
@@ -353,7 +395,14 @@ class CheckCandidatesTest(unittest.TestCase):
         e["passage"] = e["passage"][:m] + "☃" + e["passage"][m + 1:]
         e3 = first_ev(b[2], 0)
         e3["doc_id"], e3["passage"] = "kto-en-jeonju-hanok-village", prose("kto-en-jeonju-hanok-village")[0]
-        secrets = []
+        secrets = [WHY]
+        for c in b:
+            for x in c["opposite_check"]:
+                secrets.append(x["term"])
+                secrets += [h["excerpt"] for h in x["hits"]]
+        flower = oc_of(b[5], "flower")
+        flower["hits"] = []   # 찾을 말이 있는데 없다고 적음
+        oc_of(b[6], "flower")["hits"][0]["excerpt"] += "☃"   # 구간이 원문과 다름
         for c in b:
             secrets += [c["question"], c["answer"]]
             for f in c["required_facts"]:
@@ -372,6 +421,9 @@ class CheckCandidatesTest(unittest.TestCase):
         for s in secrets:
             self.assertNotIn(s.strip(), out)
         self.assertNotIn("☃", out)
+        self.assertIn("opposite_check[0].hits", out)
+        self.assertIn("opposite_check[0].hits[0].excerpt", out)
+        self.assertIn("\"없음\"이라고 했으나", out)
         # 답 없는 묶음도 마찬가지
         na = make_no_answer()
         na[1]["rebuttal"][0]["passage"] += "다름"
@@ -450,6 +502,159 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertIn("도시 묶음  두 언어 도시 6개, 영어 도시 6개", out)
         out = self.assertPasses(make_batch("en-en"), "en-en", hide=True)
         self.assertIn("도시 묶음  두 언어 도시 6개, 영어 도시 6개", out)
+
+
+    # ---- 반대 언어 문서를 찾은 기록(opposite_check) ----
+
+    def flower_batch(self):
+        """c-001의 첫 찾을 말(flower)에 걸린 곳이 둘 이상의 서로 다른 구간으로 있는 ko-ko 묶음."""
+        b = make_batch("ko-ko")
+        item = oc_of(b[0], "flower")
+        self.assertGreaterEqual(len({h["excerpt"] for h in item["hits"]}), 2)
+        return b, item
+
+    def test_27_said_none_but_found(self):
+        b, item = self.flower_batch()
+        docs = {h["doc_id"] for h in item["hits"]}
+        item["hits"] = []
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("없음", out)
+        self.assertTrue(any(d in out for d in docs), out)
+
+    def test_28_one_occurrence_missing(self):
+        b, item = self.flower_batch()
+        last = item["hits"][-1]["excerpt"]
+        item["hits"] = [h for h in item["hits"] if h["excerpt"] != last]
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("적지 않음", out)
+        self.assertIn("opposite_check[0].hits", out)
+
+    def test_29_changed_char_in_excerpt(self):
+        b, item = self.flower_batch()
+        h = item["hits"][0]
+        ex = h["excerpt"]
+        at = ex.lower().find("flower")
+        i = 0 if at > 0 else len("flower")
+        self.assertLess(i, len(ex))
+        h["excerpt"] = ex[:i] + "☃" + ex[i + 1:]
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("opposite_check[0].hits[0].excerpt", out)
+        self.assertIn("글자 그대로 없음", out)
+
+    def test_30_excerpt_without_term(self):
+        b, item = self.flower_batch()
+        d = item["hits"][0]["doc_id"]
+        line = next(l for l in prose(d) if "flower" not in l.lower())
+        item["hits"][0]["excerpt"] = line
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("opposite_check[0].hits[0].excerpt", out)
+        self.assertIn("찾을 말이 들어 있지 않음", out)
+
+    def test_31_doc_id_of_other_document(self):
+        b, item = self.flower_batch()
+        h = item["hits"][0]
+        h["doc_id"] = next(d for d in opposite_docs("ko") if d != h["doc_id"] and h["excerpt"] not in text_of(d))
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("opposite_check[0].hits[0].excerpt", out)
+
+    def test_32_same_language_document(self):
+        b, item = self.flower_batch()
+        item["hits"][0]["doc_id"] = "wiki-ko-jeonju"
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("반대 언어 문서가 아님", out)
+
+    def test_33_term_language(self):
+        b = make_batch("ko-ko")
+        oc_of(b[0], "flower")["term"] = "전주"
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("찾을 말이 반대 언어가 아님", out)
+        b = make_batch("en-en")
+        oc_of(b[0], "벚꽃")["term"] = "flower"
+        out = self.assertFailsFor("c-013", b, "en-en")
+        self.assertIn("찾을 말이 반대 언어가 아님", out)
+        # 숫자만 있는 말은 두 언어 모두에서 허용
+        for batch, el, old, cid in (("ko-ko", "ko", "zqxwv", 0), ("en-en", "en", "쿼쿼쿼", 0)):
+            b = make_batch(batch)
+            item = oc_of(b[cid], old)
+            item.update(oc_item(el, "2024"))
+            self.assertGreater(len(item["hits"]), 0)
+            self.assertPasses(b, batch)
+
+    def test_34_two_terms_only(self):
+        b = make_batch("ko-ko")
+        b[0]["opposite_check"] = b[0]["opposite_check"][:2]
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("3개 이상", out)
+
+    def test_35_same_fact_true(self):
+        b, item = self.flower_batch()
+        item["hits"][0]["same_fact"] = True
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("반대 언어 문서에 같은 사실이 있다고 스스로 적음", out)
+        item["hits"][0]["same_fact"] = "false"   # 글자로 쓴 값도 불린이 아니라 실패
+        self.assertFailsFor("c-001", b)
+
+    def test_36_missing_opposite_check(self):
+        b = make_batch("ko-ko")
+        del b[0]["opposite_check"]
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("opposite_check", out)
+        self.assertNotIn("c-002", failed_names(out))
+
+    def test_37_case_insensitive(self):
+        b = make_batch("ko-ko")
+        item = oc_of(b[0], "flower")
+        lower_only = [m for d in opposite_docs("ko") for m in re.findall("flower", text_of(d))]
+        self.assertTrue(lower_only, "소문자 flower가 나오는 곳이 없음")
+        item.update(oc_item("ko", "Flower"))   # 모든 곳을 적음: 통과
+        self.assertEqual(len(item["hits"]), len(hits_for("ko", "flower")))
+        self.assertPasses(b)
+        item["hits"] = hits_for("ko", "Flower", exact_case=True)   # 대문자 그대로인 곳만 적음
+        self.assertLess(len(item["hits"]), len(hits_for("ko", "Flower")))
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("적지 않음", out)
+
+    def test_38_short_excerpt_not_whole_line(self):
+        b, item = self.flower_batch()
+        h = item["hits"][0]
+        t = text_of(h["doc_id"])
+        # 이 문서에서 flower가 나오는 첫 곳 둘레 10글자
+        a = t.lower().find("flower")
+        short = t[a - 2:a + 8]
+        self.assertEqual(len(short), 10)
+        self.assertNotIn(short.rstrip(), [l.rstrip() for l in lines_of(h["doc_id"])])
+        item["hits"] = hits_for("ko", "flower")
+        first = next(x for x in item["hits"] if x["doc_id"] == h["doc_id"] and x["excerpt"] == h["excerpt"])
+        first["excerpt"] = short
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("글자 미만", out)
+
+    def test_39_hide_opposite_check(self):
+        b, item = self.flower_batch()
+        c2 = oc_of(b[1], "flower")
+        docs = {h["doc_id"] for h in item["hits"]}
+        secrets = [h["excerpt"] for x in b[0]["opposite_check"] + b[1]["opposite_check"] for h in x["hits"]]
+        item["hits"] = []                         # c-001: 없다고 적음
+        c2["hits"][0]["excerpt"] += "☃"           # c-002: 구간이 원문과 다름
+        c2["hits"][1]["same_fact"] = True         # c-002: 같은 사실이라고 적음
+        code, out = self.run_check(b, hide=True)
+        self.assertEqual(code, 1, out)
+        self.assertIn("c-001", failed_names(out))
+        self.assertIn("c-002", failed_names(out))
+        for s_ in secrets + [WHY, "flower", "Flower", "zqxwv", "peach", "☃"]:
+            self.assertNotIn(s_.strip(), out)
+        self.assertIn("opposite_check[0].hits", out)
+        self.assertIn("opposite_check[0].hits[0].excerpt", out)
+        self.assertIn("opposite_check[0].hits[1].same_fact", out)
+        self.assertTrue(any(d in out for d in docs), out)
+        self.assertIn("찾은 기록: 찾을 말 3개, 걸린 곳 ", out)
+
+    def test_40_info_line(self):
+        b = make_batch("ko-ko")
+        n = sum(len(x["hits"]) for x in b[0]["opposite_check"])
+        for hide in (False, True):
+            out = self.assertPasses(b, hide=hide)
+            self.assertIn(f"      찾은 기록: 찾을 말 3개, 걸린 곳 {n}곳", out)
 
 
 if __name__ == "__main__":
