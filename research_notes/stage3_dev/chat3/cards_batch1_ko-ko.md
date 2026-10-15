@@ -6,46 +6,71 @@
 
 ## c-001 · `type`(유형): single_fact(단일 사실) · 도시 묶음: 두 언어 도시(춘천시)
 
+이 카드만 보고 위에서부터 차례로 한다. 칸마다 "할 일"을 하고 "판단할 질문"에 답한 뒤, 문제가 없으면 그 칸의 `[ ]`를 `[x]`로 바꾼다. 문제가 있으면 `[ ]`로 두고 맨 아래 "이유"에 적는다. 번역기(파파고 등)를 브라우저에 열어 둔다.
+
+**후보**
 - `question`(질문): 춘천경공업단지가 조성되기 시작한 연도는 언제인가?
 - `answer`(정답): 1969년
+- `required_facts`(꼭 필요한 사실): `fact`(사실) 1 "춘천경공업단지는 1969년부터 조성되었다"
+- `passage`(근거 구절): "1969년부터 춘천경공업단지가 조성되었으며, 73년 5월 공업장려지구로 지정되었다."
+- `doc_id`(문서): [wiki-ko-chuncheon.md 218줄](../../../data/corpus/markdown/wiki-ko-chuncheon.md#L218) · `location`(위치): 경제
 
-### `required_facts`(꼭 필요한 사실)
-- `fact`(사실) 1: 춘천경공업단지는 1969년부터 조성되었다
-  - `evidence`(근거) 1
-    - `doc_id`(문서): [wiki-ko-chuncheon.md 218줄](../../../data/corpus/markdown/wiki-ko-chuncheon.md#L218) · `location`(위치): 경제
-    - `passage`(근거 구절):
-      > 1969년부터 춘천경공업단지가 조성되었으며, 73년 5월 공업장려지구로 지정되었다.
+#### 1. 근거 구절만 읽고 정답이 나온다
+- 할 일: 위 `passage`(근거 구절)를 읽는다.
+- 판단할 질문: 이 구절 한 줄만 받은 사람이 `question`(질문)에 "1969년"이라고 답할 수 있는가?
+- [ ] 확인함
 
-### 반대 언어 문서 확인 재료
-- 같은 도시의 반대 언어 문서(통째로 번역해 읽는다):
-  - [wiki-en-chuncheon.md](../../../data/corpus/markdown/wiki-en-chuncheon.md) · 원문 주소: https://en.wikipedia.org/w/index.php?oldid=1376994978
-  - [kto-en-chuncheon-samaksan-cable-car.md](../../../data/corpus/markdown/kto-en-chuncheon-samaksan-cable-car.md) · 짧은 문서라 파일 내용을 그대로 번역기에 붙인다
-- `opposite_check`(반대 언어 찾기 기록):
-  - `term`(찾을 말) `1969` → `hits`(걸린 곳) 2곳
-    - [wiki-en-chuncheon.md 178줄](../../../data/corpus/markdown/wiki-en-chuncheon.md#L178) · 원문 주소: https://en.wikipedia.org/w/index.php?oldid=1376994978
-      - `excerpt`(걸린 구절):
-        > The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969), and the highest was 39.5 °C (103 °F) (1 August 2018).
-      - `same_fact`·`why`(Gemini의 판단): 같은 사실 아님 — 1969년이라는 연도가 아니라, 최저 기온이 관측된 날짜(1969년 2월 6일)를 설명하는 내용 중 일부로 쓰였음
-    - [wiki-en-busan.md 622줄](../../../data/corpus/markdown/wiki-en-busan.md#L622) · 원문 주소: https://en.wikipedia.org/w/index.php?oldid=1379685823
-      - `excerpt`(걸린 구절):
-        > - Kim Wonhae (born 1969), actor and comedian
-      - `same_fact`·`why`(Gemini의 판단): 같은 사실 아님 — 배우 김원해의 출생 연도를 나타냄
-  - `term`(찾을 말) `Chuncheon Light Industrial Complex` → `hits`(걸린 곳) 없음
-  - `term`(찾을 말) `Light Industrial` → `hits`(걸린 곳) 없음
+#### 2. 정답이 하나로 정해진다
+- 할 일: 위 `passage`(근거 구절)에 연도가 몇 개 있는지 본다.
+- 판단할 질문: 연도가 여러 개라면, 질문이 그중 하나만 가리키는가?
+- [ ] 확인함
 
-### 판정
-- [ ] 1. 근거 구절만 읽고 정답이 나온다 (조건·단위 포함) — 볼 곳: 위 `question`(질문), `answer`(정답), `passage`(근거 구절)
-- [ ] 2. 정답이 하나로 정해진다 — 볼 곳: 위 `passage`(근거 구절)
-- [ ] 3. 같은 문서 안에 다른 값이 없다 — 볼 곳: 위 `doc_id`(문서) 링크를 Cmd+클릭해 열고 Cmd+F
-- [ ] 4. 같은 언어의 다른 문서에 다른 값이 없다 — 볼 곳: 폴더 찾기(Cmd+Shift+F, 포함할 파일 `data/corpus/markdown/*-ko-*`)
-- [ ] 5. 반대 언어 문서: 걸린 곳을 번역기로 읽었다 — 볼 곳: 위 `hits`(걸린 곳)의 `excerpt`(걸린 구절)
-- [ ] 6. 반대 언어 문서: 찾을 말에 그 사실의 이름·숫자가 들어 있다 (빠졌으면 번역기로 옮겨 폴더 찾기를 더 했다) — 볼 곳: 위 `term`(찾을 말), 폴더 찾기(포함할 파일 `data/corpus/markdown/*-en-*`)
-- [ ] 7. 반대 언어 문서: 같은 도시의 반대 언어 문서를 통째로 번역해 읽었다 — 볼 곳: 위 "같은 도시의 반대 언어 문서"마다: 위키백과 문서는 원문 주소를 크롬에서 열고 페이지를 한국어로 번역한 뒤 Cmd+F, 관광 소개 글은 파일 내용을 번역기에 붙인다 (없으면 해당 없음)
-- [ ] 8. 꼭 필요한 사실이 빠짐없고 군더더기 없다 — 볼 곳: 위 `required_facts`(꼭 필요한 사실)의 `fact`(사실)들, `answer`(정답)
-- [ ] 9. 유형이 맞다 — 볼 곳: 제목의 `type`(유형), 위 `question`(질문), `passage`(근거 구절)
-- 판정: 채택 / 수정 / 폐기
-- 이유:
-- 더 찾아본 말과 걸린 곳:
+#### 3. 같은 문서 안에 다른 값이 없다
+- 할 일: 위 `doc_id`(문서) 링크를 `Cmd+클릭`해 연다. `Cmd+F`로 `경공업단지`를 찾고, `Enter`로 걸린 곳을 하나씩 넘겨 본다. 218줄에서는 구절의 앞뒤 한두 문장도 읽는다.
+- 판단할 질문: 걸린 곳마다, 춘천경공업단지가 조성된 해가 1969가 아닌 다른 값으로 적혀 있지 않은가? 앞뒤 문장이 다른 곳 이야기로 바뀌지 않는가?
+- [ ] 확인함
+
+#### 4. 같은 언어(한국어)의 다른 문서에 다른 값이 없다
+- 할 일: `Cmd+Shift+F`(폴더 찾기)를 연다. 찾기 칸 아래 `...`을 눌러 "포함할 파일"에 `data/corpus/markdown/*-ko-*`를 적는다. `경공업단지`를 찾는다.
+- 판단할 질문: `wiki-ko-chuncheon` 말고 다른 한국어 문서가 걸리면, 거기에 춘천경공업단지의 다른 연도가 적혀 있지 않은가?
+- [ ] 확인함
+
+#### 5. 영어 문서: Gemini가 찾은 걸린 곳을 번역기로 읽었다
+Gemini가 영어 문서에서 `1969`를 찾았고, 나오는 곳은 아래 2곳이 전부다(검사 프로그램이 확인함). `Chuncheon Light Industrial Complex`, `Light Industrial`은 영어 문서 어디에도 없다.
+- 걸린 곳 1: [wiki-en-chuncheon.md 178줄](../../../data/corpus/markdown/wiki-en-chuncheon.md#L178)
+  > The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969), and the highest was 39.5 °C (103 °F) (1 August 2018).
+- 걸린 곳 2: [wiki-en-busan.md 622줄](../../../data/corpus/markdown/wiki-en-busan.md#L622)
+  > - Kim Wonhae (born 1969), actor and comedian
+- 할 일: 두 문장을 하나씩 번역기에 붙여 읽는다.
+- 판단할 질문: 이 문장이 "춘천경공업단지가 1969년에 조성되었다"와 같은 사실을 말하는가?
+- [ ] 확인함
+
+#### 6. 영어 문서: 다른 말로도 찾아봤다
+- 할 일: 번역기에 "경공업단지"를 넣어 나온 영어 말과, 더 짧은 말(예: `industrial`)로 폴더 찾기를 한다. 이번에는 "포함할 파일"에 `data/corpus/markdown/*-en-*`를 적는다. 걸린 곳이 있으면 그 줄을 번역기로 읽는다.
+- 판단할 질문: 영어 문서 어딘가에 춘천경공업단지가 1969년에 조성되었다는 말이 다른 표현으로 있는가?
+- 찾아본 말과 결과를 맨 아래 "더 찾아본 말과 걸린 곳"에 적는다.
+- [ ] 확인함
+
+#### 7. 영어 문서: 같은 도시(춘천)의 영어 문서를 통째로 읽었다
+- 할 일 1: 크롬에서 https://en.wikipedia.org/w/index.php?oldid=1376994978 (춘천 영어 위키백과, 우리가 가져온 판)를 연다. 페이지에서 오른쪽 클릭 → "한국어로 번역". `Cmd+F`로 `경공업`, `1969`를 찾아 앞뒤를 읽는다. 절 이름으로 짐작해 고르지 않는다.
+- 할 일 2: [kto-en-chuncheon-samaksan-cable-car.md](../../../data/corpus/markdown/kto-en-chuncheon-samaksan-cable-car.md)(춘천 케이블카 영어 소개 글)를 열어 내용 전체를 번역기에 붙여 읽는다. 짧은 글이다.
+- 판단할 질문: 두 문서 어디에든 경공업단지가 1969년에 조성되었다는 이야기가 있는가?
+- [ ] 확인함
+
+#### 8. 꼭 필요한 사실이 빠짐없고 군더더기 없다
+- 할 일: 위 `required_facts`(꼭 필요한 사실)와 `answer`(정답)를 견준다.
+- 판단할 질문: 정답을 말하는 데 이 사실이 꼭 필요하고, 이것 말고 더 필요한 사실은 없는가?
+- [ ] 확인함
+
+#### 9. 유형이 맞다
+- 할 일: 위 `question`(질문)과 `passage`(근거 구절)의 핵심 낱말을 견준다.
+- 판단할 질문: 질문의 "경공업단지", "조성"이 구절에 같은 낱말로 있는가? 같으면 single_fact(단일 사실), 다른 말로 바꿨으면 paraphrase(표현 불일치)다. 이 후보는 single_fact로 적혀 있다.
+- [ ] 확인함
+
+#### 적기
+- 판정(하나만 남긴다): 채택 / 수정 / 폐기
+- 이유(한 줄. 문제가 없으면 "1~9 문제 없음"):
+- 더 찾아본 말과 걸린 곳(6번에서 직접 찾은 것. 예: "industrial → 영어 문서 3곳, 모두 다른 이야기"):
 - 메모(애매한 것, Claude에게 물을 것):
 
 ---
