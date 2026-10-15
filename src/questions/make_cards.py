@@ -28,8 +28,16 @@ NOT_FOUND = "(원문에서 찾지 못함)"
 INTRO = (
     "이 파일은 후보마다 카드 하나로, 순서표(data/questions/final_set_guide.md)의 \"대조할 것\"을 따라 카드마다 칸을 채운다. "
     "확인한 칸은 [ ]를 [x]로 바꾼다. 하지 않은 칸은 그대로 둔다. 판정은 채택·수정·폐기 가운데 하나만 남긴다. "
-    "애매한 것은 메모에 적는다. 근거 구절이 원문에 글자 그대로 있는지, 개수·형식, opposite_check가 원문과 맞는지는 후보 검사가 이미 봤다."
+    "애매한 것은 메모에 적는다. 근거 구절이 원문에 글자 그대로 있는지, 개수·형식, `opposite_check`(반대 언어 찾기 기록)가 원문과 맞는지는 후보 검사가 이미 봤다. "
+    "카드의 이름표는 후보 YAML 칸 이름을 백틱으로 적고 괄호에 한국어 뜻을 붙인다(예: `passage`(근거 구절)). "
+    "칸 뜻은 순서표(data/questions/final_set_guide.md)의 \"후보 YAML 칸의 뜻\"에 있다."
 )
+TYPE_KO = {"single_fact": "단일 사실", "table_numeric": "표·수치·조건", "multi_doc": "여러 문서 연결",
+           "paraphrase": "표현 불일치", "no_answer": "답 없음"}
+
+
+def type_label(t):
+    return f"{t}({TYPE_KO[t]})" if t in TYPE_KO else str(t)
 
 
 # ---------- 읽기 ----------
@@ -146,16 +154,17 @@ def city_part(c):
 def answered_card(c, out_dir):
     el = c["evidence_language"]
     opposite = "en" if el == "ko" else "ko"
-    out = ["---", "", f"## {c['id']} · {c['type']} · {city_part(c)}", "",
-           f"**질문**: {c['question']}", f"**정답**: {c['answer']}", "", "### 근거"]
+    out = ["---", "", f"## {c['id']} · `type`(유형): {type_label(c['type'])} · 도시 묶음: {city_part(c)}", "",
+           f"- `question`(질문): {c['question']}", f"- `answer`(정답): {c['answer']}", "", "### `required_facts`(꼭 필요한 사실)"]
     for i, f in enumerate(c["required_facts"], 1):
-        out.append(f"- 사실 {i}: {f['fact']}")
+        out.append(f"- `fact`(사실) {i}: {f['fact']}")
         if not f.get("evidence"):
-            out.append("  - (다른 사실에서 나오는 결론)")
-        for item in f.get("evidence") or []:
-            out.append(f"  - 문서: {passage_link(out_dir, item['doc_id'], item['passage'])} · 위치: {item['location']}")
-            out.append("  - 구절:")
-            out.append(quote(item["passage"], 4))
+            out.append("  - `evidence`(근거): 없음 — 다른 사실에서 나오는 결론")
+        for j, item in enumerate(f.get("evidence") or [], 1):
+            out.append(f"  - `evidence`(근거) {j}")
+            out.append(f"    - `doc_id`(문서): {passage_link(out_dir, item['doc_id'], item['passage'])} · `location`(위치): {item['location']}")
+            out.append("    - `passage`(근거 구절):")
+            out.append(quote(item["passage"], 6))
     out += ["", "### 반대 언어 문서 확인 재료"]
     cities = {DOC[d]["city"] for d in evidence_docs(c)}
     same_city = [d for d in _DOCS if d["city"] in cities and d["language"] == opposite]
@@ -166,15 +175,17 @@ def answered_card(c, out_dir):
             out.append(f"  - {link(out_dir, d['doc_id'])} · {source_note(d['doc_id'])}")
     else:
         out.append(f"- 같은 도시의 반대 언어 문서{how}: 없음({LANG_NAME[el]} 도시)")
-    out.append("- Gemini가 찾은 말과 걸린 곳:")
-    for it in c.get("opposite_check") or []:
+    checks = c.get("opposite_check") or []
+    out.append("- `opposite_check`(반대 언어 찾기 기록):" + ("" if checks else " 없음"))
+    for it in checks:
         hits = it.get("hits") or []
-        out.append(f"  - `{it['term']}`: " + (f"걸린 곳 {len(hits)}곳" if hits else "걸린 곳 없음"))
+        out.append(f"  - `term`(찾을 말) `{it['term']}` → `hits`(걸린 곳) " + (f"{len(hits)}곳" if hits else "없음"))
         for h in hits:
             line = line_of_text(h["doc_id"], h["excerpt"])
             out.append(f"    - {link(out_dir, h['doc_id'], line, line is not None)} · {source_note(h['doc_id'])}")
-            out.append(quote(h["excerpt"], 6))
-            out.append(f"      Gemini의 판단: 같은 사실 {'맞음' if h['same_fact'] else '아님'} — {h['why']}")
+            out.append("      - `excerpt`(걸린 구절):")
+            out.append(quote(h["excerpt"], 8))
+            out.append(f"      - `same_fact`·`why`(Gemini의 판단): 같은 사실 {'맞음' if h['same_fact'] else '아님'} — {h['why']}")
     read5 = "걸린 곳을 번역기로 읽었다" if opposite == "en" else "걸린 곳을 읽었다"
     if opposite == "en":
         item6 = "(빠졌으면 번역기로 옮겨 폴더 찾기를 더 했다)"
@@ -184,15 +195,15 @@ def answered_card(c, out_dir):
         item7 = "볼 곳: 위 \"같은 도시의 반대 언어 문서\"의 링크를 열어 읽는다 (없으면 해당 없음)"
     read7 = "통째로 번역해 읽었다" if opposite == "en" else "통째로 읽었다"
     out += ["", "### 판정",
-            "- [ ] 1. 근거 구절만 읽고 정답이 나온다 (조건·단위 포함) — 볼 곳: 위 \"질문\", \"정답\", \"구절\"",
-            "- [ ] 2. 정답이 하나로 정해진다 — 볼 곳: 위 \"구절\"",
-            "- [ ] 3. 같은 문서 안에 다른 값이 없다 — 볼 곳: 위 \"문서\" 링크를 Cmd+클릭해 열고 Cmd+F",
+            "- [ ] 1. 근거 구절만 읽고 정답이 나온다 (조건·단위 포함) — 볼 곳: 위 `question`(질문), `answer`(정답), `passage`(근거 구절)",
+            "- [ ] 2. 정답이 하나로 정해진다 — 볼 곳: 위 `passage`(근거 구절)",
+            "- [ ] 3. 같은 문서 안에 다른 값이 없다 — 볼 곳: 위 `doc_id`(문서) 링크를 Cmd+클릭해 열고 Cmd+F",
             f"- [ ] 4. 같은 언어의 다른 문서에 다른 값이 없다 — 볼 곳: 폴더 찾기(Cmd+Shift+F, 포함할 파일 `data/corpus/markdown/*-{el}-*`)",
-            f"- [ ] 5. 반대 언어 문서: {read5} — 볼 곳: 위 \"Gemini가 찾은 말과 걸린 곳\"",
-            f"- [ ] 6. 반대 언어 문서: 찾을 말에 그 사실의 이름·숫자가 들어 있다 {item6} — 볼 곳: 위 찾은 말, 폴더 찾기(포함할 파일 `data/corpus/markdown/*-{opposite}-*`)",
+            f"- [ ] 5. 반대 언어 문서: {read5} — " + ("볼 곳: 위 `hits`(걸린 곳)의 `excerpt`(걸린 구절)" if any(it.get("hits") for it in checks) else "해당 없음: 위 `term`(찾을 말)마다 `hits`(걸린 곳)이 없음"),
+            f"- [ ] 6. 반대 언어 문서: 찾을 말에 그 사실의 이름·숫자가 들어 있다 {item6} — 볼 곳: 위 `term`(찾을 말), 폴더 찾기(포함할 파일 `data/corpus/markdown/*-{opposite}-*`)",
             f"- [ ] 7. 반대 언어 문서: 같은 도시의 반대 언어 문서를 {read7} — {item7}",
-            "- [ ] 8. `required_facts`가 빠짐없고 군더더기 없다 — 볼 곳: 위 \"근거\"의 사실들, \"정답\"",
-            "- [ ] 9. 유형이 맞다 — 볼 곳: 제목의 유형, \"질문\", \"구절\""]
+            "- [ ] 8. 꼭 필요한 사실이 빠짐없고 군더더기 없다 — 볼 곳: 위 `required_facts`(꼭 필요한 사실)의 `fact`(사실)들, `answer`(정답)",
+            "- [ ] 9. 유형이 맞다 — 볼 곳: 제목의 `type`(유형), 위 `question`(질문), `passage`(근거 구절)"]
     out += verdict_lines("더 찾아본 말과 걸린 곳")
     return out
 
@@ -202,16 +213,17 @@ def verdict_lines(searched):
 
 
 def no_answer_card(c, out_dir):
-    out = ["---", "", f"## {c['id']} · no_answer · 질문 언어 {c['question_language']}", "",
-           f"**질문**: {c['question']}",
-           f"**기대하는 거절**: {c['expected_refusal']}",
-           f"**답이 없다고 본 까닭(Gemini)**: {c['no_answer_reason']}", "", "### 반박 구절"]
+    out = ["---", "", f"## {c['id']} · `type`(유형): {type_label('no_answer')} · 질문 언어 {c['question_language']}", "",
+           f"- `question`(질문): {c['question']}",
+           f"- `expected_refusal`(기대하는 거절): {c['expected_refusal']}",
+           f"- `no_answer_reason`(답이 없다고 본 까닭): {c['no_answer_reason']}", "", "### `rebuttal`(반박 구절)"]
     rebuttal = c.get("rebuttal") or []
     if not rebuttal:
         out.append("없음")
     for item in rebuttal:
-        out.append(f"- {passage_link(out_dir, item['doc_id'], item['passage'])} · 위치: {item['location']}")
-        out.append(quote(item["passage"], 2))
+        out.append(f"- `doc_id`(문서): {passage_link(out_dir, item['doc_id'], item['passage'])} · `location`(위치): {item['location']}")
+        out.append("  - `passage`(근거 구절):")
+        out.append(quote(item["passage"], 4))
     out += ["", "### 판정",
             "- [ ] 1. 문서 전체에서 한국어 표현과 영어 표현으로 찾아봐도 답이 없다 — 볼 곳: 폴더 찾기(포함할 파일 `data/corpus/markdown`)",
             "- [ ] 2. 문서를 보지 않고 일반 지식으로도 답할 수 없다",
