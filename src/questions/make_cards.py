@@ -225,7 +225,7 @@ def answered_card(c, out_dir):
     opposite = "en" if el == "ko" else "ko"
     opp, own = LANG_NAME[opposite], LANG_NAME[el]
     tr = "번역기로 " if opposite == "en" else ""
-    out = ["---", "", f"## {c['id']} · `type`(유형): {type_label(c['type'])} · 도시 묶음: {city_part(c)}", "", CARD_INTRO, "",
+    out = ["---", "", f"## {c['id']} · `type`(유형): {type_label(c['type'])} · 도시 갈래: {city_part(c)}", "", CARD_INTRO, "",
            "**후보**", f"- `question`(질문): {c['question']}", f"- `answer`(정답): {c['answer']}", "- `required_facts`(꼭 필요한 사실):"]
     passages = []
     for i, f in enumerate(c["required_facts"], 1):

@@ -448,7 +448,7 @@ def label(c, n):
 
 
 def candidate_city(c, only):
-    """후보의 도시 묶음: 'both'(두 언어 도시), 'only'(근거 언어만 넣는 도시), None(알 수 없음)."""
+    """후보의 도시 갈래: 'both'(두 언어 도시), 'only'(근거 언어만 넣는 도시), None(알 수 없음)."""
     facts = c.get("required_facts")
     groups = set()
     for f in facts if isinstance(facts, list) else []:
@@ -512,7 +512,7 @@ def batch_problems(items, infos, batch):
             problems.append("table_numeric 후보 가운데 표 구절(근거 구절이 | 줄로만 이뤄진 것)을 가진 것이 없음")
         both, single, unknown = city_counts(items, batch)
         if both != 6 or single != 6:
-            problems.append(f"도시 묶음: 두 언어 도시 {both}개, {city_name(batch)} {single}개 (기대 6개씩)" + (f", 알 수 없음 {unknown}개" if unknown else ""))
+            problems.append(f"도시 갈래: 두 언어 도시 {both}개, {city_name(batch)} {single}개 (기대 6개씩)" + (f", 알 수 없음 {unknown}개" if unknown else ""))
     return problems
 
 
@@ -609,7 +609,7 @@ def main():
     report("묶음 구성", bp)
     if batch != "no-answer":
         both, single, _ = city_counts(data, batch)
-        print(f"도시 묶음  두 언어 도시 {both}개, {city_name(batch)} {single}개")
+        print(f"도시 갈래  두 언어 도시 {both}개, {city_name(batch)} {single}개")
     for w in warnings:
         print(w)
     print(f"후보 {len(data)}개 가운데 {passed}개 통과, 묶음 구성 {'통과' if not bp else '실패'}")

@@ -478,14 +478,14 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertIn("passage: |", text)
         self.assertPasses(text)
 
-    # ---- 도시 묶음 ----
+    # ---- 도시 갈래 ----
 
     def test_24_city_imbalance(self):
         b = make_batch("ko-ko", both=3)
         out = self.assertFailsFor("묶음 구성", b)
         self.assertIn("두 언어 도시 3개", out)
         self.assertIn("한국어 도시 9개 (기대 6개씩)", out)
-        self.assertIn("도시 묶음  두 언어 도시 3개, 한국어 도시 9개", out)
+        self.assertIn("도시 갈래  두 언어 도시 3개, 한국어 도시 9개", out)
 
     def test_25_mixed_candidate_counts_as_two_language(self):
         b = make_batch("ko-ko")
@@ -495,13 +495,13 @@ class CheckCandidatesTest(unittest.TestCase):
         c["required_facts"][1]["evidence"] = [ev(doc, prose(doc)[5], "고유위치 섞음")]
         self.assertEqual(DOCS[first_ev(c, 0)["doc_id"]], "ko")
         out = self.assertPasses(b)
-        self.assertIn("도시 묶음  두 언어 도시 6개, 한국어 도시 6개", out)
+        self.assertIn("도시 갈래  두 언어 도시 6개, 한국어 도시 6개", out)
 
     def test_26_valid_en_en_city_line(self):
         out = self.assertPasses(make_batch("en-en"), "en-en")
-        self.assertIn("도시 묶음  두 언어 도시 6개, 영어 도시 6개", out)
+        self.assertIn("도시 갈래  두 언어 도시 6개, 영어 도시 6개", out)
         out = self.assertPasses(make_batch("en-en"), "en-en", hide=True)
-        self.assertIn("도시 묶음  두 언어 도시 6개, 영어 도시 6개", out)
+        self.assertIn("도시 갈래  두 언어 도시 6개, 영어 도시 6개", out)
 
 
     # ---- 반대 언어 문서를 찾은 기록(opposite_check) ----

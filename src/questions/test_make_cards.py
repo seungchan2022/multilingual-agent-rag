@@ -91,7 +91,7 @@ class MakeCardsTest(unittest.TestCase):
         r = Run(self, [candidate(passage=passage, oc=oc)]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         t = r.text
-        self.assertIn("## c-001 · `type`(유형): single_fact(단일 사실) · 도시 묶음: 두 언어 도시(춘천시)", t)
+        self.assertIn("## c-001 · `type`(유형): single_fact(단일 사실) · 도시 갈래: 두 언어 도시(춘천시)", t)
         m = re.search(r"\[wiki-ko-chuncheon\.md (\d+)줄\]\(([^)]+)#L(\d+)\)", t)
         self.assertIsNotNone(m)
         self.assertEqual(m.group(1), m.group(3))
