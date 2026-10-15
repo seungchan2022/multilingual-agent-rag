@@ -8,9 +8,9 @@
 - 명령은 VS Code의 터미널이나 Claude Code 대화창(맨 앞에 `! `를 붙여)에서 프로젝트 폴더를 기준으로 돌린다.
 - 파일을 저장할 때는 저장 창에서 폴더를 눌러 고르고, 이름 칸에는 파일 이름만 적는다. 이름 칸에 경로를 적으면 폴더가 새로 생긴다.
 
-**저장할 곳**(아래에서 `<폴더>`라고 쓴다)
-- **개발용:** `research_notes/stage3_dev/chat<번호>/`. 새 채팅을 열 때마다 번호를 하나 올린다. Claude가 미리 만들어 둔다.
-- **최종:** `<3단계에서 정한다>`(프로젝트 폴더 밖).
+**저장할 곳**
+- **개발용:** 지금 채팅은 `research_notes/stage3_dev/chat3` 폴더다(Claude가 만들어 둠). 아래 단계의 폴더와 명령은 모두 이 폴더로 적었다. 개발용에서 새 채팅을 열 때는 Claude가 폴더를 새로 만들고 이 글의 `chat3`을 다음 번호로 바꿔 둔다.
+- **최종:** `<3단계에서 정한다>`(프로젝트 폴더 밖). 정해지면 아래 "최종:" 명령의 폴더 자리를 채운다.
 
 ## 1. 새 임시 채팅을 연다
 
@@ -72,11 +72,14 @@ YAML 코드 블록 하나에 28개를 모두 넣어 낸다. 모양은 아래와 
 ```
 ````
 
-2. 답의 YAML 상자에서 복사 단추를 누르고, VS Code 새 파일(`Cmd+N`)에 붙여 넣어 `<폴더>/read_test.yaml`로 저장한다. 이 답은 원문의 글자뿐이라 **최종**에서도 프로젝트 안 `research_notes/stage3_dev/`에 저장해도 된다.
+2. 답의 YAML 상자에서 복사 단추를 누르고, VS Code 새 파일(`Cmd+N`)에 붙여 넣은 뒤 `Cmd+S`로 저장한다.
+   - 저장 창의 폴더: `research_notes` → `stage3_dev` → `chat3`
+   - 이름 칸: `read_test.yaml`
+   - 이 답은 원문의 글자뿐이라 **최종**에서도 같은 자리(새 `chat` 번호 폴더)에 저장해도 된다.
 3. 검사를 돌린다.
 
 ```
-uv run python src/questions/check_read_test.py <폴더>/read_test.yaml
+uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/read_test.yaml
 ```
 
 4. 마지막 줄이 `문서 28개 가운데 28개 통과`이면 4단계로 간다. 아니면 후보를 요청하지 않고 "문제가 생겼을 때"를 본다.
@@ -93,9 +96,17 @@ uv run python src/questions/check_read_test.py <폴더>/read_test.yaml
 ```
 
 3. 보낸 뒤 답을 기다린다. 답에는 YAML 상자 하나와, 그 아래 후보마다 한 줄씩인 "YAML 뒤 메모"가 있다.
-4. YAML 상자의 복사 단추를 눌러 `<폴더>/batch<순서>_<묶음>.yaml`로 저장한다(예: `batch1_ko-ko.yaml`).
-5. 답 전체 복사 단추(답 맨 아래)를 눌러 `<폴더>/batch<순서>_<묶음>_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
+4. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat3`, 이름은 아래 표의 "YAML 파일"이다.
+5. 답 전체 복사 단추(답 맨 아래)를 눌러 새 파일에 붙여 넣고 같은 폴더에 아래 표의 "답 전체 파일" 이름으로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 6. 5단계 검사를 돌린다. 검사를 통과하기 전에는 다음 묶음을 요청하지 않는다.
+
+| 묶음 | YAML 파일 | 답 전체 파일 |
+|---|---|---|
+| 1 한국어 질문·한국어 문서 | `batch1_ko-ko.yaml` | `batch1_ko-ko_full.md` |
+| 2 영어 질문·영어 문서 | `batch2_en-en.yaml` | `batch2_en-en_full.md` |
+| 3 한국어 질문·영어 문서 | `batch3_ko-en.yaml` | `batch3_ko-en_full.md` |
+| 4 영어 질문·한국어 문서 | `batch4_en-ko.yaml` | `batch4_en-ko_full.md` |
+| 5 답 없는 질문 | `batch5_no-answer.yaml` | `batch5_no-answer_full.md` |
 
 **묶음 1: 한국어 질문·한국어 문서**
 
@@ -129,23 +140,40 @@ uv run python src/questions/check_read_test.py <폴더>/read_test.yaml
 
 ## 5. 받을 때마다 검사한다
 
-묶음 이름은 `ko-ko`, `en-en`, `ko-en`, `en-ko`, `no-answer`다. 두 번째 묶음부터는 앞 묶음 파일을 `--previous`로 모두 붙인다(같은 질문이나 같은 근거를 다시 쓰지 않았는지 본다).
+그 묶음의 명령 한 줄을 돌린다. 두 번째 묶음부터는 앞 묶음 파일이 `--previous`로 함께 들어가 있다(같은 질문이나 같은 근거를 다시 쓰지 않았는지 본다).
 
 **개발용:**
+
+**묶음 1** (`batch1_ko-ko.yaml`)
 ```
-uv run python src/questions/check_candidates.py <폴더>/batch1_ko-ko.yaml --batch ko-ko
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --batch ko-ko
 ```
 
-**최종:** 끝에 `--hide`를 붙인다. 출력에 질문 내용이 나오지 않아 Claude에게 보여도 된다.
+**묶음 2** (`batch2_en-en.yaml`)
 ```
-uv run python src/questions/check_candidates.py <폴더>/batch1_ko-ko.yaml --batch ko-ko --hide
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch2_en-en.yaml --batch en-en --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml
 ```
 
-두 번째 묶음의 예: `uv run python src/questions/check_candidates.py <폴더>/batch2_en-en.yaml --batch en-en --previous <폴더>/batch1_ko-ko.yaml`
+**묶음 3** (`batch3_ko-en.yaml`)
+```
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch3_ko-en.yaml --batch ko-en --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat3/batch2_en-en.yaml
+```
+
+**묶음 4** (`batch4_en-ko.yaml`)
+```
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch4_en-ko.yaml --batch en-ko --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat3/batch2_en-en.yaml --previous research_notes/stage3_dev/chat3/batch3_ko-en.yaml
+```
+
+**묶음 5** (`batch5_no-answer.yaml`)
+```
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch5_no-answer.yaml --batch no-answer --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat3/batch2_en-en.yaml --previous research_notes/stage3_dev/chat3/batch3_ko-en.yaml --previous research_notes/stage3_dev/chat3/batch4_en-ko.yaml
+```
+
+**최종:** 위 명령의 폴더를 최종 평가용 폴더로 바꾸고 끝에 `--hide`를 붙인다. 출력에 질문 내용이 나오지 않아 Claude에게 보여도 된다. 예(묶음 1): `uv run python src/questions/check_candidates.py <최종 폴더>/batch1_ko-ko.yaml --batch ko-ko --hide`
 
 검사하는 것: 칸이 다 있는가, 개수와 유형별 수, 도시 묶음 6개씩, 근거 구절이 원문에 글자 그대로 있는가, 쓰면 안 되는 영어 소개 글 두 개를 썼는가, 앞 묶음과 같은 질문이나 구절을 썼는가, `opposite_check`(반대 언어 문서 14개를 찾은 기록)가 원문과 맞는가. 마지막 줄이 `후보 12개 가운데 12개 통과, 묶음 구성 통과`가 아니면 "문제가 생겼을 때"를 본다.
 
-**개발용:** 검사를 통과하면 결과를 Claude에게 알리고 멈춘다. Claude가 판정 기록 파일(`<폴더>/verdicts_batch<순서>_<묶음>.md`)을 만들어 준다.
+**개발용:** 검사를 통과하면 결과를 Claude에게 알리고 멈춘다. Claude가 판정 기록 파일(`research_notes/stage3_dev/chat3/verdicts_batch1_ko-ko.md`처럼 묶음마다 하나)을 만들어 준다.
 
 ## 6. 후보를 하나씩 원문과 대조한다
 
