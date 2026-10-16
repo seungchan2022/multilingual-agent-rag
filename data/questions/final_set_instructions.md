@@ -140,98 +140,78 @@
 
 YAML로 낸다. 코드 블록 하나에 전부 넣는다. `id`는 `c-001`부터 차례로 붙인다.
 
+글자 값은 모두 큰따옴표로 감싼다(아래 예처럼 `id`, 질문, 정답, 사실, 위치, 구절, 찾을 말 등). 값 안의 큰따옴표는 `\"`로 적는다. 여러 줄인 구절(표)만 `|` 아래에 줄마다 적는다. 따옴표 없이 적으면 숫자로 끝나는 정답(예: `2007.`)이 숫자로 읽히거나, 따옴표 뒤에 글자가 붙어(예: `"Fisherman Portrait".`) 파일을 읽지 못하게 된다.
+
 아래는 형식을 보여 주는 지어낸 예다. 내용을 따라 하지 말고 칸의 모양만 따른다.
 
 ```yaml
-- id: c-001
-  question: 축구와 농구 중 선발 인원이 더 많은 종목은 무엇인가
-  question_language: ko
-  evidence_language: en
-  type: multi_doc
-  answer: 축구가 더 많다. 축구는 11명, 농구는 5명이 선발로 뛴다
+- id: "c-001"
+  question: "축구와 농구 중 선발 인원이 더 많은 종목은 무엇인가"
+  question_language: "ko"
+  evidence_language: "en"
+  type: "multi_doc"
+  answer: "축구가 더 많다. 축구는 11명, 농구는 5명이 선발로 뛴다"
   required_facts:
-    - fact: 축구의 선발은 11명이다
+    - fact: "축구의 선발은 11명이다"
       evidence:
-        - doc_id: en-football
-          location: Players and equipment
+        - doc_id: "en-football"
+          location: "Players and equipment"
           passage: "Each team consists of a maximum of eleven players"
-    - fact: 농구의 선발은 5명이다
+    - fact: "농구의 선발은 5명이다"
       evidence:
-        - doc_id: en-basketball
-          location: Rules
+        - doc_id: "en-basketball"
+          location: "Rules"
           passage: "Five players from each team may be on the court at one time"
-    - fact: 축구가 농구보다 선발 인원이 많다
+    - fact: "축구가 농구보다 선발 인원이 많다"
       evidence: []
   opposite_check:
-    - term: "선발"
-      hits: []
-    - term: "11명"
-      hits: []
-    - term: "5명"
-      hits:
-        - doc_id: ko-sports-table
-          excerpt: "배구는 한 팀이 6명이고 그중 5명이 앞줄"
-          same_fact: false
-          why: 배구 이야기라 축구나 농구의 선발 인원이 아니다
+    - "선발"
+    - "11명"
+    - "5명"
   same_language_check:
-    - term: "eleven players"
-      hits: []
-    - term: "starting"
-      hits:
-        - doc_id: en-football
-          excerpt: "The starting line-up is announced an hour before kick-off"
-          same_fact: false
-          why: 선발 명단을 발표하는 때의 이야기라 선발 인원의 다른 값이 아니다
-    - term: "five players"
-      hits: []
+    - "eleven players"
+    - "five players"
+    - "starting"
 
-- id: c-002
-  question: 축구의 선발 인원은 몇 명인가
-  question_language: ko
-  evidence_language: ko
-  type: table_numeric
-  answer: 11명이다
+- id: "c-002"
+  question: "축구의 선발 인원은 몇 명인가"
+  question_language: "ko"
+  evidence_language: "ko"
+  type: "table_numeric"
+  answer: "11명이다"
   required_facts:
-    - fact: 축구의 선발 인원은 11명이다
+    - fact: "축구의 선발 인원은 11명이다"
       evidence:
-        - doc_id: ko-sports-table
-          location: 종목별 비교 표
+        - doc_id: "ko-sports-table"
+          location: "종목별 비교 표"
           passage: |
             | 종목 | 선발 인원 | 경기 시간 |
             | 축구 | 11 | 90분 |
 
-- id: c-003
-  question: 축구에서 선발 12번째 선수의 포지션 이름은 무엇인가
-  question_language: ko
+- id: "c-003"
+  question: "축구에서 선발 12번째 선수의 포지션 이름은 무엇인가"
+  question_language: "ko"
   evidence_language: null
-  type: no_answer
+  type: "no_answer"
   answer: null
   required_facts: []
-  expected_refusal: 선발은 11명이라 12번째 선수는 없다고 답한다
-  no_answer_reason: 문서 전체에서 선발 인원을 찾아봤고 모두 11명으로 적혀 있다. 12번째 선발 선수는 실제로도 없어서 일반 지식으로도 답할 수 없다
+  expected_refusal: "선발은 11명이라 12번째 선수는 없다고 답한다"
+  no_answer_reason: "문서 전체에서 선발 인원을 찾아봤고 모두 11명으로 적혀 있다. 12번째 선발 선수는 실제로도 없어서 일반 지식으로도 답할 수 없다"
   rebuttal:
-    - doc_id: en-football
-      location: Players and equipment
+    - doc_id: "en-football"
+      location: "Players and equipment"
       passage: "Each team consists of a maximum of eleven players"
 ```
 
-### 8. 문서를 찾은 기록(`opposite_check`, `same_language_check`)
+### 8. 찾을 말(`opposite_check`, `same_language_check`)
 
-답 있는 후보마다 `opposite_check` 칸에, 반대 언어 문서에 같은 사실이 없는지 찾은 기록을 적는다(7번 예의 c-001). 나는 이 기록을 프로그램으로 원문과 대조한다. 없다고 적은 말이 반대 언어 문서에 있거나, 옮긴 구간이 원문에 없거나, 걸린 곳을 빠뜨리면 그 후보는 걸린다. 실제로 찾지 않고 "없음"이라고 적지 마라.
+답 있는 후보마다 찾을 말을 두 칸에 적는다(7번 예의 c-001). 나는 이 말들이 문서에 나오는 곳을 프로그램으로 전부 찾아, 걸린 문장을 하나씩 읽고 같은 사실이나 다른 값이 없는지 확인한다. 그래서 찾을 말은 그 사실을 가려낼 수 있는 말이어야 한다. 걸린 곳은 적지 마라. 프로그램이 찾는다.
 
-- 반대 언어 문서는 근거가 한국어 문서이면 영어 문서 14개, 영어 문서이면 한국어 문서 14개다. 같은 도시의 문서만 보지 말고 14개 전부에서 찾는다.
-- `term`(찾을 말)은 반대 언어로 적는다. 그 사실의 이름, 숫자, 핵심 낱말이다. 한 후보에 3개 이상 적는다. 반대 언어 문서에 적혔을 법한 다른 표기와 다른 말도 따로 적는다(예: `1,091`과 `1091`, `Chun Doo-hwan`과 `Chun Doo Hwan`, `cultivator`와 `tiller`).
-- `hits`에는 그 찾을 말이 반대 언어 문서 14개에 나오는 곳을 빠짐없이 적는다. 대문자와 소문자는 가리지 않고 찾는다. 한 문서에 여러 번 나오면 나오는 곳마다 하나씩 적는다. 나오는 곳이 없으면 `hits: []`로 둔다.
-- 걸린 곳마다 `doc_id`, `excerpt`, `same_fact`, `why`를 적는다. `excerpt`는 찾을 말이 들어 있는 구간을 원문에서 글자 그대로 30글자 이상 옮긴 것이다(줄이 그보다 짧으면 줄 전체). `same_fact`는 그 구간이 후보와 같은 사실을 말하면 `true`, 아니면 `false`다. `why`는 그렇게 본 까닭을 한 문장으로 적는다.
-- `same_fact`가 `true`인 곳이 하나라도 나오면 그 사실로는 후보를 만들지 마라. 다른 사실로 바꾼다.
-- 걸린 곳이 10곳을 넘을 만큼 흔한 말(예: `2024`, `city`)은 그 사실을 가려내지 못한다. 더 구체적인 말(이름, 숫자가 붙은 말)로 바꾼다.
-
-답 있는 후보마다 `same_language_check` 칸에도, 같은 것이 다른 값으로 적힌 곳이 없는지 같은 언어 문서를 찾은 기록을 적는다(7번 예의 c-001). 이것도 프로그램으로 원문과 대조한다. 모양과 규칙은 위 `opposite_check`와 같고, 다른 것은 아래다.
-
-- 같은 언어 문서는 근거 문서와 같은 언어로 된 문서 14개다. 근거 문서 자신도 넣는다. 근거 문서 안의 다른 곳(맨 위의 요약 목록, 본문, 표)도 찾는다.
-- `term`(찾을 말)은 근거 문서의 언어로 적는다. 그 대상을 가리키는 낱말(예: `population`, `면적`), 이름, 숫자다. 한 후보에 3개 이상 적고, 다른 표기와 다른 말도 따로 적는다.
-- `hits`에는 그 찾을 말이 같은 언어 문서 14개에 나오는 곳을 빠짐없이 적는다. 다만 이 후보의 `passage`(근거 구절) 안에서 나오는 곳은 적지 않는다.
-- 걸린 곳에 같은 것이 같은 값으로 적혀 있으면 그 구간을 그 사실의 `evidence`에 근거 구절로 더 적는다(그러면 근거 구절 안이 되므로 `hits`에는 적지 않는다). 다른 값으로 적혀 있으면 그 사실로는 후보를 만들지 마라(5번). 그래서 `hits`에 남는 곳은 모두 `same_fact: false`다.
+- `opposite_check`: 반대 언어 문서에서 찾을 말이다. 반대 언어 문서는 근거가 한국어 문서이면 영어 문서 14개, 영어 문서이면 한국어 문서 14개다. **찾을 말은 반대 언어로 적는다**(근거가 영어이면 한국어로, 한국어이면 영어로). 그 사실의 이름, 숫자, 핵심 낱말이다. 반대 언어 문서에 적혔을 법한 다른 표기와 다른 말도 따로 적는다(예: `1,091`과 `1091`, `Chun Doo-hwan`과 `Chun Doo Hwan`, `cultivator`와 `tiller`).
+- `same_language_check`: 같은 언어 문서에서 찾을 말이다. 같은 언어 문서는 근거 문서와 같은 언어로 된 문서 14개이고, 근거 문서 자신도 들어간다. **찾을 말은 근거 문서의 언어로 적는다.** 그 대상을 가리키는 낱말(예: `population`, `면적`), 이름, 숫자다. 다른 표기와 다른 말도 따로 적는다.
+- 두 칸 모두 찾을 말을 3개 이상 적는다.
+- 프로그램은 대문자와 소문자를 가리지 않고 찾는다. 찾을 말 하나가 찾는 문서들에서 10곳을 넘게 나오면 그 말은 그 사실을 가려내지 못하므로 프로그램이 받지 않는다(`same_language_check`는 이 후보의 근거 구절 안에서 나오는 곳은 세지 않는다). 흔한 말(예: `2024`, `city`, `충청`) 대신 더 구체적인 말(이름, 숫자가 붙은 말)을 적는다.
+- 찾을 말을 적기 전에 너도 그 말로 문서를 찾아본다. 반대 언어 문서에 같은 사실이 있거나, 같은 언어 문서에 같은 것이 다른 값으로 적혀 있으면 그 사실로는 후보를 만들지 마라(5번). 같은 언어 문서에 같은 것이 같은 값으로 있으면 그 구간을 그 사실의 `evidence`에 근거 구절로 더 적는다.
 
 YAML 코드 블록 뒤에는 "YAML 뒤 메모"를 후보마다 한 줄씩 적는다(`c-001: ...` 꼴). 적을 것은 셋이다: `paraphrase` 후보면 문서의 어느 낱말을 어떤 말로 바꿨는지, 날짜가 다른 값이 있는 사실이면 그 값, 찾아봤는데 확신이 서지 않는 것이 있으면 무엇인지. 적을 것이 없는 후보는 줄을 적지 않는다. 숨기지 마라.
 
@@ -239,8 +219,9 @@ YAML 코드 블록 뒤에는 "YAML 뒤 메모"를 후보마다 한 줄씩 적는
 
 - 개수가 2번의 표와 맞는가
 - 모든 `passage`가 원문에 글자 그대로 있는가
-- 한 질문의 근거가 한 가지 언어의 문서에만 있고, 반대 언어 문서에 같은 사실이 없는가. `opposite_check`의 찾을 말마다 반대 언어 문서 14개에서 나오는 곳을 빠짐없이 적었는가
-- `same_language_check`의 찾을 말마다 같은 언어 문서 14개(근거 문서 포함)에서 근거 구절 밖에 나오는 곳을 빠짐없이 적었는가
+- 한 질문의 근거가 한 가지 언어의 문서에만 있고, 반대 언어 문서에 같은 사실이 없는가
+- `opposite_check`의 찾을 말은 반대 언어로, `same_language_check`의 찾을 말은 근거 문서의 언어로 3개 이상 적었고, 10곳을 넘게 나오는 흔한 말이 없는가
+- 글자 값을 모두 큰따옴표로 감쌌는가
 - `passage`와 `rebuttal`을 가져온 문서(`doc_id`)가 `kto-en-jeonju-hanok-village`나 `kto-en-cheonan-samgeori-park`가 아닌가
 - 근거로 쓴 값이 같은 문서의 다른 곳, 같은 언어의 다른 문서, 같은 도시의 반대 언어 문서에 다른 값(반올림·버림·어림·덜 자세하게 적은 값 포함)으로 적혀 있지 않은가. 표의 합계·소계 값이면 더한 값과 맞는가
 - 근거 구절만 읽고 정답이 나오는가
