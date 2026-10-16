@@ -13,9 +13,10 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 답 있는 묶음은 후보 12개 가운데 6개가 두 언어 도시, 6개가 그 묶음의 근거 언어만 넣는 도시의 문서를 근거로 써야 하고, 그 개수를 묶음 구성 아래에 한 줄로 보인다.
 답 있는 후보는 opposite_check(반대 언어 문서 14개에서 찾은 기록)를 원문과 대조한다: 찾을 말이 3개 이상이고 반대 언어여야 하며, 걸린 곳의 구간이 원문에 글자 그대로 있고, 찾을 말이 나오는 곳을 빠짐없이 적어야 한다.
 후보마다 찾은 기록의 개수(찾을 말, 걸린 곳)를 한 줄 더 보인다.
+답 있는 후보의 근거 구절이 data/questions/known_conflicts.json("알려진 부딪히는 값" 목록)의 항목과 자리, 값, 해 가운데 하나라도 겹치면 실패한다. 넓게 잡으므로 관계없는 구절이 걸릴 수 있다.
 --hide를 주면 후보와 원문의 글자(질문, 답, 사실, 구절, 위치, 찾을 말, 구간, 까닭 등)를 출력에 넣지 않고 id, 칸 경로, doc_id, 개수, 규칙 이름만 보인다.
 """
-import re, sys
+import json, re, sys
 from functools import cache
 from pathlib import Path
 
@@ -24,6 +25,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 CORPUS = ROOT / "data" / "corpus"
 MARKDOWN = CORPUS / "markdown"
+CONFLICTS = ROOT / "data" / "questions" / "known_conflicts.json"
 
 _DOCS = yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]
 DOC_LANG = {d["doc_id"]: d["language"] for d in _DOCS}
@@ -221,6 +223,69 @@ def table_problem(doc_id, L):
     return f"원문에 글자 그대로 없음 (표의 {bad + 1}번째 줄이 같은 머리글의 표에 없음. {diff_note(L[bad], n, '같은 표의 줄')})"
 
 
+# ---------- 알려진 부딪히는 값 ----------
+
+@cache
+def conflicts():
+    """알려진 부딪히는 값 목록(known_conflicts.json). 없으면 분명한 오류로 멈춘다."""
+    try:
+        return json.loads(CONFLICTS.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as err:
+        sys.exit(f"오류: 알려진 부딪히는 값 목록({CONFLICTS.relative_to(ROOT)})을 읽지 못함 ({err}). research_notes/stage2_fact_count/known_conflicts.py로 만든다")
+
+
+def data_rows(piece, header_first):
+    """비어 있지 않은 줄들(줄 끝 공백은 뗀다). 표 글이면 머리글 행과 구분선 행을 뺀다. header_first가 참이면 첫 줄이 머리글 행이고, 거짓이면 다음 줄이 구분선일 때만 첫 줄을 머리글 행으로 본다."""
+    ls = [l.rstrip() for l in normalize(piece).split("\n") if l.strip()]
+    if is_table_passage(piece):
+        if header_first or (len(ls) > 1 and is_separator(ls[1])):
+            ls = ls[1:]
+        ls = [l for l in ls if not is_separator(l)]
+    return ls
+
+
+def conflict_reasons(doc_id, passage, entry):
+    """근거 구절이 목록 항목 하나와 겹치는 규칙들: ["자리", "값 <값>", "해 <해>"] 가운데 걸린 것."""
+    out = []
+    text = doc_text(doc_id)
+    spans = [(n, n + len(l)) for l in data_rows(passage, True) for n in positions(text, l)]
+    quote_spans = [(n, n + len(l)) for q in entry.get("quotes", []) for l in data_rows(q, False) for n in positions(text, l)]
+    if any(a < d and c < b for a, b in spans for c, d in quote_spans):
+        out.append("자리")
+    flat = normalize(passage).replace(",", "")
+    values = list(entry.get("values", []))
+    for t in entry.get("targets", []):
+        if t["doc_id"] == doc_id:
+            values += t["values"]
+    hit = [v for v in dict.fromkeys(values) if re.search(r"(?<!\d)(?<!\d\.)" + re.escape(v.replace(",", "")) + r"(?!\d)(?!\.\d)", flat)]
+    if hit:
+        out.append("값 " + ", ".join(hit))
+    years = set(entry.get("table_years", []))
+    if years and is_table_passage(passage):
+        firsts = [r.split("|")[1].strip() for r in data_rows(passage, True) if r.count("|") >= 2]
+        got = [y for y in dict.fromkeys(f.removesuffix("년") for f in firsts) if y in years]
+        if got:
+            out.append("해 " + ", ".join(got))
+    return out
+
+
+def conflict_problems(path, doc_id, passage):
+    """근거 구절이 알려진 부딪히는 값 목록의 항목과 겹치는 곳마다 실패 이유 한 줄."""
+    out = []
+    for n, entry in enumerate(conflicts(), 1):
+        if doc_id != entry.get("doc_id") and doc_id not in [t["doc_id"] for t in entry.get("targets", [])]:
+            continue
+        why = conflict_reasons(doc_id, passage, entry)
+        if not why:
+            continue
+        if HIDE:
+            kinds = "·".join(w.split()[0] for w in why)
+            out.append(f'{path}.passage: 근거 구절이 "알려진 부딪히는 값" {n}번째 항목({doc_id})과 겹친다({kinds})')
+        else:
+            out.append(f'{path}.passage: 근거 구절이 순서표 끝 "알려진 부딪히는 값"의 항목과 겹친다({" / ".join(why)}): {entry["text"]}')
+    return out
+
+
 # ---------- 후보 하나 ----------
 
 def nonempty_str(c, key, problems, path=None):
@@ -254,6 +319,8 @@ def check_item(item, path, language, problems, info, is_evidence):
         info["pairs"].append((doc, normalize(passage)))
         if is_evidence and is_table_passage(passage):
             info["table"] = True
+        if is_evidence:
+            problems += conflict_problems(path, doc, passage)
 
 
 def check_candidate(c, batch):

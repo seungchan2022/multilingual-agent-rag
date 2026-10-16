@@ -5,7 +5,7 @@
 후보 파일을 임시 폴더에 쓰고 검사 프로그램을 하위 프로세스로 실행해, 종료 코드와 출력 글자만 본다.
 검사 프로그램을 불러 쓰지 않고, 올바른 묶음은 이 파일의 코드로 실제 말뭉치 글자에서 따로 만든다.
 """
-import copy, re, subprocess, sys, tempfile, unittest
+import copy, json, re, subprocess, sys, tempfile, unittest
 from pathlib import Path
 
 import yaml
@@ -35,11 +35,32 @@ def lines_of(doc_id):
     return text_of(doc_id).split("\n")
 
 
+CONFLICTS = json.loads((ROOT / "data" / "questions" / "known_conflicts.json").read_text(encoding="utf-8"))
+
+
+def conflict_entries(doc_id):
+    """doc_id를 가리키는 알려진 부딪히는 값 항목들."""
+    return [e for e in CONFLICTS if e.get("doc_id") == doc_id or doc_id in [t["doc_id"] for t in e.get("targets", [])]]
+
+
+def touches_conflict(doc_id, line):
+    """줄이 알려진 부딪히는 값 항목과 겹칠 수 있는지. 값이 홀로 선 숫자로 들어 있거나 인용과 줄이 포함 관계이면 참."""
+    flat = line.replace(",", "")
+    for e in conflict_entries(doc_id):
+        vals = e.get("values", []) + [v for x in e.get("targets", []) if x["doc_id"] == doc_id for v in x["values"]]
+        if any(re.search(r"(?<!\d)(?<!\d\.)" + re.escape(v.replace(",", "")) + r"(?!\d)(?!\.\d)", flat) for v in vals):
+            return True
+        for q in e.get("quotes", []):
+            if q in line or line in q:
+                return True
+    return False
+
+
 def prose(doc_id):
-    """문서에서 한 줄짜리 산문으로 쓸 만한 줄들(30~150글자, 문서에 한 번만 나옴)."""
+    """문서에서 한 줄짜리 산문으로 쓸 만한 줄들(30~150글자, 문서에 한 번만 나옴, 알려진 부딪히는 값과 겹치지 않음)."""
     t = text_of(doc_id)
     return [l for l in lines_of(doc_id)
-            if 30 <= len(l) <= 150 and l == l.strip() and l[0] not in "#|-*!<>[" and t.count(l) == 1]
+            if 30 <= len(l) <= 150 and l == l.strip() and l[0] not in "#|-*!<>[" and t.count(l) == 1 and not touches_conflict(doc_id, l)]
 
 
 def tables_of(doc_id):
@@ -55,14 +76,19 @@ def tables_of(doc_id):
     return out
 
 
+def clean_rows(doc_id, t):
+    """표 t의 데이터 줄 가운데 알려진 부딪히는 값과 겹치지 않는 것."""
+    return [r for r in t[2:] if not touches_conflict(doc_id, r)]
+
+
 def table_doc(pool):
-    """표(머리글, 구분선, 데이터 줄 2개 이상)가 있는 첫 문서."""
-    return next(d for d in pool if any(len(t) >= 4 for t in tables_of(d)))
+    """표(머리글, 구분선, 겹치지 않는 데이터 줄 2개 이상)가 있는 첫 문서."""
+    return next(d for d in pool if any(len(clean_rows(d, t)) >= 2 for t in tables_of(d)))
 
 
 def table_passage(doc_id, row):
-    t = next(t for t in tables_of(doc_id) if len(t) >= 4 + row)
-    return t[0] + "\n" + t[2 + row] + "\n"
+    t = next(t for t in tables_of(doc_id) if len(clean_rows(doc_id, t)) >= 2 + row)
+    return t[0] + "\n" + clean_rows(doc_id, t)[row] + "\n"
 
 
 class Pool:
@@ -676,6 +702,71 @@ class CheckCandidatesTest(unittest.TestCase):
         first_ev(c)["passage"] = rows[-1]
         out = self.assertFailsFor(c["id"], b)
         self.assertIn("머리글 행이 없음", out)
+
+    # ---- 알려진 부딪히는 값 ----
+
+    def conflict_batch(self, doc, passage):
+        """첫 후보의 근거 구절을 (doc, passage)로 바꾼 묶음. ko-ko 묶음에서 doc은 한국어 문서여야 한다."""
+        b = make_batch("ko-ko")
+        e = first_ev(b[0])
+        e["doc_id"], e["passage"] = doc, passage
+        return b
+
+    def place_case(self):
+        """(항목 번호, doc_id, 줄): 인용이 문서의 한 줄 안에 있는 한국어 문서 항목과 그 줄 전체."""
+        for n, e in enumerate(CONFLICTS, 1):
+            d = e.get("doc_id", "")
+            if d.startswith("wiki-ko-") and e.get("quotes"):
+                line = next((l for l in lines_of(d) if e["quotes"][0] in l and not l.startswith("|")), None)
+                if line:
+                    return n, d, line
+        self.fail("인용이 문서의 한 줄 안에 있는 한국어 문서 항목이 없음")
+
+    def test_43_conflict_place(self):
+        # 목록 항목의 인용과 같은 자리의 줄이면 걸린다
+        n, d, line = self.place_case()
+        out = self.assertFailsFor("c-001", self.conflict_batch(d, line))
+        self.assertIn('"알려진 부딪히는 값"의 항목과 겹친다(자리', out)
+
+    def test_44_conflict_value(self):
+        # 자리는 다르고 값만 같은 줄이면 걸리고, 값이 다른 숫자의 일부이면 걸리지 않는다
+        b = self.conflict_batch("wiki-ko-jeonju", "전주 이야기 — 한옥 650여 채")
+        e = first_ev(b[0])
+        self.assertNotIn(e["passage"], text_of("wiki-ko-jeonju"))   # 값 규칙만 시험하는 글이라 원문과 다르다
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("겹친다(값 650)", out)
+        e["passage"] = "전주 이야기 — 한옥 6500여 채와 1650채"
+        out = self.assertFailsFor("c-001", b)
+        self.assertNotIn("겹친다", out)
+
+    def test_45_conflict_year(self):
+        # 인구 표가 둘인 문서의 표 줄 가운데 첫 칸이 목록의 해이면 걸린다
+        d = "wiki-ko-chuncheon"
+        t = next(t for t in tables_of(d) if any(r.split("|")[1].strip() in ("2000", "2000년") for r in t[2:]))
+        row = next(r for r in t[2:] if r.split("|")[1].strip() in ("2000", "2000년"))
+        b = self.conflict_batch(d, Block(t[0] + "\n" + row + "\n"))
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("겹친다(", out)
+        self.assertIn("해 2000", out)
+
+    def test_46_conflict_header_only(self):
+        # 머리글 행만 같고 데이터 행은 목록과 겹치지 않으면 걸리지 않는다
+        d = "wiki-ko-chuncheon"
+        t = next(t for t in tables_of(d) if any(r.split("|")[1].strip() in ("2000", "2000년") for r in t[2:]))
+        other = next(r for r in t[2:] if r.split("|")[1].strip() not in ("1995", "1995년", "2000", "2000년", "2005", "2005년", "2010", "2010년", "2015", "2015년", "2020", "2020년"))
+        b = self.conflict_batch(d, Block(t[0] + "\n" + other + "\n"))
+        out = self.assertPasses(b) if not touches_conflict(d, other) else None
+        if out is None:
+            self.skipTest("머리글 행만 다른 데이터 행이 모두 목록과 겹쳐 건너뜀")
+
+    def test_47_conflict_hide(self):
+        # --hide에서는 원문·후보 글자 없이 번호, doc_id, 규칙 이름만 보인다
+        n, d, line = self.place_case()
+        out = self.assertFailsFor("c-001", self.conflict_batch(d, line), hide=True)
+        self.assertIn(f'"알려진 부딪히는 값" {n}번째 항목({d})과 겹친다(자리', out)
+        self.assertNotIn(line, out)
+        self.assertNotIn(CONFLICTS[n - 1]["quotes"][0], out)
+        self.assertNotIn(CONFLICTS[n - 1]["text"], out)
 
 
 if __name__ == "__main__":
