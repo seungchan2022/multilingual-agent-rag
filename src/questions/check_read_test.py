@@ -7,6 +7,8 @@
 하나라도 실패하면 종료 코드 1로 끝낸다.
 글자는 그대로 견준다(유니코드 정규화, 공백 합치기, 대소문자 맞추기를 하지 않는다). 줄 끝 공백만 떼고 견준다.
 "앞부분" 값은 실제 줄이 그 값으로 시작해야 하고, 길이가 min(20, 실제 줄 길이) 이상이어야 한다(요청은 30글자지만 글자 수를 세는 오차를 받아 20글자까지 받는다).
+다만 그 값이 기대한 줄의 중간부터 옮긴 것이고(기대한 줄 안에 글자 그대로 한 번 있고), 그 문서의 다른 값이 모두 통과했으면
+"통과(줄 중간부터 옮김)"으로 센다. 줄의 시작을 다르게 본 것이라 읽기 실패로 보지 않는다(decisions/stage3.md 2026-10-15).
 """
 import re, sys
 from pathlib import Path
@@ -24,9 +26,10 @@ results = []
 
 
 def report(name, problems):
-    """problems가 비면 통과, 아니면 실패하고 이유를 들여 써서 보인다."""
-    results.append(not problems)
-    print(f"{'통과' if not problems else '실패'}  {name}")
+    """problems가 비면 통과, 줄 중간부터 옮긴 값 하나뿐이면 통과(줄 중간부터 옮김), 아니면 실패하고 이유를 들여 써서 보인다."""
+    mid = len(problems) == 1 and isinstance(problems[0], MidLine)
+    results.append(not problems or mid)
+    print(f"{'통과' if not problems else '통과(줄 중간부터 옮김)' if mid else '실패'}  {name}")
     for p in problems[:10]:
         print(f"      {p}")
     if len(problems) > 10:
@@ -72,6 +75,10 @@ def expected(doc_id):
     return (body[0] if body else None, [l for l in ls if l.strip()][-1])
 
 
+class MidLine(str):
+    """기대한 줄의 중간부터 옮긴 값(그 문서의 다른 값이 모두 통과했을 때만 통과로 센다)."""
+
+
 def begins(label, actual, given):
     """앞부분 규칙을 어기면 이유 글, 지키면 None."""
     if actual is None:
@@ -82,6 +89,8 @@ def begins(label, actual, given):
         return f"{label}: 값이 비었거나 글자가 아님 (기대 {show(actual)})"
     given = given.rstrip()
     if not actual.startswith(given):
+        if len(given) >= min(MIN_LEN, len(actual)) and actual.count(given) == 1:
+            return MidLine(f"{label}: 기대한 줄 안에 글자 그대로 한 번 있음")
         return f"{label}: 줄의 앞부분이 아님. 기대 {show(actual)}, 답 {show(given)}. {diff_at(actual, given)}"
     if len(given) < min(MIN_LEN, len(actual)):
         return f"{label}: {len(given)}글자로 너무 짧음 (최소 {min(MIN_LEN, len(actual))}글자). 기대 {show(actual)}, 답 {show(given)}"
@@ -127,7 +136,10 @@ def check_doc(doc_id, entries):
             r = begins(key, actual, e[key])
             if r:
                 bad.append(r)
-    return bad
+    mid = [b for b in bad if isinstance(b, MidLine)]
+    if len(mid) == 1 and len(bad) == 1:
+        return mid
+    return [b if not isinstance(b, MidLine) else f"{b} (그러나 이 문서의 다른 값도 틀려 통과로 보지 않음)" for b in bad]
 
 
 def main():
@@ -156,15 +168,16 @@ def main():
             by.setdefault(item["doc_id"], []).append(item)
     if top:
         report("답의 항목 모양", top)
-    passed = 0
+    passed, mids = 0, 0
     for doc_id in DOC_IDS:
         problems = check_doc(doc_id, by.get(doc_id, []))
         report(doc_id, problems)
-        passed += not problems
+        mids += bool(problems) and results[-1]
+        passed += results[-1]
     for doc_id in by:
         if doc_id not in DOC_IDS:
             report(doc_id, ["문서 28개에 없는 doc_id"])
-    print(f"문서 {len(DOC_IDS)}개 가운데 {passed}개 통과")
+    print(f"문서 {len(DOC_IDS)}개 가운데 {passed}개 통과" + (f" (그 가운데 {mids}개는 줄 중간부터 옮김)" if mids else ""))
     return 0 if all(results) else 1
 
 

@@ -205,11 +205,32 @@ class CheckReadTest(unittest.TestCase):
 
     # 14
     def test_14_next_line_not_from_beginning(self):
+        # 줄 중간부터 옮긴 값 하나뿐이고 다른 값이 모두 맞으면 통과(줄 중간부터 옮김)로 센다(decisions/stage3.md 2026-10-15)
         doc = "wiki-en-busan"
         k, actual = self.sections_with_long_next(doc, need=35)[0]
         g = actual[5:35]
         self.assertFalse(actual.startswith(g))
+        self.assertEqual(actual.count(g), 1)
         entry(self.ans, doc)["sections"][k]["next_line"] = g
+        code, out = self.check(self.ans)
+        self.assertEqual(code, 0, out)
+        self.assertIn(f"통과(줄 중간부터 옮김)  {doc}", out)
+        self.assertIn("(그 가운데 1개는 줄 중간부터 옮김)", out)
+
+    def test_14b_middle_copy_with_another_wrong_value(self):
+        # 같은 문서의 다른 값도 틀리면 줄 중간부터 옮긴 값도 실패다
+        doc = "wiki-en-busan"
+        (k, actual), (k2, actual2) = self.sections_with_long_next(doc, need=35)[:2]
+        entry(self.ans, doc)["sections"][k]["next_line"] = actual[5:35]
+        entry(self.ans, doc)["sections"][k2]["next_line"] = "X" + actual2[:30]
+        out = self.assertFailsFor(doc, self.ans)
+        self.assertIn("그러나 이 문서의 다른 값도 틀려 통과로 보지 않음", out)
+
+    def test_14c_two_middle_copies_in_one_doc(self):
+        doc = "wiki-en-busan"
+        (k, actual), (k2, actual2) = self.sections_with_long_next(doc, need=35)[:2]
+        entry(self.ans, doc)["sections"][k]["next_line"] = actual[5:35]
+        entry(self.ans, doc)["sections"][k2]["next_line"] = actual2[5:35]
         self.assertFailsFor(doc, self.ans)
 
     # 15
