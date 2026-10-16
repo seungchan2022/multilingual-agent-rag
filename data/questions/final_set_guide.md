@@ -9,7 +9,7 @@
 - 파일을 저장할 때는 저장 창에서 폴더를 눌러 고르고, 이름 칸에는 파일 이름만 적는다. 이름 칸에 경로를 적으면 폴더가 새로 생긴다.
 
 **저장할 곳**
-- **개발용:** 지금 채팅은 `research_notes/stage3_dev/chat3` 폴더다(Claude가 만들어 둠). 아래 단계의 폴더와 명령은 모두 이 폴더로 적었다. 개발용에서 새 채팅을 열 때는 Claude가 폴더를 새로 만들고 이 글의 `chat3`을 다음 번호로 바꿔 둔다.
+- **개발용:** 지금 채팅은 `research_notes/stage3_dev/chat4` 폴더다(Claude가 만들어 둠). 묶음 1은 앞 채팅(`chat3`)에서 받아 대조를 마쳤으므로, 묶음 2~5 명령의 `--previous`에서 묶음 1 파일만 `chat3`을 가리킨다. 새 채팅에 붙일 앞 묶음의 질문 문장은 `chat4/previous_questions.md`에 있다. 아래 단계의 폴더와 명령은 모두 이 폴더로 적었다. 개발용에서 새 채팅을 열 때는 Claude가 폴더를 새로 만들고 이 글의 `chat3`을 다음 번호로 바꿔 둔다.
 - **최종:** `<3단계에서 정한다>`(프로젝트 폴더 밖). 정해지면 아래 "최종:" 명령의 폴더 자리를 채운다.
 
 ## 1. 새 임시 채팅을 연다
@@ -73,13 +73,13 @@ YAML 코드 블록 하나에 28개를 모두 넣어 낸다. 모양은 아래와 
 ````
 
 2. 답이 끝까지 나온 뒤(답 아래에 복사 단추들이 보인 뒤) 답의 YAML 상자에서 복사 단추를 누르고, VS Code 새 파일(`Cmd+N`)에 붙여 넣은 뒤 `Cmd+S`로 저장한다.
-   - 저장 창의 폴더: `research_notes` → `stage3_dev` → `chat3`
+   - 저장 창의 폴더: `research_notes` → `stage3_dev` → `chat4`
    - 이름 칸: `read_test.yaml`
    - 이 답은 원문의 글자뿐이라 **최종**에서도 같은 자리(새 `chat` 번호 폴더)에 저장해도 된다.
 3. 검사를 돌린다.
 
 ```
-uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/read_test.yaml
+uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/read_test.yaml
 ```
 
 4. 마지막 줄이 `문서 28개 가운데 28개 통과`이면 4단계로 간다. 아니면 후보를 요청하지 않고 "문제가 생겼을 때"를 본다.
@@ -98,7 +98,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/r
 ```
 
 3. 답이 끝까지 나올 때까지(답 아래에 복사 단추들이 보일 때까지) 기다린다. 답에는 YAML 상자 하나와, 그 아래 "YAML 뒤 메모"가 있다.
-4. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat3`, 이름은 `batch1_ko-ko.yaml`이다.
+4. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat4`, 이름은 `batch1_ko-ko.yaml`이다.
 5. 답 맨 아래의 답 전체 복사 단추를 눌러 새 파일에 붙여 넣고, 같은 폴더에 `batch1_ko-ko_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 6. 5단계의 "묶음 1" 명령을 돌린다.
 
@@ -111,7 +111,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/r
 ```
 
 2. 답이 끝까지 나올 때까지(답 아래에 복사 단추들이 보일 때까지) 기다린다. 답에는 YAML 상자 하나와, 그 아래 "YAML 뒤 메모"가 있다.
-3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat3`, 이름은 `batch2_en-en.yaml`이다.
+3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat4`, 이름은 `batch2_en-en.yaml`이다.
 4. 답 맨 아래의 답 전체 복사 단추를 눌러 새 파일에 붙여 넣고, 같은 폴더에 `batch2_en-en_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 5. 5단계의 "묶음 2" 명령을 돌린다.
 
@@ -124,7 +124,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/r
 ```
 
 2. 답이 끝까지 나올 때까지(답 아래에 복사 단추들이 보일 때까지) 기다린다. 답에는 YAML 상자 하나와, 그 아래 "YAML 뒤 메모"가 있다.
-3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat3`, 이름은 `batch3_ko-en.yaml`이다.
+3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat4`, 이름은 `batch3_ko-en.yaml`이다.
 4. 답 맨 아래의 답 전체 복사 단추를 눌러 새 파일에 붙여 넣고, 같은 폴더에 `batch3_ko-en_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 5. 5단계의 "묶음 3" 명령을 돌린다.
 
@@ -137,7 +137,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/r
 ```
 
 2. 답이 끝까지 나올 때까지(답 아래에 복사 단추들이 보일 때까지) 기다린다. 답에는 YAML 상자 하나와, 그 아래 "YAML 뒤 메모"가 있다.
-3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat3`, 이름은 `batch4_en-ko.yaml`이다.
+3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat4`, 이름은 `batch4_en-ko.yaml`이다.
 4. 답 맨 아래의 답 전체 복사 단추를 눌러 새 파일에 붙여 넣고, 같은 폴더에 `batch4_en-ko_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 5. 5단계의 "묶음 4" 명령을 돌린다.
 
@@ -150,7 +150,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/r
 ```
 
 2. 답이 끝까지 나올 때까지(답 아래에 복사 단추들이 보일 때까지) 기다린다. 답에는 YAML 상자 하나와, 그 아래 "YAML 뒤 메모"가 있다.
-3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat3`, 이름은 `batch5_no-answer.yaml`이다.
+3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat4`, 이름은 `batch5_no-answer.yaml`이다.
 4. 답 맨 아래의 답 전체 복사 단추를 눌러 새 파일에 붙여 넣고, 같은 폴더에 `batch5_no-answer_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 5. 5단계의 "묶음 5" 명령을 돌린다.
 
@@ -170,41 +170,41 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat3/r
 
 **묶음 1** (`batch1_ko-ko.yaml`)
 ```
-uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --batch ko-ko
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/batch1_ko-ko.yaml --batch ko-ko
 ```
 
 **묶음 2** (`batch2_en-en.yaml`)
 ```
-uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch2_en-en.yaml --batch en-en --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/batch2_en-en.yaml --batch en-en --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml
 ```
 
 **묶음 3** (`batch3_ko-en.yaml`)
 ```
-uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch3_ko-en.yaml --batch ko-en --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat3/batch2_en-en.yaml
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/batch3_ko-en.yaml --batch ko-en --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat4/batch2_en-en.yaml
 ```
 
 **묶음 4** (`batch4_en-ko.yaml`)
 ```
-uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch4_en-ko.yaml --batch en-ko --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat3/batch2_en-en.yaml --previous research_notes/stage3_dev/chat3/batch3_ko-en.yaml
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/batch4_en-ko.yaml --batch en-ko --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat4/batch2_en-en.yaml --previous research_notes/stage3_dev/chat4/batch3_ko-en.yaml
 ```
 
 **묶음 5** (`batch5_no-answer.yaml`)
 ```
-uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch5_no-answer.yaml --batch no-answer --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat3/batch2_en-en.yaml --previous research_notes/stage3_dev/chat3/batch3_ko-en.yaml --previous research_notes/stage3_dev/chat3/batch4_en-ko.yaml
+uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/batch5_no-answer.yaml --batch no-answer --previous research_notes/stage3_dev/chat3/batch1_ko-ko.yaml --previous research_notes/stage3_dev/chat4/batch2_en-en.yaml --previous research_notes/stage3_dev/chat4/batch3_ko-en.yaml --previous research_notes/stage3_dev/chat4/batch4_en-ko.yaml
 ```
 
 **최종:** 위 명령의 폴더를 최종 평가용 폴더로 바꾸고 끝에 `--hide`를 붙인다. 출력에 질문 내용이 나오지 않아 Claude에게 보여도 된다. 예(묶음 1): `uv run python src/questions/check_candidates.py <최종 폴더>/batch1_ko-ko.yaml --batch ko-ko --hide`
 
 검사하는 것: 칸이 다 있는가, 개수와 유형별 수, 도시 갈래 6개씩, 근거 구절이 원문에 글자 그대로 있는가, 쓰면 안 되는 영어 소개 글 두 개를 썼는가, 앞 묶음과 같은 질문이나 구절을 썼는가, `opposite_check`(반대 언어 문서 14개를 찾은 기록)와 `same_language_check`(같은 언어 문서 14개를 찾은 기록)가 원문과 맞는가. 마지막 줄이 `후보 12개 가운데 12개 통과, 묶음 구성 통과`가 아니면 "문제가 생겼을 때"를 본다.
 
-**개발용:** 검사를 통과하면 결과를 Claude에게 알리고 멈춘다. Claude가 판정 기록 파일(`research_notes/stage3_dev/chat3/verdicts_batch1_ko-ko.md`처럼 묶음마다 하나)을 만들어 준다.
+**개발용:** 검사를 통과하면 결과를 Claude에게 알리고 멈춘다. Claude가 판정 기록 파일(`research_notes/stage3_dev/chat4/verdicts_batch1_ko-ko.md`처럼 묶음마다 하나)을 만들어 준다.
 
 ## 6. 후보를 하나씩 원문과 대조한다
 
 0. **묶음 2~4만:** 카드를 만들기 전에 확인용 ChatGPT의 짝 목록을 받는다. 영어가 낀 질문은 사용자가 단일 사실과 표현 불일치를 직접 가를 수 없어서, Gemini가 아닌 다른 AI에게 질문 조각마다 같은 말인지 바꾼 말인지 갈라 받는다(`decisions/stage3.md` 2026-10-16).
    1. 붙여 넣을 후보 글을 만든다. 화면에는 개수만 나온다.
       ```
-      uv run python src/questions/make_type_check.py research_notes/stage3_dev/chat3/batch2_en-en.yaml research_notes/stage3_dev/chat3/type_check_batch2_en-en.md
+      uv run python src/questions/make_type_check.py research_notes/stage3_dev/chat4/batch2_en-en.yaml research_notes/stage3_dev/chat4/type_check_batch2_en-en.md
       ```
       다른 묶음은 두 파일 이름의 `batch2_en-en`을 그 묶음의 이름으로 바꾼다. **최종:** 폴더를 최종 평가용 폴더로 바꾼다.
    2. ChatGPT 임시 채팅을 새로 연다(묶음마다 새로). 모델은 GPT-6, 추론 수준은 High다.
@@ -214,10 +214,10 @@ uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/
 1. 검사를 통과한 묶음 파일로 **대조 카드**를 만든다. 대조 카드는 후보마다 질문, 정답, 근거 구절, 원문 링크(줄 번호까지), 같은 도시의 반대 언어 문서, Gemini가 찾은 말과 걸린 곳, 판정 칸 1~9를 한 장에 모은 파일이다. 이미 있는 카드 파일은 덮어쓰지 않는다(적어 둔 판정이 지워지지 않게).
 
 ```
-uv run python src/questions/make_cards.py research_notes/stage3_dev/chat3/batch1_ko-ko.yaml research_notes/stage3_dev/chat3/cards_batch1_ko-ko.md --memo research_notes/stage3_dev/chat3/batch1_ko-ko_full.md
+uv run python src/questions/make_cards.py research_notes/stage3_dev/chat4/batch1_ko-ko.yaml research_notes/stage3_dev/chat4/cards_batch1_ko-ko.md --memo research_notes/stage3_dev/chat4/batch1_ko-ko_full.md
 ```
 
-   다른 묶음은 세 파일 이름의 `batch1_ko-ko`를 그 묶음의 이름(예: `batch2_en-en`)으로 바꾼다. 묶음 2~4는 끝에 `--types research_notes/stage3_dev/chat3/type_check_batch2_en-en_answer.md`처럼 0에서 저장한 ChatGPT의 답을 붙인다(카드 9번에 ChatGPT의 짝 목록이 접힌 칸으로 들어간다). **최종:** 폴더를 최종 평가용 폴더로 바꾼다.
+   다른 묶음은 세 파일 이름의 `batch1_ko-ko`를 그 묶음의 이름(예: `batch2_en-en`)으로 바꾼다. 묶음 2~4는 끝에 `--types research_notes/stage3_dev/chat4/type_check_batch2_en-en_answer.md`처럼 0에서 저장한 ChatGPT의 답을 붙인다(카드 9번에 ChatGPT의 짝 목록이 접힌 칸으로 들어간다). **최종:** 폴더를 최종 평가용 폴더로 바꾼다.
 2. 카드 파일을 VS Code에서 연다. 원문 링크는 `Cmd+클릭`으로 열린다. 브라우저에 번역기를 하나 열어 둔다.
 3. 카드마다 아래 "대조할 것"을 따라 판정 칸을 채운다. 확인한 칸은 `[ ]`를 `[x]`로 바꾸고, 판정·이유·더 찾아본 말을 적는다. 애매한 것은 "메모"에 적고 넘어간다.
 4. **개발용:** 다 적을 때까지 Claude에게 후보 내용의 맞고 틀림을 묻지 않는다. 다 적은 뒤 Claude가 같은 후보를 다시 대조해, 놓친 것을 세고 메모에 답한다. 절차를 묻는 것은 언제든 된다.
@@ -346,7 +346,7 @@ Gemini가 낸 후보 하나는 아래 칸으로 이뤄진다. 대조 카드(6단
 1. 그 묶음의 검사 명령(5단계)을 다시 돌리고, 출력 전체를 복사한다.
 2. 같은 Gemini 채팅의 입력창에 아래 상자의 글을 붙이고, 한 줄 띄운 뒤 복사한 출력을 붙여 보낸다.
 3. 답이 끝까지 나온 뒤, YAML 상자를 복사해 같은 폴더에 `batch<번호>_<묶음>_fix1.yaml`로 저장한다(예: `batch1_ko-ko_fix1.yaml`). 답 전체도 복사해 `batch<번호>_<묶음>_full_fix1.md`로 저장한다(고친 답의 YAML 뒤 메모를 남기기 위해서다). 두 번째로 고치게 하면 `_fix2`, `_full_fix2`로 저장한다.
-4. 그 묶음의 검사 명령에서 파일 이름만 `_fix1.yaml`로 바꿔 돌린다. 예: `uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/batch1_ko-ko_fix1.yaml --batch ko-ko`
+4. 그 묶음의 검사 명령에서 파일 이름만 `_fix1.yaml`로 바꿔 돌린다. 예: `uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/batch1_ko-ko_fix1.yaml --batch ko-ko`
 5. 통과하면 VS Code 탐색기에서 파일을 누르고 `Enter`로 이름을 바꾼다. 원래 파일은 기록으로 남기고, 고친 파일이 원래 이름을 갖게 한다. 5단계의 다음 묶음 명령이 앞 묶음 파일을 원래 이름(`batch1_ko-ko.yaml` 등)으로 넣기 때문이다.
    - `batch1_ko-ko.yaml` → `batch1_ko-ko_before_fix.yaml`, `batch1_ko-ko_full.md` → `batch1_ko-ko_full_before_fix.md`
    - `batch1_ko-ko_fix1.yaml` → `batch1_ko-ko.yaml`, `batch1_ko-ko_full_fix1.md` → `batch1_ko-ko_full.md`
