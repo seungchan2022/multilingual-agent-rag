@@ -1,0 +1,479 @@
+```yaml
+- id: c-013
+  question: How many foreign inmates are housed in the prison exclusively intended for foreign prisoners in Cheonan?
+  question_language: en
+  evidence_language: en
+  type: single_fact
+  answer: More than 1,000 foreign inmates.
+  required_facts:
+    - fact: Cheonan is the site of a prison exclusively intended for foreign prisoners, with more than 1,000 foreign inmates.
+      evidence:
+        - doc_id: wiki-en-cheonan
+          location: Population diversity
+          passage: "In addition, Cheonan is the site of the prison exclusively intended for foreign prisoners, with more than 1,000 foreign inmates."
+  opposite_check:
+    - term: "foreign prisoners"
+      hits: []
+    - term: "1,000"
+      hits: []
+    - term: "외국인"
+      hits: []
+    - term: "교도소"
+      hits: []
+    - term: "수감자"
+      hits: []
+  same_language_check:
+    - term: "foreign prisoners"
+      hits: []
+    - term: "1,000"
+      hits: []
+    - term: "inmates"
+      hits: []
+
+- id: c-014
+  question: In what year did Cheongju establish a sister city relationship with Wrocław?
+  question_language: en
+  evidence_language: en
+  type: table_numeric
+  answer: 2023.
+  required_facts:
+    - fact: Cheongju established a sister city relationship with Wrocław in 2023.
+      evidence:
+        - doc_id: wiki-en-cheongju
+          location: Twin towns – sister cities
+          passage: |
+            | City | Prefecture/Province/State | Country | Year |
+            | Wrocław | Lower Silesian Voivodeship | Poland | 2023 |
+  opposite_check:
+    - term: "Wrocław"
+      hits: []
+    - term: "브로츠와프"
+      hits: []
+    - term: "2023"
+      hits: []
+    - term: "Poland"
+      hits: []
+    - term: "폴란드"
+      hits: []
+  same_language_check:
+    - term: "Wrocław"
+      hits: []
+    - term: "Poland"
+      hits: []
+    - term: "2023"
+      hits: []
+
+- id: c-015
+  question: Between Cheonan and Cheongju, which city is located at a higher elevation, and what is its elevation in meters?
+  question_language: en
+  evidence_language: en
+  type: multi_doc
+  answer: Cheongju is at a higher elevation, which is 39 meters.
+  required_facts:
+    - fact: The elevation of Cheonan is 22 m.
+      evidence:
+        - doc_id: wiki-en-cheonan
+          location: Cheonan
+          passage: "- Elevation: 22 m (72 ft)"
+    - fact: The elevation of Cheongju is 39 m.
+      evidence:
+        - doc_id: wiki-en-cheongju
+          location: Cheongju
+          passage: "- Elevation: 39 m (128 ft)"
+    - fact: Cheongju's elevation (39 m) is higher than Cheonan's elevation (22 m).
+      evidence: []
+  opposite_check:
+    - term: "elevation"
+      hits: []
+    - term: "39 m"
+      hits: []
+    - term: "22 m"
+      hits: []
+    - term: "고도"
+      hits: []
+    - term: "해발"
+      hits:
+        - doc_id: wiki-ko-cheongju
+          excerpt: "청주기상지청 (청주시 흥덕구 복대동, 해발 58.7m)의 기후 자료"
+          same_fact: false
+          why: 청주시 자체가 아닌 기상지청의 고도이며 값도 다르다
+        - doc_id: wiki-ko-cheonan
+          excerpt: "천안지역기상서비스센터 (천안시 동남구 병천면 병천리, 해발 21.3m)의 기후 자료"
+          same_fact: false
+          why: 천안시 자체가 아닌 기상서비스센터의 고도이며 값도 다르다
+  same_language_check:
+    - term: "elevation"
+      hits: []
+    - term: "39 m"
+      hits: []
+    - term: "22 m"
+      hits: []
+
+- id: c-016
+  question: For how many days did the 6th Infantry Division of South Korea hold off the adversary's advance in Chuncheon and Hongcheon during the 1950 conflict?
+  question_language: en
+  evidence_language: en
+  type: paraphrase
+  answer: Six days.
+  required_facts:
+    - fact: The 6th Infantry Division conducted a defense war for six days in Chuncheon and Hongcheon, delaying the North Korean advance in 1950.
+      evidence:
+        - doc_id: wiki-en-chuncheon
+          location: History
+          passage: "During the Battle of Chuncheon in 1950, the 6th Infantry Division of South Korea conducted a defense war for six days in Chuncheon and Hongcheon, delaying II Corps of North Korea's advance to the areas."
+  opposite_check:
+    - term: "six days"
+      hits: []
+    - term: "6 days"
+      hits: []
+    - term: "6일"
+      hits: []
+    - term: "엿새"
+      hits: []
+    - term: "6사단"
+      hits:
+        - doc_id: wiki-ko-chuncheon
+          excerpt: "국군 6사단은 3일간 적군과 대치하며 춘천을 확보했으나"
+          same_fact: false
+          why: 한국어 문서에서는 방어 기간을 6일이 아닌 3일간으로 다르게 적고 있다
+  same_language_check:
+    - term: "six days"
+      hits: []
+    - term: "6th Infantry Division"
+      hits: []
+    - term: "delaying"
+      hits: []
+
+- id: c-017
+  question: According to the municipal city summaries, what local dialects are spoken in Jeonju and Cheonan respectively?
+  question_language: en
+  evidence_language: en
+  type: multi_doc
+  answer: Jeonju speaks the Jeolla dialect, and Cheonan speaks the Chungcheong dialect.
+  required_facts:
+    - fact: The dialect spoken in Jeonju is Jeolla.
+      evidence:
+        - doc_id: wiki-en-jeonju
+          location: Jeonju
+          passage: "- Dialect: Jeolla"
+    - fact: The dialect spoken in Cheonan is Chungcheong.
+      evidence:
+        - doc_id: wiki-en-cheonan
+          location: Cheonan
+          passage: "- Dialect: Chungcheong"
+  opposite_check:
+    - term: "dialect"
+      hits: []
+    - term: "Jeolla"
+      hits: []
+    - term: "Chungcheong"
+      hits: []
+    - term: "방언"
+      hits:
+        - doc_id: wiki-ko-sejong
+          excerpt: "지역어: 충청 방언"
+          same_fact: false
+          why: 세종시의 방언 정보이므로 천안의 방언 정보가 아니다
+        - doc_id: wiki-ko-cheongju
+          excerpt: "지역어: 충청 방언"
+          same_fact: false
+          why: 청주시의 방언 정보이므로 천안의 방언 정보가 아니다
+    - term: "전라"
+      hits: []
+    - term: "충청"
+      hits: []
+  same_language_check:
+    - term: "dialect"
+      hits:
+        - doc_id: wiki-en-andong
+          excerpt: "Dialect: Gyeongsang"
+          same_fact: false
+          why: 안동의 방언 정보이다
+        - doc_id: wiki-en-busan
+          excerpt: "Dialect: Gyeongsang"
+          same_fact: false
+          why: 부산의 방언 정보이다
+        - doc_id: wiki-en-busan
+          excerpt: "highlighting the distinct Gyeongsang dialect, which is comparable to"
+          same_fact: false
+          why: 부산의 방언 이야기다
+        - doc_id: wiki-en-cheongju
+          excerpt: "Dialect: Chungcheong"
+          same_fact: false
+          why: 청주시의 방언 정보이다
+        - doc_id: wiki-en-gangneung
+          excerpt: "Dialect: Gangwon"
+          same_fact: false
+          why: 강릉시의 방언 정보이다
+        - doc_id: wiki-en-jeju
+          excerpt: "Dialect: Jeju"
+          same_fact: false
+          why: 제주시의 방언 정보이다
+    - term: "Jeolla"
+      hits: []
+    - term: "Chungcheong"
+      hits: []
+
+- id: c-018
+  question: In what year did Jeonju receive the privilege of preserving replicas of the royal historical records of the Joseon era?
+  question_language: en
+  evidence_language: en
+  type: paraphrase
+  answer: 1413.
+  required_facts:
+    - fact: In 1413, Jeonju was given the honor of safekeeping copies of the Annals of the Joseon Dynasty.
+      evidence:
+        - doc_id: wiki-en-jeonju
+          location: Joseon (1392–1897)
+          passage: "In 1413, Jeonju (along with three other cities) was given the honor of safekeeping copies of the Annals of the Joseon Dynasty which still survives extant in the former Confucian academy in Jeonju."
+  opposite_check:
+    - term: "1413"
+      hits: []
+    - term: "Annals of the Joseon Dynasty"
+      hits: []
+    - term: "조선왕조실록"
+      hits: []
+    - term: "실록"
+      hits:
+        - doc_id: wiki-ko-jeonju
+          excerpt: "1439년(조선 세종 21년) : 전주에 실록각이 설치되었다."
+          same_fact: false
+          why: 1413년이 아닌 1439년으로 적혀 있어 서로 다른 사실이다
+    - term: "사고"
+      hits:
+        - doc_id: wiki-ko-jeonju
+          excerpt: "1473년(성종 3년)에 전주부윤 조근이 전주사고를 창설할 때"
+          same_fact: false
+          why: 1413년이 아닌 1473년으로 적혀 있어 서로 다른 사실이다
+  same_language_check:
+    - term: "1413"
+      hits: []
+    - term: "safekeeping"
+      hits: []
+    - term: "Annals"
+      hits: []
+
+- id: c-019
+  question: Whose 73rd birthday was celebrated in Andong in 1999?
+  question_language: en
+  evidence_language: en
+  type: single_fact
+  answer: Her Majesty the Queen Elizabeth II of the United Kingdom.
+  required_facts:
+    - fact: Queen Elizabeth II celebrated her 73rd birthday in Andong in 1999.
+      evidence:
+        - doc_id: wiki-en-andong
+          location: History
+          passage: "In 1999, Her Majesty the Queen Elizabeth II of the United Kingdom celebrated her 73rd birthday in the city."
+  opposite_check:
+    - term: "Elizabeth"
+      hits: []
+    - term: "엘리자베스"
+      hits: []
+    - term: "73rd"
+      hits: []
+    - term: "73세"
+      hits: []
+    - term: "1999"
+      hits: []
+  same_language_check:
+    - term: "Elizabeth"
+      hits: []
+    - term: "73rd"
+      hits: []
+    - term: "1999"
+      hits: []
+
+- id: c-020
+  question: According to the climate data for Gangneung, what is the average number of snowy days in January?
+  question_language: en
+  evidence_language: en
+  type: table_numeric
+  answer: 6.0.
+  required_facts:
+    - fact: The average number of snowy days in January in Gangneung is 6.0.
+      evidence:
+        - doc_id: wiki-en-gangneung
+          location: Climate
+          passage: |
+            | Month | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | Year |
+            | Average snowy days | 6.0 | 6.0 | 4.3 | 0.3 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.9 | 2.9 | 20.2 |
+  opposite_check:
+    - term: "snowy days"
+      hits: []
+    - term: "6.0"
+      hits: []
+    - term: "강설일수"
+      hits: []
+    - term: "눈"
+      hits: []
+  same_language_check:
+    - term: "snowy days"
+      hits:
+        - doc_id: wiki-en-andong
+          excerpt: "| Average snowy days | 5.5 | 3.7 | 2.6 | 0.3 | 0.0"
+          same_fact: false
+          why: 안동의 강설일수 통계이다
+        - doc_id: wiki-en-busan
+          excerpt: "| Average snowy days | 1.4 | 1.2 | 0.5 | 0.0 | 0.0"
+          same_fact: false
+          why: 부산의 강설일수 통계이다
+        - doc_id: wiki-en-cheonan
+          excerpt: "| Average snowy days | 8.7 | 5.3 | 2.1 | 0.1 | 0.0"
+          same_fact: false
+          why: 천안의 강설일수 통계이다
+        - doc_id: wiki-en-cheongju
+          excerpt: "| Average snowy days | 9.1 | 5.5 | 2.8 | 0.3 | 0.0"
+          same_fact: false
+          why: 청주의 강설일수 통계이다
+        - doc_id: wiki-en-chuncheon
+          excerpt: "| Average snowy days | 8.8 | 6.3 | 3.9 | 0.2 | 0.0"
+          same_fact: false
+          why: 춘천의 강설일수 통계이다
+        - doc_id: wiki-en-jeju
+          excerpt: "| Average snowy days | 7.2 | 4.2 | 1.0 | 0.0 | 0.0"
+          same_fact: false
+          why: 제주의 강설일수 통계이다
+        - doc_id: wiki-en-jeonju
+          excerpt: "| Average snowy days | 8.3 | 5.0 | 2.3 | 0.2 | 0.0"
+          same_fact: false
+          why: 전주의 강설일수 통계이다
+    - term: "6.0"
+      hits: []
+
+- id: c-021
+  question: Between the metropolitan city of Busan and Jeju City, which has a larger total area, and what is its size in square kilometers?
+  question_language: en
+  evidence_language: en
+  type: multi_doc
+  answer: Jeju City has a larger area, which is 977.8 km2.
+  required_facts:
+    - fact: The area of the metropolitan city of Busan is 770.04 km2.
+      evidence:
+        - doc_id: wiki-en-busan
+          location: Busan
+          passage: "- Metropolitan city: 770.04 km2 (297.31 sq mi)"
+    - fact: The total area of Jeju City is 977.8 km2.
+      evidence:
+        - doc_id: wiki-en-jeju
+          location: Jeju City
+          passage: "- Total: 977.8 km2 (377.5 sq mi)"
+    - fact: Jeju City's area (977.8 km2) is larger than Busan's area (770.04 km2).
+      evidence: []
+  opposite_check:
+    - term: "770.04"
+      hits: []
+    - term: "977.8"
+      hits: []
+    - term: "area"
+      hits: []
+    - term: "면적"
+      hits: []
+  same_language_check:
+    - term: "770.04"
+      hits: []
+    - term: "977.8"
+      hits: []
+
+- id: c-022
+  question: What are the demonyms used for the residents of Andong and Busan respectively?
+  question_language: en
+  evidence_language: en
+  type: multi_doc
+  answer: The demonym for Andong is Andongite, and for Busan it is Busanian.
+  required_facts:
+    - fact: The demonym for Andong is Andongite.
+      evidence:
+        - doc_id: wiki-en-andong
+          location: Andong
+          passage: "- Demonym: Andongite"
+    - fact: The demonym for Busan is Busanian.
+      evidence:
+        - doc_id: wiki-en-busan
+          location: Busan
+          passage: "- Demonym: Busanian"
+  opposite_check:
+    - term: "demonym"
+      hits: []
+    - term: "Andongite"
+      hits: []
+    - term: "Busanian"
+      hits: []
+    - term: "거주민"
+      hits: []
+  same_language_check:
+    - term: "demonym"
+      hits: []
+    - term: "Andongite"
+      hits: []
+    - term: "Busanian"
+      hits: []
+
+- id: c-023
+  question: Which labyrinth attraction is located within Jeju City?
+  question_language: en
+  evidence_language: en
+  type: paraphrase
+  answer: The Kimnyoung Maze Park.
+  required_facts:
+    - fact: The Kimnyoung Maze Park is located in Jeju City.
+      evidence:
+        - doc_id: wiki-en-jeju
+          location: Tourism
+          passage: "The Kimnyoung Maze Park is in the city."
+  opposite_check:
+    - term: "Kimnyoung"
+      hits: []
+    - term: "Maze"
+      hits: []
+    - term: "김녕"
+      hits: []
+    - 미로: []
+      hits: []
+    - term: "labyrinth"
+      hits: []
+  same_language_check:
+    - term: "Kimnyoung"
+      hits: []
+    - term: "Maze"
+      hits: []
+    - term: "labyrinth"
+      hits: []
+
+- id: c-024
+  question: Which piece of artwork was created by a German creator near Millak Raw Fish Town in 2012?
+  question_language: en
+  evidence_language: en
+  type: paraphrase
+  answer: "Fisherman Portrait".
+  required_facts:
+    - fact: In 2012, a German artist painted a mural entitled "Fisherman Portrait" near Millak Raw Fish Town.
+      evidence:
+        - doc_id: wiki-en-busan
+          location: Arts
+          passage: "In 2012, German artist Hendrik Beikirch painted Asia's tallest mural entitled \"Fisherman Portrait\" on a building near Millak Raw Fish Town."
+  opposite_check:
+    - term: "Hendrik Beikirch"
+      hits: []
+    - term: "Fisherman Portrait"
+      hits: []
+    - term: "어부"
+      hits: []
+    - term: "벽화"
+      hits: []
+    - term: "Millak"
+      hits: []
+  same_language_check:
+    - term: "Hendrik Beikirch"
+      hits: []
+    - term: "Fisherman Portrait"
+      hits: []
+    - term: "Millak Raw Fish Town"
+      hits: []
+
+```
+
+c-016: "hold off the adversary's advance"는 "conducted a defense war... delaying North Korea's advance"를, "1950 conflict"는 "Battle of Chuncheon in 1950"을 바꾼 말이다. (한국어 문서는 3일간으로 적혀 있음)
+c-018: "privilege of preserving replicas"는 "honor of safekeeping copies"를, "royal historical records of the Joseon era"는 "Annals of the Joseon Dynasty"를 바꾼 말이다. (한국어 문서는 1439년/1473년으로 적혀 있음)
+c-023: "labyrinth attraction"은 "Maze Park"를 바꾼 말이다.
+c-024: "piece of artwork"는 "mural"을, "German creator"는 "German artist"를 바꾼 말이다.
