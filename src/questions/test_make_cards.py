@@ -17,6 +17,7 @@ MARKDOWN = CORPUS / "markdown"
 URLS = {d["doc_id"]: d["url"] for d in yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]}
 REAL_BATCH = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko.yaml"
 REAL_MEMO = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko_full.md"
+REAL_TYPES = ROOT / "research_notes" / "stage3_dev" / "chat3" / "type_check_batch1_answer2.md"
 
 
 def lines_of(doc_id):
@@ -74,8 +75,8 @@ class Run:
         self.src = src
         self.out = self.tmp / out_name
 
-    def go(self, memo=None):
-        cmd = [sys.executable, str(PROGRAM), str(self.src), str(self.out)] + (["--memo", str(memo)] if memo else [])
+    def go(self, memo=None, types=None):
+        cmd = [sys.executable, str(PROGRAM), str(self.src), str(self.out)] + (["--memo", str(memo)] if memo else []) + (["--types", str(types)] if types else [])
         self.proc = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
         return self
 
@@ -166,7 +167,7 @@ class MakeCardsTest(unittest.TestCase):
         self.assertNotIn("같은 도시", t)
 
     def test_en_evidence_same_city_docs_are_korean(self):
-        r = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go()
+        r = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go(types=self._any_types())
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         same = item_text(r.text, 7)
         self.assertIn("wiki-ko-jeonju.md", same)
@@ -237,7 +238,7 @@ class MakeCardsTest(unittest.TestCase):
     def test_labels_appear_in_candidate_block_first(self):
         hit = "The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)"
         oc = [{"term": "1969", "hits": [{"doc_id": "wiki-en-chuncheon", "excerpt": hit, "same_fact": False, "why": "기온 날짜"}]}]
-        r = Run(self, [candidate(oc=oc), candidate(cid="c-002", doc="wiki-en-jeonju", el="en", oc=oc)]).go()
+        r = Run(self, [candidate(oc=oc), candidate(cid="c-002", doc="wiki-en-jeonju", el="en", oc=oc)]).go(types=self._any_types())
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         cards = split_cards(r.text)
         self.assertEqual(len(cards), 2)
@@ -284,7 +285,7 @@ class MakeCardsTest(unittest.TestCase):
 
     def test_en_evidence_item3_and_item4_use_translation(self):
         c = self.slc("en", "wiki-en-jeonju", [("가", ["wiki-en-jeonju"]), ("나", ["kto-en-jeonju-hanok-village"])])
-        t = Run(self, [c]).go().text
+        t = Run(self, [c]).go(types=self._any_types()).text
         i3, i4 = item_text(t, 3), item_text(t, 4)
         self.assertIn(URLS["wiki-en-jeonju"], i3)
         self.assertIn("한국어로 번역", i3)
@@ -298,7 +299,7 @@ class MakeCardsTest(unittest.TestCase):
     def test_en_evidence_kto_doc_pasted_whole(self):
         kto = next(d for d in URLS if d.startswith("kto-en-"))
         c = self.slc("en", kto, [])
-        i3 = item_text(Run(self, [c]).go().text, 3)
+        i3 = item_text(Run(self, [c]).go(types=self._any_types()).text, 3)
         self.assertIn("내용 전체를 번역기에 붙여 읽는다", i3)
 
     def test_ko_evidence_wording_unchanged_without_field(self):
@@ -310,7 +311,7 @@ class MakeCardsTest(unittest.TestCase):
         self.assertIn("3번의 찾을 말로 찾는다.\n", i4)
 
     def test_no_field_means_no_gemini_block_en(self):
-        t = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go().text
+        t = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go(types=self._any_types()).text
         self.assertNotIn("검사 프로그램이 확인함", item_text(t, 3) + item_text(t, 4))
 
     def test_field_without_hits_in_group_says_not_found(self):
@@ -392,6 +393,98 @@ class MakeCardsTest(unittest.TestCase):
     def test_no_paraphrase_needs_no_memo(self):
         r = Run(self, [candidate()]).go()
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+
+    def _any_types(self):
+        """영어 후보 시험용: --types 필수 규칙만 넘기는 빈 구역 답 파일."""
+        return self._memo_file("## c-001\n- 줄\n## c-002\n- 줄\n")
+
+    TYPES_HEADER = "- 질문 조각 → 근거 구절의 짝 · 가름 · 핵심 낱말 예/아니오 · 까닭"
+    DETAILS = "<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>"
+    SF_Q = "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 없는가? (있으면 단일 사실이 아니다)"
+    PA_Q = "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 하나 이상 있는가?"
+
+    def _types_text(self):
+        return ("앞 설명\n```text\n## c-001\n" + self.TYPES_HEADER + "\n- \"가\" → \"A\"(에이) · 같은 말 · 핵심 낱말 예 · 까닭1\n"
+                "- \"나\" → \"B\"(비) · 바꾼 말 · 핵심 낱말 예 · 까닭2\n\n## c-002\n" + self.TYPES_HEADER + "\n- \"다\" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n```\n뒤 설명\n- 코드 밖 줄\n")
+
+    def test_read_types_fenced_and_unfenced(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("make_cards", PROGRAM)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        fenced = mod.read_types(self._memo_file(self._types_text()))
+        self.assertEqual(list(fenced), ["c-001", "c-002"])
+        self.assertEqual(fenced["c-001"], ['- "가" → "A"(에이) · 같은 말 · 핵심 낱말 예 · 까닭1', '- "나" → "B"(비) · 바꾼 말 · 핵심 낱말 예 · 까닭2'])
+        self.assertEqual(fenced["c-002"], ['- "다" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3'])
+        plain = mod.read_types(self._memo_file("## c-005\n" + self.TYPES_HEADER + "\n- 줄 하나\n## c-006\n- 줄 둘\n- 줄 셋\n"))
+        self.assertEqual(plain, {"c-005": ["- 줄 하나"], "c-006": ["- 줄 둘", "- 줄 셋"]})
+
+    def test_types_block_in_item9_single_fact_and_paraphrase(self):
+        items = [candidate(cid="c-001"), candidate(cid="c-002", ctype="paraphrase"), candidate(cid="c-003", ctype="multi_doc"),
+                 candidate(cid="c-004", ctype="table_numeric")]
+        r = Run(self, items).go(memo=self._memo_file("- c-002: 바꿈\n"), types=self._memo_file(self._types_text()))
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        i9 = [item_text(c.replace("\n---\n", ""), 9) for c in split_cards(r.text)]
+        self.assertIn(self.DETAILS + '\n\n- "가" → "A"(에이) · 같은 말 · 핵심 낱말 예 · 까닭1\n- "나" → "B"(비) · 바꾼 말 · 핵심 낱말 예 · 까닭2\n\n</details>', i9[0])
+        self.assertNotIn(self.TYPES_HEADER, i9[0])
+        self.assertIn("- 판단할 질문: 이 후보가 이 뜻에 맞는가?\n\n" + self.DETAILS, i9[0])
+        self.assertTrue(i9[0].index(self.DETAILS) < i9[0].index(self.SF_Q))
+        self.assertNotIn(self.PA_Q, i9[0])
+        gem = i9[1].index("<details><summary>Gemini가")
+        self.assertTrue(gem < i9[1].index(self.DETAILS) < i9[1].index(self.PA_Q))
+        self.assertIn('\n- "다" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n', i9[1])
+        self.assertNotIn(self.SF_Q, i9[1])
+        for k in (2, 3):
+            for bad in ("ChatGPT", "<details>"):
+                self.assertNotIn(bad, i9[k])
+        self.assertNotIn("주의", r.proc.stdout)
+
+    def test_types_missing_id_message_and_warning(self):
+        items = [candidate(cid="c-001"), candidate(cid="c-007"), candidate(cid="c-008", ctype="paraphrase"), candidate(cid="c-009", ctype="multi_doc")]
+        r = Run(self, items).go(memo=self._memo_file("- c-008: 바꿈\n"), types=self._memo_file(self._types_text()))
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        i9 = [item_text(c.replace("\n---\n", ""), 9) for c in split_cards(r.text)]
+        self.assertIn("\nChatGPT 답에 이 후보가 없다\n", i9[1])
+        self.assertIn("\nChatGPT 답에 이 후보가 없다\n", i9[2])
+        self.assertNotIn("이 후보가 없다", i9[0])
+        self.assertIn("주의: ChatGPT 답에 없는 후보: c-007, c-008\n", r.proc.stdout)
+        self.assertNotIn("시험 질문", r.proc.stdout)
+        self.assertNotIn("c-009", r.proc.stdout.split("주의")[1])
+
+    def test_types_required_for_english(self):
+        for ctype in ("single_fact", "paraphrase"):
+            for qa in ("question", "evidence"):
+                c = candidate(doc="wiki-en-chuncheon", el="en", ctype=ctype)
+                if qa == "question":
+                    c["evidence_language"] = "ko"
+                else:
+                    c["question_language"] = "ko"
+                r = Run(self, [c]).go(memo=self._memo_file("- c-001: 바꿈\n"))
+                self.assertEqual(r.proc.returncode, 1, (ctype, qa))
+                self.assertIn("--types", r.proc.stdout)
+                self.assertFalse(r.out.exists())
+        ok = Run(self, [candidate(doc="wiki-en-chuncheon", el="en", ctype="multi_doc")]).go()
+        self.assertEqual(ok.proc.returncode, 0, ok.proc.stderr)
+        ok = Run(self, [candidate(doc="wiki-en-chuncheon", el="en")]).go(types=self._memo_file(self._types_text()))
+        self.assertEqual(ok.proc.returncode, 0, ok.proc.stderr)
+
+    def test_types_optional_for_ko_ko(self):
+        r = Run(self, [candidate(), candidate(cid="c-002", ctype="paraphrase")]).go(memo=self._memo_file("- c-002: 바꿈\n"))
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        self.assertNotIn("ChatGPT", r.text)
+
+    def test_no_types_option_output_unchanged_on_real_batch(self):
+        r = Run(self, src=REAL_BATCH).go(memo=REAL_MEMO)
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        self.assertNotIn("ChatGPT", r.text)
+        self.assertNotIn("주의", r.proc.stdout)
+        t = Run(self, src=REAL_BATCH).go(memo=REAL_MEMO, types=REAL_TYPES)
+        self.assertEqual(t.proc.returncode, 0, t.proc.stderr)
+        self.assertEqual(t.text.count(self.DETAILS), 6)
+        self.assertNotIn("이 후보가 없다", t.text)
+        for cid in ("c-001", "c-002", "c-009", "c-010", "c-011", "c-012"):
+            card = [c for c in split_cards(t.text) if c.startswith(f"\n## {cid} ")][0]
+            self.assertIn(self.DETAILS, card)
 
 
 if __name__ == "__main__":

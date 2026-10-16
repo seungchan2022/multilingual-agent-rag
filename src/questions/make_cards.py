@@ -1,6 +1,6 @@
 """후보 묶음 YAML을 사람이 원문과 대조할 Markdown 카드 파일로 바꾸는 프로그램.
 
-  uv run python src/questions/make_cards.py <후보 파일> <출력 .md> [--memo <Gemini 답 전체 파일>]
+  uv run python src/questions/make_cards.py <후보 파일> <출력 .md> [--memo <Gemini 답 전체 파일>] [--types <ChatGPT 답 파일>]
 
 영어를 읽지 못하는 사람이 후보를 원문과 견주기 어려워서, 후보마다 대조에 필요한 것(질문, 정답, 근거 구절, 원문 링크,
 반대 언어 문서 확인 재료, 판정 칸)을 한 카드에 모은다. 후보 파일은 check_candidates.py를 통과한 것이다.
@@ -10,6 +10,9 @@
 표현 불일치(paraphrase) 카드의 칸 9에는 Gemini가 적은 바꾼 말(메모)을 접어서 붙인다. 메모는 후보 파일에 없고
 Gemini의 답 전체를 저장한 파일에 있다: YAML 코드 블록이 끝난 뒤 `c-009: …` 꼴로 시작하는 줄(후보마다 한 줄, 줄 앞의 공백·`-`·`*`는 뗀다).
 그 파일을 `--memo`로 준다. 묶음에 paraphrase 후보가 있는데 `--memo`가 없으면 사용법을 보이고 종료 코드 1로 끝낸다(출력 파일을 만들지 않음).
+단일 사실(single_fact)과 표현 불일치 카드의 칸 9에는 확인용 AI(ChatGPT)의 짝 목록을 접어서 붙인다. 그 답 파일을 `--types`로 준다:
+코드 블록이 있으면 첫 번째 블록 안, 없으면 파일 전체에서 `## c-001` 줄마다 구역을 나누고, 구역 안에서 `- `로 시작하는 줄을 그대로 쓴다.
+single_fact·paraphrase 후보 가운데 질문 언어나 근거 언어가 영어인 것이 있는데 `--types`가 없으면 사용법을 보이고 종료 코드 1로 끝낸다(한국어 묶음은 선택).
 """
 import os, re, sys
 from functools import cache
@@ -24,11 +27,14 @@ MARKDOWN = CORPUS / "markdown"
 _DOCS = yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]
 DOC = {d["doc_id"]: d for d in _DOCS}
 BOTH_CITY = "두 언어 문서를 다 넣는 도시"
-USAGE = "사용법: uv run python src/questions/make_cards.py <후보 파일> <출력 .md> [--memo <Gemini 답 전체 파일>]  (묶음에 paraphrase 후보가 있으면 --memo 필수)"
+USAGE = "사용법: uv run python src/questions/make_cards.py <후보 파일> <출력 .md> [--memo <Gemini 답 전체 파일>] [--types <ChatGPT 답 파일>]  (묶음에 paraphrase 후보가 있으면 --memo 필수, single_fact·paraphrase 후보에 영어가 있으면 --types 필수)"
 LANG_NAME = {"ko": "한국어", "en": "영어"}
 NOT_FOUND = "(원문에서 찾지 못함)"
 NO_MEMO = "Gemini가 적은 바꾼 말이 없다."
 MEMO_RE = re.compile(r"^\s*[-*]?\s*(c-\d{3}):\s*(.*\S)\s*$")
+TYPES_HEAD_RE = re.compile(r"^##\s*(c-\d{3})\s*$")
+TYPES_TEMPLATE = "- 질문 조각 → 근거 구절의 짝 · 가름"
+NO_TYPES = "ChatGPT 답에 이 후보가 없다"
 
 INTRO = (
     "이 파일은 후보마다 카드 하나로, 순서표(data/questions/final_set_guide.md)의 \"대조할 것\"을 따라 카드마다 칸을 채운다. "
@@ -262,7 +268,7 @@ def same_language_block(c, out_dir, docs, in_evidence, el):
     return out
 
 
-def paraphrase_body(c, memos):
+def paraphrase_body(c, memos, types=None):
     return [
         "- 할 일: 이 후보의 유형은 paraphrase(표현 불일치)다. 질문을 뜻이 끊기는 조각으로 나눠, 아래 짝 목록에 조각마다 한 줄씩 "
         "`질문 조각 → 근거 구절의 짝 (같은 말 / 바꾼 말 / 이름)` 꼴로 적는다(예: `처음 생긴 → 창단된 (바꾼 말)`). 이름(고유명사)은 \"이름\"으로 적는다. "
@@ -279,10 +285,15 @@ def paraphrase_body(c, memos):
         memos.get(c["id"], NO_MEMO),
         "",
         "</details>",
-        ""]
+        ""] + (types_block(c, types) + ["", "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 하나 이상 있는가?"] if types is not None else [])
 
 
-def answered_card(c, out_dir, memos):
+def types_block(c, types):
+    """칸 9에 붙일 ChatGPT 짝 목록 접힌 칸(`--types`를 줬을 때만 부른다)."""
+    return ["<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>", "", *(types.get(c["id"]) or [NO_TYPES]), "", "</details>"]
+
+
+def answered_card(c, out_dir, memos, types=None):
     el = c["evidence_language"]
     opposite = "en" if el == "ko" else "ko"
     opp, own = LANG_NAME[opposite], LANG_NAME[el]
@@ -369,11 +380,13 @@ def answered_card(c, out_dir, memos):
         "- 할 일: 위 `required_facts`(꼭 필요한 사실)와 `answer`(정답)를 견준다.",
         "- 판단할 질문: 정답을 말하는 데 이 사실들이 꼭 필요하고, 이것 말고 더 필요한 사실은 없는가?"])
     if c["type"] == "paraphrase":
-        return out + item(9, "유형이 맞다", paraphrase_body(c, memos)) + verdict_block() + details_block(c)
+        return out + item(9, "유형이 맞다", paraphrase_body(c, memos, types)) + verdict_block() + details_block(c)
     out += item(9, "유형이 맞다", [
         f"- 할 일: 이 후보의 유형은 {type_label(c['type'])}다. 아래 뜻과 견준다.",
         f"- {TYPE_MEANING.get(c['type'], '')} 두 유형에 다 맞으면 여러 문서 연결 → 표·수치·조건 → 단일 사실/표현 불일치 순서로 먼저 맞는 것이다.",
-        "- 판단할 질문: 이 후보가 이 뜻에 맞는가?"])
+        "- 판단할 질문: 이 후보가 이 뜻에 맞는가?"]
+        + (["", *types_block(c, types), "", "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 없는가? (있으면 단일 사실이 아니다)"]
+           if types is not None and c["type"] == "single_fact" else []))
     return out + verdict_block() + details_block(c)
 
 
@@ -415,10 +428,26 @@ def read_memos(path):
     return memos
 
 
-def build(data, batch_name, out_dir, memos):
+def read_types(path):
+    """ChatGPT 답 파일에서 `## c-001` 구역마다 `- `로 시작하는 줄들을 {id: [줄]}로 꺼낸다(코드 블록이 있으면 첫 블록 안)."""
+    lines = Path(path).read_text(encoding="utf-8").split("\n")
+    fences = [i for i, l in enumerate(lines) if l.lstrip().startswith("```")]
+    if fences:
+        lines = lines[fences[0] + 1:fences[1]] if len(fences) > 1 else lines[fences[0] + 1:]
+    types, cur = {}, None
+    for l in lines:
+        m = TYPES_HEAD_RE.match(l)
+        if m:
+            cur = types.setdefault(m.group(1), [])
+        elif cur is not None and l.startswith("- ") and not l.startswith(TYPES_TEMPLATE):
+            cur.append(l.rstrip())
+    return types
+
+
+def build(data, batch_name, out_dir, memos, types=None):
     lines = [f"# 대조 카드: {batch_name}", "", INTRO, ""]
     for c in data:
-        card = no_answer_card(c, out_dir) if c.get("type") == "no_answer" else answered_card(c, out_dir, memos)
+        card = no_answer_card(c, out_dir) if c.get("type") == "no_answer" else answered_card(c, out_dir, memos, types)
         lines += card + [""]
     return "\n".join(lines)
 
@@ -432,13 +461,20 @@ def stringify_terms(data):
 
 
 def main():
-    args, memo_path = sys.argv[1:], None
+    args, memo_path, types_path = sys.argv[1:], None, None
     if "--memo" in args:
         i = args.index("--memo")
         if i + 1 >= len(args):
             print(USAGE)
             return 1
         memo_path = Path(args[i + 1])
+        args = args[:i] + args[i + 2:]
+    if "--types" in args:
+        i = args.index("--types")
+        if i + 1 >= len(args):
+            print(USAGE)
+            return 1
+        types_path = Path(args[i + 1])
         args = args[:i] + args[i + 2:]
     if len(args) != 2:
         print(USAGE)
@@ -458,6 +494,10 @@ def main():
     if any(isinstance(c, dict) and c.get("type") == "paraphrase" for c in data) and memo_path is None:
         print("이 묶음에 paraphrase 후보가 있어 --memo가 필요하다.\n" + USAGE)
         return 1
+    typed = [c for c in data if isinstance(c, dict) and c.get("type") in ("single_fact", "paraphrase")]
+    if types_path is None and any("en" in (c.get("question_language"), c.get("evidence_language")) for c in typed):
+        print("이 묶음의 single_fact·paraphrase 후보에 영어가 있어 --types가 필요하다.\n" + USAGE)
+        return 1
     memos = {}
     if memo_path is not None:
         try:
@@ -465,11 +505,22 @@ def main():
         except (OSError, UnicodeDecodeError) as err:
             print(f"메모 파일을 읽지 못함: {err}")
             return 1
+    types = None
+    if types_path is not None:
+        try:
+            types = read_types(types_path)
+        except (OSError, UnicodeDecodeError) as err:
+            print(f"ChatGPT 답 파일을 읽지 못함: {err}")
+            return 1
     stringify_terms(data)
     dest.parent.mkdir(parents=True, exist_ok=True)
     out_dir = dest.parent.resolve()
-    dest.write_text(build(data, src.name, out_dir, memos), encoding="utf-8")
+    dest.write_text(build(data, src.name, out_dir, memos, types), encoding="utf-8")
     print(f"카드 {len(data)}개를 씀: {dest}")
+    if types is not None:
+        missing = [c["id"] for c in typed if c["id"] not in types]
+        if missing:
+            print(f"주의: ChatGPT 답에 없는 후보: {', '.join(missing)}")
     return 0
 
 
