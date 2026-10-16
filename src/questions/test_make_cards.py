@@ -288,9 +288,9 @@ class MakeCardsTest(unittest.TestCase):
         cards = split_cards(r.text)
         i9 = [item_text(c.replace("\n---\n", ""), 9) for c in cards]
         for k in range(3):
-            self.assertIn("| 질문 조각 | 근거 구절의 짝 | 같은 말 / 바꾼 말 / 이름 |", i9[k])
-            self.assertEqual(i9[k].count("\n|  |  |  |"), 4)
-            self.assertIn("<details><summary>Gemini가 적은 바꾼 말(표를 채운 뒤 펼친다)</summary>", i9[k])
+            self.assertIn("`질문 조각 → 근거 구절의 짝 (같은 말 / 바꾼 말 / 이름)`", i9[k])
+            self.assertEqual(i9[k].count("\n- 짝 목록:\n  - \n  - \n  - \n  - \n"), 1)
+            self.assertIn("<details><summary>Gemini가 적은 바꾼 말(짝 목록을 채운 뒤 펼친다)</summary>", i9[k])
             self.assertIn("- 판단할 질문: \"바꾼 말\" 줄이 하나 이상 있는가?", i9[k])
             self.assertIn("표현 불일치: 질문이 근거 구절의 핵심 낱말을 다른 말로 바꿔 썼다(이름은 빼고 본다).", i9[k])
         self.assertIn("\n\"가\"를 \"나\"로 바꿈\n", i9[0])
