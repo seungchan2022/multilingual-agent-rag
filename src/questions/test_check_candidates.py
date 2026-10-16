@@ -3,7 +3,7 @@
   uv run python src/questions/test_check_candidates.py
 
 후보 파일을 임시 폴더에 쓰고 검사 프로그램을 하위 프로세스로 실행해, 종료 코드와 출력 글자만 본다.
-검사 프로그램을 불러 쓰지 않고, 올바른 묶음은 이 파일의 코드로 실제 말뭉치 글자에서 따로 만든다.
+검사 프로그램을 불러 쓰지 않고, 올바른 묶음과 찾을 말이 나오는 곳의 수는 이 파일의 코드로 실제 말뭉치 글자에서 따로 만든다.
 """
 import copy, json, re, subprocess, sys, tempfile, unittest
 from pathlib import Path
@@ -103,57 +103,12 @@ class Pool:
         return doc, prose(doc)[idx]
 
 
-WHY = "시험용 까닭"
 # 반대 언어에서 찾을 말: (실제로 나오는 말, 어디에도 없는 지어낸 말, 어디에도 없는 말)
 TERMS = {"ko": ["flower", "zqxwv", "peach"], "en": ["벚꽃", "쿼쿼쿼", "쌍무지개"]}
-
-
-def opposite_docs(el):
-    return [d for d, lang in DOCS.items() if lang != el]
-
-
-def hits_for(el, term, exact_case=False, docs=None, skip=None):
-    """찾을 말이 문서(기본은 반대 언어 문서)에 나오는 곳마다 걸린 곳 하나. 줄이 200글자 이하면 줄 전체, 아니면 40글자 구간을 원문에서 그대로 옮긴다.
-    skip({doc_id: [(시작, 끝), ...]}) 구간 안에서 나오는 곳은 뺀다."""
-    out = []
-    for d in docs if docs is not None else opposite_docs(el):
-        t = text_of(d)
-        for m in re.finditer(re.escape(term), t, 0 if exact_case else re.IGNORECASE):
-            a, b = m.span()
-            if any(x <= a and b <= y for x, y in (skip or {}).get(d, [])):
-                continue
-            s_ = t.rfind("\n", 0, a) + 1
-            e_ = t.find("\n", b)
-            e_ = len(t) if e_ == -1 else e_
-            if e_ - s_ <= 200:
-                ex = t[s_:e_]
-            else:
-                s_ = max(0, a - 10)
-                e_ = max(s_ + 40, b)
-                ex = t[s_:e_]
-            assert ex in t and term.lower() in ex.lower()
-            out.append({"doc_id": d, "excerpt": ex, "same_fact": False, "why": WHY})
-    return out
-
-
-def oc_item(el, term, exact_case=False):
-    return {"term": term, "hits": hits_for(el, term, exact_case)}
-
-
-def opposite_check(el):
-    return [oc_item(el, t) for t in TERMS[el]]
-
-
-def oc_of(c, term):
-    return next(x for x in c["opposite_check"] if x["term"] == term)
-
-
 # 같은 언어에서 찾을 말: (실제로 나오는 말, 어디에도 없는 말, 어디에도 없는 말)
 SAME_TERMS = {"ko": ["한옥마을", "쿼쿼쿼", "쌍무지개"], "en": ["flower", "zqxwv", "peach"]}
-
-
-def same_docs(el):
-    return [d for d, lang in DOCS.items() if lang == el]
+MAX_HITS = 10
+OLD_SHAPE_MSG = "찾을 말만 글자로 적는다(걸린 곳은 적지 않는다. 프로그램이 찾는다)"
 
 
 def own_spans(c):
@@ -173,17 +128,18 @@ def own_spans(c):
     return out
 
 
-def same_hits(c, term, exact_case=False):
-    el = c["evidence_language"]
-    return hits_for(el, term, exact_case, same_docs(el), own_spans(c))
-
-
-def same_check(c):
-    return [{"term": t, "hits": same_hits(c, t)} for t in SAME_TERMS[c["evidence_language"]]]
-
-
-def sc_of(c, term):
-    return next(x for x in c["same_language_check"] if x["term"] == term)
+def count_hits(c, field, term, skip_own=True):
+    """찾을 말이 field의 문서들에 나오는 곳의 수(대소문자 무시). same_language_check는 후보 자신의 근거 구절 안을 뺀다(skip_own이 거짓이면 빼지 않는다). 검사 프로그램과 따로 센다."""
+    el, same = c["evidence_language"], field == "same_language_check"
+    skip = own_spans(c) if same and skip_own else {}
+    n = 0
+    for d, lang in DOCS.items():
+        if (lang == el) != same:
+            continue
+        for m in re.finditer(re.escape(term), text_of(d), re.IGNORECASE):
+            if not any(x <= m.start() and m.end() <= y for x, y in skip.get(d, [])):
+                n += 1
+    return n
 
 
 def ev(doc, passage, loc="고유위치"):
@@ -196,8 +152,7 @@ def answered(cid, typ, ql, el, evs, tag):
     if len(evs) > 1:
         facts.append({"fact": f"사실 {cid}-결론", "evidence": []})
     c = {"id": cid, "question": f"{tag} 질문 {cid}", "question_language": ql, "evidence_language": el, "type": typ,
-            "answer": f"{tag} 정답 {cid}", "required_facts": facts, "opposite_check": opposite_check(el)}
-    c["same_language_check"] = same_check(c)
+            "answer": f"{tag} 정답 {cid}", "required_facts": facts, "opposite_check": list(TERMS[el]), "same_language_check": list(SAME_TERMS[el])}
     return c
 
 
@@ -464,14 +419,7 @@ class CheckCandidatesTest(unittest.TestCase):
         e["passage"] = e["passage"][:m] + "☃" + e["passage"][m + 1:]
         e3 = first_ev(b[2], 0)
         e3["doc_id"], e3["passage"] = "kto-en-jeonju-hanok-village", prose("kto-en-jeonju-hanok-village")[0]
-        secrets = [WHY]
-        for c in b:
-            for x in c["opposite_check"]:
-                secrets.append(x["term"])
-                secrets += [h["excerpt"] for h in x["hits"]]
-        flower = oc_of(b[5], "flower")
-        flower["hits"] = []   # 찾을 말이 있는데 없다고 적음
-        oc_of(b[6], "flower")["hits"][0]["excerpt"] += "☃"   # 구간이 원문과 다름
+        secrets = []
         for c in b:
             secrets += [c["question"], c["answer"]]
             for f in c["required_facts"]:
@@ -490,9 +438,6 @@ class CheckCandidatesTest(unittest.TestCase):
         for s in secrets:
             self.assertNotIn(s.strip(), out)
         self.assertNotIn("☃", out)
-        self.assertIn("opposite_check[0].hits", out)
-        self.assertIn("opposite_check[0].hits[0].excerpt", out)
-        self.assertIn("\"없음\"이라고 했으나", out)
         # 답 없는 묶음도 마찬가지
         na = make_no_answer()
         na[1]["rebuttal"][0]["passage"] += "다름"
@@ -534,7 +479,6 @@ class CheckCandidatesTest(unittest.TestCase):
         b = make_batch("ko-ko")
         e = first_ev(b[0])
         e["doc_id"], e["passage"] = d, a + "\n" + b_
-        b[0]["same_language_check"] = same_check(b[0])   # 근거 구절이 바뀌었으니 같은 언어 기록도 새로 만든다
         self.assertPasses(b)
         e["passage"] = a + "\n" + c_   # 가운데 줄을 건너뜀
         self.assertNotIn(e["passage"], text_of(d))
@@ -574,169 +518,188 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertIn("도시 갈래  두 언어 도시 6개, 영어 도시 6개", out)
 
 
-    # ---- 반대 언어 문서를 찾은 기록(opposite_check) ----
+    # ---- 찾기 기록(opposite_check, same_language_check): 찾을 말만 적는다 ----
 
-    def flower_batch(self):
-        """c-001의 첫 찾을 말(flower)에 걸린 곳이 둘 이상의 서로 다른 구간으로 있는 ko-ko 묶음."""
+    def test_27_missing_or_not_list(self):
+        for field in ("opposite_check", "same_language_check"):
+            b = make_batch("ko-ko")
+            del b[0][field]
+            out = self.assertFailsFor("c-001", b)
+            self.assertIn(f"{field}: 없거나 목록이 아님", out)
+            self.assertNotIn("c-002", failed_names(out))
+            b = make_batch("ko-ko")
+            b[0][field] = "없음"
+            out = self.assertFailsFor("c-001", b)
+            self.assertIn(f"{field}: 없거나 목록이 아님", out)
+
+    def test_28_fewer_than_three_terms(self):
+        for field in ("opposite_check", "same_language_check"):
+            b = make_batch("ko-ko")
+            b[0][field] = b[0][field][:2]
+            out = self.assertFailsFor("c-001", b)
+            self.assertIn(f"{field}: 찾을 말이 2개임 (3개 이상이어야 함)", out)
+
+    def test_29_old_shape_mapping_item(self):
+        # 옛 모양({term, hits})은 걸린 곳을 적지 말라고 알리며 실패한다
+        for field in ("opposite_check", "same_language_check"):
+            b = make_batch("ko-ko")
+            b[0][field][1] = {"term": b[0][field][1], "hits": []}
+            out = self.assertFailsFor("c-001", b)
+            self.assertIn(f"{field}[1]: {OLD_SHAPE_MSG}", out)
+            self.assertNotIn("c-002", failed_names(out))
+
+    def test_30_blank_or_non_text_item(self):
+        for field in ("opposite_check", "same_language_check"):
+            for bad in ("  ", None, True, ["a"]):
+                b = make_batch("ko-ko")
+                b[0][field][2] = bad
+                out = self.assertFailsFor("c-001", b)
+                self.assertIn(f"{field}[2]: 비었거나 없거나 글자가 아님", out)
+
+    def test_31_term_language(self):
         b = make_batch("ko-ko")
-        item = oc_of(b[0], "flower")
-        self.assertGreaterEqual(len({h["excerpt"] for h in item["hits"]}), 2)
-        return b, item
-
-    def test_27_said_none_but_found(self):
-        b, item = self.flower_batch()
-        docs = {h["doc_id"] for h in item["hits"]}
-        item["hits"] = []
+        b[0]["opposite_check"][0] = "전주"
         out = self.assertFailsFor("c-001", b)
-        self.assertIn("없음", out)
-        self.assertTrue(any(d in out for d in docs), out)
-
-    def test_28_one_occurrence_missing(self):
-        b, item = self.flower_batch()
-        last = item["hits"][-1]["excerpt"]
-        item["hits"] = [h for h in item["hits"] if h["excerpt"] != last]
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("적지 않음", out)
-        self.assertIn("opposite_check[0].hits", out)
-
-    def test_29_changed_char_in_excerpt(self):
-        b, item = self.flower_batch()
-        h = item["hits"][0]
-        ex = h["excerpt"]
-        at = ex.lower().find("flower")
-        i = 0 if at > 0 else len("flower")
-        self.assertLess(i, len(ex))
-        h["excerpt"] = ex[:i] + "☃" + ex[i + 1:]
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("opposite_check[0].hits[0].excerpt", out)
-        self.assertIn("글자 그대로 없음", out)
-
-    def test_30_excerpt_without_term(self):
-        b, item = self.flower_batch()
-        d = item["hits"][0]["doc_id"]
-        line = next(l for l in prose(d) if "flower" not in l.lower())
-        item["hits"][0]["excerpt"] = line
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("opposite_check[0].hits[0].excerpt", out)
-        self.assertIn("찾을 말이 들어 있지 않음", out)
-
-    def test_31_doc_id_of_other_document(self):
-        b, item = self.flower_batch()
-        h = item["hits"][0]
-        h["doc_id"] = next(d for d in opposite_docs("ko") if d != h["doc_id"] and h["excerpt"] not in text_of(d))
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("opposite_check[0].hits[0].excerpt", out)
-
-    def test_32_same_language_document(self):
-        b, item = self.flower_batch()
-        item["hits"][0]["doc_id"] = "wiki-ko-jeonju"
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("반대 언어 문서가 아님", out)
-
-    def test_33_term_language(self):
-        b = make_batch("ko-ko")
-        oc_of(b[0], "flower")["term"] = "전주"
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("찾을 말이 반대 언어가 아님", out)
+        self.assertIn("opposite_check[0]: 찾을 말이 반대 언어가 아님 (전주)", out)
         b = make_batch("en-en")
-        oc_of(b[0], "벚꽃")["term"] = "flower"
+        b[0]["opposite_check"][0] = "flower"
         out = self.assertFailsFor("c-013", b, "en-en")
-        self.assertIn("찾을 말이 반대 언어가 아님", out)
-        # 숫자만 있는 말은 두 언어 모두에서 허용
-        for batch, el, old, cid in (("ko-ko", "ko", "zqxwv", 0), ("en-en", "en", "쿼쿼쿼", 0)):
-            b = make_batch(batch)
-            item = oc_of(b[cid], old)
-            item.update(oc_item(el, "2024"))
-            self.assertGreater(len(item["hits"]), 0)
-            self.assertPasses(b, batch)
-
-    def test_34_two_terms_only(self):
+        self.assertIn("opposite_check[0]: 찾을 말이 반대 언어가 아님 (flower)", out)
         b = make_batch("ko-ko")
-        b[0]["opposite_check"] = b[0]["opposite_check"][:2]
+        b[0]["same_language_check"][0] = "flower"
         out = self.assertFailsFor("c-001", b)
-        self.assertIn("3개 이상", out)
+        self.assertIn("same_language_check[0]: 찾을 말이 근거 문서의 언어가 아님 (flower)", out)
+        b = make_batch("en-en")
+        b[0]["same_language_check"][0] = "벚꽃"
+        out = self.assertFailsFor("c-013", b, "en-en")
+        self.assertIn("same_language_check[0]: 찾을 말이 근거 문서의 언어가 아님 (벚꽃)", out)
 
-    def test_35_same_fact_true(self):
-        b, item = self.flower_batch()
-        item["hits"][0]["same_fact"] = True
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("반대 언어 문서에 같은 사실이 있다고 스스로 적음", out)
-        item["hits"][0]["same_fact"] = "false"   # 글자로 쓴 값도 불린이 아니라 실패
-        self.assertFailsFor("c-001", b)
+    def test_32_number_term(self):
+        # 숫자만 있는 말은 두 언어 모두에서 허용하고, 따옴표 없이 적은 숫자(YAML이 숫자로 읽음)도 글자로 바꿔 받는다
+        for batch in ("ko-ko", "en-en"):
+            for number in ("1969", 1969):
+                b = make_batch(batch)
+                b[0]["opposite_check"][1] = number
+                b[0]["same_language_check"][1] = number
+                for field in ("opposite_check", "same_language_check"):
+                    self.assertLessEqual(count_hits(b[0], field, "1969"), MAX_HITS)
+                self.assertPasses(b, batch)
 
-    def test_36_missing_opposite_check(self):
+    def test_33_too_many_hits(self):
+        # 경계: 10곳은 받고 11곳은 받지 않는다. 같은 언어는 근거 구절 안을 세지 않고, 반대 언어는 그대로 센다.
         b = make_batch("ko-ko")
-        del b[0]["opposite_check"]
+        self.assertEqual(count_hits(b[0], "opposite_check", "2005"), 10)
+        self.assertEqual(count_hits(b[0], "opposite_check", "1970"), 11)
+        self.assertEqual(count_hits(b[0], "same_language_check", "1991"), 10)
+        self.assertEqual(count_hits(b[0], "same_language_check", "1949"), 11)
+        b[0]["opposite_check"][1] = "2005"
+        b[0]["same_language_check"][1] = "1991"
+        self.assertPasses(b)
+        b[0]["opposite_check"][1] = "1970"
+        b[0]["same_language_check"][1] = "1949"
         out = self.assertFailsFor("c-001", b)
-        self.assertIn("opposite_check", out)
+        msg = "찾을 말이 11곳에 나옴 (10곳까지 받는다). 그 사실을 가려내는 더 구체적인 말(이름, 숫자가 붙은 말)로 바꾼다"
+        self.assertIn(f"opposite_check[1]: {msg} (1970)", out)
+        self.assertIn(f"same_language_check[1]: {msg} (1949)", out)
+        # 아주 흔한 말
+        b = make_batch("ko-ko")
+        b[0]["opposite_check"][1] = "city"
+        n = count_hits(b[0], "opposite_check", "city")
+        self.assertGreater(n, MAX_HITS)
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn(f"opposite_check[1]: 찾을 말이 {n}곳에 나옴 (10곳까지 받는다)", out)
+
+    def test_34_case_insensitive(self):
+        # 대문자로 적어도 같은 곳을 센다
+        b = make_batch("ko-ko")
+        b[0]["opposite_check"][0] = "FLOWER"
+        self.assertEqual(count_hits(b[0], "opposite_check", "FLOWER"), count_hits(b[0], "opposite_check", "flower"))
+        n = count_hits(b[0], "opposite_check", "flower") + count_hits(b[0], "opposite_check", "peach") + count_hits(b[0], "opposite_check", "zqxwv")
+        out = self.assertPasses(b)
+        self.assertIn(f"      찾은 기록: 찾을 말 3개, 걸린 곳 {n}곳", out)
+
+    def test_35_same_inside_own_non_table_passage(self):
+        # 찾을 말 하나가 근거 문서들에 11곳 나오지만 그중 1곳이 이 후보의 근거 구절 안이면 10곳이므로 받는다
+        b = make_batch("ko-ko")
+        c = b[1]
+        self.assertIn("이를", first_ev(c)["passage"])
+        self.assertEqual(count_hits(c, "same_language_check", "이를", skip_own=False), 11)
+        self.assertEqual(count_hits(c, "same_language_check", "이를"), 10)
+        c["same_language_check"][1] = "이를"
+        self.assertPasses(b)
+        # 다른 후보에서는 근거 구절 밖이므로 11곳으로 세어 받지 않는다
+        b[0]["same_language_check"][1] = "이를"
+        self.assertEqual(count_hits(b[0], "same_language_check", "이를"), 11)
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("same_language_check[1]: 찾을 말이 11곳에 나옴", out)
         self.assertNotIn("c-002", failed_names(out))
 
-    def test_37_case_insensitive(self):
+    def test_36_same_inside_own_table_passage(self):
+        # 표 구절은 구절의 줄과 글자가 같은 문서의 모든 줄을 뺀다: 표의 머리글 낱말이 문서에서 16곳이지만 표 줄 안은 빼면 4곳
         b = make_batch("ko-ko")
-        item = oc_of(b[0], "flower")
-        lower_only = [m for d in opposite_docs("ko") for m in re.findall("flower", text_of(d))]
-        self.assertTrue(lower_only, "소문자 flower가 나오는 곳이 없음")
-        item.update(oc_item("ko", "Flower"))   # 모든 곳을 적음: 통과
-        self.assertEqual(len(item["hits"]), len(hits_for("ko", "flower")))
+        c = b[2]
+        self.assertTrue(first_ev(c)["passage"].startswith("|"))
+        self.assertGreater(count_hits(c, "same_language_check", "인구수", skip_own=False), MAX_HITS)
+        self.assertLessEqual(count_hits(c, "same_language_check", "인구수"), MAX_HITS)
+        c["same_language_check"][1] = "인구수"
         self.assertPasses(b)
-        item["hits"] = hits_for("ko", "Flower", exact_case=True)   # 대문자 그대로인 곳만 적음
-        self.assertLess(len(item["hits"]), len(hits_for("ko", "Flower")))
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("적지 않음", out)
 
-    def test_38_short_excerpt_not_whole_line(self):
-        b, item = self.flower_batch()
-        h = item["hits"][0]
-        t = text_of(h["doc_id"])
-        # 이 문서에서 flower가 나오는 첫 곳 둘레 10글자
-        a = t.lower().find("flower")
-        short = t[a - 2:a + 8]
-        self.assertEqual(len(short), 10)
-        self.assertNotIn(short.rstrip(), [l.rstrip() for l in lines_of(h["doc_id"])])
-        item["hits"] = hits_for("ko", "flower")
-        first = next(x for x in item["hits"] if x["doc_id"] == h["doc_id"] and x["excerpt"] == h["excerpt"])
-        first["excerpt"] = short
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("글자 미만", out)
-
-    def test_39_hide_opposite_check(self):
-        b, item = self.flower_batch()
-        c2 = oc_of(b[1], "flower")
-        docs = {h["doc_id"] for h in item["hits"]}
-        secrets = [h["excerpt"] for x in b[0]["opposite_check"] + b[1]["opposite_check"] for h in x["hits"]]
-        item["hits"] = []                         # c-001: 없다고 적음
-        c2["hits"][0]["excerpt"] += "☃"           # c-002: 구간이 원문과 다름
-        c2["hits"][1]["same_fact"] = True         # c-002: 같은 사실이라고 적음
-        code, out = self.run_check(b, hide=True)
-        self.assertEqual(code, 1, out)
-        self.assertIn("c-001", failed_names(out))
-        self.assertIn("c-002", failed_names(out))
-        for s_ in secrets + [WHY, "flower", "Flower", "zqxwv", "peach", "☃"]:
-            self.assertNotIn(s_.strip(), out)
-        self.assertIn("opposite_check[0].hits", out)
-        self.assertIn("opposite_check[0].hits[0].excerpt", out)
-        self.assertIn("opposite_check[0].hits[1].same_fact", out)
-        self.assertTrue(any(d in out for d in docs), out)
-        self.assertIn("찾은 기록: 찾을 말 3개, 걸린 곳 ", out)
-
-    def test_40_info_line(self):
+    def test_37_info_line_counts_program_hits(self):
         b = make_batch("ko-ko")
-        n = sum(len(x["hits"]) for x in b[0]["opposite_check"])
+        b[0]["opposite_check"][1] = "2005"
+        b[0]["same_language_check"][1] = "1991"
+        n_o = sum(count_hits(b[0], "opposite_check", t) for t in b[0]["opposite_check"])
+        n_s = sum(count_hits(b[0], "same_language_check", t) for t in b[0]["same_language_check"])
+        self.assertGreater(n_o, 10)
+        self.assertGreater(n_s, 10)
         for hide in (False, True):
             out = self.assertPasses(b, hide=hide)
-            self.assertIn(f"      찾은 기록: 찾을 말 3개, 걸린 곳 {n}곳", out)
+            self.assertIn(f"      찾은 기록: 찾을 말 3개, 걸린 곳 {n_o}곳\n      같은 언어 찾은 기록: 찾을 말 3개, 걸린 곳 {n_s}곳\n", out)
+        # 답 없는 묶음에는 두 줄 모두 없다
+        self.assertNotIn("찾은 기록", self.assertPasses(make_no_answer(), "no-answer"))
 
-    def test_41_unquoted_number_term(self):
-        # 따옴표 없이 적은 숫자 찾을 말(YAML이 숫자로 읽음)도 글자로 바꿔 검사한다
+    def test_38_numeric_text_field(self):
+        # 따옴표 없이 적은 숫자 글자 칸(예: answer: 2007.)은 숫자로 읽혔다고 알린다. 글자가 아닌 다른 값은 옛 말을 쓴다.
+        msg = "따옴표 없이 적어 숫자로 읽힘. 큰따옴표로 감싼다"
         b = make_batch("ko-ko")
-        item = oc_of(b[0], "zqxwv")
-        item.update(oc_item("ko", "2024"))
-        item["term"] = 2024
-        self.assertGreater(len(item["hits"]), 0)
-        self.assertPasses(b)
-        item["hits"] = item["hits"][1:]
+        b[0]["answer"] = 2007.0
+        b[1]["question"] = 2007
+        b[2]["required_facts"][0]["fact"] = 3.5
+        first_ev(b[3])["location"] = 12
         out = self.assertFailsFor("c-001", b)
-        self.assertIn("적지 않음", out)
+        self.assertIn(f"answer: {msg}", out)
+        self.assertIn(f"question: {msg}", out)
+        self.assertIn(f"required_facts[0].fact: {msg}", out)
+        self.assertIn(f"required_facts[0].evidence[0].location: {msg}", out)
+        b = make_batch("ko-ko")
+        b[0]["answer"] = True
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("answer: 비었거나 없거나 글자가 아님", out)
+        na = make_no_answer()
+        na[0]["expected_refusal"] = 2007
+        out = self.assertFailsFor("c-049", na, "no-answer")
+        self.assertIn(f"expected_refusal: {msg}", out)
+
+    def test_39_hide_terms(self):
+        # --hide에서는 찾을 말 글자를 보이지 않는다
+        b = make_batch("ko-ko")
+        b[0]["opposite_check"][1] = "city"                       # 너무 많이 나옴
+        b[1]["opposite_check"][0] = "전주"                       # 언어가 다름
+        b[2]["same_language_check"][1] = {"term": "쿼쿼쿼", "hits": []}   # 옛 모양
+        n = count_hits(b[0], "opposite_check", "city")
+        code, out = self.run_check(b, hide=True)
+        self.assertEqual(code, 1, out)
+        for name in ("c-001", "c-002", "c-003"):
+            self.assertIn(name, failed_names(out))
+        self.assertIn(f"opposite_check[1]: 찾을 말이 {n}곳에 나옴 (10곳까지 받는다). 그 사실을 가려내는 더 구체적인 말(이름, 숫자가 붙은 말)로 바꾼다\n", out)
+        self.assertIn("opposite_check[0]: 찾을 말이 반대 언어가 아님\n", out)
+        self.assertIn(f"same_language_check[1]: {OLD_SHAPE_MSG}", out)
+        for s_ in ("city", "전주", "쿼쿼쿼", "flower", "한옥마을"):
+            self.assertNotIn(s_, out)
+        # 숨기지 않으면 찾을 말이 보인다
+        code, out = self.run_check(b)
+        self.assertIn("(city)", out)
+
 
     def test_42_table_row_without_header(self):
         # 머리글 행 없이 표의 줄 하나만 적으면, 머리글 행이 없다고 알린다
@@ -754,7 +717,6 @@ class CheckCandidatesTest(unittest.TestCase):
         b = make_batch("ko-ko")
         e = first_ev(b[0])
         e["doc_id"], e["passage"] = doc, passage
-        b[0]["same_language_check"] = same_check(b[0])   # 근거 구절이 바뀌었으니 같은 언어 기록도 새로 만든다
         return b
 
     def place_case(self):
@@ -812,181 +774,6 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertNotIn(line, out)
         self.assertNotIn(CONFLICTS[n - 1]["quotes"][0], out)
         self.assertNotIn(CONFLICTS[n - 1]["text"], out)
-
-    # ---- 같은 언어 문서를 찾은 기록(same_language_check) ----
-
-    def same_batch(self):
-        """c-001의 첫 찾을 말(한옥마을)에 걸린 곳이 둘 이상의 서로 다른 구간으로 있는 ko-ko 묶음."""
-        b = make_batch("ko-ko")
-        item = sc_of(b[0], "한옥마을")
-        self.assertGreaterEqual(len({h["excerpt"] for h in item["hits"]}), 2)
-        return b, item
-
-    def test_48_same_said_none_but_found(self):
-        b, item = self.same_batch()
-        docs = {h["doc_id"] for h in item["hits"]}
-        item["hits"] = []
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check[0].hits", out)
-        self.assertIn("없음", out)
-        self.assertTrue(any(d in out for d in docs), out)
-
-    def test_49_same_one_occurrence_missing(self):
-        b, item = self.same_batch()
-        last = item["hits"][-1]["excerpt"]
-        item["hits"] = [h for h in item["hits"] if h["excerpt"] != last]
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("적지 않음", out)
-        self.assertIn("same_language_check[0].hits", out)
-
-    def test_50_same_changed_char_in_excerpt(self):
-        b, item = self.same_batch()
-        h = item["hits"][0]
-        ex = h["excerpt"]
-        at = ex.find("한옥마을")
-        i = 0 if at > 0 else len("한옥마을")
-        self.assertLess(i, len(ex))
-        h["excerpt"] = ex[:i] + "☃" + ex[i + 1:]
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check[0].hits[0].excerpt", out)
-        self.assertIn("글자 그대로 없음", out)
-
-    def test_51_same_excerpt_without_term(self):
-        b, item = self.same_batch()
-        d = item["hits"][0]["doc_id"]
-        item["hits"][0]["excerpt"] = next(l for l in prose(d) if "한옥마을" not in l)
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check[0].hits[0].excerpt", out)
-        self.assertIn("찾을 말이 들어 있지 않음", out)
-
-    def test_52_same_doc_of_other_language(self):
-        b, item = self.same_batch()
-        item["hits"][0]["doc_id"] = "wiki-en-jeonju"
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("같은 언어 문서가 아님 (wiki-en-jeonju)", out)
-
-    def test_53_same_term_language(self):
-        b = make_batch("ko-ko")
-        sc_of(b[0], "한옥마을")["term"] = "flower"
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check[0].term: 찾을 말이 근거 문서의 언어가 아님", out)
-        b = make_batch("en-en")
-        sc_of(b[0], "flower")["term"] = "벚꽃"
-        out = self.assertFailsFor("c-013", b, "en-en")
-        self.assertIn("same_language_check[0].term: 찾을 말이 근거 문서의 언어가 아님", out)
-        # 숫자만 있는 말은 두 언어 모두에서 허용
-        for batch, old in (("ko-ko", "쿼쿼쿼"), ("en-en", "zqxwv")):
-            b = make_batch(batch)
-            item = sc_of(b[0], old)
-            item.update({"term": "2024", "hits": same_hits(b[0], "2024")})
-            self.assertGreater(len(item["hits"]), 0)
-            self.assertPasses(b, batch)
-
-    def test_54_same_two_terms_only(self):
-        b = make_batch("ko-ko")
-        b[0]["same_language_check"] = b[0]["same_language_check"][:2]
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check: 찾을 말이 2개임 (3개 이상이어야 함)", out)
-
-    def test_55_same_same_fact_true(self):
-        b, item = self.same_batch()
-        item["hits"][0]["same_fact"] = True
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check[0].hits[0].same_fact: 같은 언어 문서에 같은 것이 있다고 적음 (같은 값이면 그 구간을 근거 구절로 더 적고, 다른 값이면 그 사실을 쓰지 않는다)", out)
-
-    def test_56_missing_same_language_check(self):
-        b = make_batch("ko-ko")
-        del b[0]["same_language_check"]
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check: 없거나 목록이 아님", out)
-        self.assertNotIn("c-002", failed_names(out))
-        b = make_batch("ko-ko")
-        b[0]["same_language_check"] = "없음"
-        out = self.assertFailsFor("c-001", b)
-        self.assertIn("same_language_check: 없거나 목록이 아님", out)
-
-    def test_57_same_inside_own_non_table_passage(self):
-        # 찾을 말이 이 후보의 근거 구절 안에서만 나오면 hits가 []여도 통과한다
-        b = make_batch("ko-ko")
-        c = b[0]
-        ps = first_ev(c)["passage"].rstrip("\n")
-        found = None
-        for w in range(8, 3, -1):
-            for a in range(len(ps) - w + 1):
-                term = ps[a:a + w]
-                total = sum(len(re.findall(re.escape(term), text_of(d), re.IGNORECASE)) for d in same_docs("ko"))
-                if re.search("[가-힣]", term) and total >= 1 and not same_hits(c, term):
-                    found = term
-                    break
-            if found:
-                break
-        self.assertIsNotNone(found, "근거 구절 안에서만 나오는 말을 찾지 못함")
-        sc_of(c, "쿼쿼쿼").update({"term": found, "hits": []})
-        self.assertPasses(b)
-
-    def test_58_same_inside_own_table_passage(self):
-        b = make_batch("ko-ko")
-        c = next(x for x in b if x["type"] == "table_numeric" and first_ev(x)["passage"].startswith("|"))
-        row = first_ev(c)["passage"].rstrip("\n").split("\n")[1]
-        d = first_ev(c)["doc_id"]
-        self.assertGreaterEqual(text_of(d).count(row), 1)
-        self.assertEqual(same_hits(c, row), [])
-        sc_of(c, "쿼쿼쿼").update({"term": row, "hits": []})
-        self.assertPasses(b)
-
-    def test_59_same_elsewhere_in_evidence_document_required(self):
-        # 같은 찾을 말이 근거 구절 밖(근거 문서의 다른 곳)에도 나오면 그곳은 적어야 한다
-        b = make_batch("ko-ko")
-        found = None
-        for c in b:
-            d = first_ev(c)["doc_id"]
-            for term in dict.fromkeys(first_ev(c)["passage"].split()):
-                outside = [h for h in same_hits(c, term) if h["doc_id"] == d]
-                if re.fullmatch("[가-힣]{2,}", term) and outside and term not in SAME_TERMS["ko"]:
-                    found = (c, term, d)
-                    break
-            if found:
-                break
-        self.assertIsNotNone(found, "근거 구절 밖에도 나오는 말을 찾지 못함")
-        c, term, d = found
-        item = sc_of(c, "쿼쿼쿼")
-        item.update({"term": term, "hits": same_hits(c, term)})
-        self.assertPasses(b)
-        item["hits"] = [h for h in item["hits"] if h["doc_id"] != d]
-        out = self.assertFailsFor(c["id"], b)
-        self.assertIn("적지 않음", out)
-        self.assertIn(d, out)
-
-    def test_60_same_info_line(self):
-        b = make_batch("ko-ko")
-        n0 = sum(len(x["hits"]) for x in b[0]["opposite_check"])
-        n = sum(len(x["hits"]) for x in b[0]["same_language_check"])
-        for hide in (False, True):
-            out = self.assertPasses(b, hide=hide)
-            self.assertIn(f"      찾은 기록: 찾을 말 3개, 걸린 곳 {n0}곳\n      같은 언어 찾은 기록: 찾을 말 3개, 걸린 곳 {n}곳\n", out)
-        # 답 없는 묶음에는 두 줄 모두 없다
-        self.assertNotIn("찾은 기록", self.assertPasses(make_no_answer(), "no-answer"))
-
-    def test_61_hide_same_language_check(self):
-        b, item = self.same_batch()
-        c2 = sc_of(b[1], "한옥마을")
-        self.assertGreaterEqual(len(c2["hits"]), 2)
-        docs = {h["doc_id"] for h in item["hits"]}
-        secrets = [h["excerpt"] for c in b[:2] for x in c["same_language_check"] for h in x["hits"]]
-        item["hits"] = []                         # c-001: 없다고 적음
-        c2["hits"][0]["excerpt"] += "☃"           # c-002: 구간이 원문과 다름
-        c2["hits"][1]["same_fact"] = True         # c-002: 같은 사실이라고 적음
-        code, out = self.run_check(b, hide=True)
-        self.assertEqual(code, 1, out)
-        self.assertIn("c-001", failed_names(out))
-        self.assertIn("c-002", failed_names(out))
-        for s_ in secrets + [WHY, "한옥마을", "쿼쿼쿼", "쌍무지개", "☃"]:
-            self.assertNotIn(s_.strip(), out)
-        self.assertIn("same_language_check[0].hits", out)
-        self.assertIn("same_language_check[0].hits[0].excerpt", out)
-        self.assertIn("same_language_check[0].hits[1].same_fact", out)
-        self.assertTrue(any(d in out for d in docs), out)
-        self.assertIn("같은 언어 찾은 기록: 찾을 말 3개, 걸린 곳 ", out)
 
 
 if __name__ == "__main__":
