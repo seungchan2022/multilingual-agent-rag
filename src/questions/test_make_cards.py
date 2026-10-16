@@ -244,6 +244,87 @@ class MakeCardsTest(unittest.TestCase):
         for card in cards:
             check_labels(self, card)
 
+    def slc(self, el, doc, terms):
+        """same_language_check 시험 후보: terms는 [(term, [doc_id,...])]. 걸린 곳 글은 각 문서의 산문 줄."""
+        sc = [{"term": t, "hits": [{"doc_id": d, "excerpt": prose(d)[0], "same_fact": False, "why": "시험 이유"} for d in ds]}
+              for t, ds in terms]
+        c = candidate(doc=doc, el=el)
+        c["same_language_check"] = sc
+        return c
+
+    def test_same_language_hits_split_between_item3_and_item4(self):
+        c = self.slc("ko", "wiki-ko-chuncheon", [("가", ["wiki-ko-chuncheon", "wiki-ko-jeonju"]), ("나", ["wiki-ko-jeonju"]), ("다", [])])
+        t = Run(self, [c]).go().text
+        i3, i4 = item_text(t, 3), item_text(t, 4)
+        e, o = prose("wiki-ko-chuncheon")[0], prose("wiki-ko-jeonju")[0]
+        self.assertIn(f"    > {e}", i3)
+        self.assertNotIn(o, i3)
+        self.assertIn(f"    > {o}", i4)
+        self.assertNotIn(e, i4)
+        self.assertIn("- `term`(찾을 말) `가`:", i3)
+        self.assertNotIn("`나`:", i3)
+        self.assertIn("찾을 말 `나`, `다`: 근거 문서 안에서는 걸린 곳이 없다", i3)
+        self.assertIn("Gemini의 판단: 같은 것 아님 — 시험 이유", i3)
+        self.assertIn("걸린 곳 1: [wiki-ko-jeonju.md", i4)
+        self.assertLess(i4.index("Cmd+Shift+F"), i4.index("Gemini가"))
+        self.assertIn("3번의 찾을 말로 찾는다.", i4)
+        self.assertIn("Cmd+클릭", i3)
+        self.assertNotIn("번역", i3 + i4)
+
+    def test_item5_unchanged_by_same_language_check(self):
+        hit = "The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)"
+        oc = [{"term": "1969", "hits": [{"doc_id": "wiki-en-chuncheon", "excerpt": hit, "same_fact": False, "why": "기온 날짜"}]}]
+        plain = candidate(oc=oc)
+        with_slc = self.slc("ko", "wiki-ko-chuncheon", [("가", ["wiki-ko-chuncheon"])])
+        with_slc["opposite_check"], with_slc["required_facts"] = oc, plain["required_facts"]
+        a = item_text(Run(self, [plain]).go().text, 5)
+        b = item_text(Run(self, [with_slc]).go().text, 5)
+        self.assertEqual(a, b)
+        self.assertIn("Gemini의 판단: 같은 사실 아님 — 기온 날짜", a)
+
+    def test_en_evidence_item3_and_item4_use_translation(self):
+        c = self.slc("en", "wiki-en-jeonju", [("가", ["wiki-en-jeonju"]), ("나", ["kto-en-jeonju-hanok-village"])])
+        t = Run(self, [c]).go().text
+        i3, i4 = item_text(t, 3), item_text(t, 4)
+        self.assertIn(URLS["wiki-en-jeonju"], i3)
+        self.assertIn("한국어로 번역", i3)
+        self.assertIn("위 찾을 말(한국어)과 숫자", i3)
+        self.assertNotIn("Cmd+클릭", i3)
+        self.assertIn("번역기에 붙여 읽는다", i3)
+        self.assertIn("번역기로 영어로 옮긴 말과 숫자", i4)
+        self.assertIn("번역기에 붙여 읽는다", i4)
+        self.assertIn("`data/corpus/markdown/*-en-*`", i4)
+
+    def test_en_evidence_kto_doc_pasted_whole(self):
+        kto = next(d for d in URLS if d.startswith("kto-en-"))
+        c = self.slc("en", kto, [])
+        i3 = item_text(Run(self, [c]).go().text, 3)
+        self.assertIn("내용 전체를 번역기에 붙여 읽는다", i3)
+
+    def test_ko_evidence_wording_unchanged_without_field(self):
+        t = Run(self, [candidate()]).go().text
+        i3, i4 = item_text(t, 3), item_text(t, 4)
+        self.assertNotIn("Gemini", i3 + i4)
+        self.assertIn("- 할 일: 위 근거 문서 링크를 `Cmd+클릭`해 열고", i3)
+        self.assertTrue(i4.split("\n", 1)[1].startswith("- 할 일: `Cmd+Shift+F`"))
+        self.assertIn("3번의 찾을 말로 찾는다.\n", i4)
+
+    def test_no_field_means_no_gemini_block_en(self):
+        t = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go().text
+        self.assertNotIn("검사 프로그램이 확인함", item_text(t, 3) + item_text(t, 4))
+
+    def test_field_without_hits_in_group_says_not_found(self):
+        c = self.slc("ko", "wiki-ko-chuncheon", [("가", ["wiki-ko-jeonju"]), ("나", [])])
+        t = Run(self, [c]).go().text
+        i3, i4 = item_text(t, 3), item_text(t, 4)
+        self.assertIn("- Gemini가 찾은 말 `가`, `나`: 근거 문서 안에서는 걸린 곳이 없다(검사 프로그램이 확인함). 위 직접 찾기는 그대로 해야 한다.", i3)
+        self.assertNotIn("`term`", i3)
+        self.assertIn("`term`(찾을 말) `가`:", i4)
+        c2 = self.slc("ko", "wiki-ko-chuncheon", [("가", ["wiki-ko-chuncheon"])])
+        i4b = item_text(Run(self, [c2]).go().text, 4)
+        self.assertIn("- Gemini가 찾은 말 `가`: 근거 문서가 아닌 같은 언어 문서에서는 걸린 곳이 없다(검사 프로그램이 확인함). 위 직접 찾기는 그대로 해야 한다.", i4b)
+        self.assertNotIn("`[x]`", i4b)
+
     def test_real_batch(self):
         r = Run(self, src=REAL_BATCH).go(memo=REAL_MEMO)
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)

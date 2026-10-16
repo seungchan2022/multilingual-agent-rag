@@ -212,17 +212,54 @@ def details_block(c):
     return ["", "<details><summary>참고용 원본 YAML</summary>", "", "```yaml", dump, "```", "", "</details>"]
 
 
-def source_hint(d, out_dir, opposite):
-    """같은 도시의 반대 언어 문서 하나를 어떻게 읽는지."""
+def source_hint(d, out_dir, opposite, terms_ref="3번의 찾을 말"):
+    """같은 도시의 반대 언어 문서 하나를 어떻게 읽는지. terms_ref는 찾을 말이 어디에 적혀 있는지(3번 칸 안에서 쓰면 "위 찾을 말")."""
     did = d["doc_id"]
     if opposite == "ko":
-        return f"{link(out_dir, did)}를 열어 3번의 찾을 말로 `Cmd+F` 하고 앞뒤를 읽는다."
+        return f"{link(out_dir, did)}를 열어 {terms_ref}로 `Cmd+F` 하고 앞뒤를 읽는다."
     if did.startswith("wiki-"):
         return (f"크롬에서 {d['url']} 를 연다. 페이지에서 오른쪽 클릭 → \"한국어로 번역\". "
-                "`Cmd+F`로 3번의 찾을 말(한국어)과 숫자를 찾아 앞뒤를 읽는다. 절 이름으로 짐작해 고르지 않는다.")
+                f"`Cmd+F`로 {terms_ref}(한국어)과 숫자를 찾아 앞뒤를 읽는다. 절 이름으로 짐작해 고르지 않는다.")
     if did.startswith("portal-"):
         return f"{link(out_dir, did)}를 열어 표를 본다."
     return f"{link(out_dir, did)}를 열어 내용 전체를 번역기에 붙여 읽는다. 짧은 글이다."
+
+
+def hit_lines(out_dir, items, same_word):
+    """찾을 말마다 걸린 곳(링크, 인용, Gemini의 판단)을 줄로 만든다. items는 hits가 있는 `{term, hits}` 목록."""
+    body = []
+    for it in items:
+        body.append(f"- `term`(찾을 말) `{it['term']}`:")
+        for k, h in enumerate(it["hits"], 1):
+            line = line_of_text(h["doc_id"], h["excerpt"])
+            body += [f"  - 걸린 곳 {k}: {link(out_dir, h['doc_id'], line, line is not None)}{source_note(h['doc_id'])}", quote(h["excerpt"], 4), "",
+                     f"    Gemini의 판단: {same_word} {'맞음' if h['same_fact'] else '아님'} — {h['why']}"]
+    return body
+
+
+def same_language_block(c, out_dir, docs, in_evidence, el):
+    """같은 언어 문서에서 Gemini가 찾은 말(`same_language_check`) 가운데 근거 문서 안(in_evidence=True) 또는 그 밖의 걸린 곳을 보인다.
+    후보에 그 칸이 없으면 빈 목록."""
+    if c.get("same_language_check") is None:
+        return []
+    where = "근거 문서 안" if in_evidence else "근거 문서가 아닌 같은 언어 문서"
+    own = LANG_NAME[el]
+    reading = "번역기에 붙여 읽는다" if el == "en" else "읽는다"
+    groups = []
+    for it in c["same_language_check"]:
+        hits = [h for h in it.get("hits") or [] if (h["doc_id"] in docs) == in_evidence]
+        groups.append({"term": it["term"], "hits": hits})
+    with_hits = [g for g in groups if g["hits"]]
+    none_terms = [f"`{g['term']}`" for g in groups if not g["hits"]]
+    if not with_hits:
+        names = ", ".join(none_terms) if none_terms else "없음"
+        return [f"- Gemini가 찾은 말 {names}: {where}에서는 걸린 곳이 없다(검사 프로그램이 확인함). 위 직접 찾기는 그대로 해야 한다."]
+    out = [f"- Gemini가 {own} 문서에서 찾은 말과 {where}의 걸린 곳이다(검사 프로그램이 확인함). Gemini의 말은 덧붙인 것이라 위 직접 찾기는 그대로 해야 한다."
+           + (f" 찾을 말 {', '.join(none_terms)}: {where}에서는 걸린 곳이 없다." if none_terms else "")]
+    out += hit_lines(out_dir, with_hits, "같은 것")
+    out += [f"- 할 일: 걸린 곳의 인용 글을 하나씩 {reading}.",
+            "- 판단할 질문: 걸린 곳마다, 같은 것이 `answer`(정답)과 다른 값으로 적혀 있지 않은가?"]
+    return out
 
 
 def paraphrase_body(c, memos):
@@ -272,16 +309,28 @@ def answered_card(c, out_dir, memos):
     value_part = ("위 `answer`(정답)에서 값마다 골라 찾는다" if len(val) > 30 else f"`{val}`")
     docs = evidence_docs(c)
     doc_links = f" 근거 문서: {', '.join(link(out_dir, d) for d in docs)}." if len(docs) > 1 else ""
+    if el == "en":
+        read3 = [f"- 할 일 {n} ({d}): {source_hint(DOC[d], out_dir, 'en', terms_ref='위 찾을 말')}" for n, d in enumerate(docs, 1)]
+        read3 = ["- 할 일: 근거 문서가 영어라 한국어 낱말로는 `Cmd+F`가 걸리지 않는다. 근거 문서마다 아래대로 한다. 근거 구절이 있는 곳에서는 앞뒤 한두 문장도 읽는다."] + read3
+    else:
+        read3 = ["- 할 일: 위 근거 문서 링크를 `Cmd+클릭`해 열고, `Cmd+F`로 찾을 말을 하나씩 찾아 걸린 곳을 `Enter`로 넘겨 본다. "
+                 "근거 구절이 있는 줄에서는 앞뒤 한두 문장도 읽는다." + doc_links]
     out += item(3, "같은 문서 안에 다른 값이 없다", [
         "- 찾을 말: 질문에서 무엇에 대한 질문인지 나타내는 이름(예: 시조, 인구)을 하나 이상 골라 찾고, 아래 정답의 값도 찾는다. "
         f"정답의 값: {value_part} · 정답과 근거 구절에서 뽑은 숫자: "
         + (", ".join(f"`{n}`" for n in nums) if nums else "없음"),
-        "- 할 일: 위 근거 문서 링크를 `Cmd+클릭`해 열고, `Cmd+F`로 찾을 말을 하나씩 찾아 걸린 곳을 `Enter`로 넘겨 본다. "
-        "근거 구절이 있는 줄에서는 앞뒤 한두 문장도 읽는다." + doc_links,
-        "- 판단할 질문: 걸린 곳마다, 같은 것이 `answer`(정답)과 다른 값으로 적혀 있지 않은가? 앞뒤 문장이 다른 대상 이야기로 바뀌지 않는가?"])
+    ] + read3 + [
+        "- 판단할 질문: 걸린 곳마다, 같은 것이 `answer`(정답)과 다른 값으로 적혀 있지 않은가? 앞뒤 문장이 다른 대상 이야기로 바뀌지 않는가?"]
+        + same_language_block(c, out_dir, docs, True, el))
+    if el == "en":
+        find4 = ("3번의 찾을 말(한국어 대상 낱말)을 번역기로 영어로 옮긴 말과 숫자로 찾는다. "
+                 "걸린 줄은 번역기에 붙여 읽는다.")
+    else:
+        find4 = "3번의 찾을 말로 찾는다."
     out += item(4, f"같은 언어({own})의 다른 문서에 다른 값이 없다", [
-        f"- 할 일: `Cmd+Shift+F`(폴더 찾기)를 연다. 찾기 칸 아래 `...`을 눌러 \"포함할 파일\"에 `data/corpus/markdown/*-{el}-*`를 적는다. 3번의 찾을 말로 찾는다.",
-        "- 판단할 질문: 근거 문서 말고 다른 문서가 걸리면, 거기에 같은 것이 다른 값으로 적혀 있지 않은가?"])
+        f"- 할 일: `Cmd+Shift+F`(폴더 찾기)를 연다. 찾기 칸 아래 `...`을 눌러 \"포함할 파일\"에 `data/corpus/markdown/*-{el}-*`를 적는다. {find4}",
+        "- 판단할 질문: 근거 문서 말고 다른 문서가 걸리면, 거기에 같은 것이 다른 값으로 적혀 있지 않은가?"]
+        + same_language_block(c, out_dir, docs, False, el))
 
     checks = c.get("opposite_check") or []
     terms = [it["term"] for it in checks]
@@ -290,12 +339,7 @@ def answered_card(c, out_dir, memos):
     if with_hits:
         body = [f"Gemini가 {opp} 문서에서 찾은 말과 걸린 곳이다. 찾을 말마다 나오는 곳은 아래가 전부다(검사 프로그램이 확인함)."
                 + (f" 찾을 말 {', '.join(none_terms)}: {opp} 문서 어디에도 없다." if none_terms else "")]
-        for it in with_hits:
-            body.append(f"- `term`(찾을 말) `{it['term']}`:")
-            for k, h in enumerate(it["hits"], 1):
-                line = line_of_text(h["doc_id"], h["excerpt"])
-                body += [f"  - 걸린 곳 {k}: {link(out_dir, h['doc_id'], line, line is not None)}{source_note(h['doc_id'])}", quote(h["excerpt"], 4), "",
-                         f"    Gemini의 판단: 같은 사실 {'맞음' if h['same_fact'] else '아님'} — {h['why']}"]
+        body += hit_lines(out_dir, with_hits, "같은 사실")
         body += [f"- 할 일: 걸린 문장을 하나씩 {tr}읽는다." if opposite == "ko" else "- 할 일: 걸린 문장을 하나씩 번역기에 붙여 읽는다.",
                  "- 판단할 질문: 이 문장이 위 `required_facts`(꼭 필요한 사실)와 다른 이야기인가(같은 사실을 말하지 않는가)?"]
     elif terms:
@@ -382,7 +426,7 @@ def build(data, batch_name, out_dir, memos):
 def stringify_terms(data):
     """따옴표 없이 적은 숫자 term(예: 1969)을 글자로 바꾼다."""
     for c in data:
-        for it in c.get("opposite_check") or []:
+        for it in (c.get("opposite_check") or []) + (c.get("same_language_check") or []):
             if isinstance(it, dict) and isinstance(it.get("term"), (int, float)) and not isinstance(it["term"], bool):
                 it["term"] = str(it["term"])
 
