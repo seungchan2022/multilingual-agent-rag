@@ -16,7 +16,7 @@
 
 1. Gemini에서 새 임시 채팅을 연다. 화면에 "임시 채팅은 최근 채팅에 표시되지 않으며…"가 보이면 임시 채팅이다.
 2. 입력창 옆의 모델 고르는 곳에서 모델 **3.1 Pro**, 사고 수준 **최고**를 고른다.
-3. 아래 2~5단계의 메시지는 모두 이 한 채팅에서 보낸다. 채팅을 닫지 않는다.
+3. 한 채팅에서는 한 묶음만 받는다. 아래 2~4단계의 메시지는 이 채팅에서 보내고, 다음 묶음은 새 임시 채팅을 열어 1단계부터 다시 한다(`decisions/stage3.md` 2026-10-16).
 
 ## 2. 원문을 두 번 올린다 (메시지 1, 2)
 
@@ -74,24 +74,41 @@ YAML 코드 블록 하나에 28개를 모두 넣어 낸다. 모양은 아래와 
 
 2. 답이 끝까지 나온 뒤(답 아래에 복사 단추들이 보인 뒤) 답의 YAML 상자에서 복사 단추를 누르고, VS Code 새 파일(`Cmd+N`)에 붙여 넣은 뒤 `Cmd+S`로 저장한다.
    - 저장 창의 폴더: `research_notes` → `stage3_dev` → `chat4`
-   - 이름 칸: `read_test.yaml`
+   - 이름 칸: `read_test_batch2.yaml`처럼 이번에 받을 묶음의 번호를 붙인다
    - 이 답은 원문의 글자뿐이라 **최종**에서도 같은 자리(새 `chat` 번호 폴더)에 저장해도 된다.
 3. 검사를 돌린다.
 
 ```
-uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/read_test.yaml
+uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/read_test_batch2.yaml
 ```
 
 4. 마지막 줄이 `문서 28개 가운데 28개 통과`로 시작하면 4단계로 간다(뒤에 `(그 가운데 N개는 줄 중간부터 옮김)`이 붙어도 된다). 아니면 후보를 요청하지 않고 "문제가 생겼을 때"를 본다.
 
-## 4. 후보를 다섯 번에 나눠 받는다 (메시지 4~8)
+## 4. 그 채팅에서 묶음 하나를 받는다 (메시지 4)
 
-한 번에 한 묶음(12개)씩, 아래 묶음 1부터 차례로 받는다. 한 번에 다 받으면 답이 길어져 뒤쪽 후보가 엉성해질 수 있다(`decisions/stage3.md` 2026-10-15). 한 묶음을 받으면 5단계 검사를 통과한 뒤에 다음 묶음으로 간다.
+묶음은 아래 묶음 1부터 5까지 다섯 개이고, 한 채팅에서 하나씩(12개) 받는다. 한 번에 다 받거나 한 채팅에서 이어 받으면 답과 채팅이 길어져 뒤쪽 후보가 엉성해질 수 있다(`decisions/stage3.md` 2026-10-15, 2026-10-16). 한 묶음을 받으면 5단계 검사를 통과한 뒤에 새 채팅에서 다음 묶음으로 간다.
+
+**첫 요청 보내는 법** (모든 묶음이 같다). 입력창에 아래 넷을 차례로 붙이고 한 번에 보낸다.
+
+1. 지시서 파일(`data/questions/final_set_instructions.md`)을 VS Code에서 열고 `Cmd+A`, `Cmd+C`로 전체를 복사해 붙인다.
+2. 한 줄 띄우고, 아래 그 묶음의 상자 글을 붙인다.
+3. 한 줄 띄우고, 아래 글을 붙인다.
+
+```text
+아래 질문들은 이미 쓰고 있다. 같은 사실을 묻는 질문을 만들지 마라.
+```
+
+4. 그 아래에 앞 묶음들의 질문 문장 파일(`previous_questions_batch2.md`처럼 이번 묶음 번호를 붙인 파일) 내용 전체를 붙인다. 이 파일은 앞 묶음들의 YAML에서 아래 명령으로 만든다. 화면에는 개수만 나온다.
+
+```
+uv run python src/questions/list_questions.py research_notes/stage3_dev/chat4/previous_questions_batch3.md research_notes/stage3_dev/chat3/batch1_ko-ko.yaml research_notes/stage3_dev/chat4/batch2_en-en.yaml
+```
+
+   위 예는 묶음 3을 받을 때다. 묶음 4는 출력 파일 이름을 `previous_questions_batch4.md`로 바꾸고 끝에 `research_notes/stage3_dev/chat4/batch3_ko-en.yaml`을 더한다. 묶음 5도 같은 식이다. **개발용:** 묶음 2의 파일은 Claude가 `previous_questions.md`로 만들어 두었다(묶음 1에서 폐기한 2개를 뺀 10개). **최종:** 폴더를 최종 평가용 폴더로 바꾸고, 묶음 1에도 개발용 질문 파일(`research_notes/stage3_dev/chat3/batch1_ko-ko.yaml`, `research_notes/stage3_dev/chat4/batch2_en-en.yaml` 등 개발용 묶음 전부)로 만든 파일을 붙인다.
 
 ### 묶음 1: 한국어 질문·한국어 문서
 
-1. 지시서 파일(`data/questions/final_set_instructions.md`)을 VS Code에서 열고 `Cmd+A`, `Cmd+C`로 전체를 복사해 Gemini 입력창에 붙인다. 아직 보내지 않는다.
-2. 한 줄 띄우고, 아래 상자의 글을 이어 붙인 뒤 보낸다.
+1. 위 "첫 요청 보내는 법"대로, 아래 상자의 글을 넣어 보낸다. **개발용:** 묶음 1은 chat3에서 받아 마쳤다.
 
 ```text
 이번에는 2번 표에서 질문 언어 `ko`, 근거 문서 언어 `ko` 칸만 만든다. `single_fact` 2개, `table_numeric` 2개, `multi_doc` 4개, `paraphrase` 4개로 12개다. `table_numeric` 2개 가운데 1개 이상은 답이 표에 있게 한다. 12개 가운데 6개는 두 언어 도시의 문서에서, 6개는 한국어 도시의 문서에서 만든다(2번의 도시 갈래 표). `id`는 `c-001`부터 붙인다. 답 있는 후보마다 `opposite_check`와 `same_language_check`를 8번대로 적는다. 근거는 세 번에 걸쳐 올린 문서 28개 전체에서 고르게 찾고, 마지막에 올린 파일에 몰리지 않게 한다. 반대 언어 문서에 같은 사실이 없는지 볼 때도 28개 가운데 반대 언어 문서 14개 전부를 본다. 규칙은 처음에 준 글과 같다. 앞에서 만든 후보와 같은 사실을 묻지 마라.
@@ -104,7 +121,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/r
 
 ### 묶음 2: 영어 질문·영어 문서
 
-1. 아래 상자의 글만 붙여 보낸다(지시서는 묶음 1에서 이미 보냈다).
+1. 위 "첫 요청 보내는 법"대로, 아래 상자의 글을 넣어 보낸다.
 
 ```text
 이번에는 2번 표에서 질문 언어 `en`, 근거 문서 언어 `en` 칸만 만든다. `single_fact` 2개, `table_numeric` 2개, `multi_doc` 4개, `paraphrase` 4개로 12개다. `table_numeric` 2개 가운데 1개 이상은 답이 표에 있게 한다. 12개 가운데 6개는 두 언어 도시의 문서에서, 6개는 영어 도시의 문서에서 만든다(2번의 도시 갈래 표). `id`는 `c-013`부터 붙인다. 답 있는 후보마다 `opposite_check`와 `same_language_check`를 8번대로 적는다. 근거는 세 번에 걸쳐 올린 문서 28개 전체에서 고르게 찾고, 마지막에 올린 파일에 몰리지 않게 한다. 반대 언어 문서에 같은 사실이 없는지 볼 때도 28개 가운데 반대 언어 문서 14개 전부를 본다. 규칙은 처음에 준 글과 같다. 앞에서 만든 후보와 같은 사실을 묻지 마라.
@@ -117,7 +134,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/r
 
 ### 묶음 3: 한국어 질문·영어 문서
 
-1. 아래 상자의 글만 붙여 보낸다(지시서는 묶음 1에서 이미 보냈다).
+1. 위 "첫 요청 보내는 법"대로, 아래 상자의 글을 넣어 보낸다.
 
 ```text
 이번에는 2번 표에서 질문 언어 `ko`, 근거 문서 언어 `en` 칸만 만든다. `single_fact` 2개, `table_numeric` 2개, `multi_doc` 4개, `paraphrase` 4개로 12개다. `table_numeric` 2개 가운데 1개 이상은 답이 표에 있게 한다. 12개 가운데 6개는 두 언어 도시의 문서에서, 6개는 영어 도시의 문서에서 만든다(2번의 도시 갈래 표). `id`는 `c-025`부터 붙인다. 답 있는 후보마다 `opposite_check`와 `same_language_check`를 8번대로 적는다. 근거는 세 번에 걸쳐 올린 문서 28개 전체에서 고르게 찾고, 마지막에 올린 파일에 몰리지 않게 한다. 반대 언어 문서에 같은 사실이 없는지 볼 때도 28개 가운데 반대 언어 문서 14개 전부를 본다. 규칙은 처음에 준 글과 같다. 앞에서 만든 후보와 같은 사실을 묻지 마라.
@@ -130,7 +147,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/r
 
 ### 묶음 4: 영어 질문·한국어 문서
 
-1. 아래 상자의 글만 붙여 보낸다(지시서는 묶음 1에서 이미 보냈다).
+1. 위 "첫 요청 보내는 법"대로, 아래 상자의 글을 넣어 보낸다.
 
 ```text
 이번에는 2번 표에서 질문 언어 `en`, 근거 문서 언어 `ko` 칸만 만든다. `single_fact` 2개, `table_numeric` 2개, `multi_doc` 4개, `paraphrase` 4개로 12개다. `table_numeric` 2개 가운데 1개 이상은 답이 표에 있게 한다. 12개 가운데 6개는 두 언어 도시의 문서에서, 6개는 한국어 도시의 문서에서 만든다(2번의 도시 갈래 표). `id`는 `c-037`부터 붙인다. 답 있는 후보마다 `opposite_check`와 `same_language_check`를 8번대로 적는다. 근거는 세 번에 걸쳐 올린 문서 28개 전체에서 고르게 찾고, 마지막에 올린 파일에 몰리지 않게 한다. 반대 언어 문서에 같은 사실이 없는지 볼 때도 28개 가운데 반대 언어 문서 14개 전부를 본다. 규칙은 처음에 준 글과 같다. 앞에서 만든 후보와 같은 사실을 묻지 마라.
@@ -143,7 +160,7 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/r
 
 ### 묶음 5: 답 없는 질문
 
-1. 아래 상자의 글만 붙여 보낸다(지시서는 묶음 1에서 이미 보냈다).
+1. 위 "첫 요청 보내는 법"대로, 아래 상자의 글을 넣어 보낸다.
 
 ```text
 이번에는 답 없는 질문(`no_answer`)만 만든다. 한국어 질문 6개, 영어 질문 6개로 12개다. `id`는 `c-049`부터 붙인다. 답이 없는지는 세 번에 걸쳐 올린 문서 28개 전부에서 찾아본다. 규칙은 처음에 준 글과 같다. 앞에서 만든 후보와 같은 사실을 묻지 마라.
@@ -153,14 +170,6 @@ uv run python src/questions/check_read_test.py research_notes/stage3_dev/chat4/r
 3. YAML 상자의 복사 단추를 눌러 VS Code 새 파일에 붙여 넣고 저장한다. 폴더는 `research_notes` → `stage3_dev` → `chat4`, 이름은 `batch5_no-answer.yaml`이다.
 4. 답 맨 아래의 답 전체 복사 단추를 눌러 새 파일에 붙여 넣고, 같은 폴더에 `batch5_no-answer_full.md`로 저장한다. YAML 뒤 메모를 남기기 위해서다.
 5. 5단계의 "묶음 5" 명령을 돌린다.
-
-### 새 채팅에서 이어 받을 때
-
-채팅이 끊겼거나(개발용에서는 지시서를 고쳐) 새 채팅을 연 경우다. 1~3단계를 새 채팅에서 다시 한 뒤, 이어 받을 묶음의 첫 요청을 이렇게 보낸다: 지시서 파일 전체 → 한 줄 띄우고 그 묶음의 상자 글 → 한 줄 띄우고 아래 글 → 그 아래에 앞 채팅에서 받아 둔 후보의 질문 문장을 한 줄에 하나씩. **최종:** 묶음 1의 첫 요청에도 아래 글과 개발용 질문의 질문 문장을 붙인다.
-
-```text
-아래 질문들은 이미 쓰고 있다. 같은 사실을 묻는 질문을 만들지 마라.
-```
 
 ## 5. 받을 때마다 검사한다
 
