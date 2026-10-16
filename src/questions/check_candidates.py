@@ -13,6 +13,7 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 답 있는 묶음은 후보 12개 가운데 6개가 두 언어 도시, 6개가 그 묶음의 근거 언어만 넣는 도시의 문서를 근거로 써야 하고, 그 개수를 묶음 구성 아래에 한 줄로 보인다.
 답 있는 후보는 opposite_check(반대 언어 문서 14개에서 찾은 기록)를 원문과 대조한다: 찾을 말이 3개 이상이고 반대 언어여야 하며, 걸린 곳의 구간이 원문에 글자 그대로 있고, 찾을 말이 나오는 곳을 빠짐없이 적어야 한다.
 후보마다 찾은 기록의 개수(찾을 말, 걸린 곳)를 한 줄 더 보인다.
+같은 방식으로 same_language_check(근거 문서와 같은 언어 문서 14개, 근거 문서 포함)도 본다: 찾을 말은 근거 문서와 같은 언어여야 하고, 이 후보의 근거 구절 안에서 나오는 곳은 적지 않아도 되며, 그 개수도 한 줄 더 보인다.
 답 있는 후보의 근거 구절이 data/questions/known_conflicts.json("알려진 부딪히는 값" 목록)의 항목과 자리, 값, 해 가운데 하나라도 겹치면 실패한다. 넓게 잡으므로 관계없는 구절이 걸릴 수 있다.
 --hide를 주면 후보와 원문의 글자(질문, 답, 사실, 구절, 위치, 찾을 말, 구간, 까닭 등)를 출력에 넣지 않고 id, 칸 경로, doc_id, 개수, 규칙 이름만 보인다.
 """
@@ -384,6 +385,7 @@ def check_answered(c, problems, info):
         problems.append("required_facts: 근거(evidence)가 있는 사실이 하나도 없음")
     if el:
         check_opposite(c, el, problems, info)
+        check_same_language(c, el, problems, info)
 
 
 def positions(text, piece):
@@ -395,18 +397,67 @@ def positions(text, piece):
     return out
 
 
+def term_language_wrong(term, lang):
+    """찾을 말이 lang(ko나 en) 문서의 말이 아니면 참. 숫자만 있는 말은 두 언어 모두에서 허용한다."""
+    has_hangul = bool(HANGUL.search(term))
+    return has_hangul if lang == "en" else (not has_hangul and any(ch.isalpha() for ch in term))
+
+
 def check_opposite(c, el, problems, info):
     """opposite_check를 본다: 찾을 말의 언어, 구간이 원문에 있는지, 찾을 말이 나오는 곳을 빠짐없이 적었는지."""
-    oc = c.get("opposite_check")
+    other = "en" if el == "ko" else "ko"
+    docs = [d for d in DOC_LANG if DOC_LANG[d] != el]
+    check_record(c, "opposite_check", "oc", docs, other, {}, False, problems, info)
+
+
+def evidence_spans(c):
+    """이 후보의 근거 구절이 원문에서 덮는 (시작, 끝) 목록을 doc_id별로 모은다. 구절이 문서에 없으면 건너뛴다(그 실패는 따로 알린다).
+    표 구절이 아닌 구절은 문서에서 그 글자가 나오는 모든 곳, 표 구절은 구절의 줄이 모두 문서에 있을 때 구절의 줄과 줄 끝 공백만 뺀 글자가 같은 문서의 모든 줄."""
+    out = {}
+    facts = c.get("required_facts")
+    for f in facts if isinstance(facts, list) else []:
+        ev = f.get("evidence") if isinstance(f, dict) else None
+        for item in ev if isinstance(ev, list) else []:
+            doc, ps = (item.get("doc_id"), item.get("passage")) if isinstance(item, dict) else (None, None)
+            if not (isinstance(doc, str) and doc in DOC_LANG and isinstance(ps, str)):
+                continue
+            ps, text = normalize(ps), doc_text(doc)
+            if is_table_passage(ps):
+                rows = {l.rstrip() for l in ps.split("\n") if l.strip()}
+                if not rows <= {l.rstrip() for l in text.split("\n")}:
+                    continue
+                at = 0
+                for line in text.split("\n"):
+                    if line.rstrip() in rows:
+                        out.setdefault(doc, []).append((at, at + len(line.rstrip())))
+                    at += len(line) + 1
+            elif ps:
+                out.setdefault(doc, []).extend((n, n + len(ps)) for n in positions(text, ps))
+    return out
+
+
+def check_same_language(c, el, problems, info):
+    """same_language_check를 본다. opposite_check와 같되 같은 언어 문서 14개를 보고, 이 후보의 근거 구절 안에서 나오는 곳은 적지 않아도 된다."""
+    docs = [d for d in DOC_LANG if DOC_LANG[d] == el]
+    check_record(c, "same_language_check", "sc", docs, el, evidence_spans(c), True, problems, info)
+
+
+def check_record(c, field, key, docs, term_lang, skip, same, problems, info):
+    """문서를 찾은 기록(field)을 본다: docs 안의 doc_id인지, 찾을 말의 언어(term_lang), 구간이 원문에 있는지,
+    찾을 말이 나오는 곳을 빠짐없이 적었는지(skip 구간 안은 빼고). same이면 같은 언어 문서를 찾은 기록이다."""
+    doc_kind = "같은 언어" if same else "반대 언어"
+    term_msg = "근거 문서의 언어가 아님" if same else "반대 언어가 아님"
+    same_fact_msg = ("같은 언어 문서에 같은 것이 있다고 적음 (같은 값이면 그 구간을 근거 구절로 더 적고, 다른 값이면 그 사실을 쓰지 않는다)"
+                     if same else "반대 언어 문서에 같은 사실이 있다고 스스로 적음")
+    oc = c.get(field)
     if not isinstance(oc, list):
-        problems.append("opposite_check: 없거나 목록이 아님")
+        problems.append(f"{field}: 없거나 목록이 아님")
         return
     if len(oc) < 3:
-        problems.append(f"opposite_check: 찾을 말이 {len(oc)}개임 (3개 이상이어야 함)")
-    info["oc"] = [len(oc), 0]
-    docs = [d for d in DOC_LANG if DOC_LANG[d] != el]
+        problems.append(f"{field}: 찾을 말이 {len(oc)}개임 (3개 이상이어야 함)")
+    info[key] = [len(oc), 0]
     for i, it in enumerate(oc):
-        p = f"opposite_check[{i}]"
+        p = f"{field}[{i}]"
         if not isinstance(it, dict):
             problems.append(f"{p}: 키와 값 묶음이 아님")
             continue
@@ -417,13 +468,12 @@ def check_opposite(c, el, problems, info):
         if not term_ok:
             problems.append(f"{p}.term: 비었거나 없거나 글자가 아님")
         else:
-            has_hangul = bool(HANGUL.search(term))
-            if (el == "ko" and has_hangul) or (el == "en" and not has_hangul and any(ch.isalpha() for ch in term)):
-                problems.append(f"{p}.term: 찾을 말이 반대 언어가 아님{val(term)}")
+            if term_language_wrong(term, term_lang):
+                problems.append(f"{p}.term: 찾을 말이 {term_msg}{val(term)}")
         if not isinstance(hits, list):
             problems.append(f"{p}.hits: 없거나 목록이 아님 (없으면 [])")
             continue
-        info["oc"][1] += len(hits)
+        info[key][1] += len(hits)
         spans = {}   # doc_id -> 이 찾을 말의 걸린 곳이 덮는 (시작, 끝) 목록
         for j, h in enumerate(hits):
             hp = f"{p}.hits[{j}]"
@@ -435,7 +485,7 @@ def check_opposite(c, el, problems, info):
             if not (isinstance(doc, str) and doc in DOC_LANG):
                 problems.append(f"{hp}.doc_id: 28개 문서에 없는 doc_id{doc_label(doc) or val(doc)}")
             elif doc not in docs:
-                problems.append(f"{hp}.doc_id: 반대 언어 문서가 아님 ({doc})")
+                problems.append(f"{hp}.doc_id: {doc_kind} 문서가 아님 ({doc})")
             else:
                 doc_ok = True
             ex_ok = isinstance(ex, str) and bool(ex.strip())
@@ -454,20 +504,22 @@ def check_opposite(c, el, problems, info):
             if not isinstance(h.get("same_fact"), bool):
                 problems.append(f"{hp}.same_fact: true나 false가 아님")
             elif h["same_fact"]:
-                problems.append(f"{hp}.same_fact: 반대 언어 문서에 같은 사실이 있다고 스스로 적음")
+                problems.append(f"{hp}.same_fact: {same_fact_msg}")
             if not (isinstance(h.get("why"), str) and h["why"].strip()):
                 problems.append(f"{hp}.why: 비었거나 없거나 글자가 아님")
         if term_ok:
-            missing = uncovered(term, docs, spans)
+            missing = uncovered(term, docs, spans, skip)
             if missing[1]:
                 problems.append(f"{p}.hits: " + missing_note(len(hits), *missing))
 
 
-def uncovered(term, docs, spans):
-    """(찾을 말이 나오는 곳의 수, 걸린 곳이 덮지 못한 곳 [(doc_id, 시작, 끝), ...])."""
+def uncovered(term, docs, spans, skip):
+    """(찾을 말이 나오는 곳의 수, 걸린 곳이 덮지 못한 곳 [(doc_id, 시작, 끝), ...]). skip 구간 안에서 나오는 곳은 세지 않는다."""
     total, left = 0, []
     for d in docs:
         for m in re.finditer(re.escape(term), doc_text(d), re.IGNORECASE):
+            if any(a <= m.start() and m.end() <= b for a, b in skip.get(d, [])):
+                continue
             total += 1
             if not any(a <= m.start() and m.end() <= b for a, b in spans.get(d, [])):
                 left.append((d, m.start(), m.end()))
@@ -670,6 +722,8 @@ def main():
         report(lab, problems)
         if "oc" in info:
             print(f"      찾은 기록: 찾을 말 {info['oc'][0]}개, 걸린 곳 {info['oc'][1]}곳")
+        if "sc" in info:
+            print(f"      같은 언어 찾은 기록: 찾을 말 {info['sc'][0]}개, 걸린 곳 {info['sc'][1]}곳")
         passed += not problems
 
     bp = batch_problems(data, infos, batch)
