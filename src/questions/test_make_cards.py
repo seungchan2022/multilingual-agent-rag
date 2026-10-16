@@ -16,6 +16,7 @@ CORPUS = ROOT / "data" / "corpus"
 MARKDOWN = CORPUS / "markdown"
 URLS = {d["doc_id"]: d["url"] for d in yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]}
 REAL_BATCH = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko.yaml"
+REAL_MEMO = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko_full.md"
 
 
 def lines_of(doc_id):
@@ -73,8 +74,9 @@ class Run:
         self.src = src
         self.out = self.tmp / out_name
 
-    def go(self):
-        self.proc = subprocess.run([sys.executable, str(PROGRAM), str(self.src), str(self.out)], capture_output=True, text=True, cwd=ROOT)
+    def go(self, memo=None):
+        cmd = [sys.executable, str(PROGRAM), str(self.src), str(self.out)] + (["--memo", str(memo)] if memo else [])
+        self.proc = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
         return self
 
     @property
@@ -141,7 +143,7 @@ class MakeCardsTest(unittest.TestCase):
         c = candidate()
         c["required_facts"].append({"fact": "결론", "evidence": []})
         r = Run(self, [c]).go()
-        self.assertIn("`fact`(사실) 2: 결론 (근거 없음 — 다른 사실에서 나오는 결론)", r.text)
+        self.assertIn("`fact`(사실) 2: 결론 (근거 없음 — 다른 사실들에서 나오는 결론이라 문서에 이 문장이 없다. 채점 때 답에 이 결론이 들어 있는지 본다)", r.text)
 
     def test_no_answer(self):
         passage, line_no = prose("wiki-ko-sejong")
@@ -243,7 +245,7 @@ class MakeCardsTest(unittest.TestCase):
             check_labels(self, card)
 
     def test_real_batch(self):
-        r = Run(self, src=REAL_BATCH).go()
+        r = Run(self, src=REAL_BATCH).go(memo=REAL_MEMO)
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
         cards = split_cards(r.text)
         self.assertEqual(len(cards), 12)
@@ -252,6 +254,63 @@ class MakeCardsTest(unittest.TestCase):
             check_labels(self, card)
         self.assertNotIn("apis.data.go.kr", r.text)
         self.assertNotIn("원문에서 찾지 못함", r.text)
+
+    def test_multi_doc_meaning_mentions_table_comparison(self):
+        t = Run(self, [candidate(ctype="multi_doc")]).go().text
+        self.assertIn("(비교, 집계, 여러 단계). 표의 값이나 수치를 비교하는 질문도 여기다.", item_text(t, 9))
+
+    def test_judging_questions_pass_on_yes(self):
+        hit = "The lowest measured temperature was −27.9 °C (−18 °F) (6 February 1969)"
+        oc = [{"term": "1969", "hits": [{"doc_id": "wiki-en-chuncheon", "excerpt": hit, "same_fact": False, "why": "시험"}]}]
+        t = Run(self, [candidate(oc=oc)]).go().text
+        self.assertIn("- 판단할 질문: 이 문장이 위 `required_facts`(꼭 필요한 사실)와 다른 이야기인가(같은 사실을 말하지 않는가)?", item_text(t, 5))
+        self.assertIn("- 판단할 질문: 영어 문서 어디에도 같은 사실이 다른 표현으로 없는가?", item_text(t, 6))
+        self.assertIn("- 판단할 질문: 이 문서 어디에도 위 `required_facts`(꼭 필요한 사실)와 같은 사실이 없는가?", item_text(t, 7))
+
+    def test_item1_has_premise_question(self):
+        i1 = item_text(Run(self, [candidate()]).go().text, 1)
+        self.assertIn("- 판단할 질문: 이 구절만 받은 사람이", i1)
+        self.assertIn("- 판단할 질문: 질문이 깔고 있는 전제(개수, 날짜, 소속 등)가 문서와 맞는가? 예: 질문이 \"5개 자치구 중\"이면 근거 문서에 자치구가 5개인지 본다.", i1)
+
+    def _memo_file(self, body):
+        d = Path(tempfile.mkdtemp())
+        self.addCleanup(lambda: __import__("shutil").rmtree(d, ignore_errors=True))
+        f = d / "full.md"
+        f.write_text(body, encoding="utf-8")
+        return f
+
+    def test_paraphrase_card_has_table_and_memo(self):
+        memo = self._memo_file("설명\n```yaml\n- id: c-001\n  note: c-001: 코드 안 줄\n```\n\n- c-001: \"가\"를 \"나\"로 바꿈\n* c-002: \"다\"를 \"라\"로 바꿈\n")
+        items = [candidate(cid="c-001", ctype="paraphrase"), candidate(cid="c-002", ctype="paraphrase"),
+                 candidate(cid="c-003", ctype="paraphrase"), candidate(cid="c-004", ctype="single_fact")]
+        r = Run(self, items).go(memo=memo)
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        cards = split_cards(r.text)
+        i9 = [item_text(c.replace("\n---\n", ""), 9) for c in cards]
+        for k in range(3):
+            self.assertIn("| 질문 조각 | 근거 구절의 짝 | 같은 말 / 바꾼 말 / 이름 |", i9[k])
+            self.assertEqual(i9[k].count("\n|  |  |  |"), 4)
+            self.assertIn("<details><summary>Gemini가 적은 바꾼 말(표를 채운 뒤 펼친다)</summary>", i9[k])
+            self.assertIn("- 판단할 질문: \"바꾼 말\" 줄이 하나 이상 있는가?", i9[k])
+            self.assertIn("표현 불일치: 질문이 근거 구절의 핵심 낱말을 다른 말로 바꿔 썼다(이름은 빼고 본다).", i9[k])
+        self.assertIn("\n\"가\"를 \"나\"로 바꿈\n", i9[0])
+        self.assertNotIn("코드 안 줄", r.text.split("<details>")[1])
+        self.assertIn("\n\"다\"를 \"라\"로 바꿈\n", i9[1])
+        self.assertNotIn("\"가\"를 \"나\"로 바꿈", i9[1])
+        self.assertIn("\nGemini가 적은 바꾼 말이 없다.\n", i9[2])
+        for bad in ("질문 조각", "<details>", "바꾼 말"):
+            self.assertNotIn(bad, i9[3])
+        self.assertIn("- 판단할 질문: 이 후보가 이 뜻에 맞는가?", i9[3])
+
+    def test_paraphrase_without_memo_fails(self):
+        r = Run(self, [candidate(ctype="paraphrase")]).go()
+        self.assertEqual(r.proc.returncode, 1)
+        self.assertIn("사용법", r.proc.stdout)
+        self.assertFalse(r.out.exists())
+
+    def test_no_paraphrase_needs_no_memo(self):
+        r = Run(self, [candidate()]).go()
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
 
 
 if __name__ == "__main__":

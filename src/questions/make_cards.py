@@ -1,12 +1,15 @@
 """후보 묶음 YAML을 사람이 원문과 대조할 Markdown 카드 파일로 바꾸는 프로그램.
 
-  uv run python src/questions/make_cards.py <후보 파일> <출력 .md>
+  uv run python src/questions/make_cards.py <후보 파일> <출력 .md> [--memo <Gemini 답 전체 파일>]
 
 영어를 읽지 못하는 사람이 후보를 원문과 견주기 어려워서, 후보마다 대조에 필요한 것(질문, 정답, 근거 구절, 원문 링크,
 반대 언어 문서 확인 재료, 판정 칸)을 한 카드에 모은다. 후보 파일은 check_candidates.py를 통과한 것이다.
 후보 파일은 check_candidates.py와 같은 규칙으로 읽는다: ```로 시작하는 줄이 있으면 첫 번째와 다음 ``` 줄 사이만 읽고, 없으면 파일 전체를 읽는다.
 링크는 출력 파일이 있는 폴더에서 원문 파일까지의 상대 경로에 줄 번호(#L숫자)를 붙인 Markdown 링크다.
 사용자가 채운 답을 잃지 않도록 출력 파일이 이미 있으면 덮어쓰지 않고 종료 코드 1로 끝낸다.
+표현 불일치(paraphrase) 카드의 칸 9에는 Gemini가 적은 바꾼 말(메모)을 접어서 붙인다. 메모는 후보 파일에 없고
+Gemini의 답 전체를 저장한 파일에 있다: YAML 코드 블록이 끝난 뒤 `c-009: …` 꼴로 시작하는 줄(후보마다 한 줄, 줄 앞의 공백·`-`·`*`는 뗀다).
+그 파일을 `--memo`로 준다. 묶음에 paraphrase 후보가 있는데 `--memo`가 없으면 사용법을 보이고 종료 코드 1로 끝낸다(출력 파일을 만들지 않음).
 """
 import os, re, sys
 from functools import cache
@@ -21,9 +24,11 @@ MARKDOWN = CORPUS / "markdown"
 _DOCS = yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]
 DOC = {d["doc_id"]: d for d in _DOCS}
 BOTH_CITY = "두 언어 문서를 다 넣는 도시"
-USAGE = "사용법: uv run python src/questions/make_cards.py <후보 파일> <출력 .md>"
+USAGE = "사용법: uv run python src/questions/make_cards.py <후보 파일> <출력 .md> [--memo <Gemini 답 전체 파일>]  (묶음에 paraphrase 후보가 있으면 --memo 필수)"
 LANG_NAME = {"ko": "한국어", "en": "영어"}
 NOT_FOUND = "(원문에서 찾지 못함)"
+NO_MEMO = "Gemini가 적은 바꾼 말이 없다."
+MEMO_RE = re.compile(r"^\s*[-*]?\s*(c-\d{3}):\s*(.*\S)\s*$")
 
 INTRO = (
     "이 파일은 후보마다 카드 하나로, 순서표(data/questions/final_set_guide.md)의 \"대조할 것\"을 따라 카드마다 칸을 채운다. "
@@ -167,7 +172,7 @@ TYPE_MEANING = {
     "single_fact": "단일 사실: 질문이 근거 구절의 핵심 낱말을 그대로 썼다(이름은 빼고 본다).",
     "paraphrase": "표현 불일치: 질문이 근거 구절의 핵심 낱말을 다른 말로 바꿔 썼다(이름은 빼고 본다).",
     "table_numeric": "표·수치·조건: 답이 표에 있거나, 문서에 값이 여러 개라 조건(연도, 기준)에 맞는 것을 골라야 한다. 문장에 수치가 하나뿐이면 아니다.",
-    "multi_doc": "여러 문서 연결: 둘 이상의 문서나 구절을 합쳐야 답이 나온다(비교, 집계, 여러 단계).",
+    "multi_doc": "여러 문서 연결: 둘 이상의 문서나 구절을 합쳐야 답이 나온다(비교, 집계, 여러 단계). 표의 값이나 수치를 비교하는 질문도 여기다.",
 }
 
 
@@ -220,7 +225,28 @@ def source_hint(d, out_dir, opposite):
     return f"{link(out_dir, did)}를 열어 내용 전체를 번역기에 붙여 읽는다. 짧은 글이다."
 
 
-def answered_card(c, out_dir):
+def paraphrase_body(c, memos):
+    return [
+        "- 할 일: 이 후보의 유형은 paraphrase(표현 불일치)다. 질문을 뜻이 끊기는 조각으로 나눠 아래 표의 첫 칸에 적고, "
+        "조각마다 `passage`(근거 구절)에서 짝이 되는 말과 \"같은 말\"인지 \"바꾼 말\"인지 적는다. 이름(고유명사)은 \"이름\"으로 적는다. "
+        "줄이 모자라면 더한다. 표를 다 채운 뒤 아래 접힌 칸을 펼쳐 Gemini가 적은 바꾼 말과 견준다.",
+        f"- {TYPE_MEANING['paraphrase']}",
+        "",
+        "| 질문 조각 | 근거 구절의 짝 | 같은 말 / 바꾼 말 / 이름 |", "|---|---|---|"] + ["|  |  |  |"] * 4 + [
+        "",
+        "- 판단할 질문: \"바꾼 말\" 줄이 하나 이상 있는가?",
+        "- 판단할 질문: \"같은 말\"과 \"이름\" 줄만 보고도 답이 정해지지 않는가? (정해지면 바꾼 말을 찾지 않아도 답이 나오므로 쓸 수 없다)",
+        "- 판단할 질문: 접힌 칸의 Gemini 짝 가운데 표와 다른 것이 없는가?",
+        "",
+        "<details><summary>Gemini가 적은 바꾼 말(표를 채운 뒤 펼친다)</summary>",
+        "",
+        memos.get(c["id"], NO_MEMO),
+        "",
+        "</details>",
+        ""]
+
+
+def answered_card(c, out_dir, memos):
     el = c["evidence_language"]
     opposite = "en" if el == "ko" else "ko"
     opp, own = LANG_NAME[opposite], LANG_NAME[el]
@@ -229,7 +255,7 @@ def answered_card(c, out_dir):
            "**후보**", f"- `question`(질문): {c['question']}", f"- `answer`(정답): {c['answer']}", "- `required_facts`(꼭 필요한 사실):"]
     passages = []
     for i, f in enumerate(c["required_facts"], 1):
-        out.append(f"  - `fact`(사실) {i}: {f['fact']}" + ("" if f.get("evidence") else " (근거 없음 — 다른 사실에서 나오는 결론)"))
+        out.append(f"  - `fact`(사실) {i}: {f['fact']}" + ("" if f.get("evidence") else " (근거 없음 — 다른 사실들에서 나오는 결론이라 문서에 이 문장이 없다. 채점 때 답에 이 결론이 들어 있는지 본다)"))
         for j, ev in enumerate(f.get("evidence") or [], 1):
             passages += [f"  - 사실 {i}의 근거 {j}: {passage_link(out_dir, ev['doc_id'], ev['passage'])} · `location`(위치): {ev['location']}",
                          quote(ev["passage"], 4)]
@@ -237,7 +263,8 @@ def answered_card(c, out_dir):
 
     out += item(1, "근거 구절만 읽고 정답이 나온다", [
         "- 할 일: 위 `passage`(근거 구절)를 읽는다.",
-        "- 판단할 질문: 이 구절만 받은 사람이 `question`(질문)에 `answer`(정답)대로 답할 수 있는가? 조건과 단위까지 구절에 있는가?"])
+        "- 판단할 질문: 이 구절만 받은 사람이 `question`(질문)에 `answer`(정답)대로 답할 수 있는가? 조건과 단위까지 구절에 있는가?",
+        "- 판단할 질문: 질문이 깔고 있는 전제(개수, 날짜, 소속 등)가 문서와 맞는가? 예: 질문이 \"5개 자치구 중\"이면 근거 문서에 자치구가 5개인지 본다."])
     out += item(2, "정답이 하나로 정해진다", [
         "- 할 일: 위 `passage`(근거 구절)에 질문의 답이 될 만한 값(숫자, 이름)이 몇 개 있는지 본다.",
         "- 판단할 질문: 그런 값이 여러 개라면, 질문이 그중 하나만 가리키는가?"])
@@ -271,7 +298,7 @@ def answered_card(c, out_dir):
                 body += [f"  - 걸린 곳 {k}: {link(out_dir, h['doc_id'], line, line is not None)}{source_note(h['doc_id'])}", quote(h["excerpt"], 4), "",
                          f"    Gemini의 판단: 같은 사실 {'맞음' if h['same_fact'] else '아님'} — {h['why']}"]
         body += [f"- 할 일: 걸린 문장을 하나씩 {tr}읽는다." if opposite == "ko" else "- 할 일: 걸린 문장을 하나씩 번역기에 붙여 읽는다.",
-                 "- 판단할 질문: 이 문장이 위 `required_facts`(꼭 필요한 사실)와 같은 사실을 말하는가?"]
+                 "- 판단할 질문: 이 문장이 위 `required_facts`(꼭 필요한 사실)와 다른 이야기인가(같은 사실을 말하지 않는가)?"]
     elif terms:
         body = [f"Gemini가 찾은 말 {', '.join(none_terms)}: {opp} 문서 어디에도 없다(검사 프로그램이 확인함). 이 칸은 읽을 것이 없으니 `[x]`로 바꾼다."]
     else:
@@ -283,14 +310,14 @@ def answered_card(c, out_dir):
         "- 할 일: 그 사실의 이름과 숫자가 위 말에 들어 있는지 본다. 빠졌거나 " + opp + " 문서가 다른 말로 적었을 것 같으면, "
         + (f"번역기로 그 이름을 {opp}로 옮겨 나온 말이나 더 짧은 말로 폴더 찾기를 한다. " if opposite == "en" else "더 짧은 말이나 비슷한 말로 폴더 찾기를 한다. ")
         + f"\"포함할 파일\"은 `data/corpus/markdown/*-{opposite}-*`. 걸린 곳이 있으면 그 줄을 {tr}읽는다.",
-        f"- 판단할 질문: {opp} 문서 어딘가에 같은 사실이 다른 표현으로 있는가?",
+        f"- 판단할 질문: {opp} 문서 어디에도 같은 사실이 다른 표현으로 없는가?",
         "- 더 찾아본 말과 걸린 곳:"])
 
     cities = list(dict.fromkeys(DOC[d]["city"] for d in docs))
     same_city = [d for d in _DOCS if d["city"] in cities and d["language"] == opposite]
     if same_city:
         body = [f"- 할 일 {n} ({d['doc_id']}): {source_hint(d, out_dir, opposite)}" for n, d in enumerate(same_city, 1)]
-        body.append(f"- 판단할 질문: 이 문서 어디에든 위 `required_facts`(꼭 필요한 사실)와 같은 사실이 있는가?")
+        body.append(f"- 판단할 질문: 이 문서 어디에도 위 `required_facts`(꼭 필요한 사실)와 같은 사실이 없는가?")
     else:
         body = [f"{', '.join(cities)}{topic(cities[-1]) if cities else '는'} {opp} 문서가 없는 도시라 통째로 읽을 문서가 없다. 이 칸은 `[x]`로 바꾼다."]
     out += item(7, f"{opp} 문서: 같은 도시({', '.join(cities)})의 {opp} 문서를 통째로 읽었다", body)
@@ -298,6 +325,8 @@ def answered_card(c, out_dir):
     out += item(8, "꼭 필요한 사실이 빠짐없고 군더더기 없다", [
         "- 할 일: 위 `required_facts`(꼭 필요한 사실)와 `answer`(정답)를 견준다.",
         "- 판단할 질문: 정답을 말하는 데 이 사실들이 꼭 필요하고, 이것 말고 더 필요한 사실은 없는가?"])
+    if c["type"] == "paraphrase":
+        return out + item(9, "유형이 맞다", paraphrase_body(c, memos)) + verdict_block() + details_block(c)
     out += item(9, "유형이 맞다", [
         f"- 할 일: 이 후보의 유형은 {type_label(c['type'])}다. 아래 뜻과 견준다.",
         f"- {TYPE_MEANING.get(c['type'], '')} 두 유형에 다 맞으면 여러 문서 연결 → 표·수치·조건 → 단일 사실/표현 불일치 순서로 먼저 맞는 것이다.",
@@ -329,10 +358,24 @@ def no_answer_card(c, out_dir):
     return out + verdict_block() + details_block(c)
 
 
-def build(data, batch_name, out_dir):
+def read_memos(path):
+    """Gemini 답 전체 파일에서 YAML 코드 블록이 끝난 뒤의 `c-009: …` 줄들을 {id: 글}로 꺼낸다."""
+    lines = Path(path).read_text(encoding="utf-8").split("\n")
+    fences = [i for i, l in enumerate(lines) if l.lstrip().startswith("```")]
+    if fences:
+        lines = lines[fences[1] + 1:] if len(fences) > 1 else []
+    memos = {}
+    for l in lines:
+        m = MEMO_RE.match(l)
+        if m:
+            memos[m.group(1)] = m.group(2)
+    return memos
+
+
+def build(data, batch_name, out_dir, memos):
     lines = [f"# 대조 카드: {batch_name}", "", INTRO, ""]
     for c in data:
-        card = no_answer_card(c, out_dir) if c.get("type") == "no_answer" else answered_card(c, out_dir)
+        card = no_answer_card(c, out_dir) if c.get("type") == "no_answer" else answered_card(c, out_dir, memos)
         lines += card + [""]
     return "\n".join(lines)
 
@@ -346,10 +389,18 @@ def stringify_terms(data):
 
 
 def main():
-    if len(sys.argv) != 3:
+    args, memo_path = sys.argv[1:], None
+    if "--memo" in args:
+        i = args.index("--memo")
+        if i + 1 >= len(args):
+            print(USAGE)
+            return 1
+        memo_path = Path(args[i + 1])
+        args = args[:i] + args[i + 2:]
+    if len(args) != 2:
         print(USAGE)
         return 1
-    src, dest = Path(sys.argv[1]), Path(sys.argv[2])
+    src, dest = Path(args[0]), Path(args[1])
     if dest.exists():
         print(f"이미 있는 파일이라 덮어쓰지 않음: {dest} (채워 둔 답을 잃지 않도록. 다른 이름을 주거나 직접 지울 것)")
         return 1
@@ -361,10 +412,20 @@ def main():
     if not isinstance(data, list):
         print("후보 파일의 맨 위가 목록이 아님")
         return 1
+    if any(isinstance(c, dict) and c.get("type") == "paraphrase" for c in data) and memo_path is None:
+        print("이 묶음에 paraphrase 후보가 있어 --memo가 필요하다.\n" + USAGE)
+        return 1
+    memos = {}
+    if memo_path is not None:
+        try:
+            memos = read_memos(memo_path)
+        except (OSError, UnicodeDecodeError) as err:
+            print(f"메모 파일을 읽지 못함: {err}")
+            return 1
     stringify_terms(data)
     dest.parent.mkdir(parents=True, exist_ok=True)
     out_dir = dest.parent.resolve()
-    dest.write_text(build(data, src.name, out_dir), encoding="utf-8")
+    dest.write_text(build(data, src.name, out_dir, memos), encoding="utf-8")
     print(f"카드 {len(data)}개를 씀: {dest}")
     return 0
 

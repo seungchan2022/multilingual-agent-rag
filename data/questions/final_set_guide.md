@@ -210,10 +210,10 @@ uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat3/
 1. 검사를 통과한 묶음 파일로 **대조 카드**를 만든다. 대조 카드는 후보마다 질문, 정답, 근거 구절, 원문 링크(줄 번호까지), 같은 도시의 반대 언어 문서, Gemini가 찾은 말과 걸린 곳, 판정 칸 1~9를 한 장에 모은 파일이다. 이미 있는 카드 파일은 덮어쓰지 않는다(적어 둔 판정이 지워지지 않게).
 
 ```
-uv run python src/questions/make_cards.py research_notes/stage3_dev/chat3/batch1_ko-ko.yaml research_notes/stage3_dev/chat3/cards_batch1_ko-ko.md
+uv run python src/questions/make_cards.py research_notes/stage3_dev/chat3/batch1_ko-ko.yaml research_notes/stage3_dev/chat3/cards_batch1_ko-ko.md --memo research_notes/stage3_dev/chat3/batch1_ko-ko_full.md
 ```
 
-   다른 묶음은 두 파일 이름의 `batch1_ko-ko`를 그 묶음의 이름(예: `batch2_en-en`)으로 바꾼다. **최종:** 폴더를 최종 평가용 폴더로 바꾼다.
+   다른 묶음은 세 파일 이름의 `batch1_ko-ko`를 그 묶음의 이름(예: `batch2_en-en`)으로 바꾼다. **최종:** 폴더를 최종 평가용 폴더로 바꾼다.
 2. 카드 파일을 VS Code에서 연다. 원문 링크는 `Cmd+클릭`으로 열린다. 브라우저에 번역기를 하나 열어 둔다.
 3. 카드마다 아래 "대조할 것"을 따라 판정 칸을 채운다. 확인한 칸은 `[ ]`를 `[x]`로 바꾸고, 판정·이유·더 찾아본 말을 적는다. 애매한 것은 "메모"에 적고 넘어간다.
 4. **개발용:** 다 적을 때까지 Claude에게 후보 내용의 맞고 틀림을 묻지 않는다. 다 적은 뒤 Claude가 같은 후보를 다시 대조해, 놓친 것을 세고 메모에 답한다. 절차를 묻는 것은 언제든 된다.
