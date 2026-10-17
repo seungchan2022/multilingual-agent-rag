@@ -300,7 +300,8 @@ def answered_card(c, out_dir, memos, types=None):
            "**후보**", f"- `question`(질문): {c['question']}", f"- `answer`(정답): {c['answer']}", "- `required_facts`(꼭 필요한 사실):"]
     passages = []
     for i, f in enumerate(c["required_facts"], 1):
-        out.append(f"  - `fact`(사실) {i}: {f['fact']}" + ("" if f.get("evidence") else " (근거 없음 — 다른 사실들에서 나오는 결론이라 문서에 이 문장이 없다. 채점 때 답에 이 결론이 들어 있는지 본다)"))
+        role = {True: " · 정답에 들어감(`in_answer: true`)", False: " · 답을 내는 데만 쓰임(`in_answer: false`)"}.get(f.get("in_answer"), "")
+        out.append(f"  - `fact`(사실) {i}: {f['fact']}{role}" + ("" if f.get("evidence") else " (근거 없음 — 다른 사실들에서 나오는 결론이라 문서에 이 문장이 없다. 채점 때 답에 이 결론이 들어 있는지 본다)"))
         for j, ev in enumerate(f.get("evidence") or [], 1):
             passages += [f"  - 사실 {i}의 근거 {j}: {passage_link(out_dir, ev['doc_id'], ev['passage'])} · `location`(위치): {ev['location']}",
                          quote(ev["passage"], 4)]
@@ -377,7 +378,8 @@ def answered_card(c, out_dir, memos, types=None):
 
     out += item(8, "꼭 필요한 사실이 빠짐없고 군더더기 없다", [
         "- 할 일: 위 `required_facts`(꼭 필요한 사실)와 `answer`(정답)를 견준다.",
-        "- 판단할 질문: 정답을 말하는 데 이 사실들이 꼭 필요하고, 이것 말고 더 필요한 사실은 없는가?"])
+        "- 판단할 질문: 정답을 말하는 데 이 사실들이 꼭 필요하고, 이것 말고 더 필요한 사실은 없는가?",
+        "- 판단할 질문: 질문이 묻는 사실만 \"정답에 들어감\"이고, 답을 내는 데만 쓰는 값(예: 합을 묻는 질문의 두 값)은 \"답을 내는 데만 쓰임\"인가? `answer`(정답)에 \"정답에 들어감\"인 사실이 모두 들어 있는가?"])
     if c["type"] == "paraphrase":
         return out + item(9, "유형이 맞다", paraphrase_body(c, memos, types)) + verdict_block() + details_block(c)
     out += item(9, "유형이 맞다", [
