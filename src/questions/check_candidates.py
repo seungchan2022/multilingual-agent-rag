@@ -210,13 +210,29 @@ def table_problem(doc_id, L):
 
 # ---------- 알려진 부딪히는 값 ----------
 
+def entry_quotes(entry, doc_id):
+    """항목에서 doc_id 문서의 자리로 쓰이는 인용들: 항목의 quotes와 targets 가운데 그 문서의 quotes."""
+    return list(entry.get("quotes", [])) + [q for t in entry.get("targets", []) if t["doc_id"] == doc_id for q in t.get("quotes", [])]
+
+
+def entry_values(entry, doc_id):
+    """항목에서 doc_id 문서에 쓰이는 값들: 항목의 values와 targets 가운데 그 문서의 values."""
+    return list(entry.get("values", [])) + [v for t in entry.get("targets", []) if t["doc_id"] == doc_id for v in t["values"]]
+
+
 @cache
 def conflicts():
     """알려진 부딪히는 값 목록(known_conflicts.json). 없으면 분명한 오류로 멈춘다."""
     try:
-        return json.loads(CONFLICTS.read_text(encoding="utf-8"))
+        data = json.loads(CONFLICTS.read_text(encoding="utf-8"))
     except (OSError, ValueError) as err:
         sys.exit(f"오류: 알려진 부딪히는 값 목록({CONFLICTS.relative_to(ROOT)})을 읽지 못함 ({err}). research_notes/stage2_fact_count/known_conflicts.py로 만든다")
+    for n, entry in enumerate(data, 1):
+        docs = [t["doc_id"] for t in entry["targets"]] if "targets" in entry else [entry.get("doc_id")]
+        for doc in docs:
+            if not (entry_quotes(entry, doc) or entry_values(entry, doc) or entry.get("table_years")):
+                sys.exit(f"오류: 알려진 부딪히는 값 목록의 {n}번째 항목의 문서 {doc}에 조건(quotes, 값, table_years)이 하나도 없어 절대 잡히지 않음. research_notes/stage2_fact_count/known_conflicts.py로 다시 만든다")
+    return data
 
 
 def data_rows(piece, header_first):
@@ -234,14 +250,11 @@ def conflict_reasons(doc_id, passage, entry):
     out = []
     text = doc_text(doc_id)
     spans = [(n, n + len(l)) for l in data_rows(passage, True) for n in positions(text, l)]
-    quote_spans = [(n, n + len(l)) for q in entry.get("quotes", []) for l in data_rows(q, False) for n in positions(text, l)]
+    quote_spans = [(n, n + len(l)) for q in entry_quotes(entry, doc_id) for l in data_rows(q, False) for n in positions(text, l)]
     if any(a < d and c < b for a, b in spans for c, d in quote_spans):
         out.append("자리")
     flat = normalize(passage).replace(",", "")
-    values = list(entry.get("values", []))
-    for t in entry.get("targets", []):
-        if t["doc_id"] == doc_id:
-            values += t["values"]
+    values = entry_values(entry, doc_id)
     hit = [v for v in dict.fromkeys(values) if re.search(r"(?<!\d)(?<!\d\.)" + re.escape(v.replace(",", "")) + r"(?!\d)(?!\.\d)", flat)]
     if hit:
         out.append("값 " + ", ".join(hit))

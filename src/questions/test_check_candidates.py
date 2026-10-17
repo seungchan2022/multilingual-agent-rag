@@ -10,6 +10,9 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import check_candidates as checker   # 알려진 부딪히는 값 규칙을 직접 부르는 시험에만 쓴다
+
 ROOT = Path(__file__).resolve().parents[2]
 CHECKER = ROOT / "src" / "questions" / "check_candidates.py"
 CORPUS = ROOT / "data" / "corpus"
@@ -50,7 +53,7 @@ def touches_conflict(doc_id, line):
         vals = e.get("values", []) + [v for x in e.get("targets", []) if x["doc_id"] == doc_id for v in x["values"]]
         if any(re.search(r"(?<!\d)(?<!\d\.)" + re.escape(v.replace(",", "")) + r"(?!\d)(?!\.\d)", flat) for v in vals):
             return True
-        for q in e.get("quotes", []):
+        for q in e.get("quotes", []) + [q for x in e.get("targets", []) if x["doc_id"] == doc_id for q in x.get("quotes", [])]:
             if q in line or line in q:
                 return True
     return False
@@ -497,7 +500,7 @@ class CheckCandidatesTest(unittest.TestCase):
             ls = lines_of(d)
             for i in range(len(ls) - 2):
                 t = ls[i:i + 3]
-                if all(x.strip() and x == x.rstrip() and not x.startswith("|") for x in t):
+                if all(x.strip() and x == x.rstrip() and not x.startswith("|") and not touches_conflict(d, x) for x in t):
                     found = (d, t)
                     break
             if found:
@@ -802,6 +805,63 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertNotIn(line, out)
         self.assertNotIn(CONFLICTS[n - 1]["quotes"][0], out)
         self.assertNotIn(CONFLICTS[n - 1]["text"], out)
+
+    # ---- 목록의 모든 항목이 자기 문서에서 실제로 걸리는지 ----
+
+    @staticmethod
+    def entry_docs(e):
+        """항목이 가리키는 (doc_id, 그 문서에 쓰이는 quotes, 그 문서에 쓰이는 값들). S2는 targets의 문서마다, 나머지는 항목의 doc_id 하나."""
+        if "targets" in e:
+            return [(t["doc_id"], t.get("quotes", []), t["values"]) for t in e["targets"]]
+        return [(e["doc_id"], e.get("quotes", []), e.get("values", []))]
+
+    def quote_passage(self, doc_id, quote):
+        """인용을 근거 구절로 넣은 글. 표 행이면 원문에서 그 행이 속한 표의 머리글 행과 구분선 행을 앞에 붙인다."""
+        if not quote.startswith("|"):
+            return quote
+        t = next((t for t in tables_of(doc_id) if any(quote in r for r in t[2:])), None)
+        self.assertIsNotNone(t, f"{doc_id}: 인용이 어느 표의 데이터 행도 아님: {quote}")
+        return t[0] + "\n" + t[1] + "\n" + quote + "\n"
+
+    def test_48_every_quote_is_caught(self):
+        # 70개 항목 전부, 항목의 문서마다, 그 문서에 쓰이는 인용 하나하나를 근거 구절로 넣으면 걸린다
+        count = 0
+        for n, e in enumerate(CONFLICTS, 1):
+            for doc, quotes, _ in self.entry_docs(e):
+                for q in quotes:
+                    with self.subTest(항목=n, 문서=doc, 인용=q):
+                        count += 1
+                        self.assertTrue(checker.conflict_reasons(doc, self.quote_passage(doc, q), e),
+                                        f"{n}번째 항목, 문서 {doc}: 인용이 근거 구절로 들어가도 걸리지 않음: {q}")
+        self.assertGreater(count, 0)
+
+    def test_49_every_doc_has_a_condition(self):
+        # S1·S3·S4는 doc_id, S2는 targets의 문서마다 조건(그 문서에 쓰이는 quotes, 값, table_years) 하나 이상
+        self.assertEqual(len(CONFLICTS), 70)
+        for n, e in enumerate(CONFLICTS, 1):
+            for doc, quotes, values in self.entry_docs(e):
+                with self.subTest(항목=n, 문서=doc):
+                    self.assertTrue(quotes or values or e.get("table_years"), f"{n}번째 항목, 문서 {doc}: 조건이 없음")
+
+    def test_50_checker_stops_on_doc_without_condition(self):
+        # 조건이 없는 문서가 있는 목록이면 conflicts()가 어느 항목의 어느 문서인지 밝히고 멈춘다
+        bad = [{"section": "시험", "text": "시험", "targets": [{"doc_id": "wiki-ko-jeonju", "values": [], "quotes": ["면적은 205.5 km2"]},
+                                                          {"doc_id": "wiki-en-jeonju", "values": []}]}]
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "known_conflicts.json"
+            path.write_text(json.dumps(bad, ensure_ascii=False), encoding="utf-8")
+            old = checker.CONFLICTS
+            checker.CONFLICTS = path
+            checker.conflicts.cache_clear()
+            try:
+                with self.assertRaises(SystemExit) as cm:
+                    checker.conflicts()
+            finally:
+                checker.CONFLICTS = old
+                checker.conflicts.cache_clear()
+        self.assertIn("1번째 항목", str(cm.exception))
+        self.assertIn("wiki-en-jeonju", str(cm.exception))
+        self.assertNotIn("wiki-ko-jeonju", str(cm.exception))
 
 
 if __name__ == "__main__":
