@@ -19,7 +19,7 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 답 있는 후보의 근거 구절이 data/questions/known_conflicts.json("알려진 부딪히는 값" 목록)의 항목과 자리, 값, 해 가운데 하나라도 겹치면 실패한다. 넓게 잡으므로 관계없는 구절이 걸릴 수 있다.
 --extra를 주면 후보 파일은 --batch로 준 묶음에 더 받은 추가 후보다("한 칸만 다시 요청할 때"). 후보마다의 검사와 앞 묶음과의 겹침 검사는 같고,
 묶음 구성 대신 추가 후보 구성을 본다: 후보 1개 이상, id가 겹치지 않고 c-000 꼴이며, 다섯 묶음이 쓰는 id(c-001~c-060)와 --previous 파일들의 가장 큰 id 번호 다음부터 차례로 놓인다.
---previous가 하나도 없으면 실패한다. 추가 후보의 유형별 수와 도시 갈래 수를 보인다. 요약 줄 앞에는 언제나(--extra 없이도, --hide에서도)
+--previous가 하나도 없거나, --previous 파일들에 --batch 묶음의 고정 id 12개가 다 있지 않으면(원래 묶음 파일이 없으면) 실패한다. 추가 후보의 유형별 수와 도시 갈래 수를 보인다. 요약 줄 앞에는 언제나(--extra 없이도, --hide에서도)
 `다음 추가 요청의 id: c-0NN부터`를 보인다. 60과 앞 파일들·이 파일의 가장 큰 id 번호 가운데 큰 것 + 1이고, 추가 요청 글의 이어 붙일 번호에 쓴다.
 맨 마지막 줄은 언제나 전체 판정이다(일찍 끝나는 경우도 같다. 사용법 오류만 뺀다): 종료 코드가 0이면 `전체 검사: 통과`,
 아니면 `전체 검사: 실패 (위의 실패 줄을 본다)`. 앞 묶음 파일을 읽지 못한 실패도 이 줄에 들어가므로, 다음 단계로 갈지는 이 줄로 정한다.
@@ -547,11 +547,16 @@ def id_number(i):
     return int(i[2:]) if isinstance(i, str) and ID_RE.fullmatch(i) else None
 
 
-def extra_problems(items, prev_paths, prev_max):
+def extra_problems(items, prev_paths, prev_ids, prev_max, batch):
     """--extra로 받은 추가 후보 묶음의 구성 실패 이유들."""
     problems = []
     if not prev_paths:
         problems.append("--previous가 없음 (추가 후보는 원래 묶음 파일과 함께 넣어야 겹침을 볼 수 있음)")
+    else:
+        first = BATCHES[batch][2]
+        fixed = [f"c-{first + k:03d}" for k in range(COUNT)]
+        if not all(i in prev_ids for i in fixed):
+            problems.append(f"--previous에 이 묶음({batch})의 원래 파일이 없음 ({fixed[0]}~{fixed[-1]})")
     if not items:
         problems.append("후보가 없음 (1개 이상이어야 함)")
     got = [c["id"] for c in items if isinstance(c, dict) and isinstance(c.get("id"), str)]
@@ -674,7 +679,7 @@ def main():
 
     if extra:
         prev_max = max([LAST_FIXED_ID] + [id_number(i) or 0 for i in prev_ids])
-        bp = extra_problems(data, prev_paths, prev_max)
+        bp = extra_problems(data, prev_paths, prev_ids, prev_max, batch)
         report("추가 후보 구성", bp)
         print(extra_info(data, batch))
     else:

@@ -33,10 +33,10 @@ def prose(doc_id):
     raise AssertionError(doc_id)
 
 
-def candidate(cid="c-001", doc="wiki-ko-chuncheon", passage=None, el="ko", ctype="single_fact", evidence=None, oc=None):
+def candidate(cid="c-001", doc="wiki-ko-chuncheon", passage=None, el="ko", ctype="single_fact", evidence=None, oc=None, question="가 나"):
     passage = passage if passage is not None else prose(doc)[0]
     ev = [{"doc_id": doc, "location": "경제", "passage": passage}] if evidence is None else evidence
-    return {"id": cid, "question": "시험 질문", "question_language": el, "evidence_language": el, "type": ctype,
+    return {"id": cid, "question": question, "question_language": el, "evidence_language": el, "type": ctype,
             "answer": "시험 정답", "required_facts": [{"fact": "시험 사실", "evidence": ev}], "opposite_check": oc or []}
 
 
@@ -449,7 +449,8 @@ class MakeCardsTest(unittest.TestCase):
 
     def _any_types(self):
         """영어 후보 시험용: --types 필수 규칙만 넘기는 빈 구역 답 파일."""
-        return self._memo_file("## c-001\n- \"가\" → \"나\"(나) · 같은 말 · 핵심 낱말 예 · 까닭\n## c-002\n- \"가\" → \"나\"(나) · 같은 말 · 핵심 낱말 예 · 까닭\n")
+        line = "- \"가\" → \"나\"(나) · 같은 말 · 핵심 낱말 예 · 까닭\n- \"나\" → \"나\"(나) · 같은 말 · 핵심 낱말 예 · 까닭\n"
+        return self._memo_file("## c-001\n" + line + "## c-002\n" + line)
 
     TYPES_HEADER = "- 질문 조각 → 근거 구절의 짝 · 가름 · 핵심 낱말 예/아니오 · 까닭"
     DETAILS = "<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>"
@@ -476,7 +477,7 @@ class MakeCardsTest(unittest.TestCase):
         self.assertEqual(plain, {"c-005": ["- 줄 하나"], "c-006": ["- 줄 둘", "- 줄 셋"]})
 
     def test_types_block_in_item9_single_fact_and_paraphrase(self):
-        items = [candidate(cid="c-001"), candidate(cid="c-002", ctype="paraphrase"), candidate(cid="c-003", ctype="multi_doc"),
+        items = [candidate(cid="c-001"), candidate(cid="c-002", ctype="paraphrase", question="다"), candidate(cid="c-003", ctype="multi_doc"),
                  candidate(cid="c-004", ctype="table_numeric")]
         r = Run(self, items).go(memo=self._memo_file("- c-002: 바꿈\n"), types=self._memo_file(self._types_text()))
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
@@ -507,7 +508,7 @@ class MakeCardsTest(unittest.TestCase):
         self.assertIn("아래 후보의 목록이 빠졌거나 지시문 4번 형식과 다르다. 이 후보들만 지시문 4번 형식대로 다시 써라. 코드 블록 하나에 넣는다: c-007, c-008\n", out)
         self.assertNotIn("c-009", out)
         self.assertNotIn("c-001", out)
-        self.assertNotIn("시험 질문", out)
+        self.assertNotIn("가 나", out)
 
     def test_types_missing_multi_doc_is_fine(self):
         items = [candidate(cid="c-001"), candidate(cid="c-009", ctype="multi_doc")]
@@ -543,7 +544,7 @@ class MakeCardsTest(unittest.TestCase):
             self.assertIn("다시 써라. 코드 블록 하나에 넣는다: c-001", r.proc.stdout, name)
 
     def test_types_korean_piece_needs_no_paren(self):
-        c = candidate(cid="c-001", doc="wiki-en-chuncheon", el="en")
+        c = candidate(cid="c-001", doc="wiki-en-chuncheon", el="en", question="창단")
         c["question_language"] = "ko"
         r = Run(self, [c]).go(types=self._memo_file('## c-001\n- "창단" → "founded"(창단된) · 같은 말 · 핵심 낱말 예 · 까닭\n'))
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
@@ -551,7 +552,7 @@ class MakeCardsTest(unittest.TestCase):
     def test_types_duplicate_section_uses_later(self):
         first = '## c-001\n- "앞" → "A" · 같은 말 · 핵심 낱말 예\n'
         second = '```text\n## c-001\n- "뒤" → "B" · 바꾼 말 · 핵심 낱말 예 · 뒤의 까닭\n```\n'
-        r = Run(self, [candidate()]).go(types=self._memo_file("```text\n" + first + "```\n" + second))
+        r = Run(self, [candidate(question="뒤")]).go(types=self._memo_file("```text\n" + first + "```\n" + second))
         self.assertEqual(r.proc.returncode, 0, r.proc.stdout)
         self.assertIn("뒤의 까닭", r.text)
         self.assertNotIn('"앞"', r.text)
@@ -580,6 +581,52 @@ class MakeCardsTest(unittest.TestCase):
         r = Run(self, src=REAL_BATCH).go(memo=REAL_MEMO, types=REAL_TYPES)
         self.assertEqual(r.proc.returncode, 0, r.proc.stdout)
         self.assertEqual(len(split_cards(r.text)), 12)
+
+    def _real_with(self, edit):
+        text = edit(REAL_TYPES.read_text(encoding="utf-8"))
+        return Run(self, src=REAL_BATCH).go(memo=REAL_MEMO, types=self._memo_file(text))
+
+    def test_real_answer4_missing_piece_line_stops(self):
+        r = self._real_with(lambda t: "\n".join(l for l in t.split("\n") if not l.startswith('- "전소된"')))
+        self.assertEqual(r.proc.returncode, 1)
+        self.assertFalse(r.out.exists())
+        self.assertIn("ChatGPT 답의 문제  c-010", r.proc.stdout)
+        self.assertIn("질문에서 조각으로 덮이지 않은 부분이 있음", r.proc.stdout)
+        self.assertNotIn("전소", r.proc.stdout)
+        self.assertIn("다시 써라. 코드 블록 하나에 넣는다: c-010\n", r.proc.stdout)
+
+    def test_real_answer4_broken_lines_stop(self):
+        bad = {
+            "따옴표 없는 조각과 영어 뜻 없음": ('- "전소된" → "불태우고" · 가르기 어려움', '- founded → founded · 같은 말 · 핵심 낱말 예 · 까닭', "조각이 큰따옴표로 감싼 비지 않은 글이 아님"),
+            "빈 조각과 빈 짝": ('- "전소된" → "불태우고" · 가르기 어려움', '- "" →  · 같은 말 · 핵심 낱말 예 · 까닭', "조각이 큰따옴표로 감싼 비지 않은 글이 아님"),
+            "빈 짝": ('- "전소된" → "불태우고" · 가르기 어려움', '- "전소된" →  · 같은 말 · 핵심 낱말 예 · 까닭', "짝이 큰따옴표로 감싼 비지 않은 글"),
+            "질문에 없는 조각": ('- "전소된" → "불태우고" · 가르기 어려움', '- "불에 탄" → "불태우고" · 바꾼 말 · 핵심 낱말 예 · 까닭', "조각이 질문에 없음"),
+        }
+        for name, (start, line, problem) in bad.items():
+            def edit(t):
+                out = []
+                for l in t.split("\n"):
+                    out.append(line if l.startswith(start) else l)
+                return "\n".join(out)
+            r = self._real_with(edit)
+            self.assertEqual(r.proc.returncode, 1, name)
+            self.assertIn("ChatGPT 답의 문제  c-010", r.proc.stdout, name)
+            self.assertIn(problem, r.proc.stdout, name)
+            self.assertFalse(r.out.exists(), name)
+
+    def test_types_piece_not_in_question_stops(self):
+        c = candidate(question="가 나")
+        r = Run(self, [c]).go(types=self._memo_file('## c-001\n- "가" → "A" · 같은 말 · 핵심 낱말 예 · 까닭\n- "나" → "B" · 같은 말 · 핵심 낱말 예 · 까닭\n- "다" → 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭\n'.replace('"A"', '"A"(에이)').replace('"B"', '"B"(비)')))
+        self.assertEqual(r.proc.returncode, 1, r.proc.stdout)
+        self.assertIn("3번째 줄: 조각이 질문에 없음", r.proc.stdout)
+
+    def test_types_english_pieces_ignore_case(self):
+        c = candidate(doc="wiki-en-chuncheon", el="en", question="When Was Chuncheon founded?")
+        t = ('## c-001\n- "when was"(언제였나) → 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭\n'
+             '- "Chuncheon"(춘천) → "Chuncheon"(춘천) · 이름 · 핵심 낱말 아니오 · 까닭\n'
+             '- "founded"(설립) → "founded"(설립) · 같은 말 · 핵심 낱말 예 · 까닭\n')
+        r = Run(self, [c]).go(types=self._memo_file(t))
+        self.assertEqual(r.proc.returncode, 0, r.proc.stdout)
 
     def test_types_required_for_english(self):
         for ctype in ("single_fact", "paraphrase"):

@@ -912,6 +912,21 @@ class CheckCandidatesTest(unittest.TestCase):
         out = self.assertFailsFor("추가 후보 구성", make_extra(61), extra=True)
         self.assertIn("--previous가 없음", out)
 
+    def test_53b_extra_needs_original_batch_file(self):
+        # Codex 반례: en-en 후보를 복제해 id만 c-061로 바꾸고 ko-ko 파일만 --previous로 줌
+        e = make_batch("en-en")[:1]
+        e[0]["id"] = "c-061"
+        e[0]["question"] = "추가 질문 c-061"
+        out = self.assertFailsFor("추가 후보 구성", e, "en-en", previous=[make_batch("ko-ko")], extra=True)
+        self.assertIn("--previous에 이 묶음(en-en)의 원래 파일이 없음 (c-013~c-024)", out)
+        self.assertNotIn("--previous가 없음", out)
+        self.assertEqual(out.splitlines()[-1], self.FAIL_LINE, out)
+        # 원래 묶음 파일을 함께 주면 통과한다
+        self.assertPasses(e, "en-en", previous=[make_batch("ko-ko"), make_batch("en-en")], extra=True)
+        # 원래 묶음의 id가 일부만 있어도 실패한다
+        out = self.assertFailsFor("추가 후보 구성", e, "en-en", previous=[make_batch("ko-ko"), make_batch("en-en")[:11]], extra=True)
+        self.assertIn("원래 파일이 없음 (c-013~c-024)", out)
+
     def test_54_extra_candidate_rule_fails_only_that_candidate(self):
         e = make_extra(61)
         first_ev(e[1])["passage"] += "다름"

@@ -19,7 +19,7 @@ Gemini의 답 전체를 저장한 파일에 있다: YAML 코드 블록이 끝난
 문제가 있으면 카드를 쓰지 않고 후보마다 문제를 보인 뒤, 같은 ChatGPT 채팅에 붙여 넣을 재요청 글을 보이고 종료 코드 1로 끝낸다.
 single_fact·paraphrase 후보 가운데 질문 언어나 근거 언어가 영어인 것이 있는데 `--types`가 없으면 사용법을 보이고 종료 코드 1로 끝낸다(한국어 묶음은 선택).
 """
-import os, re, sys
+import os, re, sys, unicodedata
 from pathlib import Path
 
 import yaml
@@ -478,6 +478,41 @@ def read_types(path):
     return types
 
 
+QUOTED = r'"[^"\n]*\S[^"\n]*"(?:\([^)]*\))?'
+PIECE_RE = re.compile(f"^{QUOTED}$")
+PAIR_RE = re.compile(rf"^{QUOTED}(?:,\s*{QUOTED})*$")
+
+
+def piece_text(line):
+    """줄의 질문 조각 글(따옴표 안). 조각 꼴이 아니면 None."""
+    if " → " not in line:
+        return None
+    piece = line[2:].split(" → ", 1)[0].strip()
+    return piece[1:piece.index('"', 1)] if PIECE_RE.match(piece) else None
+
+
+def check_type_cover(question, lines):
+    """조각 덮기 검사: 조각이 질문에 있는지, 조각이 덮지 못한 질문 글자가 있는지. 질문 내용은 내지 않는다."""
+    covered, out = [False] * len(question), []
+    low = question.lower()
+    for n, line in enumerate(lines, 1):
+        piece = piece_text(line)
+        if not piece:
+            continue
+        start = low.find(piece.lower())
+        if start < 0:
+            out.append(f"{n}번째 줄: 조각이 질문에 없음")
+            continue
+        while start >= 0:
+            covered[start:start + len(piece)] = [True] * len(piece)
+            start = low.find(piece.lower(), start + 1)
+    rest = sum(1 for ch, ok in zip(question, covered)
+               if not ok and not ch.isspace() and unicodedata.category(ch)[0] not in "PZC")
+    if rest:
+        out.append(f"질문에서 조각으로 덮이지 않은 부분이 있음({rest}글자)")
+    return out
+
+
 def check_type_line(line, q_lang, e_lang):
     """답 한 줄의 문제를 글로 돌려준다(없으면 빈 목록). 줄의 내용은 화면에 내지 않는다."""
     if " → " not in line:
@@ -488,8 +523,10 @@ def check_type_line(line, q_lang, e_lang):
         return [f"칸 수가 4가 아님({len(cells)}칸): 짝 · 가름 · 핵심 낱말 예/아니오 · 까닭"]
     pair, kind, key, reason = (x.strip() for x in cells)
     out = []
-    if not piece.strip():
-        out.append("질문 조각이 비었음")
+    if not PIECE_RE.match(piece.strip()):
+        out.append("질문 조각이 큰따옴표로 감싼 비지 않은 글이 아님")
+    if not (pair == "없음" or PAIR_RE.match(pair)):
+        out.append("짝이 큰따옴표로 감싼 비지 않은 글(여러 개면 쉼표로 이음) 또는 `없음`이 아님")
     if kind not in TYPES_KINDS:
         out.append("가름이 다섯 값(같은 말 · 바꾼 말 · 이름 · 짝 없음 · 가르기 어려움) 가운데 하나가 아님")
     if key not in TYPES_KEY:
@@ -518,6 +555,7 @@ def check_types(typed, types):
             continue
         found = [f"{n}번째 줄: {p}" for n, line in enumerate(lines, 1)
                  for p in check_type_line(line, c.get("question_language"), c.get("evidence_language"))]
+        found += check_type_cover(c["question"], lines)
         if found:
             problems[c["id"]] = found
     return problems
