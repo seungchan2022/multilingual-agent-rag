@@ -194,6 +194,16 @@ def item(n, title, body):
     return ["", f"#### {n}. {title}"] + body + ["- [ ] 확인함"]
 
 
+def english_reading(fields, items, type_note):
+    """영어로 적힌 칸이 있으면 번역기로 읽는 법 한 줄(없으면 빈 목록). fields는 영어인 칸 이름들."""
+    if not fields:
+        return []
+    return ["", f"**영어 읽는 법** — 영어로 적힌 칸: {', '.join(fields)}. 하나씩 번역기에 붙여 한국어로 읽고, 옮긴 글로 칸 {items}을 판단한다. "
+            "옮긴 글이 원문과 맞는지 두 가지를 본다: ① 숫자와 날짜가 원문과 같은가 ② 원문에 뜻을 뒤집거나 범위를 바꾸는 낱말"
+            "(not, no, never, without, except, only, all, each, every, more, less, than, before, after, at least, at most)이 있으면 옮긴 글에도 그 뜻이 있는가. "
+            "이 낱말들은 이 카드에서 `Cmd+F`로 찾는다." + type_note]
+
+
 def verdict_block():
     return ["", "#### 적기",
             "- 판정(하나만 남긴다): 채택 / 수정 / 폐기",
@@ -308,6 +318,8 @@ def answered_card(c, out_dir, memos, types=None):
             passages += [f"  - 사실 {i}의 근거 {j}: {passage_link(out_dir, ev['doc_id'], ev['passage'])} · `location`(위치): {ev['location']}",
                          quote(ev["passage"], 4)]
     out += ["- `passage`(근거 구절):"] + (passages or ["  - 없음"])
+    fields = (["`question`(질문)", "`answer`(정답)", "`fact`(사실)"] if c.get("question_language") == "en" else []) + (["`passage`(근거 구절)"] if el == "en" else [])
+    out += english_reading(fields, "1~8", " 옮긴 글은 뜻을 보는 데만 쓴다. 칸 9의 유형(같은 말 / 바꾼 말)은 번역기로 정하지 않는다(`EVALUATION.md` ①).")
 
     out += item(1, "근거 구절만 읽고 정답이 나온다", [
         "- 할 일: 위 `passage`(근거 구절)를 읽는다.",
@@ -404,6 +416,9 @@ def no_answer_card(c, out_dir):
     for item_ in rebuttal:
         out.append(f"  - {passage_link(out_dir, item_['doc_id'], item_['passage'])} · `location`(위치): {item_['location']}")
         out.append(quote(item_["passage"], 4))
+    fields = (["`question`(질문)", "`expected_refusal`(기대하는 거절)", "`no_answer_reason`(답이 없다고 본 까닭)"] if c.get("question_language") == "en" else []) \
+        + (["`rebuttal`(반박 구절)"] if any(DOC[r["doc_id"]]["language"] == "en" for r in rebuttal if r.get("doc_id") in DOC) else [])
+    out += english_reading(fields, "1~3", "")
     out += item(1, "문서 전체에서 한국어 표현과 영어 표현으로 찾아봐도 답이 없다", [
         "- 할 일: 질문의 이름과 숫자를 한국어와 영어(번역기)로 폴더 찾기를 한다. \"포함할 파일\"은 `data/corpus/markdown`.",
         "- 판단할 질문: 질문의 답이 되는 내용이 어디에도 없는가?",

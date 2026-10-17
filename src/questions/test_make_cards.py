@@ -190,6 +190,31 @@ class MakeCardsTest(unittest.TestCase):
         self.assertIn("#### 3. 전제가 너무 뻔하게 틀리지 않았다", t)
         self.assertNotIn("같은 도시", t)
 
+    def test_english_reading_line(self):
+        # 영어인 칸만 이름을 들어 번역기로 읽게 하고, 한국어 카드에는 넣지 않는다
+        ko = Run(self, [candidate()]).go()
+        self.assertNotIn("영어 읽는 법", ko.text)
+        q_en = candidate()
+        q_en["question_language"] = "en"
+        e_en = candidate(cid="c-002", doc="wiki-en-jeonju", el="en")
+        e_en["question_language"] = "ko"
+        r = Run(self, [q_en, e_en]).go(types=self._any_types())
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+        cards = split_cards(r.text)
+        self.assertIn("**영어 읽는 법** — 영어로 적힌 칸: `question`(질문), `answer`(정답), `fact`(사실). ", cards[0])
+        self.assertIn("**영어 읽는 법** — 영어로 적힌 칸: `passage`(근거 구절). ", cards[1])
+        for card in cards:
+            self.assertIn("옮긴 글로 칸 1~8을 판단한다", card)
+            self.assertIn("칸 9의 유형(같은 말 / 바꾼 말)은 번역기로 정하지 않는다", card)
+            self.assertTrue(card.index("영어 읽는 법") < card.index("#### 1."))
+        na = {"id": "c-049", "question": "No such thing?", "question_language": "en", "evidence_language": None, "type": "no_answer",
+              "answer": None, "required_facts": [], "expected_refusal": "Says none", "no_answer_reason": "Not found",
+              "rebuttal": [{"doc_id": "wiki-en-jeonju", "location": "top", "passage": prose("wiki-en-jeonju")[0]}]}
+        t = Run(self, [na]).go().text
+        self.assertIn("`question`(질문), `expected_refusal`(기대하는 거절), `no_answer_reason`(답이 없다고 본 까닭), `rebuttal`(반박 구절). ", t)
+        self.assertIn("옮긴 글로 칸 1~3을 판단한다", t)
+        self.assertNotIn("칸 9", t)
+
     def test_en_evidence_same_city_docs_are_korean(self):
         r = Run(self, [candidate(doc="wiki-en-jeonju", el="en")]).go(types=self._any_types())
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
