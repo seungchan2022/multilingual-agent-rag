@@ -619,6 +619,26 @@ class CheckCandidatesTest(unittest.TestCase):
         out = self.assertFailsFor("c-013", b, "en-en")
         self.assertIn("same_language_check[0]: 찾을 말이 근거 문서의 언어가 아님 (벚꽃)", out)
 
+    def test_31b_term_with_digit_is_notation(self):
+        # 숫자가 든 덩어리(52km2, Hyoja4)는 표기로 보고 언어를 따지지 않는다. 숫자 없는 로마자 덩어리가 있으면 한국어 쪽에서 틀리다
+        msg = "opposite_check[0]: 찾을 말이 반대 언어가 아님"
+        b = make_batch("en-en")
+        b[0]["opposite_check"][0] = "60.52km2"
+        code, out = self.run_check(b, "en-en")
+        self.assertNotIn(msg, out)
+        for bad in ("Bluebird", "City bird", "Area(km2)"):
+            b = make_batch("en-en")
+            b[0]["opposite_check"][0] = bad
+            out = self.assertFailsFor("c-013", b, "en-en")
+            self.assertIn(f"{msg} ({bad})", out)
+        b = make_batch("ko-ko")
+        b[0]["opposite_check"][0] = "Hyoja4-dong"
+        code, out = self.run_check(b)
+        self.assertNotIn(msg, out)
+        b[0]["opposite_check"][0] = "효자4동"
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn(f"{msg} (효자4동)", out)
+
     def test_32_number_term(self):
         # 숫자만 있는 말은 두 언어 모두에서 허용하고, 따옴표 없이 적은 숫자(YAML이 숫자로 읽음)도 글자로 바꿔 받는다
         for batch in ("ko-ko", "en-en"):

@@ -12,7 +12,7 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 구분선 행은 '|'와 '-'를 함께 쓴 줄(|---|---| 꼴)로 본다.
 답 있는 묶음은 후보 12개 가운데 6개가 두 언어 도시, 6개가 그 묶음의 근거 언어만 넣는 도시의 문서를 근거로 써야 하고, 그 개수를 묶음 구성 아래에 한 줄로 보인다.
 답 있는 후보는 opposite_check(반대 언어 문서 14개에서 찾을 말)와 same_language_check(근거 문서와 같은 언어 문서 14개, 근거 문서 포함에서 찾을 말)를 본다.
-웹 AI는 찾을 말만 글자로 적고, 찾을 말이 나오는 곳(걸린 곳)은 hits.py가 찾는다. 찾을 말은 3개 이상이어야 하고, opposite_check는 반대 언어, same_language_check는 근거 문서의 언어여야 한다.
+웹 AI는 찾을 말만 글자로 적고, 찾을 말이 나오는 곳(걸린 곳)은 hits.py가 찾는다. 찾을 말은 3개 이상이어야 하고, opposite_check는 반대 언어, same_language_check는 근거 문서의 언어여야 한다(말을 글자·숫자가 이어진 덩어리로 나눠 숫자가 든 덩어리는 표기로 보고 언어를 따지지 않는다).
 찾을 말 하나가 찾는 문서들에서 10곳을 넘게 나오면 받지 않는다(same_language_check는 이 후보의 근거 구절 안에서 나오는 곳을 세지 않는다).
 답 있는 후보의 사실마다 in_answer(정답에 들어갈 사실이면 true, 답을 내는 데만 쓰면 false)가 true나 false여야 하고, true인 사실이 하나 이상 있어야 하며, 근거 구절이 없는 결론 사실은 true여야 한다.
 후보마다 찾을 말의 개수와 프로그램이 찾은 걸린 곳의 수를 두 칸 각각 한 줄씩 보인다.
@@ -410,9 +410,13 @@ def check_answered(c, problems, info):
 
 
 def term_language_wrong(term, lang):
-    """찾을 말이 lang(ko나 en) 문서의 말이 아니면 참. 숫자만 있는 말은 두 언어 모두에서 허용한다."""
+    """찾을 말이 lang(ko나 en) 문서의 말이 아니면 참. 말을 글자·숫자가 이어진 덩어리로 나누고, 숫자가 든 덩어리(52km2, Hyoja4)는 표기로 보고 언어를 따지지 않는다(숫자만 있는 말도 두 언어 모두 허용).
+    ko는 한글이 없고 숫자 없는 로마자 덩어리가 하나 이상 있으면 틀리다(Area(km2)의 Area). en은 한글이 있으면 틀리다."""
     has_hangul = bool(HANGUL.search(term))
-    return has_hangul if lang == "en" else (not has_hangul and any(ch.isalpha() for ch in term))
+    if lang == "en":
+        return has_hangul
+    chunks = re.findall(r"[^\W_]+", term)
+    return not has_hangul and any(c.isalpha() for c in chunks if not any(ch.isdigit() for ch in c))
 
 
 def check_record(c, field, key, term_lang, problems, info):
