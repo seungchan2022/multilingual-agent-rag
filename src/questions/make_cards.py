@@ -179,11 +179,11 @@ TYPE_MEANING = {
 
 
 def numbers_of(c):
-    """정답과 근거 구절에서 숫자(1,234 / 12.5 / 1969)를 순서대로, 중복 없이, 최대 6개."""
+    """정답 글과 required_facts의 모든 fact 글에서 숫자(1,234 / 12.5 / 1969)를 정답, 사실 1, 사실 2 순서로, 중복 없이 뽑는다. 근거 구절(passage)에서는 뽑지 않는다."""
     texts = [str(c.get("answer"))]
     for f in c.get("required_facts") or []:
-        texts += [item["passage"] for item in f.get("evidence") or []]
-    return list(dict.fromkeys(n for t in texts for n in NUM_RE.findall(t)))[:6]
+        texts.append(str(f.get("fact")))
+    return list(dict.fromkeys(n for t in texts for n in NUM_RE.findall(t)))
 
 
 def answer_value(answer):
@@ -349,7 +349,7 @@ def answered_card(c, out_dir, memos, types=None):
                  "근거 구절이 있는 줄에서는 앞뒤 한두 문장도 읽는다." + doc_links]
     out += item(3, "같은 문서 안에 다른 값이 없다", [
         "- 찾을 말: 질문에서 무엇에 대한 질문인지 나타내는 이름(예: 시조, 인구)을 하나 이상 골라 찾고, 아래 정답의 값도 찾는다. "
-        f"정답의 값: {value_part} · 정답과 근거 구절에서 뽑은 숫자: "
+        f"정답의 값: {value_part} · 정답과 사실에서 뽑은 숫자: "
         + (", ".join(f"`{n}`" for n in nums) if nums else "없음"),
     ] + read3 + [
         "- 판단할 질문: 걸린 곳마다, 같은 것이 `answer`(정답)과 다른 값으로 적혀 있지 않은가? 앞뒤 문장이 다른 대상 이야기로 바뀌지 않는가?"]

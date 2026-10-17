@@ -264,9 +264,18 @@ class MakeCardsTest(unittest.TestCase):
         c = candidate()
         c["answer"] = "1,234명과 12.5%, 1969년"
         r = Run(self, [c]).go()
-        self.assertIn("정답과 근거 구절에서 뽑은 숫자: `1,234`, `12.5`, `1969`", item_text(r.text, 3))
+        self.assertIn("정답과 사실에서 뽑은 숫자: `1,234`, `12.5`, `1969`", item_text(r.text, 3))
         r2 = Run(self, [candidate()]).go()
-        self.assertIn("정답과 근거 구절에서 뽑은 숫자:", item_text(r2.text, 3))
+        self.assertIn("정답과 사실에서 뽑은 숫자:", item_text(r2.text, 3))
+
+    def test_numbers_from_answer_and_facts_not_passage(self):
+        d = ROOT / "research_notes" / "stage3_dev" / "chat3"
+        r = Run(self, src=d / "batch1_ko-ko_newshape.yaml").go(memo=d / "batch1_ko-ko_full.md")
+        cards = {re.match(r"\n## (c-\d+)", c).group(1): c for c in split_cards(r.text)}
+        i3 = lambda cid: re.split(r"\n#### ", cards[cid].split("#### 3. ")[1])[0]
+        self.assertIn("정답과 사실에서 뽑은 숫자: `45,860`, `120,107`, `87,514`, `178,735`, `148,252`", i3("c-007"))
+        self.assertIn("정답과 사실에서 뽑은 숫자: `1342`, `2026`, `3`, `17`, `18`, `890`, `452`", i3("c-008"))
+        self.assertIn("정답과 사실에서 뽑은 숫자: 없음", i3("c-009"))
 
     def test_answer_value_in_item3(self):
         c = candidate()
