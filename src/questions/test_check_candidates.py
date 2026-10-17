@@ -196,6 +196,18 @@ def make_no_answer(rebuttal_doc="wiki-ko-jeonju", shift=0):
     return out
 
 
+def make_extra(first, picks=(0, 1), shift=6):
+    """ko-ko 묶음에 더 받은 추가 후보. 같은 규칙을 지키는 후보를 만들어 id를 first번부터 다시 붙이고 질문도 겹치지 않게 바꾼다."""
+    b = make_batch("ko-ko", shift=shift, table_row=1)
+    out = []
+    for k, i in enumerate(picks):
+        c = b[i]
+        c["id"] = f"c-{first + k:03d}"
+        c["question"] = f"추가 질문 {c['id']}"
+        out.append(c)
+    return out
+
+
 def dump(items, fence=False):
     s = yaml.dump(items, Dumper=yaml.SafeDumper, allow_unicode=True, sort_keys=False, width=10 ** 6)
     return f"```yaml\n{s}```\n" if fence else s
@@ -223,10 +235,12 @@ class CheckCandidatesTest(unittest.TestCase):
         p.write_text(text, encoding="utf-8")
         return str(p)
 
-    def run_check(self, items, batch="ko-ko", previous=(), hide=False, fence=False):
+    def run_check(self, items, batch="ko-ko", previous=(), hide=False, fence=False, extra=False):
         args = [sys.executable, str(CHECKER), self.write(items, fence), "--batch", batch]
         for pv in previous:
             args += ["--previous", self.write(pv)]
+        if extra:
+            args.append("--extra")
         if hide:
             args.append("--hide")
         r = subprocess.run(args, capture_output=True, text=True, cwd=ROOT)
@@ -862,6 +876,70 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertIn("1번째 항목", str(cm.exception))
         self.assertIn("wiki-en-jeonju", str(cm.exception))
         self.assertNotIn("wiki-ko-jeonju", str(cm.exception))
+
+    # ---- --extra ----
+
+    def test_51_extra_valid(self):
+        out = self.assertPasses(make_extra(61), previous=[make_batch("ko-ko")], extra=True)
+        self.assertIn("추가 후보 2개 가운데 2개 통과, 추가 후보 구성 통과", out)
+        self.assertEqual(out.splitlines()[-1], "추가 후보 2개 가운데 2개 통과, 추가 후보 구성 통과")
+        self.assertIn("추가 후보  single_fact 2개 · 두 언어 도시 1개, 한국어 도시 1개", out)
+        self.assertNotIn("묶음 구성", out)
+
+    def test_52_extra_ids(self):
+        prev = [make_batch("ko-ko")]
+        out = self.assertFailsFor("추가 후보 구성", make_extra(63), previous=prev, extra=True)
+        self.assertIn("c-061부터 차례로 놓이지 않음", out)
+        self.assertEqual(out.splitlines()[-1], "추가 후보 2개 가운데 2개 통과, 추가 후보 구성 실패")
+        # 앞 묶음의 id를 다시 씀
+        out = self.assertFailsFor("추가 후보 구성", make_extra(11), previous=prev, extra=True)
+        self.assertIn("앞 묶음에서 이미 쓴 id", out)
+        # 같은 id 두 번
+        e = make_extra(61)
+        e[1]["id"] = "c-061"
+        self.assertFailsFor("추가 후보 구성", e, previous=prev, extra=True)
+        # 첫 번호가 c-061이어도 순서가 거꾸로면 실패
+        e = make_extra(61)
+        e.reverse()
+        self.assertFailsFor("추가 후보 구성", e, previous=prev, extra=True)
+        # 다섯 묶음의 id 범위 안에서 이어 붙이면 실패: 묶음 2 뒤의 c-025는 묶음 3의 id다
+        out = self.assertFailsFor("추가 후보 구성", make_extra(25), previous=prev + [make_batch("en-en")], extra=True)
+        self.assertIn("c-061부터 차례로 놓이지 않음", out)
+        # 후보가 없음
+        self.assertFailsFor("추가 후보 구성", [], previous=prev, extra=True)
+
+    def test_53_extra_needs_previous(self):
+        out = self.assertFailsFor("추가 후보 구성", make_extra(61), extra=True)
+        self.assertIn("--previous가 없음", out)
+
+    def test_54_extra_candidate_rule_fails_only_that_candidate(self):
+        e = make_extra(61)
+        first_ev(e[1])["passage"] += "다름"
+        code, out = self.run_check(e, previous=[make_batch("ko-ko")], extra=True)
+        self.assertEqual(code, 1, out)
+        self.assertEqual(failed_names(out), ["c-062"], out)
+        self.assertIn("추가 후보 구성", [l[4:].strip() for l in out.splitlines() if l.startswith("통과  ")], out)
+        self.assertEqual(out.splitlines()[-1], "추가 후보 2개 가운데 1개 통과, 추가 후보 구성 통과")
+
+    def test_55_extra_ignores_batch_composition(self):
+        # 12개 구성과 유형 수가 달라도(1개뿐이어도) 구성 실패가 나오지 않는다
+        out = self.assertPasses(make_extra(61, picks=(4,)), previous=[make_batch("ko-ko")], extra=True)
+        self.assertIn("추가 후보  multi_doc 1개", out)
+        self.assertNotIn("type single_fact", out)
+
+    def test_56_next_extra_id(self):
+        prev = make_batch("ko-ko")
+        out = self.assertPasses(make_batch("en-en"), "en-en", previous=[prev])
+        lines = out.splitlines()
+        self.assertEqual(lines[-2], "다음 추가 요청의 id: c-061부터")
+        out = self.assertPasses(make_extra(61), previous=[prev], extra=True)
+        self.assertEqual(out.splitlines()[-2], "다음 추가 요청의 id: c-063부터")
+        # 추가 파일을 앞 파일로 넣으면 그 id까지 센다
+        out = self.assertPasses(make_extra(63), previous=[prev, make_extra(61)], extra=True)
+        self.assertEqual(out.splitlines()[-2], "다음 추가 요청의 id: c-065부터")
+        # --hide에서도 보인다
+        out = self.assertPasses(make_batch("ko-ko"), hide=True)
+        self.assertEqual(out.splitlines()[-2], "다음 추가 요청의 id: c-061부터")
 
 
 if __name__ == "__main__":

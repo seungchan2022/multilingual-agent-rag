@@ -1,6 +1,6 @@
 """웹 AI가 낸 평가 질문 후보를 형식과 원문 대조로 검사하는 프로그램(형식 검사의 첫 판).
 
-  uv run python src/questions/check_candidates.py <후보 파일> --batch <ko-ko|en-en|ko-en|en-ko|no-answer> [--previous <앞 묶음 파일> ...] [--hide]
+  uv run python src/questions/check_candidates.py <후보 파일> --batch <ko-ko|en-en|ko-en|en-ko|no-answer> [--previous <앞 묶음 파일> ...] [--extra] [--hide]
 
 후보 파일은 AI가 낸 YAML 코드 블록을 옮겨 적은 파일이다. ```로 시작하는 줄이 있으면 첫 번째와 다음 ``` 줄 사이만 읽고,
 없으면 파일 전체를 읽는다. --previous 파일도 같은 방식으로 읽으며, 앞 묶음과 겹치는지 보는 데만 쓰고 그 자체는 검사하지 않는다.
@@ -17,6 +17,10 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 답 있는 후보의 사실마다 in_answer(정답에 들어갈 사실이면 true, 답을 내는 데만 쓰면 false)가 true나 false여야 하고, true인 사실이 하나 이상 있어야 하며, 근거 구절이 없는 결론 사실은 true여야 한다.
 후보마다 찾을 말의 개수와 프로그램이 찾은 걸린 곳의 수를 두 칸 각각 한 줄씩 보인다.
 답 있는 후보의 근거 구절이 data/questions/known_conflicts.json("알려진 부딪히는 값" 목록)의 항목과 자리, 값, 해 가운데 하나라도 겹치면 실패한다. 넓게 잡으므로 관계없는 구절이 걸릴 수 있다.
+--extra를 주면 후보 파일은 --batch로 준 묶음에 더 받은 추가 후보다("한 칸만 다시 요청할 때"). 후보마다의 검사와 앞 묶음과의 겹침 검사는 같고,
+묶음 구성 대신 추가 후보 구성을 본다: 후보 1개 이상, id가 겹치지 않고 c-000 꼴이며, 다섯 묶음이 쓰는 id(c-001~c-060)와 --previous 파일들의 가장 큰 id 번호 다음부터 차례로 놓인다.
+--previous가 하나도 없으면 실패한다. 추가 후보의 유형별 수와 도시 갈래 수를 보인다. 마지막 줄 앞에는 언제나(--extra 없이도, --hide에서도)
+`다음 추가 요청의 id: c-0NN부터`를 보인다. 60과 앞 파일들·이 파일의 가장 큰 id 번호 가운데 큰 것 + 1이고, 추가 요청 글의 이어 붙일 번호에 쓴다.
 --hide를 주면 후보와 원문의 글자(질문, 답, 사실, 구절, 위치, 찾을 말 등)를 출력에 넣지 않고 id, 칸 경로, doc_id, 개수, 규칙 이름만 보인다.
 """
 import json, re, sys
@@ -39,10 +43,11 @@ ID_RE = re.compile(r"c-\d{3}")
 # 묶음 이름: (질문 언어, 근거 문서 언어, 첫 id 번호)
 BATCHES = {"ko-ko": ("ko", "ko", 1), "en-en": ("en", "en", 13), "ko-en": ("ko", "en", 25), "en-ko": ("en", "ko", 37), "no-answer": (None, None, 49)}
 COUNT = 12
+LAST_FIXED_ID = max(b[2] for b in BATCHES.values()) + COUNT - 1   # 다섯 묶음이 쓰는 마지막 id(60). 추가 후보는 그 뒤부터 붙여 뒤 묶음의 id와 겹치지 않게 한다
 HANGUL = re.compile("[\u1100-\u11ff\u3130-\u318f\uac00-\ud7a3]")
 MAX_HITS = 10   # 찾을 말 하나가 이만큼까지 나오면 받는다
 ANSWERED_TYPE_COUNTS = {"single_fact": 2, "table_numeric": 2, "multi_doc": 4, "paraphrase": 4}
-USAGE = "사용법: uv run python src/questions/check_candidates.py <후보 파일> --batch <ko-ko|en-en|ko-en|en-ko|no-answer> [--previous <파일> ...] [--hide]"
+USAGE = "사용법: uv run python src/questions/check_candidates.py <후보 파일> --batch <ko-ko|en-en|ko-en|en-ko|no-answer> [--previous <파일> ...] [--extra] [--hide]"
 
 HIDE = False
 results = []
@@ -525,16 +530,57 @@ def batch_problems(items, infos, batch):
     return problems
 
 
+TYPE_ORDER = ("single_fact", "table_numeric", "multi_doc", "paraphrase", "no_answer")
+
+
+def id_number(i):
+    """c-000 꼴 id의 번호. 그 꼴이 아니면 None."""
+    return int(i[2:]) if isinstance(i, str) and ID_RE.fullmatch(i) else None
+
+
+def extra_problems(items, prev_paths, prev_max):
+    """--extra로 받은 추가 후보 묶음의 구성 실패 이유들."""
+    problems = []
+    if not prev_paths:
+        problems.append("--previous가 없음 (추가 후보는 원래 묶음 파일과 함께 넣어야 겹침을 볼 수 있음)")
+    if not items:
+        problems.append("후보가 없음 (1개 이상이어야 함)")
+    got = [c["id"] for c in items if isinstance(c, dict) and isinstance(c.get("id"), str)]
+    dup = sorted({i for i in got if got.count(i) > 1})
+    if dup:
+        problems.append("id가 겹침: " + ", ".join(i if ID_RE.fullmatch(i) else "(c-000 꼴이 아닌 id)" for i in dup))
+    bad = [i for i in got if not ID_RE.fullmatch(i)]
+    if bad:
+        problems.append(f"c-000 꼴이 아닌 id {len(bad)}개")
+    if prev_paths and not dup and not bad and len(got) == len(items):
+        want = [f"c-{prev_max + 1 + k:03d}" for k in range(len(got))]
+        if got != want:
+            problems.append(f"id가 {want[0]}부터 차례로 놓이지 않음 (추가 후보는 다섯 묶음의 id c-001~c-{LAST_FIXED_ID:03d}와 앞 추가 파일들의 id 다음부터)")
+    return problems
+
+
+def extra_info(items, batch):
+    """추가 후보의 유형별 수와 도시 갈래 수를 한 줄로."""
+    types = [c.get("type") for c in items if isinstance(c, dict)]
+    text = ", ".join(f"{t} {types.count(t)}개" for t in TYPE_ORDER if t in types) or "없음"
+    if batch != "no-answer":
+        both, single, unknown = city_counts(items, batch)
+        text += f" · 두 언어 도시 {both}개, {city_name(batch)} {single}개" + (f", 알 수 없음 {unknown}개" if unknown else "")
+    return f"추가 후보  {text}"
+
+
 # ---------- 실행 ----------
 
 def parse_args(argv):
-    """(후보 파일, 묶음 이름, 앞 묶음 파일들, --hide) 또는 None."""
-    path, batch, prev, hide = None, None, [], False
+    """(후보 파일, 묶음 이름, 앞 묶음 파일들, --extra, --hide) 또는 None."""
+    path, batch, prev, extra, hide = None, None, [], False, False
     i = 0
     while i < len(argv):
         a = argv[i]
         if a == "--hide":
             hide = True
+        elif a == "--extra":
+            extra = True
         elif a in ("--batch", "--previous"):
             if i + 1 >= len(argv):
                 return None
@@ -550,7 +596,7 @@ def parse_args(argv):
         i += 1
     if path is None or batch not in BATCHES:
         return None
-    return path, batch, prev, hide
+    return path, batch, prev, extra, hide
 
 
 def main():
@@ -559,7 +605,7 @@ def main():
     if args is None:
         print(USAGE)
         return 1
-    path, batch, prev_paths, HIDE = args
+    path, batch, prev_paths, extra, HIDE = args
 
     # 앞 묶음
     prev_ids, prev_q, users = set(), {}, {}
@@ -616,14 +662,23 @@ def main():
             print(f"      같은 언어 찾은 기록: 찾을 말 {info['sc'][0]}개, 걸린 곳 {info['sc'][1]}곳")
         passed += not problems
 
-    bp = batch_problems(data, infos, batch)
-    report("묶음 구성", bp)
-    if batch != "no-answer":
-        both, single, _ = city_counts(data, batch)
-        print(f"도시 갈래  두 언어 도시 {both}개, {city_name(batch)} {single}개")
+    if extra:
+        prev_max = max([LAST_FIXED_ID] + [id_number(i) or 0 for i in prev_ids])
+        bp = extra_problems(data, prev_paths, prev_max)
+        report("추가 후보 구성", bp)
+        print(extra_info(data, batch))
+    else:
+        bp = batch_problems(data, infos, batch)
+        report("묶음 구성", bp)
+        if batch != "no-answer":
+            both, single, _ = city_counts(data, batch)
+            print(f"도시 갈래  두 언어 도시 {both}개, {city_name(batch)} {single}개")
     for w in warnings:
         print(w)
-    print(f"후보 {len(data)}개 가운데 {passed}개 통과, 묶음 구성 {'통과' if not bp else '실패'}")
+    top = max([LAST_FIXED_ID] + [id_number(i) or 0 for i in prev_ids] + [id_number(c.get("id")) or 0 for c in data if isinstance(c, dict)])
+    print(f"다음 추가 요청의 id: c-{top + 1:03d}부터")
+    name = "추가 후보 구성" if extra else "묶음 구성"
+    print(f"{'추가 후보' if extra else '후보'} {len(data)}개 가운데 {passed}개 통과, {name} {'통과' if not bp else '실패'}")
     return 0 if all(results) else 1
 
 
