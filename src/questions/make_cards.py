@@ -43,7 +43,6 @@ TYPES_KINDS = ("같은 말", "바꾼 말", "이름", "짝 없음", "가르기 �
 TYPES_KEY = ("핵심 낱말 예", "핵심 낱말 아니오")
 REREQUEST = "아래 후보의 목록이 빠졌거나 지시문 4번 형식과 다르다. 이 후보들만 지시문 4번 형식대로 다시 써라. 코드 블록 하나에 넣는다: "
 OLD_SHAPE = "찾기 기록이 예전 모양이다. 후보 검사(check_candidates.py)를 먼저 통과시킨다"
-NO_TYPES = "ChatGPT 답에 이 후보가 없다"
 MEANING_Q = ("- 판단할 질문: ChatGPT 목록에서 \"가르기 어려움\"이나 \"짝 없음\"인 줄마다, 그 조각의 뜻이 문서에 있는가? "
              "(근거 구절 밖이어도 문서에 있으면 된다. 없으면 질문이 문서에 없는 전제를 깔고 있으므로 다른 줄과 관계없이 고치거나 버린다)")
 
@@ -309,7 +308,7 @@ def paraphrase_body(c, memos, types=None):
 
 def types_block(c, types):
     """칸 9에 붙일 ChatGPT 짝 목록 접힌 칸(`--types`를 줬을 때만 부른다)."""
-    return ["<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>", "", *(types.get(c["id"]) or [NO_TYPES]), "", "</details>"]
+    return ["<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>", "", *types.get(c["id"], []), "", "</details>"]
 
 
 def answered_card(c, out_dir, memos, types=None):
