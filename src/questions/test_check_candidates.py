@@ -882,7 +882,7 @@ class CheckCandidatesTest(unittest.TestCase):
     def test_51_extra_valid(self):
         out = self.assertPasses(make_extra(61), previous=[make_batch("ko-ko")], extra=True)
         self.assertIn("추가 후보 2개 가운데 2개 통과, 추가 후보 구성 통과", out)
-        self.assertEqual(out.splitlines()[-1], "추가 후보 2개 가운데 2개 통과, 추가 후보 구성 통과")
+        self.assertEqual(out.splitlines()[-2], "추가 후보 2개 가운데 2개 통과, 추가 후보 구성 통과")
         self.assertIn("추가 후보  single_fact 2개 · 두 언어 도시 1개, 한국어 도시 1개", out)
         self.assertNotIn("묶음 구성", out)
 
@@ -890,7 +890,7 @@ class CheckCandidatesTest(unittest.TestCase):
         prev = [make_batch("ko-ko")]
         out = self.assertFailsFor("추가 후보 구성", make_extra(63), previous=prev, extra=True)
         self.assertIn("c-061부터 차례로 놓이지 않음", out)
-        self.assertEqual(out.splitlines()[-1], "추가 후보 2개 가운데 2개 통과, 추가 후보 구성 실패")
+        self.assertEqual(out.splitlines()[-2], "추가 후보 2개 가운데 2개 통과, 추가 후보 구성 실패")
         # 앞 묶음의 id를 다시 씀
         out = self.assertFailsFor("추가 후보 구성", make_extra(11), previous=prev, extra=True)
         self.assertIn("앞 묶음에서 이미 쓴 id", out)
@@ -919,7 +919,7 @@ class CheckCandidatesTest(unittest.TestCase):
         self.assertEqual(code, 1, out)
         self.assertEqual(failed_names(out), ["c-062"], out)
         self.assertIn("추가 후보 구성", [l[4:].strip() for l in out.splitlines() if l.startswith("통과  ")], out)
-        self.assertEqual(out.splitlines()[-1], "추가 후보 2개 가운데 1개 통과, 추가 후보 구성 통과")
+        self.assertEqual(out.splitlines()[-2], "추가 후보 2개 가운데 1개 통과, 추가 후보 구성 통과")
 
     def test_55_extra_ignores_batch_composition(self):
         # 12개 구성과 유형 수가 달라도(1개뿐이어도) 구성 실패가 나오지 않는다
@@ -931,16 +931,57 @@ class CheckCandidatesTest(unittest.TestCase):
         prev = make_batch("ko-ko")
         out = self.assertPasses(make_batch("en-en"), "en-en", previous=[prev])
         lines = out.splitlines()
-        self.assertEqual(lines[-2], "다음 추가 요청의 id: c-061부터")
+        self.assertEqual(lines[-3], "다음 추가 요청의 id: c-061부터")
         out = self.assertPasses(make_extra(61), previous=[prev], extra=True)
-        self.assertEqual(out.splitlines()[-2], "다음 추가 요청의 id: c-063부터")
+        self.assertEqual(out.splitlines()[-3], "다음 추가 요청의 id: c-063부터")
         # 추가 파일을 앞 파일로 넣으면 그 id까지 센다
         out = self.assertPasses(make_extra(63), previous=[prev, make_extra(61)], extra=True)
-        self.assertEqual(out.splitlines()[-2], "다음 추가 요청의 id: c-065부터")
+        self.assertEqual(out.splitlines()[-3], "다음 추가 요청의 id: c-065부터")
         # --hide에서도 보인다
         out = self.assertPasses(make_batch("ko-ko"), hide=True)
-        self.assertEqual(out.splitlines()[-2], "다음 추가 요청의 id: c-061부터")
+        self.assertEqual(out.splitlines()[-3], "다음 추가 요청의 id: c-061부터")
 
+
+    # ---- 전체 판정(맨 마지막 줄) ----
+
+    PASS_LINE = "전체 검사: 통과"
+    FAIL_LINE = "전체 검사: 실패 (위의 실패 줄을 본다)"
+
+    def test_57_verdict_pass(self):
+        prev = [make_batch("ko-ko")]
+        for items, kw in ((make_batch("ko-ko"), {}),
+                          (make_no_answer(), {"batch": "no-answer"}),
+                          (make_batch("ko-ko"), {"hide": True}),
+                          (make_extra(61), {"previous": prev, "extra": True}),
+                          (make_extra(61), {"previous": prev, "extra": True, "hide": True})):
+            out = self.assertPasses(items, **kw)
+            self.assertEqual(out.splitlines()[-1], self.PASS_LINE, out)
+            self.assertIn("다음 추가 요청의 id: c-", out.splitlines()[-3], out)
+
+    def test_58_verdict_fails_when_previous_unreadable(self):
+        code, out = self.run_check(make_batch("ko-ko"), previous=["- id: [\n  x: ?: ]\n"])
+        self.assertEqual(code, 1, out)
+        self.assertEqual(failed_names(out), ["앞 묶음 f2.yaml"], out)
+        self.assertEqual(out.splitlines()[-2], "후보 12개 가운데 12개 통과, 묶음 구성 통과")
+        self.assertEqual(out.splitlines()[-1], self.FAIL_LINE, out)
+
+    def test_59_verdict_fails_when_candidate_file_unreadable(self):
+        for hide in (False, True):
+            code, out = self.run_check("- id: [\n  x: ?: ]\n", hide=hide)
+            self.assertEqual(code, 1, out)
+            self.assertEqual(out.splitlines()[-1], self.FAIL_LINE, out)
+        code, out = self.run_check("a: 1\n")
+        self.assertEqual(code, 1, out)
+        self.assertEqual(out.splitlines()[-1], self.FAIL_LINE, out)
+
+    def test_60_verdict_fails_with_failed_candidate(self):
+        b = make_batch("ko-ko")
+        first_ev(b[0])["passage"] += "다름"
+        code, out = self.run_check(b)
+        self.assertEqual(code, 1, out)
+        self.assertEqual(out.splitlines()[-1], self.FAIL_LINE, out)
+        code, out = self.run_check(b, hide=True)
+        self.assertEqual(out.splitlines()[-1], self.FAIL_LINE, out)
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

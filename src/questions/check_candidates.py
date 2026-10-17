@@ -19,8 +19,10 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 답 있는 후보의 근거 구절이 data/questions/known_conflicts.json("알려진 부딪히는 값" 목록)의 항목과 자리, 값, 해 가운데 하나라도 겹치면 실패한다. 넓게 잡으므로 관계없는 구절이 걸릴 수 있다.
 --extra를 주면 후보 파일은 --batch로 준 묶음에 더 받은 추가 후보다("한 칸만 다시 요청할 때"). 후보마다의 검사와 앞 묶음과의 겹침 검사는 같고,
 묶음 구성 대신 추가 후보 구성을 본다: 후보 1개 이상, id가 겹치지 않고 c-000 꼴이며, 다섯 묶음이 쓰는 id(c-001~c-060)와 --previous 파일들의 가장 큰 id 번호 다음부터 차례로 놓인다.
---previous가 하나도 없으면 실패한다. 추가 후보의 유형별 수와 도시 갈래 수를 보인다. 마지막 줄 앞에는 언제나(--extra 없이도, --hide에서도)
+--previous가 하나도 없으면 실패한다. 추가 후보의 유형별 수와 도시 갈래 수를 보인다. 요약 줄 앞에는 언제나(--extra 없이도, --hide에서도)
 `다음 추가 요청의 id: c-0NN부터`를 보인다. 60과 앞 파일들·이 파일의 가장 큰 id 번호 가운데 큰 것 + 1이고, 추가 요청 글의 이어 붙일 번호에 쓴다.
+맨 마지막 줄은 언제나 전체 판정이다(일찍 끝나는 경우도 같다. 사용법 오류만 뺀다): 종료 코드가 0이면 `전체 검사: 통과`,
+아니면 `전체 검사: 실패 (위의 실패 줄을 본다)`. 앞 묶음 파일을 읽지 못한 실패도 이 줄에 들어가므로, 다음 단계로 갈지는 이 줄로 정한다.
 --hide를 주면 후보와 원문의 글자(질문, 답, 사실, 구절, 위치, 찾을 말 등)를 출력에 넣지 않고 id, 칸 경로, doc_id, 개수, 규칙 이름만 보인다.
 """
 import json, re, sys
@@ -61,6 +63,13 @@ def report(name, problems):
         print(f"      {p}")
     if len(problems) > 10:
         print(f"      ... 외 {len(problems) - 10}건")
+
+
+def finish():
+    """맨 마지막 줄에 전체 판정을 보이고 종료 코드를 돌려준다. 판정과 종료 코드는 results 하나에서 나온다."""
+    ok = all(results)
+    print("전체 검사: 통과" if ok else "전체 검사: 실패 (위의 실패 줄을 본다)")
+    return 0 if ok else 1
 
 
 def val(x):
@@ -630,7 +639,8 @@ def main():
         print("실패  " + why[0])
         for w in why[1:]:
             print(f"      {w}")
-        return 1
+        results.append(False)
+        return finish()
 
     infos, warnings, seen_q = [], [], {}
     passed = 0
@@ -679,7 +689,7 @@ def main():
     print(f"다음 추가 요청의 id: c-{top + 1:03d}부터")
     name = "추가 후보 구성" if extra else "묶음 구성"
     print(f"{'추가 후보' if extra else '후보'} {len(data)}개 가운데 {passed}개 통과, {name} {'통과' if not bp else '실패'}")
-    return 0 if all(results) else 1
+    return finish()
 
 
 def collect_pairs(c):

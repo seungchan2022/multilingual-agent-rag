@@ -5,6 +5,8 @@
 답 파일은 AI가 낸 YAML 코드 블록을 옮겨 적은 파일이다. ```로 시작하는 줄이 있으면 첫 번째와 다음 ``` 줄 사이만 읽고,
 없으면 파일 전체를 읽는다. data/corpus/markdown/의 글자에서 기대값을 직접 계산해 문서마다 통과/실패를 한 줄씩 출력하고,
 하나라도 실패하면 종료 코드 1로 끝낸다.
+맨 마지막 줄은 언제나 전체 판정이다(일찍 끝나는 경우도 같다. 사용법 오류만 뺀다): 종료 코드가 0이면 `전체 검사: 통과`,
+아니면 `전체 검사: 실패 (위의 실패 줄을 본다)`. 그 앞의 `문서 28개 가운데 N개 통과` 줄은 개수를 보는 정보 줄이다.
 글자는 그대로 견준다(유니코드 정규화, 공백 합치기, 대소문자 맞추기를 하지 않는다). 줄 끝 공백만 떼고 견준다.
 "앞부분" 값은 실제 줄이 그 값으로 시작해야 하고, 길이가 min(20, 실제 줄 길이) 이상이어야 한다(요청은 30글자지만 글자 수를 세는 오차를 받아 20글자까지 받는다).
 다만 그 값이 기대한 줄의 중간부터 옮긴 것이고(기대한 줄 안에 글자 그대로 한 번 있고), 그 문서의 다른 값이 모두 통과했으면
@@ -34,6 +36,13 @@ def report(name, problems):
         print(f"      {p}")
     if len(problems) > 10:
         print(f"      ... 외 {len(problems) - 10}건")
+
+
+def finish():
+    """맨 마지막 줄에 전체 판정을 보이고 종료 코드를 돌려준다. 판정과 종료 코드는 results 하나에서 나온다."""
+    ok = all(results)
+    print("전체 검사: 통과" if ok else "전체 검사: 실패 (위의 실패 줄을 본다)")
+    return 0 if ok else 1
 
 
 def show(s):
@@ -148,7 +157,8 @@ def main():
         return 1
     if not Path(sys.argv[1]).is_file():
         print(f"실패  답 파일이 없음: {sys.argv[1]}")
-        return 1
+        results.append(False)
+        return finish()
     try:
         data = yaml.safe_load(read_answer(sys.argv[1]))
     except yaml.YAMLError as err:
@@ -156,10 +166,12 @@ def main():
         where = f" ({mark.line + 1}줄 {mark.column + 1}칸)" if mark else ""
         print(f"실패  YAML을 읽지 못함{where}")
         print(f"      {str(getattr(err, 'problem', None) or err).splitlines()[0]}")
-        return 1
+        results.append(False)
+        return finish()
     if not isinstance(data, list):
         print("실패  맨 위가 목록이 아님 (doc_id 묶음의 목록이어야 함)")
-        return 1
+        results.append(False)
+        return finish()
     by, top = {}, []
     for n, item in enumerate(data, 1):
         if not isinstance(item, dict) or not isinstance(item.get("doc_id"), str):
@@ -178,7 +190,7 @@ def main():
         if doc_id not in DOC_IDS:
             report(doc_id, ["문서 28개에 없는 doc_id"])
     print(f"문서 {len(DOC_IDS)}개 가운데 {passed}개 통과" + (f" (그 가운데 {mids}개는 줄 중간부터 옮김)" if mids else ""))
-    return 0 if all(results) else 1
+    return finish()
 
 
 sys.exit(main())

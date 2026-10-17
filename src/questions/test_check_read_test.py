@@ -308,5 +308,25 @@ class CheckReadTest(unittest.TestCase):
         self.assertFailsFor(doc, self.ans)
 
 
+    # 전체 판정(맨 마지막 줄)
+    def test_21_verdict_pass(self):
+        code, out = self.check(self.ans)
+        self.assertEqual(code, 0, out)
+        self.assertEqual(out.splitlines()[-2], "문서 28개 가운데 28개 통과")
+        self.assertEqual(out.splitlines()[-1], "전체 검사: 통과", out)
+
+    def test_22_verdict_fails_with_extra_doc_id(self):
+        self.ans.append({"doc_id": "no-such-doc", "first_line": "가", "last_line": "나"})
+        code, out = self.check(self.ans)
+        self.assertEqual(code, 1, out)
+        self.assertEqual(out.splitlines()[-2], "문서 28개 가운데 28개 통과")
+        self.assertEqual(out.splitlines()[-1], "전체 검사: 실패 (위의 실패 줄을 본다)", out)
+
+    def test_23_verdict_fails_on_early_exits(self):
+        for text in ('- doc_id: wiki-en-busan\n  sections:\n    - heading: "## Hist\n', "a: 1\n"):
+            code, out = self.check(text)
+            self.assertEqual(code, 1, out)
+            self.assertEqual(out.splitlines()[-1], "전체 검사: 실패 (위의 실패 줄을 본다)", out)
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
