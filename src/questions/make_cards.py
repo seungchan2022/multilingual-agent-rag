@@ -11,7 +11,12 @@
 Gemini의 답 전체를 저장한 파일에 있다: YAML 코드 블록이 끝난 뒤 `c-009: …` 꼴로 시작하는 줄(후보마다 한 줄, 줄 앞의 공백·`-`·`*`는 뗀다).
 그 파일을 `--memo`로 준다. 묶음에 paraphrase 후보가 있는데 `--memo`가 없으면 사용법을 보이고 종료 코드 1로 끝낸다(출력 파일을 만들지 않음).
 단일 사실(single_fact)과 표현 불일치 카드의 칸 9에는 확인용 AI(ChatGPT)의 짝 목록을 접어서 붙인다. 그 답 파일을 `--types`로 준다:
-코드 블록이 있으면 첫 번째 블록 안, 없으면 파일 전체에서 `## c-001` 줄마다 구역을 나누고, 구역 안에서 `- `로 시작하는 줄을 그대로 쓴다.
+코드 블록이 있으면 모든 블록 안, 없으면 파일 전체에서 `## c-001` 줄마다 구역을 나누고, 구역 안에서 `- `로 시작하는 줄을 그대로 쓴다.
+같은 id의 구역이 두 번 나오면 뒤의 것을 쓴다(재요청으로 받은 답을 원래 답 파일 끝에 붙여 저장하는 경우).
+`--types`를 주면 카드를 쓰기 전에 답을 검사한다. 대상은 single_fact·paraphrase 후보 전부다(make_type_check.py가 넣는 범위):
+그 후보의 구역이 없거나 줄이 없는 것, 줄이 `- "조각" → 짝 · 가름 · 핵심 낱말 예|아니오 · 까닭` 꼴이 아닌 것(가름은 같은 말·바꾼 말·이름·짝 없음·가르기 어려움,
+짝이 `없음`이면 가름은 `짝 없음`이고 반대도 같다), 영어 조각·짝의 닫는 따옴표 뒤에 한글 뜻 괄호가 없는 것.
+문제가 있으면 카드를 쓰지 않고 후보마다 문제를 보인 뒤, 같은 ChatGPT 채팅에 붙여 넣을 재요청 글을 보이고 종료 코드 1로 끝낸다.
 single_fact·paraphrase 후보 가운데 질문 언어나 근거 언어가 영어인 것이 있는데 `--types`가 없으면 사용법을 보이고 종료 코드 1로 끝낸다(한국어 묶음은 선택).
 """
 import os, re, sys
@@ -34,6 +39,10 @@ NO_MEMO = "Gemini가 적은 바꾼 말이 없다."
 MEMO_RE = re.compile(r"^\s*[-*]?\s*(c-\d{3}):\s*(.*\S)\s*$")
 TYPES_HEAD_RE = re.compile(r"^##\s*(c-\d{3})\s*$")
 TYPES_TEMPLATE = "- 질문 조각 → 근거 구절의 짝 · 가름"
+TYPES_KINDS = ("같은 말", "바꾼 말", "이름", "짝 없음", "가르기 어려움")
+TYPES_KEY = ("핵심 낱말 예", "핵심 낱말 아니오")
+REREQUEST = "아래 후보의 목록이 빠졌거나 지시문 4번 형식과 다르다. 이 후보들만 지시문 4번 형식대로 다시 써라. 코드 블록 하나에 넣는다: "
+OLD_SHAPE = "찾기 기록이 예전 모양이다. 후보 검사(check_candidates.py)를 먼저 통과시킨다"
 NO_TYPES = "ChatGPT 답에 이 후보가 없다"
 MEANING_Q = ("- 판단할 질문: ChatGPT 목록에서 \"가르기 어려움\"이나 \"짝 없음\"인 줄마다, 그 조각의 뜻이 문서에 있는가? "
              "(근거 구절 밖이어도 문서에 있으면 된다. 없으면 질문이 문서에 없는 전제를 깔고 있으므로 다른 줄과 관계없이 고치거나 버린다)")
@@ -447,19 +456,71 @@ def read_memos(path):
 
 
 def read_types(path):
-    """ChatGPT 답 파일에서 `## c-001` 구역마다 `- `로 시작하는 줄들을 {id: [줄]}로 꺼낸다(코드 블록이 있으면 첫 블록 안)."""
+    """ChatGPT 답 파일에서 `## c-001` 구역마다 `- `로 시작하는 줄들을 {id: [줄]}로 꺼낸다.
+    코드 블록이 있으면 모든 블록 안만 읽고(재요청 답을 파일 끝에 붙여 저장해도 읽히게), 없으면 파일 전체를 읽는다.
+    같은 id의 구역이 두 번 나오면 뒤의 것을 쓴다(다시 받은 답이 앞의 답을 대신한다)."""
     lines = Path(path).read_text(encoding="utf-8").split("\n")
-    fences = [i for i, l in enumerate(lines) if l.lstrip().startswith("```")]
-    if fences:
-        lines = lines[fences[0] + 1:fences[1]] if len(fences) > 1 else lines[fences[0] + 1:]
+    if any(l.lstrip().startswith("```") for l in lines):
+        inside, kept = False, []
+        for l in lines:
+            if l.lstrip().startswith("```"):
+                inside = not inside
+            elif inside:
+                kept.append(l)
+        lines = kept
     types, cur = {}, None
     for l in lines:
         m = TYPES_HEAD_RE.match(l)
         if m:
-            cur = types.setdefault(m.group(1), [])
+            cur = types[m.group(1)] = []
         elif cur is not None and l.startswith("- ") and not l.startswith(TYPES_TEMPLATE):
             cur.append(l.rstrip())
     return types
+
+
+def check_type_line(line, q_lang, e_lang):
+    """답 한 줄의 문제를 글로 돌려준다(없으면 빈 목록). 줄의 내용은 화면에 내지 않는다."""
+    if " → " not in line:
+        return [" → 가 없음"]
+    piece, rest = line[2:].split(" → ", 1)
+    cells = rest.split(" · ")
+    if len(cells) != 4:
+        return [f"칸 수가 4가 아님({len(cells)}칸): 짝 · 가름 · 핵심 낱말 예/아니오 · 까닭"]
+    pair, kind, key, reason = (x.strip() for x in cells)
+    out = []
+    if not piece.strip():
+        out.append("질문 조각이 비었음")
+    if kind not in TYPES_KINDS:
+        out.append("가름이 다섯 값(같은 말 · 바꾼 말 · 이름 · 짝 없음 · 가르기 어려움) 가운데 하나가 아님")
+    if key not in TYPES_KEY:
+        out.append("셋째 칸이 `핵심 낱말 예` 또는 `핵심 낱말 아니오`가 아님")
+    if not reason:
+        out.append("까닭이 비었음")
+    if (pair == "없음") != (kind == "짝 없음"):
+        out.append("짝이 `없음`인 것과 가름이 `짝 없음`인 것이 서로 맞지 않음")
+    for name, text, lang in (("질문 조각", piece, q_lang), ("짝", pair, e_lang)):
+        if lang != "en":
+            continue
+        for m in re.finditer(r'"([^"]*)"', text):
+            if re.search(r"[A-Za-z]", m.group(1)) and not re.match(r"\([^)]*[가-힣][^)]*\)", text[m.end():]):
+                out.append(f"영어 {name}의 닫는 따옴표 바로 뒤에 한국어 뜻 괄호가 없음")
+                break
+    return out
+
+
+def check_types(typed, types):
+    """single_fact·paraphrase 후보마다 답의 문제를 {id: [글]}로 돌려준다. 문제 없는 후보는 넣지 않는다."""
+    problems = {}
+    for c in typed:
+        lines = types.get(c["id"])
+        if not lines:
+            problems[c["id"]] = ["답에 이 후보의 구역이 없거나 줄이 하나도 없음"]
+            continue
+        found = [f"{n}번째 줄: {p}" for n, line in enumerate(lines, 1)
+                 for p in check_type_line(line, c.get("question_language"), c.get("evidence_language"))]
+        if found:
+            problems[c["id"]] = found
+    return problems
 
 
 def build(data, batch_name, out_dir, memos, types=None):
@@ -471,11 +532,19 @@ def build(data, batch_name, out_dir, memos, types=None):
 
 
 def stringify_terms(data):
-    """찾을 말을 글자로 바꾼다: 따옴표 없이 적은 숫자(예: 1969)는 글자로, 옛 모양의 `{term, hits}` 항목은 term만 꺼낸다."""
+    """찾을 말을 글자로 바꾼다: 따옴표 없이 적은 숫자(예: 1969)는 글자로, 옛 모양의 `{term, hits}` 항목은 term만 꺼낸다.
+    `term`이 없는 사전처럼 글자로 바꿀 수 없는 항목이 있으면 ValueError."""
     for c in data:
         for field in ("opposite_check", "same_language_check"):
             if isinstance(c.get(field), list):
-                c[field] = [str(t["term"]) if isinstance(t, dict) else str(t) for t in c[field]]
+                terms = []
+                for t in c[field]:
+                    if isinstance(t, dict):
+                        t = t.get("term")
+                    if not isinstance(t, (str, int, float)) or isinstance(t, bool):
+                        raise ValueError(OLD_SHAPE)
+                    terms.append(str(t))
+                c[field] = terms
 
 
 def main():
@@ -530,15 +599,25 @@ def main():
         except (OSError, UnicodeDecodeError) as err:
             print(f"ChatGPT 답 파일을 읽지 못함: {err}")
             return 1
-    stringify_terms(data)
+    try:
+        stringify_terms(data)
+    except ValueError as err:
+        print(err)
+        return 1
+    if types is not None:
+        problems = check_types(typed, types)
+        if problems:
+            for cid, found in problems.items():
+                print(f"ChatGPT 답의 문제  {cid}")
+                for f in found:
+                    print(f"  {f}")
+            rule = "-" * 60
+            print(f"카드를 쓰지 않음. 같은 ChatGPT 채팅에 아래 글을 붙여 보내고, 받은 답을 답 파일 끝에 붙여 저장한 뒤 다시 돌린다(같은 후보는 뒤의 답을 쓴다).\n{rule}\n{REREQUEST}{', '.join(problems)}\n{rule}")
+            return 1
     dest.parent.mkdir(parents=True, exist_ok=True)
     out_dir = dest.parent.resolve()
     dest.write_text(build(data, src.name, out_dir, memos, types), encoding="utf-8")
     print(f"카드 {len(data)}개를 씀: {dest}")
-    if types is not None:
-        missing = [c["id"] for c in typed if c["id"] not in types]
-        if missing:
-            print(f"주의: ChatGPT 답에 없는 후보: {', '.join(missing)}")
     return 0
 
 

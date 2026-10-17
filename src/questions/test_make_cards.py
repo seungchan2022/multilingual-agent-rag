@@ -17,7 +17,7 @@ MARKDOWN = CORPUS / "markdown"
 URLS = {d["doc_id"]: d["url"] for d in yaml.safe_load((CORPUS / "documents.yaml").read_text(encoding="utf-8"))["documents"]}
 REAL_BATCH = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko.yaml"
 REAL_MEMO = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko_full.md"
-REAL_TYPES = ROOT / "research_notes" / "stage3_dev" / "chat3" / "type_check_batch1_answer2.md"
+REAL_TYPES = ROOT / "research_notes" / "stage3_dev" / "chat3" / "type_check_batch1_answer4.md"
 
 
 def lines_of(doc_id):
@@ -449,7 +449,7 @@ class MakeCardsTest(unittest.TestCase):
 
     def _any_types(self):
         """영어 후보 시험용: --types 필수 규칙만 넘기는 빈 구역 답 파일."""
-        return self._memo_file("## c-001\n- 줄\n## c-002\n- 줄\n")
+        return self._memo_file("## c-001\n- \"가\" → \"나\"(나) · 같은 말 · 핵심 낱말 예 · 까닭\n## c-002\n- \"가\" → \"나\"(나) · 같은 말 · 핵심 낱말 예 · 까닭\n")
 
     TYPES_HEADER = "- 질문 조각 → 근거 구절의 짝 · 가름 · 핵심 낱말 예/아니오 · 까닭"
     DETAILS = "<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>"
@@ -459,7 +459,7 @@ class MakeCardsTest(unittest.TestCase):
 
     def _types_text(self):
         return ("앞 설명\n```text\n## c-001\n" + self.TYPES_HEADER + "\n- \"가\" → \"A\"(에이) · 같은 말 · 핵심 낱말 예 · 까닭1\n"
-                "- \"나\" → \"B\"(비) · 바꾼 말 · 핵심 낱말 예 · 까닭2\n\n## c-002\n" + self.TYPES_HEADER + "\n- \"다\" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n```\n뒤 설명\n- 코드 밖 줄\n")
+                "- \"나\" → \"B\"(비) · 바꾼 말 · 핵심 낱말 예 · 까닭2\n\n## c-002\n" + self.TYPES_HEADER + "\n- \"다\" → 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n```\n뒤 설명\n- 코드 밖 줄\n")
 
     def test_read_types_fenced_and_unfenced(self):
         import importlib.util
@@ -471,7 +471,7 @@ class MakeCardsTest(unittest.TestCase):
         fenced = mod.read_types(self._memo_file(self._types_text()))
         self.assertEqual(list(fenced), ["c-001", "c-002"])
         self.assertEqual(fenced["c-001"], ['- "가" → "A"(에이) · 같은 말 · 핵심 낱말 예 · 까닭1', '- "나" → "B"(비) · 바꾼 말 · 핵심 낱말 예 · 까닭2'])
-        self.assertEqual(fenced["c-002"], ['- "다" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3'])
+        self.assertEqual(fenced["c-002"], ['- "다" → 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3'])
         plain = mod.read_types(self._memo_file("## c-005\n" + self.TYPES_HEADER + "\n- 줄 하나\n## c-006\n- 줄 둘\n- 줄 셋\n"))
         self.assertEqual(plain, {"c-005": ["- 줄 하나"], "c-006": ["- 줄 둘", "- 줄 셋"]})
 
@@ -488,7 +488,7 @@ class MakeCardsTest(unittest.TestCase):
         self.assertNotIn(self.PA_Q, i9[0])
         gem = i9[1].index("<details><summary>Gemini가")
         self.assertTrue(gem < i9[1].index(self.DETAILS) < i9[1].index(self.PA_Q))
-        self.assertIn('\n- "다" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n', i9[1])
+        self.assertIn('\n- "다" → 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n', i9[1])
         self.assertNotIn(self.SF_Q, i9[1])
         # 뜻이 문서에 있는지 묻는 질문은 ChatGPT 목록 바로 뒤, 유형 질문보다 먼저 온다
         self.assertTrue(i9[0].index(self.DETAILS) < i9[0].index(self.MEANING_Q) < i9[0].index(self.SF_Q))
@@ -498,17 +498,88 @@ class MakeCardsTest(unittest.TestCase):
                 self.assertNotIn(bad, i9[k])
         self.assertNotIn("주의", r.proc.stdout)
 
-    def test_types_missing_id_message_and_warning(self):
+    def test_types_missing_id_stops_with_rerequest(self):
         items = [candidate(cid="c-001"), candidate(cid="c-007"), candidate(cid="c-008", ctype="paraphrase"), candidate(cid="c-009", ctype="multi_doc")]
         r = Run(self, items).go(memo=self._memo_file("- c-008: 바꿈\n"), types=self._memo_file(self._types_text()))
+        self.assertEqual(r.proc.returncode, 1)
+        self.assertFalse(r.out.exists())
+        out = r.proc.stdout
+        self.assertIn("아래 후보의 목록이 빠졌거나 지시문 4번 형식과 다르다. 이 후보들만 지시문 4번 형식대로 다시 써라. 코드 블록 하나에 넣는다: c-007, c-008\n", out)
+        self.assertNotIn("c-009", out)
+        self.assertNotIn("c-001", out)
+        self.assertNotIn("시험 질문", out)
+
+    def test_types_missing_multi_doc_is_fine(self):
+        items = [candidate(cid="c-001"), candidate(cid="c-009", ctype="multi_doc")]
+        r = Run(self, items).go(types=self._memo_file(self._types_text()))
         self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
-        i9 = [item_text(c.replace("\n---\n", ""), 9) for c in split_cards(r.text)]
-        self.assertIn("\nChatGPT 답에 이 후보가 없다\n", i9[1])
-        self.assertIn("\nChatGPT 답에 이 후보가 없다\n", i9[2])
-        self.assertNotIn("이 후보가 없다", i9[0])
-        self.assertIn("주의: ChatGPT 답에 없는 후보: c-007, c-008\n", r.proc.stdout)
-        self.assertNotIn("시험 질문", r.proc.stdout)
-        self.assertNotIn("c-009", r.proc.stdout.split("주의")[1])
+
+    def test_types_bad_lines_stop(self):
+        cases = {
+            "칸 수": ('- "가" → "A"(에이) · 같은 말 · 핵심 낱말 예', "칸 수가 4가 아님"),
+            "가름 값": ('- "가" → "A"(에이) · 비슷한 말 · 핵심 낱말 예 · 까닭', "가름이 다섯 값"),
+            "핵심 낱말": ('- "가" → "A"(에이) · 같은 말 · 핵심 어휘 예 · 까닭', "셋째 칸"),
+            "없음 짝": ('- "가" → 없음 · 같은 말 · 핵심 낱말 예 · 까닭', "서로 맞지 않음"),
+            "짝 없음 가름인데 짝이 있음": ('- "가" → "A"(에이) · 짝 없음 · 핵심 낱말 예 · 까닭', "서로 맞지 않음"),
+            "빈 까닭": ('- "가" → "A"(에이) · 같은 말 · 핵심 낱말 예 · ', "칸 수가 4가 아님"),
+            "화살표 없음": ('- "가" "A" · 같은 말 · 핵심 낱말 예 · 까닭', "→ 가 없음"),
+            "영어 조각 뜻 없음": ('- "founded" → "창단" · 바꾼 말 · 핵심 낱말 예 · 까닭', "한국어 뜻 괄호가 없음"),
+            "영어 짝 뜻 없음": ('- "가" → "founded" · 바꾼 말 · 핵심 낱말 예 · 까닭', "한국어 뜻 괄호가 없음"),
+            "영어 뜻 괄호에 한글 없음": ('- "가" → "founded"(abc) · 바꾼 말 · 핵심 낱말 예 · 까닭', "한국어 뜻 괄호가 없음"),
+        }
+        for name, (line, problem) in cases.items():
+            c = candidate(cid="c-001", doc="wiki-en-chuncheon", el="en")
+            if name.startswith("영어 조각"):
+                c["evidence_language"] = "ko"
+            elif name.startswith("영어 짝") or name.startswith("영어 뜻"):
+                c["question_language"] = "ko"
+            elif name in ("칸 수", "가름 값", "핵심 낱말", "없음 짝", "짝 없음 가름인데 짝이 있음", "빈 까닭", "화살표 없음"):
+                c["question_language"] = c["evidence_language"] = "ko"
+            r = Run(self, [c]).go(types=self._memo_file("## c-001\n" + line + "\n"))
+            self.assertEqual(r.proc.returncode, 1, name)
+            self.assertFalse(r.out.exists(), name)
+            self.assertIn("c-001", r.proc.stdout, name)
+            self.assertIn(problem, r.proc.stdout, name)
+            self.assertIn("다시 써라. 코드 블록 하나에 넣는다: c-001", r.proc.stdout, name)
+
+    def test_types_korean_piece_needs_no_paren(self):
+        c = candidate(cid="c-001", doc="wiki-en-chuncheon", el="en")
+        c["question_language"] = "ko"
+        r = Run(self, [c]).go(types=self._memo_file('## c-001\n- "창단" → "founded"(창단된) · 같은 말 · 핵심 낱말 예 · 까닭\n'))
+        self.assertEqual(r.proc.returncode, 0, r.proc.stderr)
+
+    def test_types_duplicate_section_uses_later(self):
+        first = '## c-001\n- "앞" → "A" · 같은 말 · 핵심 낱말 예\n'
+        second = '```text\n## c-001\n- "뒤" → "B" · 바꾼 말 · 핵심 낱말 예 · 뒤의 까닭\n```\n'
+        r = Run(self, [candidate()]).go(types=self._memo_file("```text\n" + first + "```\n" + second))
+        self.assertEqual(r.proc.returncode, 0, r.proc.stdout)
+        self.assertIn("뒤의 까닭", r.text)
+        self.assertNotIn('"앞"', r.text)
+
+    def test_old_shape_terms_stop_with_message(self):
+        c = candidate(oc=[{"doc_id": "wiki-en-busan", "excerpt": "엉뚱한 글"}])
+        r = Run(self, [c]).go()
+        self.assertEqual(r.proc.returncode, 1)
+        self.assertIn("찾기 기록이 예전 모양이다. 후보 검사(check_candidates.py)를 먼저 통과시킨다", r.proc.stdout)
+        self.assertNotIn("Traceback", r.proc.stderr)
+        self.assertFalse(r.out.exists())
+        c = candidate(oc=[["중첩"]])
+        r = Run(self, [c]).go()
+        self.assertEqual(r.proc.returncode, 1)
+        self.assertNotIn("Traceback", r.proc.stderr)
+
+    def test_types_file_unreadable(self):
+        r = Run(self, [candidate()]).go(types=self.tmp_missing())
+        self.assertEqual(r.proc.returncode, 1)
+        self.assertIn("ChatGPT 답 파일을 읽지 못함", r.proc.stdout)
+
+    def tmp_missing(self):
+        return Path(tempfile.gettempdir()) / "no-such-types-answer.md"
+
+    def test_real_answer4_makes_cards(self):
+        r = Run(self, src=REAL_BATCH).go(memo=REAL_MEMO, types=REAL_TYPES)
+        self.assertEqual(r.proc.returncode, 0, r.proc.stdout)
+        self.assertEqual(len(split_cards(r.text)), 12)
 
     def test_types_required_for_english(self):
         for ctype in ("single_fact", "paraphrase"):
