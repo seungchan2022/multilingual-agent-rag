@@ -120,7 +120,8 @@
 - 표의 합계 줄이나 소계 줄이 그 아래(또는 위) 줄들을 더한 값과 맞지 않으면 그 합계·소계 값으로 질문을 만들지 마라. 더한 줄 가운데 문서에 한 번만 나오는 줄의 값은 써도 된다.
 - 같은 도시의 반대 언어 문서가 같은 것을 다른 값으로 적었으면(예: 두 문서의 자매도시 목록이 서로 다르다) 그것으로 질문을 만들지 마라.
 - 같은 언어의 다른 문서가 같은 것을 다른 값으로 적었어도 그것으로 질문을 만들지 마라. 문서는 모두 하나의 검색 대상에 함께 들어가므로, 다른 문서에 다른 값이 있으면 코퍼스 안에서 답이 둘이 된다. 예: `wiki-ko-suwon`의 행정 구역 표에는 장안구 인구가 날짜 없이 307,151명이고, `portal-ko-suwon-population`의 장안구 동들을 더하면 2021-05-31 기준 277,206명이다. 위의 규칙처럼 반올림·버림·어림·덜 자세하게 적은 값도 다른 값이고, 기준 날짜가 서로 다르게 적혀 있어 구분되는 값은 서로 다른 사실이다.
-- `required_facts`에는 정답에 꼭 들어가야 하는 사실을 하나씩 적는다. 여러 개이면 모두 있어야 정답이다.
+- `required_facts`에는 답을 내는 데 꼭 필요한 사실을 하나씩 적는다. 문서에 있는 사실과, 그 사실들에서 나오는 결론이다.
+- 사실마다 `in_answer`를 적는다. 그 사실이 정답에 들어가야 하면 `true`, 답을 내는 데만 필요하고 정답에는 없어도 되면 `false`다. 정답 채점은 `true`인 사실이 답에 다 있는지로 한다. 예: 질문이 "두 동의 인구를 합하면 몇 명인가"이고 정답이 "1,342명"이면, 두 동의 인구는 `false`, 합한 값은 `true`다. 질문이 "두 동의 인구는 각각 몇 명인가"이면 두 동의 인구가 모두 `true`다. `true`인 사실이 하나 이상 있어야 하고, 결론 사실(`evidence: []`)은 `true`다. `answer`에는 `true`인 사실이 모두 들어 있어야 한다.
 - 필수 사실마다 그 사실의 근거 구절을 `evidence`에 적는다. 같은 사실이 여러 곳에 있으면 여러 개를 적는다. 그중 어느 것이든 그 사실의 근거가 된다. 찾을 수 있는 것은 빠짐없이 적는다.
 - 다른 필수 사실들에서 나오는 결론(예: "A가 B보다 많다")은 필수 사실로 적고 `evidence`를 `[]`로 둔다.
 - `passage`는 원문에서 글자 그대로 옮긴다. 줄이거나 고치거나 번역하지 마라. 띄어쓰기와 문장 부호도 그대로 둔다.
@@ -153,16 +154,19 @@ YAML로 낸다. 코드 블록 하나에 전부 넣는다. `id`는 `c-001`부터 
   answer: "축구가 더 많다. 축구는 11명, 농구는 5명이 선발로 뛴다"
   required_facts:
     - fact: "축구의 선발은 11명이다"
+      in_answer: false
       evidence:
         - doc_id: "en-football"
           location: "Players and equipment"
           passage: "Each team consists of a maximum of eleven players"
     - fact: "농구의 선발은 5명이다"
+      in_answer: false
       evidence:
         - doc_id: "en-basketball"
           location: "Rules"
           passage: "Five players from each team may be on the court at one time"
     - fact: "축구가 농구보다 선발 인원이 많다"
+      in_answer: true
       evidence: []
   opposite_check:
     - "선발"
@@ -181,6 +185,7 @@ YAML로 낸다. 코드 블록 하나에 전부 넣는다. `id`는 `c-001`부터 
   answer: "11명이다"
   required_facts:
     - fact: "축구의 선발 인원은 11명이다"
+      in_answer: true
       evidence:
         - doc_id: "ko-sports-table"
           location: "종목별 비교 표"

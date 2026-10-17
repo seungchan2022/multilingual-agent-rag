@@ -9,8 +9,9 @@
   evidence_language: ""     # ko 또는 en. 이 질문의 모든 근거 구절이 있는 문서의 언어
   type: ""                  # single_fact, table_numeric, multi_doc, paraphrase 중 하나
   answer: ""                # 정답 문장
-  required_facts:           # 정답에 꼭 들어가야 하는 사실. 여러 개이면 모두 있어야 정답이다
+  required_facts:           # 답을 내는 데 꼭 필요한 사실. 문서에 있는 사실과 그 사실들에서 나오는 결론
     - fact: ""              # 사실 하나
+      in_answer: true       # 이 사실이 정답에 들어가면 true(정답 채점에 쓴다), 답을 내는 데만 필요하면 false. 결론 사실은 true
       evidence:             # 이 사실의 근거 구절. 여러 개이면 어느 것이든 근거가 된다. 다른 사실들에서 나오는 결론이면 []
         - doc_id: ""        # 2단계 문서 목록의 식별자
           location: ""      # 문서 안의 위치 (절 제목 등)
