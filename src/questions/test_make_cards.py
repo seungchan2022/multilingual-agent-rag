@@ -430,6 +430,7 @@ class MakeCardsTest(unittest.TestCase):
     DETAILS = "<details><summary>ChatGPT(확인용 AI)의 짝 목록</summary>"
     SF_Q = "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 없는가? (있으면 단일 사실이 아니다)"
     PA_Q = "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 하나 이상 있는가?"
+    MEANING_Q = "- 판단할 질문: ChatGPT 목록에서 \"가르기 어려움\"이나 \"짝 없음\"인 줄마다, 그 조각의 뜻이 문서에 있는가? "
 
     def _types_text(self):
         return ("앞 설명\n```text\n## c-001\n" + self.TYPES_HEADER + "\n- \"가\" → \"A\"(에이) · 같은 말 · 핵심 낱말 예 · 까닭1\n"
@@ -464,6 +465,9 @@ class MakeCardsTest(unittest.TestCase):
         self.assertTrue(gem < i9[1].index(self.DETAILS) < i9[1].index(self.PA_Q))
         self.assertIn('\n- "다" → 짝 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭3\n', i9[1])
         self.assertNotIn(self.SF_Q, i9[1])
+        # 뜻이 문서에 있는지 묻는 질문은 ChatGPT 목록 바로 뒤, 유형 질문보다 먼저 온다
+        self.assertTrue(i9[0].index(self.DETAILS) < i9[0].index(self.MEANING_Q) < i9[0].index(self.SF_Q))
+        self.assertTrue(i9[1].index(self.DETAILS) < i9[1].index(self.MEANING_Q) < i9[1].index(self.PA_Q))
         for k in (2, 3):
             for bad in ("ChatGPT", "<details>"):
                 self.assertNotIn(bad, i9[k])

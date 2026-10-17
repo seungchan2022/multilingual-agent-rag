@@ -35,6 +35,8 @@ MEMO_RE = re.compile(r"^\s*[-*]?\s*(c-\d{3}):\s*(.*\S)\s*$")
 TYPES_HEAD_RE = re.compile(r"^##\s*(c-\d{3})\s*$")
 TYPES_TEMPLATE = "- 질문 조각 → 근거 구절의 짝 · 가름"
 NO_TYPES = "ChatGPT 답에 이 후보가 없다"
+MEANING_Q = ("- 판단할 질문: ChatGPT 목록에서 \"가르기 어려움\"이나 \"짝 없음\"인 줄마다, 그 조각의 뜻이 문서에 있는가? "
+             "(근거 구절 밖이어도 문서에 있으면 된다. 없으면 질문이 문서에 없는 전제를 깔고 있으므로 다른 줄과 관계없이 고치거나 버린다)")
 
 INTRO = (
     "이 파일은 후보마다 카드 하나로, 순서표(data/questions/final_set_guide.md)의 \"대조할 것\"을 따라 카드마다 칸을 채운다. "
@@ -283,7 +285,7 @@ def paraphrase_body(c, memos, types=None):
         memos.get(c["id"], NO_MEMO),
         "",
         "</details>",
-        ""] + (types_block(c, types) + ["", "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 하나 이상 있는가?"] if types is not None else [])
+        ""] + (types_block(c, types) + ["", MEANING_Q, "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 하나 이상 있는가?"] if types is not None else [])
 
 
 def types_block(c, types):
@@ -386,7 +388,7 @@ def answered_card(c, out_dir, memos, types=None):
         f"- 할 일: 이 후보의 유형은 {type_label(c['type'])}다. 아래 뜻과 견준다.",
         f"- {TYPE_MEANING.get(c['type'], '')} 두 유형에 다 맞으면 여러 문서 연결 → 표·수치·조건 → 단일 사실/표현 불일치 순서로 먼저 맞는 것이다.",
         "- 판단할 질문: 이 후보가 이 뜻에 맞는가?"]
-        + (["", *types_block(c, types), "", "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 없는가? (있으면 단일 사실이 아니다)"]
+        + (["", *types_block(c, types), "", MEANING_Q, "- 판단할 질문: ChatGPT 목록에서 \"핵심 낱말 예\"인 줄에 \"바꾼 말\"이 없는가? (있으면 단일 사실이 아니다)"]
            if types is not None and c["type"] == "single_fact" else []))
     return out + verdict_block() + details_block(c)
 
