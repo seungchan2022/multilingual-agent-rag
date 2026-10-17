@@ -208,7 +208,7 @@ uv run python src/questions/check_candidates.py research_notes/stage3_dev/chat4/
 
 검사하는 것: 칸이 다 있는가, 개수와 유형별 수, 도시 갈래 6개씩, 근거 구절이 원문에 글자 그대로 있는가, 쓰면 안 되는 영어 소개 글 두 개를 썼는가, 앞 묶음과 같은 질문이나 구절을 썼는가, `opposite_check`(반대 언어 찾을 말)와 `same_language_check`(같은 언어 찾을 말)의 언어와 개수가 맞고 10곳을 넘게 나오는 흔한 말이 없는가, 글자 값이 숫자로 읽히지 않았는가. 마지막 줄이 `전체 검사: 통과`가 아니면 "문제가 생겼을 때"를 본다(그 바로 앞의 `후보 12개 가운데 N개 통과, 묶음 구성 …` 줄은 몇 개가 통과했는지 보는 줄이다).
 
-**개발용:** 검사를 통과하면 결과를 Claude에게 알리고 멈춘다. Claude가 판정 기록 파일(`research_notes/stage3_dev/chat4/verdicts_batch1_ko-ko.md`처럼 묶음마다 하나)을 만들어 준다.
+**개발용:** 검사를 통과하면 결과를 Claude에게 알리고 6단계로 간다. 판정은 따로 파일을 만들지 않고 6단계의 대조 카드에 적는다(`decisions/stage3.md` 2026-10-15).
 
 ## 6. 후보를 하나씩 원문과 대조한다
 
