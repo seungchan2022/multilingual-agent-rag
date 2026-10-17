@@ -148,9 +148,10 @@ def ev(doc, passage, loc="고유위치"):
 
 def answered(cid, typ, ql, el, evs, tag):
     """답 있는 후보. evs는 [(doc, passage), ...]이고 둘 이상이면 사실을 나누고 결론 사실을 하나 더 붙인다."""
-    facts = [{"fact": f"사실 {cid}-{i}", "evidence": [ev(d, p, f"고유위치 {cid}-{i}")]} for i, (d, p) in enumerate(evs)]
-    if len(evs) > 1:
-        facts.append({"fact": f"사실 {cid}-결론", "evidence": []})
+    multi = len(evs) > 1   # 둘 이상이면 근거 사실 둘은 in_answer false, 결론 사실만 true
+    facts = [{"fact": f"사실 {cid}-{i}", "in_answer": not multi, "evidence": [ev(d, p, f"고유위치 {cid}-{i}")]} for i, (d, p) in enumerate(evs)]
+    if multi:
+        facts.append({"fact": f"사실 {cid}-결론", "in_answer": True, "evidence": []})
     c = {"id": cid, "question": f"{tag} 질문 {cid}", "question_language": ql, "evidence_language": el, "type": typ,
             "answer": f"{tag} 정답 {cid}", "required_facts": facts, "opposite_check": list(TERMS[el]), "same_language_check": list(SAME_TERMS[el])}
     return c
@@ -374,7 +375,7 @@ class CheckCandidatesTest(unittest.TestCase):
         na[0]["answer"] = "답이 있음"
         self.assertFailsFor("c-049", na, "no-answer")
         na = make_no_answer()
-        na[2]["required_facts"] = [{"fact": "사실", "evidence": []}]
+        na[2]["required_facts"] = [{"fact": "사실", "in_answer": True, "evidence": []}]
         self.assertFailsFor("c-051", na, "no-answer")
 
     def test_17_all_evidence_empty(self):
@@ -382,6 +383,33 @@ class CheckCandidatesTest(unittest.TestCase):
         b[0]["required_facts"][0]["evidence"] = []
         out = self.assertFailsFor("c-001", b)
         self.assertIn("근거(evidence)가 있는 사실이 하나도 없음", out)
+
+    def test_17b_in_answer(self):
+        b = make_batch("ko-ko")
+        self.assertEqual([f["in_answer"] for f in b[4]["required_facts"]], [False, False, True])
+        self.assertPasses(b)   # multi_doc: false+false+true
+        b[0]["required_facts"][0]["in_answer"] = "true"
+        b[1]["required_facts"][0]["in_answer"] = "false"
+        del b[2]["required_facts"][0]["in_answer"]
+        b[3]["required_facts"][0]["in_answer"] = 1
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("required_facts[0].in_answer: true나 false가 아님 (따옴표 없이 true나 false로 적는다)", out)
+        self.assertEqual(out.count("required_facts[0].in_answer: true나 false가 아님\n"), 2, out)
+        b = make_batch("ko-ko")
+        b[4]["required_facts"][2]["in_answer"] = False
+        out = self.assertFailsFor("c-005", b)
+        self.assertIn("required_facts[2].in_answer: 근거 구절이 없는 결론 사실은 true여야 함", out)
+        self.assertIn("required_facts: in_answer가 true인 사실이 하나도 없음 (정답에 들어갈 사실을 true로 적는다)", out)
+        b = make_batch("ko-ko")
+        b[0]["required_facts"][0]["in_answer"] = False
+        out = self.assertFailsFor("c-001", b)
+        self.assertIn("required_facts: in_answer가 true인 사실이 하나도 없음 (정답에 들어갈 사실을 true로 적는다)", out)
+        self.assertNotIn("결론 사실은 true여야 함", out)
+        code, out = self.run_check(b, hide=True)
+        self.assertIn("in_answer가 true인 사실이 하나도 없음", out)
+        for c in b:
+            for f in c["required_facts"]:
+                self.assertNotIn(f["fact"], out)
 
     def test_18_no_table_passage(self):
         b = make_batch("ko-ko", with_table=False)

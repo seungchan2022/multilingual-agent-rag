@@ -14,6 +14,7 @@ YAML 블록 글자(|)가 붙이는 맨 끝 줄바꿈 하나, 그리고 표 줄�
 답 있는 후보는 opposite_check(반대 언어 문서 14개에서 찾을 말)와 same_language_check(근거 문서와 같은 언어 문서 14개, 근거 문서 포함에서 찾을 말)를 본다.
 웹 AI는 찾을 말만 글자로 적고, 찾을 말이 나오는 곳(걸린 곳)은 hits.py가 찾는다. 찾을 말은 3개 이상이어야 하고, opposite_check는 반대 언어, same_language_check는 근거 문서의 언어여야 한다.
 찾을 말 하나가 찾는 문서들에서 10곳을 넘게 나오면 받지 않는다(same_language_check는 이 후보의 근거 구절 안에서 나오는 곳을 세지 않는다).
+답 있는 후보의 사실마다 in_answer(정답에 들어갈 사실이면 true, 답을 내는 데만 쓰면 false)가 true나 false여야 하고, true인 사실이 하나 이상 있어야 하며, 근거 구절이 없는 결론 사실은 true여야 한다.
 후보마다 찾을 말의 개수와 프로그램이 찾은 걸린 곳의 수를 두 칸 각각 한 줄씩 보인다.
 답 있는 후보의 근거 구절이 data/questions/known_conflicts.json("알려진 부딪히는 값" 목록)의 항목과 자리, 값, 해 가운데 하나라도 겹치면 실패한다. 넓게 잡으므로 관계없는 구절이 걸릴 수 있다.
 --hide를 주면 후보와 원문의 글자(질문, 답, 사실, 구절, 위치, 찾을 말 등)를 출력에 넣지 않고 id, 칸 경로, doc_id, 개수, 규칙 이름만 보인다.
@@ -360,13 +361,20 @@ def check_answered(c, problems, info):
             problems.append(f"{p}: 키와 값 묶음이 아님")
             continue
         nonempty_str(f, "fact", problems, f"{p}.fact")
+        ia = f.get("in_answer")
+        if not isinstance(ia, bool):
+            problems.append(f"{p}.in_answer: true나 false가 아님" + (" (따옴표 없이 true나 false로 적는다)" if ia in ("true", "false") else ""))
         ev = f.get("evidence")
         if not isinstance(ev, list):
             problems.append(f"{p}.evidence: 없거나 목록이 아님")
             continue
         with_evidence += bool(ev)
+        if ev == [] and ia is False:
+            problems.append(f"{p}.in_answer: 근거 구절이 없는 결론 사실은 true여야 함")
         for j, item in enumerate(ev):
             check_item(item, f"{p}.evidence[{j}]", el, problems, info, True)
+    if not any(isinstance(f, dict) and f.get("in_answer") is True for f in facts):
+        problems.append("required_facts: in_answer가 true인 사실이 하나도 없음 (정답에 들어갈 사실을 true로 적는다)")
     if not with_evidence:
         problems.append("required_facts: 근거(evidence)가 있는 사실이 하나도 없음")
     if el:
