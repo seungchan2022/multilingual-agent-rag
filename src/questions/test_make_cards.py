@@ -18,6 +18,9 @@ URLS = {d["doc_id"]: d["url"] for d in yaml.safe_load((CORPUS / "documents.yaml"
 REAL_BATCH = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko.yaml"
 REAL_MEMO = ROOT / "research_notes" / "stage3_dev" / "chat3" / "batch1_ko-ko_full.md"
 REAL_TYPES = ROOT / "research_notes" / "stage3_dev" / "chat3" / "type_check_batch1_answer4.md"
+REAL2_BATCH = ROOT / "research_notes" / "stage3_dev" / "chat4" / "batch2_en-en.yaml"
+REAL2_MEMO = ROOT / "research_notes" / "stage3_dev" / "chat4" / "batch2_en-en_full.md"
+REAL2_TYPES = ROOT / "research_notes" / "stage3_dev" / "chat4" / "type_check_batch2_en-en_answer.md"
 
 
 def lines_of(doc_id):
@@ -74,6 +77,12 @@ def check_labels(tc, card):
             used += 1
             tc.assertIn(label, head, f"{label} 이(가) 후보 블록에 없음: {line}")
     tc.assertGreater(used, 0)
+
+
+def rerequest_of(stdout):
+    """출력에서 가로줄 두 개 사이의 재요청 글."""
+    parts = stdout.split("-" * 60 + "\n")
+    return parts[1] if len(parts) >= 3 else ""
 
 
 class Run:
@@ -514,7 +523,7 @@ class MakeCardsTest(unittest.TestCase):
         self.assertEqual(r.proc.returncode, 1)
         self.assertFalse(r.out.exists())
         out = r.proc.stdout
-        self.assertIn("아래 후보의 목록이 빠졌거나 지시문 4번 형식과 다르다. 이 후보들만 지시문 4번 형식대로 다시 써라. 코드 블록 하나에 넣는다: c-007, c-008\n", out)
+        self.assertIn("아래 후보들의 목록에 문제가 있다. 이 후보들만 지시문 4번 형식대로, 질문 전체를 빠짐없이 조각으로 나눠 다시 써라. 코드 블록 하나에 넣는다.\n- c-007: 이 후보의 목록이 없다\n- c-008: 이 후보의 목록이 없다\n", out)
         self.assertNotIn("c-009", out)
         self.assertNotIn("c-001", out)
         self.assertNotIn("가 나", out)
@@ -550,7 +559,7 @@ class MakeCardsTest(unittest.TestCase):
             self.assertFalse(r.out.exists(), name)
             self.assertIn("c-001", r.proc.stdout, name)
             self.assertIn(problem, r.proc.stdout, name)
-            self.assertIn("다시 써라. 코드 블록 하나에 넣는다: c-001", r.proc.stdout, name)
+            self.assertRegex(rerequest_of(r.proc.stdout), rf"- c-001: 1번째 줄: .*{re.escape(problem)}", name)
 
     def test_types_korean_piece_needs_no_paren(self):
         c = candidate(cid="c-001", doc="wiki-en-chuncheon", el="en", question="창단")
@@ -601,8 +610,22 @@ class MakeCardsTest(unittest.TestCase):
         self.assertFalse(r.out.exists())
         self.assertIn("ChatGPT 답의 문제  c-010", r.proc.stdout)
         self.assertIn("질문에서 조각으로 덮이지 않은 부분이 있음", r.proc.stdout)
-        self.assertNotIn("전소", r.proc.stdout)
-        self.assertIn("다시 써라. 코드 블록 하나에 넣는다: c-010\n", r.proc.stdout)
+        self.assertNotIn("전소", r.proc.stdout.replace(rerequest_of(r.proc.stdout), ""))
+        self.assertIn('\n- c-010: 어느 조각에도 들어 있지 않은 질문 글자: "전소된"\n', rerequest_of(r.proc.stdout))
+
+    def test_real_batch2_rerequest_names_missing_pieces(self):
+        r = Run(self, src=REAL2_BATCH).go(memo=REAL2_MEMO, types=REAL2_TYPES)
+        self.assertEqual(r.proc.returncode, 1, r.proc.stdout)
+        self.assertFalse(r.out.exists())
+        re_text = rerequest_of(r.proc.stdout)
+        self.assertIn('- c-013: 어느 조각에도 들어 있지 않은 질문 글자: "in"', re_text)
+        self.assertIn('- c-021: 어느 조각에도 들어 있지 않은 질문 글자: "a", "that is"', re_text)
+        self.assertIn('- c-022: 어느 조각에도 들어 있지 않은 질문 글자: "the"', re_text)
+        # 화면 문제 목록(가로줄 밖)에는 질문의 글자가 나오지 않는다
+        screen = r.proc.stdout.replace(re_text, "")
+        self.assertIn("ChatGPT 답의 문제  c-021", screen)
+        self.assertNotIn("that is", screen)
+        self.assertNotIn('"in"', screen)
 
     def test_real_answer4_broken_lines_stop(self):
         bad = {
@@ -628,6 +651,7 @@ class MakeCardsTest(unittest.TestCase):
         r = Run(self, [c]).go(types=self._memo_file('## c-001\n- "가" → "A" · 같은 말 · 핵심 낱말 예 · 까닭\n- "나" → "B" · 같은 말 · 핵심 낱말 예 · 까닭\n- "다" → 없음 · 짝 없음 · 핵심 낱말 아니오 · 까닭\n'.replace('"A"', '"A"(에이)').replace('"B"', '"B"(비)')))
         self.assertEqual(r.proc.returncode, 1, r.proc.stdout)
         self.assertIn("3번째 줄: 조각이 질문에 없음", r.proc.stdout)
+        self.assertIn('- c-001: 3번째 줄의 조각이 질문에 없다: "다"', rerequest_of(r.proc.stdout))
 
     def test_types_english_pieces_ignore_case(self):
         c = candidate(doc="wiki-en-chuncheon", el="en", question="When Was Chuncheon founded?")

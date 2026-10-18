@@ -41,7 +41,7 @@ TYPES_HEAD_RE = re.compile(r"^##\s*(c-\d{3})\s*$")
 TYPES_TEMPLATE = "- 질문 조각 → 근거 구절의 짝 · 가름"
 TYPES_KINDS = ("같은 말", "바꾼 말", "이름", "짝 없음", "가르기 어려움")
 TYPES_KEY = ("핵심 낱말 예", "핵심 낱말 아니오")
-REREQUEST = "아래 후보의 목록이 빠졌거나 지시문 4번 형식과 다르다. 이 후보들만 지시문 4번 형식대로 다시 써라. 코드 블록 하나에 넣는다: "
+REREQUEST = "아래 후보들의 목록에 문제가 있다. 이 후보들만 지시문 4번 형식대로, 질문 전체를 빠짐없이 조각으로 나눠 다시 써라. 코드 블록 하나에 넣는다."
 OLD_SHAPE = "찾기 기록이 예전 모양이다. 후보 검사(check_candidates.py)를 먼저 통과시킨다"
 MEANING_Q = ("- 판단할 질문: ChatGPT 목록에서 \"가르기 어려움\"이나 \"짝 없음\"인 줄마다, 그 조각의 뜻이 문서에 있는가? "
              "(근거 구절 밖이어도 문서에 있으면 된다. 없으면 질문이 문서에 없는 전제를 깔고 있으므로 다른 줄과 관계없이 고치거나 버린다)")
@@ -491,8 +491,9 @@ def piece_text(line):
 
 
 def check_type_cover(question, lines):
-    """조각 덮기 검사: 조각이 질문에 있는지, 조각이 덮지 못한 질문 글자가 있는지. 질문 내용은 내지 않는다."""
-    covered, out = [False] * len(question), []
+    """조각 덮기 검사: 조각이 질문에 있는지, 조각이 덮지 못한 질문 글자가 있는지.
+    (화면용 문제 글, 재요청용 문제 글)을 돌려준다. 화면용에는 질문 내용을 넣지 않고, 재요청용에는 넣는다."""
+    covered, out, ask = [False] * len(question), [], []
     low = question.lower()
     for n, line in enumerate(lines, 1):
         piece = piece_text(line)
@@ -501,6 +502,7 @@ def check_type_cover(question, lines):
         start = low.find(piece.lower())
         if start < 0:
             out.append(f"{n}번째 줄: 조각이 질문에 없음")
+            ask.append(f'{n}번째 줄의 조각이 질문에 없다: "{piece}"')
             continue
         while start >= 0:
             covered[start:start + len(piece)] = [True] * len(piece)
@@ -509,7 +511,11 @@ def check_type_cover(question, lines):
                if not ok and not ch.isspace() and unicodedata.category(ch)[0] not in "PZC")
     if rest:
         out.append(f"질문에서 조각으로 덮이지 않은 부분이 있음({rest}글자)")
-    return out
+        # 덮이지 않은 글자가 이어진 덩어리(사이에 덮인 글자가 없는 것)마다 앞뒤 공백·문장부호를 떼어 보인다
+        chunks = [m.group().strip() for m in re.finditer(r"[^\x00]+", "".join(ch if not ok else "\x00" for ch, ok in zip(question, covered)))]
+        chunks = [t for t in (re.sub(r"^[\s\W_]+|[\s\W_]+$", "", t) for t in chunks) if t]
+        ask.append("어느 조각에도 들어 있지 않은 질문 글자: " + ", ".join(f'"{t}"' for t in chunks))
+    return out, ask
 
 
 def check_type_line(line, q_lang, e_lang):
@@ -545,18 +551,18 @@ def check_type_line(line, q_lang, e_lang):
 
 
 def check_types(typed, types):
-    """single_fact·paraphrase 후보마다 답의 문제를 {id: [글]}로 돌려준다. 문제 없는 후보는 넣지 않는다."""
+    """single_fact·paraphrase 후보마다 답의 문제를 {id: (화면용 [글], 재요청용 [글])}로 돌려준다. 문제 없는 후보는 넣지 않는다."""
     problems = {}
     for c in typed:
         lines = types.get(c["id"])
         if not lines:
-            problems[c["id"]] = ["답에 이 후보의 구역이 없거나 줄이 하나도 없음"]
+            problems[c["id"]] = (["답에 이 후보의 구역이 없거나 줄이 하나도 없음"], ["이 후보의 목록이 없다"])
             continue
         found = [f"{n}번째 줄: {p}" for n, line in enumerate(lines, 1)
                  for p in check_type_line(line, c.get("question_language"), c.get("evidence_language"))]
-        found += check_type_cover(c["question"], lines)
-        if found:
-            problems[c["id"]] = found
+        cover, ask = check_type_cover(c["question"], lines)
+        if found or cover:
+            problems[c["id"]] = (found + cover, found + ask)
     return problems
 
 
@@ -644,12 +650,13 @@ def main():
     if types is not None:
         problems = check_types(typed, types)
         if problems:
-            for cid, found in problems.items():
+            for cid, (found, _) in problems.items():
                 print(f"ChatGPT 답의 문제  {cid}")
                 for f in found:
                     print(f"  {f}")
             rule = "-" * 60
-            print(f"카드를 쓰지 않음. 같은 ChatGPT 채팅에 아래 글을 붙여 보내고, 받은 답을 답 파일 끝에 붙여 저장한 뒤 다시 돌린다(같은 후보는 뒤의 답을 쓴다).\n{rule}\n{REREQUEST}{', '.join(problems)}\n{rule}")
+            ask = "\n".join(f"- {cid}: {a}" for cid, (_, asks) in problems.items() for a in asks)
+            print(f"카드를 쓰지 않음. 같은 ChatGPT 채팅에 아래 글을 붙여 보내고, 받은 답을 답 파일 끝에 붙여 저장한 뒤 다시 돌린다(같은 후보는 뒤의 답을 쓴다).\n{rule}\n{REREQUEST}\n{ask}\n{rule}")
             return 1
     dest.parent.mkdir(parents=True, exist_ok=True)
     out_dir = dest.parent.resolve()
