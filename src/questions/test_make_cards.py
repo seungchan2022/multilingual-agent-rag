@@ -286,6 +286,12 @@ class MakeCardsTest(unittest.TestCase):
         self.assertIn("정답과 사실에서 뽑은 숫자: `1342`, `2026`, `3`, `17`, `18`, `890`, `452`", i3("c-008"))
         self.assertIn("정답과 사실에서 뽑은 숫자: 없음", i3("c-009"))
 
+    def test_number_glued_to_letter_is_not_a_value(self):
+        # 글자 바로 뒤에 붙은 숫자(km2의 2, 효자4동의 4)는 단위나 이름의 일부라 뽑지 않는다. 숫자 뒤에 글자가 붙은 것(2nd, 18세)은 값이다
+        c = candidate()
+        c["answer"] = "60.52 km2, 효자4동, the 2nd, 18세미만"
+        self.assertIn("정답과 사실에서 뽑은 숫자: `60.52`, `2`, `18`\n", item_text(Run(self, [c]).go().text, 3))
+
     def test_answer_value_in_item3(self):
         c = candidate()
         c["answer"] = "파랑새이다"
@@ -614,7 +620,13 @@ class MakeCardsTest(unittest.TestCase):
         self.assertIn('\n- c-010: 어느 조각에도 들어 있지 않은 질문 글자: "전소된"\n', rerequest_of(r.proc.stdout))
 
     def test_real_batch2_rerequest_names_missing_pieces(self):
-        r = Run(self, src=REAL2_BATCH).go(memo=REAL2_MEMO, types=REAL2_TYPES)
+        # 답 파일 끝에는 재요청으로 받은 답이 붙어 있다. 두 번째 `## c-013` 앞까지가 첫 답이다
+        text = REAL2_TYPES.read_text(encoding="utf-8")
+        first = text[:text.index("## c-013", text.index("## c-013") + 1)]
+        r = Run(self, src=REAL2_BATCH)
+        first_answer = r.tmp / "answer_first.md"
+        first_answer.write_text(first, encoding="utf-8")
+        r.go(memo=REAL2_MEMO, types=first_answer)
         self.assertEqual(r.proc.returncode, 1, r.proc.stdout)
         self.assertFalse(r.out.exists())
         re_text = rerequest_of(r.proc.stdout)
