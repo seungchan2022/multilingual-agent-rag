@@ -230,6 +230,25 @@ class Tests(unittest.TestCase):
         self.assertIn("답이 바뀜</span>", diff.split("<h2>씨앗별 자세히</h2>")[1])
         self.assertNotIn("답이 그대로</span>", diff.split("<h2>씨앗별 자세히</h2>")[1])
 
+    def test_seed_has_sticky_reference_box(self):
+        page = self.page_of(self.two_round_row("2"))
+        seeds = page.split('<details class="seed">')[1:]
+        self.assertTrue(seeds)
+        for sd in seeds:
+            self.assertEqual(sd.count('<div class="std">'), 1)
+            box = sd.split('<div class="std">')[1].split("</div>")[0]
+            self.assertIn("기준 · 질문", box)
+            self.assertIn('<span class="ans">1 kg</span>', box)
+            self.assertIn("해설 보기", box)
+            self.assertIn("근거 글 보기", box)
+            self.assertLess(sd.index('class="std"'), sd.index("<h5>A</h5>"))
+        self.assertIn("position: sticky", page)
+        self.assertIn("max-width: 699px", page)
+        self.assertIn("min-width: 1000px", page)
+        # 정답이 A, 두 회차 답, 최종 답 옆에 한 줄로 붙는다. 이 씨앗에는 C가 없다.
+        self.assertEqual(seeds[0].count('class="keyans"'), 4)
+        self.assertEqual(seeds[0].count('<div class="pair">'), 2)
+
     def test_unparsed_output(self):
         html_ = m.gen_block({"text": "깨짐 <x>", "parsed": None}, False, None)
         self.assertIn("JSON으로 읽지 못함", html_)

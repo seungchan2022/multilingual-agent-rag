@@ -216,8 +216,14 @@ def key_notes(parsed, expected):
     return f'<p class="keynote">{"; ".join(notes)}</p>' if notes else ""
 
 
-def gen_block(gen, correct, grade, title="최종 답", extra=""):
-    """모델 출력 하나. 답, 판정, 채점 한 문장, 풀이, 원문 순서."""
+def key_answer(q):
+    """모델 답 바로 옆에 둘 정답. 같은 줄에서 견주게 한다."""
+    return f' <span class="keyans">정답 <span class="kans">{e(str(q.get("answer", "")))}</span></span>'
+
+
+def gen_block(gen, correct, grade, title="최종 답", extra="", q=None):
+    """모델 출력 하나. 답, 판정, 정답, 채점 한 문장, 풀이, 원문 순서."""
+    extra = extra + (key_answer(q) if q else "")
     p = gen.get("parsed") if gen else None
     text = (gen or {}).get("text", "")
     if p is None:
@@ -276,12 +282,13 @@ def refine_block(r, q):
     for rd in r["rounds"]:
         steps.append(f'<li class="step"><p class="round">{rd["round"]}회차</p>'
                      + (refine_request(q, prev, rd["round"]) if prev else "")
-                     + gen_block(rd["draft"], rd["draft_correct"], rd.get("draft_grade"), title=f'{rd["round"]}회차 답',
-                                 extra=answer_label(rd, prev))
-                     + judge_block(rd) + "</li>")
+                     + '<div class="pair">'
+                     + gen_block(rd["draft"], rd["draft_correct"], rd.get("draft_grade"), title=f'{rd["round"]}회차 답 (generate)',
+                                 extra=answer_label(rd, prev), q=q)
+                     + judge_block(rd) + "</div></li>")
         prev = rd
     final = (f'<div class="final"><span class="lbl">최종 답</span> <span class="ans">{e(str(r["final_answer"]))}</span> '
-             f'{mark(r["correct"])}</div>')
+             f'{mark(r["correct"])}{key_answer(q)}</div>')
     return f'<ol class="tl">{"".join(steps)}</ol>{final}'
 
 
@@ -316,15 +323,27 @@ def question_ref(q):
             f'<p class="lbl">해설</p><ol>{steps}</ol><p class="lbl">근거 글</p><ul>{quotes}</ul></div>')
 
 
+def seed_ref(q):
+    """씨앗 맨 위에 붙는 기준 상자. 질문, 정답, 해설, 근거 글. 펼친 씨앗 안에서 따라 내려온다."""
+    steps = "".join(f"<li>{e(str(x))}</li>" for x in q.get("steps", [])) or "<li>없음</li>"
+    quotes = "".join(f'<li>[{e(str(x.get("doc", "")))}] {e(str(x.get("quote", "")))}</li>'
+                     for x in q.get("evidence_quotes", [])) or "<li>없음</li>"
+    return (f'<div class="std"><p class="stdq"><span class="lbl">기준 · 질문</span> {e(q["question"])}</p>'
+            f'<p><span class="lbl">정답</span> <span class="ans">{e(str(q.get("answer", "")))}</span></p>'
+            f'<details class="kdet"><summary>해설 보기</summary><ol>{steps}</ol></details>'
+            f'<details class="kdet"><summary>근거 글 보기</summary><ul>{quotes}</ul></details></div>')
+
+
 def detail(t, q):
     a, b, c = seed_rows(t["A"]), seed_rows(t["B"]), seed_rows(t["C"])
     seeds = sorted({s for (i, s) in list(a) + list(b) + list(c) if i == q["id"]})
     body = []
     for s in seeds:
         k = (q["id"], s)
-        inner = (section("A", gen_block(a[k]["gen"], a[k]["correct"], a[k].get("grade")) if k in a else "<p>아직 없음</p>")
+        inner = (seed_ref(q)
+                 + section("A", gen_block(a[k]["gen"], a[k]["correct"], a[k].get("grade"), q=q) if k in a else "<p>아직 없음</p>")
                  + section("B-v1", refine_block(b[k], q) if k in b else "<p>아직 없음</p>")
-                 + section("C", gen_block(c[k]["gen"], c[k]["correct"], c[k].get("grade")) if k in c else "<p>아직 없음</p>"))
+                 + section("C", gen_block(c[k]["gen"], c[k]["correct"], c[k].get("grade"), q=q) if k in c else "<p>아직 없음</p>"))
         body.append(f'<details class="seed"><summary>{seed_summary(s, a.get(k), b.get(k), c.get(k))}</summary>{inner}</details>')
     pa, pb, pc = (per_question(t[x]).get(q["id"], [0, 0])[0] for x in "ABC")
     changes = Counter(change_of(r) for r in t["B"] if r["id"] == q["id"])
@@ -406,6 +425,18 @@ pre { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); 
 .final { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; background: var(--accent-soft);
   border-radius: 8px; padding: 8px 12px; margin-top: 6px; }
 code { font-family: var(--mono); font-size: .85em; }
+.keyans { font-size: .85rem; color: var(--muted); }
+.kans { font-family: var(--mono); font-weight: 500; color: var(--ink); }
+.std { position: sticky; top: 0; z-index: 2; background: var(--accent-soft); border-bottom: 2px solid #b9cdf0;
+  padding: 8px 12px; margin: 8px -14px 0; max-height: 60vh; overflow-y: auto; }
+.std p { margin: 2px 0; }
+.std ol, .std ul { margin: 4px 0; padding-left: 1.4em; max-width: 70ch; }
+details.kdet { background: transparent; border: 0; padding: 0; margin-top: 4px; }
+details.kdet summary { font-size: .82rem; font-weight: 400; color: var(--accent); }
+.pair { display: grid; gap: 0 12px; }
+.pair > .out { min-width: 0; align-self: start; }
+@media (min-width: 1000px) { .pair { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 699px) { .std { position: static; max-height: none; } }
 summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 """
 
@@ -500,6 +531,7 @@ def build(base, out):
       <li>질문별 표에서 어느 질문이 맞고 어느 질문이 틀렸는지 봅니다.</li>
       <li>아래 &quot;씨앗별 자세히&quot;에서 질문을 펼쳐 정답과 해설을 먼저 읽습니다.</li>
       <li>씨앗 하나를 펼쳐 A, B-v1, C 순서로 따라갑니다. B-v1은 회차마다 초안, 그다음 judgement 순서입니다.</li>
+      <li>씨앗 맨 위의 파란 &quot;기준&quot; 상자에 질문과 정답이 있습니다. 씨앗 안에서 스크롤해도 화면 위에 붙어 따라옵니다(좁은 화면에서는 붙지 않습니다). 해설과 근거 글은 상자 안에서 눌러 펼칩니다.</li>
       <li>특히 &quot;고쳐짐&quot;(처음 틀림, 최종 맞음)과 &quot;망가짐&quot;(처음 맞음, 최종 틀림) 씨앗을 봅니다.</li>
     </ol>
     <p class="note">씨앗은 같은 질문을 다시 돌릴 때 붙인 번호입니다. 질문 하나를 씨앗 1~10으로 10번 돌렸습니다. 이름표의 뜻은 아래와 같습니다.</p>
