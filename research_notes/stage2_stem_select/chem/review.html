@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>화학 원소 질문 검토</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 실험 노트처럼: 왼쪽에 위치와 볼 것, 아래로 질문 카드가 이어진다 */
+:root {
+  --bg: #f3f5f7; --paper: #ffffff; --ink: #1c2530; --muted: #5b6876; --line: #d5dbe1;
+  --accent: #1f5fa8; --accent-soft: #e3ecf7; --warn: #8a5a00; --warn-soft: #fbf1dc;
+  --sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12171d; --paper: #1a2129; --ink: #e4e9ee; --muted: #9aa7b4; --line: #2c3743;
+  --accent: #7fb0ea; --accent-soft: #1d2d40; --warn: #e2b764; --warn-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #12171d; --paper: #1a2129; --ink: #e4e9ee; --muted: #9aa7b4; --line: #2c3743;
+  --accent: #7fb0ea; --accent-soft: #1d2d40; --warn: #e2b764; --warn-soft: #33290f; color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.65; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 20px; }
+h1 { font-size: 1.6rem; margin: 0; text-wrap: balance; }
+.where { font-family: var(--mono); font-size: .85rem; color: var(--muted); }
+.intro { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; }
+.intro p, .intro ul { margin: 0; }
+.intro ul { padding-left: 1.2em; }
+.notes { background: var(--warn-soft); border-radius: 6px; padding: 14px 18px; }
+.notes h2 { font-size: 1rem; margin: 0 0 6px; color: var(--warn); }
+.notes ul { margin: 0; padding-left: 1.2em; }
+.q { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: grid; gap: 14px; }
+.q header { display: flex; gap: 12px; align-items: baseline; }
+.qid { font-family: var(--mono); font-size: .8rem; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px; flex: none; }
+.q h2 { font-size: 1.08rem; margin: 0; font-weight: 600; text-wrap: balance; min-width: 0; }
+.ans { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; border-left: 3px solid var(--accent); padding-left: 12px; }
+.lbl, h3 { font-size: .75rem; letter-spacing: .06em; color: var(--muted); font-weight: 500; margin: 0 0 6px; }
+.lbl { margin: 0; }
+.num { font-family: var(--mono); font-size: 1.15rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.calc { font-family: var(--mono); font-size: .85rem; color: var(--muted); overflow-wrap: anywhere; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.cols > section { min-width: 0; }
+@media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+.steps { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; font-variant-numeric: tabular-nums; }
+.ev { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ev li { display: grid; grid-template-columns: auto 1fr; gap: 0 8px; }
+.ev a { color: var(--accent); font-weight: 500; }
+.rev { font-family: var(--mono); font-size: .75rem; color: var(--muted); align-self: center; }
+.ev q { grid-column: 1 / -1; font-family: var(--mono); font-size: .82rem; background: var(--bg); padding: 4px 8px; border-radius: 4px; overflow-wrap: anywhere; quotes: none; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+<div class="wrap">
+  <div class="where">2단계 &gt; 도메인 다시 고르기(#6) &gt; 2. 질문 만들기 &gt; 화학 원소</div>
+  <h1>화학 원소 질문 10개</h1>
+  <div class="intro">
+    <p>후보 고르기 실험에 쓸 질문입니다. 모델에게는 질문만 보이고, 정답과 해설은 채점과 사용자 확인에만 씁니다. C(근거 글을 넣고 답)에서는 오른쪽 근거 글을 모델에게 줍니다.</p>
+    <p><b>보실 것</b> 두 가지입니다.</p>
+    <ul>
+      <li>해설을 근거 글과 함께 따라갈 수 있는가</li>
+      <li>단계가 지나치게 많은 질문이 없는가</li>
+    </ul>
+    <p>프로그램 검사(<code>src/domain_select/check_questions.py</code>)는 10개 모두 통과했습니다. 검사한 것: 근거 글이 받은 문서에 그대로 있는가, 계산식을 다시 하면 정답이 나오는가, 연산이 두 개 이상인가, 단위 바꾸기가 있는가.</p>
+  </div>
+  <div class="notes">
+    <h2>만들며 본 것</h2>
+    <ul>
+      <li>종류가 밀도 5개(c-01, 04, 05, 08, 09), 온도 2개(c-02, 06), 몰 3개(c-03, 07, 10)로 밀도에 쏠렸습니다.</li>
+      <li>위키백과의 위 첨자가 마크다운에서 그냥 숫자로 붙습니다. 예: g/cm³가 "g/cm3", 10³ g이 "103 g", 아보가드로 수의 ×10²³이 "×1023". 그래서 아보가드로 수가 드는 질문은 넣지 않았습니다. 코퍼스 변환 프로그램(<code>src/corpus/build.py</code>)이 같은 방식이라 고른 뒤 코퍼스를 만들 때도 생깁니다.</li>
+      <li>텅스텐 문서는 정보 상자에 녹는점 3695 K, 본문에 3422 °C가 있습니다. 3695 K를 섭씨로 바꾸면 3421.85 °C라 반올림 차이입니다. c-02는 ±1% 채점이라 어느 값으로 풀어도 맞습니다.</li>
+      <li>c-10의 근거인 몰 질량 문서에는 염화 나트륨의 몰 질량 58.443이 바로 적혀 있습니다. 그래서 C에서는 더하기 단계가 필요 없습니다.</li>
+    </ul>
+  </div>
+
+  
+<article class="q" id="c-01">
+  <header><span class="qid">c-01</span><h2>가로 2 cm, 세로 5 cm, 높이 10 cm인 오스뮴 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">2.261 kg</span><span class="calc">2 * 5 * 10 * 22.61 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>부피를 구한다: 2 × 5 × 10 = 100 cm³</li><li>밀도 = 질량 ÷ 부피이므로 질량 = 밀도 × 부피 = 22.61 × 100 = 2261 g</li><li>그램은 킬로그램의 1/1000이므로 2261 g = 2261 ÷ 1000 = 2.261 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42371844" target="_blank" rel="noopener">오스뮴</a><span class="rev">판 42371844</span><q>밀도 (상온 근처): 22.61 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-02">
+  <header><span class="qid">c-02</span><h2>텅스텐의 녹는점은 철의 녹는점보다 섭씨로 몇 도 높은가?</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">1884 °C</span><span class="calc">(3695 - 273.15) - (1811 - 273.15)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>텅스텐의 녹는점을 섭씨로 바꾼다: 3695 − 273.15 = 3421.85 °C</li><li>철의 녹는점을 섭씨로 바꾼다: 1811 − 273.15 = 1537.85 °C</li><li>차이를 구한다: 3421.85 − 1537.85 = 1884 °C</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42439319" target="_blank" rel="noopener">텅스텐</a><span class="rev">판 42439319</span><q>녹는점: 3695 K</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42421348" target="_blank" rel="noopener">철</a><span class="rev">판 42421348</span><q>녹는점: 1811 K</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40628309" target="_blank" rel="noopener">섭씨</a><span class="rev">판 40628309</span><q>| 켈빈 | 섭씨 | [°C] = [K] − 273.15 |</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-03">
+  <header><span class="qid">c-03</span><h2>금 1 kg은 몇 몰인가? (표준 원자량의 축약값으로 계산하고, 소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">5.08 mol</span><span class="calc">1 * 1000 / 196.97</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>그램은 킬로그램의 1/1000이므로 1 kg = 1000 g</li><li>원소의 몰 질량은 원자량에 g/mol을 붙인 것이므로 금의 몰 질량은 196.97 g/mol</li><li>몰 수 = 질량 ÷ 몰 질량 = 1000 ÷ 196.97 = 5.077… ≈ 5.08 mol</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42541152" target="_blank" rel="noopener">금</a><span class="rev">판 42541152</span><q>표준 원자량 (Ar, standard): 196.966570(4), 196.97 ± 0.01 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-04">
+  <header><span class="qid">c-04</span><h2>리튬 1 kg의 부피는 몇 L인가? (상온 근처의 밀도로 계산하고, 소수 셋째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">1.873 L</span><span class="calc">1 * 1000 / 0.534 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>그램은 킬로그램의 1/1000이므로 1 kg = 1000 g</li><li>밀도 = 질량 ÷ 부피이므로 부피 = 질량 ÷ 밀도 = 1000 ÷ 0.534 = 1872.66… cm³</li><li>1 L = 1000 cm³이므로 1872.66 cm³ = 1872.66 ÷ 1000 = 1.873 L</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42525776" target="_blank" rel="noopener">리튬</a><span class="rev">판 42525776</span><q>밀도 (상온 근처): 0.534 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41604358" target="_blank" rel="noopener">리터</a><span class="rev">판 41604358</span><q>(1 L = 1000 cm³)</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-05">
+  <header><span class="qid">c-05</span><h2>상온의 액체 수은 0.5 L의 질량은 몇 kg인가?</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">6.773 kg</span><span class="calc">0.5 * 1000 * 13.546 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1 L = 1000 cm³이므로 0.5 L = 500 cm³</li><li>밀도 = 질량 ÷ 부피이므로 질량 = 밀도 × 부피 = 13.546 × 500 = 6773 g</li><li>그램은 킬로그램의 1/1000이므로 6773 g = 6.773 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42330847" target="_blank" rel="noopener">수은</a><span class="rev">판 42330847</span><q>밀도 (상온 근처): (액체) 13.546 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41604358" target="_blank" rel="noopener">리터</a><span class="rev">판 41604358</span><q>(1 L = 1000 cm³)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-06">
+  <header><span class="qid">c-06</span><h2>나트륨의 녹는점은 1기압에서 물이 끓는 온도보다 섭씨로 몇 도 낮은가? (소수 셋째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">2.206 °C</span><span class="calc">100 - (370.944 - 273.15)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>나트륨의 녹는점을 섭씨로 바꾼다: 370.944 − 273.15 = 97.794 °C</li><li>섭씨 온도는 1 atm에서 물의 끓는점을 100도로 정한 것이다</li><li>차이를 구한다: 100 − 97.794 = 2.206 °C</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42160001" target="_blank" rel="noopener">나트륨</a><span class="rev">판 42160001</span><q>녹는점: 370.944 K</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40628309" target="_blank" rel="noopener">섭씨</a><span class="rev">판 40628309</span><q>| 켈빈 | 섭씨 | [°C] = [K] − 273.15 |</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40628309" target="_blank" rel="noopener">섭씨</a><span class="rev">판 40628309</span><q>1 atm에서의 물의 어는점을 0도, 끓는점을 100도로 정한 온도 체계</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-07">
+  <header><span class="qid">c-07</span><h2>은 0.5몰의 질량은 몇 kg인가? (표준 원자량의 축약값으로 계산하고, 유효숫자 넷째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">0.05394 kg</span><span class="calc">0.5 * 107.87 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>원소의 몰 질량은 원자량에 g/mol을 붙인 것이므로 은의 몰 질량은 107.87 g/mol</li><li>질량 = 몰 수 × 몰 질량 = 0.5 × 107.87 = 53.935 g</li><li>그램은 킬로그램의 1/1000이므로 53.935 g = 0.053935 kg ≈ 0.05394 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42400732" target="_blank" rel="noopener">은</a><span class="rev">판 42400732</span><q>표준 원자량 (Ar, standard): 107.8682(2), 107.87 ± 0.01 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-08">
+  <header><span class="qid">c-08</span><h2>한 변이 10 cm인 철 정육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">7.87 kg</span><span class="calc">10 * 10 * 10 * 7.87 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>부피를 구한다: 10 × 10 × 10 = 1000 cm³</li><li>밀도 = 질량 ÷ 부피이므로 질량 = 밀도 × 부피 = 7.87 × 1000 = 7870 g</li><li>그램은 킬로그램의 1/1000이므로 7870 g = 7.87 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42421348" target="_blank" rel="noopener">철</a><span class="rev">판 42421348</span><q>밀도 (상온 근처): 7.87 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-09">
+  <header><span class="qid">c-09</span><h2>부피가 같은 1 L일 때, 구리는 알루미늄보다 몇 kg 더 무거운가? (상온 근처의 밀도로 계산한다)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">6.26 kg</span><span class="calc">(8.96 - 2.70) * 1000 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1 L = 1000 cm³</li><li>구리의 질량 = 8.96 × 1000 = 8960 g, 알루미늄의 질량 = 2.70 × 1000 = 2700 g</li><li>차이 = 8960 − 2700 = 6260 g이고, 그램은 킬로그램의 1/1000이므로 6.26 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42535486" target="_blank" rel="noopener">구리</a><span class="rev">판 42535486</span><q>밀도 (상온 근처): 8.96 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42224969" target="_blank" rel="noopener">알루미늄</a><span class="rev">판 42224969</span><q>밀도 (상온 근처): 2.70 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41604358" target="_blank" rel="noopener">리터</a><span class="rev">판 41604358</span><q>(1 L = 1000 cm³)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="c-10">
+  <header><span class="qid">c-10</span><h2>염화 나트륨(NaCl) 1 kg은 몇 몰인가? (소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">17.11 mol</span><span class="calc">1 * 1000 / 58.443</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>그램은 킬로그램의 1/1000이므로 1 kg = 1000 g</li><li>염화 나트륨의 몰 질량은 나트륨과 염소의 몰 질량을 더한 58.443 g/mol</li><li>몰 수 = 질량 ÷ 몰 질량 = 1000 ÷ 58.443 = 17.110… ≈ 17.11 mol</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+</div>
