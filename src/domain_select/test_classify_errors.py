@@ -1,5 +1,7 @@
 # classify_errors.py의 다섯 갈래 조건을 확인한다. 실제 결과는 읽기만 한다.
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -114,6 +116,61 @@ class Labels(unittest.TestCase):
     def test_multi_label(self):
         labels, _ = ce.classify(row("값 1 에서", 500.0), 5.0, [[10]])
         self.assertEqual(labels, [ce.BAD_INPUT, ce.NO_CALC, ce.BAD_UNIT])
+
+
+class Round2(unittest.TestCase):
+    """round 2 모드: 요구와 단위 바꾸기를 질문 파일에서 읽는다. 임시 폴더의 가짜 데이터만 쓴다."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.tmp = tempfile.TemporaryDirectory()
+        root = Path(cls.tmp.name)
+        (root / "moons" / "results").mkdir(parents=True)
+        q = {"id": "mo-01", "calc": "0.942 * 3 * 24", "value": 67.824,
+             "requirements": [[0.942, 22.608]], "unit_conv": [24]}
+        (root / "moons" / "questions.json").write_text(json.dumps([q]), encoding="utf-8")
+
+        def line(seed, reason, picked, correct):
+            r = row(reason, picked)
+            r.update({"id": "mo-01", "seed": seed, "correct": correct, "final_answer": str(picked)})
+            return json.dumps(r, ensure_ascii=False)
+        rows = [line(1, "0.942 에 3 과 24 를 곱해 67.824", 67.824, True),
+                line(2, "값 5 에 3 을 곱해 100", 100.0, False),
+                line(3, "0.942 에 3 을 곱해 2.826", 2.826, False),
+                line(4, "공전 주기 22.608 시간에서 5", 5.0, False)]
+        (root / "moons" / "results" / "base.jsonl").write_text("\n".join(rows) + "\n", encoding="utf-8")
+        (root / "moons" / "results" / "context.jsonl").write_text("", encoding="utf-8")
+        cls.root = root
+        reqs, conv = ce.round2_tables(root, ["moons"])
+        cls.recs = ce.collect(root, ["moons"], reqs, conv)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def labels(self, seed):
+        return [r["labels"] for r in self.recs if r["seed"] == seed][0]
+
+    def test_tables_from_questions(self):
+        reqs, conv = ce.round2_tables(self.root, ["moons"])
+        self.assertEqual(reqs, {"mo-01": [[0.942, 22.608]]})
+        self.assertEqual(conv, {"mo-01": [24]})
+
+    def test_correct_answer_has_no_label(self):
+        self.assertEqual([r["seed"] for r in self.recs], [2, 3, 4])
+        self.assertTrue(all(r["topic"] == "moons" and r["cond"] == "A" for r in self.recs))
+
+    def test_wrong_material(self):
+        self.assertIn(ce.BAD_INPUT, self.labels(2))
+
+    def test_forgot_unit_conversion(self):
+        labels = self.labels(3)
+        self.assertNotIn(ce.BAD_INPUT, labels)
+        self.assertIn(ce.BAD_UNIT, labels)
+
+    def test_alternative_material_counts(self):
+        # 22.608(시간으로 쓴 공전 주기)이 풀이에 있으면 재료 값이 있는 것으로 본다
+        self.assertNotIn(ce.BAD_INPUT, self.labels(4))
 
 
 class Tolerance(unittest.TestCase):

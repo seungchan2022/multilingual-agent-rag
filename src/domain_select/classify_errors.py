@@ -13,15 +13,18 @@
 #                    3) UNIT_CONV에 "offset"이 적힌 문제만: value +- 273.15 (K와 °C)
 #   계산이 틀림      위 넷 중 어느 것도 아니다.
 import ast
+import argparse
 import json
 import re
-import sys
 from pathlib import Path
 
 BASE = Path(__file__).parents[2] / "research_notes/stage2_stem_select"
 TOPICS = ["chem", "solar", "mineral"]
 CONDS = [("A", "base.jsonl"), ("C", "context.jsonl")]
 OUT_NAME = "round1_error_types.jsonl"
+BASE2 = BASE / "round2"
+TOPICS2 = ["rare_earth", "exoplanets", "moons"]
+OUT_NAME2 = "error_types.jsonl"
 
 NO_NUM = "숫자 없는 답"
 BAD_INPUT = "재료 값이 틀림"
@@ -185,9 +188,9 @@ def tolerance_of(calc, primary):
     return best
 
 
-def tolerances_of(q):
-    """문제 q의 요구마다 재료 값 허용폭(기본 값 기준)을 돌려준다."""
-    return [tolerance_of(q["calc"], alts[0]) for alts in REQUIREMENTS[q["id"]]]
+def tolerances_of(q, reqs=REQUIREMENTS):
+    """문제 q의 요구마다 재료 값 허용폭(기본 값 기준)을 돌려준다. reqs는 문제 id별 요구 목록."""
+    return [tolerance_of(q["calc"], alts[0]) for alts in reqs[q["id"]]]
 
 
 def unit_factors(conv):
@@ -278,13 +281,23 @@ def classify(row, value, reqs, tols=None, conv=()):
     return labels, detail
 
 
-def collect(base=BASE):
+def round2_tables(base, topics=TOPICS2):
+    """round 2는 요구와 단위 바꾸기가 질문 파일에 있다. 문제 id별 (요구, 단위 바꾸기) 사전을 돌려준다."""
+    reqs, conv = {}, {}
+    for topic in topics:
+        for q in json.loads((Path(base) / topic / "questions.json").read_text(encoding="utf-8")):
+            reqs[q["id"]] = q["requirements"]
+            conv[q["id"]] = q["unit_conv"]
+    return reqs, conv
+
+
+def collect(base=BASE, topics=TOPICS, reqs=REQUIREMENTS, conv=UNIT_CONV):
     """틀린 답을 모두 분류한다. 순서는 주제, 문제 순서, 씨앗이다."""
     base = Path(base)
     recs = []
-    for topic in TOPICS:
+    for topic in topics:
         qs = json.loads((base / topic / "questions.json").read_text(encoding="utf-8"))
-        tols = {q["id"]: tolerances_of(q) for q in qs}
+        tols = {q["id"]: tolerances_of(q, reqs) for q in qs}
         for cond, fname in CONDS:
             rows = [json.loads(l) for l in
                     (base / topic / "results" / fname).read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -295,8 +308,8 @@ def collect(base=BASE):
                 if r["correct"]:
                     continue
                 q = qmap[r["id"]]
-                labels, detail = classify(r, q["value"], REQUIREMENTS[r["id"]], tols[r["id"]],
-                                          UNIT_CONV.get(r["id"], ()))
+                labels, detail = classify(r, q["value"], reqs[r["id"]], tols[r["id"]],
+                                          conv.get(r["id"], ()))
                 recs.append({"topic": topic, "cond": cond, "id": r["id"], "seed": r["seed"],
                              "final_answer": r["final_answer"], "picked": r["grade"]["picked"],
                              "value": q["value"], "labels": labels, "detail": detail})
@@ -307,11 +320,11 @@ def show_detail(rec):
     return json.dumps(rec["detail"], ensure_ascii=False)
 
 
-def summarize(recs, out=print):
+def summarize(recs, out=print, topics=TOPICS):
     out("== 1. 주제 x 조건 x 갈래 (한 답은 가진 갈래마다 한 번씩 센다) ==")
     out("주제 | 조건 | 틀린 답 | " + " | ".join(LABELS) + " | 갈래 2개 이상인 답")
     totals = {}
-    for topic in TOPICS:
+    for topic in topics:
         for cond, _ in CONDS:
             rs = [r for r in recs if r["topic"] == topic and r["cond"] == cond]
             cnt = [sum(1 for r in rs if lab in r["labels"]) for lab in LABELS]
@@ -324,7 +337,7 @@ def summarize(recs, out=print):
 
     out("")
     out("== 2. A에서 재료 값은 맞았는데 틀린 답 (A 틀린 답 중 '재료 값이 틀림'이 없는 것) ==")
-    for topic in TOPICS:
+    for topic in topics:
         rs = [r for r in recs if r["topic"] == topic and r["cond"] == "A"]
         n = sum(1 for r in rs if BAD_INPUT not in r["labels"])
         out(f"{topic}: {n} / A 틀린 답 {len(rs)}")
@@ -341,37 +354,46 @@ def summarize(recs, out=print):
                 out(f"    근거: {json.dumps(r['detail'].get(lab), ensure_ascii=False)}")
 
 
-def sensitive_rows(base=BASE):
+def sensitive_rows(base=BASE, topics=TOPICS, reqs=REQUIREMENTS):
     """허용폭이 1%보다 작은 요구를 (주제, 문제, 기본 값, 허용폭)으로 돌려준다."""
     rows = []
-    for topic in TOPICS:
+    for topic in topics:
         qs = json.loads((Path(base) / topic / "questions.json").read_text(encoding="utf-8"))
         for q in qs:
-            for alts, tol in zip(REQUIREMENTS[q["id"]], tolerances_of(q)):
+            for alts, tol in zip(reqs[q["id"]], tolerances_of(q, reqs)):
                 if tol < TOL_MAX:
                     rows.append((topic, q["id"], float(alts[0]), tol))
     return rows
 
 
 def main():
-    base = Path(sys.argv[1]) if len(sys.argv) > 1 else BASE
-    recs = collect(base)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("base", nargs="?", help="기준 폴더(round 1 기본값은 stage2_stem_select)")
+    ap.add_argument("--round", type=int, choices=(1, 2), default=1)
+    args = ap.parse_args()
+    if args.round == 2:
+        base, topics, out_name = Path(args.base) if args.base else BASE2, TOPICS2, OUT_NAME2
+        reqs, conv = round2_tables(base, topics)
+    else:
+        base, topics, out_name = Path(args.base) if args.base else BASE, TOPICS, OUT_NAME
+        reqs, conv = REQUIREMENTS, UNIT_CONV
+    recs = collect(base, topics, reqs, conv)
     nowhere = sum(1 for r in recs if not r["labels"])
     assert nowhere == 0, f"어디에도 안 들어간 답이 {nowhere}개"
-    with open(base / OUT_NAME, "w", encoding="utf-8") as f:
+    with open(base / out_name, "w", encoding="utf-8") as f:
         for r in recs:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    summarize(recs)
+    summarize(recs, topics=topics)
     print("\n== 4. 재료 값 허용폭이 1%보다 작은 요구 (이 문제들은 재료 값이 조금만 달라도 답이 1%를 넘게 움직인다) ==")
     print("주제 | 문제 | 기본 값 | 허용폭(%)")
-    for topic, qid, prim, tol in sensitive_rows(base):
+    for topic, qid, prim, tol in sensitive_rows(base, topics, reqs):
         print(f"{topic} | {qid} | {prim} | {tol * 100:.4f}")
     print("\n== 5. 문제마다 단위를 잘못 바꿈 후보 수 (우연히 맞을 가능성을 가늠하는 값) ==")
     print("후보 하나는 답의 ±1%(로그 폭 약 0.0087 자리) 구간이다. 후보가 많을수록 우연히 걸리기 쉽다.")
-    for n in sorted({candidate_count(UNIT_CONV.get(qid, ())) for qid in REQUIREMENTS}):
-        ids = [qid for qid in REQUIREMENTS if candidate_count(UNIT_CONV.get(qid, ())) == n]
+    for n in sorted({candidate_count(conv.get(qid, ())) for qid in reqs}):
+        ids = [qid for qid in reqs if candidate_count(conv.get(qid, ())) == n]
         print(f"후보 {n}개: {', '.join(ids)}")
-    print(f"\n{len(recs)}줄을 {base / OUT_NAME}에 썼다.")
+    print(f"\n{len(recs)}줄을 {base / out_name}에 썼다.")
 
 
 if __name__ == "__main__":
