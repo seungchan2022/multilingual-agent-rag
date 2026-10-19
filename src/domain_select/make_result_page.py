@@ -1,12 +1,14 @@
 """첫 번째 재기(이슈 #6)의 결과를 HTML 한 장으로 만든다.
 
   python3 src/domain_select/make_result_page.py [<stage2_stem_select 폴더> [<출력 html>]]
+  python3 src/domain_select/make_result_page.py --round 2 [<round2 폴더> [<출력 html>]]
 
 폴더 안의 <주제>/questions.json과 <주제>/results/*.jsonl, criterion4_langlinks.json을 읽기만 한다.
 결과 폴더에는 아무것도 쓰지 않는다. 실행할 때마다 원본 기록에서 모든 숫자를 새로 계산한다.
 숫자 규칙은 summarize.py와 같다. 통과 문제는 10번 중 6번 이상 맞은 문제다.
 """
 import html
+import argparse
 import json
 import sys
 from collections import Counter, defaultdict
@@ -18,6 +20,9 @@ from run import REFINE_USER  # noqa: E402  러너가 generate에 보낸 글을 �
 DEFAULT_BASE = Path(__file__).resolve().parents[2] / "research_notes" / "stage2_stem_select"
 TOPICS = [("chem", "화학 원소"), ("solar", "태양계 천체"), ("mineral", "광물")]
 CITY = ("city_v1", "어제 도시 10문제")
+DEFAULT_BASE2 = DEFAULT_BASE / "round2"
+TOPICS2 = [("rare_earth", "희토류 원소"), ("exoplanets", "외계 행성"), ("moons", "덜 알려진 위성")]
+NO_B = "돌리지 않음"  # round 2는 A와 C만 돌린다
 PASS_AT = 6  # summarize.py와 같다
 SEEDS = 10  # 질문 하나를 돌린 횟수
 A_RANGE = (20, 40)  # 기준 ①: A의 맞은 답이 이 범위 안
@@ -93,10 +98,10 @@ def null_counts(t):
     }
 
 
-def load_errors(base):
-    """round1_error_types.jsonl을 (주제, 조건, id, 씨앗) → 이름표 목록으로 읽는다. 파일이 없으면 빈 사전."""
+def load_errors(base, name="round1_error_types.jsonl"):
+    """오류 유형 파일(round 1은 round1_error_types.jsonl)을 (주제, 조건, id, 씨앗) → 이름표 목록으로 읽는다. 파일이 없으면 빈 사전."""
     return {(r["topic"], r["cond"], r["id"], r["seed"]): r["labels"]
-            for r in read_jsonl(Path(base) / "round1_error_types.jsonl")}
+            for r in read_jsonl(Path(base) / name)}
 
 
 def material_ok(t, cond, errors):
@@ -122,11 +127,11 @@ def verdict(ok):
     return "✓" if ok else "✗"
 
 
-def criteria(t, ma, mc, links):
-    """① ③ ④의 칸 글자. ②는 v2를 잰 뒤에만 판정한다.
+def criteria(t, ma, mc, links, second="v2를 잰 뒤 판정"):
+    """① ③ ④의 칸 글자. ②는 second 글자 그대로(round 1은 v2를 잰 뒤에만 판정한다).
     ①③은 최종 답이 아니라 재료 값이 맞았는지로 센다. ma, mc는 A, C의 재료 맞음 수(셀 수 없으면 None)."""
     qs = t["qs"]
-    out = {"②": "v2를 잰 뒤 판정"}
+    out = {"②": second}
     if full(t["A"], qs) and ma is not None:
         lo, hi = A_RANGE
         out["①"] = f"{verdict(lo <= ma <= hi)} (A 재료 {ma})"
@@ -315,11 +320,13 @@ def refine_block(r, q):
     return f'<ol class="tl">{"".join(steps)}</ol>{final}'
 
 
-def seed_summary(s, a, b, c):
+def seed_summary(s, a, b, c, r2=False):
     """씨앗 한 줄 요약. 씨앗 · A · B-v1(몇 회차에 끝났나) · C."""
     parts = [f"씨앗 {s}"]
     parts.append("A " + (mark(a["correct"]) if a else "아직 없음"))
-    if b:
+    if r2:
+        pass
+    elif b:
         last = b["rounds"][-1]
         ended = pill("grey", str(len(b["rounds"])) + "회차에서 끝남")
         end = f"{ended} 마지막 judgement {pass_pill(True)}" if last["passed"] else f"{ended} 끝까지 {pass_pill(False)}"
@@ -357,7 +364,7 @@ def seed_ref(q):
             f'<details class="kdet"><summary>근거 글 보기</summary><ul>{quotes}</ul></details></div>')
 
 
-def detail(t, q):
+def detail(t, q, r2=False):
     a, b, c = seed_rows(t["A"]), seed_rows(t["B"]), seed_rows(t["C"])
     seeds = sorted({s for (i, s) in list(a) + list(b) + list(c) if i == q["id"]})
     body = []
@@ -365,13 +372,14 @@ def detail(t, q):
         k = (q["id"], s)
         inner = (seed_ref(q)
                  + section("A", gen_block(a[k]["gen"], a[k]["correct"], a[k].get("grade"), q=q) if k in a else "<p>아직 없음</p>")
-                 + section("B-v1", refine_block(b[k], q) if k in b else "<p>아직 없음</p>")
+                 + ("" if r2 else section("B-v1", refine_block(b[k], q) if k in b else "<p>아직 없음</p>"))
                  + section("C", gen_block(c[k]["gen"], c[k]["correct"], c[k].get("grade"), q=q) if k in c else "<p>아직 없음</p>"))
-        body.append(f'<details class="seed"><summary>{seed_summary(s, a.get(k), b.get(k), c.get(k))}</summary>{inner}</details>')
+        body.append(f'<details class="seed"><summary>{seed_summary(s, a.get(k), b.get(k), c.get(k), r2)}</summary>{inner}</details>')
     pa, pb, pc = (per_question(t[x]).get(q["id"], [0, 0])[0] for x in "ABC")
     changes = Counter(change_of(r) for r in t["B"] if r["id"] == q["id"])
     return (f'<details><summary><span class="qid">{e(q["id"])}</span> {e(q["question"])} '
-            f'<span class="sm">A {pa} · B-v1 {pb} · C {pc} · 고쳐짐 {changes["고쳐짐"]} · 망가짐 {changes["망가짐"]}</span></summary>'
+            f'<span class="sm">' + (f"A {pa} · C {pc}" if r2 else f'A {pa} · B-v1 {pb} · C {pc} · 고쳐짐 {changes["고쳐짐"]} · 망가짐 {changes["망가짐"]}')
+            + f'</span></summary>'
             f'{question_ref(q)}<div class="seeds">{"".join(body) or "<p>아직 없음</p>"}</div></details>')
 
 
@@ -464,15 +472,25 @@ summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 """
 
 
-def build(base, out):
+INTRO1 = "A는 문서 없이 바로 답한 것입니다. B-v1은 A의 답을 judgement가 보고 generate가 고쳐 쓴 것입니다(어제 프롬프트). C는 근거 글을 넣고 답한 것입니다."
+INTRO2 = ("A는 문서 없이 바로 답한 것입니다. C는 근거 글을 넣고 답한 것입니다. "
+          "A와 C를 먼저 돌리고, 기준 ①③④를 넘는 분야가 둘 이상일 때만 그 분야들에 B를 돌린다(decisions/stage2.md 2026-10-19).")
+NOTE1 = ("기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. "
+         "기록이 100개가 안 되거나 오류 유형 기록(round1_error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.")
+NOTE2 = ("기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. "
+         "기록이 100개가 안 되거나 오류 유형 기록(error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.")
+
+
+def build(base, out, rnd=1):
     base = Path(base)
+    r2 = rnd == 2
     links_path = base / "criterion4_langlinks.json"
     links = json.loads(links_path.read_text(encoding="utf-8")) if links_path.exists() else {}
-    topics = [load_topic(base, f, n) for f, n in TOPICS]
-    city = load_topic(base, *CITY)
-    everyone = topics + [city]
+    topics = [load_topic(base, f, n) for f, n in (TOPICS2 if r2 else TOPICS)]
+    city = None if r2 else load_topic(base, *CITY)
+    everyone = topics if r2 else topics + [city]
     sc = {t["folder"]: {x: score(t[x], t["qs"]) for x in "ABC"} for t in everyone}
-    errors = load_errors(base)
+    errors = load_errors(base, "error_types.jsonl" if r2 else "round1_error_types.jsonl")
     has_errors = {t["folder"] for t in topics if any(k[0] == t["folder"] for k in errors)}
     mat = {t["folder"]: {x: material_ok(t, x, errors) if t["folder"] in has_errors and full(t[x], t["qs"]) else None
                          for x in "AC"} for t in topics}
@@ -487,13 +505,13 @@ def build(base, out):
             dm = "-"
         else:
             ma, mc = mat[t["folder"]]["A"], mat[t["folder"]]["C"]
-            crit = criteria(t, ma, mc, links)
+            crit = criteria(t, ma, mc, links, "B를 돌릴 때 판정" if r2 else "v2를 잰 뒤 판정")
             dm = f"{mc - ma:+d}" if ma is not None and mc is not None else "아직"
             ma = "아직" if ma is None else str(ma)
             mc = "아직" if mc is None else str(mc)
-        body.append([e(t["name"]), cell(t["A"], s["A"], qs), cell(t["B"], s["B"], qs), cell(t["C"], s["C"], qs),
-                     ma, mc,
-                     diff(t["B"], s["B"], t["A"], s["A"], qs), dm,
+        body.append([e(t["name"]), cell(t["A"], s["A"], qs), NO_B if r2 else cell(t["B"], s["B"], qs),
+                     cell(t["C"], s["C"], qs), ma, mc,
+                     "-" if r2 else diff(t["B"], s["B"], t["A"], s["A"], qs), dm,
                      crit["①"], crit["②"], crit["③"], crit["④"]])
     summary = table(["", "A", "B-v1", "C", "A 재료 맞음", "C 재료 맞음", "B-v1 − A", "C − A (재료)",
                      "① A 20~40", "② B−A ≥ 20", "③ C−A ≥ 40", "④ 영어 글"], body)
@@ -508,7 +526,7 @@ def build(base, out):
                           str(j["틀림_불통과"]), str(j["고쳐짐"]), str(j["망가짐"]), str(j["서버오류"]), str(j["judge_null"]),
                           f'A {nulls["A"]} · B {nulls["B"]} · C {nulls["C"]}'])
         else:
-            jrows.append([e(t["name"]), "아직 없음"] + ["-"] * 8 + [f'A {nulls["A"]} · C {nulls["C"]}'])
+            jrows.append([e(t["name"]), NO_B if r2 else "아직 없음"] + ["-"] * 8 + [f'A {nulls["A"]} · C {nulls["C"]}'])
     judge = table(["", "B-v1 답 수", "처음 답 맞음 · 통과", "맞음 · 불통과(맞는 답을 떨어뜨림)", "틀림 · 통과", "틀림 · 불통과",
                    "고쳐짐(처음 틀림 → 최종 맞음)", "망가짐(처음 맞음 → 최종 틀림)", "서버 오류로 멈춘 답",
                    "judgement 출력을 못 읽음", "생성 출력을 못 읽음"], jrows)
@@ -531,33 +549,34 @@ def build(base, out):
         if not t["qs"]:
             perq.append(f"<h3>{e(t['name'])}</h3><p class='note'>질문 파일 없음</p>")
             continue
-        pqs = {x: sc[t["folder"]][x]["pq"] for x in "ABC"}
+        xs = "AC" if r2 else "ABC"
+        pqs = {x: sc[t["folder"]][x]["pq"] for x in xs}
         rows = []
         for q in t["qs"]:
             cells = []
-            for x in "ABC":
+            for x in xs:
                 v = pqs[x].get(q["id"])
                 cells.append(f"{v[0]}/{v[1]}" if v else "아직 없음")
             rows.append([e(q["id"]), e(q["question"]), e(q["answer"])] + cells)
-        perq.append(f"<h3>{e(t['name'])}</h3>" + table(["id", "질문", "정답", "A", "B-v1", "C"], rows))
-        details.append(f"<h3>{e(t['name'])}</h3><div class=\"qlist\">" + "".join(detail(t, q) for q in t["qs"]) + "</div>")
+        perq.append(f"<h3>{e(t['name'])}</h3>" + table(["id", "질문", "정답"] + (["A", "C"] if r2 else ["A", "B-v1", "C"]), rows))
+        details.append(f"<h3>{e(t['name'])}</h3><div class=\"qlist\">" + "".join(detail(t, q, r2) for q in t["qs"]) + "</div>")
 
     page = f"""<!doctype html>
 <html lang="ko">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
-<title>첫 번째 재기 결과</title>
+<title>{"두" if r2 else "첫"} 번째 재기 결과</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>{CSS}</style>
 <div class="wrap">
-  <div class="where">2단계 &gt; 도메인 다시 고르기(#6) &gt; 3. 첫 번째 재기 &gt; 결과</div>
-  <h1>첫 번째 재기 결과</h1>
+  <div class="where">2단계 &gt; 도메인 다시 고르기(#6) &gt; 3. {"두" if r2 else "첫"} 번째 재기 &gt; 결과</div>
+  <h1>{"두" if r2 else "첫"} 번째 재기 결과</h1>
   <div class="box">
-    <p>A는 문서 없이 바로 답한 것입니다. B-v1은 A의 답을 judgement가 보고 generate가 고쳐 쓴 것입니다(어제 프롬프트). C는 근거 글을 넣고 답한 것입니다.</p>
+    <p>{INTRO2 if r2 else INTRO1}</p>
     <p>100은 질문 10개 × 10번입니다. 숫자는 저장된 원본 기록에서 이 페이지를 만들 때마다 새로 계산합니다. 통과 문제는 10번 중 6번 이상 맞은 질문입니다.</p>
-    <p>기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. 기록이 100개가 안 되거나 오류 유형 기록(round1_error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.</p>
+    <p>{NOTE2 if r2 else NOTE1}</p>
   </div>
   <div class="box guide">
     <h2>읽는 법</h2>
@@ -604,6 +623,11 @@ def build(base, out):
 
 
 if __name__ == "__main__":
-    b = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_BASE
-    o = Path(sys.argv[2]) if len(sys.argv) > 2 else b / "round1_results.html"
-    print(*build(b, o))
+    ap = argparse.ArgumentParser()
+    ap.add_argument("base", nargs="?")
+    ap.add_argument("out", nargs="?")
+    ap.add_argument("--round", type=int, choices=(1, 2), default=1)
+    a = ap.parse_args()
+    b = Path(a.base) if a.base else (DEFAULT_BASE2 if a.round == 2 else DEFAULT_BASE)
+    o = Path(a.out) if a.out else b / ("results.html" if a.round == 2 else "round1_results.html")
+    print(*build(b, o, a.round))

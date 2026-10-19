@@ -311,5 +311,73 @@ class Tests(unittest.TestCase):
         self.assertIn("정답 1 kg와", s)
 
 
+class Round2(unittest.TestCase):
+    """--round 2: 분야 셋, 도시 줄 없음, B는 돌리지 않음. 임시 폴더의 가짜 데이터만 쓴다."""
+
+    def page(self, a_ok, c_ok, wrong_label="계산 없이 답함"):
+        """희토류 원소만 A, C를 채운다. 맞은 답 수는 a_ok, c_ok(질문마다 균등, 10의 배수 아님도 허용)."""
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        root = Path(tmp.name)
+        for f in ("rare_earth", "exoplanets", "moons"):
+            (root / f).mkdir()
+            (root / f / "questions.json").write_text(json.dumps(questions()), encoding="utf-8")
+
+        def rows(cond, n_ok):
+            return [simple(cond, qid, s, i * 10 + s - 1 < n_ok) for i, qid in enumerate(QIDS) for s in range(1, 11)]
+        a, c = rows("base", a_ok), rows("context", c_ok)
+        write(root / "rare_earth" / "results" / "base.jsonl", a)
+        write(root / "rare_earth" / "results" / "context.jsonl", c)
+        errs = [error_row("rare_earth", cond, r, [wrong_label]) for cond, rs in (("A", a), ("C", c)) for r in rs if not r["correct"]]
+        write(root / "error_types.jsonl", errs)
+        write(root / "round1_error_types.jsonl", [])  # round 2는 이 파일을 보지 않는다
+        (root / "criterion4_langlinks.json").write_text(json.dumps({"rare_earth": {"가": "A"}, "moons": {"나": None}}), encoding="utf-8")
+        out, _ = m.build(root, root / "results.html", 2)
+        return out.read_text(encoding="utf-8")
+
+    def test_summary_row(self):
+        page = self.page(30, 80)
+        cells = row_of(page, "희토류 원소")
+        # 틀린 답은 모두 '계산 없이 답함'이라 재료는 다 맞은 것으로 센다: A 재료 100, C 재료 100
+        self.assertEqual((cells[4], cells[5], cells[7]), ("100", "100", "+0"))
+        self.assertTrue(cells[8].startswith("✗"))  # ① A 재료 100은 20~40 밖
+        self.assertTrue(cells[10].startswith("✗"))  # ③ C−A 0
+
+    def test_criteria_pass(self):
+        page = self.page(30, 80, "재료 값이 틀림")
+        cells = row_of(page, "희토류 원소")
+        self.assertEqual((cells[4], cells[5], cells[7]), ("30", "80", "+50"))
+        self.assertTrue(cells[8].startswith("✓"), cells[8])
+        self.assertTrue(cells[10].startswith("✓"), cells[10])
+
+    def test_no_city_and_b_not_run(self):
+        page = self.page(30, 80)
+        names = [re.findall(r"<td>(.*?)</td>", tr, re.S)[0] for tr in re.findall(r"<tr>(.*?)</tr>", page, re.S)
+                 if "<td>" in tr]
+        self.assertNotIn("어제 도시 10문제", page)
+        self.assertEqual(names[:3], ["희토류 원소", "외계 행성", "덜 알려진 위성"])
+        cells = row_of(page, "희토류 원소")
+        self.assertEqual((cells[2], cells[9]), ("돌리지 않음", "B를 돌릴 때 판정"))
+        self.assertIn("기준 ①③④를 넘는 분야가 둘 이상일 때만", page)
+        self.assertNotIn("어제 프롬프트", page)
+
+    def test_no_b_in_questions_and_seeds(self):
+        page = self.page(30, 80)
+        body = page.split("<h2>질문별 맞은 횟수</h2>")[1]
+        self.assertNotIn("B-v1", body)
+        self.assertNotIn("고쳐짐", body)
+        self.assertIn("A 10 · C 10", body)
+        self.assertIn("<th>C</th>", body)
+        self.assertNotIn("<h5>B-v1</h5>", body)
+        self.assertIn("<h5>C</h5>", body)
+
+    def test_criterion4_and_pending(self):
+        page = self.page(30, 80)
+        self.assertTrue(row_of(page, "희토류 원소")[11].startswith("✓"))
+        self.assertTrue(row_of(page, "덜 알려진 위성")[11].startswith("✗"))
+        self.assertEqual(row_of(page, "외계 행성")[11], "아직")
+        self.assertEqual(row_of(page, "외계 행성")[8], "아직")
+
+
 if __name__ == "__main__":
     unittest.main()
