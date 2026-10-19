@@ -102,14 +102,40 @@ def grade(q, answer):
     return True
 
 
+def numbers_of(answer):
+    """최종 답에서 쉼표를 지우고 숫자를 모두 뽑는다."""
+    return [float(x) for x in re.findall(r"-?\d+(?:\.\d+)?", str(answer).replace(",", ""))]
+
+
+def grade_record(q, answer):
+    """채점 기록. value가 있는 문제는 답의 마지막 숫자가 정답값의 ±1% 안이면 맞음(사용자가 정한 규칙).
+    value가 없는 문제는 기존 grade 규칙 그대로이고 기록에는 correct만 둔다."""
+    if "value" not in q:
+        return {"correct": grade(q, answer)}
+    nums = numbers_of(answer)
+    picked = nums[-1] if nums else None
+    value = q["value"]
+    correct = picked is not None and abs(picked - value) <= abs(value) * 0.01
+    diff = round(abs(picked - value) / abs(value) * 100, 4) if picked is not None else None
+    return {"answer_key": q["answer"], "value": value, "numbers": nums, "picked": picked,
+            "diff_pct": diff, "multi": len(nums) >= 2, "correct": correct}
+
+
+def evidence_of(q):
+    """context 조건에 넣을 근거 글. 옛 문제는 evidence 문자열, 새 문제는 evidence_quotes를 줄로 잇는다."""
+    if "evidence" in q:
+        return q["evidence"]
+    return "\n".join(f"[{e['doc']}] {e['quote']}" for e in q["evidence_quotes"])
+
+
 def answer_of(parsed):
     if isinstance(parsed, dict):
         return parsed.get("answer", "")
     return ""
 
 
-def load_questions(only=None):
-    qs = json.loads((HERE / "questions.json").read_text(encoding="utf-8"))
+def load_questions(path, only=None):
+    qs = json.loads(Path(path).read_text(encoding="utf-8"))
     return [q for q in qs if not only or q["id"] in only]
 
 
@@ -123,18 +149,20 @@ def run_base(qs, out, seeds):
         for s in seeds:
             g = chat(GEN_MODEL, GEN_SYSTEM, q["question"], GEN_TEMPERATURE, s)
             ans = answer_of(g["parsed"])
+            rec = grade_record(q, ans)
             write(out, {"cond": "base", "id": q["id"], "kind": q["kind"], "seed": s, "gen": g,
-                        "final_answer": ans, "correct": grade(q, ans)})
+                        "final_answer": ans, "correct": rec["correct"], "grade": rec})
 
 
 def run_context(qs, out, seeds):
     for q in qs:
-        system = CONTEXT_SYSTEM.replace("{evidence}", q["evidence"])
+        system = CONTEXT_SYSTEM.replace("{evidence}", evidence_of(q))
         for s in seeds:
             g = chat(GEN_MODEL, system, q["question"], GEN_TEMPERATURE, s)
             ans = answer_of(g["parsed"])
+            rec = grade_record(q, ans)
             write(out, {"cond": "context", "id": q["id"], "kind": q["kind"], "seed": s, "gen": g,
-                        "final_answer": ans, "correct": grade(q, ans)})
+                        "final_answer": ans, "correct": rec["correct"], "grade": rec})
 
 
 def run_refine(qs, out, base_rows, seeds):
@@ -151,13 +179,15 @@ def run_refine(qs, out, base_rows, seeds):
                 except urllib.error.HTTPError as err:
                     # 세 번 다시 보내도 서버 오류(c-010의 몇 seed)면 그 회차에서 멈추고, 지금의 답을 최종 답으로 둔다.
                     j = {"text": "", "parsed": None, "seconds": 0, "gen_tokens": 0, "error": f"HTTP {err.code}"}
+                    rec = grade_record(q, answer_of(draft["parsed"]))
                     rounds.append({"round": rnd, "draft": draft, "draft_answer": answer_of(draft["parsed"]),
-                                   "draft_correct": grade(q, answer_of(draft["parsed"])), "judge": j, "passed": False})
+                                   "draft_correct": rec["correct"], "draft_grade": rec, "judge": j, "passed": False})
                     break
                 jp = j["parsed"] if isinstance(j["parsed"], dict) else {}
                 passed = jp.get("pass") is True
+                rec = grade_record(q, answer_of(draft["parsed"]))
                 rounds.append({"round": rnd, "draft": draft, "draft_answer": answer_of(draft["parsed"]),
-                               "draft_correct": grade(q, answer_of(draft["parsed"])), "judge": j, "passed": passed})
+                               "draft_correct": rec["correct"], "draft_grade": rec, "judge": j, "passed": passed})
                 if passed or rnd == MAX_ROUNDS:
                     break
                 user = REFINE_USER.format(question=q["question"], draft=draft_text,
@@ -165,8 +195,9 @@ def run_refine(qs, out, base_rows, seeds):
                                           instruction=jp.get("revision_instruction", ""))
                 draft = chat(GEN_MODEL, GEN_SYSTEM, user, GEN_TEMPERATURE, s)
             final = rounds[-1]["draft_answer"]
+            rec = grade_record(q, final)
             write(out, {"cond": "refine", "id": q["id"], "kind": q["kind"], "seed": s, "rounds": rounds,
-                        "final_answer": final, "correct": grade(q, final)})
+                        "final_answer": final, "correct": rec["correct"], "grade": rec})
 
 
 def main():
@@ -174,19 +205,22 @@ def main():
     ap.add_argument("cond", choices=["base", "refine", "context"])
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--seeds", type=int, nargs="*")
+    ap.add_argument("--questions", default=str(HERE / "questions.json"),
+                    help="문제 파일 (기본: 이 폴더의 questions.json). 결과는 이 파일 폴더의 results/에 둔다")
     ap.add_argument("--out")
-    ap.add_argument("--base", help="refine이 시작할 base 결과 파일 (기본: results/base.jsonl)")
+    ap.add_argument("--base", help="refine이 시작할 base 결과 파일 (기본: 문제 파일 폴더의 results/base.jsonl)")
     a = ap.parse_args()
-    qs = load_questions(a.only)
+    qs = load_questions(a.questions, a.only)
     seeds = a.seeds or list(SEEDS)
-    out = Path(a.out) if a.out else HERE / "results" / f"{a.cond}.jsonl"
-    out.parent.mkdir(exist_ok=True)
+    results = Path(a.questions).parent / "results"
+    out = Path(a.out) if a.out else results / f"{a.cond}.jsonl"
+    out.parent.mkdir(parents=True, exist_ok=True)
     if a.cond == "base":
         run_base(qs, out, seeds)
     elif a.cond == "context":
         run_context(qs, out, seeds)
     else:
-        base_path = Path(a.base) if a.base else HERE / "results" / "base.jsonl"
+        base_path = Path(a.base) if a.base else results / "base.jsonl"
         base_rows = [json.loads(l) for l in base_path.read_text(encoding="utf-8").splitlines() if l.strip()]
         run_refine(qs, out, base_rows, seeds)
     print("done", a.cond, file=sys.stderr)

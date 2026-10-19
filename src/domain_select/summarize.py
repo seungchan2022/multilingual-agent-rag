@@ -1,13 +1,15 @@
 # results/의 원본 기록에서 점수를 계산한다. 숫자는 모두 여기서 나온 값만 쓴다.
 import json
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-HERE = Path(__file__).parent
+# 인자: questions.json과 results/가 있는 폴더 (기본: 이 폴더)
+HERE = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent
 QS = json.loads((HERE / "questions.json").read_text(encoding="utf-8"))
 ORDER = [q["id"] for q in QS]
 KIND = {q["id"]: q["kind"] for q in QS}
-KINDS = ["일반 지식", "추론", "문서 속 세부 사실"]
+KINDS = list(dict.fromkeys(q["kind"] for q in QS))  # 문제 파일에 처음 나온 순서
 PASS_AT = 6  # 10번 중 6번 이상 맞으면 통과
 
 
@@ -43,6 +45,11 @@ def report(name, rows):
         ok = sum(pq[q][0] for q in ids)
         n = sum(pq[q][1] for q in ids)
         print(f"  {k}: 통과 {p}/{len(ids)} · 맞은 답 {ok}/{n}")
+    multi = [r for r in rows if r.get("grade", {}).get("multi")]
+    if any("grade" in r for r in rows):
+        print(f"숫자가 둘 이상인 답: {len(multi)}")
+        for r in multi:
+            print(f"  {r['id']} 씨앗 {r['seed']}: {r['final_answer']}")
     return pq
 
 
@@ -68,7 +75,9 @@ def judge_report(rows):
     print("판정 출력을 JSON으로 읽지 못한 수:", unparsed)
 
 
-base, refine, context = load("base"), load("refine_merged"), load("context")
+# 옛 폴더는 refine 결과를 합친 refine_merged.jsonl에 두었고, 새 폴더는 refine.jsonl 하나다.
+base, context = load("base"), load("context")
+refine = load("refine_merged") or load("refine")
 report("기준 (문서 없이)", base)
 if refine:
     report("판정 고리 (플로우 PDF 1단계)", refine)
