@@ -12,6 +12,9 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from run import REFINE_USER  # noqa: E402  러너가 generate에 보낸 글을 그대로 다시 만든다
+
 DEFAULT_BASE = Path(__file__).resolve().parents[2] / "research_notes" / "stage2_stem_select"
 TOPICS = [("chem", "화학 원소"), ("solar", "태양계 천체"), ("mineral", "광물")]
 CITY = ("city_v1", "어제 도시 10문제")
@@ -213,16 +216,16 @@ def key_notes(parsed, expected):
     return f'<p class="keynote">{"; ".join(notes)}</p>' if notes else ""
 
 
-def gen_block(gen, correct, grade, title="최종 답"):
+def gen_block(gen, correct, grade, title="최종 답", extra=""):
     """모델 출력 하나. 답, 판정, 채점 한 문장, 풀이, 원문 순서."""
     p = gen.get("parsed") if gen else None
     text = (gen or {}).get("text", "")
     if p is None:
-        return (f'<div class="out"><p class="ans-line"><span class="lbl">{e(title)}</span> {mark(correct)}</p>'
+        return (f'<div class="out"><p class="ans-line"><span class="lbl">{e(title)}</span> {mark(correct)}{extra}</p>'
                 f'<p class="bad">JSON으로 읽지 못함. 아래는 모델이 낸 원문이다.</p><pre>{e(text)}</pre></div>')
     g = grade_sentence(grade)
     return (f'<div class="out"><p class="ans-line"><span class="lbl">{e(title)} {key("answer")}</span> '
-            f'<span class="ans">{e(str(p.get("answer", "")))}</span> {mark(correct)}</p>'
+            f'<span class="ans">{e(str(p.get("answer", "")))}</span> {mark(correct)}{extra}</p>'
             + (f'<p class="grade">{g}</p>' if g else "")
             + f'<p class="lbl">풀이 {key("reason")}</p><p class="reason">{e(str(p.get("reason", "")))}</p>'
             + key_notes(p, GEN_KEYS) + raw_toggle(text) + "</div>")
@@ -245,13 +248,38 @@ def judge_block(rd):
             + key_notes(jp, JUDGE_KEYS) + raw_toggle(j.get("text", "")) + "</div>")
 
 
-def refine_block(r):
+def answer_label(rd, prev):
+    """2회차부터, 앞 회차의 draft_answer와 견줘 답이 바뀌었는지 이름표를 붙인다."""
+    if prev is None:
+        return ""
+    changed = str(rd["draft_answer"]).strip() != str(prev["draft_answer"]).strip()
+    return " " + (pill("pass", "답이 바뀜") if changed else pill("grey", "답이 그대로"))
+
+
+def refine_request(q, prev, rnd):
+    """러너(run.py run_refine)가 generate에 보낸 user 글을 그대로 다시 만든다."""
+    jp = prev["judge"].get("parsed")
+    jp = jp if isinstance(jp, dict) else {}
+    text = REFINE_USER.format(question=q["question"], draft=prev["draft"]["text"],
+                              issues=json.dumps(jp.get("issues", []), ensure_ascii=False),
+                              instruction=jp.get("revision_instruction", ""))
+    return (f'<div class="out"><p class="lbl">{rnd}회차 고쳐 쓰기 요청 (generate에게 보낸 글)</p>'
+            f'<p class="note">generate의 system 프롬프트는 A와 같다(GEN_SYSTEM).</p>'
+            f'<details class="raw"><summary>{rnd}회차 고쳐 쓰기 요청 보기</summary>'
+            f'<pre style="white-space:pre-wrap">{e(text)}</pre></details></div>')
+
+
+def refine_block(r, q):
     """B-v1을 회차 순서로 세로로 늘어놓고, 끝에 최종 답 줄을 둔다."""
     steps = []
+    prev = None
     for rd in r["rounds"]:
         steps.append(f'<li class="step"><p class="round">{rd["round"]}회차</p>'
-                     + gen_block(rd["draft"], rd["draft_correct"], rd.get("draft_grade"), title=f'{rd["round"]}회차 답')
+                     + (refine_request(q, prev, rd["round"]) if prev else "")
+                     + gen_block(rd["draft"], rd["draft_correct"], rd.get("draft_grade"), title=f'{rd["round"]}회차 답',
+                                 extra=answer_label(rd, prev))
                      + judge_block(rd) + "</li>")
+        prev = rd
     final = (f'<div class="final"><span class="lbl">최종 답</span> <span class="ans">{e(str(r["final_answer"]))}</span> '
              f'{mark(r["correct"])}</div>')
     return f'<ol class="tl">{"".join(steps)}</ol>{final}'
@@ -295,7 +323,7 @@ def detail(t, q):
     for s in seeds:
         k = (q["id"], s)
         inner = (section("A", gen_block(a[k]["gen"], a[k]["correct"], a[k].get("grade")) if k in a else "<p>아직 없음</p>")
-                 + section("B-v1", refine_block(b[k]) if k in b else "<p>아직 없음</p>")
+                 + section("B-v1", refine_block(b[k], q) if k in b else "<p>아직 없음</p>")
                  + section("C", gen_block(c[k]["gen"], c[k]["correct"], c[k].get("grade")) if k in c else "<p>아직 없음</p>"))
         body.append(f'<details class="seed"><summary>{seed_summary(s, a.get(k), b.get(k), c.get(k))}</summary>{inner}</details>')
     pa, pb, pc = (per_question(t[x]).get(q["id"], [0, 0])[0] for x in "ABC")
@@ -483,6 +511,8 @@ def build(base, out):
       <span><span class="pill p-fix">고쳐짐</span> 처음 틀림, 최종 맞음</span>
       <span><span class="pill p-break">망가짐</span> 처음 맞음, 최종 틀림</span>
       <span><span class="pill p-grey">3회차에서 끝남</span> 부가 정보</span>
+      <span><span class="pill p-pass">답이 바뀜</span> 2회차부터, 앞 회차의 답과 다름</span>
+      <span><span class="pill p-grey">답이 그대로</span> 2회차부터, 앞 회차의 답과 같음</span>
     </div>
   </div>
   <h2>요약</h2>

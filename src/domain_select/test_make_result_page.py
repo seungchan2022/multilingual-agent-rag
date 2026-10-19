@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import make_result_page as m
+import run
 
 QIDS = [f"q-{i:02d}" for i in range(10)]
 
@@ -191,6 +192,43 @@ class Tests(unittest.TestCase):
         self.assertIn("정해지지 않은 칸: <code", page)
         self.assertIn("칸이 없음", page)
         self.assertNotIn("prefers-color-scheme: dark", page)
+
+    def two_round_row(self, second_answer):
+        r = refine_row(QIDS[0], 1, False, False, True)
+        r["rounds"][0]["draft"]["text"] = "첫 글 <t>"
+        r["rounds"][0]["judge"]["parsed"]["issues"] = ["한글 지적 <i>"]
+        r["rounds"][0]["judge"]["parsed"]["revision_instruction"] = "다시 <풀어>"
+        r["rounds"].append(dict(r["rounds"][0], round=2, draft_answer=second_answer, draft={**gen(), "text": "둘째 글"},
+                                passed=True))
+        return r
+
+    def page_of(self, row):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        root = Path(tmp.name)
+        make_tree(root, {"chem": {"A": counts_rows("base", [5] * 10), "B": [row]}})
+        return m.build(root, root / "o.html")[0].read_text(encoding="utf-8")
+
+    def test_refine_request_between_rounds(self):
+        import html
+        page = self.page_of(self.two_round_row("1"))
+        want = run.REFINE_USER.format(question="질문 q-00 <b>", draft="첫 글 <t>",
+                                      issues=json.dumps(["한글 지적 <i>"], ensure_ascii=False), instruction="다시 <풀어>")
+        self.assertIn(html.escape(want), page)
+        self.assertIn("2회차 고쳐 쓰기 요청 (generate에게 보낸 글)", page)
+        self.assertIn("2회차 고쳐 쓰기 요청 보기", page)
+        self.assertIn("white-space:pre-wrap", page)
+        self.assertEqual(page.count("고쳐 쓰기 요청 (generate에게 보낸 글)"), 1)  # 1회차 앞에는 없다
+        order = [page.index(x) for x in ("1회차 judgement", "2회차 고쳐 쓰기 요청 (", "2회차 답")]
+        self.assertEqual(order, sorted(order))
+
+    def test_answer_changed_label(self):
+        same = self.page_of(self.two_round_row(" 1 "))
+        self.assertIn("답이 그대로</span>", same.split("<h2>씨앗별 자세히</h2>")[1])
+        self.assertNotIn("답이 바뀜</span>", same.split("<h2>씨앗별 자세히</h2>")[1])
+        diff = self.page_of(self.two_round_row("2"))
+        self.assertIn("답이 바뀜</span>", diff.split("<h2>씨앗별 자세히</h2>")[1])
+        self.assertNotIn("답이 그대로</span>", diff.split("<h2>씨앗별 자세히</h2>")[1])
 
     def test_unparsed_output(self):
         html_ = m.gen_block({"text": "깨짐 <x>", "parsed": None}, False, None)
