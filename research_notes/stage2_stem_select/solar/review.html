@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>태양계 천체 질문 검토</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 실험 노트처럼: 왼쪽에 위치와 볼 것, 아래로 질문 카드가 이어진다 */
+:root {
+  --bg: #f3f5f7; --paper: #ffffff; --ink: #1c2530; --muted: #5b6876; --line: #d5dbe1;
+  --accent: #1f5fa8; --accent-soft: #e3ecf7; --warn: #8a5a00; --warn-soft: #fbf1dc;
+  --sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12171d; --paper: #1a2129; --ink: #e4e9ee; --muted: #9aa7b4; --line: #2c3743;
+  --accent: #7fb0ea; --accent-soft: #1d2d40; --warn: #e2b764; --warn-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #12171d; --paper: #1a2129; --ink: #e4e9ee; --muted: #9aa7b4; --line: #2c3743;
+  --accent: #7fb0ea; --accent-soft: #1d2d40; --warn: #e2b764; --warn-soft: #33290f; color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.65; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 20px; }
+h1 { font-size: 1.6rem; margin: 0; text-wrap: balance; }
+.where { font-family: var(--mono); font-size: .85rem; color: var(--muted); }
+.intro { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; }
+.intro p, .intro ul { margin: 0; }
+.intro ul { padding-left: 1.2em; }
+.notes { background: var(--warn-soft); border-radius: 6px; padding: 14px 18px; }
+.notes h2 { font-size: 1rem; margin: 0 0 6px; color: var(--warn); }
+.notes ul { margin: 0; padding-left: 1.2em; }
+.q { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: grid; gap: 14px; }
+.q header { display: flex; gap: 12px; align-items: baseline; }
+.qid { font-family: var(--mono); font-size: .8rem; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px; flex: none; }
+.q h2 { font-size: 1.08rem; margin: 0; font-weight: 600; text-wrap: balance; min-width: 0; }
+.ans { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; border-left: 3px solid var(--accent); padding-left: 12px; }
+.lbl, h3 { font-size: .75rem; letter-spacing: .06em; color: var(--muted); font-weight: 500; margin: 0 0 6px; }
+.lbl { margin: 0; }
+.num { font-family: var(--mono); font-size: 1.15rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.calc { font-family: var(--mono); font-size: .85rem; color: var(--muted); overflow-wrap: anywhere; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.cols > section { min-width: 0; }
+@media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+.steps { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; font-variant-numeric: tabular-nums; }
+.ev { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ev li { display: grid; grid-template-columns: auto 1fr; gap: 0 8px; }
+.ev a { color: var(--accent); font-weight: 500; }
+.rev { font-family: var(--mono); font-size: .75rem; color: var(--muted); align-self: center; }
+.ev q { grid-column: 1 / -1; font-family: var(--mono); font-size: .82rem; background: var(--bg); padding: 4px 8px; border-radius: 4px; overflow-wrap: anywhere; quotes: none; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+<div class="wrap">
+  <div class="where">2단계 &gt; 도메인 다시 고르기(#6) &gt; 2. 질문 만들기 &gt; 태양계 천체</div>
+  <h1>태양계 천체 질문 10개</h1>
+  <div class="intro">
+    <p>후보 고르기 실험에 쓸 질문입니다. 모델에게는 질문만 보이고, 정답과 해설은 채점과 사용자 확인에만 씁니다. C(근거 글을 넣고 답)에서는 오른쪽 근거 글을 모델에게 줍니다.</p>
+    <p><b>보실 것</b> 두 가지입니다.</p>
+    <ul>
+      <li>해설을 근거 글과 함께 따라갈 수 있는가</li>
+      <li>단계가 지나치게 많은 질문이 없는가</li>
+    </ul>
+    <p>프로그램 검사(<code>src/domain_select/check_questions.py</code>)는 10개 모두 통과했습니다. 검사한 것: 근거 글이 받은 문서에 그대로 있는가, 계산식을 다시 하면 정답이 나오는가, 연산이 두 개 이상인가, 단위 바꾸기가 있는가.</p>
+  </div>
+  <div class="notes">
+    <h2>만들며 본 것</h2>
+    <ul>
+      <li>꼴이 두 갈래로 몰렸습니다. 빛이 가는 시간 3개(s-01, 05, 09), 속력 × 시간 3개(s-03, 08, 10)입니다.</li>
+      <li>s-09(빛이 1 AU를 가는 시간, 약 8.3분)는 널리 알려진 값이라 문서 없이도 맞힐 가능성이 큽니다.</li>
+      <li>부피와 질량은 위 첨자가 숫자로 붙어 버려(예: 수성의 부피 6.083×10¹⁰ km³가 "6.083×1010 km3") 쓰지 않았습니다.</li>
+      <li>수성은 자전 주기가 정보 상자에 58.6462일, 본문에 "58일"과 "하루는 176 지구일"로 섞여 있어 쓰지 않았습니다.</li>
+      <li>"만 km"로 답하게 한 질문(s-08, 10)은 마지막에 10,000으로 나눕니다. 단위 바꾸기로 센 것은 그 앞의 시간 바꾸기(3600, 86,400)입니다.</li>
+    </ul>
+  </div>
+
+  
+<article class="q" id="s-01">
+  <header><span class="qid">s-01</span><h2>빛이 화성 궤도의 긴반지름만큼 가는 데 몇 분이 걸리는가? (진공에서 빛의 속력으로 계산하고, 소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">12.67분</span><span class="calc">227939200 * 1000 / 299792458 / 60</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1 km = 1000 m이므로 화성의 긴반지름 227,939,200 km = 227,939,200,000 m</li><li>평균 속력 = 거리 ÷ 시간이므로 시간 = 거리 ÷ 속력 = 227,939,200,000 ÷ 299,792,458 = 760.32… 초</li><li>1분은 60초이므로 760.32 ÷ 60 = 12.67분</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42659189" target="_blank" rel="noopener">화성</a><span class="rev">판 42659189</span><q>긴반지름 227,939,200 km 1.523679 AU</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42144813" target="_blank" rel="noopener">빛의 속력</a><span class="rev">판 42144813</span><q>값:: 299,792,458 m/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42332999" target="_blank" rel="noopener">킬로미터</a><span class="rev">판 42332999</span><q>1,000미터와 같으며</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42522650" target="_blank" rel="noopener">속력</a><span class="rev">판 42522650</span><q>물체의 평균 속력은 물체가 이동한 거리를 그 시간 간격의 지속 시간으로 나눈 값이며</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39025019" target="_blank" rel="noopener">시 (단위)</a><span class="rev">판 39025019</span><q>01분은 60초이고, 01시간은 60분이다.</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-02">
+  <header><span class="qid">s-02</span><h2>타이탄의 반지름은 달의 평균 반지름보다 몇 m 더 긴가?</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">838,400 m</span><span class="calc">(2575.5 - 1737.1) * 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>차이를 구한다: 2575.5 − 1737.1 = 838.4 km</li><li>1 km = 1000 m이므로 838.4 × 1000 = 838,400 m</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42533530" target="_blank" rel="noopener">타이탄 (위성)</a><span class="rev">판 42533530</span><q>반지름: 2575.5 ± 2 km (지구의 0.404배)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42558376" target="_blank" rel="noopener">달</a><span class="rev">판 42558376</span><q>평균 반지름: 1737.1 km (지구의 0.2727배)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42332999" target="_blank" rel="noopener">킬로미터</a><span class="rev">판 42332999</span><q>1,000미터와 같으며</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-03">
+  <header><span class="qid">s-03</span><h2>토성이 평균 공전 속도로 1시간 동안 가는 거리는 달 궤도의 긴 반지름의 몇 배인가? (소수 넷째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">0.0903배</span><span class="calc">9.639 * 3600 / 384400</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1시간 = 3600초이므로 1시간 동안 가는 거리 = 9.639 km/s × 3600 s = 34,700.4 km</li><li>달 궤도의 긴 반지름 384,400 km로 나눈다: 34,700.4 ÷ 384,400 = 0.0903배</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42482007" target="_blank" rel="noopener">토성</a><span class="rev">판 42482007</span><q>평균 공전 속도 9.639 km/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42558376" target="_blank" rel="noopener">달</a><span class="rev">판 42558376</span><q>긴 반지름: 384,400 km (0.0026 AU)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39025019" target="_blank" rel="noopener">시 (단위)</a><span class="rev">판 39025019</span><q>01시간 = 3600초</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-04">
+  <header><span class="qid">s-04</span><h2>달이 평균 공전 속도로 궤도 둘레를 한 바퀴 도는 데 며칠이 걸리는가? (소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">27.33일</span><span class="calc">2413402 / 1.022 / 86400</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>평균 속력 = 거리 ÷ 시간이므로 시간 = 거리 ÷ 속력 = 2,413,402 km ÷ 1.022 km/s = 2,361,450… 초</li><li>하루는 86,400초이므로 2,361,450 ÷ 86,400 = 27.33일</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42558376" target="_blank" rel="noopener">달</a><span class="rev">판 42558376</span><q>궤도 둘레: 2,413,402 km (0.016 AU)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42558376" target="_blank" rel="noopener">달</a><span class="rev">판 42558376</span><q>평균 공전 속도: 1.022 km/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42522650" target="_blank" rel="noopener">속력</a><span class="rev">판 42522650</span><q>물체의 평균 속력은 물체가 이동한 거리를 그 시간 간격의 지속 시간으로 나눈 값이며</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480146" target="_blank" rel="noopener">날</a><span class="rev">판 41480146</span><q>하루는 24시간, 즉 1,440 분, 86,400 초가 된다.</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-05">
+  <header><span class="qid">s-05</span><h2>빛이 해왕성 궤도의 긴 반지름만큼 가는 데 몇 시간이 걸리는가? (진공에서 빛의 속력으로 계산하고, 소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">4.17시간</span><span class="calc">4498252900 * 1000 / 299792458 / 3600</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1 km = 1000 m이므로 해왕성의 긴 반지름 4,498,252,900 km = 4,498,252,900,000 m</li><li>시간 = 거리 ÷ 속력 = 4,498,252,900,000 ÷ 299,792,458 = 15,004.5… 초</li><li>1시간 = 3600초이므로 15,004.5 ÷ 3600 = 4.17시간</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42662017" target="_blank" rel="noopener">해왕성</a><span class="rev">판 42662017</span><q>긴 반지름 4,498,252,900 km 30.068 963 48 AU</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42144813" target="_blank" rel="noopener">빛의 속력</a><span class="rev">판 42144813</span><q>값:: 299,792,458 m/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42332999" target="_blank" rel="noopener">킬로미터</a><span class="rev">판 42332999</span><q>1,000미터와 같으며</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42522650" target="_blank" rel="noopener">속력</a><span class="rev">판 42522650</span><q>물체의 평균 속력은 물체가 이동한 거리를 그 시간 간격의 지속 시간으로 나눈 값이며</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39025019" target="_blank" rel="noopener">시 (단위)</a><span class="rev">판 39025019</span><q>01시간 = 3600초</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-06">
+  <header><span class="qid">s-06</span><h2>목성의 회합 자전 주기는 지구의 하루(24시간)보다 몇 분 짧은가?</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">844.5분</span><span class="calc">24 * 60 - 9.925 * 60</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1시간은 60분이므로 지구의 하루 = 24 × 60 = 1440분</li><li>목성의 회합 자전 주기 = 9.925 × 60 = 595.5분</li><li>차이 = 1440 − 595.5 = 844.5분</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42620464" target="_blank" rel="noopener">목성</a><span class="rev">판 42620464</span><q>회합 자전 주기: 9.925 시간</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480146" target="_blank" rel="noopener">날</a><span class="rev">판 41480146</span><q>하루는 24시간, 즉 1,440 분, 86,400 초가 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39025019" target="_blank" rel="noopener">시 (단위)</a><span class="rev">판 39025019</span><q>01분은 60초이고, 01시간은 60분이다.</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-07">
+  <header><span class="qid">s-07</span><h2>천왕성 궤도의 긴반지름은 토성 궤도의 긴 반지름보다 몇 AU 더 긴가? (두 행성의 km 값과 천문단위의 km 값으로 계산하고, 소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">9.65 AU</span><span class="calc">(2870972220 - 1426725413) / 149597870.7</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>차이를 구한다: 2,870,972,220 − 1,426,725,413 = 1,444,246,807 km</li><li>1 AU = 149,597,870.7 km이므로 1,444,246,807 ÷ 149,597,870.7 = 9.65 AU</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42418675" target="_blank" rel="noopener">천왕성</a><span class="rev">판 42418675</span><q>긴반지름: 2,870,972,220 km 19.191 263 93 AU</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42482007" target="_blank" rel="noopener">토성</a><span class="rev">판 42482007</span><q>긴 반지름 1,426,725,413 km 9.537 070 32 AU</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39013593" target="_blank" rel="noopener">천문단위</a><span class="rev">판 39013593</span><q>약 149,597,870,700 m(약 149,597,870.7 km)로 정의되어 있다</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-08">
+  <header><span class="qid">s-08</span><h2>화성이 평균 공전 속도로 1시간 동안 가는 거리는 몇만 km인가? (소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">8.67만 km</span><span class="calc">24.077 * 3600 / 10000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1시간 = 3600초이므로 1시간 동안 가는 거리 = 24.077 km/s × 3600 s = 86,677.2 km</li><li>만 km 단위로 바꾼다: 86,677.2 ÷ 10,000 = 8.67만 km</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42659189" target="_blank" rel="noopener">화성</a><span class="rev">판 42659189</span><q>평균 공전 속도 24.077 km/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39025019" target="_blank" rel="noopener">시 (단위)</a><span class="rev">판 39025019</span><q>01시간 = 3600초</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-09">
+  <header><span class="qid">s-09</span><h2>빛이 1 AU를 가는 데 몇 분이 걸리는가? (진공에서 빛의 속력으로 계산하고, 소수 둘째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">8.32분</span><span class="calc">149597870700 / 299792458 / 60</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1 AU = 149,597,870,700 m</li><li>시간 = 거리 ÷ 속력 = 149,597,870,700 ÷ 299,792,458 = 499.00… 초</li><li>1분은 60초이므로 499.00 ÷ 60 = 8.32분</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39013593" target="_blank" rel="noopener">천문단위</a><span class="rev">판 39013593</span><q>약 149,597,870,700 m(약 149,597,870.7 km)로 정의되어 있다</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42144813" target="_blank" rel="noopener">빛의 속력</a><span class="rev">판 42144813</span><q>값:: 299,792,458 m/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42522650" target="_blank" rel="noopener">속력</a><span class="rev">판 42522650</span><q>물체의 평균 속력은 물체가 이동한 거리를 그 시간 간격의 지속 시간으로 나눈 값이며</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39025019" target="_blank" rel="noopener">시 (단위)</a><span class="rev">판 39025019</span><q>01분은 60초이고, 01시간은 60분이다.</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="s-10">
+  <header><span class="qid">s-10</span><h2>이오가 평균 공전 속도로 공전 주기 한 번 동안 가는 거리는 몇만 km인가? (소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">265.0만 km</span><span class="calc">17.334 * 1.769137786 * 86400 / 10000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>하루는 86,400초이므로 공전 주기 1.769137786일 = 1.769137786 × 86,400 = 152,853.5… 초</li><li>거리 = 속력 × 시간 = 17.334 km/s × 152,853.5 s = 2,649,563 km</li><li>만 km 단위로 바꾼다: 2,649,563 ÷ 10,000 = 265.0만 km</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42568861" target="_blank" rel="noopener">이오 (위성)</a><span class="rev">판 42568861</span><q>공전 주기(P): 1.769 137 786 일</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42568861" target="_blank" rel="noopener">이오 (위성)</a><span class="rev">판 42568861</span><q>평균 공전 속도: 17.334 km/s</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480146" target="_blank" rel="noopener">날</a><span class="rev">판 41480146</span><q>하루는 24시간, 즉 1,440 분, 86,400 초가 된다.</q></li></ul></section>
+  </div>
+</article>
+</div>
