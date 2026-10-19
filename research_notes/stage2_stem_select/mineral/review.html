@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>광물 질문 검토</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 실험 노트처럼: 왼쪽에 위치와 볼 것, 아래로 질문 카드가 이어진다 */
+:root {
+  --bg: #f3f5f7; --paper: #ffffff; --ink: #1c2530; --muted: #5b6876; --line: #d5dbe1;
+  --accent: #1f5fa8; --accent-soft: #e3ecf7; --warn: #8a5a00; --warn-soft: #fbf1dc;
+  --sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12171d; --paper: #1a2129; --ink: #e4e9ee; --muted: #9aa7b4; --line: #2c3743;
+  --accent: #7fb0ea; --accent-soft: #1d2d40; --warn: #e2b764; --warn-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #12171d; --paper: #1a2129; --ink: #e4e9ee; --muted: #9aa7b4; --line: #2c3743;
+  --accent: #7fb0ea; --accent-soft: #1d2d40; --warn: #e2b764; --warn-soft: #33290f; color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.65; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 20px; }
+h1 { font-size: 1.6rem; margin: 0; text-wrap: balance; }
+.where { font-family: var(--mono); font-size: .85rem; color: var(--muted); }
+.intro { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; }
+.intro p, .intro ul { margin: 0; }
+.intro ul { padding-left: 1.2em; }
+.notes { background: var(--warn-soft); border-radius: 6px; padding: 14px 18px; }
+.notes h2 { font-size: 1rem; margin: 0 0 6px; color: var(--warn); }
+.notes ul { margin: 0; padding-left: 1.2em; }
+.q { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: grid; gap: 14px; }
+.q header { display: flex; gap: 12px; align-items: baseline; }
+.qid { font-family: var(--mono); font-size: .8rem; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 4px; flex: none; }
+.q h2 { font-size: 1.08rem; margin: 0; font-weight: 600; text-wrap: balance; min-width: 0; }
+.ans { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; border-left: 3px solid var(--accent); padding-left: 12px; }
+.lbl, h3 { font-size: .75rem; letter-spacing: .06em; color: var(--muted); font-weight: 500; margin: 0 0 6px; }
+.lbl { margin: 0; }
+.num { font-family: var(--mono); font-size: 1.15rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.calc { font-family: var(--mono); font-size: .85rem; color: var(--muted); overflow-wrap: anywhere; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.cols > section { min-width: 0; }
+@media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+.steps { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; font-variant-numeric: tabular-nums; }
+.ev { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ev li { display: grid; grid-template-columns: auto 1fr; gap: 0 8px; }
+.ev a { color: var(--accent); font-weight: 500; }
+.rev { font-family: var(--mono); font-size: .75rem; color: var(--muted); align-self: center; }
+.ev q { grid-column: 1 / -1; font-family: var(--mono); font-size: .82rem; background: var(--bg); padding: 4px 8px; border-radius: 4px; overflow-wrap: anywhere; quotes: none; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+<div class="wrap">
+  <div class="where">2단계 &gt; 도메인 다시 고르기(#6) &gt; 2. 질문 만들기 &gt; 광물</div>
+  <h1>광물 질문 10개</h1>
+  <div class="intro">
+    <p>후보 고르기 실험에 쓸 질문입니다. 모델에게는 질문만 보이고, 정답과 해설은 채점과 사용자 확인에만 씁니다. C(근거 글을 넣고 답)에서는 오른쪽 근거 글을 모델에게 줍니다.</p>
+    <p><b>보실 것</b> 두 가지입니다.</p>
+    <ul>
+      <li>해설을 근거 글과 함께 따라갈 수 있는가</li>
+      <li>단계가 지나치게 많은 질문이 없는가</li>
+    </ul>
+    <p>프로그램 검사(<code>src/domain_select/check_questions.py</code>)는 10개 모두 통과했습니다. 검사한 것: 근거 글이 받은 문서에 그대로 있는가, 계산식을 다시 하면 정답이 나오는가, 연산이 두 개 이상인가, 단위 바꾸기가 있는가.</p>
+  </div>
+  <div class="notes">
+    <h2>만들며 본 것</h2>
+    <ul>
+      <li>한국어 광물 문서가 짧습니다. 적철석 129자, 형석 160자, 자철석 259자, 황철석 448자입니다. 자철석·적철석·방연석은 쓸 값이 없어 쓰지 않았습니다.</li>
+      <li>꼴이 두 갈래입니다. 광물 속 원소의 질량 6개(m-01~06), 비중으로 부피·질량 4개(m-07~10)입니다. 비중 쪽은 화학 원소 후보의 밀도 질문과 꼴이 같습니다.</li>
+      <li>위키백과의 수식이 마크다운에서 빠집니다. 질량백분율 문서의 정의가 "총 질량() 대비 물질의 질량() 비율()"처럼 괄호만 남습니다. 속력 문서도 같습니다. 코퍼스 변환 프로그램이 같은 방식이라 고른 뒤 코퍼스를 만들 때 다시 다뤄야 합니다.</li>
+      <li>값이 범위로 적힌 곳이 있습니다. 황철석 밀도 "4.8 ~ 5", 강옥 비중 "3.95–4.10", 다이아몬드 비중 "3.52±0.01"입니다. 황철석 밀도는 쓰지 않았고, 강옥은 본문의 4.02 g/cm³를, 다이아몬드는 가운데 값 3.52를 쓴다고 질문에 적었습니다.</li>
+      <li>질량백분율 문서는 혼합물을 기준으로 정의합니다. 여기서는 광물(화합물) 속 원소의 비율에 같은 식을 썼습니다.</li>
+    </ul>
+  </div>
+
+  
+<article class="q" id="m-01">
+  <header><span class="qid">m-01</span><h2>석영 1 kg에 든 규소은(는) 몇 g인가? (표준 원자량의 축약값으로 계산하고, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">467.4 g</span><span class="calc">1000 * 28.085 / (28.085 + 2 * 15.999)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>화학식 SiO₂에 따라 원자량을 더해 몰 질량을 구한다: 28.085 + 2 × 15.999 = 60.083 g/mol</li><li>규소이(가) 차지하는 비율 = 28.085 ÷ 60.083</li><li>1 kg = 1000 g이므로 규소의 질량 = 1000 × 28.085 ÷ 60.083 = 467.4 g</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40104090" target="_blank" rel="noopener">석영</a><span class="rev">판 40104090</span><q>망상형 이산화규소(SiO₂)로 이루어져 있다</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42538879" target="_blank" rel="noopener">규소</a><span class="rev">판 42538879</span><q>표준 원자량 (Ar, standard): [28.084, 28.086], 28.085 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42303578" target="_blank" rel="noopener">산소</a><span class="rev">판 42303578</span><q>표준 원자량 (Ar, standard): [15.99903, 15.99977], 15.999 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39565000" target="_blank" rel="noopener">질량백분율</a><span class="rev">판 39565000</span><q>화학에서 혼합물의 총 질량() 대비 물질의 질량() 비율()이다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-02">
+  <header><span class="qid">m-02</span><h2>방해석 1 kg에 든 칼슘은(는) 몇 g인가? (표준 원자량의 축약값으로 계산하고, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">400.4 g</span><span class="calc">1000 * 40.078 / (40.078 + 12.011 + 3 * 15.999)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>화학식 CaCO3에 따라 원자량을 더해 몰 질량을 구한다: 40.078 + 12.011 + 3 × 15.999 = 100.086 g/mol</li><li>칼슘이(가) 차지하는 비율 = 40.078 ÷ 100.086</li><li>1 kg = 1000 g이므로 칼슘의 질량 = 1000 × 40.078 ÷ 100.086 = 400.4 g</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42179896" target="_blank" rel="noopener">방해석</a><span class="rev">판 42179896</span><q>탄산칼슘(CaCO3)의 가장 안정적인 동질이상이다</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42426428" target="_blank" rel="noopener">칼슘</a><span class="rev">판 42426428</span><q>표준 원자량 (Ar, standard): 40.078(4), 40.078 ± 0.004 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42436193" target="_blank" rel="noopener">탄소</a><span class="rev">판 42436193</span><q>표준 원자량 (Ar, standard): [12.0096, 12.0116], 12.011 ± 0.002 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42303578" target="_blank" rel="noopener">산소</a><span class="rev">판 42303578</span><q>표준 원자량 (Ar, standard): [15.99903, 15.99977], 15.999 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39565000" target="_blank" rel="noopener">질량백분율</a><span class="rev">판 39565000</span><q>화학에서 혼합물의 총 질량() 대비 물질의 질량() 비율()이다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-03">
+  <header><span class="qid">m-03</span><h2>강옥 1 kg에 든 알루미늄은(는) 몇 g인가? (표준 원자량의 축약값으로 계산하고, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">529.3 g</span><span class="calc">1000 * 2 * 26.982 / (2 * 26.982 + 3 * 15.999)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>화학식 Al2O3에 따라 원자량을 더해 몰 질량을 구한다: 2 × 26.982 + 3 × 15.999 = 101.961 g/mol</li><li>알루미늄이(가) 차지하는 비율 = 2 × 26.982 ÷ 101.961</li><li>1 kg = 1000 g이므로 알루미늄의 질량 = 1000 × 2 × 26.982 ÷ 101.961 = 529.3 g</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42097197" target="_blank" rel="noopener">강옥</a><span class="rev">판 42097197</span><q>화학식: Al2O3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42224969" target="_blank" rel="noopener">알루미늄</a><span class="rev">판 42224969</span><q>표준 원자량 (Ar, standard): 26.9815384(3), 26.982 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42303578" target="_blank" rel="noopener">산소</a><span class="rev">판 42303578</span><q>표준 원자량 (Ar, standard): [15.99903, 15.99977], 15.999 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39565000" target="_blank" rel="noopener">질량백분율</a><span class="rev">판 39565000</span><q>화학에서 혼합물의 총 질량() 대비 물질의 질량() 비율()이다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-04">
+  <header><span class="qid">m-04</span><h2>황철석 1 kg에 든 황은(는) 몇 g인가? (표준 원자량의 축약값으로 계산하고, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">534.5 g</span><span class="calc">1000 * 2 * 32.06 / (55.845 + 2 * 32.06)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>화학식 FeS2에 따라 원자량을 더해 몰 질량을 구한다: 55.845 + 2 × 32.06 = 119.965 g/mol</li><li>황이(가) 차지하는 비율 = 2 × 32.06 ÷ 119.965</li><li>1 kg = 1000 g이므로 황의 질량 = 1000 × 2 × 32.06 ÷ 119.965 = 534.5 g</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41710741" target="_blank" rel="noopener">황철석</a><span class="rev">판 41710741</span><q>화학식: FeS2</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42465433" target="_blank" rel="noopener">황</a><span class="rev">판 42465433</span><q>표준 원자량 (Ar, standard): [32.059, 32.076], 32.06 ± 0.02 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42421348" target="_blank" rel="noopener">철</a><span class="rev">판 42421348</span><q>표준 원자량 (Ar, standard): 55.845(2), 55.845 ± 0.002 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39565000" target="_blank" rel="noopener">질량백분율</a><span class="rev">판 39565000</span><q>화학에서 혼합물의 총 질량() 대비 물질의 질량() 비율()이다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-05">
+  <header><span class="qid">m-05</span><h2>금홍석 1 kg에 든 타이타늄은(는) 몇 g인가? (표준 원자량의 축약값으로 계산하고, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">599.3 g</span><span class="calc">1000 * 47.867 / (47.867 + 2 * 15.999)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>화학식 TiO2에 따라 원자량을 더해 몰 질량을 구한다: 47.867 + 2 × 15.999 = 79.865 g/mol</li><li>타이타늄이(가) 차지하는 비율 = 47.867 ÷ 79.865</li><li>1 kg = 1000 g이므로 타이타늄의 질량 = 1000 × 47.867 ÷ 79.865 = 599.3 g</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39411051" target="_blank" rel="noopener">금홍석</a><span class="rev">판 39411051</span><q>화학식: TiO2</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42525626" target="_blank" rel="noopener">타이타늄</a><span class="rev">판 42525626</span><q>표준 원자량 (Ar, standard): 47.867(1), 47.867 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42303578" target="_blank" rel="noopener">산소</a><span class="rev">판 42303578</span><q>표준 원자량 (Ar, standard): [15.99903, 15.99977], 15.999 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39565000" target="_blank" rel="noopener">질량백분율</a><span class="rev">판 39565000</span><q>화학에서 혼합물의 총 질량() 대비 물질의 질량() 비율()이다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-06">
+  <header><span class="qid">m-06</span><h2>형석 1 kg에 든 플루오린은(는) 몇 g인가? (표준 원자량의 축약값으로 계산하고, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">486.7 g</span><span class="calc">1000 * 2 * 18.998 / (40.078 + 2 * 18.998)</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>화학식 CaF2에 따라 원자량을 더해 몰 질량을 구한다: 40.078 + 2 × 18.998 = 78.074 g/mol</li><li>플루오린이(가) 차지하는 비율 = 2 × 18.998 ÷ 78.074</li><li>1 kg = 1000 g이므로 플루오린의 질량 = 1000 × 2 × 18.998 ÷ 78.074 = 486.7 g</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40096958" target="_blank" rel="noopener">형석</a><span class="rev">판 40096958</span><q>플루오린화 칼슘(CaF2)으로 이루어진 할로젠 광물이다</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42456103" target="_blank" rel="noopener">플루오린</a><span class="rev">판 42456103</span><q>표준 원자량 (Ar, standard): 18.998403162(5), 18.998 ± 0.001 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42426428" target="_blank" rel="noopener">칼슘</a><span class="rev">판 42426428</span><q>표준 원자량 (Ar, standard): 40.078(4), 40.078 ± 0.004 (축약)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>원소의 경우 원자 질량에 원자 질량 단위 대신 몰 질량 단위 g/mol를 붙이면 몰 질량이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41480102" target="_blank" rel="noopener">몰 질량</a><span class="rev">판 41480102</span><q>M(NaCl) = [22.989 769 28(2) + 35.453(2)] × 1 g/mol = 58.443(2) g/mol</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39565000" target="_blank" rel="noopener">질량백분율</a><span class="rev">판 39565000</span><q>화학에서 혼합물의 총 질량() 대비 물질의 질량() 비율()이다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-07">
+  <header><span class="qid">m-07</span><h2>부피가 10 cm³인 다이아몬드의 질량은 몇 kg인가? (비중의 가운데 값을 밀도 g/cm³로 써서 계산한다)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">0.0352 kg</span><span class="calc">10 * 3.52 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>비중은 물의 밀도(거의 1.0 g/cm³)와의 비이므로 다이아몬드의 밀도는 3.52 g/cm³로 본다</li><li>질량 = 밀도 × 부피 = 3.52 × 10 = 35.2 g</li><li>1 kg = 1000 g이므로 35.2 ÷ 1000 = 0.0352 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42149577" target="_blank" rel="noopener">다이아몬드</a><span class="rev">판 42149577</span><q>비중: 3.52±0.01</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40811317" target="_blank" rel="noopener">비중</a><span class="rev">판 40811317</span><q>거의 1.0 g/cm3에 가깝기 때문에 비중과 밀도의 값을 CGS 단위계로 나타내면 거의 같은 값이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-08">
+  <header><span class="qid">m-08</span><h2>부피가 같은 1 L일 때, 강옥은 다이아몬드보다 몇 kg 더 무거운가? (강옥은 본문의 밀도, 다이아몬드는 비중의 가운데 값을 밀도 g/cm³로 써서 계산한다)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">0.5 kg</span><span class="calc">(4.02 - 3.52) * 1000 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>1 L = 1000 cm³</li><li>강옥의 질량 = 4.02 × 1000 = 4020 g, 다이아몬드의 질량 = 3.52 × 1000 = 3520 g</li><li>차이 = 4020 − 3520 = 500 g이고, 1 kg = 1000 g이므로 0.5 kg</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42097197" target="_blank" rel="noopener">강옥</a><span class="rev">판 42097197</span><q>강옥의 밀도는 4.02 g/cm3</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42149577" target="_blank" rel="noopener">다이아몬드</a><span class="rev">판 42149577</span><q>비중: 3.52±0.01</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40811317" target="_blank" rel="noopener">비중</a><span class="rev">판 40811317</span><q>거의 1.0 g/cm3에 가깝기 때문에 비중과 밀도의 값을 CGS 단위계로 나타내면 거의 같은 값이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41604358" target="_blank" rel="noopener">리터</a><span class="rev">판 41604358</span><q>(1 L = 1000 cm³)</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-09">
+  <header><span class="qid">m-09</span><h2>암염 1 kg의 부피는 몇 L인가? (비중을 밀도 g/cm³로 써서 계산하고, 소수 넷째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">0.4608 L</span><span class="calc">1000 / 2.17 / 1000</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>비중은 물의 밀도(거의 1.0 g/cm³)와의 비이므로 암염의 밀도는 2.17 g/cm³로 본다</li><li>1 kg = 1000 g이고 부피 = 질량 ÷ 밀도 = 1000 ÷ 2.17 = 460.83 cm³</li><li>1 L = 1000 cm³이므로 460.83 ÷ 1000 = 0.4608 L</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41641468" target="_blank" rel="noopener">암염</a><span class="rev">판 41641468</span><q>비중: 2.17</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40811317" target="_blank" rel="noopener">비중</a><span class="rev">판 40811317</span><q>거의 1.0 g/cm3에 가깝기 때문에 비중과 밀도의 값을 CGS 단위계로 나타내면 거의 같은 값이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41604358" target="_blank" rel="noopener">리터</a><span class="rev">판 41604358</span><q>(1 L = 1000 cm³)</q></li></ul></section>
+  </div>
+</article>
+<article class="q" id="m-10">
+  <header><span class="qid">m-10</span><h2>질량이 같은 1 kg일 때, 흑연의 부피는 다이아몬드의 부피보다 몇 cm³ 더 큰가? (비중을 밀도 g/cm³로 쓰고 다이아몬드는 가운데 값으로 계산하며, 소수 첫째 자리까지)</h2></header>
+  <div class="ans"><span class="lbl">정답</span><span class="num">164.3 cm³</span><span class="calc">1000 / 2.23 - 1000 / 3.52</span></div>
+  <div class="cols">
+    <section><h3>단계별 해설</h3><ol class="steps"><li>비중은 물의 밀도(거의 1.0 g/cm³)와의 비이므로 흑연은 2.23 g/cm³, 다이아몬드는 3.52 g/cm³로 본다</li><li>1 kg = 1000 g이고 부피 = 질량 ÷ 밀도이므로 흑연 1000 ÷ 2.23 = 448.43 cm³, 다이아몬드 1000 ÷ 3.52 = 284.09 cm³</li><li>차이 = 448.43 − 284.09 = 164.3 cm³</li></ol></section>
+    <section><h3>근거 글 (한국어 위키백과, 글자 그대로)</h3><ul class="ev"><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40333981" target="_blank" rel="noopener">흑연</a><span class="rev">판 40333981</span><q>비중은 2.23이지만</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=42149577" target="_blank" rel="noopener">다이아몬드</a><span class="rev">판 42149577</span><q>비중: 3.52±0.01</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=40811317" target="_blank" rel="noopener">비중</a><span class="rev">판 40811317</span><q>거의 1.0 g/cm3에 가깝기 때문에 비중과 밀도의 값을 CGS 단위계로 나타내면 거의 같은 값이 된다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=41556915" target="_blank" rel="noopener">밀도</a><span class="rev">판 41556915</span><q>한 물체의 평균 밀도는 그 전체 질량을 그 전체 부피로 나눈 것과 같다.</q></li><li><a href="https://ko.wikipedia.org/w/index.php?oldid=39021368" target="_blank" rel="noopener">그램</a><span class="rev">판 39021368</span><q>오늘날에는 SI 단위계의 기본 단위인 ‘킬로그램의 1/1000’</q></li></ul></section>
+  </div>
+</article>
+</div>
