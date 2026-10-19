@@ -1,0 +1,36 @@
+{
+  "chem": {
+    "나트륨": "Sodium",
+    "알루미늄": "Aluminium",
+    "수은": "Mercury (element)",
+    "구리": "Copper",
+    "염화 나트륨": "Sodium chloride",
+    "은": "Silver",
+    "텅스텐": "Tungsten",
+    "오스뮴": "Osmium",
+    "금": "Gold",
+    "리튬": "Lithium",
+    "철": "Iron"
+  },
+  "solar": {
+    "화성": "Mars",
+    "타이탄 (위성)": "Titan (moon)",
+    "해왕성": "Neptune",
+    "이오 (위성)": "Io (moon)",
+    "천왕성": "Uranus",
+    "달": "Moon",
+    "토성": "Saturn",
+    "목성": "Jupiter"
+  },
+  "mineral": {
+    "석영": "Quartz",
+    "다이아몬드": "Diamond",
+    "흑연": "Graphite",
+    "암염": "Halite",
+    "방해석": "Calcite",
+    "형석": "Fluorite",
+    "황철석": "Pyrite",
+    "금홍석": "Rutile",
+    "강옥": "Corundum"
+  }
+}
