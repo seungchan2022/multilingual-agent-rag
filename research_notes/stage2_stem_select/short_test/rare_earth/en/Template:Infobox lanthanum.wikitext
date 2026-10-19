@@ -1,0 +1,81 @@
+{{Infobox element
+|symbol =La
+|Z      =57
+|number =57
+|name   =lanthanum
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[barium]]
+|right=[[cerium]]
+|above=–
+|below=[[actinium|Ac]]
+|image name=Lanthanum-2.jpg
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 18, 9, 2
+|phase=
+|density=6.145&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3nrt=
+|density gpcm3mp=5.94
+|melting point K=1193
+|melting point C=920
+|melting point F=1688
+|boiling point K=3737
+|boiling point C=3464
+|boiling point F=6267
+|heat fusion=6.20
+|heat vaporization=400
+|heat capacity=27.11
+|vapor pressure 1=2005
+|vapor pressure 10=2208
+|vapor pressure 100=2458
+|vapor pressure 1 k=2772
+|vapor pressure 10 k=3178
+|vapor pressure 100 k=3726
+|vapor pressure comment=(extrapolated)
+|crystal structure prefix=α form:
+|crystal structure=double hexagonal close packed
+|crystal structure Pearson symbol=hP4
+|lattice constants=''a''&nbsp;=&nbsp;0.37742&nbsp;nm<br />''c''&nbsp;=&nbsp;1.2171&nbsp;nm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.10
+|number of ionization energies=3
+|ionization energy 1=538.1
+|ionization energy 2=1067
+|ionization energy 3=1850.3
+|atomic radius=187
+|covalent radius=207±8
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering ref=<ref name=magnet>{{cite book |url=https://web.archive.org/web/20110303222309/http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/elementmagn.pdf|chapter=Magnetic susceptibility of the elements and inorganic compounds| editor = Lide, D. R. | title = CRC Handbook of Chemistry and Physics | edition = 86th | location = Boca Raton (FL) | publisher = CRC Press | year = 2005 | isbn = 0-8493-0486-5 }}
+</ref>
+|electrical resistivity unit prefix=n
+|electrical resistivity=α, poly: 615
+|electrical resistivity comment=(at&nbsp;[[room temperature|r.t.]])
+|thermal conductivity=13.4
+|thermal expansion=<!-- see thermal expansion comment -->
+|thermal expansion comment={{val|5.1|e=−6}}/K (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018" />{{efn|text=The thermal expansion of α-La is [[Anisotropy|anisotropic]]: the parameters (at 20&nbsp;°C) for each crystal axis are α<sub>''a''</sub>&nbsp;=&nbsp;{{val|2.9|e=−6}}/K,  α<sub>''c''</sub>&nbsp;=&nbsp;{{val|9.5|e=−6}}/K, and α<sub>average</sub> =&nbsp;α<sub>V</sub>/3 =&nbsp;{{val|5.1|e=−6}}/K.<ref name="Arblaster 2018" />}}
+|speed of sound rod at 20=2475
+|magnetic susceptibility= {{val|+118.0|e=−6}}
+|magnetic susceptibility ref= &#x20;(298&nbsp;K)<ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=α form: 36.6
+|Shear modulus=α form: 14.3
+|Bulk modulus=α form: 27.9
+|Poisson ratio=α form: 0.280
+|Mohs hardness=2.5
+|Vickers hardness=360–1750
+|Brinell hardness=350–400
+|CAS number=7439-91-0
+|naming=from the Greek λανθάνειν, "to lie hidden", for 'hiding' in [[cerite]]
+|discovered by=[[Carl Gustaf Mosander]]
+|discovery date=1838
+|QID=Q1801
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=La}}
+==Notes==
+{{Notelist}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

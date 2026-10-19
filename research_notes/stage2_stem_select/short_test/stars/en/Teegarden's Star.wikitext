@@ -1,0 +1,281 @@
+{{Short description|Red dwarf star in the constellation Aries}}
+{{Sky|02|53|00.89133|+|16|52|52.6421|12.5}}
+{{Starbox begin}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Aries_constellation_map.svg
+|alt=Teegarden's Star is located in the constellation Aries.
+|float=center
+|caption=Location of Teegarden's Star in the constellation [[Aries (constellation)|Aries]]|border=infobox|mark=Red_pog.png|width=260
+|label=Teegarden's&nbsp;Star
+|lat=44.1
+|long=46.2
+}}|caption=
+}}
+{{Starbox observe
+ | epoch=J2000
+ | constell=[[Aries (constellation)|Aries]]<ref name=constellation/>
+ | ra={{RA|02|53|00.89179}}<ref name=GaiaDR3/>
+ | dec={{DEC|+16|52|52.6322}}<ref name=GaiaDR3/>
+ | appmag_v=15.13<ref name=lepine />
+}}
+{{Starbox character
+ | class=M7.0&nbsp;V<ref name=davison />
+ | appmag_1_passband = B
+ | appmag_1 = ~17.21<ref name="SIMBAD" />
+ | appmag_2_passband = V
+ | appmag_2 = ~15.40<ref name="SIMBAD" />
+ | appmag_3_passband = R
+ | appmag_3 = ~14.1<ref name=aj125_2_984 />
+ | appmag_4_passband = I
+ | appmag_4 = ~10.4<ref name=aj125_2_984 />
+ | appmag_5_passband = J
+ | appmag_5 = 8.394 ± 0.027<ref name=2MASS />
+ | appmag_6_passband = H
+ | appmag_6 = 7.883 ± 0.040<ref name=2MASS />
+ | appmag_7_passband = K
+ | appmag_7 = 7.585 ± 0.046<ref name=2MASS />
+ | appmag_8_passband = <!-- Passband for eighth apparent magnitude (e.g., H, J, K, etc.) -->
+ | appmag_8 = <!-- Value of eighth apparent magnitude -->
+ | r-i =
+ | v-r =
+ | b-v=
+ | u-b=
+ | variable=
+}}
+{{Starbox astrometry
+ | radial_v=68.3<ref name="Tanner2012" />
+ | prop_mo_ra={{val|+3429.083|fmt=commas}}
+ | prop_mo_dec={{val|-3805.541|fmt=commas}}
+ | pm_footnote=<ref name=GaiaDR3/>
+ | parallax=260.9884
+ | p_error=0.0934
+ | parallax_footnote=<ref name=GaiaDR3/>
+ | absmag_v=17.22<ref name=aj132_6_2360 />
+}}
+{{Starbox detail
+ | mass={{val|0.097|0.010}}<ref name="Dreizler2024"/>
+ | radius={{val|0.120|0.012}}<ref name="Dreizler2024"/>
+ | luminosity={{val|0.000722|0.000005}}<ref name="Dreizler2024"/>
+ | gravity={{val|5.19|0.2}}<ref name="Dreizler2024"/>
+ | temperature={{val|3034|45|fmt=commas}}<ref name="Dreizler2024"/>
+ | metal_fe={{val|−0.11|0.28}}<ref name="Dreizler2024"/>
+ | rotation={{val|98.05|1.30}}<ref name=Kemmer2025/> days
+ | rotational_velocity=<2<ref name="CARMENES" />
+ | age_gyr=>8<ref name="CARMENES" />
+}}
+{{Starbox catalog
+ | names= Teegarden's Star, [[Gliese Catalogue of Nearby Stars|GJ]] 10393,<ref name="CNS5"/> [[2MASS]] J02530084+1652532, APM EO0425-0315372, FBS L 14-17, FBS 0250+167, GAT 1370, LSPM J0253+1652, SO J025300.5+165258, USNO-A2.0 1050-00774305, USNO-B1.0 1068-00028941<ref name="SIMBAD" />
+}}
+{{Starbox reference
+ | Simbad=NAME+Teegarden's+star
+ | ARICNS =
+ | NSTED = 2MASSJ02530084+1652532
+}}
+{{Starbox end}}
+
+'''Teegarden's Star''' {{IPAc-en|'|t|iː|g|ɑr|d|ən|z}}<!--asked several people w this name, all put stress on the 1st syllable--> (''SO J025300.5+165258'', ''2MASS J02530084+1652532'', ''LSPM J0253+1652'') is a [[red dwarf]] star<ref name=davison /> in the [[constellation]] [[Aries (constellation)|Aries]], {{convert|12.5|ly|pc|lk=on|abbr=off}} from the [[Solar System]]. Although it is [[List of nearest stars and brown dwarfs|near-Earth]] it is a dim [[apparent magnitude|magnitude]] 15 and can only be seen through large telescopes. This star was found to have a very large [[proper motion]] of about 5 arcseconds per year. Only seven stars with such large proper motions are currently known.<ref name="SIMBAD"/> Teegarden's Star hosts a [[planetary system]] with at least three planets.<ref name="Dreizler2024"/>
+
+== Discovery ==
+[[File:Teegarden's star proper motion.gif|thumb|left|Teegarden's star showing proper motion at two year intervals]]
+Teegarden's Star was discovered in 2003 using [[asteroid]]-tracking data that had been collected years earlier. This data set is a digital archive created from optical images taken over a five-year period by the [[Near-Earth Asteroid Tracking]] (NEAT) program using two 1&nbsp;m telescopes on [[Maui]], [[Hawaii]]. The star is named after the discovery team leader, [[Bonnard J. Teegarden]], an [[Astrophysics|astrophysicist]] at [[NASA]]'s [[Goddard Space Flight Center]].<ref name=disc/>
+
+Astronomers have long thought it was quite likely that many undiscovered dwarf stars exist within 20 light-years of Earth, because stellar-population surveys show the count of known nearby dwarf stars to be lower than otherwise expected and these stars are dim and easily overlooked. Teegarden's team thought that these dim stars might be found by [[data mining]] some of the huge optical sky survey data sets taken by various programs for other purposes in previous years. So they reexamined the NEAT asteroid tracking data set and found this star. The star was then [[precovery|precovered]] on photographic plates from the [[National Geographic Society – Palomar Observatory Sky Survey|Palomar Sky Survey]] taken in 1951. This discovery is significant as the team did not have direct access to any telescopes and did not include professional astronomers at the time of the discovery.<ref name=disc />
+
+== Properties ==
+[[File:Nearby Stars (14ly Radius).svg|thumb|left|Teegarden's Star (top, center) is the 25th-nearest known star (system) to the [[Solar System]].<ref name="Reylé2021"/>]]
+Teegarden's Star is classified as a [[red dwarf]] as its approximate calculated mass of just over 0.09 times that of the Sun is narrowly above the limit of [[brown dwarf]]s.<ref name="Schweitzer2019"/> The inherently low temperature of such objects explains why it was not discovered earlier,<ref name=reid2013/> since it has an [[apparent magnitude]] of only 15.1<ref name=lepine /> (and an [[absolute magnitude]] of 17.22<ref name=aj132_6_2360 />). Like most red and brown dwarfs it emits most of its energy in the [[infrared]] spectrum.<ref name=kaler2011/>
+
+The [[parallax]] was initially measured as 0.43 ± 0.13 arcseconds. This would have placed its distance at only 7.50 [[light-year]]s, making Teegarden's Star only the [[List of nearest stars and brown dwarfs|third star system in order of distance]] from the [[Sun]], ranking between [[Barnard's Star]] and [[Wolf 359]].<ref name=disc /> However, even at that time the anomalously low luminosity (the absolute magnitude would have been 18.5) and high uncertainty in the parallax suggested that it was in fact somewhat farther away, still one of the Sun's nearest neighbors but not nearly as high in the ranking in order of distance. A more accurate parallax measurement of 0.2593 arcseconds was made by [[George Gatewood]] in 2009, yielding a distance of 12.578 light-years,<ref name=gatewood/> very close to the value now accepted.<ref name="CARMENES" />
+
+Teegarden's Star is inactive compared to stars of similar spectrum and mass. It still shows some [[stellar flare]]s with strengths comparable to the largest solar flares. Two of these flares were observed by a study, and one of them shows clear signatures of the [[Neupert effect]].<ref name=Fuhrmeister2025/>
+
+== Planetary system ==
+
+Observations by the ROPS survey in 2010, published in 2012, showed variation in the [[radial velocity]] of Teegarden's Star, though there was insufficient data to make claims of planet detection at that time.<ref name=ROPS1/> <!-- The source uses the 'name' "SO J025300.5+165258" -->
+
+In June 2019, scientists conducting the CARMENES survey at the [[Calar Alto Observatory]] announced evidence of two [[Earth analog|Earth-mass exoplanets]] orbiting the star within its [[Circumstellar habitable zone|habitable zone]];<ref name="CARMENES"/><ref name="EA-20190618"/> [[Teegarden's Star b]] orbits inside the optimistic habitable zone—the equivalent in the Solar System would be in between Earth and Venus—whereas [[Teegarden's Star c]] orbits on the outer edge of the conservative habitable zone, similarly to Mars.<ref name="CARMENES" />
+
+A 2024 study detected a third planet orbiting farther out, with a period of 26 days and a [[minimum mass]] slightly less than Earth's mass. This third planet, Teegarden's Star d, orbits beyond the habitable zone and would have temperatures similar to the icy [[moons of Jupiter]]. Two longer-period [[Doppler spectroscopy|radial velocity]] signals were also detected; a 96-day signal corresponds to the star's rotation, while the origin of a 172-day signal is uncertain.<ref name="Dreizler2024"/>
+
+According to one group of researchers, who were specifically studying this star, both habitable-zone planets could have maintained a dense atmosphere and so therefore there would be a high likelihood that at least one may harbour liquid water.<ref name="WandelTal-Or2019"/> However, another group of scientists, looking at Earth-sized planets in general in the habitable zones of stars, specifically in a likely [[tidal locking|tidally locked]] scenario, give Teegarden's Star b a 3% chance, and Teegarden's Star c only a 2% chance, of having even retained an atmosphere.<ref name="Rodriguez-Mozos_2019"/>
+
+Teegarden's Star b, c and d receive more X-ray radiation than Earth does, but if they have certain atmospheric compositions, as an Earth-like atmosphere, the effects on the ground would still be negligible.<ref name=Fuhrmeister2025/>
+
+While [[Transiting Exoplanet Survey Satellite|TESS]] observations confirm that the planets of Teegarden's Star do not [[astronomical transit|transit]] their star as seen from Earth,<ref name="Dreizler2024"/> from 2044 to 2496 Earth would transit the Sun as seen from Teegarden's Star.<ref name="CARMENES"/>
+
+{{OrbitboxPlanet begin
+| table_ref = <ref name="Dreizler2024"/>
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Teegarden's Star b|b]]
+| mass_earth = {{val|1.16|0.12|0.11|p=≥}}
+| period = {{val|4.90634|0.00041}}
+| semimajor = {{val|0.0259|0.0008|0.0009}}
+| eccentricity = {{val|0.03|0.04|0.02}}
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Teegarden's Star c|c]]
+| mass_earth = {{val|1.05|0.14|0.13|p=≥}}
+| period = {{val|11.416|0.003}}
+| semimajor = {{val|0.0455|0.0015|0.0016}}
+| eccentricity = {{val|0.04|0.07|0.03}}
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = d
+| mass_earth = {{val|0.82|0.17|p=≥}}
+| period = {{val|26.13|0.03|0.04}}
+| semimajor = {{val|0.0791|0.0025|0.0027}}
+| eccentricity = {{val|0.07|0.10|0.05}}
+| inclination =
+}}
+{{Orbitbox end}}
+
+== See also ==
+* {{annotated link|GJ 1002}}
+* {{annotated link|GJ 1061}}
+* {{annotated link|List of nearest stars and brown dwarfs}}
+* {{annotated link|Stars named after people}}
+
+== References ==
+{{Reflist|refs=
+
+<ref name=GaiaDR3>{{Cite Gaia DR3|35227046884571776}}</ref>
+
+<ref name="SIMBAD">{{cite simbad |title=NAME Teegarden's Star |access-date=2012-01-01}}</ref>
+
+<ref name=constellation>{{cite constellation|GAT 1370}}</ref>
+
+<ref name=kaler2011>{{cite book
+ | title=Stars and Their Spectra: An Introduction to the Spectral Sequence
+ | first1=James B. | last1=Kaler | year=2011 | pages=126, 132
+ | publisher=[[Cambridge University Press]] | isbn=978-0-521-89954-3
+ | url=https://books.google.com/books?id=ZEKO2pzuRHoC&pg=PA126
+}}</ref>
+
+<ref name=Fuhrmeister2025>{{cite journal |bibcode=2024A&A...691A.208F |title=Coronal and chromospheric activity of Teegarden's star |last1=Fuhrmeister |first1=B. |last2=Schmitt |first2=J. H. M. M. |last3=Reiners |first3=A. |last4=Czesla |first4=S. |last5=Béjar |first5=V. J. S. |last6=Caballero |first6=J. |last7=Eislöffel |first7=J. |last8=Henning |first8=Th. |last9=Morales |first9=J. C. |last10=Quirrenbach |first10=A. |last11=Ribas |first11=I. |last12=Robrade |first12=J. |last13=Schneider |first13=P. C. |last14=Zechmeister |first14=M. |journal=Astronomy and Astrophysics |date=2024 |volume=691 |pages=A208 |doi=10.1051/0004-6361/202451697  |doi-access=free|arxiv=2504.02338 }}</ref>
+
+<ref name=reid2013>{{cite book
+ | title=New Light on Dark Stars: Red Dwarfs, Low-Mass Stars, Brown Dwarfs
+ | series=Springer Praxis Books
+ | first1=Neill I. | last1=Reid | first2=Suzanne L. | last2=Hawley
+ | year=2013 | isbn=978-1-4471-3663-7 | page=342
+ | url=https://books.google.com/books?id=04_aBwAAQBAJ&pg=PA342
+}}</ref>
+
+<ref name=Kemmer2025>{{Cite journal |last1=Kemmer |first1=J. |last2=Lafarga |first2=M. |last3=Fuhrmeister |first3=B. |last4=Shan |first4=Y. |last5=Schöfer |first5=P. |last6=Jeffers |first6=S. V. |last7=Caballero |first7=J. A. |last8=Quirrenbach |first8=A. |last9=Amado |first9=P. J. |date=2025-04-11 |title=The CARMENES search for exoplanets around M dwarfs. Cluster analysis of signals from spectral activity indicators to search for shared periods |journal=Astronomy and Astrophysics |volume=697 |doi=10.1051/0004-6361/202347056  |doi-access=free|arxiv=2504.08363|bibcode=2025A&A...697A.225K }}</ref>
+
+<ref name=disc>{{cite journal
+| journal=The Astrophysical Journal Letters
+| author=Teegarden, B. J.
+| display-authors=etal
+| title=Discovery of a New Nearby Star
+| date= May 20, 2003 | pages=L51–L53 | volume=589 | issue=1
+| doi=10.1086/375803 | bibcode=2003ApJ...589L..51T|arxiv = astro-ph/0302206 |s2cid = 119438487}}</ref>
+
+<ref name=Schweitzer2019>{{cite journal
+ | title=The CARMENES search for exoplanets around M dwarfs. Different roads to radii and masses of the target stars
+ | display-authors=1 | last1=Schweitzer | first1=A.
+ | last2=Passegger | first2=V. M. | last3=Cifuentes | first3=C.
+ | last4=Béjar | first4=Victor J. S. | last5=Cortés-Contreras | first5=M.
+ | last6=Caballero | first6=José A. | last7=del Burgo | first7=Carlos
+ | last8=Czesla | first8=Stefan | last9=Kürster | first9=Martin
+ | last10=Montes | first10=David | last11=Zapatero-Osorio | first11=María Rosa
+ | last12=Ribas | first12=Ignasi | last13=Reiners | first13=Ansgar
+ | last14=Quirrenbach | first14=Andreas | last15=Amado | first15=Pedro J.
+ | last16=Aceituno | first16=J. | last17=Anglada-Escudé | first17=Guillem
+ | last18=Bauer | first18=Florian F. | last19=Dreizler | first19=Stefan
+ | last20=Jeffers | first20=Sandra V. | last21=Guenther | first21=E. W.
+ | last22=Henning | first22=Thomas K. | last23=Kaminski | first23=Adrian
+ | last24=Lafarga | first24=M. | last25=Marfil | first25=E.
+ | last26=Morales | first26=Juan Carlos | last27=Schmitt | first27=Jürgen H. M. M.
+ | last28=Seifert | first28=Walter | last29=Solano | first29=E.
+ | last30=Tabernero | first30=H. M. | last31=Zechmeister | first31=Mathias
+ | journal=Astronomy & Astrophysics
+ | volume=625 | id=A68 | pages=16 | date=May 2019
+ | arxiv=1904.03231 | bibcode=2019A&A...625A..68S
+ | doi=10.1051/0004-6361/201834965  | doi-access=free| s2cid=102351979 }}</ref>
+
+<ref name=lepine>{{cite journal|bibcode=2013AJ....145..102L|arxiv=1206.5991|title=A Spectroscopic Catalog of the Brightest (J < 9) M Dwarfs in the Northern Sky|journal=The Astronomical Journal|volume=145|issue=4|pages=102|last1=Lépine|first1=Sébastien|last2=Hilton|first2=Eric J.|last3=Mann|first3=Andrew W.|last4=Wilde|first4=Matthew|last5=Rojas-Ayala|first5=Bárbara|last6=Cruz|first6=Kelle L.|last7=Gaidos|first7=Eric|year=2013|doi=10.1088/0004-6256/145/4/102|s2cid=117144290}}</ref>
+
+<ref name=davison>{{cite journal|bibcode=2015AJ....149..106D|arxiv=1501.05012|title=A 3D Search for Companions to 12 Nearby M Dwarfs|journal=The Astronomical Journal|volume=149|issue=3|pages=106|last1=Davison|first1=Cassy L.|last2=White|first2=R. J.|last3=Henry|first3=T. J.|last4=Riedel|first4=A. R.|last5=Jao|first5=W.-C.|last6=Bailey|first6=J. I.|last7=Quinn|first7=S. N.|last8=Cantrell|first8=J. R.|last9=Subasavage|first9=J. P.|last10=Winters|first10=J. G.|year=2015|doi=10.1088/0004-6256/149/3/106|s2cid=9719725}}</ref>
+
+<ref name=aj132_6_2360>{{citation | display-authors=1 | last1=Henry | first1=Todd J. | last2=Jao | first2=Wei-Chun | last3=Subasavage | first3=John P. | last4=Beaulieu | first4=Thomas D. | last5=Ianna | first5=Philip A. | last6=Costa | first6=Edgardo | last7=Méndez | first7=René A. | title=The Solar Neighborhood. XVII. Parallax Results from the CTIOPI 0.9 m Program: 20 New Members of the RECONS 10 Parsec Sample | journal=The Astronomical Journal | volume=132 | issue=6 | pages=2360–2371 |date=December 2006 | doi=10.1086/508233 | bibcode=2006AJ....132.2360H |arxiv = astro-ph/0608230 | s2cid=15002841 }}.</ref>
+
+<ref name=2MASS>{{citation | display-authors=1 | last1=Cutri | first1=R. M. | last2=Skrutskie | first2=M. F. | last3=van Dyk | first3=S. | last4=Beichman | first4=C. A. | last5=Carpenter | first5=J. M. | last6=Chester | first6=T. | last7=Cambresy | first7=L. | last8=Evans | first8=T. | last9=Fowler | first9=J. |date=June 2003 | publisher=NASA/IPAC | title=2MASS All Sky Catalog of point sources | journal=The IRSA 2MASS All-Sky Point Source Catalog | bibcode=2003tmc..book.....C }}</ref>
+
+<ref name=aj125_2_984>{{citation | display-authors=1 | last1=Monet | first1=David G. | last2=Levine | first2=Stephen E. | last3=Canzian | first3=Blaise | last4=Ables | first4=Harold D. | last5=Bird | first5=Alan R. | last6=Dahn | first6=Conard C. | last7=Guetter | first7=Harry H. | last8=Harris | first8=Hugh C. | last9=Henden | first9=Arne A. | title=The USNO-B Catalog | journal=The Astronomical Journal | volume=125 | issue=2 | pages=984–993 |date=February 2003 | doi=10.1086/345888 | bibcode=2003AJ....125..984M | arxiv=astro-ph/0210694 | s2cid=55896673 }}</ref>
+
+<ref name="Tanner2012">{{citation
+ | display-authors=1
+ | last1=Tanner | first1=Angelle
+ | last2=White | first2=Russel
+ | last3=Bailey | first3=John
+ | last4=Blake | first4=Cullen
+ | last5=Blake | first5=Geoffrey
+ | last6=Cruz | first6=Kelle
+ | last7=Burgasser | first7=Adam J.
+ | last8=Kraus | first8=Adam
+ | title=Keck NIRSPEC Radial Velocity Observations of Late-M Dwarfs
+ | journal=The Astrophysical Journal Supplement
+ | volume=203 | issue=1 | pages=7
+ | date=November 2012
+ | doi=10.1088/0067-0049/203/1/10
+ | bibcode=2012ApJS..203...10T
+ | postscript=.
+|arxiv = 1209.1772 | s2cid=50864060 }}</ref>
+
+<ref name=gatewood>{{cite journal
+| journal=[[The Astronomical Journal]]
+| title=Allegheny Observatory Parallaxes for Late M Dwarfs and White Dwarfs
+| display-authors=1
+| author=George Gatewood | author-link=George Gatewood
+| author2=Louis Coban
+|date=January 2009
+| volume=137 | issue=1 | pages=402–405
+| doi=10.1088/0004-6256/137/1/402 | bibcode=2009AJ....137..402G| doi-access=free
+}}</ref>
+
+<ref name=ROPS1>{{cite journal
+| journal=[[Monthly Notices of the Royal Astronomical Society]]
+| title=ROPS: A New Search for Habitable Earths in the Southern Sky
+| author=Barnes J.R.
+| display-authors=etal
+| date=July 2012
+| volume=424| issue=1 | pages=591–604
+| doi=10.1111/j.1365-2966.2012.21236.x | doi-access=free
+| bibcode=2012MNRAS.424..591B | arxiv = 1204.6283 | s2cid=8606148
+}}</ref>
+
+<ref name="CARMENES">{{cite journal |last1=Caballero |first1=J. A. |last2=Reiners |first2=Ansgar |last3=Ribas |first3=I. |last4=Dreizler |first4=S. |last5=Zechmeister |first5=M. |display-authors=etal |date=12 June 2019 |title=The CARMENES search for exoplanets around M dwarfs. Two temperate Earth-mass planet candidates around Teegarden's Star |journal=Astronomy & Astrophysics |volume=627 |pages=A49 |language=en |doi=10.1051/0004-6361/201935460 |arxiv=1906.07196 |issn=0004-6361 |bibcode=2019A&A...627A..49Z |s2cid=189999121 | doi-access=free }}</ref>
+
+<ref name="EA-20190618">{{cite news |author=University of Göttingen |author-link=University of Göttingen |title=View of the Earth in front of the Sun – International research team discovers two new Earth-like planets near Teegarden's star |url=https://www.eurekalert.org/pub_releases/2019-06/uog-vot061819.php |date=18 June 2019 |work=[[EurekAlert!]] |access-date=18 June 2019 |archive-date=18 June 2019 |archive-url=https://web.archive.org/web/20190618195040/https://www.eurekalert.org/pub_releases/2019-06/uog-vot061819.php |url-status=dead }}</ref>
+
+<ref name="WandelTal-Or2019">{{cite journal|last1=Wandel|first1=Amri|last2=Tal-Or|first2=Lev|title=On the Habitability of Teegarden's Star Planets|journal=The Astrophysical Journal|volume=880|issue=2|year=2019|pages=L21|issn=2041-8213|arxiv=1906.07704|bibcode= 2019ApJ...880L..21W|doi=10.3847/2041-8213/ab2df7|s2cid=189999985 |doi-access=free }}</ref>
+
+<ref name="Rodriguez-Mozos_2019">{{cite journal|last1=Rodriguez-Mozos|first1=J. M.|last2=Moya|first2=A.|date=October 2019|title=Erosion of an exoplanetary atmosphere caused by stellar winds|at=Table A.4|journal=Astronomy & Astrophysics|volume=630|language=en|arxiv=1908.06695|doi=10.1051/0004-6361/201935543|doi-access=free|bibcode=2019A&A...630A..52R|s2cid=201070171}}</ref>
+
+<ref name="Reylé2021">{{cite journal |first1=Céline |last1=Reylé |first2=Kevin |last2=Jardine |first3=Pascal |last3=Fouqué |first4=Jose A. |last4=Caballero |first5=Richard L. |last5=Smart |first6=Alessandro |last6=Sozzetti |date=30 April 2021 |title=The 10 parsec sample in the Gaia era |journal=[[Astronomy & Astrophysics]] |volume=650 |issue= |pages=A201 |doi=10.1051/0004-6361/202140985  |doi-access=free|arxiv=2104.14972 |bibcode=2021A&A...650A.201R|s2cid=233476431 }} Data available at https://gruze.org/10pc/</ref>
+
+<ref name="CNS5">{{cite journal |arxiv=2211.01449 |last1=Golovin |first1=Alex |last2=Reffert |first2=Sabine |last3=Just |first3=Andreas |last4=Jordan |first4=Stefan |last5=Vani |first5=Akash |last6=Jahreiß |first6=Hartmut |title=The Fifth Catalogue of Nearby Stars (CNS5) |date=November 2022 |journal=[[Astronomy & Astrophysics]] |volume=670 |issue= |pages=A19 |doi=10.1051/0004-6361/202244250  |doi-access=free|bibcode=2023A&A...670A..19G|s2cid=253264922 }} Catalogue can be accessed [https://dc.g-vo.org/CNS5 here].</ref>
+
+<ref name="Dreizler2024">{{cite journal |last1=Dreizler |first1=S. |last2=Luque |first2=R. |display-authors=etal |date=April 2024 |title=Teegarden's Star revisited: A nearby planetary system with at least three planets |journal=[[Astronomy & Astrophysics]] |volume=684 |issue= |pages=A117 |doi=10.1051/0004-6361/202348033  |doi-access=free|arxiv=2402.00923 |bibcode=2024A&A...684A.117D}}</ref>
+
+}}
+
+== External links ==
+* [https://web.archive.org/web/20030310164216/http://www.solstation.com/stars/so025300.htm SolStation.com]
+* [http://aladin.u-strasbg.fr/AladinPreview?-c=02+53+00.89%2B16+52+52.7&ident=NAME+Teegarden%27s+star&submit=Aladin+previewer Image Teegarden's Star]
+
+{{nearest systems|2}}
+{{Stars of Aries}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+{{Authority control}}
+
+[[Category:Aries (constellation)]]
+[[Category:Local Bubble]]
+[[Category:M-type main-sequence stars]]
+[[Category:Planetary systems with three confirmed planets]]
+[[Category:Stars discovered in 2003]]
+[[Category:Stars with proper names]]

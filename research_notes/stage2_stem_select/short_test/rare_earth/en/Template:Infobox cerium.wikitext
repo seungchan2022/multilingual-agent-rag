@@ -1,0 +1,86 @@
+{{Infobox element
+|engvar ={{{engvar|}}}
+|symbol =Ce
+|Z      =58
+|number =58
+|name   =cerium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[lanthanum]]
+|right=[[praseodymium]]
+|above=–
+|below=[[thorium|Th]]
+|image name=Cerium2.jpg
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 19, 9, 2
+|phase=
+|density=β-Ce: 6.689&nbsp;g/cm<sup>3</sup><br />γ-Ce: 6.769&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3nrt=
+|density gpcm3mp=6.55
+|melting point K=1068
+|melting point C=795
+|melting point F=1463
+|boiling point K=3716
+|boiling point C=3443
+|boiling point F=6229
+|heat fusion=5.46
+|heat vaporization=398
+|heat capacity=26.94
+|vapor pressure 1=1992
+|vapor pressure 10=2194
+|vapor pressure 100=2442
+|vapor pressure 1 k=2754
+|vapor pressure 10 k=3159
+|vapor pressure 100 k=3705
+|vapor pressure comment=
+|crystal structure prefix=β-Ce:
+|crystal structure=double hexagonal close packed
+|crystal structure Pearson symbol=hP4
+|lattice constants=''a''&nbsp;=&nbsp;0.36811&nbsp;nm<br />''c''&nbsp;=&nbsp;1.1857&nbsp;nm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|crystal structure 2 prefix=γ-Ce:
+|crystal structure 2=face-centered cubic
+|crystal structure 2 Pearson symbol=cF4
+|lattice constant 2=''a''&nbsp;=&nbsp;0.51612&nbsp;nm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018" />
+|electronegativity=1.12
+|number of ionization energies=4
+|ionization energy 1=534.4
+|ionization energy 2=1050
+|ionization energy 3=1949
+|atomic radius=181.8
+|covalent radius=204±9
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering ref=<ref name=magnet>{{cite book |url=https://web.archive.org/web/20110303222309/http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/elementmagn.pdf|chapter=Magnetic susceptibility of the elements and inorganic compounds| editor = Lide, D. R. | title = CRC Handbook of Chemistry and Physics | edition = 86th | location = Boca Raton (FL) | publisher = CRC Press | year = 2005 | isbn = 0-8493-0486-5 }}
+</ref>
+|electrical resistivity unit prefix=n
+|electrical resistivity=β-Ce, poly: 828
+|electrical resistivity comment=(at&nbsp;[[Room temperature|r.t.]])
+|thermal conductivity=11.3
+|thermal expansion=<!-- see thermal expansion comment -->
+|thermal expansion comment=β-Ce: {{val|6.1|e=−6}}/K<br />γ-Ce: {{val|6.1|e=−6}}/K (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018" />
+|speed of sound rod at 20=2100
+|magnetic susceptibility=β-Ce: {{val|+2450.0|e=−6}}
+|magnetic susceptibility ref= &#x20;(293&nbsp;K)<ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=γ-Ce: 33.6
+|Shear modulus=γ-Ce: 13.5
+|Bulk modulus=γ-Ce: 21.5
+|Poisson ratio=γ-Ce: 0.24
+|Mohs hardness=2.5
+|Vickers hardness=210–470
+|Brinell hardness=186–412
+|CAS number=7440-45-1
+|naming=after dwarf planet [[Ceres (dwarf planet)|Ceres]], itself named after Roman deity of agriculture [[Ceres (mythology)|Ceres]]
+|discovered by=[[Martin Heinrich Klaproth]], [[Wilhelm Hisinger]], [[Jöns Jakob Berzelius]]
+|discovery date=1803
+|first isolation by=[[William Francis Hillebrand]]
+|first isolation date=1875
+|QID=Q1385
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Ce}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

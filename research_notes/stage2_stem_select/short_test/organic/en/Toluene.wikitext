@@ -1,0 +1,220 @@
+{{short description|Aromatic hydrocarbon}}
+{{cs1 config|name-list-style=vanc|display-authors=6}}
+{{Use mdy dates|date=February 2024}}
+
+{{chembox
+| Verifiedfields = changed
+| Watchedfields  = changed
+| verifiedrevid  = 415867864578
+| ImageFileL1    = Toluol.svg
+| ImageSizeL1    = 80px
+| ImageClassL1   = skin-invert
+| ImageFileR1    = Toluene-from-xtal-3D-balls.png
+| ImageClassR1   = bg-transparent
+| ImageFile2     = Toluen.png
+| ImageName2     = Sample of toluene
+| ImageSize2     = 200px
+| PIN            = Toluene<ref name=iupac2013>{{cite book | title = Nomenclature of Organic Chemistry : IUPAC Recommendations and Preferred Names 2013 (Blue Book) | publisher = [[Royal Society of Chemistry|The Royal Society of Chemistry]] | date = 2014 | location = Cambridge | page = 139 | doi = 10.1039/9781849733069-00130 | isbn = 978-0-85404-182-4 | quote = Toluene and xylene are preferred IUPAC names, but are not freely substitutable; toluene is substitutable under certain conditions, but only for general nomenclature (see P-15.1.8 for a general substitution rules for retained names). }}</ref>
+| SystematicName = Methylbenzene
+| OtherNames     = Methyl benzene<ref name=h1/><br />Benzylane<br />Phenylmethane<br />Toluol (historic, German)<br />Anisen
+| Section1       = {{Chembox Identifiers
+|Abbreviations = MB<br />PhMe<br />MePh<br />PhCH{{sub|3}}<br />BnH<br />Tol
+|IUPHAR_ligand = 5481
+|DrugBank_Ref = {{drugbankcite|changed|drugbank}}
+|DrugBank = DB01900
+|ChEBI_Ref = {{ebicite|changed|EBI}}
+|ChEBI = 17578
+|SMILES = Cc1ccccc1
+|PubChem = 1140
+|UNII_Ref = {{fdacite|correct|FDA}}
+|UNII = 3FPU23BG52
+| UNNumber = 1294
+|ChEMBL_Ref = {{ebicite|correct|EBI}}
+|ChEMBL = 9113
+|KEGG_Ref = {{keggcite|correct|kegg}}
+|KEGG = C01455
+|InChI = 1/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
+|InChIKey = YXFVVABEGXRONW-UHFFFAOYAT
+|StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChI = 1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
+|StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChIKey = YXFVVABEGXRONW-UHFFFAOYSA-N
+|CASNo_Ref = {{cascite|correct|CAS}}
+|CASNo = 108-88-3
+|ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+|ChemSpiderID = 1108
+|RTECS = XS5250000
+}}
+| Section2       = {{Chembox Properties
+|Formula = {{chem2|C7H8}}
+|C=7 | H=8
+|Appearance = Colorless liquid<ref name=GESTIS>{{GESTIS|ZVG=10070}}</ref>
+|Odor = sweet, pungent, [[benzene]]-like<ref name=PGCH/>
+|Density = 0.8623 g/mL (25 °C)<ref name=h1>[[#Haynes|Haynes]], p. 3.514</ref>
+|Solubility = 0.54 g/L (5 °C)<br>0.519 g/L (25 °C)<br>0.63 g/L (45 °C)<br>1.2 g/L (90 °C)<ref>[[#Haynes|Haynes]], p. 5.164</ref>
+|MeltingPtC = -95.0
+|MeltingPt_ref = <ref name=h1/>
+|BoilingPtC = 110.60
+|BoilingPt_ref = <ref name=h1/>
+|VaporPressure = 2.8 kPa (20&nbsp;°C)<ref name=PGCH/>
+|MagSus = −66.1·10<sup>−6</sup> cm<sup>3</sup>/mol<ref>[[#Haynes|Haynes]], p. 3.579</ref>
+|LogP = 2.73<ref>Haynes, p. 5.176</ref>
+|RefractIndex = 1.4941 (25 °C)<ref name=h1/>
+|Viscosity = 0.560{{nbsp}}mPa·s (25&nbsp;°C)<ref>[[#Haynes|Haynes]], p. 6.246</ref>
+|ThermalConductivity = 0.1310{{nbsp}}W/(m·K) (25&nbsp;°C)<ref>[[#Haynes|Haynes]], p. 6.258</ref>
+}}
+| Section3       = {{Chembox Structure
+|Dipole = 0.375 [[Debye|D]]<ref>[[#Haynes|Haynes]], p. 9.66</ref>
+}}
+| Section4       = {{Chembox Thermochemistry
+|Thermochemistry_ref=<ref>[[#Haynes|Haynes]], pp. 5.39, 5.67</ref>
+|DeltaHf = 12.4{{nbsp}}kJ/mol
+|DeltaHc = 3.910{{nbsp}}MJ/mol
+|HeatCapacity = 157.3{{nbsp}}J/(mol·K)
+}}
+| Section5       = {{Chembox Hazards
+|ExternalSDS = [http://www.jtbaker.com/msds/englishhtml/t3913.htm SIRI.org]
+|MainHazards = highly flammable
+|NFPA-H = 2
+|NFPA-F = 3
+|NFPA-R = 0
+|FlashPtC = 4
+|FlashPt_ref = <ref name=ig>[[#Haynes|Haynes]], p. 16.30</ref>
+|AutoignitionPtC = 480<ref name=ig/>
+|GHSPictograms = {{GHS|flame|health hazard|exclamation mark}}
+|GHSSignalWord = Danger
+|HPhrases = {{H-phrases|225|361d|304|373|315|336}}
+|PPhrases = {{P-phrases|210|240|301+310|302+352|308+313|314|403+233}}
+|TLV = 50 mL/m<sup>3</sup>, 190&nbsp;mg/m<sup>3</sup>
+|IDLH = 500 ppm<ref name=PGCH>{{PGCH|0619}}</ref>
+|REL = TWA 100 ppm (375 mg/m<sup>3</sup>) ST 150&nbsp;ppm (560&nbsp;mg/m<sup>3</sup>)<ref name=PGCH/>
+|PEL = TWA 200 ppm C 300&nbsp;ppm 500&nbsp;ppm (10-minute maximum peak)<ref name=PGCH/>
+|ExploLimits = 1.1–7.1%<ref name=ig/>
+|LC50 = >26700 ppm (rat, 1&nbsp;[[hour|h]])<br />400 ppm (mouse, 24&nbsp;h)<ref name=IDLH>{{IDLH|108883|Toluene}}</ref>
+|LCLo = 55,000 ppm (rabbit, 40&nbsp;min)<ref name=IDLH/>
+}}<ref>{{cite web|url=http://www.newenv.com/resources/nfpa_chemicals|title=NFPA Chemicals|publisher=New Environment, Inc.|access-date=March 13, 2015|archive-date=November 14, 2021|archive-url=https://web.archive.org/web/20211114020414/https://www.newenv.com/resources/nfpa_chemicals|url-status=live}}</ref>
+| Section6       = {{Chembox Related
+|OtherFunction_label = [[aromatic hydrocarbon]]s
+|OtherFunction = [[benzene]]<br />[[xylene]]<br />[[naphthalene]]
+|OtherCompounds = [[methylcyclohexane]]<br/>[[methylcyclohexene]]
+}}
+}}
+
+'''Toluene''' ({{IPAc-en|ˈ|t|ɒ|l|.|j|u|i:|n}}), also known as '''toluol''' ({{IPAc-en|ˈ|t|ɒ|l|.|j|u|.|ɒ|l|,_|-|ɔː|l|,_|-|oʊ|l}}), is a [[Substitution (chemistry)|substituted]] [[aromatic hydrocarbon]]<ref name=Ullmann/> with the [[chemical formula]] {{chem2|C6H5CH3}}, often abbreviated as {{chem2|PhCH3}}, where Ph stands for the [[phenyl]] group. Toluene is a colorless, [[water (molecule)|water]]-insoluble liquid with a sweet smell, and is partially responsible for the aroma of [[gasoline]] and [[paint]] fumes. It is a mono-substituted [[benzene]] derivative, consisting of a [[methyl group]] (CH<sub>3</sub>) attached to a [[phenyl group]] by a [[single bond]]. As such, its systematic [[IUPAC nomenclature of organic chemistry|IUPAC name]] is '''methylbenzene'''. Toluene is predominantly used as an industrial [[feedstock]] and a [[solvent]].
+
+As the solvent in some types of [[paint thinner]], [[permanent marker]]s, [[contact cement]] and certain types of glue, toluene is sometimes used as a recreational [[inhalant]]<ref>{{Cite web | vauthors = McKeown NJ | date = February 1, 2015 | veditors = Tarabar A | title = Toluene Toxicity, Background, Pathophysiology, Epidemiology | url = http://emedicine.medscape.com/article/818939-overview | publisher = WebMD Health Professional Network | access-date = March 22, 2016 | archive-date = March 9, 2016 | archive-url = https://web.archive.org/web/20160309085115/http://emedicine.medscape.com/article/818939-overview | url-status = live }}</ref> and has the potential of causing severe neurological harm.<ref>{{cite journal | vauthors = Streicher HZ, Gabow PA, Moss AH, Kono D, Kaehny WD | title = Syndromes of toluene sniffing in adults | journal = Annals of Internal Medicine | volume = 94 | issue = 6 | pages = 758–62 | date = June 1981 | pmid = 7235417 | doi = 10.7326/0003-4819-94-6-758 }}</ref><ref>{{cite journal | vauthors = Devathasan G, Low D, Teoh PC, Wan SH, Wong PK | title = Complications of chronic glue (toluene) abuse in adolescents | journal = Australian and New Zealand Journal of Medicine | volume = 14 | issue = 1 | pages = 39–43 | date = February 1984 | pmid = 6087782 | doi = 10.1111/j.1445-5994.1984.tb03583.x }}</ref>
+
+==History==
+The compound was first isolated and kept in 1837 through a distillation of [[pine]] oil by [[Pierre Joseph Pelletier]] and [[Filip Neriusz Walter]], who named it ''rétinnaphte''.<ref>Pelletier PJ and Walter FN (1837) [http://gallica.bnf.fr/ark:/12148/bpt6k29634/f902.image.langEN "Examen des produits provenant du traitement de la résine dans la fabrication du gaz pour l'éclairage"] {{Webarchive|url=https://web.archive.org/web/20161021035401/http://gallica.bnf.fr/ark:/12148/bpt6k29634/f902.image.langEN |date=October 21, 2016 }} (Examination of products arising from the treatment of resin during the production of illuminating gas), ''Comptes rendus'', '''4''' : 898–899.</ref><ref>Pelletier PJ and Walter FN (1838) [http://babel.hathitrust.org/cgi/pt?id=iau.31858046218297;view=1up;seq=273 "Examen des produits provenant du traitement de la résine dans la fabrication du gaz pour l'éclairage,"] {{Webarchive|url=https://web.archive.org/web/20220913125711/https://babel.hathitrust.org/cgi/imgsrv/html?id=iau.31858046218297;seq=273 |date=September 13, 2022 }} ''Annales de Chimie et de Physique'', 2nd series, '''67''' :  269–303. Toluene is named on pp. 278–279:  ''"Nous désignerons la substance qui nous occupe par le nom de ''rétinnaphte'', qui rappelle son origine et ses propriétés physiques (ρητίνη-νάφτα)."'' (We will designate the substance that occupies us by the name of ''rétinnaphte'', which recalls its origin and its physical properties (ρητίνη-νάφτα [resin-naphtha]).</ref>  In 1841, [[Henri Étienne Sainte-Claire Deville]] isolated a hydrocarbon from [[Tolu balsam|balsam of Tolu]] (an aromatic extract from the tropical Colombian tree ''[[Myroxylon|Myroxylon balsamum]]''), which Deville recognized as similar to Walter's ''rétinnaphte'' and to benzene; hence he called the new hydrocarbon ''benzoène''.<ref>Deville, H. (1841) [http://gallica.bnf.fr/ark:/12148/bpt6k29723/f478.image.langEN "Recherches sur les résines. Étude du baume de Tolu"] {{Webarchive|url=https://web.archive.org/web/20161021035427/http://gallica.bnf.fr/ark:/12148/bpt6k29723/f478.image.langEN |date=October 21, 2016 }} (Investigations of resins.  Study of Tolu balsam), ''Comptes rendus'', '''13''' : 476–478.</ref><ref>Deville, H. (1841) [http://babel.hathitrust.org/cgi/pt?id=hvd.hx3dxg;view=1up;seq=157 "Recherches chimiques sur les résines; Premier mémoire"] {{Webarchive|url=https://web.archive.org/web/20210502063334/https://babel.hathitrust.org/cgi/pt?id=hvd.hx3dxg;view=1up;seq=157 |date=May 2, 2021 }} (Chemical investigations of resins; first memoir), ''Annales de Chimie et de Physique'', 3rd series, '''3''' : 151–195.  Deville names toluene on p. 170:  ''"J'ai adopté, pour le corps qui m'occupe dans ce moment, le nom de ''benzoène'', qui rappelle, dans les baumes dont il provient, ce caractère presque générique qui est de contenir de l'acide benzoïque."'' (I've adopted, for this substance that occupies me at the moment, the name ''benzoène'', which recalls, in the balsams from which it comes, that character which is contained in benzoic acid.)
+</ref><ref>{{Cite journal| vauthors = Wisniak J |title=Henri Étienne Sainte-Claire Deville: A physician turned metallurgist |year=2004 |journal=[[Journal of Materials Engineering and Performance]] |volume=13 |issue=2 |pages=117–118|doi=10.1361/10599490418271|bibcode=2004JMEP...13..117W |s2cid=95058552 }}</ref> In 1843, [[Jöns Jacob Berzelius]] recommended the alternative name for it which was ''toluin''.<ref>Berzelius, Jacob (1843) ''Jahres Berichte'', '''22''' : [http://babel.hathitrust.org/cgi/pt?id=nyp.33433109960207;view=1up;seq=372 353–354.] {{Webarchive|url=https://web.archive.org/web/20220913125714/https://babel.hathitrust.org/cgi/imgsrv/html?id=nyp.33433109960207;seq=372 |date=September 13, 2022 }}.</ref> In 1850, French chemist [[Auguste André Thomas Cahours|Auguste Cahours]] isolated from a distillate of wood a hydrocarbon which he recognized as similar to Deville's ''benzoène'' and which Cahours named ''toluène''.<ref>{{cite journal | vauthors = Cahours A | date = 1850 | url = http://gallica.bnf.fr/ark:/12148/bpt6k2987x/f319.image.langEN | title = Recherches sur les huiles légères obtenues dans la distillation du bois | trans-title = Investigations of light oils obtained by the distillation of wood | language = French | journal = Comptes Rendus | volume = 30 | pages = 319–323 (320) | access-date = August 2, 2015 | archive-date = March 1, 2016 | archive-url = https://web.archive.org/web/20160301003417/http://gallica.bnf.fr/ark:/12148/bpt6k2987x/f319.image.langEN | url-status = live }}</ref><ref>{{cite journal | vauthors = Wisniak J | date = October 2013 | title = Auguste André Thomas Cahours | journal = Educación Química | volume = 24 | issue = 4 | pages = 451–460 | doi = 10.1016/S0187-893X(13)72500-X | doi-access = free }}</ref>
+
+==Chemical properties==
+The distance between carbon atoms in the toluene ring is 0.1399&nbsp;nm. The C-CH<sub>3</sub> bond is longer at 0.1524&nbsp;nm, while the average C-H bond length is 0.111&nbsp;nm.<ref>Haynes, p. 9.53</ref>
+
+===Ring reactions===
+Toluene reacts as a normal [[aromatic hydrocarbon]] in [[electrophilic aromatic substitution]].<ref>{{cite book |isbn=0-582-46236-3 |url = https://faculty.ksu.edu.sa/sites/default/files/vogel_-_practical_organic_chemistry_5th_edition.pdf| vauthors = Vogel AS, Furniss BS, Hannaford AJ, Tatchell AR, Smith PW | title = Vogel's Textbook of Practical Organic Chemistry | edition = 5th | publisher = Longman/Wiley | location = New York | date = 1989 }}</ref><ref>{{cite book | vauthors = Wade LG | title = Organic Chemistry | edition = 5th | page = 871 | publisher = Prentice Hall | location = Upper Saddle River, New Jersey | date = 2003 |isbn=013033832X}}</ref><ref>{{cite book |isbn=0-471-58148-8| vauthors = March J | title = Advanced Organic Chemistry | edition = 4th | pages = 723 | publisher = Wiley | location = New York | date = 1992 }}</ref> Because the [[methyl]] group has greater electron-releasing properties than a [[hydrogen]] atom in the same position, toluene is more reactive than [[benzene]] toward electrophiles. It undergoes [[sulfonation]] to give [[P-Toluenesulfonic acid|''p''-toluenesulfonic acid]], and [[chlorination reaction|chlorination]] by [[chlorine|Cl<sub>2</sub>]] in the presence of [[iron(III) chloride|FeCl<sub>3</sub>]] to give ortho- and para- [[isomer]]s of [[chlorotoluene]].
+
+[[Nitration]] of toluene gives mono-, di-, and trinitrotoluene, all of which are widely used. Dinitrotoluene is the precursor to [[toluene diisocyanate]], a precursor to [[polyurethane]] foam. [[Trinitrotoluene]] (TNT) is an explosive.
+
+Complete [[hydrogenation]] of toluene gives [[methylcyclohexane]]. The reaction requires a high pressure of hydrogen and a [[Catalysis|catalyst]].
+
+===Side chain reactions===
+The C-H bonds of the methyl group in toluene are [[benzylic]], therefore they are weaker than C-H bonds in simpler alkanes. Reflecting this weakness, the methyl group in toluene undergoes a variety of [[free radical]] reactions. For example, when heated with [[N-Bromosuccinimide|''N''-bromosuccinimide]] (NBS) in the presence of [[Azobisisobutyronitrile|AIBN]], toluene converts to [[benzyl bromide]]. The same conversion can be effected with elemental [[bromine]] in the presence of UV light or even sunlight.
+
+Toluene may also be brominated by treating it with HBr and H<sub>2</sub>O<sub>2</sub> in the presence of light.<ref>{{cite journal | doi = 10.1016/j.tetlet.2006.07.109 | title = Free Radical Bromination by the H<sub>2</sub>O<sub>2</sub>–HBr System on water | year = 2006 | vauthors = Podgoršek A, Stavber S, Zupan M, Iskra J | journal = Tetrahedron Letters | volume = 47 | issue = 40 | pages = 7245–7247}}</ref>
+
+:C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub> + Br<sub>2</sub> → C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>Br + HBr
+
+[[Benzoic acid]] and [[benzaldehyde]] are produced commercially by [[partial oxidation]] of toluene with [[oxygen]]. Typical catalysts include [[cobalt]] or [[manganese]] [[naphthenate]]s.<ref>{{cite book| vauthors = Wade LG |title=Organic Chemistry|date=2014|publisher=Pearson Education Limited|location=Harlow|isbn=978-1-292-02165-2|page=985|edition=Pearson new international |ref=OrgChem}}</ref> Related but laboratory-scale oxidations involve the use of [[potassium permanganate]] to yield [[benzoic acid]] and [[chromyl chloride]] to yield [[benzaldehyde]] ([[Étard reaction]]).
+
+:[[Image:Benzoic acid-chemical-synthesis-1.svg|class=skin-invert-image|toluene oxidation]]
+
+The methyl group in toluene undergoes deprotonation only with very strong bases; its [[Acid dissociation constant|p''K''<sub>a</sub>]] is estimated using acidity trends to be approximately 43 in [[dimethyl sulfoxide]] (DMSO)<ref>{{Cite journal |last1=Bordwell |first1=Frederick G. |last2=Algrim |first2=Donald J. |date=April 1988 |title=Acidities of anilines in dimethyl sulfoxide solution |url=https://pubs.acs.org/doi/abs/10.1021/ja00217a045 |journal=Journal of the American Chemical Society |language=en |volume=110 |issue=9 |pages=2964–2968 |doi=10.1021/ja00217a045 |bibcode=1988JAChS.110.2964B |issn=0002-7863|url-access=subscription }}</ref><ref>{{Cite journal |last=Bordwell |first=Frederick G. |date=1988-12-01 |title=Equilibrium acidities in dimethyl sulfoxide solution |url=https://pubs.acs.org/doi/abs/10.1021/ar00156a004 |journal=Accounts of Chemical Research |language=en |volume=21 |issue=12 |pages=456–463 |doi=10.1021/ar00156a004 |issn=0001-4842|url-access=subscription }}</ref> and its ion pair acidity is extrapolated to be 41.2 in [[cyclohexylamine]] (Cesium Cyclohexylamide) using a Bronsted correlation.<ref>{{cite book | author = Henry Hsieh, Roderic P. Quirk | title = Anionic Polymerization: Principles and Practical Applications | page = 41}}</ref><ref>{{Cite book |last1=Buncel |first1=E. |title=A. Streitwieser, Jr., E. Juaristi, and L. L. Nebenzahl, in Comprehensive Carbanion Chemistry Volume 5: Part A Structure and Reactivity (Studies in Organic Chemistry) |last2=Durst |first2=T. |publisher=Elsevier Scientific Publishing Company |year=1980 |isbn=9780444419132 |pages=323}}</ref>
+
+=== Miscibility ===
+Toluene is [[Miscibility|miscible]] (soluble in all proportions) with [[ethanol]], [[benzene]], [[diethyl ether]], [[acetone]], [[chloroform]], glacial [[acetic acid]] and [[carbon disulfide]], but immiscible with water.<ref name=":0">{{Cite web |title=Toluene, Semiconductor Grade, 99% min, Thermo Scientific {{!}} Fisher Scientific |url=https://www.fishersci.com/shop/products/toluene-semiconductor-grade-99-min-thermo-scientific/AA19399AP |access-date=April 26, 2022 |website=www.fishersci.com}}</ref>
+
+==Production==
+Toluene occurs naturally at low levels in crude oil and is a byproduct in the production of [[gasoline]] by a [[catalytic reforming|catalytic reformer]] or [[ethylene]] [[cracking (chemistry)|cracker]]. It is also a byproduct of the production of [[coke (fuel)|coke]] from [[coal]]. Final separation and purification is done by any of the [[distillation]] or [[solvent extraction]] processes used for [[BTX (chemistry)|BTX]] aromatics (benzene, toluene, and xylene isomers).<ref name=Ullmann/>
+
+===Other preparative routes===
+Toluene can be prepared by a variety of methods. For example, [[benzene]] reacts with [[methanol]] in presence of a [[solid acid]] to give toluene and water:<ref name=Ullmann/>
+:<chem>C6H6 + CH3OH ->[t^o]C6H5CH3 + H2O</chem>
+
+==Uses==
+Toluene is one of the most abundantly produced chemicals. Its main uses are (1) as a precursor to benzene and [[xylene]]s, (2) as a solvent for thinners, paints, [[lacquers]], adhesives, and (3) as an additive for gasoline.<ref name=Ullmann>{{Ullmann | vauthors = Jörg F, Ulrich G, Simo TA |title=Toluene |year=2005 |doi=10.1002/14356007.a27_147.pub2 |isbn=978-3-527-30673-2}}</ref> In 2013, worldwide sales of toluene amounted to about 24.5&nbsp;billion US dollars.<ref>{{cite web |author=Ceresana |title=Toluene – Study: Market, Analysis, Trends – Ceresana |url=http://www.ceresana.com/en/market-studies/chemicals/toluene/ |url-status=live |archive-url=https://web.archive.org/web/20170429112325/http://www.ceresana.com/en/market-studies/chemicals/toluene/ |archive-date=April 29, 2017 |access-date=April 14, 2015}}</ref>
+
+===Precursor to benzene and xylenes===
+Toluene is converted to benzene via [[Benzene#Toluene hydrodealkylation|hydrodealkylation]]:
+:C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub> + H<sub>2</sub> → C<sub>6</sub>H<sub>6</sub> + CH<sub>4</sub>
+
+Its [[transalkylation]] gives a mixture of benzene and [[xylene]]s.
+
+===Solvent===
+Toluene is widely used in the paint, [[dye]], rubber, chemical, glue, printing, and pharmaceutical industries as a solvent.<ref name="cdc">{{cite web |url=https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=157&toxid=29 |title=Toluene &#124; Medical Management Guidelines &#124; Toxic Substance Portal &#124; ATSDR |accessdate=June 2, 2023}}</ref> Nail polish, paintbrush cleaners, and stain removers may contain toluene. Manufacturing of explosives (TNT) uses it as well. Toluene is also found in cigarette smoke and car exhaust. If not in contact with air, toluene can remain unchanged in soil or water for a long time.<ref name="wisconsin">{{cite web|url=https://www.dhs.wisconsin.gov/chemical/toluene.htm|title=Toluene|date=January 30, 2018 }}</ref>
+
+Toluene is a common [[solvent]], e.g. for [[paint]]s, paint thinners, strippers, silicone sealants,<ref>{{cite web|url=http://www.freepatentsonline.com/6387487.html|title=Dual cure, low-solvent silicone pressure sensitive adhesives – General Electric Company|access-date=February 15, 2008|archive-date=October 4, 2012|archive-url=https://web.archive.org/web/20121004053140/http://www.freepatentsonline.com/6387487.html|url-status=live}}</ref> many [[chemical reactant]]s, [[rubber]], [[printing]] ink, [[adhesive]]s (glues), [[lacquer]]s, [[leather tanning|leather tanners]], and [[disinfectant]]s.<ref name=Ullmann/>
+
+=== Fuel ===
+Toluene is an [[octane rating|octane booster]] in [[gasoline]] fuels for [[internal combustion engine]]s as well as [[jet fuel]] and [[turbocharged]] engines in [[Formula One]].<ref>{{cite conference|url = http://www.k20a.org/upload/HondaRA168EEngine.pdf|title = Honda Formula One Turbo-charged V-6 1.5L Engine|conference = SAE International Congress and Exposition|date = March 3, 1989|access-date = September 11, 2017|archive-date = September 11, 2017|archive-url = https://web.archive.org/web/20170911205138/http://www.k20a.org/upload/HondaRA168EEngine.pdf|url-status = live}}</ref>
+
+In [[Australia]] in 2003, toluene was found to have been illegally combined with petrol in fuel outlets for sale as standard vehicular fuel. Toluene incurs no fuel excise tax, while other fuels are taxed at more than 40%, providing a greater [[profit margin]] for fuel suppliers. The extent of toluene substitution is claimed to be 60%.<ref>{{cite web|url=http://www.libertyoil.com.au/www/230/1001164/displayarticle/1001248.html|title=Scam on petrol sparks spot tests |website= Liberty Oil|url-status = dead|archive-url =https://web.archive.org/web/20160303213422/http://www.libertyoil.com.au/www/230/1001164/displayarticle/1001248.html|archive-date = March 3, 2016 }}</ref><ref>{{cite web|url=http://www.abc.net.au/worldtoday/stories/s106466.htm|title=The World Today Archive – Authorities yet to acknowledge petrol scam problem|website=[[Australian Broadcasting Corporation]]|access-date=September 4, 2009|archive-date=November 10, 2012|archive-url=https://web.archive.org/web/20121110070444/http://www.abc.net.au/worldtoday/stories/s106466.htm|url-status=live}}</ref>
+
+===Niche applications===
+In the laboratory, toluene is used as a solvent for carbon nanomaterials, including nanotubes and fullerenes, and it can also be used as a [[fullerene]] indicator. The color of the toluene solution of C<sub>60</sub> is bright purple. Toluene is used as a cement for fine [[polystyrene]] [[plastic model|kits]] (by dissolving and then fusing surfaces) as it can be applied very precisely by brush and contains none of the bulk of an adhesive. Toluene can be used to break open [[red blood cell]]s in order to extract [[hemoglobin]] in biochemistry experiments. Toluene has also been used as a coolant for its good heat transfer capabilities in sodium cold traps used in nuclear reactor system loops. Toluene had also been used in the process of [[Coca-Cola formula|removing the cocaine]] from coca leaves in the production of Coca-Cola syrup.<ref>{{cite book| vauthors = Merory J |title=Food Flavorings: Composition, Manufacture and Use|publisher=AVI Publishing Company, Inc..|location=Westport, CT|year=1968 |edition=2nd}}</ref>
+
+==Toxicology and metabolism==
+{{main|Toluene toxicity}}
+The environmental and toxicological effects of toluene have been extensively studied.<ref>{{Citation |vauthors=Hogan CM |year=2011 |chapter-url=http://www.eoearth.org/article/Sulfur?topic=49557 |chapter=Sulfur |title=Encyclopedia of Earth |veditors=Jorgensen A, Cleveland CJ |publisher=National Council for Science and the Environment |location=Washington DC |access-date=October 26, 2012 |archive-date=October 28, 2012 |archive-url=https://web.archive.org/web/20121028080550/http://www.eoearth.org/article/Sulfur?topic=49557 |url-status=live }}</ref>
+
+Toluene is irritating to the eyes, skin, and respiratory tract. It is absorbed slowly through the skin. It can cause systemic toxicity by inhalation or ingestion. Inhalation is the most common route of exposure. Symptoms of toluene poisoning include [[central nervous system]] effects (headache, dizziness, drowsiness, [[ataxia]], [[euphoria]], [[tremor]]s, [[hallucinations]], [[seizures]], and coma), chemical [[pneumonitis]], respiratory depression, [[ventricular arrhythmias]], nausea, vomiting, and [[electrolyte imbalance]]s.<ref name="cdc" />
+
+Inhalation of toluene in low to moderate levels can cause tiredness, confusion, weakness, drunken-type actions, memory loss, nausea, loss of appetite, [[hearing loss]],<ref>{{cite journal | vauthors = Chang SJ, Chen CJ, Lien CH, Sung FC | title = Hearing loss in workers exposed to toluene and noise | journal = Environmental Health Perspectives | volume = 114 | issue = 8 | pages = 1283–6 | date = August 2006 | pmid = 16882540 | pmc = 1552019 | doi = 10.1289/ehp.8959 | bibcode = 2006EnvHP.114.1283C }}</ref><ref>{{cite journal | vauthors = Morata TC, Nylén P, Johnson AC, Dunn DE | title = Auditory and vestibular functions after single or combined exposure to toluene: a review | journal = Archives of Toxicology | volume = 69 | issue = 7 | pages = 431–43 | date = 1995 | pmid = 8526738 | doi = 10.1007/s002040050196 | bibcode = 1995ArTox..69..431M | s2cid = 22919141 }}</ref><ref>{{Cite report|date=September 1, 2020 |title=Preventing hearing loss caused by chemical (ototoxicity) and noise exposure. |language=en-us |doi=10.26616/NIOSHPUB2018124|doi-access=free|url=https://www.cdc.gov/niosh/docs/2018-124/pdfs/2018-124.pdf?id=10.26616/NIOSHPUB2018124}}</ref> and colour vision loss.<ref>{{cite journal | vauthors = Kishi R, Eguchi T, Yuasa J, Katakura Y, Arata Y, Harabuchi I, Kawai T, Masuchi A | title = Effects of low-level occupational exposure to styrene on color vision: dose relation with a urinary metabolite | journal = Environmental Research | volume = 85 | issue = 1 | pages = 25–30 | date = January 2001 | pmid = 11161648 | doi = 10.1006/enrs.2000.4227 | bibcode = 2001ER.....85...25K }}</ref> Some of these symptoms usually disappear when exposure is stopped. Inhaling high levels of toluene in a short time may cause light-headedness, nausea, or sleepiness, unconsciousness, and even [[sudden sniffing death|death]].<ref>[http://www.ccohs.ca/oshanswers/chemicals/chem_profiles/toluene/health_tol.html "Health Effects of Toluene"] {{Webarchive|url=https://web.archive.org/web/20101125213554/http://ccohs.ca/oshanswers/chemicals/chem_profiles/toluene/health_tol.html |date=November 25, 2010 }}, Canadian Centre for Occupational Health and Safety.</ref><ref>[http://www.atsdr.cdc.gov/csem/toluene/physiologic_effects.html "Toluene Toxicity Physiologic Effects"] {{Webarchive|url=https://web.archive.org/web/20161012074521/http://www.atsdr.cdc.gov/csem/toluene/physiologic_effects.html |date=October 12, 2016 }}, Agency for Toxic Substances and Disease Registry.</ref> Toluene is, however, much less toxic than [[benzene]], and as a consequence, largely replaced it as an aromatic solvent in chemical preparation. The [[United States Environmental Protection Agency|US Environmental Protection Agency]] (EPA) states that the [[carcinogen]]ic potential of toluene cannot be evaluated due to insufficient information.<ref>[http://www.epa.gov/airtoxics/hlthef/toluene.html] {{Webarchive|url=https://web.archive.org/web/20150306051516/http://www.epa.gov/airtoxics/hlthef/toluene.html|date=March 6, 2015}}, EPA</ref>
+
+Toluene occurs as an [[Indoor air quality|indoor air pollutant]] in a number of processes including electrosurgery, and can be removed from the air with an [[activated carbon]] filter.<ref>{{cite journal | vauthors = Carroll GT, Kirschman DL | title = A Peripherally Located Air Recirculation Device Containing an Activated Carbon Filter Reduces VOC Levels in a Simulated Operating Room | journal = ACS Omega | volume = 7 | issue = 50 | pages = 46640–46645 | date = December 2022 | pmid = 36570243 | pmc = 9774396 | doi = 10.1021/acsomega.2c05570  | doi-access = free}}</ref>
+
+Similarly to many other solvents such as [[1,1,1-trichloroethane]] and some [[alkylbenzene]]s, toluene has been shown to act as a [[noncompetitive inhibition|non-competitive]] [[NMDA receptor antagonist]] and [[GABAA receptor|GABA<sub>A</sub> receptor]] [[positive allosteric modulator]].<ref name="pmid19151967">{{cite journal | vauthors = Cruz SL, Soberanes-Chávez P, Páez-Martinez N, López-Rubalcava C | title = Toluene has antidepressant-like actions in two animal models used for the screening of antidepressant drugs | journal = Psychopharmacology | volume = 204 | issue = 2 | pages = 279–86 | date = June 2009 | pmid = 19151967 | doi = 10.1007/s00213-009-1462-2 | s2cid = 2235023 }}</ref> Additionally, toluene has been shown to display [[antidepressant]]-like effects in rodents in the [[forced swim test]] (FST) and the [[tail suspension test]] (TST),<ref name="pmid19151967" /> likely due to its NMDA antagonist properties.
+
+Toluene inhibits excitatory ion channels such as the [[NMDA receptor]], [[nicotinic acetylcholine receptor]], and the [[5-HT3 receptor|serotonin 5-HT<sub>3</sub> receptor]]. It also potentiates the function of inhibitory ion channels, such as the [[GABAA receptor|GABA<sub>A</sub>]] and [[glycine receptors]]. In addition, toluene disrupts [[voltage-gated calcium channel]]s and ATP-gated ion channels.<ref>{{Cite web | url=http://flipper.diff.org/app/items/info/5367 | title=Toluene | access-date=February 15, 2019 | archive-date=February 16, 2019 | archive-url=https://web.archive.org/web/20190216153233/http://flipper.diff.org/app/items/info/5367 | url-status=live }}</ref>
+
+=== Recreational use ===
+Toluene is sometimes used as a recreational [[inhalant]] ("glue sniffing"), likely on account of its [[euphoriant|euphoric]] and [[dissociative]] effects,<ref name="pmid19151967" /> in a manner unintended by manufacturers. People inhale toluene-containing products (e.g., [[paint thinner]], [[contact cement]], correction pens, model glue, etc.) for its [[Substance intoxication|intoxicating effect]]. The possession and use of toluene and products containing it are regulated in many jurisdictions, for the supposed reason of preventing minors from obtaining these products for [[recreational drug]] purposes. As of 2007, 24 US states had laws penalizing use, possession with intent to use, and/or distribution of such inhalants.<ref>{{cite web|url=https://www.cga.ct.gov/2009/rpt/2009-R-0251.htm|title=State Laws on Inhalant Use|vauthors=Spigel S|date=July 8, 2009|access-date=April 13, 2015|archive-date=February 25, 2015|archive-url=https://web.archive.org/web/20150225222036/http://www.cga.ct.gov/2009/rpt/2009-R-0251.htm|url-status=live}}</ref> In 2005 the [[European Union]] banned the general sale of products consisting of greater than 0.5% toluene.<ref>{{cite web |title=EU sets 0.1% limit on use of toluene, TCB |url=https://www.icis.com/resources/news/2005/09/24/1008648/eu-sets-0-1-limit-on-use-of-toluene-tcb/ |website=ICIS |publisher=[[Reed Business Information]] |date=September 24, 2005 |access-date=July 18, 2018 |archive-date=July 18, 2018 |archive-url=https://web.archive.org/web/20180718174344/https://www.icis.com/resources/news/2005/09/24/1008648/eu-sets-0-1-limit-on-use-of-toluene-tcb/ |url-status=live }}</ref>
+
+===Bioremediation===
+Several types of fungi including ''[[Cladophialophora]]'', ''[[Exophiala]]'', ''[[Leptodontidium]]'' ([[synonym (taxonomy)|syn.]] ''Leptodontium''), ''[[Pseudeurotium zonatum]]'', and ''[[Cladosporium sphaerospermum]]'', and certain species of bacteria can degrade toluene, using it as a source of carbon and energy.<ref>{{cite journal |title=Isolation and characterisation of fungi growing on volatile aromatic hydrocarbons as their sole carbon and energy source |vauthors=Prenafeta-Boldu FX, Kuhn A, Luykx DM, Anke H, van Groenestijn JW, de Bont JA |journal=Mycological Research |volume=105 |issue=4 |pages=477–484 |date=April 2001 |doi=10.1017/S0953756201003719 |url=http://edepot.wur.nl/25292 |access-date=April 20, 2018 |archive-date=September 22, 2017 |archive-url=https://web.archive.org/web/20170922020728/http://edepot.wur.nl/25292 |url-status=live |url-access=subscription }}</ref>
+
+== References ==
+{{reflist|30em}}
+
+==Cited sources==
+* {{cite book | editor= Haynes, William M. | date = 2016| title = [[CRC Handbook of Chemistry and Physics]] | edition = 97th | publisher = [[CRC Press]] | isbn = 978-1-4987-5429-3}}
+
+== External links ==
+{{Commons category|Toluene|lcfirst=yes}}
+{{wikiquote}}
+* [https://www.atsdr.cdc.gov/csem/csem.html ATSDR – Case Studies in Environmental Medicine: Toluene Toxicity] {{Webarchive|url=https://web.archive.org/web/20160204174821/http://www.atsdr.cdc.gov/csem/csem.asp?csem=7&po=7 |date=February 4, 2016 }} U.S. Department of Health and Human Services (public domain)
+* [[American Industrial Hygiene Association]], [https://synergist.aiha.org/201811-the-ear-poisons The Ear Poisons], The Synergist, November 2018.
+* [https://www.cdc.gov/niosh/topics/toluene/ Toluene] CDC – NIOSH Workplace Safety and Health Topic (DHHS)
+* OSHA-NIOSH 2018. [[doi:10.26616/NIOSHPUB2018124|Preventing Hearing Loss Caused by Chemical (Ototoxicity) and Noise Exposure Safety and Health Information Bulletin (SHIB)]], Occupational Safety and Health Administration and the National Institute for Occupational Safety and Health. SHIB August 3, 2018. DHHS (NIOSH) Publication No. 2018-124.
+* [https://www.scmp.com/news/china/policies-politics/article/1880452/toxic-trouble-chinese-children-fall-ill-after-inhaling Toxic trouble: Chinese children fall ill after inhaling fumes from newly laid school running tracks], South China Morning Post, 2015
+
+{{Hydrocarbons}}
+{{GABAA receptor positive modulators}}
+{{Glycine receptor modulators}}
+{{Ionotropic glutamate receptor modulators}}
+{{Authority control}}
+
+[[Category:Toluenes| ]]
+[[Category:Hydrocarbon solvents]]
+[[Category:Antiknock agents]]
+[[Category:Alkylbenzenes]]
+[[Category:Commodity chemicals]]
+[[Category:Petrochemicals]]
+[[Category:GABAA receptor positive allosteric modulators]]
+[[Category:Glycine receptor agonists]]
+[[Category:Euphoriants]]
+[[Category:Inhalants]]
+[[Category:Aromatic solvents]]
+[[Category:Phenyl compounds]]
+[[Category:Chemical hazards]]
+[[Category:NMDA receptor antagonists]]

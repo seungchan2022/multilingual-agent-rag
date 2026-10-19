@@ -1,0 +1,288 @@
+{{Short description|Brightest star in the constellation Aquila}}
+{{About|a star in the constellation Aquila}}
+{{good article}}
+{{Starbox begin}}
+{{Starbox image
+ | image=
+   {{Location mark
+     | image=Aquila constellation map.svg {{!}} class=skin-invert-image
+     | float=center | width=260 | position=right
+     | mark=Red circle.svg | mark_width=12 | mark_link=Altair (star)
+     | x=440 | y=339
+   }}
+ | caption=Location of Altair (circled)
+}}
+{{Starbox observe
+ | epoch = J2000
+ | constell = [[Aquila (constellation)|Aquila]]
+ | pronounce = {{IPAc-en|'|æ|l|t|ɛər|audio=LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-Altair.wav}}, {{IPAc-en|'|æ|l|t|aɪər|audio=LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-Altair (alt).wav}}<ref>{{cite web|url=http://www.oxforddictionaries.com/definition/american_english/altair|archive-url=https://web.archive.org/web/20140512142137/http://www.oxforddictionaries.com/definition/american_english/Altair|url-status=dead|archive-date=May 12, 2014|title=Altair: definition of Altair in Oxford dictionary (American English)}}</ref><ref name=Kunitzsch>{{cite book |last1=Kunitzsch |first1=Paul |last2=Smart |first2=Tim |date = 2006 |edition = 2nd rev. |title = A Dictionary of Modern star Names: A Short Guide to 254 Star Names and Their Derivations |publisher = Sky Pub |location = Cambridge, Massachusetts |isbn = 978-1-931559-44-7
+}}</ref>
+ | ra = {{RA|19|50|46.99855}}<ref name=aaa474_2_653/>
+ | dec = {{DEC|+08|52|05.9563}}<ref name=aaa474_2_653/>
+ | appmag_v = 0.76<ref name=ducati>{{cite journal|bibcode=2002yCat.2237....0D|title=VizieR Online Data Catalog: Catalogue of Stellar Photometry in Johnson's 11-color system|journal=CDS/ADC Collection of Electronic Catalogues|volume=2237|pages=0|last1=Ducati|first1=J. R.|date=2002}}</ref>
+}}
+{{Starbox character
+ | type=[[Main sequence]]<ref name=zorec2012/>
+ | class = A7Vn<ref name=gray_et_al_2003/>
+ | u-b = +0.09<ref name=ducati/>
+ | b-v = +0.22<ref name=ducati/>
+ | v-r = +0.14<ref name=ducati/>
+ | r-i = +0.13<ref name=ducati/>
+ | variable = [[Delta Scuti variable|Delta Scuti]]<ref name="Buzasi et al 2005"/>
+}}
+{{Starbox astrometry
+ | radial_v = {{val|−26.1|0.9}}<ref name=sb0/>
+ | prop_mo_ra = +536.23<ref name=aaa474_2_653/>
+ | prop_mo_dec = +385.29<ref name=aaa474_2_653/>
+ | parallax = 194.95
+ | p_error = 0.57
+ | parallax_footnote = <ref name=aaa474_2_653/>
+ | absmag_v= 2.22<ref name="Buzasi et al 2005"/>
+}}
+{{Starbox detail|
+ | mass = {{val|1.86|0.03}}<ref name=bouchaud2020/>
+ | radius = 2.008 ± 0.006 (equatorial)<br>1.565 ± 0.014 (polar)<ref name=bouchaud2020/>
+ | gravity = 4.29<ref name=aass85_3_1015/>
+ | rotation = 7.77 hours<ref name=peterson06/>
+ | luminosity = 10.6<ref name=peterson06/>
+ | temperature = 6,780 (equatorial)<br>8,621 (polar)<ref name=bouchaud2020/>
+ | metal_fe = −0.2<ref name=monnier07/>
+ | rotational_velocity = 242<ref name=bouchaud2020/>
+ | age_myr = {{val|88|10}}<ref name=Rieutord2024/>
+}}
+{{Starbox catalog
+| names = {{odlist | name=Atair | B=α&nbsp;Aquilae, α&nbsp;Aql, Alpha&nbsp;Aquilae, Alpha&nbsp;Aql | F=53&nbsp;Aquilae, 53&nbsp;Aql | BD=+08°4236 | FK5=745 | GCTP=4665.00 | GJ=768 | HD=187642 | HIP=97649 | HR=7557 | LFT=1499 | LHS=3490 | LTT=15795 | NLTT=48314 | SAO=125122 | WDS=19508+0852A }}<ref name=sb0/><ref name=bsc1/><ref name=wds/> | LA001
+}}
+{{Starbox reference
+ | Simbad = alf+aql
+}}
+{{Starbox end
+}}
+
+'''Altair''' is the brightest [[star]] in the equatorial [[constellation]] of [[Aquila (constellation)|Aquila]] and the [[list of brightest stars|twelfth-brightest star]] in the [[night sky]]. It has the [[Bayer designation]] Alpha&nbsp;Aquilae, which is [[Latinisation of names|Latinised]] from '''α&nbsp;Aquilae''' and abbreviated '''Alpha&nbsp;Aql''' or '''α&nbsp;Aql'''. Altair is an [[A-type main-sequence star|A-type]] [[main-sequence star]] with an [[apparent visual magnitude]] of 0.77 and is one of the vertices of the [[Summer Triangle]] [[Asterism (astronomy)|asterism]]; the other two vertices are marked by [[Deneb]] and [[Vega]].<ref name=sb0/><ref name=darlingaltair/><ref name="darlingsummer">{{Cite web |last=Darling |first=David |title=Summer Triangle |url=https://www.daviddarling.info/encyclopedia/S/Summer_Triangle.html |access-date=2008-11-26 |website=www.daviddarling.info}}</ref> It is located at a distance of {{convert|16.7|ly|pc|abbr=off|lk=on}} from the [[Sun]].<ref name="schaaf2008">{{Cite book |last=Hoboken |first=Fred Schaaf |title=The brightest stars : discovering the universe through the sky's most brilliant stars |publisher=John Wiley & Sons, Inc. |year=2008 |isbn=978-0-471-70410-2 |location=New Jersey |pages= |oclc=440257051}}</ref>{{Citation page|page=194}} Altair is currently in the [[G-cloud]]—a nearby [[interstellar cloud]] formed from an accumulation of gas and dust.<ref>{{Cite web|url=http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html|title=Our Local Galactic Neighborhood|publisher=[[NASA]]|archive-url=https://web.archive.org/web/20131121061128/http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html|archive-date=2013-11-21|url-status=dead}}</ref><ref>{{Cite news|url=https://www.centauri-dreams.org/?p=14203|title=Into the Interstellar Void|last=Gilster|first=Paul|date=2010-09-01|work=Centauri Dreams|access-date=2017-03-26|language=en-US}}</ref>
+
+Altair rotates rapidly, with a velocity at the [[equator]] of approximately 286&nbsp;km/s.<ref group=nb>From values of ''v'' sin ''i'' and ''i'' in the second column of Table 1, Monnier et al. 2007.</ref><ref name=monnier07/> This is a significant fraction of the star's estimated breakup speed of 400&nbsp;km/s.<ref name=robrade2009/> A study with the [[Palomar Testbed Interferometer]] revealed that Altair is not spherical, but is flattened at the poles due to its high rate of rotation.<ref name="pti2001">{{Cite journal|last1=Belle|first1=Gerard T. van|last2=Ciardi|first2=David R.|last3=Thompson|first3=Robert R.|last4=Akeson|first4=Rachel L.|last5=Lada|first5=Elizabeth A.|year=2001|title=Altair's Oblateness and Rotation Velocity from Long-Baseline Interferometry|url=http://stacks.iop.org/0004-637X/559/i=2/a=1155|journal=The Astrophysical Journal|language=en|volume=559|issue=2|pages=1155–1164|bibcode=2001ApJ...559.1155V|doi=10.1086/322340|s2cid=13969695 |issn=0004-637X|url-access=subscription}}</ref> Other [[interferometric]] studies with multiple telescopes, operating in the [[infrared]], have imaged and confirmed this phenomenon.<ref name="monnier07">{{Cite journal|last2=Zhao|first2=M|last3=Pedretti|first3=E|last4=Thureau|first4=N|last5=Ireland|first5=M|last6=Muirhead|first6=P|last7=Berger|first7=J. P.|last8=Millan-Gabet|first8=R|last9=Van Belle|first9=G|year=2007|title=Imaging the surface of Altair|journal=Science|volume=317|issue=5836|pages=342–345|bibcode=2007Sci...317..342M|doi=10.1126/science.1143205|pmid=17540860|last1=Monnier|first1=J. D.|last10=Ten Brummelaar|first10=T|last11=McAlister|first11=H|last12=Ridgway|first12=S|last13=Turner|first13=N|last14=Sturmann|first14=L|last15=Sturmann|first15=J|last16=Berger|first16=D|arxiv = 0706.0867 |s2cid=4615273}}  See second column of Table 1 for stellar parameters.</ref>
+
+==Nomenclature==
+[[File:AquilaCC.jpg|thumb|left|Altair is the brightest star in the constellation Aquila.]]
+''α Aquilae'' ([[Latinisation of names|Latinised]] to ''Alpha Aquilae'') is the star's [[Bayer designation]]. The traditional name ''Altair'' has been used since medieval times. It is an abbreviation of the [[Arabic]] phrase {{lang|ar|النسر الطائر}} ''Al-Nasr Al-Ṭā'ir'', "{{lang|en|the flying eagle}}".<ref>{{Cite web|url=https://www.dictionary.com/browse/altair|title=the definition of altair|website=www.dictionary.com|language=en|access-date=2018-09-30}}</ref>
+
+In 2016, the [[International Astronomical Union]] organized a [[Working Group on Star Names]] (WGSN)<ref name="WGSN">{{cite web | url=https://www.iau.org/science/scientific_bodies/working_groups/280/ | title=IAU Working Group on Star Names (WGSN) | access-date=22 May 2016 | archive-date=23 April 2020 | archive-url=https://web.archive.org/web/20200423144448/https://www.iau.org/science/scientific_bodies/working_groups/280/ | url-status=dead }}</ref> to catalog and standardize proper names for stars. The WGSN's first bulletin of July 2016<ref name="WGSN1">{{cite web | url=http://www.pas.rochester.edu/~emamajek/WGSN/WGSN_bulletin1.pdf |archive-url=https://ghostarchive.org/archive/20221009/http://www.pas.rochester.edu/~emamajek/WGSN/WGSN_bulletin1.pdf |archive-date=2022-10-09 |url-status=live | title=Bulletin of the IAU Working Group on Star Names, No. 1 |access-date=28 July 2016}}</ref> included a table of the first two batches of names approved by the WGSN, which included ''Altair'' for this star. It is now so entered in the IAU Catalog of Star Names.<ref name="IAU-CSN">{{cite web | url=https://www.pas.rochester.edu/~emamajek/WGSN/IAU-CSN.txt | title=IAU Catalog of Star Names |access-date=28 July 2016}}</ref>
+{{clear left}}
+
+==Physical characteristics==
+[[File:Altair-Sun comparison.png|thumb|left|Altair in comparison with the Sun]]
+
+Along with [[β Aquilae]] and [[γ Aquilae]], Altair forms the well-known line of stars sometimes referred to as the ''Family of Aquila'' or ''Shaft of Aquila''.<ref name="schaaf2008" />{{Citation page|page=190}}
+
+Altair is a [[Type-A star|type-A]] [[main-sequence star]] with about 1.8 times the [[mass of the Sun]] and 11 times [[Solar luminosity|its luminosity]].<ref name=monnier07/><ref name=peterson06/> It is thought to be a young star close to the [[zero age main sequence]] at about 100 million years old, although previous estimates gave an age closer to one billion years old.<ref name=bouchaud2020/>  Altair rotates rapidly, with a rotational period of under eight hours;<ref name=bouchaud2020/> for comparison, the equator of the [[Sun]] makes a complete rotation in a little more than 25 days. Altair's rotation is similar to, and slightly faster than, those of [[Jupiter]] and [[Saturn]]. Like those two planets, its rapid rotation causes the star to be [[oblate spheroid|oblate]]; its equatorial diameter is over 20 percent greater than its polar diameter.<ref name=monnier07/>
+
+[[File:AlphaAqlLightCurve.png|thumb|left|A [[light curve]] for Altair, adapted from Buzasi ''et al.'' (2005)<ref name="Buzasi et al 2005"/>]]
+Satellite measurements made in 1999 with the [[Wide Field Infrared Explorer]] showed that the brightness of Altair fluctuates slightly, varying by just a few thousandths of a magnitude with several different periods less than 2 hours.<ref name="Buzasi et al 2005"/> As a result, it was identified in 2005 as a [[Delta Scuti variable]] star. Its [[light curve]] can be approximated by adding together a number of [[sine wave]]s, with periods that range between 0.8 and 1.5 hours.<ref name="Buzasi et al 2005">{{Cite journal |last1=Buzasi |first1=D. L. |last2=Bruntt |first2=H. |last3=Bedding |first3=T. R. |last4=Retter |first4=A. |last5=Kjeldsen |first5=H. |last6=Preston |first6=H. L. |last7=Mandeville |first7=W. J. |last8=Suarez |first8=J. C. |last9=Catanzarite |first9=J. |date=February 2005 |title=Altair: The Brightest δ Scuti Star |journal=The Astrophysical Journal |language=en |volume=619 |issue=2 |pages=1072–1076 |arxiv=astro-ph/0405127 |bibcode=2005ApJ...619.1072B |doi=10.1086/426704 |s2cid=16524681 |issn=0004-637X}}</ref> It is a weak source of [[stellar corona|coronal]] [[X-ray astronomy|X-ray]] emission, with the most active sources of emission being located near the star's equator. This activity may be due to [[Convection zone|convection]] cells forming at the cooler equator.<ref name=robrade2009/>
+{{clear left}}
+
+===Rotational effects===
+[[Image:Altair_PR_image6_(white).jpg|thumb|left|Direct image of Altair, taken with the [[CHARA array]]]]
+The angular diameter of Altair was measured [[interferometrically]] by [[R. Hanbury Brown]] and his co-workers at [[Narrabri Stellar Intensity Interferometer|Narrabri Observatory]] in the 1960s. They found a diameter of 3{{nbsp}}[[milliarcseconds]].<ref>{{cite journal |bibcode=1967MNRAS.137..393H |title=The stellar interferometer at Narrabri Observatory-II. The angular diameters of 15 stars |last1=Hanbury Brown |first1=R. |last2=Davis |first2=J. |last3=Allen |first3=L. R. |last4=Rome |first4=J. M. |journal=Monthly Notices of the Royal Astronomical Society |year=1967 |volume=137 |issue=4 |page=393 |doi=10.1093/mnras/137.4.393 |doi-access=free }}</ref> Although Hanbury Brown et al. realized that Altair would be rotationally flattened, they had insufficient data to experimentally observe its oblateness. Later, using [[infrared]] interferometric measurements made by the [[Palomar Testbed Interferometer]] in 1999 and 2000, Altair was found to be flattened. This work was published by [[Gerard van Belle|G. T. van Belle]], [[David Ciardi|David R. Ciardi]] and their co-authors in 2001.<ref name=pti2001/>
+
+Theory predicts that, owing to Altair's rapid rotation, its [[surface gravity]] and [[effective temperature]] should be lower at the equator, making the equator less luminous than the poles. This phenomenon, known as [[gravity darkening]] or the [[von Zeipel effect]], was confirmed for Altair by measurements made by the [[Navy Precision Optical Interferometer]] in 2001, and analyzed by Ohishi et al. (2004) and Peterson et al. (2006).<ref name=peterson06/><ref>{{cite journal | doi = 10.1086/422422| title = Asymmetric Surface Brightness Distribution of Altair Observed with the Navy Prototype Optical Interferometer| year = 2004| last1 = Ohishi| first1 = Naoko| last2 = Nordgren| first2 = Tyler E.| last3 = Hutter| first3 = Donald J.| journal = The Astrophysical Journal| volume = 612| issue = 1| pages = 463–471| arxiv = astro-ph/0405301| bibcode = 2004ApJ...612..463O| s2cid = 15857535}}</ref> Also, A. Domiciano de Souza et al. (2005) verified gravity darkening using the measurements made by the Palomar and Navy interferometers, together with new measurements made by the VINCI instrument at the [[VLTI]].<ref>{{cite journal | doi = 10.1051/0004-6361:20042476| title = Gravitational-darkening of Altair from interferometry| year = 2005| last1 = Domiciano de Souza| first1 = A. | last2 = Kervella| first2 = P.| last3 = Jankov| first3 = S.| last4 = Vakili| first4 = F.| last5 = Ohishi| first5 = N.| last6 = Nordgren| first6 = T. E.| last7 = Abe| first7 = L.| journal = Astronomy & Astrophysics| volume = 442| issue = 2| pages = 567–578| bibcode = 2005A&A...442..567D| doi-access = free}}</ref>
+
+Altair is one of the few [[List of stars with resolved images|stars for which a resolved image]] has been obtained.<ref name=nsf>{{cite press release |url=https://www.nsf.gov/news/news_summ.jsp?cntn_id=109612 |title=Gazing up at the Man in the Star? |publisher=[[National Science Foundation]] |date=May 31, 2007 |access-date=2022-08-03 |archive-date=2011-06-06 |archive-url=https://web.archive.org/web/20110606065540/http://www.nsf.gov/news/news_summ.jsp?cntn_id=109612 |url-status=dead }}</ref> In 2006 and 2007, J. D. Monnier and his coworkers produced an image of Altair's surface from 2006 infrared observations made with the [[Michigan Infrared Combiner|MIRC]] instrument on the [[CHARA array]] interferometer; this was the first time the surface of any [[main-sequence star]], apart from the Sun, had been imaged.<ref name=nsf/> The false-color image was published in 2007. The equatorial radius of the star was estimated to be 2.03 [[solar radii]], and the polar radius 1.63 solar radii—a 25% increase of the stellar radius from pole to equator, versus 19% for [[Vega]], 11% for [[Saturn]], and 9% for [[Jupiter]].<ref name=monnier07/> The polar axis is inclined by about 60° to the line of sight from the Earth.<ref name=robrade2009/>
+{{clear left}}
+
+==Etymology, mythology and culture==
+[[Image:Altair.jpg|Altair|thumb|left]]
+The term ''Al Nesr Al Tair'' appeared in [[Al Achsasi al Mouakket]]'s catalogue, which was translated into [[Latin]] as ''Vultur Volans''.<ref>{{cite journal|last=Knobel|first= E. B.|title=Al Achsasi Al Mouakket, on a catalogue of stars in the Calendarium of Mohammad Al Achsasi Al Mouakket|journal=Monthly Notices of the Royal Astronomical Society|volume=55|issue= 8|pages=429–438|date=June 1895|bibcode=1895MNRAS..55..429K|doi=10.1093/mnras/55.8.429|doi-access=free}}</ref> This name was applied by the Arabs to the [[asterism (astronomy)|asterism]] of Altair, [[β Aquilae]] and [[γ Aquilae]] and probably goes back to the ancient Babylonians and Sumerians, who called Altair "the eagle star".<ref name="Kunitzsch" />{{Citation page|pages=17-18}} The spelling ''Atair'' has also been used.<ref name="allen">{{Cite book |last=Allen |first=Richard Hinckley |url=http://archive.org/details/bub_gb_5xQuAAAAIAAJ |title=Star-names and their meanings |publisher=New York, Leipzig [etc.] G.E. Stechert |others=unknown library |year=1899 |pages=59–60}}</ref> Medieval [[astrolabe]]s of England and Western Europe depicted Altair and Vega as birds.<ref>{{Cite journal | last1 = Gingerich | first1 = O.| doi = 10.1111/j.1749-6632.1987.tb37197.x | title = Zoomorphic Astrolabes and the Introduction of Arabic Star Names into Europe | journal = Annals of the New York Academy of Sciences | volume = 500 | pages = 89–104 | year = 1987 | issue = 1|bibcode = 1987NYASA.500...89G | s2cid = 84102853}}</ref>
+
+The [[Koori]] people of [[Victoria (Australia)|Victoria]] also knew Altair as ''Bunjil'', the [[wedge-tailed eagle]], and β and γ Aquilae are his two wives the [[black swan]]s. The people of the [[Murray River]] knew the star as ''Totyerguil''.<ref name="mudrooroo1994">''Aboriginal mythology: an A-Z spanning the history of aboriginal mythology from the earliest legends to the present day'', Mudrooroo, London: HarperCollins, 1994, {{ISBN|1-85538-306-3}}.</ref>{{Citation page|page=4}} The Murray River was formed when ''Totyerguil'' the hunter speared ''Otjout'', a giant [[Murray cod]], who, when wounded, churned a channel across southern Australia before entering the sky as the constellation [[Delphinus]].<ref name="mudrooroo1994" />{{Citation page|page=115}}
+
+In Chinese astronomy, the asterism consisting of Altair, β Aquilae and γ Aquilae is known as ''Hé Gǔ'' ({{lang|zh|河鼓}}; lit. "river drum").<ref name=allen/> The [[Chinese star names|Chinese name]] for Altair is thus ''Hé Gǔ èr'' ({{lang|zh|河鼓二}}; lit. "river drum two", meaning the "second star of the drum at the river").<ref>{{in lang|zh}} [http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstars_ala_alz.htm 香港太空館 - 研究資源 - 亮星中英對照表] {{webarchive|url=https://web.archive.org/web/20081025110153/http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstars_ala_alz.htm |date=2008-10-25 }}, Hong Kong Space Museum. Accessed on line November 26, 2008.</ref> However, Altair is better known by its other names: ''Qiān Niú Xīng'' ({{lang|zh-hans|牵牛星}} / {{lang|zh-hant|牽牛星}}) or ''Niú Láng Xīng'' ({{lang|zh|牛郎星}}), translated as the ''cowherd star''.<ref>{{Cite book |last=Mayers |first=William Frederick |url=http://archive.org/details/chinesereadersm01mayegoog |title=The Chinese reader's manual: A handbook of biographical, historical ... |publisher=American Presbyterian Mission Press |others=Harvard University |year=1874 |pages=97–98, 161 |author-link=William Frederick Mayers}}</ref><ref name=brown>p. 72, ''China, Japan, Korea Culture and Customs: Culture and Customs'', Ju Brown and John Brown, 2006, {{ISBN|978-1-4196-4893-9}}.</ref> These names are an allusion to a love story, ''[[The Cowherd and the Weaver Girl]]'', in which [[Niulang]] (represented by Altair) and his two children (represented by [[β Aquilae]] and [[γ Aquilae]]) are separated from respectively their wife and mother [[Zhinü]] (represented by Vega) by the [[Milky Way]]. They are only permitted to meet once a year, when magpies form a bridge to allow them to cross the Milky Way.<ref name=brown/><ref>pp. 105–107, ''Magic Lotus Lantern and Other Tales from the Han Chinese'', Haiwang Yuan and Michael Ann Williams, Libraries Unlimited, 2006, {{ISBN|978-1-59158-294-6}}.</ref> In the Japanese version of this legend, celebrated in the [[Tanabata]] festival, Altair is known as ''Hikoboshi'' (彦星).<ref>{{cite web |title=Hikoboshi and Orihime (ひこぼし：彦星 and おりひめ：織姫) |url=https://ase.exopla.net/index.php/Hikoboshi_and_Orihime |website=All Skies Encyclopaedia |publisher=[[IAU Working Group on Star Names]] |access-date=26 May 2025}}</ref>
+
+The people of [[Micronesia]] call Altair ''Mai-lapa'', meaning "big/old breadfruit", while the [[Māori people|Māori]] call this star ''Poutu-te-rangi'', meaning "pillar of heaven".<ref>{{Cite book |last1=Ross |first1=Malcolm |url=https://books.google.com/books?id=bJFfm59fVr4C |title=The Lexicon of Proto-Oceanic: The Culture and Environment of Ancestral Oceanic Society. The physical environment. Volume 2 |last2=Pawley |first2=Andrew |last3=Osmond |first3=Meredith |date=2007-03-01 |publisher=ANU E Press |isbn=978-1-921313-19-6 |page=175 |language=en}}</ref>
+
+In Western [[astrology]], Altair is considered a military star,<ref>{{Cite book |last1=Manilius |first1=Marcus |title=M. Manilii Astronomica |last2=Goold |first2=George P. |date=2012 |publisher=De Gruyter |isbn=978-3-598-71528-0 |edition=2. Aufl., 2nd updated |series=Bibliotheca scriptorum Graecorum et Romanorum Teubneriana |location=Berlin}}</ref> associated with boldness, determination and risk-taking.<ref>{{Cite book |last=Brady |first=Bernadette |title=Star and Planet Combinations |publisher=The Wessex Astrologer |year=2008 |isbn=978-1902405308}}</ref>
+
+This star is one of the asterisms used by [[Bugis]] sailors for navigation, called ''bintoéng timoro'', meaning "eastern star".<ref name="kelley11">{{cite book|author1=Kelley, David H. |author2=Milone, Eugene F. |author3=Aveni, A.F. |title=Exploring Ancient Skies: A Survey of Ancient and Cultural Astronomy|publisher=Springer|location=New York, New York|year=2011|page=344|isbn=978-1-4419-7623-9|url=https://books.google.com/books?id=ILBuYcGASxcC&pg=PA307}}</ref>
+
+A group of [[Japan]]ese scientists [[Message to Altair|sent a radio signal to Altair]] in 1983 with the hopes of contacting extraterrestrial life.<ref>{{cite news |url=https://www.asahi.com/ajw/articles/14985246 |title='Anybody there?' Astronomers waiting for a reply from Altair |date=August 20, 2023 |website= |access-date=2023-08-25 }}</ref>
+
+NASA announced ''Altair'' as the name of the [[Lunar Surface Access Module]] (LSAM) on December 13, 2007.<ref>{{cite news |url=http://www.collectspace.com/news/news-121307a.html |title=NASA names next-gen lunar lander Altair |date=December 13, 2007 |website=.collectSPACE |access-date=2022-08-03 }}</ref> The Russian-made [[Beriev Be-200]] Altair seaplane is also named after the star.<ref>{{cite press release |url=http://www.beriev.com/eng/Pr_rel_e/pr_58e.html |title=Results of the competition for the best personal names for the Be-103 and the Be-200 amphibious aircraft |publisher=[[Beriev Aircraft Company]] |date=February 12, 2003 |access-date=2022-08-03 |archive-date=2021-11-05 |archive-url=https://web.archive.org/web/20211105063444/http://www.beriev.com/eng/Pr_rel_e/pr_58e.html |url-status=dead }}</ref>
+{{clear left}}
+
+==Visual companions==
+The bright primary [[star]] has the [[multiple star]] designation [[Washington Double Star Catalog|WDS]]&nbsp;19508+0852A and has several faint visual companion stars, WDS&nbsp;19508+0852B, C, D, E, F and G.<ref name="wds" /> All are much more distant than Altair and not physically associated.<ref>{{cite DR2}}</ref>
+
+{{Componentbox begin
+|designation=[[Washington Double Star Catalog|WDS]] 19508+0852
+|footnote=<ref name="wds">Entry 19508+0852,
+[http://ad.usno.navy.mil/wds/Webtextfiles/wdsnewframe4.html The Washington Double Star Catalog] {{Webarchive|url=https://web.archive.org/web/20090131051103/http://ad.usno.navy.mil/wds/Webtextfiles/wdsnewframe4.html |date=2009-01-31 }},
+[[United States Naval Observatory]]. Accessed online November 25, 2008.</ref>
+|expanded = yes
+|centered = yes
+}}
+{{Componentbox component
+|letter = B
+|primary = A
+|appmag_v = 9.8
+|epoch = 2015
+|posang= 286
+|angdist= 195.8
+|ra = {{RA|19|50|40.5}}
+|dec = {{DEC|+08|52|13}}
+|radec_footnote = <ref name="sb1">{{SIMBAD link|CCDM+19508%2B0852B|BD+08 4236B -- Star in double system}}, database entry, [[SIMBAD]]. Accessed online November 25, 2008.</ref>
+|simbad = CCDM+19508%2B0852B
+|expanded = yes
+}}
+{{Componentbox component
+|letter = C
+|primary = A
+|appmag_v = 10.3
+|epoch = 2015
+|posang= 110
+|angdist= 186.4
+|ra = {{RA|19|51|00.8}}
+|dec = {{DEC|+08|50|58}}
+|radec_footnote = <ref name="sb2">{{SIMBAD link|CCDM+19508%2B0852C|BD+08 4238 -- Star in double system}}, database entry, [[SIMBAD]]. Accessed online November 25, 2008.</ref>
+|simbad = CCDM+19508%2B0852C
+|expanded = yes
+}}
+{{Componentbox component
+|letter = D
+|primary = A
+|appmag_v = 11.9
+|epoch = 2015
+|posang= 105
+|angdist= 26.8
+|ra =
+|dec =
+|radec_footnote =
+|simbad =
+|expanded = yes
+}}
+{{Componentbox component
+|letter = E
+|primary = A
+|appmag_v = 11.0
+|epoch = 2015
+|posang= 354
+|angdist= 157.3
+|ra =
+|dec =
+|radec_footnote =
+|simbad =
+|expanded = yes
+}}
+{{Componentbox component
+|letter = F
+|primary = A
+|appmag_v = 10.3
+|epoch = 2015
+|posang= 48
+|angdist= 292.4
+|ra = {{RA|19|51|02.0}}
+|dec = {{DEC|+08|55|33}}
+|radec_footnote =
+|simbad = CCDM+19510%2B0856AB
+|expanded = yes
+}}
+{{Componentbox component
+|letter = G
+|primary = A
+|appmag_v = 13.0
+|epoch = 2015
+|posang= 121
+|angdist= 185.1
+|ra =
+|dec =
+|radec_footnote =
+|simbad =
+|expanded = yes
+}}
+{{Componentbox end}}
+
+==See also==
+* [[Historical brightest stars]]
+* [[Lists of stars]]
+* [[List of brightest stars]]
+* [[List of nearest bright stars]]
+* [[List of most luminous stars]]
+
+== Notes ==
+{{reflist|group=nb}}
+
+==References==
+{{Reflist|refs=
+
+<ref name=bouchaud2020>{{cite journal |bibcode=2020A&A...633A..78B |title=A realistic two-dimensional model of Altair |last1=Bouchaud |first1=K. |last2=Domiciano De Souza |first2=A. |last3=Rieutord |first3=M. |last4=Reese |first4=D. R. |last5=Kervella |first5=P. |journal=Astronomy and Astrophysics |year=2020 |volume=633 |pages=A78 |doi=10.1051/0004-6361/201936830  |doi-access=free|arxiv=1912.03138 |s2cid=208857428 }}</ref>
+
+<ref name=Rieutord2024>{{Cite journal |last1=Rieutord |first1=Michel |last2=Reese |first2=Daniel R. |last3=Mombarg |first3=Joey S. G. |last4=Charpinet |first4=Stéphane |date=2024-07-01 |title=An improved asteroseismic age of the rapid rotator Altair from TESS data  |journal=[[Astronomy & Astrophysics]] |language=en |volume=687 |pages=A259 |doi=10.1051/0004-6361/202449833  |doi-access=free|arxiv=2406.09220 |bibcode=2024A&A...687A.259R |issn=0004-6361}}</ref>
+
+<ref name=aaa474_2_653>{{Cite journal | last1=van Leeuwen | first1=F. | title=Validation of the new Hipparcos reduction | journal=Astronomy and Astrophysics | volume=474 | issue=2 |date=November 2007 | pages=653–664 | doi=10.1051/0004-6361:20078357  | doi-access=free| bibcode=2007A&A...474..653V | arxiv=0708.1752 | s2cid=18759600 }}</ref>
+
+<ref name=aass85_3_1015>{{Cite journal | last1=Malagnini | first1=M. L. | last2=Morossi | first2=C. | title=Accurate absolute luminosities, effective temperatures, radii, masses and surface gravities for a selected sample of field stars | journal=Astronomy and Astrophysics Supplement Series | volume=85 | issue=3 | pages=1015–1019 |date=November 1990 | bibcode=1990A&AS...85.1015M }}</ref>
+
+<ref name=bsc1>{{cite web
+ | title=HR 7557, database entry
+ | url=http://webviz.u-strasbg.fr/viz-bin/VizieR-5?-out.add=.&-source=V/50/catalog&recno=7557
+ | work=The Bright Star Catalogue | edition=5th Revised Ed. (Preliminary Version)
+ | first1=D. | last1=Hoffleit | first2=W. H. | last2=Warren, Jr.
+ | publisher=[[Centre de Données astronomiques de Strasbourg|CDS]]
+ | access-date=2008-11-25 }} ID [https://vizier.u-strasbg.fr/viz-bin/Cat?V/50 V/50]</ref>
+
+<ref name=sb0>{{SIMBAD link|alf+aql|NAME ALTAIR -- Variable Star of delta Sct type}}, database entry, [[SIMBAD]]. Accessed on line November 25, 2008.</ref>
+
+<ref name=darlingaltair>{{cite web |url=https://www.daviddarling.info/encyclopedia/A/Altair.html |title=Altair |website=The Internet Encyclopedia of Science |author=David Darling |access-date=2022-08-03 }}</ref>
+
+<ref name=peterson06>{{cite journal | doi = 10.1086/497981| title = Resolving the Effects of Rotation in Altair with Long-Baseline Interferometry| year = 2006| last1 = Peterson| first1 = D. M.| last2 = Hummel| first2 = C. A.| last3 = Pauls| first3 = T. A.| last4 = Armstrong| first4 = J. T.| last5 = Benson| first5 = J. A.| last6 = Gilbreath| first6 = G. C.| last7 = Hindsley| first7 = R. B.| last8 = Hutter| first8 = D. J.| last9 = Johnston| first9 = K. J.| last10 = Mozurkewich| first10 = D.| last11 = Schmitt| first11 = H.| display-authors=3 | journal = The Astrophysical Journal| volume = 636| issue = 2| pages = 1087–1097| arxiv = astro-ph/0509236| bibcode = 2006ApJ...636.1087P| s2cid = 18683397}} See Table 2 for stellar parameters.</ref>
+
+<ref name=robrade2009>{{Cite journal | title=Altair - the "hottest" magnetically active star in X-rays | last1=Robrade | first1=J. | last2=Schmitt | first2=J. H. M. M. | journal=Astronomy and Astrophysics | volume=497 | issue=2 | pages=511–520 | date=April 2009 | doi=10.1051/0004-6361/200811348  | doi-access=free| bibcode=2009A&A...497..511R | arxiv=0903.0966 | s2cid=14320453 }}</ref>
+
+<ref name=gray_et_al_2003>{{Cite journal
+ | title=Contributions to the Nearby Stars (NStars) Project: Spectroscopy of Stars Earlier than M0 within 40 Parsecs: The Northern Sample. I
+ | last1=Gray | first1=R. O. | last2=Corbally | first2=C. J.
+ | last3=Garrison | first3=R. F. | last4=McFadden | first4=M. T.
+ | last5=Robinson | first5=P. E. | display-authors=1
+ | journal=The Astronomical Journal
+ | volume=126 | issue=4 | pages=2048 | year=2003
+ | bibcode=2003AJ....126.2048G | doi=10.1086/378365
+ | arxiv=astro-ph/0308182 | s2cid=119417105 }}</ref>
+
+<ref name=zorec2012>{{cite journal |last1=Zorec |first1=J. |last2=Royer |first2=F. |title=Rotational velocities of A-type stars. IV. Evolution of rotational velocities |journal=Astronomy and Astrophysics |date=2012 |volume=537 |pages=A120 |doi=10.1051/0004-6361/201117691  |doi-access=free|arxiv=1201.2052 |bibcode=2012A&A...537A.120Z }}</ref>
+
+}}
+
+==External links==
+{{Commons category}}
+* [https://web.archive.org/web/20090414054427/http://origins.jpl.nasa.gov/library/story/072501-a.html Star with Midriff Bulge Eyed by Astronomers], JPL press release, July 25, 2001.
+* [https://sl.voxastro.org/library/UVES-POP/details/?star=Altair Spectrum of Altair]
+* [http://www.astro.lsa.umich.edu/~monnier/Altair2007/altair2007.html Imaging the Surface of Altair], University of Michigan news release detailing the CHARA array direct imaging of the stellar surface in 2007.
+* [http://photojournal.jpl.nasa.gov/catalog/PIA04204 PIA04204: Altair], NASA. Image of Altair from the [[Palomar Testbed Interferometer]].
+* [https://web.archive.org/web/20010208230007/http://www.solstation.com/stars/altair.htm Altair], ''SolStation''.
+* [http://news.bbc.co.uk/2/hi/science/nature/6709345.stm Secrets of Sun-like star probed], ''BBC News'', June 1, 2007.
+* [http://www.astromart.com/news/news.asp?news_id=697 Astronomers Capture First Images of the Surface Features of Altair] {{Webarchive|url=https://web.archive.org/web/20090629063240/http://www.astromart.com/news/news.asp?news_id=697 |date=2009-06-29 }}, ''Astromart.com''
+* [http://aladin.u-strasbg.fr/AladinPreview?-c=NAME+ALTAIR&ident=NAME+ALTAIR&submit=Aladin+previewer Image of Altair] from [[Aladin Sky Atlas|Aladin]].
+
+{{Nearest systems|4}}
+{{Stars of Aquila}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+{{Sky|19|50|46.9990|+|08|52|05.959|17}}
+{{Authority control}}
+
+<!-- Properties -->
+[[Category:Altair| ]]
+[[Category:A-type main-sequence stars]]
+[[Category:Delta Scuti variables]]
+[[Category:Multiple stars|4]]
+[[Category:G-Cloud]]
+<!-- Location/catalogues -->
+[[Category:Aquila (constellation)]]
+[[Category:Bayer objects|Aquilae, Alpha]]
+[[Category:Bright Star Catalogue objects|7557]]
+[[Category:Durchmusterung objects|BD+08 4236]]
+[[Category:Flamsteed objects|Aquilae, 53]]
+[[Category:Gliese and GJ objects|0768]]
+[[Category:Henry Draper Catalogue objects|187642]]
+[[Category:Hipparcos objects|097649]]
+[[Category:Stars with proper names|Altair]]
+[[Category:Astronomical objects known since antiquity]]
+[[Category:Lucidae]]

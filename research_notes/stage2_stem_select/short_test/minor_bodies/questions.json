@@ -1,0 +1,222 @@
+[
+  {
+    "id": "mb-01",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "16 프시케",
+    "question": "천체 16 프시케의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "2.921 AU",
+    "value": 2.921,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "16 프시케",
+        "quote": "궤도 긴반지름(a): 2.921"
+      }
+    ],
+    "en_check": {
+      "en_title": "16 Psyche",
+      "en_value": 2.92,
+      "en_text": "{{Convert|2.92|AU|e6km|abbr=unit}}",
+      "diff_pct": 0.0342
+    }
+  },
+  {
+    "id": "mb-02",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "4 베스타",
+    "question": "천체 4 베스타의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "2.361 AU",
+    "value": 2.361,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "4 베스타",
+        "quote": "궤도 긴반지름(a): 2.361"
+      }
+    ],
+    "en_check": {
+      "en_title": "4 Vesta",
+      "en_value": 2.36,
+      "en_text": "{{Convert|2.36|AU|e6km|abbr=unit}}",
+      "diff_pct": 0.0424
+    }
+  },
+  {
+    "id": "mb-03",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "99942 아포피스",
+    "question": "천체 99942 아포피스의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "0.922 AU",
+    "value": 0.922,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "99942 아포피스",
+        "quote": "궤도 긴반지름(a): 0.922"
+      }
+    ],
+    "en_check": {
+      "en_title": "99942 Apophis",
+      "en_value": 0.9224,
+      "en_text": "{{Convert|0.9224|AU|e6km|abbr=unit}}",
+      "diff_pct": 0.0434
+    }
+  },
+  {
+    "id": "mb-04",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "3 주노",
+    "question": "천체 3 주노의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "2.668 AU",
+    "value": 2.668,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "3 주노",
+        "quote": "궤도 긴반지름(a): 2.668"
+      }
+    ],
+    "en_check": {
+      "en_title": "3 Juno",
+      "en_value": 2.67,
+      "en_text": "{{Convert|2.67|AU|e6km|abbr=unit}}",
+      "diff_pct": 0.0749
+    }
+  },
+  {
+    "id": "mb-05",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "433 에로스",
+    "question": "천체 433 에로스의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "1.458 AU",
+    "value": 1.458,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "433 에로스",
+        "quote": "궤도 긴반지름(a): 1.458"
+      }
+    ],
+    "en_check": {
+      "en_title": "433 Eros",
+      "en_value": 1.4579,
+      "en_text": "1.4579&nbsp;AU",
+      "diff_pct": 0.0069
+    }
+  },
+  {
+    "id": "mb-06",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "25143 이토카와",
+    "question": "천체 25143 이토카와의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "1.324 AU",
+    "value": 1.324,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "25143 이토카와",
+        "quote": "궤도 긴반지름(a): 1.324"
+      }
+    ],
+    "en_check": {
+      "en_title": "25143 Itokawa",
+      "en_value": 1.3241,
+      "en_text": "1.3241 AU",
+      "diff_pct": 0.0076
+    }
+  },
+  {
+    "id": "mb-07",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "225088 공공",
+    "question": "천체 225088 공공의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "67.485 AU",
+    "value": 67.485,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "225088 공공",
+        "quote": "궤도 긴반지름(a): 67.485 AU (10.0956 Tm)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Gonggong (dwarf planet)",
+      "en_value": 66.895,
+      "en_text": "{{cvt|66.895|AU|Tm}}",
+      "diff_pct": 0.882
+    }
+  },
+  {
+    "id": "mb-08",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "2 팔라스",
+    "question": "천체 2 팔라스의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "2.773 AU",
+    "value": 2.773,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "2 팔라스",
+        "quote": "궤도 긴반지름(a): 2.773"
+      }
+    ],
+    "en_check": {
+      "en_title": "2 Pallas",
+      "en_value": 2.77,
+      "en_text": "{{Convert|2.77|AU|e6km|abbr=unit}}",
+      "diff_pct": 0.1083
+    }
+  },
+  {
+    "id": "mb-09",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "세레스",
+    "question": "천체 세레스의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "2.765926424 AU",
+    "value": 2.765926424,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "세레스 (왜행성)",
+        "quote": "궤도 긴반지름(a): 2.765926424"
+      }
+    ],
+    "en_check": {
+      "en_title": "Ceres (dwarf planet)",
+      "en_value": 2.76604,
+      "en_text": "{{Convert|{{sigfig|2.76604|3}}|AU|e6km|abbr=unit}}",
+      "diff_pct": 0.0041
+    }
+  },
+  {
+    "id": "mb-10",
+    "kind": "값",
+    "subject": "왜행성·소행성",
+    "target": "951 가스프라",
+    "question": "천체 951 가스프라의 궤도 긴반지름은 몇 AU인가?",
+    "answer": "2.210 AU",
+    "value": 2.21,
+    "unit": "AU",
+    "evidence_quotes": [
+      {
+        "doc": "951 가스프라",
+        "quote": "궤도 긴반지름(a): 2.210"
+      }
+    ],
+    "en_check": {
+      "en_title": "951 Gaspra",
+      "en_value": 2.2099,
+      "en_text": "2.2099 AU",
+      "diff_pct": 0.0045
+    }
+  }
+]

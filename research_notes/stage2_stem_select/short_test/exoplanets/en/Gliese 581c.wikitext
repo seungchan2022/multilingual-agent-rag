@@ -1,0 +1,237 @@
+{{Short description|Super-Earth exoplanet orbiting Gliese 581}}
+{{Use dmy dates|date=August 2018}}
+{{good article}}
+{{Infobox planet
+| name                     = Gliese 581c
+| image                    = Exoplanet Comparison Gliese 581 c.png
+| caption                  = Size comparison of Gliese 581c with Earth and Neptune
+<br/>(based on selected hypothetical [[:File:Exoplanet Comparison Gliese 581 c.png#Summary|modeled compositions]]){{efn|The estimated range of sizes in this image from 2009 is based on the planet's [[minimum mass]]. Since the true mass is now known to be somewhat greater, the sizes are likely underestimated, especially if the planet has a hydrogen atmosphere.}}
+<!-- DISCOVERY           -->
+| discovery_ref            = <ref name="udry"/>
+| discoverer               = [[Stéphane Udry]] et al.
+| discovery_site           = [[La Silla Observatory]]
+| discovered               = {{plainlist|
+*4 April 2007
+*24 April 2007 <small>(announced)</small>}}
+| discovery_method         = [[Doppler spectroscopy|Radial velocity]]
+<!-- DESIGNATIONS        -->
+<!-- ORBITAL             -->
+| orbit_ref                = <ref name="vonStauffenberg2024"/>
+| apsis                    = astron
+| semimajor                = {{val|0.0718|0.0008|0.0009|ul=AU}}
+| eccentricity             = {{val|0.032|0.027|0.021}}
+| period                   = {{val|12.9211|0.0008|0.0007|ul=d}}
+| inclination              = {{val|47|15|13|u=deg}}
+| time_periastron          = 2454759.2 ± 0.1<ref name="robertson2014"/>
+| arg_peri                 = {{val|16|61|89|u=deg}}
+| semi-amplitude           = {{val|3.1|0.1|ul=m/s}}
+| star                     = [[Gliese 581]]
+<!-- PHYS CHARS          -->
+| physical_ref             = <ref name="vonStauffenberg2024"/>
+| mass                     = {{val|6.81|0.21|1.16|ul=Earth mass}}
+<!-- ATMOSPHERE          -->
+<!-- NOTES               -->
+}}
+'''Gliese 581c''' ({{IPAc-en|ˈ|ɡ|l|iː|z|ə}}; '''Gl 581c''' or '''GJ 581c''') is an [[exoplanet]] orbiting within the [[Gliese 581]] system. It is the second planet discovered in the system and the third in order from the [[star]]. With a mass about 6.8 times that of the [[Earth]], it is classified as a [[super-Earth]] (a category of planets with masses greater than Earth's up to ten Earth masses).
+
+At the time of its discovery in 2007, Gliese 581c gained interest from astronomers because it was reported to be the first potentially Earth-like planet in the [[habitable zone]] of its star, with a temperature right for liquid water on its surface, and, by extension, potentially capable of supporting [[extremophile]] forms of Earth-like life. However, further research cast doubt upon the planet's [[habitability]]. Based on newer models of the habitable zone, the planet is likely too hot to be potentially habitable.<ref name="blo07"/><ref name="robertson2014"/>
+
+In astronomical terms, the Gliese 581 system is relatively close to Earth, at {{Convert|20.55|ly|e12km e12mi|0|abbr=off|lk=in}} in the direction of the [[constellation]] of [[Libra (constellation)|Libra]]. This distance, along with the [[declination]] and [[right ascension]] coordinates, give its exact location in the [[Milky Way]].
+
+== Discovery ==
+The team released a paper of their findings dated 27 April 2007, published in the July 2007 journal ''[[Astronomy & Astrophysics]]''.<ref name="udry"/> At the time of discovery, it was reported to be the first potentially Earth-like planet in the [[habitable zone]] of its star<ref name="space.com"/><ref>{{cite news | url=http://www.space.com/scienceastronomy/070424_exoplanet_side.html | title=Planet Hunters Edge Closer to Their Holy Grail | last=Than | first=Ker | date=24 February 2007 | publisher=space.com | access-date=29 April 2007 | archive-date=13 December 2010 | archive-url=https://web.archive.org/web/20101213185629/http://www.space.com/scienceastronomy/070424_exoplanet_side.html | url-status=live }}</ref> and the smallest-known [[exoplanet]] around a [[main sequence|main-sequence]] star, but on 21 April 2009, another planet orbiting Gliese 581, [[Gliese 581e]], with an approximate mass of 1.9 [[Earth mass]]es, was announced. In the paper, they also announced the discovery of another planet in the system, [[Gliese 581d]], with a minimum mass of 7.7 Earth masses and a [[semi-major axis]] of 0.25 [[astronomical unit]]s.<ref name="Mayor2009"/><ref name="robertson2014"/>
+
+== Physical characteristics ==
+
+=== Mass ===
+The existence of Gliese 581c and its mass have been measured by the [[Methods of detecting exoplanets#Radial velocity|radial velocity method]] of detecting [[exoplanet]]s. The mass of a planet is calculated by the small periodic movements around a common centre of mass between the host star Gliese 581 and its planets. When all planets are fitted with a [[Kepler's laws of planetary motion|Keplerian]] solution, the [[minimum mass]] of the planet is determined to be 5.5 Earth masses.<ref name="robertson2014"/> The radial velocity method cannot by itself determine the true mass, but it cannot be very much larger than this or the system would be dynamically unstable.<ref name="udry"/> Dynamical simulations of the Gliese 581 system which assume the orbits of the planets are [[coplanar]] indicate that the planets cannot exceed approximately 1.6 to 2 times their minimum masses or the planetary system would be unstable (this is primarily due to the interaction between planets e and b). For Gliese 581c, the upper bound is 10.4 Earth masses.<ref name="Mayor2009"/>
+
+A 2024 study determined the inclination of the planet, allowing its true mass to be determined, which is about 30% greater than the minimum mass at about 6.8 [[Earth mass]]es.<ref name="vonStauffenberg2024"/>
+
+=== Radius ===
+Since Gliese 581c has not been detected in transit, there are no measurements of its radius. Furthermore, the [[radial velocity method]] used to detect it only puts a lower limit on the planet's mass, which means theoretical models of planetary radius and structure can only be of limited use. However, assuming a random orientation of the planet's orbit, the true mass is likely to be close to the measured minimum mass.
+
+Assuming that the true mass is the minimum mass, the radius may be calculated using various models. For example, if Gliese 581c is a [[rock (geology)|rocky]] planet with a large iron core, it should have a radius approximately 50% larger than that of Earth, according to Udry's team.<ref name="udry"/><ref name="ESOAstronomy"/> [[Gravity]] on such a planet's surface would be approximately 2.24 times as strong as on Earth. However, if Gliese 581c is an [[Ice|icy]] and/or [[water]]y planet, its radius would be less than 2 times that of Earth, even with a very large outer [[hydrosphere]], according to density models compiled by Diana Valencia and her team for [[Gliese 876 d]].<ref>{{cite journal |author=Valencia |title=Radius and Structure Models of the First Super-Earth Planet | year=2007 |journal=[[The Astrophysical Journal]]|volume=656|issue=1|pages=545–551|doi=10.1086/509800 |last2=Sasselov |first2=Dimitar D. |last3=O'Connell |first3=Richard J. |bibcode=2007ApJ...656..545V|arxiv = astro-ph/0610122 |s2cid=17656317 }}</ref> Gravity on the surface of such an icy and/or watery planet would be at least 1.25 times as strong as on Earth.
+They claim the real value of the radius may be anything between the two extremes calculated by density models outlined above.<ref>{{cite journal | bibcode=2007ApJ...665.1413V |last1=Valencia |first1=D. |title=Detailed Models of Super-Earths: How Well Can We Infer Bulk Properties? |journal = [[The Astrophysical Journal]] | volume=665 | issue=2 | date=2007 | pages=1413–1420 | doi=10.1086/519554 | last2=Sasselov | first2=Dimitar D. | last3=O’Connell | first3=Richard J.|arxiv = 0704.3454 |s2cid=15605519 }}</ref>
+
+Other scientists' views differ. [[Sara Seager]] at MIT has speculated that Gliese 581c and other five-Earth-mass planets could be:<ref>{{cite journal | url=https://pqasb.pqarchiver.com/skyandtelescope/access/1478225761.html?dids=1478225761&FMT=ABS&FMTS=ABS&date=Jan+2008&author=Sara+Seager&desc=Alien+Earths+from+A+to+Z | author=Seager | series=ISSN | title=Alien Earths from A to Z | journal=[[Sky & Telescope]] | volume=0037-6604 | issue=January | date=2008 | pages=22–25 | bibcode=2008S&T...115a..22S | access-date=6 July 2017 | archive-date=15 August 2009 | archive-url=https://web.archive.org/web/20090815031622/http://pqasb.pqarchiver.com/skyandtelescope/access/1478225761.html?dids=1478225761&FMT=ABS&FMTS=ABS&date=Jan+2008&author=Sara+Seager&desc=Alien+Earths+from+A+to+Z | url-status=dead }}</ref>
+
+* "rock giants" mostly of [[silicate]];
+* "cannonball" planets of solid [[iron]];
+* "gas dwarfs" mostly of [[helium]] and [[hydrogen]];
+* carbon-rich "[[diamond]] worlds";
+* purely hot "[[ice VII]] worlds";
+* purely "[[carbon monoxide]] worlds".
+
+If the planet transits the star as seen from the direction of the Earth, the radius should be measurable, albeit with some uncertainty. Unfortunately, measurements made with the Canadian-built [[MOST (spacecraft)|MOST]] space telescope indicate that transits do not occur.<ref name="Spaceref.com"/>
+
+The new research suggests that the rocky centres of super-Earths are unlikely to evolve into terrestrial rocky planets like the inner planets of the Solar System because they appear to hold onto their large atmospheres. Rather than evolving to a planet composed mainly of rock with a thin atmosphere, the small rocky core remains engulfed by its large hydrogen-rich envelope.<ref>{{cite web|last=Black|first=Charles|title=Super-Earths are more like mini-Neptunes|url=http://sen.com/news/super-earths-could-be-more-like-mini-neptunes.html|access-date=14 March 2013|archive-date=14 March 2013|archive-url=https://web.archive.org/web/20130314060226/http://www.sen.com/news/super-earths-could-be-more-like-mini-neptunes.html|url-status=live}}</ref><ref>{{cite journal|last=Lammer|first=Helmut|title=Probing the blow-off criteria of hydrogen-rich 'super-Earths'|publisher=Royal Astronomical Society|doi=10.1093/mnras/sts705|volume=430|journal=Monthly Notices of the Royal Astronomical Society|pages=1247–1256|arxiv = 1210.0793 |bibcode = 2013MNRAS.430.1247L|year=2013 |issue=2|doi-access=free |s2cid=55890198}}</ref>
+
+=== Orbit ===
+[[File:GJ581orbits.svg|thumb|250px|The orbits of the [[Gliese 581]] system, as per the 2009 four-planet model. In the picture, Gliese 581c is the third planet from the star.]]
+Gliese 581c has an [[orbital period]] ("year") of 13 Earth days<ref name="BBC1"/> and its orbital radius is only about 7% that of the Earth, about 11 million km,<ref>{{cite news | last = Overbye | first = Dennis | title = 20 light years away, the most Earthlike planet yet | publisher = International Herald Tribune | date = 25 April 2007 | url = http://www.iht.com/articles/2007/04/25/news/planet.php | access-date = 10 May 2007 | archive-date = 27 April 2007 | archive-url = https://web.archive.org/web/20070427004440/http://www.iht.com/articles/2007/04/25/news/planet.php | url-status = live }}</ref> while the Earth is 150 million km from the [[Sun]].<ref>{{cite web | title = Earth Fact Sheet | publisher = NASA | url = http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | access-date = 21 December 2015 | archive-date = 8 May 2013 | archive-url = https://web.archive.org/web/20130508021904/http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | url-status = live }}</ref> Since the host star is smaller and colder than the Sun—and thus less luminous—this distance places the planet on the "warm" edge of the habitable zone around the star according to Udry's team.<ref name="udry"/><ref name="ESOAstronomy"/> Note that in astrophysics, the "habitable zone" is defined as the range of distances from the star at which a planet could support liquid water on its surface: it should not be taken to mean that the planet's environment would be suitable for humans, a situation which requires a more restrictive range of parameters. In any case, based on newer models of the habitable zone, the planet is likely too hot to be potentially habitable.<ref name="blo07"/><ref name="robertson2014"/>
+
+A typical radius for an M0 star of Gliese 581's age and [[metallicity]] is 0.00128 AU,<ref>{{cite journal| title=Evolutionary tracks and isochrones for low- and intermediate-mass stars: From 0.15 to {{Solar mass|7}}, and from Z=0.0004 to 0.03 |author=Girardi L. |author2=Bressan A. |author3=Bertelli G. |author4=Chiosi C.|journal=Astron. Astrophys. Suppl. Ser.|volume=141| issue=3|pages=371–383|date=2000| doi=10.1051/aas:2000126|arxiv = astro-ph/9910164 |bibcode = 2000A&AS..141..371G |s2cid=14566232 }}</ref> against the Sun's 0.00465 AU. This proximity means that the primary star should appear 3.75 times wider and 14 times larger in area for an observer on the planet's surface looking at the sky than the Sun appears to be from Earth's surface.
+
+=== Tidal lock ===
+Because of its small separation from Gliese 581, the planet has been generally considered to always have one [[Sphere|hemisphere]] facing the star (only day), and the other always facing away (only night), or in other words being [[tidally locked]].<ref>{{cite news | first = Dan | last = Vergano | title = Out of our world: Earthlike planet | publisher = USA Today | date = 25 April 2007 | url = https://www.usatoday.com/printedition/news/20070425/1a_bottomstrip25_dom.art.htm | access-date = 10 May 2007 | archive-date = 23 May 2011 | archive-url = https://web.archive.org/web/20110523021921/http://www.usatoday.com/printedition/news/20070425/1a_bottomstrip25_dom.art.htm | url-status = live }}</ref><ref>[[#Selsis|Selsis 2.4.1]] "becomes tidally locked in less than 1 Gyr. "</ref> The most recent orbital fit to the system, taking stellar activity into account indicates a nearly [[circular orbit]],<ref name="vonStauffenberg2024"/> but older fits used an eccentricity between 0.10 and 0.22. If the orbit of the planet were eccentric, it would undergo violent tidal flexing.<ref>{{cite journal|author=Beust, H.|display-authors=etal|title=Dynamical evolution of the Gliese 581 planetary system|journal=[[Astronomy and Astrophysics]]|volume=479|issue=1|date=2008|pages=277–282|doi=10.1051/0004-6361:20078794|doi-access=free|bibcode=2008A&A...479..277B|arxiv = 0712.1907 |s2cid=119152085}}</ref> Because tidal forces are stronger when the planet is close to the star, eccentric planets are expected to have a rotation period that is shorter than its orbital period, also called pseudo-synchronization.<ref>{{cite journal|author = Hut, P.|title=Tidal Evolution in Close Binary Systems|journal=Astronomy and Astrophysics|volume=99|issue=1|date=1981|pages=126–140|bibcode=1981A&A....99..126H}}</ref> An example of this effect is seen in [[Mercury (planet)|Mercury]], which is tidally locked in a 3:2 resonance, completing three rotations every two orbits. In any case, even in the case of 1:1 tidal lock, the planet would undergo [[libration]] and the terminator would be alternatively lit and darkened during libration.<ref>{{cite news |first=David |last=Perlman |title=New planet found: It might hold life |url=http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/04/24/BAG33PE14U26.DTL |work=[[San Francisco Chronicle]] |date=24 April 2007 |access-date=24 April 2007 |archive-date=27 April 2007 |archive-url=https://web.archive.org/web/20070427094504/http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/04/24/BAG33PE14U26.DTL |url-status=dead }}</ref>
+
+Models of the evolution of the planet's orbit over time suggest that [[tidal heating|heating]] resulting from this tidal locking may play a major role in the planet's geology. Models proposed by scientists predict that tidal heating could yield a surface heat flux about three times greater than that of [[Jupiter]]'s moon [[Io (moon)|Io]], which could result in major geological activity such as volcanoes and plate tectonics.<ref>{{cite journal|title=Tidal Heating of Extra-Solar Planets| first= Brian| last= Jackson|author2=Richard Greenberg |author3=Rory Barnes | journal=Astrophysical Journal| date=2008|doi=10.1086/587641|volume=681|issue=2|pages=1631–1638 | arxiv=0803.0026| bibcode=2008ApJ...681.1631J| s2cid= 42315630}}</ref>
+
+== Habitability and climate ==
+The study of Gliese 581c by the von Bloh et al. team is quoted as concluding "The super-Earth Gl 581c is clearly outside the habitable zone, since it is too close to the star."<ref name="blo07"/> The study by Selsis et al. states that "a planet in the habitable zone is not necessarily habitable" itself, and this planet "is outside what can be considered the conservative habitable zone" of the parent star, and further that if there was any water there then it was lost when the red dwarf was a strong X-ray and EUV emitter, it could have surface temperatures ranging from {{cvt|700|to|1000|K|C|lk=on}}, like [[Venus]] today.<ref>{{cite journal |doi=10.1051/0004-6361:20078091  |doi-access=free|bibcode=2007A&A...476.1373S |title=Habitable planets around the star Gl 581? |journal=[[Astronomy and Astrophysics]] |volume=476 |issue=3 |year=2007 |pages=1373–1387 |last1=Selsis |first1=Franck |last2=Kasting |first2=James F. |last3=Levrard |first3=Benjamin |last4=Paillet |first4=Jimmy |last5=Ribas |first5=Ignasi |last6=Delfosse |first6=Xavier |arxiv=0710.5294 |s2cid=11492499 |ref=Selsis |url=https://hal.archives-ouvertes.fr/hal-00182743 |access-date=4 November 2018 |archive-date=4 November 2018 |archive-url=https://web.archive.org/web/20181104170049/https://hal.archives-ouvertes.fr/hal-00182743 |url-status=live }}</ref> Temperature speculations by other scientists were based on the temperature of (and heat from) the parent star [[Gliese 581]] and have been calculated without factoring in the margin of error (96&nbsp;°C/K) for the star's temperature of 3,432 K to 3,528 K, which leads to a large [[irradiance]] range for the planet, even before eccentricity is considered.<ref>{{cite journal | author=Bean, J. L. | author2=Benedict, G. F. | author3=Endl, M. | title=Metallicities of M Dwarf Planet Hosts from Spectral Synthesis | journal=The Astrophysical Journal | date=2006 | volume=653 | issue=1 | pages=L65–L68 | bibcode=2006ApJ...653L..65B | doi=10.1086/510527 |arxiv = astro-ph/0611060 | s2cid=16002711 }}</ref>
+
+=== Effective temperatures ===
+Using the measured stellar luminosity of Gliese 581 of 0.013 times that of the Sun, it is possible to calculate Gliese 581c's [[effective temperature]], a.k.a. [[black body]] temperature, which probably differs from its [[Planetary equilibrium temperature|surface temperature]].{{citation needed|date=July 2021}} According to Udry's team, the effective temperature for Gliese 581c, assuming an [[albedo]] (reflectivity) such as that of Venus (0.64), would be {{cvt|-3|C|0|lk=out}}, and assuming an Earth-like albedo (0.296), it would be {{cvt|40|C}},<ref name="udry"/><ref name="BBC1"/> a range of temperatures that overlap with the [[Orders of magnitude (temperature)#liquid water|range at which water would be liquid at a pressure of 1 atmosphere]]. However, the effective temperature and actual surface temperature can be very different due to the greenhouse properties of the planetary atmosphere. For example, Venus has an effective temperature of {{cvt|-41|C}}, but a surface temperature of {{cvt|464|C}} (mainly due to a 96.5% [[Atmosphere of Venus|carbon dioxide atmosphere]]), a difference of about {{cvt|505|C-change|F-change|-1}}.<ref>{{cite web|url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html|title=Venus Fact Sheet|publisher=NASA|access-date=20 September 2008|archive-date=8 March 2016|archive-url=https://web.archive.org/web/20160308174416/http://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html|url-status=live}}</ref> 
+
+Studies of habitability (i.e. liquid water for [[extremophile]] forms of life)<ref>[[#Selsis|Selsis 5.]] "Gl 581c is very unlikely to be habitable"</ref> conclude that Gliese 581c is likely to suffer from a [[runaway greenhouse effect]] similar to that found on [[Atmosphere of Venus|Venus]] and, as such, is highly unlikely to be habitable. Nevertheless, this runaway greenhouse effect could be prevented by the presence of sufficient reflective cloud cover on the planet's day side.<ref>[[#Selsis|Selsis 3.1]] "would be habitable only if clouds with the highest reflectivity covered most of the daytime hemisphere. "</ref> Alternatively, if the surface were covered in ice, it would have a high [[albedo]] (reflectivity), and thus could reflect enough of the incident sunlight back into space to render the planet too cold for habitability, although this situation is expected to be very unstable except for very high albedos greater than about 0.95 (i.e. ice): release of [[carbon dioxide]] by volcanic activity or of water vapor due to heating at the substellar point would trigger a runaway greenhouse effect.<ref>[[#Selsis|Selsis 3.1.2]]</ref>
+
+=== Liquid water ===
+Gliese 581c is likely to lie outside the [[habitable zone]].<ref name="blo07"/><ref>[[#Selsis|Selsis]] Abstract, 3. Figure 4.</ref> No direct evidence has been found for [[water]] to be present, and it is probably not present in the liquid state. Techniques like the one used to measure the extrasolar planet [[HD 209458 b]] may in the future be used to determine the presence of water in the form of vapor in the planet's [[atmosphere]], but only in the rare case of a planet with an orbit aligned so as to [[Astronomical transit|transit]] its star, which Gliese 581c is not known to do.<ref name="Spaceref.com"/>
+
+=== Tidally locked models ===
+Theoretical models predict that volatile [[Chemical compound|compounds]] such as [[water (molecule)|water]] and [[carbon dioxide]], if present, might evaporate in the scorching heat of the sunward side, migrate to the cooler night side, and condense to form [[ice cap]]s. Over time, the entire atmosphere might freeze into ice caps on the night side of the planet. However, it remains unknown if water and/or carbon dioxide are even present on the surface of Gliese 581c. Alternatively, an atmosphere large enough to be stable would circulate the heat more evenly, allowing for a wider habitable area on the surface.<ref>{{cite journal | url=http://www.sciam.com/article.cfm?chanID=sa004&articleID=000CC344-B043-1353-AF3383414B7FFE9F | title=Red Star Rising | last=Alpert | first=Mark | date=7 November 2005 | volume=293 | issue=5 | page=28 | journal=Scientific American | doi=10.1038/scientificamerican1105-28 | pmid=16318021 | bibcode=2005SciAm.293e..28A | access-date=25 April 2007 | archive-url=https://web.archive.org/web/20071012142513/http://www.sciam.com/article.cfm?chanID=sa004&articleID=000CC344-B043-1353-AF3383414B7FFE9F | archive-date=12 October 2007 | url-status=dead | url-access=subscription }}</ref> For example, although [[Venus]] has a small axial inclination, very little sunlight reaches the surface at the poles. A slow rotation rate approximately 117 times slower than Earth's produces prolonged days and nights. Despite the uneven distribution of sunlight cast on Venus at any given time, polar areas and the night side of Venus are kept almost as hot as on the day side by globally circulating winds.<ref>{{cite web|title=Titan, Mars and Earth: Entropy Production by Latitudinal Heat Transport|author=Ralph D Lorenz|author2=Jonathan I Lunine|author3=Paul G Withers|author4=Christopher P McKay|work=[[Ames Research Center]], University of Arizona Lunar and Planetary Laboratory|url=http://sirius.bu.edu/withers/pppp/pdf/mepgrl2001.pdf|date=2001|access-date=21 August 2007|archive-date=9 October 2019|archive-url=https://web.archive.org/web/20191009162319/http://sirius.bu.edu/withers/pppp/pdf/mepgrl2001.pdf|url-status=live}}</ref>
+<!-- == Future observations == 
+Any one who has the time to look at current information an plans feel free write a NEW SECTION, but please don't return the old paragraphs which were written with outdated info that was part of the hype to suggest this planet is a new Earth. Several other teams of scientist (not journalists that here link to here) are quoted above as saying it is not in the habitable zone.-->
+
+== A Message from Earth ==
+A Message from Earth (AMFE) is a high-powered digital radio signal that was sent on 9 October 2008 towards Gliese 581c. The signal is a digital [[time capsule]] containing 501 messages that were selected through a competition on the [[social networking site]] [[Bebo]]. The message was sent using the [[RT-70]] [[radar telescope]] of [[Ukraine]]'s [[State Space Agency of Ukraine|State Space Agency]]. The signal will reach the planet Gliese 581c in early 2029.<ref name="moore">{{cite news|url=https://www.telegraph.co.uk/news/newstopics/howaboutthat/3166709/Messages-from-Earth-sent-to-distant-planet-by-Bebo.html|title=Messages from Earth sent to distant planet by Bebo |last=Moore |first=Matthew|date=9 October 2008 |publisher=.telegraph.co.uk|access-date=9 October 2008| archive-url= https://web.archive.org/web/20081011142445/http://www.telegraph.co.uk/news/newstopics/howaboutthat/3166709/Messages-from-Earth-sent-to-distant-planet-by-Bebo.html| archive-date= 11 October 2008 | url-status= live}}</ref> More than half a million people including celebrities and politicians participated in the AMFE project, which was the world's first digital time capsule where the content was selected by the public.<ref name="sky">{{cite web |url=http://news.sky.com/skynews/Home/Technology/Bebos-A-Message-from-Earth-Project-Beams-Celebrity-Faces-Into-Space/Article/200810215117103?lpos=Technology_First_Technology_Article_Teaser_Region__3&lid=ARTICLE_15117103_Bebos_A_Message_from_Earth_Project_Beams_Celebrity_Faces_Into_Space |archive-url=https://archive.today/20130202080446/http://news.sky.com/skynews/Home/Technology/Bebos-A-Message-from-Earth-Project-Beams-Celebrity-Faces-Into-Space/Article/200810215117103?lpos=Technology_First_Technology_Article_Teaser_Region__3&lid=ARTICLE_15117103_Bebos_A_Message_from_Earth_Project_Beams_Celebrity_Faces_Into_Space |url-status=dead |archive-date=2 February 2013 |title=Stars' Faces Beamed Into Space |access-date=5 November 2008 |publisher=Sky News |date=10 October 2008 }}</ref><ref name="bebo">{{cite web |url=http://www.bebo.com/Press.jsp?PressPageId=7554880862 |title=One Giant Leap For The Bebo Community |access-date=15 November 2008 |author=Sarah Gavin |publisher=Bebo |date=29 July 2008 |archive-url=https://web.archive.org/web/20180925232920/https://bebo.com/Press.jsp?PressPageId=7554880862 |archive-date=25 September 2018 |url-status=dead }}</ref>
+
+==In popular culture==
+
+Estonian singer [[Laura Põldvere]] sings poetically about the "beautiful far-away planet" in her song ''581c''.<ref>{{Cite web |title=MY SINGLES |url=https://lauraofficial.com/my-singles |access-date=2026-03-02 |website=LAURA PÕLDVERE |language=en-US}}</ref>
+
+== See also ==
+* [[Circumstellar habitable zone]] (Goldilocks phenomenon)
+* [[CoRoT-7b]]
+* [[Interstellar travel]]
+* [[Planetary habitability]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{Reflist|30em|refs=
+
+<ref name="udry">{{Cite journal |doi=10.1051/0004-6361:20077612  |doi-access=free|arxiv=0704.3841 |title=The HARPS search for southern extra-solar planets XI. Super-Earths (5 and 8&nbsp;{{Earth mass|sym=y}}) in a 3-planet system |journal=Astronomy & Astrophysics |volume=469 |issue=3 |pages=L43–L47 |last1=Udry |first1=Stéphane |last2=Bonfils |first2=Xavier |last3=Delfosse |first3=Xavier |last4=Forveille |first4=Thierry |last5=Mayor |first5=Michel |last6=Perrier |first6=Christian |last7=Bouchy |first7=François |last8=Lovis |first8=Christophe |last9=Pepe |first9=Francesco |last10=Queloz |first10=Didier |last11=Bertaux |first11=Jean-Loup |year=2007 |bibcode=2007A&A...469L..43U |s2cid=119144195 |url=http://exoplanet.eu/papers/udry_terre_HARPS-1.pdf |url-status=dead |archive-url=https://web.archive.org/web/20101008120426/http://exoplanet.eu/papers/udry_terre_HARPS-1.pdf |archive-date=October 8, 2010 }}</ref>
+
+<ref name="space.com">{{cite news | url=http://www.space.com/scienceastronomy/070424_hab_exoplanet.html | title=Major Discovery: New Planet Could Harbor Water and Life | last=Than | first=Ker | date=24 April 2007 | publisher=space.com | access-date=29 April 2007 | archive-date=24 December 2010 | archive-url=https://web.archive.org/web/20101224061707/http://www.space.com/scienceastronomy/070424_hab_exoplanet.html | url-status=live }}</ref>
+
+<ref name="ESOAstronomy">{{cite news | title = Astronomers Find First Earth-like Planet in Habitable Zone | publisher = ESO | url = http://www.eso.org/outreach/press-rel/pr-2007/pr-22-07.html | access-date = 10 May 2007 | archive-url = https://web.archive.org/web/20080828055304/http://eso.org/outreach/press-rel/pr-2007/pr-22-07.html | archive-date = 28 August 2008 | url-status = dead }}</ref>
+
+<ref name="Spaceref.com">{{cite web |url=http://www.spaceref.com/news/viewpr.html?pid=22805 |archive-url=https://archive.today/20120526043530/http://www.spaceref.com/news/viewpr.html?pid=22805 |url-status=dead |archive-date=26 May 2012 |title=Boring Star May Mean Livelier Planet |date=10 June 2007 |publisher=Spaceref.com |access-date=15 September 2008 }}</ref>
+
+<ref name="BBC1">{{cite news |url=https://news.bbc.co.uk/2/hi/science/nature/6589157.stm |title=New 'super-Earth' found in space |access-date=25 April 2007 |date=25 April 2007 |work=BBC News |archive-date=10 November 2012 |archive-url=https://web.archive.org/web/20121110172300/http://news.bbc.co.uk/2/hi/science/nature/6589157.stm |url-status=live }}</ref>
+
+<ref name="blo07">{{cite journal|bibcode=2007A&A...476.1365V|author=von Bloh|display-authors=etal|date=2007|title=The Habitability of Super-Earths in Gliese 581 |journal=[[Astronomy and Astrophysics]]|volume=476|issue=3|pages=1365–1371|doi=10.1051/0004-6361:20077939 |doi-access=free|arxiv = 0705.3758 |s2cid=14475537}}</ref>
+
+<ref name="Mayor2009">{{cite journal |doi=10.1051/0004-6361/200912172  |doi-access=free|bibcode=2009A&A...507..487M |journal=[[Astronomy and Astrophysics]] |volume=507 |issue=1 |year=2009 |pages=487–494 |last1=Mayor |first1=Michel |last2=Bonfils |first2=Xavier |last3=Forveille |first3=Thierry |last4=Delfosse |first4=Xavier |last5=Udry |first5=Stéphane |last6=Bertaux |first6=Jean-Loup |last7=Beust |first7=Hervé |last8=Bouchy |first8=François |last9=Lovis |first9=Christophe |last10=Pepe |first10=Francesco |last11=Perrier |first11=Christian |last12=Queloz |first12=Didier |last13=Santos |first13=Nuno C. |title=The HARPS search for southern extra-solar planets, XVIII. An Earth-mass planet in the GJ 581 planetary system |arxiv=0906.2780 |display-authors=3 |url=http://obswww.unige.ch/~udry/Gl581_preprint.pdf |s2cid=2983930 |url-status=dead |archive-url=https://web.archive.org/web/20090521052641/http://obswww.unige.ch/~udry/Gl581_preprint.pdf |archive-date=21 May 2009 }}</ref>
+
+<ref name="robertson2014">{{cite journal|last1=Robertson |first1=Paul |author2-link=Suvrath Mahadevan |last2=Mahadevan |first2=Suvrath |last3=Endl |first3=Michael |last4=Roy |first4=Arpita |title=Stellar activity masquerading as planets in the habitable zone of the M dwarf Gliese 581 |journal=[[Science (journal)|Science]] |date=3 July 2014 |doi=10.1126/science.1253253|arxiv=1407.1049 |bibcode = 2014Sci...345..440R |volume=345 |issue=6195 |pages=440–444 |pmid=24993348|s2cid=206556796 }}</ref>
+
+<!--
+<ref name="Trifonov2018">{{cite journal |last1=Trifonov |first1=T. |last2=Kürster |first2=M. |display-authors=etal |date=February 2018 |title=The CARMENES search for exoplanets around M dwarfs. First visual-channel radial-velocity measurements and orbital parameter updates of seven M-dwarf planetary systems |journal=[[Astronomy & Astrophysics]] |volume=609 |issue= |pages=A117 |doi=10.1051/0004-6361/201731442  |doi-access=free|arxiv=1710.01595 |bibcode=2018A&A...609A.117T}}</ref>
+-->
+
+<ref name="vonStauffenberg2024">{{cite journal|last1=von Stauffenberg|first1=A.|last2=Trifonov|first2=T.|last3=Quirrenbach|first3=A.|last4=Reffert|first4=S.|last5=Kaminski|first5=A.|last6=Dreizler|first6=S.|last7=Ribas|first7=I.|last8=Reiners|first8=A.|last9=Kürster|first9=M.|last10=Twicken|first10=J. D.|last11=Rapetti|first11=D.|last12=Caballero|first12=J. A.|last13=Amado|first13=P. J.|last14=Béjar|first14=S. V. J.|last15=Cifuentes|first15=C.|last16=Góngora|first16=S.|last17=Hatzes|first17=A. P.|last18=Henning|first18=Th.|last19=Montes|first19=D.|last20=Morales|first20=J. C.|last21=Schweitzer|first21=A.|display-authors=3|title=The CARMENES search for exoplanets around M dwarfs. Revisiting the GJ 581 multi-planetary system with new Doppler measurements from CARMENES, HARPS, and HIRES|journal=Astronomy & Astrophysics|date=2024-06-05|volume=688 |issn=0004-6361|arxiv=2407.11520|doi=10.1051/0004-6361/202449375|doi-access=free|page=|bibcode=2024A&A...688A.112V }}</ref>
+
+}}
+
+== Further reading ==
+{{commons category|Gliese 581 c}}
+
+=== News media reports ===
+* {{cite web |url=https://www.nytimes.com/2007/06/12/science/space/12plan.html |title=A Planet Is Too Hot for Life, but Another May Be Just Right |access-date=11 July 2009 |work=[[The New York Times]] |date=12 June 2007 |author=Dennis Overbye |archive-date=5 June 2015 |archive-url=https://web.archive.org/web/20150605045719/http://www.nytimes.com/2007/06/12/science/space/12plan.html |url-status=live }}
+* {{cite web |url=http://www.eso.org/outreach/press-rel/pr-2007/pr-22-07.html |title=Astronomers Find First Earth-like Planet in Habitable Zone |access-date=20 June 2008 |work=[[European Southern Observatory]] |date=25 April 2007 |archive-url=https://web.archive.org/web/20080828055304/http://eso.org/outreach/press-rel/pr-2007/pr-22-07.html |archive-date=28 August 2008 |url-status=dead }}
+* {{cite web |url=https://news.bbc.co.uk/2/hi/science/nature/6589157.stm |title=New 'super-Earth' found in space |access-date=20 June 2008 |work=BBC News |date=25 April 2007 |archive-date=5 March 2012 |archive-url=https://web.archive.org/web/20120305232748/http://news.bbc.co.uk/2/hi/science/nature/6589157.stm |url-status=live }}
+* {{cite web |url=http://www.space.com/scienceastronomy/070424_hab_exoplanet.html |title=Major Discovery: New Planet Could Harbor Water and Life |access-date=20 June 2008 |work=SPACE.com |date=24 April 2007 |first=Ker |last=Than |archive-date=24 December 2010 |archive-url=https://web.archive.org/web/20101224061707/http://www.space.com/scienceastronomy/070424_hab_exoplanet.html |url-status=live }}
+* {{cite web
+| url=https://www.newscientist.com/article/dn11710
+| title='Goldilocks' planet may be just right for life
+| author=Hazel Muir
+| publisher=New ScientistSpace
+| date=25 April 2007
+| access-date=29 August 2017
+| archive-date=18 April 2009
+| archive-url=https://web.archive.org/web/20090418014052/http://www.newscientist.com/article/dn11710
+| url-status=live
+}}
+
+* {{cite web
+| url=http://www.scientificblogging.com/news/astronomers_find_first_habitable_earth_like_planet
+| title=Astronomers find first habitable Earth-like planet
+| publisher=Scientificblogging.com
+| date=24 April 2007
+| access-date=25 April 2007
+| archive-url=https://web.archive.org/web/20090316004654/http://www.scientificblogging.com/news/astronomers_find_first_habitable_earth_like_planet
+| archive-date=16 March 2009
+| url-status=dead
+}}
+
+* {{cite web
+| url=http://www.hindu.com/thehindu/holnus/008200704250305.htm
+| title='Second Earth' may mean we're not alone
+| author=Ian Sample
+| work=The Hindu
+| date=24 April 2007
+| access-date=26 April 2007
+| archive-date=6 June 2009
+| archive-url=https://web.archive.org/web/20090606170509/http://www.hindu.com/thehindu/holnus/008200704250305.htm
+| url-status=live
+}}
+
+* {{cite web
+| url=http://www.sciam.com/article.cfm?articleID=25A261F0-E7F2-99DF-313249A4883E6A86&chanID=sa007
+| title=All Wet? Astronomers Claim Discovery of Earth-like Planet.
+| author=J. R. Minkle
+| publisher=[[Scientific American]]
+| date=24 April 2007
+| access-date=26 April 2007
+| archive-date=13 October 2007
+| archive-url=https://web.archive.org/web/20071013164438/http://www.sciam.com/article.cfm?articleID=25A261F0-E7F2-99DF-313249A4883E6A86&chanID=sa007
+| url-status=live
+}}
+
+* {{cite web
+| url=http://www.world-science.net/othernews/070425-habitable-planet.htm
+| title=Distant planet judged possibly habitable
+| publisher=World Science
+| date=23 April 2007
+| access-date=4 May 2007
+| archive-date=26 April 2009
+| archive-url=https://web.archive.org/web/20090426064222/http://www.world-science.net/othernews/070425-habitable-planet.htm
+| url-status=live
+}}
+
+* {{cite web
+ |url         = http://www.dailyindia.com/show/135806.php/First-habitable-Earth-like-planet-outside-Solar-System-discovered
+ |title       = First habitable Earth like planet outside Solar System discovered
+ |author      = ANI
+ |publisher   = DailyIndia.com
+ |date        = 23 April 2007
+ |url-status     = dead
+ |archive-url  = https://web.archive.org/web/20070427014548/http://www.dailyindia.com/show/135806.php/First-habitable-Earth-like-planet-outside-Solar-System-discovered
+ |archive-date = 27 April 2007
+}}
+
+=== Non-news media ===
+* {{cite web |url=http://www.cosmographica.com/cosmo20130812/gliese581c.html |title=Artist conceptions of extrasolar planet Gliese 581 c |access-date=20 June 2008 |work=Cosmographica}}
+* {{cite web |url=http://www.geochemsoc.org/publications/geochemicalnews/gn131apr07/theneighborgliese581c.htm |title=The Neighbor: Gliese 581c |work=The Geochemical Society |access-date=6 December 2007 |url-status=dead |archive-url=https://web.archive.org/web/20071227124513/http://www.geochemsoc.org/publications/geochemicalnews/gn131apr07/theneighborgliese581c.htm |archive-date=27 December 2007 }}
+* {{cite web |url=http://www.kencroswell.com/reddwarflife.html |title=Red, Willing, and Able: 2001 New Scientist article on types of planets likely to be around red dwarf stars |access-date=20 June 2008 |work=KenCroswell.com |archive-date=30 April 2008 |archive-url=https://web.archive.org/web/20080430024151/http://www.kencroswell.com/reddwarflife.html |url-status=live }}
+* {{Cite APOD |title=Sunrise from the Surface of Gliese 581c |access-date=20 June 2008 |date=2 May 2007}}
+
+== External links ==
+* [http://members.misty.com/don/g581.html Gliese 581 - The "Red Dwarf" and implications for its "earthlike" planet Gliese 581c] {{Webarchive|url=https://web.archive.org/web/20101205160305/http://members.misty.com/don/g581.html |date=5 December 2010 }}
+
+{{Gliese 581}}
+{{Extraterrestrial life}}
+{{Portal bar|Outer space}}
+{{Sky|15|19|26|-|07|43|20|20.3}}
+
+{{DEFAULTSORT:Gliese 581C}}
+[[Category:Exoplanets discovered in 2007]]
+[[Category:Exoplanets in the Gliese Catalog]]
+[[Category:Exoplanets detected by radial velocity]]
+[[Category:Gliese 581]]
+[[Category:Libra (constellation)]]
+[[Category:Super-Earths]]

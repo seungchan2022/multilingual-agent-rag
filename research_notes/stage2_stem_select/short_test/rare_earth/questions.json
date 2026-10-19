@@ -1,0 +1,222 @@
+[
+  {
+    "id": "re-01",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "유로퓸",
+    "question": "유로퓸의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "5.244 g/cm³",
+    "value": 5.244,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "유로퓸",
+        "quote": "밀도 (상온 근처): 5.244 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox europium",
+      "en_value": 5.246,
+      "en_text": "5.246&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.0381
+    }
+  },
+  {
+    "id": "re-02",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "루테튬",
+    "question": "루테튬의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "9.841 g/cm³",
+    "value": 9.841,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "루테튬",
+        "quote": "밀도 (상온 근처): 9.841 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox lutetium",
+      "en_value": 9.84,
+      "en_text": "9.840&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.0102
+    }
+  },
+  {
+    "id": "re-03",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "이터븀",
+    "question": "이터븀의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "6.90 g/cm³",
+    "value": 6.9,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "이터븀",
+        "quote": "밀도 (상온 근처): 6.90 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox ytterbium",
+      "en_value": 6.967,
+      "en_text": "6.967&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.9617
+    }
+  },
+  {
+    "id": "re-04",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "이트륨",
+    "question": "이트륨의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "4.472 g/cm³",
+    "value": 4.472,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "이트륨",
+        "quote": "밀도 (상온 근처): 4.472 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox yttrium",
+      "en_value": 4.469,
+      "en_text": "4.469&nbsp;g/cm<sup>3</sup><ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.0671
+    }
+  },
+  {
+    "id": "re-05",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "툴륨",
+    "question": "툴륨의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "9.32 g/cm³",
+    "value": 9.32,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "툴륨",
+        "quote": "밀도 (상온 근처): 9.32 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox thulium",
+      "en_value": 9.32,
+      "en_text": "9.320&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "re-06",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "디스프로슘",
+    "question": "디스프로슘의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "8.540 g/cm³",
+    "value": 8.54,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "디스프로슘",
+        "quote": "밀도 (상온 근처): 8.540 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox dysprosium",
+      "en_value": 8.55,
+      "en_text": "8.550&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.117
+    }
+  },
+  {
+    "id": "re-07",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "프라세오디뮴",
+    "question": "프라세오디뮴의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "6.77 g/cm³",
+    "value": 6.77,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "프라세오디뮴",
+        "quote": "밀도 (상온 근처): 6.77 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox praseodymium",
+      "en_value": 6.773,
+      "en_text": "6.773&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.0443
+    }
+  },
+  {
+    "id": "re-08",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "사마륨",
+    "question": "사마륨의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "7.52 g/cm³",
+    "value": 7.52,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "사마륨",
+        "quote": "밀도 (상온 근처): 7.52 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox samarium",
+      "en_value": 7.518,
+      "en_text": "7.518&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.0266
+    }
+  },
+  {
+    "id": "re-09",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "란타넘",
+    "question": "란타넘의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "6.162 g/cm³",
+    "value": 6.162,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "란타넘",
+        "quote": "밀도 (상온 근처): 6.162 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox lanthanum",
+      "en_value": 6.145,
+      "en_text": "6.145&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.2766
+    }
+  },
+  {
+    "id": "re-10",
+    "kind": "값",
+    "subject": "희토류 원소",
+    "target": "어븀",
+    "question": "어븀의 상온 근처 밀도는 몇 g/cm³인가?",
+    "answer": "9.066 g/cm³",
+    "value": 9.066,
+    "unit": "g/cm³",
+    "evidence_quotes": [
+      {
+        "doc": "어븀",
+        "quote": "밀도 (상온 근처): 9.066 g/cm3"
+      }
+    ],
+    "en_check": {
+      "en_title": "Template:Infobox erbium",
+      "en_value": 9.065,
+      "en_text": "9.065&nbsp;g/cm<sup>3</sup>&thinsp;<ref name=\"Arblaster 2018\" />",
+      "diff_pct": 0.011
+    }
+  }
+]

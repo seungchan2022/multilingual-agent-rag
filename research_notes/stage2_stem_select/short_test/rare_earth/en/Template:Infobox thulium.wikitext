@@ -1,0 +1,76 @@
+{{Infobox element
+|symbol =Tm
+|Z      =69
+|number =69
+|name   =thulium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[erbium]]
+|right=[[ytterbium]]
+|above=–
+|below=[[mendelevium|Md]]
+|image name=Thulium_sublimed_dendritic_and_1cm3_cube.jpg
+|appearance=silvery gray
+|electrons per shell=2, 8, 18, 31, 8, 2
+|phase=
+|density=9.320&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=8.56
+|melting point K=1818
+|melting point C=1545
+|melting point F=2813
+|boiling point K=2223
+|boiling point C=1950
+|boiling point F=3542
+|heat fusion=16.84
+|heat vaporization=191
+|heat capacity=27.03
+|vapor pressure 1=1117
+|vapor pressure 10=1235
+|vapor pressure 100=1381
+|vapor pressure 1 k=1570
+|vapor pressure 10 k=(1821)
+|vapor pressure 100 k=(2217)
+|vapor pressure comment=
+|crystal structure=hexagonal close packed
+|crystal structure Pearson symbol=hP2
+|lattice constants=''a''&nbsp;=&nbsp;353.77&nbsp;pm<br />''c''&nbsp;=&nbsp;555.39&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.25
+|number of ionization energies=3
+|ionization energy 1=596.7
+|ionization energy 2=1160
+|ionization energy 3=2285
+|atomic radius=176
+|covalent radius={{val|190|10}}
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering comment=(at&nbsp;300&nbsp;K)
+|electrical resistivity unit prefix=n
+|electrical resistivity=poly:&nbsp;676
+|electrical resistivity comment=(at&nbsp;{{abbr|r.t.|room temperature}})
+|thermal conductivity=16.9
+|thermal expansion=poly:&nbsp;13.3
+|thermal expansion comment=(at&nbsp;{{abbr|r.t.|room temperature}})
+|magnetic susceptibility= {{val|+25,500|e=−6}}
+|magnetic susceptibility ref= &#x20;(291&nbsp;K)<ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=74.0
+|Shear modulus=30.5
+|Bulk modulus=44.5
+|Poisson ratio=0.213
+|Vickers hardness=470–650
+|Brinell hardness=470–900
+|CAS number=7440-30-4
+|naming=after [[Thule]], a mythical region in Scandinavia
+|discovered by=[[Per Teodor Cleve]]
+|discovery date=1879
+|first isolation by=[[Wilhelm Klemm]] and Heinrich Bommer
+|first isolation date=1936
+|QID=Q1853
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Tm}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

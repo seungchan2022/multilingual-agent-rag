@@ -1,0 +1,690 @@
+{{Short description|Potentially hazardous near-Earth asteroid in the Apollo group}}
+{{Use dmy dates|date=August 2026}}
+{{Infobox planet
+| minorplanet = yes
+| name = 25143 Itokawa
+| background = #FFC2E0
+| image = Asteroid (25143) Itokawa seen in close-up (eso1405c).jpg
+| image_scale = 
+| image_alt = Image of Itokawa from the Hayabusa spacecraft
+| caption = Image of Itokawa from the Hayabusa spacecraft
+| discovery_ref = <ref name="MPC-object" />
+| discovered = 26 September 1998
+| discoverer = [[Lincoln Near-Earth Asteroid Research|LINEAR]]
+| discovery_site = [[Lincoln Laboratory's Experimental Test Site|Lincoln Lab's ETS]]
+| mpc_name = (25143) Itokawa
+| alt_names = {{mp|1998 SF|36}}
+| pronounced = {{IPAc-en|ˌ|iː|t|oʊ|ˈ|k|ɑː|w|ə}}<br />{{IPA|ja|itoꜜkawa|lang}}
+| named_after = [[Hideo Itokawa]]<ref name="springer" />
+| mp_category = {{hlist|[[Apollo asteroid|Apollo]]|[[Near-Earth object|NEO]]|[[Potentially hazardous object|PHA]]<ref name="MPC-object" /><ref name="jpldata" />}}
+| orbit_ref = <ref name="jpldata" />
+| epoch = 27 April 2019 ([[Julian day|JD]] 2458600.5)
+| uncertainty = 0
+| observation_arc = 20.38 [[Julian year (astronomy)|yr]] (7,443 d)
+| aphelion = 1.6951 [[Astronomical unit|AU]]
+| perihelion = 0.9532 AU
+| semimajor = 1.3241 AU
+| eccentricity = 0.2801
+| period = 1.52 yr (557 d)
+| mean_anomaly = {{val|288.88|ul=°}}
+| mean_motion = {{Deg2DMS|0.6468|sup=ms}} / day
+| inclination = 1.6214°
+| asc_node = 69.081°
+| arg_peri = 162.82°
+| moid = 0.0131 AU (5.10 [[Lunar distance (astronomy)|LD]])
+| dimensions = {{val|535|x|294|x|209|ul=m}}<ref name="Fujiwara-2006" />
+| mean_diameter = 313 m<ref name="Mueller-2011a" /><br />330 m<ref name="jpldata" /><br />350 m<ref name="lcdb" /><ref name="Sekiguchi-2003" />
+| mass = {{val|3.51|0.105|e=10|ul=kg}}<ref name="Fujiwara-2006" /><br />{{val|3.58|0.18|e=10|u=kg}}<ref name="Abe-2006" />
+| density = {{val|1.9|0.13|ul=g/cm3}}<ref name="Fujiwara-2006" /><br />{{val|1.95|0.14|u=g/cm3}}<ref name="Abe-2006" />
+| rotation = {{val|12.132|ul=h}}<ref name="lcdb" /><ref name="Kaasalainen-2003" />
+| albedo = {{val|0.23}}<ref name="Sekiguchi-2003" /><br />{{val|0.283|0.116}}<ref name="Mueller-2011a" /><br />{{val|0.36|0.22}}<ref name="Thomas-2011b" /><br />0.53<ref name="Lederer2005">S. M. Lederer, et al., "Physical characteristics of Hayabusa target Asteroid 25143 Itokawa", ''Icarus'', v. 173, pp. 153–165 (2005)</ref>
+| spectral_type = {{hlist|[[SMASS classification|SMASS]] {{=}} [[S-type asteroid|S]] (IV)<ref name="jpldata" /><br />Sqw<ref name="Thomas-2014" />|[[S-type asteroid|S]]<ref name="Carry-2016" />|[[Q-type asteroid|Q]]<ref name="lcdb" />}}
+| abs_magnitude = 18.61<ref name="Dermawan-2002" />{{·}}18.95 {{small|(R)}}<ref name="Nishihara-2005" /><br />19.00<ref name="Carry-2016" />{{·}}19.2<ref name="MPC-object" /><ref name="jpldata" /><br />19.48<ref name="lcdb" /><ref name="Sekiguchi-2003" />{{·}}{{val|19.51|0.09}}<ref name="Mueller-2011a" />
+}}
+
+'''25143 Itokawa''' (provisional designation '''{{mp|1998 SF|36}}''') is a sub-kilometer [[near-Earth object]] of the [[Apollo asteroid|Apollo group]] and also a [[potentially hazardous asteroid]]. It was discovered by the [[LINEAR]] program in 1998 and later named after Japanese rocket engineer [[Hideo Itokawa]].<ref name="MPC-object" /> The peanut-shaped [[S-type asteroid]] has a [[rotation period]] of 12.1 hours and measures approximately {{convert|330|m|ft|abbr=off|sigfig=2|sp=us}} in diameter. Due to its low density and high porosity, Itokawa is considered to be a [[rubble pile]], consisting of numerous boulders of different sizes rather than of a single solid body.
+
+It was the first asteroid to be the target of a [[sample-return mission]], of the Japanese space probe ''[[Hayabusa]]'', which collected more than 1500 [[regolith]] dust particles from the asteroid's surface in 2005. Since its return to Earth in 2010, the [[mineralogy]], [[petrography]], chemistry, and [[Isotope geochemistry|isotope ratios]] of these particles have been studied in detail, providing insights into the [[evolution of the Solar System]]. Itokawa was the smallest asteroid to be photographed and [[List of minor planets visited by spacecraft|visited by a spacecraft]] prior to the [[Double Asteroid Redirection Test|DART]] mission to [[Dimorphos]] in 2022.
+
+== Discovery and naming ==
+Itokawa was discovered on 26 September 1998 by astronomers with the [[Lincoln Near-Earth Asteroid Research]] (LINEAR) program at [[Lincoln Laboratory's Experimental Test Site]] near Socorro, New Mexico, in the United States. It was given the [[Provisional designation in astronomy|provisional designation]] {{mp|1998 SF|36}}. The body's [[observation arc]] begins with its first observation by the [[Sloan Digital Sky Survey]] just one week prior to its official discovery observation.<ref name="MPC-object" /> The [[minor planet]] was named in memory of Japanese rocket scientist [[Hideo Itokawa]] (1912–1999), who is regarded as the father of Japanese rocketry.<ref name="MPC-object" /><ref name="JAXA-Press-2009" /> The official {{MoMP|25143|naming citation}} was published by the [[Minor Planet Center]] on 6 August 2003 ({{small|[[Minor Planet Circulars|M.P.C.]] 49281}}).<ref name="MPC-Circulars-Archive" />
+
+==Orbit and classification==
+Itokawa belongs to the [[Apollo asteroid]]s. They are [[List of Earth-crossing minor planets|Earth-crossing asteroids]] and the largest dynamical group of [[near-Earth objects]] with nearly 10,000 known members. Itokawa orbits the Sun at a distance of 0.95–1.70&nbsp;[[Astronomical unit|AU]] once every 18 months (557 days; [[semi-major axis]] of 1.32&nbsp;AU). Its orbit has an [[orbital eccentricity|eccentricity]] of 0.28 and an [[orbital inclination|inclination]] of 2[[Degree (angle)|°]] with respect to the [[ecliptic]].<ref name="jpldata" /> It has a low ''Earth [[minimum orbital intersection distance]]'' of {{convert |0.0131 |AU |km |abbr=on |lk=off |sigfig=3}}, which corresponds to 5.1 [[Lunar distance (astronomy)|lunar distances]].<ref name="jpldata" />
+{{multiple image
+ |direction=horizontal
+ |align=left
+ |width1=325
+ |width2=229
+ |image1=25143 Itokawa-orbit Dec 3, 2006.png
+ |image2=Animation of 25143 Itokawa orbit.gif
+ |footer=''Left'': orbital diagram of Itokawa in December 2006. ''Right:'' animated orbits of Itokawa (green), Earth (blue), and Mars (orange), around the Sun.}}
+{{clear|left}}
+
+== Exploration ==
+[[File:Artist’s impression of asteroid (25143) Itokawa.ogv|thumb|left|This artist's impression, based on detailed spacecraft observations, shows the strange peanut-shaped asteroid Itokawa.]]
+
+In 2000, it was selected as the target of Japan's ''[[Hayabusa (spacecraft)|Hayabusa]]'' mission. The probe arrived in the vicinity of Itokawa on 12 September 2005 and initially "parked" in an asteroid–Sun line at {{convert|20|km|abbr=on}}, and later {{convert|7|km|abbr=on}}, from the asteroid (Itokawa{{'s}} gravity was too weak to provide an orbit, so the spacecraft adjusted its orbit around the Sun until it matched the asteroid's). Hayabusa landed on 20 November for thirty minutes, but it failed to operate a device designed to collect soil samples. On 25 November, a second landing and sampling sequence was attempted. The sample capsule was returned to Earth and landed at [[Woomera, South Australia]] on 13 June 2010, around 13:51 UTC (23:21 local). On 16 November 2010, the [[Japan Aerospace Exploration Agency]] reported that dust collected during Hayabusa's voyage was indeed from the asteroid.<ref>{{cite web|url=http://www.universetoday.com/78895/confirmed-hayabusa-nabbed-asteroid-particles/|title=Confirmed: Hayabusa Nabbed Asteroid Particles|first=Nancy|last=Atkinson|publisher=[[Universe Today]]|date=16 November 2010|access-date=16 November 2010| archive-url= https://web.archive.org/web/20101206090603/http://www.universetoday.com/78895/confirmed-hayabusa-nabbed-asteroid-particles/| archive-date= 6 December 2010 | url-status= live}}</ref>
+
+=== Surface features ===
+Names of major [[Planetary nomenclature|surface features]] were proposed by ''Hayabusa'' scientists and accepted by the Working Group for Planetary System Nomenclature of the [[International Astronomical Union]].<ref name="JAXA-Press-2009" /> Also, the Hayabusa science team is using working names for smaller surface features.<ref>
+{{cite news
+ |url=http://www.isas.jaxa.jp/e/snews/2006/image/0602/b/08.jpg
+ |title=Itowaka Geological Map 
+ |access-date=11 August 2008 
+ |url-status=bot: unknown 
+ |archive-url=https://web.archive.org/web/20090226224419/http://www.isas.jaxa.jp/e/snews/2006/image/0602/b/08.jpg
+ |archive-date=26 February 2009 
+  
+}}</ref><ref>{{cite news
+ |url=http://www.isas.jaxa.jp/e/snews/2006/image/0602/b/09.jpg
+ |title=Local site names on Itowaka 
+ |access-date=11 August 2008 
+ |url-status=bot: unknown 
+ |archive-url=https://web.archive.org/web/20090226224423/http://www.isas.jaxa.jp/e/snews/2006/image/0602/b/09.jpg
+ |archive-date=26 February 2009 
+ 
+}}</ref> The following tables list the names of geological features on the asteroid.<ref name="JAXA-Press-2009" /> No naming conventions have been disclosed for surface features on Itokawa.
+
+==== Craters ====
+Ten [[impact crater]]s on the surface of Itokawa were named on 18 February 2009.<ref name="GPN-Itokawa" />
+{| class="wikitable" style="min-width: 90%;"
+|-
+! style="width:10em" | Crater !! style="width:10em" | Coordinates !! Diameter (km) !! Approval Date !! Named After || Ref
+|-id="Catalina"
+| Catalina || {{Coord|17|S|14|E|globe:itokawa_type:landmark|name=Catalina}} || align=right | 0.02 || align=center | 2009 || [[Catalina Station]] (astronomical observatory) in Arizona, United States || {{WGPSN|14553}}
+|-id="Fuchinobe"
+| Fuchinobe || {{Coord|34|N|91|W|globe:itokawa_type:landmark|name=Fuchinobe}} || align=right | 0.04 || align=center | 2009 || Fuchinobe in [[Sagamihara, Kanagawa|Sagamihara]], Japan || {{WGPSN|14549}}
+|-id="Gando"
+| Gando || {{Coord|76|S|155|W|globe:itokawa_type:landmark|name=Gando}} || align=right | n.a. || align=center | 2009 || Gando, [[Canary Islands]]; Spanish launch facility || {{WGPSN|14557}}
+|-id="Hammaguira"
+| Hammaguira || {{Coord|18|S|155|W|globe:itokawa_type:landmark|name=Hammaguira}} || align=right | 0.03 || align=center | 2009 || [[Hammaguir]], Algeria; abandoned French [[Centre interarmées d'essais d'engins spéciaux|launch site and missile testing range]] in the Sahara desert || {{WGPSN|14551}}
+|-id="Kamisunagawa"
+| Kamisunagawa || {{Coord|28|S|45|E|globe:itokawa_type:landmark|name=Kamisunagawa}} || align=right | 0.01 || align=center | 2009 || [[Kamisunagawa, Hokkaidō|Kamisunagawa]], town in Hokkaido Japan, where a microgravity test facility is located || {{WGPSN|14554}}
+|-id="Kamoi"
+| Kamoi || {{Coord|6|N|116|W|globe:itokawa_type:landmark|name=Kamoi}} || align=right | 0.01 || align=center | 2009 || Japanese town of Kamoi in [[Yokohama]], location of the NEC Toshiba Space Systems Ltd. factory || {{WGPSN|14555}}
+|-id="Komaba"
+| Komaba || {{Coord|10|S|102|E|globe:itokawa_type:landmark|name=Komaba}} || align=right | 0.03 || align=center | 2009 || Komaba in [[Meguro, Tokyo|Meguro]], Japan, where the Institute of Space and Astronautical Science is located || {{WGPSN|14550}}
+|-id="Laurel"
+| Laurel || {{Coord|1|N|162|E|globe:itokawa_type:landmark|name=Laurel}} || align=right | 0.02 || align=center | 2009 || U.S. city of [[Laurel, Maryland|Laurel]] in Maryland, where [[Applied Physics Laboratory|APL]]/[[Johns Hopkins University|JHU]] is located || {{WGPSN|14552}}
+|-id="Miyabaru"
+| Miyabaru || {{Coord|40|S|116|W|globe:itokawa_type:landmark|name=Miyabaru}} || align=right | 0.09 || align=center | 2009 || Radar site of the [[Uchinoura Space Center]] in Japan || {{WGPSN|14548}}
+|-id="San Marco"
+| [[San Marco (crater)|San Marco]]|| {{Coord|28|S|41|W|globe:itokawa_type:landmark|name=San Marco}} || align=right | n.a. || align=center | 2009 || [[San Marco platform]], an old oil platform near Kenya that served as a launch pad for Italian spacecraft || {{WGPSN|14556}}
+|}
+
+==== Regiones ====
+Regiones (singular: regio) are large area marked by reflectivity or color distinctions from adjacent areas in [[planetary geology]]. The following regiones have been named on Itokawa.<ref name="JAXA-Press-2009" /><ref name="GPN-Itokawa" />
+{| class="wikitable" style="min-width: 90%;"
+|-
+! style="width:10em" | Regio !! style="width:10em" | Coordinates !! Diameter (km) !! Approval Date !! Named After || Ref
+|-
+| Arcoona Regio || {{Coord|28|N|202|E|globe:itokawa_type:landmark|name=Arcoona}} || 0.16 || 18 Feb. 2009 || Arcoona, Australia || {{WGPSN|14559}}
+|-
+| LINEAR Regio || {{Coord|40|S|232|E|globe:itokawa_type:landmark|name=LINEAR}} || 0.12 || 18 Feb. 2009 || [[Lincoln Near-Earth Asteroid Research]] || {{WGPSN|14561}}
+|-
+| MUSES-C Regio || {{Coord|70|S|60|E|globe:itokawa_type:landmark|name=MUSES-C}} || 0.3 || 2006 || MUSES-C, name of the [[Hayabusa (spacecraft)|Hayabusa]] probe prior to launch || {{WGPSN|14170}}
+|-
+| Ohsumi Regio || {{Coord|33|N|207|E|globe:itokawa_type:landmark|name=Ohsumi}} || 0.14 || 18 Feb. 2009 || [[Ōsumi Peninsula]] || {{WGPSN|14560}}
+|-
+| Sagamihara Regio || {{Coord|80|N|15|E|globe:itokawa_type:landmark|name=Sagamihara}} || 0.23 || 2006 || [[Sagamihara]], a town in Japan where [[Institute of Space and Astronautical Science]] is located || {{WGPSN|14171}}
+|-
+| Uchinoura Regio || {{Coord|40|N|90|E|globe:itokawa_type:landmark|name=Uchinoura}} || 0.07 || 2006 || [[Uchinoura, Kagoshima|Uchinoura]], a town in Japan (now part of [[Kimotsuki, Kagoshima|Kimotsuki]]), the location of [[Uchinoura Space Center]], Hayabusa launch site || {{WGPSN|14172}}
+|-
+| Yoshinobu Regio || {{Coord|39|S|117|E|globe:itokawa_type:landmark|name=Yoshinobu}} || 0.16 || 18 Feb. 2009 || Launch site in the Tanegashima Space Center, Japan || {{WGPSN|14558}}
+|}
+
+== Physical characteristics ==
+[[File:Schematic view of asteroid (25143) Itokawa.jpg|thumb|Schematic of Itokawa{{'s}} two lobes separated from each other. Their divergent [[densities]] suggest that these were stand-alone bodies that came into contact later on, making the [[rubble pile]] also a likely [[Contact binary (small Solar System body)|contact binary]].<ref>{{cite news|title=The Anatomy of an Asteroid|url=http://www.eso.org/public/news/eso1405/|access-date=6 February 2014|newspaper=ESO Press Release}}</ref>]]
+[[File:Itokawa.jpg|thumb|Preliminary shape model of Itokawa based on radar observations by [[Goldstone Observatory|Goldstone]] and [[Arecibo Observatory|Arecibo]]<ref name="Ostro-2001" />]]
+
+Itokawa is a stony [[S-type asteroid]]. [[Radar]] imaging by [[Goldstone Observatory|Goldstone]] in 2001 observed an ellipsoid {{val|630|60}} meters long and {{val|250|30}} meters wide.<ref name="Ostro-2001" />
+
+The ''Hayabusa'' mission confirmed these findings and also suggested that Itokawa may be a [[contact binary (asteroid)|contact binary]] formed by two or more smaller asteroids that have gravitated toward each other and stuck together. The ''Hayabusa'' images show a surprising lack of [[impact crater]]s and a very rough surface studded with boulders, described by the mission team as a [[rubble pile]].<ref name="Fujiwara-2006" /><ref name=ItokawaBeckons>
+{{cite news
+ |url=http://www.planetary.org/news/2005/0916_Hayabusa_Itokawa_Beckons_as_Japans.html 
+ |title=Hayabusa: Itokawa Beckons as Japan's Spacecraft Searches for Places to Touch Down 
+ |access-date=11 August 2008 
+ |url-status=bot: unknown 
+ |archive-url=https://web.archive.org/web/20080512042313/http://www.planetary.org/news/2005/0916_Hayabusa_Itokawa_Beckons_as_Japans.html
+ |archive-date=12 May 2008
+  
+}}</ref> Furthermore, the density of the asteroid is too low for it to be made from solid rock. This would mean that Itokawa is not a [[monolith]] but rather a rubble pile formed from fragments that have cohered over time. Based on [[Yarkovsky–O'Keefe–Radzievskii–Paddack effect]] measurements, a small section of Itokawa is estimated to have a density of {{val|2.9|ul=g/cm3}}, whereas a larger section is estimated to have a density of 1.8 g/cm<sup>3</sup>.<ref name="Fujiwara-2006" /><ref name="eso1405" />
+
+=== Rotation period and poles ===
+Since 2001, a large number of rotational [[lightcurve]]s of Itokawa have been obtained from [[Photometry (astronomy)|photometric]] observations. Analysis of the best-rated lightcurve by [[Mikko Kaasalainen]] gave a sidereal [[rotation period]] of {{val|12.132}} hours with a high brightness variation of 0.8 [[Magnitude (astronomy)|magnitude]], indicative of the asteroid's non-spherical shape ({{small|[[LCDB quality code|U=3]]}}). In addition, Kaasalainen also determined two [[Poles of astronomical bodies|spin axes]] of (355.0°, −84.0°) and (39°, −87.0°) in [[Ecliptic coordinate system|ecliptic coordinates]] (λ, β).<ref name="lcdb" /><ref name="Kaasalainen-2003" /> Alternative lightcurve measurements were made by [[John V. Lambert|Lambert]] ({{val|12}}&nbsp;h),<ref name="Lambert-2001" /> [[Stephen C. Lowry|Lowry]] ({{val|12.1}} and {{val|12.12}}&nbsp;h),<ref name="Lowry-2001" /><ref name="Lowry-2005" /> Ohba ({{val|12.15}}&nbsp;h),<ref name="Ohba-2003" /> [[Brian D. Warner|Warner]] ({{val|12.09}}&nbsp;h),<ref name="Warner-2004c" />{{efn|name=lightcurve-plot-Warner}} [[Josef Ďurech|Ďurech]] ({{val|12.1323}}&nbsp;h),<ref name="Durech-2008a" /> and Nishihara ({{val|12.1324}}&nbsp;h).<ref name="Nishihara-2005" />
+
+=== Composition ===
+
+The 26 August 2011 issue of ''Science'' devoted six articles to findings based on dust that ''Hayabusa'' had collected from Itokawa.<ref name=nyt25aug>{{cite news|title=Asteroid Dust Confirms Meteorite Origins|url=https://www.nytimes.com/2011/08/30/science/30obmeteor.html|access-date=26 August 2011|newspaper=The New York Times|date=25 August 2011}}</ref> Scientists' analysis suggested that Itokawa was probably made up from interior fragments of a larger asteroid that broke apart.<ref name="Nakamura-2011" /> Dust collected from the asteroid surface is thought to have been exposed there for about eight million years.<ref name=nyt25aug/>
+
+Scientists used varied techniques of [[chemistry]] and [[mineralogy]] to analyze the dust from Itokawa.<ref name="Nakamura-2011" /> Itokawa{{'s}} composition was found to match the common type of [[meteorites]] known as "low-total-iron, low metal ordinary [[chondrite]]s".<ref name=LATimes26aug>{{cite news|title=Most Earth meteorites linked to single asteroid|url=http://www.latimes.com/news/science/la-sci-asteroid-meteorites-20110826,0,4632492.story|access-date=26 August 2011|newspaper=Los Angeles Times|date=26 August 2011}}</ref> Another team of scientists determined that the dark iron color on the surface of Itokawa was the result of abrasion by [[micrometeoroid]]s and high-speed particles from the Sun which had converted the normally whitish iron oxide coloring.<ref name=LATimes26aug/>
+
+==== 2018 Hayabusa results ====
+
+Two [[Corroboration|separate groups]] report [[Asteroidal water|water]] in [[Replicability|different]] Itokawa particles. Jin et al. report water in low-calcium [[pyroxene]] grains. The water's isotope level corresponds with [[inner Solar System]] and carbonaceous chondrite water isotope levels.<ref name="Jin-2018" /> Daly et al. report "[[Hydroxide|OH]] and {{H2O}}" apparently formed by implantation of [[solar wind]] hydrogen. The rims of an [[olivine]] particle "show an enrichment of up to ~1.2 at % in OH and H<sub>2</sub>O".<ref>{{cite journal |last1=Daly |first1=L |last2=Lee |first2=M |last3=Hallis |first3=L |last4=Bland |first4=P |last5=Reddy |first5=S|display-authors=et al |date=2018 |title=The origin of hydrogen in space weathered rims of Itokawa regolith particles |journal=2018 Hayabusa Symposium |type=PDF |url=https://curation.isas.jaxa.jp/symposium/abstract/2018/1206_1015_Luke_Daly.pdf}}</ref> The water concentrations of the Itokawa grains would indicate an estimated BSI (Bulk Silicate Itokawa) water content in line with Earth's bulk water, and that Itokawa had been a "water-rich asteroid".<ref>{{cite journal |last1=Jin Z |last2=Bose M |date=2018 |title=Establishing Itokawa's water contribution to Earth |journal=2018 Hayabusa Symposium |type=PDF |url=https://curation.isas.jaxa.jp/symposium/abstract/2018/1206_1000_Ziliang_Jin.pdf}}</ref>
+
+==== 2020 Hayabusa results ====
+
+At the 2020 [[Lunar and Planetary Science Conference]], a third group reported water and organics, via a third Hayabusa particle- RA-QD02-0612, or "Amazon." Olivine, pyroxene, and albite contain water. Isotopic compositions indicate a clear extraterrestrial origin.<ref>{{cite conference |last1=Chan |first1=Q |last2=Brunetto |first2=R |last3=Kebukawa |first3=Y |last4=Noguchi |first4=T |last5=Stephant |first5=A |last6=Franchi |first6=I |last7=Zhao |first7=X |last8=Johnson |first8=D |last9=Starkey |first9=N |last10=Anand |first10=M |last11=Russell |first11=S |last12=Schofield |first12=P |last13=Price |first13=M |last14=McDermott |first14=K |last15=Bradley |first15=R |last16=Gilmour |first16=J |last17=Lyon |first17=I |last18=Eithers |first18=P |last19=Lee |first19=M |last20=Sano |first20=Y |last21=Grady |first21=M |conference=51st LPSC |date=2020 |title=First Identification of Indigenous Organic Matter Alongside Water in Itokawa Particle Returned by the Hayabusa Mission |issue=2230 }} Sec. H2O abundance and isotopic composition</ref>
+
+==== 2021 Hayabusa results ====
+A further report by Daly's group was published which supported the theory that a large [[origin of water on Earth|source of Earth's water]] has come from hydrogen atoms carried on particles in the [[solar wind]] which combine with oxygen on asteroids and then arrive on Earth in space dust. Using atom probe tomography the study found hydroxide and water molecules on the surface of a single grain from particles retrieved from the asteroid Itokawa by the Japanese space probe Hayabusa.<ref>{{cite journal |last1=Daly |first1=Luke |last2=Lee |first2=Martin R. |last3=Hallis |first3=Lydia J. |last4=Ishii |first4=Hope A. |last5=Bradley |first5=John P. |last6=Bland |first6=Phillip. A. |last7=Saxey |first7=David W. |last8=Fougerouse |first8=Denis |last9=Rickard |first9=William D. A. |last10=Forman |first10=Lucy V. |last11=Timms |first11=Nicholas E. |last12=Jourdan |first12=Fred |last13=Reddy |first13=Steven M. |last14=Salge |first14=Tobias |last15=Quadir |first15=Zakaria |last16=Christou |first16=Evangelos |last17=Cox |first17=Morgan A. |last18=Aguiar |first18=Jeffrey A. |last19=Hattar |first19=Khalid |last20=Monterrosa |first20=Anthony |last21=Keller |first21=Lindsay P. |last22=Christoffersen |first22=Roy |last23=Dukes |first23=Catherine A. |last24=Loeffler |first24=Mark J. |last25=Thompson |first25=Michelle S. |title=Solar wind contributions to Earth's oceans |journal=Nature Astronomy |date=December 2021 |volume=5 |issue=12 |pages=1275–1285 |doi=10.1038/s41550-021-01487-w|s2cid=244744492 |url=http://eprints.gla.ac.uk/244833/3/244833.pdf }}</ref><ref>{{cite web |last1=Daly |first1=Luke |last2=Lee |first2=Martin R. |last3=Timms |first3=Nick |last4=Bland |first4=Phil |title=Up to half of Earth's water may come from solar wind and space dust |url=https://phys.org/news/2021-11-earth-solar-space.html |website=Phys Org |date=30 November 2021}}</ref>
+
+[[Dust ponds]] are identified in the asteroid. They are a phenomenon where pockets of dust are seen in Celestial bodies without a significant atmosphere. Smooth deposits of dust accumulate in depressions on the surface of the body (like craters), contrasting from the Rocky terrain around them.<ref>{{cite web|url= https://skyandtelescope.org/astronomy-news/eross-puzzling-surface/|title=Eros's puzzling surface|website=skyandtelescope.org|access-date=18 October 2023}}</ref> In the Sagamihara and Muses-Sea regions of the asteroid dust ponds were identified. Dust particles had a size varying from millimeters to less than a centimeter.
+
+== See also ==
+* [[162173 Ryugu]], target of sample-return mission [[Hayabusa2]], the successor to Hayabusa
+* [[101955 Bennu]], target of NASA sample-return mission [[OSIRIS-REx]]
+* {{mpl|(341843) 2008 EV|5}}, target of cancelled NASA sample-return mission [[Asteroid Redirect Mission]]
+
+== Notes ==
+{{notelist|refs=
+
+{{efn|name=lightcurve-plot-Warner|1={{usurped|1=[https://web.archive.org/web/20170322204317/http://www.minorplanetobserver.com/pdolc/A25143_2004.HTM Lightcurve plot of (25143) Itokawa]}}, Palmer Divide Observatory {{Obscode|716}} by [[Brian D. Warner|B. D. Warner]] (2004). Summary figures at the [http://www.minorplanet.info/PHP/generateOneAsteroidInfo.php?AstInfo=25143%7CItokawa LCDB].}}
+
+}} <!-- end of notelist -->
+
+== References ==
+{{reflist|30em|refs=
+
+<ref name="jpldata">{{cite web
+  |type       = 2019-02-04 last obs.
+  |title      = JPL Small-Body Database Browser: 25143 Itokawa (1998 SF36)
+  |url        = https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2025143
+  |publisher  = [[Jet Propulsion Laboratory]]
+  |access-date = 25 February 2019}}</ref>
+
+<ref name="springer">{{cite book
+  |title      = Dictionary of Minor Planet Names – (25143) Itokawa, Addendum to Fifth Edition: 2003–2005
+  |last       = Schmadel | first = Lutz D.
+  |publisher  = Springer Berlin Heidelberg
+  |chapter    = (25143) Itokawa [1.32, 0.28, 1.6] 
+  |page       = 188
+  |date       = 2006
+  |isbn       = 978-3-540-34361-5
+  |doi        = 10.1007/978-3-540-34361-5_2203}}</ref>
+
+<ref name="MPC-object">{{cite web
+  |title      = 25143 Itokawa (1998 SF36)
+  |publisher       = Minor Planet Center
+  |url        = https://www.minorplanetcenter.net/db_search/show_object?object_id=25143
+  |access-date = 25 February 2019}}</ref>
+
+<ref name="MPC-Circulars-Archive">{{cite web
+  |title      = MPC/MPO/MPS Archive
+  |publisher       = Minor Planet Center
+  |url        = https://www.minorplanetcenter.net/iau/ECS/MPCArchive/MPCArchive_TBL.html
+  |access-date = 15 August 2017}}</ref>
+
+<ref name="JAXA-Press-2009">{{cite web
+  |title      = Official Approval of Names on Itokawa by IAU
+  |work       = Press Release of JAXA
+  |date       = 3 March 2009
+  |url        = http://global.jaxa.jp/press/2009/03/20090303_itokawa_e.html
+  |access-date= 25 February 2019}}</ref>
+
+<ref name="GPN-Itokawa">{{cite web
+  |title      = Planetary Names: Itokawa
+  |work       = Gazetteer of Planetary Nomenclature – USGS Astrogeology Research Program
+  |url        = https://planetarynames.wr.usgs.gov/Page/ITOKAWA/target
+  |access-date = 25 February 2019}}</ref>
+
+<ref name="eso1405">{{cite web
+  |title      = The Anatomy of an Asteroid
+  |publisher  = ESO
+  |date       = 5 February 2014
+  |url        = http://www.eso.org/public/news/eso1405/
+  |access-date =5 February 2014}}</ref>
+
+<ref name="Ostro-2001">{{Cite journal
+  |display-authors = 6
+  |first1     = S. J. |last1 = Ostro
+  |first2     = L. A. M. |last2 = Benner
+  |first3     = M. C. |last3 = Nolan
+  |first4     = J. D. |last4 = Giorgini
+  |first5     = R. F. |last5 = Jurgens
+  |first6     = R. |last6 = Rose
+  |first7     = D. K. |last7 = Yeomans
+  |date       = November 2001
+  |title      = Radar Observations of Asteroid 25143 (1998 SF36)
+  |url = http://echo.jpl.nasa.gov/asteroids/Itokawa/ostro.etal.2004.itokawa.pdf
+  |archive-url = https://web.archive.org/web/20161224210144/http://echo.jpl.nasa.gov/asteroids/Itokawa/ostro.etal.2004.itokawa.pdf
+  |archive-date = 2016-12-24
+  |journal    = American Astronomical Society
+  |volume     = 33
+  |page       = 1117
+  |bibcode    = 2001DPS....33.4113O
+  |access-date= 25 February 2019}}</ref>
+
+<ref name="Nakamura-2011">{{Cite journal
+  |display-authors = 6
+  |first1     = Tomoki |last1 = Nakamura
+  |first2     = Takaaki |last2 = Noguchi
+  |first3     = Masahiko |last3 = Tanaka
+  |first4     = Michael E. |last4 = Zolensky
+  |first5     = Makoto |last5 = Kimura
+  |first6     = Akira |last6 = Tsuchiyama
+  |first7     = Aiko |last7 = Nakato
+  |first8     = Toshihiro |last8 = Ogami
+  |first9     = Hatsumi |last9 = Ishida
+  |first10    = Masayuki |last10 = Uesugi
+  |first11    = Toru |last11 = Yada
+  |first12    = Kei |last12 = Shirai
+  |first13    = Akio |last13 = Fujimura
+  |first14    = Ryuji |last14 = Okazaki
+  |first15    = Scott A. |last15 = Sandford
+  |first16    = Yukihiro |last16 = Ishibashi
+  |first17    = Masanao |last17 = Abe
+  |first18    = Tatsuaki |last18 = Okada
+  |first19    = Munetaka |last19 = Ueno
+  |first20    = Toshifumi |last20 = Mukai
+  |first21    = Makoto |last21 = Yoshikawa
+  |first22    = Junichiro |last22 = Kawaguchi
+  |date       = August 2011
+  |title      = Itokawa Dust Particles: A Direct Link Between S-Type Asteroids and Ordinary Chondrites
+  |journal    = Science
+  |volume     = 333
+  |issue      = 6046
+  |pages      = 1113–1116
+  |bibcode    = 2011Sci...333.1113N 
+  |doi        = 10.1126/science.1207758
+  |pmid       = 21868667
+  |s2cid = 10271142 }}</ref>
+
+<ref name="Fujiwara-2006">{{Cite journal
+  |display-authors = 6
+  |first1     = A. |last1 = Fujiwara
+  |first2     = J. |last2 = Kawaguchi
+  |first3     = D. K. |last3 = Yeomans
+  |first4     = M. |last4 = Abe
+  |first5     = T. |last5 = Mukai
+  |first6     = T. |last6 = Okada
+  |first7     = J. |last7 = Saito
+  |first8     = H. |last8 = Yano
+  |first9     = M. |last9 = Yoshikawa
+  |first10    = D. J. |last10 = Scheeres
+  |first11    = O. |last11 = Barnouin-Jha
+  |first12    = A. F. |last12 = Cheng
+  |first13    = H. |last13 = Demura
+  |first14    = R. W. |last14 = Gaskell
+  |first15    = N. |last15 = Hirata
+  |first16    = H. |last16 = Ikeda
+  |first17    = T. |last17 = Kominato
+  |first18    = H. |last18 = Miyamoto
+  |first19    = A. M. |last19 = Nakamura
+  |first20    = R. |last20 = Nakamura
+  |first21    = S. |last21 = Sasaki
+  |first22    = K. |last22 = Uesugi
+  |date       = June 2006
+  |title      = The Rubble-Pile Asteroid Itokawa as Observed by Hayabusa
+  |url        = https://www.researchgate.net/publication/7042075
+  |journal    = Science
+  |volume     = 312
+  |issue      = 5778
+  |pages      = 1330–1334
+  |bibcode    = 2006Sci...312.1330F 
+  |doi        = 10.1126/science.1125841
+  |pmid = 16741107 |s2cid = 206508294 |access-date= 25 February 2019}}</ref>
+
+<ref name="Abe-2006">{{Cite journal
+  |display-authors = 6
+  |first1     = Shinsuke |last1 = Abe
+  |first2     = Tadashi |last2 = Mukai
+  |first3     = Naru |last3 = Hirata
+  |first4     = Olivier S. |last4 = Barnouin-Jha
+  |first5     = Andrew F. |last5 = Cheng
+  |first6     = Hirohide |last6 = Demura
+  |first7     = Robert W. |last7 = Gaskell
+  |first8     = Tatsuaki |last8 = Hashimoto
+  |first9     = Kensuke |last9 = Hiraoka
+  |first10    = Takayuki |last10 = Honda
+  |first11    = Takashi |last11 = Kubota
+  |first12    = Masatoshi |last12 = Matsuoka
+  |first13    = Takahide |last13 = Mizuno
+  |first14    = Ryosuke |last14 = Nakamura
+  |first15    = Daniel J. |last15 = Scheeres
+  |first16    = Makoto |last16 = Yoshikawa
+  |date       = June 2006
+  |title      = Mass and Local Topography Measurements of Itokawa by Hayabusa
+  |journal    = Science
+  |volume     = 312
+  |issue      = 5778
+  |pages      = 1344–1349
+  |bibcode    = 2006Sci...312.1344A 
+  |doi        = 10.1126/science.1126272
+  |pmid = 16741111 |s2cid = 37768313 |hdl= 20.500.14094/90001254
+  |hdl-access= free
+  }}</ref>
+
+<ref name="Jin-2018">{{Cite conference
+  |first1     = Z. L. |last1 = Jin
+  |first2     = M. |last2 = Bose
+  |first3     = Z. |last3 = Peeters
+  |date       = March 2018
+  |title      = New Clues to Ancient Water on Itokawa
+  |url        = https://www.hou.usra.edu/meetings/lpsc2018/pdf/1670.pdf
+  |conference    = 49th Lunar and Planetary Science Conference
+ |page = 1670|bibcode=2018LPI....49.1670J}}{{cite journal | last1=Jin | first1=Ziliang | last2=Bose | first2=Maitrayee | title=New clues to ancient water on Itokawa | journal=Science Advances | publisher=American Association for the Advancement of Science (AAAS) | volume=5 | issue=5 | year=2019 | issn=2375-2548 | doi=10.1126/sciadv.aav8106 | article-number=eaav8106|pmid=31114801|pmc=6527261|bibcode=2019SciA....5.8106J}}</ref>
+
+<ref name="lcdb">{{cite LCDB|number = 25143
+  |access-date = 15 August 2017}}</ref>
+
+<ref name="Carry-2016">{{cite journal
+  |first1     = B. |last1 = Carry
+  |first2     = E. |last2 = Solano
+  |first3     = S. |last3 = Eggl
+  |first4     = F. E. |last4 = DeMeo
+  |date       = April 2016
+  |title      = Spectral properties of near-Earth and Mars-crossing asteroids using Sloan photometry
+  |journal    = Icarus
+  |volume     = 268
+  |pages      = 340–354
+  |bibcode    = 2016Icar..268..340C
+  |doi        = 10.1016/j.icarus.2015.12.047
+  |arxiv      = 1601.02087
+  |s2cid = 119258489
+ }}</ref>
+
+<ref name="Thomas-2014">{{Cite journal
+  |first1     = Cristina A. |last1 = Thomas
+  |first2     = Joshua P. |last2 = Emery
+  |first3     = David E. |last3 = Trilling
+  |first4     = Marco |last4 = Delbó
+  |first5     = Joseph L. |last5 = Hora
+  |first6     = Michael |last6 = Mueller
+  |date       = January 2014
+  |title      = Physical characterization of Warm Spitzer-observed near-Earth objects
+  |journal    = Icarus
+  |volume     = 228
+  |pages      = 217–246
+  |bibcode    = 2014Icar..228..217T
+  |doi        = 10.1016/j.icarus.2013.10.004
+  |arxiv      = 1310.2000
+  |s2cid = 119278697
+ }}</ref>
+
+<ref name="Kaasalainen-2003">{{Cite journal
+  |display-authors = 6
+  |first1     = M. |last1 = Kaasalainen
+  |first2     = T. |last2 = Kwiatkowski
+  |first3     = M. |last3 = Abe
+  |first4     = J. |last4 = Piironen
+  |first5     = T. |last5 = Nakamura
+  |first6     = Y. |last6 = Ohba
+  |first7     = B. |last7 = Dermawan
+  |first8     = T. |last8 = Farnham
+  |first9     = F. |last9 = Colas
+  |first10    = S. |last10 = Lowry
+  |first11    = P. |last11 = Weissman
+  |first12    = R. J. |last12 = Whiteley
+  |first13    = D. J. |last13 = Tholen
+  |first14    = S. M. |last14 = Larson
+  |first15    = M. |last15 = Yoshikawa
+  |first16    = I. |last16 = Toth
+  |first17    = F. P. |last17 = Velichko
+  |date       = July 2003
+  |title      = CCD photometry and model of MUSES-C target (25143) 1998 SF36
+  |journal    = Astronomy and Astrophysics
+  |volume     = 405 |issue     = 3 |pages      = L29–L32
+  |bibcode    = 2003A&A...405L..29K
+  |doi        = 10.1051/0004-6361:20030819
+  |doi-access= free
+  }}</ref>
+
+<ref name="Sekiguchi-2003">{{Cite journal
+  |first1     = T. |last1 = Sekiguchi
+  |first2     = M. |last2 = Abe
+  |first3     = H. |last3 = Boehnhardt
+  |first4     = B. |last4 = Dermawan
+  |first5     = O. R. |last5 = Hainaut
+  |first6     = S. |last6 = Hasegawa
+  |date       = January 2003
+  |title      = Thermal observations of MUSES-C mission target (25143) 1998 SF36
+  |journal    = Astronomy and Astrophysics
+  |volume = 397
+  |pages      = 325–328
+  |bibcode    = 2003A&A...397..325S
+  |doi        = 10.1051/0004-6361:20021437
+  |doi-access= free
+  }}</ref>
+
+<ref name="Mueller-2011a">{{Cite journal
+  |display-authors = 6
+  |first1     = Michael |last1 = Mueller
+  |first2     = M. |last2 = Delbo'
+  |first3     = J. L. |last3 = Hora
+  |first4     = D. E. |last4 = Trilling
+  |first5     = B. |last5 = Bhattacharya
+  |first6     = W. F. |last6 = Bottke
+  |first7     = S. |last7 = Chesley
+  |first8     = J. P. |last8 = Emery
+  |first9     = G. |last9 = Fazio
+  |first10    = A. W. |last10 = Harris
+  |first11    = A. |last11 = Mainzer
+  |first12    = M. |last12 = Mommert
+  |first13    = B. |last13 = Penprase
+  |first14    = H. A. |last14 = Smith
+  |first15    = T. B. |last15 = Spahr
+  |first16    = J. A. |last16 = Stansberry
+  |first17    = C. A. |last17 = Thomas
+  |date       = April 2011
+  |title      = ExploreNEOs. III. Physical Characterization of 65 Potential Spacecraft Target Asteroids
+  |journal    = The Astronomical Journal
+  |volume     = 141
+  |issue      = 4
+  |page       = 9
+  |bibcode    = 2011AJ....141..109M
+  |doi        = 10.1088/0004-6256/141/4/109|s2cid = 44827674 |url = https://authors.library.caltech.edu/23152/1/Mueller2011p13239Astron_J.pdf }}</ref>
+
+<ref name="Lambert-2001">{{Cite journal
+  |first1     = J. S. |last1 = Lambert
+  |first2     = D. J. |last2 = Tholen
+  |date       = December 2001
+  |title      = Rotational Studies of MUSES-C Target Asteroid (25143) 1998 SF36
+  |journal    = American Astronomical Society
+  |volume     = 33
+  |page       = 1402
+  |bibcode    = 2001AAS...199.6303L
+  }}</ref>
+
+<ref name="Lowry-2001">{{Cite journal
+  |first1     = S. C. |last1 = Lowry
+  |first2     = P. R. |last2 = Weissman
+  |first3     = M. D. |last3 = Hicks
+  |date       = November 2001
+  |title      = CCD Observations of Asteroid 1998 SF36 (25143)
+  |journal    = American Astronomical Society
+  |volume     = 33
+  |page       = 1150
+  |bibcode    = 2001DPS....33.5909L
+  }}</ref>
+
+<ref name="Dermawan-2002">{{Cite journal
+  |first1     = Budi |last1 = Dermawan
+  |first2     = Tsuko |last2 = Nakamura
+  |first3     = Hideo |last3 = Fukushima
+  |first4     = Hideo |last4 = Sato
+  |first5     = Fumi |last5 = Yoshida
+  |first6     = Yusuke |last6 = Sato
+  |date       = August 2002
+  |title      = CCD Photometry of the MUSES-C Mission Target: Asteroid (25143) 1998 SF36
+  |journal    = Publications of the Astronomical Society of Japan
+  |volume     = 54
+  |issue      = 4
+  |pages      = 635–640
+  |bibcode    = 2002PASJ...54..635D
+  |doi        = 10.1093/pasj/54.4.635
+  |doi-access= free
+  }}</ref>
+
+<ref name="Ohba-2003">{{Cite journal
+  |display-authors = 6
+  |first1     = Y. |last1 = Ohba
+  |first2     = M. |last2 = Abe
+  |first3     = S. |last3 = Hasegawa
+  |first4     = M. |last4 = Ishiguro
+  |first5     = T. |last5 = Kwiatkowski
+  |first6     = F. |last6 = Colas
+  |first7     = B. |last7 = Dermawan
+  |first8     = A. |last8 = Fujiwara
+  |date       = June 2003
+  |title      = Pole orientation and triaxial ellipsoid shape of (25143) 1998 SF36, a target asteroid of the MUSES-C* mission
+  |journal    = Earth
+  |volume     = 55
+  |issue = 6 |pages      = 341–347.(EP&SHomepage)
+  |doi = 10.1186/BF03351767 |bibcode    = 2003EP&S...55..341O
+  |s2cid = 55758400 |doi-access= free
+  }}</ref>
+
+<ref name="Warner-2004c">{{Cite journal
+  |author     = Warner, Brian D.
+  |date       = September 2004
+  |title      = Lightcurve analysis for numbered asteroids 301, 380, 2867, 8373, 25143, and 31368
+  |journal    = The Minor Planet Bulletin
+  |volume     = 31
+  |issue      = 3
+  |pages      = 67–70
+  |issn       = 1052-8091
+  |bibcode    = 2004MPBu...31...67W
+  }}</ref>
+
+<ref name="Lowry-2005">{{Cite journal
+  |first1     = Stephen C. |last1 = Lowry
+  |first2     = Paul R. |last2 = Weissman
+  |first3     = Michael D. |last3 = Hicks
+  |first4     = Robert J. |last4 = Whiteley
+  |first5     = Steve |last5 = Larson
+  |date       = August 2005
+  |title      = Physical properties of Asteroid (25143) Itokawa – Target of the Hayabusa sample return mission
+  |journal    = Icarus
+  |volume     = 176
+  |issue      = 2
+  |pages      = 408–417
+  |bibcode    = 2005Icar..176..408L
+  |doi        = 10.1016/j.icarus.2005.02.002
+  }}</ref>
+
+<ref name="Nishihara-2005">{{Cite journal
+  |display-authors = 6
+  |first1     = S. |last1 = Nishihara
+  |first2     = M. |last2 = Abe
+  |first3     = S. |last3 = Hasegawa
+  |first4     = M. |last4 = Ishiguro
+  |first5     = K. |last5 = Kitazato
+  |first6     = N. |last6 = Miura
+  |first7     = H. |last7 = Nonaka
+  |first8     = Y. |last8 = Ohba
+  |first9     = M. |last9 = Okyudo
+  |first10    = T. |last10 = Ozawa
+  |first11    = Y. |last11 = Sarugaku
+  |first12    = M. |last12 = Ueno
+  |date       = March 2005
+  |title      = Ground-based Lightcurve Observation of (25143) Itokawa, 2001–2004
+  |journal    = 36th Annual Lunar and Planetary Science Conference
+  |volume     = 36 |page    = 1833 |bibcode    = 2005LPI....36.1833N
+  }}</ref>
+
+<ref name="Durech-2008a">{{Cite journal
+  |display-authors = 6
+  |first1     = J. |last1 = Durech
+  |first2     = D. |last2 = Vokrouhlický
+  |first3     = M. |last3 = Kaasalainen
+  |first4     = P. |last4 = Weissman
+  |first5     = S. C. |last5 = Lowry
+  |first6     = E. |last6 = Beshore
+  |first7     = D. |last7 = Higgins
+  |first8     = Y. N. |last8 = Krugly
+  |first9     = V. G. |last9 = Shevchenko
+  |first10    = N. M. |last10 = Gaftonyuk
+  |first11    = Y.-J. |last11 = Choi
+  |first12    = R. A. |last12 = Kowalski
+  |first13    = S. |last13 = Larson
+  |first14    = B. D. |last14 = Warner
+  |first15    = A. L. |last15 = Marshalkina
+  |first16    = M. A. |last16 = Ibrahimov
+  |first17    = I. E. |last17 = Molotov
+  |first18    = T. |last18 = Michalowski
+  |first19    = K. |last19 = Kitazato
+  |date       = September 2008
+  |title      = New photometric observations of asteroids (1862) Apollo and (25143) Itokawa – an analysis of YORP effect
+  |journal    = Astronomy and Astrophysics
+  |volume     = 488
+  |issue      = 1
+  |pages      = 345–350
+  |bibcode    = 2008A&A...488..345D
+  |doi        = 10.1051/0004-6361:200809663
+  |doi-access= free
+  }}</ref>
+
+<ref name="Thomas-2011b">{{Cite journal
+  |display-authors = 6
+  |first1     = C. A. |last1 = Thomas
+  |first2     = D. E. |last2 = Trilling
+  |first3     = J. P. |last3 = Emery
+  |first4     = M. |last4 = Mueller
+  |first5     = J. L. |last5 = Hora
+  |first6     = L. A. M. |last6 = Benner
+  |first7     = B. |last7 = Bhattacharya
+  |first8     = W. F. |last8 = Bottke
+  |first9     = S. |last9 = Chesley
+  |first10    = M. |last10 = Delbó
+  |first11    = G. |last11 = Fazio
+  |first12    = A. W. |last12 = Harris
+  |first13    = A. |last13 = Mainzer
+  |first14    = M. |last14 = Mommert
+  |first15    = A. |last15 = Morbidelli
+  |first16    = B. |last16 = Penprase
+  |first17    = H. A. |last17 = Smith
+  |first18    = T. B. |last18 = Spahr
+  |first19    = J. A. |last19 = Stansberry
+  |date       = September 2011
+  |title      = ExploreNEOs. V. Average Albedo by Taxonomic Complex in the Near-Earth Asteroid Population
+  |journal    = The Astronomical Journal
+  |volume     = 142
+  |issue      = 3
+  |page       = 12
+  |bibcode    = 2011AJ....142...85T
+  |doi        = 10.1088/0004-6256/142/3/85
+  |doi-access= free
+  }}</ref>
+
+}} <!-- end of reflist -->
+
+== Further reading ==
+* {{cite journal|doi=10.1126/science.328.5978.565|last1=Normile|first1=D|title=Spunky Hayabusa Heads Home With Possible Payload|journal=Science|page=565|issue=5978|volume=328|date=30 April 2010|pmid=20430991|bibcode = 2010Sci...328..565N }}
+
+==External links==
+{{Commons|(25143) Itokawa|25143 Itokawa}}
+* [http://www.isas.jaxa.jp/e/snews/2005/1102.shtml Hayabusa's Scientific and Engineering Achievements during Proximity Operations around Itokawa]&nbsp;(JAXA press release)
+* [https://planetarynames.wr.usgs.gov/ Gazetteer of Planetary Nomenclature]
+* [http://web.mit.edu/newsoffice/2003/asteroids2.html MIT's LINEAR asteroid named for Japan's 'Dr. Rocket'] (MIT press release)
+* [https://web.archive.org/web/20140110152254/http://www.hayabusa.isas.jaxa.jp/e/index.html JAXA Hayabusa official page]
+* [http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005Icar..179..291M Earth impact probability of the Asteroid (25143) Itokawa to be sampled by the spacecraft Hayabusa] (paper abstract)
+* Astronomy Picture of the Day: [http://antwrp.gsfc.nasa.gov/apod/ap050919.html Approaching Asteroid Itokawa], [http://antwrp.gsfc.nasa.gov/apod/ap051116.html A Robot's Shadow on Asteroid Itokawa], [http://antwrp.gsfc.nasa.gov/apod/ap051121.html The Missing Craters of Asteroid Itokawa], [http://antwrp.gsfc.nasa.gov/apod/ap051228.html Smooth Sections on Asteroid Itokawa]
+* [http://www.sciencemag.org/content/vol312/issue5778/index.dtl Special issue: Hayabusa at Itokawa], ''Science'', Vol. 312, no. 5778, 2 June 2006
+* [http://www.isas.jaxa.jp/e/snews/2006/0602.shtml Initial Scientific Results of Hayabusa's Investigation on Itokawa ~Summary of the Special Issue of "Science"Magazine~] (ISAS/JAXA press release)
+* [https://www.science.org/toc/science/333/6046 Hot Topic: Hayabusa{{snd}}Dust from Itokawa], ''Science'', Vol. 333, no. 6046, 26 August 2011
+* [https://web.archive.org/web/20120425080242/http://darts.isas.jaxa.jp/planet/project/hayabusa/data/shape/movies/itokawa_g070104.mov Animated model of Itokawa rotating (in anaglyph form for use with red-blue glasses)]
+* [http://www.isas.jaxa.jp/e/snews/2006/image/0602/b/20.jpg Itokawa in enhanced color] [http://www.isas.jaxa.jp/e/snews/2006/0602.shtml (From this presentation)]
+* [https://www.minorplanetcenter.net/iau/lists/t_phas.html List of the Potentially Hazardous Asteroids (PHAs)], ''Minor Planet Center''
+* [https://www.minorplanetcenter.net/iau/lists/PHACloseApp.html PHA Close Approaches To The Earth], ''Minor Planet Center''
+* [https://www.minorplanetcenter.net/iau/lists/t_apollos.html List Of Apollo Minor Planets (by designation)], ''Minor Planet Center''
+* {{NeoDys|25143}}
+* {{JPL small body}}
+
+{{Minor planets navigator |25142 Hopf |number=25143 |(25144) 1998 SC43}}
+{{Small Solar System bodies}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Itokawa}}
+[[Category:Apollo asteroids|025143]]
+[[Category:Discoveries by LINEAR|025143]]
+[[Category:Named minor planets]]
+[[Category:Minor planets visited by spacecraft|20050912]]
+[[Category:Articles containing video clips|025143]]
+[[Category:Extraterrestrial water]]
+[[Category:Potentially hazardous asteroids|025143]]
+[[Category:S-type asteroids|025143]]
+[[Category:Minor planets discovered in 1998|19980926]]

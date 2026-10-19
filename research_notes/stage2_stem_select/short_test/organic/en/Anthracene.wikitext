@@ -1,0 +1,234 @@
+{{chembox
+| Watchedfields  = changed
+| verifiedrevid  = 464364595
+| Name           = Anthracene
+| ImageFile_Ref  = {{chemboximage|correct|??}}
+| ImageFile      = Anthracene-numbering.svg
+| ImageClass     = skin-invert
+| ImageName      = Skeletal formula and numbering system of anthracene
+| ImageFile1     = Anthracene molecule ball.png
+| ImageClass1    = bg-transparent
+| ImageAlt1      = Ball-and-stick model of the anthracene molecule
+| ImageFile2     = Anthracene.jpg
+| ImageName2     = Anthracene
+| IUPACName      = Anthracene
+| Section1       = {{Chembox Identifiers
+| UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = EH46A1TLD7
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 35298
+| DrugBank_Ref = {{drugbankcite|correct|drugbank}}
+| DrugBank = DB07372
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 8111
+| PubChem = 8418
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = C14315
+| InChI = 1/C14H10/c1-2-6-12-10-14-8-4-3-7-13(14)9-11(12)5-1/h1-10H
+| InChIKey = MWPLVEDNUUSJAV-UHFFFAOYAK
+| SMILES = c1ccc2cc3ccccc3cc2c1
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 333179
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C14H10/c1-2-6-12-10-14-8-4-3-7-13(14)9-11(12)5-1/h1-10H
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = MWPLVEDNUUSJAV-UHFFFAOYSA-N
+| CASNo_Ref = {{cascite|correct|CAS}}
+| CASNo = 120-12-7
+| RTECS = CA9350000
+| EINECS = 217-004-5
+| Beilstein = 1905429
+| Gmelin = 67837
+| UNNumber = 3077
+  }}
+| Section2       = {{Chembox Properties
+| Properties_ref = <ref name="CRC97">{{RubberBible97th |pages=3–28, 3–576, 5–5, 5–67, 5–140, 5–173, 5–182, 6–95, 6–98, 8–38, 12–95, 16–17}}</ref>
+| C=14 | H=10
+| Appearance = Colorless
+| Odor = Weak aromatic
+| Density = {{val|1.28|u=g/cm3}}
+| MeltingPt = {{cvt|216|+/-|2|C|F K}}
+| BoilingPt = {{cvt|341.3|+/-|0.4|C|F K}}
+| Solubility = Insoluble ({{val|2.2|u=μg/100 g}})
+| Solvent = pressurized hot water
+| SolubleOther = {{ubl
+ |{{val|0.0101|u=% mass}} ({{cvt|150|C}}, {{val|50|u=bar}})
+ |{{val|0.49|u=% mass}} ({{cvt|250|C}}, {{val|50|u=bar}})
+ |{{val|3.62|u=% mass}} ({{cvt|300|C}}, {{val|100|u=bar}})
+ }}
+| Solvent1 = benzene
+| Solubility1 = {{val|1.86|u=g/100 g}}<ref name="sioc">{{cite book |last1=Seidell |first1=Atherton |last2=Linke |first2=William F. |year=1919 |title=Solubilities of Inorganic and Organic Compounds |url=https://archive.org/details/solubilitiesino01seidgoog/page/n111 |publisher=D. Van Nostrand Company |place=New York |edition=2nd |page=81}}</ref>
+| Solvent2 = carbon disulphide
+| Solubility2 = {{val|2.58|u=g/100 g}}<ref name="sioc"/>
+| Solvent3 = diethyl ether
+| Solubility3 = {{val|1.42|u=g/100 g}}<ref name="sioc"/>
+| Solvent4 = ethanol
+| Solubility4 = {{val|0.328|u=g/100 g}}<ref name="sioc"/>
+| Solvent5 = toluene
+| Solubility5 = {{ubl
+ |{{val|0.92|u=g/100 g}} ({{cvt|16.5|C}})
+ |{{val|12.94|u=g/100 g}} ({{cvt|100|C}})<ref name="sioc"/>
+ }}
+| LogP = 4.56
+| VaporPressure = {{ubl
+ |{{val|1|u=Pa}} ({{cvt|89.2|C}}, subl.)
+ |{{val|100|u=Pa}} ({{cvt|151.5|C}}, subl.)
+ |{{val|1|u=kPa}} ({{cvt|165|C}}, subl.)
+ |{{val|10|u=kPa}} ({{cvt|238.8|C}})
+ |{{val|100|u=kPa}} ({{cvt|340.2|C}})
+ }}
+| HenryConstant = {{val|0.00396|u=kPa·m{{sup|3}}|up=mol|fmt=none}}
+| ElectricalResistivity = {{val|1.5|e=11|u=Ω·cm}}
+| LambdaMax = {{val|252|u=nm}}, {{val|375|u=nm}}
+| BandGap = {{val|2.50|u=eV}}
+| ElectronMobility = {{val|2.3|u=cm2|up=(V·s)}}
+| MagSus = {{val|129.8|e=-6|u=cm3/mol}}
+  }}
+| Section3       = {{Chembox Structure
+| Structure_ref = {{nbsp}}({{val|290|u=K}})<ref name=sccs>{{cite book |url=https://books.google.com/books?id=hYRCAAAAQBAJ&pg=PA289|title = Structure and Chemistry of Crystalline Solids |last1=Douglas |first1=Bodie E. |last2=Ho |first2=Shih-Ming |publisher=Springer Science+Business Media, Inc. |year=2007 |isbn=978-0-387-26147-8 |place=New York |page=289}}</ref>
+| CrystalStruct = [[Monoclinic]]
+| SpaceGroup = P2{{sub|1}}/''b''
+| PointGroup = C{{sub|2h}}
+| LattConst_a = {{val|8.562|u=Å}}
+| LattConst_b = {{val|6.038|u=Å}}
+| LattConst_c = {{val|11.184|u=Å}}
+| LattConst_alpha = 
+| LattConst_beta = 124.7
+| LattConst_gamma = 
+| UnitCellFormulas = 2
+  }}
+| Section4 = {{Chembox Structure
+| Structure_ref = {{nbsp}}(metastable from vapor growth)<ref>{{cite journal |last1=Marciniak |first1=B. |last2=Pavlyuk |first2=V. |title=Crystal Structure of a Metastable Anthracene Modification, Grown from the Vapor Phase |journal=Molecular Crystals and Liquid Crystals |date=1 January 2002 |volume=373 |issue=1 |pages=237–250 |doi=10.1080/10587250210538}}</ref>
+| CrystalStruct = Monoclinic
+| SpaceGroup = P2{{sub|1}}/''n''
+| LattConst_a = {{val|8.553|u=Å}}
+| LattConst_b = {{val|6.021|u=Å}}
+| LattConst_c = {{val|22.334|u=Å}}
+| LattConst_alpha = 
+| LattConst_beta = 124.54
+| LattConst_gamma =
+| UnitCellFormulas = 4
+  }}
+| Section5       = {{Chembox Thermochemistry
+| Thermochemistry_ref =<ref name="CRC97"/>
+| HeatCapacity = {{val|210.5|u=J.mol-1.K-1}}
+| Entropy = {{val|207.5|u=J.mol-1.K-1}}
+| DeltaHf = {{ubl
+ |{{val|129.2|u=kJ.mol-1}} (solid)
+ |{{val|230.9|u=kJ.mol-1}} (gas)
+ }}
+| DeltaHc = {{val|7068|u=kJ.mol-1}}
+| DeltaHfus = {{val|29.4|u=kJ.mol-1}}
+  }}
+| Section7       = {{Chembox Hazards
+| GHS_ref = <ref name="sigma">{{Sigma-Aldrich|id=141062|name=Anthracene|access-date=2014-06-22}}</ref>
+| GHSPictograms = {{GHS|09}}
+| GHSSignalWord = Warning
+| HPhrases = {{H-phrases|410}}
+| PPhrases = {{P-phrases|273|391|501}}
+| NFPA-H = 2
+| NFPA-F = 1
+| NFPA-I = 1
+| NFPA-S = -
+| NFPA_ref =<ref name="FisherSDS">{{cite web |url=https://www.fishersci.com/store/msds?partNumber=AC104860050&productDescription=ANTHRACENE+5GR&vendorId=VN00032119&countryCode=US&language=en |title=SDS - Anthracene |website=www.fishersci.com |access-date=19 July 2026 |publisher=ThermoFisher Scientific |orig-date=3 May 2012 |date=18 December 2025 |version=Revision 9}}</ref>
+| FlashPtC = 121
+| FlashPt_ref = <ref name="CRC97"/>
+| AutoignitionPtC = 540
+| AutoignitionPt_ref = <ref name="CRC97"/>
+| ExploLimits = >0.6%<ref name="CRC97"/>
+| LD50 = {{ubl
+ |{{val|4900|u=mg/kg}} (rat, oral)<ref name="sigma"/>
+ |>{{val|1320|u=mg/kg}} (rat, dermal)<ref name="FisherSDS"/>
+ }}
+| NIOSH_ref = <ref name="sigma"/>
+| PEL = {{val|0.2|u=mg/m3}} (TWA)
+| REL = {{val|0.1|u=mg/m3}} (TWA)
+  }}
+}}
+
+'''Anthracene''' is a solid [[polycyclic aromatic hydrocarbon]] (PAH) of formula C<sub>14</sub>H<sub>10</sub>, consisting of three fused [[benzene]] rings. It is a component of [[coal tar]]. Anthracene is used as a precursor in the production of [[anthraquinone]] and its derivatives such as the red dye [[alizarin]], and as a [[scintillator]] to detect high energy particles. Anthracene is colorless but exhibits a blue (400–500&nbsp;nm peak) [[fluorescence]] under [[ultraviolet]] radiation.<ref>{{cite web|last=Lindsey |first=Jonathan |display-authors=etal |title=Anthracene |url=http://omlc.ogi.edu/spectra/PhotochemCAD/html/022.html |work=PhotochemCAD |access-date=20 February 2014}}</ref>
+
+== History and etymology ==
+Crude anthracene (with a melting point of only 180°) was discovered in 1832 by [[Jean-Baptiste Dumas]] and [[Auguste Laurent]]<ref name=":0">{{Cite journal |last=Wisniak |first=Jaime |date=2009 |title=Auguste Laurent: Radical and radicals |journal=Educación química |language=en |volume=20 |issue=2 |pages=166–175 |doi=10.1016/S0187-893X(18)30023-5 |issn=0187-893X|doi-access=free }}</ref> who crystalized it from a fraction of coal tar later known as "anthracene oil". Since their (inaccurate) measurements showed the proportions of carbon and hydrogen of it to be the same as in [[naphthalene]], Laurent called it ''paranaphtaline'' in his 1835 publication of the discovery,<ref>{{Cite wikisource|title=fr:Comptes rendus de l'Académie des sciences/Tome 1, 1835/7 décembre}}</ref> which is translated to English as '''paranaphthalene'''.<ref name=":0" /> Two years later, however, he decided to rename the compound to its modern name derived from {{Langx|grc|ἄνθραξ|lit=coal|translit=anthrax}} because after discovering other polyaromatic hydrocarbons he decided it was only one of isomers of naphthalene.<ref>{{Cite book |url=https://books.google.com/books?id=wZg5AAAAcAAJ&pg=PA149 |title=Annales de chimie et de physique |date=1837 |language=fr}}</ref> This notion was disproved in 1850s and 1860s.<ref>{{Cite web |title=À propos de l'anthracène et de l'alizarine – p3 – N°467 – L'Actualité Chimique, le journal de la SCF |url=https://new.societechimiquedefrance.fr/numero/a-propos-de-lanthracene-et-de-lalizarine-p3-n467 |access-date=2024-11-11 |website=Société Chimique de France (SCF) |language=fr-FR}}</ref><ref>{{Cite journal |last1=Jackson |first1=C. Loring |last2=White |first2=J. Fleming |date=1880 |title=Researches on the Substituted Benzyl Compounds. Ninth Paper. The Synthesis of Anthracene and Phenanthrene from Orthobrombenzylbromide |url=https://www.jstor.org/stable/25138602 |journal=Proceedings of the American Academy of Arts and Sciences |volume=16 |pages=63–77 |jstor=25138602 |issn=0199-9818}}</ref>
+
+==Occurrence and production==
+Anthracene, as many other [[polycyclic aromatic hydrocarbons]], is generated during combustion processes. Most human exposure is through [[tobacco smoke]] or ingestion of [[charring|charred]] food.
+
+The mineral form of anthracene is called freitalite and is related to a coal deposit.<ref>Freitalite, Mindat, https://www.mindat.org/min-54360.html</ref> Coal tar, which contains around 1.5% anthracene, remains a major industrial source of this material.  Common impurities are [[phenanthrene]] and [[carbazole]].
+
+A classic laboratory method for the preparation of anthracene is by cyclodehydration of o-methyl- or o-methylene-substituted diarylketones in the so-called [[Elbs reaction]], for example from ''o''-tolyl phenyl ketone.<ref>{{Cite web |title=Anthracene |url=https://www.acs.org/content/acs/en/molecule-of-the-week/archive/a/anthracene.html |access-date=2022-09-14 |website=American Chemical Society |language=en}}</ref>
+
+==Reactions==
+===Reduction===
+Reduction of anthracene with alkali metals yields the deeply colored radical anion salts {{chem2|M+[anthracene]−}} (M = Li, Na, K).   Reduction with sodium in ethanol gives 9,10-[[dihydroanthracene]], preserving the aromaticity of the two flanking rings.<ref>{{OrgSynth|first = K. C.|last = Bass|title = 9,10-Dihydroanthracene|year = 1962|volume = 42|page = 48|doi = 10.15227/orgsyn.042.0048}}</ref>
+
+===Cycloadditions===
+In any solvent except water,<ref>{{Kirk-Othmer|title=Liquid salts for reactions|first1=Keith E.|last1=Johnson|first2=Richard M.|last2=Pagni|doi=10.1002/0471238961.liqupagn.a01|p=28}}</ref> anthracene [[photochemistry|photodimerize]]s by the action of [[ultraviolet|UV]] light:
+:[[Image:Anthracene Photodimerisation.svg|class=skin-invert-image|360px|Anthracene dimer]]
+
+The [[Dimer (chemistry)|dimer]], called dianthracene (or sometimes paranthracene), is connected by a pair of new carbon-carbon bonds, the result of the [4+4] [[cycloaddition]]. It reverts to anthracene thermally or with [[ultraviolet|UV]] irradiation below {{val|300|u=nm}}. Substituted anthracene derivatives behave similarly. The reaction is affected by the presence of [[oxygen]].<ref>{{cite book|author=Rickborn, Bruce |chapter=The Retro–Diels–Alder Reaction Part I. C-C Dienophiles |title=Organic Reactions|pages=1–393|doi=10.1002/0471264180.or052.01|year=1998|isbn=978-0-471-26418-7}}</ref><ref>{{cite journal |author=Bouas-Laurent, Henri |author2=Desvergne, Jean-Pierre |author3=Castellan, Alain |author4=Lapouyade, Rene |title=Photodimerization of anthracenes in fluid solution: Structural aspects|journal=Chemical Society Reviews|volume=29|pages=43–55|doi=10.1039/a801821i|year=2000}}</ref>
+
+Anthracene also reacts with dienophile [[singlet oxygen]] in a [4+2]-cycloaddition ([[Diels–Alder reaction]]):
+:[[Image:Anthracene singlet oxygen Diels-Alder reaction.svg|class=skin-invert-image|360px|none|Diels alder reaction of anthracene with singlet oxygen]]
+
+===With electrophiles===
+Chemical [[oxidation]] occurs readily, giving [[anthraquinone]], C<sub>14</sub>H<sub>8</sub>O<sub>2</sub> (below), for example using [[hydrogen peroxide]] and [[vanadyl acetylacetonate]].<ref>{{cite journal|doi=10.1021/ed100843a|title=Coordination Complexes as Catalysts: The Oxidation of Anthracene by Hydrogen Peroxide in the Presence of VO(acac)2|journal=Journal of Chemical Education|volume=88|issue=8|pages=1155–1157|year=2011|last1=Charleton|first1=Kimberly D. M.|last2=Prokopchuk|first2=Ernest M.|bibcode=2011JChEd..88.1155C}}</ref>
+:[[Image:Anthraquinone acsv.svg|class=skin-invert-image|120px|none|Anthraquione]]
+
+Electrophilic substitution of anthracene occurs at the 9 position.  For example, formylation affords [[9-Anthracenecarboxaldehyde|9-anthracenecarboxaldehyde]].  Substitution at other positions is effected indirectly, for example starting with anthroquinone.<ref>{{cite journal|doi=10.1016/j.tet.2017.08.038|title=Synthesis of asymmetrically disubstituted anthracenes|journal=Tetrahedron|volume=73|issue=40|pages=5892–5899|year=2017|last1=Škalamera|first1=Đani|last2=Veljković|first2=Jelena|last3=Ptiček|first3=Lucija|last4=Sambol|first4=Matija|last5=Mlinarić-Majerski|first5=Kata|last6=Basarić|first6=Nikola}}</ref>  Bromination of anthracene gives 9,10-dibromoanthracene.<ref>{{cite journal |doi=10.15227/orgsyn.003.0041 |doi-access=free|first1=I. M.|last1=Heilbron|first2=J. S.|last2=Heaton|title=9,10-Dibromoanthracene|journal=Organic Syntheses|year=1923|volume=3|page=41}}</ref>
+
+==Uses==
+Anthracene proper has application as an [[organic semiconductor]] and [[chemical feedstock]] for various preservatives and dyes.
+
+===Electronics===
+[[File:Fluorescence of Anthracene under UV light.jpg|thumb|left|Fluorescence of anthracene under UV light]]
+Anthracene is a wide band-gap [[organic semiconductor]], with an [[emission spectrum]] peaking in the [[dark violet]] ({{val|400|and|440|u=nm}}).  Organic [[field-effect transistor]]s have been constructed from it.  In [[particle physics]], it is used as a [[scintillator]] to detect high-energy [[photon]]s, [[electron]]s, or [[alpha particle]]s.<ref>{{Cite web |title=Anthracene |url=https://www.acs.org/molecule-of-the-week/archive/a/anthracene.html |access-date=2025-01-18 |website=American Chemical Society |language=en}}</ref>  Plastics, such as [[polyvinyltoluene]], can be doped with anthracene to produce an approximately water-equivalent scintillator in [[radiation therapy]] [[dosimetry]].
+
+Anthracene is commonly used as a UV tracer in conformal coatings applied to printed wiring boards.  The anthracene tracer allows the conformal coating to be inspected under UV light.<ref>{{cite tech report |last=Zeitler |first=Alex |date=27 June 2012 |url=https://www.smta.org/chapters/files/UpperMidwest_BTW_Conformal_Coating_June_27th_2012.pdf |title=Conformal Coating 101: General Overview, Process Development, and Control Methods |publisher=BTW, Inc}}</ref>
+
+===Derivatives===
+[[File:Antracene diradical AFM2.png|thumb|left|False-color [[atomic force microscopy|AFM]] image of anthracene diradical, where hydrogen atoms are removed at carbons 9 and 10]]
+A variety of anthracene derivatives find specialized uses.  Industrially, anthracene is converted mainly to [[anthraquinone]], a precursor to dyes.<ref name=Ullmann>{{Ullmann |last1=Collin |first1=Gerd |last2=Höke |first2=Hartmut |last3=Talbiersky |first3=Jörg |year=2006 |title=Anthracene |doi=10.1002/14356007.a02_343.pub2}}</ref>  Derivatives having a [[Hydroxide|hydroxyl group]] are 1-hydroxyanthracene and 2-hydroxyanthracene, homologous to [[phenol]] and [[naphthol (disambiguation)|naphthol]]s, and hydroxyanthracene (also called anthrol, and anthracenol)<ref>{{cite web |url=http://webbook.nist.gov/cgi/cbook.cgi?Name=1-hydroxyanthracene&Units=SI |title=1-Hydroxyanthracene - NIST datapage |website=webbook.nist.gov |publisher=US National Institute of Standards}}</ref><ref>{{cite web |url=http://webbook.nist.gov/cgi/cbook.cgi?Name=2-hydroxyanthracene&Units=SI |title=2-Hydroxyanthracene - NIST datapage |website=webbook.nist.gov |publisher=US National Institute of Standards}}</ref> are [[pharmacology|pharmacologically]] active.
+
+Anthracene may also be found with multiple hydroxyl groups, as in [[9,10-dihydroxyanthracene]].
+
+Some anthracene derivatives are used as pharmaceuticals, including the chemotherapeutic agent [[bisantrene]], and [[benzoctamine]].
+
+==Toxicology==
+Many investigations indicate that anthracene is noncarcinogenic: "consistently negative findings in numerous in vitro and in vivo genotoxicity tests". Early experiments suggested otherwise because crude samples were contaminated with other polycyclic aromatic hydrocarbons.<ref name=Ullmann/>  Nevertheless, the [[International Agency for Research on Cancer]] (IARC) classifies anthracene as [[IARC group 2B]], possibly carcinogenic to humans.<ref>{{Cite web |title=IARC Monographs evaluate the carcinogenicity of anthracene, 2-bromopropane, butyl methacrylate, and dimethyl hydrogen phosphite |url=https://www.iarc.who.int/faq/iarc-monographs-evaluate-the-carcinogenicity-of-anthracene-2-bromopropane-butyl-methacrylate-and-dimethyl-hydrogen-phosphite/#:~:text=Anthracene%20was%20classified%20as%20possibly,for%20cancer%20in%20experimental%20animals. |access-date=2025-01-17 |website=www.iarc.who.int |language=en-US}}</ref>
+
+Anthracene is readily biodegraded in soil.  It is especially susceptible to degradation in the presence of light.<ref name=Ullmann/>
+
+==See also==
+* [[9,10-Dithioanthracene]], derivative with two thiol groups added to the central ring
+* [[Phenanthrene]]
+* [[Acridine]]
+* [[Phenazine]]
+* [[Tetracene]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category|Anthracenes}}
+{{AmCyc Poster}}
+* {{ICSC|0825|08}}
+* [https://web.archive.org/web/20091114145131/http://monographs.iarc.fr/ENG/Monographs/vol32/volume32.pdf IARC – Monograph 32]
+* [https://web.archive.org/web/20060518002254/http://www.npi.gov.au/database/substance-info/profiles/74.html National Pollutant Inventory – Polycyclic Aromatic Hydrocarbon Fact Sheet]
+* [https://web.archive.org/web/20110122105255/http://echa.europa.eu/home_en.asp European Chemicals Agency – ECHA]
+* {{Cite EB1911|wstitle=Anthracene |short=x}}
+
+{{Hydrocarbons}}
+{{Tricyclics}}
+{{PAHs}}
+
+{{Authority control}}
+
+[[Category:Organic semiconductors]]
+[[Category:Phosphors and scintillators]]
+[[Category:IARC Group 2B carcinogens]]
+[[Category:Anthracenes| ]]
+[[Category:Ionising radiation detectors]]
+[[Category:Acenes]]
+[[Category:PBT substances]]
+[[Category:Polycyclic aromatic hydrocarbons]]

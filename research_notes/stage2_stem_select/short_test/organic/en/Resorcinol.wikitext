@@ -1,0 +1,160 @@
+{{use dmy dates|date=November 2022}}
+
+{{chembox
+| Verifiedfields = changed
+| Watchedfields = changed
+| verifiedrevid = 415763656
+| Name = Resorcinol
+| ImageFileL1 = Resorcinol.svg
+| ImageClassL1 = skin-invert-image
+| ImageSizeL1 = 150px
+| ImageNameL1 = Skeletal formula
+| ImageFileR1 = Resorcinol-3D-balls.png
+| ImageClassR1 = bg-transparent
+| ImageNameR1 = Ball-and-stick model
+| ImageSizeR1 = 100px
+| PIN = Benzene-1,3-diol<ref name=iupac2013>{{cite book | title =  Nomenclature of Organic Chemistry: IUPAC Recommendations and Preferred Names 2013 (Blue Book) | publisher = [[Royal Society of Chemistry|The Royal Society of Chemistry]] | date = 2014 | location = Cambridge | page = 691 | doi = 10.1039/9781849733069-FP001 | isbn = 978-0-85404-182-4| chapter = Front Matter }}</ref>
+| OtherNames = Resorcinol<ref name=iupac2013 /><br />Resorcin<br />''m''-Dihydroxybenzene<br />1,3-Benzenediol<br /> 1,3-Dihydroxybenzene<br />3-Hydroxyphenol<br />''m''-Benzenediol
+|Section1={{Chembox Identifiers
+| ChEBI_Ref = {{ebicite|changed|EBI}}
+| ChEBI = 27810
+| SMILES = c1cc(cc(c1)O)O
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 4878
+| PubChem = 5054
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 24147
+| UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = YUL4LO94HK
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = D00133
+| InChI = 1/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H
+| InChIKey = GHMLBKRAJCXXBS-UHFFFAOYAB
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = GHMLBKRAJCXXBS-UHFFFAOYSA-N
+| CASNo_Ref = {{cascite|correct|CAS}}
+| CASNo = 108-46-3
+| UNNumber = 2876
+  }}
+|Section2={{Chembox Properties
+| Formula = C<sub>6</sub>H<sub>6</sub>O<sub>2</sub>
+| MolarMass = 110.111 g/mol
+| Appearance = White solid<ref name=PGCH/>
+| Odor = Faint<ref name=PGCH/>
+| Density = 1.28 g/cm<sup>3</sup>, solid
+| Solubility = 110 g/100 mL at 20&nbsp;°C
+| MeltingPtC = 110
+| BoilingPtC = 277
+| pKa = 9.15<ref>{{cite journal | last1 = Gawron | first1 = O. | last2 = Duggan | first2 = M. | last3 = Grelechi | first3 = C. | year = 1952 | title =  Manometric Determination of Dissociation Constants of Phenols| doi = 10.1021/ac60066a013 | journal = Analytical Chemistry| volume = 24 | issue = 6| pages = 969–970 }}</ref>
+| VaporPressure = 0.0002 mmHg (25&nbsp;°C)<ref name=PGCH/>
+| Dipole = {{val|2.07|0.02|u=[[Debye|D]]}}<ref>{{cite journal|doi=10.1021/ja01218a051|title=The Dipole Moments of Catechol, Resorcinol and Hydroquinone|year=1945|last1=Lander|first1=John J.|last2=Svirbely|first2=John J. Lander, W. J.|journal=Journal of the American Chemical Society|volume=67|issue=2|pages=322–324|bibcode=1945JAChS..67..322L }}</ref>
+| MagSus = {{val|-67.26e-6|u=cm<sup>3</sup>/mol}}
+| RefractIndex = 1.578<ref name="CRC97">{{Cite book |title=CRC handbook of chemistry and physics: a ready-reference book of chemical and physical data. |date=2016 |others=William M. Haynes, David R. Lide, Thomas J. Bruno |isbn=978-1-4987-5428-6 |edition=2016-2017, 97th |location=Boca Raton, Florida |oclc=930681942}}</ref>
+  }}
+| Section4 = {{Chembox Thermochemistry
+| DeltaHform = −368.0&nbsp;kJ·mol<sup>−1</sup><ref name="CRC97"/>
+| DeltaHfus = 20.4&nbsp;kJ·mol<sup>−1</sup><ref name="CRC97"/>
+ }}
+|Section6={{Chembox Pharmacology
+| ATCCode_prefix = D10
+| ATCCode_suffix = AX02
+| ATC_Supplemental = {{ATC|S01|AX06}}
+}}
+|Section7={{Chembox Hazards
+| GHSPictograms = {{GHS|05|07|09}}
+| HPhrases = {{H-phrases|302|313|315|318|400}}
+| PPhrases = {{P-phrases|273|280|305+351+338}}
+| ExternalSDS =
+| FlashPtF = 261
+| FlashPt_ref =<ref name=PGCH/>
+| AutoignitionPtC = 608
+| AutoignitionPt_ref =<ref name="CRC97"/>
+| PEL = none<ref name=PGCH>{{PGCH|0543}}</ref>
+| ExploLimits = 1.4%-?<ref name=PGCH/>
+| IDLH = N.D.<ref name=PGCH/>
+| REL = TWA 10 ppm (45 mg/m<sup>3</sup>) ST 20 ppm (90 mg/m<sup>3</sup>)<ref name=PGCH/> 
+  }}
+}}
+
+'''Resorcinol''' (or '''resorcin''') is a [[Phenols|phenolic]] compound. It is an [[organic compound]] with the formula C<sub>6</sub>H<sub>4</sub>(OH)<sub>2</sub>.  It is one of three [[isomer]]ic [[benzenediol]]s, the 1,3-isomer (or ''[[meta- (chemistry)|meta]]''-isomer).  Resorcinol crystallizes from [[benzene]] as colorless needles that are readily soluble in water, alcohol, and ether, but insoluble in [[chloroform]] and [[carbon disulfide]].<ref name="Ullmann">{{Ullmanns|title=Resorcinol|author=K. W. Schmiedel |author2=D. Decker |doi=10.1002/14356007.a23_111.pub2|year=2012}}</ref>
+
+==Production==
+Resorcinol is produced in several steps from benzene, starting with dialkylation with [[propylene]] to give [[1,3-Diisopropylbenzene|1,3-diisopropylbenzene]].  Oxidation and [[Hock rearrangement]] of this disubstituted arene gives acetone and resorcinol.<ref name="Ullmann" />
+[[File:ResorcinolViaHock.svg|thumb|class=skin-invert-image|384px|center|Production of resorcinol via Hock Rearrangement]]
+Resorcinol is a relatively inexpensive chemical.<ref>{{cite web |last1=Chemical |first1=Oakwood |title=Resorcinol |url=https://oakwoodchemical.com/ProductsList.aspx?CategoryID=-2&txtSearch=80914 |website=Oakwood Chemical |access-date=29 May 2025}}</ref> It is produced in only a very few locations around the world (as of 2010 only four commercial plants were known to be operative: in the United States, Germany, China, and Japan), and is the determining factor in the cost of [[Phenol formaldehyde resin|PRF]] adhesives.<ref>Wood adhesives, [https://books.google.com/books?id=JsSiByxgGLQC&pg=PP1 Pizzi & Mittal, 2010]</ref> Production in the United States ended in 2017 with the closure of Indspec Chemical's plant in Petrolia, Pennsylvania.<ref>{{cite web |last1=McCoy |first1=Michael |title=Resorcinol plant to close |url=https://cen.acs.org/articles/95/i14/Resorcinol-plant-close.html |website=Chemical & Engineering News |publisher=American Chemical Society |access-date=6 December 2023}}</ref>
+
+Many additional routes exist for resorcinol.  It was formerly produced by disulfonation of benzene followed by hydrolysis of the 1,3-disulfonate.  This method has been discarded because it cogenerates so much sulfur-containing waste.  Resorcinol can also be produced when any of a large number of [[resin]]s (such as [[galbanum]] and [[asafoetida]]) are melted with [[potassium hydroxide]], or by the [[distillation]] of [[Brazilwood]] extract. It may be [[organic synthesis|synthesized]] by melting [[3-iodophenol]], phenol-3-sulfonic acid with [[potassium carbonate]]. Diazotization of [[3-aminophenol]] or on [[m-Phenylenediamine|1,3-diaminobenzene]] followed by hydrolysis provides yet another route.<ref>{{cite journal|journal = Berichte der Deutschen Chemischen Gesellschaft| first = J |last = Meyer | year = 1897 |pages = 2568–2569 |volume = 30| issue = 3 |doi =10.1002/cber.18970300334 | title =Notiz über die Umwandlung von Aminen in Phenole| url = https://zenodo.org/record/1425892 }}</ref> Many ''[[ortho- (chemistry)|ortho]]''- and ''[[para- (chemistry)|para]]''-compounds of the [[aromatic]] series (for example, the [[bromophenols]], benzene-''para''-disulfonic acid) also yield resorcinol on fusion with potassium hydroxide.
+
+==Reactions==
+Partial [[hydrogenation]] of resorcinol gives [[dihydroresorcinol]], also known as 1,3-cyclohexanedione.<ref name=OS>{{cite journal|title=Dihydroresorcinol|first1=R. B. |last1=Thompson|journal=Org. Synth.|year=1947|volume=27|page=21|doi=10.15227/orgsyn.027.0021|doi-access=free}}</ref><ref>{{cite journal|title=Methyl-1,3-Cyclohexanedione|first1=A. B. |last1=Mekler|first2=S.|last2=Ramachandran|first3=S.|last3=Swaminathan|first4=Melvin S.|last4=Newman|journal=Org. Synth.|year=1961|volume=41|page=56|doi=10.15227/orgsyn.041.0056|doi-access=free}}</ref>
+
+It reduces [[Fehling's solution]] and [[Tollens' reagent|ammoniacal silver solutions]]. It does not form a precipitate with [[lead acetate]] solution, as does the isomeric [[pyrocatechol]]. [[Iron(III) chloride]] colors its aqueous solution a dark-violet, and [[bromine]] water precipitates tribromoresorcinol. These properties are what give it its use as a colouring agent for certain [[chromatography]] experiments.
+
+[[Sodium amalgam]] reduces it to dihydroresorcin, which when heated to 150 to 160&nbsp;°C with concentrated [[barium hydroxide]] solution gives γ-acetylbutyric acid.{{Citation needed|date=February 2022}}
+
+When fused with potassium hydroxide, resorcinol yields [[phloroglucin]], [[pyrocatechol]], and [[diresorcinol]]. It [[condensation reaction|condenses]] with [[acid]]s or [[acid chloride]]s, in the presence of dehydrating agents, to oxyketones, for example, with [[zinc chloride]] and glacial [[acetic acid]] at 145&nbsp;°C it yields resacetophenone (HO)<sub>2</sub>C<sub>6</sub>H<sub>3</sub>COCH<sub>3</sub>.<ref>{{cite journal| journal = Journal für Praktische Chemie | title =Über die Verbindungen der ein- und zweibasischen Fettsäuren mit Phenolen | pages=147–156| first1=M. | last1= Nencki | first2= N. | last2= Sieber | doi= 10.1002/prac.18810230111| year = 1881 | volume = 23| issue =1 | url =https://zenodo.org/record/1427886 }}</ref> With the [[anhydride]]s of dibasic acids, it yields [[fluorescein]]s. When heated with [[calcium chloride]]—[[ammonia]] to 200&nbsp;°C it yields ''meta''-dioxydiphenylamine.<ref>A. Seyewitz, Bull. Soc. Chins., 1890, 3, p.&nbsp;811</ref> 
+
+With [[sodium nitrite]] it forms a water-soluble blue dye, which is turned red by acids, and is used as a [[pH indicator]] under the name of [[lacmoid]].<ref>{{cite journal | title = Ueber ein Lakmoid | doi = 10.1002/cber.188401702192 | first1 = M. C. | last1= Traub | first2= C. | last2 = Hock | journal = Berichte der Deutschen Chemischen Gesellschaft| year = 1884 | volume = 17 | issue = 2 | pages= 2615–2617| url = https://zenodo.org/record/1425349 }}</ref>  It condenses readily with [[aldehyde]]s, yielding with [[formaldehyde]], on the addition of catalytic [[hydrochloric acid]], methylene diresorcin [(HO)C<sub>6</sub>H<sub>3</sub>(O)]<sub>2</sub>CH<sub>2</sub>. Reaction with [[chloral hydrate]] in the presence of [[potassium bisulfate]] yields the [[lactone]] of tetra-oxydiphenyl methane carboxylic acid.<ref>J. T. Hewitt and F. G. Pope, Jour. C/tern. Soc., 1897, 75, p.&nbsp;1084</ref> In alcoholic solution it condenses with [[sodium acetoacetate]] to form [[4-methylumbelliferone]].<ref>{{cite journal | journal = Journal für Praktische Chemie |year =1888| volume = 37 |issue =1| title =Ueber das Verhalten von Natriummalonäther gegen Resorcinol| pages =469–471 | first1=Arthur | last1=Michael| doi= 10.1002/prac.18880370144|url =https://zenodo.org/record/1427932}}</ref>
+
+In addition to electrophilic aromatic addition, resorcinol (and other [[polyol]]s) undergo nucleophilic substitution via the [[Alpha-beta Unsaturated carbonyl compounds|enone]] [[tautomer]].
+
+Nitration with concentrated [[nitric acid]] in the presence of cold concentrated [[sulfuric acid]] yields trinitroresorcin ([[styphnic acid]]), an explosive.
+
+==Occurrence and use==
+Derivatives of resorcinol are found in different natural sources. [[Alkylresorcinol]]s are found in [[rye]].<ref>{{Cite journal |last=Suzuki |first=Y |date=1999 |title=Structures of 5-alkylresorcinol-related analogues in rye |url=https://linkinghub.elsevier.com/retrieve/pii/S003194229900196X |journal=Phytochemistry |volume=52 |issue=2 |pages=281–289 |doi=10.1016/S0031-9422(99)00196-X|bibcode=1999PChem..52..281S |url-access=subscription }}</ref> Polyresorcinols are found as [[pseudotannin]]s in plants.<ref>{{Cite journal |last1=Cheng |first1=H. A. |last2=Drinnan |first2=C. T. |last3=Pleshko |first3=N. |last4=Fisher |first4=O. Z. |date=2015-10-21 |title=Pseudotannins Self-assembled into Antioxidant Complexes |journal=[[Soft Matter (journal)|Soft Matter]] |volume=11 |issue=39 |pages=7783–7791 |doi=10.1039/c5sm01224d |issn=1744-683X |pmid=26313262|pmc=4589535 |bibcode=2015SMat...11.7783C }}</ref>
+
+===Adhesives===
+{{main|Resorcinol glue}}
+Resorcinol is mainly used in the production of resins. As a mixture with [[phenol]], it condenses with [[formaldehyde]] to afford [[Phenol formaldehyde resin|adhesives]]. Such resins are used as adhesives in the rubber industry and others are used for [[Resorcinol glue|wood glue]].<ref name="Ullmann" /> In relation to its conversion resins with formaldehyde, resorcinol is the starting material for [[resorcinarene]] rings.
+
+===Medical uses===
+Resorcinol is present in over-the-counter topical [[acne]] treatments at 2% or less concentration, and in prescription treatments at higher concentrations.<ref>{{cite journal | journal = Clinical and Experimental Dermatology| year = 2010 | volume = 35 | issue = 1 | pages = 36–40 | doi = 10.1111/j.1365-2230.2009.03377.x | pmid = 19549239 | last1 = Boer | first1 = J | last2 = Jemec | first2 = GB | title = Resorcinol peels as a possible self-treatment of painful nodules in hidradenitis suppurativa| s2cid = 1794323 }}</ref>  Monoacetylresorcinol, C<sub>6</sub>H<sub>4</sub>(OH)(O–COCH<sub>3</sub>), is used under the name of Euresol.<ref>[https://pubchem.ncbi.nlm.nih.gov/substance/7849452 Euresol], [[PubChem]]</ref> It is used in [[hidradenitis suppurativa]] with growing evidence showing it can help with resolution of early lesions. Typically it is compounded and prescribed in 10% or 15% concentrations and used twice a day for a few weeks to help new active lesions in patients with Hurley Stage I or II.<ref>Cordero-Ramos J, Barros-Tornay R, Toledo-Pastrana T, Ferrándiz L, Calleja-Hernández MÁ, Moreno-Ramírez D. Effectiveness and safety of topical 15% resorcinol in the management of mild-to-moderate hidradenitis suppurativa: A cohort study. J Dermatol. 2022;49:459–462. https://doi.org/10.1111/1346-8138.16275</ref><ref>E. Molinelli, V. Brisigotti, O. Simonetti, A. Campanati, C. Sapigni, G.M. D’Agostino, A. Giacchetti, C. Cota, A. Offidani, Efficacy and safety of topical resorcinol 15% as long‐term treatment of mild‐to‐moderate hidradenitis suppurativa: a valid alternative to clindamycin in the panorama of antibiotic resistance, British Journal of Dermatology, Volume 183, Issue 6, 1 December 2020, Pages 1117–1119, https://doi.org/10.1111/bjd.19337</ref> Resorcinol is one of the active ingredients in products such as [[Resinol]], [[Vagisil]], and [[Clearasil]].
+
+In the 1950s and early 1960s the British Army used it, in the form of a paste applied directly to the skin.  One such place where this treatment was given to soldiers with chronic acne was the Cambridge Military Hospital, Aldershot, England.  It was not always successful. {{citation needed|date=June 2026}}
+
+A resorcinol [[Derivative (chemistry)|derivative]], [[Hexylresorcinol|4-hexylresorcinol]], is an [[anesthetic]] found in [[throat lozenges]].
+
+===Chemical uses===
+Resorcinol is used as a chemical intermediate for the synthesis of pharmaceuticals and other organic compounds. It is used in the production of [[diazo dye]]s and [[plasticizer]]s and as a [[UV]] absorber in resins.
+
+It is an analytical reagent for the qualitative determination of [[ketose]]s ([[Seliwanoff's test]]).
+
+It is the starting material for the initiating explosive [[lead styphnate]].<ref>"Military Explosives," Department of the Army Technical Manual, TM-9-1300-214 (Washington, D.C.: Department of the Army, September 1984), p. 7-12.</ref>
+
+==Related compounds==
+[[Resazurin]], C<sub>12</sub>H<sub>7</sub>NO<sub>4</sub>, obtained by the action of [[nitrous acid]] on resorcinol,<ref>{{cite journal | first = P | last = Weselsky |title = Neue Derivate des Resorcins |trans-title=New derivatives of resorcinol |journal = Berichte der Deutschen Chemischen Gesellschaft | year = 1871 | volume = 4 | pages = 32–33 | url = https://books.google.com/books?id=rmkoAAAAYAAJ&pg=PA32 | doi=10.1002/cber.18710040114}}</ref> forms small dark red crystals possessing a greenish metallic glance. When dissolved in concentrated [[sulfuric acid]] and warmed to 210&nbsp;°C, the solution on pouring into water yields a precipitate of [[resorufin]], C<sub>12</sub>H<sub>7</sub>NO<sub>3</sub>, an [[oxyphenoxazone]], which is insoluble in water but is readily soluble in hot concentrated [[hydrochloric acid]], and in solutions of [[caustic soda|caustic alkalis]]. The alkaline solutions are of a rose-red color and show a cinnabar-red [[fluorescence]]. A tetrabromresorufin is used as a [[dyestuff]] under the name of Fluorescent Resorcin Blue.
+
+[[Thioresorcinol]] is obtained by the action of [[zinc]] and [[hydrochloric acid]] on ''meta''-benzenedisulfonyl chloride. It melts at 27&nbsp;°C and boils at 243&nbsp;°C. Resorcinol disulfonic acid, (HO)<sub>2</sub>C<sub>6</sub>H<sub>2</sub>(HSO<sub>3</sub>)<sub>2</sub>, is a [[Deliquescence|deliquescent]] mass obtained by the action of [[sulfuric acid]] on resorcin.<ref>{{cite journal | first1 = J. | last1 = Piccard |  first2 = A. | last2 = Humbert | year = 1876 | title = Ueber eine Resorcindisulfosäure |trans-title=On a resorcinol disulfonic acid | journal = Berichte der Deutschen Chemischen Gesellschaft | volume = 9 | issue = 2 | pages = 1479–1483 | url = https://books.google.com/books?id=hltBAAAAYAAJ&pg=PA1479 | doi=10.1002/cber.187600902133}}</ref> It is readily soluble in water and [[ethanol]].
+
+Resorcinol is also a common [[Scaffold (disambiguation)|scaffold]] that is found in a class of [[anticancer]] agents, some of which ([[luminespib]], ganetespib, KW-2478, and onalespib) were in [[clinical trials]] {{as of|2014|lc=y}}.<ref name="pmid23312026">{{cite journal |author1=Sidera, K. |author2=Patsavoudi, E. | title = HSP90 inhibitors: current development and potential in cancer therapy. | journal =  Recent Patents on Anti-Cancer Drug Discovery| volume = 9 | issue = 1 | pages = 1–20 |date=Jan 2014 | pmid = 23312026 | doi = 10.2174/15748928113089990031 }}</ref><ref name="pmid20055425">{{cite journal |author1=Biamonte, M. A. |author2=Van de Water, R. |author3=Arndt, J. W. |author4=Scannevin, R. H. |author5=Perret, D. |author6=Lee, W.-C. | title = Heat shock protein 90: Inhibitors in clinical trials. | journal =  Journal of Medicinal Chemistry| volume = 53 | issue = 1 | pages = 3–17 |date=Jan 2010 | pmid = 20055425 | doi = 10.1021/jm9004708 }}</ref>  Part of the resorcinol structure binds to inhibits the [[N-terminal domain]] of [[heat shock protein 90]], which is a [[drug target]] for anticancer treatments.<ref name="pmid23312026"/>
+
+==History, etymology, and nomenclature==
+Austrian chemist [[Heinrich Hlasiwetz]] (1825–1875) is remembered for his chemical analysis of resorcinol and for his part in the first preparation of resorcinol, along with [[Ludwig Barth zu Barthenau|Ludwig Barth]], which was published in 1864.<ref>Raj B. Durairaj.  ''Resorcinol: Chemistry, Technology and Applications.''  Springer Science & Business Media, 2005 {{ISBN|9783540280903}}</ref>{{rp|10}}<ref>{{cite journal | last1 = McConnell | first1 = Virginia F. | year = 1953 | title = Hlasiwetz and Barth — Pioneers in the structural aspects of plant products | journal = Journal of Chemical Education | volume = 30 | issue = 8| page = 380 | doi = 10.1021/ed030p380 | bibcode = 1953JChEd..30..380M }}</ref>
+
+Benzene-1,3-diol is the name recommended by the [[International Union of Pure and Applied Chemistry]] (IUPAC) in its ''1993 Recommendations for the Nomenclature of Organic Chemistry''.<ref>{{cite book | author=Panico, R.; & Powell, W. H. (Eds.) | title=A Guide to IUPAC Nomenclature of Organic Compounds 1992 | location=Oxford | publisher=Blackwell Science | year=1994 | isbn=978-0-632-03488-8}}</ref>
+
+Resorcinol is so named because of its derivation from ammoniated resin gum, and for its relation to the chemical [[orcinol]].<ref>H. Hlasiwetz and L. Barth (1864) [http://babel.hathitrust.org/cgi/pt?id=pst.000067447053;view=1up;seq=752 "Ueber einen neuen, dem Orcin homologen Körper"] (On a new substance homologous to orcin), ''Annalen der Chemie'', '''130''' (3) :  354-359.  Resorcinol is named on p. 358:  ''"Wir nennen den neuen Körper, da wir gefunden haben, dass er auch aus dem Ammoniakgummiharz erhalten werden kann, ''Resorcin'', um an seine Entstehung aus Harzen und seine Beziehung zum Orcin zu erinnern."''  (We name the new substance, since we have found that it can be obtained from ammoniated resin gum, ''resorcin'', in order to recall its creation from resin and its relation to [[orcinol|orcin]].)</ref>
+
+==Toxicity==
+Resorcinol has low toxicity, with an {{LD50}} (rats, oral) > 300 mg/kg.  It is less toxic than [[phenol]].<ref name="Ullmann" />
+
+Resorcinol was named a [[substance of very high concern]] under European Union [[Registration, Evaluation, Authorisation and Restriction of Chemicals|REACH]] in 2022 because of its [[Endocrine disruptor|endocrine disrupting]] properties.<ref>{{cite news |title=Resorcinol to be added to REACH candidate list after long battle |url=https://chemicalwatch.com/418254/resorcinol-to-be-added-to-reach-candidate-list-after-long-battle |access-date=16 August 2022 |work=Chemical Watch |date=February 10, 2022}}</ref>
+
+==References==
+{{reflist}}
+
+==External links==
+*[https://www.inchem.org/documents/icsc/icsc/eics1033.htm International Chemical Safety Card 1033]
+*[https://www.cdc.gov/niosh/npg/npgd0543.html NIOSH Pocket Guide to Chemical Hazards]
+*[https://web.archive.org/web/20030516221857/http://www-cie.iarc.fr/htdocs/monographs/vol71/046-resorcinol.html IARC Monograph: "Resorcinol"]
+*[http://www.acdlabs.com/iupac/nomenclature/ IUPAC Nomenclature of Organic Chemistry] (online version of the "''Blue Book''")
+
+{{EB1911 |wstitle=Resorcin |volume=23 |pages=183–184}}
+
+{{Authority control}}
+
+[[Category:Resorcinols| ]]
+[[Category:IARC Group 3 carcinogens]]
+[[Category:Endocrine disruptors]]

@@ -1,0 +1,1053 @@
+{{Short description|Dwarf planet in the scattered-disc}}
+{{Good article}}
+{{Use dmy dates|date=August 2024}}
+{{Infobox planet
+| minorplanet = yes
+| type = dwarf planet
+| name = Gonggong
+| symbol = [[File:Gonggong symbol (bold).svg|24px|🝽|class=skin-invert]]<ref name="anderson"/>
+| image = Xiangliu orbiting 225088 Gonggong (2010, cropped).jpg
+| caption = Low-resolution [[Hubble Space Telescope]] image of Gonggong and its moon [[Xiangliu (moon)|Xiangliu]] (Pointed at by arrow), 2010. 
+| discovery_ref = <ref name="MPC-object"/><ref name="MPEC"/>
+| discoverer = {{ubl|[[Megan Schwamb]]|[[Michael E. Brown]]|[[David L. Rabinowitz]]}}
+| discovery_site = [[Palomar Observatory|Palomar Obs.]]
+| discovered = 17 July 2007
+| mpc_name = (225088) Gonggong
+| alt_names = {{ubl
+ | (225088) Gonggong
+ | [[Minor planet provisional designation|{{mp|2007 OR|10}}]]
+ | "Snow White" (nickname)<ref name="BrownRedemption1"/>
+  }}
+| named_after = [[Gònggōng]] (共工)
+| pronounced = {{IPAc-en|ˈ|ɡ|ɒ|ŋ|ɡ|ɒ|ŋ}}<ref name="OED"/>
+| mp_category = {{nowrap|[[Trans-Neptunian object|TNO]]<ref name="jpldata"/>{{·}}[[Scattered disc|SDO]]<ref name="MPC-CEN-SDO-list"/><br />[[Resonant trans-Neptunian object|3:10 res.]]<ref name="Buie"/><ref name="johnstonsarchive-TNO-list"/>}}{{·}}[[dwarf planet]]<ref name="Brown-dplist"/>
+| orbit_ref = <ref name="MPC-object"/>
+| epoch = 21 November 2025 ([[Julian day|JD]] 2461000.5)
+| uncertainty = 3
+| observation_arc = {{time interval|1985-08-19|2025-09-25|show=yd}} ({{time interval|1985-08-19|2025-09-25|show=d}})
+| earliest_precovery_date = 19 August 1985
+| aphelion = {{cvt|100.555|AU|Tm|lk=on}}
+| perihelion = {{cvt|33.235|AU|Tm}}
+| semimajor = {{cvt|66.895|AU|Tm}}
+| eccentricity = 0.50318
+| period = 547.13 [[Julian year (astronomy)|yr]] (199,837 days)<ref name="jpldata"/>
+| mean_anomaly = 111.384[[Degree (angle)|°]]
+| mean_motion = {{Deg2DMS|0.0018014|sup=ms}}{{\}}day
+| inclination = 30.8664°
+| asc_node = 336.8401°
+| time_periastron = 17 February 1857<ref name="Horizons1857"/>
+| arg_peri = 206.6442°
+| satellites = 1 ([[Xiangliu (moon)|Xiangliu]])
+| mean_radius = {{val|fmt=commas|615|25|u=km}}
+| mean_diameter = {{val|1230|50|ul=km}}<ref name="massdensity"/>{{rp|1}}
+| mass = {{val|1.75|0.07|e=21|u=kg}}<ref name="massdensity"/>{{rp|3}}
+| density = {{val|1.74|0.16|ul=g|up=cm3}}<ref name="massdensity"/>{{rp|4}}
+| surface_grav = ≈ {{Gr|1|dateform=dmy.75|615|2}} m/s<sup>2</sup>
+| escape_velocity = ≈ {{V2|1.75|615|2}} km/s
+| rotation = {{val|22.40|0.18|ul=h}} or {{val|44.81|0.37|ul=h}}<br />{{small|(ambiguous,<ref name="Pal-2016"/><ref name="scida2015"/> but 22.4 h more likely<ref name="massdensity"/>)}}
+| albedo = {{val|0.14|0.01}}<ref name="massdensity"/>
+| spectral_type = [[Trans-Neptunian object#Colors|B−V]]={{val|1.38|0.03}}<ref name="Boehnhardt-2014"/><ref name="lcdb"/><br />V−R={{val|0.86|0.02}}<ref name="Boehnhardt-2014"/><ref name="lcdb"/><br />V−I={{val|1.65|0.028}}<ref name="Boehnhardt-2014"/><ref name="lcdb"/>
+| magnitude = 21.4<ref name="Grundy-orbits"/>
+| abs_magnitude = 2.34<ref name="Pal-2016"/>{{·}}2.0<ref name="Brown-dplist"/><br />1.84<ref name="jpldata"/><ref name="MPC-object"/>
+}}
+
+'''Gonggong''' ([[minor-planet number]] '''225088''') is a [[dwarf planet]] and a member of the [[scattered disc]] beyond [[Neptune]]. It has a highly [[orbital eccentricity|eccentric]] and [[orbital inclination|inclined]] orbit during which it ranges from {{convert|33|-|101|AU|e9km e9mi|abbr=off|lk=in|sp=us}} from the [[Sun]]. {{As of|2026}}, its distance from the Sun is {{cvt|89.7|AU|e9km e9mi}}, and it is the sixth-farthest known Solar System object. According to the [[Deep Ecliptic Survey]], Gonggong is in a 3:10 [[orbital resonance]] with Neptune, in which it completes three orbits around the Sun for every ten orbits completed by Neptune. Gonggong was discovered in July 2007 by American astronomers [[Megan Schwamb]], [[Michael E. Brown|Michael Brown]], and [[David Rabinowitz]] at the [[Palomar Observatory]], and the discovery was announced in January of 2009.
+
+At approximately {{convert|1230|km|mi|abbr=on}} in diameter, Gonggong is similar in size to [[Pluto]]'s moon [[Charon (moon)|Charon]], making it the [[List of Solar System objects by size|fifth-largest]] known [[trans-Neptunian object]] (apart possibly from Charon). It may be sufficiently massive to be in [[Hydrostatic equilibrium#Planetary geology|hydrostatic equilibrium]] and therefore a dwarf planet. Gonggong's large mass makes retention of a tenuous [[atmosphere]] of [[methane]] just possible, though such an atmosphere would slowly escape into space. The object is named after ''[[Gònggōng]]'', a Chinese water god responsible for chaos, floods and the tilt of the Earth. The name was chosen by its discoverers in 2019, when they hosted an online poll for the general public to help choose a name for the object, and the name Gonggong won.
+
+Gonggong is very red, likely due to the presence of [[organic compounds]] called [[tholin]]s on its surface. Water ice is also present on its surface, which hints at a brief period of [[cryovolcanism|cryovolcanic]] activity in the distant past. With a rotation period of around 22 hours, Gonggong rotates slowly compared to other trans-Neptunian objects, which typically have periods of less than 12 hours. The slow rotation of Gonggong may have been caused by [[tidal force]]s from its [[natural satellite]], named [[Xiangliu (moon)|Xiangliu]].
+
+== History ==
+=== Discovery ===
+[[File:P48 1994 Jean Large.jpg|thumb|left|Gonggong was discovered using the [[Samuel Oschin telescope]] at [[Palomar Observatory]]]]
+Gonggong was discovered by American astronomers [[Megan Schwamb]], [[Michael E. Brown|Michael Brown]] and [[David L. Rabinowitz|David Rabinowitz]] on 17 July 2007.<ref name="MPC-object"/> The discovery was part of the [[Palomar Distant Solar System Survey]], a survey conducted to find distant objects in the region of {{dp|Sedna}}, beyond {{cvt|50|AU|lk=in}} from the [[Sun]], using the [[Samuel Oschin telescope]] at [[Palomar Observatory]] near [[San Diego]], [[California]].<ref name="Schwamb2009"/><ref name="NeedsName"/><ref name="PalomarSurvey"/> The survey was designed to detect the movements of objects out to at least 1,000&nbsp;AU from the Sun.<ref name="PalomarSurvey"/> Schwamb identified Gonggong by comparing images using the [[Blink comparator#Modern replacements|blinking technique]].<ref name="NeedsName"/> In the discovery images, Gonggong appeared to move slowly, suggesting that it is a distant object.<ref name="NeedsName"/><ref name="SomethingOutThere"/> The discovery was part of Schwamb's [[doctoral thesis]]. At that time, Schwamb was a graduate student of Michael Brown at the [[California Institute of Technology]].<ref name="sciencedaily-2011"/><ref name="NeedsName"/>
+
+Gonggong was formally announced in a [[Minor Planet Center#Publications|Minor Planet Electronic Circular]] on 7 January 2009.<ref name="MPEC"/> It was then given the [[Provisional designation in astronomy|provisional designation]] '''{{mp|2007 OR|10}}''' because it was discovered during the second half of July 2007.<ref name="MPEC"/> The last letter and numbers of its designation indicate that it is the 267th object discovered during the latter half of July.{{efn|In the convention for minor planet provisional designation, the first letter represents the half-month of the year of discovery while the second letter and numbers indicate the order of discovery within that half-month. In the case of {{mp|2007 OR|10}}, the first letter 'O' corresponds to the second half-month of July 2007 while the last letter 'R' indicates that it is the 17th object discovered on the 11th cycle of discoveries. Each completed cycle consists of 25 letters representing discoveries, hence 17 + (10 completed cycles × 25 letters) {{=}} 267.<ref name="designation"/>}} {{As of|September 2025}}, it has been observed 484 times over 23 [[Opposition (planets)|oppositions]], and has been identified in two [[precovery|precovery image]]s, with the earliest image taken by the [[La Silla Observatory]] on 19 August 1985.<ref name="MPC-object"/><ref name="precovery"/>
+{{clear|left}}
+
+=== Name and symbol ===
+The object is named after [[Gonggong]] ({{zh|c=共工|p=Gònggōng}}; [[Baxter's transcription for Middle Chinese|Baxter]] [[QYS]]: {{translit|lzh|gjowngH kuwng}}), a water god in [[Chinese mythology]]. Gonggong is depicted as having a copper-and-iron, red-haired human head (or sometimes torso) and the body or tail of a serpent. Gonggong was responsible for creating chaos and catastrophe, causing flooding and tilting the Earth, until he was sent into exile.<ref name="results"/> Gonggong is often accompanied by his minister, [[Xiangliu]], a nine-headed poisonous snake monster who was also responsible for causing flooding and destruction.<ref name="MPC-object"/>
+
+Before its official naming, Gonggong was the largest known unnamed object in the Solar System.<ref name="NASA-news-2016"/> Initially after the discovery of Gonggong, Brown nicknamed the object "[[Snow White]]" for its presumed white color based on his assumption that it may be a member of the icy [[Haumea family|Haumea collisional family]].<ref name="BrownRedemption1"/><ref name="Brownblog"/> The nickname also fit because, by that time, Brown's team had discovered seven other large trans-Neptunian objects which were collectively referred to as the "[[Seven Dwarfs]]":<ref name="Williams2015"/> {{dp|Quaoar}} in 2002, {{dp|Sedna}} in 2003, {{dp|Haumea}}, {{dp|Salacia}} and {{dp|Orcus}} in 2004, and {{dp|Makemake}} and {{dp|Eris}} in 2005. However, Gonggong turned out to be very red in color, comparable to Quaoar, so the nickname was dropped.<ref name="BrownRedemption1"/><ref name="SomethingOutThere"/> On 2 November 2009, two years after its discovery, the [[Minor Planet Center]] assigned the [[minor planet number]] 225088 to Gonggong.<ref name="precovery"/>
+
+When Gonggong's discovery was first announced, Brown did not name it, as he considered it to be an unremarkable object, despite its large size.<ref name="Brownblog"/><ref name="Plotner2011"/> In 2011, he declared that he now had enough information to justify naming it, because of the discovery of water ice and the possibility of methane on its surface, which made it noteworthy enough to warrant further study.<ref name="sciencedaily-2011"/> Following the [[Kepler space telescope|''Kepler'']] spacecraft's large revision of [[#Size|Gonggong's size]] in 2016, Schwamb agreed that Gonggong was eligible for naming, an acknowledgement of its large size and that its characteristics were known with enough certainty for a name to be given to reflect them.<ref name="NASA-news-2016"/>
+
+In 2019, the discoverers of Gonggong hosted an online poll for the general public to choose between three possible names: [[Gonggong]] (Chinese), [[Frau Holle|Holle]] (German), and [[Vili and Vé|Vili]] (Norse). These were selected by the discoverers in accordance with the [[International Astronomical Union]]'s (IAU's) minor planet naming criteria, which state that objects with orbits like that of Gonggong must be given names related to [[mythological]] figures that are associated with [[creation myth|creation]].<ref name="naming"/><ref name="HowNamed"/> The three options were chosen because they were associated with water, ice, snow, and the color red—all characteristics of Gonggong—and because they had associated figures that could later provide a name for Gonggong's satellite.<ref name="ann19021"/> The name for Gonggong's satellite was not chosen by the hosts of the naming poll, as this privilege is reserved for its discoverers.<ref name="naming"/><ref name="results"/>
+
+Having gained 46 percent of the 280,000 votes, on 29 May 2019, Gonggong was announced as the winning name.<ref name="results"/> The name was proposed to the IAU's [[Committee on Small Body Nomenclature]] (CSBN), which is responsible for naming minor planets.<ref name="results"/> The name was accepted by the CSBN and was announced by the Minor Planet Center on 5 February 2020.<ref name="MPC121135"/>
+
+As [[planetary symbol]]s are no longer used regularly in astronomy, Gonggong never received a symbol in the astronomical literature. A symbol {{angbr|[[File:Gonggong symbol (fixed width).svg|16px|🝽]]}}, used mostly among astrologers,<ref name=miller>{{cite web|url=https://www.unicode.org/L2/L2021/21224-dwarf-planet-syms.pdf|title=Unicode request for dwarf-planet symbols|last=Miller|first=Kirk|date=26 October 2021|website=unicode.org|access-date=29 January 2022|archive-date=23 March 2022|archive-url=https://web.archive.org/web/20220323174107/https://www.unicode.org/L2/L2021/21224-dwarf-planet-syms.pdf|url-status=live}}</ref> is included in [[Unicode]] as {{unichar|1F77D|Gonggong}}.<ref>{{Cite web |url=https://www.unicode.org/alloc/Pipeline.html |title=Proposed New Characters: The Pipeline |access-date=29 January 2022 |archive-date=29 January 2022 |archive-url=https://web.archive.org/web/20220129110620/https://www.unicode.org/alloc/Pipeline.html |url-status=live }}</ref> The symbol was designed by [[Denis Moskowitz]], a [[Software engineering|software engineer]] in [[Massachusetts]]; it combines the Chinese character 共 ''gòng'' with a snake's tail.<ref name=anderson>{{cite web |url=http://blog.unicode.org/2022/05/out-of-this-world-new-astronomy-symbols.html |title=Out of this World: New Astronomy Symbols Approved for the Unicode Standard |last=Anderson |first=Deborah |date=4 May 2022 |website=unicode.org |publisher=The Unicode Consortium |access-date=6 August 2022 |archive-date=6 August 2022 |archive-url=https://web.archive.org/web/20220806075352/http://blog.unicode.org/2022/05/out-of-this-world-new-astronomy-symbols.html |url-status=live }}</ref>
+
+== Orbit ==
+{{Multiple image
+| perrow            = 1
+| total_width       = 315
+| image1            = 225088 Gonggong (2007 OR10) and Eris orbits, Jan2018, top view.png
+| alt1              = Orbital diagram
+| caption1          = Polar view of the orbits of Gonggong (yellow), [[Eris (dwarf planet)|Eris]] (green), and [[Pluto]] (magenta)
+| image2            = 225088 Gonggong (2007 OR10) and Eris orbits, Jan2018, side view.png
+| alt2              = Orbital diagram
+| caption2          = [[Ecliptic]] view of the highly inclined orbits of Gonggong (yellow) and Eris (green)
+}}
+[[file:Gonggong-Neptune resonance (preliminary).gif|thumb|upright=1.5|A preliminary motion analysis of Gonggong librating in a [[Resonant trans-Neptunian object|3:10 resonance with Neptune]]. This animation consists of 16 frames covering 26,000 years.<ref name="Buie"/> Neptune (white dot) is held stationary.]]
+[[File:Apparent motion of 225088 Gonggong (2000-2050).png|thumb|upright=2|Apparent motion of Gonggong through the constellation [[Aquarius (constellation)|Aquarius]] (years 2000 to 2050)]]
+
+Gonggong orbits the Sun at an average distance of {{cvt|66.9|AU}}, and completes a full orbit in 547 years.<ref name="jpldata"/> The orbit of Gonggong is highly inclined to the [[ecliptic]], with an [[orbital inclination]] of 30.9 degrees.<ref name="jpldata"/> Its orbit is also highly eccentric, with a measured [[orbital eccentricity]] of 0.50.<ref name="jpldata"/> Due to its highly eccentric orbit, the distance of Gonggong from the Sun varies greatly over the course of its orbit, from {{cvt|100.6|AU}} at [[aphelion]], its furthest point from the Sun, to around {{cvt|33.2|AU}} at [[perihelion]], its closest point to the Sun.<ref name="jpldata"/><ref name="MPC-object"/> Gonggong last reached perihelion in 1857, and is currently moving farther from the Sun, toward its aphelion.<ref name="theskylive"/> Gonggong will reach aphelion by 2134.<ref name="Grundy-orbits"/>
+
+The period, inclination and eccentricity of Gonggong's orbit are all rather extreme compared to other large bodies in the Solar System. Among [[likely dwarf planets]], its period is the third-longest, at 547 years compared to 561 years for {{dp|Eris}} and the ca. 11,400 years of {{dp|Sedna}}. Its 31° inclination is second, after 44° for Eris, and its 0.50 eccentricity is also (a rather distant) second, after Sedna at 0.85.
+
+The [[Minor Planet Center]] lists it as a [[scattered disc]] object for its eccentric and distant orbit.<ref name="MPC-CEN-SDO-list"/> The [[Deep Ecliptic Survey]] shows the orbit of Gonggong to be in a [[Resonant trans-Neptunian object|3:10 resonance with Neptune]]; Gonggong completes three orbits around the Sun for every ten orbits completed by Neptune.<ref name="Buie"/>
+
+{{as of|2021}}, Gonggong is about {{cvt|89|AU|km mi|lk=in}} from the Sun<ref name="AstDyS-distances"/> and is moving away at a speed of {{convert|1.1|km/s|mph|abbr=off|sp=us}}.<ref name="horizons"/> It is the [[List of Solar System objects most distant from the Sun|eleventh-farthest known Solar System object from the Sun]], preceding {{mpl|2021 DR|15}} (89.5&nbsp;AU), {{mpl|2014 UZ|224}} (89.6&nbsp;AU), {{mpl|2015 TH|367}} (90.3&nbsp;AU), {{mpl|2020 FQ|40}} (92.4&nbsp;AU), {{dp|Eris}} (95.9&nbsp;AU), {{mpl|2020 FA|31}} (97.2&nbsp;AU), {{mpl|2020 FY|30}} (99.0&nbsp;AU), {{mpl|2020 BE|102}} (111.0&nbsp;AU), {{mpl|2018 VG|18}} (123.5&nbsp;AU), and {{mpl|2018 AG|37}} (~ 132&nbsp;AU).<ref name="AstDyS-distances"/><ref name="FarFarOut"/><ref>{{cite journal|url=https://minorplanetcenter.net/mpec/K22/K22KH2.html|title=MPEC 2022-K172: 2020 BE102|journal=Minor Planet Electronic Circular |publisher= Minor Planet Center |date=31 May 2022|accessdate= 4 June 2023}}</ref> Gonggong is more distant than {{dp|Sedna}}, which is located 84.3&nbsp;AU from the Sun {{as of|2021|lc=on}}.<ref name="AstDyS-distances"/> It has been farther from the Sun than Sedna since 2013, and it will surpass Eris in distance by 2045.<ref name="horizons"/><ref name="Horizons2076"/>
+
+=== Brightness ===
+Gonggong has an absolute magnitude (H) of 2.34,<ref name="Boehnhardt-2014"/><ref name="Pal-2016"/> which makes it the seventh-brightest trans-Neptunian object known. It is dimmer than {{dp|Orcus}} (H=2.31; D=917&nbsp;km)<ref name="TNOsCool8"/> but brighter than Quaoar (H=2.82; D=1,110&nbsp;km).<ref name="Braga-Ribas-2013"/> The Minor Planet Center and the [[JPL Small-Body Database|Jet Propulsion Laboratory Small-Body Database]] assume a brighter absolute magnitude of 1.84,<ref name="MPC-object"/><ref name="jpldata"/> which would make it the fifth brightest trans-Neptunian object.<ref name="BrownRedemption2"/>
+
+Being 88&nbsp;AU from the Sun, the [[apparent magnitude]] of Gonggong is only 21.5,<ref name="AstDys"/> and so it is too dim to be seen from [[Earth]] with the [[naked eye]].<ref name="naming"/>{{efn|Under good conditions, the unaided human eye can detect objects with a visual magnitude of around +7.4 or lower.<ref>{{cite news|title=What's my naked-eye magnitude limit?|url=https://www.skyandtelescope.com/astronomy-resources/astronomy-questions-answers/naked-eye-magnitude-limit/|first=Roger W.|last=Sinnott|newspaper=[[Sky and Telescope]]|date=19 July 2006|access-date=17 April 2019|archive-date=17 April 2019|archive-url=https://web.archive.org/web/20190417232702/https://www.skyandtelescope.com/astronomy-resources/astronomy-questions-answers/naked-eye-magnitude-limit/|url-status=live}}</ref>}} Although closer to the Sun than the dwarf planet Eris, Gonggong appears dimmer, as Eris has a higher albedo and an apparent magnitude of 18.8.<ref name="TNOsCool4"/><ref name="Astdys_Eris"/>
+
+== Physical characteristics ==
+=== Surface and spectra ===
+The surface of Gonggong has an [[albedo]] (reflectivity) of 0.14.<ref name="massdensity"/> The surface composition and spectrum of Gonggong is expected to be similar to that of {{dp|Quaoar}}, as both objects are red in color and display signs of water ice and possibly [[methane]] in their spectra.<ref name="kbcomp"/><ref name="TNOsCool4"/> The [[reflectance]] spectrum of Gonggong was first measured in 2011 at [[near-infrared]] wavelengths, with the Folded port InfraRed Echellette (FIRE) [[spectrograph]] on the [[Magellan Telescopes|Magellan Baade Telescope]] at the [[Las Campanas Observatory]] in [[Chile]].<ref name="Brown-2011"/> Gonggong's spectrum exhibits a strong red [[spectral slope]] along with broad [[absorption band]]s at [[wavelength]]s of 1.5&nbsp;[[micrometre|μm]] and 2&nbsp;μm, meaning that Gonggong reflects more light at these wavelengths.<ref name="Brown-2011"/> Additional [[photometry (astronomy)|photometric]] measurements from the [[Hubble Space Telescope]]'s [[Wide Field Camera 3]] instrument display similar absorption bands at 1.5&nbsp;μm,<ref name="Brown-2011"/> which are characteristic features of water ice, a substance often found on large [[Kuiper belt]] objects.<ref name="kbowater"/> The presence of water ice on the surface of Gonggong implies a brief period of [[cryovolcanism]] in the distant past, when water erupted from its interior, deposited onto its surface, and subsequently froze.<ref name="BrownRedemption3"/>
+
+Gonggong is among the reddest trans-Neptunian objects known, especially in the visible and near-infrared.<ref name="Brown-2011"/><ref name="Boehnhardt-2014"/> Its red color is unexpected for an object with a substantial amount of water ice on its surface,<ref name="BrownRedemption3"/><ref name="sciencedaily-2011"/> which are typically neutral in color, hence why Gonggong was initially nicknamed "Snow White".<ref name="BrownRedemption1"/><ref name="Brownblog"/> Gonggong's color implies that methane is present on its surface, although it was not directly detected in the spectrum of Gonggong due to the low [[signal-to-noise ratio]] of the data.<ref name="Brown-2011"/> The presence of methane frost would account for its color, as a result of the [[photolysis]] of methane by solar radiation and [[cosmic ray]]s producing reddish [[organic compound]]s known as [[tholin]]s.<ref name="Brown-2011"/><ref name="Pal-2016"/> Observations of Gonggong's near-infrared spectrum in 2015 revealed an absorption feature at 2.27&nbsp;μm, indicating the presence of [[methanol]] along with its irradiation products on its surface.<ref name="Holler2017"/>
+
+Gonggong is large enough to be able to retain trace amounts of [[volatility (chemistry)|volatile]] methane on its surface,<ref name="Brown-2011"/> even when at its closest distance to the Sun (33.2&nbsp;[[Astronomical unit|AU]]),<ref name="jpldata"/> where temperatures are higher than that of Quaoar.<ref name="Brown-2011"/> In particular, the large size of Gonggong means that it is likely to retain trace amounts of other volatiles, including [[ammonia]], [[carbon monoxide]], and possibly [[nitrogen]], which almost all trans-Neptunian objects lose over the course of their existence.<ref name="kbcomp"/><ref name="Pal-2016"/><ref name="NASA-news-2016"/> Like Quaoar, Gonggong is expected to be near the mass limit at which it is able to retain those [[Volatile (astrogeology)|volatile materials]] on its surface.<ref name="kbcomp"/><ref name="sciencedaily-2011"/>
+
+In 2022, low resolution near-infrared (0.7–5 &mu;m) [[spectroscopy|spectroscopic]] observations by the [[James Webb Space Telescope]] (JWST) revealed the presence of significant amounts of [[ethane]] ice (C<sub>2</sub>H<sub>6</sub>) on the surface of Gonggong, though there appears to be less ethane on Gonggong than on [[90377 Sedna|Sedna]]. The JWST spectra also contain evidence of presence of small amounts of [[carbon dioxide]] (CO<sub>2</sub>) complexed with either dark surface material or some ices as well as complex organics. On the other hand no evidence of presence of [[methane]] (CH<sub>4</sub>) and [[methanol]] (CH<sub>3</sub>OH) was found at variance with the earlier observations.<ref name="Emery2024"/>
+
+=== Possible atmosphere ===
+The presence of tholins on the surface of Gonggong implies the possible existence of methane ice on the surface and a tenuous methane atmosphere analogous to Quaoar.<ref name="BrownRedemption3"/><ref name="sciencedaily-2011"/> Gonggong occasionally comes closer to the Sun than Quaoar, where it becomes warm enough for the methane ice on the surface to sublimate, possibly creating an atmosphere. Gonggong's larger mass makes the retention of methane just possible.<ref name="Brown-2011"/> During aphelion, methane along with other [[Volatile (astrogeology)|volatiles]] would condense on Gonggong's surface, allowing for long-term irradiation that would otherwise result in a decrease in surface albedo.<ref name="Johnson2015"/> The lower surface albedo would contribute to the loss of highly volatile materials such as nitrogen, as a lower albedo corresponds to more light being [[absorption (electromagnetic radiation)|absorbed]] by the surface rather than being reflected, thus resulting in greater surface heating. Hence, the nitrogen content of Gonggong's atmosphere is expected to be depleted to trace amounts while methane is likely retained.<ref name="Johnson2015"/>
+
+Gonggong is thought to have had cryovolcanic activity along with a more substantial atmosphere shortly after its [[Formation and evolution of the Solar System|formation]].<ref name="BrownRedemption3"/><ref name="sciencedaily-2011"/> Such cryovolcanic activity is expected to have been brief, and the resulting atmosphere gradually [[atmospheric escape|escaped]] over time.<ref name="BrownRedemption3"/><ref name="sciencedaily-2011"/> Volatile gases, such as nitrogen and carbon monoxide, were lost, while less volatile gases such as methane are likely to remain in its present tenuous atmosphere.<ref name="BrownRedemption3"/><ref name="Johnson2015"/>
+
+=== Size ===
+{| class="wikitable floatleft" style="text-align: center; font-size: 0.9em; margin-right: 12px;"
+|+ Size estimates
+|-
+! Year !! Diameter !! Method !! Refs
+|-
+| 2010
+| 1,752&nbsp;km
+| thermal
+| <ref name="Tancredi2010"/>
+|-
+| 2011
+| {{val|1200|300|200|fmt=commas|u=km}}
+| best fit albedo
+| <ref name="Brown-2011"/>
+|-
+| 2012
+| {{val|1280|210|fmt=commas|u=km}}
+| thermal
+| <ref name="TNOsCool4"/>
+|-
+| 2013
+| {{val|1142|647|467|fmt=commas|u=km}}
+| thermal
+| <ref name="TNOsCool9"/>
+|-
+| 2013
+| 1,290&nbsp;km
+| radiometric
+| <ref name="Brown-dplist"/>
+|-
+| 2016
+| {{val|1535|75|225|fmt=commas|u=km}}
+| thermal
+| <ref name="Pal-2016"/>
+|-
+| 2018
+| {{val|1230|50|fmt=commas|u=km}}
+| radiometric
+| <ref name="massdensity"/>
+|}
+[[File:Size Comparison - Gonggong with Earth and Moon.svg|upright|thumb|Size comparison between Gonggong (lower left), alongside Earth (right) and the Moon (upper left).]]
+[[File:Trans-Neptunians_Size_Albedo_Color.svg|thumb|upright=1.5|Comparison of sizes, albedos, and colors of various large trans-Neptunian objects with sizes of >700 km. Gonggong is shown on the top row, first from the right. The dark colored arcs represent uncertainties of the object's size.]]
+As of 2019, Gonggong is estimated to have a diameter of {{cvt|1230|km|mi}}, derived from [[Radiometry|radiometric]] measurements, its calculated mass, and assuming a density similar to other similar bodies.<ref name="massdensity"/> This would make Gonggong the fifth-largest trans-Neptunian object, after [[Pluto]], [[Eris (dwarf planet)|Eris]], [[Haumea]] and [[Makemake]]. Gonggong is approximately the size of Pluto's moon [[Charon (moon)|Charon]], although Gonggong's current size estimate has an uncertainty of {{cvt|50|km|mi}}.<ref name="massdensity"/>
+
+Gonggong has been classified as a dwarf planet by several astronomers.<ref name="Tancredi2010"/><ref name="Sheppard-2011"/><ref name="Brown-dplist"/> Brown states that Gonggong "must be a dwarf planet even if predominantly rocky", based on the 2013 radiometric measurement of {{cvt|1290|km|mi}}.<ref name="Brown-dplist"/> [[Scott S. Sheppard|Scott Sheppard]] and colleagues think that it is likely to be a dwarf planet,<ref name="Sheppard-2011"/> based on its minimum possible diameter—{{cvt|580|km|mi}} under the assumption of a completely reflective surface with an albedo of 1{{refn|The resulting minimum diameter of 580&nbsp;km is derived from the equation <math> E=\frac{1329}{\sqrt{p}} 10^{-0.2H}</math>, where <math>H</math> is the absolute magnitude of Gonggong, and <math>p</math> is the albedo of Gonggong, which in this case is assumed to be 1.<ref name="sizemagnitude"/>|name=magnitude|group=lower-alpha}}—and what was at the time the expected lower size limit of around {{cvt|200|km|mi}} for [[hydrostatic equilibrium]] in cold icy-rocky bodies.<ref name="Sheppard-2011"/> However, [[Iapetus (moon)|Iapetus]] is not in equilibrium despite being {{cvt|1470|km|mi}} in diameter, so this remains just a possibility.<ref name="Thomas2010"/>
+
+In 2010, astronomer [[Gonzalo Tancredi]] initially estimated Gonggong to have a very large diameter of {{cvt|1752|km|mi}}, though its dwarf planet status was unclear as there was no lightcurve data or other information to ascertain its size.<ref name="Tancredi2010"/> Gonggong is too distant to be resolved directly; Brown placed a rough estimate of its diameter ranging from {{cvt|1000|-|1500|km|mi}}, based on an albedo of 0.18 which was the best fit in his model.<ref name="Brown-2011"/> A survey led by a team of astronomers using the [[European Space Agency]]'s [[Herschel Space Observatory]] in 2012 determined its diameter to be {{val|1280|210|u=km}} ({{val|795|130|u=mi}}), based on the thermal properties of Gonggong observed in the [[far infrared]] range.<ref name="TNOsCool4"/> This measurement is consistent with Brown's estimate. Later observations in 2013 using combined thermal emission data from ''Herschel'' and the [[Spitzer Space Telescope]] suggested a smaller size of {{val|1142|647|467|u=km}} ({{val|710|402|290|u=mi}}), though this estimate had a larger range of uncertainty.<ref name="TNOsCool9"/>
+
+In 2016, combined observations from the [[Kepler space telescope|''Kepler'']] spacecraft and archival thermal emission data from ''Herschel'' suggested that Gonggong was much larger than previously thought, giving a size estimate of {{val|1535|75|225|u=km}} ({{val|954|46|140|u=mi}}) based on an assumed equator-on view and a lower estimated albedo of 0.089.<ref name="Pal-2016"/><ref name="scida2015"/> This would have made Gonggong the third-largest trans-Neptunian object after Eris and Pluto, larger than Makemake ({{cvt|1430|km|mi}}).<ref name="scida2015"/><ref name="NASA-news-2016"/> These observations of Gonggong were part of the ''Kepler'' spacecraft's [[Kepler space telescope#Second Light (K2)|K2 mission]] which includes studying [[small Solar System bodies]].<ref name="NASA-news-2016"/> Subsequent measurements in 2018 revised the size of Gonggong to {{val|1230|50|u=km}} ({{val|764|31|u=mi}}), based on the mass and density of Gonggong derived from the orbit of its satellite and the discovery that the viewing direction was almost [[axial tilt|pole-on]].<ref name="massdensity"/> With this size estimate, Gonggong is again thought to be the fifth-largest trans-Neptunian object.<ref name="massdensity"/>
+
+=== Mass, density and rotation ===
+
+Based on the orbit of its satellite, the mass of Gonggong has been calculated to be {{cvt|1.75e21|kg|lbs}}, with a density of {{val|1.74|0.16|u=g/cm3}}.<ref name="massdensity"/> Given the mass, the 2016 size estimate of {{cvt|1535|km|mi}} would have implied an unexpectedly low (and likely erroneous) density of {{val|0.92|u=g/cm3}}.<ref name="massdensity"/>
+
+Gonggong is the fifth most massive trans-Neptunian object, after Eris, Pluto, Haumea, and Makemake.<ref name="massdensity"/> It is slightly more massive and denser than Charon, which has a mass of {{cvt|1.586e21|kg|lbs}} and a density of {{val|1.702|u=g/cm3}}.<ref name="massdensity"/><ref name="Stern_2017"/> Due to its large size, mass, and density, Gonggong is expected to be in hydrostatic equilibrium, taking the shape of a [[MacLaurin spheroid]] that is slightly [[oblateness|flattened]] due to its rotation.<ref name="massdensity"/><ref name="Pal-2016"/>
+
+The rotation period of Gonggong was first measured in March 2016, through observations of variations in its brightness with the ''Kepler'' space telescope.<ref name="Pal-2016"/> Gonggong's light curve [[amplitude]] as observed by ''Kepler'' is small, only varying in brightness by about 0.09 [[magnitude (astronomy)|magnitude]]s.<ref name="Pal-2016"/> The small [[light curve]] amplitude of Gonggong indicates that it is being viewed at a pole-on configuration, further evidenced by the observed inclined orbit of its satellite.<ref name="massdensity"/> The ''Kepler'' observations provided ambiguous values of {{val|44.81|0.37}} and {{val|22.4|0.18}} hours for the rotation period.<ref name="Pal-2016"/><ref name="massdensity"/> Based on a best-fit model for its rotation pole orientation, the value of {{val|22.4|0.18}} hours is thought to be the more plausible one.<ref name="massdensity"/> Gonggong rotates slowly compared to other trans-Neptunian objects, which usually have periods between 6 and 12 hours.<ref name="massdensity"/> Due to its slow rotation, it is expected to have a low [[oblateness]] of 0.03 or 0.007, for rotation periods of 22.4 or 44.81 hours, respectively.<ref name="massdensity"/>
+
+== Satellite ==
+[[File:Xiangliu orbiting 225088 Gonggong (2009-2010).jpg|thumb|Hubble images of Gonggong and [[Xiangliu (moon)|Xiangliu]], taken in 2009 and 2010 with the [[Wide Field Camera 3]]]]
+{{main|Xiangliu (moon)}}
+Following the March 2016 discovery that Gonggong was an unusually slow rotator, the possibility was raised that a satellite may have slowed it down via [[tidal force]]s.<ref name="Lakdawalla2016a"/> The indications of a possible satellite orbiting Gonggong led Csaba Kiss and his team to analyze [[precovery|archival]] Hubble observations of Gonggong.<ref name="Kissetal2017"/> Their analysis of Hubble images taken on 18 September 2010 revealed a faint satellite orbiting Gonggong at a distance of at least {{cvt|15000|km|mi}}.<ref name="DPS48"/> The discovery was announced in a [[Division for Planetary Sciences]] meeting on 17 October 2016.<ref name="naming"/> The satellite is approximately {{cvt|100|km|mi}} in diameter and has an orbital period of 25 days.<ref name="Kissetal2017"/> On 5 February 2020 the satellite was officially named [[Xiangliu (moon)|Xiangliu]], after the nine-headed poisonous snake monster that accompanied Gonggong in Chinese mythology. This naming came at the same time that Gonggong itself was officially named.<ref name="MPC-object"/>
+
+== Exploration ==
+It was calculated by [[planetary science|planetary scientist]] [[Amanda Zangari]] that a [[flyby (spaceflight)|flyby]] mission to Gonggong would take a minimum of over 20 years with current rocket capabilities.<ref name="Zangari2018"/> A flyby mission could take just under 25 years using a Jupiter [[gravity assist]], based on a launch date of 2030 or 2031. Gonggong would be approximately 95 AU from the Sun when the spacecraft arrives.<ref name="Zangari2018"/>
+
+== See also ==
+* [[List of gravitationally rounded objects of the Solar System]]
+* [[List of Solar System objects most distant from the Sun]]
+* [[List of possible dwarf planets]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{Reflist|30em|refs=
+
+<ref name="jpldata">{{cite web
+ |type         = 29 August 2025 last obs.
+ |title        = JPL Small-Body Database Browser: 225088 Gonggong (2007 OR10)
+ |url          = https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2225088
+ |publisher    = [[Jet Propulsion Laboratory]]
+ |date         = 16 September 2025
+|access-date  = 9 October 2025
+ }}</ref>
+
+<ref name="MPC-object">{{cite web
+ |title        = (225088) Gonggong = 2007 OR10
+ |work         = [[Minor Planet Center]]
+ |publisher    = [[International Astronomical Union]]
+ |url          = https://www.minorplanetcenter.net/db_search/show_object?object_id=225088
+ |access-date  = 9 October 2025
+|archive-date = 25 September 2025
+|archive-url  = https://web.archive.org/web/20250925000118/https://www.minorplanetcenter.net/db_search/show_object?object_id=225088
+ |url-status   = live
+}}</ref>
+
+<ref name="MPC-CEN-SDO-list">{{cite web
+ |title        = List Of Centaurs and Scattered-Disk Objects
+ |work         = Minor Planet Center
+ |publisher    = International Astronomical Union
+ |url          = https://www.minorplanetcenter.net/iau/lists/t_centaurs.html
+ |access-date  = 9 February 2018
+|archive-date = 1 October 2012
+|archive-url  = https://web.archive.org/web/20121001210452/https://www.minorplanetcenter.net/iau/lists/t_centaurs.html
+ |url-status   = live
+}}</ref>
+
+<ref name="johnstonsarchive-TNO-list">{{cite web
+ |title        = List of Known Trans-Neptunian Objects
+ |work         = Johnston's Archive
+ |date         = 7 October 2018
+|last         = Johnston
+ |first        = W. R.
+ |url          = http://www.johnstonsarchive.net/astro/tnoslist.html
+ |access-date  = 23 May 2019
+|archive-date = 16 October 2007
+|archive-url  = https://web.archive.org/web/20071016230529/http://johnstonsarchive.net/astro/tnoslist.html
+ |url-status   = live
+}}</ref>
+
+<ref name="MPEC">{{cite web
+ |title        = MPEC 2009-A42 : 2007 OR10
+ |work         = Minor Planet Electronic Circular
+ |publisher    = Minor Planet Center
+ |url          = https://minorplanetcenter.net/mpec/K09/K09A42.html
+ |date         = 7 January 2009
+|access-date  = 23 May 2019
+|archive-date = 2 October 2018
+|archive-url  = https://web.archive.org/web/20181002011334/https://minorplanetcenter.net//mpec/K09/K09A42.html
+ |url-status   = live
+}}</ref>
+
+<ref name="Brown-dplist">{{cite web
+ |title        = How many dwarf planets are there in the outer solar system?
+ |publisher    = [[California Institute of Technology]]
+ |last         = Brown
+ |first        = M. E.
+ |author-link  = Michael E. Brown
+ |url          = http://web.gps.caltech.edu/~mbrown/dps.html
+ |date         = 2023
+|access-date  = 23 May 2019
+|archive-date = 19 July 2022
+|archive-url  = https://web.archive.org/web/20220719141419/http://web.gps.caltech.edu/~mbrown/dps.html
+ |url-status   = live
+}}</ref>
+
+<ref name="PalomarSurvey">{{cite journal
+  |first1     = M. E. |last1 = Schwamb |author-link1=Megan Schwamb
+  |first2     = M. E. |last2 = Brown |author-link2=Michael E. Brown
+  |first3     = D. L. |last3 = Rabinowitz |author-link3=David L. Rabinowitz
+  |first4     = D.    |last4 = Ragozzine
+  |date       = 25 August 2010
+|title      = Properties of the Distant Kuiper Belt: Results from the Palomar Distant Solar System Survey
+  |journal    = The Astrophysical Journal Letters
+  |volume     = 720
+  |issue      = 2
+  |pages      = 1691–1707
+  |doi        = 10.1088/0004-637X/720/2/1691
+  |arxiv      = 1007.2954
+  |bibcode    = 2010ApJ...720.1691S|s2cid = 5853566 }}</ref>
+
+<ref name="Brown-2011">{{cite journal |first1     = Michael E. |last1     = Brown |author-link1     = Michael E. Brown |first2     = Adam J. |last2     = Burgasser |first3     = W. C. |last3     = Fraser |date     = September 2011 |title     = The Surface Composition of Large Kuiper Belt Object 2007 OR10 |url     = http://web.gps.caltech.edu/~mbrown/papers/ps/or10.pdf |journal     = The Astrophysical Journal Letters |volume     = 738 |issue     = 2 |page     = 4 |bibcode     = 2011ApJ...738L..26B |doi     = 10.1088/2041-8205/738/2/L26 |arxiv     = 1108.1418 |hdl     = 1721.1/95722 |s2cid     = 9730804 |access-date     = 17 September 2016 |archive-date     = 25 October 2021 |archive-url     = https://web.archive.org/web/20211025063920/http://web.gps.caltech.edu/~mbrown/papers/ps/or10.pdf |url-status     = live }}</ref>
+
+<ref name="BrownRedemption1">{{cite web
+ |title        = The Redemption of Snow White (Part 1)
+ |last         = Brown
+ |first        = M. E.
+ |author-link  = Michael E. Brown
+ |work         = Mike Brown's Planets
+ |url          = http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-1.html
+ |date         = 9 August 2011
+|access-date  = 10 August 2011
+|archive-date = 12 November 2020
+|archive-url  = https://web.archive.org/web/20201112030531/http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-1.html
+ |url-status   = live
+}}</ref>
+
+<ref name="OED">{{Cite OED|gong-gong}}</ref>
+
+<ref name="BrownRedemption2">{{cite web 
+  |title      = The Redemption of Snow White (Part 2 of 3)
+  |last       = Brown |first = M. E. |author-link=Michael E. Brown
+  |work       = Mike Brown's Planets
+  |url        = http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-2.html
+  |date       = 11 August 2011 |archive-url = https://web.archive.org/web/20140725020928/http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-2.html
+  |archive-date = 25 July 2014}}</ref>
+
+<ref name="BrownRedemption3">{{cite web
+  |title      = The Redemption of Snow White (Part 3 of 3)
+  |last       = Brown |first = M. E. |author-link=Michael E. Brown
+  |work       = Mike Brown's Planets
+  |url        = http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-3-of-3.html#more
+  |date       = 20 August 2011
+|archive-url = https://web.archive.org/web/20140725023611/http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-3-of-3.html
+  |archive-date = 25 July 2014}}</ref>
+
+<ref name="Buie">{{cite web
+  |last       = Buie |first = M. W. |author-link = Marc W. Buie
+  |date       = 24 May 2019
+|title      = Orbit Fit and Astrometric record for 225088
+  |publisher  = Southwest Research Institute
+  |url        = https://www.boulder.swri.edu/~buie/kbo/astrom/225088.html
+  |archive-url = https://web.archive.org/web/20190524032543/https://www.boulder.swri.edu/~buie/kbo/astrom/225088.html
+  |archive-date = 24 May 2019}}</ref>
+
+<ref name="Lakdawalla2016a">{{cite web |last       = Lakdawalla |first       = E. |author-link       = Emily Lakdawalla |date       = 19 October 2016 |title       = DPS/EPSC update: 2007 OR10 has a moon! |url       = http://www.planetary.org/blogs/emily-lakdawalla/2016/10190940-dpsepsc-update-2007-or10.html |publisher       = [[The Planetary Society]] |access-date       = 19 October 2016 |archive-date       = 16 April 2019 |archive-url       = https://web.archive.org/web/20190416083112/http://www.planetary.org/blogs/emily-lakdawalla/2016/10190940-dpsepsc-update-2007-or10.html |url-status       = live }}</ref>
+
+<ref name="Pal-2016">{{cite journal
+  |display-authors = 4
+  |first1     = A.    |last1 = Pál
+  |first2     = C.    |last2 = Kiss
+  |first3     = T. G. |last3 = Müller
+  |first4     = L.    |last4 = Molnár
+  |first5     = R.    |last5 = Szabó
+  |first6     = G. M. |last6 = Szabó
+  |first7     = K.    |last7 = Sárneczky |author-link7=Krisztián Sárneczky
+  |first8     = L. L. |last8 = Kiss
+  |date       = May 2016
+  |title      = Large Size and Slow Rotation of the Trans-Neptunian Object (225088) 2007 OR<sub>10</sub> Discovered from Herschel and K2 Observations
+  |journal    = The Astronomical Journal
+  |volume     = 151
+  |issue      = 5
+  |page       = 8
+  |doi        = 10.3847/0004-6256/151/5/117
+  |arxiv      = 1603.03090
+  |bibcode    = 2016AJ....151..117P|s2cid = 119205487 |doi-access = free }}</ref>
+
+<ref name="sciencedaily-2011">{{cite news
+ |title        = Astronomers Find Ice and Possibly Methane On Snow White, a Distant Dwarf Planet
+ |work         = [[Science Daily]]
+ |date         = 22 August 2011
+|url          = https://www.sciencedaily.com/releases/2011/08/110822124955.htm
+ |publisher    = California Institute of Technology
+ |access-date  = 5 March 2018
+|archive-date = 19 October 2011
+|archive-url  = https://web.archive.org/web/20111019015606/https://www.sciencedaily.com/releases/2011/08/110822124955.htm
+ |url-status   = live
+}}</ref>
+
+<ref name="TNOsCool4">{{cite journal
+  |last1      = Santos-Sanz |first1 = P.
+  |last2      = Lellouch    |first2 = E.
+  |last3      = Fornasier   |first3 = S.
+  |last4      = Kiss        |first4 = C.
+  |last5      = Pál         |first5 = A.
+  |last6      = Müller      |first6 = T. G.
+  |display-authors = 4
+  |date       = May 2012
+  |title      = "TNOs are Cool": A survey of the trans-Neptunian region. IV. Size/albedo characterization of 15 scattered disk and detached objects observed with Herschel-PACS
+  |journal    = [[Astronomy & Astrophysics]]
+  |volume     = 541 
+  |issue      = A92
+  |pages      = 18
+  |doi        = 10.1051/0004-6361/201118541
+    |doi-access        = free|arxiv      = 1202.1481
+  |bibcode    = 2012A&A...541A..92S|s2cid = 118600525
+ }}</ref>
+
+<ref name="TNOsCool8">{{cite journal
+  |first1     = S. | last1 = Fornasier
+  |first2     = E. | last2 = Lellouch
+  |first3     = T. | last3 = Müller
+  |first4     = P. | last4 = Santos-Sanz
+  |first5     = P. | last5 = Panuzzo
+  |first6     = C. | last6 = Kiss
+  |display-authors = 4
+  |date       = July 2013
+  |title      = TNOs are Cool: A survey of the trans-Neptunian region. VIII. Combined ''Herschel'' PACS and SPIRE observations of 9 bright targets at 70–500 μm.
+  |journal    = Astronomy & Astrophysics
+  |volume     = 555
+  |issue      = A15
+  |pages      = 22
+  |doi        = 10.1051/0004-6361/201321329
+    |doi-access        = free|arxiv      = 1305.0449v2
+  |bibcode    = 2013A&A...555A..15F| s2cid = 54222700
+ }}</ref>
+
+<ref name="TNOsCool9">{{cite journal
+ |first1          = E.
+ |last1           = Lellouch
+ |first2          = P.
+ |last2           = Santos-Sanz
+ |first3          = P.
+ |last3           = Lacerda
+ |first4          = M.
+ |last4           = Mommert
+ |first5          = R.
+ |last5           = Duffard
+ |first6          = J. L.
+ |last6           = Ortiz
+ |first7          = T. G.
+ |last7           = Müller
+ |first8          = S.
+ |last8           = Fornasier
+ |first9          = J.
+ |last9           = Stansberry
+ |first10         = Cs.
+ |last10          = Kiss
+ |first11         = E.
+ |last11          = Vilenius
+ |first12         = M.
+ |last12          = Mueller
+ |first13         = N.
+ |last13          = Peixinho
+ |first14         = R.
+ |last14          = Moreno
+ |first15         = O.
+ |last15          = Groussin
+ |first16         = A.
+ |last16          = Delsanti
+ |first17         = A. W.
+ |last17          = Harris
+ |display-authors = 4
+ |date            = August 2013
+ |title           = "TNOs are Cool": A survey of the trans-Neptunian region. IX. Thermal properties of Kuiper belt objects and Centaurs from combined Herschel and Spitzer observations
+ |url             = http://www.aanda.org/articles/aa/pdf/2013/09/aa22047-13.pdf
+ |journal         = Astronomy & Astrophysics
+ |volume          = 557
+ |issue           = A60
+ |pages           = 19
+ |doi             = 10.1051/0004-6361/201322047
+  |doi-access             = free|bibcode         = 2013A&A...557A..60L
+ |arxiv           = 1202.3657
+ |access-date     = 15 May 2019
+|archive-date    = 31 October 2019
+|archive-url     = https://web.archive.org/web/20191031112734/https://www.aanda.org/articles/aa/pdf/2013/09/aa22047-13.pdf
+ |url-status      = live
+}}</ref>
+
+<ref name="Schwamb2009">{{cite journal
+  |last1      = Schwamb    |first1 = M. E. |author-link1=Megan Schwamb
+  |last2      = Brown      |first2 = M. E. |author-link2=Michael E. Brown
+  |last3      = Rabinowitz |first3 = D. L. |author-link3=David L. Rabinowitz
+  |title      = A Search for Distant Solar System Bodies in the Region of Sedna
+  |journal    = The Astrophysical Journal Letters
+  |volume     = 694
+  |issue      = 1
+  |pages      = L45–L48
+  |date       = March 2009
+  |doi        = 10.1088/0004-637X/694/1/L45
+  |arxiv      = 0901.4173
+  |bibcode    = 2009ApJ...694L..45S|s2cid = 15072103 }}</ref>
+
+<ref name="AstDys">{{cite web
+  |title       = (225088) Gonggong Observation Prediction
+  |work        = Asteroids Dynamic Site
+  |publisher   = Department of Mathematics, University of Pisa, Italy
+  |url         = https://newton.spacedys.com/astdys/index.php?n=225088&pc=1.1.4.1&oc=500&y0=2019&m0=04&d0=27&h0=00&mi0=00&s=3.0
+  |access-date  = 24 May 2019
+|archive-url  = https://web.archive.org/web/20190524034532/https://newton.spacedys.com/astdys/index.php?n=225088&pc=1.1.4.1&oc=500&y0=2019&m0=04&d0=27&h0=00&mi0=00&s=3.0
+  |archive-date = 24 May 2019}}</ref>
+
+<ref name="Astdys_Eris">{{cite web
+  |title       = (136199) Eris Observation prediction
+  |work        = Asteroids Dynamic Site
+  |publisher   = Department of Mathematics, University of Pisa, Italy
+  |url         = https://newton.spacedys.com/astdys/index.php?n=136199&pc=1.1.4.1&oc=500&y0=2019&m0=4&d0=27&h0=00&mi0=00&s=3.0
+  |access-date  = 2 November 2019
+|archive-url  = https://web.archive.org/web/20190524034336/https://newton.spacedys.com/astdys/index.php?n=136199&pc=1.1.4.1&oc=500&y0=2019&m0=4&d0=27&h0=00&mi0=00&s=3.0
+  |archive-date = 24 May 2019}}</ref>
+
+<ref name="Horizons2076">{{cite web
+  |title       = Horizons Output for Sedna 2076/2114
+  |url         = http://home.surewest.net/kheider/astro/Sedna2076.txt
+  |date        = 17 February 2011
+|access-date  = 17 February 2011
+|url-status  = dead
+  |archive-url  = https://web.archive.org/web/20120225015100/http://home.surewest.net/kheider/astro/Sedna2076.txt
+  |archive-date = 25 February 2012}}</ref>
+
+<ref name="Plotner2011">{{cite web
+ |title        = "Snow White" or "Rose Red" (2007 OR10)
+ |url          = https://www.universetoday.com/88377/planet-snow-white-or-rose-red/
+ |first        = T.
+ |last         = Plotner
+ |publisher    = [[Universe Today]]
+ |date         = 3 August 2011
+|access-date  = 8 May 2019
+|archive-date = 9 May 2019
+|archive-url  = https://web.archive.org/web/20190509014717/https://www.universetoday.com/88377/planet-snow-white-or-rose-red/
+ |url-status   = live
+}}</ref>
+
+<ref name="DPS48">{{cite book
+ |title        = Division for Planetary Sciences Abstract Book
+ |chapter-url  = https://aas.org/files/dps-epsc-abstract-book-final.pdf
+ |first1       = G.
+ |last1        = Marton
+ |first2       = C.
+ |last2        = Kiss
+ |first3       = T. G.
+ |last3        = Mueller
+ |series       = DPS 48/EPSC 11 Meeting
+ |publisher    = American Astronomical Society
+ |chapter      = The moon of the large Kuiper-belt object {{mp|2007 OR|10}}
+ |volume       = 48
+ |issue        = 7
+ |id           = 120.22
+ |date         = October 2016
+ |access-date  = 24 May 2019
+|archive-date = 18 October 2016
+|archive-url  = https://web.archive.org/web/20161018202233/https://aas.org/files/dps-epsc-abstract-book-final.pdf
+ |url-status   = dead
+}}</ref>
+
+<ref name="scida2015">{{cite web
+  |last       = Szabó |first = R.
+  |url        = https://lco.global/files/conferences/K2SciCon/Robert_Szabo-Szabo_TNOs_web.pdf
+  |title      = Pushing the Limits of K2: Observing Trans-Neptunian Objects S3K2: Solar System Studies with K2
+  |date       = 4 November 2015
+|url-status = dead
+  |archive-url = https://web.archive.org/web/20190207015945/https://lco.global/files/conferences/K2SciCon/Robert_Szabo-Szabo_TNOs_web.pdf
+  |archive-date = 7 February 2019}}</ref>
+
+<ref name="Sheppard-2011">{{Cite journal
+  |display-authors = 4
+  |first1     = S. S. |last1 = Sheppard |author-link1=Scott S. Sheppard
+  |first2     = A.    |last2 = Udalski |author-link2=Andrzej Udalski
+  |first3     = Ch.   |last3 = Trujillo |author-link3=Chadwick Trujillo
+  |first4     = M.    |last4 = Kubiak |author-link4=Marcin Kubiak (astronomer)
+  |first5     = G.    |last5 = Pietrzynski
+  |first6     = R.    |last6 = Poleski
+  |first7     = I.    |last7 = Soszynski
+  |first8     = M. K. |last8 = Szymanski
+  |first9     = K.    |last9 = Ulaczyk
+  |date       = October 2011
+  |title      = A Southern Sky and Galactic Plane Survey for Bright Kuiper Belt Objects
+  |journal    = The Astronomical Journal
+  |volume     = 142
+  |issue      = 4
+  |pages      = 10
+  |bibcode    = 2011AJ....142...98S
+  |doi        = 10.1088/0004-6256/142/4/98
+  |arxiv      = 1107.5309|s2cid = 53552519 }}</ref>
+
+<ref name="Boehnhardt-2014">{{cite journal
+  |first1     = H. |last1 = Boehnhardt
+  |first2     = D. |last2 = Schulz
+  |first3     = S. |last3 = Protopapa
+  |first4     = C. |last4 = Götz
+  |date       = November 2014
+  |title      = Photometry of Transneptunian Objects for the Herschel Key Program 'TNOs are Cool'
+  |journal    = Earth, Moon, and Planets
+  |volume     = 114
+  |issue      = 1–2
+  |pages      = 35–57
+  |doi        = 10.1007/s11038-014-9450-x
+  |bibcode    = 2014EM&P..114...35B|s2cid = 122628169
+ }}</ref>
+
+<ref name="NASA-news-2016">{{cite web |last       = Dyches |first       = P. |date       = 11 May 2016 |title       = 2007 OR10: Largest Unnamed World in the Solar System |url       = http://www.jpl.nasa.gov/news/news.php?feature=6509 |publisher       = Jet Propulsion Laboratory |access-date       = 12 May 2016 |archive-date       = 1 June 2017 |archive-url       = https://web.archive.org/web/20170601015413/https://www.jpl.nasa.gov/news/news.php?feature=6509 |url-status       = live }}</ref>
+
+<ref name="Brownblog">{{cite web
+  |date        = 10 March 2009
+|title       = Snow White needs a bailout
+  |first       = M. E. |last = Brown |author-link=Michael E. Brown
+  |url         = http://www.mikebrownsplanets.com/2009/03/snow-white-needs-bailout.html
+  |work        = Mike Brown's Planets
+  |access-date  = 17 February 2010
+|url-status  = live
+  |archive-url  = https://web.archive.org/web/20090329232310/http://www.mikebrownsplanets.com/2009/03/snow-white-needs-bailout.html
+  |archive-date = 29 March 2009}}</ref>
+
+<ref name="Kissetal2017">{{cite journal
+  |first1=C.    |last1=Kiss
+  |first2=G.    |last2=Marton
+  |first3=A.    |last3=Farkas-Takács
+  |first4=J.    |last4=Stansberry
+  |first5=T.    |last5=Müller
+  |first6=J.    |last6=Vinkó
+  |first7=Z.    |last7=Balog
+  |first8=J.-L. |last8=Ortiz
+  |first9=A.    |last9=Pál
+  |display-authors = 4
+  |date=March 2017
+  |title=Discovery of a Satellite of the Large Trans-Neptunian Object (225088) 2007 OR10
+  |journal=The Astrophysical Journal Letters
+  |volume=838
+  |issue=1
+  |pages=L1
+  |bibcode=2017ApJ...838L...1K
+  |doi=10.3847/2041-8213/aa6484
+  |arxiv=1703.01407|s2cid=46766640
+ |doi-access=free
+ }}</ref>
+
+<ref name="massdensity">{{cite journal
+  |title=The mass and density of the dwarf planet (225088) 2007 OR<sub>10</sub>
+  |display-authors = 6
+  |first1=C.     |last1=Kiss
+  |first2=G.     |last2=Marton
+  |first3=A. H.  |last3=Parker
+  |first4=W.     |last4=Grundy
+  |first5=A.     |last5=Farkas-Takacs
+  |first6=J.     |last6=Stansberry
+  |first7=A.     |last7=Pal
+  |first8=T.     |last8=Muller
+  |first9=K. S.  |last9=Noll
+  |first10=M. E. |last10=Schwamb
+  |first11=A. C. |last11=Barr
+  |first12=L. A. |last12=Young
+  |first13=J.    |last13=Vinko
+  |date=December 2019
+  |journal = Icarus
+  |volume=334 |pages=3–10
+  |doi = 10.1016/j.icarus.2019.03.013
+  |bibcode = 2019Icar..334....3K
+  |arxiv = 1903.05439|s2cid = 119370310
+ }}<br />Initial publication at the American Astronomical Society DPS meeting #50, with the publication ID 311.02</ref>
+
+<ref name="NeedsName">{{cite web
+  |title      = 2007 OR10 Needs a Name!
+  |url        = http://www.planetary.org/blogs/guest-blogs/2019/or10-needs-a-name.html
+  |first      = M. |last = Schwamb |author-link=Megan Schwamb
+  |publisher  = The Planetary Society
+  |date       = 9 April 2019
+|archive-url = https://web.archive.org/web/20190524032113/http://www.planetary.org/blogs/guest-blogs/2019/or10-needs-a-name.html
+  |archive-date = 24 May 2019
+|access-date = 24 May 2019}}</ref>
+
+<ref name="ann19021">{{cite web
+ |title        = Astronomers Invite the Public to Help Name Kuiper Belt Object
+ |url          = https://www.iau.org/news/announcements/detail/ann19021/
+ |publisher    = International Astronomical Union
+ |date         = 10 April 2019
+|access-date  = 12 May 2019
+|archive-date = 6 November 2020
+|archive-url  = https://web.archive.org/web/20201106193746/https://www.iau.org/news/announcements/detail/ann19021/
+ |url-status   = live
+}}</ref>
+
+<ref name="lcdb">{{cite LCDB|number = 225088 
+  |access-date      = 14 May 2019 |archive-date      = 30 October 2021 |archive-url      = https://web.archive.org/web/20211030102725/http://www.minorplanet.info/PHP/generateOneAsteroidInfo.php?AstInfo=225088 
+  |url-status      = live 
+  }}</ref>
+
+<ref name="Tancredi2010">{{cite journal
+  |first      = G. |last = Tancredi |author-link=Gonzalo Tancredi
+  |title      = Physical and dynamical characteristics of icy "dwarf planets" (plutoids)
+  |journal    = Proceedings of the International Astronomical Union
+  |date       = 6 April 2010
+|volume     = 5
+  |issue      = S263
+  |pages      = 173–185
+  |doi        = 10.1017/S1743921310001717
+  |bibcode    = 2010IAUS..263..173T|doi-access= free
+  }}</ref>
+
+<ref name="Stern_2017">{{cite journal
+  |first1 = S. A. |last1  = Stern |author-link1=Alan Stern
+  |first2 = W.    |last2  = Grundy
+  |first3 = W. B. |last3  = McKinnon
+  |first4 = H. A. |last4  = Weaver |author-link4=Hal A. Weaver
+  |first5 = L. A. |last5  = Young
+  |journal = Annual Review of Astronomy and Astrophysics
+  |date   = September 2018
+  |title  = The Pluto System After New Horizons
+  |volume = 56
+  |pages  = 357–392
+  |doi    = 10.1146/annurev-astro-081817-051935
+  |arxiv  = 1712.05669 |bibcode = 2018ARA&A..56..357S|s2cid = 119072504 }}</ref>
+
+<ref name="kbcomp">{{cite journal
+ |first        = M. E.
+ |last         = Brown
+ |author-link  = Michael E. Brown
+ |date         = May 2012
+ |title        = The compositions of Kuiper belt objects
+ |url          = http://web.gps.caltech.edu/~mbrown/papers/ps/kbcomp.pdf
+ |journal      = Annual Review of Earth and Planetary Sciences
+ |volume       = 40
+ |issue        = 1
+ |pages        = 467–494
+ |access-date  = 19 May 2019
+|doi          = 10.1146/annurev-earth-042711-105352
+ |arxiv        = 1112.2764
+ |bibcode      = 2012AREPS..40..467B
+ |s2cid        = 14936224
+ |archive-date = 6 July 2017
+|archive-url  = https://web.archive.org/web/20170706102108/http://web.gps.caltech.edu/~mbrown/papers/ps/kbcomp.pdf
+ |url-status   = live
+}}</ref>
+
+<ref name="kbowater">{{cite journal |first1     = M. E. |last1     = Brown |author-link1     = Michael E. Brown |first2     = E. L. |last2     = Schaller |first3     = W. C. |last3     = Fraser |date     = May 2012 |title     = The compositions of Kuiper belt objects |url     = http://web.gps.caltech.edu/~mbrown/papers/ps/kbowater.pdf |journal     = The Astrophysical Journal |volume     = 143 |issue     = 6 |arxiv     = 1204.3638 |doi     = 10.1088/0004-6256/143/6/146 |access-date     = 19 May 2019 |page     = 146 |s2cid     = 8886741 |archive-date     = 4 September 2020 |archive-url     = https://web.archive.org/web/20200904042548/http://web.gps.caltech.edu/~mbrown/papers/ps/kbowater.pdf |url-status     = live }}</ref>
+
+<ref name="Johnson2015">{{cite journal
+  |first1     = R. E. |last1 = Johnson
+  |first2     = A.    |last2 = Oza
+  |first3     = L. A. |last3 = Young
+  |first4     = A. N. |last4 = Volkov
+  |first5     = C.    |last5 = Schmidt
+  |date       = August 2015
+  |title      = Volatile Loss and Classification of Kuiper Belt Objects
+  |journal    = The Astrophysical Journal
+  |volume     = 809
+  |issue      = 1
+  |pages      = 43
+  |doi        = 10.1088/0004-637X/809/1/43
+  |arxiv      = 1503.05315
+  |bibcode    = 2015ApJ...809...43J|s2cid = 118645881
+ }}</ref>
+
+<ref name="Zangari2018">{{cite journal
+  |title      = Return to the Kuiper Belt: Launch Opportunities from 2025 to 2040
+  |first1     = A. M.  |last1 = Zangari
+  |first2     = T. J. |last2 = Finley
+  |first3     = S. A.    |last3 = Stern |author-link3=Alan Stern
+  |first4     = M. B.    |last4 = Tapley
+  |date       = May 2019
+  |journal    = Journal of Spacecraft and Rockets
+  |volume     = 56
+  |issue      = 3
+  |pages      = 919–930
+  |doi        = 10.2514/1.A34329
+  |arxiv      = 1810.07811|bibcode = 2019JSpRo..56..919Z |s2cid = 119033012 }}</ref>
+
+<ref name="theskylive">{{cite web
+  |url        = https://theskylive.com/2007or10-info
+  |title        = Asteroid 2007 OR10
+  |publisher        = The Sky Live
+  |access-date        = 7 May 2019
+|archive-date        = 7 May 2019
+|archive-url        = https://web.archive.org/web/20190507234825/https://theskylive.com/2007or10-info
+  |url-status        = live
+  }}</ref>
+
+<ref name="AstDyS-distances">{{cite web
+ |title        = AstDyS-2, Asteroids - Dynamic Site
+ |url          = https://newton.spacedys.com/astdys/index.php?pc=3.2.1&pc0=3.2&lra=&ura=&lde=&ude=&lvm=&uvm=&lel=&uel=&lph=&uph=&lgl=&ugl=&ldfe=&udfe=&sb=8&ldfs=84.2&udfs=&lmo=&umo=&lspu=&uspu=&ldu=&udu=&lal=&ual=
+ |work         = Asteroids Dynamic Site
+ |publisher    = Department of Mathematics, University of Pisa
+ |quote        = Objects with distance from Sun over 84.2 AU
+ |access-date  = 3 July 2019
+|archive-date = 1 February 2023
+|archive-url  = https://web.archive.org/web/20230201175715/https://newton.spacedys.com/astdys/index.php?pc=3.2.1&pc0=3.2&lra=&ura=&lde=&ude=&lvm=&uvm=&lel=&uel=&lph=&uph=&lgl=&ugl=&ldfe=&udfe=&sb=8&ldfs=84.2&udfs=&lmo=&umo=&lspu=&uspu=&ldu=&udu=&lal=&ual=
+ |url-status   = live
+}}</ref><!-- defined by Template:TNO-distance -->
+
+<ref name="FarFarOut">{{cite news
+ |title        = Solar System's Most Distant Known Member Confirmed
+ |url          = https://carnegiescience.edu/news/solar-systems-most-distant-known-member-confirmed
+ |publisher    = Carnegie Science
+ |date         = 10 February 2021
+|access-date  = 10 February 2021
+|archive-date = 11 February 2021
+|archive-url  = https://web.archive.org/web/20210211075811/https://carnegiescience.edu/news/solar-systems-most-distant-known-member-confirmed
+ |url-status   = live
+}}</ref>
+
+<ref name="horizons">{{cite web
+ |title        = Horizon Online Ephemeris System
+ |type         = Settings: Ephemeris Type "VECTORS", Table Settings "output units=KM-S"
+ |url          = http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=2007OR10
+ |publisher    = [[Jet Propulsion Laboratory]]
+ |access-date  = 2 November 2019
+|archive-date = 27 September 2015
+|archive-url  = https://web.archive.org/web/20150927094410/http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=2007OR10
+ |url-status   = live
+}}</ref>
+
+<ref name="designation">{{cite web
+ |title        = New- And Old-Style Minor Planet Designations
+ |url          = https://minorplanetcenter.net/iau/info/OldDesDoc.html
+ |work         = Minor Planet Center
+ |publisher    = International Astronomical Union
+ |access-date  = 10 May 2019
+|archive-date = 21 September 2019
+|archive-url  = https://web.archive.org/web/20190921025731/https://www.minorplanetcenter.net/iau/info/OldDesDoc.html
+ |url-status   = live
+}}</ref>
+
+<ref name="precovery">{{cite web
+ |url          = https://andrew-lowe.ca/2007or10.htm
+ |title        = (225088) 2007 OR10 Precovery Images
+ |first        = A.
+ |last         = Lowe
+ |work         = Andrew Lowe's Minor Planet Home Page
+ |access-date  = 6 May 2019
+|archive-date = 7 April 2022
+|archive-url  = https://web.archive.org/web/20220407222738/http://andrew-lowe.ca/2007or10.htm
+ |url-status   = live
+}}</ref>
+
+<ref name="SomethingOutThere">{{cite web
+ |title        = There's something out there -- part 3
+ |url          = http://www.mikebrownsplanets.com/2010/11/theres-something-out-there-part-3.html
+ |last         = Brown
+ |first        = M. E.
+ |author-link  = Michael E. Brown
+ |work         = Mike Brown's Planets
+ |date         = 29 November 2010
+|access-date  = 10 May 2019
+|archive-date = 11 May 2019
+|archive-url  = https://web.archive.org/web/20190511001105/http://www.mikebrownsplanets.com/2010/11/theres-something-out-there-part-3.html
+ |url-status   = live
+}}</ref>
+
+<ref name="HowNamed">{{cite web
+ |url          = https://www.minorplanetcenter.net/iau/info/HowNamed.html
+ |title        = How Are Minor Planets Named?
+ |work         = Minor Planet Center
+ |publisher    = International Astronomical Union
+ |access-date  = 8 May 2019
+|archive-date = 14 November 2020
+|archive-url  = https://web.archive.org/web/20201114144557/https://minorplanetcenter.net/iau/info/HowNamed.html
+ |url-status   = live
+}}</ref>
+
+<ref name="naming">{{cite web
+  |first1     = M. |last1 = Schwamb |author-link1 = Megan Schwamb
+  |first2     = M. E. |last2 = Brown |author-link2 = Michael E. Brown
+  |first3     = D. L. |last3 = Rabinowitz |author-link3 = David L. Rabinowitz
+  |title      = Help Name 2007 OR10
+  |url        = https://2007or10.name
+  |access-date = 9 April 2019
+|archive-url = https://web.archive.org/web/20190525040338/https://2007or10.name/
+  |archive-date = 25 May 2019}}</ref>
+
+<ref name="sizemagnitude">{{cite web
+ |url          = http://www.physics.sfasu.edu/astro/asteroids/sizemagnitude.html
+ |title        = Conversion of Absolute Magnitude to Diameter for Minor Planets
+ |first        = D.
+ |last         = Bruton
+ |work         = Department of Physics, Engineering, and Astronomy
+ |publisher    = Stephen F. Austin State University
+ |access-date  = 14 May 2019
+|archive-date = 10 December 2008
+|archive-url  = https://web.archive.org/web/20081210190134/http://www.physics.sfasu.edu/astro/asteroids/sizemagnitude.html
+ |url-status   = dead
+}}</ref>
+
+<ref name="results">{{cite web
+ |title        = The People Have Voted on 2007 OR10's Future Name!
+ |url          = http://www.planetary.org/blogs/guest-blogs/2019/or10-vote-results.html
+ |first        = M.
+ |last         = Schwamb
+ |author-link  = Megan Schwamb
+ |publisher    = The Planetary Society
+ |date         = 29 May 2019
+|access-date  = 29 May 2019
+|archive-date = 14 May 2020
+|archive-url  = https://web.archive.org/web/20200514100105/https://www.planetary.org/blogs/guest-blogs/2019/or10-vote-results.html
+ |url-status   = live
+}}</ref>
+
+<ref name="Williams2015">{{cite web
+ |title        = The (possible) dwarf planet 2007 OR10
+ |url          = https://www.universetoday.com/122154/the-possible-dwarf-planet-2007-or10/
+ |first        = M.
+ |last         = Williams
+ |publisher    = Universe Today
+ |date         = 3 September 2015
+|access-date  = 2 November 2019
+|archive-date = 5 June 2022
+|archive-url  = https://web.archive.org/web/20220605122602/https://www.universetoday.com/122154/the-possible-dwarf-planet-2007-or10/
+ |url-status   = live
+}}</ref>
+
+<ref name="Braga-Ribas-2013">{{cite journal
+ |display-authors = 4
+ |first1          = F.
+ |last1           = Braga-Ribas
+ |first2          = B.
+ |last2           = Sicardy
+ |first3          = J. L.
+ |last3           = Ortiz
+ |author-link3    = José Luis Ortiz Moreno
+ |first4          = E.
+ |last4           = Lellouch
+ |first5          = G.
+ |last5           = Tancredi
+ |author-link5    = Gonzalo Tancredi
+ |first6          = J.
+ |last6           = Lecacheux
+ |date            = August 2013
+ |title           = The Size, Shape, Albedo, Density, and Atmospheric Limit of Transneptunian Object (50000) Quaoar from Multi-chord Stellar Occultations
+ |journal         = The Astrophysical Journal
+ |volume          = 773
+ |issue           = 1
+ |page            = 13
+ |doi             = 10.1088/0004-637X/773/1/26
+ |bibcode         = 2013ApJ...773...26B
+ |hdl             = 11336/1641
+ |s2cid           = 53724395
+ |url             = https://cdr.lib.unc.edu/downloads/z603r659h
+ |hdl-access      = free
+ |access-date     = 10 November 2022
+|archive-date    = 23 April 2023
+|archive-url     = https://web.archive.org/web/20230423033639/https://cdr.lib.unc.edu/downloads/z603r659h
+ |url-status      = live
+}}</ref>
+
+<ref name="Holler2017">{{cite conference
+ |title        = Methanol ice on Kuiper Belt objects 2007 OR<sub>10</sub> and Salacia: Implications for formation and dynamical evolution
+ |url          = https://meetingorganizer.copernicus.org/EPSC2017/EPSC2017-330.pdf
+ |first1       = B. J.
+ |last1        = Holler
+ |first2       = L. A.
+ |last2        = Young
+ |first3       = S. J.
+ |last3        = Bus
+ |first4       = S.
+ |last4        = Protopapa
+ |date         = September 2017
+ |conference   = European Planetary Science Congress 2017
+ |publisher    = European Planetary Science Congress
+ |volume       = 11
+ |id           = EPSC2017-330
+ |bibcode      = 2017EPSC...11..330H
+ |access-date  = 5 January 2020
+|archive-date = 27 October 2021
+|archive-url  = https://web.archive.org/web/20211027015215/https://meetingorganizer.copernicus.org/EPSC2017/EPSC2017-330.pdf
+ |url-status   = live
+}}</ref>
+
+<ref name="Grundy-orbits">{{cite web
+  |title      = Gonggong (225088 2007 OR10)
+  |url        = http://www2.lowell.edu/users/grundy/tnbs/225088_2007_OR10_Gonggong.html
+  |first      = Will |last = Grundy
+  |publisher  = Lowell Observatory
+  |date       = 13 February 2020
+|access-date = 19 February 2020
+|archive-url = https://web.archive.org/web/20200220054739/http://www2.lowell.edu/~grundy/tnbs/225088_2007_OR10_Gonggong.html
+  |archive-date = 20 February 2020}}</ref>
+
+<ref name="Thomas2010">{{cite journal
+ |title        = Sizes, shapes, and derived properties of the saturnian satellites after the Cassini nominal mission
+ |url          = http://www.ciclops.org/media/sp/2011/6794_16344_0.pdf
+ |first1       = P. C.
+ |last1        = Thomas
+ |date         = July 2010
+ |journal      = Icarus
+ |volume       = 208
+ |issue        = 1
+ |pages        = 395–401
+ |doi          = 10.1016/j.icarus.2010.01.025
+ |bibcode      = 2010Icar..208..395T
+ |access-date  = 27 September 2019
+|archive-date = 27 September 2011
+|archive-url  = https://web.archive.org/web/20110927185355/http://www.ciclops.org/media/sp/2011/6794_16344_0.pdf
+ |url-status   = dead
+}}</ref>
+
+<ref name="MPC121135">{{cite web
+ |title        = M.P.C. 121135
+ |url          = https://minorplanetcenter.net/iau/ECS/MPCArchive/2020/MPC_20200205.pdf
+ |work         = Minor Planet Circular
+ |publisher    = Minor Planet Center
+ |date         = 5 February 2020
+|access-date  = 19 February 2020
+|archive-date = 25 October 2021
+|archive-url  = https://web.archive.org/web/20211025063813/https://minorplanetcenter.net/iau/ECS/MPCArchive/2020/MPC_20200205.pdf
+ |url-status   = live
+}}</ref>
+
+<ref name="Horizons1857">{{cite web
+ |title        = Horizons Batch for 225088 Gonggong (2007 OR10) on 1857-Feb-17
+ |publisher    = [[JPL Horizons On-Line Ephemeris System|JPL Horizons]]
+ |type         = Perihelion occurs when rdot flips from negative to positive
+ |url          = https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%272007+OR10%27&START_TIME=%271857-Feb-01%27&STOP_TIME=%271857-Mar-15%27&STEP_SIZE=%273%20hours%27&QUANTITIES=%2719%27
+ |access-date  = 21 September 2021
+ |archive-date = 21 September 2021
+|archive-url  = https://web.archive.org/web/20210921075434/https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%272007+OR10%27&START_TIME=%271857-Feb-01%27&STOP_TIME=%271857-Mar-15%27&STEP_SIZE=%273%20hours%27&QUANTITIES=%2719%27
+ |url-status   = live
+}} (JPL#10/Soln.date: 2021-Aug-25)</ref>
+
+<!--<ref name="Cook2023">{{cite conference
+ |display-authors = etal
+ |first1          = J. C.
+ |last1           = Cook
+ |first2          = R.
+ |last2           = Brunetto
+ |first3          = A. C.
+ |last3           = De Souza Feliciano
+ |first4          = J.
+ |last4           = Emery
+ |first5          = B.
+ |last5           = Holler
+ |first6          = A. H.
+ |last6           = Parker
+ |title           = Hapke Modeling of Several KBOs from JWST Observations
+ |url             = https://www.hou.usra.edu/meetings/acm2023/pdf/2526.pdf
+ |conference      = Asteroids, Comets, Meteors Conference 2023
+ |publisher       = Lunar and Planetary Institute
+ |issue           = 2851
+ |date            = June 2023
+ |access-date     = 24 May 2023
+|archive-date    = 24 May 2023
+|archive-url     = https://web.archive.org/web/20230524001156/https://www.hou.usra.edu/meetings/acm2023/pdf/2526.pdf
+ |url-status      = live
+}}</ref>  -->
+
+<ref name="Emery2024">{{cite journal |last1=Emery |first1=J. P. |last2=Wong |first2=I. |last3=Brunetto |first3=R. |last4=Cook |first4=J. C. |last5=Pinilla-Alonso |first5=N. |last6=Stansberry |first6=J. A. |last7=Holler |first7=B. J. |last8=Grundy |first8=W. M. |last9=Protopapa |first9=S. |last10=Souza-Feliciano |first10=A. C. |last11=Fernández-Valenzuela |first11=E. |last12=Lunine |first12=J. I. |last13=Hines |first13=D. C. |title=A Tale of 3 Dwarf Planets: Ices and Organics on Sedna, Gonggong, and Quaoar from JWST Spectroscopy |journal=Icarus |date=2024 |volume=414 |article-number=116017 |doi=10.1016/j.icarus.2024.116017 |arxiv=2309.15230|bibcode=2024Icar..41416017E }}</ref>
+
+}} <!-- end of reflist -->
+
+== External links ==
+{{Commons category|225088 Gonggong}}
+* [https://andrew-lowe.ca/2007or10.htm Precovery Images of Gonggong]
+* [http://www.cfa.harvard.edu/mpec/K09/K09V05.html Gonggong's minor planet designation number]
+* [https://hla.stsci.edu/hlaview.html#Inventory|filterText%3D%24filterTypes%3D|query_string=22%2016%2030.29%20%20%20-14%2024%2045.5&posfilename=&poslocalname=&posfilecount=&listdelimiter=whitespace&listformat=degrees&RA=334.126208&Dec=-14.412639&Radius=0.200000&inst-control=all&inst=ACS&inst=ACSGrism&inst=WFC3&inst=WFPC2&inst=NICMOS&inst=NICGRISM&inst=COS&inst=WFPC2-PC&inst=STIS&inst=FOS&inst=GHRS&imagetype=best&prop_id=&spectral_elt=&proprietary=both&preview=1&output_size=256&cutout_size=12.8|ra=&dec=&sr=&level=&image=&inst=ACS%2CACSGrism%2CWFC3%2CWFPC2%2CNICMOS%2CNICGRISM%2CCOS%2CWFPC2-PC%2CSTIS%2CFOS%2CGHRS&ds= Hubble images of Gonggong taken on 18 September 2010]
+* [https://hla.stsci.edu/hlaview.html#Inventory|filterText%3D%24filterTypes%3D|query_string=22%2022%2000%20-12%2034%2042%20r%3D5d&posfilename=&poslocalname=&posfilecount=&listdelimiter=whitespace&listformat=degrees&RA=335.500000&Dec=-12.578333&Radius=5.000000&inst-control=all&inst=ACS&inst=ACSGrism&inst=WFC3&inst=WFPC2&inst=NICMOS&inst=NICGRISM&inst=COS&inst=WFPC2-PC&inst=STIS&inst=FOS&inst=GHRS&imagetype=best&prop_id=15207&spectral_elt=&proprietary=both&preview=1&output_size=256&cutout_size=12.8|ra=&dec=&sr=&level=&image=&inst=ACS%2CACSGrism%2CWFC3%2CWFPC2%2CNICMOS%2CNICGRISM%2CCOS%2CWFPC2-PC%2CSTIS%2CFOS%2CGHRS&ds= Hubble images of Gonggong taken in 2017]
+* [http://www.mikebrownsplanets.com/2011/08/redemption-of-snow-white-part-1.html The redemption of Snow White (Part 1)] (Mike Brown blog 9 August 2011)
+* [https://www.minorplanetcenter.net/iau/lists/NumberedMPs225001.html Discovery Circumstances: Numbered Minor Planets (225001)-(230000)] – Minor Planet Center
+* [https://www.wired.com/2016/05/give-dwarf-planet-2007-or10-real-name-deserves-already Give Dwarf Planet 2007 OR10 the Real Name It Deserves Already] – [[WIRED]] article by Emma Grey Ellis
+* {{AstDys|225088}}
+* {{JPL small body}}
+
+{{Minor planets navigator | |number=225088 |PageName=225088 Gonggong | }}
+{{Dwarf planets}}
+{{Trans-Neptunian objects}}
+{{Small Solar System bodies}}
+{{Solar System}}
+{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar System}}
+{{Authority control}}
+
+{{DEFAULTSORT:Gonggong}}
+[[Category:Gonggong (dwarf planet)| ]]
+[[Category:Scattered disc and detached objects|225088]]
+[[Category:Trans-Neptunian objects in a 3:10 resonance|225088]]
+[[Category:Discoveries by Megan E. Schwamb]]
+[[Category:Discoveries by David L. Rabinowitz]]
+[[Category:Discoveries by Michael E. Brown]]
+[[Category:Named minor planets]]
+[[Category:Binary trans-Neptunian objects]]
+[[Category:Dwarf planets]]
+[[Category:Minor planets discovered in 2007|20070717]]
+[[Category:Solar System]]
+[[Category:Named TNOs]]

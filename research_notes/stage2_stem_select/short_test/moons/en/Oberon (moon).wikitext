@@ -1,0 +1,533 @@
+{{Short description|Moon of Uranus}}
+{{Featured article}}
+{{Infobox planet
+| name = Oberon
+| image = Oberon in true color by Kevin M. Gill.jpg
+| caption = Oberon, as imaged by ''[[Voyager 2]]'', January 1986. A number of [[Ray system|bright-rayed]] [[impact crater|craters]] are visible, with the largest, [[Hamlet (crater)|Hamlet]], at center. At the lower left limb rises an 11 km high mountain.
+| alt_names = 
+| mpc_name = Uranus IV
+| pronounced = {{IPAc-en|ˈ|oʊ|b|ər|ɒ|n}} or {{IPAc-en|ˈ|oʊ|b|ər|ə|n}}<ref>{{MW|Oberon}}</ref>
+| adjectives = Oberonian {{IPAc-en|ɒ|b|ə|ˈ|r|oʊ|n|i|ə|n}}<ref>Normand (1970) ''Nathaniel Hawthorne''</ref>
+| type = icy round moon
+| discoverer = [[William Herschel]]
+| discovered = January 11, 1787<ref name="Herschel 1787" />
+| orbit_ref = <ref name="Jacobson&Park2025"/>
+| semimajor = {{val|583511|u=km}}
+| eccentricity = {{val|0.0016}}
+| period = {{val|13.463237|u=[[Day|d]]}}
+| avg_speed = 3.15&nbsp;km/s (calculated)
+| inclination = {{val|0.125|u=°}} (to Uranus's equator)
+| satellite_of = [[Uranus]]
+| mean_radius = {{val|761.4|2.6|u=km}} ({{val|0.1194|u=Earths}})<ref name="Thomas 1988" />
+| surface_area = {{val|7.285|0.050|e=6|u=km2}}{{efn|name=surface area}}
+| volume = {{val|1.849|0.019|e=9|u=km3}}{{efn|name=volume}}
+| mass = {{val|3.209|0.032|e=21|u=kg}}{{efn|1=Calculated from its [[standard gravitational parameter]] ''GM'' = {{val|214.21|2.14|u=km<sup>3</sup>/s<sup>2</sup>}}.<ref name="Jacobson&Park2025"/>}}
+| density = {{val|1.74|0.02|u=g/cm3}} (calculated)
+| surface_grav = {{Gr|3.209|761.4}} [[Acceleration|m/s²]]{{efn|name=surface gravity}}
+| escape_velocity = {{V2|3.209|761.4}} km/s{{efn|name=escape velocity}}
+| rotation = [[Synchronous rotation|synchronous]]<ref name="Smith Soderblom et al. 1986" />
+| albedo = {{plainlist |
+* 0.295 ± 0.015 ([[Geometric albedo|geometric]]; V)<ref name="DeColibus2026"/>
+* 0.140 ± 0.015 ([[Bond albedo|Bond]])<ref name="Karkoschka 2001, Hubble" />
+  }}
+| magnitude = 13.69–13.71 (± 0.04)<ref name="Karkoschka 2001, Hubble" />
+| abs_magnitude = 0.98–1.00 (± 0.04)<ref name="Karkoschka 2001, Hubble" />
+| single_temperature = 70–80&nbsp;[[Kelvin|K]]<ref name="Grundy Young et al. 2006" />
+}}
+
+'''Oberon''' ({{IPAc-en|ˈ|oʊ|b|ər|ɒ|n}}) is the outermost and second-largest [[major moon]] of the planet [[Uranus]]. It is the second-most massive of the [[Moons of Uranus|Uranian moons]], and the tenth-largest [[natural satellite|moon]] in the [[Solar System]]. Discovered by [[William Herschel]] in 1787, Oberon is named after the [[Oberon|mythical king of the fairies]] who appears as a character in [[Shakespeare]]'s ''[[A Midsummer Night's Dream]]''. Its orbit lies partially outside Uranus's [[magnetosphere]].
+
+Oberon likely formed from the [[accretion disk]] that surrounded Uranus just after the planet's formation. The moon consists of approximately equal amounts of [[Volatile (astrogeology)|ice]] and [[rock (geology)|rock]], and is probably differentiated into a rocky [[core (geology)|core]] and an icy [[mantle (geology)|mantle]]. A layer of liquid water may be present at the boundary between the mantle and the core. The surface of Oberon, which is dark and slightly red in color, appears to have been primarily shaped by [[asteroid]] and [[comet]] impacts. It is covered by numerous [[impact crater]]s reaching 210&nbsp;km in diameter. Oberon possesses a system of ''[[chasma]]ta'' ([[graben]] or [[Fault scarp|scarps]]) formed during [[Extensional tectonics|crustal extension]] as a result of the expansion of its interior during its early evolution.
+
+The Uranian system has been studied up close only once; the spacecraft ''[[Voyager 2]]'' took several images of Oberon in January 1986, which allowed 40% of the moon's surface to be mapped. 
+
+== Discovery and naming ==
+Oberon was discovered by [[William Herschel]] on January 11, 1787; on the same day, he discovered Uranus's largest moon, [[Titania (moon)|Titania]].<ref name="Herschel 1787" /><ref name="Herschel 1788" /> He later reported the discoveries of four more satellites,<ref name="Herschel 1798" /> although they were subsequently revealed as spurious.<ref name="Struve 1848" /> For nearly fifty years following their discovery, Titania and Oberon would not be observed by any instrument other than William Herschel's,<ref name="Herschel 1834" /> although the moon can be seen from [[Earth]] with a present-day high-end amateur telescope.<ref name="Newton Teece 1995" />
+
+All of the moons of Uranus are named after characters created by [[William Shakespeare]] or [[Alexander Pope]]. The name Oberon was derived from [[Oberon (Fairy King)|Oberon]], the King of the Fairies in ''[[A Midsummer Night's Dream]]''.<ref name="Kuiper 1949" /> The names of all four satellites of Uranus then known were suggested by Herschel's son [[John Herschel|John]] in 1852, at the request of [[William Lassell]],<ref name="Lassell 1852" /> who had discovered the other two moons, [[Ariel (moon)|Ariel]] and [[Umbriel]], the year before.<ref name="Lassell 1851" /> It is uncertain if Herschel devised the names, or if Lassell did so and then sought Herschel's permission.<ref name=podcast>{{cite web |url=https://www.folger.edu/podcasts/shakespeare-unlimited/shakespearean-moons-uranus/ |title=The Shakespearean Moons of Uranus |last=Paul |first=Richard |date=2014 |website=folger.edu |publisher=Folger Shakespeare Library |access-date=25 February 2024 |quote=}}</ref> The adjectival form of the name is ''Oberonian,'' {{IPAc-en|ˌ|ɒ|b|ə|ˈ|r|oʊ|n|i|ə|n}}.<ref name="Shakespeare" />
+
+Oberon was initially referred to as "the second satellite of Uranus" and in 1848 was given the designation ''{{nowrap|Uranus II}}'' by Lassell,<ref name="Lassell 1848" /> although he sometimes used Herschel's numbering (where Titania and Oberon are II and IV).<ref name="Lassell 1850" /> In 1851, Lassell eventually numbered all four known satellites in order of their distance from the planet by [[Roman numerals]], and since then Oberon has been designated ''{{nowrap|Uranus IV}}''.<ref name="Lassell, letter 1851" />
+
+Planetary moons other than Earth's were never given symbols in the astronomical literature. Denis Moskowitz, a software engineer who designed most of the [[dwarf planet]] symbols, proposed an O (the initial of Oberon) combined with the low globe of [[Jérôme Lalande]]'s Uranus symbol as the symbol of Oberon ([[File:Oberon symbol (fixed width).svg|16px]]). This symbol is not widely used.<ref name=moons>{{cite web |url=https://www.unicode.org/L2/L2025/25079-phobos-and-deimos.pdf |title=Phobos and Deimos symbols |last1=Bala |first1=Gavin Jared |last2=Miller |first2=Kirk |date=7 March 2025 |website=unicode.org |publisher=The Unicode Consortium |access-date=14 March 2025 |quote=}}</ref>
+
+== Orbit ==
+Oberon orbits Uranus at a distance of about 584,000&nbsp;km, being the farthest from the planet among its five major moons.{{efn|name=five major moons}} Oberon's orbit has a small [[orbital eccentricity]] and [[orbital inclination|inclination]] relative to the [[equator]] of Uranus.<ref name="Jacobson&Park2025"/> Its orbital period is around 13.5&nbsp;days, coincident with its [[rotational period]]. In other words, Oberon is [[tidally locked]], with one face always pointing toward the planet.<ref name="Smith Soderblom et al. 1986" /> Oberon spends a significant part of its orbit outside the Uranian [[magnetosphere]].<ref name="Ness Acuña et al. 1986" /> As a result, its surface is directly struck by the [[solar wind]].<ref name="Grundy Young et al. 2006" /> This is important, because the trailing hemispheres of satellites orbiting inside a magnetosphere are struck by the magnetospheric plasma, which co-rotates with the planet.<ref name="Ness Acuña et al. 1986" /> This bombardment may lead to the darkening of the trailing hemispheres, which is actually observed for all Uranian moons except Oberon (see below).<ref name="Grundy Young et al. 2006" />
+
+Because Uranus orbits the Sun almost on its side, and its moons orbit in the planet's equatorial plane, they (including Oberon) are subject to an extreme seasonal cycle. Both northern and southern [[Poles of astronomical bodies#Geographic poles|poles]] spend 42 years in a complete darkness, and another 42 years in continuous sunlight, with the sun rising close to the [[zenith]] over one of the poles at each [[solstice]].<ref name="Grundy Young et al. 2006" /> The ''Voyager 2'' flyby coincided with the southern hemisphere's 1986 summer solstice, when nearly the entire northern hemisphere was in darkness. Once every 42 years, when Uranus has an [[equinox]] and its equatorial plane intersects the Earth, mutual [[occultation]]s of Uranus's moons become possible. One such event, which lasted for about six minutes, was observed on May 4, 2007, when Oberon occulted Umbriel.<ref name="Hidas Christou et al. 2008" />
+
+== Composition and internal structure ==
+[[File:Oberon Earth Moon Comparison.png|thumb|left|250px|Size comparison of [[Earth]], the [[Moon]], and Oberon.]]
+
+Oberon is the second-largest and second-most massive of the Uranian moons after [[Titania (moon)|Titania]], and the ninth-most massive moon in the Solar System.{{efn|The eight moons more massive than Oberon are [[Ganymede (moon)|Ganymede]], [[Titan (moon)|Titan]], [[Callisto (moon)|Callisto]], [[Io (moon)|Io]], Earth's [[Moon]], [[Europa (moon)|Europa]], [[Triton (moon)|Triton]], and [[Titania (moon)|Titania]].<ref name="NASA" /> }} It is the [[List of Solar System objects by size|tenth-largest moon by size]] however, since [[Rhea (moon)|Rhea]], the second-largest moon of [[Saturn]] and the ninth-largest moon, is nearly the same size as Oberon although it is about 0.4% larger, despite Oberon having more mass than Rhea.<ref>{{Cite web|title=By The Numbers {{!}} Oberon - NASA Solar System Exploration|url=https://solarsystem.nasa.gov/moons/uranus-moons/oberon/by-the-numbers/|website=NASA|date=11 November 2017 }}</ref> Oberon's density of 1.74&nbsp;g/cm<sup>3</sup>, which is higher than the typical density of [[Moons of Saturn |Saturn's satellites]], indicates that it consists of roughly equal proportions of [[Ice|water ice]] and a dense non-ice component.<ref name="Hussmann Sohl et al. 2006" /> The latter could be made of [[rock (geology)|rock]] and [[carbon]]aceous material including heavy [[organic compound]]s.<ref name="Smith Soderblom et al. 1986" /> The presence of water ice is supported by [[spectroscopic]] observations, which have revealed [[crystalline]] water ice on the surface of the moon.<ref name="Grundy Young et al. 2006" /> Water ice [[absorption band]]s are stronger on Oberon's trailing hemisphere than on the leading hemisphere. This is the opposite of what is observed on other Uranian moons, where the leading hemisphere exhibits stronger water ice signatures.<ref name="Grundy Young et al. 2006" /> The cause of this asymmetry is not known, but it may be related to [[impact gardening]] (the creation of soil via impacts) of the surface, which is stronger on the leading hemisphere.<ref name="Grundy Young et al. 2006" /> [[Meteorite impact]]s tend to sputter (knock out) ice from the surface, leaving dark non-ice material behind.<ref name="Grundy Young et al. 2006" /> The dark material itself may have formed as a result of radiation processing of [[methane]] [[clathrate hydrate|clathrates]] or radiation darkening of other organic compounds.<ref name="Smith Soderblom et al. 1986" /><ref name="Bell McCord 1991" />
+
+Oberon may be differentiated into a rocky [[core (geology)|core]] surrounded by an icy [[mantle (geology)|mantle]].<ref name="Hussmann Sohl et al. 2006" /> If this is the case, the radius of the core (480&nbsp;km) is about 63% of the radius of the moon, and its mass is around 54% of the moon's mass—the proportions are dictated by the moon's composition. The pressure in the center of Oberon is about 0.5&nbsp;[[GPa]] (5&nbsp;[[kbar]]).<ref name="Hussmann Sohl et al. 2006" /> The current state of the icy mantle is unclear. If the ice contains enough [[ammonia]] or other [[antifreeze]], Oberon may possess a liquid [[ocean layer]] at the core–mantle boundary. The thickness of this ocean, if it exists, is up to 40&nbsp;km and its temperature is around 180&nbsp;K (close to the water–ammonia [[eutectic temperature]] of 176&nbsp;K).<ref name="Hussmann Sohl et al. 2006" /> However, the internal structure of Oberon depends heavily on its thermal history, which is poorly known at present. Albeit more recent  publications seem to be in favour of active subterranean oceans throughout the larger moons of Uranus.<ref>{{cite web |title=New Study of Uranus' Large Moons Shows 4 May Hold Water |website=[[NASA]] |date=4 May 2023 |archive-url=https://web.archive.org/web/20230524131930/https://www.nasa.gov/feature/jpl/new-study-of-uranus-large-moons-shows-4-may-hold-water/ |archive-date=2023-05-24 |url-status=live |url=https://www.nasa.gov/feature/jpl/new-study-of-uranus-large-moons-shows-4-may-hold-water/}}</ref><ref>{{Cite web |title=New research prompts rethink on chances of life on Uranus moons |url=https://www.bbc.com/news/articles/cgk1333k0ypo |access-date=2024-11-15 |website=www.bbc.com |date=11 November 2024 |language=en-GB}}</ref>
+
+== Surface features and geology ==
+[[File:Oberon-NASA names en.png|thumb|266px|A photo of Oberon. All named surface features are captioned.]]
+
+Oberon is the second-darkest large moon of Uranus after [[Umbriel]].<ref name="Karkoschka 2001, Hubble" /> Its surface shows a strong [[opposition surge]]: its reflectivity decreases from 31% at a phase angle of 0° ([[albedo|geometrical albedo]]) to 22% at an angle of about 1°. Oberon has a low [[Bond albedo]] of about 14%.<ref name="Karkoschka 2001, Hubble" /> Its surface is generally red in color, except for fresh impact deposits, which are neutral or slightly blue.<ref name="Helfenstein Hillier et al. 1990" /> Oberon is, in fact, the reddest among the major Uranian moons. Its trailing and leading hemispheres are asymmetrical: the latter is much redder than the former, because it contains more dark red material.<ref name="Bell McCord 1991" /> The reddening of the surfaces is often a result of [[space weathering]] caused by bombardment of the surface by charged particles and [[micrometeorites]] over the age of the Solar System.<ref name="Bell McCord 1991" /> However, the color asymmetry of Oberon is more likely caused by accretion of a reddish material spiraling in from outer parts of the Uranian system, possibly from [[irregular satellite]]s, which would occur predominately on the leading hemisphere, similar to Saturn's moon [[Iapetus (moon)|Iapetus]].<ref name="Buratti Mosher 1991" />
+
+Two primary classes of geological features dominate Oberon's surface: [[impact crater]]s and [[chasma]]ta ('canyons'—deep, elongated, steep-sided depressions<ref name="USGS-Nomenclature" /> which would probably be described as [[rift valley]]s or [[escarpment]]s if on Earth).<ref name="Smith Soderblom et al. 1986" /> Oberon's surface is the most heavily cratered of all the Uranian moons, with a crater density approaching saturation—when the formation of new craters is balanced by destruction of old ones. This high number of craters indicates that Oberon has the most ancient surface among Uranus's moons.<ref name="Plescia1987" /> The crater diameters range up to 206 kilometers for the largest known crater,<ref name="Plescia1987" /> [[Hamlet (crater)|Hamlet]].<ref name="USGS: Uranus: Oberon: Hamlet" /> Many large craters are surrounded by bright impact ejecta ([[Ray system|rays]]) consisting of relatively fresh ice.<ref name="Smith Soderblom et al. 1986" /> The largest craters, Hamlet, Othello and Macbeth, have floors made of a very dark material deposited after their formation,<ref name="Plescia1987" /> thought to be material that upwelled from Oberon's interior<ref>{{Cite web |title=Oberon |url=https://users.ece.northwestern.edu/~pred/TNP/nineplanets/oberon.html#:~:text=Oberon's%20heavily%20cratered%20surface%20has,6%20km%20above%20its%20surrounds. |access-date=2026-01-24 |website=users.ece.northwestern.edu}}</ref> A peak with a height of about 11&nbsp;km was observed in some ''Voyager'' images near the south-eastern limb of Oberon,<ref name="Moore Schenk et al. 2004" /> which may be the central peak of a large impact basin with a diameter of about 375&nbsp;km.<ref name="Moore Schenk et al. 2004" /> Oberon's surface is intersected by a system of canyons, which, however, are less widespread than those found on Titania.<ref name="Smith Soderblom et al. 1986" /> The canyons' sides are probably [[Fault scarp|scarps]] produced by [[normal fault]]s{{efn|Some canyons on Oberon are [[graben]].<ref name="Plescia1987" /> }} which can be either old or fresh: the latter [[transect]] the bright deposits of some large craters, indicating that they formed later.<ref name="Croft 1989" /> The most prominent Oberonian canyon is [[Mommur Chasma]].<ref name="Mommur" />
+
+The geology of Oberon was influenced by two competing forces: [[impact crater]] formation and endogenic resurfacing.<ref name="Croft 1989" /> The former acted over the moon's entire history and is primarily responsible for its present-day appearance.<ref name="Plescia1987" /> The latter processes were active for a period following the moon's formation. The endogenic processes were mainly [[tectonic]] in nature and led to the formation of the canyons, which are actually giant cracks in the ice crust.<ref name="Croft 1989" /> The canyons obliterated parts of the older surface.<ref name="Croft 1989" /> The cracking of the crust was caused by the expansion of Oberon by about 0.5%,<ref name="Croft 1989" /> which occurred in two phases corresponding to the old and young canyons.
+
+The nature of the dark patches, which mainly occur on the leading hemisphere and inside craters, is not known. Some scientists hypothesized that they are of [[cryovolcano|cryovolcanic]] origin (analogs of [[lunar maria]]),<ref name="Plescia1987" /> while others think that the impacts excavated dark material buried beneath the pure ice ([[crust (geology)|crust]]).<ref name="Helfenstein Hillier et al. 1990" /> In the latter case Oberon should be at least partially differentiated, with the ice crust lying atop the non-differentiated interior.<ref name="Helfenstein Hillier et al. 1990" />
+
+{| class="wikitable plainrowheaders"
+|+ Named surface features on Oberon<ref name="usgs" />
+! scope="col" | Feature
+! scope="col" | Named after
+! scope="col" | Type
+! scope="col" | Length (diameter), km
+! scope="col" | Coordinates
+|-
+! scope="row" | [[Mommur Chasma]]
+| [[Mommur]], [[French folklore]]
+| [[Chasma]]
+| style="text-align: center;" | 537
+| {{coord|-16.3|323.5|dim:537km_globe:oberon}}
+|-
+! scope="row" | Antony
+| [[Antony and Cleopatra|Mark Antony]]
+| rowspan="9" | [[Impact crater|Crater]]
+| style="text-align: center;" | 47
+| {{coord|-27.5|65.4|dim:47km_globe:oberon}}
+|-
+! scope="row" | Caesar
+| [[Julius Caesar (play)|Julius Caesar]]
+| style="text-align: center;" | 76
+| {{coord|-26.6|61.1|dim:76km_globe:oberon}}
+|-
+! scope="row" | Coriolanus
+| [[Coriolanus (play)|Coriolanus]]
+| style="text-align: center;" | 120
+| {{coord|-11.4|345.2|dim:120km_globe:oberon}}
+|-
+! scope="row" | Falstaff
+| [[Falstaff]]
+| style="text-align: center;" | 124
+| {{coord|-22.1|19.0|dim:124km_globe:oberon}}
+|-
+! scope="row" | [[Hamlet (crater)|Hamlet]]
+| [[Hamlet]]
+| style="text-align: center;" | 206
+| {{coord|-46.1|44.4|dim:206km_globe:oberon}}
+|-
+! scope="row" | Lear
+| [[King Lear]]
+| style="text-align: center;" | 126
+| {{coord|-5.4|31.5|dim:126km_globe:oberon}}<ref>{{Cite web |title=GeoHack - Lear |url=https://geohack.toolforge.org/geohack.php?pagename=List_of_geological_features_on_Oberon&params=5.4_S_31.5_E_globe:oberon_type:landmark&title=Lear |access-date=2026-01-24 |website=geohack.toolforge.org}}</ref>
+|-
+! scope="row" | MacBeth
+| [[Macbeth]]
+| style="text-align: center;" | 203
+| {{coord|-58.4|112.5|dim:203km_globe:oberon}}
+|-
+! scope="row" | Othello
+| [[Othello]]
+| style="text-align: center;" | 114
+| {{coord|-66.0|42.9|dim:114km_globe:oberon}}
+|-
+! scope="row" | Romeo
+| [[Romeo and Juliet|Romeo]]
+| style="text-align: center;" | 159
+| {{coord|-28.7|89.4|dim:159km_globe:oberon}}
+|-
+! scope="col" scope="row" colspan="5" | Surface features on Oberon are named for male characters and places associated with Shakespeare's works.<ref name="Strobell Masursky 1987" />
+|}
+
+== Origin and evolution ==
+Oberon is thought to have formed from an [[accretion disc]] or subnebula: a disc of gas and dust that either existed around Uranus for some time after its formation or was created by the giant impact that most likely gave Uranus its large [[obliquity]].<ref name="Mousis 2004" /> The precise composition of the subnebula is not known; however, the relatively high density of Oberon and other Uranian moons compared to the [[moons of Saturn]] indicates that it may have been relatively water-poor.{{efn|For instance, [[Tethys (moon)|Tethys]], a Saturnian moon, has a density of 0.97&nbsp;g/cm<sup>3</sup>, which means that it contains more than 90% water.<ref name="Grundy Young et al. 2006" /> }}<ref name="Smith Soderblom et al. 1986" /> Significant amounts of [[carbon]] and [[nitrogen]] may have been present in the form of [[carbon monoxide]] and N<sub>2</sub> instead of methane and [[ammonia]].<ref name="Mousis 2004" /> The moons that formed in such a subnebula would contain less water ice (with CO and N<sub>2</sub> trapped as clathrate) and more rock, explaining the higher density.<ref name="Smith Soderblom et al. 1986" />
+
+Oberon's accretion probably lasted for several thousand years.<ref name="Mousis 2004" /> The impacts that accompanied accretion caused heating of the moon's outer layer.<ref name="Squyres Reynolds et al. 1988" /> The maximum temperature of around 230&nbsp;K was reached at the depth of about 60&nbsp;km.<ref name="Squyres Reynolds et al. 1988" /> After the end of formation, the subsurface layer cooled, while the interior of Oberon heated due to decay of [[radioactivity|radioactive elements]] present in its rocks.<ref name="Smith Soderblom et al. 1986" /> The cooling near-surface layer contracted, while the interior expanded. This caused strong [[extensional stress]]es in the moon's crust leading to cracking. The present-day system of canyons may be a result of this process, which lasted for about 200&nbsp;million years,<ref name="Hillier & Squyres 1991" /> implying that any endogenous activity from this cause ceased billions of years ago.<ref name="Smith Soderblom et al. 1986" />
+
+The initial [[accretion (astrophysics)|accretional heating]] together with continued decay of radioactive elements were probably strong enough to melt the ice<ref name="Hillier & Squyres 1991" /> if some antifreeze like ammonia (in the form of [[hydrate|ammonia hydrate]]) or some [[salt]] was present.<ref name="Hussmann Sohl et al. 2006" /> Further melting may have led to the separation of ice from rocks and formation of a rocky core surrounded by an icy mantle. A layer of liquid water ('ocean') rich in dissolved ammonia may have formed at the core–mantle boundary.<ref name="Hussmann Sohl et al. 2006" /> The [[eutectic temperature]] of this mixture is 176&nbsp;K.<ref name="Hussmann Sohl et al. 2006" /> If the temperature dropped below this value the ocean would have frozen by now. Freezing of the water would have led to expansion of the interior, which may have also contributed to the formation of canyon-like [[graben]].<ref name="Plescia1987" /> Still, present knowledge of the evolution of Oberon is very limited. Although recent analysis concluded that its more likely that the larger moons of Uranus have active subsurface oceans.<ref>{{Cite web|url=https://weather.com/en-IN/india/space/news/2023-05-10-four-of-uranus-large-moons-may-be-hosting-oceans-nasa-study|title=Four of Uranus' Large Moons May Be Hosting Oceans Under Their Icy Crust &#124; Weather.com|website=The Weather Channel}}</ref>
+
+== Exploration ==
+{{main|Exploration of Uranus}}
+
+So far the only close-up images of Oberon have been from the ''[[Voyager 2]]'' probe, which photographed the moon during its flyby of Uranus in January 1986. Since the closest approach of ''Voyager 2'' to Oberon was 470,600&nbsp;km,<ref name="Stone 1987" /> the best images of this moon have spatial resolution of about 6&nbsp;km.<ref name="Plescia1987" /> The images cover about 40% of the surface, but only 25% of the surface was imaged with a resolution that allows [[geological mapping]].<ref name="Plescia1987" /> At the time of the flyby the southern hemisphere of Oberon was pointed towards the [[Sun]], so the dark northern hemisphere could not be studied.<ref name="Smith Soderblom et al. 1986" /> No other spacecraft has ever visited the Uranian system.
+
+== See also ==
+* [[List of natural satellites]]
+* [[Uranus in fiction#Moons|Oberon in fiction]]
+* [[List of tallest mountains in the Solar System]]
+
+== Notes ==
+{{reflist| group = caption}}
+
+{{notes
+| notes =
+{{efn
+| name = surface area
+| Surface area derived from the radius ''r'': <math>4\pi r^2</math>.
+}}
+
+{{efn
+| name = volume
+| Volume ''v'' derived from the radius ''r'': <math>4\pi r^3/3</math>.
+}}
+
+{{efn
+| name = surface gravity
+| Surface gravity derived from the mass ''m'', the [[gravitational constant]] ''G'' and the radius ''r'': <math>Gm/r^2</math>.
+}}
+
+{{efn
+| name = escape velocity
+| Escape velocity derived from the mass ''m'', the gravitational constant ''G'' and the radius ''r'': {{math|{{radical|2''Gm''/''r''}}}}.
+}}
+
+{{efn
+| name = five major moons
+| The five major moons are [[Miranda (moon)|Miranda]], [[Ariel (moon)|Ariel]], [[Umbriel]], [[Titania (moon)|Titania]] and Oberon.
+}}
+
+}}
+
+== References ==
+{{reflist
+| colwidth = 30em
+| refs =
+<ref name="Shakespeare">
+{{cite book
+| last = Shakespeare
+| first = William
+| title = A midsummer night's dream
+| date = 1935
+| publisher = Macmillan
+| page = xliv
+| isbn = 0-486-44721-9
+}}
+</ref>
+
+<ref name="Herschel 1787">
+{{cite journal| doi = 10.1098/rstl.1787.0016| last = Herschel | first = W. S.| author-link = William Herschel| title = An Account of the Discovery of Two Satellites Revolving Round the Georgian Planet| journal = Philosophical Transactions of the Royal Society of London| volume = 77| pages = 125–129| year = 1787| jstor = 106717| doi-access = free}}
+</ref>
+
+<ref name="Thomas 1988">
+{{cite journal|year=1988|doi=10.1016/0019-1035(88)90054-1|bibcode=1988Icar...73..427T|pages=427–441 |volume=73 | first=P. C.|last=Thomas|title=Radii, shapes, and topography of the satellites of Uranus from limb coordinates|journal=Icarus|issue=3|doi-access=free}}
+</ref>
+
+<!-- <ref name="Jacobson Campbell et al. 1992">
+{{cite journal| doi = 10.1086/116211| last1 = Jacobson| first1 = R. A.| last2 = Campbell| first2 = J. K.| last3 = Taylor| first3 = A. H.| last4 = Synnott| first4 = S. P.| date=June 1992 | title = The masses of Uranus and its major satellites from Voyager tracking data and earth-based Uranian satellite data| journal = The Astronomical Journal| volume = 103| issue = 6| pages = 2068–2078| bibcode = 1992AJ....103.2068J| ref = {{sfnRef|Jacobson Campbell et al.|1992}}}}
+</ref> -->
+
+<ref name="Smith Soderblom et al. 1986">
+{{cite journal| doi = 10.1126/science.233.4759.43| last1 = Smith| first1 = B. A.| last2 = Soderblom| first2 = L. A.| last3 = Beebe| first3 = A.| last4 = Bliss| first4 = D.| last5 = Boyce| first5 = J. M.| last6 = Brahic| first6 = A.| last7 = Briggs| first7 = G. A.| last8 = Brown| first8 = R. H.| last9 = Collins| first9 = S. A.| date = 4 July 1986| title = Voyager 2 in the Uranian System: Imaging Science Results| journal = Science| volume = 233| issue = 4759| pages = 43–64| pmid = 17812889| bibcode = 1986Sci...233...43S| s2cid = 5895824| ref = {{sfnRef|Smith Soderblom et al.|1986}}| url = https://zenodo.org/record/1230972}}
+</ref>
+
+<ref name="Karkoschka 2001, Hubble">
+{{cite journal| doi = 10.1006/icar.2001.6596| last = Karkoschka| first = Erich| author-link = Erich Karkoschka| year = 2001| title = Comprehensive Photometry of the Rings and 16 Satellites of Uranus with the Hubble Space Telescope| journal = Icarus| volume = 151| issue = 1| pages = 51–68| bibcode = 2001Icar..151...51K| s2cid = 121044546| ref = {{sfnRef|Karkoschka, Hubble|2001}}| url = https://pdfs.semanticscholar.org/48c6/ea18bff25c2e84addca18018d6b790531181.pdf| archive-url = https://web.archive.org/web/20200213064028/https://pdfs.semanticscholar.org/48c6/ea18bff25c2e84addca18018d6b790531181.pdf| archive-date = 2020-02-13}}
+</ref>
+
+<ref name="Newton Teece 1995">
+{{cite book
+| last1 = Newton
+| first1 = Bill
+| last2 = Teece
+| first2 = Philip
+| date = 1995
+| title = The guide to amateur astronomy
+| publisher = Cambridge University Press
+| isbn = 978-0-521-44492-7
+| page = [https://archive.org/details/guidetoamateuras0002newt/page/109 109]
+| url = https://archive.org/details/guidetoamateuras0002newt
+| url-access = registration
+}}
+</ref>
+
+<ref name="Grundy Young et al. 2006">
+{{cite journal| doi = 10.1016/j.icarus.2006.04.016| last1 = Grundy| first1 = W. M.| last2 = Young| first2 = L. A.| last3 = Spencer| first3 = J. R.| last4 = Johnson| first4 = R. E.| last5 = Young| first5 = E. F.| last6 = Buie| first6 = M. W.| date=October 2006 | title = Distributions of H<sub>2</sub>O and CO<sub>2</sub> ices on Ariel, Umbriel, Titania, and Oberon from IRTF/SpeX observations| journal = Icarus| volume = 184| issue = 2| pages = 543–555| arxiv = 0704.1525| bibcode = 2006Icar..184..543G| s2cid = 12105236| ref = {{sfnRef|Grundy Young et al.|2006}}}}
+</ref>
+
+<ref name="Herschel 1788">
+{{cite journal| doi = 10.1098/rstl.1788.0024| last = Herschel | first = W. S.| author-link = William Herschel| date = 1 January 1788| title = On the Georgian Planet and Its Satellites| journal = Philosophical Transactions of the Royal Society of London| volume = 78| pages = 364–378| bibcode = 1788RSPT...78..364H| doi-access = free}}
+</ref>
+
+<ref name="Herschel 1798">
+{{cite journal| doi = 10.1098/rstl.1798.0005| last = Herschel| first = William Sr. | author-link = William Herschel| date = 1 January 1798| title = On the Discovery of Four Additional Satellites of the Georgium Sidus. The Retrograde Motion of Its Old Satellites Announced; And the Cause of Their Disappearance at Certain Distances from the Planet Explained| journal = Philosophical Transactions of the Royal Society of London| volume = 88| pages = 47–79| bibcode = 1798RSPT...88...47H| doi-access = free}}
+</ref>
+
+<ref name="Struve 1848">
+{{cite journal
+| last = Struve
+| first = O.
+| bibcode = 1848MNRAS...8...43L
+| title = Note on the Satellites of Uranus
+| journal = [[Monthly Notices of the Royal Astronomical Society]]
+| volume = 8
+| issue = 3
+| date = 1848
+| pages = 44–47
+| doi = 10.1093/mnras/8.3.43 
+| doi-access = free
+}}
+</ref>
+
+<ref name="Herschel 1834">
+{{cite journal
+| last = Herschel
+| first = John
+| author-link = John Herschel
+|date=March 1834
+| title = On the Satellites of Uranus
+| journal = Monthly Notices of the Royal Astronomical Society
+| volume = 3
+| issue = 5
+| pages = 35–36
+| bibcode = 1834MNRAS...3...35H
+| doi=10.1093/mnras/3.5.35
+| url = https://zenodo.org/record/1431837
+| doi-access = free
+}}
+</ref>
+
+<ref name="Kuiper 1949">
+{{cite journal|page=129|issue=360|doi=10.1086/126146|bibcode=1949PASP...61..129K|volume=61|journal=Publications of the Astronomical Society of the Pacific|year=1949|title=The Fifth Satellite of Uranus|last=Kuiper | first=G. P.|s2cid=119916925 |doi-access=free}}
+</ref>
+
+<ref name="Lassell 1852">
+{{cite journal
+| last = Lassell
+| first = W.
+| date = 1852
+| language = de
+| title = Beobachtungen der Uranus-Satelliten
+| journal = Astronomische Nachrichten
+| volume = 34
+| page = 325
+| bibcode = 1852AN.....34..325.
+}}
+</ref>
+
+<ref name="Lassell 1851">
+{{cite journal
+| last = Lassell
+| first = W.
+| date = 1851
+| title = On the interior satellites of Uranus
+| journal = Monthly Notices of the Royal Astronomical Society
+| volume = 12
+| pages = 15–17
+| bibcode = 1851MNRAS..12...15L
+| doi=10.1093/mnras/12.1.15
+| doi-access = free
+}}
+</ref>
+
+<ref name="Lassell 1848">
+{{cite journal
+| last = Lassell
+| first = W.
+| date = 1848
+| title = Observations of Satellites of Uranus
+| journal = Monthly Notices of the Royal Astronomical Society
+| volume = 8
+| issue = 3
+| pages = 43–44
+| bibcode = 1848MNRAS...8...43L
+| doi = 10.1093/mnras/8.3.43 
+| doi-access = free
+}}
+</ref>
+
+<ref name="Lassell 1850">
+{{cite journal
+| last = Lassell
+| first = W.
+| date = 1850
+| title = Bright Satellites of Uranus
+| journal = Monthly Notices of the Royal Astronomical Society
+| volume = 10
+| issue = 6
+| page = 135
+| bibcode = 1850MNRAS..10..135L
+| doi = 10.1093/mnras/10.6.135
+| doi-access = free
+}}
+</ref>
+
+<ref name="Lassell, letter 1851">
+{{cite journal| doi = 10.1086/100198| last = Lassell| first = William| author-link = William Lassell| date=December 1851 | title = Letter from William Lassell, Esq., to the Editor| journal = Astronomical Journal| volume = 2| issue = 33| page = 70| bibcode = 1851AJ......2...70L| ref = {{sfnRef|Lassell, .27.27letter.27.27|1851}}}}
+</ref>
+
+<ref name="Ness Acuña et al. 1986">
+{{cite journal| doi = 10.1126/science.233.4759.85| last1 = Ness| first1 = Norman F.| last2 = Acuña| first2 = Mario H.| last3 = Behannon| first3 = Kenneth W.| last4 = Burlaga| first4 = Leonard F.| last5 = Connerney| first5 = John E. P.| last6 = Lepping| first6 = Ronald P.| last7 = Neubauer| first7 = Fritz M.| date=July 1986 | title = Magnetic Fields at Uranus| journal = Science| volume = 233| issue = 4759| pages = 85–89| pmid = 17812894| bibcode = 1986Sci...233...85N| s2cid = 43471184| ref = {{sfnRef|Ness Acuña et al.|1986}}}}
+</ref>
+
+<ref name="Hidas Christou et al. 2008">
+{{cite journal| doi = 10.1111/j.1745-3933.2007.00418.x| last1 = Hidas | first1 = M. G.| last2 = Christou | first2 = A. A.| last3 = Brown | first3 = T. M.| date=February 2008 | title = An observation of a mutual event between two satellites of Uranus| journal = Monthly Notices of the Royal Astronomical Society: Letters| volume = 384| issue = 1| pages = L38–L40| doi-access = free | bibcode = 2008MNRAS.384L..38H| ref = {{sfnRef|Hidas Christou et al.|2008}}|arxiv = 0711.2095 | s2cid = 14971001 }}
+</ref>
+
+<ref name="NASA">
+{{cite web
+| url = http://ssd.jpl.nasa.gov/?sat_phys_par
+| title = Planetary Satellite Physical Parameters
+| publisher = Jet Propulsion Laboratory, NASA
+| access-date = January 31, 2009
+}}
+</ref>
+
+<ref name="Hussmann Sohl et al. 2006">
+{{cite journal| doi = 10.1016/j.icarus.2006.06.005| last1 = Hussmann| first1 = Hauke| last2 = Sohl| first2 = Frank| last3 = Spohn| first3 = Tilman| date = November 2006| title = Subsurface oceans and deep interiors of medium-sized outer planet satellites and large trans-neptunian objects| journal = [[Icarus (journal)|Icarus]]| volume = 185| issue = 1| pages = 258–273| url = https://www.researchgate.net/publication/225019299| bibcode = 2006Icar..185..258H| ref = {{sfnRef|Hussmann Sohl et al.|2006}}}}
+</ref>
+
+<ref name="Bell McCord 1991">
+{{cite conference
+| last1 = Bell
+| first1 = J. F. III
+| last2 = McCord
+| first2 = T. B.
+| date = 1991
+| title = A search for spectral units on the Uranian satellites using color ratio images
+| conference = Lunar and Planetary Science Conference, 21st, Mar. 12–16, 1990
+| publisher = Lunar and Planetary Sciences Institute
+| location = Houston, TX, United States
+| type = Conference Proceedings
+| pages = 473–489
+| bibcode = 1991LPSC...21..473B
+}}
+</ref>
+
+<ref name="Helfenstein Hillier et al. 1990">
+{{cite journal
+| last1 = Helfenstein
+| first1 = P.
+| last2 = Hillier
+| first2 = J.
+| last3 = Weitz
+| first3 = C.
+| last4 = Veverka
+| first4 = J.
+|date=March 1990
+| title = Oberon: Color Photometry and its Geological Implications
+| publisher = Lunar and Planetary Sciences Institute, Houston
+| journal = Abstracts of the Lunar and Planetary Science Conference
+| volume = 21
+| pages = 489–490
+| bibcode = 1990LPI....21..489H
+}}
+</ref>
+
+<ref name="Buratti Mosher 1991">
+{{cite journal| doi = 10.1016/0019-1035(91)90064-Z| last1 = Buratti| first1 = Bonnie J.| last2 = Mosher| first2 = Joel A.| date=March 1991 | title = Comparative global albedo and color maps of the Uranian satellites| journal = Icarus| volume = 90| issue = 1| pages = 1–13| issn = 0019-1035| bibcode = 1991Icar...90....1B}}
+</ref>
+
+<ref name="USGS-Nomenclature">{{Cite web|url=https://planetarynames.wr.usgs.gov/jsp/append5.jsp|title=USGS Astrogeology: Gazetteer of Planetary Nomenclature&nbsp;– Feature Types<!-- Bot generated title -->}}</ref>
+
+<ref name="Plescia1987">
+{{cite journal| doi = 10.1029/JA092iA13p14918| last = Plescia| first = J. B.| date = December 30, 1987| title = Cratering history of the Uranian satellites: Umbriel, Titania and Oberon| journal = Journal of Geophysical Research| issn = 0148-0227| volume = 92| issue = A13| pages = 14,918–14,932| bibcode = 1987JGR....9214918P}}
+</ref>
+
+<ref name="USGS: Uranus: Oberon: Hamlet">
+{{cite web
+| author = [[USGS]]/[[IAU]]
+| date = October 1, 2006
+| title = Hamlet on Oberon
+| publisher = USGS Astrogeology
+| work = Gazetteer of Planetary Nomenclature
+| url = https://planetarynames.wr.usgs.gov/Feature/2340
+| access-date = 2012-03-28
+| ref = {{sfnRef|USGS: Uranus: Oberon: Hamlet}}
+}}
+</ref>
+
+<ref name="Moore Schenk et al. 2004">
+{{cite journal| doi = 10.1016/j.icarus.2004.05.009| last1 = Moore| first1 = Jeffrey M.| last2 = Schenk| first2 = Paul M.| last3 = Bruesch| first3 = Lindsey S.| last4 = Asphaug| first4 = Erik| last5 = McKinnon| first5 = William B.| date=October 2004 | title = Large impact features on middle-sized icy satellites| journal = Icarus| volume = 171| issue = 2| pages = 421–443| url = http://planets.oma.be/ISY/pdf/article_Icy.pdf| bibcode = 2004Icar..171..421M| ref = {{sfnRef|Moore Schenk et al.|2004}}
+}}
+</ref>
+
+<ref name="Croft 1989">
+{{cite conference
+| last = Croft
+| first = S. K.
+| title = New geological maps of Uranian satellites Titania, Oberon, Umbriel and Miranda
+| date = 1989
+| publisher = Lunar and Planetary Sciences Institute, Houston
+| work = Proceeding of Lunar and Planetary Sciences
+| volume = 20
+| page = 205C
+| bibcode = 1989LPI....20..205C
+}}
+</ref>
+
+<ref name="Mommur">
+{{cite web
+| title = Oberon: Mommur
+| publisher = USGS Astrogeology
+| work = Gazetteer of Planetary Nomenclature
+| url = https://planetarynames.wr.usgs.gov/Feature/3958?__fsk=-1887607508
+| access-date = 2009-08-30
+}}
+</ref>
+
+<ref name="usgs">
+{{cite web
+| title = Oberon Nomenclature Table of Contents
+| publisher = USGS Astrogeology
+| work = Gazetteer of Planetary Nomenclature
+| url = https://planetarynames.wr.usgs.gov/SearchResults?Target=97_Oberon
+| access-date = 2022-10-17
+}}
+</ref>
+
+<ref name="Strobell Masursky 1987">
+{{cite journal
+| last1 = Strobell
+| first1 = M. E.
+| last2 = Masursky
+| first2 = H.
+|date=March 1987
+| title = New Features Named on the Moon and Uranian Satellites
+| journal = Abstracts of the Lunar and Planetary Science Conference
+| volume = 18
+| pages = 964–965
+| bibcode = 1987LPI....18..964S
+}}
+</ref>
+
+<ref name="Mousis 2004">
+{{cite journal|year=2004|doi=10.1051/0004-6361:20031515|bibcode=2004A&A...413..373M|pages=373–380 |volume=413 | first=O.|title=Modeling the thermodynamical conditions in the Uranian subnebula – Implications for regular satellite composition|journal=Astronomy & Astrophysics|last=Mousis|doi-access=free}}
+</ref>
+
+<ref name="Squyres Reynolds et al. 1988">
+{{cite journal| doi = 10.1029/JB093iB08p08779| last1 = Squyres| first1 = S. W.| last2 = Reynolds| first2 = Ray T.| last3 = Summers| first3 = Audrey L.| last4 = Shung| first4 = Felix| year = 1988| title = Accretional Heating of the Satellites of Saturn and Uranus| journal = Journal of Geophysical Research| volume = 93| issue = B8| pages = 8779–8794| bibcode = 1988JGR....93.8779S| ref = {{sfnRef|Squyres Reynolds et al.|1988}}| hdl = 2060/19870013922| hdl-access = free}}
+</ref>
+
+<ref name="Hillier & Squyres 1991">
+{{cite journal| doi = 10.1029/91JE01401| last1 = Hillier| first1 = John| last2 = Squyres| first2 = Steven W.| date=August 1991 | title = Thermal stress tectonics on the satellites of Saturn and Uranus| journal = Journal of Geophysical Research| volume = 96| issue = E1| pages = 15,665–15,674| bibcode = 1991JGR....9615665H}}
+</ref>
+
+<ref name="Stone 1987">
+{{cite journal| doi = 10.1029/JA092iA13p14873| last = Stone| first = E. C.| date = December 30, 1987| title = The Voyager 2 Encounter with Uranus| journal = Journal of Geophysical Research| issn = 0148-0227| volume = 92| issue = A13| pages = 14,873–14,876| bibcode = 1987JGR....9214873S| url = https://authors.library.caltech.edu/45315/1/1986-01.pdf}}
+</ref>
+
+<ref name="Jacobson&Park2025">{{Cite journal |last1=Jacobson |first1=Robert A. |last2=Park |first2=Ryan S. |date=2025-02-03 |title=The Orbits of Uranus, Its Satellites and Rings, the Gravity Field of the Uranian System, and the Orientation of the Poles of Uranus and Its Satellites |journal=The Astronomical Journal |volume=169 |issue=2 |pages=65 |doi=10.3847/1538-3881/ad99d1 |bibcode=2025AJ....169...65J |doi-access = free |issn=0004-6256}}</ref>
+
+<ref name="DeColibus2026">{{Cite journal |last=DeColibus |first=Riley A. |last2=Cartwright |first2=Richard J. |last3=Grundy |first3=William M. |last4=Buratti |first4=Bonnie J. |last5=Hicks |first5=Michael D. |last6=Mishra |first6=Ishan |date=2026-03-01 |title=Optical Spectroscopy of the Uranian Moons from Equinox to Northern Summer |journal=The Planetary Science Journal |volume=7 |issue=3 |pages=67 |doi=10.3847/PSJ/ae4a1b |issn=2632-3338 |bibcode=2026PSJ.....7...67D |s2cid=286638310 |doi-access=free}}</ref>
+
+}}
+
+<!-- <ref>{{cite web|url=https://www.johnstonsarchive.net/astro/solar_system_phys_data.html|title=Physical data for solar system planets and satellites|author=Wm. Robert Johnston|date=August 22, 2025}}</ref> -->
+
+== External links ==
+{{Spoken Wikipedia|Oberon (moon) Sep 10.ogg|date=2 September 2010}}
+{{Commons category|Oberon (moon)}}
+
+* {{cite web|url=http://www.nineplanets.org/oberon.html|publisher=The Nine Planets|title=Oberon profile|date=December 22, 2004|author=Arnett, Bill}}
+* {{cite web|url=http://www.nineplanets.org/see.html|publisher=The Nine Planets|title=Seeing the Solar System|date=November 17, 2004|author=Arnett, Bill}}
+* {{cite web|url=http://www.solarviews.com/eng/oberon.htm |work = Views of the Solar System web site| title=Oberon |date=2001| author=Hamilton, Calvin J.}}
+* {{cite web|url=http://solarsystem.nasa.gov/planets/profile.cfm?Object=Ura_Oberon|archive-url=https://web.archive.org/web/20021126214251/http://solarsystem.nasa.gov/planets/profile.cfm?Object=Ura_Oberon|archive-date=2002-11-26|publisher=[[NASA]]'s Solar System Exploration web site|title=Oberon: Overview}}
+* {{cite web|url=https://planetarynames.wr.usgs.gov/Page/OBERON/target|title=Oberon Nomenclature|publisher=USGS Planetary Nomenclature web site}}
+
+{{Uranus}}
+{{Moons of Uranus}}
+{{Solar System moons (compact)}}{{Solar System}}{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar System}}
+{{Authority control}}
+
+
+[[Category:Oberon (moon)| ]]
+[[Category:Astronomical objects discovered in 1787|17870111]]
+[[Category:Discoveries by William Herschel]]
+[[Category:Moons with a prograde orbit]]

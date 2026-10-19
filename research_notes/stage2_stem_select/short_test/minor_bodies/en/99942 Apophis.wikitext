@@ -1,0 +1,695 @@
+{{Short description|Potentially hazardous near-Earth asteroid}}
+{{Lead rewrite|date=July 2026|talk=Needs improvement}}
+{{Use dmy dates|date=April 2026}}
+{{Infobox planet
+| background = #FFC2E0
+| discoverer = {{Unbulleted list
+ | [[Roy A. Tucker]]
+ | [[David J. Tholen]]
+ | [[Fabrizio Bernardi]]
+ }}
+| discovery_site = [[Kitt Peak National Observatory|Kitt Peak]]<ref name="jpldata"/>
+| minorplanet = yes
+| name = 99942 Apophis
+| symbol = [[file:Apophis symbol (bold).svg|24px]] (rare)
+| image = 99942 Apophis shape.png
+| image_scale = 1.25
+| caption = Model of 99942 Apophis's shape, assuming the entire surface is of a similar composition
+| discovery_ref = <ref name="jpldata"/>
+| discovered = 19 June 2004
+| earliest_precovery_date = 15 March 2004
+| mpc_name = (99942) Apophis
+| pronounced = {{IPAc-en|ə|ˈ|p|ɒ|f|ɪ|s}} or {{IPAc-en|ə|ˈ|p|oʊ|f|ɪ|s}}; (trad.) {{IPAc-en|ˈ|æ|p|ə|f|ɪ|s}}
+| adjective = Apophidian {{IPAc-en|æ|p|ə|ˈ|f|ɪ|d|i|ə|n}} (Latin ''Apŏpidis'')
+| alt_names = {{Minor planet|2004 MN|4}}
+| named_after = [[Apep|Ἄποφις]] ''Apophis''
+| mp_category = {{Hlist
+ | [[Aten asteroids|Aten]]
+ | [[Near-Earth object|NEO]]
+ | [[Potentially hazardous object|PHA]]<ref name="jpldata"/>
+ }}
+| orbit_ref = <ref name="jpldata"/>
+| epoch = 5 May 2025<br/>([[Julian day|JD]]&nbsp;2460800.5)
+| uncertainty = 0
+| observation_arc = 6599 days (18.07&nbsp;yr)
+| aphelion = {{Convert|1.0987|AU|e6km|abbr=unit|lk=on}}
+| period = 0.886&nbsp;[[Julian year (astronomy)|yr]] (323.6&nbsp;[[Julian day|d]])
+| semimajor = {{Convert|0.9224|AU|e6km|abbr=unit}}
+| perihelion = {{Convert|0.7461|AU|e6km|abbr=unit}}
+| eccentricity = 0.1911
+| inclination = 3.341[[Degree (angle)|°]]
+| asc_node = 203.9°
+| arg_peri = 126.7°
+| avg_speed = 30.73&nbsp;km/[[second|s]]
+| mean_anomaly = 90.28°
+| mean_motion = 1.112°/day
+| moid = {{Convert|0.000038|AU|e3km|abbr=unit}}<ref name="jpldata"/>{{efn|Like all orbital elements, the E-MOID changes depending on the epoch it is defined at. At epoch May 2025, the E-MOID is 0.000038 AU, but in early 2029 it will be around 0.00006 AU (ca 9000 km).<ref name="Farnocchia2013_Icarus"/>}}
+| jupiter_moid = 4.1 AU
+| tisserand = 6.464
+| abs_magnitude = {{Unbulleted list
+ | {{val|19.7|0.4}}<ref name="jpldata"/><ref name="phys"/>
+ | {{val|19.09|0.19}}<ref name="Brozovic2018"/>
+ | {{val|18.95|0.15}}<ref name="Neodys_eq1"/>
+ }}
+| dimensions = {{Unbulleted list
+ | {{Convert|0.370|km|abbr=on}}
+ | 0.45 × 0.17&nbsp;km<ref name="Brozovic2018"/>
+ }}
+| mean_radius = {{Unbulleted list
+ | {{Convert|0.185|km|abbr=on}}
+ | {{val|0.17|0.02|u=km}}<ref name="Brozovic2018"/>
+ }}
+| density = {{Unbulleted list
+ | ~3.2&nbsp;g/cm{{sup|3}}<ref name="Binzel2007"/>
+ | 2.6&nbsp;g/cm{{sup|3}} (assumed)<ref name="riskneo"/>
+ }}
+| mass = {{Val|6.1e10|u=kg}} (assumed)<ref name="riskneo"/>
+| rotation = {{Convert|30.4|h|d|abbr=on|lk=on}}<ref name="jpldata"/><ref name="phys"/><br />30.55±0.12&nbsp;h<ref name="Reddy2022"/><br />30.67±0.06&nbsp;h<ref name="IAWN2021-Gallery"/><br />[[Tumbling asteroid|Tumbling]]:<ref name="tumblingspinstate"/><br />27.38±0.07&nbsp;h (precession period),<ref name="tumblingspinstate"/> 263±6&nbsp;h (rotation period),<ref name="tumblingspinstate"/> 30.56±0.01&nbsp;h (twice the period of harmonic with strongest lightcurve amplitude)<ref name="tumblingspinstate"/>
+| spectral_type = Sq<ref name="phys"/>
+| albedo = {{Unbulleted list
+ | 0.23<ref name="esanews1"/>
+ | {{val|0.35|0.10}}<ref name="Brozovic2018"/>
+ }}
+| single_temperature = 270 [[kelvin|K]]
+}}
+
+'''99942 Apophis''' ([[Provisional designation in astronomy#Minor planets|provisional designation]] '''{{Minor planet|2004 MN|4}}''') is a [[Near-Earth object#Near-Earth asteroids|near-Earth asteroid]] and a [[potentially hazardous object]], 450 metres (1,480&nbsp;ft) by 170 metres (560&nbsp;ft) in size.<ref name="Brozovic2018"/> During a brief period of concern in December 2004, initial observations indicated a probability of 2.7% that the asteroid would hit [[Earth]] on Friday, April 13, 2029. Later observations eliminated that possibility of an [[impact event|impact with Earth]], and it will pass Earth in 2029 at a distance of about {{cvt|31600|km}} above the surface. During the short time when it had been of greatest concern, Apophis set the record for highest rating ever on the [[Torino scale]] by reaching Level&nbsp;4 on 27 December 2004.
+
+It took until 2021 to rule out the possibility that Apophis might hit Earth at some later date in the next century. Observations by [[Goldstone Deep Space Communications Complex|Goldstone]] radar in January 2013 effectively ruled out the possibility of an Earth impact by Apophis in 2036. Radar observations in early 2021 helped refine the orbit, and in March 2021 the [[Jet Propulsion Laboratory]] announced that Apophis has no chance of impacting Earth in the next 100 years. By 2021, the uncertainty in the 2029 approach distance had been reduced from hundreds of kilometres to now just a couple of kilometres, greatly enhancing predictions of future approaches.
+
+Apophis is the target of a number of [[planetary defense]] missions to study the asteroid during its 2029 close approach. Those include the ''[[OSIRIS-REx]]'' and ''[[Ramses (spacecraft)|Ramses]]'' spacecraft.
+
+== Discovery and naming ==
+[[File:Apep 1.jpg|thumb|left|upright=1.2|[[Atum]], a form of Ra facing Apep (Apophis) before killing him, [[KV16|tomb of Ramesses I]], 19th Dynasty (c. 1292–1290 BC)]]
+Apophis was discovered on 19 June 2004, by [[Roy A. Tucker]], [[David J. Tholen]], and [[Fabrizio Bernardi]] at the [[Kitt Peak National Observatory]].<ref name="jpldata"/> On 21 December 2004, Apophis passed {{convert|0.0964|AU|Gm e6mi|abbr=unit|lk=on}} from Earth.<ref name="jpldata"/> [[Precovery]] observations from 15 March 2004 were identified on December&nbsp;27, and an improved orbit solution was computed.<ref name="MPEC2004-Y70"/><ref name="nasanews148"/> [[Radar astronomy|Radar]] astrometry in January 2005 further refined its orbit solution.<ref name="Arecibo"/><ref name="nasanews149"/> The discovery was notable in that it was at a very low [[Elongation (astronomy)|solar elongation]] (56°) and at very long range (1.1&nbsp;AU).{{citation needed|date=January 2024}}
+
+When first discovered, the object received the provisional designation {{Minor planet|2004 MN|4}}, and early news and scientific articles naturally referred to it by that name. Once its orbit was sufficiently well calculated, it received the permanent number 99942 (on 24 June 2005). Receiving a permanent number made it eligible for naming by its discoverers, and they chose the name "Apophis" on 19 July 2005.<ref name="naming"/> Apophis is the [[Greek language|Greek]] name of [[Apophis|Apep]], an enemy of the [[Ancient Egypt]]ian sun-god [[Ra]]. He was the uncreator, an evil serpent that dwelled in the eternal darkness of the [[Duat]] and tried to swallow and kill Ra during his nightly passage by devouring him as his food. Apep was held at bay by [[Set (deity)|Set]] and [[Horus]], the Ancient Egyptian gods of storms and the desert with skies and the plain respectively with Ra's entourage, and Ra beheaded Apep to death forever once in the form of the great feline in the shade of [[Heliopolis (ancient Egypt)|Heliopolis]] [[Sun Temple|sun temple]]'s [[Mimusops laurifolia|persea tree]].<ref name="Hill2010"/> Apophis will evolve from an [[Aten asteroid|Aten]]- into an [[Apollo asteroid|Apollo]]-type asteroid as a result of the 2029 encounter. Apollo asteroids are usually named after Greek deities, Aten asteroids after Egyptian ones. The name Apophis is a nod to that: It is the Greek name of an Egyptian deity.<ref name="BAN315"/><ref name="naming"/>
+
+Tholen and Tucker, two of the co-discoverers of the asteroid, are reportedly fans of the television series ''[[Stargate SG-1]]''. One of the show's persistent villains is an alien named [[List of Stargate SG-1 characters#Apophis|Apophis]]. He is one of the principal threats to the existence of civilization on Earth through the first few seasons, and may have inspired the naming.<ref name="naming"/> Tholen denied reports that the asteroid was named after the TV character, stating that the connection is coincidental.<ref name="BAN315"/><ref name="Apophis_Facts" /> In the fictional world of the show, the alien's backstory was that he had lived on Earth during ancient times and had posed as a god, thereby giving rise to the myth of the Egyptian god of the same name.<ref name="naming"/>
+
+[[File:Apophis symbol (fixed width).svg|thumb|left|80px|Proposed symbol for Apophis]]
+The mythological creature Apophis is pronounced with the accent on the first syllable (/ˈæpəfɪs/).{{efn|This is normal for classical names in which the penultimate syllable is short.}} In contrast, the asteroid's name is generally accented on the second syllable ({{IPA|/əˈpoʊfɪs/}},<ref>{{Cite Dictionary.com|Apophis}}</ref> or {{IPA|/əˈpɒfɪs/}} as the name was pronounced in the TV series).<ref name="pronunciation1"/>
+
+[[Planetary symbols|Symbols]] were given to the first few asteroids in the 19th century, though this practice faded when it became clear that there were a great number of them: such symbols are now extremely rarely used by astronomers. In 2008, Denis Moskowitz, a software engineer who devised most of the [[dwarf planet]] symbols in [[Unicode]], proposed a symbol for Apophis. His symbol is based on ancient Egyptian depictions of Apep. The added star is similar to many of the 19th-century asteroid symbols.<ref name="Finlay2008a"/><ref name="Finlay2008b"/>
+
+== Physical characteristics and rotation ==
+{{multiple image
+|align=right
+|direction=vertical
+|width=200
+|image_gap=10
+|image1=Size of Apophis asteroid.png
+|caption1=Comparison of possible size of Apophis with the [[Eiffel Tower]] and [[Empire State Building]]
+|image2=Apophis model comparison.png
+|caption2=Comparison between the best-fit [[Convex hull|convex]] and nonconvex shape models, and some of the available radar images of (99942) Apophis
+}}
+Based on the observed brightness, Apophis's diameter was initially estimated at {{convert|450|m}}; a more refined estimate based on spectroscopic observations at [[NASA]]'s [[NASA Infrared Telescope Facility|Infrared Telescope Facility]] in Hawaii by Binzel, Rivkin, Bus, and Tokunaga (2005) is {{convert|350|m}}. As of 2013, NASA's impact risk page listed the diameter at {{convert|330|m}}, and an assumed mass of 4{{X10^|10}} kg.<ref name="riskneo"/> The mass estimate is more approximate than the diameter estimate, but should be accurate to within a factor of three.<ref name="riskneo"/> Apophis's surface composition probably matches that of [[LL chondrite]]s.<ref name="Reddy2018"/>
+
+Based on Goldstone and Arecibo radar images taken in 2012–2013, Brozović et al. have estimated that Apophis is an elongated object 450 × 170 metres in size, and that it is bilobed (possibly a [[Contact binary (small Solar System body)|contact binary]]) with a relatively bright surface albedo of {{val|0.35|0.10}}. The axis of its angular momentum points 59° south of the [[ecliptic]], which means that Apophis is a [[Retrograde and prograde motion|retrograde rotator]].<ref name="Brozovic2018"/>
+
+Apophis is a [[List of tumblers (small Solar System bodies)|tumbler]], which means that it does not rotate around a fixed axis. Rather, the axis of rotation moves in the frame of reference of the asteroid with a period of around 263 hours (called the rotation period). The angle between it and the [[Moment of inertia|principal axis]] of highest [[moment of inertia]] varies, as does the angle between that principal axis and the vector of angular momentum (from around 12° to around 55° twice every period). During this period, the angle between the long axis of Apophis and the angular momentum vector swings between around 78° and 102° (90°±12°). But the principal axis of highest moment and the rotation axis both move around the constant axis of angular momentum much faster, with a time-averaged period of 27.38 hours (this is called [[precession]]). The result is that Apophis appears to be "flipping", making a revolution on average every 30.56 hours. Every 263 hours, the principal axis with highest moment goes around 263/27.28 times (ca 9.6), whereas the long axis goes around 263/30.56 times (ca 8.6).<ref name="tumblingspinstate"/>
+
+== Orbit ==
+Apophis has a low inclination orbit (3.3°) that varies from just outside the orbit of [[Venus]] (0.746 AU, as compared to the aphelion of Venus, 0.728) to just outside the orbit of [[Earth]] (1.099 AU).<ref name="jpldata"/> Although its orbit changes slightly each time it comes close to Earth, at present it comes near Earth once in 7.75 years on average (four times between April 14, 1998, and April 13, 2029). Because of its eccentric orbit, these moments are not evenly spaced and tend to occur between December and April, when Apophis is in the outer portions of its orbit.<ref name="Predicting"/> In fact, the eccentricity and semi-major axis are such that (before 2029) Apophis is always receding from Earth around May 1 and is always approaching around December 2.<ref name="deldot"/> At the [[Orbital node|ascending node]] (where Apophis crosses the plane of Earth's orbit from south to north) Apophis is very close to where Earth is around 13 April of any year, and this is what gives rise to close encounters such as the one on 13 April 2029. The orbit also passes south of where the earth is in mid December, producing for example the close approaches of December 16, 1889, and December 18, 1939.<ref name="Predicting"/> After the 2029 Earth approach, the orbit will change dramatically. The period will change from around {{Fraction|8|9}} of a year to a bit under {{Fraction|7|6}}. It will still come very close to Earth's yearly April 13 location. It will no longer pass close to Earth's yearly mid-December location, but will then pass close to Earth's mid-September location. This will cause a close encounter on 11 September 2102, after which the uncertainty in the location of Apophis will increase rapidly with time.<ref name="jpldata"/>
+
+By 2116, the [[JPL Small-Body Database]] and [[NEODyS]] close approach data start to become [[Chaos theory|divergent]].<ref name="jpldata"/><ref name="NEODys"/> In April 2116, Apophis is expected to pass about {{convert|0.02|AU|e6km LD|abbr=unit|sigfig=1}} from Earth, but could pass as close as {{convert|0.001|AU|e3km LD|abbr=unit}} or as far as {{convert|0.1|AU|e6km LD|abbr=unit}}.<ref name="jpldata"/>
+
+{| class="wikitable sortable" style="font-size: 0.9em;"
+|+Selected approaches to Earth until 2117<ref name="jpldata"/>
+! Date
+! [[JPL Small-Body Database|JPL SBDB]]<br />[[Curve fitting|nominal]] geocentric<br />distance ([[astronomical unit|AU]])
+!class=unsortable| uncertainty<br />region<br />([[68–95–99.7 rule|3-sigma]])
+|-
+|2004-12-21 ||{{Convert|0.09638|AU|e6km|abbr=unit}} || n/a 
+|-
+|2013-01-09 ||{{Convert|0.09666|AU|e6km|abbr=unit}} || n/a 
+|-id=2029
+|2029-04-13 ||{{Convert|0.000254115|AU|km|abbr=unit}} || ±3.3&nbsp;km<ref name="Horizons2029"/>
+|-id=2036
+|2036-03-27 ||{{Convert|0.309678|AU|e6km|abbr=unit}} || ±130 thousand km<ref name="Horizons2036"/>
+|-
+|2051-04-20 ||{{Convert|0.04149|AU|e6km|abbr=unit}} || ±240 thousand km<ref name="Horizons2051"/>
+|-
+|2066-09-16 ||{{Convert|0.06943|AU|e6km|abbr=unit}} || ±870 thousand km
+|-
+|2116-04-12 ||{{Convert|0.01756|AU|e6km|abbr=unit}} || {{convert|0.00104|to|0.10433|AU|e6km|abbr=unit}}{{efn|The minimum possible Earth approach between April 5–20, 2116 is {{convert|0.00102|AU|e3km|abbr=unit|lk=off}}. "JPL Horizons" gives 13 million km for 3σ<ref name="Horizons2116"/>}}
+|-
+|2117-10-07 ||{{Convert|0.48|AU|e6km|abbr=unit}} || {{convert|0.30994|to|0.64045|AU|e6km|abbr=unit}}{{efn|"JPL Horizons" gives 42 million km for 3σ<ref name="Horizons2117"/>}}
+|}
+
+=== 2029 close approach ===
+{{multiple image
+| align = right
+| direction = vertical
+| width = 300
+| image1 = Animation of 99942 Apophis orbit around Sun.gif
+| caption1 = Around Sun
+| image2 = Animation of 99942 Apophis orbit around Earth.gif
+| caption2 = Around Earth
+| footer ={{Legend inline|yellow|Sun}}{{·}}{{Legend inline|RoyalBlue|Earth}}{{·}}{{Legend inline|Magenta|Apophis}}{{·}}{{Legend inline|Gold|Moon}}
+| header = Animation of Apophis's orbit in 2028–2029
+}}
+{{multiple image
+| align = right
+| direction = vertical 
+| width = 300
+| image1 = PIA23195-AsteroidApophis-ClosestApproachToEarth-20190429.webm
+| header = Simulation of the 2029 close approach
+| footer = {{Legend inline|Yellow|Apophis}}{{·}}{{Legend inline|Magenta|[[International Space Station]]}}{{·}}{{Legend inline|Cyan|[[Satellite]]s}}
+}}
+The closest known approach of Apophis will occur on 13 April 2029, at 21:46 [[Universal Time|UT]], when Apophis will pass Earth at a distance of about {{convert|31600|km|lk=on}} above the surface.<ref name="surface"/> Using the June 2024 orbit solution which includes the [[Yarkovsky effect]], the [[68–95–99.7 rule|3-sigma]] uncertainty region in the 2029 approach distance is about ±3.3&nbsp;km.<ref name="Horizons2029"/><ref name="jpldata"/> The distance, a hair's breadth in astronomical terms, is five times the [[Earth radius|radius of the Earth]], one tenth the distance to the [[Moon]],<ref name="blog2023"/> and closer than the ring of [[Geostationary orbit|geostationary]] satellites currently orbiting the Earth.<ref name="satsig"/><ref name="earthsky-preparing"/> It will be the closest asteroid of its size in recorded history. On that date, it will become as bright as magnitude&nbsp;3.1<ref name="NEODyS2029"/> (visible to the [[naked eye]] from rural as well as darker suburban areas, visible with [[binoculars]] from most locations).<ref name="mag-scale"/> The close approach will be visible from [[Europe]], [[Africa]], and western [[Asia]]. Over the course of about a day, Apophis will move northwest from [[Centaurus]] to [[Perseus (constellation)|Perseus]] and then southwest to [[Pisces (constellation)|Pisces]], an arc of 205°.<ref name="sky_arc"/> Approaching Earth its speed relative to Earth will be 6.0&nbsp;km/s. Earth's gravity will accelerate it to 7.4&nbsp;km/s at the time of closest approach, and then slow it back down to 6 as it departs.<ref name="deceleration_JPL"/> During the approach, Earth will [[Perturbation (astronomy)|perturb]] Apophis from an [[Aten asteroid|Aten]]-class orbit with a [[Semi-major and semi-minor axes|semi-major axis]] of 0.92&nbsp;[[Astronomical unit|AU]] to an [[Apollo asteroid|Apollo]]-class orbit with a semi-major axis of 1.1&nbsp;AU.<ref name="Orbit2029"/> [[Apsis|Perihelion]] will lift from 0.746&nbsp;AU to 0.895&nbsp;AU and aphelion will lift from 1.10&nbsp;AU to 1.31&nbsp;AU.<ref name="Orbit2029"/>
+
+{| class=wikitable style="font-size: 0.9em;"
+|+Orbital elements for 2029 (pre-flyby) and 2030 (post-flyby)<ref name="Orbit2029"/>
+|- valign=top
+! Parameter
+! [[Epoch (astronomy)|Epoch]]
+! Orbit<br />type
+! [[Orbital period|Orbital<br/>period]]
+! [[Semi-major and semi-minor axes|Semi-major<br />axis]]
+! [[Apsis|Perihelion]]
+! [[Apsis|Aphelion]]
+! [[Orbital inclination|Inclination]]
+! [[Orbital eccentricity|Eccentricity]]
+|- valign=top
+! Units
+!
+!
+!
+!colspan=3|[[Astronomical unit|AU]]
+!(°)
+!
+|- align=center
+| Pre-flyby
+| 2029
+| [[Aten asteroid|Aten]]
+| {{convert|323.6|days|years|abbr=off|sigfig=2|order=flip}}
+| 0.922
+| 0.746
+| 1.10
+| 3.34°
+| 0.191
+|- align=center
+| Post-flyby
+| 2030
+| [[Apollo asteroid|Apollo]]
+| {{convert|423.1|days|years|abbr=off|sigfig=3|order=flip}}
+| 1.103
+| 0.895
+| 1.31
+| 2.22°
+| 0.189
+|}
+
+Apophis also encounters the Moon at {{cvt|89600|km}} from the lunar surface, {{time interval|2029-04-13 21:46|2029-04-14 14:32|show=h}} after the encounter with Earth.<ref name="surface" />
+
+During the 2029 approach, Apophis's brightness will peak at [[apparent magnitude|magnitude]]&nbsp;3.1,<ref name="NEODyS2029"/> easily visible to the naked eye, with a maximum angular speed of 42° per hour. The maximum apparent [[angular diameter]] will be approximately 2&nbsp;[[Minute and second of arc|arcseconds]]. This is roughly equivalent to the [[angular diameter]] of [[Neptune]] from Earth. Therefore, the asteroid will be barely [[optical resolution|resolved]] by ground-based telescopes not equipped with [[adaptive optics]] but very well resolved by those that are.<ref name = NeptuneVLTAdaptiveOptics/> Because the approach will be so close, [[tide|tidal forces]] are likely to alter Apophis's rotation axis, but Apophis will not approach within the [[Roche limit]] where it would be broken up by tidal forces. A partial resurfacing of the asteroid is possible, which might change its spectral class from a [[Space weathering|weathered]] Sq- to an unweathered [[Q-type asteroid|Q-type]].<ref name="Brozovic2018"/><ref name="Reddy2018"/>
+
+{{Large near earth asteroid flybys 2LD}}
+
+=== 2036 approaches ===
+[[File:2036 Apophis Path of Risk.jpg|thumb|200px|right|Hypothetical risk corridor for an impact on 13 April 2036]]
+After the possibility of an impact in 2029 was ruled out, a small probability remained that during its 2029 close encounter with Earth, Apophis would pass through a [[gravitational keyhole]] estimated to be less than 1&nbsp;km wide,<ref name="keyhole"/> which would have set up a future impact exactly seven years later on [[Easter|Easter Sunday]], 13 April 2036.<ref name="nasa_Apophis_PUBLISHED_PAPER"/> This possibility kept it at Level&nbsp;1 on the 0 to 10 [[Torino scale|Torino impact hazard scale]] until August 2006, when the probability that Apophis would pass through the keyhole was determined to be negligible. Apophis's rating on the Torino scale was consequently lowered to Level 0.
+
+In 2036, Apophis will pass the Earth at a third the distance of the Sun in both March and December.<ref name="jpldata"/> Using the 2024 orbit solution, the Earth approach on 27 March 2036, will be no closer than {{convert|0.3089|AU|e6km e6mi LD|abbr=unit|lk=in}}, but more likely about {{convert|0.3097|AU|e6km e6mi|abbr=unit}}.<ref name="jpldata"/> For comparison, the planet Venus will be closer to Earth at {{convert|0.2883|AU|e6km e6mi LD|abbr=unit|lk=off}} on 30 May 2036.<ref name="Venus"/>{{efn|name=Venus2022}}
+
+=== Refinement of close approach predictions ===
+[[File:Apophis ellipse.svg|thumb|right|Illustration of a common trend where progressively reduced uncertainty regions result in an asteroid impact probability increasing followed by a sharp decrease]]
+Six months after discovery, and shortly after a close approach to Earth on 21 December 2004, the improved orbital estimates led to the prediction of a very close approach on 13 April 2029, by both NASA's automatic [[Sentry (monitoring system)|Sentry]] system and [[NEODyS]], a similar automatic program run by the [[University of Pisa]] and the [[University of Valladolid]]. Subsequent observations decreased the uncertainty in Apophis's trajectory and the probability of an impact event in 2029 temporarily climbed, peaking at 2.7% (1 in 37) on 27 December 2004,<ref name="nasanews164"/><ref name="mirror"/> when the uncertainty region had shrunk to 83,000&nbsp;km.<ref name="VI2029"/> This probability, combined with its size, caused Apophis to be assessed at level 4 on the [[Torino scale]]<ref name="nasanews146"/> and 1.10 on the [[Palermo scale]] (corresponding to an impact hazard over 12 times the background level), scales scientists use to represent how dangerous a given asteroid is to Earth. These are the highest values at which any object has been rated on either scale.
+
+The chance that there would be an impact in 2029 was eliminated later in the day of 27 December 2004, as a result of a [[precovery]] image that extended the observation arc back to March 2004.<ref name="nasanews148"/> The danger of a 2036 passage was lowered to level 0 on the Torino scale in August 2006.<ref name="Wayback2006-08"/> With a cumulative Palermo scale rating of −3.22,<ref name="riskneo"/> the risk of impact from Apophis is less than one thousandth the background hazard level.<ref name="riskneo"/> It is estimated that an asteroid as big or bigger coming so close to Earth happens only once in 800 years on average.<ref name="neo"/><ref name="Predicting"/> Such an asteroid is expected to actually hit Earth once in about 80,000 years.<ref name="Earth-impact"/>
+
+==== 2013–2015 refinement ====
+The close approach in 2029 will substantially alter the object's orbit, prompting Jon Giorgini of JPL to say in 2011, "If we get radar ranging in 2013 [the next good opportunity], we should be able to predict the location of {{Minor planet|2004 MN|4}} out to at least 2070."<ref name="Science"/> Apophis passed within {{convert|0.0966|AU|e6km e6mi|abbr=unit|lk=off}} of Earth in 2013, allowing astronomers to refine the trajectory for future close passes.<ref name="esanews1"/><ref name="NEODys"/><ref name="refine2013"/> Just after the closest approach on 9 January 2013,<ref name="NEODys"/> the asteroid peaked at an [[apparent magnitude]] of about 15.6.<ref name="NEODyS2013"/> The [[Goldstone Deep Space Communications Complex|Goldstone]] radar observed Apophis during that approach from 3 January through 17 January.<ref name="Goldstone"/> The [[Arecibo Observatory]] observed Apophis once it entered Arecibo's field of view after 13 February 2013.<ref name="Goldstone"/> The 2013 observations reduced the probability of an impact in 2036 to {{val|7|e=-9}},<ref name="Farnocchia2013_Icarus"/><ref name="riskneo"/> basically ruling out any chance of a 2036 impact.<ref name="NASA2013-017"/>
+
+A NASA assessment as of 21 February 2013 that did not use the January and February 2013 radar measurements gave an impact probability of 2.3 in a million for 2068.<ref name="news178"/> As of 6 May 2013, using observations through 15 April 2013, the odds of an impact on 12 April 2068, as calculated by the JPL Sentry risk table had increased slightly to 3.9 in a million (1 in 256,000).<ref name="riskneo"/>
+
+Incorporating early 2015 observations, the April 12, 2068, impact probability was 6.7 in a million (1 in 150,000), and the asteroid had a cumulative 9 in a million (1 in 110,000) chance of impacting Earth before 2106.<ref name="Sentry_Mar2015"/> After 2015, its orbit kept it near the Sun from the perspective of Earth, precluding telescopic observations. It was not further than 60 degrees from the Sun between April 2014 and December 2019.
+
+==== 2020–2021 observations ====
+{{multiple image
+|align=right
+|direction=vertical
+|width=200
+|image_gap=10
+|image1=Apophis February 2021 NBO.webm
+|caption1=Apophis in February 2021
+|image2=Apophis impact risk corridor 2029.jpg
+|caption2=Hypothetical risk corridor for an impact on 13 April 2029, based on the 2020–21 planetary defense exercise
+|image3=PIA24168-Asteroid-99942Apophis-RadarImages-20210326.jpg
+|caption3=Radar observations, 8–10 March 2021
+}}
+No observations of Apophis were made between January 2015 and February 2019 but observations began again in January 2020.<ref name="mpc"/> In March 2020, astronomers [[David J. Tholen|David Tholen]] and Davide Farnocchia measured the acceleration of Apophis due to the [[Yarkovsky effect]] for the first time, significantly improving the prediction of its orbit past the 2029 flyby. Tholen and Farnocchia found that the Yarkovsky effect causes the [[Semi-major and semi-minor axes|semi-major axis]] to decrease by about 170 metres per year, causing an increase in [[Ecliptic coordinate system|ecliptic longitude]] that is [[Quadratic function|quadratic]] in time.<ref name="TholenFarmocchia"/> In late 2020, Apophis approached the Earth and passed {{convert|0.11265|AU|e6km LD|abbr=unit}} from Earth on 6 March 2021, brightening to +15 [[apparent magnitude|mag]] at that time. Radar observations of Apophis were carried out at Goldstone in March 2021.<ref name=Jorge/><ref name="Goldstone2021"/> The asteroid has been observed by [[Wide-field Infrared Survey Explorer|NEOWISE]] (between December 2020 and April 2021)<ref name="Satpathy2022"/><ref name="FrankfurterRundschau_20210304"/> and by [[Near Earth Object Surveillance Satellite|NEOSSat]] (in January 2021).<ref name="Reddy2022"/><ref name="IAWN2021"/><ref name="IAWN2021-Gallery"/>
+
+These observations showed that the [[impact parameter]] ζ (basically how far behind Earth Apophis would pass if it were not deflected by the gravitational pull of Earth) in 2029 will be about 47,363&nbsp;km,<ref name="Jorge"/> less than the earlier nominal value of 47,659&nbsp;km by 296&nbsp;km because of the [[Yarkovsky effect]]. This means that Apophis will not hit Earth in the coming century, in particular avoiding the keyhole 212.14&nbsp;km below nominal that would have led to a collision in 2068.<ref name="Farnocchia2013_Icarus"/>
+
+Apophis was the target of an observing campaign by the [[International Asteroid Warning Network]], resulting in the collection of [[light curve]]s, [[Astronomical spectroscopy|spectra]], and [[astrometry]].<ref name="Reddy2022"/><ref name="IAWN2021"/><ref name="IAWN2021-Gallery"/> The observations were used to practice and coordinate the response to an actual impact threat. Ignoring all earlier observations, the estimated probability of an impact in 2029 reached 16 percent before going down to zero.<ref name="PlanetaryDefense2021"/>
+
+On 21 February 2021, Apophis was removed from the [[Sentry (monitoring system)|Sentry Risk Table]], as an impact in the next 100 years was finally ruled out.<ref name="removed"/><ref name="NASA_analysis_2021"/><ref name="Hurst2021"/>
+
+The 2021 apparition was the last opportunity to observe Apophis until shortly before its 2029 flyby.<ref name="jpldata"/>
+
+Entering March 2021, six asteroids each had a more notable cumulative [[Palermo scale]] rating than Apophis, and none of those has a Torino level above 0.<ref name="risk-table"/>{{efn|name=palermo}} In the longer term, Apophis will however continue to be a threat for possibly thousands of years, until it is removed from being a potentially hazardous object, for instance by passing close to Venus or Mars.{{citation needed|date=July 2026}}
+
+==== Stellar occultations ====
+Several [[occultation]]s of bright stars ([[apparent magnitude]] 8–11) by Apophis occurred in March and April 2021.<ref name="JOA2021_3"/><ref name="Gaia_20210329"/><ref name="Tanga2021"/><ref name="Occultation award"/> A total of five separate occultations were observed successfully, marking the first time that an asteroid as small as Apophis was observed using the [[Occultation|occultation method]] (beating the previous record set in 2019 by asteroid [[3200 Phaethon]], which is more than ten times the size of Apophis).<ref name="Gaia_20210329"/>
+
+The first event, on 7 March, was successfully observed from the United States by multiple observers.<ref name="SETI2021"/><ref name="Occultation_prelim"/><ref name="JOA2021_3"/> The next potential occultation, which occurred on 11 March, was predicted to be visible from central Europe,<ref name="Tanga2021"/> but was not observed, mainly because of bad weather (two negative observations were recorded from [[Greece]]).<ref name="Gaia_20210329"/> Another occultation occurred on 22 March, but larger-than-expected [[Errors and residuals|residuals]] in the 7 March data had caused the majority of observers to be deployed outside of the actual path for the occultation,<ref name="JOA2021_3"/> and it was observed only by a single observer from the United States, [[amateur astronomy|amateur astronomer]] Roger Venable. This single detection then allowed the prediction of several more events that would have been unobservable otherwise, including an occultation on 4 April, which was observed from [[New Mexico]], again by Venable, alongside others.<ref name="Occultation award"/><ref name="JOA2021_3"/> Two more occultations, observable on 10 and 11 April from [[Japan]] and New Mexico, respectively, were seen by several observers each.<ref name="JOA2021_3"/> The occultation measurements helped refine the asteroid's size and orbit.<ref name="vvs.be"/>{{better source needed|date=July 2026}}
+
+=== History of impact estimates ===
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! Date !! Time !! Status
+|-
+| rowspan=2 style="white-space: nowrap;" | 2004-12-23 ||style="white-space: nowrap;" | || The original NASA report mentioned impact chances of "around 1 in 300" in 2029, which was widely reported in the media.<ref name="nasanews146"/> The actual NASA estimates at the time were 1 in 233; these resulted in a Torino scale rating of 2, the first time any asteroid had received a rating above 1.
+|-
+| || Later that day, based on a total of 64 observations, the estimates were changed to 1 in 62 (1.6%), resulting in an update to the initial report and an upgrade to a Torino scale rating of 4.
+|-
+| 2004-12-25 || || The chances were first reported as 1 in 42 (2.4%) and later that day (based on 101 observations) as 1 in 45 (2.2%). At the same time, the asteroid's estimated diameter was lowered from 440&nbsp;m to 390&nbsp;m and its mass from 1.2×10<sup>11</sup>&nbsp;kg to 8.3×10<sup>10</sup>&nbsp;kg.
+|-
+| 2004-12-26|| || Based on a total of 169 observations, the impact probability was still estimated as 1 in 45 (2.2%), the estimates for diameter and mass were lowered to 380&nbsp;m and 7.5×10<sup>10</sup>&nbsp;kg, respectively.
+|-
+|rowspan=2 | 2004-12-27|| || Based on a total of 176 observations with an [[observation arc]] of 190 days, the impact probability was raised to 1 in 37 (2.7%)<ref name="mirror"/> with a line of variation (LOV) of only 83,000&nbsp;km;<ref name="VI2029"/> diameter was increased to 390&nbsp;m, and mass to 7.9×10<sup>10</sup>&nbsp;kg.
+|-
+| || Later that afternoon, a [[precovery]] increased the span of observations to 287 days, which eliminated the 2029 impact threat.<ref name="nasanews148"/> The cumulative impact probability was estimated to be around 0.004%, a risk lower than that of asteroid {{Minor planet link|2004 VD|17}}, which once again became (temporarily) the greatest-risk object. A 2053 approach to Earth still posed a minor risk of impact, and Apophis was still rated at level one on the Torino scale for this orbit.
+|-
+| 2004-12-28 || style="white-space: nowrap;" | 12:23 GMT || Based on a total of 139 observations, a value of one was given on the Torino scale for 2044-04-13.29 and 2053-04-13.51.
+|-
+|rowspan=2 | 2004-12-29 || 01:10 GMT || The only pass rated 1 on the Torino scale was for 2053-04-13.51 based on 139 observations spanning 287.71 days (2004-Mar-15.1104 to 2004-Dec-27.8243).
+|-
+| 19:18 GMT || This was still the case based upon 147 observations spanning 288.92&nbsp;days (2004-Mar-15.1104 to 2004-Dec-29.02821), though the close encounters were changed and reduced to 4 in total.
+|-
+|rowspan=2 | 2004-12-30 || 13:46 GMT || No passes were rated above 0, based upon 157&nbsp;observations spanning 289.33&nbsp;days (2004-Mar-15.1104 to 2004-Dec-29.44434). The most dangerous pass was rated at 1 in 7,143,000.
+|-
+| 22:34 GMT || 157 observations spanning 289.33 days (2004-Mar-15.1104 to 2004-Dec-29.44434). One pass at 1 (Torino scale) 3 other passes.
+|-
+| 2005-01-02 || 03:57 GMT || Observations spanning 290.97 days (2004-Mar-15.1104 to 2004-Dec-31.07992) One pass at 1 (Torino scale) 19 other passes.
+|-
+| 2005-01-03 || 14:49 GMT || Observations spanning 292.72 days (2004-Mar-15.1104 to 2005-Jan-01.82787) One pass at 1 (Torino scale) 15 other passes.
+|-
+| 2005–01 || || Extremely precise [[radar]] observations at [[Arecibo Observatory]]<ref name="Arecibo"/> refine the orbit further and show that the April 2029 close approach will occur at only 5.7&nbsp;[[Earth radius|Earth radii]],<ref name="nasanews149"/> approximately one-half the distance previously estimated.
+|-
+| 2005-02-06 || || Apophis estimated to have a 1-in-13,000 chance of impacting in April 2036.<ref name="Wayback2005-02"/>
+|-
+| 2005-08-07 || ||Radar observation<ref name="Arecibo"/> refines the orbit further and eliminates the possibility of an impact in 2035. Only the pass in 2036 remains at Torino scale&nbsp;1 (with a 1-in-5,560 chance of impact).<ref name="Wayback2005-10"/>
+|-
+| 2005–10 || || It is predicted that Apophis will pass just below the altitude of [[geosynchronous satellite]]s, which are at approximately {{convert|35900|km|mi}}.<ref name="Wee2012"/>
+|-
+| 2006-05-06 || || Radar observation at Arecibo Observatory<ref name="Arecibo"/> slightly lowered the Palermo scale rating, but the pass in 2036 remained at Torino scale&nbsp;1<ref name="Wayback2006-07"/> despite the impact probability dropping by a factor of four.
+|-
+| 2006-08-05 || || Additional observations through 2006 resulted in Apophis being lowered to Torino scale&nbsp;0.<ref name="Wayback2006-08"/> (The impact probability was assessed as 1 in 45,000.)<ref name="Wayback2006-08"/>
+|-
+| 2008-04 || || News outlets carry the story that 13-year-old German student [[Nico Marquardt]] found a probability of 1 in 450 for a 2036 impact.<ref name="Bild.de"/><!--Here are the references from the Wikipedia article on Marquardt, in case that article gets deleted:ref>{{cite web|title=Ragazzino calcola la fine del mondo|url=http://www.corriere.it/scienze/08_aprile_17/fine_mondo_calcolo_ragazzino_nasa_11d11136-0c45-11dd-aecb-00144f486ba6.shtml|publisher=[[Corriere della Sera]]|date=April 17, 2008|access-date=November 8, 2015}}</ref><ref>{{cite web|title=Niño alemán corrige cálculos a la NASA|url=http://www.cnnexpansion.com/economia-insolita/nino-aleman-corrige-calculos-a-la-nasa#|publisher=[[CNN]]|date=April 16, 2008|access-date=November 8, 2015}}</ref><ref>{{cite web|title=13-year-old corrects NASA's asteroid figures|url=http://www.chinadaily.com.cn/world/2008-04/16/content_6620949.htm|publisher=[[China Daily]]|date=April 16, 2008|access-date=November 8, 2015}}</ref><ref>{{cite web|title=Un petit génie allemand met la NASA en échec|url=http://www.rtl.fr/actu/societe-faits-divers/un-petit-genie-allemand-met-la-nasa-en-echec-86494|publisher=[[RTL (French radio)]]|date=April 16, 2008|access-date=November 8, 2015}}</ref><ref>{{cite web|title=NASA says German whiz-kid got it wrong|url=http://www.abc.net.au/science/articles/2008/04/17/2219493.htm?site=science/footprintsonthemoon&topic=latest|publisher=[[Australian Broadcasting Corporation|ABC]]|date=April 17, 2008|access-date=November 8, 2015}}</ref><ref>{{cite web|title=Schoolboy corrects NASA 'killer asteroid' maths'|url=http://www.theage.com.au/news/world/schoolboy-corrects-nasa-killer-asteroid-maths/2008/04/16/1208025230056.html|publisher=[[The Age]]|date=April 16, 2008|access-date=November 8, 2015}}</ref>--> This estimate was allegedly acknowledged by [[European Space Agency|ESA]] and NASA<ref name="RadioCanada"/><ref name="Schoolboy"/><ref name="Bild.de"/> but in an official statement,<ref name="NASAkid"/> NASA denied they had made an error. The release went on to explain that since the angle of Apophis's approach to the Earth's equator means the asteroid will not travel through the belt of current [[Near-equatorial orbit|equatorial]] geosynchronous satellites, there is currently no risk of collision; and the effect on Apophis's orbit of any such impact would be insignificant.
+|-
+| 2009-04-29 || || An animation is released<ref name="ApophisBias"/> that shows how unmeasured physical parameters of Apophis bias the entire statistical uncertainty region. If Apophis is a [[Retrograde and prograde motion|''retrograde'' rotator]] on the small, less-massive end of what is possible, it will be several hundred kilometres further ahead in 2029, resulting in a different change to its orbit, and then the measurement uncertainty region for 2036 will get pushed back such that the center of the distribution encounters Earth's orbit. This would result in an impact probability much higher than computed with the Standard Dynamical Model. Conversely, if Apophis is a small, less-massive ''prograde'' rotator, it arrives a bit later on April 13, 2029, and the uncertainty region for 2036 is advanced along the orbit. Only the remote tails of the probability distribution could encounter Earth, producing a negligible impact probability for 2036.<ref name="neo"/><ref name="Predicting"/>
+|-
+| 2009-10-07 || || Refinements to the [[precovery]] images of Apophis by the University of Hawaii's [[Institute for Astronomy (Hawaii)|Institute for Astronomy]], the 90-inch [[Bok Telescope]], and the [[Arecibo Observatory]] have generated a refined path that reduces the odds of an 13 April 2036 impact to about 1 in 250,000.<ref name="Brown2009"/>
+|-
+| || || Criticism of older published impact probabilities rests on the fact that important physical parameters such as mass and spin that affect its precise trajectory had not yet been accurately measured and hence there were no associated probability distributions. The Standard Dynamical Model used for making predictions simplifies calculations by assuming Earth is a point mass. This could lead to a prediction error of up to 2.9 Earth radii for the 2036 approach, necessitating the consideration of Earth's oblateness during the 2029 passage for accurately forecasting the potential impact.<ref name="neo"/> Additional factors that could greatly influence the predicted motion in ways that depend on unknown details, were the spin of the asteroid,<ref name="TrajectoryChange"/> its precise mass, the way it reflects and absorbs sunlight, radiates heat, and the gravitational pull of other asteroids passing nearby.<ref name="neo"/> Small uncertainties in the masses and positions of the [[planet]]s and [[Sun]] could cause up to 23 Earth radii of prediction error for Apophis by 2036.<ref name="neo"/>
+|-
+| 2013-01 || || A statistical impact risk analysis of the data up to this point calculated that the odds of the 2036 impact at 7.07 in a billion, effectively ruling it out. The same study looked at the odds of an impact in 2068, which were calculated at 2.27 in a million.<ref name="Farnocchia2013_Icarus"/> First appearance of Sentry virtual impactors that also include mid-October dates.<ref name="Wayback2013-01"/>
+|-
+| 2013-01-09 || || The [[European Space Agency]] (ESA) announced that the [[Herschel Space Observatory]] made new thermal infrared observations of the asteroid as it approached Earth. The initial data shows the asteroid to be bigger than first estimated because it is now expected to be less reflective than originally thought.<ref name="esanews1"/> The Herschel Space Observatory observations increased the diameter estimate by 20% from 270 to 325 metres, which translates into a 75% increase in the estimates of the asteroid's volume or mass.<ref name="esanews1"/> Goldstone single-pixel observations of Apophis have ruled out the potential 2036 Earth impact.<ref name="NASA2013-017"/><ref name="Beatty2013"/><ref name="Plait2013"/> Apophis will then come no closer than about {{convert|14|e6mi|e6km|order=flip}}—and more likely miss us by something closer to {{convert|35|e6mi|e6km|order=flip}}.<ref name="Beatty2013"/> The radar astrometry is more precise than was expected.<ref name="Beatty2013"/>
+|-
+| 2014-10-08 || || The [[Sentry (monitoring system)|Sentry Risk Table]] assessed Apophis as having a 6.7-in-a-million (1-in-150,000) chance of impacting Earth in 2068, and a 9-in-a-million (1-in-110,000) cumulative chance of impacting Earth by 2105.<ref name="Impact_Risk_Summary_2014"/>
+|-
+| 2020-03 || || By taking observations of Apophis with the [[Subaru Telescope]] in January and March 2020, as well as remeasuring older observations using the new [[Gaia catalogues|Gaia DR2]] star catalog, astronomers positively detect the [[Yarkovsky effect]] on Apophis. The [[Semi-major and semi-minor axes|semi-major axis]] thereby decreases by about 170 metres per year. The Yarkovsky effect is the main source of uncertainty in impact probability estimates for this asteroid.<ref name="TholenFarmocchia"/>
+|-
+| 2021-02-21 || || Apophis was removed from the [[Sentry (monitoring system)|Sentry Risk Table]], as an impact in the next 100 years was finally ruled out.<ref name="removed"/>
+|-
+| 2021-03-15 || 10:44 || JPL solution #207 using observations in 2020 and 2021 reduced the 3-sigma uncertainty region in the 2029 approach distance from ±700&nbsp;km<ref name="JPLSBDB2020"/> to about ±3&nbsp;km.<ref name="jpldata"/> The June 2021 solution showed the Earth approach on 27 March 2036 will be no closer than {{convert|0.30889|AU|e6km e6mi LD|abbr=unit|lk=in}}.<ref name="jpldata"/>
+|-
+| 2024-06-25 || || JPL solution #220 includes observations through 2022-April-09.<ref name="jpldata"/>
+|}
+
+== Possible impact effects ==
+As of 2021, the Sentry Risk Table estimated that Apophis would impact Earth with [[kinetic energy]] equivalent to 1,200 MT or [[TNT equivalent|megatons of TNT]].<ref name="riskneo"/> In comparison, the energy released by the eruption of [[Krakatoa]] was 200 MT, the total global nuclear arsenal has an energy equivalent to 1,460 MT, and the [[Chicxulub crater|Chicxulub impact and extinction event]] had an estimated energy of 100,000,000 MT (100 teratons). See [[TNT equivalent#Examples|TNT equivalent examples]] for an extended table of comparable energies.
+
+The exact effects of an impact would vary based on the asteroid's composition, and the location and angle of impact. Any impact of Apophis would be extremely detrimental to an area of thousands of square kilometres, but would be unlikely to have long-lasting global effects, such as the initiation of an [[impact winter]].<ref name="Baurov2013"/> Assuming Apophis is a {{convert|370|m|ft|adj=mid|-wide}} stony asteroid with a density of 3,000&nbsp;kg/m<sup>3</sup>, if it were to impact into [[sedimentary rock]], Apophis would create a {{convert|5.1|km|ft|adj=mid}} wide [[impact crater]].<ref name="Earth-impact"/><ref name="riskneo"/>
+
+===Expired 2036 path of risk===
+In July 2005, former [[Apollo program|Apollo]] astronaut [[Rusty Schweickart]], as chairman of the [[B612 Foundation]], formally asked NASA to investigate the possibility that the asteroid's post-2029 orbit could be in [[orbital resonance]] with Earth, which would increase the probability of future impacts. Schweickart also asked NASA to investigate whether a [[transponder]] should be placed on the asteroid to enable more accurate tracking of how its orbit is affected by the [[Yarkovsky effect]].<ref name="Schweickart"/>
+
+In 2008, the B612 Foundation made estimates of Apophis's path if a 2036 Earth impact were to occur, as part of an effort to develop viable [[Asteroid impact avoidance|deflection strategies]].<ref name="Schweickart2"/> The result was a narrow corridor a few kilometres wide, called the "path of risk", extending across southern [[Russia]], across the north [[Pacific Ocean|Pacific]] (relatively close to the coastlines of [[California]] and [[Mexico]]), then right between [[Nicaragua]] and [[Costa Rica]], crossing northern [[Colombia]] and [[Venezuela]], ending in the [[Atlantic Ocean|Atlantic]], just before reaching [[Africa]].<ref name="Gennery2007"/> Using the computer simulation tool NEOSim, it was estimated that the hypothetical impact of Apophis in countries such as Colombia and Venezuela, which were in the path of risk, could have had more than 10 million casualties.<ref name="Baileya2006"/> A deep-water impact in the Atlantic or Pacific oceans would produce an incoherent short-range [[tsunami]] with a potential destructive radius (inundation height of >2&nbsp;m) of roughly {{convert|1000|km}} for most of North America, Brazil and Africa, {{convert|3000|km|abbr=on}} for Japan and {{convert|4500|km|abbr=on}} for some areas in Hawaii.<ref name="Paine1999"/>
+
+== Exploration ==
+
+=== NASA ===
+
+==== OSIRIS-APEX post-Earth-encounter rendezvous ====
+The ''[[OSIRIS-REx]]'' spacecraft returned a sample of [[101955 Bennu|Bennu]] to Earth on 24 September 2023.<ref name="OSIRIS-REx_factsheet"/> After ejecting the sample canister, the spacecraft can use its remaining fuel to target another body during an extended mission. Apophis is the only asteroid which the spacecraft could reach for a long-duration rendezvous, rather than a brief [[planetary flyby|flyby]]. In April 2022, the extension was approved, and ''OSIRIS-REx'' will perform a rendezvous with Apophis in April 2029, a few days after the close approach to Earth. It will study the asteroid for 18 months and perform a maneuver similar to the one it made during sample collection at Bennu, by approaching the surface and firing its thrusters. This will expose the asteroid's subsurface and allow mission scientists to learn more about the asteroid's material properties.<ref name="Bartels2021"/><ref name="Lauretta2020"/> For its Apophis mission after the sample return, ''OSIRIS-REx'' was renamed ''OSIRIS-APEX'' (short for OSIRIS-Apophis Explorer).<ref name="Mace_Kelley2022"/>
+
+=== Planetary Society ===
+In 2007, the [[The Planetary Society|Planetary Society]], a [[California]]-based space advocacy group, organised a $50,000 competition to design an uncrewed space probe that would 'shadow' Apophis for almost a year, taking measurements that would "determine whether it will impact Earth, thus helping governments decide whether to mount a deflection mission to alter its orbit". The society received 37&nbsp;entries from 20&nbsp;countries on 6&nbsp;continents.<ref name="Planetary2007"/>
+
+The commercial competition was won by a design called ''Foresight'' created by SpaceWorks Engineering.<ref name="competition"/><ref name="Planetary2007"/>{{clarify|date=November 2024|reason=An earlier version of this article stated that the competition was won by SpaceWorks Enterprises, but the two sources disagree on this. Is this a different name for the same company?}} SpaceWorks proposed a simple orbiter with only two instruments and a radio beacon at a cost of ~US$140&nbsp;million, launched aboard a [[Minotaur (rocket family)|Minotaur IV]] between 2012 and 2014. ''Pharos'', the winning student entry, would be an orbiter with four science instruments that would rendezvous with and track Apophis. The spacecraft would have been launched in April or May 2013 aboard a [[Delta II|Delta II 7925]] rocket, to arrive at the asteroid after a cruise of 233 to 309 days. It would have carried four additional ''BUOI'' probes that would have impacted the surface of Apophis over the course of two weeks.<ref name="Planetary2007"/><ref name="Sharma2007"/>
+
+=== ESA ===
+
+==== Don Quijote ====
+Apophis is one of two asteroids that were considered by the [[European Space Agency]] as the target of its [[Don Quijote (spacecraft)|''Don Quijote'' mission concept]] to study the effects of impacting an asteroid.<ref name="DonQuixote" />
+
+==== Ramses ====
+Apophis is the target of the [[European Space Agency]]'s approved ''[[Ramses (spacecraft)|Ramses]]'' (Rapid Apophis Mission for Security and Safety) mission, with a launch in April or May 2028 and rendezvous with the asteroid in February 2029.<ref name="RAMSES"/>
+
+==== Satis ====
+In parallel with ''[[Ramses (spacecraft)|Ramses]]'', [[European Space Agency|ESA]] is also considering a stand-alone [[CubeSat]] mission called ''[[Satis (spacecraft)|Satis]]''.<ref name="Satis"/>
+
+=== CNSA ===
+China had planned an encounter with Apophis in 2022, several years prior to the close approach in 2029. This mission, now known as ''[[Tianwen-2]]'', would have included exploration and close study of three asteroids including an extended encounter with Apophis for close observation, and land on the asteroid [[(175706) 1996 FG3|1996 FG<sub>3</sub>]] to conduct in situ sampling analysis on the surface.<ref name="XinhuaNews"/> The spacecraft launched on 28 May 2025, with a different set of targets.<ref name="sn-20230626"/><ref name="Clark2025"/>
+
+== Proposed deflection strategies ==
+{{further|Asteroid impact avoidance}}
+Studies by NASA, ESA,<ref name="Izzo2006"/> and various research groups in addition to the Planetary Society contest teams,<ref name="aero.org"/> have described a number of proposals for deflecting Apophis or similar objects, including [[Gravity tractor|gravitational tractor]], [[Asteroid impact avoidance|kinetic impact]], and [[Nuclear weapon|nuclear bomb]] methods.
+
+On 30 December 2009, [[Anatoly Perminov]], the director of the Russian Federal Space Agency, said in an interview that [[Roscosmos]] will also study designs for a possible deflection mission to Apophis.<ref name="Isachenkov2009"/>
+
+On 16 August 2011, researchers at China's [[Tsinghua University]] proposed launching a mission to knock Apophis onto a safer course using an impactor spacecraft in a retrograde orbit, steered and powered by a solar sail. Instead of moving the asteroid on its potential resonant return to Earth, Shengping Gong and his team believe the secret is shifting the asteroid away from entering the gravitational keyhole in the first place.<ref name="ChinaSail"/>
+
+In October 2022, a method was proposed for mapping the interior of an asteroid of concern, such as 99942 Apophis, in order to determine the optimal location for a kinetic impact.<ref name="WP-20221021"/>
+
+== Popular culture ==
+<!-- Make sure that anything you add meets Wikipedia's notability standards and is properly referenced with reliable sources. Unsourced material will be removed. -->
+In [[Id Software]]'s [[video game]] ''[[Rage (video game)|Rage]]'', the backstory involves the asteroid colliding with Earth on 23 August 2029. The asteroid almost wipes out the human race and ushers in a [[Apocalyptic and post-apocalyptic fiction|post-apocalyptic]] age.<ref name="Gamespot" /><ref name="BBC_popculture"/>
+
+In music, the asteroid Apophis is referred to in the song "The Profit of Doom" by gothic metal band [[Type O Negative]] on their 2007 album ''[[Dead Again (Type O Negative album)|Dead Again]]''. The lyrics refer to the asteroid 99942 Apophis, which at that time was considered to have a possibility of hitting Earth on Friday, April 13, 2029.<ref name="BBC_popculture"/>
+
+== See also ==
+{{div col|colwidth=20em}}
+* [[Asteroid capture]]
+* [[Asteroid impact prediction]]
+* [[Asteroid Redirect Mission]]
+* [[Earth-grazing fireball]]
+* "[[Stargate SG-1 season 5#ep105|Fail Safe]]", the ''[[Stargate SG-1]]'' episode in which a civilization-destroying asteroid is discovered on a direct collision course with Earth
+* [[List of impact structures on Earth]]
+* [[NEO Surveyor]]
+* [[List of predicted asteroid impacts on Earth]]
+{{div col end}}
+
+== Notes ==
+{{notelist|refs=
+
+{{efn|name=palermo|Of the six asteroids with a higher Palermo scale rating than Apophis at the time:
+* [[(29075) 1950 DA]] and [[101955 Bennu]] cannot impact within the next 100 years;
+* [[1979 XB]] and {{mpl|2007 FT|3}} are lost [[Observation arc#Short arcs|short-arc]] objects that cannot be recovered with targeted observations and await serendipitous [[astronomical survey|survey]] observations;
+* {{mpl|2000 SG|344}} and {{mp|2009 JF|1}} are less than 50 metres in diameter.}}
+
+{{efn|name=Venus2022|On [[List of asteroid close approaches to Earth in 2022#Venus|8 January 2022]] Venus was even closer to Earth at {{convert|0.2658|AU|e6km e6mi LD|abbr=unit|lk=off}}.}}
+
+}} <!-- end of notelist -->
+
+== References ==
+{{Duplicated citations|reason=DuplicateReferences script detected:
+* https://doi.org/10.1016%2Fj.icarus.2007.09.012 (refs: 25, 45)
+|date=October 2026}}
+
+<references>
+<ref name="jpldata">{{cite web|type=last observation: 9 April 2022; [[Observation arc|arc]]: 18.07 years; JPL #220 solution date: 25 June 2024|title=JPL Small-Body Database Browser: 99942 Apophis (2004 MN4)|url=https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=Apophis&view=OPC|access-date=February 28, 2025}}</ref>
+
+<ref name="NEODys">{{cite web|title=NEODyS : (99942) Apophis (Close Approaches)|publisher=NEODyS (Near Earth Objects—Dynamic Site)|url=https://newton.spacedys.com/neodys/index.php?pc=1.1.8&n=99942|access-date=March 14, 2021}}</ref>
+
+<ref name="mpc">{{cite web|title=(99942) Apophis Orbit|publisher=IAU Minor Planet Center|url=http://www.minorplanetcenter.net/db_search/show_object?object_id=99942|access-date=April 1, 2021}}</ref>
+
+<ref name="esanews1">{{cite web|url=http://www.esa.int/Our_Activities/Space_Science/Herschel_intercepts_asteroid_Apophis|title=Herschel intercepts asteroid Apophis|author=ESA|publisher=[[European Space Agency]] (ESA)|date=January 9, 2013|access-date=January 9, 2013}}</ref>
+
+<ref name="Goldstone">{{cite web|title=99942 Apophis 2013 Goldstone Radar Observations Planning|publisher=NASA/JPL Asteroid Radar Research|last=Benner|first=L. A. M.|url=http://echo.jpl.nasa.gov/asteroids/Apophis/Apophis_2013_planning.html|date=January 9, 2013|access-date=January 9, 2013}}</ref>
+
+<ref name="Beatty2013">{{cite web|date=January 9, 2013|title=Asteroid Apophis Takes a Pass in 2036|publisher=[[Sky & Telescope]]|author=Kelly Beatty|work=Sky & Telescope |url=http://www.skyandtelescope.com/astronomy-news/asteroid-apophis-takes-a-pass-in-2036/|access-date=November 10, 2014}}</ref>
+
+<ref name="Brozovic2018">{{cite journal|url=https://echo.jpl.nasa.gov/asteroids/brozovic.etal.apophis.2018.pdf|title=Goldstone and Arecibo radar observations of (99942) Apophis in 2012–2013|first1=M.|last1=Brozović|first2=L. A. M.|last2=Benner|first3=J. G.|last3=McMichael|first4=J. D.|last4=Giorgini|first5=P.|last5=Pravec|first6=P.|last6=Scheirich|first7=C.|last7=Magric|first8=M. W.|last8=Busch|first9=J. S.|last9=Jao |first10=C. G. |last10=Lee|first11=L. G.|last11=Snedeker|first12=M. A.|last12=Silva|first13=M. A.|last13=Slade|first14=B.|last14=Semenov|first15=M. C.|last15=Nolan|first16=P. A.|last16=Taylor|first17=E. S.|last17=Howell|first18=K. J.|last18=Lawrence|display-authors=4|journal=Icarus|volume=300|date=January 15, 2018|pages=115–128|access-date=August 19, 2018|bibcode=2018Icar..300..115B|doi=10.1016/j.icarus.2017.08.032}}</ref>
+
+<ref name="NASA2013-017">{{cite web|title=NASA Rules Out Earth Impact in 2036 for Asteroid Apophis|publisher=NASA|url=http://www.jpl.nasa.gov/news/news.php?release=2013-017|date=January 10, 2013|access-date=January 10, 2013}}</ref>
+
+<ref name="Plait2013">{{cite journal|title=Impact Threat from Near-Earth Asteroid Apophis in 2036 Now Ruled Out|publisher=Bad Astronomy blog|author=Phil Plait|journal=Slate|author-link=Phil Plait|url=http://www.slate.com/blogs/bad_astronomy/2013/01/10/apophis_impact_new_observation_show_it_to_be_bigger_but_no_longer_a_threat.html|date=January 10, 2013|access-date=January 10, 2013}}</ref>
+
+<ref name="phys">{{cite web|title=99942 Apophis|publisher=The Near-Earth Asteroids Data Base at E.A.R.N|url=http://earn.dlr.de/nea/099942.htm|access-date=October 15, 2009|archive-url=https://web.archive.org/web/20120616092526/http://earn.dlr.de/nea/099942.htm|archive-date=June 16, 2012|url-status=dead}}</ref>
+
+<ref name="tumblingspinstate">{{cite journal|title=The tumbling spin state of (99942) Apophis|last1=Pravec|first1=P.|last2=Scheirich|first2=P.|last3=Ďurech|first3=J.|last4=Pollock|first4=J.|last5=Kušnirák|first5=P.|last6=Hornoch|first6=K.|last7=Galád|first7=A.|last8=Vokrouhlický|first8=D.|last9=Harris|first9=A.W. |last10=Jehin |first10=E.|last11=Manfroid|first11=J.|last12=Opitom|first12=C.|last13=Gillon|first13=M.|last14=Colas|first14=F.|last15=Oey|first15=J.|last16=Vraštil|first16=J.|last17=Reichart|first17=D.|last18=Ivarsen|first18=K.|last19=Haislip|first19=J. |last20=LaCluyze |first20=A.|display-authors=4|journal=Icarus|date=2014|url=http://sajri.astronomy.cz/pravecetal2014.pdf|volume=233|pages=48–60|doi=10.1016/j.icarus.2014.01.026|bibcode=2014Icar..233...48P|access-date=November 26, 2014|archive-date=March 5, 2016|archive-url=https://web.archive.org/web/20160305030401/http://sajri.astronomy.cz/pravecetal2014.pdf|url-status=dead}}</ref>
+
+<ref name="keyhole">{{cite magazine|title=5 Plans to Head Off the Apophis Killer Asteroid|url=https://www.popularmechanics.com/space/deep-space/a1025/4201569/|archive-url=https://web.archive.org/web/20180612211352/https://www.popularmechanics.com/space/deep-space/a1025/4201569/|url-status=dead|archive-date=June 12, 2018|magazine=[[Popular Mechanics]]|date=November 7, 2006|author=David Noland|access-date=March 14, 2021}}</ref>
+
+<ref name="nasanews146">{{cite news|url=http://cneos.jpl.nasa.gov/news/news146.html|title=Near-Earth Asteroid 2004 MN4 Reaches Highest Score To Date On Hazard Scale|first1=D.|last1=Yeomans|first2=S.|last2=Chesley|first3=P.|last3=Chodas|publisher=[[NASA]]/[[Jet Propulsion Laboratory|JPL]] [[Center for Near-Earth Object Studies|CNEOS]]|date=December 23, 2004|access-date=January 31, 2024|quote=Today's impact monitoring results indicate that the impact probability for April 13, 2029, has risen to about 1.6%, which for an object of this size corresponds to a rating of 4 on the ten-point Torino Scale.}}</ref>
+
+<ref name="nasanews148">{{cite news|title=Possibility of an Earth Impact in 2029 Ruled Out for Asteroid 2004 MN4|publisher=NASA/JPL CNEOS|first1=D.|last1=Yeomans|first2=P.|last2=Chodas|first3=S.|last3=Chesley|url=http://cneos.jpl.nasa.gov/news/news148.html|date=December 27, 2004|access-date=January 31, 2024}}</ref>
+
+<ref name="nasanews149">{{cite news|title=Radar Observations Refine the Future Motion of Asteroid 2004 MN4|publisher=NASA's Near Earth Object Program Office|first1=P.|last1=Chodas|first2=S.|last2=Chesley|first3=J.|last3=Giorgini|first4=D.|last4=Yeomans|url=http://cneos.jpl.nasa.gov/news/news149.html|date=February 3, 2005|access-date=January 31, 2024}}</ref>
+
+<ref name="nasanews164">{{cite news|title=NASA Refines Asteroid Apophis' Path Toward Earth|publisher=NASA's Near Earth Object Program Office|first1=D.|last1=Brown|url=http://cneos.jpl.nasa.gov/news/news164.html|date=October 7, 2009|access-date=January 31, 2024}}</ref>
+
+<ref name="risk-table">{{cite web|title=Sentry: Earth Impact Monitoring|publisher=NASA/JPL Center for NEO Studies|url=https://cneos.jpl.nasa.gov/sentry/|archive-url=https://web.archive.org/web/20210324054532/https://cneos.jpl.nasa.gov/sentry/|archive-date=March 24, 2021|url-status=dead|access-date=March 3, 2021}} (Use Unconstrained Settings to reveal 1979 XB with impact probability below 1e-6)</ref>
+
+<ref name="riskneo">{{cite web|title=99942 Apophis (2004 MN4) Earth Impact Risk Summary|publisher=[[NASA]]/JPL Center for NEO Studies|url=http://neo.jpl.nasa.gov/risk/a99942.html|archive-url=https://web.archive.org/web/20130511010048/http://neo.jpl.nasa.gov/risk/a99942.html|archive-date=May 11, 2013|date=May 6, 2013|url-status=dead}} See also updated version at {{cite web|title=Sentry: Earth Impact Monitoring, Object Details|publisher=NASA/JPL Center for NEO Studies|access-date=February 8, 2021|archive-url=https://web.archive.org/web/20210208132353/https://cneos.jpl.nasa.gov/sentry/details.html#?des=99942|url=https://cneos.jpl.nasa.gov/sentry/details.html#?des=99942|archive-date=February 8, 2021|url-status=dead}}</ref>
+
+<ref name="Earth-impact">{{cite web|title=Earth Impact Effects Program|publisher=Imperial College London / Purdue University|first1=R.|last1=Marcus|first2=H. J.|last2=Melosh|first3=G.|last3=Collins|url=http://impact.ese.ic.ac.uk/ImpactEffects/|date=2010|access-date=March 14, 2021|archive-url=https://web.archive.org/web/20171001034523/http://impact.ese.ic.ac.uk/ImpactEffects/|archive-date=1 October 2017|url-status=dead}} (solution using 370 metres, 3000&nbsp;kg/m<sup>3</sup>, 12.6&nbsp;km/s, 45 degrees)</ref>
+
+<ref name="Reddy2018">{{cite journal|last1=Reddy|first1=V.|last2=Sanchez|first2=J. A.|last3=Furfaro|first3=R.|last4=Binzel|first4=R. P.|last5=Burbine|first5=T. H.|last6=Le Corre|first6=L.|last7=Hardersen|first7=P. S.|last8=Bottke|first8=W. F.|last9=Brozovic|first9=M.|display-authors=4|title=Surface Composition of (99942) Apophis|journal=The Astronomical Journal|publisher=American Astronomical Society|volume=155|issue=3|date=March 5, 2018|issn=1538-3881|doi=10.3847/1538-3881/aaaa1c|page=140|arxiv=1803.05375|bibcode=2018AJ....155..140R|s2cid=78087061|doi-access=free}}</ref>
+
+<ref name="Orbit2029">{{cite web|title=Horizons Batch for Apophis Orbital Elements for 2029-01-01 and 2030-01-01|publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&TABLE_TYPE=%27ELEMENTS%27&START_TIME=%272029-01-01%27&STOP_TIME=%272030-01-01%27&STEP_SIZE=%271%20year%27&CENTER=%27@Sun%27&OUT_UNITS=%27AU-D%27|access-date=July 31, 2022}}</ref>
+
+<ref name="Horizons2029">{{cite web|title=Horizons Batch for Apophis @ 2029-Apr-13 21:45:03.628 showing 3-sigma uncertainty of ±3.3km|publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272029-Apr-13%2021:45:00.628%27&STOP_TIME=%272029-Apr-13%2021:45:6.628%27&STEP_SIZE=%2712%27&QUANTITIES=%2720,39%27|archive-url=https://web.archive.org/web/20220131021056/https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272029-Apr-13%2021:46%27&STOP_TIME=%272029-Apr-14%27&STEP_SIZE=%272%20days%27&QUANTITIES=%2720,39%27|archive-date=January 31, 2022|url-status=live|access-date=February 28, 2025}}</ref>
+
+<ref name="Horizons2036">{{cite web|title=Horizons Batch for Apophis @ 2036-Mar-27 08:31 showing 3-sigma uncertainty of ±124566km|publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272036-Mar-27%2008:31%27&STOP_TIME=%272036-Mar-28%27&STEP_SIZE=%272%20days%27&QUANTITIES=%2720,39%27|archive-url=https://web.archive.org/web/20230710121335/https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272036-Mar-27%2008:30%27&STOP_TIME=%272036-Mar-28%27&STEP_SIZE=%272%20days%27&QUANTITIES=%2720,39%27|archive-date=July 10, 2023|url-status=live|access-date=February 28, 2025}}</ref>
+
+<ref name="Horizons2051">{{cite web|title=Horizons Batch for Apophis @ 2051-Apr-20 02:05 showing 3-sigma uncertainty of ±237314km|publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272051-Apr-20%2002:05%27&STOP_TIME=%272051-Apr-21%27&STEP_SIZE=%272%20days%27&QUANTITIES=%2720,39%27|access-date=March 1, 2025}}</ref>
+
+<ref name="Horizons2116">{{cite web|title=Horizons Batch for Apophis @ 2116-Apr-12 21:44 showing 3-sigma uncertainty of ±13 million km|publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272116-Apr-12%2021:44%27&STOP_TIME=%272116-Apr-13%27&STEP_SIZE=%272%20days%27&QUANTITIES=%2720,39%27|access-date=February 28, 2025}}</ref>
+
+<ref name="Horizons2117">{{cite web|title=Horizons Batch for Apophis @ 2117-Oct-07 17:21 showing 3-sigma uncertainty of ±42 million km|publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Apophis%27&START_TIME=%272117-Oct-07%2017:21%27&STOP_TIME=%272117-Oct-08%27&STEP_SIZE=%272%20days%27&QUANTITIES=%2720,39%27|access-date=February 28, 2025}}</ref>
+
+<ref name="NEODyS2029">{{cite web|title=(99942) Apophis Ephemerides for 13 Apr 2029|publisher=NEODyS (Near Earth Objects&nbsp;— Dynamic Site)|url=https://newton.spacedys.com/neodys/index.php?pc=1.1.3.1&n=99942&oc=500&y0=2029&m0=4&d0=13&h0=18&mi0=0&y1=2029&m1=4&d1=14&h1=0&mi1=0&ti=10&tiu=minutes|access-date=August 19, 2018}}</ref>
+
+<ref name="MPEC2004-Y70">{{cite web|title=MPEC 2004-Y70 : 2004 MN4|publisher=IAU [[Minor Planet Center]]|url=https://minorplanetcenter.net/mpec/K04/K04Y70.html|date=December 27, 2004}}</ref>
+
+<ref name="Arecibo">{{cite web|title=Scheduled Arecibo Radar Asteroid Observations|url=http://www.naic.edu/~pradar/sched.shtml|publisher=[[National Astronomy and Ionosphere Center]]|access-date=3 March 2006|archive-url=https://web.archive.org/web/20120428182639/http://www.naic.edu/~pradar/sched.shtml|archive-date=28 April 2012|url-status=dead}}</ref>
+
+<ref name="Schweickart">{{cite web|date=July 22, 2005|title=Schweickart Proposes Study of Impact Risk from Apophis (MN4)|publisher=NASA|author=Morrison, D.|author-link=David Morrison (astrophysicist)|url=http://nai.arc.nasa.gov/impact/news_detail.cfm?ID=161|access-date=October 8, 2009|url-status=dead|archive-url=https://web.archive.org/web/20090929071053/http://nai.arc.nasa.gov/impact/news_detail.cfm?ID=161|archive-date=September 29, 2009}}</ref>
+
+<ref name="Binzel2007">{{cite web|title=Can NEAs be Grouped by Their Common Physical Characteristics?|last=Binzel|first=R. P.|work=Department of Earth, Atmospheric, and Planetary Sciences, [[Massachusetts Institute of Technology School of Science|Massachusetts Institute of Technology]]|publisher=aero.org|date=2007|url=http://www.aero.org/conferences/planetarydefense/2007papers/S1-8--Binzel-Brief.pdf|archive-url=https://web.archive.org/web/20120412135701/http://www.aero.org/conferences/planetarydefense/2007papers/S1-8--Binzel-Brief.pdf|archive-date=April 12, 2012|url-status=dead}}</ref>
+
+<ref name="Science">{{cite web|title=Asteroid 2004 MN4 will come scarily close to Earth on April 13, 2029, but it will not hit|publisher=Science@NASA|author=Morrison, D.|author-link=David Morrison (astrophysicist)|url=https://science.nasa.gov/science-news/science-at-nasa/2005/13may_2004mn4/|date=April 6, 2011|access-date=12 July 2017|archive-url=https://web.archive.org/web/20210118071757/https://science.nasa.gov/science-news/science-at-nasa/2005/13may_2004mn4|archive-date=18 January 2021|url-status=dead}}</ref>
+
+<ref name="refine2013">{{cite web|title=Apophis asteroid encounter in 2013 should help answer impact worries|work=USA Today ScienceFair|first=D.|last=Vergano|url=http://content.usatoday.com/communities/sciencefair/post/2010/11/apophis-asteroid-2013/1|date=November 10, 2010|access-date=November 10, 2010}}</ref>
+
+<ref name="NEODyS2013">{{cite web|title=99942 Apophis Ephemerides for 9 Jan 2013|publisher=NEODyS (Near Earth Objects&nbsp;— Dynamic Site)|url=https://newton.spacedys.com/neodys/index.php?pc=1.1.3.1&n=99942&oc=500&y0=2013&m0=01&d0=07&h0=0&mi0=0&y1=2013&m1=01&d1=25&h1=0&mi1=0&ti=3.0&tiu=hours|access-date=March 14, 2021}}</ref>
+
+<ref name="mirror">{{cite web|title=2004 MN4 Earth Impact Risk Summary (computed on Dec 27, 2004)|work=The Cosmic Mirror|first=D.|last=Fischer|url=http://www.astro.uni-bonn.de/~dfischer/mirror/285neo041227.html|archive-url=https://web.archive.org/web/20050314032111/https://astro.uni-bonn.de/~dfischer/mirror/285neo041227.html|archive-date=March 14, 2005|url-status=dead|date=December 27, 2004|access-date=November 4, 2011}}</ref>
+
+<ref name="SETI2021">{{cite web|title=We Got it! The Story of Astronomers and Citizen Astronomers Catching Hazardous Apophis Asteroid over Colorado and Louisiana|publisher=[[SETI Institute]]|first=F.|last=Marchis|url=https://www.seti.org/we-got-it|archive-url=https://web.archive.org/web/20210310222038/https://www.seti.org/we-got-it|date=March 10, 2021|archive-date=March 10, 2021|url-status=live|access-date=March 13, 2021}}</ref>
+
+<ref name="Neodys_eq1">{{cite web|title=99942 Apophis dynamical parameters|url=https://newton.spacedys.com/~neodys2/epoch//99942.eq1|publisher=NEODyS-2|date=March 14, 2021|access-date=March 14, 2021}}</ref>
+
+<ref name="Goldstone2021">{{cite web|title=Goldstone Radar Observations Planning: 99942 Apophis in 2021|url=https://echo.jpl.nasa.gov/asteroids/Apophis/apophis.2021.goldstone.planning.html|publisher=Jet Propulsion Laboratory|date=March 9, 2021|access-date=March 19, 2021}}</ref>
+
+<ref name="naming">{{cite journal|title=Asteroid Apophis set for a makeover|url=http://www.astronomy.com/asy/default.aspx?c=a&id=3434|first=B.|last=Cooke|journal=Astronomy Magazine|date=August 18, 2005|access-date=October 8, 2009|archive-url=https://archive.today/20120529114151/http://www.astronomy.com/en/sitecore/content/Home/News-Observing/News/2005/08/Asteroid%20Apophis%20set%20for%20a%20makeover.aspx|archive-date=May 29, 2012|url-status=dead}}</ref>
+
+<ref name="earthsky-preparing">{{cite web|title=Preparing for asteroid Apophis {{!}} EarthSky.org|url=https://earthsky.org/space/preparing-asteroid-apophis-april-13-2029-passage|first=D.|last=Byrd|website=earthsky.org|date=April 30, 2019|access-date=May 1, 2019}}</ref>
+
+<ref name="mag-scale">{{cite web|title=The astronomical magnitude scale|url=http://www.icq.eps.harvard.edu/MagScale.html|work=International Comet Quarterly|access-date=January 19, 2021}}</ref>
+
+<ref name="news178">{{cite web|title=Apophis Risk Assessment Updated|url=https://cneos.jpl.nasa.gov/news/news178.html|website=cneos.jpl.nasa.gov|date=February 21, 2013|archive-url=https://web.archive.org/web/20190408105438/https://cneos.jpl.nasa.gov/news/news178.html|archive-date=April 8, 2019|url-status=dead}}</ref>
+
+<ref name="Sentry_Mar2015">{{cite web|title=Update notes: Apophis (Mar 2015)|url=https://cneos.jpl.nasa.gov/sentry/notes.html|website=Sentry: Earth Impact Monitoring, Operational Notes|publisher=[[NASA]]/JPL Center for NEO Studies|date=March 2, 2015|access-date=May 8, 2019|archive-url=https://web.archive.org/web/20170414081713/https://cneos.jpl.nasa.gov/sentry/notes.html|archive-date=April 14, 2017|url-status=live}}</ref>
+
+<ref name="TholenFarmocchia">{{cite journal|url=https://ui.adsabs.harvard.edu/abs/2020DPS....5221406T/abstract|title=Detection of Yarkovsky Acceleration of (99942) Apophis|author1=Tholen, D.|author2=Farnocchia, D.|date=October 2020|journal=Bulletin of the American Astronomical Society|volume=52|issue=6|pages=214.06|bibcode=2020DPS....5221406T}}</ref>
+
+<ref name="FrankfurterRundschau_20210304">{{cite web|url=https://www.fr.de/wissen/asteroid-apophis-astronomie-generalprobe-forschende-erde-beruechtigt-asteroiden-90225775.html|title="Apophis": Gefährlicher Asteroid nähert sich der Erde – Letzte Chance für Forschende|date=March 4, 2021|access-date=March 4, 2021|language=de|author=Banner, T.|work=Frankfurter Rundschau|trans-title="Apophis": Hazardous asteroid approaches Earth – last chance for scientists}}</ref>
+
+<ref name="IAWN2021">{{cite web|url=https://newton.spacedys.com/neodys/index.php?pc=2.1.2&o=C53&ab=0|title=C53-NEOSSat – Observations and residuals|publisher=NEODyS-2|access-date=March 4, 2021}}</ref>
+
+<ref name="IAWN2021-Gallery">{{cite web|url=https://iawn.net/obscamp/Apophis/apophis_gallery.shtml|title=99942 Apophis 2021 – Gallery|date=March 19, 2021|access-date=June 1, 2022|publisher=IAWN}}</ref>
+
+<ref name="Tanga2021">{{cite web|last=Tanga|first=P.|title=Targeted Campaigns – Apophis 2021|url=https://asteroid-obs.oca.eu/foswiki/bin/view/Main/Campaigns|archive-url=https://web.archive.org/web/20210312194317/https://asteroid-obs.oca.eu/foswiki/bin/view/Main/Campaigns|date=March 10, 2021|access-date=March 12, 2021|archive-date=March 12, 2021|url-status=dead}}</ref>
+
+<ref name="Occultation_prelim">{{cite web|url=https://www.asteroidoccultation.com/observations/Results/Reviewed/index.html|title=Asteroidal Occultation Reviewed Results for North America – 2021 Asteroidal Occultation Preliminary Results|date=March 8, 2021|access-date=March 12, 2021|website=asteroidoccultation.com|archive-url=https://web.archive.org/web/20210314170448/https://www.asteroidoccultation.com/observations/Results/Reviewed/index.html|archive-date=March 14, 2021|url-status=dead}}</ref>
+
+<ref name="vvs.be">{{cite web|url=https://lists.vvs.be/archives/list/planoccult@ls.vvs.be/thread/3V2PAXYJLI43S64VWWTCKC5MVS3BK6DV/|title=Reports of Apophis occultation 2021 Mar. 7 for our stations 3 and 4 near Oakdale, Louisiana (SwRI lines A28 and A30)|date=March 9, 2021|access-date=March 13, 2021|publisher=Verenigung veer Sterrenkunde}} {{Dead link|date=October 2026 |bot=InternetArchiveBot }} (requires registration)</ref>
+
+<ref name="Wee2012">{{cite journal|last1=Wee|first1=L. K.|last2=Goh|first2=G. H.|title=A geostationary Earth orbit satellite model using Easy Java Simulation|journal=Physics Education|publisher=IOP Publishing|volume=48|issue=1|date=December 14, 2012|issn=0031-9120|doi=10.1088/0031-9120/48/1/72|pages=72–79|arxiv=1212.3863|s2cid=119208827}}</ref>
+
+<ref name="neo">{{cite web|first=J.|last=Giorgini|url=http://neo.jpl.nasa.gov/apophis/|archive-url=https://web.archive.org/web/20160115022151/http://neo.jpl.nasa.gov/apophis/|title=Predicting Apophis' Earth Encounters in 2029 and 2036|date=October 2007|archive-date=January 15, 2016|url-status=dead}}</ref>
+
+<ref name="Bild.de">{{cite news|url=https://www.bild.de/regional/berlin/weltuntergang-ausgerechnet-4178182.bild.html|title=Ich habe den Weltuntergang ausgerechnet!|newspaper=[[Bild]]|date=April 4, 2008|first=M.|last=Sauerbier|access-date=March 14, 2021|language=de|trans-title=I have calculated the apocalypse|archive-url=https://web.archive.org/web/20180809105514/https://www.bild.de/regional/berlin/weltuntergang-ausgerechnet-4178182.bild.html|archive-date=August 9, 2018|url-status=live}}</ref>
+
+<ref name="RadioCanada">{{cite news|title=NASA refutes story of boy who predicted asteroid collision|url=http://www.cbc.ca/news/technology/nasa-refutes-story-of-boy-who-predicted-asteroid-collision-1.724724|publisher=[[CBC/Radio-Canada]]|date=April 16, 2008|access-date=November 8, 2015}}</ref>
+
+<ref name="Schoolboy">{{cite web|url=http://afp.google.com/article/ALeqM5g6fIS_34_CxE8-vcC5GvbjD4MIOQ|title=German schoolboy, 13, corrects NASA's asteroid figures|access-date=April 16, 2008|archive-url=https://web.archive.org/web/20080420013749/http://afp.google.com/article/ALeqM5g6fIS_34_CxE8-vcC5GvbjD4MIOQ|archive-date=April 20, 2008|url-status=dead}}</ref>
+
+<ref name="NASAkid">{{cite web|url=http://www.nasa.gov/home/hqnews/2008/apr/HQ_08103_student_asteroid_calculations.html|title=NASA Statement on Student Asteroid Calculations|publisher=NASA|date=April 16, 2008|last=Brown|first=D.|archive-url=https://web.archive.org/web/20080501104959/https://www.nasa.gov/home/hqnews/2008/apr/HQ_08103_student_asteroid_calculations.html|archive-date=May 1, 2008|url-status=dead}}</ref>
+
+<ref name="ApophisBias">{{cite web|url=http://neo.jpl.nasa.gov/apophis/apophis_unknown_bias.gif|title=99942 Apophis (2004 MN4)|website=neo.jpl.nasa.gov|access-date=August 9, 2017|archive-url=https://web.archive.org/web/20170302092856/http://neo.jpl.nasa.gov/apophis/apophis_unknown_bias.gif|archive-date=March 2, 2017|url-status=dead}}</ref>
+
+<ref name="Brown2009">{{cite web|url=https://www.nasa.gov/home/hqnews/2009/oct/HQ_09-232_Apophis_Update.html|first=D.|last=Brown|access-date=October 7, 2009|date=October 7, 2009|title=NASA Refines Asteroid Apophis' Path Toward Earth|archive-url=https://web.archive.org/web/20091009092704/http://www.nasa.gov/home/hqnews/2009/oct/HQ_09-232_Apophis_Update.html|archive-date=October 9, 2009|url-status=live}}</ref>
+
+<ref name="TrajectoryChange">{{cite web|url=http://neo.jpl.nasa.gov/apophis/apophis_image7.html|title=Apophis Trajectory Change 2018–2036: Energy Reflection, Absorption, and Emission|first=J.|last=Giorgini|publisher=NASA|archive-url=https://web.archive.org/web/20071109141136/http://neo.jpl.nasa.gov/apophis/apophis_image7.html|archive-date=November 9, 2007|url-status=dead}}</ref>
+
+<ref name="Schweickart2">{{cite web|first=R.|last=Schweickart|url=http://www.b612foundation.org/papers/wpdynamics.pdf|title=Threat Characterization: Trajectory dynamics (White Paper 39)|access-date=February 22, 2008|website=Figure&nbsp;4, pp.&nbsp;9. B612 Foundation|archive-url=https://web.archive.org/web/20080228181959/http://www.b612foundation.org/papers/wpdynamics.pdf|archive-date=February 28, 2008|url-status=dead}}</ref>
+
+<ref name="Baileya2006">{{cite journal|title=Near Earth Object impact simulation tool for supporting the NEO mitigation decision making process|journal=Near Earth Objects|volume=236|page=477|date=2006|first=N. J.|last=Baileya|doi=10.1017/S1743921307003614|bibcode=2007IAUS..236..477B|doi-access=free}}</ref>
+
+<ref name="Paine1999">{{cite journal|first=M. P.|last=Paine|date=January 1999|url=http://mpainesyd.com/idisk/Public/paine_tsunami_asteroid99.pdf|title=The Threat is Out There|journal=Science of Tsunami Hazards|volume=17|issue=3|page=155|access-date=March 14, 2021|archive-url=https://web.archive.org/web/20150606044355/http://mpainesyd.com/idisk/Public/paine_tsunami_asteroid99.pdf|archive-date=June 6, 2015|url-status=live}}</ref>
+
+<ref name="competition">{{cite news|first=P.|last=Rincon|title=US team wins asteroid competition|url=https://news.bbc.co.uk/2/hi/science/nature/7265608.stm|access-date=March 25, 2009|date=February 26, 2008}}</ref>
+
+<ref name="XinhuaNews">{{cite web|url=http://www.spacedaily.com/reports/Riding_an_asteroid_Chinas_next_space_goal_999.html|title=Riding an asteroid: China's next space goal|author=Yu Fei|work=Space Daily |agency=Xinhua News Agency|date=March 7, 2017|access-date=May 1, 2017}}</ref>
+
+<ref name="DonQuixote">{{cite web|url=http://www.esa.int/SPECIALS/NEO/SEMZRZNVGJE_0.html|title=Don Quijote concept|website=esa.int|publisher=European Space Agency|archive-url=https://web.archive.org/web/20060904234133/http://www.esa.int/SPECIALS/NEO/SEMZRZNVGJE_0.html|archive-date=September 4, 2006|date=April 4, 2006|url-status=dead}}</ref>
+
+<ref name="Bartels2021">{{cite news|last=Bartels|first=M.|title=NASA's OSIRIS-REx probe could make a 2nd stop at infamous asteroid Apophis|url=https://www.space.com/osiris-rex-asteroid-probe-could-visit-apophis-2029|access-date=January 28, 2021|work=[[Space.com]]|date=January 19, 2021}}</ref>
+
+<ref name="Lauretta2020">{{cite conference|title=OSIRIS-REx at Apophis: Opportunity for an Extended Mission|url=https://www.hou.usra.edu/meetings/apophis2020/pdf/2008.pdf|date=November 6, 2020|first1=D. S.|last1=Lauretta|author-link1=Dante Lauretta|first2=E. B.|last2=Bierhaus|first3=R. P.|last3=Binzel|first4=B. J.|last4=Bos|conference=Apophis T–9 Years: Knowledge Opportunities for the Science of Planetary Defense|conference-url=https://www.hou.usra.edu/meetings/apophis2020/}}</ref>
+
+<ref name="Izzo2006">{{cite journal|url=http://www.esa.int/gsp/ACT/doc/MAD/pub/ACT-RPR-MAD-2006-(Acta)OptimalTrajectoriesForTheImpulsiveDeflectionOfNearEarthObjects.pdf|title=Optimal Trajectories for the Impulsive Deflection of NEOs|last1=Izzo|first1=D.|last2=Bourdoux|first2=A.|last3=Walker|first3=R.|last4=Ongaro|first4=F.|journal=Acta Astronautica|date=2006|doi=10.1016/j.actaastro.2006.02.002|bibcode=2006AcAau..59..294I|volume=59|issue=1–5|pages=294–300}}</ref>
+
+<ref name="aero.org">{{cite web|title=Scenarios for Dealing with Apophis|url=http://www.aero.org/conferences/planetarydefense/2007papers/S3-4--Gennery-Paper.pdf|publisher=[[The Aerospace Corporation]]|access-date=July 18, 2008|archive-url=https://web.archive.org/web/20080827195229/http://www.aero.org/conferences/planetarydefense/2007papers/S3-4--Gennery-Paper.pdf|archive-date=August 27, 2008|url-status=dead}}</ref>
+
+<ref name="Isachenkov2009">{{cite news|last=Isachenkov|first=V.|title=Russia may send spacecraft to knock away asteroid|publisher=Yahoo News|access-date=December 31, 2009|date=December 30, 2009|url=https://news.yahoo.com/s/ap/eu_russia_asteroid_encounter|archive-url=https://web.archive.org/web/20100102065122/http://news.yahoo.com/s/ap/eu_russia_asteroid_encounter|archive-date=January 2, 2010|url-status=dead}}</ref>
+
+<ref name="ChinaSail">{{cite news|title=China Reveals Solar Sail Plan To Prevent Apophis Hitting Earth in 2036|work=Technology Review Physics arXiv Blog|access-date=March 14, 2021|date=August 18, 2011|url=http://www.technologyreview.com/blog/arxiv/27088/|archive-url=https://web.archive.org/web/20111126222934/http://www.technologyreview.com/blog/arxiv/27088/|archive-date=November 26, 2011|url-status=dead}}</ref>
+
+<ref name="Gamespot">{{cite web|title=Rage Interview: We speak with id's Tim Willits about their new IP, Rage|website=Gamespot|url=https://www.gamespot.com/videos/rage-interview/2300-6176219/|first=T.|last=Winegarner|date=November 6, 2019}}</ref>
+
+<ref name="Farnocchia2013_Icarus">{{cite journal|title=Yarkovsky-driven impact risk analysis for asteroid (99942) Apophis|last1=Farnocchia|first1=D.|last2=Chesley|first2=S. R.|last3=Chodas|first3=P. W.|last4=Micheli|first4=M.|date=February 20, 2013|journal=Icarus|volume=224|issue=1|page=192|doi=10.1016/j.icarus.2013.02.020|arxiv=1301.1607|bibcode=2013Icar..224..192F|s2cid=119088923}}</ref>
+ 
+<ref name="Gaia_20210329">{{cite web|title=Apophis' Yarkovsky acceleration improved through stellar occultation|url=https://www.cosmos.esa.int/web/gaia/iow_20210329|date=March 29, 2021|work=Gaia Image of the Week|publisher=European Space Agency (ESA)|access-date=November 27, 2021}}</ref>
+ 
+<ref name="Occultation award">{{cite web|title=Lifetime Achievement Award of the International Occultation Timing Association|url=https://www.asteroidoccultation.com/observations/Awards/Venable.html|date=2021|website=asteroidoccultation.com|publisher=International Occultation Timing Association|access-date=November 27, 2021}}</ref>
+ 
+<ref name="JOA2021_3">{{cite journal|title=Chasing the Shadow of (99942) Apophis|url=https://iota-es.de/JOA/JOA2021_3.pdf|year=2021|journal=Journal of Occultation Astronomy|volume=11|issue=3|pages=1–2, 24–29|access-date=November 27, 2021}}</ref>
+
+<ref name="Wayback2005-02">{{cite web|title=2004 MN4 Earth Impact Risk Summary|publisher=NASA/JPL|url=http://neo.jpl.nasa.gov/risk/2004mn4.html|date=February 5, 2005|access-date=January 13, 2013|url-status=dead|archive-url=https://web.archive.org/web/20050206005155/http://neo.jpl.nasa.gov/risk/2004mn4.html|archive-date=February 6, 2005}}</ref>
+
+<ref name="Wayback2005-10">{{cite web|title=99942 Apophis Earth Impact Risk Summary|publisher=NASA JPL|url=http://neo.jpl.nasa.gov/risk/a99942.html|date=October 18, 2005|access-date=January 13, 2013|url-status=dead|archive-url=https://web.archive.org/web/20051018181735/http://neo.jpl.nasa.gov/risk/a99942.html|archive-date=October 18, 2005}}</ref>
+
+<ref name="Wayback2006-07">{{cite web|title=99942 Apophis (2004 MN4) Earth Impact Risk Summary|publisher=NASA/JPL|url=http://neo.jpl.nasa.gov/risk/a99942.html|date=July 1, 2006|access-date=January 13, 2013|url-status=dead|archive-url=https://web.archive.org/web/20060701215601/http://neo.jpl.nasa.gov/risk/a99942.html|archive-date=July 1, 2006}}</ref>
+
+<ref name="Wayback2006-08">{{cite web|title=99942 Apophis (2004 MN4) Earth Impact Risk Summary|publisher=NASA/JPL|url=http://neo.jpl.nasa.gov/risk/a99942.html|date=August 5, 2006|access-date=January 13, 2013|url-status=dead|archive-url=https://web.archive.org/web/20060805063943/http://neo.jpl.nasa.gov/risk/a99942.html|archive-date=August 5, 2006}}</ref>
+
+<ref name="Wayback2013-01">{{cite web|title=99942 Apophis (2004 MN4) Earth Impact Risk Summary|publisher=NASA/JPL|url=http://neo.jpl.nasa.gov/risk/a99942.html|date=May 6, 2013|access-date=March 13, 2021|url-status=dead|archive-url=https://web.archive.org/web/20130110015803/http://neo.jpl.nasa.gov/risk/a99942.html|archive-date=January 10, 2013}}</ref>
+
+<ref name="Reddy2022">{{cite journal|title=Apophis Planetary Defense Campaign|first1=Vishnu|last1=Reddy|first2=Michael S.|last2=Kelley|first3=Jessie|last3=Dotson|first4=Davide|last4=Farnocchia|display-authors=etal|date=May 31, 2022|journal=The Planetary Science Journal|volume=3|issue=5|page=123|doi=10.3847/PSJ/ac66eb|bibcode=2022PSJ.....3..123R|s2cid=249227833|doi-access=free|hdl=10150/670423|hdl-access=free}}</ref>
+
+<ref name="Satpathy2022">{{cite journal|title=NEOWISE Observations of the Potentially Hazardous Asteroid (99942) Apophis|first1=Akash|last1=Satpathy|first2=Amy|last2=Mainzer|first3=Joseph R.|last3=Masiero|first4=Tyler|last4=Linder|display-authors=etal|date=May 31, 2022|journal=The Planetary Science Journal|volume=3|issue=5|page=124|doi=10.3847/PSJ/ac66d1|arxiv=2204.05412|bibcode=2022PSJ.....3..124S|s2cid=248118987|doi-access=free}}</ref>
+
+<ref name="PlanetaryDefense2021">{{cite web|title=Planetary Defense Exercise Uses Apophis as Hazardous Asteroid Stand-In|url=https://www.nasa.gov/feature/jpl/planetary-defense-exercise-uses-apophis-as-hazardous-asteroid-stand-in|date=May 31, 2022|publisher=NASA|editor=Tony Greicius|access-date=June 1, 2022}}</ref>
+
+<ref name="NeptuneVLTAdaptiveOptics">{{cite web|title=Neptune from the VLT with and without adaptive optics|url=https://www.eso.org/public/usa/images/eso1824b/|date=July 18, 2018|publisher=ESO|access-date=October 17, 2022}}</ref>
+
+<ref name="BBC_popculture">{{Cite news|url=https://www.bbc.com/future/article/20130117-doomsday-delayed|first=Quentin|last=Cooper|title=Apophis asteroid: Doomsday delayed... again|date=November 18, 2014|access-date=April 15, 2025|website=bbc.com}}</ref>
+
+<ref name="nasa_Apophis_PUBLISHED_PAPER">{{cite journal |last1=Giorgini |first1=Jon |display-authors=etal |date=October 4, 2007 |title=Predicting the Earth encounters of (99942) Apophis |url=http://neo.jpl.nasa.gov/apophis/Apophis_PUBLISHED_PAPER.pdf |url-status=dead |journal=Icarus |volume=193 |pages=1–19 |doi=10.1016/j.icarus.2007.09.012 |archive-url=https://web.archive.org/web/20161222041852/http://neo.jpl.nasa.gov/apophis/Apophis_PUBLISHED_PAPER.pdf |archive-date=December 22, 2016}}</ref>
+
+<ref name="Predicting">{{cite journal|last1=Jon Giorgini|display-authors=etal|title=Predicting the Earth encounters of (99942) Apophis|journal=Icarus|date=October 4, 2007|volume=193 |pages=1–19 |doi=10.1016/j.icarus.2007.09.012|url=http://neo.jpl.nasa.gov/apophis/Apophis_PUBLISHED_PAPER.pdf|archive-url=https://web.archive.org/web/20161222041852/http://neo.jpl.nasa.gov/apophis/Apophis_PUBLISHED_PAPER.pdf|archive-date=December 22, 2016|url-status=dead}}</ref>
+
+<ref name="NASA_analysis_2021">{{cite web|url=https://www.jpl.nasa.gov/news/nasa-analysis-earth-is-safe-from-asteroid-apophis-for-100-plus-years|title=NASA Analysis: Earth Is Safe From Asteroid Apophis for 100-Plus Years|date=March 25, 2021|publisher=Jet Propulsion Laboratory}}</ref>
+
+<ref name="Hurst2021">{{Cite web|last=Hurst|first=Luke|date=March 28, 2021|title=Asteroid Apophis won't hit Earth for at least 100 years, says NASA|url=https://www.euronews.com/2021/03/28/good-news-asteroid-apophis-won-t-hit-earth-for-at-least-100-years-says-nasa|access-date=April 2, 2021|website=euronews}}</ref>
+
+<ref name="Hill2010">{{Cite web|url=https://ancientegyptonline.co.uk/apep/|title=Apep (Apophis)|publisher=Ancient Egypt Online|author=Hill, J.|year=2010|access-date=July 24, 2021}}</ref>
+
+<ref name="BAN315">{{Citation|url=https://badastronomy.beehiiv.com/p/ban-315-apophis-and-stargate|title=Apophis and Stargate|work=Bad Astronomy Newsletter|first=Phil|last=Phait|issue=315|date=19 April 2021|access-date=11 August 2025}}</ref>
+
+<ref name="Apophis_Facts">{{Cite web|url=https://science.nasa.gov/solar-system/asteroids/apophis-facts/|title=Apophis Facts|date=March 28, 2025 |publisher=NASA|access-date=11 August 2025|quote=Tholen said he and co-discoverer, the late Roy Tucker, were already familiar with the name Apophis because of the evil and powerful character by that name in the television series Stargate SG-1. He said it was “icing on the cake” that the name they selected was also a character in a popular TV show. But Tholen said that, contrary to some reports, the asteroid was not named for the TV character.}}</ref>
+
+<ref name="pronunciation1">As an example, here is David Tholen, the discoverer of the asteroid, pronouncing the name: {{cite web|url=https://www.youtube.com/watch?t=1307&v=AfE87Pi3SqE|title=DPS 52 Monday Press Conference|publisher=AAS Press Office|date=October 26, 2020|via=YouTube}}</ref>
+
+<ref name="Finlay2008a">{{cite book|last1=Finlay|first1=Alec|last2=Sharples|first2=Ray|last3=Moskowitz|first3=Denis|title=One Hundred Year Star-Diary: 2008-2107|publisher=Platform Projects/Morning Star|isbn=9780955202711|oclc=316730683|date=April 24, 2008}}</ref>
+
+<ref name="Finlay2008b">{{cite web|title=Symbols for One Hundred Year Star-Diary|first=Alec|last=Finlay|publisher=Kielder Observatory Astronomical Society|url=https://suberic.net/~dmm/astro/diary.html|date=April 2, 2008|archive-url=https://web.archive.org/web/20081012183213/https://suberic.net/~dmm/astro/diary.html|archive-date=October 12, 2008|url-status=live}}</ref>
+
+<ref name="deldot">See "deldot" in [https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=apophis&START_TIME=%271900-5-1%27&STOP_TIME=%272029-4-25%27&STEP_SIZE=%271%20years%27&QUANTITIES=%2718%2019%2020%2031 this JPL Horizons simulation] and [https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=apophis&START_TIME=%271900-12-2%27&STOP_TIME=%272029-4-25%27&STEP_SIZE=%271%20years%27&QUANTITIES=%2718%2019%2020%2031 this one].</ref>
+
+<ref name="surface">13 April 2029 approach: {{Convert|0.000254093|AU|km|abbr=on|lk=on}}. [https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=Apophis&view=OPC 38012km "geocentric distance"] – 6378km "[[Earth radius]]" = 31634km</ref>
+
+<ref name="blog2023">{{Cite web|url=https://blogs.nasa.gov/osiris-rex/2023/09/24/osiris-rex-spacecraft-departs-for-new-mission/|title=OSIRIS-REx Spacecraft Departs for New Mission|date=September 24, 2023}}</ref>
+
+<ref name="satsig">{{Cite web|url=https://www.satsig.net/sslist.htm|title=List of satellites in geostationary orbit|website=satsig.net}}</ref>
+
+<ref name="sky_arc">From [[ecliptic longitude]] and latitude of 221°, −16° to 16°, 12° (according to [https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=apophis&START_TIME=%272029-4-1%27&STOP_TIME=%272029-4-25%27&STEP_SIZE=%271%20days%27&QUANTITIES=%2718%2019%2020%2031 this Horizons run]), or in [[right ascension]] and [[declination]], from 14h14m, −30°17' to 0h39m, 16°51' (using [https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=apophis&START_TIME=%272029-4-1%27&STOP_TIME=%272029-4-25%27&STEP_SIZE=%271%20days%27&QUANTITIES='2 29' this] and [https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=apophis&START_TIME=%272029-4-13%27&STOP_TIME=%272029-4-15%27&STEP_SIZE=%271%20hour%27&QUANTITIES=%272%2029%27 this]).</ref>
+
+<ref name="deceleration_JPL">According to [https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=apophis&START_TIME=%272029-4-1%2021:46%27&STOP_TIME=%272029-4-25%27&STEP_SIZE=%271%20days%27&QUANTITIES=22 this JPL Horizons run].</ref>
+
+<ref name="Venus">{{Cite web|url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27299%27&START_TIME=%272036-05-30%2002:10%27&STOP_TIME=%272036-05-30%2002:30%27&STEP_SIZE=%271%20min%27&QUANTITIES=%2720%27|title=Venus 2036-May-30 @ JPL Horizons}}</ref>
+
+<ref name="Jorge">{{cite journal |last1=Jorge A. Pérez-Hernández & Luis Benet |title=Non-zero Yarkovsky acceleration for near-Earth asteroid (99942) Apophis |journal=Nature Communications Earth & Environment |date=January 11, 2022 |volume=3 |issue=1 |article-number=10 |doi=10.1038/s43247-021-00337-x |doi-access=free |bibcode=2022ComEE...3...10P }}</ref>
+
+<ref name="removed">[https://cneos.jpl.nasa.gov/sentry/removed.html Removed Objects] from Sentry Risk Table</ref>
+
+<ref name="VI2029">[https://web.archive.org/web/20050314032111/https://astro.uni-bonn.de/~dfischer/mirror/285neo041227.html Virtual Impactor for 13 April 2029] (Stretch LOV = 1.29E+1) * Earth radius of 6,420&nbsp;km = 82,818&nbsp;km.</ref>
+
+<ref name="Impact_Risk_Summary_2014">{{cite web|title=99942 Apophis (2004 MN4) Earth Impact Risk Summary|publisher=NASA/JPL|date=October 8, 2014|url=http://neo.jpl.nasa.gov/risk/a99942.html|archive-url=https://web.archive.org/web/20160323214134/http://neo.jpl.nasa.gov/risk/a99942.html|archive-date=March 23, 2016|url-status=dead}}</ref>
+
+<ref name="JPLSBDB2020">{{Cite web|url=https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=99942;cad=1|title=JPL Small-Body Database Browser|date=November 6, 2020|archive-url=https://web.archive.org/web/20201106120010/https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=99942;cad=1|archive-date=November 6, 2020}}</ref>
+
+<ref name="Baurov2013">{{Cite journal|last1=Baurov|first1=Y.A.|last2=Albanese|first2=L.|last3=Meneguzzo|first3=F.|last4=Menshikov|first4=V.A.|title=Protecting the planet from the asteroid hazard|url=https://www.researchgate.net/publication/260818491|year=2013|volume=9|issue=3|journal=Int. J. Pure Appl. Phys. |pages=151–168}}</ref>
+
+<ref name="Gennery2007">{{Citation|title=Range of Possible Impact Points on April 13, 2036|url=http://www.aero.org/conferences/planetarydefense/2007papers/S3-4--Gennery-Brief.pdf|work=Scenarios for Dealing with Apophis, presented at the Planetary Defense Conference|author=Donald B. Gennery|location=Washington, D.C.|date=5–8 March 2007|archive-url=https://web.archive.org/web/20120412123940/http://www.aero.org/conferences/planetarydefense/2007papers/S3-4--Gennery-Brief.pdf|archive-date=12 April 2012}}</ref>
+
+<ref name="OSIRIS-REx_factsheet">{{cite report|title=OSIRIS-REx factsheet|date=August 2011|publisher=[[NASA]]|department=Explorers and Heliophysics Projects Division|place=[[Goddard Space Flight Center|Goddard SFC]]|website=ehpd.gsfc.nasa.gov|url=https://ehpd.gsfc.nasa.gov/documents/552572main_OSIRIS_REx_Factsheet.pdf}} {{Source-attribution}}</ref>
+
+<ref name="Mace_Kelley2022">{{Cite web|date=April 25, 2022|title=NASA gives green light for OSIRIS-REx spacecraft to visit another asteroid|url=https://news.arizona.edu/story/nasa-gives-green-light-osiris-rex-spacecraft-visit-another-asteroid|access-date=April 26, 2022|publisher=University of Arizona News|first=Mikayla|last=Mace Kelley}}</ref>
+
+<ref name="Planetary2007">{{Cite web|url=https://www.planetary.org/press-releases/0226_planetary_society_names_winners_of|title=Planetary Society Names Winners of $50,000 Asteroid Tagging Competition|last=Kaplan|first=Mat|date=February 26, 2008|website=www.planetary.org|archive-url=https://web.archive.org/web/20200812145258/https://www.planetary.org/press-releases/0226_planetary_society_names_winners_of|archive-date=August 12, 2020|url-status=live}}</ref>
+
+<ref name="Sharma2007">{{Cite web|url=https://ntrs.nasa.gov/api/citations/20120000562/downloads/20120000562.pdf|title=PHAROS: Shedding Light on the Near-Earth Asteroid Apophis|work=ESMD Space Grant Systems Engineering Paper Competition|date=April 30, 2007|publisher=Georgia Institute of Technology|first1=Jonathan|last1=Sharma|first2=Jarret|last2=Lafleur|first3=Nilesh|last3=Shah|first4=Jilian|last4=Apa|first5=Jonathan|last5=Townley|first6=Kreston|last6=Barron|archive-url=https://web.archive.org/web/20241115143132/https://ntrs.nasa.gov/api/citations/20120000562/downloads/20120000562.pdf|archive-date=November 15, 2024|url-status=live}}</ref>
+
+<ref name="RAMSES">{{Cite web |url=https://www.ramsesmission.space/scenario |title=Scenario - Launch - Spacecraft |website=ramsesmission.space |access-date=2026-06-23}}</ref>
+
+<ref name="Satis">{{Cite web |last=Kulu |first=Erik |title=Satis |url=https://www.nanosats.eu/sat/satis.html |access-date=2025-09-25 |website=Nanosats Database |language=en}}</ref>
+
+<ref name="sn-20230626">{{cite web|last=Jones|first=Andrew|url=https://spacenews.com/china-conducts-parachute-tests-for-asteroid-sample-return-mission/|title=China conducts parachute tests for asteroid sample return mission|work=[[SpaceNews]]|date=June 26, 2023|access-date=October 28, 2024}}</ref>
+
+<ref name="Clark2025">{{Cite news | last1 = Clark | first1= Stephen | title= China extends its reach into the Solar System with launch of asteroid mission | work = [[Ars Technica]] | publisher= [[Conde Nast]] | location= New York | date= 28 May 2025 | url= https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/ | access-date= 29 May 2025 | archive-url= https://web.archive.org/web/20250529023814/https://arstechnica.com/science/2025/05/china-extends-its-reach-into-the-solar-system-with-launch-of-asteroid-mission/ | archive-date= 29 May 2025 | url-status= live}}</ref>
+
+<ref name="WP-20221021">{{cite news|last=Verma|first=Pranshu|title=There's a new tool to help blow up asteroids – Researchers from MIT and Stanford have created a tool that could improve the aim of future planetary defense missions|url=https://www.washingtonpost.com/technology/2022/10/21/asteroid-destruction-tool/|date=October 21, 2022|newspaper=The Washington Post|access-date=October 22, 2022}}</ref>
+
+</references>
+
+== External links ==
+{{Commons}}
+* {{cite journal|arxiv=1404.5847|doi=10.1051/0004-6361/201423841|doi-access=free|bibcode=2014A&A...566A..22M|title=Thermal infrared observations of asteroid (99942) Apophis with ''Herschel''|year=2014|last1=Müller|first1=T. G.|last2=Kiss|first2=C.|last3=Scheirich|first3=P.|last4=Pravec|first4=P.|last5=o'Rourke|first5=L.|last6=Vilenius|first6=E.|last7=Altieri|first7=B.|journal=Astronomy & Astrophysics|volume=566|pages=A22|s2cid=119282830|display-authors=4}}
+* [https://web.archive.org/web/20130317183119/http://apophisasteroid.net/ Apophis Asteroid]
+* [http://meetingorganizer.copernicus.org/EPSC-DPS2011/EPSC-DPS2011-1212.pdf Asteroid Apophis orbit from recent observations], EPSC Abstracts Vol. 6, EPSC-DPS2011-1212, 2011, EPSC-DPS Joint Meeting 2011
+* [https://www1.brera.inaf.it/sormano/Apophis/Sormano_Apophis.html Diagrams and orbits of Apophis] (Sormano Astronomical Observatory)
+* [https://web.archive.org/web/20200611222254/https://gravitysimulator.org/solar-system/apophis-2029-earth-encounter/ Interactive 3D gravity simulation of Apophis's 2029 Earth flyby]
+* {{cite web|url=https://starwalk.space/en/news/apophis-asteroid|title=Apophis: All About The God of Chaos Asteroid|author=|work=Starwalk|date=1 August 2026|access-date=22 August 2026}}
+* {{cite web|url=https://www.livescience.com/space/asteroids/shared-cosmic-experience-potentially-hazardous-asteroid-apophis-could-be-visible-to-90-percent-of-earths-population-during-ultraclose-2029-flyby-new-maps-reveal|title='Shared cosmic experience': 'Potentially hazardous' asteroid Apophis could be visible to 90% of Earth's population during ultraclose 2029 flyby, new maps reveal|author=Harry Baker|work=Live Science|date=17 July 2026|access-date=22 August 2026}}
+
+'''Risk assessment'''
+* [https://cneos.jpl.nasa.gov/doc/apophis/ Apophis Orbital Prediction Page at NASA JPL]
+* [https://newton.spacedys.com/neodys/index.php?pc=1.1.0&n=99942 99942 Apophis page] from [[NEODyS]]
+* [https://www1.brera.inaf.it/sormano/mbpl.html MBPL – Minor Body Priority List (technical List) at Sormano Observatory]
+* [https://www1.brera.inaf.it/sormano/teca.html TECA – Table of Asteroids Next Closest Approaches to the Earth at Sormano Observatory]
+
+'''NASA'''
+* [https://web.archive.org/web/20041228072731/http://neo.jpl.nasa.gov/news/news148.html Possibility of an Earth Impact in 2029 Ruled Out for Asteroid {{Minor planet|2004 MN|4}}] (JPL)
+* [https://cneos.jpl.nasa.gov/news/news149.html Radar Observations Refine the Future Motion of Asteroid {{Minor planet|2004 MN|4}}] (JPL)
+* [https://web.archive.org/web/20041102064506/http://neo.jpl.nasa.gov/gif/mea-orbit-big.gif Animation explaining how impact risk is determined] from [https://web.archive.org/web/20160106045208/http://neo.jpl.nasa.gov/cgi-bin/ip?1 Impact Probability]
+* {{JPL small body|id=99942}}
+
+{{s-start}}
+{{s-bef|before={{Minor planet link|(153814) 2001 WN|5}}}}
+{{s-ttl|title=Large [[Near-Earth object|NEO]] Earth close approach<br />([[List of asteroid close approaches to Earth#Asteroids|inside the orbit of the Moon]])|years=April 13, 2029}}
+{{s-aft|after={{Minor planet link|2012 UE|34}}}}
+{{end}}
+
+{{Planetary defense}}
+{{Minor planets navigator |99941 Lonniewege |number=99942 |(99943) 2005 AS2}}
+{{Small Solar System bodies}}
+{{2021 in space}}
+{{Portal bar|Physics|Astronomy|Stars|Spaceflight|Outer space|Solar System|Science}}
+{{Authority control}}
+
+{{DEFAULTSORT:Apophis}}
+[[Category:Aten asteroids|099942]]
+[[Category:Discoveries by Roy A. Tucker]]
+[[Category:Discoveries by David J. Tholen]]
+[[Category:Discoveries by Fabrizio Bernardi]]
+[[Category:Named minor planets]]
+[[Category:Potentially hazardous asteroids|099942]]
+[[Category:Radar-imaged asteroids|099942]]
+[[Category:Earth-crossing asteroids]]
+[[Category:Near-Earth objects removed from the Sentry Risk Table|099942]]
+[[Category:Minor planets discovered in 2004|20040619]]
+[[Category:Minor planets to be visited by spacecraft]]
+[[Category:Articles containing video clips]]
+[[Category:Egyptian mythology in popular culture]]

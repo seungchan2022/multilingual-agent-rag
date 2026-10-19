@@ -1,0 +1,183 @@
+{{short description|Mini-Neptune exoplanet orbiting Kepler-22}}
+{{For|the song|Kepler-22b (song)}}
+{{Use dmy dates|date=March 2019}}
+{{Infobox planet
+| name                     = Kepler-22b 
+| image                    = File:Kepler22b-artwork.jpg
+| caption                  = Artist's conception of Kepler-22b as a rocky planet
+<!-- DISCOVERY           -->
+| discovery_ref            = <ref name="discoverypaper" />
+| discoverer               = ''Kepler'' Science Team
+| discovery_site           = [[Kepler telescope]]
+| discovered               = 5 December 2011<ref name="NASA20111205_2011_373" />
+| discovery_method         = [[Transit method|Transit]]
+<!-- DESIGNATIONS        -->
+<!-- ORBITAL             --> 
+| orbit_ref                = <ref name="Bonomo2023" />
+| apsis                    = astron
+| semimajor                = {{val|0.812|0.011|0.013|ul=AU}}
+| eccentricity             = 0 (<0.72)
+| period                   = {{val|289.863876|0.000013|ul=d}}
+| inclination              = {{val|89.764|0.025|0.042|u=deg}}
+| time_periastron          = {{val|2454966.7001|0.0068}}
+| semi-amplitude           = {{val|1.6|p=<|ul=m/s}}
+| star                     = [[Kepler-22]]
+<!-- PHYS CHARS          --> 
+| physical_ref             = <ref name="Bonomo2023" />
+| mean_radius              = {{val|2.10|0.12|ul=Earth radius}}
+| mass                     = {{val|9.1|p=<|ul=Earth mass}}
+| density                  = {{val|5.2|p=<|ul=g/cm3}}
+| single_temperature       = {{val|279|4|ul=K}} ({{convert|279|K|C F|disp=out}}, [[equilibrium temperature|equilibrium]])
+<!-- ATMOSPHERE          --> 
+<!-- NOTES               --> 
+}}
+'''Kepler-22b''' (also known by its [[Kepler object of interest]] designation ''KOI-087.01'') is an [[exoplanet]] orbiting the [[Solar analog|Sun-like]] star [[Kepler-22]] within its [[habitable zone]]. It is located about {{convert|640|ly|pc|abbr=off|lk=on}} from [[Earth]] in the constellation [[Cygnus (constellation)|Cygnus]]. Discovered by [[NASA]]'s [[Kepler space telescope]], it was announced on 5 December 2011 as the first known [[Transit method|transiting]] planet to orbit within the habitable zone of a Sun-like star, where conditions could allow liquid water to exist on the surface.<ref>{{cite web |last=Dunbar |first=Brian |date=December 5, 2011 |title=NASA's Kepler Mission Confirms Its First Planet in Habitable Zone of Sun-like Star |url=https://www.nasa.gov/mission_pages/kepler/news/kepscicon-briefing.html |access-date=7 January 2022 |website=NASA}}</ref>
+
+Kepler-22b has a radius about twice that of Earth.<ref>{{Cite web |last=Brennan |first=Pat |date=n.d. |title=Kepler-22b |url=https://exoplanets.nasa.gov/exoplanet-catalog/1599/kepler-22b/ |access-date=2020-11-23 |website=Exoplanet Exploration: Planets Beyond our Solar System |publisher=NASA}}</ref> Its [[mass]] and surface composition are unknown, but an Earth-like composition is considered unlikely. It may instead be an [[ocean planet]] or have a [[Volatile (astrogeology)|volatile-rich composition]] with a liquid or gaseous outer layer. The planet's known orbital parameters are its [[orbital period]], about 290 days, and its [[Orbital inclination|inclination]], approximately 90°. Its surface temperature may be moderate if it does not experience extreme [[Greenhouse effect|greenhouse heating]]. In the absence of an atmosphere, its [[equilibrium temperature]], assuming an Earth-like [[albedo]], would be about {{convert|279|K|C F}}, slightly higher than Earth's equilibrium temperature of {{convert|255|K|C F}}.<ref name="Bonomo2023" />
+
+== Physical characteristics ==
+=== Mass, radius, and temperature ===
+[[File:Kepler-22b versus Earth.jpg|thumb|450px|Size comparison of Kepler-22b (''artistic simulation'') with Earth, rendered in [[Celestia]]]]
+Kepler-22b's [[radius]] was initially thought to be 2.4 times that of [[Earth]], but has since been revised to {{Earth radius|2.1}} {{as of|2023|lc=y}}.<ref name="ExtrasolardatabaseNASAKepler-22b" /><ref name="Bonomo2023" /> Its [[mass]] and surface composition remain unknown,<ref name="NASA20111205_2011_373" /><ref name="bbc20111205" /> with only some rough estimates established: at the time of the discovery announcement, it was known to have fewer than 124 Earth masses at the 3-[[Sigma approximation|sigma]] [[confidence interval|confidence limit]], and fewer than 36 Earth masses at 1-sigma confidence.<ref name="discoverypaper" /> The adopted model in Kipping et al. (2013) does not reliably detect the mass (the upper limit is 52.8 {{Earth mass|sym=y}}).<ref name="Kipping2013" /> {{As of|2023}}, the upper limit has been constrained to at most {{Earth mass|sym=y|9.1}}.<ref name="Bonomo2023" />
+
+Kepler-22b, dubbed by scientists as a "water world", might be an "ocean-like" planet. It might also be comparable to the water-rich planet [[Gliese 1214 b|Enaiposha]] although Kepler-22b, unlike Enaiposha, is in the habitable zone. An [[Structure of the Earth|Earth-like composition]] is ruled out to at least 1-sigma uncertainty by [[Doppler spectroscopy|radial velocity measurements]] of the system;<ref name="discoverypaper" /><ref name="Caleb Scharf Blog">{{cite web |url=https://www.scientificamerican.com/blog/life-unbounded/cant-always-tell-an-exoplanet-by-its-size/ |title=You Can't Always Tell An Exoplanet By Its Size |date=8 December 2011 |last=Scharf |first=Caleb A. |publisher=[[Scientific American]] |access-date=5 April 2024 }}: "If it [Kepler-22b] had a similar composition to the Earth, then we’re looking at a world in excess of about 40 Earth masses".</ref> it is thus likely to have a more [[Volatile (astrogeology)|volatile-rich composition]] with a liquid or gaseous outer shell;<ref>{{Cite news | url=https://astrobites.org/2014/07/31/most-1-6-earth-radius-planets-are-not-rocky/ | title=Most 1.6 Earth-radius planets are not rocky| newspaper=[[Astrobites]]| date=31 July 2014| last1=Angus| first1=Ruth}}</ref> this would make it similar to [[Kepler-11f]], one of the smallest known gas planets. [[Natalie Batalha]], one of the scientists on the Kepler Space Telescope project, has speculated, "If it is mostly ocean with a small rocky core, it's not beyond the realm of possibility that life could exist in such an ocean".<ref>{{cite news|url=https://www.bbc.co.uk/news/science-environment-19008908|title=A home from home: Five planets that could host life|last=Rincon|first=Paul|date=5 December 2011|work=[[BBC News]]|access-date=26 November 2016}}</ref> This possibility has spurred [[Search for extraterrestrial intelligence|SETI]] to perform research on top candidates for [[extraterrestrial life]].<ref name="SETI exoplanets">{{cite web|url=http://news.discovery.com/space/SETI-to-hunt-for-aliens-on-Keplers-worlds.html|title=SETI to Hunt for Aliens on Kepler's Worlds|date=5 December 2011|author=Ian O'Neill|publisher=[[Discovery News]]|access-date=9 November 2020|archive-date=30 August 2012|archive-url=https://web.archive.org/web/20120830111432/http://news.discovery.com/space/seti-to-hunt-for-aliens-on-keplers-worlds.html|url-status=dead}}</ref>
+
+In the absence of an atmosphere, its [[equilibrium temperature]] (assuming an Earth-like [[albedo]]) would be approximately {{convert|279|K|C}}, compared with Earth's {{convert|255|K|C}}.<ref name="Bonomo2023" />
+
+=== Host star ===
+{{main|Kepler-22}}
+The host star, [[Kepler-22]], is a [[Stellar classification#Class G|G-type]] star that is 3% less massive than the [[Sun]] and 2% smaller in volume. It has a [[Planetary equilibrium temperature|surface temperature]] of {{convert|5518|K|C F}} compared with the Sun, which has a surface temperature of {{convert|5778|K|C F}}.<ref>{{cite web |author=Cain |first=Fraser |date=15 September 2008 |title=Temperature of the Sun |url=http://www.universetoday.com/18092/temperature-of-the-sun/ |url-status=dead |access-date=19 February 2011 |website=[[Universe Today]] |archive-date=29 August 2010 |archive-url=https://web.archive.org/web/20100829025937/http://www.universetoday.com/18092/temperature-of-the-sun/ }}</ref> The star is about 4 billion years old.<ref name="age">{{Cite journal |last1=Safonova |first1=M. |last2=Murthy |first2=J. |last3=Shchekinov |first3=Yu. A. |date=11 August 2015 |title=Age aspects of habitability |url=https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/age-aspects-of-habitability/D71402C044AAEA9108C1F6EC0944375F |journal=International Journal of Astrobiology |publisher=[[Cambridge University Press]] |volume=15 |issue=2 |pages=93–105 |arxiv=1404.0641 |bibcode=2016IJAsB..15...93S |doi=10.1017/S1473550415000208 |s2cid=20205600}}</ref> In comparison, the Sun is 4.6 billion years old.<ref>{{cite web |url=http://www.universetoday.com/18237/how-old-is-the-sun/ |title=How Old is the Sun? |author=Fraser Cain |date=16 September 2008 |website=Universe Today |access-date=19 February 2011}}</ref>
+
+The [[apparent magnitude]] of Kepler-22 is 11.5, which means it is too dim to be seen with the naked eye.
+
+=== Orbit ===
+The only parameters of the planet's [[orbit]] that are currently available are its [[orbital period]], which is about {{nowrap|290 days}}, and its [[Orbital inclination|inclination]], which is approximately 90°. From Earth, the planet appears to make a transit across the disk of its host star.<ref name="ExtrasolardatabaseKepler-22b" />
+In order to obtain further information about the details of the planet's orbit, other methods of planetary detection, such as the radial velocity method, need to be used. While such methods have been performed on the planet since its discovery, these methods have not yet detected an accurate value  for the eccentricity of the planet and so (as of 2023) only an upper limit for the eccentricity of the planet has been set by astronomers.<ref name="Bonomo2023" />
+
+== Habitability ==
+[[File:Kepler-22 diagram.jpg|thumb|right|Artist's impression of the Kepler-22 system and its planet ''(sizes to scale)'' compared to the planets of the inner [[Solar System]] with their respective [[habitable zone]]s]]
+The average distance from Kepler-22b to its host star [[Kepler-22]] is about 15% less than the distance from Earth to the Sun<ref name="ExtrasolardatabaseKepler-22b" /> but the [[Stellar luminosity|luminosity]] (light output) of Kepler-22 is about 25% less than that of the Sun.<ref name="bbc20111205" /> This combination of a shorter average distance from the star and a lower stellar luminosity are consistent with a moderate surface temperature at that distance, if it is assumed that the surface is not subject to extreme [[greenhouse effect|greenhouse heating]].
+
+If Kepler-22b moves in a [[highly elliptical orbit]], its surface temperature variance will be very high.
+
+=== Climate ===
+Scientists can estimate the possible surface conditions as follows:
+* In the absence of an atmosphere, its [[equilibrium temperature]] (assuming an Earth-like [[albedo]]) would be approximately  {{convert|279|K|C}}, compared to Earth's {{convert|255|K|C}}.<ref name="Bonomo2023" />
+* If the atmosphere provides a greenhouse effect similar in magnitude to the one on Earth, it would have an average surface temperature of {{convert|295|K|C}}.<ref name="space">[http://www.space.com/13821-nasa-kepler-alien-planets-habitable-zone.html "NASA Telescope Confirms Alien Planet in Habitable Zone"]. [[Space.com]]. 12 May 2011</ref>
+* If the atmosphere has a greenhouse effect similar in magnitude to the one on [[Venus]], it would have an average surface temperature of {{convert|733|K|C}}.
+
+Recent estimates suggest that Kepler-22b has more than a 95% probability of being located in the empirical habitable zone defined by the recent Venus and early [[Mars]] limits (based on estimates of when these planets may have supported habitable conditions), but less than a 5% chance of being located in the conservative habitable zone within the [[Circumstellar habitable zone]], (estimated from a 1D cloud-free radiative-convective model).<ref name="Kipping2013" />{{clarify|date=September 2015}}
+
+=== Limits on satellites ===
+The [[Hunt for Exomoons with Kepler]] (HEK) project has studied the Kepler [[Photometry (astronomy)|photometry]] of the planet, to find any evidence of transit timing and duration variations that may be caused by an orbiting [[Natural satellite|satellite]]. Such variations were not found, ruling out the existence of any satellites of Kepler-22b with a mass greater than 0.54 Earth masses.<ref name="Kipping2013">{{cite journal|doi=10.1088/0004-637X/777/2/134|arxiv=1306.1530|title=The Hunt for Exomoons with Kepler (Hek). Iii. The First Search for an Exomoon Around a Habitable-Zone Planet|date=2013|last1=Kipping|first1=D. M.|last2=Forgan|first2=D.|last3=Hartman|first3=J.|last4=Nesvorný|first4=D.|last5=Bakos|first5=G. Á.|last6=Schmitt|first6=A.|last7=Buchhave|first7=L.|journal=The Astrophysical Journal|volume=777|issue=2|pages=134–150|bibcode = 2013ApJ...777..134K |s2cid=119256408}}</ref>
+
+== Discovery and observation ==
+The planet's first transit in front of its host star was observed on Kepler's third day of scientific operations, on 12 May 2009.<ref name="Tony Phillips">{{cite news
+ |title        = Kepler Confirms First Planet in Habitable Zone of Sun-like Star
+ |author       = Dr. Tony Phillips
+ |url          = https://science.nasa.gov/science-news/science-at-nasa/2011/05dec_firstplanet/
+ |publisher    = [[NASA|NASA science news]]
+ |date         = 5 December 2011
+ |access-date  = 31 January 2012
+ |quote        = The first transit was captured just three days after we declared the spacecraft operationally ready. We witnessed the defining third transit over the 2010 holiday season.
+ |archive-date = 23 August 2019
+ |archive-url  = https://web.archive.org/web/20190823071543/https://science.nasa.gov/science-news/science-at-nasa/2011/05dec_firstplanet/
+ |url-status   = dead
+}}</ref> The third transit was detected on 15 December 2010. Additional confirmation data was provided by the [[Spitzer Space Telescope]] and ground-based observations. Confirmation of the existence of Kepler-22b was announced on 5 December 2011.<ref name="bbc20111205" />
+
+=== Past transit dates ===
+{| class="wikitable"
+|-
+! colspan="6" style="background: #ccc;" | Transits of Kepler-22b
+|-
+! rowspan="2" | Date(s) of<br />transit<ref name="discoverypaper" />
+! colspan="3" | Time ([[UTC]])
+! rowspan="2" | Notes
+|-
+! Start !! Mid !! End
+|-
+| {{nowrap|15 May 2009}}
+| || || 
+| First observed transit by Kepler space telescope
+|-
+| {{nowrap|1 March 2010}}
+| || || 
+| Observed by Spitzer<ref>{{Cite news|title=NASA's Kepler Mission Confirms Its First Planet in Habitable Zone of Sun-like Star|last=NASA|url=https://www.nasa.gov/mission_pages/kepler/news/kepscicon-briefing.html|work=NASA|date=2013-06-07|access-date=2018-04-19|language=en}}</ref>
+|-
+| {{nowrap|15 December 2010}}
+| || || 
+| 3rd transit observed by Kepler
+|-
+| {{nowrap|1 October 2011}}
+| || || 
+| 7.4 hour transit observed by Spitzer space telescope, confirming the planet
+|}
+
+==Appearances in media==
+* Kepler-22b is used as:
+** A plot device for the 2012 teen science fiction novel ''Kepler 22b'' by Bangladeshi author [[Muhammad Zafar Iqbal]].<ref>{{Cite book |last=Iqbal |first=Muhammed Zafar |title=Kepler 2 2 B |isbn=9788192968568 |language=bn}}</ref>
+** A map in Łukasz Jakowski's video games ''Age of Civilizations'' (2014) and ''Age of History II'' (2017, known as ''Age of Civilizations 2'' until 2020). In AoH2, there are 404 provinces that players must control to win the game.{{cn|date=January 2026}}
+** The setting for the 2019 children's science fiction book series ''Kepler'' by Sri Lankan author Binendra.{{cn|date=January 2026}}
+** The setting for the 2020 U.S. TV series ''[[Raised by Wolves (American TV series)|Raised by Wolves]]'', which was filmed using [[South Africa]] as a substitute for the planet.<ref name=Space-20200903>{{cite news |url= https://www.space.com/raised-by-wolves-hbo-max-episodes-1-2-review.html |title= 'Raised By Wolves' brings Ridley Scott's new sci-fi vision to HBO Max  |first= Scott|last=Snowden |date= 3 September 2020 |publisher= [[Space.com]] }}</ref>
+** The title of a song on ''[[Omnium Gatherum (album)|Omnium Gatherum]]'', the 20th studio album by [[King Gizzard & the Lizard Wizard]].
+** The source of a radio signal in ''[[Pluribus (TV series)|Pluribus]]'', which contains a recipe for a ribonucleic acid (RNA) sequence.<ref>{{cite web| url=https://decider.com/2025/12/19/pluribus-kepler-22b-planet/| title=What Is Kepler-22b On ‘Pluribus’? What To Know About The Planet That Sent The Radio Signal To Earth| first=Nicole| last=Gallucci| date=19 December 2025| website=decider.com}}</ref>
+** The destination of the faster-than-light starship Stalwart II from [[Scott Sigler]]'s short story ''[[Scott Sigler bibliography|The Sadness & Joy]]'' collected in ''[[The Apocalypse Triptych]]'' edited by [[John Joseph Adams]] and [[Hugh Howey]].
+
+== See also ==
+{{div col|colwidth=20em}}
+* [[Earth analog]]
+* [[Gliese 163 c]]
+* [[Gliese 581d]]
+* [[Gliese 581g]]
+* [[Gliese 667 Cc]]
+* [[Kepler-452b]]
+* [[Kepler-62f]]
+* [[Kepler-1229b]]
+* [[HD 85512 b]]
+* [[Kepler-69c]]
+* [[Kepler-186f]]
+* [[PH2]]
+* [[Planetary habitability]]
+{{div col end}}
+
+== References ==
+<references>
+<ref name="ExtrasolardatabaseKepler-22b">{{cite encyclopedia|url=https://exoplanet.eu/catalog/kepler_22_b--1029/|encyclopedia=[[Extrasolar Planets Encyclopaedia]]|title=Notes for-22 b|access-date=6 December 2011}}</ref>
+
+<ref name="ExtrasolardatabaseNASAKepler-22b">{{cite web|url=http://exoplanetarchive.ipac.caltech.edu/cgi-bin/DisplayOverview/nph-DisplayOverview?objname=Kepler-22+b|title=Kepler-22 b|work=[[NASA]] Exoplanet Archive|access-date=4 July 2016}}</ref>
+
+<ref name="NASA20111205_2011_373">{{cite web|url=http://www.nasa.gov/centers/ames/news/releases/2011/11-99AR.html|title=NASA – NASA's Kepler Confirms Its First Planet in Habitable Zone of Sun-like Star|work=NASA Press Release|access-date=6 December 2011|archive-date=16 May 2017|archive-url=https://web.archive.org/web/20170516021137/https://www.nasa.gov/centers/ames/news/releases/2011/11-99AR.html|url-status=dead}}</ref>
+
+<ref name="bbc20111205">{{cite news|url=https://www.bbc.co.uk/news/science-environment-16040655|title=Kepler 22-b: Earth-like planet confirmed|date=5 December 2011|work=[[BBC Online]]|access-date=6 December 2011}}</ref>
+
+<ref name=discoverypaper>{{cite journal|doi=10.1088/0004-637X/745/2/120|arxiv=1112.1640|title=Kepler-22b: A 2.4 Earth-radius Planet in the Habitable Zone of a Sun-like Star|date=2012|last1=Borucki|first1=William J.|last2=Koch|first2=David G.|last3=Batalha|first3=Natalie|last4=Bryson|first4=Stephen T.|last5=Rowe|first5=Jason|last6=Fressin|first6=Francois|last7=Torres|first7=Guillermo|last8=Caldwell|first8=Douglas A.|last9=Christensen-Dalsgaard|first9=Jørgen|last10=Cochran|first10=William D.|last11=Devore|first11=Edna|last12=Gautier|first12=Thomas N.|last13=Geary|first13=John C.|last14=Gilliland|first14=Ronald|last15=Gould|first15=Alan|last16=Howell|first16=Steve B.|last17=Jenkins|first17=Jon M.|last18=Latham|first18=David W.|last19=Lissauer|first19=Jack J.|last20=Marcy|first20=Geoffrey W.|last21=Sasselov|first21=Dimitar|last22=Boss|first22=Alan|last23=Charbonneau|first23=David|last24=Ciardi|first24=David|last25=Kaltenegger|first25=Lisa|last26=Doyle|first26=Laurance|last27=Dupree|first27=Andrea K.|last28=Ford|first28=Eric B.|last29=Fortney|first29=Jonathan|last30=Holman|first30=Matthew J.|journal=The Astrophysical Journal|volume=745|issue=2|pages=120|bibcode = 2012ApJ...745..120B |s2cid=50813889}} The article gives Julian dates, which are converted at [http://www.imcce.fr/en/grandpublic/temps/jour_julien.php imcce.fr] {{webarchive|url=https://web.archive.org/web/20111022051955/http://www.imcce.fr/en/grandpublic/temps/jour_julien.php |date=22 October 2011 }} (all dates in Univ. Time)
+</ref>
+
+<ref name="Bonomo2023">{{cite journal |last1=Bonomo |first1=A. S. |last2=Dumusque |first2=X. |display-authors=etal |date=April 2023 |title=Cold Jupiters and improved masses in 38 Kepler and K2 small-planet systems from 3661 high-precision HARPS-N radial velocities. No excess of cold Jupiters in small-planet systems |journal=[[Astronomy & Astrophysics]] |volume= |issue= |pages= |doi= 10.1051/0004-6361/202346211 |doi-access= free|arxiv=2304.05773|s2cid=258078829 }}</ref>
+</references>
+
+== External links ==
+{{Commons category}}
+* [http://www.jpl.nasa.gov/news/news.cfm?release=2011-373 "NASA's Kepler Confirms Its First Planet In Habitable Zone"] {{Webarchive|url=https://web.archive.org/web/20120505032958/http://www.jpl.nasa.gov/news/news.cfm?release=2011-373 |date=5 May 2012 }} ([[NASA]])
+* [http://www.nasa.gov/mission_pages/kepler/multimedia/images/kepler-22b-diagram.html "Kepler discoveries: Kepler-22b: 'a yearly orbit of 289 days'"] ([[NASA]])
+* [http://www.worldwidetelescope.org/webclient/default.aspx?wtml=http%3a%2f%2fwww.worldwidetelescope.org%2fwwtweb%2fgoto.aspx%3fobject%3dNo+Object%26ra%3d19.2810972852724%26dec%3d47.8846744786791%26zoom%3d0.445987757026504%26wtml%3dtrue "View of Kepler 22-b Sky Location"] ([[Worldwide Telescope]])
+* {{YouTube|ru022o9Whj0|Kepler-22b – First Discovered Planet In Habitable Zone}}
+* {{YouTube|aDykhzVT15w|Kepler 22b – a planet in a star's habitable zone}}
+* [https://web.archive.org/web/20130510124003/http://kepler-22b.nl/ Kepler mission newsfeed]
+
+{{Exoplanets}}
+{{Astrobiology}}
+{{Extraterrestrial life}}
+{{2011 in space}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+{{Sky|19|16|52.2|+|47|53|4.2}}
+
+[[Category:Kepler-22]]
+[[Category:Transiting exoplanets]]
+[[Category:Exoplanets discovered in 2011]]
+[[Category:Exoplanets in the habitable zone]]
+[[Category:Super-Earths in the habitable zone]]
+[[Category:Exoplanets discovered by the Kepler space telescope|22b]]
+[[Category:Cygnus (constellation)]]
+[[Category:Exoplanets orbiting G-type stars]]
+[[Category:Exoplanets orbiting main-sequence stars]]

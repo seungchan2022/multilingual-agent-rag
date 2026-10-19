@@ -1,0 +1,647 @@
+{{Short description|Second largest main-belt asteroid}}
+{{About|the protoplanet|the Roman goddess|Vesta (mythology)||Vesta (disambiguation){{!}}Vesta}}
+{{good article}}
+{{Use dmy dates|date=September 2020}}
+{{Infobox planet
+| minorplanet=yes
+| bgcolour=#D6D6D6
+| name=4 Vesta
+| symbol= [[File:Vesta symbol (original, bold).svg|24px|class=skin-invert|🝷]] (historical astronomical)<br>[[File:Vesta symbol (bold).svg|24px|class=skin-invert|%]] (modern astrological)
+| image=Vesta_in_natural_color.jpg
+| image_scale =
+| caption = True color image of Vesta taken by [[Dawn (spacecraft)|''Dawn'']]. The vast [[Rheasilvia]] Crater dominates Vesta's south pole.
+| discoverer=[[Heinrich Wilhelm Olbers]]
+| discovered=29 March 1807
+| pronounced = {{IPAc-en|ˈ|v|ɛ|s|t|ə}}<ref>{{dict.com|Vesta}}</ref>
+| adjectives= {{Cslist
+ | Vestan
+ | ''Vestian''{{efn|1=Marc Rayman of the JPL ''Dawn'' team used "Vestian" (analogous to the Greek cognate ''[[Hestia]]n'') a few times in 2010 and early 2011 in his ''Dawn Journal'', and the ''[[Planetary Society]]'' continued to use that form for a few more years.<ref name="PlanetarySociety"/> The word had been used elsewhere, e.g. in [[Konstantin Tsiolkovsky|Tsiolkovsky]] (1960) ''The call of the cosmos''. However, otherwise the shorter form "Vestan" has been used by JPL.<ref name="DawnMissionSearch"/> Most modern print sources also use "Vestan".<ref name="MPS"/><ref>E.g in ''Meteoritics & planetary science'' (volume 42, issues 6–8, 2007) and ''Origin and evolution of Earth'' (National Research Council ''et al.'', 2008).</ref><br/>Note that the related word "Vestalian" refers to people or things associated with Vesta, such as the [[vestal virgin]]s, not to Vesta herself.}}
+ }}
+|named_after = [[Vesta (mythology)|Vesta]]
+|mp_category=[[Main belt]] ([[Vesta family]])
+|mpc_name=(4) Vesta
+|orbit_ref =<ref name="jpldata"/>
+|epoch=13&nbsp;September 2023<br/>([[Julian day|JD]]&nbsp;2453300.5)
+|aphelion={{Convert|2.57|AU|e6km|abbr=unit|lk=on}}
+|perihelion={{Convert|2.15|AU|e6km|abbr=unit}}
+|time_periastron=26 December 2021<ref name="Horizons2021"/>
+|semimajor={{Convert|2.36|AU|e6km|abbr=unit}}
+|eccentricity= 0.0894
+|period=3.63&nbsp;[[Julian year (astronomy)|yr]] ({{val|1325.86|u=d}})
+|inclination=7.1422° to [[ecliptic]]<br/>5.58° to [[invariable plane]]<ref name=Souami_Souchay_2012/>
+|asc_node=103.71°
+|arg_peri=151.66°
+|mean_anomaly=169.4°
+|avg_speed=19.34&nbsp;km/s
+|moid={{Convert|1.14|AU|e6km|abbr=unit}}
+|p_orbit_ref =<ref name="Vesta-POE"/>
+|p_semimajor = 2.36151
+|p_eccentricity = 0.098758
+|p_inclination = 6.39234°
+|p_mean_motion = 99.1888
+|perihelion_rate = 36.8729 (2343 years)
+|node_rate = −39.5979 (2182 years)
+|satellites = None
+|allsatellites=yes
+|dimensions= {{val|572.6|×|557.2|×|446.4|ul=km}}<ref name="Russell2012"/>
+|mean_diameter= {{val|525.4|0.2|u=km}}<ref name="Russell2012"/>
+|flattening = 0.2204
+|surface_area = {{val|9.0152|e=5|u=km2}}<ref name="Park2014"/>
+|volume= {{val|7.4970|e=7|u=km3}}<ref name="Russell2012"/>
+|mass={{val|2.590271|0.000058|e=20|u=kg}}<!-- (1.30)E-10 solar masses --><ref name="Konopliv2014103"/>
+|density= {{val|3.456|0.035|ul=g/cm3}}<ref name="Russell2012"/>
+|surface_grav={{cvt|0.22|m/s2|g0|lk=out}}
+|moment_of_inertia_factor=0.4208 ± 0.0047<ref name="Park2025"/>
+|escape_velocity= {{V2|0.259|262.7|2}}&nbsp;km/s
+|rotation={{val|0.2226|u=d}} (5.342&nbsp;h)<ref name="jpldata"/><ref name="lc"/>
+|rot_velocity = 93.1&nbsp;m/s{{efn|1=Calculated using (1) the known rotation period (5.342&nbsp;h)<ref name="jpldata"/> and (2) the equatorial radius ''R<sub>eq</sub>'' (285&nbsp;km)<ref name="Russell2012"/> of the best-fit biaxial ellipsoid to Asteroid 4 Vesta.}}
+|axial_tilt = 27.46241136°<ref name="Konopliv2014103"/>
+|right_asc_north_pole = 309.03300 ± 0.00003°<ref name="Konopliv2014103"/>
+|declination = 42.6615 ± 0.00002°<ref name="Konopliv2014103"/>
+|spectral_type=[[V-type asteroid|V]]<ref name="jpldata"/><ref name="tax"/>
+|magnitude = 5.1<ref name="Pasachoff1983"/> to 8.48
+|abs_magnitude=3.20<ref name="jpldata"/><ref name="iras"/>
+|albedo=0.423<ref name="iras"/>
+|angular_size = 0.70{{pprime}}<!-- Horizons 2047-Jun-14 --> to 0.22{{pprime}}
+|single_temperature=''min:'' 75&nbsp;[[Kelvin|K]] (−198&nbsp;°C)<br/>''max:'' 250&nbsp;K (−23&nbsp;°C)<ref name="Mueller01"/>
+}}
+'''Vesta''' ([[minor-planet designation]]: '''4 Vesta''') is one of the objects in the [[asteroid belt]], with a [[mean diameter]] of {{convert|525|km}}.<ref name="Russell2012"/> It was discovered by the German astronomer [[Heinrich Wilhelm Matthias Olbers]] on 29 March 1807<ref name="jpldata"/> and is named after [[Vesta (mythology)|Vesta]], the virgin goddess of home and hearth from [[Roman mythology]].<ref>{{Cite web| publisher=NASA Solar System Exploration| title=In Depth - 4 Vesta| date=10 November 2017| url=https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/4-vesta/in-depth/| accessdate=2022-12-13}}</ref>
+
+Vesta is thought to be the second-largest [[asteroid]], both by mass and by volume, after the [[dwarf planet]] [[Ceres (dwarf planet)|Ceres]].<ref name="NASADawnMission"/><ref name="CambridgeSS"/><ref name="Russell2011"/> Measurements give it a nominal volume only slightly larger than that of [[2 Pallas|Pallas]] (about 5% greater), but it is 25% to 30% more massive. It constitutes an estimated 9% of the mass of the [[asteroid belt]].<!-- 1.344±0.001 ÷ 15±2 (E-10 solar masses) --><ref name="Pitjeva05"/> Vesta is the only known remaining rocky [[protoplanet]] of the kind that formed the [[terrestrial planet]]s.<ref name="lastofkind"/> Numerous fragments of Vesta were ejected by collisions one and two billion years ago that left two enormous craters occupying much of Vesta's southern hemisphere.<ref name="Jutzi2013"/><ref name="Cook2014a"/> Debris from these events has fallen to Earth as [[HED meteorite|howardite–eucrite–diogenite (HED) meteorites]], which have been a rich source of information about Vesta.<ref name="McSween2013"/><ref name="Kelley2003"/><ref name="nasa2011-vesta"/>
+
+Vesta is the [[brightest asteroid]] visible from Earth. It is regularly as bright as [[magnitude (astronomy)|magnitude]] 5.1,<ref name="Pasachoff1983"/> at which times it is faintly visible to the naked eye. Its maximum distance from the [[Sun]] is slightly greater than the minimum distance of Ceres from the Sun,{{efn|1=On 10 February 2009, during Ceres [[Apsis|perihelion]], Ceres was closer to the Sun than Vesta, because Vesta has an [[Apsis|aphelion]] distance greater than Ceres's perihelion distance. (10 February 2009: Vesta 2.56&nbsp;AU; Ceres 2.54&nbsp;AU)}} although its orbit lies entirely within that of Ceres.<ref name="GravitySim"/>
+
+NASA's [[Dawn (spacecraft)|''Dawn'' spacecraft]] entered orbit around Vesta on 16 July 2011 for a one-year exploration and left the orbit of Vesta on 5 September 2012<ref name="Dawnstatus"/> en route to its final destination, Ceres. Researchers continue to examine data collected by ''Dawn'' for additional insights into the formation and history of Vesta.<ref name="Ammannito2013"/><ref name="Cook2014b"/>
+
+==History==
+
+===Discovery===
+{{stack|[[File:Ceres and Vesta, Moon size comparison.jpg|alt=|thumb|Vesta, [[Ceres (dwarf planet)|Ceres]], and the [[Moon]] with sizes shown to scale]]}}
+[[Heinrich Olbers]] discovered [[2 Pallas|Pallas]] in 1802, the year after the discovery of [[Ceres (dwarf planet)|Ceres]]. He proposed that the two objects were the remnants of a [[Phaeton (hypothetical planet)|destroyed planet]]. He sent a letter with his proposal to the British astronomer [[William Herschel]], suggesting that a search near the locations where the orbits of Ceres and Pallas intersected might reveal more fragments. These orbital intersections were located in the [[constellation]]s of [[Cetus (constellation)|Cetus]] and [[Virgo (constellation)|Virgo]].<ref name="Littmann2004"/> Olbers commenced his search in 1802, and on 29 March 1807 he discovered Vesta in the constellation Virgo—a coincidence, because Ceres, Pallas, and Vesta are not fragments of a larger body. Because the asteroid [[3 Juno|Juno]] had been discovered in 1804, this made Vesta the fourth object to be identified in the region that is now known as the [[asteroid belt]]. The discovery was announced in a letter addressed to German astronomer [[Johann Hieronymus Schröter|Johann H. Schröter]] dated 31 March.<ref name="Lynn1907"/> Because Olbers already had credit for discovering a planet (Pallas; at the time, the asteroids were considered to be planets), he gave the honor of naming his new discovery to German mathematician [[Carl Friedrich Gauss]], whose orbital calculations had enabled astronomers to confirm the existence of Ceres, the first asteroid, and who had computed the orbit of the new planet in the remarkably short time of 10 hours.<ref name="Dunnington2004"/><ref name="Rao2003"/> Gauss decided on the [[Roman mythology|Roman]] virgin goddess of home and hearth, [[Vesta (mythology)|Vesta]].<ref name="MPDictionary"/>
+
+===Name and symbol===
+Vesta was the fourth asteroid to be discovered, hence the number&nbsp;4 in its formal designation. The name ''Vesta'', or national variants thereof, is in international use with two exceptions: [[Greece]] and China. In [[Modern Greek|Greek]], the name adopted was the Hellenic equivalent of Vesta, [[Hestia]] {{nobr|({{lang|el|4 {{math|Εστία}}}});}} in English, that name is used for {{nobr|[[46 Hestia]]}} (Greeks use the name "Hestia" for both, with the minor-planet numbers used for disambiguation). In [[Standard Chinese|Chinese]], Vesta is called the 'hearth-god(dess) star', {{lang|zh|灶神星}} ''{{Transliteration|zh|Zàoshénxīng}}'', naming the asteroid for Vesta's role in mythology, similar to the Chinese names of [[Uranus]], [[Neptune]], and [[Pluto]].{{efn| {{lang|zh|維斯塔}} ''wéisītǎ'' is the closest Chinese approximation of the Latin pronunciation ''westa''.}}
+
+Upon its discovery, Vesta was, like Ceres, Pallas, and Juno before it, classified as a planet and given a [[Astronomical symbols|planetary symbol]]. The symbol represented the altar of Vesta with its [[Sacred fire of Vesta|sacred fire]] and was designed by Gauss.<ref name=mcbeh-v15/><ref name="effemeridi-1809"/> In Gauss's conception, now obsolete, this was drawn {{nobr|[[File:Vesta symbol (original, fixed width).svg|x20px|class=skin-invert|Gauss's version of the astronomical symbol for Vesta]]}}. His form was encoded in [[Unicode]] 17.0 as U+1F777 {{math|🝷}}.<ref name=astunicode>{{cite report |last1=Bala |first1=Gavin Jared |last2=Miller |first2=Kirk |date=18 September 2023 |title=Unicode request for historical asteroid symbols |via=unicode.org |publisher=[[Unicode Consortium]] |url=https://www.unicode.org/L2/L2023/23207-historical-asteroids.pdf |access-date=26 September 2023 }}</ref><ref name="Unicode-1F700">{{cite web
+| title = Alchemical Symbols
+| date = 2025
+| website = unicode.org
+| publisher = The Unicode Consortium
+| url = https://www.unicode.org/charts/PDF/U1F700.pdf
+| access-date = September 17, 2025
+}}</ref>{{efn|
+Some sources contemporaneous to Gauss invented more elaborate forms, such as [[File:Vesta symbol (old elaborate).svg|x20px|class=skin-invert|Temple form of the astronomical symbol for Vesta]] and [[File:Vesta symbol (old elaborate 2).svg|x20px|class=skin-invert|Elaborate form of the astronomical symbol for Vesta]].<ref name=annuaire-1808/><ref name=Canovai1810/> A simplification of the latter from {{circa|1930}}, [[File:Vesta symbol (Koch, fixed width).svg|x20px|class=skin-invert|Koch's simplification of the symbol for Vesta]],<ref>{{cite book |first=Rudolf |last=Koch |orig-year=1930 |year=1955 |title=The Book of Signs |publisher=Dover |edition=reprint }}</ref> never caught on.
+}}
+The asteroid symbols were gradually retired from astronomical use after 1852, but the symbols for the first four asteroids were resurrected for astrology in the 1970s. The abbreviated modern astrological variant of the Vesta symbol is {{nobr|[[File:Vesta symbol (fixed width).svg|x20px|class=skin-invert|Astrological version of the astronomical symbol for Vesta]] (U+26B6 {{math|⚶}})}}.<ref name=astunicode/>{{efn|
+This symbol can be seen in the top of the most elaborate of the earlier forms, [[File:Vesta symbol (old elaborate 2).svg|x20px|class=skin-invert|Elaborate form of the astronomical symbol for Vesta]]. It dates from 1973, at the beginning of astrological interest in asteroids.<ref>{{cite book |first=Eleanor |last=Bach |year=1973 |title=Ephemerides of the asteroids: Ceres, Pallas, Juno, Vesta, 1900–2000 |publisher=Celestial Communications |bibcode=1973eacp.book.....B }}</ref>
+}}
+
+After the discovery of Vesta, no further objects were discovered for 38&nbsp;years, and during this time the Solar System was thought to have eleven planets.<ref name=18planets/> However, in 1845, new asteroids started being discovered at a rapid pace, and by 1851 there were fifteen, each with its own symbol, in addition to the eight major planets ([[Neptune]] had been discovered in 1846). It soon became clear that it would be impractical to continue inventing new planetary symbols indefinitely, and some of the existing ones proved difficult to draw quickly. That year, the problem was addressed by [[Benjamin Apthorp Gould]], who suggested numbering asteroids in their order of discovery, and placing this number in a disk (circle) as the generic symbol of an asteroid. Thus, the fourth asteroid, Vesta, acquired the generic symbol {{big|④}}. This was soon coupled with the name into an official number–name designation, {{nobr|''{{big|④}} Vesta'',}} as the number of minor planets increased. By 1858, the circle had been simplified to parentheses, {{nobr|''(4) Vesta'',}} which were easier to typeset. Other punctuation, such as {{nobr|''4) Vesta''}} and {{nobr|''4, Vesta'',}} was also briefly used, but had more or less completely died out by 1949.<ref name=WhenbecameMPs/>
+
+===Early measurements===
+{{stack|[[File:New SPHERE view of Vesta.jpg|thumb|[[Spectro-Polarimetric High-Contrast Exoplanet Research|SPHERE]] image is shown on the left, with a synthetic view derived from ''Dawn'' images shown on the right for comparison.<ref>{{cite web |title=New SPHERE view of Vesta |url=https://www.eso.org/public/images/potw1826a/ |website=www.eso.org |access-date=25 June 2018}}</ref>]]}}
+
+Photometric observations of Vesta were made at the [[Harvard College Observatory]] in 1880–1882 and at the [[Observatoire de Toulouse]] in 1909. These and other observations allowed the rotation rate of Vesta to be determined by the 1950s. However, the early estimates of the rotation rate came into question because the [[light curve]] included variations in both shape and [[albedo]].<ref name="McFadden2008"/>
+
+Early estimates of the diameter of Vesta ranged from {{convert|383|km|0}} in 1825, to {{cvt|444|km|0}}. [[Edward Charles Pickering|E.C. Pickering]] produced an estimated diameter of {{cvt|513|±|17|km}} in 1879, which is close to the modern value for the mean diameter, but the subsequent estimates ranged from a low of {{cvt|390|km|0}} up to a high of {{cvt|602|km|0}} during the next century. The measured estimates were based on [[photometry (astronomy)|photometry]]. In 1989, [[speckle interferometry]] was used to measure a dimension that varied between {{cvt|498|and|548|km|0}} during the rotational period.<ref name="Hughes1994"/> In 1991, an [[occultation]] of the star [[SAO 93228]] by Vesta was observed from multiple locations in the eastern United States and Canada. Based on observations from 14 different sites, the best fit to the data was an elliptical profile with dimensions of about {{cvt|550|×|462|km|0}}.<ref name="Povenmire2001"/> ''[[Dawn (spacecraft)|Dawn]]'' confirmed this measurement.{{efn|name=vesta_measurement|The data returned will include, for both asteroids, full surface imagery, full surface spectrometric mapping, elemental abundances, topographic profiles, gravity fields, and mapping of remnant magnetism, if any.<ref name="nssdca 2007_043a"/>}} These measurements will help determine the thermal history, size of the core, role of water in asteroid evolution and what meteorites found on Earth come from these bodies, with the ultimate goal of understanding the conditions and processes present at the solar system's earliest epoch and the role of water content and size in planetary evolution.<ref name="nssdca 2007_043a"/>
+
+Vesta became the first asteroid to have its mass determined. Every 18 years, the asteroid [[197 Arete]] approaches within {{val|0.04|ul=AU}} of Vesta. In 1966, based upon observations of Vesta's [[gravitational perturbation]]s of Arete, Hans G. Hertz estimated the mass of Vesta at {{val|1.20|0.08|e=-10|u=M<sub>☉</sub>}} ([[solar mass]]es).<ref name="science160_3825"/> More refined estimates followed, and in 2001 the perturbations of [[17 Thetis]] were used to calculate the mass of Vesta to be {{val|1.31|0.02|e=-10|u=M<sub>☉</sub>}}.<ref name="aaa430"/> ''Dawn'' determined it to be {{val|1.3029|e=-10|u=M<sub>☉</sub>}}.
+
+==Orbit==
+Vesta orbits the Sun between Mars and Jupiter, within the [[asteroid belt]], with a period of 3.6 Earth years,<ref name="jpldata"/> specifically in the inner asteroid belt, interior to the [[Kirkwood gap]] at 2.50&nbsp;AU. Its orbit is moderately inclined (''i'' = 7.1°, compared to 7° for [[Mercury (planet)|Mercury]] and 17° for [[Pluto]]) and moderately [[Orbital eccentricity|eccentric]] (''e'' = 0.09, about the same as for Mars).<ref name="jpldata"/>
+
+True [[orbital resonance]]s between asteroids are considered unlikely. Because of their small masses relative to their large separations, such relationships should be very rare.<ref name="Christou"/> Nevertheless, Vesta is able to capture other asteroids into temporary 1:1 resonant orbital relationships (for periods up to 2 million years or more) and about forty such objects have been identified.<ref name="Christou2012"/> Decameter-sized objects detected in the vicinity of Vesta by ''Dawn'' may be such [[quasi-satellite]]s rather than proper satellites.<ref name="Christou2012"/>
+
+==Rotation==
+{{multiple image
+| total_width = 580
+| align     = right
+| direction = horizontal
+| image2    = Claudia crater, Vesta IOTD-298.jpg
+| alt2      =
+| caption2  = [[Claudia (crater)|Claudia crater]] (indicated by the arrow at the bottom of the closeup image at right) defines the prime meridian in the ''Dawn''/NASA coordinate system.
+| image1    = Olbers Regio (square).gif
+| alt1      =
+| caption1  = Olbers Regio (dark area) defines the prime meridian in the IAU coordinate system. It is shown here in a ''Hubble'' shot of Vesta, because it is not visible in the more detailed ''Dawn'' images.
+}}
+Vesta's rotation is relatively fast for an asteroid (5.342&nbsp;h) and [[Retrograde motion|prograde]], with the north pole pointing in the direction of [[right ascension]] 309.0°, [[declination]] +42.2° (in the constellation [[Cygnus (constellation)|Cygnus]]) with an uncertainty of about 10°. This gives an [[axial tilt]] of 27.5°.<ref name="Konopliv2014103"/>
+
+==Coordinate systems==
+Two longitudinal coordinate systems are used for Vesta, with [[prime meridian]]s separated by 150°. The [[IAU]] established a coordinate system in 1997 based on ''Hubble'' photos, with the prime meridian running through the center of [[Olbers Regio]], a dark feature {{cvt|200|km}} across. When ''Dawn'' arrived at Vesta, mission scientists found that the location of the pole assumed by the IAU was off by 10°, so that the IAU coordinate system drifted across the surface of Vesta at 0.06° per year, and also that Olbers Regio was not discernible from up close, and so was not adequate to define the prime meridian with the precision they needed. They corrected the pole, but also established a new prime meridian 4° from the center of [[Claudia (crater)|Claudia]], a sharply defined crater {{cvt|700|m}} across, which they say results in a more logical set of mapping quadrangles.<ref name="Claudian"/> All NASA publications, including images and maps of Vesta, use the Claudian meridian, which is unacceptable to the IAU. The IAU Working Group on Cartographic Coordinates and Rotational Elements recommended a coordinate system, correcting the pole but rotating the Claudian longitude by 150° to coincide with Olbers Regio.<ref name="IAUcoordinates"/> It was accepted by the IAU, although it disrupts the maps prepared by the ''Dawn'' team, which had been positioned so they would not bisect any major surface features.<ref name=Claudian/><ref name="Dawncoordinates"/>
+
+==Physical characteristics==
+{{stack|[[File:The Four Largest Asteroids.jpg|thumb|upright=1.25|Relative sizes of the four largest asteroids. Vesta is second from left.]]}}
+{{Pie chart
+|value7 = 938
+|label7 = [[1 Ceres]]
+|value1 = 259
+|label1 = 4 Vesta
+|value2 = 204
+|label2 = [[2 Pallas]]
+|value3 = 87
+|label3 = [[10 Hygiea]]
+|value4 = 35
+|label4 = [[704 Interamnia]]
+|value5 = 30
+|label5 = [[15 Eunomia]]
+|value6 = 841<!--total 2394x18kg-->
+|label6 = other ≈
+|legend=true
+|caption=The mass of 4 Vesta (dark green) compared to other large asteroids and the remainder of the Main Belt. The unit of mass is{{e|18}} kg.<ref>Other objects in the Solar system with well-defined masses within a factor of 2 of Vesta's mass are {{dp|Varda}}, [[Gǃkúnǁʼhòmdímà]], and {{dp|Salacia}} (245, 136, and 492{{e|18}} kg, respectively). No moons are in this range: the closest, [[Tethys (moon)|Tethys]] {{nowrap|(Saturn III)}} and [[Enceladus (moon)|Enceladus]] {{nowrap|(Saturn II)}}, are over twice and less than half of Vesta's mass.</ref>
+|autoscale=true
+|radius=100
+|border=no
+}}
+
+Vesta is the second most massive body in the [[asteroid belt]], although it is only 28% as massive as Ceres, the most massive body.<ref name="Baer2007"/><ref name="Pitjeva05"/> Vesta is, however, the most massive body that formed in the asteroid belt, as Ceres is believed to have formed between Jupiter and Saturn. Vesta's density is lower than those of the four [[terrestrial planet]]s but is higher than those of most asteroids, as well as all of the moons in the Solar System except [[Io (moon)|Io]]. Vesta's surface area is about the same as the land area of [[Pakistan]], [[Venezuela]], [[Tanzania]], or [[Nigeria]]; slightly under {{convert|900000|km2|mi2 e6ha e6acre|abbr=unit}}. It has an only partially differentiated interior.<ref name="park"/> Vesta is only slightly larger ({{val|525.4|0.2|u=km}}<ref name="Russell2012"/>) than [[2 Pallas]] ({{val|512|3|u=km}}) in mean diameter,<ref name="Carry2009"/> but is about 25% more massive.
+
+Vesta's shape is close to a gravitationally relaxed [[oblate spheroid]],<ref name="Thomas1997b"/> but the large concavity and protrusion at the southern pole (see '[[#Surface features|Surface features]]' below) combined with a mass less than {{val|5|e=20|u=kg}} precluded Vesta from automatically being considered a [[dwarf planet]] under [[IAU definition of planet#First draft proposal|International Astronomical Union (IAU) Resolution XXVI 5]].<ref name="IAU0601"/> A 2012 analysis of Vesta's shape<ref name="Fu 2013"/> and gravity field using data gathered by the [[Dawn (spacecraft)|''Dawn'' spacecraft]] has shown that Vesta is currently not in [[hydrostatic equilibrium]].<ref name="Russell2012"/><ref name="Asmar 2012"/>
+
+Temperatures on the surface have been estimated to lie between about {{cvt|−20|C|K}} with the [[Sun]] overhead, dropping to about {{cvt|−190|C|K}} at the winter pole. Typical daytime and nighttime temperatures are {{cvt|−60|C|K}} and {{cvt|−130|C|K}}, respectively. This estimate is for 6 May 1996, very close to [[perihelion]], although details vary somewhat with the seasons.<ref name="Mueller01"/>
+
+==Surface features==
+{{Further|List of geological features on Vesta}}
+Before the arrival of the [[Dawn (spacecraft)|''Dawn'' spacecraft]], some Vestan surface features had already been resolved using the [[Hubble Space Telescope]] and ground-based telescopes (e.g., the [[W. M. Keck Observatory|Keck Observatory]]).<ref name="Zellner2005"/> The arrival of ''Dawn'' in July 2011 revealed the complex surface of Vesta in detail.<ref name="Jaumann2012"/>
+
+[[File:PIA18788-VestaAsteroid-GeologicMap-DawnMission-20141117.jpg|upright=3|center|thumb|Geologic map of Vesta ([[Mollweide projection]]).<ref name="Williams2014"/> The most ancient and heavily cratered regions are brown; areas modified by the [[Veneneia]] and [[Rheasilvia]] impacts are purple (the Saturnalia Fossae Formation, in the north)<ref name="Scully2014"/> and light cyan (the Divalia Fossae Formation, equatorial),<ref name="Williams2014"/> respectively; the Rheasilvia impact basin interior (in the south) is dark blue, and neighboring areas of Rheasilvia ejecta (including an area within Veneneia) are light purple-blue;<ref name="Schäfer2014"/><ref name="Kneissl2014"/> areas modified by more recent impacts or mass wasting are yellow/orange or green, respectively.]]
+
+===Rheasilvia and Veneneia===
+{{main|Rheasilvia|Veneneia}}
+
+{{stack|
+[[File:Vesta northern and southern hemispheres pia15677.jpg|thumb|Northern (left) and southern (right) hemispheres. The "Snowman" craters are at the top of the left image; Rheasilvia and Veneneia (green and blue) dominate the right. Parallel troughs are seen in both. Colors of the two hemispheres are not to scale,{{efn|1=that is, blue in the north does not mean the same thing as blue in the south.}} and the equatorial region is not shown.]]
+[[File:Viewing the South Pole of Vesta.jpg|thumb|South pole of Vesta, showing the extent of Rheasilvia crater.]]
+}}
+
+The most prominent of these surface features are two enormous impact basins, the {{convert|500|km|0|-wide|sigfig=1|adj=mid}} Rheasilvia, centered near the south pole; and the {{convert|400|km|0|-wide|adj=mid}} Veneneia. The Rheasilvia impact basin is younger and overlies the Veneneia.<ref name="Schenk2012"/> The ''Dawn'' science team named the younger, more prominent crater [[Rheasilvia]], after the mother of Romulus and Remus and a mythical [[vestal virgin]].<ref name="Rheasilvianamed"/> Its width is 95% of the mean diameter of Vesta. The crater is about {{cvt|19|km|0}} deep. A central peak rises {{cvt|23|km|0}} above the lowest measured part of the crater floor and the highest measured part of the crater rim is {{cvt|31|km|0}} above the crater floor low point. It is estimated that the impact responsible excavated about 1% of the volume of Vesta, and it is likely that the [[Vesta family]] and [[V-type asteroid]]s are the products of this collision. If this is the case, then the fact that {{cvt|10|km|0}} fragments have survived bombardment until the present indicates that the crater is at most only about 1&nbsp;billion years old.<ref name="Binzel1997"/> It would also be the site of origin of the [[HED meteorite]]s. All the known V-type asteroids taken together account for only about 6% of the ejected volume, with the rest presumably either in small fragments, ejected by approaching the 3:1&nbsp;[[Kirkwood gap]], or perturbed away by the [[Yarkovsky effect]] or [[radiation pressure]]. [[Spectroscopy|Spectroscopic]] analyses of the Hubble images have shown that this crater has penetrated deep through several distinct layers of the crust, and possibly into the [[mantle (geology)|mantle]], as indicated by spectral signatures of [[olivine]].<ref name="Thomas1997b"/>
+
+Subsequent analysis of data from the Dawn mission provided much greater detail on Rheasilvia's structure and composition, confirming it as one of the largest impact structures known relative to its [[parent body]] size.<ref name="Schenk2012"/> The impact clearly modified the pre-existing very large, Veneneia structure, indicating Rheasilvia's younger age.<ref name="Schenk2012"/> Rheasilvia's size makes Vesta's southern topography unique, creating a flattened southern hemisphere and contributing significantly to the asteroid's overall oblate shape.<ref name="Jaumann2012"/> Rheasilvia's ~{{convert|22|km|abbr=on}} central peak stands as one of the tallest mountains identified in the Solar System.<ref name="Schenk2012"/> Its base width of roughly {{convert|180|km|abbr=on}} and complex morphology distinguishes it from the simpler central peaks seen in smaller craters.<ref name="Ivanov2013">{{cite journal |last1=Ivanov |first1=B. A. |last2=Melosh |first2=H. J. |year=2013 |title=Rheasilvia impact basin on Vesta: Constraints on formation models from the central peak topography |journal=Journal of Geophysical Research: Planets |volume=118 |issue=7 |pages=1545–1555 |doi=10.1002/jgre.20108 |bibcode=2013JGRE..118.1545I }}</ref> Numerical modeling indicates that such a large central structure within a ~{{convert|505|km|abbr=on}} diameter basin requires formation on a differentiated body with significant gravity. Scaling laws for craters on smaller asteroids fail to predict such a feature; instead, impact dynamics involving transient crater collapse and rebound of the underlying material (potentially upper mantle) are needed to explain its formation.<ref name="Ivanov2013"/> Hydrocode simulations suggest the impactor responsible was likely {{convert|60|–|70|km|abbr=on}} across, impacting at roughly {{cvt|5.4|km/s}}.<ref name="Bowling2013">{{cite journal |last1=Bowling |first1=T. J. |last2=Richard |first2=G. |last3=Melosh |first3=H. J. |year=2013 |title=Numerical simulations of the Rheasilvia impact basin on Vesta |journal=Journal of Geophysical Research: Planets |volume=118 |issue=8 |pages=1622–1639 |doi=10.1002/jgre.20113 |bibcode=2013JGRE..118.1622B }}</ref> Models of impact angle (around 30{{endash}}45 degrees from vertical) better match the detailed morphology of the basin and its prominent peak.<ref name="Ivanov2013"/> Crater density measurements on Rheasilvia's relatively unmodified floor materials and surrounding [[ejecta]] deposits, calibrated using standard lunar chronology functions adapted for Vesta's location, place the impact event at approximately 1 billion years ago.<ref name="Marchi2012">{{cite journal |last1=Marchi |first1=S. |last2=McSween |first2=H. Y. |last3=O'Brien |first3=D. P. |year=2012 |title=The Violent Collisional History of Vesta |journal=Science |volume=336 |issue=6082 |pages=690–694 |doi=10.1126/science.1218757 |bibcode=2012Sci...336..690M }}</ref><ref name="Williams2014"/> This age makes Rheasilvia a relatively young feature on a protoplanetary body formed early in Solar System history. The estimated excavation of ~1% of Vesta's volume<ref name="Schenk2012"/> provides a direct link to the Vesta family of asteroids (Vestoids) and the HED meteorites. Since Vesta's spectral signature matches that of the Vestoids and HEDs, this strongly indicates they are fragments ejected from Vesta most likely during the Rheasilvia impact.<ref name="McSween2013"/><ref name="Marchi2012"/>
+
+The Dawn mission's VIR instrument helped to confirm the basin's deep excavation and compositional diversity. VIR mapping revealed spectral variations across the basin consistent with the mixing of different crustal layers expected in the HED meteorites. Signatures matching eucrites (shallow crustal basalts) and diogenites (deeper crustal orthopyroxenites) were identified, which usually correlate with specific morphological features like crater walls or slump blocks.<ref name="DeSanctis2012">{{cite journal |last1=De Sanctis |first1=M. C. |last2=Combe |first2=J.-P. |last3=Ammannito |first3=E. |year=2012 |title=Spectroscopic Characterization of Mineralogy and Its Diversity on Vesta |journal=Science |volume=336 |issue=6082 |pages=697–700 |doi=10.1126/science.1219270 |pmid=22582257 |bibcode=2012Sci...336..697D }}</ref><ref name="McSween2013"/> The confirmed signature of olivine-rich material, which were first hinted at by Hubble observations is strongest on the flanks of the central peak and in specific patches along the basin rim and walls, suggesting it is not uniformly distributed but rather exposed in distinct outcrops.<ref name="Clenet2014">{{cite journal |last1=Clénet |first1=H. |last2=Jutzi |first2=M. |last3=Barrat |first3=J.-A. |year=2014 |title=Constraints on Vesta's crustal structure and evolution from VIR/Dawn data: Olivine detection and analysis |journal=Icarus |volume=244 |pages=146–157 |doi=10.1016/j.icarus.2014.04.010 |bibcode=2014Icar..244..146C }}</ref><ref name="DeSanctis2012"/> As the dominant mineral expected in Vesta's mantle beneath the HED-like crust,<ref name="Russell2012"/> the presence of olivine indicates the Rheasilvia impact penetrated Vesta's entire crust (~{{convert|20|–|40|km|abbr=on}} thick in the region) and excavated material from the upper mantle.<ref name="Clenet2014"/> Furthermore, the global stresses resulting from this massive impact are considered the likely trigger for the formation of the large trough systems, like Divalia Fossa, that encircle Vesta's equatorial regions.<ref name="Buczkowski2012"/><ref name="Jaumann2012"/>
+
+===Other craters===
+{{stack|
+[[File:PIA17661-NASA-DawnMission-Asteroid-Vesta-20131216.jpg|thumb|The crater Aelia]]
+[[File:Old unnamed equatorial basin on 4 Vesta.png|thumb|[[Feralia Planitia]], an old, degraded impact basin or impact basin complex near Vesta's equator (green and blue). It is {{cvt|270|km|0}} across and predates Rheasilvia (green at bottom)]]
+}}
+Several old, degraded craters approach Rheasilvia and Veneneia in size, although none are quite so large. They include [[Feralia Planitia]], shown at right, which is {{cvt|270|km|0}} across.<ref name="Av-10"/> More-recent, sharper craters range up to {{cvt|158|km|0}} Varronilla and {{cvt|196|km|0}} Postumia.<ref name="Planetary Names"/>
+
+Dust fills up some craters, creating so-called [[dust ponds]]. They are a phenomenon where pockets of dust are seen in celestial bodies without a significant atmosphere. These are smooth deposits of dust accumulated in depressions on the surface of the body (like craters), contrasting from the Rocky terrain around them.<ref>{{cite news |first=J. Kelly |last=Beatty |date=25 June 2004 |title=Eros's puzzling surface |magazine=[[Sky and Telescope]] |quote=To geologists' surprise, the asteroid Eros has more than 250&nbsp;'ponds' thought to contain compacted deposits of finely ground dust. |url=https://skyandtelescope.org/astronomy-news/eross-puzzling-surface/ |access-date=18 October 2023 |via=skyandtelescope.org }}</ref> On the surface of Vesta, we have identified both type&nbsp;1 (formed from [[impact melt]]) and type&nbsp;2 (electrostatically made) [[dust ponds]] within 0˚–30°N/S, that is, Equatorial region. 10&nbsp;craters have been identified with such formations.<ref>{{cite journal |first1=R.  |last1=Parekh |first2=K.A. |last2=Otto |first3=K.D. |last3=Matz |first4=R. |last4=Jaumann |first5=K. |last5=Krohn |first6=T. |last6=Roatsch |first7=E. |last7=Kersten |first8=S. |last8=Elgner |first9=C.T. |last9=Russell |first10=C.A. |last10=Raymond |display-authors=6 |orig-date=1 November 2021 |date=28 February 2022 |title=Formation of ejecta and dust pond deposits on asteroid Vesta |journal=Journal of Geophysical Research: Planets |volume=126 |issue=11 |article-number=e2021JE006873 |doi=10.1029/2021JE006873 |doi-access=free }}</ref>
+
+===="Snowman craters"====
+The "snowman craters" are a group of three adjacent craters in Vesta's northern hemisphere. Their official names, from largest to smallest (west to east), are Marcia, Calpurnia, and Minucia. Marcia is the youngest and cross-cuts Calpurnia. Minucia is the oldest.<ref name="Williams2014"/>
+<!-- [[File:Vesta Snowman craters.jpg|thumb|right|upright=1.5|{{center|"Snowman craters" by ''[[Dawn (spacecraft)|Dawn]]'' from {{cvt|5200|km|-1}} in July 2011}}]]
+{{stack|[[File:Vesta snowman.jpg|thumb|upright=1.5|"Snowman craters" to the left by ''Dawn'' from orbit (2011).]]}}
+-->
+{{multiple image
+| total_width       = 600
+| align             = center
+| direction         = horizontal
+| image1            = Vesta Snowman craters.jpg
+| alt1              = 
+| caption1          = "Snowman" craters by ''[[Dawn (spacecraft)|Dawn]]'' from 5,200&nbsp;km (3,200&nbsp;mi) in 2011
+| image2            = Vesta Snowman craters close-up.jpg
+| alt               = 2     =
+| caption2          = Detailed image of the "Snowman" craters
+}}
+
+===Troughs===
+The majority of the equatorial region of Vesta is sculpted by a series of parallel troughs designated [[Divalia Fossae]]; its longest trough is {{convert|10|–|20|km}} wide and {{convert|465|km}} long. Despite the fact that Vesta is one-seventh the size of the Moon, Divalia Fossae dwarfs the [[Grand Canyon]]. A second series, inclined to the equator, is found further north. This northern trough system is named [[Saturnalia Fossae]], with its largest trough being roughly {{convert|40|km|abbr=on}} wide and over {{convert|370|km|abbr=on}} long. These troughs are thought to be large-scale [[graben]] resulting from the impacts that created Rheasilvia and Veneneia craters, respectively. They are some of the [[List of largest rifts and valleys in the Solar System|longest chasms in the Solar System]], nearly as long as [[Ithaca Chasma]] on [[Tethys (moon)|Tethys]]. The troughs may be graben that formed after another asteroid collided with Vesta, a process that can happen only in a body that is differentiated,<ref name="Buczkowski2012"/> which Vesta may not fully be. Alternatively, it is proposed that the troughs may be radial sculptures created by secondary cratering from Rheasilvia.<ref name="Hirata et al. 2023">{{cite journal |url=https://doi.org/10.1029/2022JE007473 |title=Secondary Cratering From Rheasilvia as the Possible Origin of Vesta's Equatorial Troughs |first=N.|last=Hirata |journal=Journal of Geophysical Research: Planets |date=2023 |volume=128 |issue=3 |article-number=e2022JE007473 |doi=10.1029/2022JE007473 |arxiv=2303.14955 |bibcode=2023JGRE..12807473H |hdl=20.500.14094/0100482053 |access-date=2024-03-04 }}</ref>
+{{multiple image
+| total_width       = 660
+| align             = center
+| direction         = horizontal
+| image1            = Divalia Fossa IOTD-260.jpg
+| alt1              = 
+| caption1          = A section of Divalia Fossae, with parallel troughs to the north and south
+| image2            = Divalia Fossa PIA15673.jpg
+| alt2              = 
+| caption2          = A computer-generated view of a portion of Divalia Fossae
+}}
+
+{{Clear}}
+
+===Surface composition===
+Compositional information from the visible and infrared spectrometer (VIR), gamma-ray and neutron detector (GRaND), and framing camera (FC), all indicate that the majority of the surface composition of Vesta is consistent with the composition of the howardite, eucrite, and diogenite meteorites.<ref name="DeSanctis2012a"/><ref name="Prettyman2012"/><ref name="Reddy2012"/> The Rheasilvia region is richest in diogenite, consistent with the Rheasilvia-forming impact excavating material from deeper within Vesta. The presence of olivine within the Rheasilvia region would also be consistent with excavation of mantle material. However, olivine has only been detected in localized regions of the northern hemisphere, not within Rheasilvia.<ref name="Ammannito2013"/> The origin of this olivine is currently unclear. Though olivine was expected by astronomers to have originated from Vesta's mantle prior to the arrival of the ''Dawn'' orbiter, the lack of olivine within the Rheasilvia and Veneneia impact basins complicates this view. Both impact basins excavated Vestian material down to {{cvt|60-100|km}}, far deeper than the expected thickness of ~{{cvt|30-40|km}} for Vesta's crust. Vesta's crust may be far thicker than expected or the violent impact events that created Rheasilvia and Veneneia may have mixed material enough to obscure olivine from observations. Alternatively, ''Dawn'' observations of olivine could instead be due to delivery by olivine-rich impactors, unrelated to Vesta's internal structure.<ref name="Palomba2015"/>
+
+===Features associated with volatiles===
+Pitted terrain has been observed in four craters on Vesta: Marcia, Cornelia, Numisia and Licinia.<ref name="Denevi2012"/> The formation of the pitted terrain is proposed to be degassing of impact-heated volatile-bearing material. Along with the pitted terrain, curvilinear gullies are found in Marcia and Cornelia craters. The curvilinear gullies end in lobate deposits, which are sometimes covered by pitted terrain, and are proposed to form by the transient flow of liquid water after buried deposits of ice were melted by the heat of the impacts.<ref name="Scully2014"/> Hydrated materials have also been detected, many of which are associated with areas of dark material.<ref name="DeSanctis2012b"/> Consequently, dark material is thought to be largely composed of [[carbonaceous chondrite]], which was deposited on the surface by impacts. Carbonaceous chondrites are comparatively rich in mineralogically bound OH.<ref name="Reddy2012"/>
+
+==Geology==
+{{stack|
+[[File:Vestan interior PIA15510.jpg|thumb|Cut-away schematic of Vesta's core, mantle, and crust]]
+[[File:MillbillillieMeteorite.jpg|thumb|Eucrite meteorite]]
+}}
+
+A large collection of potential samples from Vesta is accessible to scientists, in the form of over 1200&nbsp;[[HED meteorite]]s (Vestan [[achondrite]]s), giving insight into Vesta's geologic history and structure. [[NASA Infrared Telescope Facility]] (NASA IRTF) studies of asteroid {{mpl|(237442) 1999 TA|10}} suggest that it originated from deeper within Vesta than the HED meteorites.<ref name="Vestainterior"/>
+
+Vesta is thought to consist of a metallic iron–nickel [[planetary core|core]], variously estimated to be {{convert|90|km|abbr=on}}<ref name=park>{{Cite journal |last1=Park |first1=R. S. |last2=Ermakov |first2=A. I. |last3=Konopliv |first3=A. S. |last4=Vaughan |first4=A. T. |last5=Rambaux |first5=N. |last6=Bills |first6=B. G. |last7=Castillo-Rogez |first7=J. C. |last8=Fu |first8=R. R. |last9=Jacobson |first9=S. A. |last10=Stewart |first10=S. T. |last11=Toplis |first11=M. J. |date=2025-04-23 |title=A small core in Vesta inferred from Dawn's observations |journal=Nature Astronomy |volume=9 |issue=6 |language=en |pages=824–834 |doi=10.1038/s41550-025-02533-7 |issn=2397-3366|doi-access=free |bibcode=2025NatAs...9..824P }}</ref> to {{convert|220|km|abbr=on}}<ref name="Russell2012"/> in diameter, an overlying rocky [[olivine]] [[mantle (geology)|mantle]], with a surface [[crust (geology)|crust]] of similar composition to HED meteorites.
+
+From the first appearance of [[calcium–aluminium-rich inclusion]]s (the first solid matter in the [[Solar System]], forming about 4.567&nbsp;billion years ago), a likely time line is as follows:<ref name="Ghosh1998"/><ref name="Righter1997"/><ref name="Drake2001"/><ref name="Sahijpal2007"/><ref name="Gupta2010"/>
+
+{|class=wikitable
+|+Timeline of the evolution of Vesta
+|-
+!2–3&nbsp;million years
+|Accretion completed
+|-
+!4–5&nbsp;million years
+|Complete or almost complete melting due to [[radioactive decay]] of [[Aluminium-26|<sup>26</sup>Al]], leading to separation of the metal core
+|-
+!6–7&nbsp;million years
+|Progressive crystallization of a [[convection|convecting]] molten [[mantle (geology)|mantle]]. Convection stopped when about 80% of the material had crystallized
+|-
+|colspan=2|[[Extrusive (geology)|Extrusion]] of the remaining molten material to form the [[crust (geology)|crust]], either as [[basalt]]ic [[lava]]s in progressive [[eruption]]s, or possibly forming a short-lived [[magma]] ocean.
+|-
+|colspan=2|The deeper layers of the crust [[crystallization|crystallize]] to form [[plutonic]] rocks, whereas older [[basalts]] are [[metamorphic rock|metamorphosed]] due to the pressure of newer surface layers.
+|-
+|colspan=2|Slow cooling of the interior
+|}
+
+Vesta is the only known intact asteroid that has been resurfaced in this manner. Because of this, some scientists refer to Vesta as a protoplanet.<ref name="nasa-dawn20110329"/>
+
+{|class=wikitable
+|+Composition of the Vestan crust (by depth)<ref name="Takeda1997"/>
+|-
+|A [[lithification|lithified]] [[regolith]], the source of [[howardite]]s and [[breccia]]ted [[eucrite]]s.
+|-
+|[[Basalt]]ic [[lava flow]]s, a source of non-cumulate [[eucrite]]s.
+|-
+|Plutonic rocks consisting of [[pyroxene]], [[pigeonite]] and [[plagioclase]], the source of cumulate [[eucrite]]s.
+|-
+|Plutonic rocks rich in [[orthopyroxene]] with large grain sizes, the source of [[diogenite]]s.
+|}
+On the basis of the sizes of [[V-type asteroid]]s (thought to be pieces of Vesta's crust ejected during large impacts), and the depth of Rheasilvia crater (see below), the crust is thought to be roughly {{convert|10|km|mi|0}} thick.<ref name="Yamaguchi1995"/>
+Findings from the ''Dawn'' spacecraft have found evidence that the troughs that wrap around Vesta could be graben formed by impact-induced faulting (see Troughs section above), meaning that Vesta has more complex geology than other asteroids. The impacts that created the Rheasilvia and Veneneia craters occurred when Vesta was no longer warm and plastic enough to return to an equilibrium shape, distorting its once rounded shape and prohibiting it from being classified as a dwarf planet today.{{citation needed|date=August 2022}}
+
+===Regolith===
+Vesta's surface is covered by [[regolith]] distinct from that found on the [[Moon]] or asteroids such as [[25143 Itokawa|Itokawa]]. This is because [[space weathering]] acts differently. Vesta's surface shows no significant trace of [[nanophase iron]] because the [[Asteroid impact|impact]] speeds on Vesta are too low to make rock melting and vaporization an appreciable process. Instead, regolith evolution is dominated by [[brecciation]] and subsequent mixing of bright and dark components.<ref name="Pieters2012"/> The dark component is probably due to the infall of [[carbon]]aceous material, whereas the bright component is the original Vesta basaltic soil.<ref name="McCord2012"/>
+
+==Fragments==
+Some [[small Solar System body|small Solar System bodies]] are suspected to be fragments of Vesta caused by impacts. The [[Vesta family|Vestian]] asteroids and [[HED meteorite]]s are examples. The [[V-type asteroid]] [[1929 Kollaa]] has been determined to have a composition akin to cumulate [[eucrite]] meteorites, indicating its origin deep within Vesta's crust.<ref name="Kelley2003"/>
+
+Vesta is currently one of only eight identified [[Solar System]] bodies of which we have physical samples, coming from a number of meteorites suspected to be Vestan fragments. It is estimated that 1 out of 16 meteorites originated from Vesta.<ref name="siliconvalleyastrolecture"/> The other identified Solar System samples are from Earth itself, [[Martian meteorite|meteorites from Mars]], [[Lunar meteorite|meteorites from the Moon]], and [[Sample return mission|samples returned]] from the [[Moon]], the comet [[Wild 2]], and the asteroids [[25143 Itokawa]], [[162173 Ryugu]], and [[101955 Bennu]].<ref name="nasa2011-vesta"/>{{efn|1=Note that [[6 Hebe]] may be the parent body for [[H chondrite]]s, one of the most common meteorite types.}}
+
+==Exploration==
+{{stack|
+[[File:Animation of Dawn trajectory.gif|thumb|Animation of '' Dawn''{{'s}} trajectory from 27 September 2007 to 5 October 2018<br/>{{legend2|magenta| ''[[Dawn (spacecraft)|Dawn]]'' }}{{·}}{{legend2|Royalblue|[[Earth]]}}{{·}}{{legend2|Gold|[[Mars]]}}{{·}}{{legend2|Cyan|4 Vesta }}{{·}}{{legend2|lime|[[Ceres (dwarf planet)|1 Ceres]]}}]]
+[[File:PIA17937-MarsCuriosityRover-FirstAsteroidImage-20140420.jpg|thumb|First image of [[asteroid]]s ([[Ceres (dwarf planet)|Ceres]] and Vesta) taken from [[Mars]]. The image was made by the [[Curiosity (rover)|''Curiosity'' rover]] on 20 April 2014.]]
+[[File:Animation of Dawn trajectory around 4 Vesta.gif |thumb |Animation of ''[[Dawn (spacecraft)|Dawn]]''{{'s}} trajectory around 4 Vesta from 15 July 2011 to 10 September 2012<br/>{{legend2|magenta| ''[[Dawn (spacecraft)|Dawn]]''}}{{·}}{{legend2| Lime |4 Vesta}}]]
+}}
+In 1981, a proposal for an asteroid mission was submitted to the [[European Space Agency]] (ESA). Named the Asteroidal Gravity Optical and Radar Analysis (AGORA), this [[spacecraft]] was to launch some time in 1990–1994 and perform two flybys of large asteroids. The preferred target for this mission was Vesta. AGORA would reach the asteroid belt either by a [[gravitational slingshot]] trajectory past Mars or by means of a small [[ion engine]]. However, the proposal was refused by the ESA. A joint [[NASA]]–ESA asteroid mission was then drawn up for a Multiple Asteroid Orbiter with Solar Electric Propulsion (MAOSEP), with one of the mission profiles including an orbit of Vesta. NASA indicated they were not interested in an asteroid mission. Instead, the ESA set up a technological study of a spacecraft with an ion drive. Other missions to the asteroid belt were proposed in the 1980s by France, Germany, Italy and the United States, but none were approved.<ref name="ulivi_harland08"/> Exploration of Vesta by fly-by and [[Deep Impact (spacecraft)|impacting penetrator]] was the second main target of the first plan of the multi-aimed Soviet [[Vesta mission]], developed in cooperation with European countries for realisation in 1991–1994 but canceled due to the [[dissolution of the Soviet Union]].
+[[File:Dawn Flight Configuration 2.jpg|thumb|right|Artist's conception of ''[[Dawn (spacecraft)|Dawn]]'' orbiting Vesta]]
+In the early 1990s, NASA initiated the [[Discovery Program]], which was intended to be a series of low-cost scientific missions. In 1996, the program's study team recommended a mission to explore the asteroid belt using a spacecraft with an ion engine as a high priority. Funding for this program remained problematic for several years, but by 2004 the ''[[Dawn (spacecraft)|Dawn]]'' vehicle had passed its critical design review<ref name="Russell2007"/> and construction proceeded.{{citation needed|date=August 2022}}
+
+It launched on 27 September 2007 as the first space mission to Vesta. On 3 May 2011, ''Dawn'' acquired its first targeting image {{convert|1.2|e6km}} from Vesta.<ref name="pr2011-138"/> On 16 July 2011, NASA confirmed that it received telemetry from ''Dawn'' indicating that the spacecraft successfully entered Vesta's orbit.<ref name="Vega2011"/> It was scheduled to orbit Vesta for one year, until July 2012.<ref name="Dawntimeline"/> ''Dawn''{{'s}} arrival coincided with late summer in the southern hemisphere of Vesta, with the large crater at Vesta's south pole ([[Rheasilvia]]) in sunlight. Because a season on Vesta lasts eleven months, the northern hemisphere, including anticipated compression fractures opposite the crater, would become visible to ''Dawn''{{'s}} cameras before it left orbit.<ref name="DawnMission"/> ''Dawn'' left orbit around Vesta on 4 September 2012 {{nowrap|11:26 p.m. PDT}} to travel to [[Ceres (dwarf planet)|Ceres]].<ref name="Dawndeparture"/>
+
+NASA/DLR released imagery and summary information from a survey orbit, two high-altitude orbits (60–70&nbsp;m/pixel) and a low-altitude mapping orbit (20&nbsp;m/pixel), including digital terrain models, videos and atlases.<ref name="Russell2013"/><ref name="Roatsch2012"/><ref name="Roatsch2013"/><ref name="journeyaboveVesta"/><ref name="dawn_gis"/><ref name="NASADawn"/> Scientists also used ''Dawn'' to calculate Vesta's precise mass and gravity field. The subsequent determination of the J<sub>2</sub> component yielded a core diameter estimate of about {{convert|220|km|abbr=on}} assuming a crustal density similar to that of the HED.<ref name="Russell2013"/>
+
+''Dawn'' data can be accessed by the public at the [[UCLA]] website.<ref name="Dawnpublic"/>
+
+===Observations from Earth orbit===
+<gallery>
+File:Vesta spectral map HST1994.jpg|[[Albedo]] and spectral maps of 4 Vesta, as determined from Hubble Space Telescope images from November 1994
+File:Vesta elevation map HST1996.jpg|Elevation map of 4 Vesta, as determined from Hubble Space Telescope images of May 1996
+File:Vesta-Elevation.jpg|Elevation diagram of 4 Vesta (as determined from [[Hubble Space Telescope]] images of May 1996) viewed from the south-east, showing [[Rheasilvia]] crater at the south pole and [[Feralia Planitia]] near the equator
+File:Vesta-HST-Color.jpg|Vesta seen by the [[Hubble Space Telescope]] in May 2007
+File:Iau dozen.jpg|The [[IAU definition of planet#First draft proposal|2006 IAU draft proposal]] on the definition of a planet listed Vesta as a candidate.<ref name="IAU-draft2006"/> Vesta is shown fourth from the left along the bottom row.
+</gallery>
+
+===Observations from ''Dawn''===
+Vesta comes into view as the [[Dawn (spacecraft)|''Dawn'' spacecraft]] approaches and enters orbit:
+<gallery>
+<!-- File:Vesta image by Dawn probe.jpg|Vesta from 265,000&nbsp;km<br/>(14 June 2011) too fuzzy? -->
+File:Vesta 20110701 cropped.jpg|Vesta from 100,000&nbsp;km<br/>(1 July 2011)
+File:Dawn-image-070911.jpg|Vesta from 41,000&nbsp;km<br/>(9 July 2011)
+File:Vesta from Dawn, July 17.jpg|In orbit at 16,000&nbsp;km<br/>(17 July 2011)
+File:Vesta 4.jpg|In orbit from 10,500&nbsp;km<br/>(18 July 2011)
+File:Vesta darkside.jpg|The northern hemisphere from 5,200&nbsp;km<br/>(23 July 2011)
+File:Vesta Full-Frame.jpg|In orbit from 5,200&nbsp;km<br/>(24 July 2011)
+File:Vesta 20110731.jpg|In orbit from 3,700&nbsp;km<br/>(31 July 2011)
+File:Vesta Rotation.gif|Full rotation<br/>(1 August 2011)
+File:Vesta full mosaic.jpg|Composite [[greyscale image]]
+File:Vesta Cratered terrain with hills and ridges.jpg|Cratered terrain with hills and ridges<br/>(6 August 2011)
+File:Vesta densely cratered terrain near terminator.jpg|Densely cratered terrain near terminator<br/>(6 August 2011)
+File:Vesta Craters in various states of degradation.jpg|Vestan craters in various states of degradation, with troughs at bottom<br/>(6 August 2011)
+File:Central Mound at the South Pole Asteroid Vesta Hillshade.png|Hill shaded central mound at the south pole of Vesta<br/>(2 February 2015)
+</gallery>
+
+==== True-color images ====
+<gallery>
+Vesta in natural color.jpg
+Vesta-SouthPole.png
+Vesta 5755-728.png
+</gallery>
+
+Detailed images retrieved during the high-altitude (60–70&nbsp;m/pixel) and low-altitude (~20&nbsp;m/pixel) mapping orbits are available on the Dawn Mission website of JPL/NASA.<ref>{{cite web |url=http://dawn.jpl.nasa.gov/multimedia/vesta_dawn_gallery_2.asp |title=Dawn Mission website of JPL/NASA |date=22 October 2018 }}</ref>
+
+== Visibility ==
+{{stack|[[File:Asteroid Vesta.jpg|thumb|upright=1.75|Annotated image from Earth's surface in June 2007 with (4) Vesta]]}}
+
+Its size and unusually bright surface make Vesta the brightest asteroid, and it is occasionally visible to the [[naked eye]] from dark skies (without [[light pollution]]). In May and June 2007, Vesta reached a peak [[apparent magnitude|magnitude]] of +5.4, the brightest since 1989.<ref name="SkyTelescope2007a"/> At that time, [[opposition (astronomy)|opposition]] and [[perihelion]] were only a few weeks apart.<ref name="SkyTelescope2007b"/> It was brighter still at its 22 June 2018 opposition, reaching a magnitude of +5.3.<ref>{{cite book | title=Cosmic Challenge: The Ultimate Observing List for Amateurs | publisher=Cambridge University Press | date=21 October 2010 | last=Harrington | first=Philip S. | page=75 | isbn=9781139493680}}</ref>
+Less favorable oppositions during late autumn 2008 in the [[Northern Hemisphere]] still had Vesta at a magnitude of from +6.5 to +7.3.<ref name=James2008/> Even when in [[astronomical conjunction|conjunction]] with the Sun, Vesta will have a magnitude around +8.5; thus from a pollution-free sky it can be observed with [[binoculars]] even at [[Elongation (astronomy)|elongations]] much smaller than near opposition.<ref name="James2008"/>
+
+===2010–2011===
+In 2010, Vesta reached opposition in the [[constellation]] of [[Leo (constellation)|Leo]] on the night of 17–18 February, at about magnitude 6.1,<ref name="Horizons"/> a brightness that makes it visible in binocular range but generally not for the [[Naked-eye stars|naked eye]]. Under perfect dark sky conditions where all light pollution is absent it might be visible to an experienced observer without the use of a telescope or binoculars. Vesta came to opposition again on 5 August 2011, in the constellation of [[Capricornus]] at about magnitude 5.6.<ref name="Horizons"/><ref name="MPC-eph"/>
+
+===2012–2013===
+Vesta was at opposition again on 9 December 2012.<ref name="NightSkyOnline"/> According to ''[[Sky and Telescope]]'' magazine, this year Vesta came within about 6 degrees of [[1 Ceres]] during the winter of 2012 and spring 2013.<ref name=flanders/> Vesta orbits the Sun in 3.63 years and Ceres in 4.6 years, so every 17.4 years Vesta overtakes Ceres (the previous overtaking was in April 1996).<ref name="flanders"/> On 1 December 2012, Vesta had a magnitude of 6.6, but it had decreased to 8.4 by 1 May 2013.<ref name=flanders/>
+
+===2014===
+{{stack|[[File:Ceres Vesta July 5 2014.png|thumb|Conjunction of Ceres and Vesta near the star [[Gamma Virginis]] on 5 July 2014 in the [[Constellation]] of [[Virgo (constellation)|Virgo]].|alt=]]}}
+
+Ceres and Vesta came within one degree of each other in the night sky in July 2014.<ref name=flanders/>
+
+== See also ==
+* [[3103 Eger]]
+* [[3551 Verenia]]
+* [[3908 Nyx]]
+* [[4055 Magellan]]
+* [[Asteroids in fiction]]
+* [[Diogenite]]
+* [[Eucrite]]
+* [[List of former planets]]
+* [[Howardite]]
+* [[Vesta family]] (vestoids)
+* [[List of tallest mountains in the Solar System]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist
+|colwidth=30em
+|refs=
+
+<ref name=DawnMissionSearch>{{cite web|url=http://dawn.jpl.nasa.gov/search/index.asp|title=Search{{Snd}} Dawn Mission|publisher=JPL|url-status=dead|archive-url=https://web.archive.org/web/20160305023312/http://dawn.jpl.nasa.gov/search/index.asp|archive-date=5 March 2016}}</ref>
+
+<ref name=MPS>''Meteoritics & planetary science'', Volume 42, Issues 6–8, 2007; ''Origin and evolution of Earth'', National Research Council et al., 2008</ref>
+
+<ref name=PlanetarySociety>{{cite web|url=http://www.planetary.org/search-results.html?q=Vestian&x=0&y=0|title=Search Results|publisher=Planetary Society|access-date=31 August 2012|archive-date=27 July 2020|archive-url=https://web.archive.org/web/20200727001223/https://www.planetary.org/search-results.html?q=Vestian&x=0&y=0|url-status=dead}}</ref>
+
+<ref name="jpldata">{{cite web |title=JPL Small-Body Database Browser: 4 Vesta |url=http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=4 |url-status=live |archive-url=https://web.archive.org/web/20210926095422/https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=4 |archive-date=26 September 2021 |access-date=1 June 2008}}</ref>
+
+<ref name="Souami_Souchay_2012">{{cite journal |last1=Souami |first1=D. |last2=Souchay |first2=J. |date=July 2012 |title=The solar system's invariable plane |journal=Astronomy & Astrophysics |volume=543 |pages=11 |bibcode=2012A&A...543A.133S |doi=10.1051/0004-6361/201219011 |id=A133 |doi-access=free}}</ref>
+
+<ref name="Vesta-POE">{{cite web | url=https://newton.spacedys.com/astdys/index.php?pc=1.1.6&n=4 | title=AstDyS-2 Vesta Synthetic Proper Orbital Elements | publisher=Department of Mathematics, University of Pisa, Italy | access-date=1 October 2011}}</ref>
+
+<ref name="Russell2012">{{cite journal|title=Dawn at Vesta: Testing the Protoplanetary Paradigm |date=2012 |author=Russell, C. T. |display-authors=etal |journal=Science |volume=336|issue=6082|pages=684–686 |doi=10.1126/science.1219381|pmid=22582253 |bibcode=2012Sci...336..684R|s2cid=206540168 |url=https://repository.si.edu/bitstream/handle/10088/20554/min_Russell_et_al_2012_Science_336_684-686.pdf }}</ref>
+
+<ref name="Konopliv2014103">{{cite journal|title=The Vesta gravity field, spin pole and rotation period, landmark positions, and ephemeris from the Dawn tracking and optical data|date=2014|author=Konopliv, A. S.|display-authors=etal|journal=Icarus|volume=240|pages=118–132|doi=10.1016/j.icarus.2013.09.005|bibcode=2014Icar..240..103K|url=https://www.sciencedirect.com/science/article/pii/S0019103513005149|url-access=subscription}} [http://www-geodyn.mit.edu/zubersite/pdfs/konopliv_dawngrav_icarus13.pdf PDF copy] {{Dead link|date=October 2026 |bot=InternetArchiveBot }}</ref>
+
+<ref name="lc">{{cite web | last=Harris | first=A. W. | editor=Warner, B. D. | editor2=Pravec, P. | url=http://www.psi.edu/pds/resource/lc.html | title=Asteroid Lightcurve Derived Data. EAR-A-5-DDR-DERIVED-LIGHTCURVE-V8.0. | publisher=[[Planetary Data System|NASA Planetary Data System]] | date=2006 | access-date=2013-12-26 | archive-url=https://web.archive.org/web/20090409225219/http://www.psi.edu/pds/resource/lc.html | archive-date=9 April 2009 | url-status=dead}}</ref>
+
+<ref name="tax">{{cite web | archive-date=2013-10-21| archive-url=https://web.archive.org/web/20131021220523/http://sbn.psi.edu/pds/resource/taxonomy.html| url=https://sbn.psi.edu/pds/resource/taxonomy.html| title=Asteroid Taxonomy EAR-A-5-DDR-TAXONOMY-V5.0 | publisher=[[Planetary Data System|NASA Planetary Data System]] | date=2005 | access-date=2013-10-21| last=Neese | first=C. | author2=Ed. | url-status=live}}</ref>
+
+<ref name="Pasachoff1983">{{cite book | date=1983 | author=Menzel, Donald H. | author2=Pasachoff, Jay M. | name-list-style=amp | url=https://archive.org/details/fieldguidetostar00menz_0/page/391 | title=A Field Guide to the Stars and Planets | publisher=Houghton Mifflin | edition=2nd | location=Boston, MA | page=[https://archive.org/details/fieldguidetostar00menz_0/page/391 391] | isbn=978-0-395-34835-2 | url-access=registration}}</ref>
+
+<ref name="iras">{{cite web | url=https://sbn.psi.edu/pds/resource/imps.html| title=Infra-Red Astronomy Satellite (IRAS) Minor Planet Survey. IRAS-A-FPA-3-RDR-IMPS-V6.0. | publisher=[[Planetary Data System|NASA Planetary Data System]] | date=2004 | access-date=15 March 2007 | last=Tedesco | first=E. F. | author2=Noah, P. V. | author3=Noah, M. | author4=Price, S. D. | archive-url=https://web.archive.org/web/20070311123634/http://www.psi.edu/pds/resource/imps.html | archive-date=11 March 2007| url-status=live}}</ref>
+
+<ref name="Mueller01">{{cite journal |author=Mueller, T. G. |author2=Metcalfe, L. |date=2001 |title=ISO and Asteroids |url=http://www.esa.int/esapub/bulletin/bullet108/chapter4_bul108.pdf |url-status=live |journal=ESA Bulletin |volume=108 |page=38 |bibcode=2001ESABu.108...39M |archive-url=https://web.archive.org/web/20050911052839/http://www.esa.int/esapub/bulletin/bullet108/chapter4_bul108.pdf |archive-date=2005-09-11}}</ref>
+
+<ref name="NASADawnMission">{{cite web|url=http://www.nasa.gov/mission_pages/dawn/mission/index.html|title=Dawn Mission Overview|publisher=NASA|access-date=14 August 2011|archive-date=16 October 2011|archive-url=https://web.archive.org/web/20111016171730/http://www.nasa.gov/mission_pages/dawn/mission/index.html|url-status=dead}}</ref>
+
+<ref name=CambridgeSS>{{cite book|last=Lang|first=Kenneth|title=The Cambridge Guide to the Solar System|url=https://archive.org/details/cambridgeguideto00lang|url-access=limited|publisher=Cambridge University Press|date=2011|pages=[https://archive.org/details/cambridgeguideto00lang/page/n399 372], 442|isbn=9780521198578}}</ref>
+
+<ref name=Russell2011>{{cite conference|author=Russell, C. T.|display-authors=et al|date=2011|conference=2011 EPSC-DPS Joint Meeting|url=http://meetingorganizer.copernicus.org/EPSC-DPS2011/EPSC-DPS2011-97-3.pdf |archive-url=https://web.archive.org/web/20120320190853/http://meetingorganizer.copernicus.org/EPSC-DPS2011/EPSC-DPS2011-97-3.pdf |archive-date=2012-03-20 |url-status=live|title=Exploring the smallest terrestrial planet: Dawn at Vesta|book-title=EPSC Abstracts|volume=6|id=EPSC-DPS2011-97-3}}</ref>
+
+<ref name="Pitjeva05">{{cite journal | url=http://iau-comm4.jpl.nasa.gov/EPM2004.pdf | title=High-Precision Ephemerides of Planets—EPM and Determination of Some Astronomical Constants | date=2005 | last=Pitjeva | first=E. V. | author-link=Elena V. Pitjeva | bibcode=2005SoSyR..39..176P | journal=Solar System Research | volume=39 | issue=3 | pages=176–186 | doi=10.1007/s11208-005-0033-2 | s2cid=120467483 | archive-url=https://web.archive.org/web/20081031065523/http://iau-comm4.jpl.nasa.gov/EPM2004.pdf | archive-date=31 October 2008 | url-status=dead}}</ref>
+
+<ref name=Carry2009>{{cite journal|title=Physical properties of (2) Pallas|journal=Icarus|volume=205|issue=2|pages=460–472|author=Carry, B.|date=2009|display-authors=etal|arxiv=0912.3626v1|doi=10.1016/j.icarus.2009.08.007|bibcode=2010Icar..205..460C|s2cid=119194526}}</ref>
+
+<!-- <ref name="Hubble">{{cite press release |author=Savage, Don |author2=Jones, Tammy |author3=Villard, Ray |name-list-style=amp |date=19 April 1995 |title=Asteroid or Mini-Planet? Hubble Maps the Ancient Surface of Vesta |publisher=[[HubbleSite]] |id=News Release STScI-1995-20 |url=http://hubblesite.org/newscenter/archive/releases/1995/20/image/c |access-date=17 October 2006}}</ref> -->
+
+<ref name=lastofkind>{{cite news |last1=Amos |first1=Jonathan |title=Asteroid Vesta is 'last of a kind' rock |url=https://www.bbc.com/news/science-environment-18027933 |work=BBC News |date=11 May 2012}}</ref>
+
+<ref name=Jutzi2013>{{cite journal|last=Jutzi|first=M.|author2=E. Asphaug|author3= P. Gillet|author4= J.-A. Barrat |author5= W. Benz|title=The structure of the asteroid 4 Vesta as revealed by models of planet-scale|journal=Nature|date=14 February 2013|volume=494|issue=7436|pages=207–210|doi=10.1038/nature11892|bibcode = 2013Natur.494..207J|pmid=23407535|s2cid=4410838}}</ref>
+
+<ref name=Cook2014a>{{cite web|last=Cook|first=Jia-Rui|title=Dawn Reality-Checks Telescope Studies of Asteroids|url=http://dawn.jpl.nasa.gov/feature_stories/Dawn_reality_checks_telescope_studies_asteroids.asp|access-date=30 April 2014|url-status=dead|archive-url=https://web.archive.org/web/20140502003511/http://dawn.jpl.nasa.gov/feature_stories/Dawn_reality_checks_telescope_studies_asteroids.asp|archive-date=2 May 2014}}</ref>
+
+<ref name=McSween2013>{{cite journal|last=McSween|first=H. Y.|author2=R. P. Binzel|author3= M. C. De Sanctis|author4= E. Ammannito|author5= T. H. Prettyman|author6= A. W. Beck|author7= V. Reddy|author8= L. Le Corre|author9= M. J. Gaffey|author10= T. B. McCord|author11= C. A. Raymond|author12=C. T. Russell|author13=the Dawn Science Team|title=Dawn; the Vesta-HED connection; and the geologic context for eucrite, diogenites, and howardites|journal=Meteoritics & Planetary Science|date=27 November 2013|volume=48|issue=11|pages=2090–21–4|doi=10.1111/maps.12108|bibcode = 2013M&PS...48.2090M|s2cid=131100157 |display-authors=3|doi-access=}}</ref>
+
+<ref name="Kelley2003">{{cite journal | title=Quantified mineralogical evidence for a common origin of 1929 Kollaa with 4 Vesta and the HED meteorites | date=2003 | author=Kelley, M. S. | bibcode=2003Icar..165..215K | display-authors=etal | url=https://zenodo.org/record/1259601 | journal=Icarus | volume=165 | issue=1 | pages=215–218 | doi=10.1016/S0019-1035(03)00149-0}}</ref>
+
+<ref name="nasa2011-vesta">{{cite web |date=12 July 2011 |title=Vesta |publisher=NASA/JPL |url=http://www.nasa.gov/mission_pages/dawn/ceresvesta/index.html |access-date=30 July 2011|archive-url=https://web.archive.org/web/20110629153841/http://www.nasa.gov/mission_pages/dawn/ceresvesta/index.html|archive-date=29 June 2011<!--DASHBot-->|url-status=live}}</ref>
+
+<ref name="GravitySim">{{cite web | url=http://www.orbitsimulator.com/gravity/articles/ceres.html | title=Ceres, Pallas, Vesta, and Hygiea | publisher=Gravity Simulator | access-date=31 May 2008 | archive-url=https://web.archive.org/web/20080617085224/http://orbitsimulator.com/gravity/articles/ceres.html | archive-date=17 June 2008 | url-status=dead}}</ref>
+
+<ref name=Dawnstatus>{{cite web|url=http://dawn.jpl.nasa.gov/mission/status.asp|title=Mission > Mission Status{{Snd}} Dawn Mission|publisher=JPL|access-date=6 September 2012|archive-url=https://web.archive.org/web/20130511133950/http://dawn.jpl.nasa.gov/mission/status.asp|archive-date=11 May 2013|url-status=dead}}</ref>
+
+<ref name=Cook2014b>{{cite web|last=Cook |first=Jia-Rui |title=It's Complicated: Dawn Spurs Rewrite of Vesta's Story |url=http://dawn.jpl.nasa.gov/feature_stories/dawn_spurs_rewrite_vesta_story.asp |access-date=30 April 2014 |url-status=dead |archive-url=https://web.archive.org/web/20140502033322/http://dawn.jpl.nasa.gov/feature_stories/dawn_spurs_rewrite_vesta_story.asp |archive-date=2 May 2014}}</ref>
+
+<ref name="Littmann2004">{{cite book | title=Planets Beyond: Discovering the Outer Solar System | url=https://archive.org/details/planetsbeyonddis00mlit | url-access=limited | publisher=Courier Dover Publications | series=Dover Books on Astronomy | date=2004 | last=Littmann | first=Mark | page=[https://archive.org/details/planetsbeyonddis00mlit/page/n19 21] | isbn=978-0-486-43602-9}}</ref>
+
+<ref name="Lynn1907">{{cite journal | title=The discovery of Vesta | date=February 1907 | author=Lynn, W. T. | bibcode=1907Obs....30..103L | journal=The Observatory | volume=30 | pages=103–105}}</ref>
+
+<ref name="Dunnington2004">{{cite book | title=Carl Friedrich Gauss: Titan of Science | url=https://archive.org/details/carlfriedrichgau00dunn | url-access=limited | publisher=The Mathematical Association of America | date=2004 | author=Dunnington, Guy Waldo |author-link=G. Waldo Dunnington | author2=Gray, Jeremy |author-link2=Jeremy Gray (mathematician) | author3=Dohse, Fritz-Egbert | page=[https://archive.org/details/carlfriedrichgau00dunn/page/n107 76] | isbn=978-0-88385-547-8}}</ref>
+
+<ref name="Rao2003">{{cite journal |author=Rao, K. S. |author2=Berghe, G. V. |date=2003 |title=Gauss, Ramanujan and Hypergeometric Series Revisited |journal=Historia Scientiarum |volume=13 |issue=2 |pages=123–133}}</ref>
+
+<ref name="MPDictionary">{{cite book | title=Dictionary of Minor Planet Names: Prepared on Behalf of Commission 20 Under the Auspices of the International Astronomical Union | url=https://archive.org/details/dictionaryminorp00schm | url-access=limited | publisher=Springer | date=2003 | last=Schmadel | first=Lutz D. | author-link=Lutz D. Schmadel | page=[https://archive.org/details/dictionaryminorp00schm/page/n28 15] | isbn=978-3-540-00238-3}}</ref>
+
+<ref name="mcbeh-v15">{{cite book | url=https://books.google.com/books?id=_Rw4AAAAMAAJ&pg=PA507 | title=Monatliche correspondenz zur beförderung der erd- und himmels-kunde | date=1807 | last=von Zach | first=Franz Xaver | volume=15 | page=507}}</ref>
+
+<ref name="effemeridi-1809">{{cite book | url=https://books.google.com/books?id=LPMNAAAAQAAJ&pg=PA100 | title=Effemeridi astronomiche di Milano per l'anno 1809 | date=1808 | last=Carlini | first=Francesco}}</ref>
+
+<ref name="annuaire-1808">{{cite book | url=https://books.google.com/books?id=2GcNAQAAIAAJ&pg=RA1-PA5 | title=Annuaire pour l'an 1808 | date=1807 | author=Bureau des longitudes | page=5}}</ref>
+
+<ref name="Canovai1810">{{cite book | first1=Stanislao | last1=Canovai | url=https://books.google.com/books?id=Ig85AAAAMAAJ&pg=PA149 | title=Elementi di fisica matematica | date=1810 | last2=del-Ricco | first2=Gaetano | page=149}}</ref>
+
+<ref name="18planets">{{cite web | url=http://spaceweather.com/archive.php?view=1&day=13&month=09&year=2006 | title=The Planet Hygiea | work=Annual of Scientific Discovery for the year 1850, quoted by spaceweather.com archives, 2006-09-13 | date=1851 | access-date=1 June 2008 | author=Wells, David A. | editor=Bliss, George Jr.}}</ref>
+
+<ref name=WhenbecameMPs>{{cite report|author-link=James L. Hilton|first=James L.|last=Hilton|url=http://aa.usno.navy.mil/faq/docs/minorplanets.php|title=When Did the Asteroids Become Minor Planets?|url-status=dead|archive-url= https://web.archive.org/web/20080324182332/http://aa.usno.navy.mil/faq/docs/minorplanets.php|archive-date=24 March 2008|via=[[U.S. Naval Observatory]] website|postscript=,}} particularly the discussion of {{cite journal|author-link=Benjamin Apthorp Gould|author=Gould, B. A.|date=1852|title=On the Symbolic Notation of the Asteroids|journal=Astronomical Journal|volume=2|page=80|doi=10.1086/100212 |bibcode=1852AJ......2...80G}} and immediate subsequent history. Also, the discussion of C. J. Cunningham (1988) ''Introduction to Asteroids'' explains the parenthetical part.</ref>
+
+<ref name="McFadden2008">{{cite conference | title=Photometry of 4 Vesta from its 2007 Apparition | author=McFadden, L. A. | author2=Emerson, G. | author3=Warner, E. M. | author4=Onukwubiti, U. | author5=Li, J.-Y. | bibcode=2008LPI....39.2546M | book-title=Proceedings, 39th Lunar and Planetary Science Conference | location=League City, Texas | quote=10–14 March 2008}}</ref>
+
+<ref name="Hughes1994">{{cite journal | bibcode=1994QJRAS..35..331H | title=The Historical Unravelling of the Diameters of the First Four Asteroids | date=September 1994 | last=Hughes | first=D. W. | journal=[[Quarterly Journal of the Royal Astronomical Society]] | volume=35 | issue=3 | page=331}}</ref>
+
+<ref name="Povenmire2001">{{cite journal | bibcode=2001M&PSA..36Q.165P | title=The January 4, 1991 Occultation of SAO 93228 by Asteroid (4) Vesta | date=September 2001 | last=Povenmire | first=H. | journal=Meteoritics & Planetary Science | volume=36 | issue=Supplement | page=A165 | doi=10.1111/j.1945-5100.2001.tb01534.x}}</ref>
+
+<ref name="nssdca 2007_043a">{{cite web |title=Dawn-NASA-NSSDCA-Spacecraft-Details |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A |url-status=live |archive-url=https://web.archive.org/web/20220523023613/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A |archive-date=23 May 2022 |access-date=16 December 2022}}</ref>
+
+<ref name="science160_3825">{{cite journal | title=Mass of Vesta | date=19 April 1968 | author=Hertz, Hans G. | bibcode=1968Sci...160..299H | journal=Science | volume=160 | issue=3825 | pages=299–300 | doi=10.1126/science.160.3825.299 | pmid=17788233| s2cid=2555834 }}</ref>
+
+<ref name="aaa430">{{cite journal | bibcode=2005A&A...430..319K | title=Determination of the mass of (4) Vesta based on new close approaches | date=January 2005 | last=Kovačević | first=A. | journal=Astronomy and Astrophysics | volume=430 | issue=1 | pages=319–325 | doi=10.1051/0004-6361:20035872| doi-access=free }}</ref>
+
+<ref name="Christou">{{cite journal |last=Christou |first=A. A. |title=Co-orbital objects in the main asteroid belt |journal=[[Astronomy and Astrophysics]] |volume=356 |pages=L71–L74 |date=2000 |bibcode=2000A&A...356L..71C }}</ref>
+
+<ref name="Christou2012">{{cite journal|last1=Christou|first1=A. A.|last2=Wiegert|first2=P.|title=A population of Main Belt Asteroids co-orbiting with Ceres and Vesta|journal= Icarus|volume= 217|issue= 1|date= January 2012|pages= 27–42|issn= 0019-1035|doi= 10.1016/j.icarus.2011.10.016|bibcode=2012Icar..217...27C|arxiv = 1110.4810 |s2cid=59474402}}</ref>
+
+<ref name="Thomas1997b">{{cite journal | title=Vesta: Spin Pole, Size, and Shape from HST Images | date=1997 | author=Thomas, P. C. | bibcode=1997Icar..128...88T | display-authors=etal | journal=Icarus | volume=128 | issue=1 | pages=88–94 | doi=10.1006/icar.1997.5736| doi-access=free }}</ref>
+
+<ref name=Claudian>{{cite journal | last1 = Hand | first1 = Eric | date = 2012 | title = Space missions trigger map wars | journal = Nature | volume = 488 | issue = 7412 | pages = 442–443 | doi=10.1038/488442a|bibcode = 2012Natur.488..442H | pmid=22914145| doi-access = free }}</ref>
+
+<ref name=IAUcoordinates>{{cite web|url=https://astrogeology.usgs.gov/search/details/Docs/WGCCRE/IAU-WGCCRE-Coordinate-System-for-Vesta/pdf |title=IAU WGCCRE Coordinate System for Vesta {{pipe}} USGS Astrogeology Science Center |publisher=Astrogeology.usgs.gov |date=2013-11-15 |access-date=2014-06-25}}</ref>
+
+<ref name=Dawncoordinates>{{cite web|last1=Li|first1=Jian-Yang|last2=Mafi|first2=Joseph N.|title=Body-Fixed Coordinate Systems for Asteroid (4) Vesta|url=https://sbn.psi.edu/archive/dawn/fc/DWNVFC2_1A/DOCUMENT/VESTA_COORDINATES/VESTA_COORDINATES_131018.PDF |archive-url=https://web.archive.org/web/20151106050628/http://sbn.psi.edu/archive/dawn/fc/DWNVFC2_1A/DOCUMENT/VESTA_COORDINATES/VESTA_COORDINATES_131018.PDF |archive-date=2015-11-06 |url-status=live|website=Planetary Data System}}</ref>
+
+<ref name="IAU-draft2006">{{cite magazine|title=The Path to Defining Planets|first=Owen|last=Gingerich|author-link=Owen Gingerich|magazine=Dissertatio cum Nuncio Sidereo Ill|volume=VIII|issue=16|pages=4–5|series=Tertia|date=2006|url=https://www.iau.org/static/publications/ga_newspapers/20060812.pdf |archive-url=https://web.archive.org/web/20150315084508/http://www.iau.org/static/publications/ga_newspapers/20060812.pdf |archive-date=2015-03-15 |url-status=live|access-date=2007-03-13}}</ref>
+
+<ref name="Baer2007">{{cite journal | title=Astrometric masses of 21 asteroids, and an integrated asteroid ephemeris | date=2008 | last=Baer | first=James | author2=Chesley, Steven R. | bibcode=2008CeMDA.100...27B | journal=Celestial Mechanics and Dynamical Astronomy | volume=100 | issue=1 | pages=27–42 | doi=10.1007/s10569-007-9103-8| doi-access=free }}</ref>
+
+<ref name="IAU0601">{{cite web|date=August 2006 |title=The IAU draft definition of "planet" and "plutons" |publisher=IAU |url=http://www.iau.org/public_press/news/detail/iau0601|access-date=16 December 2009|archive-url=https://web.archive.org/web/20100109100552/http://www.iau.org/public_press/news/detail/iau0601|archive-date=9 January 2010<!--DASHBot-->|url-status=live}} (XXVI)</ref>
+
+<ref name="Fu 2013">{{cite journal|last=Fu|first=R. R.|author2=Hager, B. H.|author3=Ermakov, A.I.|author4=Zuber, M.T.|title=Early Viscous Relaxation of Asteroid Vesta and Implications for Late Impact-Driven Despinning|journal=44th Lunar and Planetary Science Conference|issue=1719|date=2013|page=2115|url=http://www.lpi.usra.edu/meetings/lpsc2013/pdf/2115.pdf |archive-url=https://web.archive.org/web/20140726163059/http://www.lpi.usra.edu/meetings/lpsc2013/pdf/2115.pdf |archive-date=2014-07-26 |url-status=live|bibcode=2013LPI....44.2115F}}</ref>
+
+<ref name="Asmar 2012">{{cite journal|display-authors=3|last=Asmar|first=S. W.|author2=Konopliv, A. S.|author3=Park, R. S.|author4=Bills, B. G.|author5=Gaskell, R.|author6=Raymond, C. A.|author7=Russell, C. T.|author8=Smith, D. E.|author9=Toplis, M. J.|author10=Zuber, M. T.|title=The Gravity Field of Vesta and Implications for Interior Structure|journal=43rd Lunar and Planetary Science Conference|issue=1659|date=2012|page=2600|url=http://www.lpi.usra.edu/meetings/lpsc2012/pdf/2600.pdf |archive-url=https://web.archive.org/web/20131020181320/http://www.lpi.usra.edu/meetings/lpsc2012/pdf/2600.pdf |archive-date=2013-10-20 |url-status=live|bibcode=2012LPI....43.2600A}}</ref>
+
+<ref name="Williams2014">{{Cite journal|title=Introduction: The geologic mapping of Vesta|journal=Icarus|volume=244|pages=1–12|date=December 2014|last1=Williams|first1=D. A.|last2= Yingst|first2=R. A.|last3=Garry|first3=W. B.|doi=10.1016/j.icarus.2014.03.001|bibcode=2014Icar..244....1W|hdl=2286/R.I.28071|hdl-access=free}}
+<br/>—{{cite journal|author=Williams, D. A.|display-authors=etal|title=The geology of the Marcia quadrangle of asteroid Vesta: Assessing the effects of large, young craters|journal=Icarus|volume=244|pages=74–88|date=December 2014|doi=10.1016/j.icarus.2014.01.033|bibcode=2014Icar..244...74W|hdl=2286/R.I.28061|s2cid=5505009 |hdl-access=free}}</ref>
+
+<ref name="Scully2014">{{Cite journal|doi=10.1016/j.icarus.2014.01.013|title=Geomorphology and structural geology of Saturnalia Fossae and adjacent structures in the northern hemisphere of Vesta|journal=Icarus|volume=244|pages=23–40|date=December 2014|display-authors=3|last1=Scully|first1=J. E. C.|last2=Yin|first2=A.|last3=Russell|first3=C. T.|last4=Buczkowski|first4=D. L.|last5=Williams|first5=D. A.|last6=Blewett|first6=D. T.|last7=Ruesch|first7=O.|last8=Hiesinger|first8=H.|last9=Le Corre|first9=L.|last10=Mercer|first10=C.|last11=Yingst|first11=R. A.|last12=Garry|first12=W. B.|last13=Jaumann|first13=R.|last14=Roatsch|first14=T.|last15=Preusker|first15=F.|last16=Gaskell|first16=R. W.|last17=Schröder|first17=S. E.|last18=Ammannito|first18=E.|last19=Pieters|first19=C. M.|last20=Raymond|first20=C. A.|bibcode=2014Icar..244...23S|hdl=2286/R.I.28070|url=https://keep.lib.asu.edu/items/129395/view|archive-url=https://web.archive.org/web/20180721232529/https://repository.asu.edu/attachments/144881/content/ND_Av3-4_Scully_etal_2014_preprint.pdf|archive-date=2018-07-21|url-status=live|hdl-access=free}}<br/>—{{cite journal|last=Scully|first=J. E. C.|display-authors=etal|date=2014|title=Sub-curvilinear gullies interpreted as evidence for transient water flow on Vesta|journal=45th Lunar and Planetary Science Conference|issue=1777|pages=1796|bibcode=2014LPI....45.1796S|url=https://www.hou.usra.edu/meetings/lpsc2014/pdf/1796.pdf}}</ref>
+
+<ref name="Schäfer2014">{{Cite journal |last1=Schäfer |first1=M. |last2=Nathues |first2=A. |last3=Williams |first3=D. A. |last4=Mittlefehldt |first4=D. W. |last5=Le Corre |first5=L. |last6=Buczkowski |first6=D. L. |last7=Kneissl |first7=T. |last8=Thangjam |first8=G. S. |last9=Hoffmann |first9=M. |last10=Schmedemann |first10=N. |last11=Schäfer |first11=T. |last12=Scully |first12=J. E. C. |last13=Li |first13=J. Y. |last14=Reddy |first14=V. |last15=Garry |first15=W. B. |display-authors=3 |date=December 2014 |title=Imprint of the Rheasilvia impact on Vesta{{Snd}} Geologic mapping of quadrangles Gegania and Lucaria |url=https://repository.asu.edu/attachments/144859/content/Av6-7_Schaefer_etal_2014_preprint.pdf |url-status=dead |journal=Icarus |volume=244 |pages=60–73 |bibcode=2014Icar..244...60S |doi=10.1016/j.icarus.2014.06.026 |archive-url=https://web.archive.org/web/20190428032744/https://repository.asu.edu/attachments/144859/content/Av6-7_Schaefer_etal_2014_preprint.pdf |archive-date=28 April 2019 |access-date=24 September 2019 |hdl-access=free |last16=Krohn |first16=K. |last17=Yingst |first17=R. A. |last18=Gaskell |first18=R. W. |last19=Russell |first19=C. T. |hdl=2286/R.I.28060}}</ref>
+
+<ref name="Kneissl2014">{{Cite journal |last1=Kneissl |first1=T. |last2=Schmedemann |first2=N. |last3=Reddy |first3=V. |last4=Williams |first4=D. A. |last5=Walter |first5=S. H. G. |last6=Neesemann |first6=A. |last7=Michael |first7=G. G. |last8=Jaumann |first8=R. |last9=Krohn |first9=K. |last10=Preusker |first10=F. |last11=Roatsch |first11=T. |last12=Le Corre |first12=L. |last13=Nathues |first13=A. |last14=Hoffmann |first14=M. |last15=Schäfer |first15=M. |display-authors=3 |date=December 2014 |title=Morphology and formation ages of mid-sized post-Rheasilvia craters{{Snd}}Geology of quadrangle Tuccia, Vesta |journal=Icarus |volume=244 |pages=133–157 |bibcode=2014Icar..244..133K |doi=10.1016/j.icarus.2014.02.012 |hdl-access=free |last16=Buczkowski |first16=D. |last17=Garry |first17=W. B. |last18=Yingst |first18=R. A. |last19=Mest |first19=S. C. |last20=Russell |first20=C. T. |last21=Raymond |first21=C. A. |hdl=2286/R.I.28058}}</ref>
+
+<ref name="Zellner2005">{{cite journal|url=http://observatory.space.edu/f3_research/f4_faculty%20research/gaffeyResumePDFs/2005/Zellner%20etal05%20NIR%20Imaging%20of%20Vesta.pdf|title=Near-IR imaging of Asteroid 4 Vesta|date=2005|last=Zellner|first=N. E. B.|author-link= Nicolle Zellner |author2=Gibbard, S.|author3=de Pater, I.|bibcode=2005Icar..177..190Z|display-authors=etal|journal=Icarus|volume=177|issue=1|pages=190–195|doi=10.1016/j.icarus.2005.03.024|archive-url=https://web.archive.org/web/20081123015539/http://observatory.space.edu/f3_research/f4_faculty%20research/gaffeyResumePDFs/2005/Zellner%20etal05%20NIR%20Imaging%20of%20Vesta.pdf|archive-date=23 November 2008|url-status=dead}}</ref>
+
+<ref name="Jaumann2012">{{cite journal | bibcode=2012Sci...336..687J | title=Vesta's Shape and Morphology | date=2012 | last=Jaumann | first=R. | s2cid=206540010 | display-authors=etal | journal=Science | volume=336 | issue=6082 | pages=687–690 | doi=10.1126/science.1219122 | pmid=22582254}}</ref>
+
+<ref name="Schenk2012">{{cite journal | title=The Geologically Recent Giant Impact Basins at Vesta's South Pole | date=2012 | author=Schenk, P. | s2cid=206541950 | bibcode=2012Sci...336..694S | display-authors=etal | journal=Science | volume=336 | issue=6082 | pages=694–697 | doi=10.1126/science.1223272 | pmid=22582256}}</ref>
+
+<ref name=Rheasilvianamed>{{cite news|title=Rheasilvia{{Snd}} Super Mysterious South Pole Basin at Vesta is Named after Romulus and Remus Roman Mother|url=http://www.universetoday.com/89093/rhea-silvia-super-mysterious-south-pole-basin-at-vesta-is-named-after-romulus-and-remus-roman-mother/|access-date=23 September 2011|newspaper=Universe Today|date=21 September 2011}}</ref>
+
+<ref name="Binzel1997">{{cite journal | title=Geologic Mapping of Vesta from 1994 Hubble Space Telescope Images | date=1997 | author=Binzel, R. P. | bibcode=1997Icar..128...95B | display-authors=etal | journal=Icarus | volume=128 | issue=1 | pages=95–103 | doi=10.1006/icar.1997.5734| doi-access=free }}</ref>
+
+<ref name="Av-10">{{cite conference|display-authors=3|author=Garry, W.B.|author2=Sykes, M.|author3=Buczkowski, D.L.|author4=Williams, D.|author5=Yingst, R.|author6=Mest, S.|author7=Jaumann, R.|author8=Pieters, C.M.|author9=Roatsch, T.|author10=Preusker, F.|author11=Russell, C.T.|author12=Raymond, C.A.|author13=Filacchione, G.|author14=Dawn Science Team|date=March 2012|title=Geologic Mapping of Av-10 Oppia Quadrangle of Asteroid 4 Vesta|conference=43rd Lunar and Planetary Science Conference, held 19–23 March 2012 at The Woodlands, Texas|at=id.2315|id=LPI Contribution No. 1659|bibcode=2012LPI....43.2315G|url=https://www.lpi.usra.edu/meetings/lpsc2012/pdf/2315.pdf |archive-url=https://web.archive.org/web/20140424174211/http://www.lpi.usra.edu/meetings/lpsc2012/pdf/2315.pdf |archive-date=2014-04-24 |url-status=live}}
+<br/>—{{cite conference|display-authors=3|author=Garry, W.B.|author2=Sykes, M.|author3=Buczkowski, D.L.|author4=Williams, D.|author5=Yingst, R.|author6=Mest, S.|author7=Jaumann, R.|author8=Pieters, C.M.|author9=Hiesinger, H.|author10=Roatsch, T.|author11=Preusker, F.|author12=Russell, C.T.|author13=Raymond, C.A.|date=April 2012|title=Geologic Mapping of Av-10 Oppia Quadrangle of Asteroid 4 Vesta|conference=EGU General Assembly 2012, held 22–27 April 2012 in Vienna, Austria|book-title=Geophysical Research Abstracts|volume=14|page=5711|id=EGU2012-5711-1|bibcode=2012EGUGA..14.5711G|url=https://meetingorganizer.copernicus.org/EGU2012/EGU2012-5711-1.pdf |archive-url=https://web.archive.org/web/20140408231138/http://meetingorganizer.copernicus.org/EGU2012/EGU2012-5711-1.pdf |archive-date=2014-04-08 |url-status=live}}</ref>
+
+<ref name="Planetary Names">{{cite web|url=https://planetarynames.wr.usgs.gov/SearchResults?target=VESTA&featureType=Crater,%20craters|title=Nomenclature Search Results / Target: VESTA / Feature Type: Crater, craters|work=Gazetteer of Planetary Nomenclature| publisher=IAU}}</ref>
+
+<ref name="Buczkowski2012">{{cite journal|display-authors=3|author=Buczkowski, D.L.|author2=Raymond, C.A.|author3=Williams, D.A.|author4=Schenk, P.M.|author5=Roatsch, T.|author6=Preusker, F.|author7=Jaumann, R.|author8=Gaskell, R.W.|author9=Yingst, R.A.|author10=Mest, S.|author11=Garry, W.B.|author12=Reddy, V.|author13=Nathues, A.|author14=Le Corre, L.|author15=Russell, C.T.|author16=Scully, J.E.C.|author17=Wyrick, D.Y.|author18=Barnouin, O.S.|author19=Kahn, E.G.|author20=Iyer, K.A.|title=Large-scale troughs on Vesta: A signature of planetary tectonics|doi=10.1029/2012GL052959|doi-access=free|bibcode=2012GeoRL..3918205B|volume=39|issue=18|pages=L18205|journal=Geophysical Research Letters|year=2012}}</ref>
+
+<!-- <ref name="Stunted Planet">{{cite press release|id=AGU Release No. 12-42|title=Asteroid's troughs suggest stunted planet|date=26 September 2012|url=http://www.agu.org/news/press/pr_archives/2012/2012-42.shtml|publisher=American Geophysical Union|access-date=25 November 2012|archive-url=https://web.archive.org/web/20120929002933/http://www.agu.org/news/press/pr_archives/2012/2012-42.shtml|archive-date=2012-09-29|url-status=dead}}</ref> -->
+
+<ref name="DeSanctis2012a">{{cite journal | title=Spectroscopic Characterization of Mineralogy and Its Diversity Across Vesta | date=2012 | author=De Sanctis, M. C. | bibcode=2012Sci...336..697D | display-authors=etal | journal=Science | volume=336 | issue=6082 | pages=697–700 | doi=10.1126/science.1219270 | pmid=22582257| s2cid=11645621 }}</ref>
+
+<ref name="Prettyman2012">{{cite journal | title=Elemental Mapping by Dawn Reveals Exogenic H in Vesta's Regolith | date=2012 | author=Prettyman, T. H. | s2cid=206542798 | bibcode=2012Sci...338..242P | display-authors=etal | journal=Science | volume=338 | issue=6104 | pages=242–246 | doi=10.1126/science.1225354 | pmid=22997135}}</ref>
+
+<ref name="Reddy2012">{{cite journal | title=Color and Albedo Heterogeneity of Vesta from Dawn | date=2012 | author=Reddy, V. | s2cid=1326996 | bibcode=2012Sci...336..700R | display-authors=etal | journal=Science | volume=336 | issue=6082 | pages=700–704 | doi=10.1126/science.1219088 | pmid=22582258}}</ref>
+
+<ref name="Ammannito2013">{{cite journal | author10=A. Frigeri | author11=C. M. Pieters | author12=O. Ruesch | author13=F. Tosi | author14=F. Zamon | author15=F. Carraro | author16=S. Fonte | author17=H. Hiesinger | author18=G. Magni | author19=L. A. McFadden | author20=C. A. Raymond | author21=C.T. Russell | author22=J. M. Sunshine | bibcode=2013Natur.504..122A | title=Olivine in an unexpected location on Vesta's surface | date=2013 | display-authors=3 | last=Ammannito | first=E. | author2=M. C. De Sanctis | author3=E. Palomba | author4=A. Longobardo | author5=D. W. Mittlefehldt | author6=H. Y. McSween | author7=S. Marchi | author8=M. T. Capria | author9=F. Capaccioni | journal=Nature | volume=504 | issue=7478 | pages=122–125 | doi=10.1038/nature12665 | pmid=24196707| s2cid=4464889 }}</ref>
+
+<ref name="Denevi2012">{{cite journal | bibcode=2012Sci...338..246D | title=Pitted Terrain on Vesta and Implications for the Presence of Volatiles | date=2012 | display-authors=etal | last=Denevi | first=B. W. | journal=Science | volume=338 | issue=6104 | pages=246–249 | doi=10.1126/science.1225374 | pmid=22997131| s2cid=22892716 }}</ref>
+
+<ref name="DeSanctis2012b">{{cite journal | title=Detection of Widespread Hydrated Materials on Vesta by the vir Imaging Spectrometer on Board Thedawnmission | date=2012 | author=De Sanctis, M. C. | bibcode=2012ApJ...758L..36D | display-authors=etal | journal=The Astrophysical Journal Letters | volume=758 | issue=2 | pages=L36 | doi=10.1088/2041-8205/758/2/L36| doi-access=free }}</ref>
+
+<ref name=Vestainterior>{{cite web|title=A look into Vesta's interior|url=https://www.mpg.de/877913/Vesta_asteroid|work=Max-Planck-Gesellschaft|date=6 January 2011}}</ref>
+
+<ref name="Ghosh1998">{{cite journal | title=A Thermal Model for the Differentiation of Asteroid 4 Vesta, Based on Radiogenic Heating | date=1998 | author=Ghosh, A. | author2=McSween, H. Y. | bibcode=1998Icar..134..187G | journal=Icarus | volume=134 | issue=2 | pages=187–206 | doi=10.1006/icar.1998.5956}}</ref>
+
+<ref name="Righter1997">{{cite journal | author=Righter, K. | author2=Drake, M. J. | bibcode=1997M&PS...32..929R | title=A magma ocean on Vesta: Core formation and petrogenesis of eucrites and diogenites | date=1997 | journal=Meteoritics & Planetary Science | volume=32 | issue=6 | pages=929–944 | doi=10.1111/j.1945-5100.1997.tb01582.x| s2cid=128684062 | doi-access=free }}</ref>
+
+<ref name="Drake2001">{{cite journal | author=Drake, M. J. | bibcode=2001M&PS...36..501D | title=The eucrite/Vesta story | date=2001 | journal=Meteoritics & Planetary Science | volume=36 | issue=4 | pages=501–513 | doi=10.1111/j.1945-5100.2001.tb01892.x| s2cid=128394153 }}</ref>
+
+<ref name="Sahijpal2007">{{cite journal |author=Sahijpal, S. |author2=Soni, P. |author3=Gagan, G. |s2cid=55463404 |title=Numerical simulations of the differentiation of accreting planetesimals with <sup>26</sup>Al and <sup>60</sup>Fe as the heat sources |journal=Meteoritics & Planetary Science |volume=42 |issue=9 |pages=1529–1548|date=2007 |doi=10.1111/j.1945-5100.2007.tb00589.x|bibcode = 2007M&PS...42.1529S |doi-access=free }}</ref>
+
+<ref name="Gupta2010">{{cite journal | title=Differentiation of Vesta and the parent bodies of other achondrites | date=2010 | author=Gupta, G. | author2=Sahijpal, S. | journal=J. Geophys. Res. Planets | volume=115 | issue=E8 | pages=E08001 | doi=10.1029/2009JE003525| bibcode=2010JGRE..115.8001G | s2cid=129905814 | doi-access= }}</ref>
+
+<ref name="nasa-dawn20110329">{{cite web|date=29 March 2011|title=When Is an Asteroid Not an Asteroid?|publisher=NASA/JPL|author=Cook, Jia-Rui C.|url=http://www.nasa.gov/mission_pages/dawn/news/dawn20110329.html|access-date=30 July 2011| archive-url= https://web.archive.org/web/20110629163004/http://www.nasa.gov/mission_pages/dawn/news/dawn20110329.html| archive-date= 29 June 2011 <!--DASHBot-->| url-status= live}}</ref>
+
+<ref name="Takeda1997">{{cite journal | author=Takeda, H. | bibcode=1997M&PS...32..841T | title=Mineralogical records of early planetary processes on the HED parent body with reference to Vesta | date=1997 | journal=Meteoritics & Planetary Science | volume=32 | issue=6 | pages=841–853 | doi=10.1111/j.1945-5100.1997.tb01574.x| doi-access=free }}</ref>
+
+<ref name="Yamaguchi1995">{{cite journal | bibcode=1995Metic..30..603Y | first1=A. | last1=Yamaguchi | title=Metamorphic History of the Eucritic Crust of 4 Vesta | date=1995 | last2=Taylor | first2=G. J. | last3=Keil | first3=K. | journal=Meteoritical Society | volume=30 | issue=5 | page=603}}</ref>
+
+<ref name="Pieters2012">{{Cite journal |last1=Pieters |first1=C. M. |last2=Ammannito |first2=E. |last3=Blewett |first3=D. T. |last4=Denevi |first4=B. W. |last5=De Sanctis |first5=M. C. |last6=Gaffey |first6=M. J. |last7=Le Corre |first7=L. |last8=Li |first8=J. -Y. |last9=Marchi |first9=S. |last10=McCord |first10=T. B. |last11=McFadden |first11=L. A. |last12=Mittlefehldt |first12=D. W. |last13=Nathues |first13=A. |last14=Palmer |first14=E. |last15=Reddy |first15=V. |display-authors=3 |year=2012 |title=Distinctive space weathering on Vesta from regolith mixing processes |journal=Nature |volume=491 |issue=7422 |pages=79–82 |bibcode=2012Natur.491...79P |doi=10.1038/nature11534 |pmid=23128227 |s2cid=4407636 |last16=Raymond |first16=C. A. |last17=Russell |first17=C. T.}}</ref>
+
+<ref name="McCord2012">{{Cite journal |last1=McCord |first1=T. B. |last2=Li |first2=J. -Y. |last3=Combe |first3=J. -P. |last4=McSween |first4=H. Y. |last5=Jaumann |first5=R. |last6=Reddy |first6=V. |last7=Tosi |first7=F. |last8=Williams |first8=D. A. |last9=Blewett |first9=D. T. |last10=Turrini |first10=D. |last11=Palomba |first11=E. |last12=Pieters |first12=C. M. |last13=De Sanctis |first13=M. C. |last14=Ammannito |first14=E. |last15=Capria |first15=M. T. |display-authors=3 |year=2012 |title=Dark material on Vesta from the infall of carbonaceous volatile-rich material |journal=Nature |volume=491 |issue=7422 |pages=83–86 |bibcode=2012Natur.491...83M |doi=10.1038/nature11561 |pmid=23128228 |s2cid=2058249 |last16=Le Corre |first16=L. |last17=Longobardo |first17=A. |last18=Nathues |first18=A. |last19=Mittlefehldt |first19=D. W. |last20=Schröder |first20=S. E. |last21=Hiesinger |first21=H. |last22=Beck |first22=A. W. |last23=Capaccioni |first23=F. |last24=Carsenty |first24=U. |last25=Keller |first25=H. U. |last26=Denevi |first26=B. W. |last27=Sunshine |first27=J. M. |last28=Raymond |first28=C. A. |last29=Russell |first29=C. T.}}</ref>
+
+<ref name="siliconvalleyastrolecture">{{cite speech | access-date=2018-07-07 | event=Silicon Valley Astronomy Lectures | url=https://www.youtube.com/watch?v=j_3jKyqAIqY | archive-url=https://ghostarchive.org/varchive/youtube/20211114/j_3jKyqAIqY| archive-date=2021-11-14 | url-status=live| title=Now Appearing At a Dwarf Planet Near You: NASA's Dawn Mission to the Asteroid Belt | date=8 April 2015 | last=Rayman | first=Marc | location=Foothill College, Los Altos, CA}}{{cbignore}}</ref>
+
+<ref name="ulivi_harland08">{{cite book | title=Robotic Exploration of the Solar System: Hiatus and Renewal, 1983–1996 | publisher=Springer | date=2008 | author=Ulivi, Paolo | author2=Harland, David | series=Springer Praxis Books in Space Exploration | pages=117–125 | isbn=978-0-387-78904-0}}</ref>
+
+<ref name="Russell2007">{{cite journal | title=Dawn Mission to Vesta and Ceres | date=October 2007 | last=Russell | first=C. T. | author2=Capaccioni, F. | author3=Coradini, A. | bibcode=2007EM&P..101...65R | url=http://www-ssc.igpp.ucla.edu/personnel/russell/papers/dawn_mission_vesta_ceres.pdf |archive-url=https://web.archive.org/web/20110927165746/http://www-ssc.igpp.ucla.edu/personnel/russell/papers/dawn_mission_vesta_ceres.pdf |archive-date=2011-09-27 |url-status=live | access-date=13 June 2011 | display-authors=etal | journal=Earth, Moon, and Planets | volume=101 | issue=1–2 | pages=65–91 | doi=10.1007/s11038-007-9151-9| s2cid=46423305 }}</ref>
+
+<ref name="pr2011-138">{{cite web | url=http://www.jpl.nasa.gov/news/news.cfm?release=2011-138&cid=release_2011-138 | title=NASA's Dawn Captures First Image of Nearing Asteroid | publisher=NASA/JPL | date=11 May 2011 | access-date=14 May 2011 | author=Cook, Jia-Rui C. | author2=Brown, Dwayne C. | archive-date=29 January 2012 | archive-url=https://web.archive.org/web/20120129064845/http://www.jpl.nasa.gov/news/news.cfm?release=2011-138&cid=release_2011-138 | url-status=dead }}</ref>
+
+<ref name="Vega2011">{{cite news |last1=Vega |first1=Priscilla |last2=Brown |first2=Dwayne |date=16 July 2011 |title=NASA's Dawn Spacecraft Enters Orbit Around Asteroid Vesta |url=http://www.nasa.gov/mission_pages/dawn/news/dawn20110716.html |url-status=dead |archive-url=https://web.archive.org/web/20120619102718/http://www.nasa.gov/mission_pages/dawn/news/dawn20110716.html |archive-date=19 June 2012 |access-date=17 July 2011 |publisher=[[NASA]]}}</ref>
+
+<ref name=Dawntimeline>[http://dawn.jpl.nasa.gov/mission/timeline.asp Dawn mission timeline] {{webarchive |url=https://web.archive.org/web/20131019233834/http://dawn.jpl.nasa.gov/mission/timeline.asp |date=19 October 2013 }}</ref>
+
+<ref name=DawnMission>{{cite web|author=Mid-continent Research for Education and Learning: McREL |url=http://dawn.jpl.nasa.gov/mission/journal_09_27_10.asp |title=Dawn Mission: Mission |publisher=Dawn Journal |date=27 September 2010 |access-date=29 March 2011}}</ref>
+
+<ref name=Dawndeparture>{{cite web|title=Dawn has Departed the Giant Asteroid Vesta |url=http://www.nasa.gov/mission_pages/dawn/news/dawn20120905.html |work= NASA JPL |publisher=NASA |date=5 September 2012 |access-date=5 September 2012}}</ref>
+
+<ref name=Russell2013>{{cite journal|last=Russell|first=C. T.|title=Dawn completes its mission at 4 Vesta|journal=Meteoritics & Planetary Science|date=2013|pages=2076–2089|doi=10.1111/maps.12091|bibcode = 2013M&PS...48.2076R |display-authors=etal|volume=48|issue=11|doi-access=free}}</ref>
+
+<ref name=Roatsch2012>{{cite journal|last=Roatsch|first=Thomas|title=High resolution Vesta High Altitude Mapping Orbit (HAMO) Atlas derived from Dawn framing camera images|journal=Planetary and Space Science|date=2012|volume=73|issue=1|pages=283–286|doi=10.1016/j.pss.2012.08.021|bibcode = 2012P&SS...73..283R |display-authors=etal}}</ref>
+
+<ref name=Roatsch2013>{{cite journal|last=Roatsch|first=Thomas|title=High-resolution Vesta Low Altitude Mapping Orbit Atlas derived from Dawn Framing Camera images|journal=Planetary and Space Science|date=2013|volume=85|pages=293–298|doi=10.1016/j.pss.2013.06.024|bibcode = 2013P&SS...85..293R |display-authors=etal}}</ref>
+
+<ref name=journeyaboveVesta>{{cite web |title=NASA's Journey Above Vesta |url=http://www.jpl.nasa.gov/video/index.cfm?id=1020 |work=DLR Institute of Planetary Research video with NASA JPL imagery |publisher=NASA |date=16 September 2011 |access-date=18 September 2011 |archive-date=22 April 2021 |archive-url=https://web.archive.org/web/20210422151226/http://www.jpl.nasa.gov/video/index.cfm?id=1020 |url-status=dead }}</ref>
+
+<ref name=dawn_gis>{{cite web|title=DLR public Dawn products site |url=http://dawn_gis.dlr.de/ |url-status=dead |archive-url=https://web.archive.org/web/20151016074237/http://dawn_gis.dlr.de/ |archive-date=16 October 2015 }}</ref>
+
+<ref name=NASADawn>{{cite web|title=NASA Dawn|url=http://dawn.jpl.nasa.gov/}}</ref>
+
+<ref name=Dawnpublic>{{cite web|title=Dawn Public Data|url=http://dawndata.igpp.ucla.edu/|website=Dawn [website]|publisher=Univ. California, Los Angeles|access-date=6 March 2015|archive-date=5 March 2023|archive-url=https://web.archive.org/web/20230305202122/http://dawndata.igpp.ucla.edu/|url-status=dead}}</ref>
+
+<ref name="SkyTelescope2007a">{{cite web | url=http://www.skyandtelescope.com/observing/home/7297386.html | title=Sky & Telescope: See Vesta at Its Brightest! | date=2007 | access-date=7 May 2007 | last=Bryant | first=Greg | work=Sky and Telescope }}</ref>
+
+<ref name="SkyTelescope2007b">{{cite web | url=http://media.skytonight.com/images/Vesta07_Finder_color.jpg | title=Vesta Finder | publisher=Sky & Telescope | access-date=7 May 2007 | archive-url=https://web.archive.org/web/20070612211029/http://media.skytonight.com/images/Vesta07_Finder_color.jpg | archive-date=12 June 2007 | url-status=dead}}</ref>
+
+<ref name=James2008>{{cite web|url=http://www.southastrodel.com/PageVesta000.htm|title=Vesta|last=James|first=Andrew|date=2008|work=Southern Astronomical Delights|access-date=6 November 2008}} {{Dead link|date=October 2026 |bot=InternetArchiveBot }}<!-- |date=2 September 2008 --></ref>
+
+<ref name="Horizons">{{cite web | url=http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=4 | title=Horizons Ephemeris | publisher=JPL Solar System Dynamics | access-date=9 January 2010 | author=Yeomans, Donald K. | author2=Chamberlin, Alan B.}}</ref>
+
+<ref name="MPC-eph">{{cite web | archive-date=2016-03-04 | archive-url=https://web.archive.org/web/20160304052113/http://scully.cfa.harvard.edu/cgi-bin/returnprepeph.cgi?d=b2011&o=00004 | url=http://scully.cfa.harvard.edu/cgi-bin/returnprepeph.cgi?d=b2011&o=00004 | title=Elements and Ephemeris for (4) Vesta | publisher=Minor Planet Center | url-status=dead}}</ref>
+
+<ref name=NightSkyOnline>{{cite web|url=http://nightskyonline.info/?page_id=2040 |title=2012 Astronomy Special |publisher=Nightskyonline.info |access-date=23 November 2012 |url-status=dead |archive-url=https://web.archive.org/web/20120420182408/http://nightskyonline.info/?page_id=2040 |archive-date=20 April 2012}}</ref>
+
+<ref name=flanders>[http://www.skyandtelescope.com/observing/objects/asteroids/Ceres-and-Vesta-July-2013-148149915.html T. Flanders – '''Ceres and Vesta: July 2012 – April 2013''' – Sky & Telescope].</ref>
+
+<ref name="Horizons2021">{{cite web |title=Horizons Batch for 4 Vesta on 2021-Dec-26 |url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%27Vesta%27&START_TIME=%272021-Dec-25%2023:00%27&STOP_TIME=%272021-Dec-26%2004:00%27&STEP_SIZE=%2715%20minutes%27&QUANTITIES=%2719%27 |access-date=2021-09-26 |publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]] |type=Perihelion occurs when rdot flips from negative to positive}} (Epoch 2021-Jul-01/Soln.date: 2021-Apr-13)</ref>
+  
+<ref name="Palomba2015">{{cite journal |last1=Palomba |first1=E. |last2=Longobardo |first2=A. |last3=De Sanctis |first3=M. C. |display-authors=et al. |date=September 2015 |title=Detection of new olivine-rich locations on Vesta |journal=Icarus |volume=258 |pages=120–134 |bibcode=2015Icar..258..120P |doi=10.1016/j.icarus.2015.06.011}}</ref>
+
+<ref name="Park2014">{{Cite journal |last=Park |first=R.S. |last2=Konopliv |first2=A.S. |last3=Asmar |first3=S.W. |last4=Bills |first4=B.G. |last5=Gaskell |first5=R.W. |last6=Raymond |first6=C.A. |last7=Smith |first7=D.E. |last8=Toplis |first8=M.J. |last9=Zuber |first9=M.T. |date=September 2014 |title=Gravity field expansion in ellipsoidal harmonic and polyhedral internal representations applied to Vesta |journal=Icarus |volume=240 |pages=118–132 |doi=10.1016/j.icarus.2013.12.005 |issn=0019-1035 |bibcode=2014Icar..240..118P |s2cid=122118125}}</ref>
+
+<ref name="Park2025">{{Cite journal |last=Park |first=R. S. |last2=Ermakov |first2=A. I. |last3=Konopliv |first3=A. S. |last4=Vaughan |first4=A. T. |last5=Rambaux |first5=N. |last6=Bills |first6=B. G. |last7=Castillo-Rogez |first7=J. C. |last8=Fu |first8=R. R. |last9=Jacobson |first9=S. A. |last10=Stewart |first10=S. T. |last11=Toplis |first11=M. J. |date=June 2025 |title=A small core in Vesta inferred from Dawn’s observations |journal=Nature Astronomy |language=en |publisher=Nature Publishing Group |volume=9 |issue=6 |pages=824–834 |doi=10.1038/s41550-025-02533-7 |issn=2397-3366 |bibcode=2025NatAs...9..824P |doi-access=free}}</ref>
+
+}}
+
+==Bibliography==
+{{Refbegin}}
+* ''The Dawn Mission to Minor Planets 4 Vesta and 1 Ceres'', Christopher T. Russell and Carol A. Raymond (Editors), Springer (2011), {{ISBN|978-1-4614-4903-4}}
+* Keil, K.; ''Geological History of Asteroid 4 Vesta: The Smallest Terrestrial Planet'' in ''Asteroids III'', William Bottke, Alberto Cellino, Paolo Paolicchi, and Richard P. Binzel (editors), University of Arizona Press (2002), {{ISBN|0-8165-2281-2}}
+{{Refend}}
+
+== External links ==
+{{commons category}}
+[[File:The Smallest Planet.ogv|thumb|right|upright=1.25|This video explores Vesta's landscape, history and planet-like characteristics.]]
+* [https://gravitysimulator.org/spaceflight/dawn-at-vesta Interactive 3D gravity simulation of the ''Dawn'' spacecraft in orbit around Vesta] {{Webarchive|url=https://web.archive.org/web/20200611223056/https://gravitysimulator.org/spaceflight/dawn-at-vesta/ |date=11 June 2020 }}
+* [https://trek.nasa.gov/vesta/ Vesta Trek – An integrated map browser of datasets and maps for 4 Vesta]
+* [http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=4 JPL Ephemeris]
+* Views of the Solar System: [http://www.solarviews.com/eng/vesta.htm Vesta]
+* [http://hubblesite.org/newscenter/newsdesk/archive/releases/1995/40/ HubbleSite]: Hubble Maps the Asteroid Vesta
+* [https://www.britannica.com/eb/article-9075181/Vesta ''Encyclopædia Britannica'', Vesta – full article]
+* [http://hubblesite.org/newscenter/newsdesk/archive/releases/1995/20/video/a HubbleSite]: short movie composed from [[Hubble Space Telescope]] images from November 1994.
+* Adaptive optics views of Vesta from [http://www2.keck.hawaii.edu/ao/vesta-ao.html Keck Observatory]
+* [http://www.spacetelescope.org/images/archive/freesearch/4+vesta/viewall/1 4 Vesta images at ESA/Hubble] {{Webarchive|url=https://web.archive.org/web/20090122143954/http://www.spacetelescope.org/images/archive/freesearch/4+vesta/viewall/1 |date=22 January 2009 }}
+* [https://web.archive.org/web/20110930192036/http://dawn.jpl.nasa.gov/pressroom/pdf/Dawn_at_Vesta_Press_Kit.pdf ''Dawn'' at Vesta] (NASA press kit on ''Dawn'''s operations at Vesta)
+* [http://www.jpl.nasa.gov/video/index.cfm?id=1020 NASA video] {{Webarchive|url=https://web.archive.org/web/20210422151226/http://www.jpl.nasa.gov/video/index.cfm?id=1020 |date=22 April 2021 }}
+* [http://photojournal.jpl.nasa.gov/catalog/pia17480 Vesta atlas]
+* {{AstDys|4}}
+* {{JPL small body}}
+{{Minor planets navigator |3 Juno |number=4 |5 Astraea}}{{4 Vesta|state=uncollapsed}}
+{{Dwarf planets}}
+{{Solar System}}
+{{Large asteroids}}
+{{Portal bar|Stars|Spaceflight|Outer space|Science}}
+{{Authority control}}
+
+{{DEFAULTSORT:000004}}
+[[Category:4 Vesta| ]]
+[[Category:Discoveries by Heinrich Olbers|Vesta]]
+[[Category:Named minor planets|Vesta]]
+[[Category:Minor planets visited by spacecraft|20110716]]
+[[Category:Former dwarf planets]]
+[[Category:Former dwarf planet candidates]]
+[[Category:Articles containing video clips]]
+[[Category:V-type asteroids (Tholen)]]
+[[Category:V-type asteroids (SMASS)]]
+[[Category:1800s in science|18070329]]
+[[Category:Minor planets discovered in 1807|18070329]]
+[[Category:Vesta (mythology)]]
+[[Category:Solar System]]

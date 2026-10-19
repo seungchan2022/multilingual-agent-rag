@@ -1,0 +1,255 @@
+{{Short description|Moon of Neptune}}
+{{Infobox planet
+| name = Nereid
+| image = Nereid-Voyager2.jpg
+| image_scale = 
+| caption = Nereid imaged by ''[[Voyager 2]]'' on August 24, 1989
+| apsis = apsis
+| mpc_name = Neptune II
+| named_after = [[Nereid|Νηρηΐδες]] ''Nērēḯdes''
+| pronounced = {{IPAc-en|ˈ|n|ɪər|i|ə|d}} {{respell|NEER|ee|əd}}<ref>{{OED|Nereid}}</ref>
+| adjectives = Nereidian or Nereidean (both {{IPAc-en|ˌ|n|ɛr|i|ˈ|ɪ|d|i|ə|n}} {{respell|NERR|ee|ID|ee|ən}})<ref>{{OED|nereidian, nereidean}}</ref>
+| discovery_ref = <ref name="Kuiper 1949" />
+| discoverer = [[Gerard P. Kuiper]]
+| discovered = 1 May 1949
+| orbit_ref = <ref name="Yuan2021"/>
+| epoch = 2000 January 1.5 ([[Julian day|JD]] 2451545)
+| observation_arc = {{cvt|{{Days since|1 May 1949}}|days|years}}
+| semimajor = {{cvt|5513782|km|AU|}}
+| eccentricity = 0.751
+| period = {{cvt|360.13|days|years|abbr=on}}
+| mean_anomaly = 113.4[[Degree (angle)|°]]
+| mean_motion = {{Deg2DMS|0.99962908720|sup=ms}} / day
+| inclination = {{nowrap|7.1° {{small|(to local [[Laplace plane]])}}}}<ref name="Yuan2021"/><br />5.1° {{small|(to the [[ecliptic]])}}<ref name="JPL-SSD-Neptune"/><br/>28.4° {{small|(to Neptune's equator)}}<ref name="Belyakov2026"/>
+| asc_node = 335.5°
+| arg_peri = −78.9°
+| satellite_of = [[Neptune]]
+| group = 
+| physical_ref = <ref name="Kiss2016"/>
+| mean_diameter = {{val|335|-|345|u=km}}
+| rotation = {{val|11.594|0.017}} h
+| albedo = {{val|0.25|-|0.27}}
+| magnitude = 19.18<ref name="Shaefer2008"/>
+| abs_magnitude = {{val|4.418|0.008}}
+| single_temperature = {{val|50|-|60|ul=K}}<ref name="Sharkey2021"/><br />(equilibrium temperature)
+}}
+'''Nereid''', or '''Neptune II''', is the third-largest [[natural satellite|moon]] of [[Neptune]]. It was the second [[Moons of Neptune|moon of Neptune]] to be discovered, by [[Gerard Kuiper]] in 1949. It is notable for its unusually eccentric orbit and relatively large size for an [[irregular satellite]]. Nereid also exhibits large brightness variations over long periods of time, the origin of which has yet to be conclusively explained.
+
+== Observational history ==
+
+=== Discovery and naming ===
+[[File:Kuiper_colored.jpg|left|thumb|upright|Gerard P. Kuiper, discoverer of Nereid]]
+Nereid was discovered on 1 May 1949 by [[Gerard P. Kuiper]] using photographic plates taken with the 82-inch telescope at the [[McDonald Observatory]]. He proposed the name in the report of his discovery. It is named after the [[Nereid]]s, sea-nymphs of [[Greek mythology]] and attendants of the god [[Neptune (mythology)|Neptune]].<ref name="Kuiper 1949" /> It was the second moon of Neptune to be discovered, and the last before the arrival of ''[[Voyager 2]]'' (not counting a single observation of an occultation by [[Larissa (moon)|Larissa]] in 1981).<ref name="Smith Soderblom et al. 1989" /> In his original report, Kuiper estimated its [[apparent magnitude]] at 19.5, which stood as the only photometric information on Nereid until 1987.<ref name="Schaefer&Schaefer2000"/><ref name="GravHolmanKavelaars2003" />{{clear left}}
+
+=== Brightness variations ===
+Since 1987 some photometric observations of Nereid have detected large variations of its brightness. Variations over a few days or within the same night have been observed, but the short term behaviour also varies as a long term trend over years and months. They persist even after a correction for distance and [[Phase angle (astronomy)|phase]] effects, and are likely related to the rotation of Nereid. Multiple independent observing groups have detected these variations, both within a single observing run and between separate runs,<ref name="Schaefer&Schaefer2000" /> and the variations are too large to have been instrumental errors.<ref name="Shaefer2008" /> On the other hand, not all astronomers who have observed Nereid have noticed any variation at all.<ref name="Dobrovolskis2003"/>
+
+Short-term variations of up to ~1.5 magnitudes have been reported by observers,<ref name="GravHolmanKavelaars2003" /><ref name="Buratti1997"/> and across all studies, the brightness of Nereid has been seen to deviate up to −1.0 to +1.5 magnitudes away from the average.<ref name="Hesselbrock2013"/> When data collection started in 1987, Nereid seemed to have very large brightness variations until 1991. This was followed by a gap of a few years with no observations, in which this active period seems to have ended. Nereid then entered an inactive state, and only showed low amplitude variations for a while until another observation gap. After the second gap, Nereid showed variations in between that of the active and inactive periods.<ref name="Hesselbrock2013" />
+
+=== Rotation measurements ===
+The [[Rotation period (astronomy)|rotation period]] was similarly in dispute. In 1991, a rotation period of Nereid of about 13.6&nbsp;hours was determined, reporting a very large variation in brightness of 1.3 magnitudes.<ref name="Williams1991" /> A 1997 study found no rotation period at all,<ref name="Buratti1997" /> with a data uncertainty of around ~0.04 mag.<ref name="Shaefer2008" /> In 2003, a rotation period of about {{nowrap|11.52 ± 0.14 hours}} was measured, with a low peak-to-peak amplitude of only {{nowrap|0.029 ± 0.003 mag}}.<ref name="GravHolmanKavelaars2003" /> This determination was later questioned by a study in 2008, who were skeptical due to their poor sampling of the [[light curve]].<ref name="Kiss2016" /> Examining a data set spanning 20 years' worth of ground-based observations, they failed to detect any periodic modulation above 0.08 mag in Nereid's light curve, though their data precision did not allow them to confirm or deny the 2003 rotation period.<ref name="Shaefer2008" />
+
+In 2013, a period of {{nowrap|11.50 ± 0.10 hours}} was obtained, as well as a {{nowrap|0.031 ± 0.001 mag}} variation, very similar to the 2003 results.<ref name="Terai&Itoh2013"/> Most recently, in 2016 a study observed Nereid with the [[Kepler space telescope]].<ref name="Kiss2016" /> Scientists found it useful to measure [[light curves]] of distant objects in the Solar System for its ability to gather data uninterrupted for several weeks at a time. Closely matching the previous determinations in 2003 and 2013, Nereid's rotation period was found to be 11.594 ± 0.017&nbsp;hours, and again showed only low-amplitude variations (0.033 magnitudes).<ref name="Kiss2016" />
+
+== Physical characteristics ==
+[[File:Earth Moon Nereid.png|left|thumb|Approximate size comparison between Nereid (lower left), the [[Moon]] (upper left) and the [[Earth]].]]
+Nereid is the third-largest of [[Moons of Neptune|Neptune's satellites]], and has a [[mean radius]] of about {{convert|170|km|mi|-1}}, about the same size as [[Saturn]]'s moon [[Mimas]].<ref name="Kiss2016"/> It is by far the largest normal [[irregular moon]] known,<ref name="GravHolmanKavelaars2003" /> having about two-thirds the mass of all irregular moons combined.<ref name=denk/> ([[Triton (moon)|Triton]] is much larger, but is very unusual for an irregular satellite.) Nereid also accounts for about 98% of the mass of Neptune's entire irregular satellite system altogether (excluding Triton), which is similar to the situation of [[Phoebe (moon)|Phoebe]] at Saturn (the second-largest normal irregular moon in the Solar System).<ref name=denk/>
+
+Nereid's size is such that it may be large enough to have [[Hydrostatic equilibrium|pulled itself into a sphere]], or small enough that it has not; it lies directly within the grey area.<ref name="Hesselbrock2013" /> The ''[[Voyager 2]]'' flyby was unable to determine anything about its shape,<ref name="Shaefer2008" /> but it is assumed that it is more likely to be generally round, similar to most other objects of its size.<ref name="Kiss2016" /> A 2016 study placed constraints on the possible shape of Nereid, and they found that it is at most only moderately elongated, with a maximum [[aspect ratio]] of 1.3:1. Thermal modeling based on infrared observations from the [[Spitzer Space Telescope|Spitzer]] and [[Herschel Space Observatory|Herschel]] space telescopes, however, favoured more elongated shapes within these constraints.<ref name="Kiss2016" /> The thermal model also indicated that the surface roughness of Nereid is very high, likely similar to the Saturnian moon [[Hyperion (moon)|Hyperion]].<ref name="Kiss2016" />
+
+Nereid may have some amount of [[albedo]] variation on its surface, as some of the observed brightness variations may be too large to be able to be explained purely by shape effects, even if Nereid had unrealistically elongated dimensions.<ref name="Schaefer&Schaefer2000" /><ref name="Hesselbrock2013" /> It has been suggested that it may have a hemisphere that is much darker than the other, like [[Iapetus (moon)|Iapetus]].<ref name="Schaefer&Schaefer2000" />
+
+Nereid exhibits an exceptionally large [[opposition surge]] of 0.43 magnitude, which may partially explain some of the large brightness variations reported in the past.<ref name="Shaefer2008" /><ref>{{Cite journal |last=Schaefer |first=B |date=May 2001 |title=Photometric Light Curve for Nereid in 1998: A Prominent Opposition Surge |journal=Icarus |language=en |volume=151 |issue=1 |pages=112–117 |doi=10.1006/icar.2001.6595|bibcode=2001Icar..151..112S}}</ref> This is likely predominantly caused by [[coherent backscattering]], with an unknown contribution from [[Opposition surge#Shadow hiding|shadow hiding]].<ref name="Shaefer2008" /> A study found at low [[Phase angle (astronomy)|phase angles]], Nereid's [[Phase curve (astronomy)|phase curve]] exhibits non-linear behaviour, unlike all other [[Trans-Neptunian object|trans-Neptunian objects]] and [[Centaur (small Solar System body)|centaurs]] they observed.<ref>{{Cite journal |last1=Rabinowitz |first1=David L. |last2=Schaefer |first2=Bradley E. |last3=Tourtellotte |first3=Suzanne W. |date=January 2007 |title=The Diverse Solar Phase Curves of Distant Icy Bodies. I. Photometric Observations of 18 Trans-Neptunian Objects, 7 Centaurs, and Nereid |journal=The Astronomical Journal |language=en |volume=133 |issue=1 |pages=26–43 |doi=10.1086/508931 |issn=0004-6256 |doi-access=free|bibcode=2007AJ....133...26R|arxiv=astro-ph/0605745|s2cid=119406900}}</ref> 
+
+[[Electromagnetic spectrum|Spectrally]], Nereid appears neutral in colour<ref name="GravHolmanFraser2004" /> and [[Ice|water ice]] has been detected on its surface.<ref name="BrownKoreskoBlake" /> [[Halimede (moon)|Halimede]], which displays a similar gray neutral colour, may be a fragment of Nereid that was broken off during a collision.<ref name="GravHolmanFraser2004" /> Early work in the 1990s found that Nereid's spectrum appears to be intermediate between [[Uranus]]'s moons [[Titania (moon)|Titania]] and [[Umbriel]], suggesting that its surface is composed of a mixture of water ice and some spectrally neutral material.<ref name="BrownKoreskoBlake" /> While irregular satellites appear to resemble Kuiper belt objects, spectroscopy performed by the [[James Webb Space Telescope]] has demonstrated that Nereid does not match the observed [[Trans-Neptunian spectral types|spectral types of Kuiper belt objects]].
+
+== Orbit and rotation ==
+=== Orbit ===
+[[File:Nereid's orbit around Neptune.svg|thumb|240px|Nereid's highly eccentric orbit around Neptune.]]
+Nereid [[orbit]]s [[Neptune]] in the [[Retrograde motion|prograde]] direction at an [[semimajor axis|average distance]] of {{convert|5.51|e6km|e6mi|abbr=off}}, roughly 15–16 times farther than that of Triton, and it takes almost one [[Earth year]] to complete an orbit. Its very high [[eccentricity (orbit)|eccentricity]] of 0.75 takes it as close as {{convert|1.37|e6km|e6mi|abbr=off}} and as far as {{convert|9.65|e6km|e6mi|abbr=off}}.<ref name="Yuan2021"/> Its orbit has a modest inclination of 7.1° to the [[Laplace plane]],<ref name="Yuan2021" /> but the tilt is larger relative to Neptune's equator at 28.4°.<ref name="Belyakov2026" />
+
+Even comparing to irregular satellites, Nereid's orbit is unusual. It has the second-most eccentric orbit of all known moons in the [[Solar System]], after [[S/2023 S 38]].<ref name="JPL-SSD-Neptune" /> No irregular moon has an inclination less than 26°, except for Nereid.<ref name="denk" /> It also has the lowest average distance and the closest approach at periapsis of any irregular moon, excluding Triton.<ref name="Belyakov2026" />
+
+Due to Nereid's large size, it has a very high chance of colliding with other irregular moons in its orbital space over the lifetime of the Solar System. Anything that impacted Nereid would be presumably much smaller than it and be destroyed, which would deplete the irregular moon population over time. This is the cause of a lack of other irregular moons orbiting Neptune at distances between {{convert|0.01-0.1|au|e6km|abbr=off|order=flip|sigfig=2}}. However, the effect is limited to only this range, so moons orbiting farther than this zone are safe and unlikely to be destroyed.<ref name="Nesvorný2003">{{Cite journal |last1=Nesvorný |first1=David |last2=Alvarellos |first2=Jose L. A. |last3=Dones |first3=Luke |last4=Levison |first4=Harold F. |date=July 2003 |title=Orbital and Collisional Evolution of the Irregular Satellites |journal=The Astronomical Journal |language=en |volume=126 |issue=1 |pages=398–429 |bibcode=2003AJ....126..398N |doi=10.1086/375461 |issn=0004-6256 |doi-access=free}}</ref>
+
+=== Rotation ===
+It is thought that the long term behavioural change in Nereid's brightness is caused by changes in its [[rotation axis]], modifying its orientation over time and changing the observed geometry. 
+
+One suggestion was that its rotation was [[Chaotic rotation|chaotic]] (like [[Hyperion (moon)|Hyperion]]) due to its highly elliptical orbit, which would be possible if Nereid deviated from a perfectly spherical shape by 1% and if its rotation rate was slower than two weeks.<ref>{{Cite journal |last=Dobrovolskis |first=Anthony R. |date=November 1995 |title=Chaotic Rotation of Nereid? |journal=Icarus |language=en |volume=118 |issue=1 |pages=181–198 |doi=10.1006/icar.1995.1184|bibcode=1995Icar..118..181D}}</ref><ref name="Schaefer&Schaefer2000" /> The random changes in its orientation over time would explain the long term inconsistencies. However, such a long rotation period could not explain the short term brightness variation.<ref>{{Cite journal |last1=Alexander |first1=S. G. |last2=Hesselbrock |first2=Andrew J. |last3=Wu |first3=Tiandan |last4=Marshall |first4=Megan D. |last5=Abel |first5=N. P. |date=2011-05-24 |title=On the Rotational Behavior of Nereid |journal=The Astronomical Journal |volume=142 |issue=1 |pages=1 |doi=10.1088/0004-6256/142/1/1 |issn=0004-6256 |doi-access=free |bibcode=2011AJ....142....1A }}</ref> Another idea was that its axis of rotation was in the state of forced [[precession]] (like that of the [[precession of the equinoxes]]). This would imply that the long term brightness variations are periodic in nature, cycling between active and inactive periods. To precess fast enough to account for the observed differences over the years (with a precession period in the order of decades), a very elongated shape of Nereid would be required, with an axis ratio at least 1.9:1, as well as relatively long rotation periods of several days in length.<ref name="Shaefer2008" /><ref name="Hesselbrock2013" />
+
+In 2016, a clear rotation period of 11.594 ± 0.017&nbsp;hours was determined based on extended observations with the [[Kepler space telescope]]. This rotation is far too fast to allow for significant forced precession regardless of shape, with a precession period of hundreds of years,<ref name="Kiss2016" /> and also rules out a chaotic rotation state.<ref name="GravHolmanKavelaars2003" /><ref name="Terai&Itoh2013" /> The observing group instead proposed that the long term variation was simply from the changing point of view from Earth of Nereid's rotation axis as Neptune moved along its orbit.<ref name="Kiss2016" /> It was also suggested that Nereid's rotation axis was at the time most likely pointed 30° away from the direction of Earth. However, they still could not explain the very large variations observed in decades past, as their modelling only allowed for a maximum deviation of ~0.13 magnitudes.<ref name="Kiss2016" />
+
+Previous predictions for a longer rotation period were partly based on the expectation that if Nereid originally formed around Neptune, or was captured in early times, its rotation should have been [[Tidal acceleration|slowed down by tidal effects]].<ref name="Kiss2016" /><ref name="Dobrovolskis2003"/> Nereid's fast rotation, which is typical for an irregular satellite,<ref name="GravHolmanKavelaars2003" /> indicates that its rotation may have been reset later by a collision or that its capture by Neptune may have been relatively late.<ref name="Kiss2016" />
+
+== Origin and classification ==
+There are two main competing theories to explain the origin of Nereid. It may be either a [[Gravitational capture|captured]] [[Kuiper belt object]], or it was an [[inner moon]] in the past and was perturbed during the capture of Neptune's largest moon [[Triton (moon)|Triton]].<ref name="BrownKoreskoBlake" /> A study in 2026 found that Nereid's spectrum is markedly different from [[Distant minor planet|minor planets of the outer Solar System]], suggesting that it formed around Neptune rather than being a captured body.<ref name="Belyakov2026" /> If this conclusion is proven to be true, it would mean that Nereid is the last remaining intact original moon of Neptune to have survived [[Capture of Triton|Triton's destructive arrival]].<ref name="Belyakov2026" /><ref name="Brozović2020" />
+
+Nereid is sometimes classified as an [[irregular satellite]],<ref name="Brozović2020" /> because like all irregular satellites, Nereid has a distant, highly elliptical, and highly inclined orbit far away from Neptune's equatorial plane. However, due to its potential in-situ formation, its unique orbital properties, and being unusually large, it may be considered a perturbed [[regular satellite]] instead.<ref name="SheppardJewittKleyna2006" /> Nereid is often excluded or otherwise distinguished from the other more "normal" irregular satellites.<ref name="SheppardJewittKleyna2006" /><ref name="Nicholson2008" /><ref>{{Cite journal |last1=Brozović |first1=Marina |last2=Jacobson |first2=Robert A. |date=2022-05-01 |title=Orbits of the Irregular Satellites of Uranus and Neptune |journal=The Astronomical Journal |volume=163 |issue=5 |page=241 |doi=10.3847/1538-3881/ac617f |issn=0004-6256 |doi-access=free|bibcode=2022AJ....163..241B}}</ref>
+
+== Exploration ==
+The only spacecraft to visit Nereid was ''[[Voyager 2]]'', which passed it while it was at the farthest point of its orbit.<ref name="Shaefer2008" /> Its closest approach was at a distance of {{convert|4700000|km|mi|abbr=on}}<ref name="JonesB1991" /> between 20 April and 19 August 1989.<ref name="Jacobson1991" /> It obtained 83 images with observation accuracies of {{convert|70|km|mi|abbr=on}} to {{convert|800|km|mi|abbr=on}}.<ref name="Jacobson1991" /> Prior to ''Voyager 2'''s arrival, observations of Nereid had been limited to ground-based observations that could only establish its intrinsic brightness and [[orbital elements]].<ref name="NASA-Pic" /> Although the images obtained by it do not have a high enough resolution to allow surface features to be distinguished, ''Voyager 2'' was able to measure the size of Nereid and found that it was grey in colour and had a higher [[albedo]] than Neptune's other small satellites.<ref name="Smith Soderblom et al. 1989" />
+
+If selected, the Arcanum mission<ref>{{cite journal | doi=10.1017/aer.2023.114 | title=Concept of operations for the Neptune system mission Arcanum | date=2024 | last1=McKevitt | first1=J.E. | last2=Beegadhur | first2=S. | last3=Ayin-Walsh | first3=L. | last4=Dixon | first4=T. | last5=Criscola | first5=F. | last6=Patadia | first6=D. | last7=Bulla | first7=S. | last8=Galinzoga | first8=J. | last9=Wadsworth | first9=B. | last10=Bornberg | first10=C. | last11=Sharma | first11=R. | last12=Moore | first12=O. | last13=Kent | first13=J. | last14=Zaripova | first14=A. | last15=Parkinson-Swift | first15=J. | last16=Laad | first16=A. | journal=The Aeronautical Journal | volume=128 | issue=1321 | pages=469–488 | doi-access=free | bibcode=2024AeJ...128..469M }}</ref> would do a flyby of Nereid before its primary purposes of orbiting Neptune and observing Triton.<ref>{{cite arXiv | last1=McKevitt | first1=James | last2=Bulla | first2=Sophie | last3=Dixon | first3=Tom | last4=Criscola | first4=Franco | last5=Parkinson-Swift | first5=Jonathan | last6=Bornberg | first6=Christina | last7=Singh | first7=Jaspreet | last8=Patel | first8=Kuren | last9=Laad | first9=Aryan | last10=Forder | first10=Ethan | last11=Ayin-Walsh | first11=Louis | last12=Beegadhur | first12=Shayne | last13=Wedde | first13=Paul | author14=Bharath Simha Reddy Pappula | last15=McDougall | first15=Thomas | last16=Foghis | first16=Madalin | last17=Kent | first17=Jack | last18=Morgan | first18=James | last19=Raj | first19=Utkarsh | last20=Heinreichsberger | first20=Carina | eprint=2106.09409 | title=An L-class Multirole Observatory and Science Platform for Neptune | date=2021 | class=astro-ph.IM }}</ref>
+
+== See also ==
+* [[Moons of Neptune]]
+* [[Capture of Triton]]
+
+== References ==
+<references>
+<ref name="Kuiper 1949">
+{{cite journal| doi = 10.1086/126166| last = Kuiper | first = G. P.| date=August 1949 | title = The Second Satellite of Neptune| journal = Publications of the Astronomical Society of the Pacific| volume = 61| issue = 361 | pages = 175–176| bibcode = 1949PASP...61..175K| doi-access = free|bibcode-access=free|author-link=Gerard Kuiper}}
+</ref>
+<ref name="JPL-SSD-Neptune">
+{{cite web
+ |author      = Jacobson, R. A. — AJ
+ |date        = 2025-10-15
+ |title       = Planetary Satellite Mean Orbital Parameters
+ |work        = JPL satellite ephemeris
+ |publisher   = [[JPL]] (Solar System Dynamics)
+ |url         = https://ssd.jpl.nasa.gov/sats/elem/
+ |access-date  = 2025-10-15}}</ref>
+<ref name="GravHolmanKavelaars2003">
+{{cite journal
+ | last1 = Grav
+| first1 = Tommy
+| last2 = Holman
+| first2 = Matthew J.
+| last3 = Kavelaars
+| first3 = J. J.
+| title = The Short Rotation Period of Nereid
+| journal = The Astrophysical Journal
+| date = 2003
+| volume = 591
+| issue = 1
+| pages = 71–74
+| arxiv = astro-ph/0306001
+| doi = 10.1086/377067
+| bibcode = 2003ApJ...591L..71G| s2cid = 8869351
+|doi-access=free}}</ref>
+<ref name="Smith Soderblom et al. 1989">
+{{cite journal| doi = 10.1126/science.246.4936.1422| last1 = Smith| first1 = B. A.| last2 = Soderblom| first2 = L. A.| last3 = Banfield| first3 = D.| last4 = Barnet| first4 = C.| last5 = Basilevsky| first5 = A. T.| last6 = Beebe| first6 = R. F.| last7 = Bollinger| first7 = K.| last8 = Boyce| first8 = J. M.| last9 = Brahic| first9 = A.| year = 1989| title = Voyager 2 at Neptune: Imaging Science Results| journal = Science| volume = 246| issue = 4936| pages = 1422–1449| bibcode = 1989Sci...246.1422S| pmid = 17755997| s2cid = 45403579| ref = {{sfnRef|Smith Soderblom et al.|1989}}| url = https://zenodo.org/record/1230992}}</ref>
+<ref name="BrownKoreskoBlake">
+{{cite journal
+| last1 = Brown
+| first1 = Michael E.
+| last2 = Koresko
+| first2 = Christopher D.
+| last3 = Blake
+| first3 = Geoffrey A.
+| title = Detection of Water Ice on Nereid
+| journal = [[The Astrophysical Journal]]
+| volume = 508
+| issue = 2
+| pages = L175–L176
+| date = December 1998
+| doi = 10.1086/311741
+| pmid = 11542819
+| bibcode=1998ApJ...508L.175B
+| s2cid = 17451226}}</ref>
+<ref name="Williams1991">
+{{cite journal
+| last1 = Williams
+| first1 = I.P.
+| last2 = Jones | first2 = D.H.P.
+| last3 = Taylor | first3 = D.B.
+| title = The rotation period of Nereid
+| journal = [[Monthly Notices of the Royal Astronomical Society]]
+| volume = 250
+| pages = 1P–2P
+| date = 1991
+| bibcode = 1991MNRAS.250P...1W
+| doi=10.1093/mnras/250.1.1p| doi-access = free
+}}</ref>
+<ref name="Shaefer2008">
+{{cite journal
+| last1 = Schaefer
+| first1 = Bradley E.
+| author-link = Bradley Schaefer
+| last2 = Tourtellotte | first2 = Suzanne W.
+| last3 = Rabinowitz | first3 = David L.
+| last4 = Schaefer | first4 = Martha W.
+| title = Nereid: Light curve for 1999–2006 and a scenario for its variations
+| journal = [[Icarus (journal)|Icarus]]
+| volume = 196
+| issue = 1
+| pages = 225–240
+| date = 2008
+| bibcode = 2008Icar..196..225S
+| doi = 10.1016/j.icarus.2008.02.025
+| arxiv = 0804.2835| s2cid = 119267757
+}}</ref>
+<ref name="GravHolmanFraser2004">
+{{cite journal| doi = 10.1086/424997| last1 = Grav| first1 = Tommy| last2 = Holman| first2 = Matthew J.| author-link2 = Matthew J. Holman| last3 = Fraser| first3 = Wesley C.| date = 2004-09-20| title = Photometry of Irregular Satellites of Uranus and Neptune| journal = [[The Astrophysical Journal]]| volume = 613| issue = 1| pages = L77–L80| arxiv = astro-ph/0405605| bibcode = 2004ApJ...613L..77G| s2cid = 15706906|doi-access=free}}</ref>
+<ref name="JonesB1991">
+{{cite book
+| last = Jones
+| first = Brian
+| title = Exploring the Planets
+| publisher = W.H. Smith
+| date = 1991
+| location = Italy
+| pages = [https://archive.org/details/exploringplanets0000jone/page/59 59]
+| isbn = 978-0-8317-6975-8
+| url = https://archive.org/details/exploringplanets0000jone/page/59
+}}</ref>
+<ref name="Jacobson1991">
+{{cite journal
+| last = Jacobson
+| first = R.A.
+| title = Triton and Nereid astrographic observations from Voyager 2
+| journal = Astronomy and Astrophysics Supplement Series
+| volume = 90
+| issue = 3
+| pages = 541–563
+| date = 1991
+| bibcode = 1991A&AS...90..541J|bibcode-access=free}}</ref>
+<ref name="NASA-Pic">
+{{cite web
+| title = PIA00054: Nereid
+| publisher = [[NASA]]
+| date = 1996-01-29
+| url = https://www.jpl.nasa.gov/images/pia00054-nereid/
+| access-date = 2009-11-08}}</ref>
+<ref name="Kiss2016">{{cite journal
+| title = Nereid from space: Rotation, size and shape analysis from K2, Herschel and Spitzer observations
+| display-authors = etal
+| first1 = C. |last1 = Kiss
+| first2 = A. |last2 = Pál
+| first3 = A. I. |last3 = Farkas-Takács
+| first4 = G. M. |last4 = Szabó
+| first5 = R. |last5 = Szabó
+| first6 = L. L. |last6 = Kiss
+| date = April 2016
+| journal = Monthly Notices of the Royal Astronomical Society
+| volume = 457
+| issue = 3
+| pages = 2908–2917
+| doi = 10.1093/mnras/stw081
+| doi-access = free
+| arxiv = 1601.02395
+| bibcode = 2016MNRAS.457.2908K|s2cid=54602372}}</ref>
+<ref name="SheppardJewittKleyna2006">{{Cite journal |last1=Sheppard |first1=Scott S. |last2=Jewitt |first2=David |last3=Kleyna |first3=Jan |date=July 2006 |title=A Survey for "Normal" Irregular Satellites around Neptune: Limits to Completeness |journal=The Astronomical Journal |language=en |volume=132 |issue=1 |pages=171–176 |arxiv=astro-ph/0604552 |bibcode=2006AJ....132..171S |doi=10.1086/504799 |issn=0004-6256 |s2cid=154011 |doi-access=free}}</ref>
+<ref name="Nicholson2008">{{Cite book |last1=Nicholson |first1=Philip D. |author-link1=Phil Nicholson |title=The Solar System Beyond Neptune |last2=Ćuk |first2=Matija |last3=Sheppard |first3=Scott S. |author-link3=Scott S. Sheppard |last4=Nesvorný |first4=David |last5=Johnson |first5=Torrence V. |date=May 8, 2008 |publisher=[[University of Arizona Press]] |isbn=978-0-8165-2755-7 |editor-last=Barucci |editor-first=M. A. |series=The University of Arizona Space Science |chapter=Irregular Satellites of the Giant Planets |bibcode=2008ssbn.book..411N |editor-last2=Boehnhardt |editor-first2=H. |editor-last3=Cruikshank |editor-first3=D. P. |editor-last4=Morbidelli |editor-first4=A. |chapter-url=https://web.gps.caltech.edu/~mbrown/out/kbbook/Chapters/Nicholson_IrregSat.pdf }}</ref>
+<ref name="Belyakov2026">{{cite journal |last1=Belyakov |first1=Matthew |last2=Davis |first2=M. Ryleigh |last3=Wong |first3=Ian |last4=Batygin |first4=Konstantin |author-link4=Konstantin Batygin |last5=Brown |first5=Michael E. |author-link5=Michael E. Brown |date=2026-05-20 |title=Nereid as a regular satellite of Neptune |journal=Science Advances |volume=12 |issue=21 |article-number=eaeb1429 |doi=10.1126/sciadv.aeb1429 |language=en|arxiv=2606.02818 |issn=2375-2548 |pmc=13189092 |pmid=42160409 |doi-access=free|bibcode=2026SciA...12b1429B|s2cid=288562699}}</ref>
+<ref name="Sharkey2021">{{Cite journal |last1=Sharkey |first1=Benjamin N. L. |last2=Reddy |first2=Vishnu |last3=Sanchez |first3=Juan A. |last4=Izawa |first4=Matthew R. M. |last5=Harris |first5=Walter M. |date=2021-08-01 |title=Complex Water-ice Mixtures on NII Nereid: Constraints from NIR Reflectance |journal=The Planetary Science Journal |volume=2 |issue=4 |pages=143 |doi=10.3847/PSJ/ac0bbe |issn=2632-3338 |doi-access=free|bibcode=2021PSJ.....2..143S|arxiv=2106.12084|s2cid=235606287}}</ref>
+<ref name="Hesselbrock2013">{{Cite journal |last1=Hesselbrock |first1=Andrew J. |last2=Alexander |first2=S. G. |last3=Harp |first3=Thomas W. |last4=Abel |first4=N. P. |date=2013-04-19 |title=An Investigation of the Relationship Between Shape and Rotation to Explain the Light Curve of Nereid |journal=The Astronomical Journal |volume=145 |issue=6 |pages=144 |doi=10.1088/0004-6256/145/6/144 |issn=0004-6256 |doi-access=free|bibcode=2013AJ....145..144H}}</ref>
+<ref name="Schaefer&Schaefer2000">{{Cite journal |last1=Schaefer |first1=Bradley E. |last2=Schaefer |first2=Martha W. |date=August 2000 |title=Nereid Has Complex Large-Amplitude Photometric Variability |journal=Icarus |language=en |volume=146 |issue=2 |pages=541–555 |doi=10.1006/icar.2000.6417 |doi-access=free|bibcode=2000Icar..146..541S|arxiv=astro-ph/0005050|s2cid=119337454}}</ref>
+<ref name="Buratti1997">{{Cite journal |last1=Buratti |first1=B |last2=Goguen |first2=J |last3=Mosher |first3=J |date=March 1997 |title=No Large Brightness Variations on Nereid |journal=Icarus |language=en |volume=126 |issue=1 |article-number=IS965644 |pages=225–228 |bibcode=1997Icar..126..225B |doi=10.1006/icar.1996.5644|hdl=2014/25213}}</ref>
+<ref name="Terai&Itoh2013">{{Cite journal |last1=Terai |first1=Tsuyoshi |last2=Itoh |first2=Yoichi |date=2013-04-25 |title=High-Precision Measurements of the Brightness Variation of Nereid |journal=Publications of the Astronomical Society of Japan |language=en |volume=65 |issue=2 |article-number=46 |arxiv=1212.0597 |bibcode=2013PASJ...65...46T |doi=10.1093/pasj/65.2.46 |issn=2053-051X |s2cid=119228309}}</ref>
+<ref name="denk">{{cite web |url=https://tilmanndenk.de/outersaturnianmoons/ |title=Outer Moons of Saturn |last=Denk |first=Tilmann |date=2024 |website=tilmanndenk.de |access-date=25 February 2024 |quote=}}</ref>
+<ref name="Brozović2020">{{cite journal|title= Orbits and resonances of the regular moons of Neptune|first1=M. |last1=Brozović|first2=M. R. |last2=Showalter|first3=R. A. |last3=Jacobson|first4=R. S. |last4=French|first5=J. J. |last5=Lissauer|first6=I. |last6=de Pater|journal= Icarus|date= March 2020|volume=338|article-number=113462|doi= 10.1016/j.icarus.2019.113462|arxiv= 1910.13612|bibcode=2020Icar..33813462B |s2cid=204960799 }}</ref>
+<ref name="Dobrovolskis2003">{{Cite conference |last=Dobrovolskis |first=A. R. |date=May 2003 |title=Nereid's Story |conference=American Astronomical Society, DPS meeting #35 |volume=35 |pages=958 |bibcode=2003DPS....35.2305D |id=23.05}}</ref>
+<ref name="Yuan2021">{{Cite journal |last1=Yuan |first1=Ye |last2=Li |first2=Fan |last3=Fu |first3=Yanning |last4=Chen |first4=Jian |date=October 2021 |title=The orbits of Triton and Nereid and the pole orientation of Neptune from Voyager, Hubble Space Telescope, and Earth-based astrometry in 1847–2020 |journal=Astronomy & Astrophysics |volume=654 |pages=A66 |doi=10.1051/0004-6361/202140739 |issn=0004-6361|bibcode=2021A&A...654A..66Y|doi-access=free|s2cid=243212661}}</ref>
+</references>
+
+{{Moons of Neptune|state=uncollapsed}}
+{{Solar System moons (compact)}}
+{{Neptune}}{{Solar System}}{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar system}}
+
+{{DEFAULTSORT:Nereid (Moon)}}
+[[Category:Moons of Neptune]]
+[[Category:Irregular satellites]]
+[[Category:Astronomical objects discovered in 1949|19490501]]
+[[Category:Discoveries by Gerard Kuiper]]
+[[Category:Moons with a prograde orbit]]

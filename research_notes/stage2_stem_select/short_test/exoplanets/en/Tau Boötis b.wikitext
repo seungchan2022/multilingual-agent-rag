@@ -1,0 +1,137 @@
+{{Short description|Hot Jupiter orbiting Tau Boötis A}}
+{{Infobox planet
+| name                     = Tau Boötis b
+| image                    = Artist’s impression of the exoplanet Tau Bootis b.jpg
+| caption                  = Artist's impression of Tau Boötis b orbiting close to its parent star.
+<!-- DISCOVERY           -->
+| discovery_ref            = <ref name="Butler1997"/>
+| discoverer               = [[R. Paul Butler|Butler]] ''et al.''
+| discovery_site           = [[Lick Observatory]]
+| discovered               = 1996
+| discovery_method         = [[Doppler spectroscopy]]
+<!-- DESIGNATIONS        -->
+<!-- ORBITAL             -->
+| orbit_ref                = 
+| apsis                    = astron
+| semimajor                = {{val|0.04869|0.00039|0.00040}}<ref name=Rosenthal2021/> [[astronomical unit|AU]]
+| eccentricity             = {{val|0.0074|0.0059|0.0048}}<ref name=Rosenthal2021/>
+| period                   = {{val|3.3124568|0.000033}}<ref name=Justesen2019/> days
+| inclination              = {{val|41.6|1.0|0.9|u=deg}}<ref name=Webb2022/>
+| time_periastron          = [[Modified Julian date|MJD]] {{val|56401.8797|0.0036|fmt=commas}}
+| arg_peri                 = {{val|171.4|5.7|6.9|u=deg}}<ref name=Huang2025/>
+| semi-amplitude           = {{val|106.21|1.76|1.71|ul=km/s}}<ref name=Webb2022/>
+| star                     = [[Tau Boötis]] A
+<!-- PHYS CHARS          -->
+| mean_radius              = 1.2 {{Jupiter radius|link=y}} (assumed)<ref name=Webb2022/>
+| mass                     = {{val|6.24|0.17|0.18|ul=Jupiter mass}}<ref name=Webb2022/>
+| single_temperature       = {{convert|1700|K|C F}}{{cn|date=April 2026}}
+<!-- ATMOSPHERE          -->
+<!-- NOTES               -->
+}}
+'''Tau Boötis b''', or more precisely '''Tau Boötis Ab''', is an [[extrasolar planet]] approximately 51 [[light-year]]s away, around the primary star of the [[Tau Boötis]] system in the [[constellation]] of [[Boötes]]. It was one of the first exoplanets to be discovered. It is a [[hot Jupiter]], with about six times the mass of Jupiter and completing an orbit around its star in just 3.3 days.
+
+== Discovery ==
+Discovered in 1996, the planet is one of the first extrasolar planets found. It was discovered orbiting the star Tau Boo (HR 5185) by [[R. Paul Butler|Paul Butler]] and his team ([[San Francisco Planet Search Project]])<ref name="Butler1997"/> using the highly successful [[radial velocity]] method. Since the star is visually bright and the planet is massive, it produces a very strong velocity signal of [[Orders of magnitude (speed)|469]] ± 5 metres per second, which was quickly confirmed by [[Michel Mayor]] and [[Didier Queloz]] from data collected over 15 years. It was later confirmed also by the [[AFOE Planet Search Team]].
+
+The planet and its host star was one of the planetary systems selected by the [[International Astronomical Union]] as part of [[NameExoWorlds]], their public process for giving proper names to exoplanets and their host star (where no proper name already exists).<ref>[http://www.iau.org/news/pressreleases/detail/iau1404/ NameExoWorlds: An IAU Worldwide Contest to Name Exoplanets and their Host Stars] {{Webarchive|url=https://web.archive.org/web/20170904221813/https://www.iau.org/news/pressreleases/detail/iau1404/ |date=2017-09-04 }}. IAU.org. 9 July 2014</ref><ref>[http://nameexoworlds.iau.org/exoworlds NameExoWorlds] {{Webarchive|url=https://web.archive.org/web/20161231043737/http://nameexoworlds.iau.org/exoworlds |date=2016-12-31 }}.</ref> The process involved public nomination and voting for the new names, and the IAU planned to announce the new names in mid-December 2015.<ref>{{Cite web |title=NameExoWorlds |url=http://nameexoworlds.iau.org/process |archive-url=https://web.archive.org/web/20190601071306/http://nameexoworlds.iau.org/process |archive-date=2019-06-01 |access-date=2024-12-31 |website=nameexoworlds.iau.org |url-status=dead }}</ref> However, the IAU annulled the vote as the winning name was judged not to conform with the IAU rules for naming exoplanets.<ref>[http://www.iau.org/news/pressreleases/detail/iau1514/ Final Results of NameExoWorlds Public Vote Released] {{Webarchive|url=https://web.archive.org/web/20171202072549/http://www.iau.org/news/pressreleases/detail/iau1514/ |date=2017-12-02 }}, International Astronomical Union, 15 December 2015.</ref>
+
+== Orbit and mass ==
+[[File:Tau Boötis b.jpg|thumb|left|[[Very Large Telescope|VLT]]'s wide-field view of the parent star of Tau Boötis b<ref>{{cite news|title=New Way of Probing Exoplanet Atmospheres|url=http://www.eso.org/public/news/eso1227/|access-date=28 June 2012|newspaper=ESO Press Release}}</ref>]]
+Tau Boötis b is rather massive, with a [[minimum mass]] over four times that of [[Jupiter]]. It orbits the star at a distance less than one seventh that of [[Mercury (planet)|Mercury]]'s from the [[Sun]]. One orbital revolution takes only 3 days 7.5 hours to complete. Because τ Boo is hotter and larger than the Sun and the planet's orbit is so small, it is assumed to be hot. Assuming the planet is perfectly [[grey body|grey]] with no [[Greenhouse effect]] or [[Tidal force#Effects|tidal effects]], and a [[Bond albedo]] of 0.1, the temperature would be close to 1600 [[Kelvin|K]].<ref name="vsi">{{cite book |doi=10.1117/12.790494 |series=Proceedings of SPIE |date=2008 |last1=Renard |first1=Stéphanie |last2=Absil |first2=Olivier |last3=Berger |first3=Jean-Philippe |last4=Bonfils |first4=Xavier |last5=Forveille |first5=Thierry |last6=Malbet |first6=Fabien |chapter=Prospects for near-infrared characterisation of hot Jupiters with the VLTI Spectro-Imager (VSI) | title=Optical and Infrared Interferometry |volume=7013 |pages=70132Z–70132Z–10 |arxiv=0807.3014 |chapter-url=http://orbi.ulg.ac.be/bitstream/2268/30158/1/SPIE_poster.pdf |bibcode=2008SPIE.7013E..2ZR |s2cid=119268109 }}</ref> Although it has not been detected directly, it is certain that the planet is a [[gas giant]].
+As Tau Boötis b is more massive than most known "[[hot Jupiter]]s", it was speculated that it was originally a [[brown dwarf]], a failed star, which could have lost most of its atmosphere from the heat of its larger companion star. However, this seems very unlikely. Still, such a process has actually been detected on the famous [[transit (astronomy)|transiting]] planet [[HD 209458 b]].
+
+In December 1999, a group led by [[Andrew Collier Cameron]] had announced that they had detected reflected light from the planet. They calculated that the orbit of the planet has an [[inclination]] of 29° and thus the absolute mass of the planet would be about 8.5 times that of Jupiter. They also suggested that the planet is blue in color.<ref name="CollierCameron1999"/> As a result it was nicknamed the "Millennium Planet" in the media.<ref name="millennium"/> Unfortunately, their observations could not be confirmed and were later proved to be spurious.<ref name="CollierCameron2001"/>
+
+A better estimate came from the assumption of [[tidal locking|tidal lock]] with the star, which rotates at 40 degrees;<ref name="leigh2003"/> fixing the planet's mass between 6 and 7 Jupiter masses. In 2007, magnetic field detection confirmed this estimate.<ref name="catala2007"/>
+
+In 2012 two teams independently distinguished the [[Doppler spectroscopy|radial velocity]] of the planet from the radial velocity of the star by observing the shifting of the [[spectral line]]s of [[carbon monoxide]]. This enabled calculation of the inclination of the planet's orbit and hence the planet's mass. One team found an inclination of 44.5±1.5 degrees and a mass of {{Jupiter mass|5.95±0.28}}.<ref name=Brogi2012/> The other team found an inclination of 47<sub>−6</sub><sup>+7</sup> and a mass of {{Jupiter mass|5.6±0.7}}.<ref name="Rodler2012"/>
+
+== Characteristics ==
+[[File:Tau Bootis b.jpg|right|thumb|Artist impression of the magnetic field around Tau Boötis b detected in 2020.]]The temperature of Tau Boötis b probably inflates its radius higher (1.2 times) than Jupiter's. Since no reflected light has been detected, the planet's [[albedo]] must be less than 0.37.<ref name="leigh2003"/><ref name="lucas2009"/> The albedo constraint was tightened to less than 0.12 by 2021.<ref>{{citation|arxiv=2101.07411|year=2021|title=Polarization of hot Jupiter systems: A likely detection of stellar activity and a possible detection of planetary polarization|doi=10.1093/mnras/stab172 |last1=Bailey |first1=Jeremy |last2=Bott |first2=Kimberly |last3=Cotton |first3=Daniel V. |last4=Kedziora-Chudczer |first4=Lucyna |last5=Zhao |first5=Jinglin |last6=Evensberget |first6=Dag |last7=Marshall |first7=Jonathan P. |last8=Wright |first8=Duncan |last9=Lucas |first9=P. W. |journal=Monthly Notices of the Royal Astronomical Society |volume=502 |issue=2 |pages=2331–2345 |doi-access=free }}</ref> At 1600 K, it is (like [[HD 179949 b|Mastika]]) supposed to be hotter than [[HD 209458 b]] (formerly predicted 1392K) and possibly even [[HD 149026 b|Smertrios]] (predicted 1540 K from higher albedo 0.3, then actually measured at 2300 K). Tau Boötis b's predicted [[Sudarsky's gas giant classification |Sudarsky class]] is V; which is supposed to yield a highly reflective albedo of 0.55.
+
+It has been a candidate for "near-infrared characterization.... with the [[VLTI]] Spectro-Imager".<ref name="vsi" /> When its atmosphere was measured in 2011, "the new observations indicated an atmosphere with a temperature that falls higher up. This result is the exact opposite of the temperature inversion – an increase in temperature with height – found for other hot Jupiter exoplanets".<ref name="newway" /> In 2014, direct detection of [[water vapor]] in atmosphere of the planet was announced.<ref>{{cite journal |arxiv=1402.0846 |doi=10.1088/2041-8205/783/2/L29 |title=NEAR-IR DIRECT DETECTION OF WATER VAPOR IN TAU BOÖTIS B |date=2014 |last1=Lockwood |first1=Alexandra C. |last2=Johnson |first2=John A. |last3=Bender |first3=Chad F. |last4=Carr |first4=John S. |last5=Barman |first5=Travis |last6=Richert |first6=Alexander J. W. |last7=Blake |first7=Geoffrey A. |journal=The Astrophysical Journal |volume=783 |issue=2 |pages=L29 |bibcode=2014ApJ...783L..29L }}</ref> Later atmosphere characterization in 2021 have resulted in measured carbon abundance similar to that of [[Jupiter]], in the form of 0.35% [[carbon monoxide]] volume admixture to hydrogen-helium atmosphere. The upper limit only of water below 2 parts per million (0.72% of that expected for solar composition) was estimated.<ref>{{citation|arxiv=2105.10513|year=2021|title=Where is the Water? Jupiter-like C/H Ratio but Strong H2O Depletion Found on τ Boötis b Using SPIRou|doi=10.3847/1538-3881/ac0428 |last1=Pelletier |first1=Stefan |last2=Benneke |first2=Björn |last3=Darveau-Bernier |first3=Antoine |last4=Boucher |first4=Anne |last5=Cook |first5=Neil J. |last6=Piaulet |first6=Caroline |last7=Coulombe |first7=Louis-Philippe |last8=Artigau |first8=Étienne |last9=Lafrenière |first9=David |last10=Delisle |first10=Simon |last11=Allart |first11=Romain |last12=Doyon |first12=René |last13=Donati |first13=Jean-François |last14=Fouqué |first14=Pascal |last15=Moutou |first15=Claire |last16=Cadieux |first16=Charles |last17=Delfosse |first17=Xavier |last18=Hébrard |first18=Guillaume |last19=Martins |first19=Jorge H. C. |last20=Martioli |first20=Eder |last21=Vandal |first21=Thomas |journal=The Astronomical Journal |volume=162 |issue=2 |page=73 |bibcode=2021AJ....162...73P |s2cid=235166843 |doi-access=free }}</ref>
+
+In 2020, a radio emission in the 14-30&nbsp;MHz band was detected from the [[Tau Boötis]] system, likely associated with [[cyclotron radiation]] from the poles of Tau Boötis b. This could be a signature of the planet's magnetic field.<ref>{{citation |last1=Turner |first1=Jake D. |title=The search for radio emission from the exoplanetary systems 55 Cancri, υ Andromedae, and τ Boötis using LOFAR beam-formed observations |journal=Astronomy & Astrophysics |volume=645 |pages=A59 |year=2021 |arxiv=2012.07926 |bibcode=2021A&A...645A..59T |doi=10.1051/0004-6361/201937201 |s2cid=212883637 |last2=Zarka |first2=Philippe |last3=Grießmeier |first3=Jean-Mathias |last4=Lazio |first4=Joseph |last5=Cecconi |first5=Baptiste |last6=Emilio Enriquez |first6=J. |last7=Girard |first7=Julien N. |last8=Jayawardhana |first8=Ray |last9=Lamy |first9=Laurent |last10=Nichols |first10=Jonathan D. |last11=De Pater |first11=Imke}}</ref><ref>{{Cite web |last=O'Callaghan |first=Jonathan |date=2023-08-07 |title=Exoplanets Could Help Us Learn How Planets Make Magnetism |url=https://www.quantamagazine.org/exoplanets-could-help-us-learn-how-planets-make-magnetism-20230807/ |access-date=2023-08-07 |website=Quanta Magazine |language=en}}</ref>
+
+== See also ==
+*[[51 Pegasi b]]
+*[[70 Virginis b]]
+*[[55 Cancri b]]
+*[[47 Ursae Majoris b]]
+*[[Upsilon Andromedae b]]
+*[[YZ Ceti]] another extra solar planet with evidence of magnetic fields
+*[[HAT-P-11b]] another extra solar planet with evidence of magnetic fields
+*[[HD 209458 b]] another extra solar planet with evidence of magnetic fields
+*[[List of exoplanets discovered before 2000]]
+
+{{Clear}}
+
+== References ==
+{{Reflist|colwidth=30em|refs=
+
+<ref name="Butler1997">{{cite journal | title=Three New 51 Pegasi Type Planets | last1=Butler | first1=R. Paul | last2=Marcy | first2=Geoffrey W. | last3=Williams | first3=Eric | last4=Hauser | first4=Heather | last5=Shirts | first5=Phil | display-authors=1 | journal=The Astrophysical Journal Letters | date=1997 | volume=474 | issue=2 | pages=L115–L118 | doi=10.1086/310444 | bibcode=1997ApJ...474L.115B| doi-access=free }}</ref>
+
+<ref name=Webb2022>{{Cite journal |last1=Webb |first1=Rebecca K |last2=Gandhi |first2=Siddharth |last3=Brogi |first3=Matteo |last4=Birkby |first4=Jayne L |last5=de Mooij |first5=Ernst |last6=Snellen |first6=Ignas |last7=Zhang |first7=Yapeng |date=2022-08-11 |title=Water observed in the atmosphere of τ Boötis Ab with CARMENES/CAHA |journal=Monthly Notices of the Royal Astronomical Society |volume=514 |issue=3 |pages=4160–4172 |doi=10.1093/mnras/stac1512 |doi-access=free |arxiv=2205.14975 |issn=0035-8711}}</ref>
+
+<ref name=Justesen2019>{{Cite journal |last1=Justesen |first1=A. B. |last2=Albrecht |first2=S. |date=May 2019 |title=Constraining the orbit of the planet-hosting binary τ Boötis: Clues about planetary formation and migration |journal=Astronomy & Astrophysics |volume=625 |pages=A59 |doi=10.1051/0004-6361/201834368  |doi-access=free|arxiv=1812.05885 |bibcode=2019A&A...625A..59J |issn=0004-6361}}</ref>
+
+<ref name=Rosenthal2021>{{Cite journal |last1=Rosenthal |first1=Lee J. |last2=Fulton |first2=Benjamin J. |last3=Hirsch |first3=Lea A. |last4=Isaacson |first4=Howard T. |last5=Howard |first5=Andrew W. |last6=Dedrick |first6=Cayla M. |last7=Sherstyuk |first7=Ilya A. |last8=Blunt |first8=Sarah C. |last9=Petigura |first9=Erik A. |last10=Knutson |first10=Heather A. |last11=Behmard |first11=Aida |last12=Chontos |first12=Ashley |last13=Crepp |first13=Justin R. |last14=Crossfield |first14=Ian J. M. |last15=Dalba |first15=Paul A. |date=2021-07-01 |title=The California Legacy Survey. I. A Catalog of 178 Planets from Precision Radial Velocity Monitoring of 719 Nearby Stars over Three Decades |journal=The Astrophysical Journal Supplement Series |volume=255 |issue=1 |pages=8 |doi=10.3847/1538-4365/abe23c |doi-access=free |arxiv=2105.11583 |bibcode=2021ApJS..255....8R |issn=0067-0049}}</ref>
+
+<ref name=Huang2025>{{Cite journal |last1=Huang |first1=Xiumin |last2=Ji |first2=Jianghui |last3=Bao |first3=Chunhui |last4=Tan |first4=Dongjie |last5=Wang |first5=Su |last6=Dong |first6=Yao |last7=Chen |first7=Guo |date=2025-04-29 |title=Closeby Habitable Exoplanet Survey (CHES). III. Retrieval of Planetary Masses in Binaries Using the <i>N</i>-body Model with Radial Velocity and Astrometry Synergy  |journal=The Astrophysical Journal |volume=984 |issue=1 |pages=82 |doi=10.3847/1538-4357/adc444 |doi-access=free |arxiv=2503.17090 |bibcode=2025ApJ...984...82H |issn=0004-637X}}</ref>
+
+<ref name="CollierCameron1999">{{Cite journal |last1=Collier Cameron |first1=Andrew |last2=Horne |first2=Keith |last3=Penny |first3=Alan |last4=James |first4=David |display-authors=2 |date=December 1999 |title=Probable detection of starlight reflected from the giant planet orbiting τ Boötis |journal=[[Nature (journal)|Nature]] |language=en |volume=402 |issue=6763 |pages=751–755 |doi=10.1038/45451 |issn=0028-0836 |arxiv=astro-ph/9911314 |bibcode=1999Natur.402..751C}}</ref>
+
+<ref name="millennium">{{cite news | title=Scientists catch the 'millennium' planet's glow | author=Steve Connor | url=https://www.independent.co.uk/news/scientists-catch-the-millennium-planets-glow-1132737.html |archive-url=https://web.archive.org/web/20150518095958/http://www.independent.co.uk/news/scientists-catch-the-millennium-planets-glow-1132737.html |archive-date=2015-05-18 |url-access=subscription |url-status=live | newspaper=The Independent | date=16 December 1999 | access-date=26 December 2011 }}</ref>
+
+<ref name="CollierCameron2001">{{Cite conference |last1=Collier Cameron |first1=Andrew |last2=Horne |first2=Keith |last3=James |first3=David |last4=Penny |first4=Alan |last5=Semel |first5=Meir |display-authors=2 |date=December 2000 |title=tau Boo b: Not so bright, but just as heavy |conference=IAU Symposium 202, 'Planetary Systems in the Universe' |arxiv=astro-ph/0012186}}</ref>
+
+<ref name="wang">{{Cite journal |last1=Wang |first1=Ji |last2=Ford |first2=Eric B. |date=2011-12-11 |title=On the Eccentricity Distribution of Short-Period Single-Planet Systems |journal=Monthly Notices of the Royal Astronomical Society |volume=418 |issue=3 |pages=1822–1833 |doi=10.1111/j.1365-2966.2011.19600.x|doi-access=free |arxiv=1108.1811 |bibcode=2011MNRAS.418.1822W }}</ref>
+
+<ref name="catala2007">{{cite journal| title=The magnetic field of the planet-hosting star τ Bootis | last1=Catala | first1=C. | last2=Donati | first2=J.-F. | last3=Shkolnik | first3=E. | last4=Bohlender | first4=D. | last5=Alecian | first5=E. | display-authors=1 | journal=[[Monthly Notices of the Royal Astronomical Society]] | volume=374 | issue=1 | pages=L42–L46 | date=2007 | arxiv=astro-ph/0610758 | bibcode=2007MNRAS.374L..42C | doi=10.1111/j.1745-3933.2006.00261.x | doi-access=free | s2cid=16003580 }}</ref>
+
+<ref name="leigh2003">{{cite journal | title=A new upper limit on the reflected starlight from Tau Bootis b | last1=Leigh | first1=Christopher | last2=Cameron | first2=Andrew Collier | last3=Horne | first3=Keith | last4=Penny | first4=Alan | last5=James | first5=David | display-authors=1 | journal=Monthly Notices of the Royal Astronomical Society | volume=344 | issue=4 | pages=1271–1282 | date=2003 | arxiv=astro-ph/0308413 | bibcode=2003MNRAS.344.1271L | doi=10.1046/j.1365-8711.2003.06901.x | doi-access=free | s2cid=18584158 }}</ref>
+
+<ref name="lucas2009">{{cite journal | title=Planetpol polarimetry of the exoplanet systems 55 Cnc and tau Boo | last1=Lucas | first1=P. W. | last2=Hough | first2=J. H. | last3=Bailey | first3=J. A. | last4=Tamura | first4=M. | last5=Hirst | first5=E. | last6=Harrison | first6=D. | display-authors=1 | journal=Monthly Notices of the Royal Astronomical Society | volume=393 | issue=1 | pages=229–244 | date=2009 | arxiv=0807.2568 | bibcode=2009MNRAS.393..229L | doi=10.1111/j.1365-2966.2008.14182.x | doi-access=free | s2cid=8684361 }}</ref>
+
+<ref name="Rodler2012">{{cite journal | title=Weighing the Non-transiting Hot Jupiter τ Boo b | last1=Rodler | first1=F. | last2=Lopez-Morales | first2=M. | last3=Riba | first3=I. | display-authors=1 | journal=The Astrophysical Journal Letters | volume=753 | issue=1 | at=L25 | date=2012 | arxiv=1206.6197 | bibcode=2012ApJ...753L..25R | doi=10.1088/2041-8205/753/1/L25 | s2cid=119177983 }}</ref>
+
+<ref name="newway">{{Cite web |title=New way of probing exoplanet atmospheres |url=https://www.sciencedaily.com/releases/2012/06/120627132051.htm |access-date=2024-12-31 |website=ScienceDaily |language=en}}</ref>
+
+<ref name=Brogi2012>{{cite journal
+|last=Brogi |first=Matteo
+|author2=Snellen, Ignas A. G.
+|author3=de Kok, Remco J.
+|author4=Albrecht, Simon
+|author5=Birkby, Jayne
+|author6=de Mooij, Ernst J. W.
+|title=The signature of orbital motion from the dayside of the planet τ Boötis b
+|journal=Nature
+|date=28 June 2012
+|volume=486
+|issue=7404
+|pages=502–504
+|doi=10.1038/nature11161
+|bibcode=2012Natur.486..502B|arxiv = 1206.6109
+ |pmid=22739313|s2cid=4368217
+}}</ref>
+
+<ref name=Borsa2015>{{cite journal |last1=Borsa |first1=F. |last2=Scandariato |first2=G. |display-authors=etal |date=June 2015 |title=The GAPS programme with HARPS-N at TNG. VII. Putting exoplanets in the stellar context: magnetic activity and asteroseismology of τ Bootis A |journal=[[Astronomy & Astrophysics]] |volume=578 |issue= |pages=A64 |doi=10.1051/0004-6361/201525741  |doi-access=free|arxiv=1504.00491 |bibcode=2015A&A...578A..64B}}</ref>
+
+}}
+
+== External links ==
+*[https://web.archive.org/web/20050215163220/http://exoplanets.org/esp/tauboo/tauboo.shtml The Planet Around Tau Bootes]
+*[http://cfa-www.harvard.edu/afoe/tauBoo.html AFOE observations of tau Boötis]
+*{{cite web |url=http://www.pparc.ac.uk/Nw/planet.asp |title=New Planet for the New Millennium |access-date=2008-06-07 |date=1999-12-15 |work=Science and Technology Facilities Council |url-status=dead |archive-url=http://webarchive.nationalarchives.gov.uk/20081211234511/https%3A//www.pparc.ac.uk/Nw/planet.asp |archive-date=2008-12-11 }}
+*{{cite web |url=http://www.space.com/scienceastronomy/050523_star_tide.html |title=Role Reversal: Planet Controls a Star |access-date=2008-06-07 |date=2005-05-25 |work=SPACE.com |first=Michael |last=Schirber}}
+
+{{Sky|13|47|15.7|+|17|27|25|50.84}}
+
+[[Category:Boötes]]
+[[Category:Hot Jupiters]]
+[[Category:Giant planets]]
+[[Category:Exoplanets discovered in 1996]]
+[[Category:Exoplanets detected by radial velocity]]
+[[Category:Articles containing video clips]]
+[[Category:Exoplanets orbiting F-type stars]]
+[[Category:Exoplanets orbiting main-sequence stars]]

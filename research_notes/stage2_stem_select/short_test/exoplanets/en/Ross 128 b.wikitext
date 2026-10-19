@@ -1,0 +1,113 @@
+{{Short description|Confirmed terrestrial exoplanet orbiting Ross 128}}
+{{Infobox planet
+| name                     = Ross 128 b
+| image                    = Artist's impression of the planet Ross 128 b.jpg
+| image_scale               =
+| caption                  = Artist's impression of the planet Ross 128 b, with the star Ross 128 in the background.
+<!-- DISCOVERY           -->
+| discovery_ref            = <ref name="1-planet" />
+| discoverer               = Xavier Bonfils
+| discovered               = November 15, 2017
+| discovery_method         = [[Doppler spectroscopy|Radial velocity]]
+<!-- DESIGNATIONS        -->
+<!-- ORBITAL             -->
+| orbit_ref                = <ref name="Liebing2024"/>
+| apsis                    = astron
+| aphelion                 = 
+| perihelion               = 
+| semimajor                = {{val|0.049640|0.000004|ul=AU}}
+| eccentricity             = {{val|0.21|0.09|0.10}}
+| period                   = {{val|9.8556|0.0012|0.0011|ul=d}}
+| semi-amplitude           = {{val|1.41|0.14|ul=m/s}}
+| star                     = [[Ross 128]]
+<!-- PHYS CHARS          --> 
+| mass                     = {{val|1.40|0.13|p=≥|ul=Earth mass}};<ref name="Liebing2024"/><br>{{val|1.8|0.56|0.43|ul=Earth mass}} ''(predicted)''<ref name="TaskerLaneuville2020"/>
+| mean_radius              = {{val|1.6|1.1|0.65|ul=Earth radius}} ''(predicted)''<ref name="TaskerLaneuville2020"/>
+| single_temperature       = {{convert|213–301|K|C F}} ([[equilibrium temperature|equilibrium]])<ref name="1-planet" />
+<!-- ATMOSPHERE          --> 
+<!-- NOTES               --> 
+}}
+'''Ross 128 b''' is a confirmed Earth-sized [[exoplanet]], likely rocky, that is orbiting near the inner edge of the [[Circumstellar habitable zone|habitable zone]] of the [[red dwarf]] star [[Ross 128]], at a distance of {{Convert|11.007|ly|pc|abbr=off|lk=on}} from [[Earth]] in the [[constellation]] of [[Virgo (constellation)|Virgo]].<ref>[https://www.cbsnews.com/news/ross-128-b-earth-like-exoplanet-a-good-spot-to-hunt-for-aliens/ Newfound Earth-like exoplanet a good spot to hunt for aliens]. Eric Mack, ''CBS News''. 15 November 2017.</ref> The exoplanet was found using a decade's worth of radial velocity data using the [[European Southern Observatory]]'s [[HARPS]] [[Optical spectrometer|spectrograph]] (High Accuracy Radial velocity Planet Searcher) at the [[La Silla Observatory]] in Chile. Ross 128 b is the nearest exoplanet around a quiet [[red dwarf]], and is considered one of the best candidates for [[Planetary habitability|habitability]]. The planet is only 35% more massive than [[Earth]], receives only 38% more starlight, and is expected to be a temperature suitable for liquid water to exist on the surface, if it has an atmosphere.<ref name="1-planet">{{cite journal |last=Bonfils |first=Xavier |title=A temperate exo-Earth around a quiet M dwarf at 3.4 parsecs |journal=[[Astronomy and Astrophysics]] |volume=613 |pages=A25 |date=2017 |doi=10.1051/0004-6361/201731973 |doi-access=free|arxiv=1711.06177 |bibcode=2018A&A...613A..25B |s2cid=37148632 }}</ref>
+
+The planet does not [[Astronomical transit|transit]] its [[Planet-hosting star|host star]], which makes atmospheric characterization very difficult.<ref name="1-planet" />
+
+==Physical characteristics==
+===Mass, radius, and temperature===
+Due to it being discovered by the [[Doppler Spectroscopy|radial velocity]] method,<ref name='AstronomyMag'/> the only known physical parameter for Ross 128 b is its minimum possible mass. The planet is at least {{Earth mass|sym=y|1.35}}, or 1.35 times the mass of Earth (about  {{val|8.06|e=24}} [[kilograms|kg]]). This is slightly more massive than the similar and nearby [[Proxima Centauri b]], with a minimum mass of {{Earth mass|sym=y|1.27}}. The low mass of Ross 128 b implies that it is most likely a [[Terrestrial planet|rocky]] Earth-sized planet with a solid surface. However, its radius, and therefore its density, is not known as no transits of this planet have been observed. Ross 128 b would be {{earth radius|0.5}} ([[Earth radius|Earth radii]]) for a pure-iron composition and 3.0 {{Earth_radius}} for a pure hydrogen-helium composition, both implausible extremes. For a more plausible Earth-like composition, the planet would need to be about {{earth radius|1.10}} - i.e., 1.1 times the radius of Earth (approximately {{val|7008|u=km}}). With that radius, Ross 128 b would be slightly denser than Earth, due to how a rocky planet would become more compact as it increases in size. It would give the planet a gravitational pull around  {{val|10.945|u= m/s2}}, or about 1.12 times that of Earth.<ref name="1-planet"/>
+
+A 2019 study predicts a true mass about 1.8 times that of Earth and a radius about 1.6 times that of Earth, with large margins of error.<ref name="TaskerLaneuville2020"/>
+
+Ross 128 b is calculated to have a temperature similar to that of Earth and potentially conducive to the [[Abiogenesis|development of life]].<ref name='AstronomyMag'>[http://www2.astronomy.com/news/2017/11/a-potentially-habitable-planet-11-light-years-away A potentially habitable planet has been discovered just 11 light-years away] {{Webarchive|url=https://web.archive.org/web/20180221031045/http://www2.astronomy.com/news/2017/11/a-potentially-habitable-planet-11-light-years-away |date=2018-02-21 }}. John Wenz, ''Astronomy Magazine''. 15 November 2017.</ref> The discovery team modelled the planet's potential equilibrium temperature using [[albedo]]s of 0.100, 0.367, and 0.750. Albedo is the portion of the light that is reflected instead of absorbed by a celestial object. With these three albedo parameters, Ross 128 b would have a T<sub>eq</sub> of either {{convert|294|K|C F}}, {{convert|269|K|C F}}, or {{convert|213|K|C F}}. For an Earth-like albedo of 0.3, the planet would have an equilibrium temperature of {{convert|280|K|C F}}, about 8 Kelvins lower than Earth's average temperature.<ref name='AstronomyMag'/> The actual temperature of Ross 128 b depends on yet-unknown atmospheric parameters, if it has an atmosphere.<ref name="1-planet"/>
+
+===Host star===
+{{main|Ross 128}}
+[[File:Flying through the Ross 128 planetary system.webm|thumb|Artist's impression of Ross 128 b along with its red dwarf parent star]]
+Ross 128 b orbits the small [[red dwarf]] star known as Ross 128. The star is 17% the mass and 20% the radius of that of the Sun. It has a temperature of {{val|3192|u=K}}, a luminosity of {{solar luminosity|0.00362|link=y}}, and an age of {{val|9.45|0.60|ul=billion years}}. For comparison, the Sun has a temperature of {{val|5772|u=K}} and age of {{val|4.5|ul=billion years}}, making Ross 128 half the temperature and over twice the age. The star is only 11.03 light-years away, making it one of the 20 closest stars known.
+
+In 2018, astronomers, based on near-infrared, high-resolution spectra ([[Sloan Digital Sky Survey#APO Galactic Evolution Experiment (APOGEE)|APOGEE Spectra]]), determined the chemical abundances of several elements (C, O, Mg, Al, K, Ca, Ti, and Fe) present in Ross 128, finding that the star has near solar metallicity.<ref name="TAJL-20180613">{{cite journal |author=Suoto, Diogo|display-authors=etal|title=Stellar and Planetary Characterization of the Ross 128 Exoplanetary System from APOGEE Spectra 
+|date=13 June 2018 |journal=[[The Astrophysical Journal Letters]] |volume=860 |pages=L15|number=1 |doi=10.3847/2041-8213/aac896 |arxiv=1805.11633 |bibcode=2018ApJ...860L..15S |s2cid=89612773 |doi-access=free }}</ref><ref name="EA-20180710">{{cite web |author=Staff |title=Rocky planet neighbor looks familiar, but is not Earth's twin - Detailed chemical abundances of the Ross 128 help us understand its exoplanet Ross 128 b |url=https://www.eurekalert.org/pub_releases/2018-07/cifs-rpn071018.php |date=10 July 2018 |work=[[Eurekalert!]] |access-date=11 July 2018 }}</ref>
+
+===Orbit===
+Ross 128 b is a closely orbiting planet, with a year (orbital period) lasting about 9.9 days.<ref name="1-planet"/><ref name='AstronomyMag'/> Its [[semi-major axis]] is {{convert|0.0496|AU|e6km|abbr=unit|lk=in}}. According to some models of the planet's orbit, its orbit is quite circular, with an eccentricity of around 0.03, but also with a large error range as well. However, if all the orbital models are brought together then the eccentricity is higher at about 0.116, and again this is subject to a large error range. Compared to the Earth's average distance from the Sun of 149 million km, Ross 128 b orbits 20 times closer.  At that close distance from its host star, the planet is most likely [[Tidal locking|tidally locked]], meaning that one side of the planet would have eternal daylight and the other would be in darkness.<ref>[https://science.howstuffworks.com/nearby-earth-sized-alien-world-orbits-quiet-star-boosting-habitable-potential.htm Nearby Earth-sized Alien World Orbits 'Quiet' Star, Boosting Habitable Potential]. Ian O'Neill, ''How Stuff Works''. 15 November 2017. Quote: ''"Tidal lock[ing] is expected for Ross 128 b," says Nicola Astudillo-Defra, who works at the Geneva Observatory, University of Geneva in Switzerland, and is co-author of the study.''</ref>
+
+A 2024 study of the radial velocity data found an eccentricity of about 0.21 for Ross 128 b, higher than previous estimates and similar to that of [[Mercury (planet)|Mercury]]. Given the planet's orbit near the inner edge of the habitable zone, such a high eccentricity would significantly decrease its potential for habitability.<ref name="Liebing2024"/>
+
+==Habitability==
+{{main|Habitability of red dwarf systems}}
+
+===Stellar flux properties=== 
+Ross 128 b is not confirmed to be orbiting exactly within the [[Circumstellar habitable zone|habitable zone]]. It appears to reside within the inner edge, as it receives approximately 38% more [[sunlight]] than Earth. The [[habitable zone]] is defined as the region around a [[star]] where temperatures are just right for a [[planet]] with a thick enough [[atmosphere]] to support liquid [[water]], a key ingredient in the development of [[life]] as we know it. With its moderately high [[Radiant flux|stellar flux]], Ross 128 b is likely more prone to water loss, mainly on the side directly facing the star. However, an Earth-like atmosphere, assuming one exists, would be able to distribute the [[energy]] received from the star around the [[planet]] and allow more areas to potentially hold liquid water.<ref>[https://www.cnn.com/2017/11/15/world/new-earth-size-exoplanet-life-potential/index.html Newly discovered nearby planet could support life]. Ashley Strickland, ''CNN News''. 15 November 2017.</ref> In addition, study author Xavier Bonfils noted the possibility of significant [[cloud]] cover on the star-facing side, which would block out much incoming stellar energy and help keep the planet cool.
+
+===Solar flare potential=== 
+The planet is considered one of the most [[Earth analog|Earth-like worlds]] ever found in relation to its [[temperature]], size and rather quiet host star.<ref name='AstronomyMag'/> Ross 128 b is very close in mass to Earth, only about 35% more massive, and is likely around 10% larger in radius. [[Gravity]] on the planet would be only slightly higher. Also, its host star Ross 128 is an evolved star with a stable stellar activity.<ref name='AstronomyMag'/> Many red dwarfs like [[Proxima Centauri]] and [[TRAPPIST-1]] are prone to releasing potentially deadly [[Solar flare|flares]] caused by powerful [[magnetic field]]s. Billions of years of exposure to these flares can potentially strip a planet of its atmosphere and render it sterile with possibly dangerous amounts of radiation. While Ross 128 is known to produce such flares, they are currently much less common and less powerful than those of the previously mentioned stars.
+
+===Atmospheric potential===
+As of 2017, it is not yet possible to determine if Ross 128 b has an atmosphere because it does not [[Transit (astronomy)|transit]] the star.<ref name='AstronomyMag'/> However, the [[James Webb Space Telescope]] and upcoming massive [[List of telescope types|ground-based telescopes]], like the [[Thirty Meter Telescope]] and the [[Extremely Large Telescope]], could analyze the possible atmosphere of Ross 128 b without the need of transit. This would enable [[scientist]]s to find [[biosignature]]s in the planet's atmosphere, which are [[Chemical substance|chemicals]] like [[oxygen]], [[ozone]], and [[methane]] that are created by known [[biological process]]es.
+
+==In fiction==
+[[Alexandra Oliva]]'s 2026 novel, ''The Radiant Dark'', posits an [[alternate timeline]] where an extraterrestrial species from Ross 128 b makes contact with Earth in the 1980s.<ref>{{Cite news |last=Doll |first=Jen |date=5 April 2026 |title=Who Cares About Aliens. I'm Beefing With My Mom. |url=https://www.nytimes.com/2026/04/25/books/review/the-radiant-dark-alexandra-oliva.html |archive-url=https://web.archive.org/web/20260425092147/https://www.nytimes.com/2026/04/25/books/review/the-radiant-dark-alexandra-oliva.html |archive-date=25 April 2026|access-date=9 September 2026 |work=The New York Times |language=en-US}}</ref>
+
+==See also==
+* [[Kepler-438b]], Earth-sized habitable zone planet with a very active host star.
+* [[LHS 1140 b]], a huge rocky habitable zone planet around another quiet M-dwarf.
+* [[List of potentially habitable exoplanets]]
+* [[Luyten b]], a potentially habitable planet orbiting Luyten's Star.
+* [[Proxima Centauri b]], a similarly sized potentially habitable exoplanet found by the same team in August 2016.
+* [[TRAPPIST-1]], has 7 confirmed planets, 4 that are potentially habitable.
+** [[TRAPPIST-1d]]
+** [[TRAPPIST-1e]]
+** [[TRAPPIST-1f]]
+** [[TRAPPIST-1g]]
+
+==References==
+<references>
+<ref name="TaskerLaneuville2020">{{cite journal |last1=Tasker |first1=Elizabeth J. |last2=Laneuville  |first2=Matthieu |last3=Guttenberg  |first3=Nicholas  |author-link1=Elizabeth J. Tasker|title=Estimating Planetary Mass with Deep Learning |journal=The Astronomical Journal|volume=159|issue=2|date=7 January 2020|pages=41|issn=1538-3881|doi=10.3847/1538-3881/ab5b9e|bibcode=2020AJ....159...41T|arxiv=1911.11035|s2cid=208267900 |doi-access=free }}</ref>
+
+<ref name="Liebing2024">
+{{cite journal
+ |last1=Liebing |first1=F. |last2=Jeffers |first2=S. V. |display-authors=etal
+ |title=RedDots: Limits on habitable and undetected planets orbiting nearby stars GJ 832, GJ 674, and Ross 128
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=690 |pages=
+ |date=September 2024
+ |arxiv=2409.01173
+ |bibcode=2024A&A...690A.234L
+ |doi=10.1051/0004-6361/202347902
+ |doi-access=free}}</ref>
+</references>
+
+==External links==
+* {{YouTube|BJbrJLsFQnQ|Ross 128 planetary system – FlyThrough (0:31; 15 November 2017; ESO)}}
+* [https://exoplanets.nasa.gov/exoplanet-catalog/7222/ross-128-b/ Ross 128 b] at [[NASA]]
+{{Nearest systems|2}}
+{{2017 in space}}
+{{Virgo (constellation)}}
+{{Portal bar|Astronomy|Stars}}
+{{Sky|11|47|44.4|+|00|48|16|10.92}}
+
+[[Category:Exoplanets discovered in 2017]]
+[[Category:Exoplanets detected by radial velocity]]
+[[Category:Near-Earth-sized exoplanets]]
+[[Category:Near-Earth-sized exoplanets in the habitable zone]]
+[[Category:Virgo (constellation)]]
+[[Category:Exoplanets orbiting red dwarfs]]

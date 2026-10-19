@@ -1,0 +1,96 @@
+{
+  "seed": 20261019,
+  "order": [
+    "유로퓸",
+    "루테튬",
+    "세륨",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "디스프로슘",
+    "프라세오디뮴",
+    "사마륨",
+    "란타넘",
+    "어븀",
+    "프로메튬",
+    "터븀",
+    "가돌리늄",
+    "스칸듐",
+    "네오디뮴",
+    "홀뮴"
+  ],
+  "results": {
+    "유로퓸": {
+      "result": "used",
+      "id": "re-01",
+      "doc": "유로퓸"
+    },
+    "루테튬": {
+      "result": "used",
+      "id": "re-02",
+      "doc": "루테튬"
+    },
+    "세륨": {
+      "result": "skipped",
+      "reason": "영어 값 비교 불가: 숫자로 시작하지 않음: β-Ce: 6.689 g/cm3 / γ-Ce: 6.769 g/cm3"
+    },
+    "이터븀": {
+      "result": "used",
+      "id": "re-03",
+      "doc": "이터븀"
+    },
+    "이트륨": {
+      "result": "used",
+      "id": "re-04",
+      "doc": "이트륨"
+    },
+    "툴륨": {
+      "result": "used",
+      "id": "re-05",
+      "doc": "툴륨"
+    },
+    "디스프로슘": {
+      "result": "used",
+      "id": "re-06",
+      "doc": "디스프로슘"
+    },
+    "프라세오디뮴": {
+      "result": "used",
+      "id": "re-07",
+      "doc": "프라세오디뮴"
+    },
+    "사마륨": {
+      "result": "used",
+      "id": "re-08",
+      "doc": "사마륨"
+    },
+    "란타넘": {
+      "result": "used",
+      "id": "re-09",
+      "doc": "란타넘"
+    },
+    "어븀": {
+      "result": "used",
+      "id": "re-10",
+      "doc": "어븀"
+    },
+    "프로메튬": {
+      "result": "unvisited"
+    },
+    "터븀": {
+      "result": "unvisited"
+    },
+    "가돌리늄": {
+      "result": "unvisited"
+    },
+    "스칸듐": {
+      "result": "unvisited"
+    },
+    "네오디뮴": {
+      "result": "unvisited"
+    },
+    "홀뮴": {
+      "result": "unvisited"
+    }
+  }
+}

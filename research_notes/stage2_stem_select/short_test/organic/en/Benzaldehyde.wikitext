@@ -1,0 +1,145 @@
+{{Chembox
+|Watchedfields  = changed
+|verifiedrevid  = 443414932
+|Name = Benzaldehyde
+|ImageFileL1 = Benzaldehyde.svg
+|ImageNameL1 = Skeletal (structural) formula
+|ImageClassL1  = skin-invert
+|ImageFileR1 = Benzaldehyde-3D-balls-B.png
+| ImageClassR1 = bg-transparent  
+|ImageNameR1 = Ball-and-stick model
+|PIN = Benzaldehyde<ref name=iupac2013>{{cite book | title =  Nomenclature of Organic Chemistry : IUPAC Recommendations and Preferred Names 2013 (Blue Book) | publisher = [[Royal Society of Chemistry|The Royal Society of Chemistry]] | date = 2014 | location = Cambridge | page = 908 | doi = 10.1039/9781849733069-FP001 | isbn = 978-0-85404-182-4}}</ref>
+|OtherNames = Benzenecarboxaldehyde<br />Phenylmethanal<br />Benzoic aldehyde
+|IUPACName = Benzenecarbaldehyde
+|Section1 = {{Chembox Identifiers
+|Abbreviations = BzH<br />PhCHO<br />PhCOH
+|UNII_Ref = {{fdacite|correct|FDA}}
+|UNII = TA269SD04T
+|KEGG_Ref = {{keggcite|correct|kegg}}
+|KEGG = D02314
+|InChI = 1/C7H6CHO/c8-6-7-4-2-1-3-5-7/h1-6H
+|PubChem = 240
+|InChIKey = HUMNYLRZRPPJDN-UHFFFAOYAE
+|SMILES1 = c1ccc(cc1)C=O
+|ChEMBL_Ref = {{ebicite|correct|EBI}}
+|ChEMBL = 15972
+|StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChI = 1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H
+|StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChIKey = HUMNYLRZRPPJDN-UHFFFAOYSA-N
+|CASNo = 100-52-7
+|CASNo_Ref = {{cascite|correct|CAS}}
+|EC_number = 202-860-4
+|ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+|ChemSpiderID = 235
+|ChEBI_Ref = {{ebicite|correct|EBI}}
+|ChEBI = 17169
+|SMILES = O=Cc1ccccc1
+|RTECS = CU437500
+|UNNumber = 1990
+}}
+|Section2 = {{Chembox Properties
+|C=7 | H=6 | O=1
+|Appearance = colorless liquid <br> strongly refractive
+|Odor = almond-like
+|Density = 1.044 g/mL, liquid
+|Solubility = 6.95 g/L (25&nbsp;°C)<ref>{{cite web | url=http://gestis-en.itrust.de/nxt/gateway.dll?f=templates$fn=default.htm$vid=gestiseng:sdbeng | title=GESTIS Substance database | publisher=Institute for Occupational Safety and Health of the German Social Accident Insurance | access-date=21 August 2012 | archive-date=3 March 2016 | archive-url=https://web.archive.org/web/20160303201005/http://gestis-en.itrust.de/nxt/gateway.dll?f=templates$fn=default.htm$vid=gestiseng:sdbeng | url-status=dead }}</ref>
+| MeltingPtC = -57.12<ref>{{citation | author=Haynes, William M. | title=CRC Handbook of Chemistry and Physics | edition=95th | publisher=CRC press | year=2014 | pages=3–34|isbn=9781482208689| title-link=CRC Handbook of Chemistry and Physics }}</ref>
+|BoilingPtC = 178.1
+|Viscosity = 1.321 [[Poise (unit)|cP]] (25&nbsp;°C)
+|RefractIndex = 1.5456
+|MagSus = −60.78·10<sup>−6</sup> cm<sup>3</sup>/mol
+<!--| LogP = 1.48 -->
+|LogP = 1.64<ref name="chemsrc">{{Cite web|url=https://www.chemsrc.com/en/cas/100-52-7_946834.html|title=Benzaldehyde_msds}}</ref>
+}}
+|Section4 = {{Chembox Thermochemistry
+|DeltaHf = −36.8 kJ/mol
+|DeltaHc = −3525.1 kJ/mol
+}}
+|Section7 = {{Chembox Hazards
+|GHSPictograms = {{GHS|07}}
+|GHSSignalWord = Warning
+|HPhrases = {{H-phrases|302}}
+|PPhrases = {{P-phrases|264|270|301+312|330|501}}
+|FlashPtC = 64
+|AutoignitionPtC = 192
+|ExploLimits = 1.4–8.5%
+|NFPA-H = 2
+|NFPA-F = 2
+|NFPA-R = 0
+|ExternalSDS = [http://hazard.com/msds/mf/baker/baker/files/b0696.htm J. T. Baker]
+|LD50 = 1300 mg/kg (rat, oral)
+}}
+|Section8 = {{Chembox Related
+|OtherCompounds = [[Benzyl alcohol]]<br />[[Benzoic acid]]<br/>[[Benzaldehyde oxime]]
+}}
+}}
+
+'''Benzaldehyde''' (C<sub>6</sub>H<sub>5</sub>CHO) is an [[organic compound]] consisting of a [[benzene]] ring with a [[formyl]] substituent. It is among the simplest [[aromatic]] [[aldehyde]]s and one of the most industrially useful.
+
+It is a colorless liquid with a characteristic [[odor]] similar to that of [[Almond|bitter almonds]] and [[cherry]], and is commonly used in cherry-flavored [[Soft drink|sodas]].<ref>{{Cite journal |last1=Loch |first1=Christine |last2=Reusch |first2=Helmut |last3=Ruge |first3=Ingrid |last4=Godelmann |first4=Rolf |last5=Pflaum |first5=Tabea |last6=Kuballa |first6=Thomas |last7=Schumacher |first7=Sandra |last8=Lachenmeier |first8=Dirk W. |date=2016 |title=Benzaldehyde in cherry flavour as a precursor of benzene formation in beverages |journal=Food Chemistry |volume=206 |pages=74–77 |doi=10.1016/j.foodchem.2016.03.034 |pmid=27041300}}</ref> A component of bitter almond oil, benzaldehyde can be extracted from a number of other natural sources.<ref name=Ullmann/> Synthetic benzaldehyde is the flavoring agent in imitation almond extract, which is used to flavor cakes and other baked goods.<ref>{{Cite book|title = The Cook's Illustrated Baking Book|url = https://books.google.com/books?id=doZKCgAAQBAJ&pg=PT2457|publisher = America's Test Kitchen|date = 2013|isbn = 9781936493784}}</ref>
+
+==History==
+
+Benzaldehyde was first extracted in 1803 by the French pharmacist Martrès. His experiments focused on elucidating the nature of [[amygdalin]], the poisonous compound found in bitter almonds, the fruit of ''[[Prunus dulcis]]''.<ref>In 1803 C. Martrès published a manuscript on the oil of bitter almonds: "Recherches sur la nature et le siège de l'amertume et de l'odeur des amandes amères" (Research on the nature and location of the bitterness and the smell of bitter almonds). However, the memoir was largely ignored until an extract was published in 1819:  Martrès ''fils'' (1819) [http://gallica.bnf.fr/ark:/12148/bpt6k78139n/f292.image.langEN "Sur les amandes amères,"] ''Journal de Pharmacie'', vol. 5, pages 289–296.</ref> Further work on the oil by [[Pierre Robiquet]] and Antoine Boutron Charlard, two French chemists, produced benzaldehyde.<ref>''Nouvelles expériences sur les amandes amères et sur l'huile volatile qu'elles fournissent'' Robiquet, Boutron-Charlard, Annales de chimie et de physique, 44 (1830), 352–382,</ref> In 1832, [[Friedrich Wöhler]] and [[Justus von Liebig]] first synthesized benzaldehyde.<ref>{{cite journal|author=Wöhler, Friedrich and Liebig, Justus von |year=1832|url=https://books.google.com/books?id=z-VAAAAAYAAJ&pg=249 |title=Untersuchungen über das Radikal der Benzoesäure|trans-title=Investigations of the radical of benzoic acid|journal=Annalen der Pharmacie|volume= 3|issue=3| pages= 249–282|doi=10.1002/jlac.18320030302|hdl=2027/hvd.hxdg3f|hdl-access=free}}</ref>
+
+== Production ==
+Benzaldehyde can be produced from both petroleum-based chemicals or plant-derived chemicals. Synthetic benzaldehyde is primarily produced using liquid phase [[Jones oxidation|chlorination]] and [[oxidation]] of [[toluene]]. Numerous other methods have been developed, such as the partial [[organic oxidation|oxidation]] of [[benzyl alcohol]], [[alkali]] hydrolysis of [[benzal chloride]], and the [[carbonylation]] of benzene (the [[Gatterman-Koch reaction]]).<ref name=Ullmann>{{cite book|doi=10.1002/14356007.a03_463.pub2 |chapter=Benzaldehyde |title=Ullmann's Encyclopedia of Industrial Chemistry |date=2011 |last1=Brühne |first1=Friedrich |last2=Wright |first2=Elaine |isbn=978-3-527-30385-4 }}</ref>
+
+Natural benzaldehyde is produced from [[cinnamaldehyde]] obtained from [[cassia oil]] by the retro-[[aldol reaction]]:<ref name=":2">{{Cite book |url=https://books.google.com/books?id=85yUennC-pUC&pg=PA87 |title=Innovation in food engineering : new techniques and products |date=2010 |publisher=CRC Press |others=Passos, Maria Laura., Ribeiro, Claudio P. |isbn=9781420086072 |location=Boca Raton, Florida |pages=87 |oclc=500683261}}</ref> the cinnamaldehyde is heated in an [[water|aqueous]]/[[Alcohol (chemistry)|alcohol]]ic solution between 90&nbsp;°C and 150&nbsp;°C with a [[Base (chemistry)|base]] (most commonly [[sodium carbonate]] or [[sodium bicarbonate|bicarbonate]]) for 5 to 80 hours,<ref>Wienes, Charles and Pittet, Alan O. (1985) {{US Patent|4617419}} Process for preparing natural benzaldehyde and acetaldehyde, natural benzaldehyde and acetaldehyde compositions, products produced thereby and organoleptic utilities therefor.</ref> followed by distillation of the formed benzaldehyde. This reaction also yields [[acetaldehyde]].
+
+==Occurrence==
+Benzaldehyde and similar chemicals occur naturally in many foods. Most of the benzaldehyde that people eat is from natural plant foods, such as almond.<ref name=":0">{{Cite journal|title = The FEMA GRAS assessment of benzyl derivatives used as flavor ingredients|journal = Food and Chemical Toxicology|date = 2005-08-01|pmid = 15950815|pages = 1207–1240|volume = 43|issue = 8|doi = 10.1016/j.fct.2004.11.014|first1 = T. B.|last1 = Adams|first2 = S. M.|last2 = Cohen|first3 = J.|last3 = Doull|first4 = V. J.|last4 = Feron|first5 = J. I.|last5 = Goodman|first6 = L. J.|last6 = Marnett|first7 = I. C.|last7 = Munro|first8 = P. S.|last8 = Portoghese|first9 = R. L.|last9 = Smith}}</ref>
+
+Almonds, [[apricot]] seeds, [[apple]] seeds, and [[cherry]] [[seed]] contain significant amounts of [[amygdalin]]. This [[glycoside]] breaks up under enzyme catalysis into benzaldehyde, [[hydrogen cyanide]] and two equivalents of [[glucose]].
+{{Biochem reaction subunit/top}}
+{{Biochem reaction subunit|compound=Amygdalin|image=Amygdalin_structure.svg|class=skin-invert-image|imagesize=180px}}
+{{Biochem reaction subunit|direction=forward|for_subst=2 {{H2O-nl}}|for_prod=[[hydrogen cyanide|HCN]]}}
+{{Biochem reaction subunit|compound=benzaldehyde|image=benzaldehyde.svg|class=skin-invert-image|imagesize=50px}}
+{{Biochem reaction subunit|compound=glucose|n=2|image=Alpha-D-glucose-2D-skeletal-hexagon.png|class=skin-invert-image}}
+{{Biochem reaction subunit/end}}
+
+Benzaldehyde contributes to the scent of [[Pleurotus ostreatus|oyster mushrooms]] (''Pleurotus ostreatus'').<ref name="OysterAlde">{{cite journal | doi = 10.1021/jf960876i | title = Volatile Compounds Secreted by the Oyster Mushroom (''Pleurotus ostreatus'') and Their Antibacterial Activities | year = 1997 | last1 = Beltran-Garcia | first1 = Miguel J. | last2 = Estarron-Espinosa | first2 = Mirna | last3 = Ogura | first3 = Tetsuya | journal = Journal of Agricultural and Food Chemistry | volume = 45 | pages = 4049 | issue = 10 | bibcode = 1997JAFC...45.4049B }}</ref>
+
+== Reactions ==
+Benzaldehyde is easily oxidized to [[benzoic acid]] in air at room temperature,<ref>{{cite journal |last1=Sankar |first1=Meenakshisundaram |title=The benzaldehyde oxidation paradox explained by the interception of peroxy radical by benzyl alcohol |journal=Nature Communications |volume=5 |article-number=3332 |url=https://www.nature.com/articles/ncomms4332.pdf?origin=ppub|pmid=24567108 |year=2014 |doi=10.1038/ncomms4332 |bibcode=2014NatCo...5.3332S |doi-access=free}}</ref> causing a common impurity in laboratory samples. Since the boiling point of benzoic acid is much higher than that of benzaldehyde, it may be purified by [[distillation]]. [[Benzyl alcohol]] can be formed from benzaldehyde by means of [[hydrogenation]]. Reaction of benzaldehyde with anhydrous [[sodium acetate]] and [[acetic anhydride]] yields [[cinnamic acid]], while alcoholic [[potassium cyanide]] can be used to [[catalysis|catalyze]] the condensation of benzaldehyde to [[Benzoin (organic compound)|benzoin]]. Benzaldehyde undergoes [[disproportionation]] upon treatment with concentrated alkali ([[Cannizzaro reaction]]): one molecule of the aldehyde is reduced to the [[benzyl alcohol]] and another molecule is simultaneously oxidized to [[benzoic acid]].
+:[[Image:Benzaldehyd-chemical-Cannizzaro.png|class=skin-invert-image|290px|Cannizzaro reaction]]
+With diols, including many sugars, benzaldehyde condenses to form [[benzylidene acetal]]s.{{Citation needed|date=April 2025}}
+
+== Uses ==
+Benzaldehyde is commonly employed to confer almond flavor to foods and scented products, including e-cigarette liquids. It is sometimes used in cosmetics products.<ref name=":1">{{Cite journal|title = Final report on the safety assessment of benzaldehyde|journal = International Journal of Toxicology|date = 2006-01-01|pmid = 16835129|pages = 11–27|volume = 25|doi = 10.1080/10915810600716612|first = Alan|last = Andersen| issue=Suppl 1 |s2cid = 32177208|doi-access = free}}</ref>
+
+In industrial settings, benzaldehyde is used chiefly as a precursor to other organic compounds, ranging from pharmaceuticals to plastic additives. The [[aniline dye]] [[malachite green]] is prepared from benzaldehyde and [[dimethylaniline]].  Benzaldehyde is also a precursor to certain [[acridine]] dyes. Via [[aldol condensation]]s, benzaldehyde is converted into derivatives of [[cinnamaldehyde]] and [[styrene]]. The synthesis of [[mandelic acid]] starts with the addition of [[hydrocyanic acid]] to benzaldehyde:
+
+:[[Image:Benzaldehyde-chemical-mandelicacid.png|class=skin-invert-image|320px|mandelic acid synthesis]]
+
+The resulting [[cyanohydrin]] is [[hydrolysis|hydrolysed]] to [[mandelic acid]]. (The scheme above depicts only one of the two formed [[enantiomer]]s.)
+
+=== Niche uses ===
+Benzaldehyde is used as a [[Insect repellent|bee repellent]].<ref>{{Cite book|title = Why Do Bees Buzz?: Why Do Bees Buzz? Fascinating Answers to Questions about Bees|url = https://books.google.com/books?id=xzQ4NWlIrHwC&pg=PA177|publisher = Rutgers University Press|date = 2010-02-09|isbn = 9780813549200|language = en|first1 = Elizabeth|last1 = Evans|first2 = Carol|last2 = Butler|pages = 177–178}}</ref>  A small amount of benzaldehyde solution is placed on a fume board near the honeycombs. The bees then move away from the honey combs to avoid the fumes.<ref>{{Cite book|title = Storey's Guide to Keeping Honey Bees: Honey Production, Pollination, Bee Health|url = https://books.google.com/books?id=cos5WSDNKrEC&pg=PA167|publisher = Storey Publishing|date = 2010-01-01|isbn = 9781603425506|language = en|first1 = Malcolm T.|last1 = Sanford|first2 = Richard E.|last2 = Bonney|page = 167}}</ref> The [[beekeeper]] can then remove the [[honey frame]]s from the bee hive with less risk to both bees and beekeeper.
+
+Benzaldehyde reacts with [[nitroethane]] in the presence of a catalyst to produce [[phenyl-2-nitropropene]], a precursor to [[amphetamine]] and other chemicals.<ref>{{cite web |url=https://erowid.org/archive/rhodium/chemistry/phenyl-2-nitropropene.html |title=Synthesis of Phenyl-2-Nitropropene |author=<!--Not stated--> |website=Erowid |access-date=October 7, 2023}}</ref>
+
+== Safety ==
+As used in food, cosmetics, pharmaceuticals, and soap, benzaldehyde is "generally regarded as safe" ([[GRAS]]) by the [[US FDA]]<ref>{{citation |author=Friedrich Brühne |author2=Elaine Wright |contribution=Benzaldehyde |title=Ullmann's Encyclopedia of Industrial Chemistry |edition=7th |publisher=Wiley |year=2007 |page=11| title-link=Ullmann's Encyclopedia of Industrial Chemistry }}</ref> and [[Flavor and Extract Manufacturers Association|FEMA]].<ref name=":0" /> This status was reaffirmed after a review in 2005.<ref name=":0" /> It is accepted in the European Union as a flavoring agent.<ref name=":1" />  Toxicology studies indicate that it is safe and non-[[carcinogen]]ic in the concentrations used for foods and cosmetics,<ref name=":1" />  and may even have [[anti-carcinogenic]] (anti-cancer) properties.<ref name=":1" />
+
+For a 70&nbsp;kg human, the lethal dose is estimated at 50 ml.<ref name="Ullmann" />  An [[acceptable daily intake]] of 15&nbsp;mg/day has been identified for benzaldehyde by the [[United States Environmental Protection Agency]].<ref>{{Cite web |url=https://cfpub.epa.gov/ncea/risk/recordisplay.cfm?deid=41551 |archive-url=https://web.archive.org/web/20170627065000/https://cfpub.epa.gov/ncea/risk/recordisplay.cfm?deid=41551 |url-status=dead |archive-date=27 June 2017 |title=Health and Environmental Effects Profile for Benzaldehyde |last=Assessment |first=US EPA National Center for Environmental |website=cfpub.epa.gov |access-date=2017-09-16}}</ref> Benzaldehyde does not accumulate in human tissues.<ref name=":1" /> It is metabolized{{by what?|date=March 2025}} and then excreted in urine.<ref name=":1" />
+
+== References ==
+{{reflist}}
+
+== External links ==
+{{Commons category|Benzaldehyde}}
+*{{ICSC|0102|02}}
+*{{SIDS|name=benzaldehyde| id=100527}} [https://web.archive.org/web/20181009042751/http://www.inchem.org/documents/sids/sids/100527.pdf Archived]
+* [http://chemsub.online.fr/id_number/CSOID0000000560.html ChemSub Online: Benzaldéhyde.]
+* [https://www.nlm.nih.gov/toxnet/index.html Carcinogenicity Potency Project]
+
+{{Authority control}}
+{{Use dmy dates|date=March 2018}}
+
+[[Category:Flavors]]
+[[Category:Benzaldehydes| ]]
+[[Category:Solvents]]
+[[Category:Phenyl compounds]]
+[[Category:Substances discovered in the 19th century]]

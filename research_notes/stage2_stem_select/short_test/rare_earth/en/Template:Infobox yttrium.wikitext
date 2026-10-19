@@ -1,0 +1,80 @@
+{{infobox element
+|symbol =Y
+|Z      =39
+|number =39
+|name   =yttrium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[strontium]]
+|right=[[zirconium]]
+|above=[[scandium|Sc]]
+|below=[[lutetium|Lu]]
+|image name=Yttrium_sublimed_dendritic_and_1cm3_cube.jpg
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 9, 2
+|phase=
+|phase comment=
+|density=4.469&nbsp;g/cm<sup>3</sup><ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3nrt=
+|density gpcm3mp=4.24
+|melting point K=1799
+|melting point C=1526
+|melting point F=2779
+|boiling point K=3203
+|boiling point C=2930
+|boiling point F=5306
+|heat fusion=11.42
+|heat vaporization=363
+|heat capacity=26.53
+|vapor pressure 1=1883
+|vapor pressure 10=2075
+|vapor pressure 100= (2320)
+|vapor pressure 1 k= (2627)
+|vapor pressure 10 k= (3036)
+|vapor pressure 100 k= (3607)
+|vapor pressure comment=
+|crystal structure=hexagonal close packed
+|crystal structure Pearson symbol=hP2
+|lattice constants=''a''&nbsp;=&nbsp;364.83&nbsp;pm<br />''c''&nbsp;=&nbsp;573.17&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.22
+|number of ionization energies=3
+|ionization energy 1=600
+|ionization energy 2=1180
+|ionization energy 3=1980
+|atomic radius=180
+|covalent radius=190±7
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering ref=<ref name=magnet>{{cite book |url=https://web.archive.org/web/20110303222309/http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/elementmagn.pdf|chapter=Magnetic susceptibility of the elements and inorganic compounds| editor = Lide, D. R. | title = CRC Handbook of Chemistry and Physics | edition = 86th | location = Boca Raton (FL) | publisher = CRC Press | year = 2005 | isbn = 0-8493-0486-5 }}
+</ref>
+|electrical resistivity=α, poly: 596
+|electrical resistivity unit prefix=n
+|electrical resistivity comment=(at {{abbr|r.t.|room temperature}}) 
+|thermal conductivity=17.2
+|thermal expansion=<!-- see thermal expansion comment -->
+|thermal expansion comment={{val|11.21|e=−6}}/K (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018" />{{efn|text=The thermal expansion is [[Anisotropy|anisotropic]]: the parameters (at 20&nbsp;°C) for each crystal axis are α<sub>''a''</sub>&nbsp;=&nbsp;{{val|7.42|e=−6}}/K, α<sub>''c''</sub>&nbsp;=&nbsp;{{val|18.80|e=−6}}/K, and α<sub>average</sub> =&nbsp;α<sub>V</sub>/3 =&nbsp;{{val|11.21|e=−6}}/K.<ref name="Arblaster 2018" />}}
+|speed of sound rod at 20=3300
+|magnetic susceptibility={{val|+2.15|e=−6}}
+|magnetic susceptibility ref= &#x20;(2928&nbsp;K)<ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=63.5
+|Shear modulus=25.6
+|Bulk modulus=41.2
+|Poisson ratio=0.243
+|Brinell hardness=200–589
+|CAS number=7440-65-5
+|naming=after [[Ytterby]] (Sweden) and its mineral [[ytterbite]]&nbsp;(gadolinite)
+|discovered by=[[Johan Gadolin]]
+|discovery date=1794
+|first isolation by=[[Friedrich Wöhler]]
+|first isolation date=1838
+|QID=Q941
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Y}}
+{{notelist}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

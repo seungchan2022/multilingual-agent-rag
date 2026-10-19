@@ -1,0 +1,77 @@
+{{Infobox element
+|symbol =Yb
+|Z      =70
+|number =70
+|name   =ytterbium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[thulium]]
+|right=[[lutetium]]
+|above=–
+|below=[[nobelium|No]]
+|image name=Ytterbium-3.jpg
+|appearance=silvery white; with a pale yellow tint<ref>{{Greenwood&Earnshaw|page=112}}</ref>
+|electrons per shell=2, 8, 18, 32, 8, 2
+|phase=
+|density=6.967&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=6.21
+|melting point K=1097
+|melting point C=824
+|melting point F=1515
+|boiling point K=1469
+|boiling point C=1196
+|boiling point F=2185
+|heat fusion=7.66
+|heat vaporization=129
+|heat capacity=26.74
+|vapor pressure 1=736
+|vapor pressure 10=813
+|vapor pressure 100=910
+|vapor pressure 1 k=1047
+|vapor pressure 10 k=(1266)
+|vapor pressure 100 k=(1465)
+|vapor pressure comment=
+|crystal structure=face-centered cubic
+|crystal structure Pearson symbol=cF4
+|lattice constants=''a''&nbsp;=&nbsp;548.46&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.1
+|electronegativity comment=(?)
+|number of ionization energies=3
+|ionization energy 1=603.4
+|ionization energy 2=1174.8
+|ionization energy 3=2417
+|atomic radius=176
+|covalent radius=187±8
+|magnetic ordering=[[paramagnetic]]
+|electrical resistivity unit prefix=µ
+|electrical resistivity=β, poly: 0.250
+|electrical resistivity comment=(at&nbsp;{{abbr|r.t.|room temperature}})
+|thermal conductivity=38.5
+|thermal expansion=<!-- see thermal expansion comment -->
+|thermal expansion comment={{val|24.31|e=−6}}/K (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018" />
+|speed of sound rod at 20=1590
+|magnetic susceptibility= {{val|+249.0|e=−6}}
+|magnetic susceptibility ref= &#x20;(2928&nbsp;K)<ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=β form: 23.9
+|Shear modulus=β form: 9.9
+|Bulk modulus=β form: 30.5
+|Poisson ratio=β form: 0.207
+|Vickers hardness=205–250
+|Brinell hardness=340–440
+|CAS number=7440-64-4
+|naming=after [[Ytterby]] (Sweden), where it was mined
+|discovered by=[[Jean Charles Galissard de Marignac]]
+|discovery date=1878
+|first isolation by=[[Wilhelm Klemm]] and Heinrich Bommer
+|first isolation date=1936
+|QID=Q1855
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Yb}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

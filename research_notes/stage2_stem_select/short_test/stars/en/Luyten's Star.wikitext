@@ -1,0 +1,374 @@
+{{Short description|Star in the constellation Canis Minor}}
+{{Sky|07|27|24.4991|+|05|13|32.827|12.3}}
+{{Starbox begin
+| name = Luyten's Star
+}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Canis_Minor_constellation_map.svg
+|alt=Luyten's Star is located in the constellation Canis Minor.
+|caption=Location of Luyten's Star in the constellation [[Canis Minor]]|border=infobox|mark=Red_pog.png|width=300
+|label=Luyten's Star
+|position=bottom
+|lat=25.9
+|long=52.3
+}}|caption=
+}}
+{{Starbox observe
+| epoch    = J2000
+| constell = [[Canis Minor]]<ref name=constellation/>
+| ra       = {{RA|07|27|24.49897}}<ref name="GaiaDR3"/>
+| dec      = {{DEC|+05|13|32.8415}}<ref name="GaiaDR3"/>
+| appmag_v = 9.872<ref name="mnras334"/>
+}}
+{{Starbox character
+| class    = M3.5V<ref name="RECONS"/>
+| b-v      = 1.571<ref name="mnras334"/>
+| u-b      = 1.115<ref name="mnras334"/>
+| variable =
+}}
+{{Starbox astrometry
+| radial_v = {{val|17.35|0.19}}<ref name="GaiaDR3"/>
+| prop_mo_ra  = {{val|571.232}}
+| prop_mo_dec = {{val|-3691.487|fmt=commas}}
+| pm_footnote = <ref name="GaiaDR3"/>
+| parallax = 264.1269
+| p_error  = 0.0413
+| parallax_footnote = <ref name="GaiaDR3"/>
+| absmag_v = 11.94<ref name="mnras334"/>
+}}
+{{Starbox detail
+| source   = <ref name="PozuelosSuárez2020"/>
+| mass     = 0.29
+| radius   = {{val|0.293|0.027}}
+| luminosity  = 0.0088
+| temperature = {{val|3382|49|fmt=commas}}
+| gravity  = 5<ref name="mnras388"/>
+| metal_fe = {{val|0.09|0.17}}
+| rotation = {{Val|115.6|19.4|u=d}},<ref name=mnras452_3_2745/> ~99 d<ref name="PozuelosSuárez2020"/>
+| age_gyr  = ≳8
+}}
+{{Starbox catalog
+| names = {{odlist | name = Luyten's Star | BD = +05 1668 | G = 112-17 | G2 = 89-19 | GCRV = 4954 | GJ = 273 | HIP = 36208 | LFT = 527 | LHS = 33 | LTT = 12021 | NLTT = 17881 | PLX = 1755 | TYC = 173-3208-1}}, [[Alexander N. Vyssotsky|MCC]] 17<ref>{{cite simbad |title=BD+05 1668 |access-date=29 October 2023}}</ref>
+}}
+{{Starbox reference
+| Simbad = BD%2B05+1668
+| NSTED = GJ-273
+| ARICNS = 00562
+}}
+{{Starbox end}}
+
+'''Luyten's Star''' {{IPAc-en|'|l|ai|t|@n|z}}{{cn|date=June 2021}} ('''GJ&nbsp;273''') is a [[red dwarf]] in the [[constellation]] [[Canis Minor]] located at a distance of {{Convert|12.35|ly|pc|abbr=off|lk=on}} from the Sun. It has a [[visual magnitude]] of 9.9, making it too faint to be viewed with the unaided eye. It is named after [[Willem Jacob Luyten]], who, in collaboration with Edwin G. Ebbighausen, first determined its high [[proper motion]] in 1935.<ref name=hcob900_1/> The star has two confirmed planets and two candidate planets,<ref name="PozuelosSuárez2020"/> of which [[Luyten b]] is in the [[circumstellar habitable zone]].<ref name="Astudillo-Defru2017"/>
+
+==Properties==
+This star is approximately a quarter the mass of the [[Sun]]<ref name="RECONS"/> and has 35% of the [[solar radius|Sun's radius]].<ref name=apjss34_479/> Luyten's Star is at the maximum mass at which a [[red dwarf]] can be fully convective, which means that most if not all of the star forms an extended [[convection zone]].<ref name=aaa496_3_787/> It has a [[stellar classification]] of M3.5V,<ref name="RECONS"/> with the V [[luminosity class]] indicating this is a [[main sequence|main-sequence]] star that is generating energy through the [[thermonuclear fusion]] of hydrogen at its core. The projected [[stellar rotation|rotation rate of this star]]{{efn|This is denoted by {{math|''v''&nbsp;sin&nbsp;''i''}}, where {{mvar|v}} is the rotational velocity at the equator and {{mvar|i}} is the inclination to the line of sight.}} is too low to be measured, but can be no greater than 1&nbsp;km/s.<ref name=aaa467_1_259/> Measurements of periodic variation in surface activity suggest a leisurely rotation period of roughly 116&nbsp;days (which would give a velocity of ~0.15&nbsp;km/s).<ref name=mnras452_3_2745/> The [[effective temperature]] of the star's outer envelope is a relatively cool 3,150&nbsp;K, giving the star the characteristic red-orange hue of an [[M-type star]].<ref name="mnras388"/><ref name=csiro/>
+
+At present, Luyten's Star is moving away from the [[Solar System]]. The closest approach occurred about 13,000&nbsp;years ago when it came within 3.67&nbsp;parsecs.<ref name="García-Sánchez-etal-2001"/> The star is currently located 1.2&nbsp;light years distant from [[Procyon]], which would appear as a visual magnitude&nbsp;−4.5 star in the night sky of Luyten's Star's planets.<ref name=Schaaf-2008/> However, Luyten's Star would only have an apparent magnitude of 4.6 from Procyon's sky because it is much less luminous. The closest encounter between the two stars occurred about 600&nbsp;years ago when Luyten's Star was at its minimal distance of about 1.12&nbsp;[[Light-year|ly]] from [[Procyon]].<ref name=Annot/> The [[Space velocity (astronomy)|space velocity]] components of Luyten's Star are U&nbsp;=&nbsp;+16, V&nbsp;=&nbsp;−66 and W&nbsp;=&nbsp;−17&nbsp;km/s.<ref name=Annot/><ref name=Delfosse-etal-1998/><ref name=ARICNS/>
+
+==Planetary system==
+{{OrbitboxPlanet begin
+| table_ref = <ref name="PozuelosSuárez2020"/>
+}}
+{{OrbitboxPlanet
+| exoplanet = c
+| mass_earth = {{val|1.18|0.16|p=≥}}
+| period = {{val|4.7234|0.0004}}
+| semimajor = {{val|0.036467|0.000002}}
+| eccentricity = {{val|0.17|0.13|0.12}}
+| inclination =  ~72°–90{{efn|name=2planets|In a solution with 2&nbsp;planets around Luyten's Star for Luyten&nbsp;b and Luyten&nbsp;c, the system was unstable when the inclination was below 50° and the planets were on very eccentric orbits. However, with lower eccentricities, the 2&nbsp;planet system tolerated the full range of inclinations.}}
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Luyten b|b]]
+| mass_earth = {{val|2.89|0.27|0.26|p=≥}}
+| period = {{val|18.6498|0.0059|0.0052}}
+| semimajor = {{val|0.091101|0.000019|0.000017}}
+| eccentricity = {{val|0.10|0.09|0.07}}
+| inclination =  ~72°–90{{efn|name=2planets}}
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet = d
+| mass_earth = {{val|10.8|3.9|3.5|p=≥}}
+| period = {{val|413.9|4.3|5.5}}
+| semimajor = {{val|0.712|0.062|0.076}}
+| eccentricity = {{val|0.17|0.18|0.17}}
+| inclination =  ~72°–90
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet = e
+| mass_earth = {{val|9.3|4.3|3.9|p=≥}}
+| period = {{val|542|16}}
+| semimajor = {{val|0.849|0.083|0.092}}
+| eccentricity = {{val|0.03|0.20|0.03}}
+| inclination =  ~72°–90
+}}
+{{Orbitbox end}}
+
+In March&nbsp;2017, two candidate planets were discovered orbiting Luyten's Star.<ref name="Astudillo-Defru2017"/> The outer planet, [[Luyten b|GJ&nbsp;273b]], is a [[super-Earth]] in its star's [[habitable zone|optimistic habitable zone]]. It has a [[minimum mass]] of {{nowrap|2.89 ± 0.26 [[Earth mass]]es}} and orbits at a distance of {{nowrap|0.09110 ± 0.00002 AU,}} completing one orbital period in {{nowrap|18.650 ± 0.006 days.}} While the planet is on the innermost edge of the star's conservative habitable zone, the incident flux is only 1.06&nbsp;{{mvar|S}}{{sub|🜨}}, so it may be potentially habitable if water and an atmosphere are present; depending on albedo, its [[equilibrium temperature]] could be anywhere between 206 and 293&nbsp;Kelvin. The inner planet, GJ&nbsp;273c, is one of the lightest exoplanets detected by radial velocities, with a mass of only {{nowrap|1.18 ± 0.16 Earth masses.}} However, it orbits much further in, with an orbital period of only {{nowrap|4.7234 ± 0.00004 days.}}<ref name="Astudillo-Defru2017"/>
+
+GJ&nbsp;273b is one of the closest known planets to Earth which lies in its star's habitable zone.<ref name="Astudillo-Defru2017"/>
+
+Both planets are near 4:1 resonance; it is possible that, with still undiscovered ones, the entire inner part of this system is trapped in a single simple-mean-motion resonance chain like [[TRAPPIST-1]].
+
+In 2019, two more candidate planets were detected by radial velocity, making a potential total of four known planets in the system.<ref name=barnes/> If all four planets are present, their true masses must be close to their minimum masses for the system to be stable, with upper limits of {{val|3.03|u=Earth mass}} for b, {{val|1.24|u=Earth mass}} for c, {{val|11.35|u=Earth mass}} for d, and {{val|9.70|u=Earth mass}} for e.<ref name="PozuelosSuárez2020"/>
+
+In October 2017, "[[Sónar#Sónar Calling GJ273b|Sónar Calling GJ273b]]", a project by [[METI (Messaging Extraterrestrial Intelligence)|METI]] and the Sónar music festival in [[Barcelona]], [[Spain]]<ref name="Sónar-Barcelona"/> transmitted a series of radio signals towards Luyten's star from a radar antenna at Ramfjordmoen, [[Norway]].<ref name=Economist-2017/> The signal consisted of a scientific and mathematical tutorial on how to decode the messages and was accompanied by 33 encoded musical compositions by various musicians. A second signal series was transmitted in May 2018. Were anyone listening, the soonest response would be received by 2042.
+
+==See also==
+* [[List of nearest stars]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist|25em|refs=
+
+<ref name="GaiaDR3">{{Cite Gaia DR3|3139847906307949696}}</ref>
+
+<ref name=constellation>{{cite constellation|GJ 273}}</ref>
+
+<ref name=aaa467_1_259>{{cite journal
+  | last=Reiners |first=Ansgar
+  | title=The narrowest M-dwarf line profiles and the rotation-activity connection at very slow rotation
+  | journal=Astronomy and Astrophysics |volume=467 |issue=1
+  | date=May 2007 |pages=259–268
+  | doi=10.1051/0004-6361:20066991   | doi-access=free|bibcode=2007A&A...467..259R |arxiv=astro-ph/0702634 |s2cid=8672566
+ }}</ref>
+
+<ref name=aaa496_3_787>{{cite journal
+ | last1=Reiners  | first1=Ansgar
+ | last2=Basri    | first2=Gibor
+ | date=March 2009
+ | title=On the magnetic topology of partially and fully convective stars
+ | journal=Astronomy and Astrophysics
+ | volume=496  | issue=3  | pages=787–790
+ | doi=10.1051/0004-6361:200811450   | doi-access=free|arxiv = 0901.1659
+ | bibcode=2009A&A...496..787R  | s2cid=15159121
+}}
+</ref>
+
+<ref name=apjss34_479>{{cite journal
+ | last=Lacy  | first=C. H.
+ | date=August 1977
+ | title=Radii of nearby stars: An application of the Barnes-Evans relation
+ | journal=Astrophysical Journal Supplement Series
+ | volume=34  | pages=479–492
+ | doi=10.1086/190459  | bibcode=1977ApJS...34..479L
+}}
+</ref>
+
+<ref name=ARICNS>{{cite web
+ | title=ARICNS star page of GJ 273
+ | url=http://www.ari.uni-heidelberg.de/datenbanken/aricns/cnspages/4c00562.htm
+ | publisher=Astronomisches Rechen-Institut Heidelberg
+ | access-date=2010-04-21
+}}
+</ref>
+
+<ref name="Astudillo-Defru2017">{{cite journal | doi=10.1051/0004-6361/201630153 
+  | doi-access=free| last1=Astudillo-Defru | first1=Nicola | last2=Forveille | first2=Thierry
+ | last3=Bonfils  | first3=Xavier        | last4=Ségransan  | first4=Damien
+ | last5=Bouchy   | first5=François      | last6=Delfosse   | first6=Xavier
+ | last7=Lovis    | first7=Christophe    | last8=Mayor      | first8=Michel
+ | last9=Murgas   | first9=Felipe        | last10=Pepe      | first10=Francesco
+ | last11=Santos  | first11=Nuno C.      | last12=Udry      | first12=Stéphane
+ | last13=Wünsche | first13=Anaël | display-authors=6
+ | year=2017
+ | title=The HARPS search for southern extra-solar planets. XLI. A dozen planets around the M&nbsp;dwarfs GJ&nbsp;3138, GJ&nbsp;3323, GJ&nbsp;273, GJ&nbsp;628, and GJ&nbsp;3293
+ | journal=Astronomy and Astrophysics
+ | volume=602  | at=A88
+ | arxiv=1703.05386  | bibcode=2017A&A...602A..88A | s2cid=119418595
+ | url=https://www.aanda.org/articles/aa/full_html/2017/06/aa30153-16/aa30153-16.html
+}}
+</ref>
+
+<ref name=barnes>{{cite arXiv
+ |last1=Tuomi      |first1=M.     |last2=Jones     |first2=H. R. A.
+ |last3=Anglada-Escudé |first3=G. |last4=Butler    |first4=R. P.
+ |last5=Arriagada  |first5=P.     |last6=Vogt      |first6=S. S.
+ |last7=Burt       |first7=J.     |last8=Laughlin  |first8=G.
+ |last9=Holden     |first9=B.     |last10=Teske    |first10=J. K.
+ |last11=Shectman  |first11=S.A.  |last12=Crane    |first12=J. D.
+ |last13=Thompson  |first13=I.    |last14=Keiser   |first14=S.
+ |last15=Jenkins   |first15=J. S. |last16=Berdiñas |first16=Z.
+ |last17=Diaz      |first17=M.    |last18=Kiraga   |first18=M.
+ |last19=Barnes    |first19=J. R. |display-authors=6
+ |year=2019 
+ |title=Frequency of planets orbiting M&nbsp;dwarfs in the Solar neighbourhood
+ |eprint=1906.04644  |class=astro-ph.EP
+}}</ref>
+
+<ref name=csiro>{{cite web
+ |title=The Colour of Stars
+ |date=21 December 2004
+ |website=Australia Telescope  |series=Outreach and Education
+ |publisher=[[Commonwealth Scientific and Industrial Research Organisation]]
+ |url=http://outreach.atnf.csiro.au/education/senior/astrophysics/photometry_colour.html
+ |access-date=2012-01-16  |url-status=dead
+ |archive-url=https://web.archive.org/web/20120222183238/http://outreach.atnf.csiro.au/education/senior/astrophysics/photometry_colour.html
+ |archive-date=22 February 2012
+}}
+</ref>
+
+<ref name=Delfosse-etal-1998>{{cite journal
+ | last1=Delfosse  | first1=Xavier
+ | last2=Forveille | first2=Thierry
+ | last3=Perrier   | first3=Christian
+ | last4=Mayor     | first4=Michel
+ | date=March 1998
+ | title=Rotation and chromospheric activity in field M&nbsp;dwarfs
+ | journal=Astronomy and Astrophysics
+ | volume=331 | pages=581–595
+ | bibcode=1998A&A...331..581D
+}}</ref>
+
+<ref name=Economist-2017>{{cite magazine
+ |title=How to send a message to another planet
+ |date=16 November 2017
+ |magazine=[[The Economist]]
+ |url=https://www.economist.com/news/science-and-technology/21731380-including-clock-some-trigonometry-and-some-jean-michel-jarre-how-send/
+ |access-date=19 November 2017
+}}
+</ref>
+
+<ref name="García-Sánchez-etal-2001">{{cite journal
+ | author1=García-Sánchez, J. | display-authors=etal
+ | date=2001
+ | title=Stellar encounters with the solar system
+ | journal=Astronomy and Astrophysics
+ | volume=379  | issue=2  | pages=634–659
+ | doi=10.1051/0004-6361:20011330  | bibcode=2001A&A...379..634G
+ | url=http://www.aanda.org/articles/aa/pdf/2001/44/aah2819.pdf
+| doi-access=free
+ }}
+</ref>
+
+<ref name=hcob900_1>{{cite journal
+ | last1=Luyten       | first1=W. J.
+ | last2=Ebbighausen  | first2=E. G.
+ | date=September 1935
+ | title=A faint star of large proper motion
+ | journal=Harvard College Observatory Bulletin
+ | volume=900  | issue=900  | pages=1–3
+ | bibcode=1935BHarO.900....1L
+}}
+</ref>
+
+<ref name=mnras452_3_2745>{{citation
+ | last1=Suárez Mascareño   | first1=A.    | last2=Rebolo   | first2=R.
+ | last3=González Hernández | first3=J. I. | last4=Esposito | first4=M.
+ | date=September 2015
+ | title=Rotation periods of late-type dwarf stars from time series high-resolution spectroscopy of chromospheric indicators 
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=452  | issue=3  | pages=2745–2756
+ | doi=10.1093/mnras/stv1441  | doi-access=free | bibcode=2015MNRAS.452.2745S 
+ | arxiv=1506.08039  | s2cid=119181646
+}}
+</ref>
+
+<ref name="mnras388">{{cite journal
+ | last1=Viti     | first1=S. | author1-link = Serena Viti
+ | last2=Jones    | first2=H. R. A.
+ | last3=Richter  | first3=M. J.
+ | last4=Barber   | first4=R. J.
+ | last5=Tennyson | first5=J.
+ | last6=Lacy     | first6=J. H.
+ | date=August 2008
+ | title=A potential new method for determining the temperature of cool stars
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=388  | issue=3  | pages=1305–1313
+ | doi=10.1111/j.1365-2966.2008.13489.x  | doi-access=free
+ | s2cid=18660955
+ | bibcode=2008MNRAS.388.1305V   | arxiv = 0805.3297
+}}
+</ref>
+
+<ref name="mnras334">{{cite journal
+ | last1=Koen    | first1=C.   | last2=Kilkenny | first2=D.
+ | last3=van Wyk | first3=F.   | last4=Cooper   | first4=D.
+ | last5=Marang  | first5=F.
+ | date=July 2002
+ | title=UBV(RI)<sub>C</sub> photometry of Hipparcos red stars
+ | journal=[[Monthly Notices of the Royal Astronomical Society]]
+ | volume=334  | issue=1  | pages=20–38
+ | doi=10.1046/j.1365-8711.2002.05403.x  | doi-access=free
+ | bibcode=2002MNRAS.334...20K
+}}
+</ref>
+
+<ref name="PozuelosSuárez2020">{{cite journal
+ |last1=Pozuelos |first1=Francisco J.  |last2=Suárez    |first2=Juan C.
+ |last3=de Elía  |first3=Gonzalo C.    |last4=Berdiñas  |first4=Zaira M.
+ |last5=Bonfanti |first5=Andrea        |last6=Dugaro    |first6=Agustín
+ |last7=Gillon   |first7=Michaël       |last8=Jehin     |first8=Emmanuël
+ |last9=Günther  |first9=Maximilian N. |last10=van&nbsp;Grootel |first10=Valérie
+ |last11=Garcia  |first11=Lionel J.    |last12=Thuillier |first12=Antoine
+ |last13=Delrez  |first13=Laetitia     |last14=Rodón     |first14=Jose R.
+ |display-authors=6
+ |year=2020
+ |title=GJ&nbsp;273: On the formation, dynamical evolution, and habitability of a planetary system hosted by an M&nbsp;dwarf at 3.75&nbsp;parsec
+ |journal=Astronomy & Astrophysics
+ |volume=641  |pages=A23
+ |doi=10.1051/0004-6361/202038047  |doi-access=free|arxiv=2006.09403
+ |bibcode=2020A&A...641A..23P |s2cid=219721292 |quote=<span style="font-family:LatinModern;"><small>GJ 273 is a planetary system orbiting an M&nbsp;dwarf only 3.75&nbsp;pc away, composed of two confirmed planets, GJ&nbsp;273b and GJ&nbsp;273c, and two promising candidates, GJ&nbsp;273d and GJ&nbsp;273e ... the system remained stable only for values of inclinations ranging from 90◦ to ~72◦</small></span>
+}}
+</ref>
+
+<ref name="RECONS">{{cite report
+ | title=The One Hundred Nearest Stars
+ | date=2009-01-01
+ | publisher=[[Research Consortium On Nearby Stars]]
+ | url=http://www.astro.gsu.edu/RECONS/TOP100.posted.htm
+ | access-date=2009-09-03
+}}
+</ref>
+
+<ref name=Schaaf-2008>{{cite book
+ | first=Fred   | last=Schaaf
+ | date=2008
+ | title=The Brightest Stars: Discovering the universe through the sky's most brilliant stars   | page=169
+ | publisher=[[John Wiley and Sons]]
+ | isbn=978-0-471-70410-2
+}}
+</ref>
+
+<ref name="Sónar-Barcelona">{{cite web
+ |title=Sónar music festival
+ |website=Sónar
+  |place=Barcelona, ES
+ |url=https://sonar.es/
+}}
+</ref>
+
+<ref name=Annot>
+{{cite web
+ | title= Annotations on LHS&nbsp;33 object
+ | work= [[SIMBAD]]
+ | publisher=[[Centre de Données astronomiques de Strasbourg]]
+ | url=http://cdsannotations.u-strasbg.fr/annotations/simbadObject/971564
+ | access-date=2010-04-21
+}}
+</ref>
+
+}}
+
+==External links==
+* {{cite web
+ |title=Luyten's Star
+ |website= Sol Station
+ |url=http://www.solstation.com/stars/luytens.htm
+|archive-url=https://web.archive.org/web/20000824113812/http://www.solstation.com/stars/luytens.htm
+|url-status=dead
+|archive-date=August 24, 2000
+}}
+
+{{nearest systems|2}}
+{{Stars of Canis Minor}}
+
+[[Category:Local Bubble]]
+[[Category:M-type main-sequence stars]]
+[[Category:Canis Minor]]
+[[Category:Hipparcos objects|036208]]
+[[Category:Gliese and GJ objects|0273]]
+[[Category:Durchmusterung objects|BD+05 1668]]
+[[Category:Planetary systems with two confirmed planets]]
+[[Category:Stars with proper names]]
+[[Category:Population I stars]]

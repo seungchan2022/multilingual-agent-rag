@@ -1,0 +1,114 @@
+{
+  "seed": 20261019,
+  "order": [
+    "글리제 581 c",
+    "큰곰자리 47 b",
+    "목동자리 타우 b",
+    "HD 189733 b",
+    "글리제 1214 b",
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 436 b",
+    "케플러-16b",
+    "글리제 876 b",
+    "센타우루스자리 프록시마 b",
+    "로스 128 b",
+    "케플러-22b",
+    "글리제 581 g",
+    "페가수스자리 51 b",
+    "게자리 55 e",
+    "안드로메다자리 입실론 b",
+    "WASP-12b",
+    "HD 209458 b",
+    "글리제 581 d",
+    "HD 80606 b"
+  ],
+  "results": {
+    "글리제 581 c": {
+      "result": "used",
+      "id": "ex-01",
+      "doc": "글리제 581 c"
+    },
+    "큰곰자리 47 b": {
+      "result": "skipped",
+      "reason": "영어 값 비교 불가: 어림: 1,078 ± 2 d / ~2.95 y"
+    },
+    "목동자리 타우 b": {
+      "result": "used",
+      "id": "ex-02",
+      "doc": "목동자리 타우 b"
+    },
+    "HD 189733 b": {
+      "result": "skipped",
+      "reason": "영어 값 비교 불가: 값 뒤에 더 있음: 2.218575200 d / 53.2458048 h"
+    },
+    "글리제 1214 b": {
+      "result": "used",
+      "id": "ex-03",
+      "doc": "글리제 1214 b"
+    },
+    "COROT-7b": {
+      "result": "used",
+      "id": "ex-04",
+      "doc": "COROT-7b"
+    },
+    "KELT-9b": {
+      "result": "used",
+      "id": "ex-05",
+      "doc": "KELT-9b"
+    },
+    "글리제 436 b": {
+      "result": "used",
+      "id": "ex-06",
+      "doc": "글리제 436 b"
+    },
+    "케플러-16b": {
+      "result": "used",
+      "id": "ex-07",
+      "doc": "케플러-16b"
+    },
+    "글리제 876 b": {
+      "result": "skipped",
+      "reason": "단위가 맞지 않음: 공전주기: 0.1668446년"
+    },
+    "센타우루스자리 프록시마 b": {
+      "result": "used",
+      "id": "ex-08",
+      "doc": "센타우루스자리 프록시마 b"
+    },
+    "로스 128 b": {
+      "result": "used",
+      "id": "ex-09",
+      "doc": "로스 128 b"
+    },
+    "케플러-22b": {
+      "result": "used",
+      "id": "ex-10",
+      "doc": "케플러-22b"
+    },
+    "글리제 581 g": {
+      "result": "unvisited"
+    },
+    "페가수스자리 51 b": {
+      "result": "unvisited"
+    },
+    "게자리 55 e": {
+      "result": "unvisited"
+    },
+    "안드로메다자리 입실론 b": {
+      "result": "unvisited"
+    },
+    "WASP-12b": {
+      "result": "unvisited"
+    },
+    "HD 209458 b": {
+      "result": "unvisited"
+    },
+    "글리제 581 d": {
+      "result": "unvisited"
+    },
+    "HD 80606 b": {
+      "result": "unvisited"
+    }
+  }
+}

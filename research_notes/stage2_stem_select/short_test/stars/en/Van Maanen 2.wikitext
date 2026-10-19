@@ -1,0 +1,398 @@
+{{short description|White dwarf in the constellation Pisces}}
+{{lowercase title}}
+{{Starbox begin}}
+{{Starbox image
+ | image = [[File:Van Maanen's Star SDSS.jpg|250px]]
+ | caption = Van Maanen's Star (bright star in the middle)
+ | credit = [[Sloan Digital Sky Survey|SDSS]]
+}}
+{{Starbox observe
+ | epoch       = [[J2000.0]] ([[International Celestial Reference System|ICRS]])
+ | constell    = [[Pisces (constellation)|Pisces]]
+ | ra          = {{RA|00|49|09.89834}}<ref name=GaiaDR3/>
+ | dec         = {{DEC|+05|23|18.9938}}<ref name=GaiaDR3/>
+ | appmag_v    = 12.374<ref name=mnras403_4_1949/>
+ | pronounce   = {{IPAc-en|v|æ|n|'|m|V|n|@|n|z}})<ref name=Dickinson2012/>
+}}
+{{Starbox character
+ | type        = [[white dwarf]]<ref name=vizierIII_235B/>
+ | class       = DZ8<ref name=vizierIII_235B/>
+ | b-v         = 0.546<ref name=mnras403_4_1949/>
+ | u-b         = 0.064<ref name=mnras403_4_1949/>
+ | v-r         = 0.268<ref name=mnras403_4_1949/>
+ | r-i         = 0.4<ref name=simbad/>
+ | variable    = 
+}}
+{{Starbox astrometry
+ | radial_v    = −12{{±|7}}<ref name=Lindegren_Dravins_2021/>
+ | prop_mo_ra  = {{val|+1231.399|fmt=commas}}
+ | prop_mo_dec = {{val|−2711.883|fmt=commas}}
+ | pm_footnote = <ref name=GaiaDR3/>
+ | parallax    = 231.7800
+ | p_error     = 0.0183
+ | parallax_footnote = <ref name=GaiaDR3/>
+ | absmag_v    = {{val|14.21|0.03}}<ref name=Subasavage_et_al_2017/>
+}}
+{{Starbox detail
+ | source      = <ref name=Subasavage_et_al_2017/>
+ | mass        = {{val|0.67|0.02}} 
+ | radius      = {{solar radius calculator|type=logLT|1=-3.79|logLerr=0.04|2=6130|Terr=110|decimals=5}}{{efn|name=radius}}
+ | gravity     = {{val|8.16|0.03}}
+ | temperature = {{val|6130|110|fmt=commas}}
+ | luminosity  = {{val|1.622|0.156|0.143|e=-4}}
+ | age_gyr     = {{val|4.1|1.0}}<ref name=mnrasl386_1_L5/>{{efn|Total age, including main-sequence lifetime}} Gyr<br>{{val|3.17|0.29}}<ref name=mnrasl386_1_L5/>{{efn|This is the [[cooling age]], i.e. age as a white dwarf only}}
+}}
+{{Starbox catalog
+ | names = {{odlist | name=van Maanen's Star | name2=van&nbsp;Maanen&nbsp;2 | name3=vMa2 | BD=+18°2165 | HIP=3829 | G=001-027 | GJ=35 | GCTP=160.00 | LFT=76 | LHS=7 | LTT=10292 | WD=0046+051 | Wolf=28 }}<ref name=simbad/>
+}}
+{{Starbox reference
+ | Simbad=HIP+3829
+}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Pisces_constellation_map.svg
+|alt=van Maanen's Star is located in the constellation Pisces.
+|caption=Location of van Maanen's Star in the constellation [[Pisces (constellation)|Pisces]]|border=infobox|mark=Red_pog.png|width=300
+|label=van&nbsp;Maanen's&nbsp;Star
+|position=bottom
+|lat=34.2
+|long=41.2
+}}|caption=
+}}
+{{Starbox end}}
+
+'''Van Maanen 2''', or '''van Maanen's Star''', is the closest-known solitary [[white dwarf]] to the Solar System. It is a dense, compact [[stellar remnant]] no longer generating energy through fusion and has equivalent to about 68% of the [[Sun's mass]] but only 1% of [[Solar radius|its radius]].<ref name="ApJS199_2_29" /> At a distance of 14.1 [[light-year]]s it is the third closest of its type of star after [[Sirius B]] and [[Procyon B]], in that order.<ref name="recons" /><ref name="apj571" /> Discovered in 1917 by Dutch-American astronomer [[Adriaan van Maanen]],<ref name="van_maanen" /> Van Maanen 2 was the third white dwarf identified, after [[40 Eridani B]] and Sirius B, and the first solitary example.<ref name="schatzman" />
+
+==Observation history==
+While searching for a companion to the large [[proper-motion]] star [[Lalande 1299]], in 1917 Dutch–American astronomer [[Adriaan van Maanen]] discovered this star with an even larger proper motion a few [[arcminute]]s to the northeast. He estimated the annual proper motion of the latter as 3&nbsp;[[arcsecond]]s. This star had been captured on a plate taken November 11, 1896 for the [[Carte du Ciel]] Catalog of Toulouse and it showed an apparent magnitude of 12.3.<ref name=Holberg2009/> Prominent absorption features of calcium [[Fraunhofer lines|K-line]] to [[H-beta]] in the [[stellar spectrum|spectrum]] led van Maanen to assign it a spectral classification of F0,<ref name="van_maanen"/> and it was initially known as "van Maanen's F star".<ref name=Holberg2009/>
+
+In 1918, American astronomer [[Frederick Hanley Seares|Frederick Seares]] obtained a refined visual magnitude of 12.34, but the distance to the star remained unknown.<ref name=pasp30_175_191/> Two years later, van Maanen published a [[parallax]] estimate of 0.246″, giving it an absolute magnitude of +14.8. This made it the faintest F-type star known at that time.<ref name=cmwo182_1/> In 1923, Dutch-American astronomer [[Willem Luyten]] published a study of stars with large proper motions in which he identified what he called "van Maanen's Star" as one of only three known [[white dwarf]]s, a term he coined.<ref name=baas37_1503/> These are stars that have an unusually low absolute magnitude for their [[spectral class]], lying well below the [[main sequence]] on the [[Hertzsprung–Russell diagram]] of stellar temperature versus luminosity.<ref name=lob11_1/>
+
+The high mass density of white dwarfs was demonstrated in 1925 by American astronomer [[Walter Sydney Adams|Walter Adams]] when he measured the [[gravitational redshift]] of [[Sirius|Sirius B]] as 21&nbsp;km/s.<ref name=to48_337/> In 1926, British astrophysicist [[Ralph Fowler]] used the new theory of [[quantum mechanics]] to show that these stars are supported by [[electron gas]] in a [[Degenerate matter|degenerate state]].<ref name=mnras87_114/><ref name=marman2002/> British astrophysicist [[Leon Mestel]] demonstrated in 1952 that the energy they emit is the surviving heat from bygone [[nuclear fusion]]. He showed that the latter no longer occurs within a white dwarf, and calculated the internal temperature of van Maanen 2 as 6 million K. He gave a preliminary age estimate of 100 billion/''A''&nbsp;years, where ''A'' is the mean [[atomic weight]] of the nuclei in the star.<ref name=mnras112_583/>
+
+In 2016, it was discovered that a spectrographic plate of the star made in 1917 gives evidence—the earliest known—of planetary matter outside the [[Solar System]],<ref name=Zuckerman2015/><ref name=Farihi2016/><ref name=ScienceDaily2016/> in the form of calcium absorption lines that indicate the presence of planetary material polluting the stellar atmosphere.
+
+==Characteristics==
+Van Maanen 2 is {{Convert|14.1|ly|pc|abbr=off|lk=on}} from the Sun in the constellation [[Pisces (constellation)|Pisces]], about 2° to the south of the star [[Delta Piscium]],<ref name=burham1978/> with a relatively high [[proper motion]] of 2.978″ annually along a [[position angle]] of 155.538°.<ref name=aj147_6_129/> It is closer to the Sun than any other solitary white dwarf. It is too faint to be seen with the [[naked eye]].<ref name=burham1978/> Like other white dwarfs, it is a very dense star: its mass has been estimated to be about 67% of the [[solar mass|Sun's]],<ref name=Limoges2015/> yet it has only 1% of the [[Sun's radius]] (1.23 times the [[Earth's radius]]).<ref name=Subasavage_et_al_2017/>{{efn|name=radius}} The [[stellar atmosphere|outer atmosphere]] has a temperature of approximately 6,110&nbsp;[[Kelvin|K]],<ref name=Limoges2015/> which is relatively cool for a white dwarf. As all white dwarfs steadily radiate away their heat over time, this temperature can be used to estimate its age, thought to be around 3.2&nbsp;billion years.<ref name=mnrasl386_1_L5/>
+
+The progenitor of this white dwarf had an estimated 2.6 solar masses and remained on the main sequence for about 900 million years. This gives the star an overall age of about 4.1 billion years. When this star left the main sequence, it expanded into a [[red giant]] that reached a maximum radius of 1,000 times the current radius of the Sun, or about 4.6&nbsp;[[astronomical unit]]s. Any planets orbiting within this radius would have been engulfed in the star's extent.<ref name=mnrasl386_1_L5/>
+
+The [[stellar classification]] of Van Maanen 2 is DZ8, having a helium atmosphere with a significant presence of heavier elements in its spectrum—what astronomers term [[metallicity|metals]].<ref name=Farihi2011/> Indeed, this star is the prototype (archetype in practice) for DZ white dwarfs. Physical models of white dwarfs used by today's astrophysicists show that elements with mass greater than helium would sink, [[ceteris paribus|all things being equal]], below the [[photosphere]], leaving hydrogen and helium to be visible in the spectrum; for heavier elements to appear here requires a recent external source.<ref name=mnras404_4_2123/> It is unlikely that they were obtained from the [[interstellar medium]], since that is primarily composed of hydrogen and helium.<ref name=Farihi2011/> Instead, the surface of the star was likely strewn with circumstellar material, such as from the remains of one or more rocky, [[terrestrial planet]]s.<ref name=mnras404_4_2123/> Later observations with the [[International Ultraviolet Explorer]] detected calcium, [[magnesium]] and [[iron]]. This work also detected [[Lyman-alpha]] absorption, which shows that [[hydrogen]] is present in the atmosphere.<ref name=Wolff_et_al_2002/> Observations with the [[Very Large Telescope]] X-shooter and Hubble [[STIS]] showed additional polluting elements of [[chromium]], [[nickel]], [[sodium]] and [[silicon]].<ref name="O'Brien 2026"/>
+
+The total mass of metals in the atmosphere of Van Maanen 2 is estimated to be around 10<sup>21</sup>&nbsp;g<ref name=mnras439_4_3371/>—about the same mass as an asteroid, such as [[192 Nausikaa]].<ref name="Carry2012"/> These pollutants will sink deeper into the atmosphere on time scales of around three million years, which indicates the material is being replenished at a rate of 10<sup>7</sup>&nbsp;g/s. These materials could have been accreted in the form of multiple [[planetesimal]]s smaller than around 84&nbsp;km colliding with the star.<ref name=mnras439_4_3371/>
+
+White dwarfs with a spectrum that indicates high levels of metal contamination of the photosphere often have a [[circumstellar disk]]. In the case of van Maanen 2, observations at a wavelength of 24&nbsp;[[μm]] do not show the [[infrared excess]] that might be generated by a dusty disk. Instead there is a noticeable deficit. The predicted flux at 24&nbsp;μm is 0.23&nbsp;m[[Jansky|Jy]], whereas the measured value is {{nowrap|0.11 ± 0.03 mJy}}. This deficit may be explained by collision-induced absorption in the atmosphere of the star,<ref name=apj694_2_805/> as seen in certain white dwarfs that have temperatures below 4,000&nbsp;K, as a result of collisions between hydrogen molecules or between hydrogen molecules and helium.<ref name=aj129_5_2382/>
+
+A paper published in 2015 found that, based upon the [[Stellar kinematics|space velocity]] of this star, it made the closest approach 15,070 years ago as then it was {{Convert|0.95|pc|ly|lk=off|order=flip}} from the Sun,<ref name=aa575_A35/> although it uses an outdated and unreliable radial velocity measurement.<ref name=Lindegren_Dravins_2021/>
+
+==Possible companion==
+The possibility of a [[Brown dwarf|substellar]] companion remains uncertain. As of 2004, one paper claimed detection of this,<ref name=apjl600_1_L71/> while another discounted this.<ref name=nic/> As of 2008, observations with the [[Spitzer Space Telescope]] appear to rule out any companions within 1,200&nbsp;[[Astronomical unit|AU]] of the star that have four [[Jupiter mass]]es or greater.<ref name=apj681_2_1470/> No potential proper motion companions have been identified between an [[angular separation]] of {{val|5|u=arcseconds}} out to 10°, ruling out objects with a mass of {{val|75|ul=Jupiter mass}} or greater.<ref name=Kervella_et_al_2019/>
+
+As of 2022, a candidate planet was detected via [[astrometry]], with a mass between 0.4 and 1.1 Jupiter masses.<ref name=EPE/>
+
+==See also==
+* [[List of white dwarfs]]
+* [[List of exoplanets and planetary debris around white dwarfs]]
+* [[List of nearest stars]]
+* [[Stars named after people]]
+
+==Notes==
+{{notelist|
+
+{{efn | name=radius | Applying the [[Stefan–Boltzmann law]] with a nominal [[sun|solar]] [[effective temperature]] of 5,772&nbsp;[[Kelvin|K]]: 
+:<math>\sqrt{\biggl(\frac{5,772}{6,130}\biggr)^4 \cdot 10^{-3.79}} = 0.01129\ R_\odot</math>.}}
+
+}}
+
+==References==
+{{Reflist|30em|refs=
+
+<ref name=GaiaDR3>{{Cite Gaia DR3 | 2552928187080872832 | mode=cs2}}</ref>
+
+<ref name=Kervella_et_al_2019>{{citation
+ | title=Stellar and substellar companions of nearby stars from Gaia DR2. Binarity from proper motion anomaly
+ | last1=Kervella | first1=Pierre | last2=Arenou | first2=Frédéric
+ | last3=Mignard | first3=François | last4=Thévenin | first4=Frédéric
+ | display-authors=1 | journal=Astronomy & Astrophysics
+ | volume=623 | id=A72 | pages=23 | date=March 2019
+ | arxiv=1811.08902 | bibcode=2019A&A...623A..72K 
+ | doi=10.1051/0004-6361/201834371 | s2cid=119491061 | postscript=. }}</ref>
+
+<ref name=Subasavage_et_al_2017>{{citation
+ | title=The Solar Neighborhood. XXXIX. Parallax Results from the CTIOPI and NOFS Programs: 50 New Members of the 25 parsec White Dwarf Sample
+ | last1=Subasavage | first1=John P. | last2=Jao | first2=Wei-Chun
+ | last3=Henry | first3=Todd J. | last4=Harris | first4=Hugh C.
+ | last5=Dahn | first5=Conard C. | last6=Bergeron | first6=P.
+ | last7=Dufour | first7=P. | last8=Dunlap | first8=Bart H.
+ | last9=Barlow | first9=Brad N. | last10=Ianna | first10=Philip A.
+ | last11=Lépine | first11=Sébastien | last12=Margheim | first12=Steven J.
+ | display-authors=1 | journal=The Astronomical Journal
+ | volume=154 | issue=1 | id=32 | pages=24 | date=July 2017
+ | arxiv=1706.00709 | bibcode=2017AJ....154...32S 
+ | doi=10.3847/1538-3881/aa76e0 | s2cid=119189852 | postscript=. | doi-access=free }}</ref>
+
+<ref name=Farihi2011>{{citation
+ | title=Evidence for Terrestrial Planetary System Remnants at White Dwarfs
+ | last=Farihi | first=Jay | postscript=.
+ | work=Planetary Systems Beyond the Main Sequence: Proceedings of the International Conference
+ | series=AIP Conference Proceedings
+ | volume=1331 | pages=193–210 | date=March 2011
+ | arxiv=1010.6067 | bibcode=2011AIPC.1331..193F 
+ | doi=10.1063/1.3556201 }}</ref>
+
+<ref name=Zuckerman2015>{{citation
+ | last=Zuckerman | first=Benjamin
+ | chapter=Recognition of the First Observational Evidence of an Extrasolar Planetary System
+ | title=19th European Workshop on White Dwarfs
+ | editor1-last=Dufour |editor1-first=Patrick
+ | editor2-last=Bergeron | editor2-first=Pierre
+ | editor3-last=Fontaine | editor3-first=Gilles
+ | year=2015
+ | publisher=Astronomical Society of the Pacific
+ | series=ASP Conference Series | volume=493 | page=291
+ | arxiv=1410.2575 | bibcode=2015ASPC..493..291Z | language=en | isbn=978-1-58381-870-1}}</ref>
+
+<ref name=Holberg2009>{{citation
+ | title=The Discovery of the Existence of White Dwarf Stars: 1862 to 1930
+ | last=Holberg | first=J. B. | postscript=.
+ | journal=Journal for the History of Astronomy
+ | volume=40 | issue=2 | pages=137–154 | date=May 2009
+ | doi=10.1177/002182860904000201 | bibcode=2009JHA....40..137H | s2cid=117939625 }}</ref>
+
+<ref name=Limoges2015>{{citation
+ | title=Physical Properties of the Current Census of Northern White Dwarfs within 40 pc of the Sun
+ | display-authors=1 | last1=Limoges | first1=M. -M.
+ | last2=Bergeron | first2=P. | last3=Lépine | first3=S.
+ | journal=The Astrophysical Journal Supplement Series
+ | volume=219 | issue=2 | id=19 | pages=35 | date=August 2015
+ | doi=10.1088/0067-0049/219/2/19 | arxiv=1505.02297
+ | bibcode=2015ApJS..219...19L | s2cid=118494290 | postscript=. }}</ref>
+
+<ref name=Farihi2016>{{citation
+ | last=Farihi | first=J. | postscript=.
+ | title=Circumstellar debris and pollution at white dwarf stars
+ | journal=New Astronomy Reviews
+ | volume=71 | pages=9–34 | date=March 12, 2016
+ | doi=10.1016/j.newar.2016.03.001 | arxiv=1604.03092
+ | bibcode=2016NewAR..71....9F | s2cid=118486264 }}</ref>
+
+<ref name=ScienceDaily2016>{{citation | postscript=.
+ | url=https://www.sciencedaily.com/releases/2016/04/160412132617.htm
+ | title=1917 astronomical plate has first-ever evidence of exoplanetary system
+ | date=April 12, 2016
+ | website=ScienceDaily | access-date=2016-04-15}}</ref>
+
+<ref name=Dickinson2012>{{citation
+ | first=David | last=Dickinson | postscript=.
+ | title=Astro-Challenge: Hunting for Van Maanen's Star
+ | website=Astro Guyz | date=December 17, 2012
+ | url=http://astroguyz.com/2012/12/17/astro-challenge-hunting-for-van-maanens-star/
+ | access-date=April 28, 2019 | archive-date=April 28, 2019
+ | archive-url=https://web.archive.org/web/20190428060507/http://astroguyz.com/2012/12/17/astro-challenge-hunting-for-van-maanens-star/
+ | url-status=dead }}</ref>
+
+<ref name=mnras403_4_1949>{{citation | display-authors=1 | last1=Koen | first1=C. | last2=Kilkenny | first2=D. | last3=van Wyk | first3=F. | last4=Marang | first4=F. | title=UBV(RI)<sub>C</sub> JHK observations of Hipparcos-selected nearby stars | journal=[[Monthly Notices of the Royal Astronomical Society]] | volume= 403 | issue=4 | pages=1949–1968 |date=April 2010 | doi=10.1111/j.1365-2966.2009.16182.x | bibcode=2010MNRAS.403.1949K | doi-access=free | postscript=. | hdl=10566/813 | hdl-access=free }}</ref>
+
+<ref name=simbad>{{cite simbad | title=Wolf 28 | mode=cs2 }}</ref>
+
+<ref name=vizierIII_235B>{{citation | title=Spectroscopically Identified White Dwarfs | journal=VizieR On-line Data Catalog | last1=McCook | first1=G. P. | last2=Sion | first2=E. M. | url=http://vizier.cfa.harvard.edu/viz-bin/VizieR-4 | date=August 2006 | access-date=2010-12-04 | bibcode=2006yCat.3235....0M | postscript=. }} VizieR On-line Data Catalog: III/235B</ref>
+
+<ref name=mnras404_4_2123>{{citation | display-authors=1 | last1=Farihi | first1=J. | last2=Barstow | first2=M. A. | last3=Redfield | first3=S. | last4=Dufour | first4=P. | last5=Hambly | first5=N. C. | title=Rocky planetesimals as the origin of metals in DZ stars | journal=Monthly Notices of the Royal Astronomical Society | volume=404 | issue=4 | pages=2123–2135 | date=June 2010 | doi=10.1111/j.1365-2966.2010.16426.x | doi-access=free | bibcode=2010MNRAS.404.2123F | arxiv=1001.5025 | s2cid=10102898 | postscript=. }}</ref>
+
+<ref name=nic>{{citation | display-authors=1 | last1=Farihi | first1=J. | last2=Becklin | first2=E. E. | last3=Macintosh | first3=B. A. | title=Mid-Infrared Observations of van Maanen 2: No Substellar Companion | journal=Astrophysical Journal Letters | date=June 2004 | volume=608 | issue=2 | pages=L109–L112 | doi=10.1086/422502 | bibcode=2004ApJ...608L.109F | arxiv=astro-ph/0405245 | s2cid=17166073 | postscript=. }}</ref>
+
+<ref name="recons">{{citation | date=January 2008 | url=http://www.chara.gsu.edu/~thenry/RECONS/TOP100.posted.htm | title=The One Hundred Nearest Star Systems | publisher=RECONS | access-date=2008-12-08 | postscript=. }}</ref>
+
+<ref name="apj571">{{citation | display-authors=1 | last1=Holberg | first1=J. B. | last2=Oswalt | first2=Terry D. | last3=Sion | first3=E. M. | title=A Determination of the Local Density of White Dwarf Stars | journal=The Astrophysical Journal | date=May 2002 | volume=571 | issue=1 | pages=512–518 | doi=10.1086/339842 | bibcode=2002ApJ...571..512H | arxiv=astro-ph/0102120 | s2cid=14231823 | postscript=. }}</ref>
+
+<ref name="van_maanen">{{citation
+ | last=van Maanen | first=A.
+ | title=Two Faint Stars with Large Proper Motion
+ | journal=Publications of the Astronomical Society of the Pacific
+ | date=December 1917 | volume=29 | issue=172 | pages=258–259
+ | doi=10.1086/122654 | doi-access=free
+ | bibcode=1917PASP...29..258V | postscript=. }}</ref>
+
+<ref name="schatzman">{{citation
+ | first=Evry | last=Schatzman
+ | author-link=Evry Schatzman
+ | title=White Dwarfs | year=1958 | page=2
+ | publisher=North Holland Publishing Company
+ | postscript=. }}</ref>
+
+<ref name=apj694_2_805>{{citation | display-authors=1 | last1=Farihi | first1=J. | last2=Jura | first2=M. | last3=Zuckerman | first3=B. | title=Infrared Signatures of Disrupted Minor Planets at White Dwarfs | journal=The Astrophysical Journal | volume=694 | issue=2 | pages=805–819 |date=April 2009 | doi=10.1088/0004-637X/694/2/805 | bibcode=2009ApJ...694..805F | arxiv=0901.0973 | s2cid=14171378 | postscript=. }}</ref>
+
+<ref name=pasp30_175_191>{{citation | last=Seares | first=F. H. | title=Magnitudes and Colors of Three Faint Stars of Large Proper Motion | journal=Publications of the Astronomical Society of the Pacific | year=1918 | volume=30 | issue=175 | pages=191–192 | doi=10.1086/122724 | bibcode=1918PASP...30..191S| doi-access=free | postscript=. }}</ref>
+
+<ref name=cmwo182_1>{{citation | last=van Maanen | first=Adriaan | title=No. 182. The photographic determination of stellar parallaxes with the 60-inch reflector. Fourth series | journal=Contributions from the Mount Wilson Observatory | year=1920 | volume=182 | pages=1–35 | bibcode=1920CMWCI.182....1V | postscript=. }}&mdash;van Maanen identified the star as "Anon. 1".</ref>
+
+<ref name=baas37_1503>{{citation | last=Holberg | first=J. B. | title=How Degenerate Stars Came to be Known as White Dwarfs | journal=Bulletin of the American Astronomical Society | year=2005 | volume=37 | page=1503 | bibcode=2005AAS...20720501H | postscript=. }}</ref>
+
+<ref name=lob11_1>{{citation | last=Luyten | first=Willem J. | title=Bulletin Number 344 - A study of stars with large proper motions | journal=Lick Observatory Bulletin | year=1923 | volume=11 | pages=1–32 | bibcode=1923LicOB..11....1L | doi=10.5479/ADS/bib/1923LicOB.11.1L | postscript=. }}&mdash;See p. 20.</ref>
+
+<ref name=to48_337>{{citation | last=Adams | first=W. S. | title=The relativity displacement of the spectral lines in the companion of Sirius | year=1925 | journal=The Observatory | volume=48 | issue=7 | pages=337–342 | doi=<!-- --> | pmid=<!-- --> | bibcode=1925Obs....48..337A | postscript=. | pmc=<!-- --> }}</ref>
+
+<ref name=marman2002>{{citation
+ | first1=Peter Michael | last1=Harman | last2=Mitton | first2=Simon
+ | year=2002 | title=Cambridge Scientific Minds
+ | publisher=Cambridge University Press
+ | pages=230–232 | isbn=0-521-78612-6 | postscript=. }}</ref>
+
+<ref name=mnras87_114>{{citation
+ | last=Fowler | first=R. H.
+ | title=On Dense Matter
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | year=1926 | volume=87 | issue=2 | pages=114–122
+ | doi=10.1093/mnras/87.2.114 | doi-access=free
+ | bibcode=1926MNRAS..87..114F | postscript=. }}</ref>
+
+<ref name=mnras112_583>{{citation
+ | last=Mestel | first=L.
+ | title=On the theory of white dwarf stars. I. The energy sources of white dwarfs
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | year=1952 | volume=112 | pages=583–597
+ | doi=10.1093/mnras/112.6.583 | doi-access=free
+ | bibcode=1952MNRAS.112..583M | postscript=. }}</ref>
+
+<ref name=apjl600_1_L71>{{citation
+ | last=Makarov | first=Valeri V.
+ | title=A Substellar Companion to van Maanen 2
+ | journal=The Astrophysical Journal Letters
+ | year=2004 | volume=600 | issue=1 | pages=L71–L73
+ | doi=10.1086/381544 | doi-access=free
+ | bibcode=2004ApJ...600L..71M | postscript=. }}</ref>
+
+<ref name=aj129_5_2382>{{citation
+ | last=Farihi | first=J. | date=May 2005
+ | title=Cool versus Ultracool White Dwarfs
+ | journal=The Astronomical Journal
+ | volume=129 | issue=5 | pages=2382–2385
+ | doi=10.1086/429527 | bibcode=2005AJ....129.2382F
+ | arxiv=astro-ph/0502134 | s2cid=16849900 | postscript=. }}</ref>
+
+<ref name=apj681_2_1470>{{citation
+ | display-authors=1 | last1=Farihi | first1=J.
+ | last2=Becklin | first2=E. E. | last3=Zuckerman | first3=B.
+ | title=Spitzer IRAC Observations of White Dwarfs. II. Massive Planetary and Cold Brown Dwarf Companions to Young and Old Degenerates
+ | journal=The Astrophysical Journal
+ | volume=681 | issue=2 | pages=1470–1483 | date=July 2008
+ | doi=10.1086/588726 | bibcode=2008ApJ...681.1470F
+ | arxiv=0804.0237 | s2cid=15490630 | postscript=. }}</ref>
+
+<ref name=mnrasl386_1_L5>{{citation
+ | display-authors=1 | last1=Burleigh | first1=M. R.
+ | last2=Clarke | first2=F. J. | last3=Hogan | first3=E.
+ | last4=Brinkworth | first4=C. S. | last5=Bergeron | first5=P.
+ | last6=Dufour | first6=P. | last7=Dobbie | first7=P. D.
+ | last8=Levan | first8=A. J. | last9=Hodgkin | first9=S. T.
+ | title=The 'DODO' survey - I. Limits on ultra-cool substellar and planetary-mass companions to van Maanen's star (vMa2)
+ | journal=Monthly Notices of the Royal Astronomical Society: Letters
+ | volume=386 | issue=1 | pages=L5–L9 | date=May 2008
+ | bibcode=2008MNRAS.386L...5B | arxiv=0801.2917
+ | doi=10.1111/j.1745-3933.2008.00446.x | doi-access=free
+ | s2cid=51811203 | postscript=. }}</ref>
+
+<ref name=burham1978>{{citation
+ | first=Robert | last=Burnham
+ | author-link=Robert Burnham Jr.
+ | title=Burnham's celestial handbook: an observer's guide to the universe beyond the solar system
+ | volume=3 | edition=2nd | pages=1474–1477
+ | series=Dover books explaining science
+ | publisher=Courier Dover Publications
+ | year=1978 | isbn=0-486-23673-0
+ | url=https://books.google.com/books?id=PJzIt3SIlkUC&pg=PA1474
+ | postscript=. }}</ref>
+
+<ref name="ApJS199_2_29">{{citation
+ | display-authors=1 | last1=Giammichele | first1=N.
+ | last2=Bergeron | first2=P. | last3=Dufour | first3=P.
+ | title=Know Your Neighborhood: A Detailed Model Atmosphere Analysis of Nearby White Dwarfs
+ | journal=The Astrophysical Journal Supplement
+ | volume=199 | issue=2 | page=29 | date=April 2012
+ | arxiv=1202.5581 | doi=10.1088/0067-0049/199/2/29
+ | bibcode=2012ApJS..199...29G | s2cid=118304737
+ | postscript=.
+}} Based on log&nbsp;''L''/{{Solar luminosity}}&nbsp;=&nbsp;−3.77.</ref>
+
+<ref name=aa575_A35>{{citation
+ | last=Bailer-Jones | first=C. A. L. 
+ | title=Close encounters of the stellar kind 
+ | journal=Astronomy & Astrophysics
+ | volume=575 | id=A35 | pages=13 | date=March 2015
+ | doi=10.1051/0004-6361/201425221 
+ | bibcode=2015A&A...575A..35B 
+ | postscript=. | arxiv=1412.3648 | s2cid=59039482 
+ }}</ref>
+
+<ref name=aj147_6_129>{{citation
+ | display-authors=1
+ | last1=Sion | first1=Edward M. | last2=Holberg | first2=J. B.
+ | last3=Oswalt | first3=Terry D. | last4=McCook | first4=George P.
+ | last5=Wasatonic | first5=Richard | last6=Myszka | first6=Janine
+ | title=The White Dwarfs within 25 pc of the Sun: Kinematics and Spectroscopic Subtypes
+ | journal=The Astronomical Journal | date=June 2014
+ | volume=147 | issue=6 | id=129 | pages=11
+ | doi=10.1088/0004-6256/147/6/129 | bibcode=2014AJ....147..129S
+ | arxiv=1401.4989 | s2cid=119184859 | postscript=. }}</ref>
+
+<ref name=mnras439_4_3371>{{citation
+ | title=Stochastic accretion of planetesimals on to white dwarfs: constraints on the mass distribution of accreted material from atmospheric pollution
+ | last1=Wyatt | first1=M. C. | last2=Farihi | first2=J.
+ | last3=Pringle | first3=J. E. | last4=Bonsor | first4=A.
+ | display-authors=1 | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=439 | issue=4 | pages=3371–3391 | date=April 2014
+ | doi=10.1093/mnras/stu183 | doi-access=free | bibcode=2014MNRAS.439.3371W
+ | arxiv=1401.6173 | s2cid=118449054 | postscript=. }}</ref>
+
+<ref name="Carry2012">{{Citation
+ | first=B. | last=Carry
+ | title=Density of asteroids
+ | journal=Planetary and Space Science
+ | volume=73 | pages=98–118
+ | date=December 2012 | issue=1
+ | doi=10.1016/j.pss.2012.03.009
+ | bibcode=2012P&SS...73...98C
+ | arxiv=1203.4336 | postscript=. }} See Table 1.</ref>
+
+<ref name=Lindegren_Dravins_2021>{{citation
+ | title=Astrometric radial velocities for nearby stars
+ | last1=Lindegren | first1=Lennart | last2=Dravins | first2=Dainis
+ | journal=Astronomy & Astrophysics | postscript=.
+ | volume=652 | id=A45 | date=August 2021
+ | pages=A45 | doi=10.1051/0004-6361/202141344 | arxiv=2105.09014
+ | bibcode=2021A&A...652A..45L | s2cid=234778154 }}</ref>
+
+<ref name=Wolff_et_al_2002>{{citation
+ | display-authors=1 | last1=Wolff | first1=B.
+ | last2=Koester | first2=D. | last3=Liebert | first3=J.
+ | title=Element abundances in cool white dwarfs. II. Ultraviolet observations of DZ white dwarfs
+ | journal=Astronomy and Astrophysics | postscript=.
+ | volume=385 | issue=3 | pages=995–1007 | date=April 2002
+ | arxiv=astro-ph/0204408 | bibcode=2002A&A...385..995W
+ | doi=10.1051/0004-6361:20020194 | issn=0004-6361 }}</ref>
+
+<ref name="O'Brien 2026">{{cite arXiv
+ | display-authors=1 | last1=O'Brien | first1=Mairi W.
+ | last2=Tremblay | first2=Pier-Emmanuel | last3=Gaensicke | first3=Boris T.
+ | last4=Hollands | first4=Mark A. | last5=Koester | first5=Detlev
+ | last6=Sahu | first6=Snehalata | last7=Bedard | first7=Antoine
+ | last8=Buchan | first8=Andrew M. | last9=Cunningham | first9=Tim
+ | title=White dwarfs within 13 pc: Insights from ultraviolet spectroscopy
+ | date=July 7, 2026 | eprint=2607.06357
+ | class=astro-ph.SR }}</ref>
+
+<ref name=EPE>{{Cite EPE
+ | name=Van Maanen 2 b
+ | access-date=2024-12-25 | id=10760 }}</ref>
+}}
+
+{{Sky|00|49|09.89841|+|05|23|18.9931|14.072}}
+{{nearest systems|2}}
+{{Stars of Pisces}}
+
+[[Category:Local Bubble]]
+[[Category:Pisces (constellation)]]
+[[Category:Gliese and GJ objects|0035]]
+[[Category:Hipparcos objects|003829]]
+[[Category:Stars with proper names|Van Maanen's Star]]
+[[Category:Wolf objects|028]]
+[[Category:DZ white dwarfs]]

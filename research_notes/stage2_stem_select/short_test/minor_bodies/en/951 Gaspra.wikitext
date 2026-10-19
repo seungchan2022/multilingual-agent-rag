@@ -1,0 +1,144 @@
+{{Short description|S-type asteroid in the inner asteroid belt with stony mineralogical composition}}
+{{Infobox planet
+| minorplanet = yes
+| name = 951 Gaspra
+| background = #D6D6D6
+| image = 951 Gaspra.jpg
+| image_scale = 
+| caption = ''[[Galileo (spacecraft)|Galileo]]'' image of 951 Gaspra; colors are exaggerated
+| discovery_ref = <ref name="jpldata"/><ref name="MPC-object"/>
+| discoverer = [[Grigory Neujmin|G. Neujmin]]
+| discovery_site = [[Simeiz Observatory|Simeiz Obs.]]
+| discovered = 30 July 1916
+| mpc_name = (951) Gaspra
+| alt_names = {{mp|1916 S45}}{{·}}{{mp|1916 Σ45}}<br/>[[Provisional designation in astronomy#Temporary minor planet designations|SIGMA 45]]{{·}}A913 YA<br/>{{mp|1955 MG|1}}
+| pronounced = {{IPAc-en|ˈ|ɡ|æ|s|p|r|ə}}
+| named_after = [[Gaspra]]<ref name="springer"/><br/>{{small|(Crimean [[spa town]])}}
+| mp_category = [[main-belt]]{{·}}{{small|([[Kirkwood gap|inner]])}}<br/>[[Flora family|Flora]]<ref name="Ferret"/>
+| orbit_ref = <ref name="jpldata"/>
+| epoch = 4 September 2017 ([[Julian day|JD]] 2458000.5)
+| uncertainty = 0
+| observation_arc = 103.54 yr (37,819 days)
+| aphelion = 2.5931 [[Astronomical unit|AU]]
+| perihelion = 1.8267 AU
+| semimajor = 2.2099 AU
+| eccentricity = 0.1734
+| period = 3.29 [[Julian year (astronomy)|yr]] (1,200 days)
+| mean_anomaly = 232.83[[Degree (angle)|°]]
+| mean_motion = {{Deg2DMS|0.3000|sup=ms}} / day
+| inclination = 4.1063°
+| asc_node = 253.06°
+| arg_peri = 129.94°
+| dimensions = {{val|18.2|x|10.5|x|8.9|u=km}}<ref name="Thomas94"/><br/>12.2&nbsp;km {{small|(mean diameter)}}<ref name="jpldata"/>
+| mass = 2–{{val|3|x|10}}<sup>15</sup> kg {{small|(estimate)}}
+| density = ~{{val|2.7|u=g/cm3}} {{small|(estimate)}}<ref name="Krasinsky"/>
+| rotation = 7.042 [[Hour|h]] (0.293 d)<ref name="jpldata"/>
+| axial_tilt = {{val|72|u=deg}}<ref name="Thomas94"/>
+| albedo = {{val|0.246|0.032}}<ref name="jpldata"/>
+| spectral_type = [[Tholen classification|Tholen]] {{=}} [[S-type asteroid|S]]<ref name="jpldata"/><br/>[[SMASS classification|SMASS]] {{=}} [[S-type asteroid|S]]<ref name="jpldata"/><br/>[[Asteroid color indices|B–V]] {{=}} 0.870<ref name="jpldata"/><br/>[[Asteroid color indices|U–B]] {{=}} 0.554<ref name="jpldata"/>
+| abs_magnitude = 11.46<ref name="jpldata"/>
+}}
+
+'''951 Gaspra''' is an [[S-type asteroid|S-type]] [[asteroid]] that orbits very close to the inner edge of the [[asteroid belt]]. Gaspra was discovered by Russian astronomer [[G. N. Neujmin]] in 1916. Neujmin named it after [[Gaspra]], a [[Black Sea]] retreat that was visited by his contemporaries, such as [[Maxim Gorky|Gorky]] and [[Tolstoy]].
+
+Gaspra was the [[List of minor planets and comets visited by spacecraft|first asteroid to ever be visited by a spacecraft]] when it was visited by the ''[[Galileo spacecraft|Galileo]]'' spacecraft, which flew by on its way to [[Jupiter]] on 29 October 1991.<ref name="Belton92"/>
+
+==Physical characteristics==
+Apart from a multitude of small craters, Gaspra has half a dozen large flat areas and concavities. One of these flat areas, Dunne Regio, is a {{cvt|5|x|7|km|mi|frac=2}} area that is flat to within {{cvt|200|m}}. It is uncertain whether these are the result of impacts or whether they are instead facets formed when Gaspra broke off its parent asteroid. In the weak, lopsided [[gravity]] of Gaspra, [[impact crater]]s would naturally take on such flat, lopsided shapes, making this determination difficult. The flat facets and concavities give Gaspra a very angular appearance.<ref name="ADS1996"/>
+
+Gaspra's surface area has been calculated at about 525&nbsp;km<sup>2</sup>,<ref name="Thomas94"/> which, for comparison, is about the size of [[Guam]], or half the land area of [[Hong Kong]].
+
+===Composition===
+Gaspra appears to be fairly [[olivine]]-rich among the [[S-type asteroid]]s (the surface appears to contain olivine and [[pyroxene]] in the proportions 4:1 to 7:1<ref name="Granahan94">{{cite journal | author= J.C. Granahan | author2= F.P. Fanale | author3= M.S. Robinson | name-list-style= amp| title= A Galileo Multi Spectral Instrument Analysis of 951 Gaspra| journal= Abstracts of the 25th Lunar and Planetary Science Conference, Held in Houston, TX, 14–18 March 1994| date= 1994|url = http://www.lpi.usra.edu/meetings/lpsc1994/pdf/1227.pdf|pages= 453}}</ref>). There are no prominent albedo or color patterns, although a subtle color variation is seen across the surface.
+
+==Surface features==
+{{see also|List of geological features on 951 Gaspra}}
+[[File:Gaspra Phobos Deimos.jpg|thumb|left|Gaspra (top) and the Martian moons [[Phobos (moon)|Phobos]] and [[Deimos (moon)|Deimos]], to scale]]
+Gaspra's surface lacks unambiguous craters of a size comparable to its radius, like those seen for example on [[253 Mathilde]]. A probable reason is that the collision that produced the [[Flora family]] and Gaspra was relatively recent on an astronomical timescale, so that Gaspra has not yet had the opportunity to acquire many large craters since. Analysis of cratering rates suggests the age of the surface is between about 20 to 300 million years.<ref name="Veverka94">{{cite journal | last1=Veverka | first1=J. | author1-link=Joseph Veverka |author2=Belton, M. |author3=Klaasen, K. |author4=Chapman, C. |date=1994 |title=Galileo's Encounter with 951 Gaspra: Overview |journal=Icarus |volume=107 |issue=1 |pages=2–17 |bibcode=1994Icar..107....2V |doi=10.1006/icar.1994.1002 |doi-access=free}}</ref> It was suggested in 2007 that the fresh, steep craters on Gaspra were formed by the [[Baptistina family]]-forming event that happened near it.<ref>{{Citation|bibcode=2007LPI....38.2165B|work=38th [[Lunar and Planetary Science Conference]]|title= Gaspra's Steep Crater Population Was Produced by a Large Recent Breakup in the Main Asteroid Belt|issue=1338|pages=2165|author1=Bottke, W. F.|author2=Vokrouhlický, D.|author3=Chapman, C. R.|author4=Nesvorny, D.|date=March 2007}}</ref>
+
+Grooves about {{cvt|100|m}} to {{cvt|300|m}} wide, up to {{cvt|2.5|km}} long, and tens of meters deep are seen on Gaspra's surface, which may be related to Gaspra's formation along with the rest of the Flora family in an asteroid collision. Their presence also suggest that it is a single coherent body, rather than a rubble pile. The grooves were likely created by impacts that shattered the underlying rock. A system of much more prominent grooves is seen on the Martian moon [[Phobos (moon)|Phobos]]. The pitted appearance of some grooves may suggest that the surface is covered by a [[regolith]].<ref name="Veverka94"/>
+
+The extensiveness of regolith on Gaspra and its presence overall is a matter of debate, and not fully understood. Visually, the somewhat subdued and mantled appearance suggests a substantial regolith. Also, correlations are seen between the subtle color variations and local topography, and it has been suggested that this is caused by the slow migration of regolith to lower areas.<ref name="Domingue"/> It is, however, difficult to explain the origin of a putative regolith. Firstly, Gaspra's [[escape velocity]] is very small, so small that it is difficult to understand how it could keep a significant portion of fragments ejected by impacts from escaping. This may be alleviated if Gaspra is a porous body or started with a large regolith, but one has to explain how the original regolith appeared. A possible resolution of the issue may be that Gaspra obtained a regolith during the Flora-family forming impact that also created Gaspra itself. Secondly, it has been estimated that the matter ejected by all the craters would be only enough to cover Gaspra with 10&nbsp;m of regolith. However, some craters are much deeper than this without showing any structural difference on their walls.<ref name="Belton92">{{cite journal | author= M.J.S. Belton | title= Galileo Encounter with 951 Gaspra: First Pictures of an Asteroid | journal= Science| date= 1992 | volume= 257 | pages= 1647–52 | doi = 10.1126/science.257.5077.1647| pmid= 17841160 | issue= 5077 |bibcode = 1992Sci...257.1647B | s2cid= 23801250 |display-authors=etal}}</ref>
+
+==Orbit and rotation==
+[[File:Gaspra rotation.jpg|thumb|left|Successive images of a rotating Gaspra]]
+{{stack|[[File:951 Gaspra orbit Jan2018.png|thumb|Gaspra orbits the Sun just outside of the orbit of Mars.]]}}
+Gaspra orbits the Sun at an average distance of about 2.21 astronomical units. Gaspra completes one orbit around the Sun in 3.29 years.<ref name="jpldata"/>
+
+Gaspra's rotational axis has been determined<ref>Davies, M. E., T. R. Colvin, M.J.S. Belton, J. Veverka, and P. C. Thomas, "The Direction of the North Pole and the Control Network of Asteroid 951 Gaspra," Icarus, Vol. 107, pp. 18–22, 1994.</ref> to point in the direction of [[Right ascension|RA]] 0h40m, [[declination]] 27±2°.<ref name="Thomas94"/> This is equivalent to [[ecliptic coordinate system|ecliptic coordinates]] (β, λ) = (21°, 20°) and gives an [[axial tilt]] of 72°.
+The Galileo flyby was too distant for a body of Gaspra's small size to noticeably affect Galileo's trajectory, so no information on Gaspra's mass was obtained. (Galileo also visited [[243 Ida]] where it discovered a moon, allowing a mass estimate there.)
+{{clear}}
+
+==Exploration==
+[[File:Animation of Galileo trajectory.gif|thumb|Animation of ''Galileo''{{'s}} trajectory from 19 October 1989 to 30 September 2003 <br/> {{legend2|magenta|''Galileo''}}{{·}}{{legend2|lime|[[Jupiter]]}}{{·}}{{legend2|royalblue|[[Earth]]}}{{·}}{{legend2|PaleGreen| [[Venus]]}}{{·}}{{legend2| Gold |951 Gaspra}}{{·}}{{legend2| Cyan |[[243 Ida]]}}]]
+
+''[[Galileo (spacecraft)|Galileo]]'' flew by Gaspra on 29 October 1991, passing within {{cvt|1600|km}} at a relative speed of about {{cvt|8|km/s|mph}}. Fifty-seven images were returned to Earth, the closest taken from a distance of {{cvt|5300|km}}. The best images have a resolution of about 54 meters per pixel&nbsp;(177.16&nbsp;ft). The area around the southern pole was not seen during the flyby, but the remaining 80% of the asteroid was imaged.<ref name="Veverka94"/>
+
+Because Gaspra's position was only known to within about {{cvt|200|km}} before the encounter, and the camera's field of view was only about 5° across, ''Galileo'' would not know where to point to capture images of the asteroid once it was closer than {{cvt|70000|km}}. This would render the encounter not very interesting scientifically. To overcome this problem, a pioneering [[optical navigation]] campaign was implemented by the ''Galileo'' spacecraft team to reduce the uncertainty of Gaspra's position using images captured during the approach to Gaspra. This was successful and allowed the spacecraft to obtain images from as close as {{cvt|5300|km}}. At this closest range, the pointing was still not known accurately enough, but the camera took a 51 image mosaic so as to capture Gaspra on at least one image.<ref name="Veverka94"/>
+
+== References ==
+{{reflist|30em|refs=
+
+<ref name="jpldata">{{cite web
+ |title      = JPL Small-Body Database Browser: 951 Gaspra (1916 S45)
+ |url        = https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2000951
+ |publisher  = Jet Propulsion Laboratory
+ |access-date = 19 October 2017}}</ref>
+
+<ref name="springer">{{cite book
+ |title      = Dictionary of Minor Planet Names – (951) Gaspra
+ |last       = Schmadel | first = Lutz D.
+ |publisher  = Springer Berlin Heidelberg
+ |page       = 84
+ |date       = 2007
+ |isbn       = 978-3-540-00238-3
+ |doi       = 10.1007/978-3-540-29925-7_952 |chapter       = (951) Gaspra }}</ref>
+
+<ref name="MPC-object">{{cite web
+ |title      = 951 Gaspra (1916 S45)
+ |work       = Minor Planet Center
+ |url        = https://www.minorplanetcenter.net/db_search/show_object?object_id=951
+ |access-date = 19 October 2017}}</ref>
+
+<ref name="Ferret">{{cite web
+ |title      = Asteroid 951 Gaspra – Nesvorny HCM Asteroid Families V3.0
+ |work      = Small Bodies Data Ferret
+ |url      = https://sbntools.psi.edu/ferret/SimpleSearch/results.action?targetName=951+Gaspra
+ |access-date      = 24 October 2019
+ |archive-url      = https://web.archive.org/web/20220713091242/https://sbntools.psi.edu/ferret/SimpleSearch/results.action?targetName=951+Gaspra
+ |archive-date      = 13 July 2022
+ |url-status      = dead}}</ref>
+
+<ref name="Thomas94">{{cite journal|display-authors=4|author=P. C. Thomas|author2=J. Veverka|author3= D. Simonelli|author4=P. Helfenstein|author5=B. Carcich|author6=M. J. S. Belton|author7=M. E. Davies|author8=C. Chapman|title=The Shape of Gaspra|journal=Icarus|date=1994|volume=107|issue=1|pages=23–36|doi= 10.1006/icar.1994.1004|bibcode= 1994Icar..107...23T|doi-access=free}}</ref>
+
+<ref name="Krasinsky">{{cite journal| author-link= Georgij A. Krasinsky | first=G. A. | last= Krasinsky | author2=Pitjeva, E. V. | author2-link=Elena V. Pitjeva|author3=Vasilyev, M. V.|author4=Yagudina, E. I. | bibcode=2002Icar..158...98K| title=Hidden Mass in the Asteroid Belt| journal=Icarus| volume=158| issue=1| pages=98–105|date=July 2002| doi=10.1006/icar.2002.6837}}</ref>
+
+<ref name="ADS1996">{{cite journal|title=The Surface of 951 Gaspra|last=Stooke|first=P. J.|year=1996|journal=Earth, Moon, and Planets|volume=75|issue=1|pages=53–75|doi=10.1007/BF00056288|bibcode=1996EM&P...75...53S|s2cid=122026431}}</ref>
+
+<ref name="Domingue">{{cite journal|title=Regional spectrophotometric properties of 951 Gaspra|journal=Icarus|volume=280|pages=340–358|doi=10.1016/j.icarus.2016.07.011|display-authors=4|last1=Domingue|first1=D. L.|last2=Faith|first2=V.|last3=Choo|first3=T.|last4=Stockstill-Cahill|first4=K. R.|last5=Cahill|first5=J. T. S.|last6=Hendrix|first6=A. R.|date=December 2016|bibcode=2016Icar..280..340D|doi-access=free}}</ref>
+
+}} <!-- end of reflist -->
+
+== External links ==
+{{Commons category}}
+* [https://web.archive.org/web/20020606134223/http://www.seds.org/nineplanets/nineplanets/gaspra.html short intro]: 2 photos
+* [https://web.archive.org/web/19991008213552/http://neo.jpl.nasa.gov/images/gaspra.html JPL images]
+* {{Deprecated archive|url=https://archive.today/20121213181758/http://sse.jpl.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=884|title=Gaspra in approximately true color|sec=el}}
+* {{AstDys|951}}
+* {{JPL Small Body}}
+
+{{Use dmy dates|date=October 2019}}
+{{Minor planets navigator |950 Ahrensa |number=951 |952 Caia}}
+{{Small Solar System bodies}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:000951}}
+[[Category:Flora asteroids]]
+[[Category:Discoveries by Grigory Neujmin|Gaspra]]
+[[Category:Named minor planets|Gaspra]]
+[[Category:Minor planets visited by spacecraft|19911026]]
+[[Category:Galileo program]]
+[[Category:S-type asteroids (Tholen)]]
+[[Category:S-type asteroids (SMASS)]]
+[[Category:Minor planets discovered in 1916|19160730]]

@@ -1,0 +1,221 @@
+{{Short description|Star in the constellation Piscis Austrinus}}
+{{Sky|23|05|52.03604|-|35|51|11.0475|10.7}}
+{{Starbox begin}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Piscis_Austrinus_constellation_map.svg
+|alt=Gliese 887 is located in the constellation Piscis Austrinus.
+|caption=Location of Gliese 887 in the constellation [[Piscis Austrinus]]|border=infobox|mark=Red_pog.png|width=300
+|label=Gliese&nbsp;887
+|lat=23.1
+|long=11.6
+}}|caption=
+}}
+{{Starbox observe
+| epoch    = J2000
+| constell = [[Piscis Austrinus]]<ref name=Kirkpatrick2024/>{{rp|84}}
+| ra       = {{RA|23|05|52.03579}}<ref name=GaiaDR3/>
+| dec      = {{DEC|−35|51|11.0552}}<ref name=GaiaDR3/>
+| appmag_v = 7.34<ref name="mnrassa32"/>
+}}
+{{Starbox character
+| type     = [[main sequence]]<ref name=GaiaDR3/>
+| class    = M0.5V<ref name="aaa505" />
+| b-v      = +1.50<ref name="mnrassa32"/>
+| u-b      = +1.18<ref name="mnrassa32" />
+| variable = ''Suspected''<ref name=aaa320_865/>
+}}
+{{Starbox astrometry
+| radial_v = {{val|+8.31|0.13}}<ref name=GaiaDR3/>
+| prop_mo_ra  = {{val|+6765.995|fmt=commas}}
+| prop_mo_dec = {{val|+1330.285|fmt=commas}}
+| pm_footnote = <ref name=GaiaDR3/>
+| parallax = 304.1354
+| p_error  = 0.0200
+| parallax_footnote = <ref name=GaiaDR3/>
+| absmag_v = 9.8<ref name="2000eaa..bookE5158"/>
+}}
+{{Starbox detail
+| mass     = {{val|0.479|0.011|0.010}}<ref name=Pineda2021/>
+| radius   = {{val|0.474|0.008}}<ref name=Pineda2021/>
+| luminosity = {{val|0.0368|0.0006}}<ref name=Pineda2021/>
+| habitable_inner = 0.16<ref name=Painter2025/> [[astronomical unit|AU]]
+| habitable_outer = 0.40<ref name=Painter2025/> AU
+| gravity = 4.78<ref name=rabus/>
+| temperature = {{val|3,672|36|34|fmt=commas}}<ref name=Pineda2021/>
+| metal_fe = {{val|−0.22|0.09}}<ref name=apj660_1_732/>
+| rotation = {{val|38.7|0.5|ul=d}}<ref name=Hartogh2026/>
+| rotational_velocity = 1<ref name=aaa460_3_695/>
+| age_gyr  = 4.57<ref name=yee/>
+}}
+{{Starbox catalog
+| names={{odlist | name=Lacaille 9352 | CD=-36°15693 | GJ=887 | HD=217987 | HIP=114046 | LFT=1758 | LHS=70 | LTT=9348 | NSV=14420 | PLX=5584 | SAO=214301}}, UGP 591,<ref name="SIMBAD" /> Cordoba 31353<ref name=Luyten1930/>
+}}
+{{Starbox reference
+| Simbad = HD+217987
+| NSTED = GJ-887
+| ARICNS = 01887
+}}
+{{Starbox end}}
+
+'''Gliese 887''' (GJ 887), also '''Lacaille 9352''' (Lac 9352), is a [[red dwarf]] star in the southern [[constellation]] of [[Piscis Austrinus]]. With an [[apparent visual magnitude]] of 7.34,<ref name="mnrassa32"/> this star is too faint to be viewed with the naked eye except possibly under [[Bortle scale|excellent seeing conditions]]. [[Parallax]] measurements place it at a distance of about {{Convert|10.72|ly|pc|abbr=off|lk=on}} from Earth.<ref name=GaiaDR3/> It is the twelfth closest star system to the [[Solar System]]<ref name=Reylé2021/> and is the [[list of nearest stars|closest star]] in the [[constellation]] [[Piscis Austrinus]].<ref name=Kirkpatrick2024/>{{rp|84}} Its closest neighbour is the [[EZ Aquarii|EZ Aquarii triple star system]] at about 4.1 [[Light-year|ly]] away.
+
+==Properties==
+[[File:Nearby Stars (14ly Radius).svg|thumb|left|The neighborhood of the Solar System, which includes Gliese 887]]
+This star has the fourth highest known [[proper motion]],<ref name=esa20070701/> (which was first noticed by [[Benjamin Gould]] in 1881<ref name=first_noted/>) moving a total of 6.9 [[arcseconds]] per year. However, this is still a very small movement overall, as there are 3,600 arcseconds in a degree of arc. The [[Space velocity (astronomy)|space velocity]] components of this star are {{nowrap|(U, V, W)}} = {{nowrap|(−93.9, −14.1, −51.4) km/s}}.<ref name=aricns/> If the [[radial velocity]] (''V<sub>r</sub>'') equals +9.7&nbsp;km/s then about 2,700 years ago Gliese 887 was at its minimal distance of approximately {{Convert|10.63|ly|pc|abbr=on}} from the Sun.<ref name=simbad_notes/>
+
+The [[stellar spectrum|spectrum]] of Gliese 887 places it at a [[stellar classification]] of M0.5V,<ref name="aaa505" /> indicating it is a type of [[main sequence]] star known as a red dwarf. This was the first red dwarf star to have its angular diameter measured,<ref name=glindemann_paresce/> with the physical diameter being about 47% of the [[solar radius|Sun's radius]].<ref name="Pineda2021" /> It has around half the [[solar mass|mass of the Sun]]<ref name="aaa505"/> and the outer envelope has an [[effective temperature]] of about 3,670&nbsp;K.<ref name="Pineda2021" />
+
+{{clear left}}
+==Planetary system==
+In June 2020, two [[super-Earth]] planets were reported, as well as a third candidate planet with a period of 50.7 days, located within the [[habitable zone]]. They were detected using the radial velocity method from observations with [[HARPS]] in Chile and [[HIRES]] in Hawaii.<ref name="Jeffers Dreizler Barnes Haswell pp. 1477–1481" /><ref name="GJ887 Nature"/> A 2026 follow-up study confirmed the 50-day planet and detected a fourth, Earth-mass planet closer to the star. A fifth candidate signal is also suspected.<ref name=Hartogh2026/> The habitable-zone planet, GJ 887 d, is the second-nearest known exoplanet in the habitable zone after [[Proxima Centauri b]], though it is significantly more massive than Earth and its composition is unknown. It may be possible to characterize it with proposed direct imaging missions such as the [[Habitable Worlds Observatory]].<ref name=Hartogh2026/>
+
+Additionally, the star presents a difference in [[proper motion]] measurements taken by the [[Hipparcos]] and [[Gaia (spacecraft)|Gaia]] spacecraft, suggesting the possible presence of an outer giant planet.<ref name=Painter2025/>
+
+{{OrbitboxPlanet begin
+| table_ref = <ref name=Hartogh2026/>
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet = f
+| mass_earth = {{val|0.47|0.11|p=≥&nbsp;}}
+| period = {{val|2.2166|0.0001}}
+| semimajor = {{val|0.0263|0.0009}}
+| eccentricity = 
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = e
+| mass_earth = {{val|1.46|0.19|0.18|p=≥&nbsp;}}
+| period = {{val|4.4249|0.0001}}
+| semimajor = {{val|0.0417|0.0014|0.0015}}
+| eccentricity = 
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = b
+| mass_earth = {{val|3.9|0.5|p=≥&nbsp;}}
+| period = {{val|9.2619|0.0005}}
+| semimajor = {{val|0.0683|0.0022|0.0024}}
+| eccentricity = {{val|0.14|0.06}}
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Gliese 887 c|c]]
+| mass_earth = {{val|6.5|1.0|0.9|p=≥&nbsp;}}
+| period = {{val|21.784|0.004}}
+| semimajor = {{val|0.121|0.004|0.005}}
+| eccentricity = {{val|0.17|0.06}}
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = d
+| mass_earth = {{val|6.1|1.4|p=≥&nbsp;}}
+| period = {{val|50.77|0.05}}
+| semimajor = {{val|0.212|0.007|0.008}}
+| eccentricity = {{val|0.25|0.20|0.15}}<ref name="Jeffers Dreizler Barnes Haswell pp. 1477–1481" />
+| inclination =
+}}
+{{Orbitbox end}}
+
+==See also==
+*[[List of nearest stars]]
+*[[Lalande 21185]]
+
+==References==
+{{reflist|30em|refs=
+
+<ref name=GaiaDR3>{{Cite Gaia DR3|6553614253923452800}}</ref>
+
+<ref name="Pineda2021">{{cite journal
+ | title=The M-dwarf Ultraviolet Spectroscopic Sample. I. Determining Stellar Parameters for Field Stars
+ | last1=Pineda | first1=J. Sebastian | last2=Youngblood | first2=Allison
+ | last3=France | first3=Kevin | display-authors=1
+ | journal=The Astrophysical Journal
+ | volume=918 | issue=1 | id=40 | pages=23 | date=September 2021
+ | doi=10.3847/1538-4357/ac0aea | arxiv=2106.07656
+ | bibcode=2021ApJ...918...40P | s2cid=235435757 | doi-access=free }}</ref>
+
+<ref name=rabus>{{cite journal |doi=10.1093/mnras/sty3430 |title=A discontinuity in the Teff–radius relation of M-dwarfs |journal=Monthly Notices of the Royal Astronomical Society |volume=484 |issue=2 |pages=2674–2683 |year=2019 |last1=Rabus |first1=Markus |last2=Lachaume |first2=Régis |last3=Jordán |first3=Andrés |last4=Brahm |first4=Rafael |last5=Boyajian |first5=Tabetha |last6=Von Braun |first6=Kaspar |last7=Espinoza |first7=Néstor |last8=Berger |first8=Jean-Philippe |last9=Le Bouquin |first9=Jean-Baptiste |last10=Absil |first10=Olivier |doi-access=free |arxiv=1901.08077 |bibcode=2019MNRAS.484.2674R |s2cid=119189542 }}</ref>
+
+<ref name=yee>{{cite journal |bibcode=2017ApJ...836...77Y |title=Precision Stellar Characterization of FGKM Stars using an Empirical Spectral Library |journal=The Astrophysical Journal |volume=836 |issue=1 |pages=77 |last1=Yee |first1=Samuel W. |last2=Petigura |first2=Erik A. |last3=von Braun |first3=Kaspar |year=2017 |arxiv=1701.00922 |doi=10.3847/1538-4357/836/1/77 |s2cid=6302522 |doi-access=free }}</ref>
+
+<ref name=Painter2025>{{Cite journal |last1=Painter |first1=Katie E. |last2=Bowler |first2=Brendan P. |last3=Franson |first3=Kyle |last4=Becker |first4=Juliette C. |last5=Burt |first5=Jennifer A. |title=Astrometric Accelerations of Provisional Targets for the Habitable Worlds Observatory |date=2025-06-26 |arxiv=2506.21768 |journal=The Astronomical Journal |volume=170 |issue=3 |page=147 |doi=10.3847/1538-3881/ade442 |bibcode=2025AJ....170..147P |doi-access=free }}</ref>
+
+<ref name="SIMBAD">{{cite web | title=LACAILLE 9352 -- Pre-main sequence Star | work=SIMBAD | publisher=[[Centre de Données astronomiques de Strasbourg]] | url=http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD+217987 | access-date=2010-01-20 }}</ref>
+
+<ref name=apj660_1_732>{{cite journal | last=López-Morales | first=Mercedes |date=May 2007 | title=On the Correlation between the Magnetic Activity Levels, Metallicities, and Radii of Low-Mass Stars | journal=The Astrophysical Journal | volume=660 | issue=1 | pages=732–739  | doi=10.1086/513142 | bibcode=2007ApJ...660..732L | arxiv=astro-ph/0701702 | s2cid=119530297 }}</ref>
+
+<ref name="mnrassa32">{{cite journal | last=Cousins | first=A. W. J. | date=1973 | title=UBV photometry of some southern stars | journal=Monthly Notes of the Astronomical Society of Southern Africa | volume=32 | page=11 | bibcode=1973MNSSA..32...11C }}</ref>
+
+<ref name=aaa320_865>{{cite journal | last1=Micela | first1=G. | last2=Pye | first2=J. | last3=Sciortino | first3=S. |date=April 1997 | title=Coronal properties of nearby old disk and halo dM stars | journal=Astronomy and Astrophysics | volume=320 | pages=865–877  | bibcode=1997A&A...320..865M }}</ref>
+
+<ref name="aaa505">{{cite journal
+ | title=Mass-radius relation of low and very low-mass stars revisited with the VLTI
+ | journal=Astronomy and Astrophysics | volume=505 | issue=1
+ | date=October 2009 | pages=205–215
+ | doi=10.1051/0004-6361/200911976
+  | doi-access=free| bibcode=2009A&A...505..205D |arxiv = 0906.0602
+ |last1=Demory |first1=Brice-Olivier
+ |last2=Ségransan |first2=Damien
+ |last3=Forveille |first3=Thierry
+ |last4=Queloz |first4=Didier
+ |last5=Beuzit |first5=Jean-Luc
+ |last6=Delfosse |first6=Xavier
+ |last7=Di Folco |first7=Emmanuel
+ |last8=Kervella |first8=Pierre
+ |last9=Le Bouquin |first9=Jean-Baptiste
+ |last10=Perrier |first10=Christian
+ |last11=Benisty |first11=Myriam
+ |last12=Duvert |first12=Gilles
+ |last13=Hofmann |first13=Karl-Heinz
+ |last14=Lopez |first14=Bruno
+ |last15=Petrov |first15=Romain
+ |s2cid=14786643
+ }}</ref>
+
+<ref name=aaa460_3_695>{{cite journal | display-authors=1 | last1=Torres | first1=G. R. | last2=Quast | last3=da Silva | first3=L. | last4=de La Reza | first4=R. | last5=Melo | first5=C. H. F. | last6=Sterzik | first6=M. | title=Search for associations containing young stars (SACY). I. Sample and searching method | journal=Astronomy and Astrophysics | volume=460 | issue=3 | pages=695–708 |date=December 2006 | doi=10.1051/0004-6361:20065602  | doi-access=free| bibcode=2006A&A...460..695T | first2=G. R. |arxiv = astro-ph/0609258 | s2cid=16080025 }}</ref>
+
+<ref name=glindemann_paresce>{{cite press release | last1=Glindemann | first1=Andreas | last2=Paresce | first2=Francesco | date=5 November 2001 | publisher=[[European Southern Observatory]] | title=Giant Eyes for the VLT Interferometer | url=http://www.eso.org/public/news/eso0134/ | access-date=2010-01-20 }}</ref>
+
+<ref name=esa20070701>{{cite web | title=High Proper Motion Stars in the Hipparcos Catalogue | publisher=[[European Space Agency]] | date=July 1, 2007 | url=http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=hpm | access-date=2010-01-20 }}</ref>
+
+<ref name=aricns>{{cite web | title=ARICNS star page of Lacaille 9352 | publisher=Astronomisches Rechen-Institut Heidelberg | url=http://www.ari.uni-heidelberg.de/datenbanken/aricns/cnspages/4c01887.htm | access-date=2010-04-16 | archive-date=2012-09-16 | archive-url=https://web.archive.org/web/20120916104602/http://www.ari.uni-heidelberg.de/datenbanken/aricns/cnspages/4c01887.htm | url-status=dead }}</ref>
+
+<ref name=simbad_notes>{{cite web | title= Annotations on NAME LACAILLE 9352 object | work=[[SIMBAD]] | publisher=Centre de Données astronomiques de Strasbourg | url=http://cdsannotations.u-strasbg.fr/annotations/simbadObject/1191721 | access-date=2010-04-16 }}</ref>
+
+<ref name=first_noted>{{cite journal | last=Gould | first=B. A. |date=1881 | title=Corrigenda in the Uranometria Argentina. Star with large proper motion | journal=Astronomische Nachrichten | volume=100 | issue=1 | pages=7–10 | doi=10.1002/asna.18811000104 | bibcode=1881AN....100....7G | url=https://zenodo.org/record/1424713 }}</ref>
+
+<ref name="2000eaa..bookE5158">{{cite encyclopedia |editor-first=Paul |editor-last=Murdin |encyclopedia=Encyclopedia of Astronomy and Astrophysics |date=November 2000 |publisher=[[Institute of Physics Publishing]] |location=Bristol |isbn=0333750888 |doi=10.1888/0333750888/5158 |quote=absolute magnitude is 9.8 |bibcode=2000eaa..bookE5158. |chapter= Lacaille 9352 }}</ref>
+
+<ref name="Jeffers Dreizler Barnes Haswell pp. 1477–1481">{{citation |arxiv=2006.16372 |title=A multiple planet system of super-Earths orbiting the brightest red dwarf star GJ887 |year=2020 |doi=10.1126/science.aaz0795 |last1=Jeffers |first1=S. V. |last2=Dreizler |first2=S. |last3=Barnes |first3=J. R. |last4=Haswell |first4=C. A. |last5=Nelson |first5=R. P. |last6=Rodríguez |first6=E. |last7=López-González |first7=M. J. |last8=Morales |first8=N. |last9=Luque |first9=R. |last10=Zechmeister |first10=M. |last11=Vogt |first11=S. S. |last12=Jenkins |first12=J. S. |last13=Pallé |first13=E. |last14=Berdi Ñas |first14=Z. M.|last15=Coleman |first15=G. A. L. |last16=Díaz |first16=M. R. |last17=Ribas |first17=I. |last18=Jones |first18=H. R. A.|last19=Butler |first19=R. P. |last20=Tinney |first20=C. G. |last21=Bailey |first21=J. |last22=Carter |first22=B. D. |last23=o'Toole |first23=S. |last24=Wittenmyer |first24=R. A. |last25=Crane |first25=J. D. |last26=Feng |first26=F. |last27=Shectman |first27=S. A. |last28=Teske |first28=J. |last29=Reiners |first29=Ansgar |last30=Amado |first30=P. J.|s2cid=220075207 |journal=Science |volume=368 |issue=6498 |pages=1477–1481 |pmid=32587019 |bibcode=2020Sci...368.1477J |display-authors=9}}</ref>
+
+<ref name="GJ887 Nature">{{Cite journal| journal=[[Nature (journal)|Nature]] | title=Why boring could be good for this star's two intriguing planets
+| year=2020
+| doi=10.1038/d41586-020-01905-5
+|url=https://www.nature.com/articles/d41586-020-01905-5| access-date=2020-06-30 | last1=Witze
+| first1=Alexandra
+| pmid=34168349
+| s2cid=220507688
+| url-access=subscription
+}}</ref>
+
+<ref name=Luyten1930>{{cite journal |bibcode=1930AnHar..85...73L|title=A study of the near-by stars|journal=Annals of the Astronomical Observatory of Harvard College |volume=85|pages=73|last1=Luyten|first1=Willem Jacob|last2=Shapley|first2=Harlow|year=1930|issue=5}}</ref>
+
+<ref name=Reylé2021>{{cite journal |first1=Céline |last1=Reylé |first2=Kevin |last2=Jardine |first3=Pascal |last3=Fouqué |first4=Jose A. |last4=Caballero |first5=Richard L. |last5=Smart |first6=Alessandro |last6=Sozzetti |date=30 April 2021 |title=The 10 parsec sample in the Gaia era |journal=[[Astronomy & Astrophysics]] |volume=650 |issue= |pages=A201 |doi=10.1051/0004-6361/202140985  |doi-access=free|arxiv=2104.14972 |bibcode=2021A&A...650A.201R|s2cid=233476431 }} Data available at https://gruze.org/10pc/ {{Webarchive|url=https://web.archive.org/web/20230312171927/http://gruze.org/10pc/ |date=12 March 2023 }}</ref>
+
+<ref name=Kirkpatrick2024>{{cite journal |last1=Kirkpatrick |first1=J. Davy |last2=Marocco |first2=Federico |display-authors=etal |date=April 2024 |title=The Initial Mass Function Based on the Full-sky 20 pc Census of ~3600 Stars and Brown Dwarfs |journal=[[The Astrophysical Journal Supplement Series]] |volume=271 |issue=2 |pages=55 |doi=10.3847/1538-4365/ad24e2 |doi-access=free |arxiv=2312.03639 |bibcode=2024ApJS..271...55K}}</ref>
+
+<ref name=Hartogh2026>{{cite journal |last1=Hartogh |first1=C. |last2=Jeffers |first2=S. V. |display-authors=etal |date=January 2026 |title=RedDots: Multiplanet system around M dwarf GJ 887 in the solar neighborhood |journal=[[Astronomy & Astrophysics]] |volume=707 |issue= |pages=A93 |doi=10.1051/0004-6361/202554984  |doi-access=free|arxiv=2602.08929 |bibcode=2026A&A...707A..93H }}</ref>
+
+}}
+
+{{nearest systems|2}}
+{{Stars of Piscis Austrinus}}
+
+[[Category:Henry Draper Catalogue objects|217987]]
+[[Category:Hipparcos objects|114046]]
+[[Category:Gliese and GJ objects|0887]]
+[[Category:Durchmusterung objects|CD-36 15693]]
+[[Category:Local Bubble]]
+[[Category:Piscis Austrinus]]
+[[Category:M-type main-sequence stars]]
+[[Category:Planetary systems with four confirmed planets]]

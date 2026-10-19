@@ -1,0 +1,599 @@
+{{Short description|Third-largest asteroid}}
+{{About|the asteroid||Pallas (disambiguation)}}
+{{redirect-distinguish|Pallas-2|Pallas-1}}
+{{Use dmy dates|date=April 2022}}
+{{Infobox planet
+| background = #D6D6D6
+| minorplanet = yes
+| name = 2 Pallas
+| symbol = [[File:Pallas symbol (bold).svg|24px|class=skin-invert|⚴]] (historically astronomical, now astrological)
+| image = Potw1749a Pallas crop.png
+| caption = [[VLT-SPHERE]] image of Pallas{{efn|The craters covering Pallas, here only faintly discernible, are likely to look much sharper if the view were closer, as can be seen in [https://www.eso.org/public/images/potw1826a/ this] comparison of VLT and ''Dawn'' images of 4 Vesta.}}
+| discoverer = [[Heinrich Wilhelm Olbers]]
+| discovery_ref = <ref name="MPC-object" />
+| discovered = 28 March 1802
+| mpc_name = (2) Pallas
+| pronounced = {{IPAc-en|ˈ|p|æ|l|ə|s}}<ref>{{dict.com|Pallas}}</ref>
+| named_after = [[Pallas Athena]]<ref name="springer" />
+| adjectives = Palladian {{IPAc-en|p|æ|ˈ|l|eɪ|d|i|ə|n}} (trad.)<ref name="oxford" />
+| note = yes
+| mp_category = [[Asteroid belt]] ([[Kirkwood gap|central]])<br />[[Pallas family]]<ref 
+name="Ferret" />
+
+<!--JPL orbital elements-->| orbit_ref = <ref name="jpldata" />
+| epoch = 13&nbsp;September 2023<br/>([[Julian day|JD]]&nbsp;2453300.5)
+| uncertainty = 0
+| observation_arc = 219 [[Julian year (astronomy)|yr]]
+| earliest_precovery_date = 
+| aphelion = {{Convert|3.41|AU|e6km|abbr=unit|lk=on}}
+| perihelion = {{Convert|2.13|AU|e6km|abbr=unit}}
+| time_periastron = 7 March 2023
+| semimajor = {{Convert|2.77|AU|e6km|abbr=unit}}
+| eccentricity = {{val|0.2302}}
+| inclination = {{val|34.93|u=°}}<br />(34.43° to [[invariable plane]])<ref name=Souami_Souchay_2012 />
+| asc_node = {{val|172.9|u=°}}
+| arg_peri = {{val|310.9|u=°}}
+| period = {{cvt|1684.0|days|years|order=flip}}
+| mean_anomaly = 40.6
+| moid = {{Convert|1.2|AU|e6km|abbr=unit}}
+| mean_motion = {{Deg2DMS|0.213|sup=ms}} / day
+
+<!--proper orbital elements-->| p_orbit_ref = <ref name="Pallas-POE" />
+| p_semimajor = {{val|2.7709176}}
+| p_eccentricity = {{val|0.2812580}}
+| p_inclination = {{val|33.1988686|u=°}}
+| p_mean_motion = 78.041654
+| node_rate = −46.393342
+| perihelion_rate = −1.335344
+
+<!--physical params-->| flattening = 0.21{{efn|1=Flattening derived from the maximum aspect ratio (c/a): <math>f=1-\frac{c}{a}</math>, where (c/a) = {{val|.79|.03}}.<ref name=VLT/>}}
+| dimensions = ({{val|568|x|532|x|448|u=km}}) ± 12 km<ref name="Marsset2020"/><br />{{val|550|x|516|x|476|u=km}}<ref name="Carry2009"/>
+| mean_diameter = {{val|511|4|u=km}}<ref name=VLT>P. Vernazza et al. (2021) VLT/SPHERE imaging survey of the largest main-belt asteroids: Final results and synthesis. ''Astronomy & Astrophysics'' 54, A56</ref>
+<br />{{val|513|6|u=km}}<ref name="Marsset2020"/><br />{{val|512|6|u=km}}<ref name="Carry2009"/>
+| surface_area = {{val|8.3|0.2|e=5|u=km2}}{{refn|group=lower-alpha|name=surface-vol|Calculated using the known dimensions assuming an [[ellipsoid]].<ref name=surfacecalc/>}}
+| volume = {{val|7.06|0.3|e=7|u=km3}}<ref name="Marsset2020">{{cite journal |vauthors=Marsset, M, Brož, M, Vernazza, P, et al. |title=The violent collisional history of aqueously evolved (2) Pallas |journal=Nature Astronomy |volume=4 |pages=569–576 |date=2020 |issue=6 |doi=10.1038/s41550-019-1007-5|bibcode=2020NatAs...4..569M |hdl=10261/237549 |s2cid=212927521 |url=https://orbi.uliege.be/bitstream/2268/246670/1/Pallas_Marsset.pdf |hdl-access=free }}</ref>
+| mass = {{val|2.049|0.014|e=20|u=kg}}<ref name="Fuentes-Muñoz2025"/>{{efn|1=Calculated from its [[standard gravitational parameter]] ''GM'' = {{val|13.678|0.093|u=km3|up=s2}}.}}
+| density = {{val|2.93|0.07|u=g/cm3}}<ref name="Fuentes-Muñoz2025"/>{{efn|Assuming a diameter of 511 ± 4 km.}}
+| surface_grav = {{val|p=≈|0.21|u=m/s2}} (average){{refn|group=lower-alpha|name=grav|Calculated using the mean radius}}<br />{{cvt|0.21|m/s2|g0|disp=out|lk=out}}
+| axial_tilt = {{val|84|5|u=°}}<ref name=Carry2009/>
+| rotation = {{val|7.8132|u=h}}<ref name="lcdb" />
+| pole_ecliptic_lat = {{val|30|5|u=deg}}<ref name="Carry2009"/>
+| pole_ecliptic_lon = {{val|-16|5|u=deg}}<ref name="Carry2009"/>
+| albedo = 0.155<ref name=VLT/><br />0.159<ref name="iras" />
+| spectral_type = [[B-type asteroid|B]]<ref name="jpldata" /><ref name="tax" />
+| magnitude = 6.49<ref name="Pasachoff1983" /> to 10.65
+| angular_size = 0.629″ to 0.171″{{efn|name="opp1608"}}
+| escape_velocity = {{val|324|u=m/s}}<ref name="Marsset2020"/>
+| rot_velocity = {{val|65|u=m/s}}{{refn|group=lower-alpha|name=surface-vol}}
+| abs_magnitude = 4.13<ref name="iras" />
+}}
+
+'''Pallas''' ([[minor-planet designation]]: '''2&nbsp;Pallas''') is the [[List of largest asteroids|third-largest asteroid]] in the [[Solar System]] by volume and mass. It is the second [[asteroid]] to have been discovered, after [[1 Ceres|Ceres]], and is likely a remnant [[protoplanet]]. Like Ceres, it is believed to have a mineral composition similar to [[carbonaceous chondrite]] meteorites, though significantly less hydrated than Ceres. It is 79% the mass of [[4 Vesta|Vesta]] and 22% the mass of Ceres, constituting an estimated 7% of the total mass of the [[asteroid belt]]. Its estimated volume is equivalent to a sphere {{convert|507|to|515|km|sp=us}} in diameter, 90–95% the volume of Vesta.
+
+During the planetary formation era of the Solar System, objects grew in size through an [[accretion (astrophysics)|accretion]] process to approximately the size of Pallas. Most of these protoplanets were incorporated into the growth of larger bodies, which became the [[planet]]s, whereas others were ejected by the planets or destroyed in collisions with each other. Pallas, Vesta and Ceres appear to be the only intact bodies from this early stage of planetary formation to survive within the orbit of [[Neptune]].<ref name="AutoCB-21"/>
+
+When Pallas was discovered by the German astronomer [[Heinrich Wilhelm Matthias Olbers]] on 28 March 1802, it was [[List of former planets|considered to be a planet]],<ref>{{cite web |author=Hilton, James L. |title=When did the asteroids become minor planets? |url=https://aa.usno.navy.mil/faq/docs/minorplanets.php |work=Astronomical Applications Department |publisher=US Naval Observatory |access-date=27 March 2019 |archive-date=6 April 2019 |archive-url=https://web.archive.org/web/20190406091120/https://aa.usno.navy.mil/faq/docs/minorplanets.php }}</ref> as were other asteroids in the early 19th century. The discovery of many more asteroids after 1845 eventually led to the separate listing of "minor" planets from "major" planets, and the realization in the 1950s that such small bodies did not form in the same way as (other) planets led to the gradual abandonment of the term "[[minor planet]]" in favor of "asteroid" (or, for larger bodies such as Pallas, "planetoid").
+
+With an orbital inclination of 34.8°, Pallas's orbit is unusually highly inclined to the plane of the asteroid belt, making Pallas relatively inaccessible to spacecraft, and its [[orbital eccentricity]] is nearly as large as that of [[Pluto]].<ref name="AutoCB-3" />
+
+The high inclination of the orbit of Pallas results in the possibility of close conjunctions to stars that other solar objects always pass at great angular distance. This resulted in Pallas passing [[Sirius]] on 9 October 2022, only 8.5 arcminutes southwards,<ref>{{cite book|title=Astrolutz 2022|isbn=978-3-7534-7124-2 |last1=Lutz |first1=Harald |date=28 April 2021 |publisher=Books on Demand }}</ref> while no planet can get closer than 30 degrees to Sirius.
+
+== History ==
+[[File:Moon and Asteroids 1 to 10.svg|thumb|left|Size comparison: the first 10 asteroids profiled against the [[Moon]]. Pallas is number two.]]
+
+=== Discovery ===
+On the night of 5 April 1779, [[Charles Messier]] recorded Pallas on a star chart he used to track the path of a comet, now known as [[C/1779&nbsp;A1]] (Bode), that he observed in the spring of 1779, but apparently assumed it was nothing more than a star.<ref>{{cite journal|title=Messier's Missed Discovery of Pallas in April 1779|author=René Bourtembourg |journal=Journal for the History of Astronomy|volume=43|issue=2|pages=209–214|date=2012|doi=10.1177/002182861204300205|bibcode=2012JHA....43..209B |s2cid=118405076 }}</ref>
+
+In 1801, the astronomer [[Giuseppe Piazzi]] discovered an object which he initially believed to be a [[comet]]. Shortly thereafter he announced his observations of this object, noting that the slow, uniform motion was uncharacteristic of a comet, suggesting it was a different type of object. This was lost from sight for several months, but was recovered later that year by the [[Franz Xaver von Zach|Baron von Zach]] and [[Heinrich Wilhelm Matthäus Olbers|Heinrich W. M. Olbers]] after a preliminary orbit was computed by [[Carl Friedrich Gauss]]. This object came to be named [[Ceres (dwarf planet)|Ceres]], and was the first asteroid to be discovered.<ref name="AutoCB-4"/><ref name="AutoCB-5"/>
+
+A few months later, Olbers was again attempting to locate Ceres when he noticed another moving object in the vicinity. This was the asteroid Pallas, coincidentally passing near Ceres at the time. The discovery of this object created interest in the astronomy community. Before this point it had been speculated by astronomers that there should be a planet in the gap between [[Mars]] and [[Jupiter]]. Now, unexpectedly, a second such body had been found.<ref name="serendipity"/> When Pallas was discovered, some estimates of its size were as high as 3,380&nbsp;km in diameter.<ref name="AutoCB-6"/> Even as recently as 1979, Pallas was estimated to be 673&nbsp;km in diameter, 26% greater than the currently accepted value.<ref name="AutoCB-7"/>
+
+The orbit of Pallas was determined by Gauss, who found the period of 4.6 years was similar to the period for Ceres. Pallas has a relatively high orbital [[inclination]] to the plane of the [[ecliptic]].<ref name="serendipity" />
+
+=== Later observations ===
+In 1917, the Japanese astronomer [[Kiyotsugu Hirayama]] began to study asteroid motions. By plotting the mean orbital motion, inclination, and eccentricity of a set of asteroids, he discovered several distinct groupings. In a later paper he reported a group of three asteroids associated with Pallas, which became named the [[Pallas family]], after the largest member of the group.<ref name="AutoCB-8"/> Since 1994 more than 10 members of this family have been identified, with semi-major axes between 2.50 and 2.82&nbsp;AU and inclinations of 33–38°.<ref name="AutoCB-9"/> The validity of the family was confirmed in 2002 by a comparison of their spectra.<ref name="AutoCB-10"/>
+
+Pallas has been observed [[occultation|occulting]] [[star]]s several times, including the best-observed of all asteroid occultation events, by 140 observers on 29 May 1983. These measurements resulted in the first accurate calculation of its diameter.<ref name="Drummond1989"/><ref name="Dunham1990"/>
+After an occultation on 29 May 1979, the discovery of a possible tiny [[natural satellite|satellite]] with a diameter of about 1&nbsp;km was reported, which was never confirmed.
+
+Radio signals from spacecraft in orbit around [[Mars]] and/or on its surface have been used to estimate the mass of Pallas from the tiny perturbations induced by it onto the motion of Mars.<ref name="Pitjeva2004"/>
+
+The [[Dawn (spacecraft)|''Dawn'']] team was granted viewing time on the [[Hubble Space Telescope]] in September 2007 for a once-in-twenty-year opportunity to view Pallas at closest approach, to obtain comparative data for Ceres and Vesta.<ref name="Hubble" /><ref name="AutoCB-12"/>
+
+[[File:Pallas - Potw2008a.jpg|thumb|center|upright=1.5|High-resolution images of the north (at left) and south (at right) hemispheres of Pallas, made possible by the Adaptive-Optics (AO)-fed SPHERE imager on the Very Large Telescope (VLT) in 2020.<ref>{{cite web|title=Golf Ball World|url=https://www.eso.org/public/images/potw2008a/|access-date=24 February 2020}}</ref> Two large impact basins could have been created by [[Palladian asteroid]]–forming impacts. The bright spot in the southern hemisphere is reminiscent of the salt deposits on Ceres.]]
+
+=== Name and symbol ===
+[[File:Ceres and Pallas symbols, 1802.png|thumb|left|The symbols for Ceres and Pallas, as published in 1802]]
+
+''Pallas'' is an [[epithet]] of the Greek goddess [[Athena]] ({{langx|grc|Παλλάς Ἀθηνᾶ}}).<ref name="AutoCB-13"/><ref name="AutoCB-14"/> In some versions of the myth, Athena accidentally killed [[Pallas (daughter of Triton)|Pallas]], daughter of [[Triton (mythology)|Triton]], then adopted her friend's name out of mourning.<ref name="AutoCB-15"/>
+
+The adjectival form of the name is ''Palladian''.<ref name="oxford" /> The ''d'' is part of the [[oblique stem]] of the Greek name, which appears before a vowel but disappears before the [[nominative case|nominative]] ending ''-s''. The oblique form is seen in the Italian and Russian names for the asteroid, {{lang|it|Pallade}} and {{lang|ru|Паллада}} ({{transliteration|ru|Pallada}}).{{efn|The one exception internationally to the use of the Greek stem for the name of the asteroid is Chinese, in which it is known as {{lang|zh|智神星}} ({{transliteration|zh|Zhìshénxīng}}), the 'wisdom-god star'.}}
+The stony-iron [[pallasite]] meteorites are not Palladian, being named instead after the German naturalist [[Peter Simon Pallas]]. The chemical element [[palladium]], on the other hand, was named after the asteroid, which had been discovered just before the element.<ref name="AutoCB-16"/>
+
+The old [[astronomical symbol]] of Pallas, still used in astrology, is a spear or lance, {{angbr|[[File:Pallas symbol (fixed width).svg|20px|class=skin-invert|⚴]]}}, one of the symbols of the goddess. The blade was most often a [[lozenge (shape)|lozenge]] ({{char|◊}}), but various graphic variants were published, including an acute/elliptic [[leaf shape]], a cordate leaf shape ({{char|♤}}: [[file:Athene symbol (fixed width).svg|20px|class=skin-invert|Cordate variant of Pallas symbol]]), and a triangle ({{char|△}}); the last made it effectively the [[alchemical symbol]] for sulfur, {{angbr|[[File:Sulphur symbol (fixed width).svg|20px|class=skin-invert|🜍]]}}. The generic asteroid symbol of a disk with its discovery number, {{angbr|②}}, was introduced in 1852 and quickly became the norm.<ref name="Forbes1971">{{cite journal |last=Forbes |first=Eric G. |title=Gauss and the Discovery of Ceres |journal=Journal for the History of Astronomy |volume=2 |issue=3 |pages=195–199 |year=1971 |bibcode=1971JHA.....2..195F |doi=10.1177/002182867100200305 |s2cid=125888612 |url=http://adsabs.harvard.edu/full/1971JHA.....2..195F |access-date=18 July 2021 |archive-date=18 July 2021 |archive-url=https://web.archive.org/web/20210718200510/http://adsabs.harvard.edu/full/1971JHA.....2..195F |url-status=live }}</ref><ref>{{cite journal |last=Gould |first=B. A. |author-link=Benjamin Apthorp Gould |title=On the symbolic notation of the asteroids |journal=Astronomical Journal |year=1852 |volume=2 |issue=34 |page=80 |bibcode=1852AJ......2...80G |doi=10.1086/100212 }}</ref> The iconic lozenge symbol was resurrected for astrological use in 1973.<ref>Eleanor Bach (1973) ''Ephemerides of the asteroids: Ceres, Pallas, Juno, Vesta, 1900&ndash;2000''. Celestial Communications.</ref>
+
+== Orbit and rotation ==
+[[File:2 Pallas orbit Jan2018.png|thumb|right|Pallas has a high eccentricity and a highly inclined orbit]]
+Pallas has unusual dynamic parameters for such a large body. Its [[orbit]] is highly [[inclination|inclined]] and moderately [[orbital eccentricity|eccentric]], despite being at the same distance from the Sun as the central part of the [[asteroid belt]]. Furthermore, Pallas has a very high [[axial tilt]] of 84°, with its north pole pointing towards [[ecliptic coordinate system|ecliptic coordinates]] (β,&nbsp;λ) = (30°,&nbsp;−16°) with a 5° uncertainty in the Ecliptic J2000.0 reference frame.<ref name="Carry2009"/> This means that every Palladian summer and winter, large parts of the surface are in constant sunlight or constant darkness for a time on the order of an Earth year, with areas near the poles experiencing continuous sunlight for as long as two years.<ref name=Carry2009/>
+
+=== Near resonances ===
+Pallas is in a [[Orbital resonance#Coincidental 'near' ratios of mean motion|near]]-1:1 orbital resonance with Ceres, which is probably coincidental.<ref name="Goffin2001"/> Pallas also has a near-18:7 resonance (91,000-year period) and an approximate 5:2 resonance (83-year period) with [[Jupiter]].<ref name="Taylor1982"/>
+
+{{Gallery
+| title        = 
+| align        = center
+| footer       =
+| style        =
+| state        =
+| height       =
+| width        =
+| captionstyle =
+|File:Animation of Pallas orbit.gif 
+| Animation of the Palladian orbit in the inner Solar System<br/>{{unordered list|{{legend2|Magenta|Pallas}}|{{legend2|Gold|Ceres}}|{{legend2|Cyan|Jupiter}}|{{legend2|Lime|Mars}}|{{legend2| RoyalBlue |Earth}}|{{legend2|Yellow|Sun}}}}
+|File:PallasJupiter.GIF
+|An animation of Pallas's near-18:7 resonance with [[Jupiter]]. The orbit of Pallas is green when above the ecliptic and red when below. It only marches clockwise: it never halts or reverses course (i.e. no [[libration]]). The motion of Pallas is shown in a reference frame that rotates about the [[Sun]] (the center dot) with a period equal to Jupiter's orbital period. Accordingly, Jupiter's orbit appears almost stationary as the pink ellipse at top left. [[Mars]]'s motion is orange, and the Earth–Moon system is blue and white.
+}}
+
+=== Transits of planets from Pallas ===
+From Pallas, the planets Mercury, Venus, Mars, and Earth can occasionally appear to [[Astronomical transit|transit]], or pass in front of, the Sun. Earth last did so in 1968 and 1998, and will next transit in 2224. Mercury did in October 2009. The last and next by Venus are in 1677 and 2123, and for Mars they are in 1597 and 2759.<ref name="solex"/>
+{{Clear}}
+
+== Physical characteristics ==
+[[File:The Four Largest Asteroids.jpg|thumb|upright=1.5|Relative sizes of the four largest asteroids. Pallas is second from right.]]
+{{Pie chart
+|value7 = 938
+|label7 = [[1 Ceres]]
+|value2 = 259
+|label2 = [[4 Vesta]]
+|value1 = 204
+|label1 = 2 Pallas
+|value3 = 87
+|label3 = [[10 Hygiea]]
+|value4 = 35
+|label4 = [[704 Interamnia]]
+|value5 = 30
+|label5 = [[15 Eunomia]]
+|value6 = 841<!--total 2394x18kg-->
+|label6 = other ≈
+|legend=true
+|caption=The mass of 2 Pallas (dark green) compared to other large asteroids and the remainder of the Main Belt. The unit of mass is{{e|18}} kg.
+|autoscale=true
+|radius=100
+|border=no
+}}
+
+Both Vesta and Pallas have assumed the title of second-largest asteroid from time to time.<ref name="notable_asteroids"/> At {{val|513|3|u=km}} in diameter,<ref name=Marsset2020/> Pallas is now understood to be slightly smaller than Vesta ({{val|525.4|0.2|u=km}}<ref name="Russell2012"/>). The mass of Pallas is {{val|79|1|u=%}} that of Vesta, {{val|22|u=%}} that of Ceres, and 0.25% that of the [[Moon]].
+
+Pallas is farther from Earth and has a much lower albedo than Vesta, and hence is dimmer as seen from Earth. Indeed, the much smaller asteroid [[7 Iris]] marginally exceeds Pallas in mean opposition magnitude.<ref name="AutoCB-18"/> Pallas's mean opposition [[apparent magnitude|magnitude]] is +8.0, which is well within the range of 10×50 [[binoculars]], but, unlike Ceres and Vesta, it will require more-powerful optical aid to view at small [[elongation (astronomy)|elongations]], when its magnitude can drop as low as +10.6. During rare perihelic oppositions, Pallas can reach a magnitude of +6.4, right on the edge of naked-eye visibility.<ref name="Pasachoff1983" /> During late February 2014 Pallas shone with magnitude 6.96.{{efn|name="opp2014"}}
+
+Pallas is a [[B-type asteroid]].<ref name="Carry2009"/> Based on spectroscopic observations, the primary component of the material on Pallas's surface is a silicate containing little iron and water. Minerals of this type include [[olivine]] and [[pyroxene]], which are found in [[chondrule|CM chondrules]].<ref name="AutoCB-19"/> The surface composition of Pallas is very similar to the Renazzo [[carbonaceous chondrite]] (CR) meteorites, which are even lower in hydrous minerals than the CM type.<ref name="Sato1997"/> The Renazzo meteorite was discovered in Italy in 1824 and is one of the most primitive meteorites known.<ref name="AutoCB-20"/>{{refn|group=lower-alpha|Marsset 2020 finds it closer to CM meteorites<ref name="Marsset2020"/>}} Pallas's visible and near-infrared spectrum is almost flat, being slightly brighter in towards the blue. There is only one clear absorption band in the 3-micron part, which suggests an anhydrous component mixed with hydrated CM-like silicates.<ref name="Carry2009"/>
+
+Pallas's surface is most likely composed of a [[silicate]] material; its spectrum and calculated density ({{val|2.89|0.08|u=g/cm3}}) correspond to [[CM chondrite]] meteorites ({{val|2.90|0.08|u=g/cm3}}), suggesting a mineral composition similar to that of Ceres, but significantly less hydrated.
+
+To within observational limits, Pallas appears to be saturated with craters. Its high inclination and eccentricity means that average impacts are much more energetic than on Vesta or Ceres (with on average twice their velocity), meaning that smaller (and thus more common) impactors can create equivalently sized craters. Indeed, Pallas appears to have many more large craters than either Vesta or Ceres, with craters larger than 40&nbsp;km covering at least 9% of its surface.<ref name="Marsset2020"/>
+
+Pallas's shape departs significantly from the dimensions of an equilibrium body at its current rotational period, indicating that it is not in hydrostatic equilibrium, and thus does not meet the definition of a [[dwarf planet]].<ref name=Carry2009 /> It is possible that a suspected large impact basin at the south pole, which ejected {{val|6|1|u=%}} of the volume of Pallas (twice the volume of the [[Rheasilvia]] basin on Vesta), may have increased its inclination and slowed its rotation; the shape of Pallas without such a basin would be close to an equilibrium shape for a 6.2-hour rotational period.<ref name="Marsset2020"/> A smaller crater near the equator is associated with the [[Palladian family]] of asteroids.<ref name="Marsset2020"/>
+
+Pallas probably has a quite homogeneous interior. The close match between Pallas and CM chondrites suggests that they formed in the same era and that the interior of Pallas never reached the temperature (≈820 K) needed to dehydrate silicates, which would be necessary to differentiate a dry silicate core beneath a hydrated mantle. Thus Pallas should be rather homogeneous in composition, though some upward flow of water could have occurred since. Such a migration of water to the surface would have left salt deposits, potentially explaining Pallas's relatively high albedo. Indeed, one bright spot is reminiscent of those found on Ceres. Although other explanations for the bright spot are possible (e.g. a recent ejecta blanket), if the near-Earth asteroid [[3200 Phaethon]] is an ejected piece of Pallas, as some have theorized, then a Palladian surface enriched in salts would explain the sodium abundance in the [[Geminid meteor shower]] caused by Phaethon.<ref name=Marsset2020/>
+
+===Surface features===
+Besides one bright spot in the southern hemisphere, the only surface features identified on Pallas are craters. As of 2020, 36 craters have been identified, 34 of which are larger than 40&nbsp;km in diameter. Provisional names have been provided for some of them. The craters are named after ancient weapons.<ref name=Marsset2020/>
+
+{| class="wikitable"
+|+ Features on Pallas (southern hemisphere)
+|-
+! width=100 | Feature !! Pronunciation !! Latin or Greek !! Meaning
+|-
+| Akontia || {{IPAc-en|ə|ˈ|k|ɒ|n|t|i|ə}} || [[wikt:acontia|ἀκόντιον]] || a dart
+|-
+| Doru || {{IPAc-en|ˈ|d|oʊ|r|uː}} || [[wikt:doru|δόρυ]] || a spear
+|-
+| Hoplon || {{IPAc-en|ˈ|h|ɒ|p|l|ɒ|n}} || [[wikt:hoplon|ὅπλον]] || a weapon (esp. a large shield)
+|-
+| Kopis || {{IPAc-en|ˈ|k|oʊ|p|ɪ|s}} || [[wikt:kopis|κοπίς]] || a chopping sword
+|-
+| Sarissa<!--typo 'Sarrisa' in the pub, but that's being fixed for IAU submission--> || {{IPAc-en|s|ə|ˈ|r|ɪ|s|ə}} || [[wikt:sarissa|σάρισσα]] || a pike
+|-
+| Sfendonai || {{IPAc-en|ˈ|s|f|ɛ|n|d|ə|n|eɪ}} || [[wikt:sphendone|σφενδόνη]] || a slingstone
+|-
+| Toxa || {{IPAc-en|ˈ|t|ɒ|k|s|ə}} || [[wikt:τόξον|τόξον]] || a bow
+|-
+| Xiphos || {{IPAc-en|ˈ|z|aɪ|f|ɒ|s}} || [[wikt:xiphos|ξίφος]] || a sword
+|-
+| Xyston || {{IPAc-en|ˈ|z|ɪ|s|t|ɒ|n}} || [[wikt:xyston|ξυστόν]] || a lance
+|}
+
+{| class="wikitable"
+|+ Features on Pallas (northern hemisphere)
+|-
+! width=100 | Feature !! Pronunciation !! Latin or Greek !! Meaning
+|-
+| Aklys || {{IPAc-en|ˈ|eɪ|k|l|ɪ|s}} || [[wikt:aclys|āclys]] || a small javelin attached to a strap
+|-
+| Falcata || {{IPAc-en|f|æ|l|ˈ|k|eɪ|t|ə}} || [[wikt:falcata|falcāta]] || a sword of pre-Roman Iberia 
+|-
+| Makhaira || {{IPAc-en|m|ə|ˈ|k|eɪ|r|ə}} || [[wikt:μάχαιρα|μάχαιρα]] || a sword of ancient Greece
+|-
+| Pilum || {{IPAc-en|ˈ|p|aɪ|l|ə|m}} || [[wikt:pilum|pīlum]] || a Roman javelin
+|-
+| Scutum || {{IPAc-en|ˈ|s|k|juː|t|ə|m}} || [[wikt:scutum|scūtum]] || a Roman leather-covered shield
+|-
+| Sica || {{IPAc-en|ˈ|s|aɪ|k|ə}} || [[wikt:sica|sīca]] || a dagger
+|-
+| Spatha || {{IPAc-en|ˈ|s|p|eɪ|θ|ə}} || [[wikt:spatha|spatha]] || a straight sword
+|}
+
+== Satellites ==
+A small moon about 1 kilometer in diameter was suggested based on occultation data from 29 May 1978. In 1980, [[speckle interferometry]] suggested a much larger satellite, whose existence was refuted a few years later with occultation data.<ref name="AutoCB-11"/>
+
+== Exploration ==
+Pallas itself has never been visited by spacecraft. Proposals have been made in the past though none have come to fruition.   A flyby of the ''[[Dawn (spacecraft)|Dawn]]'' probe's visits to [[4 Vesta]] and [[Ceres (dwarf planet)|1 Ceres]] was discussed but was not possible due to the high orbital inclination of Pallas.<ref>{{cite web |last=Rayman |first=Marc |url=https://www.jpl.nasa.gov/blog/2014/12/ceres-curiosities-the-mysterious-world-comes-into-view/#comment-7392 |title=Ceres' Curiosities: The Mysterious World Comes Into View |publisher=NASA Jet Propulsion Laboratory |date=29 December 2014 |access-date=20 September 2021 |url-status=live|archive-url=https://web.archive.org/web/20150217192023/http://www.jpl.nasa.gov/blog/2014/12/ceres-curiosities-the-mysterious-world-comes-into-view |archive-date=17 February 2015 }}</ref><ref name="AutoCB-22"/> The proposed ''Athena'' SmallSat mission would have been launched in 2022 as a secondary payload of the [[Psyche (spacecraft)|''Psyche'' mission]] and travel on separate trajectory to a [[Flyby (spaceflight)|flyby]] encounter with 2 Pallas,<ref name="FRB-20190310">{{cite news |last=Dorminey |first=Bruce |title=Proposed NASA SmallSat Mission Could Be First To Visit Pallas, Our Third Largest Asteroid |url=https://www.forbes.com/sites/brucedorminey/2019/03/10/proposed-nasa-smallsat-mission-could-be-first-to-visit-pallas-our-third-largest-asteroid |date=10 March 2019 |work=[[Forbes]] |access-date=10 March 2019 }}</ref><ref name='Rourke LPSC 2019'>[https://www.hou.usra.edu/meetings/lpsc2019/pdf/2225.pdf Athena: the first-ever encounter of (2) Pallas with a Smallsat.] J. G. O'Rourke, J. Castillo-Rogez, L. T. Elkins-Tanton, R. R. Fu, T. N. Harrison, S. Marchi, R. Park, B. E. Schmidt, D. A. Williams, C. C. Seybold, R. N. Schindhelm, J. D. Weinberg. 50th Lunar and Planetary Science Conference 2019 (LPI Contrib. No. 2132).</ref> though was not funded due to being outcompeted by other mission concepts such as the [[TransOrbital]] Trailblazer Lunar Orbiter. The authors of the proposal cited Pallas as the "largest unexplored" main-belt protoplanet.<ref>{{cite web |url=https://www.lpi.usra.edu/planetary_news/2019/06/24/finalists-selected-for-nasas-simplex-program/ |title=Finalists Selected for NASA's SIMPLEx Program |website=Planetary News |date=24 June 2019 |access-date=20 September 2021 |url-status=live|archive-url=https://web.archive.org/web/20201123225144/https://www.lpi.usra.edu/planetary_news/2019/06/24/finalists-selected-for-nasas-simplex-program/ |archive-date=23 November 2020 }}</ref><ref>{{cite web| url = https://josephgorourke.com/research| title = Athena: A SmallSat Mission to (2) Pallas| access-date = 7 October 2020| archive-date = 21 November 2021| archive-url = https://web.archive.org/web/20211121181742/https://josephgorourke.com/research}}</ref>
+
+== Gallery ==
+<gallery class="center" widths="200" heights="200">
+File:PallasHST2007.jpg|An [[Ultraviolet photography|ultraviolet image]] of Pallas showing its flattened shape, taken by the [[Hubble Space Telescope]] in 2007
+File:Iau dozen.jpg|Objects considered for [[dwarf planet]] status under the [[IAU definition of planet#First draft proposal|IAU's 2006 draft proposal on the definition of a planet]].<ref name="IAU-draft2006"/> Pallas is second from the right, bottom row.
+</gallery>
+
+== See also ==
+{{Portal|Solar System}}
+* [[881 Athene]], another asteroid named after Athena
+* [[Pallas family]]
+* [[List of former planets]]
+
+== Notes ==
+{{notelist|refs=
+
+<ref name=opp1608>Calculated with [http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=2 JPL Horizons] for 1608-Feb-15</ref>
+
+<ref name=opp2014>Calculated with [http://ssd.jpl.nasa.gov/horizons.cgi?find_body=1&body_group=sb&sstr=2 JPL Horizons] for 2014-Feb-24</ref>
+
+}}
+
+== References ==
+{{Reflist|refs=
+
+<ref name="oxford">{{OED|Palladian}}</ref>
+
+<ref name="jpldata">{{cite web
+  |type       = 2018-01-23 last obs.
+  |title      = JPL Small-Body Database Browser: 2 Pallas
+  |url        = https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2000002
+  |publisher  = [[Jet Propulsion Laboratory]]
+  |access-date = 1 June 2018}}</ref>
+
+<ref name="springer">{{cite book
+  |title      = Dictionary of Minor Planet Names
+  |url      = https://archive.org/details/dictionaryminorp00schm
+  |url-access = limited
+  |last       = Schmadel | first = Lutz D.
+  |publisher  = Springer Berlin Heidelberg
+  |chapter    = (2) Pallas 
+  |page       = [https://archive.org/details/dictionaryminorp00schm/page/n28 15]
+  |date       = 2007
+  |isbn       = 978-3-540-00238-3
+  |doi        = 10.1007/978-3-540-29925-7_3}}</ref>
+
+<ref name="MPC-object">{{cite web
+  |title      = 2 Pallas
+  |website    = Minor Planet Center
+  |url        = https://www.minorplanetcenter.net/db_search/show_object?object_id=2
+  |access-date = 1 June 2018}}</ref>
+
+<ref name="lcdb">{{cite LCDB|number = 2 
+  |access-date = 1 June 2018}}</ref>
+
+<ref name=Souami_Souchay_2012>{{cite journal
+ | title=The solar system's invariable plane
+ | last1=Souami | first1=D. | last2=Souchay | first2=J.
+ | journal=Astronomy & Astrophysics
+ | volume=543 | id=A133 | page=11 | date=July 2012
+ | doi=10.1051/0004-6361/201219011 | bibcode=2012A&A...543A.133S | doi-access=free }}</ref>
+
+<ref name=Pallas-POE>{{cite web
+  |title=AstDyS-2 Pallas Synthetic Proper Orbital Elements
+  |publisher=Department of Mathematics, University of Pisa, Italy
+  |url=https://newton.spacedys.com/astdys/index.php?pc=1.1.6&n=2
+  |access-date=1 October 2011}}</ref>
+
+<ref name="Hubble">{{cite journal
+  |title=Hubble takes a look at Pallas: Shape, size, and surface
+  |journal=39th Lunar and Planetary Science Conference (Lunar and Planetary Science XXXIX). Held 10–14 March 2008, in League City, Texas.
+  |date=2008 |volume=1391 |issue=1391
+  |page=2502
+  |url=http://www.lpi.usra.edu/meetings/lpsc2008/pdf/2502.pdf
+  |access-date=2008-08-24
+  |bibcode=2008LPI....39.2502S
+  |last1=Schmidt
+  |first1=B.E.
+  |last2=Thomas
+  |first2=P.C.
+  |last3=Bauer
+  |first3=J.M.
+  |last4=Li
+  |first4=J.-Y.
+  |last5=McFadden
+  |first5=L.A.
+  |last6=Parker
+  |first6=J.M.
+  |last7=Rivkin
+  |first7=A.S.
+  |last8=Russell
+  |first8=C.T.
+  |last9=Stern
+  |first9=S.A.
+  |archive-url= https://web.archive.org/web/20081004004057/http://www.lpi.usra.edu/meetings/lpsc2008/pdf/2502.pdf
+  |archive-date= 4 October 2008 <!--DASHBot-->
+  |url-status= live}}</ref>
+
+<ref name="tax">{{cite web
+ |editor-last=Neese 
+ |editor-first=C. 
+ |title=Asteroid Taxonomy. EAR-A-5-DDR-Taxonomy-V5.0 
+ |publisher=[[Planetary Data System|NASA Planetary Data System]] 
+ |date=2005 
+ |url=http://www.psi.edu/pds/resource/taxonomy.html 
+ |access-date=15 March 2007 
+ |archive-url=https://web.archive.org/web/20090805185511/http://www.psi.edu/pds/resource/taxonomy.html
+ |archive-date=5 August 2009
+ }}</ref>
+
+<ref name="Pasachoff1983">{{cite book
+ |author=Menzel, Donald H.
+ |author2=Pasachoff, Jay M.
+ |date=1983
+ |title=A Field Guide to the Stars and Planets
+ |edition=2nd
+ |publisher=Houghton Mifflin
+ |page=[https://archive.org/details/fieldguidetostar00menz_0/page/391 391]
+ |location=Boston, MA
+ |isbn=978-0-395-34835-2
+ |url-access=registration
+ |url=https://archive.org/details/fieldguidetostar00menz_0/page/391
+ }}</ref>
+
+<ref name="iras">{{cite journal
+  |first1     = E. F. |last1 = Tedesco
+  |first2     = P. V. |last2 = Noah
+  |first3     = M. |last3 = Noah
+  |first4     = S. D. |last4 = Price
+  |date       = October 2004
+  |title      = IRAS Minor Planet Survey V6.0
+  |url        = https://sbnarchive.psi.edu/pds3/iras/IRAS_A_FPA_3_RDR_IMPS_V6_0/data/diamalb.tab
+  |journal    = NASA Planetary Data System
+  |volume     = 12
+  |pages      = IRAS-A-FPA-3-RDR-IMPS-V6.0
+  |bibcode    = 2004PDSS...12.....T
+  |access-date = 30 October 2019}}</ref>
+
+<ref name="AutoCB-3">{{cite web
+ | author=Anonymous
+ | url=http://www.planetary.org/explore/topics/our_solar_system/asteroids_and_comets/asteroids.html
+ | title=Space Topics: Asteroids and Comets, Notable Comets
+ | publisher=The Planetary Society
+ | access-date=28 June 2008 |archive-url=https://web.archive.org/web/20080516225654/http://www.planetary.org/explore/topics/our_solar_system/asteroids_and_comets/asteroids.html|archive-date=16 May 2008<!--DASHBot-->|url-status=live}}</ref>
+
+<ref name="AutoCB-4">{{cite web|last=Hoskin|first=Michael|date=26 June 1992|url=http://www.astropa.unipa.it/HISTORY/hoskin.html|title=Bode's Law and the Discovery of Ceres|publisher=Observatorio Astronomico di Palermo "Giuseppe S. Vaiana"|access-date=5 July 2007|archive-date=22 May 2011|archive-url=https://web.archive.org/web/20110522214414/http://www.astropa.unipa.it/HISTORY/hoskin.html}}</ref>
+
+<ref name="AutoCB-5">{{cite journal|last=Forbes|first=Eric G.|title=Gauss and the Discovery of Ceres|journal=Journal for the History of Astronomy|volume=2|issue=3|pages=195–199|date=1971| bibcode=1971JHA.....2..195F|doi=10.1177/002182867100200305|s2cid=125888612}}</ref>
+
+<ref name="serendipity">{{cite web | url = http://dawn.jpl.nasa.gov/DawnCommunity/flashbacks/fb_06.asp | title = Astronomical Serendipity | publisher = NASA JPL | access-date = 15 March 2007 | archive-url = https://web.archive.org/web/20120206235537/http://dawn.jpl.nasa.gov/DawnCommunity/flashbacks/fb_06.asp | archive-date = 6 February 2012 }}</ref>
+
+<ref name="AutoCB-6">{{cite web
+ |date=16 November 2007 
+ |author=Hilton, James L. 
+ |author-link=James L. Hilton 
+ |title=When did asteroids become minor planets? 
+ |website=U.S. Naval Observatory 
+ |url=http://aa.usno.navy.mil/faq/docs/minorplanets.php 
+ |access-date=5 February 2014 
+ |archive-url=https://web.archive.org/web/20070921162818/http://aa.usno.navy.mil/faq/docs/minorplanets.php 
+ |archive-date=21 September 2007}}</ref>
+
+<ref name="AutoCB-7">{{cite web
+  |author=Hilton, James L.
+  |title=Asteroid Masses and Densities
+  |website=U.S. Naval Observatory
+  |url=http://www.lpi.usra.edu/books/AsteroidsIII/pdf/3008.pdf
+  |access-date=7 September 2008 | archive-url= https://web.archive.org/web/20080819191809/http://www.lpi.usra.edu/books/AsteroidsIII/pdf/3008.pdf| archive-date= 19 August 2008 <!--DASHBot-->| url-status= live}}</ref>
+
+<ref name="IAU-draft2006">{{cite web
+ |title=The Path to Defining Planets
+ |first=Owen |last=Gingerich |author-link=Owen Gingerich
+ |work=Harvard-Smithsonian Center for Astrophysics and IAU EC Planet Definition Committee chair
+ |date=2006-08-16
+ |url=https://www.iau.org/static/publications/ga_newspapers/20060812.pdf |archive-url=https://web.archive.org/web/20150315084508/http://www.iau.org/static/publications/ga_newspapers/20060812.pdf |archive-date=2015-03-15 |url-status=live
+ |access-date=2007-03-13
+ |page=4 <!-- Series 3 -->}}</ref>
+
+<ref name="AutoCB-8">{{cite conference | first=Yoshihide | last=Kozai | author-link=Yoshihide Kozai | title=Kiyotsugu Hirayama and His Families of Asteroids (invited) | book-title=Proceedings of the International Conference | publisher=Astronomical Society of the Pacific | date=29 November – 3 December 1993 | location=Sagamihara, Japan | bibcode=1994ASPC...63....1K }}</ref>
+
+<ref name="AutoCB-9">{{cite web|last=Faure |first=Gérard |date=20 May 2004 |url=http://www.astrosurf.com/aude/map/us/AstFamilies2004-05-20.htm |title=Description of the System of Asteroids |publisher=Astrosurf.com |access-date=15 March 2007 |archive-url=https://web.archive.org/web/20070202171034/http://www.astrosurf.com/aude/map/us/AstFamilies2004-05-20.htm |archive-date=2 February 2007 }}</ref>
+
+<ref name="AutoCB-10">{{cite journal | author=Foglia, S. | author2=Masi, G. | title=New clusters for highly inclined main-belt asteroids | journal=The Minor Planet Bulletin | date=1999 | volume=31 | issue=4 | pages=100–102 | url=http://asteroidi.uai.it/family/ | access-date=15 March 2007 | bibcode=2004MPBu...31..100F | archive-url=https://web.archive.org/web/20110719023627/http://asteroidi.uai.it/family/ | archive-date=19 July 2011 }}</ref>
+
+<ref name="Drummond1989">{{cite journal
+ |author=Drummond, J. D.
+ |author2=Cocke, W. J.
+ |title=Triaxial ellipsoid dimensions and rotational pole of 2 Pallas from two stellar occultations
+ |journal=Icarus | date=1989 |volume=78
+ |issue=2 |pages=323–329
+ |bibcode=1989Icar...78..323D | doi = 10.1016/0019-1035(89)90180-2
+ |url=http://www.boulder.swri.edu/merline/press/drummond.lutetia.2010.as-published.pdf |archive-url=https://web.archive.org/web/20110513233958/http://www.boulder.swri.edu/merline/press/drummond.lutetia.2010.as-published.pdf |archive-date=2011-05-13 |url-status=live}}</ref>
+
+<ref name="Dunham1990">{{cite journal
+ |author=Dunham, D. W.
+ |title=The size and shape of (2) Pallas from the 1983 occultation of 1 Vulpeculae
+ |journal=Astronomical Journal |date=1990 |volume=99 |pages=1636–1662
+ |bibcode=1990AJ.....99.1636D | doi = 10.1086/115446
+ |display-authors=etal|doi-access=free}}</ref>
+
+<ref name="AutoCB-11">{{cite web | last = Johnston | first = William Robert | date = 5 March 2007 | url = http://www.johnstonsarchive.net/astro/asteroidmoonsq.html | title = Other Reports of Asteroid/TNO Companions | publisher = Johnson's Archive | access-date = 14 March 2007 | archive-url= https://web.archive.org/web/20070210015649/http://www.johnstonsarchive.net/astro/asteroidmoonsq.html| archive-date= 10 February 2007 <!--DASHBot-->| url-status= live}}</ref>
+
+<ref name="Pitjeva2004">{{cite conference
+ |first = E. V. |last = Pitjeva |author-link = Elena V. Pitjeva
+ |title = Estimations of masses of the largest asteroids and the main asteroid belt from ranging to planets, Mars orbiters and landers
+ |book-title = 35th COSPAR Scientific Assembly. Held 18–25 July 2004, in Paris, France
+ |page= 2014 |date= 2004
+ |bibcode= 2004cosp...35.2014P}}</ref>
+
+<ref name="AutoCB-12">{{cite web
+ |author      = Staff
+ |date        = 24 October 2007
+ |url         = http://dawn.jpl.nasa.gov/science/index.asp
+ |title       = Hubble Images of Asteroids Help Astronomers Prepare for Spacecraft Visit
+ |publisher   = JPL/NASA
+ |access-date  = 27 October 2007
+ |archive-url  = https://web.archive.org/web/20070609231721/http://dawn.jpl.nasa.gov/science/index.asp
+ |archive-date = 9 June 2007}}</ref>
+
+<ref name="AutoCB-13">{{cite web | first=Andrew | last=James | date=1 September 2006 | url=http://www.southastrodel.com/PagePallas000.htm | title=Pallas | website=Southern Astronomical Delights | access-date=29 March 2007 | archive-url=https://web.archive.org/web/20140114135648/http://southastrodel.com/PagePallas000.htm | archive-date=14 January 2014 | url-status=dead}}</ref>
+
+<ref name="AutoCB-14">{{cite EB1911 | wstitle=Athena | volume=2 | page=828 | first=John Henry | last=Freese}}</ref>
+
+<ref name="AutoCB-15">{{cite book|title=The Origin of Culture and Civilization: The Cosmological Philosophy of the Ancient Worldview Regarding Myth, Astrology, Science, and Religion|last=Dietrich|first=Thomas|isbn=978-0-9764981-6-2|publisher=Turnkey Press|page=178|date=2005}}</ref>
+
+<ref name="AutoCB-16">{{cite web | publisher=[[Los Alamos National Laboratory]] | url=http://periodic.lanl.gov/elements/46.html |title=Palladium |access-date=28 March 2007 | archive-url= https://web.archive.org/web/20070405111306/http://periodic.lanl.gov/elements/46.html| archive-date= 5 April 2007 <!--DASHBot-->| url-status= live}}</ref>
+
+<ref name=Carry2009>{{Cite journal|title=Physical properties of (2) Pallas|author=Carry, B.|date=2009|doi=10.1016/j.icarus.2009.08.007 |arxiv=0912.3626|display-authors=etal|bibcode = 2010Icar..205..460C|volume=205|issue=2|journal=Icarus|pages=460–472|s2cid=119194526}}</ref>
+
+<ref name="Russell2012">{{cite journal
+  |author=Russell, C. T.
+  |s2cid=206540168
+ |title=Dawn at Vesta: Testing the Protoplanetary Paradigm
+  |journal=Science
+  |volume=336
+  |issue=6082
+  |pages=684–686
+  |date=2012
+  |doi=10.1126/science.1219381 |bibcode = 2012Sci...336..684R|display-authors=etal
+  |pmid=22582253
+  }}</ref>
+
+<ref name="Goffin2001">{{cite journal
+  |last=Goffin |first=E.
+  |title=New determination of the mass of Pallas |journal=Astronomy and Astrophysics |date=2001 |volume=365
+  |issue=3 |pages=627–630
+  |bibcode=2001A&A...365..627G
+  |doi=10.1051/0004-6361:20000023 |doi-access=free }}</ref>
+
+<ref name=Taylor1982>{{cite journal
+  |last=Taylor |first=D. B.
+  |title=The secular motion of Pallas
+  |journal= Monthly Notices of the Royal Astronomical Society
+  |volume=199 |issue=2
+  |pages=255–265 |date=1982
+  |bibcode=1982MNRAS.199..255T |doi = 10.1093/mnras/199.2.255 |doi-access=free}}</ref>
+
+<ref name=solex>{{cite web
+ |title=Solex by Aldo Vitagliano 
+ |url=http://chemistry.unina.it/~alvitagl/solex/ 
+ |access-date=19 March 2009 
+ |archive-url=https://web.archive.org/web/20081220235836/http://chemistry.unina.it/~alvitagl/solex/
+ |archive-date=20 December 2008
+ }} (numbers generated by Solex)</ref>
+
+<ref name="notable_asteroids">{{cite web|date=2007|url=http://www.planetary.org/explore/topics/near_earth_objects/asteroids_and_comets/asteroids.html|title=Notable Asteroids|publisher=The Planetary Society|access-date=17 March 2007 |archive-url=https://web.archive.org/web/20070416165423/http://www.planetary.org/explore/topics/near_earth_objects/asteroids_and_comets/asteroids.html|archive-date=16 April 2007<!--DASHBot-->|url-status=live}}</ref>
+
+<ref name="AutoCB-18">{{cite web
+ |last=Odeh 
+ |first=Moh'd 
+ |url=http://jas.org.jo/ast.html 
+ |title=The Brightest Asteroids 
+ |publisher=Jordanian Astronomical Society 
+ |access-date=16 July 2007 
+ |archive-url=https://web.archive.org/web/20070813224051/http://www.jas.org.jo/ast.html 
+ |archive-date=13 August 2007 
+ }}</ref>
+
+<ref name="AutoCB-19">{{cite journal
+ | author=Feierberg, M. A.
+ | author2=Larson, H. P.
+ | author3=Lebofsky, L. A.
+ | title=The 3 Micron Spectrum of Asteroid 2 Pallas
+ | journal=Bulletin of the American Astronomical Society
+ | date=1982|volume=14|page=719
+ | bibcode=1982BAAS...14..719F}}</ref>
+
+<ref name="Sato1997">{{cite journal
+ | author=Sato, Kimiyasu
+ | author2=Miyamoto, Masamichi
+ | author3=Zolensky, Michael E.
+ | title=Absorption bands near 3 m in diffuse reflectance spectra of carbonaceous chondrites: Comparison with asteroids
+ | journal=Meteoritics|date=1997|volume=32
+ | issue=4|pages=503–507
+ | bibcode=1997M&PS...32..503S
+ | doi=10.1111/j.1945-5100.1997.tb01295.x | s2cid=129687767
+ }}</ref>
+
+<ref name="AutoCB-20">{{cite news
+ |title=Earliest Meteorites Provide New Piece in Planetary Formation Puzzle. 
+ |date=20 September 2005 
+ |publisher=Particle Physics and Astronomy Research Council 
+ |url=http://www.pparc.ac.uk/Nw/meteorite.asp 
+ |access-date=24 May 2006 
+ |archive-url=https://archive.today/20130506200716/http://www.pparc.ac.uk/Nw/meteorite.asp 
+ |archive-date=6 May 2013}}</ref>
+
+<ref name="AutoCB-21">{{cite journal
+ | author=McCord, T. B.
+ | author2=McFadden, L. A.
+ | author3=Russell, C. T.
+ | author4=Sotin, C.
+ | author5=Thomas, P. C.
+ | title=Ceres, Vesta, and Pallas: Protoplanets, Not Asteroids
+ | journal=Transactions of the American Geophysical Union
+ | date=2006|volume=87|issue=10|page=105
+ | doi= 10.1029/2006EO100002 |bibcode= 2006EOSTr..87..105M | url=https://hal.science/hal-00112660
+ }}</ref>
+
+<ref name="AutoCB-22">{{cite journal
+ | last=Perozzi | first=Ettore
+ |author2=Rossi, Alessandro|author3= Valsecchi, Giovanni B.
+ | title=Basic targeting strategies for rendezvous and flyby missions to the near-Earth asteroids
+ | journal=Planetary and Space Science | date=2001
+ | volume=49 | issue=1 | pages=3–22
+ | doi=10.1016/S0032-0633(00)00124-0 | bibcode=2001P&SS...49....3P}}</ref>
+
+<ref name=surfacecalc>{{cite web| url = http://www.wolframalpha.com/input/?i=surface+ellipsoid+275x258x238| title = Surface-area calculation using Wolfram Alpha}}</ref>
+
+<ref name="Ferret">{{cite web
+  |title      = Asteroid 2 Pallas
+  |work      = Small Bodies Data Ferret
+  |url      = https://sbntools.psi.edu/ferret/SimpleSearch/results.action?targetName=2+Pallas
+  |access-date      = 24 October 2019
+  |archive-date      = 27 October 2021
+  |archive-url      = https://web.archive.org/web/20211027185018/https://sbntools.psi.edu/ferret/SimpleSearch/results.action?targetName=2+Pallas
+  }}</ref>
+
+<ref name="Fuentes-Muñoz2025">{{Cite journal |last=Fuentes-Muñoz |first=Oscar |last2=Farnocchia |first2=Davide |last3=Giorgini |first3=Jon D. |last4=Park |first4=Ryan S. |date=2025-12-01 |title=Asteroid Mass Estimation by Mutual Perturbations During Close Encounters After Gaia Focused Product Release |journal=The Astronomical Journal |volume=170 |issue=6 |pages=353 |doi=10.3847/1538-3881/ae0cc9 |issn=0004-6256 |doi-access=free |bibcode=2025AJ....170..353F |s2cid=283347135}}</ref>
+
+}} <!-- end of reflist -->
+
+== External links ==
+{{wiktionary|Pallas}}
+{{Commons}}
+* [https://www.britannica.com/topic/Pallas Pallas] at the ''[[Encyclopædia Britannica]]'', Edward F. Tedesco
+* {{cite web | url = http://www.newsroom.ucla.edu/portal/ucla/first-high-resolution-images-of-111163.aspx | title = Study of first high-resolution images of Pallas confirms asteroid is actually a protoplanet | author=Mona Gable | access-date = 20 October 2009 | publisher=University of California, Los Angeles (UCLA)| archive-url= https://web.archive.org/web/20091015055512/http://newsroom.ucla.edu/portal/ucla/first-high-resolution-images-of-111163.aspx| archive-date= 15 October 2009 <!--DASHBot-->| url-status= live}}
+* {{cite news | url = https://news.bbc.co.uk/2/hi/science/nature/8301796.stm | title = Pallas is 'Peter Pan' space rock | author=Jonathan Amos | access-date = 19 August 2010 | publisher=BBC | date=11 October 2009 | archive-url= https://web.archive.org/web/20100719121845/http://news.bbc.co.uk/2/hi/science/nature/8301796.stm| archive-date= 19 July 2010 <!--DASHBot-->| url-status= live}}
+* {{cite web | url = http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2 | title = 2 Pallas | website = JPL Small-Body Database Browser | access-date = 29 March 2007 }}
+* {{cite web | last=Dunn | first=Tony | date=2006 | url=http://orbitsimulator.com/gravity/articles/ceres.html | title=Ceres, Pallas Vesta and Hygeia | publisher=GravitySimulator.com | access-date=15 March 2007 | archive-url= https://web.archive.org/web/20070313020213/http://orbitsimulator.com/gravity/articles/ceres.html| archive-date= 13 March 2007 <!--DASHBot-->| url-status= live}}
+* {{cite web | last = Hilton | first = James L. | author-link = James L. Hilton | date = 1 April 1999 | url = http://aa.usno.navy.mil/publications/reports/asteroid_ephemerides.html | title = U.S. Naval Observatory Ephemerides of the Largest Asteroids | publisher = U.S. Naval Observatory | access-date = 14 March 2007 | archive-date = 23 July 2011 | archive-url = https://web.archive.org/web/20110723160546/http://aa.usno.navy.mil/publications/reports/asteroid_ephemerides.html }}
+* {{cite journal | author=Tedesco, Edward F. | author2=Noah, Paul V. | author3=Noah, Meg | author4=Price, Stephan D. | title=The Supplemental IRAS Minor Planet Survey | journal=The Astronomical Journal | date=2002 | volume=123 | issue=2 | pages=1056–1085 | bibcode=2002AJ....123.1056T  | doi = 10.1086/338320
+| doi-access=free }}
+* {{AstDys|2}}
+* {{JPL small body}}
+
+{{Minor planets navigator |1 Ceres |number=2 |3 Juno}}{{Solar System}}{{Large asteroids}}
+{{Authority control}}
+
+{{DEFAULTSORT:Pallas}}
+[[Category:1802 in science|18020328]]
+[[Category:Minor planets discovered in 1802|18020328]]
+[[Category:B-type asteroids (SMASS)|000002]]
+[[Category:B-type asteroids (Tholen)|000002]]
+[[Category:Discoveries by Heinrich Olbers]]
+[[Category:Former dwarf planet candidates|000002]]
+[[Category:Named minor planets]]
+[[Category:Objects observed by stellar occultation|000002]]
+[[Category:Pallas asteroids|000002]]

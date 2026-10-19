@@ -1,0 +1,315 @@
+{{Short description|Subdwarf star in the constellation Pictor}}
+{{Starbox begin}}
+{{Starbox image
+| image={{Location map|100x100
+|AlternativeMap=Pictor constellation map.svg
+|caption=
+|width=300
+|lat=83.6| long=67.1
+|position=left|label=Kapteyn's&nbsp;Star
+|float=center
+}}|caption=Location of Kapteyn's Star in the constellation [[Pictor (constellation)|Pictor]]
+}}
+{{Starbox observe
+| epoch    = J2000
+| constell = [[Pictor]]<ref name=constellation/>
+| ra       = {{RA|05|11|40.58984}}<ref name=GaiaDR3/>
+| dec      = {{DEC|-45|01|06.3617}}<ref name=GaiaDR3/>
+| appmag_v = 8.80{{snd}}8.85<ref name=vsx/>
+}}
+{{Starbox character
+| type     = [[main sequence]]<ref name="BortleFausey2021"/>
+| class    = sdM1<ref name="mnras403_4_1949"/> or M1.5V<ref name=Guinan2016/><ref name="aaa505_1_205"/>
+| b-v      = {{val|1.57|0.012}}<ref name=Guinan2016/>
+| u-b      = +1.21<ref name="SIMBAD"/>
+| variable = [[BY Draconis variable|BY Dra]]<ref name="var"/>
+}}
+{{Starbox astrometry
+| radial_v = {{val|245.05|0.13}}<ref name=GaiaDR3/>
+| prop_mo_ra  = {{val|+6491.223|fmt=commas}}
+| prop_mo_dec = {{val|−5708.614|fmt=commas}}
+| pm_footnote = <ref name=GaiaDR3/>
+| parallax = 254.1986
+| p_error  = 0.0168
+| parallax_footnote = <ref name=GaiaDR3/>
+| absmag_v = 10.89<ref name="mnras403_4_1949"/>
+}}
+{{Starbox detail
+ | source      = <ref name=Guinan2016/>
+ | mass        = {{val|0.281|0.014}}
+ | radius      = {{val|0.291|0.025}}
+ | luminosity  = 0.012
+ | gravity     = {{val|4.96|0.13}}
+ | temperature = {{val|3570|80|fmt=commas}}
+ | metal_fe    = {{val|−0.86|0.05}}
+ | rotation    = {{val|124.71|0.19|ul=d}}<ref name="BortleFausey2021"/>
+ | rotational_velocity = ~0.2
+ | age_gyr     = {{val|11.5|0.5|1.5}}
+}}
+{{Starbox catalog
+| names = {{odlist | V=VZ Pictoris | GJ=191 | HD=33793 | CD=-45°1841 | CPD=-44°612 | SAO=217223 | LHS=29 | LTT=2200 | LFT=395 | GCTP=1181 | HIP=24186 }}<ref name="SIMBAD"/>
+}}
+{{Starbox reference
+| Simbad = NAME+Kapteyn's+star
+| NSTED = Kapteyn
+| ARICNS = 00426
+}}
+{{Starbox end}}
+
+'''Kapteyn's Star''' is a [[Stellar classification|class M1]] [[red dwarf|red]] [[subdwarf]] about 12.83 [[light-year]]s (3.93 [[Parsec|parsecs]]) from Earth in the southern [[constellation]] [[Pictor]]; it is the closest [[galactic halo|halo]] star to the [[Solar System]] and [[list of nearest stars|one of the nearest stars]]. With a slightly variable [[apparent magnitude]] of about 8.8, it is visible through [[binoculars]] or a [[telescope]].<ref name="scinews"/>
+
+Its diameter is 30% of the [[Sun]]'s, but its [[luminosity]] just 1.2% that of the [[solar luminosity|Sun]]. It may have once been part of the [[globular cluster]] [[Omega Centauri]], itself the likely core of a dwarf galaxy swallowed up by the [[Milky Way]] in the distant past. The discovery of two planets—Kapteyn b and Kapteyn c—was announced in 2014,<ref name="planets"/> but had a mixed history of rejections and confirmations, until a 2021 study refuted both planets. The "planets" are in fact likely artifacts of the star's rotation and activity.<ref name="BortleFausey2021"/>
+
+==History of observations==
+[[File:Kapteyns-Stern-2010-2022.webm|thumb|left|Proper motion of Kapteyn's Star from 2010–2022 observed by [[Wide-field Infrared Survey Explorer|WISE]]]]
+Attention was first drawn to what is now known as Kapteyn's Star by the Dutch astronomer [[Jacobus Kapteyn]] in 1898.<ref name="an145_9_159"/> Under the name CPD−44 612 it was included in the ''Cape photographic [[Durchmusterung]] for the equinox 1875 (−38 to −52)'' by [[David Gill (astronomer)|David Gill]] and Jacobus Cornelius Kapteyn in 1897.{{r|CPD}} This catalogue was based on Gill's observations from the [[Cape Observatory]] in 1885–1889 and was created in collaboration with Kapteyn. While he was reviewing star charts and photographic plates, Kapteyn noted that a star, previously catalogued in 1873 by [[Benjamin Apthorp Gould|B. A. Gould]] as C.Z. V 243,<ref name="ZCV243"/> seemed to be missing. However, [[Robert T. A. Innes]] found an uncatalogued star about 15 [[arcsecond]]s away from the absent star's position. It became clear that the star had a very high [[proper motion]] of more than 8 arcseconds per year and had moved significantly.
+
+Later, CPD−44 612 came to be referred to as Kapteyn's Star<ref name="kaler"/> although equal credit should be accorded to [[Robert T. A. Innes|Robert Innes]].<ref name="Gill1899"/> At the time of its discovery it had the highest proper motion of any star known, dethroning [[Groombridge 1830]]. In 1916, [[Barnard's Star]] was found to have an even larger proper motion.<ref name="kaler"/><ref name="EEB"/><ref name="Kotoneva"/>
+
+==Characteristics==
+Based upon [[parallax]] measurements, Kapteyn's Star is {{Convert|12.83|ly|pc|abbr=off|lk=on}} from the [[Earth]].<ref name=GaiaDR3/> It came within {{cvt|2.144|pc|ly|1|adj=ri1|order=flip}} of the [[Sun]] about 10,900 years ago and has been moving away since that time.<ref name=Bailer-Jones2015/> Kapteyn's Star is distinctive in a number of regards: it has a high radial velocity,<ref name="kaler"/> orbits the [[Milky Way]] [[retrograde motion|retrograde]],<ref name="Kotoneva"/> and is the nearest-known [[galactic halo|halo]] star to the Sun.<ref name=mnras350_2_575/> It is a member of a [[moving group]] of stars that share a common trajectory through space, named the Kapteyn moving group.<ref name=aj112_2661/> Based upon their [[Abundance of the chemical elements|element abundances]], these stars may once have been members of [[Omega Centauri]], a [[globular cluster]] that is thought to be the remnant of a [[dwarf galaxy]] that merged with the Milky Way. During this process, the stars in the group, including Kapteyn's Star, may have been stripped away as tidal debris.<ref name="Kotoneva"/><ref name="aj139_2_636"/><ref name="ns20091104"/>
+
+Kapteyn's Star is between one quarter and one third the size and mass of the Sun and has a much cooler [[effective temperature]] at about {{val|fmt=commas|3500|ul=K}}, with some disagreement in the exact measurements between different observers.<ref name="Kotoneva"/> The [[stellar classification]] is sdM1,<ref name="mnras403_4_1949"/> which indicates that it is a [[subdwarf]] with a luminosity lower than that of a [[main sequence|main-sequence]] star at the same spectral type of M1. The abundance of elements other than hydrogen and helium, what astronomers term the [[metallicity]], is about 14% of the abundance in the Sun.<ref name="mnras356_3_963"/><ref name="abundance"/> It is a [[variable star]] of the [[BY Draconis variable|BY Draconis type]] with the [[Variable star designation|identifier]] VZ Pictoris. This means that the luminosity of the star changes because of [[stellar magnetic field|magnetic activity]] in the [[chromosphere]] coupled with [[stellar rotation|rotation]] moving the resulting [[star spot]]s into and out of the line of sight with respect to the Earth.<ref name="var"/>
+
+The star has a mass of {{Solar mass|0.27}}, a radius of {{Solar radius|0.29}} and has about 1.2% of the Sun's luminosity. It has an effective temperature of {{val|3570|fmt=commas|ul=K}} and is roughly 11 billion years old.<ref name="planets"/> In comparison, the Sun is about 4.6 billion years old<ref name=Cain_2008b/> and has an effective temperature of {{val|fmt=commas|5,778|u=K}}.<ref name=Cain_2008/> Stars like Kapteyn's Star have the ability to live up to 100–200 billion years, ten to twenty times longer than the Sun will live.<ref name="Adams2004"/>
+
+==Search for planets==
+In 2014, Kapteyn's Star was announced to host two planets, Kapteyn b and Kapteyn c, based on [[Doppler spectroscopy]] observations by the [[HARPS]] spectrometer which is housed at the European Southern Observatory's [[La Silla Observatory]] in [[Chile]], at the [[Keck Observatory]] in Hawaii, and at the [[PFS Observatory]], also in Chile.<ref name="SP-20140603"/> Kapteyn b was described as the oldest-known potentially [[habitable planet]], estimated to be 11 billion years old,<ref name="planets"/> while Kapteyn c was described as beyond the host star's [[habitable zone]].<ref name=Dickinson_2014/><ref>[https://web.archive.org/web/20000816230231/http://www.solstation.com/stars/kapteyns.htm  Kapteyn's Star] at SolStations.com.</ref><ref name="planets"/> {{Anchor|In fiction}}The announcement of the planetary system was accompanied by a science-fiction short-story, "Sad Kapteyn", written by writer [[Alastair Reynolds]].<ref name="sadkapteyn"/>
+
+However, subsequent research by Robertson et al. (2015) found that the orbital period of Kapteyn b is an integer fraction (1/3) of their estimated stellar rotation period, and thus the planetary signal is most likely an artifact of stellar activity. The authors did not rule out the existence of Kapteyn c, calling for further observation.<ref name=Robertson2015/> This refutation was questioned by the team that published the exoplanet discovery paper.<ref name="Anglada-Escudé_et_al_2016"/> Guinan et al. (2016) (as well as earlier authors) found a lower value for the stellar rotation, which lent support to the original planetary finding.<ref name=Guinan2016/>
+
+In 2021, a new analysis found no evidence for either planet, and found that the observed [[Doppler spectroscopy|radial velocity]] signals are in fact artifacts of the star's rotation and activity, after the rotational period of the star was refined, with a rotational period very similar to that of candidate c.<ref name="BortleFausey2021"/> There is currently no evidence for planets orbiting Kapteyn's Star.
+
+{{gallery|mode=packed|height=184|align=center
+|File:Kapteyn2.jpg|[[Jacobus Kapteyn|Jacobus Cornelius Kapteyn]], the Dutch astronomer who discovered Kapteyn's Star
+|File:VZPicLightCurve.png|A [[Photometric system#Photometric letters|visual band]] [[light curve]] for VZ Pictoris<ref name=Guinan2016/> The red curve shows the [[sine]] function that [[Least squares|best fits]] the data.
+|File:Kapteyn's Star Comparison.jpg|Comparison with Sun, Jupiter and Earth
+}}
+
+==See also==
+* [[Stars named after people]]
+
+==References==
+<references>
+<ref name=GaiaDR3>{{Cite Gaia DR3|4810594479418041856}}</ref>
+
+<ref name=constellation>{{cite constellation|HD 33793}}</ref>
+
+<ref name=vsx>{{cite web |url=https://vsx.aavso.org/index.php?view=detail.top&oid=26377 |title=VZ Pic |website=International Variable Star Index |publisher=[[AAVSO]] |access-date=2025-07-16 }}</ref>
+
+<ref name=Bailer-Jones2015>{{citation | title=Close encounters of the stellar kind | last1=Bailer-Jones | first1=C. A. L. | journal=Astronomy & Astrophysics | volume=575 | id=A35 | pages=13 | date=March 2015 | doi=10.1051/0004-6361/201425221 | doi-access=free | bibcode=2015A&A...575A..35B | postscript=. | arxiv = 1412.3648 | s2cid=59039482 }}</ref>
+
+<ref name="SIMBAD">{{citation | postscript=. | url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=NAME+Kapteyn%27s+star | title=V* VZ Pic -- Variable Star | work=SIMBAD | publisher=[[Centre de Données astronomiques de Strasbourg]] | access-date=2009-10-14 | archive-url=https://web.archive.org/web/20160303232553/http://simbad.u-strasbg.fr/simbad/sim-id?Ident=NAME+Kapteyn%27s+star | archive-date=2016-03-03 | url-status=live }}.</ref>
+
+<ref name="an145_9_159">{{citation | postscript=. | last=Kapteyn | first=J. C. | author-link=Jacobus Kapteyn | title=Stern mit grösster bislang bekannter Eigenbewegung | year=1898 | journal=Astronomische Nachrichten | volume=145 | issue=9–10 | pages=159–160 | doi=10.1002/asna.18981450906 | bibcode=1897AN....145..159K | url=https://zenodo.org/record/1424761 }}.</ref>
+
+<ref name="EEB">{{citation | postscript=. | first=E. E. | last=Barnard | author-link=Edward Emerson Barnard | year=1916 | title=A small star with large proper motion | journal=Astronomical Journal | volume=29 | issue=695 | page=181 | bibcode = 1916AJ.....29..181B | doi = 10.1086/104156 }}.</ref>
+
+<ref name="var">{{citation | postscript=. | url=http://www.sai.msu.su/gcvs/cgi-bin/search2.cgi?search=VZ+Pic | title=VZ Pic | work=[[General Catalogue of Variable Stars]], [[Sternberg Astronomical Institute]], Moscow, Russia | access-date=2025-07-16 }}</ref>
+
+<ref name="Kotoneva">{{citation | postscript=. | display-authors=1 | first1=E. | last1=Kotoneva | first2=K. | last2=Innanen | first3=P. C. | last3=Dawson | first4=P. R. | last4=Wood | first5=M. M. | last5=De Robertis | title=A study of Kapteyn's star | year=2005 | journal=Astronomy & Astrophysics | volume=438 | pages=957–962 | doi=10.1051/0004-6361:20042287 | bibcode=2005A&A...438..957K | issue=3 | doi-access=free }}.</ref>
+
+<ref name="ns20091104">{{citation | postscript=. | url=https://www.newscientist.com/article/mg20427334.100-backward-star-aint-from-round-here.html | title=Backward star ain't from round here | journal=[[New Scientist]] | date=November 4, 2009 | access-date=September 2, 2017 | archive-url=https://web.archive.org/web/20150525093255/http://www.newscientist.com/article/mg20427334.100-backward-star-aint-from-round-here.html | archive-date=May 25, 2015 | url-status=live }}</ref>
+
+<ref name="mnras350_2_575">{{citation | postscript=. | doi=10.1111/j.1365-2966.2004.07671.x | title=Chemical abundance analysis of Kapteyn's Star | last1=Woolf | first1=V. M. | last2=Wallerstein | first2=G. | author2-link=George Wallerstein | journal=[[Monthly Notices of the Royal Astronomical Society]] | volume=350 | issue=2 | pages=575–579 | year=2004 | bibcode=2004MNRAS.350..575W | s2cid=15907478 | doi-access=free }}.</ref>
+
+<ref name="kaler">{{citation | postscript=. | contribution=Kapteyn's Star | pages=108–109 | title=The Hundred Greatest Stars | first=James B. | last=Kaler | publisher=Copernicus Books | year=2002 }}</ref>
+
+<ref name="aj112_2661">{{citation | postscript=. | last=Eggen | first=O. J. | author-link=Olin J. Eggen | title=The Ross 451 Group of Halo Stars | journal=Astronomical Journal | volume=112 | page=2661 |date=December 1996 | bibcode=1996AJ....112.2661E |doi = 10.1086/118210 }}</ref>
+
+<ref name="aj139_2_636">{{citation | postscript=. | last1=Wylie-de Boer | first1=Elizabeth | last2=Freeman | first2=Ken | last3=Williams | first3=Mary | title=Evidence of Tidal Debris from ω Cen in the Kapteyn Group | journal=The Astronomical Journal | volume=139 | issue=2 | pages=636–645 |date=February 2010 | doi=10.1088/0004-6256/139/2/636 | bibcode=2010AJ....139..636W |arxiv = 0910.3735 | s2cid=119217292 }}</ref>
+
+<ref name="mnras403_4_1949">{{citation | postscript=. | display-authors=1 | last1=Koen | first1=C. | last2=Kilkenny | first2=D. | last3=van Wyk | first3=F. | last4=Marang | first4=F. | title=UBV(RI)<sub>C</sub> JHK observations of Hipparcos-selected nearby stars | journal=Monthly Notices of the Royal Astronomical Society | volume=403 | issue=4 | pages=1949–1968 |date=April 2010 | doi=10.1111/j.1365-2966.2009.16182.x | bibcode=2010MNRAS.403.1949K | doi-access=free | hdl=10566/813 | hdl-access=free }}</ref>
+
+<ref name="mnras356_3_963">{{citation | postscript=. | last1=Woolf | first1=Vincent M. | last2=Wallerstein | first2=George | title=Metallicity measurements using atomic lines in M and K dwarf stars | journal=Monthly Notices of the Royal Astronomical Society | volume=356 | issue=3 | pages=963–968 |date=January 2005 | doi=10.1111/j.1365-2966.2004.08515.x | doi-access=free | bibcode=2005MNRAS.356..963W |arxiv = astro-ph/0410452 | s2cid=15664454 }}</ref>
+
+<ref name="abundance">The abundance is given by taking the metallicity to the power of 10. From Woolf and Wallerstein (2005), [M/H] ≈ –0.86 dex. Thus:
+: 10<sup>−0.86</sup> = 0.138</ref>
+
+<ref name="aaa505_1_205">{{citation | postscript=.
+ | title=Mass-radius relation of low and very low-mass stars revisited with the VLTI
+ | journal=Astronomy and Astrophysics | volume=505 | issue=1
+ | date=October 2009 | pages=205–215
+ | doi=10.1051/0004-6361/200911976
+ | bibcode=2009A&A...505..205D |arxiv = 0906.0602
+ |last1=Demory |first1=Brice-Olivier
+ |last2=Ségransan |first2=Damien
+ |last3=Forveille |first3=Thierry
+ |last4=Queloz |first4=Didier
+ |last5=Beuzit |first5=Jean-Luc
+ |last6=Delfosse |first6=Xavier
+ |last7=Di Folco |first7=Emmanuel
+ |last8=Kervella |first8=Pierre
+ |last9=Le Bouquin |first9=Jean-Baptiste
+ |last10=Perrier |first10=Christian
+ |last11=Benisty |first11=Myriam
+ |last12=Duvert |first12=Gilles
+ |last13=Hofmann |first13=Karl-Heinz
+ |last14=Lopez |first14=Bruno
+ |last15=Petrov |first15=Romain
+ | doi-access=free
+ |s2cid=14786643
+ }}</ref>
+
+<ref name="planets">{{citation | postscript=.
+ | title=Two planets around Kapteyn's star : a cold and a temperate super-Earth orbiting the nearest halo red-dwarf
+ | display-authors=1 | first1=Guillem | last1=Anglada-Escudé | first2=Pamela | last2=Arriagada
+ | first3=Mikko | last3=Tuomi | first4=Mathias | last4=Zechmeister
+ | journal=Monthly Notices of the Royal Astronomical Society: Letters
+ | volume=443 |pages=L89–L93 | year=2014
+ | arxiv=1406.0818 | bibcode = 2014MNRAS.443L..89A
+ | doi = 10.1093/mnrasl/slu076 | doi-access=free
+ | s2cid=67807856
+}}<!-- Only the first author will be shown. The first four authors are kept so that harv linking is correct; the many remaining authors are deliberately omitted. --></ref>
+
+<ref name="sadkapteyn">{{citation | postscript=.
+ | title=Sad Kapteyn | date=Jun 4, 2014
+ | work=Science fiction story released with the announcement of planetary system
+ | url=http://ph.qmul.ac.uk/sad-kapteyn
+ | access-date=2014-06-04
+ | archive-url=https://web.archive.org/web/20140606234251/http://ph.qmul.ac.uk/sad-kapteyn
+ | archive-date=June 6, 2014 | url-status=live }}</ref>
+
+<ref name="CPD">{{citation | postscript=.
+ | title=Dictionary of Nomenclature of Celestial Objects
+ | url=http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?CPD
+ | archive-url=https://web.archive.org/web/20150925144116/http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?CPD
+ | date=2015-09-25 | archive-date=2015-09-25
+ | work=SIMBAD | publisher=Centre de Données astronomiques de Strasbourg }}</ref>
+
+<ref name="Gill1899">{{citation | postscript=.
+ | title=On the Discovery of a Certain Proper Motion
+ | last=Gill | first=D.
+ | journal=The Observatory
+ | date=1899 | pages=99–101 }}</ref>
+
+<ref name="ZCV243">{{citation | postscript=.
+ | bibcode=1884RNAO....7...96.
+ | title=Resultados del Observatorio Nacional Argentino
+ | date=1884
+ | volume=7 | page=98 }}</ref>
+
+<ref name="scinews">{{citation | postscript=.
+ | url=http://www.sci-news.com/astronomy/science-kapteyn-b-c-two-exoplanets-kapteyns-star-01965.html
+ | title=Kapteyn b and c: Two Exoplanets Found Orbiting Kapteyn's Star
+ | publisher=Sci-News | access-date=23 July 2014
+ | archive-url=https://web.archive.org/web/20140803022339/http://www.sci-news.com/astronomy/science-kapteyn-b-c-two-exoplanets-kapteyns-star-01965.html
+ | archive-date=3 August 2014 | url-status=live }}</ref>
+
+<ref name=Robertson2015>{{citation
+ | title=Stellar activity mimics a habitable-zone planet around Kapteyn's star
+ | last1=Robertson | first1=Paul | last2=Roy | first2=Arpita
+ | author3-link=Suvrath Mahadevan | last3=Mahadevan | first3=Suvrath
+ | journal=The Astrophysical Journal Letters
+ | volume=805 | issue=2 | id=L22 | pages=6 | date=June 2015
+ | doi=10.1088/2041-8205/805/2/L22 | bibcode=2015ApJ...805L..22R
+ | arxiv=1505.02778 | s2cid=117871083 | postscript=. }}</ref>
+
+<ref name=Guinan2016>{{citation
+ | title=Living with a Red Dwarf: Rotation and X-Ray and Ultraviolet Properties of the Halo Population Kapteyn's Star
+ | last1=Guinan | first1=Edward F. | last2=Engle | first2=Scott G. | last3=Durbin | first3=Allyn
+ | journal=The Astrophysical Journal
+ | volume=821 | issue=2 | id=81 | pages=14 | date=April 2016
+ | doi=10.3847/0004-637X/821/2/81 | bibcode= 2016ApJ...821...81G
+ | arxiv=1602.01912 | s2cid=119283541 | postscript=. | doi-access=free }}</ref>
+
+<ref name="BortleFausey2021">{{citation | postscript=.
+ | title=A Gaussian Process Regression Reveals No Evidence for Planets Orbiting Kapteyn's Star
+ | last1=Bortle | first1=Anna | last2=Fausey | first2=Hallie
+ | last3=Ji | first3=Jinbiao | last4=Dodson-Robinson | first4=Sarah
+ | last5=Ramirez Delgado | first5=Victor | last6=Gizis | first6=John
+ | display-authors=1 | journal=The Astronomical Journal
+ | volume=161 | issue=5 | year=2021 | pages=230
+ | arxiv=2103.02709 | doi=10.3847/1538-3881/abec89
+ | bibcode=2021AJ....161..230B | s2cid=232110395 | doi-access=free }}</ref>
+
+<ref name="SP-20140603">{{citation | postscript=.
+ | last=Wall | first=Mike
+ | title=Found! Oldest Known Alien Planet That Might Support Life
+ | url=http://www.space.com/26115-oldest-habitable-alien-planet-kapteyn-b.html
+ | date=3 June 2014 | work=[[Space.com]]
+ | access-date=10 January 2015 }}</ref>
+
+<ref name="Adams2004">{{citation | postscript=.
+ | title=Red Dwarfs and the End of the Main Sequence
+ | last1=Adams | first1=Fred C.
+ | last2=Laughlin | first2=Gregory | last3=Graves | first3=Genevieve J. M.
+ | work=Gravitational Collapse: From Massive Stars to Planets
+ | date=2004
+ | volume=22
+ | pages=46–49
+ | publisher=Revista Mexicana de Astronomía y Astrofísica
+ | bibcode=2004RMxAC..22...46A
+}}</ref>
+
+<ref name="Anglada-Escudé_et_al_2016">{{citation | postscript=.
+ | title=No Evidence for Activity Correlations in the Radial Velocities of Kapteyn's Star
+ | last1=Anglada-Escudé | first1=G. | last2=Tuomi | first2=M.
+ | last3=Arriagada | first3=P. | last4=Zechmeister | first4=M.
+ | last5=Jenkins | first5=J. S. | last6=Ofir | first6=A.
+ | last7=Dreizler | first7=S. | last8=E. Gerlach | last9=Marvin | first9=C. J.
+ | url=http://stacks.iop.org/0004-637X/830/i=2/a=74
+ | journal=The Astrophysical Journal|language=en
+ | volume=830 | issue=2 | pages=74 | date=2016
+ | doi=10.3847/0004-637X/830/2/74 | issn=0004-637X
+ | bibcode=2016ApJ...830...74A | arxiv=1506.09072
+ | hdl=2299/17695 | s2cid=14348277 | doi-access=free }}</ref>
+
+<ref name=Cain_2008>{{citation | postscript=.
+ | last=Cain|first=Fraser|date=September 15, 2008
+ | title=Temperature of the Sun
+ | url=http://www.universetoday.com/18092/temperature-of-the-sun/
+ | url-status=dead | access-date=19 February 2011
+ | publisher=Universe Today
+ | archive-date=29 August 2010
+ | archive-url=https://web.archive.org/web/20100829025937/http://www.universetoday.com/18092/temperature-of-the-sun/}}</ref>
+
+<ref name=Cain_2008b>{{citation | postscript=.
+ | last=Cain | first=Fraser
+ | date=16 September 2008
+ | title=How Old is the Sun?
+ | publisher=[[Universe Today]]
+ | url=http://www.universetoday.com/18237/how-old-is-the-sun/|url-status=dead
+ | access-date=19 February 2011 | archive-date=18 August 2010
+ | archive-url=https://web.archive.org/web/20100818191941/http://www.universetoday.com/18237/how-old-is-the-sun/}}</ref>
+
+<ref name=Dickinson_2014>{{citation | postscript=.
+ | first=David | last=Dickinson
+ | url=http://www.universetoday.com/112363/discovered-two-new-planets-for-kapteyns-star/
+ | title=Discovered: Two New Planets for Kapteyn's Star
+ | work=Universe Today
+ | date=June 4, 2014 }}</ref>
+</references>
+
+==Further reading==
+{{refbegin}}
+*{{citation|title=Note on the magnitude and spectrum of Kapteyn's star|last=Luyten|first=W. J.|author-link=Willem Jacob Luyten|journal=Harvard College Observatory Bulletin|volume=843|pages=3–4|year=1927|bibcode=1927BHarO.843....3L}}.
+*{{citation|title=The spectrum and colors of Kapteyn's star|last=MacConnell|first=D. J.|journal=Bulletin of the American Astronomical Society|volume=5|page=346|year=1973|bibcode=1973BAAS....5..346M}}.
+*{{citation|contribution=Kapteyn's Star|editor-last=Murdin|editor-first=Paul|title=Encyclopedia of Astronomy and Astrophysics|location=Bristol|publisher=Institute of Physics Publishing|year=2001|doi=10.1888/0333750888/5156|isbn=0-333-75088-8 }}.
+*{{citation|title=The Making of History's Greatest Star Map|last=Perryman|first=Michael|location=Heidelberg|publisher=Springer-Verlag|year=2010|doi=10.1007/978-3-642-11602-5|series=Astronomers' Universe|isbn=978-3-642-11601-8|url=https://cds.cern.ch/record/1338896|bibcode=2010mhgs.book.....P}}.
+*{{citation|doi=10.1086/154263|title=The temperature, luminosity, and spectrum of Kapteyn's star|last1=Wing|first1=R. F.|last2=Dean|first2=C. A.|last3=MacConnell|first3=D. J.|journal=The Astrophysical Journal|volume=205|pages=186–193|year=1976|bibcode=1976ApJ...205..186W}}.
+
+{{refend}}
+
+==External links==
+* [https://web.archive.org/web/20000816230231/http://www.solstation.com/stars/kapteyns.htm SolStation.com: Kapteyn's Star]
+* [http://ph.qmul.ac.uk/news/ancient-worlds-around-kapteyns-star Press release on planetary system]
+{{Sky|05|11|41|-|45|01|06|13}}
+{{nearest systems|2}}
+{{Stars of Pictor}}
+
+{{Authority control}}
+[[Category:M-type main-sequence stars]]
+[[Category:M-type subdwarfs]]
+[[Category:BY Draconis variables]]
+[[Category:Local Bubble]]
+[[Category:Candidate planetary systems]]
+[[Category:Pictor]]
+[[Category:Durchmusterung objects|CD-45 01841]]
+[[Category:Gliese and GJ objects|0191]]
+[[Category:Henry Draper Catalogue objects|033793]]
+[[Category:Hipparcos objects|024186]]
+[[Category:Objects with variable star designations|Pictoris, VZ]]
+[[Category:Discoveries by Robert T. A. Innes]]
+[[Category:Stars with proper names]]
+[[Category:Population II stars]]

@@ -1,0 +1,691 @@
+{{Short description|Brightest star in the constellation Lyra}}
+{{redirect|Star Vega|the psychologist|Star Vega (psychologist)||Vega (disambiguation)}}
+{{Featured article}}
+{{Use mdy dates|date=July 2022}}
+{{Starbox begin}}
+{{Starbox image
+ | image=
+   {{Location mark
+ | image=Lyra constellation map.svg {{!}} class=skin-invert-image
+ | float=center | width=220 | position=right
+ | mark=Red circle.svg | mark_width=15 | mark_link=Vega (star)
+ | x%=61.2 | y%=42.8
+ }}
+ | caption=Location of Vega (circled)
+}}
+{{Starbox observe
+| epoch=[[J2000.0]]
+| constell=[[Lyra]]
+| pronounce={{IPAc-en|'|v|iː|g|@}}<ref>{{OED|Vega}}</ref><ref name=MW>{{MW|Vega}}</ref><ref name=Kunitzsch/> or {{IPAc-en|'|v|ei|g|@}}<ref name=MW/>
+| ra={{RA|18|36|56.33635}}<ref name=aaa474_2_653/>
+| dec={{DEC|+38|47|01.2802}}<ref name=aaa474_2_653/>
+| appmag_v=+0.026<ref name=bohlin/> (−0.02{{snd}}+0.07)<ref name=gcvs/>
+}}
+{{Starbox character
+| type=[[Main sequence]]<ref name=zorec2012/>
+| class=A0Va<ref name=gray2003/>
+| b-v=0.00<ref name=ducati/>
+| u-b=0.00<ref name=ducati/>
+| variable=[[Delta Scuti variable|Delta Scuti]]<ref name=gcvs/>
+}}
+{{Starbox astrometry
+| radial_v=−13.9{{±|0.9}}<ref name=rgcrv1966/>
+| prop_mo_ra=200.94<ref name=aaa474_2_653/>
+| prop_mo_dec=286.23<ref name=aaa474_2_653/>
+| parallax=130.23
+| p_error=0.36
+| parallax_footnote=<ref name=aaa474_2_653/>
+| absmag_v=+0.582<ref name="Gatewood2008"/>
+}}
+{{Starbox detail
+| mass={{val|2.15|0.10|0.15}}<ref name=monnier2012/>
+| radius={{val|2.726|0.006}} (equatorial), {{val|2.418|0.008}} (polar)<ref name=monnier2012/>
+| axis inclination = 4.975{{±|0.081}}<ref name=apj708_1_71/>
+| rotational_velocity={{val|21.3|0.2}}<ref name=monnier2012/>
+| rotation={{val|16.3|ul=hours}}<ref name=petit2022/>
+| luminosity={{val|47.2|0.2}}<ref name=monnier2012/>
+| temperature={{val|10070|90|fmt=commas}} (polar), {{val|8910|130|fmt=commas}} (equatorial)<ref name=monnier2012/>
+| age_myr={{val|700|150|75}}<ref name=monnier2012/>
+| metal_fe=−0.5<ref name=aaa391_3_1039/>
+| gravity=4.1{{±|0.1}}<ref name=apj645_1_664/>
+}}
+{{Starbox catalog
+| names = {{odlist | name=Wega<ref name=allen1963/> | name2=Lucida&nbsp;Lyrae<ref name="kendall1845"/> | B=Alpha&nbsp;Lyrae, α&nbsp;Lyrae | F=3&nbsp;Lyrae | BD=+38°3238 | GCTP=4293.00 | HD=172167 | GJ=721 | HIP=91262 | HR=7001 | LTT=15486 | SAO=67174 }}<ref name=SIMBAD/>
+}}
+{{Starbox reference
+|Simbad=Vega
+}}
+{{Starbox end}}
+
+'''Vega''' is the brightest star in the northern constellation of [[Lyra]]. It has the [[Bayer designation]] '''α Lyrae''', which is [[Latinisation of names|Latinised]] to '''Alpha Lyrae''' and abbreviated '''Alpha Lyr''' or '''α Lyr'''. This star is [[List of star systems within 25–30 light-years|relatively close]] to the [[Solar System]], at only {{convert|25|ly|pc|abbr=off|lk=on}} from the Sun, and one of the most luminous stars in the [[solar neighborhood|Sun's neighborhood]], being intrinsically brighter than any star nearer to the Sun. It is the [[list of brightest stars|fifth-brightest star]] in the [[night sky]], and the second-brightest star in the [[northern celestial hemisphere]], after [[Arcturus]].
+
+Vega has been extensively studied by astronomers, leading it to be termed "arguably the next most important star in the sky after the Sun".<ref name=apj429_2_L81/> Vega was the northern [[pole star]] around 12000 BCE and will be so again around the year 13724, when its [[declination]] will be {{Dec|+84|14}}, less than six degrees from the Pole.<ref name=stellarium/> Vega was the first star other than the Sun to have its image and [[Astronomical spectroscopy|spectrum]] photographed.<ref name=barger_white2000/><ref name=paps24_166/> It was one of the first stars whose distance was estimated through [[parallax]] measurements. Vega has functioned as the baseline for calibrating the [[Photometry (astronomy)|photometric]] brightness scale and was one of the stars used to define the [[Zero Point (photometry)|zero point]] for the [[UBV photometric system]].
+
+Vega is only about a tenth of the age of the Sun, but since it is 2.1 times as massive, its expected lifetime is also one tenth of that of the Sun; both stars are at present approaching the midpoint of their [[main sequence]] lifetimes. Compared with the Sun, Vega has a lower abundance of [[metallicity|elements heavier than helium]].<ref name=aaa391_3_1039/> Vega is also a [[variable star]]—that is, a star whose brightness fluctuates. It is [[stellar rotation|rotating]] rapidly with a speed of {{val|236|u=km/s}} at the equator. This causes the equator to bulge outward due to [[Centrifugal force|centrifugal]] effects, and, as a result, there is a variation of temperature across the star's [[photosphere]] that reaches a maximum at the poles. From Earth, Vega is observed from the direction of one of these poles.<ref name=nature440_7086_896/>
+
+Based on observations of more [[infrared]] radiation than expected, Vega appears to have a [[circumstellar disk]] of [[Cosmic dust|dust]]. This dust is likely to be the result of collisions between objects in an orbiting [[debris disk]], which is analogous to the [[Kuiper belt]] in the [[Solar System]].<ref name=apj628_1_487/> Stars that display an infrared excess due to dust emission are termed Vega-like stars.<ref name=apj124_1_514/> Observations by the [[James Webb Space Telescope]] show that the disk is exceptionally smooth, with no evidence of shaping by massive planets,<ref name=Su2024/> though there is some evidence that there may be one or more Neptune-mass planets closer to the star.<ref name="Hurt2021"/><ref name=Su2024/>
+
+==Nomenclature==
+
+''[[α]] Lyrae'' ([[Latinisation of names|Latinised]] to ''Alpha Lyrae'') is the star's [[Bayer designation]]. The traditional name ''Vega'' (earlier ''Wega'')<ref name=allen1963/> comes from a loose transliteration of the [[Arabic]] word ''{{transliteration|ar|wāqi'}}'' ([[Arabic]]: <big>واقع</big>) meaning "falling" or "landing", via the phrase ''{{transliteration|ar|an-nasr al-wāqi'}}'' ([[Arabic]]: <big>النّسر الْواقع</big>), "the falling eagle".<ref name=glasse2008/> In 2016, the [[International Astronomical Union]] (IAU) organized a [[Working Group on Star Names]] (WGSN)<ref name="WGSN"/> to catalog and standardize proper names for stars. The WGSN's first bulletin of July 2016<ref name="WGSN1"/> included a table of the first two batches of names approved by the WGSN; which included ''Vega'' for this star. It is now so entered in the [[IAU Working Group on Star Names|IAU Catalog of Star Names]].<ref name="IAU-CSN"/>
+
+{{gallery|mode=packed
+|LyraCC.jpg|Vega is the brightest star in the constellation of [[Lyra]].
+}}
+
+==Observation==
+[[File:Path of Vega at winter solstice.png|thumb|Path of Vega over winter solstice, as seen from 51°&nbsp;N]]
+[[File:Precession N.gif|thumb|upright=1.1|Due to [[axial precession]], the north celestial pole changes over a cycle of about 26,000 years. Vega is the bright star near the bottom.]]
+
+Vega can often be seen near the [[zenith]] in the mid-northern [[latitude]]s during the evening in the [[Northern Hemisphere]] summer.<ref name=pasachoff2000/> From mid-southern latitudes, it can be seen low above the northern horizon during the [[Southern Hemisphere]] winter. With a [[declination]] of +38.78°, Vega can only be viewed at latitudes north of [[51st parallel south|51°&nbsp;S]] (51° being its approximate distance from the north celestial pole.<ref name=burnham1978/> Therefore, it does not rise at all anywhere in [[Antarctica]] or in the southernmost part of South America, including [[Punta Arenas]], [[Chile]] (53° S). At latitudes to the north of [[51st parallel north|51°&nbsp;N]], Vega remains continuously above the horizon as a [[circumpolar star]]; around July 1, Vega reaches midnight [[culmination]] when it crosses the [[Meridian (astronomy)|meridian]] at that time. Complementarily, from 51°&nbsp;N, Vega swoops down and kisses the horizon at true North at midnight around winter solstice.
+
+Each night the positions of the stars appear to change as the Earth rotates. However, when a star is located along the Earth's axis of rotation, it will remain in the same position and thus is called a [[pole star]]. The direction of the Earth's axis of rotation gradually changes over time in a process known as the [[precession of the equinoxes]]. A complete precession cycle requires 25,770&nbsp;years,<ref name=chaikin1990/> during which time the pole of the Earth's rotation follows a circular path across the [[celestial sphere]] that passes near several prominent stars. At present the pole star is [[Polaris]], but around 12,000 BCE the pole was pointed only 4.5 degrees away from Vega.<ref name=burnham1978/> Through precession, the pole will again pass near Vega around 14,000 CE.<ref name=roy_clarke2003/> Vega is the brightest of the successive northern pole stars.<ref name="allen1963"/> In 210,000 years, Vega will become [[historical brightest stars|the brightest star]] in the night sky,<ref name=tomkin1998/> and will peak in brightness in 290,000 years with an [[apparent magnitude]] of –0.81.<ref name=tomkin1998/>
+
+[[File:Summer triangle.png|thumb|upright=1.2|Vega (top) in the [[Summer Triangle]]]]
+
+This star lies at a [[Vertex (geometry)|vertex]] of a widely spaced [[Asterism (astronomy)|asterism]] called the [[Summer Triangle]], which consists of Vega plus the two first-magnitude stars [[Altair]], in [[Aquila (constellation)|Aquila]], and [[Deneb]] in [[Cygnus (constellation)|Cygnus]].<ref name=pasachoff2000/> This formation is the approximate shape of a [[right triangle]], with Vega located at its right angle. The Summer Triangle is recognizable in the northern skies because there are few other bright stars in its vicinity.<ref name=upgren1998/>
+
+==Observational history==
+[[File:The first image of Vega.jpg|thumb|upright=1.2|"On the night of July 16–17, 1850, [[John Adams Whipple|Whipple]] and [[William Cranch Bond|Bond]] made the first [[daguerreotype]] of a star (Vega)"{{Attribution needed|date=October 2026}}]]
+
+[[Astrophotography]], the photography of celestial objects, began in 1840 when [[John William Draper]] captured an image of the [[Moon]] using the [[daguerreotype]] process. On 17 July 1850, Vega became the first star (other than the Sun) to be photographed, when it was imaged by [[William Cranch Bond|William Bond]] and [[John Adams Whipple]] at the [[Harvard College Observatory]], also with a daguerreotype.<ref name=allen1963/><ref name=barger_white2000/><ref name=pasp2_10_249/> In August 1872, [[Henry Draper]] took a photograph of Vega's [[Astronomical spectroscopy|spectrum]], the first photograph of a star's spectrum showing absorption lines.<ref name=paps24_166/> Similar lines had already been identified in the spectrum of the Sun.<ref name=aip/> In 1879, [[William Huggins]] used photographs of the spectra of Vega and similar stars to identify a set of twelve "very strong lines" that were common to this stellar category. These were later identified as lines from the Hydrogen [[Balmer series]].<ref name=klaus2002/> Since 1943, the [[stellar spectrum|spectrum]] of this star has served as one of the stable anchor points by which other stars are classified.<ref name=baas25_1319/>
+
+The distance to Vega can be determined by measuring its parallax shift against the background stars as the [[Earth]] orbits the Sun. [[Giuseppe Calandrelli]] noted stellar parallax in 1805-6 and came up with a 4-second value for the star which was a gross overestimate.<ref name=gore1904>{{cite book | author=Gore, J.E. | url=https://archive.org/details/studiesinastrono00gorerich/page/42/mode/1up | title=Studies in astronomy |publisher=Chatto & Windus |year=1904 |place=London |page=42}}</ref>  The first person to publish a star's parallax was [[Friedrich Georg Wilhelm von Struve|Friedrich G. W. von Struve]], when he announced a value of 0.125 arcsecond ({{val|0.125|u="}}) for Vega.<ref name=berry1899/> [[Friedrich Bessel]] was skeptical about Struve's data, and, when Bessel published a parallax of 0.314″ for the star system [[61 Cygni]], Struve revised his value for Vega's parallax to nearly double the original estimate. This change cast further doubt on Struve's data. Thus most astronomers at the time, including Struve, credited Bessel with the first published parallax result. However, Struve's initial result was actually close to the currently accepted value of 0.129″,<ref name=debarbat1988/><ref name=astroprof/> as determined by the ''[[Hipparcos]]'' [[astrometry]] satellite.<ref name=aaa474_2_653/><ref name=aaa323_L49/><ref name=GSM/>
+
+The brightness of a star, as seen from Earth, is measured with a standardized, [[logarithmic scale]]. This [[apparent magnitude]] is a numerical value that decreases in value with increasing brightness of the star. The faintest stars visible to the unaided eye are sixth magnitude, while the brightest in the night sky, [[Sirius]], is of magnitude −1.46. To standardize the magnitude scale, astronomers chose Vega and several similar stars and averaged their brightness to represent magnitude zero at all wavelengths. Thus, for many years, Vega was used as a baseline for the calibration of absolute [[photometry (astronomy)|photometric]] brightness scales.<ref name=garfinkle1997/> However, this is no longer the case, as the apparent magnitude zero point is now commonly defined in terms of a particular numerically specified [[flux]]. This approach is more convenient for astronomers, since Vega is not always available for calibration and varies in brightness.<ref name=ajss45_83/>
+
+The [[UBV photometric system]] measures the magnitude of stars through [[ultraviolet]], blue and yellow filters, producing ''U'', ''B'' and ''V'' values, respectively. Vega is one of six [[A-type main-sequence star|A0V stars]] that were used to set the initial mean values for this photometric system when it was introduced in the 1950s. The mean magnitudes for these six stars were defined as: {{nowrap|''U'' − ''B''}} = {{nowrap|''B'' − ''V''}} =&nbsp;0. In effect, the magnitude scale has been calibrated so that the magnitude of these stars is the same in the yellow, blue and ultraviolet parts of the [[electromagnetic spectrum]].<ref name=apj117_313/> Thus, Vega has a relatively flat electromagnetic spectrum in the visual region—wavelength range 350–850 [[nanometer]]s, most of which can be seen with the human eye—so the flux densities are roughly equal; 2,000–{{val|4000|fmt=commas|u=[[Jansky|Jy]]}}.<ref name=eso20020306/> However, the flux density of Vega drops rapidly in the [[infrared]], and is near {{val|100|u=Jy}} at {{val|5|ul=micrometers}}.<ref name=mcmahon2005/>
+
+[[File:Star-Vega.png|thumb|upright|Photograph of Vega captured in March 2025]]
+Photometric measurements of Vega during the 1930s appeared to show that the star had a low-magnitude variability on the order of ±0.03 magnitude (around ±2.8%<ref group=note name=deltaLum/> luminosity). This range of variability was near the limits of observational capability for that time, and so the subject of Vega's variability has been controversial. The magnitude of Vega was measured again in 1981 at the [[David Dunlap Observatory]] and showed some slight variability. Thus it was suggested that Vega showed occasional low-amplitude pulsations associated with a [[Delta Scuti variable]].<ref name=asp93_2_333/> This is a category of stars that oscillate in a coherent manner, resulting in periodic pulsations in the star's luminosity.<ref name=araa33_1_75/> Although Vega fits the physical profile for this type of variable, other observers have found no such variation. Thus the variability was thought to possibly be the result of systematic errors in measurement.<ref name=merezhin/><ref name=hayes1984/> However, a 2007 article surveyed these and other results, and concluded that "A conservative analysis of the foregoing results suggests that Vega is quite likely variable in the 1–2% range, with possible occasional excursions to as much as 4% from the mean".<ref name=gray2007/> Also, a 2011 article affirms that "The long-term (year-to-year) variability of Vega was confirmed".<ref name=butkovskaya2011/>
+
+Vega became the first solitary [[main-sequence star]] beyond the Sun known to be an X-ray emitter when in 1979 it was observed from an imaging X-ray telescope launched on an [[Aerobee]] 350 from the [[White Sands Missile Range]].<ref name=apj229_661/> In 1983, Vega became the first star found to have a disk of dust. The [[Infrared Astronomical Satellite]] (IRAS) discovered an excess of infrared radiation coming from the star, and this was attributed to energy emitted by the orbiting dust as it was heated by the star.<ref name=nature307_5950_441/>
+
+==Physical characteristics==
+Vega's [[spectral class]] is A0V, making it a blue-tinged white [[main-sequence star]] that is [[nuclear fusion|fusing]] [[hydrogen]] to [[helium]] in its core. Since more massive stars use their fusion fuel more quickly than smaller ones, Vega's main-sequence lifetime is roughly one billion years, a tenth of the Sun's.<ref name=ajss40_733/> The current age of this star is about 700&nbsp;million years,<ref name=monnier2012/> or up to about half its expected total main-sequence lifespan. After leaving the main sequence, Vega will become a class-M [[red giant]] and shed much of its mass, finally becoming a [[white dwarf]]. At present, Vega has more than twice the mass<ref name=nature440_7086_896/> of the Sun and its [[bolometric luminosity]] is about 40 times the Sun's. Because it is rotating rapidly, approximately once every 16.5 hours,<ref name=petit2022/> and seen nearly pole-on, its apparent luminosity, calculated assuming it was the same brightness all over, is about 57 times the Sun's.<ref name=apj645_1_664/> If Vega is variable, then it may be a [[Delta Scuti variable|Delta Scuti type]] with a period of about 0.107&nbsp;day.<ref name=asp93_2_333/>
+
+Most of the energy produced at Vega's core is generated by the carbon–nitrogen–oxygen cycle ([[CNO cycle]]), a [[Stellar nucleosynthesis|nuclear fusion]] process that combines [[proton]]s to form helium nuclei through intermediary nuclei of carbon, nitrogen and oxygen. This process becomes dominant at a temperature of about 17&nbsp;million&nbsp;K,<ref name=salaris_cassisi2005/> which is slightly higher than the core temperature of the Sun, but is less efficient than the Sun's [[proton–proton chain]] fusion reaction. The CNO cycle is highly temperature sensitive, which results in a [[convection zone]] about the core<ref name=apj601_1_512/> that evenly distributes the 'ash' from the fusion reaction within the core region. The overlying atmosphere is in [[Radiative transfer|radiative equilibrium]]. This is in contrast to the Sun, which has a [[radiation zone]] centered on the core with an overlying convection zone.<ref name=padmanabhan2002/>
+
+The energy flux from Vega has been precisely measured against standard light sources. At {{val|5480|fmt=commas|u=Å}}, the flux density is {{val|3650|fmt=commas|u=Jy}} with an error margin of 2%.<ref name=apj161_1015/> The visual spectrum of Vega is dominated by [[absorption line]]s of hydrogen; specifically by the hydrogen [[Balmer series]] with the [[electron]] at the n=2 [[principal quantum number]].<ref name=richmond/><ref name=clayton1983/> The lines of other elements are relatively weak, with the strongest being ionized [[magnesium]], [[iron]] and [[chromium]].<ref name=mnras197_57/> The [[X-ray]] emission from Vega is very low, demonstrating that the [[stellar corona|corona]] for this star must be very weak or non-existent.<ref name=aaa318_215/> However, as the pole of Vega is facing Earth and a polar [[coronal hole]] may be present,<ref name=apj229_661/><ref name=sao389/> confirmation of a corona as the likely source of the X-rays detected from Vega (or the region very close to Vega) may be difficult as most of any coronal X-rays would not be emitted along the line of sight.<ref name=sao389/><ref name=apj213_5_874/>
+
+Using [[spectropolarimetry]], a [[magnetic field]] has been detected on the surface of Vega by a team of astronomers at the [[Observatoire du Pic du Midi]]. This is the first such detection of a magnetic field on a spectral class A star that is not an [[Ap and Bp stars|Ap]] [[chemically peculiar star]]. The average line of sight component of this field has a strength of {{val|−0.6|0.3}} [[Gauss (unit)|gauss (G)]].<ref name=aaa500_3_L41/> This is comparable to the mean magnetic field on the Sun.<ref name=sd20090726/> Magnetic fields of roughly 30 G have been reported for Vega, compared to about 1 G for the Sun.<ref name=apj229_661/> In 2015, bright [[starspot]]s were detected on the star's surface—the first such detection for a normal [[A-type star]], and these features show evidence of [[rotational modulation]] with a period of 0.68&nbsp;day.<ref name=aa577_A64/>
+
+===Rotation===
+Vega has a rotation period of 16.3 hours,<ref name=petit2022/> much faster than the Sun's rotational period but similar to, and slightly slower than, those of [[Jupiter]] and [[Saturn]]. Because of that, Vega is significantly [[oblate spheroid|oblate]] like those two planets.
+
+When the radius of Vega was measured to high accuracy with an [[Astronomical interferometer|interferometer]], it resulted in an unexpectedly large estimated value of {{val|2.73|0.01}} times the [[radius of the Sun]].<ref name=apj645_1_664/> This is 60% larger than the radius of the star Sirius, while stellar models indicated it should only be about 12% larger. However, this discrepancy can be explained if Vega is a rapidly rotating star that is being viewed from the direction of its pole of rotation. Observations by the [[CHARA array]] in 2005–06 confirmed this deduction.<ref name=apj645_1_664/>
+
+[[File:Vega compared with the Sun.jpg|thumb|Size comparison of Vega (left) to the Sun (right)]]
+
+The pole of Vega—its axis of rotation—is inclined no more than five degrees from the line-of-sight to the Earth. At the high end of estimates for the [[stellar rotation|rotation]] velocity for Vega is {{val|236.2|3.7|u=km/s}}<ref name=apj708_1_71/> along the equator, much higher than the observed (i.e. [[projected rotational velocity|projected]]) rotational velocity because Vega is seen almost pole-on. This is 88% of the speed that would cause the star to start breaking up from [[Centrifugal force|centrifugal]] effects.<ref name=apj708_1_71/> This rapid rotation of Vega produces a pronounced equatorial bulge, so the radius of the equator is 19% larger than the polar radius, compared to just under 11% for Saturn, the most oblate of the Solar System's planets. The measured polar radius of this star is {{val|2.418}} [[solar radius|solar radii]], while the equatorial radius is {{val|2.726}} solar radii.<ref name=monnier2012/> From the Earth, this bulge is being viewed from the direction of its pole, producing the overly large radius estimate.
+
+The local [[surface gravity]] at the poles is greater than at the equator, which produces a variation in [[effective temperature]] over the star: the polar temperature is near {{val|10000|fmt=commas|ul=K}}, while the equatorial temperature is about {{val|8152|fmt=commas|u=K}}.<ref name=apj708_1_71/> This large temperature difference between the poles and the equator produces a strong [[gravity darkening]] effect. As viewed from the poles, this results in a darker (lower-intensity) limb than would normally be expected for a spherically symmetric star. The temperature gradient may also mean that Vega has a convection zone around the equator,<ref name=apj645_1_664/><ref name=noao2006/> while the remainder of the atmosphere is likely to be in almost pure [[Radiation zone|radiative equilibrium]].<ref name=adelman2004/> By the [[Von Zeipel theorem]], the local luminosity is higher at the poles. As a result, if Vega were viewed along the plane of its [[equator]] instead of almost pole-on, then its overall brightness would be lower.
+
+As Vega had long been used as a [[calibrator star|standard star for calibrating telescopes]], the discovery that it is rapidly rotating may challenge some of the underlying assumptions that were based on it being spherically symmetric. With the viewing angle and rotation rate of Vega now better known, this will allow improved instrument calibrations.<ref name=science317_5836_325/>
+
+===Element abundance===
+In astronomy, those elements with higher [[atomic number]]s than helium are termed "metals". The [[metallicity]] of Vega's [[photosphere]] is only about 32% of the abundance of heavy elements in the Sun's atmosphere.<ref group=note name=metal/> (Compare this, for example, to a threefold metallicity abundance in the similar star Sirius as compared to the Sun.) For comparison, the Sun has an abundance of elements heavier than helium of about Z<sub>Sol</sub>&nbsp;=&nbsp;{{val|0.0172|0.002}}.<ref name=apj644_2_1291/> Thus, in terms of abundances, only about 0.54% of Vega consists of elements heavier than helium. [[Nitrogen]] is slightly ''more'' abundant, [[oxygen]] is only marginally less abundant and [[sulfur]] abundance is about 50% of solar. On the other hand, Vega has only 10% to 30% of the solar abundance for most other major elements with [[barium]] and [[scandium]] below 10%.<ref name=apj708_1_71/>
+
+The unusually low metallicity of Vega makes it a weak [[Lambda Boötis star]].<ref name=bicds38_137/><ref name=apj548_2_77/> However, the reason for the existence of such chemically peculiar, [[spectral class]] A0–F0 stars remains unclear. One possibility is that the chemical peculiarity may be the result of [[diffusion]] or mass loss, although stellar models show that this would normally only occur near the end of a star's hydrogen-burning lifespan. Another possibility is that the star formed from an [[interstellar medium]] of gas and dust that was unusually metal-poor.<ref name=mnras301_4_1099/>
+
+The observed helium to hydrogen ratio in Vega is {{val|0.030|0.005}}, which is about 40% lower than the Sun. This may be caused by the disappearance of a helium [[convection zone]] near the surface. Energy transfer is instead performed by the [[radiative process]], which may be causing an abundance anomaly through diffusion.<ref name=apj348_712/>
+
+===Kinematics===
+The [[radial velocity]] of Vega is the component of this star's motion along the line-of-sight to the Earth. Movement away from the Earth will cause the light from Vega to shift to a lower [[frequency]] (toward the red), or to a higher frequency (toward the blue) if the motion is toward the Earth. Thus the velocity can be measured from the amount of shift of the star's spectrum. Precise measurements of this [[blueshift]] give a value of {{val|−13.9|0.9|u=km/s}}.<ref name=rgcrv1966/> The minus sign indicates a relative motion toward the Earth.
+
+Motion transverse to the line of sight causes the position of Vega to shift with respect to the more distant background stars. Careful measurement of the star's position allows this angular movement, known as [[proper motion]], to be calculated. Vega's proper motion is {{val|202.03|0.63|ul=milliarcseconds}} (mas) per year in [[right ascension]]—the celestial equivalent of [[longitude]]—and {{val|287.47|0.54|u=mas/y}} in [[declination]], which is equivalent to a change in [[latitude]]. The net proper motion of Vega is {{val|327.78|u=mas/y}},<ref name=majewski2006/> which results in angular movement of a degree every {{val|11000|fmt=commas|u=years}}.
+
+In the [[galactic coordinate system]], the [[Space velocity (astronomy)|space velocity]] components of Vega are (U, V, W) = {{nowrap|({{val|−16.1|0.3}}, {{val|−6.3|0.8}}, {{val|−7.7|0.3}}) km/s}}, for a net space velocity of {{val|19|u=km/s}}.<ref name=aaa339/> Although Vega is at present only the fifth-brightest star in the night sky, the star is slowly brightening as proper motion causes it to approach the Sun.<ref name=moulton1906/> Vega will make its closest approach in an estimated 264,000 years at a [[perihelion]] distance of {{cvt|4.04|pc|ly|lk=off|order=flip}}.<ref name=aa575_A35/>
+
+Based on this star's kinematic properties, it appears to belong to a stellar association called the [[Castor Moving Group]]. However, Vega may be much older than this group, so the membership remains uncertain.<ref name=apj708_1_71/> This group contains about 16 stars, including [[Alpha Librae]], [[Alpha Cephei]], [[Castor (star)|Castor]], [[Fomalhaut]] and Vega. All members of the group are moving in nearly the same direction with similar [[Space velocity (astronomy)|space velocities]]. Membership in a moving group implies a common origin for these stars in an [[open cluster]] that has since become gravitationally unbound.<ref name=inglis2003/> The estimated age of this moving group is {{val|200|100|u=million years}}, and they have an average space velocity of {{val|16.5|u=km/s}}.<ref group=note name=space_velocity/><ref name=aaa339/>
+
+==Possible planetary system==
+{{OrbitboxPlanet begin
+| name = Vega
+| table_ref = <ref name="Hurt2021"/><ref name=Su2024/>
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet = 
+| mass_earth = {{Val|21.9|5.1|p=≥}} 
+| period = {{Val|2.42977|0.00016|fmt=none}} 
+| semimajor = {{Val|0.04555|0.00053|fmt=none}}
+| eccentricity = {{Val|0.25|0.15}}
+}}
+{{OrbitboxPlanet disk
+| disk = Hot dust
+| periapsis = 
+| apoapsis = ≤0.2
+| inclination = 
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet =
+| mass_earth = 20
+| semimajor = ~2–5
+}}
+{{OrbitboxPlanet disk
+| disk = Inner Disk
+| periapsis = (3-5)
+| apoapsis = 78
+| inclination = 7-8
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet =
+| mass_earth = <6
+| semimajor = ~65
+}}
+{{OrbitboxPlanet disk
+| disk = Outer Disk
+| periapsis = 78
+| apoapsis = 170
+| inclination = 9-11
+}}
+{{OrbitboxPlanet disk
+| disk = Halo
+| periapsis = 
+| apoapsis = <250
+| inclination = 
+}}
+{{Orbitbox end}}
+[[File:Imaging of the Vega Debris System using JWST MIRI - figure 1.png|thumb|The debris disk around Vega with JWST [[Mid-Infrared Instrument|MIRI]] (all images) and ALMA (contours lower right image). Image published by Su et al.<ref name=Su2024/>]]
+
+=== Infrared excess ===
+One of the early results from the [[Infrared Astronomy Satellite]] (IRAS) was the discovery of [[infrared excess|excess infrared flux]] coming from Vega, beyond what would be expected from the star alone. This excess was measured at [[wavelength]]s of 25, 60 and {{val|100|ul=μm}}, and came from within an angular radius of {{val|10|u=arcseconds}} ({{val|10|u="}}) centered on the star. At the measured distance of Vega, this corresponded to an actual radius of {{val|80|ul=astronomical units}} (AU), where an AU is the average radius of the Earth's orbit around the Sun. It was proposed that this radiation came from a field of orbiting particles with a dimension on the order of a millimetre, as anything smaller would eventually be removed from the system by radiation pressure or drawn into the star by means of [[Poynting–Robertson effect|Poynting–Robertson drag]].<ref name="apj285_808"/> The latter is the result of radiation pressure creating an effective force that opposes the orbital motion of a dust particle, causing it to spiral inward. This effect is most pronounced for tiny particles that are closer to the star.<ref name="mnras_97_423"/>
+
+Subsequent measurements of Vega at {{val|193|u=μm}} showed a lower than expected flux for the hypothesized particles, suggesting that they must instead be on the order of {{val|100|u=μm}} or less. To maintain this amount of dust in orbit around Vega, a continual source of replenishment would be required. A proposed mechanism for maintaining the dust was a disk of coalesced bodies that were in the process of collapsing to form a planet.<ref name=apj285_808/> Models fitted to the dust distribution around Vega indicate that it is a 120-astronomical-unit-radius circular disk viewed from nearly pole-on. In addition, there is a hole in the center of the disk with a radius of no less than {{val|80|u=AU}}.<ref name=mnras314_4_702/>
+
+Following the discovery of an infrared excess around Vega, other stars have been found that display a similar anomaly that is attributable to dust emission. As of 2002, about 400 of these stars have been found, and they have come to be termed "Vega-like" or "Vega-excess" stars. It is believed that these may provide clues to the origin of the [[Solar System]].<ref name=apj124_1_514/>
+
+===Debris disks===
+By 2005, the [[Spitzer Space Telescope]] had produced high-resolution infrared images of the dust around Vega. It was shown to extend out to 43″ ({{val|330|u=AU}}) at a wavelength of {{val|24|u=μm}}, 70″ ({{val|543|u=AU}}) at {{val|70|u=μm}} and {{val|105|u="}} ({{val|815|u=AU}}) at {{val|160|u=μm}}. These much wider disks were found to be circular and free of clumps, with dust particles ranging from 1–{{val|50|u=μm}} in size. The estimated total mass of this dust is 3{{e|-3}} times the [[mass of the Earth]] (around 7.5 times more massive than the [[asteroid belt]]). Production of the dust would require collisions between asteroids in a population corresponding to the [[Kuiper Belt]] around the Sun. Thus the dust is more likely created by a [[debris disk]] around Vega, rather than from a [[protoplanetary disk]] as was earlier thought.<ref name=apj628_1_487/>
+
+[[Image:Massive Smash-Up at Vega.jpg|thumb|Artist's concept of a recent massive collision of [[dwarf planet]]-sized objects that may have contributed to the dust ring around Vega]]
+
+The inner boundary of the debris disk was estimated at {{val|11|2|u="}}, or 70–{{val|100|u=AU}}. The disk of dust is produced as radiation pressure from Vega pushes debris from collisions of larger objects outward. However, continuous production of the amount of dust observed over the course of Vega's lifetime would require an enormous starting mass—estimated as hundreds of times the [[mass of Jupiter]]. Hence it is more likely to have been produced as the result of a relatively recent breakup of a moderate-sized (or larger) comet or asteroid, which then further fragmented as the result of collisions between the smaller components and other bodies. This dusty disk would be relatively young on the time scale of the star's age, and it will eventually be removed unless other collision events supply more dust.<ref name=apj628_1_487/>
+
+Observations, first with the [[Palomar Testbed Interferometer]] by [[David Ciardi]] and [[Gerard van Belle]] in 2001<ref name=apj559_1_237/> and then later confirmed with the [[CHARA array]] at Mt. Wilson in 2006 and the [[Infrared Optical Telescope Array]] at Mt. Hopkins in 2011,<ref name=aaa534_1_237/> revealed evidence for an inner dust band around Vega. Originating within {{val|8|u=AU}} of the star, this [[exozodiacal dust]] may be evidence of dynamical perturbations within the system.<ref name=aaa452_1_237/> This may be caused by an intense bombardment of [[comet]]s or [[meteor]]s, and may be evidence for the existence of a planetary system.<ref name=girault_rime_2006/>
+
+The disk was also observed with [[Atacama Large Millimeter Array|ALMA]] in 2020,<ref name="Matrà2020"/> the [[Large Millimeter Telescope|LMT]] in 2022<ref name="Marshall2022"/> and with [[Hubble Space Telescope|Hubble]] STIS<ref name=Wolff2024/> and [[James Webb Space Telescope|JWST]] MIRI in 2024.<ref name=Su2024/> The ALMA image did resolve the outer disk for the first time.<ref name="Matrà2020"/> The Hubble observation is claimed as the first image of the disk in scattered light and found an outer halo made up of small dust grains.<ref name=Wolff2024/> JWST observations also detected the Halo, the outer disk and for the first time the inner disk. The infrared observations also showed a gap at 60 AU for the first time. The dust interior of the outer disk is consistent with dust being dragged by the [[Poynting-Robertson effect]]. The inner edge of the inner disk is hidden behind the [[coronagraph]], but it was inferred to be 3-5 AU from photometry. The star is also surrounded by hot infrared excess, located at the sub-AU region, leaving a second gap between the inner disk and the hot dust around the star. This hot infrared excess lies within about 0.2 AU or closer and is made up of small grains, like [[graphite]] and [[Iron oxide|iron]] and [[manganese]] oxides, which was previously verified.<ref name=Su2024/>
+
+===Possible planets===
+Observations from the [[James Clerk Maxwell Telescope]] in 1997 revealed an "elongated bright central region" that peaked at 9″ ({{val|70|u=AU}}) to the northeast of Vega. This was hypothesized as either a perturbation of the dust disk by a [[extrasolar planet|planet]] or else an orbiting object that was surrounded by dust. However, images by the [[Keck telescope]] had ruled out a companion down to magnitude 16, which would correspond to a body with more than 12 times the mass of Jupiter.<ref name=nature392_6678_788/> Astronomers at the [[Joint Astronomy Centre]] in Hawaii and at [[UCLA]] suggested that the image may indicate a planetary system still undergoing formation.<ref name=jac19980421/>
+
+Determining the nature of the planet has not been straightforward; a 2002 paper hypothesizes that the clumps are caused by a roughly [[Eccentric Jupiter|Jupiter-mass planet on an eccentric orbit]]. Dust would collect in orbits that have [[Orbital resonance|mean-motion resonances]] with this planet—where their orbital periods form integer fractions with the period of the planet—producing the resulting clumpiness.<ref name=apj569_2_L115/>
+
+In 2003, it was hypothesized that these clumps could be caused by a roughly [[Neptune]]-mass planet having [[planetary migration|migrated]] from 40 to {{val|65|ul=AU}} over 56&nbsp;million&nbsp;years,<ref name=apj598_2_1321/> an orbit large enough to allow the formation of smaller [[rocky planet]]s closer to Vega. The migration of this planet would likely require gravitational interaction with a second, higher-mass planet in a smaller orbit.<ref name=roe20031201/>
+
+Using a [[coronagraph]] on the [[Subaru Telescope]] in Hawaii in 2005, astronomers were able to further constrain the size of a planet orbiting Vega to no more than 5–10 times the mass of Jupiter.<ref name=apj652_2_1729/> The issue of possible clumps in the debris disc was revisited in 2007 using newer, more sensitive instrumentation on the [[Plateau de Bure Interferometer]]. The observations showed that the debris ring is smooth and symmetric. No evidence was found of the blobs reported earlier, casting doubts on the hypothesized giant planet.<ref name=aaa531/> The smooth structure has been confirmed in follow-up observations by Hughes et al. (2012)<ref name="hughes2012"/> and the [[Herschel Space Telescope]].<ref name="sibthorpe2010"/>
+
+Although a planet has yet to be directly observed around Vega, the presence of a planetary system cannot yet be ruled out. Thus there could be smaller, [[terrestrial planet]]s orbiting closer to the star. The [[inclination]] of planetary orbits around Vega is likely to be closely aligned to the [[equator]]ial plane of this star.<ref name=pasp97_180/>
+
+From the perspective of an observer on a hypothetical planet around Vega, the Sun would appear as a faint 4.3-magnitude star in the constellation [[Columba (constellation)|Columba]].<ref group="note" name="coord"/>
+
+In 2021, a paper analyzing 10 years of spectra of Vega detected a candidate 2.43-day signal around Vega, statistically estimated to have only a 1% chance of being a false positive.<ref name="Hurt2021"/> Considering the amplitude of the signal, the authors estimated a minimum mass of {{val|21.9|5.1}} Earth masses, but considering the very oblique rotation of Vega itself of only 6.2° from Earth's perspective, the planet may be aligned to this plane as well, giving it an actual mass of {{val|203|47}} Earth masses.<ref name="Hurt2021"/> The researchers also detected a faint {{val|196.4|1.6|1.9}}-day signal which could translate to {{val|80|21}} Earth masses ({{val|740|190}} at 6.2° inclination) but is too faint to claim as a real signal with available data.<ref name="Hurt2021"/>
+
+Observations of the disk with JWST MIRI did find a very circular face-on disk. The morphology indicates that there is no planet more massive than [[Saturn]] beyond 10 AU. The disk has a gap at around 60 AU. Gap-opening planets are inferred for disks around other stars and this has also been tested for Vega by running simulations. The simulations have shown that a planet with < 6 {{Earth mass|sym=y}} at 65 AU would introduce interior asymmetric structures that are not seen in the disk of Vega. Any gap-opening planet would need to be less massive. Additionally the inner edge of the inner disk was inferred to be 3-5 AU. Vega shows also evidence for hot infrared excess at the sub-AU region. The inner boundary of the warm debris might indicate that there is a [[Neptune]]-mass planet inside, [[shepherd moon|shepherding]] it.<ref name=Su2024/>
+
+==Etymology and cultural significance==
+{{See also|Summer Triangle|Stars in astrology#Vega}}
+
+The name Vega is believed to be derived from the [[Arabic]] term ''Al Nesr al Waki'' '''النسر الواقع''' which appeared in the [[Al Achsasi al Mouakket]] star catalogue and was translated into [[Latin]] as ''Vultur Cadens'', "the falling eagle/vulture".<ref name=mnras55_429/><ref group=note name=vulture/> The constellation was represented as a vulture in [[ancient Egypt]],<ref name=massey2001/> and as an eagle or vulture in [[History of India|ancient India]].<ref name=olcott1911/><ref name=houlding2005/> The Arabic name then appeared in the [[western world]] in the ''[[Alfonsine tables]]'',<ref name=Kunitzsch86/> which were drawn up between 1215 and 1270 by order of [[King Alfonso X]].<ref name=brill7_292/> Medieval [[astrolabe]]s of [[Kingdom of England|England]] and [[Western Europe]] used the names Wega and Alvaca, and depicted it and [[Altair]] as birds.<ref name=Gingerish1987/>
+
+Among the northern [[Polynesia]]n people, Vega was known as ''whetu o te tau'', the year star. For a period of history it marked the start of their new year when the ground would be prepared for planting. Eventually this function became denoted by the [[Pleiades]].<ref name=jps28_18/> A Hawaiian name is Kehoʻoea; in [[Native Hawaiian]] culture objects can have different names depending on their position in the sky, so it is also known as Kahōʻeoa, Kahoʻea or Keoe.<ref name="Vievard2023"/>
+
+The [[Assyrian people|Assyrians]] named this pole star Dayan-same, the "Judge of Heaven", while in [[Akkadian language|Akkadian]] it was Tir-anna, "Life of Heaven".<!-- see Allen reference below --> In [[Babylonian astronomy]], Vega may have been one of the stars named Dilgan, "the Messenger of Light". To the [[ancient Greeks]], the constellation Lyra was formed from the harp of [[Orpheus]], with Vega as its handle.<ref name=kendall1845/> For the [[Roman Empire]], the start of autumn was based upon the hour at which Vega set below the horizon.<ref name=allen1963/>
+
+In [[Chinese astronomy|Chinese]], {{lang|zh|織女}} ({{lang|zh-Latn|Zhī Nǚ}}), meaning ''[[Ox (Chinese constellation)|Weaving Girl]] (asterism)'', refers to an [[Asterism (astronomy)|asterism]] consisting of Vega, [[ε Lyrae]] and [[Zeta1 Lyrae|ζ<sup>1</sup> Lyrae]].<ref name=zh/> Consequently, the [[Chinese star names|Chinese name]] for Vega is {{lang|zh|織女一}} ({{lang|zh-Latn|Zhī Nǚ yī}}, {{langx|en|the First Star of Weaving Girl}}).<ref name=aeea/> In [[Chinese mythology]], there is a love story of [[Qixi]] ({{lang|zh|七夕}}) in which [[Niulang]] ({{lang|zh|牛郎}}, [[Altair]]) and his two children ([[β Aquilae]] and [[γ Aquilae]]) are separated from their mother [[Zhinü]] ({{lang|zh|織女}}, lit. "weaver girl", Vega) who is on the far side of the river, the [[Milky Way]].<ref name=wei_yue_tao2005/> However, one day per year on the seventh day of the seventh month of the [[Chinese calendar|Chinese lunisolar calendar]], [[magpie]]s make a bridge so that Niulang and Zhinü can be together again for a brief encounter. The Japanese [[Tanabata]] festival, in which Vega is known as ''Orihime'' (織姫), is also based on this legend.<ref name=kippas1919/>
+
+In [[Zoroastrianism]], Vega was sometimes associated with Vanant, a minor divinity whose name means "conqueror".<ref name=boyce1996/>
+
+The indigenous [[Wergaia|Boorong]] people of north-western [[Victoria (state)|Victoria]], Australia, named it ''Neilloan'',<ref name=hamacher/> "the flying [[Malleefowl|loan]]".<ref name=stanbridge/>
+
+In Hindu astronomy and astrology, Vega is represented by the [[nakshatra]] [[Abhijit (nakshatra)|Abhijit]] (अभिजित). In the ''[[Srimad Bhagavatam]]'', [[Krishna|Shri Krishna]] tells [[Arjuna]], that among the Nakshatras he is Abhijit, which indicates the auspiciousness of this Nakshatra.<ref name=vedabase/>
+
+[[Medieval]] [[astrologer]]s counted Vega as one of the [[Behenian fixed star|Behenian stars]]<ref name=tyson1993/> and related it to [[Olivine|chrysolite]] and [[winter savory]]. [[Cornelius Agrippa]] listed its [[kabbalistic]] sign [[Image:Agrippa1531 Vulturcadens.png]] under ''Vultur cadens'', a literal Latin translation of the Arabic name.<ref name=argippa1533/> Medieval star charts also listed the alternate names Waghi, Vagieh and Veka for this star.<ref name=burnham1978/>
+
+[[W. H. Auden]]'s 1933 poem "[[On This Island|A Summer Night (to Geoffrey Hoyland)]]"<ref name=auden/> famously opens with the couplet, "Out on the lawn I lie in bed,/Vega conspicuous overhead". In the 1997 film ''[[Contact (1997 American film)|Contact]]'', the Vega system is the source of alien communication.<ref>{{cite web |date=1 November 2024 |title=NASA's Hubble, Webb Probe Surprisingly Smooth Disk Around Vega |url=https://webbtelescope.org/contents/news-releases/2024/news-2024-030 |publisher=[[STScI]]}}</ref>
+
+Vega became the first star to have a car named after it with the French [[Facel Vega]] line of cars from 1954 onwards, and later on, in America, [[Chevrolet]] launched the [[Chevrolet Vega|Vega]] in 1971.<ref name=frommert/> Other vehicles named after Vega include the [[ESA]]'s [[Vega (rocket)|Vega]] launch system<ref name=esa20050520/> and the [[Lockheed Vega]] aircraft.<ref name=rumerman2003/>
+
+==Notes==
+{{Reflist|group=note|refs=
+
+<ref name=metal>For a metallicity of −0.5, the proportion of metals relative to the Sun is given by
+:<math>10^{-0.5} = 0.316</math>.
+See: {{cite book
+ | title=The Chemical Evolution of the Galaxy
+ | volume=253 | series=Astrophysics and Space Science Library
+ | first=Francesca | last=Matteucci
+ | publisher=Springer Science & Business Media
+ | year=2001 | isbn=978-0792365525 | page=7
+ | url=https://books.google.com/books?id=PT7O1nS7CksC&pg=PA7 }}</ref>
+
+<ref name=space_velocity>The space velocity components in the [[Galactic coordinate system]] are: U&nbsp;=&nbsp;{{val|−10.7|3.5}}, V&nbsp;=&nbsp;{{val|−8.0|2.4}}, W&nbsp;=&nbsp;{{val|−9.7|3.0|u=km/s}}. UVW is a [[Cartesian coordinate system]], so the [[Euclidean distance]] formula applies. Hence, the net velocity is
+:<math>v_\text{sp} = \sqrt{10.7^2 + 8.0^2 + 9.7^2} = 16.5~\text{km/s}.</math>
+See: {{cite book
+ | title=Introductory Statistics and Analytics: A Resampling Perspective
+ | first=Peter C. | last=Bruce
+ | publisher=John Wiley & Sons | year=2015
+ | isbn=978-1118881330 | page=20
+ | url=https://books.google.com/books?id=7CUhBgAAQBAJ&pg=PA20 }}
+</ref>
+
+<ref name=coord>The Sun would appear at the diametrically opposite coordinates from Vega at α&nbsp;=&nbsp;{{RA|6|36|56.3364}}, δ&nbsp;=&nbsp;{{DEC|−38|47|01.291}}, which is in the western part of Columba.
+<br/> 
+<br/>The visual magnitude is given by <math>m = M_v - 5 - 5 \log_{10}</math>{{hairsp}}[[Parallax#Stellar parallax|{{math|π}}]]<math> \ \Rightarrow \ 4.83 - 5 - (5 \ \times \log_{10}0.13023) = 4.256</math>
+<br/>See: {{cite journal | last=Hughes | first=David W. | title=The Introduction of Absolute Magnitude (1902–1922) | journal=Journal of Astronomical History and Heritage | volume=9 | issue=2 | pages=173–179 | url=https://ui.adsabs.harvard.edu/link_gateway/2006JAHH....9..173H/ADS_SCAN| date=2006 | doi=10.3724/SP.J.1440-2807.2006.02.06 | bibcode=2006JAHH....9..173H | s2cid=115611984 }}</ref>
+
+<ref name=vulture>That is, a vulture on the ground with its wings folded (Edward William Lane, ''Arabic-English Lexicon'').</ref>
+
+<ref name=deltaLum>From {{cite book | title=Allen's Astrophysical Qualities | editor1-first=Arthur N. | editor1-last=Cox | edition=4th | page=382 | publisher=Springer-Verlag | location=New York | isbn=978-0-387-98746-0 | year=1999 }}:
+: ''M''<sub>bol</sub> = −2.5 log ''L''/{{Solar luminosity}} + 4.74,
+where ''M''<sub>bol</sub> is the [[bolometric magnitude]], ''L'' is the star's luminosity, and {{Solar luminosity}} is the [[solar luminosity]]. A ''M''<sub>bol</sub> variation of ±0.03 gives
+: ''M''<sub>bol<sub>2</sub></sub> − ''M''<sub>bol<sub>1</sub></sub> = 0.03 = 2.5 log ''L''<sub>1</sub>/''L''<sub>2</sub>
+for
+: ''L''<sub>1</sub>/''L''<sub>2</sub> = 10<sup>0.03/2.5</sup> ≈ 1.028,
+or a ±2.8% luminosity variation.</ref>
+
+}}
+
+==References==
+{{Reflist|30em|refs=
+
+<ref name="Marshall2022">{{Cite journal |last1=Marshall |first1=J. P. |last2=Chavez-Dagostino |first2=M. |last3=Sanchez-Arguelles |first3=D. |last4=Matrà |first4=L. |last5=del Burgo |first5=C. |last6=Kemper |first6=F. |last7=Bertone |first7=E. |last8=Dent |first8=W. R. F. |last9=Vega |first9=O. |last10=Wilson |first10=G. |last11=Gómez-Ruiz |first11=A. |last12=Montaña |first12=A. |date=2022-08-01 |title=LMT/AzTEC observations of Vega |journal=Monthly Notices of the Royal Astronomical Society |volume=514 |issue=3 |pages=3815–3820 |bibcode=2022MNRAS.514.3815M |doi=10.1093/mnras/stac1510 |doi-access=free |issn=0035-8711}}</ref>
+
+<ref name="Matrà2020">{{Cite journal |last1=Matrà |first1=Luca |last2=Dent |first2=William R. F. |last3=Wilner |first3=David J. |last4=Marino |first4=Sebastián |last5=Wyatt |first5=Mark C. |last6=Marshall |first6=Jonathan P. |last7=Su |first7=Kate Y. L. |last8=Chavez |first8=Miguel |last9=Hales |first9=Antonio |last10=Hughes |first10=A. Meredith |last11=Greaves |first11=Jane S. |last12=Corder |first12=Stuartt A. |date=2020-08-01 |title=Dust Populations in the Iconic Vega Planetary System Resolved by ALMA |journal=The Astrophysical Journal |volume=898 |issue=2 |pages=146 |doi=10.3847/1538-4357/aba0a4 |doi-access=free |arxiv=2006.16257 |bibcode=2020ApJ...898..146M |issn=0004-637X}}</ref>
+
+<ref name=Wolff2024>
+{{cite journal
+	| last1 = Wolff
+	| first1 = Schuyler G.
+|first2=András |last2=Gáspár |first3=George H. |last3=Rieke |first4=Jarron M. |last4=Leisenring |first5=Kate |last5=Su |first6=David |last6=Wilner |first7=Luca |last7=Matrà |first8=Marie |last8=Ygouf |first9=Nicholas P. |last9=Balleringa
+	| date = 31 Oct 2024
+	| title = Deep Search for a Scattered Light Dust Halo Around Vega with the Hubble Space Telescope
+	| journal = The Astronomical Journal
+| volume = 168
+| issue = 6
+| page = 236
+| doi = 10.3847/1538-3881/ad67cb
+| doi-access = free
+| arxiv = 2410.24042
+	| bibcode = 2024AJ....168..236W
+}}
+</ref>
+
+<ref name=Su2024>
+{{cite journal
+	| last1 = Su
+	| first1 = Kate Y. L.
+|first2=Andras |last2=Gaspar |first3=George H. |last3=Rieke |first4=Renu |last4=Malhotra |first5=Luca |last5=Matra |first6=Schuyler Grace |last6=Wolff |first7=Jarron M. |last7=Leisenring |first8=Charles |last8=Beichman |first9=Marie |last9=Ygouf
+	| date = 31 Oct 2024
+	| title = Imaging of the Vega Debris System using JWST/MIRI
+	| journal = The Astrophysical Journal
+| volume = 977
+| issue = 2
+| page = 277
+| doi = 10.3847/1538-4357/ad8cde
+| doi-access = free
+| arxiv = 2410.23636
+	| bibcode = 2024ApJ...977..277S
+}}</ref>
+
+<ref name=monnier2012>{{Cite journal |last1=Monnier |first1=J. D. |last2=Che |first2=Xiao |last3=Zhao |first3=Ming |last4=Ekstrom |first4=S. |last5=Maestro |first5=V. |last6=Aufdenberg |first6=J. |last7=Baron |first7=F. |last8=Georgy |first8=C. |last9=Kraus |first9=S. |last10=McAlister |first10=H. |last11=Pedretti |first11=E. |last12=Ridgway |first12=S. |last13=Sturmann |first13=J. |last14=Sturmann |first14=L. |last15=Brummelaar |first15=T. ten |date=2012-12-10 |title=Resolving Vega and the inclination controversy with CHARA/MIRC |arxiv=1211.6055 |bibcode=2012ApJ...761L...3M |journal=The Astrophysical Journal |volume=761 |issue=1 |pages=L3 |doi=10.1088/2041-8205/761/1/L3 |issn=2041-8205}}</ref>
+
+<ref name=aaa474_2_653>{{cite journal | last=van Leeuwen | first=F. | title=Validation of the new Hipparcos reduction | journal=Astronomy and Astrophysics | volume=474 | issue=2 |date=November 2007 | pages=653–664 | doi=10.1051/0004-6361:20078357  | doi-access=free| bibcode=2007A&A...474..653V | arxiv=0708.1752 | s2cid=18759600 }}</ref>
+
+<ref name=SIMBAD>{{cite journal | author=Staff |url=http://simbad.u-strasbg.fr/simbad/sim-id?protocol=html&Ident=vega | title=V* alf Lyr – Variable Star | journal=SIMBAD | access-date=2007-10-30 }}—use the "display all measurements" option to show additional parameters.</ref>
+
+<ref name=aaa391_3_1039>{{cite journal | display-authors=1 | last1=Kinman | first1=T. | last2=Castelli | first2=F. | title=The determination of T<sub>eff</sub> for metal-poor A-type stars using V and 2MASS J, H and K magnitudes | journal=Astronomy and Astrophysics | date=2002 | volume=391 | issue=3 | pages=1039–1052 | doi=10.1051/0004-6361:20020806 | bibcode=2002A&A...391.1039K | doi-access=free }}</ref>
+
+<ref name=apj645_1_664>{{cite journal | display-authors=1 | last1=Aufdenberg | first1=J.P. | last2=Mérand | first2=A. | last3=Coudé du Foresto | first3=V. | last4=Absil | first4=O. | last5=Di Folco | first5=E. | last6=Kervella | first6=P. | last7=Ridgway | first7=S. T. | last8=Berger | first8=D. H. | last9=ten Brummelaar | first9=T. A. | title=First results from the CHARA Array: VII. Long-Baseline Interferometric Measurements of Vega Consistent with a Pole-On, Rapidly Rotating Star? | journal=Astrophysical Journal | date=2006 | volume=645 | issue=1 | pages=664–675 | doi=10.1086/504149 | bibcode=2006ApJ...645..664A | arxiv=astro-ph/0603327 | s2cid=13501650 }}</ref>
+
+<ref name=rgcrv1966>{{cite conference | first=D. S. | last=Evans | contribution=The Revision of the General Catalogue of Radial Velocities | title=Proceedings from IAU Symposium no. 30 | journal=Determination of Radial Velocities and Their Applications | volume=30 | page=57 | date=June 20–24, 1966 | place=London, England | bibcode=1967IAUS...30...57E }}</ref>
+
+<ref name=stellarium>{{cite web | url=http://www.stellarium.org | title=Calculation by the ''Stellarium'' application version 25.2 | access-date=2025-07-02 }}</ref>
+
+<ref name=nature440_7086_896>{{cite journal | display-authors=1 | last1=Peterson
+| first1=D. M. | last2=Hummel | first2=C. A. | last3=Pauls | first3=T. A. | last4=Armstrong | first4=J. T. | last5=Benson | first5=J. A. | last6=Gilbreath | first6=G. C. | last7=Hindsley | first7=R. B. | last8=Hutter | first8=D. J. | last9=Johnston | first9=K. J. | title=Vega is a rapidly rotating star | journal=Nature | date=2006 | volume=440 | issue=7086 | pages=896–899 | arxiv=astro-ph/0603520 | doi=10.1038/nature04661 | pmid=16612375 | bibcode=2006Natur.440..896P | s2cid=533664
+}}</ref>
+
+<ref name=apj628_1_487>{{cite journal | display-authors=1 | last1=Su | first1=K. Y. L. | last2=Rieke | first2=G. H. | last3=Misselt | first3=K. A. | last4=Stansberry | first4=J. A. | last5=Moro-Martin | first5=A. | last6=Stapelfeldt | first6=K. R. | last7=Werner | first7=M. W. | last8=Trilling | first8=D. E. | last9=Bendo | first9=G. J. | title=The Vega Debris Disk: A Surprise from ''Spitzer'' | journal=The Astrophysical Journal | date=2005 | volume=628 | issue=1 | pages=487–500 | doi=10.1086/430819 | bibcode=2005ApJ...628..487S|arxiv = astro-ph/0504086 | s2cid=18898968 }}</ref>
+
+<ref name=apj124_1_514>{{cite journal | display-authors=1 | last1=Song | first1=Inseok | last2=Weinberger | first2=A. J. | last3=Becklin | first3=E. E. | last4=Zuckerman | first4=B. | last5=Chen | first5=C. | title=M-Type Vega-like Stars | journal=The Astronomical Journal | date=2002 | volume=124 | issue=1 | pages=514–518 | doi=10.1086/341164 | bibcode=2002AJ....124..514S | arxiv=astro-ph/0204255 | s2cid=3450920 }}</ref>
+
+<ref name=barger_white2000>{{cite book | display-authors=1 | last1=Barger | first1=M. Susan | last2=White | first2=William B. | date=2000 |orig-date=First published 1991 | title=The Daguerreotype: Nineteenth-Century Technology and Modern Science | publisher=JHU Press | page=88 | isbn=978-0-8018-6458-2 }}</ref>
+
+<ref name=pasp2_10_249>{{cite journal | display-authors=1 | last1=Holden | first1=Edward S. | last2=Campbell | first2=W. W. | title=Photographs of Venus, Mercury and Alpha Lyræ in Daylight | journal=Publications of the Astronomical Society of the Pacific | date=1890 | volume=2 | issue=10 | pages=249–250 | doi=10.1086/120156 | bibcode=1890PASP....2..249H | s2cid=120286863 | doi-access=free }}</ref>
+
+<ref name=paps24_166>{{cite journal | last=Barker | first=George F. | title=On the Henry Draper Memorial Photographs of Stellar Spectra | journal=Proceedings of the American Philosophical Society | date=1887 | volume=24 | pages=166–172 }}</ref>
+
+<ref name=aip>{{cite web | work=Tools of Cosmology | url=https://history.aip.org/exhibits/cosmology/tools/tools-spectroscopy.htm| title=Spectroscopy and the Birth of Astrophysics | publisher=American Institute of Physics | access-date=2022-03-29}}</ref>
+
+<ref name=klaus2002>{{cite book | first=Klaus | last=Hentschel | date=2002 | title=Mapping the Spectrum: Techniques of Visual Representation in Research and Teaching | publisher=Oxford University Press | isbn=978-0-19-850953-0 }}</ref>
+
+<ref name=berry1899>{{cite book | first=Arthur | last=Berry | date=1899 | title=A Short History of Astronomy | url=https://archive.org/details/ashorthistoryas00berrgoog | publisher=Charles Scribner's Sons | location=New York | isbn=((978-0-486-20210-5)) }}</ref>
+
+<ref name=debarbat1988>{{cite book | first1=Wolfgang R. | last1=Dick | last2=Ruben | first2=G. | date=1988 | chapter=The First Successful Attempts to Determine Stellar Parallaxes in the Light of the Bessel/Struve Correspondence | title=Mapping the Sky: Past Heritage and Future Directions | pages=119–121 | publisher=Springer | isbn=978-90-277-2810-4 | doi=10.1017/S007418090013949X }}</ref>
+
+<ref name=astroprof>{{cite web | author=Anonymous | date=2007-06-28 | url=http://astroprofspage.com/archives/1011 | title=The First Parallax Measurements | publisher=Astroprof | access-date=2007-11-12 }}</ref>
+
+<ref name=garfinkle1997>{{cite book | first=Robert A. | last=Garfinkle | date=1997 | title=Star-Hopping: Your Visa to Viewing the Universe | publisher=Cambridge University Press | isbn=978-0-521-59889-7 }}</ref>
+
+<ref name=ajss45_83>{{cite journal | last=Cochran | first=A. L. | title=Spectrophotometry with a self-scanned silicon photodiode array. II – Secondary standard stars | journal=Astrophysical Journal Supplement Series | date=1981 | volume=45 | pages=83–96 | doi=10.1086/190708 | bibcode=1981ApJS...45...83C | doi-access=free }}</ref>
+
+<ref name=apj117_313>{{cite journal | display-authors=1 | last=Johnson | first=H. L. | author2=Morgan, W. W. | title=Fundamental stellar photometry for standards of spectral type on the revised system of the Yerkes spectral atlas | journal=Astrophysical Journal | date=1953 | volume=117 | pages=313–352 | doi=10.1086/145697 | bibcode=1953ApJ...117..313J }}</ref>
+
+<ref name=eso20020306>{{cite web | last=Walsh | first=J. | date=2002-03-06 | url=http://www.eso.org/observing/standards/spectra/hr7001.html | archive-url=https://web.archive.org/web/20070209043623/http://www.eso.org/observing/standards/spectra/hr7001.html | archive-date=2007-02-09 | title=Alpha Lyrae (HR7001) | work=Optical and UV Spectrophotometric Standard Stars | publisher=ESO | access-date=2007-11-15 }}—flux versus wavelength for Vega.</ref>
+
+<ref name=mcmahon2005>{{cite web | last=McMahon | first=Richard G. | date=2005-11-23 | url=http://www.ast.cam.ac.uk/~rgm/magnitudes/vega_hl75.dat | format=Text | title=Notes on Vega and magnitudes | publisher=University of Cambridge | access-date=2007-11-07 | archive-date=January 28, 2012 | archive-url=https://web.archive.org/web/20120128003043/http://www.ast.cam.ac.uk/~rgm/magnitudes/vega_hl75.dat | url-status=dead }}</ref>
+
+<ref name=araa33_1_75>{{cite journal | first1=A. | display-authors=1 | last1=Gautschy | first2=H. | last2=Saio | title=Stellar Pulsations Across The HR Diagram: Part 1 | journal=Annual Review of Astronomy and Astrophysics | date=1995 | volume=33 | issue=1 | pages=75–114 | doi=10.1146/annurev.aa.33.090195.000451 | bibcode=1995ARA&A..33...75G }}</ref>
+
+<ref name=merezhin>{{cite web | display-authors=1 | last1=I.A. | first1=Vasil'yev | last2=Merezhin | first2=V. P. | last3=Nalimov | first3=V. N. | last4=Novosyolov | first4=V. A. | url=http://www.konkoly.hu/pub/ibvs/3301/3308.txt | title=On the Variability of Vega | date=1989-03-17 | publisher=Commission 27 of the I.A.U | access-date=2007-10-30 }}</ref>
+
+<ref name=hayes1984>{{cite conference | first=D. S. | last=Hayes | contribution=Stellar absolute fluxes and energy distributions from 0.32 to 4.0 microns | title=Proceedings of the Symposium, Calibration of fundamental stellar quantities | volume=111 | pages=225–252 | date=May 24–29, 1984 | bibcode=1985IAUS..111..225H}}</ref>
+
+<ref name=GSM>{{cite book | last=Perryman | first=Michael | title=The Making of History's Greatest Star Map | location=Heidelberg | publisher=Springer-Verlag | date=2010 | doi=10.1007/978-3-642-11602-5| series=Astronomers' Universe | isbn=978-3-642-11601-8 | bibcode=2010mhgs.book.....P | url=https://cds.cern.ch/record/1338896 }}</ref>
+
+<ref name=nature307_5950_441>{{cite journal | display-authors=1 | last1=Harvey | first1=Paul E. | last2=Wilking | first2=Bruce A. | last3=Joy | first3=Marshall | title=On the far-infrared excess of Vega | journal=Nature | date=1984 | volume=307 | issue=5950 | pages=441–442 | doi=10.1038/307441a0 | bibcode=1984Natur.307..441H | s2cid=4330793 }}</ref>
+
+<ref name=pasachoff2000>{{cite book | first=Jay M. | last=Pasachoff | date=2000 | title=A Field Guide to Stars and Planets | edition=4th | publisher=Houghton Mifflin Field Guides | isbn=978-0-395-93431-9 }}</ref>
+
+<ref name=upgren1998>{{cite book | first=Arthur R. | last=Upgren | date=1998 | title=Night Has a Thousand Eyes: A Naked-Eye Guide to the Sky, Its Science, and Lore | publisher=Basic Books | isbn=978-0-306-45790-6 | bibcode=1998nhte.book.....U }}</ref>
+
+<ref name=ajss40_733>{{cite journal | display-authors=1 | last1=Mengel | first1=J. G. | last2=Demarque | first2=P. | last3=Sweigart | first3=A. V. | last4=Gross | first4=P. G. | title=Stellar evolution from the zero-age main sequence | journal=Astrophysical Journal Supplement Series | date=1979 | volume=40 | pages=733–791 | doi=10.1086/190603 | bibcode=1979ApJS...40..733M }}—From pages 769–778: for stars in the range {{nowrap|1.75 < ''M'' < 2.2}}, {{nowrap|0.2 < Y < 0.3}} and {{nowrap|0.004 < ''Z'' < 0.01}}, stellar models give an age range of {{val|0.43|–|1.64|e=9|u=years}} between a star joining the main sequence and turning off to the red giant branch. With a mass closer to 2.2, however, the interpolated age for Vega is less than a billion.</ref>
+
+<ref name=apj708_1_71>{{cite journal | display-authors=1 | last1=Yoon | first1=Jinmi | last2=Peterson | first2=Deane M. | last3=Kurucz | first3=Robert L. | last4=Zagarello | first4=Robert J. | title=A New View of Vega's Composition, Mass, and Age | journal=The Astrophysical Journal | volume=708 | issue=1 | pages=71–79 |date=January 2010 | doi=10.1088/0004-637X/708/1/71 | bibcode=2010ApJ...708...71Y | doi-access=free }}</ref>
+
+<ref name=asp93_2_333>{{cite journal | last=Fernie | first=J. D. | title=On the variability of Vega | journal=Publications of the Astronomical Society of the Pacific | date=1981 | volume=93 | issue=2 | pages=333–337 | bibcode=1981PASP...93..333F | doi=10.1086/130834 | doi-access=free }}</ref>
+
+<ref name=salaris_cassisi2005>{{cite book | display-authors=1 | last1=Salaris | first1=Maurizio | last2=Cassisi | first2=Santi | date=2005 | title=Evolution of Stars and Stellar Populations | url=https://archive.org/details/evolutionofstars0000sala | url-access=registration | page=[https://archive.org/details/evolutionofstars0000sala/page/120 120] | publisher=John Wiley and Sons | isbn=978-0-470-09220-0 }}</ref>
+
+<ref name=apj601_1_512>{{cite journal | display-authors=1 | last1=Browning | first1=Matthew | last2=Brun | first2=Allan Sacha | last3=Toomre | first3=Juri | title=Simulations of core convection in rotating A-type stars: Differential rotation and overshooting | journal=Astrophysical Journal | date=2004 | volume=601 | issue=1 | pages=512–529 | doi=10.1086/380198 | bibcode=2004ApJ...601..512B | arxiv = astro-ph/0310003 | s2cid=16201995 }}</ref>
+
+<ref name=padmanabhan2002>{{cite book | first=Thanu | last=Padmanabhan | date=2002 | title=Theoretical Astrophysics | publisher=Cambridge University Press | isbn=978-0-521-56241-6 }}</ref>
+
+<ref name=apj161_1015>{{cite journal | display-authors=1 | last1=Oke | first1=J. B. | last2=Schild | first2=R. E. | title=The Absolute Spectral Energy Distribution of Alpha Lyrae | journal=Astrophysical Journal | date=1970 | volume=161 | pages=1015–1023 | doi=10.1086/150603 | bibcode=1970ApJ...161.1015O }}</ref>
+
+<ref name=richmond>{{cite web | last=Richmond | first=Michael | url=http://spiff.rit.edu/classes/phys440/lectures/boltz/boltz.html | title=The Boltzmann Equation | publisher=Rochester Institute of Technology | access-date=2007-11-15 | archive-date=March 25, 2004 | archive-url=https://web.archive.org/web/20040325051325/http://spiff.rit.edu/classes/phys440/lectures/boltz/boltz.html | url-status=dead }}</ref>
+
+<ref name=clayton1983>{{cite book | first=Donald D. | last=Clayton | date=1983 | title=Principles of Stellar Evolution and Nucleosynthesis | url=https://archive.org/details/principlesofstel0000clay | url-access=registration | publisher=University of Chicago Press | isbn=978-0-226-10953-4 }}</ref>
+
+<ref name=mnras197_57>{{cite journal | last=Michelson | first=E. | title=The near ultraviolet stellar spectra of alpha Lyrae and beta Orionis | journal=Monthly Notices of the Royal Astronomical Society | date=1981 | volume=197 | pages=57–74 | bibcode=1981MNRAS.197...57M | doi=10.1093/mnras/197.1.57| doi-access=free }}</ref>
+
+<ref name=aaa318_215>{{cite journal | last=Schmitt | first=J. H. M. M. | title=Coronae on solar-like stars | journal=Astronomy and Astrophysics | date=1999 | volume=318 | pages=215–230 | bibcode=1997A&A...318..215S }}</ref>
+
+<ref name=sao389>{{cite journal | last=Vaiana | first=G. S. | date=1980 | title=Stellar Coronae – Overview of the Einstein / CFA Stellar Survey In: ''Cool Stars, Stellar Systems, and the Sun'' | journal=SAO Special Report | volume=389 | issue=389 | editor=A. K. Dupree | pages=195–215 | bibcode=1980SAOSR.389..195V }}</ref>
+
+<ref name=apj213_5_874>{{cite journal | display-authors=1 | last1=Munro | first1=R. H. | last2=Jackson | first2=B. V. |date=May 1977 | title=Physical properties of a polar coronal hole from 2 to 5 solar radii | journal=Astrophysical Journal | volume=213 | issue=5 | pages=874–86 | bibcode=1977ApJ...213..874M | doi=10.1086/155220 }}</ref>
+
+<ref name=aaa500_3_L41>{{cite journal | display-authors=1 | last1=Lignières | first1=F. | last2=Petit | first2=P. | last3=Böhm | first3=T. | last4=Aurière | first4=M. | date=2009 | title=First evidence of a magnetic field on Vega | journal=Astronomy & Astrophysics | volume=500 | issue=3 | pages=L41–L44 | doi=10.1051/0004-6361/200911996  | doi-access=free| bibcode=2009A&A...500L..41L|arxiv = 0903.1247 | s2cid=6021105 }}</ref>
+
+<ref name=sd20090726>{{cite web | author=Staff | title=Magnetic Field On Bright Star Vega | work=Science Daily | date=July 26, 2009 | url=https://www.sciencedaily.com/releases/2009/06/090623111947.htm | access-date=2009-07-30 }}</ref>
+
+<ref name=apj229_661>{{cite journal | display-authors=1 | last1=Topka | first1=K. | last2=Fabricant | first2=D. | last3=Harnden | first3=F.R. Jr. | last4=Gorenstein | first4=P. | last5=Rosner | first5=R. | title=Detection of soft X-rays from Alpha Lyrae and Eta Bootis with an imaging X-ray telescope | journal=Astrophysical Journal | date=1979 | volume=229 | page=661 | doi=10.1086/157000 | bibcode=1979ApJ...229..661T | doi-access=free }}</ref>
+
+<ref name=apj429_2_L81>{{cite journal | display-authors=1 | last1=Gulliver | first1=Austin F. | last2=Hill | first2=Graham | last3=Adelman | first3=Saul J. | title=Vega: A rapidly rotating pole-on star | journal=The Astrophysical Journal | date=1994 | volume=429 | issue=2 | pages=L81–L84 | doi=10.1086/187418 | bibcode=1994ApJ...429L..81G }}</ref>
+
+<ref name=noao2006>{{cite web | author=Staff | date=2006-01-10 | title=Rapidly Spinning Star Vega has Cool Dark Equator | publisher=National Optical Astronomy Observatory | url=http://www.noao.edu/outreach/press/pr06/pr0603.html | access-date=2007-11-18 }}</ref>
+
+<ref name=adelman2004>{{cite journal | last=Adelman | first=Saul J. | title=The physical properties of normal A stars | journal=Proceedings of the International Astronomical Union | volume=2004 |issue=IAUS224 | pages=1–11 | date=July 2004 | doi=10.1017/S1743921304004314 | bibcode=2004IAUS..224....1A | doi-access=free }}</ref>
+
+<ref name=science317_5836_325>{{cite journal | last=Quirrenbach | first=Andreas | title=Seeing the Surfaces of Stars | journal=Science | date=2007 | volume=317 | issue=5836 | pages=325–326 | doi=10.1126/science.1145599 | pmid=17641185 | s2cid=118213499 }}</ref>
+
+<ref name=apj644_2_1291>{{cite journal | display-authors=1 | last1=Antia | first1=H. M. | last2=Basu | first2=Sarbani | title=Determining Solar Abundances Using Helioseismology | journal=The Astrophysical Journal | date=2006 | volume=644 | issue=2 | pages=1292–1298 | doi=10.1086/503707 | bibcode=2006ApJ...644.1292A |arxiv = astro-ph/0603001 | s2cid=15334093 }}</ref>
+
+<ref name=bicds38_137>{{cite journal | display-authors=1 | last1=Renson | first1=P. | last2=Faraggiana | first2=R. | last3=Boehm | first3=C. | title=Catalogue of Lambda Bootis Candidates | journal=Bulletin d'Information du Centre de Données Stellaires | date=1990 | volume=38 | pages=137–149 | bibcode=1990BICDS..38..137R }}—Entry for HD 172167 on p. 144.</ref>
+
+<ref name=apj548_2_77>{{cite journal | display-authors=1 | last1=Qiu | first1=H. M. | last2=Zhao | first2=G. | last3=Chen | first3=Y. Q. | last4=Li | first4=Z. W. | title=The Abundance Patterns of Sirius and Vega | journal=The Astrophysical Journal | date=2001 | volume=548 | issue=2 | pages=77–115 | doi=10.1086/319000 | bibcode=2001ApJ...548..953Q | doi-access=free }}</ref>
+
+<ref name=mnras301_4_1099>{{cite journal | display-authors=1 | last1=Martinez | first1=Peter | last2=Koen | first2=C. | last3=Handler | first3=G. | last4=Paunzen | first4=E. | title=The pulsating lambda Bootis star HD 105759 | journal=Monthly Notices of the Royal Astronomical Society | date=1998 | volume=301 | issue=4 | pages=1099–1103 | doi=10.1046/j.1365-8711.1998.02070.x | bibcode=1998MNRAS.301.1099M | doi-access=free }}</ref>
+
+<ref name=apj348_712>{{cite journal | display-authors=1 | last1=Adelman | first1=Saul J. | last2=Gulliver | first2=Austin F. | title=An elemental abundance analysis of the superficially normal A star Vega | journal=Astrophysical Journal, Part 1 | date=1990 | volume=348 | pages=712–717 | doi=10.1086/168279 | bibcode=1990ApJ...348..712A }}</ref>
+
+<ref name=aaa323_L49>{{cite journal | display-authors=1 | last1=Perryman | first1=M. A. C. | last2=Lindegren | first2=L. | last3=Kovalevsky | first3=J. | last4=Hoeg | first4=E. | last5=Bastian | first5=U. | last6=Bernacca | first6=P. L. | last7=Crézé | first7=M. | last8=Donati | first8=F. | last9=Grenon | first9=M. | title=The Hipparcos Catalogue | journal=Astronomy and Astrophysics | date=1997 | volume=323 | pages=L49–L52 | bibcode=1997A&A...323L..49P }}</ref>
+
+<ref name=majewski2006>{{cite web |last=Majewski |first=Steven R. |date=2006 |url=http://www.astro.virginia.edu/class/majewski/astr551/lectures/VELOCITIES/velocities.html |archive-url=https://archive.today/20120125061201/http://www.astro.virginia.edu/class/majewski/astr551/lectures/VELOCITIES/velocities.html |archive-date=2012-01-25 |title=Stellar Motions |publisher=University of Virginia |access-date=2007-09-27 }}—The net proper motion is given by:
+:<math>\begin{smallmatrix}\mu = \sqrt{ {\mu_\delta}^2 + {\mu_\alpha}^2 \cdot \cos^2 \delta }\ =\ 327.78\ \text{mas/y} \end{smallmatrix}</math>
+where <math>\mu_\alpha</math> and <math>\mu_\delta</math> are the components of proper motion in the R.A. and Declination, respectively, and <math>\delta</math> is the Declination.</ref>
+
+<ref name=moulton1906>{{cite book | first=Forest Ray | last=Moulton | date=1906 | page=[https://archive.org/details/anintroductiont19unkngoog/page/n534 502] | title=An Introduction to Astronomy | url=https://archive.org/details/anintroductiont19unkngoog | publisher=The Macmillan company }}</ref>
+
+<ref name=inglis2003>{{cite book | first=Mike | last=Inglis | date=2003 | title=Observer's Guide to Stellar Evolution: The Birth, Life, and Death of Stars | publisher=Springer | isbn=978-1-85233-465-9 }}</ref>
+
+<ref name="Hurt2021">{{cite journal |last1=Hurt |first1=Spencer A. |last2=Quinn |first2=Samuel N. |last3=Latham |first3=David W. |last4=Vanderburg |first4=Andrew |last5=Esquerdo |first5=Gilbert A. |last6=Calkins |first6=Michael L. |last7=Berlind |first7=Perry |last8=Angus |first8=Ruth |last9=Latham |first9=Christian A. |last10=Zhou |first10=George |title=A Decade of Radial-velocity Monitoring of Vega and New Limits on the Presence of Planets |journal=The Astronomical Journal |date=21 January 2021 |volume=161 |issue=4 |page=157 |doi=10.3847/1538-3881/abdec8 |arxiv=2101.08801 |bibcode=2021AJ....161..157H |s2cid=231693198 |doi-access=free }}</ref>
+
+<ref name=aaa339>{{cite journal | last=Barrado y Navascues | first=D. | title=The Castor moving group. The age of Fomalhaut and VEGA | journal=Astronomy and Astrophysics | date=1998 | volume=339 | pages=831–839 | bibcode=1998A&A...339..831B |arxiv = astro-ph/9905243 }}</ref>
+
+<ref name=apj285_808>{{cite journal | display-authors=1 | last1=Harper | first1=D. A. | last2=Loewenstein | first2=R. F. | last3=Davidson | first3=J. A. | title=On the nature of the material surrounding VEGA | journal=Astrophysical Journal, Part 1 | date=1984 | volume=285 | pages=808–812 | doi=10.1086/162559 | bibcode=1984ApJ...285..808H | doi-access=free }}</ref>
+
+<ref name=mnras_97_423>{{cite journal | last=Robertson | first=H. P. | author-link = Howard Percy Robertson | title=Dynamical effects of radiation in the solar system | journal=Monthly Notices of the Royal Astronomical Society | volume=97 | issue=6 | pages=423–438 |date=April 1937 | bibcode=1937MNRAS..97..423R | doi=10.1093/mnras/97.6.423| doi-access=free }}</ref>
+
+<ref name=mnras314_4_702>{{cite journal | display-authors=1 | last1=Dent | first1=W. R. F. | last2=Walker | first2=H. J. | last3=Holland | first3=W. S. | last4=Greaves | first4=J. S. | title=Models of the dust structures around Vega-excess stars | journal=Monthly Notices of the Royal Astronomical Society | date=2000 | volume=314 | issue=4 | pages=702–712 | doi=10.1046/j.1365-8711.2000.03331.x | bibcode=2000MNRAS.314..702D | doi-access=free }}</ref>
+
+<ref name=apj559_1_237>{{cite journal | display-authors=1 | last1=Ciardi | first1=David R. | last2=van Belle | first2=Gerard T. | last3=Akeson | first3=Rachel L. | last4=Thompson | first4=Robert R. | last5=Lada | first5=Elizabeth A. | last6=Howell | first6=Steve B. | title=On The Near-Infrared Size of Vega | journal=The Astrophysical Journal | date=2001 | volume=559 | issue=1 | pages=237–244 | bibcode=2001ApJ...559.1147C | doi=10.1086/322345 |arxiv = astro-ph/0105561 | s2cid=15898697 }}</ref>
+
+<ref name=aaa534_1_237>{{cite journal | display-authors=1 | last1=Defrère | first1=D. | last2=Absil | first2=O. | last3=Augereau | first3=J.C. | last4=Di Folco | first4=E. | title=Hot exozodiacal dust resolved around Vega with IOTA/IONIC | journal=Astronomy and Astrophysics | date=2011 | volume=534 | pages=A5 | doi=10.1051/0004-6361/201117017  | doi-access=free| bibcode=2011A&A...534A...5D | arxiv = 1108.3698 | s2cid=8291382 }}</ref>
+
+<ref name=aaa452_1_237>{{cite journal | display-authors=1 | last1=Absil | first1=O. | last2=di Folco | first2=E. | last3=Mérand | first3=A. | last4=Augereau | first4=J.-C. | last5=Coudé du Foresto | first5=V. | last6=Aufdenberg | first6=J. P. | last7=Kervella | first7=P. | last8=Ridgway | first8=S. T. | last9=Berger | first9=D. H. | title=Circumstellar material in the Vega inner system revealed by CHARA/FLUOR | journal=Astronomy and Astrophysics | date=2006 | volume=452 | issue=1 | pages=237–244 | doi=10.1051/0004-6361:20054522  | doi-access=free| bibcode=2006A&A...452..237A |arxiv = astro-ph/0604260 | s2cid=2165054 }}</ref>
+
+<ref name=girault_rime_2006>{{cite web | last=Girault-Rime | first=Marion | date=Summer 2006 | url=http://www2.cnrs.fr/en/578.htm | title=Vega's Stardust | publisher=CNRS International Magazine | access-date=2007-11-19 }}</ref>
+
+<ref name=nature392_6678_788>{{cite journal | display-authors=1 | last1=Holland | first1=Wayne S. | last2=Greaves | first2=Jane S. | last3=Zuckerman | first3=B. | last4=Webb | first4=R. A. | last5=McCarthy | first5=Chris | last6=Coulson | first6=Iain M. | last7=Walther | first7=D. M. | last8=Dent | first8=William R. F. | last9=Gear | first9=Walter K. | title=Submillimetre images of dusty debris around nearby stars | journal=Nature | date=1998 | volume=392 | issue=6678 | pages=788–791 | bibcode=1998Natur.392..788H | doi=10.1038/33874 | s2cid=4373502 }}</ref>
+
+<ref name=jac19980421>{{cite web|author=Staff |date=1998-04-21 |title=Astronomers discover possible new Solar Systems in formation around the nearby stars Vega and Fomalhaut |publisher=Joint Astronomy Centre |url=http://outreach.jach.hawaii.edu/pressroom/1998_vega/ |access-date=2007-10-29 |archive-url=https://web.archive.org/web/20081216160151/http://outreach.jach.hawaii.edu/pressroom/1998_vega/ |archive-date=2008-12-16 }}</ref>
+
+<ref name=apj569_2_L115>{{cite journal | display-authors=1 | last1=Wilner| first1=D. | last2=Holman | first2=M. | last3=Kuchner | first3=M. | last4=Ho | first4=P. T. P. | title=Structure in the Dusty Debris around Vega | journal=The Astrophysical Journal | date=2002 | volume=569 | issue=2 | pages=L115–L119 | doi=10.1086/340691 | bibcode=2002ApJ...569L.115W |arxiv = astro-ph/0203264 | s2cid=36818074}}</ref>
+
+<ref name=apj598_2_1321>{{cite journal | last=Wyatt | first=M. | title=Resonant Trapping of Planetesimals by Planet Migration: Debris Disk Clumps and Vega's Similarity to the Solar System | journal=The Astrophysical Journal | year=2003 | volume=598 | issue=2 | pages=1321–1340 | doi=10.1086/379064 | bibcode=2003ApJ...598.1321W |arxiv = astro-ph/0308253 | s2cid=10755059 }}</ref>
+
+<ref name=roe20031201>{{cite web | display-authors=1 | last1=Gilchrist | first1=E. | date=2003-12-01 | last2=Wyatt | first2=M. | last3=Holland | first3=W. | last4=Maddock | first4=J. | last5=Price | first5=D. P. | title=New evidence for Solar-like planetary system around nearby star | publisher=Royal Observatory, Edinburgh | url=http://www.roe.ac.uk/roe/support/pr/pressreleases/vega.html | access-date=2007-10-30 }}</ref>
+
+<ref name=apj652_2_1729>{{cite journal | display-authors=1 | last1=Itoh | first1=Yoichi | last2=Oasa | first2=Yumiko | last3=Fukagawa | first3=Misato | title=Coronagraphic Search for Extrasolar Planets around ε Eri and Vega | journal=The Astrophysical Journal | date=2006 | volume=652 | issue=2 | pages=1729–1733 | doi=10.1086/508420 | bibcode=2006ApJ...652.1729I | arxiv=astro-ph/0608362 | s2cid=119542260 }}</ref>
+
+<ref name=aaa531>{{cite journal | display-authors=1 | last1=Piétu | first1=V. | last2=di Folco | first2=E. | last3=Guilloteau | first3=S. | last4=Gueth | first4=F. | last5=Cox | first5=P. | title=High-sensitivity search for clumps in the Vega Kuiper-belt. New PdBI 1.3 mm observations | journal=Astronomy & Astrophysics | volume=531 |date=July 2011 | doi=10.1051/0004-6361/201116796  | doi-access=free| bibcode=2011A&A...531L...2P | arxiv=1105.2586 | pages=L2| s2cid=55674804 }}</ref>
+
+<ref name=pasp97_180>{{cite journal | display-authors=1 | last1=Campbell | first1=B. | last2=Garrison | first2=R. F. | title=On the inclination of extra-solar planetary orbits | journal=Publications of the Astronomical Society of the Pacific | date=1985 | volume=97 | pages=180–182 | doi=10.1086/131516 | bibcode=1985PASP...97..180C | doi-access=free }}</ref>
+
+<ref name=mnras55_429>{{cite journal | last=Knobel | first=E. B. | title=Al Achsasi Al Mouakket, on a catalogue of stars in the Calendarium of Mohammad Al Achsasi Al Mouakket | journal=Monthly Notices of the Royal Astronomical Society | volume=55 | issue=8 | pages=429–438 |date=June 1895 | bibcode=1895MNRAS..55..429K | doi=10.1093/mnras/55.8.429| doi-access=free }}</ref>
+
+<ref name=massey2001>{{cite book |first=Gerald |last=Massey |date=2001 |title=Ancient Egypt: the Light of the World |publisher=Adamant Media Corporation <!--|ISBN=140217442X --> |isbn=978-1-60206-086-9}}</ref>
+
+<ref name=olcott1911>{{cite book | first=William Tyler | last=Olcott | date=1911 | title=Star Lore of All Ages: A Collection of Myths, Legends, and Facts Concerning the Constellations of the Northern Hemisphere | url=https://archive.org/details/starloreofallage00olcouoft | publisher=G.P. Putnam's sons | isbn=((978-0-7873-1096-7)) | bibcode=1911slaa.book.....O }}</ref>
+
+<ref name=houlding2005>{{cite web | last=Houlding | first=Deborah | date=December 2005 | url=http://www.skyscript.co.uk/lyre.html | title=Lyra: The Lyre | publisher=Sktscript | access-date=2007-11-04 | archive-date=January 4, 2012 | archive-url=https://web.archive.org/web/20120104234612/http://skyscript.co.uk/lyre.html | url-status=dead }}</ref>
+
+<ref name=brill7_292>{{cite book | display-authors=1 | first1=M. Th. | last1=Houtsma | last2=Wensinck | first2=A. J. | last3=Gibb | first3=H. A. R. | last4=Heffening | first4=W. | last5=Lévi-Provençal | date=1987 | title=E. J. Brill's First Encyclopaedia of Islam, 1913–36 | volume=VII | page=292 | publisher=E.J. Brill }}</ref>
+
+<ref name=chaikin1990>{{cite book | first=Andrew L. | last=Chaikin | editor1-last=Beatty | editor1-first=J. K. | editor2-last=Petersen | editor2-first=C. C. | date=1990 | title=The New Solar System | edition=4th | publisher=Cambridge University Press | location=Cambridge, England | isbn=978-0-521-64587-4 }}</ref>
+
+<ref name=roy_clarke2003>{{cite book | first1=Archie E. | display-authors=1 | last1=Roy | last2=Clarke | first2=David | date=2003 | title=Astronomy: Principles and Practice | publisher=CRC Press | isbn=978-0-7503-0917-2 }}</ref>
+
+<ref name=jps28_18>{{cite journal | last=Smith | first=S. Percy | title=The Fatherland of the Polynesians – Aryan and Polynesian Points of Contact | journal=The Journal of the Polynesian Society | date=1919 | volume=28 | pages=18–20 | url=https://books.google.com/books?id=0sh9-6UH644C&pg=PA27 }}</ref>
+
+<ref name=kendall1845>{{cite book | first=E. Otis | last=Kendall |author-link=E. Otis Kendall | date=1845 | title=Uranography: Or, A Description of the Heavens; Designed for Academics and Schools; Accompanied by an Atlas of the Heavens | publisher=Oxford University Press | location=Philadelphia }}</ref>
+
+<ref name=allen1963>{{cite book | first=Richard Hinckley | last=Allen | date=1963 | title=Star Names: Their Lore and Meaning | publisher=Courier Dover Publications | isbn=((978-0-486-21079-7)) | url-access=registration | url=https://archive.org/details/starnamestheirlo00alle }}</ref>
+
+<ref name=wei_yue_tao2005>{{cite book |first1=Liming |display-authors=1 |last1=Wei |last2=Yue |first2=L. |last3=Lang Tao |first3=L. |date=2005 |title=Chinese Festivals |publisher=Chinese Intercontinental Press <!--|ISBN=750850836X --> |isbn=978-7-5085-0836-8}}</ref>
+
+<ref name=kippas1919>{{cite book | first=John Robert | last=Kippax | date=1919 | title=The Call of the Stars: A Popular Introduction to a Knowledge of the Starry Skies with their Romance and Legend | url=https://archive.org/details/callstarsapopul01kippgoog | publisher=G. P. Putnam's Sons }}</ref>
+
+<ref name=boyce1996>{{cite book | first=Mary | last=Boyce | date=1996 | title=A History of Zoroastrianism, volume one: The Early Period | publisher=E. J. Brill | location=New York | isbn=978-90-04-08847-4 }}</ref>
+
+<ref name=tyson1993>{{cite book | first1=Donald | display-authors=1 | last1=Tyson | last2=Freake | first2=James | date=1993 | title=Three Books of Occult Philosophy | publisher=Llewellyn Worldwide | isbn=978-0-87542-832-1 }}</ref>
+
+<ref name=argippa1533>{{cite book | first=Heinrich Cornelius | last=Agrippa | date=1533 | title=De Occulta Philosophia | publisher=BRILL | isbn=((978-90-04-09421-5)) }}</ref>
+
+<ref name=burnham1978>{{cite book | first=Robert J. R. | last=Burnham | date=1978 | title=Burnham's Celestial Handbook: An Observer's Guide to the Universe Beyond the Solar System | volume=2 | publisher=Courier Dover Publications | isbn=978-0-486-23568-4 | url-access=registration | url=https://archive.org/details/burnhamscelestia02robe/page/1136/mode/2up |pages=1137–1144}}</ref>
+
+<ref name=frommert>{{cite web | last=Frommert | first=Hartmut | url=http://yuridrive.yurisnight.net/~spider/spider/Misc/alphaLyr.html | title=Vega, Alpha Lyrae | publisher=SEDS | access-date=2007-11-02 | archive-url=https://archive.today/20071024205329/http://yuridrive.yurisnight.net/~spider/spider/Misc/alphaLyr.html | archive-date=2007-10-24 }}</ref>
+
+<ref name=esa20050520>{{cite web | author=Staff | date=2005-05-20 | url=http://www.esa.int/SPECIALS/Launchers_Access_to_Space/SEMH3E67ESD_0.html | title=Launch vehicles – Vega | publisher=European Space Agency | access-date=2007-11-12 }}</ref>
+
+<ref name=rumerman2003>{{cite web | first=Judy | last=Rumerman | date=2003 | url=http://www.centennialofflight.gov/essay/Aerospace/vega/Aero14.htm | title=The Lockheed Vega and Its Pilots | publisher=U.S. Centennial of Flight Commission | access-date=2007-11-12 | archive-url=https://web.archive.org/web/20071018133435/http://centennialofflight.gov/essay/Aerospace/vega/Aero14.htm | archive-date=2007-10-18 }}</ref>
+
+<ref name=baas25_1319>{{cite journal | last=Garrison | first=R. F. | title=Anchor Points for the MK System of Spectral Classification | journal=Bulletin of the American Astronomical Society | volume=25 | page=1319 | date=December 1993 | bibcode=1993AAS...183.1710G | url=http://www.astro.utoronto.ca/~garrison/mkstds.html | access-date=February 5, 2012 | archive-date=June 25, 2019 | archive-url=https://web.archive.org/web/20190625094716/http://www.astro.utoronto.ca/~garrison/mkstds.html | url-status=dead }}</ref>
+
+<ref name=glasse2008>{{cite book | first=Cyril | last=Glassé | title=The new encyclopedia of Islam | series=Reference, Information and Interdisciplinary Subjects Series | edition=3rd | publisher=Rowman & Littlefield | date=2008 | isbn=978-0-7425-6296-7 | page=75 | url=https://books.google.com/books?id=D7tu12gt4JYC&pg=PA75 }}</ref>
+
+<ref name=Kunitzsch86>{{cite journal |last=Kunitzsch|first=Paul|date=1986|title=The Star Catalogue Commonly Appended to the Alfonsine Tables|journal=Journal for the History of Astronomy|volume=17|issue=49|pages=89–98|doi=10.1177/002182868601700202|bibcode = 1986JHA....17...89K |s2cid=118597258}}</ref>
+
+<ref name=gray2003>{{cite journal|bibcode=2003AJ....126.2048G|arxiv=astro-ph/0308182|title=Contributions to the Nearby Stars (NStars) Project: Spectroscopy of Stars Earlier than M0 within 40 parsecs: The Northern Sample I|journal=The Astronomical Journal|volume=126|issue=4|pages=2048|last1=Gray|first1=R. O.|last2=Corbally|first2=C. J.|last3=Garrison|first3=R. F.|last4=McFadden|first4=M. T.|last5=Robinson|first5=P. E.|year=2003|doi=10.1086/378365|s2cid=119417105}}</ref>
+
+<ref name=gray2007>{{cite journal |last=Gray|first=Raymond|date=2007|title=The Problems with Vega|journal=The Future of Photometric, Spectrophotometric and Polarimetric Standardization, ASP Conference Series, Proceedings of a Conference Held 8–11 May 2006 in Blankenberge, Belgium|volume=364|pages=305–|bibcode = 2007ASPC..364..305G }}</ref>
+
+<ref name=butkovskaya2011>{{cite journal |last=Butkovskaya|first=Varvara|date=2011|title=The long-term variability of Vega|journal=Astronomische Nachrichten|volume=332|issue=9–10|pages=956–960|doi=10.1002/asna.201111587|bibcode = 2011AN....332..956B |doi-access=free}}</ref>
+
+<ref name="hughes2012">{{cite journal
+ | title=Confirming the Primarily Smooth Structure of the Vega Debris Disk at Millimeter Wavelengths
+ | display-authors=1
+ | last1=Hughes | first1=A. Meredith | last2=Wilner | first2=David J.
+ | last3=Mason | first3=Brian | last4=Carpenter | first4=John M.
+ | last5=Plambeck | first5=Richard | last6=Chiang | first6=Hsin-Fang
+ | last7=Andrews | first7=Sean M. | last8=Williams | first8=Jonathan P.
+ | last9=Hales | first9=Antonio | last10=Su | first10=Kate
+ | last11=Chiang | first11=Eugene | last12=Dicker | first12=Simon
+ | last13=Korngut | first13=Phil | last14=Devlin | first14=Mark
+ | date=2012 | journal=The Astrophysical Journal
+ | volume=750 | issue=1 | pages=82
+ | id=82
+ | doi=10.1088/0004-637X/750/1/82 | bibcode=2012ApJ...750...82H
+ | arxiv=1203.0318 | s2cid=118553890
+ }}</ref>
+
+<ref name="sibthorpe2010">{{cite journal
+ | title=The Vega debris disc: A view from Herschel
+ | display-authors=1
+ | last1=Sibthorpe | first1=B. | last2=Vandenbussche | first2=B.
+ | last3=Greaves | first3=J. S. | last4=Pantin | first4=E.
+ | last5=Olofsson | first5=G. | last6=Acke | first6=B.
+ | last7=Barlow | first7=M. J. | last8=Blommaert | first8=J. A. D. L.
+ | last9=Bouwman | first9=J. | last10=Brandeker | first10=A.
+ | last11=Cohen | first11=M. | last12=De Meester | first12=W.
+ | last13=Dent | first13=W. R. F. | last14=di Francesco | first14=J.
+ | last15=Dominik | first15=C. | last16=Fridlund | first16=M.
+ | last17=Gear | first17=W. K. | last18=Glauser | first18=A. M.
+ | last19=Gomez | first19=H. L. | last20=Hargrave | first20=P. C.
+ | last21=Harvey | first21=P. M. | last22=Henning | first22=Th.
+ | last23=Heras | first23=A. M. | last24=Hogerheijde | first24=M. R.
+ | last25=Holland | first25=W. S. | last26=Ivison | first26=R. J.
+ | last27=Leeks | first27=S. J. | last28=Lim | first28=T. L.
+ | last29=Liseau | first29=R. | last30=Matthews | first30=B. C.
+ | last31=Naylor | first31=D. A. | last32=Pilbratt | first32=G. L.
+ | last33=Polehampton | first33=E. T. | last34=Regibo | first34=S.
+ | last35=Royer | first35=P. | last36=Sicilia-Aguilar | first36=A.
+ | last37=Swinyard | first37=B. M. | last38=Waelkens | first38=C.
+ | last39=Walker | first39=H. J. | last40=Wesson | first40=R.
+ | journal=Astronomy and Astrophysics | volume=518 | pages=L130
+ | id=L130 | date=2010
+ | doi=10.1051/0004-6361/201014574  | doi-access=free| bibcode=2010A&A...518L.130S
+ | arxiv=1005.3543 | s2cid=6461181
+ }}</ref>
+
+<ref name=aa575_A35>{{cite journal
+ | last=Bailer-Jones | first=C. A. L.
+ | title=Close encounters of the stellar kind
+ | journal=Astronomy & Astrophysics
+ | volume=575 | id=A35 | page=13 | date=March 2015
+ | doi=10.1051/0004-6361/201425221
+  | doi-access=free| bibcode=2015A&A...575A..35B
+ | arxiv=1412.3648 | s2cid=59039482
+ }}</ref>
+
+<ref name=aa577_A64>{{cite journal
+ | display-authors=1 | last1=Böhm | first1=T.
+ | last2=Holschneider | first2=M. | last3=Lignières | first3=F.
+ | last4=Petit | first4=P. | last5=Rainer | first5=M.
+ | last6=Paletou | first6=F. | last7=Wade | first7=G.
+ | last8=Alecian | first8=E. | last9=Carfantan | first9=H.
+ | last10=Blazère | first10=A. | last11=Mirouh | first11=G. M.
+ | title=Discovery of starspots on Vega. First spectroscopic detection of surface structures on a normal A-type star
+ | journal=Astronomy & Astrophysics
+ | volume=577 | id=A64 | page=12 | date=May 2015
+ | doi=10.1051/0004-6361/201425425  | doi-access=free| bibcode=2015A&A...577A..64B
+ | arxiv=1411.7789 | s2cid=53548120 }}</ref>
+
+<ref name="Gatewood2008">{{cite journal|bibcode=2008AJ....136..452G|doi = 10.1088/0004-6256/136/1/452|title = Astrometric Studies of Aldebaran, Arcturus, Vega, the Hyades, and Other Regions|journal = The Astronomical Journal|volume = 136|issue = 1|pages = 452–460|year = 2008|last1 = Gatewood|first1 = George|doi-access = free}}</ref>
+
+<ref name=bohlin>{{cite journal|bibcode=2004AJ....127.3508B|title=Hubble Space Telescope Absolute Spectrophotometry of Vega from the Far-Ultraviolet to the Infrared|journal=The Astronomical Journal|volume=127|issue=6|pages=3508–3515|last1=Bohlin|first1=R. C.|last2=Gilliland|first2=R. L.|year=2004|doi=10.1086/420715|doi-access=free}}</ref>
+
+<ref name=gcvs>{{cite journal|bibcode=2009yCat....102025S|title=VizieR Online Data Catalog: General Catalogue of Variable Stars (Samus+ 2007–2013)|journal=VizieR On-line Data Catalog: B/GCVS. Originally Published in: 2009yCat....102025S|volume=1|page=02025|last1=Samus|first1=N. N.|last2=Durlevich|first2=O. V.|year=2009|display-authors=etal}}</ref>
+
+<ref name=ducati>{{cite journal|bibcode=2002yCat.2237....0D|title=VizieR Online Data Catalog: Catalogue of Stellar Photometry in Johnson's 11-color system|journal=CDS/ADC Collection of Electronic Catalogues|volume=2237|last=Ducati|first=J. R.|year=2002}}</ref>
+
+<ref name="WGSN">{{cite web | url=https://www.iau.org/science/scientific_bodies/working_groups/280/ | title=IAU Working Group on Star Names (WGSN) | publisher=International Astronomical Union | access-date=22 May 2016 | archive-date=April 23, 2020 | archive-url=https://web.archive.org/web/20200423144448/https://www.iau.org/science/scientific_bodies/working_groups/280/ | url-status=dead }}</ref>
+
+<ref name="WGSN1">{{cite web | url=http://www.pas.rochester.edu/~emamajek/WGSN/WGSN_bulletin1.pdf | title=Bulletin of the IAU Working Group on Star Names, No. 1 | publisher=IAU Division C: Education, Outreach and Heritage (WGSN) | date=July 2016 |access-date=28 July 2016 }}</ref>
+
+<ref name="IAU-CSN">{{cite web | url=http://www.pas.rochester.edu/~emamajek/WGSN/IAU-CSN.txt | title=IAU Catalog of Star Names | publisher=IAU Division C: Education, Outreach and Heritage (WGSN) | date=August 21, 2016 |access-date=28 July 2016 }}</ref>
+
+<ref name=Gingerish1987>{{cite journal | last1 = Gingerich | first1 = O.| doi = 10.1111/j.1749-6632.1987.tb37197.x | title = Zoomorphic Astrolabes and the Introduction of Arabic Star Names into Europe | journal = Annals of the New York Academy of Sciences | volume = 500 | issue = 1| pages = 89–104 | year = 1987 |bibcode = 1987NYASA.500...89G | s2cid = 84102853}}</ref>
+
+<ref name=hamacher>{{cite journal|display-authors=1|last1=Hamacher |first1=Duane W.|last2=Frew |first2=David J. |date=2010|title= An Aboriginal Australian Record of the Great Eruption of Eta Carinae|journal=Journal of Astronomical History & Heritage |volume=13|issue=3|pages= 220–34|doi=10.3724/SP.J.1440-2807.2010.03.06 |arxiv = 1010.4610 |bibcode = 2010JAHH...13..220H |s2cid=118454721 }}</ref>
+
+<ref name=stanbridge>{{cite journal|bibcode=1857PPIVT...2..137S|title=On the astronomy and mythology of the Aborigines of Victoria|journal=Proceedings of the Philosophical Institute of Victoria|volume=2|pages=137|last=Stanbridge|first=William Edward|year=1857}}</ref>
+
+<ref name=auden>{{Cite web | url=https://genius.com/W-h-auden-a-summer-night-to-geoffrey-hoyland-annotated | title=W. H. Auden – A Summer Night (to Geoffrey Hoyland) | access-date=2019-01-06}}</ref>
+
+<ref name=aeea>{{cite web|url=http://aeea.nmns.edu.tw/2006/0607/ap060703.html|language=zh|trans-title=AEEA (Activities of Exhibition and Education in Astronomy)|title=天文教育資訊網|date=2006-07-03|access-date=2019-01-06|archive-date=May 21, 2011|archive-url=https://web.archive.org/web/20110521232833/http://aeea.nmns.edu.tw/2006/0607/ap060703.html|url-status=dead}}</ref>
+
+<ref name=zh>{{cite book|author=陳久金|title=中國星座神話|url=https://books.google.com/books?id=0Vex0rYzdu8C|year=2005|publisher=五南圖書出版股份有限公司|isbn=978-986-7332-25-7}}</ref>
+
+<ref name=Kunitzsch>{{cite book
+ |last1=Kunitzsch |first1=Paul
+ |last2=Smart |first2=Tim
+ |date = 2006 |edition = 2nd rev.
+ |title = A Dictionary of Modern star Names: A Short Guide to 254 Star Names and Their Derivations
+ |publisher = Sky Pub |location = Cambridge, Massachusetts
+ |isbn = 978-1-931559-44-7
+}}</ref>
+
+<ref name=tomkin1998>{{cite journal|last=Tomkin|first=Jocelyn|date=April 1998|title=Once and Future Celestial Kings|journal=Sky and Telescope|volume=95|issue=4|pages=59–63|bibcode=1998S&T....95d..59T}} – based on computations from [[HIPPARCOS]] data. (The calculations exclude stars whose distance or [[proper motion]] is uncertain.) [ftp://tlgleonid.asuscomm.com/HITACHI/BOOK_ASTRO/S&T/SkyandTelescope_1998%20-%20astronomy/04/199804059063.pdf PDF]{{dead link|date=May 2025|bot=medic}}{{cbignore|bot=medic}}</ref>
+
+<ref name=petit2022>{{cite journal| bibcode=2022A&A...666A..20P | title=A decade-long magnetic monitoring of Vega | last1=Petit | first1=P. | last2=Böhm | first2=T. | last3=Folsom | first3=C. P. | last4=Lignières | first4=F. | last5=Cang | first5=T. | journal=Astronomy and Astrophysics | year=2022 | volume=666 | pages=A20 | doi=10.1051/0004-6361/202143000  | doi-access=free| arxiv=2208.09196 | s2cid=251710497 }}</ref>
+
+<ref name=vedabase>{{Cite web
+ | title=ŚB 11.16.27
+ | url=https://vedabase.io/en/library/sb/11/16/27/
+ | access-date=2021-03-29
+ | website=vedabase.io | language=en }}</ref>
+
+<ref name="Vievard2023">{{cite journal |last1=Vievard |first1=S. |last2=Huby |first2=E. |display-authors=etal |date=September 2023 |title=Single-aperture spectro-interferometry in the visible at the Subaru telescope with FIRST: First on-sky demonstration on Keho'oea (α Lyrae) and Hokulei (α Aurigae) |journal=[[Astronomy & Astrophysics]] |volume=677 |issue= |pages=A84 |doi=10.1051/0004-6361/202245115  |doi-access=free|arxiv=2307.09746 |bibcode=2023A&A...677A..84V}}</ref>
+
+<ref name=zorec2012>{{cite journal |last1=Zorec |first1=J. |last2=Royer |first2=F. |title=Rotational velocities of A-type stars. IV. Evolution of rotational velocities |journal=Astronomy and Astrophysics |date=2012 |volume=537 |pages=A120 |doi=10.1051/0004-6361/201117691  |doi-access=free|arxiv=1201.2052 |bibcode=2012A&A...537A.120Z }}</ref>
+
+}}
+
+==External links==
+{{Commons category}}
+* {{cite web
+| author=Anonymous | title=Vega | work=SolStation | publisher=The Sol Company | url=http://www.solstation.com/stars/vega.htm | archive-url=https://web.archive.org/web/20000824114024/http://www.solstation.com/stars/vega.htm | url-status=dead | archive-date=August 24, 2000 | access-date=2005-11-09 }}
+* {{cite web | display-authors=1 | last1=Gilchrist | first1=Eleanor | last2=Wyatt | first2=Mark | last3=Holland | first3=Wayne | last4=Price | first4=Douglas Pierce | last5=Maddock | first5=Julia | title=New evidence for Solar-like planetary system around nearby star | date=2003-12-01 | publisher=Joint Astronomy Centre | url=http://outreach.jach.hawaii.edu/pressroom/2003_vegasolar/ | access-date=2007-11-10 | archive-url=https://web.archive.org/web/20090923182639/http://outreach.jach.hawaii.edu/pressroom/2003_vegasolar/ | archive-date=2009-09-23 }}
+* {{cite web
+| first1=Gay Yee | display-authors=1 | last1=Hill | first2=Dolores | last2=Beasley | date=2005-01-10 | title=Spitzer Sees Dusty Aftermath of Pluto-Sized Collision | publisher=NASA/Spitzer Space Telescope | url=http://www.spitzer.caltech.edu/Media/releases/ssc2005-01/release.shtml | access-date=2007-11-02 | archive-url = https://web.archive.org/web/20070518105642/http://www.spitzer.caltech.edu/Media/releases/ssc2005-01/release.shtml| archive-date = May 18, 2007}}
+
+{{Pole star}}{{Sky|18|36|56.3364|+|38|47|01.291|25}}
+{{Stars of Lyra}}
+{{2021 in space}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+{{Authority control}}
+
+[[Category:Vega| ]]
+<!-- Properties -->
+[[Category:A0V stars]]
+[[Category:Delta Scuti variables]]
+[[Category:Lambda Boötis stars]]
+[[Category:Circumstellar disks]]
+[[Category:Candidate planetary systems]]
+[[Category:Castor Moving Group]]
+<!-- Location/catalogues -->
+[[Category:Lyra]]
+[[Category:Bayer objects|Lyrae, Alpha]]
+[[Category:Bright Star Catalogue objects|7001]]
+[[Category:Durchmusterung objects|BD+38 3238]]
+[[Category:Flamsteed objects|Lyrae, 03]]
+[[Category:Gliese and GJ objects|0721]]
+[[Category:Henry Draper Catalogue objects|172167]]
+[[Category:Hipparcos objects|091262]]
+[[Category:Northern pole stars]]
+[[Category:Stars with proper names|Vega]]
+[[Category:Lucidae]]
+[[Category:Astronomical objects known since antiquity]]

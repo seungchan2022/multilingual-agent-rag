@@ -1,0 +1,75 @@
+{{Infobox element
+|symbol =Sm
+|Z      =62
+|number =62
+|name   =samarium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[promethium]]
+|right=[[europium]]
+|above=–
+|below=[[plutonium|Pu]]
+|image name=Samarium-2.jpg
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 24, 8, 2
+|phase=
+|density=7.518&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=7.16
+|melting point K=1345
+|melting point C=1072
+|melting point F=1962
+|boiling point K=2173
+|boiling point C=1900
+|boiling point F=3452
+|heat fusion=8.62
+|heat vaporization=192
+|heat capacity=29.54
+|vapor pressure 1=1001
+|vapor pressure 10=1106
+|vapor pressure 100=1240
+|vapor pressure 1 k=(1421)
+|vapor pressure 10 k=(1675)
+|vapor pressure 100 k=(2061)
+|vapor pressure comment=
+|crystal structure=rhombohedral
+|crystal structure Pearson symbol=hR3
+|lattice constants=''a''<sub>r</sub>&nbsp;=&nbsp;0.89834&nbsp;nm<br />α&nbsp;=&nbsp;23.307°<br />''a''<sub>h</sub>&nbsp;=&nbsp;0.36291&nbsp;nm<br />''c''<sub>h</sub>&nbsp;=&nbsp;2.6207&nbsp;nm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.17
+|number of ionization energies=3
+|ionization energy 1=544.5
+|ionization energy 2=1070
+|ionization energy 3=2260
+|atomic radius=180
+|covalent radius={{val|198|8}}
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering ref=<ref name=magnet>{{cite book |url=https://web.archive.org/web/20110303222309/http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/elementmagn.pdf |chapter=Magnetic susceptibility of the elements and inorganic compounds |editor=Lide, D. R. |title = CRC Handbook of Chemistry and Physics |edition=86th |page=4-134 |location=Boca Raton (FL) |publisher=CRC Press |year=2005 |isbn=0-8493-0486-5 }}</ref>
+|electrical resistivity unit prefix=µ
+|electrical resistivity=α, poly: 0.940 (at [[room temperature|r.t.]]) 
+|thermal conductivity=13.3
+|thermal expansion=poly: 12.7 (at [[room temperature|r.t.]]) 
+|speed of sound rod at 20=2130
+|magnetic susceptibility= {{val|+1860.0|e=−6}}
+|magnetic susceptibility ref= &#x20;(291&nbsp;K)<ref>{{Cite book |title=CRC, Handbook of Chemistry and Physics |url=https://books.google.com/books?id=-TxCAQAAIAAJ&newbks=0&hl=en |last=Weast |first=Robert |publisher=Chemical Rubber Company Publishing |year=1983 |isbn=978-0-8493-0464-4 |location=Boca Raton, Florida |pages=E112}}</ref>
+|Young's modulus=49.7
+|Shear modulus=19.5
+|Bulk modulus=37.8
+|Poisson ratio=0.274
+|Vickers hardness=410–440
+|Brinell hardness=440–600
+|CAS number=7440-19-9
+|naming=after the mineral [[samarskite]] (itself named after [[Vassili Samarsky-Bykhovets]])
+|discovered by=[[Paul-Émile Lecoq de Boisbaudran|Lecoq de Boisbaudran]]
+|discovery date=1879
+|first isolation by=Wilhelm Muthmann
+|first isolation date=1903
+|QID=Q1819
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Sm}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

@@ -1,0 +1,359 @@
+{{Distinguish|Naphtha|Cycloalkane{{!}}Naphthene|Naphtali}}
+{{lead too short|date=October 2025}}
+{{Chembox
+| Verifiedfields = changed
+| Watchedfields  = changed
+| verifiedrevid  = 477170210
+| Name           = Naphthalene
+| ImageFileL1    = Naphthalene numbering.svg
+| ImageClassL1   = skin-invert-image
+| ImageSizeL1    = 100px
+| ImageNameL1    = Skeletal formula and numbering system of naphthalene
+| ImageFileR1    = Naphthalene-from-xtal-3D-balls.png
+| ImageClassR1   = bg-transparent
+| ImageSizeR1    = 100px
+| ImageNameR1    = Ball-and-stick model of naphthalene
+| ImageFile2     = Naphthalene-xtal-3D-vdW-B.png
+| ImageClass2    = bg-transparent
+| ImageSize2     = 150px
+| ImageName2     = Unit cells of naphthalene
+| ImageFile3     = File:Naphthalene.jpg
+| ImageName3     = Naphthalene crystals
+| IUPACName      = 
+| PIN            = Naphthalene<ref name=iupac2013>{{cite book | title = Nomenclature of Organic Chemistry: IUPAC Recommendations and Preferred Names 2013 (Blue Book) | publisher = The [[Royal Society of Chemistry]] | date = 2014 | location = Cambridge | pages = 13, 35, 204, 207, 221–222, 302, 457, 461, 469, 601, 650 | doi = 10.1039/9781849733069-FP001 | isbn = 978-0-85404-182-4}}</ref>
+| OtherNames     = {{ubl
+ |antimite 
+ |albocarbon
+ |camphor tar, white tar
+ |hexalene
+ |mothballs, moth flakes
+ |napthaline
+ }}
+| Section1       = {{Chembox Identifiers
+|CASNo = 91-20-3
+|CASNo_Ref = {{cascite|correct|CAS}}
+|PubChem = 931
+|ChemSpiderID = 906
+|ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+|UNII = 2166IN72UN| ChEBI_Ref = {{ebicite|correct|EBI}}
+|UNII_Ref = {{fdacite|changed|FDA}}
+|EINECS = 202-049-5
+|KEGG = C00829
+|KEGG_Ref = {{keggcite|correct|kegg}}
+|ChEBI = 16482
+|ChEMBL = 16293
+|ChEMBL_Ref = {{ebicite|correct|EBI}}
+|RTECS = QJ0525000
+|SMILES = c1c2ccccc2ccc1
+|Beilstein = 1421310
+|Gmelin = 3347
+|InChI = 1/C10H8/c1-2-6-10-8-4-3-7-9(10)5-1/h1-8H
+|InChIKey = UFWIBTONFRDIAS-UHFFFAOYAC
+|StdInChI = 1S/C10H8/c1-2-6-10-8-4-3-7-9(10)5-1/h1-8H
+|StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChIKey = UFWIBTONFRDIAS-UHFFFAOYSA-N
+|StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+}}
+| Section2       = {{Chembox Properties
+|Properties_ref = <ref name="CRC97">{{RubberBible97th|pages=3–304, 3–578, 5–29, 5–67, 5–158, 5–175, 5–180, 6–77, 6–95, 6–149, 6–159, 8–38, 12–96, 16–27, 16–40}}</ref>
+|C=10 | H=8
+|Appearance = White solid crystals / flakes
+|Odor = Strong odor of coal tar or mothballs
+|Density = {{ubl
+ |{{val|1.145|u=g/cm3}} ({{cvt|15.5|C}})<ref name="water.epa">{{cite tech report |url=https://www.epa.gov/sites/default/files/2019-03/documents/ambient-wqc-naphthalene-1980.pdf |title = Ambient Water Quality Criteria for Naphthalene |publisher=United States Environmental Protection Agency {{!}} Office of Water Regulations and Standards Criteria and Standards Division |location=Washington, D.C. |access-date=17 May 2026 |date=October 1980 |id=EPA 440/5-80-059}}</ref>
+ |{{val|1.025|u=g/cm3}} ({{cvt|20|C}})<ref name="CRC97" />  
+ |{{val|0.963|u=g/cm3}} ({{cvt|100|C}})<ref name="water.epa" />
+ }}
+|MeltingPt = {{cvt|80.22|+/-|0.09|C|F K}}
+|BoilingPt = {{cvt|218.0|+/-|0.1|C|F K}}
+| Solubility = {{ubl
+ |19 mg/kg ({{cvt|10|C}})
+ |31.6 mg/kg ({{cvt|25|C}})
+ |82 mg/kg ({{cvt|50|C}})
+ }}
+| CriticalTP = {{val|748.3|0.4|u=K}}, {{val|4.06|0.04|u=MPa}}
+| Solubility1 = {{ubl
+ |{{val|5|u=g/100g}} ({{cvt|0|C}})
+ |{{val|11.3|u=g/100g}} ({{cvt|25|C}})
+ |{{val|19.5|u=g/100g}} ({{cvt|40|C}})
+ |{{val|179|u=g/100g}} ({{cvt|70|C}})<ref name=sioc>{{cite book |last1 = Seidell |first1 = Atherton |last2 = Linke |first2 = William F. |year = 1919 |title=Solubility of Inorganic and Organic Compounds |url=https://archive.org/details/solubilitiesino04seidgoog/page/n468 |publisher=D. Van Nostrand Company |place=New York |edition=2nd |pages=443–6}}</ref>
+ }}
+|Solvent1 = ethanol
+|Solubility2 = {{ubl
+ |{{val|6.8|u=g/100g}} ({{cvt|6.75|C}})
+ |{{val|13.1|u=g/100g}} ({{cvt|21.5|C}})
+ |{{val|31.1|u=g/100g}} ({{cvt|42.5|C}})
+ |{{val|111|u=g/100g}} ({{cvt|60|C}})<ref name=sioc />
+ }}
+|Solvent2 = acetic acid
+|Solubility3 = {{ubl
+ |{{val|19.5|u=g/100g}} ({{cvt|0|C}})
+ |{{val|35.5|u=g/100g}} ({{cvt|25|C}})
+ |{{val|49.5|u=g/100g}} ({{cvt|40|C}})
+ |{{val|87.2|u=g/100g}} ({{cvt|70|C}})<ref name=sioc />
+ }}
+|Solvent3 = chloroform
+|Solubility4 = {{ubl
+ |{{val|5.5|u=g/100g}} ({{cvt|0|C}})
+ |{{val|17.5|u=g/100g}} ({{cvt|25|C}})
+ |{{val|30.8|u=g/100g}} ({{cvt|40|C}})
+ |{{val|78.8|u=g/100g}} ({{cvt|70|C}})<ref name=sioc />
+ }}
+|Solvent4 = hexane
+|Solubility5 = {{ubl
+ |{{val|13.6|u=g/100g}} ({{cvt|6.75|C}})
+ |{{val|22.1|u=g/100g}} ({{cvt|21.5|C}})
+ |{{val|131.6|u=g/100g}} ({{cvt|60|C}})<ref name=sioc />
+ }}
+|Solvent5 = butyric acid
+|Solubility6 = {{val|22.8|u=ppm}} ([[salinity]] 35)
+|Solvent6 = seawater
+|SolubleOther = Soluble in [[organic solvents]]<ref name=sioc />
+|LogP = 3.34
+|VaporPressure = {{ubl
+ |Sublimation pressure:
+ |{{val|0.036|u=Pa}} ({{cvt|250|K|F C|disp=out}})
+ |{{val|0.514|u=Pa}} ({{cvt|270|K|F C|disp=out}})
+ |{{val|4.918|u=Pa}} ({{cvt|290|K|F C|disp=out}})
+ |{{val|34.15|u=Pa}} ({{cvt|310|K|F C|disp=out}})
+ |{{val|182.9|u=Pa}} ({{cvt|330|K|F C|disp=out}})
+ |{{val|999.6|u=Pa}} ({{cvt|353.43|K|F C|disp=out}})
+ }}
+|HenryConstant = {{val|0.043|u=(kPa·m{{sup|3}})|up=mol}}
+|ElectricalResistivity = {{val|e=12|u=&Omega;·m|p=≈}}<ref name="born1962"/>
+|LambdaMax = {{ubl
+ |{{val|220|u=nm}} (ε{{sub|max}} 112,000)
+ |{{val|275|u=nm}} (ε{{sub|max}} 5600)
+ |{{val|312|u=nm}} (ε{{sub|max}} 175)
+ }}
+| ElectronMobility = 0.64(n), 1.50(p) (sign + & –)
+|MagSus = {{val|-91.9|e=-6|u=cm3/mol}}
+|ThermalConductivity = {{val|98|u=KPa}}:{{ubl
+ |{{val|0.1219|u=W|up=(m·K)}} ({{cvt|372.22|K|F C|disp=out}})
+ |{{val|0.1174|u=W|up=(m·K)}} ({{cvt|400.22|K|F C|disp=out}})
+ |{{val|0.1152|u=W|up=(m·K)}} ({{cvt|418.37|K|F C|disp=out}})
+ |{{val|0.1052|u=W|up=(m·K)}} ({{cvt|479.72|K|F C|disp=out}})<ref>{{cite web |title = Thermal Conductivity of Naphthalene |url = http://www.ddbst.com/en/EED/PCP/TCN_C123.php |website = DDBST GmbH |access-date = 2014-06-21 |archive-date = 2016-03-04 |archive-url = https://web.archive.org/web/20160304070707/http://www.ddbst.com/en/EED/PCP/TCN_C123.php }}</ref>
+ }}
+|RefractIndex = 1.5898
+| Viscosity = {{ubl
+ |{{val|0.964|u=cP}} ({{cvt|80|C}})
+ |{{val|0.761|u=cP}} ({{cvt|100|C}})
+ |{{val|0.217|u=cP}} ({{cvt|150|C}})<ref>{{cite web|title = Dynamic Viscosity of Naphthalene|url = http://www.ddbst.com/en/EED/PCP/VIS_C123.php|website = DDBST GmbH|access-date = 2014-06-21|archive-date = 2016-03-04|archive-url = https://web.archive.org/web/20160304104728/http://www.ddbst.com/en/EED/PCP/VIS_C123.php}}</ref>
+ }}
+}}
+| Section3       = {{Chembox Structure
+|Structure_ref = <ref name=sccs>{{cite book|url = https://books.google.com/books?id=hYRCAAAAQBAJ&pg=PA288|title = Structure and Chemistry of Crystalline Solids|last1 = Douglas|first1 = Bodie E.|last2 = Ho|first2 = Shih-Ming|publisher = Springer Science+Business Media, Inc.|year = 2007|isbn = 978-0-387-26147-8|place = New York|page = 288}}</ref>
+|CrystalStruct = [[Monoclinic crystal system|Monoclinic]]
+|SpaceGroup = P2{{sub|1}}/b
+|PointGroup = C{{sup sub|5|2h}}
+|LattConst_a = {{val|8.235|ul=Å}}
+|LattConst_b = {{val|6.003|u=Å}}
+|LattConst_c = {{val|8.658|u=Å}}
+|LattConst_alpha =
+|LattConst_beta = 122.92
+}}
+| Section4       = {{Chembox Thermochemistry
+|Thermochemistry_ref = {{nbsp}}(solid)<ref name="CRC97" />
+|HeatCapacity = {{val|165.7|u=J.mol-1|s=·K{{sup|-1}} }}
+|Entropy = {{val|167.4|u=J.mol-1|s=·K{{sup|-1}} }}
+|DeltaHf = {{val|78.5|u=kJ.mol-1}}
+|DeltaGf = {{val|201.6|u=kJ.mol-1}}
+|DeltaHc = {{val|-5157|u=kJ.mol-1|fmt=none}}
+|DeltaHfus ={{val|19.01|u=kJ.mol-1}}
+|DeltaHvap ={{val|43.2|u=kJ.mol-1}}
+}}
+| Section5       = {{Chembox Thermochemistry
+|Thermochemistry_ref = {{nbsp}}(gas)<ref name="CRC97" />
+|HeatCapacity = {{val|131.9|u=J.mol-1|s=·K{{sup|-1}} }}
+|Entropy = {{val|333.1|u=J.mol-1|s=·K{{sup|-1}} }}
+|DeltaHf = {{val|150.6|u=kJ.mol-1}}
+|DeltaGf = {{val|224.1|u=kJ.mol-1}}
+}}
+| Section8       = {{Chembox Hazards
+|MainHazards = [[Combustibility and flammability|Flammable]], [[wikt:sensitizer|sensitizer]], possible [[carcinogen]],<ref>Naphthalene carcinogenicity</ref> dust can form [[explosive]] mixtures with air
+|GHS_ref = <ref name="sigma">{{Sigma-Aldrich|id=147141|name=Naphthalene|accessdate=17 May 2026}} (SDS)</ref>
+|GHSPictograms = {{GHS|02|08|09}}
+|GHSSignalWord = Warning
+|HPhrases = {{H-phrases|228|351|410}}
+|PPhrases = {{P-phrases|201|202|210|240|241|273|280|308+313|370+378|391|405|501}}
+|NFPA-H = 2
+|NFPA-F = 2
+|NFPA-R = 0
+|NFPA-S = -
+|NFPA_ref = <ref name="FisherSDS">{{cite web |title=SDS - Napthalene |url=https://www.fishersci.com/store/msds?partNumber=AC180902500&productDescription=NAPHTHALENE+250GR&vendorId=VN00032119&countryCode=US&language=en |website=www.fishersci.com |publisher=ThermoFisher Scientific |access-date=17 May 2026 |page=3 |format=pdf |date=19 December 2025}}</ref>
+|FlashPtC = 79
+|FlashPt_ref = <ref name="CRC97" />
+|AutoignitionPtC = 526
+|AutoignitionPt_ref = <ref name="CRC97" />
+|ExploLimits = {{val|0.9|-|5.9|u=%}}<ref name="CRC97" />
+|TLV-TWA = 10 ppm<ref name="CRC97"/>
+|LD50 = {{ubl
+ |1800 mg/kg (rat, oral)
+ |1200 mg/kg (guinea pig, oral)
+ |533 mg/kg (mouse, oral)<ref>{{IDLH|91203|Naphthalene}}</ref>
+ }}
+|IDLH = 250 ppm
+|REL = {{ubl
+ |TWA 10 ppm ({{val|50|u=mg/m3}}) 
+ |STEL 15 ppm ({{val|75|u=mg/m3}})
+ }}
+|PEL = TWA 10 ppm ({{val|50|u=mg/m3}})
+|NIOSH_id=0439
+}}
+| Section9       = {{Chembox Related
+| OtherFunction = {{ubl|[[Azulene]]|[[Bicyclo(6.2.0)decapentaene]]|[[Pentalene]]|[[Heptalene]]|[[Tetralin]]|[[Decalin]]|[[Homonaphthalene]]|[[Biphenyl]]}}
+| OtherFunction_label = bicyclic hydrocarbons
+| OtherCompounds = {{ubl
+ |[[1-Naphthol]]
+ |[[2-Naphthol]]
+ |[[Anthracene]]
+ |[[Fluorene]]
+ |[[Tetracene]]
+ |[[Lithium naphthalenide]]
+ |[[Sodium naphthalenide]]
+ }}
+}}
+}}
+
+'''Naphthalene''' is an [[organic compound]] with the chemical formula {{chem2|C10H8}}. It is a white [[Crystal|crystalline solid]] with a characteristic odor that is detectable at concentrations as low as {{val|0.08|ul=ppm}}.<ref>{{cite journal | title=Odor as an aid to chemical safety: Odor thresholds compared with threshold limit values and volatiles for 214 industrial chemicals in air and water dilution |vauthors=Amoore JE, Hautala E| journal=J Appl Toxicol | volume=3| issue=6| pages=272–290| year=1983| doi=10.1002/jat.2550030603 |pmid=6376602|s2cid=36525625}}</ref> As an [[aromatic hydrocarbon]], naphthalene's structure consists of a fused pair of [[benzene]] rings, making it a simple and rather symmetrical [[polycyclic aromatic hydrocarbon]] (PAH).<ref>{{Cite web|url=https://www.epa.gov/sites/default/files/2014-03/documents/pahs_factsheet_cdc_2013.pdf |archive-url=https://web.archive.org/web/20141130115013/http://www2.epa.gov/sites/production/files/2014-03/documents/pahs_factsheet_cdc_2013.pdf |archive-date=2014-11-30 |url-status=live|title=Polycyclic Aromatic Hydrocarbons (PAHs)|quote=Naphthalene is a PAH that is produced commercially in the US}}</ref> It is the main ingredient of traditional [[mothball]]s.
+
+== History ==
+[[Alexander Garden (London Chemist)|Alexander Garden]] first reported he had crystalised from the distillate (of [[coal tar]]) "a silvery solid that resembled [[Camphor]] and [[Benzoic Acid]]" in 1819.<ref>{{cite journal |first=Alexander |last=Garden |title=Singular substance found in coal tar apparatus |journal=Annals of Philosophy |volume=15 |year=1820 |page=74}}</ref> Further sources credit Garden with the discovery.<ref>{{cite book |last=Fox |first=Maurice Rayner |title=Dye-makers of Great Britain, 1856-1976: A History of Chemists, Companies, Products and Changes |location=United Kingdom |publisher=Imperial Chemical Industries |year=1987 |page=94 |oclc=18389027}}</ref> Two days after Garden's paper was submitted, [[William Thomas Brande]] submitted his paper, and [[John Kidd (chemist)|John Kidd]] followed with "a longer and more thorough examination of the same solid, finding that it was composed of carbon and a little hydrogen".{{citation needed|date=May 2026}} Garden and Brande's separate discoveries were both published in 1820.<ref>{{cite book |last1=Morrell |first1=Jack |last2=Richards |first2=Graham |last3=Morris |first3=Peter J. |title=Chemistry at Oxford: a history from 1600 to 2005 |date=2009 |publisher=RSC Publishing |location=Cambridge, UK |page=83 |isbn=978-0854041398}}</ref> In 1821, John Kidd described many of this substance's properties and the means of its production. He proposed the name ''naphthaline'' as it had been derived from a kind of [[naphtha]], a broad term for various volatile, flammable liquid hydrocarbon mixtures, including coal tar.<ref>{{cite journal | author = John Kidd | year = 1821 | title = Observations on Naphthalene, a peculiar substance resembling a concrete essential oil, which is produced during the decomposition of coal tar, by exposure to a red heat | journal = Philosophical Transactions | volume = 111 | pages = 209–221 | doi = 10.1098/rstl.1821.0017| s2cid = 97798085 }}</ref> Naphthalene's chemical formula was determined by [[Michael Faraday]] in 1826.{{citation needed|date=May 2026}}
+
+The structure of two fused [[benzene]] rings was proposed by [[Emil Erlenmeyer]] in 1866, and confirmed by [[Carl Gräbe]] three years later.<ref>{{cite journal |title=Studien über die s. g. aromatischen Säuren |author=Emil Erlenmeyer |journal=[[Annalen der Chemie und Pharmacie]] |volume=137 |issue=3 |pages=327–359 |year=1866 |doi=10.1002/jlac.18661370309 |language=de |url=https://zenodo.org/record/1427251}}</ref><ref>{{cite journal |first=C. |last=Graebe |url=http://babel.hathitrust.org/cgi/pt?id=uva.x002457978;view=1up;seq=32 |title=Ueber die Constitution des Naphthalins |trans-title=On the structure of naphthalene |journal=Annalen der Chemie und Pharmacie |language=de |volume=149 |year=1869 |pages=20–28}}</ref>
+
+==Structure==
+A naphthalene molecule can be viewed as the fusion of a pair of [[benzene]] rings. (In [[organic chemistry]], rings are ''fused'' if they share two or more atoms.) The eight carbon atoms that are not shared by the two rings carry one hydrogen atom each. For purpose of the standard [[IUPAC]] nomenclature of derived compounds, those eight atoms are numbered 1 through 8 in sequence around the perimeter of the molecule, starting with a carbon atom adjacent to a shared one. The shared carbon atoms are labeled 4a (between 4 and 5) and 8a (between 8 and 1).<ref>{{BlueBook2013|rec=14.4}}</ref>
+
+The molecule is planar, like benzene. Unlike benzene, the carbon–carbon bonds in naphthalene are not of the same length. The bonds C1−C2, C3−C4, C5−C6 and C7−C8 are about {{cvt|1.37|Å|pm}} in length, whereas the other carbon–carbon bonds are about {{cvt|1.42|Å|pm}} long. This difference, established by [[X-ray diffraction]], is consistent with the [[valence bond theory|valence bond]] model in naphthalene and in particular, with the theorem of [[cross-conjugation]].<ref>{{cite journal|last1=Cruickshank|first1=D. W. J.|last2=Sparks|first2=R. A.|title=Experimental and Theoretical Determinations of Bond Lengths in Naphthalene, Anthracene and Other Hydrocarbons|journal=Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences|date=18 October 1960|volume=258|issue=1293|pages=270–285|doi=10.1098/rspa.1960.0187|bibcode=1960RSPSA.258..270C|s2cid=96765335}}</ref> This theorem would describe naphthalene as an [[Aromaticity|aromatic]] benzene unit bonded to a [[diene]] but not extensively [[Conjugated system|conjugated]] to it (at least in the [[ground state]]), which is consistent with two of its three [[Resonance (chemistry)|resonance]] structures.{{citation needed|date=May 2026}}
+
+:[[Image:Naphthalene resonance structure.svg|class=skin-invert-image|400px|Resonance structures of naphthalene]]
+
+Because of this resonance, the molecule has [[bilateral symmetry]] across the plane of the shared carbon pair, as well as across the plane that bisects bonds C2-C3 and C6-C7, and across the plane of the carbon atoms. Thus there are two sets of equivalent hydrogen atoms: the ''alpha'' positions, numbered 1, 4, 5, and 8, and the ''beta'' positions, 2, 3, 6, and 7. Two [[isomer]]s are then possible for mono-substituted naphthalenes, corresponding to substitution at an alpha or beta position.
+
+:[[File:Naftalene reattivita.PNG|class=skin-invert-image|180px|Alpha vs beta symmetry-equivalent positions]]
+[[Structural isomer]]s of naphthalene that have two fused aromatic rings include [[azulene]], which has a 5–7 fused ring system, and [[Bicyclo(6.2.0)decapentaene|bicyclo[6.2.0]decapentaene]] which has a fused 4–8 ring system.<ref>{{cite journal | doi = 10.1021/jo00215a018 | title = Theoretical determination of molecular structure and conformation. 14. Is bicyclo[6.2.0]decapentaene aromatic or antiaromatic? |author1=Dieter Cremer |author2=Thomas Schmidt |author3=Charles W. Bock | journal = J. Org. Chem. | date = 1985 | volume = 50 | issue = 15 | pages = 2684–2688}}</ref>
+{{clear|left}}
+
+=== Electrical conductivity ===
+Pure crystalline naphthalene is a moderate insulator at room temperature, with [[resistivity]] of about {{val|e=12|u=[[Ohm|&Omega;]]·m}}. The resistivity drops more than a thousandfold on melting, to about {{val|4|e=8|u=&Omega;·m}}. Both in the liquid and in the solid, the resistivity depends on temperature as:
+
+:{{math|''&rho;'' {{=}} ''&rho;''{{sub|0}}{{times}}exp{{sfrac|''E''|''kT''}}}}
+
+Where {{mvar|&rho;}}{{sub|0}} (Ω·m) and ([[Electronvolt|eV]]) are constant parameters, {{mvar|k}} is the Boltzmann constant ({{val|8.617|e=-5|u=eV/K}}), and {{mvar|T}} is absolute temperature (K). The parameter {{mvar|E}} is 0.73 in the solid. However, the solid shows semiconducting character below {{cvt|100|K|F C}}.<ref name="born1962">{{Cite journal |last=Bornmann |first=John A. |year=1962 |title=Semiconductivity of Naphthalene |journal=The Journal of Chemical Physics |language=en |volume=36 |issue=6 |pages=1691–1692 |bibcode=1962JChPh..36.1691B |doi=10.1063/1.1732805 |issn=0021-9606}}</ref><ref name="sche1978">{{Cite journal |last1=Schein |first1=L. B. |last2=Duke |first2=C. B. |last3=McGhie |first3=A. R. |year=1978 |title=Observation of the Band-Hopping Transition for Electrons in Naphthalene |journal=Physical Review Letters |language=en |volume=40 |issue=3 |pages=197–200 |bibcode=1978PhRvL..40..197S |doi=10.1103/PhysRevLett.40.197 |issn=0031-9007}}</ref>
+
+== Chemical properties ==
+
+=== Reactions with electrophiles ===
+In [[Electrophile|electrophilic]] aromatic [[substitution reaction]]s, naphthalene reacts more readily than benzene. For example, chlorination and bromination of naphthalene proceeds without a [[Catalysis|catalyst]] to give [[1-chloronaphthalene]] and [[1-bromonaphthalene]], respectively. Likewise, whereas both benzene and naphthalene can be [[alkylated naphthalene|alkylated]] using [[Friedel–Crafts reaction]] conditions, naphthalene can also be easily alkylated by reaction with [[alkene]]s or [[Alcohol (chemistry)|alcohol]]s, using [[sulfuric acid|sulfuric]] or [[phosphoric acid]] catalysts.<ref name=Ullmann/>
+
+Anhydrous [[aluminium chloride]] reacts with naphthalene to give a polymer, in which one ring of each naphthalene monomer loses aromaticity, linking to the other monomers at the 1 and 4 positions.<ref>{{cite journal|doi=10.1246/bcsj.42.779|date=March 1969|pages=779–781|journal=Bulletin of the Chemical Society of Japan|volume=42|title=Polymerization of napthalene and reactions of polynaphthalene|author1=Minato Hiroshi|author2=Higosaki Nobuyuki|author3=Isobe Chieko|orig-date=July 13, 1968|issue=3}}</ref>
+
+In terms of [[regiochemistry]], electrophiles attack at the alpha position. The selectivity for alpha over beta substitution can be rationalized in terms of the resonance structures of the intermediate: for the alpha substitution intermediate, seven resonance structures can be drawn, of which four preserve an aromatic ring. For beta substitution, the intermediate has only six resonance structures, and only two of these are aromatic. [[Friedel-Crafts reaction#Friedel–Crafts dealkylation|Sulfonation]] gives the "alpha" product [[naphthalene-1-sulfonic acid]] as the kinetic product but [[naphthalene-2-sulfonic acid]] as the thermodynamic product. The 1-isomer forms predominantly at {{cvt|25|C}}, and the 2-isomer at {{cvt|160|C}}.
+[[Friedel-Crafts reaction#Friedel–Crafts dealkylation|Sulfonation]] to give the 1- and 2-sulfonic acid occurs readily:<ref>{{Cite journal |url=https://pubs.acs.org/iechad/article-abstract/35/3/326/1322911/Sulfonation-of-Naphthalene?redirectedFrom=fulltext |title=Sulfonation of Naphthalene |website=ACS publications |doi=10.1021/ie50399a014 |first1=Donald |last1=Othmer |first2=Joseph |last2=Jacobs|first3=Wilbur|last3=Buschmann |date=2002-05-01|url-access=subscription }}</ref><ref>{{cite web |url=https://www.echemi.com/community/thermodynamic-vs-kinetic-sulphonation-of-naphthalene_mjart2205023692_937.html |website=ECHEMI.com |title=Thermodynamic vs Kinetic Sulphonation of Naphthalene}}</ref>
+: {{chem2|H2SO4 + C10H8 -> C10H7SO3H + H2O}}
+Further sulfonation give di-, tri-, and tetrasulfonic acids.
+
+=== Reduction and oxidation ===
+With alkali metals, naphthalene forms the dark blue-green radical anion salts such as [[sodium naphthalenide]], {{chem2|Na+[C10H8]-}}. The naphthalene anions are strong reducing agents.<ref>{{Cite book |last=Carey |first=Francis A. |title=Advanced Organic Chemistry Part B: Reactions and Synthesis |last2=Sundberg |first2=Richard J. |publisher=[[Springer Publishing|Springer]] |year=2007 |isbn=978-0-387-44899-2 |edition=5th |pages=444}}</ref>
+
+Naphthalene can be [[hydrogenate]]d under high pressure in the presence of metal [[catalyst]]s to give [[1,2,3,4-tetrahydronaphthalene|tetralin]] ({{chem2|C10H12}}). Further hydrogenation yields [[decalin]] ({{chem2|C10H18}}).<ref>{{Cite journal |last=Cui |first=Sha |last2=Ge |first2=Jiaqi |last3=Wang |first3=Genggeng |last4=Yang |first4=Ying |last5=Liu |first5=Baijun |date=2017 |title=Promotion of hydrogenation activity and sulfur resistance over Ni/ASA catalyst by support modification simultaneously with P and USY |url=https://pubs.rsc.org/ra/article/7/66/41460-41470/580139 |journal=RSC Advances |language=en |volume=7 |issue=66 |pages=41460–41470 |doi=10.1039/C7RA05413K |issn=2046-2069|doi-access=free }}</ref>
+
+Oxidation with {{O2}} in the presence of [[vanadium pentoxide]] ({{chem2|V2O5}}) as [[catalyst]] gives [[phthalic anhydride]]:<ref>{{Citation |last=Lorz |first=Peter M. |chapter=Phthalic Acid and Derivatives |date=2007 |title=Ullmann's Encyclopedia of Industrial Chemistry |chapter-url=https://onlinelibrary.wiley.com/doi/abs/10.1002/14356007.a20_181.pub2 |access-date=2026-07-04 |publisher=John Wiley & Sons, Ltd |language=en |doi=10.1002/14356007.a20_181.pub2 |isbn=978-3-527-30673-2 |last2=Towae |first2=Friedrich K. |last3=Enke |first3=Walter |last4=Jäckh |first4=Rudolf |last5=Bhargava |first5=Naresh |last6=Hillesheim |first6=Wolfgang|chapter-url-access=subscription }}</ref>
+
+:{{chem2|C10H8 + 4.5 O2 -> C6H4(CO)2O + 2 CO2 + 2 H2O}}
+
+This reaction is the basis of the main use of naphthalene. [[Oxidation]] can also be effected using conventional stoichiometric [[Chromate and dichromate|chromate]] or [[permanganate]] reagents.<ref>{{Cite web |date=1962-01-01 |title=Relative Rates of Chromic Acid Oxidation of Naphthalenes and Fluorenes in Acetic Acid |url=https://pubs.acs.org/doi/pdf/10.1021/jo01048a510 |access-date=2026-07-04 |website=ACS Publications |language=en |doi=10.1021/jo01048a510}}</ref>
+
+== Production ==
+[[File:Naphthalin.jpg|thumb|left|Glass jar of naphthalene "crystallized from alcohol" at the [[Delaware County Institute of Science]]]]
+From the 1960s until the 1990s, significant amounts of naphthalene were produced from heavy [[petroleum]] fractions during [[Oil refinery|refining]], but present-day production is mainly from [[coal tar]].<ref>{{Cite web |last=Government of Canada |first=Public Services and Procurement Canada |date=2017-03-29 |title=Fact sheet: Naphthalene — Compare environmental contaminants — Guidance and Orientation for the Selection of Technologies — Contaminated sites — Pollution and waste management — Environment and natural resources — Canada.ca |url=https://gost.tpsgc-pwgsc.gc.ca/Contfs.aspx?ID=42&lang=eng |access-date=2025-05-14 |website=gost.tpsgc-pwgsc.gc.ca}}</ref> {{As of|2023}}, the global naphthalene market was 2.25 million tons.<ref>{{Cite web |title=Naphthalene Market Size, Share, Trends, Growth & Forecast |url=https://www.chemanalyst.com/industry-report/naphthalene-market-565 |access-date=2025-05-14 |website=www.chemanalyst.com}}</ref>
+
+Naphthalene is the most abundant single component of coal tar.<ref name=":0">{{Cite journal |last1=Ordabayeva |first1=A T |last2=Meiramov |first2=M G |last3=Gazaliev |first3=A M |date=2020-08-01 |title=Physicochemical characteristics of the wide fraction of the coal tar from ArselorMittal Temirtau, JSC |journal=Journal of Physics: Conference Series |volume=1611 |issue=1 |article-number=012024 |doi=10.1088/1742-6596/1611/1/012024 |bibcode=2020JPhCS1611a2024O |issn=1742-6588|doi-access=free }}</ref> The composition of coal tar varies with coal type and processing, but typical coal tar is about 10% naphthalene by weight.<ref>{{Cite web |date=July 2024 |title=Table 4-6, Some Constituents and Weight Percentage of Eight Coal Tar Creosote Mixtures |url=https://www.ncbi.nlm.nih.gov/books/NBK606208/table/ch4.tab6/?report=objectonly |access-date=2025-05-14 |website=www.ncbi.nlm.nih.gov |language=en}}</ref> In industrial practice, [[distillation]] of coal tar yields an oil containing about 50% naphthalene, along with twelve other [[aromatic compound]]s.<ref name=":0" /> This oil, after being washed with aqueous [[sodium hydroxide]] to remove [[acid]]ic components (chiefly various [[phenol]]s), and with sulfuric acid to remove [[base (chemistry)|basic]] components, undergoes [[fractional distillation]] to isolate naphthalene. The crude naphthalene resulting from this process is about 95% naphthalene by weight. The chief impurities are the sulfur-containing aromatic compound [[benzothiophene]] (under 2%), [[indane]] (0.2%), [[indene]] (under 2%), and [[methylnaphthalene]] (under 2%). Petroleum-derived naphthalene is usually purer than that derived from coal tar. Where required, crude naphthalene can be further purified by [[Recrystallization (chemistry)|recrystallization]] from any of a variety of solvents, resulting in 99% naphthalene by weight, referred to as {{cvt|80|C}} (melting point).<ref name=Ullmann>{{Ullmann|author=Gerd Collin |author2=Hartmut Höke |author3=Helmut Greim |title=Naphthalene and Hydronaphthalenes|year=2003|doi10.1002/14356007.a17_001.pub2}}.</ref>
+
+=== Other sources and occurrences ===
+Naphthalene and its alkyl [[Homologous series|homologs]] are the major constituents of [[creosote]].
+
+Trace amounts of naphthalene are produced by [[magnolia]]s and some species of [[deer]], as well as the [[Formosan subterranean termite]], possibly produced by the termite as a repellant against "ants, poisonous fungi and nematode worms".<ref>{{cite news |url=https://news.bbc.co.uk/2/hi/science/nature/76115.stm |title=Termite 'mothball' keep insects at bay |publisher=BBC News |work=Sci/Tech |date=April 8, 1998}}</ref> Some strains of the [[endophytic]] fungus ''[[Muscodor albus]]'' produce naphthalene among a range of volatile organic compounds, while ''[[Muscodor vitigenus]]'' produces naphthalene almost exclusively.<ref>{{cite journal |vauthors=Daisy BH, Strobel GA, Castillo U, etal |title=Naphthalene, an insect repellent, is produced by ''Muscodor vitigenus'', a novel endophytic fungus |journal=Microbiology |volume=148 |issue=Pt 11 |pages=3737–41 |date=November 2002 |pmid=12427963 |url=http://mic.sgmjournals.org/cgi/content/abstract/148/11/3737 | doi = 10.1099/00221287-148-11-3737 |doi-access=free }}</ref>
+
+== Uses ==
+Naphthalene is used mainly as a precursor to derivative chemicals. The single largest use of naphthalene is the industrial production of [[phthalic anhydride]], although more phthalic anhydride is made from [[O-Xylene|''o''-xylene]].{{citation needed|date=May 2026}}
+
+=== Fumigant ===
+Naphthalene has been used as a [[fumigant]]. It was once the primary ingredient in [[mothball]]s, although its use has largely been replaced in favor of alternatives such as [[1,4-Dichlorobenzene|1,4-dichlorobenzene]]. In a sealed container containing naphthalene pellets, naphthalene vapors build up to levels toxic to both the adult and larval forms of many [[moth]]s that attack textiles. Other [[Fumigation|fumigant]] uses of naphthalene include use in soil as a fumigant [[pesticide]], in [[attic]] spaces to repel [[insect]]s and animals such as [[common brushtail possum|possums]],<ref>{{cite web|url=http://www.dse.vic.gov.au/plants-and-animals/native-plants-and-animals/problem-wildlife/possums/possums-repellent-study |title=Summary of Possum Repellent Study  |archive-url=https://web.archive.org/web/20130928014923/http://www.dse.vic.gov.au/plants-and-animals/native-plants-and-animals/problem-wildlife/possums/possums-repellent-study |archive-date=September 28, 2013 }}</ref> and in museum storage-drawers and cupboards to protect the contents from attack by insect pests.{{citation needed|reason=We have a single study on repelling possums and nothing about the thing it was actually used for (mothballs?)|date=May 2026}}
+
+=== Solvent ===
+Molten naphthalene provides an excellent solubilizing medium for poorly soluble aromatic compounds. In many cases it is more efficient than other high-boiling solvents, such as [[dichlorobenzene]], [[benzonitrile]], [[nitrobenzene]] and [[durene]]. The reaction of [[Buckminsterfullerene|{{chem2|C60}}]] with [[anthracene]] is conveniently conducted in refluxing naphthalene to give the 1:1 [[Diels–Alder reaction|Diels–Alder]] adduct.<ref>{{ cite journal |author1=K. Komatsua |author2=Y. Murataa |author3=N. Sugitaa |author4=K. Takeuchib |author5=T.S.M. Wan |display-authors=3| title = Use of naphthalene as a solvent for selective formation of the 1:1 Diels–Alder adduct of C<sub>60</sub> with anthracene | year = 1993 | journal = [[Tetrahedron Letters]] | volume = 34 | issue = 52 | pages = 8473–8476 | doi = 10.1016/S0040-4039(00)61362-X }}</ref> The aromatization of hydroporphyrins has been achieved using a solution of [[2,3-Dichloro-5,6-dicyano-1,4-benzoquinone|DDQ]] in naphthalene.<ref>{{ cite journal |author1=M.A. Filatov |author2=A.V. Cheprakov | title = The synthesis of new tetrabenzo- and tetranaphthoporphyrins via the addition reactions of 4,7-dihydroisoindole | year = 2011 |journal = [[Tetrahedron (journal)|Tetrahedron]] | volume = 67 | issue = 19 | pages = 3559–3566 | doi = 10.1016/j.tet.2011.01.052}}</ref>
+
+==== Sulfonic acids and sulfonates ====
+Many [[Naphthalene-2-sulfonic acid|naphthalenesulfonic acids]] and sulfonates are useful. Naphthalenesulfonic acids are used in the synthesis of [[1-naphthol]] and [[2-naphthol]], precursors for various dyestuffs, pigments, rubber processing chemicals and other chemicals and pharmaceuticals.<ref name=Ullmann/> They are also used as dispersants in synthetic and natural rubbers, in agricultural [[pesticides]], in dyes, and in [[lead–acid battery]] plates. Naphthalenedisulfonic acids such as [[Armstrong acid]] are used as precursors and to form pharmaceutical salts such as [[WIN-35428|CFT]].
+
+The [[aminonaphthalenesulfonic acids]] are precursors for synthesis of many synthetic [[dye]]s.
+
+Alkyl [[Naphthalenesulfonate|naphthalene sulfonates]] (ANS) are used in many industrial applications as nondetergent [[surfactant]]s (wetting agents) that effectively disperse colloidal systems in aqueous media. The major commercial applications are in the agricultural chemical industry, which uses ANS for wettable powder and wettable granular (dry-flowable) formulations, and in the textile and fabric industry, which uses the wetting and defoaming properties of ANS for bleaching and dyeing operations.
+
+Some naphthalenesulfonate [[polymer]]s are [[superplasticizer]]s used for the production of high strength [[concrete]] as well as water reducers in the production of gypsum wallboard.<ref>{{Cite journal |url=https://pmc.ncbi.nlm.nih.gov/articles/PMC10003948/ |website=National Library of Medicine (US) |title=The Influence of Polymer Superplasticizers on Properties of High-Strength Concrete Based on Low-Clinker Slag Portland Cement |doi=10.3390/ma16052075 |doi-access=free |first1=Leonid |last1=Dvorkin |first2=Vadim |last2=Zhitkovsky |first3=Ruslan |last3=Makarenko |first4=Yuri |last4=Ribakov}}</ref>
+
+They are produced by treating naphthalenesulfonic acid with [[formaldehyde]], followed by neutralization with [[sodium hydroxide]] or [[calcium hydroxide]].{{citation needed|date=May 2026}}
+
+==== Other derivative uses ====
+[[File:Propranolol structure.svg|thumb|left|class=skin-invert-image|[[Propranolol]] is a [[beta blocker]].]]
+
+Many [[azo dye]]s are produced from naphthalene. Useful [[agrichemical]]s include naphthoxyacetic acids.<ref name=Ullmann/>
+
+Hydrogenation of naphthalene gives tetrahydronaphthalene ([[tetralin]]) and decahydronaphthalene ([[decalin]]), which are used as low-volatility [[solvents]]. Tetralin is used as a hydrogen-donor solvent.<ref name=Ullmann/>
+
+[[Alkylation]] of naphthalene with propylene gives a mixture of [[diisopropylnaphthalenes]], which are useful as nonvolatile liquids for inks.<ref name=Ullmann/>
+
+Substituted naphthalenes serve as pharmaceuticals such as [[propranolol]] (a [[beta blocker]]) and [[nabumetone]] (a [[nonsteroidal anti-inflammatory drug]]).
+
+=== Other uses ===
+Several uses stem from naphthalene's high volatility: it is used to create artificial pores in the manufacture of high-porosity [[grinding wheel]]s; it is used in engineering studies of heat transfer using mass [[Sublimation (phase transition)|sublimation]]; and it has been explored as a sublimable propellant for cold gas satellite thrusters.<ref>{{Cite journal|last1=Tsifakis|first1=Dimitrios|last2=Charles|first2=Christine|last3=Boswell|first3=Rod|date=2020-09-23|title=Naphthalene as a Cubesat Cold Gas Thruster Propellant
+|journal=Frontiers in Physics|volume=8|article-number=389|doi=10.3389/fphy.2020.00389|bibcode=2020FrP.....8..389T |hdl=1885/229663|hdl-access=free|doi-access=free}}</ref><ref>{{cite news | url=https://www.abc.net.au/news/2021-12-09/moth-ball-technology-propels-satellites-into-space/100683662 | title=New propulsion system using the key ingredient in moth balls could propel satellites through space | website=[[Australian Broadcasting Corporation]] | date=8 December 2021 | access-date=December 11, 2021}}</ref>
+
+It is used in daytime [[pyrotechnics]] to produce very clear black smoke trails, but because it sublimes the shelf-life of items containing it is poor.<ref>{{cite book |first=Takeo |last=Shimizu |title=Fireworks - The Art, Science, and Technique |chapter=Part 4 - Pyrotechnics {{!}} 13.6 Materials - Other Chemicals - Naphthalene |edition=3 |page=152 |publisher=Pyrotechnica Publications |location=Austin, TX |isbn=0-929388-05-4 |lccn=88018390}}</ref>
+
+== Health effects ==
+{{Main|Naphthalene poisoning}}
+
+Exposure to large amounts of naphthalene may damage or destroy [[red blood cell]]s, most commonly in people with the inherited condition known as [[glucose-6-phosphate dehydrogenase deficiency|glucose-6-phosphate dehydrogenase (G6PD) deficiency]], which approximately 400 million people have.<ref>{{cite journal |vauthors=Santucci K, Shah B | date = Jan 2000 | title = Association of naphthalene with acute hemolytic anemia | journal = Acad Emerg Med | volume = 7 | issue = 1| pages = 42–7 | pmid = 10894241 | doi = 10.1111/j.1553-2712.2000.tb01889.x | doi-access = free }}</ref><ref name=GHR2017>{{cite web|title=Glucose-6-phosphate dehydrogenase deficiency|url=https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/|website=Genetics Home Reference|access-date=10 December 2017|language=en|date=6 December 2017}}</ref> Humans, especially children, have developed the condition known as [[hemolytic anemia]], after ingesting mothballs or deodorant blocks containing naphthalene. Symptoms include fatigue, lack of appetite, restlessness, and pale skin. Exposure to large amounts of naphthalene may cause confusion, nausea, vomiting, diarrhea, blood in the urine, and jaundice (yellow coloration of the skin from dysfunction of the [[liver]]).<ref>{{MedlinePlusEncyclopedia|002477|Naphthalene poisoning}}</ref>
+
+The US [[National Toxicology Program]] (NTP) held an experiment where male and female rats and mice were exposed to naphthalene vapors on weekdays for two years.<ref>{{cite web|title=NTP Technical Reports 410 and 500 |work=NTP Technical Reports 410 and 500, available from NTP: Long-Term Abstracts & Reports |url=https://ntp.niehs.nih.gov/publications/reports/tr?type=Technical%20Report |access-date=March 6, 2005 |url-status=live |archive-url=https://web.archive.org/web/20041024180431/http://ntp.niehs.nih.gov/index.cfm?objectid=0847DDA0-F261-59BF-FAA04EB1EC032B61 |archive-date=October 24, 2004 }}</ref> Both male and female rats exhibited evidence of [[carcinogenic|carcinogenesis]] with increased incidences of [[adenoma]] and [[neuroblastoma]] of the nose. Female mice exhibited some evidence of carcinogenesis based on increased incidences of [[Pulmonary alveolus|alveolar]] and [[Bronchiole|bronchiolar]] [[adenoma]]s of the [[lung]], while male mice exhibited no evidence of carcinogenesis.
+
+The [[International Agency for Research on Cancer]] (IARC) classifies naphthalene as possibly carcinogenic to humans and animals ([[List of IARC Group 2B carcinogens|Group 2B]]).<ref>{{cite conference |conference=IARC Working Group on the Evaluation of Carcinogenic Risks to Humans |series=IARC Monographs on the Evaluation of Carcinogenic Risks to Humans |title=Some Traditional Herbal Medicines, Some Mycotoxins, Naphthalene and Styrene |chapter=3. Napthalene - congresses |date=February 2002 |publisher=IARCPress |location=Lyon, France |url=http://monographs.iarc.fr/ENG/Monographs/vol82/index.php | access-date=December 25, 2008 |volume=82 |page=418 | isbn=978-92-832-1282-9 |issn=1017-1606}}</ref> The IARC also points out that acute exposure causes [[cataract]]s in humans, rats, rabbits, and mice; and that hemolytic anemia (described above) can occur in children and infants after oral or inhalation exposure or after maternal exposure during pregnancy. A probable mechanism for the carcinogenic effects of mothballs and some types of air fresheners containing naphthalene has been identified.<ref>{{cite web |url=https://medicalxpress.com/news/2006-06-scientists-mystery-carcinogenic-mothballs.html |title=Scientists May Have Solved Mystery Of Carcinogenic Mothballs |website=medicalxpress.com |publisher=Medical X Press |date=20 June 2006 |access-date=17 May 2026}}.</ref><ref name=EHANS>{{cite web|title=Mothballs, air fresheners and cancer|url=http://www.environmentalhealth.ca/mothballsairfresh.htm|work=Environmental Health Association of Nova Scotia|access-date=24 May 2013}}</ref>
+
+=== Regulation ===
+Mothballs and other products containing naphthalene have been banned within the [[European Union|EU]] since 2008.<ref name=Alderson>{{cite news|last=Alderson|first=Andrew|title=Holy straight bananas – now the Eurocrats are banning moth balls|url=https://www.telegraph.co.uk/news/newstopics/howaboutthat/3463893/Holy-straight-bananas-now-the-Eurocrats-are-banning-moth-balls.html |archive-url=https://ghostarchive.org/archive/20220112/https://www.telegraph.co.uk/news/newstopics/howaboutthat/3463893/Holy-straight-bananas-now-the-Eurocrats-are-banning-moth-balls.html |archive-date=2022-01-12 |url-access=subscription |url-status=live|access-date=2013-11-23|newspaper=The Telegraph|date=15 Nov 2008}}{{cbignore}}</ref><ref name=Gray>{{cite news|last=Gray|first=Kerrina|title=Council warned against use of poisonous moth balls|url=http://www.yourlocalguardian.co.uk/news/10813745.Council_warns_against_use_of_poisonous_mothballs/|work=Your Local Guardian|publisher=Newsquest (London) Ltd.|access-date=2012-11-23|date=17 November 2013}}</ref>
+
+In [[China]], the use of naphthalene in mothballs is forbidden. Danger to human health and the common use of natural [[camphor]] are cited as reasons for the ban.<ref>{{citation | title=<span lang="zh">国务院经贸办、卫生部关于停止生产和销售萘丸提倡使用樟脑制品的通知（国经贸调（1993）64号）</span> |trans-title=Notice of the Economic and Trade Office of the State Council and the Ministry of Health Regarding the Cessation of the Production and Sale of Naphthalene Balls and the Promotion of the Use of Camphor-based Products (Guo Jing Mao Tiao [1993] No. 64)}}</ref>{{better source needed |reason=Any sort of link would be nice since this law / notice is ancient|date=May 2026}}
+
+== See also ==
+* [[Camphor]]
+* [[Dialin]], [[Tetralin]], [[Decalin]]
+* [[List of interstellar and circumstellar molecules]]
+* [[Mothballs]]
+* [[1-Naphthol]], [[2-Naphthol]]
+* [[Wagner-Jauregg reaction]] (classic naphthalene synthesis)
+
+== References ==
+{{reflist|30em}}
+
+== External links ==
+{{Commons category|Naphthalene}}
+* [http://npic.orst.edu/ingred/naphth.html Naphthalene]—National Pesticide Information Center
+* [https://web.archive.org/web/20011101112501/http://www.epa.gov/ttn/atw/hlthef/naphthal.html Naphthalene]—EPA Air Toxics Web Site
+* [http://www.inchem.org/documents/pims/chemical/pim363.htm Naphthalene (PIM 363)]—mostly on toxicity of naphthalene
+* {{PPDB|1312}}
+* {{cite EB1911 |wstitle=Naphthalene |volume=19 |pages=167–168 |short=1}}
+
+{{Hydrocarbons}}
+{{PAHs}}
+
+{{Authority control}}
+
+[[Category:Naphthalenes]]
+[[Category:Antiseptics]]
+[[Category:IARC Group 2B carcinogens]]
+[[Category:Insecticides]]
+[[Category:Polycyclic aromatic hydrocarbons]]
+[[Category:Simple aromatic rings]]

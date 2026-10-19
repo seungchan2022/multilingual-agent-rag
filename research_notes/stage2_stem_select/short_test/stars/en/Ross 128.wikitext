@@ -1,0 +1,212 @@
+{{short description|Small star in constellation of Virgo}}
+{{Starbox begin}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Virgo_constellation_map.svg
+|float=center
+|alt=Ross 128 is located in the constellation Virgo.
+|caption=Location of Ross 128 in the constellation [[Virgo (constellation)|Virgo]]|border=infobox|mark=Red_pog.png|width=280
+|label=&nbsp;Ross 128
+|position=bottom
+|lat=44.1
+|long=90
+}}|caption=
+}}
+{{Starbox observe
+| epoch=J2000
+| constell=[[Virgo (constellation)|Virgo]]<ref name=constellation/>
+| ra={{RA|11|47|44.39727}}<ref name="GaiaDR3"/>
+| dec={{DEC|+00|48|16.4003}}<ref name="GaiaDR3"/>
+| appmag_v=11.13<ref name="RECONS"/>
+}}
+{{Starbox character
+| type = [[Main sequence]] 
+| class=M4V<ref name="baas36"/>
+| b-v=+1.59<ref name=warren1978/>
+| u-b=+2.685<ref name=aass26_275/>
+| variable=[[Flare star]]<ref name=gcvs>{{cite journal|bibcode=2009yCat....102025S|title=VizieR Online Data Catalog: General Catalogue of Variable Stars (Samus+ 2007–2013)|journal=VizieR On-line Data Catalog: B/GCVS. Originally Published in: 2009yCat....102025S|volume=1|display-authors=etal|last1=Samus|first1=N. N.|last2=Durlevich|first2=O. V.|year=2009}}</ref>
+}}
+{{Starbox astrometry
+| radial_v=−31.0<ref name=PCRV/><ref name=aaa379/>
+| prop_mo_ra={{val|+607.299|(34)}}
+| prop_mo_dec={{val|−1223.028|(23)|fmt=none}}
+| pm_footnote=<ref name="GaiaDR3"/>
+| parallax=296.3053
+| p_error=0.0302
+| parallax_footnote=<ref name="GaiaDR3"/>
+| absmag_v=13.53<ref name="RECONS"/>
+}}
+{{Starbox detail
+| mass={{val|0.176|0.004}}<ref name="Pineda2021"/>
+| radius={{val|0.198|0.007}}<ref name="Pineda2021"/>
+| luminosity_bolometric={{nowrap|0.00366 ± 0.00005}}<ref name="Pineda2021"/>
+| temperature={{val|3189|55|53|fmt=commas}}<ref name="Pineda2021"/>
+| gravity=3.40<ref name="rodono"/>
+| metal_fe={{val|−0.02|0.08}}<ref name="Mannetal2015"/>
+| rotation=101–223 days<ref name="Liebing2024"/>
+| rotational_velocity={{val|2.1|1.0}}<ref name=fouque2018/>
+| age_gyr=5.0<ref name=mcintyre2022/>
+}}
+{{Starbox catalog
+| names={{odlist | V=FI Vir | G=10-50 | GJ=447 | HIP=57548 | LFT=852 | LHS=315 | LSPM=J1147+0048 | LTT=13240 | PLX=2730 | Ross=128}}, [[Alexander N. Vyssotsky|Vyssotsky]] 286<ref name="SIMBAD"/>
+}}
+{{Starbox reference
+| Simbad=Ross+128
+| NSTED=Ross-128
+}}
+{{Starbox end}}
+'''Ross 128''' is a [[red dwarf]] star in the [[celestial equator|equatorial]] [[zodiac]] [[constellation]] of [[Virgo (constellation)|Virgo]], near [[β Virginis]]. The [[apparent magnitude]] of Ross 128 is 11.13,<ref name="RECONS"/> which is too faint to be seen with the unaided eye. Based upon [[parallax]] measurements, the distance of this star from Earth is {{Convert|11.007|ly|pc|abbr=off|lk=on}}, making it the twelfth [[List of nearest stars and brown dwarfs|closest stellar system]] to the [[Solar System]]. It was first cataloged in 1926 by American astronomer [[Frank Elmore Ross]].<ref name=aj36_856_124/> It is the nearest star in Virgo,<ref name="Kirkpatrick2024"/> and so is occasionally called "Proxima Virginis"<ref name="Bonfils2018"/> by analogy with [[Proxima Centauri]].
+
+==Properties==
+[[File:Near-stars-past-future-en.svg|left|thumb|300px|Distances of the [[List of nearest stars|nearest stars]] from 20,000 years ago until 80,000 years in the future]]
+This low-mass star has a [[stellar classification]] of M4&nbsp;V,<ref name="baas36"/> which places it among the category of stars known as red dwarfs. It has about 18%<ref name="Pineda2021"/> of the mass of the Sun and 20%<ref name="Pineda2021"/> of the Sun's radius, but generates energy so slowly that it has only 0.033% of the Sun's visible luminosity;<ref name="RECONS"/> however, most of the energy being radiated by the star is in the [[Infrared astronomy|infrared band]], with the [[bolometric luminosity]] being equal to 0.37% of solar.<ref name="Pineda2021"/> This energy is being radiated from the star's [[stellar atmosphere|outer atmosphere]] at an [[effective temperature]] of 3,180&nbsp;K.<ref name="baas36"/> This gives it the cool orange-red glow of an [[M-type star]].
+
+Ross 128 is an [[old disk star]], which means it has a low abundance of elements other than hydrogen and helium, what astronomers term the star's [[metallicity]], and it orbits near the plane of the [[Milky Way]] galaxy.<ref name=sanchez1990/>  The star lacks a strong excess of infrared radiation. An [[infrared excess]] is usually an indicator of a [[debris disk|dust ring]] in orbit around the star.<ref name=apjss154_1_453/><ref name=apj667_1_527/>
+
+[[File:FIVirLightCurve.png|thumb|left|[[Light curve]]s for a flare on FI Virginis, seen in ultraviolet, blue and [[Photometric system#Photometric letters|visual band]] light, adapted from Lee and Hoxie (1972),<ref name=lee/>]]
+In 1972, a flare was detected from Ross 128.  It was observed to increase in brightness by about half a magnitude in the [[ultraviolet]] [[UBV photometric system|U]] band, returning to normal brightness in less than an hour.  At optical wavelengths, the brightness changes were almost undetectable.<ref name=lee/>  It was classified as a [[flare star]] and given the [[variable star designation]] FI Virginis.<ref name=ibvs/>  Because of the low rate of flare activity, it is thought to be a magnetically evolved star. That is, there is some evidence that the [[magnetic braking (astronomy)|magnetic braking]] of the star's stellar wind has lowered the frequency of flares, but not the net yield.<ref name=apj1_309_858/>
+
+Brightness variations thought to be due to rotation of the star and magnetic cycles similar to the [[sunspot cycle]] have also been detected.  These cause changes of just a few thousandths of a magnitude.  The rotation period is found to be 165.1 days, and the magnetic cycle length 4.1 years.<ref name=sm/>
+
+Ross 128 is orbiting through the galaxy with an [[orbital eccentricity|eccentricity]] of 0.122, causing its distance from the [[Galactic Center]] to range between {{Convert|26.8|-|34.2|kly|kpc|abbr=on|lk=on}}.<ref name=rmaa34_37/> This orbit will bring the star closer to the [[Solar System]] in the future. The nearest approach will occur in approximately 71,000 years, when it will come within {{Convert|6.233|+/-|0.085|ly|pc|abbr=on|lk=off}}.<ref name=aaa379 />
+
+==Planetary system==
+{{main|Ross 128 b}}
+[[File:Artist's impression of the planet Ross 128 b.jpg|thumb|left|Artist's impression of the planet [[Ross 128 b]], with the star Ross 128 visible in the background<ref name=eso/>]]
+Ross 128 b was discovered in July 2017 by the [[High Accuracy Radial Velocity Planet Searcher|HARPS]] instrument at the [[La Silla Observatory]] in Chile, by measuring changes in [[radial velocity]] of the host star. Its existence was confirmed on 15 November 2017. It is the second-closest known Earth-size exoplanet, after [[Proxima Centauri b|Proxima b]].<ref name="Atlantic">{{cite web|last1=Koren|first1=Marina|title=An Earth-Sized Exoplanet in Our Cosmic Neighborhood|url=https://www.theatlantic.com/science/archive/2017/11/ross-128-planet-discovered/545852/|website=The Atlantic|date=15 November 2017|publisher=The Atlantic Monthly Group.|access-date=15 November 2017}}</ref> Ross 128 b has a [[minimum mass]] 1.4 times that of Earth; a 2019 study predicts a true mass about 1.8 times Earth and a radius about 1.6 times that of the Earth, with large margins of error.<ref name="TaskerLaneuville2020"/> It orbits 20 times closer to its star than Earth orbits the Sun, intercepting only about 1.38 times more solar radiation than Earth,<ref name="Bonfils2018"/><ref>[https://www.bbc.com/news/science-environment-41995572 Nearby planet is 'excellent' target in search for life].  Paul Rincon, ''BBC News''. 15 November 2017.</ref> increasing the chance of retaining an atmosphere over a geological timescale. Ross 128 b is a closely orbiting planet, with a year (orbital period) lasting about 9.9 days.<ref name="Bonfils2018"/><ref name='AstronomyMag'>[http://www2.astronomy.com/news/2017/11/a-potentially-habitable-planet-11-light-years-away A potentially habitable planet has been discovered just 11 light-years away] {{Webarchive|url=https://web.archive.org/web/20180221031045/http://www2.astronomy.com/news/2017/11/a-potentially-habitable-planet-11-light-years-away |date=2018-02-21 }}. John Wenz, ''Astronomy Magazine''. 15 November 2017.</ref> At that close distance from its host star, the planet is most likely [[Tidal locking|tidally locked]], meaning that one side of the planet would have eternal daylight and the other would be in darkness.<ref name=Locked>[https://science.howstuffworks.com/nearby-earth-sized-alien-world-orbits-quiet-star-boosting-habitable-potential.htm Nearby Earth-sized Alien World Orbits 'Quiet' Star, Boosting Habitable Potential]. Ian O'Neill, ''How Stuff Works''. 15 November 2017. Quote: ''"Tidal lock[ing] is expected for Ross 128 b," says Nicola Astudillo-Defru, who works at the Geneva Observatory, University of Geneva in Switzerland, and is co-author of the study.''</ref><ref>[https://web.archive.org/web/20000824113823/http://www.solstation.com/stars/ross128.htm Ross 128]. ''Sol Station''. November 2017.</ref> Near-infrared high-resolution spectra from [[Sloan Digital Sky Survey#APO Galactic Evolution Experiment (APOGEE)|APOGEE]] have demonstrated that Ross 128 has near solar metallicity; Ross 128 b therefore most likely contains rock and iron. Furthermore, recent models generated with these data support the conclusion that Ross 128 b is a "temperate exoplanet in the inner edge of the habitable zone."<ref>{{Cite journal|last1=Souto|first1=Diogo|last2=Unterborn|first2=Cayman T.|last3=Smith|first3=Verne V.|last4=Cunha|first4=Katia|last5=Teske|first5=Johanna|last6=Covey|first6=Kevin|last7=Bárbara Rojas-Ayala|last8=García-Hernández|first8=D. A.|last9=Stassun|first9=Keivan|date=2018|title=Stellar and Planetary Characterization of the Ross 128 Exoplanetary System from APOGEE Spectra|url=http://stacks.iop.org/2041-8205/860/i=1/a=L15|journal=The Astrophysical Journal Letters|language=en|volume=860|issue=1|pages=L15|doi=10.3847/2041-8213/aac896|issn=2041-8205|arxiv=1805.11633|bibcode=2018ApJ...860L..15S|hdl=10150/628573|s2cid=89612773 |doi-access=free }}</ref>
+
+{{OrbitboxPlanet begin
+| table_ref = <ref name="Liebing2024"/>
+| name = Ross 128
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Ross 128 b|b]]
+| mass_earth = {{val|1.40|0.13|p=≥}}
+| period = {{val|9.8556|0.0012|0.0011}}
+| semimajor = {{val|0.049640|0.000004}}
+| eccentricity = {{val|0.21|0.09|0.10}}
+| radius_earth = {{val|1.6|1.1|0.65|p=~}}<ref name="TaskerLaneuville2020"/>
+}}
+{{Orbitbox end}}
+
+A 2024 study of the radial velocity data found an eccentricity of about 0.21 for Ross 128 b, higher than previous estimates and similar to that of [[Mercury (planet)|Mercury]]. Given the planet's orbit near the inner edge of the habitable zone, such a high eccentricity would significantly decrease its potential for habitability. This study also searched for additional planets in the system, and did not find any.<ref name="Liebing2024"/>
+
+==Radio signals==
+In the spring of 2017, Arecibo astronomers detected strange radio signals thought to originate from Ross 128 that were unlike any they had seen before.<ref name="TA-20170717"/> [[SETI Institute|SETI]]'s  Allen Telescope Array was used for follow-up observations and was unable to detect the signal but did detect man made interference, making it seem clear that the Arecibo detections were due to transmissions from Earth satellites in geosynchronous orbit. Ross 128 has a declination (a coordinate which can be likened to latitude) of close to 0 degrees, which places it in the thick of a phalanx of these satellites.  Therefore, it can be concluded that the signal was most likely a result of man-made interference.<ref>{{cite web |last1=Shostak |first1=Seth |title=Signals from A Nearby Star System? |url=https://www.seti.org/signals-nearby-star-system |website=seti.org |access-date=17 September 2017 |archive-date=9 July 2021 |archive-url=https://web.archive.org/web/20210709183144/https://www.seti.org/signals-nearby-star-system |url-status=dead }}</ref>
+
+==See also==
+* [[List of nearest stars and brown dwarfs]]
+* [[PSR B1919+21]] – pulsar mistaken for an alien radio signal (LGM-1)
+
+==References==
+<references>
+<ref name="SIMBAD">{{cite simbad |title=Ross 128 |access-date=6 September 2024}}</ref>
+
+<ref name="GaiaDR3">{{Cite Gaia DR3|3796072592206250624}}</ref>
+
+<ref name="RECONS">{{citation | title=The One Hundred Nearest Star Systems | publisher=Research Consortium on Nearby Stars | url=http://www.recons.org/TOP100.posted.htm | date=2012-01-01 | access-date=2017-11-15 }}</ref>
+
+<ref name=constellation>{{cite constellation |Ross 128 }}</ref>
+
+<ref name=mcintyre2022>{{cite journal| bibcode=2022A&A...662A..15M | title=Tidally driven tectonic activity as a parameter in exoplanet habitability | last1=McIntyre | first1=S. R. N. | journal=Astronomy and Astrophysics | year=2022 | volume=662 | pages=A15 | doi=10.1051/0004-6361/202141112  | doi-access=free| arxiv=2204.03501 | s2cid=248005961 }}</ref>
+
+<ref name="baas36">{{citation | display-authors=1 | last1=Gautier | first1=Thomas N. III | last2=Rieke | first2=G. H. | last3=Stansberry | first3=John | last4=Bryden | first4=Geoffrey C. | last5=Stapelfeldt | first5=Karl R. | last6=Werner | first6=Michael W. | last7=Beichman | first7=Charles A. | last8=Chen | first8=Christine | last9=Su | first9=Kate | last10=Trilling | first10=David | last11=Patten | first11=Brian M. | last12=Roellig | first12=Thomas L. | title=Far Infrared Properties of M Dwarfs | journal=Bulletin of the American Astronomical Society | volume=36 | page=1431 | bibcode=2004AAS...205.5503G | year=2004 }}</ref>
+
+<ref name="Pineda2021">{{cite journal
+| title=The M-dwarf Ultraviolet Spectroscopic Sample. I. Determining Stellar Parameters for Field Stars
+| last1=Pineda | first1=J. Sebastian | last2=Youngblood | first2=Allison
+| last3=France | first3=Kevin
+| journal=The Astrophysical Journal
+| volume=918 | issue=1 | id=40 | page=23 | date=September 2021
+| doi=10.3847/1538-4357/ac0aea | arxiv=2106.07656
+| bibcode=2021ApJ...918...40P  | s2cid=235435757 | doi-access=free }}</ref>
+
+<ref name=warren1978>{{citation | last=Warren | first=W. H. Jr. | date=1978 | title=Photoelectric Photometric Catalogue of Homogeneous Means in the UBV System | journal=Observatory | location=Geneva }}</ref>
+
+<ref name=aass26_275>{{citation | last=Rufener | first=F. |date=October 1976 | title=Second catalogue of stars measured in the Geneva Observatory photometric system | journal=Astronomy & Astrophysics Supplement Series | volume=26 | pages=275–351 | bibcode=1976A&AS...26..275R }}</ref>
+
+<ref name=PCRV>{{citation | first=G. A. | last=Gontcharov | date=2006 | title=Pulkovo Compilation of Radial Velocities for 35493 Hipparcos Stars | url=http://cdsarc.u-strasbg.fr/viz-bin/Cat?cat=III%2F252& | access-date=2010-04-18 }}</ref>
+
+<ref name=aaa379>{{citation | display-authors=1 | last1=García-Sánchez | first1=J. | last2=Weissman | first2=P. R. | last3=Preston | first3=R. A. | last4=Jones | first4=D. L. | last5=Lestrade | first5=J.-F. | last6=Latham | first6=D. W. | last7=Stefanik | first7=R. P. | last8=Paredes | first8=J. M. | title=Stellar encounters with the solar system | journal=Astronomy and Astrophysics | date=2001 | volume=379 | issue=2 | pages=634–659 | doi=10.1051/0004-6361:20011330 | bibcode=2001A&A...379..634G| doi-access=free }}</ref>
+
+<ref name="rodono">{{citation | last=Rodonò | first=Marcello | contribution=The Atmospheres of M Dwarfs: Observations | title=The M-Type Stars | publisher=NASA | location=Washington | pages=409–453 }}</ref>
+
+<ref name="Bonfils2018">{{cite journal | last1=Bonfils | first1=Xavier | title=A temperate exo-Earth around a quiet M dwarf at 3.4 parsecs | journal=Astronomy and Astrophysics|  date=2017 | volume=613 | pages=A25 | arxiv = 1711.06177 | doi = 10.1051/0004-6361/201731973  | doi-access = free| bibcode=2018A&A...613A..25B | s2cid=37148632 }}</ref>
+
+<ref name=sanchez1990>{{citation | last1=Sánchez | first1=F. | editor1-last=Vazquez | editor1-first=M. | date=1990 | title=New windows to the universe | volume=2 | page=313 | publisher=Cambridge University Press | isbn=0-521-38429-X }}</ref>
+
+<ref name=aj36_856_124>{{citation | last=Ross | first=Frank E. | title=New proper-motion stars, (second list) | journal=Astronomical Journal | volume=36 | issue=856 | pages=124–128 | doi=10.1086/104699 | date=1926 | bibcode=1926AJ.....36..124R}}</ref>
+
+<ref name=apj1_309_858>{{citation | last=Skumanich | first=Andrew | title=Some evidence on the evolution of the flare mechanism in dwarf stars | journal=Astrophysical Journal, Part 1 | volume=309 | date=1986-10-15 | pages=858–863 | doi=10.1086/164654 | bibcode=1986ApJ...309..858S | doi-access=free }}</ref>
+
+<ref name=apjss154_1_453>{{citation | display-authors=1 | last1=Jura | first1=M. | last2=Chen | first2=C. H. | last3=Furlan | first3=E. | last4=Green | first4=J. | last5=Sargent | first5=B. | last6=Forrest | first6=W. J. | last7=Watson | first7=D. M. | last8=Barry | first8=D. J. | last9=Hall | first9=P. | last10=Herter | first10=T. L. | last11=Houck | first11=J. R. | last12=Sloan | first12=G. C. | last13=Uchida | first13=K. | last14=D'Alessio | first14=P. | last15=Brandl | first15=B. R. | last16=Keller | first16=L. D. | last17=Kemper | first17=F. | last18=Morris | first18=P. | last19=Najita | first19=J. | last20=Calvet | first20=N. | last21=Hartmann | first21=L. | last22=Myers | first22=P. C. | title=Mid-Infrared Spectra of Dust Debris around Main-Sequence Stars | journal=The Astrophysical Journal Supplement Series | volume=154 | issue=1 | pages=453–457 |date=September 2004 | doi=10.1086/422975 | bibcode=2004ApJS..154..453J | arxiv=astro-ph/0405632 | s2cid=396660 }}</ref>
+
+<ref name=apj667_1_527>{{citation | display-authors=1 | last1=Gautier | first1=Thomas N. III | last2=Rieke | first2=G. H. | last3=Stansberry | first3=John | last4=Bryden | first4=Geoffrey C. | last5=Stapelfeldt | first5=Karl R. | last6=Werner | first6=Michael W. | last7=Beichman | first7=Charles A. | last8=Chen | first8=Christine | last9=Su | first9=Kate | last10=Trilling | first10=David | last11=Patten | first11=Brian M. | last12=Roellig | first12=Thomas L. | title=Far-Infrared Properties of M Dwarfs | journal=The Astrophysical Journal | volume=667 | issue=1 | pages=527–536 |date=September 2007 | doi=10.1086/520667 | bibcode=2007ApJ...667..527G |arxiv = 0707.0464 | s2cid=15732144 }}</ref>
+
+<ref name=rmaa34_37>{{citation | last1=Allen | first1=C. |author1-link=Christine Allen (astronomer)| last2=Herrera | first2=M. A. | title=The galactic orbits of nearby UV Ceti stars | journal=Revista Mexicana de Astronomía y Astrofísica | date=1998 | volume=34 | pages=37–46 | bibcode=1998RMxAA..34...37A }}</ref>
+
+<ref name="Mannetal2015">{{cite journal | display-authors=1 | last1=Mann | first1=Andrew W. | last2=Feiden | first2=Gregory A. | last3=Gaidos | first3=Eric | last4=Boyajian | first4=Tabetha | last5=von Braun | first5=Kaspar | title=How to Constrain Your M Dwarf: Measuring Effective Temperature, Bolometric Luminosity, Mass, and Radius | journal=The Astrophysical Journal | volume=804 | issue=1 | page=38 |date=May 2015 | doi=10.1088/0004-637X/804/1/64 | bibcode=2015ApJ...804...64M |arxiv = 1501.01635 | s2cid=19269312 }} [http://vizier.u-strasbg.fr/viz-bin/VizieR-5?-ref=VIZ59717087777e&-out.add=.&-source=J/ApJ/804/64/stars&recno=93 Vizier catalogue entry]</ref>
+
+<ref name=eso>{{cite web|title=Closest Temperate World Orbiting Quiet Star Discovered – ESO's HARPS instrument finds Earth-mass exoplanet around Ross 128|url=https://www.eso.org/public/news/eso1736/|website=www.eso.org|access-date=15 November 2017}}</ref>
+
+<!-- REFERENCES NOT USED IN ARTICLE DUE TO CONTENT REMOVAL IN NOV 2018
+<ref name="TW-20170716">{{cite web |last=Mendez |first=Abel |title=Confirmed! We have the data of #Barnard's Star and #Ross128 |url=https://twitter.com/ProfAbelMendez/status/886788583851479041 |date=July 16, 2017 |work=[[Twitter]] |access-date=July 19, 2017 }}</ref>
+<ref name="PHL-20170717">{{cite web |last=Mendez |first=Abel |title=Strange Signals from the Nearby Red Dwarf Star Ross 128 |url=http://phl.upr.edu/library/notes/ross128 |date=July 17, 2017 |work=Planetary Habitability Laboratory at [[University of Puerto Rico at Arecibo]] |archive-date=July 17, 2017 |archive-url=https://web.archive.org/web/20170717181621/http://phl.upr.edu/library/notes/ross128 |access-date=July 17, 2017 }}</ref>
+<ref name="NW-20170717">{{cite news |last=Osborne |first=Hannah |title=Ross 128: Mystery Radio signals Detected From Red Dwarf Star Just 11 Light-Years Away |url=http://www.newsweek.com/mystery-radio-signals-ross-128-star-637682 |date=July 17, 2017 |work=[[Newsweek]] |access-date=July 17, 2017 }}</ref>
+<ref name="TV-20170717">{{cite web |last=Grush |first=Loren |title=Astronomers don't know what's causing these weird radio waves from a nearby star – Probably not aliens, though |url=https://www.theverge.com/2017/7/17/15982656/arecibo-observatory-ross-128-red-dwarf-radio-waves-signal |date=July 17, 2017 |work=[[The Verge]] |access-date=July 17, 2017 }}</ref>
+<ref name="UCB-20170720">{{cite arxiv |eprint=1710.08404 |last1=Enriquez |first1=J. E |title=Breakthrough Listen Follow-up of the Reported Transient Signal Observed at the Arecibo Telescope in the Direction of Ross 128 |last2=Siemion |first2=A |last3=Dana |first3=R |last4=Croft |first4=S |last5=Méndez |first5=A |last6=Xu |first6=A |last7=DeBoer |first7=D |last8=Gajjar |first8=V |last9=Hellbourg |first9=G |last10=Isaacson |first10=H |last11=Lebofsky |first11=M |last12=MacMahon |first12=D. H. E |last13=Price |first13=D. C |last14=Werthimer |first14=D |last15=Zuluaga |first15=J |class=astro-ph.SR |year=2017 }}</ref>
+<ref name="PHL-20170721">{{cite web |last1=Méndez |first1=Abel |last2=Zuluaga |first2=Jorge |title=The Weird! Signal |url=http://phl.upr.edu/press-releases/theweirdsignal |date=July 21, 2017 |work=[[University of Puerto Rico at Arecibo]] |access-date=July 22, 2017 }}</ref>
+<ref name="SP-20170721">{{cite web |last=Wall |first=Mike |title=Not Aliens: Weird Radio Signal from Star Likely Has Duller Explanation |url=https://www.space.com/37579-weird-radio-signal-ross-128-star-satellite.html |date=July 21, 2017 |work=[[Space.com]] |access-date=July 22, 2017 }}</ref>-->
+
+<ref name="TA-20170717">{{cite web |last=Koren |first=Marina |title=The Strange Radio Signals Coming From a Nearby Star – Astronomers have detected a mystery transmission at a frequency they haven't observed before. |url=https://www.theatlantic.com/science/archive/2017/07/the-strange-radio-signals-coming-from-a-nearby-star-ross-128/533907/ |date=July 17, 2017 |work=[[The Atlantic]] |access-date=July 17, 2017 }}</ref>
+
+<ref name=ibvs>{{cite journal|bibcode= 1975IBVS..961....1K |title= 60th Name-List of Variable Stars |journal= Information Bulletin on Variable Stars |volume= 961 |page= 1 |last1= Kukarkin |first1= B. V |last2= Kholopov |first2= P. N |last3= Kukarkina |first3= N. P |last4= Perova |first4= N. B |year= 1975 }}</ref>
+
+<ref name=lee>{{cite journal|bibcode=1972IBVS..707....1L|title=The Observation of a Stellar Flare in the dM5 Star Ross 128|journal=Information Bulletin on Variable Stars|volume=707|page=1|last1=Lee|first1=T. A|last2=Hoxie|first2=D. T|year=1972}}</ref>
+
+<ref name=sm>{{cite journal|bibcode=2016MNRAS.463.1844S|arxiv=1607.03049|title=A path towards understanding the rotation-activity relation of M dwarfs with K2 mission, X-ray and UV data|journal=Monthly Notices of the Royal Astronomical Society|volume=463|issue=2|page=1844|last1=Stelzer|first1=B|last2=Damasso|first2=M|last3=Scholz|first3=A|last4=Matt|first4=S. P|year=2016|doi=10.1093/mnras/stw1936|doi-access=free |s2cid=55906368}}</ref>
+
+<ref name=fouque2018>{{cite journal
+ | title=SPIRou Input Catalogue: global properties of 440 M dwarfs observed with ESPaDOnS at CFHT
+ | last1=Fouqué | first1=Pascal | last2=Moutou | first2=Claire 
+ | last3=Malo | first3=Lison | last4=Martioli | first4=Eder
+ | last5=Lim | first5=Olivia | last6=Rajpurohit | first6=Arvind
+ | last7=Artigau | first7=Etienne | last8=Delfosse | first8=Xavier
+ | last9=Donati | first9=Jean-François | last10=Forveille | first10=Thierry
+ | last11=Morin | first11=Julien | last12=Allard | first12=France
+ | last13=Delage | first13=Raphaël | last14=Doyon | first14=René
+ | last15=Hébrard | first15=Elodie | last16=Neves | first16=Vasco
+ | display-authors=1 | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=475 | issue=2 | pages=1960–1986 | date=April 2018
+ | doi=10.1093/mnras/stx3246 | doi-access=free | arxiv=1712.04490
+ | bibcode=2018MNRAS.475.1960F }}</ref>
+
+<ref name="TaskerLaneuville2020">{{cite journal |last1=Tasker |first1=Elizabeth J. |last2=Laneuville  |first2=Matthieu |last3=Guttenberg  |first3=Nicholas  |author-link1=Elizabeth J. Tasker|title=Estimating Planetary Mass with Deep Learning |journal=The Astronomical Journal|volume=159|issue=2|date=7 January 2020|page=41|issn=1538-3881|doi=10.3847/1538-3881/ab5b9e|bibcode=2020AJ....159...41T|arxiv=1911.11035|s2cid=208267900 |doi-access=free }}</ref>
+
+<ref name="Kirkpatrick2024">{{cite journal |last1=Kirkpatrick |first1=J. Davy |last2=Marocco |first2=Federico |display-authors=etal |date=April 2024 |title=The Initial Mass Function Based on the Full-sky 20 pc Census of ~3600 Stars and Brown Dwarfs |journal=[[The Astrophysical Journal Supplement Series]] |volume=271 |issue=2 |pages=55 |doi=10.3847/1538-4365/ad24e2 |doi-access=free |arxiv=2312.03639 |bibcode=2024ApJS..271...55K}}</ref>
+
+<ref name="Liebing2024">{{cite journal |last1=Liebing |first1=F. |last2=Jeffers |first2=S. V. |display-authors=etal |date=September 2024 |title=RedDots: Limits on habitable and undetected planets orbiting nearby stars GJ 832, GJ 674, and Ross 128 |journal=[[Astronomy & Astrophysics]] |volume= 690|issue= |pages= A234|doi= 10.1051/0004-6361/202347902|doi-access= free|arxiv=2409.01173|bibcode=2024A&A...690A.234L }}</ref>
+</references>
+
+==External links==
+{{Commons category}}
+* [https://web.archive.org/web/20000824113823/http://www.solstation.com/stars/ross128.htm SolStation.com: Ross 128]
+{{Sky|11|47|44.4|+|00|48|16|10.92}}
+{{nearest systems|2}}
+{{Virgo}}
+
+{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar System}}
+
+[[Category:Local Bubble]]
+[[Category:M4V stars]]
+[[Category:Virgo (constellation)]]
+[[Category:Flare stars]]
+[[Category:Ross objects|128]]
+[[Category:Gliese and GJ objects|0447]]
+[[Category:Hipparcos objects|057548]]
+[[Category:Objects with variable star designations|Virginis, FI]]
+[[Category:Astronomical objects discovered in 1926]]
+[[Category:Stars discovered in the 1920s]]
+[[Category:Emission-line stars]]
+[[Category:Orion–Cygnus Arm]]
+[[Category:Planetary systems with one confirmed planet]]
+[[Category:Population I stars]]

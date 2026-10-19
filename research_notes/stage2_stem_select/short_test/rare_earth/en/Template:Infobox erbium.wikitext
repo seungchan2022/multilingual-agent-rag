@@ -1,0 +1,77 @@
+{{Infobox element
+|symbol =Er
+|Z      =68
+|number =68
+|name   =erbium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[holmium]]
+|right=[[thulium]]
+|above=–
+|below=[[fermium|Fm]]
+|image name=Erbium (68 Er).jpg
+|image upright=0.75
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 30, 8, 2
+|phase=
+|density=9.065&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=8.86
+|melting point K=1802
+|melting point C=1529
+|melting point F=2784
+|boiling point K=3141
+|boiling point C=2868
+|boiling point F=5194
+|heat fusion=19.90
+|heat vaporization=280
+|heat capacity=28.12
+|vapor pressure 1=1504
+|vapor pressure 10=1663
+|vapor pressure 100=(1885)
+|vapor pressure 1 k=(2163)
+|vapor pressure 10 k=(2552)
+|vapor pressure 100 k=(3132)
+|vapor pressure comment=
+|crystal structure=hexagonal close packed
+|crystal structure Pearson symbol=hP2
+|lattice constants=''a''&nbsp;=&nbsp;355.93&nbsp;pm<br />''c''&nbsp;=&nbsp;558.49&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.24
+|number of ionization energies=3
+|ionization energy 1=589.3
+|ionization energy 2=1150
+|ionization energy 3=2194
+|atomic radius=176
+|covalent radius=189±6
+|magnetic ordering= [[paramagnetic]] at 300 K
+|electrical resistivity unit prefix=µ
+|electrical resistivity=poly: 0.860
+|electrical resistivity comment=({{abbr|r.t.|room temperature}})
+|thermal conductivity=14.5
+|thermal expansion=poly: 12.2
+|thermal expansion comment=({{abbr|r.t.|room temperature}})
+|speed of sound rod at 20=2830
+|magnetic susceptibility= {{val|+44,300.00|e=−6}}
+|magnetic susceptibility ref= <ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=69.9
+|Shear modulus=28.3
+|Bulk modulus=44.4
+|Poisson ratio=0.237
+|Vickers hardness=430–700
+|Brinell hardness=600–1070
+|CAS number=7440-52-0
+|naming=after [[Ytterby]] (Sweden), where it was mined
+|discovered by=[[Carl Gustaf Mosander]]
+|discovery date=1843
+|first isolation by=Wilhelm Klemm and Heinrich Bommer
+|first isolation date=1934
+|QID=Q1849
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Er}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

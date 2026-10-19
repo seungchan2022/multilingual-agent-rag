@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ex-01",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "글리제 581 c",
+    "question": "외계 행성 글리제 581 c의 공전 주기는 며칠인가?",
+    "answer": "12.932일",
+    "value": 12.932,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "글리제 581 c",
+        "quote": "공전주기: 12.932 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Gliese 581c",
+      "en_value": 12.9211,
+      "en_text": "{{val|12.9211|0.0008|0.0007|ul=d}}",
+      "diff_pct": 0.0844
+    }
+  },
+  {
+    "id": "ex-02",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "목동자리 타우 b",
+    "question": "외계 행성 목동자리 타우 b의 공전 주기는 며칠인가?",
+    "answer": "3.3135일",
+    "value": 3.3135,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "목동자리 타우 b",
+        "quote": "공전주기: 3.3135 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Tau Boötis b",
+      "en_value": 3.3124568,
+      "en_text": "{{val|3.3124568|0.000033}}<ref name=Justesen2019/> days",
+      "diff_pct": 0.0315
+    }
+  },
+  {
+    "id": "ex-03",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "글리제 1214 b",
+    "question": "외계 행성 글리제 1214 b의 공전 주기는 며칠인가?",
+    "answer": "1.5803925일",
+    "value": 1.5803925,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "글리제 1214 b",
+        "quote": "공전주기: 1.5803925 ± 0.0000117 일(37.92942 시간)"
+      }
+    ],
+    "en_check": {
+      "en_title": "GJ 1214 b",
+      "en_value": 1.580404531,
+      "en_text": "{{val|1.580404531|(18)|(17)|ul=d}}",
+      "diff_pct": 0.0008
+    }
+  },
+  {
+    "id": "ex-04",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "COROT-7b",
+    "question": "외계 행성 COROT-7b의 공전 주기는 며칠인가?",
+    "answer": "0.85일",
+    "value": 0.85,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "COROT-7b",
+        "quote": "공전주기: 0.85 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "CoRoT-7b",
+      "en_value": 0.853585,
+      "en_text": "{{Convert|0.853585|±|0.000024|d|h|lk=on|abbr=on}}<ref name=\"leger2009\" />",
+      "diff_pct": 0.42
+    }
+  },
+  {
+    "id": "ex-05",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "KELT-9b",
+    "question": "외계 행성 KELT-9b의 공전 주기는 며칠인가?",
+    "answer": "1.4811235일",
+    "value": 1.4811235,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "KELT-9b",
+        "quote": "공전주기: 1.4811235 ± 0.0000011 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "KELT-9b",
+      "en_value": 1.4811235,
+      "en_text": "{{val|1.4811235|0.0000011|ul=d}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ex-06",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "글리제 436 b",
+    "question": "외계 행성 글리제 436 b의 공전 주기는 며칠인가?",
+    "answer": "2.643904일",
+    "value": 2.643904,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "글리제 436 b",
+        "quote": "공전주기: 2.643904 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Gliese 436 b",
+      "en_value": 2.64389803,
+      "en_text": "{{val|2.64389803|(26)|ul=d}}<ref name=\"Lanotte2014\"/>",
+      "diff_pct": 0.0002
+    }
+  },
+  {
+    "id": "ex-07",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "케플러-16b",
+    "question": "외계 행성 케플러-16b의 공전 주기는 며칠인가?",
+    "answer": "228.776일",
+    "value": 228.776,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "케플러-16b",
+        "quote": "공전주기: 228.776 ± 0.037일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Kepler-16b",
+      "en_value": 228.776,
+      "en_text": "228.776 ± 0.037 [[day|d]]",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ex-08",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "센타우루스자리 프록시마 b",
+    "question": "외계 행성 센타우루스자리 프록시마 b의 공전 주기는 며칠인가?",
+    "answer": "11.186일",
+    "value": 11.186,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "센타우루스자리 프록시마 b",
+        "quote": "공전주기: 11.186+0.001 −0.002 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Proxima Centauri b",
+      "en_value": 11.18465,
+      "en_text": "{{val|11.18465|0.00053|ul=days}}",
+      "diff_pct": 0.0121
+    }
+  },
+  {
+    "id": "ex-09",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "로스 128 b",
+    "question": "외계 행성 로스 128 b의 공전 주기는 며칠인가?",
+    "answer": "9.9일",
+    "value": 9.9,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "로스 128 b",
+        "quote": "공전주기: 9.9일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Ross 128 b",
+      "en_value": 9.8556,
+      "en_text": "{{val|9.8556|0.0012|0.0011|ul=d}}",
+      "diff_pct": 0.4505
+    }
+  },
+  {
+    "id": "ex-10",
+    "kind": "값",
+    "subject": "외계 행성",
+    "target": "케플러-22b",
+    "question": "외계 행성 케플러-22b의 공전 주기는 며칠인가?",
+    "answer": "289.9일",
+    "value": 289.9,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "케플러-22b",
+        "quote": "공전주기: 289.9 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Kepler-22b",
+      "en_value": 289.863876,
+      "en_text": "{{val|289.863876|0.000013|ul=d}}",
+      "diff_pct": 0.0125
+    }
+  }
+]

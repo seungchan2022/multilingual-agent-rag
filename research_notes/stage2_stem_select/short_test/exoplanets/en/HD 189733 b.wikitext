@@ -1,0 +1,229 @@
+{{Short description|Hot Jupiter exoplanet in the constellation Vulpecula}}
+{{Infobox planet
+| name                     = HD 189733 b
+| image                    = HD 189733 b comparison.png
+| caption                  = Jupiter and HD 189733 b compared
+<!-- DISCOVERY           -->
+| discovery_ref            = <ref name="Bouchy2005"/>
+| discoverer               = Bouchy et al.
+| discovery_site           = [[Haute-Provence Observatory]]
+| discovered               = October 5, 2005
+| discovery_method         = [[Doppler spectroscopy]]<br>[[Astronomical transit|Transit]]
+<!-- DESIGNATIONS        -->
+<!-- ORBITAL             -->
+| orbit_ref                = <ref name="Bonomo2017"/>
+| apsis                    = astron
+| aphelion                 = 
+| perihelion               = 
+| semimajor                = {{convert|0.03100|±|0.0006|AU|km|abbr=on}}
+| eccentricity             = <0.0039
+| period                   = {{val|2.218575200|(77)|ul=d}}<br>53.2458048 [[hour|h]]
+| avg_speed                = {{val|152.0|ul=km/s}}<!-- calculated -->
+| inclination              = {{val|85.580|0.060|u=deg}}
+| semi-amplitude           = {{val|201.3|1.6|ul=m/s}}
+| star                     = [[HD 189733]]
+<!-- PHYS CHARS          -->
+| physical_ref             = <ref name="Bonomo2017"/>
+| mean_radius              = {{val|1.138|0.027|ul=Jupiter radius}}
+| mass                     = {{val|1.123|0.045|ul=Jupiter mass}}
+| density                  = {{val|0.943|0.081|0.072|ul=g/cm3}}
+| surface_grav             = {{val|21.5|ul=m/s2}} (2.2 [[g-force|g]])<!-- calculated -->
+| albedo                   = {{val|0.40|0.12}} (290–450 nm)<ref name="Evans2013"/><br><0.12 (450–570 nm)<ref name="Evans2013"/><br>{{val|0.076|0.016}} ([[geometric albedo|geometric]])<ref name="Krenn2023"/>
+| single_temperature       = {{val|1192|9|ul=K|fmt=commas}} ({{convert|1192|K|C F|disp=out}})<ref name="Knutson2012"/><br>{{val|1490|68|u=K|fmt=commas}} ({{convert|1490|K|C F|disp=out}})<ref name="Pass2019"/>
+<!-- ATMOSPHERE          -->
+<!-- NOTES               -->
+}}
+'''HD 189733 b''' is an [[exoplanet]] in the constellation of [[Vulpecula]] approximately {{Convert|64.5|ly|pc|lk=on|abbr=off}} away<ref name="GaiaDR3"/> from the [[Solar System]]. Astronomers in France discovered the planet orbiting the star [[HD 189733]] on October 5, 2005, by observing its [[Astronomical transit|transit]] across the star's face.<ref name="Bouchy2005"/> With a mass 11.2% higher than that of [[Jupiter]] and a radius 11.4% greater, HD 189733 b orbits its host star once every 2.2 days at an [[orbital speed]] of {{convert|152.0|km/s|mph|sigfig=4|abbr=off|sp=us}}, making it a [[hot Jupiter]] with poor prospects for [[extraterrestrial life]].<ref name="Bonomo2017"/>
+
+The closest transiting hot Jupiter to Earth, HD 189733 b has been the subject of close atmospheric observation. Scientists have studied it with high- and low-resolution instruments, both from the ground and from space.<ref name="Khd"/> Researchers have found that the planet's weather includes raining molten glass. HD 189733 b was also the first exoplanet to have its [[heat map|thermal map]] constructed,<ref name="Knutson2007"/><ref name="Majeau2012"/> possibly to be detected through [[polarimetry]],<ref name="Berdyugina2011"/> its overall color determined (deep blue),<ref name="Berdyugina2011"/><ref name="Evans2013"/> its transit viewed in the X-ray spectrum, and to have [[carbon dioxide]] confirmed as being present in its atmosphere.
+
+In July 2014, [[NASA]] announced the discovery of very dry [[Exoplanet#Atmosphere|atmospheres]] on three exoplanets that orbited Sun-like stars: HD 189733 b, [[HD 209458 b]], and [[WASP-12b]].<ref name="NASA-20140724"/>
+
+== Detection and discovery ==
+=== Transit and Doppler spectroscopy ===
+{{multiple image
+<!-- Essential parameters -->
+| align     = left
+| direction = vertical
+| width     = 250
+
+<!-- Image 1 -->
+| image1    = 
+| width1    = 
+| alt1      = 
+| caption1  = The radial velocity of HD 189733 over time, caused by the presence of HD 189733 b
+
+<!-- Image 2 -->
+| image2    = Ssc2007-04c.jpg
+| width2    = 
+| alt2      = 
+| caption2  = The infrared spectrum of HD 189733 b
+
+<!-- Image 3 -->
+| image3    = Global Temperature Map for Exoplanet HD 189733b.jpg
+| width3    = 
+| alt3      = 
+| caption3  = A global temperature map of HD 189733 b
+
+<!-- Image 4 -->
+| image4    = HD 189733b blue planet.png
+| width4    = 
+| alt4      = 
+| caption4  = The planet's blue color was revealed using polarimetry.<ref name="Berdyugina2011"/>
+
+<!-- Extra parameters -->
+| header            = 
+| header_align      = <!-- left/right/center -->
+| header_background = 
+| footer            = 
+| footer_align      = <!-- left/right/center -->
+| footer_background = 
+| background color  = 
+}}
+
+On October 6, 2005, a team of astronomers announced the discovery of transiting planet HD 189733 b. The planet was then detected using [[Doppler spectroscopy]]. Real-time [[radial velocity]] measurements detected the [[Rossiter–McLaughlin effect]] caused by the planet passing in front of its star before photometric measurements confirmed that the planet was transiting.<ref name="Bouchy2005"/> In 2006, a team led by Drake Deming announced detection of strong [[infrared]] [[thermal emission]] from the transiting exoplanet planet HD 189733 b, by measuring the flux decrement (decrease of total light) during its prominent secondary [[eclipse]] (when the planet passes behind the star).
+
+The mass of the planet is estimated to be 16% larger than [[Jupiter]]'s, with the planet completing an orbit around its host star every 2.2 days and an [[orbital speed]] of {{convert|152.5|km/s|mi/h}}.
+
+=== Infrared spectrum ===
+On February 21, 2007, [[NASA]] released news that the [[Spitzer Space Telescope]] had measured detailed [[Electromagnetic spectrum#Infrared radiation|spectra]] from both HD 189733 b and [[HD 209458 b]].<ref name=spitzer-press-release/> The release came simultaneously with the public release of a new issue of ''[[Nature (journal)|Nature]]'' containing the first publication on the spectroscopic observation of the other exoplanet, HD 209458 b. A paper was submitted and published by the ''[[Astrophysical Journal|Astrophysical Journal Letters]]''. The spectroscopic observations of HD 189733 b were led by Carl Grillmair of NASA's [[Spitzer Science Center]].
+
+=== Visible color ===
+In 2008, a team of astrophysicists appeared to have detected and monitored the planet's visible light using [[polarimetry]], which would have been the first such success.<ref name="Berdyugina2008"/> This result seemed to be confirmed and refined by the same team in 2011.<ref name="Berdyugina2011"/> They found that the planet [[albedo]] is significantly larger in blue light than in the red, most probably due to [[Rayleigh scattering]] and molecular absorption in the red.<ref name="Berdyugina2011"/> The blue color of the planet was subsequently confirmed in 2013,<ref name="Evans2013"/><ref>{{Cite journal|url=https://www.nature.com/articles/nature.2013.13376|title=First distant planet to be seen in colour is blue|first=Devin|last=Powell|date=July 11, 2013|journal=Nature|via=www.nature.com|doi=10.1038/nature.2013.13376|s2cid=130070356 |doi-access=free|url-access=subscription}}</ref> which would have made HD 189733 the first planet to have its overall color determined by two different techniques. The measurements in polarized light have since been disputed by two separate teams using more sensitive polarimeters,<ref>{{Cite journal |last=Wiktorowicz |first=Sloane J. |date=10 May 2009 |title=Non-Detection of Polarized, Scattered Light from the HD 189733b Hot Jupiter |journal=[[The Astrophysical Journal]] |volume=696 |issue=2 |pages=1116–1124 |arxiv=0902.0624 |bibcode=2009ApJ...696.1116W |doi=10.1088/0004-637X/696/2/1116 |issn=0004-637X |s2cid=11384636}}</ref><ref>{{Cite journal |last1=Wiktorowicz |first1=Sloane J. |last2=Nofi |first2=Larissa A. |last3=Jontof-Hutter |first3=Daniel |last4=Kopparla |first4=Pushkar |last5=Laughlin |first5=Gregory P. |last6=Hermis |first6=Ninos |last7=Yung |first7=Yuk L. |last8=Swain |first8=Mark R. |date=27 October 2015 |title=A Ground-Based Albedo Upper Limit for HD 189733b from Polarimetry |journal=[[The Astrophysical Journal]] |volume=813 |issue=1 |pages=48 |arxiv=1507.03588 |bibcode=2015ApJ...813...48W |doi=10.1088/0004-637X/813/1/48 |issn=1538-4357 |s2cid=118086125}}</ref><ref>{{Cite journal|last1=Bott|first1=Kimberly|last2=Bailey|first2=Jeremy|last3=Kedziora-Chudczer|first3=Lucyna|last4=Cotton|first4=Daniel V.|last5=Lucas|first5=P. W.|last6=Marshall|first6=Jonathan P.|last7=Hough|first7=J. H.|date=2016-03-20|title=The polarization of HD 189733|journal=Monthly Notices of the Royal Astronomical Society: Letters|language=en|volume=459|issue=1|pages=L109–L113|doi=10.1093/mnrasl/slw046|arxiv=1603.05745 |issn=1745-3925|bibcode=2016MNRAS.459L.109B|url=http://uhra.herts.ac.uk/bitstream/2299/17649/2/L109.full2.pdf|doi-access=free}}</ref> with upper limits of the polarimetric signal provided therein.
+
+The rich [[cobalt blue]]<ref>{{Cite web |last=Kramer |first=Miriam |date= 30 November 2001|title=For First Time, Alien Planet's True Color Revealed: 'Deep Cobalt Blue' |url=https://spacenews.com/36398for-first-time-alien-planets-true-color-revealed-deep-cobalt-blue/ |access-date=2024-01-28 |website=SpaceNews |language=en-US}}</ref><ref>{{Cite web |title=Exoplanet Catalog – HD 189733 b |url=https://exoplanets.nasa.gov/exoplanet-catalog/6876/hd-189733-b/ |access-date=2024-01-28 |website=Exoplanet Exploration: Planets Beyond our Solar System |date=22 April 2019 |language=en}}</ref> colour of HD 189733 b may be the result of [[Rayleigh scattering]]. In mid January 2008, spectral observation during the planet's transit using that model found that if molecular [[hydrogen]] exists, it would have an [[atmospheric pressure]] of 410 ± 30 [[millibars|mbar]] of 0.1564 solar radii. The Mie approximation model also found that there is a possible condensate in its atmosphere, [[magnesium silicate]] (MgSiO<sub>3</sub>) with a [[particle size (grain size)|particle size]] of approximately 10<sup>−2</sup> to 10<sup>−1</sup> μm. Using both models, the planet's temperature would be between 1340 and 1540 K.<ref name="Lecavelier des Etangs"/> The Rayleigh effect is confirmed in other models,<ref name=agol/> and by the apparent lack of a cooler, shaded [[stratosphere]] below its outer atmosphere. In the visible region of the spectrum, thanks to their high absorption cross sections, atomic sodium and potassium can be investigated. For example, using high-resolution [[UVES]] spectrograph on the [[Very Large Telescope]], sodium has been detected on this atmosphere and further physical characteristics of the atmosphere such as temperature has been investigated.<ref name="Khd"/>
+
+=== X-ray spectrum ===
+In July 2013, NASA reported the first observations of planet transit studied in the X-ray spectrum. It was found that the planet's atmosphere blocks three times more X-rays than visible light.<ref>{{Cite web|url=http://www.nasa.gov/mission_pages/chandra/news/exoplanet-HD189733b.html|title=NASA's Chandra Sees Eclipsing Planet in X-rays for First Time|first=Brooke|last=Boen|date=May 20, 2015|website=NASA}}</ref>
+
+=== Evaporation ===
+[[File:Hubble, Swift Detect First-ever Changes in an Exoplanet Atmosphere.ogv|thumb|350px|Short narrated video about the evaporation of HD 189733 b's atmosphere]]
+
+In March 2010, transit observations using HI Lyman-alpha found that this planet is evaporating at a rate of 1–100 gigagrams per second. This indication was found by detecting the extended [[exosphere]] of atomic hydrogen. HD 189733 b is the second planet after [[HD 209458 b]] for which atmospheric evaporation has been detected.<ref>{{cite journal |title=Evaporation of the planet HD189733b observed in HI Lyman-alpha |author=Lecavelier des Etangs |display-authors=etal |journal=[[Astronomy & Astrophysics]] |date=2010-03-10 |arxiv=1003.2206|bibcode = 2010A&A...514A..72L |volume=1003 |pages=2206 |doi=10.1051/0004-6361/200913347 |doi-access=free|s2cid=53408874 |url=https://ore.exeter.ac.uk/repository/bitstream/10871/16083/2/Lecavelier.2010.A%26A.HD189733.ACS.Escaping.Atmo.pdf }}</ref>
+
+== Physical characteristics ==
+This planet exhibits one of the largest photometric transit depth (amount of the parent star's light blocked) of [[extrasolar planets]] so far observed, approximately 3%. The apparent [[longitude of ascending node]] of its orbit is 16 degrees +/− 8 away from the north–south in our sky. It and [[HD 209458 b]] were the first two planets to be directly [[Spectroscopy|spectroscopically]] observed.<ref name=spitzer-press-release/> The parent stars of these two planets are the brightest transiting-planet host stars, so these planets will continue to receive the most attention from astronomers. Like most hot Jupiters, this planet is thought to be tidally locked to its parent star, meaning it has a permanent day and night.
+
+The planet is not [[Oblate spheroid|oblate]], and has neither satellites with greater than 0.8 the radius of Earth nor a ring system like that of Saturn.<ref name="pont"/>
+
+The international team under the direction of Svetlana Berdyugina of Zurich University of Technology, using the Swedish 60-centimeter telescope KVA, which is located in Spain, was able to directly see the polarized light reflected from the planet. The polarization indicates that the scattering atmosphere is considerably larger (> 30%) than the opaque body of the planet seen during transits.<ref>{{Cite web |last=Berdyugina |first=Svetlana |date=26 December 2007 |title=Polarization technique focuses limelight |url=https://idw-online.de/en/news?id=241548 |website=[[Informationsdienst Wissenschaft]]}}</ref>
+
+The atmosphere was at first predicted "pL class", lacking a temperature-inversion [[stratosphere]]; like [[brown dwarf|L dwarfs]] which lack titanium and vanadium oxides.<ref>{{cite journal | title=A Unified Theory for the Atmospheres of the Hot and Very Hot Jupiters: Two Classes of Irradiated Atmospheres |author1=Fortney, J. J. |author2=Lodders, K. |author2-link=Katharina Lodders|author3=Marley, M. S. |author4=Freedman, R. S. | date=2008 | journal=Astrophysical Journal | volume=678 |issue=2|pages=1419–1435 | doi=10.1086/528370 | bibcode=2008ApJ...678.1419F|arxiv = 0710.2558 |s2cid=17502177 }}</ref> Follow-up measurements, tested against a stratospheric model, yielded inconclusive results.<ref>{{cite journal|author1=Ivan Hubeny |author2=Adam Burrows |title=Spectrum and atmosphere models of irradiated transiting extrasolar giant planets|date=2008| doi=10.1017/S1743921308026458| journal=Proceedings of the International Astronomical Union| volume=4| pages=239–245 |arxiv=0807.3588 | bibcode=2009IAUS..253..239H|s2cid=13978248 }}</ref> Atmospheric condensates form a haze {{convert|1000|km|mi}} above the surface as viewed in the infrared. A sunset viewed from that surface would be red.<ref>{{cite journal| author=F. Pont| display-authors=etal|title=Detection of atmospheric haze on an extrasolar planet: The 0.55&nbsp;– 1.05 micron transmission spectrum of HD189733b with the Hubble Space Telescope|date=2008| doi=10.1111/j.1365-2966.2008.12852.x| journal=[[Monthly Notices of the Royal Astronomical Society]]| volume=385| issue=1| pages=109–118 | doi-access=free|arxiv=0712.1374|bibcode = 2008MNRAS.385..109P | s2cid=10831981}}</ref> Sodium and potassium signals were predicted by Tinetti 2007. First obscured by the haze of condensates, sodium was eventually observed at three times the concentration of [[HD 209458 b]]'s sodium layer.<ref>{{cite journal | author=Redfield | title=Sodium Absorption from the Exoplanetary Atmosphere of HD 189733b Detected in the Optical Transmission Spectrum | journal=The Astrophysical Journal Letters | volume=673 | issue=1 | date=2008 | pages=L87–L90  | doi=10.1086/527475 | last2=Endl | first2=Michael | last3=Cochran | first3=William D. | last4=Koesterke | first4=Lars | bibcode=2008ApJ...673L..87R|arxiv = 0712.0761 | s2cid=2028887 }}</ref> The potassium was also detected in 2020, although in significantly smaller concentrations.<ref>{{citation|arxiv=2008.04044|title=Probing the atmosphere of HD189733b with the Na i and K i lines|year=2020|doi=10.1093/mnras/staa2435 |last1=Keles |first1=E. |last2=Kitzmann |first2=D. |last3=Mallonn |first3=M. |last4=Alexoudi |first4=X. |last5=Fossati |first5=L. |last6=Pino |first6=L. |last7=Seidel |first7=J. V. |last8=Carroll |first8=T. A. |last9=Steffen |first9=M. |last10=Ilyin |first10=I. |last11=Poppenhäger |first11=K. |last12=Strassmeier |first12=K. G. |last13=Von Essen |first13=C. |last14=Nascimbeni |first14=V. |last15=Turner |first15=J. D. |journal=Monthly Notices of the Royal Astronomical Society |volume=498 |pages=1023–1033 |doi-access=free }}</ref> HD 189733 is also the first extrasolar planet confirmed to have carbon dioxide in its atmosphere.<ref name="carbon"/> In 2024, hydrogen sulfide was detected in HD 189733 b's atmosphere,<ref>{{cite news|last=Baker|first=Harry|title=James Webb telescope reveals rare, 'rotten egg' atmosphere around nearby hell planet|url=https://www.livescience.com/space/exoplanets/james-webb-telescope-reveals-rare-rotten-egg-atmosphere-around-nearby-hell-planet|website=LiveScience|date=8 July 2024|accessdate=10 July 2024}}</ref> and a different analysis also identified lithium and sodium in the atmosphere.<ref name="espresso">{{cite journal |last1=Mounzer |first1=D. |last2=Dethier |first2=W. |last3=Lovis |first3=C. |last4=Bourrier |first4=V. |last5=Psaridi |first5=A. |last6=Chakraborty |first6=H. |last7=Lendl |first7=M. |last8=Allart |first8=R. |last9=Seidel |first9=J. V. |last10=Zapatero Osorio |first10=M. R. |last11=Molaro |first11=P. |last12=Steiner |first12=M. |last13=Ehrenreich |first13=D. |last14=Alibert |first14=Y. |last15=Carleo |first15=I. |last16=Cristiani |first16=S. |last17=González Hernández |first17=J. I. |last18=Martins |first18=C. J. A. P. |last19=Palle |first19=E. |last20=Rodrigues |first20=J. |last21=Santos |first21=N. |last22=Sozzetti |first22=A. |last23=Suárez Mascareño |first23=A. |title=The ESPRESSO transmission spectrum of HD189733 b: Extracting the planetary sodium and lithium signatures amid stellar contamination |journal=Astronomy & Astrophysics |date=August 2025 |volume=700 |pages=A41 |doi=10.1051/0004-6361/202554785 |doi-access=free|arxiv=2506.21459 |bibcode=2025A&A...700A..41M }}</ref><ref>{{cite journal|last1=Mounzer |first1=D. |last2=Dethier |first2=W. |last3=Lovis |first3=C. |last4=Bourrier |first4=V. |last5=Psaridi |first5=A. |last6=Chakraborty |first6=H. |last7=Lendl |first7=M. |last8=Allart |first8=R. |last9=Seidel |first9=J. V. |last10=Zapatero Osorio |first10=M. R. |last11=Molaro |first11=P. |last12=Steiner |first12=M. |last13=Ehrenreich |first13=D. |last14=Alibert |first14=Y. |last15=Carleo |first15=I. |last16=Cristiani |first16=S. |last17=González Hernández |first17=J. I. |last18=Martins |first18=C. J. A. P. |last19=Palle |first19=E. |last20=Rodrigues |first20=J. |last21=Santos |first21=N. |last22=Sozzetti |first22=A. |last23=Suárez Mascareño |first23=A. |title=The ESPRESSO transmission spectrum of HD189733 B|journal=Astronomy & Astrophysics |date=2025 |volume=700 |pages=A41 |doi=10.1051/0004-6361/202554785  |doi-access=free|arxiv=2506.21459v1 |bibcode=2025A&A...700A..41M }}</ref>
+
+=== Map of the planet ===
+[[File:Artist’s impression of the deep blue planet HD 189733b.jpg|thumb|upright=1|An artist's conception of HD 189733 b following the 2013 confirmation of the planet's blue color by the [[Hubble Space Telescope]]. The appearance of HD 189733 b beyond the blue color is unknown.]]
+
+In 2007, the [[Spitzer Space Telescope]] was used to map the planet's temperature emissions. The planet and star system was observed for 33 consecutive hours, starting when only the night side of the planet was in view. Over the course of one-half of the planet's orbit, more and more of the dayside came into view. A temperature range of 973 ± 33 K to 1,212 ± 11 K was discovered, indicating that the absorbed energy from the parent star is distributed fairly evenly through the planet's atmosphere. The region of peak temperature was offset 30 degrees east of the substellar point, as predicted by theoretical models of hot Jupiters taking into account a parameterized day to night redistribution mechanism.<ref name="Knutson2007"/>
+
+[[File:HD 189733b's atmosphere.jpg|thumb|upright=1|An artist's impression of HD 189733 b showing rapid evaporation of the atmosphere]]
+
+Scientists at the [[University of Warwick]] determined that HD 189733 b has winds of up to {{convert|8700|km/h|mph|abbr=on}} blowing from the day side to the night side.<ref>{{cite news |last=Klotz |first=Irene |url=http://www.space.com/31128-exoplanet-global-winds-5400-mph.html |title=Exoplanet's Global Winds Let Rip at 5,400 MPH |work=Space |date=November 16, 2015 |access-date=2015-11-17 }}</ref> NASA released a brightness map of the surface temperature of HD 189733 b; it is the first map ever published of an extra-solar planet.<ref>{{cite web |title=First Map of Alien World |url=http://www.spitzer.caltech.edu/images/1796-ssc2007-09a-First-Map-of-an-Alien-World |work=[[Spitzer Space Telescope]] |publisher=[[Jet Propulsion Laboratory]] |date=2007-05-09 |access-date=2009-09-30}}</ref>
+
+=== Water vapor, oxygen, and organic compounds ===
+On July 11, 2007, a team led by [[Giovanna Tinetti]] published the results of their observations using the Spitzer Space Telescope concluding there is solid evidence for significant amounts of water vapor in the planet's atmosphere.<ref>{{Cite web|url=http://www.spitzer.caltech.edu/Media/releases/ssc2007-12/release.shtml|title=Press Release: NASA's Spitzer Finds Water Vapor on Hot, Alien Planet|access-date=2007-07-11|archive-date=2007-07-15|archive-url=https://web.archive.org/web/20070715120124/http://www.spitzer.caltech.edu/Media/releases/ssc2007-12/release.shtml|url-status=dead}}</ref> Follow-up observations made using the [[Hubble Space Telescope]] confirm the presence of water vapor, neutral oxygen and also the organic compound [[methane]].<ref name=agol /><ref name=nature-methane/><ref>{{Cite journal|title=Hubble Space Telescope detection of oxygen in the atmosphere of exoplanet HD189733b|first1=Lotfi|last1=Ben-Jaffel|first2=Gilda|last2=Ballester|date=May 18, 2013|journal=Astronomy & Astrophysics|volume=553|pages=A52|doi=10.1051/0004-6361/201221014|doi-access=free|arxiv=1303.4232|bibcode=2013A&A...553A..52B |s2cid=119311496 }}</ref> Later, [[Very Large Telescope]] observations also detected the presence of [[carbon monoxide]] on the day side of the planet.<ref name="de Kok2013"/> It is currently unknown how the methane originated as the planet's high {{nowrap|700 °C}} temperature should cause the water and methane to react, replacing the atmosphere with carbon monoxide.<ref name=nature-methane/><ref>{{cite web|url=https://www.newscientist.com/article/dn13303-organic-molecules-found-on-alien-world-for-first-time.html|title=Organic molecules found on alien world for first time|access-date=2008-02-12|author=Stephen Battersby|date=2008-02-11}}</ref> Nonetheless, the presence of roughly 0.004% of water vapour fraction by volume in atmosphere of HD 189733 b was confirmed with high-resolution emission spectra taken in 2021.<ref name="Boucher2021"/>
+
+[[File:Rains of Terror FINAL 10 15 HERO.png|thumb|NASA Exoplanet Exploration Program "horror film poster" for HD 189733 b<ref>{{Cite web|url=http://www.nasa.gov/image-feature/rains-of-terror-on-exoplanet-hd-189733b|title=Rains of Terror on Exoplanet HD 189733b|last=Loff|first=Sarah|date=2016-10-31|website=NASA|access-date=2019-12-13}}</ref>]]
+
+=== Evolution ===
+While transiting the system also clearly exhibits the [[Rossiter–McLaughlin effect]], shifting in [[photosphere|photospheric]] spectral lines caused by the planet occulting a part of the rotating stellar surface. Due to its high mass and close orbit, the parent star has a very large [[amplitude|semi-amplitude (K)]], the "wobble" in the star's [[radial velocity]], of 205&nbsp;m/s.<ref>{{cite web| url=http://obswww.unige.ch/exoplanets/hd189733.html| title=HD 189733 page| date=2007-03-05| publisher=[[University of Geneva]]| access-date=2008-02-18| archive-date=2008-02-06| archive-url=https://web.archive.org/web/20080206204209/http://obswww.unige.ch/exoplanets/hd189733.html| url-status=dead}}</ref>
+
+The Rossiter–McLaughlin effect allows the measurement of the angle between the planet's orbital plane and the equatorial plane of the star. These are well aligned,<ref>{{cite journal| title=The Rotation Period of the Planet-Hosting Star HD 189733 | author=Gregory W. Henry | display-authors=etal | date= 2008 | journal=The Astronomical Journal | volume=135 | issue=1 | doi=10.1088/0004-6256/135/1/68 |pages=68–71 | bibcode=2008AJ....135...68H|arxiv = 0709.2142 | s2cid=15540915 }}</ref> misalignment equal to -0.5{{±|0.4}}°.<ref>{{citation|arxiv=1206.6105|title=Obliquities of Hot Jupiter Host Stars: Evidence for Tidal Interactions and Primordial Misalignments|year=2012|doi=10.1088/0004-637X/757/1/18 |last1=Albrecht |first1=Simon |last2=Winn |first2=Joshua N. |last3=Johnson |first3=John A. |last4=Howard |first4=Andrew W. |last5=Marcy |first5=Geoffrey W. |last6=Butler |first6=R. Paul |last7=Arriagada |first7=Pamela |last8=Crane |first8=Jeffrey D. |last9=Shectman |first9=Stephen A. |last10=Thompson |first10=Ian B. |last11=Hirano |first11=Teruyuki |last12=Bakos |first12=Gaspar |last13=Hartman |first13=Joel D. |journal=The Astrophysical Journal |volume=757 |issue=1 |page=18 |bibcode=2012ApJ...757...18A |s2cid=17174530 }}</ref> By analogy with [[HD 149026 b]], the formation of the planet was peaceful and probably involved interactions with the [[protoplanetary disc]]. A much larger angle would have suggested a violent interplay with other protoplanets.
+[[File:Clear to cloudy hot Jupiters.jpg|thumb|center|400px|{{center|Comparison of "[[hot Jupiter]]" exoplanets (artist concept).}}<br>From top left to lower right: [[WASP-12b]], [[WASP-6b]], [[WASP-31b]], [[WASP-39b]], '''HD 189733 b''', [[HAT-P-12b]], [[WASP-17b]], [[WASP-19b]], [[HAT-P-1b]] and [[HD 209458 b]].]]
+
+== Star-planet interaction controversy ==
+In 2008, a team of astronomers first described how as the exoplanet orbiting HD 189733 A reaches a certain place in its orbit, it causes increased [[stellar flare|stellar flaring]]. In 2010, a different team found that every time they observe the exoplanet at a certain position in its orbit, they also detected [[X-ray]] flares. Theoretical research since 2000 suggested that an exoplanet very near to the star that it orbits may cause increased flaring due to the interaction of their [[magnetic fields]], or because of [[tidal force]]s. In 2019, astronomers analyzed data from [[Arecibo Observatory]], [[MOST (satellite)|MOST]], and the Automated Photoelectric Telescope, in addition to historical observations of the star at radio, optical, ultraviolet, and X-ray wavelengths to examine these claims. They found that the previous claims were exaggerated and the host star failed to display many of the brightness and spectral characteristics associated with stellar flaring and solar [[active regions]], including sunspots. Their statistical analysis also found that many stellar flares are seen regardless of the position of the exoplanet, therefore debunking the earlier claims. The magnetic fields of the host star and exoplanet do not interact, and this system is no longer believed to have a "star-planet interaction."<ref>{{cite journal|last1=Route|first1=Matthew|title=The Rise of ROME. I. A Multiwavelength Analysis of the Star-Planet Interaction in the HD 189733 System|journal=The Astrophysical Journal|date=February 10, 2019|volume=872|issue=1|page=79|doi=10.3847/1538-4357/aafc25|arxiv=1901.02048|bibcode=2019ApJ...872...79R|s2cid=119350145 |doi-access=free }}</ref> Some researchers had also suggested that HD 189733 accretes, or pulls, gas from its orbiting exoplanet at a rate similar to those found around young [[protostars]] in [[T Tauri Star|T Tauri Star systems]]. Later analysis demonstrated that very little, if any, gas was accreted from the "hot Jupiter" companion.<ref>{{cite journal|last1=Route|first1=Matthew|last2=Looney|first2=Leslie|title=ROME (Radio Observations of Magnetized Exoplanets). II. HD 189733 Does Not Accrete Significant Material from Its Exoplanet Like a T Tauri Star from a Disk|journal=The Astrophysical Journal|date=December 20, 2019|volume=887|issue=2|page=229|doi=10.3847/1538-4357/ab594e|arxiv=1911.08357|bibcode=2019ApJ...887..229R|s2cid=208158242 |doi-access=free }}</ref>
+
+== Possible exomoons ==
+Some studies have proposed candidate [[exomoon]]s around HD 189733 b. A 2014 study proposed a moon based on studying periodic increases and decreases in light given off from HD 189733 b. This moon would be outside of the planet's [[Hill sphere]], making its existence implausible.<ref name=exomoonplasmatori/> Two studies by the same team in 2019 and 2020 proposed exo-[[Io (moon)|Io]] candidates around a number of hot Jupiters, including HD 189733 b and [[WASP-49b]], based on detected [[sodium]]<ref name="Wyttenbach2015"/> and [[potassium]],<ref name="keles2019"/> consistent with evaporating exomoons and/or their corresponding [[gas torus]].<ref name="Oza2019"/><ref name="Gebek2020"/> A follow-up study in 2022 did not find evidence for an exomoon around HD 189733 b.<ref name="Narang2023"/>
+
+== See also ==
+{{div col|colwidth=30em}}
+* Dimidium ([[51 Pegasi b]])
+* [[HD 2039 b]]
+* [[HD 149026 b]]
+* [[Kepler-186f]]
+* Osiris ([[HD 209458 b]])
+* [[WASP-3b]]
+* [[WASP-12b]]
+* [[WASP-189 b]]
+{{div col end}}
+
+== References ==
+{{Reflist|refs=
+
+<ref name="GaiaDR3">{{Cite Gaia DR3|1827242816201846144}}</ref>
+
+<ref name="Bouchy2005">{{cite journal | title=ELODIE metallicity-biased search for transiting Hot Jupiters II. A very hot Jupiter transiting the bright K star HD 189733 | last1=Bouchy | first1=F. | last2=Udry | first2=S. | last3=Mayor | first3=M. | last4=Moutou | first4=C. | last5=Pont | first5=F. | last6=Iribarne | first6=N. | last7=Da Silva | first7=R. | last8=Ilovaisky | first8=S. | last9=Queloz | first9=D. | display-authors=1 | journal=Astronomy and Astrophysics | volume=444 | issue=1 | pages=L15–L19 | date=2005 | arxiv=astro-ph/0510119 | bibcode=2005A&A...444L..15B | bibcode-access=free | doi=10.1051/0004-6361:200500201 | doi-access=free }}</ref>
+
+<ref name="Knutson2007">{{cite journal |last1=Knutson |first1=Heather A. |last2=Charbonneau |first2=David |display-authors=etal |date=May 2007 |title=A map of the day-night contrast of the extrasolar planet HD 189733b |journal=[[Nature (journal)|Nature]] |volume=447 |issue=7141 |pages=183–186 |doi=10.1038/nature05782 |pmid=17495920 |arxiv=0705.0993 |bibcode=2007Natur.447..183K}}</ref>
+
+<ref name="pont">{{cite journal | title=Hubble Space Telescope time-series photometry of the planetary transit of HD189733: no moon, no rings, starspots | author=Frédéric Pont | display-authors=etal | date=2008 | doi=10.1051/0004-6361:20078269  | doi-access=free| journal=Astronomy and Astrophysics | volume=476 | issue=3 | pages=1347–1355 |arxiv=0707.1940|bibcode = 2007A&A...476.1347P | s2cid=18293269 }}</ref>
+
+<ref name="spitzer-press-release">{{Cite press release |title=NASA's Spitzer First to Crack Open Light of Faraway Worlds |date=21 February 2007 |publisher=[[Caltech]] |url=https://www.jpl.nasa.gov/news/nasas-spitzer-first-to-crack-open-light-of-faraway-worlds/ |via=[[Jet Propulsion Lab]]}}</ref>
+
+<ref name="Berdyugina2008">{{cite journal | journal=The Astrophysical Journal | volume=673 | issue=1 | date=20 January 2008 | title=First detection of polarized scattered light from an exoplanetary atmosphere | first=Svetlana V. | last=Berdyugina | author2=Andrei V. Berdyugin | author3=Dominique M. Fluri | author4=Vilppu Piirola | doi=10.1086/527320 | pages=L83–L86 | bibcode=2008ApJ...673L..83B | arxiv=0712.0193 | s2cid=14366978 }}</ref>
+
+<ref name=nature-methane>{{Cite journal | title = The presence of methane in the atmosphere of an extrasolar planet | last1 = Swain | first1 = Mark R. | last2 = Vasisht | first2 = Gautam | last3 = Tinetti | first3 = Giovanna | date = 2008-03-20 | journal = [[Nature (journal)|Nature]] | volume = 452 | pages = 329–331 | doi = 10.1038/nature06823 | pmid = 18354477 | issue = 7185|bibcode = 2008Natur.452..329S | s2cid = 205212651 |arxiv=0802.1030}}</ref>
+
+<ref name="Lecavelier des Etangs">{{cite journal |url=http://www.aanda.org/index.php?option=article&access=standard&Itemid=129&url=/articles/aa/abs/2008/14/aa09388-08/aa09388-08.html |title=Rayleigh scattering in the transit spectrum of HD 189733b |journal=[[Astronomy & Astrophysics]] |date=2008 |volume=481 |pages=L83–L86 |access-date=2008-08-08 |author1=A. Lecavelier des Etangs |author2=F. Pont |author3=A. Vidal-Madjar |author4=D. Sing |doi=10.1051/0004-6361:200809388  |doi-access=free|bibcode=2008A&A...481L..83L |issue=2|arxiv = 0802.3228 |s2cid=18738916 }}</ref>
+
+<ref name=agol>{{cite journal| title =Transits and secondary eclipses of HD 189733 with Spitzer |author= Eric Agol  |display-authors= etal  |date=2008| doi =10.1017/S1743921308026422| journal =Proceedings of the International Astronomical Union| volume =4| pages =209–215 |arxiv=0807.2434 |s2cid= 15867430 }}</ref>
+
+<ref name="carbon">{{cite news|title=Carbon Dioxide Detected on Faraway World  |author=Robert Roy Britt|publisher=Space.com|url=http://www.space.com/scienceastronomy/081123-planet-carbon-dioxide.html|date=November 24, 2008}}</ref>
+
+<ref name="Berdyugina2011">{{cite journal | title=Polarized reflected light from the exoplanet HD189733b: First multicolor observations and confirmation of detection | last1=Berdyugina | first1=S.V. | last2=Berdyugin | first2=A.V. | last3=Fluri | first3=D.M. | last4=Piirola | first4=V. |journal=Astrophysical Journal Letters | volume=726 | issue=1 | pages=L6–L9 | date=2011 | arxiv=1101.0059 | bibcode=2011ApJ...728L...6B | doi=10.1088/2041-8205/728/1/L6 | s2cid=59160192 }}</ref>
+
+<ref name="Majeau2012">{{cite journal |last1=Majeau |first1=Carl |last2=Agol |first2=Eric |last3=Cowan |first3=Nicolas B. |date=March 2012 |title=A Two-dimensional Infrared Map of the Extrasolar Planet HD 189733b |journal=[[The Astrophysical Journal Letters]] |volume=747 |issue=2 |pages=L20 |doi=10.1088/2041-8205/747/2/L20 |arxiv=1202.1883 |bibcode=2012ApJ...747L..20M|s2cid=118492172 }}</ref>
+
+<ref name="Knutson2012">{{cite journal |last1=Knutson |first1=Heather A. |last2=Lewis |first2=Nikole |display-authors=etal |date=July 2012 |title=3.6 and 4.5 μm Phase Curves and Evidence for Non-equilibrium Chemistry in the Atmosphere of Extrasolar Planet HD 189733b |journal=[[The Astrophysical Journal]] |volume=754 |issue=1 |pages=22 |doi=10.1088/0004-637X/754/1/22 |arxiv=1206.6887 |bibcode=2012ApJ...754...22K|s2cid=51760187 }}</ref>
+
+<ref name="de Kok2013">{{cite journal | title=Detection of carbon monoxide in the high-resolution day-side spectrum of the exoplanet HD 189733b | url=http://www.aanda.org/articles/aa/full_html/2013/06/aa21381-13/aa21381-13.html | last1=de Kok | first1=R. J. | last2=Brogi | first2=M. | last3=Snellen | first3=I. A. G. | last4=Birkby | first4=J. | last5=Albrecht | first5=S. | last6=de Mooij | first6=E. J. W. | display-authors=1 | journal=Astronomy and Astrophysics | volume=554 | at=A82 | year=2013 | arxiv=1304.4014 | bibcode=2013A&A...554A..82D | doi=10.1051/0004-6361/201321381  | doi-access=free| s2cid=55266595 }}</ref>
+
+<ref name="Evans2013">{{cite journal |last1=Evans |first1=Thomas M. |last2=Pont |first2=Frédéric |display-authors=etal |date=August 2013 |title=The Deep Blue Color of HD 189733b: Albedo Measurements with Hubble Space Telescope/Space Telescope Imaging Spectrograph at Visible Wavelengths |journal=[[The Astrophysical Journal Letters]] |volume=772 |issue=2 |pages=L16 |doi=10.1088/2041-8205/772/2/L16 |arxiv=1307.3239 |bibcode=2013ApJ...772L..16E|s2cid=38344760 }}</ref>
+
+<ref name=exomoonplasmatori>{{cite journal |last1=Ben-Jaffel |first1=Lotfi |last2=Ballester |first2=Gilda |arxiv=1404.1084 |title=Transit of Exomoon Plasma Tori: New Diagnosis |journal=The Astrophysical Journal |date=3 April 2014 |volume=785 |issue=2 |pages=L30 |doi=10.1088/2041-8205/785/2/L30 |bibcode=2014ApJ...785L..30B |s2cid=119282630 }}</ref>
+
+<ref name="NASA-20140724">{{cite web |last1=Harrington |first1=J.D. |last2=Villard |first2=Ray |title=RELEASE 14-197 – Hubble Finds Three Surprisingly Dry Exoplanets |url=http://www.nasa.gov/press/2014/july/hubble-finds-three-surprisingly-dry-exoplanets/
+|date=July 24, 2014 |work=[[NASA]] |access-date=July 25, 2014}}</ref>
+
+<ref name="Wyttenbach2015">{{cite journal |last1=Wyttenbach |first1=A. |last2=Ehrenreich |first2=D. |last3=Lovis |first3=C. |last4=Udry |first4=S. |last5=Pepe |first5=F. |title=Spectrally resolved detection of sodium in the atmosphere of HD 189733b with the HARPS spectrograph |journal=Astronomy & Astrophysics |date=5 May 2015 |volume=577 |page=A62 |doi=10.1051/0004-6361/201525729  |doi-access=free|arxiv=1503.05581 |bibcode=2015A&A...577A..62W |s2cid=54935174 |url=https://www.aanda.org/articles/aa/full_html/2015/05/aa25729-15/aa25729-15.html}}</ref>
+
+<ref name="Khd">{{Cite journal|last1=Khalafinejad|first1=S.|last2=Essen|first2=C. von|last3=Hoeijmakers|first3=H. J.|last4=Zhou|first4=G.|last5=Klocová|first5=T.|last6=Schmitt|first6=J. H. M. M.|last7=Dreizler|first7=S.|last8=Lopez-Morales|first8=M.|last9=Husser|first9=T.-O.|date=2017-02-01|title=Exoplanetary atmospheric sodium revealed by orbital motion|journal=Astronomy & Astrophysics|language=en|volume=598|pages=A131|arxiv=1610.01610|bibcode=2017A&A...598A.131K|doi=10.1051/0004-6361/201629473|doi-access=free|s2cid=55263138 |issn=0004-6361}}</ref>
+
+<ref name="Bonomo2017">{{cite journal |last1=Bonomo |first1=A. S. |last2=Desidera |first2=S. |display-authors=etal |date=June 2017 |title=The GAPS Programme with HARPS-N at TNG. XIV. Investigating giant planet migration history via improved eccentricity and mass determination for 231 transiting planets |journal=[[Astronomy & Astrophysics]] |volume=602 |issue= |pages=A107 |doi=10.1051/0004-6361/201629882  |doi-access=free|arxiv=1704.00373 |bibcode=2017A&A...602A.107B|s2cid=118923163 }}</ref>
+
+<ref name="Pass2019">{{cite journal |last1=Pass |first1=Emily K. |last2=Cowan |first2=Nicolas B. |display-authors=etal |date=October 2019 |title=Estimating dayside effective temperatures of hot Jupiters and associated uncertainties through Gaussian process regression |journal=[[Monthly Notices of the Royal Astronomical Society]] |volume=489 |issue=1 |pages=941–950 |doi=10.1093/mnras/stz2226 |doi-access=free |arxiv=1908.02631 |bibcode=2019MNRAS.489..941P}}</ref>
+
+<ref name="Oza2019">{{Cite journal|last1=Oza|first1=Apurva V.|last2=Johnson|first2=Robert E.|last3=Lellouch|first3=Emmanuel|last4=Schmidt|first4=Carl|last5=Schneider|first5=Nick|last6=Huang|first6=Chenliang|last7=Gamborino|first7=Diana|last8=Gebek|first8=Andrea|last9=Wyttenbach|first9=Aurelien|last10=Demory|first10=Brice-Olivier|last11=Mordasini|first11=Christoph|first12=Prabal|last12=Saxena|first13=David |last13=Dubois|first14=Arielle |last14=Moullet|first15=Nicolas |last15=Thomas|date=2019-08-28|title=Sodium and Potassium Signatures of Volcanic Satellites Orbiting Close-in Gas Giant Exoplanets|arxiv=1908.10732 |bibcode=2019ApJ...885..168O |doi=10.3847/1538-4357/ab40cc |journal=[[The Astrophysical Journal]]|volume=885|issue=2|pages=168|s2cid=201651224 |doi-access=free }}</ref>
+
+<ref name="keles2019">{{cite journal |last1=Keles |first1=Engin |last2=Mallonn |first2=Matthias |last3=von Essen |first3=Carolina |last4=Carroll |first4=Thorsten |last5=Alexoudi |first5=Xanthippi |last6=Pino |first6=Lorenzo |last7=Ilyin |first7=Ilya |last8=Poppenhager |first8=Katja |last9=Kitzmann |first9=Daniel |last10=Nascimbeni |first10=Valerio |last11=Turner |first11=Jake D |last12=Strassmeier |first12=Klaus G |title=The potassium absorption on HD189733b and HD209458b |journal=Monthly Notices of the Royal Astronomical Society: Letters |date=October 2019 |volume=489 |issue=1 |page=L37-L41 |doi=10.1093/mnrasl/slz123|doi-access=free |arxiv=1909.04884 |bibcode=2019MNRAS.489L..37K |s2cid=202134796 }}</ref>
+
+<ref name="Gebek2020">{{cite journal |last1=Gebek |first1=Andrea |last2=Oza |first2=Apurva |title=Alkaline exospheres of exoplanet systems: evaporative transmission spectra |journal=Monthly Notices of the Royal Astronomical Society |date=29 July 2020 |volume=497 |issue=4 |pages=5271–5291 |doi=10.1093/mnras/staa2193 |doi-access=free |arxiv=2005.02536 |bibcode=2020MNRAS.497.5271G |s2cid=218516741 |url=https://academic.oup.com/mnras/article-abstract/497/4/5271/5877918?redirectedFrom=fulltext |access-date=8 December 2020}}</ref>
+
+<ref name="Boucher2021">{{cite journal | title=Characterizing Exoplanetary Atmospheres at High Resolution with SPIRou: Detection of Water on HD 189733 b | last1=Boucher | first1=Anne | last2=Darveau-Bernier | first2=Antoine | last3=Pelletier | first3=Stefan | last4=Lafrenière | first4=David | last5=Artigau | first5=Étienne | last6=Cook | first6=Neil J. | last7=Allart | first7=Romain | last8=Radica | first8=Michael | last9=Doyon | first9=René | last10=Benneke | first10=Björn | last11=Arnold | first11=Luc | last12=Bonfils | first12=Xavier | last13=Bourrier | first13=Vincent | last14=Cloutier | first14=Ryan | last15=Gomes da Silva | first15=João | last16=Deibert | first16=Emily | last17=Delfosse | first17=Xavier | last18=Donati | first18=Jean-François | last19=Ehrenreich | first19=David | last20=Figueira | first20=Pedro | last21=Forveille | first21=Thierry | last22=Fouqué | first22=Pascal | last23=Gagné | first23=Jonathan | last24=Gaidos | first24=Eric | last25=Hébrard | first25=Guillaume | last26=Jayawardhana | first26=Ray | last27=Klein | first27=Baptiste | last28=Lovis | first28=Christophe | last29=Martins | first29=Jorge H. C. | last30=Martioli | first30=Eder | last31=Moutou | first31=Claire | last32=Santos | first32=Nuno C. | display-authors=1 | journal=The Astronomical Journal | date=9 November 2021 | volume=162 | issue=6 | at=233 | arxiv=2108.08390 | bibcode=2021AJ....162..233B | bibcode-access=free | doi=10.3847/1538-3881/ac1f8e | doi-access=free }}</ref>
+
+<ref name="Narang2023">{{cite journal |last1=Narang |first1=Mayank |last2=Oza |first2=Apurva V. |display-authors=etal |date=January 2023 |title=Radio-loud Exoplanet-exomoon Survey: GMRT Search for Electron Cyclotron Maser Emission |journal=[[The Astronomical Journal]] |volume=165 |issue=1 |pages=1 |doi=10.3847/1538-3881/ac9eb8 |arxiv=2210.13298 |bibcode=2023AJ....165....1N |doi-access=free }}</ref>
+
+<ref name="Krenn2023">{{cite journal |last1=Krenn |first1=A. F. |last2=Lendl |first2=M. |display-authors=etal |date=April 2023 |title=The geometric albedo of the hot Jupiter HD 189733b measured with CHEOPS |journal=[[Astronomy & Astrophysics]] |volume=672 |issue= |pages=A24 |doi=10.1051/0004-6361/202245016  |doi-access=free|arxiv=2301.07731 |bibcode=2023A&A...672A..24K|s2cid=255999905 }}</ref>
+
+}}
+
+== External links ==
+{{Commons category}}
+* {{Cite journal |last1=Berdyugina |first1=S. V. |last2=Berdyugin |first2=A. V. |last3=Fluri |first3=D. M. |last4=Piirola |first4=V. |date=20 January 2008 |title=First Detection of Polarized Scattered Light from an Exoplanetary Atmosphere |journal=[[The Astrophysical Journal]] |language=en |volume=673 |issue=1 |pages=L83–L86 |arxiv=0712.0193 |bibcode=2008ApJ...673L..83B |doi=10.1086/527320 |issn=0004-637X |s2cid=14366978}}
+* {{Cite web |last=Naeye |first=Robert |date=2005-10-07 |title=The Best Transiting Exoplanet Yet |url=https://skyandtelescope.org/astronomy-news/the-best-transiting-exoplanet-yet/ |access-date=2008-06-21 |website=[[Sky & Telescope]]}}
+* {{Cite journal |last1=Deming |first1=Drake |last2=Harrington |first2=Joseph |last3=Seager |first3=Sara |last4=Richardson |first4=L. Jeremy |date=10 June 2006 |title=Strong Infrared Emission from the Extrasolar Planet HD 189733b |journal=[[The Astrophysical Journal]] |language=en |volume=644 |issue=1 |pages=560–564 |arxiv=astro-ph/0602443 |bibcode=2006ApJ...644..560D |doi=10.1086/503358 |issn=0004-637X |s2cid=14434391}}
+* {{WikiSky}}
+
+{{Vulpecula}}
+{{Sky|20|00|43.7133|+|22|42|39.07|62.9}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+
+[[Category:Vulpecula]]
+[[Category:Hot Jupiters]]
+[[Category:Transiting exoplanets]]
+[[Category:Exoplanets discovered in 2005]]
+[[Category:Exoplanets detected by radial velocity]]
+[[Category:Articles containing video clips]]
+[[Category:Exoplanets orbiting K-type stars]]
+[[Category:Exoplanets orbiting main-sequence stars]]

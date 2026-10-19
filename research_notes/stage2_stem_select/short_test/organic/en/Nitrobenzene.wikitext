@@ -1,0 +1,143 @@
+{{chembox
+| Verifiedfields = changed
+| Watchedfields  = changed
+| verifiedrevid  = 408770297
+| Name           = Nitrobenzene
+| ImageFileL1    = PhNO2&metric.png
+| ImageClassL1   = skin-invert
+| ImageSizeL1    = 80px
+| ImageNameL1    = Nitrobenzene, distances in picometers
+| ImageFileR1    = Nitrobenzene-3D-balls.png
+| ImageSizeR1    = 120px
+| ImageNameR1    = Nitrobenzene
+| ImageClassR1     = bg-transparent
+| ImageFile2     = Sample of Nitrobenzene.jpg
+| PIN            = Nitrobenzene
+| OtherNames     = Nitrobenzol<br />Nitritebenzene<br />Oil of mirbane
+| Section1       = {{Chembox Identifiers
+| Abbreviations = PhNO{{sub|2}}
+| UNII_Ref = {{fdacite|changed|FDA}}
+| UNII = E57JCN6SSY
+| SMILES = c1ccc(cc1)[N+](=O)[O-]
+| Beilstein = 507540
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 7138
+| Gmelin = 50357
+| PubChem = 7416
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = C06813
+| InChI = 1/C6H5NO2/c8-7(9)6-4-2-1-3-5-6/h1-5H
+| InChIKey = LQNUZADURLCDLV-UHFFFAOYAA
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 15750
+| EINECS = 202-716-0
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C6H5NO2/c8-7(9)6-4-2-1-3-5-6/h1-5H
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = LQNUZADURLCDLV-UHFFFAOYSA-N
+| CASNo_Ref = {{cascite|correct|CAS}}
+| CASNo = 98-95-3
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 27798
+| RTECS = DA6475000
+  }}
+| Section2       = {{Chembox Properties
+|C=6|H=5|N=1|O=2
+| Appearance = yellowish, oily liquid<ref name=PGCH/>
+| Odor = pungent, like paste shoe polish<ref name=PGCH/> to almond-like
+| Density = 1.199 g/cm<sup>3</sup>
+| Solubility = 0.19 g/100 ml at 20 °C
+| MeltingPtC = 5.7
+| BoilingPtC = 210.9
+| RefractIndex = 1.5215
+| VaporPressure = 0.3 mmHg (25°C)<ref name=PGCH/>
+| MagSus = −61.80·10<sup>−6</sup> cm<sup>3</sup>/mol
+| Viscosity = 1.8112 mPa·s<ref name="AhluwaliaWanchoo1996">{{cite journal|last1=Ahluwalia|first1=R.|last2=Wanchoo|first2=R. K.|last3=Sharma|first3=S. K.|last4=Vashisht|first4=J. L.|title=Density, viscosity, and surface tension of binary liquid systems: Ethanoic acid, propanoic acid, and butanoic acid with nitrobenzene|journal=[[Journal of Solution Chemistry]]|volume=25|issue=9|year=1996|pages=905–917|issn=0095-9782|doi=10.1007/BF00972581|s2cid=95126469}}</ref>
+  }}
+| Section7       = {{Chembox Hazards
+| ExternalSDS = 
+| GHSPictograms = {{GHS|06|08}}
+| GHSSignalWord = Danger
+| HPhrases = {{H-phrases|301|311|331|351|360|372|412}}
+| PPhrases = {{P-phrases|201|202|260|261|264|270|271|273|280|281|301+310|302+352|304+340|308+313|311|312|314|321|322|330|361|363|403+233|405|501}}
+| NFPA-H = 3
+| NFPA-F = 2
+| NFPA-R = 1
+| NFPA-S =
+| FlashPtC = 88
+| AutoignitionPtC = 480
+| PEL = TWA 1 ppm (5 mg/m<sup>3</sup>) [skin]<ref name=PGCH>{{PGCH|0450}}</ref>
+| REL = TWA 1 ppm (5 mg/m<sup>3</sup>) [skin]<ref name=PGCH/>
+| ExploLimits = 1.8%-?<ref name=PGCH/>
+| IDLH = 200 ppm<ref name=PGCH/>
+| LD50 = 780 mg/kg (rat, oral)<br/>600 mg/kg (rat, oral)<br/>590 mg/kg (mouse, oral)<br/><ref name=IDLH>{{IDLH|98953|Nitrobenzene}}</ref>
+| LDLo = 750 mg/kg (dog, oral)<ref name=IDLH/>
+  }}
+| Section8       = {{Chembox Related
+| OtherCompounds = [[Aniline]]<br />[[Benzenediazonium chloride]]<br />[[Nitrosobenzene]]
+  }}
+}}
+'''Nitrobenzene''' is an [[Aromatic compound|aromatic]] [[nitro compound]] and the simplest of the [[nitrobenzenes]], with the [[chemical formula]] [[Phenyl|C<sub>6</sub>H<sub>5</sub>]][[Nitro compound|NO<sub>2</sub>]].  It is a water-insoluble pale yellow oil with an [[almond]]-like odor.  It freezes to give greenish-yellow crystals.  It is produced on a large scale from [[benzene]] as a precursor to [[aniline]].  In the laboratory, it is occasionally used as a [[solvent]], especially for [[electrophilic]] [[reagent]]s. As confirmed by [[X-ray crystallography]], nitrobenzene is a planar molecule.<ref>{{cite journal |journal=Structural Chemistry |year=2007 |volume=18 |issue=6 |pages=739–753 |title=Molecular Structure and Conformation of Nitrobenzene Reinvestigated by Combined Analysis of Gas-Phase Electron Diffraction, Rotational Constants, and Theoretical Calculations |author=Olga V. Dorofeeva |author2=Yuriy V. Vishnevskiy |author3=Natalja Vogt |author4=Jürgen Vogt |author5=Lyudmila V. Khristenko |author6=Sergey V. Krasnoshchekov |author7=Igor F. Shishkov |author8=István Hargittai |author9=Lev V. Vilkov |doi=10.1007/s11224-007-9186-6 |bibcode=2007StrCh..18..739D |s2cid=98746905}}</ref>
+
+==Production==
+Nitrobenzene is prepared by [[nitration]] of [[benzene]] with a mixture of concentrated [[sulfuric acid]], [[water]], and [[nitric acid]]. This mixture is sometimes called "mixed acid."  
+[[File:Nitration of benzene ENG.png|class=skin-invert-image|center|frameless|333x333px]]
+The production of nitrobenzene is one of the most dangerous processes conducted in the chemical industry because of the exothermicity of the reaction (Δ''H'' = −117 kJ/mol).<ref name="Booth" />
+
+The [[nitration]] process involves formation of the [[nitronium]] ion (NO<sub>2</sub><sup>+</sup>), followed by an [[electrophilic aromatic substitution]] reaction of it with benzene.   The nitronium ion is generated by the reaction of nitric acid and an acidic dehydration agent, typically sulfuric acid:
+:HNO<sub>3</sub>  +  H<sup>+</sup>   {{eqm}}  NO<sub>2</sub><sup>+</sup>  +  H<sub>2</sub>O
+
+World capacity for nitrobenzene in 1985 was about 1,700,000 [[tonnes]].<ref name=Booth>{{cite book | first = Gerald | last = Booth | name-list-style = vanc | chapter = Nitro Compounds, Aromatic |title=Ullmann's Encyclopedia of Industrial Chemistry |date=2007 |publisher=Wiley-VCH |location=Weinheim |isbn=978-3-527-30385-4 | doi = 10.1002/14356007.a17_411 |edition=6th}}</ref>
+==Uses==
+Approximately 95% of nitrobenzene industrially produced is [[hydrogenated]] to [[aniline]]:<ref name=Booth/> 
+:C<sub>6</sub>H<sub>5</sub>NO<sub>2</sub>  +  3 H<sub>2</sub>  →   C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>  +  2 H<sub>2</sub>O
+Aniline is a precursor to [[Polyurethane|urethane]] polymers, [[rubber]] chemicals, [[pesticide]]s, [[dye]]s (particularly [[azo dye]]s), [[explosives]], and [[pharmaceutical]]s.
+
+:[[File:Synthesis of 4,4'-diaminodiphenylmethane.svg|class=skin-invert-image|thumb|400px|left|Most aniline is consumed in the production of [[methylenedianiline]], a precursor to polyurethanes.]]
+
+===Specialized applications===
+Nitrobenzene is used to mask unpleasant odors in shoe and floor polishes, leather dressings, paint [[solvent]]s, and other materials.  Redistilled, as oil of mirbane, nitrobenzene had been used as an inexpensive perfume for [[soap]]s.  It has been replaced by less toxic chemicals for this purpose.<ref>{{cite journal | vauthors = Hogarth CW | title = a case of poisoning by oil of mirbane (nitro-benzol) | journal = British Medical Journal | volume = 1 | issue = 2665 | pages = 183 | date = January 1912 | pmid = 20765985 | pmc = 2344391 | doi=10.1136/bmj.1.2665.183}}</ref>  A significant merchant market for nitrobenzene is its use in the production of the [[analgesic]] [[paracetamol]] (also known as acetaminophen).<ref>{{cite journal |last1=Bhattacharya |first1=Apurba |last2=Purohit |first2=Vikram C. |last3=Suarez |first3=Victor |last4=Tichkule |first4=Ritesh |last5=Parmer |first5=Gaurang |last6=Rinaldi |first6=Frank | name-list-style = vanc |title=One-step reductive amidation of nitro arenes: application in the synthesis of Acetaminophen |journal=Tetrahedron Letters |date=March 2006 |volume=47 |issue=11 |pages=1861–1864 |doi=10.1016/j.tetlet.2005.09.196}}</ref> Nitrobenzene is also used in [[Kerr cell]]s, as it has an unusually large [[Kerr effect|Kerr constant]].  Evidence suggests its use in agriculture as a plant growth/flowering stimulant.<ref>{{Cite web | url=https://patents.google.com/patent/US9113628 | title=Flowering stimulant composition using nitrobenzene}}</ref>
+
+Historically, nitrobenzene was used by the [[Provisional Irish Republican Army]] to make [[improvised explosive device]]s during [[The Troubles]],<ref>{{cite news |last1=Boyne |first1=Sean |title=Inside The Ira - Weapons & Technology |url=https://www.pbs.org/wgbh/pages/frontline/shows/ira/inside/weapons.html |access-date=15 July 2026 |work=Frontline |agency=Jane's Intelligence Review |publisher=[[PBS]] |date=1 August 1996}}</ref> specially after the [[British Army]] raids cut off their supplies of explosives in the early 1970s.<ref>{{cite news |title=Youth Said to Be Dying Of I.R.A.Bomb Chemical |url=https://www.nytimes.com/1972/08/16/archives/youth-said-to-be-dying-of-ira-bomb-chemical.html |access-date=17 July 2026 |work=[[The New York Times]] |agency=[[Associated Press]] |date=16 August 1972 |location=[[Belfast, Northern Ireland]]}}</ref>
+
+== Chemical properties ==
+
+=== Electrophilic substitution ===
+Nitrobenzene can be further nitrated using a mixture of concentrated HNO<sub>3</sub> and H<sub>2</sub>SO<sub>4</sub> to produce [[1,3-Dinitrobenzene|1,3-dinitrobenzene]] ('''1,3-DNB''') as a major product. Typical byproducts of the reaction are [[1,2-Dinitrobenzene|1,2-dinitrobenzene]] ('''1,2-DNB'''), [[1,4-Dinitrobenzene|1,4-dinitrobenzene]] ('''1,4-DNB''') and [[4-Nitrophenol|4-nitrophenol]] ('''4-NP''').<ref>{{Cite book |url=https://onlinelibrary.wiley.com/doi/book/10.1002/14356007 |title=Ullmann's Encyclopedia of Industrial Chemistry |date=2003-03-11 |publisher=Wiley |isbn=978-3-527-30385-4 |editor-last=Wiley-VCH |edition=1 |language=en |doi=10.1002/14356007.a17_411}}</ref>
+[[File:27-04-2026 Nitration of nitrobenzene.png|center|frameless|544x544px]]
+Sulfonation of nitrobenzene with 65% fuming [[sulfuric acid]] gives 3-nitrobenzenesulfonic acid ('''3-NBSA'''). Usually '''3-NBSA''' is not isolated in a form of a free acid, the reaction mass is quenched and converted to the sodium salt of '''3-NBSA'''.<ref>{{Cite patent|number=EP0010443B1|title=Process for preparing sodium-m-nitrobenzenesulfonate|gdate=1982-10-20|invent1=Baum|invent2=Rothman|inventor1-first=Arthur Aloysius|inventor2-first=Leonard Aaron|url=https://patents.google.com/patent/EP0010443B1/un}}</ref><ref>{{Cite journal |last=Chen |first=Yizheng |last2=Su |first2=Yuanhai |last3=Jiao |first3=Fengjun |last4=Chen |first4=Guangwen |date=2012-06-13 |title=A simple and efficient synthesis protocol for sulfonation of nitrobenzene under solvent-free conditions via a microreactor |url=https://pubs.rsc.org/en/content/articlelanding/2012/ra/c2ra20406a |journal=RSC Advances |language=en |volume=2 |issue=13 |pages=5637–5644 |doi=10.1039/C2RA20406A |issn=2046-2069|url-access=subscription }}</ref>
+[[File:Sulfonation of nitrobenzene.png|center|frameless|391x391px]]
+Nitrobenzene chlorination in the presence of [[Iron(III) chloride|FeCl<sub>3</sub>]] yields a mixture that predominantly contains [[3-Nitrochlorobenzene|3-nitrochlorobenzene]] ('''3-NCB''') and small amount of the other isomers: [[2-Nitrochlorobenzene|2-nitrochlorobenzene]] ('''2-NCB''') and [[4-Nitrochlorobenzene|4-]][[2-Nitrochlorobenzene|nitrochlorobenzene]] ('''4-NCB''').<ref>{{Cite book |url=https://onlinelibrary.wiley.com/doi/book/10.1002/14356007 |title=Ullmann's Encyclopedia of Industrial Chemistry |date=2003-03-11 |publisher=Wiley |isbn=978-3-527-30385-4 |editor-last=Wiley-VCH |edition=1 |language=en |doi=10.1002/14356007.a17_411}}</ref>
+[[File:27 04 2026-Chlorination of nitrobenzene.png|center|frameless|433x433px]]
+
+===Other organic reactions===
+Aside from its conversion to aniline, nitrobenzene can be selectively reduced to [[azoxybenzene]],<ref>{{cite journal| last1=Bigelow|first1=H. E.|last2=Palmer|first2=Albert |title=Azoxybenzene |journal=Organic Syntheses |date=1931 |volume=11 |pages=16 |doi=10.15227/orgsyn.011.0016 |doi-access=free}}</ref> [[azobenzene]],<ref>{{OrgSynth | vauthors = Bigelow HE, Robinson DB | title = Azobenzene | collvol = 3 | collvolpages = 103 | year = 1955 | prep = CV3P0103}}</ref> [[nitrosobenzene]],<ref name="ReferenceA">{{OrgSynth | vauthors = Coleman GH, McCloskey CM, Stuart FA | title = Nitrosobenzene | volume = 25 | page = 80 | doi = 10.15227/orgsyn.025.0080|year=1945}}</ref>Org. Synth. 1945, 25, 80
+DOI: 10.15227/orgsyn.025.0080 [[hydrazobenzene]],<ref>{{Cite journal|last1=Karwa|first1=Shrikant L.|last2=Rajadhyaksha|first2=Rajeev A.|date=January 1988|title=Selective catalytic hydrogenation of nitrobenzene to hydrazobenzene|journal=Industrial & Engineering Chemistry Research|language=EN|volume=27|issue=1|pages=21–24|doi=10.1021/ie00073a005|issn=0888-5885}}</ref> and  [[phenylhydroxylamine]].<ref>{{OrgSynth | vauthors = Kamm O | title = β-Phenylhydroxylamine | collvol = 1 | collvolpages = 445 | prep = cv1p0445}}</ref>  It has been used as a mild oxidant in reactions like the [[Skraup reaction|Skraup quinoline synthesis]].<ref>{{Cite journal|last1=Clarke|first1=HT|last2=Davis|first2=AW|title=Quinoline|url=http://www.orgsyn.org/demo.aspx?prep=CV1P0478|journal=Organic Syntheses|volume=1|pages=478}}</ref>
+
+==Safety==
+Nitrobenzene is toxic ([[Threshold Limit Value]] 5&nbsp;mg/m<sup>3</sup>) and readily absorbed through the skin.
+
+Prolonged exposure may cause serious damage to the central [[nervous system]], impair vision, cause liver or kidney damage, anemia and lung irritation. 
+
+Nitrobenzene is considered a likely human carcinogen by the United States Environmental Protection Agency,<ref>{{cite web|url=http://cfpub.epa.gov/ncea/iris/index.cfm?fuseaction=iris.showQuickView&substance_nmbr=0079|archive-url=https://web.archive.org/web/20090411194133/http://cfpub.epa.gov/ncea/iris/index.cfm?fuseaction=iris.showQuickView&substance_nmbr=0079|url-status=dead|archive-date=April 11, 2009|title=Nitrobenzene CASRN 98-95-3 - IRIS - US EPA, ORD|first=US EPA, ORD, Integrated Risk Information System|last=Division|website=cfpub.epa.gov|access-date=10 August 2017}}</ref> and is classified by the [[International Agency for Research on Cancer|IARC]] as a [[List of IARC Group 2B carcinogens|Group 2B carcinogen]] which is "possibly carcinogenic to humans".<ref>{{cite web|url=http://monographs.iarc.fr/ENG/Classification/ClassificationsGroupOrder.pdf|title=Agents Classified by the IARC Monographs, International Agency for Research on Cancer|access-date=10 August 2017|archive-date=25 October 2011|archive-url=https://web.archive.org/web/20111025122327/http://monographs.iarc.fr/ENG/Classification/ClassificationsGroupOrder.pdf|url-status=dead}}</ref>  It has been shown to cause liver, kidney, and thyroid adenomas and carcinomas in rats.<ref>National Institutes of Health · U.S. Department of Health and Human Services, [https://web.archive.org/web/20041031225752/http://ntp.niehs.nih.gov/ntp/newhomeroc/roc11/NB_RG2summary-final.pdf Nomination: Nitrobenzene Review committee], 02/02/2010</ref>
+
+It is classified as an [[List of extremely hazardous substances|extremely hazardous substance]] in the United States as defined in Section 302 of the U.S. [[Emergency Planning and Community Right-to-Know Act]] (42 U.S.C. 11002), and is subject to strict reporting requirements by facilities which produce, store, or use it in significant quantities.<ref name="gov-right-know">{{Cite web| publisher = [[United States Government Publishing Office|Government Printing Office]] | title = 40 C.F.R.: Appendix A to Part 355—The List of Extremely Hazardous Substances and Their Threshold Planning Quantities | url = http://edocket.access.gpo.gov/cfr_2008/julqtr/pdf/40cfr355AppA.pdf | edition = July 1, 2008 | access-date = October 29, 2011 | archive-url = https://web.archive.org/web/20120225051612/http://edocket.access.gpo.gov/cfr_2008/julqtr/pdf/40cfr355AppA.pdf | archive-date = February 25, 2012 | url-status = dead }}</ref>
+
+== References ==
+{{reflist}}
+
+== External links ==
+*[http://www.inchem.org/documents/icsc/icsc/eics0065.htm International Chemical Safety Card 0065]
+*[https://www.cdc.gov/niosh/npg/npgd0450.html NIOSH Pocket Guide to Chemical Hazards]
+*[http://monographs.iarc.fr/ENG/Monographs/vol65/mono65-11.pdf IARC Monograph: "Nitrobenzene"]
+*[https://web.archive.org/web/20030313013659/http://www.epa.gov/chemfact/nitro-sd.pdf US EPA factsheet]
+*https://patents.google.com/patent/US9113628
+
+{{Authority control}}
+
+[[Category:Nitrobenzenes]]
+[[Category:Nitro solvents]]
+[[Category:IARC Group 2B carcinogens]]
+[[Category:Nonlinear optical materials]]
+[[Category:Aromatic solvents]]
+[[Category:Phenyl compounds]]

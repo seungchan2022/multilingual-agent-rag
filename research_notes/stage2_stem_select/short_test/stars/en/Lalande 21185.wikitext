@@ -1,0 +1,336 @@
+{{short description|Star in the constellation Ursa Major}}
+{{Starbox begin
+| name = Lalande 21185
+}}
+{{Starbox image
+ | image=
+     <div style="position: relative">[[File:Ursa Major IAU.svg|300px]]
+     <div style="position: absolute; left: 47.5%; top: 61.0%">[[File:Cercle rouge 100%.svg|12px]]</div>
+     </div> <!--http://meta.wikimedia.org/wiki/Help:Composite_images -->
+ | caption=The red circle shows the approximate location of Lalande 21185 in [[Ursa Major]]
+}}
+{{Starbox observe
+| epoch = J2000
+| constell = [[Ursa Major]]<ref name="Roman1987"/>
+| ra = {{RA|11|03|20.19482}}<ref name="Gaia3"/>
+| dec = {{DEC|+35|58|11.5762}}<ref name="Gaia3"/>
+| appmag_v = 7.520<ref name=aaass61/>
+}}
+{{Starbox character
+| class = M2V<ref name="SIMBAD"/>
+| appmag_1_passband = B
+| appmag_1 = {{nowrap|8.960 ± 0.007}}<ref name=aaass61/>
+| appmag_2_passband = V
+| appmag_2 = {{nowrap|7.520 ± 0.009}}<ref name=aaass61/>
+| appmag_3_passband = R
+| appmag_3 = ~6.6<ref name="SIMBAD"/>
+| appmag_4_passband = I
+| appmag_4 = ~5.8<ref name="SIMBAD"/>
+| appmag_5_passband = J
+| appmag_5 = 4.203 ±0.242<ref name="SIMBAD"/>
+| appmag_6_passband = H
+| appmag_6 = 3.640 ±0.202<ref name="SIMBAD"/>
+| appmag_7_passband = K
+| appmag_7 = 3.254 ±0.306<ref name="SIMBAD"/>
+| r-i = <!--R-I color-->
+| v-r = <!--V-R color-->
+| b-v = +1.444<ref name=aaass61/>
+| u-b = +1.074<ref name=aaass61/>
+| variable = [[BY Draconis variable|BY]]<ref name=gcvs/>
+}}
+{{Starbox astrometry
+| radial_v = {{val|−85.11|0.13}}<ref name="Gaia3"/>
+| prop_mo_ra = −580.057
+| prop_mo_dec = {{nowrap|−4776.589}}
+| pm_footnote = <ref name="Gaia3"/>
+| parallax = 392.7529
+| p_error = 0.0321
+| parallax_footnote = <ref name="Gaia3"/>
+| absmag_v = 10.48<ref name=johnson/>
+}}
+{{Starbox detail
+| mass = 0.389{{±|0.008}}<ref name=Pineda2021/>
+| radius = 0.392{{±|0.004}}<ref name=Pineda2021/>
+| luminosity_bolometric =0.02194{{±|0.00021}}<ref name=Pineda2021/>
+| luminosity_visual=0.0055<ref group=nb>From knowing the absolute visual magnitude of Lalande 21185, <math>\scriptstyle M_{V_{\ast}} = 10.48</math>, and the absolute visual magnitude of the Sun, <math style="vertical-align:-30\%;">\scriptstyle M_{V_{\odot}}</math>  =  <math style="vertical-align:-30\%;">\scriptstyle 4.83</math>, the visual luminosity of Lalande 21185 can therefore be calculated: <math>\scriptstyle \frac{L_{V_{\ast}}}{L_{V_{\odot}}} = 10^{0.4\left(M_{V_{\odot}} - M_{V_{\ast}}\right )}</math> = 0.005495 Lv<sub>⊙</sub></ref>
+| gravity = {{val|4.895|0.008|0.010}}<ref name=Hurt2021/>
+| temperature = 3,547{{±|18}}<ref name=Pineda2021/>
+| metal_fe = {{val|−0.3621|0.0872|0.0687}}<ref name=Hurt2021/>
+| rotation = {{val|53.33|0.19}}<ref name=Kemmer2025/> days
+| age_gyr = {{val|8.047|3.958|4.523}}<ref name=Hurt2021/>
+}}
+{{Starbox catalog
+| names = {{odlist | BD=+36 2147 | G=119-052 | GJ=411 | HD=95735 | HIP=54035 | LFT=756 | LHS=37 | LTT=12960 | PLX=2576 | SAO=62377 | NLTT=26105 | NSV=18593 | IRAS=11005+3615 | 2MASS=J11032023+3558117, J11032027+3558203 }}, [[Alexander N. Vyssotsky|MCC]] 594<ref name="SIMBAD"/>
+}}
+{{Starbox reference
+| Simbad = HD+95735
+| NSTED = GJ-411
+| ARICNS = 00837
+| EPE = <!--http://exoplanet.eu/catalog/lalande_21185_b/ (not working from here)-->
+}}
+{{Starbox end}}
+
+'''Lalande 21185''' (also known as '''BD+36 2147''', '''Gliese 411''', and '''HD 95735'''<ref name="SIMBAD">{{cite simbad
+ | title=HD 95735
+ | access-date=2009-05-29}}</ref>) is a star in the south of [[Ursa Major]]. It is the [[apparent magnitude|apparent]] brightest [[red dwarf]] in the northern hemisphere.<ref group=nb>Only [[AX Microscopii]] and [[Lacaille 9352]], in the southern hemisphere, are brighter</ref><ref>{{cite web
+ | url =http://www.universetoday.com/111716/14-red-dwarf-stars-to-view-with-backyard-telescopes/
+ | title =14 Red Dwarf Stars to View with Backyard Telescopes
+ | last =Dickinson
+ | first =David
+ | date =2015-12-23
+ | publisher =Universe Today
+ | access-date =2016-12-04}}</ref><ref>{{cite web
+ | url =http://kencroswell.com/thebrightestreddwarf.html
+ | title =The Brightest Red Dwarf
+ | last =Croswell
+ | first =Ken
+ | date =July 2002
+ | website =KenCroswell.com
+ | access-date =2016-12-04}}</ref> Despite this, and being relatively close by, it is very dim (as are all red dwarfs), being only [[apparent magnitude|magnitude]] 7.5 in [[visible light]] and thus too faint to be seen with the unaided eye. The [[star]] is visible through a [[small telescope]] or [[binoculars]].<ref name=sherrod_koed2003/>
+
+At {{Convert|8.304|ly|pc|abbr=off|lk=on}}<ref name="Gaia3"/> away it is one of the [[List of nearest stars|stars nearest]] to the Solar System; only the [[Alpha Centauri]] system, [[Barnard's Star]], [[Wolf 359]], and the [[brown dwarf]]s [[Luhman 16]] and [[WISE 0855−0714]] are known to be closer.<ref name="Reylé2021"/> Because of its proximity it is a frequent subject for [[astronomical surveys]] and other research and thus is known by numerous other designations, most commonly Gliese 411 and HD 95735. In approximately 19,900 years it will be at its closest, about 4.65 [[light-year|ly]] (1.43 [[parsec|pc]]) from the Sun, just over half its present distance.<ref name="García-Sánchez2001"/><ref name="SIMBAD2">{{cite web
+ | url=http://cdsannotations.u-strasbg.fr/annotations/simbadObject/1764001
+ | title=Annotations on HD 95735 object 
+ | publisher=Centre de données astronomiques de Strasbourg
+ | access-date=2010-04-14 }}</ref>
+
+Lalande 21185 has two known [[exoplanet]]s and one candidate exoplanet, making it the [[list of nearest exoplanets|third closest]] confirmed [[planetary system]] to the Solar System.
+
+== History ==
+[[File:Near-stars-past-future-en.svg|left|thumb|Distances of the [[List of nearest stars|nearest stars]] from estimated 20,000 years ago until 80,000 years in the future]]
+
+French astronomer [[Jérôme Lalande]] published the [[celestial coordinates]] of Lalande 21185 in the popular star catalog ''[[Histoire céleste française]]'' during year 1801. The catalog sequence numbers for majority of the observed stars, including Lalande 21185, were introduced in its 1847 edition by [[Francis Baily]].<ref>[[Francis Baily|Baily, Francis]]; [[Joseph Jérôme Le Français de Lalande|Lalande, Joseph Jérôme Le Français de]] (1847). "Catalogue of those stars in the Histoire céleste française of Jérôme Delalande, for which tables of reduction to the epoch 1800 habe been published by Prof. Schumacher". ''London (1847)''. [[Bibcode]]:[http://adsabs.harvard.edu/abs/1847cshc.book.....B 1847cshc.book.....B]. [[Google Books|Google Books id]]: [https://books.google.com/books?id=oc0-AAAAcAAJ oc0-AAAAcAAJ].
+</ref><ref>{{Cite journal |title=A catalogue of those stars in the "Histoire céleste française" of J. De Lalande for which tables of reduction to the session define format EPOCH1 = 1800 have been published by Professor Schumacher. |journal=British Ass. Adv. Sci |volume=1847 |author=Baily, F. |date=1847 |bibcode=1950Lalan1847....0B}}</ref> Today this star is one of just a few that are still commonly referred to by their Lalande catalog number.<ref>[http://www.thomaspynchon.com/mason-dixon/extra/lalande.html Joseph-Jérôme de Lalande] {{webarchive |url=https://web.archive.org/web/20090721084438/http://www.thomaspynchon.com/mason-dixon/extra/lalande.html |date=July 21, 2009 }}</ref>
+
+In May 1857, [[Friedrich Wilhelm Argelander]] discovered the high [[proper motion]] of the star. It was sometimes called "Argelander's second star".<ref name="Lynn1872">{{cite journal  |last=Lynn |first=W. T. |title=On the Parallax and Proper Motion of Lalande 21185 |date=1872 |journal=[[Monthly Notices of the Royal Astronomical Society]] |volume=33 | pages=52–54 |bibcode=1872MNRAS..33...52L |doi=10.1093/mnras/33.1.52|doi-access=free}}</ref><ref name="Winnecke1858">{{cite journal |last=Winnecke |first=A. |title=Über die Parallaxe des zweiten Argelander'schen Sterns, von Herrn Prof. Winnecke |date=1858 |journal=[[Astronomische Nachrichten]] |volume=48 | issue=1147 | pages=289–292 |bibcode=1858AN.....48..289W|doi = 10.1002/asna.18580481903 |url=https://zenodo.org/record/1424655}}</ref><ref name="Winnecke1872">{{cite journal |last=Winnecke |first=Friedrich August Theodor |title=Bestimmung der parallaxe des zweiten Argelander-'schen sternes aus messungen AM heliometer der sternwarte zu Bonn in den jahren 1857–1858 |date=1872 |journal=Leipzig, W. Engelmann |series=Astronomische Gesellschaft, Leipzig. Publication11|publisher=Leipzig |bibcode=1872bpza.book.....W|hdl=2027/nnc1.cu50717758 |hdl-access=free }}</ref> (The "first Argelander's star" is [[Groombridge 1830]], whose high proper motion was discovered by Argelander earlier—in 1842).  A large proper motion was recognised as an indicator for stars which lay close to the Sun, leading Argelander to request that its [[parallax]] be measured.
+
+As per this request, [[Friedrich August Theodor Winnecke]] made the first measurement of the star's [[parallax]] of 0.511 [[Minute and second of arc|arc seconds]] between 1857–58 and thus first identifying Lalande 21185 as the second-closest-known star to the [[Sun]], after the [[Alpha Centauri]] system.<ref name="Winnecke1858" /> Since that time better measurements have placed the star farther away, but it remained the second-closest-known star system until the  [[astrophotography|astrophotographic]] discovery of two dim red dwarfs, Wolf 359 and Barnard's Star, in the early 20th century.<ref>{{ cite journal
+ |title=The parallax of Lalande 21185 and γ Virginis from photographs taken at the Cambridge Observatory
+ |bibcode=1905MNRAS..65..787R
+ |author=Russell, H. N.
+ |journal=Monthly Notices of the Royal Astronomical Society
+ |volume=65
+ |issue=8
+ |date=June 1905
+ |pages=787–800
+ |doi=10.1093/mnras/65.8.787
+ |url=https://zenodo.org/record/1431875
+ |doi-access=free
+ }}</ref>
+
+==Properties==
+[[File:NSV18593LightCurve.png|thumb|left|An X-ray [[light curve]] for a flare on NSV 18593, adapted from Pye ''et al.'' (2015)<ref name="Pye"/>]]
+[[File:Angular map of fusors around Sol within 9ly (large).png|thumb|upright=1.5|The position of Lalande 21185 on a [[Plan position indicator|radar]] map among all stellar objects or [[star system|stellar systems]] within 9 light years (ly) from the map's center, the Sun (Sol). The diamond-shapes are their positions entered according to [[right ascension]] in [[hour angle|hours angle]] (indicated at the edge of the map's reference disc), and according to their [[declination]]. The second mark shows each's distance from Sol, with the [[Concentric objects|concentric]] circles indicating the distance in steps of one ly.]]
+Lalande 21185 is a typical [[stellar classification|type-M]] [[main sequence|main-sequence]] star ([[red dwarf]]) with about 39% of the mass and radius of the Sun. It is also much cooler than the Sun with a surface temperature of 3,550 K. With just 2.2% of the Sun's luminosity,<ref name=Pineda2021/> it is intrinsically dim with an [[absolute magnitude]] of 10.48, emitting most of its energy in the [[infrared]].<ref name=johnson/> The proportion of elements other than hydrogen and helium is estimated based on the ratio of iron to hydrogen in the star when compared to the Sun. The logarithm of this ratio is −0.20, indicating that the proportion of iron is about 10<sup>−0.20</sup>, or 63% of the Sun. The surface gravity of this relatively compact star is approximately 65 times greater than the gravity at Earth's surface (log g = 4.8 cgs),<ref name=Fe/> which is more than twice the surface gravity of the Sun.
+
+Lalande 21185 is listed as a [[BY Draconis variable|BY Draconis]] type variable star in the [[General Catalogue of Variable Stars]]. It is identified by the variable star designation NSV 18593.<ref name=gcvs>{{ cite web
+| url=http://www.sai.msu.su/groups/cluster/gcvs/cgi-bin/search.cgi?search=NSV+18593
+| title=NSV 18593
+| work=[[General Catalogue of Variable Stars]], [[Sternberg Astronomical Institute]], Moscow, Russia
+| access-date=2009-09-09}}</ref> Several star catalogs, including [[SIMBAD]], also classify it as a [[flare star]]. This conclusion is not supported by the primary reference these catalogs all use. The observations made in this reference show that it is rather quiet in comparison to other stars of its variable type.<ref>{{cite journal
+| title=Discovery and observation of BY Draconis variables
+| journal=[[Astrophysical Journal]] | issue=1 | volume=249 | date=October 1, 1981 | pages=210–217 
+| doi=10.1086/159277 | bibcode=1981ApJ...249..210B
+|author1=Bopp, B. W. |author2=Noah, P. V. |author3=Klimke, A. |author4=Africano, J. | doi-access=free }}</ref>
+
+Lalande 21185 emits X-rays, and X-ray flares have been observed.<ref name=Schmitt>{{ cite journal |author1=Schmitt JHMM |author2=Fleming TA |author3=Giampapa MS |title=The X-Ray View of the Low-Mass Stars in the Solar Neighborhood |journal=Astrophys. J. |date=September 1995 |volume=450 |issue=9 |pages=392–400 |bibcode=1995ApJ...450..392S |doi=10.1086/176149 |doi-access=free }}</ref><ref name="Pye"/>
+
+==Planetary system==
+
+Data published in 2017 from the HIRES system at the [[W. M. Keck Observatory|Keck Observatory]] on [[Mauna Kea]] supported the existence of a close-in planet with an orbital period of just 9.8693±0.0016 days, being at least {{Earth mass|sym=y|3.8|link=yes}}.<ref name="Butler et al">{{cite journal | display-authors=2 | last1=Butler | first1=R. Paul | last2=Vogt | first2=Steven S. | last3=Laughlin | first3=Gregory | last4=Burt | first4=Jennifer A. | last5=Rivera | first5=Eugenio J. | last6=Tuomi | first6=Mikko | last7=Teske | first7=Johanna | last8=Arriagada | first8=Pamela | last9=Diaz | first9=Matias | last10=Holden | first10=Brad | last11=Keiser | first11=Sandy | author-link1=R. Paul Butler |author-link2=Steven S. Vogt | arxiv=1702.03571 | title=The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey |date=12 February 2017 | doi=10.3847/1538-3881/aa66ca | volume=153 | issue=5 | journal=The Astronomical Journal | page=208|bibcode = 2017AJ....153..208B | s2cid=14954371 | doi-access=free }}</ref>
+Further radial velocity research with the [[SOPHIE échelle spectrograph]] and review of the original signal found that the 9.9 day period was undetectable, and instead proposed, using both datasets, an exoplanet orbiting the star with a period of either 12.95 or 1.08 days, much more likely 12.95, insofar as 1-day-period exoplanets seem to be rare in systems. This would give the planet a minimum mass of 2.99 Earth masses. It is too close to the star, and so therefore too hot, to be in the habitable zone, at all points within its eccentric orbit.<ref name="2019exoplanet">{{cite journal |doi=10.1051/0004-6361/201935019  |doi-access=free|last1=Díaz |first1=Rodrigo F. |last2=Delfosse |first2=Xavier |last3=Hobson |first3=Melissa J. |last4=Boisse |first4=Isabelle |last5=Astudillo-Defru |first5=Nicola |last6=Bonfils |first6=Xavier |last7=Henry |first7=Gregory W. |last8=Arnold |first8=Luc |last9=Bouchy |first9=François |last10=Bourrier |first10=Vincent |last11=Brugger |first11=Bastien |last12=Dalal |first12=Shweta |last13=Deleuil |first13=Magali |last14=Demangeon |first14=Olivier D. S. |last15=Dolon |first15=François |last16=Dumusque |first16=Xavier |last17=Forveille |first17=Thierry |last18=Hara |first18=Nathan C. |last19=Hébrard |first19=Guillaume |last20=Kiefer |first20=Flavien |last21=Lopez |first21=Théo |last22=Mignon |first22=Lucile |last23=Moreau |first23=François |last24=Mousis |first24=Olivier |last25=Moutou |first25=Claire |last26=Pepe |first26=Francesco |last27=Perruchot |first27=Sandrine |last28=Richaud |first28=Yoann |last29=Santerne |first29=Alexandre |last30=Santos |first30=Nuno C. |last31=Sottile |first31=Rico |last32=Stalport |first32=Manu |last33=Ségransan |first33=Damien |last34=Udry |first34=Stéphane |last35=Unger |first35=Nicolas |last36=Wilson |first36=Paul A. |title=The SOPHIE search for northern extrasolar planets. XIV. A temperate ($T_\mathrm{eq}\sim 300$ K) super-earth around the nearby star Gliese 411 |journal=Astronomy & Astrophysics |volume=A17 |pages=625 |date=15 February 2019 |arxiv=1902.06004 |s2cid=85529763 }}</ref> The proposed planet on 12-day orbit was confirmed by [[CARMENES]] (Calar Alto high-Resolution search for M dwarfs with Exoearths with Near-infrared and optical Echelle Spectrographs) project in 2020.<ref name=Stock2020>{{citation |arxiv=2010.00474 |title=The CARMENES search for exoplanets around M dwarfs Three temperate-to-warm super-Earths |year=2020 |doi=10.1051/0004-6361/202038820 |last1=Stock |first1=S. |last2=Nagel |first2=E. |last3=Kemmer |first3=J. |last4=Passegger |first4=V. M. |last5=Reffert |first5=S. |last6=Quirrenbach |first6=A. |last7=Caballero |first7=J. A. |last8=Czesla |first8=S. |last9=Béjar |first9=V. J. S. |last10=Cardona |first10=C. |last11=Díez-Alonso |first11=E. |last12=Herrero |first12=E. |last13=Lalitha |first13=S. |last14=Schlecker |first14=M. |last15=Tal-Or |first15=L. |last16=Rodríguez |first16=E. |last17=Rodríguez-López |first17=C. |last18=Ribas |first18=I. |last19=Reiners |first19=Ansgar |last20=Amado |first20=P. J. |last21=Bauer |first21=F. F. |last22=Bluhm |first22=P. |last23=Cortés-Contreras |first23=M. |last24=González-Cuesta |first24=L. |last25=Dreizler |first25=S. |last26=Hatzes |first26=A. P. |last27=Henning |first27=Th. |last28=Jeffers |first28=S. V. |last29=Kaminski |first29=A. |last30=Kürster |first30=Martin |journal=Astronomy & Astrophysics |volume=A112 |page=643 |bibcode=2020A&A...643A.112S |s2cid=222090233 |display-authors=1 |doi-access=free }}</ref>
+
+A second planet with a more distant orbit was initially noticed by SOPHIE, but the baseline was not long enough to confirm the several-year-long signal. The signal was confirmed in 2021 to be a planet with mass at least  {{val|18.0|2.9|2.6|u=M+}},<ref name="Fulton2021">{{cite journal |last1=Rosenthal |first1=Lee J. |last2=Fulton |first2=Benjamin J. |last3=Hirsch |first3=Lea A. |last4=Isaacson |first4=Howard T. |last5=Howard |first5=Andrew W. |last6=Dedrick |first6=Cayla M. |last7=Sherstyuk |first7=Ilya A. |last8=Blunt |first8=Sarah C. |last9=Petigura |first9=Erik A. |last10=Knutson |first10=Heather A. |last11=Behmard |first11=Aida |last12=Chontos |first12=Ashley |last13=Crepp |first13=Justin R. |last14=Crossfield |first14=Ian J. M. |last15=Dalba |first15=Paul A. |last16=Fischer |first16=Debra A. |last17=Henry |first17=Gregory W. |last18=Kane |first18=Stephen R. |last19=Kosiarek |first19=Molly |last20=Marcy |first20=Geoffrey W. |last21=Rubenzahl |first21=Ryan A. |last22=Weiss |first22=Lauren M. |last23=Wright |first23=Jason T. |title=The California Legacy Survey. I. A Catalog of 178 Planets from Precision Radial Velocity Monitoring of 719 Nearby Stars over Three Decades |journal=The Astrophysical Journal Supplement Series |date=1 July 2021 |volume=255 |issue=1 |pages=8 |doi=10.3847/1538-4365/abe23c|arxiv=2105.11583|bibcode=2021ApJS..255....8R |s2cid=235186973 |url=https://authors.library.caltech.edu/109839/1/Rosenthal_2021_ApJS_255_8.pdf |doi-access=free }}</ref> a lower-bound estimate later revised to {{val|14.2|1.8|u=M+}}.<ref name=Hurt2021/>
+
+A third planet, Gliese 411 d, is suspected to orbit between Gliese 411 b and Gliese 411 c with a period of 215 days.<ref name=Hurt2021/>
+
+{{OrbitboxPlanet begin 
+| name=Lalande 21185 
+| table_ref=<ref name=Hurt2021/>
+| period_unit=day 
+}} 
+{{OrbitboxPlanet 
+| exoplanet = b
+| mass_earth= ≥{{val|2.69|0.19|0.18}}
+| period = {{val|12.9394|0.0014|0.0013}}
+| semimajor = {{val|0.07879|0.00056|0.00055}}
+| eccentricity = {{val|0.063|0.061|0.043}}
+}} 
+{{OrbitboxPlanet hypothetical
+| exoplanet = d
+| mass_earth= ≥{{val|3.89|0.82|0.85}}
+| period = {{val|215.7|1.2}}
+| semimajor = {{val|0.5142|0.0043|0.0041}}
+| eccentricity = {{val|0.18|0.22|0.13}}
+}} 
+{{OrbitboxPlanet 
+| exoplanet = c
+| mass_earth= ≥{{val|13.6|2.4|2.3}}
+| period = {{val|2946|210|180}}
+| semimajor = {{val|2.94|0.14|0.12}}
+| eccentricity = {{val|0.132|0.16|0.091}}
+}} 
+{{Orbitbox end}}
+
+The [[habitable zone]] for this star, defined as the locations where liquid water could be present on an Earth-like planet, is at a radius of 0.11–0.24&nbsp;[[Astronomical Units|AU]], where 1&nbsp;AU is the average distance from the Earth to the Sun.<ref name="aaa555_A104"/> The planet b has an equilibrium temperature of 370.1{{±|5.8|6.8}} [[Kelvin|K]]. Other known planets are outside HZ boundaries too, but undetected low-mass ones may be orbiting in this region of this system as well.<ref name=Stock2020/>
+
+===Past claims of planets===
+Dutch astronomer [[Peter van de Kamp]] wrote in 1945 that Lalande 21185 possessed an "unseen companion" of {{Solar mass|0.06|link=yes}} (about {{Jupiter mass|60|link=yes}}).<ref>{{cite journal | last=van de Kamp | first=Peter | title=Stars Nearer than Five Parsecs | journal=[[Publications of the Astronomical Society of the Pacific]] | volume=57 | issue=334 | pages=34–41 (34, 36, 39) | date=February 1945 | bibcode=1945PASP...57...34V | doi=10.1086/125679 | doi-access=free }}</ref> In 1951 [[Peter van de Kamp|van de Kamp]] and his student [[Sarah Lee Lippincott|Sarah Lippincott]] claimed the [[Methods of detecting extrasolar planets#Astrometry|astrometric detection]] of a planetary system using photographic plates taken with the {{convert|24|in|adj=on}} [[refractor telescope]] at [[Swarthmore College]]'s [[Sproul Observatory]].<ref>{{cite journal
+| title=Astrometric study of Lalande 21185
+| author1=van de Kamp, P.  |author2=Lippincott, S. L.
+| journal= [[The Astronomical Journal]]
+| volume=56
+| pages=49–50
+| date=April 1951
+| doi=10.1086/106503 | bibcode=1951AJ.....56...49V| doi-access=free
+}}</ref> In the summer of 1960, Sarah Lippincott altered the 1951 claim, to a planet of {{Solar mass|0.01|link=yes}} (that is, {{Jupiter mass|10|link=yes}}), an 8-year orbital period, eccentricity of 0.3, a semi-major axis<ref group=nb>which would be orbital radius if e was 0, that is, a circular orbit</ref> of {{val|0.083|ul=AU}}.<ref>{{cite journal 
+| title=Astrometric analysis of Lalande 21185
+| author=Lippincott, Sarah Lee
+| journal=[[Astronomical Journal]]
+| volume=65
+| number=7
+| pages=445–448
+| date=September 1960
+| doi=10.1086/108285
+| bibcode=1960AJ.....65..445L 
+| url=http://articles.adsabs.harvard.edu/pdf/1960AJ.....65..445L | doi-access=free
+}}</ref> She used the original photographic plates and new plates taken with the same telescope.<ref>{{cite journal | title=The Unseen Companion of the Fourth Nearest Star, Lalande 21185
+| author=Lippincott, Sarah Lee
+| journal=[[The Astronomical Journal]]
+| volume=65 | pages=350 | date=August 1960 | doi=10.1086/108260 | bibcode=1960AJ.....65..349L}}</ref>  Photographic plates from this observatory, taken at the same time, were used by Van de Kamp for his erroneous claim of a planetary system for [[Barnard's Star]]. The plates made with the Sproul 24-inch refractor and used for these and other studies were in 1973 shown to be flawed;<ref>{{cite journal | author = John L. Hershey |date=June 1973 | title = Astrometric analysis of the field of AC +65 6955 from plates taken with the Sproul 24-inch refractor | journal = Astronomical Journal | volume = 78 | issue = 5 | pages = 421–425 
+| bibcode=1973AJ.....78..421H
+| doi = 10.1086/111436 | doi-access = free }}</ref> as they were the next year with astrometric measurements made by [[George Gatewood]] of the [[Allegheny Observatory]].<ref>{{cite journal
+| title=An astrometric study of Lalande 21185
+| author=Gatewood, G. | journal=[[The Astronomical Journal]]
+| volume=79 | issue=1 |date=January 1974 | doi=10.1086/111530 
+| bibcode=1974AJ.....79...52G
+| pages=52}}</ref>
+
+In 1996 the same Gatewood prominently announced at an [[American Astronomical Society|AAS]] meeting<ref name="AAS">{{ cite journal
+| title= Lalande 21185
+| author=Gatewood, G.
+| journal=Bulletin of the American Astronomical Society
+| volume=28 | pages=885 | date=May 1996 | bibcode=1996AAS...188.4011G}}</ref> and to the popular press<ref>{{cite news|title=Data Seem to Show a Solar System Nearly in the Neighborhood|newspaper=The New York Times|author=John Wilford|date=1996-06-12|access-date=2009-05-29|page=1|url=https://www.nytimes.com/1996/06/12/us/data-seem-to-show-a-solar-system-nearly-in-the-neighborhood.html}}</ref> the discovery of multiple planets in this system, detected by astrometry. The initial report was based on a very delicate analysis of the star's position over the years, which suggested reflex orbital motion due to one or more companions. Gatewood claimed that such companions would usually appear more than 0.8 arcseconds from the red dwarf itself. Though, a paper by Gatewood published only a few years earlier<ref name="noplanets">{{cite journal
+| author= Gatewood
+| title=Multichannel astrometric photometer and photographic astrometric studies in the regions of Lalande 21185, BD 56°2966, and HR 4784
+| journal=[[The Astronomical Journal]]
+| bibcode=1992AJ....104.1237G
+| volume=104 | issue=3 | pages=1237–1247 
+| date=September 1992
+| doi= 10.1086/116313
+| last2= Stein
+| first2= John
+| last3= De Jonge
+| first3= Joost K.
+| last4= Persinger
+| first4= Timothy
+| last5= Reiland
+| first5= Thomas
+| last6= Stephenson
+| first6= Bruce| doi-access= free
+}}</ref> and later searches by others, using [[coronagraph]]s and multifilter techniques to reduce the scattered-light problems from the star, did not positively identify any such companions,<ref name="nearby">{{cite journal
+| title=Photometric and Ca II H and K Spectroscopic Variations in Nearby Sun-like Stars with Planets. III
+| url=http://www.iop.org/EJ/article/0004-637X/531/1/415/50376.web.pdf?request-id=b98eea9d-4dc7-462a-9797-bd06712fd0ad
+| journal= The Astrophysical Journal
+| author=Henry | volume=531
+| issue=1 | pages=415–437
+| date= March 1, 2000 |  doi=10.1086/308466
+| last2=Baliunas
+| first2=Sallie L.
+| last3=Donahue
+| first3=Robert A.
+| last4=Fekel
+| first4=Francis C.
+| last5=Soon
+| first5=Willie | bibcode=2000ApJ...531..415H| s2cid=17737644 }}</ref> and so his claim remains unconfirmed and is now in doubt.
+
+Before the 1980s, finding the radial velocity of [[red dwarf]]s was neither very accurate nor consistent, and so due to its apparent brightness and because it does not have a companion, this star, along with eleven other similar red dwarf stars, were chosen to have their [[radial velocity]] measured, to unprecedented high accuracy, by planet hunter [[Geoff Marcy]].<ref name="Marcy1987">{{cite journal
+| title=Radial velocities of M dwarf stars
+| author=Marcy
+| journal=Publications of the Astronomical Society of the Pacific
+| volume=99 | date=June 1987 | pages=490–496 | doi=10.1086/132010 
+| bibcode=1987PASP...99..490M
+| last2=Lindsay
+| first2=Victoria
+| last3=Wilson
+| first3=Karen
+| doi-access=free
+}}</ref> No companion was detected around this star in this nor other contemporary surveys, and such early equipment would have picked up any planet exceeding {{jupiter mass|0.7}} in an extremely close orbit of 5 days or less; or exceeding {{jupiter mass|10}} at about Jupiter's orbital distance.<ref name="Marcy1987" />
+
+== See also ==
+* [[70 Ophiuchi]]
+* [[Barnard's Star]]
+* [[List of nearest stars and brown dwarfs]]
+* [[Wolf 359]]
+
+==References==
+{{reflist|colwidth=30em|refs=
+
+<ref name="Gaia3">{{cite Gaia DR3|762815470562110464}}</ref>
+
+<ref name="Pye">{{cite journal
+ | last1=Pye |first1=J. P. |last2=Rosen |first2=S.
+ | last3=Fyfe |first3=D. |last4=Schröder |first4=A. C.
+ | title=A survey of stellar X-ray flares from the XMM-Newton serendipitous source catalogue: HIPPARCOS -Tycho cool stars
+ | journal=Astronomy & Astrophysics |date=September 2015
+ | volume=581 |page=A28 |doi=10.1051/0004-6361/201526217
+  |doi-access=free|arxiv=1506.05289 |bibcode=2015A&A...581A..28P |s2cid=67794276 | url=https://www.aanda.org/articles/aa/pdf/2015/09/aa26217-15.pdf |access-date=30 June 2022}}</ref>
+
+<ref name=aaass61>{{citation | last=Oja | first=T. | title=Photoelectric photometry of stars near the north Galactic pole. II | journal=Astronomy and Astrophysics Supplement Series | volume=61 | pages=331–339 |date=August 1985 | bibcode=1985A&AS...61..331O }}</ref>
+
+<ref name=johnson>{{citation | journal=Astrophysical Journal Supplement Series | title=Predicted infrared brightness of stars within 25 parsecs of the Sun | volume=53 |date=November 1983 | pages=643–711 | bibcode=1983ApJS...53..643J | last1=Johnson | first1=H. M. | last2=Wright | first2=C. D. | doi=10.1086/190905 | doi-access=free }}</ref>
+
+<ref name=Fe>{{citation | display-authors=1 | last1=Cayrel de Strobel | first1=G. | last2=Hauck | first2=B. | last3=François | first3=P. | last4=Thevenin | first4=F. | last5=Friel | first5=E. | last6=Mermilliod | first6=M. | title=A catalogue of Fe/H determinations | edition=1991 | journal=Astronomy and Astrophysics Supplement Series| year=1992 |issn=0365-0138 | volume=95 | issue=2 | pages=273–336 | bibcode=1992A&AS...95..273C }}</ref>
+
+<ref name=sherrod_koed2003>{{citation | first1=P. Clay | last1=Sherrod | first2=Thomas L. | last2=Koed | title=A Complete Manual of Amateur Astronomy: Tools and Techniques for Astronomical Observations | series=Astronomy Series | publisher=Courier Dover Publications | year=2003 | isbn=978-0486428208 | page=9 | url=https://books.google.com/books?id=4zjv84hHNPcC&pg=PA9 }}</ref>
+
+<ref name="García-Sánchez2001">{{citation | display-authors=1 | last1=García-Sánchez | first1=J. | last2=Weissman | first2=P. R. | last3=Preston | first3=R. A. | last4=Jones | first4=D. L. | last5=Lestrade | first5=J.-F. | last6=Latham | first6=D. W. | last7=Stefanik | first7=R. P. | last8=Paredes | first8=J. M. | title=Stellar encounters with the solar system | journal=Astronomy and Astrophysics | year=2001 | volume=379 | issue=2 | pages=634–659 | doi=10.1051/0004-6361:20011330 | bibcode=2001A&A...379..634G | url=http://www.aanda.org/articles/aa/pdf/2001/44/aah2819.pdf | doi-access=free }}</ref>
+
+<ref name=Kemmer2025>{{Cite journal |last1=Kemmer |first1=J. |last2=Lafarga |first2=M. |last3=Fuhrmeister |first3=B. |last4=Shan |first4=Y. |last5=Schöfer |first5=P. |last6=Jeffers |first6=S. V. |last7=Caballero |first7=J. A. |last8=Quirrenbach |first8=A. |last9=Amado |first9=P. J. |date=2025-04-11 |title=The CARMENES search for exoplanets around M dwarfs. Cluster analysis of signals from spectral activity indicators to search for shared periods |journal=Astronomy and Astrophysics |volume=697 |doi=10.1051/0004-6361/202347056  |doi-access=free|arxiv=2504.08363|bibcode=2025A&A...697A.225K }}</ref>
+
+<ref name="aaa555_A104">{{citation | display-authors=1
+ | last1=Cantrell | first1=Justin R. | last2=Henry
+ | first2=Todd J. | last3=White | first3=Russel J.
+ | title=The Solar Neighborhood XXIX: The Habitable Real Estate of Our Nearest Stellar Neighbors
+ | journal=The Astronomical Journal | volume=146 | issue=4 | page=99
+ | date=October 2013 | doi=10.1088/0004-6256/146/4/99
+ | bibcode=2013AJ....146...99C | arxiv=1307.7038 | s2cid=44208180 }}</ref>
+
+<ref name=Pineda2021>{{cite journal
+ | title=The M-dwarf Ultraviolet Spectroscopic Sample. I. Determining Stellar Parameters for Field Stars
+ | last1=Pineda | first1=J. Sebastian | last2=Youngblood | first2=Allison
+ | last3=France | first3=Kevin | display-authors=1
+ | journal=The Astrophysical Journal
+ | volume=918 | issue=1 | id=40 | pages=23 | date=September 2021
+ | doi=10.3847/1538-4357/ac0aea | arxiv=2106.07656
+ | bibcode=2021ApJ...918...40P | s2cid=235435757 | doi-access=free }}</ref>
+
+<ref name=Hurt2021>{{citation|arxiv=2107.09087|year=2021|title=Confirmation of the Long-Period Planet Orbiting Gliese 411 and the Detection of a New Planet Candidate|last1=Hurt|first1=Spencer A.|last2=Fulton|first2=Benjamin|last3=Isaacson|first3=Howard|last4=Rosenthal|first4=Lee J.|last5=Howard|first5=Andrew W.|last6=Weiss|first6=Lauren M.|last7=Petigura|first7=Erik A.|doi=10.3847/1538-3881/ac5c47|journal=The Astronomical Journal|volume=163|issue=5|page=218|bibcode=2022AJ....163..218H |s2cid=236134034 |doi-access=free }}</ref>
+
+<ref name="Roman1987">{{Cite constellation|Lalande 21185}}</ref>
+
+<ref name="Reylé2021">{{cite journal |first1=Céline |last1=Reylé |first2=Kevin |last2=Jardine |first3=Pascal |last3=Fouqué |first4=Jose A. |last4=Caballero |first5=Richard L. |last5=Smart |first6=Alessandro |last6=Sozzetti |date=30 April 2021 |title=The 10 parsec sample in the Gaia era |journal=[[Astronomy & Astrophysics]] |volume=650 |issue= |pages=A201 |doi=10.1051/0004-6361/202140985  |doi-access=free|arxiv=2104.14972 |bibcode=2021A&A...650A.201R|s2cid=233476431 }} Data available at https://gruze.org/10pc/</ref>
+
+}}
+
+===Notes===
+{{reflist|group="nb"}}
+
+== External links ==
+* {{cite web |url=http://www.richweb.f9.co.uk/astro/nearby_stars.htm#Lalande_21185 |title=Lalande 21185 |access-date=2008-06-22 |work=David's Astronomy Pages}}
+* [https://exoplanet.eu/catalog/lalande_21185_b--6520/ ''Extrasolar Planets Encyclopaedia'': Confirmed] <!--according to exoplanet.eu-->([http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1702.03571 planet candidate])<!--according to the prepint paper on the exoplanet--> [[super-Earth]] planet Lalande 21185 b. Retrieved 2017-02-15
+
+{{Sky|11|03|20|+|35|58|12|8.32}}
+{{nearest systems|1}}
+{{Stars of Ursa Major}}
+{{2021 in space}}
+
+[[Category:Henry Draper Catalogue objects|095735]]
+[[Category:Hipparcos objects|054035]]
+[[Category:Gliese and GJ objects|0411]]
+[[Category:Durchmusterung objects|BD+36 2147]]
+[[Category:Local Bubble]]
+[[Category:M2V stars]]
+[[Category:Ursa Major]]
+[[Category:Planetary systems with two confirmed planets]]
+[[Category:BY Draconis variables]]

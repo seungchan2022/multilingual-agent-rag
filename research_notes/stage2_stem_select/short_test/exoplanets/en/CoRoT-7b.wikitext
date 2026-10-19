@@ -1,0 +1,373 @@
+{{short description|Hot Super-Earth orbiting CoRoT-7}}
+{{Infobox planet
+| name                     = CoRoT-7b
+| image                    = Exoplanet Comparison CoRoT-7 b.png
+| caption                  = Size comparison of CoRoT-7b (center) with Earth (left) and Neptune (right)
+<!-- DISCOVERY           -->
+| discoverer               = Rouan et al. ([[CoRoT]])
+| discovery_site           = [[Polar orbit]]
+| discovered               = February 3, 2009
+| discovery_method         = [[transit method|Transit]]
+| discovery_ref            = <ref name="symp09"/>
+<!-- DESIGNATIONS        -->
+| exosolar planets         = 
+| minorplanet              = 
+| extrasolarplanet         =  
+| mpc_name                 =
+| pronounced               =  
+| named_after              = 
+| alt_names                = 
+| mp_category              = 
+| adjectives               = 
+<!-- ORBITAL             --> 
+| orbit_ref                = 
+| orbit_diagram            = 
+| epoch                    = 
+| uncertainty              = 
+| observation_arc          = 
+| earliest_precovery_date  = 
+| apsis                    = astron
+| aphelion                 = 
+| perihelion               = 
+| semimajor                = {{convert|0.0172|±|0.00029|AU|e6km e6mi|abbr=unit}}<ref name="leger2009" />
+| mean_orbit_radius        = 
+| eccentricity             = 0
+| period                   = {{Convert|0.853585|±|0.000024|d|h|lk=on|abbr=on}}<ref name="leger2009" />
+| synodic_period           = 
+| avg_speed                = 
+| mean_anomaly             = 
+| mean_motion              = 
+| inclination              = 80.1 ± 0.3<ref name="leger2009" />
+| angular_dist             = 
+| asc_node                 = 
+| long_periastron          = 
+| time_periastron          = 
+| arg_peri                 = 
+| semi-amplitude           = 
+| satellite_of             = 
+| satellites               = 
+| star                     = [[CoRoT-7]]
+| allsatellites            = 
+| tisserand                = 
+<!-- PHYS CHARS          --> 
+| physical_ref             =
+| dimensions               = 
+| mean_diameter            = 
+| mean_radius              = {{val|1.528|0.065|ul=Earth radius}}<ref name=John2022/>
+| equatorial_radius        = 
+| polar_radius             = 
+| flattening               = 
+| circumference            = 
+| surface_area             = 
+| volume                   = 
+| mass                     = 6.06{{±|0.65}} {{Earth mass|link=y|sym=y}}<ref name=John2022>{{citation|arxiv=2206.14216|year=2022|title=The impact of two non-transiting planets and stellar activity on mass determinations for the super-Earth CoRoT-7b|doi=10.1093/mnras/stac1814 |last1=Anna John |first1=Ancy |last2=Collier Cameron |first2=Andrew |last3=Wilson |first3=Thomas G. |journal=Monthly Notices of the Royal Astronomical Society |volume=515 |issue=3 |pages=3975–3995 |doi-access=free }}</ref>
+| density                  = 
+| surface_grav             = 
+| moment_of_inertia_factor = 
+| escape_velocity          = 
+| rotation                 = 
+| sidereal_day             = 
+| rot_velocity             = 
+| axial_tilt               = 
+| right_asc_north_pole     = 
+| declination              = 
+| pole_ecliptic_lat        = 
+| pole_ecliptic_lon        = 
+| albedo                   = 
+| single_temperature       = {{Convert|1300|–|1800|K|C F}}<ref name="esa_discovery" />
+| spectral_type            = 
+| magnitude                = 
+| abs_magnitude            = 
+| angular_size             = 
+| family                   =
+<!-- ATMOSPHERE          --> 
+| atmosphere_ref           =  
+| atmosphere               = 
+| scale_height             = 
+| surface_pressure         = 
+| atmosphere_composition   = 
+<!-- NOTES               --> 
+| note                     =
+}}
+'''CoRoT-7b''' (previously named '''CoRoT-Exo-7b''')<ref name="esa_discovery" /><ref>{{Cite web |last=Schneider |first=J. |date=10 March 2009 |title=Change in CoRoT planets names |url=http://listes.obs.ujf-grenoble.fr/wws/arc/exoplanets/2009-03/msg00003.html |url-status=dead |archive-url=https://archive.today/20100118162658/http://listes.obs.ujf-grenoble.fr/wws/arc/exoplanets/2009-03/msg00003.html |archive-date=18 January 2010 |access-date=19 March 2009 |website=Exoplanets |publisher=(Mailing list)}}</ref> is an [[exoplanet]] orbiting the [[star]] [[CoRoT-7]] in the [[constellation]] of [[Monoceros (constellation)|Monoceros]], {{convert|520|ly|pc|lk=on|abbr=off|sigfig=3}}<ref name=dr3a>{{cite Gaia DR3|3107267177757848576}}</ref> from the [[Earth]]. It was first detected [[Methods of detecting extrasolar planets#Transit photometry|photometrically]] by the French-led [[CoRoT]] mission and reported in February 2009.<ref name="symp09"/> Until the announcement of [[Kepler-10b]] in January 2011, it was the smallest [[exoplanet]] to have its diameter measured, at 1.58 times that of the [[Earth]] (which would give it a volume about 3.94 times Earth's) and the first potential extrasolar [[terrestrial planet]] to be found. The exoplanet has a very short [[orbital period]], revolving around its host star in about 20 hours.<ref name="leger2009" />
+
+Combination of the planet's diameter derived from transit data with the planet's mass derived from radial velocity measurements means that the density of CoRoT-7b is about the same as that of Earth; therefore, CoRoT-7b is a [[terrestrial planet]] like Earth and not a [[gas giant]] like [[Jupiter]]. The radial velocity observations of CoRoT-7 also detected a second [[super-Earth]], [[CoRoT-7c]], which has a mass 8.4 times that of Earth and orbits every 3.7 days at a distance of {{Convert|6.9|e6km|AU e6mi|abbr=unit}}.
+
+==Discovery==
+[[Image:Corot7b-art.jpg|thumb|left|120px|Artist conception of CoRoT-7b [[Methods of detecting extrasolar planets#Transit photometry|transiting]] [[G V star|yellow dwarf]] [[CoRoT-7]]]]
+CoRoT-7b was found by observing its parent star's periodic decrease in [[apparent magnitude]] caused by the planet's transit in front of the star as seen from Earth. Measuring this dip in brightness, together with a size estimate for the star, allows calculating the planet's size. (See [[Methods of detecting extrasolar planets#Transit photometry|Transit method]].) The space mission [[CoRoT]] observed the star [[CoRoT-7]], in the stellar field LRa01, from October 15, 2007, to March 3, 2008. During this period, 153 periodic transit signals of 1.3 h duration with a depth of 3.4 × 10<sup>−4</sup> were registered. After 40 days of data acquisition, the Alarm mode pipeline algorithm detected the shallow signal of CoRoT-7b, starting the follow-up observations from the ground to get a confirmation of the planetary nature of the transiting object.
+
+The discovery of CoRoT-7b was announced a year later on February 3, 2009, during the CoRoT Symposium 2009 in [[Paris]].<ref name="symp09">
+{{cite web |last=Rouan |first=D. |display-authors=etal |date=3 February 2009 |title=Has CoRoT discovered the first transiting Super-Earth around a main sequence star ? |url=http://www.colloquium.eu/congres/09COROT/docs/slides/03mardi/11h/d_rouan/alancer.pdf |url-status=dead |archive-url=https://web.archive.org/web/20110720154622/http://www.colloquium.eu/congres/09COROT/docs/slides/03mardi/11h/d_rouan/alancer.pdf |archive-date=20 July 2011 |access-date=13 May 2009 |website=CoRoT-exo-7b |publisher=Corot Exoplanet Science Team}}</ref> It was published in a special issue of the journal ''[[Astronomy and Astrophysics]]'' dedicated to results from CoRoT.<ref>
+{{cite journal |last1=Bertout |first1=C. |last2=Forveille |first2=T. |last3=Langer |first3=N. |last4=Shore |first4=S. |display-authors=2 |date=21 October 2009 |title=The CoRoT space mission: early results |url=https://www.aanda.org/articles/aa/full_html/2009/40/aa13351-09/aa13351-09.html |journal=[[Astronomy and Astrophysics]] |publisher=EDP Sciences |volume=506 |issue=1 |pages=E1 - 1 |doi=10.1051/0004-6361/200913351 |access-date=23 August 2010|doi-access=free |url-access=subscription }}</ref>
+
+==Mass==
+After the detection of CoRoT-7b in the lightcurve, follow-up observations carried out with a network of ground-based telescopes ruled out nearly completely the possibility of a false positive detection.<ref>
+{{Cite journal
+ |last=Léger |first=A. 
+ |year=2009
+ |title=Transiting exoplanets from the CoRoT space mission VIII. CoRoT-7b: the first Super-Earth with measured radius
+ |journal=[[Astronomy and Astrophysics]]
+ |volume=506 |issue=1 |pages=287–302
+ |arxiv=0908.0241
+ |bibcode=2009A&A...506..287L
+ |doi=10.1051/0004-6361/200911933
+ |doi-access=free|s2cid=5682749 
+ |display-authors=etal}}</ref> The [[HARPS]] [[spectrograph]] was subsequently used to measure the [[mass]] of CoRoT-7b with the [[Methods of detecting extrasolar planets#Radial velocity|radial velocity]] method. The strong activity of the host star, which perturbates radial velocity measurements, made the mass determination troublesome.
+
+The discovery paper, by Queloz ''et al.'',<ref>
+{{cite journal
+ |last=Queloz |first=D.
+ |year=2009
+ |title=The CoRoT-7 planetary system: two orbiting super-Earths
+ |journal=[[Astronomy and Astrophysics]]
+ |volume=506 |issue=1
+ |pages=303–319
+ |bibcode=2009A&A...506..303Q
+ |doi=10.1051/0004-6361/200913096
+|display-authors=etal|hdl=2268/3877
+ |url=http://orbi.ulg.ac.be/bitstream/2268/3877/1/aa13096-09.pdf|doi-access=free
+ }}</ref> weighed the planet at about 4.8 [[Earth mass]]es, giving it a density of 5.6 ± 1.3 g cm<sup>−3</sup>, similar to Earth's. The value was obtained using a pre-whitening procedure and harmonic decomposition. It was also inferred that there was a second non-transiting planet in the system, [[CoRoT-7c]], with a 3.7-day orbital period.
+
+A second paper, by [[Artie P. Hatzes|Hatzes]] ''et al.'',<ref>
+{{Cite journal
+ |last=Hatzes |first=A. P. 
+ |year=2010
+ |title=An Investigation into the Radial Velocity Variations of CoRoT-7
+ |journal=[[Astronomy and Astrophysics]]
+ |volume=520 |pages=A93
+ |arxiv=1006.5476
+ |bibcode=2010A&A...520A..93H
+ |doi=10.1051/0004-6361/201014795
+ |doi-access=free|s2cid=38803450 
+ |display-authors=etal}}</ref> employing Fourier analysis, reported a likely mass of 6.9 Earth masses for CoRoT-7b, and found hints for the presence of a third planet in the system, [[CoRoT-7d]], with mass similar to [[Neptune]]'s and a 9-day orbital period.
+
+Pont ''et al.''<ref>
+{{cite journal
+ |last1=Pont |first1=F.
+ |last2=Aigrain |first2=S.
+ |last3=Zucker |first3=S.
+ |year=2010
+ |title=Re-assessing the radial-velocity evidence for planets around CoRoT-7
+ |journal=[[Monthly Notices of the Royal Astronomical Society]]
+ |volume=411 |issue=3 |pages=1953–1962
+ |arxiv=1008.3859
+ |bibcode=2011MNRAS.411.1953P
+ |doi=10.1111/j.1365-2966.2010.17823.x
+|doi-access=free
+ |s2cid=118544414
+ }}</ref> evidences larger-than-declared systematic errors in the HARPS measurements, estimating CoRoT-7b to be between one and four Earth masses. The radial velocity confirmation of the planet is in shaky ground too, with a tentative detection of only 1.2 sigma certainty.
+
+Boisse ''et al.'',<ref>
+{{cite journal
+ |last=Boisse |first=I.
+ |title=Disentangling stellar activity and planetary signals
+ |year=2011
+ |journal=[[Proceedings of the International Astronomical Union]]
+ |volume=273 |pages=281–285
+ |arxiv=1012.1452
+ |bibcode=2011IAUS..273..281B
+ |doi=10.1017/S1743921311015389
+|s2cid=124197833
+ |display-authors=etal}}</ref> employing simultaneous fitting of stellar activity and planetary signals in the radial velocity data, calculate for CoRoT-7b a mass of 5.7 Earth masses, though with a very large uncertainty.
+
+The CoRoT team then published a second paper on CoRoT-7b's mass,<ref>
+{{cite journal
+ |last=Hatzes |first=A. P.
+ |year=2011
+ |title=On the Mass of CoRoT-7b
+ |journal=[[Astrophysical Journal]]
+ |volume=743 |issue=1 |page=75
+ |arxiv=1105.3372
+ |bibcode=2011ApJ...743...75H
+ |doi=10.1088/0004-637X/743/1/75
+|s2cid=118588616
+ |display-authors=etal}}</ref> removing stellar activity through analysis only of radial velocity data for which multiple measurements were taken in a given night. The planet is weighed at 7.42 Earth masses, yielding an average density of 10.4 ± 1.8 g cm<sup>−3</sup>, far higher than the Earth's and similar to that of the second rocky planet found, [[Kepler-10b]].
+
+A last study by Ferraz-Mello ''et al.''<ref>
+{{cite journal
+ |last=Ferraz-Mello |first=S. 
+ |year=2011
+ |title=On planetary mass determination in the case of super-Earths orbiting active stars. The case of the CoRoT-7 system
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=531 |page=A161
+ |arxiv=1011.2144
+ |bibcode=2011A&A...531A.161F
+ |doi=10.1051/0004-6361/201016059
+ |doi-access=free|s2cid=55422304 
+ |display-authors=etal}}</ref> improved the approach used in the discovery paper, finding that it downsized the amplitude of the planets' induced radial velocities. It reports for CoRoT-7b a heavier mass of 8 Earth masses, in agreement with the second paper published by the CoRoT team. Thus, CoRoT-7b may be rocky with a large iron core, with an internal structure more like Mercury than Earth.
+
+==Spitzer observations ==
+An independent validation of CoRoT-7b as a planet is supplied by follow-up performed with the space based [[Spitzer Space Telescope|Spitzer]] telescope. Its observations confirmed the transits of the planet, with the same depth, at different wavelengths than the ones observed by CoRoT.<ref>
+{{cite journal
+ |last=Fressin |first=F.
+ |year=2011
+ |title=Spitzer Infrared Observations and Independent Validation of the Transiting Super-Earth CoRoT-7b
+ |journal=[[Astrophysical Journal]]
+ |volume=745 |issue=1 |pages=81
+ |arxiv=1110.5336
+ |bibcode=2012ApJ...745...81F
+ |doi=10.1088/0004-637X/745/1/81
+|s2cid=9496072
+ |display-authors=etal}}</ref> The data then allows to validate CoRoT-7b as a bona-fide planet with a very high degree of confidence, independently from the noisy radial velocity data.
+
+==Characteristics==
+[[File:Artist’s impression of Corot-7b (alternative).jpg|thumb|Artist's impression of CoRoT-7b.<br>Credit: [[ESO]]/L. Calçada.]]
+CoRoT-7b's mass is somewhat uncertain at 6.06{{±|0.65}}{{Earth mass|sym=y}},<ref name=John2022/> while its radius and orbital period are well known from [[CoRoT]] photometry: it orbits very close to its star (1/23rd the distance from the [[Sun]] to [[Mercury (planet)|Mercury]]<ref name = "Lutz">
+{{cite web
+ | last = Lutz  | first = D.
+ | date = 7 October 2009
+ | title = Forecast for discovered exoplanet: cloudy with a chance of pebbles
+ | url = http://news.wustl.edu/news/Pages/14782.aspx
+ | work = Washington University in St. Louis News & Information
+ | publisher = [[Washington University in St. Louis]]
+}}</ref>) with an [[orbital period]] of 20 hours, 29 minutes, and 9.7 seconds and has a radius of 1.58 Earth radii.<ref>
+{{cite journal
+ |last=Bruntt |first=J.
+ |year=2010
+ |title=Improved stellar parameters of CoRoT-7
+ |journal=[[Astronomy and Astrophysics]]
+ |volume=519 |pages=A51
+ |arxiv=1005.3208
+ |bibcode=2010A&A...519A..51B
+ |doi=10.1051/0004-6361/201014143
+ |doi-access=free|s2cid=54657440
+ |display-authors=etal}}</ref> CoRoT-7b had the shortest orbit of any planet known at the time of its discovery.<ref name="naturenews">
+{{cite journal
+ |last=Brumfiel |first=G.
+ |date=3 February 2009
+ |title=Tiniest exoplanet found
+ |url= http://www.nature.com/news/2009/090203/full/news.2009.78.html
+ |journal=[[Nature (journal)|Nature]]
+ |doi=10.1038/news.2009.78
+ |accessdate= 2009-02-07
+|doi-access=free
+ |url-access=subscription
+ }}</ref>
+
+Due to the high temperature, it may be covered in [[lava]].<ref name="esa_discovery">
+{{cite web |last=European Space Agency |date=3 February 2009 |title=COROT discovers smallest exoplanet yet, with a surface to walk on |url=https://www.esa.int/Science_Exploration/Space_Science/COROT/COROT_discovers_smallest_exoplanet_yet_with_a_surface_to_walk_on |access-date=March 17, 2022 |website=esa.int |publisher=[[European Space Agency]]}}</ref> The composition and density of the planet, though weakly constrained, make CoRoT-7b a probably [[Terrestrial planet|rocky]] planet, like Earth. It could belong to a class of planets that are thought to contain up to 40% water (in the form of ice and/or vapor) in addition to rock.<ref name="Queloz2009">
+{{cite journal
+ |last=Queloz |first=D.
+ |year=2009
+ |title=The CoRoT-7 planetary system: two orbiting Super-Earths
+ |url=http://www.aanda.org/articles/aa/pdf/forth/aa13096-09.pdf
+ |journal=[[Astronomy and Astrophysics]]
+ |volume=506  |issue=1
+ |pages=303–319
+ |bibcode=2009A&A...506..303Q
+ |doi=10.1051/0004-6361/200913096
+|display-authors=etal|hdl=2268/3877
+ |doi-access=free
+ }}</ref>  However, the fact that it formed so close to its parent star may mean that it is depleted of [[Volatile (astrogeology)|volatiles]].<ref name = "Schaefer">
+{{cite journal
+ | last1 =  Schaefer  | first1 = L.
+ | last2 = Fegley |first2=B.
+ | date = 2009
+ | title = Chemistry of Silicate Atmospheres of Evaporating Super-Earths
+ | journal = [[Astrophysical Journal Letters]]
+ | volume = 703  | issue =  2  | pages = L113–L117
+ | arxiv = 0906.1204
+ | bibcode=2009ApJ...703L.113S
+ | doi = 10.1088/0004-637X/703/2/L113
+| s2cid = 28361321
+ }}</ref> A strong possibility exists that the planet's rotation is [[tidally locked]] to the orbital period, so that temperatures and geologic conditions on the sides of the planet facing towards and away from the star may be dramatically different. Theoretical work suggests that CoRoT-7b could be a [[chthonian planet]] (the remains of a Neptune-like planet from which much of the initial mass has been removed due to close proximity to its parent star).<ref name="core">{{cite web |date=2009-04-25 |title=Exoplanets Exposed to the Core |publisher=AstroBiology Magazine |url=https://www.astrobio.net/meteoritescomets-and-asteroids/exoplanets-exposed-to-the-core/ |accessdate=2018-01-07}}</ref><ref name="bbccthonian">
+{{cite web
+ |date=7 January 2010
+ |title=Super-Earth 'began as gas giant'
+ |url=http://news.bbc.co.uk/1/hi/sci/tech/8446125.stm
+ |work=[[BBC News]]
+ |accessdate=2010-01-10
+}}</ref> Other researchers dispute this, and conclude CoRoT-7b was always a rocky planet and not the eroded core of a gas or ice giant,<ref>
+{{cite journal
+ |last=Odert |first=P.
+ |year=2010
+ |title=Thermal mass-loss of exoplanets in close orbits
+ |url=http://meetingorganizer.copernicus.org/EPSC2010/EPSC2010-582.pdf
+ |journal=EPSC Abstracts
+ |volume=5 |page=582
+ |bibcode=2010epsc.conf..582O
+}}</ref> due to the young age of the star system.
+
+Any departure from circularity of its orbit (due to the influence of host star and neighboring planets) could generate intense volcanic activity similar to [[volcanism on Io|that of Io]], via [[tidal heating]].<ref>{{Cite web | last = Jaggard  | first = V.
+ | date = 5 February 2010 | title = "Super Earth" May Really Be New Planet Type: Super-Io | publisher = [[National Geographic (magazine)|National Geographic]] | url = http://news.nationalgeographic.com/news/2010/02/100205-new-type-planet-corot-7b-io/ | archive-url = https://web.archive.org/web/20100209014528/http://news.nationalgeographic.com/news/2010/02/100205-new-type-planet-corot-7b-io/ | url-status = dead | archive-date = February 9, 2010 | accessdate = 2010-02-12}}</ref>
+
+A detailed study of the extreme properties of CoRoT-7b has been published,<ref name=ALéger2011>{{cite journal |last=Léger |first=A. |year=2011
+|title=The extreme physical properties of the CoRoT-7b super-Earth |journal=[[Icarus (journal)|Icarus]] |volume=213 |issue=1 |pages=1–11 |arxiv=1102.1629
+|bibcode=2011Icar..213....1L |doi=10.1016/j.icarus.2011.02.004|s2cid=55348462 |display-authors=etal}}</ref> concluding that, despite the mass uncertainty, the planet is Earth-like in composition. The extreme proximity to the star should prevent the formation of a significant [[atmosphere]], with the dayside hemisphere as hot as the tungsten filament of an incandescent bulb, resulting in the formation of a [[lava]] ocean. The researchers propose to name this new class of planets, CoRoT-7b being the first of them, "[[Lava planet|lava-ocean planets]]".
+
+===Model of the interior===
+[[File:Corot7b artist view.jpg|thumb|left|CoRoT-7b artist view.]]
+Assuming a 5-Earth-masses planet, the planet was modeled to have [[convection]] in the [[Mantle (geology)|mantle]] with a small core with no more than 15% the mass of the planet, or 0.75 M<sub>🜨</sub>. The lower mantle above the core-mantle boundary has more sluggish convection than the upper mantle because the greater pressure causes fluids to become more viscous. The temperature of the upper convecting mantle is different from one side of the planet to the other with lateral temperature differences for downwellings up to several hundred kelvins. However, the temperature of the upwelling is unaffected by downwelling and surface temperature variations. On the permanent dayside of the tidally locked planet where the surface temperature is hot from continuously facing its sun, the surface takes part in convection, which is the evidence that all the surface of this hemisphere being covered in oceans of lava. On the permanent nightside, the surface is cool enough for the formation of the crust with pools of lava above the convective mantle with intense [[volcanism]]. The dayside of the planet has larger [[convection cell]]s than the nightside.<ref>{{cite journal |last1=Noack |first1=L.|year=2010 |title=CoRoT-7b: Convection in a Tidally Locked Planet|url=http://meetingorganizer.copernicus.org/EGU2010/EGU2010-9759.pdf |journal=[[Geophysical Research Abstracts]] |volume=12 |pages=9759 |bibcode=2010EGUGA..12.9759N
+|display-authors=etal}}</ref> Researchers also investigated the physical state of the interior of CoRoT-7b,<ref>{{cite journal |last1=Wagner |first1=F. W. |last2=Sohl |first2=F. |last3=Rückriemen |first3=T. |last4=Rauer |first4=H. |year=2011 |title=Physical State of the Deep Interior of the CoRoT-7b Exoplanet |journal=[[Proceedings of the International Astronomical Union]] |volume=276 |pages=193–197 |arxiv=1105.1271|bibcode=2011IAUS..276..193W |doi=10.1017/S1743921311020175|s2cid=118391441 }}</ref> indicating as likely a solid iron core, thus a self-generated [[magnetic field]] should be absent on the planet.
+
+===Possible atmosphere===
+Due to the high temperatures on the illuminated side of the planet, and the likelihood that all surface volatiles have been depleted, silicate rock vaporization may have produced a tenuous atmosphere (with a pressure approaching 1 Pa or 10<sup>−2</sup> mbar at {{Convert|2500|K|C F|disp=sqbr}}) consisting predominantly of [[sodium]], [[Oxygen|O<sub>2</sub>]], [[Allotropes of oxygen|O]] and [[silicon monoxide]], as well as smaller amounts of [[potassium]] and other metals.<ref name = "Lutz"/><ref name = "Schaefer"/><ref>{{cite journal |last1=Miguel |first1=Y. |last2=Kaltenegger |first2=L. |last3=Fegley |first3=B. |last4=Schaefer |first4=L. |display-authors=2 |date=1 December 2011 |title=Compositions of Hot Super-earth Atmospheres: Exploring Kepler Candidates |journal=The Astrophysical Journal |volume=742 |issue=2 |pages=L19 |arxiv=1110.2426 |bibcode=2011ApJ...742L..19M |doi=10.1088/2041-8205/742/2/L19|s2cid=119113934 }}</ref> [[Magnesium]] (Mg), [[aluminium]] (Al), [[calcium]] (Ca), [[silicon]] (Si), and [[iron]] (Fe) may rain out from such an atmosphere on the planet's daylight side in the form of particles of minerals, such as [[enstatite]], [[corundum]] and [[spinel]], [[wollastonite]], [[silica]], and [[iron (II) oxide]], that would [[condense]] at altitudes below {{Convert|10|km|mi|abbr=unit}}. [[Titanium]] (Ti) may be depleted (and possibly iron similarly) by being transported towards the night side before condensing as [[perovskite]] and [[geikielite]].<ref name = "Schaefer"/> Sodium (and to a lesser extent, potassium), being more volatile, would be less subject to condensation into clouds and would dominate the outer layers of the atmosphere.<ref name = "Lutz"/><ref name = "Schaefer"/> Observations carried out with the [[Very Large Telescope#Instruments|UVES spectrograph]] on CoRoT-7b in and out of transit, searching for emission and absorption lines originating in the [[exosphere]] of the planet, failed to detect any significant feature.<ref>{{cite journal |last=Guenther |first=E. W. |title=Constraints on the exosphere of CoRoT-7b |year=2011 |journal=[[Astronomy and Astrophysics]] |volume= 525|page=A24 |arxiv=1009.5500 |bibcode=2011A&A...525A..24G |doi=10.1051/0004-6361/201014868 |doi-access=free|s2cid=37218214 |display-authors=etal}}</ref> Spectral lines of calcium (Ca I, Ca II) and sodium (Na), expected for a [[Mercury (planet)|Mercury]]-like planet, are either absent or below detection limits, and even emission lines expected from volcanic activity, due to [[tidal forces]] exerted by the gravity of the nearby star, were not found. The lack of detections is in agreement with the previously cited theoretical work,<ref name="ALéger2011"/> which points to a cloudless atmosphere made of rocky vapours with a very low pressure. From the data available, scientists can only infer that CoRoT-7b does not resemble any of the rocky planets of the [[Solar System]].
+
+==See also==
+* [[Chthonian planet]]
+* [[CoRoT-7c]]: another close-orbiting super-Earth not detected by CoRoT
+* [[GJ 1214 b|Gliese 1214 b]], another exoplanet with well determined radius and mass in the super-Earth range
+* [[High Accuracy Radial Velocity Planet Searcher]] or High Accuracy Radial Velocity Planet Search
+* [[Kepler-10b]], another exoplanet determined to be rocky
+* [[Spitzer Space Telescope]]
+
+==References==
+{{Reflist|refs=
+
+<ref name="leger2009">{{cite journal | title=Transiting exoplanets from the CoRoT space mission VIII. CoRoT-7b: the first Super-Earth with measured radius | url=https://www.aanda.org/articles/aa/full_html/2009/40/aa11933-09/aa11933-09.html | last1=Léger | first1=A | last2=Rouan | first2=D | last3=Schneider | first3=J | last4=Barge | first4=P | last5=Fridlund | first5=M | last6=Samuel | first6=B | last7=Ollivier | first7=M | last8=Guenther | first8=E | last9=Deleuil | first9=M | last10=Deeg | first10=H. J | last11=Auvergne | first11=M | last12=Alonso | first12=R | last13=Aigrain | first13=S | last14=Alapini | first14=A | last15=Almenara | first15=J. M | last16=Baglin | first16=A | last17=Barbieri | first17=M | last18=Bruntt | first18=H | last19=Bordé | first19=P | last20=Bouchy | first20=F | last21=Cabrera | first21=J | last22=Catala | first22=C | last23=Carone | first23=L | last24=Carpano | first24=S | last25=Csizmadia | first25=Sz | last26=Dvorak | first26=R | last27=Erikson | first27=A | last28=Ferraz-Mello | first28=S | last29=Foing | first29=B | last30=Fressin | first30=F | display-authors=1 | journal=Astronomy and Astrophysics | volume=506 | issue=1 | pages=287–302 | year=2009 | arxiv=0908.0241 | bibcode=2009A&A...506..287L | doi=10.1051/0004-6361/200911933  | doi-access=free| s2cid=5682749 }}</ref>
+
+}}
+
+==External links==
+{{commons category-inline|CoRoT-7 b|CoRoT-7b}}
+* {{cite web
+ |last=Schilling
+ |first=G.
+ |date=3 February 2009
+ |title=COROT Finds the Smallest Exoplanet Yet
+ |url=http://www.skyandtelescope.com/news/38820797.html
+ |work=[[Sky & Telescope]]
+ |accessdate=2009-02-04
+ |archive-url=https://web.archive.org/web/20090207054710/http://www.skyandtelescope.com/news/38820797.html
+ |archive-date=7 February 2009
+ |url-status=dead
+ }}
+* {{cite web
+ |date=February 2009
+ |title=Super-Earth found! The smallest transiting extrasolar planet ever discovered
+ |url=http://www.obspm.fr/actual/nouvelle/feb09/exo7.en.shtml
+ |publisher=[[Paris Observatory]]
+ |accessdate=2009-02-04
+ |url-status=dead
+ |archive-url=https://web.archive.org/web/20090923014043/http://www.obspm.fr/actual/nouvelle/feb09/exo7.en.shtml
+ |archive-date=2009-09-23
+ }}
+*{{cite journal
+ |first1 = R. | last1 = Barnes
+ |first2 = S.N. | last2 = Raymond
+ |first3 = R. | last3 = Greenberg
+ |first4 = B. | last4 = Jackson
+ |first5 = N. A. | last5 = Kaib
+ |year=2010
+ |title=CoRoT-7 b: Super-Earth or Super-Io?
+ |journal=[[Astrophysical Journal Letters]]
+ |volume=709 |issue=2 |page=L95
+ |arxiv=0912.1337
+ |bibcode=2010ApJ...709L..95B
+ |doi=10.1088/2041-8205/709/2/L95
+| s2cid = 19867114
+ }}
+
+{{Sky|06|43|49.0|-|01|03|46.0|489}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+{{DEFAULTSORT:Corot-7b}}
+{{CoRoT-7}}
+[[Category:Exoplanets discovered in 2009]]
+[[Category:Terrestrial planets]]
+[[Category:Super-Earths]]
+[[Category:Transiting exoplanets]]
+[[Category:Monoceros]]
+[[Category:Exoplanets discovered by CoRoT|7b]]
+[[Category:CoRoT-7]]
+[[Category:Ultra-short period planets]]

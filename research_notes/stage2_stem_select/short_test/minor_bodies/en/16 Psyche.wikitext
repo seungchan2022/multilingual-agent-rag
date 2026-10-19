@@ -1,0 +1,800 @@
+{{Short description|Metallic main-belt asteroid}}{{Cleanup|date=October 2026|reason=[[MOS:SANDWICH]] in several places, incl between infobox and image}}{{For|the Chelsea Wolfe song|16 Psyche (song)}}
+{{Use dmy dates|date=October 2023}}
+{{Infobox planet
+| name                = 16 Psyche
+| background          = #D6D6D6
+| image               = Psyche VLT.png
+| image_scale         =
+| caption             = 16&nbsp;Psyche imaged by the [[Very Large Telescope]]'s [[adaptive optics]] system in August&nbsp;2019
+| symbol              = [[File:Psyche symbol (bold).svg|24px|class=skin-invert|𜻉]] or [[File:16 Psyche symbol (butterfly).svg|24px|class=skin-invert]] (historical)
+| discoverer          = [[Annibale de Gasparis]]
+| discovery_site      = [[Astronomical Observatory of Capodimonte|Naples Observatory]]
+| discovered          = 17 March 1852
+| pronounced          = {{IPAc-en|ˈ|s|aɪ|k|iː}}<ref name=Webster-1884/>
+| adjective           = Psychean ({{IPAc-en|s|aɪ|ˈ|k|iː|ə|n}})<ref name=OED-Psychean/>
+| mpc_name            = (16)&nbsp;Psyche
+| alt_names           = 
+| named_after         = [[Psyche (mythology)|Psyche ({{math|Ψυχή}})]]
+| mp_category         = [[Asteroid belt|Main belt]]
+| orbit_ref           = <ref name=JPL/>
+| epoch               = 21&nbsp;November 2025<br/>([[Julian day|JD]]&nbsp;2461000.5)
+| semimajor           = {{Convert|2.92|AU|e6km|abbr=unit}}
+| perihelion          = {{Convert|2.53|AU|e6km|abbr=unit}}
+| time_periastron     = 28 April 2025
+| aphelion            = {{Convert|3.32|AU|e6km|abbr=unit|lk=on}}
+| eccentricity        = 0.1343
+| period              = {{nowrap|4.998 [[Julian year (astronomy)|yr]] (1825.6 d)}}
+| inclination         = 3.097°
+| asc_node            = 150.0°
+| arg_peri            = 229.8°
+| mean_anomaly        = 40.6°
+| moid                = {{Convert|1.53|AU|e6km|abbr=unit}}
+| dimensions          = {{nowrap|({{val|278|8|4}} × {{val|238|6|4}} × {{val|171|5|1}}) km<ref name="Shepard2021" />}}<br/>{{nowrap|({{val|277|5}} × {{val|238|6}} × {{val|164|4}}) km<ref name="Vernazza2021" />}}
+| mean_diameter       = {{val|222|4|1|u=km}}<ref name=Shepard2021/><br />{{val|223|3|u=km}}<ref name=Vernazza2021/>
+| flattening          = 0.41{{efn|
+Flattening, {{nobr|{{mvar| f }} ,}} derived from the maximum aspect ratio ({{mvar|{{sfrac| c | a }}}}): <math>\ f = 1 -\frac{c}{a}\ ,</math> where {{math|{{mvar| c | a }}}} {{=}} {{val|0.59|0.02 }}.<ref name=Vernazza2021/>
+}}
+| surface_area        = {{val|1.62|0.05|e=5|u=km2}}<ref name=Shepard2021/>
+| volume              = {{val|5.75|0.19|e=6|ul=km3}}<ref name=Shepard2021/>
+| mass                = {{val|2.396|0.019|e=19|u=kg}}<ref name="Fuentes-Muñoz2025"/>{{efn|name=mass|1=Calculated from its [[standard gravitational parameter]] ''GM'' = {{val|1.599|0.013|u=km3|up=s2}}.}}
+| density             = {{val|4.167|0.142|u=g/cm3}} (calculated)
+| surface_grav        = ~{{val|0.144|u=m/s2}}<ref name=Shepard-Richardson-etal-2017/>
+| escape_velocity     = ~180&nbsp;m/s<ref name=Shepard-Richardson-etal-2017/> (~600 ft/s)
+| rotation            = {{val|4.195948|0.000001|ul=h}}<ref name=Shepard-Richardson-etal-2017/><ref name=Shepard2021/>
+| albedo              = {{val|0.15|0.03}}<ref name=Ferrais-Vernazza-etal-2020/><br/>{{val|0.34|0.08}} {{small|(radar)}}<ref name=Shepard2021/>
+| spectral_type       = [[Tholen classification|Tholen]] {{=}} [[M-type asteroid|M]]<ref name=JPL/><br/>[[SMASS classification|SMASS]] {{=}} [[X-type asteroid|X]]<ref name=JPL/><br/>[[Asteroid spectral types#Bus–DeMeo classification|Bus-DeMeo]] {{=}} [[X-type asteroid|Xk]]<ref name=PDS-taxonomy/>
+| magnitude           = 9.5<ref>[https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%2716%27&START_TIME=%272099-Aug-11%27&STOP_TIME=%272099-Aug-15%27&STEP_SIZE=%272%20day%27&QUANTITIES=%279,19,20,23,29%27 Perihelic opposition]</ref> to 12.5
+| abs_magnitude       = 6.21<ref name=JPL/>
+}}
+
+'''16 Psyche''' ({{IPAc-en|ˈ|s|aɪ|k|iː}} {{respell|SY|kee}}) is a large [[M-type asteroid|M-type]] asteroid, which was discovered by the Italian astronomer [[Annibale de Gasparis]], on 17&nbsp;March 1852 and named after the [[Greek mythology|Greek goddess]] [[Psyche (mythology)|Psyche]].<ref name=Schmadel-2012-dict-mp/>
+
+The prefix "16" signifies that it was the sixteenth [[List of minor planets: 1–1000|minor planet in order of discovery]].
+It is the largest and most massive of the [[M-type asteroid]]s, and one of the [[List of exceptional asteroids#Largest by mass|dozen most massive]] asteroids. This body has a [[mean diameter]] of approximately {{convert|222|km|sp=us}} and contains about one percent of the cumulative mass of the whole [[asteroid belt]]. It was thought to be the exposed [[Planetary core|core]] of a [[protoplanet]],<ref name=Bell_AsteroidsII/> but observations reported in 2020 have cast doubt on that hypothesis.<ref name=Elkins-Tanton_2020/><ref name=Shepard2021/>
+
+Psyche will be explored by [[NASA]], with a [[Psyche (spacecraft)|spacecraft of the same name]], marking the first time a human-made object will journey to a [[M-type asteroid|metallic asteroid]]. The spacecraft was launched on 13&nbsp;October 2023,<ref name =Lockhart-2023-09-28/> with an expected arrival in 2029.<ref name=jpl-20221028>{{cite press release |title=NASA continues Psyche asteroid mission |date=28 October 2022 |website=[[JPL]] |publisher=[[NASA]] |url=https://www.jpl.nasa.gov/news/nasa-continues-psyche-asteroid-mission |url-status=live |access-date=28 October 2022 |archive-url=https://web.archive.org/web/20221108030113/https://www.jpl.nasa.gov/news/nasa-continues-psyche-asteroid-mission |archive-date=8 November 2022 }}</ref>
+
+== Symbol ==
+[[File:Psyche insignia.svg|thumb|upright=0.7|left|Insignia of the NASA ''Psyche'' mission]]
+19th-century astronomers created [[planet symbols|iconic symbols]] for the first asteroids to be discovered, following the tradition of the [[classical planet]]s. Psyche's symbol was a butterfly's wing topped by a star ([[File:Psyche symbol (fixed width).svg|16px|class=skin-invert|16&nbsp;Psyche]] or [[File:Psyche symbol (four wings, fixed width).svg|16px|class=skin-invert|16&nbsp;Psyche]]), as the butterfly was the Greek symbol of the soul (''psyche'' being the Greek word for both "butterfly" and "soul").<ref name=Sonntag-1852/> This symbol may have influenced the design of the official insignia for the NASA ''[[Psyche (spacecraft)|Psyche]]'' mission to this asteroid. It is encoded in [[Unicode]] as U+1CEC9 𜻉 {{sc2|PSYCHE}}.<ref name=astunicode>{{cite web |url=https://www.unicode.org/L2/L2023/23207-historical-asteroids.pdf |title=Unicode request for historical asteroid symbols |last1=Bala |first1=Gavin Jared |last2=Miller |first2=Kirk |date=18 September 2023 |website=unicode.org |publisher=Unicode |access-date=26 September 2023 |quote=}}</ref><ref name="Unicode-1CEC0">{{cite web
+| title = Miscellaneous Symbols Supplement
+| date = 2025
+| website = unicode.org
+| publisher = The Unicode Consortium
+| url = https://www.unicode.org/charts/PDF/U1CEC0.pdf
+| access-date = September 9, 2025
+}}</ref>
+
+However, the iconic symbols for all asteroids were superseded before Psyche's symbol came into widespread use. With more than a dozen asteroids discovered, the iconic symbols became increasingly cumbersome, and in 1851 German astronomer [[Johann Franz Encke|J.F. Encke]] suggested using a numbered disk instead. The first asteroid designated with the new scheme was Psyche in 1852, when American astronomer [[James Ferguson (American astronomer)|J. Ferguson]] published his observations and used {{big|⑯}} as Psyche's symbol.<ref name=Hinton-2001-09-17-USNO/>
+
+== Orbit ==
+{{Section needs expansion|date=August 2026}}
+
+[[File:16 Psyche orbit.png|thumb|upright=1.4|The orbit of Psyche, between Mars and Jupiter, with eccentricity of 0.134: higher than all of the major planets except Mercury, but typical for an asteroid.]]
+
+Psyche is a main belt asteroid that orbits the Sun at a distance of 2.53–3.32 [[astronomical unit]]s (AU) with a [[semi-major axis]] or average orbital distance of 2.92 AU once every 4.998 years,<ref name="JPL" /> (for reference, [[1 Ceres|Ceres]]'s orbit is at 2.77 AU).<ref name="Ceres-POE"/>
+
+Psyche's orbit has an [[Orbital eccentricity|eccentricity]] of 0.1343 and an [[orbital inclination|inclination]] of 3.097° with respect to the [[ecliptic]].<ref name="JPL" />
+
+== Physical characteristics ==
+{{update|section|date=March 2026|reason=https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JE009231}}
+
+=== Size ===
+The first size estimate of Psyche was {{convert|253|km||abbr=}} and came from [[IRAS]] thermal [[infrared]] emission observations.<ref name=JPL/> This is 13.96% larger than the currently accepted mean value, but was later found to be an accurate estimate for the IRAS viewing aspect because Psyche was viewed pole-on at the time of the measurement.<ref name=Shepard-Richardson-etal-2017/><ref name=Lupishko-1999/>
+
+Psyche has been observed to [[Occultation#Asteroids|occult]] a star on nine occasions.<ref name="Shepard-Richardson-etal-2017" /> Four of these, 2004,<ref name="Shepard-Richardson-etal-2017" /> 2010,<ref name="PSI-asteroid-data-sets" /><ref name="Psyche_occultation_2010" /> 2014,<ref name="PSI-asteroid-data-sets" /> and 2019,<ref name="Psyche_occultation_2019" /> generated [[Chord (astronomy)|multi-chord]] data sets<ref name=PSI-asteroid-data-sets/> and have been used along with adaptive optics imaging and three-dimensional modeling to estimate Psyche's mean diameter, with recent models all converging to an equivalent-volume mean diameter of {{val|222|3}}&nbsp;km.<ref name="Hanuš-Viikinksk-etal-2017"/><ref name=DAMIT-1806-cuni-cz/><ref name="Viikinksk-Vernza-etal-2018" /><ref name="Ferrais-Vernazza-etal-2020" /><ref name="Shepard2021" />
+
+[[File:Psyche asteroid eso.jpg |thumb|upright=1.2|left| Multiple views of 16 Psyche imaged by the [[Very Large Telescope]]]]
+
+===Mass and bulk density===
+Psyche is massive enough that its gravity observably [[gravitational perturbation|perturbs]] other asteroids' orbits, which can be used to calculate a [[mass]] estimate. Historical values for Psyche's mass have ranged from {{val|1.6|e=19|u=kg}} to {{val|6.7|e=19|u=kg}}.<ref name=Kuzmanoski_Kovacevic_2002/><ref name=Elkins-Tanton_2020/> However, most recent estimates have begun to converge on values near {{val|2.29|0.14|e=19|u=kg}}.<ref name=Elkins-Tanton_2020/><ref name=Siltala_Granvik/> The most recent estimate from [[Gaia (spacecraft)|Gaia]] data yields {{val|2.396|0.019|e=19|u=kg}}.<ref name="Fuentes-Muñoz2025"/>{{efn|name=mass}} Assuming the mean volume of {{val|5.75|0.19|e=6|u=km3}}, this equates to a bulk density of {{val|4.167|0.142|u=g/cm3}}, which is considerably higher than most [[Small Solar System body|small Solar System bodies]].<ref name=Vernazza2021/><ref name=Elkins-Tanton_2020/><ref name=Siltala_Granvik/>
+
+===Shape and spin pole===
+The first published three-dimensional shape model for Psyche was derived from an analysis of numerous [[Lightcurve|light curves]].<ref name="Kaasalainen-etal-2002" /> Since then, additional refinements to the shape have been made based on the inversion of lightcurves, adaptive optics observations, radar observations, thermal imaging, and occultations.<ref name="Hanuš-Viikinksk-etal-2017" /><ref name="Shepard-Richardson-etal-2017" /><ref name = Drummond_etal_2018/><ref name="Viikinksk-Vernza-etal-2018" /><ref name="Ferrais-Vernazza-etal-2020" /><ref name="Shepard2021" /><ref name="Vernazza2021" /> The most recent models show that Psyche has a shape consistent with a [[Jacobi ellipsoid]] and dimensions within a few km of 278&nbsp;km x 238&nbsp;km x 171&nbsp;km.<ref name="Viikinksk-Vernza-etal-2018" /><ref name="Vernazza2021" /><ref name="Shepard2021" /><ref name="Ferrais-Vernazza-etal-2020" />
+
+Each shape model provides an estimate of the direction of the north pole (spin axis). All recent models for Psyche suggest it rotates about a pole pointed towards the [[ecliptic coordinate system|ecliptic coordinates]] (long, lat) {{nowrap|''λ'' {{=}} 35°}}, {{nowrap|''β'' {{=}} −8°}}, with a 3° uncertainty.<ref name="Hanuš-Viikinksk-etal-2017"/><ref name="Shepard-Richardson-etal-2017" /><ref name="Drummond_etal_2018" /><ref name="Viikinksk-Vernza-etal-2018" /><ref name="Ferrais-Vernazza-etal-2020" /><ref name="Shepard2021" /> This means that it is essentially tilted toward the ecliptic, with an [[axial tilt]] of 98°.
+
+{{multiple image
+| align = left
+| direction = vertical
+| total_width = 240
+ |image1 = Psyche_ellipsoid_shape.png | caption1 = View of Psyche from its south pole with a best fit ellipsoid overlain. Major deviations from the ellipsoid shape are referred to as Alpha, Bravo, and Charlie.
+| image2 = 16PsycheNorthView.gif | caption2 = Animation of a Psyche shape model viewed from 20° north latitude. The red peg is at 0° longitude.
+| image3 = 16PsycheSouthView.gif | caption3 = Animation of a Psyche shape model viewed from 20° south latitude. The red peg is at 0° longitude.
+}}
+
+===Features===
+[[File:Psyche illustration.jpg|thumb|upright=1.2|Illustration of Psyche commissioned by NASA]]
+
+Many features have been reported on Psyche. The largest of these are regions of mass-deficits relative to its nominal ellipsoid shape and are reminiscent of the [[Rheasilvia (crater)|Rheasilvia]] basin on [[4 Vesta]].<ref name="Shepard2021" /><ref name="Ferrais-Vernazza-etal-2020" /><ref name="Viikinksk-Vernza-etal-2018" /><ref name="Shepard-Richardson-etal-2017" />
+
+In addition to the large-scale regions of mass-deficit, several apparent craters have been reported. Observers using the [[Very Large Telescope]]'s [[adaptive optics]] [[SPHERE]] imager reported two large craters, on the order of 90&nbsp;km across, which were provisionally named Meroe {{IPAc-en|ˈ|m|ɛr|oʊ|iː}} and Panthia {{IPAc-en|ˈ|p|æ|n|θ|i|ə}},{{citation needed|date=October 2020}}<!-- not clear this is the same name. If the ‘I' is long in Latin, it would be \pan-THY-a\ --> after the twin witches in the Roman novel [[The Golden Ass|''Metamorphoses'' by Apuleius]].<ref name="Zimmerman_mythology"/><ref name=Viikinksk-Vernza-etal-2018/> Observers using the [[Arecibo Telescope|Arecibo Radar Telescope]] reported craters at the south pole (referred to as Delta),<ref name="Shepard-Richardson-etal-2017" /> southern midlatitudes (referred to as Eros),<ref name="Shepard-Richardson-etal-2017" /><ref name="Shepard2021" /> and the north pole (referred to as Foxtrot).<ref name="Shepard2021" /> An analysis of the features present in several independent shape models suggests that craters Panthia and Eros are almost certainly real and Foxtrot is likely to be real. However, there is uncertainty over the existence of Meroe and Delta.<ref name="Shepard2021" />
+
+Early lightcurve studies suggested that Psyche has large variations in its surface brightness.<ref name="Dotto1992"/> These variations became more evident when attempts were made to invert lightcurves to generate shape models.<ref name="Kaasalainen-etal-2002" /><ref name="Shepard-Richardson-etal-2017" /> The most recent shape models based on lightcurve inversions simultaneously solve for surface albedo variations,<ref name="Viikinksk-Vernza-etal-2018" /><ref name="Ferrais-Vernazza-etal-2020" /> and the resulting maps show regions where local albedo differs from the mean albedo by more than 20% in either direction. Notably, the Meroe crater coincides with an area much darker than the mean, and the Panthia crater coincides with an area much brighter than the mean.
+
+Radar observations with the [[Arecibo Telescope|Arecibo Radar Telescope]] revealed that Psyche's "background" [[Albedo#Radar Albedo|radar albedo]] is <math>\hat{\sigma}_{OC}=0.26 </math>, comparable to other [[M-type asteroid]]s like [[21 Lutetia]].<ref name="Shepard2021" /> This value is consistent with a [[Silicate mineral|silicate]] (rocky) regolith enriched in metal phases.<ref name="Shepard2015"/> However, in at least three locations, Psyche's radar albedo is nearly twice this value, suggesting high concentrations of metal phases in these regions.<ref name="Shepard2021" /> One of these locations corresponds with the optically bright Panthia crater, while the other two correspond with regions that have been reported as optically bright.<ref name="Ferrais-Vernazza-etal-2020" /><ref name="Viikinksk-Vernza-etal-2018" /><ref name="Shepard2021" /> This apparent correlation between optical and radar albedos on Psyche has led to the hypothesis that there is a link between the process(es) that create regions of high metal content and brighter terrain.<ref name="Shepard2021" />
+
+{{multiple image
+| align = right
+| direction = vertical
+| total_width = 350
+| image1 = Psyche features Shepard2021.jpg | caption1 = Shape model of asteroid 16 Psyche, with some of the observed surface features indicated.
+| image2 = Psyche albedo Shepard2021.jpg | caption2 = Optical albedo map of asteroid 16 Psyche with superimposed radar albedo measurements (circles).
+}}
+
+=== Composition ===
+The bulk density of Psyche ({{val|3.9|0.3|u=g/cm3}}) places constraints on its overall composition. The iron-nickel found in most [[iron meteorite]]s has a bulk density of {{val|7.9|u=g/cm3}}. If Psyche were the remnant [[Planetary core|core]] of an early [[planetesimal]], it would have an overall porosity of 50%. Given Psyche's size, this is considered improbable.<ref name="Elkins-Tanton_2020" /> However, there are other metal-rich [[meteorite]] types that have been suggested as Psyche analogs, each of which have bulk densities that are similar to Psyche's, including [[enstatite chondrite]]s, [[bencubbinite]]s, and [[mesosiderite]]s.<ref name="Gaffey_asteroidsII" /><ref name="Viikinksk-Vernza-etal-2018" /><ref name="Elkins-Tanton_2020" />
+
+Several observers have reported the presence of [[silicate mineral]]s on the surface of Psyche.<ref name="Hardersen-Gaffey-Abell-2005" /><ref name="Ockert-Bell"/><ref name="Sanchez"/> Spectra taken in October&nbsp;2016 at the [[NASA Infrared Telescope Facility]] at the [[Maunakea Observatories]] on Hawaii showed evidence (~3&nbsp;μm absorption feature) of [[Hydroxy group|hydroxyl]] ions on the asteroid that may suggest the presence of hydrated silicates.<ref name=Takir-Reddy-etal-2016/> Since Psyche is thought to have formed under dry conditions without the presence of water, the hydroxyl may have reached Psyche via past impacts from smaller [[carbonaceous asteroid]]s.<ref name=Takir-Reddy-etal-2016/><ref name="Shepard2015" />
+
+Psyche's [[Albedo#Radar Albedo|radar albedo]] varies considerably over the surface, ranging from 0.22 to 0.52,<ref name="Shepard2021" /> values that are two to four times as high as most main-belt asteroids.<ref name="Magri2007"/> Models of radar reflection equate this range of values with regolith bulk densities of 2.6 to 4.7 {{val|u=g/cm3}}.<ref name="Shepard2015" /> This range is consistent with most of the metal-rich [[Meteorite classification|meteorite]] classes noted above and the spectroscopic detection of silicate minerals. It is inconsistent with a pure [[Iron meteorite|iron-nickel]] regolith unless it is highly porous.
+
+== Origin ==
+
+Several possible origins have been proposed for Psyche. The earliest of these was that Psyche is an exposed [[Planetary core|metallic core]] resulting from a collision that stripped away the crust and [[Mantle (geology)|mantle]] of an originally larger [[Planetary differentiation|differentiated]] parent body some 500&nbsp;kilometers in diameter.<ref name="Bell_AsteroidsII" /> Other versions of this include the idea that it was not the result of a single large collision but multiple (more than three) relatively slow sideswipe collisions with bodies of comparable or larger size.<ref name=Asphaug-Reufer-2014/> However, this idea has fallen out of recent favor as mass and density estimates are inconsistent with a remnant core.<ref name="Elkins-Tanton_2020" />
+
+A second hypothesis is that Psyche was disrupted and gravitationally re-accreted into a mix of metal and silicate.<ref name=Davis-Farinella-Francesco-1999/> In this case, it may be a candidate for the parent body of the [[mesosiderite]]s, a class of [[stony–iron meteorite]]s.<ref name=Davis-Farinella-Francesco-1999/>
+
+A third hypothesis is that Psyche may be a differentiated object, like [[Ceres (dwarf planet)|1 Ceres]] and [[4 Vesta]], but has experienced a type of iron volcanism, also known as ferrovolcanism, while still cooling.<ref name="Johnson_ferrovolcanism"/> If true, this model predicts that metal would be highly enriched only in those regions containing (relic) volcanic centers. This view has been bolstered by recent radar observations.<ref name=Shepard2021/>
+
+== Exploration ==
+{{main|Psyche (spacecraft)}}
+
+[[File:PIA21499 - Artist's Concept of Psyche Spacecraft with Five-Panel Array.jpg|thumb|upright=1.2|left|Artist's concept of the ''Psyche'' spacecraft orbiting asteroid Psyche]]
+No spacecraft has visited Psyche, but a mission to Psyche was proposed to NASA in 2014.<ref name=Chang-2017-01-06-NYT/><ref name=Wall-2014-01-15/> A team led by [[Lindy Elkins-Tanton]],<ref name=ElkinsTr-Asphaug-etal-2014/> the director of the School for Earth and Space Exploration at [[Arizona State University]], presented a concept for a robotic [[Psyche (spacecraft)|''Psyche'' orbiter]]. This team argued that 16 Psyche would be a valuable object for study because it is the only metallic core-like body discovered so far.<ref name=Wall-2014-01-15/>
+
+The spacecraft would orbit Psyche for 20&nbsp;months,<ref name=Chang-2017-01-06-NYT/> studying its topography, surface features, gravity, magnetism, and other characteristics and would be based on current technology, avoiding high cost and the necessity to develop new technologies. On 30&nbsp;September 2015, the ''Psyche'' orbiter mission was one of five [[Discovery Program]] semifinalist proposals.<ref name=Brown-Cantillo-2015-09-30-pr/>
+
+The mission was approved by NASA on 4&nbsp;January 2017 and was originally targeted to launch in October&nbsp;2023, with an Earth [[gravity assist]] maneuver in 2024, a [[Mars flyby]] in 2025, and arriving at the asteroid in 2030.<ref name=Northon-2017-01-04-pr/> In May&nbsp;2017, the launch date was moved up to target a more efficient trajectory, launching in 2022, with a Mars gravity assist in 2023 and arriving in 2026.<ref name=NASA-2017-05-24-pr/> However, problems with Psyche's flight software led NASA to revert to the original launch timeline.<ref>{{Cite web |author1=Howell |date=27 January 2023 |title=NASA to launch Psyche asteroid probe in October 2023 after delays |url=https://www.space.com/psyche-asteroid-probe-october-2023-launch |access-date=20 October 2023 |website=Space.com |language=en|first=Elizabeth}}</ref>
+
+On 28&nbsp;February 2020, NASA awarded [[SpaceX]] a US$117&nbsp;million contract to launch the ''Psyche'' spacecraft, and two smallsat secondary missions, on a [[Falcon Heavy]] rocket.<ref name=Foust-2020-02-28/> The spacecraft was successfully launched on 13 October 2023, at 14:19 UTC,<ref>{{Cite web |date=October 13, 2023 |title=NASA's Psyche Spacecraft, Optical Comms Demo En Route to Asteroid |url=https://www.nasa.gov/news-release/nasas-psyche-spacecraft-optical-comms-demo-en-route-to-asteroid |access-date=13 October 2023 |website=nasa.gov |language=en}}</ref> with an expected arrival in 2029.<ref name = "jpl-20221028" />
+
+Asteroid Psyche has an Earth-[[Minimum orbit intersection distance|MOID]] of {{Convert|1.5|AU|e6km LD|abbr=unit|lk=on}},<ref name="JPL"/> and most recently came to [[Opposition (astronomy)|opposition]] on 6 August 2024 when it was {{Convert|1.7|AU|e6km LD|abbr=unit}} from Earth.<ref name="Opposition2024"/>
+
+==See also==
+*[[List of minor planets and comets visited by spacecraft]]
+*[[List of missions to minor planets]]
+*[[Asteroid mining]]
+*[[Colonization of the asteroid belt]]
+*[[Gravity elevator]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+<references>
+
+<ref name=Asphaug-Reufer-2014>
+{{cite journal
+ |first1=E. |last1=Asphaug
+ |first2=A. |last2=Reufer
+ |year=2014
+ |title=Mercury and other iron-rich planetary bodies as relics of inefficient accretion
+ |journal=Nature Geoscience
+ |volume=7  |issue=8  |pages=564–568
+ |bibcode=2014NatGe...7..564A   |doi=10.1038/NGEO2189
+}}
+</ref>
+
+<ref name="Bell_AsteroidsII">
+{{cite book 
+ |last1=Bell 
+ |first1=J.F. 
+ |display-authors=etal 
+ |date=2015 
+ |editor=Richard P. Binzel 
+ |editor2=Tom Gehrels 
+ |editor3=Mildred Shapley Matthews 
+ |title=Asteroids: The Big Picture in Asteroids II 
+ |publisher=University of Arizona Press 
+ |isbn=978-0-8165-1123-5 
+ |pages=921–948}}
+</ref>
+
+<ref name=Brown-Cantillo-2015-09-30-pr>{{cite press release
+ |first1=Dwayne C.
+ |last1=Brown
+ |first2=Laurie
+ |last2=Cantillo
+ |date=30 September 2015
+|title=NASA selects investigations for future key planetary mission
+ |work=NASA TV
+ |publisher=[[National Aeronautics and Space Administration]]
+ |url=http://www.nasa.gov/press-release/nasa-selects-investigations-for-future-key-planetary-mission
+ |access-date=5 October 2015
+ 
+ |archive-date=1 October 2015
+|archive-url=https://web.archive.org/web/20151001105318/http://www.nasa.gov/press-release/nasa-selects-investigations-for-future-key-planetary-mission/
+ |url-status=live
+ }}</ref>
+
+<ref name="Ceres-POE">{{Cite web |title=AstDyS-2 Ceres Synthetic Proper Orbital Elements |url=https://newton.spacedys.com/astdys/index.php?pc=1.1.6&n=1 |url-status=live |archive-url=https://web.archive.org/web/20111121225850/http://hamilton.dm.unipi.it/astdys/index.php?pc=1.1.6&n=1 |archive-date=21 November 2011 |access-date=1 October 2011 |publisher=Department of Mathematics, University of Pisa, Italy}}</ref>
+
+<ref name=Chang-2017-01-06-NYT>{{cite news
+ |last=Chang
+ |first=Kenneth
+ |date=6 January 2017
+|title=A metal ball the size of Massachusetts that NASA wants to explore
+ |newspaper=[[The New York Times]]
+ |url=https://www.nytimes.com/2017/01/06/science/nasa-psyche-asteroid.html
+ |access-date=7 January 2017
+|archive-date=7 January 2017
+|archive-url=https://web.archive.org/web/20170107052013/http://www.nytimes.com/2017/01/06/science/nasa-psyche-asteroid.html
+ |url-status=live
+ }}</ref>
+
+<ref name=DAMIT-1806-cuni-cz>
+{{cite web
+ |title=DAMIT 1806
+ |website=astro.troja.cuni.cz
+ |series=asteroid 3D data archive
+ |url=http://astro.troja.mff.cuni.cz/projects/asteroids3D/data/archive/1-1000/A109.M1806.shape.png
+ |access-date=26 May 2018 |url-status=dead
+ |archive-url=https://web.archive.org/web/20180526190207/http://astro.troja.mff.cuni.cz/projects/asteroids3D/data/archive/1-1000/A109.M1806.shape.png
+ |archive-date=26 May 2018
+}}
+</ref>
+
+<ref name=Davis-Farinella-Francesco-1999>
+{{cite journal
+ |first1=D.R.  |last1=Davis
+ |first2=Paolo |last2=Farinella
+ |first3=M.    |last3=Francesco
+ |name-list-style=amp
+ |year=1999
+ |title=The missing Psyche family: Collisionally eroded or never formed?
+ |journal=Icarus
+ |volume=137 |issue=1 |page=140
+ |doi=10.1006/icar.1998.6037 |bibcode=1999Icar..137..140D
+}}
+</ref>
+
+<ref name="Dotto1992">
+{{cite journal 
+ |last1=Dotto |first1=E. 
+ |display-authors=etal   
+ |title=M-type asteroids: rotational properties of 16 objects. 
+ |journal=Astronomy and Astrophysics Supplement Series 
+ |date=1992 |volume=95 |issue=2 |pages=195–211 
+ |bibcode=1992A&AS...95..195D}}
+</ref>
+
+<ref name="Drummond_etal_2018">
+{{cite journal 
+ |last1=Drummond |first1=J. D. 
+ |display-authors=etal  
+ |title=The triaxial ellipsoid size, density, and rotational pole of asteroid (16) Psyche from Keck and Gemini AO observations 2004-2015. 
+ |journal=Icarus |date=2018 |volume=305 |pages=174–185 
+ |doi=10.1016/j.icarus.2018.01.010|bibcode=2018Icar..305..174D 
+ }}
+</ref>
+
+<ref name=ElkinsTr-Asphaug-etal-2014>
+{{cite conference
+ |last1=Elkins-Tanton |first1=L.T. |last2=Asphaug   |first2=E.
+ |last3=Bell       |first3=J.      |last4=Bercovici |first4=D.
+ |last5=Bills      |first5=B.G.    |last6=Binzel    |first6=Richard P.
+ |last7=Bottke     |first7=William F. |last8=Jun    |first8=I.
+ |last9=Marchi     |first9=S.      |last10=Oh       |first10=D.
+ |last11=Polanskey |first11=C.A.   |last12=Weiss    |first12=B.P.
+ |last13=Wenkert   |first13=D.     |last14=Zuber    |first14=M.T.
+ |display-authors=6
+ |date=March 2014
+ |title=Journey to a metal world: Concept for a Discovery Mission to Psyche
+ |conference=45th&nbsp;Lunar and Planetary Science Conference
+ |book-title=LPI Contribution No.&nbsp;1777
+ |page=1253  |bibcode=2014LPI....45.1253E
+ |url=http://www.hou.usra.edu/meetings/lpsc2014/pdf/1253.pdf |archive-url=https://web.archive.org/web/20140227025757/http://www.hou.usra.edu/meetings/lpsc2014/pdf/1253.pdf |archive-date=27 February 2014 |url-status=live
+ |access-date=5 October 2015 
+}}
+</ref>
+
+<ref name="Elkins-Tanton_2020">
+{{cite journal 
+ |last1=Elkins-Tanton 
+ |first1=L. T. 
+ |display-authors=etal 
+ |title=Observations, meteorites, and models: A preflight assessment of the composition and formation of (16) Psyche 
+ |journal=  Journal of Geophysical Research: Planets
+ |year=2020 
+ |volume=125 
+ |issue=3 
+ |pages=23 
+ |doi=10.1029/2019JE006296|doi-access=free
+ |pmid=32714727 
+ |pmc=7375145 
+ |bibcode=2020JGRE..12506296E 
+ |s2cid=214018872
+ }}
+</ref>
+
+<ref name=Ferrais-Vernazza-etal-2020>
+{{cite journal
+ |author1=Ferrais, M.      |author2=Vernazza, P.     |author3=Jorda, L.
+ |author4=Rambaux, N.      |author5=Hanuš, J.        |author6=Carry, B.
+ |author7=Marchis, F.      |author8=Marsset, M.      |author9=Viikinkoski, M.
+ |author10=Brož, M.        |author11=Fetick, R.      |author12=Drouard, A.
+ |author13=Fusco, T.       |author14=Birlan, M.      |author15=Podlewska-Gaca, E.
+ |author16=Jehin, E.       |author17=Bartczak, P.    |author18=Berthier, J.
+ |author19=Castillo-Rogez, J. |author20=Cipriani, F. |author21=Colas, F.
+ |author22=Dudziński, G.   |author23=Dumas, C.       |author24=Ďurech, J.
+ |author25=Kaasalainen, M. |author26=Kryszczynska, A. |author27=Lamy, P.
+ |author28=le Coroller, H. |author29=Marciniak, A.   |author30=Michalowski, T.
+ |author31=Michel, P.      |author32=Santana-Ros, T. |author33=Tanga, P.
+ |author34=Vachier, F.     |author35=Vigan, A.       |author36=Witasse, O. 
+ |author37=Yang, B.  
+ |display-authors=6
+ |date=June 2020
+ |title=Asteroid (16)&nbsp;Psyche's primordial shape: A possible Jacobi ellipsoid?
+ |journal=Astronomy and Astrophysics
+ |volume=638 |page=L15
+ |doi=10.1051/0004-6361/202038100
+ |doi-access=free|bibcode=2020A&A...638L..15F |s2cid=225802158}}
+</ref>
+
+<ref name=Foust-2020-02-28>
+{{cite news
+ |first=Jeff |last=Foust
+ |date=28 February 2020
+|title=Falcon Heavy to launch NASA Psyche asteroid mission
+ |website=Space News
+ |url=https://spacenews.com/falcon-heavy-to-launch-nasa-psyche-asteroid-mission/ |archive-url=https://archive.today/20200301115859/https://spacenews.com/falcon-heavy-to-launch-nasa-psyche-asteroid-mission/ |url-status=dead |archive-date=1 March 2020 }}
+</ref>
+
+<ref name="Fuentes-Muñoz2025">{{Cite journal |last=Fuentes-Muñoz |first=Oscar |last2=Farnocchia |first2=Davide |last3=Giorgini |first3=Jon D. |last4=Park |first4=Ryan S. |date=2025-12-01 |title=Asteroid Mass Estimation by Mutual Perturbations During Close Encounters After Gaia Focused Product Release |journal=The Astronomical Journal |volume=170 |issue=6 |pages=353 |doi=10.3847/1538-3881/ae0cc9 |issn=0004-6256 |doi-access=free |bibcode=2025AJ....170..353F |s2cid=283347135}}</ref>
+
+<ref name="Gaffey_asteroidsII">
+{{cite book 
+ |author=Gaffey |author2=Bell 
+ |author3=Cruikshank 
+ |editor=Richard P. Binzel |editor2=Tom Gehrels |editor3=Mildred Shapley Matthews 
+ |title=Asteroid Surface Mineralogy in Asteroids II 
+ |date=1989 |publisher=University of Arizona Press 
+ |isbn=0-8165-1123-3 |pages=98–127}}
+</ref>
+
+<ref name="Hanuš-Viikinksk-etal-2017">
+{{cite journal
+ |author1=Hanuš, J.       |author2=Viikinkoski, M.
+ |author3=Marchis, F.     |author4=Ďurech, J.
+ |author5=Kaasalainen, M. |author6=Delbo', M.
+ |author7=Herald, D.      |author8=Frappa, E.
+ |author9=Hayamizu, T.    |author10=Kerr, S.
+ |author11=Preston, S.    |author12=Timerson, B.
+ |author13=Dunham, D.     |author14=Talbot, J.
+ |display-authors=6
+ |year=2017
+ |title=Volumes and bulk densities of forty asteroids from ADAM shape modeling
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=601  |issue=A114  |pages=1–41
+ |doi=10.1051/0004-6361/201629956
+  |doi-access=free|bibcode=2017A&A...601A.114H |arxiv=1702.01996 |s2cid=119432730
+}}
+</ref>
+
+<ref name=Hardersen-Gaffey-Abell-2005>
+{{cite journal
+ |first1=Paul S.     |last1=Hardersen
+ |first2=Michael J.  |last2=Gaffey
+ |first3=Paul A.     |last3=Abell
+ |name-list-style=amp
+ |year=2005
+ |title=Near-IR spectral evidence for the presence of iron-poor orthopyroxenes on the surfaces of six M-type asteroid
+ |journal=Icarus
+ |volume=175 |issue=1 |page=141
+ |bibcode=2005Icar..175..141H  |doi=10.1016/j.icarus.2004.10.017
+}}
+</ref>
+
+<ref name=Hinton-2001-09-17-USNO>
+{{cite web
+ |last=Hilton |first=James
+ |date=17 September 2001
+ |title=When did the asteroids become minor planets?
+ |publisher=[[U.S. Naval Observatory]]
+ |url=http://aa.usno.navy.mil/faq/docs/minorplanets.php
+ |access-date=3 April 2007  |url-status=dead
+ |archive-url=https://web.archive.org/web/20090825024347/http://aa.usno.navy.mil/faq/docs/minorplanets.php
+ |archive-date=25 August 2009 
+}}
+</ref>
+
+<ref name="Johnson_ferrovolcanism">
+{{cite journal 
+ |last1=Johnson |first1=B. C. 
+ |last2=Sori |first2=M. M. 
+ |last3=Evans |first3=A. J. 
+ |title=Ferrovolcanism of metal worlds and the origin of pallasites 
+ |journal=Nature Astronomy 
+ |date=2020 |volume=4 |pages=41–44 
+ |doi=10.1038/s41550-019-0885-x 
+ |arxiv=1909.07451 
+ |bibcode=2020NatAs...4...41J 
+ |s2cid=202583406 
+ }}
+</ref>
+
+<ref name=JPL>{{cite web
+ |title=JPL SBDB: 16&nbsp;Psyche
+ |type=2024-12-11 last obs
+ |website=JPL Small-Body Database Browser
+ |publisher=[[Jet Propulsion Laboratory]]
+ |url=http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=16
+ |access-date=16 December 2025
+ |archive-date=23 October 2025
+ |archive-url=https://web.archive.org/web/20251023000005/https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=16
+ |url-status=live
+ }}</ref>
+
+<ref name=Kaasalainen-etal-2002>
+{{cite journal
+ |last1=Kaasalainen  |first1=M.
+ |display-authors=etal
+ |year=2002
+ |title=Models of twenty asteroids from photometric data
+ |journal=Icarus
+ |volume=159 |issue=2 |page=369
+ |bibcode=2002Icar..159..369K  |doi=10.1006/icar.2002.6907
+ |url=http://www.rni.helsinki.fi/~mjk/IcarPIII.pdf
+ |access-date=16 May 2006 <!-- Added by DASHBot -->
+ |archive-url=https://web.archive.org/web/20080216072340/http://www.rni.helsinki.fi/~mjk/IcarPIII.pdf
+ |archive-date=16 February 2008 
+}}
+</ref>
+
+<ref name="Kuzmanoski_Kovacevic_2002">
+{{cite journal 
+ |last1=Kuzmanoski |first1=M. 
+ |last2=Kovacevic |first2=A. 
+ |title=Motion of the asteroid (13206) 1997GC22 and the mass of (16) Psyche
+ |journal=Astronomy and Astrophysics Letters
+ |date=2002
+ |volume=395 |issue=1 |pages=2 
+ |doi= 10.1051/0004-6361:20021444 
+ |bibcode=2002A&A...395L..17K  
+ |doi-access=free 
+ }}
+</ref>
+
+<ref name=Lockhart-2023-09-28>{{cite news
+ |last=Wall
+ |first=Mike
+ |date=28 September 2023
+|title=NASA's Psyche Mission Targeting Oct. 12 for Launch
+ |website=blogs.nasa.gov
+ |publisher=Nasa
+ |url=https://blogs.nasa.gov/psyche/2023/09/28/nasas-psyche-mission-targeting-oct-12-for-launch
+ |access-date=30 September 2023
+|archive-date=29 September 2023
+|archive-url=https://web.archive.org/web/20230929225443/https://blogs.nasa.gov/psyche/2023/09/28/nasas-psyche-mission-targeting-oct-12-for-launch/
+ |url-status=live
+ }}</ref>
+
+<ref name=Lupishko-1999>
+{{cite journal
+ |last=Lupishko |first=Dmitrij F.
+ |year=2006
+ |title=On the bulk density and porosity of M-type asteroid 16&nbsp;Psyche
+ |journal=Solar System Research
+ |volume=40  |issue=3  |pages=214–218
+ |bibcode=2006SoSyR..40..214L |doi=10.1134/S0038094606030051
+ |s2cid=119643558
+}}
+</ref>
+
+<ref name="Magri2007">
+{{cite journal 
+ |last1=Magri |first1=C 
+ | display-authors=etal 
+ |title=A radar survey of main-belt asteroids: Arecibo observations of 55 objects during 1999–2004
+ |journal=Icarus 
+ |date=2007 |volume=186 |issue=1 
+ |pages=126–151 
+ |doi=10.1016/j.icarus.2006.08.018|bibcode=2007Icar..186..126M 
+ }}
+</ref>
+
+<ref name=NASA-2017-05-24-pr>{{cite press release
+ |title=NASA moves up launch of Psyche mission to a metal asteroid
+ |date=24 May 2017
+ |publisher=[[National Aeronautics and Space Administration]]
+ |url=https://www.jpl.nasa.gov/news/news.php?release=2017-149
+ |access-date=24 May 2017
+ 
+ |archive-date=13 July 2017
+|archive-url=https://web.archive.org/web/20170713111549/https://www.jpl.nasa.gov/news/news.php?release=2017-149
+ |url-status=live
+ }}</ref>
+
+<ref name=Northon-2017-01-04-pr>{{cite press release
+ |last=Northon
+ |first=Karen
+ |date=4 January 2017
+ |title=NASA selects two missions to explore the early solar system
+ |publisher=[[National Aeronautics and Space Administration]]
+ |url=https://www.nasa.gov/press-release/nasa-selects-two-missions-to-explore-the-early-solar-system
+ |access-date=4 January 2017
+ 
+ |archive-date=17 June 2019
+|archive-url=https://web.archive.org/web/20190617074931/https://www.nasa.gov/press-release/nasa-selects-two-missions-to-explore-the-early-solar-system/
+ |url-status=live
+ }}</ref>
+
+<ref name="Ockert-Bell">
+{{cite journal 
+ |last1=Ockert-Bell |first1=M 
+ | display-authors= etal 
+ |title=The composition of M-type asteroids: Synthesis of spectroscopic and radar observations
+ |journal=Icarus 
+ |date=2010 |volume=210 |issue=2 
+ |pages=674–692 
+ |doi=10.1016/j.icarus.2010.08.002|bibcode=2010Icar..210..674O 
+ }}
+</ref>
+
+<ref name=OED-Psychean>
+{{cite encyclopedia
+ |title=Psychean ({{IPAc-en|s|aɪ|ˈ|k|iː|ə|n}})
+ |dictionary=[[Oxford English Dictionary]]
+}}
+{{OED|psyche}}
+</ref>
+
+<ref name="Opposition2024">{{cite web
+ |title=Horizons Batch for 16 Psyche on 2024-Aug-06
+ |publisher=[[JPL Horizons On-Line Ephemeris System|JPL Horizons]]
+ |type=Opposition is maximum S-O-T
+ |url=https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%2716%27&START_TIME=%272024-Jul-29%27&STOP_TIME=%272024-Aug-12%27&STEP_SIZE=%2760%27&QUANTITIES=%2720,23%27
+ |accessdate=16 September 2023
+ |archive-date=18 September 2023
+|archive-url=https://web.archive.org/web/20230918065012/https://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1&COMMAND=%2716%27&START_TIME=%272024-Jul-29%27&STOP_TIME=%272024-Aug-12%27&STEP_SIZE=%2760%27&QUANTITIES=%2720%2C23%27
+ |url-status=live
+ }}</ref>
+
+<ref name=PDS-taxonomy>
+{{cite web
+ |title=EAR-A-5-DDR Taxonomy
+ |edition=v&nbsp;6.0
+ |website=Planetary Data System
+ |url=https://sbn.psi.edu/pds/asteroid/EAR_A_5_DDR_TAXONOMY_V6_0/data/taxonomy10.lbl
+ |access-date=16 April 2018  |url-status=dead 
+ |archive-url=https://web.archive.org/web/20151217090549/http://sbn.psi.edu/pds/asteroid/EAR_A_5_DDR_TAXONOMY_V6_0/data/taxonomy10.lbl
+ |archive-date=17 December 2015  
+}}
+</ref>
+
+<ref name=PSI-asteroid-data-sets>{{cite web
+ |title=Asteroid Data Sets
+ |website=sbn.psi.edu
+ |publisher=[[NASA]] / [[Planetary Science Institute]]
+ |url=https://sbn.psi.edu/pds/resource/occ.html
+ |access-date=26 May 2018
+ 
+ |archive-date=12 September 2010
+|archive-url=https://web.archive.org/web/20100912112550/https://sbn.psi.edu/pds/resource/occ.html
+ |url-status=live
+ }}</ref>
+
+<ref name="Psyche_occultation_2010">{{cite web 
+|last1=Psyche 
+|title=Psyche 2010 Occultation 
+|url=https://www.asteroidoccultation.com/observations/Results/Reviewed/index2010.html 
+|website=IOTA Asteroid Occultation Reports 2010 
+|access-date=27 December 2021 |archive-date=8 December 2021 |archive-url=https://web.archive.org/web/20211208125051/https://www.asteroidoccultation.com/observations/Results/Reviewed/index2010.html 
+|url-status=live 
+}}</ref>
+
+<ref name="Psyche_occultation_2019">{{cite web 
+|last1=Psyche 
+|title=Psyche 2019 Occultation 
+|url=https://www.asteroidoccultation.com/observations/Results/Reviewed/index2019.html 
+|website=IOTA Asteroid Occultation Reports 2019 
+|access-date=27 December 2021 |archive-date=8 December 2021 |archive-url=https://web.archive.org/web/20211208122909/https://www.asteroidoccultation.com/observations/Results/Reviewed/index2019.html 
+|url-status=live 
+}}</ref>
+
+<ref name="Sanchez">
+{{cite journal 
+ |last1=Sanchez |first1=J. A. 
+ |title=Detection of rotational spectral variation on the M-type asteroid (16) Psyche. 
+ |journal=The Astronomical Journal 
+ |date=2017 |volume=153 |issue=1 
+ |page=29 
+ |doi=10.3847/1538-3881/153/1/29|arxiv=1701.02742 
+ |bibcode=2017AJ....153...29S 
+ |s2cid=59425536 
+ |doi-access=free 
+ }}
+</ref>
+
+<ref name=Schmadel-2012-dict-mp>
+{{cite book
+ |first=Lutz D. |last=Schmadel
+ |year=2012
+ |title=Dictionary of Minor Planet Names
+ |publisher=Springer Science & Business Media
+ |edition=6th  |pages=14–15
+ |isbn=978-3642297182
+ |url=https://books.google.com/books?id=aeAg1X7afOoC&pg=PA14
+}}
+</ref>
+
+<ref name="Shepard2015">
+{{cite journal 
+ |last1=Shepard |first1=M. K. 
+ | display-authors= etal 
+ |title=A radar survey of M- and X-class asteroids: III. Insights into their composition, hydration state, and structure. 
+ |journal=Icarus |date=2015 |volume=245 |pages=38–55 
+ | doi=10.1016/j.icarus.2014.09.016|bibcode=2015Icar..245...38S 
+ }}
+</ref>
+
+<ref name=Shepard2021>
+{{cite journal 
+ | doi=10.3847/PSJ/abfdba 
+ | title=Asteroid 16 Psyche: Shape, Features, and Global Map 
+ | year=2021 
+ | last1=Shepard | first1=Michael K. | last2=De Kleer | first2=Katherine|author2-link=Katherine de Kleer | last3=Cambioni | first3=Saverio | last4=Taylor | first4=Patrick A. | last5=Virkki | first5=Anne K. | last6=Rívera-Valentin | first6=Edgard G. | last7=Rodriguez Sanchez-Vahamonde | first7=Carolina | last8=Fernanda Zambrano-Marin | first8=Luisa | last9=Magri | first9=Christopher | last10=Dunham | first10=David | last11=Moore | first11=John | last12=Camarca | first12=Maria 
+ | journal=The Planetary Science Journal | volume=2 | issue=4 | page=125 
+ | arxiv=2110.03635 
+ | bibcode=2021PSJ.....2..125S | s2cid=235918955 
+ | doi-access=free 
+ }}
+</ref>
+
+<ref name=Shepard-Richardson-etal-2017>
+{{cite journal
+ |last1=Shepard    |first1=Michael K.
+ |last2=Richardson  |first2=James
+ |last3=Taylor      |first3=Patrick A.
+ |display-authors=etal
+ |year=2017
+ |title=Radar observations and shape model of asteroid 16&nbsp;Psyche
+ |journal=Icarus
+ |volume=281  |pages=388–403
+ |bibcode=2017Icar..281..388S
+ |doi=10.1016/j.icarus.2016.08.011 |doi-access=free
+}}
+</ref>
+
+<ref name="Siltala_Granvik">
+{{cite journal 
+ |last1=Siltala |first1=L. 
+ |last2=Granvik |first2=M. 
+ |title=Mass and density of Asteroid (16) Psyche 
+ |journal=Astrophysical Journal Letters 
+ |date=2021 
+ |volume=909 |issue=1 |pages=5 
+ |doi=10.3847/2041-8213/abe948|arxiv=2103.01707 
+ |bibcode=2021ApJ...909L..14S 
+ |s2cid=232092983 
+ |doi-access=free 
+ }}
+</ref>
+
+<ref name=Sonntag-1852>
+{{cite journal
+ |last=Sonntag |first=A.
+ |date=1852
+ |title=Elemente und Ephemeride der Psyche
+ |journal=[[Astronomische Nachrichten]]
+ |volume=34 |issue=20 |page=283
+ |url=https://books.google.com/books?id=fWM_AAAAcAAJ&pg=PA283
+ |bibcode=1852AN.....34..283.  |doi=10.1002/asna.18520342010
+ |quote=[''in a footnote''] Herr Professor de Gasparis schreibt mir, in Bezug auf den von ihm März&nbsp;17 entdeckten neuen Planeten: ''J'ai proposé, avec l'approbation de Mr.&nbsp;Hind, le nom de Psyché pour la nouvelle planète, ayant pour symbole une aile de papillon surmontée d'une étoile''.
+|url-access=subscription
+ }}
+</ref>
+
+<ref name=Takir-Reddy-etal-2016>
+{{cite journal
+ |last1=Takir   |first1=Driss          |last2=Reddy    |first2=Vishnu 
+ |last3=Sanchez |first3=Juan A.        |last4=Shepard  |first4=Michael K.
+ |last5=Emery   |first5=Joshua P.
+ |year=2016
+ |title=Detection of water and/or hydroxil on asteroid (16) Psyche
+ |journal=[[The Astronomical Journal]]
+ |volume=153  |issue=1  |pages=31
+ |doi=10.3847/1538-3881/153/1/31   |arxiv=1610.00802
+ |bibcode=2017AJ....153...31T   |s2cid=118611420
+|doi-access=free }}
+</ref>
+
+<ref name="Vernazza2021">
+{{cite journal
+ |title=VLT/SPHERE imaging survey of the largest main-belt asteroids: Final results and synthesis
+ |date=4 October 2021
+|author1=P. Vernazza |author2=M. Ferrais |author3=L. Jorda |author4=J. Hanuš |author5=B. Carry |display-authors=4
+ |journal=Astronomy & Astrophysics
+ |volume=654
+ |pages=A56
+ |doi=10.1051/0004-6361/202141781
+  |doi-access=free|bibcode=2021A&A...654A..56V
+ |s2cid=239104699
+}}
+</ref>
+
+<ref name=Viikinksk-Vernza-etal-2018>
+{{cite journal
+ |first1=M.  |last1=Viikinkoski     |first2=P.  |last2=Vernazza
+ |first3=J.  |last3=Hanuš           |first4=H.  |last4=le Coroller
+ |first5=K.  |last5=Tazhenova       |first6=B.  |last6=Carry
+ |display-authors=etal
+ |date=6 November 2018
+|title=(16)&nbsp;Psyche: A mesosiderite-like asteroid?
+ |journal=Astronomy & Astrophysics
+ |volume=619  |number=L3  |pages=L3
+ |doi=10.1051/0004-6361/201834091    |doi-access=free|arxiv=1810.02771
+ |bibcode=2018DPS....5040408M   |s2cid=54075141
+}}
+</ref>
+
+<ref name=Wall-2014-01-15>{{cite news
+ |last=Wall
+ |first=Mike
+ |date=15 January 2014
+|title=Strange metal asteroid targeted in far-out NASA mission concept
+ |website=Space.com
+ |publisher=TechMedia Network
+ |url=http://www.space.com/24288-strange-metal-asteroid-psyche-nasa-mission.html
+ |access-date=16 January 2014
+|archive-date=18 January 2014
+|archive-url=https://web.archive.org/web/20140118094509/http://www.space.com/24288-strange-metal-asteroid-psyche-nasa-mission.html
+ |url-status=live
+ }}</ref>
+
+<ref name=Webster-1884>
+{{cite encyclopedia
+ |title=Psyche ({{IPAc-en|ˈ|s|aɪ|k|iː}})
+ |first=Noah |last=Webster
+ |year=1884
+ |dictionary=A Practical Dictionary of the English Language
+}}
+</ref>
+
+<ref name="Zimmerman_mythology">
+{{cite book
+ |first=John |last=Zimmerman
+ |year=1966
+ |title=Dictionary of Classical Mythology
+}}
+</ref>
+
+</references> <!-- end of reflist -->
+
+== External links ==
+* {{cite web
+ |last1=Kaasalainen  |first1=M.
+ |display-authors=etal
+ |year=2002
+ |title=Shape model deduced from lightcurve
+ |url=http://www.rni.helsinki.fi/~mjk/IcarPIII.pdf
+ |access-date=16 May 2006 <!--Added by DASHBot-->
+ |archive-url=https://web.archive.org/web/20080216072340/http://www.rni.helsinki.fi/~mjk/IcarPIII.pdf
+ |archive-date=16 February 2008 
+}}
+
+* {{AstDys|16}}
+* {{JPL small body}}
+* {{cite magazine
+ |last=Carter |first=Jamie
+ |date=26 October 2020
+ |title=Hubble examines massive metal asteroid called 'Psyche' that's worth way more than our global economy
+ |magazine=Forbes
+ |url=https://www.forbes.com/sites/jamiecartereurope/2020/10/26/hubble-views-massive-asteroid-called-psyche-that-could-worth-more-than-our-global-economy/
+ |access-date=28 October 2020
+}}
+
+{{Minor planets navigator |15 Eunomia |number=16 |17 Thetis}}
+{{Large asteroids}}
+{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar System}}
+{{Authority control}}
+
+{{DEFAULTSORT:000016}}
+[[Category:Minor planets discovered in 1852|18520317]]
+[[Category:Background asteroids]]
+[[Category:Discoveries by Annibale de Gasparis|Psyche]]
+[[Category:M-type asteroids (Tholen)]]
+[[Category:Minor planets to be visited by spacecraft]]
+[[Category:Named minor planets|Psyche]]
+[[Category:X-type asteroids (SMASS)]]

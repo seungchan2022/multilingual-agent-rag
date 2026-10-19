@@ -1,0 +1,76 @@
+{{Infobox element
+|symbol =Dy
+|Z      =66
+|number =66
+|name   =dysprosium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[terbium]]
+|right=[[holmium]]
+|above=–
+|below=[[californium|Cf]]
+|image name=Dy chips.jpg
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 28, 8, 2
+|phase=
+|density=8.550&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=8.37
+|melting point K=1680
+|melting point C=1407
+|melting point F=2565
+|boiling point K=2840
+|boiling point C=2562
+|boiling point F=4653
+|heat fusion=11.06
+|heat vaporization=280
+|heat capacity=27.7
+|vapor pressure 1=1378
+|vapor pressure 10=1523
+|vapor pressure 100=(1704)
+|vapor pressure 1 k=(1954)
+|vapor pressure 10 k=(2304)
+|vapor pressure 100 k=(2831)
+|vapor pressure comment=
+|crystal structure=hexagonal close packed
+|crystal structure Pearson symbol=hP2
+|lattice constants=''a''&nbsp;=&nbsp;359.16&nbsp;pm<br />''c''&nbsp;=&nbsp;565.01&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.22
+|number of ionization energies=3
+|ionization energy 1=573.0
+|ionization energy 2=1130
+|ionization energy 3=2200
+|atomic radius=178
+|covalent radius=192±7
+|magnetic ordering=[[paramagnetic]] at 300 K
+|electrical resistivity unit prefix=n
+|electrical resistivity=α, poly: 926
+|electrical resistivity comment=([[Room temperature|r.t.]])
+|thermal conductivity=10.7
+|thermal expansion=poly: 9.9
+|thermal expansion comment=([[Room temperature|r.t.]])
+|speed of sound rod at 20=2710
+|magnetic susceptibility= {{val|+103,500|e=−6}}
+|magnetic susceptibility ref= &#x20;(293.2&nbsp;K)<ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=61.4
+|Shear modulus=24.7
+|Bulk modulus=40.5
+|Poisson ratio=0.247
+|Vickers hardness=410–550
+|Brinell hardness=500–1050
+|CAS number=7429-91-6
+|naming=after Greek δυσπρόσιτος, "hard to get", for requiring 30 attempts to isolate
+|discovered by=[[Lecoq de Boisbaudran]]
+|discovery date=1886
+|first isolation by=[[Georges Urbain]]
+|first isolation date=1905
+|QID=Q1843
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Dy}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

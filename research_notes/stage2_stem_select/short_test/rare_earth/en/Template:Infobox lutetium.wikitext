@@ -1,0 +1,79 @@
+{{infobox element
+|symbol =Lu
+|Z      =71
+|number =71
+|name   =lutetium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[ytterbium]]
+|right=[[hafnium]]
+|above=[[yttrium|Y]]
+|below=[[lawrencium|Lr]]
+|image name=Lutetium_sublimed_dendritic_and_1cm3_cube.jpg
+|appearance=silvery white
+|electrons per shell=2, 8, 18, 32, 9, 2
+|phase=
+|density=9.840&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=9.3
+|melting point K=1925
+|melting point C=1652
+|melting point F=3006
+|boiling point K=3675
+|boiling point C=3402
+|boiling point F=6156
+|heat fusion=ca. 22
+|heat vaporization=414
+|heat capacity=26.86
+|vapor pressure 1=1906
+|vapor pressure 10=2103
+|vapor pressure 100=2346
+|vapor pressure 1 k=(2653)
+|vapor pressure 10 k=(3072)
+|vapor pressure 100 k=(3663)
+|vapor pressure comment=
+|crystal structure=hexagonal close packed
+|crystal structure Pearson symbol=hP2
+|lattice constants=''a''&nbsp;=&nbsp;350.53&nbsp;pm<br />''c''&nbsp;=&nbsp;554.93&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.27
+|number of ionization energies=3
+|ionization energy 1=523.5
+|ionization energy 2=1340
+|ionization energy 3=2022.3
+|atomic radius=174
+|covalent radius=187±8
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering ref=<ref name=magnet>{{cite book |url=https://web.archive.org/web/20110303222309/http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/elementmagn.pdf|chapter=Magnetic susceptibility of the elements and inorganic compounds| editor = Lide, D. R. | title = CRC Handbook of Chemistry and Physics | edition = 86th | location = Boca Raton (FL) | publisher = CRC Press | year = 2005 | isbn = 0-8493-0486-5 }}
+</ref>
+|electrical resistivity unit prefix=n
+|electrical resistivity=poly: 582
+|electrical resistivity comment=(at {{abbr|r.t.|room temperature}})
+|thermal conductivity=16.4
+|thermal expansion=poly: 9.9
+|thermal expansion comment=(at {{abbr|r.t.|room temperature}})
+|magnetic susceptibility=
+|magnetic susceptibility ref=
+|Young's modulus=68.6
+|Shear modulus=27.2
+|Bulk modulus=47.6
+|Poisson ratio=0.261
+|Vickers hardness=755–1160
+|Brinell hardness=890–1300
+|CAS number=7439-94-3
+|naming=after {{lang|la|[[Lutetia]]}}, Latin for: Paris, in the Roman era
+|discovered by=[[Carl Auer von Welsbach]] and [[Georges Urbain]]
+|discovery date=1906
+|first isolation date=1953
+|named by=Georges Urbain
+|named date=1906
+|QID=Q1857
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Lu}}
+{{notelist}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

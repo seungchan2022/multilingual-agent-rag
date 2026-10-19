@@ -1,0 +1,178 @@
+{{short description|Star in the constellation Sagittarius}}
+{{Starbox begin}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Sagittarius_constellation_map.svg
+|alt=Ross 154 is located in the constellation Sagittarius.
+|caption=Location of Ross 154 in the constellation [[Sagittarius (constellation)|Sagittarius]]|border=infobox|mark=Red_pog.png|width=300
+|label=Ross 154
+|position=left
+|lat=61
+|long=35.8
+}}|caption=
+}}
+{{Starbox observe
+| epoch    = J2000
+| constell = [[Sagittarius (constellation)|Sagittarius]]<ref name=constellation/>
+| ra       = {{RA|18|49|49.36378}}<ref name="Gaia3"/>
+| dec      = {{DEC|−23|50|10.4474}}<ref name="Gaia3"/>
+| appmag_v = 10.44<ref name=RECONS/>
+}}
+{{Starbox character
+| class    = M3.5V<ref name=RECONS/>
+| b-v      = 1.76<ref name=mnrassa31_7/>
+| u-b      =
+| variable = [[Flare star]]<ref name=ibvs1221_1/>
+}}
+{{Starbox astrometry
+| radial_v = {{val|-11.12|0.57}}<ref name="Gaia3"/>
+| prop_mo_ra  = +639.368
+| prop_mo_dec = −193.958
+| pm_footnote = <ref name="Gaia3"/>
+| parallax = 336.0266
+| p_error  = 0.0317
+| parallax_footnote = <ref name="Gaia3"/>
+| absmag_v = 13.07<ref name=RECONS/>
+}}
+{{Starbox detail
+| mass = {{val|0.177|0.004}}<ref name=Pineda2021/>
+| radius = {{val|0.200|0.008}}<ref name=Pineda2021/>
+| luminosity = 0.004015{{±|0.000048}}<ref name=Pineda2021/>
+| gravity = {{val|5.23|0.11}}<ref name=Brown2026/>
+| temperature = {{val|3340|30|fmt=commas}}<ref name=Brown2026/>
+| metal_fe = {{val|−0.63|0.1}}<ref name=Brown2026/>
+| rotation = {{val|2.848|0.001}}<ref name=aaa644_A2/> days
+| rotational_velocity = {{val|3.0|1.5}}<ref name=Brown2026/>
+| age_gyr = 0.2–0.6<ref name=aaa644_A2/>
+}}
+{{Starbox catalog
+| names = {{odlist | V=V1216 Sgr | CD=−23°14742 | GJ=729 | HIP=92403 | LHS=3414 | PLX=4338 | Ross=154}}<ref name=SIMBAD/>
+}}
+{{Starbox reference
+| Simbad = TYC+6859-1332-1
+| ARICNS = 01512
+}}
+{{Starbox end}}
+
+'''Ross 154''' ('''V1216 Sagittarii''') is a [[red dwarf]] [[star]] in the southern [[zodiac]] [[constellation]] of [[Sagittarius (constellation)|Sagittarius]]. It has an [[apparent visual magnitude]] of 10.44,<ref name=RECONS/> making it much too faint to be seen with the [[naked eye]]. At a minimum, viewing Ross 154 requires a telescope with an [[aperture]] of {{Convert|6.5|cm|in|sigfig=1|abbr=on}} under ideal conditions.<ref name=mills1994/> The distance to this star can be estimated from [[parallax]] measurements, which places it at {{Convert|9.71|ly|pc|abbr=off|lk=on}} away from [[Earth]].<ref name="Gaia3"/> It is the nearest star in the southern constellation [[Sagittarius (constellation)|Sagittarius]], and one of the [[List of nearest stars and brown dwarfs|nearest stars]] to the Sun.<ref name=Kirkpatrick2024/>
+
+==Description==
+This star was first catalogued by American astronomer [[Frank Elmore Ross]] in 1925, and formed part of his fourth list of new variable stars.<ref name=aj37_91/> In 1926, he added it to his second list of stars showing a measurable [[proper motion]] after comparing its position with photographic plates taken earlier by fellow American astronomer [[Edward Emerson Barnard|E. E. Barnard]].<ref name=aj36_856_124/> A preliminary [[parallax]] value of {{val|0.362|0.006|ul=arcseconds}} was determined in 1937 by Walter O'Connell using photographic plates from the Yale telescope in [[Johannesburg]], [[South Africa]]. This placed the star at the sixth position of the then-known nearby stars.<ref name=aj46_1078_204/>
+
+[[File:V1216SgrLightCurve.png|thumb|left|A broadband optical [[light curve]] for V1216 Sagittarii, plotted from ''[[Kepler space telescope|Kepler]]'' data<ref name=MAST/>]]
+Ross 154 was found to be a [[UV Ceti]]-type [[flare star]], with a mean time between major flares of about two&nbsp;days.<ref name=ibvs1221_1/> The first such flare activity was observed from Australia in 1951 when the star increased in magnitude by 0.4.<ref name=jrasc47_23/> Typically, the star will increase by 3–4 magnitudes during a flare.<ref name=ibvs461_1/> The strength of the star's surface [[Stellar magnetic field|magnetic field]] is an estimated {{val|2.2|0.1|ul=kG}}.<ref name=apj656_2_1121/> Ross 154 is an [[X-ray astronomy|X-ray]] source and it has been detected by several X-ray observatories. The quiescent X-ray luminosity is about {{val|9|e=27|u=ergs/s}}.<ref name=apj676/> X-ray flare emission from this star has been observed by [[Chandra X-ray Observatory|Chandra observatory]], with a particularly large flare emitting {{val|2.3|e=33|u=erg}}.<ref name=apj676/>
+
+A [[stellar classification]] of M3.5V<ref name=RECONS/> makes this a [[red dwarf]] star that is generating energy through the [[nuclear fusion]] of hydrogen at its core. It has an estimated 18% of the [[solar mass|Sun's mass]] and 20% of the [[solar radius|Sun's radius]],<ref name=Pineda2021/> but it is radiating only 0.4% of the [[solar luminosity|luminosity of the Sun]].<ref name=Pineda2021/> In contrast to the Sun where convection only occurs in the outer layers, a red dwarf with a mass this low will be entirely [[convection|convective]].<ref name=aaa496_3_787/> Based on the relatively high [[stellar rotation|projected rotation]], this is probably a young star with an estimated age of less than a billion years.<ref name=apj676/> The abundance of elements heavier than helium is about half that in the Sun.<ref name=apj676/>
+
+The [[Space velocity (astronomy)|space velocity]] components of this star in the [[galactic coordinate system]] are {{nowrap|[''U'', ''V'', ''W'']}} = [–12.2, –1.0, –7.2]{{nowrap| km s<sup>−1</sup>}}.<ref name=cdsannot/> It has not been identified as a member of a specific stellar [[moving group]]<ref name=mnras328_1_45/> and is orbiting through the [[Milky Way]] galaxy at a distance from the core that varies from {{Convert|27.65|-|30.66|kly|kpc|abbr=on|lk=on}} with an [[orbital eccentricity]] of 0.052.<ref name=rmaa34_37/> Based on its low velocity relative to the Sun, this is believed to be a young disk ([[population I]]) star, though it has a lower metallicity than the Sun.<ref name=aj79_702/> This star will make its closest approach to the Sun in about 157,000&nbsp;years, when it comes within {{Convert|6.39|+/-|0.10|ly|pc|abbr=on}}.<ref name=al36_3_220/>
+
+==Search for planets==
+No [[brown dwarf]] or gas giant companions have been discovered in orbit around Ross 154.<ref name=aj123_4_2027/> Nor does it display the level of [[infrared excess|excess infrared emission]] that would suggest the presence of circumstellar dust. Such [[debris disk]]s are rare among M-type star systems older than about 10 million years, having been primarily cleared away by drag from the [[stellar wind]].<ref name=apj631_2_1161/>
+
+Ross 154 was observed with the [[HARPS]] spectrograph in 2017 as part of the [[Red Dots campaign]], and has also been observed with the [[CARMENES]] spectrograph. These observations show [[radial velocity]] variations with a 7-day period, which could be due to either an orbiting [[super-Earth]] planet ([[minimum mass]] {{Earth mass|1.5~2|link=y}}) or intrinsic [[stellar activity]]. Further observations are needed to confirm or refute the presence of a planet.<ref name=Brown2026/>
+
+==References==
+{{reflist|30em|refs=
+
+<ref name="Gaia3">{{Cite Gaia DR3|4075141768785646848|mode=cs2}}</ref>
+
+<ref name=constellation>{{cite constellation|mode=cs2}}</ref>
+
+<ref name=MAST>{{citation |title=MAST: Barbara A. Mikulski Archive for Space Telescopes |url=https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html |publisher=Space Telescope Science Institute |access-date=8 December 2021}}</ref>
+
+<ref name=SIMBAD>{{citation | url=http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=V1216+Sgr | title=V* V1216 Sgr -- Flare Star | work=SIMBAD | publisher=Centre de Données astronomiques de Strasbourg | access-date=2008-06-12 }}</ref>
+
+<ref name=mnrassa31_7>{{citation | display-authors=1 | last1=Corben | first1=P. M. | last2=Carter | first2=B. S. | last3=Banfield | first3=R. M. | last4=Harvey | first4=G. M. | title=U, B, V photometry of 500 southern stars | journal=Monthly Notes of the Astronomical Society of South Africa | date=1972 | volume=31 | pages=7–22 | bibcode=1972MNSSA..31....8C }}</ref>
+
+<ref name=RECONS>{{citation | author=Staff | date=January 1, 2008 | url=http://www.chara.gsu.edu/RECONS/TOP100.posted.htm | title=The One Hundred Nearest Star Systems | publisher=Research Consortium on Nearby Stars | access-date=2008-06-12 | url-status=dead | archive-url=https://web.archive.org/web/20120513202710/http://www.chara.gsu.edu/RECONS/TOP100.posted.htm | archive-date=May 13, 2012 }}</ref>
+
+<ref name=Pineda2021>{{citation
+ | title=The M-dwarf Ultraviolet Spectroscopic Sample. I. Determining Stellar Parameters for Field Stars
+ | last1=Pineda | first1=J. Sebastian | last2=Youngblood | first2=Allison
+ | last3=France | first3=Kevin | display-authors=1
+ | journal=The Astrophysical Journal
+ | volume=918 | issue=1 | id=40 | pages=23 | date=September 2021
+ | doi=10.3847/1538-4357/ac0aea | arxiv=2106.07656
+ | bibcode=2021ApJ...918...40P | s2cid=235435757 | doi-access=free }}</ref>
+
+<ref name=mills1994>{{citation | first=H. Robert | last=Mills | date=1994 | title=Practical Astronomy: A User-friendly Handbook for Skywatchers | pages=[https://archive.org/details/practicalastrono0000mill/page/199 199] | publisher=Horwood Publishing | isbn=1-898563-02-0 | url-access=registration | url=https://archive.org/details/practicalastrono0000mill/page/199 }}</ref>
+
+<ref name=aj37_91>{{citation | last=Ross | first=Frank E. | title=New variable stars, (fourth list) | journal=Astronomical Journal | date=1926 | volume=37 | pages=91 | bibcode=1927AJ.....37Q..91R | doi=10.1086/104790 | doi-access=free }}</ref>
+
+<ref name=ibvs1221_1>{{citation | last1=Jarrett | first1=A. H. | last2=Grabner | first2=G. | title=On the Period Between Flares of V1216 Sagittarii | journal=Information Bulletin on Variable Stars | date=1976 | volume=1221 | issue=1221 | pages=1 | bibcode=1976IBVS.1221....1J }}</ref>
+
+<ref name=ibvs461_1>{{citation | last1=Costa | first1=R. | last2=Cristaldi | first2=S. | last3=Rodono | first3=M. | title=Cooperative Observations of the Flare Star V1216 Sgr | journal=Information Bulletin on Variable Stars | date=1970 | volume=461 | pages=1–4 | bibcode=1970IBVS..461....1C }}</ref>
+
+<ref name=apj676>{{citation | display-authors=1 | last1=Wargelin | first1=B. J. | last2=Kashyap | first2=V. L. | last3=Drake | first3=J. J. | last4=García-Alvarez | first4=D. | last5=Ratzlaff | first5=P. W. | title=X-Ray Flaring on the dMe Star, Ross 154 | journal=The Astrophysical Journal | date=2008 | volume=676 | issue=1 | pages=610–627 | doi=10.1086/528702 | bibcode=2008ApJ...676..610W|arxiv = 0712.2791 | s2cid=53357714 }}</ref>
+
+<ref name=cdsannot>{{citation | title= Annotations on V* V1216 Sgr object |work=SIMBAD | url=http://cdsannotations.u-strasbg.fr/annotations/simbadObject/2523169 | access-date=2010-04-18}}</ref>
+
+<ref name=mnras328_1_45>{{citation | display-authors=1 | last1=Montes | first1=D. | last2=López-Santiago | first2=J. | last3=Gálvez | first3=M. C. | last4=Fernández-Figueroa | first4=M. J. | last5=De Castro | first5=E. | last6=Cornide | first6=M. | title=Late-type members of young stellar kinematic groups - I. Single stars | journal=[[Monthly Notices of the Royal Astronomical Society]] | date=2001 | volume=328 | issue=1 | pages=45–63 | bibcode=2001MNRAS.328...45M | doi=10.1046/j.1365-8711.2001.04781.x | doi-access=free | arxiv=astro-ph/0106537 | s2cid=55727428 }}</ref>
+
+<ref name=rmaa34_37>{{citation | last1=Allen | first1=C.|author1-link=Christine Allen (astronomer) | last2=Herrera | first2=M. A. | title=The galactic orbits of nearby UV Ceti stars | journal=Revista Mexicana de Astronomía y Astrofísica | date=1998 | volume=34 | pages=37–46 | bibcode=1998larm.confE.115A }}</ref>
+
+<ref name=aj79_702>{{citation | last=Veeder | first=G. J. | title=Old disk flare stars | journal=Astronomical Journal | date=1974 | volume=79 | pages=702–704 | bibcode=1974AJ.....79..702V | doi=10.1086/111600 }}</ref>
+
+<ref name=aj123_4_2027>{{citation | display-authors=1 | last1=Hinz | first1=Joannah L. | last2=McCarthy | first2=Donald W. Jr. | last3=Simons | first3=Doug A. | last4=Henry | first4=Todd J. | last5=Kirkpatrick | first5=J. Davy | last6=McGuire | first6=Patrick C. | title=A Near-Infrared Wide-Field Proper Motion Search for Brown Dwarfs | journal=The Astronomical Journal | date=2002 | volume=123 | issue=4 | pages=2027–2032 | bibcode=2002AJ....123.2027H | doi=10.1086/339555 | arxiv=astro-ph/0201140 | s2cid=12737223 }}</ref>
+
+<ref name=aj36_856_124>{{citation | last1=Ross | first1=Frank E. | title=New proper-motion stars, (second list) | journal=Astronomical Journal | volume=36 | issue=856 | pages=124–128 |date=February 1926 | doi=10.1086/104699 | bibcode=1926AJ.....36..124R }}</ref>
+
+<ref name=aj46_1078_204>{{citation | title=A faint star of large parallax | last1=O'Connell | first1=Walter | journal=Astronomical Journal | volume=46 | issue=1078 | page=204 |date=February 1938 | doi=10.1086/105447 | bibcode=1938AJ.....46..204O }}</ref>
+
+<ref name=jrasc47_23>{{citation | last1=Mayall | first1=Margaret W. | title=Variable Star Notes | journal=Journal of the Royal Astronomical Society of Canada | volume=47 | pages=23–28 |date=February 1953 | bibcode=1953JRASC..47...23M }}</ref>
+
+<ref name=aaa496_3_787>{{citation |last1=Reiners |first1=Ansgar |last2=Basri |first2=Gibor |title=On the magnetic topology of partially and fully convective stars |journal=Astronomy and Astrophysics |volume=496 |issue=3 |pages=787–790 |date=March 2009 |doi=10.1051/0004-6361:200811450 |doi-access=free |bibcode=2009A&A...496..787R |arxiv=0901.1659 |s2cid=15159121 }}</ref>
+
+<ref name=al36_3_220>{{citation | last1=Bobylev | first1=V. V. | title=Searching for stars closely encountering with the solar system | journal=Astronomy Letters | volume=36 | issue=3 | pages=220–226 |date=March 2010 | doi=10.1134/S1063773710030060 | bibcode=2010AstL...36..220B |arxiv = 1003.2160 | s2cid=118374161 }}</ref>
+
+<ref name=apj656_2_1121>{{citation |author1=Reiners, Ansgar |author2=Basri, Gibor |title=The First Direct Measurements of Surface Magnetic Fields on Very Low Mass Stars |journal=The Astrophysical Journal |volume=656 |issue=2 |pages=1121–1135 |date=February 2007 |doi=10.1086/510304 |bibcode=2007ApJ...656.1121R |arxiv=astro-ph/0610365 |s2cid=17743657 }}</ref>
+
+<ref name=apj631_2_1161>{{citation | last1=Plavchan | first1=Peter | last2=Jura | first2=M. | last3=Lipscy | first3=S. J. | title=Where Are the M Dwarf Disks Older Than 10 Million Years? | journal=The Astrophysical Journal | volume=631 | issue=2 | pages=1161–1169 |date=October 2005 | doi=10.1086/432568 | bibcode=2005ApJ...631.1161P |arxiv = astro-ph/0506132 | s2cid=3498251 }}</ref>
+
+<ref name=aaa644_A2>
+{{citation
+ | last1=Ibañez Bustos
+ | first1=R. V.
+ | last2=Buccino
+ | first2=A. P.
+ | last3=Messina
+ | first3=Sergio
+ | last4=Lanza
+ | first4=A. F.
+ | last5=Mauas
+ | first5=P. J. D.
+ | title=Activity-rotation in the dM4 star Gl 729. A possible chromospheric cycle
+ | journal=Astronomy & Astrophysics
+ | volume=644
+ | date=December 2020
+ | doi=10.1051/0004-6361/202039164
+ | doi-access=free
+ | bibcode=2020A&A...644A...2I
+ | arxiv=2011.10391
+| s2cid=226313606
+ }}
+</ref>
+
+<ref name=Kirkpatrick2024>{{cite journal |last1=Kirkpatrick |first1=J. Davy |last2=Marocco |first2=Federico |display-authors=etal |date=April 2024 |title=The Initial Mass Function Based on the Full-sky 20 pc Census of ~3600 Stars and Brown Dwarfs |journal=[[The Astrophysical Journal Supplement Series]] |volume=271 |issue=2 |pages=55 |doi=10.3847/1538-4365/ad24e2 |doi-access=free |arxiv=2312.03639 |bibcode=2024ApJS..271...55K}}</ref>
+
+<ref name=Brown2026>{{Cite journal |last1=Brown |first1=E. L. |last2=Jeffers |first2=S. V. |last3=Marsden |first3=S. C. |last4=Liebing |first4=F. |last5=Bellotti |first5=S. |last6=Barnes |first6=J. R. |last7=Haswell |first7=C. A. |last8=Koseleva |first8=V. |display-authors=2 |date=July 2026 |title=RedDots: Magnetic field of the nearby active M dwarf GJ 729, and a search for companions |journal=[[Monthly Notices of the Royal Astronomical Society]] |volume=550 |issue=3 |article-number=stag1294 |language=en |doi=10.1093/mnras/stag1294 |doi-access=free |issn=0035-8711 |arxiv=2607.08050}}</ref>
+
+}}
+
+==External links==
+* [https://web.archive.org/web/20010426173829/http://solstation.com/stars/ross154.htm SolStation.com: Ross 154]
+
+{{Sky|18|49|49.3625|-|23|50|10.437|9.69}}
+{{nearest systems|1}}
+{{Stars of Sagittarius}}
+
+[[Category:Flare stars]]
+[[Category:M-type main-sequence stars]]
+[[Category:Local Bubble]]
+[[Category:Sagittarius (constellation)]]
+[[Category:Durchmusterung objects|CD-23 14742]]
+[[Category:Ross objects|154]]
+[[Category:Gliese and GJ objects|0729]]
+[[Category:Hipparcos objects|092403]]
+[[Category:Objects with variable star designations|Sagittarii, V1216]]
+[[Category:Astronomical objects discovered in 1925]]
+[[Category:Stars discovered in the 1920s]]

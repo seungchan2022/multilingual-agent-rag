@@ -1,0 +1,208 @@
+{{Short description|Moon of Saturn}}
+{{About|the moon of Saturn}}
+{{Use British English|date=August 2024}}
+{{Use dmy dates|date=August 2024}}
+{{Infobox planet
+| name = Mimas
+| mpc_name = Saturn I
+| pronounced = {{IPAc-en|ˈ|m|aɪ|m|ə|s}}<ref>{{MW|Mimas}}</ref> or as Greco-Latin ''Mimas'' (approximated {{IPAc-en|ˈ|m|iː|m|ə|s}})
+| adjectives = Mimantean,<ref>{{Cite web |url=http://saturn.jpl.nasa.gov/science/moons/mimas |title=JPL (2009) ''Cassini Equinox Mission: Mimas'' |access-date=6 April 2009 |archive-url=https://web.archive.org/web/20090406090108/http://saturn.jpl.nasa.gov/science/moons/mimas |archive-date=6 April 2009 |url-status=dead }}</ref> Mimantian<ref>Harrison (1908) ''Prolegomena to the study of Greek religion'', ed. 2, p. 514</ref> (both {{IPAc-en|m|ᵻ|ˈ|m|æ|n|t|i|ə|n}})
+| named_after = [[Mimas (mythology)|Mimas]], Giant in Greek mythology
+| image = Mimas Masked.jpg
+| caption = Mimas in 2013 as imaged by the ''[[Cassini–Huygens|Cassini]]'' orbiter
+| orbit_ref = <ref name="Harvey-2007" />
+| type = icy round moon
+| discoverer = [[William Herschel]]
+| discovered = 17 September 1789<ref name="CosmoVisions" />
+| periapsis = {{val|181902|u=km}}
+| apoapsis = {{val|189176|u=km}}
+| semimajor = {{val|185539|u=km}}
+| eccentricity = {{val|0.0196}}
+| period = {{val|0.942421959|u=d}}
+| avg_speed = 14.28&nbsp;km/s (calculated)
+| inclination = {{val|1.574|u=°}} (to Saturn's equator)
+| satellite_of = [[Saturn]]
+| dimensions = (413.20 × 391.46 × 380.94) ± 0.14&nbsp;km<ref name="Tajeddine-2014"/><br />(0.0311 Earths)
+| mean_radius = {{val|197.49|0.07|u=km}}<ref name="Tajeddine-2014"/>
+| surface_area = {{val|4.9012|0.0035|e=5|u=km2}}
+| volume = {{val|3.2264|0.0034|e=7|u=km3}}
+| mass = {{val|3.75094|0.00023|e=19|u=kg}}<ref name="Jacobson-2022">{{cite journal |last1=Jacobson |first1=Robert. A. |title=The Orbits of the Main Saturnian Satellites, the Saturnian System Gravity Field, and the Orientation of Saturn's Pole* |journal=The Astronomical Journal |date=1 November 2022 |volume=164 |issue=5 |pages=199 |doi=10.3847/1538-3881/ac90c9|bibcode=2022AJ....164..199J |s2cid=252992162 |doi-access=free }}</ref><br/>(6.3{{e|-6}} Earths)
+| density = {{val|1.1501|0.0070|u=g/cm<sup>3</sup>}}<ref name="Jacobson-2022"/>
+| surface_grav = {{Gr|0.03751|197.49|3}} [[Acceleration|m/s<sup>2</sup>]] (0.00648 [[Standard gravity|g]])
+| moment_of_inertia_factor = {{val|0.375|0.0025}}<ref name="Gyalay2024"/>
+| escape_velocity = {{V2|0.03751|197.49|3}} km/s
+| rotation = [[Synchronous rotation|synchronous]]
+| axial_tilt = 0°
+| albedo = {{val|0.962|0.004}} ([[geometric albedo|geometric]])<ref name="Verbiscer-2007" /><br />{{val|0.51|0.02}} ([[Bond albedo|bolometric Bond]])<ref>{{Cite journal |last1=Buratti |first1=B. J. |last2=Hillier |first2=J. H. |last3=Dalba |first3=P. A. |last4=Hicks |first4=M. D. |last5=Mosher |first5=J. A. |last6=Hendrix |first6=A. R. |last7=Abramson |first7=L. |last8=Akhter |first8=N. |date=2022-08-01 |title=Observations and Modeling of the Opposition Surges of the Icy Moons of Saturn Based on Cassini Visual Infrared Mapping Spectrometer Data |journal=The Planetary Science Journal |volume=3 |issue=8 |pages=200 |doi=10.3847/PSJ/ac867e |issn=2632-3338 |doi-access=free |bibcode=2022PSJ.....3..200B}}</ref>
+| magnitude = 12.9<ref name="ARVAL-2007" />
+| single_temperature = 74 K (average)<ref name="Gyalay2024"/>
+}}
+
+'''Mimas''' is the seventh-largest [[natural satellite]] of [[Saturn]]. With a [[mean diameter]] of {{convert|396.4|km|mi|abbr=off|disp=or}}, Mimas is the smallest [[astronomical body]] known to be roughly rounded in shape due to its own gravity. Mimas's low density, 1.15&nbsp;g/cm<sup>3</sup>, indicates that it is composed mostly of water ice with only a small amount of rock, and study of Mimas's motion suggests that it may have a liquid ocean beneath its surface ice. The surface of Mimas is heavily cratered and shows little sign of recent geological activity. A notable feature of Mimas's surface is [[Herschel (Mimantean crater)|Herschel]], one of the largest craters relative to the size of the parent body in the Solar System. Herschel measures {{convert|139|km|abbr=off}} across, about one-third of Mimas's mean diameter,<ref name="USGS">{{gpn|2478|Herschel}}</ref> and formed from an extremely energetic [[impact event]]. The crater is named after [[William Herschel]], who discovered Mimas in 1789. The moon's presence has created one of the largest 'gaps' in [[Rings of Saturn|Saturn's ring]], named the [[Cassini Division]], due to [[orbital resonance]] destabilising the particles' orbit there.
+
+== Discovery and naming ==
+=== Discovery ===
+[[File:William_Herschel01.jpg|left|thumb|upright|''[[Portrait of William Herschel]]'', 1785. William Herschel, discoverer of Mimas]] Mimas was discovered by the [[astronomer]] [[William Herschel]] on 17 September 1789. He recorded his discovery as follows: 
+{{Quote|text=I continued my observations constantly, whenever the weather would permit; and the great light of the forty-feet speculum was now of so much use, that I also, on the 17th of September, detected the seventh satellite, when it was at its greatest preceding elongation.<ref name="Herschel-1790" /><ref>Herschel, William ''Philosophical Transactions of the Royal Society of London'', Vol. 80, reported by {{cite journal| last=Arago| first=M.| title=Herschel| journal=Annual Report of the Board of Regents of the Smithsonian Institution| year=1871| pages=198–223| url=http://laplaza.org/~tom/People/Herschel.htm| access-date=2006-11-26| url-status=dead| archive-url=https://web.archive.org/web/20160113070818/http://laplaza.org/~tom/People/Herschel.htm| archive-date=2016-01-13}}</ref>|author=William Herschel}}
+
+The [[40-foot telescope]] was a metal mirror reflecting telescope built by Herschel, with a {{convert|48|in|mm|adj=on}} aperture. The 40 feet refers to the length of the focus, not the aperture diameter as is more common with modern telescopes.
+
+=== Name ===
+[[File:John_F._Hershel.png|left|thumb|upright|[[John Herschel]], the astronomer who suggested that the moons of Saturn be named after the Titans and Giants]]
+Mimas is named after one of the [[Giants (Greek mythology)|Giant]]s in [[Greek mythology]], [[Mimas (Giant)|Mimas]]. The names of all seven then-known satellites of Saturn, including Mimas, were suggested by William Herschel's son [[John Herschel|John]] in his 1847 publication ''Results of Astronomical Observations made at the Cape of Good Hope''.<ref>As reported by [[William Lassell]], [http://adsabs.harvard.edu//full/seri/MNRAS/0008//0000042.000.html Monthly Notices of the Royal Astronomical Society, Vol. 8, No. 3, pp. 42–43] (14 January 1848)</ref><ref>{{cite journal| last=Lassell| first= William | title = Satellites of Saturn: Observations of Mimas, the closest and most interior Satellite of Saturn| url=http://articles.adsabs.harvard.edu/full/seri/MNRAS/0008//0000042.000.html| journal=Monthly Notices of the Royal Astronomical Society| year=1848| volume=8| pages=42–43| access-date=26 November 2006|bibcode = 1848MNRAS...8...42L| doi=10.1093/mnras/8.3.42| doi-access=free}}</ref> Saturn (the Roman equivalent of [[Cronus]] in Greek mythology) was the leader of the Titans, the generation before the [[Twelve Olympians|Gods]], and rulers of the world for some time, while the Giants were the subsequent generation, and each group fought a great struggle against [[Zeus]] and the Olympians.
+
+The customary English pronunciation of the name is {{IPAc-en|'|m|aɪ|m|ə|s}},<ref>{{Cite dictionary |url=http://www.lexico.com/definition/Mimas |archive-url=https://web.archive.org/web/20200327103308/https://www.lexico.com/definition/mimas |url-status=dead |archive-date=27 March 2020 |title=Mimas |dictionary=[[Lexico]] UK English Dictionary |publisher=[[Oxford University Press]]}}<br/>{{MW|Mimas}}</ref><ref name="Dict.com"/> or sometimes {{IPAc-en|'|m|iː|m|ə|s}}.<ref name="Dict.com">{{Dict.com|Mimas}}</ref>
+
+The Greek and Latin root of the name is ''Mimant-'' (cf. Italian ''Mimante'', Russian ''Мимант'' for the mythological figure),<ref>{{Cite web |title=Charlton T. Lewis, Charles Short, A Latin Dictionary, Mĭmas |url=https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=Mimas |website=www.perseus.tufts.edu}}</ref> and so the English adjectival form is ''Mimantean''<ref name="JPL-2009">{{Cite web |url=http://saturn.jpl.nasa.gov/science/moons/mimas/ |title=JPL (ca. 2009) ''Cassini Equinox Mission: Mimas'' |access-date=10 February 2010 |archive-url=https://web.archive.org/web/20150905123839/http://saturn.jpl.nasa.gov/science/moons/mimas/ |archive-date=5 September 2015 |url-status=dead }}</ref> or ''Mimantian'',<ref>Paul Schenk (2011), Geology of Mimas?, in ''42nd Lunar and Planetary Science Conference''</ref> either spelling pronounced {{IPAc-en|m|aɪ|ˈ|m|æ|n|t|i|ə|n}} ~ {{IPAc-en|m|ᵻ|ˈ|m|æ|n|t|i|ə|n}}.<ref>Jane Ellen Harrison (1908) "Orphic Mysteries", in ''Prolegomena to the study of Greek religion'', page 514:</ref>
+
+Planetary moons other than Earth's were never given symbols in the astronomical literature. Denis Moskowitz, a software engineer who designed most of the [[dwarf planet]] symbols, proposed a Greek [[mu (letter)|mu]] (the initial of Mimas) combined with the crook of the Saturn symbol as the symbol of Mimas ([[File:Mimas symbol (fixed width).svg|16px]]). This symbol is not widely used.<ref name=moons>{{cite web |url=https://www.unicode.org/L2/L2025/25079-phobos-and-deimos.pdf |title=Phobos and Deimos symbols |last1=Bala |first1=Gavin Jared |last2=Miller |first2=Kirk |date=7 March 2025 |website=unicode.org |publisher=The Unicode Consortium |access-date=14 March 2025 |quote=}}</ref>
+
+== Physical characteristics ==
+{{Further|List of geological features on Mimas}}
+[[File:MiniMimas.jpg|thumb|Mimas compared to [[1 Ceres|Ceres]] and the [[Moon]]]]
+Mimas is the smallest and innermost of Saturn's major moons. The surface area of Mimas is slightly less than the land area of [[Spain]] or [[California]]. The low density of Mimas, 1.15&nbsp;g/cm<sup>3</sup>, indicates that it is composed mostly of water ice with only a small amount of rock. As a result of the tidal forces acting on it, Mimas is noticeably [[Prolate spheroid|oblate]]; its longest axis is about 10% longer than the shortest. The [[Ellipsoid#Rotational equilibrium|ellipsoidal]] shape of Mimas is especially noticeable in a 14 October 2009 image from the ''[[Cassini–Huygens|Cassini]]'' probe.<ref>{{cite web |title=Mimas' ellipsoidal shape |url=https://www.planetary.org/space-images/mimas-ellipsoidal-shape |publisher=The Planetary Society |access-date=27 April 2026}}</ref> Mimas's most distinctive feature is a giant [[impact crater]] {{convert|139|km|abbr=on}} across, named [[Herschel (Mimantean crater)|Herschel]] after the discoverer of Mimas. Herschel's diameter is almost a third of Mimas's own diameter; its walls are approximately {{convert|5|km|0|abbr=on}} high, parts of its floor measure {{convert|10|km|abbr=on|0}} deep, and its central peak rises {{convert|6|km|0|abbr=on}} above the crater floor. If there were a crater of an equivalent scale on [[Earth]] (in relative size) it would be over {{convert|4000|km|abbr=on}} in diameter, wider than [[Australia (continent)|Australia]]. The impact that made this crater must have nearly shattered Mimas: the surface [[antipodal point|antipodal]] to Herschel (opposite through the globe) is highly disrupted, indicating that the shock waves created by the Herschel impact propagated through the whole moon.<ref>{{cite book|title=Jupiter and Saturn|last=Elkins-Tanton|first=Linda E.|page=144|publisher=[[Infobase Publishing]]|year=2006|isbn=9781438107257}}</ref>{{#tag:ref|See for example figure 4 of Moore et al. 2004.<ref>{{Cite journal |last1=Moore |first1=Jeffrey M. |last2=Schenk |first2=Paul M. |last3=Bruesch |first3=Lindsey S. |last4=Asphaug |first4=Erik |last5=McKinnon |first5=William B. |date=October 2004 |title=Large impact features on middle-sized icy satellites |url=https://linkinghub.elsevier.com/retrieve/pii/S0019103504001666 |journal=Icarus |language=en |volume=171 |issue=2 |pages=421–443 |doi=10.1016/j.icarus.2004.05.009|bibcode=2004Icar..171..421M }} {{Subscription required}}</ref>}}
+[[File:High Relief Mimas.jpg|left|thumb|A high-relief image of Mimas by Cassini on January 30, 2017. The shapes and the texture of its many overlapping craters can be seen clearly.]]
+
+The Mimantean surface is saturated with smaller impact craters, but no others are anywhere near the size of Herschel. Although Mimas is heavily cratered, the cratering is not uniform. Most of the surface is covered with craters larger than {{convert|40|km|abbr=on}} in diameter, but in the south polar region, there are generally no craters larger than {{convert|20|km|abbr=on}} in diameter.
+
+Three types of geological features are officially recognised on Mimas: [[Impact crater|crater]]s, [[chasma]]ta (chasms), and [[Crater chain|catenae]] (crater chains).
+
+By studying Mimas's movement, researchers have found that it has a water ocean beneath {{Convert|20-30|km|mi|abbr=on}} of surface ice. The ocean formed within the last 25 million years, perhaps even the last 2-3&nbsp;million years, and is thought to be warmed by Saturn's tidal forces.<ref>{{Cite journal |last1=Lainey |first1=V |last2=Rambaux |first2=N |last3=Tobie |first3=G |last4=Cooper |first4=N |last5=Zhang |first5=Q |last6=Noyelles |first6=B |last7=Baillié |first7=K |date=7 February 2024 |title=A recently formed ocean inside Saturn's moon Mimas |url=https://www.nature.com/articles/s41586-023-06975-9.epdf?sharing_token=vYAG4f049M5kK2gX7OfZg9RgN0jAjWel9jnR3ZoTv0MN0ukW__TUAf43EkTwisrqQJAdNax6CY-KTbuDYP9edZjI9EdTKQHqBQ7K4elhr_eA7eCcg60b2Fa-ecxLjrdaHL789s2t1YlS3e4-7nwjkbYcddy-Gnh3L73x_IXMKpuk6IXunnHmMERXqVHjOrcX0QRIEEolq8Efgnu3Kz1-6vBxMaerFbOz8sldPmErHwqNcmCFFYGSE3pLfIeaGK87Lisfz_gHA_dN9cqMDnl_asFvF8X4cvtD9qTYp0xwrzzdoKkTp2J5UhquPn7vGF4R |journal=Nature |language=en |volume=626 |issue=7998 |pages=280–282 |doi=10.1038/s41586-023-06975-9 |pmid=38326592 |bibcode=2024Natur.626..280L |s2cid=267546453 |issn=1476-4687}}</ref>
+
+== Orbital resonances ==
+
+A number of features in [[Saturn's rings]] are related to [[orbital resonance|resonances]] with Mimas. Mimas is responsible for clearing the material from the [[Cassini Division]], the gap between Saturn's two widest rings, the [[A Ring]] and [[B Ring]]. Particles in the [[Rings of Saturn#Huygens Gap|Huygens Gap]] at the inner edge of the Cassini division are in a 2:1 orbital resonance with Mimas (ie, they orbit twice for each orbit of Mimas). The repeated pulls by Mimas on the Cassini division particles, which are always in the same direction in space, force them into new orbits outside the gap. The boundary between the C and B rings is in a 3:1 resonance with Mimas. Recently, the [[Rings of Saturn#G Ring|G Ring]] was found to be in a 7:6 co-rotation eccentricity resonance<ref name="Hedman-2007"/>{{Clarify|date=November 2012}} with Mimas; the ring's inner edge is about {{convert|15000|km|abbr=on}} inside Mimas's orbit.<ref name="spacegring"/>
+
+Mimas is also in a 2:1 [[Orbital resonance#Mean-motion resonances in the Solar System|mean-motion resonance]] with the larger moon [[Tethys (moon)|Tethys]], and in a 2:3 resonance with the outer [[F Ring]] [[Shepherd Moon|shepherd]] moonlet, [[Pandora (moon)|Pandora]]. A moon co-orbital with Mimas was reported by [[Stephen P. Synnott]] and [[Richard J. Terrile]] in 1982, but was never confirmed.<ref>{{Cite web|url=http://www.cbat.eps.harvard.edu/iauc/03600/03660.html|title = IAUC 3660: 1982 BB; Sats OF SATURN; P/SCHWASSMANN-WACHMANN 1}}</ref><ref>''[[Guinness Book of Astronomy]]'', [[Patrick Moore]], 
+[[Guinness Publishing]], second edition, 1983 pp 110, 112</ref>
+
+== Anomalous libration and subsurface ocean ==
+In 2014, researchers noted that the [[libration]]al motion of Mimas has a component that cannot be explained by its orbit alone, and concluded that it was due to either an interior that is not in [[hydrostatic equilibrium#Planetary geology|hydrostatic equilibrium]] (an elongated [[planetary core|core]]) or an [[internal ocean]].<ref name="Tajeddine-2014">{{cite journal|last1= Tajeddine|first1= R.|last2= Rambaux|first2= N.|last3= Lainey|first3= V.|last4= Charnoz|first4= S.|last5= Richard|first5= A.|last6= Rivoldini|first6= A.|last7= Noyelles|first7= B.|title= Constraints on Mimas' interior from Cassini ISS libration measurements |journal= Science|volume= 346|issue= 6207|date= 17 October 2014|pages= 322–324|doi= 10.1126/science.1255299|pmid= 25324382|bibcode = 2014Sci...346..322T |s2cid= 206558386}}</ref> However, in 2017 it was concluded that the presence of an ocean in Mimas's interior would have led to surface tidal stresses comparable to or greater than those on tectonically active [[Europa (moon)|Europa]]. Thus, the lack of evidence for surface cracking or other tectonic activity on Mimas argues against the presence of such an ocean; as the formation of a core would have also produced an ocean and thus the nonexistent tidal stresses, that possibility is also unlikely.<ref name="Rhoden-2017">{{cite journal|last1= Rhoden|first1=A. R.|last2= Henning|first2= W.|last3= Hurford|first3=T. A.|last4= Patthoff|first4=D. A.|last5= Tajeddine|first5= R.|title= The implications of tides on the Mimas ocean hypothesis|journal= Journal of Geophysical Research: Planets|volume=122|issue=2|pages=400–410|date= 24 February 2017|doi= 10.1002/2016JE005097|bibcode = 2017JGRE..122..400R |s2cid=132214182 }}</ref> The presence of an asymmetric mass anomaly associated with the crater Herschel was considered to be a more likely explanation for the libration.<ref name="Rhoden-2017" />
+
+In 2022, scientists at the [[Southwest Research Institute]] identified a tidal heating model for Mimas that produced an internal ocean without any surface cracking or visible tidal stresses. The presence of an internal ocean concealed by a stable icy shell between 24 and 31 km in thickness was found to match the visual and librational characteristics of Mimas as observed by ''Cassini''.<ref name="Chang-2022">{{cite news |last=Chang |first=Kenneth |title=An Ocean May Lurk Inside Saturn's 'Death Star' Moon - New research is converting some skeptics to the idea that tiny, icy Mimas may be full of liquid. |url=https://www.nytimes.com/2022/01/21/science/mimas-ocean-death-star.html |date=21 January 2022 |work=[[The New York Times]] |accessdate=22 January 2022 |archive-url=https://web.archive.org/web/20241117232306/https://www.nytimes.com/2022/01/21/science/mimas-ocean-death-star.html|archive-date=17 November 2024}}</ref> Continued measurements of Mimas's surface heat flux will be needed to confirm this hypothesis.<ref>{{cite press release |url=https://www.swri.org/press-release/swri-scientist-uncovers-evidence-internal-ocean-small-saturn-moon |title=SwRI scientist uncovers evidence for an internal ocean in small Saturn moon |work=[[Southwest Research Institute]] |date=19 January 2022 |access-date=20 January 2022|archive-url=https://web.archive.org/web/20240421043422/https://www.swri.org/press-release/swri-scientist-uncovers-evidence-internal-ocean-small-saturn-moon|archive-date=21 April 2024}}</ref>
+
+On 7 February 2024, researchers at the [[Paris Observatory]] announced the discovery that Mimas's orbit [[apsidal precession|apsidally precesses]] slower than predicted if it were a solid body, which further supports the existence of a subsurface ocean in Mimas. The researchers estimated the ocean to be located 20 to 30 km below the surface, consistent with previous estimates. The researchers suggest that Mimas's ocean must be very young, less than 25&nbsp;million years old, to explain the lack of geological activity on Mimas's cratered surface.<ref>{{Cite journal |last1=Lainey |first1=V. |last2=Rambaux |first2=N. |last3=Tobie |first3=G. |last4=Cooper |first4=N. |last5=Zhang |first5=Q. |last6=Noyelles |first6=B. |last7=Baillié |first7=K. |date=7 February 2024 |title=A recently formed ocean inside Saturn's moon Mimas |url=https://www.nature.com/articles/s41586-023-06975-9 |journal=Nature |language=en |volume=626 |issue=7998 |pages=280–282 |doi=10.1038/s41586-023-06975-9 |pmid=38326592 |bibcode=2024Natur.626..280L |s2cid=267546453 |issn=1476-4687}}</ref>
+
+== Exploration ==
+
+''[[Pioneer 11]]'' flew by Saturn in 1979, and its closest approach to Mimas was 104,263&nbsp;km on 1 September 1979.<ref>{{cite web | url = http://www.dmuller.net/spaceflight/mission.php?mission=pioneer11&appear=black&mtype=scet&showimg=yes&dispwide=no | title = Pioneer 11 Full Mission Timeline | publisher = Dmuller.net | access-date = 26 February 2012 | archive-url = https://web.archive.org/web/20120303151608/http://www.dmuller.net/spaceflight/mission.php?mission=pioneer11&appear=black&mtype=scet&showimg=yes&dispwide=no | archive-date = 3 March 2012 | url-status = dead }}</ref> ''[[Voyager 1]]'' flew by in 1980, and ''[[Voyager 2]]'' in 1981.
+
+Mimas was imaged several times by the [[Cassini–Huygens|''Cassini'' orbiter]], which entered into orbit around Saturn in 2004. A close flyby occurred on 13 February 2010, when ''Cassini'' passed by Mimas at {{convert|9500|km|mi|abbr=on}}.{{multiple image
+| header            = Mimas maps – June 2017
+| header_align      = center
+| caption_align     = center
+| align             = center
+| direction         = horizontal
+| image1            = PIA17215-Mimas-NorthPoleMap-SaturnMoon-June2017.jpg
+| alt1              = 
+| caption1          = North pole
+| image2            = Map of Mimas 2017-01 PIA17214.jpg
+| alt2              = 
+| caption2          = Global map
+| image3            = PIA17215-Mimas-SouthPoleMap-SaturnMoon-June2017.jpg
+| width3            = 200
+| alt3              = 
+| caption3          = South pole
+| total_width       = 700
+}}
+
+== Similarities in popular culture ==
+[[File:NASA Spacecraft Sees 'Pac-Man' on Saturn Moon (4474329146).jpg|thumb|A temperature map overlay of Mimas that looks like Pac-Man]]
+When seen from certain angles, Mimas resembles the [[Death Star]], a fictional [[space station]] and superweapon known from the 1977 film ''[[Star Wars (film)|Star Wars]]''. [[Herschel (Mimantean crater)|Herschel]] resembles the concave disc of the Death Star's "superlaser". This is a coincidence, as the film was made nearly three years before Mimas was resolved well enough to see the crater.<ref>{{cite web|url=https://www.newscientist.com/article.ns/?id=dn6999|title=Saturn's moon is Death Star's twin|date=11 February 2005|access-date=21 August 2008|publisher=[[New Scientist]]|first=Kelly|last=Young|quote=Saturn's diminutive moon, Mimas, poses as the Death Star&nbsp;– the planet-destroying space station from the movie Star Wars&nbsp;– in an image recently captured by NASA's Cassini spacecraft.|archive-date=11 November 2005|archive-url=https://web.archive.org/web/20051111025207/https://www.newscientist.com/article.ns/?id=dn6999|url-status=bot: unknown}}</ref>
+
+In 2010, NASA revealed a temperature map of Mimas, using images obtained by ''Cassini''. The warmest regions, which are along one edge of Mimas, create a shape similar to the video game character [[Pac-Man (character)|Pac-Man]], with Herschel Crater assuming the role of an "edible dot" or [[Pac-Man|"power pellet"]] known from Pac-Man gameplay.<ref>{{cite web | url = http://www.nasa.gov/mission_pages/cassini/whycassini/cassini20100329.html | title = 1980s Video Icon Glows on Saturn Moon|date=29 March 2010|access-date=2 April 2010|publisher=[[NASA]]|first=Jia-Rui C.|last=Cook |archive-url=https://web.archive.org/web/20250916132950/http://www.nasa.gov/mission_pages/cassini/whycassini/cassini20100329.html|archive-date=16 September 2025}}</ref><ref>{{cite web | url = http://www.nasa.gov/mission_pages/cassini/multimedia/pia12867.html | title = Bizarre Temperatures on Mimas|date=29 March 2010|access-date=2 April 2010|publisher=NASA |archive-url=https://web.archive.org/web/20241006011545/http://www.nasa.gov/mission_pages/cassini/multimedia/pia12867.html|archive-date=6 October 2024}}</ref><ref>{{cite web | url = https://www.telegraph.co.uk/science/space/7537170/Saturn-moon-resembles-Pac-Man-in-image-taken-by-Nasa-spacecraft.html | archive-url = https://web.archive.org/web/20100402005025/http://www.telegraph.co.uk/science/space/7537170/Saturn-moon-looks-like-Pac-Man-in-image-taken-by-Nasa-spacecraft.html | url-status = dead | archive-date = 2 April 2010 | title = Saturn moon looks like Pac-Man in image taken by Nasa spacecraft|date=30 March 2010|access-date=2 April 2010|publisher=[[The Daily Telegraph]] }}</ref>
+
+== See also ==
+* [[List of natural satellites]]
+* [[Saturn in fiction#Other_moons|Mimas in fiction]]
+* [[Extraterrestrial liquid water]]
+* [[Ocean world]]
+
+== References ==
+{{Reflist
+| colwidth = 30em
+| refs =
+
+<ref name="Harvey-2007">
+{{cite web
+| last = Harvey
+| first = Samantha
+| date = 11 April 2007
+| title = NASA: Solar System Exploration: Planets: Saturn: Moons: Mimas: Facts & Figures
+| publisher = NASA
+| url = http://solarsystem.nasa.gov/planets/profile.cfm?Object=Mimas&Display=Facts
+| access-date = 10 October 2007
+}}
+</ref>
+
+<ref name="CosmoVisions">{{cite web
+| title = Imago Mundi: La Découverte des satellites de Saturne
+| language = fr
+| url = http://www.cosmovisions.com/SaturneChrono02.htm
+| access-date = 12 September 2006
+| archive-date = 11 June 2020
+| archive-url = https://web.archive.org/web/20200611235835/http://www.cosmovisions.com/SaturneChrono02.htm
+| url-status = dead
+}}</ref>
+
+<ref name="ARVAL-2007">{{cite web
+| author = Observatorio ARVAL
+| title = Classic Satellites of the Solar System
+| publisher = Observatorio ARVAL
+| date = 15 April 2007
+| url = http://www.oarval.org/ClasSaten.htm
+| access-date = 17 December 2011
+| ref = {{sfnRef|Observatorio ARVAL}}
+| archive-url = https://web.archive.org/web/20110920010842/http://www.oarval.org/ClasSaten.htm
+| archive-date = 20 September 2011
+| url-status = dead
+}}</ref>
+
+<ref name="Verbiscer-2007">
+{{cite journal| doi = 10.1126/science.1134681| last1 = Verbiscer| first1 = A.| last2 = French| first2 = R.| last3 = Showalter| first3 = M.| last4 = Helfenstein| first4 = P.| title = Enceladus: Cosmic Graffiti Artist Caught in the Act| journal = Science| volume = 315| issue = 5813| page = 815| date = 9 February 2007| pmid = 17289992| bibcode = 2007Sci...315..815V| s2cid = 21932253| ref = {{sfnRef|Verbiscer French et al.|2007}}| url = https://www.science.org/doi/abs/10.1126/science.1134681| access-date = 20 December 2011| url-access = subscription}} (supporting online material, table S1)
+</ref>
+
+<ref name="Herschel-1790">{{cite journal| last=Herschel| first=W.| title=Account of the Discovery of a Sixth and Seventh Satellite of the Planet Saturn; With Remarks on the Construction of Its Ring, Its Atmosphere, Its Rotation on an Axis, and Its Spheroidical Figure| journal=Philosophical Transactions of the Royal Society of London<!-- not in NASA ADS -->| year=1790| volume=80| pages=11| doi=10.1098/rstl.1790.0001 | jstor=106823|bibcode=1790RSPT...80....1H | doi-access=free }}</ref>
+
+<ref name="spacegring">{{cite web
+|last1=Than
+|first1=Ker
+|url=https://www.space.com/4155-saturn-mysterious-ring-explained.html
+|title=Saturn's Mysterious G-ring Explained
+|year=2007
+|website=Space.com
+|access-date=January 20, 2026
+}}</ref>
+
+<ref name="Hedman-2007">{{cite journal|last1= Hedman|first1= M.|last2= Burns|first2= J.|last3= Tiscareno|first3= M.|last4= Porco|first4= C.|last5= Jones|first5= G.|last6= Roussos|first6= E.|last7= Krupp|first7= N.|last8= Paranicas|first8= C.|last9= Kempf|first9= S.|title= The Source of Saturn's G Ring|journal= Science|volume= 317|issue= 5838|date= 3 August 2007|pages= 653–656|doi= 10.1126/science.1143964|pmid= 17673659|bibcode= 2007Sci...317..653H|s2cid= 137345}}</ref>
+
+<ref name="Gyalay2024">{{Cite journal |last1=Gyalay |first1=S. |last2=Nimmo |first2=F. |last3=Downey |first3=B. G. |date=2024 |title=Effects of Transient Obliquity Tides Within Mimas' Warm, Icy Interior Preserved as a Frozen Fossil Figure |journal=Journal of Geophysical Research: Planets |language=en |volume=129 |issue=5 |article-number=e2023JE007903 |doi=10.1029/2023JE007903 |issn=2169-9100 |eissn=2169-9100 |bibcode=2024JGRE..12907903G |doi-access=free}}</ref>
+
+}} <!-- end of reflist -->
+
+== External links ==
+{{Commons}}
+{{Spoken Wikipedia|Mimas (moon).ogg|date=10 January 2010}}
+* [https://web.archive.org/web/20150905123839/http://saturn.jpl.nasa.gov/science/moons/mimas/ ''Cassini'' mission page&nbsp;– Mimas]
+* [https://web.archive.org/web/20070801204734/http://solarsystem.nasa.gov/planets/profile.cfm?Object=Sat_Mimas Mimas Profile] at [http://solarsystem.nasa.gov/ NASA's Solar System Exploration site]
+* [https://web.archive.org/web/20060927042133/http://www.planetary.org/explore/topics/our_solar_system/saturn/mimas.html The Planetary Society: Mimas]
+* [https://www.google.com/maps/space/mimas/@2.2166766,-120.6422896,11481535m/data=!3m1!1e3 Google Mimas 3D], interactive map of the moon
+* [http://www.nineplanets.org/mimas.html Mimas page at ''The Nine Planets'']
+* [http://www.solarviews.com/eng/mimas.htm Views of the Solar System&nbsp;– Mimas]
+* [http://ciclops.org/search.php?search=Mimas ''Cassini'' images of Mimas] {{Webarchive|url=https://web.archive.org/web/20110725173049/http://ciclops.org/search.php?search=Mimas |date=25 July 2011 }}
+* [http://photojournal.jpl.nasa.gov/target/Mimas Images of Mimas at JPL's Planetary Photojournal]
+* [https://3d-asteroids.space/moons/S1-Mimas 3D shape model of Mimas] (requires WebGL)
+* [https://stereomoons.blogspot.com/2010/02/mimas-rising.html Paul Schenk's Mimas blog entry] and movie of [https://www.youtube.com/watch?v=CwWBZFIBkr0 Mimas's rotation] on [[YouTube]]
+* Mimas [http://www.ciclops.org/view/7311/Map_of_Mimas_-_June_2012 global] and [http://www.ciclops.org/view/7312/Mimas_Polar_Maps_-_June_2012 polar] basemaps (June 2012) from ''Cassini'' images
+* [http://www.ciclops.org/view.php?id=6467 Mimas atlas (July 2010) from ''Cassini'' images]
+* [https://planetarynames.wr.usgs.gov/Page/MIMAS/target Mimas nomenclature] and [https://planetarynames.wr.usgs.gov/images/mimas_comp.pdf Mimas map with feature names] from the [https://planetarynames.wr.usgs.gov/ USGS planetary nomenclature page]
+* [https://lh5.googleusercontent.com/-nvePMCOxbew/TXqwuSFdvzI/AAAAAAAAAUw/CNhsEQXwSDU/postercorrect.jpg Figure "J" is Mimas transiting Saturn in 1979, imaged by ''Pioneer 11''] [https://planetimages.blogspot.com/2011/03/wanted-in-digital-formatand-my-2011.html from here]
+
+{{Moons of Saturn|state=uncollapsed}}
+{{Saturn}}{{Solar System}}{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar System}}
+{{Authority control}}
+
+[[Category:Mimas| ]]
+[[Category:Astronomical objects discovered in 1789|17890917]]
+[[Category:Discoveries by William Herschel]]
+[[Category:Moons with a prograde orbit]]

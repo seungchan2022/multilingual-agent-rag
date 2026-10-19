@@ -1,0 +1,1032 @@
+{{short description|Nearest star to the Solar System}}
+{{about|the star}}
+{{Featured article}}
+{{Use dmy dates|date=December 2020}}
+{{Use Oxford spelling|date=August 2016}}
+{{Starbox begin}}
+{{Starbox image
+ | image = [[File:New shot of Proxima Centauri, our nearest neighbour.jpg|260px]]
+ | caption = [[False color]] [[Hubble Space Telescope]] [[WFPC2]] image taken in 2013. The bright lines are [[diffraction spikes]].
+ }}
+{{Starbox observe
+ | epoch = [[J2000.0]]
+ | equinox = [[J2000.0]] ([[International Celestial Reference System|ICRS]])
+ | constell = [[Centaurus]]
+ | other names = Centauri C, Alpha Centauri C, Nearest Star
+ | pronounce = {{IPAc-en|ˌ|p|r|ɒ|k|s|ə|m|ə|_|s|ɛ|n|ˈ|t|ɔːr|i}} or<br/>{{IPAc-en|ˈ|p|r|ɒ|k|s|ɪ|m|ə|_|s|ɛ|n|ˈ|t|ɔːr|aɪ}}<ref name=collinsdictionary>{{cite web
+ |url=https://www.collinsdictionary.com/dictionary/english/proxima-centauri |title=Collins English Dictionary |publisher=HarperCollins Publishers |access-date=30 September 2020}}</ref>
+ | ra = {{RA|14|29|42.946}}<ref name="Gaia3"/>
+ | dec = {{DEC|−62|40|46.16}}<ref name="Gaia3"/>
+ | appmag_v = 10.43 – 11.11<ref name=Samus_et_al_2017/>
+ }}
+{{Starbox character
+ | type = [[Main sequence]]
+ | class = M5.5Ve<ref name=bessell>{{cite journal |bibcode=1991AJ....101..662B |title=The late-M dwarfs |journal=The Astronomical Journal |volume=101 |page=662 |last1=Bessell |first1=M. S. |year=1991 |doi=10.1086/115714|doi-access=free }}</ref>
+<!-- | r-i = 2.04
+ | v-r = 1.68
+ | b-v = 1.82
+ | u-b = 1.26
+ | j-h = 0.522
+ | j-k = 0.973-->
+ | variable = [[Flare star|UV Cet]] + [[BY Draconis variable|BY Dra]]<ref name=Samus_et_al_2017>{{cite journal | title=General catalogue of variable stars | version=GCVS 5.1 | last1=Samus' | first1=N. N | last2=Kazarovets | first2=E. V | last3=Durlevich | first3=O. V | last4=Kireeva | first4=N. N | last5=Pastukhova | first5=E. N | journal=Astronomy Reports | volume=61 | issue=1 | page=80 | year=2017 | bibcode=2017ARep...61...80S | s2cid=125853869 | doi=10.1134/S1063772917010085 }}</ref>
+ }}
+{{Starbox astrometry
+ | radial_v = {{val|−22.204|0.032}}<ref name="KervellaThévenin2017">{{cite journal |last1=Kervella |first1=P. |last2=Thévenin |first2=F. |last3=Lovis |first3=C. |title=Proxima's orbit around α Centauri |journal=Astronomy & Astrophysics |volume=598 |year=2017 |pages=L7 |issn=0004-6361 |doi=10.1051/0004-6361/201629930  |doi-access=free|arxiv=1611.03495 |bibcode=2017A&A...598L...7K|s2cid=50867264 }} Separation: 3.1, left column of page 3; Orbital period and epoch of periastron: Table 3, right column of page 3.</ref>
+ | prop_mo_ra = −3781.741
+ | prop_mo_dec = 769.465
+ | pm_footnote = <ref name="Gaia3"/>
+ | parallax = 768.0665
+ | p_error = 0.0499
+ | parallax_footnote = <ref name="Gaia3">{{cite Gaia DR3|5853498713190525696}}</ref>
+ | absmag_v = 15.60<ref name="apj118"/>
+ }}
+{{Starbox orbit
+ | reference = <ref name="KervellaThévenin2017"/>
+ | primary = Alpha Centauri AB
+ | name = Proxima Centauri
+ | period = {{val|547000|6600|4000|fmt=commas}}
+ | axis_unitless = {{val|8700|700|400|ul=AU|fmt=commas}}
+ | eccentricity = {{val|0.50|0.08|0.09}}
+ | inclination = {{val|107.6|1.8|2.0}}
+ | node = {{val|126|5}}
+ | periastron = {{val|+283|59|41}}
+ | periarg = {{val|72.3|8.7|6.6}}
+ }}
+{{Starbox detail
+ | mass = {{val|0.1221|0.0022}}<ref name="KervellaThévenin2017"/>
+ | radius = {{val|0.1542|0.0045}}<ref name="KervellaThévenin2017"/>
+ | luminosity_bolometric = 0.001567{{±|0.000020}}<ref name="Pineda2021"/>
+ | luminosity_visual = 0.00005<ref group=nb>From knowing the absolute visual magnitude of Proxima Centauri, <math>M_{V_\ast} = 15.6</math>, and the absolute visual magnitude of the Sun, <math>M_{V_\odot} = 4.83</math>, the visual luminosity of Proxima Centauri can therefore be calculated: <math>L_{V_\ast}/L_{V_\odot} = 10^{0.4\left(M_{V_\odot} - M_{V_\ast}\right)} = 4.92\times10^{-5}.</math></ref>
+ | habitable_inner = {{val|0.03731|0.0075|ul=au}}<ref name="SuárezMascareño2025"/>
+ | habitable_outer = {{val|0.088|0.017|ul=au}}<ref name="SuárezMascareño2025"/>
+ | gravity = {{val|5.20|0.23}}<ref name="aaa397"/>
+ | temperature = {{val|2992|49|47|fmt=commas}}<ref name="Pineda2021"/>
+ | metal = <!-- generally, but not by everyone, assumed to be the same as Alpha Cen A/B -->
+ | metal_fe = 0.21<ref name="aaa519_A105"/>{{#tag:ref|If Proxima Centauri was a later capture into the Alpha Centauri star system then its metallicity and age could be quite different to that of Alpha Centauri A and B. Through comparing Proxima Centauri to other similar stars it was estimated that it had a lower metallicity, ranging from less than a third, to about the same, of the Sun's.<ref name="PasseggerWende-von Berg2016"/><ref name="FengJones2018"/>|group="nb"|name="alternate estimated metallicities"}}
+ | rotation = {{val|84.9|0.6}}<ref name=Osorio2026/> days
+ | rotational_velocity = &lt;&nbsp;0.1<ref name="Collins2016">{{cite journal |title=Calculations of periodicity from Hα profiles of Proxima Centauri |journal=Astronomy & Astrophysics |first1=John M. |last1=Collins |first2=Hugh R. A. |last2=Jones |first3=John R. |last3=Barnes |volume=602 |at=A48 |date=June 2017 |doi=10.1051/0004-6361/201628827  |doi-access=free|bibcode=2017A&A...602A..48C |arxiv=1608.07834|s2cid=18949162 }} See section 4: "the vsini is probably less than 0.1 km/s for Proxima Centauri".</ref>
+ | age_gyr = 4.85<ref name="ESO2003"/>
+ }}
+{{Starbox catalog
+ | names = {{odlist | name=Alf Cen C | B=Alpha Centauri C | CCDM=J14396-6050C | GCTP=3278.00 | GJ=551 | HIP=70890 | LFT=1110 | LHS=49 | LPM=526 | LTT=5721 | NLTT=37460 | V=V645 Centauri }}<ref name="SIMBAD">{{cite simbad |title=Proxima centauri | access-date=2022-04-28}}—some of the data is located under "Measurements".</ref>
+ }}
+{{Starbox reference
+ | Simbad = V645+Cen
+ | NSTED = GJ-551
+ | ARICNS = 01140
+ }}
+{{Starbox end}}
+
+'''Proxima Centauri''' is the nearest star to Earth after the [[Sun]], located 4.25 [[light-year]]s (1.3 [[parsec]]s) away in the southern [[constellation]] of [[Centaurus]]. Discovered in 1915 by [[Robert T. A. Innes|Robert Innes]], it is a small, low-mass [[star]], too faint to be seen with the [[naked eye]], with an [[apparent magnitude]] of 11.13. Proxima Centauri is a member of the [[Alpha Centauri]] [[star system]], being identified as component '''Alpha Centauri&nbsp;C''', and is 2.18° southwest of the Alpha Centauri&nbsp;AB pair. It is currently {{convert|12950|AU|ly|1|abbr=unit|lk=on}} from AB, which it orbits with a [[orbital period|period]] of about 550,000&nbsp;years. Its [[Latin language|Latin]] name means the 'nearest [star] of Centaurus'.
+
+Proxima Centauri is a [[red dwarf]] star with a mass about 12.5% of the Sun's mass ({{Solar mass|link=y}}), and average [[density]] about 33&nbsp;times that of the Sun. Because of Proxima Centauri's proximity to [[Earth]], its [[angular diameter]] can be measured directly. Its actual diameter is about one-seventh (15%) the diameter of the Sun. Although it has a very low average [[luminosity]], Proxima Centauri is a [[flare star]] that randomly undergoes dramatic increases in brightness because of [[magnetic activity]]. The star's [[magnetic field]] is created by [[convection]] throughout the stellar body, and the resulting flare activity generates a total [[X-ray]] emission similar to that produced by the Sun. The internal mixing of its fuel by convection through its core and Proxima's relatively low energy-production rate, mean that it will be a [[main-sequence star]] for another four trillion years.
+
+Proxima Centauri has two known [[exoplanet]]s and one candidate exoplanet: [[Proxima Centauri b|Proxima Centauri&nbsp;b]], [[Proxima Centauri d|Proxima Centauri&nbsp;d]] and the disputed [[Proxima Centauri c|Proxima Centauri&nbsp;c]].<ref group="nb">Extrasolar planet names are designated following the [[Astronomical naming conventions#Exoplanets|International Astronomical Union's naming conventions]] in alphabetical order according to their respective dates of discovery, with 'Proxima Centauri a' being the star itself.</ref> Proxima Centauri&nbsp;b orbits the star at a distance of roughly {{convert|0.05|AU|e6km|abbr=unit}} with an orbital period of approximately 11.2 Earth days. Its estimated mass is at least 1.06&nbsp;times that of Earth.<ref name="SuárezMascareño2025"/> Proxima&nbsp;b orbits within Proxima Centauri's [[habitable zone]]—the range where temperatures are right for liquid water to exist on its surface—but, because Proxima Centauri is a red dwarf and a flare star, the planet's [[Habitability of red dwarf systems|habitability]] is highly uncertain. A [[sub-Earth]], [[Proxima Centauri d|Proxima Centauri&nbsp;d]], roughly {{convert|0.028|AU|e6km|abbr=unit}} away, orbits it every 5.1 days.<ref name="SuárezMascareño2025"/> A candidate [[sub-Neptune]], [[Proxima Centauri c|Proxima Centauri&nbsp;c]], roughly {{convert|1.5|AU|e6km|abbr=unit}} away from Proxima Centauri, orbits it every {{convert|1900|days|years|abbr=unit}}.<ref name="Damasso2020"/><ref name="BenedictMcArthur2020"/>
+
+==General characteristics==
+[[File:ProxCenLightCurve.png|thumb|right|Three [[Photometric system#Photometric letters|visual band]] [[light curves]] for Proxima Centauri are shown, illustrating the variability of Proxima. Plot A shows a superflare which dramatically increased the star's brightness for a few minutes. Plot B shows the relative brightness variation over the course of the star's 83 day rotation period. Plot C shows variation over a 6.8 year period, which may be the length of the star's magnetic activity period. Adapted from Howard ''et al.'' (2018)<ref name=howard/> and Mascareño ''et al.'' (2016)<ref name="Masc2016"/>]]
+Proxima Centauri is a [[red dwarf]], because it belongs to the [[main sequence]] on the [[Hertzsprung–Russell diagram]] and is of [[Stellar classification|spectral class M5.5]]. The M5.5 class means that it falls in the low-mass end of M-type [[dwarf star]]s,<ref name="ESO2003">{{cite news | last1=Kervella | first1=Pierre | last2=Thevenin | first2=Frederic |title=A family portrait of the Alpha Centauri system: VLT interferometer studies the nearest stars |publisher=European Southern Observatory |date=March 15, 2003 |url=https://www.eso.org/public/news/eso0307/ |access-date=May 10, 2016}}</ref> with its hue shifted toward red-yellow<ref>{{cite book | title=Future Spacecraft Propulsion Systems: Enabling Technologies for Space Exploration | first1=Paul A. | last1=Czysz | first2=Claudio | last2=Bruno | date=2009 | page=36 | publisher=Springer Berlin Heidelberg | isbn=978-3-540-88814-7 | url=https://books.google.com/books?id=aI9QhDA4AVwC&pg=PA376 }}</ref> by an [[effective temperature]] of {{val|3000|u=K|fmt=commas|p=~}}.<ref name="aaa397"/> Its [[absolute visual magnitude]], or its visual magnitude as viewed from a distance of {{convert|10|pc|ly|0|abbr=out}}, is 15.5.<ref name="abs_mag">{{cite journal |last1=Kamper |first1=K. W. | last2=Wesselink | first2=A. J. |title=Alpha and Proxima Centauri |journal=Astronomical Journal |date=1978 |volume=83 |pages=1653–1659 |doi=10.1086/112378 |bibcode=1978AJ.....83.1653K|doi-access=free }}</ref> Its total luminosity over all [[wavelength]]s is only 0.16% that of the Sun,<ref name="Pineda2021">{{cite journal
+ | title=The M-dwarf Ultraviolet Spectroscopic Sample. I. Determining Stellar Parameters for Field Stars
+ | last1=Pineda | first1=J. Sebastian | last2=Youngblood | first2=Allison
+ | last3=France | first3=Kevin 
+ | journal=The Astrophysical Journal
+ | volume=918 | issue=1 | id=40 | page=23 | date=September 2021
+ | doi=10.3847/1538-4357/ac0aea | arxiv=2106.07656
+ | bibcode=2021ApJ...918...40P | s2cid=235435757 | doi-access=free }}</ref> although when observed in the wavelengths of [[visible light]] to which the eye is most sensitive, it is only 0.0056% as luminous as the Sun.<ref>{{cite book | last1=Binney | first1=James | first2=Scott | last2=Tremaine |title=Galactic dynamics |publisher=Princeton University Press |location=Princeton, New Jersey |date=1987 |isbn=978-0-691-08445-9 |page=8}}</ref> More than 85% of its radiated power is at [[infrared]] wavelengths.<ref>{{cite journal |last=Leggett |first=S. K. |title=Infrared colors of low-mass stars |journal=Astrophysical Journal Supplement Series |date=1992 |volume=82 |issue=1 |pages=351–394, 357 |doi=10.1086/191720 |bibcode=1992ApJS...82..351L}}</ref>
+
+In 2002, [[optical interferometry]] with the [[Very Large Telescope]] (VLTI) found that the [[angular diameter]] of Proxima Centauri is {{val|1.02|0.08|ul=mas}}. Because its distance is known, the actual diameter of Proxima Centauri can be calculated to be about 1/7 that of the Sun, or 1.5 times that of [[Jupiter]]. The star's mass, estimated from stellar theory, is {{Solar mass|12.2%|link=y}}, or 129 [[Jupiter mass]]es ({{Jupiter mass}}).<ref>{{cite web |title=How Small are Small Stars Really? |first=Didier |last=Queloz |date=November 29, 2002 |publisher=European Southern Observatory |url=https://www.eso.org/public/news/eso0232/ |access-date=September 5, 2016}}</ref> The mass has been calculated directly, although with less precision, from observations of [[microlensing]] events to be {{val|0.150|0.062|0.051|u=solar mass}}.<ref name=zurlo>{{cite journal |doi=10.1093/mnras/sty1805 |bibcode=2018MNRAS.480..236Z |title=The gravitational mass of Proxima Centauri measured with SPHERE from a microlensing event |journal=Monthly Notices of the Royal Astronomical Society |volume=480 |issue=1 |page=236 |last1=Zurlo |first1=A. |last2=Gratton |first2=R. |last3=Mesa |first3=D. |last4=Desidera |first4=S. |last5=Enia |first5=A. |last6=Sahu |first6=K. |last7=Almenara |first7=J. -M. |last8=Kervella |first8=P. |last9=Avenhaus |first9=H.|last10=Girard|first10=J. |last11=Janson |first11=M. |last12=Lagadec |first12=E. |last13=Langlois |first13=M. |last14=Milli |first14=J. |last15=Perrot |first15=C. |last16=Schlieder |first16=J. -E. |last17=Thalmann |first17=C. |last18=Vigan |first18=A. |last19=Giro |first19=E.|last20=Gluck|first20=L. |last21=Ramos |first21=J. |last22=Roux |first22=A. |year=2018 |doi-access=free |arxiv=1807.01318|s2cid=118971274 }}</ref>
+
+Lower mass main-sequence stars have higher mean [[density]] than higher mass ones,<ref>{{cite book |first=Martin V. |last=Zombeck |date=2007 |title=Handbook of space astronomy and astrophysics |url=https://archive.org/details/handbookspaceast00zomb_781 |url-access=limited |publisher=Cambridge University Press |edition=Third |pages=[https://archive.org/details/handbookspaceast00zomb_781/page/n122 109] |location=Cambridge, UK |isbn=978-0-521-78242-5}}</ref> and Proxima Centauri is no exception: it has a mean density of {{cvt|47.1e3|kg/m3|g/cm3}}, compared with the Sun's mean density of {{cvt|1.411e3|kg/m3|g/cm3}}.<ref group="nb" name="density">The density (''ρ'') is given by the mass divided by the volume. Relative to the Sun, therefore, the density is <math>\rho = \frac{M}{M_\odot} \cdot \left( \frac{R}{R_\odot} \right)^{-3} \cdot \rho_\odot</math> = {{nobr|0.122 · 0.154<sup>−3</sup> · (1.41{{E-sp|3}}&nbsp;kg/m<sup>3</sup>)}} = {{nobr|33.4 · (1.41{{E-sp|3}}&nbsp;kg/m<sup>3</sup>)}} = 4.71{{E-sp|4}}&nbsp;kg/m<sup>3</sup>, where {{solar density}} is the average solar density. See:
+* {{cite web | last1=Munsell | first1=Kirk | last2=Smith | first2=Harman | last3=Davis | first3=Phil | last4=Harvey | first4=Samantha |date=June 11, 2008 |url=http://solarsystem.nasa.gov/planets/profile.cfm?Object=Sun&Display=Facts&System=Metric |title=Sun: facts & figures |work=Solar system exploration |publisher=NASA |access-date=July 12, 2008 |archive-url=https://web.archive.org/web/20080102034758/http://solarsystem.nasa.gov/planets/profile.cfm?Object=Sun&Display=Facts&System=Metric |archive-date=January 2, 2008}}
+* {{cite book |last1=Bergman |first1=Marcel W. |last2=Clark |first2=T. Alan |last3=Wilson |first3=William J. F. |date=2007 |pages=220–221 |title=Observing projects using Starry Night Enthusiast |edition=8th |publisher=Macmillan |isbn=978-1-4292-0074-5}}</ref> The measured [[surface gravity]] of Proxima Centauri, given as the [[Base 10 logarithm|base-10 logarithm]] of the [[Gravitational acceleration|acceleration]] in [[cgs unit|units of cgs]], is 5.20.<ref name="aaa397"/> This is 162 times the [[Standard gravity|surface gravity]] on Earth.<ref group="nb" name="gravity">The standard surface gravity on the Earth is {{val|980.665|u=cm/s<sup>2</sup>}}, for a "log&nbsp;''g''" value of 2.992. The difference in logarithms is 5.20 − 2.99 = 2.21, yielding a multiplier of 10<sup>2.21</sup> = 162. For the Earth's gravity, see: {{cite book | page=29 | url=https://physics.nist.gov/cuu/pdf/sp330.pdf | title=The International System of Units (SI) | editor-first=Barry N. | editor-last=Taylor | year=2001 | publisher=United States Department of Commerce: National Institute of Standards and Technology | access-date=2012-03-08 }}</ref>
+
+A 1998 study of [[photometry (astronomy)|photometric]] variations indicated that Proxima Centauri completes a full rotation once every 83.5 days.<ref name=McArthur1998>{{cite journal | last1=Benedict | first1=G. F. |title=Photometry of Proxima Centauri and Barnard's Star using Hubble Space Telescope fine guidance sensor 3: a search for periodic variations |journal=The Astronomical Journal |date=1998 |volume=116 |issue=1 |pages=429–439 |doi=10.1086/300420 |bibcode=1998AJ....116..429B |arxiv=astro-ph/9806276 | last2=McArthur | first2=B. |last3=Nelan |first3=E. |last4=Story |first4=D. |last5=Whipple |first5=A. L. |last6=Shelus |first6=P. J. |last7=Jefferys |first7=W. H. |last8=Hemenway |first8=P. D. |last9=Franz |first9=Otto G.|s2cid=15880053 }}</ref> A subsequent [[time series]] analysis of [[Chromosphere|chromospheric]] indicators in 2002 suggested a longer rotation period of {{val|116.6|0.7}}&nbsp;days.<ref>{{cite journal |title=Rotation periods of late-type dwarf stars from time series high-resolution spectroscopy of chromospheric indicators |last1=Suárez Mascareño |first1=A. |last2=Rebolo |first2=R. |last3=González Hernández |first3=J. I. |last4=Esposito |first4=M. |journal=Monthly Notices of the Royal Astronomical Society |volume=452 |issue=3 |pages=2745–2756 |date=September 2015 |doi=10.1093/mnras/stv1441 |doi-access=free |bibcode=2015MNRAS.452.2745S |arxiv=1506.08039|s2cid=119181646 }}</ref> Later observations of the star's magnetic field subsequently revealed that the star rotates with a period of {{val|89.8|4}}&nbsp;days,<ref name="Klein2020"/> consistent with a measurement of {{val|92.1|4.2|3.5}}&nbsp;days from radial velocity observations;<ref name="ArtigauCadieux2022"/> the most recent estimate as of 2026 is {{val|84.9|0.6}}&nbsp;days.<ref name=Osorio2026/> It is thought to rotate at an [[inclination]] of {{val|47|7|u=deg}} to the line of sight.<ref name="SuárezMascareño2025"/>
+
+== Structure and fusion ==
+Because of its low mass, the interior of the star is completely [[Convection zone|convective]],<ref name=Yadav2016/> causing energy to be transferred to the exterior by the physical movement of plasma rather than through [[Radiation zone|radiative processes]]. This convection means that the helium ash left over from the [[thermonuclear fusion]] of hydrogen does not accumulate at the core but is instead circulated throughout the star. Unlike the Sun, which will only burn through about 10% of its total hydrogen supply before leaving the main sequence, Proxima Centauri will consume nearly all of its fuel before the fusion of hydrogen comes to an end.<ref name="adams">{{cite conference |last1=Adams |first1=Fred C. |last2=Laughlin |first2=Gregory |last3=Graves |first3=Genevieve J. M. |title=Red dwarfs and the end of the main sequence |url=http://www.astroscu.unam.mx/rmaa/RMxAC..22/PDF/RMxAC..22_adams.pdf |publisher=[[Revista Mexicana de Astronomía y Astrofísica]] |pages=46–49 |access-date=June 24, 2008 |work=Gravitational collapse: from massive stars to planets |archive-date=11 July 2019 |archive-url=https://web.archive.org/web/20190711072446/http://www.astroscu.unam.mx/rmaa/RMxAC..22/PDF/RMxAC..22_adams.pdf |author-link=Fred Adams|author-link2=Gregory P. Laughlin}}</ref>
+
+Convection is associated with the generation and persistence of a [[Stellar magnetic field|magnetic field]]. The magnetic energy from this field is released at the surface through [[stellar flare]]s that briefly (as short as per ten seconds)<ref name=MacGregor_et_al_2021>{{cite journal |arxiv=2104.09519 |last1=MacGregor |first1=Meredith A. |last2=Weinberger |first2=Alycia J. |last3=Parke Loyd |first3=R. O. |last4=Shkolnik |first4=Evgenya |last5=Barclay |first5=Thomas |last6=Howard |first6=Ward S. |last7=Zic |first7=Andrew |last8=Osten |first8=Rachel A. |last9=Cranmer |first9=Steven R. |last10=Kowalski |first10=Adam F. |last11=Lenc |first11=Emil |last12=Youngblood |first12=Allison |last13=Estes |first13=Anna |last14=Wilner |first14=David J. |last15=Forbrich |first15=Jan |last16=Hughes |first16=Anna |last17=Law |first17=Nicholas M. |last18=Murphy |first18=Tara |last19=Boley |first19=Aaron |last20=Matthews |first20=Jaymie |title=Discovery of an Extremely Short Duration Flare from Proxima Centauri Using Millimeter through Far-ultraviolet Observations |journal=The Astrophysical Journal Letters |year=2021 |volume=911 |issue=2 |pages=L25 |doi=10.3847/2041-8213/abf14c |bibcode=2021ApJ...911L..25M |s2cid=233307258 |doi-access=free }}</ref> increase the overall luminosity of the star. On 6 May 2019, a flare event bordering [[Solar flare#Soft X-ray classification|Solar M and X flare class]],<ref>{{citation|arxiv=2209.05490|year=2022|title=The Mouse That Squeaked: A Small Flare from Proxima Cen Observed in the Millimeter, Optical, and Soft X-Ray with Chandra and ALMA|doi=10.3847/1538-4357/ac9134 |last1=Howard |first1=Ward S. |last2=MacGregor |first2=Meredith A. |last3=Osten |first3=Rachel |last4=Forbrich |first4=Jan |last5=Cranmer |first5=Steven R. |last6=Tristan |first6=Isaiah |last7=Weinberger |first7=Alycia J. |last8=Youngblood |first8=Allison |last9=Barclay |first9=Thomas |last10=Parke Loyd |first10=R. O. |last11=Shkolnik |first11=Evgenya L. |last12=Zic |first12=Andrew |last13=Wilner |first13=David J. |journal=The Astrophysical Journal |volume=938 |issue=2 |page=103 |bibcode=2022ApJ...938..103H |s2cid=252211788 |doi-access=free }}</ref> briefly became the brightest ever detected, with a far ultraviolet emission of {{val|2|e=30|u=erg}}.<ref name=MacGregor_et_al_2021/> These flares can grow as large as the star and reach temperatures measured as high as 27&nbsp;million [[Kelvin|K]]<ref name=aaa416>{{cite journal |last1=Guedel |first1=M. | last2=Audard | first2=M. | last3=Reale | first3=F. | last4=Skinner | first4=S. L. | last5=Linsky | first5=J. L. |title=Flares from small to large: X-ray spectroscopy of Proxima Centauri with XMM-Newton |journal=Astronomy and Astrophysics |date=2004 |volume=416 |issue=2 |pages=713–732 |arxiv=astro-ph/0312297 |doi=10.1051/0004-6361:20031471  |doi-access=free|bibcode=2004A&A...416..713G|s2cid=7725125 }}</ref>—hot enough to radiate [[X-ray]]s.<ref>{{cite web |url=http://chandra.harvard.edu/photo/2004/proxima/ |title=Proxima Centauri: the nearest star to the Sun |publisher=Harvard-Smithsonian Center for Astrophysics |date=August 30, 2006 |access-date=July 9, 2007}}</ref> Proxima Centauri's quiescent X-ray luminosity, approximately (4–16){{E-sp|26}}&nbsp;[[Erg (unit)|erg]]/s ((4–16){{E-sp|19}}&nbsp;[[watt|W]]), is roughly equal to that of the much larger Sun. The peak X-ray luminosity of the largest flares can reach {{10^|28}}&nbsp;erg/s ({{10^|21}}&nbsp;W).<ref name=aaa416/>
+
+Proxima Centauri's [[chromosphere]] is active, and its [[stellar spectrum|spectrum]] displays a strong [[Spectral line|emission line]] of singly ionized [[magnesium]] at a wavelength of 280&nbsp;[[Nanometre|nm]].<ref>{{cite journal |first1=Guinan |last1=E. F. |last2=Morgan |first2=N. D. |title=Proxima Centauri: rotation, chromospheric activity, and flares |journal=Bulletin of the American Astronomical Society |date=1996 |volume=28 |page=942 |bibcode=1996AAS...188.7105G}}</ref> About 88% of the surface of Proxima Centauri may be active, a percentage that is much higher than that of the Sun even at the peak of the [[solar cycle]]. Even during quiescent periods with few or no flares, this activity increases the [[stellar corona|corona]] temperature of Proxima Centauri to 3.5&nbsp;million K, compared to the 2&nbsp;million K of the Sun's corona,<ref>{{cite journal | last1=Wargelin | first1=Bradford J. | last2=Drake | first2=Jeremy J. |title=Stringent X-ray constraints on mass loss from Proxima Centauri |journal=The Astrophysical Journal |date=2002 |volume=578 |issue=1 |pages=503–514 |doi=10.1086/342270 |bibcode=2002ApJ...578..503W|doi-access=free }}</ref> and its total X-ray emission is comparable to the sun's.<ref name=apj547/> Proxima Centauri's overall activity level is considered low compared to other red dwarfs,<ref name=apj547>{{cite journal | last1=Wood | first1=B. E. | last2=Linsky | first2=J. L. | last3=Müller | first3=H.-R. | last4=Zank | first4=G. P. |title=Observational estimates for the mass-loss rates of α Centauri and Proxima Centauri using Hubble Space Telescope Lyα spectra |journal=The Astrophysical Journal |date=2001 |volume=547 |issue=1 |pages=L49–L52 |doi=10.1086/318888 |bibcode=2001ApJ...547L..49W |arxiv=astro-ph/0011153|s2cid=118537213 }}</ref> which is consistent with the star's estimated age of 4.85{{E-sp|9}}&nbsp;years,<ref name="ESO2003"/> since the activity level of a red dwarf is expected to steadily wane over billions of years as its [[stellar rotation]] rate decreases.<ref>{{cite journal |last1=Stauffer |first1=J. R. | last2=Hartmann | first2=L. W. |title=Chromospheric activity, kinematics, and metallicities of nearby M dwarfs |journal=Astrophysical Journal Supplement Series |date=1986 |volume=61 |issue=2 |pages=531–568 |bibcode=1986ApJS...61..531S |doi=10.1086/191123|doi-access=free }}</ref> The activity level appears to vary<ref>{{Cite news |last=Pulliam |first=Christine |url=http://insider.si.edu/2016/10/proxima-centauri-might-sunlike-thought/ |title=Proxima Centauri Might Be More Sunlike Than We Thought |date=12 October 2016 |work=Smithsonian Insider |access-date=7 July 2020}}</ref> with a period of roughly 442 days, which is shorter than the Sun's solar cycle of 11 years.<ref>{{cite journal | last1=Cincunegui | first1=C. | last2=Díaz | first2=R. F. | last3=Mauas | first3=P. J. D. |title=A possible activity cycle in Proxima Centauri |journal=Astronomy and Astrophysics |date=2007 |volume=461 |issue=3 |pages=1107–1113 |doi=10.1051/0004-6361:20066027  |doi-access=free|bibcode=2007A&A...461.1107C |arxiv=astro-ph/0703514|s2cid=14672316 }}</ref>
+
+Proxima Centauri has a relatively weak [[stellar wind]], no more than 20% of the mass-loss rate of the [[solar wind]]. Because the star is much smaller than the Sun, the mass loss per unit surface area from Proxima Centauri may be eight times that from the Sun's surface.<ref>{{cite journal |last1=Wood |first1=B. E. | last2=Linsky | first2=J. L. | last3=Muller | first3=H.-R. | last4=Zank | first4=G. P. |title=Observational estimates for the mass-loss rates of Alpha Centauri and Proxima Centauri using Hubble Space Telescope Lyman-alpha spectra |journal=Astrophysical Journal |date=2000 |volume=537 |issue=2 |pages=L49–L52 |arxiv=astro-ph/0011153 |doi=10.1086/309026 |bibcode=2000ApJ...537..304W|s2cid=119332314 }}</ref>
+
+== Life phases ==
+[[File:Alpha, Beta and Proxima Centauri (1).jpg|left|thumb|upright=1.4|[[Alpha Centauri]] A and B are the bright apparent star to the left, which are in a triple star system with Proxima Centauri, circled in red. The bright star system to the right is the unrelated [[Beta Centauri]].]]
+A red dwarf with the mass of Proxima Centauri will remain on the main sequence for about four trillion years. As the proportion of helium increases because of hydrogen fusion, the star will become smaller and hotter, gradually transforming into a so-called [[Blue dwarf (red-dwarf stage)|"blue dwarf"]]. Near the end of this period it will become significantly more luminous, reaching 2.5% of the Sun's luminosity ({{Solar luminosity|link=y}}) and warming any orbiting bodies for a period of several billion years. When the hydrogen fuel is exhausted, Proxima Centauri will then evolve into a helium [[white dwarf]] (without passing through the [[red giant]] phase) and steadily lose any remaining heat energy.<ref name="adams"/><ref>{{cite journal |last1=Adams |first1=Fred C. |last2=Laughlin |first2=Gregory |name-list-style=amp |year=1997 |title=A Dying Universe: The Long Term Fate and Evolution of Astrophysical Objects |journal=Reviews of Modern Physics |volume=69 |issue=2 |pages=337–372 |arxiv=astro-ph/9701131 |bibcode=1997RvMP...69..337A |doi=10.1103/RevModPhys.69.337 |s2cid=12173790|author-link=Fred Adams|author-link2=Gregory P. Laughlin}}</ref>
+
+The [[Alpha Centauri]] system may have formed through a low-mass star being dynamically captured by a more massive binary of {{Solar mass|1.5–2}} within their embedded star cluster before the cluster dispersed.<ref>{{cite journal |last=Kroupa |first=Pavel |date=1995 |title=The dynamical properties of stellar systems in the Galactic disc |journal=MNRAS |volume=277 |issue=4 |pages=1507–1521 |arxiv=astro-ph/9508084 |bibcode=1995MNRAS.277.1507K |doi=10.1093/mnras/277.4.1507 |doi-access=free |s2cid=15557806}}</ref> However, more accurate measurements of the radial velocity are needed to confirm this hypothesis.<ref name="apj132">{{cite journal |last1=Wertheimer |first1=Jeremy G. |last2=Laughlin |first2=Gregory |date=2006 |title=Are Proxima and α Centauri gravitationally bound? |journal=[[The Astronomical Journal]] |volume=132 |issue=5 |pages=1995–1997 |arxiv=astro-ph/0607401 |bibcode=2006AJ....132.1995W |doi=10.1086/507771 |s2cid=16650143|author-link2=Gregory P. Laughlin}}</ref> If Proxima Centauri was bound to the Alpha Centauri system during its formation, the stars are likely to share the same [[chemical element|elemental]] composition. The gravitational influence of Proxima might have disturbed the Alpha Centauri [[protoplanetary disk]]s. This would have increased the delivery of [[Volatile (astrogeology)|volatiles]] such as water to the dry inner regions, so possibly enriching any [[terrestrial planet]]s in the system with this material.<ref name="apj132"/>
+
+[[File:Orbital plot of Proxima Centauri.jpg|thumb|upright=1.2|Orbital plot of Proxima Centauri around the bright apparent star Alpha Centauri AB, with position change marked (in thousands of years).]]
+Alternatively, Proxima Centauri may have been captured at a later date during an encounter, resulting in a highly eccentric orbit that was then stabilized by the [[galactic tide]] and additional stellar encounters. Such a scenario may mean that Proxima Centauri's planetary companions have had a much lower chance for orbital disruption by Alpha Centauri.<ref name="FengJones2018">{{cite journal |last1=Feng |first1=F. |last2=Jones |first2=H. R. A. |date=January 2018 |title=Was Proxima captured by Alpha Centauri A and B? |journal=Monthly Notices of the Royal Astronomical Society |volume=473 |issue=3 |pages=3185−3189 |arxiv=1709.03560 |bibcode=2018MNRAS.473.3185F |doi=10.1093/mnras/stx2576 |doi-access=free |s2cid=55711316}}</ref> As the members of the Alpha Centauri pair continue to evolve and lose mass, Proxima Centauri is predicted to become unbound from the system in around 3.5&nbsp;billion years from the present. Thereafter, the star will steadily diverge from the pair.<ref>{{cite journal |last=Beech |first=M. |date=2011 |title=The Far Distant Future of Alpha Centauri |journal=Journal of the British Interplanetary Society |volume=64 |pages=387–395 |bibcode=2011JBIS...64..387B}}</ref>
+
+== Motion and location ==
+[[File:Angular map of fusors around Sol within 9ly (large).png|thumb|upright=1.2|Proxima Centauri (unlabeled) next to Alpha Centauri on a radar map of all known stellar and [[substellar]] objects within 9 light-years (ly), arranged clockwise in [[hour angle|hours]] of [[right ascension]], and marked by distance (▬) and position (◆)]]
+
+Based on a parallax of {{val|768.0665|0.0499|u=mas}}, published in 2020 in [[Gaia Data Release 3]], Proxima Centauri is {{convert|4.2465|ly|pc AU|lk=on}} from the Sun.<ref name="Gaia3"/> Previously published parallaxes include: {{val|768.5|0.2|u=mas}} in 2018 by Gaia DR2, {{val|768.13|1.04|u=mas}}, in 2014 by the [[Research Consortium On Nearby Stars]];<ref name="lurie2014">{{cite journal |last1=Lurie |first1=John C. |last2=Henry |first2=Todd J. |last3=Jao |first3=Wei-Chun |last4=Quinn |first4=Samuel N. |last5=Winters |first5=Jennifer G. |last6=Ianna |first6=Philip A. |last7=Koerner |first7=David W. |last8=Riedel |first8=Adric R. |last9=Subasavage |first9=John P. |year=2014 |title=The Solar neighborhood. XXXIV. A search for planets orbiting nearby M dwarfs using astrometry |journal=The Astronomical Journal |volume=148 |issue=5 |page=91 |arxiv=1407.4820 |bibcode=2014AJ....148...91L |doi=10.1088/0004-6256/148/5/91 |s2cid=118492541}}</ref> {{val|772.33|2.42|u=mas}}, in the original [[Hipparcos]] Catalogue, in 1997;<ref name="aaa323_L49">{{cite journal |last1=Perryman |first1=M. A. C. |last2=Lindegren |first2=L. |last3=Kovalevsky |first3=J. |last4=Hoeg |first4=E. |last5=Bastian |first5=U. |last6=Bernacca |first6=P. L. |last7=Crézé |first7=M. |last8=Donati |first8=F. |last9=Grenon |first9=M. |last10=Grewing |first10=M. |last11=van Leeuwen |first11=F. |date=July 1997 |title=The Hipparcos catalogue |journal=Astronomy and Astrophysics |volume=323 |pages=L49–L52 |bibcode=1997A&A...323L..49P |last12=van der Marel |first12=H. |last13=Mignard |first13=F. |last14=Murray |first14=C. A. |last15=Le Poole |first15=R. S. |last16=Schrijver |first16=H. |last17=Turon |first17=C. |last18=Arenou |first18=F. |last19=Froeschlé |first19=M. |last20=Petersen |first20=C. S.}}</ref> {{val|771.64|2.60|u=mas}} in the Hipparcos New Reduction, in 2007;<ref name="hipparcos">{{cite journal |bibcode=2007A&A...474..653V |title=Validation of the new Hipparcos reduction |journal=Astronomy and Astrophysics |volume=474 |issue=2 |pages=653–664 |last1=van Leeuwen |first1=F. |year=2007 |doi=10.1051/0004-6361:20078357  |doi-access=free|arxiv=0708.1752|s2cid=18759600 }}</ref> and {{val|768.77|0.37|u=mas}} using the [[Hubble Space Telescope]]{{'s}} [[fine guidance sensor]]s, in 1999.<ref name="apj118"/> From Earth's vantage point, Proxima Centauri is separated from Alpha Centauri by 2.18 degrees,<ref name="apj121">{{cite journal |last1=Kirkpatrick |first1=J. D. |last2=Davy |first2=J. |last3=Monet |first3=David G. |last4=Reid |first4=I. Neill |last5=Gizis |first5=John E. |last6=Liebert |first6=James |last7=Burgasser |first7=Adam J. |year=2001 |title=Brown dwarf companions to G-type stars. I: Gliese 417B and Gliese 584C |journal=The Astronomical Journal |volume=121 |issue=6 |pages=3235–3253 |arxiv=astro-ph/0103218 |bibcode=2001AJ....121.3235K |doi=10.1086/321085 |s2cid=18515414}}</ref> or four times the angular diameter of the full [[Moon]].<ref>{{cite web |last=Williams |first=D. R. |date=February 10, 2006 |title=Moon Fact Sheet |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html |access-date=12 October 2007 |series=Lunar & Planetary Science |publisher=NASA}}</ref> Proxima Centauri has a relatively large proper motion—moving 3.85&nbsp;[[arcseconds]] per year across the sky.<ref>{{cite conference |last1=Benedict |first1=G. F. |last2=Mcarthur |first2=B. |last3=Nelan |first3=E. |last4=Story |first4=D. |last5=Jefferys |first5=W. H. |last6=Wang |first6=Q. |last7=Shelus |first7=P. J. |last8=Hemenway |first8=P. D. |last9=Mccartney |first9=J. |title=Astrometric stability and precision of fine guidance sensor #3: the parallax and proper motion of Proxima Centauri |url=http://clyde.as.utexas.edu/SpAstNEW/Papers_in_pdf/%7BBen93%7DEarlyProx.pdf |pages=380–384 |access-date=11 July 2007 |first10=Wm. F. |last10=Van Altena |first11=R. |last11=Duncombe |first12=O. G. |last12=Franz |first13=L. W. |last13=Fredrick |work=Proceedings of the HST calibration workshop}}</ref> It has a [[radial velocity]] towards the Sun of 22.2&nbsp;km/s.<ref name="KervellaThévenin2017"/> From Proxima Centauri, the Sun would appear as a bright 0.4-magnitude star in the constellation [[Cassiopeia (constellation)|Cassiopeia]], similar to [[Achernar]] or [[Procyon]] from [[Earth]].<ref group="nb">The coordinates of the Sun would be diametrically opposite Proxima Centauri, at α={{RA|02|29|42.9487}}, δ={{DEC|+62|40|46.141}}. The absolute magnitude ''M<sub>v</sub>'' of the Sun is 4.83, so at a parallax ''π'' of 0.77199 the apparent magnitude ''m'' is given by 4.83 − 5(log<sub>10</sub>(0.77199) + 1) = 0.40.
+See: {{cite book |last=Tayler |first=Roger John |url=https://archive.org/details/starstheirstruct00tayl_311 |title=The Stars: Their Structure and Evolution |date=1994 |publisher=Cambridge University Press |isbn=978-0-521-45885-6 |page=[https://archive.org/details/starstheirstruct00tayl_311/page/n24 16] |url-access=limited}}</ref> The star is located in the [[G-Cloud]].<ref>{{cite web |url=http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html |title=Our Local Galactic Neighborhood |publisher=Interstellar.jpl.nasa.gov |accessdate=7 October 2015 |archive-url=https://web.archive.org/web/20131121061128/http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html |archive-date=21 November 2013 |url-status=dead }}</ref>
+
+Among the known stars, Proxima Centauri has been the closest star to the Sun for about 32,000&nbsp;years and will be so for about another 25,000&nbsp;years, after which Alpha Centauri A and Alpha Centauri B will alternate approximately every 79.91 years as the closest star to the Sun. In 2001, J. García-Sánchez ''et al.'' predicted that Proxima Centauri will make its closest approach to the Sun in approximately 26,700&nbsp;years, coming within {{cvt|3.11|ly|pc}}.<ref name="aaa379">{{cite journal |last1=García-Sánchez |first1=J. |last2=Weissman |first2=P. R. |last3=Preston |first3=R. A. |last4=Jones |first4=D. L. |last5=Lestrade |first5=J.-F. |last6=Latham |first6=. W. |last7=Stefanik |first7=R. P. |last8=Paredes |first8=J. M. |date=2001 |title=Stellar encounters with the solar system |journal=Astronomy and Astrophysics |volume=379 |issue=2 |pages=634–659 |bibcode=2001A&A...379..634G |doi=10.1051/0004-6361:20011330 |doi-access=free}}</ref> A 2010 study by V. V. Bobylev predicted a closest approach distance of {{cvt|2.90|ly|pc}} in about 27,400&nbsp;years,<ref name="al36_3_220">{{cite journal |last=Bobylev |first=V. V. |date=March 2010 |title=Searching for stars closely encountering with the solar system |journal=Astronomy Letters |volume=36 |issue=3 |pages=220–226 |arxiv=1003.2160 |bibcode=2010AstL...36..220B |doi=10.1134/S1063773710030060 |s2cid=118374161}}</ref> followed by a 2014 study by C. A. L. Bailer-Jones predicting a perihelion approach of {{cvt|3.07|ly|pc}} in roughly 26,710&nbsp;years.<ref>{{cite journal |last=Bailer-Jones |first=C. A. L. |date=March 2015 |title=Close encounters of the stellar kind |journal=Astronomy & Astrophysics |volume=575 |page=13 |arxiv=1412.3648 |bibcode=2015A&A...575A..35B |doi=10.1051/0004-6361/201425221  |doi-access=free|id=A35 |s2cid=59039482}}</ref> Proxima Centauri is orbiting through the [[Milky Way]] at a distance from the [[Galactic Center|Galactic Centre]] that varies from {{cvt|8.3|to|9.5|kpc|kly|order=flip|lk=on}}, with an [[orbital eccentricity]] of 0.07.<ref>{{cite journal |last1=Allen |first1=C.|author1-link=Christine Allen (astronomer) |last2=Herrera |first2=M. A. |date=1998 |title=The galactic orbits of nearby UV Ceti stars |journal=Revista Mexicana de Astronomía y Astrofísica |volume=34 |pages=37–46 |bibcode=1998RMxAA..34...37A}}</ref>
+
+=== Alpha Centauri ===
+{{Main|Alpha Centauri}}
+Proxima Centauri has been suspected to be a companion of the Alpha Centauri [[binary star]] system since its discovery in 1915. For this reason, it is sometimes referred to as Alpha Centauri&nbsp;C. Data from the [[Hipparcos]] satellite, combined with ground-based observations, were consistent with the hypothesis that the three stars are a [[gravitationally bound]] system. Kervella et al. (2017) used high-precision radial velocity measurements to determine with a high degree of confidence that Proxima and Alpha Centauri are gravitationally bound.<ref name="KervellaThévenin2017"/> Proxima Centauri's orbital period around the Alpha Centauri&nbsp;AB [[barycenter]] is {{val|547000|6600|4000|fmt=commas}} years with an eccentricity of {{val|0.5|0.08}}; it approaches Alpha Centauri to {{val|4300|1100|900|u=AU|fmt=commas}} at [[periastron]] and retreats to {{val|13000|300|100|u=AU|fmt=commas}} at [[apastron]].<ref name="KervellaThévenin2017"/> At present, Proxima Centauri is {{convert|12947|±|260|AU|e12km|2|abbr=unit}} from the Alpha Centauri&nbsp;AB barycenter, nearly to the furthest point in its orbit.<ref name="KervellaThévenin2017"/>
+
+Six single stars, two binary star systems, and a triple star share a common motion through space with Proxima Centauri and the Alpha Centauri system. (The co-moving stars include [[HD 4391]], [[Gamma2 Normae|γ<sup>2</sup> Normae]], and [[Gliese 676]].) The [[space velocity (astronomy)|space velocities]] of these stars are all within 10&nbsp;km/s of Alpha Centauri's [[peculiar motion]]. Thus, they may form a [[moving group]] of stars, which would indicate a common point of origin, such as in a [[star cluster]].<ref>{{cite journal |last1=Anosova |first1=J. |last2=Orlov |first2=V. V. |last3=Pavlova |first3=N. A. |year=1994 |title=Dynamics of nearby multiple stars. The α Centauri system |journal=Astronomy and Astrophysics |volume=292 |issue=1 |pages=115–118 |bibcode=1994A&A...292..115A}}</ref>
+{{clear}}
+
+==Planetary system==
+{{OrbitboxPlanet begin
+| name = Proxima Centauri
+| table_ref={{efn|Planets b & d: Suárez Mascareño et al. 2025<ref name="SuárezMascareño2025"/> (circular orbits assumed)
+<br/>Planet c: Benedict & McArthur 2020;<ref name=BenedictMcArthur2020/> semi-major axis from Kervella et al. 2020<ref name=KervellaArenou2020/>
+<br/>Predicted radii: for planet d, Faria et al. 2022;<ref name="FariaSuárezMascareñoSilva2022"/> for planet b, Brugger et al. 2016<ref name="Brugger2016">{{cite journal |last1=Brugger |first1=B. |last2=Mousis |first2=O. |last3=Deleuil |first3=M. |last4=Lunine |first4=J. I. |title=Possible Internal Structures and Compositions of Proxima Centauri b |journal=The Astrophysical Journal |date=3 November 2016 |volume=831 |issue=2 |pages=L16 |doi=10.3847/2041-8205/831/2/l16 |arxiv=1609.09757 |bibcode=2016ApJ...831L..16B |s2cid=119208249 |language=en |doi-access=free }}</ref>}}
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Proxima Centauri d|d]]
+| mass_earth = {{val|0.260|0.038|p=≥}}
+| period = {{val|5.12338|0.00035}}
+| semimajor = {{val|0.02881|0.00017}}
+| radius_earth = {{val|0.81|0.08|p=~}}{{efn|Predicted from mass-radius relationship}}
+| eccentricity = 0
+| inclination =
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Proxima Centauri b|b]]
+| mass_earth = {{val|1.055|0.055|p=≥}}
+| period = {{val|11.18465|0.00053}}
+| semimajor = {{val|0.04848|0.00029}}
+| radius_earth = 0.94 – 1.4{{efn|Range of possible radius values, depending on Proxima b's composition}}
+| eccentricity = 0
+| inclination =
+}}
+{{OrbitboxPlanet hypothetical
+| exoplanet = [[Proxima Centauri c|c]]
+| mass_earth = {{Val|7|1}}
+| period = {{Val|1928|20|fmt=commas}}
+| semimajor = {{Val|1.489|0.049}}
+| radius_earth =
+| eccentricity = {{Val|0.04|0.01}}
+| inclination = {{Val|133|1}}
+| status = disputed<ref name=ArtigauCadieux2022/>
+}}
+{{Orbitbox end}}
+[[File:Proxima planetary system new.jpg|thumb|upright=1.2|Schematic of the three planets (d, b, and c) of the Proxima Centauri system, with the [[habitable zone]] highlighted in green]]
+As of 2025, three planets (two confirmed and one candidate) have been detected in orbit around Proxima Centauri, with one being among the lightest ever detected by radial velocity ("d"), one close to Earth's size within the [[habitable zone]] ("b"), and a possible [[gas dwarf]] that orbits much further out than the inner two ("c"), although its status remains disputed.<ref name="SuárezMascareño2025"/>
+
+Searches for exoplanets around Proxima Centauri date to the late 1970s. In the 1990s, multiple measurements of Proxima Centauri's radial velocity constrained the maximum mass that a detectable companion could possess.<ref name=apj118>
+{{cite journal
+ |last1=Benedict |first1=G. Fritz |last2=Chappell |first2=D.W.
+ |last3=Nelan |first3=E. |last4=Jefferys |first4=W.H.
+ |last5=van&nbsp;Altena |first5=W. |last6=Lee |first6=J.
+ |last7=Cornell |first7=D. |last8=Shelus |first8=P.J.
+ |display-authors=6
+ |year=1999
+ |title=Interferometric astrometry of Proxima Centauri and Barnard's Star using Hubble Space Telescope fine guidance sensor. 3:&nbsp;Detection limits for substellar companions
+ |journal=[[The Astronomical Journal]]
+ |volume=118 |issue=2 |pages=1086–1100
+ |bibcode=1999AJ....118.1086B |doi=10.1086/300975
+ |s2cid=18099356 |arxiv=astro-ph/9905318
+}}
+</ref><ref name=aaal344>
+{{cite journal
+ |last1=Kürster |first1=M. |last2=Hatzes |first2=A.P.
+ |last3=Cochran |first3=W.D. |last4=Döbereiner |first4=S.
+ |last5=Dennerl |first5=K. |last6=Endl |first6=M.
+ |year=1999
+ |title=Precise radial velocities of Proxima Centauri. Strong constraints on a substellar companion
+ |journal=[[Astronomy & Astrophysics Letters]]
+ |volume=344 |pages=L5–L8
+ |arxiv=astro-ph/9903010 |bibcode=1999A&A...344L...5K
+}}
+</ref>
+The activity level of the star adds noise to the radial velocity measurements, complicating detection of a companion using this method.<ref>
+{{cite journal
+ | last1=Saar | first1=Steven H.
+ | last2=Donahue | first2=Robert A.
+ | year=1997
+ | title=Activity-related radial velocity variation in cool stars
+ | journal=Astrophysical Journal
+ | volume=485 | issue=1 | pages=319–326
+ | doi=10.1086/304392 | s2cid=17628232
+ | bibcode=1997ApJ...485..319S
+}}
+</ref>
+In 1998, an examination of Proxima Centauri using the [[Faint Object Spectrograph]] on board the Hubble Space Telescope appeared to show evidence of a companion orbiting at a distance of about 0.5&nbsp;AU.<ref>
+{{cite journal
+ | last1=Schultz | first1=A.B. | last2=Hart | first2=H.M.
+ | last3=Hershey | first3=J.L. | last4=Hamilton | first4=F.C.
+ | last5=Kochte | first5=M. | last6=Bruhweiler | first6=F.C.
+ | last7=Benedict | first7=G.F. | last8=Caldwell | first8=John
+ | last9=Cunningham | first9=C. | last10=Wu | first10=Nailong
+ | last11=Franz | first11=O.G. | last12=Keyes | first12=C.D.
+ | last13=Brandt | first13=J.C.
+ | display-authors=6
+ | year=1998
+ | title=A possible companion to Proxima Centauri
+ | journal=[[The Astronomical Journal]]
+ | volume=115 | issue=1 | pages=345–350
+ | doi=10.1086/300176 | bibcode=1998AJ....115..345S
+ | s2cid=120356725
+}}
+</ref>
+A subsequent search using the [[Wide Field and Planetary Camera 2]] failed to locate any companions.<ref name=apj119>
+{{cite journal
+ | last1=Schroeder | first1=Daniel J. | last2=Golimowski | first2=David A.
+ | last3=Brukardt | first3=Ryan A. | last4=Burrows | first4=Christopher J.
+ | last5=Caldwell | first5=John J. | last6=Fastie | first6=William G.
+ | last7=Ford | first7=Holland C. | last8=Hesman | first8=Brigette
+ | last9=Kletskin | first9=Ilona | last10=Krist | first10=John E.
+ | last11=Royle | first11=Patricia | last12=Zubrowski | first12=Richard A.
+ | display-authors=6
+ | year=2000
+ | title=A search for faint companions to nearby stars using the Wide Field Planetary Camera&nbsp;2
+ | journal=[[The Astronomical Journal]]
+ | volume=119 | issue=2 | pages=906–922
+ | doi=10.1086/301227 | doi-access=free
+ | bibcode=2000AJ....119..906S
+}}
+</ref> [[Astrometry|Astrometric]] measurements at the [[Cerro Tololo Inter-American Observatory]] appear to rule out a [[Jupiter (planet)|Jupiter]]-sized planet with an orbital period of 2−12&nbsp;years.<ref>
+{{cite journal
+ |last1=Lurie |first1=John C. |last2=Henry |first2=Todd J.
+ |last3=Jao |first3=Wei-Chun |last4=Quinn |first4=Samuel N.
+ |last5=Winters |first5=Jennifer G. |last6=Ianna |first6=Philip A.
+ |last7=Koerner |first7=David W. |last8=Riedel |first8=Adric R.
+ |last9=Subasavage |first9=John P.
+ |display-authors=6
+ |title=The Solar neighborhood. XXXIV. A search for planets orbiting nearby M&nbsp;dwarfs using astrometry
+ |journal=[[The Astronomical Journal]]
+ |volume=148 |issue=5 |id=91 |page=12
+ |date=November 2014
+ |doi=10.1088/0004-6256/148/5/91 |arxiv=1407.4820
+ |bibcode=2014AJ....148...91L |s2cid=118492541
+}}
+</ref>
+
+In 2017, a team of astronomers using the [[Atacama Large Millimeter Array]] reported detecting a belt of cold dust orbiting Proxima Centauri at a range of 1−4&nbsp;AU from the star. This dust has a temperature of around 40&nbsp;K and has a total estimated mass of 1% of the planet Earth. They tentatively detected two additional features: a cold belt with a temperature of 10&nbsp;K orbiting around 30&nbsp;AU and a compact emission source about 1.2&nbsp;arcseconds from the star. There was a hint at an additional warm dust belt at a distance of 0.4&nbsp;AU from the star.<ref name=Guillem2017/> However, upon further analysis, these emissions were determined to be most likely the result of a large flare emitted by the star in March&nbsp;2017. The presence of dust within 4&nbsp;AU radius from the star is not needed to model the observations.<ref name=sd2018>
+{{cite news
+ |title=Proxima Centauri's no good, very bad day
+ |date=26 February 2018
+ |website=[[Science Daily]]
+ |url=https://www.sciencedaily.com/releases/2018/02/180226103341.htm
+ |access-date=1 March 2018
+}}
+</ref><ref name=MacGregor>
+{{cite journal
+ |last1=MacGregor |first1=Meredith A. |last2=Weinberger |first2=Alycia J.
+ |last3=Wilner |first3=David J. |last4=Kowalski |first4=Adam F.
+ |last5=Cranmer |first5=Steven R.
+ |year=2018
+ |title=Detection of a millimeter flare from Proxima Centauri
+ |journal=[[Astrophysical Journal Letters]]
+ |volume=855 |issue=1 |page =L2
+ |arxiv=1802.08257 |bibcode=2018ApJ...855L...2M
+ |doi=10.3847/2041-8213/aaad6b |s2cid=119287614 |doi-access=free
+}}
+</ref>
+
+{{As of|2025}}, radial velocity observations have ruled out the presence of any undetected planets with a [[minimum mass]] greater than {{Earth mass|0.15|sym=y}} with periods shorter than 10 days, {{Earth mass|0.3|sym=y}} in the habitable zone, {{Earth mass|0.6|sym=y}} up to 100 days, {{Earth mass|1|sym=y}} up to 1,000 days, and {{Earth mass|4|sym=y}} up to 10,000 days.<ref name="SuárezMascareño2025"/>
+
+===Planet b===
+{{main|Proxima Centauri b}}
+
+Proxima Centauri&nbsp;b, or Alpha Centauri&nbsp;Cb, orbits the star at a distance of roughly {{convert|0.05|AU|e6km|abbr=unit}} with an orbital period of approximately 11.2&nbsp;Earth days. Its estimated mass is at least 1.07&nbsp;times that of the [[Earth]].<ref name="FariaSuárezMascareñoSilva2022"/> Moreover, the equilibrium temperature of Proxima Centauri&nbsp;b is estimated to be within the range where water could exist as liquid on its surface; thus, placing it within the [[habitable zone]] of Proxima Centauri.<ref name=Guillem2016/><ref name="NYT-20160824">
+{{cite news
+ |last=Chang |first=Kenneth
+ |date=24 August 2016
+ |title=One star over, a planet that might be another Earth
+ |newspaper=[[The New York Times]]
+ |url=https://www.nytimes.com/2016/08/25/science/earth-planet-proxima-centauri.html
+ |access-date=24 August 2016}}</ref><ref name=telegraph20160824>
+{{cite news
+ |last =Knapton |first =Sarah
+ |date=24 August 2016
+ |title=Proxima&nbsp;b: Alien life could exist on 'second Earth' found orbiting our nearest star in Alpha Centauri system
+ |newspaper=[[The Daily Telegraph|The Telegraph]] |publisher=[[Telegraph Media Group]]
+ |url=https://www.telegraph.co.uk/science/2016/08/24/proxima-b-alien-life-could-exist-on-second-earth-found-orbiting/
+ |access-date=24 August 2016 | url-access=subscription |url-status=live
+ |archive-url=https://ghostarchive.org/archive/20220112/https://www.telegraph.co.uk/science/2016/08/24/proxima-b-alien-life-could-exist-on-second-earth-found-orbiting/
+ |archive-date=12 January 2022
+}}{{cbignore}}
+</ref>
+
+The first indications of the [[exoplanet]] Proxima Centauri&nbsp;b were found in 2013 by [[Mikko Tuomi]] of the [[University of Hertfordshire]] from archival observation data.<ref name=prd>
+{{cite news
+ |title=Proxima&nbsp;b is our neighbor ... better get used to it!
+ |date=24 August 2016
+ |website=Pale Red Dot
+ |url=https://palereddot.org/proxima-b-is-our-closest-neighbor-better-get-used-to-it/
+ |access-date=24 August 2016 |archive-url=https://web.archive.org/web/20200513054609/https://palereddot.org/proxima-b-is-our-closest-neighbor-better-get-used-to-it/
+ |archive-date=13 May 2020
+}}
+</ref><ref>
+Aron, Jacob. August 24, 2016. [https://www.newscientist.com/article/mg23130884-100-proxima-b-closest-earth-like-planet-discovered-right-next-door/ Proxima b: Closest Earth-like planet discovered right next door]. ''New Scientist''. Retrieved August 24, 2016
+</ref> To confirm the possible discovery, a team of astronomers launched the Pale Red Dot<ref group="nb">
+"[[Pale Blue Dot]]" is a reference to a distant photo of Earth taken by [[Voyager 1]].
+</ref> project in January&nbsp;2016.<ref>
+{{cite press release
+ |title=Follow a live planet hunt!
+ |url=https://www.eso.org/public/announcements/ann16002/
+ |date=January 15, 2016
+ |publisher=[[European Southern Observatory]]
+ |access-date=24 August 2016}}</ref> On 24&nbsp;August 2016, the team of 31&nbsp;scientists from all around the world,<ref>
+{{cite news
+ |last=Feltman |first=Rachel
+ |date=24 August 2016
+ |title=Scientists say they've found a planet orbiting Proxima Centauri, our closest neighbor
+ |newspaper=[[The Washington Post]]
+ |url=https://www.washingtonpost.com/news/speaking-of-science/wp/2016/08/24/scientists-may-have-found-a-planet-orbiting-proxima-centauri-our-closest-star/
+}}
+</ref> led by Guillem Anglada-Escudé of [[Queen Mary University of London]], confirmed the existence of [[Proxima Centauri b|Proxima Centauri&nbsp;b]]<ref name=spacecom>{{cite news
+ |first =Samantha |last =Mathewson
+ |date=24 August 2016
+ |title=Proxima&nbsp;b by the numbers: Possibly Earth-like world at the next star over
+ |website=Space.com
+ |url=http://www.space.com/33837-earth-like-planet-proxima-centauri-numbers.html
+ |access-date=August 25, 2016
+}}
+</ref> through a peer-reviewed article published in ''[[Nature (journal)|Nature]]''.<ref name=Guillem2016/><ref name="Nature 24 August 2016">
+{{cite journal
+ |last =Witze |first =Alexandra
+ |date=24 August 2016
+ |title=Earth-sized planet around nearby star is astronomy dream come true
+ |journal=[[Nature (journal)|Nature]]
+ |volume=536 |issue=7617 |pages=381–382
+ |doi=10.1038/nature.2016.20445 |doi-access=free
+ |pmid=27558041 |bibcode=2016Natur.536..381W
+}}
+</ref>
+The measurements were performed using two spectrographs: [[High Accuracy Radial Velocity Planet Searcher|HARPS]] on the [[ESO 3.6 m Telescope]] at [[La Silla Observatory]] and [[Very Large Telescope#Instruments|UVES]] on the 8&nbsp;m [[Very Large Telescope]] at [[Paranal Observatory]].<ref name=Guillem2016/> Several attempts to detect a [[Transit (astronomy)|transit]] of this planet across the face of Proxima Centauri have been made. A transit-like signal appearing on 8&nbsp;September 2016, was tentatively identified, using the [[Bright Star Survey Telescope]] at the [[Zhongshan Station (Antarctica)|Zhongshan Station]] in Antarctica.<ref name=Liu2018>
+{{cite journal
+ |last1=Liu |first1=Hui-Gen |last2=Jiang |first2=Peng
+ |last3=Huang |first3=Xingxing |last4=Yu |first4=Zhou-Yi
+ |last5=Yang |first5=Ming |last6=Jia |first6=Minghao
+ |last7=Awiphan |first7=Supachai |last8=Pan |first8=Xiang
+ |last9=Liu |first9=Bo |last10=Zhang |first10=Hongfei
+ |last11=Wang |first11=Jian |last12=Li |first12=Zhengyang
+ |last13=Du |first13=Fujia |last14=Li |first14=Xiaoyan
+ |last15=Lu |first15=Haiping |last16=Zhang |first16=Zhiyong
+ |last17=Tian |first17=Qi-Guo |last18=Li |first18=Bin
+ |last19=Ji |first19=Tuo |last20=Zhang |first20=Shaohua
+ |last21=Shi |first21=Xiheng |first22=Ji |last22=Wang
+ |first23=Ji-Lin |last23=Zhou |first24=Hongyan |last24=Zhou
+ |display-authors=6
+ |date=January 2018
+ |title=Searching for the transit of the Earth-mass exoplanet Proxima Centauri&nbsp;b in Antarctica: Preliminary result
+ |journal=[[The Astronomical Journal]]
+ |volume=155 |issue=1 |id=12 |page=10
+ |doi=10.3847/1538-3881/aa9b86 |doi-access=free
+ |bibcode=2018AJ....155...12L |s2cid=54773928
+ |arxiv=1711.07018
+}}
+</ref>
+
+In 2016, in a paper that helped to confirm Proxima Centauri&nbsp;b's existence, a second signal in the range of 60–500&nbsp;days was detected. However, stellar activity and inadequate sampling causes its nature to remain unclear.<ref name=Guillem2016/>
+
+===Planet c===
+{{main|Proxima Centauri c}}
+
+Proxima Centauri&nbsp;c is a candidate [[super-Earth]] or [[gas dwarf]] about {{nobr|7 {{Earth mass|sym=y}}}} orbiting at roughly {{convert|1.5|AU|e6km|abbr=unit}} every {{convert|1900|d|years}}.<ref name=SA-20190412/> If Proxima Centauri&nbsp;b were the star's Earth, Proxima Centauri&nbsp;c would be equivalent to Neptune. Due to its large distance from Proxima Centauri, it is unlikely to be habitable, with a low equilibrium temperature of around 39&nbsp;K.<ref name=ProximaC/> The planet was first reported by Italian astrophysicist Mario Damasso and his colleagues in April&nbsp;2019.<ref name="SA-20190412">
+{{cite news
+ |first=Lee |last=Billings
+ |date=12 April 2019
+ |title=A second planet may orbit Earth's nearest neighboring star
+ |magazine=[[Scientific American]]
+ |url=https://www.scientificamerican.com/article/a-second-planet-may-orbit-earths-nearest-neighboring-star/
+ |access-date=12 April 2019
+}}
+</ref><ref name="ProximaC">
+{{cite news
+ |first=Mike |last=Wall
+ |date=12 April 2019
+ |title=Possible 2nd&nbsp;planet spotted around Proxima Centauri
+ |website=Space.com
+ |url=https://www.space.com/proxima-centauri-possible-second-exoplanet.html
+ |access-date=12 April 2019
+}}
+</ref>
+Damasso's team had noticed minor movements of Proxima Centauri in the [[Methods of detecting exoplanets#Radial velocity|radial velocity]] data from the ESO's HARPS instrument, indicating a possible additional planet orbiting Proxima Centauri.<ref name=ProximaC/> In 2020, the planet's existence was confirmed by Hubble [[astrometry]] data from {{Circa|1995}}.<ref name="McDonald">
+{{cite press release
+ |last=Benedict |first=Fritz
+ |date=2 June 2020
+ |title=Texas astronomer uses 25&nbsp;year-old Hubble data to confirm [lanet Proxima Centauri&nbsp;c
+ |series=[[McDonald Observatory]]
+ |publisher=[[University of Texas]]
+ |url=https://mcdonaldobservatory.org/news/releases/20200602
+}}
+</ref>
+A possible direct imaging counterpart was detected in the infrared with the [[Spectro-Polarimetric High-Contrast Exoplanet Research|SPHERE]], but the authors admit that they "did not obtain a clear detection." If their candidate source is in fact Proxima Centauri&nbsp;c, it is too bright for a planet of its mass and age, implying that the planet may have a [[ring system]] with a radius of around {{nobr|5 {{Jupiter radius|link=y}}.<ref name=Gratton2020/>}} However, {{harvp|Artigau|Cadieux|Cook|Doyon|Vandal|2022}} disputed the radial velocity confirmation of the planet.<ref name=ArtigauCadieux2022/> {{As of|2025}}, evidence for Proxima c remains inconclusive; observations with the [[ESO 3.6 m Telescope|NIRPS]] spectrograph were unable to confirm it, but found hints of a lower-amplitude signal with a similar period.<ref name="SuárezMascareño2025"/>
+
+===Planet d===
+{{main|Proxima Centauri d}}
+
+In 2019, a team of astronomers revisited the data from [[ESPRESSO]] about Proxima Centauri to refine its mass. While doing so, the team found another radial velocity spike with a periodicity of 5.15&nbsp;days. They estimated that if it were a planetary companion, it would be no less than 0.29&nbsp;Earth masses.<ref name="Suárez MascareñoFaria2020"/> Further analysis confirmed the signal's existence leading up to the announcement of the candidate planet in February&nbsp;2022.<ref name="FariaSuárezMascareñoSilva2022"/> Proxima d was independently confirmed with the [[ESO 3.6 m Telescope|NIRPS]] spectrograph in work published in July 2025.<ref name="SuárezMascareño2025"/>
+
+In 2026, astronomers analyzed [[ESPRESSO]] data from Proxima Centauri to search for star–planet interactions in the system. The team found evidence of a strong [[magnetic field]] on Proxima d, which they estimated to have a strength of ~16 [[Gauss (unit)|G]]. They also found evidence that Proxima d induces phase-locked [[Flare star|stellar flares]] on Proxima Centauri, due to the strength of the planet's magnetic field and its proximity to the star.<ref name=Osorio2026/>
+
+===Habitability===
+{{See also|Habitability of red dwarf systems}}
+{{stack|[[File:Proxima Centauri and its planet compared to the Solar System.jpg|thumb|upright=1.2|Overview and comparison of the orbital distance of the [[habitable zone]]]]}}
+Before the discovery of Proxima Centauri&nbsp;b, the TV documentary ''[[Extraterrestrial (TV documentary)#Episode 1: Aurelia|Alien Worlds]]'' hypothesized that a life-sustaining planet could exist in orbit around Proxima Centauri or other red dwarfs. Such a planet would lie within the habitable zone of Proxima Centauri, about {{convert|0.023|–|0.054|AU|e6km|abbr=unit}} from the star, and would have an orbital period of 3.6–14&nbsp;days.<ref>
+{{cite conference
+ |last1=Endl |first1=M. |last2=Kuerster |first2=M.
+ |last3=Rouesnel |first3=F. |last4=Els |first4=S.
+ |last5=Hatzes |first5=A.P. |last6=Cochran |first6=W.D.
+ |date=18–21 June 2002
+ |title=Extrasolar terrestrial planets: Can we detect them already?
+ |editor-first=Drake |editor-last=Deming
+ |conference=Scientific Frontiers in Research on Extrasolar Planets
+ |pages=75–79
+ |location=Washington, D.C.
+ |arxiv=astro-ph/0208462 |bibcode=2003ASPC..294...75E
+}}
+</ref>
+A planet orbiting within this zone may experience [[tidal locking]] to the star. If the orbital eccentricity of this hypothetical planet were low, Proxima Centauri would move little in the planet's sky, and most of the surface would experience either day or night perpetually. The presence of an atmosphere could serve to redistribute heat from the star-lit side to the far side of the planet.<ref name="tarter">{{cite journal |title=A reappraisal of the habitability of planets around M dwarf stars |journal=[[Astrobiology (journal)|Astrobiology]] |date=2007 |volume=7 |issue=1 |pages=30–65 |doi=10.1089/ast.2006.0124 |pmid=17407403 |bibcode=2007AsBio...7...30T |arxiv=astro-ph/0609799 | last1=Tarter | first1=Jill C. | last2=Mancinelli | first2=Rocco L. | last3=Aurnou | first3=Jonathan M. | last4=Backman | first4=Dana E. | last5=Basri | first5=Gibor S. | last6=Boss | first6=Alan P. | last7=Clarke | first7=Andrew | last8=Deming | first8=Drake|s2cid=10932355 }}</ref>
+
+Proxima Centauri's [[Solar flare|flare]] outbursts could erode the atmosphere of any planet in its habitable zone, but the documentary's scientists thought that this obstacle could be overcome. [[Gibor Basri]] of the [[University of California, Berkeley]] argued: "No one [has] found any showstoppers to habitability." For example, one concern was that the torrents of charged particles from the star's flares could strip the atmosphere off any nearby planet. If the planet had a strong magnetic field, the field would deflect the particles from the atmosphere; even the slow rotation of a tidally locked planet that spins once for every time it orbits its star would be enough to generate a magnetic field, as long as part of the planet's interior remained molten.<ref>{{cite journal |last=Alpert |first=Mark |date=November 2005 |title=Red star rising |journal=Scientific American |volume=293 |issue=5 |page=28 |doi=10.1038/scientificamerican1105-28 |pmid=16318021 |bibcode=2005SciAm.293e..28A}}</ref>
+
+Other scientists, especially proponents of the [[Rare Earth hypothesis]],<ref>{{cite book |first1=Peter D. |last1=Ward |author-link=Peter Ward (paleontologist) |last2=Brownlee |first2=Donald |author-link2=Donald E. Brownlee |date=2000 |title=Rare Earth: why complex life is uncommon in the universe |publisher=[[Springer Publishing]] |isbn=978-0-387-98701-9}}</ref> disagree that red dwarfs can sustain life. Any exoplanet in this star's habitable zone would likely be tidally locked, resulting in a relatively weak planetary [[magnetic moment]], leading to strong atmospheric erosion by [[coronal mass ejection]]s from Proxima Centauri.<ref name="Khodachenko">{{cite journal |title=Coronal Mass Ejection (CME) activity of low mass M stars as an important factor for the habitability of terrestrial exoplanets. I. CME impact on expected magnetospheres of earth-like exoplanets in close-in habitable zones |journal=Astrobiology |date=2007 |volume=7 |issue=1 |pages=167–184 |doi=10.1089/ast.2006.0127 |pmid=17407406 |bibcode=2007AsBio...7..167K | last1=Khodachenko | first1=Maxim L. | last2=Lammer | first2=Helmut | last3=Grießmeier | first3=Jean-Mathias | last4=Leitner | first4=Martin | last5=Selsis | first5=Franck | last6=Eiroa | first6=Carlos | last7=Hanslmeier | first7=Arnold | last8=Biernat | first8=Helfried K. }}</ref> In December 2020, a candidate [[SETI]] radio signal [[BLC-1]] was announced as potentially coming from the star.<ref name="OCallaghan2000">{{Cite web
+ | last=O'Callaghan | first=Jonathan | date=2020-12-18
+ | title=Alien Hunters Discover Mysterious Radio Signal from Proxima Centauri
+ | url=https://www.scientificamerican.com/article/alien-hunters-discover-mysterious-signal-from-proxima-centauri/
+ | access-date=2020-12-19
+ | website=Scientific American | language=en }}</ref> The signal was later determined to be human-made radio interference.<ref>{{cite journal
+ | title=Mysterious 'alien beacon' was false alarm
+ | first=Alexandra | last=Witze
+ | journal=Nature | date=25 October 2021
+ | volume=599 | issue=7883 | pages=20–21 | doi=10.1038/d41586-021-02931-7 | pmid=34697482
+| bibcode=2021Natur.599...20W | s2cid=239887089 | doi-access=free }}</ref>
+
+== Observational history ==
+[[File:ProximaCentauriLocation.png|thumb|upright=1.5|The location of Proxima Centauri (circled in red)]]
+[[File:New Horizons Proxima Centauri Parallax Animation.gif|thumb|Parallax of Proxima Centauri as observed from ''[[New Horizons]]'' and Earth]]
+
+In 1915, the Scottish astronomer [[Robert T. A. Innes|Robert Innes]], director of the [[Union Observatory]] in [[Johannesburg]], [[South Africa]], discovered a star that had the same [[proper motion]] as [[Alpha Centauri]].<ref name="Innes1915">{{cite journal |last1=Innes |first1=R. T. A. |date=October 1915 |title=A Faint Star of Large Proper Motion |journal=Circular of the Union Observatory Johannesburg |volume=30 |pages=235–236 |bibcode=1915CiUO...30..235I}} This is the original Proxima Centauri discovery paper.</ref><ref name="afrsky11_39">{{cite journal |last=Glass |first=I. S. |date=July 2007 |title=The discovery of the nearest star |journal=[[African Skies (journal)|African Skies]] |volume=11 |page=39 |bibcode=2007AfrSk..11...39G}}</ref><ref>{{cite web |last=Queloz |first=Didier |date=November 29, 2002 |title=How Small are Small Stars Really? |url=https://www.eso.org/public/news/eso0232/ |access-date=January 29, 2018 |publisher=European Southern Observatory |id=eso0232; PR 22/02}}</ref> He suggested that it be named ''Proxima Centauri''<ref name="aj39_913_20">{{cite journal |last=Alden |first=Harold L. |date=1928 |title=Alpha and Proxima Centauri |journal=Astronomical Journal |volume=39 |issue=913 |pages=20–23 |bibcode=1928AJ.....39...20A |doi=10.1086/104871|doi-access=free }}</ref> (actually ''Proxima Centaurus'').<ref name="Innes1917">{{cite journal |last1=Innes |first1=R. T. A. |date=September 1917 |title=Parallax of the Faint Proper Motion Star Near Alpha of Centaurus. 1900. R.A. 14{{sup|h}}22{{sup|m}}55{{sup|s}}.-0s 6t. Dec-62° 15'2 0'8 t |journal=Circular of the Union Observatory Johannesburg |volume=40 |pages=331–336 |bibcode=1917CiUO...40..331I}}</ref> In 1917, at the [[Royal Observatory, Cape of Good Hope|Royal Observatory]] at the [[Cape of Good Hope]], the Dutch astronomer [[Joan Voûte]] measured the star's trigonometric [[parallax]] at {{val|0.755|0.028|ul=″}} and determined that Proxima Centauri was approximately the same distance from the Sun as Alpha Centauri. It was the lowest-[[luminosity]] star known at the time.<ref name="Voûte1917">{{cite journal |last=Voûte |first=J. |date=1917 |title=A 13th magnitude star in Centaurus with the same parallax as α Centauri |journal=[[Monthly Notices of the Royal Astronomical Society]] |volume=77 |issue=9 |pages=650–651 |bibcode=1917MNRAS..77..650V |doi=10.1093/mnras/77.9.650 |doi-access=free}}</ref> An equally accurate parallax determination of Proxima Centauri was made by American astronomer [[Harold Lee Alden|Harold L. Alden]] in 1928, who confirmed Innes's view that it is closer, with a parallax of {{val|0.783|0.005|u=″}}.<ref name="afrsky11_39"/><ref name="aj39_913_20"/>
+
+The size of Proxima Centauri was estimated by the Canadian astronomer [[John Stanley Plaskett]] in 1925 by [[interferometry]]. The result was {{Convert|207000|mi}}, or approximately {{Solar radius|0.24}}.<ref>{{Cite journal |last=Plaskett |first=J. S. |date=1922 |title=The Dimensions of the Stars |journal=Publications of the Astronomical Society of the Pacific |volume=34 |issue=198 |pages=79–93 |doi=10.1086/123157 |jstor=40668597 |bibcode=1922PASP...34...79P |issn=0004-6280}}</ref>
+
+In 1951, American astronomer [[Harlow Shapley]] announced that Proxima Centauri is a [[flare star]]. Examination of past photographic records showed that the star displayed a measurable increase in magnitude on about 8% of the images, making it the most active flare star then known.<ref>{{cite journal |last=Shapley |first=Harlow |date=1951 |title=Proxima Centauri as a flare star |journal=Proceedings of the National Academy of Sciences of the United States of America |volume=37 |issue=1 |pages=15–18 |bibcode=1951PNAS...37...15S |doi=10.1073/pnas.37.1.15 |pmc=1063292 |pmid=16588985 |doi-access=free}}</ref><ref>{{cite journal |last1=Kroupa |first1=Pavel |last2=Burman |first2=R. R. |last3=Blair |first3=D. G. |date=1989 |title=Photometric observations of flares on Proxima Centauri |journal=PASA |volume=8 |issue=2 |pages=119–122 |bibcode=1989PASA....8..119K |doi=10.1017/S1323358000023122|s2cid=117977034 }}</ref>
+The proximity of the star allows for detailed observation of its flare activity. In 1980, the [[Einstein Observatory]] produced a detailed X-ray energy curve of a stellar flare on Proxima Centauri. Further observations of flare activity were made with the [[EXOSAT]] and [[ROSAT]] [[satellite]]s, and the X-ray emissions of smaller, solar-like flares were observed by the Japanese [[Advanced Satellite for Cosmology and Astrophysics|ASCA]] satellite in 1995.<ref>{{cite journal |last1=Haisch |first1=Bernhard |last2=Antunes |first2=A. |last3=Schmitt |first3=J. H. M. M. |date=1995 |title=Solar-like M-class X-ray flares on Proxima Centauri observed by the ASCA satellite |journal=Science |volume=268 |issue=5215 |pages=1327–1329 |bibcode=1995Sci...268.1327H |doi=10.1126/science.268.5215.1327 |pmid=17778978 |s2cid=46660210}}</ref> Proxima Centauri has since been the subject of study by most X-ray observatories, including [[XMM-Newton]] and [[Chandra X-ray Observatory|Chandra]].<ref name="aaa416"/>
+
+Because of Proxima Centauri's southern declination, it can only be viewed south of [[latitude]] [[27th parallel north|27°&nbsp;N]].<ref group="nb">For a star south of the zenith, the angle to the zenith is equal to the Latitude minus the Declination. The star is hidden from sight when the zenith angle is 90° or more, i.e., below the horizon. Thus, for Proxima Centauri:
+
+:Highest latitude = 90° + (−62.68°) = 27.32°.
+See: {{cite book |last=Campbell |first=William Wallace |url=https://archive.org/details/elementspractic00campgoog |title=The elements of practical astronomy |date=1899 |publisher=Macmillan |location=London |pages=[https://archive.org/details/elementspractic00campgoog/page/n129 109]–110 |access-date=August 12, 2008}}</ref> Red dwarfs such as Proxima Centauri are too faint to be seen with the naked eye. Even from Alpha Centauri A or B, Proxima would only be seen as a fifth-magnitude star.<ref>{{cite web |title=Proxima Centauri UV flux distribution |url=http://sdc.cab.inta-csic.es/ines/Ines_PCentre/Demos/Fluxdist/pcentauri.html |access-date=July 11, 2007 |publisher=ESA & The Astronomical Data Centre at CAB}}</ref><ref>{{cite web |last=Kaler |first=James B. |author-link=James B. Kaler |date=November 7, 2016 |title=Rigil Kentaurus |url=http://stars.astro.illinois.edu/sow/rigil-kent.html |access-date=August 3, 2008 |work=STARS |publisher=University of Illinois}}</ref> It has [[apparent visual magnitude]]&nbsp;11, so a [[telescope]] with an [[aperture]] of at least {{cvt|8|cm}} is needed to observe it, even under ideal viewing conditions—under clear, dark skies with Proxima Centauri well above the horizon.<ref>{{cite book |last1=Sherrod |first1=P. Clay |title=A complete manual of amateur astronomy: tools and techniques for astronomical observations |last2=Koed |first2=Thomas L. |date=2003 |publisher=Courier Dover Publications |isbn=978-0-486-42820-8}}</ref> In 2016, the [[International Astronomical Union]] organized a [[Working Group on Star Names]] (WGSN) to catalogue and standardize proper names for stars.<ref name="WGSN">{{cite web |title=IAU Working Group on Star Names (WGSN) |url=https://www.iau.org/science/scientific_bodies/working_groups/280/ |access-date=May 22, 2016 |publisher=International Astronomical Union |archive-date=10 June 2016 |archive-url=https://web.archive.org/web/20160610172014/https://www.iau.org/science/scientific_bodies/working_groups/280/ |url-status=dead }}</ref> The WGSN approved the name ''Proxima Centauri'' for this star on August 21, 2016, and it is now so included in the List of IAU approved Star Names.<ref name="IAU-LSN">{{cite web |title=Naming Stars |url=https://www.iau.org/public/themes/naming_stars/ |access-date=March 3, 2018 |publisher=International Astronomical Union |archive-date=10 March 2025 |archive-url=https://web.archive.org/web/20250310063743/https://www.iau.org/public/themes/naming_stars/ |url-status=dead }}</ref>
+
+In 2016, a [[superflare]] was observed from Proxima Centauri, the strongest flare ever seen. The optical brightness increased by a factor of 68× to approximately magnitude&nbsp;6.8. It is estimated that similar flares occur around five times every year but are of such short duration, just a few minutes, that they had never been observed before.<ref name="howard">{{cite journal |last1=Howard |first1=Ward S. |last2=Tilley |first2=Matt A. |last3=Corbett |first3=Hank |last4=Youngblood |first4=Allison |last5=Loyd |first5=R. O. Parke |last6=Ratzloff |first6=Jeffrey K. |last7=Law |first7=Nicholas M. |last8=Fors |first8=Octavi |last9=Del Ser |first9=Daniel |last10=Shkolnik |first10=Evgenya L. |last11=Ziegler |first11=Carl |year=2018 |title=The First Naked-eye Superflare Detected from Proxima Centauri |journal=The Astrophysical Journal |volume=860 |issue=2 |pages=L30 |arxiv=1804.02001 |bibcode=2018ApJ...860L..30H |doi=10.3847/2041-8213/aacaf3 |last12=Goeke |first12=Erin E. |last13=Pietraallo |first13=Aaron D. |last14=Haislip |first14=Joshua |s2cid=59127420 |doi-access=free }}</ref> On 22 and 23 April&nbsp;2020, the outbound ''[[New Horizons]]'' spacecraft took images of two of the nearest stars, Proxima Centauri and [[Wolf 359]]. When compared with Earth-based images, a very large parallax effect was easily visible. However, this was only used for illustrative purposes and did not improve on previous distance measurements.<ref>{{cite web |date=29 January 2020 |title=Seeing Stars in 3D: The New Horizons Parallax Program |url=http://pluto.jhuapl.edu/News-Center/News-Article.php?page=20200129 |access-date=25 May 2020 |website=pluto.jhuapl.edu |publisher=Johns Hopkins University Applied Physics Laboratory}}</ref><ref>{{cite web |title=Parallax measurements for Wolf 359 and Proxima Centauri |url=https://www.dlr.de/content/en/images/2020/3/parallax-measurements-wolf-359-and-proxima-centauri.html |access-date=19 January 2021 |website=German Aerospace Center}}</ref>
+
+== Future exploration ==
+{{Main|Proxima Centauri in fiction|Interstellar travel}}
+Because of the star's proximity to Earth, Proxima Centauri has been proposed as a flyby destination for interstellar travel.<ref name="gilster">{{cite book |last=Gilster |first=Paul |url=https://archive.org/details/centauridreamsim00gils |title=Centauri dreams: imagining and planning |date=2004 |publisher=Springer |isbn=978-0-387-00436-5}}</ref> If non-nuclear, conventional propulsion technologies are used, the flight of a spacecraft to Proxima Centauri and its planets would probably require thousands of years.<ref>{{cite journal |last=Crawford |first=I. A. |date=September 1990 |title=Interstellar Travel: A Review for Astronomers |journal=Quarterly Journal of the Royal Astronomical Society |volume=31 |pages=377–400 |bibcode=1990QJRAS..31..377C}}</ref> For example, ''[[Voyager 1]]'', which is now travelling {{cvt|17|km/s|mph}}<ref>{{cite web |last=Peat |first=Chris |title=Spacecraft escaping the Solar System |url=http://www.heavens-above.com/SolarEscape.aspx |access-date=December 25, 2016 |work=Heavens Above}}</ref> relative to the Sun, would reach Proxima Centauri in 73,775 years, were the spacecraft travelling in the direction of that star and Proxima stationary. Proxima's actual galactic orbit means a slow-moving probe would have only several tens of thousands of years to catch the star at its closest approach, before it recedes out of reach.<ref name="longshot">{{cite web |last1=Beals |first1=K. A. |last2=Beaulieu |first2=M. |last3=Dembia |first3=F. J. |last4=Kerstiens |first4=J. |last5=Kramer |first5=D. L. |last6=West |first6=J. R. |last7=Zito |first7=J. A. |date=1988 |title=Project Longshot, an Unmanned Probe to Alpha Centauri |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19890007533_1989007533.pdf |access-date=13 June 2008 |work=NASA-CR-184718 |publisher=U.S. Naval Academy}}</ref>
+
+[[Nuclear pulse propulsion]] might enable such interstellar travel with a trip timescale of a century, inspiring several studies such as [[Project Orion (nuclear propulsion)|Project Orion]], [[Project Daedalus]], and [[Project Longshot]].<ref name="longshot"/> Project [[Breakthrough Starshot]] aims to reach the Alpha Centauri system within the first half of the 21st century, with microprobes travelling at 20% of the speed of light and propelled by around 100 [[gigawatt]]s of Earth-based lasers.<ref>{{cite journal |last=Merali |first=Zeeya |date=27 May 2016 |title=Shooting for a star |journal=[[Science (journal)|Science]] |volume=352 |issue=6289 |pages=1040–1041 |doi=10.1126/science.352.6289.1040 |pmid=27230357}}</ref> The probes would perform a fly-by of Proxima Centauri about 20 years after their launch, or possibly go into orbit after about 140 years if [[swing-by]]s around Proxima Centauri or Alpha Centauri are to be employed.<ref name="Heller Hippke 2023 k319">{{cite web | last1=Heller | first1=René | last2=Hippke | first2=Michael | title=Full braking at Alpha Centauri | website=Max-Planck-Gesellschaft | date=July 11, 2023 | url=https://www.mpg.de/11019256/full-braking-at-alpha-centauri | access-date=December 3, 2023}}</ref> Then the probes would take photos and collect data of the planets of the stars, and their atmospheric compositions. It would take 4.25 years for the information collected to be sent back to Earth.<ref name="Popkin2017">{{cite journal |last=Popkin |first=Gabriel |date=February 2, 2017 |title=What it would take to reach the stars |journal=[[Nature (journal)|Nature]] |volume=542 |issue=7639 |pages=20–22 |bibcode=2017Natur.542...20P |doi=10.1038/542020a |pmid=28150784 |doi-access=free}}</ref>
+
+== Notes==
+{{Reflist|group="nb"}}
+{{notelist}}
+
+==References==
+{{reflist|25em|refs=
+
+<ref name=aaa397>
+{{cite journal
+ |last1=Ségransan |first1=Damien |last2=Kervella |first2=Pierre
+ |last3=Forveille |first3=Thierry |last4=Queloz |first4=Didier
+ |name-list-style=amp
+ |year=2003
+ |title=First radius measurements of very low mass stars with the VLTI
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=397 |issue=3 |pages=L5–L8
+ |bibcode=2003A&A...397L...5S
+ |arxiv=astro-ph/0211647 |s2cid=10748478
+ |doi=10.1051/0004-6361:20021714
+ |doi-access=free}}
+</ref>
+
+<ref name="aaa519_A105">
+{{cite journal
+ | last1=Schlaufman | first1=K.C.
+ | last2=Laughlin | first2=G.
+ | name-list-style=amp
+ | date=September 2010
+ | title=A {{sic|hide=y|physically|-}}motivated photometric calibration of M&nbsp;dwarf metallicity
+ | journal=[[Astronomy & Astrophysics]]
+ | volume=519 | page=A105
+ | doi=10.1051/0004-6361/201015016
+  | doi-access=free| bibcode=2010A&A...519A.105S
+ | arxiv = 1006.2850 | s2cid=119260592
+|author-link2=Gregory P. Laughlin}}
+</ref>
+
+<ref name=Guillem2017>
+{{cite journal
+ |last1=Anglada |first1=Guillem |last2=Amado |first2=Pedro J.
+ |last3=Ortiz |first3=Jose L. |last4=Gómez |first4=José F.
+ |last5=Macías |first5=Enrique |last6=Alberdi |first6=Antxon
+ |last7=Osorio |first7=Mayra |last8=Gómez |first8=José L.
+ |last9=de&nbsp;Gregorio-Monsalvo |first9=Itziar
+ |last10=Pérez-Torres |first10=Miguel A.
+ |last11=Anglada-Escudé |first11=Guillem
+ |last12=Berdiñas |first12=Zaira M. |last13=Jenkins |first13=James S.
+ |last14=Jimenez-Serra |first14=Izaskun
+ |last15=Lara |first15=Luisa M. |author-link15=Luisa María Lara
+ |last16=López-González |first16=Maria J.
+ |last17=López-Puertas |first17=Manuel
+ |last18=Morales |first18=Nicolas |last19=Ribas |first19=Ignasi
+ |last20=Richards |first20=Anita M.S.
+ |last21=Rodríguez-López |first21=Cristina
+ |last22=Rodriguez |first22=Eloy
+ |display-authors=6
+ |year=2017
+ |title=ALMA discovery of dust belts around Proxima Centauri
+ |journal=[[The Astrophysical Journal]]
+ |volume=850 |issue=1 |page=L6
+ |doi=10.3847/2041-8213/aa978b |doi-access=free
+ |bibcode=2017ApJ...850L...6A |s2cid=13431834
+ |arxiv=1711.00578
+ |url=http://zaguan.unizar.es/record/64319 |via=unizar.es
+}}
+</ref>
+
+<ref name=Damasso2020>
+{{cite journal
+ |last1=Damasso |first1=Mario |last2=del&nbsp;Sordo |first2=Fabio
+ |last3=Anglada-Escudé |first3=Guillem |last4=Giacobbe |first4=Paolo
+ |last5=Sozzetti |first5=Alessandro |last6=Morbidelli |first6=Alessandro
+ |last7=Pojmanski |first7=Grzegorz |last8=Barbato |first8=Domenico
+ |last9=Butler |first9=R. Paul |last10=Jones |first10=Hugh R.A.
+ |last11=Hambsch |first11=Franz-Josef
+ |last12=Jenkins |first12=James S.
+ |last13=López-González |first13=María José
+ |last14=Morales |first14=Nicolás |last15=Peña Rojas |first15=Pablo A.
+ |last16=Rodríguez-López |first16=Cristina
+ |last17=Rodríguez |first17=Eloy
+ |last18=Amado |first18=Pedro J. |last19=Anglada |first19=Guillem
+ |last20=Feng |first20=Fabo |last21=Gómez |first21=Jose F.
+ |display-authors=6
+ |title=A low-mass planet candidate orbiting Proxima Centauri at a distance of 1.5&nbsp;AU
+ |date=15 January 2020
+ |journal=[[Science Advances]]
+ |volume=6 |issue=3 |article-number=eaax7467
+ |doi=10.1126/sciadv.aax7467 |pmc=6962037
+ |bibcode=2020SciA....6.7467D |pmid=31998838
+}}
+</ref>
+
+<ref name="FariaSuárezMascareñoSilva2022">
+{{cite journal
+ |last1=Faria |first1=J.P. |last2=Suárez Mascareño |first2=A.
+ |last3=Figueira |first3=P. |last4=Silva |first4=A.M.
+ |last5=Damasso |first5=M. |last6=Demangeon |first6=O.
+ |last7=Pepe |first7=F. |last8=Santos |first8=N.C.
+ |last9=Rebolo |first9=R. |last10=Cristiani |first10=S.
+ |last11=Adibekyan |first11=V. |last12=Alibert |first12=Y.
+ |last13=Allart |first13=R. |last14=Barros |first14=S.C.C.
+ |last15=Cabral |first15=A. |last16=D'Odorico |first16=V.
+ |last17=di&nbsp;Marcantonio |first17=P.
+ |last18=Dumusque |first18=X. |last19=Ehrenreich |first19=D.
+ |last20=González Hernández |first20=J.I.
+ |last21=Hara |first21=N. |last22=Lillo-Box |first22=J.
+ |last23=lo&nbsp;Curto |first23=G. |last24=Lovis |first24=C.
+ |last25=Martins |first25=C.J.A.P. |last26=Mégevand |first26=D.
+ |last27=Mehner |first27=A. |last28=Micela |first28=G.
+ |last29=Molaro |first29=P. |last30=Nunes |first30=N.J.
+ |last31=Pallé |first31=E. |last32=Poretti |first32=E.
+ |last33=Sousa |first33=S.G. |last34=Sozzetti |first34=A.
+ |last35=Tabernero |first35=H. |last36=Udry |first36=S.
+ |last37=Zapatero Osorio |first37=M.R.
+ |display-authors=6
+ |year=2022
+ |title=A candidate short-period sub-Earth orbiting Proxima Centauri
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=658 |page=A115
+ |doi=10.1051/0004-6361/202142337 |doi-access=free
+ |arxiv=2202.05188 |bibcode=2022A&A...658A.115F
+}}
+</ref>
+
+<ref name=Gratton2020>
+{{cite journal
+ | last1=Gratton | first1=R. | last2=Zurlo | first2=A.
+ | last3=le&nbsp;Coroller | first3=H. | last4=Damasso | first4=M.
+ | last5=del&nbsp;Sordo | first5=F. | last6=Langlois | first6=M.
+ | last7=Mesa | first7=D. | last8=Milli | first8=J.
+ | last9=Chauvin | first9=G. | last10=Desidera | first10=S.
+ | last11=Hagelberg | first11=J. | last12=Lagadec | first12=E.
+ | last13=Vigan | first13=A. | last14=Boccaletti | first14=A.
+ | last15=Bonnefoy | first15=M. | last16=Brandner | first16=W.
+ | last17=Brown | first17=S. | last18=Cantalloube | first18=F.
+ | last19=Delorme | first19=P. | last20=d'Orazi | first20=V.
+ | last21=Feldt | first21=M. | last22=Galicher | first22=R.
+ | last23=Henning | first23=T. | last24=Janson | first24=M.
+ | last25=Kervella | first25=P. | last26=Lagrange | first26=A.-M.
+ | last27=Lazzoni | first27=C. | last28=Ligi | first28=R.
+ | last29=Maire | first29=A.-L. | last30=Ménard | first30=F.
+ | last31=Meyer | first31=M. | last32=Mugnier | first32=L.
+ | last33=Potier | first33=A. | last34=Rickman | first34=E.L.
+ | last35=Rodet | first35=L. | last36=Romero | first36=C.
+ | last37=Schmidt | first37=T. | last38=Sissa | first38=E.
+ | last39=Sozzetti | first39=A. | last40=Szulágyi | first40=J.
+ | last41=Wahhaj | first41=Z. | last42=Antichi | first42=J.
+ | last43=Fusco | first43=T. | last44=Stadler | first44=E.
+ | last45=Suarez | first45=M. | last46=Wildi | first46=F.
+ | display-authors=6
+ | date= June 2020
+ | title = Searching for the near-infrared counterpart of Proxima c using multi-epoch high-contrast SPHERE data at VLT
+ | journal = [[Astronomy & Astrophysics]]
+ | volume= 638 | page= A120
+ | doi=10.1051/0004-6361/202037594  | doi-access=free| s2cid = 215754278
+ | bibcode= 2020A&A...638A.120G | arxiv = 2004.06685
+}}
+</ref>
+
+<ref name=Masc2016>
+{{cite journal
+ |last1=Mascareño |first1=A. Suárez
+ |last2=Rebolo |first2=R.
+ |last3=González Hernández |first3=J.I.
+ |name-list-style=amp
+ |date=October 2016
+ |title=Magnetic cycles and rotation periods of late-type stars from photometric time series
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=595 |page=A12
+ |doi=10.1051/0004-6361/201628586  |doi-access=free|arxiv=1607.03049
+ |bibcode=2016A&A...595A..12S |s2cid=118555782
+}}
+</ref>
+
+<ref name="PasseggerWende-von Berg2016">
+{{cite journal
+ |last1=Passegger |first1=Vera Maria
+ |last2=Wende-von&nbsp;Berg |first2=Sebastian
+ |last3=Reiners |first3=Ansgar
+ |name-list-style=amp
+ |date=March 2016
+ |title=Fundamental M-dwarf parameters from high-resolution spectra using PHOENIX ACES models: I.&nbsp;Parameter accuracy and benchmark stars
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=587 |page=A19
+ |bibcode=2016A&A...587A..19P |issn=0004-6361
+ |doi=10.1051/0004-6361/201322261  |doi-access=free|s2cid=10458151
+ |arxiv=1709.03560 
+}}
+</ref>
+
+<ref name="Suárez MascareñoFaria2020">
+{{cite journal
+ |last1=Suárez Mascareño |first1=A. |last2=Faria |first2=J.P.
+ |last3=Figueira |first3=P. |last4=Lovis |first4=C.
+ |last5=Damasso |first5=M. |last6=González Hernández |first6=J.I.
+ |last7=Rebolo |first7=R. |last8=Cristiano |first8=S.
+ |last9=Pepe |first9=F. |last10=Santos |first10=N.C.
+ |last11=Zapatero Osorio |first11=M.R. |last12=Adibekyan |first12=V.
+ |last13=Hojjatpanah |first13=S. |last14=Sozzetti |first14=A.
+ |last15=Murgas |first15=F. |last16=Abreu |first16=M.
+ |display-authors=6
+ |year=2020
+ |title=Revisiting Proxima with ESPRESSO
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=639 |page=A77
+ |issn=0004-6361 |bibcode=2020A&A...639A..77S
+ |doi=10.1051/0004-6361/202037745 |doi-access=free
+ |arxiv=2005.12114
+}}
+</ref>
+
+<ref name=Yadav2016>
+{{cite journal
+ |last1=Yadav |first1=Rakesh K. |last2=Christensen |first2=Ulrich R.
+ |last3=Wolk |first3=Scott J. |last4=Poppenhaeger |first4=Katja
+ |name-list-style=amp
+ |date=December 2016
+ |title=Magnetic cycles in a dynamo simulation of fully convective M-star Proxima Centauri
+ |journal=[[The Astrophysical Journal Letters]]
+ |volume=833 |issue=2 |id=L28 |page=6
+ |doi=10.3847/2041-8213/833/2/L28 |doi-access=free
+ |arxiv=1610.02721 |bibcode=2016ApJ...833L..28Y
+ |s2cid=54849623
+}}
+</ref>
+
+<ref name=Guillem2016>
+{{cite journal
+ | last1 = Anglada-Escudé | first1  = Guillem
+ | last2 = Amado | first2 = Pedro J. | last3 = Barnes | first3 = John
+ | last4 = Berdiñas | first4 = Zaira M. | last5 = Butler | first5 = R. Paul
+ | last6 = Coleman | first6  = Gavin A.L.
+ | last7 = {{nobr|de la Cueva}} | first7  = Ignacio
+ | last8 = Dreizler | first8  = Stefan | last9 = Endl | first9 = Michael
+ | last10 = Giesers | first10 = Benjamin
+ | last11 = Jeffers | first11 = Sandra V.
+ | last12 = Jenkins | first12 = James S.
+ | last13 = Jones | first13 = Hugh R.A.
+ | last14 = Kiraga | first14 = Marcin | last15 = Kürster | first15 = Martin
+ | last16 = López-González | first16 = María J.
+ | last17 = Marvin | first17 = Christopher J.
+ | last18 = Morales | first18 = Nicolás | last19 = Morin | first19 = Julien
+ | last20 = Nelson | first20 = Richard P.
+ | last21 = Ortiz | first21 = José L. | last22 = Ofir | first22 = Aviv
+ | last23 = Paardekooper | first23 = Sijme-Jan
+ | last24 = Reiners | first24 = Ansgar | last25 = Rodríguez | first25 = Eloy
+ | last26 = Rodríguez-López | first26 = Cristina
+ | last27 = Sarmiento | first27 = Luis F.
+ | last28 = Strachan | first28 = John P.
+ | last29 = Tsapras | first29 = Yiannis | last30 = Tuomi | first30 = Mikko
+ | last31  = Zechmeister | first31 = Mathias
+ | display-authors=6
+ | year    = 2016
+ | title   = A terrestrial planet candidate in a temperate orbit around Proxima Centauri
+ | journal = [[Nature (journal)|Nature]]
+ | volume  = 536 | issue = 7617 | pages = 437–440
+ | pmid    = 27558064 | doi     = 10.1038/nature19106
+ | s2cid   = 4451513 | bibcode = 2016Natur.536..437A
+ | arxiv   = 1609.03449
+}}
+</ref>
+
+<ref name=KervellaArenou2020>
+{{cite journal
+ |last1=Kervella |first1=Pierre
+ |last2=Arenou |first2=Frédéric
+ |last3=Schneider |first3=Jean
+ |year=2020
+ |title=Orbital inclination and mass of the exoplanet candidate Proxima&nbsp;c
+ |journal=[[Astronomy & Astrophysics]]
+ |volume=635 |page=L14
+ |arxiv=2003.13106
+ |doi=10.1051/0004-6361/202037551  |doi-access=free|issn=0004-6361
+ |bibcode= 2020A&A...635L..14K |s2cid=214713486
+}}</ref>
+
+<ref name=BenedictMcArthur2020>
+{{cite journal
+ |last1=Benedict |first1=G. Fritz
+ |last2=McArthur |first2=Barbara E.
+ |date=16 June 2020
+ |title=A moving target: Revising the mass of Proxima Centauri&nbsp;c
+ |journal=[[Research Notes of the AAS]]
+ |volume=4 |issue=6 |page=86
+ |doi=10.3847/2515-5172/ab9ca9 |doi-access=free
+ |bibcode=2020RNAAS...4...86B |s2cid=225798015
+}}
+</ref>
+
+<ref name="Klein2020">{{cite journal|title=The large-scale magnetic field of Proxima Centauri near activity maximum
+ | last1=Klein | first1=Baptiste | last2=Donati | first2=Jean-François
+ | last3=Hébrard | first3=Élodie M. | last4=Folsom | first4=Colin P.
+ | last5=Morin | first5=Julien | last6=Delfosse | first6=Xavier
+ | last7=Bonfils | first7=Xavier | display-authors=1
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=500 | issue=2 | pages=1844–1850
+ | date=January 2021 | doi=10.1093/mnras/staa3396 
+ | doi-access=free | arxiv=2010.14311 | bibcode=2021MNRAS.500.1844K }}</ref>
+
+<ref name=ArtigauCadieux2022>
+{{cite journal
+ |last1=Artigau |first1=Étienne |last2=Cadieux |first2=Charles
+ |last3=Cook |first3=Neil J. |last4=Doyon |first4=René
+ |last5=Vandal |first5=Thomas |last6=Donati |first6=Jean-Françcois
+ |last7=Moutou |first7=Claire |last8=Delfosse |first8=Xavier
+ |last9=Fouqué |first9=Pascal |last10=Martioli |first10=Eder
+ |last11=Bouchy |first11=François |last12=Parsons |first12=Jasmine
+ |last13=Carmona |first13=Andres |last14=Dumusque |first14=Xavier
+ |last15=Astudillo-Defru |first15=Nicola |last16=Bonfils |first16=Xavier
+ |last17=Mignon |first17=Lucille
+ |display-authors=6
+ |date=23 June 2022
+ |publication-date=8 August 2022
+ |title=Line-by-line velocity measurements, an outlier-resistant method for precision velocimetry
+ |journal=[[The Astronomical Journal]]
+ |volume=164 |issue=3 |page=84
+ |arxiv=2207.13524 |bibcode=2022AJ....164...84A
+ |doi=10.3847/1538-3881/ac7ce6 |doi-access=free
+}}
+</ref>
+
+<ref name="SuárezMascareño2025">
+{{cite journal
+ | last1=Suárez Mascareño | first1=Alejandro | last2=Artigau | first2=Étienne | display-authors=etal
+ | date=29 July 2025
+ | title=Diving into the planetary system of Proxima with NIRPS: Breaking the metre per second barrier in the infrared
+ | journal=[[Astronomy & Astrophysics]]
+ | volume=700 | issue= |pages=A11
+ | arxiv=2507.21751
+ | doi=10.1051/0004-6361/202553728 | bibcode=2025A&A...700A..11S | doi-access=free
+}}</ref>
+
+<ref name=Osorio2026>{{Cite journal |last1=Osorio |first1=M. R. Zapatero |last2=Béjar |first2=V. J. S. |last3=Mascareño |first3=A. Suárez |last4=Rebolo |first4=R. |last5=Cristiani |first5=S. |last6=Micela |first6=G. |last7=Miles-Páez |first7=P. A. |last8=Santos |first8=N. C. |last9=Pallé |first9=E. |title=Star-planet interaction in the Proxima system |date=2026-05-21  |journal=Astronomy and Astrophysics |volume=711 |pages=A116 |doi=10.1051/0004-6361/202660158 |doi-access=free |arxiv=2605.22925 |bibcode=2026A&A...711A.116Z }}</ref>
+
+}} <!-- end "refs=" -->
+
+==Further reading==
+{{Div col|small=yes}}
+*{{cite journal
+ | title=Laser communication with Proxima and Alpha Centauri using the solar gravitational lens
+ | display-authors=1 | last1=Marcy | first1=Geoffrey W.
+ | last2=Tellis | first2=Nathaniel K. | last3=Wishnow | first3=Edward H.
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=509 | issue=3 | pages=3798–3814
+ | date=January 2022 | doi=10.1093/mnras/stab3074 
+ | doi-access=free | arxiv=2110.10247 | bibcode=2022MNRAS.509.3798M }}
+*{{cite journal
+ | title=A radio technosignature search towards Proxima Centauri resulting in a signal of interest
+ | last1=Smith | first1=Shane | last2=Price | first2=Danny C.
+ | last3=Sheikh | first3=Sofia Z. | last4=Czech | first4=Daniel J.
+ | last5=Croft | first5=Steve | last6=DeBoer | first6=David
+ | last7=Gajjar | first7=Vishal | last8=Isaacson | first8=Howard
+ | last9=Lacki | first9=Brian C. | last10=Lebofsky | first10=Matt
+ | last11=MacMahon | first11=David H. E. | last12=Ng | first12=Cherry
+ | last13=Perez | first13=Karen I. | last14=Siemion | first14=Andrew P. V.
+ | last15=Webb | first15=Claire Isabel | last16=Drew | first16=Jamie
+ | last17=Worden | first17=S. Pete | last18=Zic | first18=Andrew
+ | display-authors=1 | journal=Nature Astronomy 
+ | volume=5 | pages=1148–1152
+ | date=October 2021 | issue=11 | doi=10.1038/s41550-021-01479-w 
+ | arxiv=2111.08007 | bibcode=2021NatAs...5.1148S | s2cid=239948037 }}
+*{{cite journal
+ | title=A search for optical laser emission from Proxima Centauri
+ | last=Marcy | first=G. W.
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=505 | issue=3 | pages=3537–3548
+ | date=August 2021 | doi=10.1093/mnras/stab1440 
+ | doi-access=free | arxiv=2102.01910 | bibcode=2021MNRAS.505.3537M }}
+*{{cite journal
+ | title=Planet-induced radio emission from the coronae of M dwarfs: the case of Prox Cen and AU Mic
+ | last1=Kavanagh | first1=Robert D. | last2=Vidotto | first2=Aline A.
+ | last3=Klein | first3=Baptiste | last4=Jardine | first4=Moira M.
+ | last5=Donati | first5=Jean-François | last6=Ó Fionnagáin | first6=Dúalta
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=504 | issue=1 | pages=1511–1518 | display-authors=1
+ | date=June 2021 | doi=10.1093/mnras/stab929 
+ | doi-access=free | arxiv=2103.16318 | bibcode=2021MNRAS.504.1511K }}
+*{{cite journal
+ | title=Monitoring the radio emission of Proxima Centauri
+ | last1=Pérez-Torres | first1=M. | last2=Gómez | first2=J. F.
+ | last3=Ortiz | first3=J. L. | last4=Leto | first4=P.
+ | last5=Anglada | first5=G. | last6=Gómez | first6=J. L.
+ | last7=Rodríguez | first7=E. | last8=Trigilio | first8=C.
+ | last9=Amado | first9=P. J. | last10=Alberdi | first10=A.
+ | last11=Anglada-Escudé | first11=G. | last12=Osorio | first12=M.
+ | last13=Umana | first13=G. | last14=Berdiñas | first14=Z.
+ | last15=López-González | first15=M. J. | last16=Morales | first16=N.
+ | last17=Rodríguez-López | first17=C. | last18=Chibueze | first18=J.
+ | display-authors=1 | journal=Astronomy & Astrophysics
+ | volume=645 | id=A77 | date=January 2021
+ | pages=A77 | doi=10.1051/0004-6361/202039052
+  | doi-access=free| arxiv=2012.02116 | bibcode=2021A&A...645A..77P | s2cid=227255606 }}
+*{{cite journal
+ | title=A Flare-type IV Burst Event from Proxima Centauri and Implications for Space Weather
+ | last1=Zic | first1=Andrew | last2=Murphy | first2=Tara
+ | last3=Lynch | first3=Christene | last4=Heald | first4=George
+ | last5=Lenc | first5=Emil | last6=Kaplan | first6=David L.
+ | last7=Cairns | first7=Iver H. | last8=Coward | first8=David
+ | last9=Gendre | first9=Bruce | last10=Johnston | first10=Helen
+ | last11=MacGregor | first11=Meredith | last12=Price | first12=Danny C.
+ | last13=Wheatland | first13=Michael S. | display-authors=1
+ | journal=The Astrophysical Journal
+ | volume=905 | issue=1 | id=23
+ | date=December 2020 | page=23 | doi=10.3847/1538-4357/abca90 
+ | arxiv=2012.04642 | bibcode=2020ApJ...905...23Z | s2cid=227745378 | doi-access=free }}
+*{{cite journal
+ | title=Proxima Centauri - the nearest planet host observed simultaneously with AstroSat, Chandra, and HST
+ | last1=Lalitha | first1=S. | last2=Schmitt | first2=J. H. M. M.
+ | last3=Singh | first3=K. P. | last4=Schneider | first4=P. C.
+ | last5=Parke Loyd | first5=R. O. | last6=France | first6=K.
+ | last7=Predehl | first7=P. | last8=Burwitz | first8=V.
+ | last9=Robrade | first9=J. | display-authors=1
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=498 | issue=3 | pages=3658–3663
+ | date=November 2020 | doi=10.1093/mnras/staa2574 
+ | doi-access=free | arxiv=2008.07175 | bibcode=2020MNRAS.498.3658L }}
+*{{cite journal
+ | title=Flaring Activity of Proxima Centauri from TESS Observations: Quasiperiodic Oscillations during Flare Decay and Inferences on the Habitability of Proxima b
+ | last1=Vida | first1=Krisztián | last2=Oláh | first2=Katalin
+ | last3=Kővári | first3=Zsolt | last4=van Driel-Gesztelyi | first4=Lidia
+ | last5=Moór | first5=Attila | last6=Pál | first6=András
+ | display-authors=1 | journal=The Astrophysical Journal
+ | volume=884 | issue=2 | id=160
+ | date=October 2019 | page=160 | doi=10.3847/1538-4357/ab41f5 
+ | arxiv=1907.12580 | bibcode=2019ApJ...884..160V | s2cid=198985707 | doi-access=free }}
+*{{cite journal
+ | title=Directly testing gravity with Proxima Centauri
+ | last1=Banik | first1=Indranil | last2=Kroupa | first2=Pavel
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=487 | issue=2 | pages=1653–1661
+ | date=August 2019 | doi=10.1093/mnras/stz1379 
+ | doi-access=free | arxiv=1906.08264 | bibcode=2019MNRAS.487.1653B }}
+*{{cite journal
+ | title=Temporal changes of the flare activity of Proxima Centauri
+ | last1=Pavlenko | first1=Ya. V. | last2=Suárez Mascareño | first2=A.
+ | last3=Zapatero Osorio | first3=M. R. | last4=Rebolo | first4=R.
+ | last5=Lodieu | first5=N. | last6=Béjar | first6=V. J. S.
+ | last7=González Hernández | first7=J. I. | last8=Mohorian | first8=M.
+ | display-authors=1 | journal=Astronomy & Astrophysics
+ | volume=626 | id=A111 | date=June 2019
+ | pages=A111 | doi=10.1051/0004-6361/201834258  | doi-access=free| arxiv=1905.07347
+ | bibcode=2019A&A...626A.111P | s2cid=158047128 }}
+*{{cite journal
+ | title=A Multi-year Search for Transits of Proxima Centauri. II. No Evidence for Transit Events with Periods between 1 and 30 days
+ | last1=Feliz | first1=Dax L. | last2=Blank | first2=David L.
+ | last3=Collins | first3=Karen A. | last4=White | first4=Graeme L.
+ | last5=Stassun | first5=Keivan G. | last6=Curtis | first6=Ivan A.
+ | last7=Hart | first7=Rhodes | last8=Kielkopf | first8=John F.
+ | last9=Nelson | first9=Peter | last10=Relles | first10=Howard
+ | last11=Stockdale | first11=Christopher | last12=Jayawardene | first12=Bandupriya
+ | last13=Shankland | first13=Paul | last14=Reichart | first14=Daniel E.
+ | last15=Haislip | first15=Joshua B. | last16=Kouprianov | first16=Vladimir V.
+ | display-authors=1 | journal=The Astronomical Journal
+ | volume=157 | issue=6 | id=226
+ | date=June 2019 | page=226 | doi=10.3847/1538-3881/ab184f 
+ | arxiv=1901.07034 | bibcode=2019AJ....157..226F | doi-access=free }}
+*{{cite journal
+ | title=Observation of a possible superflare on Proxima Centauri
+ | last1=Kielkopf | first1=John F. | last2=Hart | first2=Rhodes
+ | last3=Carter | first3=Bradley D. | last4=Marsden | first4=Stephen C.
+ | journal=Monthly Notices of the Royal Astronomical Society: Letters
+ | volume=486 | issue=1 | pages=L31–L35 | display-authors=1
+ | date=June 2019 | doi=10.1093/mnrasl/slz054 
+ | doi-access=free | arxiv=1904.06875 | bibcode=2019MNRAS.486L..31K }}
+*{{cite journal
+ | title=Dynamical evolution and stability maps of the Proxima Centauri system
+ | last1=Meng | first1=Tong | last2=Ji | first2=Jianghui
+ | last3=Dong | first3=Yao | display-authors=1
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=482 | issue=1 | pages=372–383
+ | date=January 2019 | doi=10.1093/mnras/sty2682 
+ | doi-access=free | arxiv=1809.08210 | bibcode=2019MNRAS.482..372M }}
+*{{cite journal
+ | title=Exocomets in the Proxima Centauri system and their importance for water transport
+ | last1=Schwarz | first1=R. | last2=Bazsó | first2=Á.
+ | last3=Georgakarakos | first3=N. | last4=Loibnegger | first4=B.
+ | last5=Maindl | first5=T. I. | last6=Bancelin | first6=D.
+ | last7=Pilat-Lohinger | first7=E. | last8=Kislyakova | first8=K. G.
+ | last9=Dvorak | first9=R. | last10=Dobbs-Dixon | first10=I.
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=480 | issue=3 | pages=3595–3608 | display-authors=1
+ | date=November 2018 | doi=10.1093/mnras/sty2064 
+ | doi-access=free | arxiv=1711.04685 | bibcode=2018MNRAS.480.3595S }}
+*{{cite journal
+ | title=The First Naked-eye Superflare Detected from Proxima Centauri
+ | last1=Howard | first1=Ward S. | last2=Tilley | first2=Matt A.
+ | last3=Corbett | first3=Hank | last4=Youngblood | first4=Allison
+ | last5=Loyd | first5=R. O. Parke | last6=Ratzloff | first6=Jeffrey K.
+ | last7=Law | first7=Nicholas M. | last8=Fors | first8=Octavi
+ | last9=del Ser | first9=Daniel | last10=Shkolnik | first10=Evgenya L.
+ | last11=Ziegler | first11=Carl | last12=Goeke | first12=Erin E.
+ | last13=Pietraallo | first13=Aaron D. | last14=Haislip | first14=Joshua
+ | journal=The Astrophysical Journal Letters
+ | volume=860 | issue=2 | id=L30 | display-authors=1
+ | date=June 2018 | pages=L30 | doi=10.3847/2041-8213/aacaf3 
+ | arxiv=1804.02001 | bibcode=2018ApJ...860L..30H | s2cid=59127420 | doi-access=free }}
+*{{cite journal
+ | title=Detection of a Millimeter Flare from Proxima Centauri
+ | last1=MacGregor | first1=Meredith A. | last2=Weinberger | first2=Alycia J.
+ | last3=Wilner | first3=David J. | last4=Kowalski | first4=Adam F.
+ | last5=Cranmer | first5=Steven R. | display-authors=1
+ | journal=The Astrophysical Journal Letters
+ | volume=855 | issue=1 | id=L2
+ | date=March 2018 | pages=L2 | doi=10.3847/2041-8213/aaad6b 
+ | arxiv=1802.08257 | bibcode=2018ApJ...855L...2M | s2cid=119287614 | doi-access=free }}
+*{{cite journal
+ | title=Proxima Centauri reloaded: Unravelling the stellar noise in radial velocities
+ | last1=Damasso | first1=M. | last2=Del Sordo | first2=F.
+ | journal=Astronomy & Astrophysics
+ | volume=599 | id=A126 | date=March 2017
+ | pages=A126 | doi=10.1051/0004-6361/201630050  | doi-access=free| arxiv=1612.03786
+ | bibcode=2017A&A...599A.126D | s2cid=119335949 }}
+{{Div col end}}
+
+==External links==
+{{Commons category|Proxima Centauri}}
+* {{Cite APOD |title=Proxima Centauri: the closest star |date=July 15, 2002 |access-date=June 25, 2008}}
+* {{cite web |url=https://chandra.harvard.edu/photo/2004/proxima/ |title=Proxima Centauri: The Nearest Star to the Sun |agency=Chandra X-ray Observatory |publisher=Harvard University |date=July 1, 2008 |access-date=July 1, 2008}}
+* {{cite web |url=http://www.southastrodel.com/PageAlphaCen006.htm |title=Voyage to Alpha Centauri |series=The Imperial Star – Alpha Centauri |publisher=Southern Astronomical Delights |last=James |first=Andrew |date=March 11, 2008 |access-date=August 5, 2008 |archive-date=28 February 2016 |archive-url=https://web.archive.org/web/20160228111139/http://southastrodel.com/PageAlphaCen006.htm |url-status=dead }}
+* {{cite web |url=http://www.solstation.com/stars/alp-cent3.htm |archive-url=https://web.archive.org/web/20000824113631/http://www.solstation.com/stars/alp-cent3.htm |url-status=dead |archive-date=24 August 2000 |title=Alpha Centauri 3 |work=SolStation |access-date=August 5, 2008}}
+* {{cite web |url=http://www.uranometrianova.pro.br/astronomia/AA002/alphacen.htm |title=O Sistema Alpha Centauri |access-date=June 25, 2008 |work=Astronomia & Astrofísica |language=pt |archive-date=3 March 2016 |archive-url=https://web.archive.org/web/20160303190444/http://www.uranometrianova.pro.br/astronomia/AA002/alphacen.htm }}
+* {{cite web |url=http://www.wikisky.org/?ra=14.495264&de=-62.67948000000001&zoom=8&show_grid=1&show_constellation_lines=1&show_constellation_boundaries=1&show_const_names=0&show_galaxies=1&show_box=1&box_ra=14.495264&box_de=-62.67948&box_width=50&box_height=50&img_source=DSS2 |title=Image of Proxima Centauri |work=Wikisky |access-date=July 1, 2017}}
+* {{cite web |url=http://www.constellation-guide.com/proxima-centauri/ |title=Proxima Centauri |website=Constellation-guide.com |date=6 July 2014 |access-date=August 25, 2016}}
+* {{cite web |url=http://www.eso.org/public/news/eso1629/ |title=Planet Found in Habitable Zone Around Nearest Star |publisher=[[European Southern Observatory]] |date=August 24, 2016 |access-date=September 6, 2016}}
+* {{cite news |url=https://www.space.com/33834-discovery-of-planet-proxima-b.html |title=Found! Potentially Earth-Like Planet at Proxima Centauri Is Closest Ever |work=[[Space.com]] |first=Mike |last=Wall |date=April 24, 2016}}
+{{Authority control}}
+{{Alpha Centauri}}
+{{Sky|14|29|42.9487|-|62|40|46.141|4.25}}
+{{nearest systems|1}}
+{{Stars of Centaurus}}
+{{Portal bar|Astronomy|Stars|Spaceflight|Outer space}}
+
+<!-- Properties -->
+
+[[Category:Proxima Centauri| ]]
+[[Category:M-type main-sequence stars]]
+[[Category:Flare stars]]
+[[Category:Emission-line stars]]
+[[Category:Planetary systems with two confirmed planets]]
+[[Category:Alpha Centauri|*C]]
+<!-- Location/Catalogues -->
+[[Category:Astronomical objects discovered in 1915]]
+[[Category:Stars discovered in the 1910s]]
+[[Category:Centaurus]]
+[[Category:Gliese and GJ objects|0551]]
+[[Category:Hipparcos objects|070890]]
+[[Category:Objects with variable star designations|Centauri, V645]]
+[[Category:Stars with proper names]]
+[[Category:Discoveries by Robert T. A. Innes]]

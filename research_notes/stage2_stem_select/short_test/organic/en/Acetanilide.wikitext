@@ -1,0 +1,116 @@
+{{Short description|Chemical compound C6H5NHC(O)CH3}}
+{{chembox
+| Watchedfields  = changed
+| verifiedrevid  = 477238648
+| Name           = Acetanilide
+| ImageFile      = Acetanilide.svg
+| ImageClass     = skin-invert
+| ImageSize      = 170
+| ImageName      = Acetanilide
+| ImageFileL1    = Acetanilide-3D-balls.png
+| ImageSizeL1    = 130
+| ImageClassL1   = bg-transparent
+| ImageFileR1    = Acetanilide-3D-vdW.png
+| ImageSizeR1    = 130
+| ImageClassR1   = bg-transparent
+| PIN            = ''N''-Phenylacetamide<ref name=iupac2013>{{cite book | title =  Nomenclature of Organic Chemistry : IUPAC Recommendations and Preferred Names 2013 (Blue Book) | publisher = [[Royal Society of Chemistry|The Royal Society of Chemistry]] | date = 2014 | location = Cambridge | page = 846 | doi = 10.1039/9781849733069-FP001 | isbn = 978-0-85404-182-4 | quote = ''N''-Phenyl derivatives of primary amides are called ‘anilides’ and may be named using the term ‘anilide’ in place of ‘amide’ in systematic or retained names of amides. (…) However, names expressing ''N''-substitution by a phenyl group on an amide are preferred IUPAC names.| chapter = Front Matter }}</ref>
+| OtherNames     = {{ubl
+ |Acetanilide<ref name=iupac2013/>
+ |''N''-Phenylethanamide
+ }}
+| Section1       = {{Chembox Identifiers
+| UNII_Ref = {{fdacite|correct|FDA}}
+| UNII = SP86R356CC
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = C07565
+| Beilstein = 606468
+| Gmelin = 82833
+| InChI = 1/C8H9NO/c1-7(10)9-8-5-3-2-4-6-8/h2-6H,1H3,(H,9,10)
+| InChIKey = FZERHIULMFGESH-UHFFFAOYAA
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 269644
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C8H9NO/c1-7(10)9-8-5-3-2-4-6-8/h2-6H,1H3,(H,9,10)
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = FZERHIULMFGESH-UHFFFAOYSA-N
+| CASNo = 103-84-4
+| CASNo_Ref = {{cascite|correct|CAS}}
+| EC_number = 203-150-7
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 880
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 28884
+| PubChem = 904
+| RTECS = AD7350000
+| SMILES = O=C(Nc1ccccc1)C
+}}
+| Section2       = {{Chembox Properties
+| Properties_ref = <ref>{{RubberBible62nd|page=C-67}}.</ref><ref name="SIDS">{{SIDS-ref | title = Acetanilide | id = Acetanilide | date = September 2003}}.</ref>
+| C=8 | H=9 | N=1 | O=1
+| Odor = Odorless
+| Density = {{val|1.219|u=g/cm3}}
+| MeltingPtC = 113-115
+| BoilingPtC = 304
+| Dipole = 2.71
+| Solubility = <{{val|0.56|u=g/100 mL}} (25 °C)
+| Solubility1 = soluble
+| Solvent1 = ethanol
+| Solubility2 = soluble
+| Solvent2 = diethyl ether
+| Solubility3 = soluble
+| Solvent3 = acetone
+| Solubility4 = soluble
+| Solvent4 = benzene
+| LogP = 1.16 ({{convert|23|C|F K}})
+| VaporPressure = {{val|2|u=Pa}} ({{convert|20|C|F K}})
+| pKa = 0.5 ({{convert|25|C|F K}}, {{chem2|H2O}}) (conjugate acid)<ref name="CRC97">{{cite book | editor= Haynes, William M. | year = 2016 | title = CRC Handbook of Chemistry and Physics | edition = 97th | publisher = [[CRC Press]] | isbn = 9781498754293 | pages=5–88 | title-link = CRC Handbook of Chemistry and Physics }}</ref>}}
+| Section7       = {{Chembox Hazards
+| Hazards_ref = <ref name="MSDS">{{cite web| url = http://ptcl.chem.ox.ac.uk/MSDS/AC/acetanilide.html | archive-url = https://web.archive.org/web/20020623073536/http://ptcl.chem.ox.ac.uk/MSDS/AC/acetanilide.html | url-status = dead | archive-date = 2002-06-23 | title = Safety data for acetanilide | publisher = Physical Chemistry Laboratory, University of Oxford }}.</ref><ref>{{cite web|title=HSNO Chemical Classification Information Database|url-status=live|url=https://www.epa.govt.nz/database-search/chemical-classification-and-information-database-ccid/view/753A1DBD-C677-44DA-AF65-00F745A42660#:~:text=classification%20acute%20tox.|archive-url=https://web.archive.org/web/20221013183051/https://www.epa.govt.nz/database-search/chemical-classification-and-information-database-ccid/view/753A1DBD-C677-44DA-AF65-00F745A42660#:~:text=classification%20acute%20tox.|archive-date=October 13, 2022|location=New Zealand|publisher=[[Environmental Risk Management Authority]]|access-date=August 26, 2009}}</ref>
+| ExternalSDS = [https://www.fishersci.com/store/msds?partNumber=O1013250&productDescription=ACETANILIDE+REAGENT+250G&vendorId=VN00033897&countryCode=US&language=en]
+| GHSPictograms = {{GHS|exclamation mark|alt=Acute Tox. (oral) 4}}
+| GHSSignalWord = WARNING
+| HPhrases = {{H-phrases|302|373}}
+| PPhrases = {{P-phrases|264|270|301+312|330|501}}
+| FlashPtC = 174
+| AutoignitionPtC = 545
+  }}
+}}
+
+[[File:Acetanilide Crystals.jpg|thumb|Acetanilide crystals on a [[watch glass]]]]
+
+'''Acetanilide''' is the [[organic compound]] with the formula {{chem2|C6H5NHC(O)CH3}}.  It is the N-acetylated derivative of [[aniline]].<ref name=Ullmann>{{Ullmann |last1=Vogt |first1=P.F. |last2=Gerulis |first2=J.J. |title=Amines, Aromatic |doi=10.1002/14356007.a02_037}}</ref> It is an odourless [[solid]] chemical of leaf or flake-like appearance.  It is also known as '''''N''-phenylacetamide''', '''acetanil''', or '''acetanilid''', and was formerly known by the [[trade name]] '''Antifebrin''' from [[Merck & Co.]] and '''Antikamnia''' from the [[Antikamnia]] Chemical Company.
+
+==Preparation and properties==
+Acetanilide can be produced by reacting [[acetic anhydride]] with aniline:<ref name=Ullmann/> 
+:{{chem2|C6H5NH2 + (CH3CO)2O -> C6H5NHCOCH3 + CH3COOH}}
+
+The preparation used to be a traditional experiment in introductory organic chemistry lab classes,<ref>See, e.g., {{citation | title = The preparation of acetanilide from aniline | url = http://wwwchem.uwimona.edu.jm/lab_manuals/c10expt23.html | publisher = Department of Chemistry, University of the West Indies at Mona, Jamaica | access-date = 2009-08-26}}; {{citation | first1 = Wilkins | last2 = Lowe | first2 = Valerie C. | title = Preparation of Acetanilide from Nitrobenzene | journal = J. Chem. Educ. | volume = 56 | issue = 7 | pages = 488 | year = 1979 | doi = 10.1021/ed056p488 | last1 = Reeve| bibcode = 1979JChEd..56..488R }}: the latter preparation includes the reduction of nitrobenzene to aniline.</ref> but it has now been widely replaced by the preparation of either [[paracetamol]] or [[aspirin]], both of which teach the same practical techniques (especially [[Recrystallization (chemistry)|recrystallization]] of the product) but which avoid the use of aniline, a suspected [[carcinogen]].
+
+Acetanilide is slightly soluble in  water, and stable under most conditions.<ref name="MSDS"/> Pure crystals are plate shaped and appear colorless, white, or in between.
+
+==Applications==
+Acetanilide is used as an [[Reaction inhibitor|inhibitor]] of [[hydrogen peroxide]] decomposition and is used to stabilize [[cellulose]] [[ester]] varnishes.<ref name=Ullmann/>  It has also found uses in the intermediation in [[rubber]] accelerator synthesis, dyes and dye intermediate synthesis, and [[camphor]] synthesis.<ref>{{Cite web |last=PubChem |title=Acetanilide |url=https://pubchem.ncbi.nlm.nih.gov/compound/904 |access-date=2022-12-10 |website=pubchem.ncbi.nlm.nih.gov |language=en}}</ref> Acetanilide is used for the production of 4-acetamidobenzenesulfonyl chloride, a key intermediate for the manufacture of the [[sulfonamide (medicine)|sulfa drugs]].<ref>{{cite book | title = Ashford's Dictionary of Industrial Chemicals | edition = Third | year = 2011 | page = 33}}</ref>
+
+In the 19th century acetanilide was one of a large number of compounds used as experimental [[photographic developer]]s.
+
+In 1886, acetanilide was introduced into medical practice as a fever-reducing agent under the name Antifebrin.<ref name=Cahn>{{cite journal |last1=Cahn |first1=A. |last2=Hepp |first2=P. |title=Das Antifebrin, ein neues Fiebermittel. |journal=Centralblatt für Klinische Medizin |year=1886 |volume=7 |pages=561-564}}</ref> It was one of the first aniline derivatives found to possess analgesic and antipyretic properties. However, its use was later discontinued due to toxic side effects, including [[methemoglobinemia]], which led to [[cyanosis]].<ref name=BrodieFate>{{citation |last1=Brodie |first1=B. B. |title=The fate of acetanilide in man |journal=J. Pharmacol. Exp. Ther. |volume=94 |issue=1 |pages=29–38 |year=1948 |url=http://profiles.nlm.nih.gov/HH/A/A/A/D/_/hhaaad.pdf |pmid=18885611 |last2=Axelrod |first2=J. |author-link2=Julius Axelrod}}</ref>
+
+The first patent regarding the utilization of acetanilide as an inhibitor of [[hydrogen peroxide]] decomposition was later filed in 1905.<ref name="heinrici">{{cite patent |country=US |number=825883A |inventor=Walter Heinrici |status=application |title=Stable solution of peroxid of hydrogen |pubdate=1905-07-10 |gdate=1906-07-10 |url=https://patents.google.com/patent/US825883A/}}</ref>
+
+Acetanilide-derived herbicides have been used since the 1960s or earlier. These include [[alachlor]], [[metolachlor]] and [[xylachlor]].<ref>OWEN, M. D. K. (1982). A Comparison Of The Herbicidal Activity Of Several Chloroacetamides And Their Effects On Protein Synthesis In Carrot And Soybean Cell Suspension Cultures (Order No. 8218534). Available from ProQuest Dissertations & Theses Global. (303227220). Retrieved from https://www.proquest.com/dissertations-theses/comparison-herbicidal-activity-several/docview/303227220/se-2</ref>
+
+===Pharmaceutical use===
+Acetanilide was the first aniline derivative found to possess [[analgesic]] as well as [[antipyretic]] properties, and was quickly introduced into medical practice under the names of Antifebrin by A. Cahn and P. Hepp in 1886.<ref name=Cahn/> But its (apparent) unacceptable toxic effects, the most alarming being [[cyanosis]] due to [[methemoglobinemia]] and ultimately liver and kidney damage,<ref name="Ax&Brodie">{{citation | last1 = Brodie | first1 = B. B. | last2 = Axelrod | first2 = J. | author-link2 = Julius Axelrod | title = The estimation of acetanilide and its metabolic products, aniline, ''N''-acetyl ''p''-aminophenol and ''p''-aminophenol (free and total conjugated) in biological fluids and tissues | journal = J. Pharmacol. Exp. Ther. | year = 1948 | volume = 94 | issue = 1 | pages = 22–28 | pmid = 18885610}}.</ref> prompted the search for supposedly less toxic aniline derivatives such as [[phenacetin]].<ref name=pmid17227290>{{citation | last1 = Bertolini | first1 = A. | last2 = Ferrari | first2 = A. | last3 = Ottani | first3 = A. | last4 = Guerzoni | first4 = S. | last5 = Tacchi | first5 = R. | last6 = Leone | first6 = S. | title = Paracetamol: new vistas of an old drug | journal = CNS Drug Reviews | year = 2006 | volume = 12 | issue = 3–4 | pages = 250–75 | pmid = 17227290 | doi = 10.1111/j.1527-3458.2006.00250.x| pmc = 6506194 }}.</ref> After several conflicting results over the ensuing fifty years, it was established in 1948 that acetanilide was mostly [[Metabolism|metabolized]] to paracetamol (acetaminophen) in the human body, and that it was this metabolite that was responsible for the analgesic and antipyretic properties.<ref>{{citation |last1=Lester |first1=D. |title=Metabolic fate of acetanilide and other aniline derivatives. II. Major metabolites of acetanilide in the blood |journal=J. Pharmacol. Exp. Ther. |volume=90 |issue=1 |pages=68–75 |year=1947 |pmid=20241897 |last2=Greenberg |first2=L. A.}}.</ref><ref name=BrodieFate/><ref>{{citation |last1=Flinn |first1=Frederick B. |title=The effect on the pain threshold of ''N''-acetyl ''p''-aminophenol, a product derived in the body from acetanilide |journal=J. Pharmacol. Exp. Ther. |volume=94 |issue=1 |pages=76–77 |year=1948 |pmid=18885618 |last2=Brodie |first2=Bernard B.}}.</ref><ref name=Cahn/>  The observed methemoglobinemia after acetanilide administration was ascribed to the small proportion of acetanilide that is [[Hydrolysis|hydrolyzed]] to aniline in the body.
+
+==See also==
+*[[Nitroacetanilide]]
+
+==References==
+{{reflist|30em}}
+
+{{Prostanoidergics}}
+{{Authority control}}
+
+[[Category:Acetanilides| ]]
+[[Category:Photographic chemicals]]
+[[Category:Withdrawn drugs]]

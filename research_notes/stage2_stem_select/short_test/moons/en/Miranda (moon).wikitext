@@ -1,0 +1,261 @@
+{{Short description|Moon of Uranus}}
+{{Infobox planet
+| name = Miranda
+| alt_names = 
+| mpc_name = Uranus V
+| image = Miranda mosaic in color - Voyager 2.png
+| caption = Assembled mosaic of Miranda using imagery from ''[[Voyager 2]]'', January 1986. Large coronae scar Miranda's varied surface, with the bright angular corona at center being [[Inverness Corona]]
+| pronounced = {{IPAc-en|m|ə|ˈ|r|æ|n|d|ə}}<ref>{{OED|Miranda}}</ref>
+| adjectives = Mirandan,<ref>''Journal of Geophysical Research,'' v. 93 (1988)</ref> Mirandian<ref>{{Citation |last=Robertson |title=The life of Miranda |date=1929}}</ref>
+| type = icy round moon
+| discoverer = [[Gerard P. Kuiper]]
+| discovered = February 16, 1948
+| orbit_ref = {{sfn|Jacobson|Park|2025}}
+| periapsis = {{val|129664|u=km}}
+| apoapsis = {{val|130028|u=km}}
+| semimajor = {{val|129846|u=km}}
+| eccentricity = {{val|0.0014}}
+| period = {{val|1.413479|u=d}}
+| avg_speed = 6.68 km/s (calculated)
+| inclination = {{val|4.421|u=°}} (to Uranus's equator)
+| satellite_of = [[Uranus]]
+| dimensions = 480.8 × 468.4 × 465.8 km<br />(±1.2 × ±1.8 × {{±|2.2|2.6}} km){{sfn|Thomas|1988}}
+| mean_radius = {{val|235.8|0.7|u=km}} ({{val|0.03697|u=Earths}}){{sfn|Thomas|1988}}
+| surface_area = {{val|6.987|0.041|e=5|u=km2}}
+| volume = {{val|5.492|0.049|e=7|u=km3}}
+| mass = {{val|6.16|0.16|e=19|u=kg}}{{efn|1=Calculated from its [[standard gravitational parameter]] ''GM'' = {{val|4.11|0.11|u=km<sup>3</sup>/s<sup>2</sup>}}.{{sfn|Jacobson|Park|2025}}}}
+| density = {{val|1.12|0.03|u=g/cm3}} (calculated)
+| surface_grav = {{Gr|0.06158|235.8}} [[Acceleration|m/s<sup>2</sup>]]
+| escape_velocity = {{V2|0.06158|235.8}} km/s
+| rotation = [[Synchronous rotation|synchronous]]
+| axial_tilt = ~0°
+| albedo = 0.462 ± 0.006 ([[Geometric albedo|geometric]]){{sfn|Showalter|Lissauer|2006}}<br />0.200 ± 0.030 ([[Bond albedo|Bond]]){{sfn|Karkoschka, Hubble|2001}}
+| temp_name1 = solstice{{sfn|Hanel Conrath et al.|1986}}
+| mean_temp_1 = {{nowrap|≈&thinsp;60 [[Kelvin|K]]}}
+| max_temp_1 = {{val|84|1|u=K}}
+| min_temp_1 = ?
+| note = no
+| magnitude = 15.78–15.80 (± 0.04){{sfn|Karkoschka, Hubble|2001}}<br />(opposition)
+| abs_magnitude = 3.07–3.09 (± 0.04){{sfn|Karkoschka, Hubble|2001}}
+}}
+'''Miranda''' is the smallest and innermost of [[Uranus]]'s five round [[natural satellite|satellite]]s. It was discovered by [[Gerard Kuiper]] on 16 February 1948 at [[McDonald Observatory]] in [[Texas]], and named after [[Miranda (The Tempest)|Miranda]] from [[William Shakespeare]]'s play ''[[The Tempest]]''.{{sfn|Kuiper|1949}} Like the other large [[moons of Uranus]], Miranda orbits close to its planet's equatorial plane. Because Uranus orbits the [[Sun]] on its side, Miranda's orbit is nearly perpendicular to the [[ecliptic]] and shares Uranus's extreme seasonal cycle.
+
+At just {{cvt|470|km}} in diameter, Miranda is one of the smallest closely observed objects in the [[Solar System]] that might be in [[hydrostatic equilibrium]] (spherical under its own gravity), and its total surface area is roughly equal to that of the U.S. state of [[Texas]]. The only close-up images of Miranda are from the ''[[Voyager 2]]'' probe, which made observations of Miranda during its Uranus flyby in January 1986. During the flyby, Miranda's southern hemisphere pointed towards the [[Sun]], so only that part was studied.
+
+Miranda probably formed from an [[accretion disc]] that surrounded the planet shortly after its formation and, like other large moons, it is likely [[Planetary differentiation|differentiated]], with an inner core of rock surrounded by a [[mantle (geology)|mantle]] of ice. Miranda has one of the most extreme and varied topographies of any object in the Solar System, including [[Verona Rupes]], a roughly {{convert|20|km|mi|adj=mid|-high}} scarp that may be the highest [[cliff]] in the Solar System,<ref name="chaikin2001b">
+{{cite web
+| last = Chaikin
+| first = Andrew
+| date = 2001-10-16
+| title = Birth of Uranus' provocative moon still puzzles scientists
+| work = space.com
+| publisher = Imaginova Corp
+| page = 2
+| access-date = 2007-07-23
+| url = http://www.space.com/scienceastronomy/solarsystem/miranda_creation_011016-2.html
+}}
+</ref><ref name="nasa2016">
+{{Cite web
+|url=http://apod.nasa.gov/apod/ap161127.html
+|title=APOD: 2016 November 27 - Verona Rupes: Tallest Known Cliff in the Solar System
+|website=apod.nasa.gov
+|access-date=2018-02-20
+}}
+</ref> and chevron-shaped [[tectonic]] features called ''[[corona (planetary geology)|coronae]]''. The origin and evolution of this varied geology, the most of any Uranian satellite, are still not fully understood, and multiple hypotheses exist regarding Miranda's evolution.
+
+== Discovery and name ==
+[[File:Kuiper_colored.jpg|left|thumb|upright|Gerard P. Kuiper, discoverer of Miranda]]
+Miranda was discovered on 16 February 1948 by planetary astronomer [[Gerard Kuiper]] using the McDonald Observatory's {{convert|82|in|adj=on|-1}} [[Otto Struve Telescope]].{{sfn|Kuiper|1949}}{{sfn|Otto|2014}} Its motion around Uranus was confirmed on 1 March 1948.{{sfn|Kuiper|1949}} It was the first satellite of Uranus discovered in nearly 100 years. Kuiper elected to name the object "Miranda" after the [[Miranda (The Tempest)|character]] in [[Shakespeare]]'s ''[[The Tempest]]'', because the four previously discovered moons of Uranus, [[Ariel (moon)|Ariel]], [[Umbriel]], [[Titania (moon)|Titania]], and [[Oberon (moon)|Oberon]], had all been named after characters of Shakespeare or [[Alexander Pope]]. However, the previous moons had been named specifically after fairies,{{sfn|Barton|1946}} whereas Miranda was a human. Subsequently discovered satellites of Uranus were named after characters from Shakespeare and Pope, whether fairies or not. The moon is also designated Uranus V.
+
+Planetary moons other than Earth's were never given symbols in the astronomical literature. Denis Moskowitz, a software engineer who designed most of the [[dwarf planet]] symbols, proposed an M (the initial of Miranda) combined with the low globe of [[Jérôme Lalande]]'s Uranus symbol as the symbol of Miranda ([[File:Miranda symbol (fixed width).svg|16px]]). This symbol is not widely used.<ref name=moons>{{cite web |url=https://www.unicode.org/L2/L2025/25079-phobos-and-deimos.pdf |title=Phobos and Deimos symbols |last1=Bala |first1=Gavin Jared |last2=Miller |first2=Kirk |date=7 March 2025 |website=unicode.org |publisher=The Unicode Consortium |access-date=14 March 2025 |quote=}}</ref>
+
+== Orbit ==
+Of Uranus's five round satellites, Miranda orbits closest to it, at roughly 130&nbsp;000&nbsp;km from the surface; about a quarter again as far as its most distant [[rings of Uranus|ring]]. It is the round moon that has the smallest orbit around a major planet. Its [[orbital period]] is 34 hours and, like that of the [[Moon]], is synchronous with its [[rotation period]], which means it always shows the same face to Uranus, a condition known as [[tidal locking]]. Miranda's orbital [[inclination]] (4.42°) is unusually high for a body so close to its planet – roughly ten times that of the other major Uranian satellites, and 73 times that of Oberon.<ref name="nssdc">{{cite web|title=Uranian Satellite Fact Sheet|publisher=[[NASA]] (National Space Science Data Center) |last=Williams |first=Dr. David R.| url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html|date=2007-11-23|access-date=2008-12-20
+}}</ref> The reason for this is still uncertain; there are no [[mean-motion resonance]]s between the moons that could explain it, leading to the hypothesis that the moons occasionally pass through secondary resonances, which at some point in the past led to Miranda being locked for a time into a 3:1 resonance with Umbriel, before chaotic behaviour induced by the secondary resonances moved it out again.{{sfn|Moons|Henrard|1994}} In the Uranian system, due to the planet's lesser degree of [[oblate spheroid|oblate]]ness and the larger relative size of its satellites, escape from a mean-motion resonance is much easier than for satellites of [[Jupiter]] or [[Saturn]].{{sfn|Tittemore|Wisdom|1989}}{{sfn|Malhotra|Dermott|1990}}
+
+== Observation and exploration ==
+[[File:ESO-Uranus-Moons.jpg|thumb|Miranda, Uranus, and its other moons photographed by the [[Cerro Paranal Observatory]].]]
+Miranda's apparent magnitude at opposition peaks at +15.8,{{sfn|Karkoschka, Hubble|2001}} making it invisible to many amateur telescopes. Virtually all known information regarding its geology and geography was obtained during the [[List of planetary flybys|flyby]] of Uranus made by ''Voyager 2'' on 24 January 1986,<ref name=Burgess>{{cite book|title=Uranus and Neptune: The Distant Giants|url=https://archive.org/details/uranusneptunedis0000burg|url-access=registration|author=E. Burgess|publisher= Columbia University Press|isbn=978-0-231-06492-7|year=1988}}</ref> The closest approach of ''Voyager 2'' to Miranda was {{cvt|29000|km}}—significantly less than the distances to all other Uranian moons.<ref name="Stone 1987">{{cite journal| doi = 10.1029/JA092iA13p14873| last = Stone| first = E. C.| date = December 30, 1987| title = The Voyager 2 Encounter with Uranus| journal = Journal of Geophysical Research | volume = 92| issue = A13| pages = 14,873–14,876| bibcode = 1987JGR....9214873S| url = https://authors.library.caltech.edu/44149/1/jgra8696.pdf}}</ref> Of all the Uranian satellites, Miranda had the most visible surface.<ref name=miner>{{cite book|title=Uranus|editor=Jay T. Bergstralh |editor2=Ellis D. Miner |editor3=Mildred Shapley Matthews |year=1990 |publisher=University of Arizona Press|chapter=Physical Properties of the Uranian Satellites|author=R. H. Brown|pages=513–528|isbn=978-0-8165-1208-9}}</ref> The discovery team had expected Miranda to resemble Mimas, and found themselves at a loss to explain the moon's unique geography in the 24-hour window before releasing the images to the press.<ref name=Miner309>Miner, 1990, pp. 309-319</ref> In 2017, as part of its [[Planetary Science Decadal Survey]], [[NASA]] evaluated the possibility of an orbiter to return to Uranus some time in the 2020s.<ref>[http://solarsystem.nasa.gov/multimedia/download-detail.cfm?DL_ID=742 Vision and Voyages for Planetary Science in the Decade 2013–2022] {{webarchive|url=https://web.archive.org/web/20120902004050/http://solarsystem.nasa.gov/multimedia/download-detail.cfm?DL_ID=742 |date=2012-09-02 }}</ref> Uranus was the preferred destination over Neptune due to favourable planetary alignments meaning shorter flight times.<ref name="Plan Soc 2017">[http://www.planetary.org/blogs/jason-davis/2017/20170621-revisiting-ice-giants.html Revisiting the ice giants: NASA study considers Uranus and Neptune missions]. Jason Davis. ''The Planetary Society''. 21 June 2017.</ref>
+
+== Composition and internal structure ==
+[[File:ModestMiranda.jpg|thumb|Miranda's size compared to [[1 Ceres]] and the [[Moon]]]]
+At 1.12&nbsp;g/cm<sup>3</sup>, Miranda is the least dense of Uranus's round satellites. That density suggests a composition of more than 60% water ice.{{sfn|Smith|1986}} Miranda's surface may be mostly water ice, though it is far rockier than its corresponding satellites in the Saturn system, indicating that heat from [[radioactive decay]] may have led to [[internal differentiation]], allowing [[silicate]] rock and [[organic compound]]s to settle in its interior.<ref name=Burgess/><ref name=blom>{{cite book|title=Uranus|editor=Jay T. Bergstralh |editor2=Ellis D. Miner |editor3=Mildred Shapley Matthews|year=1991|publisher=University of Arizona Press|chapter=Geology of the Uranian Satellites|author=S.K. Croft |author2=L. A. Brown|pages=309–319|isbn=978-0-8165-1208-9}}</ref> Miranda is too small for any internal heat to have been retained over the age of the Solar System.<ref name=tanton/> Miranda is the least spherical of Uranus's satellites, with an equatorial diameter 3% wider than its polar diameter. Only water has been detected so far on Miranda's surface, though it has been speculated that [[methane]], [[ammonia]], [[carbon monoxide]] or nitrogen may also exist at 3% concentrations.<ref name=blom/><ref name=miner/> These bulk properties are similar to Saturn's moon [[Mimas (moon)|Mimas]], though Mimas is smaller, less dense, and more oblate.<ref name=miner/> In 2024, Strom et al.<ref name=":0" /> conducted geological mapping of Miranda's southern hemisphere based on spatially resolved images from the [[Voyager 2]] fly-by, followed by comparison of the observed geological features to modelling of [[Tidal force|tidal stress]] in [[Natural satellite|natural satellites]]. This study suggested that Miranda might have had a liquid ocean of about 100 km thickness beneath the surface within the last 100–500 million years.<ref name=":0">{{cite journal |last1=Strom |first1=Caleb |last2=Nordheim |first2=Tom A. |last3=Patthoff |first3=D. Alex |last4=Fieber-Beyer |first4=Sherry K. |title=Constraining Ocean and Ice Shell Thickness on Miranda from Surface Geological Structures and Stress Modeling |journal=The Planetary Science Journal |date=1 October 2024 |volume=5 |issue=10 |page=226 |doi=10.3847/PSJ/ad77d7|doi-access=free |bibcode=2024PSJ.....5..226S }}</ref>
+
+Precisely how a body as small as Miranda could have enough internal energy to produce the myriad of geological features seen on its surface has not been established with certainty,<ref name=tanton>{{cite book|title=Uranus, Neptune, Pluto and the Outer Solar System|author=Lindy Elkins-Tanton|year=2006|isbn=978-0-8160-5197-7|publisher=Facts On File|author-link=Lindy Elkins-Tanton|url-access=registration|url=https://archive.org/details/uranusneptuneplu00elki}}</ref> though the currently favoured hypothesis is that it was driven by [[tidal heating]] during a past time when it was in 3:1 orbital resonance with Umbriel.{{sfn|Tittemore|Wisdom|1990}} The resonance would have increased Miranda's [[orbital eccentricity]] to 0.1, and generated tidal friction due to the varying [[tidal force]]s from Uranus.{{sfn|Croft|Greenberg|1991}} As Miranda approached Uranus, tidal force increased; as it retreated, tidal force decreased, causing flexing that would have warmed Miranda's interior by 20 K, enough to trigger melting.{{sfn|Tittemore|Wisdom|1989}}{{sfn|Malhotra|Dermott|1990}}{{sfn|Croft|Greenberg|1991}} The period of tidal flexing could have lasted for up to 100 million years.{{sfn|Croft|Greenberg|1991}} Also, if [[clathrate]] existed within Miranda, as has been hypothesised for the satellites of Uranus, it may have acted as an insulator, since it has a lower conductivity than water, increasing Miranda's temperature still further.{{sfn|Croft|Greenberg|1991}} Miranda may have also once been in a 5:3 orbital resonance with Ariel, which would have also contributed to its internal heating. However, the maximum heating attributable to the resonance with Umbriel was likely about three times greater.{{sfn|Tittemore|Wisdom|1990}}
+
+== Geography ==
+Miranda has a unique surface.<ref name=Brahic2010_195>{{harvsp|A. Brahic|2010|p=195|id=Brahic2010}}</ref>{{sfn|Thomas|1988|p=427}} Among the geological structures that cover it are fractures, faults, valleys, craters, ridges, gorges, depressions, cliffs, and terraces.<ref name=Brahic2010_197>{{harvsp|A. Brahic|2010|p=197|id=Brahic2010}}</ref><ref name=Encrenaz2010_130>{{harvnb|Encrenaz|2010|p=130}}</ref> This moon is a mosaic of highly varied zones. Some areas are older and darker. As such, they bear numerous impact craters, as is expected of a small inert body.<ref name=Brahic2010_195/> Other regions are made of rectangular or ovoid strips. They feature complex sets of parallel ridges and rupes ([[Fault scarp|fault scarps]]) as well as numerous outcrops of bright and dark materials, suggesting an exotic composition.{{sfn|Smith|1986|p=43}} This moon is most likely composed only of water ice on the surface, as well as silicate rocks and other more or less buried organic compounds.{{sfn|Smith|1986|p=43}}
+
+{| class="wikitable"
+|+ Main geological structures visible on the known part of Miranda<ref name=usgs_ref>{{ cite web | url= https://planetarynames.wr.usgs.gov/AdvancedSearch | website= Gazetteer of Planetary Nomenclature | publisher= [[United States Geological Survey]] | title= Advanced nomenclature search | access-date= 4 June 2024 | author= ((Astrogeology Science Center)) }} Direct link to all official names of features on Miranda unavailable due to target site structure. Select "Miranda" from "Target" dropdown to view.</ref><br />(all named in reference to works by [[William Shakespeare]])
+!  Name  !! Type !! Length<br />(diameter)<br />(km) !! Latitude<br />(°) !! Longitude<br />(°) !! Origin of the name
+|-
+| Mantua Regio
+| rowspan="4"|[[Regio (astronomy)|Regiones]]|| 399 || −39.6 || 180.2 ||Italian region of part of the plot of ''[[The Two Gentlemen of Verona]]''
+|-
+| Ephesus Regio || 225 || −15 || 250 ||The twins' house in [[Turkey]] in ''[[The Comedy of Errors]]''
+|-
+| Sicilia Regio || 174 || −30 || 317.2 ||Italian region of the plot of ''[[The Winter's Tale]]''
+|-
+| Dunsinane Regio || 244 || −31.5 || 11.9 || Hill in [[Scotland]] at which [[Macbeth (Shakespeare)|Macbeth]] is defeated
+|-
+| Arden Corona
+| rowspan="3" | [[Corona (planetary geology)|Coronae]]|| 318 || −29.1 || 73.7 || Forest in England where the plot of ''[[As You Like It]]'' takes place
+|-
+| Elsinore Corona || 323 || −24.8   || 257.1 || Castle in [[Denmark]] that is the setting for ''[[Hamlet]]''
+|-
+| [[Inverness Corona]] || 234 || −66.9   || 325.7 || Macbeth's castle in [[Scotland]]
+|-
+| Argier Rupes
+| rowspan="2"|[[Rupes]]|| 141 || −43.2 || 322.8 || Region of [[France]] where the beginning of the plot of ''[[The Tempest]]'' takes place
+|-
+| [[Verona Rupes]]  || 116 || −18.3   || 347.8 || Italian city where the plot of ''[[Romeo and Juliet]]'' takes place
+|-
+| [[Alonso (crater)|Alonso]]
+| rowspan="7" | [[Impact crater]] || 25 || −44 || 352.6 || King of Naples in ''The Tempest''
+|-
+| Ferdinand || 17 || −34.8   || 202.1 || Son of the King of Naples in ''The Tempest''
+|-
+| Francisco || 14 || −73.2 || 236   || A lord of Naples in ''The Tempest''
+|-
+| Gonzalo || 11 || −11.4 || 77 || An honest old councilor from Naples in ''The Tempest''
+|-
+| Prospero || 21 || −32.9 || 329.9   || Legitimate Duke of Milan in ''The Tempest''
+|-
+| Stephano || 16 || −41.1 || 234.1   || A drunken butler in ''The Tempest''
+|-
+| Trinculo || 11 || −63.7 || 163.4   || A jester in ''The Tempest''
+|}
+
+=== Regiones ===
+The [[Regio (astronomy)|regiones]] identified on the images taken by the ''[[Voyager 2]]'' probe are named "Mantua Regio", "Ephesus Regio", "Sicilia Regio", and "Dunsinane Regio".<ref name=usgs_ref/> They designate major regions of Miranda where hilly terrain and plains follow one another, more or less dominated by ancient impact craters.{{sfn|Smith|1986|p=60}} Normal [[Fault (geology)|faults]] also mark these ancient regions. Some [[Escarpment|escarpments]] are as old as the formation of the regions while others are much more recent and appear to have formed after the coronae.{{sfn|Smith|1986|p=61}} These faults are accompanied by [[graben]]s characteristic of ancient tectonic activity.{{sfn|Smith|1986|p=60}} The surface of these regions is fairly uniformly dark. However, the cliffs bordering certain impact craters reveal, at depth, the presence of much more luminous material.{{sfn|Smith|1986|p=60}}
+
+=== Coronae ===
+[[File:Geographic Sketch Map Of Miranda.png|thumb|right|Illustration of the positions of the main geological structures on an image of Miranda]]
+Miranda is one of very few objects in the Solar system to have [[Corona (planetary geology)|crowns]] (also called coronae). The three known coronae observed on Miranda are named Inverness Corona near the south pole, Arden Corona at the [[Solar apex|apex]] of the moon's orbital motion, and Elsinore Corona at the antapex.<ref name=usgs_ref/> The highest [[albedo]] contrasts on Miranda's surface occur within the Inverness and Arden coronae.{{sfn|Smith|1986|p=59}}
+
+==== Inverness Corona ====
+[[File:InvernessCorona.png|thumb|The Inverness Corona is characterized by its white central "chevron". The crater Alonso is visible in the upper right, as well as the cliffs of Argier Rupes in the upper left.]]
+[[Inverness Corona]] is a trapezoidal region of approximately {{cvt|200|km}} on a side which lies near the south pole. This region is characterized by a central geological structure which takes the shape of a luminous chevron,<ref name=Plescia1987_445>{{harvsp|J. B. Plescia|1987|p=445|id=Plescia1987}}</ref> a surface with a relatively high albedo, and a series of gorges which extend northwards from a point near the pole.<ref name=Plescia1987_446>{{harvsp|J. B. Plescia|1987|p=446|id=Plescia1987}}</ref> At a latitude of around −55°, north-south oriented gorges tend to intersect with others, which follow an east-west direction.<ref name=Plescia1987_446/> The outer boundary of Inverness, as well as its internal patterns of ridges and bands of contrasting [[albedo]]s, form numerous salient angles.{{sfn|Smith|1986|p=59}} It is bounded on three sides (south, east and north) by a complex system of faults. The nature of the west coast is less clear, but may also be tectonic. Within the crown, the surface is dominated by parallel gorges spaced a few kilometers apart.<ref name=Plescia1987_445-446>{{harvsp|J. B. Plescia|1987|p=445–446|id=Plescia1987}}</ref> The low number of [[Impact crater|impact craters]] indicates that Inverness is the youngest among the three coronae observed on the surface of Miranda.<ref name=Plescia1987_442>{{harvsp|J. B. Plescia|1987|p=442|id=Plescia1987}}</ref>
+
+==== Arden Corona ====
+Arden Corona, present in the front hemisphere of Miranda, extends over approximately {{cvt|300|km}} from east to west. The other dimension, however, remains unknown because the terrain extended beyond the [[Terminator (solar)|terminator]] (on the hemisphere plunged into night) when ''Voyager 2'' photographed it. The outer margin of this corona forms parallel and dark bands which surround in gentle curves a more clearly rectangular core at least {{cvt|100|km}} wide. The overall effect has been described as an ovoid of lines.{{sfn|Smith|1986|p=59}} The interior and belt of Arden show very different morphologies. The interior topography appears regular and soft. It is also characterized by a mottled pattern resulting from large patches of relatively bright material scattered over a generally dark surface. The stratigraphic relationship between the light and dark marks could not be determined from the images provided by ''Voyager 2''. The area at the margin of Arden is characterized by concentric albedo bands which extend from the western end of the crown where they intersect crateriform terrain (near 40° longitude) and on the side east, where they extend beyond the, in the northern hemisphere (near 110° longitude).<ref name=Plescia1987_444>{{harvsp|J. B. Plescia|1987|p=444|id=Plescia1987}}</ref> The contrasting albedo bands are composed of outer fault scarp faces.<ref name=Plescia1987_444/> This succession of escarpments gradually pushes the land into a deep hollow along the border between Arden and the crateriform terrain called Mantua Regio.<ref name=Plescia1987_444/> Arden was formed during a geological episode which preceded the formation of Inverness but which is contemporary with the formation of Elsinore.<ref name=Plescia1987_442/>
+
+==== Elsinore Corona ====
+Elsinore Corona is the third corona, which was observed in the rear hemisphere of Miranda, along the [[Terminator (solar)|terminator]]. It is broadly similar to Arden in size and internal structure. They both have an outer belt about {{cvt|100|km}} wide, which wraps around an inner core.{{sfn|Smith|1986|p=59}} The [[topography]] of the core of Elsinore consists of a complex set of intersections of troughs and bumps which are truncated by this outer belt which is marked by roughly concentric linear ridges. The troughs also include small segments of rolling, cratered terrain.{{sfn|Smith|1986|p=59}} Elsinore also presents segments of furrows, called "''[[Sulcus (geology)|sulcus]]''",<ref name=usgs_ref/> comparable to those observed on [[Ganymede (moon)|Ganymede]].{{sfn|Smith|1986|p=59}}
+[[File:Miranda High Resolution of Large Fault (rotated).jpg|thumb|Close-up view of [[Verona Rupes]], a cliff {{cvt|5 to 20|km}} high.{{sfn|PIA00044}}]]
+
+=== Rupes ===
+Miranda also features enormous [[escarpment|escarpments]] that can be traced across the moon. Some of them are older than the coronae, others younger. The most spectacular fault system begins at a deep valley visible at the terminator.
+
+This network of faults begins on the northwest side of Inverness where it forms a deep gorge on the outer edge of the ovoid which surrounds the crown.{{sfn|Smith|1986|p=59}} This geological formation is named "''Argier Rupes''".<ref name=usgs_ref/>
+
+The most impressive fault then extends to the terminator, extending from the top of the central "chevron" of Inverness.{{sfn|Smith|1986|p=59}} Near the terminator, a gigantic luminous cliff, named [[Verona Rupes]],<ref name=usgs_ref/> forms complex [[graben]]s. The fault is approximately {{cvt|20|km}} wide, the graben at the bright edge is 10 to {{cvt|15|km}} deep.{{sfn|Smith|1986|p=59}} The height of the sheer cliff is 5 to {{cvt|10|km}}.{{sfn|Smith|1986|p=59}} Although it could not be observed by the ''Voyager 2'' probe on the face immersed in the [[polar night]] of Miranda, it is probable that this geological structure extends beyond the terminator in the northern hemisphere.<ref name=Plescia1987_442 />
+
+=== Impact craters ===
+During the close flyby of ''Voyager 2'' in January 1986, only the craters on the southern hemisphere of Miranda could be observed. They generally had diameters of over {{cvt|500|m}}, representing the limit of resolution of the digital images transmitted by the probe during its flight.<ref name=Plescia1987_442 /> These craters have very varied morphologies. Some have well-defined borders and are sometimes surrounded by ejecta deposits characteristic of [[impact crater|impact craters]]. Others are very degraded and sometimes barely recognizable, as their topography has been altered.<ref name=Plescia1987_443>{{harvsp|J. B. Plescia|1987|p=443|id=Plescia1987}}</ref> The age of a crater does not give an indication of the date of formation of the terrain it marked. On the other hand, this date depends on the number of craters present on a site, regardless of their age.<ref name=Plescia1987_448>{{harvsp|J. B. Plescia|1987|p=448|id=Plescia1987}}</ref> The more impact craters a terrain has, the older it is. Scientists use these as "planetary chronometers"; they count observed craters to date the formation of the terrain of inert natural satellites devoid of atmospheres, such as [[Callisto (moon)|Callisto]].<ref name=Brahic2010_185-186>{{harvsp|A. Brahic|2010|p=185–186|id=Brahic2010}}</ref>
+
+No multiple ring crater, nor any complex crater with a central peak, has been observed on Miranda.<ref name=Plescia1987_443/> Simple craters, that is to say whose cavity is bowl-shaped, and transitional craters (with a flat bottom) are the norm, with their diameter not correlated to their shape.<ref name=Plescia1987_443/> Thus simple craters of more than {{cvt|15|km}} are observed while elsewhere transitional craters of {{cvt|2.5|km}} have been identified.<ref name=Plescia1987_443/> Ejecta deposits are rare, and are never associated with craters larger than {{cvt|15|km}} in diameter.<ref name=Plescia1987_443/> The ejecta that sometimes surround craters with a diameter less than {{cvt|3|km}} appear systematically brighter than the material surrounding them. On the other hand, ejecta associated with craters of size between {{cvt|3|km}} and {{cvt|15|km}} are generally darker than what surrounds them (the albedo of the ejecta is lower than that of the matter surrounding them).<ref name=Plescia1987_443/> Finally, some ejecta deposits, associated with diameters of all sizes, have an albedo comparable to that of the material on which they rest.<ref name=Plescia1987_443/>
+
+==== In regiones ====
+In some regiones, and particularly in those of the visible part of the anti-Uranian hemisphere (which continually turns its back on the planet), craters are very frequent. They are sometimes stuck to each other with very little space between each one.<ref name=Plescia1987_443/> Elsewhere, craters are less frequent and are separated by large, weakly undulated surfaces.<ref name=Plescia1987_443/> The rim of many craters is surrounded by luminous material while streaks of dark material are observed on the walls which surround the bottom of the craters.<ref name=Plescia1987_443/> In Matuna Regio, between the craters Truncilo and Fransesco, there is a gigantic circular geological structure of {{cvt|170|km}} in diameter which could be a [[Impact crater|basin impact]] very significantly degraded.<ref name=Plescia1987_443/> These findings suggest that these regions contain a shiny material at shallow depth, while a layer of dark material (or a material which darkens upon contact with the external environment) is present, at greater depth.<ref name=Plescia1987_444/>
+
+==== In coronae ====
+Craters are statistically up to ten times less numerous in the coronae than in the anti-Uranian regions, which indicates that these formations are younger.<ref name=Plescia1987_449>{{harvsp|J. B. Plescia|1987|p=449|id=Plescia1987}}</ref>
+
+The density of impact craters could be established for different areas of Inverness, and made it possible to establish the age of each.<ref name=Plescia1987_450>{{harvsp|J. B. Plescia|1987|p=450|id=Plescia1987}}</ref> Considering these measurements, the entire geological formation was formed in a relative unit of time.<ref name=Plescia1987_451>{{harvsp|J. B. Plescia|1987|p=451|id=Plescia1987}}</ref> However, other observations make it possible to establish that the youngest zone, within this crown, is the one which separates the "chevron", from Argier Rupes.<ref name=Plescia1987_451/>
+
+The density of impact craters in the core and in the Arden belt is statistically similar.<ref name=Plescia1987_450/> The two distinct parts of this formation must therefore have been part of a common geological episode.<ref name=Plescia1987_450/> Nevertheless, the superposition of craters on bands of the central core of Arden indicates that its formation preceded that of the scarps which surround it.<ref name=Plescia1987_450/> The data from the impact craters can be interpreted as follows: the interior and marginal zones of the corona, including most of the albedo bands, were formed during the same period of time.<ref name=Plescia1987_450/> Their formation was followed by later tectonic developments which produced the high-relief fault scarps observed along the edge of the crown near longitude 110°.<ref name=Plescia1987_450/>
+
+The density of impact craters seems the same in the structure surrounding Elsinore as in its central core.<ref name=Plescia1987_452>{{harvsp|J. B. Plescia|1987|p=452|id=Plescia1987}}</ref> The two zones of the crown seem to have formed during the same geological period, but other geological elements suggest that the perimeter of Elsinore is younger than its core.<ref name=Plescia1987_452/>
+
+==== Other observations ====
+The number of craters should be higher in the hemisphere at the apex of the orbital movement than at the antapex.<ref name=Plescia1987_454>{{harvsp|J. B. Plescia|1987|p=454|id=Plescia1987}}</ref> However, it is the anti-Uranian hemisphere which is densest in craters.<ref name=Plescia1987_455>{{harvsp|J. B. Plescia|1987|p=455|id=Plescia1987}}</ref> This situation could be explained by a past event having caused a reorientation of Miranda's axis of rotation by 90° compared to that which is currently known.<ref name=Plescia1987_455/> In this case, the paleoapex hemisphere of the moon would have become the current anti-Uranian hemisphere.<ref name=Plescia1987_455/> However, the count of impact craters being limited to the southern hemisphere only, illuminated during the passage of the Voyager 2 probe, it is possible that Miranda has experienced a more complex reorientation and that its paleoapex is located somewhere in the northern hemisphere, which has not yet been photographed.<ref name=Plescia1987_455/>
+
+== Origin and formation ==
+Several scenarios are proposed to explain its formation and geological evolution.<ref name="Plescia1987_442"/><ref name=Brahic2010_195/> One of them postulates that it would result from the [[Accretion (astrophysics)|accretion]] of a disk of gas and dust called a "subnebula".<ref name="Mousis2004">{{harvsp|O. Mousis|2004|p=373|id=Mousis2004}}</ref> This sub-nebula either existed around Uranus for some period of time after its formation, or was created following a [[Impact event|cosmic impact]] which would have given its great obliquity to the axis of rotation of Uranus.<ref name="Mousis2004"/> However, this relatively small moon has areas that are surprisingly young compared to the [[geological time scale]].<ref name="Peale1988_153">{{harvsp|S. J. Peale|1988|p=153|id=Peale1988}}</ref> It seems that the most recent geological formations only date back a few hundred million years.<ref name=Plescia1987_458/> However, thermal models applicable to moons the size of Miranda predict rapid cooling and the absence of geological evolution following its accretion from the subnebula.<ref name=Plescia1987_459/> Geological activity over such a long period cannot be justified either by the heat resulting from the initial accretion, nor by the heat generated by the [[nuclear fission|fission of radioactive materials]] involved in the formation.<ref name=Plescia1987_459 />
+
+Miranda has the youngest surface among those of the satellites of the Uranian system, which indicates that its geography has undergone the most important evolutions.<ref name="Plescia1987_442"/> This geography would be explained by a complex geological history including a still unknown combination of different astronomical phenomena.<ref name=Brahic2010_195/> Among these phenomena would be [[tidal forces]], mechanisms of [[Orbital resonance|orbital resonances]], processes of [[Planetary differentiation|partial differentiation]], or even movements of [[convection]].<ref name=Brahic2010_195/>
+
+The geological patchwork could be partly the result of a catastrophic collision with an [[Impact event|impactor]].<ref name=Brahic2010_195/> This event may have completely dislocated Miranda.<ref name=Plescia1987_442/> The different pieces would then have re-assembled, then gradually reorganized in the spherical form that the ''[[Voyager 2]]'' probe photographed.<ref name=Waldrop1986_916>{{harvsp| Waldrop|1986|p=916|id=Waldrop1986}}</ref> Some scientists even speak of several cycles of collision and re-accretion of the moon.{{sfn| Croft |Greenberg|1991|p=561}} This geological hypothesis was depreciated in 2011 in favor of hypotheses involving Uranian tidal forces. These would have pulled and turned the materials present under Inverness and Arden to create fault scarps. The stretching and distortion caused by Uranus's gravity, which alone could have provided the heat source necessary to power these uprisings.<ref name=Cowen1993>{{harvsp|R. Cowen|1993|p=300|id=Cowen1993}}</ref>
+
+The oldest known regions on the surface of Miranda are cratered plains such as Sicilia Regio and Ephesus Regio.<ref name=Plescia1987_458>{{harvsp|J. B. Plescia|1987|p=458|id=Plescia1987}}</ref> The formation of these terrains follows the accretion of the moon<!--Previously said "star" which is obviously an error--> then its cooling.<ref name=Plescia1987_458/> The bottoms of the oldest craters are thus partially covered with material from the depths of the moon referred to as endogenous resurfacing, which was a surprising observation.<ref name=Plescia1987_458/> The geological youth of Miranda demonstrates that a heat source then took over from the initial heat provided by the accretion of the moon.<ref name=Plescia1987_458/> The most satisfactory explanation for the origin of the heat which animated the moon is the one which also explains the [[volcanism on Io]]: a situation of [[orbital resonance]] now on Miranda and the important phenomenon of [[tidal force]]s generated by Uranus.<ref name="Peale1988_153"/>
+
+After this first geological epoch, Miranda experienced a period of cooling which generated an overall extension of its core and produced fragments and cracks of its mantle on the surface, in the form of [[graben]]s.<ref name=Plescia1987_458 /> It is indeed possible that Miranda, [[Ariel (moon)|Ariel]], and [[Umbriel]] participated in several important resonances involving the pairs Miranda/Ariel, Ariel/Umbriel, and Miranda/Umbriel.<ref name="Peale1988_154">{{harvsp|S. J. Peale|1988|p=154|id=Peale1988}}</ref> Unlike those observed on Jupiter's moon [[Io (moon)|Io]], these orbital resonance phenomena between Miranda and Ariel could not lead to a stable capture of the small moon.<ref name="Peale1988_154"/> Instead of being captured, Miranda's orbital resonance with Ariel and Umbriel may have led to the increase in its eccentricity and orbital inclination.<ref name="Peale1988_157">{{harvsp|S. J. Peale|1988|p=157|id=Peale1988}}</ref> By successively escaping several orbital resonances, Miranda alternated phases of heating and cooling.<ref name="Peale1988_169"/> Thus all the known grabens of Miranda were not formed during this second geological episode.<ref name=Plescia1987_458/>
+
+A third major geological epoch occurs with the orbital reorientation of Miranda and the formation of Elsinore and Arden coronae.<ref name=Plescia1987_458/> A singular volcanic event, made of flows of solid materials, could then to have taken place, within the coronae in formation.<ref name=Jankowski1988_1325>{{harvsp| Jankowski |Squyres|1988|p=1325|id=Jankowski1988}}</ref> Another explanation proposed for the formation of these two coronae would be the product of a [[diapir]] which would have formed in the heart of the moon.{{sfn|Pappalardo|Greeley|1993}}{{sfn|Pappalardo|Reynolds|Greeley|1997}} On this occasion Miranda would have at least partially differentiated.{{sfn|Pappalardo|Greeley|1993}} Considering the size and position of these coronae, it is possible that their formation contributed to changing the [[moment of inertia]] of the moon.<ref name=Plescia1987_455 /> This could have caused a 90° reorientation of Miranda.<ref name=Plescia1987_455/> Doubt remains as to the concomitant existence of these two formations.<ref name=Plescia1987_455/> It is possible that at this time, the moon was distorted to the point that its asphericity and eccentricity temporarily caused it to undergo a chaotic rotational movement, such as that observed on [[Hyperion (moon)|Hyperion]].<ref name="Peale1988_169"/> If Miranda's orbital reorientation occurred before the two coronae formed on the surface, then Elsinore would be older than Arden.<ref name=Plescia1987_458/> Chaotic movement phenomena generated by the entry into 3:1 resonance between the orbit of Miranda and that of Umbriel could have contributed to an increase in Miranda's orbital inclination greater than 3°.<ref name="Peale1988_157"/>
+
+A final geological episode consists of the formation of Inverness which seems to have induced surface tensions which gave rise to the creation of additional grabens including Verona Rupes and Argier Rupes.<ref name=Plescia1987_458/> Following this new cooling of Miranda, its total volume could have increased by 4%.<ref name="Croft1992_416">{{harvsp|Croft|1992|p=416|id=Croft1992}}</ref> It is probable that these different geological episodes followed one another without interruption.<ref name=Plescia1987_458/>
+
+Ultimately, Miranda's geological history may have spanned a period of more than 3 billion years. It would have started 3.5 billion years ago with the appearance of heavily cratered regions and ended a few hundred million years ago, with the formation of the coronae.<ref name=Plescia1987_459>{{harvsp|J. B. Plescia|1987|p=459|id=Plescia1987}}</ref>
+
+The phenomena of orbital resonances, and mainly that associated with [[Umbriel]], but also, to a lesser extent, that of [[Ariel (moon)|Ariel]], would have had a significant impact on the orbital eccentricity of Miranda,{{sfn|Tittemore|Wisdom|1990}} and would also have contributed to the internal heating and geological activity of the moon. The whole would have induced convection movements in its substrate and allowed the start of planetary differentiation.{{sfn|Tittemore|Wisdom|1990}} At the same time, these phenomena would have only slightly disturbed the orbits of the other moons involved, which are more massive than Miranda.{{sfn|Tittemore|Wisdom|1990}} However, Miranda's surface may appear too tortured to be the sole product of orbital resonance phenomena.<ref name="Peale1988_169">{{harvsp|S. J. Peale|1988|p=169|id=Peale1988}}</ref>
+
+After Miranda escaped from this resonance with Umbriel, through a mechanism that likely moved the moon into its current, abnormally high orbital tilt, the eccentricity would have been reduced.{{sfn|Tittemore|Wisdom|1990}} The tidal forces would then have erased the eccentricity and the temperature at the heart of the moon. This would have allowed it to regain a spherical shape, without allowing it to erase the impressive geological artifacts such as Verona Rupes.<ref name="Peale1988_169"/> This eccentricity being the source of the [[Tidal force|tidal forces]], its reduction would have deactivated the heat source which fueled the ancient geological activity of Miranda, making it a cold and inert moon.{{sfn|Tittemore|Wisdom|1990}}
+
+== See also ==
+* [[List of geological features on Miranda]]
+{{Clear}}
+
+== References ==
+
+=== Notes ===
+{{notes}}
+
+=== Citations ===
+<references />
+
+=== Sources ===
+{{refbegin|2}}
+
+* {{cite journal|title=The Names of the Satellites|last=Barton|first=S. G.|journal=Popular Astronomy|year=1946 |volume=54|page=122|bibcode=1946PA.....54..122B}}
+* {{ Cite book | last=Brahic |first=André | title=De feux et de glaces, ardentes géantes| place=Paris|publisher =Odile Jacob|date= 2010| isbn=978-2-7381-2330-5 | language= fr | ref={{sfnref|A. Brahic|2010}} }}
+* {{ Cite periodical| author= R. Cowen| title=Miranda: Shattering an old image | periodical =Science News, Society for Science & the Public|volume =144|number =19|date= 1993|page=  300| jstor=3977582}}
+*{{ Cite journal|first=  Steven K. | last=Croft| title =Proteus: Geology, Shape, and Catastrophic Destruction |journal =Icarus | publisher=The Lunar and Planetary Institute| volume =99|date= 1992| issue=2|pages = 402–419 | doi=10.1016/0019-1035(92)90156-2 | bibcode=1992Icar...99..402C| url= https://archive.wikiwix.com/cache/?url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2F0019103592901562 | url-access=subscription}}
+* {{cite book|title=Uranus|editor=Jay T. Bergstralh |editor2=Ellis D. Miner|editor3=Mildred Shapley Matthews|year=1991|publisher=University of Arizona Press|chapter=Geology of the Uranian Satellites|last1=Croft|first1=S. K. |last2=Greenberg|first2=R.|pages=693–735|isbn=978-0-8165-1208-9}}
+* {{ Cite book | last=Encrenaz |first=Thérèse|title =Les planètes, les nôtres et les autres | publisher =Les Ulis| series =EDP Sciences collection  | date = 2010| language= fr|isbn = 978-2-7598-0444-3}}
+* {{ Cite book | first= Charles| last= Frankel| title =Dernières nouvelles des planètes| place= Paris | publisher=Seuil|series=  Science ouverte | language= fr| date=2009 | isbn= 978-2-02-096549-1}}
+* {{cite journal| doi = 10.1126/science.233.4759.70| last1 = Hanel| first1 = R.| last2 = Conrath| first2 = B.| last3 = Flasar| first3 = F. M.| last4 = Kunde| first4 = V.| last5 = Maguire| first5 = W.| last6 = Pearl| first6 = J.| last7 = Pirraglia| first7 = J.| last8 = Samuelson| first8 = R.| last9 = Cruikshank| first9 = D.| date = 4 July 1986| title = Infrared Observations of the Uranian System| journal = Science| volume = 233| issue = 4759| pages = 70–74| pmid = 17812891| bibcode = 1986Sci...233...70H| s2cid = 29994902| ref = {{sfnRef|Hanel Conrath et al.|1986}}}}
+* {{Cite journal |last1=Jacobson |first1=Robert A. |last2=Park |first2=Ryan S. |date=2025-02-03 |title=The Orbits of Uranus, Its Satellites and Rings, the Gravity Field of the Uranian System, and the Orientation of the Poles of Uranus and Its Satellites |journal=The Astronomical Journal |volume=169 |issue=2 |pages=65 |doi=10.3847/1538-3881/ad99d1 |bibcode=2025AJ....169...65J |doi-access = free |issn=0004-6256}}
+* {{ Cite periodical| author1-first= David G. | author1-last=Jankowski |author2-first =Steven W. |author2-last=Squyres|title=Solid-State Ice Volcanism on the Satellites of Uranus |magazine= Science News|publisher =American Association for the Advancement of Science|volume=241|number =4871|date= 1988| page= |pages=1322–1325| jstor= 1702093}}
+* {{cite journal| doi = 10.1006/icar.2001.6596| last = Karkoschka| first = Erich| author-link = Erich Karkoschka| year = 2001| title = Comprehensive Photometry of the Rings and 16 Satellites of Uranus with the Hubble Space Telescope| journal = Icarus| volume = 151| issue = 1| pages = 51–68| bibcode = 2001Icar..151...51K| ref = {{sfnRef|Karkoschka, Hubble|2001}}}}
+* {{cite web| url = http://photojournal.jpl.nasa.gov/catalog/PIA00044| title = PIA00044: Miranda high resolution of large fault| date = 29 January 1996| access-date = 2007-07-23| publisher = JPL, NASA|ref={{sfnRef|PIA00044}}}}
+* {{Cite journal |last=Kuiper|first=G. P.|title=The Fifth Satellite of Uranus |url=https://adsabs.harvard.edu//full/seri/PASP./0061//0000129.000.html |volume=61|issue=360|page=129|date=June 1949|journal=Publications of the Astronomical Society of the Pacific|doi=10.1086/126146 |bibcode=1949PASP...61..129K }}
+* {{cite web|title=Otto Struve Telescope|publisher=MacDonald Observatory|date=2014|url=http://www.mcdonaldobservatory.org/research/telescopes/struve|access-date=2014-10-21|ref={{sfnRef|Otto|2014}}}}
+* {{cite journal| doi = 10.1016/0019-1035(90)90126-T| last1 = Malhotra| first1 = Renu| last2 = Dermott| first2 = Stanley F.| date=June 1990 | title = The role of secondary resonances in the orbital history of Miranda| journal = Icarus| volume = 85| issue = 2| pages = 444–480| issn = 0019-1035| bibcode = 1990Icar...85..444M| doi-access = free}}
+* {{cite journal|title=Surfaces of Section in the Miranda-Umbriel 3:1 Inclination Problem|last1=Moons|first1=Michele|last2=Henrard|first2=Jacques|journal=Celestial Mechanics and Dynamical Astronomy
+|date=June 1994|volume=59|issue=2|pages=129–148|doi=10.1007/bf00692129|bibcode = 1994CeMDA..59..129M |s2cid=123594472}}
+* {{ Cite journal| author=  O. Mousis|title= Modeling the thermodynamical conditions in the Uranian subnebula - Implications for regular satellite composition| journal =Astronomy and Astrophysics|volume =413|date= 2004|pages=373–380 | doi=10.1051/0004-6361:20031515   | doi-access=free| bibcode=  2004A&A...413..373M }}
+* {{cite conference| last1 = Pappalardo| first1 = Robert T.| last2 = Greeley| first2 = Ronald| date = 1993| title = Structural evidence for reorientation of Miranda about a paleo-pole| book-title = In Lunar and Planetary Inst., Twenty-Fourth Lunar and Planetary Science Conference. Part 3: N-Z| pages = 1111–1112| bibcode = 1993LPI....24.1111P}}
+* {{cite journal| doi = 10.1029/97JE00802| last1 = Pappalardo| first1 = Robert T.| last2 = Reynolds| first2 = Stephen J.| last3 = Greeley| first3 = Ronald| date = 1997-06-25| title = Extensional tilt blocks on Miranda: Evidence for an upwelling origin of Arden Corona| journal = Journal of Geophysical Research| volume = 102| issue = E6| pages = 13,369–13,380| bibcode = 1997JGR...10213369P| <!-- ref = {{sfnRef|Pappalardo Reynolds et al.|1997}}| --> doi-access = free}}
+* {{ cite journal | author= S. J. Peale | title= Speculative Histories of the Uranian Satellite System |journal =Icarus| volume =74|date= 1988| issue= 2 |pages= 153–171| bibcode = 1988Icar...74..153P |s2cid= 120326872 | doi= 10.1016/0019-1035(88)90037-1}}
+* {{ cite journal| author=J. B. Plescia | title= Cratering History of Miranda: Implications for Geologic Processes |journal =Icarus|volume =73 |issue= 3 | date=1987 |pages= 442–461 |doi =10.1016/0019-1035(88)90055-3}}
+* {{cite journal|title=Voyager 2 in the Uranian System: Imaging Science Results|last=Smith|first=B. A. |display-authors=etal |journal=Science|date=4 July 1986|volume=233|issue=4759 |pages=43–64 |doi=10.1126/science.233.4759.43|pmid=17812889|bibcode = 1986Sci...233...43S |s2cid=5895824 |url=https://zenodo.org/record/1230972 }}
+*{{cite journal|last1=Showalter|first1=Mark R.|author-link1=Mark R. Showalter|last2=Lissauer|first2=Jack J.|author-link2=Jack J. Lissauer|date=17 February 2006|title=The Second Ring-Moon System of Uranus: Discovery and Dynamics|journal=Science|volume=311|issue=5763|pages=973–977|doi=10.1126/science.1122882|url=https://www.science.org/doi/10.1126/science.1122882|url-access=subscription| pmid = 16373533| bibcode = 2006Sci...311..973S| s2cid = 13240973|jstor=3843556|issn=0036-8075|eissn=1095-9203}}
+* {{cite journal| doi = 10.1016/0019-1035(89)90070-5| last1 = Tittemore| first1 = William C.| last2 = Wisdom| first2 = Jack| date=March 1989 | title = Tidal evolution of the Uranian satellites: II. An explanation of the anomalously high orbital inclination of Miranda| journal = Icarus| volume = 78| issue = 1| pages = 63–89| bibcode = 1989Icar...78...63T| hdl = 1721.1/57632| hdl-access = free}}
+* {{cite journal| doi = 10.1016/0019-1035(90)90125-S| last1 = Tittemore| first1 = William C.| last2 = Wisdom| first2 = Jack| date=June 1990 | title = Tidal evolution of the Uranian satellites: III. Evolution through the Miranda-Umbriel 3:1, Miranda-Ariel 5:3, and Ariel-Umbriel 2:1 mean-motion commensurabilities| journal = Icarus| volume = 85| issue = 2| pages = 394–443| bibcode = 1990Icar...85..394T| url = http://dspace.mit.edu/bitstream/1721.1/57632/2/19834233-MIT.pdf| hdl = 1721.1/57632| hdl-access = free}}
+* {{cite journal|year=1988|doi=10.1016/0019-1035(88)90054-1|bibcode=1988Icar...73..427T|pages=427–441 |volume=73 | first=P. C.|last=Thomas|title=Radii, shapes, and topography of the satellites of Uranus from limb coordinates|journal=Icarus|issue=3|doi-access=free}}
+* {{ Cite periodical| first= M. Mitchell| last= Waldrop| title=Voyage to a Blue Planet |magazine=Science News|publisher =American Association for the Advancement of Science|volume=  231|number =4741|date=1986|pages= 916–918| jstor=1696951}}
+{{refend}}
+
+<!-- <ref>{{cite web|url=https://www.johnstonsarchive.net/astro/solar_system_phys_data.html|title=Physical data for solar system planets and satellites|author=Wm. Robert Johnston|date=August 22, 2025}}</ref> -->
+
+== External links ==
+{{Commons category|Miranda (moon)}}
+* [https://web.archive.org/web/20151016012858/http://solarsystem.nasa.gov/planets/profile.cfm?Object=Ura_Miranda Miranda Profile] at [http://solarsystem.nasa.gov NASA's Solar System Exploration site]
+* [http://www.nineplanets.org/miranda.html Miranda page] at ''The Nine Planets''
+* [http://www.solarviews.com/eng/miranda.htm Miranda, a Moon of Uranus] at ''Views of the Solar System''
+* [https://stereomoons.blogspot.com/2009/09/mirandas-warning.html Paul Schenk's 3D images and flyover videos of Miranda and other outer solar system satellites]
+* [https://planetarynames.wr.usgs.gov/Page/MIRANDA/target Miranda Nomenclature] from the [https://planetarynames.wr.usgs.gov/ USGS Planetary Nomenclature web site]
+
+{{Uranus}}
+{{Moons of Uranus}}
+{{Solar System moons (compact)}}{{Solar System}}{{Portal bar|Astronomy|Stars|Spaceflight|Outer space|Solar System}}
+{{Authority control}}
+
+[[Category:Moons of Uranus]]
+[[Category:Miranda (moon)| ]]
+[[Category:Astronomical objects discovered in 1948|19480216]]
+[[Category:Discoveries by Gerard Kuiper]]
+[[Category:Moons with a prograde orbit]]
+[[Category:The Tempest]]

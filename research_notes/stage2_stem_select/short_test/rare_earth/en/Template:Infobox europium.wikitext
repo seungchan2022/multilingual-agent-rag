@@ -1,0 +1,76 @@
+{{Infobox element
+|symbol =Eu
+|Z      =63
+|number =63
+|name   =europium
+|abundance=
+|abundance in earth's crust=
+|abundance in oceans=
+|abundance in solar system=
+|left=[[samarium]]
+|right=[[gadolinium]]
+|above=–
+|below=[[americium|Am]]
+|image name=Europium.jpg
+|appearance=silvery white, with a pale yellow tint;<ref>{{Greenwood&Earnshaw|page=112}}</ref> but rarely seen without oxide discoloration
+|electrons per shell=2, 8, 18, 25, 8, 2
+|phase=
+|density=5.246&nbsp;g/cm<sup>3</sup>&thinsp;<ref name="Arblaster 2018" />
+|density conditions=(at&nbsp;20°&nbsp;C)
+|density gpcm3mp=5.13
+|melting point K=1099
+|melting point C=826
+|melting point F=1519
+|boiling point K=1802
+|boiling point C=1529
+|boiling point F=2784
+|heat fusion=9.21
+|heat vaporization=176
+|heat capacity=27.66
+|vapor pressure 1=863
+|vapor pressure 10=957
+|vapor pressure 100=1072
+|vapor pressure 1 k=1234
+|vapor pressure 10 k=1452
+|vapor pressure 100 k=1796
+|vapor pressure comment=
+|crystal structure=body-centered cubic
+|crystal structure Pearson symbol=cI2
+|lattice constant=''a''&nbsp;=&nbsp;458.22&nbsp;pm (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018">{{cite book |last=Arblaster |first= John W. |title=Selected Values of the Crystallographic Properties of Elements |publisher=ASM International |publication-place=Materials Park, Ohio |date=2018 |isbn=978-1-62708-155-9}}</ref>
+|electronegativity=1.2
+|electronegativity comment=
+|number of ionization energies=3
+|ionization energy 1=547.1
+|ionization energy 2=1085
+|ionization energy 3=2404
+|atomic radius=180
+|covalent radius=198±6
+|magnetic ordering=[[paramagnetic]]
+|magnetic ordering ref=<ref name=magnet>{{cite book |url=https://web.archive.org/web/20110303222309/http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/elementmagn.pdf|chapter=Magnetic susceptibility of the elements and inorganic compounds| editor = Lide, D. R. | title = CRC Handbook of Chemistry and Physics | edition = 86th | location = Boca Raton (FL) | publisher = CRC Press | year = 2005 | isbn = 0-8493-0486-5 }}
+</ref>
+|electrical resistivity unit prefix=µ
+|electrical resistivity=poly: 0.900
+|electrical resistivity comment=(at {{abbr|r.t.|room temperature}})
+|thermal conductivity=est. 13.9
+|thermal expansion=<!-- see thermal expansion comment -->
+|thermal expansion comment={{val|26.3|e=−6}}/K (at&nbsp;20&nbsp;°C)<ref name="Arblaster 2018" />
+|magnetic susceptibility= {{val|+34,000.0|e=−6}}
+|magnetic susceptibility ref= <ref>{{Cite book|title=CRC, Handbook of Chemistry and Physics|last=Weast|first=Robert|publisher=Chemical Rubber Company Publishing|year=1984|isbn=0-8493-0464-4|location=Boca Raton, Florida|pages=E110}}</ref>
+|Young's modulus=18.2
+|Shear modulus=7.9
+|Bulk modulus=8.3
+|Poisson ratio=0.152
+|Vickers hardness=165–200
+|CAS number=7440-53-1
+|naming=after Europe
+|discovered by=[[Eugène-Anatole Demarçay]]
+|discovery date=1896
+|first isolation date=1937
+|QID=Q1396
+}}<!--
+
+--><noinclude>
+{{Infobox element/element navigation|symbol=Eu}}
+{{Template reference list}}
+{{documentation|1=Template:Infobox element/doc}}
+</noinclude>

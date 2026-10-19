@@ -1,0 +1,1149 @@
+{{short description|Star in the constellation Eridanus}}
+{{about-distinguish|ε Eridani|82 G. Eridani{{!}}e Eridani}}
+{{Use mdy dates|date=July 2019}}
+{{Use British English|date=July 2019}}
+{{Starbox begin
+ | name=ε Eridani
+}}
+{{Starbox image
+ | image=
+{{Location mark
+|image=Eridanus constellation map.svg|alt=|float=center|width=240
+|label=|position=right
+|mark=Red circle.svg|mark_width=10|mark_link=ε Eri
+|x=568|y=231
+}}
+|caption=Location of ε Eridani (circled)
+|alt=Diagram showing star positions and boundaries of the Eridanus constellation and its surroundings. Epsilon Eridani is circled.
+}}
+{{Starbox observe
+ | epoch=[[J2000.0]]
+ | pronounce= {{IPAc-en|ˈ|r|ɑː|n}}
+ | constell=[[Eridanus]]
+ | ra={{RA|03|32|55.84496}}<ref name=aaa474_2_653/>
+ | dec={{DEC|−09|27|29.7312}}<ref name=aaa474_2_653/>
+ | appmag_v=3.736<ref name=saaoc8_59/>
+}}
+{{Starbox character
+ | engvar = en-UK
+ | type = [[main sequence]]<ref name=dr3/>
+ | class=K2V<ref name=aj132_1_161/>
+ | appmag_1_passband=B
+ | appmag_1 =4.61<ref name=SIMBAD/>
+ | appmag_2_passband=V
+ | appmag_2 =3.73<ref name=SIMBAD/>
+ | appmag_3_passband=J
+ | appmag_3 ={{val|2.228|0.298}}<ref name=cutri2003/>
+ | appmag_4_passband=H
+ | appmag_4 ={{val|1.880|0.276}}<ref name=cutri2003/>
+ | appmag_5_passband=K
+ | appmag_5 ={{val|1.776|0.286}}<ref name=cutri2003/>
+ | b-v=+0.887<ref name=saaoc8_59/>
+ | u-b=+0.571<ref name=saaoc8_59/>
+ | variable=[[BY Draconis variable|BY Dra]]<ref name=SIMBAD/><ref name=gcvs/>
+}}
+{{Starbox astrometry
+ | radial_v={{val|+16.376|0.0019}}<ref name=Soubiran2018/>
+ | prop_mo_ra=−975.17<ref name=aaa474_2_653/>
+ | prop_mo_dec=19.49<ref name=aaa474_2_653/>
+ | parallax=311.37
+ | p_error=0.11
+ | parallax_footnote=<ref name=aj132_2206/>
+ | absmag_v=6.19<ref name=RECONS/>
+}}
+{{Starbox detail
+ | mass={{val|0.82|0.02}}<ref name=mnras403_3_1368/><ref name=Baines/>
+ | radius={{val|0.742|0.004}}<ref name="soubiran2024"/>
+ | luminosity={{val|0.326|0.007}}<ref name="soubiran2024"/>
+ | gravity={{val|4.48|0.08}}<ref name=Sun2026/>
+ | temperature={{val|5085|24|fmt=commas}}<ref name=Sun2026/>
+ | metal_fe={{val|−0.08|0.01}}<ref name="soubiran2024"/>
+ | rotation={{Val|11.60|0.16}}<ref name="Sanghi2026"/> days
+ | rotational_velocity={{val|2.4|0.5}}<ref name=an328_10/>
+ | age_gyr={{val|1.1|0.1}}<ref name="Sanghi2026"/>
+}}
+{{Starbox catalogue
+ | names = {{odlist | name=Ran | B=ε Eri | F=18&nbsp;Eridani | BD=−09°697 | GJ=144 | HD=22049 | HIP=16537 | HR=1084 | LHS=1557 | SAO=130564 | WDS=J03330-0928 | GCTP=742.00 }}<ref name=SIMBAD/>
+}}
+{{Starbox reference
+ | Simbad = HD+22049|sn=The star
+ | Simbad2=*+eps+Eri+b|sn2=planet b
+ | Simbad3=*+eps+Eri+c|sn3=planet c
+ | NSTED = eps%20Eri
+}}
+{{Starbox end}}
+
+'''Epsilon Eridani''' ([[Romanization of Greek|Latinized]] from '''ε Eridani'''), [[List of proper names of stars|proper name]] '''Ran''',<ref name="IAU-CSN">{{cite web |url=http://www.pas.rochester.edu/~emamajek/WGSN/IAU-CSN.txt |title=IAU Catalog of Star Names |access-date=July 28, 2016}}</ref> is a [[star]] in the southern [[constellation]] of [[Eridanus]]. At a [[declination]] of −9.46°, it is visible from most of Earth's surface. Located at a distance of {{convert|10.5|ly|pc|lk=on|abbr=off}} from the [[Sun]], it has an [[apparent magnitude]] of 3.73, making it the [[List of nearest bright stars|third-closest]] individual star (or [[star system]]) visible to the [[naked eye]].
+
+The star is estimated to be about a billion years old.<ref name="Sanghi2026"/> This relative youth gives Epsilon Eridani a higher level of [[stellar magnetic field|magnetic activity]] than the [[Sun]], with a [[stellar wind]] 30 times as strong. The [[stellar rotation|star's rotation]] period is 11.2&nbsp;days at the equator. Epsilon Eridani is smaller and less massive than the Sun, and has a lower level of [[metallicity|elements heavier than helium]].<ref name="aaa426"/> It is a [[main sequence|main-sequence star]] of [[spectral class]] K2, with an [[effective temperature]] of about {{cvt|5000|K|F|lk=on|sigfig=2}}, giving it an orange hue. It is a candidate member of the [[Ursa Major moving group]] of stars, which share a similar motion through the [[Milky Way]], implying these stars shared a common origin in an [[open cluster]].
+
+Periodic changes in Epsilon Eridani's [[radial velocity]] have [[Methods of detecting extrasolar planets#Radial velocity|yielded evidence]] of a [[giant planet]] orbiting it, designated [[Epsilon Eridani b]].<ref name=apj544_2_L145/> The discovery of the planet was initially controversial,<ref name=asp2003/> but most astronomers now regard the planet as confirmed. In 2015 the planet was given the [[List of proper names of exoplanets|proper name]] [[Epsilon Eridani b|AEgir]]{{sic}}.<ref name=iau_results/> The Epsilon Eridani [[planetary system]] also includes a [[debris disc]] consisting of a [[Kuiper belt]] analogue at 70 au from the star and warm dust between about 3&nbsp;au and 20&nbsp;au from the star.<ref name="SuDe Buizer2017"/><ref name=Booth2023/> The gap in the debris disc between 20 and 70 au implies the likely existence of outer planets in the system.
+
+As one of the nearest [[Solar analog|Sun-like stars]],<ref name=villard35_12_44/> Epsilon Eridani has been the target of several observations in the [[search for extraterrestrial intelligence]]. Epsilon Eridani appears in [[science fiction]] stories and has been suggested as a destination for [[interstellar travel]].<ref name=aa20110125/> From Epsilon Eridani, the Sun would appear as a star in [[Serpens]], with an apparent magnitude of 2.4.{{efn|1=From Epsilon Eridani, the Sun would appear on the diametrically opposite side of the sky at the coordinates RA={{RA|15|32|55.84496}}, Dec={{DEC|+09|27|29.7312}}, which is located near [[Alpha Serpentis]]. The absolute magnitude of the Sun is 4.83,<ref>{{citation
+ | first1=James | last1=Binney
+ | first2=Michael | last2=Merrifield
+ | title=Galactic Astronomy
+ | publisher=Princeton University Press
+ |year=1998 | page=56 | isbn=0-691-02565-7
+ | url=https://books.google.com/books?id=arYYRoYjKacC&pg=PA174 }}</ref> so, at a distance of 3.212&nbsp;parsecs, the Sun would have an apparent magnitude:
+<math>\begin{smallmatrix} m = M_v + 5\cdot\log_{10} (3.212/10) + A_V = 2.36 \end{smallmatrix}</math>,<ref>{{citation
+ | display-authors=1
+ | first1=Hannu | last1=Karttunen
+ | first2=Pekka | last2=Kröger
+ | first3=Heikki | last3=Oja
+ | first4=Markku | last4=Poutanen
+ | first5=Karl J. | last5=Donner
+ | title=Fundamental Astronomy | date=2013
+ | publisher=Springer Science & Business Media
+ | url=https://books.google.com/books?id=IyjrCAAAQBAJ&pg=PA103
+ | page=103 | isbn=978-3-662-03215-2
+ }}</ref> assuming negligible [[Extinction (astronomy)|extinction]] (A<sub>V</sub>) for a nearby star.}}
+
+== Nomenclature ==
+''ε Eridani'', [[Latinisation of names|Latinised]] to ''Epsilon Eridani'', is the star's [[Bayer designation]]. Despite being a relatively bright star, it was not [[List of proper names of stars|given a proper name]] by early astronomers. It has several other [[stellar designation|catalogue designations]]. Upon its discovery, the planet was designated Epsilon Eridani b, following the usual [[exoplanet naming convention|designation system for extrasolar planets]].
+
+The planet and its host star were selected by the [[International Astronomical Union]] (IAU) as part of the [[NameExoWorlds]] competition for giving proper names to exoplanets and their host stars, for some systems that did not already have proper names.<ref name=nameexoworlds/><ref name=the_exoworlds/> The process involved nominations by educational groups and public voting for the proposed names.<ref name=exoworlds_process/> In December 2015, the IAU announced the winning names were ''Ran'' for the star and ''AEgir'' {{sic}} for the planet.<ref name=iau_results/> Those names had been submitted by the pupils of the [[School grades (US)|8th grade]] at Mountainside Middle School in [[Colbert, Washington]], United States. Both names derive from [[Norse mythology]]: [[Rán]] is the goddess of the sea and [[Ægir]], her husband, is the god of the ocean.<ref name=NameExoworlds/>
+
+In 2016, the IAU organised a [[Working Group on Star Names]] (WGSN)<ref name="WGSN">{{cite web | url=https://www.iau.org/science/scientific_bodies/working_groups/280/ | title=IAU Working Group on Star Names (WGSN) | access-date=May 22, 2016 | archive-date=June 10, 2016 | archive-url=https://web.archive.org/web/20160610172014/https://www.iau.org/science/scientific_bodies/working_groups/280/ | url-status=dead |website=iau.org}}</ref> to catalogue and standardise proper names for stars. In its first bulletin of July 2016,<ref name="WGSN1">{{cite web | url=http://www.pas.rochester.edu/~emamajek/WGSN/WGSN_bulletin1.pdf | title=Bulletin of the IAU Working Group on Star Names, No. 1 |access-date=July 28, 2016}}</ref> the WGSN explicitly recognised the names of exoplanets and their host stars that were produced by the competition. Epsilon Eridani is now listed as Ran in the IAU Catalog of Star Names.<ref name="IAU-CSN"/> Professional astronomers have mostly continued to refer to the star as Epsilon Eridani.<ref name=ADS_HD_22049/>
+
+In [[Chinese astronomy|Chinese]], {{lang|zh|天苑}} ({{Transliteration|zh|Tiān Yuàn}}), meaning ''[[Hairy Head (Chinese constellation)|Celestial Meadows]]'', refers to an [[asterism (astronomy)|asterism]] consisting of ε Eridani, [[γ Eridani]], [[δ Eridani]], [[π Eridani]], [[ζ Eridani]], [[η Eridani]], [[π Ceti]], [[Tau1 Eridani|τ<sup>1</sup> Eridani]], [[Tau2 Eridani|τ<sup>2</sup> Eridani]], [[Tau3 Eridani|τ<sup>3</sup> Eridani]], [[Tau4 Eridani|τ<sup>4</sup> Eridani]], [[Tau5 Eridani|τ<sup>5</sup> Eridani]], [[Tau6 Eridani|τ<sup>6</sup> Eridani]], [[Tau7 Eridani|τ<sup>7</sup> Eridani]], [[Tau8 Eridani|τ<sup>8</sup> Eridani]] and [[Tau9 Eridani|τ<sup>9</sup> Eridani]].<ref>{{in lang|zh}} ''中國星座神話'', written by 陳久金. Published by 台灣書房出版有限公司, 2005, {{ISBN|978-986-7332-25-7}}.</ref> Consequently, the [[Chinese star names|Chinese name]] for ε Eridani itself is {{lang|zh|天苑四}} ({{Transliteration|zh|Tiān Yuàn sì}}, the Fourth [Star] of Celestial Meadows).<ref name=LCSD/>
+
+== Observational history ==
+[[File:Epsilon Eridani location.png|right|thumb|Above, the northern section of the Eridanus constellation is delineated in green, while [[Orion (constellation)|Orion]] is shown in blue. Below, an enlarged view of the region in the white box shows the location of Epsilon Eridani at the intersection of the two lines.|alt=The upper photograph shows a region of many point-like stars with coloured lines marking the constellations. The lower image shows several stars and two white lines.]]
+
+=== Cataloguing ===
+Epsilon Eridani has been known to astronomers since at least the 2nd century AD, when [[Claudius Ptolemy]] (a [[Greek astronomy|Greek astronomer]] from [[History of Alexandria|Alexandria]], [[Egypt (Roman province)|Egypt]]) included it in his catalogue of more than a thousand stars. The catalogue was published as part of his astronomical treatise the ''[[Almagest]]''. The constellation [[Eridanus]] was named by Ptolemy—{{langnf|grc|Ποταμού|River}}, and Epsilon Eridani was listed as its thirteenth star. Ptolemy called Epsilon Eridani {{langnf|grc|ό τών δ προηγούμενος|a foregoing of the four}} (here {{lang|grc|δ}} is the number four). This refers to a group of four stars in Eridanus: [[Gamma Eridani|γ]], [[Pi Eridani|π]], [[Delta Eridani|δ]] and ε (10th–13th in Ptolemy's list). ε is the most western of these, and thus the first of the four in the apparent daily motion of the sky from east to west. Modern scholars of Ptolemy's catalogue designate its entry as ''"P 784"'' (in order of appearance) and ''"Eri 13"''. Ptolemy described the star's [[apparent magnitude|magnitude]] as 3.{{r|Baily1843|Verbunt2012}}
+
+Epsilon Eridani was included in several star catalogues of [[Astronomy in medieval Islam|medieval Islamic]] astronomical treatises, which were based on Ptolemy's catalogue: in [[Al-Sufi]]'s ''[[Book of Fixed Stars]]'', published in 964, [[Al-Biruni]]'s ''Mas'ud Canon'', published in 1030, and [[Ulugh Beg]]'s ''[[Zij-i Sultani]]'', published in 1437. Al-Sufi's estimate of Epsilon Eridani's magnitude was 3. Al-Biruni quotes magnitudes from Ptolemy and Al-Sufi (for Epsilon Eridani he quotes the value 4 for both Ptolemy's and Al-Sufi's magnitudes; original values of both these magnitudes are 3). Its number in order of appearance is 786.{{r|Al-Biruni1030}} Ulugh Beg carried out new measurements of Epsilon Eridani's coordinates in [[Ulugh Beg Observatory|his observatory]] at [[Samarkand]], and quotes magnitudes from Al-Sufi (3 for Epsilon Eridani). The modern designations of its entry in Ulugh Beg's catalogue are ''"U 781"'' and ''"Eri 13"'' (the latter is the same as Ptolemy's catalogue designation).{{r|Baily1843|Verbunt2012}}
+
+In 1598 Epsilon Eridani was included in [[Tycho Brahe]]'s star catalogue, republished in 1627 by [[Johannes Kepler]] as part of his ''[[Rudolphine Tables]]''. This catalogue was based on Tycho Brahe's observations of 1577–1597, including those on the island of [[Hven]] at his observatories of [[Uraniborg]] and [[Stjerneborg]]. The sequence number of Epsilon Eridani in the constellation Eridanus was 10, and it was designated {{Langnf|la|Quae omnes quatuor antecedit|which precedes all four}}; the meaning is the same as Ptolemy's description. Brahe assigned it magnitude 3.{{r|Baily1843|Verbunt2010a}}
+
+Epsilon Eridani's [[Bayer designation]] was established in 1603 as part of the ''[[Uranometria]]'', a star catalogue produced by German celestial cartographer [[Johann Bayer]]. His catalogue assigned letters from the [[Greek alphabet]] to groups of stars belonging to the same visual magnitude class in each constellation, beginning with alpha (α) for a star in the brightest class. Bayer made no attempt to arrange stars by relative brightness within each class. Thus, although Epsilon is the fifth letter in the Greek alphabet,<ref name=jha17_50_189/> the star is the [[List of stars in Eridanus|tenth brightest in Eridanus]].<ref name=ybsc1991/> In addition to the letter ε, Bayer had given it the number 13 (the same as Ptolemy's catalogue number, as were many of Bayer's numbers) and described it as {{lang-for|la|Decima septima|the seventeenth}}.{{efn|This is because Bayer designated 21 stars in the northern part of Eridanus by preceding along the 'river' from east to west, starting from β ({{lang|la|Supra pedem Orionis in flumine, prima}}, meaning ''above [[Rigel|the foot]] of [[Orion (constellation)|Orion]] in the river, the first'') to the twenty-first, σ ({{lang|la|Vigesima prima}}, that is ''the twenty-first''). Epsilon Eridani was the seventeenth in this sequence. These 21 stars are: β, λ, ψ, b, ω, μ, c, ν, ξ, ο (two stars), d, A, γ, π, δ, ε, ζ, ρ, η, σ.<ref name="Bayer1603"/>}} Bayer assigned Epsilon Eridani magnitude 3.{{r|Bayer1603}}
+
+In 1690 Epsilon Eridani was included in the star catalogue of [[Johannes Hevelius]]. Its sequence number in constellation Eridanus was 14, its designation was {{langnf|la|Tertia|the third}}, and it was assigned magnitude 3 or 4 (sources differ).{{r|Baily1843|Verbunt2010b}} The star catalogue of English astronomer [[John Flamsteed]], published in 1712, gave Epsilon Eridani the [[Flamsteed designation]] of 18&nbsp;Eridani, because it was the eighteenth catalogued star in the constellation of Eridanus by order of increasing [[right ascension]].<ref name=SIMBAD/> In 1818 Epsilon Eridani was included in [[Friedrich Bessel]]'s catalogue, based on [[James Bradley]]'s observations from 1750 to 1762, and at magnitude 4.{{r|Bessel1818}} It also appeared in [[Nicolas Louis de Lacaille]]'s catalogue of 398 principal stars, whose 307-star version was published in 1755 in the {{lang|fr|Ephémérides des Mouvemens Célestes, pour dix années, 1755–1765}},{{r|Lacaille1755}} and whose full version was published in 1757 in {{lang|la|Astronomiæ Fundamenta}}, Paris.{{r|Lacaille1757}} In its 1831 edition by [[Francis Baily]], Epsilon Eridani has the number 50.{{r|Baily1831}} Lacaille assigned it magnitude 3.{{r|Lacaille1755|Lacaille1757|Baily1831}}
+
+In 1801 Epsilon Eridani was included in {{lang|fr|[[Histoire céleste française]]}}, [[Joseph Jérôme Lefrançois de Lalande]]'s catalogue of about 50,000 stars, based on his observations of 1791–1800, in which observations are arranged in time order. It contains three observations of Epsilon Eridani.{{r|Lalande1801}} In 1847, a new edition of Lalande's catalogue was published by Francis Baily, containing the majority of its observations, in which the stars were numbered in order of [[right ascension]]. Because every observation of each star was numbered and Epsilon Eridani was observed three times, it got three numbers: 6581, 6582 and 6583.{{r|Baily1847}} (Today numbers from this catalogue are used with the prefix "Lalande", or "Lal".{{r|Lal}}) Lalande assigned Epsilon Eridani magnitude 3.{{r|Lalande1801|Baily1847}} Also in 1801 it was included in the catalogue of [[Johann Bode]], in which about 17,000 stars were grouped into 102 constellations and numbered (Epsilon Eridani got the number 159 in the constellation Eridanus). Bode's catalogue was based on observations of various astronomers, including Bode himself, but mostly on Lalande's and Lacaille's (for the southern sky). Bode assigned Epsilon Eridani magnitude 3.{{r|Bode1801}} In 1814 [[Giuseppe Piazzi]] published the second edition of his star catalogue (its first edition was published in 1803), based on observations during 1792–1813, in which more than 7,000 stars were grouped into 24 hours (0–23). Epsilon Eridani is number 89 in hour 3. Piazzi assigned it magnitude 4.{{r|Piazzi1814}} In 1918 Epsilon Eridani appeared in the [[Henry Draper Catalogue]] with the designation HD&nbsp;22049 and a preliminary spectral classification of K0.<ref name=ahco91_1/>
+
+=== Detection of proximity ===
+Based on observations between 1800 and 1880, Epsilon Eridani was found to have a large [[proper motion]] across the [[celestial sphere]], which was estimated at three [[arcsecond]]s per year ([[angular velocity]]).<ref name=mras48_77/> This movement implied it was relatively close to the Sun,<ref name=belkora2002/> making it a star of interest for the purpose of [[stellar parallax]] measurements. This process involves recording the position of Epsilon Eridani as Earth moves around the Sun, which allows a star's distance to be estimated.<ref name=mras48_77/> From 1881 to 1883, American astronomer [[William Lewis Elkin|William L. Elkin]] used a [[heliometer]] at the [[Royal Observatory at the Cape of Good Hope]], South Africa, to compare the position of Epsilon Eridani with two nearby stars. From these observations, a parallax of {{nowrap|0.14 ± 0.02 arcseconds}} was calculated.<ref name=gill1893/><ref name=gill1884/> By 1917, observers had refined their parallax estimate to 0.317&nbsp;arcseconds.<ref name=apj46_313/> The modern value of 0.3109&nbsp;arcseconds is equivalent to a distance of about {{convert|10.50|ly|pc}}.<ref name=aaa474_2_653/>
+
+=== Circumstellar discoveries ===
+
+[[File:Epsilon eridani dustring.gif|right|thumb|Submillimeter wavelength image of a ring of dust particles around Epsilon Eridani (above centre). The brightest areas indicate the regions with the highest concentrations of dust.|alt=An uneven, multi-coloured ring arranged around a five-sided star at the middle, with the strongest concentration below centre. A smaller oval showing the scale of Pluto's orbit is in the lower right.]]
+
+Based on apparent changes in the position of Epsilon Eridani between 1938 and 1972, [[Peter van de Kamp]] proposed that an unseen companion with an orbital period of 25&nbsp;years was causing gravitational [[Perturbation (astronomy)|perturbations]] in its position.<ref name=aj79_491/> This claim was refuted in 1993 by [[Wulff-Dieter Heintz]] and the false detection was blamed on a systematic error in the [[photographic plate]]s.<ref name=aj105_3_1188/>
+
+Launched in 1983, the [[space telescope]] [[IRAS]] detected [[Infrared astronomy|infrared]] emissions from stars near to the Sun,<ref name=apj278_L1/> including an [[infrared excess|excess infrared emission]] from Epsilon Eridani.<ref name=pasp97_885/> The observations indicated a disk of fine-grained [[cosmic dust]] was orbiting the star;<ref name=pasp97_885/> this [[debris disk]] has since been extensively studied. Evidence for a planetary system was discovered in 1998 by the observation of asymmetries in this dust ring. The clumping in the dust distribution could be explained by gravitational interactions with a planet orbiting just inside the dust ring.<ref name=apj506_2_L133/>
+
+In 1987, the detection of an orbiting planetary object was announced by Bruce Campbell, Gordon Walker and Stephenson Yang.<ref name=hesser1987/><ref name=Campbell1988/> From 1980 to 2000, a team of astronomers led by [[Artie P. Hatzes]] made [[radial velocity]] observations of Epsilon Eridani, measuring the [[Doppler spectroscopy|Doppler shift of the star along the line of sight]]. They found evidence of a planet orbiting the star with a period of about seven years.<ref name=apj544_2_L145/> Although there is a high level of noise in the radial velocity data due to magnetic activity in its [[photosphere]],<ref name=iau202/> any periodicity caused by this magnetic activity is expected to show a strong correlation with variations in [[emission line]]s of ionized calcium (the [[Calcium#H and K lines|Ca II H and K lines]]). Because no such correlation was found, a planetary companion was deemed the most likely cause.<ref name=apj133_6_2442/> This discovery was supported by [[astrometric]] measurements of Epsilon Eridani made between 2001 and 2003 with the [[Hubble Space Telescope]], which showed evidence for [[gravitational perturbation]] of Epsilon Eridani by a planet.<ref name=aj132_2206/>
+
+=== SETI and proposed exploration ===
+In 1960, physicists [[Philip Morrison]] and [[Giuseppe Cocconi]] proposed that [[extraterrestrial civilisations]] might be using radio signals for communication.<ref name=gugliucci20100524/> [[Project Ozma]], led by astronomer [[Frank Drake]], used the [[Tatel Telescope]] to search for such signals from the nearby [[Solar-type star|Sun-like stars]] Epsilon Eridani and [[Tau Ceti]]. The systems were observed at the [[Hydrogen line|emission frequency of neutral hydrogen]], 1,420&nbsp;MHz (21&nbsp;cm). No signals of intelligent extraterrestrial origin were detected.<ref name=heidmann_dunlop1995/> Drake repeated the experiment in 2010, with the same negative result.<ref name=gugliucci20100524/> {{Anchor|In fiction}}Despite this lack of success, Epsilon Eridani made its way into science fiction literature and television shows for many years following news of Drake's initial experiment.<ref name=marschall_maran2009/>
+
+In ''Habitable Planets for Man'', a 1964 [[RAND Corporation]] study by space scientist Stephen H. Dole, the probability of a [[habitable planet]] being in orbit around Epsilon Eridani were estimated at 3.3%. Among the known nearby stars, it was listed with the 14 stars that were thought most likely to have a habitable planet.<ref name=dole1964/>
+
+[[William I. McLaughlin]] proposed a new strategy in the search for extraterrestrial intelligence ([[SETI]]) in 1977. He suggested that widely observable events such as [[nova]] explosions might be used by intelligent extraterrestrials to synchronise the transmission and reception of their signals. This idea was tested by the [[National Radio Astronomy Observatory]] in 1988, which used outbursts of [[Nova Cygni 1975]] as the timer. Fifteen days of observation showed no anomalous radio signals coming from Epsilon Eridani.<ref name=baas20_1043/>
+
+Because of the proximity and Sun-like properties of Epsilon Eridani, in 1985 physicist and author [[Robert L. Forward]] considered the system as a plausible target for [[interstellar travel]].<ref name=jsr22_345/> The following year, the [[British Interplanetary Society]] suggested Epsilon Eridani as one of the targets in its [[Project Daedalus]] study.<ref name=jbis29_94/> The system has continued to be among the targets of such proposals, such as [[Project Icarus (Interstellar Probe Design Study)|Project Icarus]] in 2011.<ref name=aa20110125/>
+
+Based on its nearby location, Epsilon Eridani was among the target stars for [[Project Phoenix (SETI)|Project Phoenix]], a 1995 [[microwave]] survey for signals from extraterrestrial intelligence.<ref name=henry_asp19930916/> The project had checked about 800 stars by 2004 but had not yet detected any signals.<ref name=whitehouse_bbc20040325/>
+
+== Properties ==
+[[File:Size epsilon eridani.png|left|thumb|Illustration of the relative sizes of Epsilon Eridani (left) and the Sun (right)|alt=A glowing orange orb on the left half and a slightly larger glowing yellow orb on the right against a black background]]
+
+At a distance of {{convert|10.50|ly|pc|abbr=in}}, Epsilon Eridani is the 13th-nearest-known star (and ninth-nearest solitary star or [[stellar system]]) to the Sun as of 2014.<ref name=RECONS/> Its proximity makes it one of the most studied stars of its [[stellar classification|spectral type]].<ref name=mnras398_3_1495/> Epsilon Eridani is located in the northern part of the constellation Eridanus, about 3° east of the slightly brighter star [[Delta Eridani]]. With a declination of −9.46°, Epsilon Eridani can be viewed from much of Earth's surface, at suitable times of year. Only to the north of [[80th parallel north|latitude 80°&nbsp;N]] is it permanently hidden below the horizon.<ref name=campbell1899/> The [[apparent magnitude]] of 3.73 can make it difficult to observe from an urban area with the unaided eye, because the night skies over cities are obscured by [[light pollution]].<ref name=narisada2004/>
+
+Epsilon Eridani has an estimated mass of 0.82 [[solar mass]]es<ref name=mnras403_3_1368/><ref name=Baines/> and a radius of 0.738 [[solar radius|solar radii]].<ref name=Rains2020/> It shines with a luminosity of only 0.34 [[solar luminosity|solar luminosities]].<ref name=apj460_993/> The estimated [[effective temperature]] is 5,084&nbsp;K.<ref name=aaa411_3_559/> With a stellar classification of K2&nbsp;V, it is the second-nearest [[K-type main-sequence star]] (after [[Alpha Centauri]] B).<ref name=RECONS/> Since 1943 the [[stellar spectrum|spectrum]] of Epsilon Eridani has served as one of the stable anchor points by which other stars are classified.<ref name=baas25_1319/> Its [[metallicity]], the fraction of elements heavier than [[helium]], is slightly lower than the Sun's.<ref name=aaa415/> In Epsilon Eridani's [[chromosphere]], a region of the outer atmosphere just above the light emitting [[photosphere]], the abundance of iron is estimated at 74% of the Sun's value.<ref name=aaa415/> The proportion of [[lithium]] in the atmosphere is five times less than that in the Sun.<ref name=Metcalfe2013/>
+
+Epsilon Eridani's K-type classification indicates that the spectrum has relatively weak [[absorption line]]s from absorption by hydrogen ([[Balmer lines]]) but strong lines of neutral atoms and singly [[ion]]ized [[Calcium#H and K lines|calcium]] (Ca II). The [[luminosity class]] V (dwarf) is assigned to stars that are undergoing [[thermonuclear fusion]] of hydrogen in their core. For a K-type main-sequence star, this fusion is dominated by the [[proton–proton chain reaction]], in which a series of reactions effectively combines four hydrogen nuclei to form a helium nucleus. The energy released by fusion is transported outward from the core through [[radiative transfer|radiation]], which results in no net motion of the surrounding plasma. Outside of this region, in the envelope, energy is carried to the photosphere by [[Convection zone|plasma convection]], where it then radiates into space.<ref name=karttunen_oja2007/>
+
+=== Magnetic activity ===
+
+Epsilon Eridani has a higher level of [[Stellar magnetic field|magnetic activity]] than the Sun, and thus the outer parts of its atmosphere (the [[chromosphere]] and [[solar corona|corona]]) are more dynamic. The average magnetic field strength of Epsilon Eridani across the entire surface is {{val|1.65|0.30|e=-2|u=[[Tesla (unit)|tesla]]}},<ref name=aaa318_429/> which is more than forty times greater than the {{nowrap|(5–40) × 10<sup>−5</sup> T}} magnetic-field strength in the Sun's photosphere.<ref name=apj591_2_1248/> The magnetic properties can be modelled by assuming that regions with a [[magnetic flux]] of about 0.14&nbsp;T randomly cover approximately 9% of the photosphere, whereas the remainder of the surface is free of magnetic fields.<ref name=apj1_439_2_939/> The overall magnetic activity of Epsilon Eridani shows co-existing {{Val|2.95|0.03}} and {{Val|12.7|0.3}} year activity cycles.<ref name=Metcalfe2013/> Assuming that its radius does not change over these intervals, the long-term variation in activity level appears to produce a temperature variation of 15 K, which corresponds to a variation in [[UBV photometric system|visual magnitude]] (V) of 0.014.<ref name=apj441/>
+
+The magnetic field on the surface of Epsilon Eridani causes variations in the [[hydrodynamic]] behaviour of the photosphere. This results in greater [[jitter]] during [[Doppler spectroscopy|measurements of its radial velocity]]. Variations of {{nowrap|15 m s}}<sup>−1</sup> were measured over a 20&nbsp;year period, which is much higher than the [[measurement uncertainty]] of {{nowrap|3 m s}}<sup>−1</sup>. This makes interpretation of periodicities in the radial velocity of Epsilon Eridani, such as those caused by an orbiting planet, more difficult.<ref name=iau202/>
+
+[[File:EpsEriLightCurve.png|thumb|upright=1.5|left|A [[light curve]] for Epsilon Eridani, showing averages of the [[Photometric system#Photometric letters|b and y band]] magnitudes between 2014 and 2021.<ref name="Roettenbacher"/> The inset shows the periodic variation over a 12.3-day rotational period.<ref name=apj102_5_1813/>]]
+Epsilon Eridani is classified as a [[BY Draconis variable]] because it has regions of higher magnetic activity that move into and out of the line of sight as it rotates.<ref name=gcvs/> Measurement of this [[rotational modulation]] suggests that its equatorial region rotates with an average period of 11.2&nbsp;days,<ref name=an328_10/> which is less than half of the rotation period of the Sun. Observations have shown that Epsilon Eridani varies as much as 0.050 in V magnitude due to [[starspot]]s and other short-term magnetic activity.<ref name=apj102_5_1813/> [[Photometry (astronomy)|Photometry]] has also shown that the surface of Epsilon Eridani, like the Sun, is undergoing [[differential rotation]] i.e. the rotation period at equator differs from that at high [[latitude]]. The measured periods range from 10.8 to 12.3 days.<ref name=apj441/>{{efn|1=The rotation period ''P<sub>β</sub>'' at latitude ''β'' is given by:
+:''P<sub>β</sub>'' = ''P<sub>eq</sub>''/(1 − ''k'' sin ''β'')
+where ''P<sub>eq</sub>'' is the equatorial rotation period and  ''k'' is the differential rotation parameter. The value
+of this parameter is estimated to be in the range:
+:0.03 ≤ ''k'' ≤ 0.10<ref name=an328_10/>}} The [[axial tilt]] of Epsilon Eridani toward the line of sight from Earth is highly uncertain: estimates range from 24° to 72°.<ref name=an328_10/>
+
+The high levels of chromospheric activity, strong magnetic field, and relatively fast rotation rate of Epsilon Eridani are characteristic of a young star.<ref name=apj1_412_2_797/> Most estimates of the age of Epsilon Eridani place it in the range from 200 million to 800 million years.<ref name=aaa488_2_771/> The low abundance of heavy elements in the chromosphere of Epsilon Eridani usually indicates an older star, because the [[interstellar medium]] (out of which stars form) is steadily enriched by heavier elements produced by older generations of stars.<ref name=aaa358_850/> This anomaly might be caused by a [[diffusion]] process that has transported some of the heavier elements out of the photosphere and into a region below Epsilon Eridani's [[convection zone]].<ref name=cjaa8_5_591/>
+
+The [[X-ray]] luminosity of Epsilon Eridani is about {{val|2|e=28|u=[[Erg (unit)|erg]]·s<sup>–1</sup>}} ({{val|2|e=21|u=[[Watt|W]]}}). It is more luminous in X-rays than the Sun at [[Solar cycle|peak activity]]. The source for this strong X-ray emission is Epsilon Eridani's hot corona.<ref name=apj243_234/><ref name=apj457_882/> Epsilon Eridani's corona appears larger and hotter than the Sun's, with a temperature of {{val|3.4|e=6|u=K}}, measured from observation of the corona's ultraviolet and X-ray emission.<ref name=mnras385_4_1691/> It displays a cyclical variation in X-ray emission that is consistent with the magnetic activity cycle.<ref name=Coffaro_et_al_2020/>
+
+The [[stellar wind]] emitted by Epsilon Eridani expands until it collides with the surrounding [[interstellar medium]] of diffuse gas and dust, resulting in a bubble of heated hydrogen gas (an [[astrosphere]], the equivalent of the [[heliosphere]] that surrounds the Sun). The [[absorption spectrum]] from this gas has been measured with the [[Hubble Space Telescope]], allowing the properties of the stellar wind to be estimated.<ref name=mnras385_4_1691/> Epsilon Eridani's hot corona results in a mass loss rate in Epsilon Eridani's stellar wind that is 30 times higher than the Sun's. This stellar wind generates the astrosphere that spans about {{cvt|8000|au|pc}} and contains a [[bow shock]] that lies {{cvt|1600|au|pc}} from Epsilon Eridani. At its estimated distance from Earth, this astrosphere spans 42&nbsp;arcminutes, which is wider than the apparent size of the full Moon.<ref name=apj574_1/>
+
+=== Kinematics ===
+Epsilon Eridani has a high [[proper motion]], moving −0.976&nbsp;arcseconds per year in [[right ascension]] (the celestial equivalent of longitude) and 0.018&nbsp;arcseconds per year in [[declination]] (celestial latitude), for a combined total of 0.962 arcseconds per year.<ref name=aaa474_2_653/>{{efn|1=The total proper motion μ can be computed from:
+: μ<sup>2</sup> = (μ<sub>α</sub> cos δ)<sup>2</sup> + μ<sub>δ</sub><sup>2</sup>
+where μ<sub>α</sub> is the proper motion in right ascension, μ<sub>δ</sub> is the proper motion in declination, and δ is the declination.<ref name="birney"/> This yields:
+: μ<sup>2</sup> = (−975.17 · cos(−9.458°))<sup>2</sup> + 19.49<sup>2</sup> = 925658.1
+or μ equals 962.11.}} The star has a radial velocity of {{cvt|+15.5|km/s|mph}} (away from the Sun).<ref name=rgcrv66/> The [[space velocity (astronomy)|space velocity]] components of Epsilon Eridani in the [[galactic coordinate system|galactic co-ordinate system]] are {{nowrap|(U, V, W)}} = {{nowrap|(−3, +7, −20) km/s}}, which means that it is travelling within the [[Milky Way]] at a mean [[galactocentric distance]] of 28.7&nbsp;kly (8.79&nbsp;kiloparsecs) from the core along an orbit that has an [[orbital eccentricity|eccentricity]] of 0.09.<ref name=ab6_2_308/> The [[Stellar kinematics|position and velocity]] of Epsilon Eridani indicate that it may be a member of the [[Ursa Major Moving Group]], whose members share a common motion through space. This behaviour suggests that the moving group originated in an [[open cluster]] that has since diffused.<ref name=an325_1_3/> The estimated age of this group is {{nowrap|500±100 million}} years,<ref name=apj125_4_1980/> which lies within the range of the age estimates for Epsilon Eridani.
+
+During the past million years, three stars are believed to have come within {{cvt|7|ly|pc}} of Epsilon Eridani. The most recent and closest of these encounters was with [[Kapteyn's Star]], which approached to a distance of about {{cvt|3|ly|pc}} roughly 12,500 years ago. Two more distant encounters were with [[Sirius]] and [[Ross 614]]. None of these encounters are thought to have been close enough to affect the circumstellar disk orbiting Epsilon Eridani.<ref name=asp2001_227/> Epsilon Eridani made its closest approach to the Sun about 105,000&nbsp;years ago, when they were separated by {{cvt|7|ly|pc}}.<ref name=aaa379/>
+
+== Planetary system ==
+{{OrbitboxPlanet begin
+| table_ref = <ref name=apj690_2_1522/><ref name="SuDe Buizer2017"/><ref name="Booth2023"/><ref name="Thompson2025"/>
+| name = Epsilon Eridani
+| period_unit = year
+}}
+{{OrbitboxPlanet disk
+| disk = Asteroid belt
+| periapsis = ~1.5−2.0 (or 3–4)
+}}
+{{OrbitboxPlanet
+| exoplanet = [[Epsilon Eridani b|b (AEgir)]]<ref name=naming_exoplanets/>
+| mass = {{val|1.00|0.10}}
+| period = {{val|7.33|0.08|0.07}}
+| semimajor = {{val|3.53|0.04}}
+| eccentricity = {{val|0.06|0.06|0.04}}
+| inclination = {{val|40|6|5}}
+}}
+{{OrbitboxPlanet disk
+| disk = Asteroid belt
+| periapsis = ~8
+| apoapsis = 20
+}}
+{{OrbitboxPlanet disk
+| disk = Main belt
+| periapsis = 65
+| apoapsis = 75
+| inclination = {{nowrap|33.7° ± 0.5}}
+}}
+{{Orbitbox end}}
+
+=== Debris disc ===
+[[File:Epsilon Eridani ALMA Image.png|right|thumb|Image of epsilon Eridani's main belt taken by the Atacama Large Millimeter/submillimeter Array (ALMA) at a wavelength of 1.3 mm. The star is seen at the centre and two other point sources (one coincident with the belt) are unrelated background galaxies.<ref name="Booth2023"/> |alt=The star is seen at the centre and the ring shows the main belt of the debris disc, which is located at 70 astronomical units from the star. The belt appears elliptical as it is slightly inclined from face-on. In addition to the star, two other point sources appear in the image (one coincident with the belt). These are background galaxies and not part of the epsilon Eridani system.]]
+
+An infrared excess around Epsilon Eridani was detected by IRAS<ref name="pasp97_885"/> indicating the presence of circumstellar dust. Observations with the [[James Clerk Maxwell Telescope]] (JCMT) at a [[wavelength]] of 850&nbsp;μm show an extended flux of radiation out to an [[Angular diameter|angular radius]] of 35&nbsp;arcseconds around Epsilon Eridani, resolving the debris disc for the first time. Higher resolution images have since been taken with the [[Atacama Large Millimeter Array]], showing that the belt is located 70&nbsp;au from the star with a width of just 11&nbsp;au.<ref name="Booth2023"/><ref name="Booth2017"/> The disc is inclined 33.7° from face-on, making it appear elliptical.
+
+Dust and possibly water ice from this belt migrates inward because of drag from the stellar wind and a process by which stellar radiation causes dust grains to slowly spiral toward Epsilon Eridani, known as the [[Poynting–Robertson effect]].<ref name=arxiv1011_4882/> At the same time, these dust particles can be destroyed through mutual collisions. The time scale for all of the dust in the disk to be cleared away by these processes is less than Epsilon Eridani's estimated age. Hence, the current dust disk must have been created by collisions or other effects of larger parent bodies, and the disk represents a late stage in the planet-formation process. It would have required collisions between 11 Earth masses' worth of parent bodies to have maintained the disk in its current state over its estimated age.<ref name=apj690_2_1522/>
+
+[[File:System Epsilon Eridani.JPG|right|thumb|Comparison of the planets and debris belts in the Solar System to the Epsilon Eridani system. At the top is the asteroid belt and the inner planets of the Solar System. Second from the top is the proposed inner asteroid belt and planet b of Epsilon Eridani. The lower illustrations show the corresponding features for the two stars' outer systems. |alt=The upper two illustrations show brown oval bands for the asteroid belts and oval lines for the known planet orbits, with the glowing star at the centre. The second brown band is narrower than the first. The lower two illustrations have grey bands for the comet belts, oval lines for the planetary orbits and the glowing stars at the centre. The lower grey band is much wider than the upper grey band.]]
+
+The disk contains an estimated mass of dust equal to a sixth of the mass of the Moon, with individual dust grains exceeding 3.5&nbsp;μm in size at a temperature of about 55&nbsp;K. This dust is being generated by the collision of comets, which range up to 10 to 30&nbsp;km in diameter and have a combined mass of 5 to 9 times that of Earth. This is similar to the estimated 10 Earth masses in the primordial Kuiper belt.<ref name=apj619_2_L187/><ref name=emp92_1_1/> The disk around Epsilon Eridani contains less than {{nowrap|2.2 × 10<sup>17</sup> kg}} of [[carbon monoxide]]. This low level suggests a paucity of volatile-bearing comets and icy [[planetesimal]]s compared to the Kuiper belt.<ref name=mnras348_3_L39/>
+
+The JCMT images show signs of clumpy structure in the belt that may be explained by gravitational perturbation from a planet, dubbed Epsilon Eridani c. The clumps in the dust are theorised to occur at orbits that have an integer resonance with the orbit of the suspected planet. For example, the region of the disk that completes two orbits for every three orbits of a planet is in a 3:2 [[orbital resonance]].<ref name=apjl_537_L147/> The planet proposed to cause these perturbations is predicted to have a semimajor axis of between 40 and 50 au.<ref name="Booth2023"/><ref name=apj578_2_L149/><ref name="Deller2005"/> However, the brightest clumps have since been identified as background sources and the existence of the remaining clumps remains debated.<ref name="Chavez2016"/>
+
+Dust is also present closer to the star. Observations from NASA's [[Spitzer Space Telescope]] suggest that Epsilon Eridani actually has two asteroid belts and a cloud of [[exozodiacal dust]]. The latter is an analogue of the [[zodiacal dust]] that occupies the plane of the [[Solar System]]. One belt sits at approximately the same position as the one in the Solar System, orbiting at a distance of {{nowrap|3.00 ± 0.75 au}} from Epsilon Eridani, and consists of [[silicate]] grains with a diameter of 3&nbsp;[[Micrometre|μm]] and a combined mass of about 10<sup>18</sup>&nbsp;kg. If the planet Epsilon Eridani b exists then this belt is unlikely to have had a source outside the orbit of the planet, so the dust may have been created by fragmentation and cratering of larger bodies such as [[asteroid]]s.<ref name=aaa499_2_L13/> The second, denser belt, most likely also populated by asteroids, lies between the first belt and the outer comet disk. The structure of the belts and the dust disk suggests that more than two planets in the Epsilon Eridani system are needed to maintain this configuration.<ref name=apj690_2_1522/><ref name=spitzer20081027/>
+
+In an alternative scenario, the exozodiacal dust may be generated in the outer belt. This dust is then transported inward past the orbit of Epsilon Eridani b. When collisions between the dust grains are taken into account, the dust will reproduce the observed infrared spectrum and brightness. Outside the radius of ice [[Sublimation (phase transition)|sublimation]], located beyond 10&nbsp;au from Epsilon Eridani where the temperatures fall below 100&nbsp;K, the best fit to the observations occurs when a mix of ice and [[silicate]] dust is assumed. Inside this radius, the dust must consist of silicate grains that lack [[Volatile (astrogeology)|volatiles]].<ref name=arxiv1011_4882/>
+
+The inner region around Epsilon Eridani, from a radius of 2.5&nbsp;au inward, appears to be clear of dust down to the detection limit of the 6.5&nbsp;m [[MMT Observatory|MMT telescope]]. Grains of dust in this region are efficiently removed by drag from the stellar wind, while the presence of a planetary system may also help keep this area clear of debris. Still, this does not preclude the possibility that an inner asteroid belt may be present with a combined mass no greater than the asteroid belt in the Solar System.<ref name=apj693_2_1500/>
+
+=== Long-period planets ===
+[[File:NASA-JPL-Caltech - Double the Rubble (PIA11375) (pd).jpg|right|thumb|Artist's impression, showing two asteroid belts and a planet orbiting Epsilon Eridani|alt=A bright light source at right is encircled by comets and two oval belts of debris. At left is a yellow-orange crescent of a planet.]]
+As one of the nearest Sun-like stars, Epsilon Eridani has been the target of many attempts to search for planetary companions.<ref name=apj544_2_L145/><ref name=aaa488_2_771/> Its chromospheric activity and variability mean that finding planets with the [[Methods of detecting extrasolar planets#Radial velocity|radial velocity method]] is difficult, because the stellar activity may create signals that mimic the presence of planets.<ref name=setiawan2008/> Searches for exoplanets around Epsilon Eridani with [[direct imaging]] have been unsuccessful.<ref name=apj133_6_2442/><ref name=apj688_1_583/>
+
+Infrared observation has shown there are no bodies of three or more [[Jupiter mass]]es in this system, out to at least a distance of 500&nbsp;au from the host star.<ref name=aaa488_2_771/> Planets with similar masses and temperatures as Jupiter should be detectable by Spitzer at distances beyond 80&nbsp;au. One roughly Jupiter-sized long-period planet has been detected and characterized by both the radial velocity and astrometry methods.<ref name="Feng2023"/> Planets more than 150% as massive as Jupiter can be ruled out at the inner edge of the debris disk at 30–35&nbsp;au.<ref name="Janson2015"/> Imaging with the [[James Webb Space Telescope]] rules out the presence of any planets more massive than Saturn orbiting at over 16 au.<ref>{{cite arXiv |last1=Llop-Sayson |first1=Jorge |title=Searching for Planets Orbiting $ε$~Eridani with JWST/NIRCam |date=2025-08-11 |eprint=2508.08463 |last2=Beichman |first2=Charles |last3=Bryden |first3=Geoffrey |last4=Ygouf |first4=Marie |last5=Gaspar |first5=Andras |last6=Thompson |first6=William |last7=Sanghi |first7=Aniket |last8=Mawet |first8=Dimitri |last9=Greenbaum |first9=Alexandra Z. |class=astro-ph.EP }}</ref>
+
+==== Planet b (AEgir) ====
+{{main|Epsilon Eridani b}}
+[[Extrasolar planet#Nomenclature|Referred to]] as [[Epsilon Eridani b]], this planet was announced in 2000, but the discovery remained controversial over roughly the next two decades. A comprehensive study in 2008 called the detection "tentative" and described the proposed planet as "long suspected but still unconfirmed".<ref name=apj690_2_1522/> Many astronomers believed the evidence is sufficiently compelling that they regard the discovery as confirmed.<ref name=aaa488_2_771/><ref name=arxiv1011_4882/><ref name=aaa499_2_L13/><ref name=apj688_1_583/> The discovery was questioned in 2013 because a search program at [[La Silla Observatory]] did not confirm it exists.<ref name="aa552_A78_62"/> Further studies since 2018 have gradually reaffirmed the planet's existence through a combination of radial velocity and astrometry.<ref name="Feng2023"/><ref name="MawetHirsch2019"/><ref name="MakarovZacharias2021"/><ref name="Llop-Sayson2021"/><ref name="Benedict2022"/>
+
+[[File:Epsilon Eridani b.jpg|thumb|left|Artist's impression of Epsilon Eridani&nbsp;b orbiting within a zone that has been cleared of dust. Around the planet are conjectured rings and moons.|alt=At left is a shadowed, spherical red object encircled by a ring, with a smaller crescent at lower centre portraying a moon. To the right is a luminous source bisected by a line representing a debris disk.]]
+
+Published sources remain in disagreement as to the planet's basic parameters. Recent values for its orbital period range from 7.3 to 7.6 years,<ref name="Feng2023"/> estimates of the size of its elliptical orbit—the [[semimajor axis]]—range from 3.38&nbsp;au to 3.53&nbsp;au,<ref name=cne2008/><ref name=apj646_505/> and approximations of its [[orbital eccentricity]] range from 0.055 to 0.26.<ref name="Feng2023"/>
+
+Initially, the planet's mass was unknown, but a lower limit could be estimated based on the orbital displacement of Epsilon Eridani. Only the component of the displacement along the line of sight to Earth was known, which yields a value for the formula [[Stellar rotation#Measurement|''m''&nbsp;sin&nbsp;''i'']], where ''m'' is the mass of the planet and ''i'' is the [[orbital inclination]]. Estimates for the value of {{nowrap|''m'' sin ''i''}} ranged from 0.60 [[Jupiter mass]]es to 1.06 Jupiter masses,<ref name=cne2008/><ref name=apj646_505/> which sets the lower limit for the mass of the planet (because the [[sine]] function has a maximum value of 1). Taking {{nowrap|''m'' sin ''i''}} in the middle of that range at 0.78, and estimating the inclination at 30° as was suggested by [[Hubble Space Telescope|Hubble]] astrometry, this yields a value of {{nowrap|1.55 ± 0.24}} Jupiter masses for the planet's mass.<ref name=aj132_2206/> More recent astrometric studies have found lower masses, ranging from 0.63 to 0.78 Jupiter masses.<ref name="Feng2023"/>
+
+Of all the measured parameters for this planet, the value for orbital eccentricity is the most uncertain. The eccentricity of 0.7 suggested by some older studies<ref name=aj132_2206/> is inconsistent with the presence of the proposed asteroid belt at a distance of 3&nbsp;au. If the eccentricity was this high, the planet would pass through the asteroid belt and clear it out within about ten thousand years. If the belt has existed for longer than this period, which appears likely, it imposes an upper limit on Epsilon Eridani&nbsp;b's eccentricity of about 0.10–0.15.<ref name=aaa499_2_L13/><ref name=spitzer20081027/> If the dust disk is instead being generated from the outer debris disk, rather than from collisions in an asteroid belt, then no constraints on the planet's orbital eccentricity are needed to explain the dust distribution.<ref name=arxiv1011_4882/>
+
+==== Potential habitability ====
+Epsilon Eridani is a target for planet finding programs because it has properties that allow an Earth-like planet to form. Although this system was not chosen as a primary candidate for the now-canceled [[Terrestrial Planet Finder]], it was a target star for NASA's proposed [[Space Interferometry Mission]] to search for Earth-sized planets.<ref name=mccarcty2008/> The proximity, Sun-like properties and suspected planets of Epsilon Eridani have also made it the subject of multiple studies on whether an [[interstellar probe]] can be sent to Epsilon Eridani.<ref name=jsr22_345/><ref name=jbis29_94/><ref name=mcnutt2000/>
+
+The orbital radius at which the stellar flux from Epsilon Eridani matches the [[solar constant]]—where the emission matches the Sun's output at the orbital distance of the Earth—is 0.61&nbsp;au.<ref name=aaa511/> That is within the maximum [[habitable zone]] of a conjectured Earth-like planet orbiting Epsilon Eridani, which currently stretches from about 0.5 to 1.0&nbsp;au. As Epsilon Eridani ages over a period of 20&nbsp;billion years, the net luminosity will increase, causing this zone to slowly expand outward to about 0.6–1.4&nbsp;au.<ref name=ijab2_289/> The presence of a large planet with a highly [[elliptical orbit]] in proximity to Epsilon Eridani's habitable zone reduces the likelihood of a [[terrestrial planet]] having a stable orbit within the habitable zone, although things would be different if AEgir turned out to have a nearly circular orbit similar to Jupiter's.<ref name=jones_underwood_sleep2003/>
+
+A young star such as Epsilon Eridani can produce large amounts of [[ultraviolet]] radiation that may be harmful to life, but on the other hand it is a cooler star than the Sun and so produces less ultraviolet radiation to start with.<ref name=asp2003/><ref name="BuccinoLemarchand2006"/> The orbital radius where the UV flux matches that on the early Earth lies at just under 0.5&nbsp;au.<ref name=asp2003/> Because that is actually slightly closer to the star than the habitable zone, this has led some researchers to conclude there is not enough energy from ultraviolet radiation reaching into the habitable zone for life to ever get started around the young Epsilon Eridani.<ref name="BuccinoLemarchand2006"/>
+
+==See also==
+
+* [[List of multiplanetary systems]]
+* [[List of nearest stars]]
+* [[Lists of planets]]
+
+== Notes ==
+{{notelist}}
+
+==References==
+<references>
+
+<ref name=dr3>{{cite Gaia DR3|5164707970261890560}}</ref>
+
+<ref name="Rains2020">{{citation | postscript=. |last1=Rains |first1=Adam D. |last2=Ireland |first2=Michael J. |last3=White |first3=Timothy R. |last4=Casagrande |first4=Luca |last5=Karovicova |first5=I. |date=2020-04-01 |title=Precision angular diameters for 16 southern stars with VLTI/PIONIER |arxiv=2004.02343 |journal=Monthly Notices of the Royal Astronomical Society |volume=493 |issue=2 |pages=2377–2394 |doi=10.1093/mnras/staa282 |doi-access=free |bibcode=2020MNRAS.493.2377R |issn=0035-8711}}</ref>
+
+<ref name="aaa474_2_653">{{citation | postscript=. 
+| first1=Floor | last1=van Leeuwen |date=November 2007 | title=Validation of the new Hipparcos reduction | volume=474 | issue=2 | pages=653–664 | bibcode=2007A&A...474..653V | arxiv=0708.1752v1 | doi=10.1051/0004-6361:20078357 | journal=Astronomy and Astrophysics | doi-access=free | s2cid=18759600 }} ''Note:'' see VizieR catalogue [http://vizier.u-strasbg.fr/viz-bin/Cat?I/311 I/311].</ref>
+
+<ref name="SIMBAD">{{citation | url=http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=V*+eps+Eri | title=V* eps Eri – variable of BY Dra type | work=[[SIMBAD]] | publisher=[[Centre de Données astronomiques de Strasbourg]] | access-date=November 5, 2010 | postscript=. }}</ref>
+
+<ref name="aj132_1_161">{{citation | display-authors=1
+| last1=Gray | first1=R. O.
+| last2=Corbally | first2=C. J.
+| last3=Garrison | first3=R. F.
+| last4=McFadden | first4=M. T.
+| last5=Bubar | first5=E. J.
+| last6=McGahee | first6=C. E.
+| last7=O'Donoghue | first7=A. A.
+| last8=Knox | first8=E. R.
+| title=Contributions to the Nearby Stars (NStars) Project: spectroscopy of stars earlier than M0 within 40 pc-The Southern Sample | journal=[[The Astronomical Journal]] | volume=132 | issue=1 | pages=161–170 |date=July 2006 | doi=10.1086/504637 | bibcode=2006AJ....132..161G | arxiv=astro-ph/0603770 | s2cid=119476992 | postscript=. }}</ref>
+
+<ref name="cutri2003">{{citation | display-authors=1
+| last1=Cutri | first1=R. M.
+| last2=Skrutskie | first2=M. F.
+| last3=Van Dyk | first3=S.
+| last4=Beichman | first4=C. A.
+| last5=Carpenter | first5=J. M.
+| last6=Chester | first6=T.
+| last7=Cambresy | first7=L.
+| last8=Evans | first8=T.
+| last9=Fowler | first9=J.
+| last10=Gizis | first10=J. | last11=Howard | first11=E. | last12=Huchra | first12=J. | last13=Jarrett | first13=T. | last14=Kopan | first14=E. L. | last15=Kirkpatrick | first15=J. D. | last16=Light | first16=R. M. | last17=Marsh | first17=K. A. | last18=McCallon | first18=H. | last19=Schneider | first19=S. | last20=Stiening | first20=R. | last21=Sykes | first21=M. | last22=Weinberg | first22=M. | last23=Wheaton | first23=W. A. | last24=Wheelock | first24=S. | last25=Zacarias | first25=N. |date=June 2003 | title=The IRSA 2MASS all-sky point source catalog, NASA/IPAC infrared science archive | url=http://irsa.ipac.caltech.edu/applications/Gator/ | bibcode=2003tmc..book.....C | journal=The IRSA 2MASS All-Sky Point Source Catalog | postscript=. }}</ref>
+
+<ref name="gcvs">{{citation | title=GCVS query=eps Eri | work=[[General Catalog of Variable Stars]]| publisher=[[Sternberg Astronomical Institute]], Moscow, Russia | url=http://www.sai.msu.su/groups/cluster/gcvs/cgi-bin/search.cgi?search=eps+Eri | access-date=May 20, 2009 | postscript=. }}</ref>
+
+<ref name="rgcrv66">{{citation
+| last1=Evans | first1=D. S.
+| date=June 20–24, 1966 | editor1=Batten, Alan Henry |editor2=Heard, John Frederick | title=The revision of the general catalogue of radial velocities | work=Determination of Radial Velocities and their Applications, Proceedings from IAU Symposium no. 30 | place=University of Toronto | publisher=[[International Astronomical Union]] | bibcode=1967IAUS...30...57E | volume=30 | page=57 | postscript=. }}</ref>
+<ref name="RECONS">{{citation | date=June 8, 2007 | url=http://www.astro.gsu.edu/RECONS/TOP100.posted.htm | title=The one hundred nearest star systems | publisher=[[Research Consortium on Nearby Stars]] | access-date=November 29, 2007 }}</ref>
+
+<ref name="soubiran2024">{{citation | postscript=. |last1=Soubiran |first1=C. |last2=Creevey |first2=O. L. |last3=Lagarde |first3=N. |last4=Brouillet |first4=N. |last5=Jofré |first5=P. |last6=Casamiquela |first6=L. |last7=Heiter |first7=U. |last8=Aguilera-Gómez |first8=C. |last9=Vitali |first9=S. |last10=Worley |first10=C. |last11=de Brito Silva |first11=D. |date=2024-02-01 |title=Gaia FGK benchmark stars: Fundamental Teff and log g of the third version |bibcode=2024A&A...682A.145S|journal=Astronomy and Astrophysics |volume=682 |pages=A145 |doi=10.1051/0004-6361/202347136 |doi-access=free |arxiv=2310.11302 |issn=0004-6361}}</ref>
+
+<ref name="mnras403_3_1368">{{citation
+| last1=Gonzalez | first1=G.
+| last2=Carlson | first2=M. K.
+| last3=Tobin | first3=R. W.
+| title=Parent stars of extrasolar planets – X. Lithium abundances and v sini revisited | journal=[[Monthly Notices of the Royal Astronomical Society]] | volume=403 | issue=3 | pages=1368–1380 |date=April 2010 | doi=10.1111/j.1365-2966.2009.16195.x | doi-access=free
+| bibcode=2010MNRAS.403.1368G | arxiv=0912.1621 | s2cid=118520284
+| postscript=. }} See table 3.</ref>
+
+<ref name="Roettenbacher">{{citation | postscript=.
+ | last1=Roettenbacher |first1=Rachael M. |last2=Cabot |first2=Samuel H. C.
+ | last3=Fischer |first3=Debra A. |last4=Monnier |first4=John D.
+ | last5=Henry |first5=Gregory W. |last6=Harmon |first6=Robert O.
+ | last7=Korhonen |first7=Heidi |last8=Brewer |first8=John M.
+ | last9=Llama |first9=Joe |last10=Petersburg |first10=Ryan R.
+ | last11=Zhao |first11=Lily L. |last12=Kraus |first12=Stefan
+ | last13=Le Bouquin |first13=Jean-Baptiste |last14=Anugu |first14=Narsireddy
+ | last15=Davies |first15=Claire L. |last16=Gardner |first16=Tyler
+ | last17=Lanthermann |first17=Cyprien |last18=Schaefer |first18=Gail
+ | last19=Setterholm |first19=Benjamin |last20=Clark |first20=Catherine A.
+ | last21=Jorstad |first21=Svetlana G. |last22=Kuehn |first22=Kyler
+ | last23=Levine |first23=Stephen
+ | title=EXPRES. III. Revealing the Stellar Activity Radial Velocity Signature of ϵ Eridani with Photometry and Interferometry
+ | journal=The Astronomical Journal |date=January 2022 |volume=163 |issue=1
+ |page=19 |doi=10.3847/1538-3881/ac3235 |s2cid=239049996 |arxiv=2110.10643 |bibcode=2022AJ....163...19R | doi-access=free }}</ref>
+
+<ref name="apj460_993">{{citation | display-authors=1
+| last1=Saumon | first1=D.
+| last2=Hubbard | first2=W. B.
+| last3=Burrows | first3=A.
+| last4=Guillot6 | first4=T.
+| last5=Lunine | first5=J. I.
+| last6=Chabrier | first6=G.
+| title=A theory of extrasolar giant planets | journal=The Astrophysical Journal | volume=460 | pages=993–1018 |date=April 1996 | doi=10.1086/177027 | bibcode=1996ApJ...460..993S | arxiv=astro-ph/9510046| s2cid=18116542 | postscript=. }} See Table A1, p. 21.</ref>
+
+<ref name="aaa411_3_559">{{citation | display-authors=1
+| last1=Kovtyukh | first1=V. V.
+| last2=Soubiran | first2=C.
+| last3=Belik | first3=S. I.
+| last4=Gorlova | first4=N. I.
+| title=High precision effective temperatures for 181 F-K dwarfs from line-depth ratios | journal=Astronomy and Astrophysics | volume=411 | issue=3 | pages=559–564 |date=December 2003 | doi=10.1051/0004-6361:20031378 | doi-access=free | arxiv=astro-ph/0308429 | bibcode=2003A&A...411..559K | s2cid=18478960 | postscript=. }}</ref>
+
+<ref name="aaa415">{{citation
+| last1=Santos | first1=N. C.
+| last2=Israelian | first2=G.
+| last3=Mayor | first3=M.
+| title=Spectroscopic <nowiki>[Fe/H]</nowiki> for 98 extra-solar planet-host stars: Exploring the probability of planet formation | journal=Astronomy and Astrophysics |date=March 2004 | volume=415 | issue=3 | pages=1153–1166 | doi=10.1051/0004-6361:20034469 | doi-access=free
+| arxiv=astro-ph/0311541 | bibcode=2004A&A...415.1153S | s2cid=11800380
+| postscript=. }}—the percentage of iron is given by <math>\begin{smallmatrix}10^{-0.13} = 0.74\end{smallmatrix}</math>, or 74%</ref>
+
+<ref name="an328_10">{{citation
+| last=Fröhlich | first=H.-E.
+| title=The differential rotation of Epsilon Eri from MOST data | journal=[[Astronomische Nachrichten]] | volume=328 | issue=10 | pages=1037–1039 |date=December 2007 | doi=10.1002/asna.200710876 | bibcode=2007AN....328.1037F | arxiv=0711.0806 | s2cid=11263751
+| postscript=. }}</ref>
+
+<ref name="aaa426">{{citation | display-authors=1
+| last1=Di Folco | first1=E.
+| last2=Thévenin | first2=F.
+| last3=Kervella | first3=P.
+| last4=Domiciano de Souza | first4=A.
+| last5=Coudé du Foresto | first5=V.
+| last6=Ségransan | first6=D.
+| last7=Morel | first7=P.
+| title=VLTI near-IR interferometric observations of Vega-like stars. Radius and age of α PsA, β Leo, β Pic, ε Eri and τ Cet | journal=Astronomy and Astrophysics |date=November 2004 | volume=426 | pages=601–617 | bibcode=2004A&A...426..601D | doi=10.1051/0004-6361:20047189 | issue=2 | postscript=. | doi-access=free }}</ref>
+
+<ref name="apj544_2_L145">{{citation | display-authors=1
+| last1=Hatzes | first1=Artie P.
+| last2=Cochran | first2=William D.
+| last3=McArthur | first3=Barbara
+| last4=Baliunas | first4=Sallie L.
+| last5=Walker | first5=Gordon A. H.
+| last6=Campbell | first6=Bruce
+| last7=Irwin | first7=Alan W.
+| last8=Yang | first8=Stephenson
+| last9=Kürster | first9=Martin
+| last10=Endl | first10=Michael | last11=Els | first11=Sebastian | last12=Butler | first12=R. Paul | last13=Marcy | first13=Geoffrey W. | title=Evidence for a long-period planet orbiting ε Eridani | journal=[[The Astrophysical Journal]] |date=December 2000 | volume=544 | issue=2 | pages=L145–L148 | doi=10.1086/317319 | arxiv=astro-ph/0009423 | bibcode=2000ApJ...544L.145H | s2cid=117865372 | postscript=. }}</ref>
+
+<ref name="asp2003">{{citation
+| last1=Buccino | first1=A. P.
+| last2=Mauas | first2=P. J. D.
+| last3=Lemarchand | first3=G. A.
+| title=UV Radiation in Different Stellar Systems | work=Bioastronomy 2002: Life Among the Stars, Proceedings of IAU Symposium No. 213 | editor1=R. Norris |editor2=F. Stootman | place=San Francisco | publisher=Astronomical Society of the Pacific |date=June 2003 | page=97 | bibcode=2004IAUS..213...97B | volume=213 | postscript=. }}</ref>
+
+<ref name="apj690_2_1522">{{citation | display-authors=1
+| last1=Backman | first1=D.
+| last2=Marengo | first2=M.
+| last3=Stapelfeldt | first3=K.
+| last4=Su | first4=K.
+| last5=Wilner | first5=D.
+| last6=Dowell | first6=C. D.
+| last7=Watson | first7=D.
+| last8=Stansberry | first8=J.
+| last9=Rieke | first9=G.
+| last10=Megeath | first10=T. | last11=Fazio | first11=G. | last12=Werner | first12=M. | year=2009 | title=Epsilon Eridani's planetary debris disk: structure and dynamics based on Spitzer and CSO observations | journal=The Astrophysical Journal | volume=690 | issue=2 | pages=1522–1538 | doi=10.1088/0004-637X/690/2/1522 | bibcode=2009ApJ...690.1522B | postscript=. |arxiv = 0810.4564 | s2cid=18183427 }}</ref>
+
+<ref name="villard35_12_44">{{citation
+| last=Villard | first=Ray
+| title=Does life exist on this exoplanet? | journal=Astronomy | volume=35 | issue=12 | pages=44–47 |date=December 2007 | bibcode=2007Ast....35l..44V | postscript=. }}</ref>
+
+<ref name="jha17_50_189">{{citation
+| last=Swerdlow | first=N. M.
+| title=A star catalogue used by Johannes Bayer | journal=[[Journal for the History of Astronomy]] | volume=17 | issue=50 | pages=189–197 |date=August 1986 | bibcode=1986JHA....17..189S | postscript=. | doi=10.1177/002182868601700304 | s2cid=118829690
+}} See p. 192.</ref>
+
+<ref name="ybsc1991">{{citation
+| last1=Hoffleit | first1=D.
+| last2=Warren Jr. | first2=W. H.
+| title=Bright star catalogue | year=1991 | edition=5th | publisher=[[Yale University Observatory]] | url=http://cdsarc.u-strasbg.fr/viz-bin/Cat?V/50 | access-date=July 5, 2010 | postscript=. }}</ref>
+
+<ref name="ahco91_1">{{citation
+| last1=Cannon | first1=Annie J.
+| author1-link=Annie Jump Cannon
+| last2=Pickering | first2=Edward C.
+| author2-link=Edward Charles Pickering
+| title=The Henry Draper catalogue 0h, 1h, 2h, and 3h | journal=[[Annals of Harvard College Observatory]] | year=1918 | volume=91 | pages=1–290 | bibcode=1918AnHar..91....1C | postscript=. }}—see p. 236</ref>
+
+<ref name="mras48_77">{{citation
+| last1=Gill | first1=David
+| author1-link=David Gill (astronomer)
+| last2=Elkin | first2=W. L.
+| author2-link=William Lewis Elkin
+| title=Heliometer determinations of stellar parallaxes in the southern hemisphere | publisher=The Royal Astronomical Society | location=London, UK | year=1884 | pages=174–180 | url=https://books.google.com/books?id=NpMoAAAAYAAJ&pg=PA174 | postscript=. }}<!-- Note: do not replace URL with "https://archive.org/details/heliometerobserv00gillrich": the content differs. --></ref>
+
+<ref name="belkora2002">{{citation
+| first=Leila | last=Belkora
+| year=2002 | title=Minding the heavens: the story of our discovery of the Milky Way | location=London, U.K. | page=151 | publisher=[[CRC Press]] | isbn=0-7503-0730-7 | postscript=. }}</ref>
+
+<ref name="gill1893">{{citation
+| last=Gill | first=David
+| year=1893 | title=Heliometer observations for determination of stellar parallax | page=xvi | publisher=[[Eyre and Spottiswoode]] | location=London | url=https://books.google.com/books?id=qHJKAAAAYAAJ | postscript=. }}</ref>
+
+<ref name="gill1884">{{citation
+| last=Gill | first=David
+| title=The fixed stars | journal=[[Nature (journal)|Nature]] | year=1884 | volume=30 | pages=156–159 | doi=10.1038/030156a0 |bibcode = 1884Natur..30..156. | issue=763 | postscript=. | doi-access=free }}</ref>
+
+<ref name="apj46_313">{{citation
+| last1=Adams | first1=W. S.
+| author1-link=Walter Sydney Adams
+| last2=Joy | first2=A. H.
+| author2-link=Alfred Harrison Joy
+| title=The luminosities and parallaxes of five hundred stars | journal=The Astrophysical Journal | year=1917 | volume=46 | pages=313–339 | bibcode=1917ApJ....46..313A | doi=10.1086/142369 | postscript=. }}</ref>
+
+<ref name="aj79_491">{{citation
+| last=van de Kamp | first=P.
+| title=Parallax and orbital motion of Epsilon Eridani | journal=The Astronomical Journal |date=April 1974 | volume=79 | pages=491–492 | bibcode=1974AJ.....79..491V | doi=10.1086/111571 | postscript=. | doi-access=free }}</ref>
+
+<ref name="aj105_3_1188">{{citation
+| last1=Heintz | first1=W. D.
+| title=Photographic astrometry of binary and proper-motion stars. VII | journal=The Astronomical Journal | volume=105 | issue=3 | pages=1188–1195 |date=March 1992 | doi=10.1086/116503 | bibcode=1993AJ....105.1188H | postscript=. }} See the note for BD −9°697 on page 1192.</ref>
+
+<ref name="apj278_L1">{{citation | display-authors=1
+| last1=Neugebauer | first1=G.
+| last2=Habing | first2=H. J.
+| last3=van Duinen | first3=R.
+| last4=Aumann | first4=H. H.
+| last5=Baud | first5=B.
+| last6=Beichman | first6=C. A.
+| last7=Beintema | first7=D. A.
+| last8=Boggess | first8=N.
+| last9=Clegg | first9=P. E.
+| last10=De Jong | first10=T. | last11=Emerson | first11=J. P. | last12=Gautier | first12=T. N. | last13=Gillett | first13=F. C. | last14=Harris | first14=S. | last15=Hauser | first15=M. G. | last16=Houck | first16=J. R. | last17=Jennings | first17=R. E. | last18=Low | first18=F. J. | last19=Marsden | first19=P. L. | last20=Miley | first20=G. | last21=Olnon | first21=F. M. | last22=Pottasch | first22=S. R. | last23=Raimond | first23=E. | last24=Rowan-Robinson | first24=M. | last25=Soifer | first25=B. T. | last26=Walker | first26=R. G. | last27=Wesselius | first27=P. R. | last28=Young | first28=E. |date=March 1984 | title=The Infrared Astronomical Satellite (IRAS) mission | journal=The Astrophysical Journal | volume=278 | pages=L1–L6 | bibcode=1984ApJ...278L...1N | doi=10.1086/184209 | postscript=. | hdl=1887/6453 | hdl-access=free }}</ref>
+
+<ref name="pasp97_885">{{citation
+| last=Aumann | first=H. H.
+|date=October 1985 | title=IRAS observations of matter around nearby stars | journal=[[Publications of the Astronomical Society of the Pacific]] | volume=97 | pages=885–891 | bibcode=1985PASP...97..885A | doi=10.1086/131620 | s2cid=121192947
+| postscript=. | doi-access=free }}</ref>
+
+<ref name="apj506_2_L133">{{citation | display-authors=1
+| last1=Greaves | first1=J. S.
+| last2=Holland | first2=W. S.
+| last3=Moriarty-Schieven | first3=G.
+| last4=Jenness | first4=T.
+| last5=Dent | first5=W. R. F.
+| last6=Zuckerman | first6=B.
+| last7=McCarthy | first7=C.
+| last8=Webb | first8=R. A.
+| last9=Butner | first9=H. M.
+| last10=Gear | first10=W. K. | last11=Walker | first11=H. J. | title=A dust ring around Epsilon Eridani: analog to the young Solar System | journal=The Astrophysical Journal |date=October 1998 | volume=506 | issue=2 | pages=L133–L137 | bibcode=1998ApJ...506L.133G | doi=10.1086/311652 |arxiv = astro-ph/9808224 | s2cid=15114295 | postscript=. }}</ref>
+
+<ref name="iau202">{{citation | display-authors=1
+| last1=Marcy | first1=Geoffrey W.
+| last2=Fischer | first2=Debra A.
+| last3=Butler | first3=R. Paul
+| last4=Vogt | first4=Steven S.
+| title=Planetary Messages in the Doppler Residuals (Invited Review) | work=Planetary Systems in the Universe, Proceedings of IAU Symposium No. 202 | date=August 7–11, 2000 | place=Manchester, United Kingdom | editor1=A. Penny | pages=20–28 | bibcode=2004IAUS..202...20M | volume=202 | postscript=. }}</ref>
+
+<ref name="apj133_6_2442">{{citation | display-authors=1
+| last1=Janson | first1=Markus
+| last2=Brandner | first2=Wolfgang
+| last3=Henning | first3=Thomas
+| last4=Lenzen | first4=Rainer
+| last5=McArthur | first5=Barbara
+| last6=Benedict | first6=G. Fritz
+| last7=Reffert | first7=Sabine
+| last8=Nielsen | first8=Eric
+| last9=Close | first9=Laird
+| last10=Biller | first10=Beth | last11=Kellner | first11=Stephan | last12=Günther | first12=Eike | last13=Hatzes | first13=Artie | last14=Masciadri | first14=Elena | last15=Geissler | first15=Kerstin | last16=Hartung | first16=Markus | title=NACO-SDI Direct Imaging Search for the Exoplanet ε Eri b | journal=The Astronomical Journal | volume=133 | issue=6 | pages=2442–2456 |date=June 2007 | doi=10.1086/516632 | bibcode=2007AJ....133.2442J | postscript=. |arxiv = astro-ph/0703300 | s2cid=56043012 }}</ref>
+
+<ref name="aj132_2206">{{citation | display-authors=1
+| last1=Benedict | first1=G. Fritz
+| last2=McArthur | first2=Barbara E.
+| last3=Gatewood | first3=George
+| last4=Nelan | first4=Edmund
+| last5=Cochran | first5=William D.
+| last6=Hatzes | first6=Artie
+| last7=Endl | first7=Michael
+| last8=Wittenmyer | first8=Robert
+| last9=Baliunas | first9=Sallie L.
+| last10=Walker | first10=Gordon A. H. | last11=Yang | first11=Stephenson | last12=Kürster | first12=Martin | last13=Els | first13=Sebastian | last14=Paulson | first14=Diane B. |date=November 2006 | title=The Extrasolar Planet ɛ Eridani b: Orbit and Mass | journal=The Astronomical Journal | volume=132 | issue=5 | pages=2206–2218 | bibcode=2006AJ....132.2206B | doi=10.1086/508323 | arxiv=astro-ph/0610247 | s2cid=18603036 | postscript=. }}</ref>
+
+<ref name="apj578_2_L149">{{citation
+| last1=Quillen | first1=A. C.
+| last2=Thorndike | first2=Stephen
+| title=Structure in the ε Eridani dusty disk caused by mean motion resonances with a 0.3 eccentricity planet at periastron | journal=The Astrophysical Journal | volume=578 | issue=2 |date=October 2002 | pages=L149–L142 | bibcode=2002ApJ...578L.149Q| doi=10.1086/344708 | arxiv=astro-ph/0208279 | s2cid=955461
+| postscript=. }}</ref>
+
+<ref name="marschall_maran2009">{{citation
+| first1=Laurence A. | last1=Marschall
+| first2=Stephen P. | last2=Maran
+| title=Pluto confidential: an insider account of the ongoing battles over the status of Pluto | page=171 | publisher=BenBella Books | year=2009 | isbn=978-1-933771-80-9 | url=https://books.google.com/books?id=wUNkTUkzT_4C&pg=PA171 | postscript=. }}</ref>
+
+<ref name="gugliucci20100524">{{citation | last1=Gugliucci | first1=Nicole | date=May 24, 2010 | title=Frank Drake returns to search for extraterrestrial life | work=[[Discovery News]] | publisher=Discovery Communications, LLC | url=http://news.discovery.com/space/frank-drake-returns-to-search-for-extraterrestrial-life.html | access-date=July 5, 2010 | postscript=. | archive-date=February 3, 2012 | archive-url=https://web.archive.org/web/20120203194759/http://news.discovery.com/space/frank-drake-returns-to-search-for-extraterrestrial-life.html }}</ref>
+
+<ref name="heidmann_dunlop1995">{{citation
+| last1=Heidmann | first1=Jean
+| last2=Dunlop | first2=Storm
+| year=1995 | title=Extraterrestrial intelligence | page=113 | publisher=[[Cambridge University Press]] | location=Cambridge, U.K. | isbn=0-521-58563-5 | postscript=. }}</ref>
+
+<ref name="dole1964">{{citation
+| last=Dole | first=Stephen H.
+| year=1964 | title=Habitable planets for man | pages=110 & 113 | publisher=Blaisdell Publishing Company | location=New York, N.Y. | edition=1st | url=https://www.rand.org/pubs/commercial_books/CB179-1/ | access-date=July 22, 2008 | isbn=0-444-00092-5 | postscript=. }}</ref>
+
+<ref name="baas20_1043">{{citation
+| last1=Forbes | first1=M. A.
+| last2=Westpfahl | first2=D. J.
+| title=A test of McLaughlin's strategy for timing SETI experiments | journal=[[Bulletin of the American Astronomical Society]] | volume=20 | page=1043 |date=September 1988 | bibcode=1988BAAS...20.1043F | postscript=. }}</ref>
+
+<ref name="jsr22_345">{{citation
+| last=Forward | first=R. L.
+| s2cid=54692367
+| author-link=Robert L. Forward
+| title=Starwisp – an ultra-light interstellar probe | journal=Journal of Spacecraft and Rockets | volume=22 |date=May–June 1985 | pages=345–350 | doi=10.2514/3.25754 | bibcode=1985JSpRo..22..345F | issue=3 | postscript=. }}</ref>
+
+<ref name="jbis29_94">{{citation
+| last1=Martin | first1=A. R.
+| title=Project Daedalus – The ranking of nearby stellar systems for exploration | journal=[[Journal of the British Interplanetary Society]] | volume=29 |date=February 1976 | pages=94–100 | bibcode=1976JBIS...29...94M | postscript=. }}</ref>
+
+<ref name="aa20110125">{{citation
+| last1=Long | first1=K. F.
+| last2=Obousy | first2=R. K.
+| last3=Hein | first3=A.
+| title=''Project Icarus'': Optimisation of nuclear fusion propulsion for interstellar missions | journal=[[Acta Astronautica]] | date=January 25, 2011 | doi=10.1016/j.actaastro.2011.01.010 | volume=68 | issue=11–12 | pages=1820–1829 | postscript=. |bibcode = 2011AcAau..68.1820L }}</ref>
+
+<ref name="henry_asp19930916">{{citation
+| display-authors=1
+| last1=Henry| first1=T.
+| last2=Soderblom | first2=D.
+| last3=Baliunas | first3=S.
+| last4=Davis | first4=R.
+| last5=Donahue | first5=R.
+| last6=Latham | first6=D.
+| last7=Stefanik | first7=R.
+| last8=Torres | first8=G.
+| last9=Duquennoy | first9=A.
+| last10=Mayor | first10=M. | last11=Andersen | first11=J. | last12=Nordstrom | first12=B. | last13=Olsen | first13=E. | contribution=The current state of target selection for NASA's high resolution microwave survey | title=Progress in the Search for Extraterrestrial Life | pages=207–218 | publisher=[[Astronomical Society of the Pacific]] | date=August 16–20, 1993 | location=Santa Cruz, California | bibcode=1995ASPC...74..207H | volume=74 | series=Astronomical Society of the Pacific Conference Series | postscript=. }}</ref>
+
+<ref name="whitehouse_bbc20040325">{{citation
+| last1=Whitehouse | first1=David
+| date=March 25, 2004 | title=Radio search for ET draws a blank | work=BBC News | url=http://news.bbc.co.uk/1/hi/sci/tech/3567729.stm | access-date=July 22, 2008 | postscript=. }}</ref>
+
+<ref name="mnras398_3_1495">{{citation
+| last1=Vieytes | first1=Mariela C.
+| last2=Mauas | first2=Pablo J. D.
+| last3=Díaz | first3=Rodrigo F.
+| title=Chromospheric changes in K stars with activity | journal=[[Monthly Notices of the Royal Astronomical Society]] | volume=398 | issue=3 | pages=1495–1504 |date=September 2009 | doi=10.1111/j.1365-2966.2009.15207.x | doi-access=free
+| bibcode=2009MNRAS.398.1495V | arxiv=0906.1760 | s2cid=17768058
+| postscript=. }}</ref>
+
+<ref name="campbell1899">{{citation
+| last1=Campbell | first1=William Wallace
+| author-link1=William Wallace Campbell | year=1899 | pages=109–110 | title=The elements of practical astronomy | publisher=[[The MacMillan Company]] | location=New York, N.Y. | postscript=. }}</ref>
+
+<ref name="narisada2004">{{citation
+| last1=Narisada | first1=Kohei
+| last2=Schreuder | first2=Duco
+| title=Light Pollution Handbook
+| pages=118–132 | year=2004 | publisher=[[Springer Science+Business Media|Springer]] | location=Dordrecht, The Netherlands | isbn=1-4020-2665-X | postscript=.
+| bibcode=2004ASSL..322.....N
+| volume=322
+|doi = 10.1007/978-1-4020-2666-9 | series=Astrophysics and Space Science Library
+| doi-access=free }}</ref>
+
+<ref name="karttunen_oja2007">{{citation
+| last1=Karttunen | first1=Hannu
+| last2=Oja | first2=H.
+| title=Fundamental astronomy | edition=5th | publisher=Springer | location=Heidelberg, Germany | year=2007 | isbn=978-3-540-34143-7 | pages=209–213, 247–249 | postscript=. }}</ref>
+
+<ref name="aaa318_429">{{citation
+| last1=Rüedi | first1=I.
+| last2=Solanki | first2=S. K.
+| last3=Mathys | first3=G.
+| last4=Saar | first4=S. H.
+| title=Magnetic field measurements on moderately active cool dwarfs | journal=Astronomy and Astrophysics | volume=318 | pages=429–442 |date=February 1997 | bibcode=1997A&A...318..429R | postscript=. }}</ref>
+
+<ref name="apj591_2_1248">{{citation
+| last1=Wang | first1=Y.-M.
+| last2=Sheeley | first2=N. R. Jr.
+| title=Modeling the Sun's Large-Scale Magnetic Field during the Maunder Minimum | journal=The Astrophysical Journal | volume=591 | issue=2 | pages=1248–1256 |date=July 2003 | doi=10.1086/375449 | bibcode=2003ApJ...591.1248W | postscript=. | doi-access=free }}</ref>
+
+<ref name="apj1_439_2_939">{{citation
+| last1=Valenti | first1=Jeff A.
+| last2=Marcy | first2=Geoffrey W.
+| last3=Basri | first3=Gibor
+| title=Infrared zeeman analysis of Epsilon Eridani | journal=The Astrophysical Journal |date=February 1995 | volume=439 | issue=2 | pages=939–956 | bibcode=1995ApJ...439..939V | doi=10.1086/175231 | postscript=. }}</ref>
+
+<ref name="apj441">{{citation
+| last1=Gray | first1=David F.
+| last2=Baliunas | first2=Sallie L.
+| title=Magnetic activity variations of Epsilon Eridani | journal=The Astrophysical Journal |date=March 1995 | volume=441 | issue=1 | pages=436–442 | bibcode=1995ApJ...441..436G | doi=10.1086/175368 | postscript=. | doi-access=free }}</ref>
+
+<ref name="apj102_5_1813">{{citation | display-authors=1
+| last1=Frey | first1=Gary J.
+| last2=Hall | first2=Douglas S.
+| last3=Mattingly | first3=Phil
+| last4=Robb | first4=Steve
+| last5=Wood | first5=Jim
+| last6=Zeigler | first6=Kenneth
+| last7=Grim | first7=Bruce
+| title=The rotation period of Epsilon Eri from photometry of its starspots | journal=The Astrophysical Journal |date=November 1991 | volume=102 | pages=1813–1815 | bibcode=1991AJ....102.1813F | issue=5 |doi = 10.1086/116005 | postscript=. }}</ref>
+
+<ref name="apj1_412_2_797">{{citation
+| last1=Drake | first1=Jeremy J.
+| last2=Smith | first2=Geoffrey
+| title=The fundamental parameters of the chromospherically active K2 dwarf Epsilon Eridani | journal=The Astrophysical Journal |date=August 1993 | volume=412 | issue=2 | pages=797–809 | bibcode=1993ApJ...412..797D | doi=10.1086/172962 | postscript=. | doi-access=free }}</ref>
+
+<ref name="aaa358_850">{{citation | display-authors=1
+| last1=Rocha-Pinto | first1=H. J.
+| last2=MacIel | first2=W. J.
+| last3=Scalo | first3=J.
+| last4=Flynn | first4=C.
+| title=Chemical enrichment and star formation in the Milky Way disk. I. Sample description and chromospheric age-metallicity relation | journal=Astronomy and Astrophysics | volume=358 | pages=850–868 |date=June 2000 | bibcode=2000A&A...358..850R | postscript=. |arxiv = astro-ph/0001382 }}</ref>
+
+<ref name="cjaa8_5_591">{{citation
+| last1=Gai | first1=Ning
+| last2=Bi | first2=Shao-Lan
+| last3=Tang | first3=Yan-Ke
+| title=Modeling ε Eri and asteroseismic tests of element diffusion | journal=Chinese Journal of Astronomy and Astrophysics | volume=8 | issue=5 | pages=591–602 |date=October 2008 | doi=10.1088/1009-9271/8/5/10 | bibcode=2008ChJAA...8..591G | arxiv=0806.1811 | s2cid=16642862
+| postscript=. }}</ref>
+
+<ref name="aaa488_2_771">{{citation | last1=Janson | first1=M.
+| last2=Reffert | first2=S.
+| last3=Brandner | first3=W.
+| last4=Henning | first4=T.
+| last5=Lenzen | first5=R.
+| last6=Hippler | first6=S.
+| title=A comprehensive examination of the ε Eridani system. Verification of a 4 micron narrow-band high-contrast imaging approach for planet searches | journal=Astronomy and Astrophysics | volume=488 | issue=2 | pages=771–780 |date=September 2008 | bibcode=2008A&A...488..771J | doi=10.1051/0004-6361:200809984 | doi-access=free
+| arxiv=0807.0301 | s2cid=119113471 | postscript=. }}</ref>
+
+<ref name="apj243_234">{{citation
+| last1=Johnson | first1=H. M.
+| title=An X-ray sampling of nearby stars | journal=Astrophysical Journal, Part 1 | volume=243 | date=January 1, 1981 | pages=234–243 | doi=10.1086/158589 | bibcode=1981ApJ...243..234J | postscript=. | doi-access=free }}</ref>
+
+<ref name="apj457_882">{{citation | display-authors=1
+| last1=Schmitt | first1=J. H. M. M.
+| last2=Drake | first2=J. J.
+| last3=Stern | first3=R. A.
+| last4=Haisch | first4=B. M.
+| title=The extreme-ultraviolet spectrum of the nearby K Dwarf ε Eridani
+| journal=Astrophysical Journal | volume=457 | page=882 |date=February 1996 | doi=10.1086/176783 | bibcode=1996ApJ...457..882S | postscript=. | doi-access=free }}</ref>
+
+<ref name="mnras385_4_1691">{{citation
+| last1=Ness | first1=J.-U.
+| last2=Jordan | first2=C.
+| title=The corona and upper transition region of ε Eridani | journal=Monthly Notices of the Royal Astronomical Society | volume=385 | issue=4 | pages=1691–1708 |date=April 2008 | doi=10.1111/j.1365-2966.2007.12757.x | doi-access=free
+| bibcode=2008MNRAS.385.1691N | arxiv=0711.3805 | s2cid=17396544
+| postscript=. }}</ref>
+
+<ref name="apj574_1">{{citation
+| last1=Wood | first1=Brian E.
+| last2=Müller | first2=Hans-Reinhard
+| last3=Zank | first3=Gary P.
+| last4=Linsky | first4=Jeffrey L.
+| title=Measured mass-loss rates of solar-like stars as a function of age and activity | journal=The Astrophysical Journal |date=July 2002 | volume=574 | issue=1 | pages=412–425 | doi=10.1086/340797 | bibcode=2002ApJ...574..412W | arxiv=astro-ph/0203437 | s2cid=1500425
+| postscript=. }} See p. 10.</ref>
+
+<ref name="ab6_2_308">{{citation
+| last1=de Mello | first1=G. F. Porto
+| last2=del Peloso | first2=E. F.
+| last3=Ghezzi | first3=Luan
+| title=Astrobiologically interesting stars within 10 parsecs of the Sun | journal=[[Astrobiology (journal)|Astrobiology]] | year=2006 | volume=6 | issue=2 | pages=308–331 | doi=10.1089/ast.2006.6.308 | pmid=16689649 | arxiv=astro-ph/0511180 | bibcode=2006AsBio...6..308P | s2cid=119459291
+| postscript=. }}</ref>
+<ref name="an325_1_3">{{citation
+| last1=Fuhrmann | first1=K.
+| title=Nearby stars of the Galactic disk and halo. III | journal=Astronomische Nachrichten | volume=325 | issue=1 | pages=3–80 |date=January 2004 | doi=10.1002/asna.200310173 | bibcode=2004AN....325....3F | postscript=. }}</ref>
+
+<ref name="apj125_4_1980">{{citation | display-authors=1
+| last1=King | first1=Jeremy R.
+| last2=Villarreal | first2=Adam R.
+| last3=Soderblom | first3=David R.
+| last4=Gulliver | first4=Austin F.
+| last5=Adelman | first5=Saul J.
+| title=Stellar kinematic groups. II. A reexamination of the membership, activity, and age of the Ursa Major group | journal=The Astronomical Journal | volume=125 | issue=4 | pages=1980–2017 |date=April 2003 | doi=10.1086/368241 | bibcode=2003AJ....125.1980K | postscript=. | doi-access=free }}</ref>
+
+<ref name="asp2001_227">{{citation
+| last1=Deltorn | first1=J.-M.
+| last2=Greene | first2=P.
+| editor1=Jayawardhana, Ray |editor2=Greene, Thoas | contribution=Search for nemesis encounters with Vega, epsilon Eridani, and Fomalhaut | title=Young Stars Near Earth: Progress and Prospects | pages=227–232 | date=May 16, 2001 |series= Astronomical Society of the Pacific Conference Series| publisher=Astronomical Society of the Pacific | place=San Francisco, CA | arxiv=astro-ph/0105284 | isbn=1-58381-082-X | postscript=.
+| bibcode=2001ASPC..244..227D
+| volume=244 }}</ref>
+
+<ref name="aaa379">{{citation | display-authors=1
+| last1=García-Sánchez | first1=J.
+| last2=Weissman | first2=P. R.
+| last3=Preston | first3=R. A.
+| last4=Jones | first4=D. L.
+| last5=Lestrade | first5=J.-F.
+| last6=Latham | first6=D. W.
+| last7=Stefanik | first7=R. P.
+| last8=Paredes | first8=J. M.
+| title=Stellar encounters with the Solar System | journal=Astronomy and Astrophysics |date=November 2001 | volume=379 | pages=634–659 | bibcode=2001A&A...379..634G | doi=10.1051/0004-6361:20011330 | issue=2 | postscript=. | doi-access=free }}</ref>
+
+<ref name="cne2008">{{citation
+| last1=Wright | first1=Jason
+| last2=Marcy | first2=Geoff
+| title=Catalog of nearby exoplanets | publisher=California Planet Survey consortium |date=July 2010 | url=http://exoplanets.org | access-date=November 7, 2010 | postscript=. }}</ref>
+
+<ref name="apj646_505">{{citation | display-authors=1
+| last1=Butler | first1=R. P.
+| last2=Wright | first2=J. T.
+| last3=Marcy | first3=G. W.
+| last4=Fischer | first4=D. A.
+| last5=Vogt | first5=S. S.
+| last6=Tinney | first6=C. G.
+| last7=Jones | first7=H. R. A.
+| last8=Carter | first8=B. D.
+| last9=Johnson | first9=J. A.
+| last10=McCarthy | first10=C. | last11=Penny | first11=A. J. | year=2006 | title=Catalog of nearby exoplanets
+| journal=The Astrophysical Journal | volume=646
+| issue=1 | pages=505–522 | bibcode=2006ApJ...646..505B
+| doi=10.1086/504701 | arxiv=astro-ph/0607493 | s2cid=119067572 | postscript=. }}</ref>
+
+<ref name="arxiv1011_4882">{{citation | display-authors=1
+| last1=Reidemeister | first1=M.
+| last2=Krivov | first2=A. V.
+| last3=Stark | first3=C. C.
+| last4=Augereau | first4=J.-C.
+| last5=Löhne | first5=T.
+| last6=Müller | first6=S.
+| title=The cold origin of the warm dust around ε Eridani | journal=Astronomy & Astrophysics | volume=527 |date=March 2011 | arxiv=1011.4882 | doi=10.1051/0004-6361/201015328 | bibcode=2011A&A...527A..57R | pages=A57 | doi-access=free | s2cid=56019152 | postscript=. }}</ref>
+
+<ref name="apj619_2_L187">{{citation | display-authors=1
+| last1=Davis | first1=G. R. | last2=Holland | first2=W. S. | last3=Wyatt | first3=M. C. | last4=Dent | first4=W. R. F. | last5=Robson | first5=E. I. | last6=Coulson | first6=I. M. | last7=Jenness | first7=T. | last8=Moriarty-Schieven | first8=G. H. | last9=Davis | first9=G. R.
+| last10=Butner | first10=H. M. | last11=Gear | first11=W. K. | last12=Dominik | first12=C. | last13=Walker | first13=H. J. | title=Structure in the ε Eridani debris disk | journal=The Astrophysical Journal |date=February 2005 | volume=619 | issue=2 | pages=L187–L190 | bibcode=2005ApJ...619L.187G | doi=10.1086/428348 | arxiv=astro-ph/0208279 | s2cid=121935302 | postscript=. }}</ref>
+
+<ref name="emp92_1_1">{{citation
+| last1=Morbidelli | first1=A.
+| last2=Brown | first2=M. E.
+| last3=Levison | first3=H. F.
+| title=The Kuiper Belt and its primordial sculpting | journal=[[Earth, Moon, and Planets]] | volume=92 | issue=1 | pages=1–27 |date=June 2003 | doi=10.1023/B:MOON.0000031921.37380.80 | bibcode=2003EM&P...92....1M | s2cid=189905479
+| postscript=. }}</ref>
+
+<ref name="mnras348_3_L39">{{citation
+| last1=Coulson | first1=I. M.
+| last2=Dent | first2=W. R. F.
+| last3=Greaves | first3=J. S.
+| title=The absence of CO from the dust peak around ε Eri | journal=Monthly Notices of the Royal Astronomical Society | volume=348 | issue=3 | pages=L39–L42 |date=March 2004 | doi=10.1111/j.1365-2966.2004.07563.x | bibcode=2004MNRAS.348L..39C | postscript=. | doi-access=free }}</ref>
+
+<ref name="apjl_537_L147">{{citation
+| last1=Ozernoy | first1=Leonid M.
+| last2=Gorkavyi | first2=Nick N.
+| last3=Mather | first3=John C.
+| last4=Taidakova | first4=Tanya A.
+| title=Signatures of exosolar planets in dust debris disks | journal=The Astrophysical Journal Letters |date=July 2000 | volume=537 | issue=2 | pages=L147–L151 | doi=10.1086/312779 | bibcode=2000ApJ...537L.147O | arxiv=astro-ph/0007014 | s2cid=1149097
+| postscript=. }}</ref>
+
+<ref name="aaa499_2_L13">{{citation
+| last1=Brogi | first1=M.
+| last2=Marzari | first2=F.
+| last3=Paolicchi | first3=P.
+| title=Dynamical stability of the inner belt around Epsilon Eridani | journal=Astronomy and Astrophysics | volume=499 | issue=2 | pages=L13–L16 |date=May 2009 | doi=10.1051/0004-6361/200811609 | bibcode=2009A&A...499L..13B | postscript=. | doi-access=free }}</ref>
+
+<ref name="spitzer20081027">{{citation | last1=Clavin | first1=Whitney | date=October 27, 2008 | url=http://www.nasa.gov/mission_pages/spitzer/news/spitzer-20081027.html | title=Closest planetary system hosts two asteroid belts | work=NASA/JPL-Caltech | access-date=July 4, 2010 | postscript=. | archive-date=November 19, 2012 | archive-url=https://web.archive.org/web/20121119033028/http://www.nasa.gov/mission_pages/spitzer/news/spitzer-20081027.html }}</ref>
+
+<ref name="apj693_2_1500">{{citation | display-authors=1
+| last1=Liu | first1=Wilson M.
+| last2=Hinz | first2=Philip M.
+| last3=Hoffmann | first3=William F.
+| last4=Brusa | first4=Guido
+| last5=Miller | first5=Doug
+| last6=Kenworthy | first6=Matthew A.
+| title=Observations of Main-Sequence Stars and Limits on Exozodical Dust with Nulling Interferometry | journal=The Astrophysical Journal | volume=693 | issue=2 | pages=1500–1507 |date=March 2009 | doi=10.1088/0004-637X/693/2/1500 | bibcode=2009ApJ...693.1500L | postscript=. | doi-access=free }}</ref>
+
+<ref name="setiawan2008">{{citation | display-authors=1
+| last1=Setiawan | first1=J.
+| last2=Weise | first2=P.
+| last3=Henning | first3=Th.
+| last4=Hatzes | first4=A. P.
+| last5=Pasquini | first5=L.
+| last6=Silva | first6=L. Da
+| last7=Girardi | first7=L.
+| last8=von der Lühe | first8=O.
+| last9=Döllinger | first9=M. P.
+| last10=Weiss | first10=A. | last11=Biazzo | first11=K. | title=Precision Spectroscopy in Astrophysics | chapter=Planets Around Active Stars | year=2008 | editor1=Santos, N.C. |editor2=Pasquini, L. |editor3=Correia, A. |editor4=Romaniello, M | place=Garching, Germany | publisher=[[European Southern Observatory]] | pages=201–204 | doi=10.1007/978-3-540-75485-5_43 | bibcode=2008psa..conf..201S | arxiv=0704.2145 | series=ESO Astrophysics Symposia | isbn=978-3-540-75484-8 | s2cid=116889047 | postscript=. }}</ref>
+
+<ref name="apj688_1_583">{{citation | display-authors=1
+| last1=Heinze | first1=A. N.
+| last2=Hinz | first2=Philip M.
+| last3=Kenworthy | first3=Matthew
+| last4=Miller | first4=Douglas
+| last5=Sivanandam | first5=Suresh
+| title=Deep L'- and M-band imaging for planets around Vega and ε Eridani | journal=The Astrophysical Journal | volume=688 | issue=1 | pages=583–596 |date=November 2008 | doi=10.1086/592100 | bibcode=2008ApJ...688..583H | arxiv=0807.3975 | s2cid=17082115 | postscript=. }}</ref>
+
+<ref name="mccarcty2008">{{citation | last=McCarthy | first=Chris | year=2008 | url=http://tauceti.sfsu.edu/~chris/SIM/ | title=Space Interferometry Mission: key science project | publisher=Exoplanets Group, [[San Francisco State University]] | access-date=July 22, 2008 | postscript=. | archive-url=https://web.archive.org/web/20070810132311/http://tauceti.sfsu.edu/~chris/SIM/ | archive-date=August 10, 2007 }}</ref>
+
+<ref name="mcnutt2000">{{citation | display-authors=1
+| last1=McNutt | first1=R. L.
+| last2=Andrews | first2=G. B.
+| last3=McAdams | first3=J.
+| last4=Gold | first4=R. E.
+| last5=Santo | first5=A.
+| last6=Oursler | first6=D.
+| last7=Heeres | first7=K.
+| last8=Fraeman | first8=M.
+| last9=Williams | first9=B.
+| title=A realistic interstellar explorer | journal=AIP Conference Proceedings | date=January 19, 2000 | volume=504 | pages=917–924 | doi=10.1063/1.1302595 | bibcode=2000AIPC..504..917M | postscript=. }}</ref>
+
+<ref name="aaa511">{{citation | display-authors=1
+| last1=Kitzmann | first1=D.
+| last2=Patzer | first2=A. B. C.
+| last3=von Paris | first3=P.
+| last4=Godolt | first4=M.
+| last5=Stracke | first5=B.
+| last6=Gebauer | first6=S.
+| last7=Grenfell | first7=J. L.
+| last8=Rauer | first8=H.
+| title=Clouds in the atmospheres of extrasolar planets. I. Climatic effects of multi-layered clouds for Earth-like planets and implications for habitable zones | journal=Astronomy and Astrophysics | volume=511 |date=February 2010 | pages=511A66.1–511A66.14 | doi=10.1051/0004-6361/200913491 | doi-access=free | arxiv=1002.2927 | bibcode=2010A&A...511A..66K | s2cid=56345031 | postscript=. }} See table 3.</ref>
+
+<ref name="ijab2_289">{{citation
+| last1=Underwood | first1=David R.
+| last2=Jones | first2=Barrie W.
+| last3=Sleep | first3=P. Nick
+| title=The evolution of habitable zones during stellar lifetimes and its implications on the search for extraterrestrial life | journal=[[International Journal of Astrobiology]] | year=2003 | volume=2 | issue=4 | pages=289–299 | doi=10.1017/S1473550404001715 | arxiv=astro-ph/0312522 | bibcode=2003IJAsB...2..289U | s2cid=119496186
+| postscript=. }}</ref>
+
+<ref name="jones_underwood_sleep2003">{{citation
+| last1= Jones | first1= Barrie W.
+| last2= Underwood | first2= David R.
+| last3= Sleep | first3= P. Nick
+| chapter= The stability of the orbits of Earth-mass planets in and near the habitable zones of known exoplanetary systems
+| title= Proceedings of the Conference on Towards Other Earths: DARWIN/TPF and the Search for Extrasolar Terrestrial Planets, 22-25 April 2003, Heidelberg, Germany
+| series= ESA Special Publications
+| volume= 539
+| pages= 625–630
+| editor1= M. Fridlund | editor2= T. Henning
+| publisher= [[European Space Agency]]
+| location= Noordwijk, Netherlands
+| date= October 2003
+| arxiv= astro-ph/0305500
+| isbn= 92-9092-849-2
+| bibcode = 2003ESASP.539..625J
+| postscript=.}}</ref>
+
+<ref name="baas25_1319">{{citation | last1=Garrison | first1=R. F. | title=Anchor Points for the MK System of Spectral Classification | journal=Bulletin of the American Astronomical Society | volume=25 | page=1319 | date=December 1993 | bibcode=1993AAS...183.1710G | url=http://www.astro.utoronto.ca/~garrison/mkstds.html | access-date=February 4, 2012 | postscript=. | archive-date=June 25, 2019 | archive-url=https://web.archive.org/web/20190625094716/http://www.astro.utoronto.ca/~garrison/mkstds.html }}</ref>
+
+<ref name="Coffaro_et_al_2020">{{citation
+ | title=An X-ray activity cycle on the young solar-like star ɛ Eridani
+ | last1=Coffaro | first1=M. | last2=Stelzer | first2=B.
+ | last3=Orlando | first3=S. | last4=Hall | first4=J.
+ | last5=Metcalfe | first5=T. S. | last6=Wolter | first6=U.
+ | last7=Mittag | first7=M. | last8=Sanz-Forcada | first8=J.
+ | last9=Schneider | first9=P. C. | last10=Ducci | first10=L.
+ | display-authors=1 | journal=Astronomy & Astrophysics
+ | volume=636 | id=A49 | page=18 | date=April 2020
+ | arxiv=2002.11009 | bibcode=2020A&A...636A..49C
+ | doi=10.1051/0004-6361/201936479 | doi-access=free | s2cid=211296501 | postscript=. }}</ref>
+
+<ref name="birney">{{citation | last1=Birney | first1=D. Scott | last2=González | first2=Guillermo | last3=Oesper | first3=David | title=Observational astronomy | page=75 | edition=2nd | publisher=Cambridge University Press | location=Cambridge, U.K. | year=2006 | isbn=0-521-85370-2 | url=https://books.google.com/books?id=cc9L8QWcZWsC&pg=RA1-PA75 | postscript=. }}</ref>
+
+<ref name="saaoc8_59">{{citation | last1=Cousins | first1=A. W. J. | title=Standardization of Broadband Photometry of Equatorial Standards | journal=South African Astronomical Observatory Circulars | volume=8 | page=59 | year=1984 | bibcode=1984SAAOC...8...59C | postscript=. }}</ref>
+
+<ref name="Baines">{{citation | last1=Baines| first1=Ellyn K. | last2=Armstrong | first2=J. Thomas | title=Confirming Fundamental Parameters of the Exoplanet Host Star epsilon Eridani Using the Navy Optical Interferometer| journal=The Astrophysical Journal| volume=748 | issue=1 | page=72 | year=2011| arxiv=1112.0447 |bibcode = 2012ApJ...748...72B |doi = 10.1088/0004-637X/748/1/72 | s2cid=124270967 | postscript=. }}</ref>
+
+<ref name="Baily1843">{{citation | postscript=.
+ |last=Baily |first=Francis |author-link=Francis Baily |title=The Catalogues of Ptolemy, Ulugh Beigh, Tycho Brahe, Halley, Hevelius, Deduced from the Best Authorities. With Various Notes and Corrections, and a Preface to Each Catalogue. To Which is Added the Synonym of each Star, in the Catalogues of Flamsteed of Lacaille, as far as the same can be ascertained |year=1843 |journal=[[Memoirs of the Royal Astronomical Society]] |volume=13 | page=1 |bibcode=1843MmRAS..13....1B}} ''(Epsilon Eridani: for Ptolemy's catalogue see page 60,  for Ulugh Beg's – page 109, for Tycho Brahe's – page 156, for Hevelius' – page 209)''.</ref>
+
+<ref name="Verbunt2012">{{citation | postscript=.
+ |last1=Verbunt |first1=F. |last2=van Gent |first2=R. H. |title=The star catalogues of Ptolemaios and Ulugh Beg. Machine-readable versions and comparison with the modern Hipparcos Catalogue |year=2012 |journal=[[Astronomy & Astrophysics]] |volume=544 | pages=A31 |arxiv=1206.0628 |doi=10.1051/0004-6361/201219596 |doi-access=free |bibcode=2012A&A...544A..31V|s2cid=54017245 }}</ref>
+
+<ref name="Verbunt2010a">{{citation | postscript=.
+ |last1=Verbunt |first1=F. |last2=van Gent |first2=R. H. |title=Three editions of the star catalogue of Tycho Brahe. Machine-readable versions and comparison with the modern Hipparcos Catalogue |year=2010 |journal=[[Astronomy & Astrophysics]] |volume=516 | pages=A28 |doi=10.1051/0004-6361/201014002 |doi-access=free |bibcode=2010A&A...516A..28V|arxiv=1003.3836|s2cid=54025412 }}</ref>
+
+<ref name="Verbunt2010b">{{citation | postscript=.
+ |last1=Verbunt |first1=F. |last2=van Gent |first2=R. H. |title=The star catalogue of Hevelius. Machine-readable version and comparison with the modern Hipparcos Catalogue |year=2010 |journal=[[Astronomy & Astrophysics]] |volume=516 | pages=A29 |doi=10.1051/0004-6361/201014003 |doi-access=free |bibcode=2010A&A...516A..29V|arxiv=1003.3841}}</ref>
+
+<ref name="Bayer1603">[[Johann Bayer|Bayer, Johann]] (1603). [[Uranometria|"Uranometria: omnium asterismorum continens schemata, nova methodo delineata, aereis laminis expressa"]]. Uranometria in [[Linda Hall Library]]: [http://lhldigital.lindahall.org/cdm/ref/collection/astro_atlas/id/118 link] {{Webarchive|url=https://web.archive.org/web/20180724203818/http://lhldigital.lindahall.org/cdm/ref/collection/astro_atlas/id/118 |date=July 24, 2018 }}. Pages on constellation [[Eridanus]]: {{Deprecated archive|url=https://archive.today/20150922075620/http://lhldigital.lindahall.org/utils/ajaxhelper/?CISOROOT=astro_atlas&CISOPTR=82&action=2&DMSCALE=100&DMWIDTH=4096&DMHEIGHT=4096&DMX=0&DMY=0&DMTEXT=&DMROTATE=0|title=Table}},&nbsp;[http://lhldigital.lindahall.org/utils/ajaxhelper/?CISOROOT=astro_atlas&CISOPTR=83&action=2&DMSCALE=100&DMWIDTH=4096&DMHEIGHT=4096&DMX=0&DMY=0&DMTEXT=&DMROTATE=0 Map] {{Webarchive|url=https://web.archive.org/web/20200917000037/http://lhldigital.lindahall.org/utils/ajaxhelper/?CISOROOT=astro_atlas&CISOPTR=83&action=2&DMSCALE=100&DMWIDTH=4096&DMHEIGHT=4096&DMX=0&DMY=0&DMTEXT=&DMROTATE=0 |date=September 17, 2020 }}.</ref>
+
+<ref name="Al-Biruni1030">{{abbr|Звёздный каталог ал-Бируни с приложением каталогов Хайяма и ат-Туси|Stellar catalogue of Al-Biruni with supplement of catalogues of Khayyam and Al-Tusi}}. [http://www.astromyth.ru/books/AlBiruni.djvu djvu] {{webarchive|url=https://web.archive.org/web/20160304030348/http://www.astromyth.ru/books/AlBiruni.djvu |date=March 4, 2016 }}. ''(Epsilon Eridani: see page 135)''.</ref>
+
+<ref name="Lacaille1755">[[Nicolas Louis de Lacaille|Lacaille, Nicolas Louis de]]. (1755). "Ephemerides des mouvemens celestes, pour dix années, depuis 1755 jusqu'en 1765, et pour le meridien de la ville de Paris". Paris. [[Google Books]] id: [https://books.google.com/books?id=CGHtdxdcc5UC CGHtdxdcc5UC]. ''(Epsilon Eridani: see page LV of the "Introduction")''.</ref>
+
+<ref name="Lacaille1757">[[Nicolas Louis de Lacaille|Lacaille, Nicolas Louis de]]. (1757). "Astronomiæ fundamenta". Paris. [[Google Books]] id: [https://books.google.com/books?id=-VQ_AAAAcAAJ -VQ_AAAAcAAJ]. ''(Epsilon Eridani: see page 233 (in the catalogue), see also pages 96, 153–154, 189, 231)''.</ref>
+<ref name="Bessel1818">[[Friedrich Bessel|Bessel, Friedrich Wilhelm]] (1818). "Fundamenta astronomiae pro anno MDCCLV deducta ex observationibus viri incomparabilis James Bradley in specula astronomica Grenovicensi per annos 1750–1762 institutis". Frid. Nicolovius. [[Google Books]] id: [https://books.google.com/books?id=UHRYAAAAcAAJ UHRYAAAAcAAJ].&nbsp;Page with Epsilon Eridani: [http://google.com/books?id=UHRYAAAAcAAJ&pg=PA{{#expr:158+16}}#v=onepage&q&f=false 158].</ref>
+
+<ref name=Sun2026>{{citation |last1=Sun |first1=Qinghui |last2=Tan |first2=Xianyu |last3=Gordon |last4=Yip |last5=Lin |first5=Zitao |last6=Liu |first6=Fan |last7=Wang |first7=Sharon Xuesong |last8=Li |first8=Zhengduo |title=JWST Exoplanetary Worlds and Elemental Survey (JEWELS) II: Condensation Temperature Trends and Galactic Chemical Evolution in JWST Planet-Hosting Stars |date=2026-04-20 |arxiv=2604.18115 |journal=The Astrophysical Journal Supplement Series |volume=284 |issue=2 |page=57 |doi=10.3847/1538-4365/ae633d |doi-access=free |bibcode=2026ApJS..284...57S }}.</ref>
+
+<ref name="Baily1831">{{citation | postscript=.
+ |last=Baily |first=Francis |author-link=Francis Baily |title=On Lacaille's catalogue of 398 stars |year=1831 |journal=[[Monthly Notices of the Royal Astronomical Society]] |volume=2 | issue= 5| pages=33–34 |bibcode=1831MNRAS...2...33B |doi=10.1093/mnras/2.5.33|doi-access=free }} ''(Epsilon Eridani: see page 110)''.</ref>
+<ref name="Lalande1801">[[Joseph Jérôme Le Français de Lalande|Lalande, Joseph Jérôme Le Français de]] (1801). "[[Histoire céleste française]]". Paris, Imprimerie de la République. [[Google Books]] id: [https://books.google.com/books?id=f9AMAAAAYAAJ f9AMAAAAYAAJ].&nbsp;Pages with Epsilon Eridani: [http://google.com/books?id=f9AMAAAAYAAJ&pg=PA274#v=onepage&q&f=false 246], [http://google.com/books?id=f9AMAAAAYAAJ&pg=PA276#v=onepage&q&f=false 248], [http://google.com/books?id=f9AMAAAAYAAJ&pg=PA335#v=onepage&q&f=false 307]</ref>
+
+<ref name="Baily1847">[[Francis Baily|Baily, Francis]]; [[Joseph Jérôme Le Français de Lalande|Lalande, Joseph Jérôme Le Français de]] (1847). "Catalogue of those stars in the Histoire céleste française of Jérôme Delalande, for which tables of reduction to the epoch 1800 habe been published by Prof. Schumacher". ''London (1847)''. [[Bibcode]]:[http://adsabs.harvard.edu/abs/1847cshc.book.....B 1847cshc.book.....B]. [[Google Books]] id: [https://books.google.com/books?id=oc0-AAAAcAAJ oc0-AAAAcAAJ].&nbsp;Page with Epsilon Eridani: [http://google.com/books?id=oc0-AAAAcAAJ&pg=PA165#v=onepage&q&f=false 165].</ref>
+
+<ref name="Lal">Dictionary of Nomenclature of Celestial Objects. [http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?Lal Lal entry]. ''[[SIMBAD]]''. [[Centre de Données astronomiques de Strasbourg]].</ref>
+
+<ref name="Bode1801">[[Johann Elert Bode|Bode, Johann Elert]] (1801). "Algemaine Beschreibung u. Nachweisung der gestine nebst Verzeichniss der gerarden Aufsteigung u. Abweichung von 17240 Sternen Doppelsternen Nobelflocken u. Sternhaufen". Berlin: Beym Verfasser. [[Bibcode]]:[http://adsabs.harvard.edu/abs/1801abun.book.....B 1801abun.book.....B]. [[Google Books]] id: [https://books.google.com/books?id=NUlRAAAAcAAJ NUlRAAAAcAAJ]. ''(List of observers and description of the catalogue: see page 32 of the "Introduction". List of constellations: see page 96)''. ''(Epsilon Eridani: see page 71)''.</ref>
+
+<ref name="Piazzi1814">[[Giuseppe Piazzi|Piazzi, Giuseppe]]. (1814). "Praecipuaram stellarum inerranthium positiones mediae ineunte saeculo 19. EX observationibus habilis in specula panormitana AB anno 1792 AD annum 1813". Palermo: Tip. Militare. [[Bibcode]]:[http://adsabs.harvard.edu/abs/1814psip.book.....P 1814psip.book.....P]. [[Google Books]] id: [https://books.google.com/books?id=c40RAAAAYAAJ c40RAAAAYAAJ]. ''(Epsilon Eridani: see page 22)''.</ref>
+
+<ref name="aa552_A78_62">{{citation
+ | display-authors=1
+ | last1=Zechmeister | first1=M.
+ | last2=Kürster | first2=M.
+ | last3=Endl | first3=M.
+ | last4=Lo Curto | first4=G.
+ | last5=Hartman | first5=H.
+ | last6=Nilsson | first6=N.
+ | last7=Henning | first7=T.
+ | last8=Hatzes | first8=A. P.
+ | last9=Cochran | first9=W. D.
+ | title= The planet search programme at the ESO Coudé Echelle spectrometer and HARPS. IV. The search for Jupiter analogues around solar-like stars
+ | date=April 2013 | journal=Astronomy & Astrophysics
+ | volume=552 | id=A78 | page=62
+ | doi=10.1051/0004-6361/201116551 | doi-access=free | arxiv=1211.7263
+ | bibcode=2013A&A...552A..78Z
+ | s2cid=53694238 | postscript=.
+}}</ref>
+
+<ref name="Janson2015">{{citation
+ | display-authors=1
+ | last1=Janson | first1=Markus
+ | last2=Quanz | first2=Sascha P.
+ | last3=Carson | first3=Joseph C.
+ | last4=Thalmann | first4=Christian
+ | last5=Lafrenière | first5=David
+ | last6=Amara | first6=Adam
+ | title=High-contrast imaging with Spitzer: deep observations of Vega, Fomalhaut, and ε Eridani
+ | journal=Astronomy & Astrophysics
+ | volume=574 | id=A120 | page=10 | date=February 2015
+ | doi=10.1051/0004-6361/201424944
+ | doi-access=free | bibcode=2015A&A...574A.120J
+ | arxiv = 1412.4816
+ | s2cid=118656652 | postscript=.
+}}</ref>
+
+<ref name="nameexoworlds">{{citation
+ | title=NameExoWorlds: An IAU Worldwide Contest to Name Exoplanets and their Host Stars
+ | url=http://www.iau.org/news/pressreleases/detail/iau1404/
+ | publisher=International Astronomical Union
+ | date=July 9, 2014
+ | access-date=September 5, 2015
+ | postscript=.
+ | archive-date=September 4, 2017
+ | archive-url=https://web.archive.org/web/20170904221813/https://www.iau.org/news/pressreleases/detail/iau1404/
+ | url-status=dead
+ }}</ref>
+
+<ref name="the_exoworlds">{{citation
+ | title=The Exoworlds
+ | work=NameExoWorlds
+ | publisher=International Astronomical Union
+ | url=http://nameexoworlds.iau.org/exoworlds
+ | access-date=September 5, 2015
+ | postscript=.
+ | archive-url=https://web.archive.org/web/20161231043737/http://nameexoworlds.iau.org/exoworlds
+ | archive-date=December 31, 2016
+ }}</ref>
+
+<ref name="exoworlds_process">{{citation
+ | title=The Process
+ | work=NameExoWorlds
+ | date=August 7, 2015
+ | publisher=International Astronomical Union
+ | url=http://nameexoworlds.iau.org/process
+ | access-date=September 5, 2015
+ | postscript=.
+ | archive-date=August 15, 2015
+ | archive-url=https://web.archive.org/web/20150815025117/http://nameexoworlds.iau.org/process
+ }}</ref>
+
+<ref name="iau_results">{{citation
+ | title=Final Results of NameExoWorlds Public Vote Released
+ | publisher=International Astronomical Union
+ | date=December 15, 2015
+ | url=http://www.iau.org/news/pressreleases/detail/iau1514/
+ | access-date=December 15, 2015
+ | postscript=.
+ | archive-date=December 2, 2017
+ | archive-url=https://web.archive.org/web/20171202072549/http://www.iau.org/news/pressreleases/detail/iau1514/
+ | url-status=dead
+ }}</ref>
+
+<ref name="naming_exoplanets">{{citation
+ | title=Naming of exoplanets
+ | publisher=International Astronomical Union
+ | url=https://www.iau.org/public/themes/naming_exoplanets/
+ | access-date=August 20, 2021
+ | postscript=.
+ | archive-date=January 10, 2020
+ | archive-url=https://web.archive.org/web/20200110031335/https://www.iau.org/public/themes/naming_exoplanets/
+ | url-status=dead
+
+ }}</ref>
+<ref name="hesser1987">{{citation
+ | first1=James E. | last1=Hesser
+ | title=Dominion Astrophysical Observatory, Victoria, British Columbia
+ | journal=Quarterly Journal of the Royal Astronomical Society
+ | volume=28 | page=510 | date=December 1987
+ | bibcode=1987QJRAS..28..510. | postscript=. }}</ref>
+<ref name="Campbell1988">{{citation
+ | title=A search for substellar companions to solar-type stars
+ | last1=Campbell | first1=Bruce | last2=Walker | first2=G. A. H. | last3=Yang | first3=S.
+ | journal=Astrophysical Journal, Part 1
+ | volume=331 | date=August 15, 1988 | pages=902–921
+ | doi=10.1086/166608 | bibcode=1988ApJ...331..902C | postscript=.
+| doi-access=free }}</ref>
+
+<ref name="Metcalfe2013">{{citation
+ | title=Magnetic Activity Cycles in the Exoplanet Host Star epsilon Eridani
+ | last1=Metcalfe | first1=T. S. | last2=Buccino | first2=A. P.
+ | last3=Brown | first3=B. P. | last4=Mathur | first4=S.
+ | last5=Soderblom | first5=D. R. | last6=Henry | first6=T. J.
+ | last7=Mauas | first7=P. J. D. | last8=Petrucci | first8=R.
+ | last9=Hall | first9=J. C. | last10=Basu | first10=S.
+ | display-authors=1 | journal=The Astrophysical Journal Letters
+ | volume=763 | issue=2 | id=L26 | page=6 | year=2016
+ | doi=10.1088/2041-8205/763/2/L26 | bibcode=2013ApJ...763L..26M
+ | arxiv=1604.06701 | s2cid=119163275 | postscript=. }}</ref>
+
+<ref name="MawetHirsch2019">{{citation | postscript=.
+|last1=Mawet|first1=Dimitri|last2=Hirsch|first2=Lea|last3=Lee|first3=Eve J.|last4=Ruffio|first4=Jean-Baptiste|last5=Bottom|first5=Michael|last6=Fulton|first6=Benjamin J.|last7=Absil|first7=Olivier|last8=Beichman|first8=Charles|last9=Bowler|first9=Brendan|last10=Bryan|first10=Marta|last11=Choquet|first11=Elodie|last12=Ciardi|first12=David|last13=Christiaens|first13=Valentin|last14=Defrère|first14=Denis|last15=Gomez Gonzalez|first15=Carlos Alberto|last16=Howard|first16=Andrew W.|last17=Huby|first17=Elsa|last18=Isaacson|first18=Howard|last19=Jensen-Clem|first19=Rebecca|last20=Kosiarek|first20=Molly|last21=Marcy|first21=Geoff|last22=Meshkat|first22=Tiffany|last23=Petigura|first23=Erik|last24=Reggiani|first24=Maddalena|last25=Ruane|first25=Garreth|last26=Serabyn|first26=Eugene|last27=Sinukoff|first27=Evan|last28=Wang|first28=Ji|last29=Weiss|first29=Lauren|last30=Ygouf|first30=Marie |display-authors=2 |title=Deep Exploration of ϵ Eridani with Keck Ms-band Vortex Coronagraphy and Radial Velocities: Mass and Orbital Parameters of the Giant Exoplanet|url=https://authors.library.caltech.edu/92031/1/Mawet_2019_AJ_157_33.pdf|journal=The Astronomical Journal|volume=157|issue=1|year=2019|page=33|arxiv=1810.03794 |oclc=7964711337 | issn=1538-3881|bibcode=2019AJ....157...33M |doi=10.3847/1538-3881/aaef8a|s2cid=119350738|quote=<span style="font-family:LatinModern;">In this paper, we have presented the most sensitive and comprehensive observational evidence for the existence of ε Eridani b.</span> |doi-access=free }}</ref>
+
+<ref name="BuccinoLemarchand2006">{{citation | postscript=.
+|last1=Buccino|first1=A. P.|last2=Lemarchand|first2=G. A.|last3=Mauas|first3=P. J. D. |title=Ultraviolet radiation constraints around the circumstellar habitable zones|journal=Icarus|volume=183|issue=2|year=2006|pages=491–503|issn=0019-1035|arxiv=astro-ph/0512291|doi=10.1016/j.icarus.2006.03.007|bibcode=2006Icar..183..491B|s2cid=2241081|quote=<span style="font-family:LatinModern;">In near the 41% stars of the sample: HD19994, 70 Vir, 14 Her, 55 Cnc, 47 UMa, ε Eri and HD3651, there is no coincidence at all between the UV region and the HZ...the traditional HZ would not be habitable following the UV criteria exposed in this work.</span>}}</ref>
+
+<ref name="SuDe Buizer2017">{{citation | postscript=.
+|last1=Su|first1=Kate Y. L.|last2=De Buizer|first2=James M.|last3=Rieke|first3=George H.|last4=Krivov|first4=Alexander V.|last5=Löhne|first5=Torsten|last6=Marengo|first6=Massimo|last7=Stapelfeldt|first7=Karl R.|last8=Ballering|first8=Nicholas P.|last9=Vacca|first9=William D.|display-authors=1|title=The Inner 25 au Debris Distribution in the ϵ Eri System|journal=The Astronomical Journal|volume=153|issue=5|year=2017|page=226|doi=10.3847/1538-3881/aa696b|arxiv=1703.10330|bibcode=2017AJ....153..226S|doi-access=free|quote=<span style="font-family:LatinModern;font-size:8.0pt;">We found that the 24 and 35 μm emission is consistent with the in situ dust distribution produced either by one planetesimal belt at 3–21 au (e.g., Greaves et al. 2014) or by two planetesimal belts at 1.5–2 au (or 3–4 au) and 8–20 au (e.g., a slightly modified form of the proposal in Backman et al. 2009) ... Any planetesimal belt in the inner region of the epsilon Eri system must be located inside 2 au and/or outside 5 au to be dynamically stable with the assumed epsilon Eri b.</span>}}</ref>
+
+<ref name="NameExoworlds">{{citation | postscript=.
+ | title=NameExoWorlds The Approved Names
+ | url=http://nameexoworlds.iau.org/names
+ | access-date=September 7, 2016 |archive-date=February 1, 2018
+ | archive-url=https://web.archive.org/web/20180201043609/http://nameexoworlds.iau.org/names }}</ref>
+
+<ref name="ADS_HD_22049">{{citation | postscript=.
+ |title=Object query for 'HD 22049'
+ | url=https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=database%3A%20astronomy&q=((%3Dabs%3A(%22HD%2022049%22)%20OR%20simbid%3A(%22643684%22)%20OR%20nedid%3A(%22epsilon_Eri%22))%20database%3Aastronomy)&sort=date%20desc%2C%20bibcode%20desc&p_=0
+ | website=[[Astrophysics Data System]] | access-date=15 March 2023}}</ref>
+<ref name="LCSD">{{in lang|zh}} [http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstars_t_z.htm 香港太空館 – 研究資源 – 亮星中英對照表] {{webarchive |url=https://web.archive.org/web/20100819122914/http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstars_t_z.htm |date=August 19, 2010 }}, Hong Kong Space Museum. Accessed on line November 23, 2010.</ref>
+
+<ref name="MakarovZacharias2021">{{citation | postscript=.
+ | title=Looking for Astrometric Signals below 20 m s−1: A Jupiter-mass Planet Signature in ε Eri
+ | last1=Makarov | first1=Valeri V. | last2=Zacharias | first2=Norbert
+ | last3=Finch | first3=Charles T.
+ | journal=Research Notes of the AAS
+ | volume=5 | issue=6 | year=2021 | page=155
+ | doi=10.3847/2515-5172/ac0f59 | doi-access=free
+ | arxiv=2107.01090 | bibcode=2021RNAAS...5..155M
+ | quote=<span style="font-family:LatinModern;"><small>We conclude that the newest astrometric results confirm the existence of a long-period exoplanet orbiting ε Eri....The results are consistent with the previously reported planet epsEri-b of approximately Jupiter mass and a period of several years.</small></span>
+}}</ref>
+
+<ref name="Soubiran2018">{{citation | postscript=. | last1=Soubiran | first1=C. | last2=Jasniewicz | first2=G. | last3=Chemin | first3=L. | last4=Zurbach | first4=C. | last5=Brouillet | first5=N. | last6=Panuzzo | first6=P. | last7=Sartoretti | first7=P. | last8=Katz | first8=D. | last9=Le Campion | first9=J.-F. | last10=Marchal | first10=O. | last11=Hestroffer | first11=D. | last12=Thévenin | first12=F. | last13=Crifo | first13=F. | last14=Udry | first14=S. | last15=Cropper | first15=M. | last16=Seabroke | first16=G. | last17=Viala | first17=Y. | last18=Benson | first18=K. | last19=Blomme | first19=R. | last20=Jean-Antoine | first20=A. | last21=Huckle | first21=H. | last22=Smith | first22=M. | last23=Baker | first23=S. G. | last24=Damerdji | first24=Y. | last25=Dolding | first25=C. | last26=Frémat | first26=Y. | last27=Gosset | first27=E. | last28=Guerrier | first28=A. | last29=Guy | first29=L. P. | last30=Haigron | first30=R. | last31=Janßen | first31=K. | last32=Plum | first32=G. | last33=Fabre | first33=C. | last34=Lasne | first34=Y. | last35=Pailler | first35=F. | last36=Panem | first36=C. | last37=Riclet | first37=F. | last38=Royer | first38=F. | last39=Tauran | first39=G. | last40=Zwitter | first40=T. | last41=Gueguen | first41=A. | last42=Turon | first42=C. | title=Gaia Data Release 2 | journal=Astronomy & Astrophysics | publisher=EDP Sciences | volume=616 | year=2018 | issn=0004-6361 | doi=10.1051/0004-6361/201832795 | page=A7| doi-access=free | arxiv=1804.09370 | bibcode=2018A&A...616A...7S | s2cid=247759802 }}</ref>
+
+<ref name="Booth2023">{{citation | postscript=. | last1=Booth | first1=Mark | last2=Pearce | first2=Tim D | last3=Krivov | first3=Alexander V | last4=Wyatt | first4=Mark C | last5=Dent | first5=William R F | last6=Hales | first6=Antonio S | last7=Lestrade | first7=Jean-François | last8=Cruz-Sáenz de Miera | first8=Fernando | last9=Faramaz | first9=Virginie C | last10=Löhne | first10=Torsten | last11=Chavez-Dagostino | first11=Miguel | title=The clumpy structure of ϵ Eridani's debris disc revisited by ALMA | journal=Monthly Notices of the Royal Astronomical Society | publisher=Oxford University Press (OUP) | volume=521 | issue=4 | date=2023-03-30 | arxiv=2303.13584 | issn=0035-8711 | doi=10.1093/mnras/stad938 | pages=6180–6194 | doi-access=free |bibcode=2023MNRAS.521.6180B}}</ref>
+
+<ref name="Booth2017">{{citation | postscript=. | last1=Booth | first1=Mark | last2=Dent | first2=William R. F. | last3=Jordán | first3=Andrés | last4=Lestrade | first4=Jean-François | last5=Hales | first5=Antonio S. | last6=Wyatt | first6=Mark C. | last7=Casassus | first7=Simon | last8=Ertel | first8=Steve | last9=Greaves | first9=Jane S. | last10=Kennedy | first10=Grant M. | last11=Matrà | first11=Luca | last12=Augereau | first12=Jean-Charles | last13=Villard | first13=Eric | title=The Northern arc of ε Eridani's Debris Ring as seen by ALMA | journal=Monthly Notices of the Royal Astronomical Society | publisher=Oxford University Press (OUP) | volume=469 | issue=3 | date=2017-05-04 | issn=0035-8711 | doi=10.1093/mnras/stx1072 | pages=3200–3212| doi-access=free | hdl=10150/625481 | hdl-access=free | arxiv=1705.01560 }}</ref>
+
+<ref name="Deller2005">{{citation | postscript=. | last1=Deller | first1=A. T. | last2=Maddison | first2=S. T. | title=Numerical Modeling of Dusty Debris Disks | journal=The Astrophysical Journal | publisher=American Astronomical Society | volume=625 | issue=1 | date=2005-05-20 | issn=0004-637X | doi=10.1086/429365 | pages=398–413| arxiv=astro-ph/0502135 | bibcode=2005ApJ...625..398D | s2cid=2764643 | doi-access=free }}</ref>
+
+<ref name="Chavez2016">{{citation | postscript=. | last1=Chavez-Dagostino | first1=M. | last2=Bertone | first2=E. | last3=Cruz-Saenz de Miera | first3=F. | last4=Marshall | first4=J. P. | last5=Wilson | first5=G. W. | last6=Sánchez-Argüelles | first6=D. | last7=Hughes | first7=D. H. | last8=Kennedy | first8=G. | last9=Vega | first9=O. | last10=De la Luz | first10=V. | last11=Dent | first11=W. R. F. | last12=Eiroa | first12=C. | last13=Gómez-Ruiz | first13=A. I. | last14=Greaves | first14=J. S. | last15=Lizano | first15=S. | last16=López-Valdivia | first16=R. | last17=Mamajek | first17=E. | last18=Montaña | first18=A. | last19=Olmedo | first19=M. | last20=Rodríguez-Montoya | first20=I. | last21=Schloerb | first21=F. P. | last22=Yun | first22=Min S. | last23=Zavala | first23=J. A. | last24=Zeballos | first24=M. | title=Early science with the Large Millimetre Telescope: Deep LMT/AzTEC millimetre observations of ϵ Eridani and its surroundings | journal=Monthly Notices of the Royal Astronomical Society | publisher=Oxford University Press (OUP) | volume=462 | issue=3 | date=2016-06-08 | issn=0035-8711 | doi=10.1093/mnras/stw1363 | pages=2285–2294| doi-access=free | arxiv=1606.02761 }}</ref>
+
+<ref name="Llop-Sayson2021">{{citation | postscript=. |last1=Llop-Sayson |first1=Jorge |last2=Wang |first2=Jason J. |display-authors=etal |date=November 2021 |title=Constraining the Orbit and Mass of epsilon Eridani b with Radial Velocities, Hipparcos IAD-Gaia DR2 Astrometry, and Multiepoch Vortex Coronagraphy Upper Limits |journal=[[The Astronomical Journal]] |volume=162 |issue=5 |page=181 |id=181 |doi=10.3847/1538-3881/ac134a |arxiv=2108.02305 |bibcode=2021AJ....162..181L |doi-access=free }}</ref>
+
+<ref name="Benedict2022">{{citation | postscript=. |last1=Benedict |first1=G. Fritz |date=March 2022 |title=Revisiting HST/FGS Astrometry of epsilon Eridani |journal=[[Research Notes of the AAS]] |volume=6 |issue=3 |page=45 |doi=10.3847/2515-5172/ac5b6b |bibcode=2022RNAAS...6...45B |doi-access=free }}</ref>
+
+<ref name="Feng2023">{{citation | postscript=. |last1=Feng |first1=Fabo |last2=Butler |first2=R. Paul |display-authors=etal |date=July 2023 |title=Revised orbits of the two nearest Jupiters |journal=[[Monthly Notices of the Royal Astronomical Society]] |volume= 525|issue=1 |pages= 607–619|doi= 10.1093/mnras/stad2297|doi-access=free |arxiv=2307.13622|bibcode=2023MNRAS.525..607F }}</ref>
+
+<ref name="Thompson2025">
+{{citation | postscript=.
+ | last1=Thompson | first1=William | last2=Nielsen | first2=Eric L. | last3=Ruffio | first3=Jean-Baptiste | last4=Blunt | first4=Sarah | last5=Marois | first5=Christian
+ | title=Revised Mass and Orbit of ε Eridani b: A 1 M Jup Planet on a Near-circular Orbit
+ | journal=[[The Astronomical Journal]]
+ | volume=170 | issue=6 | page=301
+ | date=2025-11-07
+ | arxiv=2502.20561
+ | bibcode=2025AJ....170..301T
+ | doi=10.3847/1538-3881/ae0cbd | doi-access=free
+ | issn=0004-6256
+}}</ref>
+
+<ref name="Sanghi2026">{{citation | postscript=. |last1=Sanghi |first1=Aniket |last2=Mang |first2=James |last3=Llop-Sayson |first3=Jorge |last4=Mamajek |first4=Eric E. |last5=Thompson |first5=William |last6=Sur |first6=Ankan |last7=Beichman |first7=Charles |last8=Bryden |first8=Geoffrey |last9=Gáspár |first9=András |last10=Leisenring |first10=Jarron |last11=Mawet |first11=Dimitri |last12=Morley |first12=Caroline V. |last13=Ruffio |first13=Jean-Baptiste |last14=Wolff |first14=Schuyler G. |last15=Ygouf |first15=Marie |title=Worlds Next Door. III. Indirect Evidence for Enhanced Atmospheric Metallicity and/or the Presence of Water Clouds in the Nearest Jupiter-analog ϵ Eri b |journal=The Astronomical Journal |volume=171 |issue=4 |date=2026-03-13 |issn=0004-6256 |doi=10.3847/1538-3881/ae4909 |doi-access=free |arxiv=2602.23423 |page=225 |bibcode=2026AJ....171..225S }}</ref>
+
+</references>
+
+== External links ==
+* {{citation|display-authors=1 |last1=Marcy |first1=G. |last2=Butler |first2=P. |last3=Vogt |first3=S. |last4=Fischer |first4=D. |title=A Planet Around Epsilon Eridani? |date=February 12, 2002 |publisher=Exoplanets.org |url=http://exoplanets.org/esp/epseri/epseri.shtml |access-date=May 18, 2011 |postscript=. |archive-url=https://web.archive.org/web/20110709071206/http://exoplanets.org/esp/epseri/epseri.shtml |archive-date=July 9, 2011 }}
+* {{citation|author=Staff |title=Astronomers discover a nearby star system just like our own Solar System |date=July 8, 1998 |work=Joint Astronomy Centre |publisher=The University of Hawaii |url=http://outreach.jach.hawaii.edu/pressroom/1998_epseri/ |access-date=February 24, 2011 |postscript=. |archive-url=https://web.archive.org/web/20110508023508/http://outreach.jach.hawaii.edu/pressroom/1998_epseri/ |archive-date=May 8, 2011 }}
+* {{citation | author=Anonymous | title=Epsilon Eridani | work=SolStation | publisher=The Sol Company | url=http://www.solstation.com/stars/eps-erid.htm | archive-url=https://web.archive.org/web/20000815100626/http://www.solstation.com/stars/eps-erid.htm | url-status=dead | archive-date=August 15, 2000 | access-date=November 28, 2008 | postscript=. }}
+* {{citation|first1=Wil |last1=Tirion |title=Sky Map: Epsilon Eridani |work=Planet Quest |publisher=Cambridge University Press |location=Cambridge, UK |year=2001 |url=http://planetquest1.jpl.nasa.gov/atlas/atlas_skymap.cfm?Planet=109&Zoom=1 |access-date=April 9, 2011 |postscript=. |archive-url=https://web.archive.org/web/20110726151258/http://planetquest1.jpl.nasa.gov/atlas/atlas_skymap.cfm?Planet=109&Zoom=1 |archive-date=July 26, 2011 }}
+
+{{Sky|03|32|55.8442|-|09|27|29.744|10.5}}
+{{nearest systems|2}}
+{{Stars of Eridanus}}
+{{Portal bar|Astronomy|Stars}}
+{{featured article}}
+
+<!-- Properties -->
+
+[[Category:Epsilon Eridani| ]]
+[[Category:K2V stars]]
+[[Category:Solar-type stars|Eridani, Epsilon]]
+[[Category:BY Draconis variables]]
+[[Category:Planetary systems with one confirmed planet]]
+[[Category:Circumstellar disks]]
+[[Category:Ursa Major moving group]]
+[[Category:Local Bubble]]
+<!-- Identifiers-->
+[[Category:Stars with proper names|Ran]]
+[[Category:Astronomical objects known since antiquity|50]]
+[[Category:Eridanus (constellation)]]
+[[Category:Bayer objects|Eridani, Epsilon]]
+[[Category:Durchmusterung objects|BD-09 0697]]
+[[Category:Flamsteed objects|Eridani, 18]]
+[[Category:Gliese and GJ objects|0144]]
+[[Category:Henry Draper Catalogue objects|022049]]
+[[Category:Hipparcos objects|016537]]
+[[Category:Bright Star Catalogue objects|1084]]

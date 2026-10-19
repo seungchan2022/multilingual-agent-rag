@@ -1,0 +1,222 @@
+[
+  {
+    "id": "mo-01",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "미마스",
+    "question": "위성 미마스의 공전 주기는 며칠인가?",
+    "answer": "0.942일",
+    "value": 0.942,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "미마스 (위성)",
+        "quote": "공전 주기(P): 0.942 d"
+      }
+    ],
+    "en_check": {
+      "en_title": "Mimas",
+      "en_value": 0.942421959,
+      "en_text": "{{val|0.942421959|u=d}}",
+      "diff_pct": 0.0448
+    }
+  },
+  {
+    "id": "mo-02",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "히말리아",
+    "question": "위성 히말리아의 공전 주기는 며칠인가?",
+    "answer": "250.56일",
+    "value": 250.56,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "히말리아 (위성)",
+        "quote": "공전 주기(P): 250.56 일 (0.704 년)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Himalia (moon)",
+      "en_value": 248.29,
+      "en_text": "+248.29 d",
+      "diff_pct": 0.9143
+    }
+  },
+  {
+    "id": "mo-03",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "디오네",
+    "question": "위성 디오네의 공전 주기는 며칠인가?",
+    "answer": "2.736915일",
+    "value": 2.736915,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "디오네 (위성)",
+        "quote": "공전 주기(P): 2.736915 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Dione (moon)",
+      "en_value": 2.736916,
+      "en_text": "{{val|2.736916|u=d}}<ref name=\"Jacobson2022\"/>",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "mo-04",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "이아페투스",
+    "question": "위성 이아페투스의 공전 주기는 며칠인가?",
+    "answer": "79.3215일",
+    "value": 79.3215,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "이아페투스 (위성)",
+        "quote": "공전 주기(P): 79.321 5 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Iapetus (moon)",
+      "en_value": 79.331002,
+      "en_text": "{{val|79.331002|ul=d}}",
+      "diff_pct": 0.012
+    }
+  },
+  {
+    "id": "mo-05",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "미란다",
+    "question": "위성 미란다의 공전 주기는 며칠인가?",
+    "answer": "1.413479일",
+    "value": 1.413479,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "미란다 (위성)",
+        "quote": "공전 주기(P): 1.413479 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Miranda (moon)",
+      "en_value": 1.413479,
+      "en_text": "{{val|1.413479|u=d}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "mo-06",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "아말테아",
+    "question": "위성 아말테아의 공전 주기는 며칠인가?",
+    "answer": "0.49817943일",
+    "value": 0.49817943,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "아말테아 (위성)",
+        "quote": "공전 주기(P): 0.49817943±0.00000007 d (11 h, 57 min, 23 s)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Amalthea (moon)",
+      "en_value": 0.49817943,
+      "en_text": "{{val|0.49817943|0.00000007|u=d}} {{nowrap|(11 h, 57 min, 23 s)}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "mo-07",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "오베론",
+    "question": "위성 오베론의 공전 주기는 며칠인가?",
+    "answer": "13.463234일",
+    "value": 13.463234,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "오베론 (위성)",
+        "quote": "공전 주기(P): 13.463234 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Oberon (moon)",
+      "en_value": 13.463237,
+      "en_text": "{{val|13.463237|u=[[Day|d]]}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "mo-08",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "히페리온",
+    "question": "위성 히페리온의 공전 주기는 며칠인가?",
+    "answer": "21.276일",
+    "value": 21.276,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "히페리온 (위성)",
+        "quote": "공전 주기(P): 21.276 d"
+      }
+    ],
+    "en_check": {
+      "en_title": "Hyperion (moon)",
+      "en_value": 21.276658,
+      "en_text": "{{val|21.276658|u=d}}",
+      "diff_pct": 0.0031
+    }
+  },
+  {
+    "id": "mo-09",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "레아",
+    "question": "위성 레아의 공전 주기는 며칠인가?",
+    "answer": "4.518212일",
+    "value": 4.518212,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "레아 (위성)",
+        "quote": "공전 주기(P): 4.518212 일"
+      }
+    ],
+    "en_check": {
+      "en_title": "Rhea (moon)",
+      "en_value": 4.518212,
+      "en_text": "{{val|4.518212|u=[[Day|d]]}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "mo-10",
+    "kind": "값",
+    "subject": "덜 알려진 위성",
+    "target": "네레이드",
+    "question": "위성 네레이드의 공전 주기는 며칠인가?",
+    "answer": "360.1362일",
+    "value": 360.1362,
+    "unit": "일",
+    "evidence_quotes": [
+      {
+        "doc": "네레이드 (위성)",
+        "quote": "공전 주기(P): 360.1362 d"
+      }
+    ],
+    "en_check": {
+      "en_title": "Nereid (moon)",
+      "en_value": 360.13,
+      "en_text": "{{cvt|360.13|days|years|abbr=on}}",
+      "diff_pct": 0.0017
+    }
+  }
+]

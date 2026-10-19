@@ -1,0 +1,143 @@
+{{chembox
+|Watchedfields = changed
+|verifiedrevid = 477239601
+|Name = Acetophenone
+|ImageFile1 = File:Acetophenone-2D-skeletal.svg
+|ImageName1 = Skeletal formula of the acetophenone molecule
+|ImageSize1 = 150px
+|ImageClass1 = skin-invert
+|ImageFileL2 = Acetophenone-from-xtal-Mercury-3D-bs.png
+|ImageNameL2 = Ball-and-stick model of the acetophenone molecule
+|ImageSizeL2 = 150px
+|ImageClassL2 = bg-transparent
+|ImageFileR2 = Acetophenone-from-xtal-Mercury-3D-sf.png
+|ImageNameR2 = Space-filling model of the acetophenone molecule
+|ImageSizeR2 = 150px
+|ImageClassR2 = bg-transparent
+|ImageFile3 = Ацетофенон.jpg
+|ImageName3 = sample of acetophenone
+|PIN = 1-Phenylethanone<ref name=iupac2013>{{cite book | title =  Nomenclature of Organic Chemistry : IUPAC Recommendations and Preferred Names 2013 (Blue Book) | publisher = [[Royal Society of Chemistry|The Royal Society of Chemistry]] | date = 2014 | location = Cambridge | page = 723 | doi = 10.1039/9781849733069-00648 | isbn = 978-0-85404-182-4 | quote=The names acetophenone and benzophenone are retained only for general nomenclature, but no substitution is allowed.}}</ref>
+|OtherNames = Acetophenone<br />Phenylethanone<br />Methyl phenyl ketone
+|Section1={{Chembox Identifiers
+|Abbreviations = ACP
+|UNII_Ref = {{fdacite|correct|FDA}}
+|UNII = RK493WHV10
+|KEGG_Ref = {{keggcite|correct|kegg}}
+|KEGG = C07113
+|EC_number = 202-708-7
+|RTECS = AM5250000
+|UNNumber = 1993
+|InChIKey = KWOLFJPFCHCOCG-UHFFFAOYAT
+|PubChem = 7410
+|SMILES1 = CC(=O)c1ccccc1
+|ChEMBL_Ref = {{ebicite|correct|EBI}}
+|ChEMBL = 274467
+|StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChI = 1S/C8H8O/c1-7(9)8-5-3-2-4-6-8/h2-6H,1H3
+|StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+|StdInChIKey = KWOLFJPFCHCOCG-UHFFFAOYSA-N
+|CASNo_Ref = {{cascite|correct|CAS}}
+|CASNo = 98-86-2
+|ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+|ChemSpiderID = 7132
+|ChEBI_Ref = {{ebicite|correct|EBI}}
+|ChEBI = 27632
+|DrugBank_Ref = {{drugbankcite|correct|drugbank}}
+|DrugBank = DB04619
+|SMILES = O=C(c1ccccc1)C
+|InChI = 1/C8H8O/c1-7(9)8-5-3-2-4-6-8/h2-6H,1H3
+}}
+|Section2={{Chembox Properties
+|C=8 | H=8 | O=1
+|Density = 1.028 g/cm<sup>3</sup>
+|MeltingPtC = 19–20
+|BoilingPtC = 202
+|Solubility = 5.5 g/L at 25&nbsp;°C<br/>12.2 g/L at 80&nbsp;°C
+|MagSus = −72.05·10<sup>−6</sup> cm<sup>3</sup>/mol
+}}
+|Section3={{Chembox Hazards
+|ExternalSDS = [https://fscimage.fishersci.com/msds/00002.htm MSDS]
+|FlashPtC = 77
+|NFPA-H = 1
+|NFPA-F = 2 
+|NFPA-R = 0
+|GHSPictograms = {{GHS|07}}
+|GHSSignalWord = Warning
+|HPhrases = {{H-phrases|302|319}}
+|PPhrases = {{P-phrases|264|270|280|301+312|305+351+338|330|337+313|501}}
+}}
+}}
+
+'''Acetophenone''' is the [[organic compound]] with the [[chemical formula|formula]] C<sub>6</sub>H<sub>5</sub>C(O)CH<sub>3</sub>. It is the simplest aromatic [[ketone]]. This colorless, viscous liquid is a precursor to useful [[resin]]s and fragrances.<ref name=Ullmann>{{Ullmann|first1=Hardo|last1=Siegel|first2=Manfred|last2=Eggersdorfer|title=Ketones|doi=10.1002/14356007.a15_077}}</ref>
+
+==Production==
+Acetophenone is formed as a byproduct of the [[cumene process]], the industrial route for the synthesis of [[phenol]] and [[acetone]]. In the Hock rearrangement of [[isopropylbenzene hydroperoxide]], migration of a methyl group rather than the phenyl group gives acetophenone and methanol as a result of an alternate [[rearrangement reaction|rearrangement]] of the  intermediate:
+:{{chem2 | C6H5C(CH3)2O2H -> C6H5C(O)CH3 + CH3OH }}
+The cumene process is conducted on such a large scale that even the small amount of acetophenone by-product can be recovered in commercially useful quantities.<ref name=Ullmann/> 
+
+Acetophenone is also generated from [[ethylbenzene hydroperoxide]]. Ethylbenzene hydroperoxide is primarily converted to [[1-phenylethanol]] (α-methylbenzyl alcohol) in the process with a small amount of by-product acetophenone. Acetophenone is recovered or hydrogenated to 1-phenylethanol which is then dehydrated to produce styrene.<ref name=Ullmann/>
+
+==Uses==
+===Precursor to resins===
+Commercially significant [[resin]]s are produced from treatment of acetophenone with [[formaldehyde]] and a [[base (chemistry)|base]]. The resulting [[copolymer]]s are conventionally described with the formula {{chem2|[(C6H5COCH)_{''x''}(CH2)_{''x''}]_{''n''} }}, resulting from [[aldol condensation]]. These substances are components of [[coating]]s and [[ink]]s. Modified acetophenone-formaldehyde resins are produced by the hydrogenation of the aforementioned ketone-containing resins. The resulting [[polyol]] can be further crosslinked with [[diisocyanate]]s.<ref name=Ullmann/> The modified resins are found in coatings, inks and [[adhesive]]s.
+
+===Niche uses===
+Acetophenone is an ingredient in fragrances that resemble [[almond]], [[cherry]], [[honeysuckle]], [[jasmine]], and [[strawberry]]. It is used in chewing gum.<ref>{{Citation| last =Burdock| first =George A.| title =Fenaroli's Handbook of Flavor Ingredients| publisher =CRC Press| year =2005| edition =5th| page =15| url =https://books.google.com/books?id=A8OyTzGGJhYC&q=Fenaroli's%20handbook%20of%20flavor%20ingredients&pg=PP1| archive-url =https://web.archive.org/web/20140925024441/http://books.google.com/books?id=A8OyTzGGJhYC&lpg=PP1&dq=Fenaroli's%20handbook%20of%20flavor%20ingredients&pg=PP1| archive-date =2014-09-25| isbn =0-8493-3034-3| url-status =live}}</ref> 
+It is also listed as an approved [[excipient]] by the U.S. FDA.<ref>{{cite web|url=https://www.accessdata.fda.gov/scripts/cder/iig/index.cfm|title=Inactive Ingredient Search for Approved Drug Products|url-status=live|archive-url=https://web.archive.org/web/20130504122045/http://www.accessdata.fda.gov/scripts/cder/iig/index.cfm|archive-date=2013-05-04}}</ref>  More common as a fragrance is the closely related [[4-Methylacetophenone|4-methylacetophenone]].<ref>{{cite book |last1=Panten |first1=Johannes |last2=Surburg |first2=Horst |title=Ullmann's Encyclopedia of Industrial Chemistry |chapter=Flavors and Fragrances, 3. Aromatic and Heterocyclic Compounds |date=2016 |pages=1–45 |doi=10.1002/14356007.t11_t02 |isbn=978-3-527-30673-2 }}</ref>
+
+===Laboratory reagent===
+In instructional laboratories,<ref>{{cite journal |title= Polystyrene—A multistep synthesis: For the undergraduate organic chemistry laboratory |first1= Samuel H. |last1= Wilen |first2= Chester B. |last2= Kremer |first3= Irving |last3= Waltcher |journal= J. Chem. Educ. |year= 1961 |volume= 38 |issue= 6 |pages= 304–305 |doi= 10.1021/ed038p304 |bibcode= 1961JChEd..38..304W }}</ref> acetophenone is converted to [[styrene]] in a two-step process that illustrates the reduction of carbonyls using [[sodium borohydride]] and the [[dehydration reaction|dehydration]] of alcohols:
+:{{chem2 | 4  C6H5C(O)CH3 + NaBH4 + 4 H2O -> 4 C6H5CH(OH)CH3 + NaOH + B(OH)3}}
+:{{chem2 | C6H5CH(OH)CH3  -> C6H5CH\dCH2  +  H2O}}
+
+A similar two-step process is used industrially, but reduction step is performed by [[hydrogenation]] over a [[copper chromite]] [[catalyst]]:<ref name=Ullmann/>
+:{{chem2 | C6H5C(O)CH3 + H2 -> C6H5CH(OH)CH3 }}
+
+Being [[prochiral]], acetophenone is also a popular test substrate for asymmetric [[hydrogenation]] experiments.
+
+===Drugs===
+Acetophenone is used for the synthesis of many pharmaceuticals.<ref>
+{{cite book
+| isbn = 978-0-8155-1144-1
+| pages = [https://archive.org/details/pharmaceuticalma02sitt/page/n65 39], 177
+| last = Sittig
+| first = Marshall
+| title = Pharmaceutical Manufacturing Encyclopedia
+| url = https://archive.org/details/pharmaceuticalma02sitt
+| url-access = limited
+| year = 1988
+}}</ref><ref>
+{{cite book
+| isbn =978-0-8493-9051-7
+| pages = 142–145
+| last1 = Gadamasetti
+| first1 = Kumar
+| last2= Tamim Braish
+| title = Process Chemistry in the Pharmaceutical Industry, Volume 2
+| year = 2007
+| publisher = Taylor & Francis
+}}</ref>
+
+== Natural occurrence ==
+Acetophenone occurs naturally in many foods including [[apple]], [[cheese]],<ref>{{cite journal |last1=Engels |first1=W.J.M. |last2=Dekker |first2=R. |last3=De Jong |first3=C. |last4=Neeter |first4=R. |last5=Visser |first5=S. |title=A comparative study of volatile compounds in the water-soluble fraction of various types of ripened cheese |journal=International Dairy Journal |date=1997 |volume=7 |issue=4 |pages=255–263 |doi=10.1016/S0958-6946(97)00003-4 |bibcode=1997IntDJ...7..255E }}</ref> [[apricot]], [[banana]],<ref>{{cite journal |last1=Pino |first1=Jorge A. |last2=Febles |first2=Yanet |title=Odour-active compounds in banana fruit cv. Giant Cavendish |journal=Food Chemistry |date=2013 |volume=141 |issue=2 |pages=795–801 |doi=10.1016/j.foodchem.2013.03.064 |pmid=23790849 }}</ref> [[beef]], and [[cauliflower]].
+
+== Pharmacology ==
+In the late 19th and early 20th centuries, acetophenone was used in medicine.<ref>{{Merck12th}}</ref> It was marketed as a [[hypnotic]] and [[anticonvulsant]] under brand name Hypnone. The typical dosage was 0.12 to 0.3 milliliters.<ref>{{cite book | last= Bartholow|first= Roberts | title = A Practical Treatise on Materia Medica and Therapeutics | publisher = Appleton & Co | date = 1908}}</ref> It was considered to have superior sedative effects to both [[paraldehyde]] and [[chloral hydrate]].<ref>{{cite journal|last=Norman|first=Conolly|title=Cases illustrating the sedative effects of aceto-phenone|journal=Journal of Mental Science|volume=32|page=519|date=1887|doi=10.1192/bjp.32.140.519}}</ref> In humans, acetophenone is metabolized to [[benzoic acid]], [[carbonic acid]], and [[acetone]].<ref>{{cite journal | title = Hypnone – The new hypnotic | journal = Journal of the American Medical Association | volume = 5 | page = 632 | date = 1885 | issue = 23 | doi = 10.1001/jama.1885.02391220016006}}</ref> [[Hippuric acid]] occurs as an indirect metabolite and its quantity in urine may be used to confirm acetophenone exposure,<ref name=pubchem>{{PubChem|7410}}</ref> although other substances, like [[toluene]], also induce hippuric acid in urine.<ref>{{cite web|url=http://www.beroepsziekten.nl/datafiles/A044.pdf|title=The Netherlands Center for Occupational Diseases (NCvB): toluene (Dutch)|website=beroepsziekten.nl|access-date=19 April 2018}}</ref>
+
+== Toxicity ==
+The {{LD50}} is 815&nbsp;mg/kg (oral, rats).<ref name=Ullmann/> Acetophenone is currently listed as a Group D [[carcinogen]] indicating that there is no evidence at present that it causes cancer in humans.
+
+== References ==
+{{reflist|30em}}
+==External links==
+{{EB1911 poster|Acetophenone}}
+
+{{GABAAR PAMs}}
+
+{{Authority control}}
+
+[[Category:Excipients]]
+[[Category:GABAA receptor positive allosteric modulators]]
+[[Category:Phenyl compounds]]
+[[Category:Acetophenones| ]]
+[[Category:Acetyl compounds]]

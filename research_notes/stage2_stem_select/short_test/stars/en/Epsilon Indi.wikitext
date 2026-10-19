@@ -1,0 +1,393 @@
+{{Short description|Star system in the constellation of Indus}}
+{{Starbox begin}}
+{{Starbox image
+ | image=
+{{Location mark
+|image=Indus constellation map.svg|alt=|float=center|width=240
+|label=|position=right
+|mark=Red circle.svg|mark_width=8|mark_link=ε Ind
+|x=313|y=606
+}}
+ | caption=Location of ε Indi (circled)
+}}
+{{Starbox observe
+ | epoch        = [[J2000.0]] ([[International Celestial Reference System|ICRS]])
+ | constell     = [[Indus (constellation)|Indus]]
+ | ra           = {{RA|22|03|21.65363}}<ref name="Gaia3a"/>
+ | dec          = {{DEC|−56|47|09.5228}}<ref name="Gaia3a"/>
+ | appmag_v     = {{val|4.674|0.006}}<ref name=Paunzen/>
+}}
+{{Starbox character
+ | type         = [[main sequence]]<ref name=Gaia3a/>
+ | class        = {{nowrap|K5V + T1 + T6}}<ref name="aaa505"/>
+ | b-v          = {{val|1.056|0.016}}<ref name="van Leeuwen2007"/>
+ | u-b          = 1.00<ref name="aaa86"/>
+ | variable     = <!-- None -->
+}}
+{{Starbox astrometry
+ | component1   = ε Ind A
+ | radial_v     = {{val|−40.4|0.9|0.8}}<ref name=Sanghi2026/>
+ | prop_mo_ra   = {{val|+3966.661|fmt=commas}}
+ | prop_mo_dec  = {{val|−2536.192|fmt=commas}}
+ | pm_footnote  = <ref name="Gaia3a"/>
+ | parallax     = 274.8431
+ | p_error      = 0.0956
+ | parallax_footnote = <ref name="Gaia3a"/>
+ | absmag_v     = 6.89<ref name=sci299_5612_1552/>
+ | component2   = ε Ind Ba/Bb
+ | prop_mo_ra2  = {{val|+3981.977|fmt=commas}}
+ | prop_mo_dec2 = {{val|−2466.832|fmt=commas}}
+ | pm_footnote2 = <ref name="Gaia3b"/>
+ | parallax2    = 270.6580
+ | p_error2     = 0.6896
+ | parallax_footnote2 = <ref name="Gaia3b"/>
+}}
+{{Starbox orbit
+ | reference = <ref name="Chen2022"/>
+ | primary = ε Ind Ba
+ | name = ε Ind Bb
+ | period = 11.0197 ± 0.0076
+ | axis_unitless = 661.58 ± 0.37 mas<br/>(2.4058 ± 0.0040 au)
+ | eccentricity = 0.54042 ± 0.00063
+ | periarg = 328.27 ± 0.12
+ | node = 147.959 ± 0.023
+ | inclination = 77.082 ± 0.032
+}}
+{{Starbox detail
+ | component1   = ε Ind A
+ | mass         = {{val|0.782|0.023}}<ref name=Lundkvist2024/>
+ | radius       = {{val|0.713|0.006}}<ref name=Lundkvist2024/>
+ | luminosity   = {{val|0.21|0.02}} <ref name=Rains2020/>
+ | temperature  = {{val|4649|65|fmt=commas}}<ref name=Lundkvist2024/>
+ | metal_fe     = {{val|−0.17|0.04}}<ref name=Lundkvist2024/>
+ | gravity      = {{val|4.50|0.07}}<ref name=Lundkvist2024/>
+ | rotation     = {{val|35.732|+0.006|-0.003}} days<ref name="Feng2019"/>
+ | rotational_velocity = 2.00<ref name=Rains2020/>
+ | age_gyr      = {{val|3.5|+0.8|-1.0}}<ref name=Chen2022/>
+}}
+{{Starbox detail|no_heading = y
+|component1 = ε Ind Ba
+|mass_mj = {{val|66.92|0.36}}<ref name=Chen2022/>
+|radius = 0.080–0.081<ref name=aaa510/>
+|temperature = {{Val|1312|13|fmt=commas}}<ref name=Chen2022/>
+|gravity = {{Val|5.365|0.006}}<ref name=Chen2022/>
+|luminosity = {{val|2.04|e=-5}}<ref name=aaa510/>
+|component2 = ε Ind Bb
+|mass_mj2 = {{val|53.25|0.29}}<ref name=Chen2022/>
+|radius2 =  0.082–0.083<ref name=aaa510/>
+|luminosity2 = {{val|5.97|e=-6|fmt=commas}}<ref name=aaa510/>
+|temperature2 = {{Val|972|13}}<ref name=Chen2022/>
+|gravity2 = {{Val|5.288|0.003}}<ref name=Chen2022/>
+}}
+{{Starbox catalog
+| names = {{odlist | B=ε Ind | CD=−57°8464 | CPD=−57°10015 | FK5=825 | GJ=845 | HD=209100 | HIP=108870 | HR=8387 | LHS=67 | PLX=5314.00 | SAO=247287 }}, UGP&nbsp;544<ref name=SIMBAD/>
+| component2 = B
+| names2 = {{odlist | V=CI Ind}}<ref name=SIMBAD2/>
+}}
+{{Starbox reference
+ | Simbad=**+SOZ+1|sn=The system
+ | Simbad2=*+eps+Ind|sn2=A
+ | Simbad3=*+eps+Ind+B|sn3=Bab
+ | Simbad4=1WGA+J2203.9-5647|sn4=Bab (as X-ray source)
+ | NSTED=eps Ind
+ | ARICNS=01796
+}}
+{{Starbox end}}
+
+'''Epsilon Indi''', [[Romanization of Greek|Latinized]] from ε Indi, is a [[star system]] located at a distance of approximately 12 [[light-year]]s from [[Earth]] in the southern [[constellation]] of [[Indus (constellation)|Indus]]. The star has an orange hue and is faintly visible to the naked eye with an [[apparent visual magnitude]] of 4.674.<ref name=Paunzen/> It consists of a [[K-type main-sequence star]], ε Indi A, and two [[brown dwarf]]s, ε Indi Ba and ε Indi Bb, in a wide orbit around it.<ref name="Smith et al" /> The brown dwarfs were discovered in 2003. ε Indi Ba is an early T dwarf (T1) and ε Indi Bb a late T dwarf (T6) separated by 0.6 arcseconds, with a projected distance of 1460 AU from their primary star.
+
+ε Indi A has one known planet, [[Epsilon Indi Ab|ε Indi Ab]], with a mass of 6.31 [[Jupiter mass]]es in an elliptical orbit with a period of about 171.3 years. ε Indi Ab is the second-closest [[Giant planet#Extrasolar giant planets|Jovian exoplanet]], after [[Epsilon Eridani b|ε Eridani b]]. The ε Indi system provides a benchmark case for the study of the formation of gas giants and brown dwarfs.<ref name="Feng2019" />
+
+==Observation==
+[[File:Epsilon Indi.png|thumb|left|Epsilon Indi with [[SkyMapper]] and a Hubble [[Near Infrared Camera and Multi-Object Spectrometer|NICMOS]] image of the brown dwarf binary]]
+The constellation Indus (the Indian) first appeared in [[Johann Bayer]]'s celestial atlas ''Uranometria'' in 1603. The 1801 star atlas ''Uranographia'', by German astronomer [[Johann Elert Bode]], places ε Indi as one of the arrows being held in the left hand of the Indian.<ref name="eso0303"/>
+
+In 1847, [[Heinrich Louis d'Arrest]] compared the position of this star in several catalogues dating back to 1750, and discovered that it possessed a measureable [[proper motion]]. That is, he found that the star had changed position across the celestial sphere over time.<ref name="D'Arrest1847"/> In 1882–3, the [[parallax]] of ε Indi was measured by astronomers [[David Gill (astronomer)|David Gill]] and William L. Elkin at the [[Cape of Good Hope]]. They derived a parallax estimate of {{nowrap|0.22 ± 0.03 }}[[arcsecond]]s.<ref name="Callandreau1886"/> In 1923, [[Harlow Shapley]] of the [[Harvard Observatory]] derived a parallax of 0.45 arcseconds.<ref name="Shapley1923"/>
+
+In 1972, the [[Orbiting Astronomical Observatory|Copernicus satellite]] was used to examine this star for the emission of [[ultraviolet]] laser signals. Again, the result was negative.<ref name="Lawton1975"/> ε Indi leads a [[Catalog of Nearby Habitable Systems|list]], compiled by [[Margaret Turnbull]] and [[Jill Tarter]] of the [[Carnegie Institution]] in [[Washington, D.C.|Washington]], of 17,129 nearby stars most likely to have planets that could support complex life.<ref name="Stahl2007"/>
+
+The star is among five nearby paradigms as K-type stars of a type in a 'sweet spot' between Sun-analog stars and M stars for the likelihood of evolved life, per analysis of [[Giada Arney]] from NASA's [[Goddard Space Flight Center]].<ref name=Nasa2019-03-07>{{Cite web | url=https://www.nasa.gov/feature/goddard/2019/k-star-advantage |title = "Goldilocks" Stars May be "Just Right" for Finding Habitable Worlds|date = 22 February 2019 | work = [[NASA]] | author = Bill Steigerwald | quote = {{'}}I find that certain nearby K stars like 61 Cyg A/B, Epsilon Indi, Groombridge 1618, and HD 156026 may be particularly good targets for future biosignature searches,{{'}} said Arney.}}</ref>
+
+==Characteristics==
+
+ε Indi A is a [[main sequence|main-sequence]] star of [[spectral type]] K5V. The star has only about three-fourths the mass of the Sun<ref name="RECONS"/> and 71% of the [[Sun's radius]].<ref name=Rains2020/> Its surface gravity is slightly higher than the Sun's.<ref name="aaa86"/> The [[metallicity]] of a star is the proportion of elements with higher atomic numbers than helium, being typically represented by the ratio of iron to hydrogen compared to the same ratio for the Sun; ε Indi A is found to have about 87% of the Sun's proportion of iron in its [[photosphere]].<ref name="aaa505"/>
+
+The [[stellar corona|corona]] of ε Indi A is similar to the Sun, with an [[X-ray]] luminosity of 2{{e|27}}&nbsp;ergs&nbsp;s<sup>−1</sup> (2{{e|20}}&nbsp;W) and an estimated coronal temperature of 2{{e|6}}&nbsp;K. The [[stellar wind]] of this star expands outward, producing a [[bow shock]] at a distance of 63 [[Astronomical Unit|AU]]. Downstream of the bow, the termination shock reaches as far as 140 AU from the star.<ref name="Muller2001"/>
+
+[[File:Sun from Epsilon Indi.png|left|thumb|Position of Sun and [[Alpha Centauri|α Centauri]] in Ursa Major as seen from ε Indi|alt=]]
+This star has the third highest [[proper motion]] of any star visible to the unaided eye, after [[Groombridge 1830]] and [[61 Cygni]],<ref name="Weaver2007"/> and the ninth highest overall.<ref name="Staff2007"/> This motion will move the star into the constellation [[Tucana]] around 2640 AD.<ref name="MooreBook2014"/> ε Indi A has a [[stellar kinematics|space velocity]] relative to the Sun of 86&nbsp;[[km/s]],<ref name="aaa86" /><ref group="note">The space velocity components are: U = −77; V = −38, and W = +4. This yields a net space velocity of <math>\begin{smallmatrix}\sqrt{77^2\ +\ 38^2\ +\ 4^2}\ =\ 86\end{smallmatrix}</math>&nbsp;km/s.</ref> which is unusually high for what is considered a young star.<ref name="Rocha2001"/> It is thought to be a member of the ε Indi [[moving group]] of at least sixteen [[population I]] stars.<ref name="Eggen1971"/> This is an association of stars that have similar [[stellar kinematics|space velocity]] vectors, and therefore most likely formed at the same time and location.<ref name="Kollatschny"/> ε Indi will make its closest approach to the Sun in about 17,500 years when it makes [[perihelion]] passage at a distance of around {{Convert|3.245|pc|ly|order=flip}}.<ref name="aa575_A35"/>
+
+As seen from ε Indi, the Sun is a 2.6-magnitude star in [[Ursa Major]], near the bowl of the [[Big Dipper]].<ref group="note">From ε Indi the Sun would appear on the diametrically opposite side of the sky at the coordinates RA={{RA|10|03|21}}, Dec={{DEC|56|47|10}}, which is located near [[Beta Ursae Majoris]]. The absolute magnitude of the Sun is 4.8, so, at a distance of 3.63 parsecs, the Sun would have an apparent magnitude <math>\begin{smallmatrix}m\ =\ M_v\ +\ 5\cdot((\log_{10}\ 3.63)\ -\ 1)\ =\ 2.6\end{smallmatrix}</math>.</ref>
+{{clear|left}}
+
+==Brown dwarfs==
+[[Image:Artist's Conception of Epsilon Indi System (labelled).jpg|thumb|left|Artist's conception of the Epsilon Indi system showing Epsilon Indi A and its brown-dwarf binary companions.  The labels give the initial minimum measurement of the distance between Epsilon Indi A and the binary.<ref name="NOIRLab"/>]]
+
+In January 2003, astronomers announced the discovery of a [[brown dwarf]] with a mass of 40 to 60 [[Jupiter mass]]es in orbit around ε Indi A with a projected separation on the sky of about 1,500&nbsp;[[astronomical unit|AU]].<ref name="ScholzA"/><ref name="ScholzB"/> In August 2003, astronomers discovered that this brown dwarf was actually a binary brown dwarf, with an apparent separation of 2.1&nbsp;AU and an orbital period of about 15 years.<ref name=aaa510/><ref name="Volk2003"/> Both brown dwarfs are of [[T dwarf|spectral class T]]; the more massive component, ε Indi Ba, is of spectral type T1–T1.5 and the less massive component, ε Indi Bb, of spectral type T6.<ref name=aaa510/>  More recent parallax measurements with the Gaia spacecraft place  the ε Indi B binary about 11,600 AU (0.183 lightyears) away from ε Indi A, along line of sight from Earth.<ref name="Gaia3b"/>
+
+Evolutionary models<ref name="Baraffe2003"/> have been used to estimate the physical properties of these brown dwarfs from [[spectroscopic]] and [[photometry (astronomy)|photometric]] measurements. These yield masses of {{nowrap|47 ± 10}} and {{nowrap|28 ± 7}} times the mass of Jupiter, and radii of {{nowrap|0.091 ± 0.005}} and {{nowrap|0.096 ± 0.005}} [[solar radii]], for ε Indi Ba and ε Indi Bb, respectively.<ref name="McCaughrean2004"/> The [[effective temperature]]s are 1300–1340&nbsp;[[Kelvin|K]] and 880–940&nbsp;[[Kelvin|K]], while the log ''g'' (cm s<sup>−1</sup>) surface gravities are 5.50 and 5.25, and their luminosities are {{nowrap|1.9 × 10<sup>−5</sup>}} and {{nowrap|4.5 × 10<sup>−6</sup>}} the [[Solar luminosity|luminosity of the Sun]]. They have an estimated metallicity of [M/H] = –0.2.<ref name=aaa510/>
+
+The brown dwarf pair is [[variable star|variable]], and has received the [[variable star designation]] ''CI Indi''.<ref name=SIMBAD2/>
+
+==Planetary system==
+{{Main|Epsilon Indi Ab}}
+{{OrbitboxPlanet begin 
+| name = Epsilon Indi A 
+| period_unit = year
+}} 
+{{OrbitboxPlanet 
+| exoplanet = [[Epsilon Indi Ab|b]]
+| mass = {{val|6.50|0.72|0.59}}<ref name=Sanghi2026/>{{rp|34}} {{jupiter mass}}<br />{{Val|7.6|0.7}}<ref name=Matthews2026/>{{rp|12}}
+| radius = {{val|1.038|0.012|0.009}}<ref name=Sanghi2026/>{{rp|28}}
+| period = {{val|70|12|9}}<ref name=Sanghi2026/>{{rp|34}}<br />{{val|108|49|25}}<ref name=Matthews2026/>{{rp|12}}
+| semimajor = {{val|15.76|1.73|1.39}}<ref name=Sanghi2026/>{{rp|34}}<br />{{Val|20.9|5.8|3.3}}<ref name=Matthews2026/>{{rp|12}}
+| eccentricity = {{val|0.25|0.09}}<ref name=Sanghi2026/>{{rp|34}}
+| inclination = {{val|102.2|1.7}}<ref name=Sanghi2026/>{{rp|34}}
+}} 
+{{Orbitbox end}}
+
+[[Image:Epsilon Indi Ab (MIRI Image).png|thumb|Epsilon Indi Ab imaged by [[James Webb Space Telescope|JWST]] [[Mid-Infrared Instrument|MIRI]]. The star marks the position of its host star, whose light is blocked by a [[coronagraph]].]]
+
+The existence of a planetary companion to Epsilon Indi A was suspected since 2002 based on [[radial velocity]] observations.<ref name="ESO2002"/> The planet [[Epsilon Indi Ab]] was confirmed in 2018<ref name="Feng2017"/> and formally published in 2019 along with its detection via [[astrometry]].<ref name="Feng2019"/>
+
+A direct imaging attempt of this planet using the [[James Webb Space Telescope]] was performed in 2023,<ref name="JWSTProposal2243"/> and the image was released in 2024. The detected planet's mass and orbit are different from what was predicted based on radial velocity and astrometry observations.<ref name="JWSTImages2024-07-24" /> It was found to have a mass of 6.31 [[Jupiter mass]]es and an elliptical orbit with a period of about 171.3 years.<ref name="Matthews2024"/> Later observations found the orbit to be shorter and closer to circular, with a period of {{val|70|12|9}}<ref name=Sanghi2026/>{{rp|34}} to {{val|108|49|25}} years.<ref name=Matthews2026/>{{rp|12}} This difference is attributed to a more careful treatment of the data.<ref name=Sanghi2026/><ref name=Matthews2026/>
+ 
+No excess [[infrared]] radiation that would indicate a [[debris disk]] has been detected around ε Indi.<ref name=Trilling2008 /> Such a debris disk could be formed from the collisions of [[planetesimal]]s that survive from the early period of the star's [[protoplanetary disk]].
+
+==See also==
+* [[List of nearest stars]]
+* [[List of nearest stars by spectral type#List of nearest K-type stars|List of nearest K-type stars]]
+
+== Notes ==
+{{reflist|group=note}}
+
+==References==
+<references>
+<ref name=Paunzen>{{Cite journal |last=Paunzen |first=E. |date=2015-08-01 |title=A new catalogue of Strömgren-Crawford uvbyβ photometry |bibcode=2015A&A...580A..23P |journal=Astronomy and Astrophysics |volume=580 |pages=A23 |doi=10.1051/0004-6361/201526413  |doi-access=free|issn=0004-6361|arxiv=1506.04568 }}</ref>
+
+<ref name=SIMBAD>{{cite simbad |title=* eps Ind |access-date=16 July 2026}}</ref>
+
+<ref name=SIMBAD2>{{cite simbad |title=* eps Ind B |access-date=16 July 2026}}</ref>
+
+<ref name="Gaia3a">{{cite Gaia DR3|6412595290592307840}}</ref>
+<ref name="Gaia3b">{{cite Gaia DR3|6412596012146801152}}</ref>
+
+<ref name="Chen2022">
+{{cite journal
+ |doi=10.3847/1538-3881/ac66d2
+ |title=Precise Dynamical Masses of ε Indi Ba and Bb: Evidence of Slowed Cooling at the L/T Transition
+ |year=2022
+ |last1=Chen
+ |first1=Minghan
+ |last2=Li
+ |first2=Yiting
+ |last3=Brandt
+ |first3=Timothy D.
+ |last4=Dupuy
+ |first4=Trent J.
+ |last5=Cardoso
+ |first5=Cátia V.
+ |last6=McCaughrean
+ |first6=Mark J.
+ |journal=The Astronomical Journal
+ |volume=163
+ |issue=6
+ |page=288
+ |arxiv=2205.08077
+ |bibcode=2022AJ....163..288C
+ |s2cid=248834536
+ |doi-access=free
+ }}
+</ref>
+
+<ref name=Rains2020>{{cite journal
+ | title=Precision angular diameters for 16 southern stars with VLTI/PIONIER
+ | display-authors=1 | last1=Rains | first1=Adam D.
+ | last2=Ireland | first2=Michael J. | last3=White | first3=Timothy R.
+ | last4=Casagrande | first4=Luca | last5=Karovicova | first5=I.
+ | journal=Monthly Notices of the Royal Astronomical Society
+ | volume=493 | issue=2 | pages=2377–2394 | date=April 2020
+ | arxiv=2004.02343 | bibcode=2020MNRAS.493.2377R 
+ | doi=10.1093/mnras/staa282 | doi-access=free }}</ref>
+ 
+<ref name="ESO2002">{{cite journal | author=Endl, M. | author2=Kürster, M. | author3=Els, S. | author4=Hatzes, A. P. | author5=Cochran, W. D. | author6=Dennerl, K. | author7=Döbereiner, S. | title=The planet search program at the ESO Coudé Echelle spectrometer. III. The complete Long Camera survey results | journal=[[Astronomy and Astrophysics]] | volume=392 | issue=2 | pages=671–690 | date=2002 | bibcode=2002A&A...392..671E | doi=10.1051/0004-6361:20020937  | doi-access=free| arxiv=astro-ph/0207512| s2cid=17393347 }}</ref>
+ 
+<ref name="Baraffe2003">E.g., {{cite journal | last=Baraffe | first=I. | author2=Chabrier, G. | author3=Barman, T. | author4=Allard, F. | author5=Hauschildt, P. H. | title=Evolutionary models for cool brown dwarfs and extrasolar giant planets. The case of HD 209458 | journal=Astronomy and Astrophysics | date=May 2003 | volume=402 | issue=2 | pages=701–712 | bibcode=2003A&A...402..701B | doi=10.1051/0004-6361:20030252  | doi-access=free| arxiv=astro-ph/0302293| s2cid=15838318 }}</ref>
+ 
+<ref name="McCaughrean2004">{{cite journal | author=McCaughrean, M. J. | display-authors=etal | title=ε Indi Ba, Bb: The nearest binary brown dwarf | journal=Astronomy and Astrophysics | date=January 2004 | volume=413 | issue=3 | pages=1029–1036 | bibcode=2004A&A...413.1029M | doi=10.1051/0004-6361:20034292  | doi-access=free| arxiv=astro-ph/0309256| s2cid=15407249 }}</ref>
+ 
+<ref name="ScholzA">{{cite news|last=Scholz |first=Ralf-Dieter |author2=McCaughrean, Mark |date=2003-01-13 |title=Discovery of Nearest Known Brown Dwarf: Bright Southern Star Epsilon Indi Has Cool, Substellar Companion |publisher=European Southern Observatory |url=http://www.eso.org/public/outreach/press-rel/pr-2003/pr-01-03.html |access-date=2006-05-24 |url-status=dead |archive-url=https://web.archive.org/web/20071014191814/http://eso.org/public/outreach/press-rel/pr-2003/pr-01-03.html |archive-date=October 14, 2007 }}</ref>
+
+<ref name="ScholzB">{{cite journal | last=Scholz | first=R.-D. | author2=McCaughrean, M. J. | author3=Lodieu, N. | author4=Kuhlbrodt, B. | title=ε Indi B: A new benchmark T dwarf | journal=Astronomy and Astrophysics | date=February 2003 | volume=398 | issue=3 | pages=L29–L33 | bibcode=2003A&A...398L..29S | doi=10.1051/0004-6361:20021847  | doi-access=free| arxiv=astro-ph/0212487 | s2cid=119474823 }}</ref>
+ 
+<ref name="Volk2003">{{cite journal | last=Volk | first=K. | author2=Blum, R. | author3=Walker, G. | author4=Puxley, P. | date=2003 | bibcode=2003IAUC.8188....2V | journal=IAU Circular | issue=8188 | title=epsilon Indi B | publisher=IAU | pages=2}}</ref>
+ 
+<ref name="Rocha2001">{{cite journal | first=Helio J. | last=Rocha-Pinto | author2=Maciel, Walter J. | author3=Castilho, Bruno V. | title=Chromospherically Young, Kinematically Old Stars | journal=Astronomy and Astrophysics | pages=912–924 | doi=10.1051/0004-6361:20011815  | doi-access=free| date=2001 | issue=3 | bibcode=2002A&A...384..912R | volume=384 | arxiv=astro-ph/0112452| s2cid=16982360 }}</ref>
+ 
+<ref name="Eggen1971">{{cite journal | last=Eggen | first=O. J. | title=The zeta Herculis, sigma Puppis, ε Indi, and eta Cephei Groups of Old Disk Population Stars | journal=Publications of the Astronomical Society of the Pacific | date=1971 | volume=83 | issue=493 | pages=251–270 | bibcode=1971PASP...83..251E | doi=10.1086/129119| doi-access=free }}</ref> 
+ 
+<ref name="Kollatschny">{{cite journal | last=Kollatschny | first=W. | title=A model atmosphere of the late type dwarf Epsilon INDI | journal=Astronomy and Astrophysics | date=1980 | volume=86 | issue=3 | pages=308–314 | bibcode=1980A&A....86..308K}}</ref>
+ 
+<ref name="aa575_A35">{{cite journal | last1=Bailer-Jones | first1=C. A. L.  | title=Close encounters of the stellar kind  | journal=Astronomy & Astrophysics | volume=575 | id=A35 | pages=13 | date=March 2015 | doi=10.1051/0004-6361/201425221  | doi-access=free| bibcode=2015A&A...575A..35B  | arxiv = 1412.3648 | s2cid=59039482 }}</ref>
+ 
+<ref name="Muller2001">{{cite journal | last1=Müller | first1=Hans-Reinhard | last2=Zank| first2=Gary P. | title=Modeling the Interstellar Medium-Stellar Wind Interactions of λ Andromedae and ε Indi | journal=The Astrophysical Journal | year=2001 | volume=551 | issue=1 | pages=495–506 | doi=10.1086/320070 | bibcode=2001ApJ...551..495M| doi-access=free }}</ref>
+
+<ref name="Weaver2007">{{cite journal | last=Weaver | first=Harold F. | title=The Visibility of Stars Without Optical Aid | journal=Publications of the Astronomical Society of the Pacific | date=1947 | volume=59 | issue=350 | pages=232–243 | bibcode=1947PASP...59..232W | doi=10.1086/125956 | doi-access=free }}</ref> 
+ 
+<ref name="Staff2007">{{cite web | author=Staff | date=2007-05-04 | url=http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=areas | title=High Proper Motion Stars: Interesting Areas to View  | publisher=ESA | access-date=2006-08-10 }}</ref>
+ 
+<ref name="RECONS">{{cite web |website=[[Research Consortium On Nearby Stars]] |publisher=[[Georgia State University]] |date=January 1, 2012 |title=The 100 nearest star systems |url=http://www.astro.gsu.edu/RECONS/TOP100.posted.htm |access-date=2012-06-11}}</ref>
+
+<ref name="Sanghi2026">{{cite arXiv |last=Sanghi |first=Aniket |date=9 Mar 2026 |title=Worlds Next Door. IV. Mapping the Late Stages of Giant Planet Evolution with a Precise Dynamical Mass and Luminosity for ε Ind Ab |arxiv=2603.08787 |class=astro-ph}}</ref>
+
+<ref name="Matthews2026">{{cite arXiv |last=Matthews |first=Elisabeth C. |date=9 Mar 2026 |title=A second visit to Eps Ind Ab with JWST: new photometry confirms ammonia and suggests thick clouds in the exoplanet atmosphere of the closest super-Jupiter |arxiv=2603.08780 |class=astro-ph}}</ref>
+
+<ref name="aaa505">{{cite journal
+ | title=Mass-radius relation of low and very low-mass stars revisited with the VLTI
+ | journal=Astronomy and Astrophysics | volume=505 | issue=1
+ | date=October 2009 | pages=205–215
+ | doi=10.1051/0004-6361/200911976
+  | doi-access=free| bibcode=2009A&A...505..205D |arxiv = 0906.0602
+ |last1=Demory |first1=Brice-Olivier
+ |last2=Ségransan |first2=Damien
+ |last3=Forveille |first3=Thierry
+ |last4=Queloz |first4=Didier
+ |last5=Beuzit |first5=Jean-Luc
+ |last6=Delfosse |first6=Xavier
+ |last7=Di Folco |first7=Emmanuel
+ |last8=Kervella |first8=Pierre
+ |last9=Le Bouquin |first9=Jean-Baptiste
+ |last10=Perrier |first10=Christian
+ |last11=Benisty |first11=Myriam
+ |last12=Duvert |first12=Gilles
+ |last13=Hofmann |first13=Karl-Heinz
+ |last14=Lopez |first14=Bruno
+ |last15=Petrov |first15=Romain
+ |s2cid=14786643
+ }}</ref>
+ 
+<ref name="Lawton1975">{{cite journal | last=Lawton | first=A. T. | title=CETI from Copernicus | journal=Spaceflight | date=1975 | volume=17 | pages=328–330 | bibcode=1975SpFl...17..328L }}</ref> 
+ 
+<ref name="Stahl2007">{{cite web | last=Stahl | first=Jason | date=January 2007 | url=http://www.discover.com/issues/jan-07/departments/20-things-aliens/ | title=20 Things You Didn't Know About... Aliens | publisher=Discover | access-date=2007-03-02 | archive-url=https://web.archive.org/web/20070221130403/http://www.discover.com/issues/jan-07/departments/20-things-aliens/ <!-- Bot retrieved archive --> | archive-date=2007-02-21}}</ref>
+
+<ref name="D'Arrest1847">{{cite journal | last=D'Arrest | first=M. | title=On proper motion of ε Indi | journal=Monthly Notices of the Royal Astronomical Society | date=1847 | volume=8 | pages=16 | bibcode=1847MNRAS...8...16D | doi = 10.1093/mnras/8.1.16 | doi-access=free }}</ref>
+ 
+<ref name="Callandreau1886">{{cite journal | last=Callandreau | first=O. |authorlink=Octave Callandreau| title=Revue des publications astronomiques. Heliometer determinations of Stellar parallax, in the southern hemisphere, by David Gill and W. L. Elkin | journal=Bulletin Astronomique | language=fr | date=1886 | volume=2 | issue=1 | pages=42–44 | bibcode=1885BuAsI...2...42C }}</ref>
+ 
+<ref name="Shapley1923">{{cite journal | last=Shapley | first=Harlow | title=Epsilon Indi | journal=Harvard College Observatory Bulletin | date=1923 | issue=789 | pages=2 | bibcode=1923BHarO.789Q...2S | volume=789 }}</ref>
+
+<ref name="Smith et al">{{cite journal| title=High-resolution infrared spectroscopy of the brown dwarf ε Indi Ba| first1=Verne V.| last1=Smith| first2=Takashi| last2=Tsuji| first3=Kenneth H.| last3=Hinkle| first4=Katia| last4=Cunha| first5=Robert D.| last5=Blum| first6=Jeff A.| last6=Valenti| first7=Stephen T.| last7=Ridgway| first8=Richard R.| last8=Joyce| first9=Peter| last9=Bernath| year=2003| journal=The Astrophysical Journal Letters| volume=599| pages=L107–L110| number=2| doi=10.1086/381248| arxiv=astro-ph/0311237| bibcode=2003ApJ...599L.107S| s2cid=117133193}}</ref>
+
+<ref name="eso0303">{{cite press release | author=<!--Not stated--> | title=Discovery of Nearest Known Brown Dwarf | url=https://www.eso.org/public/news/eso0303/ | publisher=[[European Southern Observatory]] | date=2003-01-13 | access-date=2025-06-14}}</ref>
+
+<ref name=Trilling2008>{{cite journal | author=Trilling, D. E. | display-authors=etal | title=Debris Disks around Sun-like Stars | journal=The Astrophysical Journal | volume=674 | issue=2 | pages=1086–1105 | date=February 2008 | doi=10.1086/525514  | doi-access=free| bibcode=2008ApJ...674.1086T | arxiv=0710.5498| s2cid=54940779 }}</ref>
+
+<ref name="Feng2017">{{cite arXiv| title=Detection of the closest Jovian exoplanet in the Epsilon Indi triple system| eprint=1803.08163| first1=Fabo| last1=Feng| first2=Mikko| last2=Tuomi| first3=Hugh R. A.| last3=Jones| date=23 March 2018|class = astro-ph.EP}}</ref>
+
+<ref name="van Leeuwen2007">{{cite journal | title=Validation of the new Hipparcos reduction | last1=van Leeuwen | first1=F. | journal=Astronomy and Astrophysics | volume=474 | issue=2 | pages=653–664 | date=2007 | arxiv=0708.1752 | bibcode=2007A&A...474..653V | doi=10.1051/0004-6361:20078357 | doi-access=free| s2cid=18759600 }}</ref>
+
+<ref name=aaa510>{{cite journal | title=ɛ Indi Ba, Bb: a detailed study of the nearest known brown dwarfs | display-authors=1 | last1=King | first1=R. R. | last2=McCaughrean | first2=M. J. | last3=Homeier | first3=D. | last4=Allard | first4=F. | last5=Scholz | first5=R.-D. | last6=Lodieu | first6=N. | journal=Astronomy and Astrophysics | volume=510 | date=February 2010 | doi=10.1051/0004-6361/200912981  | doi-access=free| bibcode=2010A&A...510A..99K | arxiv=0911.3143 | pages=A99 | s2cid=53550866 | url=http://goedoc.uni-goettingen.de/goescholar/bitstream/handle/1/9686/aa12981-09.pdf?sequence=2 | quote=However, it seems that derivations of the mass of cool brown dwarfs are uncertain even where estimates of the effective temperature, surface gravity, and luminosity exist. }}{{Dead link|date=September 2023 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+
+<ref name="aaa86">{{cite journal | last=Kollatschny | first=W. | title=A model atmosphere of the late type dwarf Epsilon INDI | journal=Astronomy and Astrophysics | date=1980 | volume=86 | issue=3 | bibcode=1980A&A....86..308K | pages=308–314}}</ref>
+
+<ref name=sci299_5612_1552>{{cite journal | author=Jimenez, Raul | author2=Flynn, Chris | author3=MacDonald, James | author4=Gibson, Brad K. | title=The Cosmic Production of Helium | journal=Science | volume=299 | issue=5612 | pages=1552–1555 | date=March 2003 | doi=10.1126/science.1080866 | bibcode=2003Sci...299.1552J | pmid=12624260 | arxiv=astro-ph/0303179| s2cid=1424666 }}</ref>
+
+<ref name="Feng2019">{{Cite journal | title=Detection of the nearest Jupiter analog in radial velocity and astrometry data | first1=Fabo | last1=Feng | first2=Guillem  | last2=Anglada-Escudé | first3=Mikko | last3=Tuomi | first4=Hugh R. A. | last4=Jones | first5=Julio | last5=Chanamé | first6=Paul R. | last6=Butler | first7=Markus | last7=Janson | journal=Monthly Notices of the Royal Astronomical Society | arxiv=1910.06804 | date=14 October 2019 | volume=490 | issue=4 | pages=5002–5016 | doi=10.1093/mnras/stz2912 | doi-access=free | bibcode=2019MNRAS.490.5002F | s2cid=204575783 }}</ref>
+
+<ref name="Matthews2024">
+{{cite journal
+ |last1=Matthews |first1=E. C.
+ |last2=Carter |first2=A. L.
+ |display-authors=etal
+ |title=A temperate super-Jupiter imaged with JWST in the mid-infrared
+ |journal=[[Nature (journal)|Nature]]
+ |volume=633 |issue=8031 |pages=789–792
+ |date=July 2024
+ |doi=10.1038/s41586-024-07837-8
+ |pmid=39048015
+ |doi-access=free
+ |bibcode=2024Natur.633..789M
+ |pmc=11424479
+ |arxiv=2503.01599
+ }}</ref>
+
+<ref name="MooreBook2014">
+{{cite book
+ |last1=Moore
+ |first1=Patrick
+ |last2=Rees
+ |first2=Robin
+ |title=Patrick Moore's Data Book of Astronomy
+ |url=https://books.google.com/books?id=2FNfjWKBZx8C
+ |year=2014
+ |publisher=Cambridge University Press
+ |location=Cambridge
+ |isbn=978-1-139-49522-6
+ |page=296
+}}</ref>
+
+<ref name="JWSTProposal2243">
+{{cite web
+ |url=https://www.stsci.edu/jwst/science-execution/program-information.html?id=2243
+ |title=A direct detection of the closest Jupiter analog with JWST/MIRI
+ |website=stsci.edu
+ |publisher=[[Space Telescope Science Institute|STScI]]
+ |access-date=31 July 2022
+ |quote=We will collect the first direct images of a radial velocity planet, by targeting Eps Indi Ab with JWST/MIRI. [...] Our simulations confirm that we will detect Eps Indi Ab's thermal emission at high confidence, regardless of its cloud properties or thermal evolution.
+}}</ref>
+
+<ref name="JWSTImages2024-07-24">
+{{cite web
+ |url=https://science.nasa.gov/missions/webb/nasas-webb-images-cold-exoplanet-12-light-years-away/
+ |title=NASA's Webb Images Cold Exoplanet 12 Light-Years Away
+ |website=nasa.gov
+ |date=24 July 2024
+ |publisher=NASA Webb Mission Team
+ |access-date=Jul 24, 2024
+ |quote=
+}}</ref>
+
+<ref name=Lundkvist2024>
+{{cite journal
+ | last1=Lundkvist | first1=Mia S. | last2=Kjeldsen | first2=Hans | last3=Bedding | first3=Timothy R. | last4=McCaughrean | first4=Mark J. | last5=Butler | first5=R. Paul | last6=Slumstrup | first6=Ditte | last7=Campante | first7=Tiago L. | last8=Aerts | first8=Conny | last9=Arentoft | first9=Torben | last10=Bruntt | first10=Hans | last11=Cardoso | first11=Cátia V. | last12=Carrier | first12=Fabien | last13=Close | first13=Laird M. | last14=da Silva | first14=João Gomes | last15=Kallinger | first15=Thomas | last16=King | first16=Robert R. | last17=Li 李 | first17=Yaguang 亚光 | last18=Murphy | first18=Simon J. | last19=Rørsted | first19=Jakob L. | last20=Stello | first20=Dennis
+ | title=Low-amplitude Solar-like Oscillations in the K5 V Star ϵ Indi A
+ | journal=The Astrophysical Journal
+ | volume=964 | issue=2 | date=2024-04-01
+ | arxiv=2403.04509
+ | bibcode=2024ApJ...964..110L
+ | issn=0004-637X
+ | doi=10.3847/1538-4357/ad25f2
+ | doi-access=free
+ | page=110
+}}</ref>
+
+<!-- unused <ref name=Feng2024>{{Cite journal |last1=Feng |first1=Fabo |last2=Xiao |first2=Guang-Yao |last3=Jones |first3=Hugh R A |last4=Jenkins |first4=James S |last5=Pena |first5=Pablo |last6=Sun |first6=Qinghui |date=2024-12-19 |title=Lessons learned from the detection of wide companions by radial velocity and astrometry |journal=Monthly Notices of the Royal Astronomical Society |volume=539 |issue=4 |pages=3180–3200 |doi=10.1093/mnras/staf689 |doi-access=free |arxiv=2412.14542 |issn=0035-8711}}</ref> -->
+
+<ref name="NOIRLab">{{cite press release | author=<!--Not stated--> | title=Gemini Detects Something "Cool" in Our Neighborhood: Closest Known Brown Dwarf has a Companion | url=https://noirlab.edu/public/announcements/geminiann04016/ | publisher=[[NOIRLab]] | date=2004-10-27 | access-date=2025-06-13}}</ref>
+</references>
+
+==External links==
+* [http://www.eso.org/public/news/eso0303/ Discovery of Nearest Known Brown Dwarf] (eso0303 : 13 January 2003)
+* {{cite web | url=http://www.spaceref.com/news/viewpr.html?pid=12596 | archive-url=https://archive.today/20130202202126/http://www.spaceref.com/news/viewpr.html?pid=12596 | url-status=dead | archive-date=February 2, 2013 | title=Closest Known Brown Dwarf has a Companion | access-date=2008-06-28 | work=SpaceRef.ca | date=2003-09-19 }}
+* {{cite web | url=http://www.astro.uiuc.edu/~kaler/sow/epsind.html | title=EPS IND | access-date=2008-06-28 | work=STARS | last=Kaler | first=Jim | url-status=dead | archive-url=https://web.archive.org/web/20061206033955/http://www.astro.uiuc.edu/~kaler/sow/epsind.html | archive-date=2006-12-06 }}
+*[https://exoplanet.eu/catalog/eps_ind_a_b--6731/ Epsilon Indi Ab] at The [[Extrasolar Planets Encyclopaedia]]. Retrieved 2018-07-02.
+
+{{nearest systems|2}}
+{{Stars of Indus}}
+{{Authority control}}
+{{Sky|22|03|21.6571|-|56|47|09.514|11.83}}
+
+[[Category:Triple star systems]]
+[[Category:T-type brown dwarfs]]
+[[Category:Planetary systems with one confirmed planet]]
+[[Category:Local Bubble]]
+[[Category:Indus (constellation)]]
+[[Category:Bayer objects|Indi, Epsilon]]
+[[Category:Durchmusterung objects|CD-57 08464]]
+[[Category:Gliese and GJ objects|0845]]
+[[Category:Henry Draper Catalogue objects|209100]]
+[[Category:Hipparcos objects|108870]]
+[[Category:Bright Star Catalogue objects|8387]]
+[[Category:Objects with variable star designations|Indi, CI]]
+[[Category:Binary brown dwarfs]]
+[[Category:K5V stars]]

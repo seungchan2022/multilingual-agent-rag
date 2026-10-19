@@ -1,0 +1,416 @@
+{{Short description|Red dwarf star in the constellation Ophiuchus}}
+{{Featured article}}
+{{Use dmy dates|date=December 2018}}
+{{Starbox begin
+| name = Barnard's Star
+}}
+{{Starbox image
+| image = [[Image:Barnardstar2006.jpg|250px]]
+| caption = Image of Barnard's Star and its surroundings, c. 2006 (south is up)
+}}
+{{Starbox observe
+| epoch = [[J2000.0]]
+| constell = [[Ophiuchus]]<ref>{{cite constellation|BD+043561a}}</ref>
+| ra = {{RA|17|57|48.49847}}<ref name=GaiaDR3/>
+| dec = {{DEC|+04|41|36.1139}}<ref name=GaiaDR3/>
+| appmag_v = 9.511<ref name=koen/>
+}}
+{{Starbox character
+| type = [[main sequence]]<ref name=france2020/>
+| class = M4.0V<ref name=Gizis>{{cite journal|bibcode=1997AJ....113..806G|title=M-Subdwarfs: Spectroscopic Classification and the Metallicity Scale|journal=[[The Astronomical Journal]]|volume=113|issue=2|pages=806–822|last=Gizis|first=John E.|date=February 1997|doi=10.1086/118302|arxiv=astro-ph/9611222|s2cid=16863021}}</ref>
+| appmag_1_passband = U
+| appmag_1 = 12.497<ref name=koen/>
+| appmag_2_passband = B
+| appmag_2 = 11.240<ref name=koen>{{cite journal|bibcode=2010MNRAS.403.1949K|title=UBV(RI)C JHK observations of Hipparcos-selected nearby stars|journal=[[Monthly Notices of the Royal Astronomical Society]]|volume=403|issue=4|pages=1949|last1=Koen|first1=C.|last2=Kilkenny|first2=D.|last3=Van Wyk|first3=F.|last4=Marang|first4=F.|year=2010|doi=10.1111/j.1365-2966.2009.16182.x|doi-access=free|hdl=10566/813|hdl-access=free}}</ref>
+| appmag_3_passband = R
+| appmag_3 = 8.298<ref name=koen/>
+| appmag_4_passband = I
+| appmag_4 = 6.741<ref name=koen/>
+| appmag_5_passband = J
+| appmag_5 = 5.24<ref name=2mass>{{cite journal|bibcode=2003yCat.2246....0C|title=VizieR Online Data Catalog: 2MASS All-Sky Catalog of Point Sources (Cutri+ 2003)|journal=VizieR On-line Data Catalog: II/246|volume=2246|last1=Cutri|first1=R. M.|last2=Skrutskie|first2=M. F.|last3=Van Dyk|first3=S.|last4=Beichman|first4=C. A.|last5=Carpenter|first5=J. M.|last6=Chester|first6=T.|last7=Cambresy|first7=L.|last8=Evans|first8=T.|last9=Fowler|first9=J.|last10=Gizis|first10=J.|last11=Howard|first11=E.|last12=Huchra|first12=J.|last13=Jarrett|first13=T.|last14=Kopan|first14=E. L.|last15=Kirkpatrick|first15=J. D.|last16=Light|first16=R. M.|last17=Marsh|first17=K. A.|last18=McCallon|first18=H.|last19=Schneider|first19=S.|last20=Stiening|first20=R.|last21=Sykes|first21=M.|last22=Weinberg|first22=M.|last23=Wheaton|first23=W. A.|last24=Wheelock|first24=S.|last25=Zacarias|first25=N.|date=June 2003}}</ref>
+| appmag_6_passband = H
+| appmag_6 = 4.83<ref name=2mass/>
+| appmag_7_passband = K
+| appmag_7 = 4.524<ref name=2mass/>
+| r-i = 1.557<ref name=koen/>
+| v-r = 1.213<ref name=koen/>
+| b-v = 1.713<ref name=koen/>
+| u-b = 1.257<ref name=koen/>
+| variable = [[BY Draconis variable|BY Draconis]]<ref name=gcvs>{{cite journal|bibcode=2009yCat....102025S|title=VizieR Online Data Catalog: General Catalogue of Variable Stars (Samus+, 2007–2017)|journal=VizieR On-line Data Catalog: B/gcvs|orig-year=First published 2009|volume=1|pages=B/GCVS|last1=Samus|first1=N. N.|last2=Kazarovets|first2=E. V.|last3=Durlevich|first3=O. V.|last4=Kireeva|first4=N. N.|last5=Pastukhova|first5=E. N.|year=2009}}</ref>
+}}
+{{Starbox astrometry
+| radial_v = {{val|−110.47|0.13}}<ref name=GaiaDR3/>
+| prop_mo_ra = −801.551
+| prop_mo_dec = 10362.394
+| pm_footnote = <ref name=GaiaDR3/>
+| parallax = 546.9759
+| p_error = 0.0401
+| parallax_footnote = <ref name=GaiaDR3/>
+| dist_ly =
+| dist_pc =
+| absmag_v = 13.21<ref name=koen/>
+}}
+{{Starbox detail
+| source = <!--[source url]-->
+| mass = {{val|0.162|0.007}}<ref name="GonzálezHernández2024"/>
+| radius = {{Val|0.187|0.001}}<ref name=Pineda2021/>
+| luminosity_visual = 0.0004<ref name=Dawson/>
+| luminosity_bolometric = 0.00340{{±|0.00006}}<ref name=Pineda2021/>
+| gravity = {{val|4.90|0.09}}<ref name="GonzálezHernández2024"/>
+| temperature = {{Val|3195|28|fmt=commas}}<ref name="GonzálezHernández2024"/>
+| metal_fe = {{val|-0.56|0.07}}<ref name="GonzálezHernández2024"/>
+| rotation = {{val|114.06|2.30}}<ref name=Kemmer2025/> days
+| age_gyr = ≈ 10<ref name=Riedel2005/>
+}}
+{{Starbox catalog
+| names = {{odlist | name=[[List of nearest stars|Proxima Ophiuchi]]<ref name=an230_77/> | name2="Barnard's Runaway Star"<ref>{{cite journal | title=A Model of our Stellar Neighborhood | last=Lippincott | first=Sarah Lee | author-link=Sarah Lee Lippincott | journal=Astronomical Society of the Pacific Leaflets | volume=8 | issue=377 | page=207 | year=1960 | bibcode=1960ASPL....8..207L }}</ref> | name3="Greyhound of the Skies"<ref name=bis11_12_170/> | BD=+04°3561a | Gl=140-024 | GJ=699 | HIP=87937 | LFT=1385 | LHS=57 | LTT=15309 | V=V2500 Ophiuchi | 2MASS=J17574849+0441405 }}, [[GCTP]] 4098.00, [[Henry Lee Giclas|Gl]] 140-024, [[Calar Alto Observatory|Karmn]] J17578+046, Munich 15040,<ref>{{cite journal| bibcode=1890AnBog...1....1S | title=Erstes Müchner Sternverzeichniss enthaltend die mittleren Örter von 33082 Sternen |trans-title =First Munich Star Catalogue containing the mean positions of 33,082 stars|language=de|trans-journal=New Annals of the Royal Observatory in Bogenhausen near Munich
+|last1=Seeliger | first1=Hugo | last2=Bauschinger | first2=Julius | journal=Neue Annalen der Koeniglichen Sternwarte in Bogenhausen bei Muenchen | year=1890 | volume=1 | page=1 }}</ref> [[Alexander N. Vyssotsky|Vyssotsky]] 799, {{langx|la|Velox Barnardi}}<ref name=rukl1999/>
+}}
+{{Starbox reference
+| Simbad = BD%2B043561a
+| NSTED = GJ-699
+| ARICNS = 01453
+}}
+{{Starbox image
+|image={{Location map|100x100|AlternativeMap=Ophiuchus_constellation_map.svg
+|alt=Barnard's Star is located in the constellation Ophiuchus.
+|caption=Location of Barnard's Star in the constellation [[Ophiuchus]]|border=infobox|mark=Red_pog.png|marksize=9|width=300
+|label=Barnard's&nbsp;Star
+|position=left
+|lat=75.2
+|long=29.2
+}}|caption=
+}}
+{{Starbox end}}
+
+'''Barnard's Star''' is a small [[red dwarf]] star in the [[constellation]] of [[Ophiuchus]]. At a distance of {{convert|5.96|ly|pc|lk=on}} from Earth, it is the [[List of nearest stars and brown dwarfs|fourth-nearest-known]] individual star to the [[Sun]] after the three components of the [[Alpha Centauri]] system, and is the closest star in the [[northern celestial hemisphere]].<ref>{{cite web|url=http://shiva.uwp.edu/p120/astro_survey.html|title=Astronomy Survey Fall 2010|access-date=5 May 2013|url-status=dead|archive-url=https://archive.today/20130626182912/http://shiva.uwp.edu/p120/astro_survey.html|archive-date=26 June 2013}}</ref> Its [[stellar mass]] is about 16% of the Sun's, and it has 19% of the Sun's diameter. Despite its proximity, the star has a dim [[apparent visual magnitude]] of +9.5 and is invisible to the [[unaided eye]]; it is much brighter in the [[infrared]] than in visible [[light]].
+
+Barnard's Star is among the most studied red dwarfs because of its proximity and favorable location for observation near the [[celestial equator]].<ref name=Dawson>{{Cite journal|last1=Dawson|first1=P. C.|last2=De Robertis|first2=M. M.|doi=10.1086/383289|title=Barnard's Star and the M Dwarf Temperature Scale|journal=[[The Astronomical Journal]]|volume=127|issue=5|pages=2909–2914|date=May 2004|bibcode=2004AJ....127.2909D|doi-access=free}}</ref> Historically, research on Barnard's Star has focused on measuring its stellar characteristics, its [[astrometry]], and also refining the limits of possible [[extrasolar planet]]s. Although Barnard's Star is ancient, it still experiences [[Flare star|stellar flare]] events, one being observed in 1998.<ref name=PaulsonFlare/>
+
+Barnard's Star hosts a system of four close-orbiting, sub-Earth-mass planets ([[Barnard's Star b]], c, d & e). Multiple claims for a planetary system had been proposed since the beginning of the twentieth century, notably by [[Peter van de Kamp]] in the 1960s, but none were supported by follow-up studies, until the now known four-planet system was discovered by two independent teams of astronomers in 2024–2025.<ref name="GonzálezHernández2024"/><ref name="Basant2025"/>
+
+== Discovery and naming ==
+The star is named after [[Edward Emerson Barnard]],<ref name=Kaler/> an American [[astronomer]] who in 1916 measured its [[proper motion]] as 10.3 [[arcsecond]]s per year relative to the Sun, the highest known for any star. The star had previously appeared on Harvard University [[photographic plates]] in 1888 and 1890.<ref name=EEB>{{cite journal|last=Barnard|first=E. E.|author-link=Edward Emerson Barnard|date=September 1916|title=A small star with large proper motion|journal=[[The Astronomical Journal]]|volume=29|issue=695|pages=181–183|bibcode=1916AJ.....29..181B|doi=10.1086/104156}}</ref>
+
+In 2016, the [[International Astronomical Union]] organized a [[Working Group on Star Names]] (WGSN)<ref name=WGSN>{{cite web|url=https://www.iau.org/science/scientific_bodies/working_groups/280/|title=IAU Working Group on Star Names (WGSN)|publisher=[[International Astronomical Union]]|access-date=22 May 2016|url-status=live|archive-url=https://web.archive.org/web/20160610172014/https://www.iau.org/science/scientific_bodies/working_groups/280/|archive-date=2016-06-10}}</ref> to catalogue and standardize proper names for stars. The WGSN approved the name ''Barnard's Star'' for this star on 1 February 2017 and it is now included in the List of IAU-approved Star Names.<ref name="IAU-LSN">{{cite web|url=https://www.iau.org/public/themes/naming_stars/|title=Naming Stars|publisher=[[International Astronomical Union]]|access-date=16 December 2017|archive-date=10 March 2025|archive-url=https://web.archive.org/web/20250310063743/https://www.iau.org/public/themes/naming_stars/|url-status=dead}}</ref>
+
+== Description ==
+[[File:Barnard'sStarSize_en.jpg|left|thumb|Size comparison between [[Jupiter]], Barnard's Star, and the [[Sun]]]]
+Barnard's Star is a red dwarf of the dim [[spectral type]] M4 and is too faint to see without a [[telescope]]; its [[apparent magnitude]] is 9.5.
+
+At 7–12 billion years of age, Barnard's Star is considerably older than the Sun, which is 4.5 billion years old, and it might be among the oldest stars in the [[Milky Way]] galaxy.<ref name=Riedel2005>{{cite journal|last1=Riedel|first1=A. R.|last2=Guinan|first2=E. F.|last3=DeWarf|first3=L. E.|last4=Engle|first4=S. G.|last5=McCook|first5=G. P.|bibcode=2005AAS...206.0904R|title=Barnard's Star as a Proxy for Old Disk dM Stars: Magnetic Activity, Light Variations, XUV Irradiances, and Planetary Habitable Zones|date=May 2005|journal=[[Bulletin of the American Astronomical Society]]|volume=37|page=442}}</ref> Barnard's Star has lost a great deal of rotational energy; the periodic slight changes in its brightness indicate that it rotates once in 130 days<ref name=Benedict1998/> (the [[Sun]] rotates in 25). Given its age, Barnard's Star was long assumed to be quiescent in terms of stellar activity. In 1998, astronomers observed an intense [[stellar flare]], showing that Barnard's Star is a [[flare star]].<ref name=Flare>{{cite web|first=Ken|last=Croswell|date=November 2005|url=http://www.astronomy.com/news/2005/11/a-flare-for-barnards-star|access-date=10 August 2006|title=A Flare for Barnard's Star|work=Astronomy Magazine|publisher=Kalmbach Publishing Co}}</ref> Barnard's Star has the [[variable star designation]] V2500 Ophiuchi. In 2003, Barnard's Star presented the first detectable change in the [[radial velocity]] of a star caused by its motion. Further variability in the radial velocity of Barnard's Star was attributed to its stellar activity.<ref name=Kurster/>
+
+[[File:Barnard2005.gif|thumb|left|Barnard's Star, showing position every 5 years in the period 1985–2005]]
+The proper motion of Barnard's Star corresponds to a relative lateral speed of 90{{nbsp}}km/s. The 10.3 arcseconds it travels in a year amount to a quarter of a degree in a human lifetime, roughly half the angular diameter of the full Moon.<ref name=Kaler/>
+
+The radial velocity of Barnard's Star is {{val|−110|u=km/s}}, as measured from the [[blueshift]] due to its motion toward the Sun. Combined with its proper motion and distance, this gives a [[Stellar kinematics#Space velocity|"space velocity"]] (actual speed relative to the Sun) of {{val|142.6|0.2|u=km/s}}. Barnard's Star will make its closest approach to the Sun around 11,800 CE, when it will approach to within about 3.75 light-years.<ref name=Bobylev/>
+
+[[File:Near-stars-past-future-en.svg|left|thumb|upright=1.2|Distances to the [[List of nearest stars|nearest stars]] from 20,000 years ago until 80,000 years in the future]]
+[[Proxima Centauri]] is the closest star to the Sun at a current position of 4.24 light-years away. However, despite Barnard's Star's projected nearer position in 11,800 CE, it will still not then be the solar system's nearest star—since by that time, Proxima Centauri will have moved to a yet-nearer proximity.<ref>{{cite journal|last1=Matthews|first1=R. A. J.|title=The Close Approach of Stars in the Solar Neighborhood|journal=[[Quarterly Journal of the Royal Astronomical Society]]|year=1994|volume=35|pages=1–9|bibcode=1994QJRAS..35....1M|last2=Weissman|first2=P. R.|last3=Preston|first3=R. A.|last4=Jones|first4=D. L.|last5=Lestrade|first5=J.-F.|last6=Latham|first6=D. W.|last7=Stefanik|first7=R. P.|last8=Paredes|first8=J. M.}}</ref> At the time of the star's closest pass by the Sun, Barnard's Star will still be too dim to be seen with the naked eye—its apparent magnitude will only have increased by one magnitude to about 8.5, still being 2.5 magnitudes short for unaided human observation.
+
+Barnard's Star has a mass of about 0.16 [[solar mass]]es ({{Solar mass|link=y}}),<ref name=Pineda2021/> and a radius about 0.2 times that of the Sun.<ref name=Dawson/><ref name=Ochsenbein>{{cite journal|last=Ochsenbein|first=F.|date=March 1982|title=A list of stars with large expected angular diameters|journal=[[Astronomy and Astrophysics Supplement Series]]|volume=47|pages=523–531|bibcode=1982A&AS...47..523O}}</ref> Thus, although Barnard's Star has roughly 150 times the mass of Jupiter ({{Jupiter mass|link=y}}), its radius is only roughly twice as large, due to its much higher density. Its [[effective temperature]] is about 3,220 [[kelvin]], and it has a luminosity of only 0.0034 [[solar luminosities]].<ref name=Pineda2021/> Barnard's Star is so faint that if it were at the same distance from Earth as the Sun is, it would appear only 100 times brighter than a full moon, comparable to the brightness of the Sun at 80 [[astronomical unit]]s.<ref name=SolStation>{{cite web|url=http://www.solstation.com/stars/barnards.htm|title=Barnard's Star|publisher=Sol Station|access-date=10 August 2006|archive-url=https://web.archive.org/web/20060820111502/http://www.solstation.com/stars/barnards.htm|archive-date=20 August 2006|url-status=dead}}</ref>
+
+Barnard's Star has 10–32% of the solar [[metallicity]].<ref name=Gizis/> Metallicity is the proportion of stellar mass made up of elements heavier than [[helium]] and helps classify stars relative to the galactic population. Barnard's Star seems to be typical of the old, red dwarf [[population II star]]s, yet these are also generally metal-poor [[Stellar halo|halo stars]]. While sub-solar, Barnard's Star's metallicity is higher than that of a halo star and is in keeping with the low end of the metal-rich [[disk star]] range; this, plus its high space motion, have led to the designation "intermediate population II star", between a halo and disk star.<ref name=Gizis/><ref name=Kurster>{{cite journal|last1=Kürster|first1=M.|date=23 May 2003|title=The low-level radial velocity variability in Barnard's Star|journal=Astronomy and Astrophysics|bibcode=2003A&A...403.1077K|doi=10.1051/0004-6361:20030396|doi-access=free|volume=403|issue=6|pages=1077–1088|last2=Endl|first2=M.|last3=Rouesnel|first3=F.|last4=Els|first4=S.|last5=Kaufer|first5=A.|last6=Brillant|first6=S.|last7=Hatzes|first7=A. P.|last8=Saar|first8=S. H.|last9=Cochran|first9=W. D.|arxiv=astro-ph/0303528|s2cid=16738100}}</ref> However, some recently published scientific papers have given much higher estimates for the metallicity of the star, very close to the Sun's level, between 75 and 125% of the solar metallicity.<ref name=RajpurohitAllard2018>{{cite journal|last1=Rajpurohit|first1=A. S.|last2=Allard|first2=F.|last3=Rajpurohit|first3=S.|last4=Sharma|first4=R.|last5=Teixeira|first5=G. D. C.|last6=Mousis|first6=O.|last7=Kamlesh|first7=R.|display-authors=2|title=Exploring the stellar properties of M dwarfs with high-resolution spectroscopy from the optical to the near-infrared|journal=Astronomy & Astrophysics|volume=620|year=2018|pages=A180|issn=0004-6361|arxiv=1810.13252|bibcode=2018A&A...620A.180R|doi=10.1051/0004-6361/201833500|doi-access=free|s2cid=204200655}}</ref><ref>{{cite web|url=https://vizier.u-strasbg.fr/viz-bin/VizieR-5?-ref=VIZ5e313a3d4cc3&-out.add=.&-source=J/A%2bA/620/A180/table2&recno=213|title=VizieR record for Barnard's Star|website=[[VizieR]]|publisher=[[Centre de Données astronomiques de Strasbourg]]}}</ref>
+
+==Planetary system==
+[[File:Planets of barnards star 3 1 1 1.png|thumb|Planets of Barnard's star]]
+In August 2024, by using data from [[ESPRESSO]] spectrograph of the [[Very Large Telescope]], the existence of an exoplanet with a [[minimum mass]] of {{val|0.37|0.05|ul=Earth mass}} and [[orbital period]] of 3.15 days was confirmed. This constituted the first convincing evidence for a planet orbiting Barnard's Star. Additionally, three other candidate low-mass planets were proposed in this study. All of these planets orbit closer to the star than the [[habitable zone]].<ref>{{cite web
+ | title=Scientists discover planet orbiting closest single star to our sun
+ | website=phys.org | date=October 1, 2024
+ | url=https://phys.org/news/2024-09-scientists-planet-orbiting-closest-star.html#google_vignette
+ | access-date=2024-10-01
+}}</ref><ref name="GonzálezHernández2024"/> The confirmed planet is designated [[Barnard's Star b]] (or Barnard b), a re-use of the designation originally used for the refuted super-Earth candidate. An examination of [[TESS]] photometry revealed no [[planetary transit]]s, implying that the system is not viewed edge-on.<ref name="Stefanov2025"/>
+
+In March 2025, an independent follow-up study confirmed all four planets. The data ruled out planets with masses greater than {{val|0.57|ul=Earth mass}} in the habitable zone of Barnard's Star with 99% confidence. With a minimum mass of only {{val|0.193|u=Earth mass}}, Barnard's Star e is the least massive exoplanet yet detected by the [[radial velocity method]]. The best-fit orbital solution implies the planets have slightly [[orbital eccentricity|eccentric]] orbits, but simulations suggest that these orbits would be unstable. The planets exist, so their eccentricities may be overestimated.<ref name="Basant2025"/><ref name="AASNova2025"/>
+
+{{Orbitbox planet begin
+| table_ref = <ref name="Basant2025"/>
+}}
+{{Orbitbox planet
+| exoplanet = d
+| mass_earth = {{val|0.263|0.024|p=≥}}
+| semimajor = {{val|0.0188|0.0003}}
+| period = {{val|2.3402|0.0003}}
+| eccentricity = {{val|0.04|0.05|0.03}}
+| inclination = >20
+}}
+{{Orbitbox planet
+| exoplanet = [[Barnard's Star b|b]]
+| radius_earth = {{val|0.75|p=~}}<ref group=note>Estimated using an empirical mass–radius relation</ref>
+| mass_earth = {{val|0.299|0.026|p=≥}}
+| semimajor = {{val|0.0229|0.0003}}
+| period = {{val|3.1542|0.0004}}
+| eccentricity = {{val|0.03|0.03|0.02}}
+| inclination = 20–87.9<ref name="Stefanov2025"/>
+}}
+{{Orbitbox planet
+| exoplanet = c
+| mass_earth = {{val|0.335|0.030|p=≥}}
+| semimajor = {{val|0.0274|0.0004}}
+| period = {{val|4.1244|0.0006}}
+| eccentricity = {{val|0.08|0.06|0.05}}
+| inclination = >20
+}}
+{{Orbitbox planet
+| exoplanet = e
+| mass_earth = {{val|0.193|0.033|p=≥}}
+| semimajor = {{val|0.0381|0.0005}}
+| period = {{val|6.7392|0.0028}}
+| eccentricity = {{val|0.04|0.04|0.03}}
+| inclination = >20
+}}
+{{Orbitbox end}}
+
+=== Previous planetary claims ===
+Barnard's Star has been subject to multiple claims of planets that were later disproven. From the early 1960s to the early 1970s, [[Peter van de Kamp]] argued that planets orbited Barnard's Star. His specific claims of large [[gas giant]]s were refuted in the mid-1970s after much debate. In November 2018, a candidate [[super-Earth]] planetary companion was reported to orbit Barnard's Star. It was believed to have a minimum mass of {{earth mass|3.2|sym=y|link=y}} and orbit at {{val|0.4|ul=AU}}.<ref name=Ribas/> However, work presented in July 2021 refuted the existence of this planet.<ref name=Lubin2021/>
+
+==== Astrometric planetary claims ====
+For a decade from 1963 to about 1973, a substantial number of astronomers accepted a claim by [[Peter van de Kamp]] that he had detected, by using [[Methods of detecting exoplanets#Astrometry|astrometry]], a perturbation in the [[proper motion]] of Barnard's Star consistent with its having one or more planets comparable in mass with [[Jupiter]]. Van de Kamp had been observing the star from 1938, attempting, with colleagues at the [[Sproul Observatory]] at [[Swarthmore College]], to find minuscule variations of one [[micrometre]] in its position on [[photographic plate]]s consistent with [[perturbation (astronomy)|orbital perturbations]] that would indicate a planetary companion; this involved as many as ten people averaging their results in looking at plates, to avoid systemic individual errors.<ref name=Blunder>{{cite web|url=http://www.astrobio.net/index.php?option=com_retrospection&task=detail&id=1635|title=The Barnard's Star Blunder|date=July 2005|work=Astrobiology Magazine|access-date=26 January 2014 |url-status=usurped |archive-url=https://web.archive.org/web/20110804214004/http://www.astrobio.net/index.php?option=com_retrospection&task=detail&id=1635 |archive-date=2011-08-04}}</ref> 
+Van de Kamp's initial suggestion was a planet having about {{Jupiter mass|1.6}} at a distance of 4.4{{nbsp}}AU in a slightly eccentric orbit,<ref>{{cite journal|last=van de Kamp|first=Peter|year=1963|title=Astrometric study of Barnard's star from plates taken with the 24-inch Sproul refractor|journal=[[The Astronomical Journal]]|volume=68|issue=7|page=515|bibcode=1963AJ.....68..515V|doi=10.1086/109001}}</ref> and these measurements were apparently refined in a 1969 paper.<ref>{{cite journal|last=van de Kamp|first=Peter|year=1969|title=Parallax, proper motion acceleration, and orbital motion of Barnard's Star|journal=[[The Astronomical Journal]]|volume=74|issue=2|page=238|bibcode=1969AJ.....74..238V|doi=10.1086/110799|doi-access=free}}</ref> Later that year, Van de Kamp suggested that there were two planets of 1.1 and {{Jupiter mass|0.8}}.<ref>{{cite journal|last=van de Kamp|first=Peter|date=August 1969|title=Alternate dynamical analysis of Barnard's star|journal=The Astronomical Journal|volume=74|issue=8|pages=757–759|bibcode=1969AJ.....74..757V|doi=10.1086/110852}}</ref>
+
+[[Image:RedDwarfPlanet.jpg|thumb|right|Artist's conception of a planet in orbit around a red dwarf]]
+
+Other astronomers subsequently repeated Van de Kamp's measurements, and two papers in 1973 undermined the claim of a planet or planets. [[George Gatewood]] and [[Heinrich Eichhorn]], at a different observatory and using newer plate measuring techniques, failed to verify the planetary companion.<ref>{{cite journal|last1=Gatewood|first1=George|last2=Eichhorn|first2=H.|name-list-style=amp|year=1973|title=An unsuccessful search for a planetary companion of Barnard's star (BD +4 3561)|bibcode=1973AJ.....78..769G|journal=[[The Astronomical Journal]]|volume=78|issue=10|page=769|doi=10.1086/111480|doi-access=free}}</ref> Another paper published by [[John L. Hershey]] four months earlier, also using the Swarthmore observatory, found that changes in the astrometric field of various stars correlated to the timing of adjustments and modifications that had been carried out on the refractor telescope's objective lens;<ref>{{cite journal|first=John L.|last=Hershey|date=June 1973|title=Astrometric analysis of the field of AC +65 6955 from plates taken with the Sproul 24-inch refractor|journal=The Astronomical Journal|volume=78|issue=6|pages=421–425|bibcode=1973AJ.....78..421H|doi=10.1086/111436|doi-access=free}}</ref> the claimed planet was attributed to an artifact of maintenance and upgrade work. The affair has been discussed as part of a broader scientific review.<ref name=Bell>{{cite web|first=George H.|last=Bell|url=http://www.public.asu.edu/~sciref/exoplnt.htm|date=April 2001|title=The Search for the Extrasolar Planets: A Brief History of the Search, the Findings and the Future Implications|at=Section 2|publisher=Arizona State University|access-date=10 August 2006|archive-url=https://web.archive.org/web/20060813111219/http://www.public.asu.edu/~sciref/exoplnt.htm|archive-date=13 August 2006|url-status=live}} (Full description of the Van de Kamp planet controversy.)</ref>
+
+Van de Kamp never acknowledged any error and published a further claim of two planets' existence as late as 1982;<ref>{{cite journal|last=Van de Kamp|first=Peter|year=1982|title=The planetary system of Barnard's star|journal=Vistas in Astronomy|volume=26|issue=2|page=141|bibcode=1982VA.....26..141V|doi=10.1016/0083-6656(82)90004-6}}</ref> he died in 1995. [[Wulff Heintz]], Van de Kamp's successor at Swarthmore and an expert on [[double star]]s, questioned his findings and began publishing criticisms from 1976 onwards. The two men were reported to have become estranged because of this.<ref name=Swathmore>{{cite web|first=Bill|last=Kent|url=http://media.swarthmore.edu/bulletin/wp-content/archived_issues_pdf/Bulletin_2001_03.pdf|title=Barnard's Wobble|pages=28–31|date=March 2001|work=Swarthmore College Bulletin|publisher=Swarthmore College|access-date=2 June 2010|url-status=dead|archive-url=https://web.archive.org/web/20110719124154/http://media.swarthmore.edu/bulletin/wp-content/archived_issues_pdf/Bulletin_2001_03.pdf|archive-date=19 July 2011}}</ref>
+
+==== Refuted 2018 planetary claim ====
+Barnard's Star was one of the targets of the [[Red Dots campaign]], an effort by astronomers to search for planetary companions around nearby red dwarf stars. The project launched in 2017. The [[Arecibo Observatory]], the [[National Science Foundation]] and the [[Planetary Habitability Laboratory]] of the [[University of Puerto Rico]] were the main participating institutions.<ref name=space.com>{{cite web |url=https://www.space.com/37533-red-dots-hunt-planets-barnards-star.html |title=Red Dots Campaign Hunts Planets at Nearby Barnard's Star |website=Space.com |date=19 July 2017 |accessdate=February 18, 2026}}</ref>
+
+[[File:Artist’s impression of the surface of a super-Earth orbiting Barnard’s Star.jpg|thumb|left|Artist's impression of the surface of a [[super-Earth]] orbiting Barnard's Star<ref name=eso1837/>]]
+In November 2018, an international team of astronomers announced the detection by [[Doppler spectroscopy|radial velocity]] of a candidate [[super-Earth]] orbiting in relatively close proximity to Barnard's Star. The discovery team, led by {{Interlanguage link|Ignasi Ribas|ca|Ignasi Ribas Canudas}} of Spain, involved both Red Dots and [[CARMENES]].<ref name=Ribas/><ref name=eso1837>{{cite web|url=https://www.eso.org/public/news/eso1837/|title=Super-Earth Orbiting Barnard's Star – Red Dots campaign uncovers compelling evidence of exoplanet around closest single star to Sun|publisher=[[European Southern Observatory]]|date=14 November 2018|access-date=14 November 2018}}</ref> However, the existence of the planet was refuted in 2021, when the radial velocity signal was found to originate from long-term activity on the star itself, related to its rotation.<ref name=Lubin2021 /> Further studies in the following years confirmed this result.<ref name="Artigau2022"/><ref name="GonzálezHernández2024"/>
+
+Dubbed Barnard's Star b, the planet was thought to be near the stellar system's [[Frost line (astrophysics)|snow line]], which is an ideal spot for the icy accretion of proto-planetary material. It was thought to orbit at 0.4{{nbsp}}AU every 233 days and had a proposed [[minimum mass]] of {{earth mass|3.2|sym=y|link=y}}. The planet would have most likely been frigid, with an estimated surface temperature of about {{Convert|-170|C}}, and lie outside Barnard Star's presumed [[habitable zone]]. [[Direct imaging]] of the planet and its tell-tale [[Spectral signature|light signature]] would have been possible in the decade after its discovery. Further faint and unaccounted-for perturbations in the system suggested there may be a second planetary companion even farther out.<ref name=sciam>{{cite web|url=https://www.scientificamerican.com/article/a-frozen-super-earth-may-orbit-barnards-star/|title=A Frozen Super-Earth May Orbit Barnard's Star|last=Billings|first=Lee|work=Scientific American|date=14 November 2018|access-date=19 November 2018}}</ref>
+
+==== Refining planetary boundaries ====
+For the more than four decades between van de Kamp's rejected claim and the eventual announcement of a planet candidate, Barnard's Star was carefully studied and the mass and orbital boundaries for possible planets were slowly tightened. [[M dwarf]]s such as Barnard's Star are more easily studied than larger stars in this regard because their lower masses render perturbations more obvious.<ref>{{cite journal|last1=Endl|first1=Michael|last2=Cochran|first2=William D.|last3=Tull|first3=Robert G.|last4=MacQueen|first4=Phillip J.|year=2003|title=A Dedicated M Dwarf Planet Search Using the Hobby-Eberly Telescope|journal=[[The Astronomical Journal]]|volume=126|issue=12|pages=3099–3107|bibcode=2003AJ....126.3099E|arxiv=astro-ph/0308477|doi=10.1086/379137|s2cid=17353771}}</ref>
+
+Null results for planetary companions continued throughout the 1980s and 1990s, including [[interferometric]] work with the [[Hubble Space Telescope]] in 1999.<ref name=Hubble99>{{cite journal|last1=Benedict|first1=G. Fritz|title=Interferometric Astrometry of Proxima Centauri and Barnard's Star Using Hubble Space Telescope Fine Guidance Sensor 3: Detection Limits for Substellar Companions|year=1999|journal=[[The Astronomical Journal]]|volume=118|issue=2|pages=1086–1100|arxiv=astro-ph/9905318|doi=10.1086/300975 |bibcode=1999AJ....118.1086B|last2=McArthur|first2=Barbara|last3=Chappell|first3=D. W.|last4=Nelan|first4=E.|last5=Jefferys|first5=W. H.|last6=Van Altena|first6=W.|last7=Lee|first7=J.|last8=Cornell|first8=D.|last9=Shelus|first9=P. J.|last10=Hemenway|first10=P. D.|last11=Franz|first11=Otto G.|last12=Wasserman|first12=L. H.|last13=Duncombe|first13=R. L.|last14=Story|first14=D.|last15=Whipple|first15=A. L.|last16=Fredrick|first16=L. W.|s2cid=18099356}}</ref> Gatewood was able to show in 1995 that planets with {{Jupiter mass|10}} were impossible around Barnard's Star,<ref name=Bell/> in a paper which helped refine the negative certainty regarding planetary objects in general.<ref name=Gatewood95>{{cite journal|last=Gatewood|first=George D.|title=A study of the astrometric motion of Barnard's star|journal=Astrophysics and Space Science|volume=223|issue=1|year=1995|pages=91–98|doi=10.1007/BF00989158|bibcode=1995Ap&SS.223...91G|s2cid=120060893}}</ref> In 1999, the Hubble work further excluded planetary companions of {{Jupiter mass|0.8}} with an orbital period of less than 1,000 days (Jupiter's orbital period is 4,332 days),<ref name=Hubble99/> while Kuerster determined in 2003 that within the [[habitable zone]] around Barnard's Star, planets are not possible with an "''M'' sin ''i''" value<ref group=note>"''M'' sin ''i''" means the mass of the planet times the sine of the angle of inclination of its orbit, and hence provides the minimum mass for the planet.</ref> greater than 7.5 times the mass of the Earth ({{Earth mass|sym=y|link=y}}), or with a mass greater than 3.1 times the mass of Neptune (much lower than van de Kamp's smallest suggested value).<ref name=Kurster/>
+
+In 2013, a research paper was published that further refined planet mass boundaries for the star. Using radial velocity measurements, taken over a period of 25 years, from the [[Lick Observatory|Lick]] and [[W. M. Keck Observatory|Keck]] Observatories and applying [[Monte Carlo analysis]] for both circular and eccentric orbits, upper masses for planets out to 1,000-day orbits were determined. Planets above two Earth masses in orbits of less than 10 days were excluded, and planets of more than ten Earth masses out to a two-year orbit were also confidently ruled out. It was also discovered that the habitable zone of the star seemed to be devoid of roughly Earth-mass planets or larger, save for face-on orbits.<ref name="no-earth-dreams">{{cite web|url=https://www.centauri-dreams.org/2012/08/16/barnards-star-no-earth-mass-planets-found/|title=Barnard's Star: No Sign of Planets|website=Centauri Dreams|last=Gilster|first=Paul|date=16 August 2012|access-date=11 April 2018}}</ref><ref name=Choi2013>{{Cite journal|arxiv=1208.2273|last1=Choi|first1=Jieun|title=Precise Doppler Monitoring of Barnard's Star|journal=The Astrophysical Journal|volume=764|issue=2|pages=131|last2=McCarthy|first2=Chris|last3=Marcy|first3=Geoffrey W|last4=Howard|first4=Andrew W|last5=Fischer|first5=Debra A|last6=Johnson|first6=John A|last7=Isaacson|first7=Howard|last8=Wright|first8=Jason T|year=2012|doi=10.1088/0004-637X/764/2/131|bibcode=2013ApJ...764..131C|s2cid=29053334}}</ref>
+
+Even though this research greatly restricted the possible properties of planets around Barnard's Star, it did not rule them out completely as [[terrestrial planet]]s were always going to be difficult to detect. [[NASA]]'s [[Space Interferometry Mission]], which was to begin searching for extrasolar Earth-like planets, was reported to have chosen Barnard's Star as an early search target,<ref name=SolStation/> however the mission was shut down in 2010.<ref name=SIM>{{cite web|first=James|last=Marr|url=http://planetquest.jpl.nasa.gov/SIM/projectNews/projectManagerUpdates/|archive-url=https://web.archive.org/web/20110302135037/http://planetquest.jpl.nasa.gov/SIM/projectNews/projectManagerUpdates/|url-status=dead|archive-date=2 March 2011|title=Updates from the Project Manager|date=8 November 2010|publisher=NASA|access-date=26 January 2014}}</ref> [[ESA]]'s similar [[Darwin (ESA)|Darwin]] interferometry mission had the same goal, but was stripped of funding in 2007.<ref>{{cite web|url=http://www.esa.int/esaSC/SEMZ0E1A6BD_index_0.html|title=Darwin factsheet: Finding Earth-like planets|publisher=[[European Space Agency]]|date=23 October 2009|access-date=12 September 2011|url-status=dead|archive-url=https://web.archive.org/web/20080513085904/http://www.esa.int/esaSC/SEMZ0E1A6BD_index_0.html|archive-date=13 May 2008}}</ref>
+
+The analysis of radial velocities that eventually led to the announcement of a candidate super-Earth orbiting Barnard's Star was also used to set more precise upper mass limits for possible planets, up to and within the habitable zone: a maximum of {{earth mass|0.7|sym=y|link=y}} up to the inner edge and {{earth mass|1.2|sym=y}} on the outer edge of the optimistic habitable zone, corresponding to orbital periods of up to 10 and 40 days respectively. Therefore, it appears that Barnard's Star indeed does not host Earth-mass planets or larger, in hot and temperate orbits, unlike other M-dwarf stars that commonly have these types of planets in close-in orbits.<ref name=Ribas/><!--It was much easier for the Kepler telescope to detect close-in larger planets than further-out planets, or smaller close-in planets, so M-dwarfs may not in reality commonly host close-in larger planets. It might all just be down to an observational bias inherent to the way Kepler detects planets, and just an illusion.--->
+
+==Stellar flares==
+===1998===
+In 1998 a [[stellar flare]] on Barnard's Star was detected based on changes in the [[spectral emissions]] on 17 July during an unrelated search for variations in the proper motion. Four years passed before the flare was fully analyzed, at which point it was suggested that the flare's temperature was 8,000{{nbsp}}K, more than twice the normal temperature of the star.<ref name=Paulson>{{cite journal|first1=Diane B.|last1=Paulson|year=2006|title=Optical Spectroscopy of a Flare on Barnard's Star|journal=[[Publications of the Astronomical Society of the Pacific]]|volume=118|issue=1|page=227|doi=10.1086/499497|last2=Allred|first2=Joel C.|last3=Anderson|first3=Ryan B.|last4=Hawley|first4=Suzanne L.|last5=Cochran|first5=William D.|last6=Yelda|first6=Sylvana|bibcode=2006PASP..118..227P|arxiv=astro-ph/0511281|s2cid=17926580}}</ref> Given the essentially random nature of flares, Diane Paulson, one of the authors of that study, noted that "the star would be fantastic for amateurs to observe".<ref name=Flare/>
+
+The flare was surprising because intense stellar activity is not expected in stars of such age. Flares are not completely understood, but are believed to be caused by strong [[magnetic field]]s, which suppress [[plasma (physics)|plasma]] [[convection]] and lead to sudden outbursts: strong magnetic fields occur in rapidly rotating stars, while old stars tend to rotate slowly. For Barnard's Star to undergo an event of such magnitude is thus presumed to be a rarity.<ref name=Paulson/> Research on the star's periodicity, or changes in stellar activity over a given timescale, also suggest it ought to be quiescent; 1998 research showed weak evidence for periodic variation in the star's brightness, noting only one possible starspot over 130 days.<ref name=Benedict1998>{{cite journal|last1=Benedict|first1=G. Fritz|year=1998|title=Photometry of Proxima Centauri and Barnard's star using Hubble Space Telescope fine guidance senso 3|journal=The Astronomical Journal|bibcode=1998AJ....116..429B|volume=116|issue=1|page=429|doi=10.1086/300420|last2=McArthur|first2=Barbara|last3=Nelan|first3=E.|last4=Story|first4=D.|last5=Whipple|first5=A. L.|last6=Shelus|first6=P. J.|last7=Jefferys|first7=W. H.|last8=Hemenway|first8=P. D.|last9=Franz|first9=Otto G.|last10=Wasserman|first10=L. H.|last11=Duncombe|first11=R. L.|last12=Van Altena|first12=W.|last13=Fredrick|first13=L. W.|arxiv=astro-ph/9806276|s2cid=15880053}}</ref>
+
+Stellar activity of this sort has created interest in using Barnard's Star as a proxy to understand similar stars. It is hoped that photometric studies of its [[X-ray]] and [[UV]] emissions will shed light on the large population of old M dwarfs in the galaxy. Such research has [[astrobiological]] implications: given that the habitable zones of M dwarfs are close to the star, any planet located therein would be strongly affected by solar flares, [[stellar wind]]s, and plasma ejection events.<ref name=Riedel2005/>
+
+===2019===
+In 2019, two additional ultraviolet [[stellar flare]]s were detected, each with far-ultraviolet energy of 3×10<sup>22</sup> joules, together with one X-ray [[stellar flare]] with energy 1.6×10<sup>22</sup> joules. The flare rate observed to date is enough to cause loss of 87 Earth atmospheres per billion years through thermal processes and ≈3 Earth atmospheres per billion years through ion loss processes on Barnard's Star b.<ref name=france2020>{{cite journal|last1=France|first1=Kevin|last2=Duvvuri|first2=Girish|last3=Egan|first3=Hilary|last4=Koskinen|first4=Tommi|last5=Wilson|first5=David J.|last6=Youngblood|first6=Allison|last7=Froning|first7=Cynthia S.|last8=Brown|first8=Alexander|last9=Alvarado-Gomez|first9=Julian D.|last10=Berta-Thompson|first10=Zachory K.|last11=Drake|first11=Jeremy J.|last12=Garraffo|first12=Cecilia|last13=Kaltenegger|first13=Lisa|last14=Kowalski|first14=Adam F.|last15=Linsky|first15=Jeffrey L.|last16=Loyd|first16=R. O. Parke|last17=Mauas|first17=Pablo J. D.|last18=Miguel|first18=Yamila|last19=Pineda|first19=J. Sebastian|last20=Rugheimer|first20=Sarah|last21=Schneider|first21=P. Christian|last22=Tian|first22=Feng|last23=Vieytes|first23=Mariela|arxiv=2009.01259|title=The High-Energy Radiation Environment Around a 10 Gyr M Dwarf: Habitable at Last?|journal=The Astronomical Journal|date=2 Sep 2020|volume=160|issue=5|page=237|doi=10.3847/1538-3881/abb465|bibcode=2020AJ....160..237F|s2cid=225282584 |doi-access=free }}</ref>
+
+== Environment ==
+[[File:Angular map of fusors around Sol within 9ly (large).png|thumb|upright=1.5|The position of Barnard's Star on a [[Plan position indicator|radar]] map among all stellar objects or [[stellar systems]] within 9 light years (ly) from the map's center, the Sun (Sol).]]
+
+Barnard's Star shares much the same neighborhood as the Sun. The neighbors of Barnard's Star are generally of red dwarf size, the smallest and most common star type. Its closest neighbor is currently the red dwarf [[Ross 154]], at a distance of 1.66 [[parsec]]s (5.41 light-years). The Sun (5.98 light-years) and [[Alpha Centauri]] (6.47 light-years) are, respectively, the next closest systems.<ref name=SolStation/> From Barnard's Star, the Sun would appear on the diametrically opposite side of the sky at coordinates RA={{RA|5|57|48.5}}, Dec={{DEC|−04|41|36}}, in the westernmost part of the constellation [[Monoceros]]. The absolute magnitude of the Sun is 4.83, and at a distance of 1.834 parsecs, it would be a first-magnitude star, as [[Pollux (star)|Pollux]] is from the Earth.<ref group="note">The Sun's apparent magnitude from Barnard's Star, assuming negligible [[Extinction (astronomy)|extinction]]: <math>\begin{smallmatrix} m = 4.83 + 5\cdot((\log_{10} 1.834) - 1) = 1.15 \end{smallmatrix}</math>.</ref>
+
+== Proposed exploration ==
+
+=== Project Daedalus ===
+{{main|Project Daedalus}}
+
+Barnard's Star was studied as part of [[Project Daedalus]]. Undertaken between 1973 and 1978, the study suggested that rapid, uncrewed travel to another star system was possible with existing or near-future technology.<ref name=Daedalus76>{{cite journal|last1=Bond|first1=A.|last2=Martin|first2=A. R.|name-list-style=amp|year=1976|title=Project Daedalus – The mission profile|journal=[[Journal of the British Interplanetary Society]]|url=http://md1.csa.com/partners/viewrecord.php?requester=gs&collection=TRD&recid=A7618970AH&q=project+daedalus&uid=788304424&setcookie=yes|volume=9|issue=2|page=101|access-date=15 August 2006|bibcode=1976JBIS...29..101B|url-status=dead|archive-url=https://web.archive.org/web/20071020144727/http://md1.csa.com/partners/viewrecord.php?requester=gs&collection=TRD&recid=A7618970AH&q=project+daedalus&uid=788304424&setcookie=yes|archive-date=20 October 2007}}</ref> Barnard's Star was chosen as a target partly because it was believed to have planets.<ref name=DarlingDaedalus>{{cite encyclopedia|first=David|last=Darling|url=http://www.daviddarling.info/encyclopedia/D/Daedalus.html|title=Daedalus, Project|date=July 2005|encyclopedia=The Encyclopedia of Astrobiology, Astronomy, and Spaceflight|access-date=10 August 2006|archive-url=https://web.archive.org/web/20060831043940/http://www.daviddarling.info/encyclopedia/D/Daedalus.html|archive-date=31 August 2006|url-status=live}}</ref>
+
+The theoretical model suggested that a nuclear pulse rocket employing [[nuclear fusion]] (specifically, electron bombardment of [[deuterium]] and [[helium-3]]) and accelerating for four years could achieve a velocity of 12% of the [[speed of light]]. The star could then be reached in 50 years, within a human lifetime.<ref name=DarlingDaedalus/> Along with detailed investigation of the star and any companions, the [[interstellar medium]] would be examined and baseline astrometric readings performed.<ref name=Daedalus76/>
+
+The initial Project Daedalus model sparked further theoretical research. In 1980, [[Robert Freitas]] suggested a more ambitious plan: a [[self-replicating spacecraft]] intended to search for and make contact with [[extraterrestrial life]].<ref name=Repro>{{cite journal|first=Robert A. Jr. |last=Freitas|title=A Self-Reproducing Interstellar Probe|journal=[[Journal of the British Interplanetary Society]]|volume=33|date=July 1980|pages=251–264|url=http://www.rfreitas.com/Astro/ReproJBISJuly1980.htm|access-date=1 October 2008|bibcode=1980JBIS...33..251F}}</ref> Built and launched in [[Jupiter]]'s orbit, it would reach Barnard's Star in 47 years under parameters similar to those of the original Project Daedalus. Once at the star, it would begin automated self-replication, constructing a factory, initially to manufacture exploratory probes and eventually to create a copy of the original spacecraft after 1,000 years.<ref name=Repro/>
+
+== See also ==
+* [[Kepler-42]] – Nearly identical to Barnard's star, and hosts three sub-Earth sized planets.
+* {{annotated link|Teegarden's Star}}.
+
+==Notes==
+{{Reflist|group=note}}
+
+==References==
+{{Reflist|refs=
+
+<ref name=GaiaDR3>{{Cite Gaia DR3|4472832130942575872}}</ref>
+
+<ref name=Pineda2021>{{cite journal
+ | title=The M-dwarf Ultraviolet Spectroscopic Sample. I. Determining Stellar Parameters for Field Stars
+ | last1=Pineda | first1=J. Sebastian | last2=Youngblood | first2=Allison
+ | last3=France | first3=Kevin
+ | journal=The Astrophysical Journal
+ | volume=918 | issue=1 | id=40 | pages=23 | date=September 2021
+ | doi=10.3847/1538-4357/ac0aea | arxiv=2106.07656
+ | bibcode=2021ApJ...918...40P  | s2cid=235435757 | doi-access=free }}</ref>
+
+<ref name=an230_77>{{cite journal|title=Einweißer Stern mit bedeutender absoluter Größe|trans-title=A white star of significant absolute magnitude|last=Perepelkin|first=E.|journal=[[Astronomische Nachrichten]]|volume=230|issue=4|page=77|date=April 1927|language=de|bibcode=1927AN....230...77P|doi=10.1002/asna.19272300406}}</ref>
+
+<ref name=PaulsonFlare>{{cite journal |last1=Paulson |first1=Diane B. |last2=Allred |first2=Joel C. |last3=Anderson |first3=Ryan B. |last4=Hawley |first4=Suzanne L. |last5=Cochran |first5=William D. |last6=Yelda |first6=Sylvana |title=Optical Spectroscopy of a Flare on Barnard's Star |journal=Publications of the Astronomical Society of the Pacific |date=February 2006 |volume=118 |issue=840 |pages=227–235 |doi=10.1086/499497 |arxiv=astro-ph/0511281 |bibcode=2006PASP..118..227P |s2cid=17926580 |url=https://ui.adsabs.harvard.edu/abs/2006PASP..118..227P |access-date=5 February 2022}}</ref>
+
+<ref name=rukl1999>{{cite book|first=Antonin|last=Rukl|year=1999|title=Constellation Guidebook|page=158|publisher=Sterling Publishing|isbn=978-0-8069-3979-7}}</ref>
+
+<ref name=bis11_12_170>{{cite journal|title=Barnard's Star and its Perturbations|journal=[[Spaceflight (magazine)|Spaceflight]]|volume=11|page=170|year=1969}}</ref>
+
+<ref name=Kaler>{{cite web|first=James B.|last=Kaler|url=http://www.astro.uiuc.edu/~kaler/sow/barnard.html|title=Barnard's Star (V2500 Ophiuchi)|date=November 2005|work=Stars|publisher=James B. Kaler|access-date=12 July 2018|archive-url=https://web.archive.org/web/20060905110505/http://www.astro.uiuc.edu/~kaler/sow/barnard.html|archive-date=5 September 2006|url-status=dead}}</ref>
+
+<ref name=Bobylev>{{cite journal|last=Bobylev|first=Vadim V.|date=13 March 2010|title=Searching for stars closely encountering with the solar system|journal=[[Astronomy Letters]]|volume=36|issue=3|pages=220–222|doi=10.1134/S1063773710030060|arxiv=1003.2160|bibcode=2010AstL...36..220B|s2cid=118374161}}</ref>
+
+<ref name=Ribas>{{cite journal
+          | last1   = Ribas                | first1   = I.
+          | last2  = Tuomi                | first2  = M.
+          | last3  = Reiners              | first3  = Ansgar
+          | last4  = Butler               | first4  = R. P.
+          | last5  = Morales              | first5  = J. C.
+          | last6  = Perger               | first6  = M.
+          | last7  = Dreizler             | first7  = S.
+          | last8  = Rodríguez-López      | first8  = C.
+          | last9  = González Hernández   | first9  = J. I.
+          | last10 = Rosich               | first10 = A.
+          | last11 = Feng                 | first11 = F.
+          | last12 = Trifonov             | first12 = T.
+          | last13 = Vogt                 | first13 = S. S.
+          | last14 = Caballero            | first14 = J. A.
+          | last15 = Hatzes               | first15 = A.
+          | last16 = Herrero              | first16 = E.
+          | last17 = Jeffers              | first17 = S. V.
+          | last18 = Lafarga              | first18 = M.
+          | last19 = Murgas               | first19 = F.
+          | last20 = Nelson               | first20 = R. P.
+          | last21 = Rodríguez            | first21 = E.
+          | last22 = Strachan             | first22 = J. B. P.
+          | last23 = Tal-Or               | first23 = L.
+          | last24 = Teske                | first24 = J.
+          | last25 = Toledo-Padrón        | first25 = B.
+          | last26 = Zechmeister          | first26 = M.
+          | last27 = Quirrenbach          | first27 = A.
+          | last28 = Amado                | first28 = P. J.
+          | last29 = Azzaro               | first29 = M.
+          | last30 = Béjar                | first30 = V. J. S.
+          | last31 = Barnes               | first31 = J. R.
+          | last32 = Berdiñas             | first32 = Z. M.
+          | last33 = Burt                 | first33 = J.
+          | last34 = Coleman              | first34 = G.
+          | last35 = Cortés-Contreras     | first35 = M.
+          | last36 = Crane                | first36 = J.
+          | last37 = Engle                | first37 = S. G.
+          | last38 = Guinan               | first38 = E. F.
+          | last39 = Haswell              | first39 = C. A.
+          | last40 = Henning              | first40 = Th.
+          | last41 = Holden               | first41 = B.
+          | last42 = Jenkins              | first42 = J.
+          | last43 = Jones                | first43 = H. R. A.
+          | last44 = Kaminski             | first44 = A.
+          | last45 = Kiraga               | first45 = M.
+          | last46 = Kürster              | first46 = Martin
+          | last47 = Lee                  | first47 = M. H.
+          | last48 = López-González       | first48 = M. J.
+          | last49 = Montes               | first49 = D.
+          | last50 = Morin                | first50 = J.
+          | last51 = Ofir                 | first51 = A.
+          | last52 = Pallé                | first52 = E.
+          | last53 = Rebolo               | first53 = Rafael
+          | last54 = Reffert              | first54 = S.
+          | last55 = Schweitzer           | first55 = A.
+          | last56 = Seifert              | first56 = W.
+          | last57 = Shectman             | first57 = S. A.
+          | last58 = Staab                | first58 = D.
+          | last59 = Street               | first59 = R. A.
+          | last60 = Suárez Mascareño     | first60 = A.
+          | last61 = Tsapras              | first61 = Y.
+          | last62 = Wang                 | first62 = S. X.
+          | last63 = Anglada-Escudé       | first63 = G.
+          | display-authors    = 4
+          | date              = 2018-11-14
+          | title             = A candidate super-Earth planet orbiting near the snow line of Barnard's star
+          | url               = https://www.eso.org/public/archives/releases/sciencepapers/eso1837/eso1837a.pdf
+          | url-status        = live
+          | journal           = [[Nature (journal)|Nature]]
+          | publisher         = [[Holtzbrinck Publishing Group]]
+          | volume            = 563
+          | issue             = 7731
+          | pages             = 365–368
+          | arxiv             = 1811.05955
+          | bibcode           = 2018Natur.563..365R
+          | doi               = 10.1038/s41586-018-0677-y
+          | issn              = 0028-0836
+          | oclc              = 716177853
+          | archive-url       = https://web.archive.org/web/20190326185022/https://www.eso.org/public/archives/releases/sciencepapers/eso1837/eso1837a.pdf
+          | archive-date      = 2019-03-26
+          | pmid              = 30429552
+     | hdl = 2299/21132
+ | s2cid = 256769911
+ }}</ref>
+
+<ref name=Lubin2021>{{cite journal | last1=Lubin | first1=Jack | last2=Robertson | first2=Paul | last3=Stefansson | first3=Gudmundur | last4=Ninan | first4=Joe |author5-link=Suvrath Mahadevan | last5=Mahadevan | first5=Suvrath | last6=Endl | first6=Michael | last7=Ford | first7=Eric | last8=Wright | first8=Jason T. | last9=Beard | first9=Corey | last10=Bender | first10=Chad | last11=Cochran | first11=William D. | last12=Diddams | first12=Scott A. | last13=Fredrick | first13=Connor | last14=Halverson | first14=Samuel | last15=Kanodia | first15=Shubham | last16=Metcalf | first16=Andrew J. | last17=Ramsey | first17=Lawrence | last18=Roy | first18=Arpita | last19=Schwab | first19=Christian | last20=Terrien | first20=Ryan |display-authors=3 | title=Stellar Activity Manifesting at a One-year Alias Explains Barnard b as a False Positive | journal=The Astronomical Journal | publisher=American Astronomical Society | volume=162 | issue=2 | date=15 July 2021 | doi=10.3847/1538-3881/ac0057|issn=0004-6256 | pages=61 | arxiv=2105.07005| bibcode=2021AJ....162...61L | s2cid=234741985 | doi-access=free }}</ref>
+
+<ref name=Kemmer2025>{{Cite journal |last1=Kemmer |first1=J. |last2=Lafarga |first2=M. |last3=Fuhrmeister |first3=B. |last4=Shan |first4=Y. |last5=Schöfer |first5=P. |last6=Jeffers |first6=S. V. |last7=Caballero |first7=J. A. |last8=Quirrenbach |first8=A. |last9=Amado |first9=P. J. |date=2025-04-11 |title=The CARMENES search for exoplanets around M dwarfs. Cluster analysis of signals from spectral activity indicators to search for shared periods |journal=Astronomy and Astrophysics |volume=697 |doi=10.1051/0004-6361/202347056  |doi-access=free|arxiv=2504.08363|bibcode=2025A&A...697A.225K }}</ref>
+
+<ref name="Artigau2022">{{cite journal|last1=Artigau|first1=Étienne|last2=Cadieux|first2=Charles|last3=Cook|first3=Neil J.|last4=Doyon|first4=René|last5=Vandal|first5=Thomas|last6=Donati|first6=Jean-Françcois|last7=Moutou|first7=Claire|last8=Delfosse|first8=Xavier|last9=Fouqué|first9=Pascal|last10=Martioli|first10=Eder|last11=Bouchy|first11=François|last12=Parsons|first12=Jasmine|last13=Carmona|first13=Andres|last14=Dumusque|first14=Xavier|last15=Astudillo-Defru|first15=Nicola|last16=Bonfils|first16=Xavier|last17=Mignon|first17=Lucille|display-authors=5|title=Line-by-line velocity measurements, an outlier-resistant method for precision velocimetry|journal=The Astronomical Journal|volume=164:84|issue=3|pages=18pp|arxiv=2207.13524|bibcode=2022AJ....164...84A|doi=10.3847/1538-3881/ac7ce6|doi-access=free|date=June 23, 2022|publication-date=August 8, 2022}}</ref>
+
+<ref name="GonzálezHernández2024">{{cite journal
+ | title=A sub-Earth-mass planet orbiting Barnard's star
+ | first1=J. I.  | last1=González Hernández | first2=A. | last2=Suárez Mascareño
+ | first3=A. M. | last3=Silva | first4=A. K. | last4=Stefanov
+ | first5=J. P. | last5=Faria | first6=H. M. | last6=Tabernero
+ | first7=A. | last7=Sozzetti | first8=R. | last8=Rebolo
+ | first9=F. | last9=Pepe | first10=N. C. | last10=Santos
+ | first11=S. | last11=Cristiani | first12=C. | last12=Lovis
+ | first13=X. | last13=Dumusque | first14=P. | last14=Figueira
+ | first15=J. | last15=Lillo-Box | first16=N. | last16=Nari
+ | first17=S. | last17=Benatti | first18=M. J. | last18=Hobson
+ | first19=A. | last19=Castro-González | first20=R. | last20=Allart
+ | first21=V. M. | last21=Passegger | first22=M.-R. | last22=Zapatero Osorio
+ | first23=V. | last23=Adibekyan | first24=Y. | last24=Alibert
+ | first25=C. | last25=Allende Prieto | first26=F. | last26=Bouchy
+ | first27=M. | last27=Damasso | first28=V. | last28=D’Odorico
+ | first29=P. | last29=Di Marcantonio | first30=D. | last30=Ehrenreich
+ | first31=G. | last31=Lo Curto | first32=R. | last32=Génova Santos
+ | first33=C. J. A. P. | last33=Martins | first34=A. | last34=Mehner
+ | first35=G. | last35=Micela | first36=P. | last36=Molaro
+ | first37=N. | last37=Nunes15 | first38=E. | last38=Palle
+ | first39=S. G. | last39=Sousa | first40=S. | last40=Udry
+ | display-authors=1 | journal=Astronomy & Astrophysics
+ | volume=690 | id=A79 | date=October 2024
+ | pages=A79 | arxiv=2410.00569
+ | bibcode=2024A&A...690A..79G
+ | doi=10.1051/0004-6361/202451311
+ | doi-access=free}}</ref>
+
+<ref name="Stefanov2025">{{cite journal |last1=Stefanov |first1=A. K. |last2=González Hernández |first2=J. I. |last3=Suárez Mascareño |first3=A. |last4=Nari |first4=N. |last5=Rebolo |first5=R. |last6=Damasso |first6=M. |last7=Castro-González |first7=A. |last8=Zapatero Osorio |first8=M.-R. |last9=Allende Prieto |first9=C. |last10=Silva |first10=A. M. |last11=Martins |first11=C. J. A. P. |date=January 2025 |title=A sub-Earth-mass planet orbiting Barnard's star: No evidence of transits in TESS photometry |journal=[[Astronomy & Astrophysics]] |volume=693 |id=L3 |doi=10.1051/0004-6361/202452450 |doi-access=free |bibcode=2025A&A...693L...3S |arxiv=2410.00577 |s2cid=273022898}}</ref>
+
+<ref name="Basant2025">{{cite journal |last1=Basant |first1=Ritvik |last2=Luque |first2=Rafael |display-authors=etal |date=March 2025 |title=Four Sub-Earth Planets Orbiting Barnard's Star from MAROON-X and ESPRESSO |journal=[[The Astrophysical Journal Letters]] |volume=982 |issue= 1|pages=L1 |doi=10.3847/2041-8213/adb8d5 |doi-access=free |arxiv=2503.08095|bibcode=2025ApJ...982L...1B }}</ref>
+
+<ref name="AASNova2025">{{cite web |last=Hensley |first=Kerry |date=11 March 2025 |title=Confirmed at Last: Barnard's Star Hosts Four Tiny Planets |url=https://aasnova.org/2025/03/11/confirmed-at-last-barnards-star-hosts-four-tiny-planets/ |publisher=[[AAS Nova]] |access-date=11 March 2025}}</ref>
+
+}}
+
+== External links ==
+{{commons category}}
+* {{cite web|url=http://www.solstation.com/stars/barnards.htm|archive-url=https://web.archive.org/web/20000824113636/http://www.solstation.com/stars/barnards.htm|url-status=dead|archive-date=24 August 2000|title=Barnard's Star|publisher=Sol Station}}
+* {{cite encyclopedia|first=David|last=Darling|url=http://www.daviddarling.info/encyclopedia/B/BarnardsStar.html|title=Barnard's Star|encyclopedia=The Encyclopedia of Astrobiology, Astronomy, and Spaceflight}}
+* {{cite web|last=Schmidling|first=Jack|url=http://schmidling.com/barnard.htm|title=Barnard's Star|publisher=Jack Schmidling Productions, Inc}} Amateur work showing Barnard's Star movement over time.
+* {{cite web|first=Rick|last=Johnson|url=https://www.universetoday.com/wp-content/uploads/2015/09/Barnards-Star.gif|title=Barnard's Star}} Animated image with frames approx. one year apart, beginning in 2007, showing the movement of Barnard's Star.
+* {{cite news|last=Rincon|first=Paul|url=https://www.bbc.com/news/science-environment-46196279|title=Exoplanet discovered around neighbouring star|publisher=[[BBC News]] |department=Science & Environment|date=14 November 2018}}
+
+{{Sky|17|57|48.5|+|04|41|36|6}}
+{{Nearest systems|1}}
+{{Stars of Ophiuchus}}
+{{2025 in space}}
+{{Portal bar|Astronomy|Stars|Outer space}}
+
+{{Authority control}}
+
+
+[[Category:Barnard's Star| ]]
+[[Category:Astronomical objects discovered in 1916]]
+[[Category:Stars discovered in the 1910s]]
+[[Category:BY Draconis variables]]
+[[Category:Discoveries by Edward Emerson Barnard]]
+[[Category:Durchmusterung objects|BD+04 3561A]]
+[[Category:Flare stars]]
+[[Category:Gliese and GJ objects|0699]]
+[[Category:Hipparcos objects|087937]]
+[[Category:Planetary systems with four confirmed planets]]
+[[Category:Local Interstellar Cloud]]
+[[Category:M-type main-sequence stars]]
+[[Category:Objects with variable star designations|Ophiuchi, V2500]]
+[[Category:Ophiuchus]]
+[[Category:Stars with proper names]]

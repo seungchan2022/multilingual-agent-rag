@@ -1,0 +1,222 @@
+[
+  {
+    "id": "or-01",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "사이클로헥세인",
+    "question": "사이클로헥세인의 끓는점은 몇 °C인가?",
+    "answer": "80.74 °C",
+    "value": 80.74,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "사이클로헥세인",
+        "quote": "끓는점 80.74 °C (177.33 °F; 353.89 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Cyclohexane",
+      "en_value": 80.74,
+      "en_text": "80.74",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-02",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "아세트아닐리드",
+    "question": "아세트아닐리드의 끓는점은 몇 °C인가?",
+    "answer": "304 °C",
+    "value": 304.0,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "아세트아닐리드",
+        "quote": "끓는점 304 °C (579 °F; 577 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Acetanilide",
+      "en_value": 304.0,
+      "en_text": "304",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-03",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "안트라센",
+    "question": "안트라센의 끓는점은 몇 °C인가?",
+    "answer": "341.3 °C",
+    "value": 341.3,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "안트라센",
+        "quote": "끓는점 341.3 °C (646.3 °F; 614.5 K) at 760 mmHg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Anthracene",
+      "en_value": 341.3,
+      "en_text": "{{cvt|341.3|+/-|0.4|C|F K}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-04",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "피리딘",
+    "question": "피리딘의 끓는점은 몇 °C인가?",
+    "answer": "115.2 °C",
+    "value": 115.2,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "피리딘",
+        "quote": "끓는점 115.2 °C (239.4 °F; 388.3 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Pyridine",
+      "en_value": 115.2,
+      "en_text": "115.2",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-05",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "나이트로벤젠",
+    "question": "나이트로벤젠의 끓는점은 몇 °C인가?",
+    "answer": "210.9 °C",
+    "value": 210.9,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "나이트로벤젠",
+        "quote": "끓는점 210.9 °C (411.6 °F; 484.0 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Nitrobenzene",
+      "en_value": 210.9,
+      "en_text": "210.9",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-06",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "아세토페논",
+    "question": "아세토페논의 끓는점은 몇 °C인가?",
+    "answer": "202 °C",
+    "value": 202.0,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "아세토페논",
+        "quote": "끓는점 202 °C (396 °F; 475 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Acetophenone",
+      "en_value": 202.0,
+      "en_text": "202",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-07",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "석신산",
+    "question": "석신산의 끓는점은 몇 °C인가?",
+    "answer": "235 °C",
+    "value": 235.0,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "석신산",
+        "quote": "끓는점 235 °C (455 °F; 508 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Succinic acid",
+      "en_value": 235.0,
+      "en_text": "235",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-08",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "레조르시놀",
+    "question": "레조르시놀의 끓는점은 몇 °C인가?",
+    "answer": "277 °C",
+    "value": 277.0,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "레조르시놀",
+        "quote": "끓는점 277 °C (531 °F; 550 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Resorcinol",
+      "en_value": 277.0,
+      "en_text": "277",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "or-09",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "나프탈렌",
+    "question": "나프탈렌의 끓는점은 몇 °C인가?",
+    "answer": "217.97 °C",
+    "value": 217.97,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "나프탈렌",
+        "quote": "끓는점 217.97 °C (424.35 °F; 491.12 K) 760 mmHg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Naphthalene",
+      "en_value": 218.0,
+      "en_text": "{{cvt|218.0|+/-|0.1|C|F K}}",
+      "diff_pct": 0.0138
+    }
+  },
+  {
+    "id": "or-10",
+    "kind": "값",
+    "subject": "유기 화합물",
+    "target": "톨루엔",
+    "question": "톨루엔의 끓는점은 몇 °C인가?",
+    "answer": "111 °C",
+    "value": 111.0,
+    "unit": "°C",
+    "evidence_quotes": [
+      {
+        "doc": "톨루엔",
+        "quote": "끓는점 111 °C (232 °F; 384 K)"
+      }
+    ],
+    "en_check": {
+      "en_title": "Toluene",
+      "en_value": 110.6,
+      "en_text": "110.60",
+      "diff_pct": 0.3617
+    }
+  }
+]
