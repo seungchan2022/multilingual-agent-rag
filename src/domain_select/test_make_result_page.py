@@ -52,8 +52,13 @@ def write(path, rows):
     path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows), encoding="utf-8")
 
 
-def make_tree(root, topics):
-    """topics: {폴더: {'A': 행들, 'B': 행들, 'C': 행들}}. 도시 폴더는 비워 둔다."""
+def error_row(folder, cond, row, labels):
+    return {"topic": folder, "cond": cond, "id": row["id"], "seed": row["seed"], "labels": labels}
+
+
+def make_tree(root, topics, errors=None):
+    """topics: {폴더: {'A': 행들, 'B': 행들, 'C': 행들}}. 도시 폴더는 비워 둔다.
+    errors: 오류 유형 줄 목록. None이면 틀린 A, C 답마다 '재료 값이 틀림'을 붙인다. False면 파일을 만들지 않는다."""
     for folder in ("chem", "solar", "mineral", "city_v1"):
         (root / folder).mkdir(parents=True, exist_ok=True)
         write_q = json.dumps(questions(), ensure_ascii=False)
@@ -62,14 +67,19 @@ def make_tree(root, topics):
         for key, name in (("A", "base"), ("B", "refine"), ("C", "context")):
             if key in d:
                 write(root / folder / "results" / f"{name}.jsonl", d[key])
+    if errors is None:
+        errors = [error_row(f, c, r, ["재료 값이 틀림"]) for f, d in topics.items()
+                  for c in "AC" if c in d for r in d[c] if not r["correct"]]
+    if errors is not False:
+        write(root / "round1_error_types.jsonl", errors)
     links = {"chem": {"a": "A"}, "solar": {"b": None}, "mineral": {"c": "C"}}
     (root / "criterion4_langlinks.json").write_text(json.dumps(links), encoding="utf-8")
 
 
-def build(topics):
+def build(topics, errors=None):
     tmp = tempfile.TemporaryDirectory()
     root = Path(tmp.name)
-    make_tree(root, topics)
+    make_tree(root, topics, errors)
     out, _ = m.build(root, root / "out.html")
     return tmp, out.read_text(encoding="utf-8")
 
@@ -99,7 +109,7 @@ class Tests(unittest.TestCase):
             pq = [a // 10 + (1 if i < a % 10 else 0) for i in range(10)]
             tmp, page = build({"chem": {"A": counts_rows("base", pq)}})
             self.addCleanup(tmp.cleanup)
-            self.assertTrue(row_of(page, "화학 원소")[6].startswith(expect), (a, row_of(page, "화학 원소")[6]))
+            self.assertTrue(row_of(page, "화학 원소")[8].startswith(expect), (a, row_of(page, "화학 원소")[8]))
 
     def test_criterion3_boundaries(self):
         a = [2] * 10  # A = 20
@@ -107,7 +117,47 @@ class Tests(unittest.TestCase):
             pq = [c_total // 10 + (1 if i < c_total % 10 else 0) for i in range(10)]
             tmp, page = build({"chem": {"A": counts_rows("base", a), "C": counts_rows("context", pq)}})
             self.addCleanup(tmp.cleanup)
-            self.assertTrue(row_of(page, "화학 원소")[8].startswith(expect), (c_total, row_of(page, "화학 원소")[8]))
+            self.assertTrue(row_of(page, "화학 원소")[10].startswith(expect), (c_total, row_of(page, "화학 원소")[10]))
+
+    def material_page(self, labels_for_wrong, errors=None):
+        """A는 10문제 × 1번 맞고 9번 틀림(맞은 답 10). 틀린 A 답마다 labels_for_wrong을 붙인다. C는 모두 맞음."""
+        a = counts_rows("base", [1] * 10)
+        errs = [error_row("chem", "A", r, labels_for_wrong) for r in a if not r["correct"]] if errors is None else errors
+        tmp, page = build({"chem": {"A": a, "C": counts_rows("context", [10] * 10)}}, errs)
+        self.addCleanup(tmp.cleanup)
+        return row_of(page, "화학 원소")
+
+    def test_material_counts_calc_only_error_as_known(self):
+        cells = self.material_page(["계산 없이 답함"])
+        self.assertEqual(cells[4], "100")  # 틀려도 재료는 맞았다
+        self.assertTrue(cells[8].startswith("✗"), cells[8])  # A 재료 100은 20~40 밖
+
+    def test_material_counts_wrong_material_as_unknown(self):
+        for labels in (["재료 값이 틀림"], ["계산이 틀림", "재료 값이 틀림"], ["숫자 없는 답"]):
+            cells = self.material_page(labels)
+            self.assertEqual(cells[4], "10", labels)
+            self.assertTrue(cells[8].startswith("✗"), cells[8])
+
+    def test_material_criteria_use_material_not_final(self):
+        # 최종 답 A 20(통과 20~40), 틀린 답 중 40개는 계산만 틀림 → 재료 60 → ① ✗
+        a = counts_rows("base", [2] * 10)
+        wrong = [r for r in a if not r["correct"]]
+        errs = [error_row("chem", "A", r, ["계산 없이 답함"] if i < 40 else ["재료 값이 틀림"]) for i, r in enumerate(wrong)]
+        c = counts_rows("context", [10] * 10)
+        tmp, page = build({"chem": {"A": a, "C": c}}, errs)
+        self.addCleanup(tmp.cleanup)
+        cells = row_of(page, "화학 원소")
+        self.assertIn("20/100", cells[1])
+        self.assertEqual((cells[4], cells[5], cells[7]), ("60", "100", "+40"))
+        self.assertTrue(cells[8].startswith("✗"))
+        self.assertTrue(cells[10].startswith("✓"))  # 재료 C − A = 40
+        self.assertEqual(cells[6], "아직")  # B가 없다
+
+    def test_material_missing_errors_file_is_pending(self):
+        tmp, page = build({"chem": {"A": counts_rows("base", [2] * 10), "C": counts_rows("context", [10] * 10)}}, False)
+        self.addCleanup(tmp.cleanup)
+        cells = row_of(page, "화학 원소")
+        self.assertEqual((cells[4], cells[5], cells[7], cells[8], cells[10]), ("아직",) * 5)
 
     def test_criterion2_never_judged(self):
         a = [2] * 10
@@ -115,23 +165,24 @@ class Tests(unittest.TestCase):
         tmp, page = build({"chem": {"A": counts_rows("base", a), "B": b, "C": counts_rows("context", [10] * 10)}})
         self.addCleanup(tmp.cleanup)
         cells = row_of(page, "화학 원소")
-        self.assertEqual(cells[7], "v2를 잰 뒤 판정")
-        self.assertEqual(cells[4], "+80")  # B-v1 − A는 참고 숫자로만 나온다
+        self.assertEqual(cells[9], "v2를 잰 뒤 판정")
+        self.assertEqual(cells[6], "+80")  # B-v1 − A는 참고 숫자로만 나온다
 
     def test_criterion4(self):
         tmp, page = build({})
         self.addCleanup(tmp.cleanup)
-        self.assertTrue(row_of(page, "화학 원소")[9].startswith("✓"))
-        self.assertTrue(row_of(page, "태양계 천체")[9].startswith("✗"))
+        self.assertTrue(row_of(page, "화학 원소")[11].startswith("✓"))
+        self.assertTrue(row_of(page, "태양계 천체")[11].startswith("✗"))
 
     def test_incomplete_topic(self):
         tmp, page = build({"solar": {"A": counts_rows("base", [10] * 10)[:50]}})
         self.addCleanup(tmp.cleanup)
         cells = row_of(page, "태양계 천체")
         self.assertIn("(진행 중)", cells[1])
-        self.assertEqual(cells[6], "아직")
         self.assertEqual(cells[8], "아직")
+        self.assertEqual(cells[10], "아직")
         self.assertEqual(cells[2], "아직 없음")
+        self.assertEqual(cells[6], "아직")
         self.assertEqual(cells[4], "아직")
         self.assertEqual(row_of(page, "광물")[1], "아직 없음")
 

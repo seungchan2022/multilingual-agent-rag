@@ -99,12 +99,12 @@ summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   <div class="box">
     <p>A는 문서 없이 바로 답한 것입니다. B-v1은 A의 답을 judgement가 보고 generate가 고쳐 쓴 것입니다(어제 프롬프트). C는 근거 글을 넣고 답한 것입니다.</p>
     <p>100은 질문 10개 × 10번입니다. 숫자는 저장된 원본 기록에서 이 페이지를 만들 때마다 새로 계산합니다. 통과 문제는 10번 중 6번 이상 맞은 질문입니다.</p>
-    <p>기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기록이 100개가 안 되면 ①③과 차이 칸은 &quot;아직&quot;입니다.</p>
+    <p>기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. 기록이 100개가 안 되거나 오류 유형 기록(round1_error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.</p>
   </div>
   <div class="box guide">
     <h2>읽는 법</h2>
     <ol>
-      <li>요약 표에서 후보마다 A, B-v1, C의 점수를 봅니다.</li>
+      <li>요약 표에서 후보마다 A, B-v1, C의 점수를 봅니다. &quot;재료 맞음&quot; 칸은 기준 ①③을 세는 숫자입니다.</li>
       <li>질문별 표에서 어느 질문이 맞고 어느 질문이 틀렸는지 봅니다.</li>
       <li>아래 &quot;씨앗별 자세히&quot;에서 질문을 펼쳐 정답과 해설을 먼저 읽습니다.</li>
       <li>씨앗 하나를 펼쳐 A, B-v1, C 순서로 따라갑니다. B-v1은 회차마다 초안, 그다음 judgement 순서입니다.</li>
@@ -125,7 +125,8 @@ summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     </div>
   </div>
   <h2>요약</h2>
-  <div class="tw"><table class=""><thead><tr><th></th><th>A</th><th>B-v1</th><th>C</th><th>B-v1 − A</th><th>C − A</th><th>① A 20~40</th><th>② B−A ≥ 20</th><th>③ C−A ≥ 40</th><th>④ 영어 글</th></tr></thead><tbody><tr><td>화학 원소</td><td>70/100 · 통과 7/10</td><td>76/100 · 통과 8/10</td><td>97/100 · 통과 10/10</td><td>+6</td><td>+27</td><td>✗ (A 70)</td><td>v2를 잰 뒤 판정</td><td>✗ (C−A +27)</td><td>✓ (영어 글 없는 것 0개)</td></tr><tr><td>태양계 천체</td><td>41/100 · 통과 3/10</td><td>51/100 · 통과 5/10</td><td>65/100 · 통과 6/10</td><td>+10</td><td>+24</td><td>✗ (A 41)</td><td>v2를 잰 뒤 판정</td><td>✗ (C−A +24)</td><td>✓ (영어 글 없는 것 0개)</td></tr><tr><td>광물</td><td>37/100 · 통과 3/10</td><td>41/100 · 통과 4/10</td><td>74/100 · 통과 7/10</td><td>+4</td><td>+37</td><td>✓ (A 37)</td><td>v2를 잰 뒤 판정</td><td>✗ (C−A +37)</td><td>✓ (영어 글 없는 것 0개)</td></tr><tr><td>어제 도시 10문제</td><td>30/100 · 통과 3/10</td><td>31/100 · 통과 3/10</td><td>97/100 · 통과 10/10</td><td>+1</td><td>+67</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table></div>
+  <div class="tw"><table class=""><thead><tr><th></th><th>A</th><th>B-v1</th><th>C</th><th>A 재료 맞음</th><th>C 재료 맞음</th><th>B-v1 − A</th><th>C − A (재료)</th><th>① A 20~40</th><th>② B−A ≥ 20</th><th>③ C−A ≥ 40</th><th>④ 영어 글</th></tr></thead><tbody><tr><td>화학 원소</td><td>70/100 · 통과 7/10</td><td>76/100 · 통과 8/10</td><td>97/100 · 통과 10/10</td><td>80</td><td>100</td><td>+6</td><td>+20</td><td>✗ (A 재료 80)</td><td>v2를 잰 뒤 판정</td><td>✗ (C−A 재료 +20)</td><td>✓ (영어 글 없는 것 0개)</td></tr><tr><td>태양계 천체</td><td>41/100 · 통과 3/10</td><td>51/100 · 통과 5/10</td><td>65/100 · 통과 6/10</td><td>57</td><td>100</td><td>+10</td><td>+43</td><td>✗ (A 재료 57)</td><td>v2를 잰 뒤 판정</td><td>✓ (C−A 재료 +43)</td><td>✓ (영어 글 없는 것 0개)</td></tr><tr><td>광물</td><td>37/100 · 통과 3/10</td><td>41/100 · 통과 4/10</td><td>74/100 · 통과 7/10</td><td>46</td><td>90</td><td>+4</td><td>+44</td><td>✗ (A 재료 46)</td><td>v2를 잰 뒤 판정</td><td>✓ (C−A 재료 +44)</td><td>✓ (영어 글 없는 것 0개)</td></tr><tr><td>어제 도시 10문제</td><td>30/100 · 통과 3/10</td><td>31/100 · 통과 3/10</td><td>97/100 · 통과 10/10</td><td>-</td><td>-</td><td>+1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table></div>
+  <p class="note">①③은 재료 값이 맞았는지로 센다(값을 알았는데 계산만 틀린 답은 아는 것으로 친다). 2026-10-19에 최종 답으로 세던 것을 바꿨다(decisions/stage2.md).</p>
   <h2>judgement가 한 일</h2>
   <p class="note">B-v1의 1회차만 봅니다. 처음 답은 1회차 초안이고, 최종 답은 마지막 회차 뒤의 답입니다.</p>
   <div class="tw"><table class=""><thead><tr><th></th><th>B-v1 답 수</th><th>처음 답 맞음 · 통과</th><th>맞음 · 불통과(맞는 답을 떨어뜨림)</th><th>틀림 · 통과</th><th>틀림 · 불통과</th><th>고쳐짐(처음 틀림 → 최종 맞음)</th><th>망가짐(처음 맞음 → 최종 틀림)</th><th>서버 오류로 멈춘 답</th><th>judgement 출력을 못 읽음</th><th>생성 출력을 못 읽음</th></tr></thead><tbody><tr><td>화학 원소</td><td>100</td><td>3</td><td>67</td><td>0</td><td>30</td><td>6</td><td>0</td><td>0</td><td>0</td><td>A 0 · B 0 · C 0</td></tr><tr><td>태양계 천체</td><td>100</td><td>2</td><td>39</td><td>0</td><td>59</td><td>17</td><td>7</td><td>0</td><td>1</td><td>A 0 · B 0 · C 0</td></tr><tr><td>광물</td><td>100</td><td>4</td><td>33</td><td>4</td><td>59</td><td>9</td><td>5</td><td>0</td><td>0</td><td>A 1 · B 1 · C 0</td></tr><tr><td>어제 도시 10문제</td><td>100</td><td>7</td><td>23</td><td>13</td><td>57</td><td>1</td><td>0</td><td>1</td><td>1</td><td>A 1 · B 1 · C 0</td></tr></tbody></table></div>

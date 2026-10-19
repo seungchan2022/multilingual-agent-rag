@@ -22,6 +22,7 @@ PASS_AT = 6  # summarize.py와 같다
 SEEDS = 10  # 질문 하나를 돌린 횟수
 A_RANGE = (20, 40)  # 기준 ①: A의 맞은 답이 이 범위 안
 C_GAIN = 40  # 기준 ③: C − A가 이 값 이상
+BAD_MATERIAL = ("재료 값이 틀림", "숫자 없는 답")  # 이 이름표가 붙은 틀린 답은 재료를 몰랐던 것이다
 
 e = html.escape
 
@@ -92,6 +93,27 @@ def null_counts(t):
     }
 
 
+def load_errors(base):
+    """round1_error_types.jsonl을 (주제, 조건, id, 씨앗) → 이름표 목록으로 읽는다. 파일이 없으면 빈 사전."""
+    return {(r["topic"], r["cond"], r["id"], r["seed"]): r["labels"]
+            for r in read_jsonl(Path(base) / "round1_error_types.jsonl")}
+
+
+def material_ok(t, cond, errors):
+    """재료 값이 맞았던 답의 수. 맞은 답 + 틀렸어도 '재료 값이 틀림'·'숫자 없는 답'이 아닌 답.
+    틀린 답 중 오류 유형 기록이 없는 것이 하나라도 있으면 셀 수 없어 None."""
+    n = 0
+    for r in t[cond]:
+        if r["correct"]:
+            n += 1
+            continue
+        labels = errors.get((t["folder"], cond, r["id"], r["seed"]))
+        if labels is None:
+            return None
+        n += not any(x in BAD_MATERIAL for x in labels)
+    return n
+
+
 def full(rows, qs):
     return bool(qs) and len(rows) == len(qs) * SEEDS
 
@@ -100,18 +122,19 @@ def verdict(ok):
     return "✓" if ok else "✗"
 
 
-def criteria(t, sa, sc, links):
-    """① ③ ④의 칸 글자. ②는 v2를 잰 뒤에만 판정한다."""
+def criteria(t, ma, mc, links):
+    """① ③ ④의 칸 글자. ②는 v2를 잰 뒤에만 판정한다.
+    ①③은 최종 답이 아니라 재료 값이 맞았는지로 센다. ma, mc는 A, C의 재료 맞음 수(셀 수 없으면 None)."""
     qs = t["qs"]
     out = {"②": "v2를 잰 뒤 판정"}
-    if full(t["A"], qs):
+    if full(t["A"], qs) and ma is not None:
         lo, hi = A_RANGE
-        out["①"] = f"{verdict(lo <= sa['ok'] <= hi)} (A {sa['ok']})"
+        out["①"] = f"{verdict(lo <= ma <= hi)} (A 재료 {ma})"
     else:
         out["①"] = "아직"
-    if full(t["A"], qs) and full(t["C"], qs):
-        d = sc["ok"] - sa["ok"]
-        out["③"] = f"{verdict(d >= C_GAIN)} (C−A {d:+d})"
+    if full(t["A"], qs) and full(t["C"], qs) and ma is not None and mc is not None:
+        d = mc - ma
+        out["③"] = f"{verdict(d >= C_GAIN)} (C−A 재료 {d:+d})"
     else:
         out["③"] = "아직"
     mine = links.get(t["folder"])
@@ -449,6 +472,10 @@ def build(base, out):
     city = load_topic(base, *CITY)
     everyone = topics + [city]
     sc = {t["folder"]: {x: score(t[x], t["qs"]) for x in "ABC"} for t in everyone}
+    errors = load_errors(base)
+    has_errors = {t["folder"] for t in topics if any(k[0] == t["folder"] for k in errors)}
+    mat = {t["folder"]: {x: material_ok(t, x, errors) if t["folder"] in has_errors and full(t[x], t["qs"]) else None
+                         for x in "AC"} for t in topics}
 
     # 2. 요약 표
     body = []
@@ -456,12 +483,20 @@ def build(base, out):
         s, qs = sc[t["folder"]], t["qs"]
         if t is city:
             crit = {k: "-" for k in "①②③④"}
+            ma = mc = "-"
+            dm = "-"
         else:
-            crit = criteria(t, s["A"], s["C"], links)
+            ma, mc = mat[t["folder"]]["A"], mat[t["folder"]]["C"]
+            crit = criteria(t, ma, mc, links)
+            dm = f"{mc - ma:+d}" if ma is not None and mc is not None else "아직"
+            ma = "아직" if ma is None else str(ma)
+            mc = "아직" if mc is None else str(mc)
         body.append([e(t["name"]), cell(t["A"], s["A"], qs), cell(t["B"], s["B"], qs), cell(t["C"], s["C"], qs),
-                     diff(t["B"], s["B"], t["A"], s["A"], qs), diff(t["C"], s["C"], t["A"], s["A"], qs),
+                     ma, mc,
+                     diff(t["B"], s["B"], t["A"], s["A"], qs), dm,
                      crit["①"], crit["②"], crit["③"], crit["④"]])
-    summary = table(["", "A", "B-v1", "C", "B-v1 − A", "C − A", "① A 20~40", "② B−A ≥ 20", "③ C−A ≥ 40", "④ 영어 글"], body)
+    summary = table(["", "A", "B-v1", "C", "A 재료 맞음", "C 재료 맞음", "B-v1 − A", "C − A (재료)",
+                     "① A 20~40", "② B−A ≥ 20", "③ C−A ≥ 40", "④ 영어 글"], body)
 
     # 3. judgement 표
     jrows = []
@@ -522,12 +557,12 @@ def build(base, out):
   <div class="box">
     <p>A는 문서 없이 바로 답한 것입니다. B-v1은 A의 답을 judgement가 보고 generate가 고쳐 쓴 것입니다(어제 프롬프트). C는 근거 글을 넣고 답한 것입니다.</p>
     <p>100은 질문 10개 × 10번입니다. 숫자는 저장된 원본 기록에서 이 페이지를 만들 때마다 새로 계산합니다. 통과 문제는 10번 중 6번 이상 맞은 질문입니다.</p>
-    <p>기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기록이 100개가 안 되면 ①③과 차이 칸은 &quot;아직&quot;입니다.</p>
+    <p>기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. 기록이 100개가 안 되거나 오류 유형 기록(round1_error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.</p>
   </div>
   <div class="box guide">
     <h2>읽는 법</h2>
     <ol>
-      <li>요약 표에서 후보마다 A, B-v1, C의 점수를 봅니다.</li>
+      <li>요약 표에서 후보마다 A, B-v1, C의 점수를 봅니다. &quot;재료 맞음&quot; 칸은 기준 ①③을 세는 숫자입니다.</li>
       <li>질문별 표에서 어느 질문이 맞고 어느 질문이 틀렸는지 봅니다.</li>
       <li>아래 &quot;씨앗별 자세히&quot;에서 질문을 펼쳐 정답과 해설을 먼저 읽습니다.</li>
       <li>씨앗 하나를 펼쳐 A, B-v1, C 순서로 따라갑니다. B-v1은 회차마다 초안, 그다음 judgement 순서입니다.</li>
@@ -549,6 +584,7 @@ def build(base, out):
   </div>
   <h2>요약</h2>
   {summary}
+  <p class="note">①③은 재료 값이 맞았는지로 센다(값을 알았는데 계산만 틀린 답은 아는 것으로 친다). 2026-10-19에 최종 답으로 세던 것을 바꿨다(decisions/stage2.md).</p>
   <h2>judgement가 한 일</h2>
   <p class="note">B-v1의 1회차만 봅니다. 처음 답은 1회차 초안이고, 최종 답은 마지막 회차 뒤의 답입니다.</p>
   {judge}
