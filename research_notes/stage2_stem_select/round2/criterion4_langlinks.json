@@ -1,0 +1,38 @@
+{
+ "rare_earth": {
+  "유로퓸": "Europium",
+  "루테튬": "Lutetium",
+  "이터븀": "Ytterbium",
+  "이트륨": "Yttrium",
+  "툴륨": "Thulium",
+  "디스프로슘": "Dysprosium",
+  "프라세오디뮴": "Praseodymium",
+  "사마륨": "Samarium",
+  "란타넘": "Lanthanum",
+  "어븀": "Erbium"
+ },
+ "exoplanets": {
+  "글리제 581 c": "Gliese 581c",
+  "목동자리 타우 b": "Tau Boötis b",
+  "글리제 1214 b": "GJ 1214 b",
+  "COROT-7b": "CoRoT-7b",
+  "KELT-9b": "KELT-9b",
+  "글리제 436 b": "Gliese 436 b",
+  "케플러-16b": "Kepler-16b",
+  "센타우루스자리 프록시마 b": "Proxima Centauri b",
+  "로스 128 b": "Ross 128 b",
+  "케플러-22b": "Kepler-22b"
+ },
+ "moons": {
+  "미마스 (위성)": "Mimas",
+  "히말리아 (위성)": "Himalia (moon)",
+  "디오네 (위성)": "Dione (moon)",
+  "이아페투스 (위성)": "Iapetus (moon)",
+  "미란다 (위성)": "Miranda (moon)",
+  "아말테아 (위성)": "Amalthea (moon)",
+  "오베론 (위성)": "Oberon (moon)",
+  "히페리온 (위성)": "Hyperion (moon)",
+  "레아 (위성)": "Rhea (moon)",
+  "네레이드 (위성)": "Nereid (moon)"
+ }
+}
