@@ -168,6 +168,40 @@ class Tests(unittest.TestCase):
         self.assertIn("<details>", page)
         self.assertNotIn("<details open", page)
 
+    def test_readability_parts(self):
+        b = refine_row(QIDS[0], 1, False, False, True)
+        b["rounds"][0]["draft"]["parsed"]["note"] = "덤 <n>"  # 정해지지 않은 키
+        del b["rounds"][0]["judge"]["parsed"]["revision_instruction"]  # 빠진 키
+        qs = questions()
+        qs[0].update({"steps": ["단계 <1>"], "evidence_quotes": [{"doc": "문서", "quote": "글 <q>"}]})
+        tmp, root = tempfile.TemporaryDirectory(), None
+        self.addCleanup(tmp.cleanup)
+        root = Path(tmp.name)
+        make_tree(root, {"chem": {"A": counts_rows("base", [5] * 10), "B": [b]}})
+        (root / "chem" / "questions.json").write_text(json.dumps(qs, ensure_ascii=False), encoding="utf-8")
+        page = m.build(root, root / "o.html")[0].read_text(encoding="utf-8")
+        self.assertIn("읽는 법", page)
+        self.assertIn("p-fix", page)  # 처음 틀림 → 최종 맞음
+        self.assertIn("고쳐짐 1 · 망가짐 0", page)
+        self.assertIn("단계 &lt;1&gt;", page)
+        self.assertIn("[문서] 글 &lt;q&gt;", page)
+        self.assertIn("1회차에서 끝남", page)
+        self.assertIn("원문 JSON 보기", page)
+        self.assertIn('<code class="key">answer</code>', page)
+        self.assertIn("정해지지 않은 칸: <code", page)
+        self.assertIn("칸이 없음", page)
+        self.assertNotIn("prefers-color-scheme: dark", page)
+
+    def test_unparsed_output(self):
+        html_ = m.gen_block({"text": "깨짐 <x>", "parsed": None}, False, None)
+        self.assertIn("JSON으로 읽지 못함", html_)
+        self.assertIn("깨짐 &lt;x&gt;", html_)
+
+    def test_multi_sentence(self):
+        s = m.grade_sentence(grade(True, multi=True))
+        self.assertIn("마지막 숫자", s)
+        self.assertIn("정답 1 kg와", s)
+
 
 if __name__ == "__main__":
     unittest.main()
