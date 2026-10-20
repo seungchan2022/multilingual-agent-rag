@@ -1,0 +1,915 @@
+{
+ "domain": "probes",
+ "rule": "링크한 대상 수 큰 순 -> 두 언어 링크 수 합 큰 순 -> 한국어 제목 차례. 위 5개",
+ "link_occurrences": 1057,
+ "distinct_topics_with_ko_page": 383,
+ "unpaired_occurrences": {
+  "영어 문서에 한국어 언어 링크 없음(또는 없는 문서·본 이름공간 아님)": 119
+ },
+ "excluded_counts": {
+  "연도·날짜 문서": 27,
+  "대상 10개 자신": 4,
+  "동음이의 문서": 2
+ },
+ "targets": [
+  "EPOXI",
+  "달 광물 지도 작성기",
+  "매리너 2호",
+  "매리너 3호",
+  "매리너 4호",
+  "베네라 8호",
+  "비너스 익스프레스",
+  "잉훠 1호",
+  "제22호 과학위성 히노데",
+  "트리톤 호퍼"
+ ],
+ "candidates_top20": [
+  {
+   "ko_title": "무게",
+   "en_title": "Weight",
+   "targets_linked": 10,
+   "ko_links": 10,
+   "en_links": 0,
+   "links_sum": 10,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데",
+    "트리톤 호퍼"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 10(한국어 10, 영어 0)"
+  },
+  {
+   "ko_title": "미국 항공 우주국",
+   "en_title": "NASA",
+   "targets_linked": 8,
+   "ko_links": 13,
+   "en_links": 12,
+   "links_sum": 25,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데",
+    "트리톤 호퍼"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 25(한국어 13, 영어 12)"
+  },
+  {
+   "ko_title": "협정 세계시",
+   "en_title": "Coordinated Universal Time",
+   "targets_linked": 8,
+   "ko_links": 11,
+   "en_links": 6,
+   "links_sum": 17,
+   "linked_by": [
+    "EPOXI",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 17(한국어 11, 영어 6)"
+  },
+  {
+   "ko_title": "국제 식별번호",
+   "en_title": "International Designator",
+   "targets_linked": 7,
+   "ko_links": 7,
+   "en_links": 2,
+   "links_sum": 9,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 9(한국어 7, 영어 2)"
+  },
+  {
+   "ko_title": "제트추진연구소",
+   "en_title": "Jet Propulsion Laboratory",
+   "targets_linked": 6,
+   "ko_links": 6,
+   "en_links": 15,
+   "links_sum": 21,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "트리톤 호퍼"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 21(한국어 6, 영어 15)"
+  },
+  {
+   "ko_title": "장축단",
+   "en_title": "Apsis",
+   "targets_linked": 6,
+   "ko_links": 6,
+   "en_links": 14,
+   "links_sum": 20,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 6,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 20(한국어 6, 영어 14)"
+  },
+  {
+   "ko_title": "공전 주기",
+   "en_title": "Orbital period",
+   "targets_linked": 6,
+   "ko_links": 0,
+   "en_links": 7,
+   "links_sum": 7,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 7,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 7(한국어 0, 영어 7)"
+  },
+  {
+   "ko_title": "위성 목록 번호",
+   "en_title": "Satellite Catalog Number",
+   "targets_linked": 6,
+   "ko_links": 1,
+   "en_links": 6,
+   "links_sum": 7,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 8,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 7(한국어 1, 영어 6)"
+  },
+  {
+   "ko_title": "궤도 경사",
+   "en_title": "Orbital inclination",
+   "targets_linked": 5,
+   "ko_links": 3,
+   "en_links": 6,
+   "links_sum": 9,
+   "linked_by": [
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 9,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 9(한국어 3, 영어 6)"
+  },
+  {
+   "ko_title": "분광기",
+   "en_title": "Spectrometer",
+   "targets_linked": 5,
+   "ko_links": 2,
+   "en_links": 6,
+   "links_sum": 8,
+   "linked_by": [
+    "EPOXI",
+    "매리너 2호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 10,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 8(한국어 2, 영어 6)"
+  },
+  {
+   "ko_title": "태양",
+   "en_title": "Sun",
+   "targets_linked": 5,
+   "ko_links": 3,
+   "en_links": 5,
+   "links_sum": 8,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 11,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 8(한국어 3, 영어 5)"
+  },
+  {
+   "ko_title": "자기계",
+   "en_title": "Magnetometer",
+   "targets_linked": 5,
+   "ko_links": 0,
+   "en_links": 7,
+   "links_sum": 7,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "잉훠 1호"
+   ],
+   "rank": 12,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 7(한국어 0, 영어 7)"
+  },
+  {
+   "ko_title": "플라스마",
+   "en_title": "Plasma (physics)",
+   "targets_linked": 5,
+   "ko_links": 1,
+   "en_links": 5,
+   "links_sum": 6,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "잉훠 1호"
+   ],
+   "rank": 13,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 6(한국어 1, 영어 5)"
+  },
+  {
+   "ko_title": "영어",
+   "en_title": "English language",
+   "targets_linked": 5,
+   "ko_links": 5,
+   "en_links": 0,
+   "links_sum": 5,
+   "linked_by": [
+    "EPOXI",
+    "매리너 2호",
+    "매리너 3호",
+    "비너스 익스프레스",
+    "잉훠 1호"
+   ],
+   "rank": 14,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 5(한국어 5, 영어 0)"
+  },
+  {
+   "ko_title": "금성",
+   "en_title": "Venus",
+   "targets_linked": 4,
+   "ko_links": 17,
+   "en_links": 13,
+   "links_sum": 30,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스"
+   ],
+   "rank": 15,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 30(한국어 17, 영어 13)"
+  },
+  {
+   "ko_title": "화성",
+   "en_title": "Mars",
+   "targets_linked": 4,
+   "ko_links": 10,
+   "en_links": 6,
+   "links_sum": 16,
+   "linked_by": [
+    "매리너 3호",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "잉훠 1호"
+   ],
+   "rank": 16,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 16(한국어 10, 영어 6)"
+  },
+  {
+   "ko_title": "우주선 (물리)",
+   "en_title": "Cosmic ray",
+   "targets_linked": 4,
+   "ko_links": 2,
+   "en_links": 6,
+   "links_sum": 8,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호"
+   ],
+   "rank": 17,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 8(한국어 2, 영어 6)"
+  },
+  {
+   "ko_title": "지구",
+   "en_title": "Earth",
+   "targets_linked": 4,
+   "ko_links": 1,
+   "en_links": 5,
+   "links_sum": 6,
+   "linked_by": [
+    "EPOXI",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "트리톤 호퍼"
+   ],
+   "rank": 18,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 6(한국어 1, 영어 5)"
+  },
+  {
+   "ko_title": "태양 주회 궤도",
+   "en_title": "Heliocentric orbit",
+   "targets_linked": 4,
+   "ko_links": 1,
+   "en_links": 4,
+   "links_sum": 5,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호"
+   ],
+   "rank": 19,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 5(한국어 1, 영어 4)"
+  },
+  {
+   "ko_title": "궤도",
+   "en_title": "Orbit",
+   "targets_linked": 4,
+   "ko_links": 3,
+   "en_links": 1,
+   "links_sum": 4,
+   "linked_by": [
+    "매리너 4호",
+    "베네라 8호",
+    "잉훠 1호",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 20,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 4(한국어 3, 영어 1)"
+  }
+ ],
+ "selected": [
+  {
+   "ko_title": "무게",
+   "en_title": "Weight",
+   "targets_linked": 10,
+   "ko_links": 10,
+   "en_links": 0,
+   "links_sum": 10,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데",
+    "트리톤 호퍼"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 10(한국어 10, 영어 0)",
+   "ko_revid": 39032094,
+   "ko_fetched_title": "무게",
+   "ko_fetched_at": "2026-10-20T13:53:37+00:00",
+   "en_revid": 1373517273,
+   "en_fetched_title": "Weight",
+   "en_fetched_at": "2026-10-20T13:53:40+00:00"
+  },
+  {
+   "ko_title": "미국 항공 우주국",
+   "en_title": "NASA",
+   "targets_linked": 8,
+   "ko_links": 13,
+   "en_links": 12,
+   "links_sum": 25,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데",
+    "트리톤 호퍼"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 25(한국어 13, 영어 12)",
+   "ko_revid": 42458142,
+   "ko_fetched_title": "미국 항공 우주국",
+   "ko_fetched_at": "2026-10-20T13:53:44+00:00",
+   "en_revid": 1380938436,
+   "en_fetched_title": "NASA",
+   "en_fetched_at": "2026-10-20T13:53:48+00:00"
+  },
+  {
+   "ko_title": "협정 세계시",
+   "en_title": "Coordinated Universal Time",
+   "targets_linked": 8,
+   "ko_links": 11,
+   "en_links": 6,
+   "links_sum": 17,
+   "linked_by": [
+    "EPOXI",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "잉훠 1호",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 17(한국어 11, 영어 6)",
+   "ko_revid": 42301112,
+   "ko_fetched_title": "협정 세계시",
+   "ko_fetched_at": "2026-10-20T13:53:51+00:00",
+   "en_revid": 1380830000,
+   "en_fetched_title": "Coordinated Universal Time",
+   "en_fetched_at": "2026-10-20T13:53:55+00:00"
+  },
+  {
+   "ko_title": "국제 식별번호",
+   "en_title": "International Designator",
+   "targets_linked": 7,
+   "ko_links": 7,
+   "en_links": 2,
+   "links_sum": 9,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 4호",
+    "베네라 8호",
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 9(한국어 7, 영어 2)",
+   "ko_revid": 39123810,
+   "ko_fetched_title": "국제 식별번호",
+   "ko_fetched_at": "2026-10-20T13:53:57+00:00",
+   "en_revid": 1357974649,
+   "en_fetched_title": "International Designator",
+   "en_fetched_at": "2026-10-20T13:54:00+00:00"
+  },
+  {
+   "ko_title": "제트추진연구소",
+   "en_title": "Jet Propulsion Laboratory",
+   "targets_linked": 6,
+   "ko_links": 6,
+   "en_links": 15,
+   "links_sum": 21,
+   "linked_by": [
+    "EPOXI",
+    "달 광물 지도 작성기",
+    "매리너 2호",
+    "매리너 3호",
+    "매리너 4호",
+    "트리톤 호퍼"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 21(한국어 6, 영어 15)",
+   "ko_revid": 40518486,
+   "ko_fetched_title": "제트추진연구소",
+   "ko_fetched_at": "2026-10-20T13:54:02+00:00",
+   "en_revid": 1372958695,
+   "en_fetched_title": "Jet Propulsion Laboratory",
+   "en_fetched_at": "2026-10-20T13:54:06+00:00"
+  }
+ ],
+ "excluded": [
+  {
+   "ko_title": "1964년",
+   "en_title": "1964",
+   "targets_linked": 2,
+   "ko_links": 8,
+   "en_links": 0,
+   "links_sum": 8,
+   "linked_by": [
+    "매리너 3호",
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "11월 28일",
+   "en_title": "November 28",
+   "targets_linked": 2,
+   "ko_links": 5,
+   "en_links": 0,
+   "links_sum": 5,
+   "linked_by": [
+    "매리너 3호",
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2005년",
+   "en_title": "2005",
+   "targets_linked": 2,
+   "ko_links": 4,
+   "en_links": 0,
+   "links_sum": 4,
+   "linked_by": [
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "매리너 3호",
+   "en_title": "Mariner 3",
+   "targets_linked": 2,
+   "ko_links": 1,
+   "en_links": 3,
+   "links_sum": 4,
+   "linked_by": [
+    "매리너 2호",
+    "매리너 4호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "2006년",
+   "en_title": "2006",
+   "targets_linked": 2,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "비너스 익스프레스",
+    "제22호 과학위성 히노데"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1972년",
+   "en_title": "1972",
+   "targets_linked": 1,
+   "ko_links": 5,
+   "en_links": 0,
+   "links_sum": 5,
+   "linked_by": [
+    "베네라 8호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "매리너 4호",
+   "en_title": "Mariner 4",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 3,
+   "links_sum": 4,
+   "linked_by": [
+    "매리너 3호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "11월 9일",
+   "en_title": "November 9",
+   "targets_linked": 1,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "비너스 익스프레스"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "11월 5일",
+   "en_title": "November 5",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "매리너 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "12월 21일",
+   "en_title": "December 21",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1965년",
+   "en_title": "1965",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1967년",
+   "en_title": "1967",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "4월 11일",
+   "en_title": "April 11",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "비너스 익스프레스"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "7월 14일",
+   "en_title": "July 14",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "7월 22일",
+   "en_title": "July 22",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "베네라 8호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "9월 22일",
+   "en_title": "September 22",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "제22호 과학위성 히노데"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "달 광물 지도 작성기",
+   "en_title": "Moon Mineralogy Mapper",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 1,
+   "links_sum": 2,
+   "linked_by": [
+    "EPOXI"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "매리너 2호",
+   "en_title": "Mariner 2",
+   "targets_linked": 1,
+   "ko_links": 0,
+   "en_links": 2,
+   "links_sum": 2,
+   "linked_by": [
+    "매리너 3호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "11월 8일",
+   "en_title": "November 8",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "잉훠 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1962년",
+   "en_title": "1962",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "매리너 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1963년",
+   "en_title": "1963",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "매리너 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1월 15일",
+   "en_title": "January 15",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "잉훠 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1월 3일",
+   "en_title": "January 3",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "매리너 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2011년",
+   "en_title": "2011",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "잉훠 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2012년",
+   "en_title": "2012",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "잉훠 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "3월 17일",
+   "en_title": "March 17",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "베네라 8호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "4월",
+   "en_title": "April",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "베네라 8호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "4월 12일",
+   "en_title": "April 12",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "비너스 익스프레스"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "7월",
+   "en_title": "July",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "베네라 8호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "7월 15일",
+   "en_title": "July 15",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "매리너 4호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 27일",
+   "en_title": "August 27",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "매리너 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "SAIC",
+   "en_title": "SAIC",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "달 광물 지도 작성기"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "요코",
+   "en_title": "Yoko",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "제22호 과학위성 히노데"
+   ],
+   "reason": "동음이의 문서"
+  }
+ ],
+ "selected_at": "2026-10-20T13:53:00+00:00",
+ "infobox_grid_counted": false
+}

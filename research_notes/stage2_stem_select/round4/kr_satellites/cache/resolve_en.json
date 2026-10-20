@@ -1,0 +1,1850 @@
+{
+ "Technology demonstration": {
+  "title": "Technology demonstration",
+  "ns": 0,
+  "missing": false,
+  "other": "기술 시연",
+  "disamb": false
+ },
+ "KAIST Satellite Technology Research Center": {
+  "title": "KAIST Satellite Technology Research Center",
+  "ns": 0,
+  "missing": false,
+  "other": "한국과학기술원 인공위성연구소",
+  "disamb": false
+ },
+ "Satellite Catalog Number": {
+  "title": "Satellite Catalog Number",
+  "ns": 0,
+  "missing": false,
+  "other": "위성 목록 번호",
+  "disamb": false
+ },
+ "Satellite bus": {
+  "title": "Satellite bus",
+  "ns": 0,
+  "missing": false,
+  "other": "위성 버스",
+  "disamb": false
+ },
+ "Surrey Satellite Technology": {
+  "title": "Surrey Satellite Technology",
+  "ns": 0,
+  "missing": false,
+  "other": "서리 새틀라이트 테크놀로지",
+  "disamb": false
+ },
+ "Watt": {
+  "title": "Watt",
+  "ns": 0,
+  "missing": false,
+  "other": "와트",
+  "disamb": false
+ },
+ "Coordinated Universal Time": {
+  "title": "Coordinated Universal Time",
+  "ns": 0,
+  "missing": false,
+  "other": "협정 세계시",
+  "disamb": false
+ },
+ "Ariane 4": {
+  "title": "Ariane 4",
+  "ns": 0,
+  "missing": false,
+  "other": "아리안 4",
+  "disamb": false
+ },
+ "Guiana Space Centre": {
+  "title": "Guiana Space Centre",
+  "ns": 0,
+  "missing": false,
+  "other": "기아나 우주 센터",
+  "disamb": false
+ },
+ "ELA-2": {
+  "title": "ELA-2",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Arianespace": {
+  "title": "Arianespace",
+  "ns": 0,
+  "missing": false,
+  "other": "아리안스페이스",
+  "disamb": false
+ },
+ "Geocentric orbit": {
+  "title": "Geocentric orbit",
+  "ns": 0,
+  "missing": false,
+  "other": "지구 주회 궤도",
+  "disamb": false
+ },
+ "Low Earth orbit": {
+  "title": "Low Earth orbit",
+  "ns": 0,
+  "missing": false,
+  "other": "지구 저궤도",
+  "disamb": false
+ },
+ "Apsis": {
+  "title": "Apsis",
+  "ns": 0,
+  "missing": false,
+  "other": "장축단",
+  "disamb": false
+ },
+ "Orbital inclination": {
+  "title": "Orbital inclination",
+  "ns": 0,
+  "missing": false,
+  "other": "궤도 경사",
+  "disamb": false
+ },
+ "Orbital period": {
+  "title": "Orbital period",
+  "ns": 0,
+  "missing": false,
+  "other": "공전 주기",
+  "disamb": false
+ },
+ "KITSAT-2": {
+  "title": "KITSAT-2",
+  "ns": 0,
+  "missing": false,
+  "other": "우리별 2호",
+  "disamb": false
+ },
+ "South Korea": {
+  "title": "South Korea",
+  "ns": 0,
+  "missing": false,
+  "other": "대한민국",
+  "disamb": false
+ },
+ "Satellite": {
+  "title": "Satellite",
+  "ns": 0,
+  "missing": false,
+  "other": "인공위성",
+  "disamb": false
+ },
+ "Small satellite": {
+  "title": "Small satellite",
+  "ns": 0,
+  "missing": false,
+  "other": "소형 위성",
+  "disamb": false
+ },
+ "Earth": {
+  "title": "Earth",
+  "ns": 0,
+  "missing": false,
+  "other": "지구",
+  "disamb": false
+ },
+ "University of Surrey": {
+  "title": "University of Surrey",
+  "ns": 0,
+  "missing": false,
+  "other": "서리 대학교",
+  "disamb": false
+ },
+ "Technology": {
+  "title": "Technology",
+  "ns": 0,
+  "missing": false,
+  "other": "테크놀로지",
+  "disamb": false
+ },
+ "Van Allen radiation belt": {
+  "title": "Van Allen radiation belt",
+  "ns": 0,
+  "missing": false,
+  "other": "밴 앨런대",
+  "disamb": false
+ },
+ "Launch vehicle": {
+  "title": "Launch vehicle",
+  "ns": 0,
+  "missing": false,
+  "other": "우주발사체",
+  "disamb": false
+ },
+ "NASA": {
+  "title": "NASA",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 항공 우주국",
+  "disamb": false
+ },
+ "TOPEX/Poseidon": {
+  "title": "TOPEX/Poseidon",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "UoSAT-5": {
+  "title": "UoSAT-5",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Astrophysics": {
+  "title": "Astrophysics",
+  "ns": 0,
+  "missing": false,
+  "other": "천체물리학",
+  "disamb": false
+ },
+ "Kosmos-3M": {
+  "title": "Kosmos-3M",
+  "ns": 0,
+  "missing": false,
+  "other": "코스모스-3M",
+  "disamb": false
+ },
+ "Plesetsk Cosmodrome": {
+  "title": "Plesetsk Cosmodrome",
+  "ns": 0,
+  "missing": false,
+  "other": "플레세츠크 우주 기지",
+  "disamb": false
+ },
+ "Plesetsk Cosmodrome Site 132": {
+  "title": "Plesetsk Cosmodrome",
+  "ns": 0,
+  "missing": false,
+  "other": "플레세츠크 우주 기지",
+  "disamb": false
+ },
+ "Yuzhnoye Design Bureau": {
+  "title": "KB Pivdenne",
+  "ns": 0,
+  "missing": false,
+  "other": "유즈노예",
+  "disamb": false
+ },
+ "NPO Polyot": {
+  "title": "Production Corporation Polyot",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Sun-synchronous orbit": {
+  "title": "Sun-synchronous orbit",
+  "ns": 0,
+  "missing": false,
+  "other": "태양 동기 궤도",
+  "disamb": false
+ },
+ "Korea Aerospace Research Institute": {
+  "title": "Korea Aerospace Research Institute",
+  "ns": 0,
+  "missing": false,
+  "other": "한국항공우주연구원",
+  "disamb": false
+ },
+ "STSat-2A": {
+  "title": "STSat-2A",
+  "ns": 0,
+  "missing": false,
+  "other": "과학기술위성 2호",
+  "disamb": false
+ },
+ "Ultraviolet": {
+  "title": "Ultraviolet",
+  "ns": 0,
+  "missing": false,
+  "other": "자외선",
+  "disamb": false
+ },
+ "Telescope": {
+  "title": "Telescope",
+  "ns": 0,
+  "missing": false,
+  "other": "망원경",
+  "disamb": false
+ },
+ "KAIST": {
+  "title": "KAIST",
+  "ns": 0,
+  "missing": false,
+  "other": "한국과학기술원",
+  "disamb": false
+ },
+ "Ministry of Science and Technology (South Korea)": {
+  "title": "Ministry of Science and Technology (South Korea)",
+  "ns": 0,
+  "missing": false,
+  "other": "대한민국 과학기술부",
+  "disamb": false
+ },
+ "Galaxy": {
+  "title": "Galaxy",
+  "ns": 0,
+  "missing": false,
+  "other": "은하",
+  "disamb": false
+ },
+ "Remote sensing": {
+  "title": "Remote sensing",
+  "ns": 0,
+  "missing": false,
+  "other": "원격탐사",
+  "disamb": false
+ },
+ "PSLV-C2": {
+  "title": "PSLV-C2",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Satish Dhawan Space Centre": {
+  "title": "Satish Dhawan Space Centre",
+  "ns": 0,
+  "missing": false,
+  "other": "사티시 다완 우주 센터",
+  "disamb": false
+ },
+ "Indian Space Research Organisation": {
+  "title": "ISRO",
+  "ns": 0,
+  "missing": false,
+  "other": "인도우주연구기구",
+  "disamb": false
+ },
+ "STSat-1": {
+  "title": "STSat-1",
+  "ns": 0,
+  "missing": false,
+  "other": "과학기술위성 1호",
+  "disamb": false
+ },
+ "Orbit": {
+  "title": "Orbit",
+  "ns": 0,
+  "missing": false,
+  "other": "궤도",
+  "disamb": false
+ },
+ "KITSAT-1": {
+  "title": "KITSAT-1",
+  "ns": 0,
+  "missing": false,
+  "other": "우리별 1호",
+  "disamb": false
+ },
+ "Polar Satellite Launch Vehicle": {
+  "title": "Polar Satellite Launch Vehicle",
+  "ns": 0,
+  "missing": false,
+  "other": "PSLV",
+  "disamb": false
+ },
+ "Solar panels on spacecraft": {
+  "title": "Solar panels on spacecraft",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Falcon 9": {
+  "title": "Falcon 9",
+  "ns": 0,
+  "missing": false,
+  "other": "팰컨 9",
+  "disamb": false
+ },
+ "Vandenberg Space Force Base": {
+  "title": "Vandenberg Space Force Base",
+  "ns": 0,
+  "missing": false,
+  "other": "반덴버그 우주군기지",
+  "disamb": false
+ },
+ "NEXTSat-2": {
+  "title": "NEXTSat-2",
+  "ns": 0,
+  "missing": false,
+  "other": "차세대소형위성 2호",
+  "disamb": false
+ },
+ "Korean language": {
+  "title": "Korean language",
+  "ns": 0,
+  "missing": false,
+  "other": "한국어",
+  "disamb": false
+ },
+ "Star": {
+  "title": "Star",
+  "ns": 0,
+  "missing": false,
+  "other": "항성",
+  "disamb": false
+ },
+ "SpaceX": {
+  "title": "SpaceX",
+  "ns": 0,
+  "missing": false,
+  "other": "스페이스X",
+  "disamb": false
+ },
+ "Svalbard Ground Station": {
+  "title": "Svalbard Satellite Station",
+  "ns": 0,
+  "missing": false,
+  "other": "스발바르 위성 기지국",
+  "disamb": false
+ },
+ "Norway": {
+  "title": "Norway",
+  "ns": 0,
+  "missing": false,
+  "other": "노르웨이",
+  "disamb": false
+ },
+ "North Pole": {
+  "title": "North Pole",
+  "ns": 0,
+  "missing": false,
+  "other": "북극점",
+  "disamb": false
+ },
+ "CubeSat": {
+  "title": "CubeSat",
+  "ns": 0,
+  "missing": false,
+  "other": "큐브위성",
+  "disamb": false
+ },
+ "Seoul National University": {
+  "title": "Seoul National University",
+  "ns": 0,
+  "missing": false,
+  "other": "서울대학교",
+  "disamb": false
+ },
+ "Korea Aerospace University": {
+  "title": "Korea Aerospace University",
+  "ns": 0,
+  "missing": false,
+  "other": "한국항공대학교",
+  "disamb": false
+ },
+ "GPS receiver": {
+  "title": "Satellite navigation device",
+  "ns": 0,
+  "missing": false,
+  "other": "위성 항법 장치",
+  "disamb": false
+ },
+ "Plasma (physics)": {
+  "title": "Plasma (physics)",
+  "ns": 0,
+  "missing": false,
+  "other": "플라스마",
+  "disamb": false
+ },
+ "Space weather": {
+  "title": "Space weather",
+  "ns": 0,
+  "missing": false,
+  "other": "우주 기후",
+  "disamb": false
+ },
+ "Near-infrared": {
+  "title": "Infrared",
+  "ns": 0,
+  "missing": false,
+  "other": "적외선",
+  "disamb": false
+ },
+ "Earth observation satellite": {
+  "title": "Earth observation satellite",
+  "ns": 0,
+  "missing": false,
+  "other": "지구 관측 위성",
+  "disamb": false
+ },
+ "KOMPSAT": {
+  "title": "KOMPSAT",
+  "ns": 0,
+  "missing": false,
+  "other": "다목적실용위성",
+  "disamb": false
+ },
+ "Korea Aerospace Industries": {
+  "title": "Korea Aerospace Industries",
+  "ns": 0,
+  "missing": false,
+  "other": "한국항공우주산업",
+  "disamb": false
+ },
+ "Astrium": {
+  "title": "Astrium",
+  "ns": 0,
+  "missing": false,
+  "other": "EADS 아스트리움",
+  "disamb": false
+ },
+ "H-IIA": {
+  "title": "H-IIA",
+  "ns": 0,
+  "missing": false,
+  "other": "H-IIA",
+  "disamb": false
+ },
+ "Tanegashima Space Center": {
+  "title": "Tanegashima Space Center",
+  "ns": 0,
+  "missing": false,
+  "other": "다네가시마 우주 센터",
+  "disamb": false
+ },
+ "Mitsubishi Heavy Industries": {
+  "title": "Mitsubishi Heavy Industries",
+  "ns": 0,
+  "missing": false,
+  "other": "미쓰비시 중공업",
+  "disamb": false
+ },
+ "KOMPSAT-2": {
+  "title": "KOMPSAT-2",
+  "ns": 0,
+  "missing": false,
+  "other": "아리랑 2호",
+  "disamb": false
+ },
+ "KOMPSAT-5": {
+  "title": "KOMPSAT-5",
+  "ns": 0,
+  "missing": false,
+  "other": "아리랑 5호",
+  "disamb": false
+ },
+ "KOMPSAT-1": {
+  "title": "KOMPSAT-1",
+  "ns": 0,
+  "missing": false,
+  "other": "아리랑 1호",
+  "disamb": false
+ },
+ "Arirang": {
+  "title": "Arirang",
+  "ns": 0,
+  "missing": false,
+  "other": "아리랑",
+  "disamb": false
+ },
+ "KOMPSAT-3A": {
+  "title": "KOMPSAT-3A",
+  "ns": 0,
+  "missing": false,
+  "other": "아리랑 3A호",
+  "disamb": false
+ },
+ "Satrec Initiative": {
+  "title": "Satrec Initiative",
+  "ns": 0,
+  "missing": false,
+  "other": "쎄트렉아이",
+  "disamb": false
+ },
+ "Daejeon": {
+  "title": "Daejeon",
+  "ns": 0,
+  "missing": false,
+  "other": "대전광역시",
+  "disamb": false
+ },
+ "Korea": {
+  "title": "Korea",
+  "ns": 0,
+  "missing": false,
+  "other": "한국",
+  "disamb": false
+ },
+ "UTC": {
+  "title": "Coordinated Universal Time",
+  "ns": 0,
+  "missing": false,
+  "other": "협정 세계시",
+  "disamb": false
+ },
+ "Nuri (rocket)": {
+  "title": "Nuri (rocket)",
+  "ns": 0,
+  "missing": false,
+  "other": "누리호",
+  "disamb": false
+ },
+ "Naro Space Center": {
+  "title": "Naro Space Center",
+  "ns": 0,
+  "missing": false,
+  "other": "나로우주센터",
+  "disamb": false
+ },
+ "NEXTSat-1": {
+  "title": "NEXTSat-1",
+  "ns": 0,
+  "missing": false,
+  "other": "차세대소형위성 1호",
+  "disamb": false
+ },
+ "Cosmic radiation": {
+  "title": "Cosmic ray",
+  "ns": 0,
+  "missing": false,
+  "other": "우주선 (물리)",
+  "disamb": false
+ },
+ "King Sejong Station": {
+  "title": "King Sejong Station",
+  "ns": 0,
+  "missing": false,
+  "other": "세종과학기지",
+  "disamb": false
+ },
+ "Korea Astronomy and Space Science Institute": {
+  "title": "Korea Astronomy and Space Science Institute",
+  "ns": 0,
+  "missing": false,
+  "other": "한국천문연구원",
+  "disamb": false
+ },
+ "Neutron": {
+  "title": "Neutron",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자",
+  "disamb": false
+ },
+ "Space station": {
+  "title": "Space station",
+  "ns": 0,
+  "missing": false,
+  "other": "우주정거장",
+  "disamb": false
+ },
+ "Baekdu": {
+  "title": "Mount Paektu",
+  "ns": 0,
+  "missing": false,
+  "other": "백두산",
+  "disamb": false
+ },
+ "Arctic Ocean": {
+  "title": "Arctic Ocean",
+  "ns": 0,
+  "missing": false,
+  "other": "북극해",
+  "disamb": false
+ },
+ "Science": {
+  "title": "Science",
+  "ns": 0,
+  "missing": false,
+  "other": "과학",
+  "disamb": false
+ },
+ "Naro-1": {
+  "title": "Naro-1",
+  "ns": 0,
+  "missing": false,
+  "other": "나로호",
+  "disamb": false
+ },
+ "Khrunichev State Research and Production Space Center": {
+  "title": "Khrunichev State Research and Production Space Center",
+  "ns": 0,
+  "missing": false,
+  "other": "흐루니체프",
+  "disamb": false
+ },
+ "STSat-2B": {
+  "title": "STSat-2B",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Goheung County": {
+  "title": "Goheung County",
+  "ns": 0,
+  "missing": false,
+  "other": "고흥군",
+  "disamb": false
+ },
+ "South Jeolla": {
+  "title": "South Jeolla Province",
+  "ns": 0,
+  "missing": false,
+  "other": "전라남도",
+  "disamb": false
+ },
+ "Sun": {
+  "title": "Sun",
+  "ns": 0,
+  "missing": false,
+  "other": "태양",
+  "disamb": false
+ },
+ "Microwave radiometer": {
+  "title": "Microwave radiometer",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Spacecraft": {
+  "title": "Spacecraft",
+  "ns": 0,
+  "missing": false,
+  "other": "우주선",
+  "disamb": false
+ },
+ "International Designator": {
+  "title": "International Designator",
+  "ns": 0,
+  "missing": false,
+  "other": "국제 식별번호",
+  "disamb": false
+ },
+ "Soyuz-2 (rocket)": {
+  "title": "Soyuz-2",
+  "ns": 0,
+  "missing": false,
+  "other": "소유스-2",
+  "disamb": false
+ },
+ "Baikonur Cosmodrome": {
+  "title": "Baikonur Cosmodrome",
+  "ns": 0,
+  "missing": false,
+  "other": "바이코누르 우주 기지",
+  "disamb": false
+ },
+ "Baikonur Cosmodrome Site 31": {
+  "title": "Baikonur Cosmodrome Site 31",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Roskosmos": {
+  "title": "Roscosmos",
+  "ns": 0,
+  "missing": false,
+  "other": "로스코스모스",
+  "disamb": false
+ },
+ "Semi-major axis": {
+  "title": "Semi-major and semi-minor axes",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Epoch (astronomy)": {
+  "title": "Epoch (astronomy)",
+  "ns": 0,
+  "missing": false,
+  "other": "역기점",
+  "disamb": false
+ },
+ "Amateur radio satellite": {
+  "title": "Amateur radio satellite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Bion-M No.1": {
+  "title": "Bion-M No.1",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Kazakhstan": {
+  "title": "Kazakhstan",
+  "ns": 0,
+  "missing": false,
+  "other": "카자흐스탄",
+  "disamb": false
+ },
+ "Amateur radio": {
+  "title": "Amateur radio",
+  "ns": 0,
+  "missing": false,
+  "other": "아마추어 무선",
+  "disamb": false
+ },
+ "Commercial off-the-shelf": {
+  "title": "Commercial off-the-shelf",
+  "ns": 0,
+  "missing": false,
+  "other": "상용 기성품",
+  "disamb": false
+ },
+ "Arduino": {
+  "title": "Arduino",
+  "ns": 0,
+  "missing": false,
+  "other": "아두이노",
+  "disamb": false
+ },
+ "Lithium-ion": {
+  "title": "Lithium-ion battery",
+  "ns": 0,
+  "missing": false,
+  "other": "리튬 이온 전지",
+  "disamb": false
+ },
+ "Morse code": {
+  "title": "Morse code",
+  "ns": 0,
+  "missing": false,
+  "other": "모스 부호",
+  "disamb": false
+ },
+ "LED": {
+  "title": "Light-emitting diode",
+  "ns": 0,
+  "missing": false,
+  "other": "발광 다이오드",
+  "disamb": false
+ },
+ "Two-line element set": {
+  "title": "Two-line element set",
+  "ns": 0,
+  "missing": false,
+  "other": "TLE (파일 포맷)",
+  "disamb": false
+ },
+ "ITU": {
+  "title": "International Telecommunication Union",
+  "ns": 0,
+  "missing": false,
+  "other": "국제전기통신연합",
+  "disamb": false
+ },
+ "Turnkey": {
+  "title": "Turnkey",
+  "ns": 0,
+  "missing": false,
+  "other": "턴키",
+  "disamb": false
+ },
+ "GitHub": {
+  "title": "GitHub",
+  "ns": 0,
+  "missing": false,
+  "other": "깃허브",
+  "disamb": false
+ },
+ "Communications": {
+  "title": "Communication",
+  "ns": 0,
+  "missing": false,
+  "other": "커뮤니케이션",
+  "disamb": false
+ },
+ "KT Corporation": {
+  "title": "KT Corporation",
+  "ns": 0,
+  "missing": false,
+  "other": "KT",
+  "disamb": false
+ },
+ "Spacebus": {
+  "title": "Spacebus",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Martin Marietta": {
+  "title": "Martin Marietta",
+  "ns": 0,
+  "missing": false,
+  "other": "마틴 마리에타",
+  "disamb": false
+ },
+ "Lockheed Martin": {
+  "title": "Lockheed Martin",
+  "ns": 0,
+  "missing": false,
+  "other": "록히드 마틴",
+  "disamb": false
+ },
+ "Delta II": {
+  "title": "Delta II",
+  "ns": 0,
+  "missing": false,
+  "other": "델타 II",
+  "disamb": false
+ },
+ "Cape Canaveral Air Force Station": {
+  "title": "Cape Canaveral Space Force Station",
+  "ns": 0,
+  "missing": false,
+  "other": "케이프커내버럴 우주군 기지",
+  "disamb": false
+ },
+ "Cape Canaveral Air Force Station Launch Complex 17": {
+  "title": "Cape Canaveral Space Launch Complex 17",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Geostationary orbit": {
+  "title": "Geostationary orbit",
+  "ns": 0,
+  "missing": false,
+  "other": "정지 궤도",
+  "disamb": false
+ },
+ "Ku band": {
+  "title": "Ku band",
+  "ns": 0,
+  "missing": false,
+  "other": "Ku 밴드",
+  "disamb": false
+ },
+ "Megahertz": {
+  "title": "Hertz",
+  "ns": 0,
+  "missing": false,
+  "other": "헤르츠",
+  "disamb": false
+ },
+ "Asia": {
+  "title": "Asia",
+  "ns": 0,
+  "missing": false,
+  "other": "아시아",
+  "disamb": false
+ },
+ "Florida": {
+  "title": "Florida",
+  "ns": 0,
+  "missing": false,
+  "other": "플로리다주",
+  "disamb": false
+ },
+ "Hydrazine": {
+  "title": "Hydrazine",
+  "ns": 0,
+  "missing": false,
+  "other": "하이드라진",
+  "disamb": false
+ },
+ "Geosynchronous orbit": {
+  "title": "Geosynchronous orbit",
+  "ns": 0,
+  "missing": false,
+  "other": "지구 동기 궤도",
+  "disamb": false
+ },
+ "Graveyard orbit": {
+  "title": "Graveyard orbit",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Communications satellite": {
+  "title": "Communications satellite",
+  "ns": 0,
+  "missing": false,
+  "other": "통신 위성",
+  "disamb": false
+ },
+ "Agency for Defense Development": {
+  "title": "Agency for Defense Development",
+  "ns": 0,
+  "missing": false,
+  "other": "국방과학연구소",
+  "disamb": false
+ },
+ "Alcatel Alenia Space": {
+  "title": "Thales Alenia Space",
+  "ns": 0,
+  "missing": false,
+  "other": "탈레스 알레니아 스페이스",
+  "disamb": false
+ },
+ "Zenit-3SL": {
+  "title": "Zenit-3SL",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ocean Odyssey": {
+  "title": "Odyssey (launch platform)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Kiritimati": {
+  "title": "Kiritimati",
+  "ns": 0,
+  "missing": false,
+  "other": "키리티마티섬",
+  "disamb": false
+ },
+ "Sea Launch": {
+  "title": "Sea Launch",
+  "ns": 0,
+  "missing": false,
+  "other": "씨런치",
+  "disamb": false
+ },
+ "Koreasat": {
+  "title": "Koreasat",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Koreasat 3": {
+  "title": "ABS-7",
+  "ns": 0,
+  "missing": false,
+  "other": "무궁화 3호",
+  "disamb": false
+ },
+ "Koreasat 6": {
+  "title": "Koreasat 6",
+  "ns": 0,
+  "missing": false,
+  "other": "올레 1호",
+  "disamb": false
+ },
+ "ANASIS-II": {
+  "title": "ANASIS-II",
+  "ns": 0,
+  "missing": false,
+  "other": "아나시스 2호",
+  "disamb": false
+ },
+ "1992": {
+  "title": "1992",
+  "ns": 0,
+  "missing": false,
+  "other": "1992년",
+  "disamb": false
+ },
+ "August 11": {
+  "title": "August 11",
+  "ns": 0,
+  "missing": false,
+  "other": "8월 11일",
+  "disamb": false
+ },
+ "Weight": {
+  "title": "Weight",
+  "ns": 0,
+  "missing": false,
+  "other": "무게",
+  "disamb": false
+ },
+ "Electric power": {
+  "title": "Electric power",
+  "ns": 0,
+  "missing": false,
+  "other": "전력",
+  "disamb": false
+ },
+ "Orbital eccentricity": {
+  "title": "Orbital eccentricity",
+  "ns": 0,
+  "missing": false,
+  "other": "궤도 이심률",
+  "disamb": false
+ },
+ "Transponder": {
+  "title": "Transponder",
+  "ns": 0,
+  "missing": false,
+  "other": "트랜스폰더",
+  "disamb": false
+ },
+ "Display resolution": {
+  "title": "Display resolution",
+  "ns": 0,
+  "missing": false,
+  "other": "해상도",
+  "disamb": false
+ },
+ "South America": {
+  "title": "South America",
+  "ns": 0,
+  "missing": false,
+  "other": "남아메리카",
+  "disamb": false
+ },
+ "French Guiana": {
+  "title": "French Guiana",
+  "ns": 0,
+  "missing": false,
+  "other": "프랑스령 기아나",
+  "disamb": false
+ },
+ "Kourou": {
+  "title": "Kourou",
+  "ns": 0,
+  "missing": false,
+  "other": "쿠루 (프랑스령 기아나)",
+  "disamb": false
+ },
+ "International Space Station": {
+  "title": "International Space Station",
+  "ns": 0,
+  "missing": false,
+  "other": "국제우주정거장",
+  "disamb": false
+ },
+ "Yi So-yeon": {
+  "title": "Yi So-yeon",
+  "ns": 0,
+  "missing": false,
+  "other": "이소연 (공학자)",
+  "disamb": false
+ },
+ "Satellite Girl and Milk Cow": {
+  "title": "Satellite Girl and Milk Cow",
+  "ns": 0,
+  "missing": false,
+  "other": "우리별 일호와 얼룩소",
+  "disamb": false
+ },
+ "Android (robot)": {
+  "title": "Android (robot)",
+  "ns": 0,
+  "missing": false,
+  "other": "안드로이드 (로봇)",
+  "disamb": false
+ },
+ "2003": {
+  "title": "2003",
+  "ns": 0,
+  "missing": false,
+  "other": "2003년",
+  "disamb": false
+ },
+ "September 27": {
+  "title": "September 27",
+  "ns": 0,
+  "missing": false,
+  "other": "9월 27일",
+  "disamb": false
+ },
+ "Time in South Korea": {
+  "title": "Time in South Korea",
+  "ns": 0,
+  "missing": false,
+  "other": "한국 표준시",
+  "disamb": false
+ },
+ "KB Pivdenne": {
+  "title": "KB Pivdenne",
+  "ns": 0,
+  "missing": false,
+  "other": "유즈노예",
+  "disamb": false
+ },
+ "1999": {
+  "title": "1999",
+  "ns": 0,
+  "missing": false,
+  "other": "1999년",
+  "disamb": false
+ },
+ "May 26": {
+  "title": "May 26",
+  "ns": 0,
+  "missing": false,
+  "other": "5월 26일",
+  "disamb": false
+ },
+ "Projectile": {
+  "title": "Projectile",
+  "ns": 0,
+  "missing": false,
+  "other": "발사체",
+  "disamb": false
+ },
+ "Very high frequency": {
+  "title": "Very high frequency",
+  "ns": 0,
+  "missing": false,
+  "other": "초단파",
+  "disamb": false
+ },
+ "Ultra high frequency": {
+  "title": "Ultra high frequency",
+  "ns": 0,
+  "missing": false,
+  "other": "극초단파",
+  "disamb": false
+ },
+ "ISRO": {
+  "title": "ISRO",
+  "ns": 0,
+  "missing": false,
+  "other": "인도우주연구기구",
+  "disamb": false
+ },
+ "United States": {
+  "title": "United States",
+  "ns": 0,
+  "missing": false,
+  "other": "미국",
+  "disamb": false
+ },
+ "2018": {
+  "title": "2018",
+  "ns": 0,
+  "missing": false,
+  "other": "2018년",
+  "disamb": false
+ },
+ "October 21": {
+  "title": "October 21",
+  "ns": 0,
+  "missing": false,
+  "other": "10월 21일",
+  "disamb": false
+ },
+ "California": {
+  "title": "California",
+  "ns": 0,
+  "missing": false,
+  "other": "캘리포니아주",
+  "disamb": false
+ },
+ "November 20": {
+  "title": "November 20",
+  "ns": 0,
+  "missing": false,
+  "other": "11월 20일",
+  "disamb": false
+ },
+ "November 29": {
+  "title": "November 29",
+  "ns": 0,
+  "missing": false,
+  "other": "11월 29일",
+  "disamb": false
+ },
+ "December 4": {
+  "title": "December 4",
+  "ns": 0,
+  "missing": false,
+  "other": "12월 4일",
+  "disamb": false
+ },
+ "Arctic": {
+  "title": "Arctic",
+  "ns": 0,
+  "missing": false,
+  "other": "북극",
+  "disamb": false
+ },
+ "X band": {
+  "title": "X band",
+  "ns": 0,
+  "missing": false,
+  "other": "X 밴드",
+  "disamb": false
+ },
+ "SAR": {
+  "title": "SAR",
+  "ns": 0,
+  "missing": false,
+  "other": "SAR",
+  "disamb": true
+ },
+ "TacSat-3": {
+  "title": "TacSat-3",
+  "ns": 0,
+  "missing": false,
+  "other": "TacSat-3",
+  "disamb": false
+ },
+ "Israel": {
+  "title": "Israel",
+  "ns": 0,
+  "missing": false,
+  "other": "이스라엘",
+  "disamb": false
+ },
+ "2009": {
+  "title": "2009",
+  "ns": 0,
+  "missing": false,
+  "other": "2009년",
+  "disamb": false
+ },
+ "Synthetic-aperture radar": {
+  "title": "Synthetic-aperture radar",
+  "ns": 0,
+  "missing": false,
+  "other": "합성개구레이더",
+  "disamb": false
+ },
+ "2014": {
+  "title": "2014",
+  "ns": 0,
+  "missing": false,
+  "other": "2014년",
+  "disamb": false
+ },
+ "Japan": {
+  "title": "Japan",
+  "ns": 0,
+  "missing": false,
+  "other": "일본",
+  "disamb": false
+ },
+ "2019": {
+  "title": "2019",
+  "ns": 0,
+  "missing": false,
+  "other": "2019년",
+  "disamb": false
+ },
+ "2020": {
+  "title": "2020",
+  "ns": 0,
+  "missing": false,
+  "other": "2020년",
+  "disamb": false
+ },
+ "Svalbard Satellite Station": {
+  "title": "Svalbard Satellite Station",
+  "ns": 0,
+  "missing": false,
+  "other": "스발바르 위성 기지국",
+  "disamb": false
+ },
+ "Satellite navigation device": {
+  "title": "Satellite navigation device",
+  "ns": 0,
+  "missing": false,
+  "other": "위성 항법 장치",
+  "disamb": false
+ },
+ "Infrared": {
+  "title": "Infrared",
+  "ns": 0,
+  "missing": false,
+  "other": "적외선",
+  "disamb": false
+ },
+ "2012": {
+  "title": "2012",
+  "ns": 0,
+  "missing": false,
+  "other": "2012년",
+  "disamb": false
+ },
+ "May 18": {
+  "title": "May 18",
+  "ns": 0,
+  "missing": false,
+  "other": "5월 18일",
+  "disamb": false
+ },
+ "Cinematography": {
+  "title": "Cinematography",
+  "ns": 0,
+  "missing": false,
+  "other": "시네마토그래피",
+  "disamb": false
+ },
+ "January 12": {
+  "title": "January 12",
+  "ns": 0,
+  "missing": false,
+  "other": "1월 12일",
+  "disamb": false
+ },
+ "Mitsubishi": {
+  "title": "Mitsubishi",
+  "ns": 0,
+  "missing": false,
+  "other": "미쓰비시 그룹",
+  "disamb": false
+ },
+ "January 16": {
+  "title": "January 16",
+  "ns": 0,
+  "missing": false,
+  "other": "1월 16일",
+  "disamb": false
+ },
+ "Choi Soon-dal": {
+  "title": "Choi Soon-dal",
+  "ns": 0,
+  "missing": false,
+  "other": "최순달",
+  "disamb": false
+ },
+ "2023": {
+  "title": "2023",
+  "ns": 0,
+  "missing": false,
+  "other": "2023년",
+  "disamb": false
+ },
+ "May 25": {
+  "title": "May 25",
+  "ns": 0,
+  "missing": false,
+  "other": "5월 25일",
+  "disamb": false
+ },
+ "Antarctica": {
+  "title": "Antarctica",
+  "ns": 0,
+  "missing": false,
+  "other": "남극",
+  "disamb": false
+ },
+ "Mount Paektu": {
+  "title": "Mount Paektu",
+  "ns": 0,
+  "missing": false,
+  "other": "백두산",
+  "disamb": false
+ },
+ "Cosmic ray": {
+  "title": "Cosmic ray",
+  "ns": 0,
+  "missing": false,
+  "other": "우주선 (물리)",
+  "disamb": false
+ },
+ "August 25": {
+  "title": "August 25",
+  "ns": 0,
+  "missing": false,
+  "other": "8월 25일",
+  "disamb": false
+ },
+ "2010": {
+  "title": "2010",
+  "ns": 0,
+  "missing": false,
+  "other": "2010년",
+  "disamb": false
+ },
+ "June 10": {
+  "title": "June 10",
+  "ns": 0,
+  "missing": false,
+  "other": "6월 10일",
+  "disamb": false
+ },
+ "Naro (disambiguation)": {
+  "title": "Naro (disambiguation)",
+  "ns": 0,
+  "missing": false,
+  "other": "나로",
+  "disamb": true
+ },
+ "English language": {
+  "title": "English language",
+  "ns": 0,
+  "missing": false,
+  "other": "영어",
+  "disamb": false
+ },
+ "STSat-2C": {
+  "title": "STSat-2C",
+  "ns": 0,
+  "missing": false,
+  "other": "나로과학위성",
+  "disamb": false
+ },
+ "2005": {
+  "title": "2005",
+  "ns": 0,
+  "missing": false,
+  "other": "2005년",
+  "disamb": false
+ },
+ "Russia": {
+  "title": "Russia",
+  "ns": 0,
+  "missing": false,
+  "other": "러시아",
+  "disamb": false
+ },
+ "August 19": {
+  "title": "August 19",
+  "ns": 0,
+  "missing": false,
+  "other": "8월 19일",
+  "disamb": false
+ },
+ "South Jeolla Province": {
+  "title": "South Jeolla Province",
+  "ns": 0,
+  "missing": false,
+  "other": "전라남도",
+  "disamb": false
+ },
+ "2013": {
+  "title": "2013",
+  "ns": 0,
+  "missing": false,
+  "other": "2013년",
+  "disamb": false
+ },
+ "April 19": {
+  "title": "April 19",
+  "ns": 0,
+  "missing": false,
+  "other": "4월 19일",
+  "disamb": false
+ },
+ "Soyuz-2": {
+  "title": "Soyuz-2",
+  "ns": 0,
+  "missing": false,
+  "other": "소유스-2",
+  "disamb": false
+ },
+ "June 30": {
+  "title": "June 30",
+  "ns": 0,
+  "missing": false,
+  "other": "6월 30일",
+  "disamb": false
+ },
+ "Website": {
+  "title": "Website",
+  "ns": 0,
+  "missing": false,
+  "other": "웹사이트",
+  "disamb": false
+ },
+ "Gram": {
+  "title": "Gram",
+  "ns": 0,
+  "missing": false,
+  "other": "그램",
+  "disamb": false
+ },
+ "Kilometre": {
+  "title": "Kilometre",
+  "ns": 0,
+  "missing": false,
+  "other": "킬로미터",
+  "disamb": false
+ },
+ "Mile": {
+  "title": "Mile",
+  "ns": 0,
+  "missing": false,
+  "other": "마일",
+  "disamb": false
+ },
+ "Open source": {
+  "title": "Open source",
+  "ns": 0,
+  "missing": false,
+  "other": "오픈 소스",
+  "disamb": false
+ },
+ "Lithium-ion battery": {
+  "title": "Lithium-ion battery",
+  "ns": 0,
+  "missing": false,
+  "other": "리튬 이온 전지",
+  "disamb": false
+ },
+ "Light-emitting diode": {
+  "title": "Light-emitting diode",
+  "ns": 0,
+  "missing": false,
+  "other": "발광 다이오드",
+  "disamb": false
+ },
+ "Korean Amateur Radio League": {
+  "title": "Korean Amateur Radio League",
+  "ns": 0,
+  "missing": false,
+  "other": "한국아마추어무선연맹",
+  "disamb": false
+ },
+ "International Telecommunication Union": {
+  "title": "International Telecommunication Union",
+  "ns": 0,
+  "missing": false,
+  "other": "국제전기통신연합",
+  "disamb": false
+ },
+ "2011": {
+  "title": "2011",
+  "ns": 0,
+  "missing": false,
+  "other": "2011년",
+  "disamb": false
+ },
+ "Roscosmos": {
+  "title": "Roscosmos",
+  "ns": 0,
+  "missing": false,
+  "other": "로스코스모스",
+  "disamb": false
+ },
+ "1995": {
+  "title": "1995",
+  "ns": 0,
+  "missing": false,
+  "other": "1995년",
+  "disamb": false
+ },
+ "August 5": {
+  "title": "August 5",
+  "ns": 0,
+  "missing": false,
+  "other": "8월 5일",
+  "disamb": false
+ },
+ "UTC+09:00": {
+  "title": "UTC+09:00",
+  "ns": 0,
+  "missing": false,
+  "other": "UTC+09:00",
+  "disamb": false
+ },
+ "Cape Canaveral Space Force Station": {
+  "title": "Cape Canaveral Space Force Station",
+  "ns": 0,
+  "missing": false,
+  "other": "케이프커내버럴 우주군 기지",
+  "disamb": false
+ },
+ "December 16": {
+  "title": "December 16",
+  "ns": 0,
+  "missing": false,
+  "other": "12월 16일",
+  "disamb": false
+ },
+ "Geo": {
+  "title": "Geo",
+  "ns": 0,
+  "missing": false,
+  "other": "GEO",
+  "disamb": true
+ },
+ "August 30": {
+  "title": "August 30",
+  "ns": 0,
+  "missing": false,
+  "other": "8월 30일",
+  "disamb": false
+ },
+ "Borneo": {
+  "title": "Borneo",
+  "ns": 0,
+  "missing": false,
+  "other": "보르네오섬",
+  "disamb": false
+ },
+ "Gyeonggi Province": {
+  "title": "Gyeonggi Province",
+  "ns": 0,
+  "missing": false,
+  "other": "경기도",
+  "disamb": false
+ },
+ "Yongin": {
+  "title": "Yongin",
+  "ns": 0,
+  "missing": false,
+  "other": "용인시",
+  "disamb": false
+ },
+ "Cheoin District": {
+  "title": "Cheoin District",
+  "ns": 0,
+  "missing": false,
+  "other": "처인구",
+  "disamb": false
+ },
+ "Daedeok District": {
+  "title": "Daedeok District",
+  "ns": 0,
+  "missing": false,
+  "other": "대덕구",
+  "disamb": false
+ },
+ "Yuseong District": {
+  "title": "Yuseong District",
+  "ns": 0,
+  "missing": false,
+  "other": "유성구",
+  "disamb": false
+ },
+ "ABS-7": {
+  "title": "ABS-7",
+  "ns": 0,
+  "missing": false,
+  "other": "무궁화 3호",
+  "disamb": false
+ },
+ "Communication": {
+  "title": "Communication",
+  "ns": 0,
+  "missing": false,
+  "other": "커뮤니케이션",
+  "disamb": false
+ },
+ "Hertz": {
+  "title": "Hertz",
+  "ns": 0,
+  "missing": false,
+  "other": "헤르츠",
+  "disamb": false
+ },
+ "2006": {
+  "title": "2006",
+  "ns": 0,
+  "missing": false,
+  "other": "2006년",
+  "disamb": false
+ },
+ "August 22": {
+  "title": "August 22",
+  "ns": 0,
+  "missing": false,
+  "other": "8월 22일",
+  "disamb": false
+ },
+ "Thales Alenia Space": {
+  "title": "Thales Alenia Space",
+  "ns": 0,
+  "missing": false,
+  "other": "탈레스 알레니아 스페이스",
+  "disamb": false
+ },
+ "Longitude": {
+  "title": "Longitude",
+  "ns": 0,
+  "missing": false,
+  "other": "경도",
+  "disamb": false
+ },
+ "Hawaiian Islands": {
+  "title": "Hawaiian Islands",
+  "ns": 0,
+  "missing": false,
+  "other": "하와이 제도",
+  "disamb": false
+ },
+ "Pacific Ocean": {
+  "title": "Pacific Ocean",
+  "ns": 0,
+  "missing": false,
+  "other": "태평양",
+  "disamb": false
+ },
+ "Equator": {
+  "title": "Equator",
+  "ns": 0,
+  "missing": false,
+  "other": "적도",
+  "disamb": false
+ },
+ "Ka band": {
+  "title": "Ka band",
+  "ns": 0,
+  "missing": false,
+  "other": "Ka 밴드",
+  "disamb": false
+ },
+ "Bay of Bengal": {
+  "title": "Bay of Bengal",
+  "ns": 0,
+  "missing": false,
+  "other": "벵골만",
+  "disamb": false
+ },
+ "Piracy off the coast of Somalia": {
+  "title": "Piracy off the coast of Somalia",
+  "ns": 0,
+  "missing": false,
+  "other": "소말리아의 해적",
+  "disamb": false
+ },
+ "Cheonghae Unit": {
+  "title": "Cheonghae Unit",
+  "ns": 0,
+  "missing": false,
+  "other": "소말리아 해역 호송전대",
+  "disamb": false
+ },
+ "United Arab Emirates": {
+  "title": "United Arab Emirates",
+  "ns": 0,
+  "missing": false,
+  "other": "아랍에미리트",
+  "disamb": false
+ },
+ "Somalia": {
+  "title": "Somalia",
+  "ns": 0,
+  "missing": false,
+  "other": "소말리아",
+  "disamb": false
+ },
+ "Australia": {
+  "title": "Australia",
+  "ns": 0,
+  "missing": false,
+  "other": "오스트레일리아",
+  "disamb": false
+ },
+ "Wideband Global SATCOM": {
+  "title": "Wideband Global SATCOM",
+  "ns": 0,
+  "missing": false,
+  "other": "WGS 위성",
+  "disamb": false
+ },
+ "Chollian": {
+  "title": "Chollian",
+  "ns": 0,
+  "missing": false,
+  "other": "천리안 (위성)",
+  "disamb": false
+ },
+ "Koreasat 1": {
+  "title": "Koreasat 1",
+  "ns": 0,
+  "missing": false,
+  "other": "무궁화 1호",
+  "disamb": false
+ }
+}

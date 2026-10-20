@@ -1,0 +1,2872 @@
+{
+ "일본 우주항공연구개발기구": {
+  "title": "일본 우주항공연구개발기구",
+  "ns": 0,
+  "missing": false,
+  "other": "JAXA",
+  "disamb": false
+ },
+ "NASA": {
+  "title": "미국 항공 우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "NASA",
+  "disamb": false
+ },
+ "태양": {
+  "title": "태양",
+  "ns": 0,
+  "missing": false,
+  "other": "Sun",
+  "disamb": false
+ },
+ "COSPAR ID": {
+  "title": "국제 식별번호",
+  "ns": 0,
+  "missing": false,
+  "other": "International Designator",
+  "disamb": false
+ },
+ "위성번호 목록": {
+  "title": "위성 목록 번호",
+  "ns": 0,
+  "missing": false,
+  "other": "Satellite Catalog Number",
+  "disamb": false
+ },
+ "2006년": {
+  "title": "2006년",
+  "ns": 0,
+  "missing": false,
+  "other": "2006",
+  "disamb": false
+ },
+ "9월 22일": {
+  "title": "9월 22일",
+  "ns": 0,
+  "missing": false,
+  "other": "September 22",
+  "disamb": false
+ },
+ "M-V": {
+  "title": "M-V",
+  "ns": 0,
+  "missing": false,
+  "other": "M-V",
+  "disamb": false
+ },
+ "우치노우라 우주 센터": {
+  "title": "우치노우라 우주공간 관측소",
+  "ns": 0,
+  "missing": false,
+  "other": "Uchinoura Space Center",
+  "disamb": false
+ },
+ "웹사이트": {
+  "title": "웹사이트",
+  "ns": 0,
+  "missing": false,
+  "other": "Website",
+  "disamb": false
+ },
+ "무게": {
+  "title": "무게",
+  "ns": 0,
+  "missing": false,
+  "other": "Weight",
+  "disamb": false
+ },
+ "궤도": {
+  "title": "궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbit",
+  "disamb": false
+ },
+ "지구 주회 궤도": {
+  "title": "지구 주회 궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Geocentric orbit",
+  "disamb": false
+ },
+ "장축단": {
+  "title": "장축단",
+  "ns": 0,
+  "missing": false,
+  "other": "Apsis",
+  "disamb": false
+ },
+ "궤도 경사": {
+  "title": "궤도 경사",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital inclination",
+  "disamb": false
+ },
+ "일본어": {
+  "title": "일본어",
+  "ns": 0,
+  "missing": false,
+  "other": "Japanese language",
+  "disamb": false
+ },
+ "미국": {
+  "title": "미국",
+  "ns": 0,
+  "missing": false,
+  "other": "United States",
+  "disamb": false
+ },
+ "영국": {
+  "title": "영국",
+  "ns": 0,
+  "missing": false,
+  "other": "United Kingdom",
+  "disamb": false
+ },
+ "요코": {
+  "title": "요코",
+  "ns": 0,
+  "missing": false,
+  "other": "Yoko",
+  "disamb": true
+ },
+ "2005년": {
+  "title": "2005년",
+  "ns": 0,
+  "missing": false,
+  "other": "2005",
+  "disamb": false
+ },
+ "협정 세계시": {
+  "title": "협정 세계시",
+  "ns": 0,
+  "missing": false,
+  "other": "Coordinated Universal Time",
+  "disamb": false
+ },
+ "명암 경계선": {
+  "title": "명암 경계선",
+  "ns": 0,
+  "missing": false,
+  "other": "Terminator (solar)",
+  "disamb": false
+ },
+ "노르웨이": {
+  "title": "노르웨이",
+  "ns": 0,
+  "missing": false,
+  "other": "Norway",
+  "disamb": false
+ },
+ "스발바르 제도": {
+  "title": "스발바르 제도",
+  "ns": 0,
+  "missing": false,
+  "other": "Svalbard",
+  "disamb": false
+ },
+ "롱이어비엔": {
+  "title": "롱이어비엔",
+  "ns": 0,
+  "missing": false,
+  "other": "Longyearbyen",
+  "disamb": false
+ },
+ "자기권": {
+  "title": "자기권",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetosphere",
+  "disamb": false
+ },
+ "광학 망원경": {
+  "title": "광학망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Optical telescope",
+  "disamb": false
+ },
+ "자외선": {
+  "title": "자외선",
+  "ns": 0,
+  "missing": false,
+  "other": "Ultraviolet",
+  "disamb": false
+ },
+ "X선": {
+  "title": "엑스선",
+  "ns": 0,
+  "missing": false,
+  "other": "X-ray",
+  "disamb": false
+ },
+ "각분해능": {
+  "title": "분해능",
+  "ns": 0,
+  "missing": false,
+  "other": "Angular resolution",
+  "disamb": false
+ },
+ "각초": {
+  "title": "초 (각도)",
+  "ns": 0,
+  "missing": false,
+  "other": "Arcsecond",
+  "disamb": false
+ },
+ "쌀알무늬": {
+  "title": "쌀알무늬",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar granule",
+  "disamb": false
+ },
+ "SOHO": {
+  "title": "태양 및 태양권 관측위성",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar and Heliospheric Observatory",
+  "disamb": false
+ },
+ "코로나 (천문학)": {
+  "title": "코로나 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar corona",
+  "disamb": false
+ },
+ "하버드 대학교 천문대": {
+  "title": "하버드 대학교 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "Harvard College Observatory",
+  "disamb": false
+ },
+ "국립천문대": {
+  "title": "일본 국립천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "National Astronomical Observatory of Japan",
+  "disamb": false
+ },
+ "JAXA": {
+  "title": "일본 우주항공연구개발기구",
+  "ns": 0,
+  "missing": false,
+  "other": "JAXA",
+  "disamb": false
+ },
+ "분광기": {
+  "title": "분광기",
+  "ns": 0,
+  "missing": false,
+  "other": "Spectrometer",
+  "disamb": false
+ },
+ "소비에트 연방": {
+  "title": "소련",
+  "ns": 0,
+  "missing": false,
+  "other": "Soviet Union",
+  "disamb": false
+ },
+ "금성": {
+  "title": "금성",
+  "ns": 0,
+  "missing": false,
+  "other": "Venus",
+  "disamb": false
+ },
+ "1972년": {
+  "title": "1972년",
+  "ns": 0,
+  "missing": false,
+  "other": "1972",
+  "disamb": false
+ },
+ "3월 17일": {
+  "title": "3월 17일",
+  "ns": 0,
+  "missing": false,
+  "other": "March 17",
+  "disamb": false
+ },
+ "바이코누르 우주 기지": {
+  "title": "바이코누르 우주 기지",
+  "ns": 0,
+  "missing": false,
+  "other": "Baikonur Cosmodrome",
+  "disamb": false
+ },
+ "7월 22일": {
+  "title": "7월 22일",
+  "ns": 0,
+  "missing": false,
+  "other": "July 22",
+  "disamb": false
+ },
+ "킬로그램": {
+  "title": "킬로그램",
+  "ns": 0,
+  "missing": false,
+  "other": "Kilogram",
+  "disamb": false
+ },
+ "태양 주회 궤도": {
+  "title": "태양 주회 궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Heliocentric orbit",
+  "disamb": false
+ },
+ "러시아어": {
+  "title": "러시아어",
+  "ns": 0,
+  "missing": false,
+  "other": "Russian language",
+  "disamb": false
+ },
+ "소련": {
+  "title": "소련",
+  "ns": 0,
+  "missing": false,
+  "other": "Soviet Union",
+  "disamb": false
+ },
+ "베네라 계획": {
+  "title": "베네라 계획",
+  "ns": 0,
+  "missing": false,
+  "other": "Venera program",
+  "disamb": false
+ },
+ "우주 탐사선": {
+  "title": "우주 탐사선",
+  "ns": 0,
+  "missing": false,
+  "other": "Space probe",
+  "disamb": false
+ },
+ "고도계": {
+  "title": "고도계",
+  "ns": 0,
+  "missing": false,
+  "other": "Altimeter",
+  "disamb": false
+ },
+ "4월": {
+  "title": "4월",
+  "ns": 0,
+  "missing": false,
+  "other": "April",
+  "disamb": false
+ },
+ "7월": {
+  "title": "7월",
+  "ns": 0,
+  "missing": false,
+  "other": "July",
+  "disamb": false
+ },
+ "우주선 (물리)": {
+  "title": "우주선 (물리)",
+  "ns": 0,
+  "missing": false,
+  "other": "Cosmic ray",
+  "disamb": false
+ },
+ "태양풍": {
+  "title": "태양풍",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar wind",
+  "disamb": false
+ },
+ "베네라 7호": {
+  "title": "베네라 7호",
+  "ns": 0,
+  "missing": false,
+  "other": "Venera 7",
+  "disamb": false
+ },
+ "광도계": {
+  "title": "광도계",
+  "ns": 0,
+  "missing": false,
+  "other": "Photometer",
+  "disamb": false
+ },
+ "우라늄": {
+  "title": "우라늄",
+  "ns": 0,
+  "missing": false,
+  "other": "Uranium",
+  "disamb": false
+ },
+ "토륨": {
+  "title": "토륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Thorium",
+  "disamb": false
+ },
+ "칼륨": {
+  "title": "칼륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Potassium",
+  "disamb": false
+ },
+ "화강암": {
+  "title": "화강암",
+  "ns": 0,
+  "missing": false,
+  "other": "Granite",
+  "disamb": false
+ },
+ "트리톤 (위성)": {
+  "title": "트리톤 (위성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Triton (moon)",
+  "disamb": false
+ },
+ "질소": {
+  "title": "질소",
+  "ns": 0,
+  "missing": false,
+  "other": "Nitrogen",
+  "disamb": false
+ },
+ "NIAC": {
+  "title": "NIAC",
+  "ns": 0,
+  "missing": false,
+  "other": "NASA Institute for Advanced Concepts",
+  "disamb": false
+ },
+ "JPL": {
+  "title": "제트추진연구소",
+  "ns": 0,
+  "missing": false,
+  "other": "Jet Propulsion Laboratory",
+  "disamb": false
+ },
+ "중국국가항천국": {
+  "title": "중국 국가항천국",
+  "ns": 0,
+  "missing": false,
+  "other": "China National Space Administration",
+  "disamb": false
+ },
+ "2011년": {
+  "title": "2011년",
+  "ns": 0,
+  "missing": false,
+  "other": "2011",
+  "disamb": false
+ },
+ "11월 8일": {
+  "title": "11월 8일",
+  "ns": 0,
+  "missing": false,
+  "other": "November 8",
+  "disamb": false
+ },
+ "2012년": {
+  "title": "2012년",
+  "ns": 0,
+  "missing": false,
+  "other": "2012",
+  "disamb": false
+ },
+ "1월 15일": {
+  "title": "1월 15일",
+  "ns": 0,
+  "missing": false,
+  "other": "January 15",
+  "disamb": false
+ },
+ "태양 전지": {
+  "title": "태양 전지",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar cell",
+  "disamb": false
+ },
+ "화성 주회 궤도": {
+  "title": "화성 주회 궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Areocentric orbit",
+  "disamb": false
+ },
+ "킬로미터": {
+  "title": "킬로미터",
+  "ns": 0,
+  "missing": false,
+  "other": "Kilometre",
+  "disamb": false
+ },
+ "도 (각도)": {
+  "title": "도 (각도)",
+  "ns": 0,
+  "missing": false,
+  "other": "Degree (angle)",
+  "disamb": false
+ },
+ "중국어": {
+  "title": "중국어",
+  "ns": 0,
+  "missing": false,
+  "other": "Chinese language",
+  "disamb": false
+ },
+ "영어": {
+  "title": "영어",
+  "ns": 0,
+  "missing": false,
+  "other": "English language",
+  "disamb": false
+ },
+ "화성": {
+  "title": "화성",
+  "ns": 0,
+  "missing": false,
+  "other": "Mars",
+  "disamb": false
+ },
+ "러시아": {
+  "title": "러시아",
+  "ns": 0,
+  "missing": false,
+  "other": "Russia",
+  "disamb": false
+ },
+ "포보스 그룬트": {
+  "title": "포보스 그룬트",
+  "ns": 0,
+  "missing": false,
+  "other": "Fobos-Grunt",
+  "disamb": false
+ },
+ "전리층": {
+  "title": "전리층",
+  "ns": 0,
+  "missing": false,
+  "other": "Ionosphere",
+  "disamb": false
+ },
+ "자기장": {
+  "title": "자기장",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetic field",
+  "disamb": false
+ },
+ "간체자": {
+  "title": "간체자",
+  "ns": 0,
+  "missing": false,
+  "other": "Simplified Chinese characters",
+  "disamb": false
+ },
+ "정체자": {
+  "title": "정체자",
+  "ns": 0,
+  "missing": false,
+  "other": "Traditional Chinese characters",
+  "disamb": false
+ },
+ "한어 병음": {
+  "title": "한어병음",
+  "ns": 0,
+  "missing": false,
+  "other": "Pinyin",
+  "disamb": false
+ },
+ "반딧불이": {
+  "title": "반딧불이과",
+  "ns": 0,
+  "missing": false,
+  "other": "Firefly",
+  "disamb": false
+ },
+ "러시아 연방 우주국": {
+  "title": "로스코스모스",
+  "ns": 0,
+  "missing": false,
+  "other": "Roscosmos",
+  "disamb": false
+ },
+ "아나톨리 페르미노프": {
+  "title": "아나톨리 페르미노프",
+  "ns": 0,
+  "missing": false,
+  "other": "Anatoly Perminov",
+  "disamb": false
+ },
+ "엄폐": {
+  "title": "엄폐",
+  "ns": 0,
+  "missing": false,
+  "other": "Occultation",
+  "disamb": false
+ },
+ "모래폭풍": {
+  "title": "모래폭풍",
+  "ns": 0,
+  "missing": false,
+  "other": "Dust storm",
+  "disamb": false
+ },
+ "플라스마": {
+  "title": "플라스마",
+  "ns": 0,
+  "missing": false,
+  "other": "Plasma (physics)",
+  "disamb": false
+ },
+ "전자": {
+  "title": "전자",
+  "ns": 0,
+  "missing": false,
+  "other": "Electron",
+  "disamb": false
+ },
+ "이온": {
+  "title": "이온",
+  "ns": 0,
+  "missing": false,
+  "other": "Ion",
+  "disamb": false
+ },
+ "질량 분석": {
+  "title": "질량 분석법",
+  "ns": 0,
+  "missing": false,
+  "other": "Mass spectrometry",
+  "disamb": false
+ },
+ "포보스 (위성)": {
+  "title": "포보스 (위성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Phobos (moon)",
+  "disamb": false
+ },
+ "제니트 (로켓)": {
+  "title": "제니트 로켓",
+  "ns": 0,
+  "missing": false,
+  "other": "Zenit (rocket family)",
+  "disamb": false
+ },
+ "접시 안테나": {
+  "title": "파라볼라 안테나",
+  "ns": 0,
+  "missing": false,
+  "other": "Parabolic antenna",
+  "disamb": false
+ },
+ "디지털 객체 식별자": {
+  "title": "디지털 객체 식별자",
+  "ns": 0,
+  "missing": false,
+  "other": "Digital object identifier",
+  "disamb": false
+ },
+ "미국 항공우주국": {
+  "title": "미국 항공 우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "NASA",
+  "disamb": false
+ },
+ "하틀리 2 혜성": {
+  "title": "하틀리 2 혜성",
+  "ns": 0,
+  "missing": false,
+  "other": "103P/Hartley",
+  "disamb": false
+ },
+ "전력": {
+  "title": "전력",
+  "ns": 0,
+  "missing": false,
+  "other": "Electric power",
+  "disamb": false
+ },
+ "딥 임팩트 (우주선)": {
+  "title": "딥 임팩트 (우주선)",
+  "ns": 0,
+  "missing": false,
+  "other": "Deep Impact (spacecraft)",
+  "disamb": false
+ },
+ "메릴랜드 대학교": {
+  "title": "메릴랜드 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "University of Maryland, College Park",
+  "disamb": false
+ },
+ "외계 행성": {
+  "title": "외계 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Exoplanet",
+  "disamb": false
+ },
+ "혜성": {
+  "title": "혜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Comet",
+  "disamb": false
+ },
+ "템펠 1 혜성": {
+  "title": "템펠 1 혜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Tempel 1",
+  "disamb": false
+ },
+ "달 광물 지도 작성기": {
+  "title": "달 광물 지도 작성기",
+  "ns": 0,
+  "missing": false,
+  "other": "Moon Mineralogy Mapper",
+  "disamb": false
+ },
+ "분광학": {
+  "title": "분광학",
+  "ns": 0,
+  "missing": false,
+  "other": "Spectroscopy",
+  "disamb": false
+ },
+ "항성": {
+  "title": "항성",
+  "ns": 0,
+  "missing": false,
+  "other": "Star",
+  "disamb": false
+ },
+ "별자리": {
+  "title": "별자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Constellation",
+  "disamb": false
+ },
+ "우주 거리 사다리": {
+  "title": "우주 거리 사다리",
+  "ns": 0,
+  "missing": false,
+  "other": "Cosmic distance ladder",
+  "disamb": false
+ },
+ "광년": {
+  "title": "광년",
+  "ns": 0,
+  "missing": false,
+  "other": "Light-year",
+  "disamb": false
+ },
+ "행성": {
+  "title": "행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Planet",
+  "disamb": false
+ },
+ "XO-2": {
+  "title": "XO-2",
+  "ns": 0,
+  "missing": false,
+  "other": "XO-2",
+  "disamb": false
+ },
+ "살쾡이자리": {
+  "title": "살쾡이자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Lynx (constellation)",
+  "disamb": false
+ },
+ "XO-2b": {
+  "title": "XO-2b",
+  "ns": 0,
+  "missing": false,
+  "other": "XO-2Nb",
+  "disamb": false
+ },
+ "글리제 436": {
+  "title": "글리제 436",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 436",
+  "disamb": false
+ },
+ "사자자리": {
+  "title": "사자자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Leo (constellation)",
+  "disamb": false
+ },
+ "글리제 436 b": {
+  "title": "글리제 436 b",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 436 b",
+  "disamb": false
+ },
+ "목동자리": {
+  "title": "목동자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Boötes",
+  "disamb": false
+ },
+ "HAT-P-4b": {
+  "title": "HAT-P-4 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HAT-P-4b",
+  "disamb": false
+ },
+ "허큘리스자리": {
+  "title": "허큘리스자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Hercules (constellation)",
+  "disamb": false
+ },
+ "TrES-3b": {
+  "title": "TrES-3b",
+  "ns": 0,
+  "missing": false,
+  "other": "TrES-3b",
+  "disamb": false
+ },
+ "WASP-3": {
+  "title": "WASP-3",
+  "ns": 0,
+  "missing": false,
+  "other": "WASP-3",
+  "disamb": false
+ },
+ "거문고자리": {
+  "title": "거문고자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Lyra",
+  "disamb": false
+ },
+ "WASP-3b": {
+  "title": "WASP-3b",
+  "ns": 0,
+  "missing": false,
+  "other": "WASP-3b",
+  "disamb": false
+ },
+ "용자리": {
+  "title": "용자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Draco (constellation)",
+  "disamb": false
+ },
+ "TrES-2b": {
+  "title": "TrES-2b",
+  "ns": 0,
+  "missing": false,
+  "other": "TrES-2b",
+  "disamb": false
+ },
+ "HAT-P-7b": {
+  "title": "HAT-P-7 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HAT-P-7b",
+  "disamb": false
+ },
+ "백조자리": {
+  "title": "백조자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Cygnus (constellation)",
+  "disamb": false
+ },
+ "드라이아이스": {
+  "title": "드라이아이스",
+  "ns": 0,
+  "missing": false,
+  "other": "Dry ice",
+  "disamb": false
+ },
+ "패서디나 (캘리포니아주)": {
+  "title": "패서디나 (캘리포니아주)",
+  "ns": 0,
+  "missing": false,
+  "other": "Pasadena, California",
+  "disamb": false
+ },
+ "아령 성운": {
+  "title": "아령 성운",
+  "ns": 0,
+  "missing": false,
+  "other": "Dumbbell Nebula",
+  "disamb": false
+ },
+ "망상 성운": {
+  "title": "망상 성운",
+  "ns": 0,
+  "missing": false,
+  "other": "Veil Nebula",
+  "disamb": false
+ },
+ "소용돌이 은하": {
+  "title": "소용돌이 은하",
+  "ns": 0,
+  "missing": false,
+  "other": "Whirlpool Galaxy",
+  "disamb": false
+ },
+ "유럽 우주국": {
+  "title": "유럽 우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "European Space Agency",
+  "disamb": false
+ },
+ "EADS 아스트리움": {
+  "title": "EADS 아스트리움",
+  "ns": 0,
+  "missing": false,
+  "other": "Astrium",
+  "disamb": false
+ },
+ "프랑스": {
+  "title": "프랑스",
+  "ns": 0,
+  "missing": false,
+  "other": "France",
+  "disamb": false
+ },
+ "11월 9일": {
+  "title": "11월 9일",
+  "ns": 0,
+  "missing": false,
+  "other": "November 9",
+  "disamb": false
+ },
+ "4월 11일": {
+  "title": "4월 11일",
+  "ns": 0,
+  "missing": false,
+  "other": "April 11",
+  "disamb": false
+ },
+ "유럽": {
+  "title": "유럽",
+  "ns": 0,
+  "missing": false,
+  "other": "Europe",
+  "disamb": false
+ },
+ "카자흐스탄": {
+  "title": "카자흐스탄",
+  "ns": 0,
+  "missing": false,
+  "other": "Kazakhstan",
+  "disamb": false
+ },
+ "태양계": {
+  "title": "태양계",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar System",
+  "disamb": false
+ },
+ "지구": {
+  "title": "지구",
+  "ns": 0,
+  "missing": false,
+  "other": "Earth",
+  "disamb": false
+ },
+ "4월 12일": {
+  "title": "4월 12일",
+  "ns": 0,
+  "missing": false,
+  "other": "April 12",
+  "disamb": false
+ },
+ "제트 추진 연구소": {
+  "title": "제트추진연구소",
+  "ns": 0,
+  "missing": false,
+  "other": "Jet Propulsion Laboratory",
+  "disamb": false
+ },
+ "1962년": {
+  "title": "1962년",
+  "ns": 0,
+  "missing": false,
+  "other": "1962",
+  "disamb": false
+ },
+ "8월 27일": {
+  "title": "8월 27일",
+  "ns": 0,
+  "missing": false,
+  "other": "August 27",
+  "disamb": false
+ },
+ "케이프커내버럴": {
+  "title": "케이프 커내버럴",
+  "ns": 0,
+  "missing": false,
+  "other": "Cape Canaveral",
+  "disamb": false
+ },
+ "1963년": {
+  "title": "1963년",
+  "ns": 0,
+  "missing": false,
+  "other": "1963",
+  "disamb": false
+ },
+ "1월 3일": {
+  "title": "1월 3일",
+  "ns": 0,
+  "missing": false,
+  "other": "January 3",
+  "disamb": false
+ },
+ "매리너 계획": {
+  "title": "매리너 계획",
+  "ns": 0,
+  "missing": false,
+  "other": "Mariner program",
+  "disamb": false
+ },
+ "매리너 1호": {
+  "title": "매리너 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Mariner 1",
+  "disamb": false
+ },
+ "금성의 대기": {
+  "title": "금성의 대기",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmosphere of Venus",
+  "disamb": false
+ },
+ "미립자": {
+  "title": "미세먼지",
+  "ns": 0,
+  "missing": false,
+  "other": "Particulate matter",
+  "disamb": false
+ },
+ "1964년": {
+  "title": "1964년",
+  "ns": 0,
+  "missing": false,
+  "other": "1964",
+  "disamb": false
+ },
+ "11월 28일": {
+  "title": "11월 28일",
+  "ns": 0,
+  "missing": false,
+  "other": "November 28",
+  "disamb": false
+ },
+ "케이프커내버럴 공군 기지": {
+  "title": "케이프커내버럴 우주군 기지",
+  "ns": 0,
+  "missing": false,
+  "other": "Cape Canaveral Space Force Station",
+  "disamb": false
+ },
+ "1967년": {
+  "title": "1967년",
+  "ns": 0,
+  "missing": false,
+  "other": "1967",
+  "disamb": false
+ },
+ "12월 21일": {
+  "title": "12월 21일",
+  "ns": 0,
+  "missing": false,
+  "other": "December 21",
+  "disamb": false
+ },
+ "긴반지름": {
+  "title": "긴반지름",
+  "ns": 0,
+  "missing": false,
+  "other": "Semi-major axis",
+  "disamb": false
+ },
+ "궤도 이심률": {
+  "title": "궤도 이심률",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital eccentricity",
+  "disamb": false
+ },
+ "매리너 3호": {
+  "title": "매리너 3호",
+  "ns": 0,
+  "missing": false,
+  "other": "Mariner 3",
+  "disamb": false
+ },
+ "화성 탐사": {
+  "title": "화성 탐사",
+  "ns": 0,
+  "missing": false,
+  "other": "Exploration of Mars",
+  "disamb": false
+ },
+ "아틀라스 로켓": {
+  "title": "아틀라스 로켓",
+  "ns": 0,
+  "missing": false,
+  "other": "Atlas (rocket family)",
+  "disamb": false
+ },
+ "1965년": {
+  "title": "1965년",
+  "ns": 0,
+  "missing": false,
+  "other": "1965",
+  "disamb": false
+ },
+ "7월 14일": {
+  "title": "7월 14일",
+  "ns": 0,
+  "missing": false,
+  "other": "July 14",
+  "disamb": false
+ },
+ "7월 15일": {
+  "title": "7월 15일",
+  "ns": 0,
+  "missing": false,
+  "other": "July 15",
+  "disamb": false
+ },
+ "UTC": {
+  "title": "협정 세계시",
+  "ns": 0,
+  "missing": false,
+  "other": "Coordinated Universal Time",
+  "disamb": false
+ },
+ "인도우주연구기구": {
+  "title": "인도우주연구기구",
+  "ns": 0,
+  "missing": false,
+  "other": "ISRO",
+  "disamb": false
+ },
+ "브라운 대학교": {
+  "title": "브라운 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "Brown University",
+  "disamb": false
+ },
+ "디스커버리 계획": {
+  "title": "디스커버리 프로그램",
+  "ns": 0,
+  "missing": false,
+  "other": "Discovery Program",
+  "disamb": false
+ },
+ "사티시 다완 우주 센터": {
+  "title": "사티시 다완 우주 센터",
+  "ns": 0,
+  "missing": false,
+  "other": "Satish Dhawan Space Centre",
+  "disamb": false
+ },
+ "PSLV": {
+  "title": "PSLV",
+  "ns": 0,
+  "missing": false,
+  "other": "Polar Satellite Launch Vehicle",
+  "disamb": false
+ },
+ "적외선": {
+  "title": "적외선",
+  "ns": 0,
+  "missing": false,
+  "other": "Infrared",
+  "disamb": false
+ },
+ "달의 물": {
+  "title": "달의 물",
+  "ns": 0,
+  "missing": false,
+  "other": "Lunar water",
+  "disamb": false
+ },
+ "하와이 대학교": {
+  "title": "하와이 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "University of Hawaiʻi",
+  "disamb": false
+ },
+ "테네시 대학교": {
+  "title": "테네시 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "University of Tennessee",
+  "disamb": false
+ },
+ "SAIC": {
+  "title": "SAIC",
+  "ns": 0,
+  "missing": false,
+  "other": "SAIC",
+  "disamb": true
+ },
+ "11월 5일": {
+  "title": "11월 5일",
+  "ns": 0,
+  "missing": false,
+  "other": "November 5",
+  "disamb": false
+ },
+ "매리너 4호": {
+  "title": "매리너 4호",
+  "ns": 0,
+  "missing": false,
+  "other": "Mariner 4",
+  "disamb": false
+ },
+ "미국 항공 우주국": {
+  "title": "미국 항공 우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "NASA",
+  "disamb": false
+ },
+ "위성 목록 번호": {
+  "title": "위성 목록 번호",
+  "ns": 0,
+  "missing": false,
+  "other": "Satellite Catalog Number",
+  "disamb": false
+ },
+ "미쓰비시 전기": {
+  "title": "미쓰비시 전기",
+  "ns": 0,
+  "missing": false,
+  "other": "Mitsubishi Electric",
+  "disamb": false
+ },
+ "우치노우라 우주공간 관측소": {
+  "title": "우치노우라 우주공간 관측소",
+  "ns": 0,
+  "missing": false,
+  "other": "Uchinoura Space Center",
+  "disamb": false
+ },
+ "우주과학연구소": {
+  "title": "우주과학연구소",
+  "ns": 0,
+  "missing": false,
+  "other": "Institute of Space and Astronautical Science",
+  "disamb": false
+ },
+ "태양 동기 궤도": {
+  "title": "태양 동기 궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Sun-synchronous orbit",
+  "disamb": false
+ },
+ "공전 주기": {
+  "title": "공전 주기",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital period",
+  "disamb": false
+ },
+ "TIMED": {
+  "title": "TIMED",
+  "ns": 0,
+  "missing": false,
+  "other": "TIMED",
+  "disamb": false
+ },
+ "STEREO": {
+  "title": "STEREO",
+  "ns": 0,
+  "missing": false,
+  "other": "STEREO",
+  "disamb": false
+ },
+ "요우코우": {
+  "title": "요우코우",
+  "ns": 0,
+  "missing": false,
+  "other": "Yohkoh",
+  "disamb": false
+ },
+ "일본": {
+  "title": "일본",
+  "ns": 0,
+  "missing": false,
+  "other": "Japan",
+  "disamb": false
+ },
+ "일본 표준시": {
+  "title": "일본 표준시",
+  "ns": 0,
+  "missing": false,
+  "other": "Japan Standard Time",
+  "disamb": false
+ },
+ "스발바르 위성 기지국": {
+  "title": "스발바르 위성 기지국",
+  "ns": 0,
+  "missing": false,
+  "other": "Svalbard Satellite Station",
+  "disamb": false
+ },
+ "콩스베르그 그루펜": {
+  "title": "콩스베르그 그루펜",
+  "ns": 0,
+  "missing": false,
+  "other": "Kongsberg Gruppen",
+  "disamb": false
+ },
+ "텔레노르": {
+  "title": "텔레노르",
+  "ns": 0,
+  "missing": false,
+  "other": "Telenor",
+  "disamb": false
+ },
+ "하르스타": {
+  "title": "하르스타",
+  "ns": 0,
+  "missing": false,
+  "other": "Harstad Municipality",
+  "disamb": false
+ },
+ "극자외선": {
+  "title": "극자외선",
+  "ns": 0,
+  "missing": false,
+  "other": "Extreme ultraviolet",
+  "disamb": false
+ },
+ "엑스선": {
+  "title": "엑스선",
+  "ns": 0,
+  "missing": false,
+  "other": "X-ray",
+  "disamb": false
+ },
+ "광학망원경": {
+  "title": "광학망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Optical telescope",
+  "disamb": false
+ },
+ "분해능": {
+  "title": "분해능",
+  "ns": 0,
+  "missing": false,
+  "other": "Angular resolution",
+  "disamb": false
+ },
+ "시야": {
+  "title": "시야",
+  "ns": 0,
+  "missing": false,
+  "other": "Field of view",
+  "disamb": false
+ },
+ "기본점": {
+  "title": "기본점",
+  "ns": 0,
+  "missing": false,
+  "other": "Cardinal point (optics)",
+  "disamb": false
+ },
+ "팰로앨토": {
+  "title": "팰로앨토",
+  "ns": 0,
+  "missing": false,
+  "other": "Palo Alto, California",
+  "disamb": false
+ },
+ "태양 및 태양권 관측위성": {
+  "title": "태양 및 태양권 관측위성",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar and Heliospheric Observatory",
+  "disamb": false
+ },
+ "스미스소니안 천체물리 천문대": {
+  "title": "스미스소니안 천체물리 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "Smithsonian Astrophysical Observatory",
+  "disamb": false
+ },
+ "일본 국립천문대": {
+  "title": "일본 국립천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "National Astronomical Observatory of Japan",
+  "disamb": false
+ },
+ "라보츠킨": {
+  "title": "라보츠킨",
+  "ns": 0,
+  "missing": false,
+  "other": "Lavochkin",
+  "disamb": false
+ },
+ "역기점": {
+  "title": "역기점",
+  "ns": 0,
+  "missing": false,
+  "other": "Epoch (astronomy)",
+  "disamb": false
+ },
+ "코스모스 482": {
+  "title": "코스모스 482",
+  "ns": 0,
+  "missing": false,
+  "other": "Kosmos 482",
+  "disamb": false
+ },
+ "소련 우주 프로그램": {
+  "title": "소련 우주 프로그램",
+  "ns": 0,
+  "missing": false,
+  "other": "Soviet space program",
+  "disamb": false
+ },
+ "질량 분석법": {
+  "title": "질량 분석법",
+  "ns": 0,
+  "missing": false,
+  "other": "Mass spectrometry",
+  "disamb": false
+ },
+ "가속도계": {
+  "title": "가속도계",
+  "ns": 0,
+  "missing": false,
+  "other": "Accelerometer",
+  "disamb": false
+ },
+ "황화 카드뮴": {
+  "title": "황화 카드뮴",
+  "ns": 0,
+  "missing": false,
+  "other": "Cadmium sulfide",
+  "disamb": false
+ },
+ "감마선": {
+  "title": "감마선",
+  "ns": 0,
+  "missing": false,
+  "other": "Gamma ray",
+  "disamb": false
+ },
+ "전파 고도계": {
+  "title": "전파 고도계",
+  "ns": 0,
+  "missing": false,
+  "other": "Radar altimeter",
+  "disamb": false
+ },
+ "라디오": {
+  "title": "라디오",
+  "ns": 0,
+  "missing": false,
+  "other": "Radio",
+  "disamb": false
+ },
+ "도플러 효과": {
+  "title": "도플러 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Doppler effect",
+  "disamb": false
+ },
+ "착륙선": {
+  "title": "착륙선",
+  "ns": 0,
+  "missing": false,
+  "other": "Lander (spacecraft)",
+  "disamb": false
+ },
+ "해왕성의 위성": {
+  "title": "해왕성의 위성",
+  "ns": 0,
+  "missing": false,
+  "other": "Moons of Neptune",
+  "disamb": false
+ },
+ "해왕성": {
+  "title": "해왕성",
+  "ns": 0,
+  "missing": false,
+  "other": "Neptune",
+  "disamb": false
+ },
+ "고체 질소": {
+  "title": "고체 질소",
+  "ns": 0,
+  "missing": false,
+  "other": "Solid nitrogen",
+  "disamb": false
+ },
+ "보이저 2호": {
+  "title": "보이저 2호",
+  "ns": 0,
+  "missing": false,
+  "other": "Voyager 2",
+  "disamb": false
+ },
+ "얼음화산": {
+  "title": "얼음화산",
+  "ns": 0,
+  "missing": false,
+  "other": "Cryovolcano",
+  "disamb": false
+ },
+ "로켓 연료": {
+  "title": "로켓 연료",
+  "ns": 0,
+  "missing": false,
+  "other": "Rocket propellant",
+  "disamb": false
+ },
+ "광업": {
+  "title": "광업",
+  "ns": 0,
+  "missing": false,
+  "other": "Mining",
+  "disamb": false
+ },
+ "중력": {
+  "title": "중력",
+  "ns": 0,
+  "missing": false,
+  "other": "Gravity",
+  "disamb": false
+ },
+ "간헐천": {
+  "title": "간헐천",
+  "ns": 0,
+  "missing": false,
+  "other": "Geyser",
+  "disamb": false
+ },
+ "중국 국가항천국": {
+  "title": "중국 국가항천국",
+  "ns": 0,
+  "missing": false,
+  "other": "China National Space Administration",
+  "disamb": false
+ },
+ "지구 저궤도": {
+  "title": "지구 저궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Low Earth orbit",
+  "disamb": false
+ },
+ "한어병음": {
+  "title": "한어병음",
+  "ns": 0,
+  "missing": false,
+  "other": "Pinyin",
+  "disamb": false
+ },
+ "샘플 리턴 미션": {
+  "title": "샘플 리턴 미션",
+  "ns": 0,
+  "missing": false,
+  "other": "Sample-return mission",
+  "disamb": false
+ },
+ "톈원 1호": {
+  "title": "톈원 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Tianwen-1",
+  "disamb": false
+ },
+ "주룽호": {
+  "title": "주룽호",
+  "ns": 0,
+  "missing": false,
+  "other": "Zhurong (rover)",
+  "disamb": false
+ },
+ "반딧불이과": {
+  "title": "반딧불이과",
+  "ns": 0,
+  "missing": false,
+  "other": "Firefly",
+  "disamb": false
+ },
+ "동음이의어": {
+  "title": "동음이의어",
+  "ns": 0,
+  "missing": false,
+  "other": "Homophone",
+  "disamb": false
+ },
+ "로스코스모스": {
+  "title": "로스코스모스",
+  "ns": 0,
+  "missing": false,
+  "other": "Roscosmos",
+  "disamb": false
+ },
+ "자기계": {
+  "title": "자기계",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetometer",
+  "disamb": false
+ },
+ "우크라이나": {
+  "title": "우크라이나",
+  "ns": 0,
+  "missing": false,
+  "other": "Ukraine",
+  "disamb": false
+ },
+ "제니트 로켓": {
+  "title": "제니트 로켓",
+  "ns": 0,
+  "missing": false,
+  "other": "Zenit (rocket family)",
+  "disamb": false
+ },
+ "태양광 발전": {
+  "title": "태양광 발전",
+  "ns": 0,
+  "missing": false,
+  "other": "Photovoltaics",
+  "disamb": false
+ },
+ "지향성 안테나": {
+  "title": "지향성 안테나",
+  "ns": 0,
+  "missing": false,
+  "other": "Directional antenna",
+  "disamb": false
+ },
+ "S 밴드": {
+  "title": "S 밴드",
+  "ns": 0,
+  "missing": false,
+  "other": "S band",
+  "disamb": false
+ },
+ "비브코드": {
+  "title": "비브코드",
+  "ns": 0,
+  "missing": false,
+  "other": "Bibcode",
+  "disamb": false
+ },
+ "우주망원경": {
+  "title": "우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Space telescope",
+  "disamb": false
+ },
+ "국제 식별번호": {
+  "title": "국제 식별번호",
+  "ns": 0,
+  "missing": false,
+  "other": "International Designator",
+  "disamb": false
+ },
+ "제트추진연구소": {
+  "title": "제트추진연구소",
+  "ns": 0,
+  "missing": false,
+  "other": "Jet Propulsion Laboratory",
+  "disamb": false
+ },
+ "볼 에어로스페이스 & 테크놀로지스": {
+  "title": "볼 에어로스페이스 & 테크놀로지스",
+  "ns": 0,
+  "missing": false,
+  "other": "Ball Aerospace & Technologies",
+  "disamb": false
+ },
+ "와트": {
+  "title": "와트",
+  "ns": 0,
+  "missing": false,
+  "other": "Watt",
+  "disamb": false
+ },
+ "디스커버리 프로그램": {
+  "title": "디스커버리 프로그램",
+  "ns": 0,
+  "missing": false,
+  "other": "Discovery Program",
+  "disamb": false
+ },
+ "플라이바이 (우주 비행)": {
+  "title": "플라이바이 (우주 비행)",
+  "ns": 0,
+  "missing": false,
+  "other": "Flyby (spaceflight)",
+  "disamb": false
+ },
+ "스윙바이": {
+  "title": "스윙바이",
+  "ns": 0,
+  "missing": false,
+  "other": "Gravity assist",
+  "disamb": false
+ },
+ "잃어버린 혜성": {
+  "title": "잃어버린 혜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Lost comet",
+  "disamb": false
+ },
+ "아폴로 소행성군": {
+  "title": "아폴로 소행성군",
+  "ns": 0,
+  "missing": false,
+  "other": "Apollo asteroid",
+  "disamb": false
+ },
+ "2000년 문제": {
+  "title": "2000년 문제",
+  "ns": 0,
+  "missing": false,
+  "other": "Year 2000 problem",
+  "disamb": false
+ },
+ "외계 행성 탐사방법": {
+  "title": "외계 행성 탐사방법",
+  "ns": 0,
+  "missing": false,
+  "other": "Methods of detecting exoplanets",
+  "disamb": false
+ },
+ "측광학 (천문학)": {
+  "title": "측광학 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Photometry (astronomy)",
+  "disamb": false
+ },
+ "HAT-P-4 b": {
+  "title": "HAT-P-4 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HAT-P-4b",
+  "disamb": false
+ },
+ "HAT-P-7 b": {
+  "title": "HAT-P-7 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HAT-P-7b",
+  "disamb": false
+ },
+ "소유스-FG": {
+  "title": "소유스-FG",
+  "ns": 0,
+  "missing": false,
+  "other": "Soyuz-FG",
+  "disamb": false
+ },
+ "온실 효과": {
+  "title": "온실 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Greenhouse effect",
+  "disamb": false
+ },
+ "기후변화": {
+  "title": "기후변화",
+  "ns": 0,
+  "missing": false,
+  "other": "Climate change",
+  "disamb": false
+ },
+ "자기권덮개": {
+  "title": "자기권덮개",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetosheath",
+  "disamb": false
+ },
+ "마스 익스프레스": {
+  "title": "마스 익스프레스",
+  "ns": 0,
+  "missing": false,
+  "other": "Mars Express",
+  "disamb": false
+ },
+ "전하결합소자": {
+  "title": "전하결합소자",
+  "ns": 0,
+  "missing": false,
+  "other": "Charge-coupled device",
+  "disamb": false
+ },
+ "대기광": {
+  "title": "대기광",
+  "ns": 0,
+  "missing": false,
+  "other": "Airglow",
+  "disamb": false
+ },
+ "FPGA": {
+  "title": "FPGA",
+  "ns": 0,
+  "missing": false,
+  "other": "Field-programmable gate array",
+  "disamb": false
+ },
+ "독일 항공우주 센터": {
+  "title": "독일 항공우주 센터",
+  "ns": 0,
+  "missing": false,
+  "other": "German Aerospace Center",
+  "disamb": false
+ },
+ "브라운슈바이크 공과대학교": {
+  "title": "브라운슈바이크 공과대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "TU Braunschweig",
+  "disamb": false
+ },
+ "마이크로미터": {
+  "title": "마이크로미터",
+  "ns": 0,
+  "missing": false,
+  "other": "Micrometre",
+  "disamb": false
+ },
+ "미세먼지": {
+  "title": "미세먼지",
+  "ns": 0,
+  "missing": false,
+  "other": "Particulate matter",
+  "disamb": false
+ },
+ "채널 (디지털 이미지)": {
+  "title": "채널 (디지털 이미지)",
+  "ns": 0,
+  "missing": false,
+  "other": "Channel (digital image)",
+  "disamb": false
+ },
+ "전자기 스펙트럼": {
+  "title": "전자기 스펙트럼",
+  "ns": 0,
+  "missing": false,
+  "other": "Electromagnetic spectrum",
+  "disamb": false
+ },
+ "로제타 (우주선)": {
+  "title": "로제타 (우주선)",
+  "ns": 0,
+  "missing": false,
+  "other": "Rosetta (spacecraft)",
+  "disamb": false
+ },
+ "디자인": {
+  "title": "디자인",
+  "ns": 0,
+  "missing": false,
+  "other": "Design",
+  "disamb": false
+ },
+ "이온화 방사선": {
+  "title": "이온화 방사선",
+  "ns": 0,
+  "missing": false,
+  "other": "Ionizing radiation",
+  "disamb": false
+ },
+ "툴루즈": {
+  "title": "툴루즈",
+  "ns": 0,
+  "missing": false,
+  "other": "Toulouse",
+  "disamb": false
+ },
+ "유럽우주운용센터": {
+  "title": "유럽우주운용센터",
+  "ns": 0,
+  "missing": false,
+  "other": "European Space Operations Centre",
+  "disamb": false
+ },
+ "다름슈타트": {
+  "title": "다름슈타트",
+  "ns": 0,
+  "missing": false,
+  "other": "Darmstadt",
+  "disamb": false
+ },
+ "타원": {
+  "title": "타원",
+  "ns": 0,
+  "missing": false,
+  "other": "Ellipse",
+  "disamb": false
+ },
+ "에어로브레이킹": {
+  "title": "에어로브레이킹",
+  "ns": 0,
+  "missing": false,
+  "other": "Aerobraking",
+  "disamb": false
+ },
+ "반송파": {
+  "title": "반송파",
+  "ns": 0,
+  "missing": false,
+  "other": "Carrier wave",
+  "disamb": false
+ },
+ "극소용돌이": {
+  "title": "극소용돌이",
+  "ns": 0,
+  "missing": false,
+  "other": "Polar vortex",
+  "disamb": false
+ },
+ "하이드록실기": {
+  "title": "하이드록실기",
+  "ns": 0,
+  "missing": false,
+  "other": "Hydroxy group",
+  "disamb": false
+ },
+ "아스트로노미 & 아스트로피직스": {
+  "title": "아스트로노미 & 아스트로피직스",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomy & Astrophysics",
+  "disamb": false
+ },
+ "행성계": {
+  "title": "행성계",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary system",
+  "disamb": false
+ },
+ "오존": {
+  "title": "오존",
+  "ns": 0,
+  "missing": false,
+  "other": "Ozone",
+  "disamb": false
+ },
+ "아카츠키 (우주선)": {
+  "title": "아카츠키 (우주선)",
+  "ns": 0,
+  "missing": false,
+  "other": "Akatsuki (spacecraft)",
+  "disamb": false
+ },
+ "레인저 계획": {
+  "title": "레인저 계획",
+  "ns": 0,
+  "missing": false,
+  "other": "Ranger program",
+  "disamb": false
+ },
+ "케이프커내버럴 우주군 기지": {
+  "title": "케이프커내버럴 우주군 기지",
+  "ns": 0,
+  "missing": false,
+  "other": "Cape Canaveral Space Force Station",
+  "disamb": false
+ },
+ "우주선": {
+  "title": "우주선",
+  "ns": 0,
+  "missing": false,
+  "other": "Spacecraft",
+  "disamb": false
+ },
+ "아틀라스-센타우르": {
+  "title": "아틀라스-센타우르",
+  "ns": 0,
+  "missing": false,
+  "other": "Atlas-Centaur",
+  "disamb": false
+ },
+ "안테나": {
+  "title": "안테나",
+  "ns": 0,
+  "missing": false,
+  "other": "Antenna (radio)",
+  "disamb": false
+ },
+ "방사계": {
+  "title": "방사계",
+  "ns": 0,
+  "missing": false,
+  "other": "Radiometer",
+  "disamb": false
+ },
+ "마이크로파": {
+  "title": "마이크로파",
+  "ns": 0,
+  "missing": false,
+  "other": "Microwave",
+  "disamb": false
+ },
+ "하전 입자": {
+  "title": "하전 입자",
+  "ns": 0,
+  "missing": false,
+  "other": "Charged particle",
+  "disamb": false
+ },
+ "대기": {
+  "title": "대기",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmosphere",
+  "disamb": false
+ },
+ "복사선 측정": {
+  "title": "복사선 측정",
+  "ns": 0,
+  "missing": false,
+  "other": "Radiometry",
+  "disamb": false
+ },
+ "행성간 자기장": {
+  "title": "행성간 자기장",
+  "ns": 0,
+  "missing": false,
+  "other": "Interplanetary magnetic field",
+  "disamb": false
+ },
+ "루나 1호": {
+  "title": "루나 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Luna 1",
+  "disamb": false
+ },
+ "행성간 먼지 구름": {
+  "title": "행성간 먼지 구름",
+  "ns": 0,
+  "missing": false,
+  "other": "Interplanetary dust cloud",
+  "disamb": false
+ },
+ "태양 플레어": {
+  "title": "태양 플레어",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar flare",
+  "disamb": false
+ },
+ "냉전": {
+  "title": "냉전",
+  "ns": 0,
+  "missing": false,
+  "other": "Cold War",
+  "disamb": false
+ },
+ "초강대국": {
+  "title": "초강대국",
+  "ns": 0,
+  "missing": false,
+  "other": "Superpower",
+  "disamb": false
+ },
+ "스푸트니크 1호": {
+  "title": "스푸트니크 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Sputnik 1",
+  "disamb": false
+ },
+ "익스플로러 1호": {
+  "title": "익스플로러 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Explorer 1",
+  "disamb": false
+ },
+ "라이카 (개)": {
+  "title": "라이카 (개)",
+  "ns": 0,
+  "missing": false,
+  "other": "Laika",
+  "disamb": false
+ },
+ "스푸트니크 2호": {
+  "title": "스푸트니크 2호",
+  "ns": 0,
+  "missing": false,
+  "other": "Sputnik 2",
+  "disamb": false
+ },
+ "파이어니어 계획": {
+  "title": "파이어니어 계획",
+  "ns": 0,
+  "missing": false,
+  "other": "Pioneer program",
+  "disamb": false
+ },
+ "루나 2호": {
+  "title": "루나 2호",
+  "ns": 0,
+  "missing": false,
+  "other": "Luna 2",
+  "disamb": false
+ },
+ "호만 전이 궤도": {
+  "title": "호만 전이 궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Hohmann transfer orbit",
+  "disamb": false
+ },
+ "미국 공군": {
+  "title": "미국 공군",
+  "ns": 0,
+  "missing": false,
+  "other": "United States Air Force",
+  "disamb": false
+ },
+ "TRW (기업)": {
+  "title": "TRW (기업)",
+  "ns": 0,
+  "missing": false,
+  "other": "TRW Inc.",
+  "disamb": false
+ },
+ "베네라 1호": {
+  "title": "베네라 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Venera 1",
+  "disamb": false
+ },
+ "송신기": {
+  "title": "송신기",
+  "ns": 0,
+  "missing": false,
+  "other": "Transmitter",
+  "disamb": false
+ },
+ "센타우르": {
+  "title": "센타우르",
+  "ns": 0,
+  "missing": false,
+  "other": "Centaur (rocket stage)",
+  "disamb": false
+ },
+ "수신기": {
+  "title": "수신기",
+  "ns": 0,
+  "missing": false,
+  "other": "Radio receiver",
+  "disamb": false
+ },
+ "디지털 신호": {
+  "title": "디지털 신호",
+  "ns": 0,
+  "missing": false,
+  "other": "Digital signal",
+  "disamb": false
+ },
+ "아날로그 신호": {
+  "title": "아날로그 신호",
+  "ns": 0,
+  "missing": false,
+  "other": "Analog signal",
+  "disamb": false
+ },
+ "자이로스코프": {
+  "title": "자이로스코프",
+  "ns": 0,
+  "missing": false,
+  "other": "Gyroscope",
+  "disamb": false
+ },
+ "메모리 뱅크": {
+  "title": "메모리 뱅크",
+  "ns": 0,
+  "missing": false,
+  "other": "Memory bank",
+  "disamb": false
+ },
+ "단일 추진제": {
+  "title": "단일 추진제",
+  "ns": 0,
+  "missing": false,
+  "other": "Monopropellant",
+  "disamb": false
+ },
+ "하이드라진": {
+  "title": "하이드라진",
+  "ns": 0,
+  "missing": false,
+  "other": "Hydrazine",
+  "disamb": false
+ },
+ "뉴턴 (단위)": {
+  "title": "뉴턴 (단위)",
+  "ns": 0,
+  "missing": false,
+  "other": "Newton (unit)",
+  "disamb": false
+ },
+ "무지향성 안테나": {
+  "title": "무지향성 안테나",
+  "ns": 0,
+  "missing": false,
+  "other": "Omnidirectional antenna",
+  "disamb": false
+ },
+ "루버": {
+  "title": "루버",
+  "ns": 0,
+  "missing": false,
+  "other": "Louver",
+  "disamb": false
+ },
+ "망원경": {
+  "title": "망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Telescope",
+  "disamb": false
+ },
+ "수증기": {
+  "title": "수증기",
+  "ns": 0,
+  "missing": false,
+  "other": "Water vapor",
+  "disamb": false
+ },
+ "회전속도": {
+  "title": "회전속도",
+  "ns": 0,
+  "missing": false,
+  "other": "Rotational frequency",
+  "disamb": false
+ },
+ "레이더": {
+  "title": "레이더",
+  "ns": 0,
+  "missing": false,
+  "other": "Radar",
+  "disamb": false
+ },
+ "조석 고정": {
+  "title": "조석 고정",
+  "ns": 0,
+  "missing": false,
+  "other": "Tidal locking",
+  "disamb": false
+ },
+ "이산화 탄소": {
+  "title": "이산화 탄소",
+  "ns": 0,
+  "missing": false,
+  "other": "Carbon dioxide",
+  "disamb": false
+ },
+ "폭주 온실 효과": {
+  "title": "폭주 온실 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Runaway greenhouse effect",
+  "disamb": false
+ },
+ "밴 앨런대": {
+  "title": "밴 앨런대",
+  "ns": 0,
+  "missing": false,
+  "other": "Van Allen radiation belt",
+  "disamb": false
+ },
+ "로버트 H. 디키": {
+  "title": "로버트 H. 디키",
+  "ns": 0,
+  "missing": false,
+  "other": "Robert H. Dicke",
+  "disamb": false
+ },
+ "테슬라 (단위)": {
+  "title": "테슬라 (단위)",
+  "ns": 0,
+  "missing": false,
+  "other": "Tesla (unit)",
+  "disamb": false
+ },
+ "가이거-뮐러 계수관": {
+  "title": "가이거-뮐러 계수관",
+  "ns": 0,
+  "missing": false,
+  "other": "Geiger–Müller tube",
+  "disamb": false
+ },
+ "아이오와 대학교": {
+  "title": "아이오와 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "University of Iowa",
+  "disamb": false
+ },
+ "우주진": {
+  "title": "우주진",
+  "ns": 0,
+  "missing": false,
+  "other": "Cosmic dust",
+  "disamb": false
+ },
+ "교류": {
+  "title": "교류",
+  "ns": 0,
+  "missing": false,
+  "other": "Alternating current",
+  "disamb": false
+ },
+ "칼 세이건": {
+  "title": "칼 세이건",
+  "ns": 0,
+  "missing": false,
+  "other": "Carl Sagan",
+  "disamb": false
+ },
+ "대기 궤도": {
+  "title": "대기 궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Parking orbit",
+  "disamb": false
+ },
+ "탄도 (역학)": {
+  "title": "탄도 (역학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Trajectory",
+  "disamb": false
+ },
+ "어센션섬": {
+  "title": "어센션섬",
+  "ns": 0,
+  "missing": false,
+  "other": "Ascension Island",
+  "disamb": false
+ },
+ "프리토리아": {
+  "title": "프리토리아",
+  "ns": 0,
+  "missing": false,
+  "other": "Pretoria",
+  "disamb": false
+ },
+ "팔로마 천문대": {
+  "title": "팔로마 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "Palomar Observatory",
+  "disamb": false
+ },
+ "자세 제어": {
+  "title": "자세 제어",
+  "ns": 0,
+  "missing": false,
+  "other": "Spacecraft attitude determination and control",
+  "disamb": false
+ },
+ "태양광 돛단배": {
+  "title": "태양광 돛단배",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar sail",
+  "disamb": false
+ },
+ "섭씨": {
+  "title": "섭씨",
+  "ns": 0,
+  "missing": false,
+  "other": "Celsius",
+  "disamb": false
+ },
+ "켈빈": {
+  "title": "켈빈",
+  "ns": 0,
+  "missing": false,
+  "other": "Kelvin",
+  "disamb": false
+ },
+ "화씨": {
+  "title": "화씨",
+  "ns": 0,
+  "missing": false,
+  "other": "Fahrenheit",
+  "disamb": false
+ },
+ "주연감광": {
+  "title": "주연감광",
+  "ns": 0,
+  "missing": false,
+  "other": "Limb darkening",
+  "disamb": false
+ },
+ "파이어니어 금성 궤도선": {
+  "title": "파이어니어 금성 궤도선",
+  "ns": 0,
+  "missing": false,
+  "other": "Pioneer Venus Orbiter",
+  "disamb": false
+ },
+ "유진 파커": {
+  "title": "유진 파커",
+  "ns": 0,
+  "missing": false,
+  "other": "Eugene Parker",
+  "disamb": false
+ },
+ "매리너 5호": {
+  "title": "매리너 5호",
+  "ns": 0,
+  "missing": false,
+  "other": "Mariner 5",
+  "disamb": false
+ },
+ "행성접근통과": {
+  "title": "행성접근통과",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary flyby",
+  "disamb": false
+ },
+ "우주 공간": {
+  "title": "우주 공간",
+  "ns": 0,
+  "missing": false,
+  "other": "Outer space",
+  "disamb": false
+ },
+ "화성의 생명체": {
+  "title": "화성의 생명체",
+  "ns": 0,
+  "missing": false,
+  "other": "Life on Mars",
+  "disamb": false
+ },
+ "마그네슘": {
+  "title": "마그네슘",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnesium",
+  "disamb": false
+ },
+ "파라볼라 안테나": {
+  "title": "파라볼라 안테나",
+  "ns": 0,
+  "missing": false,
+  "other": "Parabolic antenna",
+  "disamb": false
+ },
+ "헬륨": {
+  "title": "헬륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Helium",
+  "disamb": false
+ },
+ "가이거 계수기": {
+  "title": "가이거 계수기",
+  "ns": 0,
+  "missing": false,
+  "other": "Geiger counter",
+  "disamb": false
+ },
+ "입자 검출기": {
+  "title": "입자 검출기",
+  "ns": 0,
+  "missing": false,
+  "other": "Particle detector",
+  "disamb": false
+ },
+ "양성자": {
+  "title": "양성자",
+  "ns": 0,
+  "missing": false,
+  "other": "Proton",
+  "disamb": false
+ },
+ "알파 입자": {
+  "title": "알파 입자",
+  "ns": 0,
+  "missing": false,
+  "other": "Alpha particle",
+  "disamb": false
+ },
+ "운동량": {
+  "title": "운동량",
+  "ns": 0,
+  "missing": false,
+  "other": "Momentum",
+  "disamb": false
+ },
+ "프로페셔널 비디오 카메라": {
+  "title": "프로페셔널 비디오 카메라",
+  "ns": 0,
+  "missing": false,
+  "other": "Professional video camera",
+  "disamb": false
+ },
+ "카세그레인식 반사경": {
+  "title": "카세그레인식 반사경",
+  "ns": 0,
+  "missing": false,
+  "other": "Cassegrain reflector",
+  "disamb": false
+ },
+ "비디오 카메라 튜브": {
+  "title": "비디오 카메라 튜브",
+  "ns": 0,
+  "missing": false,
+  "other": "Video camera tube",
+  "disamb": false
+ },
+ "우주선 추진": {
+  "title": "우주선 추진",
+  "ns": 0,
+  "missing": false,
+  "other": "Spacecraft propulsion",
+  "disamb": false
+ },
+ "파운드힘": {
+  "title": "파운드힘",
+  "ns": 0,
+  "missing": false,
+  "other": "Pound (force)",
+  "disamb": false
+ },
+ "카노푸스": {
+  "title": "카노푸스",
+  "ns": 0,
+  "missing": false,
+  "other": "Canopus",
+  "disamb": false
+ },
+ "달": {
+  "title": "달",
+  "ns": 0,
+  "missing": false,
+  "other": "Moon",
+  "disamb": false
+ },
+ "3극 진공관": {
+  "title": "3극 진공관",
+  "ns": 0,
+  "missing": false,
+  "other": "Triode",
+  "disamb": false
+ },
+ "진행파관": {
+  "title": "진행파관",
+  "ns": 0,
+  "missing": false,
+  "other": "Traveling-wave tube",
+  "disamb": false
+ },
+ "테이프 레코더": {
+  "title": "테이프 레코더",
+  "ns": 0,
+  "missing": false,
+  "other": "Tape recorder",
+  "disamb": false
+ },
+ "천체역학": {
+  "title": "천체역학",
+  "ns": 0,
+  "missing": false,
+  "other": "Celestial mechanics",
+  "disamb": false
+ },
+ "알데라민": {
+  "title": "알데라민",
+  "ns": 0,
+  "missing": false,
+  "other": "Alpha Cephei",
+  "disamb": false
+ },
+ "레굴루스": {
+  "title": "레굴루스",
+  "ns": 0,
+  "missing": false,
+  "other": "Regulus",
+  "disamb": false
+ },
+ "나오스": {
+  "title": "나오스",
+  "ns": 0,
+  "missing": false,
+  "other": "Zeta Puppis",
+  "disamb": false
+ },
+ "돛자리 감마": {
+  "title": "돛자리 감마",
+  "ns": 0,
+  "missing": false,
+  "other": "Gamma Velorum",
+  "disamb": false
+ },
+ "정확도와 정밀도": {
+  "title": "정확도와 정밀도",
+  "ns": 0,
+  "missing": false,
+  "other": "Accuracy and precision",
+  "disamb": false
+ },
+ "회화": {
+  "title": "회화",
+  "ns": 0,
+  "missing": false,
+  "other": "Painting",
+  "disamb": false
+ },
+ "파스텔": {
+  "title": "파스텔",
+  "ns": 0,
+  "missing": false,
+  "other": "Pastel",
+  "disamb": false
+ },
+ "화소": {
+  "title": "화소",
+  "ns": 0,
+  "missing": false,
+  "other": "Pixel",
+  "disamb": false
+ },
+ "데이터 준비": {
+  "title": "데이터 준비",
+  "ns": 0,
+  "missing": false,
+  "other": "Data acquisition",
+  "disamb": false
+ },
+ "유성진": {
+  "title": "유성진",
+  "ns": 0,
+  "missing": false,
+  "other": "Micrometeoroid",
+  "disamb": false
+ },
+ "킬로바이트": {
+  "title": "킬로바이트",
+  "ns": 0,
+  "missing": false,
+  "other": "Kilobyte",
+  "disamb": false
+ },
+ "저항기": {
+  "title": "저항기",
+  "ns": 0,
+  "missing": false,
+  "other": "Resistor",
+  "disamb": false
+ },
+ "대기압": {
+  "title": "대기압",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmospheric pressure",
+  "disamb": false
+ },
+ "SF (장르)": {
+  "title": "SF (장르)",
+  "ns": 0,
+  "missing": false,
+  "other": "Science fiction",
+  "disamb": false
+ },
+ "찬드라얀 1호": {
+  "title": "찬드라얀 1호",
+  "ns": 0,
+  "missing": false,
+  "other": "Chandrayaan-1",
+  "disamb": false
+ },
+ "인도": {
+  "title": "인도",
+  "ns": 0,
+  "missing": false,
+  "other": "India",
+  "disamb": false
+ },
+ "우주비행사": {
+  "title": "우주비행사",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronaut",
+  "disamb": false
+ },
+ "푸시 브룸 스캐너": {
+  "title": "푸시 브룸 스캐너",
+  "ns": 0,
+  "missing": false,
+  "other": "Push broom scanner",
+  "disamb": false
+ },
+ "미국 지질조사국": {
+  "title": "미국 지질조사국",
+  "ns": 0,
+  "missing": false,
+  "other": "United States Geological Survey",
+  "disamb": false
+ },
+ "달 충돌형 탐사선": {
+  "title": "달 충돌형 탐사선",
+  "ns": 0,
+  "missing": false,
+  "other": "Moon Impact Probe",
+  "disamb": false
+ },
+ "수산화물": {
+  "title": "수산화물",
+  "ns": 0,
+  "missing": false,
+  "other": "Hydroxide",
+  "disamb": false
+ },
+ "물": {
+  "title": "물",
+  "ns": 0,
+  "missing": false,
+  "other": "Water",
+  "disamb": false
+ },
+ "광물": {
+  "title": "광물",
+  "ns": 0,
+  "missing": false,
+  "other": "Mineral",
+  "disamb": false
+ },
+ "달 정찰 인공위성": {
+  "title": "달 정찰 인공위성",
+  "ns": 0,
+  "missing": false,
+  "other": "Lunar Reconnaissance Orbiter",
+  "disamb": false
+ },
+ "LCROSS": {
+  "title": "LCROSS",
+  "ns": 0,
+  "missing": false,
+  "other": "LCROSS",
+  "disamb": false
+ },
+ "첨정석": {
+  "title": "첨정석",
+  "ns": 0,
+  "missing": false,
+  "other": "Spinel",
+  "disamb": false
+ },
+ "휘석": {
+  "title": "휘석",
+  "ns": 0,
+  "missing": false,
+  "other": "Pyroxene",
+  "disamb": false
+ },
+ "감람석": {
+  "title": "감람석",
+  "ns": 0,
+  "missing": false,
+  "other": "Olivine",
+  "disamb": false
+ },
+ "모스크바의 바다": {
+  "title": "모스크바의 바다",
+  "ns": 0,
+  "missing": false,
+  "other": "Mare Moscoviense",
+  "disamb": false
+ },
+ "컨베어 (기업)": {
+  "title": "컨베어 (기업)",
+  "ns": 0,
+  "missing": false,
+  "other": "Convair",
+  "disamb": false
+ },
+ "매리너 2호": {
+  "title": "매리너 2호",
+  "ns": 0,
+  "missing": false,
+  "other": "Mariner 2",
+  "disamb": false
+ },
+ "벨라 (인공위성)": {
+  "title": "벨라 (인공위성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Vela (satellite)",
+  "disamb": false
+ },
+ "원격 측정법": {
+  "title": "원격 측정법",
+  "ns": 0,
+  "missing": false,
+  "other": "Telemetry",
+  "disamb": false
+ },
+ "이온화": {
+  "title": "이온화",
+  "ns": 0,
+  "missing": false,
+  "other": "Ionization",
+  "disamb": false
+ }
+}

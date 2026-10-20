@@ -1,0 +1,1073 @@
+{
+ "domain": "kr_satellites",
+ "rule": "링크한 대상 수 큰 순 -> 두 언어 링크 수 합 큰 순 -> 한국어 제목 차례. 위 5개",
+ "link_occurrences": 637,
+ "distinct_topics_with_ko_page": 236,
+ "unpaired_occurrences": {
+  "영어 문서에 한국어 언어 링크 없음(또는 없는 문서·본 이름공간 아님)": 22
+ },
+ "excluded_counts": {
+  "연도·날짜 문서": 36,
+  "대상 10개 자신": 6,
+  "영어 문서 없음(한국어 문서에 영어 언어 링크가 없다)": 9,
+  "동음이의 문서": 3
+ },
+ "targets": [
+  "OSSI-1",
+  "과학기술위성 1호",
+  "과학기술위성 2호",
+  "무궁화 1호",
+  "무궁화 5호",
+  "아리랑 3호",
+  "우리별 1호",
+  "우리별 3호",
+  "차세대소형위성 1호",
+  "차세대소형위성 2호"
+ ],
+ "candidates_top20": [
+  {
+   "ko_title": "대한민국",
+   "en_title": "South Korea",
+   "targets_linked": 10,
+   "ko_links": 8,
+   "en_links": 7,
+   "links_sum": 15,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 15(한국어 8, 영어 7)"
+  },
+  {
+   "ko_title": "무게",
+   "en_title": "Weight",
+   "targets_linked": 10,
+   "ko_links": 10,
+   "en_links": 0,
+   "links_sum": 10,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 10(한국어 10, 영어 0)"
+  },
+  {
+   "ko_title": "지구 주회 궤도",
+   "en_title": "Geocentric orbit",
+   "targets_linked": 8,
+   "ko_links": 0,
+   "en_links": 9,
+   "links_sum": 9,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 9(한국어 0, 영어 9)"
+  },
+  {
+   "ko_title": "한국과학기술원 인공위성연구소",
+   "en_title": "KAIST Satellite Technology Research Center",
+   "targets_linked": 7,
+   "ko_links": 7,
+   "en_links": 17,
+   "links_sum": 24,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 24(한국어 7, 영어 17)"
+  },
+  {
+   "ko_title": "협정 세계시",
+   "en_title": "Coordinated Universal Time",
+   "targets_linked": 7,
+   "ko_links": 0,
+   "en_links": 11,
+   "links_sum": 11,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 11(한국어 0, 영어 11)"
+  },
+  {
+   "ko_title": "위성 목록 번호",
+   "en_title": "Satellite Catalog Number",
+   "targets_linked": 7,
+   "ko_links": 2,
+   "en_links": 7,
+   "links_sum": 9,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 6,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 9(한국어 2, 영어 7)"
+  },
+  {
+   "ko_title": "궤도",
+   "en_title": "Orbit",
+   "targets_linked": 7,
+   "ko_links": 7,
+   "en_links": 1,
+   "links_sum": 8,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 7,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 8(한국어 7, 영어 1)"
+  },
+  {
+   "ko_title": "태양 동기 궤도",
+   "en_title": "Sun-synchronous orbit",
+   "targets_linked": 6,
+   "ko_links": 7,
+   "en_links": 5,
+   "links_sum": 12,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 8,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 12(한국어 7, 영어 5)"
+  },
+  {
+   "ko_title": "궤도 경사",
+   "en_title": "Orbital inclination",
+   "targets_linked": 6,
+   "ko_links": 2,
+   "en_links": 7,
+   "links_sum": 9,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "아리랑 3호",
+    "우리별 1호"
+   ],
+   "rank": 9,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 9(한국어 2, 영어 7)"
+  },
+  {
+   "ko_title": "국제 식별번호",
+   "en_title": "International Designator",
+   "targets_linked": 6,
+   "ko_links": 6,
+   "en_links": 1,
+   "links_sum": 7,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 10,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 7(한국어 6, 영어 1)"
+  },
+  {
+   "ko_title": "공전 주기",
+   "en_title": "Orbital period",
+   "targets_linked": 6,
+   "ko_links": 0,
+   "en_links": 6,
+   "links_sum": 6,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "아리랑 3호",
+    "우리별 1호"
+   ],
+   "rank": 11,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 6(한국어 0, 영어 6)"
+  },
+  {
+   "ko_title": "와트",
+   "en_title": "Watt",
+   "targets_linked": 6,
+   "ko_links": 0,
+   "en_links": 6,
+   "links_sum": 6,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 12,
+   "why_ranked": "링크한 대상 6개, 링크 수 합 6(한국어 0, 영어 6)"
+  },
+  {
+   "ko_title": "장축단",
+   "en_title": "Apsis",
+   "targets_linked": 5,
+   "ko_links": 4,
+   "en_links": 10,
+   "links_sum": 14,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "우리별 1호"
+   ],
+   "rank": 13,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 14(한국어 4, 영어 10)"
+  },
+  {
+   "ko_title": "인공위성",
+   "en_title": "Satellite",
+   "targets_linked": 5,
+   "ko_links": 3,
+   "en_links": 6,
+   "links_sum": 9,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호"
+   ],
+   "rank": 14,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 9(한국어 3, 영어 6)"
+  },
+  {
+   "ko_title": "위성 버스",
+   "en_title": "Satellite bus",
+   "targets_linked": 5,
+   "ko_links": 0,
+   "en_links": 5,
+   "links_sum": 5,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "우리별 1호"
+   ],
+   "rank": 15,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 5(한국어 0, 영어 5)"
+  },
+  {
+   "ko_title": "전력",
+   "en_title": "Electric power",
+   "targets_linked": 5,
+   "ko_links": 5,
+   "en_links": 0,
+   "links_sum": 5,
+   "linked_by": [
+    "과학기술위성 1호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 16,
+   "why_ranked": "링크한 대상 5개, 링크 수 합 5(한국어 5, 영어 0)"
+  },
+  {
+   "ko_title": "지구 저궤도",
+   "en_title": "Low Earth orbit",
+   "targets_linked": 4,
+   "ko_links": 2,
+   "en_links": 7,
+   "links_sum": 9,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 2호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 17,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 9(한국어 2, 영어 7)"
+  },
+  {
+   "ko_title": "소형 위성",
+   "en_title": "Small satellite",
+   "targets_linked": 4,
+   "ko_links": 2,
+   "en_links": 5,
+   "links_sum": 7,
+   "linked_by": [
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 18,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 7(한국어 2, 영어 5)"
+  },
+  {
+   "ko_title": "한국과학기술원",
+   "en_title": "KAIST",
+   "targets_linked": 4,
+   "ko_links": 5,
+   "en_links": 2,
+   "links_sum": 7,
+   "linked_by": [
+    "과학기술위성 1호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호"
+   ],
+   "rank": 19,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 7(한국어 5, 영어 2)"
+  },
+  {
+   "ko_title": "지구",
+   "en_title": "Earth",
+   "targets_linked": 4,
+   "ko_links": 1,
+   "en_links": 3,
+   "links_sum": 4,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 2호",
+    "아리랑 3호",
+    "우리별 1호"
+   ],
+   "rank": 20,
+   "why_ranked": "링크한 대상 4개, 링크 수 합 4(한국어 1, 영어 3)"
+  }
+ ],
+ "selected": [
+  {
+   "ko_title": "대한민국",
+   "en_title": "South Korea",
+   "targets_linked": 10,
+   "ko_links": 8,
+   "en_links": 7,
+   "links_sum": 15,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 15(한국어 8, 영어 7)",
+   "ko_revid": 42562205,
+   "ko_fetched_title": "대한민국",
+   "ko_fetched_at": "2026-10-20T13:53:08+00:00",
+   "en_revid": 1381115159,
+   "en_fetched_title": "South Korea",
+   "en_fetched_at": "2026-10-20T13:53:11+00:00"
+  },
+  {
+   "ko_title": "무게",
+   "en_title": "Weight",
+   "targets_linked": 10,
+   "ko_links": 10,
+   "en_links": 0,
+   "links_sum": 10,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 10(한국어 10, 영어 0)",
+   "ko_revid": 39032094,
+   "ko_fetched_title": "무게",
+   "ko_fetched_at": "2026-10-20T13:53:13+00:00",
+   "en_revid": 1373517273,
+   "en_fetched_title": "Weight",
+   "en_fetched_at": "2026-10-20T13:53:17+00:00"
+  },
+  {
+   "ko_title": "지구 주회 궤도",
+   "en_title": "Geocentric orbit",
+   "targets_linked": 8,
+   "ko_links": 0,
+   "en_links": 9,
+   "links_sum": 9,
+   "linked_by": [
+    "OSSI-1",
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 1호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 9(한국어 0, 영어 9)",
+   "ko_revid": 39779643,
+   "ko_fetched_title": "지구 주회 궤도",
+   "ko_fetched_at": "2026-10-20T13:53:19+00:00",
+   "en_revid": 1350109396,
+   "en_fetched_title": "Geocentric orbit",
+   "en_fetched_at": "2026-10-20T13:53:22+00:00"
+  },
+  {
+   "ko_title": "한국과학기술원 인공위성연구소",
+   "en_title": "KAIST Satellite Technology Research Center",
+   "targets_linked": 7,
+   "ko_links": 7,
+   "en_links": 17,
+   "links_sum": 24,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 24(한국어 7, 영어 17)",
+   "ko_revid": 39208392,
+   "ko_fetched_title": "한국과학기술원 인공위성연구소",
+   "ko_fetched_at": "2026-10-20T13:53:25+00:00",
+   "en_revid": 1364632248,
+   "en_fetched_title": "KAIST Satellite Technology Research Center",
+   "en_fetched_at": "2026-10-20T13:53:28+00:00"
+  },
+  {
+   "ko_title": "협정 세계시",
+   "en_title": "Coordinated Universal Time",
+   "targets_linked": 7,
+   "ko_links": 0,
+   "en_links": 11,
+   "links_sum": 11,
+   "linked_by": [
+    "과학기술위성 1호",
+    "과학기술위성 2호",
+    "무궁화 5호",
+    "아리랑 3호",
+    "우리별 1호",
+    "우리별 3호",
+    "차세대소형위성 2호"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 7개, 링크 수 합 11(한국어 0, 영어 11)",
+   "ko_revid": 42301112,
+   "ko_fetched_title": "협정 세계시",
+   "ko_fetched_at": "2026-10-20T13:53:31+00:00",
+   "en_revid": 1380830000,
+   "en_fetched_title": "Coordinated Universal Time",
+   "en_fetched_at": "2026-10-20T13:53:35+00:00"
+  }
+ ],
+ "excluded": [
+  {
+   "ko_title": "2009년",
+   "en_title": "2009",
+   "targets_linked": 3,
+   "ko_links": 7,
+   "en_links": 0,
+   "links_sum": 7,
+   "linked_by": [
+    "과학기술위성 2호",
+    "아리랑 3호",
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "과학기술위성 1호",
+   "en_title": "STSat-1",
+   "targets_linked": 2,
+   "ko_links": 0,
+   "en_links": 4,
+   "links_sum": 4,
+   "linked_by": [
+    "과학기술위성 2호",
+    "우리별 3호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "2005년",
+   "en_title": "2005",
+   "targets_linked": 2,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "과학기술위성 2호",
+    "무궁화 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1995년",
+   "en_title": "1995",
+   "targets_linked": 1,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "무궁화 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2012년",
+   "en_title": "2012",
+   "targets_linked": 1,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "아리랑 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2013년",
+   "en_title": "2013",
+   "targets_linked": 1,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "OSSI-1"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "5월 18일",
+   "en_title": "May 18",
+   "targets_linked": 1,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "아리랑 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "우리별 1호",
+   "en_title": "KITSAT-1",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 1,
+   "links_sum": 3,
+   "linked_by": [
+    "우리별 3호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "1992년",
+   "en_title": "1992",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "우리별 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1999년",
+   "en_title": "1999",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "우리별 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2006년",
+   "en_title": "2006",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "무궁화 5호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2010년",
+   "en_title": "2010",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "과학기술위성 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2018년",
+   "en_title": "2018",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2023년",
+   "en_title": "2023",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "차세대소형위성 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "4월 19일",
+   "en_title": "April 19",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "OSSI-1"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "5월 25일",
+   "en_title": "May 25",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "차세대소형위성 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "5월 26일",
+   "en_title": "May 26",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "우리별 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "6월 10일",
+   "en_title": "June 10",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "과학기술위성 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 11일",
+   "en_title": "August 11",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "우리별 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 22일",
+   "en_title": "August 22",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "무궁화 5호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 25일",
+   "en_title": "August 25",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "과학기술위성 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 5일",
+   "en_title": "August 5",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "무궁화 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "차세대소형위성 2호",
+   "en_title": "NEXTSat-2",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 1,
+   "links_sum": 2,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "10월 21일",
+   "en_title": "October 21",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "11월 20일",
+   "en_title": "November 20",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "11월 29일",
+   "en_title": "November 29",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "12월 16일",
+   "en_title": "December 16",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "무궁화 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "12월 4일",
+   "en_title": "December 4",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1월 12일",
+   "en_title": "January 12",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "아리랑 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "1월 16일",
+   "en_title": "January 16",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "아리랑 3호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2003년",
+   "en_title": "2003",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "과학기술위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2011년",
+   "en_title": "2011",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "OSSI-1"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2014년",
+   "en_title": "2014",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2019년",
+   "en_title": "2019",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2020년",
+   "en_title": "2020",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "6월 30일",
+   "en_title": "June 30",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "OSSI-1"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 19일",
+   "en_title": "August 19",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "과학기술위성 2호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "8월 30일",
+   "en_title": "August 30",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "무궁화 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "9월 27일",
+   "en_title": "September 27",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "과학기술위성 1호"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "GEO",
+   "en_title": "Geo",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "무궁화 1호"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "SAR",
+   "en_title": "SAR",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 1호"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "과학기술위성 2호",
+   "en_title": "STSat-2A",
+   "targets_linked": 1,
+   "ko_links": 0,
+   "en_links": 1,
+   "links_sum": 1,
+   "linked_by": [
+    "과학기술위성 1호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "나로",
+   "en_title": "Naro (disambiguation)",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "과학기술위성 2호"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "무궁화 1호",
+   "en_title": "Koreasat 1",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "무궁화 5호"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "차세대소형위성 1호",
+   "en_title": "NEXTSat-1",
+   "targets_linked": 1,
+   "ko_links": 0,
+   "en_links": 1,
+   "links_sum": 1,
+   "linked_by": [
+    "차세대소형위성 2호"
+   ],
+   "reason": "대상 10개 자신"
+  }
+ ],
+ "selected_at": "2026-10-20T13:52:17+00:00",
+ "infobox_grid_counted": false
+}
