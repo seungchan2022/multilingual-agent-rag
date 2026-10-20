@@ -5,12 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>도메인 고르기: 막힌 곳</title>
 <style>
-:root { --bg:#ffffff; --fg:#1d1d1f; --muted:#62636b; --line:#d9dade; --box:#f4f5f7; --bad:#b3261e; --ok:#1e6b34; }
-@media (prefers-color-scheme: dark) {
-  :root { --bg:#151517; --fg:#e8e8ea; --muted:#a3a4ad; --line:#3a3b42; --box:#202126; --bad:#ff8a80; --ok:#7bd88f; }
-}
-body { background:var(--bg); color:var(--fg); margin:0; padding:24px 16px;
-  font-family:-apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; line-height:1.65; }
+:root { color-scheme:light; --bg:#ffffff; --fg:#1d1d1f; --muted:#50515a; --line:#d9dade; --box:#f4f5f7; --bad:#b3261e; --ok:#1e6b34; }
+html { font-size:17px; }
+body { background:var(--bg); color:var(--fg); margin:0; padding:28px 16px;
+  font-family:-apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; line-height:1.75; }
 main { max-width:920px; margin:0 auto; }
 h1 { font-size:1.45rem; margin:0 0 4px; }
 .sub { color:var(--muted); font-size:.88rem; margin:0 0 20px; }
@@ -18,18 +16,18 @@ h1 { font-size:1.45rem; margin:0 0 4px; }
 .headline p { margin:6px 0; }
 h2 { font-size:1.08rem; margin:30px 0 8px; }
 .wrap { overflow-x:auto; }
-table { border-collapse:collapse; width:100%; font-size:.9rem; }
-th, td { border:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top; }
+table { border-collapse:collapse; width:100%; font-size:.95rem; }
+th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
 th { background:var(--box); }
 tr.group td { background:var(--box); font-weight:600; }
 tr.group td span { font-weight:400; color:var(--muted); }
 .bad { color:var(--bad); font-weight:600; white-space:nowrap; }
 .ok { color:var(--ok); font-weight:600; white-space:nowrap; }
-.note { color:var(--muted); font-size:.85rem; margin:6px 0; }
-pre { background:var(--box); padding:12px 14px; overflow-x:auto; font-size:.9rem; line-height:1.55; }
+.note { color:var(--muted); font-size:.92rem; margin:8px 0; }
+pre { background:var(--box); padding:14px 16px; overflow-x:auto; font-size:.95rem; line-height:1.6; }
 ul { padding-left:20px; margin:6px 0; }
 li { margin:3px 0; }
-footer { margin-top:34px; border-top:1px solid var(--line); padding-top:10px; color:var(--muted); font-size:.8rem; }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:10px; color:var(--muted); font-size:.86rem; }
 footer code, .note code { font-size:.78rem; }
 </style>
 </head>
