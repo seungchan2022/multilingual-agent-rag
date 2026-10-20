@@ -1,0 +1,6360 @@
+[
+ {
+  "domain": "kr_satellites",
+  "id": "ks-01",
+  "target": "우리별 1호",
+  "lang": "ko",
+  "title": "우리별 1호",
+  "revid": 39123371,
+  "chars": 1299,
+  "table_count": 0,
+  "infobox_lines": 19,
+  "md_infobox_lines": 19,
+  "numbers": [
+   {
+    "raw": "66.0°",
+    "mentions": [
+     "66.0°"
+    ],
+    "value": 66.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 66.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "66.00°"
+    }
+   },
+   {
+    "raw": "67cm",
+    "mentions": [
+     "67cm"
+    ],
+    "value": 67.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.67,
+    "other_lang": {
+     "reason": "a",
+     "found": "67"
+    }
+   },
+   {
+    "raw": "400m",
+    "mentions": [
+     "400m",
+     "400m"
+    ],
+    "value": 400.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "400"
+    }
+   },
+   {
+    "raw": "4km",
+    "mentions": [
+     "4km",
+     "4km"
+    ],
+    "value": 4.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 4000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "4"
+    }
+   },
+   {
+    "raw": "1300 km",
+    "mentions": [
+     "1300 km"
+    ],
+    "value": 1300.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1300000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1316.0 km",
+    "mentions": [
+     "1316.0 km",
+     "1328.0 km"
+    ],
+    "value": 1316.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1316000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "1,316 km"
+    }
+   },
+   {
+    "raw": "5년",
+    "mentions": [
+     "5년",
+     "5년"
+    ],
+    "value": 5.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 157788000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "7년",
+    "mentions": [
+     "7년"
+    ],
+    "value": 7.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 220903200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "48.5 kg",
+    "mentions": [
+     "48.5 kg",
+     "48.6 kg"
+    ],
+    "value": 48.5,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 48.5,
+    "other_lang": {
+     "reason": "a",
+     "found": "48.6"
+    }
+   },
+   {
+    "raw": "3t",
+    "mentions": [
+     "3t"
+    ],
+    "value": 3.0,
+    "unit": "t",
+    "dim": "질량",
+    "base": 3000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "30 W",
+    "mentions": [
+     "30 W"
+    ],
+    "value": 30.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 30.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "30"
+    }
+   }
+  ],
+  "only_count": 3
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-01",
+  "target": "우리별 1호",
+  "lang": "en",
+  "title": "KITSAT-1",
+  "revid": 1354114501,
+  "chars": 3382,
+  "table_count": 0,
+  "infobox_lines": 23,
+  "md_infobox_lines": 22,
+  "numbers": [
+   {
+    "raw": "66.00°",
+    "mentions": [
+     "66.00°",
+     "66°"
+    ],
+    "value": 66.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 66.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "66.0°"
+    }
+   },
+   {
+    "raw": "35.2 cm",
+    "mentions": [
+     "35.2 cm",
+     "35.2 cm"
+    ],
+    "value": 35.2,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.35200000000000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "35.2"
+    }
+   },
+   {
+    "raw": "35.6 cm",
+    "mentions": [
+     "35.6 cm",
+     "35.6 cm"
+    ],
+    "value": 35.6,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.35600000000000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "35.6"
+    }
+   },
+   {
+    "raw": "67 cm",
+    "mentions": [
+     "67 cm",
+     "67 cm"
+    ],
+    "value": 67.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.67,
+    "other_lang": {
+     "reason": "a",
+     "found": "67"
+    }
+   },
+   {
+    "raw": "400 m",
+    "mentions": [
+     "400 m"
+    ],
+    "value": 400.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "400"
+    }
+   },
+   {
+    "raw": "4 km",
+    "mentions": [
+     "4 km"
+    ],
+    "value": 4.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 4000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "4"
+    }
+   },
+   {
+    "raw": "1,316 km",
+    "mentions": [
+     "1,316 km",
+     "1,316 km",
+     "818 mi",
+     "820 mi",
+     "1,320 km",
+     "1320 km",
+     "825 mi",
+     "1,328 km",
+     "1,328 km"
+    ],
+    "value": 1316.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1316000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "1316.0 km"
+    }
+   },
+   {
+    "raw": "5 years",
+    "mentions": [
+     "5 years"
+    ],
+    "value": 5.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 157788000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "12 years",
+    "mentions": [
+     "12 years"
+    ],
+    "value": 12.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 378691200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "107 lb",
+    "mentions": [
+     "107 lb",
+     "48.6 kg",
+     "48.6 kg"
+    ],
+    "value": 107.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 48.534383590000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "48.6"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-02",
+  "target": "과학기술위성 1호",
+  "lang": "ko",
+  "title": "과학기술위성 1호",
+  "revid": 39097835,
+  "chars": 299,
+  "table_count": 0,
+  "infobox_lines": 10,
+  "md_infobox_lines": 10,
+  "numbers": [
+   {
+    "raw": "830 mm",
+    "mentions": [
+     "830 mm",
+     "830 mm"
+    ],
+    "value": 830.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.8300000000000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "690km",
+    "mentions": [
+     "690km"
+    ],
+    "value": 690.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 690000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "695 km"
+    }
+   },
+   {
+    "raw": "11분",
+    "mentions": [
+     "11분"
+    ],
+    "value": 11.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 660.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "11"
+    }
+   },
+   {
+    "raw": "3년",
+    "mentions": [
+     "3년"
+    ],
+    "value": 3.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 94672800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "106 kg",
+    "mentions": [
+     "106 kg",
+     "106kg"
+    ],
+    "value": 106.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 106.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "106"
+    }
+   },
+   {
+    "raw": "180 W",
+    "mentions": [
+     "180 W"
+    ],
+    "value": 180.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 180.0,
+    "other_lang": "그 언어에만"
+   }
+  ],
+  "only_count": 2
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-02",
+  "target": "과학기술위성 1호",
+  "lang": "en",
+  "title": "STSat-1",
+  "revid": 1268126951,
+  "chars": 1113,
+  "table_count": 0,
+  "infobox_lines": 22,
+  "md_infobox_lines": 21,
+  "numbers": [
+   {
+    "raw": "98.20°",
+    "mentions": [
+     "98.20°"
+    ],
+    "value": 98.2,
+    "unit": "°",
+    "dim": "각도",
+    "base": 98.2,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "60 cm",
+    "mentions": [
+     "60 cm"
+    ],
+    "value": 60.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.6,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "66 cm",
+    "mentions": [
+     "66 cm"
+    ],
+    "value": 66.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.66,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "80 cm",
+    "mentions": [
+     "80 cm"
+    ],
+    "value": 80.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.8,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "419 mi",
+    "mentions": [
+     "419 mi",
+     "675 km"
+    ],
+    "value": 419.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 674315.136,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "695 km",
+    "mentions": [
+     "695 km",
+     "695 km",
+     "432 mi"
+    ],
+    "value": 695.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 695000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "690km"
+    }
+   },
+   {
+    "raw": "2 years",
+    "mentions": [
+     "2 years"
+    ],
+    "value": 2.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "11K",
+    "mentions": [
+     "11K"
+    ],
+    "value": 11.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 11.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "11"
+    }
+   },
+   {
+    "raw": "106 kg",
+    "mentions": [
+     "106 kg",
+     "106 kg",
+     "234 lb"
+    ],
+    "value": 106.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 106.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "106"
+    }
+   }
+  ],
+  "only_count": 6
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-03",
+  "target": "우리별 3호",
+  "lang": "ko",
+  "title": "우리별 3호",
+  "revid": 39035197,
+  "chars": 1363,
+  "table_count": 0,
+  "infobox_lines": 12,
+  "md_infobox_lines": 12,
+  "numbers": [
+   {
+    "raw": "13m",
+    "mentions": [
+     "13m"
+    ],
+    "value": 13.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 13.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "15 m",
+    "mentions": [
+     "15 m"
+    ],
+    "value": 15.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 15.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "730km",
+    "mentions": [
+     "730km"
+    ],
+    "value": 730.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 730000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7개월",
+    "mentions": [
+     "7개월"
+    ],
+    "value": 7.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 18408222.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3년",
+    "mentions": [
+     "3년"
+    ],
+    "value": 3.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 94672800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "5년",
+    "mentions": [
+     "5년"
+    ],
+    "value": 5.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 157788000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "110Kg",
+    "mentions": [
+     "110Kg",
+     "110kg"
+    ],
+    "value": 110.0,
+    "unit": "Kg",
+    "dim": "질량",
+    "base": 110.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "110"
+    }
+   },
+   {
+    "raw": "180W",
+    "mentions": [
+     "180W",
+     "180W"
+    ],
+    "value": 180.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 180.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "180"
+    }
+   }
+  ],
+  "only_count": 5
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-03",
+  "target": "우리별 3호",
+  "lang": "en",
+  "title": "KITSAT-3",
+  "revid": 1379770497,
+  "chars": 1413,
+  "table_count": 0,
+  "infobox_lines": 19,
+  "md_infobox_lines": 18,
+  "numbers": [
+   {
+    "raw": "49.5 cm",
+    "mentions": [
+     "49.5 cm"
+    ],
+    "value": 49.5,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.495,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "60.4 cm",
+    "mentions": [
+     "60.4 cm"
+    ],
+    "value": 60.4,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.604,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "85.2 cm",
+    "mentions": [
+     "85.2 cm"
+    ],
+    "value": 85.2,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.8520000000000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3 years",
+    "mentions": [
+     "3 years",
+     "3 years"
+    ],
+    "value": 3.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 94672800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "4.5 years",
+    "mentions": [
+     "4.5 years",
+     "4.5 years"
+    ],
+    "value": 4.5,
+    "unit": "years",
+    "dim": "시간",
+    "base": 142009200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "240 lb",
+    "mentions": [
+     "240 lb"
+    ],
+    "value": 240.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 108.8621688,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "110 kg",
+    "mentions": [
+     "110 kg"
+    ],
+    "value": 110.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 110.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "110"
+    }
+   }
+  ],
+  "only_count": 5
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-04",
+  "target": "차세대소형위성 1호",
+  "lang": "ko",
+  "title": "차세대소형위성 1호",
+  "revid": 39523359,
+  "chars": 2520,
+  "table_count": 1,
+  "infobox_lines": 10,
+  "md_infobox_lines": 10,
+  "numbers": [
+   {
+    "raw": "578 mm",
+    "mentions": [
+     "578 mm"
+    ],
+    "value": 578.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.578,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "598 mm",
+    "mentions": [
+     "598 mm"
+    ],
+    "value": 598.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.598,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "923mm",
+    "mentions": [
+     "923mm"
+    ],
+    "value": 923.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.923,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1 m",
+    "mentions": [
+     "1 m",
+     "1m",
+     "1m"
+    ],
+    "value": 1.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 1.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "2.5 m",
+    "mentions": [
+     "2.5 m"
+    ],
+    "value": 2.5,
+    "unit": "m",
+    "dim": "길이",
+    "base": 2.5,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3m",
+    "mentions": [
+     "3m"
+    ],
+    "value": 3.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 3.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "4 m",
+    "mentions": [
+     "4 m",
+     "4 m",
+     "4m"
+    ],
+    "value": 4.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 4.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "4"
+    }
+   },
+   {
+    "raw": "5 m",
+    "mentions": [
+     "5 m",
+     "5m"
+    ],
+    "value": 5.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 5.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "500 km",
+    "mentions": [
+     "500 km"
+    ],
+    "value": 500.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 500000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "575km",
+    "mentions": [
+     "575km",
+     "575㎞",
+     "575 km"
+    ],
+    "value": 575.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 575000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "575"
+    }
+   },
+   {
+    "raw": "5분",
+    "mentions": [
+     "5분"
+    ],
+    "value": 5.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 300.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "10분",
+    "mentions": [
+     "10분"
+    ],
+    "value": 10.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 600.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "10"
+    }
+   },
+   {
+    "raw": "31분",
+    "mentions": [
+     "31분"
+    ],
+    "value": 31.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 1860.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "31"
+    }
+   },
+   {
+    "raw": "34분",
+    "mentions": [
+     "34분"
+    ],
+    "value": 34.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 2040.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "34"
+    }
+   },
+   {
+    "raw": "80분",
+    "mentions": [
+     "80분"
+    ],
+    "value": 80.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 4800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "80"
+    }
+   },
+   {
+    "raw": "100분",
+    "mentions": [
+     "100분"
+    ],
+    "value": 100.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 6000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "100"
+    }
+   },
+   {
+    "raw": "6시간",
+    "mentions": [
+     "6시간"
+    ],
+    "value": 6.0,
+    "unit": "시간",
+    "dim": "시간",
+    "base": 21600.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "6"
+    }
+   },
+   {
+    "raw": "2년",
+    "mentions": [
+     "2년",
+     "2년",
+     "2년",
+     "2년"
+    ],
+    "value": 2.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "100 kg",
+    "mentions": [
+     "100 kg"
+    ],
+    "value": 100.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 100.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "100"
+    }
+   },
+   {
+    "raw": "107kg",
+    "mentions": [
+     "107kg"
+    ],
+    "value": 107.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 107.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "107"
+    }
+   },
+   {
+    "raw": "130kg",
+    "mentions": [
+     "130kg"
+    ],
+    "value": 130.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 130.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "150 kg",
+    "mentions": [
+     "150 kg",
+     "150kg"
+    ],
+    "value": 150.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 150.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "350kg",
+    "mentions": [
+     "350kg"
+    ],
+    "value": 350.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 350.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "400kg",
+    "mentions": [
+     "400kg",
+     "400kg"
+    ],
+    "value": 400.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 400.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "500㎏",
+    "mentions": [
+     "500㎏",
+     "500kg"
+    ],
+    "value": 500.0,
+    "unit": "㎏",
+    "dim": "질량",
+    "base": 500.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3톤",
+    "mentions": [
+     "3톤"
+    ],
+    "value": 3.0,
+    "unit": "톤",
+    "dim": "질량",
+    "base": 3000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   }
+  ],
+  "only_count": 12
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-04",
+  "target": "차세대소형위성 1호",
+  "lang": "en",
+  "title": "NEXTSat-1",
+  "revid": 1316807034,
+  "chars": 2750,
+  "table_count": 0,
+  "infobox_lines": 5,
+  "md_infobox_lines": 5,
+  "numbers": [
+   {
+    "raw": "575 km",
+    "mentions": [
+     "575 km"
+    ],
+    "value": 575.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 575000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "575"
+    }
+   },
+   {
+    "raw": "236 lb",
+    "mentions": [
+     "236 lb"
+    ],
+    "value": 236.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 107.04779932000001,
+    "other_lang": {
+     "reason": "b",
+     "found": "107kg"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-05",
+  "target": "아리랑 3호",
+  "lang": "ko",
+  "title": "아리랑 3호",
+  "revid": 41640531,
+  "chars": 1152,
+  "table_count": 0,
+  "infobox_lines": 12,
+  "md_infobox_lines": 12,
+  "numbers": [
+   {
+    "raw": "0.7m",
+    "mentions": [
+     "0.7m",
+     "70 cm"
+    ],
+    "value": 0.7,
+    "unit": "m",
+    "dim": "길이",
+    "base": 0.7,
+    "other_lang": {
+     "reason": "a",
+     "found": "70"
+    }
+   },
+   {
+    "raw": "2.0 m",
+    "mentions": [
+     "2.0 m"
+    ],
+    "value": 2.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 2.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2.8m",
+    "mentions": [
+     "2.8m"
+    ],
+    "value": 2.8,
+    "unit": "m",
+    "dim": "길이",
+    "base": 2.8,
+    "other_lang": {
+     "reason": "a",
+     "found": "2.8"
+    }
+   },
+   {
+    "raw": "3.2 m",
+    "mentions": [
+     "3.2 m"
+    ],
+    "value": 3.2,
+    "unit": "m",
+    "dim": "길이",
+    "base": 3.2,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "685km",
+    "mentions": [
+     "685km"
+    ],
+    "value": 685.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 685000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "685"
+    }
+   },
+   {
+    "raw": "39분",
+    "mentions": [
+     "39분"
+    ],
+    "value": 39.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 2340.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "39"
+    }
+   },
+   {
+    "raw": "12일",
+    "mentions": [
+     "12일"
+    ],
+    "value": 12.0,
+    "unit": "일",
+    "dim": "시간",
+    "base": 1036800.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "4년",
+    "mentions": [
+     "4년"
+    ],
+    "value": 4.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 126230400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "4"
+    }
+   },
+   {
+    "raw": "980 Kg",
+    "mentions": [
+     "980 Kg"
+    ],
+    "value": 980.0,
+    "unit": "Kg",
+    "dim": "질량",
+    "base": 980.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "980"
+    }
+   },
+   {
+    "raw": "1.3 kW",
+    "mentions": [
+     "1.3 kW"
+    ],
+    "value": 1.3,
+    "unit": "kW",
+    "dim": "출력",
+    "base": 1300.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1.3"
+    }
+   }
+  ],
+  "only_count": 3
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-05",
+  "target": "아리랑 3호",
+  "lang": "en",
+  "title": "KOMPSAT-3",
+  "revid": 1354708214,
+  "chars": 3415,
+  "table_count": 1,
+  "infobox_lines": 21,
+  "md_infobox_lines": 20,
+  "numbers": [
+   {
+    "raw": "30°",
+    "mentions": [
+     "30°"
+    ],
+    "value": 30.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 30.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "98.13°",
+    "mentions": [
+     "98.13°",
+     "98.13°"
+    ],
+    "value": 98.13,
+    "unit": "°",
+    "dim": "각도",
+    "base": 98.13,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "70 cm",
+    "mentions": [
+     "70 cm"
+    ],
+    "value": 70.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.7000000000000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "70"
+    }
+   },
+   {
+    "raw": "2.8 m",
+    "mentions": [
+     "2.8 m",
+     "2.8 m",
+     "2.8 m",
+     "2.8 m"
+    ],
+    "value": 2.8,
+    "unit": "m",
+    "dim": "길이",
+    "base": 2.8,
+    "other_lang": {
+     "reason": "a",
+     "found": "2.8"
+    }
+   },
+   {
+    "raw": "2.9 m",
+    "mentions": [
+     "2.9 m"
+    ],
+    "value": 2.9,
+    "unit": "m",
+    "dim": "길이",
+    "base": 2.9,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3.5 m",
+    "mentions": [
+     "3.5 m"
+    ],
+    "value": 3.5,
+    "unit": "m",
+    "dim": "길이",
+    "base": 3.5,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "16.8 km",
+    "mentions": [
+     "16.8 km",
+     "16.8 km",
+     "16.8 km",
+     "16.8 km",
+     "16.8 km",
+     "16.8 km"
+    ],
+    "value": 16.8,
+    "unit": "km",
+    "dim": "길이",
+    "base": 16800.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "685 km",
+    "mentions": [
+     "685 km",
+     "425.7 mi",
+     "685.1 km",
+     "685.1 km",
+     "426 mi"
+    ],
+    "value": 685.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 685000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "685"
+    }
+   },
+   {
+    "raw": "3 days",
+    "mentions": [
+     "3 days"
+    ],
+    "value": 3.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 259200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "28 days",
+    "mentions": [
+     "28 days"
+    ],
+    "value": 28.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 2419200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "5 months",
+    "mentions": [
+     "5 months"
+    ],
+    "value": 5.0,
+    "unit": "months",
+    "dim": "시간",
+    "base": 13148730.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "4 years",
+    "mentions": [
+     "4 years",
+     "4 years"
+    ],
+    "value": 4.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 126230400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "4"
+    }
+   },
+   {
+    "raw": "14 years",
+    "mentions": [
+     "14 years"
+    ],
+    "value": 14.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 441806400.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2,160 lb",
+    "mentions": [
+     "2,160 lb",
+     "2,160 lb",
+     "980 kg",
+     "980 kg",
+     "980 kg"
+    ],
+    "value": 2160.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 979.7595192,
+    "other_lang": {
+     "reason": "a",
+     "found": "980"
+    }
+   },
+   {
+    "raw": "1.3 kW",
+    "mentions": [
+     "1.3 kW"
+    ],
+    "value": 1.3,
+    "unit": "kW",
+    "dim": "출력",
+    "base": 1300.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1.3"
+    }
+   }
+  ],
+  "only_count": 7
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-06",
+  "target": "차세대소형위성 2호",
+  "lang": "ko",
+  "title": "차세대소형위성 2호",
+  "revid": 39742416,
+  "chars": 1062,
+  "table_count": 0,
+  "infobox_lines": 9,
+  "md_infobox_lines": 9,
+  "numbers": [
+   {
+    "raw": "8.5cm",
+    "mentions": [
+     "8.5cm"
+    ],
+    "value": 8.5,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.085,
+    "other_lang": {
+     "reason": "a",
+     "found": "8.5"
+    }
+   },
+   {
+    "raw": "14.4cm",
+    "mentions": [
+     "14.4cm"
+    ],
+    "value": 14.4,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.14400000000000002,
+    "other_lang": {
+     "reason": "a",
+     "found": "14.4"
+    }
+   },
+   {
+    "raw": "19cm",
+    "mentions": [
+     "19cm"
+    ],
+    "value": 19.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.19,
+    "other_lang": {
+     "reason": "a",
+     "found": "19"
+    }
+   },
+   {
+    "raw": "550km",
+    "mentions": [
+     "550km"
+    ],
+    "value": 550.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 550000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7분",
+    "mentions": [
+     "7분"
+    ],
+    "value": 7.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 420.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "7"
+    }
+   },
+   {
+    "raw": "24분",
+    "mentions": [
+     "24분",
+     "24분"
+    ],
+    "value": 24.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 1440.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "24"
+    }
+   },
+   {
+    "raw": "58분",
+    "mentions": [
+     "58분"
+    ],
+    "value": 58.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 3480.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "58"
+    }
+   },
+   {
+    "raw": "26일",
+    "mentions": [
+     "26일"
+    ],
+    "value": 26.0,
+    "unit": "일",
+    "dim": "시간",
+    "base": 2246400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "26"
+    }
+   },
+   {
+    "raw": "3개월",
+    "mentions": [
+     "3개월"
+    ],
+    "value": 3.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 7889238.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2년",
+    "mentions": [
+     "2년",
+     "2년"
+    ],
+    "value": 2.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "1.7kg",
+    "mentions": [
+     "1.7kg"
+    ],
+    "value": 1.7,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1.7,
+    "other_lang": {
+     "reason": "a",
+     "found": "1.7"
+    }
+   },
+   {
+    "raw": "179.9kg",
+    "mentions": [
+     "179.9kg"
+    ],
+    "value": 179.9,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 179.9,
+    "other_lang": {
+     "reason": "a",
+     "found": "179.9"
+    }
+   },
+   {
+    "raw": "230W",
+    "mentions": [
+     "230W"
+    ],
+    "value": 230.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 230.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "230"
+    }
+   }
+  ],
+  "only_count": 2
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-06",
+  "target": "차세대소형위성 2호",
+  "lang": "en",
+  "title": "NEXTSat-2",
+  "revid": 1310232265,
+  "chars": 2706,
+  "table_count": 0,
+  "infobox_lines": 7,
+  "md_infobox_lines": 5,
+  "numbers": [
+   {
+    "raw": "8.5 cm",
+    "mentions": [
+     "8.5 cm"
+    ],
+    "value": 8.5,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.085,
+    "other_lang": {
+     "reason": "a",
+     "found": "8.5"
+    }
+   },
+   {
+    "raw": "14.4 cm",
+    "mentions": [
+     "14.4 cm"
+    ],
+    "value": 14.4,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.14400000000000002,
+    "other_lang": {
+     "reason": "a",
+     "found": "14.4"
+    }
+   },
+   {
+    "raw": "19 cm",
+    "mentions": [
+     "19 cm"
+    ],
+    "value": 19.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.19,
+    "other_lang": {
+     "reason": "a",
+     "found": "19"
+    }
+   },
+   {
+    "raw": "1.7 kg",
+    "mentions": [
+     "1.7 kg"
+    ],
+    "value": 1.7,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1.7,
+    "other_lang": {
+     "reason": "a",
+     "found": "1.7"
+    }
+   },
+   {
+    "raw": "179.9 kg",
+    "mentions": [
+     "179.9 kg",
+     "397 lb"
+    ],
+    "value": 179.9,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 179.9,
+    "other_lang": {
+     "reason": "a",
+     "found": "179.9"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-07",
+  "target": "과학기술위성 2호",
+  "lang": "ko",
+  "title": "과학기술위성 2호",
+  "revid": 40464015,
+  "chars": 914,
+  "table_count": 0,
+  "infobox_lines": 8,
+  "md_infobox_lines": 8,
+  "numbers": [
+   {
+    "raw": "898mm",
+    "mentions": [
+     "898mm"
+    ],
+    "value": 898.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.898,
+    "other_lang": {
+     "reason": "b",
+     "found": "90 cm"
+    }
+   },
+   {
+    "raw": "56초",
+    "mentions": [
+     "56초"
+    ],
+    "value": 56.0,
+    "unit": "초",
+    "dim": "시간",
+    "base": 56.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1분",
+    "mentions": [
+     "1분"
+    ],
+    "value": 1.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 60.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "137.19초",
+    "mentions": [
+     "137.19초"
+    ],
+    "value": 137.19,
+    "unit": "초",
+    "dim": "시간",
+    "base": 137.19,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7분",
+    "mentions": [
+     "7분"
+    ],
+    "value": 7.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 420.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2년",
+    "mentions": [
+     "2년"
+    ],
+    "value": 2.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "99.4 kg",
+    "mentions": [
+     "99.4 kg",
+     "100㎏",
+     "100kg"
+    ],
+    "value": 99.4,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 99.4,
+    "other_lang": {
+     "reason": "a",
+     "found": "100"
+    }
+   }
+  ],
+  "only_count": 3
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-07",
+  "target": "과학기술위성 2호",
+  "lang": "en",
+  "title": "STSat-2A",
+  "revid": 1379425448,
+  "chars": 1963,
+  "table_count": 0,
+  "infobox_lines": 21,
+  "md_infobox_lines": 21,
+  "numbers": [
+   {
+    "raw": "80.0°",
+    "mentions": [
+     "80.0°"
+    ],
+    "value": 80.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 80.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "62 cm",
+    "mentions": [
+     "62 cm"
+    ],
+    "value": 62.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.62,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "70 cm",
+    "mentions": [
+     "70 cm"
+    ],
+    "value": 70.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.7000000000000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "90 cm",
+    "mentions": [
+     "90 cm"
+    ],
+    "value": 90.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.9,
+    "other_lang": {
+     "reason": "b",
+     "found": "898mm"
+    }
+   },
+   {
+    "raw": "300 km",
+    "mentions": [
+     "300 km"
+    ],
+    "value": 300.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 300000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "190 mi",
+    "mentions": [
+     "190 mi"
+    ],
+    "value": 190.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 305775.36,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "930 mi",
+    "mentions": [
+     "930 mi",
+     "1,500 km"
+    ],
+    "value": 930.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 1496689.9200000002,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2 years",
+    "mentions": [
+     "2 years"
+    ],
+    "value": 2.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "220 lb",
+    "mentions": [
+     "220 lb",
+     "100 kg"
+    ],
+    "value": 220.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 99.79032140000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "100"
+    }
+   }
+  ],
+  "only_count": 6
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-08",
+  "target": "OSSI-1",
+  "lang": "ko",
+  "title": "OSSI-1",
+  "revid": 39422519,
+  "chars": 1154,
+  "table_count": 0,
+  "infobox_lines": 23,
+  "md_infobox_lines": 23,
+  "numbers": [
+   {
+    "raw": "10cm",
+    "mentions": [
+     "10cm",
+     "10cm",
+     "10cm",
+     "100mm"
+    ],
+    "value": 10.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.1,
+    "other_lang": {
+     "reason": "a",
+     "found": "10"
+    }
+   },
+   {
+    "raw": "263.0km",
+    "mentions": [
+     "263.0km"
+    ],
+    "value": 263.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 263000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "263.0"
+    }
+   },
+   {
+    "raw": "552.8km",
+    "mentions": [
+     "552.8km"
+    ],
+    "value": 552.8,
+    "unit": "km",
+    "dim": "길이",
+    "base": 552800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "552.8"
+    }
+   },
+   {
+    "raw": "6,778km",
+    "mentions": [
+     "6,778km"
+    ],
+    "value": 6778.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 6778000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "6778"
+    }
+   },
+   {
+    "raw": "15분",
+    "mentions": [
+     "15분"
+    ],
+    "value": 15.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 900.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "15"
+    }
+   },
+   {
+    "raw": "92.6분",
+    "mentions": [
+     "92.6분"
+    ],
+    "value": 92.6,
+    "unit": "분",
+    "dim": "시간",
+    "base": 5556.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "92.6"
+    }
+   },
+   {
+    "raw": "2년",
+    "mentions": [
+     "2년"
+    ],
+    "value": 2.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "7년",
+    "mentions": [
+     "7년"
+    ],
+    "value": 7.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 220903200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "950g",
+    "mentions": [
+     "950g",
+     "950g"
+    ],
+    "value": 950.0,
+    "unit": "g",
+    "dim": "질량",
+    "base": 0.9500000000000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "950"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-08",
+  "target": "OSSI-1",
+  "lang": "en",
+  "title": "OSSI-1",
+  "revid": 1352390010,
+  "chars": 2125,
+  "table_count": 0,
+  "infobox_lines": 21,
+  "md_infobox_lines": 21,
+  "numbers": [
+   {
+    "raw": "100mm",
+    "mentions": [
+     "100mm"
+    ],
+    "value": 100.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.1,
+    "other_lang": {
+     "reason": "a",
+     "found": "100"
+    }
+   },
+   {
+    "raw": "163.4 mi",
+    "mentions": [
+     "163.4 mi"
+    ],
+    "value": 163.4,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 262966.80960000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "163.4"
+    }
+   },
+   {
+    "raw": "343.5 mi",
+    "mentions": [
+     "343.5 mi"
+    ],
+    "value": 343.5,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 552809.664,
+    "other_lang": {
+     "reason": "a",
+     "found": "343.5"
+    }
+   },
+   {
+    "raw": "4,212 mi",
+    "mentions": [
+     "4,212 mi"
+    ],
+    "value": 4212.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 6778556.928,
+    "other_lang": {
+     "reason": "a",
+     "found": "4212"
+    }
+   },
+   {
+    "raw": "950g",
+    "mentions": [
+     "950g",
+     "950g"
+    ],
+    "value": 950.0,
+    "unit": "g",
+    "dim": "질량",
+    "base": 0.9500000000000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "950"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-09",
+  "target": "무궁화 1호",
+  "lang": "ko",
+  "title": "무궁화 1호",
+  "revid": 39017918,
+  "chars": 481,
+  "table_count": 0,
+  "infobox_lines": 15,
+  "md_infobox_lines": 15,
+  "numbers": [
+   {
+    "raw": "35,786km",
+    "mentions": [
+     "35,786km"
+    ],
+    "value": 35786.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 35786000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "22,230 mi"
+    }
+   },
+   {
+    "raw": "4개월",
+    "mentions": [
+     "4개월",
+     "4개월"
+    ],
+    "value": 4.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 10518984.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "4년",
+    "mentions": [
+     "4년"
+    ],
+    "value": 4.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 126230400.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "10년",
+    "mentions": [
+     "10년",
+     "10년"
+    ],
+    "value": 10.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 315576000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "10"
+    }
+   },
+   {
+    "raw": "1,464㎏",
+    "mentions": [
+     "1,464㎏"
+    ],
+    "value": 1464.0,
+    "unit": "㎏",
+    "dim": "질량",
+    "base": 1464.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1464"
+    }
+   },
+   {
+    "raw": "14W",
+    "mentions": [
+     "14W"
+    ],
+    "value": 14.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 14.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "120W",
+    "mentions": [
+     "120W"
+    ],
+    "value": 120.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 120.0,
+    "other_lang": "그 언어에만"
+   }
+  ],
+  "only_count": 4
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-09",
+  "target": "무궁화 1호",
+  "lang": "en",
+  "title": "Koreasat 1",
+  "revid": 1354708902,
+  "chars": 1216,
+  "table_count": 0,
+  "infobox_lines": 25,
+  "md_infobox_lines": 24,
+  "numbers": [
+   {
+    "raw": "2.155°",
+    "mentions": [
+     "2.155°"
+    ],
+    "value": 2.155,
+    "unit": "°",
+    "dim": "각도",
+    "base": 2.155,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2.7°",
+    "mentions": [
+     "2.7°"
+    ],
+    "value": 2.7,
+    "unit": "°",
+    "dim": "각도",
+    "base": 2.7,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "47.5°",
+    "mentions": [
+     "47.5°"
+    ],
+    "value": 47.5,
+    "unit": "°",
+    "dim": "각도",
+    "base": 47.5,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "116°",
+    "mentions": [
+     "116°",
+     "116°"
+    ],
+    "value": 116.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 116.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "116"
+    }
+   },
+   {
+    "raw": "152.88°",
+    "mentions": [
+     "152.88°"
+    ],
+    "value": 152.88,
+    "unit": "°",
+    "dim": "각도",
+    "base": 152.88,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "5,000 km",
+    "mentions": [
+     "5,000 km"
+    ],
+    "value": 5000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 5000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "22,230 mi",
+    "mentions": [
+     "22,230 mi",
+     "22,243 mi"
+    ],
+    "value": 22230.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 35775717.120000005,
+    "other_lang": {
+     "reason": "b",
+     "found": "35,786km"
+    }
+   },
+   {
+    "raw": "4.5 years",
+    "mentions": [
+     "4.5 years"
+    ],
+    "value": 4.5,
+    "unit": "years",
+    "dim": "시간",
+    "base": 142009200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7.5 years",
+    "mentions": [
+     "7.5 years"
+    ],
+    "value": 7.5,
+    "unit": "years",
+    "dim": "시간",
+    "base": 236682000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "10 years",
+    "mentions": [
+     "10 years",
+     "10 years"
+    ],
+    "value": 10.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 315576000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "10"
+    }
+   },
+   {
+    "raw": "412 lb",
+    "mentions": [
+     "412 lb",
+     "187 kg"
+    ],
+    "value": 412.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 186.88005644,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "625 kg",
+    "mentions": [
+     "625 kg",
+     "1,378 lb"
+    ],
+    "value": 625.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 625.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1,567 lb",
+    "mentions": [
+     "1,567 lb"
+    ],
+    "value": 1567.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 710.77924379,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3,228 lb",
+    "mentions": [
+     "3,228 lb"
+    ],
+    "value": 3228.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 1464.19617036,
+    "other_lang": {
+     "reason": "b",
+     "found": "1,464㎏"
+    }
+   }
+  ],
+  "only_count": 10
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-10",
+  "target": "무궁화 5호",
+  "lang": "ko",
+  "title": "무궁화 5호",
+  "revid": 42008586,
+  "chars": 871,
+  "table_count": 0,
+  "infobox_lines": 10,
+  "md_infobox_lines": 10,
+  "numbers": [
+   {
+    "raw": "6,000 km",
+    "mentions": [
+     "6,000 km"
+    ],
+    "value": 6000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 6000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7,000 km",
+    "mentions": [
+     "7,000 km"
+    ],
+    "value": 7000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 7000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "36000 km",
+    "mentions": [
+     "36000 km"
+    ],
+    "value": 36000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 36000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "15년",
+    "mentions": [
+     "15년",
+     "15년"
+    ],
+    "value": 15.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 473364000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "15"
+    }
+   },
+   {
+    "raw": "4톤",
+    "mentions": [
+     "4톤"
+    ],
+    "value": 4.0,
+    "unit": "톤",
+    "dim": "질량",
+    "base": 4000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "4.5톤",
+    "mentions": [
+     "4.5톤"
+    ],
+    "value": 4.5,
+    "unit": "톤",
+    "dim": "질량",
+    "base": 4500.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "4465 kg"
+    }
+   }
+  ],
+  "only_count": 4
+ },
+ {
+  "domain": "kr_satellites",
+  "id": "ks-10",
+  "target": "무궁화 5호",
+  "lang": "en",
+  "title": "Koreasat 5",
+  "revid": 1354709114,
+  "chars": 336,
+  "table_count": 0,
+  "infobox_lines": 16,
+  "md_infobox_lines": 15,
+  "numbers": [
+   {
+    "raw": "113°",
+    "mentions": [
+     "113°"
+    ],
+    "value": 113.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 113.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "113"
+    }
+   },
+   {
+    "raw": "28 days",
+    "mentions": [
+     "28 days"
+    ],
+    "value": 28.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 2419200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1 month",
+    "mentions": [
+     "1 month"
+    ],
+    "value": 1.0,
+    "unit": "month",
+    "dim": "시간",
+    "base": 2629746.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "15 years",
+    "mentions": [
+     "15 years"
+    ],
+    "value": 15.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 473364000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "15"
+    }
+   },
+   {
+    "raw": "20 years",
+    "mentions": [
+     "20 years"
+    ],
+    "value": 20.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 631152000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "4465 kg",
+    "mentions": [
+     "4465 kg"
+    ],
+    "value": 4465.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 4465.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "4.5톤"
+    }
+   }
+  ],
+  "only_count": 2
+ },
+ {
+  "domain": "probes",
+  "id": "pr-01",
+  "target": "제22호 과학위성 히노데",
+  "lang": "ko",
+  "title": "제22호 과학위성 히노데",
+  "revid": 39489618,
+  "chars": 1821,
+  "table_count": 0,
+  "infobox_lines": 14,
+  "md_infobox_lines": 14,
+  "numbers": [
+   {
+    "raw": "98.3°",
+    "mentions": [
+     "98.3°"
+    ],
+    "value": 98.3,
+    "unit": "°",
+    "dim": "각도",
+    "base": 98.3,
+    "other_lang": {
+     "reason": "a",
+     "found": "98.3"
+    }
+   },
+   {
+    "raw": "280 km",
+    "mentions": [
+     "280 km"
+    ],
+    "value": 280.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 280000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "280"
+    }
+   },
+   {
+    "raw": "686 km",
+    "mentions": [
+     "686 km"
+    ],
+    "value": 686.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 686000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "686"
+    }
+   },
+   {
+    "raw": "36분",
+    "mentions": [
+     "36분"
+    ],
+    "value": 36.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 2160.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "36"
+    }
+   },
+   {
+    "raw": "3년",
+    "mentions": [
+     "3년"
+    ],
+    "value": 3.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 94672800.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "700.0 kg",
+    "mentions": [
+     "700.0 kg"
+    ],
+    "value": 700.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 700.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "700 kg"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "probes",
+  "id": "pr-01",
+  "target": "제22호 과학위성 히노데",
+  "lang": "en",
+  "title": "Hinode (satellite)",
+  "revid": 1349741420,
+  "chars": 5078,
+  "table_count": 0,
+  "infobox_lines": 20,
+  "md_infobox_lines": 19,
+  "numbers": [
+   {
+    "raw": "98.1°",
+    "mentions": [
+     "98.1°"
+    ],
+    "value": 98.1,
+    "unit": "°",
+    "dim": "각도",
+    "base": 98.1,
+    "other_lang": {
+     "reason": "b",
+     "found": "98.3°"
+    }
+   },
+   {
+    "raw": "170 mi",
+    "mentions": [
+     "170 mi"
+    ],
+    "value": 170.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 273588.48,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "280 km",
+    "mentions": [
+     "280 km"
+    ],
+    "value": 280.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 280000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "280"
+    }
+   },
+   {
+    "raw": "411.4 mi",
+    "mentions": [
+     "411.4 mi",
+     "662.1 km"
+    ],
+    "value": 411.4,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 662084.1216,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "425.9 mi",
+    "mentions": [
+     "425.9 mi",
+     "685.5 km",
+     "426 mi",
+     "686 km"
+    ],
+    "value": 425.9,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 685419.6096,
+    "other_lang": {
+     "reason": "a",
+     "found": "686"
+    }
+   },
+   {
+    "raw": "7,044 km",
+    "mentions": [
+     "7,044 km",
+     "4,377 mi"
+    ],
+    "value": 7044.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 7044000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "28 days",
+    "mentions": [
+     "28 days"
+    ],
+    "value": 28.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 2419200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "28"
+    }
+   },
+   {
+    "raw": "20 years",
+    "mentions": [
+     "20 years"
+    ],
+    "value": 20.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 631152000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "50,000 K",
+    "mentions": [
+     "50,000 K"
+    ],
+    "value": 50000.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 50000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "50000"
+    }
+   },
+   {
+    "raw": "1,500 lb",
+    "mentions": [
+     "1,500 lb"
+    ],
+    "value": 1500.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 680.388555,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "700 kg",
+    "mentions": [
+     "700 kg"
+    ],
+    "value": 700.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 700.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "700.0 kg"
+    }
+   }
+  ],
+  "only_count": 5
+ },
+ {
+  "domain": "probes",
+  "id": "pr-02",
+  "target": "베네라 8호",
+  "lang": "ko",
+  "title": "베네라 8호",
+  "revid": 40491206,
+  "chars": 1162,
+  "table_count": 0,
+  "infobox_lines": 14,
+  "md_infobox_lines": 14,
+  "numbers": [
+   {
+    "raw": "1 km",
+    "mentions": [
+     "1 km"
+    ],
+    "value": 1.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "10 km",
+    "mentions": [
+     "10 km"
+    ],
+    "value": 10.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 10000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "10"
+    }
+   },
+   {
+    "raw": "30 km",
+    "mentions": [
+     "30 km"
+    ],
+    "value": 30.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 30000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "30"
+    }
+   },
+   {
+    "raw": "60km",
+    "mentions": [
+     "60km"
+    ],
+    "value": 60.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 60000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "60"
+    }
+   },
+   {
+    "raw": "150 km",
+    "mentions": [
+     "150 km"
+    ],
+    "value": 150.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 150000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "150"
+    }
+   },
+   {
+    "raw": "500 km",
+    "mentions": [
+     "500 km"
+    ],
+    "value": 500.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 500000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "500"
+    }
+   },
+   {
+    "raw": "900 km/h",
+    "mentions": [
+     "900 km/h"
+    ],
+    "value": 900.0,
+    "unit": "km/h",
+    "dim": "속도",
+    "base": 250.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "900"
+    }
+   },
+   {
+    "raw": "1 km/s",
+    "mentions": [
+     "1 km/s"
+    ],
+    "value": 1.0,
+    "unit": "km/s",
+    "dim": "속도",
+    "base": 1000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "41,696 km/h",
+    "mentions": [
+     "41,696 km/h"
+    ],
+    "value": 41696.0,
+    "unit": "km/h",
+    "dim": "속도",
+    "base": 11582.222222222223,
+    "other_lang": {
+     "reason": "a",
+     "found": "41696"
+    }
+   },
+   {
+    "raw": "1초",
+    "mentions": [
+     "1초"
+    ],
+    "value": 1.0,
+    "unit": "초",
+    "dim": "시간",
+    "base": 1.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "11초",
+    "mentions": [
+     "11초"
+    ],
+    "value": 11.0,
+    "unit": "초",
+    "dim": "시간",
+    "base": 11.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "11"
+    }
+   },
+   {
+    "raw": "15분",
+    "mentions": [
+     "15분"
+    ],
+    "value": 15.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 900.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "15"
+    }
+   },
+   {
+    "raw": "32분",
+    "mentions": [
+     "32분",
+     "32분"
+    ],
+    "value": 32.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 1920.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "32"
+    }
+   },
+   {
+    "raw": "50분",
+    "mentions": [
+     "50분"
+    ],
+    "value": 50.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 3000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "50"
+    }
+   },
+   {
+    "raw": "117일",
+    "mentions": [
+     "117일",
+     "117일"
+    ],
+    "value": 117.0,
+    "unit": "일",
+    "dim": "시간",
+    "base": 10108800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "117"
+    }
+   },
+   {
+    "raw": "1180 kg",
+    "mentions": [
+     "1180 kg"
+    ],
+    "value": 1180.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1180.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "2,610 lb"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "probes",
+  "id": "pr-02",
+  "target": "베네라 8호",
+  "lang": "en",
+  "title": "Venera 8",
+  "revid": 1353147480,
+  "chars": 2688,
+  "table_count": 0,
+  "infobox_lines": 23,
+  "md_infobox_lines": 22,
+  "numbers": [
+   {
+    "raw": "10.70°",
+    "mentions": [
+     "10.70°",
+     "10.70°"
+    ],
+    "value": 10.7,
+    "unit": "°",
+    "dim": "각도",
+    "base": 10.7,
+    "other_lang": {
+     "reason": "a",
+     "found": "10.70"
+    }
+   },
+   {
+    "raw": "51.7°",
+    "mentions": [
+     "51.7°"
+    ],
+    "value": 51.7,
+    "unit": "°",
+    "dim": "각도",
+    "base": 51.7,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "335.25°",
+    "mentions": [
+     "335.25°",
+     "335.25°"
+    ],
+    "value": 335.25,
+    "unit": "°",
+    "dim": "각도",
+    "base": 335.25,
+    "other_lang": {
+     "reason": "a",
+     "found": "335.25"
+    }
+   },
+   {
+    "raw": "1 km",
+    "mentions": [
+     "1 km"
+    ],
+    "value": 1.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "10 km",
+    "mentions": [
+     "10 km"
+    ],
+    "value": 10.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 10000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "10"
+    }
+   },
+   {
+    "raw": "30 km",
+    "mentions": [
+     "30 km"
+    ],
+    "value": 30.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 30000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "30"
+    }
+   },
+   {
+    "raw": "60 km",
+    "mentions": [
+     "60 km"
+    ],
+    "value": 60.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 60000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "60"
+    }
+   },
+   {
+    "raw": "150 km",
+    "mentions": [
+     "150 km"
+    ],
+    "value": 150.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 150000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "150"
+    }
+   },
+   {
+    "raw": "121 mi",
+    "mentions": [
+     "121 mi"
+    ],
+    "value": 121.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 194730.624,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "153 mi",
+    "mentions": [
+     "153 mi"
+    ],
+    "value": 153.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 246229.632,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "500 km",
+    "mentions": [
+     "500 km"
+    ],
+    "value": 500.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 500000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "500"
+    }
+   },
+   {
+    "raw": "4,095 mi",
+    "mentions": [
+     "4,095 mi"
+    ],
+    "value": 4095.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 6590263.680000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1 m/s",
+    "mentions": [
+     "1 m/s"
+    ],
+    "value": 1.0,
+    "unit": "m/s",
+    "dim": "속도",
+    "base": 1.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "900 km/h",
+    "mentions": [
+     "900 km/h"
+    ],
+    "value": 900.0,
+    "unit": "km/h",
+    "dim": "속도",
+    "base": 250.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "900"
+    }
+   },
+   {
+    "raw": "41,696 km/h",
+    "mentions": [
+     "41,696 km/h"
+    ],
+    "value": 41696.0,
+    "unit": "km/h",
+    "dim": "속도",
+    "base": 11582.222222222223,
+    "other_lang": {
+     "reason": "a",
+     "found": "41696"
+    }
+   },
+   {
+    "raw": "50 min",
+    "mentions": [
+     "50 min"
+    ],
+    "value": 50.0,
+    "unit": "min",
+    "dim": "시간",
+    "base": 3000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "50"
+    }
+   },
+   {
+    "raw": "117 days",
+    "mentions": [
+     "117 days",
+     "117 days"
+    ],
+    "value": 117.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 10108800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "117"
+    }
+   },
+   {
+    "raw": "470 °C",
+    "mentions": [
+     "470 °C"
+    ],
+    "value": 470.0,
+    "unit": "°C",
+    "dim": "온도",
+    "base": 743.15,
+    "other_lang": {
+     "reason": "a",
+     "found": "470"
+    }
+   },
+   {
+    "raw": "1,091 lb",
+    "mentions": [
+     "1,091 lb",
+     "495 kg"
+    ],
+    "value": 1091.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 494.86927567000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "495"
+    }
+   },
+   {
+    "raw": "2,610 lb",
+    "mentions": [
+     "2,610 lb"
+    ],
+    "value": 2610.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 1183.8760857,
+    "other_lang": {
+     "reason": "b",
+     "found": "1180 kg"
+    }
+   }
+  ],
+  "only_count": 4
+ },
+ {
+  "domain": "probes",
+  "id": "pr-03",
+  "target": "트리톤 호퍼",
+  "lang": "ko",
+  "title": "트리톤 호퍼",
+  "revid": 40295479,
+  "chars": 362,
+  "table_count": 0,
+  "infobox_lines": 6,
+  "md_infobox_lines": 6,
+  "numbers": [
+   {
+    "raw": "1km",
+    "mentions": [
+     "1km"
+    ],
+    "value": 1.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "5km",
+    "mentions": [
+     "5km"
+    ],
+    "value": 5.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 5000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "500kg",
+    "mentions": [
+     "500kg"
+    ],
+    "value": 500.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 500.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "500"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "probes",
+  "id": "pr-03",
+  "target": "트리톤 호퍼",
+  "lang": "en",
+  "title": "Triton Hopper",
+  "revid": 1354586355,
+  "chars": 2127,
+  "table_count": 0,
+  "infobox_lines": 4,
+  "md_infobox_lines": 4,
+  "numbers": [
+   {
+    "raw": "1 km",
+    "mentions": [
+     "1 km"
+    ],
+    "value": 1.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 1000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "5 km",
+    "mentions": [
+     "5 km"
+    ],
+    "value": 5.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 5000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "40,000 km",
+    "mentions": [
+     "40,000 km"
+    ],
+    "value": 40000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 40000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "500 kg",
+    "mentions": [
+     "500 kg"
+    ],
+    "value": 500.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 500.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "500"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "probes",
+  "id": "pr-04",
+  "target": "잉훠 1호",
+  "lang": "ko",
+  "title": "잉훠 1호",
+  "revid": 39410162,
+  "chars": 2354,
+  "table_count": 0,
+  "infobox_lines": 13,
+  "md_infobox_lines": 13,
+  "numbers": [
+   {
+    "raw": "5 °",
+    "mentions": [
+     "5 °"
+    ],
+    "value": 5.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 5.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "0.6 m",
+    "mentions": [
+     "0.6 m"
+    ],
+    "value": 0.6,
+    "unit": "m",
+    "dim": "길이",
+    "base": 0.6,
+    "other_lang": {
+     "reason": "a",
+     "found": "0.6"
+    }
+   },
+   {
+    "raw": "0.75 m",
+    "mentions": [
+     "0.75 m",
+     "0.75 m"
+    ],
+    "value": 0.75,
+    "unit": "m",
+    "dim": "길이",
+    "base": 0.75,
+    "other_lang": {
+     "reason": "a",
+     "found": "0.75"
+    }
+   },
+   {
+    "raw": "950 mm",
+    "mentions": [
+     "950 mm"
+    ],
+    "value": 950.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.9500000000000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "950"
+    }
+   },
+   {
+    "raw": "5.6 m",
+    "mentions": [
+     "5.6 m"
+    ],
+    "value": 5.6,
+    "unit": "m",
+    "dim": "길이",
+    "base": 5.6,
+    "other_lang": {
+     "reason": "a",
+     "found": "5.6"
+    }
+   },
+   {
+    "raw": "200 m",
+    "mentions": [
+     "200 m"
+    ],
+    "value": 200.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "200"
+    }
+   },
+   {
+    "raw": "147 km",
+    "mentions": [
+     "147 km"
+    ],
+    "value": 147.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 147000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "147"
+    }
+   },
+   {
+    "raw": "800 km",
+    "mentions": [
+     "800 km"
+    ],
+    "value": 800.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 800000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "800"
+    }
+   },
+   {
+    "raw": "80000 km",
+    "mentions": [
+     "80000 km"
+    ],
+    "value": 80000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 80000000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "80000"
+    }
+   },
+   {
+    "raw": "03초",
+    "mentions": [
+     "03초"
+    ],
+    "value": 3.0,
+    "unit": "초",
+    "dim": "시간",
+    "base": 3.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "03"
+    }
+   },
+   {
+    "raw": "16분",
+    "mentions": [
+     "16분"
+    ],
+    "value": 16.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 960.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "16"
+    }
+   },
+   {
+    "raw": "8.8시간",
+    "mentions": [
+     "8.8시간"
+    ],
+    "value": 8.8,
+    "unit": "시간",
+    "dim": "시간",
+    "base": 31680.000000000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "8.8"
+    }
+   },
+   {
+    "raw": "3 일",
+    "mentions": [
+     "3 일"
+    ],
+    "value": 3.0,
+    "unit": "일",
+    "dim": "시간",
+    "base": 259200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "72.8시간",
+    "mentions": [
+     "72.8시간"
+    ],
+    "value": 72.8,
+    "unit": "시간",
+    "dim": "시간",
+    "base": 262080.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "72.8"
+    }
+   },
+   {
+    "raw": "2개월",
+    "mentions": [
+     "2개월"
+    ],
+    "value": 2.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 5259492.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "2년",
+    "mentions": [
+     "2년"
+    ],
+    "value": 2.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "115 kg",
+    "mentions": [
+     "115 kg",
+     "115 kg"
+    ],
+    "value": 115.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 115.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "115"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "probes",
+  "id": "pr-04",
+  "target": "잉훠 1호",
+  "lang": "en",
+  "title": "Yinghuo-1",
+  "revid": 1368991045,
+  "chars": 5924,
+  "table_count": 0,
+  "infobox_lines": 17,
+  "md_infobox_lines": 17,
+  "numbers": [
+   {
+    "raw": "2.0 ft",
+    "mentions": [
+     "2.0 ft"
+    ],
+    "value": 2.0,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 0.6096,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "650mm",
+    "mentions": [
+     "650mm"
+    ],
+    "value": 650.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.65,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "750mm",
+    "mentions": [
+     "750mm",
+     "750mm"
+    ],
+    "value": 750.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.75,
+    "other_lang": {
+     "reason": "b",
+     "found": "0.75 m"
+    }
+   },
+   {
+    "raw": "2.5 ft",
+    "mentions": [
+     "2.5 ft",
+     "2.5 ft"
+    ],
+    "value": 2.5,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 0.762,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "950 mm",
+    "mentions": [
+     "950 mm"
+    ],
+    "value": 950.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.9500000000000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "950"
+    }
+   },
+   {
+    "raw": "18 ft",
+    "mentions": [
+     "18 ft"
+    ],
+    "value": 18.0,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 5.486400000000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "200 m",
+    "mentions": [
+     "200 m",
+     "660 ft"
+    ],
+    "value": 200.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "200"
+    }
+   },
+   {
+    "raw": "91 mi",
+    "mentions": [
+     "91 mi"
+    ],
+    "value": 91.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 146450.304,
+    "other_lang": {
+     "reason": "b",
+     "found": "147 km"
+    }
+   },
+   {
+    "raw": "500 mi",
+    "mentions": [
+     "500 mi"
+    ],
+    "value": 500.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 804672.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "800 km"
+    }
+   },
+   {
+    "raw": "50,000 mi",
+    "mentions": [
+     "50,000 mi"
+    ],
+    "value": 50000.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 80467200.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "80000 km"
+    }
+   },
+   {
+    "raw": "3 days",
+    "mentions": [
+     "3 days"
+    ],
+    "value": 3.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 259200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "1 year",
+    "mentions": [
+     "1 year"
+    ],
+    "value": 1.0,
+    "unit": "year",
+    "dim": "시간",
+    "base": 31557600.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1"
+    }
+   },
+   {
+    "raw": "254 lb",
+    "mentions": [
+     "254 lb",
+     "254 lb"
+    ],
+    "value": 254.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 115.21246198,
+    "other_lang": {
+     "reason": "b",
+     "found": "115 kg"
+    }
+   },
+   {
+    "raw": "12 W",
+    "mentions": [
+     "12 W"
+    ],
+    "value": 12.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 12.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "90 W",
+    "mentions": [
+     "90 W",
+     "90 W"
+    ],
+    "value": 90.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 90.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "90"
+    }
+   },
+   {
+    "raw": "180 W",
+    "mentions": [
+     "180 W"
+    ],
+    "value": 180.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 180.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "180"
+    }
+   }
+  ],
+  "only_count": 5
+ },
+ {
+  "domain": "probes",
+  "id": "pr-05",
+  "target": "EPOXI",
+  "lang": "ko",
+  "title": "EPOXI",
+  "revid": 42573167,
+  "chars": 4028,
+  "table_count": 1,
+  "infobox_lines": 12,
+  "md_infobox_lines": 12,
+  "numbers": [
+   {
+    "raw": "36°",
+    "mentions": [
+     "36°"
+    ],
+    "value": 36.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 36.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "435 km",
+    "mentions": [
+     "435 km"
+    ],
+    "value": 435.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 435000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "435"
+    }
+   },
+   {
+    "raw": "694km",
+    "mentions": [
+     "694km"
+    ],
+    "value": 694.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 694000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "694"
+    }
+   },
+   {
+    "raw": "0.1 m/s",
+    "mentions": [
+     "0.1 m/s"
+    ],
+    "value": 0.1,
+    "unit": "m/s",
+    "dim": "속도",
+    "base": 0.1,
+    "other_lang": {
+     "reason": "a",
+     "found": "0.1"
+    }
+   },
+   {
+    "raw": "12.3 km/s",
+    "mentions": [
+     "12.3 km/s"
+    ],
+    "value": 12.3,
+    "unit": "km/s",
+    "dim": "속도",
+    "base": 12300.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "12.3"
+    }
+   },
+   {
+    "raw": "11.3초",
+    "mentions": [
+     "11.3초"
+    ],
+    "value": 11.3,
+    "unit": "초",
+    "dim": "시간",
+    "base": 11.3,
+    "other_lang": {
+     "reason": "a",
+     "found": "11.3"
+    }
+   },
+   {
+    "raw": "3분",
+    "mentions": [
+     "3분"
+    ],
+    "value": 3.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 180.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "24시간",
+    "mentions": [
+     "24시간"
+    ],
+    "value": 24.0,
+    "unit": "시간",
+    "dim": "시간",
+    "base": 86400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "24"
+    }
+   },
+   {
+    "raw": "18일",
+    "mentions": [
+     "18일"
+    ],
+    "value": 18.0,
+    "unit": "일",
+    "dim": "시간",
+    "base": 1555200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "18"
+    }
+   },
+   {
+    "raw": "2년",
+    "mentions": [
+     "2년"
+    ],
+    "value": 2.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "8년",
+    "mentions": [
+     "8년"
+    ],
+    "value": 8.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 252460800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "8"
+    }
+   },
+   {
+    "raw": "650 kg",
+    "mentions": [
+     "650 kg"
+    ],
+    "value": 650.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 650.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "650"
+    }
+   },
+   {
+    "raw": "620.0 W",
+    "mentions": [
+     "620.0 W"
+    ],
+    "value": 620.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 620.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "620.0"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "probes",
+  "id": "pr-05",
+  "target": "EPOXI",
+  "lang": "en",
+  "title": "EPOXI",
+  "revid": 1377247476,
+  "chars": 8726,
+  "table_count": 1,
+  "infobox_lines": 13,
+  "md_infobox_lines": 13,
+  "numbers": [
+   {
+    "raw": "431 mi",
+    "mentions": [
+     "431 mi",
+     "431 mi",
+     "700 km"
+    ],
+    "value": 431.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 693627.264,
+    "other_lang": {
+     "reason": "b",
+     "found": "694km"
+    }
+   },
+   {
+    "raw": "12.3 km/s",
+    "mentions": [
+     "12.3 km/s"
+    ],
+    "value": 12.3,
+    "unit": "km/s",
+    "dim": "속도",
+    "base": 12300.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "12.3"
+    }
+   },
+   {
+    "raw": "12 days",
+    "mentions": [
+     "12 days"
+    ],
+    "value": 12.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 1036800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "12"
+    }
+   },
+   {
+    "raw": "16 days",
+    "mentions": [
+     "16 days"
+    ],
+    "value": 16.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 1382400.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "18 days",
+    "mentions": [
+     "18 days"
+    ],
+    "value": 18.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 1555200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "18"
+    }
+   },
+   {
+    "raw": "29 days",
+    "mentions": [
+     "29 days"
+    ],
+    "value": 29.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 2505600.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "29"
+    }
+   },
+   {
+    "raw": "2 months",
+    "mentions": [
+     "2 months",
+     "2 months"
+    ],
+    "value": 2.0,
+    "unit": "months",
+    "dim": "시간",
+    "base": 5259492.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "11 months",
+    "mentions": [
+     "11 months"
+    ],
+    "value": 11.0,
+    "unit": "months",
+    "dim": "시간",
+    "base": 28927206.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "11"
+    }
+   },
+   {
+    "raw": "8 years",
+    "mentions": [
+     "8 years"
+    ],
+    "value": 8.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 252460800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "8"
+    }
+   },
+   {
+    "raw": "13 years",
+    "mentions": [
+     "13 years"
+    ],
+    "value": 13.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 410248800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "13"
+    }
+   },
+   {
+    "raw": "15 years",
+    "mentions": [
+     "15 years"
+    ],
+    "value": 15.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 473364000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "21 years",
+    "mentions": [
+     "21 years"
+    ],
+    "value": 21.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 662709600.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "21"
+    }
+   },
+   {
+    "raw": "650 kg",
+    "mentions": [
+     "650 kg"
+    ],
+    "value": 650.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 650.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "650"
+    }
+   },
+   {
+    "raw": "620.0 W",
+    "mentions": [
+     "620.0 W"
+    ],
+    "value": 620.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 620.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "620.0"
+    }
+   }
+  ],
+  "only_count": 2
+ },
+ {
+  "domain": "probes",
+  "id": "pr-06",
+  "target": "비너스 익스프레스",
+  "lang": "ko",
+  "title": "비너스 익스프레스",
+  "revid": 39055042,
+  "chars": 557,
+  "table_count": 0,
+  "infobox_lines": 14,
+  "md_infobox_lines": 14,
+  "numbers": [
+   {
+    "raw": "2개월",
+    "mentions": [
+     "2개월"
+    ],
+    "value": 2.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 5259492.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "5개월",
+    "mentions": [
+     "5개월"
+    ],
+    "value": 5.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 13148730.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "5"
+    }
+   },
+   {
+    "raw": "9년",
+    "mentions": [
+     "9년"
+    ],
+    "value": 9.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 284018400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "9"
+    }
+   },
+   {
+    "raw": "12년",
+    "mentions": [
+     "12년"
+    ],
+    "value": 12.0,
+    "unit": "년",
+    "dim": "시간",
+    "base": 378691200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "12"
+    }
+   },
+   {
+    "raw": "1,270 kg",
+    "mentions": [
+     "1,270 kg"
+    ],
+    "value": 1270.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1270.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1270"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "probes",
+  "id": "pr-06",
+  "target": "비너스 익스프레스",
+  "lang": "en",
+  "title": "Venus Express",
+  "revid": 1379978591,
+  "chars": 15722,
+  "table_count": 3,
+  "infobox_lines": 25,
+  "md_infobox_lines": 24,
+  "numbers": [
+   {
+    "raw": "80°",
+    "mentions": [
+     "80°"
+    ],
+    "value": 80.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 80.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1 m",
+    "mentions": [
+     "1 m",
+     "3.3 ft"
+    ],
+    "value": 1.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 1.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1.4 m",
+    "mentions": [
+     "1.4 m",
+     "4.6 ft"
+    ],
+    "value": 1.4,
+    "unit": "m",
+    "dim": "길이",
+    "base": 1.4,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "135 km",
+    "mentions": [
+     "135 km"
+    ],
+    "value": 135.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 135000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "93 mi",
+    "mentions": [
+     "93 mi"
+    ],
+    "value": 93.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 149668.992,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "460 km",
+    "mentions": [
+     "460 km"
+    ],
+    "value": 460.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 460000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "290 mi",
+    "mentions": [
+     "290 mi"
+    ],
+    "value": 290.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 466709.76,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "39,000 mi",
+    "mentions": [
+     "39,000 mi",
+     "63,000 km"
+    ],
+    "value": 39000.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 62764416.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "41,010 mi",
+    "mentions": [
+     "41,010 mi"
+    ],
+    "value": 41010.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 65999197.440000005,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "205,050 mi",
+    "mentions": [
+     "205,050 mi"
+    ],
+    "value": 205050.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 329995987.2,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "94,000,000 mi",
+    "mentions": [
+     "94,000,000 mi"
+    ],
+    "value": 94000000.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 151278336000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "36 min",
+    "mentions": [
+     "36 min"
+    ],
+    "value": 36.0,
+    "unit": "min",
+    "dim": "시간",
+    "base": 2160.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1 h",
+    "mentions": [
+     "1 h"
+    ],
+    "value": 1.0,
+    "unit": "h",
+    "dim": "시간",
+    "base": 3600.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "9 days",
+    "mentions": [
+     "9 days"
+    ],
+    "value": 9.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 777600.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "9"
+    }
+   },
+   {
+    "raw": "2 months",
+    "mentions": [
+     "2 months"
+    ],
+    "value": 2.0,
+    "unit": "months",
+    "dim": "시간",
+    "base": 5259492.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "153 days",
+    "mentions": [
+     "153 days"
+    ],
+    "value": 153.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 13219200.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "5개월"
+    }
+   },
+   {
+    "raw": "2 years",
+    "mentions": [
+     "2 years"
+    ],
+    "value": 2.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 63115200.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "2"
+    }
+   },
+   {
+    "raw": "9 years",
+    "mentions": [
+     "9 years"
+    ],
+    "value": 9.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 284018400.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "9"
+    }
+   },
+   {
+    "raw": "205 lb",
+    "mentions": [
+     "205 lb",
+     "93 kg"
+    ],
+    "value": 205.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 92.98643585,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1,500 lb",
+    "mentions": [
+     "1,500 lb"
+    ],
+    "value": 1500.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 680.388555,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "700 kg",
+    "mentions": [
+     "700 kg"
+    ],
+    "value": 700.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 700.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1,270 kg",
+    "mentions": [
+     "1,270 kg",
+     "2,800 lb"
+    ],
+    "value": 1270.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1270.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "1270"
+    }
+   }
+  ],
+  "only_count": 16
+ },
+ {
+  "domain": "probes",
+  "id": "pr-07",
+  "target": "매리너 2호",
+  "lang": "ko",
+  "title": "매리너 2호",
+  "revid": 39143077,
+  "chars": 408,
+  "table_count": 0,
+  "infobox_lines": 11,
+  "md_infobox_lines": 11,
+  "numbers": [
+   {
+    "raw": "37.7km",
+    "mentions": [
+     "37.7km"
+    ],
+    "value": 37.7,
+    "unit": "km",
+    "dim": "길이",
+    "base": 37700.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "5000km",
+    "mentions": [
+     "5000km"
+    ],
+    "value": 5000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 5000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "42분",
+    "mentions": [
+     "42분"
+    ],
+    "value": 42.0,
+    "unit": "분",
+    "dim": "시간",
+    "base": 2520.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "42"
+    }
+   },
+   {
+    "raw": "3개월",
+    "mentions": [
+     "3개월"
+    ],
+    "value": 3.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 7889238.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "202.8 kg",
+    "mentions": [
+     "202.8 kg"
+    ],
+    "value": 202.8,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 202.8,
+    "other_lang": {
+     "reason": "b",
+     "found": "203.6 kg"
+    }
+   },
+   {
+    "raw": "220.0 W",
+    "mentions": [
+     "220.0 W"
+    ],
+    "value": 220.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 220.0,
+    "other_lang": "그 언어에만"
+   }
+  ],
+  "only_count": 3
+ },
+ {
+  "domain": "probes",
+  "id": "pr-07",
+  "target": "매리너 2호",
+  "lang": "en",
+  "title": "Mariner 2",
+  "revid": 1352029558,
+  "chars": 27794,
+  "table_count": 0,
+  "infobox_lines": 24,
+  "md_infobox_lines": 23,
+  "numbers": [
+   {
+    "raw": "19.8 °",
+    "mentions": [
+     "19.8 °"
+    ],
+    "value": 19.8,
+    "unit": "°",
+    "dim": "각도",
+    "base": 19.8,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "72°",
+    "mentions": [
+     "72°"
+    ],
+    "value": 72.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 72.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "120°",
+    "mentions": [
+     "120°"
+    ],
+    "value": 120.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 120.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "440 °",
+    "mentions": [
+     "440 °"
+    ],
+    "value": 440.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 440.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "620 °",
+    "mentions": [
+     "620 °"
+    ],
+    "value": 620.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 620.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "932 °",
+    "mentions": [
+     "932 °"
+    ],
+    "value": 932.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 932.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "0.3 cm",
+    "mentions": [
+     "0.3 cm"
+    ],
+    "value": 0.3,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.003,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "13.5 mm",
+    "mentions": [
+     "13.5 mm"
+    ],
+    "value": 13.5,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.0135,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "19 mm",
+    "mentions": [
+     "19 mm",
+     "19 mm"
+    ],
+    "value": 19.0,
+    "unit": "mm",
+    "dim": "길이",
+    "base": 0.019,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "48 cm",
+    "mentions": [
+     "48 cm"
+    ],
+    "value": 48.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.48,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "100 cm",
+    "mentions": [
+     "100 cm"
+    ],
+    "value": 100.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 1.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "12 ft",
+    "mentions": [
+     "12 ft"
+    ],
+    "value": 12.0,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 3.6576000000000004,
+    "other_lang": {
+     "reason": "a",
+     "found": "12"
+    }
+   },
+   {
+    "raw": "3.7 m",
+    "mentions": [
+     "3.7 m"
+    ],
+    "value": 3.7,
+    "unit": "m",
+    "dim": "길이",
+    "base": 3.7,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "5.0 m",
+    "mentions": [
+     "5.0 m",
+     "16.5 ft"
+    ],
+    "value": 5.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 5.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "34,773 km",
+    "mentions": [
+     "34,773 km",
+     "34,773 km",
+     "34,773 km",
+     "21,607 mi",
+     "21,607 mi",
+     "21,607 mi"
+    ],
+    "value": 34773.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 34773000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "65,532,640 mi",
+    "mentions": [
+     "65,532,640 mi"
+    ],
+    "value": 65532640.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 105464560988.16,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "0.720 AU",
+    "mentions": [
+     "0.720 AU"
+    ],
+    "value": 0.72,
+    "unit": "AU",
+    "dim": "길이",
+    "base": 107710466904.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1.000 AU",
+    "mentions": [
+     "1.000 AU"
+    ],
+    "value": 1.0,
+    "unit": "AU",
+    "dim": "길이",
+    "base": 149597870700.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7 days",
+    "mentions": [
+     "7 days"
+    ],
+    "value": 7.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 604800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "7"
+    }
+   },
+   {
+    "raw": "24 days",
+    "mentions": [
+     "24 days"
+    ],
+    "value": 24.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 2073600.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "110 days",
+    "mentions": [
+     "110 days"
+    ],
+    "value": 110.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 9504000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "4 months",
+    "mentions": [
+     "4 months"
+    ],
+    "value": 4.0,
+    "unit": "months",
+    "dim": "시간",
+    "base": 10518984.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "129 days",
+    "mentions": [
+     "129 days"
+    ],
+    "value": 129.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 11145600.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "292 days",
+    "mentions": [
+     "292 days"
+    ],
+    "value": 292.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 25228800.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "19 months",
+    "mentions": [
+     "19 months"
+    ],
+    "value": 19.0,
+    "unit": "months",
+    "dim": "시간",
+    "base": 49965174.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "8K",
+    "mentions": [
+     "8K"
+    ],
+    "value": 8.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 8.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "8"
+    }
+   },
+   {
+    "raw": "11 K",
+    "mentions": [
+     "11 K"
+    ],
+    "value": 11.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 11.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "12 K",
+    "mentions": [
+     "12 K"
+    ],
+    "value": 12.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 12.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "12"
+    }
+   },
+   {
+    "raw": "14 K",
+    "mentions": [
+     "14 K"
+    ],
+    "value": 14.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 14.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "14"
+    }
+   },
+   {
+    "raw": "11.0 °C",
+    "mentions": [
+     "11.0 °C"
+    ],
+    "value": 11.0,
+    "unit": "°C",
+    "dim": "온도",
+    "base": 284.15,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "500 K",
+    "mentions": [
+     "500 K",
+     "227 °C"
+    ],
+    "value": 500.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 500.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "600 K",
+    "mentions": [
+     "600 K",
+     "327 °C"
+    ],
+    "value": 600.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 600.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "773 K",
+    "mentions": [
+     "773 K",
+     "500 °C"
+    ],
+    "value": 773.0,
+    "unit": "K",
+    "dim": "온도",
+    "base": 773.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "60 g",
+    "mentions": [
+     "60 g"
+    ],
+    "value": 60.0,
+    "unit": "g",
+    "dim": "질량",
+    "base": 0.06,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1.3 kg",
+    "mentions": [
+     "1.3 kg"
+    ],
+    "value": 1.3,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1.3,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "2.9 lb",
+    "mentions": [
+     "2.9 lb"
+    ],
+    "value": 2.9,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 1.3154178730000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "3 lb",
+    "mentions": [
+     "3 lb"
+    ],
+    "value": 3.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 1.3607771100000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "1.4 kg",
+    "mentions": [
+     "1.4 kg"
+    ],
+    "value": 1.4,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 1.4,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "22 lb",
+    "mentions": [
+     "22 lb"
+    ],
+    "value": 22.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 9.979032140000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "22"
+    }
+   },
+   {
+    "raw": "15.1 kg",
+    "mentions": [
+     "15.1 kg",
+     "33.3 lb"
+    ],
+    "value": 15.1,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 15.1,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "40 lb",
+    "mentions": [
+     "40 lb"
+    ],
+    "value": 40.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 18.143694800000002,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "184 kg",
+    "mentions": [
+     "184 kg",
+     "406 lb"
+    ],
+    "value": 184.0,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 184.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "447 lb",
+    "mentions": [
+     "447 lb",
+     "203 kg",
+     "203.6 kg",
+     "449 lb"
+    ],
+    "value": 447.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 202.75578939000002,
+    "other_lang": {
+     "reason": "b",
+     "found": "202.8 kg"
+    }
+   },
+   {
+    "raw": "1,250 lb",
+    "mentions": [
+     "1,250 lb",
+     "570 kg"
+    ],
+    "value": 1250.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 566.9904625,
+    "other_lang": "그 언어에만"
+   }
+  ],
+  "only_count": 36
+ },
+ {
+  "domain": "probes",
+  "id": "pr-08",
+  "target": "매리너 4호",
+  "lang": "ko",
+  "title": "매리너 4호",
+  "revid": 39100870,
+  "chars": 416,
+  "table_count": 0,
+  "infobox_lines": 16,
+  "md_infobox_lines": 16,
+  "numbers": [
+   {
+    "raw": "2.51°",
+    "mentions": [
+     "2.51°"
+    ],
+    "value": 2.51,
+    "unit": "°",
+    "dim": "각도",
+    "base": 2.51,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "165,611,300 km",
+    "mentions": [
+     "165,611,300 km"
+    ],
+    "value": 165611300.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 165611300000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "103,180,350 mi"
+    }
+   },
+   {
+    "raw": "199,591,220 km",
+    "mentions": [
+     "199,591,220 km"
+    ],
+    "value": 199591220.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 199591220000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "199591220"
+    }
+   },
+   {
+    "raw": "233,571,130 km",
+    "mentions": [
+     "233,571,130 km"
+    ],
+    "value": 233571130.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 233571130000.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "145,939,770 mi"
+    }
+   },
+   {
+    "raw": "7개월",
+    "mentions": [
+     "7개월"
+    ],
+    "value": 7.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 18408222.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "7"
+    }
+   },
+   {
+    "raw": "562.888 일",
+    "mentions": [
+     "562.888 일"
+    ],
+    "value": 562.888,
+    "unit": "일",
+    "dim": "시간",
+    "base": 48633523.2,
+    "other_lang": {
+     "reason": "b",
+     "found": "567.11 days"
+    }
+   },
+   {
+    "raw": "260.68 kg",
+    "mentions": [
+     "260.68 kg",
+     "260.68 kg"
+    ],
+    "value": 260.68,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 260.68,
+    "other_lang": {
+     "reason": "b",
+     "found": "575 lb"
+    }
+   },
+   {
+    "raw": "170 W",
+    "mentions": [
+     "170 W",
+     "170 W"
+    ],
+    "value": 170.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 170.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "170"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "probes",
+  "id": "pr-08",
+  "target": "매리너 4호",
+  "lang": "en",
+  "title": "Mariner 4",
+  "revid": 1353183895,
+  "chars": 17924,
+  "table_count": 0,
+  "infobox_lines": 25,
+  "md_infobox_lines": 24,
+  "numbers": [
+   {
+    "raw": "1.05°",
+    "mentions": [
+     "1.05°",
+     "1.05°"
+    ],
+    "value": 1.05,
+    "unit": "°",
+    "dim": "각도",
+    "base": 1.05,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "10°",
+    "mentions": [
+     "10°"
+    ],
+    "value": 10.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 10.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "35°",
+    "mentions": [
+     "35°"
+    ],
+    "value": 35.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 35.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "40°",
+    "mentions": [
+     "40°"
+    ],
+    "value": 40.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 40.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "50°",
+    "mentions": [
+     "50°"
+    ],
+    "value": 50.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 50.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "70°",
+    "mentions": [
+     "70°"
+    ],
+    "value": 70.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 70.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "135°",
+    "mentions": [
+     "135°"
+    ],
+    "value": 135.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 135.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "148 °",
+    "mentions": [
+     "148 °"
+    ],
+    "value": 148.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 148.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "170°",
+    "mentions": [
+     "170°"
+    ],
+    "value": 170.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 170.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "170"
+    }
+   },
+   {
+    "raw": "200°",
+    "mentions": [
+     "200°"
+    ],
+    "value": 200.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "255°",
+    "mentions": [
+     "255°"
+    ],
+    "value": 255.0,
+    "unit": "°",
+    "dim": "각도",
+    "base": 255.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "45.7 cm",
+    "mentions": [
+     "45.7 cm"
+    ],
+    "value": 45.7,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.457,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "66.0 cm",
+    "mentions": [
+     "66.0 cm"
+    ],
+    "value": 66.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.66,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "90 cm",
+    "mentions": [
+     "90 cm"
+    ],
+    "value": 90.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.9,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "104.1 cm",
+    "mentions": [
+     "104.1 cm"
+    ],
+    "value": 104.1,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 1.041,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "127 cm",
+    "mentions": [
+     "127 cm"
+    ],
+    "value": 127.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 1.27,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "176 cm",
+    "mentions": [
+     "176 cm"
+    ],
+    "value": 176.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 1.76,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7 ft",
+    "mentions": [
+     "7 ft",
+     "7.0 ft"
+    ],
+    "value": 7.0,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 2.1336,
+    "other_lang": {
+     "reason": "a",
+     "found": "7"
+    }
+   },
+   {
+    "raw": "223.5 cm",
+    "mentions": [
+     "223.5 cm"
+    ],
+    "value": 223.5,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 2.235,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "9.5 ft",
+    "mentions": [
+     "9.5 ft"
+    ],
+    "value": 9.5,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 2.8956,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "22.6 ft",
+    "mentions": [
+     "22.6 ft"
+    ],
+    "value": 22.6,
+    "unit": "ft",
+    "dim": "길이",
+    "base": 6.88848,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1.1 mi",
+    "mentions": [
+     "1.1 mi"
+    ],
+    "value": 1.1,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 1770.2784000000001,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "4.3 mi",
+    "mentions": [
+     "4.3 mi"
+    ],
+    "value": 4.3,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 6920.1792,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "6,118 mi",
+    "mentions": [
+     "6,118 mi",
+     "9,846 km"
+    ],
+    "value": 6118.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 9845966.592,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "6,375,997 mi",
+    "mentions": [
+     "6,375,997 mi",
+     "10,261,173 km"
+    ],
+    "value": 6375997.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 10261172515.968,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "12,000,000 mi",
+    "mentions": [
+     "12,000,000 mi"
+    ],
+    "value": 12000000.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 19312128000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "20,000,000 km",
+    "mentions": [
+     "20,000,000 km"
+    ],
+    "value": 20000000.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 20000000000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "103,180,350 mi",
+    "mentions": [
+     "103,180,350 mi"
+    ],
+    "value": 103180350.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 166052677190.4,
+    "other_lang": {
+     "reason": "b",
+     "found": "165,611,300 km"
+    }
+   },
+   {
+    "raw": "124,020,230 mi",
+    "mentions": [
+     "124,020,230 mi"
+    ],
+    "value": 124020230.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 199591213029.12,
+    "other_lang": {
+     "reason": "b",
+     "found": "199,591,220 km"
+    }
+   },
+   {
+    "raw": "145,939,770 mi",
+    "mentions": [
+     "145,939,770 mi"
+    ],
+    "value": 145939770.0,
+    "unit": "mi",
+    "dim": "길이",
+    "base": 234867293210.88,
+    "other_lang": {
+     "reason": "b",
+     "found": "233,571,130 km"
+    }
+   },
+   {
+    "raw": "0.65 m2",
+    "mentions": [
+     "0.65 m2"
+    ],
+    "value": 0.65,
+    "unit": "m2",
+    "dim": "넓이",
+    "base": 0.65,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "1.7 km/s",
+    "mentions": [
+     "1.7 km/s"
+    ],
+    "value": 1.7,
+    "unit": "km/s",
+    "dim": "속도",
+    "base": 1700.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "7 km/s",
+    "mentions": [
+     "7 km/s"
+    ],
+    "value": 7.0,
+    "unit": "km/s",
+    "dim": "속도",
+    "base": 7000.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "7"
+    }
+   },
+   {
+    "raw": "23 days",
+    "mentions": [
+     "23 days"
+    ],
+    "value": 23.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 1987200.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "36 days",
+    "mentions": [
+     "36 days"
+    ],
+    "value": 36.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 3110400.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "567.11 days",
+    "mentions": [
+     "567.11 days"
+    ],
+    "value": 567.11,
+    "unit": "days",
+    "dim": "시간",
+    "base": 48998304.0,
+    "other_lang": {
+     "reason": "b",
+     "found": "562.888 일"
+    }
+   },
+   {
+    "raw": "3 years",
+    "mentions": [
+     "3 years"
+    ],
+    "value": 3.0,
+    "unit": "years",
+    "dim": "시간",
+    "base": 94672800.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "3"
+    }
+   },
+   {
+    "raw": "100 °C",
+    "mentions": [
+     "100 °C"
+    ],
+    "value": 100.0,
+    "unit": "°C",
+    "dim": "온도",
+    "base": 373.15,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "575 lb",
+    "mentions": [
+     "575 lb"
+    ],
+    "value": 575.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 260.81561275,
+    "other_lang": {
+     "reason": "b",
+     "found": "260.68 kg"
+    }
+   },
+   {
+    "raw": "1200 W",
+    "mentions": [
+     "1200 W"
+    ],
+    "value": 1200.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 1200.0,
+    "other_lang": "그 언어에만"
+   }
+  ],
+  "only_count": 31
+ },
+ {
+  "domain": "probes",
+  "id": "pr-09",
+  "target": "달 광물 지도 작성기",
+  "lang": "ko",
+  "title": "달 광물 지도 작성기",
+  "revid": 39506629,
+  "chars": 640,
+  "table_count": 0,
+  "infobox_lines": 11,
+  "md_infobox_lines": 11,
+  "numbers": [
+   {
+    "raw": "8.2kg",
+    "mentions": [
+     "8.2kg"
+    ],
+    "value": 8.2,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 8.2,
+    "other_lang": {
+     "reason": "a",
+     "found": "8.2"
+    }
+   }
+  ],
+  "only_count": 0
+ },
+ {
+  "domain": "probes",
+  "id": "pr-09",
+  "target": "달 광물 지도 작성기",
+  "lang": "en",
+  "title": "Moon Mineralogy Mapper",
+  "revid": 1322177752,
+  "chars": 5386,
+  "table_count": 1,
+  "infobox_lines": 15,
+  "md_infobox_lines": 15,
+  "numbers": [
+   {
+    "raw": "50 cm",
+    "mentions": [
+     "50 cm"
+    ],
+    "value": 50.0,
+    "unit": "cm",
+    "dim": "길이",
+    "base": 0.5,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "70 m",
+    "mentions": [
+     "70 m",
+     "70 m",
+     "230 ft"
+    ],
+    "value": 70.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 70.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "140 m",
+    "mentions": [
+     "140 m",
+     "460 ft"
+    ],
+    "value": 140.0,
+    "unit": "m",
+    "dim": "길이",
+    "base": 140.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "40 km",
+    "mentions": [
+     "40 km",
+     "40 km",
+     "25 mi"
+    ],
+    "value": 40.0,
+    "unit": "km",
+    "dim": "길이",
+    "base": 40000.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "312 days",
+    "mentions": [
+     "312 days"
+    ],
+    "value": 312.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 26956800.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "712 days",
+    "mentions": [
+     "712 days"
+    ],
+    "value": 712.0,
+    "unit": "days",
+    "dim": "시간",
+    "base": 61516800.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "18 lb",
+    "mentions": [
+     "18 lb",
+     "8.2 kg",
+     "8.2 kg"
+    ],
+    "value": 18.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 8.164662660000001,
+    "other_lang": {
+     "reason": "a",
+     "found": "8.2"
+    }
+   },
+   {
+    "raw": "20 W",
+    "mentions": [
+     "20 W"
+    ],
+    "value": 20.0,
+    "unit": "W",
+    "dim": "출력",
+    "base": 20.0,
+    "other_lang": {
+     "reason": "a",
+     "found": "20"
+    }
+   }
+  ],
+  "only_count": 6
+ },
+ {
+  "domain": "probes",
+  "id": "pr-10",
+  "target": "매리너 3호",
+  "lang": "ko",
+  "title": "매리너 3호",
+  "revid": 39143132,
+  "chars": 293,
+  "table_count": 0,
+  "infobox_lines": 7,
+  "md_infobox_lines": 7,
+  "numbers": [
+   {
+    "raw": "8개월",
+    "mentions": [
+     "8개월"
+    ],
+    "value": 8.0,
+    "unit": "개월",
+    "dim": "시간",
+    "base": 21037968.0,
+    "other_lang": "그 언어에만"
+   },
+   {
+    "raw": "260.8 kg",
+    "mentions": [
+     "260.8 kg"
+    ],
+    "value": 260.8,
+    "unit": "kg",
+    "dim": "질량",
+    "base": 260.8,
+    "other_lang": {
+     "reason": "a",
+     "found": "260.8"
+    }
+   }
+  ],
+  "only_count": 1
+ },
+ {
+  "domain": "probes",
+  "id": "pr-10",
+  "target": "매리너 3호",
+  "lang": "en",
+  "title": "Mariner 3",
+  "revid": 1368343073,
+  "chars": 3364,
+  "table_count": 0,
+  "infobox_lines": 14,
+  "md_infobox_lines": 13,
+  "numbers": [
+   {
+    "raw": "575 lb",
+    "mentions": [
+     "575 lb"
+    ],
+    "value": 575.0,
+    "unit": "lb",
+    "dim": "질량",
+    "base": 260.81561275,
+    "other_lang": {
+     "reason": "b",
+     "found": "260.8 kg"
+    }
+   }
+  ],
+  "only_count": 0
+ }
+]

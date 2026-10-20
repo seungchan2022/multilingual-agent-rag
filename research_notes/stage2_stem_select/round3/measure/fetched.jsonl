@@ -1,0 +1,40 @@
+{"domain": "kr_satellites", "target": "우리별 1호", "lang": "ko", "title": "우리별 1호", "revid": 39123371, "fetched_at": "2026-10-20T12:43:42+00:00"}
+{"domain": "kr_satellites", "target": "우리별 1호", "lang": "en", "title": "KITSAT-1", "revid": 1354114501, "fetched_at": "2026-10-20T12:43:44+00:00"}
+{"domain": "kr_satellites", "target": "과학기술위성 1호", "lang": "ko", "title": "과학기술위성 1호", "revid": 39097835, "fetched_at": "2026-10-20T12:43:47+00:00"}
+{"domain": "kr_satellites", "target": "과학기술위성 1호", "lang": "en", "title": "STSat-1", "revid": 1268126951, "fetched_at": "2026-10-20T12:43:49+00:00"}
+{"domain": "kr_satellites", "target": "우리별 3호", "lang": "ko", "title": "우리별 3호", "revid": 39035197, "fetched_at": "2026-10-20T12:43:52+00:00"}
+{"domain": "kr_satellites", "target": "우리별 3호", "lang": "en", "title": "KITSAT-3", "revid": 1379770497, "fetched_at": "2026-10-20T12:43:55+00:00"}
+{"domain": "kr_satellites", "target": "차세대소형위성 1호", "lang": "ko", "title": "차세대소형위성 1호", "revid": 39523359, "fetched_at": "2026-10-20T12:43:58+00:00"}
+{"domain": "kr_satellites", "target": "차세대소형위성 1호", "lang": "en", "title": "NEXTSat-1", "revid": 1316807034, "fetched_at": "2026-10-20T12:44:01+00:00"}
+{"domain": "kr_satellites", "target": "아리랑 3호", "lang": "ko", "title": "아리랑 3호", "revid": 41640531, "fetched_at": "2026-10-20T12:44:03+00:00"}
+{"domain": "kr_satellites", "target": "아리랑 3호", "lang": "en", "title": "KOMPSAT-3", "revid": 1354708214, "fetched_at": "2026-10-20T12:44:06+00:00"}
+{"domain": "kr_satellites", "target": "차세대소형위성 2호", "lang": "ko", "title": "차세대소형위성 2호", "revid": 39742416, "fetched_at": "2026-10-20T12:44:09+00:00"}
+{"domain": "kr_satellites", "target": "차세대소형위성 2호", "lang": "en", "title": "NEXTSat-2", "revid": 1310232265, "fetched_at": "2026-10-20T12:44:12+00:00"}
+{"domain": "kr_satellites", "target": "과학기술위성 2호", "lang": "ko", "title": "과학기술위성 2호", "revid": 40464015, "fetched_at": "2026-10-20T12:44:14+00:00"}
+{"domain": "kr_satellites", "target": "과학기술위성 2호", "lang": "en", "title": "STSat-2A", "revid": 1379425448, "fetched_at": "2026-10-20T12:44:17+00:00"}
+{"domain": "kr_satellites", "target": "OSSI-1", "lang": "ko", "title": "OSSI-1", "revid": 39422519, "fetched_at": "2026-10-20T12:44:20+00:00"}
+{"domain": "kr_satellites", "target": "OSSI-1", "lang": "en", "title": "OSSI-1", "revid": 1352390010, "fetched_at": "2026-10-20T12:44:23+00:00"}
+{"domain": "kr_satellites", "target": "무궁화 1호", "lang": "ko", "title": "무궁화 1호", "revid": 39017918, "fetched_at": "2026-10-20T12:44:25+00:00"}
+{"domain": "kr_satellites", "target": "무궁화 1호", "lang": "en", "title": "Koreasat 1", "revid": 1354708902, "fetched_at": "2026-10-20T12:44:28+00:00"}
+{"domain": "kr_satellites", "target": "무궁화 5호", "lang": "ko", "title": "무궁화 5호", "revid": 42008586, "fetched_at": "2026-10-20T12:44:31+00:00"}
+{"domain": "kr_satellites", "target": "무궁화 5호", "lang": "en", "title": "Koreasat 5", "revid": 1354709114, "fetched_at": "2026-10-20T12:44:33+00:00"}
+{"domain": "probes", "target": "제22호 과학위성 히노데", "lang": "ko", "title": "제22호 과학위성 히노데", "revid": 39489618, "fetched_at": "2026-10-20T12:44:36+00:00"}
+{"domain": "probes", "target": "제22호 과학위성 히노데", "lang": "en", "title": "Hinode (satellite)", "revid": 1349741420, "fetched_at": "2026-10-20T12:44:39+00:00"}
+{"domain": "probes", "target": "베네라 8호", "lang": "ko", "title": "베네라 8호", "revid": 40491206, "fetched_at": "2026-10-20T12:44:42+00:00"}
+{"domain": "probes", "target": "베네라 8호", "lang": "en", "title": "Venera 8", "revid": 1353147480, "fetched_at": "2026-10-20T12:44:45+00:00"}
+{"domain": "probes", "target": "트리톤 호퍼", "lang": "ko", "title": "트리톤 호퍼", "revid": 40295479, "fetched_at": "2026-10-20T12:44:47+00:00"}
+{"domain": "probes", "target": "트리톤 호퍼", "lang": "en", "title": "Triton Hopper", "revid": 1354586355, "fetched_at": "2026-10-20T12:44:50+00:00"}
+{"domain": "probes", "target": "잉훠 1호", "lang": "ko", "title": "잉훠 1호", "revid": 39410162, "fetched_at": "2026-10-20T12:44:53+00:00"}
+{"domain": "probes", "target": "잉훠 1호", "lang": "en", "title": "Yinghuo-1", "revid": 1368991045, "fetched_at": "2026-10-20T12:44:56+00:00"}
+{"domain": "probes", "target": "EPOXI", "lang": "ko", "title": "EPOXI", "revid": 42573167, "fetched_at": "2026-10-20T12:44:59+00:00"}
+{"domain": "probes", "target": "EPOXI", "lang": "en", "title": "EPOXI", "revid": 1377247476, "fetched_at": "2026-10-20T12:45:02+00:00"}
+{"domain": "probes", "target": "비너스 익스프레스", "lang": "ko", "title": "비너스 익스프레스", "revid": 39055042, "fetched_at": "2026-10-20T12:45:05+00:00"}
+{"domain": "probes", "target": "비너스 익스프레스", "lang": "en", "title": "Venus Express", "revid": 1379978591, "fetched_at": "2026-10-20T12:45:08+00:00"}
+{"domain": "probes", "target": "매리너 2호", "lang": "ko", "title": "매리너 2호", "revid": 39143077, "fetched_at": "2026-10-20T12:45:11+00:00"}
+{"domain": "probes", "target": "매리너 2호", "lang": "en", "title": "Mariner 2", "revid": 1352029558, "fetched_at": "2026-10-20T12:45:14+00:00"}
+{"domain": "probes", "target": "매리너 4호", "lang": "ko", "title": "매리너 4호", "revid": 39100870, "fetched_at": "2026-10-20T12:45:17+00:00"}
+{"domain": "probes", "target": "매리너 4호", "lang": "en", "title": "Mariner 4", "revid": 1353183895, "fetched_at": "2026-10-20T12:45:20+00:00"}
+{"domain": "probes", "target": "달 광물 지도 작성기", "lang": "ko", "title": "달 광물 지도 작성기", "revid": 39506629, "fetched_at": "2026-10-20T12:45:23+00:00"}
+{"domain": "probes", "target": "달 광물 지도 작성기", "lang": "en", "title": "Moon Mineralogy Mapper", "revid": 1322177752, "fetched_at": "2026-10-20T12:45:26+00:00"}
+{"domain": "probes", "target": "매리너 3호", "lang": "ko", "title": "매리너 3호", "revid": 39143132, "fetched_at": "2026-10-20T12:45:29+00:00"}
+{"domain": "probes", "target": "매리너 3호", "lang": "en", "title": "Mariner 3", "revid": 1368343073, "fetched_at": "2026-10-20T12:45:31+00:00"}
