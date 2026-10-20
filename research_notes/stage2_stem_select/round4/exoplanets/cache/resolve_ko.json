@@ -1,0 +1,3278 @@
+{
+ "외계 행성 주인별": {
+  "title": "외계 행성 주인별",
+  "ns": 0,
+  "missing": false,
+  "other": "Planet-hosting star",
+  "disamb": false
+ },
+ "글리제 581": {
+  "title": "글리제 581",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 581",
+  "disamb": false
+ },
+ "별자리": {
+  "title": "별자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Constellation",
+  "disamb": false
+ },
+ "천칭자리": {
+  "title": "천칭자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Libra (constellation)",
+  "disamb": false
+ },
+ "적경": {
+  "title": "적경",
+  "ns": 0,
+  "missing": false,
+  "other": "Right ascension",
+  "disamb": false
+ },
+ "적위": {
+  "title": "적위",
+  "ns": 0,
+  "missing": false,
+  "other": "Declination",
+  "disamb": false
+ },
+ "파섹": {
+  "title": "파섹",
+  "ns": 0,
+  "missing": false,
+  "other": "Parsec",
+  "disamb": false
+ },
+ "겉보기 등급": {
+  "title": "겉보기등급",
+  "ns": 0,
+  "missing": false,
+  "other": "Apparent magnitude",
+  "disamb": false
+ },
+ "질량": {
+  "title": "질량",
+  "ns": 0,
+  "missing": false,
+  "other": "Mass",
+  "disamb": false
+ },
+ "목성질량": {
+  "title": "목성질량",
+  "ns": 0,
+  "missing": false,
+  "other": "Jupiter mass",
+  "disamb": false
+ },
+ "목성반경": {
+  "title": "목성",
+  "ns": 0,
+  "missing": false,
+  "other": "Jupiter",
+  "disamb": false
+ },
+ "외계 행성이 확인된 항성 목록": {
+  "title": "외계 행성이 확인된 항성 목록",
+  "ns": 0,
+  "missing": false,
+  "other": "List of exoplanetary host stars",
+  "disamb": false
+ },
+ "적색왜성": {
+  "title": "적색 왜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Red dwarf",
+  "disamb": false
+ },
+ "행성": {
+  "title": "행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Planet",
+  "disamb": false
+ },
+ "슈퍼지구": {
+  "title": "슈퍼지구",
+  "ns": 0,
+  "missing": false,
+  "other": "Super-Earth",
+  "disamb": false
+ },
+ "시선 속도": {
+  "title": "시선속도",
+  "ns": 0,
+  "missing": false,
+  "other": "Radial velocity",
+  "disamb": false
+ },
+ "주계열성": {
+  "title": "주계열",
+  "ns": 0,
+  "missing": false,
+  "other": "Main sequence",
+  "disamb": false
+ },
+ "글리제 581 e": {
+  "title": "글리제 581 e",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 581e",
+  "disamb": false
+ },
+ "액체": {
+  "title": "액체",
+  "ns": 0,
+  "missing": false,
+  "other": "Liquid",
+  "disamb": false
+ },
+ "생명체": {
+  "title": "생물",
+  "ns": 0,
+  "missing": false,
+  "other": "Organism",
+  "disamb": false
+ },
+ "글리제 581 d": {
+  "title": "글리제 581 d",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 581d",
+  "disamb": false
+ },
+ "외계행성": {
+  "title": "외계 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Exoplanet",
+  "disamb": false
+ },
+ "광년": {
+  "title": "광년",
+  "ns": 0,
+  "missing": false,
+  "other": "Light-year",
+  "disamb": false
+ },
+ "위도": {
+  "title": "위도",
+  "ns": 0,
+  "missing": false,
+  "other": "Latitude",
+  "disamb": false
+ },
+ "경도": {
+  "title": "경도",
+  "ns": 0,
+  "missing": false,
+  "other": "Longitude",
+  "disamb": false
+ },
+ "스위스": {
+  "title": "스위스",
+  "ns": 0,
+  "missing": false,
+  "other": "Switzerland",
+  "disamb": false
+ },
+ "칠레": {
+  "title": "칠레",
+  "ns": 0,
+  "missing": false,
+  "other": "Chile",
+  "disamb": false
+ },
+ "라 실라 천문대": {
+  "title": "라 시야 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "La Silla Observatory",
+  "disamb": false
+ },
+ "유럽 남방 천문대": {
+  "title": "유럽 남방 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "European Southern Observatory",
+  "disamb": false
+ },
+ "통과 (천문학)": {
+  "title": "통과 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomical transit",
+  "disamb": false
+ },
+ "시선 속도법": {
+  "title": "시선속도",
+  "ns": 0,
+  "missing": false,
+  "other": "Radial velocity",
+  "disamb": false
+ },
+ "케플러의 행성운동 법칙": {
+  "title": "케플러의 행성운동법칙",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler's laws of planetary motion",
+  "disamb": false
+ },
+ "지구질량": {
+  "title": "지구질량",
+  "ns": 0,
+  "missing": false,
+  "other": "Earth mass",
+  "disamb": false
+ },
+ "2007년": {
+  "title": "2007년",
+  "ns": 0,
+  "missing": false,
+  "other": "2007",
+  "disamb": false
+ },
+ "컴퓨터 시뮬레이션": {
+  "title": "컴퓨터 시뮬레이션",
+  "ns": 0,
+  "missing": false,
+  "other": "Computer simulation",
+  "disamb": false
+ },
+ "온실효과": {
+  "title": "온실 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Greenhouse effect",
+  "disamb": false
+ },
+ "목동자리 타우": {
+  "title": "목동자리 타우",
+  "ns": 0,
+  "missing": false,
+  "other": "Tau Boötis",
+  "disamb": false
+ },
+ "목동자리": {
+  "title": "목동자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Boötes",
+  "disamb": false
+ },
+ "외계 행성": {
+  "title": "외계 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Exoplanet",
+  "disamb": false
+ },
+ "1996년": {
+  "title": "1996년",
+  "ns": 0,
+  "missing": false,
+  "other": "1996",
+  "disamb": false
+ },
+ "시선속도법": {
+  "title": "도플러 분광학",
+  "ns": 0,
+  "missing": false,
+  "other": "Doppler spectroscopy",
+  "disamb": false
+ },
+ "가시광선": {
+  "title": "가시광선",
+  "ns": 0,
+  "missing": false,
+  "other": "Visible spectrum",
+  "disamb": false
+ },
+ "시선속도": {
+  "title": "시선속도",
+  "ns": 0,
+  "missing": false,
+  "other": "Radial velocity",
+  "disamb": false
+ },
+ "켈빈": {
+  "title": "켈빈",
+  "ns": 0,
+  "missing": false,
+  "other": "Kelvin",
+  "disamb": false
+ },
+ "가스 행성": {
+  "title": "목성형 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Giant planet",
+  "disamb": false
+ },
+ "갈색 왜성": {
+  "title": "갈색왜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Brown dwarf",
+  "disamb": false
+ },
+ "HD 209458 b": {
+  "title": "HD 209458 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HD 209458 b",
+  "disamb": false
+ },
+ "궤도경사각": {
+  "title": "궤도 경사",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital inclination",
+  "disamb": false
+ },
+ "반사율": {
+  "title": "반사율",
+  "ns": 0,
+  "missing": false,
+  "other": "Albedo",
+  "disamb": false
+ },
+ "외계행성의 겉모습": {
+  "title": "외계 행성의 겉 모습",
+  "ns": 0,
+  "missing": false,
+  "other": "Sudarsky's gas giant classification",
+  "disamb": false
+ },
+ "글리제 1214": {
+  "title": "글리제 1214",
+  "ns": 0,
+  "missing": false,
+  "other": "GJ 1214",
+  "disamb": false
+ },
+ "뱀주인자리": {
+  "title": "땅꾼자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Ophiuchus",
+  "disamb": false
+ },
+ "유효온도": {
+  "title": "유효온도",
+  "ns": 0,
+  "missing": false,
+  "other": "Effective temperature",
+  "disamb": false
+ },
+ "태양계": {
+  "title": "태양계",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar System",
+  "disamb": false
+ },
+ "CoRoT-7b": {
+  "title": "COROT-7b",
+  "ns": 0,
+  "missing": false,
+  "other": "CoRoT-7b",
+  "disamb": false
+ },
+ "태양": {
+  "title": "태양",
+  "ns": 0,
+  "missing": false,
+  "other": "Sun",
+  "disamb": false
+ },
+ "적색 왜성": {
+  "title": "적색 왜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Red dwarf",
+  "disamb": false
+ },
+ "대기": {
+  "title": "대기",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmosphere",
+  "disamb": false
+ },
+ "표면 온도": {
+  "title": "유효온도",
+  "ns": 0,
+  "missing": false,
+  "other": "Effective temperature",
+  "disamb": false
+ },
+ "섭씨": {
+  "title": "섭씨",
+  "ns": 0,
+  "missing": false,
+  "other": "Celsius",
+  "disamb": false
+ },
+ "화씨": {
+  "title": "화씨",
+  "ns": 0,
+  "missing": false,
+  "other": "Fahrenheit",
+  "disamb": false
+ },
+ "물": {
+  "title": "물",
+  "ns": 0,
+  "missing": false,
+  "other": "Water",
+  "disamb": false
+ },
+ "얼음": {
+  "title": "얼음",
+  "ns": 0,
+  "missing": false,
+  "other": "Ice",
+  "disamb": false
+ },
+ "암석": {
+  "title": "암석",
+  "ns": 0,
+  "missing": false,
+  "other": "Rock (geology)",
+  "disamb": false
+ },
+ "바다 행성": {
+  "title": "바다 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Ocean world",
+  "disamb": false
+ },
+ "수소": {
+  "title": "수소",
+  "ns": 0,
+  "missing": false,
+  "other": "Hydrogen",
+  "disamb": false
+ },
+ "헬륨": {
+  "title": "헬륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Helium",
+  "disamb": false
+ },
+ "대기압": {
+  "title": "대기압",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmospheric pressure",
+  "disamb": false
+ },
+ "허블 우주 망원경": {
+  "title": "허블 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Hubble Space Telescope",
+  "disamb": false
+ },
+ "COROT-7": {
+  "title": "COROT-7",
+  "ns": 0,
+  "missing": false,
+  "other": "CoRoT-7",
+  "disamb": false
+ },
+ "외뿔소자리": {
+  "title": "외뿔소자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Monoceros",
+  "disamb": false
+ },
+ "극궤도": {
+  "title": "극궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Polar orbit",
+  "disamb": false
+ },
+ "G형 주계열성": {
+  "title": "G형 주계열성",
+  "ns": 0,
+  "missing": false,
+  "other": "G-type main-sequence star",
+  "disamb": false
+ },
+ "암석 행성": {
+  "title": "지구형 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Terrestrial planet",
+  "disamb": false
+ },
+ "항성": {
+  "title": "항성",
+  "ns": 0,
+  "missing": false,
+  "other": "Star",
+  "disamb": false
+ },
+ "지구": {
+  "title": "지구",
+  "ns": 0,
+  "missing": false,
+  "other": "Earth",
+  "disamb": false
+ },
+ "용암": {
+  "title": "용암",
+  "ns": 0,
+  "missing": false,
+  "other": "Lava",
+  "disamb": false
+ },
+ "수증기": {
+  "title": "수증기",
+  "ns": 0,
+  "missing": false,
+  "other": "Water vapor",
+  "disamb": false
+ },
+ "소니언 행성": {
+  "title": "크소니언 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Chthonian planet",
+  "disamb": false
+ },
+ "스피처 우주 망원경": {
+  "title": "스피처 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Spitzer Space Telescope",
+  "disamb": false
+ },
+ "천문 단위": {
+  "title": "천문단위",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomical unit",
+  "disamb": false
+ },
+ "목성 질량": {
+  "title": "목성질량",
+  "ns": 0,
+  "missing": false,
+  "other": "Jupiter mass",
+  "disamb": false
+ },
+ "킬로그램": {
+  "title": "킬로그램",
+  "ns": 0,
+  "missing": false,
+  "other": "Kilogram",
+  "disamb": false
+ },
+ "세제곱미터": {
+  "title": "세제곱미터",
+  "ns": 0,
+  "missing": false,
+  "other": "Cubic metre",
+  "disamb": false
+ },
+ "백조자리": {
+  "title": "백조자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Cygnus (constellation)",
+  "disamb": false
+ },
+ "발머 계열": {
+  "title": "발머 계열",
+  "ns": 0,
+  "missing": false,
+  "other": "Balmer series",
+  "disamb": false
+ },
+ "오하이오 주립 대학교": {
+  "title": "오하이오 주립 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "Ohio State University",
+  "disamb": false
+ },
+ "TESS": {
+  "title": "TESS",
+  "ns": 0,
+  "missing": false,
+  "other": "Transiting Exoplanet Survey Satellite",
+  "disamb": false
+ },
+ "제임스 웨브 우주망원경": {
+  "title": "제임스 웹 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "James Webb Space Telescope",
+  "disamb": false
+ },
+ "A형 주계열성": {
+  "title": "A형 주계열성",
+  "ns": 0,
+  "missing": false,
+  "other": "A-type main-sequence star",
+  "disamb": false
+ },
+ "조석 고정": {
+  "title": "조석 고정",
+  "ns": 0,
+  "missing": false,
+  "other": "Tidal locking",
+  "disamb": false
+ },
+ "공전": {
+  "title": "공전",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital revolution",
+  "disamb": false
+ },
+ "자전축": {
+  "title": "자전",
+  "ns": 0,
+  "missing": false,
+  "other": "Rotation around a fixed axis",
+  "disamb": false
+ },
+ "수직": {
+  "title": "수직",
+  "ns": 0,
+  "missing": false,
+  "other": "Perpendicular",
+  "disamb": false
+ },
+ "케플러-70b": {
+  "title": "케플러-70b",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler-70b",
+  "disamb": false
+ },
+ "K형 주계열성": {
+  "title": "K형 주계열성",
+  "ns": 0,
+  "missing": false,
+  "other": "K-type main-sequence star",
+  "disamb": false
+ },
+ "뜨거운 목성": {
+  "title": "뜨거운 목성",
+  "ns": 0,
+  "missing": false,
+  "other": "Hot Jupiter",
+  "disamb": false
+ },
+ "초고온목성": {
+  "title": "초고온 목성",
+  "ns": 0,
+  "missing": false,
+  "other": "Ultra-hot Jupiter",
+  "disamb": false
+ },
+ "WASP-12b": {
+  "title": "WASP-12b",
+  "ns": 0,
+  "missing": false,
+  "other": "WASP-12b",
+  "disamb": false
+ },
+ "2019년": {
+  "title": "2019년",
+  "ns": 0,
+  "missing": false,
+  "other": "2019",
+  "disamb": false
+ },
+ "F형 주계열성": {
+  "title": "F형 주계열성",
+  "ns": 0,
+  "missing": false,
+  "other": "F-type main-sequence star",
+  "disamb": false
+ },
+ "뜨거운 지구": {
+  "title": "뜨거운 지구",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "분자": {
+  "title": "분자",
+  "ns": 0,
+  "missing": false,
+  "other": "Molecule",
+  "disamb": false
+ },
+ "이온화": {
+  "title": "이온화",
+  "ns": 0,
+  "missing": false,
+  "other": "Ionization",
+  "disamb": false
+ },
+ "원자": {
+  "title": "원자",
+  "ns": 0,
+  "missing": false,
+  "other": "Atom",
+  "disamb": false
+ },
+ "철": {
+  "title": "철",
+  "ns": 0,
+  "missing": false,
+  "other": "Iron",
+  "disamb": false
+ },
+ "타이타늄": {
+  "title": "타이타늄",
+  "ns": 0,
+  "missing": false,
+  "other": "Titanium",
+  "disamb": false
+ },
+ "크로뮴": {
+  "title": "크로뮴",
+  "ns": 0,
+  "missing": false,
+  "other": "Chromium",
+  "disamb": false
+ },
+ "스칸듐": {
+  "title": "스칸듐",
+  "ns": 0,
+  "missing": false,
+  "other": "Scandium",
+  "disamb": false
+ },
+ "이트륨": {
+  "title": "이트륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Yttrium",
+  "disamb": false
+ },
+ "기화": {
+  "title": "기화",
+  "ns": 0,
+  "missing": false,
+  "other": "Vaporization",
+  "disamb": false
+ },
+ "로슈 엽": {
+  "title": "로슈 엽",
+  "ns": 0,
+  "missing": false,
+  "other": "Roche lobe",
+  "disamb": false
+ },
+ "대기 탈출": {
+  "title": "대기 탈출",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmospheric escape",
+  "disamb": false
+ },
+ "글리제 436": {
+  "title": "글리제 436",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 436",
+  "disamb": false
+ },
+ "사자자리": {
+  "title": "사자자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Leo (constellation)",
+  "disamb": false
+ },
+ "해왕성": {
+  "title": "해왕성",
+  "ns": 0,
+  "missing": false,
+  "other": "Neptune",
+  "disamb": false
+ },
+ "2004년": {
+  "title": "2004년",
+  "ns": 0,
+  "missing": false,
+  "other": "2004",
+  "disamb": false
+ },
+ "게자리 55 e": {
+  "title": "게자리 55 e",
+  "ns": 0,
+  "missing": false,
+  "other": "55 Cancri Ae",
+  "disamb": false
+ },
+ "천왕성": {
+  "title": "천왕성",
+  "ns": 0,
+  "missing": false,
+  "other": "Uranus",
+  "disamb": false
+ },
+ "기조력": {
+  "title": "조석력",
+  "ns": 0,
+  "missing": false,
+  "other": "Tidal force",
+  "disamb": false
+ },
+ "케플러-16": {
+  "title": "케플러-16",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler-16",
+  "disamb": false
+ },
+ "2011년": {
+  "title": "2011년",
+  "ns": 0,
+  "missing": false,
+  "other": "2011",
+  "disamb": false
+ },
+ "9월 15일": {
+  "title": "9월 15일",
+  "ns": 0,
+  "missing": false,
+  "other": "September 15",
+  "disamb": false
+ },
+ "외계 행성 탐사방법": {
+  "title": "외계 행성 탐사방법",
+  "ns": 0,
+  "missing": false,
+  "other": "Methods of detecting exoplanets",
+  "disamb": false
+ },
+ "케플러 우주망원경": {
+  "title": "케플러 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler space telescope",
+  "disamb": false
+ },
+ "토성": {
+  "title": "토성",
+  "ns": 0,
+  "missing": false,
+  "other": "Saturn",
+  "disamb": false
+ },
+ "쌍성주위 행성": {
+  "title": "쌍성주위 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Circumbinary planet",
+  "disamb": false
+ },
+ "생명체 거주가능 영역": {
+  "title": "생명체 거주가능 영역",
+  "ns": 0,
+  "missing": false,
+  "other": "Habitable zone",
+  "disamb": false
+ },
+ "거대 기체 행성": {
+  "title": "거대 기체 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Gas giant",
+  "disamb": false
+ },
+ "식 (천문)": {
+  "title": "식 (천문)",
+  "ns": 0,
+  "missing": false,
+  "other": "Eclipse",
+  "disamb": false
+ },
+ "SIMBAD": {
+  "title": "SIMBAD",
+  "ns": 0,
+  "missing": false,
+  "other": "SIMBAD",
+  "disamb": false
+ },
+ "외계 행성 백과사전": {
+  "title": "외계 행성 백과사전",
+  "ns": 0,
+  "missing": false,
+  "other": "Encyclopaedia of Exoplanetary Systems",
+  "disamb": false
+ },
+ "M형 주계열성": {
+  "title": "적색 왜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Red dwarf",
+  "disamb": false
+ },
+ "쌍성계": {
+  "title": "쌍성",
+  "ns": 0,
+  "missing": false,
+  "other": "Binary star",
+  "disamb": false
+ },
+ "Kelvin": {
+  "title": "켈빈",
+  "ns": 0,
+  "missing": false,
+  "other": "Kelvin",
+  "disamb": false
+ },
+ "질량중심 (천문학)": {
+  "title": "질량중심 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Barycenter (astronomy)",
+  "disamb": false
+ },
+ "천문단위": {
+  "title": "천문단위",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomical unit",
+  "disamb": false
+ },
+ "금성": {
+  "title": "금성",
+  "ns": 0,
+  "missing": false,
+  "other": "Venus",
+  "disamb": false
+ },
+ "행성 이동": {
+  "title": "행성 이동",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary migration",
+  "disamb": false
+ },
+ "텍사스 대학교 오스틴": {
+  "title": "텍사스 대학교 오스틴",
+  "ns": 0,
+  "missing": false,
+  "other": "University of Texas at Austin",
+  "disamb": false
+ },
+ "섭동 (천문학)": {
+  "title": "섭동 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Perturbation (astronomy)",
+  "disamb": false
+ },
+ "이산화 탄소": {
+  "title": "이산화 탄소",
+  "ns": 0,
+  "missing": false,
+  "other": "Carbon dioxide",
+  "disamb": false
+ },
+ "메테인": {
+  "title": "메테인",
+  "ns": 0,
+  "missing": false,
+  "other": "Methane",
+  "disamb": false
+ },
+ "온실 기체": {
+  "title": "온실 기체",
+  "ns": 0,
+  "missing": false,
+  "other": "Greenhouse gas",
+  "disamb": false
+ },
+ "판 구조론": {
+  "title": "판 구조론",
+  "ns": 0,
+  "missing": false,
+  "other": "Plate tectonics",
+  "disamb": false
+ },
+ "다이너모 이론": {
+  "title": "다이너모 이론",
+  "ns": 0,
+  "missing": false,
+  "other": "Dynamo theory",
+  "disamb": false
+ },
+ "화성": {
+  "title": "화성",
+  "ns": 0,
+  "missing": false,
+  "other": "Mars",
+  "disamb": false
+ },
+ "항성풍": {
+  "title": "항성풍",
+  "ns": 0,
+  "missing": false,
+  "other": "Stellar wind",
+  "disamb": false
+ },
+ "스퍼터링": {
+  "title": "스퍼터링",
+  "ns": 0,
+  "missing": false,
+  "other": "Sputtering",
+  "disamb": false
+ },
+ "갈릴레오 (우주선)": {
+  "title": "갈릴레오 (우주선)",
+  "ns": 0,
+  "missing": false,
+  "other": "Galileo project",
+  "disamb": false
+ },
+ "가니메데 (위성)": {
+  "title": "가니메데 (위성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Ganymede (moon)",
+  "disamb": false
+ },
+ "스타워즈": {
+  "title": "스타워즈",
+  "ns": 0,
+  "missing": false,
+  "other": "Star Wars",
+  "disamb": false
+ },
+ "타투인": {
+  "title": "타투인",
+  "ns": 0,
+  "missing": false,
+  "other": "Tatooine",
+  "disamb": false
+ },
+ "루카스필름": {
+  "title": "루카스필름",
+  "ns": 0,
+  "missing": false,
+  "other": "Lucasfilm",
+  "disamb": false
+ },
+ "지구형 행성": {
+  "title": "지구형 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Terrestrial planet",
+  "disamb": false
+ },
+ "목성형 행성": {
+  "title": "목성형 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Giant planet",
+  "disamb": false
+ },
+ "센타우루스자리 프록시마": {
+  "title": "센타우루스자리 프록시마",
+  "ns": 0,
+  "missing": false,
+  "other": "Proxima Centauri",
+  "disamb": false
+ },
+ "도플러 분광법": {
+  "title": "도플러 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Doppler effect",
+  "disamb": false
+ },
+ "센타우루스자리 알파": {
+  "title": "센타우루스자리 알파",
+  "ns": 0,
+  "missing": false,
+  "other": "Alpha Centauri",
+  "disamb": false
+ },
+ "센타우루스자리": {
+  "title": "센타우루스자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Centaurus",
+  "disamb": false
+ },
+ "태양풍": {
+  "title": "태양풍",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar wind",
+  "disamb": false
+ },
+ "행성 거주가능성": {
+  "title": "행성의 거주 가능성",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary habitability",
+  "disamb": false
+ },
+ "도플러 효과": {
+  "title": "도플러 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Doppler effect",
+  "disamb": false
+ },
+ "스타샷": {
+  "title": "스타샷",
+  "ns": 0,
+  "missing": false,
+  "other": "Breakthrough Starshot",
+  "disamb": false
+ },
+ "궤도 경사": {
+  "title": "궤도 경사",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital inclination",
+  "disamb": false
+ },
+ "스피처 우주망원경": {
+  "title": "스피처 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Spitzer Space Telescope",
+  "disamb": false
+ },
+ "금속함량": {
+  "title": "금속함량",
+  "ns": 0,
+  "missing": false,
+  "other": "Metallicity",
+  "disamb": false
+ },
+ "항성대기": {
+  "title": "항성대기",
+  "ns": 0,
+  "missing": false,
+  "other": "Stellar atmosphere",
+  "disamb": false
+ },
+ "광도 (천문학)": {
+  "title": "광도 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Luminosity",
+  "disamb": false
+ },
+ "겉보기등급": {
+  "title": "겉보기등급",
+  "ns": 0,
+  "missing": false,
+  "other": "Apparent magnitude",
+  "disamb": false
+ },
+ "섬광성": {
+  "title": "섬광성",
+  "ns": 0,
+  "missing": false,
+  "other": "Flare star",
+  "disamb": false
+ },
+ "에르그": {
+  "title": "에르그",
+  "ns": 0,
+  "missing": false,
+  "other": "Erg (unit)",
+  "disamb": false
+ },
+ "자외선": {
+  "title": "자외선",
+  "ns": 0,
+  "missing": false,
+  "other": "Ultraviolet",
+  "disamb": false
+ },
+ "미생물": {
+  "title": "미생물",
+  "ns": 0,
+  "missing": false,
+  "other": "Microorganism",
+  "disamb": false
+ },
+ "오존": {
+  "title": "오존",
+  "ns": 0,
+  "missing": false,
+  "other": "Ozone",
+  "disamb": false
+ },
+ "수성": {
+  "title": "수성",
+  "ns": 0,
+  "missing": false,
+  "other": "Mercury (planet)",
+  "disamb": false
+ },
+ "적외선": {
+  "title": "적외선",
+  "ns": 0,
+  "missing": false,
+  "other": "Infrared",
+  "disamb": false
+ },
+ "스펙트럼": {
+  "title": "스펙트럼",
+  "ns": 0,
+  "missing": false,
+  "other": "Spectrum",
+  "disamb": false
+ },
+ "조도 (광학)": {
+  "title": "조도 (광학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Illuminance",
+  "disamb": false
+ },
+ "목성": {
+  "title": "목성",
+  "ns": 0,
+  "missing": false,
+  "other": "Jupiter",
+  "disamb": false
+ },
+ "럭스": {
+  "title": "럭스",
+  "ns": 0,
+  "missing": false,
+  "other": "Lux",
+  "disamb": false
+ },
+ "엑스선": {
+  "title": "엑스선",
+  "ns": 0,
+  "missing": false,
+  "other": "X-ray",
+  "disamb": false
+ },
+ "표면온도": {
+  "title": "유효온도",
+  "ns": 0,
+  "missing": false,
+  "other": "Effective temperature",
+  "disamb": false
+ },
+ "중력": {
+  "title": "중력",
+  "ns": 0,
+  "missing": false,
+  "other": "Gravity",
+  "disamb": false
+ },
+ "자전": {
+  "title": "자전",
+  "ns": 0,
+  "missing": false,
+  "other": "Rotation around a fixed axis",
+  "disamb": false
+ },
+ "달": {
+  "title": "달",
+  "ns": 0,
+  "missing": false,
+  "other": "Moon",
+  "disamb": false
+ },
+ "눈알": {
+  "title": "눈 (해부학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Eye",
+  "disamb": false
+ },
+ "명암 경계선": {
+  "title": "명암 경계선",
+  "ns": 0,
+  "missing": false,
+  "other": "Terminator (solar)",
+  "disamb": false
+ },
+ "이심률": {
+  "title": "이심률",
+  "ns": 0,
+  "missing": false,
+  "other": "Eccentricity (mathematics)",
+  "disamb": false
+ },
+ "플레어": {
+  "title": "플레어",
+  "ns": 0,
+  "missing": false,
+  "other": "Flare (disambiguation)",
+  "disamb": true
+ },
+ "X선": {
+  "title": "엑스선",
+  "ns": 0,
+  "missing": false,
+  "other": "X-ray",
+  "disamb": false
+ },
+ "자기장": {
+  "title": "자기장",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetic field",
+  "disamb": false
+ },
+ "질소": {
+  "title": "질소",
+  "ns": 0,
+  "missing": false,
+  "other": "Nitrogen",
+  "disamb": false
+ },
+ "바 (단위)": {
+  "title": "바 (단위)",
+  "ns": 0,
+  "missing": false,
+  "other": "Bar (unit)",
+  "disamb": false
+ },
+ "바다": {
+  "title": "바다",
+  "ns": 0,
+  "missing": false,
+  "other": "Sea",
+  "disamb": false
+ },
+ "대척점": {
+  "title": "대척점",
+  "ns": 0,
+  "missing": false,
+  "other": "Antipodes on Earth",
+  "disamb": false
+ },
+ "세긴": {
+  "title": "세긴",
+  "ns": 0,
+  "missing": false,
+  "other": "Epsilon Cassiopeiae",
+  "disamb": false
+ },
+ "시리우스": {
+  "title": "시리우스",
+  "ns": 0,
+  "missing": false,
+  "other": "Sirius",
+  "disamb": false
+ },
+ "오리온자리": {
+  "title": "오리온자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Orion (constellation)",
+  "disamb": false
+ },
+ "베텔게우스": {
+  "title": "베텔게우스",
+  "ns": 0,
+  "missing": false,
+  "other": "Betelgeuse",
+  "disamb": false
+ },
+ "도 (각도)": {
+  "title": "도 (각도)",
+  "ns": 0,
+  "missing": false,
+  "other": "Degree (angle)",
+  "disamb": false
+ },
+ "프로키온": {
+  "title": "프로키온",
+  "ns": 0,
+  "missing": false,
+  "other": "Procyon",
+  "disamb": false
+ },
+ "폴룩스 (항성)": {
+  "title": "폴룩스 (항성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Pollux (star)",
+  "disamb": false
+ },
+ "베가": {
+  "title": "베가",
+  "ns": 0,
+  "missing": false,
+  "other": "Vega",
+  "disamb": false
+ },
+ "알타이르": {
+  "title": "알타이르",
+  "ns": 0,
+  "missing": false,
+  "other": "Altair",
+  "disamb": false
+ },
+ "데네브": {
+  "title": "데네브",
+  "ns": 0,
+  "missing": false,
+  "other": "Deneb",
+  "disamb": false
+ },
+ "여름의 대삼각형": {
+  "title": "여름의 대삼각형",
+  "ns": 0,
+  "missing": false,
+  "other": "Summer Triangle",
+  "disamb": false
+ },
+ "이등변 삼각형": {
+  "title": "이등변 삼각형",
+  "ns": 0,
+  "missing": false,
+  "other": "Isosceles triangle",
+  "disamb": false
+ },
+ "항성 형성": {
+  "title": "항성 형성",
+  "ns": 0,
+  "missing": false,
+  "other": "Star formation",
+  "disamb": false
+ },
+ "네이처": {
+  "title": "네이처",
+  "ns": 0,
+  "missing": false,
+  "other": "Nature (journal)",
+  "disamb": false
+ },
+ "라 시야 천문대": {
+  "title": "라 시야 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "La Silla Observatory",
+  "disamb": false
+ },
+ "ESO 3.6미터 망원경": {
+  "title": "ESO 3.6미터 망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "ESO 3.6 m Telescope",
+  "disamb": false
+ },
+ "VLT (망원경)": {
+  "title": "VLT (망원경)",
+  "ns": 0,
+  "missing": false,
+  "other": "Very Large Telescope",
+  "disamb": false
+ },
+ "1종 오류와 2종 오류": {
+  "title": "1종 오류와 2종 오류",
+  "ns": 0,
+  "missing": false,
+  "other": "Type I and type II errors",
+  "disamb": false
+ },
+ "산소": {
+  "title": "산소",
+  "ns": 0,
+  "missing": false,
+  "other": "Oxygen",
+  "disamb": false
+ },
+ "개념 증명": {
+  "title": "개념 증명",
+  "ns": 0,
+  "missing": false,
+  "other": "Proof of concept",
+  "disamb": false
+ },
+ "무인 우주선": {
+  "title": "무인 우주선",
+  "ns": 0,
+  "missing": false,
+  "other": "Uncrewed spacecraft",
+  "disamb": false
+ },
+ "항성계": {
+  "title": "항성계",
+  "ns": 0,
+  "missing": false,
+  "other": "Star system",
+  "disamb": false
+ },
+ "분광기": {
+  "title": "분광기",
+  "ns": 0,
+  "missing": false,
+  "other": "Spectrometer",
+  "disamb": false
+ },
+ "로스 128": {
+  "title": "로스 128",
+  "ns": 0,
+  "missing": false,
+  "other": "Ross 128",
+  "disamb": false
+ },
+ "처녀자리": {
+  "title": "처녀자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Virgo (constellation)",
+  "disamb": false
+ },
+ "글리제 581 g": {
+  "title": "글리제 581 g",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 581g",
+  "disamb": false
+ },
+ "케플러-438b": {
+  "title": "케플러-438b",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler-438b",
+  "disamb": false
+ },
+ "케플러-22": {
+  "title": "케플러-22",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler-22",
+  "disamb": false
+ },
+ "지구반경": {
+  "title": "지구 반경",
+  "ns": 0,
+  "missing": false,
+  "other": "Earth radius",
+  "disamb": false
+ },
+ "골디락스 존": {
+  "title": "생명체 거주가능 영역",
+  "ns": 0,
+  "missing": false,
+  "other": "Habitable zone",
+  "disamb": false
+ },
+ "대기권": {
+  "title": "대기",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmosphere",
+  "disamb": false
+ },
+ "구름": {
+  "title": "구름",
+  "ns": 0,
+  "missing": false,
+  "other": "Cloud",
+  "disamb": false
+ },
+ "NASA": {
+  "title": "미국 항공 우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "NASA",
+  "disamb": false
+ },
+ "케플러 망원경": {
+  "title": "케플러 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler space telescope",
+  "disamb": false
+ },
+ "천문대 코드 목록": {
+  "title": "천문대 코드 목록",
+  "ns": 0,
+  "missing": false,
+  "other": "List of observatory codes",
+  "disamb": false
+ },
+ "도플러 분광학": {
+  "title": "도플러 분광학",
+  "ns": 0,
+  "missing": false,
+  "other": "Doppler spectroscopy",
+  "disamb": false
+ },
+ "궤도 이심률": {
+  "title": "궤도 이심률",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital eccentricity",
+  "disamb": false
+ },
+ "공전 주기": {
+  "title": "공전 주기",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbital period",
+  "disamb": false
+ },
+ "날": {
+  "title": "날",
+  "ns": 0,
+  "missing": false,
+  "other": "Day",
+  "disamb": false
+ },
+ "장축단": {
+  "title": "장축단",
+  "ns": 0,
+  "missing": false,
+  "other": "Apsis",
+  "disamb": false
+ },
+ "근점 편각": {
+  "title": "근점 편각",
+  "ns": 0,
+  "missing": false,
+  "other": "Argument of periapsis",
+  "disamb": false
+ },
+ "진폭": {
+  "title": "진폭",
+  "ns": 0,
+  "missing": false,
+  "other": "Amplitude",
+  "disamb": false
+ },
+ "미터 매 초": {
+  "title": "미터 매 초",
+  "ns": 0,
+  "missing": false,
+  "other": "Metre per second",
+  "disamb": false
+ },
+ "극한환경 미생물": {
+  "title": "극한환경 미생물",
+  "ns": 0,
+  "missing": false,
+  "other": "Extremophile",
+  "disamb": false
+ },
+ "우리 은하": {
+  "title": "우리 은하",
+  "ns": 0,
+  "missing": false,
+  "other": "Milky Way",
+  "disamb": false
+ },
+ "아스트로노미 & 아스트로피직스": {
+  "title": "아스트로노미 & 아스트로피직스",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomy & Astrophysics",
+  "disamb": false
+ },
+ "주계열": {
+  "title": "주계열",
+  "ns": 0,
+  "missing": false,
+  "other": "Main sequence",
+  "disamb": false
+ },
+ "케플러의 행성운동법칙": {
+  "title": "케플러의 행성운동법칙",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler's laws of planetary motion",
+  "disamb": false
+ },
+ "공면점": {
+  "title": "공면점",
+  "ns": 0,
+  "missing": false,
+  "other": "Coplanarity",
+  "disamb": false
+ },
+ "수권": {
+  "title": "수권",
+  "ns": 0,
+  "missing": false,
+  "other": "Hydrosphere",
+  "disamb": false
+ },
+ "글리제 876 d": {
+  "title": "글리제 876 d",
+  "ns": 0,
+  "missing": false,
+  "other": "Gliese 876 d",
+  "disamb": false
+ },
+ "규산염": {
+  "title": "규산염",
+  "ns": 0,
+  "missing": false,
+  "other": "Silicate",
+  "disamb": false
+ },
+ "다이아몬드": {
+  "title": "다이아몬드",
+  "ns": 0,
+  "missing": false,
+  "other": "Diamond",
+  "disamb": false
+ },
+ "일산화 탄소": {
+  "title": "일산화 탄소",
+  "ns": 0,
+  "missing": false,
+  "other": "Carbon monoxide",
+  "disamb": false
+ },
+ "모스트 (우주망원경)": {
+  "title": "모스트 (우주망원경)",
+  "ns": 0,
+  "missing": false,
+  "other": "MOST (spacecraft)",
+  "disamb": false
+ },
+ "구 (기하학)": {
+  "title": "구 (기하학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Sphere",
+  "disamb": false
+ },
+ "칭동": {
+  "title": "칭동",
+  "ns": 0,
+  "missing": false,
+  "other": "Libration",
+  "disamb": false
+ },
+ "조석 가열": {
+  "title": "조석 가열",
+  "ns": 0,
+  "missing": false,
+  "other": "Tidal heating",
+  "disamb": false
+ },
+ "이오 (위성)": {
+  "title": "이오 (위성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Io (moon)",
+  "disamb": false
+ },
+ "복사조도": {
+  "title": "복사조도",
+  "ns": 0,
+  "missing": false,
+  "other": "Irradiance",
+  "disamb": false
+ },
+ "흑체": {
+  "title": "흑체",
+  "ns": 0,
+  "missing": false,
+  "other": "Black body",
+  "disamb": false
+ },
+ "금성의 대기": {
+  "title": "금성의 대기",
+  "ns": 0,
+  "missing": false,
+  "other": "Atmosphere of Venus",
+  "disamb": false
+ },
+ "폭주 온실 효과": {
+  "title": "폭주 온실 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Runaway greenhouse effect",
+  "disamb": false
+ },
+ "화합물": {
+  "title": "화합물",
+  "ns": 0,
+  "missing": false,
+  "other": "Chemical compound",
+  "disamb": false
+ },
+ "빙모": {
+  "title": "빙모",
+  "ns": 0,
+  "missing": false,
+  "other": "Ice cap",
+  "disamb": false
+ },
+ "타임캡슐": {
+  "title": "타임캡슐",
+  "ns": 0,
+  "missing": false,
+  "other": "Time capsule",
+  "disamb": false
+ },
+ "소셜 네트워크 서비스": {
+  "title": "소셜 네트워크 서비스",
+  "ns": 0,
+  "missing": false,
+  "other": "Social networking service",
+  "disamb": false
+ },
+ "Bebo": {
+  "title": "Bebo",
+  "ns": 0,
+  "missing": false,
+  "other": "Bebo",
+  "disamb": false
+ },
+ "레이더 천문학": {
+  "title": "레이더 천문학",
+  "ns": 0,
+  "missing": false,
+  "other": "Radar astronomy",
+  "disamb": false
+ },
+ "우크라이나": {
+  "title": "우크라이나",
+  "ns": 0,
+  "missing": false,
+  "other": "Ukraine",
+  "disamb": false
+ },
+ "우크라이나 국립우주국": {
+  "title": "우크라이나 국립우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "State Space Agency of Ukraine",
+  "disamb": false
+ },
+ "라우라 펄드베레": {
+  "title": "라우라 펄드베레",
+  "ns": 0,
+  "missing": false,
+  "other": "Laura Põldvere",
+  "disamb": false
+ },
+ "뉴욕 타임스": {
+  "title": "뉴욕 타임스",
+  "ns": 0,
+  "missing": false,
+  "other": "The New York Times",
+  "disamb": false
+ },
+ "사이언티픽 아메리칸": {
+  "title": "사이언티픽 아메리칸",
+  "ns": 0,
+  "missing": false,
+  "other": "Scientific American",
+  "disamb": false
+ },
+ "Astronomy Picture of the Day": {
+  "title": "Astronomy Picture of the Day",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomy Picture of the Day",
+  "disamb": false
+ },
+ "미국 항공 우주국": {
+  "title": "미국 항공 우주국",
+  "ns": 0,
+  "missing": false,
+  "other": "NASA",
+  "disamb": false
+ },
+ "릭 천문대": {
+  "title": "릭 천문대",
+  "ns": 0,
+  "missing": false,
+  "other": "Lick Observatory",
+  "disamb": false
+ },
+ "율리우스일": {
+  "title": "율리우스일",
+  "ns": 0,
+  "missing": false,
+  "other": "Julian day",
+  "disamb": false
+ },
+ "온도": {
+  "title": "온도",
+  "ns": 0,
+  "missing": false,
+  "other": "Temperature",
+  "disamb": false
+ },
+ "크기 정도 (속도)": {
+  "title": "크기 정도 (속도)",
+  "ns": 0,
+  "missing": false,
+  "other": "Orders of magnitude (speed)",
+  "disamb": false
+ },
+ "미셸 마요르": {
+  "title": "미셸 마요르",
+  "ns": 0,
+  "missing": false,
+  "other": "Michel Mayor",
+  "disamb": false
+ },
+ "디디에 쿠엘로": {
+  "title": "디디에 쿠엘로",
+  "ns": 0,
+  "missing": false,
+  "other": "Didier Queloz",
+  "disamb": false
+ },
+ "국제천문연맹": {
+  "title": "국제천문연맹",
+  "ns": 0,
+  "missing": false,
+  "other": "International Astronomical Union",
+  "disamb": false
+ },
+ "온실 효과": {
+  "title": "온실 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Greenhouse effect",
+  "disamb": false
+ },
+ "조석력": {
+  "title": "조석력",
+  "ns": 0,
+  "missing": false,
+  "other": "Tidal force",
+  "disamb": false
+ },
+ "본드반사도": {
+  "title": "본드반사도",
+  "ns": 0,
+  "missing": false,
+  "other": "Bond albedo",
+  "disamb": false
+ },
+ "갈색왜성": {
+  "title": "갈색왜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Brown dwarf",
+  "disamb": false
+ },
+ "스펙트럼선": {
+  "title": "스펙트럼선",
+  "ns": 0,
+  "missing": false,
+  "other": "Spectral line",
+  "disamb": false
+ },
+ "HD 179949 b": {
+  "title": "HD 179949 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HD 179949 b",
+  "disamb": false
+ },
+ "HD 149026 b": {
+  "title": "HD 149026 b",
+  "ns": 0,
+  "missing": false,
+  "other": "HD 149026 b",
+  "disamb": false
+ },
+ "외계 행성의 겉 모습": {
+  "title": "외계 행성의 겉 모습",
+  "ns": 0,
+  "missing": false,
+  "other": "Sudarsky's gas giant classification",
+  "disamb": false
+ },
+ "사이클로트론 복사": {
+  "title": "사이클로트론 복사",
+  "ns": 0,
+  "missing": false,
+  "other": "Cyclotron radiation",
+  "disamb": false
+ },
+ "MEarth 프로젝트": {
+  "title": "MEarth 프로젝트",
+  "ns": 0,
+  "missing": false,
+  "other": "MEarth Project",
+  "disamb": false
+ },
+ "천문학의 임시 명칭": {
+  "title": "천문학의 임시 명칭",
+  "ns": 0,
+  "missing": false,
+  "other": "Provisional designation in astronomy",
+  "disamb": false
+ },
+ "지구 반경": {
+  "title": "지구 반경",
+  "ns": 0,
+  "missing": false,
+  "other": "Earth radius",
+  "disamb": false
+ },
+ "밀도": {
+  "title": "밀도",
+  "ns": 0,
+  "missing": false,
+  "other": "Density",
+  "disamb": false
+ },
+ "표면중력": {
+  "title": "표면중력",
+  "ns": 0,
+  "missing": false,
+  "other": "Surface gravity",
+  "disamb": false
+ },
+ "미터 매 초 제곱": {
+  "title": "미터 매 초 제곱",
+  "ns": 0,
+  "missing": false,
+  "other": "Metre per second squared",
+  "disamb": false
+ },
+ "G-포스": {
+  "title": "G-포스",
+  "ns": 0,
+  "missing": false,
+  "other": "G-force",
+  "disamb": false
+ },
+ "탈출 속도": {
+  "title": "탈출 속도",
+  "ns": 0,
+  "missing": false,
+  "other": "Escape velocity",
+  "disamb": false
+ },
+ "땅꾼자리": {
+  "title": "땅꾼자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Ophiuchus",
+  "disamb": false
+ },
+ "제임스 웹 우주망원경": {
+  "title": "제임스 웹 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "James Webb Space Telescope",
+  "disamb": false
+ },
+ "COROT-7b": {
+  "title": "COROT-7b",
+  "ns": 0,
+  "missing": false,
+  "other": "CoRoT-7b",
+  "disamb": false
+ },
+ "분광학": {
+  "title": "분광학",
+  "ns": 0,
+  "missing": false,
+  "other": "Spectroscopy",
+  "disamb": false
+ },
+ "케냐": {
+  "title": "케냐",
+  "ns": 0,
+  "missing": false,
+  "other": "Kenya",
+  "disamb": false
+ },
+ "마사이어": {
+  "title": "마사이어",
+  "ns": 0,
+  "missing": false,
+  "other": "Maasai language",
+  "disamb": false
+ },
+ "케플러-16b": {
+  "title": "케플러-16b",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler-16b",
+  "disamb": false
+ },
+ "미터톤": {
+  "title": "미터톤",
+  "ns": 0,
+  "missing": false,
+  "other": "Tonne",
+  "disamb": false
+ },
+ "탈기 (가스 기술)": {
+  "title": "탈기 (가스 기술)",
+  "ns": 0,
+  "missing": false,
+  "other": "Outgassing",
+  "disamb": false
+ },
+ "갈릴레이 위성": {
+  "title": "갈릴레이 위성",
+  "ns": 0,
+  "missing": false,
+  "other": "Galilean moons",
+  "disamb": false
+ },
+ "유로파 (위성)": {
+  "title": "유로파 (위성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Europa (moon)",
+  "disamb": false
+ },
+ "원시 행성": {
+  "title": "원시 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Protoplanet",
+  "disamb": false
+ },
+ "서리선": {
+  "title": "서리선",
+  "ns": 0,
+  "missing": false,
+  "other": "Frost line (astrophysics)",
+  "disamb": false
+ },
+ "성운설": {
+  "title": "성운설",
+  "ns": 0,
+  "missing": false,
+  "other": "Nebular hypothesis",
+  "disamb": false
+ },
+ "수압": {
+  "title": "수압",
+  "ns": 0,
+  "missing": false,
+  "other": "Hydrostatic pressure",
+  "disamb": false
+ },
+ "천체분광학": {
+  "title": "천체분광학",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomical spectroscopy",
+  "disamb": false
+ },
+ "연무질": {
+  "title": "연무질",
+  "ns": 0,
+  "missing": false,
+  "other": "Aerosol",
+  "disamb": false
+ },
+ "COROT": {
+  "title": "COROT",
+  "ns": 0,
+  "missing": false,
+  "other": "CoRoT",
+  "disamb": false
+ },
+ "시 (단위)": {
+  "title": "시 (단위)",
+  "ns": 0,
+  "missing": false,
+  "other": "Hour",
+  "disamb": false
+ },
+ "케플러-10b": {
+  "title": "케플러-10b",
+  "ns": 0,
+  "missing": false,
+  "other": "Kepler-10b",
+  "disamb": false
+ },
+ "COROT-7c": {
+  "title": "COROT-7c",
+  "ns": 0,
+  "missing": false,
+  "other": "CoRoT-7c",
+  "disamb": false
+ },
+ "파리 (프랑스)": {
+  "title": "파리 (프랑스)",
+  "ns": 0,
+  "missing": false,
+  "other": "Paris",
+  "disamb": false
+ },
+ "크소니언 행성": {
+  "title": "크소니언 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Chthonian planet",
+  "disamb": false
+ },
+ "이오의 화산활동": {
+  "title": "이오의 화산활동",
+  "ns": 0,
+  "missing": false,
+  "other": "Volcanism on Io",
+  "disamb": false
+ },
+ "용암 행성": {
+  "title": "용암 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Lava planet",
+  "disamb": false
+ },
+ "대류": {
+  "title": "대류",
+  "ns": 0,
+  "missing": false,
+  "other": "Convection",
+  "disamb": false
+ },
+ "맨틀 (지질학)": {
+  "title": "맨틀 (지질학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Mantle (geology)",
+  "disamb": false
+ },
+ "화산 작용": {
+  "title": "화산 작용",
+  "ns": 0,
+  "missing": false,
+  "other": "Volcanism",
+  "disamb": false
+ },
+ "나트륨": {
+  "title": "나트륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Sodium",
+  "disamb": false
+ },
+ "일산화 규소": {
+  "title": "일산화 규소",
+  "ns": 0,
+  "missing": false,
+  "other": "Silicon monoxide",
+  "disamb": false
+ },
+ "칼륨": {
+  "title": "칼륨",
+  "ns": 0,
+  "missing": false,
+  "other": "Potassium",
+  "disamb": false
+ },
+ "마그네슘": {
+  "title": "마그네슘",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnesium",
+  "disamb": false
+ },
+ "알루미늄": {
+  "title": "알루미늄",
+  "ns": 0,
+  "missing": false,
+  "other": "Aluminium",
+  "disamb": false
+ },
+ "칼슘": {
+  "title": "칼슘",
+  "ns": 0,
+  "missing": false,
+  "other": "Calcium",
+  "disamb": false
+ },
+ "규소": {
+  "title": "규소",
+  "ns": 0,
+  "missing": false,
+  "other": "Silicon",
+  "disamb": false
+ },
+ "강옥": {
+  "title": "강옥",
+  "ns": 0,
+  "missing": false,
+  "other": "Corundum",
+  "disamb": false
+ },
+ "첨정석": {
+  "title": "첨정석",
+  "ns": 0,
+  "missing": false,
+  "other": "Spinel",
+  "disamb": false
+ },
+ "이산화 규소": {
+  "title": "이산화 규소",
+  "ns": 0,
+  "missing": false,
+  "other": "Silicon dioxide",
+  "disamb": false
+ },
+ "산화 철(II)": {
+  "title": "산화 철(II)",
+  "ns": 0,
+  "missing": false,
+  "other": "Iron(II) oxide",
+  "disamb": false
+ },
+ "응축": {
+  "title": "응축",
+  "ns": 0,
+  "missing": false,
+  "other": "Condensation",
+  "disamb": false
+ },
+ "페로브스카이트": {
+  "title": "페로브스카이트",
+  "ns": 0,
+  "missing": false,
+  "other": "Perovskite",
+  "disamb": false
+ },
+ "외기권": {
+  "title": "외기권",
+  "ns": 0,
+  "missing": false,
+  "other": "Exosphere",
+  "disamb": false
+ },
+ "스콧 가우디": {
+  "title": "스콧 가우디",
+  "ns": 0,
+  "missing": false,
+  "other": "Scott Gaudi",
+  "disamb": false
+ },
+ "B형 주계열성": {
+  "title": "B형 주계열성",
+  "ns": 0,
+  "missing": false,
+  "other": "B-type main-sequence star",
+  "disamb": false
+ },
+ "HD 15082": {
+  "title": "HD 15082",
+  "ns": 0,
+  "missing": false,
+  "other": "HD 15082",
+  "disamb": false
+ },
+ "중금속": {
+  "title": "중금속",
+  "ns": 0,
+  "missing": false,
+  "other": "Heavy metals",
+  "disamb": false
+ },
+ "터븀": {
+  "title": "터븀",
+  "ns": 0,
+  "missing": false,
+  "other": "Terbium",
+  "disamb": false
+ },
+ "열권": {
+  "title": "열권",
+  "ns": 0,
+  "missing": false,
+  "other": "Thermosphere",
+  "disamb": false
+ },
+ "흡수분광학": {
+  "title": "흡수분광학",
+  "ns": 0,
+  "missing": false,
+  "other": "Absorption spectroscopy",
+  "disamb": false
+ },
+ "제이만 효과": {
+  "title": "제이만 효과",
+  "ns": 0,
+  "missing": false,
+  "other": "Zeeman effect",
+  "disamb": false
+ },
+ "뜨거운 해왕성": {
+  "title": "뜨거운 해왕성",
+  "ns": 0,
+  "missing": false,
+  "other": "Hot Neptune",
+  "disamb": false
+ },
+ "워싱턴 카네기 연구소": {
+  "title": "워싱턴 카네기 연구소",
+  "ns": 0,
+  "missing": false,
+  "other": "Carnegie Institution for Science",
+  "disamb": false
+ },
+ "캘리포니아 대학교 버클리": {
+  "title": "캘리포니아 대학교 버클리",
+  "ns": 0,
+  "missing": false,
+  "other": "University of California, Berkeley",
+  "disamb": false
+ },
+ "뉴멕시코 주립 대학교": {
+  "title": "뉴멕시코 주립 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "New Mexico State University",
+  "disamb": false
+ },
+ "제네바 대학교": {
+  "title": "제네바 대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "University of Geneva",
+  "disamb": false
+ },
+ "미국": {
+  "title": "미국",
+  "ns": 0,
+  "missing": false,
+  "other": "United States",
+  "disamb": false
+ },
+ "체로키어": {
+  "title": "체로키어",
+  "ns": 0,
+  "missing": false,
+  "other": "Cherokee language",
+  "disamb": false
+ },
+ "코로나 질량 방출": {
+  "title": "코로나 질량 방출",
+  "ns": 0,
+  "missing": false,
+  "other": "Coronal mass ejection",
+  "disamb": false
+ },
+ "밝기 온도": {
+  "title": "밝기 온도",
+  "ns": 0,
+  "missing": false,
+  "other": "Brightness temperature",
+  "disamb": false
+ },
+ "헬륨 행성": {
+  "title": "헬륨 행성",
+  "ns": 0,
+  "missing": false,
+  "other": "Helium planet",
+  "disamb": false
+ },
+ "왕립천문학회 월간 공지": {
+  "title": "왕립천문학회 월간 공지",
+  "ns": 0,
+  "missing": false,
+  "other": "Monthly Notices of the Royal Astronomical Society",
+  "disamb": false
+ },
+ "ArXiv": {
+  "title": "ArXiv",
+  "ns": 0,
+  "missing": false,
+  "other": "ArXiv",
+  "disamb": false
+ },
+ "비브코드": {
+  "title": "비브코드",
+  "ns": 0,
+  "missing": false,
+  "other": "Bibcode",
+  "disamb": false
+ },
+ "디지털 객체 식별자": {
+  "title": "디지털 객체 식별자",
+  "ns": 0,
+  "missing": false,
+  "other": "Digital object identifier",
+  "disamb": false
+ },
+ "시맨틱 스칼라": {
+  "title": "시맨틱 스칼라",
+  "ns": 0,
+  "missing": false,
+  "other": "Semantic Scholar",
+  "disamb": false
+ },
+ "웨이백 머신": {
+  "title": "웨이백 머신",
+  "ns": 0,
+  "missing": false,
+  "other": "Wayback Machine",
+  "disamb": false
+ },
+ "승교점 경도": {
+  "title": "승교점 경도",
+  "ns": 0,
+  "missing": false,
+  "other": "Longitude of the ascending node",
+  "disamb": false
+ },
+ "그램": {
+  "title": "그램",
+  "ns": 0,
+  "missing": false,
+  "other": "Gram",
+  "disamb": false
+ },
+ "세제곱센티미터": {
+  "title": "세제곱센티미터",
+  "ns": 0,
+  "missing": false,
+  "other": "Cubic centimetre",
+  "disamb": false
+ },
+ "쌍성": {
+  "title": "쌍성",
+  "ns": 0,
+  "missing": false,
+  "other": "Binary star",
+  "disamb": false
+ },
+ "하버드-스미스소니안 천체물리학 센터": {
+  "title": "하버드-스미스소니안 천체물리학 센터",
+  "ns": 0,
+  "missing": false,
+  "other": "Harvard–Smithsonian Center for Astrophysics",
+  "disamb": false
+ },
+ "매사추세츠 공과대학교": {
+  "title": "매사추세츠 공과대학교",
+  "ns": 0,
+  "missing": false,
+  "other": "Massachusetts Institute of Technology",
+  "disamb": false
+ },
+ "발견": {
+  "title": "발견",
+  "ns": 0,
+  "missing": false,
+  "other": "Discovery (observation)",
+  "disamb": false
+ },
+ "우주망원경": {
+  "title": "우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Space telescope",
+  "disamb": false
+ },
+ "정확도와 정밀도": {
+  "title": "정확도와 정밀도",
+  "ns": 0,
+  "missing": false,
+  "other": "Accuracy and precision",
+  "disamb": false
+ },
+ "천체": {
+  "title": "천체",
+  "ns": 0,
+  "missing": false,
+  "other": "Astronomical object",
+  "disamb": false
+ },
+ "마운틴뷰 (캘리포니아주)": {
+  "title": "마운틴뷰 (캘리포니아주)",
+  "ns": 0,
+  "missing": false,
+  "other": "Mountain View, California",
+  "disamb": false
+ },
+ "캘리포니아주": {
+  "title": "캘리포니아주",
+  "ns": 0,
+  "missing": false,
+  "other": "California",
+  "disamb": false
+ },
+ "항성분류": {
+  "title": "항성분류",
+  "ns": 0,
+  "missing": false,
+  "other": "Stellar classification",
+  "disamb": false
+ },
+ "존 놀": {
+  "title": "존 놀",
+  "ns": 0,
+  "missing": false,
+  "other": "John Knoll",
+  "disamb": false
+ },
+ "인더스트리얼 라이트 & 매직": {
+  "title": "인더스트리얼 라이트 & 매직",
+  "ns": 0,
+  "missing": false,
+  "other": "Industrial Light & Magic",
+  "disamb": false
+ },
+ "전자기파": {
+  "title": "전자기파",
+  "ns": 0,
+  "missing": false,
+  "other": "Electromagnetic radiation",
+  "disamb": false
+ },
+ "행성과학": {
+  "title": "행성과학",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary science",
+  "disamb": false
+ },
+ "조명탄": {
+  "title": "조명탄",
+  "ns": 0,
+  "missing": false,
+  "other": "Flare",
+  "disamb": false
+ },
+ "채층": {
+  "title": "채층",
+  "ns": 0,
+  "missing": false,
+  "other": "Chromosphere",
+  "disamb": false
+ },
+ "먼지": {
+  "title": "먼지",
+  "ns": 0,
+  "missing": false,
+  "other": "Dust",
+  "disamb": false
+ },
+ "자전축 기울기": {
+  "title": "자전축 기울기",
+  "ns": 0,
+  "missing": false,
+  "other": "Axial tilt",
+  "disamb": false
+ },
+ "위성": {
+  "title": "위성",
+  "ns": 0,
+  "missing": false,
+  "other": "Natural satellite",
+  "disamb": false
+ },
+ "핵 (행성)": {
+  "title": "핵 (행성)",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary core",
+  "disamb": false
+ },
+ "시뮬레이션": {
+  "title": "시뮬레이션",
+  "ns": 0,
+  "missing": false,
+  "other": "Simulation",
+  "disamb": false
+ },
+ "은하": {
+  "title": "은하",
+  "ns": 0,
+  "missing": false,
+  "other": "Galaxy",
+  "disamb": false
+ },
+ "내부열": {
+  "title": "내부열",
+  "ns": 0,
+  "missing": false,
+  "other": "Internal heating",
+  "disamb": false
+ },
+ "방사성 붕괴": {
+  "title": "방사성 붕괴",
+  "ns": 0,
+  "missing": false,
+  "other": "Radioactive decay",
+  "disamb": false
+ },
+ "자기": {
+  "title": "자기",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetism",
+  "disamb": false
+ },
+ "유도가열": {
+  "title": "유도가열",
+  "ns": 0,
+  "missing": false,
+  "other": "Induction heating",
+  "disamb": false
+ },
+ "충돌사건": {
+  "title": "충돌사건",
+  "ns": 0,
+  "missing": false,
+  "other": "Impact event",
+  "disamb": false
+ },
+ "원시 행성계 원반": {
+  "title": "원시 행성계 원반",
+  "ns": 0,
+  "missing": false,
+  "other": "Protoplanetary disk",
+  "disamb": false
+ },
+ "타원면": {
+  "title": "타원면",
+  "ns": 0,
+  "missing": false,
+  "other": "Ellipsoid",
+  "disamb": false
+ },
+ "화산": {
+  "title": "화산",
+  "ns": 0,
+  "missing": false,
+  "other": "Volcano",
+  "disamb": false
+ },
+ "조석": {
+  "title": "조석",
+  "ns": 0,
+  "missing": false,
+  "other": "Tide",
+  "disamb": false
+ },
+ "자기권": {
+  "title": "자기권",
+  "ns": 0,
+  "missing": false,
+  "other": "Magnetosphere",
+  "disamb": false
+ },
+ "고래자리 YZ": {
+  "title": "고래자리 YZ",
+  "ns": 0,
+  "missing": false,
+  "other": "YZ Ceti",
+  "disamb": false
+ },
+ "태양 광도": {
+  "title": "태양 광도",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar luminosity",
+  "disamb": false
+ },
+ "태양질량": {
+  "title": "태양질량",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar mass",
+  "disamb": false
+ },
+ "태양반경": {
+  "title": "태양반경",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar radius",
+  "disamb": false
+ },
+ "항성 핵합성": {
+  "title": "항성 핵합성",
+  "ns": 0,
+  "missing": false,
+  "other": "Stellar nucleosynthesis",
+  "disamb": false
+ },
+ "가우스 (단위)": {
+  "title": "가우스 (단위)",
+  "ns": 0,
+  "missing": false,
+  "other": "Gauss (unit)",
+  "disamb": false
+ },
+ "연무": {
+  "title": "연무",
+  "ns": 0,
+  "missing": false,
+  "other": "Haze",
+  "disamb": false
+ },
+ "오로라": {
+  "title": "오로라",
+  "ns": 0,
+  "missing": false,
+  "other": "Aurora",
+  "disamb": false
+ },
+ "기후 모형": {
+  "title": "기후 모형",
+  "ns": 0,
+  "missing": false,
+  "other": "Climate model",
+  "disamb": false
+ },
+ "대기 대순환 모형": {
+  "title": "대기 대순환 모형",
+  "ns": 0,
+  "missing": false,
+  "other": "General circulation model",
+  "disamb": false
+ },
+ "눈덩이": {
+  "title": "눈덩이",
+  "ns": 0,
+  "missing": false,
+  "other": "Snowball",
+  "disamb": false
+ },
+ "바닷가재": {
+  "title": "바닷가재",
+  "ns": 0,
+  "missing": false,
+  "other": "Lobster",
+  "disamb": false
+ },
+ "대륙": {
+  "title": "대륙",
+  "ns": 0,
+  "missing": false,
+  "other": "Continent",
+  "disamb": false
+ },
+ "우주선 (물리)": {
+  "title": "우주선 (물리)",
+  "ns": 0,
+  "missing": false,
+  "other": "Cosmic ray",
+  "disamb": false
+ },
+ "열염순환": {
+  "title": "열염순환",
+  "ns": 0,
+  "missing": false,
+  "other": "Thermohaline circulation",
+  "disamb": false
+ },
+ "염분": {
+  "title": "염분",
+  "ns": 0,
+  "missing": false,
+  "other": "Salinity",
+  "disamb": false
+ },
+ "성층권": {
+  "title": "성층권",
+  "ns": 0,
+  "missing": false,
+  "other": "Stratosphere",
+  "disamb": false
+ },
+ "로스비 파동": {
+  "title": "로스비 파동",
+  "ns": 0,
+  "missing": false,
+  "other": "Rossby wave",
+  "disamb": false
+ },
+ "열전달": {
+  "title": "열전달",
+  "ns": 0,
+  "missing": false,
+  "other": "Heat transfer",
+  "disamb": false
+ },
+ "해빙": {
+  "title": "해빙",
+  "ns": 0,
+  "missing": false,
+  "other": "Sea ice",
+  "disamb": false
+ },
+ "빙하": {
+  "title": "빙하",
+  "ns": 0,
+  "missing": false,
+  "other": "Glacier",
+  "disamb": false
+ },
+ "얼음화산": {
+  "title": "얼음화산",
+  "ns": 0,
+  "missing": false,
+  "other": "Cryovolcano",
+  "disamb": false
+ },
+ "외계 혜성": {
+  "title": "외계 혜성",
+  "ns": 0,
+  "missing": false,
+  "other": "Exocomet",
+  "disamb": false
+ },
+ "대양": {
+  "title": "대양",
+  "ns": 0,
+  "missing": false,
+  "other": "Ocean",
+  "disamb": false
+ },
+ "진화": {
+  "title": "진화",
+  "ns": 0,
+  "missing": false,
+  "other": "Evolution",
+  "disamb": false
+ },
+ "다세포 생물": {
+  "title": "다세포 생물",
+  "ns": 0,
+  "missing": false,
+  "other": "Multicellular organism",
+  "disamb": false
+ },
+ "유해조류": {
+  "title": "유해조류",
+  "ns": 0,
+  "missing": false,
+  "other": "Harmful algal bloom",
+  "disamb": false
+ },
+ "우주의 나이": {
+  "title": "우주의 나이",
+  "ns": 0,
+  "missing": false,
+  "other": "Age of the universe",
+  "disamb": false
+ },
+ "광합성": {
+  "title": "광합성",
+  "ns": 0,
+  "missing": false,
+  "other": "Photosynthesis",
+  "disamb": false
+ },
+ "산소 비발생 광합성": {
+  "title": "산소 비발생 광합성",
+  "ns": 0,
+  "missing": false,
+  "other": "Anoxygenic photosynthesis",
+  "disamb": false
+ },
+ "브레이크스루 리슨": {
+  "title": "브레이크스루 리슨",
+  "ns": 0,
+  "missing": false,
+  "other": "Breakthrough Listen",
+  "disamb": false
+ },
+ "낸시 그레이스 로먼 우주망원경": {
+  "title": "낸시 그레이스 로먼 우주망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Nancy Grace Roman Space Telescope",
+  "disamb": false
+ },
+ "우주선": {
+  "title": "우주선",
+  "ns": 0,
+  "missing": false,
+  "other": "Spacecraft",
+  "disamb": false
+ },
+ "성간 이동": {
+  "title": "성간 이동",
+  "ns": 0,
+  "missing": false,
+  "other": "Interstellar travel",
+  "disamb": false
+ },
+ "보이저 2호": {
+  "title": "보이저 2호",
+  "ns": 0,
+  "missing": false,
+  "other": "Voyager 2",
+  "disamb": false
+ },
+ "태양광 돛단배": {
+  "title": "태양광 돛단배",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar sail",
+  "disamb": false
+ },
+ "빛의 속력": {
+  "title": "빛의 속력",
+  "ns": 0,
+  "missing": false,
+  "other": "Speed of light",
+  "disamb": false
+ },
+ "성간 천체": {
+  "title": "성간 천체",
+  "ns": 0,
+  "missing": false,
+  "other": "Interstellar object",
+  "disamb": false
+ },
+ "카시오페이아자리": {
+  "title": "카시오페이아자리",
+  "ns": 0,
+  "missing": false,
+  "other": "Cassiopeia (constellation)",
+  "disamb": false
+ },
+ "아케르나르": {
+  "title": "아케르나르",
+  "ns": 0,
+  "missing": false,
+  "other": "Achernar",
+  "disamb": false
+ },
+ "행성의 거주 가능성": {
+  "title": "행성의 거주 가능성",
+  "ns": 0,
+  "missing": false,
+  "other": "Planetary habitability",
+  "disamb": false
+ },
+ "센타우루스자리 프록시마 b": {
+  "title": "센타우루스자리 프록시마 b",
+  "ns": 0,
+  "missing": false,
+  "other": "Proxima Centauri b",
+  "disamb": false
+ },
+ "아비오제네시스": {
+  "title": "아비오제네시스",
+  "ns": 0,
+  "missing": false,
+  "other": "Abiogenesis",
+  "disamb": false
+ },
+ "년": {
+  "title": "년",
+  "ns": 0,
+  "missing": false,
+  "other": "Year",
+  "disamb": false
+ },
+ "슬론 디지털 전천탐사": {
+  "title": "슬론 디지털 전천탐사",
+  "ns": 0,
+  "missing": false,
+  "other": "Sloan Digital Sky Survey",
+  "disamb": false
+ },
+ "햇빛": {
+  "title": "햇빛",
+  "ns": 0,
+  "missing": false,
+  "other": "Sunlight",
+  "disamb": false
+ },
+ "생명": {
+  "title": "생명",
+  "ns": 0,
+  "missing": false,
+  "other": "Life",
+  "disamb": false
+ },
+ "방사속": {
+  "title": "방사속",
+  "ns": 0,
+  "missing": false,
+  "other": "Radiant flux",
+  "disamb": false
+ },
+ "에너지": {
+  "title": "에너지",
+  "ns": 0,
+  "missing": false,
+  "other": "Energy",
+  "disamb": false
+ },
+ "TRAPPIST-1": {
+  "title": "TRAPPIST-1",
+  "ns": 0,
+  "missing": false,
+  "other": "TRAPPIST-1",
+  "disamb": false
+ },
+ "태양 플레어": {
+  "title": "태양 플레어",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar flare",
+  "disamb": false
+ },
+ "30 미터 망원경": {
+  "title": "30 미터 망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Thirty Meter Telescope",
+  "disamb": false
+ },
+ "유럽 초대형 망원경": {
+  "title": "유럽 초대형 망원경",
+  "ns": 0,
+  "missing": false,
+  "other": "Extremely Large Telescope",
+  "disamb": false
+ },
+ "과학자": {
+  "title": "과학자",
+  "ns": 0,
+  "missing": false,
+  "other": "Scientist",
+  "disamb": false
+ },
+ "생물 지표 (물질)": {
+  "title": "생물 지표 (물질)",
+  "ns": 0,
+  "missing": false,
+  "other": "Biosignature",
+  "disamb": false
+ },
+ "화학 물질": {
+  "title": "화학 물질",
+  "ns": 0,
+  "missing": false,
+  "other": "Substance (chemistry)",
+  "disamb": false
+ },
+ "생물학적 과정": {
+  "title": "생물학적 과정",
+  "ns": 0,
+  "missing": false,
+  "other": "Biological process",
+  "disamb": false
+ },
+ "대체 역사": {
+  "title": "대체 역사",
+  "ns": 0,
+  "missing": false,
+  "other": "Alternate history",
+  "disamb": false
+ },
+ "유사 태양": {
+  "title": "유사 태양",
+  "ns": 0,
+  "missing": false,
+  "other": "Solar analog",
+  "disamb": false
+ },
+ "반지름": {
+  "title": "반지름",
+  "ns": 0,
+  "missing": false,
+  "other": "Radius",
+  "disamb": false
+ },
+ "신뢰 구간": {
+  "title": "신뢰 구간",
+  "ns": 0,
+  "missing": false,
+  "other": "Confidence interval",
+  "disamb": false
+ },
+ "글리제 1214 b": {
+  "title": "글리제 1214 b",
+  "ns": 0,
+  "missing": false,
+  "other": "GJ 1214 b",
+  "disamb": false
+ },
+ "지구의 구조": {
+  "title": "지구의 구조",
+  "ns": 0,
+  "missing": false,
+  "other": "Internal structure of Earth",
+  "disamb": false
+ },
+ "외계의 지적생명탐사": {
+  "title": "외계의 지적생명탐사",
+  "ns": 0,
+  "missing": false,
+  "other": "Search for extraterrestrial intelligence",
+  "disamb": false
+ },
+ "외계생명": {
+  "title": "외계생명",
+  "ns": 0,
+  "missing": false,
+  "other": "Extraterrestrial life",
+  "disamb": false
+ },
+ "궤도": {
+  "title": "궤도",
+  "ns": 0,
+  "missing": false,
+  "other": "Orbit",
+  "disamb": false
+ },
+ "측광학 (천문학)": {
+  "title": "측광학 (천문학)",
+  "ns": 0,
+  "missing": false,
+  "other": "Photometry (astronomy)",
+  "disamb": false
+ },
+ "협정 세계시": {
+  "title": "협정 세계시",
+  "ns": 0,
+  "missing": false,
+  "other": "Coordinated Universal Time",
+  "disamb": false
+ },
+ "레이즈드 바이 울브스": {
+  "title": "레이즈드 바이 울브스",
+  "ns": 0,
+  "missing": false,
+  "other": "Raised by Wolves (American TV series)",
+  "disamb": false
+ },
+ "남아프리카 공화국": {
+  "title": "남아프리카 공화국",
+  "ns": 0,
+  "missing": false,
+  "other": "South Africa",
+  "disamb": false
+ },
+ "플루리부스: 행복의 시대": {
+  "title": "플루리부스: 행복의 시대",
+  "ns": 0,
+  "missing": false,
+  "other": "Pluribus (TV series)",
+  "disamb": false
+ }
+}

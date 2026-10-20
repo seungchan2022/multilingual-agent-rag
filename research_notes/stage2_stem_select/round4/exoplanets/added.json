@@ -1,0 +1,724 @@
+{
+ "domain": "exoplanets",
+ "rule": "링크한 대상 수 큰 순 -> 두 언어 링크 수 합 큰 순 -> 한국어 제목 차례. 위 5개",
+ "link_occurrences": 1376,
+ "distinct_topics_with_ko_page": 430,
+ "unpaired_occurrences": {
+  "영어 문서에 한국어 언어 링크 없음(또는 없는 문서·본 이름공간 아님)": 145
+ },
+ "excluded_counts": {
+  "대상 10개 자신": 4,
+  "연도·날짜 문서": 6,
+  "영어 문서 없음(한국어 문서에 영어 언어 링크가 없다)": 1,
+  "동음이의 문서": 1
+ },
+ "targets": [
+  "COROT-7b",
+  "KELT-9b",
+  "글리제 1214 b",
+  "글리제 436 b",
+  "글리제 581 c",
+  "로스 128 b",
+  "목동자리 타우 b",
+  "센타우루스자리 프록시마 b",
+  "케플러-16b",
+  "케플러-22b"
+ ],
+ "candidates_top20": [
+  {
+   "ko_title": "외계 행성",
+   "en_title": "Exoplanet",
+   "targets_linked": 10,
+   "ko_links": 12,
+   "en_links": 17,
+   "links_sum": 29,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 29(한국어 12, 영어 17)"
+  },
+  {
+   "ko_title": "외계 행성 탐사방법",
+   "en_title": "Methods of detecting exoplanets",
+   "targets_linked": 10,
+   "ko_links": 2,
+   "en_links": 23,
+   "links_sum": 25,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 25(한국어 2, 영어 23)"
+  },
+  {
+   "ko_title": "질량",
+   "en_title": "Mass",
+   "targets_linked": 10,
+   "ko_links": 9,
+   "en_links": 13,
+   "links_sum": 22,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 22(한국어 9, 영어 13)"
+  },
+  {
+   "ko_title": "공전 주기",
+   "en_title": "Orbital period",
+   "targets_linked": 10,
+   "ko_links": 0,
+   "en_links": 18,
+   "links_sum": 18,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 18(한국어 0, 영어 18)"
+  },
+  {
+   "ko_title": "궤도 이심률",
+   "en_title": "Orbital eccentricity",
+   "targets_linked": 10,
+   "ko_links": 0,
+   "en_links": 11,
+   "links_sum": 11,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 11(한국어 0, 영어 11)"
+  },
+  {
+   "ko_title": "외계 행성 주인별",
+   "en_title": "Planet-hosting star",
+   "targets_linked": 10,
+   "ko_links": 10,
+   "en_links": 1,
+   "links_sum": 11,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 6,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 11(한국어 10, 영어 1)"
+  },
+  {
+   "ko_title": "외계 행성이 확인된 항성 목록",
+   "en_title": "List of multiplanetary systems",
+   "targets_linked": 10,
+   "ko_links": 10,
+   "en_links": 0,
+   "links_sum": 10,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 7,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 10(한국어 10, 영어 0)"
+  },
+  {
+   "ko_title": "궤도 경사",
+   "en_title": "Orbital inclination",
+   "targets_linked": 9,
+   "ko_links": 3,
+   "en_links": 13,
+   "links_sum": 16,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 8,
+   "why_ranked": "링크한 대상 9개, 링크 수 합 16(한국어 3, 영어 13)"
+  },
+  {
+   "ko_title": "날",
+   "en_title": "Day",
+   "targets_linked": 9,
+   "ko_links": 0,
+   "en_links": 11,
+   "links_sum": 11,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 9,
+   "why_ranked": "링크한 대상 9개, 링크 수 합 11(한국어 0, 영어 11)"
+  },
+  {
+   "ko_title": "온도",
+   "en_title": "Temperature",
+   "targets_linked": 9,
+   "ko_links": 0,
+   "en_links": 10,
+   "links_sum": 10,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 10,
+   "why_ranked": "링크한 대상 9개, 링크 수 합 10(한국어 0, 영어 10)"
+  },
+  {
+   "ko_title": "천문단위",
+   "en_title": "Astronomical unit",
+   "targets_linked": 8,
+   "ko_links": 4,
+   "en_links": 13,
+   "links_sum": 17,
+   "linked_by": [
+    "KELT-9b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 11,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 17(한국어 4, 영어 13)"
+  },
+  {
+   "ko_title": "켈빈",
+   "en_title": "Kelvin",
+   "targets_linked": 8,
+   "ko_links": 7,
+   "en_links": 10,
+   "links_sum": 17,
+   "linked_by": [
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 12,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 17(한국어 7, 영어 10)"
+  },
+  {
+   "ko_title": "목성",
+   "en_title": "Jupiter",
+   "targets_linked": 8,
+   "ko_links": 7,
+   "en_links": 9,
+   "links_sum": 16,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b"
+   ],
+   "rank": 13,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 16(한국어 7, 영어 9)"
+  },
+  {
+   "ko_title": "광년",
+   "en_title": "Light-year",
+   "targets_linked": 8,
+   "ko_links": 6,
+   "en_links": 9,
+   "links_sum": 15,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-22b"
+   ],
+   "rank": 14,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 15(한국어 6, 영어 9)"
+  },
+  {
+   "ko_title": "태양",
+   "en_title": "Sun",
+   "targets_linked": 8,
+   "ko_links": 6,
+   "en_links": 9,
+   "links_sum": 15,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-22b"
+   ],
+   "rank": 15,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 15(한국어 6, 영어 9)"
+  },
+  {
+   "ko_title": "별자리",
+   "en_title": "Constellation",
+   "targets_linked": 8,
+   "ko_links": 7,
+   "en_links": 5,
+   "links_sum": 12,
+   "linked_by": [
+    "COROT-7b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b"
+   ],
+   "rank": 16,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 12(한국어 7, 영어 5)"
+  },
+  {
+   "ko_title": "파섹",
+   "en_title": "Parsec",
+   "targets_linked": 8,
+   "ko_links": 5,
+   "en_links": 6,
+   "links_sum": 11,
+   "linked_by": [
+    "COROT-7b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-22b"
+   ],
+   "rank": 17,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 11(한국어 5, 영어 6)"
+  },
+  {
+   "ko_title": "미터 매 초",
+   "en_title": "Metre per second",
+   "targets_linked": 8,
+   "ko_links": 0,
+   "en_links": 9,
+   "links_sum": 9,
+   "linked_by": [
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-22b"
+   ],
+   "rank": 18,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 9(한국어 0, 영어 9)"
+  },
+  {
+   "ko_title": "진폭",
+   "en_title": "Amplitude",
+   "targets_linked": 8,
+   "ko_links": 0,
+   "en_links": 8,
+   "links_sum": 8,
+   "linked_by": [
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-22b"
+   ],
+   "rank": 19,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 8(한국어 0, 영어 8)"
+  },
+  {
+   "ko_title": "천문대 코드 목록",
+   "en_title": "List of observatory codes",
+   "targets_linked": 8,
+   "ko_links": 0,
+   "en_links": 8,
+   "links_sum": 8,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-22b"
+   ],
+   "rank": 20,
+   "why_ranked": "링크한 대상 8개, 링크 수 합 8(한국어 0, 영어 8)"
+  }
+ ],
+ "selected": [
+  {
+   "ko_title": "외계 행성",
+   "en_title": "Exoplanet",
+   "targets_linked": 10,
+   "ko_links": 12,
+   "en_links": 17,
+   "links_sum": 29,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 29(한국어 12, 영어 17)",
+   "ko_revid": 42369040,
+   "ko_fetched_title": "외계 행성",
+   "ko_fetched_at": "2026-10-20T13:29:35+00:00",
+   "en_revid": 1381126123,
+   "en_fetched_title": "Exoplanet",
+   "en_fetched_at": "2026-10-20T13:29:39+00:00"
+  },
+  {
+   "ko_title": "외계 행성 탐사방법",
+   "en_title": "Methods of detecting exoplanets",
+   "targets_linked": 10,
+   "ko_links": 2,
+   "en_links": 23,
+   "links_sum": 25,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 25(한국어 2, 영어 23)",
+   "ko_revid": 42567516,
+   "ko_fetched_title": "외계 행성 탐사방법",
+   "ko_fetched_at": "2026-10-20T13:29:42+00:00",
+   "en_revid": 1379763112,
+   "en_fetched_title": "Methods of detecting exoplanets",
+   "en_fetched_at": "2026-10-20T13:29:46+00:00"
+  },
+  {
+   "ko_title": "질량",
+   "en_title": "Mass",
+   "targets_linked": 10,
+   "ko_links": 9,
+   "en_links": 13,
+   "links_sum": 22,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 22(한국어 9, 영어 13)",
+   "ko_revid": 42539237,
+   "ko_fetched_title": "질량",
+   "ko_fetched_at": "2026-10-20T13:29:49+00:00",
+   "en_revid": 1376796359,
+   "en_fetched_title": "Mass",
+   "en_fetched_at": "2026-10-20T13:29:52+00:00"
+  },
+  {
+   "ko_title": "공전 주기",
+   "en_title": "Orbital period",
+   "targets_linked": 10,
+   "ko_links": 0,
+   "en_links": 18,
+   "links_sum": 18,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 18(한국어 0, 영어 18)",
+   "ko_revid": 41234542,
+   "ko_fetched_title": "공전 주기",
+   "ko_fetched_at": "2026-10-20T13:29:55+00:00",
+   "en_revid": 1380975097,
+   "en_fetched_title": "Orbital period",
+   "en_fetched_at": "2026-10-20T13:29:58+00:00"
+  },
+  {
+   "ko_title": "궤도 이심률",
+   "en_title": "Orbital eccentricity",
+   "targets_linked": 10,
+   "ko_links": 0,
+   "en_links": 11,
+   "links_sum": 11,
+   "linked_by": [
+    "COROT-7b",
+    "KELT-9b",
+    "글리제 1214 b",
+    "글리제 436 b",
+    "글리제 581 c",
+    "로스 128 b",
+    "목동자리 타우 b",
+    "센타우루스자리 프록시마 b",
+    "케플러-16b",
+    "케플러-22b"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 11(한국어 0, 영어 11)",
+   "ko_revid": 40234864,
+   "ko_fetched_title": "궤도 이심률",
+   "ko_fetched_at": "2026-10-20T13:30:01+00:00",
+   "en_revid": 1375420183,
+   "en_fetched_title": "Orbital eccentricity",
+   "en_fetched_at": "2026-10-20T13:30:04+00:00"
+  }
+ ],
+ "excluded": [
+  {
+   "ko_title": "COROT-7b",
+   "en_title": "CoRoT-7b",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 1,
+   "links_sum": 2,
+   "linked_by": [
+    "글리제 1214 b"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "1996년",
+   "en_title": "1996",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "목동자리 타우 b"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2004년",
+   "en_title": "2004",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "글리제 436 b"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2007년",
+   "en_title": "2007",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "글리제 581 c"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2011년",
+   "en_title": "2011",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "케플러-16b"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "2019년",
+   "en_title": "2019",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "KELT-9b"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "9월 15일",
+   "en_title": "September 15",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "케플러-16b"
+   ],
+   "reason": "연도·날짜 문서"
+  },
+  {
+   "ko_title": "글리제 1214 b",
+   "en_title": "GJ 1214 b",
+   "targets_linked": 1,
+   "ko_links": 0,
+   "en_links": 1,
+   "links_sum": 1,
+   "linked_by": [
+    "케플러-22b"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "센타우루스자리 프록시마 b",
+   "en_title": "Proxima Centauri b",
+   "targets_linked": 1,
+   "ko_links": 0,
+   "en_links": 1,
+   "links_sum": 1,
+   "linked_by": [
+    "로스 128 b"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "케플러-16b",
+   "en_title": "Kepler-16b",
+   "targets_linked": 1,
+   "ko_links": 0,
+   "en_links": 1,
+   "links_sum": 1,
+   "linked_by": [
+    "글리제 1214 b"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "플레어",
+   "en_title": "Flare (disambiguation)",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "센타우루스자리 프록시마 b"
+   ],
+   "reason": "동음이의 문서"
+  }
+ ],
+ "selected_at": "2026-10-20T13:28:52+00:00",
+ "infobox_grid_counted": false
+}

@@ -1,0 +1,846 @@
+{
+ "domain": "rare_earth",
+ "rule": "링크한 대상 수 큰 순 -> 두 언어 링크 수 합 큰 순 -> 한국어 제목 차례. 위 5개",
+ "link_occurrences": 6344,
+ "distinct_topics_with_ko_page": 838,
+ "unpaired_occurrences": {
+  "영어 문서에 한국어 언어 링크 없음(또는 없는 문서·본 이름공간 아님)": 494
+ },
+ "excluded_counts": {
+  "대상 10개 자신": 10,
+  "영어 문서 없음(한국어 문서에 영어 언어 링크가 없다)": 5,
+  "동음이의 문서": 4
+ },
+ "targets": [
+  "디스프로슘",
+  "란타넘",
+  "루테튬",
+  "사마륨",
+  "어븀",
+  "유로퓸",
+  "이터븀",
+  "이트륨",
+  "툴륨",
+  "프라세오디뮴"
+ ],
+ "candidates_top20": [
+  {
+   "ko_title": "란타넘족",
+   "en_title": "Lanthanide",
+   "targets_linked": 10,
+   "ko_links": 29,
+   "en_links": 25,
+   "links_sum": 54,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 54(한국어 29, 영어 25)"
+  },
+  {
+   "ko_title": "안정 동위 원소",
+   "en_title": "Stable isotope",
+   "targets_linked": 10,
+   "ko_links": 35,
+   "en_links": 14,
+   "links_sum": 49,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 49(한국어 35, 영어 14)"
+  },
+  {
+   "ko_title": "구역 (주기율표)",
+   "en_title": "Block (periodic table)",
+   "targets_linked": 10,
+   "ko_links": 18,
+   "en_links": 29,
+   "links_sum": 47,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 47(한국어 18, 영어 29)"
+  },
+  {
+   "ko_title": "방사성 동위 원소",
+   "en_title": "Radionuclide",
+   "targets_linked": 10,
+   "ko_links": 27,
+   "en_links": 20,
+   "links_sum": 47,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 47(한국어 27, 영어 20)"
+  },
+  {
+   "ko_title": "세륨",
+   "en_title": "Cerium",
+   "targets_linked": 10,
+   "ko_links": 21,
+   "en_links": 26,
+   "links_sum": 47,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 47(한국어 21, 영어 26)"
+  },
+  {
+   "ko_title": "원자 번호",
+   "en_title": "Atomic number",
+   "targets_linked": 10,
+   "ko_links": 23,
+   "en_links": 23,
+   "links_sum": 46,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 6,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 46(한국어 23, 영어 23)"
+  },
+  {
+   "ko_title": "제논 (원소)",
+   "en_title": "Xenon",
+   "targets_linked": 10,
+   "ko_links": 20,
+   "en_links": 22,
+   "links_sum": 42,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 7,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 42(한국어 20, 영어 22)"
+  },
+  {
+   "ko_title": "네오디뮴",
+   "en_title": "Neodymium",
+   "targets_linked": 10,
+   "ko_links": 20,
+   "en_links": 20,
+   "links_sum": 40,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 8,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 40(한국어 20, 영어 20)"
+  },
+  {
+   "ko_title": "홀뮴",
+   "en_title": "Holmium",
+   "targets_linked": 10,
+   "ko_links": 16,
+   "en_links": 22,
+   "links_sum": 38,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 9,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 38(한국어 16, 영어 22)"
+  },
+  {
+   "ko_title": "녹는점",
+   "en_title": "Melting point",
+   "targets_linked": 10,
+   "ko_links": 15,
+   "en_links": 22,
+   "links_sum": 37,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 10,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 37(한국어 15, 영어 22)"
+  },
+  {
+   "ko_title": "반감기",
+   "en_title": "Half-life",
+   "targets_linked": 10,
+   "ko_links": 17,
+   "en_links": 19,
+   "links_sum": 36,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 11,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 36(한국어 17, 영어 19)"
+  },
+  {
+   "ko_title": "베타 붕괴",
+   "en_title": "Beta decay",
+   "targets_linked": 10,
+   "ko_links": 16,
+   "en_links": 20,
+   "links_sum": 36,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 12,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 36(한국어 16, 영어 20)"
+  },
+  {
+   "ko_title": "희토류 원소",
+   "en_title": "Rare-earth element",
+   "targets_linked": 10,
+   "ko_links": 13,
+   "en_links": 23,
+   "links_sum": 36,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 13,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 36(한국어 13, 영어 23)"
+  },
+  {
+   "ko_title": "스칸듐",
+   "en_title": "Scandium",
+   "targets_linked": 10,
+   "ko_links": 17,
+   "en_links": 18,
+   "links_sum": 35,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 14,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 35(한국어 17, 영어 18)"
+  },
+  {
+   "ko_title": "가돌리늄",
+   "en_title": "Gadolinium",
+   "targets_linked": 10,
+   "ko_links": 15,
+   "en_links": 19,
+   "links_sum": 34,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 15,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 34(한국어 15, 영어 19)"
+  },
+  {
+   "ko_title": "산화수",
+   "en_title": "Oxidation state",
+   "targets_linked": 10,
+   "ko_links": 17,
+   "en_links": 16,
+   "links_sum": 33,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 16,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 33(한국어 17, 영어 16)"
+  },
+  {
+   "ko_title": "전자 포획",
+   "en_title": "Electron capture",
+   "targets_linked": 10,
+   "ko_links": 16,
+   "en_links": 17,
+   "links_sum": 33,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 17,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 33(한국어 16, 영어 17)"
+  },
+  {
+   "ko_title": "전자 배열",
+   "en_title": "Electron configuration",
+   "targets_linked": 10,
+   "ko_links": 16,
+   "en_links": 16,
+   "links_sum": 32,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 18,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 32(한국어 16, 영어 16)"
+  },
+  {
+   "ko_title": "수소",
+   "en_title": "Hydrogen",
+   "targets_linked": 10,
+   "ko_links": 15,
+   "en_links": 16,
+   "links_sum": 31,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 19,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 31(한국어 15, 영어 16)"
+  },
+  {
+   "ko_title": "지르코늄",
+   "en_title": "Zirconium",
+   "targets_linked": 10,
+   "ko_links": 15,
+   "en_links": 16,
+   "links_sum": 31,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 20,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 31(한국어 15, 영어 16)"
+  }
+ ],
+ "selected": [
+  {
+   "ko_title": "란타넘족",
+   "en_title": "Lanthanide",
+   "targets_linked": 10,
+   "ko_links": 29,
+   "en_links": 25,
+   "links_sum": 54,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 1,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 54(한국어 29, 영어 25)"
+  },
+  {
+   "ko_title": "안정 동위 원소",
+   "en_title": "Stable isotope",
+   "targets_linked": 10,
+   "ko_links": 35,
+   "en_links": 14,
+   "links_sum": 49,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 2,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 49(한국어 35, 영어 14)"
+  },
+  {
+   "ko_title": "구역 (주기율표)",
+   "en_title": "Block (periodic table)",
+   "targets_linked": 10,
+   "ko_links": 18,
+   "en_links": 29,
+   "links_sum": 47,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 3,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 47(한국어 18, 영어 29)"
+  },
+  {
+   "ko_title": "방사성 동위 원소",
+   "en_title": "Radionuclide",
+   "targets_linked": 10,
+   "ko_links": 27,
+   "en_links": 20,
+   "links_sum": 47,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 4,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 47(한국어 27, 영어 20)"
+  },
+  {
+   "ko_title": "세륨",
+   "en_title": "Cerium",
+   "targets_linked": 10,
+   "ko_links": 21,
+   "en_links": 26,
+   "links_sum": 47,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "rank": 5,
+   "why_ranked": "링크한 대상 10개, 링크 수 합 47(한국어 21, 영어 26)"
+  }
+ ],
+ "excluded": [
+  {
+   "ko_title": "이터븀",
+   "en_title": "Ytterbium",
+   "targets_linked": 9,
+   "ko_links": 20,
+   "en_links": 22,
+   "links_sum": 42,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "루테튬",
+   "en_title": "Lutetium",
+   "targets_linked": 9,
+   "ko_links": 18,
+   "en_links": 22,
+   "links_sum": 40,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "툴륨",
+   "en_title": "Thulium",
+   "targets_linked": 9,
+   "ko_links": 21,
+   "en_links": 18,
+   "links_sum": 39,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "유로퓸",
+   "en_title": "Europium",
+   "targets_linked": 9,
+   "ko_links": 15,
+   "en_links": 21,
+   "links_sum": 36,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "이트륨",
+   "en_title": "Yttrium",
+   "targets_linked": 9,
+   "ko_links": 15,
+   "en_links": 20,
+   "links_sum": 35,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "사마륨",
+   "en_title": "Samarium",
+   "targets_linked": 9,
+   "ko_links": 14,
+   "en_links": 18,
+   "links_sum": 32,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "어븀",
+   "en_title": "Erbium",
+   "targets_linked": 9,
+   "ko_links": 14,
+   "en_links": 18,
+   "links_sum": 32,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "란타넘",
+   "en_title": "Lanthanum",
+   "targets_linked": 9,
+   "ko_links": 15,
+   "en_links": 15,
+   "links_sum": 30,
+   "linked_by": [
+    "디스프로슘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "디스프로슘",
+   "en_title": "Dysprosium",
+   "targets_linked": 9,
+   "ko_links": 11,
+   "en_links": 10,
+   "links_sum": 21,
+   "linked_by": [
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨",
+    "프라세오디뮴"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "프라세오디뮴",
+   "en_title": "Praseodymium",
+   "targets_linked": 9,
+   "ko_links": 9,
+   "en_links": 12,
+   "links_sum": 21,
+   "linked_by": [
+    "디스프로슘",
+    "란타넘",
+    "루테튬",
+    "사마륨",
+    "어븀",
+    "유로퓸",
+    "이터븀",
+    "이트륨",
+    "툴륨"
+   ],
+   "reason": "대상 10개 자신"
+  },
+  {
+   "ko_title": "1 E5 s",
+   "en_title": null,
+   "targets_linked": 3,
+   "ko_links": 3,
+   "en_links": 0,
+   "links_sum": 3,
+   "linked_by": [
+    "어븀",
+    "이터븀",
+    "툴륨"
+   ],
+   "reason": "영어 문서 없음(한국어 문서에 영어 언어 링크가 없다)"
+  },
+  {
+   "ko_title": "중국",
+   "en_title": "China (disambiguation)",
+   "targets_linked": 1,
+   "ko_links": 2,
+   "en_links": 0,
+   "links_sum": 2,
+   "linked_by": [
+    "사마륨"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "분",
+   "en_title": "Boon",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "란타넘"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "오비탈",
+   "en_title": "Orbital",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "프라세오디뮴"
+   ],
+   "reason": "동음이의 문서"
+  },
+  {
+   "ko_title": "피코",
+   "en_title": "Metric prefix",
+   "targets_linked": 1,
+   "ko_links": 1,
+   "en_links": 0,
+   "links_sum": 1,
+   "linked_by": [
+    "사마륨"
+   ],
+   "reason": "동음이의 문서"
+  }
+ ],
+ "selected_at": "2026-10-20T13:27:55+00:00",
+ "infobox_grid_counted": true
+}

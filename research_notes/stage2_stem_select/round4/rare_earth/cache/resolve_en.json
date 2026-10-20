@@ -1,0 +1,9333 @@
+{
+ "Standard atomic weight": {
+  "title": "Standard atomic weight",
+  "ns": 0,
+  "missing": false,
+  "other": "표준 원자량",
+  "disamb": false
+ },
+ "Periodic table": {
+  "title": "Periodic table",
+  "ns": 0,
+  "missing": false,
+  "other": "주기율표",
+  "disamb": false
+ },
+ "Hydrogen": {
+  "title": "Hydrogen",
+  "ns": 0,
+  "missing": false,
+  "other": "수소",
+  "disamb": false
+ },
+ "Helium": {
+  "title": "Helium",
+  "ns": 0,
+  "missing": false,
+  "other": "헬륨",
+  "disamb": false
+ },
+ "Lithium": {
+  "title": "Lithium",
+  "ns": 0,
+  "missing": false,
+  "other": "리튬",
+  "disamb": false
+ },
+ "Beryllium": {
+  "title": "Beryllium",
+  "ns": 0,
+  "missing": false,
+  "other": "베릴륨",
+  "disamb": false
+ },
+ "Boron": {
+  "title": "Boron",
+  "ns": 0,
+  "missing": false,
+  "other": "붕소",
+  "disamb": false
+ },
+ "Carbon": {
+  "title": "Carbon",
+  "ns": 0,
+  "missing": false,
+  "other": "탄소",
+  "disamb": false
+ },
+ "Nitrogen": {
+  "title": "Nitrogen",
+  "ns": 0,
+  "missing": false,
+  "other": "질소",
+  "disamb": false
+ },
+ "Oxygen": {
+  "title": "Oxygen",
+  "ns": 0,
+  "missing": false,
+  "other": "산소",
+  "disamb": false
+ },
+ "Fluorine": {
+  "title": "Fluorine",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린",
+  "disamb": false
+ },
+ "Neon": {
+  "title": "Neon",
+  "ns": 0,
+  "missing": false,
+  "other": "네온",
+  "disamb": false
+ },
+ "Sodium": {
+  "title": "Sodium",
+  "ns": 0,
+  "missing": false,
+  "other": "나트륨",
+  "disamb": false
+ },
+ "Magnesium": {
+  "title": "Magnesium",
+  "ns": 0,
+  "missing": false,
+  "other": "마그네슘",
+  "disamb": false
+ },
+ "Aluminium": {
+  "title": "Aluminium",
+  "ns": 0,
+  "missing": false,
+  "other": "알루미늄",
+  "disamb": false
+ },
+ "Silicon": {
+  "title": "Silicon",
+  "ns": 0,
+  "missing": false,
+  "other": "규소",
+  "disamb": false
+ },
+ "Phosphorus": {
+  "title": "Phosphorus",
+  "ns": 0,
+  "missing": false,
+  "other": "인",
+  "disamb": false
+ },
+ "Sulfur": {
+  "title": "Sulfur",
+  "ns": 0,
+  "missing": false,
+  "other": "황",
+  "disamb": false
+ },
+ "Chlorine": {
+  "title": "Chlorine",
+  "ns": 0,
+  "missing": false,
+  "other": "염소 (원소)",
+  "disamb": false
+ },
+ "Argon": {
+  "title": "Argon",
+  "ns": 0,
+  "missing": false,
+  "other": "아르곤",
+  "disamb": false
+ },
+ "Potassium": {
+  "title": "Potassium",
+  "ns": 0,
+  "missing": false,
+  "other": "칼륨",
+  "disamb": false
+ },
+ "Calcium": {
+  "title": "Calcium",
+  "ns": 0,
+  "missing": false,
+  "other": "칼슘",
+  "disamb": false
+ },
+ "Scandium": {
+  "title": "Scandium",
+  "ns": 0,
+  "missing": false,
+  "other": "스칸듐",
+  "disamb": false
+ },
+ "Titanium": {
+  "title": "Titanium",
+  "ns": 0,
+  "missing": false,
+  "other": "타이타늄",
+  "disamb": false
+ },
+ "Vanadium": {
+  "title": "Vanadium",
+  "ns": 0,
+  "missing": false,
+  "other": "바나듐",
+  "disamb": false
+ },
+ "Chromium": {
+  "title": "Chromium",
+  "ns": 0,
+  "missing": false,
+  "other": "크로뮴",
+  "disamb": false
+ },
+ "Manganese": {
+  "title": "Manganese",
+  "ns": 0,
+  "missing": false,
+  "other": "망가니즈",
+  "disamb": false
+ },
+ "Iron": {
+  "title": "Iron",
+  "ns": 0,
+  "missing": false,
+  "other": "철",
+  "disamb": false
+ },
+ "Cobalt": {
+  "title": "Cobalt",
+  "ns": 0,
+  "missing": false,
+  "other": "코발트",
+  "disamb": false
+ },
+ "Nickel": {
+  "title": "Nickel",
+  "ns": 0,
+  "missing": false,
+  "other": "니켈",
+  "disamb": false
+ },
+ "Copper": {
+  "title": "Copper",
+  "ns": 0,
+  "missing": false,
+  "other": "구리",
+  "disamb": false
+ },
+ "Zinc": {
+  "title": "Zinc",
+  "ns": 0,
+  "missing": false,
+  "other": "아연",
+  "disamb": false
+ },
+ "Gallium": {
+  "title": "Gallium",
+  "ns": 0,
+  "missing": false,
+  "other": "갈륨",
+  "disamb": false
+ },
+ "Germanium": {
+  "title": "Germanium",
+  "ns": 0,
+  "missing": false,
+  "other": "저마늄",
+  "disamb": false
+ },
+ "Arsenic": {
+  "title": "Arsenic",
+  "ns": 0,
+  "missing": false,
+  "other": "비소",
+  "disamb": false
+ },
+ "Selenium": {
+  "title": "Selenium",
+  "ns": 0,
+  "missing": false,
+  "other": "셀레늄",
+  "disamb": false
+ },
+ "Bromine": {
+  "title": "Bromine",
+  "ns": 0,
+  "missing": false,
+  "other": "브로민",
+  "disamb": false
+ },
+ "Krypton": {
+  "title": "Krypton",
+  "ns": 0,
+  "missing": false,
+  "other": "크립톤",
+  "disamb": false
+ },
+ "Rubidium": {
+  "title": "Rubidium",
+  "ns": 0,
+  "missing": false,
+  "other": "루비듐",
+  "disamb": false
+ },
+ "Strontium": {
+  "title": "Strontium",
+  "ns": 0,
+  "missing": false,
+  "other": "스트론튬",
+  "disamb": false
+ },
+ "Yttrium": {
+  "title": "Yttrium",
+  "ns": 0,
+  "missing": false,
+  "other": "이트륨",
+  "disamb": false
+ },
+ "Zirconium": {
+  "title": "Zirconium",
+  "ns": 0,
+  "missing": false,
+  "other": "지르코늄",
+  "disamb": false
+ },
+ "Niobium": {
+  "title": "Niobium",
+  "ns": 0,
+  "missing": false,
+  "other": "나이오븀",
+  "disamb": false
+ },
+ "Molybdenum": {
+  "title": "Molybdenum",
+  "ns": 0,
+  "missing": false,
+  "other": "몰리브데넘",
+  "disamb": false
+ },
+ "Technetium": {
+  "title": "Technetium",
+  "ns": 0,
+  "missing": false,
+  "other": "테크네튬",
+  "disamb": false
+ },
+ "Ruthenium": {
+  "title": "Ruthenium",
+  "ns": 0,
+  "missing": false,
+  "other": "루테늄",
+  "disamb": false
+ },
+ "Rhodium": {
+  "title": "Rhodium",
+  "ns": 0,
+  "missing": false,
+  "other": "로듐",
+  "disamb": false
+ },
+ "Palladium": {
+  "title": "Palladium",
+  "ns": 0,
+  "missing": false,
+  "other": "팔라듐",
+  "disamb": false
+ },
+ "Silver": {
+  "title": "Silver",
+  "ns": 0,
+  "missing": false,
+  "other": "은",
+  "disamb": false
+ },
+ "Cadmium": {
+  "title": "Cadmium",
+  "ns": 0,
+  "missing": false,
+  "other": "카드뮴",
+  "disamb": false
+ },
+ "Indium": {
+  "title": "Indium",
+  "ns": 0,
+  "missing": false,
+  "other": "인듐",
+  "disamb": false
+ },
+ "Tin": {
+  "title": "Tin",
+  "ns": 0,
+  "missing": false,
+  "other": "주석 (원소)",
+  "disamb": false
+ },
+ "Antimony": {
+  "title": "Antimony",
+  "ns": 0,
+  "missing": false,
+  "other": "안티모니",
+  "disamb": false
+ },
+ "Tellurium": {
+  "title": "Tellurium",
+  "ns": 0,
+  "missing": false,
+  "other": "텔루륨",
+  "disamb": false
+ },
+ "Iodine": {
+  "title": "Iodine",
+  "ns": 0,
+  "missing": false,
+  "other": "아이오딘",
+  "disamb": false
+ },
+ "Xenon": {
+  "title": "Xenon",
+  "ns": 0,
+  "missing": false,
+  "other": "제논 (원소)",
+  "disamb": false
+ },
+ "Caesium": {
+  "title": "Caesium",
+  "ns": 0,
+  "missing": false,
+  "other": "세슘",
+  "disamb": false
+ },
+ "Barium": {
+  "title": "Barium",
+  "ns": 0,
+  "missing": false,
+  "other": "바륨",
+  "disamb": false
+ },
+ "Lanthanum": {
+  "title": "Lanthanum",
+  "ns": 0,
+  "missing": false,
+  "other": "란타넘",
+  "disamb": false
+ },
+ "Cerium": {
+  "title": "Cerium",
+  "ns": 0,
+  "missing": false,
+  "other": "세륨",
+  "disamb": false
+ },
+ "Praseodymium": {
+  "title": "Praseodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "프라세오디뮴",
+  "disamb": false
+ },
+ "Neodymium": {
+  "title": "Neodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴",
+  "disamb": false
+ },
+ "Promethium": {
+  "title": "Promethium",
+  "ns": 0,
+  "missing": false,
+  "other": "프로메튬",
+  "disamb": false
+ },
+ "Samarium": {
+  "title": "Samarium",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨",
+  "disamb": false
+ },
+ "Gadolinium": {
+  "title": "Gadolinium",
+  "ns": 0,
+  "missing": false,
+  "other": "가돌리늄",
+  "disamb": false
+ },
+ "Terbium": {
+  "title": "Terbium",
+  "ns": 0,
+  "missing": false,
+  "other": "터븀",
+  "disamb": false
+ },
+ "Dysprosium": {
+  "title": "Dysprosium",
+  "ns": 0,
+  "missing": false,
+  "other": "디스프로슘",
+  "disamb": false
+ },
+ "Holmium": {
+  "title": "Holmium",
+  "ns": 0,
+  "missing": false,
+  "other": "홀뮴",
+  "disamb": false
+ },
+ "Erbium": {
+  "title": "Erbium",
+  "ns": 0,
+  "missing": false,
+  "other": "어븀",
+  "disamb": false
+ },
+ "Thulium": {
+  "title": "Thulium",
+  "ns": 0,
+  "missing": false,
+  "other": "툴륨",
+  "disamb": false
+ },
+ "Ytterbium": {
+  "title": "Ytterbium",
+  "ns": 0,
+  "missing": false,
+  "other": "이터븀",
+  "disamb": false
+ },
+ "Lutetium": {
+  "title": "Lutetium",
+  "ns": 0,
+  "missing": false,
+  "other": "루테튬",
+  "disamb": false
+ },
+ "Hafnium": {
+  "title": "Hafnium",
+  "ns": 0,
+  "missing": false,
+  "other": "하프늄",
+  "disamb": false
+ },
+ "Tantalum": {
+  "title": "Tantalum",
+  "ns": 0,
+  "missing": false,
+  "other": "탄탈럼",
+  "disamb": false
+ },
+ "Tungsten": {
+  "title": "Tungsten",
+  "ns": 0,
+  "missing": false,
+  "other": "텅스텐",
+  "disamb": false
+ },
+ "Rhenium": {
+  "title": "Rhenium",
+  "ns": 0,
+  "missing": false,
+  "other": "레늄",
+  "disamb": false
+ },
+ "Osmium": {
+  "title": "Osmium",
+  "ns": 0,
+  "missing": false,
+  "other": "오스뮴",
+  "disamb": false
+ },
+ "Iridium": {
+  "title": "Iridium",
+  "ns": 0,
+  "missing": false,
+  "other": "이리듐",
+  "disamb": false
+ },
+ "Platinum": {
+  "title": "Platinum",
+  "ns": 0,
+  "missing": false,
+  "other": "백금",
+  "disamb": false
+ },
+ "Gold": {
+  "title": "Gold",
+  "ns": 0,
+  "missing": false,
+  "other": "금",
+  "disamb": false
+ },
+ "Mercury (element)": {
+  "title": "Mercury (element)",
+  "ns": 0,
+  "missing": false,
+  "other": "수은",
+  "disamb": false
+ },
+ "Thallium": {
+  "title": "Thallium",
+  "ns": 0,
+  "missing": false,
+  "other": "탈륨",
+  "disamb": false
+ },
+ "Lead": {
+  "title": "Lead",
+  "ns": 0,
+  "missing": false,
+  "other": "납",
+  "disamb": false
+ },
+ "Bismuth": {
+  "title": "Bismuth",
+  "ns": 0,
+  "missing": false,
+  "other": "비스무트",
+  "disamb": false
+ },
+ "Polonium": {
+  "title": "Polonium",
+  "ns": 0,
+  "missing": false,
+  "other": "폴로늄",
+  "disamb": false
+ },
+ "Astatine": {
+  "title": "Astatine",
+  "ns": 0,
+  "missing": false,
+  "other": "아스타틴",
+  "disamb": false
+ },
+ "Radon": {
+  "title": "Radon",
+  "ns": 0,
+  "missing": false,
+  "other": "라돈",
+  "disamb": false
+ },
+ "Francium": {
+  "title": "Francium",
+  "ns": 0,
+  "missing": false,
+  "other": "프랑슘",
+  "disamb": false
+ },
+ "Radium": {
+  "title": "Radium",
+  "ns": 0,
+  "missing": false,
+  "other": "라듐",
+  "disamb": false
+ },
+ "Actinium": {
+  "title": "Actinium",
+  "ns": 0,
+  "missing": false,
+  "other": "악티늄",
+  "disamb": false
+ },
+ "Thorium": {
+  "title": "Thorium",
+  "ns": 0,
+  "missing": false,
+  "other": "토륨",
+  "disamb": false
+ },
+ "Protactinium": {
+  "title": "Protactinium",
+  "ns": 0,
+  "missing": false,
+  "other": "프로트악티늄",
+  "disamb": false
+ },
+ "Uranium": {
+  "title": "Uranium",
+  "ns": 0,
+  "missing": false,
+  "other": "우라늄",
+  "disamb": false
+ },
+ "Neptunium": {
+  "title": "Neptunium",
+  "ns": 0,
+  "missing": false,
+  "other": "넵투늄",
+  "disamb": false
+ },
+ "Plutonium": {
+  "title": "Plutonium",
+  "ns": 0,
+  "missing": false,
+  "other": "플루토늄",
+  "disamb": false
+ },
+ "Americium": {
+  "title": "Americium",
+  "ns": 0,
+  "missing": false,
+  "other": "아메리슘",
+  "disamb": false
+ },
+ "Curium": {
+  "title": "Curium",
+  "ns": 0,
+  "missing": false,
+  "other": "퀴륨",
+  "disamb": false
+ },
+ "Berkelium": {
+  "title": "Berkelium",
+  "ns": 0,
+  "missing": false,
+  "other": "버클륨",
+  "disamb": false
+ },
+ "Californium": {
+  "title": "Californium",
+  "ns": 0,
+  "missing": false,
+  "other": "캘리포늄",
+  "disamb": false
+ },
+ "Einsteinium": {
+  "title": "Einsteinium",
+  "ns": 0,
+  "missing": false,
+  "other": "아인슈타이늄",
+  "disamb": false
+ },
+ "Fermium": {
+  "title": "Fermium",
+  "ns": 0,
+  "missing": false,
+  "other": "페르뮴",
+  "disamb": false
+ },
+ "Mendelevium": {
+  "title": "Mendelevium",
+  "ns": 0,
+  "missing": false,
+  "other": "멘델레븀",
+  "disamb": false
+ },
+ "Nobelium": {
+  "title": "Nobelium",
+  "ns": 0,
+  "missing": false,
+  "other": "노벨륨",
+  "disamb": false
+ },
+ "Lawrencium": {
+  "title": "Lawrencium",
+  "ns": 0,
+  "missing": false,
+  "other": "로렌슘",
+  "disamb": false
+ },
+ "Rutherfordium": {
+  "title": "Rutherfordium",
+  "ns": 0,
+  "missing": false,
+  "other": "러더포듐",
+  "disamb": false
+ },
+ "Dubnium": {
+  "title": "Dubnium",
+  "ns": 0,
+  "missing": false,
+  "other": "더브늄",
+  "disamb": false
+ },
+ "Seaborgium": {
+  "title": "Seaborgium",
+  "ns": 0,
+  "missing": false,
+  "other": "시보귬",
+  "disamb": false
+ },
+ "Bohrium": {
+  "title": "Bohrium",
+  "ns": 0,
+  "missing": false,
+  "other": "보륨",
+  "disamb": false
+ },
+ "Hassium": {
+  "title": "Hassium",
+  "ns": 0,
+  "missing": false,
+  "other": "하슘",
+  "disamb": false
+ },
+ "Meitnerium": {
+  "title": "Meitnerium",
+  "ns": 0,
+  "missing": false,
+  "other": "마이트너륨",
+  "disamb": false
+ },
+ "Darmstadtium": {
+  "title": "Darmstadtium",
+  "ns": 0,
+  "missing": false,
+  "other": "다름슈타튬",
+  "disamb": false
+ },
+ "Roentgenium": {
+  "title": "Roentgenium",
+  "ns": 0,
+  "missing": false,
+  "other": "뢴트게늄",
+  "disamb": false
+ },
+ "Copernicium": {
+  "title": "Copernicium",
+  "ns": 0,
+  "missing": false,
+  "other": "코페르니슘",
+  "disamb": false
+ },
+ "Nihonium": {
+  "title": "Nihonium",
+  "ns": 0,
+  "missing": false,
+  "other": "니호늄",
+  "disamb": false
+ },
+ "Flerovium": {
+  "title": "Flerovium",
+  "ns": 0,
+  "missing": false,
+  "other": "플레로븀",
+  "disamb": false
+ },
+ "Moscovium": {
+  "title": "Moscovium",
+  "ns": 0,
+  "missing": false,
+  "other": "모스코븀",
+  "disamb": false
+ },
+ "Livermorium": {
+  "title": "Livermorium",
+  "ns": 0,
+  "missing": false,
+  "other": "리버모륨",
+  "disamb": false
+ },
+ "Tennessine": {
+  "title": "Tennessine",
+  "ns": 0,
+  "missing": false,
+  "other": "테네신",
+  "disamb": false
+ },
+ "Oganesson": {
+  "title": "Oganesson",
+  "ns": 0,
+  "missing": false,
+  "other": "오가네손",
+  "disamb": false
+ },
+ "Atomic number": {
+  "title": "Atomic number",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 번호",
+  "disamb": false
+ },
+ "Group (periodic table)": {
+  "title": "Group (periodic table)",
+  "ns": 0,
+  "missing": false,
+  "other": "족 (주기율표)",
+  "disamb": false
+ },
+ "F-block groups": {
+  "title": "Block (periodic table)",
+  "ns": 0,
+  "missing": false,
+  "other": "구역 (주기율표)",
+  "disamb": false
+ },
+ "Period (periodic table)": {
+  "title": "Period (periodic table)",
+  "ns": 0,
+  "missing": false,
+  "other": "주기 (주기율표)",
+  "disamb": false
+ },
+ "Period 6 element": {
+  "title": "Period 6 element",
+  "ns": 0,
+  "missing": false,
+  "other": "6주기 원소",
+  "disamb": false
+ },
+ "Block (periodic table)": {
+  "title": "Block (periodic table)",
+  "ns": 0,
+  "missing": false,
+  "other": "구역 (주기율표)",
+  "disamb": false
+ },
+ "Electron configuration": {
+  "title": "Electron configuration",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 배열",
+  "disamb": false
+ },
+ "Phase (matter)": {
+  "title": "Phase (matter)",
+  "ns": 0,
+  "missing": false,
+  "other": "상 (물리학)",
+  "disamb": false
+ },
+ "Standard temperature and pressure": {
+  "title": "Standard temperature and pressure",
+  "ns": 0,
+  "missing": false,
+  "other": "표준 온도 압력",
+  "disamb": false
+ },
+ "Solid": {
+  "title": "Solid",
+  "ns": 0,
+  "missing": false,
+  "other": "고체",
+  "disamb": false
+ },
+ "Melting point": {
+  "title": "Melting point",
+  "ns": 0,
+  "missing": false,
+  "other": "녹는점",
+  "disamb": false
+ },
+ "Kelvin": {
+  "title": "Kelvin",
+  "ns": 0,
+  "missing": false,
+  "other": "켈빈",
+  "disamb": false
+ },
+ "Boiling point": {
+  "title": "Boiling point",
+  "ns": 0,
+  "missing": false,
+  "other": "끓는점",
+  "disamb": false
+ },
+ "Density": {
+  "title": "Density",
+  "ns": 0,
+  "missing": false,
+  "other": "밀도",
+  "disamb": false
+ },
+ "Enthalpy of fusion": {
+  "title": "Enthalpy of fusion",
+  "ns": 0,
+  "missing": false,
+  "other": "융해열",
+  "disamb": false
+ },
+ "Kilojoule per mole": {
+  "title": "Joule per mole",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Enthalpy of vaporization": {
+  "title": "Enthalpy of vaporization",
+  "ns": 0,
+  "missing": false,
+  "other": "기화열",
+  "disamb": false
+ },
+ "Molar heat capacity": {
+  "title": "Molar heat capacity",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Specific heat capacity": {
+  "title": "Specific heat capacity",
+  "ns": 0,
+  "missing": false,
+  "other": "비열용량",
+  "disamb": false
+ },
+ "Vapor pressure": {
+  "title": "Vapor pressure",
+  "ns": 0,
+  "missing": false,
+  "other": "증기 압력",
+  "disamb": false
+ },
+ "Oxidation state": {
+  "title": "Oxidation state",
+  "ns": 0,
+  "missing": false,
+  "other": "산화수",
+  "disamb": false
+ },
+ "Electronegativity": {
+  "title": "Electronegativity",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 음성도",
+  "disamb": false
+ },
+ "Ionization energy": {
+  "title": "Ionization energy",
+  "ns": 0,
+  "missing": false,
+  "other": "이온화 에너지",
+  "disamb": false
+ },
+ "Atomic radius": {
+  "title": "Atomic radius",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 반지름",
+  "disamb": false
+ },
+ "Picometre": {
+  "title": "Picometre",
+  "ns": 0,
+  "missing": false,
+  "other": "피코미터",
+  "disamb": false
+ },
+ "Covalent radius": {
+  "title": "Covalent radius",
+  "ns": 0,
+  "missing": false,
+  "other": "공유 반지름",
+  "disamb": false
+ },
+ "Primordial nuclide": {
+  "title": "Primordial nuclide",
+  "ns": 0,
+  "missing": false,
+  "other": "원시 핵종",
+  "disamb": false
+ },
+ "Crystal structure": {
+  "title": "Crystal structure",
+  "ns": 0,
+  "missing": false,
+  "other": "결정 구조",
+  "disamb": false
+ },
+ "Cubic crystal system": {
+  "title": "Cubic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "입방정계",
+  "disamb": false
+ },
+ "Pearson symbol": {
+  "title": "Pearson symbol",
+  "ns": 0,
+  "missing": false,
+  "other": "피어슨 기호",
+  "disamb": false
+ },
+ "Coefficient of thermal expansion": {
+  "title": "Thermal expansion",
+  "ns": 0,
+  "missing": false,
+  "other": "열팽창",
+  "disamb": false
+ },
+ "Thermal conductivity": {
+  "title": "Thermal conductivity and resistivity",
+  "ns": 0,
+  "missing": false,
+  "other": "열전도율",
+  "disamb": false
+ },
+ "Electrical resistivity and conductivity": {
+  "title": "Electrical resistivity and conductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 저항률과 전도도",
+  "disamb": false
+ },
+ "Magnetism": {
+  "title": "Magnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "자기",
+  "disamb": false
+ },
+ "Paramagnetic": {
+  "title": "Paramagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "상자성",
+  "disamb": false
+ },
+ "Magnetic susceptibility": {
+  "title": "Magnetic susceptibility",
+  "ns": 0,
+  "missing": false,
+  "other": "자기 감수율",
+  "disamb": false
+ },
+ "Young's modulus": {
+  "title": "Young's modulus",
+  "ns": 0,
+  "missing": false,
+  "other": "영률",
+  "disamb": false
+ },
+ "Shear modulus": {
+  "title": "Shear modulus",
+  "ns": 0,
+  "missing": false,
+  "other": "층밀림 탄성률",
+  "disamb": false
+ },
+ "Bulk modulus": {
+  "title": "Bulk modulus",
+  "ns": 0,
+  "missing": false,
+  "other": "부피 탄성 계수",
+  "disamb": false
+ },
+ "Poisson's ratio": {
+  "title": "Poisson's ratio",
+  "ns": 0,
+  "missing": false,
+  "other": "푸아송 비",
+  "disamb": false
+ },
+ "Vickers hardness test": {
+  "title": "Vickers hardness test",
+  "ns": 0,
+  "missing": false,
+  "other": "비커스 굳기",
+  "disamb": false
+ },
+ "CAS Registry Number": {
+  "title": "CAS Registry Number",
+  "ns": 0,
+  "missing": false,
+  "other": "CAS 등록번호",
+  "disamb": false
+ },
+ "List of chemical element name etymologies": {
+  "title": "List of chemical element name etymologies",
+  "ns": 0,
+  "missing": false,
+  "other": "화학 원소 이름 어원 목록",
+  "disamb": false
+ },
+ "Timeline of chemical element discoveries": {
+  "title": "Timeline of chemical element discoveries",
+  "ns": 0,
+  "missing": false,
+  "other": "화학 원소의 발견",
+  "disamb": false
+ },
+ "Eugène-Anatole Demarçay": {
+  "title": "Eugène-Anatole Demarçay",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Isotopes of europium": {
+  "title": "Isotopes of europium",
+  "ns": 0,
+  "missing": false,
+  "other": "유로퓸 동위 원소",
+  "disamb": false
+ },
+ "Radioactive decay": {
+  "title": "Radioactive decay",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 붕괴",
+  "disamb": false
+ },
+ "Isotopic abundance": {
+  "title": "Isotopic abundance",
+  "ns": 0,
+  "missing": false,
+  "other": "자연 존재비",
+  "disamb": false
+ },
+ "Half-life": {
+  "title": "Half-life",
+  "ns": 0,
+  "missing": false,
+  "other": "반감기",
+  "disamb": false
+ },
+ "Decay product": {
+  "title": "Decay product",
+  "ns": 0,
+  "missing": false,
+  "other": "붕괴 생성물",
+  "disamb": false
+ },
+ "Synthetic radioisotope": {
+  "title": "Synthetic radioisotope",
+  "ns": 0,
+  "missing": false,
+  "other": "인공 방사성 동위 원소",
+  "disamb": false
+ },
+ "Beta plus decay": {
+  "title": "Positron emission",
+  "ns": 0,
+  "missing": false,
+  "other": "양전자 방출",
+  "disamb": false
+ },
+ "Samarium-150": {
+  "title": "Isotopes of samarium",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨 동위 원소",
+  "disamb": false
+ },
+ "Alpha decay": {
+  "title": "Alpha decay",
+  "ns": 0,
+  "missing": false,
+  "other": "알파 붕괴",
+  "disamb": false
+ },
+ "Promethium-147": {
+  "title": "Isotopes of promethium",
+  "ns": 0,
+  "missing": false,
+  "other": "프로메튬 동위 원소",
+  "disamb": false
+ },
+ "Samarium-152": {
+  "title": "Isotopes of samarium",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨 동위 원소",
+  "disamb": false
+ },
+ "Beta minus decay": {
+  "title": "Beta decay",
+  "ns": 0,
+  "missing": false,
+  "other": "베타 붕괴",
+  "disamb": false
+ },
+ "Gadolinium-152": {
+  "title": "Isotopes of gadolinium",
+  "ns": 0,
+  "missing": false,
+  "other": "가돌리늄 동위 원소",
+  "disamb": false
+ },
+ "Stable isotope": {
+  "title": "Stable isotope",
+  "ns": 0,
+  "missing": false,
+  "other": "안정 동위 원소",
+  "disamb": false
+ },
+ "Gadolinium-154": {
+  "title": "Isotopes of gadolinium",
+  "ns": 0,
+  "missing": false,
+  "other": "가돌리늄 동위 원소",
+  "disamb": false
+ },
+ "Samarium-154": {
+  "title": "Isotopes of samarium",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨 동위 원소",
+  "disamb": false
+ },
+ "Gadolinium-155": {
+  "title": "Isotopes of gadolinium",
+  "ns": 0,
+  "missing": false,
+  "other": "가돌리늄 동위 원소",
+  "disamb": false
+ },
+ "Chemical element": {
+  "title": "Chemical element",
+  "ns": 0,
+  "missing": false,
+  "other": "원소 (화학)",
+  "disamb": false
+ },
+ "Symbol (chemistry)": {
+  "title": "Chemical symbol",
+  "ns": 0,
+  "missing": false,
+  "other": "원소 기호",
+  "disamb": false
+ },
+ "Lanthanide": {
+  "title": "Lanthanide",
+  "ns": 0,
+  "missing": false,
+  "other": "란타넘족",
+  "disamb": false
+ },
+ "Bastnäsite": {
+  "title": "Bastnäsite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Monazite": {
+  "title": "Monazite",
+  "ns": 0,
+  "missing": false,
+  "other": "모나자이트",
+  "disamb": false
+ },
+ "Xenotime": {
+  "title": "Xenotime",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Feldspar": {
+  "title": "Feldspar",
+  "ns": 0,
+  "missing": false,
+  "other": "장석",
+  "disamb": false
+ },
+ "Europium anomaly": {
+  "title": "Europium anomaly",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Petrology": {
+  "title": "Petrology",
+  "ns": 0,
+  "missing": false,
+  "other": "암석학",
+  "disamb": false
+ },
+ "Geochemistry": {
+  "title": "Geochemistry",
+  "ns": 0,
+  "missing": false,
+  "other": "지구화학",
+  "disamb": false
+ },
+ "William Crookes": {
+  "title": "William Crookes",
+  "ns": 0,
+  "missing": false,
+  "other": "윌리엄 크룩스",
+  "disamb": false
+ },
+ "Paul Émile Lecoq de Boisbaudran": {
+  "title": "Paul-Émile Lecoq de Boisbaudran",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Europe": {
+  "title": "Europe",
+  "ns": 0,
+  "missing": false,
+  "other": "유럽",
+  "disamb": false
+ },
+ "Luminescence": {
+  "title": "Luminescence",
+  "ns": 0,
+  "missing": false,
+  "other": "발광",
+  "disamb": false
+ },
+ "Colour television": {
+  "title": "Color television",
+  "ns": 0,
+  "missing": false,
+  "other": "컬러 텔레비전",
+  "disamb": false
+ },
+ "Light-emitting diode": {
+  "title": "Light-emitting diode",
+  "ns": 0,
+  "missing": false,
+  "other": "발광 다이오드",
+  "disamb": false
+ },
+ "Nuclear magnetic resonance spectroscopy": {
+  "title": "Nuclear magnetic resonance spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "핵자기 공명 분광법",
+  "disamb": false
+ },
+ "Ductile": {
+  "title": "Ductility",
+  "ns": 0,
+  "missing": false,
+  "other": "연성",
+  "disamb": false
+ },
+ "Rare-earth metal": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Body-centered cubic": {
+  "title": "Cubic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "입방정계",
+  "disamb": false
+ },
+ "Hexagonal close-packed": {
+  "title": "Close-packing of equal spheres",
+  "ns": 0,
+  "missing": false,
+  "other": "같은 구의 조밀 채우기",
+  "disamb": false
+ },
+ "Paramagnetism": {
+  "title": "Paramagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "상자성",
+  "disamb": false
+ },
+ "Néel temperature": {
+  "title": "Curie temperature",
+  "ns": 0,
+  "missing": false,
+  "other": "퀴리 온도",
+  "disamb": false
+ },
+ "Antiferromagnetism": {
+  "title": "Antiferromagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "반강자성",
+  "disamb": false
+ },
+ "Bohr magneton": {
+  "title": "Bohr magneton",
+  "ns": 0,
+  "missing": false,
+  "other": "보어 마그네톤",
+  "disamb": false
+ },
+ "Electropositive": {
+  "title": "Electronegativity",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 음성도",
+  "disamb": false
+ },
+ "Europium(III) oxide": {
+  "title": "Europium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 유로퓸(III)",
+  "disamb": false
+ },
+ "Europium(III) hydroxide": {
+  "title": "Europium(III) hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": "수산화 유로퓸(III)",
+  "disamb": false
+ },
+ "Halogen": {
+  "title": "Halogen",
+  "ns": 0,
+  "missing": false,
+  "other": "할로젠",
+  "disamb": false
+ },
+ "Coordination number": {
+  "title": "Coordination number",
+  "ns": 0,
+  "missing": false,
+  "other": "배위수",
+  "disamb": false
+ },
+ "HSAB theory": {
+  "title": "HSAB theory",
+  "ns": 0,
+  "missing": false,
+  "other": "HSAB 이론",
+  "disamb": false
+ },
+ "Standard hydrogen electrode": {
+  "title": "Standard hydrogen electrode",
+  "ns": 0,
+  "missing": false,
+  "other": "표준 수소 전극",
+  "disamb": false
+ },
+ "Reducing agent": {
+  "title": "Reducing agent",
+  "ns": 0,
+  "missing": false,
+  "other": "환원제",
+  "disamb": false
+ },
+ "Europium(II) oxide": {
+  "title": "Europium(II) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 유로퓸(II)",
+  "disamb": false
+ },
+ "Rock salt structure": {
+  "title": "Cubic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "입방정계",
+  "disamb": false
+ },
+ "Ferromagnetic": {
+  "title": "Ferromagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "강자성",
+  "disamb": false
+ },
+ "Semiconductor": {
+  "title": "Semiconductor",
+  "ns": 0,
+  "missing": false,
+  "other": "반도체",
+  "disamb": false
+ },
+ "Curie temperature": {
+  "title": "Curie temperature",
+  "ns": 0,
+  "missing": false,
+  "other": "퀴리 온도",
+  "disamb": false
+ },
+ "Fluorite structure": {
+  "title": "Fluorite structure",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Perovskite": {
+  "title": "Perovskite",
+  "ns": 0,
+  "missing": false,
+  "other": "페로브스카이트",
+  "disamb": false
+ },
+ "Colossal magnetoresistance": {
+  "title": "Colossal magnetoresistance",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Pnictogen": {
+  "title": "Pnictogen",
+  "ns": 0,
+  "missing": false,
+  "other": "15족 원소",
+  "disamb": false
+ },
+ "Europium nitride": {
+  "title": "Europium(III) nitride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Europium(III) phosphate": {
+  "title": "Europium(III) phosphate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Europium(II) sulfate": {
+  "title": "Europium(II) sulfate",
+  "ns": 0,
+  "missing": false,
+  "other": "황산 유로퓸(II)",
+  "disamb": false
+ },
+ "Coordination chemistry": {
+  "title": "Coordination complex",
+  "ns": 0,
+  "missing": false,
+  "other": "배위 화합물",
+  "disamb": false
+ },
+ "Antenna effect": {
+  "title": "Antenna effect",
+  "ns": 0,
+  "missing": false,
+  "other": "안테나 효과",
+  "disamb": false
+ },
+ "Cyclopentadienyl complex": {
+  "title": "Cyclopentadienyl complex",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Isotope": {
+  "title": "Isotope",
+  "ns": 0,
+  "missing": false,
+  "other": "동위 원소",
+  "disamb": false
+ },
+ "Nuclear isomer": {
+  "title": "Nuclear isomer",
+  "ns": 0,
+  "missing": false,
+  "other": "이성질핵",
+  "disamb": false
+ },
+ "Isotopes of samarium": {
+  "title": "Isotopes of samarium",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨 동위 원소",
+  "disamb": false
+ },
+ "Electron capture": {
+  "title": "Electron capture",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 포획",
+  "disamb": false
+ },
+ "Positron emission": {
+  "title": "Positron emission",
+  "ns": 0,
+  "missing": false,
+  "other": "양전자 방출",
+  "disamb": false
+ },
+ "Isotopes of gadolinium": {
+  "title": "Isotopes of gadolinium",
+  "ns": 0,
+  "missing": false,
+  "other": "가돌리늄 동위 원소",
+  "disamb": false
+ },
+ "Neutron cross-section": {
+  "title": "Neutron cross section",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nuclear fission": {
+  "title": "Nuclear fission",
+  "ns": 0,
+  "missing": false,
+  "other": "핵분열",
+  "disamb": false
+ },
+ "Gamma-ray spectroscopy": {
+  "title": "Gamma spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "감마선 분광법",
+  "disamb": false
+ },
+ "Rare-earth element": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Carl Gustaf Mosander": {
+  "title": "Carl Gustaf Mosander",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Georges Urbain": {
+  "title": "Georges Urbain",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Herbert Newby McCoy": {
+  "title": "Herbert Newby McCoy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Wilhelm Klemm": {
+  "title": "Wilhelm Klemm",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Yttrium orthovanadate": {
+  "title": "Yttrium orthovanadate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Mountain Pass mine": {
+  "title": "Mountain Pass Rare Earth Mine",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Loparite-(Ce)": {
+  "title": "Loparite-(Ce)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Plagioclase": {
+  "title": "Plagioclase",
+  "ns": 0,
+  "missing": false,
+  "other": "사장석",
+  "disamb": false
+ },
+ "Fluorescence": {
+  "title": "Fluorescence",
+  "ns": 0,
+  "missing": false,
+  "other": "형광",
+  "disamb": false
+ },
+ "Fluorite": {
+  "title": "Fluorite",
+  "ns": 0,
+  "missing": false,
+  "other": "형석",
+  "disamb": false
+ },
+ "George Gabriel Stokes": {
+  "title": "Sir George Stokes, 1st Baronet",
+  "ns": 0,
+  "missing": false,
+  "other": "제1대 준남작 조지 스토크스 경",
+  "disamb": false
+ },
+ "R-process": {
+  "title": "R-process",
+  "ns": 0,
+  "missing": false,
+  "other": "R-과정",
+  "disamb": false
+ },
+ "Solvent extraction": {
+  "title": "Liquid–liquid extraction",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Mountain Pass Rare Earth Mine": {
+  "title": "Mountain Pass Rare Earth Mine",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Frank Spedding": {
+  "title": "Frank Spedding",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Sublimation": {
+  "title": "Sublimation",
+  "ns": 0,
+  "missing": false,
+  "other": "승화 (화학)",
+  "disamb": false
+ },
+ "Cathode-ray tube": {
+  "title": "Cathode ray tube",
+  "ns": 0,
+  "missing": false,
+  "other": "브라운관",
+  "disamb": false
+ },
+ "Yttrium oxide": {
+  "title": "Yttrium oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 이트륨",
+  "disamb": false
+ },
+ "Fluorescent lamp": {
+  "title": "Fluorescent lamp",
+  "ns": 0,
+  "missing": false,
+  "other": "형광등",
+  "disamb": false
+ },
+ "Persistent luminescence": {
+  "title": "Persistent luminescence",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Strontium aluminate": {
+  "title": "Strontium aluminate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Scintillator": {
+  "title": "Scintillator",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Organic light-emitting diode": {
+  "title": "OLED",
+  "ns": 0,
+  "missing": false,
+  "other": "유기 발광 다이오드",
+  "disamb": false
+ },
+ "Anti-counterfeiting": {
+  "title": "Counterfeit",
+  "ns": 0,
+  "missing": false,
+  "other": "안조",
+  "disamb": false
+ },
+ "Euro banknotes": {
+  "title": "Euro banknotes",
+  "ns": 0,
+  "missing": false,
+  "other": "유로 지폐",
+  "disamb": false
+ },
+ "Immunoassay": {
+  "title": "Immunoassay",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Förster resonance energy transfer": {
+  "title": "Förster resonance energy transfer",
+  "ns": 0,
+  "missing": false,
+  "other": "포스터 공명 에너지 전달",
+  "disamb": false
+ },
+ "Nuclear magnetic resonance": {
+  "title": "Nuclear magnetic resonance",
+  "ns": 0,
+  "missing": false,
+  "other": "핵자기 공명",
+  "disamb": false
+ },
+ "Eufod": {
+  "title": "EuFOD",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Enantiomer": {
+  "title": "Enantiomer",
+  "ns": 0,
+  "missing": false,
+  "other": "광학 이성질체",
+  "disamb": false
+ },
+ "Neutron poison": {
+  "title": "Neutron poison",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Pyrophoricity": {
+  "title": "Pyrophoricity",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Globally Harmonized System of Classification and Labelling of Chemicals": {
+  "title": "Globally Harmonized System of Classification and Labelling of Chemicals",
+  "ns": 0,
+  "missing": false,
+  "other": "화학물질 분류표시 국제조화시스템",
+  "disamb": false
+ },
+ "Europium": {
+  "title": "Europium",
+  "ns": 0,
+  "missing": false,
+  "other": "유로퓸",
+  "disamb": false
+ },
+ "Group 3 element": {
+  "title": "Group 3 element",
+  "ns": 0,
+  "missing": false,
+  "other": "3족 원소",
+  "disamb": false
+ },
+ "Close-packing of equal spheres": {
+  "title": "Close-packing of equal spheres",
+  "ns": 0,
+  "missing": false,
+  "other": "같은 구의 조밀 채우기",
+  "disamb": false
+ },
+ "Brinell hardness test": {
+  "title": "Brinell hardness test",
+  "ns": 0,
+  "missing": false,
+  "other": "브리넬 굳기",
+  "disamb": false
+ },
+ "Lutetia": {
+  "title": "Lutetia",
+  "ns": 0,
+  "missing": false,
+  "other": "루테티아",
+  "disamb": false
+ },
+ "Carl Auer von Welsbach": {
+  "title": "Carl Auer von Welsbach",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Isotopes of lutetium": {
+  "title": "Isotopes of lutetium",
+  "ns": 0,
+  "missing": false,
+  "other": "루테튬 동위 원소",
+  "disamb": false
+ },
+ "Ytterbium-173": {
+  "title": "Isotopes of ytterbium",
+  "ns": 0,
+  "missing": false,
+  "other": "이터븀 동위 원소",
+  "disamb": false
+ },
+ "Ytterbium-174": {
+  "title": "Isotopes of ytterbium",
+  "ns": 0,
+  "missing": false,
+  "other": "이터븀 동위 원소",
+  "disamb": false
+ },
+ "Hafnium-176": {
+  "title": "Isotopes of hafnium",
+  "ns": 0,
+  "missing": false,
+  "other": "하프늄 동위 원소",
+  "disamb": false
+ },
+ "Hafnium-177": {
+  "title": "Isotopes of hafnium",
+  "ns": 0,
+  "missing": false,
+  "other": "하프늄 동위 원소",
+  "disamb": false
+ },
+ "Metal": {
+  "title": "Metal",
+  "ns": 0,
+  "missing": false,
+  "other": "금속",
+  "disamb": false
+ },
+ "Rare earth element": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Transition metal": {
+  "title": "Transition metal",
+  "ns": 0,
+  "missing": false,
+  "other": "전이 금속",
+  "disamb": false
+ },
+ "Freiherr": {
+  "title": "Freiherr",
+  "ns": 0,
+  "missing": false,
+  "other": "프라이헤어",
+  "disamb": false
+ },
+ "Charles James (chemist)": {
+  "title": "Charles James (chemist)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Radionuclide": {
+  "title": "Radionuclide",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 동위 원소",
+  "disamb": false
+ },
+ "Lutetium-hafnium dating": {
+  "title": "Lutetium–hafnium dating",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Meteorite": {
+  "title": "Meteorite",
+  "ns": 0,
+  "missing": false,
+  "other": "운석",
+  "disamb": false
+ },
+ "Alloy": {
+  "title": "Alloy",
+  "ns": 0,
+  "missing": false,
+  "other": "합금",
+  "disamb": false
+ },
+ "Catalyst": {
+  "title": "Catalysis",
+  "ns": 0,
+  "missing": false,
+  "other": "촉매 반응",
+  "disamb": false
+ },
+ "Lutetium (177Lu) oxodotreotide": {
+  "title": "Lutetium (177Lu) oxodotreotide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Radiopharmaceutical": {
+  "title": "Radiopharmaceutical",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nuclear medicine": {
+  "title": "Nuclear medicine",
+  "ns": 0,
+  "missing": false,
+  "other": "핵의학",
+  "disamb": false
+ },
+ "Brinell scale": {
+  "title": "Brinell hardness test",
+  "ns": 0,
+  "missing": false,
+  "other": "브리넬 굳기",
+  "disamb": false
+ },
+ "Pascal (unit)": {
+  "title": "Pascal (unit)",
+  "ns": 0,
+  "missing": false,
+  "other": "파스칼 (단위)",
+  "disamb": false
+ },
+ "Lanthanide contraction": {
+  "title": "Lanthanide contraction",
+  "ns": 0,
+  "missing": false,
+  "other": "란타넘족 수축",
+  "disamb": false
+ },
+ "Lutetium(III) oxide": {
+  "title": "Lutetium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Oxalate": {
+  "title": "Oxalate",
+  "ns": 0,
+  "missing": false,
+  "other": "옥살산염",
+  "disamb": false
+ },
+ "Carbon dioxide": {
+  "title": "Carbon dioxide",
+  "ns": 0,
+  "missing": false,
+  "other": "이산화 탄소",
+  "disamb": false
+ },
+ "Halides": {
+  "title": "Halide",
+  "ns": 0,
+  "missing": false,
+  "other": "할로젠화물",
+  "disamb": false
+ },
+ "Sulfuric acid": {
+  "title": "Sulfuric acid",
+  "ns": 0,
+  "missing": false,
+  "other": "황산",
+  "disamb": false
+ },
+ "Monoisotopic element": {
+  "title": "Monoisotopic element",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Beta decay": {
+  "title": "Beta decay",
+  "ns": 0,
+  "missing": false,
+  "other": "베타 붕괴",
+  "disamb": false
+ },
+ "Mass number": {
+  "title": "Mass number",
+  "ns": 0,
+  "missing": false,
+  "other": "질량수",
+  "disamb": false
+ },
+ "Alpha emission": {
+  "title": "Alpha decay",
+  "ns": 0,
+  "missing": false,
+  "other": "알파 붕괴",
+  "disamb": false
+ },
+ "Facility for Rare Isotope Beams": {
+  "title": "Facility for Rare Isotope Beams",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ytterbia": {
+  "title": "Ytterbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Jean Charles Galissard de Marignac": {
+  "title": "Jean Charles Galissard de Marignac",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Aldebaran": {
+  "title": "Aldebaran",
+  "ns": 0,
+  "missing": false,
+  "other": "알데바란",
+  "disamb": false
+ },
+ "Cassiopeia (constellation)": {
+  "title": "Cassiopeia (constellation)",
+  "ns": 0,
+  "missing": false,
+  "other": "카시오페이아자리",
+  "disamb": false
+ },
+ "Commission on Isotopic Abundances and Atomic Weights": {
+  "title": "Commission on Isotopic Abundances and Atomic Weights",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Paris": {
+  "title": "Paris",
+  "ns": 0,
+  "missing": false,
+  "other": "파리 (프랑스)",
+  "disamb": false
+ },
+ "Celtium": {
+  "title": "Hafnium",
+  "ns": 0,
+  "missing": false,
+  "other": "하프늄",
+  "disamb": false
+ },
+ "Niels Bohr": {
+  "title": "Niels Bohr",
+  "ns": 0,
+  "missing": false,
+  "other": "닐스 보어",
+  "disamb": false
+ },
+ "Group 4 element": {
+  "title": "Group 4 element",
+  "ns": 0,
+  "missing": false,
+  "other": "4족 원소",
+  "disamb": false
+ },
+ "Fritz Paneth": {
+  "title": "Friedrich Paneth",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "George de Hevesy": {
+  "title": "George de Hevesy",
+  "ns": 0,
+  "missing": false,
+  "other": "게오르크 카를 폰 헤베시",
+  "disamb": false
+ },
+ "Dirk Coster": {
+  "title": "Dirk Coster",
+  "ns": 0,
+  "missing": false,
+  "other": "디르크 코스터",
+  "disamb": false
+ },
+ "International Union of Pure and Applied Chemistry": {
+  "title": "International Union of Pure and Applied Chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": "국제 순수·응용 화학 연합",
+  "disamb": false
+ },
+ "Phosphate": {
+  "title": "Phosphate",
+  "ns": 0,
+  "missing": false,
+  "other": "인산염",
+  "disamb": false
+ },
+ "Ammonium oxalate": {
+  "title": "Ammonium oxalate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Annealing (materials science)": {
+  "title": "Annealing (materials science)",
+  "ns": 0,
+  "missing": false,
+  "other": "어닐링",
+  "disamb": false
+ },
+ "Nitric acid": {
+  "title": "Nitric acid",
+  "ns": 0,
+  "missing": false,
+  "other": "질산",
+  "disamb": false
+ },
+ "Ammonium nitrate": {
+  "title": "Ammonium nitrate",
+  "ns": 0,
+  "missing": false,
+  "other": "질산 암모늄",
+  "disamb": false
+ },
+ "Ion exchange": {
+  "title": "Ion exchange",
+  "ns": 0,
+  "missing": false,
+  "other": "이온 교환",
+  "disamb": false
+ },
+ "Adsorption": {
+  "title": "Adsorption",
+  "ns": 0,
+  "missing": false,
+  "other": "흡착",
+  "disamb": false
+ },
+ "Redox": {
+  "title": "Redox",
+  "ns": 0,
+  "missing": false,
+  "other": "산화·환원 반응",
+  "disamb": false
+ },
+ "Alkali metal": {
+  "title": "Alkali metal",
+  "ns": 0,
+  "missing": false,
+  "other": "알칼리 금속",
+  "disamb": false
+ },
+ "Alkaline earth metal": {
+  "title": "Alkaline earth metal",
+  "ns": 0,
+  "missing": false,
+  "other": "알칼리 토금속",
+  "disamb": false
+ },
+ "Neutron activation": {
+  "title": "Neutron activation",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자 활성화",
+  "disamb": false
+ },
+ "Petroleum": {
+  "title": "Petroleum",
+  "ns": 0,
+  "missing": false,
+  "other": "석유",
+  "disamb": false
+ },
+ "Cracking (chemistry)": {
+  "title": "Cracking (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "크래킹 (화학)",
+  "disamb": false
+ },
+ "Oil refinery": {
+  "title": "Oil refinery",
+  "ns": 0,
+  "missing": false,
+  "other": "정유공장",
+  "disamb": false
+ },
+ "Hydrogenation": {
+  "title": "Hydrogenation",
+  "ns": 0,
+  "missing": false,
+  "other": "수소화",
+  "disamb": false
+ },
+ "Polymerization": {
+  "title": "Polymerization",
+  "ns": 0,
+  "missing": false,
+  "other": "중합",
+  "disamb": false
+ },
+ "Lutetium aluminium garnet": {
+  "title": "Lutetium aluminium garnet",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Refractive index": {
+  "title": "Refractive index",
+  "ns": 0,
+  "missing": false,
+  "other": "굴절률",
+  "disamb": false
+ },
+ "Immersion lithography": {
+  "title": "Immersion lithography",
+  "ns": 0,
+  "missing": false,
+  "other": "액침 노광",
+  "disamb": false
+ },
+ "Dopant": {
+  "title": "Dopant",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Gadolinium gallium garnet": {
+  "title": "Gadolinium gallium garnet",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Magnetic bubble memory": {
+  "title": "Bubble memory",
+  "ns": 0,
+  "missing": false,
+  "other": "버블 메모리",
+  "disamb": false
+ },
+ "Positron emission tomography": {
+  "title": "Positron emission tomography",
+  "ns": 0,
+  "missing": false,
+  "other": "양전자 방출 단층촬영",
+  "disamb": false
+ },
+ "Lutetium tantalate": {
+  "title": "Lutetium tantalate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Thorium dioxide": {
+  "title": "Thorium dioxide",
+  "ns": 0,
+  "missing": false,
+  "other": "이산화 토륨",
+  "disamb": false
+ },
+ "Lutetium–yttrium oxyorthosilicate": {
+  "title": "Lutetium–yttrium oxyorthosilicate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lutetium(III) iodide": {
+  "title": "Lutetium(III) iodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lutetium–hafnium dating": {
+  "title": "Lutetium–hafnium dating",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lutetium (177Lu) DOTA-octreotate": {
+  "title": "Lutetium (177Lu) oxodotreotide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Somatostatin": {
+  "title": "Somatostatin",
+  "ns": 0,
+  "missing": false,
+  "other": "소마토스타틴",
+  "disamb": false
+ },
+ "Neuroendocrine tumors": {
+  "title": "Neuroendocrine tumor",
+  "ns": 0,
+  "missing": false,
+  "other": "신경내분비 종양",
+  "disamb": false
+ },
+ "Lutetium (177Lu) vipivotide tetraxetan": {
+  "title": "Lutetium (177Lu) vipivotide tetraxetan",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Prostate cancer": {
+  "title": "Prostate cancer",
+  "ns": 0,
+  "missing": false,
+  "other": "전립선암",
+  "disamb": false
+ },
+ "Speed of sound": {
+  "title": "Speed of sound",
+  "ns": 0,
+  "missing": false,
+  "other": "음속",
+  "disamb": false
+ },
+ "Ytterby": {
+  "title": "Ytterby",
+  "ns": 0,
+  "missing": false,
+  "other": "위테르뷔",
+  "disamb": false
+ },
+ "Isotopes of ytterbium": {
+  "title": "Isotopes of ytterbium",
+  "ns": 0,
+  "missing": false,
+  "other": "이터븀 동위 원소",
+  "disamb": false
+ },
+ "Thulium-166": {
+  "title": "Isotopes of thulium",
+  "ns": 0,
+  "missing": false,
+  "other": "툴륨 동위 원소",
+  "disamb": false
+ },
+ "Thulium-169": {
+  "title": "Isotopes of thulium",
+  "ns": 0,
+  "missing": false,
+  "other": "툴륨 동위 원소",
+  "disamb": false
+ },
+ "Lutetium-175": {
+  "title": "Isotopes of lutetium",
+  "ns": 0,
+  "missing": false,
+  "other": "루테튬 동위 원소",
+  "disamb": false
+ },
+ "Oxide": {
+  "title": "Oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화물",
+  "disamb": false
+ },
+ "Halide": {
+  "title": "Halide",
+  "ns": 0,
+  "missing": false,
+  "other": "할로젠화물",
+  "disamb": false
+ },
+ "Aqueous solution": {
+  "title": "Aqueous solution",
+  "ns": 0,
+  "missing": false,
+  "other": "수용액",
+  "disamb": false
+ },
+ "Active laser medium": {
+  "title": "Active laser medium",
+  "ns": 0,
+  "missing": false,
+  "other": "활성 레이저 매질",
+  "disamb": false
+ },
+ "Gamma ray": {
+  "title": "Gamma ray",
+  "ns": 0,
+  "missing": false,
+  "other": "감마선",
+  "disamb": false
+ },
+ "Parts per million": {
+  "title": "Parts-per notation",
+  "ns": 0,
+  "missing": false,
+  "other": "Parts-per 표기",
+  "disamb": false
+ },
+ "Euxenite": {
+  "title": "Euxenite",
+  "ns": 0,
+  "missing": false,
+  "other": "육세나이트",
+  "disamb": false
+ },
+ "Rare-earth elements": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Malleability": {
+  "title": "Ductility",
+  "ns": 0,
+  "missing": false,
+  "other": "연성",
+  "disamb": false
+ },
+ "Ductility": {
+  "title": "Ductility",
+  "ns": 0,
+  "missing": false,
+  "other": "연성",
+  "disamb": false
+ },
+ "Mineral acid": {
+  "title": "Mineral acid",
+  "ns": 0,
+  "missing": false,
+  "other": "무기산",
+  "disamb": false
+ },
+ "Allotropy": {
+  "title": "Allotropy",
+  "ns": 0,
+  "missing": false,
+  "other": "동소성",
+  "disamb": false
+ },
+ "Pressure": {
+  "title": "Pressure",
+  "ns": 0,
+  "missing": false,
+  "other": "압력",
+  "disamb": false
+ },
+ "Stress (mechanics)": {
+  "title": "Stress (mechanics)",
+  "ns": 0,
+  "missing": false,
+  "other": "변형력",
+  "disamb": false
+ },
+ "Face-centered cubic": {
+  "title": "Cubic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "입방정계",
+  "disamb": false
+ },
+ "Hexagonal crystal system": {
+  "title": "Hexagonal crystal family",
+  "ns": 0,
+  "missing": false,
+  "other": "육방정계",
+  "disamb": false
+ },
+ "Electrical conductivity": {
+  "title": "Electrical resistivity and conductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 저항률과 전도도",
+  "disamb": false
+ },
+ "Atmospheric pressure": {
+  "title": "Atmospheric pressure",
+  "ns": 0,
+  "missing": false,
+  "other": "대기압",
+  "disamb": false
+ },
+ "Gigapascal": {
+  "title": "Pascal (unit)",
+  "ns": 0,
+  "missing": false,
+  "other": "파스칼 (단위)",
+  "disamb": false
+ },
+ "Resistivity": {
+  "title": "Electrical resistivity and conductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 저항률과 전도도",
+  "disamb": false
+ },
+ "Antiferromagnetic": {
+  "title": "Antiferromagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "반강자성",
+  "disamb": false
+ },
+ "Temperature": {
+  "title": "Temperature",
+  "ns": 0,
+  "missing": false,
+  "other": "온도",
+  "disamb": false
+ },
+ "Diamagnetic": {
+  "title": "Diamagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "반자성",
+  "disamb": false
+ },
+ "Metallic bonding": {
+  "title": "Metallic bonding",
+  "ns": 0,
+  "missing": false,
+  "other": "금속 결합",
+  "disamb": false
+ },
+ "Metallic radius": {
+  "title": "Metallic bonding",
+  "ns": 0,
+  "missing": false,
+  "other": "금속 결합",
+  "disamb": false
+ },
+ "Polytetrafluoroethylene": {
+  "title": "Polytetrafluoroethylene",
+  "ns": 0,
+  "missing": false,
+  "other": "폴리테트라플루오로에틸렌",
+  "disamb": false
+ },
+ "Hexachloroethane": {
+  "title": "Hexachloroethane",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Non-stoichiometric compound": {
+  "title": "Non-stoichiometric compound",
+  "ns": 0,
+  "missing": false,
+  "other": "비화학량론적 화합물",
+  "disamb": false
+ },
+ "Near-infrared": {
+  "title": "Infrared",
+  "ns": 0,
+  "missing": false,
+  "other": "적외선",
+  "disamb": false
+ },
+ "Visible light": {
+  "title": "Light",
+  "ns": 0,
+  "missing": false,
+  "other": "빛",
+  "disamb": false
+ },
+ "Electride": {
+  "title": "Electride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Natural abundance": {
+  "title": "Isotopic abundance",
+  "ns": 0,
+  "missing": false,
+  "other": "자연 존재비",
+  "disamb": false
+ },
+ "Radioisotope": {
+  "title": "Radionuclide",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 동위 원소",
+  "disamb": false
+ },
+ "Radioactive": {
+  "title": "Radioactive decay",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 붕괴",
+  "disamb": false
+ },
+ "Meta state": {
+  "title": "Nuclear isomer",
+  "ns": 0,
+  "missing": false,
+  "other": "이성질핵",
+  "disamb": false
+ },
+ "Decay mode": {
+  "title": "Radioactive decay",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 붕괴",
+  "disamb": false
+ },
+ "Isotopes of thulium": {
+  "title": "Isotopes of thulium",
+  "ns": 0,
+  "missing": false,
+  "other": "툴륨 동위 원소",
+  "disamb": false
+ },
+ "Beta emission": {
+  "title": "Beta decay",
+  "ns": 0,
+  "missing": false,
+  "other": "베타 붕괴",
+  "disamb": false
+ },
+ "Mineral": {
+  "title": "Mineral",
+  "ns": 0,
+  "missing": false,
+  "other": "광물",
+  "disamb": false
+ },
+ "Brazil": {
+  "title": "Brazil",
+  "ns": 0,
+  "missing": false,
+  "other": "브라질",
+  "disamb": false
+ },
+ "Sri Lanka": {
+  "title": "Sri Lanka",
+  "ns": 0,
+  "missing": false,
+  "other": "스리랑카",
+  "disamb": false
+ },
+ "Tonne": {
+  "title": "Tonne",
+  "ns": 0,
+  "missing": false,
+  "other": "미터톤",
+  "disamb": false
+ },
+ "Ion-exchange": {
+  "title": "Ion exchange",
+  "ns": 0,
+  "missing": false,
+  "other": "이온 교환",
+  "disamb": false
+ },
+ "Chemical compound": {
+  "title": "Chemical compound",
+  "ns": 0,
+  "missing": false,
+  "other": "화합물",
+  "disamb": false
+ },
+ "Oddo–Harkins rule": {
+  "title": "Oddo–Harkins rule",
+  "ns": 0,
+  "missing": false,
+  "other": "오도-하킨스 규칙",
+  "disamb": false
+ },
+ "Yttrium aluminium garnet": {
+  "title": "Yttrium aluminium garnet",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Solid-state laser": {
+  "title": "Solid-state laser",
+  "ns": 0,
+  "missing": false,
+  "other": "고체 레이저",
+  "disamb": false
+ },
+ "Stimulated emission": {
+  "title": "Stimulated emission",
+  "ns": 0,
+  "missing": false,
+  "other": "자극 방출",
+  "disamb": false
+ },
+ "Electromagnetic radiation": {
+  "title": "Electromagnetic radiation",
+  "ns": 0,
+  "missing": false,
+  "other": "전자기파",
+  "disamb": false
+ },
+ "Regolith": {
+  "title": "Regolith",
+  "ns": 0,
+  "missing": false,
+  "other": "레골리스",
+  "disamb": false
+ },
+ "Resin": {
+  "title": "Resin",
+  "ns": 0,
+  "missing": false,
+  "other": "나뭇진",
+  "disamb": false
+ },
+ "Complexing agent": {
+  "title": "Chelation",
+  "ns": 0,
+  "missing": false,
+  "other": "킬레이트",
+  "disamb": false
+ },
+ "Hydrochloric acid": {
+  "title": "Hydrochloric acid",
+  "ns": 0,
+  "missing": false,
+  "other": "염산",
+  "disamb": false
+ },
+ "Calcium oxide": {
+  "title": "Calcium oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 칼슘",
+  "disamb": false
+ },
+ "Reagent": {
+  "title": "Reagent",
+  "ns": 0,
+  "missing": false,
+  "other": "시약",
+  "disamb": false
+ },
+ "Organic synthesis": {
+  "title": "Organic synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": "유기 합성",
+  "disamb": false
+ },
+ "Ytterbium(III) chloride": {
+  "title": "Ytterbium(III) chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lewis acid": {
+  "title": "Lewis acids and bases",
+  "ns": 0,
+  "missing": false,
+  "other": "루이스 산-염기 이론",
+  "disamb": false
+ },
+ "Aldol reaction": {
+  "title": "Aldol reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "알돌 반응",
+  "disamb": false
+ },
+ "Diels–Alder reaction": {
+  "title": "Diels–Alder reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "딜스-알더 반응",
+  "disamb": false
+ },
+ "Ytterbium(II) iodide": {
+  "title": "Ytterbium(II) iodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Samarium(II) iodide": {
+  "title": "Samarium(II) iodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Coupling reactions": {
+  "title": "Coupling reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "짝지음 반응",
+  "disamb": false
+ },
+ "Ytterbium(III) fluoride": {
+  "title": "Ytterbium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Tooth filling": {
+  "title": "Dental restoration",
+  "ns": 0,
+  "missing": false,
+  "other": "치아 수복",
+  "disamb": false
+ },
+ "Fluoride": {
+  "title": "Fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화물",
+  "disamb": false
+ },
+ "X-ray contrast agent": {
+  "title": "Radiocontrast agent",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ytterbium(III) oxide": {
+  "title": "Ytterbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ytterbium(II) oxide": {
+  "title": "Ytterbium(II) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Sodium chloride": {
+  "title": "Sodium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 나트륨",
+  "disamb": false
+ },
+ "Kondo insulator": {
+  "title": "Kondo insulator",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Quantum material": {
+  "title": "Quantum materials",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Insulator (electricity)": {
+  "title": "Insulator (electricity)",
+  "ns": 0,
+  "missing": false,
+  "other": "절연체",
+  "disamb": false
+ },
+ "Conductive": {
+  "title": "Electrical conductor",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 전도체",
+  "disamb": false
+ },
+ "Discovery of the chemical elements": {
+  "title": "Timeline of chemical element discoveries",
+  "ns": 0,
+  "missing": false,
+  "other": "화학 원소의 발견",
+  "disamb": false
+ },
+ "Gadolinite": {
+  "title": "Gadolinite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Erbia": {
+  "title": "Erbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Frank Wigglesworth Clarke": {
+  "title": "Frank Wigglesworth Clarke",
+  "ns": 0,
+  "missing": false,
+  "other": "프랭크 위걸즈워스 클라크",
+  "disamb": false
+ },
+ "Wilhelm Ostwald": {
+  "title": "Wilhelm Ostwald",
+  "ns": 0,
+  "missing": false,
+  "other": "빌헬름 오스트발트",
+  "disamb": false
+ },
+ "Irradiation": {
+  "title": "Irradiation",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nuclear reactor": {
+  "title": "Nuclear reactor",
+  "ns": 0,
+  "missing": false,
+  "other": "원자로",
+  "disamb": false
+ },
+ "Radiation": {
+  "title": "Radiation",
+  "ns": 0,
+  "missing": false,
+  "other": "방사선",
+  "disamb": false
+ },
+ "X-ray": {
+  "title": "X-ray",
+  "ns": 0,
+  "missing": false,
+  "other": "엑스선",
+  "disamb": false
+ },
+ "Gamma rays": {
+  "title": "Gamma ray",
+  "ns": 0,
+  "missing": false,
+  "other": "감마선",
+  "disamb": false
+ },
+ "Radiography": {
+  "title": "Radiography",
+  "ns": 0,
+  "missing": false,
+  "other": "방사선촬영",
+  "disamb": false
+ },
+ "Atomic clock": {
+  "title": "Atomic clock",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 시계",
+  "disamb": false
+ },
+ "National Institute of Standards and Technology": {
+  "title": "National Institute of Standards and Technology",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 국립표준기술연구소",
+  "disamb": false
+ },
+ "Quintillion": {
+  "title": "Names of large numbers",
+  "ns": 0,
+  "missing": false,
+  "other": "큰 수의 이름",
+  "disamb": false
+ },
+ "Laser cooling": {
+  "title": "Laser cooling",
+  "ns": 0,
+  "missing": false,
+  "other": "레이저 냉각",
+  "disamb": false
+ },
+ "Absolute zero": {
+  "title": "Absolute zero",
+  "ns": 0,
+  "missing": false,
+  "other": "절대 영도",
+  "disamb": false
+ },
+ "Optical lattice": {
+  "title": "Optical lattice",
+  "ns": 0,
+  "missing": false,
+  "other": "광학 격자",
+  "disamb": false
+ },
+ "Microwave": {
+  "title": "Microwave",
+  "ns": 0,
+  "missing": false,
+  "other": "마이크로파",
+  "disamb": false
+ },
+ "Optical clock": {
+  "title": "Optical clock",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Caesium atomic clock": {
+  "title": "Caesium standard",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Physikalisch-Technische Bundesanstalt": {
+  "title": "Physikalisch-Technische Bundesanstalt",
+  "ns": 0,
+  "missing": false,
+  "other": "연방물리기술원",
+  "disamb": false
+ },
+ "Ion trap": {
+  "title": "Ion trap",
+  "ns": 0,
+  "missing": false,
+  "other": "이온 트랩",
+  "disamb": false
+ },
+ "Stainless steel": {
+  "title": "Stainless steel",
+  "ns": 0,
+  "missing": false,
+  "other": "스테인리스강",
+  "disamb": false
+ },
+ "Dentistry": {
+  "title": "Dentistry",
+  "ns": 0,
+  "missing": false,
+  "other": "치의학",
+  "disamb": false
+ },
+ "Ion": {
+  "title": "Ion",
+  "ns": 0,
+  "missing": false,
+  "other": "이온",
+  "disamb": false
+ },
+ "Doping (semiconductors)": {
+  "title": "Doping (semiconductor)",
+  "ns": 0,
+  "missing": false,
+  "other": "도핑 (반도체)",
+  "disamb": false
+ },
+ "Solid state laser": {
+  "title": "Solid-state laser",
+  "ns": 0,
+  "missing": false,
+  "other": "고체 레이저",
+  "disamb": false
+ },
+ "Double clad fiber": {
+  "title": "Double-clad fiber",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Μm": {
+  "title": "Micrometre",
+  "ns": 0,
+  "missing": false,
+  "other": "마이크로미터",
+  "disamb": false
+ },
+ "Optical pumping": {
+  "title": "Optical pumping",
+  "ns": 0,
+  "missing": false,
+  "other": "광 펌핑",
+  "disamb": false
+ },
+ "Quantum defect (lasers)": {
+  "title": "Quantum defect (lasers)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Power scaling": {
+  "title": "Laser power scaling",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "McCumber relation": {
+  "title": "McCumber relation",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Composite materials": {
+  "title": "Composite material",
+  "ns": 0,
+  "missing": false,
+  "other": "복합 재료",
+  "disamb": false
+ },
+ "Photodarkening": {
+  "title": "Photodarkening",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Brillouin scattering": {
+  "title": "Brillouin scattering",
+  "ns": 0,
+  "missing": false,
+  "other": "브릴루앵 산란",
+  "disamb": false
+ },
+ "Raman scattering": {
+  "title": "Raman scattering",
+  "ns": 0,
+  "missing": false,
+  "other": "라만 산란",
+  "disamb": false
+ },
+ "Quantum computing": {
+  "title": "Quantum computing",
+  "ns": 0,
+  "missing": false,
+  "other": "양자 컴퓨팅",
+  "disamb": false
+ },
+ "Mølmer–Sørensen gate": {
+  "title": "Mølmer–Sørensen gate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Mode-locking": {
+  "title": "Mode locking",
+  "ns": 0,
+  "missing": false,
+  "other": "모드 동기",
+  "disamb": false
+ },
+ "Flare (countermeasure)": {
+  "title": "Flare (countermeasure)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Emissivity": {
+  "title": "Emissivity",
+  "ns": 0,
+  "missing": false,
+  "other": "방사율",
+  "disamb": false
+ },
+ "Magnesium oxide": {
+  "title": "Magnesium oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 마그네슘",
+  "disamb": false
+ },
+ "Magnesium/Teflon/Viton": {
+  "title": "Magnesium/Teflon/Viton",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Toxic": {
+  "title": "Toxicity",
+  "ns": 0,
+  "missing": false,
+  "other": "독성",
+  "disamb": false
+ },
+ "Teratogenic": {
+  "title": "Teratology",
+  "ns": 0,
+  "missing": false,
+  "other": "기형학",
+  "disamb": false
+ },
+ "ISBN (identifier)": {
+  "title": "ISBN",
+  "ns": 0,
+  "missing": false,
+  "other": "국제 표준 도서 번호",
+  "disamb": false
+ },
+ "Period 5 element": {
+  "title": "Period 5 element",
+  "ns": 0,
+  "missing": false,
+  "other": "5주기 원소",
+  "disamb": false
+ },
+ "Ytterbite": {
+  "title": "Gadolinite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Johan Gadolin": {
+  "title": "Johan Gadolin",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Friedrich Wöhler": {
+  "title": "Friedrich Wöhler",
+  "ns": 0,
+  "missing": false,
+  "other": "프리드리히 뵐러",
+  "disamb": false
+ },
+ "Isotopes of yttrium": {
+  "title": "Isotopes of yttrium",
+  "ns": 0,
+  "missing": false,
+  "other": "이트륨 동위 원소",
+  "disamb": false
+ },
+ "Strontium-87": {
+  "title": "Isotopes of strontium",
+  "ns": 0,
+  "missing": false,
+  "other": "스트론튬 동위 원소",
+  "disamb": false
+ },
+ "Strontium-88": {
+  "title": "Isotopes of strontium",
+  "ns": 0,
+  "missing": false,
+  "other": "스트론튬 동위 원소",
+  "disamb": false
+ },
+ "Yttrium-90": {
+  "title": "Yttrium-90",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Zirconium-90": {
+  "title": "Isotopes of zirconium",
+  "ns": 0,
+  "missing": false,
+  "other": "지르코늄 동위 원소",
+  "disamb": false
+ },
+ "Zirconium-91": {
+  "title": "Isotopes of zirconium",
+  "ns": 0,
+  "missing": false,
+  "other": "지르코늄 동위 원소",
+  "disamb": false
+ },
+ "Rare-earth mineral": {
+  "title": "Rare-earth mineral",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Crust (geology)": {
+  "title": "Crust (geology)",
+  "ns": 0,
+  "missing": false,
+  "other": "지각 (지질학)",
+  "disamb": false
+ },
+ "Phosphor": {
+  "title": "Phosphor",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "LED": {
+  "title": "Light-emitting diode",
+  "ns": 0,
+  "missing": false,
+  "other": "발광 다이오드",
+  "disamb": false
+ },
+ "Cathode ray tube": {
+  "title": "Cathode ray tube",
+  "ns": 0,
+  "missing": false,
+  "other": "브라운관",
+  "disamb": false
+ },
+ "Electrode": {
+  "title": "Electrode",
+  "ns": 0,
+  "missing": false,
+  "other": "전극",
+  "disamb": false
+ },
+ "Electrolyte": {
+  "title": "Electrolyte",
+  "ns": 0,
+  "missing": false,
+  "other": "전해질",
+  "disamb": false
+ },
+ "Electronic filters": {
+  "title": "Electronic filter",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 필터",
+  "disamb": false
+ },
+ "Laser": {
+  "title": "Laser",
+  "ns": 0,
+  "missing": false,
+  "other": "레이저",
+  "disamb": false
+ },
+ "Superconductor": {
+  "title": "Superconductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "초전도 현상",
+  "disamb": false
+ },
+ "Trace element": {
+  "title": "Trace element",
+  "ns": 0,
+  "missing": false,
+  "other": "미량 원소",
+  "disamb": false
+ },
+ "Biology": {
+  "title": "Biology",
+  "ns": 0,
+  "missing": false,
+  "other": "생물학",
+  "disamb": false
+ },
+ "Respiratory disease": {
+  "title": "Respiratory disease",
+  "ns": 0,
+  "missing": false,
+  "other": "호흡기 질환",
+  "disamb": false
+ },
+ "Carl Axel Arrhenius": {
+  "title": "Carl Axel Arrhenius",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Sweden": {
+  "title": "Sweden",
+  "ns": 0,
+  "missing": false,
+  "other": "스웨덴",
+  "disamb": false
+ },
+ "Periodic trend": {
+  "title": "Periodic trends",
+  "ns": 0,
+  "missing": false,
+  "other": "주기적 성질",
+  "disamb": false
+ },
+ "D-block": {
+  "title": "Block (periodic table)",
+  "ns": 0,
+  "missing": false,
+  "other": "구역 (주기율표)",
+  "disamb": false
+ },
+ "Passivation (chemistry)": {
+  "title": "Passivation (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "부동태화",
+  "disamb": false
+ },
+ "Micrometre": {
+  "title": "Micrometre",
+  "ns": 0,
+  "missing": false,
+  "other": "마이크로미터",
+  "disamb": false
+ },
+ "Celsius": {
+  "title": "Celsius",
+  "ns": 0,
+  "missing": false,
+  "other": "섭씨",
+  "disamb": false
+ },
+ "Water vapor": {
+  "title": "Water vapor",
+  "ns": 0,
+  "missing": false,
+  "other": "수증기",
+  "disamb": false
+ },
+ "Swarf": {
+  "title": "Swarf",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Yttrium nitride": {
+  "title": "Yttrium nitride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Valency (chemistry)": {
+  "title": "Valence (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "원자가",
+  "disamb": false
+ },
+ "Inorganic compound": {
+  "title": "Inorganic compound",
+  "ns": 0,
+  "missing": false,
+  "other": "무기 화합물",
+  "disamb": false
+ },
+ "Valence electron": {
+  "title": "Valence electron",
+  "ns": 0,
+  "missing": false,
+  "other": "원자가 전자",
+  "disamb": false
+ },
+ "Yttrium(III) oxide": {
+  "title": "Yttrium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 이트륨(III)",
+  "disamb": false
+ },
+ "Coordinate covalent bond": {
+  "title": "Coordinate covalent bond",
+  "ns": 0,
+  "missing": false,
+  "other": "배위 결합",
+  "disamb": false
+ },
+ "Hydroxide": {
+  "title": "Hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": "수산화물",
+  "disamb": false
+ },
+ "Bromide": {
+  "title": "Bromide",
+  "ns": 0,
+  "missing": false,
+  "other": "브로민화물",
+  "disamb": false
+ },
+ "Chloride": {
+  "title": "Chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 이온",
+  "disamb": false
+ },
+ "Iodide": {
+  "title": "Iodide",
+  "ns": 0,
+  "missing": false,
+  "other": "아이오딘화물",
+  "disamb": false
+ },
+ "Nitrate": {
+  "title": "Nitrate",
+  "ns": 0,
+  "missing": false,
+  "other": "질산염",
+  "disamb": false
+ },
+ "Sulfate": {
+  "title": "Sulfate",
+  "ns": 0,
+  "missing": false,
+  "other": "황산염",
+  "disamb": false
+ },
+ "Solubility": {
+  "title": "Solubility",
+  "ns": 0,
+  "missing": false,
+  "other": "용해도",
+  "disamb": false
+ },
+ "Electron shell": {
+  "title": "Electron shell",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 껍질",
+  "disamb": false
+ },
+ "Water": {
+  "title": "Water",
+  "ns": 0,
+  "missing": false,
+  "other": "물",
+  "disamb": false
+ },
+ "Hydrofluoric acid": {
+  "title": "Hydrofluoric acid",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 수소산",
+  "disamb": false
+ },
+ "Yttrium(III) fluoride": {
+  "title": "Yttrium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Yttrium(III) chloride": {
+  "title": "Yttrium(III) chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Yttrium(III) bromide": {
+  "title": "Yttrium(III) bromide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Binary compound": {
+  "title": "Binary phase",
+  "ns": 0,
+  "missing": false,
+  "other": "이원 화합물",
+  "disamb": false
+ },
+ "Organoyttrium chemistry": {
+  "title": "Organoyttrium chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Trimerization": {
+  "title": "Trimer (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ammonium chloride": {
+  "title": "Ammonium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 암모늄",
+  "disamb": false
+ },
+ "Hapticity": {
+  "title": "Hapticity",
+  "ns": 0,
+  "missing": false,
+  "other": "합토수",
+  "disamb": false
+ },
+ "Ligand": {
+  "title": "Ligand",
+  "ns": 0,
+  "missing": false,
+  "other": "리간드",
+  "disamb": false
+ },
+ "Carborane": {
+  "title": "Carborane",
+  "ns": 0,
+  "missing": false,
+  "other": "카보레인",
+  "disamb": false
+ },
+ "Graphite intercalation compound": {
+  "title": "Graphite intercalation compound",
+  "ns": 0,
+  "missing": false,
+  "other": "흑연 층간 물질",
+  "disamb": false
+ },
+ "Endohedral fullerene": {
+  "title": "Endohedral fullerene",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Electron spin resonance": {
+  "title": "Electron paramagnetic resonance",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 스핀 공명",
+  "disamb": false
+ },
+ "Carbide": {
+  "title": "Carbide",
+  "ns": 0,
+  "missing": false,
+  "other": "탄화물",
+  "disamb": false
+ },
+ "Hydrocarbon": {
+  "title": "Hydrocarbon",
+  "ns": 0,
+  "missing": false,
+  "other": "탄화수소",
+  "disamb": false
+ },
+ "Solar System": {
+  "title": "Solar System",
+  "ns": 0,
+  "missing": false,
+  "other": "태양계",
+  "disamb": false
+ },
+ "Stellar nucleosynthesis": {
+  "title": "Stellar nucleosynthesis",
+  "ns": 0,
+  "missing": false,
+  "other": "항성 핵합성",
+  "disamb": false
+ },
+ "S-process": {
+  "title": "S-process",
+  "ns": 0,
+  "missing": false,
+  "other": "S과정",
+  "disamb": false
+ },
+ "Neutron capture": {
+  "title": "Neutron capture",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자 포획",
+  "disamb": false
+ },
+ "Supernova": {
+  "title": "Supernova",
+  "ns": 0,
+  "missing": false,
+  "other": "초신성",
+  "disamb": false
+ },
+ "Neutron": {
+  "title": "Neutron",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자",
+  "disamb": false
+ },
+ "Red giant": {
+  "title": "Red giant",
+  "ns": 0,
+  "missing": false,
+  "other": "적색거성",
+  "disamb": false
+ },
+ "Nuclear waste": {
+  "title": "Radioactive waste",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 폐기물",
+  "disamb": false
+ },
+ "Secular equilibrium": {
+  "title": "Secular equilibrium",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Strontium-90": {
+  "title": "Strontium-90",
+  "ns": 0,
+  "missing": false,
+  "other": "스트론튬-90",
+  "disamb": false
+ },
+ "Rare earths": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Atomic mass number": {
+  "title": "Mass number",
+  "ns": 0,
+  "missing": false,
+  "other": "질량수",
+  "disamb": false
+ },
+ "Atomic nucleus": {
+  "title": "Atomic nucleus",
+  "ns": 0,
+  "missing": false,
+  "other": "원자핵",
+  "disamb": false
+ },
+ "SI prefix": {
+  "title": "Metric prefix",
+  "ns": 0,
+  "missing": false,
+  "other": "SI 접두어",
+  "disamb": false
+ },
+ "Neutron emission": {
+  "title": "Neutron emission",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자 방출",
+  "disamb": false
+ },
+ "Metastable isomer": {
+  "title": "Nuclear isomer",
+  "ns": 0,
+  "missing": false,
+  "other": "이성질핵",
+  "disamb": false
+ },
+ "Ground state": {
+  "title": "Ground state",
+  "ns": 0,
+  "missing": false,
+  "other": "바닥 상태",
+  "disamb": false
+ },
+ "Isomeric transition": {
+  "title": "Nuclear isomer",
+  "ns": 0,
+  "missing": false,
+  "other": "이성질핵",
+  "disamb": false
+ },
+ "Stockholm Archipelago": {
+  "title": "Stockholm Archipelago",
+  "ns": 0,
+  "missing": false,
+  "other": "스톡홀름 군도",
+  "disamb": false
+ },
+ "Royal Academy of Åbo": {
+  "title": "Royal Academy of Turku",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Earth (chemistry)": {
+  "title": "Earth (historical chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Anders Gustaf Ekeberg": {
+  "title": "Anders Gustaf Ekeberg",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Antoine Lavoisier": {
+  "title": "Antoine Lavoisier",
+  "ns": 0,
+  "missing": false,
+  "other": "앙투안 라부아지에",
+  "disamb": false
+ },
+ "Yttrium chloride": {
+  "title": "Yttrium(III) chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Terbium(III,IV) oxide": {
+  "title": "Terbium(III,IV) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 터븀(III,IV)",
+  "disamb": false
+ },
+ "Erbium oxide": {
+  "title": "Erbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ytterbium oxide": {
+  "title": "Ytterbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Martin Heinrich Klaproth": {
+  "title": "Martin Heinrich Klaproth",
+  "ns": 0,
+  "missing": false,
+  "other": "마르틴 하인리히 클라프로트",
+  "disamb": false
+ },
+ "Yttrium barium copper oxide": {
+  "title": "Yttrium barium copper oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "이트륨 바륨 구리 산화물",
+  "disamb": false
+ },
+ "High-temperature superconductivity": {
+  "title": "High-temperature superconductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "고온 초전도체",
+  "disamb": false
+ },
+ "Superconductivity": {
+  "title": "Superconductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "초전도 현상",
+  "disamb": false
+ },
+ "Uranium ore": {
+  "title": "Uranium ore",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Parts per trillion": {
+  "title": "Parts-per notation",
+  "ns": 0,
+  "missing": false,
+  "other": "Parts-per 표기",
+  "disamb": false
+ },
+ "United States": {
+  "title": "United States",
+  "ns": 0,
+  "missing": false,
+  "other": "미국",
+  "disamb": false
+ },
+ "Apollo Project": {
+  "title": "Apollo program",
+  "ns": 0,
+  "missing": false,
+  "other": "아폴로 계획",
+  "disamb": false
+ },
+ "Breast milk": {
+  "title": "Breast milk",
+  "ns": 0,
+  "missing": false,
+  "other": "모유",
+  "disamb": false
+ },
+ "Cabbage": {
+  "title": "Cabbage",
+  "ns": 0,
+  "missing": false,
+  "other": "양배추",
+  "disamb": false
+ },
+ "Minami-Tori-shima": {
+  "title": "Minamitorishima",
+  "ns": 0,
+  "missing": false,
+  "other": "미나미토리섬",
+  "disamb": false
+ },
+ "Short ton": {
+  "title": "Short ton",
+  "ns": 0,
+  "missing": false,
+  "other": "미국톤",
+  "disamb": false
+ },
+ "Atomic mass": {
+  "title": "Atomic mass",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 질량",
+  "disamb": false
+ },
+ "Mountain Pass rare earth mine": {
+  "title": "Mountain Pass Rare Earth Mine",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Placer deposit": {
+  "title": "Placer deposit",
+  "ns": 0,
+  "missing": false,
+  "other": "사광",
+  "disamb": false
+ },
+ "Yttrium phosphate": {
+  "title": "Yttrium(III) phosphate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Bayan Obo": {
+  "title": "Bayan Obo Mining District",
+  "ns": 0,
+  "missing": false,
+  "other": "바이윈어보 광구",
+  "disamb": false
+ },
+ "Samarskite": {
+  "title": "Samarskite-(Y)",
+  "ns": 0,
+  "missing": false,
+  "other": "사마스카이트",
+  "disamb": false
+ },
+ "Fergusonite": {
+  "title": "Fergusonite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Chromatography": {
+  "title": "Chromatography",
+  "ns": 0,
+  "missing": false,
+  "other": "크로마토그래피",
+  "disamb": false
+ },
+ "Oxalic acid": {
+  "title": "Oxalic acid",
+  "ns": 0,
+  "missing": false,
+  "other": "옥살산",
+  "disamb": false
+ },
+ "Hydrogen fluoride": {
+  "title": "Hydrogen fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 수소",
+  "disamb": false
+ },
+ "Yttrium fluoride": {
+  "title": "Yttrium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Counter-ion": {
+  "title": "Counterion",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Metal sponge": {
+  "title": "Metal foam",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Arc furnace": {
+  "title": "Electric arc furnace",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Color television": {
+  "title": "Color television",
+  "ns": 0,
+  "missing": false,
+  "other": "컬러 텔레비전",
+  "disamb": false
+ },
+ "Yttria": {
+  "title": "Yttrium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 이트륨(III)",
+  "disamb": false
+ },
+ "Doping (semiconductor)": {
+  "title": "Doping (semiconductor)",
+  "ns": 0,
+  "missing": false,
+  "other": "도핑 (반도체)",
+  "disamb": false
+ },
+ "Electron gun": {
+  "title": "Electron gun",
+  "ns": 0,
+  "missing": false,
+  "other": "전자총",
+  "disamb": false
+ },
+ "Synthetic garnets": {
+  "title": "Garnet",
+  "ns": 0,
+  "missing": false,
+  "other": "석류석",
+  "disamb": false
+ },
+ "Yttrium iron garnet": {
+  "title": "Yttrium iron garnet",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Electronic filter": {
+  "title": "Electronic filter",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 필터",
+  "disamb": false
+ },
+ "Magnetic": {
+  "title": "Magnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "자기",
+  "disamb": false
+ },
+ "Mohs scale of mineral hardness": {
+  "title": "Mohs scale",
+  "ns": 0,
+  "missing": false,
+  "other": "모스 굳기계",
+  "disamb": false
+ },
+ "Gemstone": {
+  "title": "Gemstone",
+  "ns": 0,
+  "missing": false,
+  "other": "보석",
+  "disamb": false
+ },
+ "Diamond": {
+  "title": "Diamond",
+  "ns": 0,
+  "missing": false,
+  "other": "다이아몬드",
+  "disamb": false
+ },
+ "Yttrium lithium fluoride": {
+  "title": "Yttrium lithium fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Infrared": {
+  "title": "Infrared",
+  "ns": 0,
+  "missing": false,
+  "other": "적외선",
+  "disamb": false
+ },
+ "Czochralski process": {
+  "title": "Czochralski method",
+  "ns": 0,
+  "missing": false,
+  "other": "초크랄스키법",
+  "disamb": false
+ },
+ "Strength of materials": {
+  "title": "Strength of materials",
+  "ns": 0,
+  "missing": false,
+  "other": "재료역학",
+  "disamb": false
+ },
+ "Oxidation": {
+  "title": "Redox",
+  "ns": 0,
+  "missing": false,
+  "other": "산화·환원 반응",
+  "disamb": false
+ },
+ "Deoxidizer": {
+  "title": "Deoxidization",
+  "ns": 0,
+  "missing": false,
+  "other": "탈산",
+  "disamb": false
+ },
+ "Non-ferrous metal": {
+  "title": "Non-ferrous metal",
+  "ns": 0,
+  "missing": false,
+  "other": "비철금속",
+  "disamb": false
+ },
+ "Cubic zirconia": {
+  "title": "Cubic zirconia",
+  "ns": 0,
+  "missing": false,
+  "other": "큐빅 지르코니아",
+  "disamb": false
+ },
+ "Nodular cast iron": {
+  "title": "Ductile iron",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Graphite": {
+  "title": "Graphite",
+  "ns": 0,
+  "missing": false,
+  "other": "흑연",
+  "disamb": false
+ },
+ "Ceramic": {
+  "title": "Ceramic",
+  "ns": 0,
+  "missing": false,
+  "other": "세라믹",
+  "disamb": false
+ },
+ "Glass": {
+  "title": "Glass",
+  "ns": 0,
+  "missing": false,
+  "other": "유리",
+  "disamb": false
+ },
+ "Shock (mechanics)": {
+  "title": "Shock (mechanics)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Thermal expansion": {
+  "title": "Thermal expansion",
+  "ns": 0,
+  "missing": false,
+  "other": "열팽창",
+  "disamb": false
+ },
+ "Camera lens": {
+  "title": "Camera lens",
+  "ns": 0,
+  "missing": false,
+  "other": "카메라 렌즈",
+  "disamb": false
+ },
+ "Edotreotide": {
+  "title": "Edotreotide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ibritumomab tiuxetan": {
+  "title": "Ibritumomab tiuxetan",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Cancer": {
+  "title": "Cancer",
+  "ns": 0,
+  "missing": false,
+  "other": "암",
+  "disamb": false
+ },
+ "Lymphoma": {
+  "title": "Lymphoma",
+  "ns": 0,
+  "missing": false,
+  "other": "림프종",
+  "disamb": false
+ },
+ "Leukemia": {
+  "title": "Leukemia",
+  "ns": 0,
+  "missing": false,
+  "other": "백혈병",
+  "disamb": false
+ },
+ "Monoclonal antibody": {
+  "title": "Monoclonal antibody",
+  "ns": 0,
+  "missing": false,
+  "other": "단클론 항체",
+  "disamb": false
+ },
+ "Beta particle": {
+  "title": "Beta particle",
+  "ns": 0,
+  "missing": false,
+  "other": "베타 입자",
+  "disamb": false
+ },
+ "Monoclonal antibody therapy": {
+  "title": "Monoclonal antibody therapy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Selective internal radiation therapy": {
+  "title": "Selective internal radiation therapy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Hepatocellular carcinoma": {
+  "title": "Hepatocellular carcinoma",
+  "ns": 0,
+  "missing": false,
+  "other": "간세포암",
+  "disamb": false
+ },
+ "Metastatic liver disease": {
+  "title": "Liver metastasis",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nerve": {
+  "title": "Nerve",
+  "ns": 0,
+  "missing": false,
+  "other": "신경",
+  "disamb": false
+ },
+ "Spinal cord": {
+  "title": "Spinal cord",
+  "ns": 0,
+  "missing": false,
+  "other": "척수",
+  "disamb": false
+ },
+ "Synovectomy": {
+  "title": "Synovectomy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Rheumatoid arthritis": {
+  "title": "Rheumatoid arthritis",
+  "ns": 0,
+  "missing": false,
+  "other": "류마티스 관절염",
+  "disamb": false
+ },
+ "Prostatectomy": {
+  "title": "Prostatectomy",
+  "ns": 0,
+  "missing": false,
+  "other": "전립샘절제술",
+  "disamb": false
+ },
+ "University of Alabama in Huntsville": {
+  "title": "University of Alabama in Huntsville",
+  "ns": 0,
+  "missing": false,
+  "other": "앨라배마 대학교 헌츠빌",
+  "disamb": false
+ },
+ "University of Houston": {
+  "title": "University of Houston",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Liquid nitrogen": {
+  "title": "Liquid nitrogen",
+  "ns": 0,
+  "missing": false,
+  "other": "액체 질소",
+  "disamb": false
+ },
+ "Liquid helium": {
+  "title": "Liquid helium",
+  "ns": 0,
+  "missing": false,
+  "other": "액체 헬륨",
+  "disamb": false
+ },
+ "Mas Subramanian": {
+  "title": "Mas Subramanian",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Oregon State University": {
+  "title": "Oregon State University",
+  "ns": 0,
+  "missing": false,
+  "other": "오리건 주립 대학교",
+  "disamb": false
+ },
+ "Blue": {
+  "title": "Blue",
+  "ns": 0,
+  "missing": false,
+  "other": "파랑",
+  "disamb": false
+ },
+ "Pigment": {
+  "title": "Pigment",
+  "ns": 0,
+  "missing": false,
+  "other": "안료",
+  "disamb": false
+ },
+ "YInMn blue": {
+  "title": "YInMn Blue",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Sintering": {
+  "title": "Sintering",
+  "ns": 0,
+  "missing": false,
+  "other": "소결",
+  "disamb": false
+ },
+ "Silicon nitride": {
+  "title": "Silicon nitride",
+  "ns": 0,
+  "missing": false,
+  "other": "질화 규소",
+  "disamb": false
+ },
+ "Ethylene": {
+  "title": "Ethylene",
+  "ns": 0,
+  "missing": false,
+  "other": "에틸렌",
+  "disamb": false
+ },
+ "Spark plugs": {
+  "title": "Spark plug",
+  "ns": 0,
+  "missing": false,
+  "other": "점화 플러그",
+  "disamb": false
+ },
+ "Gas mantle": {
+  "title": "Gas mantle",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Propane": {
+  "title": "Propane",
+  "ns": 0,
+  "missing": false,
+  "other": "프로페인",
+  "disamb": false
+ },
+ "Lantern": {
+  "title": "Lantern",
+  "ns": 0,
+  "missing": false,
+  "other": "제등",
+  "disamb": false
+ },
+ "Toxicity": {
+  "title": "Toxicity",
+  "ns": 0,
+  "missing": false,
+  "other": "독성",
+  "disamb": false
+ },
+ "Pulmonary edema": {
+  "title": "Pulmonary edema",
+  "ns": 0,
+  "missing": false,
+  "other": "폐부종",
+  "disamb": false
+ },
+ "Dyspnea": {
+  "title": "Shortness of breath",
+  "ns": 0,
+  "missing": false,
+  "other": "호흡곤란",
+  "disamb": false
+ },
+ "Pleural effusion": {
+  "title": "Pleural effusion",
+  "ns": 0,
+  "missing": false,
+  "other": "흉수",
+  "disamb": false
+ },
+ "Cyanosis": {
+  "title": "Cyanosis",
+  "ns": 0,
+  "missing": false,
+  "other": "청색증",
+  "disamb": false
+ },
+ "Occupational Safety and Health Administration": {
+  "title": "Occupational Safety and Health Administration",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 산업안전보건청",
+  "disamb": false
+ },
+ "Permissible exposure limit": {
+  "title": "Permissible exposure limit",
+  "ns": 0,
+  "missing": false,
+  "other": "허용 노출 한계",
+  "disamb": false
+ },
+ "National Institute for Occupational Safety and Health": {
+  "title": "National Institute for Occupational Safety and Health",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 국립 직업안전위생연구소",
+  "disamb": false
+ },
+ "Recommended exposure limit": {
+  "title": "Recommended exposure limit",
+  "ns": 0,
+  "missing": false,
+  "other": "권장 노출 한계",
+  "disamb": false
+ },
+ "IDLH": {
+  "title": "Immediately dangerous to life or health",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "LCCN (identifier)": {
+  "title": "Library of Congress Control Number",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 의회도서관 제어 번호",
+  "disamb": false
+ },
+ "OCLC (identifier)": {
+  "title": "OCLC",
+  "ns": 0,
+  "missing": false,
+  "other": "OCLC",
+  "disamb": false
+ },
+ "John Emsley": {
+  "title": "John Emsley",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Oxford University Press": {
+  "title": "Oxford University Press",
+  "ns": 0,
+  "missing": false,
+  "other": "옥스퍼드 대학교 출판부",
+  "disamb": false
+ },
+ "Thule": {
+  "title": "Thule",
+  "ns": 0,
+  "missing": false,
+  "other": "툴레",
+  "disamb": false
+ },
+ "Per Teodor Cleve": {
+  "title": "Per Teodor Cleve",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Erbium-167": {
+  "title": "Isotopes of erbium",
+  "ns": 0,
+  "missing": false,
+  "other": "어븀 동위 원소",
+  "disamb": false
+ },
+ "Erbium-168": {
+  "title": "Isotopes of erbium",
+  "ns": 0,
+  "missing": false,
+  "other": "어븀 동위 원소",
+  "disamb": false
+ },
+ "Thulium-170": {
+  "title": "Thulium-170",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ytterbium-170": {
+  "title": "Isotopes of ytterbium",
+  "ns": 0,
+  "missing": false,
+  "other": "이터븀 동위 원소",
+  "disamb": false
+ },
+ "Ytterbium-171": {
+  "title": "Isotopes of ytterbium",
+  "ns": 0,
+  "missing": false,
+  "other": "이터븀 동위 원소",
+  "disamb": false
+ },
+ "Tarnish": {
+  "title": "Tarnish",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Holmium(III) oxide": {
+  "title": "Holmium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Thulium(III) oxide": {
+  "title": "Thulium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Rare-earth": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Erbium(III) oxide": {
+  "title": "Erbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Coordination complex": {
+  "title": "Coordination complex",
+  "ns": 0,
+  "missing": false,
+  "other": "배위 화합물",
+  "disamb": false
+ },
+ "Mohs hardness": {
+  "title": "Mohs scale",
+  "ns": 0,
+  "missing": false,
+  "other": "모스 굳기계",
+  "disamb": false
+ },
+ "Allotrope": {
+  "title": "Allotropy",
+  "ns": 0,
+  "missing": false,
+  "other": "동소성",
+  "disamb": false
+ },
+ "Tetragonal crystal system": {
+  "title": "Tetragonal crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "정방정계",
+  "disamb": false
+ },
+ "Dust": {
+  "title": "Dust",
+  "ns": 0,
+  "missing": false,
+  "other": "먼지",
+  "disamb": false
+ },
+ "Explosion": {
+  "title": "Explosion",
+  "ns": 0,
+  "missing": false,
+  "other": "폭발",
+  "disamb": false
+ },
+ "Fires": {
+  "title": "Fire",
+  "ns": 0,
+  "missing": false,
+  "other": "불",
+  "disamb": false
+ },
+ "Solution (chemistry)": {
+  "title": "Solution (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "용액",
+  "disamb": false
+ },
+ "Lanthanide series": {
+  "title": "Lanthanide",
+  "ns": 0,
+  "missing": false,
+  "other": "란타넘족",
+  "disamb": false
+ },
+ "Thulium oxide": {
+  "title": "Thulium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Chemical reduction": {
+  "title": "Redox",
+  "ns": 0,
+  "missing": false,
+  "other": "산화·환원 반응",
+  "disamb": false
+ },
+ "Thulium(III) hydroxide": {
+  "title": "Thulium(III) hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Chalcogen": {
+  "title": "Chalcogen",
+  "ns": 0,
+  "missing": false,
+  "other": "16족 원소",
+  "disamb": false
+ },
+ "Chalcogenide": {
+  "title": "Chalcogenide",
+  "ns": 0,
+  "missing": false,
+  "other": "칼코제나이드",
+  "disamb": false
+ },
+ "Hydrogen chloride": {
+  "title": "Hydrogen chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 수소",
+  "disamb": false
+ },
+ "Thulium chloride": {
+  "title": "Thulium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Isotopes of erbium": {
+  "title": "Isotopes of erbium",
+  "ns": 0,
+  "missing": false,
+  "other": "어븀 동위 원소",
+  "disamb": false
+ },
+ "Thulia": {
+  "title": "Thulium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ancient Greek": {
+  "title": "Ancient Greek",
+  "ns": 0,
+  "missing": false,
+  "other": "고대 그리스어",
+  "disamb": false
+ },
+ "Iceland": {
+  "title": "Iceland",
+  "ns": 0,
+  "missing": false,
+  "other": "아이슬란드",
+  "disamb": false
+ },
+ "Spectroscopy": {
+  "title": "Spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "분광학",
+  "disamb": false
+ },
+ "University of New Hampshire": {
+  "title": "University of New Hampshire",
+  "ns": 0,
+  "missing": false,
+  "other": "뉴햄프셔 대학교",
+  "disamb": false
+ },
+ "Durham, New Hampshire": {
+  "title": "Durham, New Hampshire",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lanthanides": {
+  "title": "Lanthanide",
+  "ns": 0,
+  "missing": false,
+  "other": "란타넘족",
+  "disamb": false
+ },
+ "Abundance of elements in Earth's crust": {
+  "title": "Abundance of elements in Earth's crust",
+  "ns": 0,
+  "missing": false,
+  "other": "지구 지각 내 원소 존재비",
+  "disamb": false
+ },
+ "Soil": {
+  "title": "Soil",
+  "ns": 0,
+  "missing": false,
+  "other": "흙",
+  "disamb": false
+ },
+ "Seawater": {
+  "title": "Seawater",
+  "ns": 0,
+  "missing": false,
+  "other": "바닷물",
+  "disamb": false
+ },
+ "China": {
+  "title": "China",
+  "ns": 0,
+  "missing": false,
+  "other": "중화인민공화국",
+  "disamb": false
+ },
+ "Australia": {
+  "title": "Australia",
+  "ns": 0,
+  "missing": false,
+  "other": "오스트레일리아",
+  "disamb": false
+ },
+ "Greenland": {
+  "title": "Greenland",
+  "ns": 0,
+  "missing": false,
+  "other": "그린란드",
+  "disamb": false
+ },
+ "India": {
+  "title": "India",
+  "ns": 0,
+  "missing": false,
+  "other": "인도",
+  "disamb": false
+ },
+ "Tanzania": {
+  "title": "Tanzania",
+  "ns": 0,
+  "missing": false,
+  "other": "탄자니아",
+  "disamb": false
+ },
+ "Radioactive source": {
+  "title": "Radioactive source",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 선원",
+  "disamb": false
+ },
+ "Industrial radiography": {
+  "title": "Industrial radiography",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Brachytherapy": {
+  "title": "Brachytherapy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "High-temperature superconductor": {
+  "title": "High-temperature superconductivity",
+  "ns": 0,
+  "missing": false,
+  "other": "고온 초전도체",
+  "disamb": false
+ },
+ "Ferrite (magnet)": {
+  "title": "Ferrite (magnet)",
+  "ns": 0,
+  "missing": false,
+  "other": "페라이트 (자석)",
+  "disamb": false
+ },
+ "Fluoresce": {
+  "title": "Fluorescence",
+  "ns": 0,
+  "missing": false,
+  "other": "형광",
+  "disamb": false
+ },
+ "Ultraviolet": {
+  "title": "Ultraviolet",
+  "ns": 0,
+  "missing": false,
+  "other": "자외선",
+  "disamb": false
+ },
+ "Euro": {
+  "title": "Euro",
+  "ns": 0,
+  "missing": false,
+  "other": "유로",
+  "disamb": false
+ },
+ "Banknotes": {
+  "title": "Banknote",
+  "ns": 0,
+  "missing": false,
+  "other": "지폐",
+  "disamb": false
+ },
+ "Counterfeit": {
+  "title": "Counterfeit",
+  "ns": 0,
+  "missing": false,
+  "other": "안조",
+  "disamb": false
+ },
+ "Luminescent solar concentrator": {
+  "title": "Luminescent solar concentrator",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nontoxic": {
+  "title": "Toxicity",
+  "ns": 0,
+  "missing": false,
+  "other": "독성",
+  "disamb": false
+ },
+ "Liver": {
+  "title": "Liver",
+  "ns": 0,
+  "missing": false,
+  "other": "간",
+  "disamb": false
+ },
+ "Spleen": {
+  "title": "Spleen",
+  "ns": 0,
+  "missing": false,
+  "other": "비장",
+  "disamb": false
+ },
+ "Hemoglobin": {
+  "title": "Hemoglobin",
+  "ns": 0,
+  "missing": false,
+  "other": "헤모글로빈",
+  "disamb": false
+ },
+ "Mouse": {
+  "title": "Mouse",
+  "ns": 0,
+  "missing": false,
+  "other": "쥐",
+  "disamb": false
+ },
+ "Kidney": {
+  "title": "Kidney",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Bone": {
+  "title": "Bone",
+  "ns": 0,
+  "missing": false,
+  "other": "뼈",
+  "disamb": false
+ },
+ "Plant": {
+  "title": "Plant",
+  "ns": 0,
+  "missing": false,
+  "other": "식물",
+  "disamb": false
+ },
+ "Dry matter": {
+  "title": "Dry matter",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Parts per billion": {
+  "title": "Parts-per notation",
+  "ns": 0,
+  "missing": false,
+  "other": "Parts-per 표기",
+  "disamb": false
+ },
+ "Room temperature": {
+  "title": "Room temperature",
+  "ns": 0,
+  "missing": false,
+  "other": "실온",
+  "disamb": false
+ },
+ "Lecoq de Boisbaudran": {
+  "title": "Paul-Émile Lecoq de Boisbaudran",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Isotopes of dysprosium": {
+  "title": "Isotopes of dysprosium",
+  "ns": 0,
+  "missing": false,
+  "other": "디스프로슘 동위 원소",
+  "disamb": false
+ },
+ "Gadolinium-150": {
+  "title": "Isotopes of gadolinium",
+  "ns": 0,
+  "missing": false,
+  "other": "가돌리늄 동위 원소",
+  "disamb": false
+ },
+ "Terbium-159": {
+  "title": "Isotopes of terbium",
+  "ns": 0,
+  "missing": false,
+  "other": "터븀 동위 원소",
+  "disamb": false
+ },
+ "Holmium-165": {
+  "title": "Isotopes of holmium",
+  "ns": 0,
+  "missing": false,
+  "other": "홀뮴 동위 원소",
+  "disamb": false
+ },
+ "Holmium-166": {
+  "title": "Isotopes of holmium",
+  "ns": 0,
+  "missing": false,
+  "other": "홀뮴 동위 원소",
+  "disamb": false
+ },
+ "Neodymium magnet": {
+  "title": "Neodymium magnet",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴 자석",
+  "disamb": false
+ },
+ "Control rod": {
+  "title": "Control rod",
+  "ns": 0,
+  "missing": false,
+  "other": "제어봉",
+  "disamb": false
+ },
+ "Terfenol-D": {
+  "title": "Terfenol-D",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Magnetostrictive": {
+  "title": "Magnetostriction",
+  "ns": 0,
+  "missing": false,
+  "other": "자기변형",
+  "disamb": false
+ },
+ "Orthorhombic crystal system": {
+  "title": "Orthorhombic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "사방정계",
+  "disamb": false
+ },
+ "Helimagnetism": {
+  "title": "Helimagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Basal plane": {
+  "title": "Crystal structure",
+  "ns": 0,
+  "missing": false,
+  "other": "결정 구조",
+  "disamb": false
+ },
+ "Dysprosium(III) oxide": {
+  "title": "Dysprosium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium hydroxide": {
+  "title": "Dysprosium(III) hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium(III) sulfate": {
+  "title": "Dysprosium(III) sulfate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "DyF3": {
+  "title": "Dysprosium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium bromide": {
+  "title": "Dysprosium bromide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium nitride": {
+  "title": "Dysprosium nitride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium phosphide": {
+  "title": "Dysprosium phosphide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium monosulfide": {
+  "title": "Dysprosium monosulfide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium(III) sulfide": {
+  "title": "Dysprosium(III) sulfide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium carbonate": {
+  "title": "Dysprosium(III) carbonate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium sulfate": {
+  "title": "Dysprosium(III) sulfate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium oxalate": {
+  "title": "Dysprosium(III) oxalate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nanoparticle": {
+  "title": "Nanoparticle",
+  "ns": 0,
+  "missing": false,
+  "other": "나노입자",
+  "disamb": false
+ },
+ "Intermetallic": {
+  "title": "Intermetallic",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium stannides": {
+  "title": "Dysprosium stannides",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Observationally stable": {
+  "title": "Stable isotope",
+  "ns": 0,
+  "missing": false,
+  "other": "안정 동위 원소",
+  "disamb": false
+ },
+ "Radioisotopes": {
+  "title": "Radionuclide",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 동위 원소",
+  "disamb": false
+ },
+ "Alpha": {
+  "title": "Alpha",
+  "ns": 0,
+  "missing": false,
+  "other": "Α",
+  "disamb": false
+ },
+ "Holmium oxide": {
+  "title": "Holmium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium oxide": {
+  "title": "Dysprosium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ammonia": {
+  "title": "Ammonia",
+  "ns": 0,
+  "missing": false,
+  "other": "암모니아",
+  "disamb": false
+ },
+ "Iowa State University": {
+  "title": "Iowa State University",
+  "ns": 0,
+  "missing": false,
+  "other": "아이오와 주립 대학교",
+  "disamb": false
+ },
+ "Bose-Einstein condensate": {
+  "title": "Bose–Einstein condensate",
+  "ns": 0,
+  "missing": false,
+  "other": "보스-아인슈타인 응축",
+  "disamb": false
+ },
+ "Supersolid": {
+  "title": "Supersolid",
+  "ns": 0,
+  "missing": false,
+  "other": "초고체",
+  "disamb": false
+ },
+ "Polycrase": {
+  "title": "Polycrase",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Blomstrandine": {
+  "title": "Aeschynite-(Y)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Flotation process": {
+  "title": "Froth flotation",
+  "ns": 0,
+  "missing": false,
+  "other": "부유선광",
+  "disamb": false
+ },
+ "Dysprosium fluoride": {
+  "title": "Dysprosium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dysprosium chloride": {
+  "title": "Dysprosium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Halls Creek, Western Australia": {
+  "title": "Halls Creek, Western Australia",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "United States Department of Energy": {
+  "title": "United States Department of Energy",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 에너지부",
+  "disamb": false
+ },
+ "Thermal neutron": {
+  "title": "Neutron temperature",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자온도",
+  "disamb": false
+ },
+ "Cermet": {
+  "title": "Cermet",
+  "ns": 0,
+  "missing": false,
+  "other": "서멧",
+  "disamb": false
+ },
+ "Hard disk drive": {
+  "title": "Hard disk drive",
+  "ns": 0,
+  "missing": false,
+  "other": "하드 디스크 드라이브",
+  "disamb": false
+ },
+ "Coercivity": {
+  "title": "Coercivity",
+  "ns": 0,
+  "missing": false,
+  "other": "보자성",
+  "disamb": false
+ },
+ "Toyota": {
+  "title": "Toyota",
+  "ns": 0,
+  "missing": false,
+  "other": "토요타 자동차",
+  "disamb": false
+ },
+ "Magnetostriction": {
+  "title": "Magnetostriction",
+  "ns": 0,
+  "missing": false,
+  "other": "자기변형",
+  "disamb": false
+ },
+ "Transducer": {
+  "title": "Transducer",
+  "ns": 0,
+  "missing": false,
+  "other": "트랜스듀서",
+  "disamb": false
+ },
+ "Resonator": {
+  "title": "Resonator",
+  "ns": 0,
+  "missing": false,
+  "other": "공명기",
+  "disamb": false
+ },
+ "Dosimeter": {
+  "title": "Dosimeter",
+  "ns": 0,
+  "missing": false,
+  "other": "방사선량계",
+  "disamb": false
+ },
+ "Ionizing radiation": {
+  "title": "Ionizing radiation",
+  "ns": 0,
+  "missing": false,
+  "other": "이온화 방사선",
+  "disamb": false
+ },
+ "Calcium sulfate": {
+  "title": "Calcium sulfate",
+  "ns": 0,
+  "missing": false,
+  "other": "황산 칼슘",
+  "disamb": false
+ },
+ "Calcium fluoride": {
+  "title": "Calcium fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 칼슘",
+  "disamb": false
+ },
+ "Excited state": {
+  "title": "Excited state",
+  "ns": 0,
+  "missing": false,
+  "other": "들뜬 상태",
+  "disamb": false
+ },
+ "Luminescent": {
+  "title": "Luminescence",
+  "ns": 0,
+  "missing": false,
+  "other": "발광",
+  "disamb": false
+ },
+ "Bar (unit)": {
+  "title": "Bar (unit)",
+  "ns": 0,
+  "missing": false,
+  "other": "바 (단위)",
+  "disamb": false
+ },
+ "Superfluidity": {
+  "title": "Superfluidity",
+  "ns": 0,
+  "missing": false,
+  "other": "초유체",
+  "disamb": false
+ },
+ "Dysprosium iodide": {
+  "title": "Dysprosium(III) iodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Metal-halide lamp": {
+  "title": "Metal-halide lamp",
+  "ns": 0,
+  "missing": false,
+  "other": "금속할로겐화물등",
+  "disamb": false
+ },
+ "Magnetic refrigeration": {
+  "title": "Magnetocaloric effect",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Laser cooled": {
+  "title": "Laser cooling",
+  "ns": 0,
+  "missing": false,
+  "other": "레이저 냉각",
+  "disamb": false
+ },
+ "Magneto-optical trap": {
+  "title": "Magneto-optical trap",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Quantum physics": {
+  "title": "Quantum mechanics",
+  "ns": 0,
+  "missing": false,
+  "other": "양자역학",
+  "disamb": false
+ },
+ "Bose–Einstein condensate": {
+  "title": "Bose–Einstein condensate",
+  "ns": 0,
+  "missing": false,
+  "other": "보스-아인슈타인 응축",
+  "disamb": false
+ },
+ "Fermion": {
+  "title": "Fermion",
+  "ns": 0,
+  "missing": false,
+  "other": "페르미온",
+  "disamb": false
+ },
+ "Boson": {
+  "title": "Boson",
+  "ns": 0,
+  "missing": false,
+  "other": "보손",
+  "disamb": false
+ },
+ "Quantum simulation": {
+  "title": "Quantum simulator",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dipole": {
+  "title": "Dipole",
+  "ns": 0,
+  "missing": false,
+  "other": "쌍극자",
+  "disamb": false
+ },
+ "SONAR": {
+  "title": "Sonar",
+  "ns": 0,
+  "missing": false,
+  "other": "소나",
+  "disamb": false
+ },
+ "Transducers": {
+  "title": "Transducer",
+  "ns": 0,
+  "missing": false,
+  "other": "트랜스듀서",
+  "disamb": false
+ },
+ "Static electricity": {
+  "title": "Static electricity",
+  "ns": 0,
+  "missing": false,
+  "other": "정전기",
+  "disamb": false
+ },
+ "Dysprosium nitrate": {
+  "title": "Dysprosium(III) nitrate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Oxidizing agent": {
+  "title": "Oxidizing agent",
+  "ns": 0,
+  "missing": false,
+  "other": "산화제",
+  "disamb": false
+ },
+ "Mice": {
+  "title": "Mouse",
+  "ns": 0,
+  "missing": false,
+  "other": "쥐",
+  "disamb": false
+ },
+ "Salt poisoning": {
+  "title": "Salt poisoning",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Isotopes of praseodymium": {
+  "title": "Isotopes of praseodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "프라세오디뮴 동위 원소",
+  "disamb": false
+ },
+ "Neodymium-142": {
+  "title": "Isotopes of neodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴 동위 원소",
+  "disamb": false
+ },
+ "Cerium-142": {
+  "title": "Isotopes of cerium",
+  "ns": 0,
+  "missing": false,
+  "other": "세륨 동위 원소",
+  "disamb": false
+ },
+ "Neodymium-143": {
+  "title": "Isotopes of neodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴 동위 원소",
+  "disamb": false
+ },
+ "Native element mineral": {
+  "title": "Native element mineral",
+  "ns": 0,
+  "missing": false,
+  "other": "원소 광물",
+  "disamb": false
+ },
+ "Carl Gustav Mosander": {
+  "title": "Carl Gustaf Mosander",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Didymium": {
+  "title": "Didymium",
+  "ns": 0,
+  "missing": false,
+  "other": "디디뮴",
+  "disamb": false
+ },
+ "Leek": {
+  "title": "Leek",
+  "ns": 0,
+  "missing": false,
+  "other": "리크",
+  "disamb": false
+ },
+ "Rare-earth metals": {
+  "title": "Rare-earth element",
+  "ns": 0,
+  "missing": false,
+  "other": "희토류 원소",
+  "disamb": false
+ },
+ "Actinide": {
+  "title": "Actinide",
+  "ns": 0,
+  "missing": false,
+  "other": "악티늄족",
+  "disamb": false
+ },
+ "Spallation": {
+  "title": "Spallation",
+  "ns": 0,
+  "missing": false,
+  "other": "파쇄",
+  "disamb": false
+ },
+ "Praseodymium(III,IV) oxide": {
+  "title": "Praseodymium(III,IV) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 프라세오디뮴(III,IV)",
+  "disamb": false
+ },
+ "Nonstoichiometric compound": {
+  "title": "Non-stoichiometric compound",
+  "ns": 0,
+  "missing": false,
+  "other": "비화학량론적 화합물",
+  "disamb": false
+ },
+ "Praseodymium(III) oxide": {
+  "title": "Praseodymium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 프라세오디뮴(III)",
+  "disamb": false
+ },
+ "Praseodymium(IV) oxide": {
+  "title": "Praseodymium(IV) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Disproportionation": {
+  "title": "Disproportionation",
+  "ns": 0,
+  "missing": false,
+  "other": "불균등화 반응",
+  "disamb": false
+ },
+ "Periodic trends": {
+  "title": "Periodic trends",
+  "ns": 0,
+  "missing": false,
+  "other": "주기적 성질",
+  "disamb": false
+ },
+ "Praseodymium(III) hydroxide": {
+  "title": "Praseodymium(III) hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Praseodymium(IV) fluoride": {
+  "title": "Praseodymium(IV) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 프라세오디뮴(IV)",
+  "disamb": false
+ },
+ "Sodium fluoride": {
+  "title": "Sodium fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 나트륨",
+  "disamb": false
+ },
+ "Praseodymium(III) fluoride": {
+  "title": "Praseodymium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 프라세오디뮴(III)",
+  "disamb": false
+ },
+ "Praseodymium(II) iodide": {
+  "title": "Praseodymium diiodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Chartreuse (color)": {
+  "title": "Chartreuse (color)",
+  "ns": 0,
+  "missing": false,
+  "other": "연두",
+  "disamb": false
+ },
+ "Standard reduction potential": {
+  "title": "Reduction potential",
+  "ns": 0,
+  "missing": false,
+  "other": "산화·환원 전위",
+  "disamb": false
+ },
+ "Ozone": {
+  "title": "Ozone",
+  "ns": 0,
+  "missing": false,
+  "other": "오존",
+  "disamb": false
+ },
+ "Organolanthanide chemistry": {
+  "title": "Organolanthanide chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Pi backbonding": {
+  "title": "Pi backbonding",
+  "ns": 0,
+  "missing": false,
+  "other": "파이 역결합",
+  "disamb": false
+ },
+ "Cyclopentadienide": {
+  "title": "Sodium cyclopentadienide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "18-crown-6": {
+  "title": "18-Crown-6",
+  "ns": 0,
+  "missing": false,
+  "other": "18-크라운-6",
+  "disamb": false
+ },
+ "Mononuclidic element": {
+  "title": "Mononuclidic element",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Magic number (physics)": {
+  "title": "Magic number (physics)",
+  "ns": 0,
+  "missing": false,
+  "other": "마법수",
+  "disamb": false
+ },
+ "Fission product": {
+  "title": "Nuclear fission product",
+  "ns": 0,
+  "missing": false,
+  "other": "핵분열 생성물",
+  "disamb": false
+ },
+ "Isotopes of cerium": {
+  "title": "Isotopes of cerium",
+  "ns": 0,
+  "missing": false,
+  "other": "세륨 동위 원소",
+  "disamb": false
+ },
+ "Isotopes of neodymium": {
+  "title": "Isotopes of neodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴 동위 원소",
+  "disamb": false
+ },
+ "Axel Fredrik Cronstedt": {
+  "title": "Axel Fredrik Cronstedt",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Bastnäs": {
+  "title": "Bastnäs",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Cerite": {
+  "title": "Cerite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Wilhelm Hisinger": {
+  "title": "Wilhelm Hisinger",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Carl Scheele": {
+  "title": "Carl Wilhelm Scheele",
+  "ns": 0,
+  "missing": false,
+  "other": "칼 빌헬름 셸레",
+  "disamb": false
+ },
+ "Jöns Jacob Berzelius": {
+  "title": "Jöns Jacob Berzelius",
+  "ns": 0,
+  "missing": false,
+  "other": "옌스 야코브 베르셀리우스",
+  "disamb": false
+ },
+ "Dwarf planet": {
+  "title": "Dwarf planet",
+  "ns": 0,
+  "missing": false,
+  "other": "왜행성",
+  "disamb": false
+ },
+ "Ceres (dwarf planet)": {
+  "title": "Ceres (dwarf planet)",
+  "ns": 0,
+  "missing": false,
+  "other": "세레스 (왜행성)",
+  "disamb": false
+ },
+ "Cerium nitrate": {
+  "title": "Cerium nitrates",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Marc Delafontaine": {
+  "title": "Marc Delafontaine",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Paul-Émile Lecoq de Boisbaudran": {
+  "title": "Paul-Émile Lecoq de Boisbaudran",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Spectroscopic": {
+  "title": "Spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "분광학",
+  "disamb": false
+ },
+ "Bohuslav Brauner": {
+  "title": "Bohuslav Brauner",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Silicate": {
+  "title": "Silicate",
+  "ns": 0,
+  "missing": false,
+  "other": "규산염",
+  "disamb": false
+ },
+ "Carbonate": {
+  "title": "Carbonate",
+  "ns": 0,
+  "missing": false,
+  "other": "탄산염",
+  "disamb": false
+ },
+ "Silicon tetrafluoride": {
+  "title": "Silicon tetrafluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "사플루오린화 규소",
+  "disamb": false
+ },
+ "Sodium hydroxide": {
+  "title": "Sodium hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": "수산화 나트륨",
+  "disamb": false
+ },
+ "Radium-228": {
+  "title": "Isotopes of radium",
+  "ns": 0,
+  "missing": false,
+  "other": "라듐 동위 원소",
+  "disamb": false
+ },
+ "Tributyl phosphate": {
+  "title": "Tributyl phosphate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Gibbs free energy": {
+  "title": "Gibbs free energy",
+  "ns": 0,
+  "missing": false,
+  "other": "깁스 자유 에너지",
+  "disamb": false
+ },
+ "Fractional crystallization (chemistry)": {
+  "title": "Fractional crystallization (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "분별 결정",
+  "disamb": false
+ },
+ "Leo Moser": {
+  "title": "Leo Moser",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Moser Glass": {
+  "title": "Moser (glass company)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Karlovy Vary": {
+  "title": "Karlovy Vary",
+  "ns": 0,
+  "missing": false,
+  "other": "카를로비바리",
+  "disamb": false
+ },
+ "German language": {
+  "title": "German language",
+  "ns": 0,
+  "missing": false,
+  "other": "독일어",
+  "disamb": false
+ },
+ "Zirconium(IV) silicate": {
+  "title": "Zirconium(IV) silicate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "F-orbital": {
+  "title": "Atomic orbital",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 궤도",
+  "disamb": false
+ },
+ "Optics": {
+  "title": "Optics",
+  "ns": 0,
+  "missing": false,
+  "other": "광학",
+  "disamb": false
+ },
+ "Photonics": {
+  "title": "Photonics",
+  "ns": 0,
+  "missing": false,
+  "other": "광자학",
+  "disamb": false
+ },
+ "Pr:YLF laser": {
+  "title": "Pr:YLF laser",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Optical amplifier": {
+  "title": "Optical amplifier",
+  "ns": 0,
+  "missing": false,
+  "other": "광 증폭기",
+  "disamb": false
+ },
+ "Upconverting nanoparticles": {
+  "title": "Upconverting nanoparticles",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Slow light": {
+  "title": "Slow light",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Mischmetal": {
+  "title": "Mischmetal",
+  "ns": 0,
+  "missing": false,
+  "other": "미시메탈",
+  "disamb": false
+ },
+ "Ferrocerium": {
+  "title": "Ferrocerium",
+  "ns": 0,
+  "missing": false,
+  "other": "페로세륨",
+  "disamb": false
+ },
+ "Aircraft engine": {
+  "title": "Aircraft engine",
+  "ns": 0,
+  "missing": false,
+  "other": "항공기 엔진",
+  "disamb": false
+ },
+ "Carbon arc light": {
+  "title": "Arc lamp",
+  "ns": 0,
+  "missing": false,
+  "other": "호광등",
+  "disamb": false
+ },
+ "Movie studio": {
+  "title": "Film studio",
+  "ns": 0,
+  "missing": false,
+  "other": "영화 스튜디오",
+  "disamb": false
+ },
+ "Studio": {
+  "title": "Studio",
+  "ns": 0,
+  "missing": false,
+  "other": "스튜디오",
+  "disamb": false
+ },
+ "Image projector": {
+  "title": "Projector",
+  "ns": 0,
+  "missing": false,
+  "other": "투영기",
+  "disamb": false
+ },
+ "Vitreous enamel": {
+  "title": "Vitreous enamel",
+  "ns": 0,
+  "missing": false,
+  "other": "법랑",
+  "disamb": false
+ },
+ "Yellow": {
+  "title": "Yellow",
+  "ns": 0,
+  "missing": false,
+  "other": "노랑",
+  "disamb": false
+ },
+ "Welding": {
+  "title": "Welding",
+  "ns": 0,
+  "missing": false,
+  "other": "용접",
+  "disamb": false
+ },
+ "Glass blowing": {
+  "title": "Glassblowing",
+  "ns": 0,
+  "missing": false,
+  "other": "유리 세공",
+  "disamb": false
+ },
+ "Goggles": {
+  "title": "Goggles",
+  "ns": 0,
+  "missing": false,
+  "other": "고글",
+  "disamb": false
+ },
+ "Ceria": {
+  "title": "Cerium(IV) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ceria-zirconia": {
+  "title": "Ceria-zirconia",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Methanotrophic": {
+  "title": "Methanotroph",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Mudpot": {
+  "title": "Mudpot",
+  "ns": 0,
+  "missing": false,
+  "other": "머드팟",
+  "disamb": false
+ },
+ "Methylacidiphilum fumariolicum": {
+  "title": "Methylacidiphilum fumariolicum",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Norman Greenwood": {
+  "title": "Norman Greenwood",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Doi (identifier)": {
+  "title": "Digital object identifier",
+  "ns": 0,
+  "missing": false,
+  "other": "디지털 객체 식별자",
+  "disamb": false
+ },
+ "ArXiv (identifier)": {
+  "title": "ArXiv",
+  "ns": 0,
+  "missing": false,
+  "other": "ArXiv",
+  "disamb": false
+ },
+ "Trigonal crystal system": {
+  "title": "Hexagonal crystal family",
+  "ns": 0,
+  "missing": false,
+  "other": "육방정계",
+  "disamb": false
+ },
+ "Vassili Samarsky-Bykhovets": {
+  "title": "Vassili Samarsky-Bykhovets",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Promethium-145": {
+  "title": "Isotopes of promethium",
+  "ns": 0,
+  "missing": false,
+  "other": "프로메튬 동위 원소",
+  "disamb": false
+ },
+ "Trace radioisotope": {
+  "title": "Trace radioisotope",
+  "ns": 0,
+  "missing": false,
+  "other": "미량 방사성 동위 원소",
+  "disamb": false
+ },
+ "Samarium-147": {
+  "title": "Samarium-147",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Neodymium-144": {
+  "title": "Isotopes of neodymium",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴 동위 원소",
+  "disamb": false
+ },
+ "Europium-151": {
+  "title": "Isotopes of europium",
+  "ns": 0,
+  "missing": false,
+  "other": "유로퓸 동위 원소",
+  "disamb": false
+ },
+ "Europium-153": {
+  "title": "Isotopes of europium",
+  "ns": 0,
+  "missing": false,
+  "other": "유로퓸 동위 원소",
+  "disamb": false
+ },
+ "Chemical symbol": {
+  "title": "Chemical symbol",
+  "ns": 0,
+  "missing": false,
+  "other": "원소 기호",
+  "disamb": false
+ },
+ "Monoxide": {
+  "title": "Oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화물",
+  "disamb": false
+ },
+ "Samarium monochalcogenides": {
+  "title": "Samarium monochalcogenides",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Samarskite-(Y)": {
+  "title": "Samarskite-(Y)",
+  "ns": 0,
+  "missing": false,
+  "other": "사마스카이트",
+  "disamb": false
+ },
+ "Samarium–cobalt magnet": {
+  "title": "Samarium–cobalt magnet",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨-코발트 자석",
+  "disamb": false
+ },
+ "Magnet": {
+  "title": "Magnet",
+  "ns": 0,
+  "missing": false,
+  "other": "자석",
+  "disamb": false
+ },
+ "Samarium (153Sm) lexidronam": {
+  "title": "Samarium (153Sm) lexidronam",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lung cancer": {
+  "title": "Lung cancer",
+  "ns": 0,
+  "missing": false,
+  "other": "폐암",
+  "disamb": false
+ },
+ "Breast cancer": {
+  "title": "Breast cancer",
+  "ns": 0,
+  "missing": false,
+  "other": "유방암",
+  "disamb": false
+ },
+ "Osteosarcoma": {
+  "title": "Osteosarcoma",
+  "ns": 0,
+  "missing": false,
+  "other": "골육종",
+  "disamb": false
+ },
+ "Samarium-149": {
+  "title": "Isotopes of samarium",
+  "ns": 0,
+  "missing": false,
+  "other": "사마륨 동위 원소",
+  "disamb": false
+ },
+ "Catalysis": {
+  "title": "Catalysis",
+  "ns": 0,
+  "missing": false,
+  "other": "촉매 반응",
+  "disamb": false
+ },
+ "Chemical reaction": {
+  "title": "Chemical reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "화학 반응",
+  "disamb": false
+ },
+ "Samarium–neodymium dating": {
+  "title": "Samarium–neodymium dating",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "X-ray laser": {
+  "title": "X-ray laser",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Chemical synthesis": {
+  "title": "Chemical synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": "화학 합성",
+  "disamb": false
+ },
+ "Volatility (chemistry)": {
+  "title": "Volatility (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "휘발성",
+  "disamb": false
+ },
+ "Lustre (mineralogy)": {
+  "title": "Lustre (mineralogy)",
+  "ns": 0,
+  "missing": false,
+  "other": "광택 (광물학)",
+  "disamb": false
+ },
+ "Oxidized": {
+  "title": "Redox",
+  "ns": 0,
+  "missing": false,
+  "other": "산화·환원 반응",
+  "disamb": false
+ },
+ "Rhombohedral": {
+  "title": "Rhombohedron",
+  "ns": 0,
+  "missing": false,
+  "other": "능면체",
+  "disamb": false
+ },
+ "Sesquioxide": {
+  "title": "Sesquioxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Fullerene": {
+  "title": "Fullerene",
+  "ns": 0,
+  "missing": false,
+  "other": "풀러렌",
+  "disamb": false
+ },
+ "Iron-based superconductor": {
+  "title": "Iron-based superconductor",
+  "ns": 0,
+  "missing": false,
+  "other": "철-비소 기반 초전도체",
+  "disamb": false
+ },
+ "Mineral oil": {
+  "title": "Mineral oil",
+  "ns": 0,
+  "missing": false,
+  "other": "광물유",
+  "disamb": false
+ },
+ "Space group": {
+  "title": "Space group",
+  "ns": 0,
+  "missing": false,
+  "other": "공간군",
+  "disamb": false
+ },
+ "Hexagonal crystal family": {
+  "title": "Hexagonal crystal family",
+  "ns": 0,
+  "missing": false,
+  "other": "육방정계",
+  "disamb": false
+ },
+ "Induction heating": {
+  "title": "Induction heating",
+  "ns": 0,
+  "missing": false,
+  "other": "유도가열",
+  "disamb": false
+ },
+ "Radiofrequency coil": {
+  "title": "Radiofrequency coil",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Monoclinic crystal system": {
+  "title": "Monoclinic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "단사정계",
+  "disamb": false
+ },
+ "Verneuil process": {
+  "title": "Verneuil method",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Boule (crystal)": {
+  "title": "Boule (crystal)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Samarium(III) sulfide": {
+  "title": "Samarium(III) sulfide",
+  "ns": 0,
+  "missing": false,
+  "other": "황화 사마륨(III)",
+  "disamb": false
+ },
+ "Selenide": {
+  "title": "Selenide",
+  "ns": 0,
+  "missing": false,
+  "other": "셀레늄화물",
+  "disamb": false
+ },
+ "Telluride (chemistry)": {
+  "title": "Telluride (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Hysteresis": {
+  "title": "Hysteresis",
+  "ns": 0,
+  "missing": false,
+  "other": "이력 현상",
+  "disamb": false
+ },
+ "1,2-Diiodoethane": {
+  "title": "1,2-Diiodoethane",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Tetrahydrofuran": {
+  "title": "Tetrahydrofuran",
+  "ns": 0,
+  "missing": false,
+  "other": "테트라히드로푸란",
+  "disamb": false
+ },
+ "Electric arc furnace": {
+  "title": "Electric arc furnace",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Zone melting": {
+  "title": "Zone melting",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Band gap": {
+  "title": "Band gap",
+  "ns": 0,
+  "missing": false,
+  "other": "띠틈",
+  "disamb": false
+ },
+ "Electronvolt": {
+  "title": "Electronvolt",
+  "ns": 0,
+  "missing": false,
+  "other": "전자볼트",
+  "disamb": false
+ },
+ "Phonon": {
+  "title": "Phonon",
+  "ns": 0,
+  "missing": false,
+  "other": "포논",
+  "disamb": false
+ },
+ "N-type semiconductor": {
+  "title": "Extrinsic semiconductor",
+  "ns": 0,
+  "missing": false,
+  "other": "불순물 반도체",
+  "disamb": false
+ },
+ "Cyclopentadiene": {
+  "title": "Cyclopentadiene",
+  "ns": 0,
+  "missing": false,
+  "other": "사이클로펜타다이엔",
+  "disamb": false
+ },
+ "Cyanide": {
+  "title": "Cyanide",
+  "ns": 0,
+  "missing": false,
+  "other": "사이안화물",
+  "disamb": false
+ },
+ "Cyclooctatetraene": {
+  "title": "Cyclooctatetraene",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Uranocene": {
+  "title": "Uranocene",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ferrocene": {
+  "title": "Ferrocene",
+  "ns": 0,
+  "missing": false,
+  "other": "페로센",
+  "disamb": false
+ },
+ "Salt metathesis reaction": {
+  "title": "Salt metathesis reaction",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Diethyl ether": {
+  "title": "Diethyl ether",
+  "ns": 0,
+  "missing": false,
+  "other": "다이에틸 에터",
+  "disamb": false
+ },
+ "Alkyl": {
+  "title": "Alkyl group",
+  "ns": 0,
+  "missing": false,
+  "other": "알킬기",
+  "disamb": false
+ },
+ "Aryl": {
+  "title": "Aryl group",
+  "ns": 0,
+  "missing": false,
+  "other": "아릴기",
+  "disamb": false
+ },
+ "Methyl": {
+  "title": "Methyl group",
+  "ns": 0,
+  "missing": false,
+  "other": "메틸기",
+  "disamb": false
+ },
+ "Becquerel": {
+  "title": "Becquerel",
+  "ns": 0,
+  "missing": false,
+  "other": "베크렐",
+  "disamb": false
+ },
+ "Extinct radionuclide": {
+  "title": "Extinct radionuclide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Xenon-135": {
+  "title": "Xenon-135",
+  "ns": 0,
+  "missing": false,
+  "other": "제논-135",
+  "disamb": false
+ },
+ "Neutron cross section": {
+  "title": "Neutron cross section",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Barn (unit)": {
+  "title": "Barn (unit)",
+  "ns": 0,
+  "missing": false,
+  "other": "반 (단위)",
+  "disamb": false
+ },
+ "Chelation": {
+  "title": "Chelation",
+  "ns": 0,
+  "missing": false,
+  "other": "킬레이트",
+  "disamb": false
+ },
+ "EDTMP": {
+  "title": "EDTMP",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Trade name": {
+  "title": "Trade name",
+  "ns": 0,
+  "missing": false,
+  "other": "상호",
+  "disamb": false
+ },
+ "France": {
+  "title": "France",
+  "ns": 0,
+  "missing": false,
+  "other": "프랑스",
+  "disamb": false
+ },
+ "Decipium": {
+  "title": "Decipium",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Latin language": {
+  "title": "Latin",
+  "ns": 0,
+  "missing": false,
+  "other": "라틴어",
+  "disamb": false
+ },
+ "Ural Mountains": {
+  "title": "Ural Mountains",
+  "ns": 0,
+  "missing": false,
+  "other": "우랄산맥",
+  "disamb": false
+ },
+ "Russia": {
+  "title": "Russia",
+  "ns": 0,
+  "missing": false,
+  "other": "러시아",
+  "disamb": false
+ },
+ "Gustav Rose": {
+  "title": "Gustav Rose",
+  "ns": 0,
+  "missing": false,
+  "other": "구스타프 로제",
+  "disamb": false
+ },
+ "Heinrich Rose": {
+  "title": "Heinrich Rose",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Zirconia": {
+  "title": "Zirconium dioxide",
+  "ns": 0,
+  "missing": false,
+  "other": "이산화 지르코늄",
+  "disamb": false
+ },
+ "Alumina": {
+  "title": "Aluminium oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 알루미늄",
+  "disamb": false
+ },
+ "Electrochemical deposition": {
+  "title": "Electroplating",
+  "ns": 0,
+  "missing": false,
+  "other": "전기도금",
+  "disamb": false
+ },
+ "Samarium(III) chloride": {
+  "title": "Samarium(III) chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Calcium chloride": {
+  "title": "Calcium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 칼슘",
+  "disamb": false
+ },
+ "Monazite-(Sm)": {
+  "title": "Monazite-(Sm)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Florencite-(Sm)": {
+  "title": "Florencite-(Sm)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nuclear fuel": {
+  "title": "Nuclear fuel",
+  "ns": 0,
+  "missing": false,
+  "other": "핵연료",
+  "disamb": false
+ },
+ "La Rochelle": {
+  "title": "La Rochelle",
+  "ns": 0,
+  "missing": false,
+  "other": "라로셸",
+  "disamb": false
+ },
+ "Mountain Pass, California": {
+  "title": "Mountain Pass, California",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Baotou": {
+  "title": "Baotou",
+  "ns": 0,
+  "missing": false,
+  "other": "바오터우시",
+  "disamb": false
+ },
+ "Biden administration": {
+  "title": "Presidency of Joe Biden",
+  "ns": 0,
+  "missing": false,
+  "other": "조 바이든 행정부",
+  "disamb": false
+ },
+ "Donald Trump": {
+  "title": "Donald Trump",
+  "ns": 0,
+  "missing": false,
+  "other": "도널드 트럼프",
+  "disamb": false
+ },
+ "Tariffs in the second Trump administration": {
+  "title": "Tariffs in the second Trump administration",
+  "ns": 0,
+  "missing": false,
+  "other": "트럼프 2기 행정부 관세",
+  "disamb": false
+ },
+ "Rare earths trade dispute": {
+  "title": "Rare earths trade dispute",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "China–United States trade war": {
+  "title": "China–United States trade war",
+  "ns": 0,
+  "missing": false,
+  "other": "미국-중국 무역 전쟁",
+  "disamb": false
+ },
+ "Pick up (music technology)": {
+  "title": "Pickup (music technology)",
+  "ns": 0,
+  "missing": false,
+  "other": "픽업 (악기)",
+  "disamb": false
+ },
+ "Solar power": {
+  "title": "Solar power",
+  "ns": 0,
+  "missing": false,
+  "other": "태양 에너지 발전",
+  "disamb": false
+ },
+ "Electric aircraft": {
+  "title": "Electric aircraft",
+  "ns": 0,
+  "missing": false,
+  "other": "전동항공기",
+  "disamb": false
+ },
+ "Solar Challenger": {
+  "title": "MacCready Solar Challenger",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Vintage Noiseless": {
+  "title": "Fender Noiseless Pickups",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Missile": {
+  "title": "Missile",
+  "ns": 0,
+  "missing": false,
+  "other": "미사일",
+  "disamb": false
+ },
+ "F-35": {
+  "title": "Lockheed Martin F-35 Lightning II",
+  "ns": 0,
+  "missing": false,
+  "other": "록히드 마틴 F-35 라이트닝 II",
+  "disamb": false
+ },
+ "Chemical reagent": {
+  "title": "Reagent",
+  "ns": 0,
+  "missing": false,
+  "other": "시약",
+  "disamb": false
+ },
+ "Polychlorinated biphenyl": {
+  "title": "Polychlorinated biphenyl",
+  "ns": 0,
+  "missing": false,
+  "other": "폴리염화 바이페닐",
+  "disamb": false
+ },
+ "Dehydrogenation": {
+  "title": "Dehydrogenation",
+  "ns": 0,
+  "missing": false,
+  "other": "탈수소화",
+  "disamb": false
+ },
+ "Lanthanide trifluoromethanesulfonates": {
+  "title": "Lanthanide trifluoromethanesulfonates",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Friedel–Crafts reaction": {
+  "title": "Friedel–Crafts reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "프리델-크래프츠 반응",
+  "disamb": false
+ },
+ "Desulfonylation reactions": {
+  "title": "Reductive desulfonylation",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Annulation": {
+  "title": "Annulation",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Danishefsky Taxol total synthesis": {
+  "title": "Danishefsky Taxol total synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Kuwajima Taxol total synthesis": {
+  "title": "Kuwajima Taxol total synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Mukaiyama Taxol total synthesis": {
+  "title": "Mukaiyama Taxol total synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Holton Taxol total synthesis": {
+  "title": "Holton Taxol total synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Strychnine total synthesis": {
+  "title": "Strychnine total synthesis",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Barbier reaction": {
+  "title": "Barbier reaction",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Reductions with samarium(II) iodide": {
+  "title": "Reductions with samarium(II) iodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Flint": {
+  "title": "Flint",
+  "ns": 0,
+  "missing": false,
+  "other": "부싯돌",
+  "disamb": false
+ },
+ "Lighter": {
+  "title": "Lighter",
+  "ns": 0,
+  "missing": false,
+  "other": "라이터",
+  "disamb": false
+ },
+ "Neutron capture cross section": {
+  "title": "Neutron cross section",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Neutron absorber": {
+  "title": "Neutron poison",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Peter Sorokin": {
+  "title": "Peter Sorokin",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dye laser": {
+  "title": "Dye laser",
+  "ns": 0,
+  "missing": false,
+  "other": "색소 레이저",
+  "disamb": false
+ },
+ "IBM": {
+  "title": "IBM",
+  "ns": 0,
+  "missing": false,
+  "other": "IBM",
+  "disamb": false
+ },
+ "Holography": {
+  "title": "Holography",
+  "ns": 0,
+  "missing": false,
+  "other": "홀로그래피",
+  "disamb": false
+ },
+ "Microscopy": {
+  "title": "Microscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "현미경학",
+  "disamb": false
+ },
+ "Moiré deflectometry": {
+  "title": "Moiré deflectometry",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Interferometry": {
+  "title": "Interferometry",
+  "ns": 0,
+  "missing": false,
+  "other": "간섭계",
+  "disamb": false
+ },
+ "Astrophysics": {
+  "title": "Astrophysics",
+  "ns": 0,
+  "missing": false,
+  "other": "천체물리학",
+  "disamb": false
+ },
+ "Nd:YAG laser": {
+  "title": "Nd:YAG laser",
+  "ns": 0,
+  "missing": false,
+  "other": "네오디뮴 야그 레이저",
+  "disamb": false
+ },
+ "Photostimulated luminescence": {
+  "title": "Photostimulated luminescence",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Thermoelectric generator": {
+  "title": "Thermoelectric generator",
+  "ns": 0,
+  "missing": false,
+  "other": "열전 발전기",
+  "disamb": false
+ },
+ "Ionic radius": {
+  "title": "Ionic radius",
+  "ns": 0,
+  "missing": false,
+  "other": "이온 반지름",
+  "disamb": false
+ },
+ "Activator (phosphor)": {
+  "title": "Activator (phosphor)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Luminous efficacy": {
+  "title": "Luminous efficacy",
+  "ns": 0,
+  "missing": false,
+  "other": "발광효율",
+  "disamb": false
+ },
+ "Quantum efficiency": {
+  "title": "Quantum efficiency",
+  "ns": 0,
+  "missing": false,
+  "other": "양자효율",
+  "disamb": false
+ },
+ "Ionosphere": {
+  "title": "Ionosphere",
+  "ns": 0,
+  "missing": false,
+  "other": "전리층",
+  "disamb": false
+ },
+ "Samarium hexaboride": {
+  "title": "Samarium hexaboride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Topological insulator": {
+  "title": "Topological insulator",
+  "ns": 0,
+  "missing": false,
+  "other": "위상절연체",
+  "disamb": false
+ },
+ "Spintronics": {
+  "title": "Spintronics",
+  "ns": 0,
+  "missing": false,
+  "other": "스핀트로닉스",
+  "disamb": false
+ },
+ "Microgram": {
+  "title": "Microgram",
+  "ns": 0,
+  "missing": false,
+  "other": "마이크로그램",
+  "disamb": false
+ },
+ "Isotopes of lanthanum": {
+  "title": "Isotopes of lanthanum",
+  "ns": 0,
+  "missing": false,
+  "other": "란타넘 동위 원소",
+  "disamb": false
+ },
+ "Barium-137": {
+  "title": "Isotopes of barium",
+  "ns": 0,
+  "missing": false,
+  "other": "바륨 동위 원소",
+  "disamb": false
+ },
+ "Barium-138": {
+  "title": "Isotopes of barium",
+  "ns": 0,
+  "missing": false,
+  "other": "바륨 동위 원소",
+  "disamb": false
+ },
+ "Cerium-138": {
+  "title": "Isotopes of cerium",
+  "ns": 0,
+  "missing": false,
+  "other": "세륨 동위 원소",
+  "disamb": false
+ },
+ "Cerium-140": {
+  "title": "Isotopes of cerium",
+  "ns": 0,
+  "missing": false,
+  "other": "세륨 동위 원소",
+  "disamb": false
+ },
+ "Hardness": {
+  "title": "Hardness",
+  "ns": 0,
+  "missing": false,
+  "other": "굳기",
+  "disamb": false
+ },
+ "Carbon arc lamp": {
+  "title": "Arc lamp",
+  "ns": 0,
+  "missing": false,
+  "other": "호광등",
+  "disamb": false
+ },
+ "Hot cathode": {
+  "title": "Hot cathode",
+  "ns": 0,
+  "missing": false,
+  "other": "열음극",
+  "disamb": false
+ },
+ "Gas tungsten arc welding": {
+  "title": "Gas tungsten arc welding",
+  "ns": 0,
+  "missing": false,
+  "other": "가스 텅스텐 아크 용접",
+  "disamb": false
+ },
+ "Lanthanum carbonate": {
+  "title": "Lanthanum carbonate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Phosphate binder": {
+  "title": "Phosphate binder",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Hyperphosphatemia": {
+  "title": "Hyperphosphatemia",
+  "ns": 0,
+  "missing": false,
+  "other": "고인산혈증",
+  "disamb": false
+ },
+ "Kidney failure": {
+  "title": "Kidney failure",
+  "ns": 0,
+  "missing": false,
+  "other": "콩팥 기능상실",
+  "disamb": false
+ },
+ "Stellar spectra": {
+  "title": "Astronomical spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "천체분광학",
+  "disamb": false
+ },
+ "Lanthanum(III) oxide": {
+  "title": "Lanthanum oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Basic (chemistry)": {
+  "title": "Base (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "염기",
+  "disamb": false
+ },
+ "Rust": {
+  "title": "Rust",
+  "ns": 0,
+  "missing": false,
+  "other": "녹",
+  "disamb": false
+ },
+ "Lanthanum hydroxide": {
+  "title": "Lanthanum hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Odd–odd nuclei": {
+  "title": "Even and odd atomic nuclei",
+  "ns": 0,
+  "missing": false,
+  "other": "짝수 및 홀수 원자핵",
+  "disamb": false
+ },
+ "P-nuclei": {
+  "title": "P-nuclei",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Tantalum-180m": {
+  "title": "Isotopes of tantalum",
+  "ns": 0,
+  "missing": false,
+  "other": "탄탈럼 동위 원소",
+  "disamb": false
+ },
+ "Neutrino": {
+  "title": "Neutrino",
+  "ns": 0,
+  "missing": false,
+  "other": "중성미자",
+  "disamb": false
+ },
+ "Lanthanum oxide": {
+  "title": "Lanthanum oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Scandium oxide": {
+  "title": "Scandium oxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lanthanum fluoride": {
+  "title": "Lanthanum trifluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Qualitative inorganic analysis": {
+  "title": "Qualitative inorganic analysis",
+  "ns": 0,
+  "missing": false,
+  "other": "정성분석",
+  "disamb": false
+ },
+ "Deliquescent": {
+  "title": "Hygroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "흡습성",
+  "disamb": false
+ },
+ "Lanthanum oxalate": {
+  "title": "Lanthanum oxalate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Donor atom": {
+  "title": "Coordination complex",
+  "ns": 0,
+  "missing": false,
+  "other": "배위 화합물",
+  "disamb": false
+ },
+ "Square antiprism": {
+  "title": "Square antiprism",
+  "ns": 0,
+  "missing": false,
+  "other": "엇사각기둥",
+  "disamb": false
+ },
+ "Snub disphenoid": {
+  "title": "Snub disphenoid",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Chelating ligand": {
+  "title": "Chelation",
+  "ns": 0,
+  "missing": false,
+  "other": "킬레이트",
+  "disamb": false
+ },
+ "Lanthanocene": {
+  "title": "Lanthanocene",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ironmaster": {
+  "title": "Ironmaster",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Axel Erdmann": {
+  "title": "Axel Erdmann",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Karolinska Institute": {
+  "title": "Karolinska Institute",
+  "ns": 0,
+  "missing": false,
+  "other": "카롤린스카 연구소",
+  "disamb": false
+ },
+ "Låven": {
+  "title": "Låven",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lime (material)": {
+  "title": "Lime (material)",
+  "ns": 0,
+  "missing": false,
+  "other": "석회",
+  "disamb": false
+ },
+ "Periclase": {
+  "title": "Periclase",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Zirconium dioxide": {
+  "title": "Zirconium dioxide",
+  "ns": 0,
+  "missing": false,
+  "other": "이산화 지르코늄",
+  "disamb": false
+ },
+ "Atzgersdorf": {
+  "title": "Atzgersdorf",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Nickel–metal hydride battery": {
+  "title": "Nickel–metal hydride battery",
+  "ns": 0,
+  "missing": false,
+  "other": "니켈-금속 수소화물 전지",
+  "disamb": false
+ },
+ "Intermetallics": {
+  "title": "Intermetallic",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "NiMH": {
+  "title": "Nickel–metal hydride battery",
+  "ns": 0,
+  "missing": false,
+  "other": "니켈-금속 수소화물 전지",
+  "disamb": false
+ },
+ "Toyota Prius": {
+  "title": "Toyota Prius",
+  "ns": 0,
+  "missing": false,
+  "other": "토요타 프리우스",
+  "disamb": false
+ },
+ "Pyrophoric": {
+  "title": "Pyrophoricity",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lanthanum hexaboride": {
+  "title": "Lanthanum hexaboride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Vacuum tube": {
+  "title": "Vacuum tube",
+  "ns": 0,
+  "missing": false,
+  "other": "진공관",
+  "disamb": false
+ },
+ "Electron": {
+  "title": "Electron",
+  "ns": 0,
+  "missing": false,
+  "other": "전자",
+  "disamb": false
+ },
+ "Electron microscope": {
+  "title": "Electron microscope",
+  "ns": 0,
+  "missing": false,
+  "other": "전자현미경",
+  "disamb": false
+ },
+ "Hall-effect thruster": {
+  "title": "Hall-effect thruster",
+  "ns": 0,
+  "missing": false,
+  "other": "홀 효과 추력기",
+  "disamb": false
+ },
+ "Lanthanum trifluoride": {
+  "title": "Lanthanum trifluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "ZBLAN": {
+  "title": "ZBLAN",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lanthanum(III) bromide": {
+  "title": "Lanthanum(III) bromide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Lanthanum(III) chloride": {
+  "title": "Lanthanum(III) chloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Neutrons": {
+  "title": "Neutron",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자",
+  "disamb": false
+ },
+ "Film": {
+  "title": "Film",
+  "ns": 0,
+  "missing": false,
+  "other": "영화",
+  "disamb": false
+ },
+ "Camera": {
+  "title": "Camera",
+  "ns": 0,
+  "missing": false,
+  "other": "사진기",
+  "disamb": false
+ },
+ "Telescope": {
+  "title": "Telescope",
+  "ns": 0,
+  "missing": false,
+  "other": "망원경",
+  "disamb": false
+ },
+ "Lens (optics)": {
+  "title": "Lens",
+  "ns": 0,
+  "missing": false,
+  "other": "렌즈",
+  "disamb": false
+ },
+ "Zirconium diboride": {
+  "title": "Zirconium diboride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Steel": {
+  "title": "Steel",
+  "ns": 0,
+  "missing": false,
+  "other": "강철",
+  "disamb": false
+ },
+ "Petroleum cracking": {
+  "title": "Cracking (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "크래킹 (화학)",
+  "disamb": false
+ },
+ "Radiometric dating": {
+  "title": "Radiometric dating",
+  "ns": 0,
+  "missing": false,
+  "other": "방사능 연대 측정",
+  "disamb": false
+ },
+ "Shire Pharmaceuticals": {
+  "title": "Shire (pharmaceutical company)",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "End-stage kidney disease": {
+  "title": "Chronic kidney disease",
+  "ns": 0,
+  "missing": false,
+  "other": "만성 콩팥병",
+  "disamb": false
+ },
+ "Fluoride selective electrode": {
+  "title": "Fluoride selective electrode",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Horseradish peroxidase": {
+  "title": "Horseradish peroxidase",
+  "ns": 0,
+  "missing": false,
+  "other": "겨자무 과산화효소",
+  "disamb": false
+ },
+ "Electron density": {
+  "title": "Electron density",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 밀도",
+  "disamb": false
+ },
+ "Molecular biology": {
+  "title": "Molecular biology",
+  "ns": 0,
+  "missing": false,
+  "other": "분자생물학",
+  "disamb": false
+ },
+ "Phoslock": {
+  "title": "Phoslock",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "End stage renal disease": {
+  "title": "Kidney failure",
+  "ns": 0,
+  "missing": false,
+  "other": "콩팥 기능상실",
+  "disamb": false
+ },
+ "Gamma-Aminobutyric acid": {
+  "title": "GABA",
+  "ns": 0,
+  "missing": false,
+  "other": "감마 아미노뷰티르산",
+  "disamb": false
+ },
+ "GABA receptor": {
+  "title": "GABA receptor",
+  "ns": 0,
+  "missing": false,
+  "other": "GABA 수용체",
+  "disamb": false
+ },
+ "Allosteric": {
+  "title": "Allosteric regulation",
+  "ns": 0,
+  "missing": false,
+  "other": "다른 자리 입체성 조절",
+  "disamb": false
+ },
+ "Methanol dehydrogenase": {
+  "title": "Methanol dehydrogenase",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Pergamon Press": {
+  "title": "Pergamon Press",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Optical communications": {
+  "title": "Optical communication",
+  "ns": 0,
+  "missing": false,
+  "other": "광 통신",
+  "disamb": false
+ },
+ "Optical fibers": {
+  "title": "Optical fiber",
+  "ns": 0,
+  "missing": false,
+  "other": "광섬유",
+  "disamb": false
+ },
+ "Dermatology": {
+  "title": "Dermatology",
+  "ns": 0,
+  "missing": false,
+  "other": "피부과",
+  "disamb": false
+ },
+ "Er:YAG laser": {
+  "title": "Er:YAG laser",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Laser surgery": {
+  "title": "Laser surgery",
+  "ns": 0,
+  "missing": false,
+  "other": "레이저 수술",
+  "disamb": false
+ },
+ "Dental laser": {
+  "title": "Dental laser",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Valence (chemistry)": {
+  "title": "Valence (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "원자가",
+  "disamb": false
+ },
+ "Salt (chemistry)": {
+  "title": "Salt (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "염",
+  "disamb": false
+ },
+ "Absorption spectra": {
+  "title": "Absorption spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "흡수분광학",
+  "disamb": false
+ },
+ "Metabolism": {
+  "title": "Metabolism",
+  "ns": 0,
+  "missing": false,
+  "other": "물질대사",
+  "disamb": false
+ },
+ "Ferromagnetism": {
+  "title": "Ferromagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "강자성",
+  "disamb": false
+ },
+ "Transmission electron microscopy": {
+  "title": "Transmission electron microscopy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Erbium hydroxide": {
+  "title": "Erbium(III) hydroxide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Auger therapy": {
+  "title": "Auger therapy",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Radioactive tracer": {
+  "title": "Radioactive tracer",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 추적자",
+  "disamb": false
+ },
+ "Antibody": {
+  "title": "Antibody",
+  "ns": 0,
+  "missing": false,
+  "other": "항체",
+  "disamb": false
+ },
+ "Peptide": {
+  "title": "Peptide",
+  "ns": 0,
+  "missing": false,
+  "other": "펩타이드",
+  "disamb": false
+ },
+ "Bixbyite": {
+  "title": "Bixbyite",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Oxyacid": {
+  "title": "Oxyacid",
+  "ns": 0,
+  "missing": false,
+  "other": "산소산",
+  "disamb": false
+ },
+ "Erbium(III) fluoride": {
+  "title": "Erbium(III) fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Erbium(III) nitrate": {
+  "title": "Erbium(III) nitrate",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Ammonium fluoride": {
+  "title": "Ammonium fluoride",
+  "ns": 0,
+  "missing": false,
+  "other": "플루오린화 암모늄",
+  "disamb": false
+ },
+ "Erbium(III) chloride": {
+  "title": "Erbium(III) chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 어븀(III)",
+  "disamb": false
+ },
+ "Ammonium": {
+  "title": "Ammonium",
+  "ns": 0,
+  "missing": false,
+  "other": "암모늄 이온",
+  "disamb": false
+ },
+ "Pentachloride": {
+  "title": "Pentachloride",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "AlCl3": {
+  "title": "Aluminium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 알루미늄",
+  "disamb": false
+ },
+ "Monoclinic": {
+  "title": "Monoclinic crystal system",
+  "ns": 0,
+  "missing": false,
+  "other": "단사정계",
+  "disamb": false
+ },
+ "Point group": {
+  "title": "Point group",
+  "ns": 0,
+  "missing": false,
+  "other": "점군",
+  "disamb": false
+ },
+ "Erbium(III) bromide": {
+  "title": "Erbium(III) bromide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Erbium(III) iodide": {
+  "title": "Erbium(III) iodide",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Organolanthanide compound": {
+  "title": "Organolanthanide chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Terbia": {
+  "title": "Terbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 터븀(III)",
+  "disamb": false
+ },
+ "Anhydrous": {
+  "title": "Anhydrous",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Magnesium nitrate": {
+  "title": "Magnesium nitrate",
+  "ns": 0,
+  "missing": false,
+  "other": "질산 마그네슘",
+  "disamb": false
+ },
+ "Double salt": {
+  "title": "Double salt",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Attenuation coefficient": {
+  "title": "Attenuation coefficient",
+  "ns": 0,
+  "missing": false,
+  "other": "감쇠 계수",
+  "disamb": false
+ },
+ "Cosmetic dentistry": {
+  "title": "Cosmetic dentistry",
+  "ns": 0,
+  "missing": false,
+  "other": "심미치과학",
+  "disamb": false
+ },
+ "Orthodontic braces": {
+  "title": "Dental braces",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Dental instrument": {
+  "title": "Dental instrument",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Erbium-doped fiber amplifier": {
+  "title": "Optical amplifier",
+  "ns": 0,
+  "missing": false,
+  "other": "광 증폭기",
+  "disamb": false
+ },
+ "Lasers": {
+  "title": "Laser",
+  "ns": 0,
+  "missing": false,
+  "other": "레이저",
+  "disamb": false
+ },
+ "Erbium-doped waveguide amplifier": {
+  "title": "Erbium-doped waveguide amplifier",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Cryocoolers": {
+  "title": "Cryocooler",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Porcelain": {
+  "title": "Porcelain",
+  "ns": 0,
+  "missing": false,
+  "other": "도자기",
+  "disamb": false
+ },
+ "Sunglasses": {
+  "title": "Sunglasses",
+  "ns": 0,
+  "missing": false,
+  "other": "선글라스",
+  "disamb": false
+ },
+ "Jewellery": {
+  "title": "Jewellery",
+  "ns": 0,
+  "missing": false,
+  "other": "주얼리",
+  "disamb": false
+ },
+ "Nuclear power": {
+  "title": "Nuclear power",
+  "ns": 0,
+  "missing": false,
+  "other": "원자력",
+  "disamb": false
+ },
+ "Kidneys": {
+  "title": "Kidney",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "Calmodulin": {
+  "title": "Calmodulin",
+  "ns": 0,
+  "missing": false,
+  "other": "칼모듈린",
+  "disamb": false
+ },
+ "Triglyceride": {
+  "title": "Triglyceride",
+  "ns": 0,
+  "missing": false,
+  "other": "트라이글리세라이드",
+  "disamb": false
+ },
+ "Enzyme": {
+  "title": "Enzyme",
+  "ns": 0,
+  "missing": false,
+  "other": "효소",
+  "disamb": false
+ },
+ "RNA polymerase II": {
+  "title": "RNA polymerase II",
+  "ns": 0,
+  "missing": false,
+  "other": null,
+  "disamb": false
+ },
+ "F-block": {
+  "title": "Block (periodic table)",
+  "ns": 0,
+  "missing": false,
+  "other": "구역 (주기율표)",
+  "disamb": false
+ },
+ "Names for sets of chemical elements": {
+  "title": "Names for sets of chemical elements",
+  "ns": 0,
+  "missing": false,
+  "other": "화학 계열",
+  "disamb": false
+ },
+ "Heat capacity": {
+  "title": "Heat capacity",
+  "ns": 0,
+  "missing": false,
+  "other": "열용량",
+  "disamb": false
+ },
+ "Base (chemistry)": {
+  "title": "Base (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "염기",
+  "disamb": false
+ },
+ "Lattice constant": {
+  "title": "Lattice constant",
+  "ns": 0,
+  "missing": false,
+  "other": "격자 상수",
+  "disamb": false
+ },
+ "Thermal conductivity and resistivity": {
+  "title": "Thermal conductivity and resistivity",
+  "ns": 0,
+  "missing": false,
+  "other": "열전도율",
+  "disamb": false
+ },
+ "Electrical resistance": {
+  "title": "Electrical resistance and conductance",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 저항과 전도도",
+  "disamb": false
+ },
+ "Decay energy": {
+  "title": "Decay energy",
+  "ns": 0,
+  "missing": false,
+  "other": "붕괴 에너지",
+  "disamb": false
+ },
+ "English language": {
+  "title": "English language",
+  "ns": 0,
+  "missing": false,
+  "other": "영어",
+  "disamb": false
+ },
+ "North Korean standard language": {
+  "title": "North Korean standard language",
+  "ns": 0,
+  "missing": false,
+  "other": "문화어",
+  "disamb": false
+ },
+ "Latin": {
+  "title": "Latin",
+  "ns": 0,
+  "missing": false,
+  "other": "라틴어",
+  "disamb": false
+ },
+ "Bayan Obo Mining District": {
+  "title": "Bayan Obo Mining District",
+  "ns": 0,
+  "missing": false,
+  "other": "바이윈어보 광구",
+  "disamb": false
+ },
+ "Isotopes of promethium": {
+  "title": "Isotopes of promethium",
+  "ns": 0,
+  "missing": false,
+  "other": "프로메튬 동위 원소",
+  "disamb": false
+ },
+ "Gamma spectroscopy": {
+  "title": "Gamma spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "감마선 분광법",
+  "disamb": false
+ },
+ "Sir George Stokes, 1st Baronet": {
+  "title": "Sir George Stokes, 1st Baronet",
+  "ns": 0,
+  "missing": false,
+  "other": "제1대 준남작 조지 스토크스 경",
+  "disamb": false
+ },
+ "OLED": {
+  "title": "OLED",
+  "ns": 0,
+  "missing": false,
+  "other": "유기 발광 다이오드",
+  "disamb": false
+ },
+ "Y": {
+  "title": "Y",
+  "ns": 0,
+  "missing": false,
+  "other": "Y",
+  "disamb": false
+ },
+ "Year": {
+  "title": "Year",
+  "ns": 0,
+  "missing": false,
+  "other": "년",
+  "disamb": false
+ },
+ "Isotopes of hafnium": {
+  "title": "Isotopes of hafnium",
+  "ns": 0,
+  "missing": false,
+  "other": "하프늄 동위 원소",
+  "disamb": false
+ },
+ "Bubble memory": {
+  "title": "Bubble memory",
+  "ns": 0,
+  "missing": false,
+  "other": "버블 메모리",
+  "disamb": false
+ },
+ "Neuroendocrine tumor": {
+  "title": "Neuroendocrine tumor",
+  "ns": 0,
+  "missing": false,
+  "other": "신경내분비 종양",
+  "disamb": false
+ },
+ "Second": {
+  "title": "Second",
+  "ns": 0,
+  "missing": false,
+  "other": "초 (시간)",
+  "disamb": false
+ },
+ "Day": {
+  "title": "Day",
+  "ns": 0,
+  "missing": false,
+  "other": "날",
+  "disamb": false
+ },
+ "Combustibility and flammability": {
+  "title": "Combustibility and flammability",
+  "ns": 0,
+  "missing": false,
+  "other": "가연성",
+  "disamb": false
+ },
+ "Standard atmosphere (unit)": {
+  "title": "Standard atmosphere (unit)",
+  "ns": 0,
+  "missing": false,
+  "other": "기압",
+  "disamb": false
+ },
+ "Diamagnetism": {
+  "title": "Diamagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "반자성",
+  "disamb": false
+ },
+ "Liquid": {
+  "title": "Liquid",
+  "ns": 0,
+  "missing": false,
+  "other": "액체",
+  "disamb": false
+ },
+ "Ionic bonding": {
+  "title": "Ionic bonding",
+  "ns": 0,
+  "missing": false,
+  "other": "이온 결합",
+  "disamb": false
+ },
+ "Visible spectrum": {
+  "title": "Visible spectrum",
+  "ns": 0,
+  "missing": false,
+  "other": "가시광선",
+  "disamb": false
+ },
+ "Dalton (unit)": {
+  "title": "Dalton (unit)",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 질량 단위",
+  "disamb": false
+ },
+ "Relative atomic mass": {
+  "title": "Relative atomic mass",
+  "ns": 0,
+  "missing": false,
+  "other": "상대 원자 질량",
+  "disamb": false
+ },
+ "Amalgam (chemistry)": {
+  "title": "Amalgam (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "아말감",
+  "disamb": false
+ },
+ "Vacuum": {
+  "title": "Vacuum",
+  "ns": 0,
+  "missing": false,
+  "other": "진공",
+  "disamb": false
+ },
+ "Acid": {
+  "title": "Acid",
+  "ns": 0,
+  "missing": false,
+  "other": "산 (화학)",
+  "disamb": false
+ },
+ "Organic chemistry": {
+  "title": "Organic chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": "유기화학",
+  "disamb": false
+ },
+ "Dental restoration": {
+  "title": "Dental restoration",
+  "ns": 0,
+  "missing": false,
+  "other": "치아 수복",
+  "disamb": false
+ },
+ "Nanometre": {
+  "title": "Nanometre",
+  "ns": 0,
+  "missing": false,
+  "other": "나노미터",
+  "disamb": false
+ },
+ "Atom": {
+  "title": "Atom",
+  "ns": 0,
+  "missing": false,
+  "other": "원자",
+  "disamb": false
+ },
+ "Energy level": {
+  "title": "Energy level",
+  "ns": 0,
+  "missing": false,
+  "other": "에너지 준위",
+  "disamb": false
+ },
+ "Frequency": {
+  "title": "Frequency",
+  "ns": 0,
+  "missing": false,
+  "other": "진동수",
+  "disamb": false
+ },
+ "Fire extinguisher": {
+  "title": "Fire extinguisher",
+  "ns": 0,
+  "missing": false,
+  "other": "소화기",
+  "disamb": false
+ },
+ "Parts-per notation": {
+  "title": "Parts-per notation",
+  "ns": 0,
+  "missing": false,
+  "other": "Parts-per 표기",
+  "disamb": false
+ },
+ "Light": {
+  "title": "Light",
+  "ns": 0,
+  "missing": false,
+  "other": "빛",
+  "disamb": false
+ },
+ "Lewis acids and bases": {
+  "title": "Lewis acids and bases",
+  "ns": 0,
+  "missing": false,
+  "other": "루이스 산-염기 이론",
+  "disamb": false
+ },
+ "Coupling reaction": {
+  "title": "Coupling reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "짝지음 반응",
+  "disamb": false
+ },
+ "Electrical conductor": {
+  "title": "Electrical conductor",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 전도체",
+  "disamb": false
+ },
+ "Names of large numbers": {
+  "title": "Names of large numbers",
+  "ns": 0,
+  "missing": false,
+  "other": "큰 수의 이름",
+  "disamb": false
+ },
+ "Composite material": {
+  "title": "Composite material",
+  "ns": 0,
+  "missing": false,
+  "other": "복합 재료",
+  "disamb": false
+ },
+ "Quantum computer": {
+  "title": "Quantum computing",
+  "ns": 0,
+  "missing": false,
+  "other": "양자 컴퓨팅",
+  "disamb": false
+ },
+ "Mode locking": {
+  "title": "Mode locking",
+  "ns": 0,
+  "missing": false,
+  "other": "모드 동기",
+  "disamb": false
+ },
+ "Teratology": {
+  "title": "Teratology",
+  "ns": 0,
+  "missing": false,
+  "other": "기형학",
+  "disamb": false
+ },
+ "ISBN": {
+  "title": "ISBN",
+  "ns": 0,
+  "missing": false,
+  "other": "국제 표준 도서 번호",
+  "disamb": false
+ },
+ "Delayed nuclear radiation": {
+  "title": "Delayed nuclear radiation",
+  "ns": 0,
+  "missing": false,
+  "other": "지체 핵 방사",
+  "disamb": false
+ },
+ "Japanese language": {
+  "title": "Japanese language",
+  "ns": 0,
+  "missing": false,
+  "other": "일본어",
+  "disamb": false
+ },
+ "Table of nuclides (combined)": {
+  "title": "Table of nuclides",
+  "ns": 0,
+  "missing": false,
+  "other": "핵종표",
+  "disamb": false
+ },
+ "Svante Arrhenius": {
+  "title": "Svante Arrhenius",
+  "ns": 0,
+  "missing": false,
+  "other": "스반테 아레니우스",
+  "disamb": false
+ },
+ "Proton": {
+  "title": "Proton",
+  "ns": 0,
+  "missing": false,
+  "other": "양성자",
+  "disamb": false
+ },
+ "Shielding effect": {
+  "title": "Shielding effect",
+  "ns": 0,
+  "missing": false,
+  "other": "가림 효과",
+  "disamb": false
+ },
+ "Effective nuclear charge": {
+  "title": "Effective nuclear charge",
+  "ns": 0,
+  "missing": false,
+  "other": "유효 핵전하",
+  "disamb": false
+ },
+ "Corrosion": {
+  "title": "Corrosion",
+  "ns": 0,
+  "missing": false,
+  "other": "부식",
+  "disamb": false
+ },
+ "Strong acid": {
+  "title": "Acid strength",
+  "ns": 0,
+  "missing": false,
+  "other": "산 강도",
+  "disamb": false
+ },
+ "Electron paramagnetic resonance": {
+  "title": "Electron paramagnetic resonance",
+  "ns": 0,
+  "missing": false,
+  "other": "전자 스핀 공명",
+  "disamb": false
+ },
+ "Ferrimagnetism": {
+  "title": "Ferrimagnetism",
+  "ns": 0,
+  "missing": false,
+  "other": "준강자성",
+  "disamb": false
+ },
+ "Optical communication": {
+  "title": "Optical communication",
+  "ns": 0,
+  "missing": false,
+  "other": "광 통신",
+  "disamb": false
+ },
+ "Television": {
+  "title": "Television",
+  "ns": 0,
+  "missing": false,
+  "other": "텔레비전",
+  "disamb": false
+ },
+ "Isotopes of strontium": {
+  "title": "Isotopes of strontium",
+  "ns": 0,
+  "missing": false,
+  "other": "스트론튬 동위 원소",
+  "disamb": false
+ },
+ "Isotopes of zirconium": {
+  "title": "Isotopes of zirconium",
+  "ns": 0,
+  "missing": false,
+  "other": "지르코늄 동위 원소",
+  "disamb": false
+ },
+ "Binary phase": {
+  "title": "Binary phase",
+  "ns": 0,
+  "missing": false,
+  "other": "이원 화합물",
+  "disamb": false
+ },
+ "Radioactive waste": {
+  "title": "Radioactive waste",
+  "ns": 0,
+  "missing": false,
+  "other": "방사성 폐기물",
+  "disamb": false
+ },
+ "Metric prefix": {
+  "title": "Metric prefix",
+  "ns": 0,
+  "missing": false,
+  "other": "SI 접두어",
+  "disamb": false
+ },
+ "Apollo program": {
+  "title": "Apollo program",
+  "ns": 0,
+  "missing": false,
+  "other": "아폴로 계획",
+  "disamb": false
+ },
+ "Minamitorishima": {
+  "title": "Minamitorishima",
+  "ns": 0,
+  "missing": false,
+  "other": "미나미토리섬",
+  "disamb": false
+ },
+ "Garnet": {
+  "title": "Garnet",
+  "ns": 0,
+  "missing": false,
+  "other": "석류석",
+  "disamb": false
+ },
+ "Mohs scale": {
+  "title": "Mohs scale",
+  "ns": 0,
+  "missing": false,
+  "other": "모스 굳기계",
+  "disamb": false
+ },
+ "Czochralski method": {
+  "title": "Czochralski method",
+  "ns": 0,
+  "missing": false,
+  "other": "초크랄스키법",
+  "disamb": false
+ },
+ "Deoxidization": {
+  "title": "Deoxidization",
+  "ns": 0,
+  "missing": false,
+  "other": "탈산",
+  "disamb": false
+ },
+ "Spark plug": {
+  "title": "Spark plug",
+  "ns": 0,
+  "missing": false,
+  "other": "점화 플러그",
+  "disamb": false
+ },
+ "Shortness of breath": {
+  "title": "Shortness of breath",
+  "ns": 0,
+  "missing": false,
+  "other": "호흡곤란",
+  "disamb": false
+ },
+ "Library of Congress Control Number": {
+  "title": "Library of Congress Control Number",
+  "ns": 0,
+  "missing": false,
+  "other": "미국 의회도서관 제어 번호",
+  "disamb": false
+ },
+ "OCLC": {
+  "title": "OCLC",
+  "ns": 0,
+  "missing": false,
+  "other": "OCLC",
+  "disamb": false
+ },
+ "Fire": {
+  "title": "Fire",
+  "ns": 0,
+  "missing": false,
+  "other": "불",
+  "disamb": false
+ },
+ "Banknote": {
+  "title": "Banknote",
+  "ns": 0,
+  "missing": false,
+  "other": "지폐",
+  "disamb": false
+ },
+ "Isotopes of terbium": {
+  "title": "Isotopes of terbium",
+  "ns": 0,
+  "missing": false,
+  "other": "터븀 동위 원소",
+  "disamb": false
+ },
+ "Isotopes of holmium": {
+  "title": "Isotopes of holmium",
+  "ns": 0,
+  "missing": false,
+  "other": "홀뮴 동위 원소",
+  "disamb": false
+ },
+ "Froth flotation": {
+  "title": "Froth flotation",
+  "ns": 0,
+  "missing": false,
+  "other": "부유선광",
+  "disamb": false
+ },
+ "Neutron temperature": {
+  "title": "Neutron temperature",
+  "ns": 0,
+  "missing": false,
+  "other": "중성자온도",
+  "disamb": false
+ },
+ "Quantum mechanics": {
+  "title": "Quantum mechanics",
+  "ns": 0,
+  "missing": false,
+  "other": "양자역학",
+  "disamb": false
+ },
+ "Sonar": {
+  "title": "Sonar",
+  "ns": 0,
+  "missing": false,
+  "other": "소나",
+  "disamb": false
+ },
+ "Austria": {
+  "title": "Austria",
+  "ns": 0,
+  "missing": false,
+  "other": "오스트리아",
+  "disamb": false
+ },
+ "Aufbau principle": {
+  "title": "Aufbau principle",
+  "ns": 0,
+  "missing": false,
+  "other": "쌓음 원리",
+  "disamb": false
+ },
+ "Orbital": {
+  "title": "Orbital",
+  "ns": 0,
+  "missing": false,
+  "other": "오비탈",
+  "disamb": true
+ },
+ "Double hexagonal close packed": {
+  "title": "Periodic table (crystal structure)",
+  "ns": 0,
+  "missing": false,
+  "other": "주기율표 (결정 구조)",
+  "disamb": false
+ },
+ "Electrolysis": {
+  "title": "Electrolysis",
+  "ns": 0,
+  "missing": false,
+  "other": "전기 분해",
+  "disamb": false
+ },
+ "Reduction potential": {
+  "title": "Reduction potential",
+  "ns": 0,
+  "missing": false,
+  "other": "산화·환원 전위",
+  "disamb": false
+ },
+ "18-Crown-6": {
+  "title": "18-Crown-6",
+  "ns": 0,
+  "missing": false,
+  "other": "18-크라운-6",
+  "disamb": false
+ },
+ "Nuclear fission product": {
+  "title": "Nuclear fission product",
+  "ns": 0,
+  "missing": false,
+  "other": "핵분열 생성물",
+  "disamb": false
+ },
+ "Carl Wilhelm Scheele": {
+  "title": "Carl Wilhelm Scheele",
+  "ns": 0,
+  "missing": false,
+  "other": "칼 빌헬름 셸레",
+  "disamb": false
+ },
+ "Isotopes of radium": {
+  "title": "Isotopes of radium",
+  "ns": 0,
+  "missing": false,
+  "other": "라듐 동위 원소",
+  "disamb": false
+ },
+ "Atomic orbital": {
+  "title": "Atomic orbital",
+  "ns": 0,
+  "missing": false,
+  "other": "원자 궤도",
+  "disamb": false
+ },
+ "Arc lamp": {
+  "title": "Arc lamp",
+  "ns": 0,
+  "missing": false,
+  "other": "호광등",
+  "disamb": false
+ },
+ "Film studio": {
+  "title": "Film studio",
+  "ns": 0,
+  "missing": false,
+  "other": "영화 스튜디오",
+  "disamb": false
+ },
+ "Projector": {
+  "title": "Projector",
+  "ns": 0,
+  "missing": false,
+  "other": "투영기",
+  "disamb": false
+ },
+ "Glassblowing": {
+  "title": "Glassblowing",
+  "ns": 0,
+  "missing": false,
+  "other": "유리 세공",
+  "disamb": false
+ },
+ "Digital object identifier": {
+  "title": "Digital object identifier",
+  "ns": 0,
+  "missing": false,
+  "other": "디지털 객체 식별자",
+  "disamb": false
+ },
+ "ArXiv": {
+  "title": "ArXiv",
+  "ns": 0,
+  "missing": false,
+  "other": "ArXiv",
+  "disamb": false
+ },
+ "Air": {
+  "title": "Atmosphere of Earth",
+  "ns": 0,
+  "missing": false,
+  "other": "지구 대기권",
+  "disamb": false
+ },
+ "Poison": {
+  "title": "Poison",
+  "ns": 0,
+  "missing": false,
+  "other": "독",
+  "disamb": false
+ },
+ "Chemist": {
+  "title": "Chemist",
+  "ns": 0,
+  "missing": false,
+  "other": "화학자",
+  "disamb": false
+ },
+ "China (region)": {
+  "title": "China (disambiguation)",
+  "ns": 0,
+  "missing": false,
+  "other": "차이나",
+  "disamb": true
+ },
+ "Noble gas": {
+  "title": "Noble gas",
+  "ns": 0,
+  "missing": false,
+  "other": "비활성 기체",
+  "disamb": false
+ },
+ "Absorption spectrum": {
+  "title": "Absorption spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "흡수분광학",
+  "disamb": false
+ },
+ "Switzerland": {
+  "title": "Switzerland",
+  "ns": 0,
+  "missing": false,
+  "other": "스위스",
+  "disamb": false
+ },
+ "Russian Empire": {
+  "title": "Russian Empire",
+  "ns": 0,
+  "missing": false,
+  "other": "러시아 제국",
+  "disamb": false
+ },
+ "Germany": {
+  "title": "Germany",
+  "ns": 0,
+  "missing": false,
+  "other": "독일",
+  "disamb": false
+ },
+ "Electric motor": {
+  "title": "Electric motor",
+  "ns": 0,
+  "missing": false,
+  "other": "전동기",
+  "disamb": false
+ },
+ "Audio headset": {
+  "title": "Audio headset",
+  "ns": 0,
+  "missing": false,
+  "other": "헤드셋",
+  "disamb": false
+ },
+ "Guitar": {
+  "title": "Guitar",
+  "ns": 0,
+  "missing": false,
+  "other": "기타",
+  "disamb": false
+ },
+ "Pickup (music technology)": {
+  "title": "Pickup (music technology)",
+  "ns": 0,
+  "missing": false,
+  "other": "픽업 (악기)",
+  "disamb": false
+ },
+ "Plastic": {
+  "title": "Plastic",
+  "ns": 0,
+  "missing": false,
+  "other": "플라스틱",
+  "disamb": false
+ },
+ "Ethanol": {
+  "title": "Ethanol",
+  "ns": 0,
+  "missing": false,
+  "other": "에탄올",
+  "disamb": false
+ },
+ "Dehydration": {
+  "title": "Dehydration",
+  "ns": 0,
+  "missing": false,
+  "other": "탈수",
+  "disamb": false
+ },
+ "Wavelength": {
+  "title": "Wavelength",
+  "ns": 0,
+  "missing": false,
+  "other": "파장",
+  "disamb": false
+ },
+ "Pico-": {
+  "title": "Metric prefix",
+  "ns": 0,
+  "missing": false,
+  "other": "SI 접두어",
+  "disamb": false
+ },
+ "Sensor": {
+  "title": "Sensor",
+  "ns": 0,
+  "missing": false,
+  "other": "센서",
+  "disamb": false
+ },
+ "Rhombohedron": {
+  "title": "Rhombohedron",
+  "ns": 0,
+  "missing": false,
+  "other": "능면체",
+  "disamb": false
+ },
+ "Extrinsic semiconductor": {
+  "title": "Extrinsic semiconductor",
+  "ns": 0,
+  "missing": false,
+  "other": "불순물 반도체",
+  "disamb": false
+ },
+ "Alkyl group": {
+  "title": "Alkyl group",
+  "ns": 0,
+  "missing": false,
+  "other": "알킬기",
+  "disamb": false
+ },
+ "Aryl group": {
+  "title": "Aryl group",
+  "ns": 0,
+  "missing": false,
+  "other": "아릴기",
+  "disamb": false
+ },
+ "Methyl group": {
+  "title": "Methyl group",
+  "ns": 0,
+  "missing": false,
+  "other": "메틸기",
+  "disamb": false
+ },
+ "Aluminium oxide": {
+  "title": "Aluminium oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 알루미늄",
+  "disamb": false
+ },
+ "Electroplating": {
+  "title": "Electroplating",
+  "ns": 0,
+  "missing": false,
+  "other": "전기도금",
+  "disamb": false
+ },
+ "Presidency of Joe Biden": {
+  "title": "Presidency of Joe Biden",
+  "ns": 0,
+  "missing": false,
+  "other": "조 바이든 행정부",
+  "disamb": false
+ },
+ "Lockheed Martin F-35 Lightning II": {
+  "title": "Lockheed Martin F-35 Lightning II",
+  "ns": 0,
+  "missing": false,
+  "other": "록히드 마틴 F-35 라이트닝 II",
+  "disamb": false
+ },
+ "Dutch language": {
+  "title": "Dutch language",
+  "ns": 0,
+  "missing": false,
+  "other": "네덜란드어",
+  "disamb": false
+ },
+ "Concentration": {
+  "title": "Concentration",
+  "ns": 0,
+  "missing": false,
+  "other": "농도",
+  "disamb": false
+ },
+ "Chemical property": {
+  "title": "Chemical property",
+  "ns": 0,
+  "missing": false,
+  "other": "화학적 성질",
+  "disamb": false
+ },
+ "Combustion": {
+  "title": "Combustion",
+  "ns": 0,
+  "missing": false,
+  "other": "연소",
+  "disamb": false
+ },
+ "Centimetre": {
+  "title": "Centimetre",
+  "ns": 0,
+  "missing": false,
+  "other": "센티미터",
+  "disamb": false
+ },
+ "Electric charge": {
+  "title": "Electric charge",
+  "ns": 0,
+  "missing": false,
+  "other": "전하",
+  "disamb": false
+ },
+ "Exothermic reaction": {
+  "title": "Exothermic reaction",
+  "ns": 0,
+  "missing": false,
+  "other": "발열 반응",
+  "disamb": false
+ },
+ "Hydride": {
+  "title": "Hydride",
+  "ns": 0,
+  "missing": false,
+  "other": "수소화물",
+  "disamb": false
+ },
+ "Radius": {
+  "title": "Radius",
+  "ns": 0,
+  "missing": false,
+  "other": "반지름",
+  "disamb": false
+ },
+ "Covalent bond": {
+  "title": "Covalent bond",
+  "ns": 0,
+  "missing": false,
+  "other": "공유 결합",
+  "disamb": false
+ },
+ "Ionic compound": {
+  "title": "Salt (chemistry)",
+  "ns": 0,
+  "missing": false,
+  "other": "염",
+  "disamb": false
+ },
+ "Dodecahedron": {
+  "title": "Dodecahedron",
+  "ns": 0,
+  "missing": false,
+  "other": "십이면체",
+  "disamb": false
+ },
+ "Stereochemistry": {
+  "title": "Stereochemistry",
+  "ns": 0,
+  "missing": false,
+  "other": "입체화학",
+  "disamb": false
+ },
+ "Symmetry": {
+  "title": "Symmetry",
+  "ns": 0,
+  "missing": false,
+  "other": "대칭",
+  "disamb": false
+ },
+ "Chemistry": {
+  "title": "Chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": "화학",
+  "disamb": false
+ },
+ "Pi bond": {
+  "title": "Pi bond",
+  "ns": 0,
+  "missing": false,
+  "other": "파이 결합",
+  "disamb": false
+ },
+ "Organometallic chemistry": {
+  "title": "Organometallic chemistry",
+  "ns": 0,
+  "missing": false,
+  "other": "유기금속화학",
+  "disamb": false
+ },
+ "Earth": {
+  "title": "Earth",
+  "ns": 0,
+  "missing": false,
+  "other": "지구",
+  "disamb": false
+ },
+ "Lepton": {
+  "title": "Lepton",
+  "ns": 0,
+  "missing": false,
+  "other": "렙톤",
+  "disamb": false
+ },
+ "Boon": {
+  "title": "Boon",
+  "ns": 0,
+  "missing": false,
+  "other": "분",
+  "disamb": true
+ },
+ "Isotopes of barium": {
+  "title": "Isotopes of barium",
+  "ns": 0,
+  "missing": false,
+  "other": "바륨 동위 원소",
+  "disamb": false
+ },
+ "Astronomical spectroscopy": {
+  "title": "Astronomical spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "천체분광학",
+  "disamb": false
+ },
+ "Even and odd atomic nuclei": {
+  "title": "Even and odd atomic nuclei",
+  "ns": 0,
+  "missing": false,
+  "other": "짝수 및 홀수 원자핵",
+  "disamb": false
+ },
+ "Isotopes of tantalum": {
+  "title": "Isotopes of tantalum",
+  "ns": 0,
+  "missing": false,
+  "other": "탄탈럼 동위 원소",
+  "disamb": false
+ },
+ "Hygroscopy": {
+  "title": "Hygroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "흡습성",
+  "disamb": false
+ },
+ "Lens": {
+  "title": "Lens",
+  "ns": 0,
+  "missing": false,
+  "other": "렌즈",
+  "disamb": false
+ },
+ "Chronic kidney disease": {
+  "title": "Chronic kidney disease",
+  "ns": 0,
+  "missing": false,
+  "other": "만성 콩팥병",
+  "disamb": false
+ },
+ "GABA": {
+  "title": "GABA",
+  "ns": 0,
+  "missing": false,
+  "other": "감마 아미노뷰티르산",
+  "disamb": false
+ },
+ "Allosteric regulation": {
+  "title": "Allosteric regulation",
+  "ns": 0,
+  "missing": false,
+  "other": "다른 자리 입체성 조절",
+  "disamb": false
+ },
+ "Optical fiber": {
+  "title": "Optical fiber",
+  "ns": 0,
+  "missing": false,
+  "other": "광섬유",
+  "disamb": false
+ },
+ "Absorption spectroscopy": {
+  "title": "Absorption spectroscopy",
+  "ns": 0,
+  "missing": false,
+  "other": "흡수분광학",
+  "disamb": false
+ },
+ "Aluminium chloride": {
+  "title": "Aluminium chloride",
+  "ns": 0,
+  "missing": false,
+  "other": "염화 알루미늄",
+  "disamb": false
+ },
+ "Terbium(III) oxide": {
+  "title": "Terbium(III) oxide",
+  "ns": 0,
+  "missing": false,
+  "other": "산화 터븀(III)",
+  "disamb": false
+ }
+}
