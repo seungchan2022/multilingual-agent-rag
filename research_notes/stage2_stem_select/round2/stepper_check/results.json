@@ -1,0 +1,650 @@
+[
+ {
+  "domain": "rare_earth",
+  "target": "유로퓸",
+  "lang": "ko",
+  "title": "유로퓸",
+  "revid": 42378287,
+  "chars": 2011,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "유로퓸",
+  "lang": "en",
+  "title": "Europium",
+  "revid": 1380092828,
+  "chars": 39201,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "루테튬",
+  "lang": "ko",
+  "title": "루테튬",
+  "revid": 42249157,
+  "chars": 1179,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "루테튬",
+  "lang": "en",
+  "title": "Lutetium",
+  "revid": 1379926577,
+  "chars": 14459,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "이터븀",
+  "lang": "ko",
+  "title": "이터븀",
+  "revid": 42388980,
+  "chars": 6703,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "이터븀",
+  "lang": "en",
+  "title": "Ytterbium",
+  "revid": 1380332337,
+  "chars": 21005,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "이트륨",
+  "lang": "ko",
+  "title": "이트륨",
+  "revid": 42388979,
+  "chars": 3786,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "이트륨",
+  "lang": "en",
+  "title": "Yttrium",
+  "revid": 1380441305,
+  "chars": 25450,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "툴륨",
+  "lang": "ko",
+  "title": "툴륨",
+  "revid": 42443016,
+  "chars": 755,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "툴륨",
+  "lang": "en",
+  "title": "Thulium",
+  "revid": 1379225026,
+  "chars": 11588,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "디스프로슘",
+  "lang": "ko",
+  "title": "디스프로슘",
+  "revid": 42233139,
+  "chars": 610,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "디스프로슘",
+  "lang": "en",
+  "title": "Dysprosium",
+  "revid": 1373658711,
+  "chars": 14980,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "프라세오디뮴",
+  "lang": "ko",
+  "title": "프라세오디뮴",
+  "revid": 42450187,
+  "chars": 1889,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "프라세오디뮴",
+  "lang": "en",
+  "title": "Praseodymium",
+  "revid": 1380062200,
+  "chars": 20365,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "사마륨",
+  "lang": "ko",
+  "title": "사마륨",
+  "revid": 42303602,
+  "chars": 3854,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "사마륨",
+  "lang": "en",
+  "title": "Samarium",
+  "revid": 1380581143,
+  "chars": 30600,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 28,
+    "head": "Formula | Color | Symmetry | Space group | No. | Pearson symbol | a(pm) | b(pm) ",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "rare_earth",
+  "target": "란타넘",
+  "lang": "ko",
+  "title": "란타넘",
+  "revid": 42243266,
+  "chars": 4760,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "란타넘",
+  "lang": "en",
+  "title": "Lanthanum",
+  "revid": 1380415452,
+  "chars": 22050,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "어븀",
+  "lang": "ko",
+  "title": "어븀",
+  "revid": 42361925,
+  "chars": 356,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "rare_earth",
+  "target": "어븀",
+  "lang": "en",
+  "title": "Erbium",
+  "revid": 1372136591,
+  "chars": 14032,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "글리제 581 c",
+  "lang": "ko",
+  "title": "글리제 581 c",
+  "revid": 42643352,
+  "chars": 1953,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "글리제 581 c",
+  "lang": "en",
+  "title": "Gliese 581c",
+  "revid": 1380419306,
+  "chars": 15322,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "목동자리 타우 b",
+  "lang": "ko",
+  "title": "목동자리 타우 b",
+  "revid": 41730047,
+  "chars": 2405,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "목동자리 타우 b",
+  "lang": "en",
+  "title": "Tau Boötis b",
+  "revid": 1374221899,
+  "chars": 5909,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "글리제 1214 b",
+  "lang": "ko",
+  "title": "글리제 1214 b",
+  "revid": 41680547,
+  "chars": 1005,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "글리제 1214 b",
+  "lang": "en",
+  "title": "GJ 1214 b",
+  "revid": 1374248506,
+  "chars": 8305,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "COROT-7b",
+  "lang": "ko",
+  "title": "COROT-7b",
+  "revid": 42011655,
+  "chars": 1744,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "COROT-7b",
+  "lang": "en",
+  "title": "CoRoT-7b",
+  "revid": 1371070881,
+  "chars": 11349,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "KELT-9b",
+  "lang": "ko",
+  "title": "KELT-9b",
+  "revid": 41695392,
+  "chars": 1702,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "KELT-9b",
+  "lang": "en",
+  "title": "KELT-9b",
+  "revid": 1379887847,
+  "chars": 3645,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 2,
+    "head": "Size comparison | Jupiter | KELT-9b | ",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "exoplanets",
+  "target": "글리제 436 b",
+  "lang": "ko",
+  "title": "글리제 436 b",
+  "revid": 41692670,
+  "chars": 1134,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "글리제 436 b",
+  "lang": "en",
+  "title": "Gliese 436 b",
+  "revid": 1374939322,
+  "chars": 6422,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "케플러-16b",
+  "lang": "ko",
+  "title": "케플러-16b",
+  "revid": 42570376,
+  "chars": 3093,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "케플러-16b",
+  "lang": "en",
+  "title": "Kepler-16b",
+  "revid": 1374382744,
+  "chars": 7089,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "센타우루스자리 프록시마 b",
+  "lang": "ko",
+  "title": "센타우루스자리 프록시마 b",
+  "revid": 42571913,
+  "chars": 9302,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "센타우루스자리 프록시마 b",
+  "lang": "en",
+  "title": "Proxima Centauri b",
+  "revid": 1378868101,
+  "chars": 47988,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "로스 128 b",
+  "lang": "ko",
+  "title": "로스 128 b",
+  "revid": 41245997,
+  "chars": 608,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "로스 128 b",
+  "lang": "en",
+  "title": "Ross 128 b",
+  "revid": 1378593358,
+  "chars": 7935,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "케플러-22b",
+  "lang": "ko",
+  "title": "케플러-22b",
+  "revid": 40993118,
+  "chars": 1129,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "exoplanets",
+  "target": "케플러-22b",
+  "lang": "en",
+  "title": "Kepler-22b",
+  "revid": 1380140327,
+  "chars": 8387,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 7,
+    "head": "Transits of Kepler-22b | Date(s) oftransit | Time (UTC) | Notes | Start | Mid | ",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "moons",
+  "target": "미마스",
+  "lang": "ko",
+  "title": "미마스 (위성)",
+  "revid": 41811394,
+  "chars": 1874,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "미마스",
+  "lang": "en",
+  "title": "Mimas",
+  "revid": 1377302334,
+  "chars": 10243,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "히말리아",
+  "lang": "ko",
+  "title": "히말리아 (위성)",
+  "revid": 40292302,
+  "chars": 1257,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "히말리아",
+  "lang": "en",
+  "title": "Himalia (moon)",
+  "revid": 1377880949,
+  "chars": 9775,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "디오네",
+  "lang": "ko",
+  "title": "디오네 (위성)",
+  "revid": 41493939,
+  "chars": 1102,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "디오네",
+  "lang": "en",
+  "title": "Dione (moon)",
+  "revid": 1377903129,
+  "chars": 11475,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 4,
+    "head": "Dione trojans | Name | Diameter (km) | Semi-major axis (km) | Mass (kg) | Discov",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "moons",
+  "target": "이아페투스",
+  "lang": "ko",
+  "title": "이아페투스 (위성)",
+  "revid": 39921370,
+  "chars": 3730,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "이아페투스",
+  "lang": "en",
+  "title": "Iapetus (moon)",
+  "revid": 1379453306,
+  "chars": 20336,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "미란다",
+  "lang": "ko",
+  "title": "미란다 (위성)",
+  "revid": 41904075,
+  "chars": 3484,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "미란다",
+  "lang": "en",
+  "title": "Miranda (moon)",
+  "revid": 1380510126,
+  "chars": 28307,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 17,
+    "head": "Main geological structures visible on the known part of Miranda(all named in ref",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "moons",
+  "target": "아말테아",
+  "lang": "ko",
+  "title": "아말테아 (위성)",
+  "revid": 41897774,
+  "chars": 8773,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 5,
+    "head": "지명 | 지름 | 승인년도 | 이름의 유래 | 출처 | ",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "moons",
+  "target": "아말테아",
+  "lang": "en",
+  "title": "Amalthea (moon)",
+  "revid": 1378537006,
+  "chars": 11247,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 5,
+    "head": "Feature | Pronunciation | Diameter | Approvalyear | Eponym | Ref. | ",
+    "cls": "wikitable"
+   }
+  ]
+ },
+ {
+  "domain": "moons",
+  "target": "오베론",
+  "lang": "ko",
+  "title": "오베론 (위성)",
+  "revid": 41904049,
+  "chars": 407,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "오베론",
+  "lang": "en",
+  "title": "Oberon (moon)",
+  "revid": 1378122615,
+  "chars": 15332,
+  "table_count": 1,
+  "tables": [
+   {
+    "rows": 12,
+    "head": "Named surface features on Oberon | Feature | Named after | Type | Length (diamet",
+    "cls": "wikitable plainrowheaders"
+   }
+  ]
+ },
+ {
+  "domain": "moons",
+  "target": "히페리온",
+  "lang": "ko",
+  "title": "히페리온 (위성)",
+  "revid": 41897771,
+  "chars": 2389,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "히페리온",
+  "lang": "en",
+  "title": "Hyperion (moon)",
+  "revid": 1379493733,
+  "chars": 11810,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "레아",
+  "lang": "ko",
+  "title": "레아 (위성)",
+  "revid": 39921418,
+  "chars": 2058,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "레아",
+  "lang": "en",
+  "title": "Rhea (moon)",
+  "revid": 1378632066,
+  "chars": 13998,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "네레이드",
+  "lang": "ko",
+  "title": "네레이드 (위성)",
+  "revid": 41621917,
+  "chars": 1880,
+  "table_count": 0,
+  "tables": []
+ },
+ {
+  "domain": "moons",
+  "target": "네레이드",
+  "lang": "en",
+  "title": "Nereid (moon)",
+  "revid": 1373960840,
+  "chars": 12662,
+  "table_count": 0,
+  "tables": []
+ }
+]
