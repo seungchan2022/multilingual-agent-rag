@@ -165,7 +165,7 @@ def run_context(qs, out, seeds):
                         "final_answer": ans, "correct": rec["correct"], "grade": rec})
 
 
-def run_refine(qs, out, base_rows, seeds):
+def run_refine(qs, out, base_rows, seeds, judge_system=JUDGE_SYSTEM):
     base = {(r["id"], r["seed"]): r for r in base_rows}
     for q in qs:
         for s in seeds:
@@ -175,7 +175,7 @@ def run_refine(qs, out, base_rows, seeds):
             for rnd in range(1, MAX_ROUNDS + 1):
                 draft_text = draft["text"]
                 try:
-                    j = chat(JUDGE_MODEL, JUDGE_SYSTEM, f"질문: {q['question']}\n\n답:\n{draft_text}", 0, s)
+                    j = chat(JUDGE_MODEL, judge_system, f"질문: {q['question']}\n\n답:\n{draft_text}", 0, s)
                 except urllib.error.HTTPError as err:
                     # 세 번 다시 보내도 서버 오류(c-010의 몇 seed)면 그 회차에서 멈추고, 지금의 답을 최종 답으로 둔다.
                     j = {"text": "", "parsed": None, "seconds": 0, "gen_tokens": 0, "error": f"HTTP {err.code}"}
@@ -208,6 +208,7 @@ def main():
     ap.add_argument("--questions", default=str(HERE / "questions.json"),
                     help="문제 파일 (기본: 이 폴더의 questions.json). 결과는 이 파일 폴더의 results/에 둔다")
     ap.add_argument("--out")
+    ap.add_argument("--judge-system", help="refine의 판정 모델 시스템 프롬프트 파일 (기본: 코드의 JUDGE_SYSTEM)")
     ap.add_argument("--base", help="refine이 시작할 base 결과 파일 (기본: 문제 파일 폴더의 results/base.jsonl)")
     a = ap.parse_args()
     qs = load_questions(a.questions, a.only)
@@ -222,7 +223,8 @@ def main():
     else:
         base_path = Path(a.base) if a.base else results / "base.jsonl"
         base_rows = [json.loads(l) for l in base_path.read_text(encoding="utf-8").splitlines() if l.strip()]
-        run_refine(qs, out, base_rows, seeds)
+        judge_system = Path(a.judge_system).read_text(encoding="utf-8") if a.judge_system else JUDGE_SYSTEM
+        run_refine(qs, out, base_rows, seeds, judge_system)
     print("done", a.cond, file=sys.stderr)
 
 

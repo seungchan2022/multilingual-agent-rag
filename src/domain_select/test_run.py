@@ -1,6 +1,7 @@
 # run.py의 숫자 채점 규칙과 근거 글 만들기를 확인한다. 모델 서버는 부르지 않는다.
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -59,6 +60,38 @@ class Evidence(unittest.TestCase):
     def test_from_quotes(self):
         q = {"evidence_quotes": [{"doc": "A", "quote": "가"}, {"doc": "B", "quote": "나"}]}
         self.assertEqual(run.evidence_of(q), "[A] 가\n[B] 나")
+
+
+class JudgePrompt(unittest.TestCase):
+    def test_v1_file_equals_code(self):
+        v1 = Path(__file__).parent / "judge_prompts" / "v1.txt"
+        self.assertEqual(v1.read_text(encoding="utf-8"), run.JUDGE_SYSTEM)
+
+    def _judge_systems(self, *extra):
+        """가짜 chat으로 run_refine을 돌려 판정 모델 호출에 넘어온 system을 모은다."""
+        seen = []
+
+        def fake_chat(model, system, user, temperature, seed):
+            if model == run.JUDGE_MODEL:
+                seen.append(system)
+            return {"text": "", "parsed": {"pass": True}, "seconds": 0, "gen_tokens": 0}
+
+        base_rows = [{"id": "q1", "seed": 1, "gen": {"text": "답", "parsed": {"answer": "1"}}}]
+        qs = [{"id": "q1", "kind": "k", "question": "질문", "answer": "1", "value": 1}]
+        orig = run.chat
+        run.chat = fake_chat
+        try:
+            with tempfile.TemporaryDirectory() as d:
+                run.run_refine(qs, Path(d) / "out.jsonl", base_rows, [1], *extra)
+        finally:
+            run.chat = orig
+        return seen
+
+    def test_default_uses_judge_system(self):
+        self.assertEqual(self._judge_systems(), [run.JUDGE_SYSTEM])
+
+    def test_given_prompt_is_used(self):
+        self.assertEqual(self._judge_systems("다른 프롬프트"), ["다른 프롬프트"])
 
 
 if __name__ == "__main__":
