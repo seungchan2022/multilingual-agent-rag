@@ -1,0 +1,65 @@
+{{Short description|South Korean satellite launched in 2003}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=February 2018}}
+{{Infobox spaceflight
+| name              = STSat-1
+| names_list        = Science and Technology Satellite-1<br/>KAISTSat-4<br/>Korea Advanced Institute of Science and Technology Satellite-4
+| image             = 
+| image_caption     = 
+| image_size        = 300px
+
+| mission_type      = [[Technology]], [[Astrophysics]]
+| operator          = [[KAIST Satellite Technology Research Center]] (SaTReC)
+| COSPAR_ID         = 2003-042G
+| SATCAT            = 27945
+| website           = 
+| mission_duration  = 2 years (planned)
+
+| spacecraft_type   = STSat
+| spacecraft_bus    = STSat-1
+| manufacturer      = [[KAIST Satellite Technology Research Center]] (SaTReC)
+| launch_mass       = {{cvt|106|kg}}
+| dimensions        = 66 cm x 60 cm x 80 cm
+| power             = 150 [[watt]]s
+
+| launch_date       = 27 September 2003,<br/>06:11:44 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[Kosmos-3M]] (11K65M)
+| launch_site       = [[Plesetsk Cosmodrome|Plesetsk]], [[Plesetsk Cosmodrome Site 132|Site 132/1]]
+| launch_contractor = [[Yuzhnoye Design Bureau|Yuzhnoye]] / [[NPO Polyot]]
+
+| last_contact      = 
+| decay_date        =
+
+| orbit_reference   = [[Geocentric orbit]]<ref name="Trajectory"/>
+| orbit_regime      = [[Sun-synchronous orbit]]
+| orbit_periapsis   = {{cvt|675|km}}
+| orbit_apoapsis    = {{cvt|695|km}}
+| orbit_inclination = 98.20°
+| orbit_period      = 98.50 minutes
+| apsis             = gee
+
+| instruments       = Far-ultraviolet Imaging Spectrograph (FIMS)<br/>Space Physics Package (SPP)<br/>Data Collection System (DCS)
+
+| programme         = '''[[Korea Aerospace Research Institute|STSat program]]'''
+| previous_mission  = 
+| next_mission      = [[STSat-2A]]
+}}
+
+The '''STSat-1''' ('''Science and Technology Satellite-1'''), formerly known as KAISTSat-4 (Korea Advanced Institute of Science and Technology Satellite-4), is an [[ultraviolet]] [[telescope]] in a [[satellite]]. It is funded by the [[Korea Aerospace Research Institute]] (KARI), and was launched on 27 September 2003, from [[Plesetsk Cosmodrome]] by a [[Kosmos-3M]] launch vehicle,<ref name="SpaceWarm">{{cite web|url=http://nssdc.gsfc.nasa.gov/spacewarn/spx600.html|title=SPACEWARN Bulletin Number 600|publisher=NASA|date=1 November 2003}} {{PD-notice}}</ref> into an [[Geocentric orbit|Earth orbit]] with a height between 675 and 695&nbsp;km.<ref name="Trajectory">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=2003-042G|title=Trajectory: Kaistsat 4 2003-042G|publisher=NASA|date=10 February 2021 |access-date=1 March 2021}} {{PD-notice}}</ref><ref name="Display">{{cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-042G|title=Display: Kaistsat 4 2003-042G|publisher=NASA |date=10 February 2021|access-date=1 March 2021}} {{PD-notice}}</ref>
+
+STSat-1 is a low-cost [[KAIST]] / [[KAIST Satellite Technology Research Center]] (SaTReC) satellite technology demonstration mission, funded by the [[Ministry of Science and Technology (South Korea)|Ministry of Science and Technology]] (MOST) of [[South Korea]], a follow-up mission in the KITSAT program. STSat-1 is a South Korean astrophysical satellite that was launched by a Kosmos 3M launch vehicle from Plesetsk at 06:11:44 [[Coordinated Universal Time|UTC]] on 27 September 2003. The 106&nbsp;kg satellite carries a special [[Ultraviolet|UV]] imaging spectrograph to monitor gas clouds in the [[Galaxy]]. It will complete a full sky mapping in about a year, by scanning a one-degree strip every day. Additionally, it may also aim the telescope downward to image auroral displays.<ref name="Display"/>
+
+== References ==
+{{Portal|Spaceflight}}
+{{Reflist|30em}}
+
+== External links ==
+* [https://directory.eoportal.org/web/eoportal/satellite-missions/s/stsat-1 eoPortal STSat-1]
+
+{{South Korean space program}}
+{{Orbital launches in 2003}}
+
+[[Category:Satellites of South Korea]]
+[[Category:Ultraviolet telescopes]]
+[[Category:Space telescopes]]
+[[Category:KAIST]]

@@ -1,0 +1,556 @@
+{{Short description|First successful NASA mission to Mars (1964–1967)}}
+{{use American English|date=January 2020}}
+{{Use mdy dates|date=December 2022}}
+{{Infobox spaceflight
+| name               = Mariner 4
+| image              = Mariner 4 1304 1964novembemariner4.jpg
+| image_size         = 300px
+| mission_type       = [[Mars]] flyby
+| operator           = [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+| mission_duration   = {{time interval|28 Nov 1964|21 Dec 1967|sep=,}}
+| COSPAR_ID          = 1964-077A
+| SATCAT             = 942
+| spacecraft         = Mariner C-3
+| spacecraft_type    = 
+| manufacturer       = [[Jet Propulsion Laboratory]]
+| dry_mass           = 
+| launch_mass        = {{convert|260.8|kg|lb}}<ref name=nasa1/>
+| power              = 310&nbsp;watts
+| launch_date        = {{start date|1964|11|28|14|22|01|Z}}
+| launch_rocket      = [[Atlas-Agena|Atlas LV-3 Agena-D]]
+| launch_site        = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[Cape Canaveral Air Force Station Launch Complex 12|LC-12]]
+| launch_contractor  = 
+| last_contact       = December 21, 1967
+| orbit_epoch        = July 14, 1965, 21:00:57&nbsp;UTC<ref name=NSSDC/>
+| orbit_semimajor    = {{Convert|199591220|km|sp=us}}
+| orbit_eccentricity = 0.17322<ref name=NSSDC/>
+| orbit_reference    = [[Heliocentric orbit|Heliocentric]]
+| orbit_periapsis    = {{Convert|166052670|km|sp=us}}<ref name=NSSDC/>
+| orbit_apoapsis     = {{Convert|234867290|km|sp=us}}<ref name=NSSDC/>
+| orbit_inclination  = 2.544&nbsp;degrees<ref name=NSSDC/>
+| orbit_period       = 567.11&nbsp;days<ref name=NSSDC/>
+| apsis              = helion
+| instruments        = Cosmic dust detector <br /> Cosmic ray telescope <br /> Geiger counter/ionization chamber <br /> Helium magnetometer  <br /> Solar plasma probe <br />Trapped radiation detector <br />  TV camera
+| programme          = '''[[Mariner program]]'''
+| previous_mission   = [[Mariner 3]]
+| next_mission       = [[Mariner 5]]
+| interplanetary     = {{Infobox spaceflight/IP
+  |type         = flyby
+  |object       = [[Mars]]
+  |distance     = {{convert|9846|km|mi|abbr=off|sp=us}}
+  |arrival_date = July 15, 1965, 01:00:57{{nbsp}}UTC
+ }}
+ {{Infobox spaceflight/IP
+  |type                 = flyby
+  |note                 = Incidental
+  |object               = [[D/1895 Q1 (Swift)]]
+  |arrival_date         = September 15, 1967
+  |distance             = {{convert|20000000|km|mi|abbr= on}}
+ }}
+}}
+
+'''Mariner 4''' (Mariner C-3, together with [[Mariner 3]] known as '''Mariner-Mars 1964''') was the [[Mariner program|fourth in a series of spacecraft]] intended for planetary exploration in a flyby mode. It was designed to conduct closeup scientific observations of Mars and to transmit these observations to [[Earth]]. Launched on November 28, 1964,<ref name=NSSDC/> Mariner 4 performed the first successful [[planetary flyby|flyby]] of the planet [[Mars]], returning the first close-up pictures of the Martian surface. It captured the first images of another planet ever returned from [[outer space|deep space]]; their depiction of a cratered, dead planet largely changed the scientific community's view of [[life on Mars]].{{r|Momsen1|Momsen2}} Other mission objectives were to perform field and particle measurements in [[outer space#Interplanetary space|interplanetary space]] in the vicinity of Mars and to provide experience in and knowledge of the engineering capabilities for interplanetary flights of long duration. Initially expected to remain in space for eight months, Mariner 4's mission lasted about three years in solar orbit.<ref name=nasa2/> On December 21, 1967, communications with Mariner 4 were terminated.
+
+==Spacecraft and subsystems==
+[[File:Mariner_3_or_4_diagram.jpg|thumb|Mariner 3 and 4 diagram]]
+The Mariner 4 [[spacecraft]] consisted of an octagonal [[magnesium]] frame, {{cvt|127|cm|in}} across a diagonal and {{cvt|45.7|cm|in}} high. Four [[solar panel]]s were attached to the top of the frame with an end-to-end span of {{convert|6.88|m|ft|sp=us}}, including [[solar sail|solar pressure vanes]] which extended from the ends. A {{cvt|104.1|x|66.0|cm|in}} elliptical [[high-gain antenna|high-gain]] [[parabolic antenna]] was mounted at the top of the frame as well. An omnidirectional [[low-gain antenna]] was mounted on a {{cvt|223.5|cm|ftin|adj=on}} tall mast next to the high-gain antenna. The overall height of the spacecraft was {{convert|2.89|m|ft}}. The octagonal frame housed the electronic equipment, cabling, midcourse propulsion system, and attitude control gas supplies and regulators.<ref name=NSSDC/>
+
+The scientific instruments included:{{r|nasa3|Anderson|Reiff}}
+* A [[helium]] [[magnetometer]], mounted on the waveguide leading to the omnidirectional antenna, to measure the magnitude and other characteristics of the interplanetary and planetary magnetic fields.
+* An [[ionization chamber]]/[[Geiger counter]], mounted on the waveguide leading to the omnidirectional antenna nearer the body of the spacecraft, to measure the charged-particle intensity and distribution in interplanetary space and in the vicinity of Mars.
+* A [[particle detector|trapped radiation detector]], mounted on the body with counter-axes pointing 70° and 135° from the solar direction, to measure the intensity and direction of low-energy particles.
+* A [[cosmic ray]] telescope, mounted inside the body pointing in anti-solar direction, to measure the direction and energy spectrum of [[proton]]s and [[alpha particle]]s.
+* A solar [[plasma (physics)|plasma]] probe, mounted on the body pointing 10° from the solar direction, to measure the very low energy charged particle flux from the [[Sun]].
+* A [[cosmic dust]] detector, mounted on the body with microphone plate approximately perpendicular to the plane of [[orbit]], to measure the [[momentum]], distribution, density, and direction of cosmic dust.
+* A [[television camera]], mounted on a scan platform at the bottom center of the spacecraft, to obtain closeup pictures of the surface of Mars. This subsystem consisted of four parts: a [[Cassegrain telescope]] with a 1.05° by 1.05° field of view, a shutter and red/green filter assembly with 0.08 and 0.20&nbsp;second exposure times, a slow scan [[Video camera tube#Vidicon|vidicon tube]] which translated the optical image into an electrical video signal, and the electronic systems required to convert the analogue signal into a digital bitstream for transmission.<ref name=NSSDC-2/>
+
+The [[electric power]] for the instruments and the radio transmitter of Mariner 4 was supplied by 28,224 [[solar cell]]s contained in the four {{cvt|176|x|90|cm|in}} solar panels, which could provide 310&nbsp;watts at the distance of Mars. A rechargeable 1200&nbsp;W·h [[silver-oxide battery|silver-zinc battery]] was also used for maneuvers and backup. [[Monopropellant]] [[hydrazine]] was used for [[spacecraft propulsion|propulsion]], via a four-jet vane vector control motor, with {{convert|222|N|lbf|lk=on|adj=on}} thrust, installed on one of the sides of the octagonal structure. The space probe's [[Spacecraft attitude control|attitude control]] was provided by 12 cold [[nitrogen]] gas jets mounted on the ends of the solar panels and three [[gyroscope|gyros]]. Solar pressure vanes, each with an area of {{cvt|0.65|m2|ft2}}, were attached to the tips of the solar panels. Positional information was provided by four Sun sensors, and a sensor for either the Earth,  Mars, or the star [[Canopus]], depending on the time in its spaceflight. Mariner 4 was the first space probe that needed a star for a navigational reference object, since earlier missions, which remained near either the Earth, the [[Moon]], or the planet [[Venus]], had sighted onto either the bright face of the home planet or the brightly lit target. During this flight, both the Earth and Mars would be too dim to lock onto. Another bright source at a wide angle away from the Sun was needed and Canopus filled this requirement.<ref name=nasa3/> Subsequently, Canopus was used as a reference point in many following missions.<ref name=Goss/>
+
+The telecommunications equipment on Mariner 4 consisted of dual [[S-band]] transmitters (with either a seven-watt [[triode]] cavity amplifier or a ten watt [[traveling-wave tube]] amplifier) and a single [[radio]] receiver which together could send and receive data via the low- and high-gain antennas at 8⅓ or 33⅓ bits per second. Data could also be stored onto a magnetic [[tape recorder]] with a capacity of 5.24 million bits for later transmission. All electronic operations were controlled by a command subsystem which could process any of 29 direct command words or three quantitative word commands for mid-course maneuvers. The central computer and sequencer operated stored time-sequence commands using a 38.4&nbsp;kHz synchronization frequency as a time reference. Temperature control was achieved through the use of adjustable louvers mounted on six of the electronics assemblies, plus multilayer insulating blankets, polished aluminum shields, and surface treatments. Other measurements that could be made included:
+* [[Radio occultation]]
+* [[Celestial mechanics]] based on precision tracking
+
+Mariner 4 was also supposed to carry an ultraviolet photometer on the left side of the aft TV Camera scan platform. Late in testing, it was discovered that the inclusion of the UV photometer produced electrical problems that would have jeopardized the TV Camera. As a result, it was removed and replaced with a thermal/inertial mass simulator that was designed to emulate the UV photometer's geometry, mass, and other characteristics so that any unintentional problems caused by the removal of the UV photometer would be negated. This spare UV photometer was eventually flown on [[Mariner 5]] in 1967.<ref name=Layman/>
+
+==Mission profile==
+[[File:Mariner 4 Launch Preparations.jpeg|thumb|right|Mariner 4 is prepared for a weight test on November 1, 1963]]
+[[File:Mariner 4 camera.jpg|thumb|right|Mariner 4 TV Camera Scan Platform]]
+[[Image:Mariner 4 launch 2.jpg|thumb|right|upright|Launch of Mariner 4]]
+
+===Launch===
+{{More citations needed|section|date=July 2019}}
+Mariner 3 had been a total loss due to failure of the payload shroud to jettison.  JPL engineers suggested there had been a malfunction during separation of the metal fairing exterior from the Fiberglas inner lining.  Pressure differential between the inner and outer part of the shroud could have caused the spring-loaded separation mechanism to become tangled and thus fail to detach properly.<ref name=mariner3_jpl/>
+
+Testing at JPL confirmed this failure mode and an effort was made to develop a new, all-metal fairing. The downside of this was that the new fairing would be significantly heavier and reduce the Atlas-Agena's lift capacity. Convair and Lockheed-Martin had to make several performance enhancements to the booster to wring more power out of it. Despite fears that the work could not be completed before the 1964 Mars window closed, the new shroud was ready by November.<ref name=nasa4/>
+
+After launch from [[Cape Canaveral Air Force Station Launch Complex 12]],<ref name=nasa5/> the protective shroud covering Mariner 4 was jettisoned and the [[RM-81 Agena|Agena-D]]/Mariner 4 combination separated from the [[SM-65D Atlas|Atlas-D booster]] at 14:27:23 UTC on November 28, 1964. The Agena's first burn took place from 14:28:14 to 14:30:38. The initial burn put the spacecraft into an Earth parking orbit and the second burn from 15:02:53 to 15:04:28 injected the craft into a Mars transfer orbit. Mariner 4 separated from the Agena at 15:07:09 and began cruise mode operations. The solar panels deployed and the scan platform was unlatched at 15:15:00. Sun acquisition occurred 16 minutes later.<ref name=NSSDC/>
+
+===Lock on Canopus===
+After Sun acquisition, the Canopus star tracker went searching for [[Canopus]]. The star tracker was set to respond to any object more than one-eighth as, and less than eight times as bright as Canopus. Including Canopus, there were seven such objects visible to the sensor. It took more than a day of "star-hopping" to find Canopus, as the sensor locked on to other stars instead:<ref name=nasa3/> a stray light pattern from the near Earth, [[Alpha Cephei|Alderamin]], [[Regulus]], [[Zeta Puppis|Naos]], and [[Gamma Velorum]] were acquired before Canopus.{{r|Momsen1|Goss}}
+
+A consistent problem that plagued the spacecraft during the early portion of its mission was that roll error signal transients would occur frequently and on occasion would cause loss of the Canopus star lock. The first attempt at a midcourse maneuver was aborted by a loss of lock shortly after the gyros began spinup. Canopus lock was lost six times within a period of less than three weeks after launch and each time a sequence of radio commands would be required to reacquire the star. After a study of the problem, the investigators concluded that the behavior was due to small dust particles that were being released from the spacecraft by some means and were drifting through the star sensor field-of-view. Sunlight scattered from the particles then appeared as illumination equivalent to that from a bright star. This would cause a roll error transient as the object passed through the field-of-view while the sensor was locked onto Canopus. When the object was bright enough that it exceeded the high gate limits at eight times the Canopus intensity, the spacecraft would automatically disacquire Canopus and initiate a roll search for a new star. Finally, a radio command was sent on December 17, 1964, that removed the high gate limit. There was no further loss of Canopus lock, although roll transients occurred 38 more times before encounter with Mars.{{r|nasa3|Goss}}
+
+===Midcourse maneuver===
+The 7½ month flight of Mariner 4 involved one midcourse maneuver on December 5, 1964. The maneuver was initially scheduled for December 4, but due to a loss of lock with Canopus, it was postponed. The maneuver was successfully completed on December 5; it consisted of a negative pitch turn of 39.16 degrees, a positive roll turn of 156.08 degrees, and a thrusting time of 20.07 seconds. The turns aimed the motor of the spacecraft back in the general direction of Earth, as the motor was initially pointed along the direction of flight. Both the pitch and roll changes were completed with better than 1% [[accuracy]], the velocity change with about 2.5% accuracy. After the maneuver, Mariner 4 was on course for Mars as planned.<ref name=nasa3/>
+
+===Data transmission rate reduced===
+On January 5, 1965, 36 days after launch and {{cvt|10261173|km|mi}} from Earth, Mariner 4 reduced its rate of transmission of scientific data from 33 1/3 to 8 1/3 bits per second. This was the first autonomous action the spacecraft had taken since the midcourse maneuver.<ref name=aa1965/>
+
+===Mars flyby===
+The Mariner&nbsp;4 spacecraft flew by Mars on July 14 and 15, 1965. Its closest approach was {{cvt|9846|km|mi}} from the Martian surface at 01:00:57 UT July 15, 1965 (8:00:57&nbsp;p.m. EST July 14), its distance to Earth was {{convert|216|e6km|e6mi|abbr=off}}, its speed was {{cvt|7|km/s|mi/s}} relative to Mars, {{cvt|1.7|km/s|mi/s}} relative to Earth.<ref name=NSSDC/>
+
+Planetary science mode was turned on at 15:41:49 UTC on July 14. The camera sequence started at 00:18:36&nbsp;UT on July 15 (7:18:49&nbsp;p.m. EST on July 14) and 21 pictures using alternate red and green filters, plus 21 lines of a 22nd picture were taken. The images covered a discontinuous swath of Mars starting near 40°&nbsp;N, 170°&nbsp;E, down to about 35°&nbsp;S, 200°&nbsp;E, and then across to the terminator at 50°&nbsp;S, 255°&nbsp;E, representing about 1% of the planet's surface. The images taken during the flyby were stored in the on-board tape recorder. At 02:19:11&nbsp;UTC, Mariner 4 passed behind Mars as seen from Earth and the radio signal ceased. The signal was reacquired at 03:13:04&nbsp;UTC when the spacecraft reappeared. Cruise mode was then re-established. Transmission of the taped images to Earth began about 8.5&nbsp;hours after signal reacquisition and continued until August 3. All images were transmitted twice to ensure no data was missing or corrupt.<ref name=NSSDC/> Each individual photograph took approximately six hours to be transmitted back to Earth.<ref name=ley196604/>
+
+The spacecraft performed all programmed activities successfully and returned useful data from launch until 22:05:07&nbsp;UTC on October 1, 1965, when the long distance to Earth ({{convert|309.2|e6km|e6mi|abbr=off}}) and the imprecise antenna orientation led to a temporary loss of communication with the spacecraft until 1967.<ref name=NSSDC/>
+
+===First image hand drawn===
+[[File:Mariner 4 tape recorder.jpg|thumb|upright|right|Mariner 4 tape recorder]]
+The on-board tape recorder used on Mariner 4 was a spare, not originally intended for the Mariner 4 flight. Between the failure of Mariner 3, the fact that the Mariner 4 recorder was a spare, and some error readings suggesting an issue with the tape recorder, it was determined that the team would test the camera function definitively. This eventually led to the first digital image being [[painting|painted]]. While waiting for the image data to be computer processed, the team used a [[pastel]] set from an art supply store to hand-color ([[paint-by-numbers]] style) a numerical printout of the raw [[pixel]]s. The resulting image provided early verification that the camera was functioning. The hand-drawn image compared favorably with the final, computer-processed one.<ref name=DanGoods/>
+<gallery mode="packed" heights="115px">
+Image:First TV Image of Mars.jpg|The first digital image from Mars hand-colored like a paint-by-numbers picture
+Image:M01setSx3.jpg | Processed first digital image from Mars
+</gallery>
+
+===Micrometeoroid hits and end of communications===
+[[Data acquisition]] resumed in late 1967. The [[cosmic dust]] detector registered 17 hits in a 15-minute span on September 15, part of an apparent [[micrometeoroid]] shower that temporarily changed the spacecraft attitude and probably slightly damaged its thermal shield. Later it was speculated that Mariner 4 passed through debris of comet [[D/1895 Q1 (Swift)]], and even made a flyby of that comet's possibly shattered nucleus at {{convert|20|e6km|e6mi|abbr=unit}}.{{r|Phillips1|Phillips2}}
+
+On December 7 the gas supply in the attitude control system was exhausted, and between December 10 and 11, a total of 83 micrometeoroid hits were recorded which caused perturbation of the spacecraft's attitude and degradation of the signal strength. On December 21, 1967, communications with Mariner 4 were terminated. The spacecraft is now derelict in a superior [[heliocentric orbit]].{{r|Filmer|Pyle2012}}
+
+==Results==
+[[File:Pickering-Johnson.jpg|thumb|upright=1.5|right|[[Jack N. James]] (center), JPL's Mariner 4 Project Manager, with a group in the White House presenting the spacecraft's famous picture Number 11 of Mars to US President [[Lyndon B. Johnson]] (center right) in July 1965]]
+The total data returned by the mission was 5.2 million bits (about 634&nbsp;[[kilobyte|kB]]). All instruments operated successfully with the exception of a part of the ionization chamber, namely the [[Geiger–Müller tube]], which failed in February 1965.<ref name=NSSDC/> In addition, the plasma probe had its performance degraded by a [[resistor]] failure on December 8, 1964, but experimenters were able to recalibrate the instrument and still interpret the data.<ref name=release_1965_0319/> The images returned showed a [[Moon]]-like cratered terrain,<ref name=Leighton/> which scientists did not expect, although amateur astronomer Donald Cyr had predicted craters.{{r|ley196604}} Later missions showed that the craters were not typical for Mars, but only for the more ancient region imaged by Mariner 4. A surface [[atmospheric pressure]] of {{convert|4.1|to|7.0|mbar|Pa}} and daytime temperatures of {{cvt|−100|°C|°F}} were estimated. No [[magnetic field]]{{r|O'Gallagher|Smith}} or [[Van Allen radiation belt|Martian radiation belts]]<ref name=Van_Allen/> or, again surprisingly, surface water<ref name=ley196604/> was detected.
+
+[[Bruce C. Murray]] used photographs from Mariner 4 to elucidate Mars's geologic history.<ref name=Schudel/>
+
+<gallery class="center" heights="130px" widths="130px">
+Image:M01Bx6Sx5C.jpg|The first digital image from Mars 
+Image:Mars (Mariner 4).jpg | The first close-up image ever taken of Mars. It shows an area about {{cvt|330|km|mi}} across by {{cvt|1200|km|mi}} from limb to bottom of frame.
+Image:Mariner 4 craters.gif | The clearest Mariner 4 image showing craters
+Image:M04 12.jpg | Mosaic of frames 1 and 2. The Martian atmosphere is visible over the planet's limb. 
+Image:M04 0910.jpg | Mosaic of frames 9 and 10
+Image:M04 1112.jpg | Mosaic of frames 11 and 12
+</gallery>
+
+Images of craters and measurements of a thin [[atmosphere]]{{r|Leighton|Kliore}}—much thinner than expected{{r|ley196604}}—indicating a relatively inactive planet exposed to the harshness of space, generally dissipated hopes of finding intelligent [[life on Mars (planet)|life on Mars]]. Life on Mars had been the subject of speculation and [[science fiction]] for centuries.<ref name=Salisbury/> If there was life on Mars, after Mariner 4 most concluded it would probably be smaller, simpler forms.<ref name=Momsen2/> Others concluded that a search for life on Earth at kilometer resolution, using several thousand photographs, did not reveal a sign of life on the vast majority of these photographs; thus, based on the 22 photographs taken by Mariner 4, one could not conclude there was no intelligent life on Mars.<ref name=Kilston/>
+The solar wind was measured, and compared with simultaneous records from [[Mariner 5]] which went to [[Venus]].<ref name=mariner-jpl/>
+
+The total cost of the Mariner 4 mission is estimated at $83.2&nbsp;million (equivalent to ${{Inflation|US|83.2|1965}}&nbsp;million in {{Inflation/year|US}}).<ref name=NSSDC/> Total research, development, launch, and support costs for the Mariner series of spacecraft (Mariners 1 through 10) was approximately $554&nbsp;million (equivalent to ${{#expr:{{Inflation|US|554|1965|r=-1}}/1000}}&nbsp;billion in {{Inflation/year|US}}).<ref name=NSSDC/>
+
+==See also==
+{{commons}}
+{{Portal|Spaceflight}}
+* [[Exploration of Mars]]
+* [[List of missions to Mars]]
+* [[Mariner (crater)]]
+* [[Space exploration]]
+* [[Space probe]]
+*[[REX (New Horizons)|REX (''New Horizons'')]] (Radio occultation for atmosphere data at Pluto in 2015, on ''[[New Horizons]]'' spacecraft)
+
+==References==
+{{Reflist|refs=
+
+<ref name="aa1965">{{cite book
+| url= https://www.nasa.gov/wp-content/uploads/2023/04/1965.pdf?emrc=ee9c46
+| title= Astronautics and Aeronautics: Chronology of Science, Technology, and Policy
+| year= 1965
+| id= SP-4006
+| publisher= [[NASA]]
+| access-date= 2 January 2019 }}
+</ref>
+
+<ref name="Anderson">{{cite journal
+| title = Initial Results, Spacecraft Description and Encounter Sequence
+| author1= Hugh R. Anderson
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 149
+| issue= 3689
+| date= 10 September 1965
+| pages= 1226–1228
+| doi= 10.1126/science.149.3689.1226
+| pmid= 17747450
+| bibcode= 1965Sci...149.1226A }}
+</ref>
+
+<ref name="DanGoods">{{cite web
+| author1= Dan Good
+| title= Mariner 4 paint-by-number |url=http://www.directedplay.com/first-tv-image-of-mars
+| archive-url= https://web.archive.org/web/20221231233510/http://www.directedplay.com/first-tv-image-of-mars
+| archive-date= 31 December 2022
+| access-date= 4 January 2023
+| work= Directed Play
+| publisher= [[NASA]] }}
+</ref>
+
+<ref name="Filmer">{{cite web
+| url = http://filmer.blogspot.com/2004/01/beagle-here-beagle-beagle.html
+| title = Beagle! Here Beagle, Beagle...
+| author1 = Paul E. Filmer
+| date = 5 January 2004
+| access-date = 12 February 2009 }}
+</ref>
+
+<ref name="Goss">{{cite journal
+| title= The Mariner Spacecraft Star Sensors
+| author1= W. C. Goss
+| journal= Applied Optics
+| volume= 9
+| issue= 5
+| date= May 1, 1970
+| pages= 1056–1067
+| doi= 10.1364/AO.9.001056
+| pmid= 20076329
+| bibcode= 1970ApOpt...9.1056G }}
+</ref>
+
+<ref name="Kilston">{{cite journal
+| title= A Search for Life on Earth at Kilometer Resolution
+| author1= Steven D. Kilston
+| author2= Robert R. Drummond
+| author3= Carl Sagan
+| date= 1966
+| journal= [[Icarus (journal)|Icarus]]
+| volume= 5
+| issue= 1–6
+| pages= 79–98
+| doi= 10.1016/0019-1035(66)90010-8
+| bibcode= 1966Icar....5...79K }}
+</ref>
+
+<ref name="Kliore">{{cite journal
+| title= Occultation Experiment: Results of the First Direct Measurement of Mars's Atmosphere and Ionosphere
+| author1= Arvydas Kliore
+| author2= Dan L. Cain
+| author3= Gerald S. Levy
+| author4= Von R. Eshleman
+| author5= Gunnar Fjeldbo
+| author6= Frank D. Drake
+| display-authors= 3
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 149
+| issue= 3689
+| date= 10 September 1965
+| pages= 1243–1248
+| doi= 10.1126/science.149.3689.1243
+| pmid= 17747455
+| bibcode= 1965Sci...149.1243K
+| s2cid= 34369864 }}
+</ref>
+
+<ref name="Layman">{{cite book
+| title= Mariner-Venus 1967
+| publisher= [[NASA]]
+| date= 1971
+| id= 19720013159
+| url= https://ntrs.nasa.gov/citations/19720013159
+| access-date= 29 July 2022 }}
+</ref>
+
+<ref name="Leighton">{{cite journal
+| title= Mariner IV Photography of Mars: Initial Results
+| author1= Robert B. Leighton
+| author2= Bruce C. Murray
+| author3= Robert P. Sharp
+| author4= J. Denton Allen 
+| author5= Richard K. Sloan
+| display-authors= 2
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 149
+| issue= 3689
+| date= 6 August 1965
+| pages= 627–630
+| doi= 10.1126/science.149.3684.627
+| pmid= 17747569
+| bibcode= 1965Sci...149..627L
+| s2cid= 43407530 }}
+</ref>
+
+<ref name="ley196604">{{Cite magazine
+| author1= Willy Ley
+| date= April 1966
+| title= The Re-Designed Solar System
+| department= For Your Information
+| url= https://archive.org/stream/Galaxy_v24n04_1966-04#page/n63/mode/1up
+| magazine= Galaxy Science Fiction
+| volume= 24
+| number= 4
+| pages=126–136 }}
+</ref>
+
+<ref name="mariner-jpl">{{cite web
+| url= http://www.jpl.nasa.gov/news/fact_sheets/mariner.pdf
+| title= Mariner to Mercury, Venus and Mars
+| date= May 1996
+| website= jpl.nasa.gov
+| series= Fact Sheets
+| publisher= [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+| access-date= 2 September 2014
+| archive-date= 25 May 2018
+| archive-url= https://web.archive.org/web/20180525163653/https://www.jpl.nasa.gov/news/fact_sheets/mariner.pdf
+| url-status= dead }}
+</ref>
+
+<ref name="mariner3_jpl">{{Cite web
+| title= Mariner 3 - Mars Missions 
+| url= https://www.jpl.nasa.gov/missions/mariner-3
+| access-date= 13 July 2024
+| website= jpl.nasa.gov
+| publisher= [[NASA]] / [[Jet Propulsion Laboratory|JPL]] }}
+</ref>
+
+<ref name="Momsen1">{{cite web
+| url= http://home.earthlink.net/~nbrass1/mariner/miv.htm
+| title= Mariner IV – First Flyby of Mars: Some personal experiences
+| author1= Bill Momsen
+| date= 2006
+| page= 1
+| access-date= 11 February 2009
+| url-status= dead
+| archive-url= https://web.archive.org/web/20020620141059/http://home.earthlink.net/~nbrass1/mariner/miv.htm
+| archive-date = 20 June 2002 }}
+</ref>
+
+<ref name="Momsen2">{{cite web
+| url= http://home.earthlink.net/~nbrass1/mariner/miv-2.htm
+| title= Mariner IV – First Flyby of Mars: Some personal experiences
+| author1= Bill Momsen
+| date= 2006
+| page= 2
+| access-date= 11 February 2009
+| url-status= dead
+| archive-url= https://web.archive.org/web/20081230212629/http://home.earthlink.net/~nbrass1/mariner/miv-2.htm
+| archive-date = 30 December 2008 }}
+</ref>
+
+<ref name="nasa1">{{cite web
+| url= https://science.nasa.gov/mission/mariner-4/
+| title= Mariner 4 - NASA Science
+| website= science.nasa.gov
+| publisher= [[NASA]]
+| access-date= 30 November 2022 }}
+</ref>
+
+<ref name="nasa2">{{Cite web
+| title= Mariner 4 – Mars Missions
+| url= https://www.jpl.nasa.gov/missions/mariner-4
+| access-date= 30 August 2022
+| website= jpl.nasa.gov
+| publisher= [[NASA]] }}
+</ref>
+
+<ref name="nasa3">{{cite report
+| title= JPL Technical Memorandum No. 33-229, To Mars: The Odyssey of Mariner IV
+| publisher= [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+| date= 1965
+| pages= 21–23
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650018349_1965018349.pdf
+| access-date= 1 February 2009
+| archive-url= https://web.archive.org/web/20070703214353/https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650018349_1965018349.pdf
+| archive-date= 3 July 2007
+| url-status= dead }}
+</ref>
+
+<ref name="nasa4">{{Cite web
+| author1= John Uri
+| date= 26 November 2019
+| title= 55 Years Ago: Mariner 4 First to Mars 
+| url= https://www.nasa.gov/history/55-years-ago-mariner-4-first-to-mars/ 
+| access-date= 5 August 2022
+| website= nasa.gov
+| publisher= [[NASA]] }}
+</ref>
+
+<ref name="nasa5">{{cite web
+| url= https://www.nasa.gov/history/maven-continues-mars-exploration-begun-50-years-ago-by-mariner-4/
+| title= MAVEN Continues Mars Exploration Begun 50 Years Ago by Mariner 4
+| author1= Bob Granath
+| date= 4 November 2014
+| website= nasa.gov
+| publisher= [[NASA]]
+| access-date= 19 December 2015 }}
+</ref>
+
+<ref name="NSSDC">{{Cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-077A
+| title= Mariner 4
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 3 May 2018
+| archive-date= September 4, 2018
+| archive-url= https://web.archive.org/web/20180904174225/https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1964-077A
+| url-status= dead
+}}</ref>
+
+<ref name="NSSDC-2">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1964-077A-01
+| title= Mariner 4: Mars TV Camera
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 29 April 2012
+| archive-date= August 3, 2020
+| archive-url= https://web.archive.org/web/20200803172729/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1964-077A-01
+| url-status= dead
+}}</ref>
+
+<ref name="O'Gallagher">{{cite journal
+| title= Search for Trapped Electrons and a Magnetic Moment at Mars by Mariner IV
+| author1= J. J. O'Gallagher
+| author2= J. A. Simpson
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 149
+| issue= 3689
+| date= 10 September 1965
+| pages= 1233–1239
+| doi= 10.1126/science.149.3689.1233
+| pmid= 17747452
+| bibcode= 1965Sci...149.1233O
+| s2cid= 21249845 }}
+</ref>
+
+<ref name="Phillips1">{{cite web
+| url= https://science.nasa.gov/headlines/y2006/23aug_mariner4.htm
+| title= Mariner Meteor Mystery, Solved?
+| author1= Tony Phillips
+| website= science.nasa.gov
+| publisher= [[NASA]]
+| date= 23 August 2006
+| access-date= 11 February 2009
+| url-status= dead
+| archive-url= https://web.archive.org/web/20090406234926/http://science.nasa.gov/headlines/y2006/23aug_mariner4.htm
+| archive-date= 6 April 2009 }}
+</ref>
+
+<ref name="Phillips2">{{cite web
+| url= http://www.marsdaily.com/reports/Has_The_Mariner_Meteor_Mystery_Been_Solved_999.html
+| title= Has the Mariner Meteor Mystery Been Solved
+| author1= Tony Phillips
+| work= Mars Daily
+| date= 24 August 2006
+| access-date= 11 February 2009 }}
+</ref>
+
+<ref name="Pyle2012">{{cite book
+| author1= Rod Pyle
+| title= Destination Mars: New Explorations of the Red Planet
+| date=2012
+| publisher=[[Prometheus Books]]
+| isbn= 978-1-61614-589-7
+| pages= 348
+| quote=It eventually joined its sibling, Mariner 3, dead ... in a large orbit around the sun. }}
+</ref>
+
+<ref name="Reiff">{{cite journal
+| title= Mariner IV: Developing the Scientific Experiment
+| author1= Glenn A. Reiff
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 151
+| issue= 3709
+| date= 28 January 1966
+| pages= 413–417
+| doi= 10.1126/science.151.3709.413
+| pmid= 17798511
+| bibcode= 1966Sci...151..413R }}
+</ref>
+
+<ref name="release_1965_0319">{{cite press release
+ | title= NASA Press Release 1965-0319
+ | url= http://www.jpl.nasa.gov/news/releases/60s/release_1965_0319.html
+ | publisher = [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+ | date= 3 March 1965
+ | access-date= 13 February 2009
+ | archive-date= 19 October 2008
+ | archive-url= https://web.archive.org/web/20081019174807/http://jpl.nasa.gov/news/releases/60s/release_1965_0319.html
+ | url-status= dead }}
+</ref>
+
+<ref name="Salisbury">{{cite journal
+| title= Martian Biology
+| author1= Frank B. Salisbury
+| date= 6 April 1962
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 136
+| issue= 3510
+| pages= 17–26
+| doi= 10.1126/science.136.3510.17
+| pmid= 17779780
+| bibcode= 1962Sci...136...17S
+| s2cid = 39512870 }}
+</ref>
+
+<ref name="Schudel">{{cite news
+| author1= Matt Schudel
+| title= Bruce C. Murray, NASA space scientist, dies at 81
+| url= https://www.washingtonpost.com/national/bruce-c-murray-nasa-space-scientist-dies-at-81/2013/08/30/01e306ae-1184-11e3-b4cb-fd7ce041d814_story.html
+| access-date= 31 August 2013
+| newspaper= [[The Washington Post]]
+| date= 30 August 2013 }}
+</ref>
+
+<ref name="Smith">{{cite journal
+| title= Magnetic Field Measurements Near Mars
+| author1= Edward J. Smith
+| author2= Leverett Davis, Jr.
+| author3= Paul J. Coleman, Jr.
+| author4= Douglas E. Jones
+| display-authors= 2
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 149
+| issue= 3689
+| date= 10 September 1965
+| pages= 1241-1242
+| doi= 10.1126/science.149.3689.1241
+| pmid= 17747454
+| bibcode= 1965Sci...149.1241S
+| s2cid= 43466009 }}
+</ref>
+
+<ref name="Van_Allen">{{cite journal
+| title= Absence of Martian Radiation Belts and Implications Thereof
+| author1= J. A. Van Allen
+| author2= L. A. Frank
+| author3= S. M. Krimigis
+| author4= H. K. Hills
+| display-authors= 2
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 149
+| issue= 3689
+| date= 10 September 1965
+| pages= 1228–1233
+| doi= 10.1126/science.149.3689.1228
+| pmid= 17747451
+| bibcode= 1965Sci...149.1228V
+| hdl= 2060/19650024318
+| s2cid= 29117648
+| hdl-access= free }}
+</ref>
+
+}}
+
+==External links==
+* [https://web.archive.org/web/20190415220338/https://solarsystem.nasa.gov/missions/mariner-04/in-depth/ Mariner 4 Mission Profile] by [http://solarsystem.nasa.gov NASA's Solar System Exploration]
+* [https://ntrs.nasa.gov/citations/19660014211 Space Flight Operations Plan Mariner Mars '64 (PDF)]
+* [https://web.archive.org/web/20060316104212/http://www.astrosurf.com/nunes/explor/explor_m4.htm Processed images and mosaics from the Mariner 4 mission to Mars]
+* [https://web.archive.org/web/20071005044108/http://www.strykfoto.org/mariner4.htm Ted Stryk's Mariner 4 page]
+* [http://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/MR_Mariner_4_page1.html Mariner 4 photos] {{Webarchive|url=https://web.archive.org/web/20141113203335/http://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/MR_Mariner_4_page1.html |date=November 13, 2014 }}
+
+{{Mariner program | before=[[Mariner 3]] | after=[[Mariner 5]] }}
+{{Mars spacecraft}}
+{{Satellite and spacecraft instruments}}
+{{Orbital launches in 1964}}
+
+[[Category:Derelict satellites in heliocentric orbit]]
+[[Category:NASA missions to Mars]]
+[[Category:Mariner program]]
+[[Category:Spacecraft launched in 1964]]
+[[Category:Derelict space probes]]
+[[Category:Spacecraft launched by Atlas-Agena rockets]]
+[[Category:Mars flybys]]
+
+[[de:Mariner#Mariner 3 und 4]]

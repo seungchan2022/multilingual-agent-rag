@@ -1,0 +1,102 @@
+{{Short description|Geocentric radio satellite}}
+{{Infobox spaceflight		
+| name                  = OSSI-1
+
+<!--image of the spacecraft/mission-->
+| image                 = <!--omit the "file" prefix-->
+| image_caption         = <!--image caption-->
+| image_alt             = <!--image alt text-->
+| image_size            = <!--include px/em; defaults to 220px-->
+
+<!--Basic details-->
+| mission_type          = Research/amateur radio
+| operator              = 
+| website               = [https://web.archive.org/web/20140111191545/http://opensat.cc/ http://opensat.cc/ (archived)]
+| COSPAR_ID             = 2013-015B<ref name="zarya"/>
+| SATCAT                = 39131<ref name="zarya"/>
+| mission_duration      = 
+| distance_travelled    = <!-- How far the spacecraft travelled (if known) -->
+| orbits_completed      = <!-- number of times the spacecraft orbited the Earth - see below for spacecraft beyond Earth orbit-->
+
+<!--Spacecraft properties-->
+| spacecraft_type       = 1U [[CubeSat]]
+| spacecraft_bus        = 
+| manufacturer          = Home made
+| dry_mass              = <!--spacecraft mass in orbit without fuel-->
+| launch_mass           = 950g<ref name="nasa"/>
+| landing_mass          = 
+| dimensions            = {{convert|10|cm}} cube
+| power                 = <!--end-of-life power, in watts-->
+
+<!--Launch details-->
+| launch_date           = {{start-date|19 April 2013, 10:00|timezone=yes}}&nbsp;UTC
+| launch_rocket         = [[Soyuz-2 (rocket)|Soyuz 2-1a]]
+| launch_site           = [[Baikonur Cosmodrome|Baikonur]] [[Baikonur Cosmodrome Site 31|31/6]]
+| launch_contractor     = [[Roskosmos]]
+
+<!--end of mission-->
+| last_contact          = <!--{{end-date|[insert date and time here]|timezone=yes}}&nbsp;UTC-->
+| decay_date            = 30 June 2013
+
+<!--orbit parameters-->
+| orbit_epoch           = 14 May 2013<ref name="n2yo"/>
+| orbit_reference       = [[geocentric orbit|Geocentric]]
+| orbit_regime          = [[low Earth orbit|Low Earth]]
+| orbit_apoapsis        = {{convert|552.8|km}}<ref name="n2yo"/>
+| orbit_periapsis       = {{convert|263.0|km}}<ref name="n2yo"/>
+| orbit_inclination     = 64.9&nbsp;degrees<ref name="n2yo"/>
+| orbit_semimajor       = {{convert|6778|km}}<ref name="n2yo"/>
+| orbit_eccentricity    = 
+| orbit_period          = 92.6 minutes<ref name="n2yo"/>
+| orbit_repeat          = <!--repeat interval/revisit time-->
+| orbit_mean_motion     = <!--number of orbits in a day-->
+| apsis                 = gee
+| instruments           = <!--a list of instruments on the satellite-->
+}}
+
+[[File:OSSI_1.png|thumb|OSSI 1 communications block diagram]]
+'''OSSI-1''' (standing for Open Source Satellite Initiative-1) was an [[amateur radio satellite]] launched in 2013 with [[Bion-M No.1]]. Bion-M was launched into orbit at 10:00 UTC on April 19, 2013, from [[Baikonur Cosmodrome]], [[Kazakhstan]], with 6 other small satellites, including OSSI-1. OSSI-1 detached from Bion-M at 16:15 UTC.<ref name="zarya"/><ref name="amsat"/>
+
+OSSI-1 is the pet project of Hojun Song, a [[South Korea|South Korean]] artist and [[amateur radio]] operator. He worked on it for seven years, designing and building the satellite using [[Commercial off-the-shelf|off-the-shelf components]] rather than equipment that had been certified for use in space.<ref name="amsat"/> The most expensive aspect of the project was the launch, which cost US$100,000.<ref name="amsat"/><ref name="bbc"/><ref name="wired"/>
+
+OSSI-1 was a 1U [[CubeSat]] with 100mm sides, weighing 950g.<ref name="nasa"/><ref name="opensat"/> It uses an [[Arduino]] microcontroller, a [[lithium-ion]] battery and a J mode UHF/VHF transceiver.<ref name="opensat"/>
+
+The satellite had a [[Morse code]] beacon transmitting "OS0 DE OSSI1 ANYOUNG" on 145.980&nbsp;MHz and 4 [[LED]] lights with a total power of 44 [[watt]]s to flash Morse code messages, using an open protocol. The project developers announced on 24 April 2013 that they had not yet received a signal from the satellite and were concerned that the [[Two-line element set]] they were using to locate the satellite might be wrong.<ref name="amsat"/><ref name="opensat"/><ref name="dk3wn"/><ref name="karl"/>
+
+According to Korean amateur radio organisation KARL, Hojun Song had some difficulties launching a satellite as a private individual, connected to registering with space bodies <!-- not sure what they mean they say "regulatory issues like space body registration" that could be registering with a body or as a body--> and being allocated broadcast frequencies by the international telecoms regulator the [[ITU]]. A law requires knowledge of the launch date two years in advance which he was not able to give as he was sharing a launch with other experimental satellites. The amateur radio bands are nearly full but to use other bands would require more expensive specialist equipment and technical skills.<ref name="karl"/> In 2011 OSSI-1 signed a contract with a French nano satellite company for a [[turnkey]] launch service in order to secure a launch date.<ref name="opensat_pr"/>
+
+The satellite re-entered the Earth's atmosphere on 30 June 2013. Source code for the satellite is available on [[GitHub]].<ref>{{Cite web|url=https://github.com/ossicode|title=Ossicode - Overview|website=[[GitHub]]|access-date=2021-02-02|archive-date=2021-04-19|archive-url=https://web.archive.org/web/20210419010046/https://github.com/ossicode|url-status=live}}</ref>
+
+==References==
+<references>
+
+<ref name="zarya">{{cite web|url=http://www.zarya.info/Diaries/Launches/Launches.php?year=2013#015|title=2013-015|work=Zarya.Info|access-date=14 May 2013|archive-date=22 October 2013|archive-url=https://web.archive.org/web/20131022000601/http://www.zarya.info/Diaries/Launches/Launches.php?year=2013#015|url-status=live}}</ref>
+<ref name="amsat">{{cite web|url=http://amsat-uk.org/satellites/ossi-1/|title=OSSI-1|work=Amsat.uk|date=12 March 2013|access-date=14 May 2013|archive-date=16 June 2013|archive-url=https://archive.today/20130616142829/http://amsat-uk.org/satellites/ossi-1/|url-status=live}}</ref>
+<ref name="opensat">{{cite web|url=http://opensat.cc/|title=Open Source Satellite Initiative|work=OSSI|access-date=14 May 2013|archive-date=11 January 2014|archive-url=https://web.archive.org/web/20140111191545/http://opensat.cc/|url-status=live}}</ref>
+<ref name="bbc">{{cite web|url=https://www.bbc.co.uk/news/av/world-asia-19007475|title=South Korean artist has high hopes for his homemade satellite|work=BBC News|date=27 July 2012|access-date=14 May 2013|archive-date=30 May 2013|archive-url=https://web.archive.org/web/20130530163914/http://www.bbc.co.uk/news/world-asia-19007475|url-status=live}}</ref>
+<!--ref name="opensat2">{{cite web|url=http://opensat.cc/download/DIYSatellite_en.pdf|title=D.I.Y. Satellite|work=OSSI|access-date=14 May 2013}}</ref-->
+<ref name="dk3wn">{{cite web|url=http://www.dk3wn.info/sat/afu/sat_ossi1.shtml|title=OSSI-1|work=dk3wn|access-date=14 May 2013|archive-date=9 May 2013|archive-url=https://web.archive.org/web/20130509190445/http://www.dk3wn.info/sat/afu/sat_ossi1.shtml|url-status=dead}}</ref>
+<ref name="nasa">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-015B|title=OSSI-1|work=National Space Science Data Centre|access-date=14 May 2013|archive-date=4 June 2023|archive-url=https://web.archive.org/web/20230604200335/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-015B|url-status=live}}</ref>
+<ref name="n2yo">{{cite web|url=http://www.n2yo.com/satellite/?s=39131|title=OSSI 1|work=REAL TIME SATELLITE TRACKING|access-date=14 May 2013|archive-date=4 March 2016|archive-url=https://web.archive.org/web/20160304054844/http://www.n2yo.com/satellite/?s=39131|url-status=live}}</ref>
+<ref name="wired">{{cite magazine|url=https://www.wired.com/magazine/2010/08/st_alphageek_song/|title=Alpha Geek: Hojun Song, DIY Satellite Builder|magazine=Wired|date=30 August 2010|access-date=14 May 2013|archive-date=15 May 2013|archive-url=https://web.archive.org/web/20130515082221/http://www.wired.com/magazine/2010/08/st_alphageek_song/|url-status=live}}</ref>
+<ref name="karl">{{cite web|url=http://www.iaru-r3.org/15r3c/docs/019.doc|title=INTERNATIONAL AMATEUR RADIO UNION REGION 3. FIFTEENTH REGIONAL CONFERENCE. Triennial Report from KARL (2009-2012)|work=KARL|year=2012|access-date=14 May 2013|archive-url=https://web.archive.org/web/20160202022502/http://www.iaru-r3.org/15r3c/docs/019.doc|archive-date=2 February 2016|url-status=dead}}</ref>
+<ref name="opensat_pr">{{cite web|url=http://opensat.cc/blog/wp-content/uploads/2011/06/NN_OSSI_PressRelease_v1.0.pdf|title=OSSI mandates NovaNano to secure a launch opportunity in 2012 for the first individual satellite|work=OSSI|date=21 June 2011|access-date=15 May 2013|archive-url=https://web.archive.org/web/20160304083648/http://opensat.cc/blog/wp-content/uploads/2011/06/NN_OSSI_PressRelease_v1.0.pdf|archive-date=4 March 2016|url-status=dead}}</ref>
+
+</references>
+
+==External links==
+* [https://web.archive.org/web/20140111191545/http://opensat.cc/ opensat.cc website (archived)]
+* [https://github.com/ossicode GitHub: ossicode]
+
+{{Portal|Spaceflight}}
+{{South Korean space program}}
+{{Orbital launches in 2013}}
+
+[[Category:Spacecraft launched in 2013]]
+[[Category:Amateur radio satellites]]
+[[Category:CubeSats]]
+[[Category:Spacecraft which reentered in 2013]]
+[[Category:Spacecraft launched by Soyuz-2 rockets]]
+[[Category:Open-source hardware]]
+[[Category:Free and open-source software]]
+[[Category:Free software programmed in C]]

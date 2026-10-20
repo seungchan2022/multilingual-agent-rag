@@ -1,0 +1,216 @@
+{{Short description|NASA satellite of the Explorer program, at SE-L1 from 1997}}
+{{Use American English|date=January 2014}}
+{{Use dmy dates|date=August 2026}}
+{{Infobox spaceflight
+| name              = Advanced Composition Explorer
+| names_list        = Explorer 71<br/>ACE
+| image             = Advanced Composition Explorer.jpg
+| image_caption     = An artist's concept of ACE
+| image_size        =
+
+| mission_type      = [[Solar wind|Solar research]]
+| operator          = [[NASA]]
+| COSPAR_ID         = 1997-045A
+| SATCAT            = 24912
+| website           = {{URL|http://www.srl.caltech.edu/ACE/}}
+| mission_duration  = 5 years (planned)<br/>{{time interval|25 August 1997|show=ymd}}<br/>''(in progress)''
+
+| spacecraft        = Explorer LXXI
+| spacecraft_type   = Advanced Composition Explorer
+| spacecraft_bus    = ACE
+| manufacturer      = [[Applied Physics Laboratory|Johns Hopkins Applied Physics Laboratory]]
+| launch_mass       = {{cvt|757|kg}}
+| dry_mass          = {{cvt|562|kg}}
+| dimensions        = {{cvt|2|m}} in diameter<br/>{{cvt|1.9|m}} in length<br/>wingspan of {{cvt|8.3|m}}
+| power             = 444 [[watt]]s
+
+| launch_date       = 25 August 1997, 14:39:00 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[Delta II|Delta II 7920-8]]<br>D-247
+| launch_site       = [[Cape Canaveral]], [[Cape Canaveral Space Launch Complex 17|LC-17A]]
+| launch_contractor = [[McDonnell Douglas]]
+
+| entered_service   = 12 December 1997
+| last_contact      = 
+| deactivated       = 
+| decay_date        =
+
+| orbit_reference   = [[Heliocentric orbit]]
+| orbit_regime      = [[Lissajous orbit]]
+| orbit_periapsis   = {{cvt|145700000|km}}
+| orbit_apoapsis    = {{cvt|150550000|km}}
+| orbit_inclination = ~0°
+| orbit_period      = 1 year
+| apsis             = gee
+
+| instruments       = Cosmic-Ray Isotope Spectrometer (CRIS)<br/>Electron, Proton, and Alpha-particle Monitor (EPAM)<br/>Magnetometer (MAG)<br/>Real-Time Solar Wind (RTSW)<br/>Solar Energetic Particle Ionic Charge Analyzer (SEPICA)<br/>Solar Wind Electron, Proton and Alpha Monitor (SWEPAM)<br/>Solar Isotope Spectrometer (SIS)<br/>Solar Wind Ion Composition Spectrometer (SWICS) and Solar Wind Ion Mass Spectrometer (SWIMS)<br/>Ultra-Low-Energy Isotope Spectrometer (ULEIS)
+
+| insignia          = ACE mission logo.png
+| insignia_caption  = ACE mission patch
+| insignia_size     = 200px
+
+| programme2        = '''[[Explorer program]]'''
+| previous_mission2 = [[Fast Auroral SnapshoT Explorer]] (Explorer 70)
+| next_mission2     = [[Student Nitric Oxide Explorer]] (Explorer 72)
+}}
+
+[[File:Animation of Advanced Composition Explorer's orbit viewed from the Sun.gif|thumb|Animation of Advanced Composition Explorer's orbit viewed from the Sun<br>{{legend2| RoyalBlue|Earth}}{{·}}{{legend2|Magenta|Advanced Composition Explorer}}]]
+[[File:Advanced Composition Explorer in space.jpg|thumb|upright=1.0|right|ACE in orbit around the Sun–Earth L<sub>1</sub> point.]]
+
+'''Advanced Composition Explorer''' ('''ACE''' or '''Explorer 71''') is a [[NASA]] [[Explorer program]] satellite and [[space exploration]] mission to study [[matter]] comprising energetic particles from the [[solar wind]], the [[interplanetary medium]], and other sources.
+
+Real-time data from ACE are used by the [[National Oceanic and Atmospheric Administration]] (NOAA) [[Space Weather Prediction Center]] (SWPC) to improve forecasts and warnings of [[solar storm]]s.<ref>{{cite news |url=http://onlinestore.usatoday.com/06241999-issue-of-usa-today-p6651.aspx |archive-url=https://web.archive.org/web/20091018171022/https://www.usatoday.com/weather/solar/wswx198.htm |archive-date=18 October 2009 |url-status=dead |title=Satellite to aid space weather forecasting |date=24 June 1999 |access-date=24 October 2008 |newspaper=USA Today}}</ref> The ACE [[robotic spacecraft]] was launched on 25 August 1997, and entered a [[Lissajous orbit]] close to the {{L1}} [[Lagrange point]] (which lies between the [[Sun]] and the [[Earth]] at a distance of some {{cvt|1500000|km}} from the latter) on 12 December 1997.<ref>{{cite web |url=http://www.srl.caltech.edu/ACE/ASC/DATA/ace_dly_reprts/HTML/December_text_1997.html#97346 |title=Operations Day -- 346/1997 (12 December 1997) |website=srl.caltech.edu |date=31 December 1997 |access-date=28 October 2021}}</ref> The spacecraft is currently operating at that orbit. Because ACE is in a non-[[Keplerian orbit]], and has regular station-keeping maneuvers, the orbital parameters in the adjacent information box are only approximate.
+
+{{as of|2023}},<ref name="ESA1">{{cite web |url=https://directory.eoportal.org/web/eoportal/satellite-missions/a/ace |title=ACE (Advanced Composition Explorer) - Mission Status |publisher=ESA eoPortal Directory |date=15 June 2021 |access-date=29 October 2021}}</ref> the spacecraft is still in generally good condition.<ref name="ACE Home Page">{{cite web |url=http://www.srl.caltech.edu/ACE/ace_mission.html |title=Advanced Composition Explorer (ACE) Mission Overview |publisher=California Institute of Technology |date=10 February 2017 |first1=Eric R. |last1=Christian |first2=Andrew J. |last2=Davis |access-date=14 December 2017}}</ref> NASA [[Goddard Space Flight Center]] managed the development and integration of the ACE spacecraft.<ref name="Display">{{cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1997-045A |title=Display: Advanced Composition Explorer (1997-045A) |publisher=NASA |date=28 October 2021 |access-date=28 November 2021}} {{PD-notice}}</ref>
+
+== History ==
+[[File:Scientists holding the solar panels of the Advanced Composition Explorer space probe.jpg|thumb|ACE during assembly]]
+
+The Advanced Composition Explorer (ACE) was proposed in 1986 as part of the Explorer Concept Study Program. ACE is designed to make coordinated measurements of the elemental and isotopic composition of accelerated nuclei from H ([[Hydrogen]]) to Zn ([[Zinc]]) spanning six decades in energy per [[nucleon]], from solar wind to galactic cosmic ray energies, with sensitivity and with charge and mass resolution much better than heretofore possible. Following a Phase-A definition study, ACE was selected for development in 1989, and began construction in 1994. On 25 August 1997, ACE was successfully launched from [[Cape Canaveral Air Force Station]] by a [[Delta II]] [[launch vehicle]]. The August 1997 launch was originally scheduled back in 1993.<ref name="History">{{cite web |url=http://www.srl.caltech.edu/ACE/ace-mission-ssr-paper.pdf |title=The Advanced Composition Explorer |website=srl.caltech.edu |date=1998 |access-date=28 October 2021}}</ref>
+
+== Science objectives ==
+[[File:ACE parts.png|thumb|Scientific instruments on ACE]]
+
+ACE observations allow the investigation of a wide range of fundamental problems in the following four major areas:<ref name=stone98a>{{cite journal |last=Stone |first=E. C. |title=The Advanced Composition Explorer |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=1–22 |doi=10.1023/A:1005082526237 |bibcode=1998SSRv...86....1S |s2cid=10744811 |display-authors=et al.}}</ref>
+
+=== Elemental and isotopic composition of matter ===
+A major objective is the accurate and comprehensive determination of the elemental and isotopic composition of the various samples of "source material" from which nuclei are accelerated. These observations have been used to:
+* Generate a set of solar isotopic abundances based on a direct sampling of solar material;
+* Determine the coronal elemental and isotopic composition with greatly improved accuracy;
+* Establish the pattern of isotopic differences between [[Cosmic ray|galactic cosmic ray]] and [[Solar System]] matter;
+* Measure the elemental and isotopic abundances of [[interstellar medium|interstellar]] and interplanetary "pick–up ions";
+* Determine the isotopic composition of the "[[anomalous cosmic ray]] component", which represents a sample of the local interstellar medium.
+
+=== Origin of the elements and subsequent evolutionary processing ===
+Isotopic "anomalies" in [[meteorites]] indicate that the [[Solar System]] was not homogeneous when formed. Similarly, the [[Galaxy]] is neither uniform in space nor constant in time due to continuous stellar [[nucleosynthesis]].
+
+ACE measurements have been used to:
+* Search for differences between the isotopic composition of solar and meteoritic material;
+* Determine the contributions of solar wind and solar energetic particles to lunar and meteoritic material, and to [[Atmosphere|planetary atmosphere]]s and [[magnetosphere]]s;
+* Determine the dominant nucleosynthetic processes that contribute to cosmic ray source material;
+* Determine whether cosmic rays are a sample of freshly synthesized material (e.g., from [[Supernova]]) or of the contemporary interstellar medium;
+* Search for isotopic patterns in solar and galactic material as a test of galactic evolution models.
+
+=== Formation of the solar corona and acceleration of the solar wind ===
+[[Solar energetic particles]], solar wind, and spectroscopic observations show that the elemental composition of the [[solar corona]] is differentiated from that of the [[photosphere]], although the processes by which this occurs, and by which the solar wind is subsequently accelerated, are poorly understood. The detailed composition and charge–state data provided by ACE are used to:
+* Isolate the dominant coronal formation processes by comparing a broad range of coronal and photospheric abundances;
+* Study plasma conditions at the source of solar wind and solar energetic particles by measuring and comparing the charge states of these two populations;
+* Study solar wind acceleration processes and any charge or mass-dependent fractionation in various types of solar wind flows.
+
+=== Particle acceleration and transport in nature ===
+Particle acceleration is ubiquitous in nature and understanding its nature is one of the fundamental problems of space [[plasma (physics)|plasma]] astrophysics. The unique data set obtained by ACE measurements has been used to:
+* Make direct measurements of charge and/or mass-dependent fractionation during solar energetic particle and interplanetary acceleration events;
+* Constrain [[solar flare]], coronal shock, and interplanetary shock acceleration models with charge, mass, and spectral data spanning up to five decades in energy;
+* Test theoretical models for <sup>3</sup>He–rich solar flares and solar γ–ray events.
+
+== Instruments ==
+=== Cosmic-Ray Isotope Spectrometer (CRIS) ===
+[[File:ACE-cris sm.jpg|thumb|CRIS]]
+The Cosmic-Ray Isotope Spectrometer covers the highest range of the Advanced Composition Explorer's energy coverage, from 50 to 500 MeV/nucleon, with an isotopic resolution for elements from Z ≈ 2 to 30. The nuclei detected in this energy interval are predominantly [[cosmic rays]] originating in our Galaxy. This sample of galactic matter investigates the nucleosynthesis of the parent material, as well as fractionation, acceleration, and transport processes that these particles undergo in the Galaxy and in the interplanetary medium. Charge and mass identification with CRIS is based on multiple measurements of dE/dx and total energy in stacks of [[Semiconductor detector|silicon detector]]s, and trajectory measurements in a scintillating optical fiber trajectory (SOFT) [[hodoscope]]. The instrument has a geometrical factor of {{cvt|250|cm2}}-sr for isotope measurements.<ref name=stone98b>{{cite journal |last=Stone |first=E. C. |title=The Cosmic-Ray Isotope Spectrometer for the Advanced Composition Explorer |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=285–356 |doi=10.1023/A:1005075813033 |bibcode=1998SSRv...86..285S |display-authors=et al. |s2cid=12773394}}</ref>
+
+=== Electron, Proton, and Alpha-particle Monitor (EPAM) ===
+[[File:ACE-epam sm.jpg|thumb|EPAM]]
+The Electron, Proton, and Alpha Monitor (EPAM) instrument on the ACE spacecraft is designed to measure a broad range of energetic particles over nearly the full unit-sphere at high time resolution. Such measurements of ions and electrons in the range of a few tens of keV to several [[Electronvolt|MeV]] are essential to understand the dynamics of [[solar flares]], co-rotating interaction regions (CIRs), interplanetary shock acceleration, and upstream terrestrial events. The large dynamic range of EPAM extends from about 50 keV to 5 MeV for ions, and 40 keV to about 350 keV for electrons. To complement its electron and ion measurements, EPAM is also equipped with a Composition Aperture (CA) which unambiguously identifies ion species reported as species group rates and/or individual pulse-height events. The instrument achieves its large spatial coverage through five telescopes oriented at various angles to the spacecraft spin axis. The low-energy particle measurements, obtained as time resolutions between 1.5 and 24 seconds, and the ability of the instrument to observe particle anisotropies in three dimensions make EPAM an excellent resource to provide the interplanetary context for studies using other instruments on the ACE spacecraft.<ref name=gold98>{{cite journal |last=Gold |first=R. E. |title=Electron, Proton, and Alpha Monitor on the Advanced Composition Explorer Spacecraft |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=541–562 |doi=10.1023/A:1005088115759 |bibcode=1998SSRv...86..541G |s2cid=115540562 |display-authors=et al.}}</ref>
+
+=== Magnetometer (MAG) ===
+[[File:ACE-mag sm.jpg|thumb|MAG]]
+The magnetic field experiment on ACE provides continuous measurements of the local magnetic field in the interplanetary medium. These measurements are essential in the interpretation of simultaneous ACE observations of energetic and thermal particle distributions. The experiment consists of a pair of twin, boom-mounted, triaxial [[Magnetometer|flux gate]] sensors which are located 165 inches (419&nbsp;cm) from the center of the spacecraft on opposing solar panels. The two triaxial sensors provide a balanced, fully redundant vector instrument and permit some enhanced assessment of the spacecraft's magnetic field.<ref name=smith98>{{cite journal |last=Smith |first=C. W. |title=The ACE Magnetic Fields Experiment |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=613–632 |doi=10.1023/A:1005092216668 |bibcode=1998SSRv...86..613S |s2cid=189772564 |display-authors=et al.}}</ref>
+
+=== Real-Time Solar Wind (RTSW) ===
+The Real-Time Solar Wind (RTSW) system is continuously monitoring the solar wind and producing warnings of impending major geomagnetic activity, up to one hour in advance. Warnings and alerts issued by NOAA allow those with systems sensitive to such activity to take preventative action. The RTSW system gathers solar wind and energetic particle data at high time resolution from four ACE instruments (MAG, SWEPAM, EPAM, and SIS), packs the data into a low-rate bit stream, and broadcasts the data continuously. NASA sends real-time data to NOAA each day when downloading science data. With a combination of dedicated ground stations (CRL in Japan and RAL in Great Britain) and time on existing ground tracking networks (NASA DSN and the USAF's AFSCN), the RTSW system can receive data 24 hours per day throughout the year. The raw data are immediately sent from the ground station to the Space Weather Prediction Center in [[Boulder, Colorado]], processed, and then delivered to its Space Weather Operations Center where they are used in daily operations; the data are also delivered to the CRL Regional Warning Center at [[Hiraiso Station]], Japan, to the [[55th Space Weather Squadron|USAF 55th Space Weather Squadron]], and placed on the [[World Wide Web]]. The data are downloaded, processed and dispersed within 5 minutes from the time they leave ACE. The RTSW system also uses the low-energy energetic particles to warn of approaching interplanetary shocks and to help monitor the flux of high-energy particles that can produce radiation damage in satellite systems.<ref name=zwickl98>{{cite journal |last=Zwickl |first=R. D. |title=The NOAA Real-Time Solar-Wind (RTSW) System using ACE Data |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=633–648 |doi=10.1023/A:1005044300738 |bibcode=1998SSRv...86..633Z |s2cid=189767518 |display-authors=et al.}}</ref>
+
+=== Solar Energetic Particle Ionic Charge Analyzer (SEPICA) ===
+[[File:ACE-sepica sm.jpg|thumb|SEPICA]]
+The Solar Energetic Particle Ionic Charge Analyzer (SEPICA) was the instrument on the Advanced Composition Explorer (ACE) that determined the ionic charge states of solar and interplanetary energetic particles in the energy range from ≈0.2 MeV nucl-1 to ≈5 MeV charge-1. The charge state of energetic ions contains key information to unravel source temperatures, acceleration, fractionation, and transport processes for these particle populations. SEPICA had the ability to resolve individual charge states with a substantially larger geometric factor than its predecessor ULEZEQ on [[ISEE-1]] and [[International Cometary Explorer|ISEE-3]], on which SEPICA was based. To achieve these two requirements at the same time, SEPICA was composed of one high-charge resolution sensor section and two low-charge resolution, but large geometric factor sections.<ref name=moebius98>{{cite journal |last=Moebius |first=E. |title=The Solar Energetic Particle Ionic Charge Analyzer (SEPICA) and the Data Processing Unit (S3DPU) for SWICS, SWIMS and SEPICA |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=449–495 |doi=10.1023/A:1005084014850 |bibcode=1998SSRv...86..449M |s2cid=12879423 |display-authors=et al.}}</ref>
+
+As of 2008, this instrument is no longer functioning due to failed gas valves.<ref name="ACE Home Page"/>
+
+=== Solar Isotope Spectrometer (SIS) ===
+[[File:ACE-sis sm.jpg|thumb|SIS]]
+The Solar Isotope Spectrometer (SIS) provides high-resolution measurements of the isotopic composition of energetic nuclei from He to Zn (Z=2 to 30) over the energy range from ~10 to ~100 MeV/nucleon. During large solar events, SIS measures the isotopic abundances of solar energetic particles to determine directly the composition of the [[solar corona]] and to study particle acceleration processes. During solar quiet times, SIS measures the isotopes of low-energy cosmic rays from the Galaxy and isotopes of the anomalous [[cosmic ray]] component, which originates in the nearby interstellar medium. SIS has two telescopes composed of silicon solid-state detectors that provide measurements of the nuclear charge, mass, and kinetic energy of incident nuclei. Within each telescope, particle trajectories are measured with a pair of two-dimensional silicon strip detectors instrumented with custom very-large-scale integrated (VLSI) electronics to provide both position and energy-loss measurements. SIS was specially designed to achieve excellent mass resolution under the extreme, high flux conditions encountered in large solar particle events. It provides a geometry factor of 40&nbsp;cm<sup>2</sup> sr, significantly greater than earlier solar particle isotope spectrometers.<ref name=stone98c>{{cite journal |last=Stone |first=E. C. |title=The Solar Isotope Spectrometer for the Advanced Composition Explorer |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=357–408 |doi=10.1023/A:1005027929871 |bibcode=1998SSRv...86..357S |s2cid=16609619 |display-authors=et al.}}</ref>
+
+=== Solar Wind Electron, Proton and Alpha Monitor (SWEPAM) ===
+[[File:ACE-swepam sm.jpg|thumb|SWEPAM]]
+The Solar Wind Electron Proton Alpha Monitor (SWEPAM) experiment provides the bulk solar wind observations for the Advanced Composition Explorer (ACE). These observations provide the context for elemental and isotopic composition measurements made on ACE as well as allowing the direct examination of numerous solar wind phenomena such as [[coronal mass ejection]], interplanetary shocks, and solar wind fine structure, with advanced, 3-D plasma instrumentation. They also provide an ideal data set for both heliospheric and [[magnetospheric]] multi-spacecraft studies where they can be used in conjunction with other, simultaneous observations from spacecraft such as [[Ulysses (spacecraft)|Ulysses]]. The SWEPAM observations are made simultaneously with independent electron (SWEPAM-e) and ion (SWEPAM-i) instruments. In order to save costs for the ACE project, SWEPAM-e and SWEPAM-i are the recycled flight spares from the joint [[NASA]]/[[European Space Agency|ESA]] Ulysses mission. Both instruments had selective refurbishment, modification, and modernization required to meet the ACE mission and spacecraft requirements. Both incorporate electrostatic analyzers whose fan-shaped fields of view sweep out all pertinent look directions as the spacecraft spins.<ref name=mccomas98>{{cite journal |last=McComas |first=D. J. |title=Solar Wind Electron Proton Alpha Monitor (SWEPAM) for the Advanced Composition Explorer |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=563–612 |doi=10.1023/A:1005040232597 |bibcode=1998SSRv...86..563M |s2cid=189791714 |display-authors=et al.}}</ref>
+
+=== Solar Wind Ion Composition Spectrometer (SWICS) and Solar Wind Ion Mass Spectrometer (SWIMS) ===
+[[File:ACE-swics sm.jpg|thumb|SWICS]]
+[[File:ACE-swims sm.jpg|thumb|SWIMS]]
+The Solar Wind Ion Composition Spectrometer (SWICS) and the Solar Wind Ions Mass Spectrometer (SWIMS) on ACE are instruments optimized for measurements of the chemical and isotopic composition of solar and interstellar matter. SWICS determined uniquely the chemical and ionic-charge composition of the [[solar wind]], the thermal and mean speeds of all major solar wind ions from H through Fe at all solar wind speeds above 300&nbsp;km/s<sup>−1</sup> (protons) and 170&nbsp;km/s<sup>−1</sup> (Fe+16), and resolved H and He isotopes of both solar and interstellar sources. SWICS also measured the distribution functions of both the interstellar cloud and dust cloud [[pickup ion]]s up to energies of 100 keV/e<sup>−1</sup>. SWIMS measures the chemical, isotopic and charge state composition of the solar wind for every element between He and Ni. Each of the two instruments are time-of-flight [[mass spectrometer]]s and use electrostatic analysis followed by the time-of-flight and, as required, an energy measurement.<ref name=gloeckler98>{{cite journal |last=Gloeckler |first=G. |title=Investigation of the composition of solar and interstellar matter using solar wind and pickup ion measurements with SWICS and SWIMS on the ACE spacecraft |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=497–539 |doi=10.1023/A:1005036131689 |bibcode=1998SSRv...86..497G |s2cid=189787814|display-authors=et al.}}</ref><ref>{{cite web |url=http://solar-heliospheric.engin.umich.edu/ace/ |title=ACE/SWICS and ACE/SWIMS |publisher=The Solar and Heliospheric Research Group |access-date=30 June 2006 |archive-url=https://web.archive.org/web/20060810115838/http://solar-heliospheric.engin.umich.edu/ace/ |archive-date=10 August 2006 |url-status=live}}</ref>
+
+On 23 August 2011, the SWICS time-of-flight electronics experienced an age- and radiation-induced hardware anomaly that increased the level of background in the composition data. To mitigate the effects of this background, the model for identifying ions in the data was adjusted to take advantage of only the ion energy-per-charge as measured by the electrostatic analyzer, and the ion energy as measured by solid-state detectors. This has allowed SWICS to continue to deliver a subset of the data products that were provided to the public prior to the hardware anomaly, including ion charge state ratios of oxygen and carbon, and measurements of solar wind iron. The measurements of proton density, speed, and thermal speed by SWICS were not affected by this anomaly and continue to the present day.<ref name="ACE Home Page"/>
+
+=== Ultra-Low-Energy Isotope Spectrometer (ULEIS) ===
+[[File:ACE-uleis sm.jpg|thumb|ULEIS]]
+The Ultra-Low-Energy Isotope Spectrometer (ULEIS) on the ACE spacecraft is an ultra-high-resolution [[mass spectrometer]] that measures particle composition and energy spectra of elements He–Ni with energies from ~45 keV/nucleon to a few MeV/nucleon. ULEIS investigates particles accelerated in [[solar energetic particle]] events, interplanetary shocks, and at the solar wind termination shock. By determining energy spectra, mass composition, and temporal variations in conjunction with other ACE instruments, ULEIS greatly improves our knowledge of solar abundances, as well as other reservoirs such as the local [[interstellar medium]]. ULEIS combines the high sensitivity required to measure low particle fluxes, along with the capability to operate in the largest solar particle or interplanetary shock events. In addition to detailed information for individual ions, ULEIS features a wide range of count rates for different ions and energies that allows accurate determination of particle fluxes and anisotropies over short (few minutes) time scales.<ref name=mason98>{{cite journal |last=Mason |first=G. M. |title=The Ultra-Low-Energy Isotope Spectrometer (ULEIS) for the Advanced Composition Explorer |journal=Space Science Reviews |date=July 1998 |volume=86 |pages=409–448 |doi=10.1023/A:1005079930780 |bibcode=1998SSRv...86..409M |s2cid=42297254 |display-authors=et al.}}</ref>
+
+== Science results ==
+=== The spectra of particles observed by ACE ===
+[[File:ACE O Fluence.png|thumb|upright=1.2|An oxygen fluence observed by ACE (Figure 1)]]
+
+Figure 1 shows the particle fluence (total flux over a given period of time) of oxygen at ACE for a time period just after solar minimum, the part of the 11-year solar cycle when solar activity is lowest.<ref name=mewaldt01>{{cite journal |last=Mewaldt |first=R. A. |title=Long-term fluences of energetic particles in the heliosphere |journal=AIP Conf. Proc. |date=2001 |volume=86 |pages=165–170 |doi=10.1063/1.1433995 |bibcode=2001AIPC..598..165M |display-authors=et al. |url=https://deepblue.lib.umich.edu/bitstream/2027.42/87586/2/165_1.pdf |hdl=2027.42/87586 |hdl-access=free}}</ref> The lowest-energy particles come from the slow and fast solar wind, with speeds from about 300 to about 800&nbsp;km/s. Like the solar wind distribution of all ions, that of oxygen has a suprathermal tail of higher-energy particles; that is, in the frame of the bulk solar wind, the plasma has an energy distribution that is approximately a thermal distribution but has a notable excess above about 5 [[Electronvolt|keV]], as shown in Figure 1. The ACE team has made contributions to understanding the origins of these tails and their role in injecting particles into additional acceleration processes.
+
+At energies higher than those of the solar wind particles, ACE observes particles from regions known as [[corotating interaction region]]s (CIRs). CIRs form because the solar wind is not uniform. Due to solar rotation, high-speed streams collide with preceding slow solar wind, creating shock waves at roughly 2–5 [[astronomical unit]]s (AU, the distance between Earth and the Sun) and forming CIRs. Particles accelerated by these shocks are commonly observed at 1 AU below energies of about 10 MeV per nucleon. ACE measurements confirm that CIRs include a significant fraction of singly charged helium formed when interstellar neutral helium is ionized.<ref name=moebius02>{{cite journal |last=Möbius |first=E. |title=Charge states of energetic (~ 0.5 MeV/n) ions in corotating interaction regions at 1 AU and implications on source populations |journal=Geophys. Res. Lett. |date=2002 |volume=29 |issue=2 |page=1016 |doi=10.1029/2001GL013410 |bibcode=2002GeoRL..29.1016M |s2cid=119651635 |display-authors=et al. |doi-access=free}}</ref>
+
+At yet higher energies, the major contribution to the measured flux of particles is due to solar energetic particles (SEPs) associated with interplanetary (IP) shocks driven by fast coronal mass ejections (CMEs) and solar flares. Enriched abundances of helium-3 and helium ions show that the suprathermal tails are the main seed population for these SEPs.<ref name=desai01>{{cite journal |last=Desai |first=M. I. |title=Acceleration of <sup>3</sup>He nuclei at interplanetary shocks |journal=Astrophysical Journal |date=2001 |volume=553 |issue=1 |pages=L89–L92 |doi=10.1086/320503 |bibcode=2001ApJ...553L..89D |display-authors=et al. |doi-access=free}}</ref> IP shocks traveling at speeds up to about {{cvt|2000|km/s}} accelerate particles from the suprathermal tail to 100 MeV per nucleon and more. IP shocks are particularly important because they can continue to accelerate particles as they pass over ACE and thus allow shock acceleration processes to be studied in situ.
+
+Other high-energy particles observed by ACE are anomalous cosmic rays (ACRs) that originate with neutral interstellar atoms that are ionized in the inner heliosphere to make "pickup" ions and are later accelerated to energies greater than 10 MeV per nucleon in the outer heliosphere. ACE also observes pickup ions directly; they are easily identified because they are singlely charged. Finally, the highest-energy particles observed by ACE are the galactic cosmic rays (GCRs), thought to be accelerated by shock waves from supernova explosions in our galaxy.
+
+=== Other findings from ACE ===
+Shortly after launch, the SEP sensors on ACE detected solar events that had unexpected characteristics. Unlike most large, shock-accelerated SEP events, these were highly enriched in iron and helium-3, as are the much smaller, flare-associated impulsive SEP events.<ref name=cohen99>{{cite journal |last=Cohen |first=C. M. S. |author-link1=Christina Cohen|title=Inferred charge states of high energy solar particles from the solar isotope spectrometer on ACE |journal=Geophys. Res. Lett. |date=1999 |volume=26 |issue=2 |pages=149–152 |doi=10.1029/1998GL900218 |bibcode=1999GeoRL..26..149C |display-authors=et al. |url=https://authors.library.caltech.edu/48990/1/grl11860.pdf |doi-access=free}}</ref><ref name=mason99>{{cite journal |last=Mason |first=G. M. |title=Particle acceleration and sources in the November 1997 solar energetic particle events |journal=Geophys. Res. Lett. |date=1999 |volume=26 |issue=2 |pages=141–144 |doi=10.1029/1998GL900235 |bibcode=1999GeoRL..26..141M |display-authors=et al. |url=https://authors.library.caltech.edu/48993/1/grl11877.pdf |doi-access=free}}</ref> Within the first year of operations, ACE found many of these "hybrid" events, which led to substantial discussion within the community as to what conditions could generate them.<ref name=cohen12>{{cite journal |last=Cohen |first=C. M. S. |title=Observations of the longitudinal spread of solar energetic particle events in solar cycle 24 |journal=AIP Conf. Proc. |date=2012 |volume=1436 |pages=103–109 |display-authors=et al. |series=AIP Conference Proceedings |url=https://authors.library.caltech.edu/31666/1/APC000103.pdf |doi=10.1063/1.4723596 |bibcode=2012AIPC.1436..103C}}</ref>
+
+One remarkable recent discovery in heliospheric physics has been the ubiquitous presence of suprathermal particles with common spectral shape. This shape unexpectedly occurs in the quiet solar wind; in disturbed conditions downstream from shocks, including CIRs; and elsewhere in the heliosphere. These observations have led Fisk and Gloeckler<ref name=fisk08>{{cite journal |last=Fisk |first=L. A. |title=Acceleration of suprathermal tails in the solar wind |journal=Astrophysical Journal |date=2008 |volume=686 |issue=2 |pages=1466–1473 |doi=10.1086/591543 |bibcode=2008ApJ...686.1466F |display-authors=et al. |doi-access=free}}</ref> to suggest a novel mechanism for the particles' acceleration.
+
+Another discovery has been that the current solar cycle, as measured by sunspots, CMEs, and SEPs, has been much less magnetically active than the previous cycle. McComas et al.<ref name=mccomas08>{{cite journal |last=McComas |first=D. J. |s2cid=14927209 |title=Weaker solar wind from the polar coronal holes and the whole Sun |journal=Geophys. Res. Lett. |date=2008 |volume=35 |issue=18 |page=L18103 |doi=10.1029/2008GL034896 |bibcode=2008GeoRL..3518103M |display-authors=et al. |doi-access=free}}</ref> have shown that the dynamic pressures of the solar wind measured by the Ulysses satellite over all latitudes and by ACE in the ecliptic plane are correlated and were declining in time for about 2 decades. They concluded that the Sun had been undergoing a global change that affected the overall heliosphere. Simultaneously, GCR intensities were increasing and in 2009 were the highest recorded during the past 50 years.<ref name=leske11>{{cite journal |last=Leske |first=R. A. |title=Anomalous and galactic cosmic rays at 1 AU during the cycle 23/24 solar minimum |journal=Space Sci. Rev. |date=2011 |doi=10.1007/s11214-011-9772-1 |display-authors=et al. |bibcode=2013SSRv..176..253L |volume=176 |issue=1–4 |pages=253–263 |s2cid=122973813}}</ref> GCRs have more difficulty reaching Earth when the Sun is more magnetically active, so the high GCR intensity in 2009 is consistent with a globally reduced dynamic pressure of the solar wind.
+
+ACE also measures abundances of cosmic ray [[Isotopes of nickel|nickel-59]] and [[Isotopes of cobalt|cobalt-59]] isotopes; these measurements indicate that a time longer than the half-life of nickel-59 with bound electrons (7.6 × 10<sup>4</sup> years) elapsed between the time nickel-59 was created in a supernova explosion and the time cosmic rays were accelerated.<ref name=wiedenbeck99>{{cite journal |last=Wiedenbeck |first=M. E. |title=Constraints on the time delay between nucleosynthesis and cosmic-ray acceleration from observations of <sup>59</sup>Ni and <sup>59</sup>Co|journal=Astrophysical Journal |date=1999 |volume=523 |issue=1 |pages=L61–L64 |doi=10.1086/312242 |bibcode=1999ApJ...523L..61W |display-authors=et al. |doi-access=free}}</ref> Such long delays indicate that cosmic rays come from the acceleration of old stellar or interstellar material rather than from fresh supernova ejecta. ACE also measures an [[Isotopes of iron|iron-58]]/[[iron-56]] ratio that is enriched over the same ratio in solar system material.<ref name=binns05>{{cite journal |last=Binns |first=W. R. |title=Cosmic-ray neon, Wolf-Rayet stars, and the superbubble origin of galactic cosmic rays|journal=Astrophysical Journal|date=2005|volume=634|issue=1 |pages=351–364 |doi=10.1086/496959 |bibcode=2005ApJ...634..351B |display-authors=et al. |arxiv=astro-ph/0508398 |s2cid=34996423}}</ref> These and other findings have led to a theory of the origin of cosmic rays in galactic [[superbubble]]s, formed in regions where many supernovae explode within a few million years. Recent observations of a cocoon of freshly accelerated cosmic rays in the Cygnus superbubble by the Fermi gamma-ray observatory<ref name=ackermann11>{{cite journal |last=Ackermann |first=M. |s2cid=38789717 |title=A cocoon of freshly accelerated cosmic rays detected by Fermi in the Cygnus superbubble |journal=Science |date=2011 |volume=334 |issue=6059 |pages=1103–1107 |doi=10.1126/science.1210311 |bibcode=2011Sci...334.1103A |display-authors=et al. |pmid=22116880 |url=https://www.science.org/doi/10.1126/science.1210311 |doi-access=free }}</ref> support this theory.
+
+== Follow-on space weather observatory ==
+On 11 February 2015, the [[Deep Space Climate Observatory]] (DSCOVR)—with several similar instruments including a newer and more sensitive instrument to detect Earth-bound [[coronal mass ejection]]s—successfully launched by [[NASA]] and [[National Oceanic and Atmospheric Administration]] aboard a [[SpaceX]] [[Falcon 9 v1.1|Falcon 9]] [[launch vehicle]] from [[Cape Canaveral]], [[Florida]]. The spacecraft arrived at L<sub>1</sub> by 8 June 2015, just over 100 days after launch.<ref name="noaa20150608">{{cite news |url=http://www.nesdis.noaa.gov/news_archives/DSCOVR_L1_orbit.html |title=Nation's first operational satellite in deep space reaches final orbit |publisher=NOAA |url-status=dead |archive-url=https://web.archive.org/web/20150608182042/http://www.nesdis.noaa.gov/news_archives/DSCOVR_L1_orbit.html |archive-date=8 June 2015 |date=8 June 2015 |access-date=8 June 2015}} {{PD-notice}}</ref> Along with ACE, both will provide space weather data as long as ACE can continue to function.<ref name=nsf20150208>{{cite news |last1=Graham |first1=William |title=SpaceX Falcon 9 ready for DSCOVR mission |url=http://www.nasaspaceflight.com/2015/02/spacex-falcon-9-dscovr-mission/ |access-date=8 February 2015 |publisher=NASASpaceFlight.com |date=8 February 2015}}</ref>
+
+== Further reading ==
+* {{Cite book |url=https://www.nasa.gov/wp-content/uploads/2023/04/sp-4111.pdf |title=Shared Voyage: Learning and Unlearning from Remarkable Projects |publisher=NASA History Division |location=Washington, DC |year=2005 |first1=Alexander |last1=Laufer |first2=Todd |last2=Post |first3=Edward J. |last3=Hoffman}}
+
+== See also ==
+{{Portal|Spaceflight}}
+
+{{Columns-list|colwidth=30em|
+* [[Cluster (spacecraft)]]
+* [[Heliophysics]]
+* [[Helios (spacecraft)]]
+* [[Magnetospheric Multiscale Mission]] (MMS), launched in 2015
+* [[Parker Solar Probe]], launched in August 2018
+* [[Solar and Heliospheric Observatory]] (SoHO), launched in 1995, still operational
+* [[Solar Dynamics Observatory]] (SDO), launched in 2010, still operational
+* [[Solar Maximum Mission]] (SMM), launched in 1980, decommissioned in 1989
+* [[Solar Orbiter]] (SolO), launched in 2020
+* [[STEREO]] (Solar TErrestrial RElations Observatory), launched in 2006, still operational
+* [[Stamatios Krimigis|Tom Krimigis]]
+* [[TRACE]] (Transition Region and Coronal Explorer), launched in 1998, decommissioned in 2010
+* [[Ulysses (spacecraft)|''Ulysses'' (spacecraft)]], launched in 1990, decommissioned in 2009
+* [[Van Allen Probes]]
+* [[Wind (spacecraft)|''Wind'' (spacecraft)]], launched in 1994, still operational
+}}
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+{{Commons}}
+* [http://www.srl.caltech.edu/ACE/ Advanced Composition Explorer (ACE)] - from the California Institute of Technology
+* [http://www.swpc.noaa.gov/products/ace-real-time-solar-wind ACE Real-Time Solar Wind] - from the National Oceanic and Atmospheric Association
+
+{{Explorer program}}
+{{Sun spacecraft}}
+{{Space observatories}}
+{{Orbital launches in 1997}}
+{{Authority control}}
+
+[[Category:Spacecraft launched in 1997]]
+[[Category:Artificial satellites at Earth–Sun Lagrange points]]
+[[Category:Explorers Program]]
+[[Category:Missions to the Sun]]
+[[Category:Space telescopes]]
+[[Category:Spacecraft launched by Delta II rockets]]
+[[Category:NASA space probes]]
+[[Category:Cosmic-ray experiments]]
+[[Category:Spacecraft using Lissajous orbits]]

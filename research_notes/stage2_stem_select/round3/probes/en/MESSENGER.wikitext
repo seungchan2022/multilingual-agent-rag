@@ -1,0 +1,710 @@
+{{Short description|NASA mission to Mercury}}
+{{Redirect|Mercury Messenger|the 2003 concept car|Mercury Messenger (concept car)|other uses|Messenger (disambiguation)}}
+{{Use American English|date=April 2026}}
+{{Use mdy dates|date=March 2020}}
+{{Infobox spaceflight
+| name               = ''MESSENGER''
+| image              = MESSENGER - spacecraft at mercury - atmercury lg.jpg
+| image_caption      = Artist's rendering of ''MESSENGER'' orbiting Mercury
+| insignia           = MESSENGER mission emblem.png
+| mission_type       = [[Mercury (planet)|Mercury]] orbiter
+| operator           = [[National Aeronautics and Space Administration|NASA]]
+| website            = {{URL|http://messenger.jhuapl.edu/}}
+| COSPAR_ID          = 2004-030A
+| SATCAT             = 28391
+| mission_duration   = {{ubli
+   | '''Total''': 10 years, 8 months and 27 days
+   | '''At Mercury''': 4 years, 1 month and 14 days
+   | '''En route''': 6 years, 7 months and 15 days
+   | '''Primary mission''': 1 year
+   | '''First extension''': 1 year<ref name=Extended2013>{{cite web|url=http://www.upi.com/Top_News/US/2011/11/15/NASA-extends-spacecrafts-Mercury-mission/UPI-55131321408343/|title=NASA extends spacecraft's Mercury mission|publisher=UPI|date=November 15, 2011|access-date=December 20, 2012|archive-url=https://web.archive.org/web/20130531103344/http://www.upi.com/Top_News/US/2011/11/15/NASA-extends-spacecrafts-Mercury-mission/UPI-55131321408343/|archive-date=May 31, 2013|url-status=live}}</ref><ref name=ExMissionCompleted2013/>
+   | '''Second extension''': 2 years<ref name="Wu 2015">{{cite news |last=Wu |first=Brian |url=http://www.sciencetimes.com/articles/5077/20150330/nasa-set-extend-mercury-mission-another-month.htm |title=NASA Set to Extend Mercury Mission for Another Month |work=Johns Hopkins University APL |publisher=The Science Times |date=April 3, 2015 |access-date=April 4, 2015 |archive-url=https://web.archive.org/web/20190328115956/http://www.sciencetimes.com/articles/5077/20150330/nasa-set-extend-mercury-mission-another-month.htm |archive-date=March 28, 2019 |url-status=live }}</ref><ref name="Extension 2015">{{cite press release |url=https://spaceref.com/science-and-exploration/messengers-operations-at-mercury-extended/ |title=MESSENGER's Operations at Mercury Extended |publisher=[[Applied Physics Laboratory]] |via=SpaceRef |editor-last=Cowing |editor-first=Keith |date=April 3, 2015 |access-date=April 4, 2015 |archive-url=https://archive.today/20240125212816/https://spaceref.com/science-and-exploration/messengers-operations-at-mercury-extended/ |archive-date=January 25, 2024 |url-status=live }}</ref>
+ }}
+| spacecraft_type    = 
+| manufacturer       = [[Applied Physics Laboratory]]
+| dry_mass           = 
+| launch_mass        = {{cvt|1107.9|kg}}<ref>{{cite web |url=https://solarsystem.nasa.gov/missions/messenger/in-depth/ |title=MESSENGER |date=December 20, 2017 |publisher=NASA's Solar System Exploration website |access-date=December 1, 2022 |archive-url=https://web.archive.org/web/20221011034127/https://solarsystem.nasa.gov/missions/messenger/in-depth/ |archive-date=October 11, 2022 |url-status=live}}</ref>
+| power              = 450&nbsp;watts
+| launch_date        = {{start date text|August 3, 2004, 06:15:56|timezone=yes}}&nbsp;UTC
+| launch_rocket      = [[Delta II]]  7925H-9.5
+| launch_site        = [[Cape Canaveral Air Force Station|Cape Canaveral]], [[Cape Canaveral Air Force Station Space Launch Complex 17|SLC-17B]]
+| launch_contractor  = 
+| entered_service    = April 4, 2011
+| disposal_type      = Crashed into Mercury
+| destroyed          = April 30, 2015, 19:26 UTC<ref>{{Cite web|url=https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration|title=Beyond Earth: A Chronicle of Deep Space Exploration|website=NASA Solar System Exploration|date=September 28, 2018|access-date=June 2, 2019|archive-url=https://web.archive.org/web/20190425150620/https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/|archive-date=April 25, 2019|url-status=live }}</ref>
+| orbit_epoch        = January 1, 2000<ref name=Domingue>{{cite book |editor1-first=D.L. |editor1-last=Domingue |editor2-first=C.T. |editor2-last=Russell |title=Messenger mission to Mercury |date=2007 |publisher=Springer |location=New York |isbn=978-0-387-77214-1| pages=225–245| edition=1st}}</ref>
+| orbit_reference    = [[hermiocentric orbit|Hermiocentric]]
+| orbit_periapsis    = {{cvt|200|km}}
+| orbit_apoapsis     = {{cvt|10300|km}}
+| orbit_inclination  = 80°
+| orbit_period       = 12 hours
+| apsis              = hermion
+| interplanetary     = {{Infobox spaceflight/IP
+   |type                = flyby
+   |note                = gravity assist
+   |object              = [[Earth]]
+   |distance            = {{cvt|2347|km}}
+   |arrival_date        = August 2, 2005
+ }}
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |note                = gravity assist
+   |object              = [[Venus]]
+   |distance            = {{cvt|2990|km}}
+   |arrival_date        = October 24, 2006
+ }}
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |note                = gravity assist
+   |object              = [[Venus]]
+   |distance            = {{cvt|337|km}}
+   |arrival_date        = June 5, 2007
+ }}
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |object              = [[Mercury (planet)|Mercury]]
+   |distance            = {{cvt|200|km}}
+   |arrival_date        = January 14, 2008
+ }}
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |object              = [[Mercury (planet)|Mercury]]
+   |distance            = {{cvt|200|km}}
+   |arrival_date        = October 6, 2008
+ }}
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |object              = [[Mercury (planet)|Mercury]]
+   |distance            = {{cvt|228|km}}
+   |arrival_date        = September 29, 2009
+ }}
+ {{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Mercury (planet)|Mercury]]
+   |orbits              = 
+   |arrival_date        = March 18, 2011, 01:00&nbsp;UTC<ref>{{cite web | url = http://www.nasa.gov/connect/chat/messenger_chat.html | title = NASA Chats – MESSENGER Prepares to Orbit Mercury | access-date = March 18, 2011 | first1 = Jimmy | last1= Lee | first2 = Mike | last2= Galuska | date = March 18, 2011 | publisher = NASA|archive-url=https://web.archive.org/web/20110607054204/http://www.nasa.gov/connect/chat/messenger_chat.html|archive-date=June 7, 2011}}</ref>
+ }}
+| programme          = '''[[Discovery Program]]'''
+| previous_mission   = ''[[CONTOUR]]''
+| next_mission       = ''[[Deep Impact (spacecraft)|Deep Impact]]''
+}}
+
+'''''MESSENGER''''' was a [[NASA]] [[Space probe|robotic space probe]] that orbited the planet [[Mercury (planet)|Mercury]] between 2011 and 2015, studying Mercury's chemical composition, [[Geology of Mercury|geology]], and [[Mercury's magnetic field|magnetic field]].<ref name=CircleMerc>{{cite news| url=https://www.nytimes.com/aponline/2011/03/17/science/AP-US-SCI-Mercury.html?ref=science | work= The New York Times | title=NASA Spacecraft Circling Mercury | date=March 17, 2011|access-date=July 9, 2013}}</ref><ref>{{cite journal|last=Wendel |first=J. |title=Mercury's secrets revealed by soon-to-crash spacecraft |journal=Eos |volume=96 | doi=10.1029/2015EO029165 | date=April 2015 |doi-access=free }}</ref>  The name is an [[acronym]] for ''Mercury Surface, Space Environment, Geochemistry, and Ranging'', and a reference to the messenger god [[Mercury (mythology)|Mercury]] from [[Roman mythology]].
+
+''MESSENGER'' was launched aboard a [[Delta II]] rocket in August 2004.  Its path involved a complex series of [[gravity assist|flyby]]s – the spacecraft flew by [[Earth]] once, [[Venus]] twice, and Mercury itself three times, allowing it to decelerate relative to Mercury using minimal fuel. During its first flyby of Mercury in January 2008, ''MESSENGER'' became the second mission, after [[Mariner 10]] in 1975, to reach Mercury.<ref name="jhuapl1">{{cite press release|url=http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=115 |title=Countdown to MESSENGER's Closest Approach with Mercury |date=January 14, 2008 |publisher=Johns Hopkins University |access-date=May 1, 2009 |archive-url=https://web.archive.org/web/20130513080731/http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=115 |archive-date=May 13, 2013 }}</ref><ref name="jhuapl2">{{cite press release | url= http://messenger.jhuapl.edu/news_room/details.php?id=96 | title= Critical Deep-Space Maneuver Targets MESSENGER for Its Second Mercury Encounter | date= March 19, 2008 | publisher= Johns Hopkins University | access-date= April 20, 2010 | archive-url= https://web.archive.org/web/20130513075754/http://messenger.jhuapl.edu/news_room/details.php?id=96 | archive-date= May 13, 2013 }}</ref><ref name="jhuapl3">{{cite press release | url= http://messenger.jhuapl.edu/news_room/details.php?id=116 | title= Deep-Space Maneuver Positions MESSENGER for Third Mercury Encounter | date= December 4, 2008 | publisher= Johns Hopkins University | access-date= April 20, 2010 | archive-url= https://web.archive.org/web/20130513080326/http://messenger.jhuapl.edu/news_room/details.php?id=116 | archive-date= May 13, 2013 }}</ref>
+
+''MESSENGER'' entered orbit around Mercury on March 18, 2011, becoming the first spacecraft to do so.<ref name=CircleMerc/> It successfully completed its primary mission in 2012.<ref name=ExMissionCompleted2013/> Following two mission extensions, the spacecraft used the last of its maneuvering propellant to deorbit, impacting the surface of Mercury on April 30, 2015.<ref name="NYT-20150430">{{cite news |last=Corum |first=Jonathan |title=Messenger's Collision Course With Mercury |url=https://www.nytimes.com/interactive/2015/04/30/science/space/messenger-collides-with-mercury.html |date=April 30, 2015 |work=[[The New York Times]] |access-date=April 30, 2015 |archive-url=https://web.archive.org/web/20150510040355/http://www.nytimes.com/interactive/2015/04/30/science/space/messenger-collides-with-mercury.html |archive-date=May 10, 2015 |url-status=live }}</ref>
+
+== Mission overview ==
+''MESSENGER''{{'}}s formal data collection mission began on April 4, 2011.<ref>{{Cite web|url=https://www.youtube.com/watch?v=xQ-dm2zHljk |archive-url=https://ghostarchive.org/varchive/youtube/20211212/xQ-dm2zHljk| archive-date=2021-12-12 |url-status=live|title=Exploring Mercury by Spacecraft: The MESSENGER Mission|date=May 24, 2011 |via=www.youtube.com}}{{cbignore}}</ref> The primary mission was completed on March 17, 2012, having collected close to 100,000 images.<ref name="jhuap14">{{cite press release|url=http://messenger.jhuapl.edu/news_room/details.php?id=198 |title=MESSENGER Provides New Look at Mercury's Landscape, Metallic Core, and Polar Shadows |date=March 21, 2012 |publisher=Johns Hopkins University |access-date=March 22, 2012 |archive-url=https://web.archive.org/web/20130513081020/http://messenger.jhuapl.edu/news_room/details.php?id=198 |archive-date=May 13, 2013 }}</ref> ''MESSENGER'' achieved 100% mapping of Mercury on March 6, 2013, and completed its first year-long extended mission on March 17, 2013.<ref name=ExMissionCompleted2013>{{cite web|url=http://messenger.jhuapl.edu/news_room/details.php?id=237 |title=MESSENGER Completes Its First Extended Mission at Mercury |publisher=JHU – APL |date=March 18, 2013 |access-date=July 8, 2013 |archive-url=https://web.archive.org/web/20130729044412/http://messenger.jhuapl.edu/news_room/details.php?id=237 |archive-date=July 29, 2013 }}</ref> The probe's second extended mission lasted for over two years, but as its low orbit degraded, it required reboosts to avoid impact. It conducted its final reboost burns on October 24, 2014, and January 21, 2015, before crashing into Mercury on April 30, 2015.<ref name=EclipseReboost>{{cite web|url=http://www.planetary.org/blogs/emily-lakdawalla/2014/10100759-from-mercury-orbit-messenger.html|title=From Mercury orbit, MESSENGER watches a lunar eclipse|publisher=Planetary Society|date=October 10, 2014|access-date=January 23, 2015|archive-url=https://web.archive.org/web/20160902003057/http://www.planetary.org/blogs/emily-lakdawalla/2014/10100759-from-mercury-orbit-messenger.html|archive-date=September 2, 2016|url-status=live}}</ref><ref name='Bang'>{{cite news|url=https://www.bbc.com/news/science-environment-32542646|title=Messenger's Mercury trip ends with a bang, and silence|work=BBC News|date=April 30, 2015|access-date=May 2, 2015|archive-url=https://web.archive.org/web/20170930131805/http://www.bbc.com/news/science-environment-32542646|archive-date=September 30, 2017|url-status=live}}</ref><ref name=200,000ImagesSurpassed>{{cite web|url=http://messenger.jhuapl.edu/news_room/details.php?id=251|title=MESSENGER Surpasses 200,000 Orbital Images of Mercury|publisher=JHU – APL|date=February 6, 2014|access-date=April 14, 2014|archive-url=https://web.archive.org/web/20140415084042/http://messenger.jhuapl.edu/news_room/details.php?id=251|archive-date=April 15, 2014}}</ref>
+
+During its stay in Mercury orbit, the probe's instruments yielded significant data, including a characterization of Mercury's magnetic field<ref name = Nantes5/> and the discovery of water [[ice]] at the planet's north pole,<ref name=IceonMercury/><ref>{{cite news |last=Rincon |first=Paul |url=https://www.bbc.com/news/science-environment-29644406 |title=Mercury's hidden water-ice revealed |work=BBC News |date=October 16, 2014 |access-date=October 17, 2014 }}</ref> which had long been suspected on the basis of Earth-based radar data.<ref name="HarmonSlade1994">{{cite journal|last1=Harmon|first1=J. K.|last2=Slade|first2=M. A.|last3=Vélez|first3=R. A.|last4=Crespo|first4=A.|last5=Dryer|first5=M. J.|last6=Johnson|first6=J. M.|title=Radar mapping of Mercury's polar anomalies|journal=Nature|volume=369|issue=6477|date=1994|pages=213–215|issn=0028-0836|doi=10.1038/369213a0|bibcode = 1994Natur.369..213H |s2cid=4320356}}</ref>
+
+==Mission background==
+
+===Previous missions===
+In 1973, [[Mariner 10]] was launched by NASA to make multiple flyby encounters of Venus and Mercury. Mariner 10 provided the first detailed data of Mercury, mapping 40–45% of the surface.<ref name="USATMessenger">{{cite news|url=https://www.usatoday.com/tech/news/2004-08-16-mercury-may-shrink_x.htm|title=MESSENGER to test theory of shrinking Mercury|newspaper=USA Today|first=Tariq|last=Malik|date=August 16, 2004|access-date=May 23, 2012|archive-url=https://web.archive.org/web/20110726231423/http://www.usatoday.com/tech/news/2004-08-16-mercury-may-shrink_x.htm|archive-date=July 26, 2011|url-status=live}}</ref> Mariner 10's final flyby of Mercury occurred on March 16, 1975. No subsequent close-range observations of the planet would take place for more than 30 years.
+
+===Proposals for the mission===
+In 1998, a study detailed a proposed mission to send an orbiting spacecraft to Mercury, as the planet was at that point the least-explored of the inner planets. In the years following the Mariner 10 mission, subsequent mission proposals to revisit Mercury had appeared too costly, requiring large quantities of propellant and a [[heavy lift launch vehicle]]. Moreover, inserting a spacecraft into orbit around Mercury is difficult, because a probe approaching on a direct path from Earth would be accelerated by the [[Sun]]'s gravity and pass Mercury far too quickly to orbit it. However, using a trajectory designed by Chen-wan Yen<ref>{{cite web|title=Finally! NASA Prepares to Orbit Mercury|url=https://science.nasa.gov/science-news/science-at-nasa/2011/15mar_messenger|website=Science NASA|publisher=NASA|access-date=March 26, 2018|archive-date=March 25, 2023|archive-url=https://web.archive.org/web/20230325052032/https://science.nasa.gov/science-news/science-at-nasa/2011/15mar_messenger/}}</ref> in 1985, the study showed it was possible to execute a [[Discovery Program|Discovery-class]] mission by using multiple, consecutive gravity assist, 'swingby' maneuvers around Venus and Mercury, in combination with minor propulsive trajectory corrections, to gradually slow the spacecraft and thereby minimize propellant needs.<ref name="1998Design">{{Cite journal | first = J. V. | last = McAdams | author2 = J. L. Horsewood | author3 = C. L. Yen | title = Discovery-class Mercury orbiter trajectory design for the 2005 launch opportunity | journal = 1998 Astrodynamics Specialist Conference | publisher = American Institute of Aeronautics and Astronautics/American Astronautical Society | place = Boston, MA | pages = 109–115 | date = August 10–12, 1998 | id = AIAA-98-4283 | url = http://messenger.jhuapl.edu/the_mission/publications/McAdams.et.al.1998.pdf | archive-url = https://web.archive.org/web/20130513075815/http://messenger.jhuapl.edu/the_mission/publications/McAdams.et.al.1998.pdf | archive-date = May 13, 2013 }}</ref>
+
+===Objectives===
+The ''MESSENGER'' mission was designed to study the characteristics and environment of Mercury from orbit. The scientific objectives of the mission were:<ref name='Objectives1'>{{cite web | url = https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A | title = MESSENGER – Mission description | access-date = July 8, 2013 | publisher = NASA | archive-url = https://web.archive.org/web/20190415220344/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A | archive-date = April 15, 2019 | url-status = live}}</ref><ref>{{cite web | url = http://discovery.nasa.gov/messenger.cfml | title = Discovery Program: MESSENGER | access-date = July 8, 2013 | publisher = NASA | archive-url = https://web.archive.org/web/20130603184332/http://discovery.nasa.gov/messenger.cfml | archive-date = June 3, 2013 }}</ref>
+* to characterize the chemical composition of Mercury's surface.
+* to study the planet's geologic history.
+* to elucidate the nature of the global magnetic field ([[magnetosphere]]). 
+* to determine the size and state of the [[Planetary core|core]].
+* to determine the volatile inventory at the poles.
+* to study the nature of Mercury's [[exosphere]].
+
+==Spacecraft design==
+[[File:MESSENGER Probe.stl|alt=Interactive 3D model of MESSENGER|thumb|298x298px|Interactive 3D model of ''MESSENGER'']]
+The ''MESSENGER'' spacecraft was designed and built at the [[Johns Hopkins University]] [[Applied Physics Laboratory]]. Science operations were managed by [[Sean Solomon]] as principal investigator, and mission operations were also conducted at JHU/APL.<ref name="MESSENGERLaunch"/> The ''MESSENGER'' [[Satellite bus|bus]] measured {{convert|1.85|m|in|sp=us}} tall, {{convert|1.42|m|in|abbr=on}} wide, and {{convert|1.27|m|in|abbr=on}} deep. The bus was primarily constructed with four [[graphite fiber]] / [[cyanate ester]] composite panels that supported the propellant tanks, the large velocity adjust (LVA) thruster, attitude monitors and correction thrusters, the antennas, the instrument pallet, and a large ceramic-cloth sunshade, measuring {{convert|2.5|m|ft|abbr=on}} tall and {{convert|2|m|ft|abbr=on}} wide, for passive thermal control.<ref name="MESSENGERLaunch">{{cite press release| publisher=NASA / JHUAPL| date= August 2004| title= MESSENGER NASA's Mission to Mercury Launch Press Kit| url= http://www.nasa.gov/pdf/168019main_MESSENGER_71504_PressKit.pdf| access-date= February 19, 2011|archive-url=https://web.archive.org/web/20070824103010/http://www.nasa.gov/pdf/168019main_MESSENGER_71504_PressKit.pdf|archive-date=August 24, 2007}}</ref> At launch, the spacecraft weighed approximately {{convert|1100|kg|lb}} with its full load of propellant.<ref>{{cite news|url=http://www.space.com/11147-nasa-mercury-spacecraft-surprising-facts-messenger.html?onswipe_redirect=never|title=10 Surprising Facts About NASA's Mercury Probe|work=Space.com|date=March 16, 2011|access-date=May 1, 2015}}</ref> ''MESSENGER''<nowiki>'</nowiki>s total mission cost, including the cost of the spacecraft's construction, was estimated at under US$450 million.<ref>{{cite press release | url= http://messenger.jhuapl.edu/news_room/details.php?id=197 | title= MESSENGER Completes Primary Mission at Mercury, Settles in for Another Year | date= March 19, 2012 | publisher= Johns Hopkins University | access-date= April 10, 2012 | archive-url= https://web.archive.org/web/20130513080440/http://messenger.jhuapl.edu/news_room/details.php?id=197 | archive-date= May 13, 2013 }}</ref>
+
+===Attitude control and propulsion===
+Main propulsion was provided by the 645&nbsp;[[Newton (unit)|N]], 317 sec. [[Specific impulse|I<sub>sp</sub>]] [[bipropellant rocket|bipropellant]] ([[hydrazine]] and [[nitrogen tetroxide]]) large velocity assist (LVA) thruster. The model used was the [[LEROS|LEROS 1b]], developed and manufactured at AMPAC‐ISP's Westcott works, in the United Kingdom. The spacecraft was designed to carry {{convert|607.8|kg|lb}} of propellant and [[helium]] pressurizer for the LVA.<ref name="MESSENGERLaunch"/>
+
+Four {{convert|22|N|abbr=on}} [[monopropellant rocket|monopropellant]] thrusters provided spacecraft steering during main thruster burns, and twelve {{convert|4.4|N|1|abbr=on}} monopropellant thrusters were used for [[Spacecraft attitude control|attitude control]]. For precision attitude control, a [[reaction wheel]] [[attitude control system]] was also included.<ref name="MESSENGERLaunch"/> Information for attitude control was provided by [[star tracker]]s, an [[Attitude control (spacecraft)#Gyroscopes|inertial measurement unit]] and six [[Sun sensor]]s.<ref name="MESSENGERLaunch"/>
+
+===Communications===
+
+The probe included two [[small deep space transponder]]s for communications with the [[Deep Space Network]] and three kinds of antennas: a high gain phased array whose main beam could be electronically steered in one plane, a medium-gain "fan-beam" antenna and a low gain horn with a broad pattern. The high gain antenna was used as transmit-only at 8.4&nbsp;GHz, the medium-gain and low gain antennas transmit at 8.4&nbsp;GHz and receive at 7.2&nbsp;GHz, and all three antennas operate with right-hand circularly polarized (RHCP) radiation. One of each of these antennas was mounted on the front of the probe facing the Sun, and one of each was mounted to the back of the probe facing away from the Sun.<ref>{{cite web |url=http://www.mwjournal.com/Journal/article.asp?HH_ID=AR_110 |title=The Medium-gain Antenna of the MESSENGER Spacecraft |publisher=Microwave Journal |date=October 1, 2005 |access-date=March 19, 2011 |archive-url=https://web.archive.org/web/20101101111825/http://www.mwjournal.com/Journal/article.asp?HH_ID=AR_110 |archive-date=November 1, 2010 }}</ref>
+
+===Power===
+
+The space probe was powered by a two-panel [[gallium arsenide]]/[[germanium]] [[solar array]] providing an average of 450 [[watt]]s while in Mercury orbit. Each panel was rotatable and included optical solar reflectors to balance the temperature of the array. Power was stored in a common-pressure-vessel, 23-[[ampere]]-hour [[nickel–hydrogen battery]], with 11 vessels and two cells per vessel.<ref name="MESSENGERLaunch"/>
+
+===Computer and software===
+
+The spacecraft's onboard computer system was contained in an Integrated Electronics Module (IEM), a device that combined core [[avionics]] into a single box. The computer featured two [[Radiation hardening|radiation-hardened]] [[IBM RAD6000]]s, a 25&nbsp;[[megahertz]] main processor, and a 10&nbsp;MHz fault protection processor. For redundancy, the spacecraft carried a pair of identical IEMs. For [[Data storage device|data storage]], the spacecraft carried two [[Solid-state drive|solid-state]] recorders able to store up to one [[gigabyte]] each. The IBM RAD6000 main processor collected, [[Data compression|compressed]], and stored data from ''MESSENGER''<nowiki>'</nowiki>s instruments for later playback to Earth.<ref name="MESSENGERLaunch"/>
+
+''MESSENGER'' used a software suite called [[SciBox]] to simulate its orbit and instruments, in order to "choreograph the complicated process of maximizing the scientific return from the mission and minimizing conflicts between instrument observations, while at the same time meeting all spacecraft constraints on pointing, data downlink rates, and onboard data storage capacity."<ref name="jhuapl"/>
+
+===Scientific instruments===
+
+==== Mercury Dual Imaging System (MDIS) ====
+[[File:MESSENGER - MDIS.jpg|thumb|200px]]
+
+Included two [[Charge-coupled device|CCD]] cameras, a narrow-angle camera (NAC) and a wide-angle camera (WAC) mounted to a pivoting platform. The camera system provided a complete map of the surface of Mercury at a resolution of {{convert|250|m||disp=x|/pixel (|/pixel)|sp=us}}, and images of regions of geologic interest at {{convert|20|-|50|m||disp=x|/pixel (|/pixel)|sp=us}}. Color imaging was possible only with the narrow-band filter wheel attached to the wide-angle camera.<ref name='MDISDescription'>{{cite journal |title=The Mercury Dual Imaging System on the MESSENGER spacecraft |journal=Space Science Reviews |date=August 1, 2007 |first=S. Edward |last=Hawkins |author2=John D. Boldt |author3=Edward H. Darlington |author4=Raymond Espiritu |author5=Robert E. Gold |author6=Bruce Gotwols |author7=Matthew P. Grey |author8=Christopher D. Hash |author9=John R. Hayes |author10=Steven E. Jaskulek |display-authors=etal |volume=131 |issue=1–4 |pages=247–338 |doi=10.1007/s11214-007-9266-3|bibcode = 2007SSRv..131..247H |s2cid=36163654 }}</ref><ref name="NSSDCMDIS">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-01|title= Mercury Dual Imaging System (MDIS)|publisher= NASA/National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402081229/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-01|archive-date= April 2, 2017|url-status= live}}</ref>
+
+Objectives:<ref name='MDISDescription'/>
+*Flyby Phase:
+** Acquisition of near-global coverage at ≈{{convert|500|m||disp=x|/pixel (|/pixel)|sp=us}}.
+** [[Multispectral]] mapping at ≈{{convert|2|km||disp=x|/pixel (|/pixel)|sp=us}}.
+* Orbital Phase:
+** A [[nadir]]-looking [[monochrome]] global [[photomosaic]] at moderate solar [[angle of incidence (optics)|incidence angle]]s (55°–75°) and {{convert|250|m||disp=x|/pixel (|/pixel)|sp=us}} or better sampling resolution.
+** A 25°-off-nadir mosaic to complement the nadir-looking mosaic for global [[Stereo imaging|stereo mapping]].
+** Completion of the multispectral mapping begun during the flybys.
+** High-resolution ({{convert|20|-|50|m||disp=x|/pixel (|/pixel)|sp=us}}) image strips across features representative of major geologic units and structures.
+
+{| class="wikitable collapsible collapsed" style="margin: 1em auto 1em auto; align=right"
+!| Filters<ref name='MDIS2007'>{{Cite web |first=Christopher |last=Hash |author2=Raymond Espiritu |author3=Erick Malaret |author4=Louise Prockter |author5=Scott Murchie |author6=Alan Mick |author7=Jennifer Ward |date=2007 |title=MESSENGER Mercury Dual Imaging System (MDIS) Experimental Data Record (EDR) Software Interface Specification (SIS) |url=http://pdsimg.jpl.nasa.gov/data/messenger/MDIS/DOCUMENT/MDISEDRSIS.PDF |archive-url=https://web.archive.org/web/20110721050607/http://pdsimg.jpl.nasa.gov/data/messenger/MDIS/DOCUMENT/MDISEDRSIS.PDF |archive-date=July 21, 2011}}</ref>
+|-
+|
+{|style="text-align:center"
+|-
+! colspan="4" scope="col" style="width:350px;"| Wide Angle Camera Filters
+|-
+! scope="col" style="background:#e5e5e5; width:90px;"| Name (pos)
+! style="background: #e5e5e5" | Wavelength
+! style="background: #e5e5e5" | Sensitivity
+|-
+| Clear (2, B)
+| center|400–1000&nbsp;nm
+||
+|-
+| Violet (6, F)
+| 420–440&nbsp;nm
+| style="background: #2e00ff" |
+|-
+| Blue (3, C)
+| 465–485&nbsp;nm
+| style="background: #00d5ff" |
+|-
+| Green (4, D)
+| 555–565&nbsp;nm
+| style="background: #c0ff00" |
+|-
+| Far&nbsp;Red&nbsp;(1, A)
+| 695–705&nbsp;nm
+| style="background:#f00;"|
+|-
+| N-IR (7, G)
+| 745–755&nbsp;nm
+| style="background: #a30000" |
+|-
+| N-IR (12, L)
+| 825–835&nbsp;nm
+| style="background:#000; color:white;"| N/A
+|-
+| N-IR (10, J)
+| 895–905&nbsp;nm
+| style="background:#000; color:white;"| N/A
+|-
+| N-IR (8, H)
+| 945–950&nbsp;nm
+| style="background:#000; color:white;"| N/A
+|-
+| N-IR (9, I)
+| 980–1010&nbsp;nm
+| style="background:#000; color:white;"| N/A
+|-
+| N-IR (11, K)
+| 975–1045&nbsp;nm
+| style="background:#000; color:white;"| N/A
+|}
+|}
+
+:<small>''Principal investigator: Scott Murchie / Johns Hopkins University''</small>
+
+==== Gamma-Ray Spectrometer (GRS) ====
+[[File:MESSENGER - GRS - GRNS.jpg|thumb|200px]]
+
+Measured [[gamma-ray]] emissions from the surface of Mercury to determine the planet's composition by detecting certain elements ([[oxygen]], [[silicon]], [[sulphur|sulfur]], [[iron]], [[hydrogen]], [[potassium]], [[thorium]], [[uranium]]) to a depth of 10&nbsp;cm.<ref name='GRNSDescription'>{{cite journal | title = The MESSENGER Gamma-Ray and Neutron Spectrometer | journal = Space Science Reviews | date = November 8, 2007 | first = John O.  | last = Goldsten | author2 = Edgar A. Rhodes | author3 = William V. Boynton| author4 = William C. Feldman| author5 = David J. Lawrence| author6 = Jacob I. Trombka| author7 = David M. Smith| author8 = Larry G. Evans| author9 = Jack White | author10 = Norman W. Madden| display-authors = etal | volume = 131 | issue = 1–4 | pages = 339–391| doi=10.1007/s11214-007-9262-7|bibcode = 2007SSRv..131..339G | s2cid = 120008625 }}</ref><ref name="NSSDCGRNS">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-02|title= Gamma-Ray and Neutron Spectrometer (GRNS)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402081316/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-02|archive-date= April 2, 2017|url-status= live}}</ref>
+
+Objectives:<ref name='GRNSDescription'/>
+
+* Provide surface abundances of major elements.
+* Provide surface abundances of Fe, Si, and K, infer alkali depletion from K abundances, and provide abundance limits on H (water ice) and S (if present) at the poles.
+* Map surface element abundances where possible, and otherwise provide surface-averaged abundances or establish upper limits.
+
+:<small>''Principal investigator: William Boynton / University of Arizona''</small>
+
+==== [[Neutron spectrometer|Neutron Spectrometer]] (NS) ====
+[[File:MESSENGER - NS.jpg|thumb|200px]]
+
+Determined the hydrogen mineral composition to a depth of 40&nbsp;cm by detecting low-energy neutrons resulting from the collision of cosmic rays with the minerals.<ref name='GRNSDescription' /><ref name="NSSDCGRNS"/>
+
+Objectives:<ref name='GRNSDescription' />
+
+* Establish and map the abundance of hydrogen over most of the northern hemisphere of Mercury.
+* Investigate the possible presence of water ice within and near permanently shaded craters near the north pole.
+* Provide secondary evidence to aid in interpreting GRS measured gamma-ray line strengths in terms of elemental abundances.
+* Outline surface domains at the base of both northern and southern cusps of the magnetosphere where the solar wind can implant hydrogen in surface material.
+
+:<small>''Principal investigator: William Boynton / University of Arizona''</small>
+
+==== [[X-ray spectroscopy|X-Ray Spectrometer]] (XRS) ====
+[[File:MESSENGER - XRS.jpg|thumb|200px|X-Ray spectrometer]]
+
+Mapped mineral composition within the top millimeter of the surface on Mercury by detecting [[X-ray]] [[spectral line]]s from [[magnesium]], [[aluminum]], [[sulphur]], [[calcium]], [[titanium]], and iron, in the 1–10&nbsp;[[electronvolt|keV]] range.<ref name='XRSDescription'>{{cite journal | title = The X-Ray Spectrometer on the MESSENGER Spacecraft | journal = Space Science Reviews | date = 2007 | first = Charles | last = Schlemm | author2 = Richard D. Starr| author3 = George C. Ho| author4 = Kathryn E. Bechtold| author5 = Sarah A. Hamilton| author6 = John D. Boldt| author7 = William V. Boynton| author8 = Walter Bradley| author9 = Martin E. Fraeman | author10 = Robert E. Gold| display-authors = etal | volume = 131 | issue = 1 | pages = 393–415| doi=10.1007/s11214-007-9248-5|bibcode = 2007SSRv..131..393S | s2cid = 123515990 }}</ref><ref name="NSSDCXRS">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-03|title= X-ray Spectrometer (XRS)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402082612/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-03|archive-date= April 2, 2017|url-status= live}}</ref>
+
+Objectives:<ref name='XRSDescription'/>
+* Determine the history of the formation of Mercury
+* Characterize the composition of surface elements by measuring the X-ray emissions induced by the incident [[solar flux]].
+
+:<small>''Principal investigator: George Ho / APL''</small>
+
+==== [[Magnetometer]] (MAG) ====
+[[File:MESSENGER - MAG.jpg|thumb|200px]]
+
+Measured the magnetic field around Mercury in detail to determine the strength and average position of the field.<ref name='MAGDescription'>{{cite journal | title = The Magnetometer Instrument on MESSENGER | journal = Space Science Reviews | date = 2007 | first = Brian J.  | last = Anderson | author2 = Mario H. Acuña| author3 = David A. Lohr| author4 = John Scheifele| author5 = Asseem Raval| author6 = Haje Korth| author7 = James A. Slavin| name-list-style=amp | volume = 131 | issue = 1 | pages = 417–450| doi=10.1007/s11214-007-9246-7|bibcode = 2007SSRv..131..417A | s2cid = 120953343 }}</ref><ref name="NSSDCMAG">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-07|title= Magnetometer (MAG)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402081653/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-07|archive-date= April 2, 2017|url-status= live}}</ref>
+
+Objectives:<ref name='MAGDescription'/>
+* Investigate the structure of Mercury's [[Magnetosphere of Mercury|magnetic field]] and its interaction with the [[solar wind]].
+* Characterize the geometry and time variability of the magnetospheric field.
+* Detect wave-particle interactions with the magnetosphere.
+* Observe magnetotail dynamics, including phenomena possibly analogous to substorms in the Earth's magnetosphere.
+* Characterize the magnetopause structure and dynamics.
+* Characterize field-aligned currents that link the planet with the magnetosphere.
+
+:<small>''Principal investigator: Mario Acuna / NASA Goddard Space Flight Center''</small>
+
+==== Mercury Laser Altimeter (MLA) ====
+[[File:MESSEBGER - MLA.jpg|thumb|200px]]
+
+Provided detailed information regarding the height of landforms on the surface of Mercury by detecting the light of an infrared laser as the light bounced off the surface. <!--poor wording--><ref name='MLADescription'>{{cite journal | title = The Mercury Laser Altimeter Instrument for the MESSENGER Mission | journal = Space Science Reviews | date = 2007 | first = John F.  | last = Cavanaugh | author2 = James C. Smith| author3 = Xiaoli Sun| author4 = Arlin E. Bartels| author5 = Luis Ramos-Izquierdo| author6 = Danny J. Krebs| author7 = Jan F. McGarry| author8 = Raymond Trunzo| author9 = Anne Marie Novo-Gradac | author10 = Jamie L. Britt| display-authors = etal | volume = 131 | issue = 1 | pages = 451–479| doi=10.1007/s11214-007-9273-4|bibcode = 2007SSRv..131..451C | hdl = 2060/20060020062| s2cid = 18848880 | hdl-access = free}}</ref><ref name="NSSDCMLA">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-05|title= Mercury Laser Altimeter (MLA)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402082500/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-05|archive-date= April 2, 2017|url-status= live}}</ref>
+
+Objectives:<ref name='MLADescription'/>
+* Provide a high-precision topographic map of the high northern latitude regions.
+* Measure the long-wavelength topographic features at mid-to-low northern latitudes.
+* Determine topographic profiles across major geologic features in the northern hemisphere.
+* Detect and quantify the planet's forced physical librations by tracking the motion of large-scale topographic features as a function of time.
+* Measure the surface reflectivity of Mercury at the MLA operating wavelength of 1,064 nanometers.
+
+:<small>''Principal investigator: David Smith / GSFC''</small>
+
+==== Mercury Atmospheric and Surface Composition Spectrometer (MASCS) ====
+[[File:MESSENGER - MASCS.jpg|thumb|200px]]
+
+Determined the characteristics of the [[Atmosphere of Mercury|tenuous atmosphere]] surrounding Mercury by measuring ultraviolet light emissions, and ascertained the prevalence of iron and titanium minerals on the surface by measuring the [[reflectance]] of infrared light.<ref name='MASCSDescription'>{{cite journal | title = The Mercury Atmospheric and Surface Composition Spectrometer for the MESSENGER Mission | journal = Space Science Reviews | date = 2007 | first = William | last = McClintock |author2=Mark Lankton | volume = 131 | issue = 1 | pages = 481–521| doi=10.1007/s11214-007-9264-5|bibcode = 2007SSRv..131..481M | s2cid = 120664503 }}</ref><ref name="NSSDCMASCS">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-04|title= Mercury Atmospheric and Surface Composition Spectrometer (MASCS)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402165313/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-04|archive-date= April 2, 2017|url-status= live}}</ref>
+
+Objectives:<ref name='MASCSDescription'/>
+* Characterize the composition, structure, and temporal behavior of the exosphere.
+* Investigate the processes that generate and maintain the exosphere.
+* Determine the relationship between exospheric and surface composition.
+* Search for polar deposits of volatile material, and determine how are the accumulation of these deposits are related to exospheric processes.
+
+:<small>''Principal investigator: William McClintock / University of Colorado<ref>{{Cite web|url=http://lasp.colorado.edu/messenger/|title=Exploring Magnetosphere-Exosphere Coupling At Mercury: A Joint MESSENGER – BepiColombo Workshop|website=lasp.colorado.edu|access-date=January 27, 2011|archive-date=May 11, 2017|archive-url=https://web.archive.org/web/20170511122404/http://lasp.colorado.edu/messenger/}}</ref>''</small>
+
+==== Energetic Particle and Plasma Spectrometer (EPPS) ====
+[[File:MESSENGER - EPPS.jpg|thumb|200px|Energetic Particle Spectrometer (EPS) and Fast Imaging Plasma Spectrometer (FIPS) sensors]]
+
+Measured the [[charged particles]] in the [[magnetosphere]] around Mercury using an Energetic Particle Spectrometer (EPS) and the charged particles that come from the surface using a Fast Imaging Plasma Spectrometer (FIPS).<ref name='EPPSDescription'>{{cite journal | title = The Energetic Particle and Plasma Spectrometer Instrument on the MESSENGER Spacecraft | journal = Space Science Reviews | date = 2007 | first = G. Bruce | last = Andrews | author2 = Thomas H. Zurbuchen| author3 = Barry H. Mauk| author4 = Horace Malcom| author5 = Lennard A. Fisk| author6 = George Gloeckler| author7 = George C. Ho| author8 = Jeffrey S. Kelley| author9 = Patrick L. Koehn | author10 = Thomas W. LeFevere| display-authors = etal | volume = 131 | issue = 1 | pages = 523–556| doi=10.1007/s11214-007-9272-5|bibcode = 2007SSRv..131..523A | s2cid = 121878222 }}</ref><ref name="NSSDCEPPS">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-06|title= Energetic Particle and Plasma Spectrometer (EPPS)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402082016/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-06|archive-date= April 2, 2017|url-status= live}}</ref> EPS measured [[Ion|ions]] (H to Fe) from around 15 k[[Electronvolt|eV]]/[[nucleon]] to around 3 MeV/nucleon and [[Electron|electrons]] between 15 keV and 1 MeV.<ref name="EPPSDescription" /> FIPS measured ions in the range of energy-per-charge from < 50 eV/Q upto 20 keV/Q.<ref name="EPPSDescription" />
+
+Objectives:<ref name='EPPSDescription'/>
+* Determine the structure of the planet's magnetic field.
+* Characterize exosphere neutrals and accelerated magnetospheric ions.
+* Determine the composition of the radar-reflective materials at Mercury's poles.
+* Determine the electrical properties of the crust/atmosphere/environment interface.
+* Determine characteristics of the dynamics of Mercury's magnetosphere and their relationships to external drivers and their internal conditions.
+* Measure interplanetary plasma properties in cruise and in Mercury vicinity.
+
+:<small>''Principal investigator: Barry Mauk / APL''</small>
+
+==== Radio Science (RS) ====
+Measured the gravity of Mercury and the state of the planetary core by utilizing the spacecraft's positioning data.<ref name="NSSDCRS">{{cite web|url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-08|title= Radio Science (RS)|publisher= NASA / National Space Science Data Center|access-date= February 19, 2011|archive-url= https://web.archive.org/web/20170402081934/https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-08|archive-date= April 2, 2017|url-status= live}}</ref><ref name='RSDescription'>{{cite journal | title = The Radio Frequency Subsystem and Radio Science on the MESSENGER Mission | journal = Space Science Reviews | date = 2007 | first = Dipak K. | last = Srinivasan | author2 = Mark E. Perry| author3 = Karl B. Fielhauer| author4 = David E. Smith | author5 = Maria T. Zuber | volume = 131 | issue = 1 | pages = 557–571| doi=10.1007/s11214-007-9270-7|bibcode = 2007SSRv..131..557S | s2cid = 53327655 }}</ref>
+
+Objectives:<ref name='RSDescription'/>
+* Determine the position of the spacecraft during both the cruise and orbital phases of the mission.
+* Observe gravitational perturbations from Mercury to investigate the spatial variations of density within the planet's interior, and a time-varying component in Mercury's gravity to quantify the amplitude of Mercury's [[libration]].
+* Provide precise measurements of the range of the ''MESSENGER'' spacecraft to the surface of Mercury for determining proper altitude mapping with the MLA.
+
+:<small>''Principal investigator: David Smith / NASA Goddard Space Flight Center''</small>
+
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%" caption="Images of the spacecraft">
+File:MESSENGER - Sonda.png|alt=Diagram of ''MESSENGER''|Diagram of ''MESSENGER''.
+File:MESSENGER - installation of solar panels.jpg|alt=MESSENGER assembly installation of solar panels Astrotech|The assembly of ''MESSENGER''{{'}}s solar panels by APL technicians.
+File:MESSENGER Assembly.jpg|alt=Technicians prepare MESSENGER for transfer to a hazardous processing facility|Technicians prepare ''MESSENGER'' for transfer to a hazardous processing facility.
+File:MESSENGER 04pd1465.jpg|alt=Attachment of the Payload Assist Module to MESSENGER. The ceramic-cloth sunshade is prominent in this view|Attachment of the [[Payload Assist Module|PAM]] to ''MESSENGER''. The ceramic-cloth sunshade is prominent in this view.
+File:Hypergolic Fuel for MESSENGER.jpg|A suited worker looks over the [[hydrazine]] fuel supply to be loaded in ''MESSENGER''.
+</gallery>
+
+==Mission profile==
+{| style="float: right;"
+|-
+! colspan="2" | Timeline of key events<ref name=ExMissionCompleted2013/><ref name="NYT-20150427">{{cite news |last=Chang |first=Kenneth |title=NASA's Messenger Mission Is Set to Crash Into Mercury |url=https://www.nytimes.com/2015/04/28/science/nasas-messenger-mission-is-set-to-crash-into-mercury.html |date=April 27, 2015 |work=[[The New York Times]] |access-date=April 27, 2015 |archive-url=https://web.archive.org/web/20190401024447/https://www.nytimes.com/2015/04/28/science/nasas-messenger-mission-is-set-to-crash-into-mercury.html |archive-date=April 1, 2019 |url-status=live }}</ref><ref name="EarthFlyby">{{cite web |url= http://messenger.jhuapl.edu/flyby/timeline.html |title= Earth Flyby Timeline |date= August 2, 2005 |publisher= JHU/APL |access-date= January 24, 2011 |archive-url= https://web.archive.org/web/20130513074538/http://messenger.jhuapl.edu/flyby/timeline.html |archive-date= May 13, 2013 }}</ref><ref name="MercuryFlyby1">{{cite press release | publisher= JHU/APL | date= January 14, 2008 | title= Mercury Flyby 1 | url= http://messenger.jhuapl.edu/news_room/MercuryFlyby1PressKitFINAL_1_10_08.pdf | access-date= January 24, 2011 | archive-url= https://web.archive.org/web/20130513081727/http://messenger.jhuapl.edu/news_room/MercuryFlyby1PressKitFINAL_1_10_08.pdf | archive-date= May 13, 2013 }}</ref><ref name="MercuryFlyby2">{{cite press release | publisher= JHU/APL | date= October 6, 2008 | title= Mercury Flyby 2 | url= http://messenger.jhuapl.edu/news_room/MercuryFlyby2_FinalPressKit.pdf | access-date= January 24, 2011 | archive-url= https://web.archive.org/web/20130513082217/http://messenger.jhuapl.edu/news_room/MercuryFlyby2_FinalPressKit.pdf | archive-date= May 13, 2013 }}</ref><ref name="MercuryFlyby3">{{cite press release | publisher= JHU/APL | date= September 29, 2009 | title= Mercury Flyby 3 | url= http://messenger.jhuapl.edu/news_room/M3FlbybyPK_Draft3_92309.pdf | access-date= January 24, 2011 | archive-url= https://web.archive.org/web/20130513075232/http://messenger.jhuapl.edu/news_room/M3FlbybyPK_Draft3_92309.pdf | archive-date= May 13, 2013 }}</ref><ref name="MGROrbitInsert"/>
+|-
+|
+{| cellspacing="0" cellpadding="0"  style="width:100%; margin:auto; border:0 solid #e6e6e6;"
+|-
+| colspan="2" |
+----
+|-
+! scope="col" style="width:75px;"| Date
+! scope="col" style="width:350px;"| Event
+|-
+| colspan="2" |
+----
+<!--Data field-->
+|-
+| {{center|August 3, 2004}}
+| style="background:#f2f2f2;"| {{center|Spacecraft launched at 06:15:56 UTC}}
+|-
+| {{center|August 2, 2005}}
+|
+<!--Collapsable data header-->
+  {| class="collapsible collapsed" align="center" width = "100%"
+  ! colspan="2" style="background-color:#e9e9e9;font-weight:normal;" | {{pad|2em}} Flyby encounter with Earth
+  |-
+  | colspan="2" |
+----
+  |- style="background-color:#e0e0e0"
+  ! scope="col" width="75" | Time
+  ! scope="col" width="230" | Event {{pad|6em}}
+  |-
+  | colspan="2" |
+----
+<!--Data input-copy for collapsed entries-->
+  |-
+  | {{center|'''August 2, 2005'''}}
+  |
+  |-
+  | {{center|13:00:00}}
+  | Rotate spacecraft (turning sunshade toward the Sun)
+  |-
+  | {{center|13:16:00}}
+  | Energetic Particle Spectrometer begins Earth observations.
+  |-
+  | {{center|13:38:00}}
+  | Start MDIS color images of South America (set 1).
+  |-
+  | {{center|16:55:00}}
+  | Start MDIS color images of South America (set 2).
+  |-
+  | {{center|19:13:08}}
+  | Earth closest approach at 2,348&nbsp;km.
+  |-
+  | {{center|20:20:00}}
+  | Rotate spacecraft (sunshade away from the Sun)
+  |-
+  | {{center|20:20:00}}
+  | Start MDIS color imaging sequence of Amazon Basin
+  |-
+  | {{center|22:16:00}}
+  | Start MDIS color image sequence for [[:File:Mdis depart anot.ogv|departure "movie"]].
+  |-
+  | {{center|'''August 3, 2005'''}}
+  |
+  |-
+  | {{center|23:38:00}}
+  | End MDIS color image sequence for departure "movie".
+  |}
+|-
+| {{center|October 24, 2006}}
+|
+<!--Collapsable data header-->
+  {| class="collapsible collapsed" align="center" width = "100%"
+  ! colspan="2" style="background-color:#e9e9e9;font-weight:normal;" | {{pad|2em}} Flyby encounters with Venus
+  |-
+  | colspan="2" |
+----
+  |- style="background-color:#e0e0e0"
+  ! scope="col" width="75" | Time
+  ! scope="col" width="230" | Event {{pad|6em}}
+  |-
+  | colspan="2" |
+----
+<!--Data input-copy for collapsed entries-->
+  |-
+  | {{center|'''October 24, 2006'''}}
+  | '''First encounter with Venus'''
+  |-
+  | {{center|08:34:00}}
+  | Venus closest approach at 2,987&nbsp;km.
+  |-
+  | {{center|08:52:00}}
+  | Venus occultation entry.
+  |-
+  | {{center|14:15:00}}
+  | Venus occultation exit.
+  |-
+  | {{center|'''June 5, 2007'''}}
+  | '''Second encounter with Venus'''
+  |-
+  | {{center|23:08:00}}
+  | Venus closest approach at 313&nbsp;km.
+  |}
+|-
+| {{center|January 14, 2008}}
+|
+<!--Collapsable data header-->
+  {| class="collapsible collapsed" align="center" width = "100%"
+  ! colspan="2" style="background-color:#e9e9e9;font-weight:normal;" | {{pad|2em}} Flyby encounters with Mercury
+  |-
+  | colspan="2" |
+----
+  |- style="background-color:#e0e0e0"
+  ! scope="col" width="75" | Time
+  ! scope="col" width="230" | Event {{pad|6em}}
+  |-
+  | colspan="2" |
+----
+<!--Data input-copy for collapsed entries-->
+  |-
+  | {{center|'''January 14, 2008'''}}
+  | '''First encounter with Mercury'''
+  |-
+  | {{center|19:04:39}}
+  | Mercury closest approach at 200&nbsp;km
+  |-
+  | {{center|'''October 2, 2008'''}}
+  | '''Second encounter with Mercury'''
+  |-
+  | {{center|03:30:00}}
+  | First of eight Optical Navigation images taken on approach.
+  |-
+  | {{center|'''October 5, 2008'''}}
+  |
+  |-
+  | {{center|18:00:00}}
+  | Last of eight Optical Navigation images taken on approach.
+  |-
+  | {{center|22:25:00}}
+  | Start encounter imaging sequence, beacon-only tracking of probe begins.
+  |-
+  | {{center|'''October 6, 2008'''}}
+  |
+  |-
+  | {{center|08:25:00}}
+  | Mercury shadow entry
+  |-
+  | {{center|08:40:00}}
+  | Mercury closest approach at 200&nbsp;km
+  |-
+  | {{center|08:42:00}}
+  | Mercury shadow exit
+  |-
+  | {{center|'''October 7, 2010'''}}
+  |
+  |-
+  | {{center|05:43:00}}
+  | Start playback of data
+  |-
+  | {{center|'''September 28, 2009'''}}
+  | '''Third encounter with Mercury'''
+  |-
+  | {{center|14:24:00}}
+  | Start encounter imaging sequence, beacon-only tracking of probe begins.
+  |-
+  | {{center|'''September 29, 2009'''}}
+  |
+  |-
+  | {{center|21:41:00}}
+  | Mercury shadow entry
+  |-
+  | {{center|21:55:00}}
+  | Mercury closest approach at 228&nbsp;km
+  |-
+  | {{center|21:59:00}}
+  | Mercury shadow exit
+  |-
+  | {{center|22:03:00}}
+  | Mercury [[occultation]] entry
+  |-
+  | {{center|22:54:00}}
+  | Mercury occultation exit
+  |-
+  | {{center|03:32:00}}
+  | Start playback of data
+  |}
+|-
+| {{center|March 18, 2011}}
+| style="background:#f2f2f2;"| {{center|Mercury orbital insertion}}
+|-
+| {{center|March 17, 2012}}
+| style="background:#f2f2f2;"| {{center|Commencement of first extended mission}}
+|-
+| {{center|March 17, 2013}}
+| style="background:#f2f2f2;"| {{center|Completion of first extended mission/<br />Commencement of second extended mission}}
+|-
+| {{center|''April 30, 2015''}}
+| style="background:#f2f2f2;"| {{center|''End of mission''}}
+|}
+|}
+
+===Launch and trajectory===
+The ''MESSENGER'' probe was launched on August 3, 2004, at 06:15:56 UTC by [[National Aeronautics and Space Administration|NASA]] from [[Cape Canaveral Air Force Station Space Launch Complex 17|Space Launch Complex 17B]] at the [[Cape Canaveral Air Force Station]] in Florida, aboard a [[Delta II|Delta II 7925]] launch vehicle. The complete burn sequence lasted 57 minutes bringing the spacecraft into a heliocentric orbit, with a final velocity of 10.68&nbsp;km/s (6.64&nbsp;miles/s) and sending the probe into a 7.9 billion-kilometer (4.9 billion mi) trajectory that took 6 years, 7 months and 16 days before its orbital insertion on March 18, 2011.<ref name="MESSENGERLaunch"/>
+
+Traveling to Mercury and entering orbit requires an extremely large velocity change (''see [[delta-v]]'') because Mercury's orbit is deep in the Sun's [[gravity well]].  On a direct course from Earth to Mercury, a spacecraft is constantly accelerated as it falls toward the Sun, and will arrive at Mercury with a velocity too high to achieve orbit without excessive use of fuel. For planets with an atmosphere, such as [[Venus]] and [[Mars]], spacecraft can minimize their fuel consumption upon arrival by using friction with the atmosphere to enter orbit ([[aerocapture]]), or can briefly fire their rocket engines to enter into orbit followed by a reduction of the orbit by [[aerobraking]]. However, the tenuous [[atmosphere of Mercury]] is far too thin for these maneuvers.  Instead, ''MESSENGER'' extensively used [[gravity assist]] maneuvers at Earth, Venus, and Mercury to reduce the speed relative to Mercury, then used its large rocket engine to enter into an elliptical orbit around the planet.  The multi-flyby process greatly reduced the amount of propellant necessary to slow the spacecraft, but at the cost of prolonging the trip by many years and to a total distance of 7.9 billion kilometers (4.9 billion miles).
+
+Several planned thruster firings en route to Mercury were unnecessary, because these fine course adjustments were performed using solar radiation pressure acting on MESSENGER's solar panels.<ref>{{cite web|url=http://messenger.jhuapl.edu/news_room/details.php?id=102 |title=MESSENGER Sails on Sun's Fire for Second Flyby of Mercury |date=September 5, 2008 |archive-url=https://web.archive.org/web/20130514095117/http://messenger.jhuapl.edu/news_room/details.php?id=102 |archive-date=May 14, 2013 }}</ref> To further minimize the amount of necessary propellant, the spacecraft orbital insertion targeted a highly [[elliptical orbit]] around Mercury.
+
+The elongated orbit had two other benefits:  It allowed the spacecraft time to cool after the times it was between the hot surface of Mercury and the Sun, and also it allowed the spacecraft to measure the effects of [[solar wind]] and the magnetic fields of the planet at various distances while still allowing close-up measurements and photographs of the surface and exosphere.
+The spacecraft was originally scheduled to launch during a 12-day window that beginning May 11, 2004. On March 26, 2004, NASA announced the launch would be moved to a later, 15-day launch window beginning July 30, 2004, to allow for further testing of the spacecraft.<ref>{{cite press release| title=MESSENGER Launch Rescheduled.| publisher=Johns Hopkins University| date=March 24, 2004| url=http://messenger.jhuapl.edu/news_room/2004/status_report_03_24_04.html| access-date=May 1, 2009| archive-url=https://web.archive.org/web/20081201213922/http://messenger.jhuapl.edu/news_room/2004/status_report_03_24_04.html| archive-date=December 1, 2008| url-status=live}}</ref> This change significantly altered the trajectory of the mission and delayed the arrival at Mercury by two years. The original plan called for three fly-by maneuvers past Venus, with Mercury orbit insertion scheduled for 2009. The trajectory was changed to include one Earth flyby, two Venus flybys, and three Mercury flybys before [[orbit insertion]] on March 18, 2011.<ref>{{cite web|title=MESSENGER Flyby Information|url=https://messenger.jhuapl.edu/Resources/Flyby-Information.html|publisher=Johns Hopkins Applied Physics Lab|access-date=April 30, 2023|archive-url=https://web.archive.org/web/20230715215034/https://messenger.jhuapl.edu/Resources/Flyby-Information.html|archive-date=July 15, 2023|url-status=live}}</ref>
+
+<!--Gallery of launch and trajectories at end of section-->
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:MESSENGER - exploded launch vehicle diagram.png|alt=Exploded launch configuration diagram with MESSENGER and Delta 2 rocket|Exploded diagram of Delta II launch vehicle with ''MESSENGER''
+File:MESSENGER launch on Delta 7925 rocket.jpg|alt=The launch of MESSENGER on a Delta II launch vehicle|The launch of ''MESSENGER'' on a Delta II launch vehicle.
+File:Animation of MESSENGER trajectory.gif|Animation of ''MESSENGER''{{'s}} trajectory from August 3, 2004, to May 1, 2015<br />{{legend2|magenta| ''MESSENGER'' }}{{·}}{{legend2|Royalblue|[[Earth]]}}{{·}}{{legend2|Lime|[[Mercury (planet)|Mercury]]}} {{·}}{{legend2| Cyan |[[Venus]]}}
+File:MESSENGER trajectory.svg|alt=Interplanetary trajectory of ''MESSENGER'' orbiter|Interplanetary trajectory of the ''MESSENGER'' orbiter.
+</gallery>
+
+===Earth flyby===
+''MESSENGER'' performed an Earth [[Gravity assist|flyby]] one year after launch, on August 2, 2005, with the closest approach at 19:13 [[Coordinated Universal Time|UTC]] at an altitude of 2,347 kilometers (1,458 statute miles) over central [[Mongolia]]. On December 12, 2005, a 524-second-long burn (Deep-Space Maneuver or DSM-1) of the large thruster adjusted the trajectory for the upcoming Venus flyby by 316&nbsp;m/s.<ref>{{cite press release | date=December 12, 2005 | url=http://www.spaceref.com/news/viewsr.html?pid=18956 | title=MESSENGER Engine Burn Puts Spacecraft on Track for Venus | publisher=Johns Hopkins University | access-date=May 1, 2009}}</ref>
+
+During the Earth flyby, the ''MESSENGER'' team imaged the Earth and Moon using MDIS and checked the status of several other instruments observing the atmospheric and surface compositions and testing the magnetosphere and determining that all instruments tested were working as expected. This calibration period was intended to ensure accurate interpretation of data when the spacecraft entered orbit around Mercury. Ensuring that the instruments functioned correctly at such an early stage in the mission allowed opportunity for multiple minor errors to be dealt with.<ref name="MGREarthFlyby">{{cite press release| publisher=NASA/APL| date=August 26, 2005| title=MESSENGER Status Report| url=http://messenger.jhuapl.edu/news_room/2005/status_report_08_26_05.html| access-date=March 17, 2011| archive-url=https://web.archive.org/web/20130513081510/http://messenger.jhuapl.edu/news_room/2005/status_report_08_26_05.html| archive-date=May 13, 2013}}</ref>
+
+The Earth flyby was used to investigate the [[flyby anomaly]], where some spacecraft have been observed to have trajectories that differ slightly from those predicted.  However no anomaly was observed in MESSENGER's flyby.<ref>{{cite journal |author1=Anderson, J. D.|author2=Campbell, J. K.|author3=Ekelund, J. E.|author4=Ellis, J.|author5=Jordan, J. F. |date=2008 |title=Anomalous orbital-energy changes observed during spacecraft flybys of Earth |journal=Physical Review Letters |volume=100 |issue=9 |doi=10.1103/physrevlett.100.091102 |pmid=18352689 |article-number=091102 |bibcode=2008PhRvL.100i1102A}}</ref>
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:MESSENGERearth.jpg|alt=A view of Earth from ''MESSENGER'' during its Earth flyby|A view of Earth from ''MESSENGER'' during its Earth flyby.
+File:View of Earth from MESSENGER.jpg|alt=Another view of Earth from ''MESSENGER'' during its Earth flyby|A view of Earth from ''MESSENGER'' during its Earth flyby.
+File:Earth and Moon seen from 183 million kilometers by MESSENGER.png|alt=The Earth and Moon captured by the MESSENGER Wide Angle Camera from a distance of 183 million kilometers|The [[Earth]] and [[Moon]] (lower left), captured by ''MESSENGER'' from a distance of 183 million kilometers.
+File:Mdis depart anot.ogv|alt=Departure sequence captured as Messenger flew past Earth on August 3, 2005|Earth flyby sequence captured on August 3, 2005 ([[:File:Mdis depart anot.ogv|Full-size video]]).
+</gallery>
+
+===Two Venus flybys===
+{{main|Exploration of Venus}}
+On October 24, 2006, at 08:34 UTC, ''MESSENGER'' encountered Venus at an altitude of {{convert|2992|km|mi|sp=us}}. During the encounter, ''MESSENGER'' passed behind Venus and entered [[superior conjunction]], a period when Earth was on the exact opposite side of the Solar System, with the Sun inhibiting radio contact. For this reason, no scientific observations were conducted during the flyby. Communication with the spacecraft was reestablished in late November and performed a deep space maneuver on December 12, 2006, to correct the trajectory to encounter Venus in a second flyby.<ref name="MGRVenusFlyby1">{{cite press release| publisher=NASA/APL| date=October 24, 2006| title=MESSENGER Completes Venus Flyby| url=http://messenger.jhuapl.edu/news_room/2006/status_report_10_24_06.html| access-date=March 17, 2011| archive-url=https://web.archive.org/web/20130513080436/http://messenger.jhuapl.edu/news_room/2006/status_report_10_24_06.html| archive-date=May 13, 2013}}</ref>
+
+On June 5, 2007, at 23:08 UTC, ''MESSENGER'' performed a second flyby of Venus at an altitude of {{convert|338|km|mi|abbr=on}}, for the greatest velocity reduction of the mission. During the encounter, all instruments were used to observe Venus and prepare for the following Mercury encounters. The encounter provided visible and [[infrared|near-infrared]] imaging data of the upper [[atmosphere of Venus]]. [[Ultraviolet]] and X-ray [[Spectrometer|spectrometry]] of the upper atmosphere were also recorded, to characterize the composition. The [[ESA]]'s [[Venus Express]] was also orbiting during the encounter, providing the first opportunity for simultaneous measurement of particle-and-field characteristics of the planet.<ref>{{cite press release | title=Critical Deep-Space Maneuver Targets MESSENGER for Its First Mercury Encounter | publisher=Johns Hopkins University | date=October 17, 2007 | url=http://messenger.jhuapl.edu/news_room/2007/status_report_10_17_07.html | access-date=May 1, 2009 | archive-url=https://web.archive.org/web/20081201211816/http://messenger.jhuapl.edu/news_room/2007/status_report_10_17_07.html | archive-date=December 1, 2008 }}</ref>
+
+<!--Gallery of observations at end of section-->
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:MESSENGERvenus1approach.jpg|alt=Venus Imaged by MESSENGER on the first flyby of the planet|Venus imaged by ''MESSENGER'' on its first flyby of the planet in 2006.
+File:Venus 2 Approach Image.jpg|alt=Venus imaged by MESSENGER on the second flyby of the planet|Venus imaged by ''MESSENGER'' on its second flyby of the planet in 2007.
+File:MESSENGER - Venus 630 nm stretch.jpg|alt=A more detailed image of Venus by MESSENGER on the second flyby of the planet|A more detailed image of Venus ''MESSENGER'' on the second flyby of the planet.
+File:MESSENGER - Venus2 departure seq.jpg|alt=Sequence of images as MESSENGER departs after the second flyby of the planet|Sequence of images as ''MESSENGER'' departs after the second flyby of the planet.
+</gallery>
+
+===Three Mercury flybys===
+{{main|Exploration of Mercury}}
+''MESSENGER'' made a flyby of Mercury on January 14, 2008 (making its closest approach of 200&nbsp;km above the surface of Mercury at 19:04:39 [[Coordinated Universal Time|UTC]]), followed by a second flyby on October 6, 2008.<ref name="jhuapl1"/> ''MESSENGER'' executed a final flyby on September 29, 2009, further slowing down the spacecraft.<ref name="jhuapl2"/><ref name="jhuapl3"/> Sometime during the closest approach of the last flyby, the spacecraft entered [[Safe mode (spacecraft)|safe mode]]. Although this had no effect on the trajectory necessary for later orbit insertion, it resulted in the loss of science data and images that were planned for the outbound leg of the fly-by. The spacecraft had fully recovered by about seven hours later.<ref>{{cite web|title=MESSENGER Gains Critical Gravity Assist for Mercury Orbital Observations |url=http://messenger.jhuapl.edu/news_room/details.php?id=136 |date=September 30, 2009 |publisher=MESSENGER Mission News |access-date=September 30, 2009 |archive-url=https://web.archive.org/web/20130510175510/http://messenger.jhuapl.edu/news_room/details.php?id=136 |archive-date=May 10, 2013 }}</ref> One last deep space maneuver, DSM-5, was executed on November 24, 2009, at 22:45 UTC to provide the required {{convert|0.177|km/s}} velocity change for the scheduled Mercury orbit insertion on March 18, 2011, marking the beginning of the orbital mission.<ref>{{cite press release | url= http://messenger.jhuapl.edu/news_room/details.php?id=140 | title= Deep-Space Maneuver Positions MESSENGER for Mercury Orbit Insertion | date= November 24, 2009 | publisher= Johns Hopkins University | access-date= April 20, 2010 | archive-url= https://web.archive.org/web/20130513075449/http://messenger.jhuapl.edu/news_room/details.php?id=140 | archive-date= May 13, 2013 }}</ref>
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:Mercury in color c1000 700 430.png|alt=The first high-resolution color Wide Angle Camera image of Mercury acquired by MESSENGER|The first high-resolution color Wide Angle Camera image of Mercury acquired by ''MESSENGER''.
+File:MESSENGER first photo of unseen side of mercury.jpg|alt=Mercury from later in the first flyby|Mercury from later in the first flyby, showing many previously unknown features
+File:MESSENGER's first view of Mercury with name labels.jpg|Labeled version of the previous image
+File:CW0131775256F Kuiper Crater.png|alt=View from the second flyby in October 2008|View from the second flyby in October 2008, with Kuiper crater near center
+File:MESSENGER - CN0162744010M RA 3 web.png|alt=Smooth plains on Mercury imaged by MESSENGER during the third flyby of the planet.|Smooth plains of [[Borealis Planitia]] imaged by ''MESSENGER'' during the third flyby of the planet.
+File:MESSENGER EN0108828359M.png|alt=An image of part of the previously unseen side of the planet|An image of part of the previously unseen side of the planet, including what is now called [[Manley (crater)|Manley]] crater.
+File:MESSENGER - BV Microsymposium49.jpg|alt=Lava-flooded craters and large expanses of smooth volcanic plains on Mercury.|Lava-flooded craters and large expanses of smooth volcanic plains on Mercury.
+File:Rachmaninoff crater.png|alt=A photo of Mercury with Rachmaninoff crater centered|View with [[Rachmaninoff (crater)|Rachmaninoff crater]], from third flyby
+</gallery>
+
+===Orbital insertion===
+The thruster maneuver to insert the probe into Mercury's orbit began at 00:45&nbsp;UTC on March 18, 2011. The 0.9&nbsp;km/s (0.5&nbsp;mi./sec.) braking maneuver lasted about 15 minutes, with confirmation that the craft was in Mercury orbit received at 01:10&nbsp;UTC on March 18 (9:10 PM, March 17 EDT).<ref name="MGROrbitInsert">{{cite press release| publisher=NASA/APL| date=March 17, 2011| title=MESSENGER Begins Historic Orbit around Mercury| url=http://messenger.jhuapl.edu/news_room/details.php?id=161| access-date=March 18, 2011| archive-url=https://web.archive.org/web/20130412074403/http://messenger.jhuapl.edu/news_room/details.php?id=161| archive-date=April 12, 2013}}</ref> Mission lead engineer Eric Finnegan indicated that the spacecraft had achieved a near-perfect orbit.<ref>{{cite news| last=Amos| first=Jonathan| title=Messenger probe enters Mercury orbit| url=https://www.bbc.com/news/science-environment-12761025| publisher=BBC| date=March 18, 2011| access-date=April 30, 2023| archive-url=https://web.archive.org/web/20230430170430/https://www.bbc.com/news/science-environment-12761025| archive-date=April 30, 2023| url-status=live}}</ref>
+
+''MESSENGER'''s orbit was highly elliptical, taking it within {{convert|200|km|miles|sp=us}} of Mercury's surface and then {{convert|15000|km|miles|abbr=on}} away from it every twelve hours. This orbit was chosen to shield the probe from the heat radiated by Mercury's hot surface. Only a small portion of each orbit was at a low altitude, where the spacecraft was subjected to radiative heating from the hot side of the planet.<ref>{{cite news|last=Cowen|first=Ron|title=MESSENGER eases into Mercury's orbit|url=http://www.sciencenews.org/view/generic/id/71327/title/MESSENGER_eases_into_Mercury%E2%80%99s_orbit|access-date=March 18, 2011|newspaper=[[Science News]]|date=March 17, 2011|archive-date=September 30, 2012|archive-url=https://web.archive.org/web/20120930175207/http://www.sciencenews.org/view/generic/id/71327/title/MESSENGER_eases_into_Mercury%E2%80%99s_orbit}}</ref>
+
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:Animation of MESSENGER trajectory around Mercury.gif|Animation of ''MESSENGER''{{'s}} trajectory around [[Mercury (planet)|Mercury]]<br />{{legend2|magenta| ''MESSENGER''}}{{·}}{{legend2|Lime|[[Mercury (planet)|Mercury]]}}
+File:MESSENGERannouncement.jpg|alt=Charles Bolden and colleagues wait for news from MESSENGER.|[[Charles F. Bolden, Jr.|Charles Bolden]] and colleagues wait for news from the ''MESSENGER'' probe.
+File:Celebrating Mercury Orbit.jpg|alt=Charles Bolden congratulates Eric Finnegan as the spacecraft successfully inserted itself in Mercury's orbit.|Charles Bolden congratulates Eric Finnegan following the successful orbital insertion.
+File:First ever photograph from Mercury orbit.jpg|alt=The first-ever photograph from Mercury orbit, taken by MESSENGER on March 29, 2011.|The first-ever photograph from Mercury orbit, taken by ''MESSENGER'' on March 29, 2011.
+File:MercuryOrbitInsertionDirectionofSunFull.jpg|alt=A Chart of MESSENGER's Orbital Insertion|A simplified chart showing the path of ''MESSENGER''{{'}}s orbital insertion.
+</gallery>
+
+==Primary science==
+After ''MESSENGER'''s orbital insertion, an eighteen-day commissioning phase took place. The supervising personnel switched on and tested the craft's science instruments to ensure they had completed the journey without damage.<ref name="OrbitInsertionPressKit">{{cite press release| publisher=NASA/APL| date=March 18, 2011| title=MESSENGER Mercury Orbit Insertion| url=http://messenger.jhuapl.edu/news_room/Mercury_PK_TST_Rev7_Web.pdf| access-date=March 17, 2011| archive-url=https://web.archive.org/web/20130513075203/http://messenger.jhuapl.edu/news_room/Mercury_PK_TST_Rev7_Web.pdf| archive-date=May 13, 2013}}</ref> The commissioning phase "demonstrated that the spacecraft and payload [were] all operating nominally, notwithstanding Mercury's challenging environment."<ref name="jhuapl"/>
+
+The primary mission began as planned on April 4, 2011, with ''MESSENGER'' orbiting Mercury once every twelve hours for an intended duration of twelve Earth months, the equivalent of two [[solar day]]s on Mercury.<ref name="jhuapl">[http://messenger.jhuapl.edu/news_room/details.php?id=166 "MESSENGER Kicks Off Yearlong Campaign of Mercury Science"] {{webarchive|url=https://web.archive.org/web/20130412074056/http://messenger.jhuapl.edu/news_room/details.php?id=166 |date=April 12, 2013 }}. JHU – APL. April 4, 2011. Retrieved November 23, 2011.</ref> Principal Investigator Sean Solomon, then of the [[Carnegie Institution of Washington]], said: "With the beginning today of the primary science phase of the mission, we will be making nearly continuous observations that will allow us to gain the first global perspective on the innermost planet. Moreover, as solar activity steadily increases, we will have a front-row seat on the most dynamic magnetosphere–atmosphere system in the Solar System."<ref name="jhuapl"/>
+
+On October 5, 2011, the scientific results obtained by ''MESSENGER'' during its first six terrestrial months in Mercury's orbit were presented in a series of papers at the European Planetary Science Congress in [[Nantes]], France. Among the discoveries presented were the unexpectedly high concentrations of [[magnesium]] and [[calcium]] found in the [[Exosphere#The Exosphere of Mercury|atmosphere]] of Mercury's nightside, and the fact that Mercury's [[magnetic field]] is offset far to the north of the planet's center.<ref name = Nantes5>{{Cite web |date=October 5, 2011 |title=MESSENGER Team Presents New Mercury Findings at Planetary Conference |url=http://messenger.jhuapl.edu/news_room/details.php?id=185 |archive-url=https://web.archive.org/web/20130513075758/http://messenger.jhuapl.edu/news_room/details.php?id=185 |archive-date=May 13, 2013 |website=Johns Hopkins University Applied Physics Laboratory}}</ref>
+
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:MESSENGERmercurylimb.PNG|alt=A Monochrome view of Mercury from MESSENGER|A [[monochrome]] image of Mercury from ''MESSENGER'', with [[Warhol (crater)|Warhol]] at center.
+File:Stevenson crater (MESSENGER).png|alt=Crater Stevenson, with [[crater chain]]s forming an 'x' across its surface|[[Stevenson (crater)|Stevenson]] crater, with two perpendicular [[Secondary crater|secondary]] [[crater chain]]s running through its center.
+File:MESSENGERsouthpole.png|alt=A South Polar Projection of Mercury|A south [[polar projection]] of Mercury.
+File:MESSENGERridges.png|alt=A close snapshot of Ridges near the South Pole|A close snapshot of ridges near Mercury's south pole.
+File:Tectonically Active Planet Mercury.jpg|A topographic ''MESSENGER'' composite image of Mercury shows previously undetected fault scarps— cliff-like landforms resembling stairs that are small enough that scientists believe they are geologically young. This shows that Mercury is still contracting, and that Earth is not the only tectonically active Solar System planet.
+</gallery>
+
+===Extended mission===
+[[File:MercuryTopo.png|thumb|right|Topography of Mercury based on MDIS (Mercury Dual Imaging System) data]]
+In November 2011, NASA announced that the ''MESSENGER'' mission would be extended by one year, allowing the spacecraft to observe the 2012 [[solar maximum]].<ref name=Extended2013/> Its extended mission began on March 17, 2012, and continued until March 17, 2013. Between April 16 and 20, 2012, ''MESSENGER'' carried out a series of thruster manoeuvres, placing it in an eight-hour orbit to conduct further scans of Mercury.<ref>[https://www.wired.co.uk/news/archive/2012-04/24/messenger-settles-into-new-orbit-to-probe-mercury "Messenger settles into new orbit to probe Mercury"] {{webarchive|url=https://web.archive.org/web/20120426223523/http://www.wired.co.uk/news/archive/2012-04/24/messenger-settles-into-new-orbit-to-probe-mercury |date=April 26, 2012 }}. ''[[Wired (magazine)|Wired UK]]''. April 24, 2012. Retrieved April 29, 2012.</ref>
+
+In November 2012, NASA reported that ''MESSENGER'' had discovered a possibility of both [[ice|water ice]] and organic compounds in permanently shadowed craters in Mercury's north pole.<ref name="IceonMercury">{{cite news |date=November 29, 2012 |title=NASA probe reveals organics, ice on Mercury |url=https://reuters.com/article/us-space-mercury-idUKBRE8AS17F20121129 |access-date=November 29, 2012 |work=Reuters |archive-url=https://web.archive.org/web/20211111185124/https://www.reuters.com/article/us-space-mercury-idUKBRE8AS17F20121129 |archive-date=November 11, 2021 |url-status=live}}</ref><ref>{{cite web|url=https://www.bbc.co.uk/news/science-environment-20553879|title=Mercury's water ice at north pole finally proven|publisher=BBC|date=November 30, 2012|access-date=November 30, 2012}}</ref><ref>{{Cite web |date=2019-08-02 |title=The Moon and Mercury May Have Thick Ice Deposits - NASA |url=https://www.nasa.gov/solar-system/the-moon-and-mercury-may-have-thick-ice-deposits/ |access-date=2024-11-19 |language=en-US}}</ref> In February 2013, NASA published the most detailed and accurate 3D map of Mercury to date, assembled from thousands of images taken by ''MESSENGER''.<ref>{{cite web|url=http://www.huffingtonpost.co.uk/2013/02/16/nasa-mercury-3d-map_n_2700218.html|title=New Nasa Photos Show Off Mercury In Brilliant 3D Map (VIDEO)|work=Huffington Post|date=February 16, 2013|access-date=February 16, 2013}}</ref><ref>{{cite web|url=https://www.bbc.co.uk/news/science-environment-21468172|title=Mercury shows off its colourful side|publisher=BBC|date=February 16, 2013|access-date=February 16, 2013}}</ref> ''MESSENGER'' completed its first extended mission on March 17, 2013,<ref name=ExMissionCompleted2013/> and its second lasted until April 2015.<ref name=200,000ImagesSurpassed/> In November 2013, ''MESSENGER'' was among the numerous space assets that imaged [[Comet Encke]] (2P/Encke) and [[Comet ISON]] (C/2012 S1).<ref>[http://www.lpi.usra.edu/planetary_news/2013/11/15/messenger-detects-comets-ison-and-encke-prepares-for-closer-encounters/ "MESSENGER Detects Comets ISON and Encke, Prepares for Closer Encounters"] {{Webarchive|url=https://web.archive.org/web/20160807201643/http://www.lpi.usra.edu/planetary_news/2013/11/15/messenger-detects-comets-ison-and-encke-prepares-for-closer-encounters/ |date=August 7, 2016 }}. USRA.edu. November 15, 2013. Retrieved January 23, 2015.</ref><ref name="NASA-20131206">{{cite web |author=<!--Not stated--> |title=How NASA Space Assets Observed Comet ISON |url=https://solarsystem.nasa.gov/multimedia/display.cfm?IM_ID=17405 |archive-url=https://web.archive.org/web/20140202100625/https://solarsystem.nasa.gov/multimedia/display.cfm?IM_ID=17405 |archive-date=February 2, 2014 |date=December 6, 2013 |publisher=[[NASA]] |access-date=May 11, 2014 }}</ref><ref name="ARXIV-20140508">{{cite arXiv |last1=Sekanina |first1=Zdenek |last2=Kracht |first2=Rainer |title=Disintegration of Comet C/2012 S1 (ISON) Shortly Before Perihelion: Evidence From Independent Data Sets |eprint=1404.5968|date=May 8, 2014  |class=astro-ph.EP }}</ref> As its orbit began to decay in early 2015, ''MESSENGER'' was able to take highly detailed close-up photographs of ice-filled craters and other landforms at Mercury's north pole.<ref name=DyingGifts>{{cite news|url=https://www.bbc.co.uk/news/science-environment-31917308|title=Best views yet of Mercury's ice-filled craters|work=BBC News|date=March 17, 2015|access-date=March 18, 2015|archive-url=https://web.archive.org/web/20150317185724/http://www.bbc.co.uk/news/science-environment-31917308|archive-date=March 17, 2015|url-status=live}}</ref>  After the mission was completed, review of the radio ranging data provided the first measurement of the rate of mass loss from the Sun.<ref>{{cite journal |title=Solar system expansion and strong equivalence principle as seen by the NASA MESSENGER mission |author1=Antonio Genova|author2=Erwan Mazarico|author3=Sander Goossens|author4=Frank G. Lemoine|author5=Gregory A. Neumann|author6=David E. Smith|author7=Maria T. Zuber |journal=Nature Communications |volume=9 |issue=289 |date=January 18, 2018 |page=289 |doi=10.1038/s41467-017-02558-1|pmid=29348613 |pmc=5773540 |bibcode=2018NatCo...9..289G |doi-access=free }}</ref>
+<gallery class="center" widths="175" heights="135" style="font-size:95%; line-height:130%">
+File:GlobalColor2017 equi 64ppd.1000.750.430.10percent.png|Global exaggerated-color map based on Wide Angle Camera images taken through various filters.
+File:PIA19247-Mercury-NPolarRegion-Messenger20150316.jpg|False-color map showing maximum temperatures of north polar region.
+File:Crater Apollodor and Pantheon Fossae.jpg|Crater [[Apollodorus (crater)|Apollodorus]], with the [[Pantheon Fossae]] radiating from it.
+File:EW1026656707Gnomap.png|[[Ray system|Crater rays]] streaking across the planet's southern hemisphere.
+File:Hollows in Sholem Aleichem.jpg|[[Hollows (Mercury)|Hollows]] in the wall of crater [[Sholem Aleichem (crater)|Sholem Aleichem]].<ref>{{cite web|url=http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=1349|title=High-resolution Hollows|work=MESSENGER Featured Images|date=March 12, 2014|publisher=JHU - APL|archive-url=https://web.archive.org/web/20140314010953/http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=1349|archive-date=March 14, 2014}}</ref><ref name = "Lakdawalla2014.02.18">{{cite web|last = Lakdawalla|first = E.|author-link = Emily Lakdawalla|title = What are Mercury's hollows?|publisher = [[Planetary Society]]|date = February 18, 2014|url = http://www.planetary.org/blogs/emily-lakdawalla/2014/02171332-what-are-mercurys-hollows.html|access-date = May 1, 2015|archive-url = https://web.archive.org/web/20150427191638/http://www.planetary.org/blogs/emily-lakdawalla/2014/02171332-what-are-mercurys-hollows.html|archive-date = April 27, 2015|url-status = live }}</ref>
+File:PIA19450-PlanetMercury-CalorisBasin-20150501.jpg|Perspective view of [[Caloris Basin]] – high (red); low (blue).
+</gallery>On July 3, 2008, the ''MESSENGER'' team announced that the probe had discovered large amounts of water present in Mercury's [[exosphere]], which was an unexpected finding.<ref name="planetary society">{{cite news|first=Emily |last=Lakdawalla |title=MESSENGER Scientists 'Astonished' to Find Water in Mercury's Thin Atmosphere |url=http://www.planetary.org/news/2008/0703_MESSENGER_Scientists_Astonished_to.html |date=July 3, 2008 |work=The Planetary Society |access-date=May 1, 2009 |archive-url=https://web.archive.org/web/20080707035106/http://www.planetary.org/news/2008/0703_MESSENGER_Scientists_Astonished_to.html |archive-date=July 7, 2008 }}</ref> In the later years of its mission, ''MESSENGER'' also provided visual evidence of past volcanic activity on the surface of Mercury,<ref name="Volcanism 2011">{{cite journal |title=Flood Volcanism in the Northern High Latitudes of Mercury Revealed by MESSENGER |journal=Science |date=September 30, 2011 |last1=Head |first1=James W. |last2=Chapman |first2=Clark R. |last3=Strom |first3=Robert G. |last4=Fassett |first4=Caleb I. |last5=Denevi |first5=Brett W. |volume=333 |issue=6051 |pages=1853–1856 |doi=10.1126/science.1211997 |pmid=21960625 |bibcode=2011Sci...333.1853H |s2cid=7651992 |url=https://authors.library.caltech.edu/72395/2/Head.SOM.pdf |archive-url=https://web.archive.org/web/20180719031049/https://authors.library.caltech.edu/72395/2/Head.SOM.pdf |archive-date=July 19, 2018 |access-date=September 1, 2020 |url-status=live }}</ref> as well as evidence for a liquid iron [[planetary core]].<ref name="planetary society"/> The probe also constructed the most detailed and accurate maps of Mercury to date, and furthermore discovered carbon-containing [[organic compound]]s and water ice inside permanently shadowed craters near the north pole.<ref name="results 2015">{{cite news |last=Wall |first=Mike |url=http://www.space.com/28948-messenger-mercury-probe-final-days.html |title=NASA Mercury Probe Trying to Survive for Another Month |work=Space.com |date=March 29, 2015 |access-date=April 4, 2015 |archive-url=https://web.archive.org/web/20190403102620/https://www.space.com/28948-messenger-mercury-probe-final-days.html |archive-date=April 3, 2019 |url-status=live }}</ref>
+<gallery class="center" widths="200" heights="200" style="font-size:95%; line-height:130%">
+File:Gravity Anomalies on Mercury.jpg|[[Mass concentration (astronomy)|Mass concentrations]] (red; [[Caloris Basin]] at center, [[Sobkou Planitia]] at right), detected via gravity anomalies, provide evidence for subsurface structure and evolution.
+File:PIA19420-Mercury-NorthHem-Topography-MLA-Messenger-20150416.jpg|Northern hemisphere topography from [[MESSENGER#Scientific instruments|MLA]] data shows a 10&nbsp;km vertical range: high (red); low (purple).
+File:Unmasking the Secrets of Mercury.jpg|[[MESSENGER#Scientific instruments|MASCS]] spectral scan of Mercury's surface.
+File:PIA19411-Mercury-WaterIce-Radar-MDIS-Messenger-20150416.jpg|[[Geology of Mercury#High-albedo polar patches and possible presence of ice|Water ice]] (yellow) in [[Crater of eternal darkness|permanently shaded craters]] of Mercury's north polar region
+<!---File:EN1036539529M.nomap web.jpg|Surface hollows on Mercury imaged by ''MESSENGER'' during its final descent.<ref>{{cite web|url=http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=1349|title=High-resolution Hollows|work=MESSENGER Featured Images|date=March 12, 2014|publisher=JHU – APL|archive-url=https://web.archive.org/web/20140314010953/http://messenger.jhuapl.edu/gallery/sciencePhotos/image.php?gallery_id=2&image_id=1349|archive-date=March 14, 2014|url-status=live }}</ref>--->
+</gallery>[[X-ray]] flourescence from the nightside and dayside surface of Mercury were detected using the X-Ray Spectrometer (XRS) on MESSENGER. These were attributed to precipitating electrons interacting with the surface.<ref>{{Cite journal |last=Lindsay |first=S.T. |last2=James |first2=M.K. |last3=Bunce |first3=E.J. |last4=Imber |first4=S.M. |last5=Korth |first5=H. |last6=Martindale |first6=A. |last7=Yeoman |first7=T.K. |date=2016 |title=MESSENGER X-ray observations of magnetosphere–surface interaction on the nightside of Mercury |url=https://linkinghub.elsevier.com/retrieve/pii/S0032063315301501 |journal=Planetary and Space Science |language=en |volume=125 |pages=72–79 |doi=10.1016/j.pss.2016.03.005 |access-date=11 October 2026}}</ref><ref>{{Cite journal |last=Lindsay |first=S. T. |last2=Bunce |first2=E. J. |last3=Imber |first3=S. M. |last4=Martindale |first4=A. |last5=Nittler |first5=L. R. |last6=Yeoman |first6=T. K. |date=2022 |title=MESSENGER X‐Ray Observations of Electron Precipitation on the Dayside of Mercury |url=https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JA029675 |journal=Journal of Geophysical Research: Space Physics |language=en |volume=127 |issue=1 |doi=10.1029/2021JA029675 |issn=2169-9380 |access-date=11 October 2026 |via=Elservier ScienceDirect |archive-url=https://web.archive.org/web/20230708055542/https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JA029675 |archive-date=July 8, 2023 |url-status=live}}</ref> 
+
+===Solar System portrait===
+{{main|Family Portrait (MESSENGER)}}
+On February 18, 2011, a portrait of the Solar System was published on the ''MESSENGER'' website.  The mosaic contained 34 images, acquired by the MDIS instrument during November 2010.  All the planets were visible with the exception of [[Uranus]] and [[Neptune]], due to their vast distances from the Sun. The ''MESSENGER'' "family portrait" was intended to be complementary to the [[Family Portrait (Voyager)|Voyager family portrait]], which was acquired from the outer Solar System by ''[[Voyager 1]]'' on February 14, 1990.<ref name="APLPortrait">{{cite press release| publisher=APL| date=February 18, 2011| title=A Solar System Family Portrait, from the Inside Out| url=http://messenger.jhuapl.edu/news_room/details.php?id=155| access-date=February 18, 2011| archive-url=https://web.archive.org/web/20130512035442/http://messenger.jhuapl.edu/news_room/details.php?id=155| archive-date=May 12, 2013}}</ref>
+[[File:MESSENGER Solar System Family Portrait.jpg|thumb|center|800px|{{center|''MESSENGER'' captured a near-complete portrait of the [[Solar System]] during November 2010.}}]]
+<!---
+{{wide image|MESSENGER Solar System Family Portrait.jpg|1080px|alt=MESSENGER'' near-complete portrait of the [[Solar System]].|align-cap=center|''MESSENGER'' captured a near-complete portrait of the [[Solar System]] during November 2010.}}
+--->
+
+===View of a total lunar eclipse===
+{{main|October 2014 lunar eclipse}}
+[[File:MESSENGER views 2014-10-08 lunar eclipse from Mercury orbit.gif|thumb|right|A lunar eclipse as viewed from Mercury, captured from the ''MESSENGER'' spacecraft. The [[Moon]] can be seen falling into the shadow of Earth.]]
+On October 8, 2014, from 9:18 UTC to 10:18 UTC, ''MESSENGER'' took 31 images, taken two minutes apart, of the Earth and the Moon, as the Moon underwent a [[total lunar eclipse]]. MESSENGER was 107 million kilometers (66 million miles) from the Earth at the time of the lunar eclipse. The Earth is about 5 pixels across and the Moon is just over 1 pixel across in the field of view of the NAC, with about 40 pixels distance between them. The images are zoomed by a factor of two and the Moon's brightness has been increased by a factor of about 25 to show its disappearance more clearly. This was the first observation of a [[lunar eclipse]], of Earth's Moon, in history to be viewed from another planet.<ref>{{cite web |title=Lunar Eclipse From Mercury |date=October 8, 2014 |url=https://science.nasa.gov/resource/lunar-eclipse-from-mercury/ |publisher=NASA |access-date=20 April 2024 |archive-url=https://web.archive.org/web/20250906112558/https://science.nasa.gov/resource/lunar-eclipse-from-mercury/ |archive-date=September 6, 2025 |url-status=live}}{{source-attribution}}</ref><ref name=EclipseReboost/>
+
+==End of mission==
+After running out of [[propellant]] for course adjustments, ''MESSENGER'' entered its expected terminal phase of orbital decay in late 2014. The spacecraft's operation was extended by several weeks by exploiting its remaining supply of helium gas, which was used to pressurize its propellant tanks, as [[reaction mass]].<ref name=Pressurant2015>{{cite web|url=http://www.astronomy.com/news/2014/12/innovative-use-of-pressurant-extends-messengers-mercury-mission|title=Innovative use of pressurant extends MESSENGER's Mercury mission|publisher=Astronomy.com|date=December 29, 2014|access-date=January 22, 2015|archive-url=https://web.archive.org/web/20161115082844/http://www.astronomy.com/news/2014/12/innovative-use-of-pressurant-extends-messengers-mercury-mission|archive-date=November 15, 2016|url-status=live}}</ref> ''MESSENGER'' continued studying Mercury during its decay period.<ref name="Wu 2015"/> The spacecraft [[Deliberate crash landings on extraterrestrial bodies|crashed onto the surface]] of Mercury on April 30, 2015, at 3:26&nbsp;p.m. [[Eastern Time Zone|EDT]] (19:26 GMT), at a velocity of {{convert|14080|km/h|mph|abbr=on}}, probably creating a crater in the planet's surface approximately {{convert|16|m|ft|abbr=on}} wide.<ref name='Bang'/><ref name="space.com.end"/> The spacecraft was estimated to have impacted at 54.4° N, 149.9° W on [[Suisei Planitia]], near the crater [[Janáček (crater)|Janáček]].<ref>{{cite news|url=http://www.universetoday.com/120043/mercury-messenger-mission-concludes-with-a-smashing-finale/|title=Mercury Messenger Mission Ends with a Smashing Finale|work=Universe Today|date=April 30, 2015|access-date=May 2, 2015|archive-url=https://web.archive.org/web/20150502183248/http://www.universetoday.com/120043/mercury-messenger-mission-concludes-with-a-smashing-finale/|archive-date=May 2, 2015|url-status=live}}</ref> The crash occurred at a place not visible from Earth at the time, and thus was not detected by any observers or instruments. NASA confirmed the end of the ''MESSENGER'' mission at 3:40&nbsp;p.m. EDT (19:40 GMT) after NASA's [[Deep Space Network]] did not detect the spacecraft's reemergence from behind Mercury.<ref name="space.com.end">{{cite news|url=http://www.space.com/29281-messenger-spacecraft-mercury-crash.html|work=Space.com|date=April 30, 2015|title=Farewell, MESSENGER! NASA Probe Crashes Into Mercury|access-date=May 2, 2015|archive-url=https://web.archive.org/web/20210127035414/http://www.space.com/29281-messenger-spacecraft-mercury-crash.html|archive-date=January 27, 2021|url-status=live}}</ref><ref>{{cite web|url=http://www.nasa.gov/press-release/nasa-completes-messenger-mission-with-expected-impact-on-mercurys-surface |publisher=NASA|date=April 30, 2015| title=Press Release: NASA Completes MESSENGER Mission with Expected Impact on Mercury's Surface|access-date=May 2, 2015}}</ref>[[File:PIA19449-PlanetMercury-MESSENGER-Images-First-20110329-Last-20150430.jpg|thumb|center|600px|{{center|''MESSENGER'''s first (March 29, 2011) and last (April 30, 2015) images from Mercury's orbit ([[:File:Details of MESSENGER's Impact Location.jpg|impact details]]).}}]]
+
+== See also ==
+{{Portal|Solar system|Spaceflight}}
+<!-- Please keep entries in alphabetical order & add a short description [[WP:SEEALSO]] -->
+* ''[[BepiColombo]]'', a European-Japanese mission to Mercury which was launched on October 19, 2018, and will enter orbit in November 2026
+* [[Exploration of Mercury]]
+* [[Mariner program]]
+* [[Stamatios Krimigis]], a NASA physicist and key contributor to the mission
+
+<!-- please keep entries in alphabetical order -->
+{{Clear}}
+
+== References ==
+{{reflist}}
+
+== External links ==
+{{Commons category|MESSENGER}}
+*[http://messenger.jhuapl.edu/ JHUAPL homepage] – official site at [[Johns Hopkins University Applied Physics Laboratory]]
+*[http://www.nasa.gov/mission_pages/messenger/main/ MESSENGER Mission Page] {{Webarchive|url=https://web.archive.org/web/20201213004900/http://www.nasa.gov/mission_pages/messenger/main/ |date=December 13, 2020 }} – official information regarding the mission on the NASA website
+*[https://web.archive.org/web/20070714191601/http://solarsystem.nasa.gov/missions/profile.cfm?MCode=MESSENGER MESSENGER Mission Profile] by [http://solarsystem.nasa.gov NASA's Solar System Exploration]
+*[https://web.archive.org/web/20130420191022/http://messenger.jhuapl.edu/encounters/ Mercury Flyby 1 Visualization Tool] and [https://web.archive.org/web/20081201215401/http://messenger.jhuapl.edu/encountersactual/ Mercury Flyby 1 Actuals] – comparison between simulated views of Mercury to the images actually acquired by MESSENGER during flyby 1
+*[https://web.archive.org/web/20130513080216/http://messenger.jhuapl.edu/encountersm2/ Mercury Flyby 2 Visualization Tool] and [https://web.archive.org/web/20130513075040/http://messenger.jhuapl.edu/encountersm2actual/ Mercury Flyby 2 Actuals] – comparison between simulated views of Mercury to the images actually acquired by MESSENGER during flyby 2
+*[http://messenger.jhuapl.edu MESSENGER Image Gallery]
+*[https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A NSSDC Master Catalog entry]
+*[https://web.archive.org/web/20050907233415/http://messenger.jhuapl.edu/the_mission/images/flyby_images/mdis_depart.mpeg Video from MESSENGER as it departs Earth]
+*[http://pds.nasa.gov/tools/data-search/search.jsp?q=mercury&fq=facet_target%3A%222%2Cplanet%2Cmercury%22&f.facet_target.facet.prefix=3%2Cplanet%2Cmercury%2C Mercury data collected by both Mariner 10 and MESSENGER]
+*[https://www.youtube.com/watch?v=ENwD31EDFjc NASA Solar System 2015-04-27 MESSENGER at Mercury Images of the Mission]
+
+{{Planetary Missions Program Office|Discovery=y}}
+{{Mercury spacecraft}}
+{{Venus spacecraft}}
+{{Satellite and spacecraft instruments}}
+{{Solar System probes}}
+{{NASA navbox}}
+{{Orbital launches in 2004}}
+{{2011 in space}}
+{{2015 in space}}
+
+{{italic title}}
+
+[[Category:Space probes launched in 2004]]
+[[Category:Destroyed space probes]]
+[[Category:Discovery Program]]
+[[Category:NASA space probes]]
+[[Category:Missions to Mercury]]
+[[Category:Spacecraft launched by Delta II rockets]]
+[[Category:Extraterrestrial orbiters]]
+[[Category:Articles containing video clips]]
+[[Category:Spacecraft decommissioned in 2015]]
+[[Category:Earth flybys]]
+[[Category:Venus flybys]]
+[[Category:NASA missions to Venus]]

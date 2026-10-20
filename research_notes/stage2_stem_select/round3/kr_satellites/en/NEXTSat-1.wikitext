@@ -1,0 +1,66 @@
+{{Short description|South Korean satellite launched in 2018}}
+{{distinguish|text=[[NEXTSat]]}}
+{{Infobox spaceflight
+| auto               = all
+| name               = NEXTSat-1
+| image              = 
+| image_caption      = 
+| mission_type       = 
+| operator           = 
+| COSPAR_ID          = 
+| SATCAT             = 
+| mission_duration   = 
+| spacecraft_bus     = 
+| manufacturer       = [[KAIST Satellite Technology Research Center]]
+| dry_mass           = 
+| launch_mass        = {{convert|107|kg}}
+| power              = <!-- [[watt]]s -->
+| launch_date        = {{start date text|4 December 2018|timezone=yes}}&nbsp;UTC-7
+| launch_rocket      = [[Falcon 9]]
+| launch_site        = [[Vandenberg Space Force Base|Vandenberg]]
+| launch_contractor  = 
+| disposal_type      = 
+| deactivated        = 
+| last_contact       = 
+| orbit_epoch        = 
+| orbit_reference    = 
+| orbit_regime       = 
+| orbit_periapsis    = 
+| orbit_apoapsis     = 
+| orbit_inclination  = 
+| orbit_period       = 
+| orbit_longitude    = 
+| apsis              = 
+| programme          = NEXTSat
+| previous_mission   = 
+| next_mission       = [[NEXTSat-2]]
+}}
+'''NEXTSat-1''' ({{korean|hangul=차세대소형위성 1호}}) is a [[small satellite]] developed by the [[KAIST Satellite Technology Research Center]] in South Korea.
+
+== History ==
+
+=== Development ===
+NEXTSat-1 was developed to study the birth of [[Star|Stars]] and space storms, and to verify the performance of key components of [[Satellite|satellites]]. A total of 32.4 billion won was invested in satellite development.<ref name=":0">{{Cite news |date=27 July 2018 |title=2279명 꿈 실은 '차세대소형위성 1호' 우주로… 별 탄생 신비 밝힌다 |url=https://www.hankyung.com/article/2018072775611 |work=[[The Korea Economic Daily]] |publisher=}}</ref>
+
+Development began in June 2012, and satellite assembly and performance testing were completed in July 2017.<ref>{{Cite news |date=11 November 2018 |title='차세대소형위성 1호' 20일 미국서 발사…우주과학 연구 활용 |url=https://news.kbs.co.kr/news/pc/view/view.do?ncd=4071216 |publisher=[[KBS News]]}}</ref>
+
+On October 21, 2018, it arrived at the launch site, [[Vandenberg Space Force Base]], on October 21, 2018.<ref>[http://www.hankookilbo.com/News/Read/201811190948025309?did=na 내일 발사 예정이던 차세대소형위성 1호 발사 연기], [[Hankook Ilbo]], 19 November, 2018</ref><ref>{{Cite news |date=4 December 2018 |title=한국 '차세대 소형위성 1호' 실은 스페이스X 로켓 발사 |url=https://www.khan.co.kr/article/201812040739001 |work=[[Kyunghyang Shinmun]] |publisher=}}</ref>
+
+=== Launch ===
+It was launched on December 4, 2018, at approximately 3:34 a.m. from Vandenberg Air Force Base aboard a [[SpaceX]] [[Falcon 9]]. First contact was made 80 minutes later with the [[Svalbard Ground Station]] of [[Norway]], in the [[North Pole]], and the second contact was made approximately 100 minutes later.<ref name=":1">{{Cite news |date=4 December 2018 |title=차세대소형위성 발사 성공…정상 궤도 진입·작동 |url=https://www.yna.co.kr/view/AKR20181204065851017 |work=[[Yonhap News]] |publisher=}}</ref>
+
+At 10:05 a.m., 6 hours and 31 minutes after launch, the satellite successfully entered a normal orbit at an altitude of 575 km through its first communication with a domestic ground station. The [[KAIST Satellite Technology Research Center]] confirmed that the solar panels were normally deployed and the satellite's overall condition, including battery voltage and internal temperature, was good.<ref>{{Cite news |date=4 December 2018 |title=차세대 소형위성 1호 교신 성공…우주폭풍·별 탄생사 연구 |url=https://www.hani.co.kr/arti/science/science_general/872948.html |publisher=[[한겨레]]}}</ref>
+
+Three [[CubeSat|CubeSats]] selected by [[Seoul National University]] and [[Korea Aerospace University]] in the 2015 CubeSat Competition were launched along with NEXTSat-1. The main missions of these CubeSats are to conduct various research such as exploration of areas of interest, verification of dual-frequency [[GPS receiver|GPS receivers]], and observation of discharge phenomena in the upper atmosphere above the stratosphere.<ref name=":1" />
+
+The three-dimensional stacked memory developed by [[KAIST]], the high-precision star tracker developed by Satrec Initiative for satellite attitude control, and the standard onboard computer manufactured by AP Satellite as a satellite brain were all loaded for testing in the extreme environment of space.<ref name=":0" />
+
+== Design and missions ==
+The local production rate of parts is 95%. NEXTSat-1 carries a space storm research payload that measures cosmic radiation and [[Plasma (physics)|Plasma]].<ref name=":0" /> Additionally, it is designed so that the payloads within the satellite can be directly inserted into another satellite and start operating immediately.<ref>{{Cite news |date=22 July 2018 |title=우주폭풍 연구 특명 '한국 위성 기술 결정체'···국산 발사체 없어 '팰컨9' 이코노미석 탄다 |url=https://www.khan.co.kr/article/201807222112005 |work=[[Kyunghyang Shinmun]] |publisher=}}</ref>
+
+NEXTSat-1 has a mission to measure cosmic radiation and plasma conditions due to solar flares for about two years, and to send various observation data that can be used to forecast [[space weather]] and examine the impact of space environments on Earth. In addition, it has a payload that observes the [[Near-infrared]] band, and one of its main missions is to provide image data to domestic related organizations by studying the history of star birth and the formation and evolution of [[Galaxy|Galaxies]].<ref name=":0" /><ref name=":1" />
+
+== References ==
+{{Reflist}}{{South Korean space program}}
+[[Category:KAIST]]
+[[Category:Satellites of South Korea]]

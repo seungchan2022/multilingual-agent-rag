@@ -1,0 +1,98 @@
+{{Short description|First South Korean satellite}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=March 2021}}
+{{Infobox spaceflight
+| name              = KITSAT-1
+| names_list        = KITSAT-A<br/>Korea Institute of<br/>Technology Satellite-1<br/>Uribyol-1<br/>KITSAT-OSCAR-23<br/>KO-23<br/>Our Star
+| image             = Kitsat-1 Satellite Artist's Concept.png
+| image_caption     = Artist rendering of KITSAT-1 satellite
+| image_size        = 220px
+
+| mission_type      = [[Technology demonstration]]
+| operator          = [[KAIST Satellite Technology Research Center|SaTReC]]
+| COSPAR_ID         = 1992-052B
+| SATCAT            = 22077
+| website           = [http://satrec.kaist.ac.kr/e_02_01.php KAIST SaTReC]
+| mission_duration  = 5 years (planned)
+
+| spacecraft        = KITSAT-1
+| spacecraft_type   = 
+| spacecraft_bus    = [[Surrey Satellite Technology|SSTL-70]]
+| manufacturer      = [[Surrey Satellite Technology]] (SSTL)
+| launch_mass       = {{cvt|48.6|kg}}
+| dimensions        = {{cvt|35.2|x|35.6|x|67|cm}}
+| power             = 30 [[watt]]s
+
+| launch_date       = 10 August 1992, 23:08:07 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[Ariane 4|Ariane 42P H-10]]
+| launch_site       = [[Guiana Space Centre|Centre Spatial Guyanais]], [[ELA-2]]
+| launch_contractor = [[Arianespace]]
+
+| disposal_type     = 
+| deactivated       = 
+| last_contact      = 
+| decay_date        =
+
+| orbit_reference   = [[Geocentric orbit]]<ref name="n2yo2">{{cite web|url=http://www.n2yo.com/satellite/?s=39068|title=STSat 2C 2013-003A NORAD 39068|publisher=N2YO.com|access-date=31 October 2013}}</ref>
+| orbit_regime      = [[Low Earth orbit]]
+| orbit_periapsis   = {{cvt|1316|km}}
+| orbit_apoapsis    = {{cvt|1328|km}}
+| orbit_inclination = 66.00°
+| orbit_period      = 112.0 minutes
+| apsis             = gee
+
+| instruments       = Digital Store and Forward Communication Experiment (DSFCE)<br/>CCD Earth Imaging System (CEIS)<br/>Digital Signal Processing Experiment (DSPE)<br/>Cosmic Ray Experiment (CRE)
+
+| programme         = '''[[KAIST Satellite Technology Research Center|KITSAT program]]'''
+| previous_mission  = 
+| next_mission      = [[KITSAT-2]]
+}}
+
+'''KITSAT-1''' or '''KITSAT-A''' (Korean Institute of Technology Satellite)<ref name="An, Hyoung Joon">{{cite journal|author=An, Hyoung Joon|title=South Korea's space program: Activities and ambitions|journal=Asia Policy |volume=27 |issue=2 |url=https://muse.jhu.edu/article/754924|date=April 2020|pages=34–42 |doi=10.1353/asp.2020.0029 |s2cid=219499652 |access-date=29 April 2021|url-access=subscription }}</ref> is the first [[South Korea|South Korean]] [[satellite]] to be launched. Once launched, the satellite was given the nickname "Our Star" ([[:ko:우리별 1호|우리별]]). KITSAT-1 operated in a {{Convert|818|mi|km}} by {{Convert|825|mi|km}} [[low Earth orbit]] (LEO). Of the 12 satellites launched by South Korea, KITSAT-1 is in the highest orbit.<ref name="Journal1">{{cite journal|last1=Choi |first1=J. |last2=Jo |first2=J.H. |last3=Choi |first3=E.J. |last4=Yu |first4=J. |last5=Choi |first5=B.K. |last6=Kim |first6=M.J. |last7=Yim |first7=H.S. |last8=Roh |first8=D.G. |last9=Kim |first9=S. |last10=Park |first10=J.H. |last11=Cho |first11=S.|title=Space surveillance radar observation analysis: One-year tracking and orbit determination results of KITSAT-1, "우리별 1호" |journal=Journal of Astronomy and Space Sciences |year=2020 |volume=37 |issue=2 |pages=105–115 |doi=10.5140/JASS.2020.37.2.105|bibcode=2020JASS...37..105C |s2cid=225783832 |access-date=28 April 2021 |url=https://koreascience.or.kr/article/JAKO202017561783029.page |archive-url=https://web.archive.org/web/20201222232204/http://koreascience.or.kr/article/JAKO202017561783029.page |archive-date=22 December 2020 |url-status=live |doi-access=free }}</ref> While KITSAT-1 maintains equilibrium by gravity gradient forces, magnetic torque can be used to control attitude if needed.<ref name="kitsat1-cosmic-ray">{{cite journal|last1=Min|first1=K. W. |last2=Kim |first2=S. H. |last3=Shin |first3=Y. H. |last4=Choi |first4=Y. W. |title=KITSAT-1 cosmic ray experiment initial results |journal=Journal of Astronomy and Space Sciences |volume=10 |issue=2 |pages=103–112|url=https://ocean.kisti.re.kr/downfile/volume/kosss/OJOOBS/1993/v10n2/OJOOBS_1993_v10n2_103.pdf |date=December 1993|bibcode=1993JASS...10..103M |access-date=29 April 2021 |archive-url=https://web.archive.org/web/20220415165757/https://ocean.kisti.re.kr/downfile/volume/kosss/OJOOBS/1993/v10n2/OJOOBS_1993_v10n2_103.pdf |archive-date=15 April 2022 |url-status=live }}</ref> The forecasted lifespan of KITSAT-1 was only five years, but communication with the satellite was maintained for 12 years.<ref name="Journal1"/> Since the launch of KITSAT-1, South Korea launched an additional 36 satellites by 2020.<ref name="An, Hyoung Joon"/>
+
+== Description ==
+KITSAT-1 is considered to be a [[Small satellite|smallsat]] or [[Small satellite|microsatellite]].<ref name="onboard-computer">{{cite journal |last1=Kim |first1=H.S. |last2=Lee |first2=H.K. |last3=Choi |first3=S.D.|title=On-board computer system for kitsat-1 and 2 |journal=Journal of Astronomy and Space Sciences |volume=13 |issue=2 |pages=41–51|url=https://ocean.kisti.re.kr/downfile/volume/kosss/OJOOBS/1996/v13n2/OJOOBS_1996_v13n2_41.pdf|date=May 1996|access-date=29 April 2021|archive-url=https://web.archive.org/web/20210504155136/http://ocean.kisti.re.kr/downfile/volume/kosss/OJOOBS/1996/v13n2/OJOOBS_1996_v13n2_41.pdf |archive-date=4 May 2021 |url-status=live}}</ref> KITSAT-1 is the smallest [[low Earth orbit]] satellite that has been launched by South Korea.<ref name="Journal1"/>
+
+=== Instruments ===
+KITSAT-1's on-board computer (OBC) system uses an OBC186 for the main OBC and an OBC80 as the backup on-board computer system.<ref name="onboard-computer" />
+
+KITSAT-1 carried a Digital Store and Forward Communication Experiment (DSFCE), a CCD Earth Imaging System (CEIS), a Digital Signal Processing Experiment (DSPE), and a Cosmic Ray Experiment (CRE).<ref name="Display">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1992-052B|title=Display: KITSAT-A 1992-052B|publisher=NASA|date=10 February 2021|access-date=2 March 2021}} {{PD-notice}}</ref>
+
+The CCD Earth Imaging System is equipped with two different cameras. These cameras are a wide-angle camera with a 4&nbsp;km/pixel resolution and a high-resolution camera with a 400 m/pixel resolution.<ref name="kitsat1-cosmic-ray" /> The two CCD cameras on KITSAT-1 are located on the bottom of the satellite so that the cameras should always be pointed toward [[Earth]]<ref>{{cite journal |last1=Park |first1=S. |last2=Bae |first2=J. |last3=Sung |first3=D.K. |last4=Choi |first4=S.D.|title=Development of the thermal model for kitsat-1/2 microsatellites and its verification using in-orbit telemetries |journal=Journal of Astronomy and Space Sciences |volume=13 |issue=2 |page=s105-116 |url=https://ocean.kisti.re.kr/downfile/volume/kosss/OJOOBS/1996/v13n2/OJOOBS_1996_v13n2_105.pdf|date=May 1996|access-date=29 April 2021 |archive-url=https://web.archive.org/web/20210504130932/http://ocean.kisti.re.kr/downfile/volume/kosss/OJOOBS/1996/v13n2/OJOOBS_1996_v13n2_105.pdf |archive-date=4 May 2021 |url-status=live }}</ref>
+
+On board was equipment to run the Cosmic Ray Experiment (CRE). The experiment's main purpose was to monitor and study space radiation in a {{cvt|1320|km}} low Earth orbit. These space radiation measurements were to be taken in short and long time frames. The CRE is able to measure high-energy protons, galactic cosmic rays from deep space, and solar cosmic rays from solar flares.<ref name="kitsat1-cosmic-ray" />
+
+The CRE payload consists of two subsystems. The two subsystems are the Cosmic Particle Experiment (CPE) and the Total Dose Experiment (TDE). The CPE is used to measure the Linear Energy Transfer (LET) spectrum over short time frames, and the TDE is used to measure the total accumulated ionizing radiation dose over long time frames.<ref name="kitsat1-cosmic-ray" />
+
+== Launch ==
+[[File:Ariane42P rocket.png|thumb|right|210x210px|The Ariane 4 launch vehicle, with TOPEX/Poseidon, KITSAT-1, and S/80T on board]]
+Launched in 1992, KITSAT-1, which stands for the Korea Institute of Technology Satellite-1, was the first satellite developed by SaTReC. Developed through a collaborative program between SaTReC and the [[University of Surrey]], United Kingdom, the main objective of the KITSAT-1 program was to acquire satellite [[technology]] through the training and education of satellite engineers.<ref>{{cite web
+|title=KITSAT-1 mission page from SSTL|url=https://www.sstl.co.uk/Missions/KITSAT-1--Launched-1992|publisher=SSTL|access-date=2016-12-26|archive-url=https://web.archive.org/web/20161227055818/https://www.sstl.co.uk/Missions/KITSAT-1--Launched-1992|archive-date=2016-12-27|url-status=dead}}</ref>
+
+KITSAT-1 was placed in a 1320&nbsp;km orbit with a 66° [[orbital inclination]]. This orbit lies just within the inner [[Van Allen radiation belt]].<ref name="kitsat1-cosmic-ray" />
+
+The success of the KITSAT-1 program marked the beginning of space technology development for South Korea.<ref name="Welcome to the Satellite Technology Research Center, Home of the KITSAT satellites">
+{{cite web|title=KAIST Satellite Technology Research Center (SaTRec)|url=http://satrec.kaist.ac.kr/e_02_01.php|publisher=KAIST SaTRec|access-date=2 March 2021|archive-url=https://web.archive.org/web/20220328073609/http://satrec.kaist.ac.kr/e_02_01.php |archive-date=28 March 2022 |url-status=live }}</ref>
+
+KITSAT-1 was launched from [[Guiana Space Centre|Centre Spatial Guyanais]] (CSG) on 10 August 1992 on an [[Ariane 4|Ariane 42P H-10]] [[launch vehicle]] along with [[NASA]]'s [[TOPEX/Poseidon]] satellite and France's S80/T satellite. Its launch weight was 48.6&nbsp;kg, and it measured 35.2&nbsp;cm x 35.6&nbsp;cm x 67&nbsp;cm. The console of the [[University of Surrey]] [[UoSAT-5]] satellite was used.{{Cn|date=September 2023}}
+
+With this launch, South Korea became the 22nd country to operate a satellite.<ref>{{cite web|url=https://m.dongascience.com/en/news/61058 |title=[A Moment in Science] August 11, 1992: The Launch of KITSAT-1, South Korea's First Satellite |website=dongascience.com |date=5 August 2023 |access-date=28 February 2026}}</ref>
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[KITSAT-2]]
+* [[KITSAT-3]]
+
+== References ==
+{{Reflist|30em}}
+
+{{South Korean Space Program}}
+{{Orbital launches in 1992}}
+
+[[Category:Spacecraft launched in 1992]]
+[[Category:Satellites orbiting Earth]]
+[[Category:Satellites of South Korea]]
+[[Category:First artificial satellites of a country]]
+[[Category:Amateur radio satellites]]
+[[Category:KAIST]]
+[[Category:Spacecraft launched by Ariane 4 rockets]]

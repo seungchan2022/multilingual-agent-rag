@@ -1,0 +1,158 @@
+{{Short description|South Korean Earth observation satellite}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=February 2021}}
+{{Infobox spaceflight
+| name              = KOMPSAT-3
+| names_list        = Korean Multi-purpose Satellite-3<br/>Arirang-3
+| image             = G SA KOMPS-3 01.jpg
+| image_caption     = 
+| image_size        = 300px
+
+| mission_type      = [[Earth observation satellite|Earth observation]]
+| operator          = [[Korea Aerospace Research Institute]]
+| COSPAR_ID         = 2012-025B
+| SATCAT            = 38338
+| mission_duration  = 4 years (planned)<br/>{{time interval|2012-05-17||show=ym}} ''(in progress)''
+
+| spacecraft_type   = [[KOMPSAT]]
+| spacecraft_bus    = 
+| manufacturer      = [[Korea Aerospace Industries]]<br/>[[Korea Aerospace Research Institute]]<br/>[[Astrium|EADS Astrium]] (bus)
+| launch_mass       = {{cvt|980|kg}}
+| dimensions        = 2.9 m in diameter x 3.5 m in height
+| power             = 1.3 [[Watt|kW]]
+
+| launch_date       = 17 May 2012, 16:39 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[H-IIA]] (202) (# 21)
+| launch_site       = [[Tanegashima Space Center]]
+| launch_contractor = [[Mitsubishi Heavy Industries]]
+
+| entered_service   = 29 March 2013
+| last_contact      = 
+| deactivated       =
+
+| orbit_reference   = [[Geocentric orbit]]<ref name="Trajectory">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=2012-025B|title=Trajectory: Kompsat 3 2012-025B |publisher=NASA|date=21 October 2021|access-date=22 October 2021}} {{PD-notice}}</ref>
+| orbit_regime      = [[Sun-synchronous orbit]]
+| orbit_altitude    = {{cvt|685|km}}
+| orbit_inclination = 98.13°
+| orbit_period      = 98.5 minutes
+| apsis             = gee
+
+| instruments       = Advanced Earth Imaging Sensor System (AEISS)
+
+| programme         = '''KOMPSAT programme'''
+| previous_mission  = [[KOMPSAT-2]]
+| next_mission      = [[KOMPSAT-5]]
+}}
+
+'''KOMPSAT-3''' ('''Korean Multi-purpose Satellite-3'''), also known as '''Arirang-3''',<ref name="GSP">{{cite web|url=https://space.skyrocket.de/doc_sdat/kompsat-3.htm|title=KOMPSAT 3 (Arirang 3) |publisher=Gunter's Space Page|date=7 July 2020|access-date=22 October 2021}}</ref> is a South Korean multipurpose [[Earth observation satellite]]. It was launched from [[Tanegashima Space Center]], Japan at 16:39 [[Coordinated Universal Time|UTC]] on 17 May 2012. Like the earlier [[KOMPSAT-1]] and [[KOMPSAT-2]] satellites, it takes its name from the popular Korean folk song [[Arirang]]. Its launch was the culmination of a project begun in 1995.<ref name="ESA1">{{cite web|url=https://directory.eoportal.org/web/eoportal/satellite-missions/k/kompsat-1|title=KOMPSAT-1|publisher=ESA eoPortal Directory|date=2021 |access-date=22 October 2021}}</ref>
+
+KOMPSAT-3 orbits at a height of {{cvt|685.1|km}}, circling the [[Earth]] 14 times per day, and is expected to maintain that orbit for 4 years. It weighs {{cvt|980|kg}}. The satellite carries an Advanced Earth Imaging Sensor System (AEISS), which can distinguish to a 70-cm resolution, allowing the identification of individual vehicles on the ground.<ref name="ESA3"/>
+
+The satellite was succeeded by [[KOMPSAT-5]] and [[KOMPSAT-3A]], which were launched on 2013 and 2015 respectively.
+
+== History ==
+South Korea started the KOMPSAT programme in 1995 to nurture its national Earth-imaging industry and supply services for remote-sensing applications. The South Korean KOMPSAT-3 Earth-imaging satellite was developed by [[Korea Aerospace Industries]] (KAI) and [[Korea Aerospace Research Institute]] (KARI), in partnership with [[Astrium|EADS Astrium]], to assure continuity with the KOMPSAT-2 satellite launched in 2006. KOMPSAT-3 was orbited on 17 May 2012 by a launch vehicle from Tanegashima Space Center, Japan. [[Satrec Initiative|SI Imaging Services]] is the worldwide exclusive distributor of KOMPSAT imagery since November 2012.<ref name="ESA3">{{cite web |url=https://directory.eoportal.org/web/eoportal/satellite-missions/k/kompsat-3|title=KOMPSAT-3|publisher=ESA eoPortal Directory|date=2021|access-date=24 October 2021}}</ref>
+
+== Technologies ==
+=== Orbit ===
+KOMPSAT-3 operates in a near-polar, circular [[Sun-synchronous orbit]]. The orbital parameters are:
+* Mean altitude: 685.1&nbsp;km
+* Mass: 980&nbsp;kg
+* Inclination: 98.13° (Sun-synchronous orbit)
+* Orbital period: 98.5 minutes
+* Orbital cycle: 28 days
+
+=== Instruments ===
+KOMPSAT-3's instruments are designed to acquire high- and very-high-resolution imagery with a footprint of 16.8&nbsp;km. The satellite has the capacity to acquire 20 minutes of imagery on each orbit and it can steer its sensors both ways out to 30° off track. Panchromatic and multispectral images can be acquired at the same time.
+
+KOMPSAT-3 radiometer features:
+{|class="wikitable" width="80%" align="center" 
+|+ Kompsat-3 radiometric parameters
+|-
+
+! scope=col | mode
+! scope=col | Channel
+! scope=col | Spectral band
+! scope=col | Spatial resolution
+! scope=col | Footprint
+|-
+
+| align="center" | Multispectral
+| align="center" | 1
+| align="center" | 0.45 - 0.52 μm (blue)
+| align="center" | 2.8 m
+| align="center" | 16.8&nbsp;km
+|-
+
+|
+| align="center" | 2
+| align="center" | 0.52 - 0.60 μm (green)
+| align="center" | 2.8 m
+| align="center" | 16.8&nbsp;km
+|-
+
+|
+| align="center" | 3	
+| align="center" | 0.63 - 0.69μm (rouge)
+| align="center" | 2.8 m
+| align="center" | 16.8&nbsp;km
+|-
+
+|
+| align="center" | 4
+| align="center" | 0.76 - 0.90 μm (near-infrared)
+| align="center" | 2.8 m
+| align="center" | 16.8&nbsp;km
+|-
+
+| align="center" | Panchromatic   
+| align="center" | P
+| align="center" | 0.50 - 0.90 μm (black and white)
+| align="center" | 70&nbsp;cm
+| align="center" | 16.8&nbsp;km
+|}
+
+=== Ground receiving stations ===
+Two receiving stations deliver KOMPSAT-3 imagery 1 to 3 days after acquisition. The [[Daejeon|Deajeon station]] in [[South Korea]] is responsible for tasking the satellite.
+
+== Advantages and applications of KOMPSAT-3 imagery ==
+KOMPSAT-3 is designed for very-high-resolution (VHR) remote-sensing applications, such as:
+* Land planning: to detect and identify features smaller than 1 square meter, e.g. vehicles, street furnishings, roads and bushes
+* Agriculture: to pinpoint crop or tree diseases
+* Urban planning and demographics: to locate detached houses
+* Civil engineering: to plan road, railroad and oil pipeline corridors
+* Defence: to describe high-value assets or military sites
+
+== South Korea ==
+It serves along with the existing Kompsat-2 to provide continuous satellite observation of the [[Korea|Korean Peninsula]], sending images twice a day at 01:30 and 13:30.<ref name="KH20120619">{{cite web |url=http://www.koreaherald.com/view.php?ud=20120518000750&ACE_SEARCH=1|title=Arirang-3 launch lifts Korea's space program|newspaper=[[The Korea Herald]]|date=19 June 2012|access-date=24 October 2021}}</ref>
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[STSAT-2]]
+* [[GIS]]
+* [[Remote sensing]]
+* [[Korean Aerospace Research Institute]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+{{commons category|KOMPSAT-3}}
+
+* [https://web.archive.org/web/20050620200549/http://today.reuters.com/news/newsArticle.aspx?type=worldNews Reuters report]
+* [https://web.archive.org/web/20110114055707/http://www.kari.re.kr/english/ KARI]
+* [http://www.si-imaging.com/ SI Imaging Services]
+* [http://www.satreci.com/ Satrec Initiative]
+* [https://web.archive.org/web/20100304212631/http://www.spotimage.fr/ Spot Image]
+
+{{South Korean Space Program}}
+{{KAI aircraft}}
+{{Orbital launches in 2012}}
+
+[[Category:Satellites orbiting Earth]]
+[[Category:Korea Aerospace Industries spacecraft]]
+[[Category:Spacecraft launched in 2012]]
+[[Category:Secondary payloads]]
+[[Category:Korea Aerospace Research Institute]]
+[[Category:Spacecraft launched by H-II rockets]]
+[[Category:KOMPSAT satellites]]

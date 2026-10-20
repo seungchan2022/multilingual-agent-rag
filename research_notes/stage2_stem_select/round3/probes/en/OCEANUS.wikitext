@@ -1,0 +1,109 @@
+{{Short description|Proposed space mission to Uranus}}
+{{About|the Uranus orbiter|the Titan orbiter|Oceanus (Titan orbiter)}}
+{{Infobox spaceflight
+| name                  = OCEANUS (Origins and Composition of the Exoplanet Analog Uranus System)<!--defaults to page title-->
+| names_list            = <!--list of previous names if the spacecraft has been renamed.
+Include the dates applicable if possible, and separate each name with a linebreak.
+Omit if the spacecraft has only ever been known by one name.
+Do not include Harvard, COSPAR/NSSDC or SATCAT/NORAD/NASA designations as alternative names-->
+
+<!--image of the spacecraft/mission-->
+| image                 = Uranus_Voyager2_color_calibrated.png
+| image_caption         = [[Uranus]], an [[ice giant]] planet, was photographed in real color by ''[[Voyager 2]]'' in January 1986
+| image_alt             = <!--image alt text-->
+| image_size            = <!--include px/em; defaults to 220px-->
+
+<!--Basic details-->
+| mission_type          = Reconnaissance
+| operator              = [[NASA]]/JPL <!--organisation(s) that operate(d) the spacecraft-->
+| website               = <!--Homepage of the craft/mission, OFFICIAL PAGES ONLY-->
+| mission_duration      = ≥1.5 years<ref name="bibcode 2017LPI....48.1583B"/>
+<!--Spacecraft properties-->
+| spacecraft            = <!--Spacecraft name/serial number (eg. Space Shuttle ''Discovery'', Apollo CM-118), etc-->
+| spacecraft_type       = <!--eg. GPS Block II, Kobalt-M, US-K, etc-->
+| spacecraft_bus        = <!--eg. A2100M, Star-2, etc-->
+| manufacturer          = <!--company or companies who built the satellite-->
+| launch_mass           = ≈3,939 kg<!--fuelled mass at launch, not including rocket or upper stage-->
+| BOL_mass              = ≈2,000 kg<ref name="bibcode 2017LPI....48.1583B"/><!--spacecraft mass in orbit at beginning of operational life, after LEOP phase-->
+| dry_mass              = ≈1,110 kg <!--spacecraft mass in orbit without fuel-->
+| payload_mass          = <!--Mass of cargo carried by spacecraft (eg. for Space Shuttle), or total mass of instrumentation/equipment/experiments for mission-->
+| dimensions            = <!--body dimensions and array span-->
+| power                 = 290 W<ref name="bibcode 2017LPI....48.1583B"/>
+
+<!--Launch details-->
+| launch_date           = 2030 (suggested)
+| launch_rocket         = [[Atlas V]] 511 or [[Space Launch System|SLS]]
+|interplanetary         = 
+{{Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = [[Uranus]]<!--body visited - e.g. Jupiter, Venus, etc-->
+   |orbits              = ≥14 (proposed)<ref name="bibcode 2017LPI....48.1583B"/>
+   |component           = <!--part of the spacecraft involved, if spacecraft split into multiple components-->
+   |arrival_date        = 2041
+   |periapsis           = <!--periapsis altitude-->
+   |apoapsis            = <!--apoapsis altitude-->
+   |inclination         = <!--inclination to the object's equator-->
+   |apsis               = <!--planet specific apsis term, as above-->
+ }}
+| instruments           = <!--a list of instruments on the satellite-->
+<!--transponder parameters-->
+| trans_band            = <!--Transponder frequency bands-->
+| trans_frequency       = <!--specific frequencies-->
+| trans_bandwidth       = <!--bandwidth-->
+| trans_capacity        = <!--capacity of the transponders-->
+| trans_coverage        = <!--area covered-->
+| trans_TWTA            = <!--TWTA output power-->
+| trans_EIRP            = <!--equivalent isotropic power-->
+| trans_HPBW            = <!--half-power beam width-->
+}}
+
+'''OCEANUS''' ('''Origins and Composition of the Exoplanet Analog Uranus System''') is a mission concept conceived in 2016 and presented in 2017 as a potential future contestant as a [[New Frontiers program]] mission to the planet [[Uranus]].<ref name='Elder 2017'>{{cite journal |bibcode=2017LPICo1989.8147E |title=New Frontiers-Class Missions to the Ice Giants |journal=Planetary Science Vision 2050 Workshop |volume=1989 |pages=8147 |last1=Elder |first1=C. M |last2=Bramson |first2=A. M |last3=Blum |first3=L. W |last4=Chilton |first4=H. T |last5=Chopra |first5=A |last6=Chu |first6=C |last7=Das |first7=A |last8=Davis |first8=A |last9=Delgado |first9=A |last10=Fulton |first10=J |last11=Jozwiak |first11=L |last12=Khayat |first12=A |last13=Landis |first13=M. E |last14=Molaro |first14=J. L |last15=Slipski |first15=M |last16=Valencia |first16=S |last17=Watkins |first17=J |last18=Young |first18=C. L |last19=Budney |first19=C. J |last20=Mitchell |first20=K. L |year=2017}}</ref><ref name="bibcode 2017LPI....48.1583B">{{cite journal |bibcode=2017LPI....48.1583B |title=OCEANUS: A Uranus Orbiter Concept Study from the 2016 NASA/JPL Planetary Science Summer School |journal=48th Lunar and Planetary Science Conference |volume=48 |pages=1583 |last1=Bramson |first1=A. M |last2=Elder |first2=C. M |last3=Blum |first3=L. W |last4=Chilton |first4=H. T |last5=Chopra |first5=A |last6=Chu |first6=C |last7=Das |first7=A |last8=Delgado |first8=A |last9=Fulton |first9=J |last10=Jozwiak |first10=L |last11=Khayat |first11=A |last12=Landis |first12=M. E |last13=Molaro |first13=J. L |last14=Slipski |first14=M |last15=Valencia |first15=S |last16=Watkins |first16=J |last17=Young |first17=C. L |last18=Budney |first18=C. J |last19=Mitchell |first19=K. L |year=2017|issue=1964 }}</ref>  The concept was developed in a different form by the astronautical engineering students of [[Purdue University]] during the 2017 NASA/JPL Planetary Science Summer School.<ref name="Purdue design">{{cite journal | last=Mansell | first=J. | last2=Kolencherry | first2=N. | last3=Hughes | first3=K. | last4=Arora | first4=A. | last5=Chye | first5=H.S. | last6=Coleman | first6=K. | last7=Elliott | first7=J. | last8=Fulton | first8=S. | last9=Hobar | first9=N. | last10=Libben | first10=B. | last11=Lu | first11=Y. | last12=Millane | first12=J. | last13=Mudek | first13=A. | last14=Podesta | first14=L. | last15=Pouplin | first15=J. | last16=Shibata | first16=E. | last17=Smith | first17=G. | last18=Tackett | first18=B. | last19=Ukai | first19=T. | last20=Witsberger | first20=P. | last21=Saikia | first21=S. | title=Oceanus: A multi-spacecraft flagship mission concept to explore Saturn and Uranus | journal=Advances in Space Research | publisher=Elsevier BV | volume=59 | issue=9 | year=2017 | issn=0273-1177 | doi=10.1016/j.asr.2017.02.012 | pages=2407–2433}}</ref> OCEANUS is an orbiter, which would enable a detailed study of the structure of the planet's [[magnetosphere]] and interior structure that would not be possible with a [[Planetary flyby|flyby]] mission.<ref name='Elder 2017'/>
+
+Because of the required technology development and planetary orbital dynamics, the concept suggests a launch in August 2030 on an [[Atlas V]] 511 rocket and entering Uranus's orbit in  2041.<ref name="bibcode 2017LPI....48.1583B"/>
+
+==Overview==
+[[File:Atlas V(401) launches with LRO and LCROSS cropped.jpg|thumb|left|upright|Atlas V, proposed for OCEANUS, shown here launching the [[Lunar Reconnaissance Orbiter]] into space]]
+
+Ice giant sized planets are the most common type of planet according to ''Kepler'' data. The little data available on [[Uranus]], an [[ice giant]] planet, come from ground-based observations and the single flyby of the ''[[Voyager 2]]'' spacecraft, so its exact composition and structure are essentially unknown, as are its internal heat flux, and the causes of its unique magnetic fields and extreme [[axial tilt]] or obliquity,<ref name="bibcode 2017LPI....48.1583B"/> making it a compelling target for exploration  according to the [[Planetary Science Decadal Survey]].<ref name='Elder 2017'/><ref name=zab>{{cite news |title=Lean U.S. missions to Mars, Jupiter moon recommended |url=https://www.reuters.com/article/us-space-usa-future-idUSTRE7266XJ20110308 |work=7 March 2011 |agency=Reuters |date=8 March 2011}}</ref> The primary science objectives of OCEANUS are to study Uranus's interior structure, magnetosphere, and the [[Atmosphere of Uranus|Uranian atmosphere]].<ref name="bibcode 2017LPI....48.1583B"/>
+
+The required mission budget is estimated at $1.2 billion.<ref name="bibcode 2017LPI....48.1583B"/> The mission concept has not been formally proposed to NASA's [[New Frontiers program]] for assessment and funding. The mission is named after [[Oceanus]], the Greek god of the ocean; he was son of the [[Uranus (mythology)|Greek god Uranus]].<ref>[https://www.lpi.usra.edu/opag/meetings/aug2016/posters/Elder.pdf OCEANUS: A Concept Study] (PDF) – poster. 2017.</ref>
+
+==Power and propulsion==
+{{update|section|date=October 2024}}
+Since Uranus is extremely distant from the Sun (20 [[Astronomical unit|AU]]), and relying on solar power is not possible past Jupiter, the orbiter is proposed to be powered by three [[multi-mission radioisotope thermoelectric generator]]s (MMRTG),<ref name='Elder 2017'/><ref name="bibcode 2017LPI....48.1583B"/> a type of [[radioisotope thermoelectric generator]]. {{as of|2015}}, there was enough plutonium available to NASA to fuel three more MMRTG like the one used by the ''Curiosity'' rover, one of which was already committed to the ''[[Perseverance (rover)|Perseverance]]'' rover.<ref name="Plutonium stockpile">{{cite news |last=Leone |first=Dan |url=http://spacenews.com/u-s-plutonium-stockpile-good-for-two-more-nuclear-batteries-after-mars-2020/ |title=U.S. Plutonium Stockpile Good for Two More Nuclear Batteries after Mars 2020 |work=Space News |date=11 March 2015 |access-date=12 March 2015}}</ref><ref name='blastr'>{{cite news |last=Moore |first=Trent |url=http://www.blastr.com/2015-3-12/nasa-can-only-make-three-more-batteries-one-powers-mars-rover |title=NASA can only make three more batteries like the one that powers the Mars rover |work=Blastr |date=12 March 2015 |access-date=13 March 2015 |archive-date=14 March 2015 |archive-url=https://web.archive.org/web/20150314214647/http://www.blastr.com/2015-3-12/nasa-can-only-make-three-more-batteries-one-powers-mars-rover |url-status=dead }}</ref> The other two have not been assigned to any specific mission or program,<ref name='blastr'/> and could be available by late 2021.<ref name="Plutonium stockpile"/> A second possible option for powering the spacecraft other than a plutonium powered RTG would be a small nuclear reactor powered by uranium, such as the [[Kilopower]] system in development as of 2019. 
+
+The trajectory to Uranus would require a Jupiter [[gravity assist]], but such alignments are calculated to be rare in the 2020s and 2030s, so the launch windows will be scant and narrow.<ref name='Elder 2017'/> To overcome this problem two Venus [[gravity assist]]s (in November 2032 and August 2034) and one Earth gravity assist (October 2034) are planned along with the use of [[Ion thruster|solar-electric propulsion]] within 1.5 [[Astronomical Unit|AU]].<ref name="bibcode 2017LPI....48.1583B"/> The science phase would take place from a highly elliptical orbit and perform a minimum of 14 orbits.<ref name="bibcode 2017LPI....48.1583B"/> If launching in 2030, reaching Uranus would occur 11 years later, in 2041,<ref name="bibcode 2017LPI....48.1583B"/> and it would use two [[Liquid-propellant rocket|bipropellant engines]] for orbital insertion.<ref name="bibcode 2017LPI....48.1583B"/> 
+
+Alternatively, the [[Space Launch System|SLS]] rocket could be used for a shorter cruise time,<ref>{{cite journal |doi=10.1016/j.asr.2017.02.012 |title=Oceanus: A multi-spacecraft flagship mission concept to explore Saturn and Uranus |journal=Advances in Space Research |volume=59 |issue=9 |pages=2407–33 |year=2017 |last1=Mansell |first1=J |last2=Kolencherry |first2=N |last3=Hughes |first3=K |last4=Arora |first4=A |last5=Chye |first5=H.S |last6=Coleman |first6=K |last7=Elliott |first7=J |last8=Fulton |first8=S |last9=Hobar |first9=N |last10=Libben |first10=B |last11=Lu |first11=Y |last12=Millane |first12=J |last13=Mudek |first13=A |last14=Podesta |first14=L |last15=Pouplin |first15=J |last16=Shibata |first16=E |last17=Smith |first17=G |last18=Tackett |first18=B |last19=Ukai |first19=T |last20=Witsberger |first20=P |last21=Saikia |first21=S |bibcode=2017AdSpR..59.2407M}}</ref> but it would result in a faster approach velocity, making [[orbit insertion]] more challenging, especially since the density of [[Atmosphere of Uranus|Uranus's atmosphere]] is unknown to plan for safe [[aerobraking]].<ref name='blastr'/>
+
+==Payload==
+[[File:OCEANUS.jpg|thumb|Schematic of the OCEANUS probe]]
+
+The 12.5 kg scientific payload would include instruments for a detailed study of the magnetic fields and to determine Uranus's global [[Physical geodesy|gravity field]]: <ref name='Elder 2017'/><ref name="bibcode 2017LPI....48.1583B"/>
+*'''UMAG''' (Uranus Magnetometer) – is a [[Spacecraft magnetometer|magnetometer]] to study the [[magnetosphere]] and constrain models for [[Dynamo theory|dynamo generation]].
+*'''GAIA''' (Gravity and Atmospheric Instrument Antenna) – it would utilize the on-board communications antenna, transmitting in both [[X band]] and [[Ka band]] frequencies for radio science that would allow mapping Uranus's global gravity field.
+*'''UnoCam''' (Uranus's Juno Cam) – is a visible light, color camera to detect navigation hazards in Uranus's ring system and to provide context and panoramic images.
+*'''URSULA''' (Understanding Real Structure of the Uranian Laboratory of Atmosphere) – an atmospheric probe that would be jettisoned into the [[atmosphere of Uranus]] just before orbit insertion. It would descend under a parachute and measure the [[noble gas]] abundances, [[Natural abundance|isotopic ratios]], temperature, pressure, vertical wind profiles, cloud composition and density,<ref name='Elder 2017'/> via a [[mass spectrometer]], atmospheric structure instrument, [[nephelometer]] and ultra-stable oscillator. The total mass of the probe's instruments is about 127 kg.<ref name="bibcode 2017LPI....48.1583B"/>
+
+==See also==
+
+* [[Exploration of Uranus]]
+* [[Magnetosphere of Uranus]]
+;Uranus mission proposals
+* [[MUSE (spacecraft)|MUSE]]
+* [[ODINUS]]
+* [[Uranus Orbiter and Probe]]
+* [[Uranus Pathfinder]]
+
+==References==
+{{reflist|2}}
+
+{{Uranus}}
+{{Planetary Missions Program Office|New Frontiers=y}}
+
+{{Use dmy dates|date=January 2018}}
+
+[[Category:Missions to Uranus]]
+[[Category:Proposed NASA space probes]]
+[[Category:New Frontiers program proposals]]
+[[Category:Extraterrestrial atmosphere entry]]

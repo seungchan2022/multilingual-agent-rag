@@ -1,0 +1,50 @@
+{{Short description|South Korean satellite launched in 2017}}
+{{Use dmy dates|date=February 2018}}
+{{Infobox spaceflight
+| name = Koreasat 5A
+| image = Koreasat-5A Mission (26280153539).jpg
+| image_caption = [[Falcon 9]] launch from Kennedy Space Center LC-39A, carrying Koreasat 5A
+| mission_type = [[Communications Satellite]]
+|operator=[[KT Corporation|KT SAT]]
+| manufacturer = [[Thales Alenia Space]]
+|spacecraft_bus= 	Spacebus-4000B2
+| launch_date = {{start_date|2017|10|27|19|34|7=Z}} UTC
+| launch_rocket = [[Falcon 9 Block 4]]
+| launch_site = [[Kennedy Space Center Launch Complex 39#39A|Kennedy Space Center LC-39A]]
+| orbit_reference       = [[Geocentric orbit|Geocentric]]
+| orbit_regime          = [[Geostationary orbit|Geostationary]] (GEO)
+| orbit_longitude       =113° East
+}}
+
+'''Koreasat 5A''' is a South Korean [[communications satellite]] operated by KT SAT, a subsidiary of [[KT Corporation]].<ref>{{cite web|url=http://spacenews.com/40540kt-sat-picks-thales-alenia-over-orbital-sciences-for-two-satellite/|title=KT Sat Picks Thales Alenia over Orbital Sciences for Two-satellite Order|publisher=[[spacenews.com]]|date=12 May 2014|access-date=14 February 2018}}</ref> On 30 October 2017, it was launched on Falcon 9 Block 4 rocket.<ref>{{cite web|url=https://www.nasaspaceflight.com/2017/10/falcon-9-koreasat-5a-nasa-approves-flown-boosters/|title=SpaceX Falcon 9 successfully launches Koreasat 5A|publisher=[[Nasaspaceflight.com]]|date=30 October 2017|access-date=14 February 2018}}</ref><ref>{{cite web|url=https://www.space.com/38612-spacex-koreasat-5a-satellite-launch-rocket-landing-photos.html|title=In Photos: SpaceX Launches Koreasat-5A Satellite, Lands Falcon 9 Rocket|publisher=[[Space.com]]|date=30 October 2017|access-date=14 February 2018}}</ref>
+
+{| class="wikitable"
+|-
+! Satellite name !! Koresat-5A
+|-
+| Operator || KT SAT<ref>{{cite web |url=http://ktsat.net/ |title=Home |website=ktsat.net}}</ref>
+
+|-
+| Type || [[Geosynchronous orbit|GEO stationary satellite]]
+|-
+| Orbit slot || 113°E
+|-
+| Coverage || [[Indochina]], [[Korea]], [[South Asia]], [[Indian Ocean]]
+|}
+==References==
+{{Reflist}}
+
+{{South Korean Space Program}}
+{{Falcon rocket launches}}
+{{Orbital launches in 2017}}
+
+[[Category:Koreasat satellites]]
+[[Category:Communications satellites in geostationary orbit]]
+[[Category:Spacecraft launched in 2017]]
+[[Category:2017 in South Korea]]
+[[Category:Satellites using the Spacebus bus]]
+[[Category:SpaceX commercial payloads]]
+[[Category:Spacecraft launched by Falcon 9 Block 4 rockets]]
+
+
+{{communications-satellite-stub}}

@@ -1,0 +1,203 @@
+{
+  "seed": 20261019,
+  "survey_fetched_utc": "2026-10-20T11:12:31Z",
+  "order": [
+    "우리별 1호",
+    "과학기술위성 1호",
+    "우리별 3호",
+    "차세대소형위성 1호",
+    "올레 1호",
+    "아리랑 3호",
+    "아리랑 2호",
+    "차세대소형위성 2호",
+    "과학기술위성 2호",
+    "무궁화 5A호",
+    "OSSI-1",
+    "아리랑 5호",
+    "무궁화 1호",
+    "아리랑 1호",
+    "무궁화 7호",
+    "무궁화 5호",
+    "도요샛",
+    "아리랑 3A호"
+  ],
+  "results": {
+    "우리별 1호": {
+      "result": "used",
+      "id": "ks-01",
+      "doc": "우리별 1호",
+      "ko_text": "48.6 kg",
+      "en_key": "launch_mass"
+    },
+    "과학기술위성 1호": {
+      "result": "used",
+      "id": "ks-02",
+      "doc": "과학기술위성 1호",
+      "ko_text": "106 kg",
+      "en_key": "launch_mass"
+    },
+    "우리별 3호": {
+      "result": "used",
+      "id": "ks-03",
+      "doc": "우리별 3호",
+      "ko_text": "110 Kg",
+      "en_key": "launch_mass"
+    },
+    "차세대소형위성 1호": {
+      "result": "used",
+      "id": "ks-04",
+      "doc": "차세대소형위성 1호",
+      "ko_text": "107 kg",
+      "en_key": "launch_mass"
+    },
+    "올레 1호": {
+      "result": "skipped",
+      "reason": "영어 값 없음: 영어 글에 읽을 칸이 없음"
+    },
+    "아리랑 3호": {
+      "result": "used",
+      "id": "ks-05",
+      "doc": "아리랑 3호",
+      "ko_text": "980 Kg",
+      "en_key": "launch_mass"
+    },
+    "아리랑 2호": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 765, 영어 launch_mass=800"
+    },
+    "차세대소형위성 2호": {
+      "result": "used",
+      "id": "ks-06",
+      "doc": "차세대소형위성 2호",
+      "ko_text": "179.9 kg",
+      "en_key": "launch_mass"
+    },
+    "과학기술위성 2호": {
+      "result": "used",
+      "id": "ks-07",
+      "doc": "과학기술위성 2호",
+      "ko_text": "99.4 kg",
+      "en_key": "launch_mass"
+    },
+    "무궁화 5A호": {
+      "result": "skipped",
+      "reason": "영어 값 없음: 영어 글에 읽을 칸이 없음"
+    },
+    "OSSI-1": {
+      "result": "used",
+      "id": "ks-08",
+      "doc": "OSSI-1",
+      "ko_text": "950 g",
+      "en_key": "launch_mass"
+    },
+    "아리랑 5호": {
+      "result": "skipped",
+      "reason": "값 뒤에 더 있음(값이 둘이거나 어림): 중량: 1,400kg 내외"
+    },
+    "무궁화 1호": {
+      "result": "used",
+      "id": "ks-09",
+      "doc": "무궁화 1호",
+      "ko_text": "1,464 ㎏",
+      "en_key": "launch_mass"
+    },
+    "아리랑 1호": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 460, 영어 launch_mass=470"
+    },
+    "무궁화 7호": {
+      "result": "skipped",
+      "reason": "영어 값 없음: 영어 글에 읽을 칸이 없음"
+    },
+    "무궁화 5호": {
+      "result": "used",
+      "id": "ks-10",
+      "doc": "무궁화 5호",
+      "ko_text": "4.5 톤",
+      "en_key": "launch_mass"
+    },
+    "도요샛": {
+      "result": "unvisited"
+    },
+    "아리랑 3A호": {
+      "result": "unvisited"
+    }
+  },
+  "en_docs": {
+    "우리별 1호": {
+      "en_title": "KITSAT-1",
+      "revid": 1354114501,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "과학기술위성 1호": {
+      "en_title": "STSat-1",
+      "revid": 1268126951,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "우리별 3호": {
+      "en_title": "KITSAT-3",
+      "revid": 1379770497,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "차세대소형위성 1호": {
+      "en_title": "NEXTSat-1",
+      "revid": 1316807034,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "올레 1호": {
+      "en_title": "Koreasat 6",
+      "revid": 1354709290,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "아리랑 3호": {
+      "en_title": "KOMPSAT-3",
+      "revid": 1354708214,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "아리랑 2호": {
+      "en_title": "KOMPSAT-2",
+      "revid": 1354708197,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "차세대소형위성 2호": {
+      "en_title": "NEXTSat-2",
+      "revid": 1310232265,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "과학기술위성 2호": {
+      "en_title": "STSat-2A",
+      "revid": 1379425448,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "무궁화 5A호": {
+      "en_title": "Koreasat 5A",
+      "revid": 1354709169,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "OSSI-1": {
+      "en_title": "OSSI-1",
+      "revid": 1352390010,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "무궁화 1호": {
+      "en_title": "Koreasat 1",
+      "revid": 1354708902,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "아리랑 1호": {
+      "en_title": "KOMPSAT-1",
+      "revid": 1354708122,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "무궁화 7호": {
+      "en_title": "Koreasat 7",
+      "revid": 1354709380,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "무궁화 5호": {
+      "en_title": "Koreasat 5",
+      "revid": 1354709114,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    }
+  }
+}

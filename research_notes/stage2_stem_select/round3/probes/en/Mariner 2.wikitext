@@ -1,0 +1,850 @@
+{{Short description|First successful mission to Venus (1962–1963)}}
+{{Use mdy dates|date=December 2022}}
+{{Infobox spaceflight
+| name               = Mariner 2
+| image              = Mariner 2 Engineering Model.jpg
+| image_size         = 300px
+| image_caption      = ''Mariner 2'' engineering model
+| mission_type       = [[Venus]] flyby
+| operator           = [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+| website            = 
+| Harvard_designation = 1962 Alpha Rho 1{{r|LL}}
+| COSPAR_ID          = 1962-041A
+| SATCAT             = 374
+| mission_duration   = {{time interval|27 Aug 1962|3 Jan 1963}}
+| spacecraft         = Mariner R-2
+| spacecraft_type    = [[Ranger program|Ranger]] Block I
+| manufacturer       = [[Jet Propulsion Laboratory|JPL]]
+| dry_mass           = 
+| launch_mass        = {{cvt|203.6|kg|lb}}{{r|nasa1}}
+| power              = 220&nbsp;watts (at Venus encounter)
+| launch_date        = {{start date text|August 27, 1962, 06:53:14|timezone=yes}}&nbsp;UTC{{r|LL}}
+| launch_rocket      = [[Atlas-Agena|Atlas LV-3 Agena-B]]
+| launch_site        = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[Cape Canaveral Air Force Station Launch Complex 12|LC-12]]
+| launch_contractor  = 
+| disposal_type      = Decommissioned
+| last_contact       = {{end date text|January 3, 1963}} 7:00 UTC{{r|beyond2}}
+| programme          = '''[[Mariner program]]'''
+| previous_mission   = [[Mariner 1]]
+| next_mission       = [[Mariner 3]]
+
+<!--orbit parameters-->
+| orbit_epoch        = 14 December 1962
+| orbit_reference    = Heliocentric{{r|NSSDC}}
+| orbit_periapsis    = {{convert|0.720|AU|e6km|abbr=unit}}
+| orbit_apoapsis     = {{convert|1.000|AU|e6km|abbr=unit}}
+| orbit_eccentricity = 0.16278
+| orbit_period       = 292 days
+| apsis              = helion
+| interplanetary     = {{Infobox spaceflight/IP
+  | type             = flyby
+  | object           = [[Venus]]
+  | distance         = {{cvt|34773|km|mi}}
+  | arrival_date     = 14 December 1962
+ }}
+}}
+
+[[File:Kennedy Receives Mariner 2 Model.jpg|thumb|President Kennedy is shown a model of Mariner 2 during a meeting with NASA officials after the successful completion of the mission, 1963]]
+'''Mariner 2''' ('''Mariner-Venus 1962'''), an American space probe to [[Venus]], was the first robotic [[space probe]] to report successfully from a planetary encounter. The first successful [[spacecraft]] in the [[NASA]] [[Mariner program]], it was a simplified version of the Block I spacecraft of the [[Ranger program]] and an exact copy of [[Mariner 1]]. The missions of the Mariner 1 and 2 spacecraft are sometimes known as the Mariner R missions. Original plans called for the probes to be launched on the [[Atlas-Centaur]], but serious developmental problems with that vehicle forced a switch to the much smaller [[RM-81 Agena|Agena B]] second stage. As such, the design of the Mariner R vehicles was greatly simplified. Far less instrumentation was carried than on the Soviet [[Venera]] probes of this period—for example, forgoing a TV camera—as the Atlas-Agena B had only half as much lift capacity as the Soviet [[Molniya (rocket)|8K78]] booster. The Mariner 2 spacecraft was launched from Cape Canaveral on August 27, 1962, and passed as close as {{cvt|34773|km|mi}} to Venus on December 14, 1962.{{r|NSSDC}}
+
+The Mariner probe consisted of a {{cvt|100|cm|in}} diameter hexagonal bus, to which [[photovoltaic module|solar panel]]s, instrument booms, and [[antenna (radio)|antennas]] were attached. The scientific instruments on board the Mariner spacecraft were: two [[radiometer]]s (one each for the [[microwave]] and [[infrared]] portions of the [[Electromagnetic spectrum|spectrum]]), a [[micrometeorite]] sensor, a solar [[Plasma (physics)|plasma]] sensor, a [[charged particle]] sensor, and a [[magnetometer]]. These instruments were designed to measure the temperature distribution on the surface of Venus and to make basic measurements of Venus's [[atmosphere]].
+
+The primary mission was to receive communications from the spacecraft in the vicinity of Venus and to perform [[radiometry|radiometric]] temperature measurements of the planet. A second objective was to measure the [[interplanetary magnetic field]] and charged particle environment.{{r|nasa2|nasa3}}
+
+En route to Venus, Mariner 2 measured the [[solar wind]], a constant stream of charged particles flowing outwards from the [[Sun]], confirming the measurements by [[Luna 1]] in 1959. It also measured [[interplanetary dust]], which turned out to be scarcer than predicted. In addition, Mariner 2 detected high-energy charged particles coming from the Sun, including several brief [[solar flare]]s, as well as [[cosmic ray]]s from outside the [[Solar System]]. As it flew by Venus on December 14, 1962, Mariner 2 scanned the planet with its pair of radiometers, revealing that Venus has cool clouds and an extremely hot surface.
+
+== Background ==
+[[File:Mariner 2 trajectory.jpg|thumb|Mariner II [[trajectory]] projected on the [[ecliptic plane]].]]
+
+With the advent of the [[Cold War]], the two then-[[superpower]]s, the United States and the [[Soviet Union]], both initiated ambitious space programs with the intent of demonstrating military, technological, and political dominance.{{r|history}} The Soviets launched the [[Sputnik 1]], the first Earth orbiting satellite, on October 4, 1957. The Americans followed suit with [[Explorer 1]] on February 1, 1958, by which point the Soviets had already launched the first orbiting animal, [[Laika]] in [[Sputnik 2]]. Earth's orbit having been reached, focus turned to being the first to the Moon. The [[Pioneer program]] of satellites consisted of three unsuccessful lunar attempts in 1958. In early 1959, the Soviet [[Luna 1]] was the first probe to fly by the Moon, followed by [[Luna 2]], the first artificial object to impact the Moon.{{r|encyclopedia}}
+
+After the moon, [[Venus]] was an [[interplanetary spaceflight]] target.{{r|treasury}}{{rp|172}} Every 19 months, Venus and the Earth reach relative positions in their orbits around the Sun such that minimum fuel is required to travel from one planet to the other via a [[Hohmann Transfer Orbit]]. These occasions mark the ideal time to launch exploratory spacecraft.{{r|Hohnmann}}
+
+[[File:Mariner 2.jpg|thumb|Depiction of Mariner 2 in space]]
+
+The first such opportunity of the Space Race occurred in late 1957, before either superpower had the technology to take advantage of it. The second opportunity, around June 1959, lay just within the edge of technological feasibility, and [[United States Air Force|U.S. Air Force]] contractor [[TRW Inc.|Space Technology Laboratory]] (STL) intended to take advantage of it. A plan drafted January 1959 involved two spacecraft evolved from the first Pioneer probes, one to be launched via [[Thor-Able]] rocket, the other via the yet-untested [[Atlas-Able]].{{r|DevPlan}} STL was unable to complete the probes before June,{{r|Able34}} and the [[launch window]] was missed. The Thor-Able probe was repurposed as the deep space explorer [[Pioneer 5]], which was launched March 11, 1960, and designed to maintain communications with Earth up to a distance of {{convert|20|e6km|e6mi|abbr=unit}} as it traveled toward the orbit of Venus.{{r|P5}} (The Atlas Able probe concept was repurposed as the unsuccessful [[Pioneer P-1|Pioneer Atlas]] Moon probes.){{r|ableseries}} No American missions were sent during the early 1961 opportunity. The Soviet Union launched [[Venera 1]] on February 12, 1961, and on May 19–20 became the first probe to fly by Venus; however, it had stopped [[transmitter|transmitting]] on February 26.{{r|NSSDC-2}}
+
+For the summer 1962 launch opportunity, NASA contracted [[Jet Propulsion Laboratory]] (JPL) in July 1960 {{r|treasury}}{{rp|172}} to develop "Mariner A", a {{cvt|1250|lb}} spacecraft to be launched using the yet undeveloped [[Atlas-Centaur]]. By August 1961, it had become clear that the [[Centaur (rocket stage)|Centaur]] would not be ready in time. JPL proposed to NASA that the mission might be accomplished with a lighter spacecraft using the less powerful but operational [[Atlas-Agena]]. A hybrid of Mariner A and JPL's Block 1 [[Ranger program|Ranger]] lunar explorer, already under development, was suggested. NASA accepted the proposal, and JPL began an 11-month crash program to develop "Mariner R" (so named because it was a Ranger derivative). Mariner 1 would be the first Mariner R to be launched followed by Mariner 2.{{r|report}}
+
+== Spacecraft ==
+Three Mariner R spacecraft were built: two for launching and one to run tests, which was also to be used as a spare.{{r|treasury}}{{rp|174}} Aside from its scientific capabilities, Mariner also had to transmit data back to Earth from a distance of more than {{convert|26|e6km|e6mi|abbr=unit}}, and to survive solar radiation twice as intense as that encountered in Earth orbit.{{r|treasury}}{{rp|176}}
+
+=== Structure ===
+[[File:Diagram of Mariner 1.jpg|thumb|Diagram of Mariner 1]]
+ 
+All three of the Mariner R spacecraft, including Mariner 2, weighed within {{cvt|3|lb}} of the design weight of {{cvt|447|lb}}, {{cvt|406|lb}} of which was devoted to non-experimental systems: maneuvering systems, fuel, and communications equipment for receiving commands and transmitting data. Once fully deployed in space, with its two solar panel "wings" extended, Mariner R was {{cvt|12|ft}} in height and {{cvt|16.5|ft}} across. The main body of the craft was hexagonal with six separate cases of electronic and electromechanical equipment:
+
+*Two of the cases comprised the power system: [[switchgear]] that regulated and transmitted power from the 9800 [[solar cells]] to the {{cvt|33.3|lb}} rechargeable 1000 watt{{r|NSSDC-3}} silver-zinc storage battery. 
+*Two more included the [[radio receiver]], the three-[[watt]] transmitter, and control systems for Mariner's experiments. 
+*The fifth case held electronics for [[digital signal|digitizing]] the [[analog signal|analog]] data received by the experiments for transmission. 
+*The sixth case carried the three [[gyroscope]]s that determined Mariner's orientation in space. It also held the central computer and sequencer, the "brain" of the spacecraft that coordinated all of its activities pursuant to code in its [[memory bank]]s and on a schedule maintained by an electronic clock tuned into equipment on Earth.{{r|treasury}}{{rp|175}}
+
+At the rear of the spacecraft, a [[monopropellant]] (anhydrous [[hydrazine]]) 225 [[Newton (unit)|N]]{{r|NSSDC-3}} rocket motor was mounted for course corrections. A nitrogen gas fueled stabilizing system of ten jet nozzles controlled by the onboard gyroscopes, Sun sensors, and Earth sensors, kept Mariner properly oriented to receive and transmit data to Earth.{{r|treasury}}{{rp|175}}
+
+The primary [[high gain antenna|high-gain]] parabolic antenna was also mounted on the underside of Mariner and kept pointed toward the Earth. An [[omnidirectional antenna]] atop the spacecraft would broadcast at times that the spacecraft was rolling or tumbling out of its proper orientation, to maintain contact with Earth; as an unfocused antenna, its signal would be much weaker than the primary. Mariner also mounted small antennas on each of the wings to receive commands from ground stations.{{r|treasury}}{{rp|175–176}}
+
+Temperature control was both passive, involving insulated, and highly reflective components; and active, incorporating [[louver]]s to protect the case carrying the onboard computer. At the time the first Mariners were built, no [[test chamber]] existed to simulate the near-Venus solar environment, so the efficacy of these cooling techniques could not be tested until the live mission.{{r|treasury}}{{rp|176}}
+
+=== Scientific instruments ===
+
+==== Background ====
+At the time of the Mariner project's inception, few of Venus's characteristics were definitely known. Its opaque [[atmosphere of Venus|atmosphere]] precluded [[telescope|telescopic]] study of the ground. It was unknown whether there was water beneath the clouds, though a small amount of [[water vapor]] above them had been detected. The planet's [[rotation rate]] was uncertain, though JPL scientists had concluded through [[radar]] observation that Venus rotated very slowly compared to the Earth, advancing the long-standing{{r|beyond1}} (but later disproven){{r|nasa8}} hypothesis that the planet was [[Tidal locking|tidally locked]] with respect to the Sun (as the Moon is with respect to the Earth).{{r|avweek1961}} No oxygen had been detected in Venus's atmosphere, suggesting that life as existed on Earth was not present. It had been determined that Venus's atmosphere contained at least 500 times as much [[carbon dioxide]] as the Earth's. These comparatively high levels suggested that the planet might be subject to a [[runaway greenhouse effect]] with surface temperatures as high as {{cvt|600|K}}, but this had not yet been conclusively determined.{{r|report}}{{rp|7–8}}
+
+The Mariner spacecraft would be able to verify this hypothesis by measuring the temperature of Venus close-up;{{r|avweek1960a}} at the same time, the spacecraft could determine if there was a significant disparity between night and daytime temperatures.{{r|report}}{{rp|331}} An on-board [[magnetometer]] and suite of charged particle detectors could determine if Venus possessed an appreciable magnetic field and an analog to Earth's [[Van Allen Belts]].{{r|avweek1960a}}
+
+As the Mariner spacecraft would spend most of its journey to Venus in interplanetary space, the mission also would be for measurement of the [[solar wind]] of particles and to map the variations in the Sun's [[magnetosphere]].
+
+Due to the limited capacity of the Atlas-Agena, only {{convert|40|lb|kg|order=flip}} of the spacecraft could be allocated to scientific experiments.{{r|report}}{{rp|195}}
+
+==== Instruments ====
+* A two-channel '''[[microwave radiometer]]''' of the crystal video type operating in the standard [[Robert H. Dicke|Dicke]] mode of chopping between the main antenna, pointed at the target, and a reference horn pointed at cold space.{{r|nasa9}} It was used to determine the absolute temperature of Venus's surface and details concerning its atmosphere through its microwave-radiation characteristics, including the daylight and dark hemispheres, and in the region of the terminator. Measurements were performed simultaneously in two frequency bands of 13.5&nbsp;mm and 19&nbsp;mm.{{r|report}}{{rp|198–204}}{{r|Barath_Feb64}} The total weight of the radiometer was {{convert|22|lb|kg|-1|order=flip}}. Its average power consumption was 4&nbsp;watts and its peak power consumption 9&nbsp;watts.{{r|Barath_Mar63}}
+[[File:Mariner 2 infrared radiometer.png|thumb|Labeled diagram of the infrared radiometer design]]
+* A two-channel '''[[infrared]] [[radiometer]]''' to measure the effective temperatures of small areas of Venus. The radiation that was received could originate from the planetary surface, clouds in the atmosphere, the atmosphere itself or a combination of these. The radiation was received in two spectral ranges: 8 to 9&nbsp;μm (focused on 8.4&nbsp;μm) and 10 to 10.8&nbsp;μm (focused on 10.4&nbsp;μm).{{r|report}}{{rp|205–213}} The latter corresponding to the [[carbon dioxide]] band.{{r|Chase_Mar63}} The total weight of the infrared radiometer, which was housed in a magnesium casting, was {{cvt|1.3|kg|lb}}, and it required 2.4&nbsp;watts of power. It was designed to measure radiation temperatures between approximately {{convert|200|and|500|K|C F}}.{{r|Chase_Nov63}}
+
+* A three-axis '''[[Magnetometer#Fluxgate magnetometer|fluxgate magnetometer]]''' to measure planetary and interplanetary magnetic fields.{{r|report}}{{rp|213–218}} Three probes were incorporated in its sensors, so it could obtain three mutually orthogonal components of the field vector. Readings of these components were separated by 1.9&nbsp;seconds. It had three analog outputs that had each two sensitivity scales: ±&nbsp;64&nbsp;γ and ±&nbsp;320&nbsp;γ (1&nbsp;γ = 1&nbsp;[[Tesla (unit)|nanotesla]]). These scales were automatically switched by the instrument. The field that the magnetometer observed was the super-position of a nearly constant spacecraft field and the interplanetary field. Thus, it effectively measured only the changes in the interplanetary field.{{r|Coleman}}
+
+* An '''[[ionization chamber]]''' with matched '''[[Geiger-Müller tube]]s''' (also known as a [[cosmic ray]] detector) to measure high-energy cosmic radiation.{{r|report}}{{rp|218–219}}{{r|Anderson}}
+
+* A '''particle detector''' (implemented through use of an Anton type 213 Geiger-Müller tube) to measure lower radiation (especially near Venus),{{r|report}}{{rp|219–223}}{{r|VanAllen_Frank}} also known as the Iowa detector, as it was provided by the [[University of Iowa]].{{r|Anderson}} It was a miniature tube having a 1.2&nbsp;mg/cm<sup>2</sup> mica window about {{cvt|0.3|cm|in}} in diameter and weighing about {{cvt|60|g|oz}}. It detected soft [[x-ray]]s efficiently and [[ultraviolet]] inefficiently, and was previously used in [[Injun (satellite)|Injun 1]], [[Explorer 12]] and [[Explorer 14]].{{r|VanAllen_Frank}} It was able to detect protons above 500&nbsp;keV in energy and electrons above 35&nbsp;keV.{{r|nasa2}} The length of the basic telemetry frame was 887.04&nbsp;seconds. During each frame, the counting rate of the detector was sampled twice at intervals separated by 37&nbsp;seconds. The first sampling was the number of counts during an interval of 9.60&nbsp;seconds (known as the 'long gate'); the second was the number of counts during an interval of 0.827&nbsp;seconds (known as the 'short gate'). The long gate accumulator overflowed on the 256th count and the short gate accumulator overflowed on the 65,536th count. The maximum counting rate of the tube was 50,000 per second.{{r|VanAllen_Frank}}
+
+* A '''[[cosmic dust]] detector''' to measure the flux of cosmic dust particles in space.{{r|report}}{{rp|223–224}}
+[[File:Mariner 2 plasma probe.png|thumb|Instrument for studying plasma]]
+* A '''solar plasma [[spectrometer]]''' to measure the spectrum of low-energy positively charged particles from the Sun, i.e. the [[solar wind]].{{r|report}}{{rp|224–228}}
+
+The magnetometer was attached to the top of the mast below the [[omnidirectional antenna]]. Particle detectors were mounted halfway up the mast, along with the cosmic ray detector. The cosmic dust detector and solar plasma spectrometer were attached to the top edges of the spacecraft base. The microwave radiometer, the infrared radiometer and the radiometer reference horns were rigidly mounted to a {{cvt|48|cm|in}} diameter parabolic radiometer antenna mounted near the bottom of the mast. All instruments were operated throughout the cruise and encounter modes except the radiometers, which were only used in the immediate vicinity of Venus.
+
+In addition to these scientific instruments, Mariner 2 had a data conditioning system (DCS) and a scientific power switching (SPS) unit. The DCS was a solid-state electronic system designed to gather information from the scientific instruments on board the spacecraft. It had four basic functions: analog-to-digital conversion, digital-to-digital conversion, sampling and instrument-calibration timing, and planetary acquisition. The SPS unit was designed to perform the following three functions: control of the application of [[alternating current|AC]] power to appropriate portions of the science subsystem, application of power to the radiometers and removal of power from the cruise experiments during radiometer calibration periods, and control of the speed and direction of the radiometer scans. The DCS sent signals to the SPS unit to perform the latter two functions.{{r|report}}
+
+Not included on any of the Mariner R spacecraft was a camera for visual photos. With payload space at a premium, project scientists considered a camera an unneeded luxury, unable to return useful scientific results. [[Carl Sagan]], one of the Mariner R scientists, unsuccessfully fought for their inclusion, noting that not only might there be breaks in Venus's cloud layer, but "that cameras could also answer questions that we were way too dumb to even pose".{{r|space.com1}}
+
+== Mission profile ==
+=== Prelude to Mariner 2 ===
+[[File:Woomera 1964 0(1).jpg|thumb|120px|The communications station at Woomera]]
+
+The launch window for Mariner, constrained both by the orbital relationship of Earth and Venus and the limitations of the Atlas Agena, was determined to fall in the 51-day period from July 22 through September 10.{{r|treasury}}{{rp|174}} The Mariner flight plan was such that the two operational spacecraft would be launched toward Venus in a 30-day period within this window, taking slightly differing paths such that they both arrived at the target planet within nine days of each other, between the December 8 and 16.{{r|avweek1962a}} Only Cape Canaveral Launch Complex 12 was available for the launching of Atlas-Agena rockets, and it took 24 days to ready an Atlas-Agena for launch. This meant that there was only a 27-day margin for error for a two-launch schedule.{{r|treasury}}{{rp|174}}
+
+Each Mariner would be launched into a [[parking orbit]], whereupon the restartable Agena would fire a second time, sending Mariner on its way to Venus (errors in [[trajectory]] would be corrected by a mid-course burn of Mariner's onboard engines).{{r|report}}{{rp|66–67}} Real-time radar tracking of the Mariner spacecraft while it was in [[parking orbit]] and upon its departure the [[Atlantic Missile Range]] would provide real-time radar tracking with stations at [[Ascension Island|Ascension]] and [[Pretoria]], while [[Palomar Observatory]] provided optical tracking. Deep space support was provided by three tracking and communications stations at [[Goldstone Deep Space Communications Complex|Goldstone, California]], [[RAAF Woomera Range Complex|Woomera, Australia]], and [[Hartebeesthoek Radio Astronomy Observatory|Johannesburg, South Africa]], each separated on the globe by around 120° for continuous coverage.{{r|report}}{{rp|231–233}}
+
+On July 22, 1962, the two-stage [[Atlas-Agena]] rocket carrying Mariner 1 veered off-course during its launch due to a defective signal from the Atlas and [[Mariner 1#Program error|a bug]] in the program equations of the ground-based guidance computer; the spacecraft was destroyed by the [[Range Safety Officer]].
+
+Two days after that launch, Mariner 2 and its booster (Atlas vehicle 179D) were rolled out to LC-12. The Atlas proved troublesome to prepare for launch, and multiple serious problems with the autopilot occurred, including a complete replacement of the servoamplifier after it had suffered component damage due to shorted transistors.{{r|Neugebauer_Snyder}}
+
+=== Launch ===
+[[File:Mariner 2 launch.jpg|thumb|The launch of Mariner 2, on August 27, 1962.]]
+[[File:Video-mariner-2-launch-020429.ogv|thumb|Mariner Atlas-Agena ignition]]
+[[File:Animation of Mariner 2 trajectory.gif |thumb |right |Animation of Mariner 2{{'s}} trajectory from August 27, 1962, to December 31, 1962<br>{{legend2|magenta| Mariner 2}}{{·}}{{legend2| Lime |[[Venus]]}}{{·}}{{legend2| RoyalBlue|[[Earth]]}}]]
+
+At 1:53 AM EST on August 27, Mariner 2 was launched from [[Cape Canaveral Air Force Station]] Launch Complex 12 at 06:53:14 UTC.{{r|report}}{{rp|97}}{{r|Neugebauer_Snyder}} The bug in the rocket’s software that resulted in the loss of Mariner 1 had not been identified at the time of the launch.{{r|Ulivi19}} In the event the bug caused no issues with the launch since it was in a section of code that was only used when the data-feed from the ground was interrupted and there were no such interruptions during the launch of Mariner 2.{{r|Ulivi19}}
+
+The flight proceeded normally up to the point of the Agena booster engine cutoff, at which point the V-2 vernier engine lost pitch and yaw control. The vernier started oscillating and banging against its stops, resulting in a rapid roll of the launch vehicle that came close to threatening the integrity of the stack. At T+189 seconds, the rolling stopped and the launch continued without incident. The rolling motion of the Atlas resulted in ground guidance losing its lock on the booster and preventing any backup commands from being sent to counteract the roll. The incident was traced to a loose electrical connection in the vernier feedback transducer, which was pushed back into place by the centrifugal force of the roll, which also by fortunate coincidence left the Atlas only a few degrees off from where it started and within the range of the Agena's horizontal sensor. As a consequence of this episode, GD/A implemented improved fabrication of wiring harnesses and checkout procedures.
+
+Five minutes after liftoff, the Atlas and Agena-Mariner separated, followed by the first Agena burn and second Agena burn. The Agena-Mariner separation injected the Mariner 2 spacecraft into a geocentric escape hyperbola at 26 minutes 3 seconds after liftoff. The NASA NDIF tracking station at Johannesburg, South Africa, acquired the spacecraft about 31 minutes after launch. Solar panel extension was completed approximately 44 minutes after launch. The Sun lock acquired the Sun about 18 minutes later. The high-gain antenna was extended to its acquisition angle of 72°. The output of the solar panels was slightly above the predicted value.
+
+As all subsystems were performing normally, with the battery fully charged and the solar panels providing adequate power, the decision was made on August 29 to turn on cruise science experiments. On September 3, the Earth acquisition sequence was initiated, and Earth lock was established 29 minutes later.{{r|report}}{{rp|97–109}}
+
+=== Mid-course maneuver ===
+Due to the Atlas-Agena putting Mariner slightly off course, the spacecraft required a mid-course correction, consisting of a roll-turn sequence, followed by a pitch-turn sequence and finally a motor-burn sequence. Preparation commands were sent to the spacecraft at 21:30 UTC on September 4. Initiation of the mid-course maneuver sequence was sent at 22:49:42 UTC and the roll-turn sequence started one hour later. The entire maneuver took approximately 34 minutes. As a result of the mid-course maneuver, the sensors lost their lock with the Sun and Earth. At 00:27:00 UTC the Sun re-acquisition began and at 00:34 UTC the Sun was reacquired. Earth re-acquisition started at 02:07:29 UTC and Earth was reacquired at 02:34 UTC.{{r|report}}{{rp|111–113}}
+
+=== Loss of attitude control ===
+On September 8 at 12:50 UTC, the spacecraft experienced a problem with [[Spacecraft attitude control|attitude control]]. It automatically turned on the gyros, and the cruise science experiments were automatically turned off. The exact cause is unknown as attitude sensors went back to normal before telemetry measurements could be sampled, but it may have been an Earth-sensor malfunction or a collision with a small unidentified object which temporarily caused the spacecraft to lose Sun lock. A similar experience happened on September 29 at 14:34 UTC. Again, all sensors went back to normal before it could be determined which axis had lost lock. By this date, the Earth sensor brightness indication had essentially gone to zero. This time, however, telemetry data indicated that the Earth-brightness measurement had increased to the nominal value for that point in the trajectory.{{r|report}}{{rp|113–114}}
+
+=== Solar panel output ===
+On October 31, the output from one solar panel (with [[solar sail]] attached) deteriorated abruptly. It was diagnosed as a partial short circuit in the panel. As a precaution, the cruise science instruments were turned off. A week later, the panel resumed normal function, and cruise science instruments were turned back on. The panel permanently failed on November 15, but Mariner 2 was close enough to the Sun that one panel could supply adequate power; thus, the cruise science experiments were left active.{{r|report}}{{rp|114}}
+
+=== Encounter with Venus ===
+[[File:11214 2023 956 Fig10 HTML.webp|thumb|Mariner 2's flyby in spatial relation to later probes]]
+Mariner 2 was the first spacecraft to successfully encounter another planet,<ref name=beyond2/> passing as close as {{cvt|34773|km|mi}} to Venus after 110 days of flight on December 14, 1962.{{r|NSSDC}}
+
+=== Post encounter ===
+After encounter, cruise mode resumed. Spacecraft perihelion occurred on December 27 at a distance of {{convert|105,464,560|km|mi|sp=us}}. The last transmission from Mariner 2 was received on January 3, 1963, at 07:00 UTC, making the total time from launch to termination of the Mariner 2 mission 129 days.{{r|Sparks}} After passing Venus, Mariner 2 entered [[heliocentric orbit]].{{r|nasa1}}
+
+== Results ==
+The data produced during the flight consisted of two categories{{mdash}}''viz.'', tracking data and telemetry data.{{r|Sparks}} One particularly noteworthy piece of data gathered during the pioneering fly-by was the high temperature of the atmosphere,<ref name=nasa4/> measured to be {{Convert|500|C|C K F|lk=on|order=out}}.{{r|nasa4}} Various properties of the [[solar wind]] were also measured for the first time.{{r|nasa4}}
+
+=== Scientific observations ===
+[[File:Mariner 2 radiometric scans.png|thumb|Radiometric scanning of Venus]]
+[[File:Mariner 2 venus data.jpg|thumb|A print-out of data from the flyby]]
+The microwave radiometer made three scans of Venus in 35 minutes on December 14, 1962, starting at 18:59 UTC.{{r|Barath_Mar63}} The first scan was made on the dark side, the second was near the terminator, and the third was located on the light side.{{r|Barath_Mar63|Sonett}} The scans with the 19&nbsp;mm band revealed peak temperatures of {{Convert|490 ± 11|K|C F|order=}} on the dark side, 595&nbsp;±&nbsp;12&nbsp;K near the terminator, and 511&nbsp;±&nbsp;14&nbsp;K on the light side.{{r|Pollack_Sagan}} It was concluded that there is no significant difference in temperature across Venus.{{r|Barath_Mar63|Sonett}} However, the results suggest a [[limb darkening]], an effect which presents cooler temperatures near the edge of the planetary disk and higher temperatures near the center.{{r|nasa9|Barath_Feb64|Barath_Mar63|Sonett|Pollack_Sagan|Kaplan}} This was evidence for the theory that the Venusian surface was extremely hot and the atmosphere optically thick.{{r|Barath_Mar63|Sonett|Pollack_Sagan}}
+
+The infrared radiometer showed that the 8.4&nbsp;μm and 10.4&nbsp;μm radiation temperatures were in agreement with radiation temperatures obtained from Earth-based measurements.{{r|Chase_Nov63}} There was no systematic difference between the temperatures measured on the light side and dark side of the planet, which was also in agreement with Earth-based measurements.{{r|Chase_Nov63}} The limb darkening effect that the microwave radiometer detected was also present in the measurements by both channels of the infrared radiometer.{{r
+|Chase_Nov63|Sonett|Kaplan}} The effect was only slightly present in the 10.4&nbsp;μm channel but was more pronounced in the 8.4&nbsp;μm channel.{{r|Sonett}} The 8.4&nbsp;μm channel also showed a slight phase effect. The phase effect indicated that if a greenhouse effect existed, heat was transported in an efficient manner from the light side to the dark side of the planet.{{r|Sonett}} The 8.4&nbsp;μm and 10.4&nbsp;μm showed equal radiation  temperatures, indicating that the limb darkening effect would appear to come from a cloud structure rather than the atmosphere.{{r|Chase_Nov63}} Thus, if the measured temperatures were actually cloud temperatures instead of surface temperatures, then these clouds would have to be quite thick.{{r|Chase_Mar63|Sonett|Kaplan}}
+
+The magnetometer detected a persistent interplanetary magnetic field varying between 2&nbsp;γ and 10&nbsp;γ ([[Tesla (unit)|nanotesla]]), which agrees with prior ''[[Pioneer 5]]'' observations from 1960. This also means that interplanetary space is rarely empty or field-free.{{r|Coleman}} The magnetometer could detect changes of about 4&nbsp;γ on any of the axes, but no trends above 10&nbsp;γ were detected near Venus, nor were fluctuations seen like those that appear at Earth's [[magnetosphere|magnetospheric]] termination. This means that Mariner 2 found no detectable magnetic field near Venus, although that did not necessarily mean that Venus had none.{{r|Sonett|Smith1963}} However, if Venus had a magnetic field, then it would have to be at least smaller than 1/10 the magnetic field of the Earth.{{r|Smith1963|nasa5}} In 1980, ''[[Pioneer Venus Orbiter|Pioneer 12]]'' indeed showed that Venus has a small weak magnetic field.{{r|Kivelson_Russell}}
+
+The Anton type 213 Geiger-Müller tube performed as expected.{{r|nasa7}} The average rate was 0.6 counts per second. Increases in its counting rate were larger and more frequent than for the two larger tubes, since it was more sensitive to particles of lower energy.{{r|report}} It detected seven small solar bursts of radiation during September and October and 2 during November and December.{{r|nasa6}} The absence of a detectable magnetosphere was also confirmed by the tube; it detected no radiation belt at Venus similar to that of Earth. The count rate would have increased by 10<sup>4</sup>, but no change was measured.{{r|report|Frank1963}}
+
+It was also shown that in interplanetary space, the [[solar wind]] streams continuously,{{r|Neugebauer_Snyder|Ness_Wilcox}} confirming a prediction by [[Eugene Parker]],{{r|nyt-20180810}} and the cosmic dust density is much lower than the near-Earth region.{{r|Alexander}}
+Improved estimates of Venus's mass and the value of the Astronomical Unit were made. Also, research, which was later confirmed by Earth-based radar and other explorations, suggested that Venus rotates very slowly and in a direction opposite that of the Earth.{{r|Goldstein_Carpenter}}
+
+==See also==
+* [[List of missions to Venus]]
+* [[Microwave Radiometer (Juno)]], another microwave radiometer used in the 2010s on Jupiter
+
+== References ==
+{{Reflist|refs=
+
+<ref name="Able34">{{cite web
+| url= https://www.sdfo.org/stl/590601Development%20Plan%20for%20Able%203-4.pdf
+| title= Development Plan for Able 3-4
+| date= 1 June 1959
+| publisher= Space Technology Laboratories
+| page= 2
+| access-date= 25 July 2022
+| archive-date= 20 September 2021
+| archive-url= https://web.archive.org/web/20210920011652/https://www.sdfo.org/stl/590601Development%20Plan%20for%20Able%203-4.pdf
+| url-status= live }}
+</ref>
+
+<ref name="ableseries">{{cite web
+| url= https://www.sdfo.org/stl/files/600502THE%20ABLE%20SERIES%20OF%20SPACE%20PROBES.pdf
+| title= The Able Series of Space Probes
+| date= 20 May 1960
+| publisher= Space Technology Laboratories
+| author1= Adolph K. Thiel
+| access-date= 25 July 2022
+| archive-date= 20 September 2021
+| archive-url= https://web.archive.org/web/20210920011700/https://www.sdfo.org/stl/files/600502THE%20ABLE%20SERIES%20OF%20SPACE%20PROBES.pdf
+| url-status= live }}
+</ref>
+
+<ref name="Alexander">{{cite journal
+| author1= W. M. Alexander
+| date= 7 December 1962
+| title= The Mission of Mariner II: Preliminary Results - Cosmic Dust
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 138
+| issue= 3545
+| pages= 1098–1099
+| doi= 10.1126/science.138.3545.1098
+| pmid= 17772966
+| bibcode= 1962Sci...138.1098A
+| s2cid= 41032782 }}
+</ref>
+
+<ref name="Anderson">{{cite journal
+| author1= H. R. Anderson
+| date= 4 January 1963
+| title= Mariner II: High-Energy-Radiation Experiment
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 139
+| issue= 3549
+| pages= 42–45
+| doi= 10.1126/science.139.3549.42
+| pmid= 17752023
+| bibcode= 1963Sci...139...42A }}
+</ref>
+
+<ref name=avweek1960a>{{cite magazine
+| title= Instruments Evolve for Mariner Probe
+| url= http://archive.aviationweek.com/issue/19620205#!&pid=56
+| magazine= [[Aviation Week & Space Technology]]
+| publisher= McGraw Hill Publishing Company
+| pages= 57–61
+| date= 5 February 1962
+| access-date= 28 January 2017
+| archive-date= 9 July 2021
+| archive-url= https://web.archive.org/web/20210709185120/https://archive.aviationweek.com/issue/19620205#!&pid=56
+| url-status= live
+| url-access= subscription }}
+</ref>
+
+<ref name=avweek1961>{{cite magazine
+| title= Mariner to Scan Venus' Surface on Flyby
+| url= http://archive.aviationweek.com/issue/19610612#!&pid=52
+| magazine= [[Aviation Week & Space Technology]]
+| publisher= McGraw Hill Publishing Company
+| pages= 52–57
+| date= 12 June 1961
+| access-date= 11 June 2021
+| archive-date= 25 July 2022
+| archive-url= https://web.archive.org/web/20220725005158/https://archive.aviationweek.com/issue/19610612#!&pid=52
+| url-status= live
+| url-access= subscription }}
+</ref>
+
+<ref name="avweek1962a">{{cite magazine
+| date= 30 July 1962
+| title= Venus Mission Fails: New Mariner Readied
+| url= http://archive.aviationweek.com/issue/19620730#!&pid=20
+| magazine= [[Aviation Week & Space Technology]]
+| publisher= McGraw Hill Publishing Company
+| access-date= 12 June 2021
+| page= 21
+| url-access= subscription
+| archive-date= 12 June 2021
+| archive-url= https://web.archive.org/web/20210612150011/https://archive.aviationweek.com/issue/19620730#!&pid=20
+| url-status= live }}
+</ref>
+
+<ref name="Barath_Mar63">{{cite journal
+| author1= F. T. Barath
+| author2= A. H. Barrett
+| author3= J. Copeland
+| author4= D. E. Jones
+| author5= A. E. Lilley
+| display-authors= 2
+| date= 8 March 1963
+| title= Mariner II: Preliminary Reports on Measurements of Venus - Microwave Radiometers
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 139
+| issue= 3558
+| pages= 908–909
+| doi= 10.1126/science.139.3558.908
+| pmid= 17743052
+| bibcode= 1963Sci...139..908B }}
+</ref>
+
+<ref name="Barath_Feb64">{{cite journal
+| author1= F. T. Barath
+| author2= A. H. Barrett
+| author3= J. Copeland
+| author4= D. E. Jones
+| author5= A. E. Lilley
+| display-authors= 2
+| date= February 1964
+| title= Symposium on Radar and Radiometric Observations of Venus during the 1962 Conjunction: Mariner 2 Microwave Radiometer Experiment and Results
+| journal= The Astronomical Journal
+| volume= 69
+| issue= 1
+| pages= 49–58
+| doi= 10.1086/109227
+| bibcode= 1964AJ.....69...49B
+}}</ref>
+
+<ref name="beyond1">{{cite journal
+| url= https://knowablemagazine.org/article/physical-world/2020/can-a-tidally-locked-planet-support-life
+| title= Beyond the Twilight Zone
+| journal= Knowable Magazine
+| author1= N. Scharping
+| date= 7 July 2020
+| doi= 10.1146/knowable-070620-1
+| s2cid= 225793830
+| access-date= 26 August 2021
+| archive-date= 25 July 2022
+| archive-url= https://web.archive.org/web/20220725005155/https://knowablemagazine.org/article/physical-world/2020/can-a-tidally-locked-planet-support-life
+| url-status= live
+| doi-access= free }}
+</ref>
+
+<ref name="beyond2">{{Cite book
+| author1= A. A. Siddiqi
+| url= https://www.nasa.gov/connect/ebooks/beyond_earth_detail.html
+| title= Beyond Earth: A Chronicle of Deep Space Exploration, 1958–2016
+| date= 20 September 2018
+| edition= 2nd
+| isbn= 978-1-626-83042-4
+| lccn= 2017059404
+| publisher= [[NASA]]
+| id= SP2018-4041
+| series= The NASA History series
+| location= Washington, DC }}
+</ref>
+
+<ref name="Chase_Mar63">{{cite journal
+| author1= S. C. Chase
+| author2= L. D. Kaplan
+| author3= G. Neugebauer
+| date= 8 March 1963
+| title= Mariner II: Preliminary Reports on Measurements of Venus - Infrared Radiometer
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 139
+| issue= 3558
+| pages= 907–908
+| doi= 10.1126/science.139.3558.907
+| pmid= 17743051
+| bibcode= 1963Sci...139..907C }}
+</ref>
+
+<ref name="Chase_Nov63">{{cite journal
+| author1= S. C. Chase
+| author2= L. D. Kaplan
+| author3= G. Neugebauer
+| date= 15 November 1963
+| title= The Mariner 2 Infrared Radiometer Experiment
+| journal= Journal of Geophysical Research
+| volume= 68
+| issue= 22
+| pages= 6157–6169
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19640006050_1964006050.pdf
+| access-date= 14 February 2009
+| bibcode= 1963JGR....68.6157C
+| doi= 10.1029/jz068i022p06157
+| archive-date= 25 May 2010
+| archive-url= https://web.archive.org/web/20100525020834/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19640006050_1964006050.pdf
+| url-status= live }}
+</ref>
+
+<ref name="Coleman">{{cite journal
+| author1= P. J. Coleman, Jr.
+| author2= L. Davis, Jr.
+| author3= E. J. Smith
+| author4= C. P. Sonett
+| date= December 7, 1962
+| title= The Mission of Mariner II: Preliminary Observations - Interplanetary Magnetic Fields
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 138
+| issue= 3545
+| pages= 1099–1100
+| doi= 10.1126/science.138.3545.1099
+| pmid= 17772967
+| bibcode= 1962Sci...138.1099C
+| s2cid= 19708490 }}
+</ref>
+
+<ref name="DevPlan">{{cite web
+| url= https://www.sdfo.org/stl/590114A%20Development%20Plan%20for%202%20Interplanetary%20probes.pdf
+| title= A Development Plan for 2 Interplanetary Probes
+| date= 14 January 1959
+| publisher= Space Technology Laboratories
+| access-date= 25 July 2022
+| archive-date= 20 September 2021
+| archive-url= https://web.archive.org/web/20210920022136/https://www.sdfo.org/stl/590114A%20Development%20Plan%20for%202%20Interplanetary%20probes.pdf
+| url-status= live }}
+</ref>
+
+<ref name="encyclopedia">{{cite book
+| title= The Illustrated Encyclopedia of Space Technology
+| editor1= Kenneth Gatland
+| date= 1989
+| publisher= Orion Books
+| location= New York
+| chapter= 2
+| author1= Mitchell Sharpe
+| pages= 28–31
+| oclc= 19520816
+| isbn= 978-0-517-57427-0 }}
+</ref>
+
+<ref name="Frank1963">{{cite journal
+| author1= L. A. Frank
+| author2= J. A. Van Allen
+| author3= H. K. Hills
+| date= 8 March 1963
+| title= Mariner II: Preliminary Reports on Measurements of Venus - Charged Particles
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 139
+| issue= 3558
+| pages= 905–907
+| doi= 10.1126/science.139.3558.905
+| pmid= 17743050
+| bibcode= 1963Sci...139..905F
+| s2cid= 44822394 }}
+</ref>
+
+<ref name="Goldstein_Carpenter">{{cite journal
+| author1= R. M. Goldstein
+| author2= R. L. Carpenter
+| date= 8 March 1963
+| title= Rotation of Venus: Period Estimated from Radar Measurements
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 139
+| issue= 3558
+| pages= 910–911
+| doi= 10.1126/science.139.3558.910
+| pmid= 17743054
+| bibcode= 1963Sci...139..910G
+| s2cid= 21133097 }}
+</ref>
+
+<ref name="history">{{cite web
+| url= https://www.history.com/topics/cold-war/space-race
+| title= The Space Race
+| website= www.history.com
+| date= 21 February 2020
+| access-date= 25 July 2022
+| archive-date= 30 March 2022
+| archive-url= https://web.archive.org/web/20220330020539/https://www.history.com/topics/cold-war/space-race
+| url-status= live }}
+</ref>
+
+<ref name="Hohnmann">{{cite web
+| url= https://www.qrg.northwestern.edu/projects/vss/docs/navigation/3-orbit-from-planet-to-planet.html
+| publisher= Northwestern University
+| title= How do spacecraft use an orbit to move from planet to planet?
+| access-date= 11 June 2021
+| archive-date= 27 June 2020
+| archive-url= https://web.archive.org/web/20200627060652/http://www.qrg.northwestern.edu/projects/vss/docs/Navigation/3-orbit-from-planet-to-planet.html
+| url-status= live }}
+</ref>
+
+<ref name="Kaplan">{{cite report
+| author1= L. D. Kaplan
+| date= June 1964
+| title= Recent Physical Data for Venus
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650012602_1965012602.pdf
+| access-date= 15 February 2009
+| archive-date= 23 May 2010
+| archive-url= https://web.archive.org/web/20100523024122/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650012602_1965012602.pdf
+| url-status= dead }}
+</ref>
+
+<ref name="Kivelson_Russell">{{cite book
+| title= Introduction to Space Physics
+| date= 1995
+| author1= M. G. Kivelson
+| author2= C. T. Russell
+| publisher= Cambridge University Press
+| isbn= 978-0-521-45714-9 }}
+</ref>
+
+<ref name="LL">{{cite web
+| url= http://planet4589.org/space/log/launchlog.txt|title=Launch Log
+| author1= J. McDowell
+| website= Jonathan's Space Page
+| access-date= 12 September 2013
+| archive-date= 24 October 2019
+| archive-url= https://web.archive.org/web/20191024062352/http://planet4589.org/space/log/launchlog.txt
+| url-status= live }}
+</ref>
+
+<ref name="nasa1">{{cite web
+| url= https://science.nasa.gov/mission/mariner-2/ 
+| title= Mariner 2 - NASA Science
+| website= science.nasa.gov
+| publisher= [[NASA]]
+| access-date= 30 November 2022 }}
+</ref>
+
+<ref name="nasa2">{{cite report
+| author1= N. A. Renzetti
+| author2= E. Rechtin
+| title= Tracking Information Memorandum No. 332-15: Mariner R1 and 2
+| publisher= California Institute of Technology
+| date= 15 June 1962
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650072055_1965072055.pdf
+| access-date= 24 January 2008
+| archive-date= 26 June 2008
+| archive-url= https://web.archive.org/web/20080626222426/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650072055_1965072055.pdf
+| url-status= live }}
+</ref>
+
+<ref name="nasa3">{{cite report
+| author1= N. A. Renzetti
+| title= Technical Memorandum No. 33-212: Tracking and Data Acquisition Support for the Mariner Venus 1962 Mission
+| publisher= [[NASA]]
+| date= 1 July 1965
+| url = https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650023548_1965023548.pdf
+| access-date= 24 January 2008
+| archive-date= 26 June 2008
+| archive-url= https://web.archive.org/web/20080626222448/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650023548_1965023548.pdf
+| url-status = live }}
+</ref>
+
+<ref name="nasa4">{{Cite web
+| url= http://www.nasa.gov/multimedia/imagegallery/image_feature_964.html
+| title= Mariner 2 - Gallery
+| date= 6 March 2015
+| website= nasa.gov
+| publisher= [[NASA]]
+| access-date= 9 September 2021
+| archive-date= 17 December 2019
+| archive-url= https://web.archive.org/web/20191217201955/https://www.nasa.gov/multimedia/imagegallery/image_feature_964.html
+| url-status= live }}
+</ref>
+
+<ref name="nasa5">{{cite journal
+| author1= E. J. Smith
+| author2= L. Davis, Jr.
+| author3= P. J. Coleman, Jr.
+| author4= C. P. Sonett
+| title= Magnetic Measurements near Venus
+| journal= Journal of Geophysical Research
+| year= 1965
+| volume= 70
+| issue= 7
+| page= 1571
+| doi= 10.1029/JZ070i007p01571
+| bibcode= 1965JGR....70.1571S
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650006314_1965006314.pdf
+| access-date= 15 February 2009
+| archive-date= 8 February 2010
+| archive-url= https://web.archive.org/web/20100208032345/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650006314_1965006314.pdf
+| url-status= dead }}
+</ref>
+
+<ref name="nasa6">{{cite report
+| author1= J. N. James
+| title= Mariner II
+| url = https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650076538_1965076538.pdf
+| access-date= 15 February 2009
+| archive-date= 24 May 2010
+| archive-url= https://web.archive.org/web/20100524211142/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19650076538_1965076538.pdf
+| url-status = dead }}
+</ref>
+
+<ref name="nasa7">{{cite journal
+| author1= J. A. Van Allen
+| date= July 1964
+| title= Survival of Thin Films in Space
+| journal= Journal of Geophysical Research
+| volume= 69
+| issue= 19
+| page= 4170
+| publisher= Department of Physics and Astronomy, State University of Iowa
+| doi= 10.1029/JZ069i019p04170
+| bibcode= 1964JGR....69.4170V
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19640016686_1964016686.pdf
+| access-date= 15 February 2009
+| archive-date= 14 May 2010
+| archive-url= https://web.archive.org/web/20100514032758/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19640016686_1964016686.pdf
+| url-status = dead }}
+</ref>
+
+<ref name="nasa8">{{cite web
+| url= https://science.nasa.gov/venus/
+| title= Venus - NASA Science
+| website= science.nasa.gov
+| publisher= [[NASA]]
+| date= 9 August 2021
+| access-date= 26 August 2021 }}
+</ref>
+
+<ref name="nasa9">{{cite report
+| author1= D. E. Jones
+| title= Technical Report No. 32-722: The Mariner II Microwave Radiometer Experiment
+| date= 1 January 1966
+| publisher= [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19660006862_1966006862.pdf
+| access-date= 15 February 2009
+| archive-date= 23 May 2010
+| archive-url= https://web.archive.org/web/20100523171017/http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19660006862_1966006862.pdf
+| url-status= dead }}
+</ref>
+
+<ref name="Ness_Wilcox">{{cite journal
+| author1= N. F. Ness
+| author1-link= Norman F. Ness
+| author2= J. M. Wilcox
+| date= 12 October 1964
+| title= Solar Origin of the Interplanetary Magnetic Field
+| journal= Physical Review Letters
+| volume= 13
+| issue= 15
+| pages= 461–464
+| doi= 10.1103/PhysRevLett.13.461
+| bibcode= 1964PhRvL..13..461N
+| hdl= 2060/19650019810
+| hdl-access= free }}
+</ref>
+
+<ref name="Neugebauer_Snyder">{{cite journal
+| author1= M. Neugebauer
+| author1-link=Marcia Neugebauer
+| author2= C. W. Snyder
+| date= 7 December 1962
+| title= The Mission of Mariner II: Preliminary Observations - Solar Plasma Experiment
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 138
+| issue= 3545
+| pages= 1095–1097
+| doi= 10.1126/science.138.3545.1095-a
+| pmid= 17772963
+| bibcode= 1962Sci...138.1095N
+| s2cid= 24287222 }}
+</ref>
+
+<ref name="NSSDC">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1962-041A
+| title= Mariner 2
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 8 September 2013
+| archive-date= 15 April 2019
+| archive-url= https://web.archive.org/web/20190415220330/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1962-041A
+| url-status= live }}
+</ref>
+
+<ref name="NSSDC-2">{{Cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1961-003A
+| title= Venera 1
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 15 August 2019
+| archive-date= 26 November 2020
+| archive-url= https://web.archive.org/web/20201126124517/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1961-003A
+| url-status= live }}
+</ref>
+
+<ref name=NSSDC-3>{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MARIN1
+| title= Mariner 1
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 11 June 2021
+| archive-date= 1 April 2022
+| archive-url= https://web.archive.org/web/20220401224003/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MARIN1
+| url-status= live }}
+</ref>
+
+<ref name="nyt-20180810">{{cite news
+| url= https://www.nytimes.com/2018/08/10/science/eugene-parker-solar-wind-nasa-probe.html
+| title= NASA's Parker Solar Probe Is Named for Him. 60 Years Ago, No One Believed His Ideas About the Sun
+| author1= K. Chang
+| newspaper= [[The New York Times]]
+| date= 10 August 2018
+| access-date= 11 February 2020
+| archive-date= 11 August 2018
+| archive-url= https://web.archive.org/web/20180811211441/https://www.nytimes.com/2018/08/10/science/eugene-parker-solar-wind-nasa-probe.html
+| url-status= live }}
+</ref>
+
+<ref name="P5">{{cite web
+| url= https://www.sdfo.org/stl/thorable-4missionreport.pdf
+| title= Project Thor Able-4 Final Mission Report
+| date= 25 May 1960
+| publisher= Space Technology Laboratories
+| pages= 9, 17
+| access-date= 25 July 2022
+| archive-date= 20 September 2021
+| archive-url= https://web.archive.org/web/20210920011633/https://www.sdfo.org/stl/thorable-4missionreport.pdf
+| url-status= live }}
+</ref>
+
+<ref name="Pollack_Sagan">{{cite journal
+| author1= J. B. Pollack
+| author2= C. E. Sagan
+| date= October 1967
+| title= An Analysis of the Mariner 2 Microwave Observations of Venus
+| journal= The Astrophysical Journal
+| volume= 150
+| pages= 327–344
+| doi= 10.1086/149334
+| bibcode= 1967ApJ...150..327P }}
+</ref>
+
+<ref name="report">{{cite book
+| title= Mariner-Venus 1962: Final Project Report
+| date= 1965
+| publisher= [[NASA]] / [[Jet Propulsion Laboratory|JPL]]
+| location= Washington, D.C.
+| oclc= 2552152
+| url= https://history.nasa.gov/SP-59.pdf
+| access-date= 25 July 2022
+| archive-date= 20 December 2021
+| archive-url= https://web.archive.org/web/20211220174828/https://history.nasa.gov/SP-59.pdf
+| url-status= dead }}
+</ref>
+
+<ref name="Smith1963">{{cite journal
+| author1= E. J. Smith
+| author2= L. Davis, Jr.
+| author3= P. J. Coleman, Jr.
+| author4= C. P. Sonett
+| date= March 8, 1963
+| title= Mariner II: Preliminary Reports on Measurements of Venus - Magnetic Field
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 139
+| issue= 3558
+| pages= 909–910
+| doi= 10.1126/science.139.3558.909
+| pmid= 17743053
+| bibcode= 1963Sci...139..909S
+| s2cid= 220082267 }}
+</ref>
+
+<ref name="Sonett">{{cite journal
+| author1= C. P. Sonett
+| date= December 1963
+| title= A Summary Review of the Scientific Findings of the Mariner Venus Mission
+| journal= Space Science Reviews
+| volume= 2
+| issue= 6
+| pages= 751–777
+| doi= 10.1007/BF00208814
+| bibcode= 1963SSRv....2..751S
+| s2cid= 119555288 }}
+</ref>
+
+<ref name="space.com1">{{cite web
+| url= https://www.space.com/18746-mariner-2.html
+| title= Mariner 2: First Spacecraft to Another Planet
+| author1= E. Howell
+| date= 3 December 2012
+| access-date= 11 June 2021
+| website= Space.com
+| archive-date= 25 July 2022
+| archive-url= https://web.archive.org/web/20220725005155/https://www.space.com/18746-mariner-2.html
+| url-status= live }}
+</ref>
+
+<ref name="Sparks">{{cite report
+| author1= D. B. Sparks
+| title= The Mariner 2 Data Processing System
+| publisher= California Institute of Technology 
+| date= March 1963
+| url= http://www.aiaa.org/content.cfm?pageid=406&gTable=mtgpaper&gID=70657
+| format= fee required
+| access-date= 28 January 2008
+| url-status= dead
+| archive-url= https://web.archive.org/web/20110616191924/http://www.aiaa.org/content.cfm?pageid=406&gTable=mtgpaper&gID=70657
+| archive-date= 16 June 2011 }}
+</ref>
+
+<ref name="treasury">{{cite book
+| title= The New Treasury of Science
+| chapter= The Voyage of Mariner II
+| editor1= H. Shapley
+| editor2= S. Rapport
+| editor3= H. Wright
+| author1= J. N. James
+| location= New York
+| publisher= Harper & Row
+| date= 1965
+| pages= 171–187
+| isbn= 978-0-060-13835-6 }}
+</ref>
+
+<ref name="Ulivi19">{{cite book
+| author1= P. Ulivi
+| author2= D. M. Harland
+| date= 2007
+| title= Robotic Exploration of the Solar System Part I: The Golden Age 1957–1982
+| publisher= Springer
+| pages= 19–22
+| isbn= 978-0-387-49326-8 }}
+</ref>
+
+<ref name="VanAllen_Frank">{{cite journal
+| author1= J. A. Van Allen
+| author2= L. A. Frank
+| date= 7 December 1962
+| title= The Mission of Mariner II: Preliminary Observations - The Iowa Radiation Experiment
+| journal= [[Science (journal)|Science]]
+| series= New Series
+| volume= 138
+| issue= 3545
+| pages= 1097–1098
+| doi= 10.1126/science.138.3545.1097
+| pmid= 17772965
+| bibcode= 1962Sci...138.1097V }}
+</ref>
+
+}}
+
+{{commons}}
+{{Portal|Spaceflight}}
+
+{{Mariner program | before=[[Mariner 1]] | after=[[Mariner 3]]}}
+{{Venus spacecraft}}
+{{Satellite and spacecraft instruments}}
+{{Orbital launches in 1962}}
+
+[[Category:Derelict satellites in heliocentric orbit]]
+[[Category:Mariner program]]
+[[Category:Venus flybys]]
+[[Category:Spacecraft launched in 1962]]
+[[Category:Derelict space probes]]
+[[Category:Spacecraft launched by Atlas-Agena rockets]]
+[[Category:Articles containing video clips]]
+[[Category:NASA missions to Venus]]
+
+[[de:Mariner#Mariner 1 und 2]]

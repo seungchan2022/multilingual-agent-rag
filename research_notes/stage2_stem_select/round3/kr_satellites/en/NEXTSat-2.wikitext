@@ -1,0 +1,42 @@
+{{Infobox spaceflight
+| name               = NEXTSat-1
+| launch_mass        = {{cvt|179.9|kg}}
+| power              = 230<!-- [[watt]]s -->
+| launch_date        = {{start-date|May 24, 2023|timezone=yes}} [[UTC]]
+| launch_rocket      = [[Nuri (rocket)|Nuri]]
+| launch_site        = [[Naro Space Center]]
+| programme          = NEXTSat
+| previous_mission   = [[NEXTSat-1]]
+| next_mission       = 
+}}
+
+'''NEXTSat-2'''  ({{korean|hangul=차세대소형위성 2호}}) is a [[small satellite]] developed by the [[KAIST Satellite Technology Research Center]] in South Korea, and was launched on May 25, 2023 aboard [[Nuri (rocket)|Nuri]]. Its main mission is ground detection and measurement of [[cosmic radiation]] near the Earth.
+
+== Launch ==
+NEXTSat-2 was launched on May 25, 2023 at 6:24 p.m. on board [[Nuri (rocket)|Nuri]]. After successfully settling into the target orbit, it succeeded in two-way communication with the ground station of the [[KAIST Satellite Technology Research Center]].<ref>{{Cite news |date=26 May 2023 |title=누리호 탑재 '차세대 소형위성 2호' 순항…오늘 7차례 교신 |url=https://www.hani.co.kr/arti/society/environment/1093456.html#cb |work=[[The Hankyoreh]] |publisher=}}</ref>
+
+At 7:07 p.m., the first satellite signal was received at the [[King Sejong Station]] in Antarctica, and at 7:58 p.m., initial communication was made through the [[Daejeon]] ground station. In the early morning of the 26th, seven additional communications were made through Daejeon and overseas ground stations. These communications included receiving the satellite's remote metering information and checking whether the satellite's attitude was in a normal sun-oriented state. Through the communications, it was confirmed that the command data processing system function and the communication system's transmission and reception functions were normal.<ref name=":0">{{Cite news |date=26 May 2023 |title=차세대소형위성 2호 '쌍방향 교신' 성공…도요샛 1기 추가 교신 |url=https://www.yna.co.kr/view/AKR20230526061552017?input=1195m |work=[[Yonhap News]] |publisher=}}</ref>
+
+It will orbit the Earth in a [[sun-synchronous orbit]] for two years, orbiting the Earth approximately 15 times a day, performing key missions including ground detection and measurements of cosmic radiation near the Earth.<ref name=":0" /><ref name=":1">{{Cite news |date=8 June 2023 |title=누리호 타고 간 차소위성 2호…'레오도스' 장비로 우주 방사선 잰다 |url=https://www.donga.com/news/Economy/article/all/20230608/119669364/1 |work=[[DongA Ilbo]] |publisher=}}</ref>
+
+== Missions ==
+
+=== Cosmic radiation measurement ===
+On its upper surface, it is equipped with the 'LEO-DOS' ({{korean|hangul=레오도스}}), a near-Earth [[cosmic radiation]] measurement equipment developed by the [[Korea Astronomy and Space Science Institute]] (KASI). Its main specifications are weight 1.7 kg, length 19 cm, width 8.5 cm, and height 14.4 cm.<ref name=":1" />
+
+LEO-DOS is equipped with a device to measure charged particles and neutrons. Its main mission is to measure the energy distribution and temporal changes of [[Neutron|neutrons]] and charged particles around the Earth. It has the function of precisely measuring how seriously astronauts are affected by cosmic radiation when they are active outside the [[space station]] and providing data that can reveal the effects of neutrons on the human body. It is also expected to explore the changes in cosmic radiation according to the solar activity cycle and the effects on the space environment around the Earth.<ref name=":1" /><ref>{{Cite news |date=8 June 2023 |title=누리호 타고 간 차소위성 2호…'레오도스' 장비로 우주 방사선 잰다 |url=https://www.newsis.com/view/NISX20230608_0002331206#_PA |work=[[Newsis]] |publisher=}}</ref>
+
+=== Test observation ===
+NEXTSat-1 conducted initial operations for three months after launch, including functional checks, system stabilization, and test observations of the satellite body, payload, and ground station. In addition, it transmitted photos and videos of [[Baekdu|Mt. Baekdu]], [[Arctic Ocean]] and other locations to Earth using the small X-band synthetic aperture radar (SAR) onboard observation equipment.<ref>{{Cite news |date=16 December 2023 |title=차세대 소형위성 2호가 촬영한 북극해 지역 |url=https://www.yna.co.kr/view/PYH20231216009600017?input=1196m |work=[[Yonhap News]] |publisher=}}</ref><ref>{{Cite news |date=16 December 2023 |title=차세대 소형위성 2호가 촬영한 백두산 지역 |url=https://www.yna.co.kr/view/PYH20231216010200017?input=1196m |publisher=[[Yonhap News]]}}</ref><ref>{{Cite news |date=6 September 2023 |title=KAIST, '차세대소형위성 2호' 촬영 설악산 영상 등 공개 |url=https://www.donga.com/news/People/article/all/20230906/121037793/1 |work=[[DongA Ilbo]] |publisher=}}</ref>
+
+== See also ==
+{{portal|Spaceflight|South Korea}}
+* [[NEXTSat-1]]
+
+== References ==
+{{Reflist}}
+
+{{South Korean space program}}
+
+[[Category:KAIST]]
+[[Category:Satellites of South Korea]]

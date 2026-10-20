@@ -1,0 +1,75 @@
+{{Short description|Failed South Korean satellite}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=February 2021}}
+{{Infobox spaceflight
+| name              = STSat-2A
+| names_list        = Science and Technology Satellite-2A
+| image             = P STSAT-2 12.jpg
+| image_caption     = 
+| image_size        = 300px
+
+| mission_type      = [[Technology]], [[Science]]
+| operator          = [[KAIST Satellite Technology Research Center]] (SaTReC)
+| COSPAR_ID         = 
+| SATCAT            = 
+| website           = 
+| mission_duration  = 2 years (planned)<br/>Failed to orbit
+
+| spacecraft_type   = STSat
+| spacecraft_bus    = [[STSat-1]]
+| manufacturer      = [[KAIST Satellite Technology Research Center]] (SaTReC)
+| launch_mass       = {{cvt|100|kg}}
+| dimensions        = 62 cm x 70 cm x 90 cm
+| power             = 160 [[Watt|watts]]
+
+| launch_date       = 25 August 2009, 08:00:33 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[Naro-1]] # 1
+| launch_site       = [[Naro Space Center]]
+| launch_contractor = [[Khrunichev State Research and Production Space Center|Khrunichev]] / [[Korea Aerospace Research Institute|KARI]]
+
+| last_contact      = Failed to orbit
+| decay_date        = 
+
+| orbit_reference   = [[Geocentric orbit]] (planned)
+| orbit_regime      = [[Low Earth orbit]]
+| orbit_periapsis   = {{cvt|300|km}}
+| orbit_apoapsis    = {{cvt|1500|km}}
+| orbit_inclination = 80.0°
+| orbit_period      = 103.0 minutes
+| apsis             = gee
+
+| instruments       = Dual-channel Radiometers for Earth and Atmosphere Monitoring (DREAM)<br/>Laser Retroreflector Array (LRA)<br/>Dual Head Star Tracker (DHST)<br/>Pulsed Plasma Thruster (PPT)<br/>Fine Digital Sun Sensor (FDSS)
+
+| programme         = '''[[Korea Aerospace Research Institute|KITSAT program]]'''
+| previous_mission  = [[STSat-1]]
+| next_mission      = [[STSat-2B]]
+}}
+
+'''STSat-2A''' ('''Science and Technology Satellite-2A''')<ref name="IRLS">{{cite web|url=http://ilrs.gsfc.nasa.gov/satellite_missions/list_of_satellites/sts2_general.html|title=STSat-2|publisher=NASA|access-date=2009-08-26|url-status=dead|archive-url=https://web.archive.org/web/20100516064127/http://ilrs.gsfc.nasa.gov/satellite_missions/list_of_satellites/sts2_general.html|archive-date=2010-05-16}} {{PD-notice}}</ref> was a [[satellite]] launched by the [[Korea Aerospace Research Institute]] (KARI), the national space agency of [[South Korea]], from the [[Naro Space Center]] in [[Goheung County]], [[South Jeolla]] using the [[Naro-1]] (KSLV-1) [[launch vehicle]].<ref>{{cite news|title=South Korea Completes Space Center For Rocket Launch|publisher=AFP Nasdaq|date=June 12, 2009|url=http://www.nasdaq.com/aspx/stock-market-news-story.aspx?storyid=200906100512dowjonesdjonline000330&title=south-korea-completes-space-center-for-rocket-launch|access-date=2009-06-14}}</ref><ref>{{cite news|title=Government Approves Launch of South Korea's First Space Rocket|publisher=Telecoms Korea|date=June 2, 2009|url=http://www.telecomskorea.com/index.php?option=com_content&task=view&id=7382&Itemid=2|access-date=2009-06-14}}</ref>
+
+== Spacecraft ==
+The [[KAIST Satellite Technology Research Center]] (SaTReC) developed STSat-2A as a [[Sun]] observation, satellite laser ranging and engineering and technology demonstration sponsored by the Ministry of Science and Technology. It was expected to be operational for about two years, and was scheduled to be launched between 2005 and 2007.<ref name="Lee">{{cite web|author-link=S. B. Kim, K. H. Kim, S. H. Lee, Y. J. Im, Y. Fumin, C. Wanzhen|title=Korea's First Satellite for Satellite Laser Ranging|publisher=NASA|url=http://cddis.nasa.gov/lw14/docs/presnts/ops3_jlp.pdf|access-date=2009-06-14|archive-date=14 June 2009|archive-url=https://web.archive.org/web/20090614003441/http://cddis.nasa.gov/lw14/docs/presnts/ops3_jlp.pdf|url-status=dead}} {{PD-notice}}</ref> The Laser Retroreflector Array (LRA) instrument was intended to measure the orbit of STSAT-2A, in order to investigate variations in its orbit.<ref name="security"/>
+
+It was a follow-up to [[STSat-1]], which was launched using a [[Kosmos-3M]] rocket on 27 September 2003. Originally a Dual-channel Radiometers for Earth and Atmosphere Monitoring (DREAM) [[microwave radiometer]] was intended as the principal payload of STSat-2A for an expected launch in 2007.<ref>{{cite book|last=Kim|first=Sung-Hyun|author2=De-Hai Zhang|author3=Ho-Jin Lee|author4=Hyuk Park|author5=Seok-Hun Yun|author6=Chun-Sik Chae|author7=Eun-Sup Sim|author8=Jing-Shan Jiang|author9=Yong-Hoon Kim|title=Proceedings. 2005 IEEE International Geoscience and Remote Sensing Symposium, 2005. IGARSS '05 |chapter=Korean spaceborne microwave radiometer on STSAT-2: Dual-channel radiometers for earth and atmosphere monitoring (DREAM) |volume=1|pages=464–466|publisher=Department of Mechatronics, Gwangju Institute of Science and Technology|location=South Korea|date=July 25–29, 2005|isbn=0-7803-9050-4|doi=10.1109/IGARSS.2005.1526211|s2cid=42049796 }}</ref> The Laser Retroreflector Array (LRA) was described as an early expected payload for STSat-2A which would consist of nine retroreflectors in a mechanical casing.<ref name="Lee"/>
+
+== Mission ==
+STSat-2A has three missions: the indigenous research and development to place a satellite into [[low Earth orbit]], development of indigenous [[spacecraft]], and the ability to develop scientific payloads.<ref name="security">{{cite news|url=https://www.globalsecurity.org/space/world/rok/stsat.htm|title=STSat (Science and Technology Satellite)|date=February 4, 2009|publisher=Global Security|access-date=2009-06-14}}</ref>
+
+== Launch ==
+STSat-2A was launched on the maiden flight of the [[Naro-1]] launch vehicle, which lifted off the [[Naro Space Center]], on the southern coast of South Korea at 08:00:33 [[Coordinated Universal Time|UTC]] on 25 August 2009. The launch failed to place STSat-2A into orbit after half of the payload fairing failed to separate.<ref name="yonhap">{{cite web |url=http://english.yonhapnews.co.kr/techscience/2009/08/26/15/0601000000AEN20090826005500320F.HTML|title=South Korean satellite lost shortly after launch|publisher=[[Yonhap News Agency]]|access-date=2009-08-26}}</ref> This resulted in the second stage being too heavy to reach orbit, and it fell back to [[Earth]] along with the satellite. A second satellite, [[STSat-2B]], was launched on 10 June 2010, but the launch vehicle failed again.
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[Arirang-2]] (KOMPSAT-2)
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+{{South Korean Space Program}}
+{{Orbital launches in 2009}}
+
+[[Category:Satellites of South Korea]]
+[[Category:Earth observation satellites]]
+[[Category:Satellite launch failures]]
+[[Category:Spacecraft launched in 2009]]

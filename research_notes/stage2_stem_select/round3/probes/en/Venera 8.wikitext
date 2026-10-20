@@ -1,0 +1,99 @@
+{{Short description|Soviet probe}}
+{{Infobox spaceflight
+| name                  = Venera 8
+| image                 = 
+| image_caption         = 
+
+| mission_type          = [[Venus]] lander
+| operator              = [[Lavochkin]]
+| COSPAR_ID             = 1972-021A
+| SATCAT                = 5912
+| mission_duration      = Travel: {{time interval|27 March 1972|22 July 1972|show=d}}<br />Lander: 50 minutes
+
+| spacecraft            = [[3MV]] No. 670
+| manufacturer          = [[Lavochkin]]
+| dry_mass              = 
+| launch_mass           = {{convert|1184|kg|lb}}<ref name=Venera_8>{{cite book|url=https://www.nasa.gov/sites/default/files/atoms/files/beyond-earth-tagged.pdf|title=Beyond Earth: A Chronicle of Deep Space Exploration, 1958–2016|last1=Siddiqi|first1=Asif|publisher=NASA History Program Office|edition=second|year=2018}}</ref>
+| landing_mass          = {{convert|495|kg|lb}}
+| power                 =
+
+| launch_date           = {{start-date|27 March 1972, 04:15:06|timezone=yes}}&nbsp;UTC<ref name=Venera_8></ref>
+| launch_rocket         = [[Molniya-M]]/[[Blok-MVL|MVL]]
+| launch_site           = [[Baikonur Cosmodrome|Baikonur]] [[Baikonur Cosmodrome Site 31|31/6]]
+| last_contact          = {{end-date|22 July 1972}} at 09:32 UT (landing) + 50 min., 11 sec. when transmission ended
+
+| orbit_epoch           = 27 March 1972
+| orbit_reference       = [[Geocentric orbit|Geocentric]]
+| orbit_semimajor       = {{convert|6591|km|mi}}
+| orbit_eccentricity    = 0.03732
+| orbit_periapsis       = {{convert|194|km|mi}}
+| orbit_apoapsis        = {{convert|246|km|mi}}
+| orbit_inclination     = 51.7°
+| orbit_period          = 88.9 minutes
+| apsis                 = gee
+
+|interplanetary         = 
+ {{Infobox spaceflight/IP
+   |type                = lander
+   |object              = [[Venus]]
+   |arrival_date        = 22 July 1972, 09:32&nbsp;UTC
+   |location            = {{Venus coords and quad cat|10.70|S|335.25|E}}
+ }}
+
+| programme             = [[Venera program|Venera]]
+| previous_mission      = [[Venera 7]]
+| next_mission          = [[Kosmos 482]]
+}}
+
+'''Venera 8''' ({{langx|ru|Венера-8}} meaning ''Venus 8'') was a [[Space probe|probe]] in the [[Soviet space program|Soviet]] [[Venera program]] for the exploration of [[Venus]] and was the second robotic space probe to conduct a successful landing on the surface of Venus.<ref name=Harvey115>{{cite book |last=Harvey |first=Brian |date=2007 |title=Russian Planetary Exploration History, Development, Legacy and Prospects  |publisher=Springer-Praxis |pages=115–118 |isbn=9780387463438 }}</ref>
+
+Venera 8 was a Venus atmospheric probe and lander. Its instrumentation included temperature, pressure, and light sensors as well as an [[altimeter]], [[gamma ray spectrometer]], [[Mass spectrometry#Trace gas analysis|gas analyzer]], and radio transmitters.
+
+==Journey to Venus==
+The spacecraft took 117 days to reach Venus with one mid-course correction on 6 April 1972, separating from the bus (which contained a [[cosmic ray]] detector, [[solar wind]] detector, and [[ultraviolet]] [[spectrometer]]) and entering the atmosphere on 22 July 1972 at 08:37 UT. A refrigeration system attached to the bus was used to pre-chill the descent capsule's interior prior to atmospheric entry in order to prolong its life on the surface. Descent speed was reduced from 41,696&nbsp;km/h to about 900&nbsp;km/h by atmospheric drag deceleration. The 2.5 meter diameter parachute opened at an altitude of 60&nbsp;km.
+
+==Descent==
+Venera 8 transmitted data during the descent. A sharp decrease in illumination was noted at 35 to 30&nbsp;km altitude and wind speeds of less than 1&nbsp;m/s were measured below 10&nbsp;km. Venera 8 landed at 09:32 UT in what is now called [[Vasilisa Regio]], within 150&nbsp;km radius of {{Venus coords and quad cat|10.70|S|335.25|E}}, in sunlight, about 500&nbsp;km from the morning [[terminator (solar)|terminator]]. The lander mass was 495&nbsp;kg.
+
+==Lander==
+The lander continued to send back data for 50 minutes, 11 seconds after landing before failing due to the harsh surface conditions. The probe confirmed the earlier data on the high Venus surface temperature and pressure (470 °C, 90 atmospheres){{citationneeded|date=March 2026}} returned by [[Venera 7]], and also measured the light level as being suitable for surface photography, finding it to be similar to the amount of light on Earth on an overcast day with roughly 1&nbsp;km visibility.
+
+Venera 8's [[photometer]] measurements showed for the first time that the Venusian clouds end at a high altitude, and the atmosphere was relatively clear from there down to the surface.  The on-board gamma ray spectrometer measured the [[uranium]]/[[thorium]]/[[potassium]] ratio of the surface rock, indicating it was similar to [[alkali basalt]].<ref name=Ulivi159>{{cite book |last1=Ulivi |first1=Paolo |last2=Harland |first2= David M |date=2007 |title=Robotic Exploration of the Solar System Part I: The Golden Age 1957–1982  |publisher=Springer |pages=159–160 |isbn=9780387493268 }}</ref>
+
+==Payload experiments==
+
+* Temperature and pressure sensors - ITD
+* [[Accelerometer]] - DOU-1M
+* [[Cadmium sulfide]] [[Photometer]]s<ref name=Ulivi157>{{cite book |last1=Ulivi |first1=Paolo |last2=Harland |first2= David M |date=2007 |title=Robotic Exploration of the Solar System Part I: The Golden Age 1957–1982  |publisher=Springer |page=157 |isbn=9780387493268 }}</ref> - IOV-72
+* Ammonia analyser<ref name=Ulivi157 /> – IAV-72
+* [[Gamma ray]] [[spectrometer]]<ref name=Ulivi157 />  – GS-4
+* [[Radar altimeter]] [[Auxiliary thruster]]
+* [[Radio]] [[Doppler effect|Doppler]] experiment<ref name=Ulivi157 />
+
+==See also==
+{{Portal|Spaceflight}}
+* [[List of missions to Venus]]
+* [[Timeline of artificial satellites and space probes]]
+
+==References==
+{{reflist}}
+
+== External links ==
+{{commons category|Venera 8}}
+
+*[http://www.mentallandscape.com/V_Lavochkin1.htm Plumbing the Atmosphere of Venus]
+*[https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-021A Venera 8 NASA NSSDC Master Catalog Data] {{Webarchive|url=https://web.archive.org/web/20220420132524/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-021A |date=2022-04-20 }}
+
+{{Venera}}
+{{Venus spacecraft}}
+
+{{Orbital launches in 1972}}
+
+{{DEFAULTSORT:Venera 08}}
+[[Category:Venera program]]
+[[Category:Derelict landers (spacecraft)]]
+[[Category:1972 in the Soviet Union]]
+[[Category:Spacecraft launched in 1972]]
+[[Category:3MV]]
+[[Category:Soviet missions to Venus]]
+[[Category:Venus landers]]

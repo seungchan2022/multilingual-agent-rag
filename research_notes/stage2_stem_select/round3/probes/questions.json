@@ -1,0 +1,242 @@
+[
+  {
+    "id": "pr-01",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "제22호 과학위성 히노데",
+    "question": "탐사선 제22호 과학위성 히노데의 질량은 몇 kg인가?",
+    "answer": "700 kg",
+    "value": 700.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "제22호 과학위성 히노데",
+        "quote": "중량: 700.0 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Hinode (satellite)",
+      "en_revid": 1349741420,
+      "en_key": "launch_mass",
+      "en_value": 700.0,
+      "en_text": "{{cvt|700|kg|lb}}<ref>{{cite web|url=https://www.nasa.gov/mission_pages/hinode/s",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "pr-02",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "베네라 8호",
+    "question": "탐사선 베네라 8호의 질량은 몇 kg인가?",
+    "answer": "1180 kg",
+    "value": 1180.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "베네라 8호",
+        "quote": "중량: 1180 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Venera 8",
+      "en_revid": 1353147480,
+      "en_key": "launch_mass",
+      "en_value": 1184.0,
+      "en_text": "{{convert|1184|kg|lb}}<ref name=Venera_8>{{cite book|url=https://www.nasa.gov/si",
+      "diff_pct": 0.3378
+    }
+  },
+  {
+    "id": "pr-03",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "트리톤 호퍼",
+    "question": "탐사선 트리톤 호퍼의 질량은 몇 kg인가?",
+    "answer": "500 kg",
+    "value": 500.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "트리톤 호퍼",
+        "quote": "중량: 500kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Triton Hopper",
+      "en_revid": 1354586355,
+      "en_key": "dry_mass",
+      "en_value": 500.0,
+      "en_text": "500 kg<ref>{{cite web |url=http://scitech.aiaa.org/InnovativeAdvancedConcepts/ |",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "pr-04",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "잉훠 1호",
+    "question": "탐사선 잉훠 1호의 질량은 몇 kg인가?",
+    "answer": "115 kg",
+    "value": 115.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "잉훠 1호",
+        "quote": "중량: 115 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Yinghuo-1",
+      "en_revid": 1368991045,
+      "en_key": "launch_mass",
+      "en_value": 115.0,
+      "en_text": "{{convert|115|kg|lb}}<ref name=\"planetary\">{{cite web | url=http://www.planetary",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "pr-05",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "EPOXI",
+    "question": "탐사선 EPOXI의 질량은 몇 kg인가?",
+    "answer": "650 kg",
+    "value": 650.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "EPOXI",
+        "quote": "중량: 650 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "EPOXI",
+      "en_revid": 1377247476,
+      "en_key": "launch_mass",
+      "en_value": 650.0,
+      "en_text": "650 kg<ref>{{cite web|url=https://solarsystem.nasa.gov/missions/deep-impact-epox",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "pr-06",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "비너스 익스프레스",
+    "question": "탐사선 비너스 익스프레스의 질량은 몇 kg인가?",
+    "answer": "1270 kg",
+    "value": 1270.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "비너스 익스프레스",
+        "quote": "중량: 1,270 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Venus Express",
+      "en_revid": 1379978591,
+      "en_key": "launch_mass",
+      "en_value": 1270.0,
+      "en_text": "{{convert|1270|kg|lb|0|abbr=on}}<ref name=\"factsheet\">{{cite web |url=http://www",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "pr-07",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "매리너 2호",
+    "question": "탐사선 매리너 2호의 질량은 몇 kg인가?",
+    "answer": "202.8 kg",
+    "value": 202.8,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "매리너 2호",
+        "quote": "중량: 202.8 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Mariner 2",
+      "en_revid": 1352029558,
+      "en_key": "launch_mass",
+      "en_value": 203.6,
+      "en_text": "{{cvt|203.6|kg|lb}}{{r|nasa1}}",
+      "diff_pct": 0.3929
+    }
+  },
+  {
+    "id": "pr-08",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "매리너 4호",
+    "question": "탐사선 매리너 4호의 질량은 몇 kg인가?",
+    "answer": "260.68 kg",
+    "value": 260.68,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "매리너 4호",
+        "quote": "중량: 260.68 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Mariner 4",
+      "en_revid": 1353183895,
+      "en_key": "launch_mass",
+      "en_value": 260.8,
+      "en_text": "{{convert|260.8|kg|lb}}<ref name=nasa1/>",
+      "diff_pct": 0.046
+    }
+  },
+  {
+    "id": "pr-09",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "달 광물 지도 작성기",
+    "question": "탐사선 달 광물 지도 작성기의 질량은 몇 kg인가?",
+    "answer": "8.2 kg",
+    "value": 8.2,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "달 광물 지도 작성기",
+        "quote": "중량: 8.2kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Moon Mineralogy Mapper",
+      "en_revid": 1322177752,
+      "en_key": "mass",
+      "en_value": 8.2,
+      "en_text": "{{convert|8.2|kg|abbr=on}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "pr-10",
+    "kind": "값",
+    "subject": "태양계 탐사선",
+    "target": "매리너 3호",
+    "question": "탐사선 매리너 3호의 질량은 몇 kg인가?",
+    "answer": "260.8 kg",
+    "value": 260.8,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "매리너 3호",
+        "quote": "중량: 260.8 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "Mariner 3",
+      "en_revid": 1368343073,
+      "en_key": "launch_mass",
+      "en_value": 260.8,
+      "en_text": "{{convert|260.8|kg|lb}}",
+      "diff_pct": 0.0
+    }
+  }
+]

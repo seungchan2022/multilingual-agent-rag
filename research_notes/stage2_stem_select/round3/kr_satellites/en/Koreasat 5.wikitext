@@ -1,0 +1,71 @@
+{{Short description|South Korea's satellite launched in 2006}}
+{{refimprove|date=September 2024}}
+{{Use British English|date=July 2020}}
+{{Use dmy dates|date=July 2020}}
+{{Infobox spaceflight
+| names_list              = ANASIS-I<br>
+Mugungwha 5
+| image             = 
+| image_caption     =
+
+| mission_type      = [[Communications satellite|Military Communications]]
+| operator          = [[KT Corporation]], [[Agency for Defense Development]] (ADD)
+| website           = 
+| COSPAR_ID         = 2006-034A	
+| SATCAT            = 29349
+| mission_duration  = 15 years (planned)<br>{{Age in years, months and days|year=2006|month=8|day=22}} (in progress)
+
+
+| spacecraft_bus    = [[Spacebus|Spacebus-4000C1]]
+| manufacturer      = [[Alcatel Alenia Space]]
+| dry_mass          = 
+| launch_mass       = 4465 kg
+| power             =
+
+| launch_date       = {{start-date|22 August 2006, 03:27:01}}&nbsp;[[UTC]]
+| launch_rocket     = [[Zenit-3SL]]
+| launch_site       = ''[[Ocean Odyssey]]'', Pacific Ocean near [[Kiritimati]]
+| launch_contractor = [[Sea Launch]]
+
+| disposal_type     = 
+| deactivated       = 
+| last_contact      = <!-- {{end-date|[insert date here]}} -->
+| decay_date        =
+
+| orbit_epoch       = 
+| orbit_reference   = [[Geocentric orbit]]
+| orbit_regime      = [[Geostationary orbit]]
+| orbit_longitude = 113° E
+| apsis             = gee
+
+| programme2         = [[Agency for Defense Development]] 
+| previous_mission2  = 
+| next_mission2      = [[ANASIS-II]]
+| programme         = [[Koreasat]] 
+| previous_mission  = [[Koreasat 3]]
+| next_mission      = [[Koreasat 6]]
+}}
+'''Koreasat 5''' (also known as '''ANASIS-I''' ('''A'''rmy '''N'''avy '''A'''ir Force '''S'''atellite '''I'''nformation '''S'''ystem'''-I''') and '''Mugunghwa 5''' (무궁화 5호)) is a South Korean [[communications satellite]] operated by [[KT Corporation|Koreasat]].<ref>[https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-034A KoreaSat 5] at NSSDCA</ref><ref>Sadeh, Eligar (2010) [https://books.google.com/books?id=_mTFBQAAQBAJ&dq=Koreasat ''The Politics of Space''] Taylor & Francis {{ISBN|9781136884245}}</ref>
+
+== See also ==
+{{Portal|Spaceflight}}
+[[Korea Aerospace Research Institute]] (KARI)
+
+==References==
+{{reflist}}
+
+==External links==
+*[https://www.n2yo.com/satellite/?s=29349 Koreasat 5] at N2YO.com
+*[https://space.skyrocket.de/doc_sdat/koreasat-5.htm Koreasat 5 (Mugunghwa 5, ANASIS 1)] at Gunter's Space Page
+{{South Korean Space Program}}
+{{Orbital launches in 2006}}
+
+[[Category:Communications satellites in geostationary orbit]]
+[[Category:Spacecraft launched in 2006]]
+[[Category:2006 in South Korea]]
+[[Category:Satellites using the Spacebus bus]]
+[[Category:Spacecraft launched by Zenit and Energia rockets]]
+[[Category:Koreasat satellites]]
+
+
+{{communications-satellite-stub}}

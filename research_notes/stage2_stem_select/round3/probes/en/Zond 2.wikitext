@@ -1,0 +1,178 @@
+{{Short description|USSR-era Russian space satellite}}
+{{Use mdy dates|date=May 2020}}
+{{Use American English|date=November 2020}}
+{{Infobox spaceflight
+| name                  = Zond 2
+| names_list            = Zond 3MV-4 No. 2
+| image                 = Zond 2.jpg
+| image_caption         = The Soviet ''Zond 2''.
+| image_alt             = <!--image alt text-->
+| image_size            = <!--include px/em; defaults to 220px-->
+
+<!--Basic details-->
+| mission_type          = [[Exploration of Mars|Mars]] flyby
+| operator              = [[OKB-1]]
+| Harvard_designation   = <!--spacecraft launched 1962 and earlier only (eg. 1957 Alpha 2)-->
+| COSPAR_ID             = 1964-078C
+| SATCAT                = 00945
+| website               = <!--Homepage of the craft/mission, OFFICIAL PAGES ONLY-->
+| mission_duration      = <!--How long the mission lasted-->
+| distance_travelled    = <!--How far the spacecraft travelled (if known)-->
+| orbits_completed      = <!--number of times the spacecraft orbited the Earth - see below for spacecraft beyond Earth orbit-->
+| suborbital_range      = <!--downrange distance reached if spacecraft did not enter orbit-->
+| suborbital_apogee     = <!--altitude reached if spacecraft did not enter orbit-->
+
+<!--Spacecraft properties-->
+| spacecraft            = <!--Spacecraft name/serial number (eg. Space Shuttle ''Discovery'', Apollo CM-118), etc-->
+| spacecraft_type       = <!--eg. GPS Block II, Kobalt-M, US-K, etc-->
+| spacecraft_bus        = [[3MV|3MV-4]]
+| manufacturer          = <!--company or companies who built the satellite-->
+| launch_mass           = {{convert|890|kg|abbr=on}}
+| BOL_mass              = <!--spacecraft mass in orbit at beginning of operational life, after LEOP phase-->
+| landing_mass          = <!--Mass after landing (recovered spacecraft only)-->
+| dry_mass              = 
+| payload_mass          = <!--Mass of cargo carried by spacecraft (eg. for Space Shuttle), or total mass of instrumentation/equipment/experiments for mission-->
+| dimensions            = 
+| power                 = <!--end-of-life power, in watts-->
+
+<!--Launch details-->
+| launch_date           = November 30, 1964, 13:12 UTC
+| launch_rocket         = [[Molniya (rocket)|Molniya T103-16]]
+| launch_site           = [[Baikonur Cosmodrome|Baikonur]] [[Gagarin's Start|LC-1/5]]
+| launch_contractor     = <!--organisation(s) that conducted the launch (eg. United Launch Alliance, Arianespace, etc)-->
+| deployment_from       = <!--place where deployed from-->
+| deployment_date       = <!--date deployed-->
+| entered_service       = <!--date on which the spacecraft entered service, if it did not do so immediately after launch-->
+<!-- * - e.g. Proton-M/Briz-M not Proton-M, but Titan IV(401)A not Titan IV(401)A-Centaur-->
+
+<!--end of mission-->
+| disposal_type         = <!--Whether the spacecraft was deorbited, decommissioned, placed in a graveyard orbit, etc-->
+| deactivated           = <!--when craft was decommissioned-->
+| destroyed             = <!--when craft was destroyed (if other than by re-entry)-->
+| last_contact          = 
+| recovery_by           = <!--recovered by-->
+| recovery_date         = <!--recovery date-->
+| decay_date            = <!--when craft re-entered the atmosphere, not needed if it landed-->
+| landing_date          = <!--when the spacecraft made a controlled landing, not needed if it did not return intact-->
+| landing_site          = <!--where the craft landed; site/runway or coordinates-->
+<!--
+    The following template should be used for ONE of the three above fields "end_of_mission", "decay" or "landing" if the spacecraft is no longer operational.
+    If it landed intact, use it for the landing time, otherwise for the date it ceased operations, or the decay date if it was still operational when it re-entered.
+    {{end date|YYYY|MM|DD|hh|mm|ss|TZ=Z}} (for Zulu/UTC) or {{end date|YYYY|MM|DD}} (if time unknown) 
+-->
+<!--orbit parameters-->
+<!--as science-related articles, SI units should be the principal units of measurement, however we usually use {{convert}} to display imperial units in parentheses after the initial values-->
+| orbit_reference       = [[Heliocentric orbit|Heliocentric]]
+| orbit_regime          = <!--high, low, medium, molniya, GSO - please link (e.g. [[Low Earth orbit|Low Earth]] - please don't use acronyms-->
+| orbit_longitude       = <!--geosynchronous satellites only-->
+| orbit_slot            = <!--Designation of orbital position or slot, if not longitude (e.g plane and position of a GPS satellite)-->
+| orbit_semimajor       = <!--semimajor axis-->
+| orbit_eccentricity    = 0.216
+| orbit_periapsis       = 0.98 AU
+| orbit_apoapsis        = 1.52 AU 
+| orbit_inclination     = 6.4°
+| orbit_period          = 508 days
+| orbit_RAAN            = <!--right ascension of the ascending node-->
+| orbit_arg_periapsis   = <!--argument of perigee/periapsis-->
+| orbit_mean_anomaly    = <!--mean anomaly at epoch, only use in conjunction with an epoch value-->
+| orbit_mean_motion     = <!--mean motion of the satellite, usually measured in orbits per day-->
+| orbit_repeat          = <!--repeat interval/revisit time-->
+| orbit_velocity        = 5.62 km/s
+| orbit_epoch           = <!--the date at which the orbit parameters were correct-->
+| orbit_rev_number      = <!--revolution number-->
+| apsis                 = helion
+
+|interplanetary         = <!--Infobox spaceflight/IP can be called multiple times for missions with multiple targets or combined orbiter/lander missions, etc-->
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |object              = [[Mars]]
+   |orbits              = <!--number of orbits completed at target body (if applicable and known)-->
+   |component           = <!--part of the spacecraft involved, if spacecraft split into multiple components-->
+   |arrival_date        = August 6, 1965
+   |departure_date      = <!--Date of leaving orbit for orbiters, date of launch for landers which took off again-->
+   |location            = <!--landing/impact site, including EOM impacts for atmospheric probes and lunar/asteroid orbiters-->
+   |distance            = {{convert|1500|km|abbr=on}}
+   |sample_mass         = <!--mass of samples returned (sample return missions only)-->
+   |surface_EVAs        = <!--number of EVAs on the surface-->
+   |surface_EVA_time    = <!--time spent on surface EVAs-->
+   
+   <!--Orbit parameters, ONLY USE IF THE ABOVE ORBIT PARAMETERS SECTION DOESN'T APPLY TO THE TARGET-->
+   |periapsis           = <!--periapsis altitude-->
+   |apoapsis            = <!--apoapsis altitude--> 
+   |inclination         = <!--inclination to the object's equator-->
+   |apsis               = <!--planet specific apsis term, as above-->
+ }}
+
+<!--transponder parameters-->
+| trans_band            = <!--Transponder frequency bands-->
+| trans_frequency       = <!--specific frequencies-->
+| trans_bandwidth       = <!--bandwidth-->
+| trans_capacity        = <!--capacity of the transponders-->
+| trans_coverage        = <!--area covered-->
+| trans_TWTA            = <!--TWTA output power-->
+| trans_EIRP            = <!--equivalent isotropic power-->
+| trans_HPBW            = <!--half-power beam width-->
+
+<!--Only use where a spacecraft/mission is part of a clear programme of sequential missions. 
+If in doubt, leave it out-->
+| programme             = [[Zond Program|Zond]]
+| previous_mission      = [[Zond 1]]
+| next_mission          = [[Zond 3]]
+
+<!--mission insignia or patch-->
+| insignia              = <!--omit the "file" prefix-->
+| insignia_caption      = <!--image caption-->
+| insignia_alt          = <!--image alt text-->
+| insignia_size         = <!--include px/em; defaults to 180px-->
+}}
+
+'''Zond 2''' was a [[Soviet]] [[space probe]], a member of the [[Zond program]], and was the sixth Soviet spacecraft to attempt a flyby of [[Mars]].<ref>{{Cite journal|url=https://www.researchgate.net/publication/328715311|title=Chronology of Mars Missions |website=ResearchGate|language=en|doi=10.13140/rg.2.2.29797.65768 |url-status=dead |archive-url=https://web.archive.org/web/20181210015825/https://www.researchgate.net/publication/328715311_Chronology_of_Mars_Missions
+|archive-date=10 December 2018}}</ref><ref>{{Cite web|url=https://www.fornax.info/2017/03/zond-2-mars-flyby.html|archive-url=https://web.archive.org/web/20181226232748/https://www.fornax.info/2017/03/zond-2-mars-flyby.html|url-status=dead|archive-date=December 26, 2018|title=Zond 2 Mars Flyby ~ Fornax Space Missions|access-date=December 26, 2018}}</ref> (See [[Exploration of Mars]])<ref>[http://www.russianspaceweb.com/3mv_Zond-2.html Zond-2: An early attempt to touch Mars]</ref> It was launched on November 30, 1964 at 13:12 UTC onboard [[Molniya (rocket)|Molniya]] 8K78 launch vehicle from [[Baikonur Cosmodrome]], Kazakhstan, USSR. The [[spacecraft]] was intended to survey Mars but lost communication before arrival.
+
+==History==
+Zond-2 carried a phototelevision camera of the same type later used to photograph the Moon on [[Zond 3]].  The camera system also included two ultraviolet spectrometers.  As on [[Mars 1]], an infrared spectrometer was installed to search for signs of methane on Mars.
+
+Zond 2 also carried six [[Pulsed Plasma Thruster]]s (PPT) that served as actuators of the attitude control system. They were the first PPTs successfully used on a spacecraft. The PPT propulsion system was tested for 70 minutes on the 14 December 1964 when the spacecraft was 4.2 million kilometers from Earth.<ref name="Shchepetilov">{{cite journal |last1=Shchepetilov |first1=V. A. |title=Development of Electrojet Engines at the Kurchatov Institute of Atomic Energy |journal=Physics of Atomic Nuclei |date=December 2018 |volume=81 |issue=7 |pages=988–999 |doi=10.1134/S1063778818070104 |bibcode=2018PAN....81..988S |url=https://ui.adsabs.harvard.edu/abs/2018PAN....81..988S/abstract |access-date=28 February 2024}}</ref>
+
+Zond 2, a ''Mars [[3MV]]-4A'' craft, was launched on November 30, 1964.  During some maneuvering in early May 1965, communications were lost.  Running on half power due to the loss of one of its [[Photovoltaic module|solar panel]]s, the spacecraft flew by Mars on August 6, 1965 at {{convert|5.62|km/s}}, {{convert|1,500|km}} away from the planet.
+
+== Scientific Instruments ==
+Source:<ref>{{Cite web|url=https://solarsystem.nasa.gov/missions/zond-2/in-depth|title=In Depth {{!}} Zond 2|website=Solar System Exploration: NASA Science|access-date=December 26, 2018|archive-date=March 27, 2020|archive-url=https://web.archive.org/web/20200327214828/https://solarsystem.nasa.gov/missions/zond-2/in-depth/|url-status=dead}}</ref>
+# [[Radiation Detector]]
+# [[Charged particle|Charged Particle]] Detector
+# [[Magnetometer]]
+# Piezoelectric Detector
+# [[Radio telescope|Radio Telescope]]
+# Nuclear Component of [[Cosmic ray|Cosmic-ray]] Experiment
+# [[Ultraviolet]] and Roentgen [[Solar Radiation]] Experiment
+# [[Imaging system|Imaging System]]
+
+== See also==
+{{Portal|Spaceflight}}
+* [[List of missions to Mars]]
+*[[List of missions to Mars|Chronology of Mars Missions]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-078C NASA (NSSDC) information on Zond 2] {{Webarchive|url=https://web.archive.org/web/20170227140350/http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1964-078C |date=February 27, 2017 }}
+* [https://web.archive.org/web/20120808012346/http://files.seds.org/pub/info/newsletters/ejasa/1991/jasa9104.txt "The Mystery of Zond 2" by Andrew Lepage, EJASA April, 1991]
+
+{{Sequence|
+ prev=[[Zond 1]]|
+ list=[[Zond program|Zond program (interplanetary)]]|
+ next=[[Zond 3]]
+}}
+{{Zond program}}
+{{Mars spacecraft}}
+{{Orbital launches in 1964}}
+
+[[Category:Zond program]]
+[[Category:Soviet missions to Mars]]
+[[Category:Derelict space probes]]
+[[Category:Derelict satellites in heliocentric orbit]]
+[[Category:Spacecraft launched in 1964]]
+[[Category:1964 in the Soviet Union]]
+[[Category:Spacecraft electric propulsion]]
+[[Category:Mars flybys]]

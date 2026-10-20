@@ -1,0 +1,81 @@
+{{Short description|1999 South Korean satellite}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=March 2021}}
+{{Infobox spaceflight
+| name              = KITSAT-3
+| names_list        = Uribyol-3
+| image             = 
+| image_caption     = 
+| image_size        = 300px
+
+| mission_type      = [[Technology demonstration]], [[Remote sensing]]
+| operator          = [[KAIST Satellite Technology Research Center|SaTReC]]
+| COSPAR_ID         = 1999-029A
+| SATCAT            = 25757
+| website           = [http://satrec.kaist.ac.kr/e_02_03.php KAIST SaTReC]
+| mission_duration  = 3 years (planned)<br/>4.5 years (achieved)
+
+| spacecraft        = KITSAT-3
+| spacecraft_type   = 
+| spacecraft_bus    = 
+| manufacturer      = [[KAIST Satellite Technology Research Center|SaTReC]]
+| launch_mass       = {{cvt|110|kg}}
+| dimensions        = {{cvt|49.5|x|60.4|x|85.2|cm}}
+| power             = 180 [[watt]]s
+
+| launch_date       = 26 May 1999, 06:22 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[PSLV-C2]]
+| launch_site       = [[Satish Dhawan Space Centre]], 
+| launch_contractor = [[Indian Space Research Organisation]] (ISRO)
+
+| disposal_type     = 
+| deactivated       = December 2003
+| last_contact      = 
+| decay_date        =
+
+| orbit_reference   = [[Geocentric orbit]]
+| orbit_regime      = [[Sun-synchronous orbit]]
+| orbit_periapsis   = 
+| orbit_apoapsis    = 
+| orbit_inclination = 
+| orbit_period      = 
+| apsis             = gee
+
+| instruments       = Multispectral Earth Imaging System (MEIS)<br/>Space ENvironment Scientific Experiment (SENSE)
+
+| programme         = '''[[KAIST Satellite Technology Research Center|KITSAT program]]'''
+| previous_mission  = [[KITSAT-2]]
+| next_mission      = [[STSat-1]]
+}}
+
+'''KITSAT-3''' was a South Korean [[remote sensing]] [[Small satellite|minisatellite]] which carried MEIS (Multispectral Earth Imaging System) and SENSE (Space ENvironment Scientific Experiment) instruments to [[low Earth orbit]] (LEO). Launched on 26 May 1999 by Indian space agency [[Indian Space Research Organisation]] (ISRO), on [[orbit]] the satellite was renamed to '''Uribyol-3'''. Manufactured by [[KAIST Satellite Technology Research Center]] (SaTReC), KITSAT-3 was developed with experience from [[KITSAT-1]] and [[KITSAT-2]] (no heritage to the KITSAT-1 and KITSAT-2 bus) and was the first independently designed South Korean [[satellite]].<ref name="KITSAT series – KITSAT-3">{{cite news|url=http://satrec.kaist.ac.kr/e_02_01_02.php|title=KITSAT series – KITSAT-3|publisher=KAIST Satellite Technology Research Center |access-date=9 July 2016}}</ref><ref name="KITSAT-3">{{cite news|title=KITSAT-3|publisher=eoportal.org|access-date=9 July 2016|url=https://directory.eoportal.org/web/eoportal/satellite-missions/k/kitsat-3#foot15%29}}</ref><ref name="Kitsat 3 (Uribyol 3)">{{cite news|title=Kitsat 3 (Uribyol 3)|publisher=Gunter's Space Page|access-date=9 July 2016|url=http://space.skyrocket.de/doc_sdat/kitsat-3.htm}}</ref><ref name="Kitsat 3">{{cite news|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1999-029B|title=KITSAT 3|publisher=NASA|access-date=9 July 2016}} {{PD-notice}}</ref>
+
+== Launch ==
+Kitsat-3 was launched in the [[PSLV-C2]] mission by 26 May 1999 by Indian space agency [[Indian Space Research Organisation|ISRO]] at 06:22 [[Coordinated Universal Time|UTC]] from [[Satish Dhawan Space Centre]] in India. The launch was the first commercial launch by ISRO of its [[launch vehicle]] ([[PSLV-C2]]) and US$1.0 million (equivalent to US${{Inflation|US|1|1999|r=2}} million in {{Inflation-year|US}}) was charged by the Indian agency for launching and injecting the satellite in the low Earth orbit.<ref name="The science and commerce of PSLV">{{cite news |url=http://www.frontline.in/static/html/fl1612/16120370.htm|title=The science and commerce of PSLV|publisher=Frontline (magazine)|access-date=9 July 2016}}</ref>
+
+== Mission highlights ==
+* First independently designed [[South Korea]]n [[satellite]]
+* First commercial flight of the launch vehicle, [[Polar Satellite Launch Vehicle]] (PSLV)
+* Spacecraft attitude was first captured and 3-axis stabilized on 30 May 1999
+* First image obtained on 31 May 1999
+* [[Solar panels on spacecraft|Solar panels]] deployed on 24 June 1999
+* Design for life of 3 years
+* However, operations ended in December 2003 (4.5 years achieved)<ref name="KITSAT series – KITSAT-3"/><ref name="KITSAT-3"/><ref name="Kitsat 3 (Uribyol 3)"/><ref name="Kitsat 3"/>
+
+== See also ==
+* [[KITSAT-1]]
+* [[PSLV-C2]]
+
+== References ==
+{{Reflist|30em}}
+
+{{Portal bar|Space|Science|Spaceflight}}
+{{South Korean Space Program}}
+{{Orbital launches in 1999}}
+
+[[Category:Satellites orbiting Earth]]
+[[Category:Satellites of South Korea]]
+[[Category:Spacecraft launched in 1999]]
+[[Category:Amateur radio satellites]]
+[[Category:KAIST]]
+[[Category:Spacecraft launched by PSLV rockets]]

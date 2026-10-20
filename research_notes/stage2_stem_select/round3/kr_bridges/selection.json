@@ -1,0 +1,94 @@
+{
+  "seed": 20261019,
+  "survey_fetched_utc": "2026-10-20T11:12:31Z",
+  "order": [
+    "영종철교",
+    "행주대교",
+    "인천대교",
+    "남항대교",
+    "서해대교",
+    "구포대교",
+    "이순신대교",
+    "부산항대교",
+    "구포철교",
+    "올림픽대교",
+    "가덕대교",
+    "울산대교",
+    "영종대교",
+    "잠실철교",
+    "압해대교",
+    "천사대교",
+    "구리암사대교"
+  ],
+  "results": {
+    "영종철교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "행주대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "인천대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "남항대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "서해대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "구포대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "이순신대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "부산항대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "구포철교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "올림픽대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "가덕대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "울산대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "영종대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "잠실철교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "압해대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "천사대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    },
+    "구리암사대교": {
+      "result": "skipped",
+      "reason": "정보 상자 줄 없음"
+    }
+  },
+  "en_docs": {}
+}

@@ -1,0 +1,397 @@
+{
+  "seed": 20261019,
+  "survey_fetched_utc": "2026-10-20T11:12:31Z",
+  "order": [
+    "제22호 과학위성 히노데",
+    "존드 2호",
+    "베네라 8호",
+    "메신저 (우주선)",
+    "트리톤 호퍼",
+    "잉훠 1호",
+    "매리너 7호",
+    "EPOXI",
+    "비너스 익스프레스",
+    "매리너 2호",
+    "매리너 4호",
+    "주노 (우주선)",
+    "에이스 위성",
+    "스타더스트 (우주선)",
+    "오케아노스 (천왕성 탐사선)",
+    "달 광물 지도 작성기",
+    "매리너 3호",
+    "피닉스 (우주선)",
+    "루나 1호",
+    "마스 익스프레스",
+    "마스 큐브 원",
+    "셀레네 2호",
+    "하위헌스 (우주선)",
+    "태양 및 태양권 관측위성",
+    "갈릴레오 탐사정",
+    "드래건플라이 (우주선)",
+    "딥 스페이스 1호",
+    "매리너 5호",
+    "마르스 7호",
+    "타이탄 토성계 임무",
+    "파이어니어 11호",
+    "2001 마스 오디세이",
+    "마스 글로벌 서베이어",
+    "매리너 6호",
+    "목성 얼음 위성 탐사선",
+    "파이어니어 10호",
+    "루나 3호",
+    "딥 스페이스 4호",
+    "마르스 4호",
+    "찬드라얀 1호",
+    "OKEANOS",
+    "노조미 (우주선)",
+    "카시니-하위헌스",
+    "베네라 7호",
+    "매리너 10호",
+    "뉴 허라이즌스",
+    "파커 태양 탐사선",
+    "매리너 8호",
+    "화성 정찰위성",
+    "MUSE (탐사선)",
+    "매리너 9호",
+    "비글 2호",
+    "컨투어 (우주선)",
+    "EnVision",
+    "파이어니어 금성 궤도선",
+    "율리시스 (우주선)",
+    "마젤란 (우주선)",
+    "지오토 (우주선)",
+    "SMARA",
+    "갈릴레오 (우주선)",
+    "태양 활동 관측위성",
+    "WIND (우주선)",
+    "유럽 달 탐사선",
+    "파이어니어 0호",
+    "국제 혜성 탐사선"
+  ],
+  "results": {
+    "제22호 과학위성 히노데": {
+      "result": "used",
+      "id": "pr-01",
+      "doc": "제22호 과학위성 히노데",
+      "ko_text": "700.0 kg",
+      "en_key": "launch_mass"
+    },
+    "존드 2호": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 960, 영어 launch_mass=890"
+    },
+    "베네라 8호": {
+      "result": "used",
+      "id": "pr-02",
+      "doc": "베네라 8호",
+      "ko_text": "1180 kg",
+      "en_key": "launch_mass"
+    },
+    "메신저 (우주선)": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 1093, 영어 launch_mass=1107.9"
+    },
+    "트리톤 호퍼": {
+      "result": "used",
+      "id": "pr-03",
+      "doc": "트리톤 호퍼",
+      "ko_text": "500 kg",
+      "en_key": "dry_mass"
+    },
+    "잉훠 1호": {
+      "result": "used",
+      "id": "pr-04",
+      "doc": "잉훠 1호",
+      "ko_text": "115 kg",
+      "en_key": "launch_mass"
+    },
+    "매리너 7호": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 411.8, 영어 launch_mass=381, launch_mass=381"
+    },
+    "EPOXI": {
+      "result": "used",
+      "id": "pr-05",
+      "doc": "EPOXI",
+      "ko_text": "650 kg",
+      "en_key": "launch_mass"
+    },
+    "비너스 익스프레스": {
+      "result": "used",
+      "id": "pr-06",
+      "doc": "비너스 익스프레스",
+      "ko_text": "1,270 kg",
+      "en_key": "launch_mass"
+    },
+    "매리너 2호": {
+      "result": "used",
+      "id": "pr-07",
+      "doc": "매리너 2호",
+      "ko_text": "202.8 kg",
+      "en_key": "launch_mass"
+    },
+    "매리너 4호": {
+      "result": "used",
+      "id": "pr-08",
+      "doc": "매리너 4호",
+      "ko_text": "260.68 kg",
+      "en_key": "launch_mass"
+    },
+    "주노 (우주선)": {
+      "result": "skipped",
+      "reason": "값 뒤에 더 있음(값이 둘이거나 어림): 중량: 3,625 kg (발사), 1,593 kg"
+    },
+    "에이스 위성": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 596, 영어 launch_mass=757, dry_mass=562"
+    },
+    "스타더스트 (우주선)": {
+      "result": "skipped",
+      "reason": "영어 값과 다름: 한국어 300, 영어 launch_mass=385, dry_mass=305.397"
+    },
+    "오케아노스 (천왕성 탐사선)": {
+      "result": "skipped",
+      "reason": "영어 값 비교 불가: launch_mass: 어림: ≈3,939 kg; dry_mass: 어림: ≈1,110 kg"
+    },
+    "달 광물 지도 작성기": {
+      "result": "used",
+      "id": "pr-09",
+      "doc": "달 광물 지도 작성기",
+      "ko_text": "8.2 kg",
+      "en_key": "mass"
+    },
+    "매리너 3호": {
+      "result": "used",
+      "id": "pr-10",
+      "doc": "매리너 3호",
+      "ko_text": "260.8 kg",
+      "en_key": "launch_mass"
+    },
+    "피닉스 (우주선)": {
+      "result": "unvisited"
+    },
+    "루나 1호": {
+      "result": "unvisited"
+    },
+    "마스 익스프레스": {
+      "result": "unvisited"
+    },
+    "마스 큐브 원": {
+      "result": "unvisited"
+    },
+    "셀레네 2호": {
+      "result": "unvisited"
+    },
+    "하위헌스 (우주선)": {
+      "result": "unvisited"
+    },
+    "태양 및 태양권 관측위성": {
+      "result": "unvisited"
+    },
+    "갈릴레오 탐사정": {
+      "result": "unvisited"
+    },
+    "드래건플라이 (우주선)": {
+      "result": "unvisited"
+    },
+    "딥 스페이스 1호": {
+      "result": "unvisited"
+    },
+    "매리너 5호": {
+      "result": "unvisited"
+    },
+    "마르스 7호": {
+      "result": "unvisited"
+    },
+    "타이탄 토성계 임무": {
+      "result": "unvisited"
+    },
+    "파이어니어 11호": {
+      "result": "unvisited"
+    },
+    "2001 마스 오디세이": {
+      "result": "unvisited"
+    },
+    "마스 글로벌 서베이어": {
+      "result": "unvisited"
+    },
+    "매리너 6호": {
+      "result": "unvisited"
+    },
+    "목성 얼음 위성 탐사선": {
+      "result": "unvisited"
+    },
+    "파이어니어 10호": {
+      "result": "unvisited"
+    },
+    "루나 3호": {
+      "result": "unvisited"
+    },
+    "딥 스페이스 4호": {
+      "result": "unvisited"
+    },
+    "마르스 4호": {
+      "result": "unvisited"
+    },
+    "찬드라얀 1호": {
+      "result": "unvisited"
+    },
+    "OKEANOS": {
+      "result": "unvisited"
+    },
+    "노조미 (우주선)": {
+      "result": "unvisited"
+    },
+    "카시니-하위헌스": {
+      "result": "unvisited"
+    },
+    "베네라 7호": {
+      "result": "unvisited"
+    },
+    "매리너 10호": {
+      "result": "unvisited"
+    },
+    "뉴 허라이즌스": {
+      "result": "unvisited"
+    },
+    "파커 태양 탐사선": {
+      "result": "unvisited"
+    },
+    "매리너 8호": {
+      "result": "unvisited"
+    },
+    "화성 정찰위성": {
+      "result": "unvisited"
+    },
+    "MUSE (탐사선)": {
+      "result": "unvisited"
+    },
+    "매리너 9호": {
+      "result": "unvisited"
+    },
+    "비글 2호": {
+      "result": "unvisited"
+    },
+    "컨투어 (우주선)": {
+      "result": "unvisited"
+    },
+    "EnVision": {
+      "result": "unvisited"
+    },
+    "파이어니어 금성 궤도선": {
+      "result": "unvisited"
+    },
+    "율리시스 (우주선)": {
+      "result": "unvisited"
+    },
+    "마젤란 (우주선)": {
+      "result": "unvisited"
+    },
+    "지오토 (우주선)": {
+      "result": "unvisited"
+    },
+    "SMARA": {
+      "result": "unvisited"
+    },
+    "갈릴레오 (우주선)": {
+      "result": "unvisited"
+    },
+    "태양 활동 관측위성": {
+      "result": "unvisited"
+    },
+    "WIND (우주선)": {
+      "result": "unvisited"
+    },
+    "유럽 달 탐사선": {
+      "result": "unvisited"
+    },
+    "파이어니어 0호": {
+      "result": "unvisited"
+    },
+    "국제 혜성 탐사선": {
+      "result": "unvisited"
+    }
+  },
+  "en_docs": {
+    "제22호 과학위성 히노데": {
+      "en_title": "Hinode (satellite)",
+      "revid": 1349741420,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "존드 2호": {
+      "en_title": "Zond 2",
+      "revid": 1351675644,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "베네라 8호": {
+      "en_title": "Venera 8",
+      "revid": 1353147480,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "메신저 (우주선)": {
+      "en_title": "MESSENGER",
+      "revid": 1379942937,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "트리톤 호퍼": {
+      "en_title": "Triton Hopper",
+      "revid": 1354586355,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "잉훠 1호": {
+      "en_title": "Yinghuo-1",
+      "revid": 1368991045,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "매리너 7호": {
+      "en_title": "Mariner 6 and 7",
+      "revid": 1353183906,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "EPOXI": {
+      "en_title": "EPOXI",
+      "revid": 1377247476,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "비너스 익스프레스": {
+      "en_title": "Venus Express",
+      "revid": 1379978591,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "매리너 2호": {
+      "en_title": "Mariner 2",
+      "revid": 1352029558,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "매리너 4호": {
+      "en_title": "Mariner 4",
+      "revid": 1353183895,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "에이스 위성": {
+      "en_title": "Advanced Composition Explorer",
+      "revid": 1371840008,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "스타더스트 (우주선)": {
+      "en_title": "Stardust (spacecraft)",
+      "revid": 1379947354,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "오케아노스 (천왕성 탐사선)": {
+      "en_title": "OCEANUS",
+      "revid": 1307002208,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "달 광물 지도 작성기": {
+      "en_title": "Moon Mineralogy Mapper",
+      "revid": 1322177752,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    },
+    "매리너 3호": {
+      "en_title": "Mariner 3",
+      "revid": 1368343073,
+      "fetched_utc": "2026-10-20T12:25:18Z"
+    }
+  }
+}

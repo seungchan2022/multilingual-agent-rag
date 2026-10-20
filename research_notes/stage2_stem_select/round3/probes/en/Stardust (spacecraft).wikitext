@@ -1,0 +1,1390 @@
+{{Short description|NASA sample-return mission to Comet 81P/Wild 2 (1999–2011)}}
+{{Italic title}}
+{{Infobox spaceflight
+| auto                  = all
+| name                  = ''Stardust''
+| names_list            = Discovery 4<br/>''Stardust-NExT''
+| image                 = Stardust - Concepcao artistica.jpg
+| image_caption         = Artist's impression of ''Stardust'' collecting dust particles from Comet Wild&nbsp;2
+| image_alt             = A spacecraft is depicted following a comet from within its tail.
+| image_size            = 300px
+
+| mission_type          = [[Sample-return mission|Sample return]]
+| operator              = [[NASA]]{{\}}[[Jet Propulsion Laboratory|JPL]]
+| COSPAR_ID             = 1999-003A
+| SATCAT                = 25618
+| website               = [https://solarsystem.nasa.gov/stardust/home/index.html solarsystem.nasa.gov]
+| mission_duration      = <small>Stardust:</small><br>{{time interval|7 Feb 1999|15 Jan 2006|sep=,}}<br/><small>NExT:</small><br>{{time interval|17 Jan 2007|24 Mar 2011|sep=,}}<br><small>Total:</small><br>{{time interval|7 Feb 1999|24 Mar 2011|sep=,}}
+
+| spacecraft_bus        = SpaceProbe<ref name=LaunchPressKit/>
+| manufacturer          = [[Lockheed Martin]]<br/>[[University of Washington]]
+| launch_mass           = {{cvt|385|kg|lb}}<ref name=Stardust/>
+| dry_mass              = {{cvt|305.397|kg|lb}}<ref name=pds.inst.sdu/>
+| payload_mass          = 
+| dimensions            = Bus: {{convert|5.6|xx|2.16|xx|2.16|ft|m|order=flip|abbr=on|disp=x|<ref name=LaunchPressKit/><br/>(|)}}
+| power                 = 330&nbsp;[[Watt|W]] ([[Photovoltaic system|Solar array]] / [[Nickel–hydrogen battery|{{chem2|NiH2}} batteries]])
+
+| launch_date           = {{start date text|7 February 1999, 21:04:15.238}}&nbsp;[[UTC]]<ref name=nssdc-003a/>
+| launch_rocket         = [[Delta II]] 7426-9.5<br>D-266
+| launch_site           = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[Cape Canaveral Air Force Station Space Launch Complex 17|SLC-17]]
+| launch_contractor     = [[Lockheed Martin Space Systems]]
+| entered_service       =
+
+| disposal_type         = Decommissioned
+| deactivated           = Spacecraft: {{end date text|24 March 2011, 23:33}}&nbsp;UTC<ref name=nasa20110325/>
+| landing_date          = Capsule: 15 January 2006, 10:12&nbsp;UTC<ref name=newsci20060115/>
+| landing_site          = [[Utah Test and Training Range]]<br/>{{coord|40|21.9|N|113|31.3|W}}
+
+|interplanetary         = 
+  {{Infobox spaceflight/IP
+ |type                 = flyby
+ |object               = [[Earth]]
+ |arrival_date         = 15 January 2001, 11:14:28 &nbsp;UTC
+ |distance             = {{cvt|6008|km|mi}}
+ }}
+{{Infobox spaceflight/IP
+ |type                 = flyby
+ |object               = asteroid [[5535 Annefrank]]
+ |arrival_date         = 2 November 2002, 04:50:20&nbsp;UTC<ref name=info-stardust/>
+ |distance             = {{cvt|3079|km|mi}}<ref name=info-stardust/>
+ }}
+ {{Infobox spaceflight/IP
+ |type                 = flyby
+ |object               = [[81P/Wild|Wild&nbsp;2]]
+ |arrival_date         = 2 January 2004, 19:21:28&nbsp;UTC<ref name=info-stardust/>
+ |distance             = {{cvt|237|km|mi}}<ref name=info-stardust/>
+ }}
+  {{Infobox spaceflight/IP
+ |type                 = flyby
+ |object               = [[Earth]]
+ |note                 = Sample return
+ |arrival_date         = 15 January 2006
+ }}
+  {{Infobox spaceflight/IP
+ |type                 = flyby
+ |object               = [[Earth]]
+ |arrival_date         = 14 January 2009, 12:33 &nbsp;UTC
+ |distance             = {{cvt|9157|km|mi}}
+ }}
+{{Infobox spaceflight/IP
+ |type                 = flyby
+ |object               = [[Tempel 1|9P/Tempel]]
+ |arrival_date         = 15 February 2011, 04:39:10&nbsp;UTC<ref name=info-next/>
+ |distance             = {{cvt|181|km|mi}}<ref name=nasa20110214/>
+ }}
+
+| instruments_list      = {{Infobox spaceflight/Instruments
+ | acronym1 = CIDA | name1 = Comet and Interstellar Dust Analyzer
+ | acronym2 = DFMI | name2 = Dust Flux Monitor Instrument
+ | acronym3 = SSC | name3 = Stardust Sample Collection
+ | acronym4 = DSE | name4 = Dynamic Science Experiment
+ | acronym5 = NavCam | name5 = Navigation Camera
+ }}
+
+| programme             = '''[[Discovery Program]]'''
+| previous_mission      = [[Lunar Prospector]]
+| next_mission          = [[Genesis (spacecraft)|Genesis]]
+
+| insignia              = [[File:Stardust - starlogo.png|120px]] [[File:Stardust - NExT - SDNEXT sticker-border.png|120px]]
+}}
+'''''Stardust''''' was a 385-kilogram [[robotic spacecraft|robotic]] [[space probe]] launched by [[NASA]] on 7 February 1999. Its primary mission was to collect dust samples from the [[coma (cometary)|coma]] of [[comet]] [[81P/Wild|Wild&nbsp;2]], as well as samples of [[cosmic dust]], and return them to Earth for analysis. It was the first [[sample return mission]] of its kind. En route to Comet Wild&nbsp;2, it also flew by and studied the [[asteroid]] [[5535 Annefrank]]. The primary mission was successfully completed on 15 January 2006 when the sample return capsule returned to Earth.<ref name=route/>
+
+A mission extension, codenamed ''NExT'', culminated in February 2011 with ''Stardust'' intercepting Comet [[Tempel 1]], a [[small Solar System body]] previously visited by ''[[Deep Impact (spacecraft)|Deep&nbsp;Impact]]'' in 2005. ''Stardust'' ceased operations in March 2011.
+
+On 14 August 2014, scientists announced the identification of possible [[interstellar dust]] particles from the ''Stardust'' capsule returned to Earth in 2006.<ref name=NASA-20140814/><ref name=AP-20140814/><ref name=SCI-20140814/><ref name=SCI-20140815/>
+
+==Mission background==
+===History===
+Beginning in the 1980s, scientists began seeking a dedicated mission to study a comet. During the early 1990s, several missions to study [[Comet Halley]] became the first successful missions to return close-up data. However, the US cometary mission, [[Comet Rendezvous Asteroid Flyby]], was canceled for budgetary reasons. In the mid-1990s, further support was given to a cheaper, [[Discovery Program|Discovery-class]] mission that would study Comet Wild&nbsp;2 in 2004.<ref name=LaunchPressKit/>
+
+''Stardust'' was competitively selected in the fall of 1995 as a NASA Discovery Program mission of low-cost with highly focused science goals.<ref name=LaunchPressKit/>{{rp|5}} Construction of ''Stardust'' began in 1996, and was subject to the maximum contamination restriction, level&nbsp;5 [[planetary protection]]. However, the risk of interplanetary contamination by alien life was judged low,<ref name=nasa_life/> as particle impacts at over {{convert|1000|mph|m/s|order=flip}}, even into [[aerogel]], were believed to be terminal for any known microorganism.<ref name=LaunchPressKit/>{{rp|22–23}}
+
+Comet [[81P/Wild|Wild&nbsp;2]] was selected as the primary target of the mission for the rare chance to observe a long-period comet that has ventured close to the [[Sun]]. The comet has since become a short period comet after an event in 1974, where the orbit of Wild&nbsp;2 was affected by the gravitational pull of [[Jupiter]], moving the orbit inward, closer to the Sun. In planning the mission, it was expected that most of the original material from which the comet formed would still be preserved.<ref name=LaunchPressKit/>{{rp|5}}
+
+The primary science objectives of the mission included:<ref name=info-stardust/>
+*Providing a flyby of a comet of interest (Wild&nbsp;2) at a sufficiently low velocity (less than 6.5&nbsp;km/s) such that non-destructive capture of comet dust is possible using an aerogel collector.
+*Facilitating the intercept of significant numbers of interstellar dust particles using the same collection medium, also at as low a velocity as possible.
+*Returning as many high-resolution images of the comet coma and nucleus as possible, subject to the cost constraints of the mission.
+
+The spacecraft was designed, built and operated by [[Lockheed Martin]] Astronautics as a Discovery-class mission in Denver, Colorado. JPL provided mission management for the NASA division for mission operations. The principal investigator of the mission was Dr.&nbsp;Donald Brownlee from the University of Washington.<ref name=LaunchPressKit/>{{rp|5}}
+
+===Spacecraft design===
+The spacecraft bus measured {{convert|1.7|m|sp=us}} in length, and {{convert|0.66|m|sp=us}} in width, a design adapted from the SpaceProbe deep space bus developed by [[Lockheed Martin|Lockheed Martin Astronautics]]. The bus was primarily constructed with [[graphite fiber]] panels with an aluminum honeycomb support structure underneath; the entire spacecraft was covered with polycyanate, [[Kapton]] sheeting for further protection. To maintain low costs, the spacecraft incorporated many designs and technologies used in past missions or previously developed for future missions by the Small Spacecraft Technologies Initiative (SSTI). The spacecraft featured five scientific instruments to collect data, including the ''Stardust'' Sample Collection tray, which was brought back to Earth for analysis.<ref name=Stardust:Spacecraft/>
+
+====Attitude control and propulsion====
+The spacecraft was [[three-axis stabilized]] with eight 4.41&nbsp;[[Newton (unit)|N]] [[hydrazine]] [[Monopropellant rocket|monopropellant]] [[Spacecraft propulsion|thrusters]], and eight 1&nbsp;N thrusters to maintain [[Spacecraft attitude control|attitude control]] (orientation); necessary minor propulsion maneuvers were performed by these thrusters as well. The spacecraft was launched with 80&nbsp;kilograms of propellant. Information for spacecraft positioning was provided by a [[Spacecraft attitude control|star camera]] using FSW to determine attitude (Stellar Compass), an [[Spacecraft attitude control|inertial measurement unit]], and two [[Spacecraft attitude control|Sun sensors]].<ref name=LaunchPressKit/>{{rp|30–31}}<ref name=Stardust:Spacecraft/> The Stellar Compass software was provided by Intelligent Decisions, Inc.
+
+====Communications====
+For communicating with the [[Deep Space Network]], the spacecraft transmitted data across the [[X-band]] using a {{convert|0.6|m|adj=on|sp=us}} parabolic [[high-gain antenna]], medium-gain antenna (MGA) and low-gain antennas (LGA) depending on mission phase, and a 15-watt [[transponder]] design originally intended for the [[Cassini–Huygens|''Cassini'' spacecraft]].<ref name=LaunchPressKit/>{{rp|32}}<ref name=Stardust:Spacecraft/>
+
+====Power====
+The probe was powered by two [[Photovoltaic system|solar arrays]], providing an average of 330&nbsp;watts of power. The arrays also included [[Whipple shield]]s to protect the delicate surfaces from the potentially damaging cometary dust while the spacecraft was in the coma of Wild&nbsp;2. The solar array design was derived primarily from the Small Spacecraft Technology Initiative (SSTI) spacecraft development guidelines. The arrays provided a unique method of switching strings from series to parallel depending on the distance from the Sun. A single [[nickel–hydrogen battery|nickel–hydrogen ({{chem2|NiH2}}) battery]] was also included to provide the spacecraft with power when the solar arrays received too little sunlight.<ref name=LaunchPressKit/>{{rp|31}}<ref name=Stardust:Spacecraft/>
+
+====Computer====
+The computer on the spacecraft operated using a [[radiation hardening|radiation-hardened]] [[RAD6000]] 32-bit processor card. For [[Data storage|storing data]] when the spacecraft was unable to communicate with Earth, the processor card was able to store 128&nbsp;[[megabyte]]s, 20% of which was occupied by the flight system software. The system software is a form of [[VxWorks]], an [[embedded operating system]] developed by [[Wind River Systems]].<ref name=LaunchPressKit/>{{rp|31}}<ref name=Stardust:Spacecraft/>
+
+====Scientific instruments====
+{| class="wikitable"
+|-
+| colspan="2" style="background: #f2f2f2" | Navigation Camera ('''NC''')
+|-
+| [[File:Stardust - NC - shake test.png|150px]]
+| The camera is intended for targeting comet Wild&nbsp;2 during the flyby of the nucleus. It captures black and white images through a filter wheel making it possible to assemble color images and detect certain gas and dust emissions in the coma. It also captures images at various [[Phase angle (astronomy)|phase angles]], making it possible to create a three-dimensional model of a target to better understand the origin, morphology, and mineralogical inhomogeneities on the surface of the nucleus. The camera utilizes the optical assembly from the [[Voyager Program|Voyager]] Wide Angle Camera. It is additionally fitted with a scanning mirror to vary the viewing angle and avoid potentially damaging particles. For environmental testing and verification of the NAVCAM the only remaining Voyager spare camera assembly was used as a collimator for testing of the primary imaging optics. A target at the focal point of the spare was imaged through the optical path of the NAVCAM for verification.<ref name=Camera/><ref name=NSSDCNC/>
+<!--Objectives collapsible-->
+{| class="wikitable collapsible collapsed"
+|-
+! Objectives<ref name=Camera/>
+|-
+|
+* Determine the position of Comet P/Wild&nbsp;2 during the approach and encounter
+* Obtain high resolution images of the nucleus
+|}
+*<small>'''Lead investigator:''' Ray Newburn / JPL <!--([-instrument website-])--></small>
+*<small>'''Data:''' [http://pdssbn.astro.umd.edu/holdings/stardust-c_e_l-nc-2-edr-v1.0/ PDS/SBN data catalog]</small>
+|-
+| colspan="2" style="background: #f2f2f2" | Cometary and Interstellar Dust Analyzer ('''CIDA''')
+|-
+| {{center|[[File:Stardust - CIDA - cida3.jpg|x175px]]}}
+| The dust analyzer is a [[mass spectrometer]] able to provide real-time detection and analysis of certain compounds and elements. Particles enter the instrument after colliding with a [[silver]] [[impact plate]] and traveling down a tube to the detector. The detector is then able to detect the mass of separate ions by measuring the time taken for each ion to enter and travel through the instrument. Identical instruments were also included on [[Giotto mission|Giotto]] and [[Vega program|Vega&nbsp;1 and&nbsp;2]].<ref name=CIDA/><ref name=NSSDCCIDA/>
+<!--Objectives collapsible-->
+{| class="wikitable collapsible collapsed"
+|-
+! Objectives<ref name=CIDA/>
+|-
+|
+*
+|}
+*<small>'''Lead investigator:''' Jochen Kissel / Max-Planck-Institut fur Aeronomie ([https://web.archive.org/web/20010823165343/http://galileo.mpi-hd.mpg.de/stardust/ website] -archived)</small>
+*<small>'''Data:''' PDS/SBN data archives: [http://pdssbn.astro.umd.edu/holdings/stardust-c_e_l-nc-2-edr-v1.0/data/ Early calibration], [http://pdssbn.astro.umd.edu/holdings/sdu-a-navcam-2-edr-annefrank-v2.0/ Annefrank], [http://pdssbn.astro.umd.edu/holdings/sdu-c-navcam-2-edr-wild2-v2.0/ Raw Wild&nbsp;2], [http://pdssbn.astro.umd.edu/holdings/sdu-c-navcam-3-rdr-wild2-v2.0/ Calibrated Wild&nbsp;2]</small>
+|-
+| colspan="2" style="background: #f2f2f2" | Dust Flux Monitor Instrument ('''DFMI''')
+|-
+| [[File:Stardust - DFMI - dfmic6.png|150px]]
+| Located on the [[Whipple shield]] at the front of the spacecraft, the sensor unit provides data regarding the flux and size distribution of particles in the environment around Wild&nbsp;2. It records data by generating electric pulses as a special polarized plastic (PVDF) sensor is struck by high energy particles as small as a few micrometers.<ref name=DFMI/><ref name=NSSDCDFMI/>
+<!--Objectives collapsible-->
+{| class="wikitable collapsible collapsed"
+|-
+! Objectives<ref name=DFMI/>
+|-
+|
+* Record quantitative measurements of the particle impact rate and particle mass distribution throughout the flyby of Comet [[81P/Wild|Wild 2]].
+* Establish the physical processes of dust emission from the nucleus, their propagation to form a coma, and the behavior of dust jets.
+* Provide measurements of the dust flux at least once per second, and up to 10 times per second.
+* Provide important information on the dust environment relevant to engineering concerns for spacecraft health and interpretation of anomalies.
+|}
+*<small>'''Lead investigator:''' Anthony Tuzzolino / University of Chicago ({{Deprecated archive|url=https://archive.today/20100615235734/http://odysseus.uchicago.edu/stardust/|title=website}})</small>
+*<small>'''Data:''' [https://web.archive.org/web/20110721051217/http://sbn.pds.nasa.gov/holdings/stardust-c_e_l-dfmi-2-edr-v1.0/ PDS/SBN data archive], [http://pdssbn.astro.umd.edu/holdings/sdu-c-dfmi-2-edr-wild2-v1.0/ PDS/SBN EDR data archive]</small>
+|-
+| colspan="2" style="background: #f2f2f2" | Stardust Sample Collection ('''SSC''')
+|-
+| [[File:Stardust Dust Collector with aerogel.jpg|150px]]
+| The particle collector uses [[aerogel]], a low-density, inert, microporous, silica-based substance, to capture dust grains as the spacecraft passes through the coma of Wild&nbsp;2. After sample collection was complete, the collector receded into the Sample Return Capsule for entering the Earth's atmosphere. The capsule with encased samples would be retrieved from Earth's surface and studied.<ref name=SSC/><ref name=NSSDCSSC/>
+<!--Objectives collapsible-->
+{| class="wikitable collapsible collapsed"
+|-
+! Objectives<ref name=SSC/>
+|-
+|
+*Determine the elemental, chemical, and mineralogical composition of Wild&nbsp;2 at the submicron scale.
+*Determine which compounds dominate the organic fraction of Wild&nbsp;2.
+*Establish the building materials of Wild&nbsp;2 found in interplanetary dust particles (IDP) and meteorites.
+*Determine the extent of the building materials of Wild&nbsp;2 found in interplanetary dust particles (IDP) and meteorites.
+*Establish if IDPs are consistent with Wild&nbsp;2 samples.
+*Determine if pyroxenerich chondritic aggregate IDPs are cometary.
+*Establish if amino acids, quinones, amphiphiles, or other molecules of exobiological interest are present.
+*Determine the state of {{chem2|H2O}} in Wild&nbsp;2.
+*Determine if there was mixing of inner nebula materials (i.e., high-temperature condensates) in the region of comet formation in the outer nebula.
+*Characterize isotopic anomalies present which could provide signatures of the place of origin of interstellar grains
+*Determine the high deuterium-to-hydrogen ratios seen in some IDPs common in Wild&nbsp;2 solids
+*Characterize the nature of the carbonaceous material in Wild&nbsp;2, and the relationship to silicates and other mineral phases or constraints in the processes by which they were formed (ion-molecule, gas-grain, irradiation of ices, etc.)
+*Determine if there are organic refractory mantles on silicate grains and if they resemble the organics found in IDPs and meteorites
+*Provide evidence of preaccretional processing of grains (cosmic ray tracks, sputtered rims, altered mineralogy, etc.)
+*Determine if GEMS (Glass with Embedded Fe&nbsp;Ni Metal and Sulfides) are present
+|}
+*<small>'''Principal investigator:''' Donald Brownlee / University of Washington <!--([-instrument website-])--></small>
+*<small>'''Data:''' [https://web.archive.org/web/20110721051918/http://sbn.pds.nasa.gov/holdings/sdu-c-src-2-temps-v1.0/ PDS/SBN temperature data archive], [https://web.archive.org/web/20110721052910/http://sbn.pds.nasa.gov/holdings/sdu-c-src-6-geometry-v1.0/ PDS/SBN positioning data archive]</small>
+|-
+| colspan="2" style="background: #f2f2f2" | Dynamic Science Experiment ('''DSE''')
+|-
+| <!--[[File:|150px]]-->
+| The experiment will primarily utilize the [[X band]] telecommunications system to conduct radio science on Wild&nbsp;2, to determine the mass of the comet; secondarily the inertial measurement unit is utilized to estimate the impact of large particle collisions on the spacecraft.<ref name=DSE/><ref name=NSSDCDSE/>
+<!--Objectives collapsible-->
+{| class="wikitable collapsible collapsed"
+|-
+! Objectives<ref name=DSE/>
+|-
+|
+*Determine the mass and bulk density of Comet Wild&nbsp;2.
+*Determine the coma density and constrain the particle size distribution for Comet Wild&nbsp;2.
+*Sound the solar corona at X&nbsp;band, including electron content of the inner corona, solar wind acceleration, turbulence, and a search for coronal mass ejections.
+|}
+*<small>'''Lead investigator:''' John Anderson / JPL <!--([-instrument website-])--></small>
+*<small>'''Data:''' [http://pdssbn.astro.umd.edu/holdings/sdu-c-dynsci-2-wild2-v1.0/ PDS/SBN data archive]</small>
+|}
+
+====Sample collection====
+Comet and interstellar particles are collected in ultra low density [[aerogel]]. The [[tennis racket]]-sized collector tray contained ninety blocks of aerogel, providing more than 1,000&nbsp;square centimeters of surface area to capture [[comet dust|cometary]] and [[interstellar dust|interstellar]] dust grains.
+
+To collect the particles without damaging them, a [[silicon]]-based solid with a porous, [[sponge]]-like structure is used in which 99.8&nbsp;percent of the volume is empty space. Aerogel has {{frac|1|1000}}&nbsp;the density of [[glass]], another silicon-based solid to which it may be compared. When a particle hits the aerogel, it becomes buried in the material, creating a long track, up to 200&nbsp;times the length of the grain. The aerogel was packed in an aluminium grid and fitted into a Sample Return Capsule (SRC), which was to be released from the spacecraft as it passed Earth in 2006.
+
+To analyze the aerogel for interstellar dust, one million photographs will be needed to image the entirety of the sampled grains. The images will be [[Grid computing|distributed]] to home computer users to aid in the study of the data using a program titled, [[Stardust@home]]. In April 2014, NASA reported they had recovered seven particles of interstellar dust from the aerogel.<ref name=phys.org1/>
+
+{{Gallery |align=center |width=180 |height=200 |title=Images of the spacecraft
+|File:Stardust - spacecraft diagram.png |alt1=Diagram of the spacecraft |Diagram of the spacecraft|File:Stardust - Coletor 2.png |alt2=Stardust capsule with aerogel collector deployed|''Stardust'' capsule with aerogel collector deployed|File:Stardust pre-launch.jpg |alt3=Stardust awaiting testing of the solar arrays |''Stardust'' awaiting testing of the solar arrays|File:Stardust - ksc9901117.jpg |alt4=The solar arrays being checked in the Payload Hazardous Servicing Facility |The solar arrays being checked in the Payload Hazardous Servicing Facility|File:Stardusft - ksc9812214.jpg |alt5=Stardust being checked before encapsulation |''Stardust'' being checked before encapsulation}}
+
+===''Stardust'' microchip===
+''Stardust'' was launched carrying two sets of identical pairs of square {{convert|10.16|cm|adj=on|sp=us|0}} silicon [[Wafer (electronics)|wafers]]. Each pair featured engravings of well over one million names of people who participated in the public outreach program by filling out internet forms available in late 1997 and mid-1998. One pair of the microchips was positioned on the spacecraft and the other was attached to the sample return capsule.<ref name="LaunchPressKit"/>{{rp|24}}
+
+==Mission profile==
+===Launch and trajectory===
+[[File:Animation of Stardust trajectory.gif|250px|thumb|right|Animation of ''Stardust''{{'s}} trajectory from 7 February 1999 to 7 April 2011<br/>{{legend2|magenta|''Stardust''}}{{·}}{{legend2|lime|[[81P/Wild]]}}{{·}}{{legend2|Royalblue|[[Earth]]}}{{·}}{{legend2|Cyan|[[5535 Annefrank]]}}{{·}}{{legend2|Gold|[[Tempel 1]]}}]]
+''Stardust'' was launched at 21:04:15&nbsp;UTC on 7 February 1999, by the [[National Aeronautics and Space Administration]] from [[Cape Canaveral Air Force Station Space Launch Complex 17|Space Launch Complex&nbsp;17A]] at the [[Cape Canaveral Air Force Station]] in Florida, aboard a [[Delta II|Delta&nbsp;II 7426]] launch vehicle. The complete burn sequence lasted for 27&nbsp;minutes bringing the spacecraft into a heliocentric orbit that would bring the spacecraft around the [[Sun]] and past [[Earth]] for a [[gravity assist|gravity assist maneuver]] in 2001, to reach asteroid [[5535 Annefrank]] in 2002 and [[81P/Wild|Comet Wild&nbsp;2]] in 2004 at a low flyby velocity of 6.1&nbsp;km/s. In 2004, the spacecraft performed a course correction that would allow it to pass by Earth a second time in 2006, to release the Sample Return Capsule for a landing in Utah in the [[Bonneville Salt Flats]].<ref name=LaunchPressKit/>{{rp|14–22}}<ref name=info-stardust/>
+
+During the second encounter with Earth, the Sample Return Capsule was released on Jan 15, 2006.<ref name=info-stardust/> Immediately afterwards, ''Stardust'' was put into a "divert maneuver" to avoid entering the atmosphere alongside the capsule. Under twenty kilograms of propellant remained onboard after the maneuver.<ref name=info-stardust/> On 29 January 2006, the spacecraft was put in hibernation mode with only the solar panels and receiver active, in a 3-year [[heliocentric]] orbit that would return it to Earth vicinity on 14 January 2009.<ref name=info-stardust/><ref name=stardust_hib/>
+
+A subsequent mission extension was approved on 3 July 2007, to bring the spacecraft back to full operation for a flyby of [[Tempel 1|Comet Tempel&nbsp;1]] in 2011. The mission extension was the first to revisit a [[small Solar System body]] and used the remaining propellant, signaling the end of the useful life for the spacecraft.<ref name=NeXT/>{{Clear}}
+
+{|  style="float:right; margin-left:1em;"
+! colspan="2" | Timeline of travel<ref name=info-stardust/><ref name=Tempel1Timeline/>
+|-
+|
+{| class="wikitable"
+|-
+! scope="col" style="width:100px;"| Date
+! scope="col" style="width:350px;"| Event
+|-
+| {{center|1999-02-07}}
+| Spacecraft launched at 21:04:15.238&nbsp;UTC<ref name="nssdc-003a"/>
+|-
+| {{center|2000-05-01}}
+| Stardust Sample Collection test.
+|-
+| {{center|2000-11-15}}
+| Earth gravity assist maneuver
+{| class="wikitable collapsible collapsed"
+|-
+! scope="col" style="width:100px;"| Time
+! scope="col" style="width:230px;"| Event
+|-
+| {{center|'''2001-01-15'''}}
+|
+|-
+| {{center|11:14:28}}
+| Closest approach to Earth at {{convert|6008|km|abbr=on}}, flying by a point just southeast of the southern tip of Africa.<ref name=info-stardust/><ref name=nasa.010111/>
+|-
+| {{center|'''2001-02-15'''}}
+| '''Phase Stop'''
+|}
+|-
+| {{center|2002-04-18}}
+| New record in spaceflight set: furthest solar powered object at 2.72&nbsp;[[Astronomical units|AU]].<ref name=Gasner2003/>
+|-
+| {{center|2002-11-02}}
+| Flyby encounter with [[5535 Annefrank]]
+{| class="wikitable collapsible collapsed"
+|-
+! scope="col" style="width:100px;"| Time
+! scope="col" style="width:230px;"| Event
+|-
+| {{center|'''2002-11-02'''}}
+|
+|-
+| {{center|4:50:20}}
+| Closest approach to Annefrank at {{convert|3079|km|abbr=on}}.<ref name="info-stardust"/>
+|-
+| {{center|'''2002-11-05'''}}
+| '''Phase Stop'''
+|}
+|-
+| {{center|2004-01-02}}
+| Flyby encounter with [[81P/Wild|Wild 2]]
+{| class="wikitable collapsible collapsed"
+|-
+! scope="col" style="width:100px;"| Time
+! scope="col" style="width:230px;"| Event
+|-
+| {{center|'''2003-12-24'''}}
+|
+|-
+| 
+| ''Stardust'' Sample Collector deployed
+|-
+| {{center|'''2004-01-02'''}}
+|
+|-
+| {{center|13:49:00}}
+| "Encounter sequence" of onboard computer commands begins
+|-
+| {{center|14:19:00}}
+| Cometary and interstellar dust analyzer instrument configured.
+|-
+| {{center|17:19:00}}
+| Navigation camera takes approach image.
+|-
+| {{center|18:19:00}}
+| Navigation camera takes approach image.
+|-
+| {{center|19:04:00}}
+| Dust flux monitor instrument turned on.
+|-
+| {{center|19:12:00}}
+| Stops sending data, transmits carrier signal only.
+|-
+| {{center|19:13:00}}
+| Final roll maneuver to adjust encounter orientation.
+|-
+| {{center|19:21:28}}
+| Closest approach to Wild&nbsp;2 at {{convert|237|km|abbr=on}}.<ref name="info-stardust"/>
+|-
+| {{center|19:25:00}}
+| Navigation camera ends period of highest frequency imaging
+|-
+| {{center|19:25:00}}
+| Roll maneuver to take spacecraft out of encounter orientation
+|-
+| {{center|19:26:00}}
+| Resumes sending data instead of carrier signal
+|-
+| {{center|19:27:00}}
+| Navigation camera takes final picture
+|-
+| {{center|19:29:00}}
+| Navigation camera turned off
+|-
+| {{center|19:36:00}}
+| Begins transmitting images, dust flux monitor data
+|-
+| {{center|'''2004-01-03'''}}
+|
+|-
+| {{center|13:19:00}}
+| Cometary and interstellar dust analyzer returned to cruise mode
+|-
+| {{center|13:19:00}}
+| "Encounter sequence" of computer commands ends
+|-
+| {{center|'''2004-02-21'''}}
+| '''Phase Stop'''
+|}
+|-
+| {{center|2006-01-15}}
+| Earth return of sample capsule.
+{| class="wikitable collapsible collapsed"
+|-
+! scope="col" style="width:100px;"| Time
+! scope="col" style="width:230px;"| Event
+|-
+| {{center|'''2006-01-15'''}}
+|
+|-
+| {{center|09:57:00}}
+| Sample Return Capsule reentry.<ref name=info-stardust/>
+|-
+| {{center|10:12:00}}
+| Sample Return Capsule touchdown.<ref name=newsci20060115/>
+|-
+| {{center|'''2006-01-16'''}}
+| '''Phase Stop'''
+|}
+|-
+| {{center|2011-02-15}}
+| Flyby encounter with [[Tempel 1]].
+{| class="wikitable collapsible collapsed"
+|-
+! scope="col" style="width:100px;"| Time
+! scope="col" style="width:230px;"| Event
+|-
+| {{center|'''2011-02-15'''}}
+|
+|-
+| Encounter -20 minutes
+| DFMI recording started.<ref name=info-next/>
+|-
+| Encounter -4 minutes
+| NavCam observations started.<ref name=info-next/>
+|-
+| {{center|04:39:10}}
+| Closest approach to Tempel 1 at a distance of {{convert|181|km|abbr=on}}.<ref name=info-next/><ref name=nasa20110214/>
+|-
+| Encounter +4 minutes
+| NavCam observations ended. 72 images captured.<ref name="info-next"/>
+|-
+| Encounter +20 minutes
+| DFMI recording ended.<ref name=info-next/>
+|-
+| Encounter +1 hour
+| High-gain antenna turned to Earth.<ref name=nasa20110214/>
+|-
+| {{center|'''2006-02-16'''}}
+| '''Phase Stop'''
+|}
+|-
+| {{center|2011-03-24}}
+| End of mission.
+{| class="wikitable collapsible collapsed"
+|-
+! scope="col" style="width:100px;"| Time
+! scope="col" style="width:230px;"| Event
+|-
+| {{center|'''2011-03-24'''}}
+|
+|-
+| {{center|23:00:00}}
+| Start of burn to consume remaining fuel.<ref name=nasa20110323/>
+|-
+| {{center|23:33:00}}
+| Transmitter switched off.<ref name=nasa20110325/>
+|-
+| {{center|'''2011-03-24'''}}
+| '''Phase Stop'''
+|}
+|}
+|}
+
+{{Gallery |align=center |width=180 |height=200 |File:Stardust - launch vehicle assembly diagram.png |alt1=Exploded diagram of the Delta&nbsp;II vehicle with Stardust |Exploded diagram of the Delta&nbsp;II vehicle with ''Stardust''.
+|File:Stardust - launch photo - ksc9902074.jpg |alt2=Photo of Stardust during launch with a Delta II launch vehicle |''Stardust'' during launch with a Delta&nbsp;II launch vehicle.
+|File:Stardust - mission trajectory.png |alt3=Trajectory of the ''Stardust'' spacecraft |Trajectory of the ''Stardust'' spacecraft en route to Wild&nbsp;2.
+}}
+
+===Encounter with Annefrank===
+{{main|5535 Annefrank}}
+At 04:50:20&nbsp;UTC on 2 November 2002, ''Stardust'' encountered asteroid 5535&nbsp;Annefrank from a distance of {{convert|3079|km|abbr=on}}.<ref name=info-stardust/> The solar phase angle ranged from 130&nbsp;degrees to 47&nbsp;degrees during the period of observations. This encounter was used primarily as an engineering test of the spacecraft and ground operations in preparation for the encounter with Comet Wild&nbsp;2 in 2003.<ref name=info-stardust/>
+
+{{Gallery |align=center |width=180 |height=200 |File:Asteroid 5535 Annefrank.jpg |alt1=Image of asteroid Annefrank captured on 2 November 2002 |Image of asteroid Annefrank captured on 2 November 2002|File:Stardust - Annefrank falsa cor.png |alt2=A false-color image of asteroid Annefrank showing the irregular shape of the small solar system body |False-color image of asteroid Annefrank|File:5535 Annefrank Stardust encounter.gif |alt3=Sequence of images of the Stardust probe approaching the asteroid Annefrank |Timelapse of Stardust's approach to Annefrank
+|title=}}
+
+===Encounter with Wild 2===
+At 19:21:28&nbsp;UTC, on 2 January 2004, ''Stardust'' encountered [[81P/Wild|Comet Wild]]&nbsp;2<ref name=cnn.20060113/> on the sunward side with a relative velocity of 6.1&nbsp;km/s at a distance of {{convert|237|km|abbr=on}}.<ref name=info-stardust/> The original encounter distance was planned to be {{convert|150|km|abbr=on}}, but this was changed after a safety review board increased the closest approach distance to minimize the potential for catastrophic dust collisions.<ref name=info-stardust/>
+
+The relative velocity between the comet and the spacecraft was such that the comet actually overtook the spacecraft from behind as they traveled around the Sun. During the encounter, the spacecraft was on the Sunlit side of the nucleus, approaching at a solar phase angle of 70&nbsp;degrees, reaching a minimum angle of 3&nbsp;degrees near closest approach and departing at a phase angle of 110&nbsp;degrees.<ref name=info-stardust/> The [[AutoNav]] software was used during the flyby.<ref name=autonav/>{{rp|11}}
+
+During the flyby the spacecraft deployed the Sample Collection plate to collect [[comet dust|dust grain samples]] from the [[Coma (cometary)|coma]], and took detailed pictures of the icy [[comet|nucleus]].<ref name=esp.stardust/>
+
+{{Gallery |align=center |width=180 |height=200 |File:Wild2 3.jpg |alt1=Comet Wild&nbsp;2 as seen from ''Stardust'' on 2 January 2004 |Comet Wild&nbsp;2 as seen from ''Stardust'' on 2 January 2004|File:Comet_Wild2.jpg |alt2=Image of Wild&nbsp;2 taken during the closest approach phase |Image of Wild&nbsp;2 taken during the closest approach phase|File:Comet wild 2 jet plumes.jpg |alt3=An overexposed image of Wild&nbsp;2 showing plumes of material coming from the surface |An overexposed image of Wild&nbsp;2 showing plumes of material|File:Comet Wild2 Anaglyph.jpg |alt4=A three-dimensional anaglyph of comet Wild&nbsp;2 |A 3D anaglyph of comet Wild&nbsp;2|title=}}
+
+==New Exploration of Tempel 1 (NExT)==
+[[File:Stardust20110323-full.jpg|thumb|Artist's impression of the ''Stardust'' spacecraft performing a burn-to-depletion at the end of the ''Stardust NExT'' mission.|alt=A spacecraft fires its boosters to deplete its fuel, ending its mission.]]
+
+On 19 March 2006, ''Stardust'' scientists announced that they were considering the possibility of redirecting the spacecraft on a secondary mission to image [[Tempel 1|Comet Tempel&nbsp;1]]. The comet was previously the target of the [[Deep Impact (spacecraft)|''Deep&nbsp;Impact'']] mission in 2005, sending an impactor into the surface. The possibility of this extension could be vital for gathering images of the impact crater which ''Deep Impact'' was unsuccessful in capturing due to dust from the impact obscuring the surface.
+
+On 3 July 2007 the mission extension was approved and renamed ''New Exploration of Tempel&nbsp;1'' (NExT). This investigation would provide the first look at the changes to a comet nucleus produced after a close approach to the Sun. NExT also would extend the mapping of Tempel&nbsp;1, making it the most mapped comet nucleus to date. This mapping would help address the major questions of comet nucleus geology. The flyby mission was expected to consume almost all of the remaining fuel, signaling the end of the operability of the spacecraft.<ref name="NeXT"/> The [[AutoNav]] software (for autonomous navigation) would control the spacecraft for the 30 minutes prior to encounter.<ref name="NExTPressKit"/>
+
+The mission objectives included the following:<ref name=NExTPressKit/>
+
+;Primary objectives
+*Extend the current understanding of the processes that affect the surfaces of comet nuclei by documenting the changes that have occurred on Comet Tempel&nbsp;1 between two successive perihelion passages, or orbits around the Sun.
+*Extend the geologic mapping of the nucleus of Tempel&nbsp;1 to elucidate the extent and nature of layering, and help refine models of the formation and structure of comet nuclei.
+*Extend the study of smooth flow deposits, active areas and known exposure of water ice.
+
+;Secondary objectives
+*Potentially image and characterize the crater produced by Deep Impact in July 2005, to better understand the structure and mechanical properties of cometary nuclei and elucidate crater formation processes on them.
+*Measure the density and mass distribution of dust particles within the coma using the Dust Flux Monitor Instrument.
+*Analyze the composition of dust particles within the coma using the Comet and Interstellar Dust Analyzer instrument.
+
+===Encounter with Tempel 1===
+{{main|9P/Tempel}}
+At 04:39:10&nbsp;UTC on 15 February 2011, ''Stardust-NExT'' encountered Tempel&nbsp;1 from a distance of {{convert|181|km|abbr=on}}.<ref name="info-next"/><ref name="nasa20110214"/> An estimated 72&nbsp;images were acquired during the encounter. These showed changes in the terrain and revealed portions of the comet never seen by ''Deep Impact''.<ref name=nasa_gallery /> The impact site from ''Deep Impact'' was also observed, though it was barely visible due to material settling back into the crater.<ref name=cnn_20110215/>
+
+{{Gallery |align=center |width=180 |height=200 |File:StardustTemple1.jpg |alt1=Tempel&nbsp;1 from the Stardust-NExT spacecraft during closest approach. |Tempel&nbsp;1 from the ''Stardust-NExT'' spacecraft during closest approach|File:DeepImpactTempelCrater.jpg |alt2='Before and after' comparison images from ''Deep&nbsp;Impact'' and ''Stardust'', showing the crater formed by ''Deep&nbsp;Impact'' on the right hand image. |'Before and after' comparison images of Tempel&nbsp;1 by ''Deep&nbsp;Impact'' (''left'') and ''Stardust'' (''right'')|title=}}
+
+===End of extended mission===
+On 24 March 2011 at approximately 23:00&nbsp;UTC, ''Stardust'' conducted a burn to consume its remaining fuel.<ref name="nasa20110323"/> The spacecraft had little fuel left and scientists hoped the data collected would help in the development of a more accurate system for estimating fuel levels on spacecraft. After the data had been collected, no further antenna aiming was possible and the transmitter was switched off. The spacecraft sent an acknowledgement from approximately {{convert|312|e6km|e6mi|abbr=unit}} away in space.<ref name="nasa20110325"/>
+
+==Sample return==
+[[File:Stardust Capsule on Ground.jpg|thumb|alt=the landing capsule as seen on the ground at the Utah Test and Training range|Landing capsule as seen by the recovery team|left]]
+
+On 15 January 2006, at 05:57&nbsp;UTC, the Sample Return Capsule successfully separated from ''Stardust''. The SRC re-entered the Earth's atmosphere at 09:57&nbsp;UTC,<ref name=Farnham2010/> with a velocity of {{convert|46440|km/h|km/s|1|disp=out|abbr=on}}, the fastest reentry speed into Earth's atmosphere ever achieved by a human-made object.<ref name=stardust-return/> The capsule followed a drastic reentry profile, going from a velocity of Mach&nbsp;36 to subsonic speed within 110 seconds.<ref name=youtube1/>{{Failed verification|reason=None of this information is explicitly stated in either sources, and there is no verification for the claim that the simulation and the recording agree with each other.|date=January 2021}} Peak [[deceleration]] was 34&nbsp;''[[standard gravity|g]]'',<ref name=ReVelle2007/> encountered 40&nbsp;seconds into the reentry at an altitude of 55&nbsp;km over [[Spring Creek, Nevada]].<ref name=youtube1/> The [[phenolic-impregnated carbon ablator]] (PICA) [[heat shield]], produced by Fiber Materials Inc., reached a temperature of more than 2,900&nbsp;°C during this steep reentry.<ref name=SLIT/> The capsule then parachuted to the ground, finally landing at 10:12&nbsp;UTC at the [[Utah Test and Training Range]], near the U.S.&nbsp;Army [[Dugway Proving Ground]].<ref name=newsci20060115/><ref name=coordinates/> The capsule was then transported by military aircraft from Utah to [[Ellington Air Force Base]] in [[Houston]], [[Texas]], then transferred by road in an unannounced convoy to the Planetary Materials Curatorial facility at [[Johnson Space Center]] in Houston to begin analysis.<ref name=info-stardust/><ref name=msnbc20060118/>
+
+===Sample processing===
+[[File:Aerogel labtest.jpg|thumb|100px|alt=Visible dust grains in the aerogel collector|Visible dust grains in the aerogel collector]]
+The sample container was taken to a [[clean room]] with a cleanliness factor 100&nbsp;times that of a hospital operating room to ensure the interstellar and comet dust was not contaminated.<ref name=hc01/> Preliminary estimations suggested at least a million&nbsp;[[microscopic]] specks of dust were embedded in the [[aerogel]] collector. Ten&nbsp;particles were found to be at least 100&nbsp;[[micrometre|micrometer]]s (0.1&nbsp;mm) and the largest approximately 1,000&nbsp;micrometers (1&nbsp;mm). An estimated 45&nbsp;[[interstellar dust]] impacts were also found on the sample collector, which resided on the back side of the cometary dust collector. Dust grains are being observed and analyzed by a volunteer team through the [[citizen science]] project, [[Stardust@Home]].
+
+The combined mass of the harvested sample was approximately 1&nbsp;mg.<ref name=nasa_ssc/>
+
+In December 2006, seven papers were published in the scientific journal ''[[Science (journal)|Science]]'', discussing initial details of the sample analysis. Among the findings are: a wide range of [[organic compounds]], including two that contain biologically usable [[nitrogen]]; indigenous [[aliphatic compound|aliphatic hydrocarbons]] with longer chain lengths than those observed in the diffuse [[interstellar medium]]; abundant amorphous [[silicate]]s in addition to crystalline silicates such as [[olivine]] and [[pyroxene]], proving consistency with the mixing of [[Solar System]] and interstellar matter, previously deduced [[spectroscopic]]ally from ground observations;<ref name=notts.479V/> hydrous silicates and carbonate minerals were found to be absent, suggesting a lack of aqueous processing of the cometary dust; limited pure carbon ([[CHON]]){{clarify|Why is this linking to [[CHON]] and not, say, [[allotropes of carbon]]? See [[Wikipedia:EASTEREGG]].|date=September 2017}} was also found in the samples returned; [[methylamine]] and [[ethylamine]] was found in the aerogel but was not associated with specific particles.
+
+In 2010, Dr. Andrew Westphal announced that [[Stardust@home]] volunteer Bruce Hudson found a track (labeled "I1043,1,30") among the many images of the aerogel that may contain an interstellar dust grain.<ref name=bbc2/> The program allows for any volunteer discoveries to be recognized and named by the volunteer. Hudson named his discovery "Orion".<ref name=lpsc2010.2050/>
+
+[[File:Stardust certisfication.png|thumb|Stardust@Home certificate]]
+
+In April 2011, scientists from the [[University of Arizona]] discovered evidence for the presence of liquid water in Comet [[81P/Wild|Wild 2]]. They have found iron and [[copper sulfide]] minerals that must have formed in the presence of water. The discovery shatters the existing paradigm that comets never get warm enough to melt their icy bulk.<ref name=es.20110407/> In the spring of 2014, the recovery of particles of interstellar dust from the Discovery program's Stardust mission was announced.<ref name=nasa_sidp/>
+
+The Stardust samples are currently available for everyone to identify after completing the training at Berkeley webpage.<ref name=berkeley1/>
+
+===Spacecraft location===
+The return capsule is currently located at the [[National Air and Space Museum]] in [[Washington, D.C.]] It began exhibition there on 1 October 2008, the 50th anniversary of the establishment of NASA. The return capsule is displayed in sample collection mode, alongside a sample of the aerogel used to collect samples.<ref name=NASM/>
+
+==Results==
+The comet samples show that the outer regions of the early [[Solar System]] were not isolated and were not a refuge where interstellar materials could commonly survive.<ref name=earth.124203/> The data suggest that high-temperature inner Solar System material formed and was subsequently transferred to the [[Kuiper belt]].<ref name=science.1184741/>
+
+;Glycine
+In 2009 it was announced by [[NASA]] that scientists had identified one of the fundamental chemical building blocks of life in a comet for the first time: [[glycine]], an amino acid, was detected in the material ejected from Comet Wild&nbsp;2 in 2004 and captured by the ''Stardust'' probe. Glycine has been detected in meteorites before and there are also observations in interstellar gas clouds, but the ''Stardust'' find is described as a first in cometary material. Isotope analysis indicates that the [[Late Heavy Bombardment]] included cometary impacts after the Earth coalesced but before life evolved.<ref name=Morbidelli2010/> Carl Pilcher, who leads NASA's Astrobiology Institute commented that "The discovery of glycine in a comet supports the idea that the fundamental building blocks of life are prevalent in space, and strengthens the argument that life in the universe may be common rather than rare."<ref name=bbc1/>
+
+==See also==
+{{Portal|Spaceflight}}
+*[[List of missions to comets]]
+*[[Genesis (spacecraft)|''Genesis'']], sample return from the [[solar wind]]
+*''[[Hayabusa]]'', sample return from an asteroid
+*[[List of uncrewed spacecraft by program]]
+*[[Robotic spacecraft]]
+*[[Space exploration]]
+*[[Space probe]]
+*[[Timeline of artificial satellites and space probes]]
+*[[Timeline of first orbital launches by country]]
+*[[Timeline of Solar System exploration]]
+
+==References==
+{{Reflist|refs=
+
+<ref name="AP-20140814">{{cite news
+| author1= Marcia Dunn
+| title= Specks returned from space may be alien visitors
+| url= http://apnews.excite.com/article/20140814/us-sci--alien_stardust-9d21e5267a.html
+| date= 14 August 2014
+| work= [[AP News]]
+| access-date= 14 August 2014
+| archive-url= https://web.archive.org/web/20140819102935/http://apnews.excite.com/article/20140814/us-sci--alien_stardust-9d21e5267a.html
+| archive-date= 19 August 2014
+| url-status= dead }}</ref>
+
+<ref name="autonav">{{Cite book
+| chapter-url= https://pdfs.semanticscholar.org/6b94/ab810bd8e2b0e0918478c1dcd5a7e1961731.pdf
+| chapter= Autonomous Navigation for Deep Space Missions
+| year= 2012
+| doi= 10.2514/6.2012-1267135
+| s2cid= 53695269
+| archive-url= https://web.archive.org/web/20190813132518/https://pdfs.semanticscholar.org/6b94/ab810bd8e2b0e0918478c1dcd5a7e1961731.pdf
+| archive-date= 13 August 2019
+| author1= Shyam Bhaskaran | title= SpaceOps 2012 Conference
+}}
+</ref>
+
+<ref name="bbc1">{{cite news
+| url= https://news.bbc.co.uk/2/hi/science/nature/8208307.stm
+| title= 'Life chemical' detected in comet
+| work= [[BBC News]]
+| date= 18 August 2009
+| archive-url= https://web.archive.org/web/20250909163350/http://news.bbc.co.uk/2/hi/science/nature/8208307.stm
+| archive-date= 9 September 2025
+| access-date= 15 September 2025
+| url-status= live }}</ref>
+
+<ref name="bbc2">{{cite news
+| title= Probe may have found cosmic dust
+| work= [[BBC News]]
+| date= 5 March 2010
+| url= https://news.bbc.co.uk/2/hi/8550924.stm
+| author= Paul Rincon
+| archive-url= https://web.archive.org/web/20241126222847/http://news.bbc.co.uk/2/hi/8550924.stm
+| archive-date= 26 November 2024
+| access-date= 15 September 2025
+| url-status= live }}</ref>
+
+<ref name="berkeley1">{{Cite web
+| url= http://foils.ssl.berkeley.edu/ss_findingsd.php
+| title= Stardust@Home - Stardust Search Finding Stardust
+| website= foils.ssl.berkeley.edu
+| access-date= 27 August 2021
+| archive-date= 24 October 2021
+| archive-url= https://web.archive.org/web/20211024132243/http://foils.ssl.berkeley.edu/ss_findingsd.php
+| url-status= dead }}
+</ref>
+
+<ref name="Camera">{{cite journal
+| title= Stardust Imaging Camera
+| journal= Journal of Geophysical Research
+| date=14 October 2003
+| author1= R. L. Newburn, Jr.
+| author2= S. Bhaskaran
+| author3= T. C. Duxbury
+| author4= G. Fraschetti
+| author5= T. Radey
+| author6= M. Schwochert
+| volume= 108
+| issue= 8116
+| pages= 8116
+| doi= 10.1029/2003JE002081
+| bibcode= 2003JGRE..108.8116N
+| doi-access= free }}
+</ref>
+
+<ref name="CIDA">{{cite journal
+| title= Cometary and Interstellar Dust Analyzer for comet Wild&nbsp;2
+| journal= Journal of Geophysical Research
+| date= 2003
+| author1= J. Kissel
+| author2= A. Glasmachers
+| author3= E. Grün
+| author4= H. Henkel
+| author5= H. Höfner
+| author6= G. Haerendel
+| author7= H. von Hoerner
+| author8= K. Hornung
+| author9= E. K. Jessberger
+| author10= F. R. Krueger
+| author11= D. Möhlmann
+| author12= J. M. Greenberg
+| author13= Y. Langevin
+| author14= J. Silén
+| author15= D. Brownlee
+| author16= B. C. Clark
+| author17= M. S. Hanner
+| author18= F. Hoerz
+| author19= S. Sandford
+| author20= Z. Sekanina
+| author21= P. Tsou
+| author22= N. G. Utterback
+| author23= M. E. Zolensky
+| author24= C. Heiss
+| display-authors= 9
+| volume= 108
+| issue= E10
+| pages= 8114
+| doi= 10.1029/2003JE002091
+| bibcode= 2003JGRE..108.8114K
+| url= https://zenodo.org/record/894530
+| doi-access= free
+| archive-url= https://web.archive.org/web/20210125221354/https://zenodo.org/record/894530
+| archive-date= 25 January 2021
+| access-date= 12 September 2019
+| url-status= live }}</ref>
+
+<ref name="cnn.20060113">{{cite news
+| title= Spacecraft bringing comet dust back to Earth
+| url= http://www.cnn.com/2006/TECH/space/01/13/stardust/
+| author1= David E. Williams 
+| work= [[CNN]]
+| date= 13 January 2006
+| url-status= live
+| archive-date= 27 January 2006
+| archive-url= https://web.archive.org/web/20060127200153/http://www.cnn.com/2006/TECH/space/01/13/stardust/ }}
+</ref>
+
+<ref name="cnn_20110215">{{cite news
+| author1= Kimberly Segal
+| author2= John Zarrella
+| url= http://www.cnn.com/2011/US/02/15/space.comet/
+| work= [[CNN]]
+| title= Crater on comet 'partly healed itself'
+| date= 16 February 2011
+| url-status= live
+| archive-date= 25 March 2014
+| archive-url= https://web.archive.org/web/20140325214339/http://www.cnn.com/2011/US/02/15/space.comet/ }}
+</ref>
+
+<ref name="coordinates">{{cite web
+| title= NASA's Comet Tale Draws to a Successful Close in Utah Desert
+| url= http://stardust.jpl.nasa.gov/news/status/060115.html
+| work= [[NASA]]
+| access-date= 4 March 2008
+| archive-url= https://web.archive.org/web/20131028030318/http://stardust.jpl.nasa.gov/news/status/060115.html
+| archive-date= 28 October 2013
+| url-status= live }}</ref>
+
+<ref name="DFMI">{{cite journal
+| title= Dust Flux Monitor Instrument for the ''Stardust'' mission to comet Wild&nbsp;2
+| journal= Journal of Geophysical Research
+| date= 2003
+| author= A. J. Tuzzolino
+| volume= 108
+| issue= E10
+| pages= 8115
+| article-number= 2003JE002086
+| doi= 10.1029/2003JE002086
+| bibcode= 2003JGRE..108.8115T
+| doi-access= }}
+</ref>
+
+<ref name="DSE">{{cite journal
+| title= Dynamic science on the Stardust mission
+| journal= Journal of Geophysical Research
+| author1= John D. Anderson
+| author2= Eunice L. Lau
+| author3= Michael K. Bird
+| author4= Benton C. Clark
+| author5= Giacomo Giampieri
+| author6= Martin Patzold
+| volume= 108
+| issue= E10
+| pages= 8117
+| doi= 10.1029/2003JE002092
+| bibcode= 2003JGRE..108.8117A
+| year= 2003
+| s2cid= 14492615
+| doi-access= free }}
+</ref>
+
+<ref name="earth.124203">{{cite journal
+| author1= Don Brownlee
+| title= The Stardust Mission: Analyzing Samples from the Edge of the Solar System
+| journal= Annual Review of Earth and Planetary Sciences
+| date= 5 February 2014
+| doi= 10.1146/annurev-earth-050212-124203
+| volume= 42
+| issue= 1
+| pages= 179–205
+| bibcode= 2014AREPS..42..179B }}
+</ref>
+
+<ref name="es.20110407">{{cite web
+| author1= Cecile LeBlanc
+| title= Evidence for liquid water on the surface of Comet Wild&nbsp;2
+| url= http://earthsky.org/space/evidence-for-liquid-water-on-the-surface-of-comet-wild-2
+| date= 7 April 2011
+| website= earthsky.org
+| access-date= 7 April 2011
+| archive-url= https://web.archive.org/web/20110512154305/http://earthsky.org/space/evidence-for-liquid-water-on-the-surface-of-comet-wild-2
+| archive-date= 12 May 2011
+| url-status= live }}</ref>
+
+<ref name="esp.stardust">{{cite web 
+| title= Stardust
+| url= http://www.extrasolar-planets.com/astronautics/stardust.html 
+| website= www.extrasolar-planets.com
+| publisher= Extrasolar-Planets
+| archive-url= https://web.archive.org/web/20090828050328/http://www.extrasolar-planets.com/astronautics/stardust.html
+| archive-date= 28 August 2009
+| url-status= dead }}
+</ref>
+
+<ref name="Farnham2010">{{cite journal
+| url= https://pds.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=SDU-C-SRC-2-TEMPS-V1.0
+| title= Stardust SRC Temperature Data V1.0
+| publisher= [[NASA]]
+| journal= [[Planetary Data System]]
+| author1= T. L. Farnham
+| author2= B. Semenov
+| date= January 2010
+| volume= 8187
+| bibcode= 2010PDSS.8187E....F
+| archive-url= https://web.archive.org/web/20190919175526/https://pds.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=SDU-C-SRC-2-TEMPS-V1.0
+| archive-date= 19 September 2019
+| access-date= 21 January 2018
+| url-status= live }}</ref>
+
+<ref name="Gasner2003">{{cite conference 
+| url= https://www.researchgate.net/publication/224749036
+| title= The Stardust solar array
+| conference= 3rd World Conference on Photovoltaic Energy Conversion. 11–18 May 2003. Osaka, Japan. 
+| author1= Steve Gasner
+| author2= Khaled Sharmit
+| author3= Paul Stella
+| author4= Calvin Craig
+| author5= Susan Mumaw
+| date= 2003 }}
+</ref>
+
+<ref name="hc01">{{cite web
+| author1= Mark Carreau
+| title= Stardust's Cargo Comes to Houston under Veil of Secrecy
+| url= http://www.chron.com/disp/story.mpl/front/3593677.html
+| website= www.chron.com
+| access-date= 4 March 2008
+| date= 17 January 2006
+| archive-url= https://web.archive.org/web/20071016220948/http://chron.com/disp/story.mpl/front/3593677.html
+| archive-date= 16 October 2007
+| url-status= live }}</ref>
+
+<ref name="info-next">{{cite web
+| url= https://pds.nasa.gov/ds-view/pds/viewMissionProfile.jsp?MISSION_NAME=NEXT
+| title= Mission Information: NExT
+| work= [[Planetary Data System]]
+| access-date= 20 January 2018
+| archive-url= https://web.archive.org/web/20221204083908/https://pds.nasa.gov/ds-view/pds/viewMissionProfile.jsp?MISSION_NAME=NEXT
+| archive-date= 4 December 2022
+| url-status= live }}</ref>
+
+<ref name="info-stardust">{{cite web
+| url= https://pds.nasa.gov/ds-view/pds/viewMissionProfile.jsp?MISSION_NAME=STARDUST
+| title= Mission Information: Stardust
+| work= [[Planetary Data System]]
+| access-date= 20 January 2018
+| archive-url= https://web.archive.org/web/20220605210005/https://pds.nasa.gov/ds-view/pds/viewMissionProfile.jsp?MISSION_NAME=STARDUST
+| archive-date= 5 June 2022
+| url-status= live }}</ref>
+
+<ref name="LaunchPressKit">{{cite web 
+| url= https://www.jpl.nasa.gov/news/press_kits/stardust.pdf
+| title= Stardust Launch
+| website= jpl.nasa.gov
+| publisher= [[NASA]]
+| type= Press Kit
+| date= February 1999
+| archive-url= https://web.archive.org/web/20011116222435/http://www.jpl.nasa.gov/news/press_kits/stardust.pdf
+| archive-date= 16 November 2001
+| url-status= live }}
+</ref>
+
+<ref name="lpsc2010.2050">{{cite conference
+| title= Analysis of "Midnight" Tracks in the Stardust Interstellar Dust Collector: Possible Discovery of a Contemporary Interstellar Dust Grain
+| publisher= 41st Lunar and Planetary Science Conference
+| url= http://www.lpi.usra.edu/meetings/lpsc2010/pdf/2050.pdf
+| author1= A. J. Westphal
+| author2= C. Allen
+| author3= S. Bajt
+| author4= R. Bastien
+| author5= H. Bechtel
+| author6= P. Bleuet
+| author7= J. Borg
+| author8= F. Brenker
+| author9= J. Bridges
+| author10= D. E. Brownlee
+| author11= M. Burchell
+| author12= M. Burghammer
+| author13= A. L. Butterworth
+| author14= P. Cloetens
+| author15= G. Cody
+| author16= T. Ferroir
+| author17= C. Floss
+| author18= G. J. Flynn
+| author19= D. Frank
+| author20= Z. Gainsforth
+| author21= E. Grün
+| author22= P. Hoppe
+| author23= B. Hudson
+| author24= A. Kearsley
+| author25= B. Lai
+| author26= L. Lemelle
+| author27= H. Leroux
+| author28= R. Lettieri
+| author29= W. Marchant
+| author30= A. Nanz
+| author31= L. R. Nittler
+| author32= R. Ogliore
+| author33= F. Postberg
+| author34= S. A. Sandford
+| author35= S. Schmitz
+| author36= G. Silversmit
+| author37= A. Simionovici
+| author38= R. Srama
+| author39= F. Stadermann
+| author40= T. Stephan
+| author41= R. M. Stroud
+| author42= J. Susini
+| author43= S. Sutton
+| author44= R. Toucoulou
+| author45= M. Trieloff
+| author46= P. Tsou
+| author47= A. Tsuchiyama
+| author48= T. Tyliczszak
+| author49= B. Vekemans
+| author50= L. Vincze
+| author51= J. Warren
+| author52= S. Wagner
+| author53= D. Zevin
+| author54= M. E. Zolensky
+| author55= Stardust@Home Dusters
+| display-authors= 9
+| archive-url= https://web.archive.org/web/20110605045430/http://www.lpi.usra.edu/meetings/lpsc2010/pdf/2050.pdf
+| archive-date= 5 June 2011
+| access-date= 18 March 2010
+| url-status= live }}</ref>
+
+<ref name="Morbidelli2010">{{cite journal
+| title= Source regions and timescales for the delivery of water to the Earth | journal= Meteoritics & Planetary Science
+| date= February 2010
+| author1= A. Morbidelli
+| author2= J. Chambers
+| author3= Jonathan I. Lunine
+| author4= J. M. Petit
+| author5= F. Robert
+| author6= G. B. Valsecchi
+| author7= K. E. Cyr
+| volume= 35
+| issue= 6
+| pages= 1309–1320
+| doi= 10.1111/j.1945-5100.2000.tb01518.x
+| bibcode= 2000M&PS...35.1309M
+| doi-access= free }}
+</ref>
+
+<ref name="msnbc20060118">{{cite news
+| author1= James Oberg
+| title= Scientists overjoyed with comet samples 
+| url= http://www.nbcnews.com/id/10909782/ns/technology_and_science-space/t/scientists-overjoyed-comet-samples/
+| archive-url= https://web.archive.org/web/20140807082301/http://www.nbcnews.com/id/10909782/ns/technology_and_science-space/t/scientists-overjoyed-comet-samples/
+| url-status= dead
+| archive-date= 7 August 2014
+| work= [[MSNBC]]
+| date= 18 January 2006
+| access-date= 1 June 2018 }}
+</ref>
+
+<ref name="nasa.010111">{{cite web 
+| url= http://stardust.jpl.nasa.gov/news/status/010111.html
+| title= Stardust can see clearly now – just before Earth flyby
+| website= stardust.jpl.nasa.gov
+| publisher= [[NASA]]
+| author1= Donald Savage
+| author2= Martha J. Heil
+| date= 11 January 2001
+| archive-url= https://web.archive.org/web/20010129033500/http://stardust.jpl.nasa.gov/news/status/010111.html
+| archive-date= 29 January 2001
+| url-status= live }}
+</ref>
+
+<ref name="nasa20110214">{{cite web 
+| url= https://www.nasa.gov/mission_pages/stardust/news/stardust20110214c.html 
+| title= NASA's Stardust Spacecraft Completes Comet Flyby |publisher=NASA 
+| editor= Tony Greicius
+| date= 14 February 2011
+| access-date= 20 January 2018
+| archive-date= 4 June 2017
+| archive-url= https://web.archive.org/web/20170604231915/https://www.nasa.gov/mission_pages/stardust/news/stardust20110214c.html
+| url-status= dead }}
+</ref>
+
+<ref name="nasa20110323">{{cite web 
+| url= https://www.nasa.gov/mission_pages/stardust/news/stardust20110323.html 
+| title= NASA's Stardust: Good to the Last Drop
+| website= nasa.gov
+| publisher= [[NASA]]
+| date= 23 March 2011
+| access-date= 20 January 2018
+| archive-date= 27 April 2011
+| archive-url= https://web.archive.org/web/20110427065411/https://www.nasa.gov/mission_pages/stardust/news/stardust20110323.html
+| url-status= dead }}
+</ref>
+
+<ref name="nasa20110325">{{cite web 
+| url= http://www.nasa.gov/mission_pages/stardust/news/stardust20110325.html 
+| title= NASA Stardust Spacecraft Officially Ends Operations
+| website= nasa.gov
+| publisher= [[NASA]]
+| author1= D. C. Agle
+| author2= Dwayne Brown 
+| date= 25 March 2011
+| access-date= 16 January 2016
+| archive-date= 10 April 2016
+| archive-url= https://web.archive.org/web/20160410163908/http://www.nasa.gov/mission_pages/stardust/news/stardust20110325.html
+| url-status= dead }}
+</ref>
+
+<ref name="NASA-20140814">{{cite web
+| author1= D. C. Agle
+| author2= Dwayne Brown
+| author3= William Jeffs
+| title= Stardust Discovers Potential Interstellar Space Particles
+| url= http://www.jpl.nasa.gov/news/news.php?release=2014-278
+| date= 14 August 2014
+| work= [[NASA]]
+| access-date= 14 August 2014
+| archive-url= https://web.archive.org/web/20150926115121/http://www.jpl.nasa.gov/news/news.php?release=2014-278
+| archive-date= 26 September 2015
+| url-status= live }}</ref>
+
+<ref name="nasa_gallery">{{cite web
+| url= http://www.nasa.gov/mission_pages/stardust/multimedia/gallery-index.html
+| website= nasa.gov
+| publisher= [[NASA]]
+| title= Stardust: Image Gallery
+| url-status= live
+| archive-date= 17 February 2011
+| archive-url= https://web.archive.org/web/20110217153142/http://www.nasa.gov/mission_pages/stardust/multimedia/gallery-index.html }}
+</ref>
+
+<ref name="nasa_life">{{cite web
+| title= Comets & The Question of Life 
+| url= http://stardust.jpl.nasa.gov/science/life.html
+| work= [[NASA]]
+| archive-url= https://web.archive.org/web/20010429171432/http://stardust.jpl.nasa.gov/science/life.html
+| archive-date= 29 April 2001
+| url-status= dead }}
+</ref>
+
+<ref name="nasa_sidp">{{cite web 
+| url= http://curator.jsc.nasa.gov/stardust/Interstellardust.cfm
+| title= Stardust Interstellar Dust Particles
+| work= [[Johnson Space Center]]
+| date= 13 March 2014
+| url-status= live
+| archive-date= 14 July 2007
+| archive-url= https://web.archive.org/web/20070714055214/http://curator.jsc.nasa.gov/stardust/Interstellardust.cfm }}
+</ref>
+
+<ref name="nasa_ssc">{{Cite web
+| title= Stardust Sample Collection
+| url= https://curator.jsc.nasa.gov/stardust/samplecollection.cfm
+| work= [[Johnson Space Center]] }}
+</ref>
+
+<ref name="NASM">{{Cite web
+| url= https://airandspace.si.edu/multimedia-gallery/2008-13195hjpg
+| title= Stardust Return Capsule
+| website= airandspace.si.edu
+| date= 27 October 2017
+| publisher= [[National Air and Space Museum]]
+| access-date= 3 January 2018
+| archive-url= https://web.archive.org/web/20180104013633/https://airandspace.si.edu/multimedia-gallery/2008-13195hjpg
+| archive-date= 4 January 2018
+| url-status= live }}</ref>
+
+<ref name="newsci20060115">{{cite news
+| url= https://www.newscientist.com/article/dn8586-pinch-of-comet-dust-lands-safely-on-earth/
+| title= Pinch of comet dust lands safely on Earth
+| work= New Scientist
+| author1= Hazel Muir
+| date= 15 January 2006
+| access-date= 20 January 2018
+| archive-url= https://web.archive.org/web/20180121184644/https://www.newscientist.com/article/dn8586-pinch-of-comet-dust-lands-safely-on-earth/
+| archive-date= 21 January 2018
+| url-status= live }}</ref>
+
+<ref name="NeXT">{{cite web
+| url= http://www.nasa.gov/mission_pages/stardust/news/stardust20110210.html 
+| title= Stardust/NExT – Five Things About NASA's Valentine's Day Comet
+| website= nasa.gov
+| publisher= [[NASA]]
+| date= 10 February 2011
+| access-date= 12 February 2011
+| archive-date= 18 June 2017
+| archive-url= https://web.archive.org/web/20170618051101/https://www.nasa.gov/mission_pages/stardust/news/stardust20110210.html
+| url-status= dead }}
+</ref>
+
+<ref name="NExTPressKit">{{cite web
+| url= https://www.jpl.nasa.gov/news/press_kits/Stardust-NExT-PressKit.pdf 
+| title= Stardust-NExT
+| publisher= [[NASA]]
+| type= Press Kit
+| date= February 2011
+| archive-url= https://web.archive.org/web/20110627025413/http://www.jpl.nasa.gov/news/press_kits/Stardust-NExT-PressKit.pdf
+| archive-date= 27 June 2011
+| url-status= live }}
+</ref>
+
+<ref name="notts.479V">{{cite journal
+| title= The building blocks of planets within the 'terrestrial' region of protoplanetary disks 
+| journal= [[Nature (journal)|Nature]]
+| volume= 432
+| issue= 7016
+| pages= 479–82
+| bibcode= 2004Natur.432..479V
+| author1= R. Van Boekel
+| author2= M. Min
+| author3= Ch. Leinert
+| author4= L. B. F. M. Waters
+| author5= A. Richichi
+| author6= O. Chesneau
+| author7= C. Dominik
+| author8= W. Jaffe
+| author9= A. Dutrey
+| author10= U. Graser
+| author11= Th. Henning
+| author12= J. De Jong
+| author13= R. Köhler
+| author14= A. De Koter
+| author15= B. Lopez
+| author16= F. Malbet
+| author17= S. Morel
+| author18= F. Paresce
+| author19= G. Perrin
+| author20= Th. Preibisch
+| author21= F. Przygodda
+| author22= M. Schöller
+| author23= M. Wittkowski
+| display-authors= 9
+| year= 2004
+| doi= 10.1038/nature03088
+| pmid= 15565147
+| s2cid= 4362887 }}
+</ref>
+
+<ref name="nssdc-003a">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1999-003A
+| title= Stardust/NExT
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 20 January 2018
+| archive-url= https://web.archive.org/web/20190414155955/https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1999-003A
+| archive-date= 14 April 2019
+| url-status= live }}</ref>
+
+<ref name="NSSDCCIDA">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003A-02
+| title= Stardust: Cometary and Interstellar Dust Analyzer (CIDA)
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]] 
+| access-date= 19 February 2011 }}
+</ref>
+
+<ref name="NSSDCDFMI">{{cite web 
+| url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003A-03
+| title= Stardust: Dust Flux Monitor Instrument (DFMI)
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 19 February 2011 }}
+</ref>
+
+<ref name="NSSDCDSE">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003A-04
+| title= Stardust: Dynamic Science
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 19 February 2011
+| archive-url= https://web.archive.org/web/20191215123124/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003A-04
+| archive-date= 15 December 2019
+| url-status= live }}</ref>
+
+<ref name="NSSDCNC">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003A-01
+| title= Stardust: Imaging and Navigation Camera
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 19 February 2011
+| archive-url= https://web.archive.org/web/20191206085702/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003A-01
+| archive-date= 6 December 2019
+| url-status= live }}</ref>
+
+<ref name="NSSDCSSC">{{cite web
+| url= https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003D-01
+| title= Stardust Sample Collection
+| website= nssdc.gsfc.nasa.gov
+| publisher= [[NASA]]
+| access-date= 19 February 2011
+| archive-url= https://web.archive.org/web/20191211142424/https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-003D-01
+| archive-date= 11 December 2019
+| url-status= live }}</ref>
+
+<ref name="pds.inst.sdu">{{cite web
+| url= https://pds.nasa.gov/ds-view/pds/viewHostProfile.jsp?INSTRUMENT_HOST_ID=SDU
+| title= Instrument Host Information: Stardust
+| publisher= [[NASA]]
+| work= [[Planetary Data System]]
+| access-date= 20 January 2018
+| archive-url= https://web.archive.org/web/20221204083002/https://pds.nasa.gov/ds-view/pds/viewHostProfile.jsp?INSTRUMENT_HOST_ID=SDU
+| archive-date= 4 December 2022
+| url-status= live }}</ref>
+
+<ref name="phys.org1">{{Cite web
+| author1= Aaron L. Gronstal
+| url= http://phys.org/news/2014-04-samples-solar-birth.html
+| title= Seven samples from the solar system's birth
+| website= phys.org
+| date= 28 April 2014
+| access-date= 30 April 2014
+| archive-url= https://web.archive.org/web/20140502003654/http://phys.org/news/2014-04-samples-solar-birth.html
+| archive-date= 2 May 2014
+| url-status= live }}</ref>
+
+<ref name="ReVelle2007">{{cite journal
+| author1= D. O. ReVelle
+| author2= W. N. Edwards
+| date= 2007
+| title= Stardust – An artificial, low-velocity "meteor" fall and recovery: 15&nbsp;January 2006
+| doi= 10.1111/j.1945-5100.2007.tb00232.x
+| volume= 42
+| issue= 2 
+| journal= Meteoritics & Planetary Science
+| pages= 271–299
+| bibcode= 2007M&PS...42..271R
+| doi-access= free }}
+</ref>
+
+<ref name="route">{{cite news
+| title= NASA Spacecraft Returns With Comet Samples After 2.9&nbsp;Bln Miles 
+| author1= Chris Dolmetsch
+| work= [[Bloomberg News]]
+| url= https://www.bloomberg.com/apps/news?pid=10000103&sid=argumCeZP_Zc 
+| date= 15 January 2006
+| url-status= dead
+| archive-date= 28 March 2014
+| archive-url= https://web.archive.org/web/20140328121046/http://www.bloomberg.com/apps/news?pid=newsarchive&sid=argumCeZP_Zc }}
+</ref>
+
+<ref name="SCI-20140814">{{cite journal
+| author1= Eric Hand
+| title= Seven grains of interstellar dust reveal their secrets
+| url= https://www.science.org/content/article/seven-grains-interstellar-dust-reveal-their-secrets
+| date= 14 August 2014
+| journal= [[Science (journal)|Science]]
+| access-date= 14 August 2014
+| archive-url= https://web.archive.org/web/20211116144634/https://www.science.org/content/article/seven-grains-interstellar-dust-reveal-their-secrets
+| archive-date= 16 November 2021
+| url-status= live }}</ref>
+
+><ref name="SCI-20140815">{{Cite journal
+ |doi             = 10.1126/science.1252496
+ |title           = Evidence for interstellar origin of seven dust particles collected by the Stardust spacecraft
+ |journal         = [[Science (journal)|Science]]
+ |volume          = 345
+ |issue           = 6198
+ |pages           = 786–791
+ |year            = 2014
+ |author1         = A. J. Westphal
+ |author2         = R. M. Stroud
+ |author3         = H. A. Bechtel
+ |author4         = F. E. Brenker
+ |author5         = A. L. Butterworth
+ |author6         = G. J. Flynn
+ |author7         = D. R. Frank
+ |author8         = Z. Gainsforth
+ |author9         = J. K. Hillier
+ |author10        = F. Postberg
+ |author11        = A. S. Simionovici
+ |author12        = V. J. Sterken
+ |author13        = L. R. Nittler
+ |author14        = C. Allen
+ |author15        = D. Anderson
+ |author16        = A. Ansari
+ |author17        = S. Bajt
+ |author18        = R. K. Bastien
+ |author19        = N. Bassim
+ |author20        = J. Bridges
+ |author21        = D. E. Brownlee
+ |author22        = M. Burchell
+ |author23        = M. Burghammer
+ |author24        = H. Changela
+ |author25        = P. Cloetens
+ |author26        = A. M. Davis
+ |author27        = R. Doll
+ |author28        = C. Floss
+ |author29        = E. Grun
+ |author30        = P. R. Heck
+ |display-authors = 9
+ |pmid            = 25124433
+ |bibcode         = 2014Sci...345..786W
+ |url             = http://bib-pubdb1.desy.de/record/207250/files/Science-2014-Westphal-786-91.pdf
+ |hdl             = 2381/32470
+ |s2cid           = 206556225
+ |hdl-access      = free
+ |archive-url     = https://web.archive.org/web/20251215091159/http://bib-pubdb1.desy.de/record/207250/files/Science-2014-Westphal-786-91.pdf
+ |archive-date    = 15 December 2025
+ |access-date     = 20 April 2018
+ |url-status      = live }}</ref>
+
+<ref name="science.1184741">{{cite journal
+| author1= Jennifer E. P. Matzel
+| title= Constraints on the Formation Age of Cometary Material from the NASA Stardust Mission
+| journal= [[Science (journal)|Science]]
+| date= 23 April 2010
+| volume= 328
+| issue= 5977
+| pages= 483–486
+| doi= 10.1126/science.1184741
+| pmid= 20185683
+| bibcode= 2010Sci...328..483M
+| osti= 980892
+| s2cid= 206524630 }}
+</ref>
+
+<ref name="SLIT">{{cite web
+| author1=Michael W. Winter
+| author2= Kerry A. Trumble
+| date= 2010 
+| url= https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100021412_2010023272.pdf
+| title= Spectroscopic Observation of the Stardust Re-Entry in the Near&nbsp;UV with SLIT: Deduction of Surface Temperatures and Plasma Radiation
+| work= [[NASA]] }}
+</ref>
+
+<ref name="SSC">{{cite journal
+| title= Wild&nbsp;2 and interstellar sample collection and Earth return 
+| journal= Journal of Geophysical Research
+| date= 2003
+| author1= P. Tsou
+| author2= D. E. Brownlee
+| author3= S. A. Sandford
+| author4= F. Horz
+| author5= M. E. Zolensky
+| volume= 108
+| issue= E10
+| pages= 8113
+| doi= 10.1029/2003JE002109 
+| bibcode= 2003JGRE..108.8113T
+| doi-access= free }}
+</ref>
+
+<ref name="Stardust">{{cite web
+| url= https://solarsystem.nasa.gov/missions/stardust/in-depth/
+| title= Stardust
+| website= solarsystem.nasa.gov
+| date= 22 December 2017
+| publisher= [[NASA]]
+| access-date= 2 December 2022
+| archive-url= https://web.archive.org/web/20221202152000/https://solarsystem.nasa.gov/missions/stardust/in-depth/
+| archive-date= 2 December 2022
+| url-status= live }}</ref>
+
+<ref name="stardust_hib">{{cite web
+| author1= Alicia Chang
+| title= Stardust Put In Hibernation Mode 
+| url= http://www.space.com/missionlaunches/060131_ap_stardust_hibernate.html 
+| website= Space.com
+| url-status= dead
+| archive-date= 31 January 2006
+| archive-url= https://web.archive.org/web/20060131194041/http://www.space.com/missionlaunches/060131_ap_stardust_hibernate.html }}
+</ref>
+
+<ref name="stardust-return">{{cite web 
+| url= https://www.jpl.nasa.gov/news/press_kits/stardust-return.pdf
+| title= Stardust Sample Return
+| type= Press Kit
+| website= jpl.nasa.gov
+| publisher= [[NASA]]
+| date= January 2006 }}
+</ref>
+
+<ref name="Stardust:Spacecraft">{{cite web
+| url= http://stardust.jpl.nasa.gov/mission/spacecraft.html
+| title= Stardust Flight System Description
+| website= stardust.jpl.nasa.gov
+| publisher= [[NASA]]
+| access-date= 14 February 2011
+| archive-url= https://web.archive.org/web/20101118155849/http://stardust.jpl.nasa.gov/mission/spacecraft.html
+| archive-date= 18 November 2010
+| url-status= live }}</ref>
+
+<ref name="Tempel1Timeline">{{cite press release
+| website= nasa.gov
+| publisher= [[NASA]]
+| date= 14 February 2011
+| title= Stardust: Mission Timeline
+| url= http://www.nasa.gov/mission_pages/stardust/timeline/
+| access-date= 19 February 2011
+| archive-date= 15 April 2015
+| archive-url= https://web.archive.org/web/20150415081406/http://www.nasa.gov/mission_pages/stardust/timeline/
+| url-status= dead }}
+</ref>
+
+<ref name="youtube1">{{YouTube
+| id= KT6ci6PH0jk
+| title= Stardust Reentry Simulation }}
+
+''Data in the simulation agrees with readings by the airborne observation team monitoring the reentry, available at Archived at [https://ghostarchive.org/varchive/youtube/20211211/YmUY9091HAc Ghostarchive]{{cbignore}} and the [https://web.archive.org/web/20140815061326/http://www.youtube.com/watch?v=YmUY9091HAc Wayback Machine]''{{cbignore}}:
+
+{{YouTube
+| id=YmUY9091HAc
+| title=Stardust Capsule Reentry }} {{cbignore}}
+</ref>
+
+}}
+
+==External links==
+{{Commons category}}
+*[https://www.nasa.gov/stardust ''Stardust'' website] at NASA.gov
+*[https://stardust.jpl.nasa.gov ''Stardust'' website] by NASA's Jet Propulsion Laboratory
+*[https://web.archive.org/web/20090120211956/http://stardustnext.jpl.nasa.gov/ ''Stardust-NExT'' website] by NASA's Jet Propulsion Laboratory
+* [https://pdssbn.astro.umd.edu/data_sb/missions/stardust/index.shtml ''Stardust'' Mission Archive] at the NASA Planetary Data System, Small Bodies Node
+* [https://pdssbn.astro.umd.edu/data_sb/missions/stardustnext/index.shtml ''Stardust-NExT'' Mission Archive] at the NASA Planetary Data System, Small Bodies Node
+
+{{Planetary Missions Program Office|Discovery=y}}
+{{Asteroid spacecraft}}
+{{Planetary defense}}
+{{Jet Propulsion Laboratory}}
+{{Solar System probes}}
+{{Orbital launches in 1999}}
+
+{{Use dmy dates|date=January 2018}}
+
+[[Category:NASA space probes]]
+[[Category:Missions to comets]]
+[[Category:Discovery Program]]
+[[Category:Derelict satellites in heliocentric orbit]]
+[[Category:Sample return missions]]
+[[Category:Spacecraft launched in 1999]]
+[[Category:Spacecraft launched by Delta II rockets]]
+[[Category:Missions to main-belt asteroids]]
+[[Category:Derelict space probes]]
+[[Category:Spacecraft decommissioned in 2011]]
+[[Category:Earth flybys]]
+[[Category:Jet Propulsion Laboratory space probes]]

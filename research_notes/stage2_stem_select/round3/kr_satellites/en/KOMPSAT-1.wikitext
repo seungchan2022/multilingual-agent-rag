@@ -1,0 +1,85 @@
+{{Short description|1999–2008 South Korean satellite}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=March 2021}}
+{{Infobox spaceflight
+| name              = KOMPSAT-1
+| names_list        = Korean Multi-purpose Satellite-1<br/>Arirang-1
+| image             = G SA KOMPS-1 01.jpg
+| image_caption     = 
+| image_size        = 300px
+
+| mission_type      = [[Earth observation satellite|Earth observation]]
+| operator          = [[Korea Aerospace Research Institute]]
+| COSPAR_ID         = 1999-070A
+| SATCAT            = 26032
+| website           = 
+| mission_duration  = 3 years (planned)<br/>8 years (achieved)
+
+| spacecraft_type   = [[KOMPSAT]]
+| spacecraft_bus    = [[Total Ozone Mapping Spectrometer|TOMS-EP]]<ref name="ESA1"/>
+| manufacturer      = [[Korea Aerospace Industries]]<br/>[[Korea Aerospace Research Institute]]<br/>[[TRW Inc.|TRW]] (bus)
+| launch_mass       = {{cvt|470|kg}}
+| dimensions        = {{cvt|1.33|m}} in diameter<br/>{{cvt|2.33|m}} in length
+| power             = 636 [[watt]]s
+
+| launch_date       = 21 December 1999, 07:13 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[Minotaur-C|Taurus 2110]]
+| launch_site       = [[Vandenberg Space Force Base|Vandenberg]], [[Vandenberg Launch Complex 576|LC-576E]]
+| launch_contractor = [[Northrop Grumman|Orbital Sciences Corporation]]
+
+| last_contact      = 30 December 2007
+| deactivated       = 31 January 2008
+
+| orbit_reference   = [[Geocentric orbit]]<ref name="Trajectory">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=1999-070A|title=Trajectory: KOMPSAT 1999-070A |publisher=NASA|date=10 February 2021|access-date=1 March 2021}} {{PD-notice}}</ref>
+| orbit_regime      = [[Sun-synchronous orbit]]
+| orbit_altitude    = {{cvt|685|km}}
+| orbit_inclination = 98.13°
+| orbit_period      = 98.46 minutes
+| apsis             = gee
+
+| instruments       = Electro-Optical Camera (EOC)<br/>High Energy Particles Detector (HEPD)<br/>Ionospheric Measurement Sensor (IMS)
+
+| programme         = '''KOMPSAT programme'''
+| previous_mission  = 
+| next_mission      = [[KOMPSAT-2]]
+}}
+
+'''KOMPSAT-1''' ('''Korean Multi-purpose Satellite-1'''), also known as '''Arirang-1''',<ref name="Gunter">{{cite web|url=https://space.skyrocket.de/doc_sdat/kompsat-1.htm|title=KOMPSAT 1 (Arirang 1) |publisher=Gunter's Space Page|date=7 July 2020|access-date=3 March 2021}}</ref> was a [[satellite]] created by the [[Korea Aerospace Industries]] (KAI) and [[Korea Aerospace Research Institute]] (KARI), and launched by a United States [[launch vehicle]] on 21 December 1999. This was the first satellite built primarily by South Korean engineers, although previous foreign-built satellites had been launched by Korean companies. It took its name from the popular Korean folk song [[Arirang]].
+
+== Instruments ==
+It carried an Electro-Optical Camera (EOC) able to distinguish objects with a diameter of {{cvt|6.6|m}} with a footprint of 17&nbsp;km. The satellite carried [[remote sensing]] instruments for providing digital cartography of [[Korea]], and status of [[marine biology]]. Also included was the Ionospheric Measurement Sensor (IMS) to monitor [[Ionosphere|ionospheric]] parameters along the satellite orbit and the High Energy Particles Detector (HEPD).<ref name="Display">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1999-070A|title=Display: KOMPSAT 1999-070A|publisher=NASA|date=10 February 2021|access-date=3 March 2021}} {{PD-notice}}</ref>
+
+=== High Energy Particle Detector (HEPD) ===
+The High Energy Particle Detector (HEPD) instrument consists of a [[Proton]] and [[Electron]] [[Spectrometer]] (PES), a Linear Energy transfer Spectrometer (LET), a Total Dose Monitor (TDM), and a Single Event Monitor (SEM), PES measures protons from 6.4 [[Electronvolt|MeV]] to 38 MeV in 3 energy channels, electrons from 0.25 MeV to <2.0 MeV in 3 energy channels, and [[alpha particle]]s from 15 MeV to 60 MeV in an energy channel. LET measures linear energy transfer. TDM measures total ionizing dose of [[radiation]] accumulated on RADFET [[dosimeter]]s. SEM measures single event upset (SEU).<ref name="Experiment2">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-070A-02|title=HEPD: KOMPSAT 1999-070A|publisher=NASA|date=10 February 2021|access-date=3 March 2021}} {{PD-notice}}</ref>
+
+=== Ionospheric Measurement Sensor (IMS) ===
+The Ionospheric Measurement Sensor (IMS) is composed of a [[Langmuir probe]] (LP) and of the Electron Temperature Probe (ETP) developed by K. Oyama ([[Institute of Space and Astronautical Science]] (ISAS), Japan). LP measures the in-situ electron temperature and density and ETP measures the in-situ electron temperature and floating potential. The instrument monitored the variation of the nighttime ionosphere along the satellite track until the unexpected power failure of the probes on 2 August 2001.<ref name="Experiment1">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-070A-01|title=IMS: KOMPSAT 1999-070A|publisher=NASA|date=21 October 2021|access-date=22 October 2021}} {{PD-notice}}</ref>
+
+== Launch ==
+The satellite was launched from [[Vandenberg Space Force Base|Vandenberg Air Force Base]] in [[California]] on a [[Minotaur-C|Taurus 2110]]. It had been built in [[Daedeok Innopolis|Daedeok Science Town]] in [[Daejeon]], [[South Korea]]. The parts were shipped in three stages from Korea to California by First Express International, a Korean shipping firm.<ref>{{cite web |url=http://www.firstexp.co.kr/html/english/news_e.htm|title=First Express International|access-date=2007-07-30|archive-url=https://archive.today/2013.11.12-163105/http://web.archive.org/web/20071007100723/http://www.firstexp.co.kr/html/english/news_e.htm |publisher=First Express|archive-date=2013-11-12|url-status=dead}}</ref>
+
+The KOMPSAT-1 was succeeded by the [[KOMPSAT-2]] in 2006.
+
+== Mission ==
+On 30 December 2007, the KARI reported that they had lost contact with the satellite.<ref name="ESA1">{{cite web|url=https://directory.eoportal.org/web/eoportal/satellite-missions/k/kompsat-1|title=KOMPSAT-1 |publisher=ESA eoPortal Directory|date=2021|access-date=22 October 2021}}</ref> It is suspected to have had a malfunction that has affected power generation. After the loss of contact with the satellite, the mission was formally ended 31 January 2008.<ref name="ESA1"/>
+
+== References ==
+{{Portal|Spaceflight}}
+{{Reflist|30em}}
+
+== External links ==
+{{commons category|KOMPSAT-1}}
+
+* [http://times.hankooki.com/lpage/tech/200507/kt2005072519425011780.htm Profile of Korean space program by The Korea Times] {{Webarchive|url=https://web.archive.org/web/20070310222324/http://times.hankooki.com/lpage/tech/200507/kt2005072519425011780.htm |date=10 March 2007 }}
+
+{{South Korean Space Program}}
+{{KAI aircraft}}
+{{Orbital launches in 1999}}
+{{Authority control}}
+
+[[Category:Satellites orbiting Earth]]
+[[Category:Korea Aerospace Industries spacecraft]]
+[[Category:Spacecraft launched in 1999]]
+[[Category:Spacecraft launched by Minotaur rockets]]
+[[Category:Korea Aerospace Research Institute]]
+[[Category:KOMPSAT satellites]]

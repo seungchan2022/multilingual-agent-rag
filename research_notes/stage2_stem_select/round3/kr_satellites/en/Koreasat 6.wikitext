@@ -1,0 +1,70 @@
+{{Short description|South Korean satellite launched in 2010}}
+{{Infobox spaceflight
+| name                  = Koreasat 6 
+| image                 = 
+| image_caption         = 
+| insignia              =
+
+| mission_type          = [[Communications]]
+| operator              = [[KT Corporation]]
+| website               = 
+| COSPAR_ID             =
+| SATCAT                =
+| mission_duration      = 15 years
+
+| spacecraft_bus        = 
+| manufacturer          = [[KT Corporation|KT]], [[Thales Group]]
+| dry_mass              = 
+| launch_mass           = 
+| power                 =
+
+| launch_date           = {{start-date|December 29, 2010}}
+| launch_rocket         = [[Ariane 5]]
+| launch_site           = [[Guiana Space Centre]]
+| launch_contractor     =
+
+| disposal_type         = Decommissioned
+| deactivated           = {{end-date|December 16, 2005}}
+| last_contact          =
+| decay_date            =
+
+| orbit_epoch           = {{start-date|August 5, 1995}}
+| orbit_reference       = [[geocentric orbit|Geocentric]]
+| orbit_regime          = [[Geostationary orbit|Geostationary]]
+| orbit_longitude       = 160° E
+| orbit_periapsis       = 
+| orbit_apoapsis        = 
+| orbit_inclination     = 
+| orbit_semimajor       = 
+| orbit_eccentricity    = 
+| orbit_period          = 1,438.0 minutes
+| orbit_RAAN            = 
+| orbit_arg_periapsis   = 
+| orbit_mean_anomaly    = 
+| orbit_mean_motion     =
+| apsis                 =
+
+| trans_band            = 
+| trans_frequency       = 
+| trans_bandwidth       = 
+| trans_capacity        = 
+| trans_coverage        = 
+| trans_TWTA            = 
+| trans_EIRP            = 
+| trans_HPBW            =
+}}
+'''Koreasat 6''' is a South Korean [[communications satellite]] operated by [[Koreasat]]. Koreasat 6 is the second satellite launched by operator [[KT Corporation|KT]] (Korea Telecom) Corporation which weighed about 2750&nbsp;kg (6060 lb) at the launching time.<ref>{{Cite web|url=https://www.nasaspaceflight.com/2010/12/live-ariane-5-eca-end-year-koreasat-6-and-hispasat-1e/|title=Ariane 5 ECA ends 2010 by launching Koreasat 6 and Hispasat 1E|date=28 December 2010 }}</ref> This [[satellite]] [[Orbital mechanics|orbital]] position at 116 degrees East was changed to 160 degrees East in 2025 when contracted by [[Optus]] to provide broadcasting services to [[Sky (New Zealand)]].<ref> {{Cite web |date=2025-03-16 |title=Sky TV's new satellite placed into orbit - here's when affected customers should have full TV reception again |url=https://www.nzherald.co.nz/business/media-insider/media-insider-sky-tvs-new-satellite-placed-into-orbit-with-positive-early-results/U32CRITFI5HELOQ64YBYZAAY74/ |access-date=2025-03-19 |website=[[The New Zealand Herald]] |language=en-NZ}} </ref> The new Koreasat 6A launched in 2024 replacing Koreasat 6 in its old orbital position of 116 degrees East.<ref> {{Cite web |date=2024-11-12 |title=Koreasat 6A communications satellite successfully launched {{!}} Thales Alenia Space |url=https://www.thalesaleniaspace.com/en/press-releases/koreasat-6a-communications-satellite-successfully-launched |access-date=2025-03-19 |website=www.thalesaleniaspace.com |language=en}} </ref>
+
+==References==
+{{Reflist}}
+
+{{South Korean Space Program}}
+{{Orbital launches in 2010}}
+
+[[Category:Koreasat satellites]]
+[[Category:Spacecraft launched in 2010]]
+[[Category:2010 in South Korea]]
+[[Category:Spacecraft launched by Ariane 5 rockets]]
+
+
+{{communications-satellite-stub}}

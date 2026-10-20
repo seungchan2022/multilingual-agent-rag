@@ -1,0 +1,81 @@
+{{Short description|Proposed NASA Triton lander space probe}}
+{{italic title}}
+{{Infobox spaceflight
+| name                  = ''Triton Hopper'' <!--defaults to page title-->
+| names_list            = 
+| image                 = Triton Hopper.png <!--omit the "file" prefix-->
+| image_caption         = Artist's concept of the ''Triton Hopper''
+| mission_type          = Reconnaissance <!--eg. Technology, Reconnaissance, ISS assembly, etc-->
+| operator              = NASA <!--organisation(s) that operate(d) the spacecraft-->
+| website               = <!--Homepage of the craft/mission, OFFICIAL PAGES ONLY-->
+| mission_duration      = <!--How long the mission lasted-->
+| spacecraft_type       = Robotic <!--eg. GPS Block II, Kobalt-M, US-K, etc-->
+| spacecraft_bus        = <!--eg. A2100M, Star-2, etc-->
+| manufacturer          = <!--company or companies who built the satellite-->
+| launch_mass           = <!--fuelled mass at launch, not including rocket or upper stage-->
+| BOL_mass              = <!--spacecraft mass in orbit at beginning of operational life, after LEOP phase-->
+| landing_mass          = <!--Mass after landing (recovered spacecraft only)-->
+| dry_mass              = 500 kg<ref>{{cite web |url=http://scitech.aiaa.org/InnovativeAdvancedConcepts/ |title=NASA's Far-Out Space Concepts |first=Ben |last=Iannotta |publisher=American Institute of Aeronautics and Astronautics |date=13 January 2017 |access-date=29 September 2017 |archive-date=29 September 2017 |archive-url=https://web.archive.org/web/20170929232456/http://scitech.aiaa.org/InnovativeAdvancedConcepts/ |url-status=dead }}</ref><!--spacecraft mass in orbit without fuel-->
+| payload_mass          = <!--Mass of cargo carried by spacecraft (eg. for Space Shuttle), or total mass of instrumentation/equipment/experiments for mission-->
+| dimensions            = <!--body dimensions and solar array span-->
+| power                 = <!--end-of-life power, in watts-->
+
+<!--Launch details-->
+| launch_date           = <!--{{start date|YYYY|MM|DD|hh|mm|ss|TZ=Z}}-->
+| launch_rocket         = <!--Rocket that launched the satellite, include upper stage if distinct from rocket* and if possible flight/tail/serial number-->
+
+|interplanetary         = <!--Infobox spaceflight/IP can be called multiple times for missions with multiple targets or combined orbiter/lander missions, etc-->
+ {{Infobox spaceflight/IP
+   |type                = lander <!--flyby/orbiter/impactor/atmospheric/lander/rover -delete as appropriate, MUST BE ONE OF THESE OPTIONS-->
+   |object              = [[Triton (moon)|Triton]] 
+   |arrival_date        =
+ }}
+}}
+[[File:Voyager 2 Triton 14bg r90ccw colorized.jpg|thumb|Dark streaks across Triton's south polar cap surface, thought to be dust deposits left by eruptions of [[nitrogen]] geysers]]
+
+'''''Triton Hopper''''' is a proposed NASA [[Lander (spacecraft)|lander]] to [[Triton (moon)|Triton]], the largest [[Moons of Neptune|moon]] of [[Neptune]].<ref name='Oleson 2015'>{{cite web |url=https://www.nasa.gov/feature/triton-hopper-exploring-neptunes-captured-kuiper-belt-object/ |title=Triton Hopper: Exploring Neptune's Captured Kuiper Belt Object |date=7 May 2015 |author=Steven Oleson |publisher=NASA Glenn Research Center |accessdate=11 February 2017 }}</ref> The idea is to harvest the abundant [[nitrogen ice]] on the surface of Triton and use it as propellant for multiple short flights and explore a variety of locations. The concept was promoted to Phase II in March 2018 to refine their designs and explore aspects of implementing the new technology. 
+
+==History==
+Triton is the largest [[moons of Neptune|moon of Neptune]]. In 1989, ''[[Voyager 2]]'' flew past the moon at a distance of 40,000&nbsp;km,<ref name="Gray1989" /> and discovered several [[cryovolcano]]es on its surface. Triton is geologically active; its surface is young and has relatively few impact [[Crater|craters]]. It has a very thin [[Atmosphere of Triton|atmosphere]].
+
+The ''Triton Hopper'' concept started Phase I in 2015, and it then moved in March 2018 to Phase II, where the new technologies are being developed by NASA's Institute for Advanced Concepts ([[NASA Institute for Advanced Concepts|NIAC]]).<ref>[https://www.nasa.gov/directorates/spacetech/niac/2018_Phase_I_Phase_II/Triton_Hopper Triton Hopper: Exploring Neptune's Captured Kuiper Belt Object]. Steven Oleson, NASA Glenn Research Center. 30 March 2018.</ref><ref name='motherboard 2015'>{{cite magazine |last=Ferreira |first=Becky |date=August 28, 2015 |title=Why We Should Use This Jumping Robot to Explore Neptune |url=https://www.vice.com/en/article/neptune-or-bust/ |magazine=[[Vice (magazine)|Vice Motherboard]] |access-date=11 February 2017}}</ref>
+
+==Overview==
+The ''Triton Hopper'' concept proposes the use of a [[Radioisotope rocket|radioisotope rocket engine]] that would collect nitrogen ice on or below the surface, heat it under pressure and use it as [[Rocket propellant|propellant]] to explore Neptune's moon Triton.<ref name='motherboard 2015'/><ref name="Machado-RodriguezLandis2017">{{cite book|last1=Machado-Rodriguez|first1=Jonathan|last2=Landis|first2=Geoffrey A.|title=55th AIAA Aerospace Sciences Meeting |chapter=Analysis of a Radioisotope Thermal Rocket Engine|year=2017|doi=10.2514/6.2017-1445|hdl=2060/20170006624|isbn=978-1-62410-447-3 |hdl-access=free}}</ref> The largest technological challenge is to learn how to [[Mining|mine]] local surface nitrogen ice, and how to heat it for use as propellant.<ref name='motherboard 2015'/>  The rocket-powered hops are estimated to be up to 1&nbsp;km high and 5&nbsp;km long.<ref>{{cite magazine |url=http://www.popsci.com/this-jumping-probe-might-explore-neptune%E2%80%99s-biggest-moon |title=This Jumping Probe Might Explore Neptune's Biggest Moon |date=17 May 2016 |author=Charles Q. Choi |magazine=Popular Science |accessdate=11 February 2017 |archive-date=8 November 2020 |archive-url=https://web.archive.org/web/20201108101345/https://www.popsci.com/this-jumping-probe-might-explore-neptune%E2%80%99s-biggest-moon/ |url-status=dead }}</ref><ref>{{cite web|first1=Steven R. |last1=Oleson |first2=Geoffrey |last2=Landis|title=Triton Hopper: Exploring Neptune's Captured Kuiper Belt Object|url=https://www.lpi.usra.edu/meetings/V2050/pdf/8145.pdf|website=Planetary Science Vision 2050 Workshop 2017}}</ref>
+
+A rocket-powered vehicle, or "hopper", has several advantages due to the variety of terrain and a [[gravity]] of only 8% of that of [[Earth]]. Hemispheric traverses and atmospheric sampling are possible during hops.<ref name='Oleson 2015'/>
+
+While it is airborne, the craft would acquire images and videos during flight. While it's on the ground, it could photograph and analyse the chemistry and geology of the surface. It could potentially fly through [[Geyser|geysers]] on Triton's surface to analyse the material ejected from them.<ref>{{cite web |url=http://now.space/posts/a-mission-to-neptunes-moon-triton-would-be-pretty-cool/ |title=A Mission To Neptune's Moon Triton Would Be Pretty Cool |date=24 June 2016 |first=Alex |last=Kasprak |publisher=Now.Space |accessdate=11 February 2017 |archive-url=https://web.archive.org/web/20160625025831/http://now.space/posts/a-mission-to-neptunes-moon-triton-would-be-pretty-cool/ |archive-date=2016-06-25}}</ref>
+
+==See also==
+
+*[[Comet Hopper]]
+*[[Europa Lander (NASA)]]
+*[[Trident (spacecraft)|''Trident'']], a flyby proposal to Triton
+*[[Exploration_of_Pluto#Pluto_Hop,_Skip,_and_Jump|Pluto Hop, Skip, and Jump]], a very similar proposal
+
+== References ==
+<references>
+
+<ref name="Gray1989">
+{{cite journal
+| title = Voyager 2 Neptune navigation results
+| author = Gray, D
+| journal = Astrodynamics Conference
+| date = 1989
+| pages = 108
+| doi = 10.2514/6.1990-2876
+}}</ref>
+
+</references>
+
+==External links==
+*[https://www.youtube.com/watch?v=tqtSmYczj1g Exploring Neptune's Captured Kuiper Belt Object], a short NASA video at YouTube
+
+{{Triton}}
+
+[[Category:Proposed NASA space probes]]
+[[Category:Missions to Neptune]]
+[[Category:Landers (spacecraft)]]
+[[Category:Hopping spacecraft]]
+[[Category:Triton (moon)]]

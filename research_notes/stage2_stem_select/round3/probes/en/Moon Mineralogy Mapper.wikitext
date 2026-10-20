@@ -1,0 +1,114 @@
+{{Short description|NASA instrument carried by Chandrayaan I to moon}}
+{{Infobox spacecraft instrument
+| Name =Moon Mineralogy Mapper
+| Image =[[File:Moon Mineralogy Mapper left.jpg|290px]]
+| Caption =Left side of the Moon Mineralogy Mapper
+
+| Operator = [[NASA]]
+| Manufacturer = [[Jet Propulsion Laboratory|JPL]]
+| Type = [[Imaging spectrometer]]
+| Function = 
+| Mission_Duration = 712 days (planned) <br> {{age in days|2008|10|22|2009|09|20}} (actual)
+| Began = {{start date|2008|11|12}}
+| Ceased = {{end date|2009|09|20}}
+| Webpage ={{url|http://www.jpl.nasa.gov/missions/moon-mineralogy-mapper-m3/}}
+
+| Mass = {{convert|8.2|kg|abbr=on}}
+| Dimensions =
+| Number = <!--number launched-->
+| Power_consumption = 
+| Resolution = {{convert|40|km|abbr=on}} (field of view)<br>{{convert|140|m|abbr=on}} (global)<br>{{convert|70|m|abbr=on}} (targeted)
+| Spectral_Band =
+| Data_Rate =
+
+| Spacecraft = [[Chandrayaan-1]]
+| SC_Operator = [[ISRO]]
+| Launch = {{start date|2008|10|22|00|52|7=Z}}
+| Rocket = [[Polar Satellite Launch Vehicle|PSLV-C11]]
+| Launch_Site = [[Satish Dhawan Space Centre]]
+| COSPAR = 2008-052A
+| Orbit = 
+| Decay = <!--decay date-->
+}}
+
+The '''Moon Mineralogy Mapper''' (M<sup>3</sup>) is one of two instruments of [[NASA]] that was carried by [[India]]'s first mission to the Moon, [[Chandrayaan-1]], launched October 22, 2008. It is an [[imaging spectrometer]], and the team is led by Principal investigator Carle Pieters of [[Brown University]], and managed by NASA's [[Jet Propulsion Laboratory]] (JPL).
+
+== Description ==
+
+{| class="wikitable floatleft"
+|-
+! M<sup>3</sup> !! Performance/units<ref>[https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011JE003797 The Moon Mineralogy Mapper (M3) imaging spectrometer for lunar science: Instrument description, calibration, on‐orbit measurements, science data calibration and on‐orbit validation ]. R. O. Green, C. Pieters, P. Mouroulis,  etal. ''Journal of Geophysical Research''. 29 October 2011. {{doi|10.1029/2011JE003797}}</ref><ref>[https://web.archive.org/web/20180822014848/https://pdfs.semanticscholar.org/47e4/3763e10e35d8468654c7d2a2fe24f1f20ae0.pdf The Moon Mineralogy Mapper (M3) on Chandrayaan-1]. (PDF). Carle M. Pieters1, Joseph Boardman, etal.</ref>
+|-
+| Type || [[Imaging spectrometer]]
+|-
+| Spectral range ||  430–3,000&nbsp;nm 
+|-
+| Spectral channels || 260 (10&nbsp;nm/channel)
+|-
+| [[Field of view]] || 40&nbsp;km
+|-
+| Resolution || 70 m/pixel
+|-
+| Mass || 8.2&nbsp;kg
+|-
+| Power || <20 W
+|-
+| Dimensions || 50 × 50 × 50&nbsp;cm
+|}
+M<sup>3</sup> is an [[imaging spectrometer]] that provided the first high-resolution spatial and spectral map of the entire lunar surface, revealing the minerals of which it is made. This information will both provide clues to the early development of the [[Solar System]] and guide future [[astronauts]] to stores of precious resources.
+
+This instrument is a [[Discovery Program]] "Mission of Opportunity" (a NASA-designed instrument on board another space agency's spacecraft).
+
+Chandrayaan-1 operated for 312 days as opposed to the intended two years but the mission achieved many of its planned objectives.<ref>{{cite news|url=https://timesofindia.indiatimes.com/india/india-likely-to-land-on-moon-on-september-6/articleshow/69136567.cms|title=India likely to land on Moon on September 6|date=May 2, 2019|access-date=January 12, 2023|work=The Times of India|quote=Chandrayaan operated for 312 days as opposed to the intended two years but the mission achieved 95% of its planned objectives}}</ref> M<sup>3</sup> was used to map over 95% of the lunar surface in its low-resolution Global mode, but only a small fraction in the high-resolution Target mode.<ref>{{cite web|last=Boardman|first=Joe|title=A New Lunar Globe as Seen by the Moon Mineralogy Mapper: Image Coverage, Spectral Dimensionality and Statistical Anomalies.|url=https://www.planetary.brown.edu/pdfs/m3_1716.pdf|publisher=LPI|accessdate=12 April 2011|archive-date=16 July 2019|archive-url=https://web.archive.org/web/20190716224623/http://www.planetary.brown.edu/pdfs/m3_1716.pdf|url-status=dead}}</ref> After suffering from several technical issues including failure of the star sensors and poor thermal shielding, Chandrayaan-1 stopped sending radio signals at 1:30 AM IST on 29 August 2009 shortly after which, the ISRO officially declared the mission over.
+
+=== HVM<sup>3</sup> ===
+The design of the M<sup>3</sup> instrument was used as the basis for the HVM<sup>3</sup> instrument on the unsuccessful [[Lunar Trailblazer]] mission. HVM<sup>3</sup> was a [[Pushbroom scanner|pushbroom]] [[Infrared#Commonly used subdivision scheme|short-wave infrared]] imaging spectrometer.<ref>{{Cite web | url=https://www.hou.usra.edu/meetings/lpsc2022/pdf/2316.pdf | title=Lunar trailblazer: a pioneering smallsat for lunar water and lunar geology | website=www.hou.usra.edu}}</ref><ref>{{Cite journal |last1=Klima |first1=Rachel |last2=Pieters |first2=Carle |last3=Green |first3=Robert |last4=Blaney |first4=Diana |last5=Ehlmann |first5=Bethany |last6=Thompson |first6=David |last7=Bowles |first7=Neil |last8=Calcutt |first8=Simon |last9=Donaldson Hanna |first9=Kerri |date=January 2021 |title=Directly Characterizing Surficial Hydroxyl/Water on the Moon with the Lunar Trailblazer Mission |url=https://ui.adsabs.harvard.edu/abs/2021cosp...43E.352K/abstract |journal=43rd COSPAR Scientific Assembly. Held 28 January - 4 February |language=en |volume=43 |pages=352 |bibcode=2021cosp...43E.352K }}</ref> The Lunar Trailblazer spacecraft was launched on 27 February 2025, but NASA lost contact with the spacecraft.<ref>{{Cite web |date=2025-08-04 |title=NASA's Lunar Trailblazer Moon Mission Ends - NASA |url=https://www.nasa.gov/missions/small-satellite-missions/lunar-trailblazer/nasas-lunar-trailblazer-moon-mission-ends/ |access-date=2025-09-07 |language=en-US}}</ref> The mission ended on July 31, 2025 after all attempts to contact the spacecraft were unsuccessful.<ref>{{Cite web |last=Berger |first=Eric |date=2025-03-05 |title=NASA just lost yet another one of its low-cost planetary missions |url=https://arstechnica.com/space/2025/03/nasa-just-lost-yet-another-one-of-its-low-cost-planetary-missions/ |access-date=2025-09-07 |website=Ars Technica |language=en}}</ref>{{-}}
+
+== Science team ==
+[[Image:Water Detected at High Latitudes on the Moon.jpg|thumb|Mosaic of images of the Moon taken by the Moon Mineralogy Mapper. Blue shows the signature of water, green shows the brightness of the surface as measured by reflected infra-red radiation from the sun and red shows an iron-bearing mineral called [[pyroxene]].]]
+
+*[[Carle M. Pieters]], [[Brown University]] – PI ([[principal investigator]])
+*Joe Boardman, Analytical Imaging and Geophysics, LLC
+*Bonnie Buratti, [[Jet Propulsion Laboratory|JPL]]
+*Roger Clark, [[United States Geological Survey|USGS]]
+*Robert Green, JPL
+*[[James W. Head|Jim Head]], Brown University
+*Sarah Lundeen, [[Jet Propulsion Laboratory|JPL]] – Instrument Ground Data System
+*Erick Malaret, ACT
+*Tom McCord, [[University of Hawaii]]
+*[[John F. Mustard|Jack Mustard]], Brown University
+*Cass Runyon, [[College of Charleston]]
+*Matt Staid, [[Planetary Science Institute]]
+*Jessica Sunshine, [[University of Maryland, College Park|University of Maryland]]
+*Larry Taylor, [[University of Tennessee]]
+*Stefanie Tompkins, [[Science Applications International Corporation|SAIC]]
+*Padma Varanasi, [[Jet Propulsion Laboratory|JPL]] – Mission Operations
+{{-}}
+
+===Water discovered on Moon===
+[[Image:Water Around Fresh Moon Crater.jpg|thumb|These images show water in a very young lunar crater on the side of the Moon that faces away from [[Earth]].]]
+
+On September 24, 2009, ''Science'' magazine reported that [[NASA]]'s Moon Mineralogy Mapper (M<sup>3</sup>) on Chandrayaan-1 had detected water on the Moon.<ref>{{Cite web | url=http://www.sciencemag.org/cgi/content/abstract/sci;1178658v1 | title=Character and Spatial Distribution of OH/H2O on the Surface of the Moon Seen by M3 on Chandrayaan-1 | website=www.sciencemag.org | date=September 24, 2009}}</ref> But, on 25 September 2009, [[ISRO]] announced that the [[Moon Impact Probe|MIP]], another instrument on-board Chandrayaan-1 also had discovered water on the Moon just before impact and had discovered it before M<sup>3</sup>. The announcement of this discovery was not made until NASA confirmed it.<ref>{{cite news | url=http://www.dnaindia.com/scitech/1292942/report-chandrayaan-first-discovered-water-on-moon-but | title=Chandrayaan first discovered water on moon, but? | work=[[Daily News and Analysis|DNA]] | date=Sep 25, 2009 | agency=DNA | accessdate=2013-06-09 | location=Bangalore}}</ref><ref>{{cite news | url=http://www.ndtv.com/article/sci-tech/did-india-beat-nasa-to-find-water-on-moon-9091 | title=Did India beat NASA to find water on moon? | work=[[NDTV]] | date=September 25, 2009 | accessdate=2013-06-09 | author=Bagla, Pallav | location=Bangalore}}</ref>
+
+M<sup>3</sup> detected absorption features near 2.8–3.0&nbsp;μm on the surface of the Moon. For silicate bodies, such features are typically attributed to [[Hydroxide|OH]]- and/or [[H2O|H<sub>2</sub>O]]-bearing materials. On the Moon, the feature is seen as a widely distributed absorption that appears strongest at cooler high latitudes and at several fresh feldspathic craters. The general lack of correlation of this feature in sunlit M<sup>3</sup> data with [[neutron spectrometer]] H abundance data suggests that the formation and retention of OH and H<sub>2</sub>O is an ongoing surficial process. OH/H<sub>2</sub>O production processes may feed polar cold traps and make the lunar regolith a candidate source of volatiles for human exploration.
+
+The Moon Mineralogy Mapper (M<sup>3</sup>), an imaging spectrometer, was one of the 11 instruments on board Chandrayaan-I that came to a premature end on August 29. M<sup>3</sup> was aimed at providing the first mineral map of the entire lunar surface.
+
+Lunar scientists have for decades contended with the possibility of water repositories. They are now increasingly "confident that the decades-long debate is over," a report says. "The moon, in fact, has water in all sorts of places; not just locked up in [[minerals]], but scattered throughout the broken-up [[planetary surface|surface]], and, potentially, in blocks or sheets of ice at depth." The results from the NASA's [[Lunar Reconnaissance Orbiter]] are also "offering a wide array of watery signals."<ref>{{cite news| url=http://www.hindu.com/2009/09/23/stories/2009092357770100.htm | archive-url=https://web.archive.org/web/20090926073133/http://www.hindu.com/2009/09/23/stories/2009092357770100.htm | url-status=dead | archive-date=26 September 2009 | location=Chennai, India | work=[[The Hindu]] | title=Water discovered on moon?: "A lot of it actually" | date=23 September 2009}}</ref>
+
+The detailed analysis of the full set of Moon Mineralogy Mapper data in 2018 has yielded multiple locations with water ice concentrations at the surface ranging from 2% to 30%, at latitudes above 70 degrees. Surprisingly, some of the known "cold traps", including the impact site of the [[LCROSS]] spent stage, have failed to detect surface ice.<ref>{{cite journal |last1=Li |first1=Shuai |last2=Lucey |first2=Paul G. |last3=Ralph E. |first3=Milliken |title=Direct evidence of surface exposed water ice in the lunar polar regions |journal=Proceedings of the National Academy of Sciences |volume=115 |issue=36 |pages=8907–8912 |publisher=National Academy of Sciences |doi=10.1073/pnas.1802345115 |pmid=30126996 |pmc=6130389 |date=20 August 2018|bibcode=2018PNAS..115.8907L |doi-access=free }}</ref>
+
+== Mg-spinel-rich rock discovered ==
+M<sup>3</sup> found a rock dominated by Mg-[[spinel]] with no detectable [[pyroxene]] or [[olivine]] present (<5%) occurring along the western inner ring of [[Moscoviense Basin]] (as one of several discrete areas). The occurrence of this spinel does not easily fit with current lunar-crustal evolution models.<ref>
+{{cite web|last=Pieters|first=Carle|title=Identification of a new spinel-rich lunar rock type by the Moon Mineralogy Mapper (M3)|url=http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1854.pdf|publisher=LPI|accessdate=12 April 2011}}
+</ref>
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://www.jpl.nasa.gov/missions/moon-mineralogy-mapper-m3/ Jet Propulsion Laboratory's website for M3]
+
+{{Planetary Missions Program Office|Discovery=y}}
+
+[[Category:Discovery Program]]

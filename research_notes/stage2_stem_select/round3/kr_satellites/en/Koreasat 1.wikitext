@@ -1,0 +1,87 @@
+{{Short description|South Korean satellite launched in 2017}}
+{{Infobox spaceflight
+| name                  = Koreasat 1 
+| image                 = 
+| image_caption         = 
+| insignia              =
+
+| mission_type          = [[Communications]]
+| operator              = [[KT Corporation]]
+| website               = 
+| COSPAR_ID             = 1995-041A
+| SATCAT                = 23639
+| mission_duration      = 10 years
+
+| spacecraft_bus        = [[Spacebus|AS-3000]]
+| manufacturer          = [[Martin Marietta]]{{\}}[[Lockheed Martin]]
+| dry_mass              = {{convert|711|kg|lb}}<ref name=gsp/>
+| launch_mass           = {{convert|1464|kg|lb}}<ref name=gsp/>
+| power                 =
+
+| launch_date           = {{start-date|August 5, 1995, 11:10}} UTC<ref name=gsp>{{cite web |url=http://space.skyrocket.de/doc_sdat/koreasat-1.htm |title=Koreasat 1, 2 |last=Gunter |first=Krebs |accessdate=May 4, 2017}}</ref>
+| launch_rocket         = [[Delta II]] 7925
+| launch_site           = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[Cape Canaveral Air Force Station Launch Complex 17|LC-17B]]<ref name=astronautix/>
+| launch_contractor     =
+
+| disposal_type         = Decommissioned
+| deactivated           = {{end-date|December 16, 2005}}
+| last_contact          =
+| decay_date            =
+
+| orbit_epoch           = {{start-date|August 5, 1995}}
+| orbit_reference       = [[geocentric orbit|Geocentric]]
+| orbit_regime          = [[Geostationary orbit|Geostationary]]
+| orbit_longitude       = 116° E
+| orbit_periapsis       = {{convert|35776|km|mi|sp=us}}<ref name=astronautix/>
+| orbit_apoapsis        = {{convert|35796|km|mi|sp=us}}<ref name=astronautix/>
+| orbit_inclination     = 2.7°<ref name=astronautix/>
+| orbit_semimajor       = 
+| orbit_eccentricity    = 
+| orbit_period          = 1,436.1 minutes<ref name=astronautix/>
+| orbit_RAAN            = 
+| orbit_arg_periapsis   = 
+| orbit_mean_anomaly    = 
+| orbit_mean_motion     =
+| apsis                 = gee
+
+| trans_band            = 12 FSS [[Ku band]], 3 BSS [[Ku band]]
+| trans_frequency       = 
+| trans_bandwidth       = 36 [[Megahertz|MHz]], 27 MHz
+| trans_capacity        = 
+| trans_coverage        = [[South Korea]], [[Asia]],
+| trans_TWTA            = 
+| trans_EIRP            = 
+| trans_HPBW            =
+}}
+'''Koreasat 1''' was a South Korean [[communications]] satellite launched by a [[Delta II]] rocket from [[Cape Canaveral Air Force Station]], [[Florida]], United States. Owned by [[KT Corporation]].<ref>{{Cite web |url=http://www.absatellite.com/2010/05/24/asia-broadcast-satellite-acquires-koreasat-3/ |title=Asia Broadcast Satellite Acquires Koreasat-3 |access-date=2017-10-21 |archive-date=2017-10-22 |archive-url=https://web.archive.org/web/20171022033541/http://www.absatellite.com/2010/05/24/asia-broadcast-satellite-acquires-koreasat-3/ |url-status=dead }}</ref>
+
+==History==
+One of the boosters of the [[Delta II]] rocket failed to separate from the first stage of the spacecraft, placing it 5,000&nbsp;km short of its planned GTO apogee. The satellite had to use up 7.5 years worth of its 12-year lifetime fuel supply to make up the deficiency, shortening Koreasat 1's expected life to about 4.5 years.  In order to extend its lifetime, it gave up north–south station-keeping operating in "inclined mode." In the end, the satellite managed to function for 10 years.<ref name=nssdc>{{cite web |url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1995-041A |title=Koreasat 1 |last=NASA |first=GSFC |accessdate=May 5, 2017}}</ref>
+
+The satellite was equipped with a '''Star 30''' solid apogee motor. It carried {{convert|625|kg|lb|abbr=on}} of fuel for the apogee motor and {{convert|187|kg|lb|abbr=on}} of [[hydrazine]] propellant.<ref name=tbs>{{cite web |url=https://www.tbs-satellite.com/tse/online/sat_koreasat_1.html|title=Koreasat 1 |last=TBS |accessdate=May 5, 2017}}</ref>
+
+It was eventually positioned in [[geosynchronous orbit]] at 116° E  operated it at 47.5° E where it was focused on Hungary. The satellite went out of service on December 16, 2005, and was moved to the [[graveyard orbit]]. As of March 9, 2007, it was located at 152.88° E drifting at 2.155° W per day.<ref name=astronautix>{{cite web |url=http://www.astronautix.com/k/koreasat.html|archive-url=https://web.archive.org/web/20161228152510/http://astronautix.com/k/koreasat.html|url-status=live|archive-date=December 28, 2016|title=Koreasat |last= Wade|first= Mark|accessdate=May 5, 2017}}</ref>
+
+== See also ==
+* [[Asia Broadcast Satellite]]
+
+==References==
+{{reflist|30em}}
+
+== External links ==
+* {{cite web|url=https://www.ktsat.com/mainPage.do|title=KT Sat|access-date=January 3, 2023}}
+
+{{Use American English|date=May 2017}}
+
+{{South Korean Space Program}}
+{{Orbital launches in 1995}}
+
+[[Category:Satellite launch anomalies]]
+[[Category:Spacecraft launched in 1995]]
+[[Category:1995 in spaceflight]]
+[[Category:1995 in South Korea]]
+[[Category:Spacecraft launched by Delta II rockets]]
+[[Category:Koreasat satellites]]
+
+
+{{spacecraft-stub}}

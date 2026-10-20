@@ -1,0 +1,137 @@
+{{Short description|Extended mission of the Deep Impact space probe}}
+{{italic title}}
+{{Infobox spaceflight
+| name                  = ''EPOXI''
+
+| image                 = PIA02109.jpg
+| image_caption         = The [[Deep Impact (spacecraft)|Deep Impact]] spacecraft at [[Ball Aerospace & Technologies]] in July 2004. 
+| image_alt             = A spacecraft under construction hangs in the hallway of a laboratory as a scientist, clothed in a white protective suit, attaches scientific instruments to the spacecraft bus.
+| image_size            = 300
+
+| mission_type          = *Flyby ([[85D/Boethin]]{{dot}}[[103P/Hartley]]{{dot}}[[(163249) 2002 GT]])
+*[[Space observatory]]
+| operator              = [[NASA]]
+| COSPAR_ID             = 2005-001A
+| website               = {{url|http://epoxi.umd.edu}}
+| mission_duration      = 8 years, 18 days
+| distance_travelled    =
+
+| spacecraft            = ''[[Deep Impact (spacecraft)|Deep Impact]]''
+| manufacturer          = [[Jet Propulsion Laboratory|JPL]]{{dot}}[[Ball Aerospace & Technologies Corp.|Ball Aerospace]]{{dot}}[[University of Maryland, College Park|University of Maryland]]
+| launch_mass           = 650 kg<ref>{{cite web|url=https://solarsystem.nasa.gov/missions/deep-impact-epoxi/in-depth/ |title=EPOXI |publisher=NASA's Solar System Exploration website |access-date=November 30, 2022}}</ref>
+| dimensions            = 
+| power                 = 620.0 [[watt|W]]
+
+| entered_service       = {{start date|2005|07|21}}<br/><small>({{Age in years, months and days|year=2005|month=07|day=21}} ago)</small>
+| last_contact          = {{start date|2013|08|08}}<br/><small>({{Age in years, months and days|year=2013|month=08|day=08}} ago)</small>
+
+|interplanetary         = <!--Infobox spaceflight/IP can be called multiple times for missions with multiple targets or combined orbiter/lander missions, etc-->
+ {{Infobox spaceflight/IP
+   |type                = flyby
+   |object              = [[103P/Hartley|Hartley 2]]
+   |arrival_date        = {{start date|2010|11|04}} ~03:00 [[Coordinated Universal Time|UTC]]<br/><small>({{Age in years, months and days|year=2010|month=11|day=04}} ago)</small>
+   |distance            = {{convert|694|km|mi}}
+ }}
+
+<!--mission insignia or patch-->
+| insignia              = EPOXI Mission Patch.png
+| insignia_caption      = Official insignia for the re-targeted ''DIXI'' mission to Hartley 2
+| insignia_alt          = A circle with a blue border encloses an image of a spacecraft on approach to a comet. The words "EPOXI Mission" and "Deep Impact Extended Investigation" are written along the border of the image.
+| insignia_size         = 200px
+}}
+
+'''''EPOXI''''' was a compilation of [[NASA]] [[Discovery program]] missions led by the [[University of Maryland, College Park|University of Maryland]] and [[principal investigator]] [[Michael A'Hearn]], with co-operation from the [[Jet Propulsion Laboratory]] and [[Ball Aerospace & Technologies Corp.|Ball Aerospace]]. ''EPOXI'' uses the ''[[Deep Impact (spacecraft)|Deep Impact]]'' spacecraft in a campaign consisting of two missions: the '''''Deep Impact Extended Investigation''''' (DIXI) and '''''Extrasolar Planet Observation and Characterization''''' (EPOCh). ''DIXI'' aimed to send the ''Deep Impact'' spacecraft on a flyby of another comet, after its primary mission was completed in July 2005, while ''EPOCh'' saw the spacecraft's photographic instruments as a [[space observatory]], studying [[extrasolar planets]].<ref>{{Cite press release| url=http://www.nasa.gov/home/hqnews/2007/jul/HQ_07147_Discovery_missions.html| title=NASA Gives Two Successful Spacecraft New Assignments| date=July 3, 2007| publisher=[[NASA]]| access-date=7 August 2009| archive-date=17 April 2011| archive-url=https://web.archive.org/web/20110417021542/http://www.nasa.gov/home/hqnews/2007/jul/HQ_07147_Discovery_missions.html| url-status=dead}}</ref><ref name="aHern">{{Cite press release| url=http://www.nasa.gov/home/hqnews/2007/dec/HQ_07279_EPOXI_mission_to_comet_Hartley.html| title=NASA Sends Spacecraft on Mission to Comet Hartley 2| publisher=[[NASA]]| date=Dec 13, 2007| access-date=7 August 2009| archive-date=3 August 2009| archive-url=https://web.archive.org/web/20090803215032/http://www.nasa.gov/home/hqnews/2007/dec/HQ_07279_EPOXI_mission_to_comet_Hartley.html| url-status=dead}}</ref><ref name="newsdesk.umd.edu">{{Cite press release| url=http://www.newsdesk.umd.edu/scitech/release.cfm?ArticleID=1564| title=Deep Impact Extended Mission Heads for Comet Hartley 2| publisher=[[University of Maryland, College Park|University of Maryland]]| date=December 13, 2007| access-date=7 August 2009| archive-url=https://web.archive.org/web/20090620043143/http://www.newsdesk.umd.edu/scitech/release.cfm?ArticleID=1564| archive-date=20 June 2009| url-status=dead}}</ref>
+
+''DIXI'' successfully sent the ''Deep Impact'' spacecraft on a [[Flyby (spaceflight)|flyby]] of comet [[103P/Hartley|Hartley 2]] on November 4, 2010, revealing a "hyperactive, small and feisty" comet, after three [[gravity assist]]s from [[Earth]] in December 2007, December 2008 and June 2010. The ''DIXI'' mission was not without problems, however; the spacecraft had initially been targeted for a December 5, 2008 flyby of comet [[85D/Boethin|Boethin]], though, the comet could not be located, and was later declared a [[lost comet]], prompting mission planners to reorganize a flyby of an alternative target, Hartley 2. After its flyby of Hartley 2, the spacecraft was also set to make a close flyby of the [[Apollo asteroid]] [[(163249) 2002 GT]] in 2020. The mission ended after contact with the spacecraft was suddenly lost in August 2013 and attempts to re-establish contact in the following month had failed.<ref>[http://www.abc.net.au/news/2013-09-21/nasa-calls-off-search-for-deep-impact-comet-probe/4972930 NASA calls off search for lost Deep Impact comet probe] - Australian Broadcasting Corporation - Retrieved September 21, 2013.</ref> Mission scientists theorized that a [[Year 2000 problem|Y2K]]-like problem had plagued the spacecraft's software.
+
+== Mission ==
+[[File:Hartley2jets2 epoxi big.jpg|thumb|EPOXI mission observation of Hartley 2's jets]]
+The ''[[Deep Impact (spacecraft)|Deep Impact]]'' mission was finished with the visit to comet [[Tempel 1]]. But the spacecraft still had plenty of maneuvering fuel left, so NASA approved a second mission, called EPOXI (Extrasolar Planet Observation and Deep Impact Extended Investigation), which included a visit to a second comet (DIXI component) as well as observations of extrasolar planets (EPOCh component).<ref name="SDaily3"/>
+
+===Comet Boethin lost===
+On July 21, 2005, ''Deep Impact'' executed a trajectory correction maneuver that placed the spacecraft on course to fly past Earth on December 31, 2007. The maneuver allowed the spacecraft to use Earth's gravity to begin a new mission in a path towards another comet. In January 2008 ''Deep Impact'' began studying the stars with several known [[extrasolar planet]]s in an attempt to find other such stars nearby. The larger of the spacecraft's two telescopes attempts to find the planets using the [[Methods of detecting extrasolar planets#Transit photometry|transit method]].<ref name="SDaily3">{{cite web | title=Science Daily |work=Deep Impact Mission: Aiming For Close-ups Of Extrasolar Planets |url=https://www.sciencedaily.com/releases/2007/04/070410120957.htm| access-date=June 3, 2007}}</ref>
+
+The initial plan was for a December 5, 2008 flyby of [[Comet Boethin]], with the spacecraft coming within {{convert|435|mi|km}}. The spacecraft did not carry a second impactor to collide with the comet and would observe the comet to compare it to various characteristics found on [[9P/Tempel]]. A'Hearn, the ''Deep Impact'' team leader reflected on the upcoming project at that time: "We propose to direct the spacecraft for a flyby of Comet Boethin to investigate whether the results found at Comet Tempel 1 are unique or are also found on other comets."<ref name="Skymania News">{{cite web|title=Skymania News|work=Deep Impact will fly to new comet|url=http://skymania.com/wp/2006/11/deep-impact-will-fly-to-new-comet.html|access-date=June 12, 2007|archive-date=December 14, 2014|archive-url=https://web.archive.org/web/20141214171554/http://www.skymania.com/wp/2006/11/deep-impact-will-fly-to-new-comet.html/|url-status=dead}}</ref> He explained that the mission would provide only about half of the information collected during the collision with Tempel 1 but at a fraction of the cost.<ref name="Skymania News"/> (EPOXI's low mission cost of $40 million is achieved by reusing the existing Deep Impact spacecraft.) ''Deep Impact'' would use its [[spectrometer]] to study the comet's surface composition and its telescopes for viewing the surface features.<ref name="SDaily3"/>
+[[File:EPOXI moon transits Earth.gif|thumb|right|Animation of the Moon [[Astronomical transit|transiting]] the Earth on 28–29 May 2008 by EPOXI.]]
+However, as the Earth gravity assist approached, astronomers were unable to locate Comet Boethin, which is too faint to be observed. Consequently, its orbit could not be calculated with sufficient precision to permit a flyby. Instead, the team decided to send ''Deep Impact'' to comet [[103P/Hartley]] requiring an extra two years. NASA approved the additional funding required and retargeted the spacecraft.<ref>[http://epoxi.umd.edu/1mission/status.shtml EPOXI Mission Status] {{webarchive|url=https://web.archive.org/web/20101115215854/http://epoxi.umd.edu/1mission/status.shtml |date=2010-11-15 }}, NASA/University of Maryland, December 2, 2007.</ref> Mission controllers at the Jet Propulsion Laboratory began redirecting EPOXI on November 1, 2007. They commanded the spacecraft to perform a three-minute rocket burn that changed the spacecraft's velocity. EPOXI's new trajectory set the stage for three Earth flybys, the first on December 31, 2007. This placed the spacecraft into an orbital "holding pattern" so that it could encounter comet 103P/Hartley in 2010.
+
+"It's exciting that we can send the ''Deep Impact'' spacecraft on a new mission that combines two totally independent science investigations, both of which can help us better understand how solar systems form and evolve," said in December 2007 ''Deep Impact'' leader and University of Maryland astronomer [[Michael A'Hearn]] who is principal investigator for both the overall EPOXI mission and its DIXI component.<ref name="newsdesk.umd.edu"/>
+
+In June 2009,<ref>{{Cite web |url=http://epoxi.umd.edu/2science/hydratedmoon.shtml |title=Deep Impact and Other Spacecraft Find Clear Evidence of Water on Moon: Thin layer of surface 'dew' appears to form, then dissipate each day |access-date=2010-06-22 |archive-url=https://web.archive.org/web/20120623011446/http://epoxi.umd.edu/2science/hydratedmoon.shtml |archive-date=2012-06-23 |url-status=dead}}</ref> EPOXI's spectrometer scanned the Moon on its way to Hartley, and discovered traces of "water or hydroxyl", confirming a [[Moon Mineralogy Mapper]] observation &mdash; a discovery announced in late September, 2009.<ref>{{Cite web |url=http://sciencenow.sciencemag.org/cgi/content/full/2009/924/1 |title=Science, ''A Whiff of Water Found on the Moon'' |access-date=2009-09-25 |archive-date=2009-09-27 |archive-url=https://web.archive.org/web/20090927074921/http://sciencenow.sciencemag.org/cgi/content/full/2009/924/1 |url-status=dead }}</ref>
+
+=== EPOCh ===
+
+Before the 2008 flyby to re-orient for the comet 103P/Hartley encounter, the spacecraft used the High Resolution Instrument, the larger of its two telescopes, to perform photometric observations of previously discovered transiting [[extrasolar planet]]s from January to August 2008.<ref name="EP">{{cite web |title=EPOXI Mission Status Reports |url=http://epoxi.umd.edu/1mission/status.shtml |access-date=2009-03-07 |url-status=dead |archive-url=https://web.archive.org/web/20101115215854/http://epoxi.umd.edu/1mission/status.shtml |archive-date=2010-11-15 }}</ref> The goal of [[photometry (astronomy)|photometric]] observations is to measure the quantity of light, not necessarily resolve an image. An aberration in the primary mirror of the HRI <ref>{{cite web |title=Beyond Deep Impact: Possible Targets After Fireworks |website=[[Space.com]] |date=29 June 2005 |url=http://www.space.com/businesstechnology/050629_deep_impact_beyond.html |access-date=2010-03-01}}</ref> allowed the HRI to spread the light from observations over more pixels without saturating the CCD, effectively obtaining better data. A total of 198,434 images were exposed.<ref>{{cite web |last1=Rieber |first1=Richard R. |last2=Sharrow |first2=Robert F. |title=The contingency of success: operations for Deep Impact's planet hunt |url=https://trs.jpl.nasa.gov/handle/2014/45329 |access-date=24 April 2022 |date=7 March 2009}}</ref> EPOCh's goals were to study the physical properties of giant planets and search for rings, moons and planets<ref name="EP1">{{cite web |title=Sarah Ballard: Preliminary Results from the NASA EPOXI Mission |format=Mov |url=http://epoxi.umd.edu/2science/index.shtml |access-date=2009-03-07 |url-status=dead |archive-url=https://archive.today/20121215033322/http://epoxi.umd.edu/2science/index.shtml |archive-date=2012-12-15 }} (at 2 minutes 20 seconds in video)</ref> as small as three Earth masses.<ref name="EPS">{{cite web |title=EPOXI Mission Science |url=http://epoxi.umd.edu/2science/index.shtml |access-date=2009-03-07 |url-status=dead |archive-url=https://archive.today/20121215033322/http://epoxi.umd.edu/2science/index.shtml |archive-date=2012-12-15 }}</ref> It also looked at Earth as though it were an extrasolar planet to provide data that could characterize Earth-type planets for future missions, and it imaged the Earth over 24 hours to capture the Moon passing in front on 2008-05-29.<ref name="EP"/>
+
+{| class="toccolours sortable" border=1 cellspacing=0 cellpadding=2 align=center style="text-align:center; border-collapse:collapse; margin-left: 0; margin-right: auto;"
+|+Planetary systems observed
+|- bgcolor="#a0b0ff"
+! [[Star]]
+! [[Constellation]]
+! [[Stellar distance|Distance]] <small>([[light year|ly]])</small>
+! [[Planet]]
+|-
+| [[XO-2 (star)|XO-2]] || [[Lynx (constellation)|Lynx]] || 486
+| [[XO-2b|b]]
+|-
+| [[Gliese 436]] || [[Leo (constellation)|Leo]] || 33.48
+| [[Gliese 436 b|b]]
+|-
+| [[HAT-P-4]] || [[Boötes]] || 1010
+| [[HAT-P-4b|b]]
+|-
+| [[GSC 03089-00929]] || [[Hercules (constellation)|Hercules]] || 1300
+| [[TrES-3b]]
+|-
+| [[WASP-3]] || [[Lyra (constellation)|Lyra]] || 727
+| [[WASP-3b|b]]
+|-
+| [[GSC 03549-02811]] || [[Draco (constellation)|Draco]] ||  718
+| [[TrES-2b]]
+|-
+| [[HAT-P-7b|HAT-P-7]] || [[Cygnus (constellation)|Cygnus]] || 1044
+| [[HAT-P-7b|b]]
+|}
+
+=== Comet flyby ===
+[[File:Animation of Deep Impact trajectory.gif|thumb|right|Animation of Deep Impact{{'s}} trajectory from 12 January 2005 to 8 August 2013<br> {{legend2|magenta| Deep Impact 1}} {{legend2|lime|[[Tempel 1]]}} {{legend2|royalblue|[[Earth]]}} {{legend2|cyan|[[103P/Hartley]]}}]]
+{{see also|103P/Hartley}}
+{{see also|Tempel 1}}
+[[File:Introducing Comet Hartley 2.png|thumb|The nucleus of comet 103P/Hartley measuring approximately 2 kilometers  in length and .4 kilometers at its most narrow portion or neck. Jets can be seen streaming out of the nucleus.]]
+The spacecraft used Earth's gravity for the second gravity assist in December 2008 and made two distant flybys of Earth in June and December 2009. On May 30, 2010 it successfully fired its engines for an 11.3 second trajectory correction maneuver, for a velocity change (Δv) of {{convert|0.1|m/s|mph|sp=us}}, in preparation for the third Earth flyby on June 27. Observations of 103P/Hartley began on September 5 and ended November 25, 2010.<ref>{{cite web |url=http://www.nasa.gov/mission_pages/epoxi/epoxi20100528.html |title=NASA Spacecraft Burns for Home, Then Comet |publisher=NASA |access-date=2010-06-01 |archive-date=2021-04-08 |archive-url=https://web.archive.org/web/20210408085117/https://www.nasa.gov/mission_pages/epoxi/epoxi20100528.html |url-status=dead }}</ref> For a diagram of the EPOXI solar orbits see [https://web.archive.org/web/20100905134548/http://epoxi.umd.edu/3gallery/DIXI_path_full.shtml here].
+[[File:495452main epoxi-3-4x3 946-710.jpg|thumb|left|Another view of the comet, taken near closest approach.]]
+The mission's closest approach to 103P/Hartley occurred at 10 am EDT on 4 November 2010, passing to within {{convert|694|km|mi|sp=us}} of this small comet. The flyby speed was 12.3&nbsp;km/s. The spacecraft employed the same suite of three science instruments—two telescopes and an infrared spectrometer—that the Deep Impact spacecraft used during its prime mission to guide an impactor into comet Tempel 1 in July 2005 and observe the results.<ref name="A'Hearn2011">{{Cite journal | last1 = A'Hearn | first1 = M. F. |author-link1=Michael A'Hearn | last2 = Belton | first2 = M. J. S. | last3 = Delamere | first3 = W. A. | last4 = Feaga | first4 = L. M. | last5 = Hampton | first5 = D. | last6 = Kissel | first6 = J. | last7 = Klaasen | first7 = K. P. | last8 = McFadden | first8 = L. A. | last9 = Meech | first9 = K. J. | last10 = Melosh | first10 = H. J. | last11 = Schultz | first11 = P. H. | last12 = Sunshine | first12 = J. M. | last13 = Thomas | first13 = P. C. | last14 = Veverka | first14 = J. | last15 = Wellnitz | first15 = D. D. | last16 = Yeomans | first16 = D. K. | last17 = Besse | first17 = S. | last18 = Bodewits | first18 = D. | last19 = Bowling | first19 = T. J. | last20 = Carcich | first20 = B. T. | last21 = Collins | first21 = S. M. | last22 = Farnham | first22 = T. L. | last23 = Groussin | first23 = O. | last24 = Hermalyn | first24 = B. | last25 = Kelley | first25 = M. S. | last26 = Kelley | first26 = M. S. | last27 = Li | first27 = J. -Y. | last28 = Lindler | first28 = D. J. | last29 = Lisse | first29 = C. M. | last30 = McLaughlin | first30 = S. A. | title = EPOXI at Comet Hartley 2 | journal = Science | volume = 332 | issue = 6036 | pages = 1396–1400 | year = 2011 | pmid = 21680835 | doi = 10.1126/science.1204054|bibcode = 2011Sci...332.1396A | s2cid = 6218729 }}</ref>
+
+Early results of the observations show that the comet is powered by [[dry ice]], not water vapor as was previously thought. The images were clear enough for scientists to link jets of dust and gas with specific surface features.<ref name="A'Hearn2011"/>
+
+"When comet Boethin could not be located, we went to our backup, which is every bit as interesting but about two years farther down the road," said Tom Duxbury, EPOXI project manager at NASA's Jet Propulsion Laboratory in Pasadena, California. "Hartley 2 is scientifically just as interesting as comet Boethin because both have relatively small, active nuclei," said [[Michael A'Hearn]], principal investigator for EPOXI at the University of Maryland, College Park.<ref name="aHern"/>
+
+===Sundry opportunities===
+In November 2010, EPOXI was used to make some test-training deep sky observations, using the MRI camera that is optimised for cometary imagery. Images were made of the [[Dumbbell Nebula|Dumbbell Nebula (M27)]], the [[Veil Nebula|Veil Nebula (NGC6960)]] and the [[Whirlpool Galaxy|Whirlpool Galaxy (M51a)]].<ref>[http://stardustnext.jpl.nasa.gov/mission/deepSkyObservation.html Deep Sky Feasibility Demonstration] {{Webarchive|url=https://web.archive.org/web/20120513165535/http://stardustnext.jpl.nasa.gov/mission/deepSkyObservation.html |date=2012-05-13 }}, [[NASA]], accessed 7 December 2011</ref>
+{{-}}
+
+== References ==
+{{reflist|2}}
+
+== External links ==
+{{commonscat|EPOXI}}
+{{Externalimage
+|float=right
+|width=300px
+|image1=[http://epoxi.umd.edu/3gallery/graphics/DI_EPOXI_orbit_nov4-lg.png Deep Impact trajectory]
+}}
+* [https://web.archive.org/web/20080509154729/http://epoxi.umd.edu/ EPOXI] home page
+* [http://www.nasa.gov/epoxi NASA's EPOXI] {{Webarchive|url=https://web.archive.org/web/20160213232953/http://www.nasa.gov/epoxi |date=2016-02-13 }} page
+* {{Deprecated archive|url=https://archive.today/20130104190616/http://www.spaceref.com/news/viewpr.html?pid=24719|title=NASA's Deep Impact Begins Hunt For Alien Worlds -  8 Feb 2008|sec=el}}
+* [https://web.archive.org/web/20081216070357/http://epoxi.umd.edu/4gallery/Earth-Moon_vid.shtml Movie of the Moon transiting the Earth]
+* [https://pdssbn.astro.umd.edu/data_sb/missions/epoxi/index.shtml ''EPOXI Mission Archive''] at the NASA Planetary Data System, Small Bodies Node
+
+{{Planetary Missions Program Office|Discovery=y}}
+{{Asteroid spacecraft}}
+{{Exoplanet search projects}}
+
+[[Category:Missions to comets]]
+[[Category:Discovery Program]]
+[[Category:Exoplanet search projects]]
+
+[[ru:Дип Импакт (КА)#EPOXI — расширенная миссия]]

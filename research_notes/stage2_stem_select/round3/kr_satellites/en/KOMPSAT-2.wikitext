@@ -1,0 +1,158 @@
+{{Short description|South Korean Earth observation satellite}}
+{{Use American English|date=March 2021}}
+{{Use dmy dates|date=February 2021}}
+{{Infobox spaceflight
+| name              = KOMPSAT-2
+| names_list        = Korean Multi-purpose Satellite-2<br/>Arirang-2
+| image             = G SA KOMPSAT-2 01.jpg
+| image_caption     = 
+| image_size        = 300px
+
+| mission_type      = [[Earth observation satellite|Earth observation]]
+| operator          = [[Korea Aerospace Research Institute]]
+| COSPAR_ID         = 2006-031A
+| SATCAT            = 29258
+| mission_duration  = 3 years (planned)<br/>{{time interval|2006-07-28||show=ymd}} ''(in progress)''
+
+| spacecraft_type   = [[KOMPSAT]]
+| spacecraft_bus    = 
+| manufacturer      = [[Korea Aerospace Industries]]<br/>[[Korea Aerospace Research Institute]]<br/>[[Astrium|EADS Astrium]] (bus)
+| launch_mass       = {{cvt|800|kg}}
+| dimensions        = 1.85 m diameter x 2.6 m in height x 6.8 m length (deployed configuration)
+| power             = 955 [[watt]]s
+
+| launch_date       = 28 July 2006, 07:05:43 [[Coordinated Universal Time|UTC]]
+| launch_rocket     = [[Rokot]]/[[Briz-KM]]
+| launch_site       = [[Plesetsk Cosmodrome|Plesetsk]], [[Plesetsk Cosmodrome Site 133|Site 133/3]]
+| launch_contractor = [[Khrunichev State Research and Production Space Center]]
+
+| last_contact      = 
+| deactivated       =
+
+| orbit_reference   = [[Geocentric orbit]]<ref name="Trajectory">{{cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=2006-031A|title=Trajectory: Kompsat 2 2006-031A |publisher=NASA|date=10 February 2021|access-date=1 March 2021}} {{PD-notice}}</ref>
+| orbit_regime      = [[Sun-synchronous orbit]]
+| orbit_altitude    = {{cvt|685|km}}
+| orbit_inclination = 98.13°
+| orbit_period      = 98.46 minutes
+| apsis             = gee
+
+| instruments       = Multispectral Camera (MSC)
+
+| programme         = '''KOMPSAT programme'''
+| previous_mission  = [[KOMPSAT-1]]
+| next_mission      = [[KOMPSAT-3]]
+}}
+
+'''KOMPSAT-2''' ('''Korean Multi-purpose Satellite-2'''), also known as '''Arirang-2''',<ref name="GSP">{{cite web|url=https://space.skyrocket.de/doc_sdat/kompsat-2.htm|title=KOMPSAT 2 (Arirang 2) |publisher=Gunter's Space Page|date=7 July 2020|access-date=22 October 2021}}</ref> is a South Korean multipurpose [[Earth observation satellite]]. It was launched from [[Plesetsk Cosmodrome]], Russia at 07:45:43 [[Coordinated Universal Time|UTC]] (16:05:43 [[Korea Standard Time|KST]]) on 28 July 2006. It began to transmit signals at 14:00 UTC (23:00 KST) the same day. Like the earlier [[KOMPSAT-1]] satellite, it takes its name from the popular Korean folk song [[Arirang]]. Its launch was the culmination of a project begun in 1995.<ref name="ESA1">{{cite web |url=https://directory.eoportal.org/web/eoportal/satellite-missions/k/kompsat-1|title=KOMPSAT-1|publisher=ESA eoPortal Directory|date=2021|access-date=22 October 2021}}</ref>
+
+KOMPSAT-2 orbits at a height of {{cvt|685|km}}, circling the [[Earth]] 14 times per day, and is expected to maintain that orbit for 3 years. It weighs {{cvt|800|kg}}.<ref>{{cite web |url=http://www.koreaherald.co.kr/SITE/data/html_dir/2006/07/28/200607280025.asp|title=Multipurpose satellite Arirang 2 set for launch|newspaper=[[The Korea Herald]]|date=28 July 2006|access-date=29 July 2006}}</ref> The satellite carries a Multispectral Camera (MSC) which can distinguish to a 100-cm resolution, allowing the identification of individual vehicles on the ground.<ref>{{cite web|url=http://times.hankooki.com/lpage/200607/kt2006072317294410440.htm|title=Arirang-2 to Monitor North Korea|newspaper=[[The Korea Times]]|date=23 July 2006|access-date=29 July 2006|archive-date=13 April 2020|archive-url=https://web.archive.org/web/20200413234255/http://www.koreatimes.co.kr/|url-status=dead}}</ref>
+The satellite was succeeded by [[KOMPSAT-3]], [[KOMPSAT-5]] and [[KOMPSAT-3A]], which were launched in 2012, 2013 and 2015 respectively.
+
+== History ==
+South Korea started the KOMPSAT programme in 1995 to nurture its national Earth-imaging industry and supply services for remote-sensing applications. The South Korean KOMPSAT-2 Earth-imaging satellite was developed by [[Korea Aerospace Industries]] (KAI) and [[Korea Aerospace Research Institute]] (KARI), in partnership with [[Astrium|EADS Astrium]], to assure continuity with the KOMPSAT-1 satellite launched in 1999. KOMPSAT-2 was orbited on 28 July 2006 by a launch vehicle from Plesetsk, Russia. [[Spot Image]] was the distributor of KOMPSAT-2 imagery until April 2011. [[Satrec Initiative|SI Imaging Services]] is the worldwide exclusive distributor of KOMPSAT imagery including KOMPSAT-2 since November 2012.
+
+== Technologies ==
+=== Orbit ===
+KOMPSAT-2 operates in a near-polar, circular [[Sun-synchronous orbit]]. The orbital parameters are:
+* Mean altitude: 685&nbsp;km
+* Mass: 800&nbsp;kg
+* Inclination: 98.1° (Sun-synchronous orbit)
+* Orbital period: 98.6 minutes
+* Orbital cycle: 28 days
+
+=== Instruments ===
+KOMPSAT-2's instruments are designed to acquire high- and very-high-resolution imagery with a footprint of 15&nbsp;km. The satellite has the capacity to acquire 20 minutes of imagery on each orbit and it can steer its sensors both ways out to 30° off track. Panchromatic and multispectral images can be acquired at the same time.
+
+KOMPSAT-2 radiometer features:
+{|class="wikitable" width="80%" align="center" 
+|+ Kompsat-2 radiometric parameters
+|-
+
+! scope=col | mode
+! scope=col | Channel
+! scope=col | Spectral band
+! scope=col | Spatial resolution
+! scope=col | Footprint
+|-
+
+| align="center" | Multispectral
+| align="center" | 1
+| align="center" | 0.45 - 0.52 μm (blue)
+| align="center" | 4 m
+| align="center" | 15&nbsp;km
+|-
+
+|
+| align="center" | 2
+| align="center" | 0.52 - 0.60 μm (green)
+| align="center" | 4 m
+| align="center" | 15&nbsp;km
+|-
+
+|
+| align="center" | 3	
+| align="center" | 0.63 - 0.69μm (rouge)
+| align="center" | 4 m
+| align="center" | 15&nbsp;km
+|-
+
+|
+| align="center" | 4
+| align="center" | 0.76 - 0.90 μm (near-infrared)
+| align="center" | 4 m
+| align="center" | 15&nbsp;km
+|-
+
+| align="center" | Panchromatic   
+| align="center" | P
+| align="center" | 0.50 - 0.90 μm (black and white)
+| align="center" | 1 m
+| align="center" | 15&nbsp;km
+|}
+
+=== Ground receiving stations ===
+Two receiving stations deliver KOMPSAT-2 imagery 1 to 3 days after acquisition and in under 24 hours in Europe. The [[Daejeon|Deajeon station]] in [[South Korea]] is responsible for tasking the satellite. The [[Toulouse]] station in France is responsible for updating the catalogue, producing imagery and delivering it to its customers.
+
+== Advantages and applications of KOMPSAT-2 imagery ==
+KOMPSAT-2 is designed for very-high-resolution (VHR) remote-sensing applications, such as:
+* Land planning: to detect and identify features smaller than 1 square meter, e.g. vehicles, street furnishings, roads and bushes
+* Agriculture: to pinpoint crop or tree diseases
+* Urban planning and demographics: to locate detached houses
+* Civil engineering: to plan road, railroad and oil pipeline corridors
+* Defence: to describe high-value assets or military sites
+
+== North Korea ==
+It serves along with the existing Kompsat-2 to provide continuous satellite observation of the [[Korea|Korean Peninsula]], sending images twice a day at 1:30 and 13:30.<ref name="KH20120619">{{cite web |url=http://www.koreaherald.com/view.php?ud=20120518000750&ACE_SEARCH=1|title=Arirang-3 launch lifts Korea's space program|newspaper=[[The Korea Herald]]|date=19 June 2012|access-date=24 October 2021}}</ref>
+
+== Mission ==
+In October 2015, the [[Ministry of Science, ICT and Future Planning]] (MSIP) and [[Korea Aerospace Research Institute|KARI]] made plans about the future of the KOMPSAT-2 mission which is on orbit for more than 9 years. It was decided not to extend the KOMPSAT-2 mission any further for systematic observation services, but instead use it for research purposes until the end of its life cycle. Although KOMPSAT-2 was originally designed to have a life cycle of 3 years, this was extended three times (by two years each time, for a total of 6 years) by applying highly reliable satellite technology. KOMPSAT-2 has successfully carried out its mission of obtaining images of the Korean Peninsula and other major areas of the world over a period of nine years. KOMPSAT-2 is used in next-generation satellite technology research without any further extension of its mission until the end of its life cycle, as its operation systems - such as its payload module, sensor, and Earth station operation system (command transmission and satellite condition analysis) - are aged.<ref name="ESA2">{{cite web|url=https://directory.eoportal.org/web/eoportal/satellite-missions/k/kompsat-2|title=KOMPSAT-2|publisher=ESA eoPortal Directory|date=2021|access-date=22 October 2021}}</ref>
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[STSAT-2]]
+* [[GIS]]
+* [[Remote sensing]]
+* [[Korean Aerospace Research Institute]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+{{commons category|KOMPSAT-2}}
+
+* [https://web.archive.org/web/20050620200549/http://today.reuters.com/news/newsArticle.aspx?type=worldNews Reuters report]
+* [https://web.archive.org/web/20110114055707/http://www.kari.re.kr/english/ KARI]
+* [http://www.si-imaging.com/ SI Imaging Services]
+* [http://www.satreci.com/ Satrec Initiative]
+* [https://web.archive.org/web/20100304212631/http://www.spotimage.fr/ Spot Image]
+
+{{South Korean Space Program}}
+{{KAI aircraft}}
+{{Orbital launches in 2006}}
+
+[[Category:Satellites orbiting Earth]]
+[[Category:Korea Aerospace Industries spacecraft]]
+[[Category:Spacecraft launched in 2006]]
+[[Category:Spacecraft launched by Rokot rockets]]
+[[Category:Korea Aerospace Research Institute]]
+[[Category:KOMPSAT satellites]]

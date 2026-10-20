@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ks-01",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "우리별 1호",
+    "question": "인공위성 우리별 1호의 질량은 몇 kg인가?",
+    "answer": "48.6 kg",
+    "value": 48.6,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "우리별 1호",
+        "quote": "중량: 48.6 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "KITSAT-1",
+      "en_revid": 1354114501,
+      "en_key": "launch_mass",
+      "en_value": 48.6,
+      "en_text": "{{cvt|48.6|kg}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-02",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "과학기술위성 1호",
+    "question": "인공위성 과학기술위성 1호의 질량은 몇 kg인가?",
+    "answer": "106 kg",
+    "value": 106.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "과학기술위성 1호",
+        "quote": "중량: 106 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "STSat-1",
+      "en_revid": 1268126951,
+      "en_key": "launch_mass",
+      "en_value": 106.0,
+      "en_text": "{{cvt|106|kg}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-03",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "우리별 3호",
+    "question": "인공위성 우리별 3호의 질량은 몇 kg인가?",
+    "answer": "110 kg",
+    "value": 110.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "우리별 3호",
+        "quote": "중량: 110Kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "KITSAT-3",
+      "en_revid": 1379770497,
+      "en_key": "launch_mass",
+      "en_value": 110.0,
+      "en_text": "{{cvt|110|kg}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-04",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "차세대소형위성 1호",
+    "question": "인공위성 차세대소형위성 1호의 질량은 몇 kg인가?",
+    "answer": "107 kg",
+    "value": 107.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "차세대소형위성 1호",
+        "quote": "중량: 107kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "NEXTSat-1",
+      "en_revid": 1316807034,
+      "en_key": "launch_mass",
+      "en_value": 107.0,
+      "en_text": "{{convert|107|kg}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-05",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "아리랑 3호",
+    "question": "인공위성 아리랑 3호의 질량은 몇 kg인가?",
+    "answer": "980 kg",
+    "value": 980.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "아리랑 3호",
+        "quote": "중량: 980 Kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "KOMPSAT-3",
+      "en_revid": 1354708214,
+      "en_key": "launch_mass",
+      "en_value": 980.0,
+      "en_text": "{{cvt|980|kg}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-06",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "차세대소형위성 2호",
+    "question": "인공위성 차세대소형위성 2호의 질량은 몇 kg인가?",
+    "answer": "179.9 kg",
+    "value": 179.9,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "차세대소형위성 2호",
+        "quote": "중량: 179.9kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "NEXTSat-2",
+      "en_revid": 1310232265,
+      "en_key": "launch_mass",
+      "en_value": 179.9,
+      "en_text": "{{cvt|179.9|kg}}",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-07",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "과학기술위성 2호",
+    "question": "인공위성 과학기술위성 2호의 질량은 몇 kg인가?",
+    "answer": "99.4 kg",
+    "value": 99.4,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "과학기술위성 2호",
+        "quote": "중량: 99.4 kg"
+      }
+    ],
+    "en_check": {
+      "en_title": "STSat-2A",
+      "en_revid": 1379425448,
+      "en_key": "launch_mass",
+      "en_value": 100.0,
+      "en_text": "{{cvt|100|kg}}",
+      "diff_pct": 0.6
+    }
+  },
+  {
+    "id": "ks-08",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "OSSI-1",
+    "question": "인공위성 OSSI-1의 질량은 몇 kg인가?",
+    "answer": "0.95 kg",
+    "value": 0.9500000000000001,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "OSSI-1",
+        "quote": "중량: 950g"
+      }
+    ],
+    "en_check": {
+      "en_title": "OSSI-1",
+      "en_revid": 1352390010,
+      "en_key": "launch_mass",
+      "en_value": 0.9500000000000001,
+      "en_text": "950g<ref name=\"nasa\"/>",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-09",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "무궁화 1호",
+    "question": "인공위성 무궁화 1호의 질량은 몇 kg인가?",
+    "answer": "1464 kg",
+    "value": 1464.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "무궁화 1호",
+        "quote": "중량: 1,464㎏"
+      }
+    ],
+    "en_check": {
+      "en_title": "Koreasat 1",
+      "en_revid": 1354708902,
+      "en_key": "launch_mass",
+      "en_value": 1464.0,
+      "en_text": "{{convert|1464|kg|lb}}<ref name=gsp/>",
+      "diff_pct": 0.0
+    }
+  },
+  {
+    "id": "ks-10",
+    "kind": "값",
+    "subject": "한국의 인공위성",
+    "target": "무궁화 5호",
+    "question": "인공위성 무궁화 5호의 질량은 몇 kg인가?",
+    "answer": "4500 kg",
+    "value": 4500.0,
+    "unit": "kg",
+    "evidence_quotes": [
+      {
+        "doc": "무궁화 5호",
+        "quote": "중량: 4.5톤"
+      }
+    ],
+    "en_check": {
+      "en_title": "Koreasat 5",
+      "en_revid": 1354709114,
+      "en_key": "launch_mass",
+      "en_value": 4465.0,
+      "en_text": "4465 kg",
+      "diff_pct": 0.7839
+    }
+  }
+]

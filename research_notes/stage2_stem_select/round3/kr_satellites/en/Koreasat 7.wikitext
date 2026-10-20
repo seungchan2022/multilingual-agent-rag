@@ -1,0 +1,38 @@
+{{Short description|South Korean satellite launched in 2017}}
+{{Use dmy dates|date=February 2018}}
+{{Infobox spaceflight
+| name = Koreasat 7
+| image = Koreasat 7.jpg
+| image_caption = Launch of Ariane 5 ECA flight VA236 with Koreasat 7 and [[SGDC]]-1
+| mission_type = [[Communications Satellite]]
+| manufacturer = [[Thales Alenia Space]]
+| launch_date = {{start_date|2017|4|5|00|00|7=Z}} UTC
+| launch_rocket = [[Ariane 5 ECA]] ([[List_of_Ariane_launches_(2010–2019)#2017|VA236]])
+|launch_contractor=[[Arianespace]]
+| launch_site = [[Guiana Space Centre]] [[ELA-3]]
+| spacecraft_bus = [[Spacebus 4000|Spacebus-4000B2]]<ref name="astronautix">{{cite web |title=Koreasat 7 |url=http://www.astronautix.com/k/koreasat7.html |website=www.astronautix.com |access-date=27 November 2022}}</ref>
+| orbit_reference = Geocentric
+| orbit_regime = [[Geosynchronous orbit|Geosynchronous]]
+| orbit_longitude = 116° E
+| operator = [[KT Sat]]
+| trans_band = [[Ku band|Ku]], [[Ka band|Ka]]
+| trans_coverage = [[Korea]], [[Philippines]], [[Indonesia]], [[India]]
+}}
+
+'''Koreasat 7''' (also known as '''Mugunghwa 7''') is a South Korean [[communications satellite]] operated by KT SAT, a subsidiary of [[KT Corporation]].<ref>{{cite web|url=http://spacenews.com/40540kt-sat-picks-thales-alenia-over-orbital-sciences-for-two-satellite/|title=KT Sat Picks Thales Alenia over Orbital Sciences for Two-satellite Order|publisher=[[spacenews.com]]|date=12 May 2014|access-date=14 February 2018}}</ref> [[Thales Alenia Space]] was contracted in 2014 to build both it and [[Koreasat 5A]]. Koreasat 7A was launched into geosynchronous orbit on 4 May 2017 aboard an [[Ariane 5 ECA]] launch vehicle and placed at 116 degrees east longitude to provide coverage over [[East Asia]].<ref name="gunter">{{Cite web |last=Krebs |first=Gunter Dirk |title=Koreasat 7 (Mugunghwa 7) |url=https://space.skyrocket.de/doc_sdat/koreasat-7.htm |access-date=27 November 2022 |website=Gunter's Space Page}}</ref>
+
+==References==
+{{Reflist}}
+
+{{South Korean Space Program}}
+{{Orbital launches in 2017}}
+
+[[Category:Koreasat satellites]]
+[[Category:Spacecraft launched in 2017]]
+[[Category:2017 in South Korea]]
+[[Category:Satellites using the A2100 bus]]
+[[Category:Ariane commercial payloads]]
+[[Category:Spacecraft launched by Ariane 5 rockets]]
+
+
+{{communications-satellite-stub}}
