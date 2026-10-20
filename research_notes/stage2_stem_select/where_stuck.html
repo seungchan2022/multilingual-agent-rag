@@ -9,26 +9,30 @@
 html { font-size:17px; }
 body { background:var(--bg); color:var(--fg); margin:0; padding:28px 16px;
   font-family:-apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; line-height:1.75; }
-main { max-width:920px; margin:0 auto; }
-h1 { font-size:1.45rem; margin:0 0 4px; }
-.sub { color:var(--muted); font-size:.88rem; margin:0 0 20px; }
-.headline { background:var(--box); border-left:4px solid var(--bad); padding:12px 16px; }
+main { max-width:880px; margin:0 auto; }
+h1 { font-size:1.5rem; margin:0 0 4px; }
+.sub { color:var(--muted); font-size:.9rem; margin:0 0 22px; }
+.headline { background:var(--box); border-left:4px solid var(--bad); padding:14px 18px; }
 .headline p { margin:6px 0; }
-h2 { font-size:1.08rem; margin:30px 0 8px; }
+h2 { font-size:1.18rem; margin:38px 0 6px; }
+h3 { font-size:1.02rem; margin:26px 0 2px; }
+h3 .count { color:var(--muted); font-weight:400; }
+.def { color:var(--muted); font-size:.93rem; margin:2px 0 8px; }
 .wrap { overflow-x:auto; }
 table { border-collapse:collapse; width:100%; font-size:.95rem; }
 th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
-th { background:var(--box); }
-tr.group td { background:var(--box); font-weight:600; }
-tr.group td span { font-weight:400; color:var(--muted); }
-.bad { color:var(--bad); font-weight:600; white-space:nowrap; }
-.ok { color:var(--ok); font-weight:600; white-space:nowrap; }
-.note { color:var(--muted); font-size:.92rem; margin:8px 0; }
-pre { background:var(--box); padding:14px 16px; overflow-x:auto; font-size:.95rem; line-height:1.6; }
-ul { padding-left:20px; margin:6px 0; }
-li { margin:3px 0; }
-footer { margin-top:34px; border-top:1px solid var(--line); padding-top:10px; color:var(--muted); font-size:.86rem; }
-footer code, .note code { font-size:.78rem; }
+th { background:var(--box); font-weight:600; }
+td.num { white-space:nowrap; }
+.bad { color:var(--bad); font-weight:600; }
+.ok { color:var(--ok); font-weight:600; }
+.note { color:var(--muted); font-size:.93rem; margin:8px 0; }
+pre { background:var(--box); padding:14px 16px; overflow-x:auto; font-size:.95rem; line-height:1.6; font-family:inherit; white-space:pre-wrap; }
+ul { padding-left:22px; margin:6px 0; }
+li { margin:5px 0; }
+details { margin-top:44px; border-top:1px solid var(--line); padding-top:12px; color:var(--muted); font-size:.88rem; }
+summary { cursor:pointer; font-weight:600; color:var(--fg); }
+details h4 { font-size:.92rem; margin:16px 0 4px; color:var(--fg); }
+code { font-size:.82rem; }
 </style>
 </head>
 <body>
@@ -39,48 +43,69 @@ footer code, .note code { font-size:.78rem; }
 
 <div class="headline">
 <p><b>질문은 한쪽 언어 문서에만 있는 사실로 만든다.</b> 예: 한국어로 물었는데 답이 영어 문서에만 있으면, 시스템이 언어를 넘어 답을 찾아가는지 볼 수 있다.</p>
-<p>그런 사실이 언어마다 36개 이상(개발용 12, 최종 평가용 후보 24), 그 가운데 표에서 나온 것이 3개 이상 있어야 한다. 지금까지 고른 STEM 분야의 문서로는 <b>한국어 쪽이 모자랐다.</b> 그래서 어떻게 보완할지 이야기해야 한다.</p>
+<p>그런 사실이 언어마다 36개 이상 필요하다. 그 가운데 3개 이상은 표 안에 있어야 한다.</p>
+<p><b>지금까지 고른 STEM 분야의 문서로는 한국어 쪽이 모자랐다.</b> 그래서 어떻게 보완할지 이야기해야 한다.</p>
 </div>
 
-<h2>해 본 분야와 멈춘 곳</h2>
+<h2>해 본 분야 15개, 멈춘 까닭별로</h2>
+
+<h3>1. 문서 없이 맞은 수가 정한 범위 밖 <span class="count">4개</span></h3>
+<p class="def">문서 없이 맞은 수: 모델이 문서 없이 질문을 풀어 값을 맞힌 수(100번 가운데). 높으면 모델이 이미 안다는 뜻이다. 범위는 20~40이다(30에서 질문 하나만큼 위아래).</p>
+<table>
+<thead><tr><th>분야</th><th>값 / 통과선</th><th>한 줄</th></tr></thead>
+<tbody>
+<tr><td>화학 원소</td><td class="num">80 / 20~40 <span class="bad">못 넘음</span></td><td>모델이 이미 앎</td></tr>
+<tr><td>태양계 천체</td><td class="num">56 / 20~40 <span class="bad">못 넘음</span></td><td>모델이 이미 앎</td></tr>
+<tr><td>광물</td><td class="num">46 / 20~40 <span class="bad">못 넘음</span></td><td>모델이 이미 앎</td></tr>
+<tr><td>덜 알려진 위성</td><td class="num">19 / 20~40 <span class="bad">못 넘음</span></td><td>처음 21로 세어 골랐다가, 단위까지 보고 다시 세어 무름</td></tr>
+</tbody>
+</table>
+
+<h3>2. 물을 값이 있는 대상을 10개 채우지 못함 <span class="count">5개</span></h3>
+<p class="def">질문에 쓸 값이 정보 상자(문서 오른쪽의 요약 칸)에 숫자 하나로 적힌 대상이 10개 있어야 한다. 한국어 값과 영어 값은 1% 안에서 맞아야 한다.</p>
+<table>
+<thead><tr><th>분야</th><th>값 / 통과선</th><th>한 줄</th></tr></thead>
+<tbody>
+<tr><td>가까운 항성</td><td class="num">3 / 10 <span class="bad">못 넘음</span></td><td>한국어 값과 영어 값이 1% 넘게 다른 대상이 많음</td></tr>
+<tr><td>한국의 댐</td><td class="num">3 / 10 <span class="bad">못 넘음</span></td><td>값이 숫자로 적힌 대상이 적음</td></tr>
+<tr><td>한국의 원자력 발전소</td><td class="num">3 / 10 <span class="bad">못 넘음</span></td><td>같음</td></tr>
+<tr><td>한국의 고속철도 차량</td><td class="num">6 / 10 <span class="bad">못 넘음</span></td><td>같음</td></tr>
+<tr><td>한국의 교량</td><td class="num">0 / 10 <span class="bad">못 넘음</span></td><td>물을 값이 정보 상자에 보이지 않음</td></tr>
+</tbody>
+</table>
+
+<h3>3. 한국어 쪽 사실이 모자람 <span class="count">4개</span></h3>
+<p class="def">한국어에만 있는 숫자: 한국어 문서에는 있고, 영어 문서 어디에도 없는 숫자. 사실을 하나하나 세기 어려워 단위가 붙은 숫자로 어림했다.</p>
 <div class="wrap">
 <table>
-<thead><tr><th>분야</th><th>멈춘 곳</th><th>값 / 통과선</th></tr></thead>
+<thead><tr><th>분야</th><th>한국어에만 / 36</th><th>한국어 표 안 / 3</th><th>영어에만 / 36</th><th>영어 표 안 / 3</th></tr></thead>
 <tbody>
-<tr class="group"><td colspan="3">첫 번째 재기 (10-19) <span>질문 10개를 문서 없이, 문서를 주고 10번씩 풀게 함</span></td></tr>
-<tr><td>화학 원소</td><td>모델이 이미 앎</td><td>문서 없이 맞은 수¹ 80 / 20~40 <span class="bad">못 넘음</span></td></tr>
-<tr><td>태양계 천체</td><td>모델이 이미 앎</td><td>56 / 20~40 <span class="bad">못 넘음</span></td></tr>
-<tr><td>광물</td><td>모델이 이미 앎</td><td>46 / 20~40 <span class="bad">못 넘음</span></td></tr>
-
-<tr class="group"><td colspan="3">짧은 시험 (10-19) <span>모델이 값을 아는지 대상 10개로 먼저 물음. 100번 가운데 10~50이면 넘음</span></td></tr>
-<tr><td>가까운 항성</td><td>한국어·영어 값이 1% 넘게 달라 대상 10개를 못 채움</td><td>값이 맞는 대상 3 / 10 <span class="bad">못 넘음</span></td></tr>
-<tr><td>유기 화합물</td><td>넘었지만 정식 실험에 보내지 않음(30에 가까운 3개만 보내는 규칙)</td><td>45 / 10~50 <span class="ok">넘음</span></td></tr>
-<tr><td>왜행성·소행성</td><td>넘었지만 정식 실험에 보내지 않음(같은 규칙)</td><td>10 / 10~50 <span class="ok">넘음</span></td></tr>
-
-<tr class="group"><td colspan="3">정식 실험 (10-20) <span>짧은 시험을 넘은 3개를 첫 번째 재기와 같은 방법으로</span></td></tr>
-<tr><td>덜 알려진 위성</td><td>문서 없이 맞은 수가 범위 아래. 처음 21로 세어 도메인으로 정했다가, 단위까지 보는 규칙으로 다시 세니 19라 무름</td><td>19 / 20~40 <span class="bad">못 넘음</span></td></tr>
-<tr><td>희토류 원소</td><td>모델 시험은 넘음(문서 없이 23, 문서를 주면 100). 한국어에만 있는 사실이 모자람²</td><td>한국어에만 7 / 36 <span class="bad">못 넘음</span><br>그 가운데 표 안 0 / 3 <span class="bad">못 넘음</span></td></tr>
-<tr><td>외계 행성</td><td>모델 시험은 넘음(28, 100). 한국어 표에서 나온 사실이 모자람²</td><td>한국어에만 37 / 36 <span class="ok">넘음</span><br>그 가운데 표 안 2 / 3 <span class="bad">못 넘음</span></td></tr>
-
-<tr class="group"><td colspan="3">새 후보 여섯 (10-20) <span>모델을 돌리기 전에 문서부터 잼</span></td></tr>
-<tr><td>한국의 댐</td><td>물을 값이 정보 상자에 숫자로 적힌 대상이 모자람</td><td>가장 많은 값 3 / 10 <span class="bad">못 넘음</span></td></tr>
-<tr><td>한국의 원자력 발전소</td><td>같음</td><td>3 / 10 <span class="bad">못 넘음</span></td></tr>
-<tr><td>한국의 고속철도 차량</td><td>같음</td><td>6 / 10 <span class="bad">못 넘음</span></td></tr>
-<tr><td>한국의 교량</td><td>물을 값이 정보 상자에 보이지 않음(처음에 통과로 셌다가 바로잡음)</td><td>고른 대상 0 / 10 <span class="bad">못 넘음</span></td></tr>
-<tr><td>한국의 인공위성</td><td>한국어에만 있는 사실이 모자람²</td><td>한국어에만 23 / 36 <span class="bad">못 넘음</span><br>그 가운데 표 안 0 / 3 <span class="bad">못 넘음</span></td></tr>
-<tr><td>태양계 탐사선</td><td>한국어에만 있는 사실이 모자람²</td><td>한국어에만 4 / 36 <span class="bad">못 넘음</span><br>그 가운데 표 안 0 / 3 <span class="bad">못 넘음</span></td></tr>
+<tr><td>희토류 원소</td><td class="num">7 <span class="bad">못 넘음</span></td><td class="num">0 <span class="bad">못 넘음</span></td><td class="num">110 <span class="ok">넘음</span></td><td class="num">45 <span class="ok">넘음</span></td></tr>
+<tr><td>외계 행성</td><td class="num">37 <span class="ok">넘음</span></td><td class="num">2 <span class="bad">못 넘음</span></td><td class="num">129 <span class="ok">넘음</span></td><td class="num">7 <span class="ok">넘음</span></td></tr>
+<tr><td>한국의 인공위성</td><td class="num">23 <span class="bad">못 넘음</span></td><td class="num">0 <span class="bad">못 넘음</span></td><td class="num">44 <span class="ok">넘음</span></td><td class="num">14 <span class="ok">넘음</span></td></tr>
+<tr><td>태양계 탐사선</td><td class="num">4 <span class="bad">못 넘음</span></td><td class="num">0 <span class="bad">못 넘음</span></td><td class="num">65 <span class="ok">넘음</span></td><td class="num">1 <span class="bad">못 넘음</span></td></tr>
 </tbody>
 </table>
 </div>
-<p class="note">영어 쪽: 마지막 네 분야 모두 영어에만 있는 숫자가 36을 넘었다(110, 129, 44, 65). 표 조건은 탐사선만 못 넘었다(1 / 3).</p>
-<p class="note">¹ 문서 없이 맞은 수 = 질문에 쓰인 값(예: 밀도)을 맞게 쓴 답의 수(100번 가운데). 첫 번째 재기 결과를 본 뒤 최종 답 대신 이것으로 세기로 했고(10-19), Codex의 지적으로 단위까지 보게 다시 고쳤다(10-20). 표의 값은 고친 규칙으로 센 것이다.</p>
-<p class="note">² 한국어에만 있는 사실은 단위가 붙은 숫자로 어림해 셌다. 센 범위(코퍼스)는 대상 10개의 한국어·영어 문서 20개와, 대상들이 링크로 많이 가리키는 주제 문서 10개다. 처음에는 대상 10개의 문서만 쟀다. 다섯 분야가 모두 떨어진 것을 본 뒤 코퍼스로 넓혔다(10-20).</p>
-<p class="note">시험 전에 뺀 분야(10-19 조사): 혜성, 방사성 동위원소, 태풍, 항공기, 발사체, 교량. 1% 안으로 채점할 값이 없거나, 한 값으로 다 찍어도 많이 맞거나, 물을 값이 있는 대상이 적었다.</p>
+<p class="note">희토류 원소와 외계 행성은 모델 시험을 넘었다(문서 없이 맞은 수 23, 28 / 문서를 주면 100, 100). 한국의 인공위성과 태양계 탐사선은 문서부터 재서 모델 시험은 하지 않았다.</p>
+
+<h3>4. 짧은 시험은 넘었지만 문서를 재지 않음 <span class="count">2개</span></h3>
+<p class="def">짧은 시험: 모델이 값을 아는지 대상 10개로 먼저 물어본 시험. 100번 가운데 10~50이면 넘는다. 넘은 분야 가운데 30에 가까운 3개만 다음으로 보냈다.</p>
+<table>
+<thead><tr><th>분야</th><th>값 / 통과선</th><th>한 줄</th></tr></thead>
+<tbody>
+<tr><td>유기 화합물</td><td class="num">45 / 10~50 <span class="ok">넘음</span></td><td>30에서 멀어 보내지 않음</td></tr>
+<tr><td>왜행성·소행성</td><td class="num">10 / 10~50 <span class="ok">넘음</span></td><td>30에서 멀어 보내지 않음</td></tr>
+</tbody>
+</table>
+
+<p class="note">시험 전에 뺀 분야도 있다: 혜성, 방사성 동위원소, 태풍, 항공기, 발사체. 물을 값이 마땅치 않았다.</p>
+<p class="note">결과를 본 뒤 바꾼 규칙들은 맨 아래 기록용 칸에 적었다.</p>
 
 <h2>왜 한국어 쪽이 모자란가</h2>
 <ul>
-<li>모델이 모르는 대상을 고르면 덜 알려진 대상이 된다. 그런 대상은 한국어 문서가 짧다. 대상의 한국어 본문 중앙값은 598.5~1,969자였다(다섯 분야). 도시 때는 18,588자였다(같은 측정 규칙).</li>
-<li>한국어 문서의 숫자는 대부분 영어 문서에도 있다. 예: 희토류 원소는 코퍼스의 서로 다른 한국어 숫자 120개 가운데 113개가 영어 문서에도 있었다.</li>
+<li>모델이 모르는 대상은 덜 알려진 대상이다. 덜 알려진 대상은 한국어 문서가 짧다. 한국어 본문 중앙값은 598.5~1,969자였다(다섯 분야). 도시 때는 18,588자였다.</li>
+<li>한국어 문서의 숫자는 대부분 영어 문서에도 있다. 예: 희토류 원소는 한국어 숫자 120개 가운데 113개가 영어 문서에도 있었다.</li>
 <li>한국어 문서에 표가 거의 없다. 대상의 한국어 문서 10개 가운데 표가 있는 문서는 0~1개였다.</li>
 </ul>
 
@@ -89,40 +114,58 @@ footer code, .note code { font-size:.78rem; }
   한국어 문서: "중량: 48.6 kg"
   영어 문서:   "Launch mass: 48.6 kg"   (뜻: 발사 질량 48.6 kg)
 
-방법 1. 두 문서를 다 넣는다 (위 표의 숫자를 센 방법)
+방법 1. 두 문서를 다 넣는다 (위 3번의 숫자를 센 방법)
   48.6 kg이 영어 문서에도 있다.
   그래서 "한국어에만 있는 숫자"가 아니다.
 
 방법 2. 한국어 문서만 넣는다
-  영어 문서가 코퍼스에 없다.
+  영어 문서가 코퍼스(검색할 문서 묶음)에 없다.
   그래서 48.6 kg은 "한국어에만 있는 숫자"가 된다.</pre>
 <ul>
-<li><b>갈래</b>는 대상을 셋으로 나눠, 갈래마다 넣는 문서를 다르게 하는 방식이다: 두 문서를 다 넣는 대상, 한국어 문서만 넣는 대상, 영어 문서만 넣는 대상. 10-13에 도시 도메인에서 이렇게 정했다(예: 전주는 두 문서를 다, 수원은 한국어 문서만, 부산은 영어 문서만). 도시도 두 문서를 다 넣으면 겹치는 사실이 많아서 정한 방식이다.</li>
-<li>위 표의 마지막 검사는 이 결정을 확인하지 않고 방법 1로만 셌다(AI의 잘못).</li>
+<li><b>갈래</b>: 대상을 셋으로 나눠, 갈래마다 넣는 문서를 다르게 하는 방식. 두 문서를 다 넣는 대상, 한국어 문서만 넣는 대상, 영어 문서만 넣는 대상을 섞는다.</li>
+<li>10-13에 도시 도메인에서 이렇게 정했다(예: 전주는 두 문서를 다, 수원은 한국어 문서만, 부산은 영어 문서만). 두 문서를 다 넣으면 겹치는 사실이 많아서였다.</li>
+<li>위 3번의 숫자는 이 결정을 확인하지 않고 방법 1로만 센 것이다(AI의 잘못).</li>
 <li>방법 2를 섞으면 한국어에만 있는 숫자는 늘 수 있다. 정확한 조건: 코퍼스의 다른 영어 문서에 같은 숫자가 있으면 그래도 세지 않는다.</li>
-<li>표 조건은 방법 2로도 거의 바뀌지 않을 가능성이 크다. 방법 2는 영어 문서를 뺄 뿐, 없던 한국어 표를 만들지 않는다. 한국어 표는 대상이 아닌 주제 문서 몇 개에 있다(예: 란타넘족 표 8개). 이 문서들을 어떻게 넣을지는 10-13 결정에 없다. 표가 있는 것을 본 뒤에 그 문서를 고르면 결과를 보고 고르는 셈이 된다.</li>
+<li>표 조건은 방법 2로도 거의 바뀌지 않을 가능성이 크다. 방법 2는 영어 문서를 뺄 뿐, 없던 한국어 표를 만들지 않는다.</li>
+<li>정확한 조건: 한국어 표는 대상이 아닌 주제 문서 몇 개에 있다(예: 란타넘족 표 8개). 이 문서들을 어떻게 넣을지는 10-13 결정에 없다. 표가 있는 것을 보고 그 문서를 고르면, 결과를 보고 고르는 셈이 된다.</li>
 </ul>
 
 <h2>아직 모르는 것</h2>
 <ul>
 <li>방법 2(한쪽 문서를 빼는 조합)로는 세지 않았다.</li>
 <li>유기 화합물과 왜행성·소행성은 문서를 재지 않았다.</li>
-<li>숫자 세기는 사실 세기의 어림이다. 단위를 잘못 읽으면 늘고, 같은 숫자를 찾는 규칙이 느슨하면 준다. 둘의 크기는 재지 않았다.</li>
+<li>숫자 세기는 사실 세기의 어림이다. 단위를 잘못 읽으면 많이 세고(예: "12024년"을 숫자로 셈), 같은 숫자를 찾는 규칙이 느슨하면 적게 센다. 둘의 크기는 재지 않았다.</li>
 </ul>
 
 <h2>다음</h2>
 <p>심층 리서치(다른 다국어 RAG 평가에서는 한쪽 언어에만 있는 사실이 적은 도메인을 어떻게 다루는지), 그다음 방향 정하기.</p>
 
-<footer>
-<p>숫자의 출처(경로는 <code>research_notes/stage2_stem_select/</code> 아래). 2026-10-20 세션에서 원본 파일로 다시 계산해 판단 기록(<code>decisions/judgments.md</code>)과 맞춰 봤다. 가까운 항성과 새 후보의 대상 조사는 계산된 기록에서 옮겼다.</p>
+<details>
+<summary>기록용: 바꾼 규칙, 바로잡은 것, 숫자의 출처</summary>
+
+<h4>결과를 본 뒤 바꾼 규칙</h4>
+<ul>
+<li>문서 없이 맞은 수: 처음에는 최종 답이 맞은 수로 셌다. 첫 번째 재기 결과를 본 뒤(10-19) 질문에 쓰인 값(예: 밀도)을 맞힌 수로 바꿨다. 10-20에 Codex의 지적으로 단위까지 보게 다시 고쳤다. 이 장의 값은 고친 규칙으로 센 것이다.</li>
+<li>기준 ②(판정 모델이 답을 검토하고 다시 쓰게 하면 오르는 수, B − A ≥ 20)를 뺐다. 정식 실험에서 문서 없이·문서를 주고 맞은 수를 본 뒤(10-20) 분야 고르기에서 뺐다. 다시 쓰게 한 결과(B)는 기록으로 남기고 4단계에서 본다.</li>
+<li>한국어에만 있는 사실을 재는 범위: 처음에는 대상 10개의 문서로만 쟀다. 다섯 분야가 모두 떨어진 것을 본 뒤(10-20) 코퍼스(대상 문서 20개 + 대상들이 링크로 많이 가리키는 주제 문서 10개)로 넓혔다.</li>
+</ul>
+
+<h4>바로잡은 것</h4>
+<ul>
+<li>한국의 교량은 대상 조사에서 처음에 통과로 셌다. 정보 상자에 보이지 않는 칸을 센 것이라 바로잡아 떨어뜨렸다.</li>
+<li>덜 알려진 위성은 문서 없이 맞은 수 21로 도메인으로 정했다가, 단위까지 보고 다시 세니 19라 물렀다.</li>
+</ul>
+
+<h4>숫자의 출처</h4>
+<p>경로는 <code>research_notes/stage2_stem_select/</code> 아래다. 2026-10-20 세션에서 원본 파일로 다시 계산해 판단 기록(<code>decisions/judgments.md</code>)과 맞춰 봤다. 가까운 항성과 새 후보의 대상 조사는 계산된 기록에서 옮겼다.</p>
 <ul>
 <li>문서 없이·문서를 주고 맞은 수: <code>chem|solar|mineral/results/base.jsonl, context.jsonl</code>, <code>round2/&lt;분야&gt;/results/base.jsonl, context.jsonl</code>와 <code>round1_error_types.jsonl</code>, <code>round2/error_types.jsonl</code></li>
 <li>짧은 시험: <code>short_test/&lt;분야&gt;/results/base.jsonl</code>. 가까운 항성: <code>decisions/judgments.md</code> 2026-10-19 "짧은 시험 질문 만들기" 줄</li>
-<li>대상 문서의 길이와 표: <code>round2/stepper_check/results.json</code>, <code>round3/measure/results.json</code>. 도시: <code>research_notes/stage2_domain_survey/results.json</code></li>
+<li>대상 문서의 길이와 표: <code>round2/stepper_check/results.json</code>, <code>round3/measure/results.json</code>. 도시: <code>research_notes/stage2_domain_survey/results.json</code>(같은 측정 규칙)</li>
 <li>새 후보의 대상 조사: <code>round3/survey/summary.md</code>(<code>survey3.py</code>가 <code>survey.json</code>에서 계산). 교량 바로잡음: <code>decisions/judgments.md</code> 2026-10-20 "2 대상 고르기" 줄</li>
 <li>한국어에만·영어에만 있는 숫자: <code>round4/&lt;분야&gt;/results.json</code>. 우리별 1호의 두 줄: <code>round4/kr_satellites/cache/md/ko_39123371.md</code> 12줄, <code>en_1354114501.md</code> 13줄</li>
 </ul>
-</footer>
+</details>
 
 </main>
 </body>
