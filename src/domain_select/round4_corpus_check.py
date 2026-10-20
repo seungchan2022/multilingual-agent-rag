@@ -44,7 +44,15 @@ from bs4 import BeautifulSoup, NavigableString  # noqa: E402
 ROOT = sc.ROOT
 ROUND4 = ROOT / "research_notes" / "stage2_stem_select" / "round4"
 STEPPER_OUT = sc.OUT
-DOMAINS = {"rare_earth": "희토류 원소", "exoplanets": "외계 행성"}
+DOMAINS = {"rare_earth": "희토류 원소", "exoplanets": "외계 행성", "kr_satellites": "한국의 인공위성", "probes": "태양계 탐사선"}
+ROUND3 = ROOT / "research_notes" / "stage2_stem_select" / "round3"
+# 분야별 대상 10개의 한·영 문서가 어디에 있는가: (받은 기록 fetched.jsonl, HTML 폴더). 기록의 domain 칸이 분야 이름이다.
+INPUTS = {
+    "rare_earth": (STEPPER_OUT / "fetched.jsonl", STEPPER_OUT / "cache"),
+    "exoplanets": (STEPPER_OUT / "fetched.jsonl", STEPPER_OUT / "cache"),
+    "kr_satellites": (ROUND3 / "measure" / "fetched.jsonl", ROUND3 / "measure" / "cache" / "kr_satellites"),
+    "probes": (ROUND3 / "measure" / "fetched.jsonl", ROUND3 / "measure" / "cache" / "probes"),
+}
 N_PICK = 5
 N_CAND = 20
 ONLY_MIN = 36        # 선 가: 그 언어에만 있는 숫자(한국어·영어 각각)
@@ -238,10 +246,11 @@ def rank(topics, store_en, target_ko, target_en):
 # --- 대상 문서와 받은 판 -------------------------------------------------------
 
 def target_docs(dom):
-    """stepper_check가 받아 둔 대상 10개의 한·영 문서. [{kind, lang, target, title, revid, html}]"""
-    recs = [json.loads(l) for l in (STEPPER_OUT / "fetched.jsonl").read_text(encoding="utf-8").splitlines()]
+    """INPUTS가 가리키는, 앞 단계에서 받아 둔 대상 10개의 한·영 문서. [{kind, lang, target, title, revid, html}]"""
+    log, cache = INPUTS[dom]
+    recs = [json.loads(l) for l in log.read_text(encoding="utf-8").splitlines()]
     rows = [{"kind": "대상", "lang": r["lang"], "target": r["target"], "title": r["title"], "revid": r["revid"],
-             "html": STEPPER_OUT / "cache" / f"{r['lang']}_{r['revid']}.html"} for r in recs if r["domain"] == dom]
+             "html": cache / f"{r['lang']}_{r['revid']}.html"} for r in recs if r["domain"] == dom]
     assert len(rows) == 20, (dom, len(rows))
     return rows
 

@@ -214,5 +214,15 @@ class Lines(unittest.TestCase):
         self.assertEqual((s["ko_only"], s["ko_only_table"]), (0, 0))
 
 
+class Inputs(unittest.TestCase):
+    def test_every_domain_has_20_target_docs_on_disk(self):
+        for dom in rc.DOMAINS:
+            docs = rc.target_docs(dom)
+            self.assertEqual(sum(d["lang"] == "ko" for d in docs), 10, dom)
+            self.assertEqual(len({d["target"] for d in docs}), 10, dom)
+            for d in docs:
+                self.assertTrue(d["html"].exists(), (dom, d["html"]))
+
+
 if __name__ == "__main__":
     unittest.main()
