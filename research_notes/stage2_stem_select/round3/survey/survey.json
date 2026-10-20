@@ -1,0 +1,7965 @@
+{
+ "fetched_utc": "2026-10-20T11:12:31Z",
+ "criteria": {
+  "min_count": 10,
+  "guess_limit": 0.2,
+  "guess_band": 0.01
+ },
+ "fields": {
+  "한국의 인공위성": {
+   "category": "분류:대한민국의 인공위성",
+   "depth": 0,
+   "docs_total": 40,
+   "docs_en_linked": 26,
+   "docs": [
+    {
+     "ko": "425사업",
+     "en": "425 Project"
+    },
+    {
+     "ko": "KHUSAT",
+     "en": null
+    },
+    {
+     "ko": "OSSI-1",
+     "en": "OSSI-1"
+    },
+    {
+     "ko": "과학기술위성",
+     "en": null
+    },
+    {
+     "ko": "과학기술위성 1호",
+     "en": "STSat-1"
+    },
+    {
+     "ko": "과학기술위성 2호",
+     "en": "STSat-2A"
+    },
+    {
+     "ko": "과학기술위성 3호",
+     "en": null
+    },
+    {
+     "ko": "나로과학위성",
+     "en": "STSat-2C"
+    },
+    {
+     "ko": "누리호 성능검증위성",
+     "en": null
+    },
+    {
+     "ko": "다목적실용위성",
+     "en": "KOMPSAT"
+    },
+    {
+     "ko": "대한민국 항공위성 1호",
+     "en": null
+    },
+    {
+     "ko": "대한민국의 인공위성 목록",
+     "en": null
+    },
+    {
+     "ko": "도요샛",
+     "en": "SNIPE (satellite)"
+    },
+    {
+     "ko": "무궁화 1호",
+     "en": "Koreasat 1"
+    },
+    {
+     "ko": "무궁화 2호",
+     "en": null
+    },
+    {
+     "ko": "무궁화 3호",
+     "en": "ABS-7"
+    },
+    {
+     "ko": "무궁화 5A호",
+     "en": "Koreasat 5A"
+    },
+    {
+     "ko": "무궁화 5호",
+     "en": "Koreasat 5"
+    },
+    {
+     "ko": "무궁화 7호",
+     "en": "Koreasat 7"
+    },
+    {
+     "ko": "아나시스 2호",
+     "en": "ANASIS-II"
+    },
+    {
+     "ko": "아리랑 1호",
+     "en": "KOMPSAT-1"
+    },
+    {
+     "ko": "아리랑 2호",
+     "en": "KOMPSAT-2"
+    },
+    {
+     "ko": "아리랑 3A호",
+     "en": "KOMPSAT-3A"
+    },
+    {
+     "ko": "아리랑 3호",
+     "en": "KOMPSAT-3"
+    },
+    {
+     "ko": "아리랑 5호",
+     "en": "KOMPSAT-5"
+    },
+    {
+     "ko": "아리랑 6호",
+     "en": null
+    },
+    {
+     "ko": "아리랑 7호",
+     "en": null
+    },
+    {
+     "ko": "올레 1호",
+     "en": "Koreasat 6"
+    },
+    {
+     "ko": "우리별",
+     "en": null
+    },
+    {
+     "ko": "우리별 1호",
+     "en": "KITSAT-1"
+    },
+    {
+     "ko": "우리별 2호",
+     "en": "KITSAT-2"
+    },
+    {
+     "ko": "우리별 3호",
+     "en": "KITSAT-3"
+    },
+    {
+     "ko": "진주샛",
+     "en": null
+    },
+    {
+     "ko": "차세대소형위성 1호",
+     "en": "NEXTSat-1"
+    },
+    {
+     "ko": "차세대소형위성 2호",
+     "en": "NEXTSat-2"
+    },
+    {
+     "ko": "차세대중형위성 1호",
+     "en": "CAS500"
+    },
+    {
+     "ko": "차세대중형위성 3호",
+     "en": null
+    },
+    {
+     "ko": "천리안 2호",
+     "en": null
+    },
+    {
+     "ko": "천리안 5호",
+     "en": null
+    },
+    {
+     "ko": "천리안해양관측위성",
+     "en": "Geostationary Ocean Color Imager"
+    }
+   ],
+   "values": {
+    "질량(kg)": {
+     "base_unit": "kg",
+     "patterns": [
+      "^(중량|질량)$",
+      "^(발사\\s*(중량|질량)|건조\\s*(중량|질량))$"
+     ],
+     "basis_docs": "OSSI-1, 과학기술위성 1호",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 18,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 8
+     },
+     "excluded": [],
+     "counted": 18,
+     "guess_max": 2,
+     "guess_v": 106.0,
+     "guess_ratio": 0.1111111111111111,
+     "guessed": false,
+     "passes": true,
+     "targets": [
+      {
+       "title": "425사업",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "OSSI-1",
+       "cell": "중량",
+       "raw": "950g",
+       "kind": "하나",
+       "number": 950.0,
+       "unit": "g",
+       "base_value": 0.9500000000000001,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "과학기술위성 1호",
+       "cell": "중량",
+       "raw": "106 kg",
+       "kind": "하나",
+       "number": 106.0,
+       "unit": "kg",
+       "base_value": 106.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "과학기술위성 2호",
+       "cell": "중량",
+       "raw": "99.4 kg",
+       "kind": "하나",
+       "number": 99.4,
+       "unit": "kg",
+       "base_value": 99.4,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "나로과학위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "다목적실용위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "도요샛",
+       "cell": "중량",
+       "raw": "10kg (1기당)",
+       "kind": "하나",
+       "number": 10.0,
+       "unit": "kg",
+       "base_value": 10.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 1호",
+       "cell": "중량",
+       "raw": "1,464㎏",
+       "kind": "하나",
+       "number": 1464.0,
+       "unit": "㎏",
+       "base_value": 1464.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 3호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 5A호",
+       "cell": "중량",
+       "raw": "3,500 kg",
+       "kind": "하나",
+       "number": 3500.0,
+       "unit": "kg",
+       "base_value": 3500.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 5호",
+       "cell": "중량",
+       "raw": "4.5톤",
+       "kind": "하나",
+       "number": 4.5,
+       "unit": "톤",
+       "base_value": 4500.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 7호",
+       "cell": "중량",
+       "raw": "3.6톤",
+       "kind": "하나",
+       "number": 3.6,
+       "unit": "톤",
+       "base_value": 3600.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아나시스 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 1호",
+       "cell": "중량",
+       "raw": "460 kg",
+       "kind": "하나",
+       "number": 460.0,
+       "unit": "kg",
+       "base_value": 460.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 2호",
+       "cell": "중량",
+       "raw": "765 kg",
+       "kind": "하나",
+       "number": 765.0,
+       "unit": "kg",
+       "base_value": 765.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 3A호",
+       "cell": "중량",
+       "raw": "1100kg",
+       "kind": "하나",
+       "number": 1100.0,
+       "unit": "kg",
+       "base_value": 1100.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 3호",
+       "cell": "중량",
+       "raw": "980 Kg",
+       "kind": "하나",
+       "number": 980.0,
+       "unit": "Kg",
+       "base_value": 980.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 5호",
+       "cell": "중량",
+       "raw": "1,400kg 내외",
+       "kind": "하나",
+       "number": 1400.0,
+       "unit": "kg",
+       "base_value": 1400.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "올레 1호",
+       "cell": "중량",
+       "raw": "1,129kg",
+       "kind": "하나",
+       "number": 1129.0,
+       "unit": "kg",
+       "base_value": 1129.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우리별 1호",
+       "cell": "중량",
+       "raw": "48.6 kg",
+       "kind": "하나",
+       "number": 48.6,
+       "unit": "kg",
+       "base_value": 48.6,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우리별 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우리별 3호",
+       "cell": "중량",
+       "raw": "110Kg",
+       "kind": "하나",
+       "number": 110.0,
+       "unit": "Kg",
+       "base_value": 110.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "차세대소형위성 1호",
+       "cell": "중량",
+       "raw": "107kg",
+       "kind": "하나",
+       "number": 107.0,
+       "unit": "kg",
+       "base_value": 107.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "차세대소형위성 2호",
+       "cell": "중량",
+       "raw": "179.9kg",
+       "kind": "하나",
+       "number": 179.9,
+       "unit": "kg",
+       "base_value": 179.9,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "차세대중형위성 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천리안해양관측위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    },
+    "궤도 고도(km)": {
+     "base_unit": "km",
+     "patterns": [
+      "^궤도\\s*고도$"
+     ],
+     "basis_docs": "도요샛",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 5,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 21
+     },
+     "excluded": [],
+     "counted": 5,
+     "guess_max": 2,
+     "guess_v": 550.0,
+     "guess_ratio": 0.4,
+     "guessed": true,
+     "passes": false,
+     "targets": [
+      {
+       "title": "425사업",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "OSSI-1",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "과학기술위성 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "과학기술위성 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "나로과학위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "다목적실용위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "도요샛",
+       "cell": "궤도고도",
+       "raw": "550km 태양동기궤도",
+       "kind": "하나",
+       "number": 550.0,
+       "unit": "km",
+       "base_value": 550.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 3호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 5A호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 5호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "무궁화 7호",
+       "cell": "궤도고도",
+       "raw": "35,786 km",
+       "kind": "하나",
+       "number": 35786.0,
+       "unit": "km",
+       "base_value": 35786.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아나시스 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 3A호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 3호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아리랑 5호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "올레 1호",
+       "cell": "궤도고도",
+       "raw": "35,800 km",
+       "kind": "하나",
+       "number": 35800.0,
+       "unit": "km",
+       "base_value": 35800.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우리별 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우리별 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우리별 3호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "차세대소형위성 1호",
+       "cell": "궤도고도",
+       "raw": "575km",
+       "kind": "하나",
+       "number": 575.0,
+       "unit": "km",
+       "base_value": 575.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "차세대소형위성 2호",
+       "cell": "궤도고도",
+       "raw": "550km",
+       "kind": "하나",
+       "number": 550.0,
+       "unit": "km",
+       "base_value": 550.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "차세대중형위성 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천리안해양관측위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    }
+   },
+   "chosen_value": "질량(kg)",
+   "verdict": "통과",
+   "fail_reason": null
+  },
+  "태양계 탐사선": {
+   "category": "분류:태양계 탐사선",
+   "depth": 1,
+   "docs_total": 174,
+   "docs_en_linked": 170,
+   "docs": [
+    {
+     "ko": "EnVision",
+     "en": "EnVision"
+    },
+    {
+     "ko": "IKAROS",
+     "en": "IKAROS"
+    },
+    {
+     "ko": "VERITAS (우주선)",
+     "en": "VERITAS (spacecraft)"
+    },
+    {
+     "ko": "VICI",
+     "en": "Venus In situ Composition Investigations"
+    },
+    {
+     "ko": "VISE",
+     "en": "Venus In Situ Explorer"
+    },
+    {
+     "ko": "고고도 금성 탐사 계획",
+     "en": "High Altitude Venus Operational Concept"
+    },
+    {
+     "ko": "금성 기원 탐사선",
+     "en": "Venus Origins Explorer"
+    },
+    {
+     "ko": "다빈치+",
+     "en": "DAVINCI"
+    },
+    {
+     "ko": "마젤란 (우주선)",
+     "en": "Magellan (spacecraft)"
+    },
+    {
+     "ko": "매리너 1호",
+     "en": "Mariner 1"
+    },
+    {
+     "ko": "매리너 2호",
+     "en": "Mariner 2"
+    },
+    {
+     "ko": "매리너 5호",
+     "en": "Mariner 5"
+    },
+    {
+     "ko": "매리너 10호",
+     "en": "Mariner 10"
+    },
+    {
+     "ko": "매리너 계획",
+     "en": "Mariner program"
+    },
+    {
+     "ko": "베네라 7호",
+     "en": "Venera 7"
+    },
+    {
+     "ko": "베네라 8호",
+     "en": "Venera 8"
+    },
+    {
+     "ko": "베네라-D",
+     "en": "Venera-17"
+    },
+    {
+     "ko": "비너스 익스프레스",
+     "en": "Venus Express"
+    },
+    {
+     "ko": "아카츠키 (우주선)",
+     "en": "Akatsuki (spacecraft)"
+    },
+    {
+     "ko": "파이어니어 금성 궤도선",
+     "en": "Pioneer Venus Orbiter"
+    },
+    {
+     "ko": "파이어니어 금성 다중탐사정",
+     "en": "Pioneer Venus Multiprobe"
+    },
+    {
+     "ko": "파이어니어 비너스 계획",
+     "en": "Pioneer Venus project"
+    },
+    {
+     "ko": "LEO (우주선)",
+     "en": "LEO (spacecraft)"
+    },
+    {
+     "ko": "LUNAR-A",
+     "en": "Lunar-A"
+    },
+    {
+     "ko": "N-1",
+     "en": "N1 (rocket)"
+    },
+    {
+     "ko": "달 광물 지도 작성기",
+     "en": "Moon Mineralogy Mapper"
+    },
+    {
+     "ko": "대한민국의 달탐사 계획",
+     "en": "Korean Lunar Exploration Program"
+    },
+    {
+     "ko": "루나 1호",
+     "en": "Luna 1"
+    },
+    {
+     "ko": "루나 3호",
+     "en": "Luna 3"
+    },
+    {
+     "ko": "루나 계획",
+     "en": "Luna programme"
+    },
+    {
+     "ko": "루나 글로브",
+     "en": "Luna-Glob"
+    },
+    {
+     "ko": "루나 플래쉬라이트",
+     "en": "Lunar Flashlight"
+    },
+    {
+     "ko": "루노호트 계획",
+     "en": "Lunokhod programme"
+    },
+    {
+     "ko": "서베이어 계획",
+     "en": "Surveyor program"
+    },
+    {
+     "ko": "셀레네 2호",
+     "en": "SELENE-2"
+    },
+    {
+     "ko": "아르테미스 계획",
+     "en": "Artemis program"
+    },
+    {
+     "ko": "유럽 달 탐사선",
+     "en": "European Lunar Explorer"
+    },
+    {
+     "ko": "일본의 달탐사 계획",
+     "en": "Japanese Lunar Exploration Program"
+    },
+    {
+     "ko": "찬드라얀 1호",
+     "en": "Chandrayaan-1"
+    },
+    {
+     "ko": "창어 2호",
+     "en": "Chang'e 2"
+    },
+    {
+     "ko": "창어 5호 T1",
+     "en": "Chang'e 5-T1"
+    },
+    {
+     "ko": "파이어니어 0호",
+     "en": "Pioneer 0"
+    },
+    {
+     "ko": "한국 무인 달착륙선",
+     "en": null
+    },
+    {
+     "ko": "한국형 달 탐사선",
+     "en": null
+    },
+    {
+     "ko": "OKEANOS",
+     "en": "OKEANOS"
+    },
+    {
+     "ko": "SMARA",
+     "en": "SMARA (spacecraft)"
+    },
+    {
+     "ko": "갈릴레오 (우주선)",
+     "en": "Galileo project"
+    },
+    {
+     "ko": "갈릴레오 탐사정",
+     "en": "Galileo Probe"
+    },
+    {
+     "ko": "뉴 허라이즌스",
+     "en": "New Horizons"
+    },
+    {
+     "ko": "목성 얼음 위성 궤도선",
+     "en": "Jupiter Icy Moons Orbiter"
+    },
+    {
+     "ko": "목성 얼음 위성 탐사선",
+     "en": "Jupiter Icy Moons Explorer"
+    },
+    {
+     "ko": "목성 자기권 궤도선",
+     "en": "Jupiter Magnetospheric Orbiter"
+    },
+    {
+     "ko": "반복 조우를 통한 이오 플라이바이",
+     "en": "Flyby of Io with Repeat Encounters"
+    },
+    {
+     "ko": "보이저 1호",
+     "en": "Voyager 1"
+    },
+    {
+     "ko": "보이저 2호",
+     "en": "Voyager 2"
+    },
+    {
+     "ko": "보이저 계획",
+     "en": "Voyager program"
+    },
+    {
+     "ko": "아르고 (우주선)",
+     "en": "Argo (NASA spacecraft)"
+    },
+    {
+     "ko": "유로파 궤도선",
+     "en": "Europa Orbiter"
+    },
+    {
+     "ko": "유로파 목성계 임무 - 라플라스",
+     "en": "Europa Jupiter System Mission – Laplace"
+    },
+    {
+     "ko": "유로파 착륙선 (NASA)",
+     "en": "Europa Lander"
+    },
+    {
+     "ko": "유로파 클리퍼",
+     "en": "Europa Clipper"
+    },
+    {
+     "ko": "율리시스 (우주선)",
+     "en": "Ulysses (spacecraft)"
+    },
+    {
+     "ko": "이오 화산 관측선",
+     "en": "Io Volcano Observer"
+    },
+    {
+     "ko": "조비안 유로파 궤도선",
+     "en": "Jovian Europa Orbiter"
+    },
+    {
+     "ko": "주노 (우주선)",
+     "en": "Juno (spacecraft)"
+    },
+    {
+     "ko": "카시니-하위헌스",
+     "en": "Cassini–Huygens"
+    },
+    {
+     "ko": "파이어니어 10호",
+     "en": "Pioneer 10"
+    },
+    {
+     "ko": "파이어니어 11호",
+     "en": "Pioneer 11"
+    },
+    {
+     "ko": "우주선이 방문한 소행성체와 혜성 목록",
+     "en": "List of minor planets and comets visited by spacecraft"
+    },
+    {
+     "ko": "머큐리-P",
+     "en": "Mercury-P"
+    },
+    {
+     "ko": "메신저 (우주선)",
+     "en": "MESSENGER"
+    },
+    {
+     "ko": "베피콜롬보",
+     "en": "BepiColombo"
+    },
+    {
+     "ko": "MUSE (탐사선)",
+     "en": "MUSE (spacecraft)"
+    },
+    {
+     "ko": "ODINUS",
+     "en": "ODINUS"
+    },
+    {
+     "ko": "뉴 허라이즌스 2호",
+     "en": "New Horizons 2"
+    },
+    {
+     "ko": "오케아노스 (천왕성 탐사선)",
+     "en": "OCEANUS"
+    },
+    {
+     "ko": "천왕성 궤도선 및 탐사정",
+     "en": "Uranus Orbiter and Probe"
+    },
+    {
+     "ko": "천왕성 패스파인더",
+     "en": "Uranus Pathfinder"
+    },
+    {
+     "ko": "IMAP (우주선)",
+     "en": "Interstellar Mapping and Acceleration Probe"
+    },
+    {
+     "ko": "RHESSI",
+     "en": "Reuven Ramaty High Energy Solar Spectroscopic Imager"
+    },
+    {
+     "ko": "STEREO",
+     "en": "STEREO"
+    },
+    {
+     "ko": "WIND (우주선)",
+     "en": "Wind (spacecraft)"
+    },
+    {
+     "ko": "아이리스 위성",
+     "en": "Interface Region Imaging Spectrograph"
+    },
+    {
+     "ko": "에이스 위성",
+     "en": "Advanced Composition Explorer"
+    },
+    {
+     "ko": "제22호 과학위성 히노데",
+     "en": "Hinode (satellite)"
+    },
+    {
+     "ko": "제네시스 (우주선)",
+     "en": "Genesis (spacecraft)"
+    },
+    {
+     "ko": "천이영역 및 코로나 탐사선",
+     "en": "TRACE"
+    },
+    {
+     "ko": "태양 관측 위성",
+     "en": "Orbiting Solar Observatory"
+    },
+    {
+     "ko": "태양 및 태양권 관측위성",
+     "en": "Solar and Heliospheric Observatory"
+    },
+    {
+     "ko": "태양 활동 관측위성",
+     "en": "Solar Dynamics Observatory"
+    },
+    {
+     "ko": "파커 태양 탐사선",
+     "en": "Parker Solar Probe"
+    },
+    {
+     "ko": "AVIATR",
+     "en": "AVIATR"
+    },
+    {
+     "ko": "ELSAH",
+     "en": "Enceladus Life Signatures and Habitability"
+    },
+    {
+     "ko": "JET (우주선)",
+     "en": "Journey to Enceladus and Titan"
+    },
+    {
+     "ko": "LIFE (우주선)",
+     "en": "Life Investigation For Enceladus"
+    },
+    {
+     "ko": "SPRITE (우주선)",
+     "en": "SPRITE (spacecraft)"
+    },
+    {
+     "ko": "TALISE",
+     "en": "Titan Lake In-situ Sampling Propelled Explorer"
+    },
+    {
+     "ko": "THEO",
+     "en": "THEO"
+    },
+    {
+     "ko": "드래건플라이 (우주선)",
+     "en": "Dragonfly (Titan space probe)"
+    },
+    {
+     "ko": "엔셀라두스 및 타이탄 탐사선",
+     "en": "Explorer of Enceladus and Titan"
+    },
+    {
+     "ko": "엔셀라두스 생명체 탐사선",
+     "en": "Enceladus Life Finder"
+    },
+    {
+     "ko": "엔셀라두스 탐사선",
+     "en": "Enceladus Explorer"
+    },
+    {
+     "ko": "오케아노스 (타이탄 탐사선)",
+     "en": "Oceanus (Titan orbiter)"
+    },
+    {
+     "ko": "크로노스 (우주선)",
+     "en": "Kronos (spacecraft)"
+    },
+    {
+     "ko": "타이탄 늪 탐사선",
+     "en": "Titan Mare Explorer"
+    },
+    {
+     "ko": "타이탄 잠수함",
+     "en": null
+    },
+    {
+     "ko": "타이탄 토성계 임무",
+     "en": "Titan Saturn System Mission"
+    },
+    {
+     "ko": "토성 고리 관측선",
+     "en": null
+    },
+    {
+     "ko": "토성 대기권 돌입형 탐사선",
+     "en": "Saturn Atmospheric Entry Probe"
+    },
+    {
+     "ko": "하위헌스 (우주선)",
+     "en": "Huygens (spacecraft)"
+    },
+    {
+     "ko": "마리너 마크 II",
+     "en": "Mariner Mark II"
+    },
+    {
+     "ko": "트리톤 호퍼",
+     "en": "Triton Hopper"
+    },
+    {
+     "ko": "해왕성 궤도선",
+     "en": "Neptune Orbiter"
+    },
+    {
+     "ko": "DESTINY+",
+     "en": "DESTINY+"
+    },
+    {
+     "ko": "EPOXI",
+     "en": "EPOXI"
+    },
+    {
+     "ko": "국제 혜성 탐사선",
+     "en": "International Cometary Explorer"
+    },
+    {
+     "ko": "근지구 천체 카메라",
+     "en": "NEO Surveyor"
+    },
+    {
+     "ko": "딥 스페이스 1호",
+     "en": "Deep Space 1"
+    },
+    {
+     "ko": "딥 스페이스 4호",
+     "en": "Champollion (spacecraft)"
+    },
+    {
+     "ko": "딥 임팩트 (우주선)",
+     "en": "Deep Impact (spacecraft)"
+    },
+    {
+     "ko": "로제타 (우주선)",
+     "en": "Rosetta (spacecraft)"
+    },
+    {
+     "ko": "스타더스트 (우주선)",
+     "en": "Stardust (spacecraft)"
+    },
+    {
+     "ko": "지오토 (우주선)",
+     "en": "Giotto (spacecraft)"
+    },
+    {
+     "ko": "카이사르 (우주선)",
+     "en": "CAESAR (spacecraft)"
+    },
+    {
+     "ko": "컨투어 (우주선)",
+     "en": "CONTOUR"
+    },
+    {
+     "ko": "콘도르 (우주선)",
+     "en": "Comet Nucleus Dust and Organics Return"
+    },
+    {
+     "ko": "필레 (우주선)",
+     "en": "Philae (spacecraft)"
+    },
+    {
+     "ko": "혜성 호퍼",
+     "en": "Comet Hopper"
+    },
+    {
+     "ko": "2001 마스 오디세이",
+     "en": "2001 Mars Odyssey"
+    },
+    {
+     "ko": "ISRU",
+     "en": "In situ resource utilization"
+    },
+    {
+     "ko": "MAVEN",
+     "en": "MAVEN"
+    },
+    {
+     "ko": "NASA-ESA 화성 샘플 귀환 임무",
+     "en": "NASA-ESA Mars Sample Return"
+    },
+    {
+     "ko": "노조미 (우주선)",
+     "en": "Nozomi (spacecraft)"
+    },
+    {
+     "ko": "딥 스페이스 2호",
+     "en": "Deep Space 2"
+    },
+    {
+     "ko": "마르스 1호",
+     "en": "Mars 1"
+    },
+    {
+     "ko": "마르스 2호",
+     "en": "Mars 2"
+    },
+    {
+     "ko": "마르스 3호",
+     "en": "Mars 3"
+    },
+    {
+     "ko": "마르스 4호",
+     "en": "Mars 4"
+    },
+    {
+     "ko": "마르스 6호",
+     "en": "Mars 6"
+    },
+    {
+     "ko": "마르스 7호",
+     "en": "Mars 7"
+    },
+    {
+     "ko": "마르스 96호",
+     "en": "Mars 96"
+    },
+    {
+     "ko": "마스 2020",
+     "en": "Mars 2020"
+    },
+    {
+     "ko": "마스 글로벌 서베이어",
+     "en": "Mars Global Surveyor"
+    },
+    {
+     "ko": "마스 다이렉트",
+     "en": "Mars Direct"
+    },
+    {
+     "ko": "마스 옵저버",
+     "en": "Mars Observer"
+    },
+    {
+     "ko": "마스 익스프레스",
+     "en": "Mars Express"
+    },
+    {
+     "ko": "마스 큐브 원",
+     "en": "Mars Cube One"
+    },
+    {
+     "ko": "마스 패스파인더",
+     "en": "Mars Pathfinder"
+    },
+    {
+     "ko": "망갈리얀",
+     "en": "Mars Orbiter Mission"
+    },
+    {
+     "ko": "매리너 3호",
+     "en": "Mariner 3"
+    },
+    {
+     "ko": "매리너 4호",
+     "en": "Mariner 4"
+    },
+    {
+     "ko": "매리너 6호",
+     "en": "Mariner 6"
+    },
+    {
+     "ko": "매리너 7호",
+     "en": "Mariner 7"
+    },
+    {
+     "ko": "매리너 8호",
+     "en": "Mariner 8"
+    },
+    {
+     "ko": "매리너 9호",
+     "en": "Mariner 9"
+    },
+    {
+     "ko": "비글 2호",
+     "en": "Beagle 2"
+    },
+    {
+     "ko": "소저너",
+     "en": "Sojourner (rover)"
+    },
+    {
+     "ko": "스피릿 (탐사차)",
+     "en": "Spirit (rover)"
+    },
+    {
+     "ko": "아말 (화성 탐사선)",
+     "en": "Emirates Mars Mission"
+    },
+    {
+     "ko": "인사이트 (우주선)",
+     "en": "InSight"
+    },
+    {
+     "ko": "인제뉴어티",
+     "en": "Ingenuity (helicopter)"
+    },
+    {
+     "ko": "잉훠 1호",
+     "en": "Yinghuo-1"
+    },
+    {
+     "ko": "존드 2호",
+     "en": "Zond 2"
+    },
+    {
+     "ko": "주룽호",
+     "en": "Zhurong (rover)"
+    },
+    {
+     "ko": "톈원 1호",
+     "en": "Tianwen-1"
+    },
+    {
+     "ko": "퍼서비어런스 (탐사차)",
+     "en": "Perseverance (rover)"
+    },
+    {
+     "ko": "마스 폴라 랜더",
+     "en": "Mars Polar Lander"
+    },
+    {
+     "ko": "피닉스 (우주선)",
+     "en": "Phoenix (spacecraft)"
+    },
+    {
+     "ko": "화성 과학 실험실",
+     "en": "Mars Science Laboratory"
+    },
+    {
+     "ko": "화성 기후 궤도선",
+     "en": "Mars Climate Orbiter"
+    },
+    {
+     "ko": "화성 샘플 귀환 임무",
+     "en": "Mars sample-return mission"
+    },
+    {
+     "ko": "화성 정찰위성",
+     "en": "Mars Reconnaissance Orbiter"
+    },
+    {
+     "ko": "화성 탐사 로버",
+     "en": "Mars Exploration Rover"
+    },
+    {
+     "ko": "화성에 존재하는 인공물 목록",
+     "en": "List of artificial objects on Mars"
+    }
+   ],
+   "values": {
+    "질량(kg)": {
+     "base_unit": "kg",
+     "patterns": [
+      "^(중량|질량)$",
+      "^(발사\\s*(중량|질량)|건조\\s*(중량|질량))$"
+     ],
+     "basis_docs": "EnVision",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 65,
+      "범위": 0,
+      "여럿": 7,
+      "어림": 0,
+      "없음": 98
+     },
+     "excluded": [],
+     "counted": 65,
+     "guess_max": 5,
+     "guess_v": 258.8,
+     "guess_ratio": 0.07692307692307693,
+     "guessed": false,
+     "passes": true,
+     "targets": [
+      {
+       "title": "EnVision",
+       "cell": "중량",
+       "raw": "805kg",
+       "kind": "하나",
+       "number": 805.0,
+       "unit": "kg",
+       "base_value": 805.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "IKAROS",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "VERITAS (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "VICI",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "VISE",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "고고도 금성 탐사 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "금성 기원 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "다빈치+",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마젤란 (우주선)",
+       "cell": "중량",
+       "raw": "1,035kg",
+       "kind": "하나",
+       "number": 1035.0,
+       "unit": "kg",
+       "base_value": 1035.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 2호",
+       "cell": "중량",
+       "raw": "202.8 kg",
+       "kind": "하나",
+       "number": 202.8,
+       "unit": "kg",
+       "base_value": 202.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 5호",
+       "cell": "중량",
+       "raw": "244.9 kg",
+       "kind": "하나",
+       "number": 244.9,
+       "unit": "kg",
+       "base_value": 244.9,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 10호",
+       "cell": "중량",
+       "raw": "473.9 kg",
+       "kind": "하나",
+       "number": 473.9,
+       "unit": "kg",
+       "base_value": 473.9,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "베네라 7호",
+       "cell": "중량",
+       "raw": "1180 kg",
+       "kind": "하나",
+       "number": 1180.0,
+       "unit": "kg",
+       "base_value": 1180.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "베네라 8호",
+       "cell": "중량",
+       "raw": "1180 kg",
+       "kind": "하나",
+       "number": 1180.0,
+       "unit": "kg",
+       "base_value": 1180.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "베네라-D",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "비너스 익스프레스",
+       "cell": "중량",
+       "raw": "1,270 kg",
+       "kind": "하나",
+       "number": 1270.0,
+       "unit": "kg",
+       "base_value": 1270.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아카츠키 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파이어니어 금성 궤도선",
+       "cell": "중량",
+       "raw": "517 kg",
+       "kind": "하나",
+       "number": 517.0,
+       "unit": "kg",
+       "base_value": 517.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파이어니어 금성 다중탐사정",
+       "cell": "중량",
+       "raw": "290 kg(운반선) / 315 kg(대형 탐사정) / 90 kg(소형 탐사정)",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파이어니어 비너스 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "LEO (우주선)",
+       "cell": "중량",
+       "raw": "650 kg / 주 위성: 500 kg / 보조 위성: 150 kg",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "LUNAR-A",
+       "cell": "중량",
+       "raw": "540 kg / 페네토레타 13.5 kg",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "N-1",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "달 광물 지도 작성기",
+       "cell": "중량",
+       "raw": "8.2kg",
+       "kind": "하나",
+       "number": 8.2,
+       "unit": "kg",
+       "base_value": 8.2,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "대한민국의 달탐사 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "루나 1호",
+       "cell": "중량",
+       "raw": "361 kg",
+       "kind": "하나",
+       "number": 361.0,
+       "unit": "kg",
+       "base_value": 361.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "루나 3호",
+       "cell": "중량",
+       "raw": "278.5 kg",
+       "kind": "하나",
+       "number": 278.5,
+       "unit": "kg",
+       "base_value": 278.5,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "루나 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "루나 글로브",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "루나 플래쉬라이트",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "루노호트 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서베이어 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "셀레네 2호",
+       "cell": "중량",
+       "raw": "30 kg 이상",
+       "kind": "하나",
+       "number": 30.0,
+       "unit": "kg",
+       "base_value": 30.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아르테미스 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "유럽 달 탐사선",
+       "cell": "중량",
+       "raw": "400 kg",
+       "kind": "하나",
+       "number": 400.0,
+       "unit": "kg",
+       "base_value": 400.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "일본의 달탐사 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "찬드라얀 1호",
+       "cell": "중량",
+       "raw": "1,380kg(이륙시), 675kg (달궤도)",
+       "kind": "하나",
+       "number": 1380.0,
+       "unit": "kg",
+       "base_value": 1380.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "창어 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "창어 5호 T1",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파이어니어 0호",
+       "cell": "중량",
+       "raw": "83.8 파운드",
+       "kind": "하나",
+       "number": 83.8,
+       "unit": "파운드",
+       "base_value": 38.011040606,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "OKEANOS",
+       "cell": "중량",
+       "raw": "50kg",
+       "kind": "하나",
+       "number": 50.0,
+       "unit": "kg",
+       "base_value": 50.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "SMARA",
+       "cell": "중량",
+       "raw": "1kg 미만",
+       "kind": "하나",
+       "number": 1.0,
+       "unit": "kg",
+       "base_value": 1.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "갈릴레오 (우주선)",
+       "cell": "중량",
+       "raw": "2,380 kg",
+       "kind": "하나",
+       "number": 2380.0,
+       "unit": "kg",
+       "base_value": 2380.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "갈릴레오 탐사정",
+       "cell": "중량",
+       "raw": "339 kg",
+       "kind": "하나",
+       "number": 339.0,
+       "unit": "kg",
+       "base_value": 339.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "뉴 허라이즌스",
+       "cell": "중량",
+       "raw": "478 kg",
+       "kind": "하나",
+       "number": 478.0,
+       "unit": "kg",
+       "base_value": 478.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "목성 얼음 위성 궤도선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "목성 얼음 위성 탐사선",
+       "cell": "중량",
+       "raw": "자중: 2,420kg, 만재중량: 6,070kg",
+       "kind": "하나",
+       "number": 2420.0,
+       "unit": "kg",
+       "base_value": 2420.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "목성 자기권 궤도선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "반복 조우를 통한 이오 플라이바이",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "보이저 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "보이저 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "보이저 계획",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아르고 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "유로파 궤도선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "유로파 목성계 임무 - 라플라스",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "유로파 착륙선 (NASA)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "유로파 클리퍼",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "율리시스 (우주선)",
+       "cell": "중량",
+       "raw": "370 kg (발사 시)",
+       "kind": "하나",
+       "number": 370.0,
+       "unit": "kg",
+       "base_value": 370.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "이오 화산 관측선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "조비안 유로파 궤도선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "주노 (우주선)",
+       "cell": "중량",
+       "raw": "3,625 kg (발사), 1,593 kg",
+       "kind": "하나",
+       "number": 3625.0,
+       "unit": "kg",
+       "base_value": 3625.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "카시니-하위헌스",
+       "cell": "중량",
+       "raw": "5,712 kg",
+       "kind": "하나",
+       "number": 5712.0,
+       "unit": "kg",
+       "base_value": 5712.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파이어니어 10호",
+       "cell": "중량",
+       "raw": "258.8 kg",
+       "kind": "하나",
+       "number": 258.8,
+       "unit": "kg",
+       "base_value": 258.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파이어니어 11호",
+       "cell": "중량",
+       "raw": "259 kg",
+       "kind": "하나",
+       "number": 259.0,
+       "unit": "kg",
+       "base_value": 259.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "우주선이 방문한 소행성체와 혜성 목록",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "머큐리-P",
+       "cell": "중량",
+       "raw": "50kg(랜더) / 40kg(오비터)",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "메신저 (우주선)",
+       "cell": "중량",
+       "raw": "1,093 kg",
+       "kind": "하나",
+       "number": 1093.0,
+       "unit": "kg",
+       "base_value": 1093.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "베피콜롬보",
+       "cell": "중량",
+       "raw": "발사 시: 4,100 kg / 추진체 제외 : 2,700 kg / MPO: 1,230 kg / MMO: 255 kg",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "MUSE (탐사선)",
+       "cell": "중량",
+       "raw": "2,073 kg",
+       "kind": "하나",
+       "number": 2073.0,
+       "unit": "kg",
+       "base_value": 2073.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "ODINUS",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "뉴 허라이즌스 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "오케아노스 (천왕성 탐사선)",
+       "cell": "중량",
+       "raw": "1,110 kg",
+       "kind": "하나",
+       "number": 1110.0,
+       "unit": "kg",
+       "base_value": 1110.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천왕성 궤도선 및 탐사정",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천왕성 패스파인더",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "IMAP (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "RHESSI",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "STEREO",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "WIND (우주선)",
+       "cell": "중량",
+       "raw": "1195 kg",
+       "kind": "하나",
+       "number": 1195.0,
+       "unit": "kg",
+       "base_value": 1195.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아이리스 위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "에이스 위성",
+       "cell": "중량",
+       "raw": "596 kg",
+       "kind": "하나",
+       "number": 596.0,
+       "unit": "kg",
+       "base_value": 596.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "제22호 과학위성 히노데",
+       "cell": "중량",
+       "raw": "700.0 kg",
+       "kind": "하나",
+       "number": 700.0,
+       "unit": "kg",
+       "base_value": 700.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "제네시스 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천이영역 및 코로나 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "태양 관측 위성",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "태양 및 태양권 관측위성",
+       "cell": "중량",
+       "raw": "1850 kg",
+       "kind": "하나",
+       "number": 1850.0,
+       "unit": "kg",
+       "base_value": 1850.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "태양 활동 관측위성",
+       "cell": "중량",
+       "raw": "1,700kg",
+       "kind": "하나",
+       "number": 1700.0,
+       "unit": "kg",
+       "base_value": 1700.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "파커 태양 탐사선",
+       "cell": "중량",
+       "raw": "685 kg",
+       "kind": "하나",
+       "number": 685.0,
+       "unit": "kg",
+       "base_value": 685.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "AVIATR",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "ELSAH",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "JET (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "LIFE (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "SPRITE (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "TALISE",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "THEO",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "드래건플라이 (우주선)",
+       "cell": "중량",
+       "raw": "450kg",
+       "kind": "하나",
+       "number": 450.0,
+       "unit": "kg",
+       "base_value": 450.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "엔셀라두스 및 타이탄 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "엔셀라두스 생명체 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "엔셀라두스 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "오케아노스 (타이탄 탐사선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "크로노스 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "타이탄 늪 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "타이탄 토성계 임무",
+       "cell": "중량",
+       "raw": "1,613 kg",
+       "kind": "하나",
+       "number": 1613.0,
+       "unit": "kg",
+       "base_value": 1613.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "토성 대기권 돌입형 탐사선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "하위헌스 (우주선)",
+       "cell": "중량",
+       "raw": "319kg",
+       "kind": "하나",
+       "number": 319.0,
+       "unit": "kg",
+       "base_value": 319.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마리너 마크 II",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "트리톤 호퍼",
+       "cell": "중량",
+       "raw": "500kg",
+       "kind": "하나",
+       "number": 500.0,
+       "unit": "kg",
+       "base_value": 500.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "해왕성 궤도선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "DESTINY+",
+       "cell": "중량",
+       "raw": "480 kg / 제논 60 kg 및 하이드라진 15.4 kg 포함",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "EPOXI",
+       "cell": "중량",
+       "raw": "650 kg",
+       "kind": "하나",
+       "number": 650.0,
+       "unit": "kg",
+       "base_value": 650.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "국제 혜성 탐사선",
+       "cell": "중량",
+       "raw": "390 kg",
+       "kind": "하나",
+       "number": 390.0,
+       "unit": "kg",
+       "base_value": 390.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "근지구 천체 카메라",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "딥 스페이스 1호",
+       "cell": "중량",
+       "raw": "373kg",
+       "kind": "하나",
+       "number": 373.0,
+       "unit": "kg",
+       "base_value": 373.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "딥 스페이스 4호",
+       "cell": "중량",
+       "raw": "160kg",
+       "kind": "하나",
+       "number": 160.0,
+       "unit": "kg",
+       "base_value": 160.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "딥 임팩트 (우주선)",
+       "cell": "중량",
+       "raw": "650 kg / 370 kg (충돌기)",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "로제타 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "스타더스트 (우주선)",
+       "cell": "중량",
+       "raw": "300 kg",
+       "kind": "하나",
+       "number": 300.0,
+       "unit": "kg",
+       "base_value": 300.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "지오토 (우주선)",
+       "cell": "중량",
+       "raw": "582.7 kg",
+       "kind": "하나",
+       "number": 582.7,
+       "unit": "kg",
+       "base_value": 582.7,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "카이사르 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "컨투어 (우주선)",
+       "cell": "중량",
+       "raw": "328 kg",
+       "kind": "하나",
+       "number": 328.0,
+       "unit": "kg",
+       "base_value": 328.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "콘도르 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "필레 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "혜성 호퍼",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "2001 마스 오디세이",
+       "cell": "중량",
+       "raw": "725 kg (1598.4 lb) / 장비, 기구, 연료 등 포함",
+       "kind": "하나",
+       "number": 725.0,
+       "unit": "kg",
+       "base_value": 725.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "ISRU",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "MAVEN",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "NASA-ESA 화성 샘플 귀환 임무",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "노조미 (우주선)",
+       "cell": "중량",
+       "raw": "258kg (발사중량 541kg)",
+       "kind": "하나",
+       "number": 258.0,
+       "unit": "kg",
+       "base_value": 258.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "딥 스페이스 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 2호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 3호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 4호",
+       "cell": "중량",
+       "raw": "3440 kg",
+       "kind": "하나",
+       "number": 3440.0,
+       "unit": "kg",
+       "base_value": 3440.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 6호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 7호",
+       "cell": "중량",
+       "raw": "1200 kg",
+       "kind": "하나",
+       "number": 1200.0,
+       "unit": "kg",
+       "base_value": 1200.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마르스 96호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 2020",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 글로벌 서베이어",
+       "cell": "중량",
+       "raw": "1,030.5 kg",
+       "kind": "하나",
+       "number": 1030.5,
+       "unit": "kg",
+       "base_value": 1030.5,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 다이렉트",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 옵저버",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 익스프레스",
+       "cell": "중량",
+       "raw": "1123 kg(본체 666 kg+연료 457 kg)",
+       "kind": "하나",
+       "number": 1123.0,
+       "unit": "kg",
+       "base_value": 1123.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 큐브 원",
+       "cell": "중량",
+       "raw": "13.5kg",
+       "kind": "하나",
+       "number": 13.5,
+       "unit": "kg",
+       "base_value": 13.5,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 패스파인더",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "망갈리얀",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 3호",
+       "cell": "중량",
+       "raw": "260.8 kg",
+       "kind": "하나",
+       "number": 260.8,
+       "unit": "kg",
+       "base_value": 260.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 4호",
+       "cell": "중량",
+       "raw": "260.68 kg",
+       "kind": "하나",
+       "number": 260.68,
+       "unit": "kg",
+       "base_value": 260.68,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 6호",
+       "cell": "중량",
+       "raw": "411.8 kg",
+       "kind": "하나",
+       "number": 411.8,
+       "unit": "kg",
+       "base_value": 411.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 7호",
+       "cell": "중량",
+       "raw": "411.8 kg",
+       "kind": "하나",
+       "number": 411.8,
+       "unit": "kg",
+       "base_value": 411.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 8호",
+       "cell": "중량",
+       "raw": "558.8 kg",
+       "kind": "하나",
+       "number": 558.8,
+       "unit": "kg",
+       "base_value": 558.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "매리너 9호",
+       "cell": "중량",
+       "raw": "558.8 kg",
+       "kind": "하나",
+       "number": 558.8,
+       "unit": "kg",
+       "base_value": 558.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "비글 2호",
+       "cell": "중량",
+       "raw": "33.2 kg",
+       "kind": "하나",
+       "number": 33.2,
+       "unit": "kg",
+       "base_value": 33.2,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "소저너",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "스피릿 (탐사차)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아말 (화성 탐사선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인사이트 (우주선)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인제뉴어티",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잉훠 1호",
+       "cell": "중량",
+       "raw": "115 kg",
+       "kind": "하나",
+       "number": 115.0,
+       "unit": "kg",
+       "base_value": 115.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "존드 2호",
+       "cell": "중량",
+       "raw": "960 kg",
+       "kind": "하나",
+       "number": 960.0,
+       "unit": "kg",
+       "base_value": 960.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "주룽호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "톈원 1호",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "퍼서비어런스 (탐사차)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마스 폴라 랜더",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "피닉스 (우주선)",
+       "cell": "중량",
+       "raw": "350 kg",
+       "kind": "하나",
+       "number": 350.0,
+       "unit": "kg",
+       "base_value": 350.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화성 과학 실험실",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화성 기후 궤도선",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화성 샘플 귀환 임무",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화성 정찰위성",
+       "cell": "중량",
+       "raw": "2,180 kg (연료 포함)",
+       "kind": "하나",
+       "number": 2180.0,
+       "unit": "kg",
+       "base_value": 2180.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화성 탐사 로버",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화성에 존재하는 인공물 목록",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    }
+   },
+   "chosen_value": "질량(kg)",
+   "verdict": "통과",
+   "fail_reason": null
+  },
+  "한국의 댐": {
+   "category": "분류:대한민국의 댐",
+   "depth": 1,
+   "docs_total": 43,
+   "docs_en_linked": 14,
+   "docs": [
+    {
+     "ko": "대한민국의 댐",
+     "en": null
+    },
+    {
+     "ko": "가창댐",
+     "en": null
+    },
+    {
+     "ko": "공산댐",
+     "en": "Gongsan Dam"
+    },
+    {
+     "ko": "광동댐",
+     "en": null
+    },
+    {
+     "ko": "군남홍수조절지",
+     "en": null
+    },
+    {
+     "ko": "군위댐",
+     "en": null
+    },
+    {
+     "ko": "달방댐",
+     "en": null
+    },
+    {
+     "ko": "동강댐",
+     "en": null
+    },
+    {
+     "ko": "보령댐",
+     "en": null
+    },
+    {
+     "ko": "연초댐",
+     "en": null
+    },
+    {
+     "ko": "영주댐",
+     "en": "Yeongju Dam"
+    },
+    {
+     "ko": "영천댐",
+     "en": null
+    },
+    {
+     "ko": "장흥댐",
+     "en": null
+    },
+    {
+     "ko": "평림댐",
+     "en": null
+    },
+    {
+     "ko": "한국수자원공사",
+     "en": "K-water"
+    },
+    {
+     "ko": "금강하구둑",
+     "en": null
+    },
+    {
+     "ko": "대청다목적댐",
+     "en": "Daecheong Dam"
+    },
+    {
+     "ko": "용담댐",
+     "en": null
+    },
+    {
+     "ko": "낙동강하구둑",
+     "en": null
+    },
+    {
+     "ko": "밀양댐",
+     "en": null
+    },
+    {
+     "ko": "부항댐",
+     "en": null
+    },
+    {
+     "ko": "안동댐",
+     "en": "Andong Dam"
+    },
+    {
+     "ko": "임하댐",
+     "en": "Imha Dam"
+    },
+    {
+     "ko": "섬진강댐",
+     "en": null
+    },
+    {
+     "ko": "하동댐",
+     "en": null
+    },
+    {
+     "ko": "가로림조력발전소",
+     "en": "Garorim Bay Tidal Power Station"
+    },
+    {
+     "ko": "괴산수력발전소",
+     "en": null
+    },
+    {
+     "ko": "남강댐",
+     "en": null
+    },
+    {
+     "ko": "담양댐",
+     "en": null
+    },
+    {
+     "ko": "부안댐",
+     "en": null
+    },
+    {
+     "ko": "소양강댐",
+     "en": "Soyang Dam"
+    },
+    {
+     "ko": "시화호조력발전소",
+     "en": "Sihwa Lake Tidal Power Station"
+    },
+    {
+     "ko": "양양양수발전소",
+     "en": "Yangyang Pumped Storage Power Station"
+    },
+    {
+     "ko": "의암댐",
+     "en": "Uiam Dam"
+    },
+    {
+     "ko": "청평댐",
+     "en": "Cheongpyeong Dam"
+    },
+    {
+     "ko": "춘천댐",
+     "en": null
+    },
+    {
+     "ko": "충주댐",
+     "en": "Chungju Dam"
+    },
+    {
+     "ko": "팔당댐",
+     "en": null
+    },
+    {
+     "ko": "합천댐",
+     "en": null
+    },
+    {
+     "ko": "화천 수력발전소",
+     "en": null
+    },
+    {
+     "ko": "화천댐",
+     "en": "Hwacheon Dam"
+    },
+    {
+     "ko": "횡성댐",
+     "en": null
+    },
+    {
+     "ko": "영산강 하구둑",
+     "en": null
+    }
+   ],
+   "values": {
+    "높이(m)": {
+     "base_unit": "m",
+     "patterns": [
+      "^(댐\\s*높이|제방\\s*높이|높이)$"
+     ],
+     "basis_docs": "공산댐, 임하댐, 대청다목적댐(칸 없음)",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 0,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 14
+     },
+     "excluded": [],
+     "counted": 0,
+     "guess_max": 0,
+     "guess_v": null,
+     "guess_ratio": null,
+     "guessed": false,
+     "passes": false,
+     "targets": [
+      {
+       "title": "공산댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영주댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한국수자원공사",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "대청다목적댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "안동댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "임하댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가로림조력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "소양강댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "시화호조력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "양양양수발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "의암댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청평댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "충주댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화천댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    },
+    "길이(m)": {
+     "base_unit": "m",
+     "patterns": [
+      "^(댐\\s*길이|제방\\s*길이|길이)$"
+     ],
+     "basis_docs": "공산댐, 임하댐, 대청다목적댐(칸 없음)",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 0,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 14
+     },
+     "excluded": [],
+     "counted": 0,
+     "guess_max": 0,
+     "guess_v": null,
+     "guess_ratio": null,
+     "guessed": false,
+     "passes": false,
+     "targets": [
+      {
+       "title": "공산댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영주댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한국수자원공사",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "대청다목적댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "안동댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "임하댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가로림조력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "소양강댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "시화호조력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "양양양수발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "의암댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청평댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "충주댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화천댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    },
+    "총저수용량(m3)": {
+     "base_unit": "m3",
+     "patterns": [
+      "^총\\s*저수\\s*용량$"
+     ],
+     "basis_docs": "임하댐",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 4,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 10
+     },
+     "excluded": [
+      {
+       "title": "소양강댐",
+       "reason": "바꿀 수 없는 단위 'Mt'"
+      }
+     ],
+     "counted": 3,
+     "guess_max": 1,
+     "guess_v": 332000000.0,
+     "guess_ratio": 0.3333333333333333,
+     "guessed": true,
+     "passes": false,
+     "targets": [
+      {
+       "title": "공산댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영주댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한국수자원공사",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "대청다목적댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "안동댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "임하댐",
+       "cell": "총저수용량",
+       "raw": "5억 9500만m3",
+       "kind": "하나",
+       "number": 595000000.0,
+       "unit": "m3",
+       "base_value": 595000000.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가로림조력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "소양강댐",
+       "cell": "총저수용량",
+       "raw": "2,900Mt",
+       "kind": "하나",
+       "number": 2900.0,
+       "unit": "Mt",
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": "바꿀 수 없는 단위 'Mt'"
+      },
+      {
+       "title": "시화호조력발전소",
+       "cell": "총저수용량",
+       "raw": "332,000,000m³",
+       "kind": "하나",
+       "number": 332000000.0,
+       "unit": "m³",
+       "base_value": 332000000.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "양양양수발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "의암댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청평댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "충주댐",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "화천댐",
+       "cell": "총저수용량",
+       "raw": "1,018,000,000 m³",
+       "kind": "하나",
+       "number": 1018000000.0,
+       "unit": "m³",
+       "base_value": 1018000000.0,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    }
+   },
+   "chosen_value": null,
+   "verdict": "탈락",
+   "fail_reason": "값마다: 높이(m) 셈 0개 (10개 미만); 길이(m) 셈 0개 (10개 미만); 총저수용량(m3) 셈 3개, 찍기 1/3 (10개 미만)"
+  },
+  "한국의 교량": {
+   "category": "분류:대한민국의 교량",
+   "depth": 2,
+   "docs_total": 293,
+   "docs_en_linked": 65,
+   "docs": [
+    {
+     "ko": "돌아오지 않는 다리",
+     "en": "Bridge of No Return"
+    },
+    {
+     "ko": "올림픽대교",
+     "en": "Olympic Bridge"
+    },
+    {
+     "ko": "인천대교",
+     "en": "Incheon Bridge"
+    },
+    {
+     "ko": "거가대교",
+     "en": "Busan–Geoje Bridge"
+    },
+    {
+     "ko": "거문대교",
+     "en": null
+    },
+    {
+     "ko": "거북선대교",
+     "en": "Geobukseon Bridge"
+    },
+    {
+     "ko": "고덕토평대교",
+     "en": "Godeok–Topyeong Bridge"
+    },
+    {
+     "ko": "돌산대교",
+     "en": "Dolsan Bridge"
+    },
+    {
+     "ko": "부산항대교",
+     "en": "Busan Harbor Bridge"
+    },
+    {
+     "ko": "세풍대교",
+     "en": "Sepung Bridge"
+    },
+    {
+     "ko": "천사대교",
+     "en": "Cheonsa Bridge"
+    },
+    {
+     "ko": "청라하늘대교",
+     "en": "Cheongna Haneul Bridge"
+    },
+    {
+     "ko": "청풍대교",
+     "en": "Cheongpung Bridge"
+    },
+    {
+     "ko": "평택국제대교",
+     "en": null
+    },
+    {
+     "ko": "화태대교",
+     "en": null
+    },
+    {
+     "ko": "울산대교",
+     "en": "Ulsan Bridge"
+    },
+    {
+     "ko": "가평철교",
+     "en": null
+    },
+    {
+     "ko": "구포철교",
+     "en": "Gupo Bridge"
+    },
+    {
+     "ko": "길아천철교",
+     "en": null
+    },
+    {
+     "ko": "당산철교",
+     "en": "Dangsan Railway Bridge"
+    },
+    {
+     "ko": "동작철교",
+     "en": "Dongjak Bridge"
+    },
+    {
+     "ko": "동호철교",
+     "en": "Dongho Bridge"
+    },
+    {
+     "ko": "마곡대교",
+     "en": "Magok Bridge"
+    },
+    {
+     "ko": "삼랑진철교",
+     "en": null
+    },
+    {
+     "ko": "양수철교",
+     "en": null
+    },
+    {
+     "ko": "영종철교",
+     "en": "Yeongjong Bridge"
+    },
+    {
+     "ko": "오례철교",
+     "en": null
+    },
+    {
+     "ko": "잠실철교",
+     "en": "Jamsil Railway Bridge"
+    },
+    {
+     "ko": "조동철교",
+     "en": null
+    },
+    {
+     "ko": "증암철교",
+     "en": null
+    },
+    {
+     "ko": "철원 금강산 전기철도교량",
+     "en": null
+    },
+    {
+     "ko": "청담대교",
+     "en": "Cheongdam Bridge"
+    },
+    {
+     "ko": "춘양곡철교",
+     "en": null
+    },
+    {
+     "ko": "칠곡 왜관철교",
+     "en": null
+    },
+    {
+     "ko": "한강철교",
+     "en": "Hangang Railway Bridge"
+    },
+    {
+     "ko": "동호대교",
+     "en": "Dongho Bridge"
+    },
+    {
+     "ko": "성산대교",
+     "en": "Seongsan Bridge"
+    },
+    {
+     "ko": "성수대교",
+     "en": "Seongsu Bridge"
+    },
+    {
+     "ko": "정암철교",
+     "en": null
+    },
+    {
+     "ko": "고군산대교",
+     "en": null
+    },
+    {
+     "ko": "광안대교",
+     "en": "Gwangan Bridge"
+    },
+    {
+     "ko": "남해대교",
+     "en": "Namhae Bridge"
+    },
+    {
+     "ko": "노량대교 (경남)",
+     "en": "Noryang Bridge"
+    },
+    {
+     "ko": "소록대교",
+     "en": null
+    },
+    {
+     "ko": "영종대교",
+     "en": "Yeongjong Bridge"
+    },
+    {
+     "ko": "이순신대교",
+     "en": "Yi Sun-sin Bridge"
+    },
+    {
+     "ko": "팔영대교",
+     "en": "Paryeong Bridge"
+    },
+    {
+     "ko": "강화초지대교",
+     "en": null
+    },
+    {
+     "ko": "구리암사대교",
+     "en": "Guri–Amsa Bridge"
+    },
+    {
+     "ko": "방화대교",
+     "en": "Banghwa Bridge"
+    },
+    {
+     "ko": "백야대교",
+     "en": null
+    },
+    {
+     "ko": "부산대교",
+     "en": "Busan Bridge"
+    },
+    {
+     "ko": "서강대교",
+     "en": "Seogang Bridge"
+    },
+    {
+     "ko": "일산대교",
+     "en": "Ilsan Bridge"
+    },
+    {
+     "ko": "고양 강매동 석교",
+     "en": null
+    },
+    {
+     "ko": "담양 용대리 석교",
+     "en": null
+    },
+    {
+     "ko": "대천 한내돌다리",
+     "en": null
+    },
+    {
+     "ko": "창원 주남돌다리",
+     "en": null
+    },
+    {
+     "ko": "청주 문산리 돌다리",
+     "en": null
+    },
+    {
+     "ko": "대종교 (경주시)",
+     "en": null
+    },
+    {
+     "ko": "문천교 (경주시)",
+     "en": null
+    },
+    {
+     "ko": "황금대교",
+     "en": null
+    },
+    {
+     "ko": "섬진대교",
+     "en": null
+    },
+    {
+     "ko": "강동대교",
+     "en": "Gangdong Bridge"
+    },
+    {
+     "ko": "아차산대교",
+     "en": null
+    },
+    {
+     "ko": "88낙동강교",
+     "en": null
+    },
+    {
+     "ko": "강정고령보",
+     "en": null
+    },
+    {
+     "ko": "공항교 (대구)",
+     "en": null
+    },
+    {
+     "ko": "금호1교",
+     "en": null
+    },
+    {
+     "ko": "기세곡천교",
+     "en": null
+    },
+    {
+     "ko": "달성보",
+     "en": null
+    },
+    {
+     "ko": "사문진교",
+     "en": null
+    },
+    {
+     "ko": "서변대교",
+     "en": null
+    },
+    {
+     "ko": "아양교",
+     "en": null
+    },
+    {
+     "ko": "아양기찻길",
+     "en": null
+    },
+    {
+     "ko": "중부내륙낙동대교",
+     "en": null
+    },
+    {
+     "ko": "지천철교",
+     "en": null
+    },
+    {
+     "ko": "팔달교",
+     "en": null
+    },
+    {
+     "ko": "화랑교 (대구)",
+     "en": null
+    },
+    {
+     "ko": "가수원교",
+     "en": null
+    },
+    {
+     "ko": "갑천대교",
+     "en": null
+    },
+    {
+     "ko": "금강철교 (경부선)",
+     "en": null
+    },
+    {
+     "ko": "대덕대교",
+     "en": null
+    },
+    {
+     "ko": "방동대교",
+     "en": null
+    },
+    {
+     "ko": "서대전육교",
+     "en": null
+    },
+    {
+     "ko": "온천교",
+     "en": null
+    },
+    {
+     "ko": "유등교",
+     "en": null
+    },
+    {
+     "ko": "한빛대교",
+     "en": null
+    },
+    {
+     "ko": "가덕대교",
+     "en": "Gadeok Bridge"
+    },
+    {
+     "ko": "강서낙동강교",
+     "en": null
+    },
+    {
+     "ko": "구포교",
+     "en": null
+    },
+    {
+     "ko": "구포낙동강교",
+     "en": null
+    },
+    {
+     "ko": "구포대교",
+     "en": "Gupo Bridge"
+    },
+    {
+     "ko": "남항대교",
+     "en": "Namhang Bridge"
+    },
+    {
+     "ko": "대동화명대교",
+     "en": null
+    },
+    {
+     "ko": "대저대교",
+     "en": null
+    },
+    {
+     "ko": "서부산낙동강교",
+     "en": null
+    },
+    {
+     "ko": "신호대교",
+     "en": null
+    },
+    {
+     "ko": "영도대교",
+     "en": "Yeongdo Bridge"
+    },
+    {
+     "ko": "을숙도대교",
+     "en": null
+    },
+    {
+     "ko": "제2낙동대교",
+     "en": null
+    },
+    {
+     "ko": "가양대교",
+     "en": "Gayang Bridge"
+    },
+    {
+     "ko": "광진교",
+     "en": "Gwangjin Bridge"
+    },
+    {
+     "ko": "광통교",
+     "en": null
+    },
+    {
+     "ko": "노량대교 (서울)",
+     "en": null
+    },
+    {
+     "ko": "동작대교",
+     "en": "Dongjak Bridge"
+    },
+    {
+     "ko": "두모교",
+     "en": null
+    },
+    {
+     "ko": "마포대교",
+     "en": "Mapo Bridge"
+    },
+    {
+     "ko": "반포대교",
+     "en": "Banpo Bridge"
+    },
+    {
+     "ko": "살곶이다리",
+     "en": null
+    },
+    {
+     "ko": "서울교",
+     "en": null
+    },
+    {
+     "ko": "서호교",
+     "en": null
+    },
+    {
+     "ko": "수표교",
+     "en": null
+    },
+    {
+     "ko": "양화대교",
+     "en": "Yanghwa Bridge"
+    },
+    {
+     "ko": "여의2교",
+     "en": null
+    },
+    {
+     "ko": "여의교",
+     "en": null
+    },
+    {
+     "ko": "영도교",
+     "en": null
+    },
+    {
+     "ko": "영동대교",
+     "en": "Yeongdong Bridge"
+    },
+    {
+     "ko": "오목교 (서울특별시)",
+     "en": null
+    },
+    {
+     "ko": "용비교",
+     "en": null
+    },
+    {
+     "ko": "원효대교",
+     "en": "Wonhyo Bridge"
+    },
+    {
+     "ko": "월드컵대교",
+     "en": "World Cup Bridge"
+    },
+    {
+     "ko": "잠실대교",
+     "en": "Jamsil Bridge"
+    },
+    {
+     "ko": "잠실보",
+     "en": null
+    },
+    {
+     "ko": "창경궁 옥천교",
+     "en": null
+    },
+    {
+     "ko": "천호대교",
+     "en": "Cheonho Bridge"
+    },
+    {
+     "ko": "한강대교",
+     "en": "Hangang Bridge"
+    },
+    {
+     "ko": "한남대교",
+     "en": "Hannam Bridge"
+    },
+    {
+     "ko": "행주대교",
+     "en": "Haengju Bridge"
+    },
+    {
+     "ko": "금남교",
+     "en": null
+    },
+    {
+     "ko": "삼호교",
+     "en": null
+    },
+    {
+     "ko": "서하교 (울산)",
+     "en": null
+    },
+    {
+     "ko": "십리대밭교",
+     "en": null
+    },
+    {
+     "ko": "울산교",
+     "en": null
+    },
+    {
+     "ko": "태화교",
+     "en": null
+    },
+    {
+     "ko": "학성교 (울산)",
+     "en": null
+    },
+    {
+     "ko": "강화대교",
+     "en": null
+    },
+    {
+     "ko": "교동대교",
+     "en": null
+    },
+    {
+     "ko": "무의대교",
+     "en": null
+    },
+    {
+     "ko": "백석대교",
+     "en": null
+    },
+    {
+     "ko": "부천고가교",
+     "en": null
+    },
+    {
+     "ko": "석모대교",
+     "en": null
+    },
+    {
+     "ko": "선재대교",
+     "en": null
+    },
+    {
+     "ko": "소래철교",
+     "en": null
+    },
+    {
+     "ko": "신도평화대교",
+     "en": null
+    },
+    {
+     "ko": "영종-강화 연도교",
+     "en": null
+    },
+    {
+     "ko": "영흥대교",
+     "en": null
+    },
+    {
+     "ko": "인천교",
+     "en": null
+    },
+    {
+     "ko": "강진 병영성 홍교",
+     "en": null
+    },
+    {
+     "ko": "거금대교",
+     "en": null
+    },
+    {
+     "ko": "고흥 옥하리 홍교",
+     "en": null
+    },
+    {
+     "ko": "구례1교 (구례군)",
+     "en": null
+    },
+    {
+     "ko": "김대중대교",
+     "en": null
+    },
+    {
+     "ko": "남도대교",
+     "en": null
+    },
+    {
+     "ko": "목포대교",
+     "en": null
+    },
+    {
+     "ko": "몽탄대교",
+     "en": null
+    },
+    {
+     "ko": "묘도대교",
+     "en": null
+    },
+    {
+     "ko": "무영대교",
+     "en": null
+    },
+    {
+     "ko": "벌교 도마교 및 석비",
+     "en": null
+    },
+    {
+     "ko": "보성 벌교 홍교",
+     "en": null
+    },
+    {
+     "ko": "삼호대교",
+     "en": null
+    },
+    {
+     "ko": "순천 송광사 삼청교 및 우화각",
+     "en": null
+    },
+    {
+     "ko": "신금대교",
+     "en": null
+    },
+    {
+     "ko": "압해대교",
+     "en": "Aphae Bridge"
+    },
+    {
+     "ko": "여수 흥국사 홍교",
+     "en": null
+    },
+    {
+     "ko": "영광 도동리 홍교",
+     "en": null
+    },
+    {
+     "ko": "영광대교",
+     "en": null
+    },
+    {
+     "ko": "영산교",
+     "en": null
+    },
+    {
+     "ko": "완도대교",
+     "en": null
+    },
+    {
+     "ko": "장보고대교",
+     "en": null
+    },
+    {
+     "ko": "제2진도대교",
+     "en": null
+    },
+    {
+     "ko": "진도대교",
+     "en": null
+    },
+    {
+     "ko": "칠산대교",
+     "en": null
+    },
+    {
+     "ko": "함평 고막천 석교",
+     "en": null
+    },
+    {
+     "ko": "38대교",
+     "en": null
+    },
+    {
+     "ko": "강촌교",
+     "en": null
+    },
+    {
+     "ko": "경강교",
+     "en": null
+    },
+    {
+     "ko": "남한강대교",
+     "en": null
+    },
+    {
+     "ko": "리빙스턴교",
+     "en": null
+    },
+    {
+     "ko": "신연교",
+     "en": null
+    },
+    {
+     "ko": "원주대교",
+     "en": null
+    },
+    {
+     "ko": "춘성대교",
+     "en": null
+    },
+    {
+     "ko": "태백 장성이중교",
+     "en": null
+    },
+    {
+     "ko": "화천 꺼먹다리",
+     "en": null
+    },
+    {
+     "ko": "횡성대교",
+     "en": null
+    },
+    {
+     "ko": "강천보",
+     "en": null
+    },
+    {
+     "ko": "김포대교",
+     "en": "Gimpo Bridge"
+    },
+    {
+     "ko": "남한강교",
+     "en": null
+    },
+    {
+     "ko": "남한강대교 (광주원주고속도로)",
+     "en": null
+    },
+    {
+     "ko": "대성1교",
+     "en": null
+    },
+    {
+     "ko": "덕소강변대교",
+     "en": null
+    },
+    {
+     "ko": "만안교",
+     "en": null
+    },
+    {
+     "ko": "말레이지아교",
+     "en": null
+    },
+    {
+     "ko": "미사대교",
+     "en": "Misa Bridge"
+    },
+    {
+     "ko": "배알미대교",
+     "en": null
+    },
+    {
+     "ko": "서종대교",
+     "en": null
+    },
+    {
+     "ko": "서하교 (광주시)",
+     "en": null
+    },
+    {
+     "ko": "서해대교",
+     "en": "Seohae Bridge"
+    },
+    {
+     "ko": "세종대교",
+     "en": null
+    },
+    {
+     "ko": "송산교",
+     "en": null
+    },
+    {
+     "ko": "신곡보",
+     "en": null
+    },
+    {
+     "ko": "신양수대교",
+     "en": null
+    },
+    {
+     "ko": "신청평대교",
+     "en": null
+    },
+    {
+     "ko": "안양고가교",
+     "en": null
+    },
+    {
+     "ko": "양근대교",
+     "en": null
+    },
+    {
+     "ko": "양수대교",
+     "en": null
+    },
+    {
+     "ko": "양평대교",
+     "en": null
+    },
+    {
+     "ko": "여주대교",
+     "en": null
+    },
+    {
+     "ko": "여주보",
+     "en": null
+    },
+    {
+     "ko": "용담대교",
+     "en": null
+    },
+    {
+     "ko": "이포대교",
+     "en": null
+    },
+    {
+     "ko": "이포보",
+     "en": null
+    },
+    {
+     "ko": "자유의 다리",
+     "en": null
+    },
+    {
+     "ko": "통일대교",
+     "en": null
+    },
+    {
+     "ko": "파주 경의선 장단역 죽음의 다리",
+     "en": null
+    },
+    {
+     "ko": "팔당대교",
+     "en": "Paldang Bridge"
+    },
+    {
+     "ko": "학의대교",
+     "en": null
+    },
+    {
+     "ko": "가조연륙교",
+     "en": null
+    },
+    {
+     "ko": "거제대교",
+     "en": null
+    },
+    {
+     "ko": "김시민대교",
+     "en": null
+    },
+    {
+     "ko": "남지교",
+     "en": null
+    },
+    {
+     "ko": "동진교 (경상남도)",
+     "en": null
+    },
+    {
+     "ko": "마창대교",
+     "en": null
+    },
+    {
+     "ko": "산달연륙교",
+     "en": null
+    },
+    {
+     "ko": "서하교 (함양군)",
+     "en": null
+    },
+    {
+     "ko": "신거제대교",
+     "en": null
+    },
+    {
+     "ko": "야로대교",
+     "en": null
+    },
+    {
+     "ko": "저도연륙교",
+     "en": null
+    },
+    {
+     "ko": "창녕 영산 만년교",
+     "en": null
+    },
+    {
+     "ko": "창녕낙동강교",
+     "en": null
+    },
+    {
+     "ko": "창선·삼천포대교",
+     "en": null
+    },
+    {
+     "ko": "창선교",
+     "en": null
+    },
+    {
+     "ko": "칠천교",
+     "en": null
+    },
+    {
+     "ko": "강구대교",
+     "en": null
+    },
+    {
+     "ko": "강동대교 (경상북도)",
+     "en": null
+    },
+    {
+     "ko": "거여철교",
+     "en": null
+    },
+    {
+     "ko": "경주교",
+     "en": null
+    },
+    {
+     "ko": "곡강교 (영양군)",
+     "en": null
+    },
+    {
+     "ko": "곡강교 (포항시)",
+     "en": null
+    },
+    {
+     "ko": "구황교",
+     "en": null
+    },
+    {
+     "ko": "금장교 (경주시)",
+     "en": null
+    },
+    {
+     "ko": "금호대교 (영천시)",
+     "en": null
+    },
+    {
+     "ko": "나정교",
+     "en": null
+    },
+    {
+     "ko": "낙동강대교",
+     "en": null
+    },
+    {
+     "ko": "동대교 (경주시)",
+     "en": "Hyeongsan River"
+    },
+    {
+     "ko": "동빈큰다리",
+     "en": null
+    },
+    {
+     "ko": "동해안대교",
+     "en": null
+    },
+    {
+     "ko": "북천철교",
+     "en": null
+    },
+    {
+     "ko": "서천교 (경주시)",
+     "en": null
+    },
+    {
+     "ko": "섬안큰다리",
+     "en": "Hyeongsan River"
+    },
+    {
+     "ko": "섶다리",
+     "en": null
+    },
+    {
+     "ko": "시래교",
+     "en": null
+    },
+    {
+     "ko": "신양교 (영덕군)",
+     "en": null
+    },
+    {
+     "ko": "알천교",
+     "en": null
+    },
+    {
+     "ko": "연일대교",
+     "en": "Hyeongsan River"
+    },
+    {
+     "ko": "영덕대교",
+     "en": null
+    },
+    {
+     "ko": "오릉교",
+     "en": null
+    },
+    {
+     "ko": "오십천대교",
+     "en": null
+    },
+    {
+     "ko": "왜관낙동강교",
+     "en": null
+    },
+    {
+     "ko": "월영교",
+     "en": null
+    },
+    {
+     "ko": "유강대교",
+     "en": null
+    },
+    {
+     "ko": "인천교 (경주시)",
+     "en": "Hyeongsan River"
+    },
+    {
+     "ko": "자호천교",
+     "en": null
+    },
+    {
+     "ko": "칠곡보",
+     "en": null
+    },
+    {
+     "ko": "포스코대교",
+     "en": null
+    },
+    {
+     "ko": "해오름대교",
+     "en": null
+    },
+    {
+     "ko": "형산강철교 (경주시)",
+     "en": null
+    },
+    {
+     "ko": "형산강철교 (포항시)",
+     "en": null
+    },
+    {
+     "ko": "회천대교",
+     "en": null
+    },
+    {
+     "ko": "금강대교",
+     "en": null
+    },
+    {
+     "ko": "동백대교",
+     "en": null
+    },
+    {
+     "ko": "만덕교",
+     "en": null
+    },
+    {
+     "ko": "새연교",
+     "en": null
+    },
+    {
+     "ko": "추자대교",
+     "en": null
+    },
+    {
+     "ko": "공주 금강철교",
+     "en": null
+    },
+    {
+     "ko": "난지대교",
+     "en": null
+    },
+    {
+     "ko": "문천교 (공주시)",
+     "en": null
+    },
+    {
+     "ko": "부여대교",
+     "en": null
+    },
+    {
+     "ko": "안면연륙교",
+     "en": null
+    },
+    {
+     "ko": "황산대교",
+     "en": null
+    },
+    {
+     "ko": "단양대교",
+     "en": null
+    },
+    {
+     "ko": "목계대교",
+     "en": null
+    },
+    {
+     "ko": "목행대교",
+     "en": null
+    },
+    {
+     "ko": "상진대교",
+     "en": null
+    },
+    {
+     "ko": "진천 농다리",
+     "en": "Jincheon Nongdari Bridge"
+    },
+    {
+     "ko": "청석교",
+     "en": null
+    },
+    {
+     "ko": "금강하구둑",
+     "en": null
+    },
+    {
+     "ko": "햇무리교 (세종시)",
+     "en": null
+    },
+    {
+     "ko": "낙동강하구둑",
+     "en": null
+    },
+    {
+     "ko": "창녕 남지철교",
+     "en": null
+    },
+    {
+     "ko": "영산강 하구둑",
+     "en": null
+    },
+    {
+     "ko": "한강의 교량",
+     "en": null
+    },
+    {
+     "ko": "팔당댐",
+     "en": null
+    }
+   ],
+   "values": {
+    "총길이(m)": {
+     "base_unit": "m",
+     "patterns": [
+      "^총\\s*길이$"
+     ],
+     "basis_docs": "올림픽대교",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 17,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 48
+     },
+     "excluded": [],
+     "counted": 17,
+     "guess_max": 2,
+     "guess_v": 1596.9,
+     "guess_ratio": 0.11764705882352941,
+     "guessed": false,
+     "passes": true,
+     "targets": [
+      {
+       "title": "돌아오지 않는 다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "올림픽대교",
+       "cell": "총길이",
+       "raw": "1,770m",
+       "kind": "하나",
+       "number": 1770.0,
+       "unit": "m",
+       "base_value": 1770.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인천대교",
+       "cell": "총길이",
+       "raw": "연장21.38 km",
+       "kind": "하나",
+       "number": 21.38,
+       "unit": "km",
+       "base_value": 21380.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "거가대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "거북선대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "고덕토평대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "돌산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "부산항대교",
+       "cell": "총길이",
+       "raw": "3,368m",
+       "kind": "하나",
+       "number": 3368.0,
+       "unit": "m",
+       "base_value": 3368.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "세풍대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천사대교",
+       "cell": "총길이",
+       "raw": "10.8km",
+       "kind": "하나",
+       "number": 10.8,
+       "unit": "km",
+       "base_value": 10800.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청라하늘대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청풍대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "울산대교",
+       "cell": "총길이",
+       "raw": "8,400m (진입도로 포함)",
+       "kind": "하나",
+       "number": 8400.0,
+       "unit": "m",
+       "base_value": 8400.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구포철교",
+       "cell": "총길이",
+       "raw": "1,596.9m",
+       "kind": "하나",
+       "number": 1596.9,
+       "unit": "m",
+       "base_value": 1596.9,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "당산철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동작철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동호철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마곡대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영종철교",
+       "cell": "총길이",
+       "raw": "4420m",
+       "kind": "하나",
+       "number": 4420.0,
+       "unit": "m",
+       "base_value": 4420.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잠실철교",
+       "cell": "총길이",
+       "raw": "1,270m",
+       "kind": "하나",
+       "number": 1270.0,
+       "unit": "m",
+       "base_value": 1270.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청담대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한강철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동호대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "성산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "성수대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "광안대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "남해대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "노량대교 (경남)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영종대교",
+       "cell": "총길이",
+       "raw": "4420m",
+       "kind": "하나",
+       "number": 4420.0,
+       "unit": "m",
+       "base_value": 4420.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "이순신대교",
+       "cell": "총길이",
+       "raw": "2,260m",
+       "kind": "하나",
+       "number": 2260.0,
+       "unit": "m",
+       "base_value": 2260.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "팔영대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구리암사대교",
+       "cell": "총길이",
+       "raw": "1,133m",
+       "kind": "하나",
+       "number": 1133.0,
+       "unit": "m",
+       "base_value": 1133.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "방화대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "부산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서강대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "일산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "강동대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가덕대교",
+       "cell": "총길이",
+       "raw": "1,120m",
+       "kind": "하나",
+       "number": 1120.0,
+       "unit": "m",
+       "base_value": 1120.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구포대교",
+       "cell": "총길이",
+       "raw": "1,596.9m",
+       "kind": "하나",
+       "number": 1596.9,
+       "unit": "m",
+       "base_value": 1596.9,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "남항대교",
+       "cell": "총길이",
+       "raw": "1,941m",
+       "kind": "하나",
+       "number": 1941.0,
+       "unit": "m",
+       "base_value": 1941.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영도대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가양대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "광진교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동작대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마포대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "반포대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "양화대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영동대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "원효대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "월드컵대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잠실대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천호대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한강대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한남대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "행주대교",
+       "cell": "총길이",
+       "raw": "1,200m",
+       "kind": "하나",
+       "number": 1200.0,
+       "unit": "m",
+       "base_value": 1200.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "압해대교",
+       "cell": "총길이",
+       "raw": "3.5km",
+       "kind": "하나",
+       "number": 3.5,
+       "unit": "km",
+       "base_value": 3500.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "김포대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "미사대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서해대교",
+       "cell": "총길이",
+       "raw": "7.31 km",
+       "kind": "하나",
+       "number": 7.31,
+       "unit": "km",
+       "base_value": 7310.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "팔당대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동대교 (경주시)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "섬안큰다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "연일대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인천교 (경주시)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "진천 농다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    },
+    "주경간(m)": {
+     "base_unit": "m",
+     "patterns": [
+      "^(주\\s*경간|최대\\s*경간(장)?)$"
+     ],
+     "basis_docs": "울산대교",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 16,
+      "범위": 0,
+      "여럿": 1,
+      "어림": 1,
+      "없음": 47
+     },
+     "excluded": [],
+     "counted": 16,
+     "guess_max": 2,
+     "guess_v": 59.0,
+     "guess_ratio": 0.125,
+     "guessed": false,
+     "passes": true,
+     "targets": [
+      {
+       "title": "돌아오지 않는 다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "올림픽대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인천대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "거가대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "거북선대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "고덕토평대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "돌산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "부산항대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "세풍대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천사대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청라하늘대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청풍대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "울산대교",
+       "cell": "주경간",
+       "raw": "1,150m",
+       "kind": "하나",
+       "number": 1150.0,
+       "unit": "m",
+       "base_value": 1150.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구포철교",
+       "cell": "주경간",
+       "raw": "59m",
+       "kind": "하나",
+       "number": 59.0,
+       "unit": "m",
+       "base_value": 59.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "당산철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동작철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동호철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마곡대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영종철교",
+       "cell": "주경간",
+       "raw": "300m",
+       "kind": "하나",
+       "number": 300.0,
+       "unit": "m",
+       "base_value": 300.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잠실철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청담대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한강철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동호대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "성산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "성수대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "광안대교",
+       "cell": "최대경간장",
+       "raw": "500",
+       "kind": "하나",
+       "number": 500.0,
+       "unit": "",
+       "base_value": 500.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "남해대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "노량대교 (경남)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영종대교",
+       "cell": "주경간",
+       "raw": "300m",
+       "kind": "하나",
+       "number": 300.0,
+       "unit": "m",
+       "base_value": 300.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "이순신대교",
+       "cell": "주경간",
+       "raw": "1,545m",
+       "kind": "하나",
+       "number": 1545.0,
+       "unit": "m",
+       "base_value": 1545.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "팔영대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구리암사대교",
+       "cell": "주경간",
+       "raw": "180m (아치교)",
+       "kind": "하나",
+       "number": 180.0,
+       "unit": "m",
+       "base_value": 180.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "방화대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "부산대교",
+       "cell": "주경간",
+       "raw": "160m",
+       "kind": "하나",
+       "number": 160.0,
+       "unit": "m",
+       "base_value": 160.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서강대교",
+       "cell": "주경간",
+       "raw": "150m",
+       "kind": "하나",
+       "number": 150.0,
+       "unit": "m",
+       "base_value": 150.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "일산대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "강동대교",
+       "cell": "주경간",
+       "raw": "125 m",
+       "kind": "하나",
+       "number": 125.0,
+       "unit": "m",
+       "base_value": 125.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가덕대교",
+       "cell": "주경간",
+       "raw": "80m",
+       "kind": "하나",
+       "number": 80.0,
+       "unit": "m",
+       "base_value": 80.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구포대교",
+       "cell": "주경간",
+       "raw": "59m",
+       "kind": "하나",
+       "number": 59.0,
+       "unit": "m",
+       "base_value": 59.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "남항대교",
+       "cell": "주경간",
+       "raw": "160m",
+       "kind": "하나",
+       "number": 160.0,
+       "unit": "m",
+       "base_value": 160.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영도대교",
+       "cell": "주경간",
+       "raw": "31.3m",
+       "kind": "하나",
+       "number": 31.3,
+       "unit": "m",
+       "base_value": 31.3,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가양대교",
+       "cell": "주경간",
+       "raw": "100~180m",
+       "kind": "어림",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "광진교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동작대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마포대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "반포대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "양화대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영동대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "원효대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "월드컵대교",
+       "cell": "주경간",
+       "raw": "경간교 855m(비대칭 복합사장교+ 강박스거더교 315m)",
+       "kind": "하나",
+       "number": 855.0,
+       "unit": "m",
+       "base_value": 855.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잠실대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천호대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한강대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한남대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "행주대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "압해대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "김포대교",
+       "cell": "주경간",
+       "raw": "125m / (김포둔치는 50m)",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "미사대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서해대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "팔당대교",
+       "cell": "주경간",
+       "raw": "52m",
+       "kind": "하나",
+       "number": 52.0,
+       "unit": "m",
+       "base_value": 52.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동대교 (경주시)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "섬안큰다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "연일대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인천교 (경주시)",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "진천 농다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    },
+    "길이(m, 참고)": {
+     "base_unit": "m",
+     "patterns": [
+      "^길이$"
+     ],
+     "basis_docs": "올림픽대교(총길이와 다른 값이 함께 있음). 판정에는 쓰지 않는다",
+     "reference_only": true,
+     "kind_counts": {
+      "하나": 48,
+      "범위": 0,
+      "여럿": 2,
+      "어림": 0,
+      "없음": 15
+     },
+     "excluded": [],
+     "counted": 48,
+     "guess_max": 4,
+     "guess_v": 61.95,
+     "guess_ratio": 0.08333333333333333,
+     "guessed": false,
+     "passes": false,
+     "targets": [
+      {
+       "title": "돌아오지 않는 다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "올림픽대교",
+       "cell": "길이",
+       "raw": "1,225m",
+       "kind": "하나",
+       "number": 1225.0,
+       "unit": "m",
+       "base_value": 1225.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "인천대교",
+       "cell": "길이",
+       "raw": "21.38km",
+       "kind": "하나",
+       "number": 21.38,
+       "unit": "km",
+       "base_value": 21380.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "거가대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "거북선대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "고덕토평대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "돌산대교",
+       "cell": "길이",
+       "raw": "450m",
+       "kind": "하나",
+       "number": 450.0,
+       "unit": "m",
+       "base_value": 450.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "부산항대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "세풍대교",
+       "cell": "길이",
+       "raw": "875",
+       "kind": "하나",
+       "number": 875.0,
+       "unit": "",
+       "base_value": 875.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "천사대교",
+       "cell": "길이",
+       "raw": "7.26km",
+       "kind": "하나",
+       "number": 7.26,
+       "unit": "km",
+       "base_value": 7260.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청라하늘대교",
+       "cell": "길이",
+       "raw": "4.67km",
+       "kind": "하나",
+       "number": 4.67,
+       "unit": "km",
+       "base_value": 4670.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청풍대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "울산대교",
+       "cell": "길이",
+       "raw": "1,800m",
+       "kind": "하나",
+       "number": 1800.0,
+       "unit": "m",
+       "base_value": 1800.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구포철교",
+       "cell": "길이",
+       "raw": "950m",
+       "kind": "하나",
+       "number": 950.0,
+       "unit": "m",
+       "base_value": 950.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "당산철교",
+       "cell": "길이",
+       "raw": "1,360m",
+       "kind": "하나",
+       "number": 1360.0,
+       "unit": "m",
+       "base_value": 1360.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동작철교",
+       "cell": "길이",
+       "raw": "1,330m",
+       "kind": "하나",
+       "number": 1330.0,
+       "unit": "m",
+       "base_value": 1330.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동호철교",
+       "cell": "길이",
+       "raw": "1,095m",
+       "kind": "하나",
+       "number": 1095.0,
+       "unit": "m",
+       "base_value": 1095.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마곡대교",
+       "cell": "길이",
+       "raw": "1,090m (총 길이 2,393m)",
+       "kind": "하나",
+       "number": 1090.0,
+       "unit": "m",
+       "base_value": 1090.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영종철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잠실철교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "청담대교",
+       "cell": "길이",
+       "raw": "본선 1,211m, 램프 1,978m",
+       "kind": "하나",
+       "number": 1211.0,
+       "unit": "m",
+       "base_value": 1211.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한강철교",
+       "cell": "길이",
+       "raw": "제1철도교: 1,113.6m / 제2철도교: 1,110.07m / 제3철도교: 1,113m / 제4철도교: 1,113m",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동호대교",
+       "cell": "길이",
+       "raw": "1,095m",
+       "kind": "하나",
+       "number": 1095.0,
+       "unit": "m",
+       "base_value": 1095.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "성산대교",
+       "cell": "길이",
+       "raw": "1,410m",
+       "kind": "하나",
+       "number": 1410.0,
+       "unit": "m",
+       "base_value": 1410.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "성수대교",
+       "cell": "길이",
+       "raw": "1,161m",
+       "kind": "하나",
+       "number": 1161.0,
+       "unit": "m",
+       "base_value": 1161.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "광안대교",
+       "cell": "길이",
+       "raw": "1,620m / (총길이: 7.42km)",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "남해대교",
+       "cell": "길이",
+       "raw": "660m",
+       "kind": "하나",
+       "number": 660.0,
+       "unit": "m",
+       "base_value": 660.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "노량대교 (경남)",
+       "cell": "길이",
+       "raw": "3.10km",
+       "kind": "하나",
+       "number": 3.1,
+       "unit": "km",
+       "base_value": 3100.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영종대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "이순신대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "팔영대교",
+       "cell": "길이",
+       "raw": "1,340m",
+       "kind": "하나",
+       "number": 1340.0,
+       "unit": "m",
+       "base_value": 1340.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구리암사대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "방화대교",
+       "cell": "길이",
+       "raw": "2,559m",
+       "kind": "하나",
+       "number": 2559.0,
+       "unit": "m",
+       "base_value": 2559.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "부산대교",
+       "cell": "길이",
+       "raw": "694m",
+       "kind": "하나",
+       "number": 694.0,
+       "unit": "m",
+       "base_value": 694.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서강대교",
+       "cell": "길이",
+       "raw": "1,320m",
+       "kind": "하나",
+       "number": 1320.0,
+       "unit": "m",
+       "base_value": 1320.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "일산대교",
+       "cell": "길이",
+       "raw": "1,840m",
+       "kind": "하나",
+       "number": 1840.0,
+       "unit": "m",
+       "base_value": 1840.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "강동대교",
+       "cell": "길이",
+       "raw": "1,126 m",
+       "kind": "하나",
+       "number": 1126.0,
+       "unit": "m",
+       "base_value": 1126.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가덕대교",
+       "cell": "길이",
+       "raw": "960m",
+       "kind": "하나",
+       "number": 960.0,
+       "unit": "m",
+       "base_value": 960.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "구포대교",
+       "cell": "길이",
+       "raw": "950m",
+       "kind": "하나",
+       "number": 950.0,
+       "unit": "m",
+       "base_value": 950.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "남항대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영도대교",
+       "cell": "길이",
+       "raw": "214.8m",
+       "kind": "하나",
+       "number": 214.8,
+       "unit": "m",
+       "base_value": 214.8,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "가양대교",
+       "cell": "길이",
+       "raw": "1,700m",
+       "kind": "하나",
+       "number": 1700.0,
+       "unit": "m",
+       "base_value": 1700.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "광진교",
+       "cell": "길이",
+       "raw": "1,056 m",
+       "kind": "하나",
+       "number": 1056.0,
+       "unit": "m",
+       "base_value": 1056.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동작대교",
+       "cell": "길이",
+       "raw": "1,330m",
+       "kind": "하나",
+       "number": 1330.0,
+       "unit": "m",
+       "base_value": 1330.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "마포대교",
+       "cell": "길이",
+       "raw": "1,390m",
+       "kind": "하나",
+       "number": 1390.0,
+       "unit": "m",
+       "base_value": 1390.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "반포대교",
+       "cell": "길이",
+       "raw": "1,490m",
+       "kind": "하나",
+       "number": 1490.0,
+       "unit": "m",
+       "base_value": 1490.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "양화대교",
+       "cell": "길이",
+       "raw": "1,053m",
+       "kind": "하나",
+       "number": 1053.0,
+       "unit": "m",
+       "base_value": 1053.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "영동대교",
+       "cell": "길이",
+       "raw": "1,065m",
+       "kind": "하나",
+       "number": 1065.0,
+       "unit": "m",
+       "base_value": 1065.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "원효대교",
+       "cell": "길이",
+       "raw": "1,470m",
+       "kind": "하나",
+       "number": 1470.0,
+       "unit": "m",
+       "base_value": 1470.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "월드컵대교",
+       "cell": "길이",
+       "raw": "1,980m",
+       "kind": "하나",
+       "number": 1980.0,
+       "unit": "m",
+       "base_value": 1980.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "잠실대교",
+       "cell": "길이",
+       "raw": "1,280m",
+       "kind": "하나",
+       "number": 1280.0,
+       "unit": "m",
+       "base_value": 1280.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천호대교",
+       "cell": "길이",
+       "raw": "1,150m",
+       "kind": "하나",
+       "number": 1150.0,
+       "unit": "m",
+       "base_value": 1150.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한강대교",
+       "cell": "길이",
+       "raw": "1,005m",
+       "kind": "하나",
+       "number": 1005.0,
+       "unit": "m",
+       "base_value": 1005.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한남대교",
+       "cell": "길이",
+       "raw": "919 m",
+       "kind": "하나",
+       "number": 919.0,
+       "unit": "m",
+       "base_value": 919.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "행주대교",
+       "cell": "길이",
+       "raw": "1,460m",
+       "kind": "하나",
+       "number": 1460.0,
+       "unit": "m",
+       "base_value": 1460.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "압해대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "김포대교",
+       "cell": "길이",
+       "raw": "2,280m",
+       "kind": "하나",
+       "number": 2280.0,
+       "unit": "m",
+       "base_value": 2280.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "미사대교",
+       "cell": "길이",
+       "raw": "1,530m",
+       "kind": "하나",
+       "number": 1530.0,
+       "unit": "m",
+       "base_value": 1530.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "서해대교",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "팔당대교",
+       "cell": "길이",
+       "raw": "935m",
+       "kind": "하나",
+       "number": 935.0,
+       "unit": "m",
+       "base_value": 935.0,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "동대교 (경주시)",
+       "cell": "길이",
+       "raw": "61.95",
+       "kind": "하나",
+       "number": 61.95,
+       "unit": "",
+       "base_value": 61.95,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "섬안큰다리",
+       "cell": "길이",
+       "raw": "61.95",
+       "kind": "하나",
+       "number": 61.95,
+       "unit": "",
+       "base_value": 61.95,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "연일대교",
+       "cell": "길이",
+       "raw": "61.95",
+       "kind": "하나",
+       "number": 61.95,
+       "unit": "",
+       "base_value": 61.95,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "인천교 (경주시)",
+       "cell": "길이",
+       "raw": "61.95",
+       "kind": "하나",
+       "number": 61.95,
+       "unit": "",
+       "base_value": 61.95,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "진천 농다리",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    }
+   },
+   "chosen_value": "총길이(m)",
+   "verdict": "통과",
+   "fail_reason": null
+  },
+  "한국의 원자력 발전소": {
+   "category": "분류:대한민국의 원자력 발전소",
+   "depth": 0,
+   "docs_total": 10,
+   "docs_en_linked": 9,
+   "docs": [
+    {
+     "ko": "대한민국의 원자력 발전",
+     "en": "Nuclear power in South Korea"
+    },
+    {
+     "ko": "APR-1400",
+     "en": "APR-1400"
+    },
+    {
+     "ko": "OPR-1000",
+     "en": "OPR-1000"
+    },
+    {
+     "ko": "System 80",
+     "en": "System 80"
+    },
+    {
+     "ko": "고리원자력발전소",
+     "en": "Kori Nuclear Power Plant"
+    },
+    {
+     "ko": "새울원자력발전소",
+     "en": null
+    },
+    {
+     "ko": "월성원자력발전소",
+     "en": "Wolseong Nuclear Power Plant"
+    },
+    {
+     "ko": "천지원자력발전소",
+     "en": "Cheonji Nuclear Power Plant"
+    },
+    {
+     "ko": "한빛원자력발전소",
+     "en": "Hanbit Nuclear Power Plant"
+    },
+    {
+     "ko": "한울원자력발전소",
+     "en": "Hanul Nuclear Power Plant"
+    }
+   ],
+   "values": {
+    "설비 용량(MW)": {
+     "base_unit": "MW",
+     "patterns": [
+      "^(총\\s*)?설비\\s*용량$"
+     ],
+     "basis_docs": "고리원자력발전소",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 3,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 6
+     },
+     "excluded": [],
+     "counted": 3,
+     "guess_max": 1,
+     "guess_v": 4414.0,
+     "guess_ratio": 0.3333333333333333,
+     "guessed": true,
+     "passes": false,
+     "targets": [
+      {
+       "title": "대한민국의 원자력 발전",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "APR-1400",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "OPR-1000",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "System 80",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "고리원자력발전소",
+       "cell": "설비용량",
+       "raw": "4,414",
+       "kind": "하나",
+       "number": 4414.0,
+       "unit": "",
+       "base_value": 4414.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "월성원자력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "천지원자력발전소",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "한빛원자력발전소",
+       "cell": "설비용량",
+       "raw": "5,875",
+       "kind": "하나",
+       "number": 5875.0,
+       "unit": "",
+       "base_value": 5875.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "한울원자력발전소",
+       "cell": "설비용량",
+       "raw": "8,681",
+       "kind": "하나",
+       "number": 8681.0,
+       "unit": "",
+       "base_value": 8681.0,
+       "unit_assumed": true,
+       "excluded": null
+      }
+     ]
+    }
+   },
+   "chosen_value": null,
+   "verdict": "탈락",
+   "fail_reason": "값마다: 설비 용량(MW) 셈 3개, 찍기 1/3 (10개 미만)"
+  },
+  "한국의 고속철도 차량": {
+   "category": "분류:대한민국의 고속철도 차량",
+   "depth": 1,
+   "docs_total": 10,
+   "docs_en_linked": 7,
+   "docs": [
+    {
+     "ko": "EMU-370",
+     "en": "EMU-370"
+    },
+    {
+     "ko": "HEMU-430X",
+     "en": "HEMU-430X"
+    },
+    {
+     "ko": "HSR-350x",
+     "en": "HSR-350x"
+    },
+    {
+     "ko": "KTX (차량)",
+     "en": "KTX-I"
+    },
+    {
+     "ko": "KTX-DD",
+     "en": null
+    },
+    {
+     "ko": "KTX-산천",
+     "en": "KTX-Sancheon"
+    },
+    {
+     "ko": "KTX-청룡",
+     "en": "KTX-Cheongryong"
+    },
+    {
+     "ko": "아프로시욥 EMU-250",
+     "en": "UTY EMU-250"
+    },
+    {
+     "ko": "한국철도공사 160000호대 전동차",
+     "en": null
+    },
+    {
+     "ko": "한국철도공사 180000호대 전동차",
+     "en": null
+    }
+   ],
+   "values": {
+    "편성 길이(m)": {
+     "base_unit": "m",
+     "patterns": [
+      "^편성\\s*길이$"
+     ],
+     "basis_docs": "EMU-370",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 6,
+      "범위": 0,
+      "여럿": 0,
+      "어림": 0,
+      "없음": 1
+     },
+     "excluded": [],
+     "counted": 6,
+     "guess_max": 2,
+     "guess_v": 200100.0,
+     "guess_ratio": 0.3333333333333333,
+     "guessed": true,
+     "passes": false,
+     "targets": [
+      {
+       "title": "EMU-370",
+       "cell": "편성길이",
+       "raw": "200,100",
+       "kind": "하나",
+       "number": 200100.0,
+       "unit": "",
+       "base_value": 200100.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "HEMU-430X",
+       "cell": "편성길이",
+       "raw": "192,000",
+       "kind": "하나",
+       "number": 192000.0,
+       "unit": "",
+       "base_value": 192000.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "HSR-350x",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "KTX (차량)",
+       "cell": "편성길이",
+       "raw": "388,104",
+       "kind": "하나",
+       "number": 388104.0,
+       "unit": "",
+       "base_value": 388104.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "KTX-산천",
+       "cell": "편성길이",
+       "raw": "201,000",
+       "kind": "하나",
+       "number": 201000.0,
+       "unit": "",
+       "base_value": 201000.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "KTX-청룡",
+       "cell": "편성길이",
+       "raw": "198,000",
+       "kind": "하나",
+       "number": 198000.0,
+       "unit": "",
+       "base_value": 198000.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "아프로시욥 EMU-250",
+       "cell": "편성길이",
+       "raw": "174,000",
+       "kind": "하나",
+       "number": 174000.0,
+       "unit": "",
+       "base_value": 174000.0,
+       "unit_assumed": true,
+       "excluded": null
+      }
+     ]
+    },
+    "출력(kW)": {
+     "base_unit": "kW",
+     "patterns": [
+      "^(편성\\s*출력|출력)$"
+     ],
+     "basis_docs": "HEMU-430X",
+     "reference_only": false,
+     "kind_counts": {
+      "하나": 2,
+      "범위": 0,
+      "여럿": 1,
+      "어림": 0,
+      "없음": 4
+     },
+     "excluded": [],
+     "counted": 2,
+     "guess_max": 1,
+     "guess_v": 8800.0,
+     "guess_ratio": 0.5,
+     "guessed": true,
+     "passes": false,
+     "targets": [
+      {
+       "title": "EMU-370",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "HEMU-430X",
+       "cell": "편성출력",
+       "raw": "시제차 : 410 x 20 = 8,200 kW(1만마력) / 영업차 : 410 x 24 = 9,840(1만1천640마력)",
+       "kind": "여럿",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "HSR-350x",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "KTX (차량)",
+       "cell": "편성출력",
+       "raw": "13,560",
+       "kind": "하나",
+       "number": 13560.0,
+       "unit": "",
+       "base_value": 13560.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "KTX-산천",
+       "cell": "편성출력",
+       "raw": "8,800",
+       "kind": "하나",
+       "number": 8800.0,
+       "unit": "",
+       "base_value": 8800.0,
+       "unit_assumed": true,
+       "excluded": null
+      },
+      {
+       "title": "KTX-청룡",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      },
+      {
+       "title": "아프로시욥 EMU-250",
+       "cell": null,
+       "raw": "",
+       "kind": "없음",
+       "number": null,
+       "unit": null,
+       "base_value": null,
+       "unit_assumed": false,
+       "excluded": null
+      }
+     ]
+    }
+   },
+   "chosen_value": null,
+   "verdict": "탈락",
+   "fail_reason": "값마다: 편성 길이(m) 셈 6개, 찍기 2/6 (10개 미만); 출력(kW) 셈 2개, 찍기 1/2 (10개 미만)"
+  }
+ }
+}
