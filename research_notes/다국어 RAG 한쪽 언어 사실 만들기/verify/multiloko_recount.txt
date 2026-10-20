@@ -1,0 +1,16 @@
+MultiLoKo Korean dev 250 source titles -> English langlink (live ko.wikipedia API, 2026-10-21)
+First pass (saved dl/wiki_ll_mlk/ko_en_ll.json): en 174, no-en 50, unresolved 26
+Re-resolution of 26 by verifier:
+  18 -> en (incl. 419민주묘지역 via 4·19민주묘지역 -> 4.19민주묘지역 [en: April 19th National Cemetery station])
+  고려 정종 3대: '고려 정종' is a disambiguation page; correct article '정종 (고려 3대)' has en -> en
+  => 25 titles other than 419민주묘지역: 18 en (with 고려 정종 fix) / 7 no-en  (matches note's 192/57 split)
+  => 419민주묘지역 (note: not found) resolves to an article WITH en
+Verifier total: en 193 (77.2%), no-en 57, not found 0
+Note/report total: en 192 (76.8%), no-en 57, not found 1
+
+Full re-resolution of all 250 (verify/scripts/mlk_full.py, batched, redirects=1, pageprops=disambiguation):
+  en 193, no-en 57, not found 0 ; base 224 titles agree 224/224 with saved first pass
+  disambiguation hits: 'tvn' -> TVN (disambig) ; correct article 'TvN' has en (TvN (South Korean TV channel)) -> status unchanged
+  '고려 정종 3대' -> 정종 (고려 3대) (en)
+  only change vs note: '419민주묘지역' (note: not found) -> 4·19민주묘지역 -> 4.19민주묘지역 (en: April 19th National Cemetery station)
+FINAL: 193/250 = 77.2% with English page (note/report: 192 = 76.8%, 1 not found)

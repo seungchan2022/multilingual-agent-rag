@@ -1,0 +1,7 @@
+Korean Wikipedia recorded en->ko translations (saved lo/cxapi data, recomputed by verifier)
+saved main_titles.json: 12,932 entries = includes 1 empty string, 41 non-article titles
+  (틀/Template 9, 위키프로젝트 17, 분류 10, 도움말 1, 사/사용자 user 4), and leading/trailing-space duplicates
+after MediaWiki-style normalization (underscore/NBSP->space, strip LRM/RLM, collapse spaces, trim, NFC, first letter upper)
+  and dropping non-article namespaces (ko.wikipedia siteinfo namespaces+aliases, saved verify/work/ko_ns.json):
+  CX article titles 12,888 ; talk-tagged articles 8,129 ; intersection 381 ; union 20,636
+  20,636 / 769,013 = 2.683% (report/note: 20,682 -> 2.69%)
