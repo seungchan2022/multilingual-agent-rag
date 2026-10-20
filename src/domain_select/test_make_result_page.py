@@ -165,7 +165,7 @@ class Tests(unittest.TestCase):
         tmp, page = build({"chem": {"A": counts_rows("base", a), "B": b, "C": counts_rows("context", [10] * 10)}})
         self.addCleanup(tmp.cleanup)
         cells = row_of(page, "화학 원소")
-        self.assertEqual(cells[9], "v2를 잰 뒤 판정")
+        self.assertEqual(cells[9], "고르기에서 뺌")
         self.assertEqual(cells[6], "+80")  # B-v1 − A는 참고 숫자로만 나온다
 
     def test_criterion4(self):
@@ -314,7 +314,7 @@ class Tests(unittest.TestCase):
 class Round2(unittest.TestCase):
     """--round 2: 분야 셋, 도시 줄 없음, B는 돌리지 않음. 임시 폴더의 가짜 데이터만 쓴다."""
 
-    def page(self, a_ok, c_ok, wrong_label="계산 없이 답함"):
+    def page(self, a_ok, c_ok, wrong_label="계산 없이 답함", b_rows=None):
         """희토류 원소만 A, C를 채운다. 맞은 답 수는 a_ok, c_ok(질문마다 균등, 10의 배수 아님도 허용)."""
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
@@ -328,6 +328,8 @@ class Round2(unittest.TestCase):
         a, c = rows("base", a_ok), rows("context", c_ok)
         write(root / "rare_earth" / "results" / "base.jsonl", a)
         write(root / "rare_earth" / "results" / "context.jsonl", c)
+        if b_rows:
+            write(root / "rare_earth" / "results" / "refine.jsonl", b_rows)
         errs = [error_row("rare_earth", cond, r, [wrong_label]) for cond, rs in (("A", a), ("C", c)) for r in rs if not r["correct"]]
         write(root / "error_types.jsonl", errs)
         write(root / "round1_error_types.jsonl", [])  # round 2는 이 파일을 보지 않는다
@@ -357,9 +359,22 @@ class Round2(unittest.TestCase):
         self.assertNotIn("어제 도시 10문제", page)
         self.assertEqual(names[:3], ["희토류 원소", "외계 행성", "덜 알려진 위성"])
         cells = row_of(page, "희토류 원소")
-        self.assertEqual((cells[2], cells[9]), ("돌리지 않음", "B를 돌릴 때 판정"))
-        self.assertIn("기준 ①③④를 넘는 분야가 둘 이상일 때만", page)
-        self.assertNotIn("어제 프롬프트", page)
+        self.assertEqual((cells[2], cells[9]), ("돌리지 않음", "고르기에서 뺌"))
+        self.assertIn("분야를 고르는 데는 쓰지 않았습니다", page)
+        self.assertNotIn("A와 C를 먼저 돌리고", page)
+        self.assertNotIn("둘 이상일 때만", page)
+
+    def test_b_rows_shown_as_reference(self):
+        b = [refine_row(q, s, True, True, True) for q in QIDS for s in range(1, 11)]
+        page = self.page(30, 80, b_rows=b)
+        cells = row_of(page, "희토류 원소")
+        self.assertEqual(cells[2], "100/100 · 통과 10/10")
+        self.assertEqual((cells[6], cells[9]), ("+70", "고르기에서 뺌"))
+        body = page.split("<h2>질문별 맞은 횟수</h2>")[1]
+        self.assertIn("<th>B-v1</th>", body)
+        self.assertIn("A 10 · B-v1 10 · C 10", body)
+        # B 줄이 없는 분야는 그대로 돌리지 않음
+        self.assertEqual(row_of(page, "외계 행성")[2], "돌리지 않음")
 
     def test_no_b_in_questions_and_seeds(self):
         page = self.page(30, 80)
