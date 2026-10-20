@@ -22,7 +22,7 @@ TOPICS = [("chem", "화학 원소"), ("solar", "태양계 천체"), ("mineral", 
 CITY = ("city_v1", "어제 도시 10문제")
 DEFAULT_BASE2 = DEFAULT_BASE / "round2"
 TOPICS2 = [("rare_earth", "희토류 원소"), ("exoplanets", "외계 행성"), ("moons", "덜 알려진 위성")]
-NO_B = "돌리지 않음"  # round 2는 A와 C만 돌린다
+NO_B = "돌리지 않음"  # B 줄이 없는 분야에 보인다
 PASS_AT = 6  # summarize.py와 같다
 SEEDS = 10  # 질문 하나를 돌린 횟수
 A_RANGE = (20, 40)  # 기준 ①: A의 맞은 답이 이 범위 안
@@ -127,8 +127,8 @@ def verdict(ok):
     return "✓" if ok else "✗"
 
 
-def criteria(t, ma, mc, links, second="v2를 잰 뒤 판정"):
-    """① ③ ④의 칸 글자. ②는 second 글자 그대로(round 1은 v2를 잰 뒤에만 판정한다).
+def criteria(t, ma, mc, links, second="고르기에서 뺌"):
+    """① ③ ④의 칸 글자. ②는 second 글자 그대로(2026-10-20에 분야 고르기에서 뺐다).
     ①③은 최종 답이 아니라 재료 값이 맞았는지로 센다. ma, mc는 A, C의 재료 맞음 수(셀 수 없으면 None)."""
     qs = t["qs"]
     out = {"②": second}
@@ -320,11 +320,11 @@ def refine_block(r, q):
     return f'<ol class="tl">{"".join(steps)}</ol>{final}'
 
 
-def seed_summary(s, a, b, c, r2=False):
+def seed_summary(s, a, b, c, no_b=False):
     """씨앗 한 줄 요약. 씨앗 · A · B-v1(몇 회차에 끝났나) · C."""
     parts = [f"씨앗 {s}"]
     parts.append("A " + (mark(a["correct"]) if a else "아직 없음"))
-    if r2:
+    if no_b:
         pass
     elif b:
         last = b["rounds"][-1]
@@ -364,7 +364,7 @@ def seed_ref(q):
             f'<details class="kdet"><summary>근거 글 보기</summary><ul>{quotes}</ul></details></div>')
 
 
-def detail(t, q, r2=False):
+def detail(t, q, no_b=False):
     a, b, c = seed_rows(t["A"]), seed_rows(t["B"]), seed_rows(t["C"])
     seeds = sorted({s for (i, s) in list(a) + list(b) + list(c) if i == q["id"]})
     body = []
@@ -372,13 +372,13 @@ def detail(t, q, r2=False):
         k = (q["id"], s)
         inner = (seed_ref(q)
                  + section("A", gen_block(a[k]["gen"], a[k]["correct"], a[k].get("grade"), q=q) if k in a else "<p>아직 없음</p>")
-                 + ("" if r2 else section("B-v1", refine_block(b[k], q) if k in b else "<p>아직 없음</p>"))
+                 + ("" if no_b else section("B-v1", refine_block(b[k], q) if k in b else "<p>아직 없음</p>"))
                  + section("C", gen_block(c[k]["gen"], c[k]["correct"], c[k].get("grade"), q=q) if k in c else "<p>아직 없음</p>"))
-        body.append(f'<details class="seed"><summary>{seed_summary(s, a.get(k), b.get(k), c.get(k), r2)}</summary>{inner}</details>')
+        body.append(f'<details class="seed"><summary>{seed_summary(s, a.get(k), b.get(k), c.get(k), no_b)}</summary>{inner}</details>')
     pa, pb, pc = (per_question(t[x]).get(q["id"], [0, 0])[0] for x in "ABC")
     changes = Counter(change_of(r) for r in t["B"] if r["id"] == q["id"])
     return (f'<details><summary><span class="qid">{e(q["id"])}</span> {e(q["question"])} '
-            f'<span class="sm">' + (f"A {pa} · C {pc}" if r2 else f'A {pa} · B-v1 {pb} · C {pc} · 고쳐짐 {changes["고쳐짐"]} · 망가짐 {changes["망가짐"]}')
+            f'<span class="sm">' + (f"A {pa} · C {pc}" if no_b else f'A {pa} · B-v1 {pb} · C {pc} · 고쳐짐 {changes["고쳐짐"]} · 망가짐 {changes["망가짐"]}')
             + f'</span></summary>'
             f'{question_ref(q)}<div class="seeds">{"".join(body) or "<p>아직 없음</p>"}</div></details>')
 
@@ -473,11 +473,12 @@ summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 
 INTRO1 = "A는 문서 없이 바로 답한 것입니다. B-v1은 A의 답을 judgement가 보고 generate가 고쳐 쓴 것입니다(어제 프롬프트). C는 근거 글을 넣고 답한 것입니다."
-INTRO2 = ("A는 문서 없이 바로 답한 것입니다. C는 근거 글을 넣고 답한 것입니다. "
-          "A와 C를 먼저 돌리고, 기준 ①③④를 넘는 분야가 둘 이상일 때만 그 분야들에 B를 돌린다(decisions/stage2.md 2026-10-19).")
-NOTE1 = ("기준 ②는 B-v2를 잰 뒤에 판정합니다. 지금은 B-v1 − A만 참고로 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. "
+INTRO2 = ("A는 문서 없이 바로 답한 것입니다. B-v1은 A의 답을 judgement가 보고 generate가 고쳐 쓴 것입니다(어제 프롬프트). "
+          "C는 근거 글을 넣고 답한 것입니다. B-v1은 세 분야 모두 끝까지 돌려 기록으로 남겼고, "
+          "분야를 고르는 데는 쓰지 않았습니다(decisions/stage2.md 2026-10-20).")
+NOTE1 = ("기준 ②(B − A ≥ 20)는 2026-10-20에 분야 고르기에서 뺐습니다(decisions/stage2.md). B-v1 − A는 참고로만 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. "
          "기록이 100개가 안 되거나 오류 유형 기록(round1_error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.")
-NOTE2 = ("기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. "
+NOTE2 = ("기준 ②(B − A ≥ 20)는 2026-10-20에 분야 고르기에서 뺐습니다(decisions/stage2.md). B-v1 − A는 참고로만 보입니다. 기준 ①③은 최종 답이 아니라 재료 값이 맞았는지로 셉니다. "
          "기록이 100개가 안 되거나 오류 유형 기록(error_types.jsonl)이 없으면 ①③과 차이 칸은 &quot;아직&quot;입니다.")
 
 
@@ -505,13 +506,13 @@ def build(base, out, rnd=1):
             dm = "-"
         else:
             ma, mc = mat[t["folder"]]["A"], mat[t["folder"]]["C"]
-            crit = criteria(t, ma, mc, links, "B를 돌릴 때 판정" if r2 else "v2를 잰 뒤 판정")
+            crit = criteria(t, ma, mc, links)
             dm = f"{mc - ma:+d}" if ma is not None and mc is not None else "아직"
             ma = "아직" if ma is None else str(ma)
             mc = "아직" if mc is None else str(mc)
-        body.append([e(t["name"]), cell(t["A"], s["A"], qs), NO_B if r2 else cell(t["B"], s["B"], qs),
+        body.append([e(t["name"]), cell(t["A"], s["A"], qs), cell(t["B"], s["B"], qs) if t["B"] or not r2 else NO_B,
                      cell(t["C"], s["C"], qs), ma, mc,
-                     "-" if r2 else diff(t["B"], s["B"], t["A"], s["A"], qs), dm,
+                     diff(t["B"], s["B"], t["A"], s["A"], qs) if t["B"] or not r2 else "-", dm,
                      crit["①"], crit["②"], crit["③"], crit["④"]])
     summary = table(["", "A", "B-v1", "C", "A 재료 맞음", "C 재료 맞음", "B-v1 − A", "C − A (재료)",
                      "① A 20~40", "② B−A ≥ 20", "③ C−A ≥ 40", "④ 영어 글"], body)
@@ -549,7 +550,7 @@ def build(base, out, rnd=1):
         if not t["qs"]:
             perq.append(f"<h3>{e(t['name'])}</h3><p class='note'>질문 파일 없음</p>")
             continue
-        xs = "AC" if r2 else "ABC"
+        xs = "ABC" if t["B"] or not r2 else "AC"
         pqs = {x: sc[t["folder"]][x]["pq"] for x in xs}
         rows = []
         for q in t["qs"]:
@@ -558,8 +559,8 @@ def build(base, out, rnd=1):
                 v = pqs[x].get(q["id"])
                 cells.append(f"{v[0]}/{v[1]}" if v else "아직 없음")
             rows.append([e(q["id"]), e(q["question"]), e(q["answer"])] + cells)
-        perq.append(f"<h3>{e(t['name'])}</h3>" + table(["id", "질문", "정답"] + (["A", "C"] if r2 else ["A", "B-v1", "C"]), rows))
-        details.append(f"<h3>{e(t['name'])}</h3><div class=\"qlist\">" + "".join(detail(t, q, r2) for q in t["qs"]) + "</div>")
+        perq.append(f"<h3>{e(t['name'])}</h3>" + table(["id", "질문", "정답"] + (["A", "B-v1", "C"] if "B" in xs else ["A", "C"]), rows))
+        details.append(f"<h3>{e(t['name'])}</h3><div class=\"qlist\">" + "".join(detail(t, q, r2 and not t["B"]) for q in t["qs"]) + "</div>")
 
     page = f"""<!doctype html>
 <html lang="ko">
