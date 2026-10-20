@@ -5,6 +5,8 @@
 #   숫자 없는 답     parsed가 null이거나 고른 숫자(picked)가 없다. 이 답은 다른 갈래를 보지 않는다.
 #   재료 값이 틀림   풀이에 꼭 있어야 할 재료 값이 없다. 있다고 보는 폭은 요구마다 달라서,
 #                    그 값을 바꿔도 답이 ±1% 안에 남는 가장 큰 폭(최대 1%)이다.
+#                    숫자와 단위를 함께 본다. 풀이 숫자에 단위가 있으면 재료 값의 단위로 바꿔서 폭 안일 때만 맞고,
+#                    차원이 다른 단위면 맞지 않는다(4.5시간과 4.5일은 다른 값). 단위가 없는 숫자는 숫자로만 견준다.
 #   계산 없이 답함   풀이의 어떤 숫자도 picked의 ±1% 안이 아니다(단위 배수 없음).
 #   단위를 잘못 바꿈 아래 셋 중 하나다. 모두 picked가 그 수의 ±1% 안이다.
 #                    1) 자리수: value x 10^k (k는 0이 아닌 정수, -12~12)
@@ -37,6 +39,38 @@ SCALES = [10.0 ** k for k in (-9, -6, -3, 0, 3, 6, 9)]
 TOL_MAX = 0.01   # 재료 값 허용폭의 위쪽 끝(±1%)
 ANS_TOL = 0.01   # 이 폭 안이면 답이 맞다고 보는 채점 폭(±1%)
 KELVIN = 273.15
+
+# 단위 글자 -> (차원, 기준 단위로 바꾸는 배수, 더하는 값). 기준 단위 값 = 숫자 x 배수 + 더하는 값
+UNITS = {}
+
+
+def _add_units(dim, names, mult, add=0.0):
+    for name in names.split():
+        UNITS[name] = (dim, mult, add)
+
+
+_add_units("time", "초 s sec second seconds", 1)
+_add_units("time", "분 min minute minutes", 60)
+_add_units("time", "시간 h hr hour hours", 3600)
+_add_units("time", "일 d day days", 86400)
+_add_units("time", "년 yr year years", 365.25 * 86400)
+_add_units("length", "m", 1)
+_add_units("length", "km", 1000)
+_add_units("length", "AU au", 149597870700)
+_add_units("speed", "m/s", 1)
+_add_units("speed", "km/s", 1000)
+_add_units("density", "g/cm³ g/cm3 g/㎤", 1000)
+_add_units("density", "kg/m³ kg/m3", 1)
+_add_units("mass", "mg", 1e-6)
+_add_units("mass", "g", 1e-3)
+_add_units("mass", "kg", 1)
+_add_units("molar mass", "g/mol u amu", 1)
+_add_units("temperature", "K", 1)
+_add_units("temperature", "°C ℃", 1, KELVIN)
+UNIT_TEXTS = sorted(UNITS, key=len, reverse=True)   # 가장 긴 글자부터 맞춘다
+# 단위 글자로 시작하지만 단위가 아닌 낱말("일반", "분자" ...)
+NON_UNIT_WORDS = ("일반", "일정", "일부", "일단", "일치", "일관", "일종",
+                  "분자", "분석", "분포", "분모", "분류", "분명", "초과", "초기")
 
 
 class Offset(float):
@@ -82,6 +116,24 @@ REQUIREMENTS = {
     "m-10": [[2.23], [3.52]],
 }
 
+# 1회차 요구의 대안마다 단위(REQUIREMENTS와 같은 모양). 문제의 근거 글(evidence_quotes)과 풀이 단계(steps)에서 정했다
+# (decisions/stage2.md 2026-10-20). 비중은 steps가 g/cm³로 풀므로 g/cm³, 원자량은 g/mol이다.
+GCM, GMOL, KM, MS, KMS = "g/cm³", "g/mol", "km", "m/s", "km/s"
+REQ_UNITS = {
+    "c-01": [[GCM]], "c-02": [["K", "°C"], ["K", "°C"]], "c-03": [[GMOL]], "c-04": [[GCM]],
+    "c-05": [[GCM]], "c-06": [["K", "°C"]], "c-07": [[GMOL]], "c-08": [[GCM]],
+    "c-09": [[GCM], [GCM]], "c-10": [[GMOL]],
+    "s-01": [[KM], [MS]], "s-02": [[KM], [KM]], "s-03": [[KMS], [KM]], "s-04": [[KM], [KMS]],
+    "s-05": [[KM], [MS]], "s-06": [["h"]], "s-07": [[KM, "AU"], [KM, "AU"]], "s-08": [[KMS]],
+    "s-09": [["m"], [MS]], "s-10": [[KMS], ["일"]],
+    "m-01": [[GMOL], [GMOL, GMOL]], "m-02": [[GMOL], [GMOL, GMOL], [GMOL, GMOL]],
+    "m-03": [[GMOL], [GMOL, GMOL]], "m-04": [[GMOL], [GMOL, GMOL]], "m-05": [[GMOL], [GMOL, GMOL]],
+    "m-06": [[GMOL], [GMOL, GMOL]],
+    "m-07": [[GCM]], "m-08": [[GCM], [GCM]], "m-09": [[GCM]], "m-10": [[GCM], [GCM]],
+}
+# 정식 실험(round 2)은 주제마다 요구의 대안 순서가 같다(질문 파일의 requirements와 steps로 확인했다)
+ROUND2_UNITS = {"rare_earth": [GCM, "kg/m³"], "exoplanets": ["일", "시간"], "moons": ["일", "시간"]}
+
 # 문제마다 그 문제의 계산식(calc)과 풀이 단계가 직접 하는 소수점 아닌 단위 바꾸기.
 # 센 숫자를 다시 보기 전에 고정했다(decisions/stage2.md 2026-10-19). 적히지 않은 문제는 그런 바꾸기가 없다.
 # 숫자는 곱하거나 나누는 수(60은 s<->min, 3600은 s<->h, 86400은 day<->s, 149597870.7은 AU<->km),
@@ -103,22 +155,56 @@ SCI = re.compile(
 )
 
 
-def numbers_of(text):
-    """풀이에서 쉼표를 지우고 숫자를 모두 뽑는다. 과학 표기는 숫자 하나로 센다."""
-    s = str(text).replace(",", "").replace(" ", "")
-    out = []
+def unit_after(text, pos):
+    """text의 pos(숫자 바로 뒤) 이후, 빈칸을 건너뛰고 오는 단위 글자를 돌려준다. 없으면 None.
+    영어 단위는 뒤에 알파벳(이나 / ² ³)이 이어지면 단위가 아니다. 한국어 단위는 뒤에 조사가 붙어도 단위지만
+    NON_UNIT_WORDS의 낱말 첫 글자면 단위가 아니다."""
+    while pos < len(text) and text[pos] in " \t\u00a0":
+        pos += 1
+    for u in UNIT_TEXTS:
+        if not text.startswith(u, pos):
+            continue
+        nxt = text[pos + len(u):pos + len(u) + 1]
+        if "가" <= u[0] <= "힣":
+            if text.startswith(NON_UNIT_WORDS, pos):
+                continue
+        elif nxt and (nxt.isascii() and nxt.isalpha() or nxt in "/²³"):
+            continue
+        return u
+    return None
 
-    def sci(m):
+
+def numbers_units(text):
+    """풀이에서 숫자를 모두 뽑아 (값, 단위) 목록으로 돌려준다(값과 순서는 numbers_of와 같다).
+    단위는 숫자 바로 뒤에 적힌 것이다. 없으면 같은 숫자 글자가 풀이의 다른 곳에 단위와 함께 적힌 것(첫 번째)을 쓰고,
+    그것도 없으면 None이다."""
+    s = str(text).replace(",", "").replace("\u2009", "")   # 쉼표와 얇은 빈칸을 지운다(numbers_of 원래 방식)
+    items = []   # (값, 숫자 글자, s에서 시작, 단위)
+
+    def add(val, m):
+        items.append((val, m.group(0), m.start(), unit_after(s, m.end())))
+
+    masked = list(s)
+    for m in SCI.finditer(s):
         if m.group(1) is not None:
             exp = m.group(2) if m.group(2) is not None else "".join(SUP[c] for c in m.group(3))
-            out.append(float(f"{m.group(1)}e{int(exp)}"))
+            add(float(f"{m.group(1)}e{int(exp)}"), m)
         else:
-            out.append(float(f"{m.group(4)}e{int(m.group(5))}"))
-        return " "
+            add(float(f"{m.group(4)}e{int(m.group(5))}"), m)
+        masked[m.start():m.end()] = " " * (m.end() - m.start())
+    for m in re.finditer(NUM, "".join(masked)):
+        add(float(m.group(0)), m)
 
-    rest = SCI.sub(sci, s)
-    out += [float(x) for x in re.findall(NUM, rest)]
-    return out
+    first = {}
+    for _, tok, start, unit in sorted(items, key=lambda it: it[2]):
+        if unit is not None:
+            first.setdefault(tok, unit)
+    return [(val, unit if unit is not None else first.get(tok)) for val, tok, _, unit in items]
+
+
+def numbers_of(text):
+    """풀이에서 쉼표를 지우고 숫자를 모두 뽑는다. 과학 표기는 숫자 하나로 센다."""
+    return [val for val, _ in numbers_units(text)]
 
 
 def near(x, y, tol=ANS_TOL):
@@ -126,12 +212,25 @@ def near(x, y, tol=ANS_TOL):
     return abs(x - y) <= tol * abs(y)
 
 
-def matches_alt(nums, alt, primary, tol):
-    """풀이 숫자 중 하나가 대안 alt와 맞는가. 맞은 풀이 숫자를 돌려주고 없으면 None.
+def matches_alt(nums, alt, primary, tol, unit=None):
+    """풀이 숫자 (값, 단위) 중 하나가 대안 alt와 맞는가. 맞은 풀이 숫자를 돌려주고 없으면 None.
+    unit은 alt의 단위다. 풀이 숫자에 단위가 있고 unit도 있으면 alt의 단위로 바꾼 값을 견주고,
+    차원이 다르면 맞지 않는다(단위 배수는 따로 곱하지 않는다). 둘 중 하나라도 단위가 없으면:
     배수 대안: alt에 단위 배수(10의 ±3, 6, 9승)를 곱한 값의 ±tol 안.
     차이 대안: alt에서 기본 값(primary)의 ±tol 만큼(기본 값과 같은 절대 폭) 안, 배수 없음."""
-    for n in nums:
-        if isinstance(alt, Offset):
+    for n, u in nums:
+        if unit is not None and u is not None:
+            dim_n, mult_n, add_n = UNITS[u]
+            dim_a, mult_a, add_a = UNITS[unit]
+            if dim_n != dim_a:
+                continue
+            v = (n * mult_n + add_n - add_a) / mult_a
+            if isinstance(alt, Offset):
+                if abs(v - alt) <= tol * abs(primary):
+                    return n
+            elif near(v, alt, tol):
+                return n
+        elif isinstance(alt, Offset):
             if abs(n - alt) <= tol * abs(primary):
                 return n
         else:
@@ -238,24 +337,28 @@ def reason_of(row):
     return ""
 
 
-def classify(row, value, reqs, tols=None, conv=()):
+def classify(row, value, reqs, tols=None, conv=(), units=None):
     """틀린 답 하나를 받아 (갈래 목록, 갈래별 근거)를 돌려준다.
     tols는 요구마다의 재료 값 허용폭이다. 없으면 모두 ±1%.
-    conv는 그 문제의 UNIT_CONV 목록이다. 없으면 자리수 바꾸기만 본다."""
+    conv는 그 문제의 UNIT_CONV 목록이다. 없으면 자리수 바꾸기만 본다.
+    units는 reqs와 같은 모양의 대안별 단위다. 없으면 재료 값을 숫자로만 본다."""
     if tols is None:
         tols = [TOL_MAX] * len(reqs)
+    if units is None:
+        units = [[None] * len(alts) for alts in reqs]
     picked = row["grade"]["picked"]
     if row["gen"]["parsed"] is None or picked is None:
         return [NO_NUM], {NO_NUM: {"parsed가 null": row["gen"]["parsed"] is None,
                                    "picked": picked}}
-    nums = numbers_of(reason_of(row))
+    nums_u = numbers_units(reason_of(row))
+    nums = [v for v, _ in nums_u]
     labels, detail = [], {}
 
     missing, found, check = [], [], []
-    for alts, tol in zip(reqs, tols):
+    for alts, tol, us in zip(reqs, tols, units):
         hit = None
-        for a in alts:
-            hit = matches_alt(nums, a, alts[0], tol)
+        for a, unit in zip(alts, us):
+            hit = matches_alt(nums_u, a, alts[0], tol, unit)
             if hit is not None:
                 found.append({"대안": alts, "맞은 풀이 숫자": hit})
                 break
@@ -282,16 +385,18 @@ def classify(row, value, reqs, tols=None, conv=()):
 
 
 def round2_tables(base, topics=TOPICS2):
-    """round 2는 요구와 단위 바꾸기가 질문 파일에 있다. 문제 id별 (요구, 단위 바꾸기) 사전을 돌려준다."""
-    reqs, conv = {}, {}
+    """round 2는 요구와 단위 바꾸기가 질문 파일에 있다. 문제 id별 (요구, 단위 바꾸기, 대안별 단위) 사전을 돌려준다."""
+    reqs, conv, units = {}, {}, {}
     for topic in topics:
         for q in json.loads((Path(base) / topic / "questions.json").read_text(encoding="utf-8")):
             reqs[q["id"]] = q["requirements"]
             conv[q["id"]] = q["unit_conv"]
-    return reqs, conv
+            units[q["id"]] = [ROUND2_UNITS[topic] for _ in q["requirements"]]
+            assert all(len(alts) == len(ROUND2_UNITS[topic]) for alts in q["requirements"]), q["id"]
+    return reqs, conv, units
 
 
-def collect(base=BASE, topics=TOPICS, reqs=REQUIREMENTS, conv=UNIT_CONV):
+def collect(base=BASE, topics=TOPICS, reqs=REQUIREMENTS, conv=UNIT_CONV, units=REQ_UNITS):
     """틀린 답을 모두 분류한다. 순서는 주제, 문제 순서, 씨앗이다."""
     base = Path(base)
     recs = []
@@ -309,7 +414,7 @@ def collect(base=BASE, topics=TOPICS, reqs=REQUIREMENTS, conv=UNIT_CONV):
                     continue
                 q = qmap[r["id"]]
                 labels, detail = classify(r, q["value"], reqs[r["id"]], tols[r["id"]],
-                                          conv.get(r["id"], ()))
+                                          conv.get(r["id"], ()), units.get(r["id"]))
                 recs.append({"topic": topic, "cond": cond, "id": r["id"], "seed": r["seed"],
                              "final_answer": r["final_answer"], "picked": r["grade"]["picked"],
                              "value": q["value"], "labels": labels, "detail": detail})
@@ -373,11 +478,11 @@ def main():
     args = ap.parse_args()
     if args.round == 2:
         base, topics, out_name = Path(args.base) if args.base else BASE2, TOPICS2, OUT_NAME2
-        reqs, conv = round2_tables(base, topics)
+        reqs, conv, units = round2_tables(base, topics)
     else:
         base, topics, out_name = Path(args.base) if args.base else BASE, TOPICS, OUT_NAME
-        reqs, conv = REQUIREMENTS, UNIT_CONV
-    recs = collect(base, topics, reqs, conv)
+        reqs, conv, units = REQUIREMENTS, UNIT_CONV, REQ_UNITS
+    recs = collect(base, topics, reqs, conv, units)
     nowhere = sum(1 for r in recs if not r["labels"])
     assert nowhere == 0, f"어디에도 안 들어간 답이 {nowhere}개"
     with open(base / out_name, "w", encoding="utf-8") as f:

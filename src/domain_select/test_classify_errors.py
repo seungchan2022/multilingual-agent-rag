@@ -26,6 +26,47 @@ class Numbers(unittest.TestCase):
         self.assertEqual(ce.numbers_of("227,939,200 km"), [227939200.0])
 
 
+class Units(unittest.TestCase):
+    def unit_of(self, text, value):
+        return [u for v, u in ce.numbers_units(text) if v == value][0]
+
+    def test_korean_unit_with_particle(self):
+        self.assertEqual(self.unit_of("레아는 한 바퀴를 4.5시간에 도는데", 4.5), "시간")
+        self.assertEqual(self.unit_of("12일이 된다", 12.0), "일")
+
+    def test_unit_from_same_number_elsewhere(self):
+        nums = ce.numbers_units("주기는 약 4일 이다. 4일 × 3 = 12일. 12 × 24 = 288시간")
+        self.assertEqual(nums[4], (12.0, "일"))   # 12 × 24의 12는 앞의 12일에서 일을 받는다
+        self.assertEqual(nums[5], (24.0, None))
+
+    def test_english_unit(self):
+        self.assertEqual(self.unit_of("몰 질량은 55.85 g/mol 이다", 55.85), "g/mol")
+        self.assertEqual(self.unit_of("광속 3 × 10⁸ m/s", 3e8), "m/s")
+        self.assertIsNone(self.unit_of("물질 2 mol 을 쓴다", 2.0))   # m 뒤에 ol이 이어진다
+
+    def test_word_that_is_not_unit(self):
+        self.assertIsNone(self.unit_of("3 일반적으로 쓴다", 3.0))
+        self.assertIsNone(self.unit_of("5 분자의 수", 5.0))
+
+    def test_same_digits_different_unit(self):
+        # 4.5시간은 4.518일이 아니다. 단위를 바꾼 같은 값은 맞다
+        alts = [[4.518212, 108.437088]]
+        us = [["일", "시간"]]
+        self.assertIn(ce.BAD_INPUT, ce.classify(row("한 바퀴를 4.5시간에 돈다", 13.5), 325.3, alts, None, (), us)[0])
+        self.assertNotIn(ce.BAD_INPUT, ce.classify(row("한 바퀴를 4.5일에 돈다", 13.5), 325.3, alts, None, (), us)[0])
+        self.assertNotIn(ce.BAD_INPUT, ce.classify(row("한 바퀴를 108.4시간에 돈다", 13.5), 325.3, alts, None, (), us)[0])
+        self.assertNotIn(ce.BAD_INPUT, ce.classify(row("한 바퀴를 4.5 에 돈다", 13.5), 325.3, alts, None, (), us)[0])
+
+    def test_unit_conversion_same_value(self):
+        alts, us = [[3695, ce.Offset(3421.85)]], [["K", "°C"]]
+        for text in ("3695 K", "3421.85 °C", "3.695 × 10³ K"):
+            self.assertNotIn(ce.BAD_INPUT, ce.classify(row(text + " 에서 3", 3.0), 77, alts, None, (), us)[0], text)
+        self.assertIn(ce.BAD_INPUT, ce.classify(row("3421.85 K 에서 3", 3.0), 77, alts, None, (), us)[0])
+        alts, us = [[227939200]], [["km"]]
+        self.assertNotIn(ce.BAD_INPUT, ce.classify(row("227,939,200,000 m 에서 3", 3.0), 77, alts, None, (), us)[0])
+        self.assertIn(ce.BAD_INPUT, ce.classify(row("227,939,200 s 에서 3", 3.0), 77, alts, None, (), us)[0])
+
+
 class Labels(unittest.TestCase):
     def test_no_number_skips_others(self):
         labels, _ = ce.classify(row("없음", None), 10, [[99.0]])
@@ -141,8 +182,8 @@ class Round2(unittest.TestCase):
         (root / "moons" / "results" / "base.jsonl").write_text("\n".join(rows) + "\n", encoding="utf-8")
         (root / "moons" / "results" / "context.jsonl").write_text("", encoding="utf-8")
         cls.root = root
-        reqs, conv = ce.round2_tables(root, ["moons"])
-        cls.recs = ce.collect(root, ["moons"], reqs, conv)
+        reqs, conv, units = ce.round2_tables(root, ["moons"])
+        cls.recs = ce.collect(root, ["moons"], reqs, conv, units)
 
     @classmethod
     def tearDownClass(cls):
@@ -152,9 +193,10 @@ class Round2(unittest.TestCase):
         return [r["labels"] for r in self.recs if r["seed"] == seed][0]
 
     def test_tables_from_questions(self):
-        reqs, conv = ce.round2_tables(self.root, ["moons"])
+        reqs, conv, units = ce.round2_tables(self.root, ["moons"])
         self.assertEqual(reqs, {"mo-01": [[0.942, 22.608]]})
         self.assertEqual(conv, {"mo-01": [24]})
+        self.assertEqual(units, {"mo-01": [["일", "시간"]]})
 
     def test_correct_answer_has_no_label(self):
         self.assertEqual([r["seed"] for r in self.recs], [2, 3, 4])
@@ -263,6 +305,40 @@ class RealData(unittest.TestCase):
         # 97.72는 문서의 97.794와 0.08%만 달라도 두 수를 빼는 c-06에서는 답이 3% 움직인다
         for seed in (1, 3, 4):
             self.assertEqual(self.get("chem", "A", "c-06", seed)["labels"], [ce.BAD_INPUT])
+
+
+class RealUnits(unittest.TestCase):
+    """저장된 답의 풀이로 재료 값 판정을 본다(맞은 답과 틀린 답 모두). 읽기만 한다."""
+
+    @classmethod
+    def setUpClass(cls):
+        r2 = ce.round2_tables(ce.BASE2, ce.TOPICS2)
+        cls.tables = {1: (ce.REQUIREMENTS, ce.UNIT_CONV, ce.REQ_UNITS), 2: r2}
+
+    def labels(self, rnd, topic, cond, qid, seed):
+        base = ce.BASE if rnd == 1 else ce.BASE2
+        reqs, conv, units = self.tables[rnd]
+        qs = json.loads((base / topic / "questions.json").read_text(encoding="utf-8"))
+        q = [q for q in qs if q["id"] == qid][0]
+        fname = dict(ce.CONDS)[cond]
+        for line in (base / topic / "results" / fname).read_text(encoding="utf-8").splitlines():
+            r = json.loads(line)
+            if r["id"] == qid and r["seed"] == seed:
+                return ce.classify(r, q["value"], reqs[qid], ce.tolerances_of(q, reqs), conv.get(qid, ()), units.get(qid))[0]
+        self.fail(f"{topic} {cond} {qid} {seed} 없음")
+
+    def test_now_bad_input(self):
+        # 4일 x 3 = 12일의 12는 시간 11.956이 아니다. 4.5시간은 4.518일이 아니다
+        self.assertIn(ce.BAD_INPUT, self.labels(2, "moons", "A", "mo-06", 7))
+        self.assertIn(ce.BAD_INPUT, self.labels(2, "moons", "A", "mo-09", 7))
+
+    def test_stays_material_ok(self):
+        for rnd, topic, qid, seed in [(2, "moons", "mo-01", 6), (2, "rare_earth", "re-08", 9),
+                                      (2, "exoplanets", "ex-01", 2), (2, "exoplanets", "ex-05", 9),
+                                      (2, "exoplanets", "ex-07", 2), (2, "exoplanets", "ex-10", 3),
+                                      (1, "mineral", "m-04", 3), (1, "mineral", "m-05", 2),
+                                      (1, "solar", "s-01", 1)]:
+            self.assertNotIn(ce.BAD_INPUT, self.labels(rnd, topic, "A", qid, seed), (topic, qid, seed))
 
 
 if __name__ == "__main__":
