@@ -1,0 +1,235 @@
+{
+ "need": {
+  "side": 18,
+  "table": 3,
+  "model": 5
+ },
+ "fields": {
+  "exoplanets": {
+   "quotas": {
+    "ko": {
+     "one": {
+      "need": 18,
+      "correct": 32,
+      "estimate": 50.142857142857146,
+      "ok": true
+     },
+     "table": {
+      "need": 3,
+      "correct": 9,
+      "estimate": 11.0,
+      "ok": true
+     }
+    },
+    "en": {
+     "one": {
+      "need": 18,
+      "correct": 21,
+      "estimate": 84.0,
+      "ok": true
+     },
+     "table": {
+      "need": 3,
+      "correct": 6,
+      "estimate": 9.0,
+      "ok": true
+     }
+    }
+   },
+   "reference": {
+    "ko": {
+     "correct": 5,
+     "filled": 18,
+     "total": 18
+    },
+    "en": {
+     "correct": 0,
+     "filled": 0,
+     "total": 54
+    }
+   },
+   "passed": true,
+   "reserve": 2.785714285714286
+  },
+  "rare_earth": {
+   "quotas": {
+    "ko": {
+     "one": {
+      "need": 18,
+      "correct": 23,
+      "estimate": 143.0,
+      "ok": true
+     },
+     "table": {
+      "need": 3,
+      "correct": 16,
+      "estimate": 57.84615384615385,
+      "ok": true
+     }
+    },
+    "en": {
+     "one": {
+      "need": 18,
+      "correct": 22,
+      "estimate": 108.0,
+      "ok": true
+     },
+     "table": {
+      "need": 3,
+      "correct": 6,
+      "estimate": 37.8,
+      "ok": true
+     }
+    }
+   },
+   "reference": {
+    "ko": {
+     "correct": 3,
+     "filled": 17,
+     "total": 17
+    },
+    "en": {
+     "correct": 0,
+     "filled": 4,
+     "total": 90
+    }
+   },
+   "passed": true,
+   "reserve": 6.0
+  }
+ },
+ "model_values": {
+  "exoplanets": {
+   "ko": [
+    {
+     "no": "E-ko-063",
+     "title": "HD 20367 b",
+     "raw": "+31° 07′ 37.372″",
+     "line": 7
+    },
+    {
+     "no": "E-ko-049",
+     "title": "지구 유사도 지수",
+     "raw": "35 기압",
+     "line": 52
+    },
+    {
+     "no": "E-ko-023",
+     "title": "지구 유사도 지수",
+     "raw": "56 기압",
+     "line": 51
+    },
+    {
+     "no": "E-ko-069",
+     "title": "HD 20367 b",
+     "raw": "370 ± 70 지구질량",
+     "line": 17
+    },
+    {
+     "no": "E-ko-054",
+     "title": "지구 유사도 지수",
+     "raw": "273 K",
+     "line": 58
+    }
+   ],
+   "en": [
+    {
+     "no": "E-en-134",
+     "title": "TOI-2109 b",
+     "raw": "70.74±0.37",
+     "line": 49
+    },
+    {
+     "no": "E-en-119",
+     "title": "TOI-2109 b",
+     "raw": "4.71+0.38 −0.27 L☉",
+     "line": 18
+    },
+    {
+     "no": "E-en-080",
+     "title": "Zeta Leporis",
+     "raw": "21.6 parsecs",
+     "line": 32
+    },
+    {
+     "no": "E-en-061",
+     "title": "Zeta Leporis",
+     "raw": "−14° 49′ 19.0199″",
+     "line": 5
+    },
+    {
+     "no": "E-en-058",
+     "title": "TOI-2109 b",
+     "raw": "4,040 °F",
+     "line": 41
+    }
+   ]
+  },
+  "rare_earth": {
+   "ko": [
+    {
+     "no": "R-ko-038",
+     "title": "터븀 동위 원소",
+     "raw": "621.4(11) keV",
+     "line": 25
+    },
+    {
+     "no": "R-ko-125",
+     "title": "터븀 동위 원소",
+     "raw": "544.5(6) keV",
+     "line": 35
+    },
+    {
+     "no": "R-ko-110",
+     "title": "터븀 동위 원소",
+     "raw": "4.25(15) s",
+     "line": 30
+    },
+    {
+     "no": "R-ko-090",
+     "title": "네오디뮴 동위 원소",
+     "raw": "12.4(6) min",
+     "line": 31
+    },
+    {
+     "no": "R-ko-082",
+     "title": "네오디뮴 동위 원소",
+     "raw": "10.98(1) d",
+     "line": 52
+    }
+   ],
+   "en": [
+    {
+     "no": "R-en-092",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "10.8",
+     "line": 145
+    },
+    {
+     "no": "R-en-095",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "15.4",
+     "line": 158
+    },
+    {
+     "no": "R-en-131",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "27.1 months",
+     "line": 128
+    },
+    {
+     "no": "R-en-104",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "14 hours",
+     "line": 102
+    },
+    {
+     "no": "R-en-138",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "11.0",
+     "line": 147
+    }
+   ]
+  }
+ }
+}

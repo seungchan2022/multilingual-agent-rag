@@ -280,9 +280,9 @@
   "order_side": 1,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 436 b의 지름이 해왕성보다 5,000 km 큼. 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-020",
@@ -295,9 +295,9 @@
   "order_side": 2,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "PAR(400~700 nm) 범위의 끝값. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-021",
@@ -310,9 +310,9 @@
   "order_side": 3,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마 b 공전주기 11.186일(11.2일). 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-022",
@@ -325,9 +325,9 @@
   "order_side": 4,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마의 자전주기 83일. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-023",
@@ -340,9 +340,9 @@
   "order_side": 5,
   "order_table": 3,
   "order_model": 3,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: 케플러-452b 기압 16~56 기압의 끝값. 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-024",
@@ -355,9 +355,9 @@
   "order_side": 6,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마가 b의 지평선에서 떠올라 지기까지 약 22.4일. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-025",
@@ -370,9 +370,9 @@
   "order_side": 7,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마의 생물권 0.0423~0.0816 AU의 끝값. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-026",
@@ -385,9 +385,9 @@
   "order_side": 8,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "겉보기등급 \"−5.2일 것이다\"의 \"일\"(~일 것이다)을 날로 읽음. 등급은 단위가 없는 수"
  },
  {
   "no": "E-ko-027",
@@ -400,9 +400,9 @@
   "order_side": 9,
   "order_table": 10,
   "order_model": 17,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: 케플러-452b·62e·62f의 표면 온도 288 K. 코퍼스의 영어 문서에 이 행성들이 없음(Ross 128 b 294 K 등은 다른 행성)"
  },
  {
   "no": "E-ko-028",
@@ -415,9 +415,9 @@
   "order_side": 10,
   "order_table": 2,
   "order_model": 20,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: KOI-4878.01·케플러-62f의 기압 10 기압. 영어 KOI-4878.01에 기압 없음"
  },
  {
   "no": "E-ko-029",
@@ -430,9 +430,9 @@
   "order_side": 11,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 581 c 공전주기 12.932일. 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-030",
@@ -445,9 +445,9 @@
   "order_side": 12,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마 b가 받는 조도 약 2700 럭스. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-031",
@@ -460,9 +460,9 @@
   "order_side": 13,
   "order_table": null,
   "order_model": 18,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 20367 b 공전주기 469.5 ± 9.3일(470일, 1.29년). 영어의 449 days는 KOI-4878.01로 다른 행성"
  },
  {
   "no": "E-ko-032",
@@ -475,9 +475,9 @@
   "order_side": 14,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 436 적경 11ʰ 42ᵐ 11ˢ. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-033",
@@ -490,9 +490,9 @@
   "order_side": 15,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "수성의 평균 공전궤도 반지름 0.39 AU(프록시마 b 문서의 비교). 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-034",
@@ -505,9 +505,9 @@
   "order_side": 16,
   "order_table": 9,
   "order_model": 14,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: 글리제 581 g 284 K, TRAPPIST-1e 285 K. 코퍼스의 영어 문서에 이 행성들이 없음"
  },
  {
   "no": "E-ko-035",
@@ -520,9 +520,9 @@
   "order_side": 17,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 436 b 평균거리 0.02872 AU(이름 칸의 단위). 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-036",
@@ -535,9 +535,9 @@
   "order_side": 18,
   "order_table": null,
   "order_model": 19,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 20367 b 평균거리 1.246 ± 0.075 AU. 영어의 1.1392 AU는 KOI-4878.01로 다른 행성"
  },
  {
   "no": "E-ko-037",
@@ -550,9 +550,9 @@
   "order_side": 19,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "센타우루스자리 알파에서 본 태양의 적위 +60° 50′. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-038",
@@ -565,9 +565,9 @@
   "order_side": 20,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마 b와 별의 평균 거리 약 0.05 AU(700만 km). 영어의 0.046 AU·0.0496 AU는 다른 행성"
  },
  {
   "no": "E-ko-039",
@@ -580,9 +580,9 @@
   "order_side": 21,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "센타우루스자리 알파에서 모은 정보가 지구에 닿는 데 4년이 조금 넘게 걸림. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-040",
@@ -595,9 +595,9 @@
   "order_side": 22,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마의 표면 온도 3042 켈빈. 영어의 3192 K(Ross 128), 3,311 K(Kepler-16 B)는 다른 별"
  },
  {
   "no": "E-ko-041",
@@ -610,9 +610,9 @@
   "order_side": 23,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 581 c 거리 20.4광년(6.26 파섹, 20.55 광년). 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-042",
@@ -625,9 +625,9 @@
   "order_side": 24,
   "order_table": 4,
   "order_model": 7,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: TRAPPIST-1 f 온도 230 K. 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-043",
@@ -640,9 +640,9 @@
   "order_side": 25,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "확률 \"1000만 분의 1\"의 \"분\"을 시간의 분으로 읽음. 확률은 단위가 없는 수"
  },
  {
   "no": "E-ko-044",
@@ -655,9 +655,9 @@
   "order_side": 26,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 436 적위 +26° 42′ 23″. 영어의 29°는 Tau Boötis b의 궤도 경사"
  },
  {
   "no": "E-ko-045",
@@ -670,9 +670,9 @@
   "order_side": 27,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 436 b 각거리 0.002816 초각. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-046",
@@ -685,9 +685,9 @@
   "order_side": 28,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구에서 해가 뜰 때 수평으로 받는 최대 조도 약 400 럭스(프록시마 b 문서의 비교). 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-047",
@@ -730,9 +730,9 @@
   "order_side": 31,
   "order_table": 7,
   "order_model": 2,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: 케플러-62e 기압 35 기압. 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-050",
@@ -805,9 +805,9 @@
   "order_side": 36,
   "order_table": 11,
   "order_model": 5,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: 케플러-440b 표면 온도 273 K. 영어의 269 K·279 K는 Ross 128 b·Kepler-22b로 다른 행성"
  },
  {
   "no": "E-ko-055",
@@ -880,9 +880,9 @@
   "order_side": 41,
   "order_table": 6,
   "order_model": 8,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "케플러-442b 온도 233 K와 프록시마 b 균형 온도 234 K(−39 °C)가 한 묶음. 둘 다 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "E-ko-060",
@@ -940,9 +940,9 @@
   "order_side": 45,
   "order_table": null,
   "order_model": 1,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 20367 적위 +31° 07′ 37.372″. 코퍼스의 영어 문서에 이 별이 없음"
  },
  {
   "no": "E-ko-064",
@@ -1030,9 +1030,9 @@
   "order_side": 51,
   "order_table": null,
   "order_model": 4,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 20367 b 질량 1.17 ± 0.23 목성질량(>370 ± 70 지구질량). 코퍼스의 영어 문서에 이 행성이 없음"
  },
  {
   "no": "E-ko-070",
@@ -1045,9 +1045,9 @@
   "order_side": 52,
   "order_table": 8,
   "order_model": 6,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 유사도 지수 표: 케플러-438b 276 K, 글리제 667 Cc 277 K. 코퍼스의 영어 문서에 이 행성들이 없음"
  },
  {
   "no": "E-ko-071",
@@ -1900,9 +1900,9 @@
   "order_side": 1,
   "order_table": 9,
   "order_model": 35,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 표: 확인되지 않은 행성 c의 공전 주기 후보 \"1.57, 2.67, 88 or 117\" 가운데 88일. 코퍼스의 한국어 문서에 이 행성이 없음"
  },
  {
   "no": "E-en-056",
@@ -1915,9 +1915,9 @@
   "order_side": 2,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "Kepler-22의 표면 온도 5,518 K(5,245 °C; 9,473 °F). 한국어의 5778 켈빈은 태양"
  },
  {
   "no": "E-en-057",
@@ -1930,9 +1930,9 @@
   "order_side": 3,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "KELT-9의 표면 온도 10,170 K(9,897 °C; 17,846 °F). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-058",
@@ -1945,9 +1945,9 @@
   "order_side": 4,
   "order_table": null,
   "order_model": 5,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 b 밤 쪽 온도 2,500 K 아래(2,230 °C; 4,040 °F). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-059",
@@ -1960,9 +1960,9 @@
   "order_side": 5,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "Kepler-22b 평균 반지름 2.10±0.12 R🜨(2.1 R🜨). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-060",
@@ -1975,9 +1975,9 @@
   "order_side": 6,
   "order_table": null,
   "order_model": 21,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "토끼자리 제타가 약 100만 년 전 태양에서 1.64 파섹(5.34 광년)을 지남. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-061",
@@ -1990,9 +1990,9 @@
   "order_side": 7,
   "order_table": null,
   "order_model": 4,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "토끼자리 제타 적위 −14° 49′ 19.0199″. 코퍼스의 한국어 문서에 이 별이 없음"
  },
  {
   "no": "E-en-062",
@@ -2005,9 +2005,9 @@
   "order_side": 8,
   "order_table": null,
   "order_model": 33,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "토끼자리 제타가 약 861,000년 전 태양에 가장 가까웠음. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-063",
@@ -2020,9 +2020,9 @@
   "order_side": 9,
   "order_table": 7,
   "order_model": 6,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "토끼자리 제타의 먼지 알갱이가 별에서 2.5 AU까지 가까울 수 있음(표의 소행성대 2.5–6.1 AU와 한 묶음). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-064",
@@ -2035,9 +2035,9 @@
   "order_side": 10,
   "order_table": 3,
   "order_model": 23,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 표: 확인되지 않은 행성 c의 공전 주기 후보 가운데 117일. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-065",
@@ -2050,9 +2050,9 @@
   "order_side": 11,
   "order_table": 5,
   "order_model": 18,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 표: TOI-2109 b 반지름 1.347±0.047 RJ. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-066",
@@ -2065,9 +2065,9 @@
   "order_side": 12,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "Ross 128 b 공전 주기 9.8556 d(9.9 days). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-067",
@@ -2080,9 +2080,9 @@
   "order_side": 13,
   "order_table": null,
   "order_model": 7,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 거리 870 ly(873 ± 5 ly, 268 ± 1 pc). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-068",
@@ -2095,9 +2095,9 @@
   "order_side": 14,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "KELT-9b 열권 온도 10,000–11,000 K의 끝값. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-069",
@@ -2110,9 +2110,9 @@
   "order_side": 15,
   "order_table": 2,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "Kepler-22b 표: Spitzer가 관측한 7.4시간 통과. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-070",
@@ -2125,9 +2125,9 @@
   "order_side": 16,
   "order_table": null,
   "order_model": 26,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109(별) 반지름 1.698 R☉. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-071",
@@ -2140,9 +2140,9 @@
   "order_side": 17,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "Ross 128 b 예측 질량 1.8 M🜨. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-072",
@@ -2155,9 +2155,9 @@
   "order_side": 18,
   "order_table": null,
   "order_model": 43,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 나이 1.77 Gyr. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-073",
@@ -2275,9 +2275,9 @@
   "order_side": 26,
   "order_table": null,
   "order_model": 3,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "토끼자리 제타 거리 70.5 광년(21.6 파섹). 코퍼스의 한국어 문서에 이 별이 없음"
  },
  {
   "no": "E-en-081",
@@ -2860,9 +2860,9 @@
   "order_side": 65,
   "order_table": null,
   "order_model": 2,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109(별) 광도 4.71 L☉. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-120",
@@ -3085,9 +3085,9 @@
   "order_side": 80,
   "order_table": 6,
   "order_model": 1,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "TOI-2109 표: TOI-2109 b 궤도 경사 70.74±0.37°(머리글의 단위). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "E-en-135",
@@ -3415,9 +3415,9 @@
   "order_side": 1,
   "order_table": 90,
   "order_model": 90,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁴⁷ᵐTb 들뜸 에너지 50.6(9) keV. 코퍼스의 영어 문서에 터븀 동위 원소가 없음"
  },
  {
   "no": "R-ko-019",
@@ -3430,9 +3430,9 @@
   "order_side": 2,
   "order_table": 81,
   "order_model": 81,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁶⁰Tb 반감기 72.3(2) d. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "R-ko-020",
@@ -3445,9 +3445,9 @@
   "order_side": 3,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "이트륨 부피 탄성 계수 41.2 GPa. 영어의 40.5 GPa·44.5 GPa는 디스프로슘·툴륨"
  },
  {
   "no": "R-ko-021",
@@ -3460,9 +3460,9 @@
   "order_side": 4,
   "order_table": 46,
   "order_model": 46,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁴⁴ᵐ³Tb 들뜸 에너지 517.1(5) keV. 영어의 507.50 keV 등은 이트륨 동위 원소"
  },
  {
   "no": "R-ko-022",
@@ -3475,9 +3475,9 @@
   "order_side": 5,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹⁴⁷Sm 반감기 1.06×10¹¹년(정보 상자와 본문). 영어의 1.03×10¹¹ y는 ¹³⁸La"
  },
  {
   "no": "R-ko-023",
@@ -3490,9 +3490,9 @@
   "order_side": 6,
   "order_table": 49,
   "order_model": 49,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "네오디뮴 동위 원소 표: ¹⁴⁹Nd 반감기 1.728(1) h. 영어의 96 minutes는 ¹⁵²Eu의 이성질체"
  },
  {
   "no": "R-ko-024",
@@ -3505,9 +3505,9 @@
   "order_side": 7,
   "order_table": 44,
   "order_model": 44,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁵⁶ᵐ²Tb 반감기 5.3(2) h. 영어의 4.86 h는 ⁸⁵ᵐ¹Y"
  },
  {
   "no": "R-ko-025",
@@ -3520,9 +3520,9 @@
   "order_side": 8,
   "order_table": 18,
   "order_model": 18,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁵⁶ᵐ¹Tb 반감기 24.4(10) h. 영어의 24-hour는 치료 시간"
  },
  {
   "no": "R-ko-026",
@@ -3535,9 +3535,9 @@
   "order_side": 9,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "어븀 액체 밀도 8.86 g/cm³. 영어의 8.550·9.3·8.37 g/cm³는 디스프로슘·루테튬"
  },
  {
   "no": "R-ko-027",
@@ -3550,9 +3550,9 @@
   "order_side": 10,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹⁶⁰Er 반감기 28.58 h(어븀 정보 상자). 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "R-ko-028",
@@ -3565,9 +3565,9 @@
   "order_side": 11,
   "order_table": 94,
   "order_model": 94,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁵³ᵐTb 들뜸 에너지 163.175(5) keV. 영어의 170.78 keV·147.9 keV는 이트륨·유로퓸"
  },
  {
   "no": "R-ko-029",
@@ -3580,9 +3580,9 @@
   "order_side": 12,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "사마륨 전단 탄성 계수 19.5 GPa(α형). 영어의 18.2 GPa는 유로퓸의 영률"
  },
  {
   "no": "R-ko-030",
@@ -3595,9 +3595,9 @@
   "order_side": 13,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "이트륨 열전도율 17.2 W/(m·K). 영어의 16.9·16.4는 툴륨·루테튬"
  },
  {
   "no": "R-ko-031",
@@ -3610,9 +3610,9 @@
   "order_side": 14,
   "order_table": 12,
   "order_model": 12,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "네오디뮴 동위 원소 표: ¹⁵⁴ᵐ²Nd 들뜸 에너지 1349(10) keV. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "R-ko-032",
@@ -3625,9 +3625,9 @@
   "order_side": 15,
   "order_table": 22,
   "order_model": 22,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁴⁸ᵐ¹Tb 들뜸 에너지 90.1(3) keV. 영어의 84.253 keV는 툴륨의 감마선"
  },
  {
   "no": "R-ko-033",
@@ -3640,9 +3640,9 @@
   "order_side": 16,
   "order_table": 58,
   "order_model": 58,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁵²ᵐ¹Tb 반감기 0.96 µs. 영어의 870 ns는 ¹⁰¹ᵐY"
  },
  {
   "no": "R-ko-034",
@@ -3655,9 +3655,9 @@
   "order_side": 17,
   "order_table": 23,
   "order_model": 23,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "네오디뮴 동위 원소 표: ¹⁵⁴Nd 반감기 25.9(2) s. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "R-ko-035",
@@ -3670,9 +3670,9 @@
   "order_side": 18,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "어븀 전기 저항도 0.860 μΩ·m. 영어의 0.900 µΩ⋅m·926 nΩ⋅m는 유로퓸·디스프로슘"
  },
  {
   "no": "R-ko-036",
@@ -3715,9 +3715,9 @@
   "order_side": 21,
   "order_table": 1,
   "order_model": 1,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁴²ᵐ²Tb 들뜸 에너지 621.4(11) keV. 영어의 594·667.52 keV 등은 이트륨 동위 원소"
  },
  {
   "no": "R-ko-039",
@@ -4375,9 +4375,9 @@
   "order_side": 65,
   "order_table": 5,
   "order_model": 5,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "네오디뮴 동위 원소 표: ¹⁴⁷Nd 반감기 10.98(1) d. 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "R-ko-083",
@@ -4495,9 +4495,9 @@
   "order_side": 73,
   "order_table": 4,
   "order_model": 4,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "네오디뮴 동위 원소 표: ¹³⁵Nd 반감기 12.4(6) min과 ¹⁵¹Nd 12.44(7) min이 한 묶음. 둘 다 코퍼스의 영어 문서에 없음"
  },
  {
   "no": "R-ko-091",
@@ -4795,9 +4795,9 @@
   "order_side": 93,
   "order_table": 3,
   "order_model": 3,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁴⁴ᵐ¹Tb 반감기 4.25(15) s. 영어의 4.6 s는 ⁸⁴ᵐ¹Y"
  },
  {
   "no": "R-ko-111",
@@ -5020,9 +5020,9 @@
   "order_side": 108,
   "order_table": 2,
   "order_model": 2,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "터븀 동위 원소 표: ¹⁴⁴ᵐ⁴Tb 들뜸 에너지 544.5(6) keV. 영어의 555.58·507.50 keV 등은 이트륨 동위 원소"
  },
  {
   "no": "R-ko-126",
@@ -6190,9 +6190,9 @@
   "order_side": 43,
   "order_table": 51,
   "order_model": 4,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(±1% 안): 동위 원소 질량 ⁸³Y 영어 82.922484(20), 한국어 이트륨 동위 원소 82.92235(5)"
  },
  {
   "no": "R-en-044",
@@ -6550,9 +6550,9 @@
   "order_side": 67,
   "order_table": 29,
   "order_model": 7,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ¹⁰⁰ᵐY 들뜸 에너지 영어 144(16) keV, 한국어 200(200)# keV"
  },
  {
   "no": "R-en-068",
@@ -6835,9 +6835,9 @@
   "order_side": 86,
   "order_table": 61,
   "order_model": 2,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(±1% 안): 동위 원소 질량 ¹⁰²Y 영어 101.9343285(44), 한국어 이트륨 동위 원소 101.93356(9). ¹⁰³Y도 102.937244와 102.93673. 한국어 표 머리글 (u)는 세는 프로그램이 읽지 않음"
  },
  {
   "no": "R-en-087",
@@ -6850,9 +6850,9 @@
   "order_side": 87,
   "order_table": 59,
   "order_model": 5,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁸⁶ᵐ¹Y 반감기 영어 47.4(4) min, 한국어 48(1) min(1.3% 차이, 반올림하면 47)"
  },
  {
   "no": "R-en-088",
@@ -6910,9 +6910,9 @@
   "order_side": 1,
   "order_table": 15,
   "order_model": 18,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료 표: 중앙 생존 기간 17.7개월(본문 17.7 months와 한 묶음). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-092",
@@ -6925,9 +6925,9 @@
   "order_side": 2,
   "order_table": 17,
   "order_model": 1,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료 표: JRR4 재발 환자 중앙 생존 기간 10.8개월. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-093",
@@ -6940,9 +6940,9 @@
   "order_side": 3,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "란타넘 비열 195.162 J/(kg·K). 코퍼스의 한국어 문서에 란타넘이 없음"
  },
  {
   "no": "R-en-094",
@@ -6955,9 +6955,9 @@
   "order_side": 4,
   "order_table": null,
   "order_model": 26,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 양성자 가속기 에너지 1.9~3.0 MeV의 끝값. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-095",
@@ -6970,9 +6970,9 @@
   "order_side": 5,
   "order_table": null,
   "order_model": 3,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 종양 최소 선량 15.4~54.3 Gy(w)의 앞 끝값. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-096",
@@ -6985,9 +6985,9 @@
   "order_side": 6,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "유로퓸 열전도율 13.9 W/(m⋅K)(어림). 한국어의 14.5·13.3은 어븀·사마륨"
  },
  {
   "no": "R-en-097",
@@ -7000,9 +7000,9 @@
   "order_side": 7,
   "order_table": 48,
   "order_model": 41,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료 표: BMRR 중앙 생존 기간 12.8개월. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-098",
@@ -7015,9 +7015,9 @@
   "order_side": 8,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "유로퓸 부피 탄성 계수 8.3 GPa. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-099",
@@ -7030,9 +7030,9 @@
   "order_side": 9,
   "order_table": null,
   "order_model": 62,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 중앙 전체 생존 기간 18.9개월. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-100",
@@ -7045,9 +7045,9 @@
   "order_side": 10,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹⁵¹Eu 반감기 4.6×10¹⁸년(4.62×10¹⁸ years). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-101",
@@ -7060,9 +7060,9 @@
   "order_side": 11,
   "order_table": null,
   "order_model": 33,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 진단 뒤 중앙 전체 생존 기간 98.4개월. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-102",
@@ -7075,9 +7075,9 @@
   "order_side": 12,
   "order_table": 49,
   "order_model": 35,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료 표: FiR1 중앙 생존 기간 11.0–21.9개월의 끝값. 한국어의 21.9%는 ¹⁷²Yb 존재비"
  },
  {
   "no": "R-en-103",
@@ -7090,9 +7090,9 @@
   "order_side": 13,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "고순도 유로퓸 70.4 g을 만들었다는 기록. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-104",
@@ -7105,9 +7105,9 @@
   "order_side": 14,
   "order_table": null,
   "order_model": 8,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 주입 뒤 12~14시간에 치료함의 끝값. 한국어의 13.37 h·14.74 h는 이트륨 동위 원소"
  },
  {
   "no": "R-en-105",
@@ -7120,9 +7120,9 @@
   "order_side": 15,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프라세오디뮴의 계산한 원자 반지름 247 pm. 한국어의 238 pm·228 pm은 사마륨·디스프로슘"
  },
  {
   "no": "R-en-106",
@@ -7135,9 +7135,9 @@
   "order_side": 16,
   "order_table": null,
   "order_model": 40,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "사마륨-코발트 자석의 최고 사용 온도 550 °C(823 K). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-107",
@@ -7150,9 +7150,9 @@
   "order_side": 17,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "란타넘 1차 이온화 에너지 538.1 kJ/mol. 한국어의 544.5·523.5·573.0은 사마륨·루테튬·디스프로슘"
  },
  {
   "no": "R-en-108",
@@ -7165,9 +7165,9 @@
   "order_side": 18,
   "order_table": null,
   "order_model": 32,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 중앙 생존 기간 13.6개월과 무진행 생존 기간 13.7개월이 한 묶음. 둘 다 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-109",
@@ -7180,9 +7180,9 @@
   "order_side": 19,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "란타넘 융해열 6.20 kJ/mol. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-110",
@@ -7195,9 +7195,9 @@
   "order_side": 20,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프라세오디뮴 융해열 6.89 kJ/mol. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-111",
@@ -7510,9 +7510,9 @@
   "order_side": 41,
   "order_table": 47,
   "order_model": 6,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료: 중앙 생존 기간 27.1개월(본문과 표). 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-132",
@@ -7615,9 +7615,9 @@
   "order_side": 48,
   "order_table": 13,
   "order_model": 9,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중성자 포획 치료 표: FiR1 11.0개월(11.0–21.9의 앞 끝값)과 MITR 11.1개월이 한 묶음. 코퍼스의 한국어 문서에 없음"
  },
  {
   "no": "R-en-139",
