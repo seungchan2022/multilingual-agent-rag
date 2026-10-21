@@ -16,24 +16,24 @@
 
 ### exoplanets ko 모델 시험 값 (결정 ⑥, 숫자 하나인 값만)
 
-- E-ko-049 | 지구 유사도 지수 | `35 기압` | 줄 52
-- E-ko-069 | HD 20367 b | `1.17 ± 0.23 목성질량` | 줄 17
-- E-ko-054 | 지구 유사도 지수 | `273 K` | 줄 58
-- E-ko-070 | 지구 유사도 지수 | `276 K` | 줄 44
-- E-ko-042 | 지구 유사도 지수 | `230 K` | 줄 67
-- 건너뜀(좌표): E-ko-063 | HD 20367 b | `+31° 07′ 37.372″` | 줄 7
-- 건너뜀(범위): E-ko-023 | 지구 유사도 지수 | `56 기압` | 줄 51
+- E-ko-049 | 지구 유사도 지수 | `35 기압` | 줄 53
+- E-ko-069 | HD 20367 b | `1.17 ± 0.23 목성질량` | 줄 18
+- E-ko-054 | 지구 유사도 지수 | `273 K` | 줄 59
+- E-ko-070 | 지구 유사도 지수 | `276 K` | 줄 45
+- E-ko-042 | 지구 유사도 지수 | `230 K` | 줄 68
+- 건너뜀(좌표): E-ko-063 | HD 20367 b | `+31° 07′ 37.372″` | 줄 8
+- 건너뜀(범위): E-ko-023 | 지구 유사도 지수 | `56 기압` | 줄 52
 
 ### exoplanets en 모델 시험 값 (결정 ⑥, 숫자 하나인 값만)
 
-- E-en-134 | TOI-2109 b | `70.74±0.37` | 줄 49
-- E-en-119 | TOI-2109 b | `4.71+0.38 −0.27 L☉` | 줄 18
-- E-en-080 | Zeta Leporis | `21.6 parsecs` | 줄 32
-- E-en-067 | TOI-2109 b | `870 ly` | 줄 31
-- E-en-133 | Zeta Leporis | `1.5 R☉` | 줄 19
-- 건너뜀(좌표): E-en-061 | Zeta Leporis | `−14° 49′ 19.0199″` | 줄 5
-- 건너뜀(경계 값): E-en-058 | TOI-2109 b | `4,040 °F` | 줄 41
-- 건너뜀(경계 값): E-en-063 | Zeta Leporis | `2.5 AU` | 줄 50
+- E-en-134 | TOI-2109 b | `70.74±0.37` | 줄 50
+- E-en-119 | TOI-2109 b | `4.71+0.38 −0.27 L☉` | 줄 19
+- E-en-080 | Zeta Leporis | `21.6 parsecs` | 줄 33
+- E-en-067 | TOI-2109 b | `870 ly` | 줄 32
+- E-en-133 | Zeta Leporis | `1.5 R☉` | 줄 20
+- 건너뜀(좌표): E-en-061 | Zeta Leporis | `−14° 49′ 19.0199″` | 줄 6
+- 건너뜀(경계 값): E-en-058 | TOI-2109 b | `4,040 °F` | 줄 42
+- 건너뜀(경계 값): E-en-063 | Zeta Leporis | `2.5 AU` | 줄 51
 
 ## rare_earth: 넘음 (여유 6.000)
 
@@ -49,19 +49,19 @@
 
 ### rare_earth ko 모델 시험 값 (결정 ⑥, 숫자 하나인 값만)
 
-- R-ko-038 | 터븀 동위 원소 | `621.4(11) keV` | 줄 25
-- R-ko-125 | 터븀 동위 원소 | `544.5(6) keV` | 줄 35
-- R-ko-110 | 터븀 동위 원소 | `4.25(15) s` | 줄 30
-- R-ko-090 | 네오디뮴 동위 원소 | `12.4(6) min` | 줄 31
-- R-ko-082 | 네오디뮴 동위 원소 | `10.98(1) d` | 줄 52
+- R-ko-038 | 터븀 동위 원소 | `621.4(11) keV` | 줄 26
+- R-ko-125 | 터븀 동위 원소 | `544.5(6) keV` | 줄 36
+- R-ko-110 | 터븀 동위 원소 | `4.25(15) s` | 줄 31
+- R-ko-090 | 네오디뮴 동위 원소 | `12.4(6) min` | 줄 32
+- R-ko-082 | 네오디뮴 동위 원소 | `10.98(1) d` | 줄 53
 
 ### rare_earth en 모델 시험 값 (결정 ⑥, 숫자 하나인 값만)
 
-- R-en-092 | Neutron capture therapy of cancer | `10.8` | 줄 145
-- R-en-131 | Neutron capture therapy of cancer | `27.1 months` | 줄 128
-- R-en-138 | Neutron capture therapy of cancer | `11.1` | 줄 143
-- R-en-193 | Neutron capture therapy of cancer | `23.5 months` | 줄 124
-- R-en-091 | Neutron capture therapy of cancer | `17.7` | 줄 146
-- 건너뜀(범위): R-en-095 | Neutron capture therapy of cancer | `15.4` | 줄 158
-- 건너뜀(범위): R-en-104 | Neutron capture therapy of cancer | `14 hours` | 줄 102
-- 건너뜀(범위): R-en-132 | Neutron capture therapy of cancer | `1.9` | 줄 180
+- R-en-092 | Neutron capture therapy of cancer | `10.8` | 줄 146
+- R-en-131 | Neutron capture therapy of cancer | `27.1 months` | 줄 129
+- R-en-138 | Neutron capture therapy of cancer | `11.1` | 줄 144
+- R-en-193 | Neutron capture therapy of cancer | `23.5 months` | 줄 125
+- R-en-091 | Neutron capture therapy of cancer | `17.7` | 줄 147
+- 건너뜀(범위): R-en-095 | Neutron capture therapy of cancer | `15.4` | 줄 159
+- 건너뜀(범위): R-en-104 | Neutron capture therapy of cancer | `14 hours` | 줄 103
+- 건너뜀(범위): R-en-132 | Neutron capture therapy of cancer | `1.9` | 줄 181
