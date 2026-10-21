@@ -7,9 +7,9 @@
   "lang": "ko",
   "group": "ko19",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "대한민국 연 강수량 1400mm, 영어 문서에 강수량 없음"
  },
  {
   "no": "S002",
@@ -19,9 +19,9 @@
   "lang": "ko",
   "group": "ko3",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 436 b 각거리 0.002816 초각, 영어 문서에 없음"
  },
  {
   "no": "S003",
@@ -31,9 +31,9 @@
   "lang": "ko",
   "group": "ko65",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "OGLE-2005-BLG-390Lb 2.6 AU, 영어 쪽 같은 행성 값 없음"
  },
  {
   "no": "S004",
@@ -43,9 +43,9 @@
   "lang": "ko",
   "group": "ko23",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "격자 상수 c 세 원소 묶음, 영어 문서에 격자 상수 없음"
  },
  {
   "no": "S005",
@@ -55,9 +55,9 @@
   "lang": "ko",
   "group": "ko155",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "우리별 3호 401 MHz, 영어 KITSAT-3 문서에 주파수 없음"
  },
  {
   "no": "S006",
@@ -67,9 +67,9 @@
   "lang": "ko",
   "group": "ko111",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "16.8일, 영어 쪽에 같은 값 없음"
  },
  {
   "no": "S007",
@@ -79,9 +79,9 @@
   "lang": "ko",
   "group": "ko12",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "COROT-7b 적경 06ʰ43ᵐ49.0ˢ, 영어 CoRoT-7b 문서에 적경 없음"
  },
  {
   "no": "S008",
@@ -91,9 +91,9 @@
   "lang": "ko",
   "group": "ko44",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "우리별 3호 730km, 영어 KITSAT-3 문서에 km 값 없음"
  },
  {
   "no": "S009",
@@ -103,9 +103,9 @@
   "lang": "ko",
   "group": "ko37",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 글리제 1214 b 궤도 긴반지름 0.0143 AU; 영어 GJ 1214 b에 Semi-major axis 0.01505±0.00011(단위 없는 칸)로 같은 속성이 다른 값으로 있음"
  },
  {
   "no": "S010",
@@ -115,9 +115,9 @@
   "lang": "ko",
   "group": "ko10",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마 b 문서의 태양 적경 02ʰ39ᵐ35ˢ, 영어 문서는 별자리 이름만"
  },
  {
   "no": "S011",
@@ -127,9 +127,9 @@
   "lang": "ko",
   "group": "ko51",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "무궁화 5호 6,000 km, 영어 쪽에 없음"
  },
  {
   "no": "S012",
@@ -139,9 +139,9 @@
   "lang": "ko",
   "group": "ko13",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(반올림), 경계 사례: 과학기술위성 1호 크기 한국어 665*551*830 mm, 영어 66 cm x 60 cm x 80 cm. 정수 끝의 0을 유효 자릿수로 보지 않는 약속에 따라 830 mm를 10 cm 자리로 반올림하면 80 cm(3.6% 차이)"
  },
  {
   "no": "S013",
@@ -151,9 +151,9 @@
   "lang": "ko",
   "group": "ko39",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 876 d 0.021 AU, 영어 쪽에 없음"
  },
  {
   "no": "S014",
@@ -163,9 +163,9 @@
   "lang": "ko",
   "group": "ko68",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HR 8799 행성 38 AU, 영어 쪽에 없음"
  },
  {
   "no": "S015",
@@ -175,9 +175,9 @@
   "lang": "ko",
   "group": "ko63",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 툴륨 기화열 247 kJ/mol; 영어 Thulium에 191 kJ/mol로 같은 속성이 다른 값으로 있음"
  },
  {
   "no": "S016",
@@ -187,9 +187,9 @@
   "lang": "ko",
   "group": "ko36",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "케플러-70 행성 0.006AU, 영어 쪽에 없음"
  },
  {
   "no": "S017",
@@ -199,9 +199,9 @@
   "lang": "ko",
   "group": "ko141",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"(2025~2030년)\", \"(2030~2040년)\"의 연도를 기간(년)으로 읽음. 범위 끝의 연도에 연도 규칙이 적용되지 않는 구현 결함"
  },
  {
   "no": "S018",
@@ -211,9 +211,9 @@
   "lang": "ko",
   "group": "ko43",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "프록시마 b 궤도 범위 0.0423~0.0816 AU의 아래 끝, 영어 쪽에 없음"
  },
  {
   "no": "S019",
@@ -223,9 +223,9 @@
   "lang": "ko",
   "group": "ko124",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "47 UMa 동반 행성 공전 주기, 영어 문서에 47 UMa 없음"
  },
  {
   "no": "S020",
@@ -235,9 +235,9 @@
   "lang": "ko",
   "group": "ko125",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HW Vir 쌍성 주위 행성 공전 주기 9.1년, 영어 문서에 이 계 없음(9.1은 다른 질량 값)"
  },
  {
   "no": "S021",
@@ -247,9 +247,9 @@
   "lang": "ko",
   "group": "ko59",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 케플러-22b 궤도 거리 ko 0.849 AU, 영어 Semi-major axis 0.812 AU(4.4% 차이)"
  },
  {
   "no": "S022",
@@ -259,9 +259,9 @@
   "lang": "ko",
   "group": "ko239",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 프라세오디뮴 열팽창 ko 6.7 µm/(m·K), 영어 4.5×10⁻⁶/K"
  },
  {
   "no": "S023",
@@ -271,9 +271,9 @@
   "lang": "ko",
   "group": "ko31",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 글리제 436 b 반지름 ko 0.438 RJ, 영어 Mean radius 4.10 R🜨(약 17% 차이)"
  },
  {
   "no": "S024",
@@ -283,9 +283,9 @@
   "lang": "ko",
   "group": "ko29",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "낱말: 영어는 낱말로 적음 \"about four thousand kilometers larger in diameter than Uranus\""
  },
  {
   "no": "S025",
@@ -295,9 +295,9 @@
   "lang": "ko",
   "group": "ko69",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 2M1207b 거리 ko 41 AU, 영어 Methods of detecting exoplanets \"orbital radius greater than 40 AU\""
  },
  {
   "no": "S026",
@@ -307,9 +307,9 @@
   "lang": "ko",
   "group": "ko107",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), 게자리 55 h는 영어 B 문서에 없음"
  },
  {
   "no": "S027",
@@ -319,9 +319,9 @@
   "lang": "ko",
   "group": "ko20",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 틈의 거리 (AU), HD 113766은 영어 B 문서에 없음"
  },
  {
   "no": "S028",
@@ -331,9 +331,9 @@
   "lang": "ko",
   "group": "ko53",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), SWEEPS-02는 영어 B 문서에 없음"
  },
  {
   "no": "S029",
@@ -343,9 +343,9 @@
   "lang": "ko",
   "group": "ko43",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 글리제 86 b 거리 ko 35.9 광년·36 광년·11 파섹, 영어 \"approximately 35 light-years\"(반올림, 2.6% 차이)"
  },
  {
   "no": "S030",
@@ -355,9 +355,9 @@
   "lang": "ko",
   "group": "ko10",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 궤도장반경 (천문단위), 글리제 436 c는 영어 B 문서에 없음"
  },
  {
   "no": "S031",
@@ -367,9 +367,9 @@
   "lang": "ko",
   "group": "ko71",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), 글리제 436 c는 영어 B 문서에 없음"
  },
  {
   "no": "S032",
@@ -379,9 +379,9 @@
   "lang": "ko",
   "group": "ko87",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), \"908?\"의 물음표는 원문 표시, HD 208487 c는 영어 B 문서에 없음"
  },
  {
   "no": "S033",
@@ -391,9 +391,9 @@
   "lang": "ko",
   "group": "ko42",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 궤도장반경 (천문단위), HD 44179 B b는 영어 B 문서에 없음"
  },
  {
   "no": "S034",
@@ -403,9 +403,9 @@
   "lang": "ko",
   "group": "ko33",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 궤도장반경 (천문단위), 랄랑드 21185 c는 영어 B 문서에 없음"
  },
  {
   "no": "S035",
@@ -415,9 +415,9 @@
   "lang": "ko",
   "group": "ko66",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹³¹ᵐCe 들뜬 에너지 ko 61.8(1) keV, 영어 63.09(9) keV(2.1% 차이)"
  },
  {
   "no": "S036",
@@ -427,9 +427,9 @@
   "lang": "ko",
   "group": "ko75",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), 공작자리 피2 b는 영어 B 문서에 없음"
  },
  {
   "no": "S037",
@@ -439,9 +439,9 @@
   "lang": "ko",
   "group": "ko109",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "칸에 적힌 단위 년이 머리글(일)보다 먼저 읽힘, 에리다누스자리 엡실론 c는 영어 B 문서에 없음"
  },
  {
   "no": "S038",
@@ -451,9 +451,9 @@
   "lang": "ko",
   "group": "ko22",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹⁵³⁻¹⁵⁵Ce 반감기 ko \"500# ms [>300 ns]\" 등, 영어 865(25) ms·722(14) ms·313(7) ms. \">\"는 버리고 300 ns로 읽음(적힌 수와 단위는 맞음)"
  },
  {
   "no": "S039",
@@ -463,9 +463,9 @@
   "lang": "ko",
   "group": "ko5",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 23596 적위, 영어 B 문서에 적위·적경 없음(Inclination은 다른 속성)"
  },
  {
   "no": "S040",
@@ -475,9 +475,9 @@
   "lang": "ko",
   "group": "ko80",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "칸의 단위 년, PSR B1828-10은 영어 B 문서에 없음"
  },
  {
   "no": "S041",
@@ -487,9 +487,9 @@
   "lang": "ko",
   "group": "ko101",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "\">10년\"의 \">\"는 버리고 10년으로 읽음, HD 50499 d는 영어 B 문서에 없음"
  },
  {
   "no": "S042",
@@ -499,9 +499,9 @@
   "lang": "ko",
   "group": "ko76",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), HD 223084 b는 영어 B 문서에 없음"
  },
  {
   "no": "S043",
@@ -511,9 +511,9 @@
   "lang": "ko",
   "group": "ko51",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), SWEEPS-15는 영어 B 문서에 없음"
  },
  {
   "no": "S044",
@@ -523,9 +523,9 @@
   "lang": "ko",
   "group": "ko0",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 86 적위, 영어 B 문서에 적위 없음"
  },
  {
   "no": "S045",
@@ -535,9 +535,9 @@
   "lang": "ko",
   "group": "ko94",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "칸의 단위 년, 제밍가 b는 영어 B 문서에 없음"
  },
  {
   "no": "S046",
@@ -547,9 +547,9 @@
   "lang": "ko",
   "group": "ko47",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "원문이 \"~1230 g/cm³\"로 적음(값 자체가 이상하지만 적힌 대로 읽음), 영어 HD 147513 b에 밀도 없음"
  },
  {
   "no": "S047",
@@ -559,9 +559,9 @@
   "lang": "ko",
   "group": "ko41",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 틈의 거리 (AU), \"86 - 350\"의 뒤 끝, HD 141569는 영어 B 문서에 없음"
  },
  {
   "no": "S048",
@@ -571,9 +571,9 @@
   "lang": "ko",
   "group": "ko63",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 공전주기 (일), SWEEPS-13은 영어 B 문서에 없음"
  },
  {
   "no": "S049",
@@ -583,9 +583,9 @@
   "lang": "ko",
   "group": "ko97",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "칸의 단위 년, HD 50499 c는 영어 B 문서에 없음"
  },
  {
   "no": "S050",
@@ -595,9 +595,9 @@
   "lang": "ko",
   "group": "ko31",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹⁵⁰Ce 반감기 ko 4.0(6) s, 영어 6.05(7) s"
  },
  {
   "no": "S051",
@@ -607,9 +607,9 @@
   "lang": "ko",
   "group": "ko259",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "섞인 묶음: 이트륨 쪽(400 °C에서 불이 붙음)은 영어 Yttrium에 같은 사실이 있으나, 사마륨 쪽(네오디뮴 자석이 300~400°C에서 자성을 잃음)은 영어 Samarium에 없음"
  },
  {
   "no": "S052",
@@ -619,9 +619,9 @@
   "lang": "ko",
   "group": "ko16",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "언급 셋(베네라 8호 시정 1 km, 트리톤 호퍼 1 km 높이, NASA 지름 1 km 소행성)이 모두 영어 문서에 같은 사실로 있음"
  },
  {
   "no": "S053",
@@ -631,9 +631,9 @@
   "lang": "ko",
   "group": "ko38",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "머리글 거리 (광년), WASP-3 거리 727광년이 영어 EPOXI 표에 같은 값으로 있음"
  },
  {
   "no": "S054",
@@ -643,9 +643,9 @@
   "lang": "ko",
   "group": "ko95",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "OSSI-1 주기 92.6분 = 영어 92.6 minutes"
  },
  {
   "no": "S055",
@@ -655,9 +655,9 @@
   "lang": "ko",
   "group": "ko65",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "프라세오디뮴 기화열 331 kJ/mol = 영어 같은 값"
  },
  {
   "no": "S056",
@@ -667,9 +667,9 @@
   "lang": "ko",
   "group": "ko100",
   "verdict": "있을 수 있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "found는 숫자 우연(Koreasat 5 제목)이지만, 영어 Coordinated Universal Time에 \"five hours behind UTC during winter\"로 같은 사실이 낱말로 있음"
  },
  {
   "no": "S057",
@@ -679,9 +679,9 @@
   "lang": "ko",
   "group": "ko130",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "섞인 묶음: 무궁화 1호 예정 수명 10년은 영어 Koreasat 1에 있으나, 대한민국 쪽 둘(출생아 수 10년 만에 반등, 경쟁 수준 10년 전보다)은 영어 South Korea에 없음"
  },
  {
   "no": "S058",
@@ -691,9 +691,9 @@
   "lang": "ko",
   "group": "ko206",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "프라세오디뮴 전단 탄성 계수 14.8 GPa = 영어 같은 값"
  },
  {
   "no": "S059",
@@ -703,9 +703,9 @@
   "lang": "ko",
   "group": "ko179",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "이터븀 비커스 굳기 ko 206 MPa, 영어 205–250 MPa(범위 앞 끝과 1% 안)"
  },
  {
   "no": "S060",
@@ -715,9 +715,9 @@
   "lang": "ko",
   "group": "ko44",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "값이 다름: found는 우연(CoRoT-7c의 0.046 AU). 목동자리 타우 b의 긴반지름은 영어 Tau Boötis b에 0.04869 AU로 다른 값이라 0.046 AU는 영어에 없음"
  },
  {
   "no": "S061",
@@ -727,9 +727,9 @@
   "lang": "ko",
   "group": "ko82",
   "verdict": "있을 수 있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "found는 숫자 우연(7:07 p.m.의 7). 발사 7분 56초 전 취소는 영어 STSat-2A에 없음"
  },
  {
   "no": "S062",
@@ -739,9 +739,9 @@
   "lang": "ko",
   "group": "ko59",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "지구 저궤도 속도 7.8km/s(28,100km/h) = 영어 Geocentric orbit 같은 값"
  },
  {
   "no": "S063",
@@ -751,9 +751,9 @@
   "lang": "ko",
   "group": "ko88",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "페이스 7호 34시간 = 영어 NASA 34 hours"
  },
  {
   "no": "S064",
@@ -763,9 +763,9 @@
   "lang": "ko",
   "group": "ko26",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "HD 23596 b 원일점 3.66 AU = 영어 같은 값"
  },
  {
   "no": "S065",
@@ -775,9 +775,9 @@
   "lang": "ko",
   "group": "ko40",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹²⁹Ce 반감기 3.5(3) min = 영어 같은 값"
  },
  {
   "no": "S066",
@@ -787,9 +787,9 @@
   "lang": "ko",
   "group": "ko36",
   "verdict": "있을 수 있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "값이 다름: found는 숫자 우연(홀뮴 전자 껍질 29). ¹²⁷Ce 반감기는 영어에 34(2) s로 다른 값이라 29(2) s는 영어에 없음"
  },
  {
   "no": "S067",
@@ -799,9 +799,9 @@
   "lang": "ko",
   "group": "ko73",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹³⁰ᵐCe 들뜬 에너지 2453.6(3) keV = 영어 같은 값(병합 칸이 세 번 되풀이됨)"
  },
  {
   "no": "S068",
@@ -811,9 +811,9 @@
   "lang": "ko",
   "group": "ko24",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹⁴⁰ᵐCe 반감기 7.3(15) µs = 영어 같은 값"
  },
  {
   "no": "S069",
@@ -823,9 +823,9 @@
   "lang": "ko",
   "group": "ko24",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "HD 23596 b 평균거리 2.83 AU = 영어 같은 값"
  },
  {
   "no": "S070",
@@ -835,9 +835,9 @@
   "lang": "ko",
   "group": "ko21",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹³⁰ᵐCe 반감기 100(8) ns = 영어 같은 값"
  },
  {
   "no": "S071",
@@ -847,9 +847,9 @@
   "lang": "ko",
   "group": "ko46",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹³³Ce 반감기 97(4) min = 영어 같은 값"
  },
  {
   "no": "S072",
@@ -859,9 +859,9 @@
   "lang": "ko",
   "group": "ko25",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹³⁸ᵐCe 반감기 ko 8.65(20) ms, 영어 8.73(20) ms(1% 안)"
  },
  {
   "no": "S073",
@@ -871,9 +871,9 @@
   "lang": "ko",
   "group": "ko72",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "글리제 86 b 공전주기 15.77일 = 영어 15.77 ± 0.01 d"
  },
  {
   "no": "S074",
@@ -883,9 +883,9 @@
   "lang": "ko",
   "group": "ko37",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹²⁶Ce 반감기 51.0(3) s = 영어 같은 값"
  },
  {
   "no": "S075",
@@ -895,9 +895,9 @@
   "lang": "ko",
   "group": "ko17",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "섞인 묶음: HD 147513 b 평균거리 1.32 AU는 영어에 있으나, 목록 표의 PSR B1828-10 B 궤도장반경 1.32(머리글 천문단위)는 영어 B 문서에 없음"
  },
  {
   "no": "S076",
@@ -907,9 +907,9 @@
   "lang": "en",
   "group": "en370",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "n-펜테인 녹는점 −129.8 °C(143 K), 한국어 녹는점 문서에 없음"
  },
  {
   "no": "S077",
@@ -919,9 +919,9 @@
   "lang": "en",
   "group": "en17",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 남한의 경도 범위 영어 124°~130°E, 한국어 대한민국 \"동경 126~132도\"(도는 읽지 않는 기호라 규칙이 못 봄)"
  },
  {
   "no": "S078",
@@ -931,9 +931,9 @@
   "lang": "en",
   "group": "en245",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "매리너 4호 동기 주파수 38.4 kHz, 한국어 문서에 없음"
  },
  {
   "no": "S079",
@@ -943,9 +943,9 @@
   "lang": "en",
   "group": "en85",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "맨틀 부분 용융 깊이(200 to 600 km, 80 to 200 km), 한국어 문서에 없음"
  },
  {
   "no": "S080",
@@ -955,9 +955,9 @@
   "lang": "en",
   "group": "en215",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 189733b 밤 쪽 온도 973 K(700 °C), 한국어 외계 행성은 이 행성의 온도를 적지 않음"
  },
  {
   "no": "S081",
@@ -967,9 +967,9 @@
   "lang": "en",
   "group": "en519",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "중국 희토류 수출 한도 30,258 tonnes, 한국어 문서에 없음"
  },
  {
   "no": "S082",
@@ -979,9 +979,9 @@
   "lang": "en",
   "group": "en5",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "매리너 4호 망원경 시야 1.05°, 한국어 문서에 없음"
  },
  {
   "no": "S083",
@@ -991,9 +991,9 @@
   "lang": "en",
   "group": "en62",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "한반도 길이 1,100 km(680 mi), 한국어 대한민국에 없음"
  },
  {
   "no": "S084",
@@ -1003,9 +1003,9 @@
   "lang": "en",
   "group": "en161",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "유로퓸 비열 182.022 J/(kg·K); 한국어에는 몰열용량 27.66 J/(mol·K)만 있음(다른 속성으로 봄)"
  },
  {
   "no": "S085",
@@ -1015,9 +1015,9 @@
   "lang": "en",
   "group": "en509",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "산화 유로퓸 연 생산 422 tonnes, 한국어 문서에 없음"
  },
  {
   "no": "S086",
@@ -1027,9 +1027,9 @@
   "lang": "en",
   "group": "en273",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 글리제 581 c 질량 영어 6.81 M🜨, 한국어 0.0158 MJ·최소 질량 지구의 5.36배"
  },
  {
   "no": "S087",
@@ -1039,9 +1039,9 @@
   "lang": "en",
   "group": "en87",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "비너스 익스프레스 대기 제동 고도 131~135 km, 한국어 문서에 없음"
  },
  {
   "no": "S088",
@@ -1051,9 +1051,9 @@
   "lang": "en",
   "group": "en162",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "남한 기대 수명 83.5 years·83.53 years, 한국어 대한민국에 없음"
  },
  {
   "no": "S089",
@@ -1063,9 +1063,9 @@
   "lang": "en",
   "group": "en53",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "매리너 4호 높이 45.7 cm, 한국어 문서에 없음"
  },
  {
   "no": "S090",
@@ -1075,9 +1075,9 @@
   "lang": "en",
   "group": "en12",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "디스프로슘 공유 반지름 192±7 pm; 한국어에는 원자 반지름만 있음"
  },
  {
   "no": "S091",
@@ -1087,9 +1087,9 @@
   "lang": "en",
   "group": "en72",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "지구 저궤도 궤도 반지름 6,600–8,400 km; 한국어에는 고도(160~2,000km)만 있음"
  },
  {
   "no": "S092",
@@ -1099,9 +1099,9 @@
   "lang": "en",
   "group": "en231",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "매리너 2호 검출기 전자 35 keV, 한국어 문서에 없음"
  },
  {
   "no": "S093",
@@ -1111,9 +1111,9 @@
   "lang": "en",
   "group": "en286",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 어븀 비커스 굳기 영어 430–700 MPa, 한국어 589 MPa"
  },
  {
   "no": "S094",
@@ -1123,9 +1123,9 @@
   "lang": "en",
   "group": "en196",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "그 언어에만",
+  "note": "\"20 years, 28 days (elapsed)\"를 둘로 나눠 28 days만 읽음(값이 틀림). 한국어 히노데에 임무 기간 없음"
  },
  {
   "no": "S095",
@@ -1135,9 +1135,9 @@
   "lang": "en",
   "group": "en179",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "이심률 변화 주기 95,000~136,000 years, 한국어 궤도 이심률에 없음"
  },
  {
   "no": "S096",
@@ -1147,9 +1147,9 @@
   "lang": "en",
   "group": "en92",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(반올림): 마일 환산 표기 근지점 280 km의 \"(170 mi)\"(반올림으로 2.3% 차이). 한국어 히노데에 근지점 280 km 있음"
  },
  {
   "no": "S097",
@@ -1159,9 +1159,9 @@
   "lang": "en",
   "group": "en166",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "Kepler-19b TTV 주기 약 300 days, 한국어 문서에 없음"
  },
  {
   "no": "S098",
@@ -1171,9 +1171,9 @@
   "lang": "en",
   "group": "en8",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "매리너 4호 사진 범위 위도 35° S, 한국어 문서에 없음"
  },
  {
   "no": "S099",
@@ -1183,9 +1183,9 @@
   "lang": "en",
   "group": "en44",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "머리글 c (pm), Sm2O3 격자 상수 885.5 pm, 한국어 사마륨에 없음"
  },
  {
   "no": "S100",
@@ -1195,9 +1195,9 @@
   "lang": "en",
   "group": "en0",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "표준 중력 9.80665 m/s²; 한국어 무게 표의 지구 9.8226은 다른 값이며 표준 중력은 없음"
  },
  {
   "no": "S101",
@@ -1207,9 +1207,9 @@
   "lang": "en",
   "group": "en54",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹³¹ᵐCe 반감기 영어 5.4(4) min, 한국어 5.0(10) min"
  },
  {
   "no": "S102",
@@ -1219,9 +1219,9 @@
   "lang": "en",
   "group": "en59",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹⁶⁴Ho 반감기 28.8 min, 한국어 홀뮴에 없음"
  },
  {
   "no": "S103",
@@ -1231,9 +1231,9 @@
   "lang": "en",
   "group": "en33",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹⁵⁵Ce 반감기 영어 313(7) ms, 한국어 \"200# ms [>300 ns]\""
  },
  {
   "no": "S104",
@@ -1243,9 +1243,9 @@
   "lang": "en",
   "group": "en14",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"16.684°+148.950° −21.642°\"의 위쪽 불확도를 값으로 읽음(남은 모양 ③)"
  },
  {
   "no": "S105",
@@ -1255,9 +1255,9 @@
   "lang": "en",
   "group": "en111",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "홀뮴 매장량 400,000 tonnes, 한국어 홀뮴에 없음"
  },
  {
   "no": "S106",
@@ -1267,9 +1267,9 @@
   "lang": "en",
   "group": "en31",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹⁵⁷Ce 반감기 영어 175(41) ms, 한국어 50# ms"
  },
  {
   "no": "S107",
@@ -1279,9 +1279,9 @@
   "lang": "en",
   "group": "en5",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"73.33°+0.10° −0.11°\"의 아래쪽 불확도를 값으로 읽음(남은 모양 ③)"
  },
  {
   "no": "S108",
@@ -1291,9 +1291,9 @@
   "lang": "en",
   "group": "en24",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "섞인 묶음: ¹¹⁹Ce·¹²⁰Ce의 [>310 ns]는 한국어에 같은 속성(200# ms, 250# ms)이 있으나, ¹³⁴ᵐCe 반감기 308(5) ns는 한국어 표에 ¹³⁴ᵐCe 줄이 없어 그 언어에만"
  },
  {
   "no": "S109",
@@ -1303,9 +1303,9 @@
   "lang": "en",
   "group": "en30",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: HAT-P-9b 거리 영어 약 1500 light years, 한국어 약 1,560 광년(3.9% 차이)"
  },
  {
   "no": "S110",
@@ -1315,9 +1315,9 @@
   "lang": "en",
   "group": "en37",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(반올림): ¹⁵²Ce 반감기 영어 1.42(2) s, 한국어 1.4(2) s(1.4% 차이)"
  },
  {
   "no": "S111",
@@ -1327,9 +1327,9 @@
   "lang": "en",
   "group": "en37",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: HD 23596 b 공전주기 영어 4.203 yr, 한국어 1565±21 일(4.285년)(1.9% 차이)"
  },
  {
   "no": "S112",
@@ -1339,9 +1339,9 @@
   "lang": "en",
   "group": "en32",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 23596 b 반진폭 128.315 m/s, 한국어 문서에 없음"
  },
  {
   "no": "S113",
@@ -1351,9 +1351,9 @@
   "lang": "en",
   "group": "en9",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"38.898°+15.759° −77.179°\"의 위쪽 불확도를 값으로 읽음(남은 모양 ③)"
  },
  {
   "no": "S114",
@@ -1363,9 +1363,9 @@
   "lang": "en",
   "group": "en75",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹⁶⁶ᵐ¹Ho 반감기 영어 1133 y, 한국어 \"대략 1200년\"(5.9% 차이)"
  },
  {
   "no": "S115",
@@ -1375,9 +1375,9 @@
   "lang": "en",
   "group": "en13",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 86 b 승교점 경도 73.33°, 한국어 문서에 없음"
  },
  {
   "no": "S116",
@@ -1387,9 +1387,9 @@
   "lang": "en",
   "group": "en1",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"38.898°+15.759° −77.179°\"의 아래쪽 불확도를 값으로 읽음(남은 모양 ③)"
  },
  {
   "no": "S117",
@@ -1399,9 +1399,9 @@
   "lang": "en",
   "group": "en87",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹²⁵ᵐCe 들뜬 에너지 93.6(4) keV, 한국어 표에 ¹²⁵ᵐCe 줄이 없음"
  },
  {
   "no": "S118",
@@ -1411,9 +1411,9 @@
   "lang": "en",
   "group": "en2",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"16.684°+148.950° −21.642°\"의 아래쪽 불확도를 값으로 읽음(남은 모양 ③)"
  },
  {
   "no": "S119",
@@ -1423,9 +1423,9 @@
   "lang": "en",
   "group": "en16",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HD 23596 b 근점 인수 264.570°, 한국어 문서에 없음"
  },
  {
   "no": "S120",
@@ -1435,9 +1435,9 @@
   "lang": "en",
   "group": "en39",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "그 언어에만",
+  "note": "\"Surface gravity: … 1.05 g\"의 g(중력 가속도 배수)를 그램으로 읽어 질량이 됨. 표면 중력은 한국어 HAT-P-9 b에 없음"
  },
  {
   "no": "S121",
@@ -1447,9 +1447,9 @@
   "lang": "en",
   "group": "en79",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: 홀뮴 비커스 굳기 영어 410–600 MPa, 한국어 481 MPa"
  },
  {
   "no": "S122",
@@ -1459,9 +1459,9 @@
   "lang": "en",
   "group": "en64",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "값이 다름: ¹³³ᵐCe 반감기 영어 5.1(3) h, 한국어 4.9(4) h"
  },
  {
   "no": "S123",
@@ -1471,9 +1471,9 @@
   "lang": "en",
   "group": "en31",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "HAT-P-9b 평균 밀도 0.38 g/cm³, 한국어 HAT-P-9 b에 밀도 없음"
  },
  {
   "no": "S124",
@@ -1483,9 +1483,9 @@
   "lang": "en",
   "group": "en46",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹²⁷ᵐ¹Ce 반감기 28.6(7) s; 한국어 표에는 바닥 상태 ¹²⁷Ce만 있음"
  },
  {
   "no": "S125",
@@ -1495,9 +1495,9 @@
   "lang": "en",
   "group": "en96",
   "verdict": "그 언어에만",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹³⁴ᵐCe 들뜬 에너지 3208.6(4) keV, 한국어 표에 ¹³⁴ᵐCe 줄이 없음"
  },
  {
   "no": "S126",
@@ -1507,9 +1507,9 @@
   "lang": "en",
   "group": "en358",
   "verdict": "있을 수 있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "found는 숫자 우연(X선 50피코초). SmB6가 50 K 위에서 콘도 금속처럼 행동한다는 사실은 한국어 사마륨에 없음"
  },
  {
   "no": "S127",
@@ -1519,9 +1519,9 @@
   "lang": "en",
   "group": "en222",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "NASA 쪽(제임스 웹 개발 20년 이상)은 한국어에 같은 사실이 있음. 히노데 쪽은 \"20 years, 28 days\"를 나눠 읽은 앞부분(S094와 같은 자리)이라 바르게 읽은 사실이 아님"
  },
  {
   "no": "S128",
@@ -1531,9 +1531,9 @@
   "lang": "en",
   "group": "en89",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "란타넘 융해열 6.20 kJ/mol = 한국어 같은 값"
  },
  {
   "no": "S129",
@@ -1543,9 +1543,9 @@
   "lang": "en",
   "group": "en272",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "이터븀 브리넬 굳기 영어 340–440 MPa, 한국어 343 MPa(범위 앞 끝과 1% 안)"
  },
  {
   "no": "S130",
@@ -1555,9 +1555,9 @@
   "lang": "en",
   "group": "en156",
   "verdict": "있을 수 있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "found는 숫자 우연(중계기 24개). 박근혜 징역 24년은 한국어 대한민국에 없음"
  },
  {
   "no": "S131",
@@ -1567,9 +1567,9 @@
   "lang": "en",
   "group": "en169",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "서울 1월 평균 기온 −7 to 1 °C(19 to 34 °F)는 한국어에 없음. found는 전국(중부 산간 제외) 1월 -6~3℃로 다른 대상. 온도는 켈빈 기준 1%(약 ±2.7 K)라 가까운 다른 값이 같은 값이 됨"
  },
  {
   "no": "S132",
@@ -1579,9 +1579,9 @@
   "lang": "en",
   "group": "en145",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "윤초 간격 약 800 days = 한국어 약 800일"
  },
  {
   "no": "S133",
@@ -1591,9 +1591,9 @@
   "lang": "en",
   "group": "en15",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 없음",
+  "note": "값이 다름, 섞인 묶음: 유로퓸 금속 반지름 208.4 pm은 한국어에 같은 값이 있으나, 란타넘 공유 반지름 207±8 pm은 한국어에 169 pm으로 다른 값이라 영어에만"
  },
  {
   "no": "S134",
@@ -1603,9 +1603,9 @@
   "lang": "en",
   "group": "en211",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "⁹⁰Y 반감기 64 hours·64.05 h = 한국어 2.67d(64.08 h)"
  },
  {
   "no": "S135",
@@ -1615,9 +1615,9 @@
   "lang": "en",
   "group": "en147",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "글리제 436 b 공전주기 2.64389803 d = 한국어 2.643904 일"
  },
  {
   "no": "S136",
@@ -1627,9 +1627,9 @@
   "lang": "en",
   "group": "en170",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "프라세오디뮴 전기 저항 0.700 µΩ⋅m = 한국어 700 n Ω·m"
  },
  {
   "no": "S137",
@@ -1639,9 +1639,9 @@
   "lang": "en",
   "group": "en5",
   "verdict": "있을 수 있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": false,
+  "truth": "세는 범위의 수가 아님",
+  "note": "\"47°+15° −13°\"의 아래쪽 불확도를 값으로 읽음(남은 모양 ③). found도 숫자 우연"
  },
  {
   "no": "S138",
@@ -1651,9 +1651,9 @@
   "lang": "en",
   "group": "en389",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "표의 자기 감수율 측정 온도 350 K = 한국어 같은 표"
  },
  {
   "no": "S139",
@@ -1663,9 +1663,9 @@
   "lang": "en",
   "group": "en104",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "옥살산염 점화 1000 °C = 한국어 같은 값"
  },
  {
   "no": "S140",
@@ -1675,9 +1675,9 @@
   "lang": "en",
   "group": "en82",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "홀뮴 부피 탄성 계수 40.2 GPa = 한국어 같은 값"
  },
  {
   "no": "S141",
@@ -1687,9 +1687,9 @@
   "lang": "en",
   "group": "en89",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹³⁵ᵐCe 들뜬 에너지 445.81(21) keV = 한국어 445.8(2) keV"
  },
  {
   "no": "S142",
@@ -1699,9 +1699,9 @@
   "lang": "en",
   "group": "en36",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹²¹Ce 반감기 1.1(1) s = 한국어 같은 값"
  },
  {
   "no": "S143",
@@ -1711,9 +1711,9 @@
   "lang": "en",
   "group": "en2",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "ScB12 격자 a=522pm = 한국어 같은 값"
  },
  {
   "no": "S144",
@@ -1723,9 +1723,9 @@
   "lang": "en",
   "group": "en23",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "found는 우연(목록 표의 알데바란 b ~2)이지만, 한국어 HD 23596 b에 근일점(AU) 2.00·\"2 천문단위\"로 같은 사실이 있음"
  },
  {
   "no": "S145",
@@ -1735,9 +1735,9 @@
   "lang": "en",
   "group": "en18",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "HAT-P-9b 긴반지름 0.0528 AU = 한국어 평균거리(AU) 0.053"
  },
  {
   "no": "S146",
@@ -1747,9 +1747,9 @@
   "lang": "en",
   "group": "en3",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "ScB12 격자 c=735pm = 한국어 같은 값"
  },
  {
   "no": "S147",
@@ -1759,9 +1759,9 @@
   "lang": "en",
   "group": "en28",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "HD 147513 b 거리 42 light-years = 한국어 41.96 광년"
  },
  {
   "no": "S148",
@@ -1771,9 +1771,9 @@
   "lang": "en",
   "group": "en38",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "HD 23596 b 공전주기 1565 days = 한국어 1565±21 일"
  },
  {
   "no": "S149",
@@ -1783,9 +1783,9 @@
   "lang": "en",
   "group": "en26",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "HD 23596 b 원일점 3.66 AU = 한국어 같은 값"
  },
  {
   "no": "S150",
@@ -1795,9 +1795,9 @@
   "lang": "en",
   "group": "en90",
   "verdict": "있음",
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "같은 사실이 반대 언어에 있음",
+  "note": "¹³⁹ᵐCe 들뜬 에너지 754.24(8) keV = 한국어 같은 값"
  },
  {
   "no": "D1",
@@ -1806,7 +1806,92 @@
   "domain": "exoplanets",
   "lang": "ko",
   "doc": 2,
-  "ai_list": null
+  "ai_list": [
+   {
+    "line": 6,
+    "raw": "13ʰ 47ᵐ 17ˢ",
+    "value": 206.8208,
+    "unit": "°"
+   },
+   {
+    "line": 7,
+    "raw": "+17° 27′ 22″",
+    "value": 17.4561,
+    "unit": "°"
+   },
+   {
+    "line": 8,
+    "raw": "15 파섹",
+    "value": 15,
+    "unit": "파섹"
+   },
+   {
+    "line": 11,
+    "raw": "0.046",
+    "value": 0.046,
+    "unit": "AU"
+   },
+   {
+    "line": 13,
+    "raw": "3.3135 일",
+    "value": 3.3135,
+    "unit": "일"
+   },
+   {
+    "line": 15,
+    "raw": "0.003067 초각",
+    "value": 0.003067,
+    "unit": "초각"
+   },
+   {
+    "line": 17,
+    "raw": "3.9 MJ",
+    "value": 3.9,
+    "unit": "MJ"
+   },
+   {
+    "line": 25,
+    "raw": "50광년",
+    "value": 50,
+    "unit": "광년"
+   },
+   {
+    "line": 29,
+    "raw": "초당 469 ± 5 미터",
+    "value": 469,
+    "unit": "m/s"
+   },
+   {
+    "line": 29,
+    "raw": "15년",
+    "value": 15,
+    "unit": "년"
+   },
+   {
+    "line": 33,
+    "raw": "79.5시간",
+    "value": 79.5,
+    "unit": "시간"
+   },
+   {
+    "line": 33,
+    "raw": "1621 켈빈",
+    "value": 1621,
+    "unit": "켈빈"
+   },
+   {
+    "line": 37,
+    "raw": "29도",
+    "value": 29,
+    "unit": "°"
+   },
+   {
+    "line": 41,
+    "raw": "1621 켈빈",
+    "value": 1621,
+    "unit": "켈빈"
+   }
+  ]
  },
  {
   "no": "D2",
@@ -1815,7 +1900,128 @@
   "domain": "exoplanets",
   "lang": "ko",
   "doc": 1,
-  "ai_list": null
+  "ai_list": [
+   {
+    "line": 6,
+    "raw": "03ʰ 48ᵐ 00.3739ˢ",
+    "value": 57.00156,
+    "unit": "°"
+   },
+   {
+    "line": 7,
+    "raw": "+40° 31′ 50.287″",
+    "value": 40.53064,
+    "unit": "°"
+   },
+   {
+    "line": 8,
+    "raw": "170 광년",
+    "value": 170,
+    "unit": "광년"
+   },
+   {
+    "line": 8,
+    "raw": "52 파섹",
+    "value": 52,
+    "unit": "파섹"
+   },
+   {
+    "line": 11,
+    "raw": "2.83",
+    "value": 2.83,
+    "unit": "AU"
+   },
+   {
+    "line": 12,
+    "raw": "2.00",
+    "value": 2.0,
+    "unit": "AU"
+   },
+   {
+    "line": 13,
+    "raw": "3.66",
+    "value": 3.66,
+    "unit": "AU"
+   },
+   {
+    "line": 15,
+    "raw": "1565±21 일",
+    "value": 1565,
+    "unit": "일"
+   },
+   {
+    "line": 15,
+    "raw": "4.285년",
+    "value": 4.285,
+    "unit": "년"
+   },
+   {
+    "line": 17,
+    "raw": "7.80±0.35 목성질량",
+    "value": 7.8,
+    "unit": "목성질량"
+   },
+   {
+    "line": 17,
+    "raw": "2,480 지구질량",
+    "value": 2480,
+    "unit": "지구질량"
+   },
+   {
+    "line": 18,
+    "raw": "11400 g/cm³",
+    "value": 11400,
+    "unit": "g/cm³"
+   },
+   {
+    "line": 19,
+    "raw": "~216 g",
+    "value": 216,
+    "unit": "g(중력)"
+   },
+   {
+    "line": 20,
+    "raw": "196 켈빈",
+    "value": 196,
+    "unit": "켈빈"
+   },
+   {
+    "line": 29,
+    "raw": "170광년",
+    "value": 170,
+    "unit": "광년"
+   },
+   {
+    "line": 29,
+    "raw": "2.83 천문단위",
+    "value": 2.83,
+    "unit": "천문단위"
+   },
+   {
+    "line": 29,
+    "raw": "1565일",
+    "value": 1565,
+    "unit": "일"
+   },
+   {
+    "line": 29,
+    "raw": "초속 19.7 킬로미터",
+    "value": 19.7,
+    "unit": "km/s"
+   },
+   {
+    "line": 29,
+    "raw": "2 천문단위",
+    "value": 2,
+    "unit": "천문단위"
+   },
+   {
+    "line": 29,
+    "raw": "3.66 천문단위",
+    "value": 3.66,
+    "unit": "천문단위"
+   }
+  ]
  },
  {
   "no": "D3",
@@ -1824,7 +2030,260 @@
   "domain": "probes",
   "lang": "en",
   "doc": 7,
-  "ai_list": null
+  "ai_list": [
+   {
+    "line": 4,
+    "raw": "1 year",
+    "value": 1,
+    "unit": "year"
+   },
+   {
+    "line": 6,
+    "raw": "115 kilograms",
+    "value": 115,
+    "unit": "kilograms"
+   },
+   {
+    "line": 6,
+    "raw": "254 lb",
+    "value": 254,
+    "unit": "lb"
+   },
+   {
+    "line": 7,
+    "raw": "750mm",
+    "value": 750,
+    "unit": "mm"
+   },
+   {
+    "line": 7,
+    "raw": "750mm",
+    "value": 750,
+    "unit": "mm"
+   },
+   {
+    "line": 7,
+    "raw": "650mm",
+    "value": 650,
+    "unit": "mm"
+   },
+   {
+    "line": 8,
+    "raw": "90 W",
+    "value": 90,
+    "unit": "W"
+   },
+   {
+    "line": 19,
+    "raw": "800 kilometres",
+    "value": 800,
+    "unit": "kilometres"
+   },
+   {
+    "line": 19,
+    "raw": "500 mi",
+    "value": 500,
+    "unit": "mi"
+   },
+   {
+    "line": 20,
+    "raw": "80,000 kilometres",
+    "value": 80000,
+    "unit": "kilometres"
+   },
+   {
+    "line": 20,
+    "raw": "50,000 mi",
+    "value": 50000,
+    "unit": "mi"
+   },
+   {
+    "line": 21,
+    "raw": "5 degrees",
+    "value": 5,
+    "unit": "degrees"
+   },
+   {
+    "line": 22,
+    "raw": "3 days",
+    "value": 3,
+    "unit": "days"
+   },
+   {
+    "line": 24,
+    "raw": "115-kg",
+    "value": 115,
+    "unit": "kg"
+   },
+   {
+    "line": 24,
+    "raw": "250-lb",
+    "value": 250,
+    "unit": "lb"
+   },
+   {
+    "line": 24,
+    "raw": "two years",
+    "value": 2,
+    "unit": "years"
+   },
+   {
+    "line": 50,
+    "raw": "200 m",
+    "value": 200,
+    "unit": "m"
+   },
+   {
+    "line": 50,
+    "raw": "660 ft",
+    "value": 660,
+    "unit": "ft"
+   },
+   {
+    "line": 54,
+    "raw": "72.8-hour",
+    "value": 72.8,
+    "unit": "hour"
+   },
+   {
+    "line": 54,
+    "raw": "approximately 5 degrees",
+    "value": 5,
+    "unit": "degrees"
+   },
+   {
+    "line": 54,
+    "raw": "8.8 hours",
+    "value": 8.8,
+    "unit": "hours"
+   },
+   {
+    "line": 66,
+    "raw": "147-kilometre",
+    "value": 147,
+    "unit": "kilometre"
+   },
+   {
+    "line": 66,
+    "raw": "91 mi",
+    "value": 91,
+    "unit": "mi"
+   },
+   {
+    "line": 70,
+    "raw": "0.75 metres",
+    "value": 0.75,
+    "unit": "metres"
+   },
+   {
+    "line": 70,
+    "raw": "2.5 ft",
+    "value": 2.5,
+    "unit": "ft"
+   },
+   {
+    "line": 71,
+    "raw": "0.75 metres",
+    "value": 0.75,
+    "unit": "metres"
+   },
+   {
+    "line": 71,
+    "raw": "2.5 ft",
+    "value": 2.5,
+    "unit": "ft"
+   },
+   {
+    "line": 72,
+    "raw": "0.6 metres",
+    "value": 0.6,
+    "unit": "metres"
+   },
+   {
+    "line": 72,
+    "raw": "2.0 ft",
+    "value": 2.0,
+    "unit": "ft"
+   },
+   {
+    "line": 73,
+    "raw": "115 kilograms",
+    "value": 115,
+    "unit": "kilograms"
+   },
+   {
+    "line": 73,
+    "raw": "254 lb",
+    "value": 254,
+    "unit": "lb"
+   },
+   {
+    "line": 74,
+    "raw": "5.6 metres",
+    "value": 5.6,
+    "unit": "metres"
+   },
+   {
+    "line": 74,
+    "raw": "18 ft",
+    "value": 18,
+    "unit": "ft"
+   },
+   {
+    "line": 74,
+    "raw": "90 W",
+    "value": 90,
+    "unit": "W"
+   },
+   {
+    "line": 74,
+    "raw": "180 W",
+    "value": 180,
+    "unit": "W"
+   },
+   {
+    "line": 75,
+    "raw": "950 mm",
+    "value": 950,
+    "unit": "mm"
+   },
+   {
+    "line": 75,
+    "raw": "12 W",
+    "value": 12,
+    "unit": "W"
+   },
+   {
+    "line": 75,
+    "raw": "8.4 (GHz)",
+    "value": 8.4,
+    "unit": "GHz"
+   },
+   {
+    "line": 75,
+    "raw": "7.17 GHz",
+    "value": 7.17,
+    "unit": "GHz"
+   },
+   {
+    "line": 75,
+    "raw": "8 bit/s",
+    "value": 8,
+    "unit": "bit/s"
+   },
+   {
+    "line": 75,
+    "raw": "16 kbit/s",
+    "value": 16,
+    "unit": "kbit/s"
+   },
+   {
+    "line": 76,
+    "raw": "80 bit/s",
+    "value": 80,
+    "unit": "bit/s"
+   }
+  ]
  },
  {
   "no": "D4",
@@ -1833,6 +2292,43 @@
   "domain": "rare_earth",
   "lang": "en",
   "doc": 7,
-  "ai_list": null
+  "ai_list": [
+   {
+    "line": 14,
+    "raw": "747.6972 g/mol",
+    "value": 747.6972,
+    "unit": "g/mol"
+   },
+   {
+    "line": 16,
+    "raw": "7.3 g/cm³",
+    "value": 7.3,
+    "unit": "g/cm³"
+   },
+   {
+    "line": 30,
+    "raw": "1000 °C",
+    "value": 1000,
+    "unit": "°C"
+   },
+   {
+    "line": 34,
+    "raw": "350 °C",
+    "value": 350,
+    "unit": "°C"
+   },
+   {
+    "line": 46,
+    "raw": "350(-400 °C)",
+    "value": 350,
+    "unit": "°C"
+   },
+   {
+    "line": 46,
+    "raw": "400 °C",
+    "value": 400,
+    "unit": "°C"
+   }
+  ]
  }
 ]
