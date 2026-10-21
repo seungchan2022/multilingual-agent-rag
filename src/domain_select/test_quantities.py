@@ -711,5 +711,138 @@ class RealDocs(unittest.TestCase):
         self.assertEqual([i["kind"] for i in qt.read(self.line(md, "CAS 번호"))], ["이름"] * 3)
 
 
+class Digits(unittest.TestCase):
+    """양 항목의 digits(목록): 적힌 값의 숫자 글자."""
+
+    def d(self, text):
+        return [i["digits"] for i in qt.quantities(text)]
+
+    def test_plain_and_comma(self):
+        self.assertEqual(self.d("질량 12 kg"), [["12"]])
+        self.assertEqual(self.d("1,316 km"), [["1316"]])
+        self.assertEqual(self.d("1316.0 km"), [["1316.0"]])
+
+    def test_sign_and_tolerance_not_in_digits(self):
+        self.assertEqual(self.d("-5 °C"), [["5"]])
+        self.assertEqual(self.d("12.5 ± 0.3 kg"), [["12.5"]])
+
+    def test_exponent_uses_leading_number(self):
+        self.assertEqual(self.d("8.06×10²⁴ kg"), [["8.06"]])
+
+    def test_big_word(self):
+        self.assertEqual(self.d("4561만년"), [["4561"]])
+        self.assertEqual(self.d("1억 4960만 km"), [["1", "4960"]])
+        self.assertEqual(self.d("5 million km"), [["5"]])
+
+    def test_multi_cell(self):
+        self.assertEqual(self.d("3 days 7.5 hours"), [["3", "7.5"]])
+        self.assertEqual(self.d("적경 15h 19m 26s"), [["15", "19", "26"]])
+
+    def test_range_each_end(self):
+        self.assertEqual(self.d("3–5 km"), [["3"], ["5"]])
+
+    def test_unknown_digits_stay_string(self):
+        self.assertEqual(unk("4 of the 15 lanthanides"), ["4", "15"])
+
+
+class Close(unittest.TestCase):
+    def test_close(self):
+        self.assertTrue(qt.close(100, 100.9))
+        self.assertTrue(qt.close(0, 0))
+        self.assertFalse(qt.close(100, 102))
+        self.assertFalse(qt.close(0.048, 0.05))
+
+
+def verdicts(ko, en, ko_docs=None):
+    """한국어 글(들)의 양 묶음마다 (raw들, 판정을 단 묶음)을 반대 언어 글 en(들)에 대해."""
+    kos = [ko] if isinstance(ko, str) else ko
+    ens = [en] if isinstance(en, str) else en
+    items = []
+    for k, t in enumerate(kos):
+        for it in qt.quantities(t):
+            items.append({**it, "doc": f"ko{k}"})
+    groups = qt.judge(qt.group(items), [(f"en{k}", qt.read(t)) for k, t in enumerate(ens)])
+    return [([m["raw"] for m in g["mentions"]], g) for g in groups]
+
+
+class Group(unittest.TestCase):
+    def test_same_dim_close_joined(self):
+        its = [{**i, "doc": "a"} for i in qt.quantities("1316 km")] + [{**i, "doc": "b"} for i in qt.quantities("1,316 km")]
+        gs = qt.group(its)
+        self.assertEqual(len(gs), 1)
+        self.assertEqual((gs[0]["dim"], gs[0]["base"]), ("길이", 1316e3))
+        self.assertEqual([m["doc"] for m in gs[0]["mentions"]], ["a", "b"])
+
+    def test_other_dim_or_far_not_joined(self):
+        its = [{**i, "doc": "a"} for i in qt.quantities("4500 m, 4500 kg, 4600 m")]
+        self.assertEqual(len(qt.group(its)), 3)
+
+
+class Judge(unittest.TestCase):
+    def one(self, ko, en):
+        v = verdicts(ko, en)
+        self.assertEqual(len(v), 1, v)
+        return v[0][1]
+
+    def test_date_is_not_evidence(self):
+        v = self.one("공전 주기는 4일이다", "Discovery date: 4 April 2007")
+        self.assertEqual((v["verdict"], v["found"]), ("그 언어에만", None))
+
+    def test_unknown_number_same_digits_maybe(self):
+        v = verdicts("공전 주기는 4일이다", "4 of the 15 lanthanides")[0][1]
+        self.assertEqual(v["verdict"], "있을 수 있음")
+        self.assertEqual((v["found"]["doc"], v["found"]["digits"]), ("en0", "4"))
+
+    def test_fahrenheit_celsius_present(self):
+        v = self.one("824 °C", "melts at 1515 °F")
+        self.assertEqual(v["verdict"], "있음")
+        self.assertEqual((v["found"]["doc"], v["found"]["raw"]), ("en0", "1515 °F"))
+
+    def test_tonnes_kg(self):
+        self.assertEqual(self.one("4.5톤", "4,500 kg")["verdict"], "있음")
+
+    def test_dimension_mismatch(self):
+        self.assertEqual(self.one("길이 4500 m", "mass 4,500 kg")["verdict"], "그 언어에만")
+
+    def test_rounding_difference_stays_only(self):
+        self.assertEqual(self.one("0.05 AU", "0.048 AU")["verdict"], "그 언어에만")
+
+    def test_formula_digits_maybe(self):
+        v = self.one("8.06×10²⁴ kg", r"\(M=8.06\times 10^{24}\)")
+        self.assertEqual(v["verdict"], "있을 수 있음")
+        self.assertEqual(v["found"]["digits"], "8.06")
+
+    def test_parsec_and_lightyear(self):
+        v = verdicts("거리: 6.26 파섹 (20.55 광년)", "20.55 light-years")
+        # 6.26 pc(20.42 ly)와 20.55 ly는 0.6% 차이라 한 묶음이고, 그 묶음이 있음이다
+        self.assertEqual([(raws, g["verdict"]) for raws, g in v], [(["6.26 파섹", "20.55 광년"], "있음")])
+
+    def test_comma_is_same(self):
+        self.assertEqual(self.one("1,316 km", "1316 km")["verdict"], "있음")
+
+    def test_decimal_text_must_match(self):
+        self.assertEqual(self.one("1316.0 km", "the number 1316")["verdict"], "그 언어에만")
+
+    def test_unit_vs_unitless_maybe(self):
+        self.assertEqual(self.one("1316 km", "the number 1316")["verdict"], "있을 수 있음")
+
+    def test_any_mention_with_evidence_decides(self):
+        v = verdicts(["질량 1316 kg", "mass 1,316 kg"], "1316 kg")
+        self.assertEqual(len(v), 1)
+        self.assertEqual(len(v[0][0]), 2)
+        self.assertEqual(v[0][1]["verdict"], "있음")
+
+    def test_second_other_doc_found(self):
+        v = self.one("12 kg", ["nothing", "weighs 12 kg"])
+        self.assertEqual((v["verdict"], v["found"]["doc"]), ("있음", "en1"))
+
+    def test_first_found_in_doc_order(self):
+        v = self.one("12 kg", ["12 kg", "12 kg"])
+        self.assertEqual(v["found"]["doc"], "en0")
+
+    def test_ratio_and_name_not_evidence(self):
+        self.assertEqual(self.one("12 kg", "12% of Kepler-12")["verdict"], "그 언어에만")
+
+
 if __name__ == "__main__":
     unittest.main()

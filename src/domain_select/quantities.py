@@ -4,10 +4,14 @@
   read(text)            글에 나온 숫자마다 항목 하나를 글에 나온 차례로 돌려준다.
   quantities(text)      read 가운데 kind가 "양"인 항목만.
   unknown_digits(text)  kind가 "모르는 숫자"인 항목의 digits 집합.
+  close(a, b)           두 기준 값이 큰 쪽의 1% 안인가.
+  group(items)          한 언어 문서들의 양 항목을 같은 차원·1% 안 값끼리 묶는다.
+  judge(groups, other)  묶음마다 반대 언어 문서들에 있는지(있음, 있을 수 있음, 그 언어에만) 판정을 단다.
 
 항목은 dict다. 공통 칸: kind("양", "모르는 숫자", "비율", "날짜", "이름"), raw(항목이 차지한 글자 그대로), start·end(text 안의 위치),
 line(0부터 센 줄 번호). "양"은 value(적힌 값), unit(적힌 단위 글자), dim(차원), base(기준 단위로 바꾼 값), how(단위를 어디서 얻었나:
-"뒤", "앞", "이름 칸", "머리글", "여러 칸")를 더 갖고, "모르는 숫자"는 digits(쉼표와 묶음 공백을 지운 숫자 글자)를 더 갖는다.
+"뒤", "앞", "이름 칸", "머리글", "여러 칸")와 digits(적힌 값의 숫자 글자 목록: 지수는 앞의 수, 큰 수 낱말은 낱말 앞의 수마다, 여러 칸은 칸마다)를 더 갖고,
+"모르는 숫자"는 digits(쉼표와 묶음 공백을 지운 숫자 글자 하나)를 더 갖는다.
 이 단계에서는 값을 읽기만 한다. 반대 언어에 같은 값이 있는지 보는 일은 하지 않는다.
 
 읽는 방법은 읽는 쪽 규칙에 쓴 대로다. 단위 목록에 없는 단위는 읽지 않고(그 숫자는 모르는 숫자), 규칙에 없는 모양을 만나도 규칙을
@@ -300,7 +304,7 @@ def _ko_big(s, end, value):
     if not (g.group("th") or g.group("big")):
         return None
     mult = (1e3 if g.group("th") else 1) * (10.0 ** KO_BIG[g.group("big")] if g.group("big") else 1)
-    total, tier, e = value * mult, KO_TIER.get(g.group("big"), 0), g.end()
+    total, tier, e, more = value * mult, KO_TIER.get(g.group("big"), 0), g.end(), []
     while tier > 0:
         n = KO_NEXT_RE.match(s, e)
         if not n or not (n.group("th") or n.group("big")):
@@ -310,21 +314,24 @@ def _ko_big(s, end, value):
             break
         m2 = (1e3 if n.group("th") else 1) * (10.0 ** KO_BIG[n.group("big")] if n.group("big") else 1)
         total += float(_digits(n.group("num"))) * m2
+        more.append(_digits(n.group("num")))
         tier, e = t2, n.end()
     # 뒤에 조사가 아닌 한글이 바로 붙으면 큰 수 낱말이 아니다(5만큼). 단위가 붙으면 괜찮다(4561만년)
     if e < len(s) and is_hangul(s[e]) and not particle_follows(s, e) and not find_unit(s, e):
         return None
-    return total, e
+    return total, e, more
 
 
 def parse_value(s, p):
     """p(숫자 첫 글자)에서 값을 읽는다: 숫자 [지수 | 큰 수 낱말] [오차 폭]. 돌려주는 값은 dict:
-    digits(처음 숫자의 글자), value, end, plain(지수·큰 수 낱말·오차 폭이 없는 정수)."""
+    digits(처음 숫자의 글자), value, end, plain(지수·큰 수 낱말·오차 폭이 없는 정수),
+    all(양의 digits: 처음 숫자와 큰 수 낱말에 이어진 수들)."""
     m = NUM_RE.match(s, p)
     digits = _digits(m.group(0))
     end = m.end()
     value = float(digits)
     plain = "." not in digits
+    all_digits = [digits]
     e = EXP_RE.match(s, end)
     pw = POWER_RE.match(s, end) if digits == "10" else None
     if e:
@@ -338,14 +345,15 @@ def parse_value(s, p):
         kb = _ko_big(s, end, value)
         eb = EN_BIG_RE.match(s, end)
         if kb:
-            (value, end), plain = kb, False
+            (value, end, more), plain = kb, False
+            all_digits += more
         elif eb:
             value *= 10.0 ** EN_BIG[eb.group("w").lower()]
             end, plain = eb.end(), False
     t = TOL_RE.match(s, end) or TOL_PAREN_RE.match(s, end)
     if t:
         end, plain = t.end(), False
-    return {"digits": digits, "value": value, "end": end, "plain": plain}
+    return {"digits": digits, "value": value, "end": end, "plain": plain, "all": all_digits}
 
 
 # --- 한 줄(또는 표 칸) 읽기 -----------------------------------------------------
@@ -376,14 +384,14 @@ def resolve_unit(s, vend, pre):
     return None
 
 
-def _quantity(a, b, value, info):
+def _quantity(a, b, value, info, digits):
     if info["neg"]:
         value = -abs(value)
     if info["per"]:
         dim, base = "속도", value * UNITS[info["key"]][1] / info["per"]
     else:
         dim, base = to_base(value, info["key"])
-    return {"kind": "양", "start": a, "end": b, "value": value, "unit": info["text"], "dim": dim, "base": base, "how": info["how"]}
+    return {"kind": "양", "start": a, "end": b, "value": value, "unit": info["text"], "dim": dim, "base": base, "how": info["how"], "digits": digits}
 
 
 YEAR_UNITS = {"년", "year", "years", "yr"}
@@ -408,17 +416,18 @@ def _extend(seg, item, key):
     if item["dim"] == "온도":
         return item
     dim, last = UNITS[key]
-    total, end = item["base"], item["end"]
+    total, end, digits = item["base"], item["end"], list(item["digits"])
     while True:
         m = NEXT_PART_RE.match(seg, end)
         u = find_unit(seg, m.end()) if m else None
         if not u or UNITS[u[1]][0] != dim or UNITS[u[1]][1] >= last:
             break
         total += float(m.group("num")) * UNITS[u[1]][1]
+        digits.append(m.group("num"))
         last, end = UNITS[u[1]][1], u[2]
     if end == item["end"]:
         return item
-    return {**item, "end": end, "value": total / UNITS[key][1], "base": total, "how": "여러 칸"}
+    return {**item, "end": end, "value": total / UNITS[key][1], "base": total, "how": "여러 칸", "digits": digits}
 
 
 def _ctx_info(seg, a, end, ctx):
@@ -451,13 +460,15 @@ def _read_one(seg, p, add, ctx):
     if multi:
         g = multi.groupdict()
         deg = float(g["h"]) * 15 + float(g["m"]) * 0.25 + float(g["s"] or 0) / 240
+        multi_digits = [g[k] for k in "hms" if g[k]]
     else:
         multi = DMS_RE.match(seg, p)
         if multi:
             g = multi.groupdict()
             deg = float(g["d"]) + float(g["m"]) / 60 + float(g["s"] or 0) / 3600
+            multi_digits = [g[k] for k in "dms" if g[k]]
     if multi:
-        add("양", a, multi.end(), value=sign * deg, unit="°", dim="각도", base=sign * deg, how="여러 칸")
+        add("양", a, multi.end(), value=sign * deg, unit="°", dim="각도", base=sign * deg, how="여러 칸", digits=multi_digits)
         return multi.end()
     v = parse_value(seg, p)
     pre = PRE_RE.search(seg, max(0, a - 8), a)
@@ -471,15 +482,15 @@ def _read_one(seg, p, add, ctx):
             vb = parse_value(seg, q)
             info = resolve_unit(seg, vb["end"], pre) or _ctx_info(seg, q, vb["end"], ctx)
             if info:
-                add(**_quantity(pre.start() if info["use_pre"] else a, v["end"], sign * v["value"], info))
-                add(**_quantity(sm.end(), info["end"], bsign * vb["value"], info))
+                add(**_quantity(pre.start() if info["use_pre"] else a, v["end"], sign * v["value"], info, v["all"]))
+                add(**_quantity(sm.end(), info["end"], bsign * vb["value"], info, vb["all"]))
                 return info["end"]
     info = resolve_unit(seg, v["end"], pre)
     if info and _is_year(info, v, a, p):
         add("날짜", a, info["end"])       # 연도(2026-10-20 규칙 그대로)
         return info["end"]
     if info:
-        item = _quantity(pre.start() if info["use_pre"] else a, info["end"], sign * v["value"], info)
+        item = _quantity(pre.start() if info["use_pre"] else a, info["end"], sign * v["value"], info, v["all"])
         if info["how"] == "뒤":
             item = _extend(seg, item, info["key"])
         add(**item)
@@ -497,7 +508,7 @@ def _read_one(seg, p, add, ctx):
         add("날짜", a, v["end"])
         return v["end"]
     if info:
-        add(**_quantity(a, v["end"], sign * v["value"], info))
+        add(**_quantity(a, v["end"], sign * v["value"], info, v["all"]))
         return v["end"]
     add("모르는 숫자", a, v["end"], digits=v["digits"])
     return v["end"]
@@ -665,3 +676,50 @@ def quantities(text):
 
 def unknown_digits(text):
     return {i["digits"] for i in read(text) if i["kind"] == "모르는 숫자"}
+
+
+# --- 같은 값 판정 -----------------------------------------------------------------
+
+TOL = 0.01      # 같은 값으로 보는 허용 오차(큰 쪽의 1%, round3_measure.TOL과 같다)
+
+
+def close(a, b, tol=TOL):
+    """두 기준 값이 큰 쪽의 tol 안인가. 둘 다 0이면 같다."""
+    return abs(a - b) <= tol * max(abs(a), abs(b))
+
+
+def group(items):
+    """한 언어 문서들의 양 항목(read의 양 항목에 그 문서를 가리키는 doc을 붙인 것)을 서로 다른 값으로 묶는다. 같은 dim이고
+    묶음의 첫 기준 값과 close인 것이 한 묶음이다. 돌려주는 값: [{dim, base(첫 항목의 기준 값), mentions(항목 목록)}]."""
+    groups = []
+    for it in sorted(items, key=lambda i: (i["dim"], i["base"])):
+        for g in groups:
+            if g["dim"] == it["dim"] and close(g["base"], it["base"]):
+                g["mentions"].append(it)
+                break
+        else:
+            groups.append({"dim": it["dim"], "base": it["base"], "mentions": [it]})
+    return groups
+
+
+def judge(groups, other_docs):
+    """묶음마다 verdict와 found를 단다. other_docs: [(doc, 그 문서의 read 항목 목록)] (반대 언어 문서들).
+    "있음": 같은 dim이고 close인 양 항목이 있다(found: {doc, raw}). "있을 수 있음": 묶음 언급의 digits 가운데 하나가 반대 언어
+    문서의 모르는 숫자 digits와 글자 그대로 같다(found: {doc, digits}). "그 언어에만": 둘 다 아니다(found: None).
+    반대 언어의 비율, 날짜, 이름 항목은 근거가 아니다. 문서 차례대로 보아 처음 찾은 것을 적는다."""
+    for g in groups:
+        g["verdict"], g["found"] = "그 언어에만", None
+        mine = {d for m in g["mentions"] for d in m["digits"]}
+        maybe = None
+        for doc, items in other_docs:
+            hit = next((i for i in items if i["kind"] == "양" and i["dim"] == g["dim"] and close(g["base"], i["base"])), None)
+            if hit:
+                g["verdict"], g["found"] = "있음", {"doc": doc, "raw": hit["raw"]}
+                break
+            if not maybe:
+                same = next((i for i in items if i["kind"] == "모르는 숫자" and i["digits"] in mine), None)
+                if same:
+                    maybe = {"doc": doc, "digits": same["digits"]}
+        if g["verdict"] == "그 언어에만" and maybe:
+            g["verdict"], g["found"] = "있을 수 있음", maybe
+    return groups
