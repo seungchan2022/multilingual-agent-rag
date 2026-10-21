@@ -376,5 +376,15 @@ class Judge(unittest.TestCase):
         self.assertEqual(v[1], {"no": "n2", "title": "②문서", "raw": "2 km", "line": 2})
 
 
+class Render(unittest.TestCase):
+    def test_judge_lines_are_counted_from_one(self):
+        result = {"exoplanets": {"passed": True, "reserve": 1.0, "quotas": {}, "reference": {}}}
+        values = {"exoplanets": {"ko": [{"no": "n1", "title": "문서", "raw": "1 km", "line": 0}], "en": []}}
+        skipped = {"exoplanets": {"ko": [{"no": "n0", "title": "문서", "raw": "1–2 km", "line": 4, "ask": "범위"}], "en": []}}
+        text = s3.render_judge(result, values, skipped)
+        self.assertIn("- n1 | 문서 | `1 km` | 줄 1", text)                   # results.json의 line 0은 파일의 첫 줄
+        self.assertIn("- 건너뜀(범위): n0 | 문서 | `1–2 km` | 줄 5", text)
+
+
 if __name__ == "__main__":
     unittest.main()

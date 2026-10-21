@@ -20,7 +20,7 @@ AI가 후보를 정한 차례로 원문과 대조해 맞은 수로 판정한다(
 쪽: 근거 언어마다 "both"(그 언어의 두 언어 갈래 문서 5개)와 "one"(그 언어의 한쪽 언어 갈래 문서 5개) 둘이다. 사실은 그 사실이 든 문서의
 쪽으로 센다(결정 ① ㉣). 그래서 묶기(group)는 (분야, 언어, 쪽)마다 따로 하고, 판정(judge)은 그 분야 코퍼스의 반대 언어 문서 10개 전부와 견준다.
 차례(분야·언어마다 넷): both(두 언어 쪽 후보), one(한쪽 언어 쪽 후보), table(두 쪽의 후보 가운데 표 안), model(두 쪽의 후보 가운데
-outside_target). 각 목록은 (첫 언급의 문서 title, line, start)로 정렬한 뒤 make_short_test.shuffled로 섞는다. 차례의 "자리"는 1부터 센다.
+outside_target). 각 목록은 (첫 언급의 문서 title, line, start)로 정렬한 뒤 make_short_test.shuffled로 섞는다. 차례의 "자리"는 1부터 센다. md에 적는 "줄"은 파일의 줄을 1부터 센 것이다(results.json의 line은 0부터 센 자리).
 모델 시험 차례는 맞은 후보에 AI가 ask(하나, 범위, 경계 값, 좌표)와 ask_raw(하나일 때 물을 언급의 raw)를 채워야 채운 것이다.
 모델 시험 값은 그 차례의 앞부분에서 맞은 것 가운데 ask가 "하나"인 것이고, 범위·경계 값·좌표는 건너뛴다.
 """
@@ -291,12 +291,12 @@ def render_candidate(entry, g, res_field, texts):
     for m in g["mentions"]:
         d = docs[m["doc"]]
         pair = f" (같은 주제의 반대 언어 문서: {docs[d['pair']]['title']})" if d["pair"] is not None else ""
-        L.append(f"  - [{d['title']}]{pair} raw `{m['raw']}` (줄 {m['line']}, {m['how']}): {context_of(texts[m['doc']], m)}")
+        L.append(f"  - [{d['title']}]{pair} raw `{m['raw']}` (줄 {m['line'] + 1}, {m['how']}): {context_of(texts[m['doc']], m)}")
     near = near_groups(res_field, lang, g)
     L.append(f"- (가) 반대 언어의 같은 dim이고 기준 값이 {int(NEAR * 100)}% 안인 양 {len(near)}개(가까운 차례):")
     for o in near:
         m = o["mentions"][0]
-        L.append(f"  - base {o['base']:.6g}: [{docs[m['doc']]['title']}] raw `{m['raw']}` (줄 {m['line']}, {SIDE_NAME[o['side']]}): "
+        L.append(f"  - base {o['base']:.6g}: [{docs[m['doc']]['title']}] raw `{m['raw']}` (줄 {m['line'] + 1}, {SIDE_NAME[o['side']]}): "
                  f"{context_of(texts[m['doc']], m, CTX_SMALL)}")
     places = digit_places(entry["field"], res_field, texts, lang, g)
     L.append(f"- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 {len(places)}개:")
@@ -576,8 +576,8 @@ def render_judge(result, values, skipped):
         L.append("")
         for lang in LANGS:
             L += [f"### {field} {lang} 모델 시험 값 (결정 ⑥, 숫자 하나인 값만)", ""]
-            L += [f"- {v['no']} | {v['title']} | `{v['raw']}` | 줄 {v['line']}" for v in values[field][lang]] or ["- 없음"]
-            L += [f"- 건너뜀({v['ask']}): {v['no']} | {v['title']} | `{v['raw']}` | 줄 {v['line']}" for v in skipped[field][lang]]
+            L += [f"- {v['no']} | {v['title']} | `{v['raw']}` | 줄 {v['line'] + 1}" for v in values[field][lang]] or ["- 없음"]
+            L += [f"- 건너뜀({v['ask']}): {v['no']} | {v['title']} | `{v['raw']}` | 줄 {v['line'] + 1}" for v in skipped[field][lang]]
             L.append("")
     return "\n".join(L)
 
