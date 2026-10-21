@@ -180,6 +180,28 @@ class Status(unittest.TestCase):
         es[0]["read_ok"] = es[0]["truth"] = None                         # 첫 번호를 비우면 두 언어 쪽이 멈추지 않고 표와 모델도 영향을 받는다
         self.assertTrue(s3.unfinished(s3.make_status(es, SMALL)))
 
+    def test_table_gaps_are_not_reported_once_table_is_stopped(self):
+        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
+        es[0]["order_table"] = 2                                          # 표 차례의 첫 자리는 비어 있고 둘째는 맞음(필요한 수 1)
+        es.append(E("gap", ot=1, table=True))
+        status = s3.make_status(es, SMALL)
+        self.assertEqual(status["exoplanets"]["ko"]["table"]["gaps"], ["gap"])
+        self.assertEqual(s3.unfinished(status), [])
+
+    def test_side_gaps_are_still_reported(self):
+        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
+        es[1]["read_ok"] = es[1]["truth"] = None                          # 두 언어 쪽 둘째를 비운다(첫째와 셋째가 맞아 쪽은 멈춘 상태)
+        todo = s3.unfinished(s3.make_status(es, SMALL))
+        self.assertTrue(any("두 언어 쪽" in t and "빈틈 eko2" in t for t in todo))
+
+    def test_model_quota_stops_only_on_the_front_part(self):
+        es = [E("m1", om=1), E("m2", om=2, state="c"), E("m3", om=3, state="c")]
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
+        self.assertEqual((s["correct"], s["prefix_correct"], s["stopped"], s["next"]), (2, 0, False, ["m1"]))
+        es[0]["read_ok"], es[0]["truth"] = True, "반대 언어에 있음"        # 첫 자리를 틀림으로 채워도 앞부분이 이어져 멈춘다
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
+        self.assertEqual((s["prefix_correct"], s["stopped"], s["next"]), (2, True, []))
+
 
 class Judge(unittest.TestCase):
     def test_pass_and_estimates_by_hand(self):
@@ -206,6 +228,23 @@ class Judge(unittest.TestCase):
         self.assertEqual((ko["one"]["ok"], ko["sum"]["ok"], ko["both"]["ok"], ko["table"]["ok"]), (False, False, True, True))
         self.assertAlmostEqual(ko["sum"]["estimate"], 4 * 2 / 3 + 1)
         self.assertAlmostEqual(r["reserve"], 0.5)                        # 한쪽 언어 쪽 1÷2
+
+    def test_table_estimate_uses_filled_in_that_order(self):
+        es = [E(f"t{i}", ot=i, table=True, state={2: "c", 4: "w"}.get(i, "u")) for i in range(1, 6)]   # 후보 5, 채운 2(자리 2, 4) 가운데 맞은 1
+        t = s3.make_status(es, {**SMALL, "table": 3})["exoplanets"]["ko"]["table"]
+        self.assertEqual((t["total"], t["filled"], t["correct"], t["prefix"]), (5, 2, 1, 0))
+        self.assertAlmostEqual(s3.estimate(t, "table"), 2.5)             # 후보 5 × 맞은 1 ÷ 채운 2
+
+    def test_model_values_only_from_front_part(self):
+        res_field = {"docs": [{"id": 0, "title": "대상 문서", "outside_target": False}, {"id": 1, "title": "②문서", "outside_target": True}],
+                     "groups": {"ko": {"both": [], "one": [
+                         {"id": f"g{i}", "mentions": [{"doc": 1, "raw": f"{i} km", "line": i}]} for i in range(3)]}, "en": {"both": [], "one": []}}}
+        order = [E("n0", om=0), E("n1", om=1, state="c"), E("n2", om=2, state="c")]
+        for e in order:
+            e["group"] = f"g{e['order_model']}"
+        self.assertEqual(s3.model_values(order, res_field, 2), [])       # 첫 자리가 비어 있으면 뒤의 맞은 것을 고르지 않는다
+        order[0]["read_ok"], order[0]["truth"] = True, "반대 언어에 있음"
+        self.assertEqual([x["no"] for x in s3.model_values(order, res_field, 2)], ["n1", "n2"])
 
     def test_model_values_first_n_correct(self):
         res_field = {"docs": [{"id": 0, "title": "대상 문서", "outside_target": False}, {"id": 1, "title": "②문서", "outside_target": True}],

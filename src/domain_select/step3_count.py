@@ -342,8 +342,8 @@ def check_confirm(entries):
         raise SystemExit("칸 값이 틀린 번호: " + ", ".join(bad))
 
 
-def quota(order, need):
-    """order: 한 차례의 confirm 항목(차례 순). 몫 하나의 상태.
+def quota(order, need, by_prefix=False):
+    """order: 한 차례의 confirm 항목(차례 순). 몫 하나의 상태. by_prefix: 멈춤을 앞에서부터 빈틈없이 채운 부분의 맞은 수로 본다(모델 시험 몫).
     correct 맞은 수, filled 그 차례에서 채운 수, total 후보 수, stopped, exhausted(후보가 다 떨어짐), gaps(채운 것보다 앞인데 비어 있는 번호),
     next(아직 채우지 않은 앞의 번호, 멈추지 않았을 때), prefix(앞에서부터 빈틈없이 채운 수), prefix_correct(그 가운데 맞은 수)"""
     filled = [e for e in order if is_filled(e)]
@@ -352,12 +352,13 @@ def quota(order, need):
         prefix += 1
     last = max((i for i, e in enumerate(order) if is_filled(e)), default=-1)
     correct = sum(1 for e in order if is_correct(e))
-    stopped = correct >= need
+    prefix_correct = sum(1 for e in order[:prefix] if is_correct(e))
+    stopped = (prefix_correct if by_prefix else correct) >= need
     return {"need": need, "correct": correct, "filled": len(filled), "total": len(order), "stopped": stopped,
             "exhausted": len(filled) == len(order),
             "gaps": [e["no"] for i, e in enumerate(order) if i < last and not is_filled(e)],
             "next": [] if stopped else [e["no"] for e in order if not is_filled(e)][:NEXT_MAX],
-            "prefix": prefix, "prefix_correct": sum(1 for e in order[:prefix] if is_correct(e))}
+            "prefix": prefix, "prefix_correct": prefix_correct}
 
 
 def ordered(entries, key, **where):
@@ -375,7 +376,7 @@ def make_status(entries, need=NEED):
             out[field][lang] = {"both": quota(ordered(es, "order_side", side="both"), need["side"]),
                                 "one": quota(ordered(es, "order_side", side="one"), need["side"]),
                                 "table": quota(ordered(es, "order_table"), need["table"]),
-                                "model": quota(ordered(es, "order_model"), need["model"])}
+                                "model": quota(ordered(es, "order_model"), need["model"], by_prefix=True)}
     return out
 
 
@@ -383,14 +384,16 @@ QUOTA_NAME = {"both": "두 언어 쪽", "one": "한쪽 언어 쪽", "table": "�
 
 
 def unfinished(status):
-    """멈추지도 후보가 다 떨어지지도 않은 몫과 빈틈이 있는 쪽을 글로 돌려준다. 비어 있으면 judge를 해도 된다."""
+    """멈추지도 후보가 다 떨어지지도 않은 몫과 빈틈이 있는 쪽을 글로 돌려준다(표와 모델 시험 몫의 빈틈은 알리지 않는다).
+    비어 있으면 judge를 해도 된다."""
     out = []
     for field, langs in status.items():
         for lang, qs in langs.items():
             for name, s in qs.items():
                 if not (s["stopped"] or s["exhausted"]):
-                    out.append(f"{field} {lang} {QUOTA_NAME[name]}: 맞은 수 {s['correct']}/{s['need']}, 다음 {', '.join(s['next'][:NEXT_MAX])}")
-                elif name != "model" and s["gaps"]:
+                    got = s["prefix_correct"] if name == "model" else s["correct"]
+                    out.append(f"{field} {lang} {QUOTA_NAME[name]}: 맞은 수 {got}/{s['need']}, 다음 {', '.join(s['next'][:NEXT_MAX])}")
+                elif name not in ("table", "model") and s["gaps"]:
                     out.append(f"{field} {lang} {QUOTA_NAME[name]}: 빈틈 {', '.join(s['gaps'])}")
     return out
 
@@ -398,13 +401,14 @@ def unfinished(status):
 def render_status(status):
     L = ["# 3 세기: 대조 상태 (status)", "",
          "숫자는 confirm.json에서 계산했다. 맞은 것 = read_ok가 true이고 truth가 \"그 언어에만\"인 것. 채운 것 = read_ok와 truth가 둘 다 채워진 것. "
-         "표의 맞은 수는 어느 차례에서 채웠든 센다. 모델 시험 값은 이미 채운 판정을 쓴다.", ""]
+         "표의 맞은 수는 어느 차례에서 채웠든 센다. 모델 시험 값은 차례의 앞에서부터 빈틈없이 채운 부분에서 맞은 것을 쓴다(이미 채운 판정도 그 부분에 들면 쓴다).", ""]
     for field, langs in status.items():
         for lang, qs in langs.items():
             L += [f"## {field} {lang}", "",
                   "| 몫 | 필요한 수 | 맞은 수 | 그 차례에서 채운 수 | 후보 수 | 멈췄는가 | 후보가 다 떨어졌는가 | 빈틈 | 다음에 볼 번호 |", "|---|---|---|---|---|---|---|---|---|"]
             for name, s in qs.items():
-                L.append(f"| {QUOTA_NAME[name]} | {s['need']} | {s['correct']} | {s['filled']} | {s['total']} | {'예' if s['stopped'] else '아니오'} | "
+                right = f"앞부분 {s['prefix_correct']} (모두 {s['correct']})" if name == "model" else s["correct"]
+                L.append(f"| {QUOTA_NAME[name]} | {s['need']} | {right} | {s['filled']} | {s['total']} | {'예' if s['stopped'] else '아니오'} | "
                          f"{'예' if s['exhausted'] else '아니오'} | {', '.join(s['gaps']) or '없음'} | {', '.join(s['next']) or '없음'} |")
             L.append("")
     todo = unfinished(status)
@@ -422,10 +426,13 @@ def cmd_status():
 
 # --- judge ------------------------------------------------------------------------------
 
-def estimate(s):
-    """어림 = 프로그램이 센 후보 수 × 그 차례의 앞에서부터 채운 것 가운데 맞은 비율. 앞에서 채운 것이 없으면 후보가 없을 때만 0이다."""
+def estimate(s, name):
+    """어림 = 프로그램이 센 후보 수 × 확인한 것 가운데 맞은 비율. 쪽 몫은 그 차례의 앞에서부터 채운 부분의 비율이고(쪽 차례는 빈틈이 없어야 judge를 한다),
+    표 몫은 그 차례에서 채운 것 전체의 비율이다(표 차례에는 빈틈이 남는다). 후보가 없을 때만 0이다."""
     if s["total"] == 0:
         return 0.0
+    if name == "table":
+        return s["total"] * s["correct"] / s["filled"]
     return s["total"] * s["prefix_correct"] / s["prefix"]
 
 
@@ -438,10 +445,10 @@ def judge_all(status, need=NEED):
         for lang, qs in langs.items():
             b, o, t = qs["both"], qs["one"], qs["table"]
             quotas[lang] = {
-                "both": {"need": b["need"], "correct": b["correct"], "estimate": estimate(b)},
-                "one": {"need": o["need"], "correct": o["correct"], "estimate": estimate(o)},
-                "sum": {"need": need["sum"], "correct": b["correct"] + o["correct"], "estimate": estimate(b) + estimate(o)},
-                "table": {"need": t["need"], "correct": t["correct"], "estimate": estimate(t)}}
+                "both": {"need": b["need"], "correct": b["correct"], "estimate": estimate(b, "both")},
+                "one": {"need": o["need"], "correct": o["correct"], "estimate": estimate(o, "one")},
+                "sum": {"need": need["sum"], "correct": b["correct"] + o["correct"], "estimate": estimate(b, "both") + estimate(o, "one")},
+                "table": {"need": t["need"], "correct": t["correct"], "estimate": estimate(t, "table")}}
             for v in quotas[lang].values():
                 v["ok"] = v["correct"] >= v["need"]
                 ratios.append(v["estimate"] / v["need"])
@@ -450,11 +457,14 @@ def judge_all(status, need=NEED):
 
 
 def model_values(order, res_field, n=NEED["model"]):
-    """모델 시험 차례에서 맞은 것 앞의 n개: 번호, 문서 제목, raw, 줄(첫 언급 가운데 시험 대상 밖 문서의 것)."""
+    """모델 시험 차례의 앞에서부터 빈틈없이 채운 부분에서 맞은 것 앞의 n개: 번호, 문서 제목, raw, 줄(첫 언급 가운데 시험 대상 밖 문서의 것)."""
     docs = {d["id"]: d for d in res_field["docs"]}
     by_group = {g["id"]: g for lang in LANGS for s in SIDES for g in res_field["groups"][lang][s]}
     out = []
-    for e in [e for e in order if is_correct(e)][:n]:
+    prefix = 0
+    while prefix < len(order) and is_filled(order[prefix]):
+        prefix += 1
+    for e in [e for e in order[:prefix] if is_correct(e)][:n]:
         m = next(m for m in by_group[e["group"]]["mentions"] if docs[m["doc"]]["outside_target"])
         out.append({"no": e["no"], "title": docs[m["doc"]]["title"], "raw": m["raw"], "line": m["line"]})
     return out
