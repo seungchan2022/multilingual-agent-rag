@@ -109,10 +109,15 @@ class Orders(unittest.TestCase):
         self.assertEqual(by["o3"]["order_model"] is not None, True)
         self.assertTrue(all(e["read_ok"] is None and e["truth"] is None and e["note"] is None for e in es))
 
+    def test_confirm_has_empty_ask_fields(self):
+        o = s3.make_orders(self.groups(), {0: "나", 1: "가", 2: "다"})
+        es = s3.make_confirm("rare_earth", "en", o)
+        self.assertTrue(all(e["ask"] is None and e["ask_raw"] is None for e in es))
 
-def E(no, side="both", os=None, ot=None, om=None, state="u", field="exoplanets", lang="ko", table=False):
+
+def E(no, side="both", os=None, ot=None, om=None, state="u", field="exoplanets", lang="ko", table=False, ask=None, ask_raw=None):
     e = {"no": no, "field": field, "lang": lang, "side": side, "group": no, "in_table": table, "outside_target": om is not None,
-         "order_side": os, "order_table": ot, "order_model": om, "read_ok": None, "truth": None, "note": None}
+         "order_side": os, "order_table": ot, "order_model": om, "read_ok": None, "truth": None, "note": None, "ask": ask, "ask_raw": ask_raw}
     if state == "c":
         e["read_ok"], e["truth"] = True, s3.ONLY
     elif state == "w":
@@ -125,12 +130,13 @@ def E(no, side="both", os=None, ot=None, om=None, state="u", field="exoplanets",
 def cfg(field, lang, one="cc"):
     """통과하는 모양(SMALL 기준). 두 언어 쪽 c w c u, 한쪽 언어 쪽 one, 표 1개(맞음), 모델 시험 둘(맞음)."""
     p = f"{field[0]}{lang}"
-    es = [E(p + "1", "both", os=1, ot=1, om=1, state="c", field=field, lang=lang, table=True),
+    es = [E(p + "1", "both", os=1, ot=1, om=1, state="c", field=field, lang=lang, table=True, ask="하나", ask_raw="x"),
           E(p + "2", "both", os=2, state="w", field=field, lang=lang),
           E(p + "3", "both", os=3, state="c", field=field, lang=lang),
           E(p + "4", "both", os=4, field=field, lang=lang)]
     for i, ch in enumerate(one, 1):
-        es.append(E(f"{p}x{i}", "one", os=i, om=2 if i == 1 else None, state=ch, field=field, lang=lang))
+        es.append(E(f"{p}x{i}", "one", os=i, om=2 if i == 1 else None, state=ch, field=field, lang=lang,
+                   ask="하나" if i == 1 else None, ask_raw="x" if i == 1 else None))
     return es
 
 
@@ -164,7 +170,7 @@ class Status(unittest.TestCase):
         self.assertEqual((s["stopped"], s["next"], s["gaps"]), (False, ["a2"], ["a2"]))
 
     def test_model_values_stop_at_five_style_need(self):
-        es = [E(f"m{i}", os=i, om=i, state="c" if i != 2 else "w") for i in range(1, 4)]
+        es = [E(f"m{i}", os=i, om=i, state="c" if i != 2 else "w", ask="하나" if i != 2 else None, ask_raw=f"{i} km" if i != 2 else None) for i in range(1, 4)]
         s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
         self.assertEqual((s["correct"], s["stopped"]), (2, True))
 
@@ -207,12 +213,93 @@ class Status(unittest.TestCase):
         self.assertEqual(s3.unfinished(s3.make_status(es, SMALL)), [])
 
     def test_model_quota_stops_only_on_the_front_part(self):
-        es = [E("m1", om=1), E("m2", om=2, state="c"), E("m3", om=3, state="c")]
+        es = [E("m1", om=1), E("m2", om=2, state="c", ask="하나", ask_raw="2 km"), E("m3", om=3, state="c", ask="하나", ask_raw="3 km")]
         s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
         self.assertEqual((s["correct"], s["prefix_correct"], s["stopped"], s["next"]), (2, 0, False, ["m1"]))
         es[0]["read_ok"], es[0]["truth"] = True, "반대 언어에 있음"        # 첫 자리를 틀림으로 채워도 앞부분이 이어져 멈춘다
         s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
         self.assertEqual((s["prefix_correct"], s["stopped"], s["next"]), (2, True, []))
+
+
+class Ask(unittest.TestCase):
+    """모델 시험 값은 ask가 하나인 맞은 것만 쓴다(결정 "4 모델 시험에는 정답이 그 단위의 숫자 하나로 …")."""
+
+    def res_field(self, n=6):
+        return {"docs": [{"id": 0, "title": "대상 문서", "outside_target": False}, {"id": 1, "title": "②문서", "outside_target": True}],
+                "groups": {"ko": {"both": [], "one": [
+                    {"id": f"g{i}", "mentions": [{"doc": 0, "raw": f"{i} a", "line": 1}, {"doc": 1, "raw": f"{i} first", "line": i},
+                                                 {"doc": 1, "raw": f"{i} second", "line": i + 10}]} for i in range(n)]},
+                           "en": {"both": [], "one": []}}}
+
+    def order(self, asks):
+        """asks: 항목마다 (ask, ask_raw). 모두 맞은 것. 번호 n0, n1, ..."""
+        es = [E(f"n{i}", side="one", os=i, om=i, state="c", ask=a, ask_raw=r) for i, (a, r) in enumerate(asks)]
+        for e in es:
+            e["group"] = f"g{e['order_model']}"
+        return es
+
+    def test_check_confirm_blocks_each_bad_ask_case(self):
+        ok = E("a1", os=1, om=1, state="c", ask="하나", ask_raw="x")
+        s3.check_confirm([ok, E("a2", os=2, om=2, state="c", ask="범위"), E("a3", os=3)])      # 바른 항목은 통과
+        missing = E("m1", os=1)
+        del missing["ask_raw"]
+        cases = {
+            "m1": missing,                                                           # 칸이 없음
+            "m2": E("m2", os=2, om=2, state="c", ask="모름"),                         # ASK에 없는 값
+            "m3": E("m3", os=3, om=3, state="c", ask="하나", ask_raw=""),             # 하나인데 ask_raw가 빈 글
+            "m4": E("m4", os=4, om=4, state="c", ask="하나"),                         # 하나인데 ask_raw가 null
+            "m5": E("m5", os=5, om=5, state="c", ask="범위", ask_raw="x"),            # 하나가 아닌데 ask_raw가 있음
+            "m6": E("m6", os=6, state="c", ask="범위"),                               # 모델 시험 차례가 아님
+            "m7": E("m7", os=7, om=7, state="w", ask="범위"),                         # 맞은 후보가 아님
+            "m8": E("m8", os=8, om=8, ask="범위"),                                    # 채우지 않음
+        }
+        for no, e in cases.items():
+            with self.assertRaises(SystemExit) as cm:
+                s3.check_confirm([ok, e])
+            self.assertIn(no, str(cm.exception))
+            self.assertNotIn("a1", str(cm.exception))
+
+    def test_check_ask_needs_same_raw_in_outside_doc(self):
+        rf = self.res_field()
+        res = {"fields": {"exoplanets": rf}}
+        es = self.order([("하나", "0 first"), ("하나", "1 second"), ("하나", "2 a"), ("하나", "없음"), ("범위", None)])
+        for e in es:
+            e["side"] = "one"
+        s3.check_ask(es[:2], res)                                                    # 첫 언급도 둘째 언급도 통과
+        with self.assertRaises(SystemExit) as cm:
+            s3.check_ask(es, res)
+        self.assertIn("n2", str(cm.exception))                                       # 시험 대상 문서의 언급과만 같음
+        self.assertIn("n3", str(cm.exception))                                       # 어느 언급과도 다름
+        self.assertNotIn("n4", str(cm.exception))                                    # 하나가 아니면 보지 않는다
+
+    def test_null_ask_is_not_filled_and_breaks_front_part(self):
+        es = self.order([("하나", "0 first"), (None, None), ("하나", "2 first"), ("하나", "3 first")])
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
+        self.assertEqual((s["prefix"], s["prefix_correct"], s["stopped"], s["next"], s["gaps"]), (1, 1, False, ["n1"], ["n1"]))
+        self.assertEqual(s["filled"], 3)
+
+    def test_range_is_filled_but_not_counted(self):
+        es = self.order([("범위", None), ("하나", "1 first"), ("좌표", None), ("하나", "3 first"), ("하나", "4 first")])
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
+        self.assertEqual((s["prefix"], s["filled"], s["correct"], s["prefix_correct"], s["stopped"], s["next"]), (5, 5, 3, 3, True, []))
+        es = self.order([("범위", None), ("하나", "1 first")])                         # 하나가 모자라면 후보가 다 떨어져도 멈추지 않는다
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["model"]
+        self.assertEqual((s["prefix_correct"], s["stopped"], s["exhausted"]), (1, False, True))
+
+    def test_model_values_pick_asked_mention_and_skip_range(self):
+        es = self.order([("범위", None), ("하나", "1 second"), ("좌표", None), ("하나", "3 first"), ("하나", "4 first")])
+        v = s3.model_values(es, self.res_field(), 2)
+        self.assertEqual(v, [{"no": "n1", "title": "②문서", "raw": "1 second", "line": 11},
+                             {"no": "n3", "title": "②문서", "raw": "3 first", "line": 3}])
+
+    def test_model_skipped_only_before_nth_value(self):
+        es = self.order([("범위", None), ("하나", "1 first"), ("경계 값", None), ("하나", "3 first"), ("좌표", None), ("하나", "5 first")])
+        sk = s3.model_skipped(es, self.res_field(), 2)
+        self.assertEqual(sk, [{"no": "n0", "title": "②문서", "raw": "0 first", "line": 0, "ask": "범위"},
+                              {"no": "n2", "title": "②문서", "raw": "2 first", "line": 2, "ask": "경계 값"}])   # n4는 둘째 값 n3 뒤라 넣지 않는다
+        self.assertEqual([x["no"] for x in s3.model_skipped(es, self.res_field(), 3)], ["n0", "n2", "n4"])
+        es = self.order([("범위", None), ("하나", "1 first")])                         # 값이 n개가 안 되면 앞부분 안의 것 모두
+        self.assertEqual([x["no"] for x in s3.model_skipped(es, self.res_field(), 2)], ["n0"])
 
 
 class Judge(unittest.TestCase):
@@ -269,7 +356,7 @@ class Judge(unittest.TestCase):
         res_field = {"docs": [{"id": 0, "title": "대상 문서", "outside_target": False}, {"id": 1, "title": "②문서", "outside_target": True}],
                      "groups": {"ko": {"both": [], "one": [
                          {"id": f"g{i}", "mentions": [{"doc": 1, "raw": f"{i} km", "line": i}]} for i in range(3)]}, "en": {"both": [], "one": []}}}
-        order = [E("n0", om=0), E("n1", om=1, state="c"), E("n2", om=2, state="c")]
+        order = [E("n0", om=0), E("n1", om=1, state="c", ask="하나", ask_raw="1 km"), E("n2", om=2, state="c", ask="하나", ask_raw="2 km")]
         for e in order:
             e["group"] = f"g{e['order_model']}"
         self.assertEqual(s3.model_values(order, res_field, 2), [])       # 첫 자리가 비어 있으면 뒤의 맞은 것을 고르지 않는다
@@ -280,7 +367,8 @@ class Judge(unittest.TestCase):
         res_field = {"docs": [{"id": 0, "title": "대상 문서", "outside_target": False}, {"id": 1, "title": "②문서", "outside_target": True}],
                      "groups": {"ko": {"both": [], "one": [
                          {"id": f"g{i}", "mentions": [{"doc": 0, "raw": "a", "line": 1}, {"doc": 1, "raw": f"{i} km", "line": i}]} for i in range(4)]}, "en": {"both": [], "one": []}}}
-        order = [E(f"n{i}", os=i, om=i, state="w" if i == 1 else "c") for i in range(4)]
+        order = [E(f"n{i}", os=i, om=i, state="w" if i == 1 else "c", ask=None if i == 1 else "하나",
+                   ask_raw=None if i == 1 else f"{i} km") for i in range(4)]
         for e in order:
             e["group"] = f"g{e['order_model']}"
         v = s3.model_values(order, res_field, 2)

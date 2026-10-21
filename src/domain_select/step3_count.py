@@ -1,7 +1,8 @@
 """이슈 #6의 3 세기: 분야마다 정해 둔 문서 20개(코퍼스)에서 한쪽 언어 문서에만 있는 사실(단위가 붙은 수)을 센다
 (decisions/stage2.md 2026-10-21 "2 규칙 정하기 ①~⑥", "두 언어 문서가 같은 것을 서로 다른 값으로 적은 사실은 … 세지 않는다",
 "3 세기는 … AI가 원문과 대조해 확인한 수로 판정한다" ㉠~㉧,
-"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고 …" ㉠~㉥).
+"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고 …" ㉠~㉥,
+"4 모델 시험에는 정답이 그 단위의 숫자 하나로 정해지는 값만 쓴다 …" ㉠~㉤).
 
   .venv/bin/python src/domain_select/step3_count.py count    코퍼스를 읽어 세고 results.json, summary.md, md/를 쓴다(네트워크 없음)
   .venv/bin/python src/domain_select/step3_count.py sheet    대조할 차례와 읽을 종이를 만든다: confirm.json(AI가 채울 판정 파일의 틀), sheet.md
@@ -20,6 +21,8 @@ AI가 후보를 정한 차례로 원문과 대조해 맞은 수로 판정한다(
 쪽으로 센다(결정 ① ㉣). 그래서 묶기(group)는 (분야, 언어, 쪽)마다 따로 하고, 판정(judge)은 그 분야 코퍼스의 반대 언어 문서 10개 전부와 견준다.
 차례(분야·언어마다 넷): both(두 언어 쪽 후보), one(한쪽 언어 쪽 후보), table(두 쪽의 후보 가운데 표 안), model(두 쪽의 후보 가운데
 outside_target). 각 목록은 (첫 언급의 문서 title, line, start)로 정렬한 뒤 make_short_test.shuffled로 섞는다. 차례의 "자리"는 1부터 센다.
+모델 시험 차례는 맞은 후보에 AI가 ask(하나, 범위, 경계 값, 좌표)와 ask_raw(하나일 때 물을 언급의 raw)를 채워야 채운 것이다.
+모델 시험 값은 그 차례의 앞부분에서 맞은 것 가운데 ask가 "하나"인 것이고, 범위·경계 값·좌표는 건너뛴다.
 """
 import re
 import sys
@@ -42,6 +45,8 @@ ONLY, SAME, MAYBE, TRUTH_ONLY = cc.ONLY, cc.SAME, cc.MAYBE, cc.TRUTH_ONLY
 CTX, CTX_SMALL, NEAR, LIMIT_NEAR, LIMIT_DIGITS = cc.CTX, cc.CTX_SMALL, cc.NEAR, cc.LIMIT_NEAR, cc.LIMIT_DIGITS
 NEED = {"side": 18, "table": 3, "model": 5}      # 쪽마다, 표, 모델 시험 값(결정 ④ ⑥)
 NEXT_MAX = 10
+ASK = ("하나", "범위", "경계 값", "좌표")          # 모델 시험 차례의 맞은 후보가 묻는 꼴(결정 "4 모델 시험에는 … 숫자 하나로")
+ASK_ONE = "하나"
 
 # 갈래, 들어온 곳, 주제(한국어 제목). 분야마다 갈래 쪽 주제는 5개다(두 언어는 한·영 문서 둘, 한쪽 언어는 그 언어 문서 하나).
 CORPUS = {
@@ -219,7 +224,7 @@ def make_confirm(field, lang, orders):
             entries[g["id"]] = {"no": f"{field[0].upper()}-{lang}-{len(entries) + 1:03d}", "field": field, "lang": lang, "side": side,
                                 "group": g["id"], "in_table": g["in_table"], "outside_target": g["outside_target"],
                                 "order_side": orders[side].index(g) + 1, "order_table": None, "order_model": None,
-                                "read_ok": None, "truth": None, "note": None}
+                                "read_ok": None, "truth": None, "note": None, "ask": None, "ask_raw": None}
     for name in ("table", "model"):
         for i, g in enumerate(orders[name], 1):
             entries[g["id"]][f"order_{name}"] = i
@@ -235,7 +240,10 @@ CRITERIA = """## 판정 기준 (이 종이를 읽는 AI가 지킨다)
 - 묶음에 언급이 여럿이면, 바르게 읽은 "그 언어에만"인 사실이 하나라도 있으면 그 묶음은 맞은 것(read_ok true, truth "그 언어에만")이다.
 - 견주는 문서는 코퍼스 안의 반대 언어 문서뿐이다.
 - 판정은 차례의 앞에서부터 빈틈없이 채운다. 그 쪽 차례로 맞은 것이 18개가 되면 그 쪽은 멈춘다(`status`가 알려 준다). 두 언어 쪽은 2026-10-21 "3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고" 결정으로 더 대조하지 않는다.
-- 칸은 confirm.json에 채운다: read_ok(true/false), truth, note(글).
+- 모델 시험 차례의 맞은 후보에는 ask(하나/범위/경계 값/좌표)와 ask_raw(하나일 때 물을 언급의 raw)를 채운다. 범위 = 두 끝으로 적은 값, 경계 값 = 넘지 않는 한계만 적은 값,
+  좌표 = 도·분·초처럼 숫자 여럿으로 적는 위치. "추정", "약", 오차를 붙인 값은 하나다. 묶음에 언급이 여럿이면 범위·경계 값·좌표가 아닌 첫 언급을 ask_raw로 쓴다.
+  모델 시험 차례가 아니거나 맞지 않은 후보는 ask, ask_raw를 null로 둔다.
+- 칸은 confirm.json에 채운다: read_ok(true/false), truth, note(글), ask, ask_raw.
 """
 
 
@@ -338,29 +346,79 @@ def is_correct(e):
     return is_filled(e) and e["read_ok"] is True and e["truth"] == ONLY
 
 
+def ask_bad(e):
+    """ask, ask_raw 칸이 틀렸는가(칸이 없음, ASK에 없는 값, 하나와 ask_raw의 짝이 안 맞음, 모델 시험 차례의 맞은 후보가 아닌데 적음)."""
+    if "ask" not in e or "ask_raw" not in e:
+        return True
+    if e["ask"] is None:
+        return e["ask_raw"] is not None
+    if e["ask"] not in ASK:
+        return True
+    if e["ask"] == ASK_ONE:
+        if not isinstance(e["ask_raw"], str) or not e["ask_raw"]:
+            return True
+    elif e["ask_raw"] is not None:
+        return True
+    return e["order_model"] is None or not is_correct(e)
+
+
 def check_confirm(entries):
-    """칸 값이 틀린 번호를 알린다(read_ok는 true/false/null, truth는 TRUTH_ONLY 또는 null)."""
-    bad = [e["no"] for e in entries if e["read_ok"] not in (True, False, None) or (e["truth"] is not None and e["truth"] not in TRUTH_ONLY)]
+    """칸 값이 틀린 번호를 알린다(read_ok는 true/false/null, truth는 TRUTH_ONLY 또는 null, ask와 ask_raw는 ask_bad)."""
+    bad = [e["no"] for e in entries if e["read_ok"] not in (True, False, None) or (e["truth"] is not None and e["truth"] not in TRUTH_ONLY)
+           or ask_bad(e)]
     if bad:
         raise SystemExit("칸 값이 틀린 번호: " + ", ".join(bad))
 
 
-def quota(order, need, by_prefix=False):
+def ask_mention(e, by_group, docs):
+    """항목의 묶음에서 시험 대상 밖 문서의 첫 언급. ask_raw를 주면 raw가 그와 같은 첫 언급."""
+    ms = [m for m in by_group[e["group"]]["mentions"] if docs[m["doc"]]["outside_target"]]
+    if e.get("ask_raw") is not None:
+        ms = [m for m in ms if m["raw"] == e["ask_raw"]]
+    return ms[0] if ms else None
+
+
+def check_ask(entries, res):
+    """ask가 하나인 항목마다 묶음의 시험 대상 밖 문서 언급 가운데 raw가 ask_raw와 같은 것이 있는지 본다. 없는 번호를 알린다."""
+    bad = []
+    for e in entries:
+        if e["ask"] != ASK_ONE:
+            continue
+        rf = res["fields"][e["field"]]
+        docs = {d["id"]: d for d in rf["docs"]}
+        by_group = {g["id"]: g for g in rf["groups"][e["lang"]][e["side"]]}
+        if ask_mention(e, by_group, docs) is None:
+            bad.append(e["no"])
+    if bad:
+        raise SystemExit("ask_raw가 시험 대상 밖 문서의 언급과 다른 번호: " + ", ".join(bad))
+
+
+def is_model_filled(e):
+    """모델 시험 차례에서 채운 것: 맞은 후보는 ask까지 채워야 한다."""
+    return is_filled(e) and (not is_correct(e) or e["ask"] is not None)
+
+
+def is_model_value(e):
+    return is_correct(e) and e["ask"] == ASK_ONE
+
+
+def quota(order, need, by_prefix=False, filled_fn=is_filled, correct_fn=is_correct):
     """order: 한 차례의 confirm 항목(차례 순). 몫 하나의 상태. by_prefix: 멈춤을 앞에서부터 빈틈없이 채운 부분의 맞은 수로 본다(쪽 몫과 모델 시험 몫).
+    filled_fn, correct_fn: 채움과 맞음을 판단하는 함수(모델 시험 몫은 is_model_filled, is_model_value).
     correct 맞은 수, filled 그 차례에서 채운 수, total 후보 수, stopped, exhausted(후보가 다 떨어짐), gaps(채운 것보다 앞인데 비어 있는 번호),
     next(아직 채우지 않은 앞의 번호, 멈추지 않았을 때), prefix(앞에서부터 빈틈없이 채운 수), prefix_correct(그 가운데 맞은 수)"""
-    filled = [e for e in order if is_filled(e)]
+    filled = [e for e in order if filled_fn(e)]
     prefix = 0
-    while prefix < len(order) and is_filled(order[prefix]):
+    while prefix < len(order) and filled_fn(order[prefix]):
         prefix += 1
-    last = max((i for i, e in enumerate(order) if is_filled(e)), default=-1)
-    correct = sum(1 for e in order if is_correct(e))
-    prefix_correct = sum(1 for e in order[:prefix] if is_correct(e))
+    last = max((i for i, e in enumerate(order) if filled_fn(e)), default=-1)
+    correct = sum(1 for e in order if correct_fn(e))
+    prefix_correct = sum(1 for e in order[:prefix] if correct_fn(e))
     stopped = (prefix_correct if by_prefix else correct) >= need
     return {"need": need, "correct": correct, "filled": len(filled), "total": len(order), "stopped": stopped,
             "exhausted": len(filled) == len(order),
-            "gaps": [e["no"] for i, e in enumerate(order) if i < last and not is_filled(e)],
-            "next": [] if stopped else [e["no"] for e in order if not is_filled(e)][:NEXT_MAX],
+            "gaps": [e["no"] for i, e in enumerate(order) if i < last and not filled_fn(e)],
+            "next": [] if stopped else [e["no"] for e in order if not filled_fn(e)][:NEXT_MAX],
             "prefix": prefix, "prefix_correct": prefix_correct}
 
 
@@ -379,7 +437,8 @@ def make_status(entries, need=NEED):
             out[field][lang] = {"both": quota(ordered(es, "order_side", side="both"), need["side"], by_prefix=True),
                                 "one": quota(ordered(es, "order_side", side="one"), need["side"], by_prefix=True),
                                 "table": quota(ordered(es, "order_table"), need["table"]),
-                                "model": quota(ordered(es, "order_model"), need["model"], by_prefix=True)}
+                                "model": quota(ordered(es, "order_model"), need["model"], by_prefix=True,
+                                           filled_fn=is_model_filled, correct_fn=is_model_value)}
     return out
 
 
@@ -401,8 +460,8 @@ def unfinished(status):
 
 def render_status(status):
     L = ["# 3 세기: 대조 상태 (status)", "",
-         "숫자는 confirm.json에서 계산했다. 맞은 것 = read_ok가 true이고 truth가 \"그 언어에만\"인 것. 채운 것 = read_ok와 truth가 둘 다 채워진 것. "
-         "두 언어 쪽은 판정에 쓰지 않는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\"). 표의 맞은 수는 어느 차례에서 채웠든 센다. 쪽 몫과 모델 시험 몫은 차례의 앞에서부터 빈틈없이 채운 부분의 맞은 수로 멈춘다. 모델 시험 값은 그 부분에서 맞은 것을 쓴다(이미 채운 판정도 그 부분에 들면 쓴다).", ""]
+         "숫자는 confirm.json에서 계산했다. 맞은 것 = read_ok가 true이고 truth가 \"그 언어에만\"인 것. 채운 것 = read_ok와 truth가 둘 다 채워진 것(모델 시험 차례에서는 맞은 후보가 ask까지 채워야 채운 것). "
+         "두 언어 쪽은 판정에 쓰지 않는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\"). 표의 맞은 수는 어느 차례에서 채웠든 센다. 쪽 몫과 모델 시험 몫은 차례의 앞에서부터 빈틈없이 채운 부분의 맞은 수로 멈춘다. 모델 시험 값은 그 부분에서 맞은 것 가운데 ask가 \"하나\"인 것이고(이미 채운 판정도 그 부분에 들면 쓴다), 모델 시험 몫의 맞은 수는 이 모델 시험 값의 수다.", ""]
     for field, langs in status.items():
         for lang, qs in langs.items():
             L += [f"## {field} {lang}", "",
@@ -421,6 +480,7 @@ def render_status(status):
 def cmd_status():
     entries = cc.read_json(OUT / "confirm.json")
     check_confirm(entries)
+    check_ask(entries, cc.read_json(OUT / "results.json"))
     text = render_status(make_status(entries))
     (OUT / "status.md").write_text(text, encoding="utf-8")
     print(text)
@@ -458,26 +518,51 @@ def judge_all(status, need=NEED):
     return out
 
 
+def model_prefix(order):
+    """모델 시험 차례의 앞에서부터 빈틈없이 채운 부분(맞은 후보는 ask까지 채운 것)."""
+    prefix = 0
+    while prefix < len(order) and is_model_filled(order[prefix]):
+        prefix += 1
+    return order[:prefix]
+
+
 def model_values(order, res_field, n=NEED["model"]):
-    """모델 시험 차례의 앞에서부터 빈틈없이 채운 부분에서 맞은 것 앞의 n개: 번호, 문서 제목, raw, 줄(첫 언급 가운데 시험 대상 밖 문서의 것)."""
+    """모델 시험 차례의 앞에서부터 빈틈없이 채운 부분에서 ask가 하나인 맞은 것 앞의 n개: 번호, 문서 제목, raw, 줄
+    (묶음의 시험 대상 밖 문서 언급 가운데 raw가 ask_raw와 같은 첫 언급)."""
     docs = {d["id"]: d for d in res_field["docs"]}
     by_group = {g["id"]: g for lang in LANGS for s in SIDES for g in res_field["groups"][lang][s]}
     out = []
-    prefix = 0
-    while prefix < len(order) and is_filled(order[prefix]):
-        prefix += 1
-    for e in [e for e in order[:prefix] if is_correct(e)][:n]:
-        m = next(m for m in by_group[e["group"]]["mentions"] if docs[m["doc"]]["outside_target"])
+    for e in [e for e in model_prefix(order) if is_model_value(e)][:n]:
+        m = ask_mention(e, by_group, docs)
         out.append({"no": e["no"], "title": docs[m["doc"]]["title"], "raw": m["raw"], "line": m["line"]})
     return out
 
 
-def render_judge(result, values):
+def model_skipped(order, res_field, n=NEED["model"]):
+    """같은 앞부분에서 맞은 것 가운데 ask가 하나가 아니어서 건너뛴 것(n번째 모델 시험 값보다 앞의 것만): 번호, 문서 제목, raw, 줄, ask
+    (묶음의 시험 대상 밖 문서의 첫 언급)."""
+    docs = {d["id"]: d for d in res_field["docs"]}
+    by_group = {g["id"]: g for lang in LANGS for s in SIDES for g in res_field["groups"][lang][s]}
+    out, got = [], 0
+    for e in model_prefix(order):
+        if is_model_value(e):
+            got += 1
+            if got >= n:
+                break
+        elif is_correct(e):
+            m = ask_mention({**e, "ask_raw": None}, by_group, docs)
+            out.append({"no": e["no"], "title": docs[m["doc"]]["title"], "raw": m["raw"], "line": m["line"], "ask": e["ask"]})
+    return out
+
+
+def render_judge(result, values, skipped):
     L = ["# 3 세기: 판정과 어림 (judge)", "",
          "숫자는 confirm.json과 results.json에서 계산했다. 넘음 = 언어마다 한쪽 언어 쪽과 표, 모두 넷을 맞은 수로 채움. "
          "어림 = 프로그램이 센 후보 수 × 확인한 것 가운데 맞은 비율(한쪽 언어 쪽은 그 차례의 앞에서부터 채운 부분의 비율, 표는 표 차례에서 채운 것 전체의 비율). "
          "여유 = 그 넷의 어림 ÷ 필요한 수 가운데 가장 낮은 값이고, 두 분야가 다 넘을 때만 쓰는 값이다. "
-         "두 언어 쪽은 판정에 쓰지 않고 참고로 적는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\").", ""]
+         "두 언어 쪽은 판정에 쓰지 않고 참고로 적는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\"). "
+         "모델 시험 값은 모델 시험 차례의 앞부분에서 맞은 것 가운데 ask가 \"하나\"인 것이고, 범위·경계 값·좌표는 건너뛴다"
+         "(결정 \"4 모델 시험에는 정답이 그 단위의 숫자 하나로 정해지는 값만 쓴다\").", ""]
     names = {"one": "한쪽 언어 쪽", "table": "표"}
     for field, r in result.items():
         L += [f"## {field}: {'넘음' if r['passed'] else '탈락'} (여유 {r['reserve']:.3f})", "",
@@ -490,8 +575,9 @@ def render_judge(result, values):
             L.append(f"- 참고(판정에 쓰지 않음) {lang} 두 언어 쪽: 맞은 수 {ref['correct']}, 채운 수 {ref['filled']}, 후보 수 {ref['total']}")
         L.append("")
         for lang in LANGS:
-            L += [f"### {field} {lang} 모델 시험 값 (결정 ⑥)", ""]
+            L += [f"### {field} {lang} 모델 시험 값 (결정 ⑥, 숫자 하나인 값만)", ""]
             L += [f"- {v['no']} | {v['title']} | `{v['raw']}` | 줄 {v['line']}" for v in values[field][lang]] or ["- 없음"]
+            L += [f"- 건너뜀({v['ask']}): {v['no']} | {v['title']} | `{v['raw']}` | 줄 {v['line']}" for v in skipped[field][lang]]
             L.append("")
     return "\n".join(L)
 
@@ -500,6 +586,7 @@ def cmd_judge():
     entries = cc.read_json(OUT / "confirm.json")
     check_confirm(entries)
     res = cc.read_json(OUT / "results.json")
+    check_ask(entries, res)
     for field in FIELDS:
         for lang in LANGS:
             n_conf = sum(1 for e in entries if e["field"] == field and e["lang"] == lang)
@@ -513,8 +600,10 @@ def cmd_judge():
     result = judge_all(status)
     values = {f: {lang: model_values(ordered([e for e in entries if e["field"] == f and e["lang"] == lang], "order_model"), res["fields"][f])
                   for lang in LANGS} for f in FIELDS}
-    cc.write_json(OUT / "judge.json", {"need": NEED, "fields": result, "model_values": values})
-    text = render_judge(result, values)
+    skipped = {f: {lang: model_skipped(ordered([e for e in entries if e["field"] == f and e["lang"] == lang], "order_model"), res["fields"][f])
+                   for lang in LANGS} for f in FIELDS}
+    cc.write_json(OUT / "judge.json", {"need": NEED, "fields": result, "model_values": values, "model_skipped": skipped})
+    text = render_judge(result, values, skipped)
     (OUT / "judge.md").write_text(text, encoding="utf-8")
     print(text)
 
