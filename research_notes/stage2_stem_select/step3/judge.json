@@ -24,7 +24,7 @@
     "en": {
      "one": {
       "need": 18,
-      "correct": 21,
+      "correct": 22,
       "estimate": 84.0,
       "ok": true
      },
@@ -70,14 +70,14 @@
     "en": {
      "one": {
       "need": 18,
-      "correct": 22,
+      "correct": 24,
       "estimate": 108.0,
       "ok": true
      },
      "table": {
       "need": 3,
-      "correct": 6,
-      "estimate": 37.8,
+      "correct": 7,
+      "estimate": 25.941176470588236,
       "ok": true
      }
     }
@@ -90,7 +90,7 @@
     },
     "en": {
      "correct": 0,
-     "filled": 4,
+     "filled": 10,
      "total": 90
     }
    },
@@ -102,27 +102,15 @@
   "exoplanets": {
    "ko": [
     {
-     "no": "E-ko-063",
-     "title": "HD 20367 b",
-     "raw": "+31° 07′ 37.372″",
-     "line": 7
-    },
-    {
      "no": "E-ko-049",
      "title": "지구 유사도 지수",
      "raw": "35 기압",
      "line": 52
     },
     {
-     "no": "E-ko-023",
-     "title": "지구 유사도 지수",
-     "raw": "56 기압",
-     "line": 51
-    },
-    {
      "no": "E-ko-069",
      "title": "HD 20367 b",
-     "raw": "370 ± 70 지구질량",
+     "raw": "1.17 ± 0.23 목성질량",
      "line": 17
     },
     {
@@ -130,6 +118,18 @@
      "title": "지구 유사도 지수",
      "raw": "273 K",
      "line": 58
+    },
+    {
+     "no": "E-ko-070",
+     "title": "지구 유사도 지수",
+     "raw": "276 K",
+     "line": 44
+    },
+    {
+     "no": "E-ko-042",
+     "title": "지구 유사도 지수",
+     "raw": "230 K",
+     "line": 67
     }
    ],
    "en": [
@@ -152,16 +152,16 @@
      "line": 32
     },
     {
-     "no": "E-en-061",
-     "title": "Zeta Leporis",
-     "raw": "−14° 49′ 19.0199″",
-     "line": 5
+     "no": "E-en-067",
+     "title": "TOI-2109 b",
+     "raw": "870 ly",
+     "line": 31
     },
     {
-     "no": "E-en-058",
-     "title": "TOI-2109 b",
-     "raw": "4,040 °F",
-     "line": 41
+     "no": "E-en-133",
+     "title": "Zeta Leporis",
+     "raw": "1.5 R☉",
+     "line": 19
     }
    ]
   },
@@ -206,28 +206,97 @@
      "line": 145
     },
     {
-     "no": "R-en-095",
-     "title": "Neutron capture therapy of cancer",
-     "raw": "15.4",
-     "line": 158
-    },
-    {
      "no": "R-en-131",
      "title": "Neutron capture therapy of cancer",
      "raw": "27.1 months",
      "line": 128
     },
     {
+     "no": "R-en-138",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "11.1",
+     "line": 143
+    },
+    {
+     "no": "R-en-193",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "23.5 months",
+     "line": 124
+    },
+    {
+     "no": "R-en-091",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "17.7",
+     "line": 146
+    }
+   ]
+  }
+ },
+ "model_skipped": {
+  "exoplanets": {
+   "ko": [
+    {
+     "no": "E-ko-063",
+     "title": "HD 20367 b",
+     "raw": "+31° 07′ 37.372″",
+     "line": 7,
+     "ask": "좌표"
+    },
+    {
+     "no": "E-ko-023",
+     "title": "지구 유사도 지수",
+     "raw": "56 기압",
+     "line": 51,
+     "ask": "범위"
+    }
+   ],
+   "en": [
+    {
+     "no": "E-en-061",
+     "title": "Zeta Leporis",
+     "raw": "−14° 49′ 19.0199″",
+     "line": 5,
+     "ask": "좌표"
+    },
+    {
+     "no": "E-en-058",
+     "title": "TOI-2109 b",
+     "raw": "4,040 °F",
+     "line": 41,
+     "ask": "경계 값"
+    },
+    {
+     "no": "E-en-063",
+     "title": "Zeta Leporis",
+     "raw": "2.5 AU",
+     "line": 50,
+     "ask": "경계 값"
+    }
+   ]
+  },
+  "rare_earth": {
+   "ko": [],
+   "en": [
+    {
+     "no": "R-en-095",
+     "title": "Neutron capture therapy of cancer",
+     "raw": "15.4",
+     "line": 158,
+     "ask": "범위"
+    },
+    {
      "no": "R-en-104",
      "title": "Neutron capture therapy of cancer",
      "raw": "14 hours",
-     "line": 102
+     "line": 102,
+     "ask": "범위"
     },
     {
-     "no": "R-en-138",
+     "no": "R-en-132",
      "title": "Neutron capture therapy of cancer",
-     "raw": "11.0",
-     "line": 147
+     "raw": "1.9",
+     "line": 180,
+     "ask": "범위"
     }
    ]
   }
