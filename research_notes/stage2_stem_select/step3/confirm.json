@@ -10,9 +10,9 @@
   "order_side": 1,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 글리제 1214 b 밀도 한국어 1870 ± 400 kg/m³, 영어 GJ 1214 b Mean density 2.20 g/cm³"
  },
  {
   "no": "E-ko-002",
@@ -25,9 +25,9 @@
   "order_side": 2,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "COROT-7 적위, 코퍼스의 영어 문서(CoRoT-7b 등)에 좌표 없음"
  },
  {
   "no": "E-ko-003",
@@ -40,9 +40,9 @@
   "order_side": 3,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "목동자리 타우 b 각거리 0.003067 초각, 영어 Tau Boötis b에 없음"
  },
  {
   "no": "E-ko-004",
@@ -55,9 +55,9 @@
   "order_side": 4,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(반올림): 거리 한국어 50광년, 영어 Tau Boötis b approximately 51 light-years(십의 자리로 반올림하면 50)"
  },
  {
   "no": "E-ko-005",
@@ -70,9 +70,9 @@
   "order_side": 5,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 글리제 1214 b 질량 한국어 6.55 ± 0.98 지구질량, 영어 8.41 M🜨"
  },
  {
   "no": "E-ko-006",
@@ -85,9 +85,9 @@
   "order_side": 6,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 글리제 1214 거리 한국어 13 파섹(40 광년), 영어 15 pc(48 light-years)"
  },
  {
   "no": "E-ko-007",
@@ -100,9 +100,9 @@
   "order_side": 7,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 1214 적위, 코퍼스의 영어 문서에 이 별의 좌표 없음"
  },
  {
   "no": "E-ko-008",
@@ -115,9 +115,9 @@
   "order_side": 8,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 목동자리 타우 b 온도 한국어 약 1621 켈빈, 영어 Temperature 1,700 K·close to 1600 K"
  },
  {
   "no": "E-ko-009",
@@ -130,9 +130,9 @@
   "order_side": 9,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): COROT-7 거리 한국어 489 광년(150 파섹), 영어 520 light-years(159 parsecs)"
  },
  {
   "no": "E-ko-010",
@@ -145,9 +145,9 @@
   "order_side": 10,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): COROT-7b 온도 범위 끝 한국어 1773 켈빈, 영어 1,300–1,800 K"
  },
  {
   "no": "E-ko-011",
@@ -160,9 +160,9 @@
   "order_side": 11,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "COROT-7 적경, 코퍼스의 영어 문서에 이 별의 좌표 없음"
  },
  {
   "no": "E-ko-012",
@@ -175,9 +175,9 @@
   "order_side": 12,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 글리제 1214 b 평균거리 한국어 0.0143 AU, 영어 Semi-major axis 0.01505"
  },
  {
   "no": "E-ko-013",
@@ -190,9 +190,9 @@
   "order_side": 13,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): COROT-7b 온도 범위 앞 끝 한국어 1273 켈빈, 영어 1,300 K"
  },
  {
   "no": "E-ko-014",
@@ -205,9 +205,9 @@
   "order_side": 14,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "글리제 1214 적경, 코퍼스의 영어 문서에 이 별의 좌표 없음"
  },
  {
   "no": "E-ko-015",
@@ -220,9 +220,9 @@
   "order_side": 15,
   "order_table": null,
   "order_model": 16,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): KOI-4878 거리 한국어 1075광년, 영어 1,120 light-years"
  },
  {
   "no": "E-ko-016",
@@ -235,9 +235,9 @@
   "order_side": 16,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): COROT-7 거리 한국어 약 450 광년, 영어 520 light-years"
  },
  {
   "no": "E-ko-017",
@@ -250,9 +250,9 @@
   "order_side": 17,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "같은 값(반올림): COROT-7b 평균거리 한국어 0.017 AU, 영어 0.0172 AU"
  },
  {
   "no": "E-ko-018",
@@ -265,9 +265,9 @@
   "order_side": 18,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 글리제 1214 거리 한국어 40 광년, 영어 48 light-years"
  },
  {
   "no": "E-ko-019",
@@ -3160,9 +3160,9 @@
   "order_side": 1,
   "order_table": 10,
   "order_model": 10,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁶ᵐY(반감기 9.6(2) s, 8+로 같은 상태) 들뜸 에너지 한국어 1140(30) keV, 영어 ⁹⁶ᵐ¹Y 1540(9) keV"
  },
  {
   "no": "R-ko-002",
@@ -3175,9 +3175,9 @@
   "order_side": 2,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 툴륨 기화열 한국어 247 kJ/mol, 영어 Thulium Heat of vaporization 191 kJ/mol"
  },
  {
   "no": "R-ko-003",
@@ -3190,9 +3190,9 @@
   "order_side": 3,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 디스프로슘 비커스 굳기 한국어 540 MPa, 영어 Dysprosium Vickers hardness 410–550 MPa(범위 안의 한 값)"
  },
  {
   "no": "R-ko-004",
@@ -3205,9 +3205,9 @@
   "order_side": 4,
   "order_table": 77,
   "order_model": 77,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ¹⁰³Y 반감기 한국어 224(19) ms, 영어 239(12) ms"
  },
  {
   "no": "R-ko-005",
@@ -3220,9 +3220,9 @@
   "order_side": 5,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 툴륨 비커스 굳기 한국어 520 MPa, 영어 Thulium Vickers hardness 470–650 MPa(범위 안의 한 값)"
  },
  {
   "no": "R-ko-006",
@@ -3235,9 +3235,9 @@
   "order_side": 6,
   "order_table": 56,
   "order_model": 56,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ¹⁰⁰Y의 낮은 스핀 상태(한국어는 바닥 상태 1-,2-, 영어는 ¹⁰⁰ᵐY 1+#로 적음) 반감기 한국어 735(7) ms, 영어 727(6) ms(1.1% 차이)"
  },
  {
   "no": "R-ko-007",
@@ -3250,9 +3250,9 @@
   "order_side": 7,
   "order_table": 61,
   "order_model": 61,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁸ᵐ³Y(496 keV) 반감기 한국어 7.6(4) µs, 영어 6.90(54) μs"
  },
  {
   "no": "R-ko-008",
@@ -3265,9 +3265,9 @@
   "order_side": 8,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): 이터븀 기화열 한국어 159 kJ/mol, 영어 Ytterbium Heat of vaporization 129 kJ/mol"
  },
  {
   "no": "R-ko-009",
@@ -3280,9 +3280,9 @@
   "order_side": 9,
   "order_table": 73,
   "order_model": 73,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁰ᵐY 반감기 한국어 3.19(6) h, 영어 3.226(11) h(1.1% 차이, 반올림해도 3.23)"
  },
  {
   "no": "R-ko-010",
@@ -3295,9 +3295,9 @@
   "order_side": 10,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "디스프로슘 원자 반지름 계산값 228 pm. 영어 Dysprosium에는 empirical 178 pm과 covalent 192±7 pm만 있고 계산값이 없다(원문 HTML에도 없다)"
  },
  {
   "no": "R-ko-011",
@@ -3310,9 +3310,9 @@
   "order_side": 11,
   "order_table": 39,
   "order_model": 39,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁹ᵐY(2141.65 keV) 반감기 한국어 8.6(8) µs, 영어 Isotopes of yttrium 8.2(4) μs"
  },
  {
   "no": "R-ko-012",
@@ -3325,9 +3325,9 @@
   "order_side": 12,
   "order_table": 47,
   "order_model": 47,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁸²ᵐ¹Y(402.63 keV) 반감기 한국어 268(25) ns, 영어 258(22) ns"
  },
  {
   "no": "R-ko-013",
@@ -3340,9 +3340,9 @@
   "order_side": 13,
   "order_table": 6,
   "order_model": 6,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁸ᵐ²Y 반감기 한국어 2.0(2) s, 영어 2.32(8) s"
  },
  {
   "no": "R-ko-014",
@@ -3355,9 +3355,9 @@
   "order_side": 14,
   "order_table": 87,
   "order_model": 87,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁸ᵐ²Y(반감기 약 2 s, β⁻n 약 3.4%로 같은 상태) 들뜸 에너지 한국어 410(30) keV, 영어 465.7(7) keV"
  },
  {
   "no": "R-ko-015",
@@ -3370,9 +3370,9 @@
   "order_side": 15,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "툴륨 원자 반지름 계산값 222 pm. 영어 Thulium에는 empirical 176 pm과 covalent 190±10 pm만 있고 계산값이 없다(원문 HTML에도 없다)"
  },
  {
   "no": "R-ko-016",
@@ -3385,9 +3385,9 @@
   "order_side": 16,
   "order_table": null,
   "order_model": null,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹⁷⁷Yb 반감기 1.911 h. 영어 Ytterbium(원문 HTML 포함)에 ¹⁷⁷Yb가 없다. \"less than 2 hours\"는 남은 동위 원소 전체를 말한 것이라 같은 사실이 아니다"
  },
  {
   "no": "R-ko-017",
@@ -3400,9 +3400,9 @@
   "order_side": 17,
   "order_table": 88,
   "order_model": 88,
-  "read_ok": null,
-  "truth": null,
-  "note": null
+  "read_ok": true,
+  "truth": "반대 언어에 있음",
+  "note": "값이 다름(서로 어긋남): ⁹⁸Y의 1181 keV 들뜬 상태(한국어 ⁹⁸ᵐ⁴Y 1181.1 keV, 영어 ⁹⁸ᵐ⁶Y 1181.50 keV. 번호가 다르다) 반감기 한국어 0.83(10) µs, 영어 762(14) ns"
  },
  {
   "no": "R-ko-018",
