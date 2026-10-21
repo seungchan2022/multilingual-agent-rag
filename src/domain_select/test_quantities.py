@@ -914,6 +914,118 @@ class UnitTable(unittest.TestCase):
             self.assertNotIn(sym, qt.UNITS)
 
 
+class Notation(unittest.TestCase):
+    """수를 적는 방법의 규칙 아홉 가지(decisions/stage2.md 2026-10-21 "세는 규칙 보완의 방향" 줄 ㉡, "변환의 적는 방식과 세는 범위" 줄 ㉣)."""
+
+    def one(self, text):
+        its = qt.quantities(text)
+        self.assertEqual(len(its), 1, text)
+        return its[0]
+
+    def test_tolerance_repeats_unit(self):
+        for t, v in (("Inclination: 38.898°+15.759° −77.179°", 38.898), ("47°+15° −13°", 47.0), ("73.33°+0.10° −0.11°", 73.33),
+                     ("171.4°+5.7° −6.9°", 171.4), ("16.684°+148.950° −21.642°", 16.684), ("86.79°±0.25°", 86.79),
+                     ("12 km ± 3 km", 12.0), ("12 km+3 km −2 km", 12.0), ("5 AU +0.1 AU −0.2 AU", 5.0)):
+            self.assertEqual(len(qt.read(t)), 1, t)
+            it = self.one(t)
+            self.assertEqual((it["value"], it["raw"]), (v, t.split(": ")[-1]), t)
+        it = self.one("Inclination: 38.898°+15.759° −77.179°")
+        self.assertEqual((it["unit"], it["dim"], it["base"]), ("°", "각도", 38.898))
+
+    def test_tolerance_other_shapes_unchanged(self):
+        self.assertEqual(vals("5 km +3 km"), [5.0, 3.0])               # +a단위만 있고 −b단위가 없으면 오차 폭이 아니다
+        self.assertEqual(vals("5 km ±3 m"), [5.0, 3.0])                # 단위가 다르면 되풀이가 아니다
+        self.assertEqual(vals("2 K−3 K"), [2.0, 3.0])
+        self.assertEqual(qs("279 ± 4 K"), [("279 ± 4 K", 279.0, "K")])
+
+    def test_year_range_is_dates(self):
+        for t in ("(2025~2030년)", "2030~2040년"):
+            self.assertEqual([i["kind"] for i in qt.read(t)], ["날짜", "날짜"], t)
+        self.assertEqual(kinds("(2025~2030년)"), [("날짜", "2025"), ("날짜", "2030년")])
+        self.assertEqual([i["kind"] for i in qt.read("(2025~2030년) 2030년")], ["날짜"] * 3)
+        self.assertEqual(vals("3~5년"), [3.0, 5.0])                     # 기간은 지금처럼 양 둘
+        self.assertEqual(vals("2025~2030 years"), [])                  # year도 같다
+        self.assertEqual(vals("10-20 years"), [10.0, 20.0])
+
+    def test_range_big_word(self):
+        a = qt.quantities("6–7 million km")
+        self.assertEqual([(i["raw"], i["unit"], i["dim"]) for i in a], [("6", "km", "길이"), ("7 million km", "km", "길이")])
+        near(self, a[0]["base"], 6e9)
+        near(self, a[1]["base"], 7e9)
+        b = qt.quantities("6~7억 년")
+        near(self, b[0]["base"], 6e8 * 31557600)
+        near(self, b[1]["base"], 7e8 * 31557600)
+        self.assertEqual(vals("55 to 106 million kilometers"), [55e6, 106e6])
+        self.assertEqual(vals("5–10 km"), [5.0, 10.0])                   # 큰 수 낱말이 없으면 지금처럼
+        self.assertEqual(vals("1 million–7 million km"), [1e6, 7e6])     # 앞 끝값에도 있으면 곱하지 않는다
+        self.assertEqual(vals("3천~5천 km"), [3000.0, 5000.0])
+
+    def test_hyphen_unit(self):
+        for t, v, unit, dim, base in (("The 115-kg (250-lb) probe", 115.0, "kg", "질량", 115.0), ("a 72.8-hour orbit", 72.8, "hour", "시간", 72.8 * 3600),
+                                      ("147-kilometre (91 mi) orbital altitude", 147.0, "kilometre", "길이", 147000.0), ("5.6-metre", 5.6, "metre", "길이", 5.6)):
+            it = qt.quantities(t)[0]
+            self.assertEqual((it["value"], it["unit"], it["dim"]), (v, unit, dim), t)
+            near(self, it["base"], base)
+        self.assertEqual([i["raw"] for i in qt.quantities("The 115-kg (250-lb) probe")], ["115-kg", "250-lb"])
+        near(self, qt.quantities("(250-lb)")[0]["base"], 250 * 0.45359237)
+
+    def test_hyphen_unit_unchanged(self):
+        self.assertEqual(unk("3-axis"), ["3"])                          # axis는 단위가 아니다
+        self.assertEqual(vals("5-10 km"), [5.0, 10.0])
+        self.assertEqual(kinds("Kepler-16 b"), [("이름", "16")])
+        self.assertEqual(vals("115- kg"), [])                           # 붙임표 뒤가 띄어쓰기면 아니다
+
+    def test_comma_and_not_joined(self):
+        # 쉼표·and로 이은 값은 서로 다른 사실의 목록일 수 있어 여러 칸으로 잇지 않는다(지시서 5번은 이 까닭으로 넣지 않았다)
+        self.assertEqual(vals("half-lives of 94.6 years and 340 days"), [94.6, 340.0])
+        self.assertEqual(vals("58.51 days and 64 hours"), [58.51, 64.0])
+        self.assertEqual(vals("Mission duration: 20 years, 28 days (elapsed)"), [20.0, 28.0])
+        self.assertEqual(vals("1 hour and 30 minutes"), [1.0, 30.0])
+
+    def test_per_second_and_hour(self):
+        for t, base in (("초당 469 ± 5 미터", 469.0), ("시간당 36 km", 10.0), ("7.8 kilometres per second", 7800.0), ("28,100 km per hour", 28100 / 3.6),
+                        ("469 ± 5 metres per second", 469.0), ("0.1 meters per second (0.22 mph)", 0.1), ("초당 3 km", 3000.0)):
+            it = qt.quantities(t)[0]
+            self.assertEqual(it["dim"], "속도", t)
+            near(self, it["base"], base)
+        self.assertEqual(self.one("초당 469 ± 5 미터")["raw"], "초당 469 ± 5 미터")
+        self.assertEqual(self.one("7.8 kilometres per second")["unit"], "kilometres per second")
+        self.assertEqual(self.one("초속 469 미터")["dim"], "속도")     # 초속은 지금처럼
+        self.assertEqual(self.one("5 km per day")["dim"], "길이")       # per second·per hour가 아니면 지금처럼
+        self.assertEqual(self.one("3 kg per second")["dim"], "질량")    # 길이 단위가 아니면 지금처럼
+        self.assertEqual(self.one("시간당 3 kg")["dim"], "질량")
+
+    def test_two_numbers_one_unit(self):
+        a = qt.quantities("in two frequencies (8.4 and 7.17 GHz)")
+        self.assertEqual([(i["raw"], i["value"], i["unit"], i["dim"]) for i in a], [("8.4", 8.4, "GHz", "진동수"), ("7.17 GHz", 7.17, "GHz", "진동수")])
+        self.assertEqual(bases("between 8 and 16 km"), [8000.0, 16000.0])
+        for got, want in zip(bases("980 or 1480 nm"), [980e-9, 1480e-9]):
+            near(self, got, want)
+        for got, want in zip(bases("−73 and 227 °C"), [200.15, 500.15]):
+            near(self, got, want)
+        self.assertEqual(unk("between 2005 and 2010"), ["2005", "2010"])    # 단위가 없으면 지금처럼
+        self.assertEqual(unk("between 2005 and 2010년"), ["2005"])           # 연도(날짜)에는 쓰지 않는다
+        self.assertEqual(unk("8 and 10"), ["8", "10"])
+
+    def test_name_number_with_planet_letter(self):
+        for t, raw in (("Gliese 581 d", "581"), ("GJ 1214 b", "1214"), ("Ross 128 b", "128"), ("글리제 581 d는", "581"), ("Gliese 581 g.", "581")):
+            self.assertEqual(kinds(t), [("이름", raw)], t)
+        for t in ("Period: 3 d", "| 3 d |", "about 3 d", "(3 d)", "인공 56.7 h", "약 5 g의 시료", "무게 5 g", "질량 7 g"):   # 한 자리 번호는 이름이 아니다
+            self.assertEqual(len(qt.quantities(t)), 1, t)
+        self.assertEqual(self.one("Period: 3 d")["value"], 3.0)
+        self.assertEqual(vals("Gliese 581 dd"), [])                      # 글자 뒤가 낱말 끝이 아니면 행성 글자가 아니다
+
+    def test_orbital_without_superscript(self):
+        for t in ("6s electrons", "4f orbitals", "5d 껍질", "the 6s subshell", "5d 오비탈이", "3p 전자"):
+            self.assertEqual([i["kind"] for i in qt.read(t)], ["이름"], t)
+        self.assertEqual(kinds("6s electrons"), [("이름", "6")])
+        self.assertEqual(vals("6 s"), [6.0])
+        self.assertEqual(vals("5 d"), [5.0])
+        self.assertEqual(vals("6s."), [6.0])
+        self.assertEqual(vals("5d 와"), [5.0])
+        self.assertEqual(vals("6s electronics"), [6.0])                  # 오비탈 낱말이 낱말 끝이 아니면 아니다
+
+
 class Digits(unittest.TestCase):
     """양 항목의 digits(목록): 적힌 값의 숫자 글자."""
 

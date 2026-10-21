@@ -387,6 +387,14 @@ EXP_RE = re.compile(rf" ?[×·⋅] ?10(?:(?P<sup>{_SUPRUN})|\^\{{?(?P<car>[+−-
 POWER_RE = re.compile(_SUPRUN)
 TOL_RE = re.compile(rf"(?:{_S}?±{_S}?{_NUM}|\+{_NUM}{_S}?[−-]{_NUM})")
 TOL_PAREN_RE = re.compile(r"\([0-9]+(?:\.[0-9]+)?\)")
+TOL_UNIT_PM_RE = re.compile(rf"{_S}?±{_S}?")                 # 양 뒤에 단위를 되풀이한 오차 폭 ±a단위
+TOL_UNIT_PLUS_RE = re.compile(rf"{_S}?\+")                   # +a단위 −b단위의 앞쪽
+TOL_UNIT_MINUS_RE = re.compile(rf"{_S}?[−-]")                # +a단위 −b단위의 뒤쪽
+PER_RE = re.compile(rf"{_S}per{_S}(?:(?P<s>second)|(?P<h>hour))(?![A-Za-z])")     # 7.8 km per second
+AND_OR_RE = re.compile(r" (?:and|or) ")                      # 8.4 and 7.17 GHz
+NAME_WORD_RE = re.compile(rf"(?:(?<![A-Za-z0-9])[A-Z][A-Za-z]*|[가-힣]+){_S}$")     # 이름 뒤 번호의 앞: Gliese 581 d
+PLANET_RE = re.compile(rf"{_S}[b-j]")                        # 이름 뒤 번호의 뒤: 행성 글자
+ORBITAL_RE = re.compile(rf"[spdf]{_S}(?P<w>(?:electron|orbital|subshell|shell)s?(?![A-Za-z])|전자|껍질|오비탈|궤도함수)")     # 6s electrons
 KO_BIG = {"조": 12, "억": 8, "만": 4}
 KO_TIER = {"조": 3, "억": 2, "만": 1}
 KO_GROUP_RE = re.compile(r"(?P<th>천)?(?P<big>[조억만])?")
@@ -416,7 +424,7 @@ DATE_RES = [re.compile(r) for r in (
 _PLAIN = r"[0-9]+(?:\.[0-9]+)?"
 HMS_RE = re.compile(rf"(?P<h>{_PLAIN})[hʰ] ?(?P<m>{_PLAIN})[mᵐ](?: ?(?P<s>{_PLAIN})[sˢ])?(?![A-Za-z])")     # 적경 15h 19m 26s
 DMS_RE = re.compile(rf"(?P<d>{_PLAIN})° ?(?P<m>{_PLAIN})′(?: ?(?P<s>{_PLAIN})″)?")                           # 도·분·초 43° 15′ 20″
-NEXT_PART_RE = re.compile(rf"[{SP}](?P<num>{_PLAIN})")
+NEXT_PART_RE = re.compile(rf"[{SP}](?P<num>{_PLAIN})")      # 여러 칸의 사이는 띄어쓰기만. 쉼표·and로 이은 것은 서로 다른 사실의 목록일 수 있다(94.6 years and 340 days)
 PERCENT_RE = re.compile(rf"{_S}?%")
 FRACTION_RE = re.compile(rf"(?<![0-9.,])(?P<n>{_NUM})분의 ?(?P<m>{_NUM})")
 
@@ -465,13 +473,15 @@ def _ko_big(s, end, value):
 def parse_value(s, p):
     """p(숫자 첫 글자)에서 값을 읽는다: 숫자 [지수 | 큰 수 낱말] [오차 폭]. 돌려주는 값은 dict:
     digits(처음 숫자의 글자), value, end, plain(지수·큰 수 낱말·오차 폭이 없는 정수),
-    all(양의 digits: 처음 숫자와 큰 수 낱말에 이어진 수들)."""
+    all(양의 digits: 처음 숫자와 큰 수 낱말에 이어진 수들), big(처음 큰 수 낱말의 곱, 없으면 None),
+    bare(지수·큰 수 낱말·오차 폭이 모두 없는가)."""
     m = NUM_RE.match(s, p)
     digits = _digits(m.group(0))
     end = m.end()
     value = float(digits)
     plain = "." not in digits
     all_digits = [digits]
+    big = None
     e = EXP_RE.match(s, end)
     pw = POWER_RE.match(s, end) if digits == "10" else None
     if e:
@@ -487,18 +497,22 @@ def parse_value(s, p):
         if kb:
             (value, end, more), plain = kb, False
             all_digits += more
+            g = KO_GROUP_RE.match(s, m.end())
+            big = (1e3 if g.group("th") else 1) * (10.0 ** KO_BIG[g.group("big")] if g.group("big") else 1)
         elif eb:
-            value *= 10.0 ** EN_BIG[eb.group("w").lower()]
+            big = 10.0 ** EN_BIG[eb.group("w").lower()]
+            value *= big
             end, plain = eb.end(), False
+    bare = e is None and pw is None and big is None
     t = TOL_RE.match(s, end) or TOL_PAREN_RE.match(s, end)
     if t:
-        end, plain = t.end(), False
-    return {"digits": digits, "value": value, "end": end, "plain": plain, "all": all_digits}
+        end, plain, bare = t.end(), False, False
+    return {"digits": digits, "value": value, "end": end, "plain": plain, "all": all_digits, "big": big, "bare": bare}
 
 
 # --- 한 줄(또는 표 칸) 읽기 -----------------------------------------------------
 
-PRE_RE = re.compile(r"(?P<w>(?:섭씨|화씨) ?영하|영하|섭씨|화씨|초속|시속) ?$")
+PRE_RE = re.compile(r"(?P<w>(?:섭씨|화씨) ?영하|영하|섭씨|화씨|초속|시속|초당|시간당) ?$")
 
 
 def resolve_unit(s, vend, pre):
@@ -506,9 +520,10 @@ def resolve_unit(s, vend, pre):
     word = pre.group("w") if pre else ""
     u = find_unit(s, vend)
     info = {"use_pre": False, "neg": False, "per": None}
-    if word in ("초속", "시속"):
+    if word in ("초속", "시속", "초당", "시간당"):       # 초당·시간당은 초속·시속과 같다
         if u and UNITS[u[1]][0] == "길이":
-            return {**info, "text": u[0], "key": u[1], "end": u[2], "how": "앞", "use_pre": True, "per": 1 if word == "초속" else 3600}
+            return {**info, "text": u[0], "key": u[1], "end": u[2], "how": "앞", "use_pre": True,
+                    "per": 1 if word in ("초속", "초당") else 3600}
         return {**info, "text": u[0], "key": u[1], "end": u[2], "how": "뒤"} if u else None
     neg = word.endswith("영하")
     if word and u and UNITS[u[1]][0] == "온도":
@@ -520,6 +535,10 @@ def resolve_unit(s, vend, pre):
             return {**info, "text": "도", "key": "°F" if word.startswith("화씨") else "°C", "end": q + 1, "how": "앞", "use_pre": True,
                     "neg": neg}
     if u:
+        per = PER_RE.match(s, u[2]) if UNITS[u[1]][0] == "길이" else None
+        if per:       # N 길이단위 per second / per hour 는 속도
+            return {**info, "text": s[vend:per.end()].strip(SP), "key": u[1], "end": per.end(), "how": "뒤",
+                    "per": 1 if per.group("s") else 3600}
         return {**info, "text": u[0], "key": u[1], "end": u[2], "how": "뒤"}
     return None
 
@@ -568,6 +587,49 @@ def _extend(seg, item, key):
     if end == item["end"]:
         return item
     return {**item, "end": end, "value": total / UNITS[key][1], "base": total, "how": "여러 칸", "digits": digits}
+
+
+def _unit_tol(seg, end, key):
+    """양(단위 표기 key)이 seg[:end]에서 끝났을 때, 바로 뒤에 같은 단위를 되풀이한 오차 폭(±a단위, +a단위 −b단위. 사이는 없거나 한 칸)이
+    있으면 그 끝 자리, 없으면 None. 오차 폭은 앞 양의 일부다."""
+    def num_unit(p):
+        m = NUM_RE.match(seg, p)
+        u = find_unit(seg, m.end()) if m else None
+        return u[2] if u and u[1] == key else None
+
+    pm = TOL_UNIT_PM_RE.match(seg, end)
+    if pm:
+        return num_unit(pm.end())
+    plus = TOL_UNIT_PLUS_RE.match(seg, end)
+    e1 = num_unit(plus.end()) if plus else None
+    minus = TOL_UNIT_MINUS_RE.match(seg, e1) if e1 else None
+    return num_unit(minus.end()) if minus else None
+
+
+def _hyphen_unit(seg, end):
+    """숫자가 seg[:end]에서 끝났을 때 바로 붙임표와 단위(115-kg)가 이어지면 그 단위 정보, 아니면 None. 붙임표 뒤가 숫자인 범위나 이름은
+    단위가 아니라서 걸리지 않는다."""
+    if seg[end:end + 1] != "-" or seg[end + 1:end + 2] in SP or end + 1 >= len(seg):
+        return None
+    u = find_unit(seg, end + 1)
+    if not u:
+        return None
+    return {"text": u[0], "key": u[1], "end": u[2], "how": "뒤", "use_pre": False, "neg": False, "per": None}
+
+
+def _is_planet_name(seg, p, end):
+    """seg[p:end]의 숫자가 이름 뒤의 번호이고 바로 뒤가 행성 글자(Gliese 581 d, 글리제 581 d는)인가. 앞이 쌍점·괄호·표 칸의 |이거나 소문자
+    낱말이면 이름이 아니다(Period: 3 d, about 3 d). 이름의 번호는 두 자리 이상의 정수라서 소수점이 있거나(인공 56.7 h) 한 자리이면
+    (약 5 g, 무게 5 g) 이름이 아니다."""
+    pl = PLANET_RE.match(seg, end)
+    num = seg[p:end]
+    return bool("." not in num and len(num) >= 2 and pl and boundary_ok(seg, pl.end(), "d") and NAME_WORD_RE.search(seg, 0, p))
+
+
+def _is_orbital(seg, end):
+    """숫자가 seg[:end]에서 끝났을 때 바로 s·p·d·f 한 글자와 오비탈 낱말(6s electrons)이 이어지는가."""
+    o = ORBITAL_RE.match(seg, end)
+    return bool(o and (not is_hangul(o.group("w")[-1]) or not is_hangul(seg[o.end():o.end() + 1]) or particle_follows(seg, o.end())))
 
 
 def _ctx_info(seg, a, end, ctx):
@@ -621,18 +683,31 @@ def _read_one(seg, p, add, ctx):
         if seg[q:q + 1].isdigit():
             vb = parse_value(seg, q)
             info = resolve_unit(seg, vb["end"], pre) or _ctx_info(seg, q, vb["end"], ctx)
+            if info and q == sm.end() and _is_year(info, vb, q, q):
+                add("날짜", a, v["end"])     # 범위의 끝값이 연도(날짜)면 두 끝값 모두 날짜다: 2025~2030년
+                add("날짜", q, info["end"])
+                return info["end"]
             if info:
+                if vb["big"] and v["bare"]:      # 뒤 끝값에만 큰 수 낱말이 붙으면 앞 끝값도 같다: 6–7 million km
+                    v["value"] *= vb["big"]
                 add(**_quantity(pre.start() if info["use_pre"] else a, v["end"], sign * v["value"], info, v["all"]))
                 add(**_quantity(sm.end(), info["end"], bsign * vb["value"], info, vb["all"]))
                 return info["end"]
-    info = resolve_unit(seg, v["end"], pre)
+    if _is_planet_name(seg, p, num_end):
+        add("이름", a, v["end"])         # 이름 뒤의 번호(Gliese 581 d): 뒤의 글자는 단위가 아니다
+        return v["end"]
+    if _is_orbital(seg, v["end"]):
+        add("이름", a, v["end"])         # 위첨자 없는 오비탈 표기(6s electrons): s·p·d·f는 단위가 아니다
+        return v["end"]
+    info = resolve_unit(seg, v["end"], pre) or _hyphen_unit(seg, v["end"])
     if info and _is_year(info, v, a, p):
         add("날짜", a, info["end"])       # 연도(2026-10-20 규칙 그대로)
         return info["end"]
     if info:
         item = _quantity(pre.start() if info["use_pre"] else a, info["end"], sign * v["value"], info, v["all"])
-        if info["how"] == "뒤":
-            item = _extend(seg, item, info["key"])
+        if info["how"] == "뒤" and not info["per"]:
+            te = _unit_tol(seg, info["end"], info["key"])
+            item = {**item, "end": te} if te else _extend(seg, item, info["key"])      # 단위를 되풀이한 오차 폭이 먼저다
         add(**item)
         return item["end"]
 
@@ -650,6 +725,13 @@ def _read_one(seg, p, add, ctx):
     if info:
         add(**_quantity(a, v["end"], sign * v["value"], info, v["all"]))
         return v["end"]
+    ao = AND_OR_RE.match(seg, v["end"])
+    if ao and seg[ao.end():ao.end() + 1].isdigit():
+        vb = parse_value(seg, ao.end())
+        info = resolve_unit(seg, vb["end"], None)
+        if info and info["how"] == "뒤" and not _is_year(info, vb, ao.end(), ao.end()):
+            add(**_quantity(a, v["end"], sign * v["value"], info, v["all"]))      # 단위를 함께 쓰는 두 수(8.4 and 7.17 GHz)
+            return v["end"]
     add("모르는 숫자", a, v["end"], digits=v["digits"])
     return v["end"]
 
