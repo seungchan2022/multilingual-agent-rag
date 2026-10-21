@@ -33,6 +33,7 @@
 - Other properties
   - Natural occurrence: primordial
   - Crystal structure: ​face-centered cubic (fcc) (cF4)
+  - Lattice constants: a = 548.46 pm (at 20 °C)
   - Thermal expansion: 24.31×10⁻⁶/K (at 20 °C)
   - Thermal conductivity: 38.5 W/(m⋅K)
   - Electrical resistivity: β, poly: 0.250 µΩ⋅m (at r.t.)

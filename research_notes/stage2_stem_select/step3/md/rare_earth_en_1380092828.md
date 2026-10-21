@@ -33,6 +33,7 @@
 - Other properties
   - Natural occurrence: primordial
   - Crystal structure: ​body-centered cubic (bcc) (cI2)
+  - Lattice constant: a = 458.22 pm (at 20 °C)
   - Thermal expansion: 26.3×10⁻⁶/K (at 20 °C)
   - Thermal conductivity: est. 13.9 W/(m⋅K)
   - Electrical resistivity: poly: 0.900 µΩ⋅m (at r.t.)

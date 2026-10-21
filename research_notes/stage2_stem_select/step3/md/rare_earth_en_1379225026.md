@@ -33,6 +33,7 @@
 - Other properties
   - Natural occurrence: primordial
   - Crystal structure: ​hexagonal close-packed (hcp) (hP2)
+  - Lattice constants: a = 353.77 pm c = 555.39 pm (at 20 °C)
   - Thermal expansion: poly: 13.3 µm/(m⋅K) (at r.t.)
   - Thermal conductivity: 16.9 W/(m⋅K)
   - Electrical resistivity: poly: 676 nΩ⋅m (at r.t.)

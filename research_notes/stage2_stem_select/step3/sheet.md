@@ -26,16 +26,16 @@
 - 모델 시험 차례(결정 ⑥) (50개): E-en-134, E-en-119, E-en-080, E-en-061, E-en-058, E-en-063, E-en-067, E-en-133, E-en-048, E-en-088, E-en-098, E-en-092, E-en-091, E-en-105, E-en-104, E-en-002, E-en-109, E-en-065, E-en-075, E-en-084, E-en-060, E-en-129, E-en-064, E-en-028, E-en-126, E-en-070, E-en-082, E-en-096, E-en-073, E-en-078, E-en-049, E-en-012, E-en-062, E-en-138, E-en-055, E-en-123, E-en-125, E-en-039, E-en-007, E-en-124, E-en-015, E-en-085, E-en-072, E-en-090, E-en-074, E-en-086, E-en-037, E-en-081, E-en-112, E-en-106
 
 ### rare_earth ko
-- 두 언어 쪽 차례 (22개): R-ko-001, R-ko-002, R-ko-003, R-ko-004, R-ko-005, R-ko-006, R-ko-007, R-ko-008, R-ko-009, R-ko-010, R-ko-011, R-ko-012, R-ko-013, R-ko-014, R-ko-015, R-ko-016, R-ko-017, R-ko-018, R-ko-019, R-ko-020, R-ko-021, R-ko-022
-- 한쪽 언어 쪽 차례 (145개): R-ko-023, R-ko-024, R-ko-025, R-ko-026, R-ko-027, R-ko-028, R-ko-029, R-ko-030, R-ko-031, R-ko-032, R-ko-033, R-ko-034, R-ko-035, R-ko-036, R-ko-037, R-ko-038, R-ko-039, R-ko-040, R-ko-041, R-ko-042, R-ko-043, R-ko-044, R-ko-045, R-ko-046, R-ko-047, R-ko-048, R-ko-049, R-ko-050, R-ko-051, R-ko-052, R-ko-053, R-ko-054, R-ko-055, R-ko-056, R-ko-057, R-ko-058, R-ko-059, R-ko-060, R-ko-061, R-ko-062, R-ko-063, R-ko-064, R-ko-065, R-ko-066, R-ko-067, R-ko-068, R-ko-069, R-ko-070, R-ko-071, R-ko-072, R-ko-073, R-ko-074, R-ko-075, R-ko-076, R-ko-077, R-ko-078, R-ko-079, R-ko-080, R-ko-081, R-ko-082, R-ko-083, R-ko-084, R-ko-085, R-ko-086, R-ko-087, R-ko-088, R-ko-089, R-ko-090, R-ko-091, R-ko-092, R-ko-093, R-ko-094, R-ko-095, R-ko-096, R-ko-097, R-ko-098, R-ko-099, R-ko-100, R-ko-101, R-ko-102, R-ko-103, R-ko-104, R-ko-105, R-ko-106, R-ko-107, R-ko-108, R-ko-109, R-ko-110, R-ko-111, R-ko-112, R-ko-113, R-ko-114, R-ko-115, R-ko-116, R-ko-117, R-ko-118, R-ko-119, R-ko-120, R-ko-121, R-ko-122, R-ko-123, R-ko-124, R-ko-125, R-ko-126, R-ko-127, R-ko-128, R-ko-129, R-ko-130, R-ko-131, R-ko-132, R-ko-133, R-ko-134, R-ko-135, R-ko-136, R-ko-137, R-ko-138, R-ko-139, R-ko-140, R-ko-141, R-ko-142, R-ko-143, R-ko-144, R-ko-145, R-ko-146, R-ko-147, R-ko-148, R-ko-149, R-ko-150, R-ko-151, R-ko-152, R-ko-153, R-ko-154, R-ko-155, R-ko-156, R-ko-157, R-ko-158, R-ko-159, R-ko-160, R-ko-161, R-ko-162, R-ko-163, R-ko-164, R-ko-165, R-ko-166, R-ko-167
-- 표 차례 (94개): R-ko-043, R-ko-079, R-ko-116, R-ko-095, R-ko-087, R-ko-011, R-ko-051, R-ko-048, R-ko-102, R-ko-015, R-ko-057, R-ko-036, R-ko-072, R-ko-121, R-ko-142, R-ko-128, R-ko-138, R-ko-091, R-ko-115, R-ko-024, R-ko-042, R-ko-114, R-ko-039, R-ko-075, R-ko-160, R-ko-049, R-ko-149, R-ko-155, R-ko-088, R-ko-157, R-ko-129, R-ko-108, R-ko-045, R-ko-125, R-ko-166, R-ko-086, R-ko-103, R-ko-136, R-ko-005, R-ko-067, R-ko-150, R-ko-152, R-ko-030, R-ko-029, R-ko-060, R-ko-132, R-ko-017, R-ko-151, R-ko-028, R-ko-071, R-ko-131, R-ko-064, R-ko-065, R-ko-113, R-ko-089, R-ko-010, R-ko-059, R-ko-038, R-ko-026, R-ko-099, R-ko-006, R-ko-046, R-ko-094, R-ko-080, R-ko-066, R-ko-139, R-ko-052, R-ko-083, R-ko-144, R-ko-110, R-ko-141, R-ko-147, R-ko-021, R-ko-093, R-ko-145, R-ko-056, R-ko-022, R-ko-073, R-ko-047, R-ko-077, R-ko-163, R-ko-124, R-ko-122, R-ko-106, R-ko-111, R-ko-063, R-ko-007, R-ko-018, R-ko-164, R-ko-023, R-ko-101, R-ko-053, R-ko-044, R-ko-033
-- 모델 시험 차례(결정 ⑥) (94개): R-ko-043, R-ko-079, R-ko-116, R-ko-095, R-ko-087, R-ko-011, R-ko-051, R-ko-048, R-ko-102, R-ko-015, R-ko-057, R-ko-036, R-ko-072, R-ko-121, R-ko-142, R-ko-128, R-ko-138, R-ko-091, R-ko-115, R-ko-024, R-ko-042, R-ko-114, R-ko-039, R-ko-075, R-ko-160, R-ko-049, R-ko-149, R-ko-155, R-ko-088, R-ko-157, R-ko-129, R-ko-108, R-ko-045, R-ko-125, R-ko-166, R-ko-086, R-ko-103, R-ko-136, R-ko-005, R-ko-067, R-ko-150, R-ko-152, R-ko-030, R-ko-029, R-ko-060, R-ko-132, R-ko-017, R-ko-151, R-ko-028, R-ko-071, R-ko-131, R-ko-064, R-ko-065, R-ko-113, R-ko-089, R-ko-010, R-ko-059, R-ko-038, R-ko-026, R-ko-099, R-ko-006, R-ko-046, R-ko-094, R-ko-080, R-ko-066, R-ko-139, R-ko-052, R-ko-083, R-ko-144, R-ko-110, R-ko-141, R-ko-147, R-ko-021, R-ko-093, R-ko-145, R-ko-056, R-ko-022, R-ko-073, R-ko-047, R-ko-077, R-ko-163, R-ko-124, R-ko-122, R-ko-106, R-ko-111, R-ko-063, R-ko-007, R-ko-018, R-ko-164, R-ko-023, R-ko-101, R-ko-053, R-ko-044, R-ko-033
+- 두 언어 쪽 차례 (17개): R-ko-001, R-ko-002, R-ko-003, R-ko-004, R-ko-005, R-ko-006, R-ko-007, R-ko-008, R-ko-009, R-ko-010, R-ko-011, R-ko-012, R-ko-013, R-ko-014, R-ko-015, R-ko-016, R-ko-017
+- 한쪽 언어 쪽 차례 (143개): R-ko-018, R-ko-019, R-ko-020, R-ko-021, R-ko-022, R-ko-023, R-ko-024, R-ko-025, R-ko-026, R-ko-027, R-ko-028, R-ko-029, R-ko-030, R-ko-031, R-ko-032, R-ko-033, R-ko-034, R-ko-035, R-ko-036, R-ko-037, R-ko-038, R-ko-039, R-ko-040, R-ko-041, R-ko-042, R-ko-043, R-ko-044, R-ko-045, R-ko-046, R-ko-047, R-ko-048, R-ko-049, R-ko-050, R-ko-051, R-ko-052, R-ko-053, R-ko-054, R-ko-055, R-ko-056, R-ko-057, R-ko-058, R-ko-059, R-ko-060, R-ko-061, R-ko-062, R-ko-063, R-ko-064, R-ko-065, R-ko-066, R-ko-067, R-ko-068, R-ko-069, R-ko-070, R-ko-071, R-ko-072, R-ko-073, R-ko-074, R-ko-075, R-ko-076, R-ko-077, R-ko-078, R-ko-079, R-ko-080, R-ko-081, R-ko-082, R-ko-083, R-ko-084, R-ko-085, R-ko-086, R-ko-087, R-ko-088, R-ko-089, R-ko-090, R-ko-091, R-ko-092, R-ko-093, R-ko-094, R-ko-095, R-ko-096, R-ko-097, R-ko-098, R-ko-099, R-ko-100, R-ko-101, R-ko-102, R-ko-103, R-ko-104, R-ko-105, R-ko-106, R-ko-107, R-ko-108, R-ko-109, R-ko-110, R-ko-111, R-ko-112, R-ko-113, R-ko-114, R-ko-115, R-ko-116, R-ko-117, R-ko-118, R-ko-119, R-ko-120, R-ko-121, R-ko-122, R-ko-123, R-ko-124, R-ko-125, R-ko-126, R-ko-127, R-ko-128, R-ko-129, R-ko-130, R-ko-131, R-ko-132, R-ko-133, R-ko-134, R-ko-135, R-ko-136, R-ko-137, R-ko-138, R-ko-139, R-ko-140, R-ko-141, R-ko-142, R-ko-143, R-ko-144, R-ko-145, R-ko-146, R-ko-147, R-ko-148, R-ko-149, R-ko-150, R-ko-151, R-ko-152, R-ko-153, R-ko-154, R-ko-155, R-ko-156, R-ko-157, R-ko-158, R-ko-159, R-ko-160
+- 표 차례 (94개): R-ko-038, R-ko-125, R-ko-110, R-ko-090, R-ko-082, R-ko-013, R-ko-046, R-ko-043, R-ko-097, R-ko-001, R-ko-052, R-ko-031, R-ko-067, R-ko-088, R-ko-054, R-ko-116, R-ko-131, R-ko-025, R-ko-109, R-ko-156, R-ko-108, R-ko-032, R-ko-034, R-ko-138, R-ko-153, R-ko-044, R-ko-142, R-ko-129, R-ko-068, R-ko-150, R-ko-122, R-ko-102, R-ko-040, R-ko-118, R-ko-159, R-ko-066, R-ko-098, R-ko-134, R-ko-011, R-ko-062, R-ko-076, R-ko-145, R-ko-148, R-ko-024, R-ko-055, R-ko-021, R-ko-012, R-ko-070, R-ko-023, R-ko-105, R-ko-124, R-ko-059, R-ko-060, R-ko-107, R-ko-084, R-ko-006, R-ko-135, R-ko-033, R-ko-074, R-ko-094, R-ko-007, R-ko-041, R-ko-089, R-ko-075, R-ko-114, R-ko-132, R-ko-061, R-ko-078, R-ko-137, R-ko-104, R-ko-037, R-ko-140, R-ko-009, R-ko-121, R-ko-144, R-ko-051, R-ko-004, R-ko-157, R-ko-042, R-ko-072, R-ko-019, R-ko-117, R-ko-115, R-ko-101, R-ko-047, R-ko-058, R-ko-014, R-ko-017, R-ko-083, R-ko-018, R-ko-096, R-ko-048, R-ko-081, R-ko-028
+- 모델 시험 차례(결정 ⑥) (94개): R-ko-038, R-ko-125, R-ko-110, R-ko-090, R-ko-082, R-ko-013, R-ko-046, R-ko-043, R-ko-097, R-ko-001, R-ko-052, R-ko-031, R-ko-067, R-ko-088, R-ko-054, R-ko-116, R-ko-131, R-ko-025, R-ko-109, R-ko-156, R-ko-108, R-ko-032, R-ko-034, R-ko-138, R-ko-153, R-ko-044, R-ko-142, R-ko-129, R-ko-068, R-ko-150, R-ko-122, R-ko-102, R-ko-040, R-ko-118, R-ko-159, R-ko-066, R-ko-098, R-ko-134, R-ko-011, R-ko-062, R-ko-076, R-ko-145, R-ko-148, R-ko-024, R-ko-055, R-ko-021, R-ko-012, R-ko-070, R-ko-023, R-ko-105, R-ko-124, R-ko-059, R-ko-060, R-ko-107, R-ko-084, R-ko-006, R-ko-135, R-ko-033, R-ko-074, R-ko-094, R-ko-007, R-ko-041, R-ko-089, R-ko-075, R-ko-114, R-ko-132, R-ko-061, R-ko-078, R-ko-137, R-ko-104, R-ko-037, R-ko-140, R-ko-009, R-ko-121, R-ko-144, R-ko-051, R-ko-004, R-ko-157, R-ko-042, R-ko-072, R-ko-019, R-ko-117, R-ko-115, R-ko-101, R-ko-047, R-ko-058, R-ko-014, R-ko-017, R-ko-083, R-ko-018, R-ko-096, R-ko-048, R-ko-081, R-ko-028
 
 ### rare_earth en
-- 두 언어 쪽 차례 (92개): R-en-001, R-en-002, R-en-003, R-en-004, R-en-005, R-en-006, R-en-007, R-en-008, R-en-009, R-en-010, R-en-011, R-en-012, R-en-013, R-en-014, R-en-015, R-en-016, R-en-017, R-en-018, R-en-019, R-en-020, R-en-021, R-en-022, R-en-023, R-en-024, R-en-025, R-en-026, R-en-027, R-en-028, R-en-029, R-en-030, R-en-031, R-en-032, R-en-033, R-en-034, R-en-035, R-en-036, R-en-037, R-en-038, R-en-039, R-en-040, R-en-041, R-en-042, R-en-043, R-en-044, R-en-045, R-en-046, R-en-047, R-en-048, R-en-049, R-en-050, R-en-051, R-en-052, R-en-053, R-en-054, R-en-055, R-en-056, R-en-057, R-en-058, R-en-059, R-en-060, R-en-061, R-en-062, R-en-063, R-en-064, R-en-065, R-en-066, R-en-067, R-en-068, R-en-069, R-en-070, R-en-071, R-en-072, R-en-073, R-en-074, R-en-075, R-en-076, R-en-077, R-en-078, R-en-079, R-en-080, R-en-081, R-en-082, R-en-083, R-en-084, R-en-085, R-en-086, R-en-087, R-en-088, R-en-089, R-en-090, R-en-091, R-en-092
-- 한쪽 언어 쪽 차례 (106개): R-en-093, R-en-094, R-en-095, R-en-096, R-en-097, R-en-098, R-en-099, R-en-100, R-en-101, R-en-102, R-en-103, R-en-104, R-en-105, R-en-106, R-en-107, R-en-108, R-en-109, R-en-110, R-en-111, R-en-112, R-en-113, R-en-114, R-en-115, R-en-116, R-en-117, R-en-118, R-en-119, R-en-120, R-en-121, R-en-122, R-en-123, R-en-124, R-en-125, R-en-126, R-en-127, R-en-128, R-en-129, R-en-130, R-en-131, R-en-132, R-en-133, R-en-134, R-en-135, R-en-136, R-en-137, R-en-138, R-en-139, R-en-140, R-en-141, R-en-142, R-en-143, R-en-144, R-en-145, R-en-146, R-en-147, R-en-148, R-en-149, R-en-150, R-en-151, R-en-152, R-en-153, R-en-154, R-en-155, R-en-156, R-en-157, R-en-158, R-en-159, R-en-160, R-en-161, R-en-162, R-en-163, R-en-164, R-en-165, R-en-166, R-en-167, R-en-168, R-en-169, R-en-170, R-en-171, R-en-172, R-en-173, R-en-174, R-en-175, R-en-176, R-en-177, R-en-178, R-en-179, R-en-180, R-en-181, R-en-182, R-en-183, R-en-184, R-en-185, R-en-186, R-en-187, R-en-188, R-en-189, R-en-190, R-en-191, R-en-192, R-en-193, R-en-194, R-en-195, R-en-196, R-en-197, R-en-198
-- 표 차례 (64개): R-en-078, R-en-044, R-en-075, R-en-018, R-en-066, R-en-070, R-en-037, R-en-030, R-en-010, R-en-056, R-en-063, R-en-067, R-en-099, R-en-086, R-en-103, R-en-059, R-en-142, R-en-022, R-en-051, R-en-009, R-en-042, R-en-082, R-en-026, R-en-029, R-en-038, R-en-047, R-en-015, R-en-065, R-en-069, R-en-091, R-en-049, R-en-062, R-en-050, R-en-006, R-en-001, R-en-016, R-en-013, R-en-033, R-en-005, R-en-039, R-en-024, R-en-085, R-en-072, R-en-008, R-en-104, R-en-060, R-en-123, R-en-106, R-en-140, R-en-002, R-en-045, R-en-054, R-en-090, R-en-034, R-en-043, R-en-071, R-en-011, R-en-083, R-en-089, R-en-058, R-en-094, R-en-088, R-en-093, R-en-061
-- 모델 시험 차례(결정 ⑥) (83개): R-en-163, R-en-075, R-en-045, R-en-140, R-en-071, R-en-097, R-en-103, R-en-094, R-en-172, R-en-010, R-en-123, R-en-083, R-en-051, R-en-089, R-en-065, R-en-029, R-en-042, R-en-133, R-en-099, R-en-026, R-en-016, R-en-022, R-en-018, R-en-034, R-en-058, R-en-069, R-en-110, R-en-134, R-en-024, R-en-145, R-en-038, R-en-088, R-en-193, R-en-056, R-en-009, R-en-093, R-en-142, R-en-015, R-en-085, R-en-054, R-en-166, R-en-005, R-en-192, R-en-037, R-en-001, R-en-086, R-en-044, R-en-030, R-en-182, R-en-179, R-en-114, R-en-078, R-en-072, R-en-090, R-en-062, R-en-008, R-en-050, R-en-006, R-en-039, R-en-060, R-en-013, R-en-033, R-en-096, R-en-049, R-en-047, R-en-067, R-en-063, R-en-108, R-en-127, R-en-198, R-en-128, R-en-002, R-en-043, R-en-059, R-en-082, R-en-011, R-en-066, R-en-104, R-en-106, R-en-091, R-en-070, R-en-061, R-en-131
+- 두 언어 쪽 차례 (90개): R-en-001, R-en-002, R-en-003, R-en-004, R-en-005, R-en-006, R-en-007, R-en-008, R-en-009, R-en-010, R-en-011, R-en-012, R-en-013, R-en-014, R-en-015, R-en-016, R-en-017, R-en-018, R-en-019, R-en-020, R-en-021, R-en-022, R-en-023, R-en-024, R-en-025, R-en-026, R-en-027, R-en-028, R-en-029, R-en-030, R-en-031, R-en-032, R-en-033, R-en-034, R-en-035, R-en-036, R-en-037, R-en-038, R-en-039, R-en-040, R-en-041, R-en-042, R-en-043, R-en-044, R-en-045, R-en-046, R-en-047, R-en-048, R-en-049, R-en-050, R-en-051, R-en-052, R-en-053, R-en-054, R-en-055, R-en-056, R-en-057, R-en-058, R-en-059, R-en-060, R-en-061, R-en-062, R-en-063, R-en-064, R-en-065, R-en-066, R-en-067, R-en-068, R-en-069, R-en-070, R-en-071, R-en-072, R-en-073, R-en-074, R-en-075, R-en-076, R-en-077, R-en-078, R-en-079, R-en-080, R-en-081, R-en-082, R-en-083, R-en-084, R-en-085, R-en-086, R-en-087, R-en-088, R-en-089, R-en-090
+- 한쪽 언어 쪽 차례 (108개): R-en-091, R-en-092, R-en-093, R-en-094, R-en-095, R-en-096, R-en-097, R-en-098, R-en-099, R-en-100, R-en-101, R-en-102, R-en-103, R-en-104, R-en-105, R-en-106, R-en-107, R-en-108, R-en-109, R-en-110, R-en-111, R-en-112, R-en-113, R-en-114, R-en-115, R-en-116, R-en-117, R-en-118, R-en-119, R-en-120, R-en-121, R-en-122, R-en-123, R-en-124, R-en-125, R-en-126, R-en-127, R-en-128, R-en-129, R-en-130, R-en-131, R-en-132, R-en-133, R-en-134, R-en-135, R-en-136, R-en-137, R-en-138, R-en-139, R-en-140, R-en-141, R-en-142, R-en-143, R-en-144, R-en-145, R-en-146, R-en-147, R-en-148, R-en-149, R-en-150, R-en-151, R-en-152, R-en-153, R-en-154, R-en-155, R-en-156, R-en-157, R-en-158, R-en-159, R-en-160, R-en-161, R-en-162, R-en-163, R-en-164, R-en-165, R-en-166, R-en-167, R-en-168, R-en-169, R-en-170, R-en-171, R-en-172, R-en-173, R-en-174, R-en-175, R-en-176, R-en-177, R-en-178, R-en-179, R-en-180, R-en-181, R-en-182, R-en-183, R-en-184, R-en-185, R-en-186, R-en-187, R-en-188, R-en-189, R-en-190, R-en-191, R-en-192, R-en-193, R-en-194, R-en-195, R-en-196, R-en-197, R-en-198
+- 표 차례 (63개): R-en-076, R-en-042, R-en-073, R-en-003, R-en-164, R-en-068, R-en-035, R-en-018, R-en-029, R-en-053, R-en-062, R-en-065, R-en-138, R-en-084, R-en-091, R-en-063, R-en-092, R-en-019, R-en-015, R-en-026, R-en-002, R-en-080, R-en-006, R-en-059, R-en-049, R-en-045, R-en-040, R-en-013, R-en-067, R-en-089, R-en-023, R-en-058, R-en-048, R-en-011, R-en-039, R-en-012, R-en-010, R-en-031, R-en-005, R-en-037, R-en-021, R-en-192, R-en-070, R-en-193, R-en-057, R-en-056, R-en-131, R-en-097, R-en-102, R-en-008, R-en-043, R-en-051, R-en-088, R-en-024, R-en-041, R-en-069, R-en-027, R-en-081, R-en-087, R-en-061, R-en-086, R-en-083, R-en-064
+- 모델 시험 차례(결정 ⑥) (81개): R-en-092, R-en-086, R-en-095, R-en-043, R-en-087, R-en-131, R-en-067, R-en-104, R-en-138, R-en-073, R-en-193, R-en-013, R-en-069, R-en-029, R-en-003, R-en-081, R-en-132, R-en-091, R-en-059, R-en-015, R-en-019, R-en-024, R-en-061, R-en-049, R-en-170, R-en-094, R-en-021, R-en-053, R-en-023, R-en-129, R-en-002, R-en-108, R-en-101, R-en-026, R-en-102, R-en-006, R-en-040, R-en-083, R-en-051, R-en-106, R-en-097, R-en-164, R-en-035, R-en-039, R-en-084, R-en-042, R-en-018, R-en-192, R-en-143, R-en-012, R-en-076, R-en-070, R-en-088, R-en-058, R-en-181, R-en-048, R-en-011, R-en-037, R-en-056, R-en-010, R-en-031, R-en-099, R-en-005, R-en-045, R-en-065, R-en-062, R-en-198, R-en-121, R-en-126, R-en-008, R-en-041, R-en-063, R-en-080, R-en-027, R-en-064, R-en-178, R-en-140, R-en-089, R-en-068, R-en-057, R-en-161
 
 ## 후보
 
@@ -2137,17 +2137,22 @@
 
 ### R-ko-001
 
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 3.5916e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 에너지, base 1.82648e-13, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [디스프로슘] (같은 주제의 반대 언어 문서: Dysprosium) raw `359.16 pm` (줄 30, 뒤):   - 격자 상수: a = 【359.16 pm】 c = 565.01 pm (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `1140(30) keV` (줄 58, 뒤): | ⁹⁶ᵐY | 【1140(30) keV】 | 1140(30) keV | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `1140(30) keV` (줄 58, 뒤): | ⁹⁶ᵐY | 1140(30) keV | 【1140(30) keV】 | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `1140(30) keV` (줄 58, 뒤): | ⁹⁶ᵐY | 1140(30) keV | 1140(30) keV | 【1140(30) keV】 | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1.89297e-13: [Isotopes of yttrium] raw `1181.50(18) keV` (줄 92, 두 언어 쪽): | ⁹⁸ᵐ⁶Y | 【1181.50(18) keV】 | 1181.50(18) keV | 1181.50(18) keV | 2017 | 762(14) ns | IT | ⁹⁸Y | (10−) |  |
+  - base 1.74253e-13: [Isotopes of yttrium] raw `1087.6(6) keV` (줄 72, 두 언어 쪽): | ⁹⁵ᵐY | 【1087.6(6) keV】 | 1087.6(6) keV | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
+  - base 1.9263e-13: [Isotopes of yttrium] raw `1202.3(10) keV` (줄 70, 두 언어 쪽): | ⁹⁴ᵐY | 【1202.3(10) keV】 | 1202.3(10) keV | 1202.3(10) keV | 1999 | 1.304(12) μs | IT | ⁹⁴Y | (5+) |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-002
 
 - 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 몰 에너지, base 247000, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `247 kJ/mol` (줄 21, 뒤):   - 기화열: 【247 kJ/mol】
+  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `247 kJ/mol` (줄 22, 뒤):   - 기화열: 【247 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
   - [Dysprosium] `247`:   - Poisson ratio: 0.【247】
@@ -2155,35 +2160,46 @@
 
 ### R-ko-003
 
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 2.22e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 압력, base 5.4e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `222 pm` (줄 28, 뒤):   - 원자 반지름: 175 pm (실험값) 【222 pm】 (계산값)
+  - [디스프로슘] (같은 주제의 반대 언어 문서: Dysprosium) raw `540 MPa` (줄 42, 뒤):   - 비커스 굳기: 【540 MPa】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2.07e-10: [Lanthanum] raw `207±8 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【207±8 pm】
-  - base 2.03e-10: [Praseodymium] raw `203±7 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【203±7 pm】
+  - base 5.5e+08: [Dysprosium] raw `550 MPa` (줄 46, 두 언어 쪽):   - Vickers hardness: 410–【550 MPa】
+  - base 5e+08: [Dysprosium] raw `500` (줄 47, 두 언어 쪽):   - Brinell hardness: 【500】–1050 MPa
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-004
 
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 압력, base 5.2e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 0.224, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `520 MPa` (줄 38, 뒤):   - 비커스 굳기: 【520 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 5e+08: [Dysprosium] raw `500` (줄 46, 두 언어 쪽):   - Brinell hardness: 【500】–1050 MPa
-  - base 5.5e+08: [Dysprosium] raw `550 MPa` (줄 45, 두 언어 쪽):   - Vickers hardness: 410–【550 MPa】
-  - base 4.7e+08: [Thulium] raw `470` (줄 44, 두 언어 쪽):   - Vickers hardness: 【470】–650 MPa
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `224(19) ms` (줄 85, 뒤): | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 【224(19) ms】 | β⁻ (91.7%) | ¹⁰³Zr | 5/2+# |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `224(19) ms` (줄 86, 뒤): | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 【224(19) ms】 | β⁻, n (8.3%) | ¹⁰²Zr | 5/2+# |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 0.239: [Isotopes of yttrium] raw `239(12) ms` (줄 108, 두 언어 쪽): | ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 【239(12) ms】 | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-005
 
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 8.6e-06, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 압력, base 5.2e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `8.6(8) µs` (줄 75, 뒤): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 【8.6(8) µs】 |  |  | (17/2+) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 8.2e-06: [Isotopes of yttrium] raw `8.2(4) μs` (줄 95, 두 언어 쪽): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 1985 | 【8.2(4) μs】 | IT | ⁹⁹Y | (17/2+) |  |
+  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `520 MPa` (줄 40, 뒤):   - 비커스 굳기: 【520 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 5e+08: [Dysprosium] raw `500` (줄 47, 두 언어 쪽):   - Brinell hardness: 【500】–1050 MPa
+  - base 5.5e+08: [Dysprosium] raw `550 MPa` (줄 46, 두 언어 쪽):   - Vickers hardness: 410–【550 MPa】
+  - base 4.7e+08: [Thulium] raw `470` (줄 45, 두 언어 쪽):   - Vickers hardness: 【470】–650 MPa
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-006
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 0.735, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `735(7) ms` (줄 76, 뒤): | ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 【735(7) ms】 | β⁻ (98.98%) | ¹⁰⁰Zr | 1-,2- |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `735(7) ms` (줄 77, 뒤): | ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 【735(7) ms】 | β⁻, n (1.02%) | ⁹⁹Zr | 1-,2- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 0.727: [Isotopes of yttrium] raw `727(6) ms` (줄 98, 두 언어 쪽): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 【727(6) ms】 | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-007
 
 - 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 7.6e-06, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2193,7 +2209,71 @@
   - base 6.9e-06: [Isotopes of yttrium] raw `6.90(54) μs` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 496.10(11) keV | 496.10(11) keV | 496.10(11) keV | 2017 | 【6.90(54) μs】 | IT | ⁹⁸Y | (4)− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-007
+### R-ko-008
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 몰 에너지, base 159000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이터븀] (같은 주제의 반대 언어 문서: Ytterbium) raw `159 kJ/mol` (줄 22, 뒤):   - 기화열: 【159 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 176000: [Europium] raw `176 kJ/mol` (줄 22, 한쪽 언어 쪽):   - Heat of vaporization: 【176 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-009
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 11484, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `3.19(6) h` (줄 47, 뒤): | ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 【3.19(6) h】 | IT (99.99%) | ⁹⁰Y | 7+ |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `3.19(6) h` (줄 48, 뒤): | ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 【3.19(6) h】 | β⁻ (.0018%) | ⁹⁰Zr | 7+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 11613.6: [Isotopes of yttrium] raw `3.226(11) h` (줄 60, 두 언어 쪽): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | IT | ⁹⁰Y | 7+ |  |
+  - base 12744: [Isotopes of yttrium] raw `3.54(1) h` (줄 65, 두 언어 쪽): | ⁹²Y | 39 | 53 | 91.9089458(98) | 1940 | 【3.54(1) h】 | β⁻ | ⁹²Zr | 2− |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-010
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 2.28e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [디스프로슘] (같은 주제의 반대 언어 문서: Dysprosium) raw `228 pm` (줄 29, 뒤):   - 원자 반지름: 175 pm (실험값) 【228 pm】 (계산값)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2.47e-10: [Praseodymium] raw `247 pm` (줄 63, 한쪽 언어 쪽): …Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usual…
+  - base 2.07e-10: [Lanthanum] raw `207±8 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【207±8 pm】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
+  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 【228】.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− …
+  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 228.5(1) keV | 【228】.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− |  |
+  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 【228】.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− |  |
+  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 【228】.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | β⁺ (19%) | ⁸⁰Sr | 1−…
+  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 228.5(1) keV | 【228】.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | β⁺ (19%) | ⁸⁰Sr | 1− |  |
+
+### R-ko-011
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 8.6e-06, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `8.6(8) µs` (줄 75, 뒤): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 【8.6(8) µs】 |  |  | (17/2+) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8.2e-06: [Isotopes of yttrium] raw `8.2(4) μs` (줄 95, 두 언어 쪽): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 1985 | 【8.2(4) μs】 | IT | ⁹⁹Y | (17/2+) |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-012
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 2.68e-07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `268(25) ns` (줄 23, 뒤): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 【268(25) ns】 |  |  | 4- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2.58e-07: [Isotopes of yttrium] raw `258(22) ns` (줄 35, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 1993 | 【258(22) ns】 | IT | ⁸²Y | 4− |  |
+  - base 2.92e-07: [Isotopes of yttrium] raw `292(10) ns` (줄 42, 두 언어 쪽): | ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 210.42(16) keV | 2005 | 【292(10) ns】 | IT | ⁸⁴Y | 4− |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-013
+
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 2, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `2.0(2) s` (줄 68, 뒤): | ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 【2.0(2) s】 | β⁻ (86.6%) | ⁹⁸Zr | (5+,4-) |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `2.0(2) s` (줄 69, 뒤): | ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 【2.0(2) s】 | IT (10%) | ⁹⁸Y | (5+,4-) |  |  |
+  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `2.0(2) s` (줄 70, 뒤): | ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 【2.0(2) s】 | β⁻, n (3.4%) | ⁹⁷Zr | (5+,4-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-014
 
 - 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 에너지, base 6.56892e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2213,108 +2293,26 @@
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
   - [Dysprosium] `410`:   - Vickers hardness: 【410】–550 MPa
 
-### R-ko-008
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 5.4846e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이터븀] (같은 주제의 반대 언어 문서: Ytterbium) raw `548.46 pm` (줄 31, 뒤):   - 격자 상수: a = 【548.46 pm】 (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-009
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 3.5053e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [루테튬] (같은 주제의 반대 언어 문서: Lutetium) raw `350.53 pm` (줄 29, 뒤):   - 격자 상수: a = 【350.53 pm】 c = 554.93 pm (20 °C에서)
-  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `353.77 pm` (줄 30, 뒤):   - 격자 상수: a = 【353.77 pm】 c = 555.39 pm (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-010
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 0.735, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `735(7) ms` (줄 76, 뒤): | ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 【735(7) ms】 | β⁻ (98.98%) | ¹⁰⁰Zr | 1-,2- |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `735(7) ms` (줄 77, 뒤): | ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 【735(7) ms】 | β⁻, n (1.02%) | ⁹⁹Zr | 1-,2- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 0.727: [Isotopes of yttrium] raw `727(6) ms` (줄 98, 두 언어 쪽): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 【727(6) ms】 | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-011
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 2, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `2.0(2) s` (줄 68, 뒤): | ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 【2.0(2) s】 | β⁻ (86.6%) | ⁹⁸Zr | (5+,4-) |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `2.0(2) s` (줄 69, 뒤): | ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 【2.0(2) s】 | IT (10%) | ⁹⁸Y | (5+,4-) |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `2.0(2) s` (줄 70, 뒤): | ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 【2.0(2) s】 | β⁻, n (3.4%) | ⁹⁷Zr | (5+,4-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-012
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 5.6501e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [디스프로슘] (같은 주제의 반대 언어 문서: Dysprosium) raw `565.01 pm` (줄 30, 뒤):   - 격자 상수: a = 359.16 pm c = 【565.01 pm】 (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-013
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 5.5493e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [루테튬] (같은 주제의 반대 언어 문서: Lutetium) raw `554.93 pm` (줄 29, 뒤):   - 격자 상수: a = 350.53 pm c = 【554.93 pm】 (20 °C에서)
-  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `555.39 pm` (줄 30, 뒤):   - 격자 상수: a = 353.77 pm c = 【555.39 pm】 (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-014
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 2.28e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [디스프로슘] (같은 주제의 반대 언어 문서: Dysprosium) raw `228 pm` (줄 28, 뒤):   - 원자 반지름: 175 pm (실험값) 【228 pm】 (계산값)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2.47e-10: [Praseodymium] raw `247 pm` (줄 62, 한쪽 언어 쪽): …Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usual…
-  - base 2.07e-10: [Lanthanum] raw `207±8 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【207±8 pm】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
-  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 【228】.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− …
-  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 228.5(1) keV | 【228】.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− |  |
-  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 【228】.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− |  |
-  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 【228】.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | β⁺ (19%) | ⁸⁰Sr | 1−…
-  - [Isotopes of yttrium] `228`: | ⁸⁰ᵐ¹Y | 228.5(1) keV | 【228】.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | β⁺ (19%) | ⁸⁰Sr | 1− |  |
-
 ### R-ko-015
 
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 에너지, base 1.82648e-13, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 길이, base 2.22e-10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `1140(30) keV` (줄 58, 뒤): | ⁹⁶ᵐY | 【1140(30) keV】 | 1140(30) keV | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `1140(30) keV` (줄 58, 뒤): | ⁹⁶ᵐY | 1140(30) keV | 【1140(30) keV】 | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `1140(30) keV` (줄 58, 뒤): | ⁹⁶ᵐY | 1140(30) keV | 1140(30) keV | 【1140(30) keV】 | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1.89297e-13: [Isotopes of yttrium] raw `1181.50(18) keV` (줄 92, 두 언어 쪽): | ⁹⁸ᵐ⁶Y | 【1181.50(18) keV】 | 1181.50(18) keV | 1181.50(18) keV | 2017 | 762(14) ns | IT | ⁹⁸Y | (10−) |  |
-  - base 1.74253e-13: [Isotopes of yttrium] raw `1087.6(6) keV` (줄 72, 두 언어 쪽): | ⁹⁵ᵐY | 【1087.6(6) keV】 | 1087.6(6) keV | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
-  - base 1.9263e-13: [Isotopes of yttrium] raw `1202.3(10) keV` (줄 70, 두 언어 쪽): | ⁹⁴ᵐY | 【1202.3(10) keV】 | 1202.3(10) keV | 1202.3(10) keV | 1999 | 1.304(12) μs | IT | ⁹⁴Y | (5+) |  |
+  - [툴륨] (같은 주제의 반대 언어 문서: Thulium) raw `222 pm` (줄 29, 뒤):   - 원자 반지름: 175 pm (실험값) 【222 pm】 (계산값)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2.07e-10: [Lanthanum] raw `207±8 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【207±8 pm】
+  - base 2.03e-10: [Praseodymium] raw `203±7 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【203±7 pm】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-016
 
 - 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 6879.6, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이터븀] (같은 주제의 반대 언어 문서: Ytterbium) raw `1.911 h` (줄 49, 뒤): …6 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵Lu ¹⁷⁶Yb 12.7% 안정 ¹⁷⁷Yb 인공 【1.911 h】 β⁻ 1.399 ¹⁷⁷Lu
+  - [이터븀] (같은 주제의 반대 언어 문서: Ytterbium) raw `1.911 h` (줄 51, 뒤): …6 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵Lu ¹⁷⁶Yb 12.7% 안정 ¹⁷⁷Yb 인공 【1.911 h】 β⁻ 1.399 ¹⁷⁷Lu
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 7200: [Ytterbium] raw `2 hours` (줄 100, 두 언어 쪽): …s. All of the remaining radioactive isotopes have half-lives that are less than 【2 hours】, with the majority of them being less than 20 minutes. This element also has 18…
+  - base 7200: [Ytterbium] raw `2 hours` (줄 101, 두 언어 쪽): …s. All of the remaining radioactive isotopes have half-lives that are less than 【2 hours】, with the majority of them being less than 20 minutes. This element also has 18…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-017
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 2.68e-07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `268(25) ns` (줄 23, 뒤): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 【268(25) ns】 |  |  | 4- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2.58e-07: [Isotopes of yttrium] raw `258(22) ns` (줄 35, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 1993 | 【258(22) ns】 | IT | ⁸²Y | 4− |  |
-  - base 2.92e-07: [Isotopes of yttrium] raw `292(10) ns` (줄 42, 두 언어 쪽): | ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 210.42(16) keV | 2005 | 【292(10) ns】 | IT | ⁸⁴Y | 4− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-018
 
 - 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 8.3e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2324,47 +2322,7 @@
   - base 7.62e-07: [Isotopes of yttrium] raw `762(14) ns` (줄 92, 두 언어 쪽): | ⁹⁸ᵐ⁶Y | 1181.50(18) keV | 1181.50(18) keV | 1181.50(18) keV | 2017 | 【762(14) ns】 | IT | ⁹⁸Y | (10−) |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-019
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 몰 에너지, base 159000, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이터븀] (같은 주제의 반대 언어 문서: Ytterbium) raw `159 kJ/mol` (줄 21, 뒤):   - 기화열: 【159 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 176000: [Europium] raw `176 kJ/mol` (줄 22, 한쪽 언어 쪽):   - Heat of vaporization: 【176 kJ/mol】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-020
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 압력, base 5.4e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [디스프로슘] (같은 주제의 반대 언어 문서: Dysprosium) raw `540 MPa` (줄 40, 뒤):   - 비커스 굳기: 【540 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 5.5e+08: [Dysprosium] raw `550 MPa` (줄 45, 두 언어 쪽):   - Vickers hardness: 410–【550 MPa】
-  - base 5e+08: [Dysprosium] raw `500` (줄 46, 두 언어 쪽):   - Brinell hardness: 【500】–1050 MPa
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-021
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 11484, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `3.19(6) h` (줄 47, 뒤): | ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 【3.19(6) h】 | IT (99.99%) | ⁹⁰Y | 7+ |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `3.19(6) h` (줄 48, 뒤): | ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 【3.19(6) h】 | β⁻ (.0018%) | ⁹⁰Zr | 7+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 11613.6: [Isotopes of yttrium] raw `3.226(11) h` (줄 60, 두 언어 쪽): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | IT | ⁹⁰Y | 7+ |  |
-  - base 12744: [Isotopes of yttrium] raw `3.54(1) h` (줄 65, 두 언어 쪽): | ⁹²Y | 39 | 53 | 91.9089458(98) | 1940 | 【3.54(1) h】 | β⁻ | ⁹²Zr | 2− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-022
-
-- 분야 rare_earth, 언어 ko, 쪽 두 언어 쪽, dim 시간, base 0.224, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `224(19) ms` (줄 85, 뒤): | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 【224(19) ms】 | β⁻ (91.7%) | ¹⁰³Zr | 5/2+# |  |  |
-  - [이트륨 동위 원소] (같은 주제의 반대 언어 문서: Isotopes of yttrium) raw `224(19) ms` (줄 86, 뒤): | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 【224(19) ms】 | β⁻, n (8.3%) | ¹⁰²Zr | 5/2+# |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 0.239: [Isotopes of yttrium] raw `239(12) ms` (줄 108, 두 언어 쪽): | ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 【239(12) ms】 | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-023
+### R-ko-018
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.10701e-15, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2374,56 +2332,61 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-024
+### R-ko-019
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1170, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 6.24672e+06, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `19.5(3) min` (줄 88, 뒤): | ¹⁶³Tb | 65 | 98 | 162.930648(5) | 【19.5(3) min】 | β⁻ | ¹⁶³Dy | 3/2+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1200: [Ytterbium] raw `20 minutes` (줄 100, 두 언어 쪽): …alf-lives that are less than 2 hours, with the majority of them being less than 【20 minutes】. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-…
-  - base 1122: [Isotopes of yttrium] raw `18.7(1) min` (줄 69, 두 언어 쪽): | ⁹⁴Y | 39 | 55 | 93.9115921(68) | 1948 | 【18.7(1) min】 | β⁻ | ⁹⁴Zr | 2− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-025
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 2.56e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이트륨] raw `25.6 GPa` (줄 36, 뒤):   - 전단 탄성 계수: 【25.6 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 2.47e+10: [Dysprosium] raw `24.7 GPa` (줄 41, 두 언어 쪽):   - Shear modulus: 【24.7 GPa】
-  - base 2.72e+10: [Lutetium] raw `27.2 GPa` (줄 40, 두 언어 쪽):   - Shear modulus: 【27.2 GPa】
-  - base 2.39e+10: [Ytterbium] raw `23.9 GPa` (줄 40, 두 언어 쪽):   - Young's modulus: β form: 【23.9 GPa】
-  - base 2.79e+10: [Lanthanum] raw `27.9 GPa` (줄 42, 한쪽 언어 쪽):   - Bulk modulus: α form: 【27.9 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-026
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.00118, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `1.18(2) ms` (줄 40, 뒤): | ¹⁴⁶ᵐ²Tb | 930(100)# keV | 930(100)# keV | 930(100)# keV | 【1.18(2) ms】 |  |  | (10+) |  |  |
+  - [터븀 동위 원소] raw `72.3(2) d` (줄 85, 뒤): | ¹⁶⁰Tb | 65 | 95 | 159.9271676(27) | 【72.3(2) d】 | β⁻ | ¹⁶⁰Dy | 3- |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-027
+### R-ko-020
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 4.12e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이트륨] raw `41.2 GPa` (줄 39, 뒤):   - 부피 탄성 계수: 【41.2 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 4.05e+10: [Dysprosium] raw `40.5 GPa` (줄 43, 두 언어 쪽):   - Bulk modulus: 【40.5 GPa】
+  - base 4.45e+10: [Thulium] raw `44.5 GPa` (줄 43, 두 언어 쪽):   - Bulk modulus: 【44.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-021
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.28486e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `517.1(5) keV` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 【517.1(5) keV】 | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |
+  - [터븀 동위 원소] raw `517.1(5) keV` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 【517.1(5) keV】 | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |
+  - [터븀 동위 원소] raw `517.1(5) keV` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 【517.1(5) keV】 | 670(60) ns |  |  | (9+) |  |  |
+  - [네오디뮴 동위 원소] raw `519.43(17) keV` (줄 35, 뒤): | ¹³⁷ᵐNd | 【519.43(17) keV】 | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |
+  - [네오디뮴 동위 원소] raw `519.43(17) keV` (줄 35, 뒤): | ¹³⁷ᵐNd | 519.43(17) keV | 【519.43(17) keV】 | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |
+  - [네오디뮴 동위 원소] raw `519.43(17) keV` (줄 35, 뒤): | ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 【519.43(17) keV】 | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
+  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
+  - base 8.90137e-14: [Isotopes of yttrium] raw `555.58(5) keV` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | IT | ⁹¹Y | 9/2+ |  |
+  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-022
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3.34511e+18, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `1.06×10¹¹y` (줄 48, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 【1.06×10¹¹y】 α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.75% 안정 ¹⁵⁴Sm 22.75% 안정
-  - [사마륨] raw `1.06×10¹¹년` (줄 73, 뒤): … 동위 원소(¹⁴⁴Sm, ¹⁵⁰Sm, ¹⁵²Sm, ¹⁵⁴Sm)와 세 개의 방사성 동위 원소(¹⁴⁷Sm, ¹⁴⁸Sm, ¹⁴⁹Sm)가 존재하며, 이 중 가장 많이 존재하는 것은 ¹⁵²Sm이다. 방사성 동위 원소 세 가지는 모두 반감기가 매우 긴 편이며(¹⁴⁷Sm은 반감기 【1.06×10¹¹년】, ¹⁴⁸Sm은 반감기 7×10¹⁵년)이며, 이들 중 ¹⁴⁹Sm은 자료에 따라 반감기 2×10¹⁵년 이상인 방사성 동위 원소로 분류되기도 하고 안정한 동위 원소로 분류되기도 한다.
+  - [사마륨] raw `1.06×10¹¹y` (줄 50, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 【1.06×10¹¹y】 α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.75% 안정 ¹⁵⁴Sm 22.75% 안정
+  - [사마륨] raw `1.06×10¹¹년` (줄 75, 뒤): … 동위 원소(¹⁴⁴Sm, ¹⁵⁰Sm, ¹⁵²Sm, ¹⁵⁴Sm)와 세 개의 방사성 동위 원소(¹⁴⁷Sm, ¹⁴⁸Sm, ¹⁴⁹Sm)가 존재하며, 이 중 가장 많이 존재하는 것은 ¹⁵²Sm이다. 방사성 동위 원소 세 가지는 모두 반감기가 매우 긴 편이며(¹⁴⁷Sm은 반감기 【1.06×10¹¹년】, ¹⁴⁸Sm은 반감기 7×10¹⁵년)이며, 이들 중 ¹⁴⁹Sm은 자료에 따라 반감기 2×10¹⁵년 이상인 방사성 동위 원소로 분류되기도 하고 안정한 동위 원소로 분류되기도 한다.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 3.25043e+18: [Lanthanum] raw `1.03×10¹¹ y` (줄 53, 한쪽 언어 쪽): … half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 【1.03×10¹¹ y】 β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
+  - base 3.25043e+18: [Lanthanum] raw `1.03×10¹¹ y` (줄 54, 한쪽 언어 쪽): … half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 【1.03×10¹¹ y】 β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-028
+### R-ko-023
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 6220.8, 표 안 예, 시험 대상 밖 예
 - 언급:
   - [네오디뮴 동위 원소] raw `1.728(1) h` (줄 54, 뒤): | ¹⁴⁹Nd | 60 | 89 | 148.920149(3) | 【1.728(1) h】 | β⁻ | ¹⁴⁸Pm | 5/2- |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 5760: [Europium] raw `96 minutes` (줄 163, 한쪽 언어 쪽): … of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 【96 minutes】. Most neutron-deficient europium isotopes decay towards isotopes of samarium by…
+  - base 5760: [Europium] raw `96 minutes` (줄 164, 한쪽 언어 쪽): … of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 【96 minutes】. Most neutron-deficient europium isotopes decay towards isotopes of samarium by…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-029
+### R-ko-024
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 19080, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2432,39 +2395,36 @@
   - base 17496: [Isotopes of yttrium] raw `4.86(20) h` (줄 44, 두 언어 쪽): | ⁸⁵ᵐ¹Y | 19.68(17) keV | 19.68(17) keV | 19.68(17) keV | 1963 | 【4.86(20) h】 | β⁺ | ⁸⁵Sr | (9/2)+ |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-030
+### R-ko-025
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 132, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 87840, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `2.20(5) min` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 【2.20(5) min】 | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [터븀 동위 원소] raw `24.4(10) h` (줄 75, 뒤): | ¹⁵⁶ᵐ¹Tb | 54(3) keV | 54(3) keV | 54(3) keV | 【24.4(10) h】 | IT | ¹⁵⁶Tb | (7-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 86400: [Neutron capture therapy of cancer] raw `24-hour` (줄 182, 한쪽 언어 쪽): …mmobilization and to increase the number of patients that could be treated in a 【24-hour】 period. Increasing the neutron beam intensity for the same proton current by ad…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-031
+### R-ko-026
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 8860, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `8.86 g/cm³` (줄 19, 뒤):   - 액체(녹는점)일 때: 【8.86 g/cm³】
+  - [어븀] raw `8.86 g/cm³` (줄 20, 뒤):   - 액체(녹는점)일 때: 【8.86 g/cm³】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
   - base 8550: [Dysprosium] raw `8.550 g/cm³` (줄 19, 두 언어 쪽):   - Density (at 20° C): 【8.550 g/cm³】
   - base 9300: [Lutetium] raw `9.3 g/cm³` (줄 20, 두 언어 쪽):   - when liquid (at m.p.): 【9.3 g/cm³】
   - base 8370: [Dysprosium] raw `8.37 g/cm³` (줄 20, 두 언어 쪽):   - when liquid (at m.p.): 【8.37 g/cm³】
-  - base 9810: [Lutetium] raw `9.81 g/cm³` (줄 116, 두 언어 쪽): Lutetium tantalate (LuTaO4) is the densest known stable white material (density 【9.81 g/cm³】) and therefore is an ideal host for X-ray phosphors. The only denser white mate…
+  - base 9810: [Lutetium] raw `9.81 g/cm³` (줄 117, 두 언어 쪽): Lutetium tantalate (LuTaO4) is the densest known stable white material (density 【9.81 g/cm³】) and therefore is an ideal host for X-ray phosphors. The only denser white mate…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-032
+### R-ko-027
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 5.89e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 102888, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `589 MPa` (줄 39, 뒤):   - 비커스 굳기: 【589 MPa】
-  - [이트륨] raw `589 MPa` (줄 40, 뒤):   - 브리넬 굳기: 【589 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 5.5e+08: [Dysprosium] raw `550 MPa` (줄 45, 두 언어 쪽):   - Vickers hardness: 410–【550 MPa】
-  - base 6.4e+08: [Praseodymium] raw `640 MPa` (줄 46, 한쪽 언어 쪽):   - Brinell hardness: 250–【640 MPa】
-  - base 6.5e+08: [Thulium] raw `650 MPa` (줄 44, 두 언어 쪽):   - Vickers hardness: 470–【650 MPa】
+  - [어븀] raw `28.58 h` (줄 49, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 【28.58 h】 ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹T…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-033
+### R-ko-028
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 2.61435e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2473,27 +2433,29 @@
   - [터븀 동위 원소] raw `163.175(5) keV` (줄 64, 뒤): | ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 【163.175(5) keV】 | 186(4) µs |  |  | 11/2- |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
   - base 2.7362e-14: [Isotopes of yttrium] raw `170.78(5) keV` (줄 85, 두 언어 쪽): | ⁹⁸ᵐ¹Y | 【170.78(5) keV】 | 170.78(5) keV | 170.78(5) keV | 2017 | 615(8) ns | IT | ⁹⁸Y | 2− |  |
-  - base 2.36962e-14: [Europium] raw `147.9 keV` (줄 163, 한쪽 언어 쪽): …ours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 【147.9 keV】 has a half-life of about 96 minutes. Most neutron-deficient europium isotopes d…
+  - base 2.36962e-14: [Europium] raw `147.9 keV` (줄 164, 한쪽 언어 쪽): …ours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 【147.9 keV】 has a half-life of about 96 minutes. Most neutron-deficient europium isotopes d…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-034
+### R-ko-029
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 1.95e+10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `19.5 GPa` (줄 36, 뒤):   - 전단 탄성 계수: (α form) 【19.5 GPa】
+  - [사마륨] raw `19.5 GPa` (줄 38, 뒤):   - 전단 탄성 계수: (α form) 【19.5 GPa】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.82e+10: [Europium] raw `18.2 GPa` (줄 40, 한쪽 언어 쪽):   - Young's modulus: 【18.2 GPa】
+  - base 1.82e+10: [Europium] raw `18.2 GPa` (줄 41, 한쪽 언어 쪽):   - Young's modulus: 【18.2 GPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-035
+### R-ko-030
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 5.7317e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열전도율, base 17.2, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `573.17 pm` (줄 30, 뒤):   - 격자 상수: a = 364.83 pm c = 【573.17 pm】 (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [이트륨] raw `17.2 W/(m·K)` (줄 34, 뒤):   - 열전도율: 【17.2 W/(m·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 16.9: [Thulium] raw `16.9 W/(m⋅K)` (줄 37, 두 언어 쪽):   - Thermal conductivity: 【16.9 W/(m⋅K)】
+  - base 16.4: [Lutetium] raw `16.4 W/(m⋅K)` (줄 37, 두 언어 쪽):   - Thermal conductivity: 【16.4 W/(m⋅K)】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-036
+### R-ko-031
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 2.16134e-13, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2503,18 +2465,19 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-037
+### R-ko-032
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 비저항, base 5.96e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.44356e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [이트륨] raw `596 n Ω·m` (줄 33, 뒤):   - 전기 저항도: (실온) (α, poly) 【596 n Ω·m】
+  - [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 【90.1(3) keV】 | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
+  - [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 【90.1(3) keV】 | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
+  - [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 【90.1(3) keV】 | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 5.82e-07: [Lutetium] raw `582 nΩ⋅m` (줄 37, 두 언어 쪽):   - Electrical resistivity: poly: 【582 nΩ⋅m】 (at r.t.)
-  - base 6.15e-07: [Lanthanum] raw `615 nΩ⋅m` (줄 37, 한쪽 언어 쪽):   - Electrical resistivity: α, poly: 【615 nΩ⋅m】 (at r.t.)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [Thulium] `596`:   - Ionization energies: 1st: 【596】.7 kJ/mol, 2nd: 1160 kJ/mol, 3rd: 2285 kJ/mol
+  - base 1.34988e-14: [Thulium] raw `84.253 keV` (줄 132, 두 언어 쪽): … major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 【84.253 keV】). These radioactive sources have a useful life of about one year, as tools in m…
+  - base 1.60218e-14: [Neutron capture therapy of cancer] raw `100keV` (줄 182, 한쪽 언어 쪽): …t area. Since the nuclear reactions yield neutrons with energies ranging from < 【100keV】 to tens of MeV, a beam-shaping assembly (BSA) must be used to moderate, filter,…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-038
+### R-ko-033
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 9.6e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2523,7 +2486,7 @@
   - base 8.7e-07: [Isotopes of yttrium] raw `870(90) ns` (줄 102, 두 언어 쪽): | ¹⁰¹ᵐY | 1205.0(10) keV | 1205.0(10) keV | 1205.0(10) keV | 2009 | 【870(90) ns】 | IT | ¹⁰¹Y | 13/2−# |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-039
+### R-ko-034
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 25.9, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2531,36 +2494,36 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-040
+### R-ko-035
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열팽창, base 1.22e-05, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 비저항, base 8.6e-07, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `12.2 µm/(m·K)` (줄 31, 뒤):   - 열팽창: (실온) (poly) 【12.2 µm/(m·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.33e-05: [Thulium] raw `13.3 µm/(m⋅K)` (줄 35, 두 언어 쪽):   - Thermal expansion: poly: 【13.3 µm/(m⋅K)】 (at r.t.)
+  - [어븀] raw `0.860 μ Ω·m` (줄 35, 뒤):   - 전기 저항도: (실온) (poly) 【0.860 μ Ω·m】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 9e-07: [Europium] raw `0.900 µΩ⋅m` (줄 38, 한쪽 언어 쪽):   - Electrical resistivity: poly: 【0.900 µΩ⋅m】 (at r.t.)
+  - base 9.26e-07: [Dysprosium] raw `926 nΩ⋅m` (줄 38, 두 언어 쪽):   - Electrical resistivity: α, poly: 【926 nΩ⋅m】 (r.t.)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-041
+### R-ko-036
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 11420, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 5.7317e-10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `11.42 kJ/mol` (줄 20, 뒤):   - 융해열: 【11.42 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 11060: [Dysprosium] raw `11.06 kJ/mol` (줄 21, 두 언어 쪽):   - Heat of fusion: 【11.06 kJ/mol】
+  - [이트륨] raw `573.17 pm` (줄 32, 뒤):   - 격자 상수: a = 364.83 pm c = 【573.17 pm】 (20 °C에서)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 5.6501e-10: [Dysprosium] raw `565.01 pm` (줄 35, 두 언어 쪽):   - Lattice constants: a = 359.16 pm c = 【565.01 pm】 (at 20 °C)
+  - base 5.5493e-10: [Lutetium] raw `554.93 pm` (줄 35, 두 언어 쪽):   - Lattice constants: a = 350.53 pm c = 【554.93 pm】 (at 20 °C)
+  - base 5.4846e-10: [Ytterbium] raw `548.46 pm` (줄 35, 두 언어 쪽):   - Lattice constants: a = 【548.46 pm】 (at 20 °C)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-042
+### R-ko-037
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.38085e-12, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 24.1, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 뒤): | ¹⁴⁸ᵐ²Tb | 【8618.6(10) keV】 | 8618.6(10) keV | 8618.6(10) keV | 1.310(7) µs |  |  | (27+) |  |  |
-  - [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 뒤): | ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 【8618.6(10) keV】 | 8618.6(10) keV | 1.310(7) µs |  |  | (27+) |  |  |
-  - [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 뒤): | ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 8618.6(10) keV | 【8618.6(10) keV】 | 1.310(7) µs |  |  | (27+) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.27213e-12: [Neutron capture therapy of cancer] raw `7.94 MeV` (줄 75, 한쪽 언어 쪽): …¹⁵⁷Gd(n,γ)¹⁵⁸Gd capture reaction (¹⁵⁷Gd + nth (0.025eV) → [¹⁵⁸Gd] → ¹⁵⁸Gd + γ + 【7.94 MeV】). Though the gamma rays have longer pathlengths, orders of magnitude greater de…
+  - [터븀 동위 원소] raw `24.1(5) s` (줄 39, 뒤): | ¹⁴⁶ᵐ¹Tb | 150(100)# keV | 150(100)# keV | 150(100)# keV | 【24.1(5) s】 | β⁺ | ¹⁴⁶Gd | 5- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-043
+### R-ko-038
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 9.95593e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2574,18 +2537,15 @@
   - base 1.0927e-13: [Isotopes of yttrium] raw `682.01(5) keV` (줄 60, 두 언어 쪽): | ⁹⁰ᵐY | 【682.01(5) keV】 | 682.01(5) keV | 682.01(5) keV | 1961 | 3.226(11) h | IT | ⁹⁰Y | 7+ |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-044
+### R-ko-039
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 596160, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 속도, base 3300, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [터븀 동위 원소] raw `6.9일` (줄 2, 뒤): 자연계에 존재하는 터븀 혹은 테르븀의 동위 원소는 1종으로 ¹⁵⁹Tb이 100% 존재한다. 우라늄과 토륨의 자발 핵분열로 생성되는 생성되는 ¹⁶¹Tb은 반감기가 【6.9일】로 자연계에 미량 존재한다.
-  - [터븀 동위 원소] raw `6.906(19) d` (줄 86, 뒤): | ¹⁶¹Tb | 65 | 96 | 160.9275699(28) | 【6.906(19) d】 | β⁻ | ¹⁶¹Dy | 3/2+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 604800: [Lutetium] raw `7 days` (줄 126, 두 언어 쪽): …¹⁷⁷Lu emits low-energy beta particles and gamma rays and has a half-life around 【7 days】, positive characteristics for commercial applications, especially in therapeuti…
-  - base 574068: [Lutetium] raw `6.6443 d` (줄 52, 두 언어 쪽): …⁷⁴Yb ¹⁷⁵Lu 97.4009999999% stable ¹⁷⁶Lu 2.599% 3.701×10¹⁰ y β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 【6.6443 d】 β⁻ ¹⁷⁷Hf
+  - [이트륨] raw `3300 m/s` (줄 40, 뒤):   - 음속 (얇은 막대): 【3300 m/s】 (20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-045
+### R-ko-040
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 126.6, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2593,7 +2553,7 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-046
+### R-ko-041
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 5.08675e-13, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2605,7 +2565,7 @@
   - base 5.64383e-13: [Isotopes of yttrium] raw `3522.6(4) keV` (줄 81, 두 언어 쪽): | ⁹⁷ᵐ²Y | 【3522.6(4) keV】 | 3522.6(4) keV | 3522.6(4) keV | 1986 | 142(8) ms | IT (94.8%) | ⁹⁷Y | (27/2−)…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-047
+### R-ko-042
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 6.22237e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2616,10 +2576,10 @@
   - base 6.29431e-14: [Isotopes of yttrium] raw `392.86(9) keV` (줄 55, 두 언어 쪽): | ⁸⁸ᵐ¹Y | 【392.86(9) keV】 | 392.86(9) keV | 392.86(9) keV | 1955 | 301(3) μs | IT | ⁸⁸Y | 1+ |  |
   - base 6.10141e-14: [Isotopes of yttrium] raw `380.82(7) keV` (줄 52, 두 언어 쪽): | ⁸⁷ᵐY | 【380.82(7) keV】 | 380.82(7) keV | 380.82(7) keV | 1940 | 13.37(3) h | IT (98.43%) | ⁸⁷Y | 9/2+ …
   - base 6.45084e-14: [Isotopes of yttrium] raw `402.63(14) keV` (줄 35, 두 언어 쪽): | ⁸²ᵐ¹Y | 【402.63(14) keV】 | 402.63(14) keV | 402.63(14) keV | 1993 | 258(22) ns | IT | ⁸²Y | 4− |  |
-  - base 5.60762e-14: [Ytterbium] raw `350 keV` (줄 154, 두 언어 쪽): …e roughly equivalent to those taken with X-rays having energies between 250 and 【350 keV】. ¹⁶⁹Yb is also used in nuclear medicine.
+  - base 5.60762e-14: [Ytterbium] raw `350 keV` (줄 155, 두 언어 쪽): …e roughly equivalent to those taken with X-rays having energies between 250 and 【350 keV】. ¹⁶⁹Yb is also used in nuclear medicine.
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-048
+### R-ko-043
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 5.13e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2627,7 +2587,7 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-049
+### R-ko-044
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.0006, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2638,15 +2598,15 @@
   - [Europium] `600`: …ide, EuN, can be prepared by direct reaction of the metal with ammonia at about 【600】 °C and crystallizes in the cubic rock-salt structure. Europium phosphide, EuP, …
   - [Europium] `600`: … hexagonal rhabdophane structure; after dehydration at temperatures above about 【600】 °C it transforms to monoclinic anhydrous EuPO4, which is isostructural with mon…
 
-### R-ko-050
+### R-ko-045
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 166680, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `46.3시간` (줄 101, 뒤): - 방사성 동위 원소인 사마륨-153은 반감기 【46.3시간】을 거쳐 베타 붕괴하므로 화합물의 형태로 만들어져 각종 암의 치료제로 쓰이기도 한다.
+  - [사마륨] raw `46.3시간` (줄 103, 뒤): - 방사성 동위 원소인 사마륨-153은 반감기 【46.3시간】을 거쳐 베타 붕괴하므로 화합물의 형태로 만들어져 각종 암의 치료제로 쓰이기도 한다.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-051
+### R-ko-046
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 3.70343e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2659,21 +2619,20 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
   - base 3.66097e-14: [Isotopes of yttrium] raw `228.5(1) keV` (줄 30, 두 언어 쪽): | ⁸⁰ᵐ¹Y | 【228.5(1) keV】 | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− |  |
   - base 3.49611e-14: [Isotopes of yttrium] raw `218.21(9) keV` (줄 48, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 【218.21(9) keV】 | 218.21(9) keV | 218.21(9) keV | 1961 | 47.4(4) min | IT (99.31%) | ⁸⁶Y | (8+)…
-  - base 4.00544e-14: [Ytterbium] raw `250` (줄 154, 두 언어 쪽): …ource are roughly equivalent to those taken with X-rays having energies between 【250】 and 350 keV. ¹⁶⁹Yb is also used in nuclear medicine.
+  - base 4.00544e-14: [Ytterbium] raw `250` (줄 155, 두 언어 쪽): …ource are roughly equivalent to those taken with X-rays having energies between 【250】 and 350 keV. ¹⁶⁹Yb is also used in nuclear medicine.
   - base 3.3713e-14: [Isotopes of yttrium] raw `210.42(16) keV` (줄 42, 두 언어 쪽): | ⁸⁴ᵐ²Y | 【210.42(16) keV】 | 210.42(16) keV | 210.42(16) keV | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-052
+### R-ko-047
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 2.4, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3.5, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `2.4(2) s` (줄 17, 뒤): | ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 【2.4(2) s】 | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |  |
-  - [터븀 동위 원소] raw `2.4(2) s` (줄 18, 뒤): | ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 【2.4(2) s】 | β⁺, p (0.26%) | ¹³⁹Eu | 5 |  |  |
+  - [터븀 동위 원소] raw `3.5(2) s` (줄 19, 뒤): | ¹⁴¹Tb | 65 | 76 | 140.94145(11) | 【3.5(2) s】 | β⁺ | ¹⁴¹Gd | (5/2-) |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2.32: [Isotopes of yttrium] raw `2.32(8) s` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ |  |
+  - base 3.75: [Isotopes of yttrium] raw `3.75(3) s` (줄 76, 두 언어 쪽): | ⁹⁷Y | 39 | 58 | 96.9182867(72) | 1970 | 【3.75(3) s】 | β⁻ (99.945%) | ⁹⁷Zr | 1/2− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-053
+### R-ko-048
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 19800, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2683,30 +2642,24 @@
   - base 21600: [Neutron capture therapy of cancer] raw `6 hours` (줄 158, 한쪽 언어 쪽): …unt of BPA administered was increased (900 mg/kg), and it was infused i.v. over 【6 hours】. This was based on experimental animal studies in glioma-bearing rats demonstra…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-054
+### R-ko-049
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 3609, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 4240, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `3609 K` (줄 17, 뒤):   - 끓는점: 【3609 K】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 3675: [Lutetium] raw `3675 K` (줄 18, 두 언어 쪽):   - Boiling point: 【3675 K】 ​(3402 °C, ​6156 °F)
-  - base 3737: [Lanthanum] raw `3737 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【3737 K】 ​(3464 °C, ​6267 °F)
-  - base 3403: [Praseodymium] raw `3403 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【3403 K】 ​(3130 °C, ​5666 °F)
+  - [이트륨] raw `4.24 g/cm³` (줄 20, 뒤):   - 액체(녹는점)일 때: 【4.24 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-055
+### R-ko-050
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 8.14e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 37296, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `814 MPa` (줄 40, 뒤):   - 브리넬 굳기: 【814 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 7.55e+08: [Lutetium] raw `755` (줄 43, 두 언어 쪽):   - Vickers hardness: 【755】–1160 MPa
-  - base 7.45e+08: [Praseodymium] raw `745 MPa` (줄 45, 한쪽 언어 쪽):   - Vickers hardness: 250–【745 MPa】
-  - base 8.9e+08: [Lutetium] raw `890` (줄 44, 두 언어 쪽):   - Brinell hardness: 【890】–1300 MPa
-  - base 9e+08: [Thulium] raw `900 MPa` (줄 45, 두 언어 쪽):   - Brinell hardness: 470–【900 MPa】
+  - [어븀] raw `10.36 h` (줄 49, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 28.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 【10.36 h】 ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 36648: [Isotopes of yttrium] raw `10.18(8) h` (줄 67, 두 언어 쪽): | ⁹³Y | 39 | 54 | 92.909578(11) | 1948 | 【10.18(8) h】 | β⁻ | ⁹³Zr | 1/2− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-056
+### R-ko-051
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 2310, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2716,7 +2669,7 @@
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
   - [Ytterbium] `38.5`:   - Thermal conductivity: 【38.5】 W/(m⋅K)
 
-### R-ko-057
+### R-ko-052
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 5.49, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2724,14 +2677,14 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
   - base 5.34: [Isotopes of yttrium] raw `5.34(5) s` (줄 73, 두 언어 쪽): | ⁹⁶Y | 39 | 57 | 95.9159093(65) | 1975 | 【5.34(5) s】 | β⁻ | ⁹⁶Zr | 0− |  |
   - base 5.8: [Isotopes of yttrium] raw `5.8(6) s` (줄 26, 두 언어 쪽): | ⁷⁸ᵐY | ~300 keV | ~300 keV | ~300 keV | 1998 | 【5.8(6) s】 | β⁺ | ⁷⁸Sr | (5+) |  |
-  - base 6: [Lutetium] raw `6s` (줄 64, 두 언어 쪽): … generally encountered in the +3 oxidation state, having lost its two outermost 【6s】 and the single 5d-electron. The lutetium atom is the smallest among the lanthan…
+  - base 6: [Lutetium] raw `6s` (줄 65, 두 언어 쪽): … generally encountered in the +3 oxidation state, having lost its two outermost 【6s】 and the single 5d-electron. The lutetium atom is the smallest among the lanthan…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-058
+### R-ko-053
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 2.26e+06, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `2260 kJ/mol` (줄 27, 뒤):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 【2260 kJ/mol】
+  - [사마륨] raw `2260 kJ/mol` (줄 28, 뒤):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 【2260 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
   - base 2.285e+06: [Thulium] raw `2285 kJ/mol` (줄 29, 두 언어 쪽):   - Ionization energies: 1st: 596.7 kJ/mol, 2nd: 1160 kJ/mol, 3rd: 【2285 kJ/mol】
   - base 2.2e+06: [Dysprosium] raw `2200 kJ/mol` (줄 29, 두 언어 쪽):   - Ionization energies: 1st: 573.0 kJ/mol, 2nd: 1130 kJ/mol, 3rd: 【2200 kJ/mol】
@@ -2739,18 +2692,20 @@
   - base 2.086e+06: [Praseodymium] raw `2086 kJ/mol` (줄 29, 한쪽 언어 쪽):   - Ionization energies: 1st: 527 kJ/mol, 2nd: 1020 kJ/mol, 3rd: 【2086 kJ/mol】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-059
+### R-ko-054
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 12528, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 5.73259e-15, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `3.48(16) h` (줄 50, 뒤): | ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 【3.48(16) h】 | β⁺ (99.95%) | ¹⁵⁰Gd | (2-) |  |  |
-  - [터븀 동위 원소] raw `3.48(16) h` (줄 51, 뒤): | ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 【3.48(16) h】 | α (0.05%) | ¹⁴⁶Eu | (2-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 12744: [Isotopes of yttrium] raw `3.54(1) h` (줄 65, 두 언어 쪽): | ⁹²Y | 39 | 53 | 91.9089458(98) | 1940 | 【3.54(1) h】 | β⁻ | ⁹²Zr | 2− |  |
-  - base 11613.6: [Isotopes of yttrium] raw `3.226(11) h` (줄 60, 두 언어 쪽): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | IT | ⁹⁰Y | 7+ |  |
+  - [터븀 동위 원소] raw `35.78(13) keV` (줄 48, 뒤): | ¹⁴⁹ᵐTb | 【35.78(13) keV】 | 35.78(13) keV | 35.78(13) keV | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |  |
+  - [터븀 동위 원소] raw `35.78(13) keV` (줄 48, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 【35.78(13) keV】 | 35.78(13) keV | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |  |
+  - [터븀 동위 원소] raw `35.78(13) keV` (줄 48, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 35.78(13) keV | 【35.78(13) keV】 | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |  |
+  - [터븀 동위 원소] raw `35.78(13) keV` (줄 49, 뒤): | ¹⁴⁹ᵐTb | 【35.78(13) keV】 | 35.78(13) keV | 35.78(13) keV | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |  |
+  - [터븀 동위 원소] raw `35.78(13) keV` (줄 49, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 【35.78(13) keV】 | 35.78(13) keV | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |  |
+  - [터븀 동위 원소] raw `35.78(13) keV` (줄 49, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 35.78(13) keV | 【35.78(13) keV】 | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-060
+### R-ko-055
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.7672e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2767,29 +2722,29 @@
   - base 1.60218e-14: [Neutron capture therapy of cancer] raw `100keV` (줄 182, 한쪽 언어 쪽): …t area. Since the nuclear reactions yield neutrons with energies ranging from < 【100keV】 to tens of MeV, a beam-shaping assembly (BSA) must be used to moderate, filter,…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-061
+### R-ko-056
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열전도율, base 14.5, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 6.99e+10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `14.5 W/(m·K)` (줄 32, 뒤):   - 열전도율: 【14.5 W/(m·K)】
+  - [어븀] raw `69.9 GPa` (줄 36, 뒤):   - 영률: 【69.9 GPa】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 13.9: [Europium] raw `13.9 W/(m⋅K)` (줄 36, 한쪽 언어 쪽):   - Thermal conductivity: est. 【13.9 W/(m⋅K)】
-  - base 13.4: [Lanthanum] raw `13.4 W/(m⋅K)` (줄 36, 한쪽 언어 쪽):   - Thermal conductivity: 【13.4 W/(m⋅K)】
+  - base 6.86e+10: [Lutetium] raw `68.6 GPa` (줄 40, 두 언어 쪽):   - Young's modulus: 【68.6 GPa】
+  - base 7.4e+10: [Thulium] raw `74.0 GPa` (줄 41, 두 언어 쪽):   - Young's modulus: 【74.0 GPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-062
+### R-ko-057
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 14.8, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `14.8K` (줄 61, 뒤): … 일반적인 조건에서는 삼방정계 구조(α 구조)를 가지며, 731°C 이상의 고온으로 가열하면 육방정계 구조로 전환된다. 전환 온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 【14.8K】 이하로 냉각시키면 반강자성을 띤다.
+  - [사마륨] raw `14.8K` (줄 63, 뒤): … 일반적인 조건에서는 삼방정계 구조(α 구조)를 가지며, 731°C 이상의 고온으로 가열하면 육방정계 구조로 전환된다. 전환 온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 【14.8K】 이하로 냉각시키면 반강자성을 띤다.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 15: [Europium] raw `15 K` (줄 125, 한쪽 언어 쪽): …sforming to a cubic high-temperature phase. EuC2 becomes ferromagnetic at about 【15 K】 and is semiconducting above the transition; near the Curie temperature its elec…
-  - base 15.5: [Europium] raw `15.5` (줄 123, 한쪽 언어 쪽): …metal and undergoes two closely spaced electronic and magnetic transitions near 【15.5】 and 12.6 K. Its unusual transport properties, including large magnetoresistance…
+  - base 15: [Europium] raw `15 K` (줄 126, 한쪽 언어 쪽): …sforming to a cubic high-temperature phase. EuC2 becomes ferromagnetic at about 【15 K】 and is semiconducting above the transition; near the Curie temperature its elec…
+  - base 15.5: [Europium] raw `15.5` (줄 124, 한쪽 언어 쪽): …metal and undergoes two closely spaced electronic and magnetic transitions near 【15.5】 and 12.6 K. Its unusual transport properties, including large magnetoresistance…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
   - [Isotopes of yttrium] `14.8`: | ⁷⁹Y | 39 | 40 | 78.937752(14) | 1992 | 【14.8】(6) s | β⁺ | ⁷⁹Sr | 5/2+# |  |
   - [Praseodymium] `14.8`:   - Shear modulus: 【14.8】 GPa
 
-### R-ko-063
+### R-ko-058
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 2.82143e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2800,7 +2755,7 @@
   - base 2.7362e-14: [Isotopes of yttrium] raw `170.78(5) keV` (줄 85, 두 언어 쪽): | ⁹⁸ᵐ¹Y | 【170.78(5) keV】 | 170.78(5) keV | 170.78(5) keV | 2017 | 615(8) ns | IT | ⁹⁸Y | 2− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-064
+### R-ko-059
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.41632e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2808,10 +2763,10 @@
   - [터븀 동위 원소] raw `88.4(2) keV` (줄 76, 뒤): | ¹⁵⁶ᵐ²Tb | 88.4(2) keV | 【88.4(2) keV】 | 88.4(2) keV | 5.3(2) h |  |  | (0+) |  |  |
   - [터븀 동위 원소] raw `88.4(2) keV` (줄 76, 뒤): | ¹⁵⁶ᵐ²Tb | 88.4(2) keV | 88.4(2) keV | 【88.4(2) keV】 | 5.3(2) h |  |  | (0+) |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.34988e-14: [Thulium] raw `84.253 keV` (줄 131, 두 언어 쪽): … major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 【84.253 keV】). These radioactive sources have a useful life of about one year, as tools in m…
+  - base 1.34988e-14: [Thulium] raw `84.253 keV` (줄 132, 두 언어 쪽): … major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 【84.253 keV】). These radioactive sources have a useful life of about one year, as tools in m…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-065
+### R-ko-060
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 31.6, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2820,18 +2775,17 @@
   - base 30.1: [Isotopes of yttrium] raw `30.1(5) s` (줄 29, 두 언어 쪽): | ⁸⁰Y | 39 | 41 | 79.9343548(67) | 1981 | 【30.1(5) s】 | β⁺ | ⁸⁰Sr | 4− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-066
+### R-ko-061
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1.6, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 2.4, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `1.6(2) s` (줄 16, 뒤): | ¹³⁹Tb | 65 | 74 | 138.94829(32)# | 【1.6(2) s】 | β⁺ | ¹³⁹Gd | 11/2-# |  |  |
-  - [네오디뮴 동위 원소] raw `1.60(15) s` (줄 35, 뒤): | ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 【1.60(15) s】 | IT | ¹³⁷Nd | (11/2-) |  |  |
+  - [터븀 동위 원소] raw `2.4(2) s` (줄 17, 뒤): | ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 【2.4(2) s】 | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |  |
+  - [터븀 동위 원소] raw `2.4(2) s` (줄 18, 뒤): | ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 【2.4(2) s】 | β⁺, p (0.26%) | ¹³⁹Eu | 5 |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.484: [Isotopes of yttrium] raw `1.484(7) s` (줄 93, 두 언어 쪽): | ⁹⁹Y | 39 | 60 | 98.9241608(71) | 1975 | 【1.484(7) s】 | β⁻ (98.23%) | ⁹⁹Zr | 5/2+ |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [Ytterbium] `1.6`: …becomes a semiconductor when exposed to a pressure of about 16,000 atmospheres (【1.6】 GPa). Its electrical resistivity increases ten times upon compression to 39,000…
+  - base 2.32: [Isotopes of yttrium] raw `2.32(8) s` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-067
+### R-ko-062
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 2.768e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -2841,11 +2795,11 @@
   - base 2.58e-07: [Isotopes of yttrium] raw `258(22) ns` (줄 35, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 1993 | 【258(22) ns】 | IT | ⁸²Y | 4− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-068
+### R-ko-063
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 589300, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `589.3 kJ/mol` (줄 27, 뒤):   - 이온화 에너지: 1차: 【589.3 kJ/mol】, 2차: 1150 kJ/mol, 3차: 2194 kJ/mol
+  - [어븀] raw `589.3 kJ/mol` (줄 28, 뒤):   - 이온화 에너지: 1차: 【589.3 kJ/mol】, 2차: 1150 kJ/mol, 3차: 2194 kJ/mol
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
   - base 596700: [Thulium] raw `596.7 kJ/mol` (줄 29, 두 언어 쪽):   - Ionization energies: 1st: 【596.7 kJ/mol】, 2nd: 1160 kJ/mol, 3rd: 2285 kJ/mol
   - base 603400: [Ytterbium] raw `603.4 kJ/mol` (줄 29, 두 언어 쪽):   - Ionization energies: 1st: 【603.4 kJ/mol】, 2nd: 1174.8 kJ/mol, 3rd: 2417 kJ/mol
@@ -2854,184 +2808,30 @@
   - base 538100: [Lanthanum] raw `538.1 kJ/mol` (줄 29, 한쪽 언어 쪽):   - Ionization energies: 1st: 【538.1 kJ/mol】, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-069
+### R-ko-064
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 1770, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `1770 K` (줄 16, 뒤):   - 녹는점: 【1770 K】
+  - [어븀] raw `1770 K` (줄 17, 뒤):   - 녹는점: 【1770 K】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
   - base 1802: [Europium] raw `1802 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【1802 K】 ​(1529 °C, ​2784 °F)
   - base 1680: [Dysprosium] raw `1680 K` (줄 17, 두 언어 쪽):   - Melting point: 【1680 K】 ​(1407 °C, ​2565 °F)
-  - base 1654: [Dysprosium] raw `1,654 K` (줄 65, 두 언어 쪽): … (−94 °C). It transforms from the hcp phase to the body-centered cubic phase at 【1,654 K】 (1,381 °C).
+  - base 1654: [Dysprosium] raw `1,654 K` (줄 66, 두 언어 쪽): … (−94 °C). It transforms from the hcp phase to the body-centered cubic phase at 【1,654 K】 (1,381 °C).
   - base 1925: [Lutetium] raw `1925 K` (줄 17, 두 언어 쪽):   - Melting point: 【1925 K】 ​(1652 °C, ​3006 °F)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-070
+### R-ko-065
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 열용량, base 29.54, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `29.54 J/(mol·K)` (줄 22, 뒤):   - 몰열용량: 【29.54 J/(mol·K)】
+  - [사마륨] raw `29.54 J/(mol·K)` (줄 23, 뒤):   - 몰열용량: 【29.54 J/(mol·K)】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
   - base 27.7: [Dysprosium] raw `27.7 J/(mol·K)` (줄 23, 두 언어 쪽):   - Molar heat capacity: 【27.7 J/(mol·K)】
   - base 27.11: [Lanthanum] raw `27.11 J/(mol·K)` (줄 23, 한쪽 언어 쪽):   - Molar heat capacity: 【27.11 J/(mol·K)】
   - base 26.74: [Ytterbium] raw `26.74 J/(mol·K)` (줄 23, 두 언어 쪽):   - Molar heat capacity: 【26.74 J/(mol·K)】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-071
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 7.9, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `7.9(6) s` (줄 20, 뒤): | ¹⁴¹ᵐTb | 0(200)# keV | 0(200)# keV | 0(200)# keV | 【7.9(6) s】 | β⁺ | ¹⁴¹Gd | 11/2-# |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 8.3: [Isotopes of yttrium] raw `8.30(20) s` (줄 34, 두 언어 쪽): | ⁸²Y | 39 | 43 | 81.9269302(59) | 1980 | 【8.30(20) s】 | β⁺ | ⁸²Sr | 1+ |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [Europium] `7.9`:   - Shear modulus: 【7.9】 GPa
-
-### R-ko-072
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 5.48185e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `342.15(16) keV` (줄 60, 뒤): | ¹⁵²ᵐ¹Tb | 【342.15(16) keV】 | 342.15(16) keV | 342.15(16) keV | 0.96 µs |  |  | 5- |  |  |
-  - [터븀 동위 원소] raw `342.15(16) keV` (줄 60, 뒤): | ¹⁵²ᵐ¹Tb | 342.15(16) keV | 【342.15(16) keV】 | 342.15(16) keV | 0.96 µs |  |  | 5- |  |  |
-  - [터븀 동위 원소] raw `342.15(16) keV` (줄 60, 뒤): | ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 【342.15(16) keV】 | 0.96 µs |  |  | 5- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 5.60762e-14: [Ytterbium] raw `350 keV` (줄 154, 두 언어 쪽): …e roughly equivalent to those taken with X-rays having energies between 250 and 【350 keV】. ¹⁶⁹Yb is also used in nuclear medicine.
-  - base 5.0084e-14: [Isotopes of yttrium] raw `312.6(9) keV` (줄 32, 두 언어 쪽): | ⁸⁰ᵐ²Y | 【312.6(9) keV】 | 312.6(9) keV | 312.6(9) keV | 1997 | 4.7(3) μs | IT | ⁸⁰Y | (2+) |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-073
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 63000, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `17.5(1) h` (줄 58, 뒤): | ¹⁵²Tb | 65 | 87 | 151.92407(4) | 【17.5(1) h】 | β⁺ | ¹⁵²Gd | 2- |  |  |
-  - [터븀 동위 원소] raw `17.5(1) h` (줄 59, 뒤): | ¹⁵²Tb | 65 | 87 | 151.92407(4) | 【17.5(1) h】 | α (7×10⁻⁷%) | ¹⁴⁸Eu | 2- |  |  |
-  - [터븀 동위 원소] raw `17.609(1) h` (줄 54, 뒤): | ¹⁵¹Tb | 65 | 86 | 150.923103(5) | 【17.609(1) h】 | β⁺ (99.99%) | ¹⁵¹Gd | 1/2(+) |  |  |
-  - [터븀 동위 원소] raw `17.609(1) h` (줄 55, 뒤): | ¹⁵¹Tb | 65 | 86 | 150.923103(5) | 【17.609(1) h】 | α (0.0095%) | ¹⁴⁷Eu | 1/2(+) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 61200: [Dysprosium] raw `17 hours` (줄 149, 두 언어 쪽): …duced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 450 bars for 【17 hours】. This material is remarkably robust, surviving over 100 hours in various aqueou…
-  - base 68832: [Praseodymium] raw `19.12 h` (줄 52, 한쪽 언어 쪽): …Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 【19.12 h】 β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 13.57 d β⁻ ¹⁴³Nd
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-074
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 비저항, base 8.6e-07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `0.860 μ Ω·m` (줄 33, 뒤):   - 전기 저항도: (실온) (poly) 【0.860 μ Ω·m】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 9e-07: [Europium] raw `0.900 µΩ⋅m` (줄 37, 한쪽 언어 쪽):   - Electrical resistivity: poly: 【0.900 µΩ⋅m】 (at r.t.)
-  - base 9.26e-07: [Dysprosium] raw `926 nΩ⋅m` (줄 37, 두 언어 쪽):   - Electrical resistivity: α, poly: 【926 nΩ⋅m】 (r.t.)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-075
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 77400, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `21.5(4) h` (줄 65, 뒤): | ¹⁵⁴Tb | 65 | 89 | 153.92468(5) | 【21.5(4) h】 | β⁺ (99.9%) | ¹⁵⁴Gd | 0(+#) |  |  |
-  - [터븀 동위 원소] raw `21.5(4) h` (줄 66, 뒤): | ¹⁵⁴Tb | 65 | 89 | 153.92468(5) | 【21.5(4) h】 | β⁻ (0.1%) | ¹⁵⁴Dy | 0(+#) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-076
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 27057.6, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `7.516 h` (줄 47, 뒤): … 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 【7.516 h】 β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.3 h β⁻ 0.891 ¹⁷²Tm
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-077
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 30.9, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `30.9(7) s` (줄 37, 뒤): | ¹⁴⁵ᵐTb | 0(100)# keV | 0(100)# keV | 0(100)# keV | 【30.9(7) s】 | β⁺ | ¹⁴⁵Gd | (11/2-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 30.1: [Isotopes of yttrium] raw `30.1(5) s` (줄 29, 두 언어 쪽): | ⁸⁰Y | 39 | 41 | 79.9343548(67) | 1981 | 【30.1(5) s】 | β⁺ | ⁸⁰Sr | 4− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-078
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 5.5849e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `558.49 pm` (줄 30, 뒤):   - 격자 상수: a = 355.93 pm c = 【558.49 pm】 (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-079
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.72385e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 뒤): | ¹⁴⁴ᵐ⁴Tb | 【544.5(6) keV】 | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |
-  - [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 뒤): | ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 【544.5(6) keV】 | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |
-  - [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 뒤): | ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 【544.5(6) keV】 | <300 ns |  |  | (10+) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 8.90137e-14: [Isotopes of yttrium] raw `555.58(5) keV` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | IT | ⁹¹Y | 9/2+ |  |
-  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
-  - base 9.51693e-14: [Isotopes of yttrium] raw `594(10) keV` (줄 90, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 【594(10) keV】 | 594(10) keV | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
-  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-080
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 81720, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `22.7(5) h` (줄 70, 뒤): | ¹⁵⁴ᵐ²Tb | 200(150)# keV | 200(150)# keV | 200(150)# keV | 【22.7(5) h】 |  |  | 7- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 86400: [Neutron capture therapy of cancer] raw `24-hour` (줄 182, 한쪽 언어 쪽): …mmobilization and to increase the number of patients that could be treated in a 【24-hour】 period. Increasing the neutron beam intensity for the same proton current by ad…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-081
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 속도, base 3300, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이트륨] raw `3300 m/s` (줄 38, 뒤):   - 음속 (얇은 막대): 【3300 m/s】 (20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-082
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 19900, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `19.90 kJ/mol` (줄 20, 뒤):   - 융해열: 【19.90 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 22000: [Lutetium] raw `22 kJ/mol` (줄 21, 두 언어 쪽):   - Heat of fusion: ca. 【22 kJ/mol】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-083
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 7.62957e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `476.2(5) keV` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 【476.2(5) keV】 | 476.2(5) keV | 476.2(5) keV | 2.8(3) µs |  |  | (8-) |  |  |
-  - [터븀 동위 원소] raw `476.2(5) keV` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 【476.2(5) keV】 | 476.2(5) keV | 2.8(3) µs |  |  | (8-) |  |  |
-  - [터븀 동위 원소] raw `476.2(5) keV` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 476.2(5) keV | 【476.2(5) keV】 | 2.8(3) µs |  |  | (8-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
-  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
-  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-084
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 3141, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `3141 K` (줄 17, 뒤):   - 끓는점: 【3141 K】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 2928: [Ytterbium] raw `2928 K` (줄 39, 두 언어 쪽):   - Molar magnetic susceptibility: +249.0×10⁻⁶ cm³/mol (【2928 K】)
-  - base 3403: [Praseodymium] raw `3403 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【3403 K】 ​(3130 °C, ​5666 °F)
-  - base 2835.15: [Dysprosium] raw `2562 °C` (줄 18, 두 언어 쪽):   - Boiling point: 2840 K ​(【2562 °C】, ​4653 °F)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-085
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 7520, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `7.52 g/cm³` (줄 18, 뒤):   - 밀도 (상온 근처): 【7.52 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 6973: [Ytterbium] raw `6.973 g/cm³` (줄 73, 두 언어 쪽): …bium crystallizes in the face-centered cubic system. Ytterbium has a density of 【6.973 g/cm³】, which is significantly lower than those of the neighboring lanthanides, thuliu…
-  - base 6903: [Ytterbium] raw `6.903 g/cm³` (줄 67, 두 언어 쪽): …z/cu in]) has a body-centered cubic crystalline structure. The alpha allotrope (【6.903 g/cm³】 [3.990 oz/cu in]) has a hexagonal crystalline structure and is stable at low te…
-  - base 6773: [Praseodymium] raw `6.773 g/cm³` (줄 19, 한쪽 언어 쪽):   - Density (at 20° C): 【6.773 g/cm³】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-086
+### R-ko-066
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.597, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3045,15 +2845,19 @@
   - [Europium] `600`: …ide, EuN, can be prepared by direct reaction of the metal with ammonia at about 【600】 °C and crystallizes in the cubic rock-salt structure. Europium phosphide, EuP, …
   - [Europium] `600`: … hexagonal rhabdophane structure; after dehydration at temperatures above about 【600】 °C it transforms to monoclinic anhydrous EuPO4, which is isostructural with mon…
 
-### R-ko-087
+### R-ko-067
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 948672, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 5.48185e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [네오디뮴 동위 원소] raw `10.98(1) d` (줄 52, 뒤): | ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 【10.98(1) d】 | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [터븀 동위 원소] raw `342.15(16) keV` (줄 60, 뒤): | ¹⁵²ᵐ¹Tb | 【342.15(16) keV】 | 342.15(16) keV | 342.15(16) keV | 0.96 µs |  |  | 5- |  |  |
+  - [터븀 동위 원소] raw `342.15(16) keV` (줄 60, 뒤): | ¹⁵²ᵐ¹Tb | 342.15(16) keV | 【342.15(16) keV】 | 342.15(16) keV | 0.96 µs |  |  | 5- |  |  |
+  - [터븀 동위 원소] raw `342.15(16) keV` (줄 60, 뒤): | ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 【342.15(16) keV】 | 0.96 µs |  |  | 5- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 5.60762e-14: [Ytterbium] raw `350 keV` (줄 155, 두 언어 쪽): …e roughly equivalent to those taken with X-rays having energies between 250 and 【350 keV】. ¹⁶⁹Yb is also used in nuclear medicine.
+  - base 5.0084e-14: [Isotopes of yttrium] raw `312.6(9) keV` (줄 32, 두 언어 쪽): | ⁸⁰ᵐ²Y | 【312.6(9) keV】 | 312.6(9) keV | 312.6(9) keV | 1997 | 4.7(3) μs | IT | ⁸⁰Y | (2+) |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-088
+### R-ko-068
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 180, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3063,7 +2867,169 @@
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
   - [Neutron capture therapy of cancer] `3.0`: … lithium-7 reaction requires a proton accelerator with energies between 1.9 and 【3.0】 MeV, while the beryllium-9 reaction typically uses accelerators with energies b…
 
-### R-ko-089
+### R-ko-069
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 2.83e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `28.3 GPa` (줄 37, 뒤):   - 전단 탄성 계수: 【28.3 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 2.79e+10: [Lanthanum] raw `27.9 GPa` (줄 43, 한쪽 언어 쪽):   - Bulk modulus: α form: 【27.9 GPa】
+  - base 2.88e+10: [Praseodymium] raw `28.8 GPa` (줄 43, 한쪽 언어 쪽):   - Bulk modulus: 【28.8 GPa】
+  - base 2.72e+10: [Lutetium] raw `27.2 GPa` (줄 41, 두 언어 쪽):   - Shear modulus: 【27.2 GPa】
+  - base 3.05e+10: [Thulium] raw `30.5 GPa` (줄 42, 두 언어 쪽):   - Shear modulus: 【30.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-070
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 62, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `62.0(8) s` (줄 45, 뒤): | ¹⁴¹ᵐNd | 756.51(5) keV | 756.51(5) keV | 756.51(5) keV | 【62.0(8) s】 | IT (99.95%) | ¹⁴¹Nd | 11/2- |  |  |
+  - [네오디뮴 동위 원소] raw `62.0(8) s` (줄 46, 뒤): | ¹⁴¹ᵐNd | 756.51(5) keV | 756.51(5) keV | 756.51(5) keV | 【62.0(8) s】 | β⁺ (0.05%) | ¹⁴¹Pr | 11/2- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-071
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 3609, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이트륨] raw `3609 K` (줄 18, 뒤):   - 끓는점: 【3609 K】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 3675: [Lutetium] raw `3675 K` (줄 18, 두 언어 쪽):   - Boiling point: 【3675 K】 ​(3402 °C, ​6156 °F)
+  - base 3737: [Lanthanum] raw `3737 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【3737 K】 ​(3464 °C, ​6267 °F)
+  - base 3403: [Praseodymium] raw `3403 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【3403 K】 ​(3130 °C, ​5666 °F)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-072
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 30.9, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `30.9(7) s` (줄 37, 뒤): | ¹⁴⁵ᵐTb | 0(100)# keV | 0(100)# keV | 0(100)# keV | 【30.9(7) s】 | β⁺ | ¹⁴⁵Gd | (11/2-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 30.1: [Isotopes of yttrium] raw `30.1(5) s` (줄 29, 두 언어 쪽): | ⁸⁰Y | 39 | 41 | 79.9343548(67) | 1981 | 【30.1(5) s】 | β⁺ | ⁸⁰Sr | 4− |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-073
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열전도율, base 14.5, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `14.5 W/(m·K)` (줄 34, 뒤):   - 열전도율: 【14.5 W/(m·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 13.9: [Europium] raw `13.9 W/(m⋅K)` (줄 37, 한쪽 언어 쪽):   - Thermal conductivity: est. 【13.9 W/(m⋅K)】
+  - base 13.4: [Lanthanum] raw `13.4 W/(m⋅K)` (줄 37, 한쪽 언어 쪽):   - Thermal conductivity: 【13.4 W/(m⋅K)】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-074
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.00118, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `1.18(2) ms` (줄 40, 뒤): | ¹⁴⁶ᵐ²Tb | 930(100)# keV | 930(100)# keV | 930(100)# keV | 【1.18(2) ms】 |  |  | (10+) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-075
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 81720, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `22.7(5) h` (줄 70, 뒤): | ¹⁵⁴ᵐ²Tb | 200(150)# keV | 200(150)# keV | 200(150)# keV | 【22.7(5) h】 |  |  | 7- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 86400: [Neutron capture therapy of cancer] raw `24-hour` (줄 182, 한쪽 언어 쪽): …mmobilization and to increase the number of patients that could be treated in a 【24-hour】 period. Increasing the neutron beam intensity for the same proton current by ad…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-076
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 4.4893e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `280.2(10) keV` (줄 23, 뒤): | ¹⁴²ᵐ¹Tb | 【280.2(10) keV】 | 280.2(10) keV | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |  |
+  - [터븀 동위 원소] raw `280.2(10) keV` (줄 23, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 【280.2(10) keV】 | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |  |
+  - [터븀 동위 원소] raw `280.2(10) keV` (줄 23, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 【280.2(10) keV】 | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |  |
+  - [터븀 동위 원소] raw `280.2(10) keV` (줄 24, 뒤): | ¹⁴²ᵐ¹Tb | 【280.2(10) keV】 | 280.2(10) keV | 280.2(10) keV | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |  |
+  - [터븀 동위 원소] raw `280.2(10) keV` (줄 24, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 【280.2(10) keV】 | 280.2(10) keV | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |  |
+  - [터븀 동위 원소] raw `280.2(10) keV` (줄 24, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 【280.2(10) keV】 | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 4.26467e-14: [Isotopes of yttrium] raw `266.18(10) keV` (줄 46, 두 언어 쪽): | ⁸⁵ᵐ²Y | 【266.18(10) keV】 | 266.18(10) keV | 266.18(10) keV | 1977 | 178(7) ns | IT | ⁸⁵Y | (5/2)− |  |
+  - base 4.80653e-14: [Isotopes of yttrium] raw `300 keV` (줄 26, 두 언어 쪽): | ⁷⁸ᵐY | ~【300 keV】 | ~300 keV | ~300 keV | 1998 | 5.8(6) s | β⁺ | ⁷⁸Sr | (5+) |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-077
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 19900, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `19.90 kJ/mol` (줄 21, 뒤):   - 융해열: 【19.90 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 22000: [Lutetium] raw `22 kJ/mol` (줄 21, 두 언어 쪽):   - Heat of fusion: ca. 【22 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-078
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 7.62957e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `476.2(5) keV` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 【476.2(5) keV】 | 476.2(5) keV | 476.2(5) keV | 2.8(3) µs |  |  | (8-) |  |  |
+  - [터븀 동위 원소] raw `476.2(5) keV` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 【476.2(5) keV】 | 476.2(5) keV | 2.8(3) µs |  |  | (8-) |  |  |
+  - [터븀 동위 원소] raw `476.2(5) keV` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 476.2(5) keV | 【476.2(5) keV】 | 2.8(3) µs |  |  | (8-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
+  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
+  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-079
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 3141, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `3141 K` (줄 18, 뒤):   - 끓는점: 【3141 K】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 2928: [Ytterbium] raw `2928 K` (줄 40, 두 언어 쪽):   - Molar magnetic susceptibility: +249.0×10⁻⁶ cm³/mol (【2928 K】)
+  - base 3403: [Praseodymium] raw `3403 K` (줄 18, 한쪽 언어 쪽):   - Boiling point: 【3403 K】 ​(3130 °C, ​5666 °F)
+  - base 2835.15: [Dysprosium] raw `2562 °C` (줄 18, 두 언어 쪽):   - Boiling point: 2840 K ​(【2562 °C】, ​4653 °F)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-080
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 7520, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `7.52 g/cm³` (줄 19, 뒤):   - 밀도 (상온 근처): 【7.52 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 6973: [Ytterbium] raw `6.973 g/cm³` (줄 74, 두 언어 쪽): …bium crystallizes in the face-centered cubic system. Ytterbium has a density of 【6.973 g/cm³】, which is significantly lower than those of the neighboring lanthanides, thuliu…
+  - base 6903: [Ytterbium] raw `6.903 g/cm³` (줄 68, 두 언어 쪽): …z/cu in]) has a body-centered cubic crystalline structure. The alpha allotrope (【6.903 g/cm³】 [3.990 oz/cu in]) has a hexagonal crystalline structure and is stable at low te…
+  - base 6773: [Praseodymium] raw `6.773 g/cm³` (줄 19, 한쪽 언어 쪽):   - Density (at 20° C): 【6.773 g/cm³】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-081
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 596160, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `6.9일` (줄 2, 뒤): 자연계에 존재하는 터븀 혹은 테르븀의 동위 원소는 1종으로 ¹⁵⁹Tb이 100% 존재한다. 우라늄과 토륨의 자발 핵분열로 생성되는 생성되는 ¹⁶¹Tb은 반감기가 【6.9일】로 자연계에 미량 존재한다.
+  - [터븀 동위 원소] raw `6.906(19) d` (줄 86, 뒤): | ¹⁶¹Tb | 65 | 96 | 160.9275699(28) | 【6.906(19) d】 | β⁻ | ¹⁶¹Dy | 3/2+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 604800: [Lutetium] raw `7 days` (줄 127, 두 언어 쪽): …¹⁷⁷Lu emits low-energy beta particles and gamma rays and has a half-life around 【7 days】, positive characteristics for commercial applications, especially in therapeuti…
+  - base 574068: [Lutetium] raw `6.6443 d` (줄 53, 두 언어 쪽): …⁷⁴Yb ¹⁷⁵Lu 97.4009999999% stable ¹⁷⁶Lu 2.599% 3.701×10¹⁰ y β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 【6.6443 d】 β⁻ ¹⁷⁷Hf
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-082
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 948672, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `10.98(1) d` (줄 52, 뒤): | ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 【10.98(1) d】 | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-083
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 7.32195e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `457(29) keV` (줄 52, 뒤): | ¹⁵⁰ᵐTb | 【457(29) keV】 | 457(29) keV | 457(29) keV | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
+  - [터븀 동위 원소] raw `457(29) keV` (줄 52, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 【457(29) keV】 | 457(29) keV | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
+  - [터븀 동위 원소] raw `457(29) keV` (줄 52, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 【457(29) keV】 | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
+  - [터븀 동위 원소] raw `457(29) keV` (줄 53, 뒤): | ¹⁵⁰ᵐTb | 【457(29) keV】 | 457(29) keV | 457(29) keV | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
+  - [터븀 동위 원소] raw `457(29) keV` (줄 53, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 【457(29) keV】 | 457(29) keV | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
+  - [터븀 동위 원소] raw `457(29) keV` (줄 53, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 【457(29) keV】 | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
+  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
+  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-084
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 14824.8, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3072,34 +3038,373 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-090
+### R-ko-085
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 각도, base 23.307, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `23.307°` (줄 30, 뒤):   - 격자 상수: ar = 0.89834 nm α = 【23.307°】 ah = 0.36291 nm ch = 2.6207 nm (20 °C에서)
+  - [사마륨] raw `23.307°` (줄 32, 뒤):   - 격자 상수: ar = 0.89834 nm α = 【23.307°】 ah = 0.36291 nm ch = 2.6207 nm (20 °C에서)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-086
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 비저항, base 5.96e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이트륨] raw `596 n Ω·m` (줄 35, 뒤):   - 전기 저항도: (실온) (α, poly) 【596 n Ω·m】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 5.82e-07: [Lutetium] raw `582 nΩ⋅m` (줄 38, 두 언어 쪽):   - Electrical resistivity: poly: 【582 nΩ⋅m】 (at r.t.)
+  - base 6.15e-07: [Lanthanum] raw `615 nΩ⋅m` (줄 38, 한쪽 언어 쪽):   - Electrical resistivity: α, poly: 【615 nΩ⋅m】 (at r.t.)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [Thulium] `596`:   - Ionization energies: 1st: 【596】.7 kJ/mol, 2nd: 1160 kJ/mol, 3rd: 2285 kJ/mol
+
+### R-ko-087
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 2.56e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이트륨] raw `25.6 GPa` (줄 38, 뒤):   - 전단 탄성 계수: 【25.6 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 2.47e+10: [Dysprosium] raw `24.7 GPa` (줄 42, 두 언어 쪽):   - Shear modulus: 【24.7 GPa】
+  - base 2.72e+10: [Lutetium] raw `27.2 GPa` (줄 41, 두 언어 쪽):   - Shear modulus: 【27.2 GPa】
+  - base 2.39e+10: [Ytterbium] raw `23.9 GPa` (줄 41, 두 언어 쪽):   - Young's modulus: β form: 【23.9 GPa】
+  - base 2.79e+10: [Lanthanum] raw `27.9 GPa` (줄 43, 한쪽 언어 쪽):   - Bulk modulus: α form: 【27.9 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-088
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 6.7e-07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `670(60) ns` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 【670(60) ns】 |  |  | (9+) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 6.15e-07: [Isotopes of yttrium] raw `615(8) ns` (줄 85, 두 언어 쪽): | ⁹⁸ᵐ¹Y | 170.78(5) keV | 170.78(5) keV | 170.78(5) keV | 2017 | 【615(8) ns】 | IT | ⁹⁸Y | 2− |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-089
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 2.8e-06, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `2.8(3) µs` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 476.2(5) keV | 476.2(5) keV | 【2.8(3) µs】 |  |  | (8-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-090
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 744, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `12.4(6) min` (줄 31, 뒤): | ¹³⁵Nd | 60 | 75 | 134.918181(21) | 【12.4(6) min】 | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |
+  - [네오디뮴 동위 원소] raw `12.44(7) min` (줄 56, 뒤): | ¹⁵¹Nd | 60 | 91 | 150.923829(3) | 【12.44(7) min】 | β⁻ | ¹⁵¹Pm | 3/2+ |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-091
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 87840, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 1345, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [터븀 동위 원소] raw `24.4(10) h` (줄 75, 뒤): | ¹⁵⁶ᵐ¹Tb | 54(3) keV | 54(3) keV | 54(3) keV | 【24.4(10) h】 | IT | ¹⁵⁶Tb | (7-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 86400: [Neutron capture therapy of cancer] raw `24-hour` (줄 182, 한쪽 언어 쪽): …mmobilization and to increase the number of patients that could be treated in a 【24-hour】 period. Increasing the neutron beam intensity for the same proton current by ad…
+  - [사마륨] raw `1345 K` (줄 17, 뒤):   - 녹는점: 【1345 K】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1373.15: [Europium] raw `1100` (줄 224, 한쪽 언어 쪽): … carried out in refractory apparatus, commonly using tantalum, at approximately 【1100】–1200 °C. The europium produced is considerably more volatile than the lanthanum…
+  - base 1273.15: [Praseodymium] raw `1000 °C` (줄 77, 한쪽 언어 쪽): …c trends, as it is one of the first and thus one of the largest lanthanides. At 【1000 °C】, many praseodymium oxides with composition PrO2−x exist as disordered, nonstoic…
+  - base 1469: [Ytterbium] raw `1469 K` (줄 18, 두 언어 쪽):   - Boiling point: 【1469 K】 ​(1196 °C, ​2185 °F)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-092
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 6.35e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 8.9834e-10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `63.5 GPa` (줄 35, 뒤):   - 영률: 【63.5 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 6.14e+10: [Dysprosium] raw `61.4 GPa` (줄 40, 두 언어 쪽):   - Young's modulus: 【61.4 GPa】
-  - base 6.86e+10: [Lutetium] raw `68.6 GPa` (줄 39, 두 언어 쪽):   - Young's modulus: 【68.6 GPa】
+  - [사마륨] raw `0.89834 nm` (줄 32, 뒤):   - 격자 상수: ar = 【0.89834 nm】 α = 23.307° ah = 0.36291 nm ch = 2.6207 nm (20 °C에서)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-ko-093
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 비저항, base 9.4e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `0.940 μ Ω·m` (줄 35, 뒤):   - 전기 저항도: (실온) (α, poly) 【0.940 μ Ω·m】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 9.26e-07: [Dysprosium] raw `926 nΩ⋅m` (줄 38, 두 언어 쪽):   - Electrical resistivity: α, poly: 【926 nΩ⋅m】 (r.t.)
+  - base 9e-07: [Europium] raw `0.900 µΩ⋅m` (줄 38, 한쪽 언어 쪽):   - Electrical resistivity: poly: 【0.900 µΩ⋅m】 (at r.t.)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-094
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.04141e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 뒤): | ¹³⁵ᵐNd | 【65.0(2) keV】 | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
+  - [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 뒤): | ¹³⁵ᵐNd | 65.0(2) keV | 【65.0(2) keV】 | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
+  - [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 뒤): | ¹³⁵ᵐNd | 65.0(2) keV | 65.0(2) keV | 【65.0(2) keV】 | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1.07346e-14: [Isotopes of yttrium] raw `67.0(2) keV` (줄 41, 두 언어 쪽): | ⁸⁴ᵐ¹Y | 【67.0(2) keV】 | 67.0(2) keV | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
+  - base 9.9399e-15: [Isotopes of yttrium] raw `62.04(10) keV` (줄 38, 두 언어 쪽): | ⁸³ᵐY | 【62.04(10) keV】 | 62.04(10) keV | 62.04(10) keV | 1973 | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2−)…
+  - base 9.51693e-15: [Thulium] raw `59.4` (줄 132, 두 언어 쪽): … and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 【59.4】 and 84.253 keV). These radioactive sources have a useful life of about one year…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-095
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 속도, base 2130, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `2130 m/s` (줄 40, 뒤):   - 음속 (얇은 막대): 【2130 m/s】 (20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 2280: [Praseodymium] raw `2280 m/s` (줄 44, 한쪽 언어 쪽):   - Speed of sound thin rod: 【2280 m/s】 (at 20 °C)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-096
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 8.9, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `8.9(2) s` (줄 62, 뒤): | ¹⁵⁵Nd | 60 | 95 | 154.93293(16)# | 【8.9(2) s】 | β⁻ | ¹⁵⁵Pm | 3/2-# |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 8.3: [Isotopes of yttrium] raw `8.30(20) s` (줄 34, 두 언어 쪽): | ⁸²Y | 39 | 43 | 81.9269302(59) | 1980 | 【8.30(20) s】 | β⁺ | ⁸²Sr | 1+ |  |
+  - base 9.6: [Isotopes of yttrium] raw `9.6(2) s` (줄 74, 두 언어 쪽): | ⁹⁶ᵐ¹Y | 1540(9) keV | 1540(9) keV | 1540(9) keV | 1975 | 【9.6(2) s】 | β⁻ | ⁹⁶Zr | 8+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-097
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 25.6, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `25.6(22) s` (줄 91, 뒤): | ¹⁶⁶Tb | 65 | 101 | 165.93799(11) | 【25.6(22) s】 | β⁻ | ¹⁶⁶Dy |  |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-098
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3039, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `50.65(33) min` (줄 33, 뒤): | ¹³⁶Nd | 60 | 76 | 135.914976(13) | 【50.65(33) min】 | β⁺ | ¹³⁶Pr | 0+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2982.6: [Isotopes of yttrium] raw `49.71(4) min` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 1943 | 【49.71(4) min】 | IT | ⁹¹Y | 9/2+ |  |
+  - base 2844: [Isotopes of yttrium] raw `47.4(4) min` (줄 48, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 【47.4(4) min】 | IT (99.31%) | ⁸⁶Y | (8+) |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-099
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 열용량, base 28.12, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `28.12 J/(mol·K)` (줄 23, 뒤):   - 몰열용량: 【28.12 J/(mol·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 27.7: [Dysprosium] raw `27.7 J/(mol·K)` (줄 23, 두 언어 쪽):   - Molar heat capacity: 【27.7 J/(mol·K)】
+  - base 27.11: [Lanthanum] raw `27.11 J/(mol·K)` (줄 23, 한쪽 언어 쪽):   - Molar heat capacity: 【27.11 J/(mol·K)】
+  - base 26.74: [Ytterbium] raw `26.74 J/(mol·K)` (줄 23, 두 언어 쪽):   - Molar heat capacity: 【26.74 J/(mol·K)】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-100
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열팽창, base 1.22e-05, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `12.2 µm/(m·K)` (줄 33, 뒤):   - 열팽창: (실온) (poly) 【12.2 µm/(m·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.33e-05: [Thulium] raw `13.3 µm/(m⋅K)` (줄 36, 두 언어 쪽):   - Thermal expansion: poly: 【13.3 µm/(m⋅K)】 (at r.t.)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-101
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 3.55908e-13, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `2221.4(1) keV` (줄 43, 뒤): | ¹⁴⁰ᵐNd | 【2221.4(1) keV】 | 2221.4(1) keV | 2221.4(1) keV | 600(50) µs |  |  | 7- |  |  |
+  - [네오디뮴 동위 원소] raw `2221.4(1) keV` (줄 43, 뒤): | ¹⁴⁰ᵐNd | 2221.4(1) keV | 【2221.4(1) keV】 | 2221.4(1) keV | 600(50) µs |  |  | 7- |  |  |
+  - [네오디뮴 동위 원소] raw `2221.4(1) keV` (줄 43, 뒤): | ¹⁴⁰ᵐNd | 2221.4(1) keV | 2221.4(1) keV | 【2221.4(1) keV】 | 600(50) µs |  |  | 7- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 3.4313e-13: [Isotopes of yttrium] raw `2141.65(19) keV` (줄 95, 두 언어 쪽): | ⁹⁹ᵐY | 【2141.65(19) keV】 | 2141.65(19) keV | 2141.65(19) keV | 1985 | 8.2(4) μs | IT | ⁹⁹Y | (17/2+) |  …
+  - base 3.70103e-13: [Neutron capture therapy of cancer] raw `2.31 MeV` (줄 23, 한쪽 언어 쪽): ¹⁰B + nth → [¹¹B] *→ α + ⁷Li + 【2.31 MeV】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-102
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1782, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `29.7(5) min` (줄 38, 뒤): | ¹³⁹Nd | 60 | 79 | 138.911978(28) | 【29.7(5) min】 | β⁺ | ¹³⁹Pr | 3/2+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-103
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 4472, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이트륨] raw `4.472 g/cm³` (줄 19, 뒤):   - 밀도 (상온 근처): 【4.472 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-104
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.03876e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `501.74(19) keV` (줄 61, 뒤): | ¹⁵²ᵐ²Tb | 【501.74(19) keV】 | 501.74(19) keV | 501.74(19) keV | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |  |
+  - [터븀 동위 원소] raw `501.74(19) keV` (줄 61, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 【501.74(19) keV】 | 501.74(19) keV | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |  |
+  - [터븀 동위 원소] raw `501.74(19) keV` (줄 61, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 501.74(19) keV | 【501.74(19) keV】 | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |  |
+  - [터븀 동위 원소] raw `501.74(19) keV` (줄 62, 뒤): | ¹⁵²ᵐ²Tb | 【501.74(19) keV】 | 501.74(19) keV | 501.74(19) keV | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |  |
+  - [터븀 동위 원소] raw `501.74(19) keV` (줄 62, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 【501.74(19) keV】 | 501.74(19) keV | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |  |
+  - [터븀 동위 원소] raw `501.74(19) keV` (줄 62, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 501.74(19) keV | 【501.74(19) keV】 | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
+  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
+  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
+  - base 8.90137e-14: [Isotopes of yttrium] raw `555.58(5) keV` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | IT | ⁹¹Y | 9/2+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-105
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 7.9, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `7.9(6) s` (줄 20, 뒤): | ¹⁴¹ᵐTb | 0(200)# keV | 0(200)# keV | 0(200)# keV | 【7.9(6) s】 | β⁺ | ¹⁴¹Gd | 11/2-# |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8.3: [Isotopes of yttrium] raw `8.30(20) s` (줄 34, 두 언어 쪽): | ⁸²Y | 39 | 43 | 81.9269302(59) | 1980 | 【8.30(20) s】 | β⁺ | ⁸²Sr | 1+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [Europium] `7.9`:   - Shear modulus: 【7.9】 GPa
+
+### R-ko-106
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 2.38e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `238 pm` (줄 29, 뒤):   - 원자 반지름: 185 pm (실험값) 【238 pm】 (계산값)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 2.47e-10: [Praseodymium] raw `247 pm` (줄 63, 한쪽 언어 쪽): …Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usual…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-107
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 459648, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `5.32(6) d` (줄 72, 뒤): | ¹⁵⁵Tb | 65 | 90 | 154.923505(13) | 【5.32(6) d】 | ε | ¹⁵⁵Gd | 3/2+ |  |  |
+  - [터븀 동위 원소] raw `5.35(10) d` (줄 73, 뒤): | ¹⁵⁶Tb | 65 | 91 | 155.924747(5) | 【5.35(10) d】 | β⁺ | ¹⁵⁶Gd | 3- |  |  |
+  - [터븀 동위 원소] raw `5.35(10) d` (줄 74, 뒤): | ¹⁵⁶Tb | 65 | 91 | 155.924747(5) | 【5.35(10) d】 | β⁻ (드묾) | ¹⁵⁶Dy | 3- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 432000: [Lutetium] raw `5d` (줄 65, 두 언어 쪽): …ered in the +3 oxidation state, having lost its two outermost 6s and the single 【5d】-electron. The lutetium atom is the smallest among the lanthanide atoms, due to …
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-108
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.38085e-12, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 뒤): | ¹⁴⁸ᵐ²Tb | 【8618.6(10) keV】 | 8618.6(10) keV | 8618.6(10) keV | 1.310(7) µs |  |  | (27+) |  |  |
+  - [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 뒤): | ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 【8618.6(10) keV】 | 8618.6(10) keV | 1.310(7) µs |  |  | (27+) |  |  |
+  - [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 뒤): | ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 8618.6(10) keV | 【8618.6(10) keV】 | 1.310(7) µs |  |  | (27+) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.27213e-12: [Neutron capture therapy of cancer] raw `7.94 MeV` (줄 75, 한쪽 언어 쪽): …¹⁵⁷Gd(n,γ)¹⁵⁸Gd capture reaction (¹⁵⁷Gd + nth (0.025eV) → [¹⁵⁸Gd] → ¹⁵⁸Gd + γ + 【7.94 MeV】). Though the gamma rays have longer pathlengths, orders of magnitude greater de…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-109
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 10.7, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `10.70(17) s` (줄 80, 뒤): | ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 【10.70(17) s】 | IT (99.39%) | ¹⁵⁸Tb | 0- |  |  |
+  - [터븀 동위 원소] raw `10.70(17) s` (줄 81, 뒤): | ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 【10.70(17) s】 | β⁻ (0.6%) | ¹⁵⁸Dy | 0- |  |  |
+  - [터븀 동위 원소] raw `10.70(17) s` (줄 82, 뒤): | ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 【10.70(17) s】 | β⁺ (0.01%) | ¹⁵⁸Gd | 0- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-110
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 4.25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `4.25(15) s` (줄 30, 뒤): | ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 【4.25(15) s】 | IT (66%) | ¹⁴⁴Tb | (6-) |  |  |
+  - [터븀 동위 원소] raw `4.25(15) s` (줄 31, 뒤): | ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 【4.25(15) s】 | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |  |
+  - [터븀 동위 원소] raw `4.25(15) s` (줄 32, 뒤): | ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 【4.25(15) s】 | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 4.6: [Isotopes of yttrium] raw `4.6(2) s` (줄 41, 두 언어 쪽): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 67.0(2) keV | 1976 | 【4.6(2) s】 | β⁺ | ⁸⁴Sr | 1+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-111
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 2.26e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `226 pm` (줄 29, 뒤):   - 원자 반지름: 175 pm (실험값) 【226 pm】 (계산값)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2.07e-10: [Lanthanum] raw `207±8 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【207±8 pm】
+  - base 2.47e-10: [Praseodymium] raw `247 pm` (줄 63, 한쪽 언어 쪽): …Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usual…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [Isotopes of yttrium] `226`: | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 3.【226】(11) h | IT | ⁹⁰Y | 7+ |  |
+  - [Isotopes of yttrium] `226`: | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 3.【226】(11) h | β⁻ (0.0018%) | ⁹⁰Zr | 7+ |  |
+
+### R-ko-112
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 3.6291e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `0.36291 nm` (줄 32, 뒤):   - 격자 상수: ar = 0.89834 nm α = 23.307° ah = 【0.36291 nm】 ch = 2.6207 nm (20 °C에서)
+  - [이트륨] raw `364.83 pm` (줄 32, 뒤):   - 격자 상수: a = 【364.83 pm】 c = 573.17 pm (20 °C에서)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 3.5916e-10: [Dysprosium] raw `359.16 pm` (줄 35, 두 언어 쪽):   - Lattice constants: a = 【359.16 pm】 c = 565.01 pm (at 20 °C)
+  - base 3.6723e-10: [Praseodymium] raw `0.36723 nm` (줄 35, 한쪽 언어 쪽):   - Lattice constants: a = 【0.36723 nm】 c = 1.18328 nm (at 20 °C)
+  - base 3.5053e-10: [Lutetium] raw `350.53 pm` (줄 35, 두 언어 쪽):   - Lattice constants: a = 【350.53 pm】 c = 554.93 pm (at 20 °C)
+  - base 3.7742e-10: [Lanthanum] raw `0.37742 nm` (줄 35, 한쪽 언어 쪽):   - Lattice constants: a = 【0.37742 nm】 c = 1.2171 nm (at 20 °C)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-113
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 4.97e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `49.7 GPa` (줄 37, 뒤):   - 영률: (α form) 【49.7 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 4.76e+10: [Lutetium] raw `47.6 GPa` (줄 42, 두 언어 쪽):   - Bulk modulus: 【47.6 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-114
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1.6, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `1.6(2) s` (줄 16, 뒤): | ¹³⁹Tb | 65 | 74 | 138.94829(32)# | 【1.6(2) s】 | β⁺ | ¹³⁹Gd | 11/2-# |  |  |
+  - [네오디뮴 동위 원소] raw `1.60(15) s` (줄 35, 뒤): | ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 【1.60(15) s】 | IT | ¹³⁷Nd | (11/2-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.484: [Isotopes of yttrium] raw `1.484(7) s` (줄 93, 두 언어 쪽): | ⁹⁹Y | 39 | 60 | 98.9241608(71) | 1975 | 【1.484(7) s】 | β⁻ (98.23%) | ⁹⁹Zr | 5/2+ |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [Ytterbium] `1.6`: …becomes a semiconductor when exposed to a pressure of about 16,000 atmospheres (【1.6】 GPa). Its electrical resistivity increases ten times upon compression to 39,000…
+
+### R-ko-115
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 4.9, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `4.9(2) s` (줄 20, 뒤): | ¹²⁹Nd | 60 | 69 | 128.93319(22)# | 【4.9(2) s】 | β⁺ | ¹²⁹Pr | 5/2+# |  |  |
+  - [네오디뮴 동위 원소] raw `4.9(2) s` (줄 21, 뒤): | ¹²⁹Nd | 60 | 69 | 128.93319(22)# | 【4.9(2) s】 | β⁺, p (드묾) | ¹²⁸Ce | 5/2+# |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 4.8: [Isotopes of yttrium] raw `4.8(3) s` (줄 30, 두 언어 쪽): | ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 【4.8(3) s】 | IT (81%) | ⁸⁰Y | 1− |  |
+  - base 4.6: [Isotopes of yttrium] raw `4.6(2) s` (줄 41, 두 언어 쪽): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 67.0(2) keV | 1976 | 【4.6(2) s】 | β⁺ | ⁸⁴Sr | 1+ |  |
+  - base 5.34: [Isotopes of yttrium] raw `5.34(5) s` (줄 73, 두 언어 쪽): | ⁹⁶Y | 39 | 57 | 95.9159093(65) | 1975 | 【5.34(5) s】 | β⁻ | ⁹⁶Zr | 0− |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-116
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.000186, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `186(4) µs` (줄 64, 뒤): | ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 【186(4) µs】 |  |  | 11/2- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-117
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 456, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `7.60(15) min` (줄 87, 뒤): | ¹⁶²Tb | 65 | 97 | 161.92949(4) | 【7.60(15) min】 | β⁻ | ¹⁶²Dy | 1- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 424.8: [Isotopes of yttrium] raw `7.08(8) min` (줄 37, 두 언어 쪽): | ⁸³Y | 39 | 44 | 82.922484(20) | 1962 | 【7.08(8) min】 | β⁺ | ⁸³Sr | (9/2+) |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-118
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.00041, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `410(30) µs` (줄 30, 뒤): | ¹³⁴ᵐNd | 2293.1(4) keV | 2293.1(4) keV | 2293.1(4) keV | 【410(30) µs】 |  |  | (8)- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [Dysprosium] `410`:   - Vickers hardness: 【410】–550 MPa
+
+### R-ko-119
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 11420, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [이트륨] raw `11.42 kJ/mol` (줄 21, 뒤):   - 융해열: 【11.42 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 11060: [Dysprosium] raw `11.06 kJ/mol` (줄 21, 두 언어 쪽):   - Heat of fusion: 【11.06 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-120
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 3.78e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [사마륨] raw `37.8 GPa` (줄 39, 뒤):   - 부피 탄성 계수: (α form) 【37.8 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 3.7e+10: [Europium] raw `37 GPa` (줄 68, 한쪽 언어 쪽): …rately modulated monoclinic structure, known as Eu-IV, which is stable to about 【37 GPa】; another structural transition occurs at higher pressure.
+  - base 3.66e+10: [Lanthanum] raw `36.6 GPa` (줄 41, 한쪽 언어 쪽):   - Young's modulus: α form: 【36.6 GPa】
+  - base 4.05e+10: [Dysprosium] raw `40.5 GPa` (줄 43, 두 언어 쪽):   - Bulk modulus: 【40.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-121
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 6.35904e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3118,356 +3423,7 @@
   - base 6.10141e-14: [Isotopes of yttrium] raw `380.82(7) keV` (줄 52, 두 언어 쪽): | ⁸⁷ᵐY | 【380.82(7) keV】 | 380.82(7) keV | 380.82(7) keV | 1940 | 13.37(3) h | IT (98.43%) | ⁸⁷Y | 9/2+ …
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-094
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 2.8e-06, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `2.8(3) µs` (줄 33, 뒤): | ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 476.2(5) keV | 476.2(5) keV | 【2.8(3) µs】 |  |  | (8-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-095
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 744, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `12.4(6) min` (줄 31, 뒤): | ¹³⁵Nd | 60 | 75 | 134.918181(21) | 【12.4(6) min】 | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |
-  - [네오디뮴 동위 원소] raw `12.44(7) min` (줄 56, 뒤): | ¹⁵¹Nd | 60 | 91 | 150.923829(3) | 【12.44(7) min】 | β⁻ | ¹⁵¹Pm | 3/2+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-096
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 1345, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `1345 K` (줄 16, 뒤):   - 녹는점: 【1345 K】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1373.15: [Europium] raw `1100` (줄 223, 한쪽 언어 쪽): … carried out in refractory apparatus, commonly using tantalum, at approximately 【1100】–1200 °C. The europium produced is considerably more volatile than the lanthanum…
-  - base 1273.15: [Praseodymium] raw `1000 °C` (줄 76, 한쪽 언어 쪽): …c trends, as it is one of the first and thus one of the largest lanthanides. At 【1000 °C】, many praseodymium oxides with composition PrO2−x exist as disordered, nonstoic…
-  - base 1469: [Ytterbium] raw `1469 K` (줄 18, 두 언어 쪽):   - Boiling point: 【1469 K】 ​(1196 °C, ​2185 °F)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-097
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 8.9834e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `0.89834 nm` (줄 30, 뒤):   - 격자 상수: ar = 【0.89834 nm】 α = 23.307° ah = 0.36291 nm ch = 2.6207 nm (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-098
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 비저항, base 9.4e-07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `0.940 μ Ω·m` (줄 33, 뒤):   - 전기 저항도: (실온) (α, poly) 【0.940 μ Ω·m】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 9.26e-07: [Dysprosium] raw `926 nΩ⋅m` (줄 37, 두 언어 쪽):   - Electrical resistivity: α, poly: 【926 nΩ⋅m】 (r.t.)
-  - base 9e-07: [Europium] raw `0.900 µΩ⋅m` (줄 37, 한쪽 언어 쪽):   - Electrical resistivity: poly: 【0.900 µΩ⋅m】 (at r.t.)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-099
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.04141e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 뒤): | ¹³⁵ᵐNd | 【65.0(2) keV】 | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
-  - [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 뒤): | ¹³⁵ᵐNd | 65.0(2) keV | 【65.0(2) keV】 | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
-  - [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 뒤): | ¹³⁵ᵐNd | 65.0(2) keV | 65.0(2) keV | 【65.0(2) keV】 | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1.07346e-14: [Isotopes of yttrium] raw `67.0(2) keV` (줄 41, 두 언어 쪽): | ⁸⁴ᵐ¹Y | 【67.0(2) keV】 | 67.0(2) keV | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
-  - base 9.9399e-15: [Isotopes of yttrium] raw `62.04(10) keV` (줄 38, 두 언어 쪽): | ⁸³ᵐY | 【62.04(10) keV】 | 62.04(10) keV | 62.04(10) keV | 1973 | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2−)…
-  - base 9.51693e-15: [Thulium] raw `59.4` (줄 131, 두 언어 쪽): … and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 【59.4】 and 84.253 keV). These radioactive sources have a useful life of about one year…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-100
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 속도, base 2130, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `2130 m/s` (줄 38, 뒤):   - 음속 (얇은 막대): 【2130 m/s】 (20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2280: [Praseodymium] raw `2280 m/s` (줄 43, 한쪽 언어 쪽):   - Speed of sound thin rod: 【2280 m/s】 (at 20 °C)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-101
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 8.9, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `8.9(2) s` (줄 62, 뒤): | ¹⁵⁵Nd | 60 | 95 | 154.93293(16)# | 【8.9(2) s】 | β⁻ | ¹⁵⁵Pm | 3/2-# |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 8.3: [Isotopes of yttrium] raw `8.30(20) s` (줄 34, 두 언어 쪽): | ⁸²Y | 39 | 43 | 81.9269302(59) | 1980 | 【8.30(20) s】 | β⁺ | ⁸²Sr | 1+ |  |
-  - base 9.6: [Isotopes of yttrium] raw `9.6(2) s` (줄 74, 두 언어 쪽): | ⁹⁶ᵐ¹Y | 1540(9) keV | 1540(9) keV | 1540(9) keV | 1975 | 【9.6(2) s】 | β⁻ | ⁹⁶Zr | 8+ |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-102
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 25.6, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `25.6(22) s` (줄 91, 뒤): | ¹⁶⁶Tb | 65 | 101 | 165.93799(11) | 【25.6(22) s】 | β⁻ | ¹⁶⁶Dy |  |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-103
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3039, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `50.65(33) min` (줄 33, 뒤): | ¹³⁶Nd | 60 | 76 | 135.914976(13) | 【50.65(33) min】 | β⁺ | ¹³⁶Pr | 0+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2982.6: [Isotopes of yttrium] raw `49.71(4) min` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 1943 | 【49.71(4) min】 | IT | ⁹¹Y | 9/2+ |  |
-  - base 2844: [Isotopes of yttrium] raw `47.4(4) min` (줄 48, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 【47.4(4) min】 | IT (99.31%) | ⁸⁶Y | (8+) |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-104
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 열용량, base 28.12, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `28.12 J/(mol·K)` (줄 22, 뒤):   - 몰열용량: 【28.12 J/(mol·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 27.7: [Dysprosium] raw `27.7 J/(mol·K)` (줄 23, 두 언어 쪽):   - Molar heat capacity: 【27.7 J/(mol·K)】
-  - base 27.11: [Lanthanum] raw `27.11 J/(mol·K)` (줄 23, 한쪽 언어 쪽):   - Molar heat capacity: 【27.11 J/(mol·K)】
-  - base 26.74: [Ytterbium] raw `26.74 J/(mol·K)` (줄 23, 두 언어 쪽):   - Molar heat capacity: 【26.74 J/(mol·K)】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-105
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 3.5593e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `355.93 pm` (줄 30, 뒤):   - 격자 상수: a = 【355.93 pm】 c = 558.49 pm (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-106
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 3.55908e-13, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `2221.4(1) keV` (줄 43, 뒤): | ¹⁴⁰ᵐNd | 【2221.4(1) keV】 | 2221.4(1) keV | 2221.4(1) keV | 600(50) µs |  |  | 7- |  |  |
-  - [네오디뮴 동위 원소] raw `2221.4(1) keV` (줄 43, 뒤): | ¹⁴⁰ᵐNd | 2221.4(1) keV | 【2221.4(1) keV】 | 2221.4(1) keV | 600(50) µs |  |  | 7- |  |  |
-  - [네오디뮴 동위 원소] raw `2221.4(1) keV` (줄 43, 뒤): | ¹⁴⁰ᵐNd | 2221.4(1) keV | 2221.4(1) keV | 【2221.4(1) keV】 | 600(50) µs |  |  | 7- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 3.4313e-13: [Isotopes of yttrium] raw `2141.65(19) keV` (줄 95, 두 언어 쪽): | ⁹⁹ᵐY | 【2141.65(19) keV】 | 2141.65(19) keV | 2141.65(19) keV | 1985 | 8.2(4) μs | IT | ⁹⁹Y | (17/2+) |  …
-  - base 3.70103e-13: [Neutron capture therapy of cancer] raw `2.31 MeV` (줄 23, 한쪽 언어 쪽): ¹⁰B + nth → [¹¹B] *→ α + ⁷Li + 【2.31 MeV】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-107
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열팽창, base 1.06e-05, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이트륨] raw `10.6 µm/(m·K)` (줄 31, 뒤):   - 열팽창: (실온) (α, poly) 【10.6 µm/(m·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 9.9e-06: [Dysprosium] raw `9.9 µm/(m⋅K)` (줄 35, 두 언어 쪽):   - Thermal expansion: poly: 【9.9 µm/(m⋅K)】 (r.t.)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-108
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1782, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `29.7(5) min` (줄 38, 뒤): | ¹³⁹Nd | 60 | 79 | 138.911978(28) | 【29.7(5) min】 | β⁺ | ¹³⁹Pr | 3/2+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-109
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 177480, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `49.3 h` (줄 47, 뒤): …6 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 【49.3 h】 β⁻ 0.891 ¹⁷²Tm
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-110
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.03876e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `501.74(19) keV` (줄 61, 뒤): | ¹⁵²ᵐ²Tb | 【501.74(19) keV】 | 501.74(19) keV | 501.74(19) keV | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |  |
-  - [터븀 동위 원소] raw `501.74(19) keV` (줄 61, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 【501.74(19) keV】 | 501.74(19) keV | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |  |
-  - [터븀 동위 원소] raw `501.74(19) keV` (줄 61, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 501.74(19) keV | 【501.74(19) keV】 | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |  |
-  - [터븀 동위 원소] raw `501.74(19) keV` (줄 62, 뒤): | ¹⁵²ᵐ²Tb | 【501.74(19) keV】 | 501.74(19) keV | 501.74(19) keV | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |  |
-  - [터븀 동위 원소] raw `501.74(19) keV` (줄 62, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 【501.74(19) keV】 | 501.74(19) keV | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |  |
-  - [터븀 동위 원소] raw `501.74(19) keV` (줄 62, 뒤): | ¹⁵²ᵐ²Tb | 501.74(19) keV | 501.74(19) keV | 【501.74(19) keV】 | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
-  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
-  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
-  - base 8.90137e-14: [Isotopes of yttrium] raw `555.58(5) keV` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | IT | ⁹¹Y | 9/2+ |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-111
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3.5, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `3.5(2) s` (줄 19, 뒤): | ¹⁴¹Tb | 65 | 76 | 140.94145(11) | 【3.5(2) s】 | β⁺ | ¹⁴¹Gd | (5/2-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 3.75: [Isotopes of yttrium] raw `3.75(3) s` (줄 76, 두 언어 쪽): | ⁹⁷Y | 39 | 58 | 96.9182867(72) | 1970 | 【3.75(3) s】 | β⁻ (99.945%) | ⁹⁷Zr | 1/2− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-112
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 2.38e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `238 pm` (줄 28, 뒤):   - 원자 반지름: 185 pm (실험값) 【238 pm】 (계산값)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2.47e-10: [Praseodymium] raw `247 pm` (줄 62, 한쪽 언어 쪽): …Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usual…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-113
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 459648, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `5.32(6) d` (줄 72, 뒤): | ¹⁵⁵Tb | 65 | 90 | 154.923505(13) | 【5.32(6) d】 | ε | ¹⁵⁵Gd | 3/2+ |  |  |
-  - [터븀 동위 원소] raw `5.35(10) d` (줄 73, 뒤): | ¹⁵⁶Tb | 65 | 91 | 155.924747(5) | 【5.35(10) d】 | β⁺ | ¹⁵⁶Gd | 3- |  |  |
-  - [터븀 동위 원소] raw `5.35(10) d` (줄 74, 뒤): | ¹⁵⁶Tb | 65 | 91 | 155.924747(5) | 【5.35(10) d】 | β⁻ (드묾) | ¹⁵⁶Dy | 3- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 432000: [Lutetium] raw `5d` (줄 64, 두 언어 쪽): …ered in the +3 oxidation state, having lost its two outermost 6s and the single 【5d】-electron. The lutetium atom is the smallest among the lanthanide atoms, due to …
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-114
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 1.44356e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 【90.1(3) keV】 | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
-  - [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 【90.1(3) keV】 | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
-  - [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 【90.1(3) keV】 | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.34988e-14: [Thulium] raw `84.253 keV` (줄 131, 두 언어 쪽): … major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 【84.253 keV】). These radioactive sources have a useful life of about one year, as tools in m…
-  - base 1.60218e-14: [Neutron capture therapy of cancer] raw `100keV` (줄 182, 한쪽 언어 쪽): …t area. Since the nuclear reactions yield neutrons with energies ranging from < 【100keV】 to tens of MeV, a beam-shaping assembly (BSA) must be used to moderate, filter,…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-115
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 10.7, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `10.70(17) s` (줄 80, 뒤): | ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 【10.70(17) s】 | IT (99.39%) | ¹⁵⁸Tb | 0- |  |  |
-  - [터븀 동위 원소] raw `10.70(17) s` (줄 81, 뒤): | ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 【10.70(17) s】 | β⁻ (0.6%) | ¹⁵⁸Dy | 0- |  |  |
-  - [터븀 동위 원소] raw `10.70(17) s` (줄 82, 뒤): | ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 【10.70(17) s】 | β⁺ (0.01%) | ¹⁵⁸Gd | 0- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-116
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 4.25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `4.25(15) s` (줄 30, 뒤): | ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 【4.25(15) s】 | IT (66%) | ¹⁴⁴Tb | (6-) |  |  |
-  - [터븀 동위 원소] raw `4.25(15) s` (줄 31, 뒤): | ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 【4.25(15) s】 | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |  |
-  - [터븀 동위 원소] raw `4.25(15) s` (줄 32, 뒤): | ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 【4.25(15) s】 | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 4.6: [Isotopes of yttrium] raw `4.6(2) s` (줄 41, 두 언어 쪽): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 67.0(2) keV | 1976 | 【4.6(2) s】 | β⁺ | ⁸⁴Sr | 1+ |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-117
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 2.26e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `226 pm` (줄 28, 뒤):   - 원자 반지름: 175 pm (실험값) 【226 pm】 (계산값)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2.07e-10: [Lanthanum] raw `207±8 pm` (줄 31, 한쪽 언어 쪽):   - Covalent radius: 【207±8 pm】
-  - base 2.47e-10: [Praseodymium] raw `247 pm` (줄 62, 한쪽 언어 쪽): …Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usual…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [Isotopes of yttrium] `226`: | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 3.【226】(11) h | IT | ⁹⁰Y | 7+ |  |
-  - [Isotopes of yttrium] `226`: | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 3.【226】(11) h | β⁻ (0.0018%) | ⁹⁰Zr | 7+ |  |
-
-### R-ko-118
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 3.6291e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `0.36291 nm` (줄 30, 뒤):   - 격자 상수: ar = 0.89834 nm α = 23.307° ah = 【0.36291 nm】 ch = 2.6207 nm (20 °C에서)
-  - [이트륨] raw `364.83 pm` (줄 30, 뒤):   - 격자 상수: a = 【364.83 pm】 c = 573.17 pm (20 °C에서)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-119
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 4.97e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `49.7 GPa` (줄 35, 뒤):   - 영률: (α form) 【49.7 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 4.76e+10: [Lutetium] raw `47.6 GPa` (줄 41, 두 언어 쪽):   - Bulk modulus: 【47.6 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-120
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 1023.15, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이트륨] raw `750 °C` (줄 64, 뒤): 순수한 원소 상태로는 표면에 더 이상의 산화를 막는 산화피막(산화이트륨 Y2O3로 이루어진)을 생성하기 때문에 비교적 안정한 편이다. 이 산화피막은 이트륨 금속이 수증기 안에서 【750 °C】 로 가열될 때 1 μm의 두께를 가질 수 있다. 잘게 나눠졌을 때, 이트륨은 공기 중에서 불안정하다. 작은 이트륨 조각은 400 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 1000 °C 로 가열될 때 생성된다.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1068: [Praseodymium] raw `1,068 K` (줄 66, 한쪽 언어 쪽): …rystal structure at room temperature, called the alpha phase (α-Pr). At 795 °C (【1,068 K】) it transforms to a different allotrope that has a body-centered cubic structur…
-  - base 973: [Samarium–cobalt magnet] raw `973 K` (줄 13, 한쪽 언어 쪽): …tures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (【973 K】) to 800 °C (1,070 K).
-  - base 1095: [Europium] raw `1,095 K` (줄 63, 한쪽 언어 쪽): …temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (【1,095 K】).
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-121
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 6.7e-07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `670(60) ns` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 【670(60) ns】 |  |  | (9+) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 6.15e-07: [Isotopes of yttrium] raw `615(8) ns` (줄 85, 두 언어 쪽): | ⁹⁸ᵐ¹Y | 170.78(5) keV | 170.78(5) keV | 170.78(5) keV | 2017 | 【615(8) ns】 | IT | ⁹⁸Y | 2− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
 ### R-ko-122
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 4.9, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `4.9(2) s` (줄 20, 뒤): | ¹²⁹Nd | 60 | 69 | 128.93319(22)# | 【4.9(2) s】 | β⁺ | ¹²⁹Pr | 5/2+# |  |  |
-  - [네오디뮴 동위 원소] raw `4.9(2) s` (줄 21, 뒤): | ¹²⁹Nd | 60 | 69 | 128.93319(22)# | 【4.9(2) s】 | β⁺, p (드묾) | ¹²⁸Ce | 5/2+# |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 4.8: [Isotopes of yttrium] raw `4.8(3) s` (줄 30, 두 언어 쪽): | ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 【4.8(3) s】 | IT (81%) | ⁸⁰Y | 1− |  |
-  - base 4.6: [Isotopes of yttrium] raw `4.6(2) s` (줄 41, 두 언어 쪽): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 67.0(2) keV | 1976 | 【4.6(2) s】 | β⁺ | ⁸⁴Sr | 1+ |  |
-  - base 5.34: [Isotopes of yttrium] raw `5.34(5) s` (줄 73, 두 언어 쪽): | ⁹⁶Y | 39 | 57 | 95.9159093(65) | 1975 | 【5.34(5) s】 | β⁻ | ⁹⁶Zr | 0− |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-123
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3.25043e+15, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `1.03×10⁸y` (줄 48, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 【1.03×10⁸y】 α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.7…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
-  - [Ytterbium] `1.03`: …o the material used to make the laser. Ytterbium lasers commonly radiate in the 【1.03】–1.12 μm band being optically pumped at wavelength 900 nm–1 μm, dependently on t…
-  - [Lanthanum] `1.03`: … half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 【1.03】×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
-  - [Lanthanum] `1.03`: …pe ¹³⁸ La is one of the few primordial odd–odd nuclei, with a long half-life of 【1.03】×10¹¹ years. It is one of the proton-rich p-nuclei which cannot be produced in t…
-
-### R-ko-124
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 456, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `7.60(15) min` (줄 87, 뒤): | ¹⁶²Tb | 65 | 97 | 161.92949(4) | 【7.60(15) min】 | β⁻ | ¹⁶²Dy | 1- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 424.8: [Isotopes of yttrium] raw `7.08(8) min` (줄 37, 두 언어 쪽): | ⁸³Y | 39 | 44 | 82.922484(20) | 1962 | 【7.08(8) min】 | β⁺ | ⁸³Sr | (9/2+) |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-125
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.00041, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `410(30) µs` (줄 30, 뒤): | ¹³⁴ᵐNd | 2293.1(4) keV | 2293.1(4) keV | 2293.1(4) keV | 【410(30) µs】 |  |  | (8)- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [Dysprosium] `410`:   - Vickers hardness: 【410】–550 MPa
-
-### R-ko-126
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 4472, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [이트륨] raw `4.472 g/cm³` (줄 18, 뒤):   - 밀도 (상온 근처): 【4.472 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-127
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 3.78e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [사마륨] raw `37.8 GPa` (줄 37, 뒤):   - 부피 탄성 계수: (α form) 【37.8 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 3.7e+10: [Europium] raw `37 GPa` (줄 67, 한쪽 언어 쪽): …rately modulated monoclinic structure, known as Eu-IV, which is stable to about 【37 GPa】; another structural transition occurs at higher pressure.
-  - base 3.66e+10: [Lanthanum] raw `36.6 GPa` (줄 40, 한쪽 언어 쪽):   - Young's modulus: α form: 【36.6 GPa】
-  - base 4.05e+10: [Dysprosium] raw `40.5 GPa` (줄 42, 두 언어 쪽):   - Bulk modulus: 【40.5 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-128
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 0.000186, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `186(4) µs` (줄 64, 뒤): | ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 【186(4) µs】 |  |  | 11/2- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-129
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 4.1e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3477,15 +3433,17 @@
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
   - [Dysprosium] `410`:   - Vickers hardness: 【410】–550 MPa
 
-### R-ko-130
+### R-ko-123
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 102888, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 812160, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `28.58 h` (줄 47, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 【28.58 h】 ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹T…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [어븀] raw `9.4 d` (줄 49, 뒤): …DP ¹⁶⁰Er 인공 28.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 【9.4 d】 β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.3 h β⁻ 0.891 ¹⁷²Tm
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 799200: [Thulium] raw `9.25 d` (줄 53, 두 언어 쪽): …in isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁶⁷Tm synth 【9.25 d】 ε ¹⁶⁷Er ¹⁶⁸Tm synth 93.1 d β⁺ ¹⁶⁸Er ¹⁶⁹Tm 100% stable ¹⁷⁰Tm synth 128.6 d β⁻ ¹⁷…
+  - base 777600: [Lutetium] raw `9 days` (줄 81, 두 언어 쪽): …s. All of the remaining radioactive isotopes have half-lives that are less than 【9 days】, and the majority of these have half-lives that are less than half an hour. Iso…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-131
+### R-ko-124
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 348, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3497,73 +3455,72 @@
   - [Isotopes of yttrium] `5.8`: | ⁷⁸ᵐY | ~300 keV | ~300 keV | ~300 keV | 1998 | 【5.8】(6) s | β⁺, p? | ⁷⁷Rb | (5+) |  |
   - [Neutron capture therapy of cancer] `5.8`: …ata, the MeST was reported as 14.2 months and the time to tumor progression was 【5.8】 months. However, more careful examination of the complete survival data reveale…
 
-### R-ko-132
+### R-ko-125
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.28486e-14, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 8.72385e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `517.1(5) keV` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 【517.1(5) keV】 | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |
-  - [터븀 동위 원소] raw `517.1(5) keV` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 【517.1(5) keV】 | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |
-  - [터븀 동위 원소] raw `517.1(5) keV` (줄 34, 뒤): | ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 【517.1(5) keV】 | 670(60) ns |  |  | (9+) |  |  |
-  - [네오디뮴 동위 원소] raw `519.43(17) keV` (줄 35, 뒤): | ¹³⁷ᵐNd | 【519.43(17) keV】 | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |
-  - [네오디뮴 동위 원소] raw `519.43(17) keV` (줄 35, 뒤): | ¹³⁷ᵐNd | 519.43(17) keV | 【519.43(17) keV】 | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |
-  - [네오디뮴 동위 원소] raw `519.43(17) keV` (줄 35, 뒤): | ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 【519.43(17) keV】 | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |
+  - [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 뒤): | ¹⁴⁴ᵐ⁴Tb | 【544.5(6) keV】 | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |
+  - [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 뒤): | ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 【544.5(6) keV】 | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |
+  - [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 뒤): | ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 【544.5(6) keV】 | <300 ns |  |  | (10+) |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
-  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
   - base 8.90137e-14: [Isotopes of yttrium] raw `555.58(5) keV` (줄 63, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | IT | ⁹¹Y | 9/2+ |  |
-  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
+  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
+  - base 9.51693e-14: [Isotopes of yttrium] raw `594(10) keV` (줄 90, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 【594(10) keV】 | 594(10) keV | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
+  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-133
+### R-ko-126
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 7160, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `7.16 g/cm³` (줄 19, 뒤):   - 액체(녹는점)일 때: 【7.16 g/cm³】
+  - [사마륨] raw `7.16 g/cm³` (줄 20, 뒤):   - 액체(녹는점)일 때: 【7.16 g/cm³】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
-  - base 6973: [Ytterbium] raw `6.973 g/cm³` (줄 73, 두 언어 쪽): …bium crystallizes in the face-centered cubic system. Ytterbium has a density of 【6.973 g/cm³】, which is significantly lower than those of the neighboring lanthanides, thuliu…
-  - base 6903: [Ytterbium] raw `6.903 g/cm³` (줄 67, 두 언어 쪽): …z/cu in]) has a body-centered cubic crystalline structure. The alpha allotrope (【6.903 g/cm³】 [3.990 oz/cu in]) has a hexagonal crystalline structure and is stable at low te…
+  - base 6973: [Ytterbium] raw `6.973 g/cm³` (줄 74, 두 언어 쪽): …bium crystallizes in the face-centered cubic system. Ytterbium has a density of 【6.973 g/cm³】, which is significantly lower than those of the neighboring lanthanides, thuliu…
+  - base 6903: [Ytterbium] raw `6.903 g/cm³` (줄 68, 두 언어 쪽): …z/cu in]) has a body-centered cubic crystalline structure. The alpha allotrope (【6.903 g/cm³】 [3.990 oz/cu in]) has a hexagonal crystalline structure and is stable at low te…
   - base 6773: [Praseodymium] raw `6.773 g/cm³` (줄 19, 한쪽 언어 쪽):   - Density (at 20° C): 【6.773 g/cm³】
-  - base 6570: [Ytterbium] raw `6.57 g/cm³` (줄 67, 두 언어 쪽): … a face-centered cubic crystal structure. The high-temperature gamma allotrope (【6.57 g/cm³】 [3.80 oz/cu in]) has a body-centered cubic crystalline structure. The alpha all…
+  - base 6570: [Ytterbium] raw `6.57 g/cm³` (줄 68, 두 언어 쪽): … a face-centered cubic crystal structure. The high-temperature gamma allotrope (【6.57 g/cm³】 [3.80 oz/cu in]) has a body-centered cubic crystalline structure. The alpha all…
   - base 6500: [Praseodymium] raw `6.50 g/cm³` (줄 20, 한쪽 언어 쪽):   - when liquid (at m.p.): 【6.50 g/cm³】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-134
+### R-ko-127
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 2.6207e-09, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `2.6207 nm` (줄 30, 뒤):   - 격자 상수: ar = 0.89834 nm α = 23.307° ah = 0.36291 nm ch = 【2.6207 nm】 (20 °C에서)
+  - [사마륨] raw `2.6207 nm` (줄 32, 뒤):   - 격자 상수: ar = 0.89834 nm α = 23.307° ah = 0.36291 nm ch = 【2.6207 nm】 (20 °C에서)
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-135
+### R-ko-128
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열전도율, base 17.2, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 6.35e+10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `17.2 W/(m·K)` (줄 32, 뒤):   - 열전도율: 【17.2 W/(m·K)】
+  - [이트륨] raw `63.5 GPa` (줄 37, 뒤):   - 영률: 【63.5 GPa】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 16.9: [Thulium] raw `16.9 W/(m⋅K)` (줄 36, 두 언어 쪽):   - Thermal conductivity: 【16.9 W/(m⋅K)】
-  - base 16.4: [Lutetium] raw `16.4 W/(m⋅K)` (줄 36, 두 언어 쪽):   - Thermal conductivity: 【16.4 W/(m⋅K)】
+  - base 6.14e+10: [Dysprosium] raw `61.4 GPa` (줄 41, 두 언어 쪽):   - Young's modulus: 【61.4 GPa】
+  - base 6.86e+10: [Lutetium] raw `68.6 GPa` (줄 40, 두 언어 쪽):   - Young's modulus: 【68.6 GPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-136
+### R-ko-129
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 5904, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 112.2, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `1.64(3) h` (줄 41, 뒤): | ¹⁴⁷Tb | 65 | 82 | 146.924045(13) | 【1.64(3) h】 | β⁺ | ¹⁴⁷Gd | 1/2+# |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 5760: [Europium] raw `96 minutes` (줄 163, 한쪽 언어 쪽): … of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 【96 minutes】. Most neutron-deficient europium isotopes decay towards isotopes of samarium by…
+  - [터븀 동위 원소] raw `1.87(5) min` (줄 42, 뒤): | ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 【1.87(5) min】 | β⁺ | ¹⁴⁷Gd | (11/2)- |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-137
+### R-ko-130
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 속도, base 2830, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 8.14e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `2830 m/s` (줄 37, 뒤):   - 음속 (얇은 막대): 【2830 m/s】 (20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2710: [Dysprosium] raw `2710 m/s` (줄 43, 두 언어 쪽):   - Speed of sound thin rod: 【2710 m/s】 (at 20 °C)
+  - [어븀] raw `814 MPa` (줄 42, 뒤):   - 브리넬 굳기: 【814 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 7.55e+08: [Lutetium] raw `755` (줄 44, 두 언어 쪽):   - Vickers hardness: 【755】–1160 MPa
+  - base 7.45e+08: [Praseodymium] raw `745 MPa` (줄 46, 한쪽 언어 쪽):   - Vickers hardness: 250–【745 MPa】
+  - base 8.9e+08: [Lutetium] raw `890` (줄 45, 두 언어 쪽):   - Brinell hardness: 【890】–1300 MPa
+  - base 9e+08: [Thulium] raw `900 MPa` (줄 46, 두 언어 쪽):   - Brinell hardness: 470–【900 MPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-138
+### R-ko-131
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 249.6, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3575,7 +3532,7 @@
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
   - [Ytterbium] `4.2`: … 32 days), which is created along with the short-lived ¹⁷⁵Yb isotope (half-life 【4.2】 days) by neutron activation during the irradiation of ytterbium in nuclear reac…
 
-### R-ko-139
+### R-ko-132
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 2.05031e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3585,48 +3542,47 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-140
+### R-ko-133
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열팽창, base 1.27e-05, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `12.7 µm/(m·K)` (줄 31, 뒤):   - 열팽창: (실온) (α, poly) 【12.7 µm/(m·K)】
+  - [사마륨] raw `12.7 µm/(m·K)` (줄 33, 뒤):   - 열팽창: (실온) (α, poly) 【12.7 µm/(m·K)】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.33e-05: [Thulium] raw `13.3 µm/(m⋅K)` (줄 35, 두 언어 쪽):   - Thermal expansion: poly: 【13.3 µm/(m⋅K)】 (at r.t.)
+  - base 1.33e-05: [Thulium] raw `13.3 µm/(m⋅K)` (줄 36, 두 언어 쪽):   - Thermal expansion: poly: 【13.3 µm/(m⋅K)】 (at r.t.)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-141
+### R-ko-134
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 24.1, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 5904, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `24.1(5) s` (줄 39, 뒤): | ¹⁴⁶ᵐ¹Tb | 150(100)# keV | 150(100)# keV | 150(100)# keV | 【24.1(5) s】 | β⁺ | ¹⁴⁶Gd | 5- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [터븀 동위 원소] raw `1.64(3) h` (줄 41, 뒤): | ¹⁴⁷Tb | 65 | 82 | 146.924045(13) | 【1.64(3) h】 | β⁺ | ¹⁴⁷Gd | 1/2+# |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 5760: [Europium] raw `96 minutes` (줄 164, 한쪽 언어 쪽): … of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 【96 minutes】. Most neutron-deficient europium isotopes decay towards isotopes of samarium by…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-142
+### R-ko-135
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 5.73259e-15, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 12528, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `35.78(13) keV` (줄 48, 뒤): | ¹⁴⁹ᵐTb | 【35.78(13) keV】 | 35.78(13) keV | 35.78(13) keV | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |  |
-  - [터븀 동위 원소] raw `35.78(13) keV` (줄 48, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 【35.78(13) keV】 | 35.78(13) keV | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |  |
-  - [터븀 동위 원소] raw `35.78(13) keV` (줄 48, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 35.78(13) keV | 【35.78(13) keV】 | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |  |
-  - [터븀 동위 원소] raw `35.78(13) keV` (줄 49, 뒤): | ¹⁴⁹ᵐTb | 【35.78(13) keV】 | 35.78(13) keV | 35.78(13) keV | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |  |
-  - [터븀 동위 원소] raw `35.78(13) keV` (줄 49, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 【35.78(13) keV】 | 35.78(13) keV | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |  |
-  - [터븀 동위 원소] raw `35.78(13) keV` (줄 49, 뒤): | ¹⁴⁹ᵐTb | 35.78(13) keV | 35.78(13) keV | 【35.78(13) keV】 | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [터븀 동위 원소] raw `3.48(16) h` (줄 50, 뒤): | ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 【3.48(16) h】 | β⁺ (99.95%) | ¹⁵⁰Gd | (2-) |  |  |
+  - [터븀 동위 원소] raw `3.48(16) h` (줄 51, 뒤): | ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 【3.48(16) h】 | α (0.05%) | ¹⁴⁶Eu | (2-) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 12744: [Isotopes of yttrium] raw `3.54(1) h` (줄 65, 두 언어 쪽): | ⁹²Y | 39 | 53 | 91.9089458(98) | 1940 | 【3.54(1) h】 | β⁻ | ⁹²Zr | 2− |  |
+  - base 11613.6: [Isotopes of yttrium] raw `3.226(11) h` (줄 60, 두 언어 쪽): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | IT | ⁹⁰Y | 7+ |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-143
+### R-ko-136
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 1004.15, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `731°C` (줄 61, 뒤): 사마륨은 희토류에 속하는 원소로, 그 단단함이나 밀도가 아연과 비슷하다. 란타넘족 원소 중에서는 이터븀과 유로퓸에 이어 반응성이 세 번째로 크며, 이는 광석에서 사마륨을 분리하기가 쉬운 원인이기도 하다. 일반적인 조건에서는 삼방정계 구조(α 구조)를 가지며, 【731°C】 이상의 고온으로 가열하면 육방정계 구조로 전환된다. 전환 온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 14.8K 이하로 냉각시키면 반강자성을 띤다.
+  - [사마륨] raw `731°C` (줄 63, 뒤): 사마륨은 희토류에 속하는 원소로, 그 단단함이나 밀도가 아연과 비슷하다. 란타넘족 원소 중에서는 이터븀과 유로퓸에 이어 반응성이 세 번째로 크며, 이는 광석에서 사마륨을 분리하기가 쉬운 원인이기도 하다. 일반적인 조건에서는 삼방정계 구조(α 구조)를 가지며, 【731°C】 이상의 고온으로 가열하면 육방정계 구조로 전환된다. 전환 온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 14.8K 이하로 냉각시키면 반강자성을 띤다.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
   - base 973: [Samarium–cobalt magnet] raw `973 K` (줄 13, 한쪽 언어 쪽): …tures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (【973 K】) to 800 °C (1,070 K).
-  - base 1068: [Praseodymium] raw `1,068 K` (줄 66, 한쪽 언어 쪽): …rystal structure at room temperature, called the alpha phase (α-Pr). At 795 °C (【1,068 K】) it transforms to a different allotrope that has a body-centered cubic structur…
-  - base 1095: [Europium] raw `1,095 K` (줄 63, 한쪽 언어 쪽): …temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (【1,095 K】).
+  - base 1068: [Praseodymium] raw `1,068 K` (줄 67, 한쪽 언어 쪽): …rystal structure at room temperature, called the alpha phase (α-Pr). At 795 °C (【1,068 K】) it transforms to a different allotrope that has a body-centered cubic structur…
+  - base 1095: [Europium] raw `1,095 K` (줄 64, 한쪽 언어 쪽): …temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (【1,095 K】).
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-144
+### R-ko-137
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 684, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3635,29 +3591,29 @@
   - base 618: [Isotopes of yttrium] raw `10.3(1) min` (줄 71, 두 언어 쪽): | ⁹⁵Y | 39 | 56 | 94.9128197(73) | 1959 | 【10.3(1) min】 | β⁻ | ⁹⁵Zr | 1/2− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-145
+### R-ko-138
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 18144, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 77400, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [네오디뮴 동위 원소] raw `5.04(9) h` (줄 36, 뒤): | ¹³⁸Nd | 60 | 78 | 137.911950(13) | 【5.04(9) h】 | β⁺ | ¹³⁸Pr | 0+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 17496: [Isotopes of yttrium] raw `4.86(20) h` (줄 44, 두 언어 쪽): | ⁸⁵ᵐ¹Y | 19.68(17) keV | 19.68(17) keV | 19.68(17) keV | 1963 | 【4.86(20) h】 | β⁺ | ⁸⁵Sr | (9/2)+ |  |
+  - [터븀 동위 원소] raw `21.5(4) h` (줄 65, 뒤): | ¹⁵⁴Tb | 65 | 89 | 153.92468(5) | 【21.5(4) h】 | β⁺ (99.9%) | ¹⁵⁴Gd | 0(+#) |  |  |
+  - [터븀 동위 원소] raw `21.5(4) h` (줄 66, 뒤): | ¹⁵⁴Tb | 65 | 89 | 153.92468(5) | 【21.5(4) h】 | β⁻ (0.1%) | ¹⁵⁴Dy | 0(+#) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-146
+### R-ko-139
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 9066, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `9.066 g/cm³` (줄 18, 뒤):   - 밀도 (상온 근처): 【9.066 g/cm³】
+  - [어븀] raw `9.066 g/cm³` (줄 19, 뒤):   - 밀도 (상온 근처): 【9.066 g/cm³】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
   - base 9300: [Lutetium] raw `9.3 g/cm³` (줄 20, 두 언어 쪽):   - when liquid (at m.p.): 【9.3 g/cm³】
   - base 8550: [Dysprosium] raw `8.550 g/cm³` (줄 19, 두 언어 쪽):   - Density (at 20° C): 【8.550 g/cm³】
-  - base 9810: [Lutetium] raw `9.81 g/cm³` (줄 116, 두 언어 쪽): Lutetium tantalate (LuTaO4) is the densest known stable white material (density 【9.81 g/cm³】) and therefore is an ideal host for X-ray phosphors. The only denser white mate…
+  - base 9810: [Lutetium] raw `9.81 g/cm³` (줄 117, 두 언어 쪽): Lutetium tantalate (LuTaO4) is the densest known stable white material (density 【9.81 g/cm³】) and therefore is an ideal host for X-ray phosphors. The only denser white mate…
   - base 8370: [Dysprosium] raw `8.37 g/cm³` (줄 20, 두 언어 쪽):   - when liquid (at m.p.): 【8.37 g/cm³】
-  - base 10000: [Lutetium] raw `10 g/cm³` (줄 116, 두 언어 쪽): …y phosphors. The only denser white material is thorium dioxide, with density of 【10 g/cm³】, but the thorium it contains is radioactive.
+  - base 10000: [Lutetium] raw `10 g/cm³` (줄 117, 두 언어 쪽): …y phosphors. The only denser white material is thorium dioxide, with density of 【10 g/cm³】, but the thorium it contains is radioactive.
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-147
+### R-ko-140
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 2.29432e-13, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3668,17 +3624,17 @@
   - base 2.46735e-13: [Isotopes of yttrium] raw `1540(9) keV` (줄 74, 두 언어 쪽): | ⁹⁶ᵐ¹Y | 【1540(9) keV】 | 1540(9) keV | 1540(9) keV | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-148
+### R-ko-141
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 2067, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `2067 K` (줄 17, 뒤):   - 끓는점: 【2067 K】
+  - [사마륨] raw `2067 K` (줄 18, 뒤):   - 끓는점: 【2067 K】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
   - base 1925: [Lutetium] raw `1925 K` (줄 17, 두 언어 쪽):   - Melting point: 【1925 K】 ​(1652 °C, ​3006 °F)
   - base 2223: [Thulium] raw `2223 K` (줄 18, 두 언어 쪽):   - Boiling point: 【2223 K】 ​(1950 °C, ​3542 °F)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-149
+### R-ko-142
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 19.4, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3686,79 +3642,75 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-150
+### R-ko-143
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 4.4893e-14, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 3.25043e+15, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [터븀 동위 원소] raw `280.2(10) keV` (줄 23, 뒤): | ¹⁴²ᵐ¹Tb | 【280.2(10) keV】 | 280.2(10) keV | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |  |
-  - [터븀 동위 원소] raw `280.2(10) keV` (줄 23, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 【280.2(10) keV】 | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |  |
-  - [터븀 동위 원소] raw `280.2(10) keV` (줄 23, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 【280.2(10) keV】 | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |  |
-  - [터븀 동위 원소] raw `280.2(10) keV` (줄 24, 뒤): | ¹⁴²ᵐ¹Tb | 【280.2(10) keV】 | 280.2(10) keV | 280.2(10) keV | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |  |
-  - [터븀 동위 원소] raw `280.2(10) keV` (줄 24, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 【280.2(10) keV】 | 280.2(10) keV | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |  |
-  - [터븀 동위 원소] raw `280.2(10) keV` (줄 24, 뒤): | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 【280.2(10) keV】 | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 4.26467e-14: [Isotopes of yttrium] raw `266.18(10) keV` (줄 46, 두 언어 쪽): | ⁸⁵ᵐ²Y | 【266.18(10) keV】 | 266.18(10) keV | 266.18(10) keV | 1977 | 178(7) ns | IT | ⁸⁵Y | (5/2)− |  |
-  - base 4.80653e-14: [Isotopes of yttrium] raw `300 keV` (줄 26, 두 언어 쪽): | ⁷⁸ᵐY | ~【300 keV】 | ~300 keV | ~300 keV | 1998 | 5.8(6) s | β⁺ | ⁷⁸Sr | (5+) |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-151
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 62, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [네오디뮴 동위 원소] raw `62.0(8) s` (줄 45, 뒤): | ¹⁴¹ᵐNd | 756.51(5) keV | 756.51(5) keV | 756.51(5) keV | 【62.0(8) s】 | IT (99.95%) | ¹⁴¹Nd | 11/2- |  |  |
-  - [네오디뮴 동위 원소] raw `62.0(8) s` (줄 46, 뒤): | ¹⁴¹ᵐNd | 756.51(5) keV | 756.51(5) keV | 756.51(5) keV | 【62.0(8) s】 | β⁺ (0.05%) | ¹⁴¹Pr | 11/2- |  |  |
+  - [사마륨] raw `1.03×10⁸y` (줄 50, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 【1.03×10⁸y】 α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.7…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
+  - [Ytterbium] `1.03`: …o the material used to make the laser. Ytterbium lasers commonly radiate in the 【1.03】–1.12 μm band being optically pumped at wavelength 900 nm–1 μm, dependently on t…
+  - [Lanthanum] `1.03`: … half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 【1.03】×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
+  - [Lanthanum] `1.03`: …pe ¹³⁸ La is one of the few primordial odd–odd nuclei, with a long half-life of 【1.03】×10¹¹ years. It is one of the proton-rich p-nuclei which cannot be produced in t…
+
+### R-ko-144
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 18144, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [네오디뮴 동위 원소] raw `5.04(9) h` (줄 36, 뒤): | ¹³⁸Nd | 60 | 78 | 137.911950(13) | 【5.04(9) h】 | β⁺ | ¹³⁸Pr | 0+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 17496: [Isotopes of yttrium] raw `4.86(20) h` (줄 44, 두 언어 쪽): | ⁸⁵ᵐ¹Y | 19.68(17) keV | 19.68(17) keV | 19.68(17) keV | 1963 | 【4.86(20) h】 | β⁺ | ⁸⁵Sr | (9/2)+ |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-152
+### R-ko-145
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 8964, 표 안 예, 시험 대상 밖 예
 - 언급:
   - [네오디뮴 동위 원소] raw `2.49(3) h` (줄 44, 뒤): | ¹⁴¹Nd | 60 | 81 | 140.909610(4) | 【2.49(3) h】 | β⁺ | ¹⁴¹Pr | 3/2+ |  |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 8395.2: [Dysprosium] raw `2.332 h` (줄 53, 두 언어 쪽): …table ¹⁶²Dy 25.475% stable ¹⁶³Dy 24.896% stable ¹⁶⁴Dy 28.26% stable ¹⁶⁵Dy synth 【2.332 h】 β⁻ ¹⁶⁵Ho ¹⁶⁶Dy synth 3.40 d β⁻ ¹⁶⁶Ho
+  - base 8395.2: [Dysprosium] raw `2.332 h` (줄 54, 두 언어 쪽): …table ¹⁶²Dy 25.475% stable ¹⁶³Dy 24.896% stable ¹⁶⁴Dy 28.26% stable ¹⁶⁵Dy synth 【2.332 h】 β⁻ ¹⁶⁵Ho ¹⁶⁶Dy synth 3.40 d β⁻ ¹⁶⁶Ho
   - base 9648: [Isotopes of yttrium] raw `2.68(5) h` (줄 43, 두 언어 쪽): | ⁸⁵Y | 39 | 46 | 84.916433(20) | 1952 | 【2.68(5) h】 | β⁺ | ⁸⁵Sr | (1/2)− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-153
+### R-ko-146
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 밀도, base 4240, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 365000, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `4.24 g/cm³` (줄 19, 뒤):   - 액체(녹는점)일 때: 【4.24 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-154
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 2.83e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `28.3 GPa` (줄 35, 뒤):   - 전단 탄성 계수: 【28.3 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 2.79e+10: [Lanthanum] raw `27.9 GPa` (줄 42, 한쪽 언어 쪽):   - Bulk modulus: α form: 【27.9 GPa】
-  - base 2.88e+10: [Praseodymium] raw `28.8 GPa` (줄 42, 한쪽 언어 쪽):   - Bulk modulus: 【28.8 GPa】
-  - base 2.72e+10: [Lutetium] raw `27.2 GPa` (줄 40, 두 언어 쪽):   - Shear modulus: 【27.2 GPa】
-  - base 3.05e+10: [Thulium] raw `30.5 GPa` (줄 41, 두 언어 쪽):   - Shear modulus: 【30.5 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-155
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 112.2, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [터븀 동위 원소] raw `1.87(5) min` (줄 42, 뒤): | ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 【1.87(5) min】 | β⁺ | ¹⁴⁷Gd | (11/2)- |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-156
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 812160, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `9.4 d` (줄 47, 뒤): …DP ¹⁶⁰Er 인공 28.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 【9.4 d】 β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.3 h β⁻ 0.891 ¹⁷²Tm
+  - [이트륨] raw `365 kJ/mol` (줄 22, 뒤):   - 기화열: 【365 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 799200: [Thulium] raw `9.25 d` (줄 52, 두 언어 쪽): …in isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁶⁷Tm synth 【9.25 d】 ε ¹⁶⁷Er ¹⁶⁸Tm synth 93.1 d β⁺ ¹⁶⁸Er ¹⁶⁹Tm 100% stable ¹⁷⁰Tm synth 128.6 d β⁻ ¹⁷…
-  - base 777600: [Lutetium] raw `9 days` (줄 80, 두 언어 쪽): …s. All of the remaining radioactive isotopes have half-lives that are less than 【9 days】, and the majority of these have half-lives that are less than half an hour. Iso…
+  - base 400000: [Lanthanum] raw `400 kJ/mol` (줄 22, 한쪽 언어 쪽):   - Heat of vaporization: 【400 kJ/mol】
+  - base 331000: [Praseodymium] raw `331 kJ/mol` (줄 22, 한쪽 언어 쪽):   - Heat of vaporization: 【331 kJ/mol】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-157
+### R-ko-147
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 5.89e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `589 MPa` (줄 41, 뒤):   - 비커스 굳기: 【589 MPa】
+  - [이트륨] raw `589 MPa` (줄 42, 뒤):   - 브리넬 굳기: 【589 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 5.5e+08: [Dysprosium] raw `550 MPa` (줄 46, 두 언어 쪽):   - Vickers hardness: 410–【550 MPa】
+  - base 6.4e+08: [Praseodymium] raw `640 MPa` (줄 47, 한쪽 언어 쪽):   - Brinell hardness: 250–【640 MPa】
+  - base 6.5e+08: [Thulium] raw `650 MPa` (줄 45, 두 언어 쪽):   - Vickers hardness: 470–【650 MPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-148
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 132, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `2.20(5) min` (줄 44, 뒤): | ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 【2.20(5) min】 | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-149
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 177480, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [어븀] raw `49.3 h` (줄 49, 뒤): …6 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 【49.3 h】 β⁻ 0.891 ¹⁷²Tm
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-150
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 93.6, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3766,26 +3718,27 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-158
+### R-ko-151
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 8620, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `8.62 kJ/mol` (줄 20, 뒤):   - 융해열: 【8.62 kJ/mol】
+  - [사마륨] raw `8.62 kJ/mol` (줄 21, 뒤):   - 융해열: 【8.62 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
   - base 9210: [Europium] raw `9.21 kJ/mol` (줄 21, 한쪽 언어 쪽):   - Heat of fusion: 【9.21 kJ/mol】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-159
+### R-ko-152
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 4.12e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 온도, base 1023.15, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `41.2 GPa` (줄 37, 뒤):   - 부피 탄성 계수: 【41.2 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 4.05e+10: [Dysprosium] raw `40.5 GPa` (줄 42, 두 언어 쪽):   - Bulk modulus: 【40.5 GPa】
-  - base 4.45e+10: [Thulium] raw `44.5 GPa` (줄 42, 두 언어 쪽):   - Bulk modulus: 【44.5 GPa】
+  - [이트륨] raw `750 °C` (줄 66, 뒤): 순수한 원소 상태로는 표면에 더 이상의 산화를 막는 산화피막(산화이트륨 Y2O3로 이루어진)을 생성하기 때문에 비교적 안정한 편이다. 이 산화피막은 이트륨 금속이 수증기 안에서 【750 °C】 로 가열될 때 1 μm의 두께를 가질 수 있다. 잘게 나눠졌을 때, 이트륨은 공기 중에서 불안정하다. 작은 이트륨 조각은 400 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 1000 °C 로 가열될 때 생성된다.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1068: [Praseodymium] raw `1,068 K` (줄 67, 한쪽 언어 쪽): …rystal structure at room temperature, called the alpha phase (α-Pr). At 795 °C (【1,068 K】) it transforms to a different allotrope that has a body-centered cubic structur…
+  - base 973: [Samarium–cobalt magnet] raw `973 K` (줄 13, 한쪽 언어 쪽): …tures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (【973 K】) to 800 °C (1,070 K).
+  - base 1095: [Europium] raw `1,095 K` (줄 64, 한쪽 언어 쪽): …temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (【1,095 K】).
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-160
+### R-ko-153
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 330, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3793,58 +3746,55 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-161
+### R-ko-154
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 압력, base 6.99e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 속도, base 2830, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [어븀] raw `69.9 GPa` (줄 34, 뒤):   - 영률: 【69.9 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 6.86e+10: [Lutetium] raw `68.6 GPa` (줄 39, 두 언어 쪽):   - Young's modulus: 【68.6 GPa】
-  - base 7.4e+10: [Thulium] raw `74.0 GPa` (줄 40, 두 언어 쪽):   - Young's modulus: 【74.0 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-ko-162
-
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 37296, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [어븀] raw `10.36 h` (줄 47, 뒤):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 28.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 【10.36 h】 ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.…
+  - [어븀] raw `2830 m/s` (줄 39, 뒤):   - 음속 (얇은 막대): 【2830 m/s】 (20 °C)
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 36648: [Isotopes of yttrium] raw `10.18(8) h` (줄 67, 두 언어 쪽): | ⁹³Y | 39 | 54 | 92.909578(11) | 1948 | 【10.18(8) h】 | β⁻ | ⁹³Zr | 1/2− |  |
+  - base 2710: [Dysprosium] raw `2710 m/s` (줄 44, 두 언어 쪽):   - Speed of sound thin rod: 【2710 m/s】 (at 20 °C)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-163
+### R-ko-155
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 6.24672e+06, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 27057.6, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [터븀 동위 원소] raw `72.3(2) d` (줄 85, 뒤): | ¹⁶⁰Tb | 65 | 95 | 159.9271676(27) | 【72.3(2) d】 | β⁻ | ¹⁶⁰Dy | 3- |  |  |
+  - [어븀] raw `7.516 h` (줄 49, 뒤): … 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 【7.516 h】 β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.3 h β⁻ 0.891 ¹⁷²Tm
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-164
+### R-ko-156
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 에너지, base 7.32195e-14, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1170, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [터븀 동위 원소] raw `457(29) keV` (줄 52, 뒤): | ¹⁵⁰ᵐTb | 【457(29) keV】 | 457(29) keV | 457(29) keV | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
-  - [터븀 동위 원소] raw `457(29) keV` (줄 52, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 【457(29) keV】 | 457(29) keV | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
-  - [터븀 동위 원소] raw `457(29) keV` (줄 52, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 【457(29) keV】 | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
-  - [터븀 동위 원소] raw `457(29) keV` (줄 53, 뒤): | ¹⁵⁰ᵐTb | 【457(29) keV】 | 457(29) keV | 457(29) keV | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
-  - [터븀 동위 원소] raw `457(29) keV` (줄 53, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 【457(29) keV】 | 457(29) keV | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
-  - [터븀 동위 원소] raw `457(29) keV` (줄 53, 뒤): | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 【457(29) keV】 | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 7.46134e-14: [Isotopes of yttrium] raw `465.7(7) keV` (줄 86, 두 언어 쪽): | ⁹⁸ᵐ²Y | 【465.7(7) keV】 | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ …
-  - base 7.9484e-14: [Isotopes of yttrium] raw `496.10(11) keV` (줄 89, 두 언어 쪽): | ⁹⁸ᵐ³Y | 【496.10(11) keV】 | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |
-  - base 8.13105e-14: [Isotopes of yttrium] raw `507.50(13) keV` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |
+  - [터븀 동위 원소] raw `19.5(3) min` (줄 88, 뒤): | ¹⁶³Tb | 65 | 98 | 162.930648(5) | 【19.5(3) min】 | β⁻ | ¹⁶³Dy | 3/2+ |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1200: [Ytterbium] raw `20 minutes` (줄 101, 두 언어 쪽): …alf-lives that are less than 2 hours, with the majority of them being less than 【20 minutes】. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-…
+  - base 1122: [Isotopes of yttrium] raw `18.7(1) min` (줄 69, 두 언어 쪽): | ⁹⁴Y | 39 | 55 | 93.9115921(68) | 1948 | 【18.7(1) min】 | β⁻ | ⁹⁴Zr | 2− |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-165
+### R-ko-157
+
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 63000, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [터븀 동위 원소] raw `17.5(1) h` (줄 58, 뒤): | ¹⁵²Tb | 65 | 87 | 151.92407(4) | 【17.5(1) h】 | β⁺ | ¹⁵²Gd | 2- |  |  |
+  - [터븀 동위 원소] raw `17.5(1) h` (줄 59, 뒤): | ¹⁵²Tb | 65 | 87 | 151.92407(4) | 【17.5(1) h】 | α (7×10⁻⁷%) | ¹⁴⁸Eu | 2- |  |  |
+  - [터븀 동위 원소] raw `17.609(1) h` (줄 54, 뒤): | ¹⁵¹Tb | 65 | 86 | 150.923103(5) | 【17.609(1) h】 | β⁺ (99.99%) | ¹⁵¹Gd | 1/2(+) |  |  |
+  - [터븀 동위 원소] raw `17.609(1) h` (줄 55, 뒤): | ¹⁵¹Tb | 65 | 86 | 150.923103(5) | 【17.609(1) h】 | α (0.0095%) | ¹⁴⁷Eu | 1/2(+) |  |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 61200: [Dysprosium] raw `17 hours` (줄 150, 두 언어 쪽): …duced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 450 bars for 【17 hours】. This material is remarkably robust, surviving over 100 hours in various aqueou…
+  - base 68832: [Praseodymium] raw `19.12 h` (줄 53, 한쪽 언어 쪽): …Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 【19.12 h】 β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 13.57 d β⁻ ¹⁴³Nd
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-ko-158
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 길이, base 6.8e-09, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [사마륨] raw `6.8` (줄 102, 뒤): - 사마륨-149는 중성자를 잘 흡수하는 성질이 있으므로 원자로의 제어봉에 들어간다. X선 레이저의 제조에도 사용되는데, 이 경우 【6.8】~7.3나노미터의 파장을 가진 X선이 50피코초 동안 방출되므로 다양한 분야에 응용된다.
+  - [사마륨] raw `6.8` (줄 104, 뒤): - 사마륨-149는 중성자를 잘 흡수하는 성질이 있으므로 원자로의 제어봉에 들어간다. X선 레이저의 제조에도 사용되는데, 이 경우 【6.8】~7.3나노미터의 파장을 가진 X선이 50피코초 동안 방출되므로 다양한 분야에 응용된다.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-166
+### R-ko-159
 
 - 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 시간, base 1.35e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3854,28 +3804,85 @@
   - base 1.48e-07: [Isotopes of yttrium] raw `148(6) ns` (줄 36, 두 언어 쪽): | ⁸²ᵐ²Y | 507.50(13) keV | 507.50(13) keV | 507.50(13) keV | 1993 | 【148(6) ns】 | IT | ⁸²Y | 6+ |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-ko-167
+### R-ko-160
 
-- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 365000, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 ko, 쪽 한쪽 언어 쪽, dim 열팽창, base 1.06e-05, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [이트륨] raw `365 kJ/mol` (줄 21, 뒤):   - 기화열: 【365 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 400000: [Lanthanum] raw `400 kJ/mol` (줄 22, 한쪽 언어 쪽):   - Heat of vaporization: 【400 kJ/mol】
-  - base 331000: [Praseodymium] raw `331 kJ/mol` (줄 22, 한쪽 언어 쪽):   - Heat of vaporization: 【331 kJ/mol】
+  - [이트륨] raw `10.6 µm/(m·K)` (줄 33, 뒤):   - 열팽창: (실온) (α, poly) 【10.6 µm/(m·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 9.9e-06: [Dysprosium] raw `9.9 µm/(m⋅K)` (줄 36, 두 언어 쪽):   - Thermal expansion: poly: 【9.9 µm/(m⋅K)】 (r.t.)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-001
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.55759e-13, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 9.51693e-15, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `972.17(20) keV` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 【972.17(20) keV】 | 972.17(20) keV | 972.17(20) keV | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `972.17(20) keV` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 972.17(20) keV | 【972.17(20) keV】 | 972.17(20) keV | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `972.17(20) keV` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 972.17(20) keV | 972.17(20) keV | 【972.17(20) keV】 | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.45633e-13: [이트륨 동위 원소] raw `908.97(3) keV` (줄 45, 두 언어 쪽): | ⁸⁹ᵐY | 【908.97(3) keV】 | 908.97(3) keV | 908.97(3) keV | 15.663(5) s | IT | ⁸⁹Y | 9/2+ |  |  |
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `59.4` (줄 132, 뒤): …r to produce the isotope thulium-170, having a half-life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 【59.4】 and 84.253 keV). These radioactive sources have a useful life of about one year, as tools in medical and dental diagnosis, as well as to detect defec…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 9.93029e-15: [이트륨 동위 원소] raw `61.98(11) keV` (줄 26, 두 언어 쪽): | ⁸³ᵐY | 【61.98(11) keV】 | 61.98(11) keV | 61.98(11) keV | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2-) |  |  …
+  - base 1.04141e-14: [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 한쪽 언어 쪽): | ¹³⁵ᵐNd | 【65.0(2) keV】 | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
+  - base 8.65175e-15: [터븀 동위 원소] raw `54(3) keV` (줄 75, 한쪽 언어 쪽): | ¹⁵⁶ᵐ¹Tb | 【54(3) keV】 | 54(3) keV | 54(3) keV | 24.4(10) h | IT | ¹⁵⁶Tb | (7-) |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-002
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.62604e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `97.9223948(85)` (줄 83, 머리글): | ⁹⁸Y | 39 | 59 | 【97.9223948(85)】 | 1970 | 548(2) ms | β⁻ (99.67%) | ⁹⁸Zr | 0− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `97.9223948(85)` (줄 84, 머리글): | ⁹⁸Y | 39 | 59 | 【97.9223948(85)】 | 1970 | 548(2) ms | β⁻, n (0.33%) | ⁹⁷Zr | 0− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-003
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.0335, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `33.5(3) ms` (줄 119, 뒤): | ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 【33.5(3) ms】 | β⁻ | ¹⁰⁷Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `33.5(3) ms` (줄 120, 뒤): | ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 【33.5(3) ms】 | β⁻, n? | ¹⁰⁶Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `33.5(3) ms` (줄 121, 뒤): | ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 【33.5(3) ms】 | β⁻, 2n? | ¹⁰⁵Zr | 5/2+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-004
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 4.5e+07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `450 bars` (줄 150, 뒤): …her materials and act as a catalyst. Fibers of dysprosium oxide fluoride can be produced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 【450 bars】 for 17 hours. This material is remarkably robust, surviving over 100 hours in various aqueous solutions at temperatures exceeding 400 °C without redi…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-005
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.55944e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `93.9115921(68)` (줄 69, 머리글): | ⁹⁴Y | 39 | 55 | 【93.9115921(68)】 | 1948 | 18.7(1) min | β⁻ | ⁹⁴Zr | 2− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-006
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.726e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `103.94194(22)` (줄 110, 머리글): | ¹⁰⁴Y | 39 | 65 | 【103.94194(22)】# | 1994 | 197(4) ms | β⁻ (66%) | ¹⁰⁴Zr | (0+,1+)# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `103.94194(22)` (줄 111, 머리글): | ¹⁰⁴Y | 39 | 65 | 【103.94194(22)】# | 1994 | 197(4) ms | β⁻, n (34%) | ¹⁰³Zr | (0+,1+)# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `103.94194(22)` (줄 112, 머리글): | ¹⁰⁴Y | 39 | 65 | 【103.94194(22)】# | 1994 | 197(4) ms | β⁻, 2n? | ¹⁰²Zr | (0+,1+)# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `104.94571(43)` (줄 113, 머리글): | ¹⁰⁵Y | 39 | 66 | 【104.94571(43)】# | 1994 | 95(9) ms | β⁻ | ¹⁰⁵Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `104.94571(43)` (줄 114, 머리글): | ¹⁰⁵Y | 39 | 66 | 【104.94571(43)】# | 1994 | 95(9) ms | β⁻, n (<82%) | ¹⁰⁴Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `104.94571(43)` (줄 115, 머리글): | ¹⁰⁵Y | 39 | 66 | 【104.94571(43)】# | 1994 | 95(9) ms | β⁻, 2n? | ¹⁰³Zr | 5/2+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-007
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.064e-06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `1064 nm` (줄 175, 뒤): …ation of Low NA, Large Mode Area fibers enable achievement of near perfect beam qualities (M2<1.1) at power levels of 1.5 kW to greater than 2 kW at ~【1064 nm】 in a broadband configuration. Ytterbium-doped LMA fibers also have the advantages of a larger mode field diameter, which negates the impacts of nonli…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1.12e-06: [이터븀] raw `1.12 마이크로미터` (줄 138, 두 언어 쪽): …율이고 수명이 길며 짧은 펄스광을 발생시킬 수 있다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 【1.12 마이크로미터】의 선에서 파장 900 nm~1 마이크로미터의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
+  - base 1e-06: [이터븀] raw `1 마이크로미터` (줄 138, 두 언어 쪽): …다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 1.12 마이크로미터의 선에서 파장 900 nm~【1 마이크로미터】의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-008
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.26133e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3885,53 +3892,37 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-003
+### R-en-009
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 출력, base 1500, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 1.05e+09, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `1.5 kW` (줄 174, 뒤): …l as the Yb-doped fibers. Fabrication of Low NA, Large Mode Area fibers enable achievement of near perfect beam qualities (M2<1.1) at power levels of 【1.5 kW】 to greater than 2 kW at ~1064 nm in a broadband configuration. Ytterbium-doped LMA fibers also have the advantages of a larger mode field diameter, w…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `1.5`: | ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 49.71(4) min | β⁻ (【1.5】%) | ⁹¹Zr | 9/2+ |  |  |
-
-### R-en-004
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 4.41806e+13, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1.40×10⁶ y` (줄 53, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁴Dy synth 【1.40×10⁶ y】 α ¹⁵⁰Gd ¹⁵⁶Dy 0.056% stable ¹⁵⁸Dy 0.095% stable ¹⁵⁹Dy synth 144.4 d ε ¹⁵⁹Tb ¹⁶⁰Dy 2.329% stable ¹⁶¹Dy 18.8889999999% stable ¹⁶²Dy 25.475% stable ¹⁶³D…
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1.40×10⁶ years` (줄 106, 뒤): Twenty-nine radioisotopes have been synthesized, ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 【1.40×10⁶ years】, followed by ¹⁵⁹Dy with a half-life of 144.4 days. As a general rule, isotopes that are lighter than the stable isotopes tend to decay primarily by β…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1050 MPa` (줄 47, 뒤):   - Brinell hardness: 500–【1050 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.16e+09: [루테튬] raw `1160 MPa` (줄 39, 두 언어 쪽):   - 비커스 굳기: 【1160 MPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-005
+### R-en-010
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.5428e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.44319e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `92.909578(11)` (줄 67, 머리글): | ⁹³Y | 39 | 54 | 【92.909578(11)】 | 1948 | 10.18(8) h | β⁻ | ⁹³Zr | 1/2− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `86.9108761(12)` (줄 51, 머리글): | ⁸⁷Y | 39 | 48 | 【86.9108761(12)】 | 1940 | 79.8(3) h | β⁺ | ⁸⁷Sr | 1/2− |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-006
+### R-en-011
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.07346e-14, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 3.3713e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `67.0(2) keV` (줄 41, 뒤): | ⁸⁴ᵐ¹Y | 【67.0(2) keV】 | 67.0(2) keV | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `67.0(2) keV` (줄 41, 뒤): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 【67.0(2) keV】 | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `67.0(2) keV` (줄 41, 뒤): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 【67.0(2) keV】 | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.04141e-14: [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 한쪽 언어 쪽): | ¹³⁵ᵐNd | 【65.0(2) keV】 | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
-  - base 9.93029e-15: [이트륨 동위 원소] raw `61.98(11) keV` (줄 26, 두 언어 쪽): | ⁸³ᵐY | 【61.98(11) keV】 | 61.98(11) keV | 61.98(11) keV | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2-) |  |  …
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `210.42(16) keV` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 【210.42(16) keV】 | 210.42(16) keV | 210.42(16) keV | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `210.42(16) keV` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 210.42(16) keV | 【210.42(16) keV】 | 210.42(16) keV | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `210.42(16) keV` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 【210.42(16) keV】 | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 3.49755e-14: [이트륨 동위 원소] raw `218.30(20) keV` (줄 35, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 【218.30(20) keV】 | 218.30(20) keV | 218.30(20) keV | 48(1) min | IT (99.31%) | ⁸⁶Y | (8+) |  |  …
+  - base 3.66097e-14: [이트륨 동위 원소] raw `228.5(1) keV` (줄 19, 두 언어 쪽): | ⁸⁰ᵐ¹Y | 【228.5(1) keV】 | 228.5(1) keV | 228.5(1) keV | 4.8(3) s |  |  | (1-) |  |  |
+  - base 3.70343e-14: [네오디뮴 동위 원소] raw `231.15(5) keV` (줄 39, 한쪽 언어 쪽): | ¹³⁹ᵐ¹Nd | 【231.15(5) keV】 | 231.15(5) keV | 231.15(5) keV | 5.50(20) h | β⁺ (88.2%) | ¹³⁹Pr | 11/2- |  | …
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-007
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 4.5e+07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `450 bars` (줄 149, 뒤): …her materials and act as a catalyst. Fibers of dysprosium oxide fluoride can be produced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 【450 bars】 for 17 hours. This material is remarkably robust, surviving over 100 hours in various aqueous solutions at temperatures exceeding 400 °C without redi…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-008
+### R-en-012
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.025, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -3946,84 +3937,24 @@
   - [이트륨 동위 원소] `25`: | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 268(【25】) ns |  |  | 4- |  |  |
   - [이트륨 동위 원소] `25`: | ⁹⁶Y | 39 | 57 | 95.915891(【25】) | 5.34(5) s | β⁻ | ⁹⁶Zr | 0- |  |  |
 
-### R-en-009
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 11613.6, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `3.226(11) h` (줄 60, 뒤): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | IT | ⁹⁰Y | 7+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `3.226(11) h` (줄 61, 뒤): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | β⁻ (0.0018%) | ⁹⁰Zr | 7+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 11484: [이트륨 동위 원소] raw `3.19(6) h` (줄 47, 두 언어 쪽): | ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 【3.19(6) h】 | IT (99.99%) | ⁹⁰Y | 7+ |  |  |
-  - base 12528: [터븀 동위 원소] raw `3.48(16) h` (줄 50, 한쪽 언어 쪽): | ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 【3.48(16) h】 | β⁺ (99.95%) | ¹⁵⁰Gd | (2-) |  |  |
-  - base 12744: [이트륨 동위 원소] raw `3.54(1) h` (줄 52, 두 언어 쪽): | ⁹²Y | 39 | 53 | 91.908949(10) | 【3.54(1) h】 | β⁻ | ⁹²Zr | 2- |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-010
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 2.6516e-13, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1655.0(11) keV` (줄 75, 뒤): | ⁹⁶ᵐ²Y | 【1655.0(11) keV】 | 1655.0(11) keV | 1655.0(11) keV | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1655.0(11) keV` (줄 75, 뒤): | ⁹⁶ᵐ²Y | 1655.0(11) keV | 【1655.0(11) keV】 | 1655.0(11) keV | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1655.0(11) keV` (줄 75, 뒤): | ⁹⁶ᵐ²Y | 1655.0(11) keV | 1655.0(11) keV | 【1655.0(11) keV】 | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-011
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.62604e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `97.9223948(85)` (줄 83, 머리글): | ⁹⁸Y | 39 | 59 | 【97.9223948(85)】 | 1970 | 548(2) ms | β⁻ (99.67%) | ⁹⁸Zr | 0− |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `97.9223948(85)` (줄 84, 머리글): | ⁹⁸Y | 39 | 59 | 【97.9223948(85)】 | 1970 | 548(2) ms | β⁻, n (0.33%) | ⁹⁷Zr | 0− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-012
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.03e-06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `1.03` (줄 168, 뒤): …n generate short pulses; ytterbium can also easily be incorporated into the material used to make the laser. Ytterbium lasers commonly radiate in the 【1.03】–1.12 μm band being optically pumped at wavelength 900 nm–1 μm, dependently on the host and application. The small quantum defect makes ytterbium a pr…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1e-06: [이터븀] raw `1 마이크로미터` (줄 136, 두 언어 쪽): …다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 1.12 마이크로미터의 선에서 파장 900 nm~【1 마이크로미터】의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
-  - base 1.12e-06: [이터븀] raw `1.12 마이크로미터` (줄 136, 두 언어 쪽): …율이고 수명이 길며 짧은 펄스광을 발생시킬 수 있다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 【1.12 마이크로미터】의 선에서 파장 900 nm~1 마이크로미터의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [사마륨] `1.03`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 【1.03】×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α…
-
 ### R-en-013
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2844, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.59272e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `47.4(4) min` (줄 48, 뒤): | ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 【47.4(4) min】 | IT (99.31%) | ⁸⁶Y | (8+) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `47.4(4) min` (줄 49, 뒤): | ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 【47.4(4) min】 | β⁺ (0.69%) | ⁸⁶Sr | (8+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 2880: [이트륨 동위 원소] raw `48(1) min` (줄 35, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 218.30(20) keV | 218.30(20) keV | 218.30(20) keV | 【48(1) min】 | IT (99.31%) | ⁸⁶Y | (8+) |  |  |
-  - base 2982.6: [이트륨 동위 원소] raw `49.71(4) min` (줄 50, 두 언어 쪽): | ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 【49.71(4) min】 | IT (98.5%) | ⁹¹Y | 9/2+ |  |  |
-  - base 3039: [네오디뮴 동위 원소] raw `50.65(33) min` (줄 33, 한쪽 언어 쪽): | ¹³⁶Nd | 60 | 76 | 135.914976(13) | 【50.65(33) min】 | β⁺ | ¹³⁶Pr | 0+ |  |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `95.9159093(65)` (줄 73, 머리글): | ⁹⁶Y | 39 | 57 | 【95.9159093(65)】 | 1975 | 5.34(5) s | β⁻ | ⁹⁶Zr | 0− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-014
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.22688e+07, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 4.41806e+13, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `142 days` (줄 82, 뒤): … 43 known nuclear isomers, of which the most stable of them are lutetium-177m3, with a half-life of 160.4 days, and lutetium-174m with a half-life of 【142 days】; longer than the ground states of all lutetium isotopes except 173-176.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.1111e+07: [툴륨] raw `128.6 d` (줄 46, 두 언어 쪽): …Tm 인공 9.25 d ε 0.748 ¹⁶⁷Er ¹⁶⁸Tm 인공 93.1 d ε 1.679 ¹⁶⁸Er ¹⁶⁹Tm 100% 안정 ¹⁷⁰Tm 인공 【128.6 d】 β⁻ 0.968 ¹⁷⁰Yb ¹⁷¹Tm 인공 1.92 y β⁻ 0.096 ¹⁷¹Yb
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
-  - [이트륨 동위 원소] `142`: | ⁹⁷ᵐ²Y | 3523.3(4) keV | 3523.3(4) keV | 3523.3(4) keV | 【142】(8) ms |  |  | (27/2-) |  |  |
-  - [터븀 동위 원소] `142`: | ¹⁴³Tb | 65 | 78 | 【142】.93512(6) | 12(1) s | β⁺ | ¹⁴³Gd | (11/2-) |  |  |
-  - [네오디뮴 동위 원소] `142`: | ¹⁴³Nd | 60 | 83 | 【142】.9098143(25) | 안정 | 안정 | 안정 | 7/2- | 0.122(2) | 0.1212-0.1232 |
-
-### R-en-015
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 2.46735e-13, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1540(9) keV` (줄 74, 뒤): | ⁹⁶ᵐ¹Y | 【1540(9) keV】 | 1540(9) keV | 1540(9) keV | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1540(9) keV` (줄 74, 뒤): | ⁹⁶ᵐ¹Y | 1540(9) keV | 【1540(9) keV】 | 1540(9) keV | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1540(9) keV` (줄 74, 뒤): | ⁹⁶ᵐ¹Y | 1540(9) keV | 1540(9) keV | 【1540(9) keV】 | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2.29432e-13: [네오디뮴 동위 원소] raw `1432(5) keV` (줄 64, 한쪽 언어 쪽): | ¹⁵⁶ᵐNd | 【1432(5) keV】 | 1432(5) keV | 1432(5) keV | 135 ns |  |  | 5- |  |  |
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1.40×10⁶ y` (줄 54, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁴Dy synth 【1.40×10⁶ y】 α ¹⁵⁰Gd ¹⁵⁶Dy 0.056% stable ¹⁵⁸Dy 0.095% stable ¹⁵⁹Dy synth 144.4 d ε ¹⁵⁹Tb ¹⁶⁰Dy 2.329% stable ¹⁶¹Dy 18.8889999999% stable ¹⁶²Dy 25.475% stable ¹⁶³D…
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1.40×10⁶ years` (줄 107, 뒤): Twenty-nine radioisotopes have been synthesized, ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 【1.40×10⁶ years】, followed by ¹⁵⁹Dy with a half-life of 144.4 days. As a general rule, isotopes that are lighter than the stable isotopes tend to decay primarily by β…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-016
+### R-en-015
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.79273e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -4036,221 +3967,76 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
+### R-en-016
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 비열, base 153.512, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `153.512 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【153.512 J/(kg·K)】
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `154.522 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【154.522 J/(kg·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
 ### R-en-017
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 9.51693e-15, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 2.01e-06, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `59.4` (줄 131, 뒤): …r to produce the isotope thulium-170, having a half-life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 【59.4】 and 84.253 keV). These radioactive sources have a useful life of about one year, as tools in medical and dental diagnosis, as well as to detect defec…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 9.93029e-15: [이트륨 동위 원소] raw `61.98(11) keV` (줄 26, 두 언어 쪽): | ⁸³ᵐY | 【61.98(11) keV】 | 61.98(11) keV | 61.98(11) keV | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2-) |  |  …
-  - base 1.04141e-14: [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 한쪽 언어 쪽): | ¹³⁵ᵐNd | 【65.0(2) keV】 | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
-  - base 8.65175e-15: [터븀 동위 원소] raw `54(3) keV` (줄 75, 한쪽 언어 쪽): | ¹⁵⁶ᵐ¹Tb | 【54(3) keV】 | 54(3) keV | 54(3) keV | 24.4(10) h | IT | ¹⁵⁶Tb | (7-) |  |  |
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `2010 nm` (줄 128, 뒤): …m in the infrared and is widely used in military applications, medicine, and meteorology. Single-element thulium-doped YAG (Tm:YAG) lasers operate at 【2010 nm】. The wavelength of thulium-based lasers is very efficient for superficial ablation of tissue, with minimal coagulation depth in air or in water. This…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-018
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.75936e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 6.9e-06, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `105.95084(54)` (줄 116, 머리글): | ¹⁰⁶Y | 39 | 67 | 【105.95084(54)】# | 1997 | 75(6) ms | β⁻ | ¹⁰⁶Zr | 2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `105.95084(54)` (줄 117, 머리글): | ¹⁰⁶Y | 39 | 67 | 【105.95084(54)】# | 1997 | 75(6) ms | β⁻, n? | ¹⁰⁵Zr | 2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `105.95084(54)` (줄 118, 머리글): | ¹⁰⁶Y | 39 | 67 | 【105.95084(54)】# | 1997 | 75(6) ms | β⁻, 2n? | ¹⁰⁴Zr | 2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `106.95494(54)` (줄 119, 머리글): | ¹⁰⁷Y | 39 | 68 | 【106.95494(54)】# | 1997 | 33.5(3) ms | β⁻ | ¹⁰⁷Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `106.95494(54)` (줄 120, 머리글): | ¹⁰⁷Y | 39 | 68 | 【106.95494(54)】# | 1997 | 33.5(3) ms | β⁻, n? | ¹⁰⁶Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `106.95494(54)` (줄 121, 머리글): | ¹⁰⁷Y | 39 | 68 | 【106.95494(54)】# | 1997 | 33.5(3) ms | β⁻, 2n? | ¹⁰⁵Zr | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `6.90(54) μs` (줄 89, 뒤): | ⁹⁸ᵐ³Y | 496.10(11) keV | 496.10(11) keV | 496.10(11) keV | 2017 | 【6.90(54) μs】 | IT | ⁹⁸Y | (4)− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 7.6e-06: [이트륨 동위 원소] raw `7.6(4) µs` (줄 71, 두 언어 쪽): | ⁹⁸ᵐ³Y | 496.19(15) keV | 496.19(15) keV | 496.19(15) keV | 【7.6(4) µs】 |  |  | (2-) |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이터븀] `6.90`:   - 밀도 (상온 근처): 【6.90】 g/cm³
 
 ### R-en-019
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 밀도, base 6570, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2.92e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `6.57 g/cm³` (줄 67, 뒤): … (6.966 g/cm³ [4.027 oz/cu in]) exists at room temperature, and it has a face-centered cubic crystal structure. The high-temperature gamma allotrope (【6.57 g/cm³】 [3.80 oz/cu in]) has a body-centered cubic crystalline structure. The alpha allotrope (6.903 g/cm³ [3.990 oz/cu in]) has a hexagonal crystalline stru…
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `292(10) ns` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 210.42(16) keV | 2005 | 【292(10) ns】 | IT | ⁸⁴Y | 4− |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 6900: [이터븀] raw `6.90 g/cm³` (줄 18, 두 언어 쪽):   - 밀도 (상온 근처): 【6.90 g/cm³】
-  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 19, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
-  - base 7160: [사마륨] raw `7.16 g/cm³` (줄 19, 한쪽 언어 쪽):   - 액체(녹는점)일 때: 【7.16 g/cm³】
+  - base 3e-07: [이트륨 동위 원소] raw `300 ns` (줄 88, 두 언어 쪽): | ¹⁰⁵Y | 39 | 66 | 104.94487(54)# | 60# ms [>【300 ns】] | β⁻ | ¹⁰⁵Zr | 5/2+# |  |  |
+  - base 2.768e-07: [네오디뮴 동위 원소] raw `276.8(18) ns` (줄 41, 한쪽 언어 쪽): | ¹³⁹ᵐ²Nd | 2570.9+X keV | 2570.9+X keV | 2570.9+X keV | 【276.8(18) ns】 |  |  |  |  |  |
+  - base 2.68e-07: [이트륨 동위 원소] raw `268(25) ns` (줄 23, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 【268(25) ns】 |  |  | 4- |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-020
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 2.01e-06, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 밀도, base 6570, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `2010 nm` (줄 127, 뒤): …m in the infrared and is widely used in military applications, medicine, and meteorology. Single-element thulium-doped YAG (Tm:YAG) lasers operate at 【2010 nm】. The wavelength of thulium-based lasers is very efficient for superficial ablation of tissue, with minimal coagulation depth in air or in water. This…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `6.57 g/cm³` (줄 68, 뒤): … (6.966 g/cm³ [4.027 oz/cu in]) exists at room temperature, and it has a face-centered cubic crystal structure. The high-temperature gamma allotrope (【6.57 g/cm³】 [3.80 oz/cu in]) has a body-centered cubic crystalline structure. The alpha allotrope (6.903 g/cm³ [3.990 oz/cu in]) has a hexagonal crystalline stru…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 6900: [이터븀] raw `6.90 g/cm³` (줄 19, 두 언어 쪽):   - 밀도 (상온 근처): 【6.90 g/cm³】
+  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 20, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
+  - base 7160: [사마륨] raw `7.16 g/cm³` (줄 20, 한쪽 언어 쪽):   - 액체(녹는점)일 때: 【7.16 g/cm³】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-021
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 32, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.32734e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `32 K` (줄 64, 뒤): … exposure to air. The metal can be cut with a knife, as it has a Mohs hardness of 2 to 3; it is malleable and ductile. Thulium is ferromagnetic below 【32 K】, antiferromagnetic between 32 and 56 K, and paramagnetic above 56 K.
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `32` (줄 64, 뒤): …be cut with a knife, as it has a Mohs hardness of 2 to 3; it is malleable and ductile. Thulium is ferromagnetic below 32 K, antiferromagnetic between 【32】 and 56 K, and paramagnetic above 56 K.
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `79.9343548(67)` (줄 29, 머리글): | ⁸⁰Y | 39 | 41 | 【79.9343548(67)】 | 1981 | 30.1(5) s | β⁺ | ⁸⁰Sr | 4− |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
-  - [툴륨] `32`:   - 밀도 (상온 근처): 9.【32】 g/cm³
-  - [이터븀] `32`: …위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁶Yb 인공 56.7 h ε 0.304 ¹⁶⁶Tm ¹⁶⁸Yb 0.13% 안정 ¹⁶⁹Yb 인공 【32】.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안…
-  - [이터븀] `32`: …를 가지는 대부분의 란타넘족 원소들과 달리 이터븀은 면심입방격자 구조를 갖는다. 이터븀의 밀도는 6.973 g/cm^(3)로 이웃한 툴륨 (9.【32】 g/cm^(3))과 루테튬 (9.841 g/cm^(3))에 비해 상당히 낮다. 밀도 뿐만 아니라 녹는점과 끓는점도 이들에 비해 상당히 낮다. …
-  - [이터븀] `32`: …한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (【32】.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부…
-  - [이터븀] `32`: 【32】일의 반감기를 가지는 ¹⁶⁹Yb는 감마선을 방출하기 때문에 방사선 촬영에 사용된다. 이 방사성 동위원소는 ¹⁷⁵Yb와 함께 원자로에서 이터븀에 …
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-022
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 3.3713e-14, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.22688e+07, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `210.42(16) keV` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 【210.42(16) keV】 | 210.42(16) keV | 210.42(16) keV | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `210.42(16) keV` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 210.42(16) keV | 【210.42(16) keV】 | 210.42(16) keV | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `210.42(16) keV` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 【210.42(16) keV】 | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 3.49755e-14: [이트륨 동위 원소] raw `218.30(20) keV` (줄 35, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 【218.30(20) keV】 | 218.30(20) keV | 218.30(20) keV | 48(1) min | IT (99.31%) | ⁸⁶Y | (8+) |  |  …
-  - base 3.66097e-14: [이트륨 동위 원소] raw `228.5(1) keV` (줄 19, 두 언어 쪽): | ⁸⁰ᵐ¹Y | 【228.5(1) keV】 | 228.5(1) keV | 228.5(1) keV | 4.8(3) s |  |  | (1-) |  |  |
-  - base 3.70343e-14: [네오디뮴 동위 원소] raw `231.15(5) keV` (줄 39, 한쪽 언어 쪽): | ¹³⁹ᵐ¹Nd | 【231.15(5) keV】 | 231.15(5) keV | 231.15(5) keV | 5.50(20) h | β⁺ (88.2%) | ¹³⁹Pr | 11/2- |  | …
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `142 days` (줄 83, 뒤): … 43 known nuclear isomers, of which the most stable of them are lutetium-177m3, with a half-life of 160.4 days, and lutetium-174m with a half-life of 【142 days】; longer than the ground states of all lutetium isotopes except 173-176.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.1111e+07: [툴륨] raw `128.6 d` (줄 48, 두 언어 쪽): …Tm 인공 9.25 d ε 0.748 ¹⁶⁷Er ¹⁶⁸Tm 인공 93.1 d ε 1.679 ¹⁶⁸Er ¹⁶⁹Tm 100% 안정 ¹⁷⁰Tm 인공 【128.6 d】 β⁻ 0.968 ¹⁷⁰Yb ¹⁷¹Tm 인공 1.92 y β⁻ 0.096 ¹⁷¹Yb
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
+  - [이트륨 동위 원소] `142`: | ⁹⁷ᵐ²Y | 3523.3(4) keV | 3523.3(4) keV | 3523.3(4) keV | 【142】(8) ms |  |  | (27/2-) |  |  |
+  - [터븀 동위 원소] `142`: | ¹⁴³Tb | 65 | 78 | 【142】.93512(6) | 12(1) s | β⁺ | ¹⁴³Gd | (11/2-) |  |  |
+  - [네오디뮴 동위 원소] `142`: | ¹⁴³Nd | 60 | 83 | 【142】.9098143(25) | 안정 | 안정 | 안정 | 7/2- | 0.122(2) | 0.1212-0.1232 |
 
 ### R-en-023
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 7.55e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `755` (줄 43, 뒤):   - Vickers hardness: 【755】–1160 MPa
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 8.14e+08: [어븀] raw `814 MPa` (줄 40, 한쪽 언어 쪽):   - 브리넬 굳기: 【814 MPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-024
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.31079e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `78.937752(14)` (줄 28, 머리글): | ⁷⁹Y | 39 | 40 | 【78.937752(14)】 | 1992 | 14.8(6) s | β⁺ | ⁷⁹Sr | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-025
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.38586e+07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `160.4 days` (줄 82, 뒤): The element also has 43 known nuclear isomers, of which the most stable of them are lutetium-177m3, with a half-life of 【160.4 days】, and lutetium-174m with a half-life of 142 days; longer than the ground states of all lutetium isotopes except 173-176.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-026
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.239, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `239(12) ms` (줄 108, 뒤): | ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 【239(12) ms】 | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `239(12) ms` (줄 109, 뒤): | ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 【239(12) ms】 | β⁻, n (8.0%) | ¹⁰²Zr | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 0.224: [이트륨 동위 원소] raw `224(19) ms` (줄 85, 두 언어 쪽): | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 【224(19) ms】 | β⁻ (91.7%) | ¹⁰³Zr | 5/2+# |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-027
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.78e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `178 pm` (줄 30, 뒤):   - Atomic radius: empirical: 【178 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 1.8e-10: [이트륨] raw `180 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
-  - base 1.75e-10: [툴륨] raw `175 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
-  - base 1.85e-10: [사마륨] raw `185 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `178`: | ⁸⁵ᵐ²Y | 266.30(20) keV | 266.30(20) keV | 266.30(20) keV | 【178】(6) ns |  |  | 5/2- |  |  |
-
-### R-en-028
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 723.15, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `450 °C` (줄 149, 뒤): …inforce other materials and act as a catalyst. Fibers of dysprosium oxide fluoride can be produced by heating an aqueous solution of DyBr3 and NaF to 【450 °C】 at 450 bars for 17 hours. This material is remarkably robust, surviving over 100 hours in various aqueous solutions at temperatures exceeding 400 °C …
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 673.15: [사마륨] raw `400°C` (줄 91, 한쪽 언어 쪽): … 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 300~【400°C】 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드셋, 기타나…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-029
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.69266e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `101.9343285(44)` (줄 103, 머리글): | ¹⁰²Y | 39 | 63 | 【101.9343285(44)】 | 1983 | 360(40) ms | β⁻ (>97.4%) | ¹⁰²Zr | (5−) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `101.9343285(44)` (줄 104, 머리글): | ¹⁰²Y | 39 | 63 | 【101.9343285(44)】 | 1983 | 360(40) ms | β⁻, n (<2.6%) | ¹⁰¹Zr | (5−) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `102.937244(12)` (줄 108, 머리글): | ¹⁰³Y | 39 | 64 | 【102.937244(12)】 | 1994 | 239(12) ms | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `102.937244(12)` (줄 109, 머리글): | ¹⁰³Y | 39 | 64 | 【102.937244(12)】 | 1994 | 239(12) ms | β⁻, n (8.0%) | ¹⁰²Zr | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-030
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2.32, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `2.32(8) s` (줄 86, 뒤): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `2.32(8) s` (줄 87, 뒤): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | β⁻, n (3.44%) | ⁹⁷Zr | (6,7)+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `2.32(8) s` (줄 88, 뒤): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | IT? | ⁹⁸Y | (6,7)+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2.4: [터븀 동위 원소] raw `2.4(2) s` (줄 17, 한쪽 언어 쪽): | ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 【2.4(2) s】 | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-031
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 8395.2, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `2.332 h` (줄 53, 뒤): …¹⁵⁹Dy synth 144.4 d ε ¹⁵⁹Tb ¹⁶⁰Dy 2.329% stable ¹⁶¹Dy 18.8889999999% stable ¹⁶²Dy 25.475% stable ¹⁶³Dy 24.896% stable ¹⁶⁴Dy 28.26% stable ¹⁶⁵Dy synth 【2.332 h】 β⁻ ¹⁶⁵Ho ¹⁶⁶Dy synth 3.40 d β⁻ ¹⁶⁶Ho
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 8964: [네오디뮴 동위 원소] raw `2.49(3) h` (줄 44, 한쪽 언어 쪽): | ¹⁴¹Nd | 60 | 81 | 140.909610(4) | 【2.49(3) h】 | β⁺ | ¹⁴¹Pr | 3/2+ |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-032
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 1.05e+09, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1050 MPa` (줄 46, 뒤):   - Brinell hardness: 500–【1050 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.16e+09: [루테튬] raw `1160 MPa` (줄 37, 두 언어 쪽):   - 비커스 굳기: 【1160 MPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-033
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.45977e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `87.9095013(16)` (줄 54, 머리글): | ⁸⁸Y | 39 | 49 | 【87.9095013(16)】 | 1948 | 106.629(24) d | β⁺ | ⁸⁸Sr | 4− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-034
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.727, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `727(6) ms` (줄 98, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 【727(6) ms】 | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `727(6) ms` (줄 99, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 【727(6) ms】 | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 0.735: [이트륨 동위 원소] raw `735(7) ms` (줄 76, 두 언어 쪽): | ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 【735(7) ms】 | β⁻ (98.98%) | ¹⁰⁰Zr | 1-,2- |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-035
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 90.45, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `−182.7 °C` (줄 65, 뒤): …f the elements, especially at low temperatures. Dysprosium has a simple ferromagnetic ordering at temperatures below its Curie temperature of 90.5 K (【−182.7 °C】), at which point it undergoes a first-order phase transition from the orthorhombic crystal structure to hexagonal close-packed (hcp). It then has a h…
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `90.5 K` (줄 65, 뒤): …engths of the elements, especially at low temperatures. Dysprosium has a simple ferromagnetic ordering at temperatures below its Curie temperature of 【90.5 K】 (−182.7 °C), at which point it undergoes a first-order phase transition from the orthorhombic crystal structure to hexagonal close-packed (hcp). It t…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-036
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 2928, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `2928 K` (줄 39, 뒤):   - Molar magnetic susceptibility: +249.0×10⁻⁶ cm³/mol (【2928 K】)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2840: [디스프로슘] raw `2840 K` (줄 17, 두 언어 쪽):   - 끓는점: 【2840 K】
-  - base 3141: [어븀] raw `3141 K` (줄 17, 한쪽 언어 쪽):   - 끓는점: 【3141 K】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-037
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.27779e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `76.95015(22)` (줄 21, 머리글): | ⁷⁷Y | 39 | 38 | 【76.95015(22)】# | 1999 | 63(17) ms | β⁺ | ⁷⁷Sr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `76.95015(22)` (줄 22, 머리글): | ⁷⁷Y | 39 | 38 | 【76.95015(22)】# | 1999 | 63(17) ms | p? | ⁷⁶Sr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `76.95015(22)` (줄 23, 머리글): | ⁷⁷Y | 39 | 38 | 【76.95015(22)】# | 1999 | 63(17) ms | β⁺, p? | ⁷⁶Rb | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-038
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.197, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -4261,324 +4047,35 @@
   - base 0.18: [이트륨 동위 원소] raw `180(60) ms` (줄 87, 두 언어 쪽): | ¹⁰⁴Y | 39 | 65 | 103.94105(43)# | 【180(60) ms】 | β⁻ | ¹⁰⁴Zr |  |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-039
+### R-en-024
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.32734e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 8.7e-07, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `79.9343548(67)` (줄 29, 머리글): | ⁸⁰Y | 39 | 41 | 【79.9343548(67)】 | 1981 | 30.1(5) s | β⁺ | ⁸⁰Sr | 4− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-040
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 비열, base 160.007, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `160.007 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【160.007 J/(kg·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-041
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.9e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `190±10 pm` (줄 31, 뒤):   - Covalent radius: 【190±10 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-  - base 1.85e-10: [사마륨] raw `185 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
-  - base 1.8e-10: [이트륨] raw `180 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
-  - base 1.75e-10: [툴륨] raw `175 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
-  - [이트륨 동위 원소] `190`: | ⁸⁴ᵐY | -80(【190】) keV | -80(190) keV | -80(190) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |  |
-  - [이트륨 동위 원소] `190`: | ⁸⁴ᵐY | -80(190) keV | -80(【190】) keV | -80(190) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |  |
-  - [이트륨 동위 원소] `190`: | ⁸⁴ᵐY | -80(190) keV | -80(190) keV | -80(【190】) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |  |
-
-### R-en-042
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.60937e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `96.9182867(72)` (줄 76, 머리글): | ⁹⁷Y | 39 | 58 | 【96.9182867(72)】 | 1970 | 3.75(3) s | β⁻ (99.945%) | ⁹⁷Zr | 1/2− |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `96.9182867(72)` (줄 77, 머리글): | ⁹⁷Y | 39 | 58 | 【96.9182867(72)】 | 1970 | 3.75(3) s | β⁻, n (0.055%) | ⁹⁶Zr | 1/2− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-043
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.47632e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `88.90583816(36)` (줄 57, 머리글): | ⁸⁹Y | 39 | 50 | 【88.90583816(36)】 | 1923 | Stable | Stable | Stable | 1/2− | 1.0000 |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-044
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.34387e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `80.9294459(30)` (줄 33, 머리글): | ⁸¹Y | 39 | 42 | 【80.9294459(30)】 | 1981 | 70.4(10) s | β⁺ | ⁸¹Sr | (5/2+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-045
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2.58e-07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `258(22) ns` (줄 35, 뒤): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 1993 | 【258(22) ns】 | IT | ⁸²Y | 4− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `870(90) ns` (줄 102, 뒤): | ¹⁰¹ᵐY | 1205.0(10) keV | 1205.0(10) keV | 1205.0(10) keV | 2009 | 【870(90) ns】 | IT | ¹⁰¹Y | 13/2−# |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2.68e-07: [이트륨 동위 원소] raw `268(25) ns` (줄 23, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 【268(25) ns】 |  |  | 4- |  |  |
-  - base 2.768e-07: [네오디뮴 동위 원소] raw `276.8(18) ns` (줄 41, 한쪽 언어 쪽): | ¹³⁹ᵐ²Nd | 2570.9+X keV | 2570.9+X keV | 2570.9+X keV | 【276.8(18) ns】 |  |  |  |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-046
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `100,000 tonnes` (줄 115, 뒤): …reenland, India, Tanzania, and the United States also have large reserves of thulium. In 2001, the total world reserves of thulium were approximately 【100,000 tonnes】. Thulium is the least abundant lanthanide on Earth except for the radioactive promethium.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-047
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.39354e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `83.9206711(46)` (줄 40, 머리글): | ⁸⁴Y | 39 | 45 | 【83.9206711(46)】 | 1962 | 39.5(8) min | β⁺ | ⁸⁴Sr | (6+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-048
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 6.5e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `650 MPa` (줄 44, 뒤):   - Vickers hardness: 470–【650 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 5.89e+08: [어븀] raw `589 MPa` (줄 39, 한쪽 언어 쪽):   - 비커스 굳기: 【589 MPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-049
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.726e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `103.94194(22)` (줄 110, 머리글): | ¹⁰⁴Y | 39 | 65 | 【103.94194(22)】# | 1994 | 197(4) ms | β⁻ (66%) | ¹⁰⁴Zr | (0+,1+)# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `103.94194(22)` (줄 111, 머리글): | ¹⁰⁴Y | 39 | 65 | 【103.94194(22)】# | 1994 | 197(4) ms | β⁻, n (34%) | ¹⁰³Zr | (0+,1+)# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `103.94194(22)` (줄 112, 머리글): | ¹⁰⁴Y | 39 | 65 | 【103.94194(22)】# | 1994 | 197(4) ms | β⁻, 2n? | ¹⁰²Zr | (0+,1+)# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `104.94571(43)` (줄 113, 머리글): | ¹⁰⁵Y | 39 | 66 | 【104.94571(43)】# | 1994 | 95(9) ms | β⁻ | ¹⁰⁵Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `104.94571(43)` (줄 114, 머리글): | ¹⁰⁵Y | 39 | 66 | 【104.94571(43)】# | 1994 | 95(9) ms | β⁻, n (<82%) | ¹⁰⁴Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `104.94571(43)` (줄 115, 머리글): | ¹⁰⁵Y | 39 | 66 | 【104.94571(43)】# | 1994 | 95(9) ms | β⁻, 2n? | ¹⁰³Zr | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-050
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.55944e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `93.9115921(68)` (줄 69, 머리글): | ⁹⁴Y | 39 | 55 | 【93.9115921(68)】 | 1948 | 18.7(1) min | β⁻ | ⁹⁴Zr | 2− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-051
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.0335, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `33.5(3) ms` (줄 119, 뒤): | ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 【33.5(3) ms】 | β⁻ | ¹⁰⁷Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `33.5(3) ms` (줄 120, 뒤): | ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 【33.5(3) ms】 | β⁻, n? | ¹⁰⁶Zr | 5/2+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `33.5(3) ms` (줄 121, 뒤): | ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 【33.5(3) ms】 | β⁻, 2n? | ¹⁰⁵Zr | 5/2+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-052
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.064e-06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `1064 nm` (줄 174, 뒤): …ation of Low NA, Large Mode Area fibers enable achievement of near perfect beam qualities (M2<1.1) at power levels of 1.5 kW to greater than 2 kW at ~【1064 nm】 in a broadband configuration. Ytterbium-doped LMA fibers also have the advantages of a larger mode field diameter, which negates the impacts of nonli…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.12e-06: [이터븀] raw `1.12 마이크로미터` (줄 136, 두 언어 쪽): …율이고 수명이 길며 짧은 펄스광을 발생시킬 수 있다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 【1.12 마이크로미터】의 선에서 파장 900 nm~1 마이크로미터의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
-  - base 1e-06: [이터븀] raw `1 마이크로미터` (줄 136, 두 언어 쪽): …다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 1.12 마이크로미터의 선에서 파장 900 nm~【1 마이크로미터】의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-053
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.24762e+07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `144.4 d` (줄 53, 뒤): …n isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁴Dy synth 1.40×10⁶ y α ¹⁵⁰Gd ¹⁵⁶Dy 0.056% stable ¹⁵⁸Dy 0.095% stable ¹⁵⁹Dy synth 【144.4 d】 ε ¹⁵⁹Tb ¹⁶⁰Dy 2.329% stable ¹⁶¹Dy 18.8889999999% stable ¹⁶²Dy 25.475% stable ¹⁶³Dy 24.896% stable ¹⁶⁴Dy 28.26% stable ¹⁶⁵Dy synth 2.332 h β⁻ ¹⁶⁵Ho ¹⁶…
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `144.4 days` (줄 106, 뒤): … ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 1.40×10⁶ years, followed by ¹⁵⁹Dy with a half-life of 【144.4 days】. As a general rule, isotopes that are lighter than the stable isotopes tend to decay primarily by β⁺ decay, though ¹⁵⁴Dy decays by alpha emission and…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-054
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.34006e-24, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `807(50)` (줄 66, 머리글): | ⁹²ᵐY | 807(50)# keV | 807(50)# keV | 【807(50)】# keV | 2009 | 3.7(5) μs | IT | ⁹²Y | 7+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-055
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 160000, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `160 km` (줄 135, 뒤): …tly, most dysprosium is being obtained from the ion-adsorption clay ores of southern China. As of November 2018 the Browns Range Project pilot plant, 【160 km】 south east of Halls Creek, Western Australia, is producing 50 tonnes (49 long tons) per annum.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [터븀 동위 원소] `160`: | ¹⁶¹Tb | 65 | 96 | 【160】.9275699(28) | 6.906(19) d | β⁻ | ¹⁶¹Dy | 3/2+ |  |  |
-  - [네오디뮴 동위 원소] `160`: | ¹⁶¹Nd | 60 | 101 | 【160】.95388(75)# | 200# ms | β⁻ | ¹⁶¹Pm | 1/2-# |  |  |
-
-### R-en-056
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 9.51693e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `594(10) keV` (줄 90, 뒤): | ⁹⁸ᵐ⁴Y | 【594(10) keV】 | 594(10) keV | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `594(10) keV` (줄 90, 뒤): | ⁹⁸ᵐ⁴Y | 594(10) keV | 【594(10) keV】 | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `594(10) keV` (줄 90, 뒤): | ⁹⁸ᵐ⁴Y | 594(10) keV | 594(10) keV | 【594(10) keV】 | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 9.95593e-14: [터븀 동위 원소] raw `621.4(11) keV` (줄 25, 한쪽 언어 쪽): | ¹⁴²ᵐ²Tb | 【621.4(11) keV】 | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |  |
-  - base 8.90137e-14: [이트륨 동위 원소] raw `555.58(5) keV` (줄 50, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 49.71(4) min | IT (98.5%) | ⁹¹Y | 9/2+ |  |  …
-  - base 8.72385e-14: [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 한쪽 언어 쪽): | ¹⁴⁴ᵐ⁴Tb | 【544.5(6) keV】 | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-057
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 2.08e-06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `2080 nm` (줄 127, 뒤): …um-thulium triple-doped yttrium aluminium garnet (Ho:Cr:Tm:YAG, or Ho,Cr,Tm:YAG) is an active laser medium material with high efficiency. It lases at 【2080 nm】 in the infrared and is widely used in military applications, medicine, and meteorology. Single-element thulium-doped YAG (Tm:YAG) lasers operate at 2…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-058
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.36043e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `81.9269302(59)` (줄 34, 머리글): | ⁸²Y | 39 | 43 | 【81.9269302(59)】 | 1980 | 8.30(20) s | β⁺ | ⁸²Sr | 1+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-059
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 2.30713e-14, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 98, 뒤): | ¹⁰⁰ᵐY | 【144(16) keV】 | 144(16) keV | 144(16) keV | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 98, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 【144(16) keV】 | 144(16) keV | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 98, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 【144(16) keV】 | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 99, 뒤): | ¹⁰⁰ᵐY | 【144(16) keV】 | 144(16) keV | 144(16) keV | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 99, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 【144(16) keV】 | 144(16) keV | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 99, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 【144(16) keV】 | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
-  - [사마륨] `144`: … 원소들과의 화합물은 압력에 따라 전기 저항이 달라지는 특성이 있어 압력 감지기에 사용되기도 한다. 사마륨-147과 네오디뮴-143, 네오디뮴-【144】의 비율을 분석하면 방사능 연대 측정을 할 수도 있다.
-  - [터븀 동위 원소] `144`: | ¹⁴⁵Tb | 65 | 80 | 【144】.92927(6) | 20# min | β⁺ | ¹⁴⁵Gd | (3/2+) |  |  |
-  - [네오디뮴 동위 원소] `144`: | ¹⁴⁵Nd | 60 | 85 | 【144】.9125736(25) | 관찰 안정 | 관찰 안정 | 관찰 안정 | 7/2- | 0.083(1) | 0.0823-0.0835 |
-
-### R-en-060
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.74253e-13, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1087.6(6) keV` (줄 72, 뒤): | ⁹⁵ᵐY | 【1087.6(6) keV】 | 1087.6(6) keV | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1087.6(6) keV` (줄 72, 뒤): | ⁹⁵ᵐY | 1087.6(6) keV | 【1087.6(6) keV】 | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1087.6(6) keV` (줄 72, 뒤): | ⁹⁵ᵐY | 1087.6(6) keV | 1087.6(6) keV | 【1087.6(6) keV】 | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.82648e-13: [이트륨 동위 원소] raw `1140(30) keV` (줄 58, 두 언어 쪽): | ⁹⁶ᵐY | 【1140(30) keV】 | 1140(30) keV | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
-  - base 1.89233e-13: [이트륨 동위 원소] raw `1181.1(4) keV` (줄 72, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 【1181.1(4) keV】 | 1181.1(4) keV | 1181.1(4) keV | 0.83(10) µs |  |  | (8-) |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-061
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 7.62e-07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `762(14) ns` (줄 92, 뒤): | ⁹⁸ᵐ⁶Y | 1181.50(18) keV | 1181.50(18) keV | 1181.50(18) keV | 2017 | 【762(14) ns】 | IT | ⁹⁸Y | (10−) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
   - base 8.3e-07: [이트륨 동위 원소] raw `0.83(10) µs` (줄 72, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 1181.1(4) keV | 1181.1(4) keV | 1181.1(4) keV | 【0.83(10) µs】 |  |  | (8-) |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-062
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.52618e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `91.9089458(98)` (줄 65, 머리글): | ⁹²Y | 39 | 53 | 【91.9089458(98)】 | 1940 | 3.54(1) h | β⁻ | ⁹²Zr | 2− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-063
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 4.5e-07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `450(150) ns` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 972.17(20) keV | 972.17(20) keV | 972.17(20) keV | 1970 | 【450(150) ns】 | IT | ⁹⁸Y | (8+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 4.1e-07: [네오디뮴 동위 원소] raw `410(50) ns` (줄 37, 한쪽 언어 쪽): | ¹³⁸ᵐNd | 3174.9(4) keV | 3174.9(4) keV | 3174.9(4) keV | 【410(50) ns】 |  |  | (10+) |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-064
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.92e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `192±7 pm` (줄 31, 뒤):   - Covalent radius: 【192±7 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-  - base 1.85e-10: [사마륨] raw `185 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
-  - base 1.8e-10: [이트륨] raw `180 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
-  - base 1.75e-10: [툴륨] raw `175 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-065
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 4.86e-05, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `48.6(5) μs` (줄 72, 뒤): | ⁹⁵ᵐY | 1087.6(6) keV | 1087.6(6) keV | 1087.6(6) keV | 1982 | 【48.6(5) μs】 | IT | ⁹⁵Y | 9/2+ |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-066
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 6.9e-06, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `6.90(54) μs` (줄 89, 뒤): | ⁹⁸ᵐ³Y | 496.10(11) keV | 496.10(11) keV | 496.10(11) keV | 2017 | 【6.90(54) μs】 | IT | ⁹⁸Y | (4)− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 7.6e-06: [이트륨 동위 원소] raw `7.6(4) µs` (줄 71, 두 언어 쪽): | ⁹⁸ᵐ³Y | 496.19(15) keV | 496.19(15) keV | 496.19(15) keV | 【7.6(4) µs】 |  |  | (2-) |  |  |
+  - base 9.6e-07: [터븀 동위 원소] raw `0.96 µs` (줄 60, 한쪽 언어 쪽): | ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 342.15(16) keV | 【0.96 µs】 |  |  | 5- |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이터븀] `6.90`:   - 밀도 (상온 근처): 【6.90】 g/cm³
+  - [사마륨] `870`: …¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.【870】 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.75% 안정 ¹⁵⁴Sm 22.75% 안정
 
-### R-en-067
+### R-en-025
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.37696e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 723.15, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `82.922484(20)` (줄 37, 머리글): | ⁸³Y | 39 | 44 | 【82.922484(20)】 | 1962 | 7.08(8) min | β⁺ | ⁸³Sr | (9/2+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-068
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.16763e+18, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `3.70×10¹⁰ years` (줄 78, 뒤): …Out of these two, only the former is stable, making the element monoisotopic. The latter one, lutetium-176, decays via beta decay with a half-life of 【3.70×10¹⁰ years】; it makes up about 2.6% of natural lutetium.
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `3.701×10¹⁰ y` (줄 52, 뒤): …cay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁷³Lu synth 1.37 y ε ¹⁷³Yb ¹⁷⁴Lu synth 3.31 y β⁺ ¹⁷⁴Yb ¹⁷⁵Lu 97.4009999999% stable ¹⁷⁶Lu 2.599% 【3.701×10¹⁰ y】 β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 6.6443 d β⁻ ¹⁷⁷Hf
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `450 °C` (줄 150, 뒤): …inforce other materials and act as a catalyst. Fibers of dysprosium oxide fluoride can be produced by heating an aqueous solution of DyBr3 and NaF to 【450 °C】 at 450 bars for 17 hours. This material is remarkably robust, surviving over 100 hours in various aqueous solutions at temperatures exceeding 400 °C …
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.19288e+18: [루테튬] raw `3.78×10¹⁰y` (줄 46, 두 언어 쪽): … 1.37 y ε 0.671 ¹⁷³Yb ¹⁷⁴Lu 인공 3.31 y ε 1.374 ¹⁷⁴Yb ¹⁷⁵Lu 97.41% 안정 ¹⁷⁶Lu 2.59% 【3.78×10¹⁰y】 β⁻ 1.193 ¹⁷⁶Hf
+  - base 673.15: [사마륨] raw `400°C` (줄 93, 한쪽 언어 쪽): … 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 300~【400°C】 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드셋, 기타나…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-069
+### R-en-026
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 8.2e-06, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.50955e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `8.2(4) μs` (줄 95, 뒤): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 1985 | 【8.2(4) μs】 | IT | ⁹⁹Y | (17/2+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 8.6e-06: [이트륨 동위 원소] raw `8.6(8) µs` (줄 75, 두 언어 쪽): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 【8.6(8) µs】 |  |  | (17/2+) |  |  |
-  - base 7.6e-06: [이트륨 동위 원소] raw `7.6(4) µs` (줄 71, 두 언어 쪽): | ⁹⁸ᵐ³Y | 496.19(15) keV | 496.19(15) keV | 496.19(15) keV | 【7.6(4) µs】 |  |  | (2-) |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [터븀 동위 원소] `8.2`: | ¹⁶⁸Tb | 65 | 103 | 167.94364(54)# | 【8.2】(13) s | β⁻ | ¹⁶⁸Dy | 4-# |  |  |
-
-### R-en-070
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.44319e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `86.9108761(12)` (줄 51, 머리글): | ⁸⁷Y | 39 | 48 | 【86.9108761(12)】 | 1940 | 79.8(3) h | β⁺ | ⁸⁷Sr | 1/2− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `90.9072980(20)` (줄 62, 머리글): | ⁹¹Y | 39 | 52 | 【90.9072980(20)】 | 1943 | 58.51(6) d | β⁻ | ⁹¹Zr | 1/2− |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-071
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.49294e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `89.90714175(38)` (줄 59, 머리글): | ⁹⁰Y | 39 | 51 | 【89.90714175(38)】 | 1937 | 64.05(5) h | β⁻ | ⁹⁰Zr | 2− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-072
+### R-en-027
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 7.46134e-14, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -4599,24 +4096,194 @@
   - base 8.13105e-14: [이트륨 동위 원소] raw `507.50(13) keV` (줄 24, 두 언어 쪽): | ⁸²ᵐ²Y | 【507.50(13) keV】 | 507.50(13) keV | 507.50(13) keV | 147(7) ns |  |  | 6+ |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-073
+### R-en-028
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 3.1e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 8395.2, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `3100 tonnes` (줄 133, 뒤): About 【3100 tonnes】 of dysprosium were produced worldwide in 2021, with 40% of that total produced in China, 31% in Myanmar, and 20% in Australia. Dysprosium prices have…
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `2.332 h` (줄 54, 뒤): …¹⁵⁹Dy synth 144.4 d ε ¹⁵⁹Tb ¹⁶⁰Dy 2.329% stable ¹⁶¹Dy 18.8889999999% stable ¹⁶²Dy 25.475% stable ¹⁶³Dy 24.896% stable ¹⁶⁴Dy 28.26% stable ¹⁶⁵Dy synth 【2.332 h】 β⁻ ¹⁶⁵Ho ¹⁶⁶Dy synth 3.40 d β⁻ ¹⁶⁶Ho
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8964: [네오디뮴 동위 원소] raw `2.49(3) h` (줄 44, 한쪽 언어 쪽): | ¹⁴¹Nd | 60 | 81 | 140.909610(4) | 【2.49(3) h】 | β⁺ | ¹⁴¹Pr | 3/2+ |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-029
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.60937e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `96.9182867(72)` (줄 76, 머리글): | ⁹⁷Y | 39 | 58 | 【96.9182867(72)】 | 1970 | 3.75(3) s | β⁻ (99.945%) | ⁹⁷Zr | 1/2− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `96.9182867(72)` (줄 77, 머리글): | ⁹⁷Y | 39 | 58 | 【96.9182867(72)】 | 1970 | 3.75(3) s | β⁻, n (0.055%) | ⁹⁶Zr | 1/2− |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-074
+### R-en-030
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 75.42, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.03e-06, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1.257 minutes` (줄 106, 뒤): …prosium also has at least 11 metastable isomers, ranging in atomic mass from 140 to 165. The most stable of these is ¹⁶⁵ᵐDy, which has a half-life of 【1.257 minutes】.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 70.4: [이트륨 동위 원소] raw `70.4(10) s` (줄 21, 두 언어 쪽): | ⁸¹Y | 39 | 42 | 80.92913(7) | 【70.4(10) s】 | β⁺ | ⁸¹Sr | (5/2+) |  |  |
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `1.03` (줄 169, 뒤): …n generate short pulses; ytterbium can also easily be incorporated into the material used to make the laser. Ytterbium lasers commonly radiate in the 【1.03】–1.12 μm band being optically pumped at wavelength 900 nm–1 μm, dependently on the host and application. The small quantum defect makes ytterbium a pr…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1e-06: [이터븀] raw `1 마이크로미터` (줄 138, 두 언어 쪽): …다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 1.12 마이크로미터의 선에서 파장 900 nm~【1 마이크로미터】의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
+  - base 1.12e-06: [이터븀] raw `1.12 마이크로미터` (줄 138, 두 언어 쪽): …율이고 수명이 길며 짧은 펄스광을 발생시킬 수 있다. 이로 인해 이터븀은 레이저 재료에 많이 포함된다. 이터븀 레이저는 일반적으로 1.06 - 【1.12 마이크로미터】의 선에서 파장 900 nm~1 마이크로미터의 빛을 발생시킨다. (광섬유 레이저의 도핑 재료로 사용된다.)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [사마륨] `1.03`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 【1.03】×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α…
+
+### R-en-031
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.47632e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `88.90583816(36)` (줄 57, 머리글): | ⁸⁹Y | 39 | 50 | 【88.90583816(36)】 | 1923 | Stable | Stable | Stable | 1/2− | 1.0000 |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-075
+### R-en-032
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.38586e+07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `160.4 days` (줄 83, 뒤): The element also has 43 known nuclear isomers, of which the most stable of them are lutetium-177m3, with a half-life of 【160.4 days】, and lutetium-174m with a half-life of 142 days; longer than the ground states of all lutetium isotopes except 173-176.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-033
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 90.45, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `−182.7 °C` (줄 66, 뒤): …f the elements, especially at low temperatures. Dysprosium has a simple ferromagnetic ordering at temperatures below its Curie temperature of 90.5 K (【−182.7 °C】), at which point it undergoes a first-order phase transition from the orthorhombic crystal structure to hexagonal close-packed (hcp). It then has a h…
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `90.5 K` (줄 66, 뒤): …engths of the elements, especially at low temperatures. Dysprosium has a simple ferromagnetic ordering at temperatures below its Curie temperature of 【90.5 K】 (−182.7 °C), at which point it undergoes a first-order phase transition from the orthorhombic crystal structure to hexagonal close-packed (hcp). It t…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-034
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 6.5e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `650 MPa` (줄 45, 뒤):   - Vickers hardness: 470–【650 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 5.89e+08: [어븀] raw `589 MPa` (줄 41, 한쪽 언어 쪽):   - 비커스 굳기: 【589 MPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-035
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.29429e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `77.94399(32)` (줄 24, 머리글): | ⁷⁸Y | 39 | 39 | 【77.94399(32)】# | 1992 | 54(5) ms | β⁺ | ⁷⁸Sr | (0+) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `77.94399(32)` (줄 25, 머리글): | ⁷⁸Y | 39 | 39 | 【77.94399(32)】# | 1992 | 54(5) ms | β⁺, p? | ⁷⁷Rb | (0+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-036
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 출력, base 1500, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `1.5 kW` (줄 175, 뒤): …l as the Yb-doped fibers. Fabrication of Low NA, Large Mode Area fibers enable achievement of near perfect beam qualities (M2<1.1) at power levels of 【1.5 kW】 to greater than 2 kW at ~1064 nm in a broadband configuration. Ytterbium-doped LMA fibers also have the advantages of a larger mode field diameter, w…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이트륨 동위 원소] `1.5`: | ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 49.71(4) min | β⁻ (【1.5】%) | ⁹¹Zr | 9/2+ |  |  |
+
+### R-en-037
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.34387e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `80.9294459(30)` (줄 33, 머리글): | ⁸¹Y | 39 | 42 | 【80.9294459(30)】 | 1981 | 70.4(10) s | β⁺ | ⁸¹Sr | (5/2+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-038
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 몰 에너지, base 191000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `191 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【191 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-039
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 4.5e-07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `450(150) ns` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 972.17(20) keV | 972.17(20) keV | 972.17(20) keV | 1970 | 【450(150) ns】 | IT | ⁹⁸Y | (8+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 4.1e-07: [네오디뮴 동위 원소] raw `410(50) ns` (줄 37, 한쪽 언어 쪽): | ¹³⁸ᵐNd | 3174.9(4) keV | 3174.9(4) keV | 3174.9(4) keV | 【410(50) ns】 |  |  | (10+) |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-040
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 2.6516e-13, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1655.0(11) keV` (줄 75, 뒤): | ⁹⁶ᵐ²Y | 【1655.0(11) keV】 | 1655.0(11) keV | 1655.0(11) keV | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1655.0(11) keV` (줄 75, 뒤): | ⁹⁶ᵐ²Y | 1655.0(11) keV | 【1655.0(11) keV】 | 1655.0(11) keV | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1655.0(11) keV` (줄 75, 뒤): | ⁹⁶ᵐ²Y | 1655.0(11) keV | 1655.0(11) keV | 【1655.0(11) keV】 | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-041
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.49294e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `89.90714175(38)` (줄 59, 머리글): | ⁹⁰Y | 39 | 51 | 【89.90714175(38)】 | 1937 | 64.05(5) h | β⁻ | ⁹⁰Zr | 2− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-042
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.36043e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `81.9269302(59)` (줄 34, 머리글): | ⁸²Y | 39 | 43 | 【81.9269302(59)】 | 1980 | 8.30(20) s | β⁺ | ⁸²Sr | 1+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-043
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.37696e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `82.922484(20)` (줄 37, 머리글): | ⁸³Y | 39 | 44 | 【82.922484(20)】 | 1962 | 7.08(8) min | β⁺ | ⁸³Sr | (9/2+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-044
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `100,000 tonnes` (줄 116, 뒤): …reenland, India, Tanzania, and the United States also have large reserves of thulium. In 2001, the total world reserves of thulium were approximately 【100,000 tonnes】. Thulium is the least abundant lanthanide on Earth except for the radioactive promethium.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-045
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.07346e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `67.0(2) keV` (줄 41, 뒤): | ⁸⁴ᵐ¹Y | 【67.0(2) keV】 | 67.0(2) keV | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `67.0(2) keV` (줄 41, 뒤): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 【67.0(2) keV】 | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `67.0(2) keV` (줄 41, 뒤): | ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 【67.0(2) keV】 | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1.04141e-14: [네오디뮴 동위 원소] raw `65.0(2) keV` (줄 32, 한쪽 언어 쪽): | ¹³⁵ᵐNd | 【65.0(2) keV】 | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |
+  - base 9.93029e-15: [이트륨 동위 원소] raw `61.98(11) keV` (줄 26, 두 언어 쪽): | ⁸³ᵐY | 【61.98(11) keV】 | 61.98(11) keV | 61.98(11) keV | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2-) |  |  …
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-046
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.9e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `190±10 pm` (줄 31, 뒤):   - Covalent radius: 【190±10 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+  - base 1.85e-10: [사마륨] raw `185 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
+  - base 1.8e-10: [이트륨] raw `180 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
+  - base 1.75e-10: [툴륨] raw `175 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
+  - [이트륨 동위 원소] `190`: | ⁸⁴ᵐY | -80(【190】) keV | -80(190) keV | -80(190) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |  |
+  - [이트륨 동위 원소] `190`: | ⁸⁴ᵐY | -80(190) keV | -80(【190】) keV | -80(190) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |  |
+  - [이트륨 동위 원소] `190`: | ⁸⁴ᵐY | -80(190) keV | -80(190) keV | -80(【190】) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |  |
+
+### R-en-047
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.92e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `192±7 pm` (줄 31, 뒤):   - Covalent radius: 【192±7 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+  - base 1.85e-10: [사마륨] raw `185 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
+  - base 1.8e-10: [이트륨] raw `180 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
+  - base 1.75e-10: [툴륨] raw `175 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-048
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.9263e-13, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -4631,27 +4298,84 @@
   - base 1.82648e-13: [이트륨 동위 원소] raw `1140(30) keV` (줄 58, 두 언어 쪽): | ⁹⁶ᵐY | 【1140(30) keV】 | 1140(30) keV | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-076
+### R-en-049
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 574068, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.75936e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `6.6443 d` (줄 52, 뒤): …t1/2) mode pro­duct ¹⁷³Lu synth 1.37 y ε ¹⁷³Yb ¹⁷⁴Lu synth 3.31 y β⁺ ¹⁷⁴Yb ¹⁷⁵Lu 97.4009999999% stable ¹⁷⁶Lu 2.599% 3.701×10¹⁰ y β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 【6.6443 d】 β⁻ ¹⁷⁷Hf
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `6.693-day` (줄 104, 뒤): ¹⁷⁷Lu is produced by neutron activation of ¹⁷⁶Lu or by indirectly by neutron activation of ¹⁷⁶Yb followed by beta decay. The 【6.693-day】 half-life allows transport from the production reactor to the point of use without significant loss in activity.
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `105.95084(54)` (줄 116, 머리글): | ¹⁰⁶Y | 39 | 67 | 【105.95084(54)】# | 1997 | 75(6) ms | β⁻ | ¹⁰⁶Zr | 2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `105.95084(54)` (줄 117, 머리글): | ¹⁰⁶Y | 39 | 67 | 【105.95084(54)】# | 1997 | 75(6) ms | β⁻, n? | ¹⁰⁵Zr | 2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `105.95084(54)` (줄 118, 머리글): | ¹⁰⁶Y | 39 | 67 | 【105.95084(54)】# | 1997 | 75(6) ms | β⁻, 2n? | ¹⁰⁴Zr | 2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `106.95494(54)` (줄 119, 머리글): | ¹⁰⁷Y | 39 | 68 | 【106.95494(54)】# | 1997 | 33.5(3) ms | β⁻ | ¹⁰⁷Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `106.95494(54)` (줄 120, 머리글): | ¹⁰⁷Y | 39 | 68 | 【106.95494(54)】# | 1997 | 33.5(3) ms | β⁻, n? | ¹⁰⁶Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `106.95494(54)` (줄 121, 머리글): | ¹⁰⁷Y | 39 | 68 | 【106.95494(54)】# | 1997 | 33.5(3) ms | β⁻, 2n? | ¹⁰⁵Zr | 5/2+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-050
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.24762e+07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `144.4 d` (줄 54, 뒤): …n isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁴Dy synth 1.40×10⁶ y α ¹⁵⁰Gd ¹⁵⁶Dy 0.056% stable ¹⁵⁸Dy 0.095% stable ¹⁵⁹Dy synth 【144.4 d】 ε ¹⁵⁹Tb ¹⁶⁰Dy 2.329% stable ¹⁶¹Dy 18.8889999999% stable ¹⁶²Dy 25.475% stable ¹⁶³Dy 24.896% stable ¹⁶⁴Dy 28.26% stable ¹⁶⁵Dy synth 2.332 h β⁻ ¹⁶⁵Ho ¹⁶…
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `144.4 days` (줄 107, 뒤): … ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 1.40×10⁶ years, followed by ¹⁵⁹Dy with a half-life of 【144.4 days】. As a general rule, isotopes that are lighter than the stable isotopes tend to decay primarily by β⁺ decay, though ¹⁵⁴Dy decays by alpha emission and…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-051
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 3.7e-06, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `3.7(5) μs` (줄 66, 뒤): | ⁹²ᵐY | 807(50)# keV | 807(50)# keV | 807(50)# keV | 2009 | 【3.7(5) μs】 | IT | ⁹²Y | 7+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-052
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 160000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `160 km` (줄 136, 뒤): …tly, most dysprosium is being obtained from the ion-adsorption clay ores of southern China. As of November 2018 the Browns Range Project pilot plant, 【160 km】 south east of Halls Creek, Western Australia, is producing 50 tonnes (49 long tons) per annum.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [터븀 동위 원소] `160`: | ¹⁶¹Tb | 65 | 96 | 【160】.9275699(28) | 6.906(19) d | β⁻ | ¹⁶¹Dy | 3/2+ |  |  |
+  - [네오디뮴 동위 원소] `160`: | ¹⁶¹Nd | 60 | 101 | 【160】.95388(75)# | 200# ms | β⁻ | ¹⁶¹Pm | 1/2-# |  |  |
+
+### R-en-053
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.55759e-13, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `972.17(20) keV` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 【972.17(20) keV】 | 972.17(20) keV | 972.17(20) keV | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `972.17(20) keV` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 972.17(20) keV | 【972.17(20) keV】 | 972.17(20) keV | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `972.17(20) keV` (줄 91, 뒤): | ⁹⁸ᵐ⁵Y | 972.17(20) keV | 972.17(20) keV | 【972.17(20) keV】 | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 596160: [터븀 동위 원소] raw `6.9일` (줄 2, 한쪽 언어 쪽): …터븀 혹은 테르븀의 동위 원소는 1종으로 ¹⁵⁹Tb이 100% 존재한다. 우라늄과 토륨의 자발 핵분열로 생성되는 생성되는 ¹⁶¹Tb은 반감기가 【6.9일】로 자연계에 미량 존재한다.
+  - base 1.45633e-13: [이트륨 동위 원소] raw `908.97(3) keV` (줄 45, 두 언어 쪽): | ⁸⁹ᵐY | 【908.97(3) keV】 | 908.97(3) keV | 908.97(3) keV | 15.663(5) s | IT | ⁸⁹Y | 9/2+ |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-077
+### R-en-054
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.34988e-14, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 2.08e-06, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `84.253 keV` (줄 131, 뒤): …uce the isotope thulium-170, having a half-life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 【84.253 keV】). These radioactive sources have a useful life of about one year, as tools in medical and dental diagnosis, as well as to detect defects in inaccessi…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.41632e-14: [터븀 동위 원소] raw `88.4(2) keV` (줄 76, 한쪽 언어 쪽): | ¹⁵⁶ᵐ²Tb | 【88.4(2) keV】 | 88.4(2) keV | 88.4(2) keV | 5.3(2) h |  |  | (0+) |  |  |
-  - base 1.44356e-14: [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 한쪽 언어 쪽): | ¹⁴⁸ᵐ¹Tb | 【90.1(3) keV】 | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `2080 nm` (줄 128, 뒤): …um-thulium triple-doped yttrium aluminium garnet (Ho:Cr:Tm:YAG, or Ho,Cr,Tm:YAG) is an active laser medium material with high efficiency. It lases at 【2080 nm】 in the infrared and is widely used in military applications, medicine, and meteorology. Single-element thulium-doped YAG (Tm:YAG) lasers operate at 2…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-078
+### R-en-055
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 온도, base 2928, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `2928 K` (줄 40, 뒤):   - Molar magnetic susceptibility: +249.0×10⁻⁶ cm³/mol (【2928 K】)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2840: [디스프로슘] raw `2840 K` (줄 18, 두 언어 쪽):   - 끓는점: 【2840 K】
+  - base 3141: [어븀] raw `3141 K` (줄 18, 한쪽 언어 쪽):   - 끓는점: 【3141 K】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-056
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 4.86e-05, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `48.6(5) μs` (줄 72, 뒤): | ⁹⁵ᵐY | 1087.6(6) keV | 1087.6(6) keV | 1087.6(6) keV | 1982 | 【48.6(5) μs】 | IT | ⁹⁵Y | 9/2+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-057
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.64267e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -4660,7 +4384,201 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-079
+### R-en-058
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.34006e-24, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `807(50)` (줄 66, 머리글): | ⁹²ᵐY | 807(50)# keV | 807(50)# keV | 【807(50)】# keV | 2009 | 3.7(5) μs | IT | ⁹²Y | 7+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-059
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.239, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `239(12) ms` (줄 108, 뒤): | ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 【239(12) ms】 | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `239(12) ms` (줄 109, 뒤): | ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 【239(12) ms】 | β⁻, n (8.0%) | ¹⁰²Zr | 5/2+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 0.224: [이트륨 동위 원소] raw `224(19) ms` (줄 85, 두 언어 쪽): | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 【224(19) ms】 | β⁻ (91.7%) | ¹⁰³Zr | 5/2+# |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-060
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 길이, base 1.78e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `178 pm` (줄 30, 뒤):   - Atomic radius: empirical: 【178 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 1.8e-10: [이트륨] raw `180 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
+  - base 1.75e-10: [툴륨] raw `175 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
+  - base 1.85e-10: [사마륨] raw `185 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이트륨 동위 원소] `178`: | ⁸⁵ᵐ²Y | 266.30(20) keV | 266.30(20) keV | 266.30(20) keV | 【178】(6) ns |  |  | 5/2- |  |  |
+
+### R-en-061
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2.58e-07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `258(22) ns` (줄 35, 뒤): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 1993 | 【258(22) ns】 | IT | ⁸²Y | 4− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2.68e-07: [이트륨 동위 원소] raw `268(25) ns` (줄 23, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 【268(25) ns】 |  |  | 4- |  |  |
+  - base 2.768e-07: [네오디뮴 동위 원소] raw `276.8(18) ns` (줄 41, 한쪽 언어 쪽): | ¹³⁹ᵐ²Nd | 2570.9+X keV | 2570.9+X keV | 2570.9+X keV | 【276.8(18) ns】 |  |  |  |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-062
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 7.62e-07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `762(14) ns` (줄 92, 뒤): | ⁹⁸ᵐ⁶Y | 1181.50(18) keV | 1181.50(18) keV | 1181.50(18) keV | 2017 | 【762(14) ns】 | IT | ⁹⁸Y | (10−) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8.3e-07: [이트륨 동위 원소] raw `0.83(10) µs` (줄 72, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 1181.1(4) keV | 1181.1(4) keV | 1181.1(4) keV | 【0.83(10) µs】 |  |  | (8-) |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-063
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.727, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `727(6) ms` (줄 98, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 【727(6) ms】 | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `727(6) ms` (줄 99, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 【727(6) ms】 | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 0.735: [이트륨 동위 원소] raw `735(7) ms` (줄 76, 두 언어 쪽): | ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 【735(7) ms】 | β⁻ (98.98%) | ¹⁰⁰Zr | 1-,2- |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-064
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 9.51693e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `594(10) keV` (줄 90, 뒤): | ⁹⁸ᵐ⁴Y | 【594(10) keV】 | 594(10) keV | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `594(10) keV` (줄 90, 뒤): | ⁹⁸ᵐ⁴Y | 594(10) keV | 【594(10) keV】 | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `594(10) keV` (줄 90, 뒤): | ⁹⁸ᵐ⁴Y | 594(10) keV | 594(10) keV | 【594(10) keV】 | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 9.95593e-14: [터븀 동위 원소] raw `621.4(11) keV` (줄 25, 한쪽 언어 쪽): | ¹⁴²ᵐ²Tb | 【621.4(11) keV】 | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |  |
+  - base 8.90137e-14: [이트륨 동위 원소] raw `555.58(5) keV` (줄 50, 두 언어 쪽): | ⁹¹ᵐY | 【555.58(5) keV】 | 555.58(5) keV | 555.58(5) keV | 49.71(4) min | IT (98.5%) | ⁹¹Y | 9/2+ |  |  …
+  - base 8.72385e-14: [터븀 동위 원소] raw `544.5(6) keV` (줄 35, 한쪽 언어 쪽): | ¹⁴⁴ᵐ⁴Tb | 【544.5(6) keV】 | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-065
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.39354e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `83.9206711(46)` (줄 40, 머리글): | ⁸⁴Y | 39 | 45 | 【83.9206711(46)】 | 1962 | 39.5(8) min | β⁺ | ⁸⁴Sr | (6+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-066
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 574068, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `6.6443 d` (줄 53, 뒤): …t1/2) mode pro­duct ¹⁷³Lu synth 1.37 y ε ¹⁷³Yb ¹⁷⁴Lu synth 3.31 y β⁺ ¹⁷⁴Yb ¹⁷⁵Lu 97.4009999999% stable ¹⁷⁶Lu 2.599% 3.701×10¹⁰ y β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 【6.6443 d】 β⁻ ¹⁷⁷Hf
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `6.693-day` (줄 105, 뒤): ¹⁷⁷Lu is produced by neutron activation of ¹⁷⁶Lu or by indirectly by neutron activation of ¹⁷⁶Yb followed by beta decay. The 【6.693-day】 half-life allows transport from the production reactor to the point of use without significant loss in activity.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 596160: [터븀 동위 원소] raw `6.9일` (줄 2, 한쪽 언어 쪽): …터븀 혹은 테르븀의 동위 원소는 1종으로 ¹⁵⁹Tb이 100% 존재한다. 우라늄과 토륨의 자발 핵분열로 생성되는 생성되는 ¹⁶¹Tb은 반감기가 【6.9일】로 자연계에 미량 존재한다.
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-067
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 2.30713e-14, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 98, 뒤): | ¹⁰⁰ᵐY | 【144(16) keV】 | 144(16) keV | 144(16) keV | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 98, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 【144(16) keV】 | 144(16) keV | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 98, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 【144(16) keV】 | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 99, 뒤): | ¹⁰⁰ᵐY | 【144(16) keV】 | 144(16) keV | 144(16) keV | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 99, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 【144(16) keV】 | 144(16) keV | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `144(16) keV` (줄 99, 뒤): | ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 【144(16) keV】 | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
+  - [사마륨] `144`: … 원소들과의 화합물은 압력에 따라 전기 저항이 달라지는 특성이 있어 압력 감지기에 사용되기도 한다. 사마륨-147과 네오디뮴-143, 네오디뮴-【144】의 비율을 분석하면 방사능 연대 측정을 할 수도 있다.
+  - [터븀 동위 원소] `144`: | ¹⁴⁵Tb | 65 | 80 | 【144】.92927(6) | 20# min | β⁺ | ¹⁴⁵Gd | (3/2+) |  |  |
+  - [네오디뮴 동위 원소] `144`: | ¹⁴⁵Nd | 60 | 85 | 【144】.9125736(25) | 관찰 안정 | 관찰 안정 | 관찰 안정 | 7/2- | 0.083(1) | 0.0823-0.0835 |
+
+### R-en-068
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.45977e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `87.9095013(16)` (줄 54, 머리글): | ⁸⁸Y | 39 | 49 | 【87.9095013(16)】 | 1948 | 106.629(24) d | β⁺ | ⁸⁸Sr | 4− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-069
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 11613.6, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `3.226(11) h` (줄 60, 뒤): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | IT | ⁹⁰Y | 7+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `3.226(11) h` (줄 61, 뒤): | ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 【3.226(11) h】 | β⁻ (0.0018%) | ⁹⁰Zr | 7+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 11484: [이트륨 동위 원소] raw `3.19(6) h` (줄 47, 두 언어 쪽): | ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 【3.19(6) h】 | IT (99.99%) | ⁹⁰Y | 7+ |  |  |
+  - base 12528: [터븀 동위 원소] raw `3.48(16) h` (줄 50, 한쪽 언어 쪽): | ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 【3.48(16) h】 | β⁺ (99.95%) | ¹⁵⁰Gd | (2-) |  |  |
+  - base 12744: [이트륨 동위 원소] raw `3.54(1) h` (줄 52, 두 언어 쪽): | ⁹²Y | 39 | 53 | 91.908949(10) | 【3.54(1) h】 | β⁻ | ⁹²Zr | 2- |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-070
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2.32, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `2.32(8) s` (줄 86, 뒤): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `2.32(8) s` (줄 87, 뒤): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | β⁻, n (3.44%) | ⁹⁷Zr | (6,7)+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `2.32(8) s` (줄 88, 뒤): | ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 【2.32(8) s】 | IT? | ⁹⁸Y | (6,7)+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 2.4: [터븀 동위 원소] raw `2.4(2) s` (줄 17, 한쪽 언어 쪽): | ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 【2.4(2) s】 | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-071
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 3.1e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `3100 tonnes` (줄 134, 뒤): About 【3100 tonnes】 of dysprosium were produced worldwide in 2021, with 40% of that total produced in China, 31% in Myanmar, and 20% in Australia. Dysprosium prices have…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-072
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 75.42, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `1.257 minutes` (줄 107, 뒤): …prosium also has at least 11 metastable isomers, ranging in atomic mass from 140 to 165. The most stable of these is ¹⁶⁵ᵐDy, which has a half-life of 【1.257 minutes】.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 70.4: [이트륨 동위 원소] raw `70.4(10) s` (줄 21, 두 언어 쪽): | ⁸¹Y | 39 | 42 | 80.92913(7) | 【70.4(10) s】 | β⁺ | ⁸¹Sr | (5/2+) |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-073
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.57606e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `94.9128197(73)` (줄 71, 머리글): | ⁹⁵Y | 39 | 56 | 【94.9128197(73)】 | 1959 | 10.3(1) min | β⁻ | ⁹⁵Zr | 1/2− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-074
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 1.16763e+18, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `3.70×10¹⁰ years` (줄 79, 뒤): …Out of these two, only the former is stable, making the element monoisotopic. The latter one, lutetium-176, decays via beta decay with a half-life of 【3.70×10¹⁰ years】; it makes up about 2.6% of natural lutetium.
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `3.701×10¹⁰ y` (줄 53, 뒤): …cay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁷³Lu synth 1.37 y ε ¹⁷³Yb ¹⁷⁴Lu synth 3.31 y β⁺ ¹⁷⁴Yb ¹⁷⁵Lu 97.4009999999% stable ¹⁷⁶Lu 2.599% 【3.701×10¹⁰ y】 β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 6.6443 d β⁻ ¹⁷⁷Hf
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.19288e+18: [루테튬] raw `3.78×10¹⁰y` (줄 48, 두 언어 쪽): … 1.37 y ε 0.671 ¹⁷³Yb ¹⁷⁴Lu 인공 3.31 y ε 1.374 ¹⁷⁴Yb ¹⁷⁵Lu 97.41% 안정 ¹⁷⁶Lu 2.59% 【3.78×10¹⁰y】 β⁻ 1.193 ¹⁷⁶Hf
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-075
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.34988e-14, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `84.253 keV` (줄 132, 뒤): …uce the isotope thulium-170, having a half-life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 【84.253 keV】). These radioactive sources have a useful life of about one year, as tools in medical and dental diagnosis, as well as to detect defects in inaccessi…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1.41632e-14: [터븀 동위 원소] raw `88.4(2) keV` (줄 76, 한쪽 언어 쪽): | ¹⁵⁶ᵐ²Tb | 【88.4(2) keV】 | 88.4(2) keV | 88.4(2) keV | 5.3(2) h |  |  | (0+) |  |  |
+  - base 1.44356e-14: [터븀 동위 원소] raw `90.1(3) keV` (줄 44, 한쪽 언어 쪽): | ¹⁴⁸ᵐ¹Tb | 【90.1(3) keV】 | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-076
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 8.2e-06, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `8.2(4) μs` (줄 95, 뒤): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 1985 | 【8.2(4) μs】 | IT | ⁹⁹Y | (17/2+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 8.6e-06: [이트륨 동위 원소] raw `8.6(8) µs` (줄 75, 두 언어 쪽): | ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 【8.6(8) µs】 |  |  | (17/2+) |  |  |
+  - base 7.6e-06: [이트륨 동위 원소] raw `7.6(4) µs` (줄 71, 두 언어 쪽): | ⁹⁸ᵐ³Y | 496.19(15) keV | 496.19(15) keV | 496.19(15) keV | 【7.6(4) µs】 |  |  | (2-) |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [터븀 동위 원소] `8.2`: | ¹⁶⁸Tb | 65 | 103 | 167.94364(54)# | 【8.2】(13) s | β⁻ | ¹⁶⁸Dy | 4-# |  |  |
+
+### R-en-077
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 몰 에너지, base 129000, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
@@ -4669,16 +4587,16 @@
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
   - [네오디뮴 동위 원소] `129`: | ¹³⁰Nd | 60 | 70 | 【129】.92851(3) | 21(3) s | β⁺ | ¹³⁰Pr | 0+ |  |  |
 
-### R-en-080
+### R-en-078
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 열팽창, base 2.431e-05, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `24.31×10⁻⁶/K` (줄 35, 뒤):   - Thermal expansion: 【24.31×10⁻⁶/K】 (at 20 °C)
+  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `24.31×10⁻⁶/K` (줄 36, 뒤):   - Thermal expansion: 【24.31×10⁻⁶/K】 (at 20 °C)
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2.63e-05: [이터븀] raw `26.3 µm/(m·K)` (줄 32, 두 언어 쪽):   - 열팽창: (실온) (β, poly) 【26.3 µm/(m·K)】
+  - base 2.63e-05: [이터븀] raw `26.3 µm/(m·K)` (줄 34, 두 언어 쪽):   - 열팽창: (실온) (β, poly) 【26.3 µm/(m·K)】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-081
+### R-en-079
 
 - 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 비열, base 170.462, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
@@ -4686,210 +4604,126 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
+### R-en-080
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.31079e-25, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `78.937752(14)` (줄 28, 머리글): | ⁷⁹Y | 39 | 40 | 【78.937752(14)】 | 1992 | 14.8(6) s | β⁺ | ⁷⁹Sr | 5/2+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-081
+
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 2.46735e-13, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1540(9) keV` (줄 74, 뒤): | ⁹⁶ᵐ¹Y | 【1540(9) keV】 | 1540(9) keV | 1540(9) keV | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1540(9) keV` (줄 74, 뒤): | ⁹⁶ᵐ¹Y | 1540(9) keV | 【1540(9) keV】 | 1540(9) keV | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1540(9) keV` (줄 74, 뒤): | ⁹⁶ᵐ¹Y | 1540(9) keV | 1540(9) keV | 【1540(9) keV】 | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 2.29432e-13: [네오디뮴 동위 원소] raw `1432(5) keV` (줄 64, 한쪽 언어 쪽): | ¹⁵⁶ᵐNd | 【1432(5) keV】 | 1432(5) keV | 1432(5) keV | 135 ns |  |  | 5- |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
 ### R-en-082
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.29429e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 5.5e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `77.94399(32)` (줄 24, 머리글): | ⁷⁸Y | 39 | 39 | 【77.94399(32)】# | 1992 | 54(5) ms | β⁺ | ⁷⁸Sr | (0+) |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `77.94399(32)` (줄 25, 머리글): | ⁷⁸Y | 39 | 39 | 【77.94399(32)】# | 1992 | 54(5) ms | β⁺, p? | ⁷⁷Rb | (0+) |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `550 MPa` (줄 46, 뒤):   - Vickers hardness: 410–【550 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 5.4e+08: [디스프로슘] raw `540 MPa` (줄 42, 두 언어 쪽):   - 비커스 굳기: 【540 MPa】
+  - base 5.2e+08: [툴륨] raw `520 MPa` (줄 40, 두 언어 쪽):   - 비커스 굳기: 【520 MPa】
+  - base 5.89e+08: [어븀] raw `589 MPa` (줄 41, 한쪽 언어 쪽):   - 비커스 굳기: 【589 MPa】
+  - base 5e+08: [디스프로슘] raw `500 MPa` (줄 43, 두 언어 쪽):   - 브리넬 굳기: 【500 MPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-083
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.59272e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.52618e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `95.9159093(65)` (줄 73, 머리글): | ⁹⁶Y | 39 | 57 | 【95.9159093(65)】 | 1975 | 5.34(5) s | β⁻ | ⁹⁶Zr | 0− |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `91.9089458(98)` (줄 65, 머리글): | ⁹²Y | 39 | 53 | 【91.9089458(98)】 | 1940 | 3.54(1) h | β⁻ | ⁹²Zr | 2− |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-084
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 5.5e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.5428e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Dysprosium] (같은 주제의 반대 언어 문서: 디스프로슘) raw `550 MPa` (줄 45, 뒤):   - Vickers hardness: 410–【550 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 5.4e+08: [디스프로슘] raw `540 MPa` (줄 40, 두 언어 쪽):   - 비커스 굳기: 【540 MPa】
-  - base 5.2e+08: [툴륨] raw `520 MPa` (줄 38, 두 언어 쪽):   - 비커스 굳기: 【520 MPa】
-  - base 5.89e+08: [어븀] raw `589 MPa` (줄 39, 한쪽 언어 쪽):   - 비커스 굳기: 【589 MPa】
-  - base 5e+08: [디스프로슘] raw `500 MPa` (줄 41, 두 언어 쪽):   - 브리넬 굳기: 【500 MPa】
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `92.909578(11)` (줄 67, 머리글): | ⁹³Y | 39 | 54 | 【92.909578(11)】 | 1948 | 10.18(8) h | β⁻ | ⁹³Zr | 1/2− |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-085
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.50955e-25, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 압력, base 7.55e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `90.9072980(20)` (줄 62, 머리글): | ⁹¹Y | 39 | 52 | 【90.9072980(20)】 | 1943 | 58.51(6) d | β⁻ | ⁹¹Zr | 1/2− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `755` (줄 44, 뒤):   - Vickers hardness: 【755】–1160 MPa
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8.14e+08: [어븀] raw `814 MPa` (줄 42, 한쪽 언어 쪽):   - 브리넬 굳기: 【814 MPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-086
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 3.7e-06, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.69266e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `3.7(5) μs` (줄 66, 뒤): | ⁹²ᵐY | 807(50)# keV | 807(50)# keV | 807(50)# keV | 2009 | 【3.7(5) μs】 | IT | ⁹²Y | 7+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `101.9343285(44)` (줄 103, 머리글): | ¹⁰²Y | 39 | 63 | 【101.9343285(44)】 | 1983 | 360(40) ms | β⁻ (>97.4%) | ¹⁰²Zr | (5−) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `101.9343285(44)` (줄 104, 머리글): | ¹⁰²Y | 39 | 63 | 【101.9343285(44)】 | 1983 | 360(40) ms | β⁻, n (<2.6%) | ¹⁰¹Zr | (5−) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `102.937244(12)` (줄 108, 머리글): | ¹⁰³Y | 39 | 64 | 【102.937244(12)】 | 1994 | 239(12) ms | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `102.937244(12)` (줄 109, 머리글): | ¹⁰³Y | 39 | 64 | 【102.937244(12)】 | 1994 | 239(12) ms | β⁻, n (8.0%) | ¹⁰²Zr | 5/2+# |  |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-087
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 비열, base 153.512, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2844, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Lutetium] (같은 주제의 반대 언어 문서: 루테튬) raw `153.512 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【153.512 J/(kg·K)】
-  - [Ytterbium] (같은 주제의 반대 언어 문서: 이터븀) raw `154.522 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【154.522 J/(kg·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `47.4(4) min` (줄 48, 뒤): | ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 【47.4(4) min】 | IT (99.31%) | ⁸⁶Y | (8+) |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `47.4(4) min` (줄 49, 뒤): | ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 【47.4(4) min】 | β⁺ (0.69%) | ⁸⁶Sr | (8+) |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 2880: [이트륨 동위 원소] raw `48(1) min` (줄 35, 두 언어 쪽): | ⁸⁶ᵐ¹Y | 218.30(20) keV | 218.30(20) keV | 218.30(20) keV | 【48(1) min】 | IT (99.31%) | ⁸⁶Y | (8+) |  |  |
+  - base 2982.6: [이트륨 동위 원소] raw `49.71(4) min` (줄 50, 두 언어 쪽): | ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 【49.71(4) min】 | IT (98.5%) | ⁹¹Y | 9/2+ |  |  |
+  - base 3039: [네오디뮴 동위 원소] raw `50.65(33) min` (줄 33, 한쪽 언어 쪽): | ¹³⁶Nd | 60 | 76 | 135.914976(13) | 【50.65(33) min】 | β⁺ | ¹³⁶Pr | 0+ |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-088
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 8.7e-07, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.27779e-25, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `870(90) ns` (줄 102, 뒤): | ¹⁰¹ᵐY | 1205.0(10) keV | 1205.0(10) keV | 1205.0(10) keV | 2009 | 【870(90) ns】 | IT | ¹⁰¹Y | 13/2−# |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 8.3e-07: [이트륨 동위 원소] raw `0.83(10) µs` (줄 72, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 1181.1(4) keV | 1181.1(4) keV | 1181.1(4) keV | 【0.83(10) µs】 |  |  | (8-) |  |  |
-  - base 9.6e-07: [터븀 동위 원소] raw `0.96 µs` (줄 60, 한쪽 언어 쪽): | ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 342.15(16) keV | 【0.96 µs】 |  |  | 5- |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [사마륨] `870`: …¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.【870】 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.75% 안정 ¹⁵⁴Sm 22.75% 안정
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `76.95015(22)` (줄 21, 머리글): | ⁷⁷Y | 39 | 38 | 【76.95015(22)】# | 1999 | 63(17) ms | β⁺ | ⁷⁷Sr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `76.95015(22)` (줄 22, 머리글): | ⁷⁷Y | 39 | 38 | 【76.95015(22)】# | 1999 | 63(17) ms | p? | ⁷⁶Sr | 5/2+# |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `76.95015(22)` (줄 23, 머리글): | ⁷⁷Y | 39 | 38 | 【76.95015(22)】# | 1999 | 63(17) ms | β⁺, p? | ⁷⁶Rb | 5/2+# |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-089
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 2.92e-07, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 에너지, base 1.74253e-13, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `292(10) ns` (줄 42, 뒤): | ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 210.42(16) keV | 2005 | 【292(10) ns】 | IT | ⁸⁴Y | 4− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 3e-07: [이트륨 동위 원소] raw `300 ns` (줄 88, 두 언어 쪽): | ¹⁰⁵Y | 39 | 66 | 104.94487(54)# | 60# ms [>【300 ns】] | β⁻ | ¹⁰⁵Zr | 5/2+# |  |  |
-  - base 2.768e-07: [네오디뮴 동위 원소] raw `276.8(18) ns` (줄 41, 한쪽 언어 쪽): | ¹³⁹ᵐ²Nd | 2570.9+X keV | 2570.9+X keV | 2570.9+X keV | 【276.8(18) ns】 |  |  |  |  |  |
-  - base 2.68e-07: [이트륨 동위 원소] raw `268(25) ns` (줄 23, 두 언어 쪽): | ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 【268(25) ns】 |  |  | 4- |  |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1087.6(6) keV` (줄 72, 뒤): | ⁹⁵ᵐY | 【1087.6(6) keV】 | 1087.6(6) keV | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1087.6(6) keV` (줄 72, 뒤): | ⁹⁵ᵐY | 1087.6(6) keV | 【1087.6(6) keV】 | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
+  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `1087.6(6) keV` (줄 72, 뒤): | ⁹⁵ᵐY | 1087.6(6) keV | 1087.6(6) keV | 【1087.6(6) keV】 | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1.82648e-13: [이트륨 동위 원소] raw `1140(30) keV` (줄 58, 두 언어 쪽): | ⁹⁶ᵐY | 【1140(30) keV】 | 1140(30) keV | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |  |
+  - base 1.89233e-13: [이트륨 동위 원소] raw `1181.1(4) keV` (줄 72, 두 언어 쪽): | ⁹⁸ᵐ⁴Y | 【1181.1(4) keV】 | 1181.1(4) keV | 1181.1(4) keV | 0.83(10) µs |  |  | (8-) |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-090
 
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 시간, base 0.028, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 비열, base 160.007, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `28(9) ms` (줄 18, 뒤): | ⁷⁶Y | 39 | 37 | 75.95894(32)# | 2001 | 【28(9) ms】 | β⁺? | ⁷⁶Sr | 1−# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `28(9) ms` (줄 19, 뒤): | ⁷⁶Y | 39 | 37 | 75.95894(32)# | 2001 | 【28(9) ms】 | p? | ⁷⁵Sr | 1−# |  |
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `28(9) ms` (줄 20, 뒤): | ⁷⁶Y | 39 | 37 | 75.95894(32)# | 2001 | 【28(9) ms】 | β⁺, p? | ⁷⁵Rb | 1−# |  |
+  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `160.007 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【160.007 J/(kg·K)】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
-  - [디스프로슘] `28`: …y 0.10% 안정 ¹⁶⁰Dy 2.34% 안정 ¹⁶¹Dy 18.91% 안정 ¹⁶²Dy 25.51% 안정 ¹⁶³Dy 24.90% 안정 ¹⁶⁴Dy 【28】.18% 안정
-  - [어븀] `28`:   - 몰열용량: 【28】.12 J/(mol·K)
-  - [어븀] `28`:   - 전단 탄성 계수: 【28】.3 GPa
-  - [어븀] `28`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 【28】.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho…
-  - [이트륨] `28`: …0.48 0.38D - ⁸⁸Y 합성 106.6d ε - ⁸⁸Sr γ 1.83 0.89 - ⁸⁹Y 100% 안정 ⁹⁰Y 합성 2.67d β- 2.【28】 ⁹⁰Zr γ 2.18 - ⁹¹Y 합성 58.5d β- 1.54 ⁹¹Zr γ 1.20 -
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-091
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 질량, base 1.57606e-25, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Isotopes of yttrium] (같은 주제의 반대 언어 문서: 이트륨 동위 원소) raw `94.9128197(73)` (줄 71, 머리글): | ⁹⁵Y | 39 | 56 | 【94.9128197(73)】 | 1959 | 10.3(1) min | β⁻ | ⁹⁵Zr | 1/2− |  |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-092
-
-- 분야 rare_earth, 언어 en, 쪽 두 언어 쪽, dim 몰 에너지, base 191000, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Thulium] (같은 주제의 반대 언어 문서: 툴륨) raw `191 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【191 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-093
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 5.75914e+07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `21.9` (줄 147, 머리글): | FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 【21.9】 (primary), 7.0 (recurrent) |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 6.05906e+07: [툴륨] raw `1.92 y` (줄 46, 두 언어 쪽): … 인공 93.1 d ε 1.679 ¹⁶⁸Er ¹⁶⁹Tm 100% 안정 ¹⁷⁰Tm 인공 128.6 d β⁻ 0.968 ¹⁷⁰Yb ¹⁷¹Tm 인공 【1.92 y】 β⁻ 0.096 ¹⁷¹Yb
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이터븀] `21.9`: …Yb 0.13% 안정 ¹⁶⁹Yb 인공 32.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 【21.9】% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵Lu ¹⁷⁶Yb 12.7% …
-
-### R-en-094
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.89272e+07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `11.0` (줄 147, 머리글): | FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 【11.0】 – 21.9 (primary), 7.0 (recurrent) |
-  - [Neutron capture therapy of cancer] raw `11.1` (줄 143, 머리글): | MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 【11.1】 |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-095
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비열, base 195.162, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `195.162 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【195.162 J/(kg·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-096
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.97022e+07, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `18.9 months` (줄 207, 뒤): …on irradiation. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 【18.9 months】. Based on these results, it was concluded that c-BNS BNCT was safe and resulted in increased survival of patients with recurrent gliomas. Although th…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-097
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.73424e+07, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `14.2 months` (줄 158, 뒤): …ome disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 【14.2 months】 and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 mon…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-098
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비저항, base 9e-07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `0.900 µΩ⋅m` (줄 37, 뒤):   - Electrical resistivity: poly: 【0.900 µΩ⋅m】 (at r.t.)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 9.26e-07: [디스프로슘] raw `926 n Ω·m` (줄 33, 두 언어 쪽):   - 전기 저항도: (실온) (α, poly) 【926 n Ω·m】
-  - base 9.4e-07: [사마륨] raw `0.940 μ Ω·m` (줄 33, 한쪽 언어 쪽):   - 전기 저항도: (실온) (α, poly) 【0.940 μ Ω·m】
-  - base 8.6e-07: [어븀] raw `0.860 μ Ω·m` (줄 33, 한쪽 언어 쪽):   - 전기 저항도: (실온) (poly) 【0.860 μ Ω·m】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-099
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.65465e+07, 표 안 예, 시험 대상 밖 예
 - 언급:
   - [Neutron capture therapy of cancer] raw `17.7` (줄 146, 머리글): | R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 【17.7】 (primary) |
   - [Neutron capture therapy of cancer] raw `17.7 months` (줄 158, 뒤): …2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 【17.7 months】 compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temo…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 4.32339e+07: [루테튬] raw `1.37 y` (줄 46, 두 언어 쪽):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁷³Lu 인공 【1.37 y】 ε 0.671 ¹⁷³Yb ¹⁷⁴Lu 인공 3.31 y ε 1.374 ¹⁷⁴Yb ¹⁷⁵Lu 97.41% 안정 ¹⁷⁶Lu 2.59% 3.78×10…
+  - base 4.32339e+07: [루테튬] raw `1.37 y` (줄 48, 두 언어 쪽):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁷³Lu 인공 【1.37 y】 ε 0.671 ¹⁷³Yb ¹⁷⁴Lu 인공 3.31 y ε 1.374 ¹⁷⁴Yb ¹⁷⁵Lu 97.41% 안정 ¹⁷⁶Lu 2.59% 3.78×10…
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-100
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.65e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `165` (줄 44, 뒤):   - Vickers hardness: 【165】–200 MPa
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [사마륨] `165`:   - 기화열: 【165】 kJ/mol
-  - [터븀 동위 원소] `165`: | ¹⁶⁶Tb | 65 | 101 | 【165】.93799(11) | 25.6(22) s | β⁻ | ¹⁶⁶Dy |  |  |  |
-
-### R-en-101
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 3403, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `3403 K` (줄 18, 뒤):   - Boiling point: 【3403 K】 ​(3130 °C, ​5666 °F)
-  - [Praseodymium] raw `3130 °C` (줄 18, 뒤):   - Boiling point: 3403 K ​(【3130 °C】, ​5666 °F)
-  - [Praseodymium] raw `5666 °F` (줄 18, 뒤):   - Boiling point: 3403 K ​(3130 °C, ​【5666 °F】)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 3609: [이트륨] raw `3609 K` (줄 17, 한쪽 언어 쪽):   - 끓는점: 【3609 K】
-  - base 3675: [루테튬] raw `3675 K` (줄 17, 두 언어 쪽):   - 끓는점: 【3675 K】
-  - base 3141: [어븀] raw `3141 K` (줄 17, 한쪽 언어 쪽):   - 끓는점: 【3141 K】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-102
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.26564e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `13.517 y` (줄 51, 뒤): …Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 【13.517 y】 β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
-  - [Europium] raw `13.517 years` (줄 161, 뒤): …e of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (【13.517 years】), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium radioisotopes have half-lives shorter than 100 days.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-103
+### R-en-092
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.84013e+07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -4897,66 +4731,15 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-104
+### R-en-093
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.47126e+07, 표 안 예, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비열, base 195.162, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Neutron capture therapy of cancer] raw `13.2` (줄 148, 머리글): | HFR, Netherlands | 26 (1997–2002) | BSH 100 mg/kg | 10.4 – 【13.2】 |
+  - [Lanthanum] raw `195.162 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【195.162 J/(kg·K)】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-105
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 6.12e-07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `612 nm` (줄 243, 뒤): …ly been investigated as red emitters in organic light-emitting diodes. Their narrow emission bands, particularly the strong ⁵D0 → ⁷F2 transition near 【612 nm】, can produce highly saturated red electroluminescence. Device performance is influenced by the efficiency of charge transport and energy transfer to …
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-106
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 7.12661e+07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `27.1 months` (줄 128, 뒤): …Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 【27.1 months】, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively.
-  - [Neutron capture therapy of cancer] raw `27.1` (줄 145, 머리글): | JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 【27.1】 (+ X-ray) |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-107
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 2.47e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `247 pm` (줄 62, 뒤): …. It is a ductile metal with a hardness comparable to that of silver. Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usually 185 pm.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 2.38e-10: [사마륨] raw `238 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 185 pm (실험값) 【238 pm】 (계산값)
-  - base 2.28e-10: [디스프로슘] raw `228 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【228 pm】 (계산값)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [툴륨] `247`:   - 기화열: 【247】 kJ/mol
-  - [디스프로슘] `247`:   - 푸아송 비: (α form) 0.【247】
-
-### R-en-108
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 823, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Samarium–cobalt magnet] raw `823 K` (줄 13, 뒤): - These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (【823 K】) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).
-  - [Samarium–cobalt magnet] raw `550 °C` (줄 13, 뒤): - These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 【550 °C】 (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-109
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 538100, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `538.1 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 【538.1 kJ/mol】, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
-  - base 544500: [사마륨] raw `544.5 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 【544.5 kJ/mol】, 2차: 1070 kJ/mol, 3차: 2260 kJ/mol
-  - base 523500: [루테튬] raw `523.5 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 【523.5 kJ/mol】, 2차: 1340 kJ/mol, 3차: 2022.3 kJ/mol
-  - base 573000: [디스프로슘] raw `573.0 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 【573.0 kJ/mol】, 2차: 1130 kJ/mol, 3차: 2200 kJ/mol
-  - base 589300: [어븀] raw `589.3 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 【589.3 kJ/mol】, 2차: 1150 kJ/mol, 3차: 2194 kJ/mol
-  - base 596700: [툴륨] raw `596.7 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 【596.7 kJ/mol】, 2차: 1160 kJ/mol, 3차: 2285 kJ/mol
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-110
+### R-en-094
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 4.80653e-13, 표 안 아니오, 시험 대상 밖 예
 - 언급:
@@ -4967,310 +4750,26 @@
   - [디스프로슘] `3.0`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁵⁴Dy 인공 【3.0】E+6 y α 2.947 ¹⁵⁰Gd ¹⁵⁶Dy 0.06% 안정 ¹⁵⁸Dy 0.10% 안정 ¹⁶⁰Dy 2.34% 안정 ¹⁶¹Dy 18.91% 안정…
   - [터븀 동위 원소] `3.0`: | ¹⁶⁴Tb | 65 | 99 | 163.93335(11) | 【3.0】(1) min | β⁻ | ¹⁶⁴Dy | (5+) |  |  |
 
-### R-en-111
+### R-en-095
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 6200, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 15.4, 표 안 아니오, 시험 대상 밖 예
 - 언급:
-  - [Lanthanum] raw `6.20 kJ/mol` (줄 21, 뒤):   - Heat of fusion: 【6.20 kJ/mol】
+  - [Neutron capture therapy of cancer] raw `15.4` (줄 158, 뒤): …this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 【15.4】 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete surviva…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-112
+### R-en-096
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 6890, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열전도율, base 13.9, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `6.89 kJ/mol` (줄 21, 뒤):   - Heat of fusion: 【6.89 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-113
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 1138.15, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `865 °C` (줄 69, 뒤): …anthanum has a hexagonal crystal structure at room temperature (α-La). At 310 °C, lanthanum changes to a face-centered cubic structure (β-La), and at 【865 °C】, it changes to a body-centered cubic structure (γ-La).
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1097: [이터븀] raw `1097 K` (줄 16, 두 언어 쪽):   - 녹는점: 【1097 K】
-  - base 1195.15: [사마륨] raw `922°C` (줄 61, 한쪽 언어 쪽): …삼방정계 구조(α 구조)를 가지며, 731°C 이상의 고온으로 가열하면 육방정계 구조로 전환된다. 전환 온도는 불순물에 따라 달라지기도 한다. 【922°C】 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 14.8K 이하로 냉각시키면 반강자성을 띤다.
-  - base 1068.15: [이터븀] raw `795 °C` (줄 62, 두 언어 쪽): …정 구조를 가지는데 알파 결정 구조는 -13 °C이하에서 존재하고 낮은 온도에서 안정하며 육방정계 결정 구조를 가지고 있고, 감마 결정 구조는 【795 °C】이상에서 존재하고 체심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 …
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-114
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 8.01088e-20, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `0.5 eV` (줄 27, 뒤): …eutrons, the source of which, until recently, has been specially designed nuclear reactors and now is neutron accelerators. Until 1994, low-energy (< 【0.5 eV】) thermal neutron beams were used in Japan and the United States, but since they have a limited depth of penetration in tissues, higher-energy (0.5–10…
-  - [Neutron capture therapy of cancer] raw `0.5` (줄 27, 뒤): …0.5 eV) thermal neutron beams were used in Japan and the United States, but since they have a limited depth of penetration in tissues, higher-energy (【0.5】–10,000 eV) epithermal neutron beams, which have a greater depth of penetration, were used in clinical trials in the United States, Europe, Japan, Arg…
-  - [Neutron capture therapy of cancer] raw `0.5 eV` (줄 81, 뒤): … 2014, neutron sources for NCT were limited to nuclear reactors. Reactor-derived neutrons are classified according to their energies as thermal (En < 【0.5 eV】), epithermal (0.5–10,000 eV), or fast (En >10 keV). Thermal neutrons are the most important for BNCT, since they usually initiate the ¹⁰B(n,α)⁷Li cap…
-  - [Neutron capture therapy of cancer] raw `0.5` (줄 81, 뒤): …s for NCT were limited to nuclear reactors. Reactor-derived neutrons are classified according to their energies as thermal (En < 0.5 eV), epithermal (【0.5】–10,000 eV), or fast (En >10 keV). Thermal neutrons are the most important for BNCT, since they usually initiate the ¹⁰B(n,α)⁷Li capture reaction. How…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [터븀 동위 원소] `0.5`: | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | β⁺ (【0.5】%) | ¹⁴²Gd | (5-) |  |  |
-
-### R-en-115
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 4e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `400 MPa` (줄 47, 뒤):   - Brinell hardness: 350–【400 MPa】
+  - [Europium] raw `13.9 W/(m⋅K)` (줄 37, 뒤):   - Thermal conductivity: est. 【13.9 W/(m⋅K)】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 4.12e+08: [사마륨] raw `412 MPa` (줄 40, 한쪽 언어 쪽):   - 비커스 굳기: 【412 MPa】
-  - base 4.41e+08: [사마륨] raw `441 MPa` (줄 41, 한쪽 언어 쪽):   - 브리넬 굳기: 【441 MPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [사마륨] `400`: … 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 300~【400】°C 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드셋, 기…
-  - [이트륨] `400`: … 안에서 750 °C 로 가열될 때 1 μm의 두께를 가질 수 있다. 잘게 나눠졌을 때, 이트륨은 공기 중에서 불안정하다. 작은 이트륨 조각은 【400】 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 1000 °C 로 가열될 때 생성된다.
-
-### R-en-116
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 145040, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `40.289 h` (줄 53, 뒤): …n­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 1.03×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 【40.289 h】 β⁻ ¹⁴⁰Ce
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-117
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 1373.15, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `1100` (줄 223, 뒤): The reaction is carried out in refractory apparatus, commonly using tantalum, at approximately 【1100】–1200 °C. The europium produced is considerably more volatile than the lanthanum reductant and lanthanum oxide product, so it distils from the reactio…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1345: [사마륨] raw `1345 K` (줄 16, 한쪽 언어 쪽):   - 녹는점: 【1345 K】
-  - base 1469: [이터븀] raw `1469 K` (줄 17, 두 언어 쪽):   - 끓는점: 【1469 K】
-  - base 1273.15: [이트륨] raw `1000 °C` (줄 64, 한쪽 언어 쪽): …중에서 불안정하다. 작은 이트륨 조각은 400 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 【1000 °C】 로 가열될 때 생성된다.
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-118
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.25e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `12.5 GPa` (줄 67, 뒤): …e. Under pressure, europium undergoes a series of structural transformations. The bcc phase transforms to a hexagonal close-packed structure at about 【12.5 GPa】, which remains stable to about 31.5 GPa. Above this pressure europium adopts an incommensurately modulated monoclinic structure, known as Eu-IV, whic…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-119
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 422000, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `422 tonnes` (줄 217, 뒤): …f mixed rare-earth production rather than mined separately. European Commission estimates placed average global production of europium oxide at about 【422 tonnes】 per year in 2012–2016. China accounted for approximately 86% of this production, followed by Australia at 6%, the United States and Russia at about 2…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-120
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 1.98e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `198±6 pm` (줄 31, 뒤):   - Covalent radius: 【198±6 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-  - base 1.85e-10: [사마륨] raw `185 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
-  - base 1.8e-10: [이트륨] raw `180 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-121
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 12.6, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `12.6 K` (줄 123, 뒤): …s, europium is divalent in EuB6. EuB6 is a ferromagnetic semimetal and undergoes two closely spaced electronic and magnetic transitions near 15.5 and 【12.6 K】. Its unusual transport properties, including large magnetoresistance, have been associated with the formation and subsequent overlap of magnetic pola…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-122
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 속도, base 2280, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `2280 m/s` (줄 43, 뒤):   - Speed of sound thin rod: 【2280 m/s】 (at 20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2130: [사마륨] raw `2130 m/s` (줄 38, 한쪽 언어 쪽):   - 음속 (얇은 막대): 【2130 m/s】 (20 °C)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-123
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 6.1799e+07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `23.5 months` (줄 124, 뒤): …l dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 【23.5 months】 and no significant toxicity was observed, other than hair loss (alopecia). However, a significant subset of these patients, a high proportion of whic…
-  - [Neutron capture therapy of cancer] raw `23.5` (줄 144, 머리글): | KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 【23.5】 (primary + X-ray) |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 6.05906e+07: [툴륨] raw `1.92 y` (줄 46, 두 언어 쪽): … 인공 93.1 d ε 1.679 ¹⁶⁸Er ¹⁶⁹Tm 100% 안정 ¹⁷⁰Tm 인공 128.6 d β⁻ 0.968 ¹⁷⁰Yb ¹⁷¹Tm 인공 【1.92 y】 β⁻ 0.096 ¹⁷¹Yb
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-124
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 9210, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `9.21 kJ/mol` (줄 21, 뒤):   - Heat of fusion: 【9.21 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 8620: [사마륨] raw `8.62 kJ/mol` (줄 20, 한쪽 언어 쪽):   - 융해열: 【8.62 kJ/mol】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-125
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 1.82e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `182 pm` (줄 30, 뒤):   - Atomic radius: empirical: 【182 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 1.8e-10: [이트륨] raw `180 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
-  - base 1.85e-10: [사마륨] raw `185 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-  - base 1.75e-10: [툴륨] raw `175 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
+  - base 14.5: [어븀] raw `14.5 W/(m·K)` (줄 34, 한쪽 언어 쪽):   - 열전도율: 【14.5 W/(m·K)】
+  - base 13.3: [사마륨] raw `13.3 W/(m·K)` (줄 34, 한쪽 언어 쪽):   - 열전도율: 【13.3 W/(m·K)】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이터븀] `182`: 이터븀의 동위원소들은 ¹⁴⁸Yb의 경우인 147.9674 u에서부터 ¹⁸¹Yb의 경우인 【182】.9562 u의 원자량 범위를 가진다. 이터븀의 가장 안정한 동위원소 ¹⁷⁴Yb보다 중성자수가 적은 방사성 동위원소들의 일반적인 방사성 붕괴 형…
+  - [이트륨 동위 원소] `13.9`: | ⁸⁸ᵐ¹Y | 674.55(4) keV | 674.55(4) keV | 674.55(4) keV | 【13.9】(2) ms | IT | ⁸⁸Y | (8)+ |  |  |
 
-### R-en-126
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 1000, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `1000 kg` (줄 158, 뒤): The price for a (metric) ton [【1000 kg】] of Lanthanum oxide 99% (FOB China in USD/Mt) is given by the Institute of Rare Earths Elements and Strategic Metals (IREESM) as below $2,000 for mos…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨] `1000`: …중에서 불안정하다. 작은 이트륨 조각은 400 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 【1000】 °C 로 가열될 때 생성된다.
-
-### R-en-127
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 4.00544e-21, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `0.025eV` (줄 75, 뒤): … culture (in vitro). Third, gamma rays and internal conversion and Auger electrons are products of the ¹⁵⁷Gd(n,γ)¹⁵⁸Gd capture reaction (¹⁵⁷Gd + nth (【0.025eV】) → [¹⁵⁸Gd] → ¹⁵⁸Gd + γ + 7.94 MeV). Though the gamma rays have longer pathlengths, orders of magnitude greater depths of penetration compared with al…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-128
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.57645e+07, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `13.6 months` (줄 164, 뒤): …sing an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 【13.6 months】, and the 6-year survival was 24%. Significant treatment related complications ("adverse" events) included transient mucositis, alopecia, and, rarely,…
-  - [Neutron capture therapy of cancer] raw `13.7 months` (줄 136, 뒤): …es were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 【13.7 months】. There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors.…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-129
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열팽창, base 5.1e-06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `5.1×10⁻⁶/K` (줄 35, 뒤):   - Thermal expansion: 【5.1×10⁻⁶/K】 (at 20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-130
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 331000, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `331 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【331 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 365000: [이트륨] raw `365 kJ/mol` (줄 21, 한쪽 언어 쪽):   - 기화열: 【365 kJ/mol】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `331`: | ⁹⁸Y | 39 | 59 | 97.922203(26) | 0.548(2) s | β⁻, n (.【331】%) | ⁹⁷Zr | (0)- |  |  |
-
-### R-en-131
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.52525e+07, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `5.8 months` (줄 158, 뒤): …egarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 【5.8 months】. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reporte…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
-  - [이트륨 동위 원소] `5.8`: | ⁷⁸ᵐY | 0(500)# keV | 0(500)# keV | 0(500)# keV | 【5.8】(5) s |  |  | 5+# |  |  |
-  - [터븀 동위 원소] `5.8`: | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 457(29) keV | 【5.8】(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
-  - [터븀 동위 원소] `5.8`: | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 457(29) keV | 【5.8】(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
-
-### R-en-132
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 3.6e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `360` (줄 46, 뒤):   - Vickers hardness: 【360】–1750 MPa
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 3.43e+08: [이터븀] raw `343 MPa` (줄 42, 두 언어 쪽):   - 브리넬 굳기: 【343 MPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [이트륨 동위 원소] `360`: | ¹⁰²ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 【360】(40) ms | β⁻ (94%) | ¹⁰²Zr | high |  |  |
-  - [이트륨 동위 원소] `360`: | ¹⁰²ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 【360】(40) ms | β⁻, n (6%) | ¹⁰¹Zr | high |  |  |
-
-### R-en-133
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.58767e+08, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `98.4 months` (줄 136, 뒤): The median OS after BNCT was 29.6 months and 【98.4 months】 after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median prog…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-134
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 86400, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `24-hour` (줄 182, 뒤): …sirable to reduce the treatment time both for patient comfort during immobilization and to increase the number of patients that could be treated in a 【24-hour】 period. Increasing the neutron beam intensity for the same proton current by adjusting the BSA is often achieved at the cost of reduced beam quality …
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 87840: [터븀 동위 원소] raw `24.4(10) h` (줄 75, 한쪽 언어 쪽): | ¹⁵⁶ᵐ¹Tb | 54(3) keV | 54(3) keV | 54(3) keV | 【24.4(10) h】 | IT | ¹⁵⁶Tb | (7-) |  |  |
-  - base 81720: [터븀 동위 원소] raw `22.7(5) h` (줄 70, 한쪽 언어 쪽): | ¹⁵⁴ᵐ²Tb | 200(150)# keV | 200(150)# keV | 200(150)# keV | 【22.7(5) h】 |  |  | 7- |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
-  - [디스프로슘] `24`:   - 전단 탄성 계수: (α form) 【24】.7 GPa
-  - [디스프로슘] `24`: …Dy 0.06% 안정 ¹⁵⁸Dy 0.10% 안정 ¹⁶⁰Dy 2.34% 안정 ¹⁶¹Dy 18.91% 안정 ¹⁶²Dy 25.51% 안정 ¹⁶³Dy 【24】.90% 안정 ¹⁶⁴Dy 28.18% 안정
-  - [어븀] `24`:   - 전기 음성도 (폴링 척도): 1.【24】
-  - [사마륨] `24`: …¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.【24】% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²S…
-  - [이트륨] `24`:   - 액체(녹는점)일 때: 4.【24】 g/cm³
-
-### R-en-135
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 0.197, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `197+74 −71 ms` (줄 161, 뒤): …he neutron-rich isotope ¹⁷⁰Eu, at the upper end of this range, was first experimentally characterised in 2022 and was measured to have a half-life of 【197+74 −71 ms】. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 0.18: [이트륨 동위 원소] raw `180(60) ms` (줄 87, 두 언어 쪽): | ¹⁰⁴Y | 39 | 65 | 103.94105(43)# | 【180(60) ms】 | β⁻ | ¹⁰⁴Zr |  |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-136
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 2.88e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `28.8 GPa` (줄 42, 뒤):   - Bulk modulus: 【28.8 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 2.83e+10: [어븀] raw `28.3 GPa` (줄 35, 한쪽 언어 쪽):   - 전단 탄성 계수: 【28.3 GPa】
-  - base 2.72e+10: [루테튬] raw `27.2 GPa` (줄 34, 두 언어 쪽):   - 전단 탄성 계수: 【27.2 GPa】
-  - base 3.05e+10: [툴륨] raw `30.5 GPa` (줄 35, 두 언어 쪽):   - 전단 탄성 계수: 【30.5 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-137
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 2.36962e-14, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `147.9 keV` (줄 163, 뒤): … known. Among the longest-lived are ¹⁵⁰ᵐEu, with a half-life of 12.8 hours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 【147.9 keV】 has a half-life of about 96 minutes. Most neutron-deficient europium isotopes decay towards isotopes of samarium by electron capture or positron emis…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2.61435e-14: [터븀 동위 원소] raw `163.175(5) keV` (줄 64, 한쪽 언어 쪽): | ¹⁵³ᵐTb | 【163.175(5) keV】 | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |  |
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-138
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.45165e+26, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `4.6×10¹⁸ y` (줄 51, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 【4.6×10¹⁸ y】 α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
-  - [Europium] raw `4.6×10¹⁸ years` (줄 55, 뒤): … nearly equal proportions, ¹⁵¹Eu and ¹⁵³Eu. ¹⁵³Eu is observationally stable, while ¹⁵¹Eu is a very long-lived alpha emitter with a half-life of about 【4.6×10¹⁸ years】.
-  - [Europium] raw `4.62×10¹⁸ years` (줄 159, 뒤): …ectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 【4.62×10¹⁸ years】. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europ…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `4.6`: | ⁸⁴Y | 39 | 45 | 83.92039(10) | 【4.6】(2) s | β⁺ | ⁸⁴Sr | 1+ |  |  |
-
-### R-en-139
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 2.82e+07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `282 bar` (줄 76, 뒤): …e most oxidised product of the combustion of praseodymium and can be obtained by either reaction of praseodymium metal with pure oxygen at 400 °C and 【282 bar】 or by disproportionation of Pr6O11 in boiling acetic acid. The reactivity of praseodymium conforms to periodic trends, as it is one of the first and …
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-140
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.73494e+07, 표 안 예, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `10.4` (줄 148, 머리글): | HFR, Netherlands | 26 (1997–2002) | BSH 100 mg/kg | 【10.4】 – 13.2 |
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-141
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 3737, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `3737 K` (줄 18, 뒤):   - Boiling point: 【3737 K】 ​(3464 °C, ​6267 °F)
-  - [Lanthanum] raw `6267 °F` (줄 18, 뒤):   - Boiling point: 3737 K ​(3464 °C, ​【6267 °F】)
-  - [Lanthanum] raw `3464 °C` (줄 18, 뒤):   - Boiling point: 3737 K ​(【3464 °C】, ​6267 °F)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 3675: [루테튬] raw `3675 K` (줄 17, 두 언어 쪽):   - 끓는점: 【3675 K】
-  - base 3609: [이트륨] raw `3609 K` (줄 17, 한쪽 언어 쪽):   - 끓는점: 【3609 K】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-142
+### R-en-097
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.36607e+07, 표 안 예, 시험 대상 밖 예
 - 언급:
@@ -5278,292 +4777,62 @@
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-143
+### R-en-098
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.82e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 8.3e+09, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `18.2 GPa` (줄 40, 뒤):   - Young's modulus: 【18.2 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 1.95e+10: [사마륨] raw `19.5 GPa` (줄 36, 한쪽 언어 쪽):   - 전단 탄성 계수: (α form) 【19.5 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-144
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.17245e+06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `13.57 d` (줄 52, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 19.12 h β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 【13.57 d】 β⁻ ¹⁴³Nd
-  - [Praseodymium] raw `13.57 days` (줄 105, 뒤): …been synthesized. All of these isotopes have half-lives under a day (and most under a minute), with the single exception of ¹⁴³Pr with a half-life of 【13.57 days】. Both ¹⁴¹Pr and ¹⁴³Pr occur as fission products of uranium (as do heavier isotopes). The primary decay mode of isotopes lighter than ¹⁴¹Pr is positro…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-145
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 54.3, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `54.3 Gy` (줄 158, 뒤): …dy. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 【54.3 Gy】 (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-146
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열전도율, base 13.9, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `13.9 W/(m⋅K)` (줄 36, 뒤):   - Thermal conductivity: est. 【13.9 W/(m⋅K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 14.5: [어븀] raw `14.5 W/(m·K)` (줄 32, 한쪽 언어 쪽):   - 열전도율: 【14.5 W/(m·K)】
-  - base 13.3: [사마륨] raw `13.3 W/(m·K)` (줄 32, 한쪽 언어 쪽):   - 열전도율: 【13.3 W/(m·K)】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `13.9`: | ⁸⁸ᵐ¹Y | 674.55(4) keV | 674.55(4) keV | 674.55(4) keV | 【13.9】(2) ms | IT | ⁸⁸Y | (8)+ |  |  |
-
-### R-en-147
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 2.07e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `207±8 pm` (줄 31, 뒤):   - Covalent radius: 【207±8 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 2.22e-10: [툴륨] raw `222 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【222 pm】 (계산값)
-  - base 2.26e-10: [어븀] raw `226 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【226 pm】 (계산값)
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이터븀] `207`:   - 푸아송 비: (β form) 0.【207】
-
-### R-en-148
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.49646e+08, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `4.742 y` (줄 51, 뒤): …Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 【4.742 y】 β⁻ ¹⁵⁵Gd
-  - [Europium] raw `4.742 years` (줄 161, 뒤): …al isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (【4.742 years】); all other known ground-state europium radioisotopes have half-lives shorter than 100 days.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-149
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 15.5, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `15.5` (줄 123, 뒤): …exaborides, europium is divalent in EuB6. EuB6 is a ferromagnetic semimetal and undergoes two closely spaced electronic and magnetic transitions near 【15.5】 and 12.6 K. Its unusual transport properties, including large magnetoresistance, have been associated with the formation and subsequent overlap of ma…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 14.8: [사마륨] raw `14.8K` (줄 61, 한쪽 언어 쪽): …온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 【14.8K】 이하로 냉각시키면 반강자성을 띤다.
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-150
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 3.15e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `31.5 GPa` (줄 67, 뒤): …series of structural transformations. The bcc phase transforms to a hexagonal close-packed structure at about 12.5 GPa, which remains stable to about 【31.5 GPa】. Above this pressure europium adopts an incommensurately modulated monoclinic structure, known as Eu-IV, which is stable to about 37 GPa; another str…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 3.05e+10: [툴륨] raw `30.5 GPa` (줄 35, 두 언어 쪽):   - 전단 탄성 계수: 【30.5 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-151
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비열, base 193.031, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `193.031 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【193.031 J/(kg·K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-152
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비저항, base 7e-07, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `0.700 µΩ⋅m` (줄 37, 뒤):   - Electrical resistivity: poly: 【0.700 µΩ⋅m】 (at r.t.)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 6.76e-07: [툴륨] raw `676 n Ω·m` (줄 33, 두 언어 쪽):   - 전기 저항도: (실온) (poly) 【676 n Ω·m】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-153
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.48e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `14.8 GPa` (줄 41, 뒤):   - Shear modulus: 【14.8 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
-  - [이트륨 동위 원소] `14.8`: | ⁷⁹Y | 39 | 40 | 78.93735(48) | 【14.8】(6) s | β⁺ (>99.9%) | ⁷⁹Sr | (5/2+)# |  |  |
-  - [이트륨 동위 원소] `14.8`: | ⁷⁹Y | 39 | 40 | 78.93735(48) | 【14.8】(6) s | β⁺, p (<0.1%) | ⁷⁸Rb | (5/2+)# |  |  |
-  - [사마륨] `14.8`: …온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 【14.8】K 이하로 냉각시키면 반강자성을 띤다.
-
-### R-en-154
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 2.03e-10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `203±7 pm` (줄 31, 뒤):   - Covalent radius: 【203±7 pm】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 29, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
-  - base 2.22e-10: [툴륨] raw `222 pm` (줄 28, 두 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【222 pm】 (계산값)
-  - base 1.85e-10: [사마륨] raw `185 pm` (줄 28, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-155
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 6145, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `6.145 g/cm³` (줄 19, 뒤):   - Density (at 20° C): 【6.145 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 19, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-156
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 3.7e+06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `3,700 tonnes` (줄 127, 뒤): …is based on data from the U.S. Geological Survey, worldwide production of praseodymium was estimated at 2,000 tonnes in 2020 and increased to roughly 【3,700 tonnes】 in 2022.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-157
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 속도, base 2475, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `2475 m/s` (줄 43, 뒤):   - Speed of sound thin rod: 【2475 m/s】 (at 20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 2710: [디스프로슘] raw `2710 m/s` (줄 38, 두 언어 쪽):   - 음속 (얇은 막대): 【2710 m/s】 (20 °C)
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-158
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 2e+06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `2,000 tonnes` (줄 127, 뒤): …s of lanthanides. According to industry analysis based on data from the U.S. Geological Survey, worldwide production of praseodymium was estimated at 【2,000 tonnes】 in 2020 and increased to roughly 3,700 tonnes in 2022.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-159
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 2.086e+06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Praseodymium] raw `2086 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 527 kJ/mol, 2nd: 1020 kJ/mol, 3rd: 【2086 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
-  - base 2.0223e+06: [루테튬] raw `2022.3 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 523.5 kJ/mol, 2차: 1340 kJ/mol, 3차: 【2022.3 kJ/mol】
-  - base 2.194e+06: [어븀] raw `2194 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 589.3 kJ/mol, 2차: 1150 kJ/mol, 3차: 【2194 kJ/mol】
-  - base 1.98e+06: [이트륨] raw `1980 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 600 kJ/mol, 2차: 1180 kJ/mol, 3차: 【1980 kJ/mol】
-  - base 2.26e+06: [사마륨] raw `2260 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 【2260 kJ/mol】
-  - base 2.285e+06: [툴륨] raw `2285 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 596.7 kJ/mol, 2차: 1160 kJ/mol, 3차: 【2285 kJ/mol】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-160
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 1.085e+06, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `1085 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 547.1 kJ/mol, 2nd: 【1085 kJ/mol】, 3rd: 2404 kJ/mol
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 1.07e+06: [사마륨] raw `1070 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 【1070 kJ/mol】, 3차: 2260 kJ/mol
-  - base 1.13e+06: [디스프로슘] raw `1130 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 573.0 kJ/mol, 2차: 【1130 kJ/mol】, 3차: 2200 kJ/mol
-  - base 1.15e+06: [어븀] raw `1150 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 589.3 kJ/mol, 2차: 【1150 kJ/mol】, 3차: 2194 kJ/mol
-  - base 1.1748e+06: [이터븀] raw `1174.8 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 603.4 kJ/mol, 2차: 【1174.8 kJ/mol】, 3차: 2417 kJ/mol
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-161
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.75e+09, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `1750 MPa` (줄 46, 뒤):   - Vickers hardness: 360–【1750 MPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.6212e+09: [이터븀] raw `16000 기압` (줄 62, 두 언어 쪽): …심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 【16000 기압】(1.6 GPa)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4…
-  - base 1.6e+09: [이터븀] raw `1.6 GPa` (줄 62, 두 언어 쪽): … 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 16000 기압(【1.6 GPa】)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4.0 GPa) …
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-162
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.16448e+09, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `36.9 y` (줄 51, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 【36.9 y】 β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu…
-  - [Europium] raw `36.9 years` (줄 161, 뒤): …tally characterised in 2022 and was measured to have a half-life of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 【36.9 years】. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-163
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 3.04414e-13, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `1.9` (줄 180, 뒤): …nerate neutrons, though other nuclear reactions also have been considered. The lithium-7 reaction requires a proton accelerator with energies between 【1.9】 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that t…
+  - [Europium] raw `8.3 GPa` (줄 43, 뒤):   - Bulk modulus: 【8.3 GPa】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `1.9`: | ⁹⁹Y | 39 | 60 | 98.924636(26) | 1.470(7) s | β⁻, n (【1.9】%) | ⁹⁸Zr | (5/2+) |  |  |
+  - [이트륨 동위 원소] `8.3`: | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 224(19) ms | β⁻, n (【8.3】%) | ¹⁰²Zr | 5/2+# |  |  |
 
-### R-en-164
+### R-en-099
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 1.02e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.97022e+07, 표 안 아니오, 시험 대상 밖 예
 - 언급:
-  - [Praseodymium] raw `1020 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 527 kJ/mol, 2nd: 【1020 kJ/mol】, 3rd: 2086 kJ/mol
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.07e+06: [사마륨] raw `1070 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 【1070 kJ/mol】, 3차: 2260 kJ/mol
-  - base 1.13e+06: [디스프로슘] raw `1130 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 573.0 kJ/mol, 2차: 【1130 kJ/mol】, 3차: 2200 kJ/mol
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-165
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 3.66e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `36.6 GPa` (줄 40, 뒤):   - Young's modulus: α form: 【36.6 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 3.78e+10: [사마륨] raw `37.8 GPa` (줄 37, 한쪽 언어 쪽):   - 부피 탄성 계수: (α form) 【37.8 GPa】
-  - base 4.05e+10: [디스프로슘] raw `40.5 GPa` (줄 37, 두 언어 쪽):   - 부피 탄성 계수: (α form) 【40.5 GPa】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
-
-### R-en-166
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 6.1, 표 안 아니오, 시험 대상 밖 예
-- 언급:
-  - [Neutron capture therapy of cancer] raw `6.1 Gy` (줄 158, 뒤): …e BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–【6.1 Gy】 (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regar…
+  - [Neutron capture therapy of cancer] raw `18.9 months` (줄 207, 뒤): …on irradiation. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 【18.9 months】. Based on these results, it was concluded that c-BNS BNCT was safe and resulted in increased survival of patients with recurrent gliomas. Although th…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-167
+### R-en-100
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 176000, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.45165e+26, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `176 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【176 kJ/mol】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 165000: [사마륨] raw `165 kJ/mol` (줄 21, 한쪽 언어 쪽):   - 기화열: 【165 kJ/mol】
-  - base 159000: [이터븀] raw `159 kJ/mol` (줄 21, 두 언어 쪽):   - 기화열: 【159 kJ/mol】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
-  - [이터븀] `176`:   - 원자 반지름: 【176】 pm (실험값)
-  - [루테튬] `176`: 루테튬은 지각에서 은보다 훨씬 더 흔하지만 특별히 풍부한 원소는 아니다. 구체적으로 이용된 사례는 거의 없다. 루테튬-【176】은 상대적으로 풍부한(2.5%) 방사성 동위원소로 반감기가 약 380억년으로 광물과 운석의 나이를 결정하는 데 사용된다. 루테튬은 일반적으로 이…
-  - [네오디뮴 동위 원소] `176`: | ¹³³ᵐ²Nd | 【176】.10(10) keV | 176.10(10) keV | 176.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |
-  - [네오디뮴 동위 원소] `176`: | ¹³³ᵐ²Nd | 176.10(10) keV | 【176】.10(10) keV | 176.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |
-  - [네오디뮴 동위 원소] `176`: | ¹³³ᵐ²Nd | 176.10(10) keV | 176.10(10) keV | 【176】.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |
-
-### R-en-168
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.43e+10, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `14.3 GPa` (줄 41, 뒤):   - Shear modulus: α form: 【14.3 GPa】
+  - [Europium] raw `4.6×10¹⁸ y` (줄 52, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 【4.6×10¹⁸ y】 α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
+  - [Europium] raw `4.6×10¹⁸ years` (줄 56, 뒤): … nearly equal proportions, ¹⁵¹Eu and ¹⁵³Eu. ¹⁵³Eu is observationally stable, while ¹⁵¹Eu is a very long-lived alpha emitter with a half-life of about 【4.6×10¹⁸ years】.
+  - [Europium] raw `4.62×10¹⁸ years` (줄 160, 뒤): …ectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 【4.62×10¹⁸ years】. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europ…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이터븀] `14.3`: …0.304 ¹⁶⁶Tm ¹⁶⁸Yb 0.13% 안정 ¹⁶⁹Yb 인공 32.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 【14.3】% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵…
+  - [이트륨 동위 원소] `4.6`: | ⁸⁴Y | 39 | 45 | 83.92039(10) | 【4.6】(2) s | β⁺ | ⁸⁴Sr | 1+ |  |  |
 
-### R-en-169
+### R-en-101
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 583.15, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.58767e+08, 표 안 아니오, 시험 대상 밖 예
 - 언급:
-  - [Lanthanum] raw `310 °C` (줄 69, 뒤): …um is the least volatile of the lanthanides. Like most of the lanthanides, lanthanum has a hexagonal crystal structure at room temperature (α-La). At 【310 °C】, lanthanum changes to a face-centered cubic structure (β-La), and at 865 °C, it changes to a body-centered cubic structure (γ-La).
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 573.15: [사마륨] raw `300` (줄 91, 한쪽 언어 쪽): …이 때, 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 【300】~400°C 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
-  - [사마륨] `310`: … DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.【310】 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹…
-  - [터븀 동위 원소] `310`: | ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 8618.6(10) keV | 8618.6(10) keV | 1.【310】(7) µs |  |  | (27+) |  |  |
-
-### R-en-170
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 46080, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Europium] raw `12.8 hours` (줄 163, 뒤): Numerous nuclear isomers are also known. Among the longest-lived are ¹⁵⁰ᵐEu, with a half-life of 【12.8 hours】, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 96 minutes. Most neutron-deficient euro…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 48132: [이트륨 동위 원소] raw `13.37(3) h` (줄 39, 두 언어 쪽): | ⁸⁷ᵐY | 380.82(7) keV | 380.82(7) keV | 380.82(7) keV | 【13.37(3) h】 | IT (98.43%) | ⁸⁷Y | 9/2+ |  |  |
+  - [Neutron capture therapy of cancer] raw `98.4 months` (줄 136, 뒤): The median OS after BNCT was 29.6 months and 【98.4 months】 after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median prog…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-171
+### R-en-102
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 6500, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 5.75914e+07, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Praseodymium] raw `6.50 g/cm³` (줄 20, 뒤):   - when liquid (at m.p.): 【6.50 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 19, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
-  - base 6900: [이터븀] raw `6.90 g/cm³` (줄 18, 두 언어 쪽):   - 밀도 (상온 근처): 【6.90 g/cm³】
-  - base 7160: [사마륨] raw `7.16 g/cm³` (줄 19, 한쪽 언어 쪽):   - 액체(녹는점)일 때: 【7.16 g/cm³】
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+  - [Neutron capture therapy of cancer] raw `21.9` (줄 147, 머리글): | FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 【21.9】 (primary), 7.0 (recurrent) |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 6.05906e+07: [툴륨] raw `1.92 y` (줄 48, 두 언어 쪽): … 인공 93.1 d ε 1.679 ¹⁶⁸Er ¹⁶⁹Tm 100% 안정 ¹⁷⁰Tm 인공 128.6 d β⁻ 0.968 ¹⁷⁰Yb ¹⁷¹Tm 인공 【1.92 y】 β⁻ 0.096 ¹⁷¹Yb
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이터븀] `21.9`: …Yb 0.13% 안정 ¹⁶⁹Yb 인공 32.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 【21.9】% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵Lu ¹⁷⁶Yb 12.7% …
 
-### R-en-172
+### R-en-103
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 0.0704, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `70.4 g` (줄 224, 뒤): …simultaneously, helping to separate europium from less volatile contaminants. In 1958, Frank Spedding, J. J. Hanak and A. H. Daane reported preparing 【70.4 g】 of high-purity europium by heating europium oxide with lanthanum in vacuum at about 1200 °C.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이트륨 동위 원소] `70.4`: | ⁸¹Y | 39 | 42 | 80.92913(7) | 【70.4】(10) s | β⁺ | ⁸¹Sr | (5/2+) |  |  |
+
+### R-en-104
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 50400, 표 안 아니오, 시험 대상 밖 예
 - 언급:
@@ -5578,98 +4847,162 @@
   - [이트륨 동위 원소] `14`: | ⁷⁹Y | 39 | 40 | 78.93735(48) | 【14】.8(6) s | β⁺, p (<0.1%) | ⁷⁸Rb | (5/2+)# |  |  |
   - [이트륨 동위 원소] `14`: | ⁸²ᵐ¹Y | 402.63(【14】) keV | 402.63(14) keV | 402.63(14) keV | 268(25) ns |  |  | 4- |  |  |
 
-### R-en-173
+### R-en-105
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.4192e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 2.47e-10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `28-day` (줄 259, 뒤): …low systemic availability following oral administration of europium(III) chloride, although sufficiently high doses can produce adverse effects. In a 【28-day】 study, rats were given europium(III) chloride hexahydrate at doses of up to 1000 mg/kg of body weight per day. At the highest dose, gastric irritatio…
+  - [Praseodymium] raw `247 pm` (줄 63, 뒤): …. It is a ductile metal with a hardness comparable to that of silver. Praseodymium is calculated to have a very large atomic radius; with a radius of 【247 pm】, barium, rubidium and caesium are larger. However, observationally, it is usually 185 pm.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 2.38e-10: [사마륨] raw `238 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 185 pm (실험값) 【238 pm】 (계산값)
+  - base 2.28e-10: [디스프로슘] raw `228 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【228 pm】 (계산값)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [툴륨] `247`:   - 기화열: 【247】 kJ/mol
+  - [디스프로슘] `247`:   - 푸아송 비: (α form) 0.【247】
+
+### R-en-106
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 823, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Samarium–cobalt magnet] raw `823 K` (줄 13, 뒤): - These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (【823 K】) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).
+  - [Samarium–cobalt magnet] raw `550 °C` (줄 13, 뒤): - These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 【550 °C】 (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
-  - [디스프로슘] `28`: …y 0.10% 안정 ¹⁶⁰Dy 2.34% 안정 ¹⁶¹Dy 18.91% 안정 ¹⁶²Dy 25.51% 안정 ¹⁶³Dy 24.90% 안정 ¹⁶⁴Dy 【28】.18% 안정
-  - [어븀] `28`:   - 몰열용량: 【28】.12 J/(mol·K)
-  - [어븀] `28`:   - 전단 탄성 계수: 【28】.3 GPa
-  - [어븀] `28`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 【28】.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho…
-  - [이트륨] `28`: …0.48 0.38D - ⁸⁸Y 합성 106.6d ε - ⁸⁸Sr γ 1.83 0.89 - ⁸⁹Y 100% 안정 ⁹⁰Y 합성 2.67d β- 2.【28】 ⁹⁰Zr γ 2.18 - ⁹¹Y 합성 58.5d β- 1.54 ⁹¹Zr γ 1.20 -
-
-### R-en-174
-
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 5940, 표 안 아니오, 시험 대상 밖 아니오
-- 언급:
-  - [Lanthanum] raw `5.94 g/cm³` (줄 20, 뒤):   - when liquid (at m.p.): 【5.94 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 19, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-175
+### R-en-107
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.25043e+18, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 538100, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Lanthanum] raw `1.03×10¹¹ y` (줄 53, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 【1.03×10¹¹ y】 β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
-  - [Lanthanum] raw `1.03×10¹¹ years` (줄 79, 뒤): …ovae). It is the only stable isotope of lanthanum. The very rare isotope ¹³⁸ La is one of the few primordial odd–odd nuclei, with a long half-life of 【1.03×10¹¹ years】. It is one of the proton-rich p-nuclei which cannot be produced in the s- or r-processes. ¹³⁸ La, along with the even rarer ¹⁸⁰ᵐ Ta, is produced in t…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 3.34511e+18: [사마륨] raw `1.06×10¹¹y` (줄 48, 한쪽 언어 쪽): …반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 【1.06×10¹¹y】 α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870…
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [사마륨] `1.03`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 【1.03】×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α…
+  - [Lanthanum] raw `538.1 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 【538.1 kJ/mol】, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
+  - base 544500: [사마륨] raw `544.5 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 【544.5 kJ/mol】, 2차: 1070 kJ/mol, 3차: 2260 kJ/mol
+  - base 523500: [루테튬] raw `523.5 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 【523.5 kJ/mol】, 2차: 1340 kJ/mol, 3차: 2022.3 kJ/mol
+  - base 573000: [디스프로슘] raw `573.0 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 【573.0 kJ/mol】, 2차: 1130 kJ/mol, 3차: 2200 kJ/mol
+  - base 589300: [어븀] raw `589.3 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 【589.3 kJ/mol】, 2차: 1150 kJ/mol, 3차: 2194 kJ/mol
+  - base 596700: [툴륨] raw `596.7 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 【596.7 kJ/mol】, 2차: 1160 kJ/mol, 3차: 2285 kJ/mol
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-176
+### R-en-108
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 8.3e+09, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.57645e+07, 표 안 아니오, 시험 대상 밖 예
 - 언급:
-  - [Europium] raw `8.3 GPa` (줄 42, 뒤):   - Bulk modulus: 【8.3 GPa】
+  - [Neutron capture therapy of cancer] raw `13.6 months` (줄 164, 뒤): …sing an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 【13.6 months】, and the 6-year survival was 24%. Significant treatment related complications ("adverse" events) included transient mucositis, alopecia, and, rarely,…
+  - [Neutron capture therapy of cancer] raw `13.7 months` (줄 136, 뒤): …es were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 【13.7 months】. There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors.…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `8.3`: | ¹⁰³Y | 39 | 64 | 102.93673(32)# | 224(19) ms | β⁻, n (【8.3】%) | ¹⁰²Zr | 5/2+# |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-177
+### R-en-109
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 7.9e+09, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 6200, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `7.9 GPa` (줄 41, 뒤):   - Shear modulus: 【7.9 GPa】
+  - [Lanthanum] raw `6.20 kJ/mol` (줄 21, 뒤):   - Heat of fusion: 【6.20 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [터븀 동위 원소] `7.9`: | ¹⁴¹ᵐTb | 0(200)# keV | 0(200)# keV | 0(200)# keV | 【7.9】(6) s | β⁺ | ¹⁴¹Gd | 11/2-# |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-178
+### R-en-110
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비저항, base 6.15e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 6890, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Lanthanum] raw `615 nΩ⋅m` (줄 37, 뒤):   - Electrical resistivity: α, poly: 【615 nΩ⋅m】 (at r.t.)
+  - [Praseodymium] raw `6.89 kJ/mol` (줄 21, 뒤):   - Heat of fusion: 【6.89 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-111
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 145040, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `40.289 h` (줄 54, 뒤): …n­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 1.03×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 【40.289 h】 β⁻ ¹⁴⁰Ce
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-112
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 1138.15, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `865 °C` (줄 70, 뒤): …anthanum has a hexagonal crystal structure at room temperature (α-La). At 310 °C, lanthanum changes to a face-centered cubic structure (β-La), and at 【865 °C】, it changes to a body-centered cubic structure (γ-La).
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
-  - base 5.96e-07: [이트륨] raw `596 n Ω·m` (줄 33, 한쪽 언어 쪽):   - 전기 저항도: (실온) (α, poly) 【596 n Ω·m】
-  - base 5.82e-07: [루테튬] raw `582 n Ω·m` (줄 32, 두 언어 쪽):   - 전기 저항도: (실온) (poly) 【582 n Ω·m】
-  - base 6.76e-07: [툴륨] raw `676 n Ω·m` (줄 33, 두 언어 쪽):   - 전기 저항도: (실온) (poly) 【676 n Ω·m】
+  - base 1097: [이터븀] raw `1097 K` (줄 17, 두 언어 쪽):   - 녹는점: 【1097 K】
+  - base 1195.15: [사마륨] raw `922°C` (줄 63, 한쪽 언어 쪽): …삼방정계 구조(α 구조)를 가지며, 731°C 이상의 고온으로 가열하면 육방정계 구조로 전환된다. 전환 온도는 불순물에 따라 달라지기도 한다. 【922°C】 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 14.8K 이하로 냉각시키면 반강자성을 띤다.
+  - base 1068.15: [이터븀] raw `795 °C` (줄 64, 두 언어 쪽): …정 구조를 가지는데 알파 결정 구조는 -13 °C이하에서 존재하고 낮은 온도에서 안정하며 육방정계 결정 구조를 가지고 있고, 감마 결정 구조는 【795 °C】이상에서 존재하고 체심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 …
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-179
+### R-en-113
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 15.4, 표 안 아니오, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 3.6e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Neutron capture therapy of cancer] raw `15.4` (줄 158, 뒤): …this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 【15.4】 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete surviva…
+  - [Lanthanum] raw `360` (줄 47, 뒤):   - Vickers hardness: 【360】–1750 MPa
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 3.43e+08: [이터븀] raw `343 MPa` (줄 44, 두 언어 쪽):   - 브리넬 굳기: 【343 MPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [이트륨 동위 원소] `360`: | ¹⁰²ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 【360】(40) ms | β⁻ (94%) | ¹⁰²Zr | high |  |  |
+  - [이트륨 동위 원소] `360`: | ¹⁰²ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 【360】(40) ms | β⁻, n (6%) | ¹⁰¹Zr | high |  |  |
+
+### R-en-114
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 4e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `400 MPa` (줄 48, 뒤):   - Brinell hardness: 350–【400 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 4.12e+08: [사마륨] raw `412 MPa` (줄 42, 한쪽 언어 쪽):   - 비커스 굳기: 【412 MPa】
+  - base 4.41e+08: [사마륨] raw `441 MPa` (줄 43, 한쪽 언어 쪽):   - 브리넬 굳기: 【441 MPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [사마륨] `400`: … 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 300~【400】°C 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드셋, 기…
+  - [이트륨] `400`: … 안에서 750 °C 로 가열될 때 1 μm의 두께를 가질 수 있다. 잘게 나눠졌을 때, 이트륨은 공기 중에서 불안정하다. 작은 이트륨 조각은 【400】 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 1000 °C 로 가열될 때 생성된다.
+
+### R-en-115
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 422000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `422 tonnes` (줄 218, 뒤): …f mixed rare-earth production rather than mined separately. European Commission estimates placed average global production of europium oxide at about 【422 tonnes】 per year in 2012–2016. China accounted for approximately 86% of this production, followed by Australia at 6%, the United States and Russia at about 2…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-180
+### R-en-116
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 7.45e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 5240, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `745 MPa` (줄 45, 뒤):   - Vickers hardness: 250–【745 MPa】
+  - [Europium] raw `5.24 g/cm³` (줄 64, 뒤): Europium is a soft, silvery-white, ductile rare-earth metal. Its hardness is similar to that of lead. At room temperature it has a density of about 【5.24 g/cm³】 and a melting point of 822 °C (1,095 K).
+  - [Europium] raw `5.246 g/cm³` (줄 19, 뒤):   - Density (at 20° C): 【5.246 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-117
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 2.36962e-14, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `147.9 keV` (줄 164, 뒤): … known. Among the longest-lived are ¹⁵⁰ᵐEu, with a half-life of 12.8 hours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 【147.9 keV】 has a half-life of about 96 minutes. Most neutron-deficient europium isotopes decay towards isotopes of samarium by electron capture or positron emis…
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 8.14e+08: [어븀] raw `814 MPa` (줄 40, 한쪽 언어 쪽):   - 브리넬 굳기: 【814 MPa】
+  - base 2.61435e-14: [터븀 동위 원소] raw `163.175(5) keV` (줄 64, 한쪽 언어 쪽): | ¹⁵³ᵐTb | 【163.175(5) keV】 | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-181
+### R-en-118
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 6773, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 1.98e-10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `6.773 g/cm³` (줄 19, 뒤):   - Density (at 20° C): 【6.773 g/cm³】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 6900: [이터븀] raw `6.90 g/cm³` (줄 18, 두 언어 쪽):   - 밀도 (상온 근처): 【6.90 g/cm³】
-  - base 7160: [사마륨] raw `7.16 g/cm³` (줄 19, 한쪽 언어 쪽):   - 액체(녹는점)일 때: 【7.16 g/cm³】
-  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 19, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
-  - base 7520: [사마륨] raw `7.52 g/cm³` (줄 18, 한쪽 언어 쪽):   - 밀도 (상온 근처): 【7.52 g/cm³】
+  - [Europium] raw `198±6 pm` (줄 31, 뒤):   - Covalent radius: 【198±6 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+  - base 1.85e-10: [사마륨] raw `185 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
+  - base 1.8e-10: [이트륨] raw `180 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-182
+### R-en-119
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 15.5, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `15.5` (줄 124, 뒤): …exaborides, europium is divalent in EuB6. EuB6 is a ferromagnetic semimetal and undergoes two closely spaced electronic and magnetic transitions near 【15.5】 and 12.6 K. Its unusual transport properties, including large magnetoresistance, have been associated with the formation and subsequent overlap of ma…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 14.8: [사마륨] raw `14.8K` (줄 63, 한쪽 언어 쪽): …온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 【14.8K】 이하로 냉각시키면 반강자성을 띤다.
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-120
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열팽창, base 4.5e-06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `4.5×10⁻⁶/K` (줄 36, 뒤):   - Thermal expansion: 【4.5×10⁻⁶/K】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-121
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 1.27213e-12, 표 안 아니오, 시험 대상 밖 예
 - 언급:
@@ -5678,22 +5011,615 @@
   - base 1.38085e-12: [터븀 동위 원소] raw `8618.6(10) keV` (줄 45, 한쪽 언어 쪽): | ¹⁴⁸ᵐ²Tb | 【8618.6(10) keV】 | 8618.6(10) keV | 8618.6(10) keV | 1.310(7) µs |  |  | (27+) |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
-### R-en-183
+### R-en-122
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 9210, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `9.21 kJ/mol` (줄 21, 뒤):   - Heat of fusion: 【9.21 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8620: [사마륨] raw `8.62 kJ/mol` (줄 21, 한쪽 언어 쪽):   - 융해열: 【8.62 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-123
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 1.82e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `182 pm` (줄 30, 뒤):   - Atomic radius: empirical: 【182 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 1.8e-10: [이트륨] raw `180 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【180 pm】 (실험값)
+  - base 1.85e-10: [사마륨] raw `185 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+  - base 1.75e-10: [툴륨] raw `175 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 【175 pm】 (실험값) 222 pm (계산값)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이터븀] `182`: 이터븀의 동위원소들은 ¹⁴⁸Yb의 경우인 147.9674 u에서부터 ¹⁸¹Yb의 경우인 【182】.9562 u의 원자량 범위를 가진다. 이터븀의 가장 안정한 동위원소 ¹⁷⁴Yb보다 중성자수가 적은 방사성 동위원소들의 일반적인 방사성 붕괴 형…
+
+### R-en-124
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 583.15, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `310 °C` (줄 70, 뒤): …um is the least volatile of the lanthanides. Like most of the lanthanides, lanthanum has a hexagonal crystal structure at room temperature (α-La). At 【310 °C】, lanthanum changes to a face-centered cubic structure (β-La), and at 865 °C, it changes to a body-centered cubic structure (γ-La).
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 573.15: [사마륨] raw `300` (줄 93, 한쪽 언어 쪽): …이 때, 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 【300】~400°C 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [사마륨] `310`: … DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.【310】 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹…
+  - [터븀 동위 원소] `310`: | ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 8618.6(10) keV | 8618.6(10) keV | 1.【310】(7) µs |  |  | (27+) |  |  |
+
+### R-en-125
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 1000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `1000 kg` (줄 159, 뒤): The price for a (metric) ton [【1000 kg】] of Lanthanum oxide 99% (FOB China in USD/Mt) is given by the Institute of Rare Earths Elements and Strategic Metals (IREESM) as below $2,000 for mos…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이트륨] `1000`: …중에서 불안정하다. 작은 이트륨 조각은 400 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 【1000】 °C 로 가열될 때 생성된다.
+
+### R-en-126
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.52525e+07, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `5.8 months` (줄 158, 뒤): …egarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 【5.8 months】. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reporte…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
+  - [이트륨 동위 원소] `5.8`: | ⁷⁸ᵐY | 0(500)# keV | 0(500)# keV | 0(500)# keV | 【5.8】(5) s |  |  | 5+# |  |  |
+  - [터븀 동위 원소] `5.8`: | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 457(29) keV | 【5.8】(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |  |
+  - [터븀 동위 원소] `5.8`: | ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 457(29) keV | 【5.8】(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |  |
+
+### R-en-127
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 3.7742e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `0.37742 nm` (줄 35, 뒤):   - Lattice constants: a = 【0.37742 nm】 c = 1.2171 nm (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 3.6291e-10: [사마륨] raw `0.36291 nm` (줄 32, 한쪽 언어 쪽):   - 격자 상수: ar = 0.89834 nm α = 23.307° ah = 【0.36291 nm】 ch = 2.6207 nm (20 °C에서)
+  - base 3.5916e-10: [디스프로슘] raw `359.16 pm` (줄 32, 두 언어 쪽):   - 격자 상수: a = 【359.16 pm】 c = 565.01 pm (20 °C에서)
+  - base 3.5053e-10: [루테튬] raw `350.53 pm` (줄 31, 두 언어 쪽):   - 격자 상수: a = 【350.53 pm】 c = 554.93 pm (20 °C에서)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-128
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 331000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `331 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【331 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 365000: [이트륨] raw `365 kJ/mol` (줄 22, 한쪽 언어 쪽):   - 기화열: 【365 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이트륨 동위 원소] `331`: | ⁹⁸Y | 39 | 59 | 97.922203(26) | 0.548(2) s | β⁻, n (.【331】%) | ⁹⁷Zr | (0)- |  |  |
+
+### R-en-129
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 54.3, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `54.3 Gy` (줄 158, 뒤): …dy. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 【54.3 Gy】 (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-130
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 2.79e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `27.9 GPa` (줄 43, 뒤):   - Bulk modulus: α form: 【27.9 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 2.83e+10: [어븀] raw `28.3 GPa` (줄 37, 한쪽 언어 쪽):   - 전단 탄성 계수: 【28.3 GPa】
+  - base 2.72e+10: [루테튬] raw `27.2 GPa` (줄 36, 두 언어 쪽):   - 전단 탄성 계수: 【27.2 GPa】
+  - base 2.56e+10: [이트륨] raw `25.6 GPa` (줄 38, 한쪽 언어 쪽):   - 전단 탄성 계수: 【25.6 GPa】
+  - base 3.05e+10: [툴륨] raw `30.5 GPa` (줄 37, 두 언어 쪽):   - 전단 탄성 계수: 【30.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-131
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 7.12661e+07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `27.1 months` (줄 128, 뒤): …Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 【27.1 months】, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively.
+  - [Neutron capture therapy of cancer] raw `27.1` (줄 145, 머리글): | JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 【27.1】 (+ X-ray) |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-132
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 3.04414e-13, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `1.9` (줄 180, 뒤): …nerate neutrons, though other nuclear reactions also have been considered. The lithium-7 reaction requires a proton accelerator with energies between 【1.9】 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that t…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이트륨 동위 원소] `1.9`: | ⁹⁹Y | 39 | 60 | 98.924636(26) | 1.470(7) s | β⁻, n (【1.9】%) | ⁹⁸Zr | (5/2+) |  |  |
+
+### R-en-133
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 12.6, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `12.6 K` (줄 124, 뒤): …s, europium is divalent in EuB6. EuB6 is a ferromagnetic semimetal and undergoes two closely spaced electronic and magnetic transitions near 15.5 and 【12.6 K】. Its unusual transport properties, including large magnetoresistance, have been associated with the formation and subsequent overlap of magnetic pola…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-134
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 2.88e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `28.8 GPa` (줄 43, 뒤):   - Bulk modulus: 【28.8 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 2.83e+10: [어븀] raw `28.3 GPa` (줄 37, 한쪽 언어 쪽):   - 전단 탄성 계수: 【28.3 GPa】
+  - base 2.72e+10: [루테튬] raw `27.2 GPa` (줄 36, 두 언어 쪽):   - 전단 탄성 계수: 【27.2 GPa】
+  - base 3.05e+10: [툴륨] raw `30.5 GPa` (줄 37, 두 언어 쪽):   - 전단 탄성 계수: 【30.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-135
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 46080, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `12.8 hours` (줄 164, 뒤): Numerous nuclear isomers are also known. Among the longest-lived are ¹⁵⁰ᵐEu, with a half-life of 【12.8 hours】, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 96 minutes. Most neutron-deficient euro…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 48132: [이트륨 동위 원소] raw `13.37(3) h` (줄 39, 두 언어 쪽): | ⁸⁷ᵐY | 380.82(7) keV | 380.82(7) keV | 380.82(7) keV | 【13.37(3) h】 | IT (98.43%) | ⁸⁷Y | 9/2+ |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-136
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.16448e+09, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `36.9 y` (줄 52, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 【36.9 y】 β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu…
+  - [Europium] raw `36.9 years` (줄 162, 뒤): …tally characterised in 2022 and was measured to have a half-life of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 【36.9 years】. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-137
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 2.82e+07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `282 bar` (줄 77, 뒤): …e most oxidised product of the combustion of praseodymium and can be obtained by either reaction of praseodymium metal with pure oxygen at 400 °C and 【282 bar】 or by disproportionation of Pr6O11 in boiling acetic acid. The reactivity of praseodymium conforms to periodic trends, as it is one of the first and …
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-138
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.89272e+07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `11.0` (줄 147, 머리글): | FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 【11.0】 – 21.9 (primary), 7.0 (recurrent) |
+  - [Neutron capture therapy of cancer] raw `11.1` (줄 143, 머리글): | MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 【11.1】 |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-139
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 3737, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `3737 K` (줄 18, 뒤):   - Boiling point: 【3737 K】 ​(3464 °C, ​6267 °F)
+  - [Lanthanum] raw `6267 °F` (줄 18, 뒤):   - Boiling point: 3737 K ​(3464 °C, ​【6267 °F】)
+  - [Lanthanum] raw `3464 °C` (줄 18, 뒤):   - Boiling point: 3737 K ​(【3464 °C】, ​6267 °F)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 3675: [루테튬] raw `3675 K` (줄 18, 두 언어 쪽):   - 끓는점: 【3675 K】
+  - base 3609: [이트륨] raw `3609 K` (줄 18, 한쪽 언어 쪽):   - 끓는점: 【3609 K】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-140
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 7.78405e+07, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `29.6 months` (줄 136, 뒤): The median OS after BNCT was 【29.6 months】 and 98.4 months after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-141
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비저항, base 9e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `0.900 µΩ⋅m` (줄 38, 뒤):   - Electrical resistivity: poly: 【0.900 µΩ⋅m】 (at r.t.)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 9.26e-07: [디스프로슘] raw `926 n Ω·m` (줄 35, 두 언어 쪽):   - 전기 저항도: (실온) (α, poly) 【926 n Ω·m】
+  - base 9.4e-07: [사마륨] raw `0.940 μ Ω·m` (줄 35, 한쪽 언어 쪽):   - 전기 저항도: (실온) (α, poly) 【0.940 μ Ω·m】
+  - base 8.6e-07: [어븀] raw `0.860 μ Ω·m` (줄 35, 한쪽 언어 쪽):   - 전기 저항도: (실온) (poly) 【0.860 μ Ω·m】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-142
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.17245e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `13.57 d` (줄 53, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 19.12 h β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 【13.57 d】 β⁻ ¹⁴³Nd
+  - [Praseodymium] raw `13.57 days` (줄 106, 뒤): …been synthesized. All of these isotopes have half-lives under a day (and most under a minute), with the single exception of ¹⁴³Pr with a half-life of 【13.57 days】. Both ¹⁴¹Pr and ¹⁴³Pr occur as fission products of uranium (as do heavier isotopes). The primary decay mode of isotopes lighter than ¹⁴¹Pr is positro…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-143
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 6.1, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `6.1 Gy` (줄 158, 뒤): …e BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–【6.1 Gy】 (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regar…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-144
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 4.5822e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `458.22 pm` (줄 35, 뒤):   - Lattice constant: a = 【458.22 pm】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-145
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 2.07e-10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `207±8 pm` (줄 31, 뒤):   - Covalent radius: 【207±8 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 2.22e-10: [툴륨] raw `222 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【222 pm】 (계산값)
+  - base 2.26e-10: [어븀] raw `226 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【226 pm】 (계산값)
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이터븀] `207`:   - 푸아송 비: (β form) 0.【207】
+
+### R-en-146
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.71143e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `8.592 y` (줄 52, 뒤): …de pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 【8.592 y】 β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
+  - [Europium] raw `8.592 years` (줄 162, 뒤): …e longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (【8.592 years】) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium radioisotopes have half-lives shorter than 100 days.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-147
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 3.15e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `31.5 GPa` (줄 68, 뒤): …series of structural transformations. The bcc phase transforms to a hexagonal close-packed structure at about 12.5 GPa, which remains stable to about 【31.5 GPa】. Above this pressure europium adopts an incommensurately modulated monoclinic structure, known as Eu-IV, which is stable to about 37 GPa; another str…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 3.05e+10: [툴륨] raw `30.5 GPa` (줄 37, 두 언어 쪽):   - 전단 탄성 계수: 【30.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-148
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.25e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `12.5 GPa` (줄 68, 뒤): …e. Under pressure, europium undergoes a series of structural transformations. The bcc phase transforms to a hexagonal close-packed structure at about 【12.5 GPa】, which remains stable to about 31.5 GPa. Above this pressure europium adopts an incommensurately modulated monoclinic structure, known as Eu-IV, whic…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-149
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비열, base 193.031, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `193.031 J/(kg·K)` (줄 24, 뒤):   - Specific heat capacity: 【193.031 J/(kg·K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-150
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비저항, base 7e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `0.700 µΩ⋅m` (줄 38, 뒤):   - Electrical resistivity: poly: 【0.700 µΩ⋅m】 (at r.t.)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 6.76e-07: [툴륨] raw `676 n Ω·m` (줄 35, 두 언어 쪽):   - 전기 저항도: (실온) (poly) 【676 n Ω·m】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-151
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.48e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `14.8 GPa` (줄 42, 뒤):   - Shear modulus: 【14.8 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 3개:
+  - [이트륨 동위 원소] `14.8`: | ⁷⁹Y | 39 | 40 | 78.93735(48) | 【14.8】(6) s | β⁺ (>99.9%) | ⁷⁹Sr | (5/2+)# |  |  |
+  - [이트륨 동위 원소] `14.8`: | ⁷⁹Y | 39 | 40 | 78.93735(48) | 【14.8】(6) s | β⁺, p (<0.1%) | ⁷⁸Rb | (5/2+)# |  |  |
+  - [사마륨] `14.8`: …온도는 불순물에 따라 달라지기도 한다. 922°C 이상으로 가열하면 다시 결정 구조가 바뀌어 체심 입방정계 구조가 된다. 실온에서는 상자성이며 【14.8】K 이하로 냉각시키면 반강자성을 띤다.
+
+### R-en-152
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 속도, base 2280, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `2280 m/s` (줄 44, 뒤):   - Speed of sound thin rod: 【2280 m/s】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 2130: [사마륨] raw `2130 m/s` (줄 40, 한쪽 언어 쪽):   - 음속 (얇은 막대): 【2130 m/s】 (20 °C)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-153
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 6145, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `6.145 g/cm³` (줄 19, 뒤):   - Density (at 20° C): 【6.145 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 20, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-154
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 3.7e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `3,700 tonnes` (줄 128, 뒤): …is based on data from the U.S. Geological Survey, worldwide production of praseodymium was estimated at 2,000 tonnes in 2020 and increased to roughly 【3,700 tonnes】 in 2022.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-155
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.43e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `14.3 GPa` (줄 42, 뒤):   - Shear modulus: α form: 【14.3 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [이터븀] `14.3`: …0.304 ¹⁶⁶Tm ¹⁶⁸Yb 0.13% 안정 ¹⁶⁹Yb 인공 32.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 【14.3】% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵…
+
+### R-en-156
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열전도율, base 12.5, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `12.5 W/(m⋅K)` (줄 37, 뒤):   - Thermal conductivity: 【12.5 W/(m⋅K)】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 13.3: [사마륨] raw `13.3 W/(m·K)` (줄 34, 한쪽 언어 쪽):   - 열전도율: 【13.3 W/(m·K)】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-157
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 6773, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `6.773 g/cm³` (줄 19, 뒤):   - Density (at 20° C): 【6.773 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 6900: [이터븀] raw `6.90 g/cm³` (줄 19, 두 언어 쪽):   - 밀도 (상온 근처): 【6.90 g/cm³】
+  - base 7160: [사마륨] raw `7.16 g/cm³` (줄 20, 한쪽 언어 쪽):   - 액체(녹는점)일 때: 【7.16 g/cm³】
+  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 20, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
+  - base 7520: [사마륨] raw `7.52 g/cm³` (줄 19, 한쪽 언어 쪽):   - 밀도 (상온 근처): 【7.52 g/cm³】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-158
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 1.085e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `1085 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 547.1 kJ/mol, 2nd: 【1085 kJ/mol】, 3rd: 2404 kJ/mol
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
+  - base 1.07e+06: [사마륨] raw `1070 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 【1070 kJ/mol】, 3차: 2260 kJ/mol
+  - base 1.13e+06: [디스프로슘] raw `1130 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 573.0 kJ/mol, 2차: 【1130 kJ/mol】, 3차: 2200 kJ/mol
+  - base 1.15e+06: [어븀] raw `1150 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 589.3 kJ/mol, 2차: 【1150 kJ/mol】, 3차: 2194 kJ/mol
+  - base 1.1748e+06: [이터븀] raw `1174.8 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 603.4 kJ/mol, 2차: 【1174.8 kJ/mol】, 3차: 2417 kJ/mol
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-159
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 속도, base 2475, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `2475 m/s` (줄 44, 뒤):   - Speed of sound thin rod: 【2475 m/s】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 2710: [디스프로슘] raw `2710 m/s` (줄 40, 두 언어 쪽):   - 음속 (얇은 막대): 【2710 m/s】 (20 °C)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-160
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.65e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `165` (줄 45, 뒤):   - Vickers hardness: 【165】–200 MPa
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
+  - [사마륨] `165`:   - 기화열: 【165】 kJ/mol
+  - [터븀 동위 원소] `165`: | ¹⁶⁶Tb | 65 | 101 | 【165】.93799(11) | 25.6(22) s | β⁻ | ¹⁶⁶Dy |  |  |  |
+
+### R-en-161
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.07611e+07, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `15.5 months` (줄 158, 뒤): … tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 【15.5 months】 that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furtherm…
+  - [Neutron capture therapy of cancer] raw `15.6 months` (줄 122, 뒤): The mean survival time (MST) of 10 patients with recurrent high-grade gliomas in the first of their trials was 【15.6 months】, with one long-term survivor (>5 years).
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 4.32339e+07: [루테튬] raw `1.37 y` (줄 48, 두 언어 쪽):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁷³Lu 인공 【1.37 y】 ε 0.671 ¹⁷³Yb ¹⁷⁴Lu 인공 3.31 y ε 1.374 ¹⁷⁴Yb ¹⁷⁵Lu 97.41% 안정 ¹⁷⁶Lu 2.59% 3.78×10…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-162
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 1.02e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `1020 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 527 kJ/mol, 2nd: 【1020 kJ/mol】, 3rd: 2086 kJ/mol
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1.07e+06: [사마륨] raw `1070 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 【1070 kJ/mol】, 3차: 2260 kJ/mol
+  - base 1.13e+06: [디스프로슘] raw `1130 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 573.0 kJ/mol, 2차: 【1130 kJ/mol】, 3차: 2200 kJ/mol
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-163
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 비저항, base 6.15e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `615 nΩ⋅m` (줄 38, 뒤):   - Electrical resistivity: α, poly: 【615 nΩ⋅m】 (at r.t.)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 5.96e-07: [이트륨] raw `596 n Ω·m` (줄 35, 한쪽 언어 쪽):   - 전기 저항도: (실온) (α, poly) 【596 n Ω·m】
+  - base 5.82e-07: [루테튬] raw `582 n Ω·m` (줄 34, 두 언어 쪽):   - 전기 저항도: (실온) (poly) 【582 n Ω·m】
+  - base 6.76e-07: [툴륨] raw `676 n Ω·m` (줄 35, 두 언어 쪽):   - 전기 저항도: (실온) (poly) 【676 n Ω·m】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-164
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.47126e+07, 표 안 예, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `13.2` (줄 148, 머리글): | HFR, Netherlands | 26 (1997–2002) | BSH 100 mg/kg | 10.4 – 【13.2】 |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-165
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 176000, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `176 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【176 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 165000: [사마륨] raw `165 kJ/mol` (줄 22, 한쪽 언어 쪽):   - 기화열: 【165 kJ/mol】
+  - base 159000: [이터븀] raw `159 kJ/mol` (줄 22, 두 언어 쪽):   - 기화열: 【159 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 5개:
+  - [이터븀] `176`:   - 원자 반지름: 【176】 pm (실험값)
+  - [루테튬] `176`: 루테튬은 지각에서 은보다 훨씬 더 흔하지만 특별히 풍부한 원소는 아니다. 구체적으로 이용된 사례는 거의 없다. 루테튬-【176】은 상대적으로 풍부한(2.5%) 방사성 동위원소로 반감기가 약 380억년으로 광물과 운석의 나이를 결정하는 데 사용된다. 루테튬은 일반적으로 이…
+  - [네오디뮴 동위 원소] `176`: | ¹³³ᵐ²Nd | 【176】.10(10) keV | 176.10(10) keV | 176.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |
+  - [네오디뮴 동위 원소] `176`: | ¹³³ᵐ²Nd | 176.10(10) keV | 【176】.10(10) keV | 176.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |
+  - [네오디뮴 동위 원소] `176`: | ¹³³ᵐ²Nd | 176.10(10) keV | 176.10(10) keV | 【176】.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |
+
+### R-en-166
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 298, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `298 K` (줄 40, 뒤):   - Molar magnetic susceptibility: +118.0×10⁻⁶ cm³/mol (【298 K】)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 293.15: [툴륨] raw `20 °C` (줄 32, 두 언어 쪽):   - 격자 상수: a = 353.77 pm c = 555.39 pm (【20 °C】에서)
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-167
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.25043e+18, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `1.03×10¹¹ y` (줄 54, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 【1.03×10¹¹ y】 β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
+  - [Lanthanum] raw `1.03×10¹¹ years` (줄 80, 뒤): …ovae). It is the only stable isotope of lanthanum. The very rare isotope ¹³⁸ La is one of the few primordial odd–odd nuclei, with a long half-life of 【1.03×10¹¹ years】. It is one of the proton-rich p-nuclei which cannot be produced in the s- or r-processes. ¹³⁸ La, along with the even rarer ¹⁸⁰ᵐ Ta, is produced in t…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 3.34511e+18: [사마륨] raw `1.06×10¹¹y` (줄 50, 한쪽 언어 쪽): …반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 【1.06×10¹¹y】 α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870…
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [사마륨] `1.03`:   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 【1.03】×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α…
+
+### R-en-168
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 0.197, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `197+74 −71 ms` (줄 162, 뒤): …he neutron-rich isotope ¹⁷⁰Eu, at the upper end of this range, was first experimentally characterised in 2022 and was measured to have a half-life of 【197+74 −71 ms】. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 0.18: [이트륨 동위 원소] raw `180(60) ms` (줄 87, 두 언어 쪽): | ¹⁰⁴Y | 39 | 65 | 103.94105(43)# | 【180(60) ms】 | β⁻ | ¹⁰⁴Zr |  |  |  |
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-169
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 6500, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `6.50 g/cm³` (줄 20, 뒤):   - when liquid (at m.p.): 【6.50 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 20, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
+  - base 6900: [이터븀] raw `6.90 g/cm³` (줄 19, 두 언어 쪽):   - 밀도 (상온 근처): 【6.90 g/cm³】
+  - base 7160: [사마륨] raw `7.16 g/cm³` (줄 20, 한쪽 언어 쪽):   - 액체(녹는점)일 때: 【7.16 g/cm³】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-170
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 4.00544e-21, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `0.025eV` (줄 75, 뒤): … culture (in vitro). Third, gamma rays and internal conversion and Auger electrons are products of the ¹⁵⁷Gd(n,γ)¹⁵⁸Gd capture reaction (¹⁵⁷Gd + nth (【0.025eV】) → [¹⁵⁸Gd] → ¹⁵⁸Gd + γ + 7.94 MeV). Though the gamma rays have longer pathlengths, orders of magnitude greater depths of penetration compared with al…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-171
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 6.12e-07, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `612 nm` (줄 244, 뒤): …ly been investigated as red emitters in organic light-emitting diodes. Their narrow emission bands, particularly the strong ⁵D0 → ⁷F2 transition near 【612 nm】, can produce highly saturated red electroluminescence. Device performance is influenced by the efficiency of charge transport and energy transfer to …
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-172
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 5940, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `5.94 g/cm³` (줄 20, 뒤):   - when liquid (at m.p.): 【5.94 g/cm³】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 6210: [이터븀] raw `6.21 g/cm³` (줄 20, 두 언어 쪽):   - 액체(녹는점)일 때: 【6.21 g/cm³】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-173
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 몰 에너지, base 2.086e+06, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `2086 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 527 kJ/mol, 2nd: 1020 kJ/mol, 3rd: 【2086 kJ/mol】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 5개(가까운 차례):
+  - base 2.0223e+06: [루테튬] raw `2022.3 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 523.5 kJ/mol, 2차: 1340 kJ/mol, 3차: 【2022.3 kJ/mol】
+  - base 2.194e+06: [어븀] raw `2194 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 589.3 kJ/mol, 2차: 1150 kJ/mol, 3차: 【2194 kJ/mol】
+  - base 1.98e+06: [이트륨] raw `1980 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 600 kJ/mol, 2차: 1180 kJ/mol, 3차: 【1980 kJ/mol】
+  - base 2.26e+06: [사마륨] raw `2260 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 【2260 kJ/mol】
+  - base 2.285e+06: [툴륨] raw `2285 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 596.7 kJ/mol, 2차: 1160 kJ/mol, 3차: 【2285 kJ/mol】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-174
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.75e+09, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `1750 MPa` (줄 47, 뒤):   - Vickers hardness: 360–【1750 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 1.6212e+09: [이터븀] raw `16000 기압` (줄 64, 두 언어 쪽): …심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 【16000 기압】(1.6 GPa)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4…
+  - base 1.6e+09: [이터븀] raw `1.6 GPa` (줄 64, 두 언어 쪽): … 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 16000 기압(【1.6 GPa】)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4.0 GPa) …
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-175
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 7.9e+09, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `7.9 GPa` (줄 42, 뒤):   - Shear modulus: 【7.9 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [터븀 동위 원소] `7.9`: | ¹⁴¹ᵐTb | 0(200)# keV | 0(200)# keV | 0(200)# keV | 【7.9】(6) s | β⁺ | ¹⁴¹Gd | 11/2-# |  |  |
+
+### R-en-176
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 1.82e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Europium] raw `18.2 GPa` (줄 41, 뒤):   - Young's modulus: 【18.2 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 1.95e+10: [사마륨] raw `19.5 GPa` (줄 38, 한쪽 언어 쪽):   - 전단 탄성 계수: (α form) 【19.5 GPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-177
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 1.2171e-09, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Lanthanum] raw `1.2171 nm` (줄 35, 뒤):   - Lattice constants: a = 0.37742 nm c = 【1.2171 nm】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-178
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 3.2, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `3.2` (줄 158, 뒤): …f the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 【3.2】–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigator…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-179
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 7.45e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `745 MPa` (줄 46, 뒤):   - Vickers hardness: 250–【745 MPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 8.14e+08: [어븀] raw `814 MPa` (줄 42, 한쪽 언어 쪽):   - 브리넬 굳기: 【814 MPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-180
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 3403, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `3403 K` (줄 18, 뒤):   - Boiling point: 【3403 K】 ​(3130 °C, ​5666 °F)
+  - [Praseodymium] raw `3130 °C` (줄 18, 뒤):   - Boiling point: 3403 K ​(【3130 °C】, ​5666 °F)
+  - [Praseodymium] raw `5666 °F` (줄 18, 뒤):   - Boiling point: 3403 K ​(3130 °C, ​【5666 °F】)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 3609: [이트륨] raw `3609 K` (줄 18, 한쪽 언어 쪽):   - 끓는점: 【3609 K】
+  - base 3675: [루테튬] raw `3675 K` (줄 18, 두 언어 쪽):   - 끓는점: 【3675 K】
+  - base 3141: [어븀] raw `3141 K` (줄 18, 한쪽 언어 쪽):   - 끓는점: 【3141 K】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-181
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 에너지, base 8.01088e-20, 표 안 아니오, 시험 대상 밖 예
+- 언급:
+  - [Neutron capture therapy of cancer] raw `0.5 eV` (줄 27, 뒤): …eutrons, the source of which, until recently, has been specially designed nuclear reactors and now is neutron accelerators. Until 1994, low-energy (< 【0.5 eV】) thermal neutron beams were used in Japan and the United States, but since they have a limited depth of penetration in tissues, higher-energy (0.5–10…
+  - [Neutron capture therapy of cancer] raw `0.5` (줄 27, 뒤): …0.5 eV) thermal neutron beams were used in Japan and the United States, but since they have a limited depth of penetration in tissues, higher-energy (【0.5】–10,000 eV) epithermal neutron beams, which have a greater depth of penetration, were used in clinical trials in the United States, Europe, Japan, Arg…
+  - [Neutron capture therapy of cancer] raw `0.5 eV` (줄 81, 뒤): … 2014, neutron sources for NCT were limited to nuclear reactors. Reactor-derived neutrons are classified according to their energies as thermal (En < 【0.5 eV】), epithermal (0.5–10,000 eV), or fast (En >10 keV). Thermal neutrons are the most important for BNCT, since they usually initiate the ¹⁰B(n,α)⁷Li cap…
+  - [Neutron capture therapy of cancer] raw `0.5` (줄 81, 뒤): …s for NCT were limited to nuclear reactors. Reactor-derived neutrons are classified according to their energies as thermal (En < 0.5 eV), epithermal (【0.5】–10,000 eV), or fast (En >10 keV). Thermal neutrons are the most important for BNCT, since they usually initiate the ¹⁰B(n,α)⁷Li capture reaction. How…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
+  - [터븀 동위 원소] `0.5`: | ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | β⁺ (【0.5】%) | ¹⁴²Gd | (5-) |  |  |
+
+### R-en-182
 
 - 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 6.4e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `640 MPa` (줄 46, 뒤):   - Brinell hardness: 250–【640 MPa】
+  - [Praseodymium] raw `640 MPa` (줄 47, 뒤):   - Brinell hardness: 250–【640 MPa】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 5.89e+08: [어븀] raw `589 MPa` (줄 39, 한쪽 언어 쪽):   - 비커스 굳기: 【589 MPa】
+  - base 5.89e+08: [어븀] raw `589 MPa` (줄 41, 한쪽 언어 쪽):   - 비커스 굳기: 【589 MPa】
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
+
+### R-en-183
+
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 68832, 표 안 아니오, 시험 대상 밖 아니오
+- 언급:
+  - [Praseodymium] raw `19.12 h` (줄 53, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 【19.12 h】 β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 13.57 d β⁻ ¹⁴³Nd
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 63000: [터븀 동위 원소] raw `17.5(1) h` (줄 58, 한쪽 언어 쪽): | ¹⁵²Tb | 65 | 87 | 151.92407(4) | 【17.5(1) h】 | β⁺ | ¹⁵²Gd | 2- |  |  |
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-184
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 68832, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 2e+06, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `19.12 h` (줄 52, 뒤):   - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 【19.12 h】 β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 13.57 d β⁻ ¹⁴³Nd
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 63000: [터븀 동위 원소] raw `17.5(1) h` (줄 58, 한쪽 언어 쪽): | ¹⁵²Tb | 65 | 87 | 151.92407(4) | 【17.5(1) h】 | β⁺ | ¹⁵²Gd | 2- |  |  |
+  - [Praseodymium] raw `2,000 tonnes` (줄 128, 뒤): …s of lanthanides. According to industry analysis based on data from the U.S. Geological Survey, worldwide production of praseodymium was estimated at 【2,000 tonnes】 in 2020 and increased to roughly 3,700 tonnes in 2022.
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-185
@@ -5706,23 +5632,21 @@
 
 ### R-en-186
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 밀도, base 5240, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 1.49646e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `5.24 g/cm³` (줄 63, 뒤): Europium is a soft, silvery-white, ductile rare-earth metal. Its hardness is similar to that of lead. At room temperature it has a density of about 【5.24 g/cm³】 and a melting point of 822 °C (1,095 K).
-  - [Europium] raw `5.246 g/cm³` (줄 19, 뒤):   - Density (at 20° C): 【5.246 g/cm³】
+  - [Europium] raw `4.742 y` (줄 52, 뒤): …Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 【4.742 y】 β⁻ ¹⁵⁵Gd
+  - [Europium] raw `4.742 years` (줄 162, 뒤): …al isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (【4.742 years】); all other known ground-state europium radioisotopes have half-lives shorter than 100 days.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-187
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 2.79e+10, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 압력, base 3.66e+10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Lanthanum] raw `27.9 GPa` (줄 42, 뒤):   - Bulk modulus: α form: 【27.9 GPa】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 4개(가까운 차례):
-  - base 2.83e+10: [어븀] raw `28.3 GPa` (줄 35, 한쪽 언어 쪽):   - 전단 탄성 계수: 【28.3 GPa】
-  - base 2.72e+10: [루테튬] raw `27.2 GPa` (줄 34, 두 언어 쪽):   - 전단 탄성 계수: 【27.2 GPa】
-  - base 2.56e+10: [이트륨] raw `25.6 GPa` (줄 36, 한쪽 언어 쪽):   - 전단 탄성 계수: 【25.6 GPa】
-  - base 3.05e+10: [툴륨] raw `30.5 GPa` (줄 35, 두 언어 쪽):   - 전단 탄성 계수: 【30.5 GPa】
+  - [Lanthanum] raw `36.6 GPa` (줄 41, 뒤):   - Young's modulus: α form: 【36.6 GPa】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
+  - base 3.78e+10: [사마륨] raw `37.8 GPa` (줄 39, 한쪽 언어 쪽):   - 부피 탄성 계수: (α form) 【37.8 GPa】
+  - base 4.05e+10: [디스프로슘] raw `40.5 GPa` (줄 39, 두 언어 쪽):   - 부피 탄성 계수: (α form) 【40.5 GPa】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-188
@@ -5735,10 +5659,13 @@
 
 ### R-en-189
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열팽창, base 4.5e-06, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 2.03e-10, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `4.5×10⁻⁶/K` (줄 35, 뒤):   - Thermal expansion: 【4.5×10⁻⁶/K】 (at 20 °C)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Praseodymium] raw `203±7 pm` (줄 31, 뒤):   - Covalent radius: 【203±7 pm】
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1.87e-10: [이터븀] raw `187±8 pm` (줄 30, 두 언어 쪽):   - 공유 반지름: 【187±8 pm】
+  - base 2.22e-10: [툴륨] raw `222 pm` (줄 29, 두 언어 쪽):   - 원자 반지름: 175 pm (실험값) 【222 pm】 (계산값)
+  - base 1.85e-10: [사마륨] raw `185 pm` (줄 29, 한쪽 언어 쪽):   - 원자 반지름: 【185 pm】 (실험값) 238 pm (계산값)
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-190
@@ -5747,8 +5674,8 @@
 - 언급:
   - [Lanthanum] raw `400 kJ/mol` (줄 22, 뒤):   - Heat of vaporization: 【400 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 414000: [루테튬] raw `414 kJ/mol` (줄 21, 두 언어 쪽):   - 기화열: 【414 kJ/mol】
-  - base 365000: [이트륨] raw `365 kJ/mol` (줄 21, 한쪽 언어 쪽):   - 기화열: 【365 kJ/mol】
+  - base 414000: [루테튬] raw `414 kJ/mol` (줄 22, 두 언어 쪽):   - 기화열: 【414 kJ/mol】
+  - base 365000: [이트륨] raw `365 kJ/mol` (줄 22, 한쪽 언어 쪽):   - 기화열: 【365 kJ/mol】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 2개:
   - [사마륨] `400`: … 사마륨과 코발트의 비율은 1:5이거나 2:17인 경우가 많다. 이러한 자석은 철보다 1만배 이상 강력한 것이다. 또, 네오디뮴 자석은 300~【400】°C 가량의 온도에서 자성을 잃는데 비해 사마륨-코발트 자석은 700°C 이상의 고온에서도 자성을 잃지 않는다. 주로 소형 전동기, 헤드셋, 기…
   - [이트륨] `400`: … 안에서 750 °C 로 가열될 때 1 μm의 두께를 가질 수 있다. 잘게 나눠졌을 때, 이트륨은 공기 중에서 불안정하다. 작은 이트륨 조각은 【400】 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 1000 °C 로 가열될 때 생성된다.
@@ -5759,68 +5686,68 @@
 - 언급:
   - [Lanthanum] raw `1850.3 kJ/mol` (줄 29, 뒤):   - Ionization energies: 1st: 538.1 kJ/mol, 2nd: 1067 kJ/mol, 3rd: 【1850.3 kJ/mol】
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 2개(가까운 차례):
-  - base 1.98e+06: [이트륨] raw `1980 kJ/mol` (줄 27, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 600 kJ/mol, 2차: 1180 kJ/mol, 3차: 【1980 kJ/mol】
-  - base 2.0223e+06: [루테튬] raw `2022.3 kJ/mol` (줄 27, 두 언어 쪽):   - 이온화 에너지: 1차: 523.5 kJ/mol, 2차: 1340 kJ/mol, 3차: 【2022.3 kJ/mol】
+  - base 1.98e+06: [이트륨] raw `1980 kJ/mol` (줄 28, 한쪽 언어 쪽):   - 이온화 에너지: 1차: 600 kJ/mol, 2차: 1180 kJ/mol, 3차: 【1980 kJ/mol】
+  - base 2.0223e+06: [루테튬] raw `2022.3 kJ/mol` (줄 28, 두 언어 쪽):   - 이온화 에너지: 1차: 523.5 kJ/mol, 2차: 1340 kJ/mol, 3차: 【2022.3 kJ/mol】
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-192
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 흡수선량, base 3.2, 표 안 아니오, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.73494e+07, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Neutron capture therapy of cancer] raw `3.2` (줄 158, 뒤): …f the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 【3.2】–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigator…
+  - [Neutron capture therapy of cancer] raw `10.4` (줄 148, 머리글): | HFR, Netherlands | 26 (1997–2002) | BSH 100 mg/kg | 【10.4】 – 13.2 |
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-193
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 7.78405e+07, 표 안 아니오, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 6.1799e+07, 표 안 예, 시험 대상 밖 예
 - 언급:
-  - [Neutron capture therapy of cancer] raw `29.6 months` (줄 136, 뒤): The median OS after BNCT was 【29.6 months】 and 98.4 months after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and…
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
+  - [Neutron capture therapy of cancer] raw `23.5 months` (줄 124, 뒤): …l dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 【23.5 months】 and no significant toxicity was observed, other than hair loss (alopecia). However, a significant subset of these patients, a high proportion of whic…
+  - [Neutron capture therapy of cancer] raw `23.5` (줄 144, 머리글): | KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 【23.5】 (primary + X-ray) |
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
+  - base 6.05906e+07: [툴륨] raw `1.92 y` (줄 48, 두 언어 쪽): … 인공 93.1 d ε 1.679 ¹⁶⁸Er ¹⁶⁹Tm 100% 안정 ¹⁷⁰Tm 인공 128.6 d β⁻ 0.968 ¹⁷⁰Yb ¹⁷¹Tm 인공 【1.92 y】 β⁻ 0.096 ¹⁷¹Yb
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-194
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 질량, base 0.0704, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 1373.15, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `70.4 g` (줄 223, 뒤): …simultaneously, helping to separate europium from less volatile contaminants. In 1958, Frank Spedding, J. J. Hanak and A. H. Daane reported preparing 【70.4 g】 of high-purity europium by heating europium oxide with lanthanum in vacuum at about 1200 °C.
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
-- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 1개:
-  - [이트륨 동위 원소] `70.4`: | ⁸¹Y | 39 | 42 | 80.92913(7) | 【70.4】(10) s | β⁺ | ⁸¹Sr | (5/2+) |  |  |
+  - [Europium] raw `1100` (줄 224, 뒤): The reaction is carried out in refractory apparatus, commonly using tantalum, at approximately 【1100】–1200 °C. The europium produced is considerably more volatile than the lanthanum reductant and lanthanum oxide product, so it distils from the reactio…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 3개(가까운 차례):
+  - base 1345: [사마륨] raw `1345 K` (줄 17, 한쪽 언어 쪽):   - 녹는점: 【1345 K】
+  - base 1469: [이터븀] raw `1469 K` (줄 18, 두 언어 쪽):   - 끓는점: 【1469 K】
+  - base 1273.15: [이트륨] raw `1000 °C` (줄 66, 한쪽 언어 쪽): …중에서 불안정하다. 작은 이트륨 조각은 400 °C 이상의 온도에서 불이 붙을 수 있다. 질화 이트륨(YN)은 이트륨이 질소(N) 기체 안에서 【1000 °C】 로 가열될 때 생성된다.
+- (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-195
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 2.71143e+08, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.26564e+08, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Europium] raw `8.592 y` (줄 51, 뒤): …de pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 【8.592 y】 β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
-  - [Europium] raw `8.592 years` (줄 161, 뒤): …e longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (【8.592 years】) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium radioisotopes have half-lives shorter than 100 days.
+  - [Europium] raw `13.517 y` (줄 52, 뒤): …Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 【13.517 y】 β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
+  - [Europium] raw `13.517 years` (줄 162, 뒤): …e of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (【13.517 years】), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium radioisotopes have half-lives shorter than 100 days.
 - (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-196
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열전도율, base 12.5, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 길이, base 1.18328e-09, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Praseodymium] raw `12.5 W/(m⋅K)` (줄 36, 뒤):   - Thermal conductivity: 【12.5 W/(m⋅K)】
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 13.3: [사마륨] raw `13.3 W/(m·K)` (줄 32, 한쪽 언어 쪽):   - 열전도율: 【13.3 W/(m·K)】
+  - [Praseodymium] raw `1.18328 nm` (줄 35, 뒤):   - Lattice constants: a = 0.36723 nm c = 【1.18328 nm】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-197
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 온도, base 298, 표 안 아니오, 시험 대상 밖 아니오
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 열팽창, base 5.1e-06, 표 안 아니오, 시험 대상 밖 아니오
 - 언급:
-  - [Lanthanum] raw `298 K` (줄 39, 뒤):   - Molar magnetic susceptibility: +118.0×10⁻⁶ cm³/mol (【298 K】)
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 293.15: [툴륨] raw `20 °C` (줄 30, 두 언어 쪽):   - 격자 상수: a = 353.77 pm c = 555.39 pm (【20 °C】에서)
+  - [Lanthanum] raw `5.1×10⁻⁶/K` (줄 36, 뒤):   - Thermal expansion: 【5.1×10⁻⁶/K】 (at 20 °C)
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
 
 ### R-en-198
 
-- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 4.07611e+07, 표 안 아니오, 시험 대상 밖 예
+- 분야 rare_earth, 언어 en, 쪽 한쪽 언어 쪽, dim 시간, base 3.73424e+07, 표 안 아니오, 시험 대상 밖 예
 - 언급:
-  - [Neutron capture therapy of cancer] raw `15.5 months` (줄 158, 뒤): … tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 【15.5 months】 that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furtherm…
-  - [Neutron capture therapy of cancer] raw `15.6 months` (줄 122, 뒤): The mean survival time (MST) of 10 patients with recurrent high-grade gliomas in the first of their trials was 【15.6 months】, with one long-term survivor (>5 years).
-- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 1개(가까운 차례):
-  - base 4.32339e+07: [루테튬] raw `1.37 y` (줄 46, 두 언어 쪽):   - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁷³Lu 인공 【1.37 y】 ε 0.671 ¹⁷³Yb ¹⁷⁴Lu 인공 3.31 y ε 1.374 ¹⁷⁴Yb ¹⁷⁵Lu 97.41% 안정 ¹⁷⁶Lu 2.59% 3.78×10…
+  - [Neutron capture therapy of cancer] raw `14.2 months` (줄 158, 뒤): …ome disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 【14.2 months】 and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 mon…
+- (가) 반대 언어의 같은 dim이고 기준 값이 10% 안인 양 0개(가까운 차례):
 - (나) 반대 언어 문서에서 언급의 숫자 글자가 나오는 자리 0개:
