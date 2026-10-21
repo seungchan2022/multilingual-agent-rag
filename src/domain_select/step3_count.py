@@ -1,6 +1,7 @@
 """이슈 #6의 3 세기: 분야마다 정해 둔 문서 20개(코퍼스)에서 한쪽 언어 문서에만 있는 사실(단위가 붙은 수)을 센다
 (decisions/stage2.md 2026-10-21 "2 규칙 정하기 ①~⑥", "두 언어 문서가 같은 것을 서로 다른 값으로 적은 사실은 … 세지 않는다",
-"3 세기는 … AI가 원문과 대조해 확인한 수로 판정한다" ㉠~㉧).
+"3 세기는 … AI가 원문과 대조해 확인한 수로 판정한다" ㉠~㉧,
+"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고 …" ㉠~㉥).
 
   .venv/bin/python src/domain_select/step3_count.py count    코퍼스를 읽어 세고 results.json, summary.md, md/를 쓴다(네트워크 없음)
   .venv/bin/python src/domain_select/step3_count.py sheet    대조할 차례와 읽을 종이를 만든다: confirm.json(AI가 채울 판정 파일의 틀), sheet.md
@@ -9,6 +10,8 @@
 
 판정은 프로그램이 센 수로 하지 않는다. 프로그램이 "그 언어에만"으로 센 묶음은 후보일 뿐이고("있을 수 있음"은 있음으로 보아 후보가 아니다),
 AI가 후보를 정한 차례로 원문과 대조해 맞은 수로 판정한다(read_ok가 true이고 truth가 "그 언어에만"인 것).
+두 언어 쪽은 판정에 쓰지 않는다(위 "두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고" 줄). 넘음과 여유는 언어마다 한쪽 언어 쪽과 표 넷으로 보고,
+두 언어 쪽은 맞은 수, 채운 수, 후보 수만 참고로 적는다.
 
 코퍼스: 분야마다 문서 20개(한국어 10, 영어 10). 갈래는 "두 언어"(한·영 문서 둘 다 있는 주제 5개), "한국어만"(한국어 문서만 5개),
 "영어만"(영어 문서만 5개)이다. 들어온 곳: "대상"(앞 단계에서 판을 고정한 문서), "②", "③"(round5 results.json에서 찾은 문서).
@@ -37,7 +40,7 @@ SIDE_NAME = {"both": "두 언어 쪽", "one": "한쪽 언어 쪽"}
 BOTH, KO_ONLY, EN_ONLY = "두 언어", "한국어만", "영어만"
 ONLY, SAME, MAYBE, TRUTH_ONLY = cc.ONLY, cc.SAME, cc.MAYBE, cc.TRUTH_ONLY
 CTX, CTX_SMALL, NEAR, LIMIT_NEAR, LIMIT_DIGITS = cc.CTX, cc.CTX_SMALL, cc.NEAR, cc.LIMIT_NEAR, cc.LIMIT_DIGITS
-NEED = {"side": 18, "sum": 36, "table": 3, "model": 5}      # 쪽마다, 두 쪽 합, 표, 모델 시험 값(결정 ④ ⑥)
+NEED = {"side": 18, "table": 3, "model": 5}      # 쪽마다, 표, 모델 시험 값(결정 ④ ⑥)
 NEXT_MAX = 10
 
 # 갈래, 들어온 곳, 주제(한국어 제목). 분야마다 갈래 쪽 주제는 5개다(두 언어는 한·영 문서 둘, 한쪽 언어는 그 언어 문서 하나).
@@ -176,7 +179,7 @@ def render_summary(res):
                 tot = {k: tot[k] + c[k] for k in tot}
                 L.append(f"| {field} | {lang} | {SIDE_NAME[side]} | {c['n']} | {c[SAME]} | {c[MAYBE]} | {c[ONLY]} | {c['only_table']} | {NEED['side']} |")
             L.append(f"| {field} | {lang} | 두 쪽 합 | {tot['n']} | {tot[SAME]} | {tot[MAYBE]} | {tot[ONLY]} | {tot['only_table']} | "
-                     f"합 {NEED['sum']}, 표 {NEED['table']} |")
+                     f"표 {NEED['table']} |")
     L.append("")
     return "\n".join(L)
 
@@ -231,7 +234,7 @@ CRITERIA = """## 판정 기준 (이 종이를 읽는 AI가 지킨다)
 - 같은 값: ±1% 안이거나, 더 정밀한 값을 덜 정밀한 값의 마지막 자리로 반올림해 같은 것(괄호 안의 환산과 낱말 숫자도 견준다. 정수 끝의 0은 유효 자릿수로 보지 않는다).
 - 묶음에 언급이 여럿이면, 바르게 읽은 "그 언어에만"인 사실이 하나라도 있으면 그 묶음은 맞은 것(read_ok true, truth "그 언어에만")이다.
 - 견주는 문서는 코퍼스 안의 반대 언어 문서뿐이다.
-- 판정은 차례의 앞에서부터 빈틈없이 채운다. 그 쪽 차례로 맞은 것이 18개가 되면 그 쪽은 멈춘다(`status`가 알려 준다).
+- 판정은 차례의 앞에서부터 빈틈없이 채운다. 그 쪽 차례로 맞은 것이 18개가 되면 그 쪽은 멈춘다(`status`가 알려 준다). 두 언어 쪽은 2026-10-21 "3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고" 결정으로 더 대조하지 않는다.
 - 칸은 confirm.json에 채운다: read_ok(true/false), truth, note(글).
 """
 
@@ -384,12 +387,14 @@ QUOTA_NAME = {"both": "두 언어 쪽", "one": "한쪽 언어 쪽", "table": "�
 
 
 def unfinished(status):
-    """멈추지도 후보가 다 떨어지지도 않은 몫과 빈틈이 있는 쪽을 글로 돌려준다(표와 모델 시험 몫의 빈틈은 알리지 않는다).
+    """멈추지도 후보가 다 떨어지지도 않은 몫과 빈틈이 있는 쪽을 글로 돌려준다(두 언어 쪽은 판정에 쓰지 않아 알리지 않고, 표와 모델 시험 몫의 빈틈은 알리지 않는다).
     비어 있으면 judge를 해도 된다."""
     out = []
     for field, langs in status.items():
         for lang, qs in langs.items():
             for name, s in qs.items():
+                if name == "both":
+                    continue
                 if not (s["stopped"] or s["exhausted"]):
                     got = s["prefix_correct"] if name == "model" else s["correct"]
                     out.append(f"{field} {lang} {QUOTA_NAME[name]}: 맞은 수 {got}/{s['need']}, 다음 {', '.join(s['next'][:NEXT_MAX])}")
@@ -401,14 +406,15 @@ def unfinished(status):
 def render_status(status):
     L = ["# 3 세기: 대조 상태 (status)", "",
          "숫자는 confirm.json에서 계산했다. 맞은 것 = read_ok가 true이고 truth가 \"그 언어에만\"인 것. 채운 것 = read_ok와 truth가 둘 다 채워진 것. "
-         "표의 맞은 수는 어느 차례에서 채웠든 센다. 모델 시험 값은 차례의 앞에서부터 빈틈없이 채운 부분에서 맞은 것을 쓴다(이미 채운 판정도 그 부분에 들면 쓴다).", ""]
+         "두 언어 쪽은 판정에 쓰지 않는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\"). 표의 맞은 수는 어느 차례에서 채웠든 센다. 모델 시험 값은 차례의 앞에서부터 빈틈없이 채운 부분에서 맞은 것을 쓴다(이미 채운 판정도 그 부분에 들면 쓴다).", ""]
     for field, langs in status.items():
         for lang, qs in langs.items():
             L += [f"## {field} {lang}", "",
                   "| 몫 | 필요한 수 | 맞은 수 | 그 차례에서 채운 수 | 후보 수 | 멈췄는가 | 후보가 다 떨어졌는가 | 빈틈 | 다음에 볼 번호 |", "|---|---|---|---|---|---|---|---|---|"]
             for name, s in qs.items():
                 right = f"앞부분 {s['prefix_correct']} (모두 {s['correct']})" if name == "model" else s["correct"]
-                L.append(f"| {QUOTA_NAME[name]} | {s['need']} | {right} | {s['filled']} | {s['total']} | {'예' if s['stopped'] else '아니오'} | "
+                label = QUOTA_NAME[name] + (" (판정에 쓰지 않음)" if name == "both" else "")
+                L.append(f"| {label} | {s['need']} | {right} | {s['filled']} | {s['total']} | {'예' if s['stopped'] else '아니오'} | "
                          f"{'예' if s['exhausted'] else '아니오'} | {', '.join(s['gaps']) or '없음'} | {', '.join(s['next']) or '없음'} |")
             L.append("")
     todo = unfinished(status)
@@ -437,22 +443,22 @@ def estimate(s, name):
 
 
 def judge_all(status, need=NEED):
-    """분야마다 언어마다 몫 넷(두 언어 쪽, 한쪽 언어 쪽, 합, 표)의 맞은 수와 어림, 넘음/탈락, 여유를 계산한다.
-    돌려주는 값: {분야: {quotas: {언어: {몫: {need, correct, estimate, ok}}}, passed, reserve}}"""
+    """분야마다 언어마다 몫 둘(한쪽 언어 쪽, 표)의 맞은 수와 어림, 넘음/탈락, 여유를 계산한다. 두 언어 쪽은 판정에 쓰지 않고 참고로만 남긴다.
+    돌려주는 값: {분야: {quotas: {언어: {몫: {need, correct, estimate, ok}}}, reference: {언어: {correct, filled, total}}, passed, reserve}}"""
     out = {}
     for field, langs in status.items():
-        quotas, ratios = {}, []
+        quotas, reference, ratios = {}, {}, []
         for lang, qs in langs.items():
             b, o, t = qs["both"], qs["one"], qs["table"]
             quotas[lang] = {
-                "both": {"need": b["need"], "correct": b["correct"], "estimate": estimate(b, "both")},
                 "one": {"need": o["need"], "correct": o["correct"], "estimate": estimate(o, "one")},
-                "sum": {"need": need["sum"], "correct": b["correct"] + o["correct"], "estimate": estimate(b, "both") + estimate(o, "one")},
                 "table": {"need": t["need"], "correct": t["correct"], "estimate": estimate(t, "table")}}
+            reference[lang] = {"correct": b["correct"], "filled": b["filled"], "total": b["total"]}
             for v in quotas[lang].values():
                 v["ok"] = v["correct"] >= v["need"]
                 ratios.append(v["estimate"] / v["need"])
-        out[field] = {"quotas": quotas, "passed": all(v["ok"] for qs in quotas.values() for v in qs.values()), "reserve": min(ratios)}
+        out[field] = {"quotas": quotas, "reference": reference, "passed": all(v["ok"] for qs in quotas.values() for v in qs.values()),
+                      "reserve": min(ratios)}
     return out
 
 
@@ -472,16 +478,20 @@ def model_values(order, res_field, n=NEED["model"]):
 
 def render_judge(result, values):
     L = ["# 3 세기: 판정과 어림 (judge)", "",
-         "숫자는 confirm.json과 results.json에서 계산했다. 넘음 = 여덟 몫(언어마다 두 언어 쪽, 한쪽 언어 쪽, 합, 표)을 맞은 수로 모두 채움. "
-         "어림 = 프로그램이 센 후보 수 × 그 차례의 앞에서부터 채운 것 가운데 맞은 비율(합은 두 쪽 어림의 합, 표는 표 차례의 앞에서부터 빈틈없이 채운 부분의 비율). "
-         "여유 = 여덟 몫의 어림 ÷ 필요한 수 가운데 가장 낮은 값이고, 두 분야가 다 넘을 때만 쓰는 값이다.", ""]
-    names = {"both": "두 언어 쪽", "one": "한쪽 언어 쪽", "sum": "합", "table": "표"}
+         "숫자는 confirm.json과 results.json에서 계산했다. 넘음 = 언어마다 한쪽 언어 쪽과 표, 모두 넷을 맞은 수로 채움. "
+         "어림 = 프로그램이 센 후보 수 × 확인한 것 가운데 맞은 비율(한쪽 언어 쪽은 그 차례의 앞에서부터 채운 부분의 비율, 표는 표 차례에서 채운 것 전체의 비율). "
+         "여유 = 그 넷의 어림 ÷ 필요한 수 가운데 가장 낮은 값이고, 두 분야가 다 넘을 때만 쓰는 값이다. "
+         "두 언어 쪽은 판정에 쓰지 않고 참고로 적는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\").", ""]
+    names = {"one": "한쪽 언어 쪽", "table": "표"}
     for field, r in result.items():
         L += [f"## {field}: {'넘음' if r['passed'] else '탈락'} (여유 {r['reserve']:.3f})", "",
               "| 언어 | 몫 | 필요한 수 | 맞은 수 | 어림 | 채웠는가 |", "|---|---|---|---|---|---|"]
         for lang, qs in r["quotas"].items():
             for name, v in qs.items():
                 L.append(f"| {lang} | {names[name]} | {v['need']} | {v['correct']} | {v['estimate']:.2f} | {'예' if v['ok'] else '아니오'} |")
+        L.append("")
+        for lang, ref in r["reference"].items():
+            L.append(f"- 참고(판정에 쓰지 않음) {lang} 두 언어 쪽: 맞은 수 {ref['correct']}, 채운 수 {ref['filled']}, 후보 수 {ref['total']}")
         L.append("")
         for lang in LANGS:
             L += [f"### {field} {lang} 모델 시험 값 (결정 ⑥)", ""]

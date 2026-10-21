@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import step3_count as s3
 
 SENT = s3.rc.SENT
-SMALL = {"side": 2, "sum": 4, "table": 1, "model": 2}      # 시험용으로 줄인 필요한 수
+SMALL = {"side": 2, "table": 1, "model": 2}      # 시험용으로 줄인 필요한 수
 
 
 def doc(i, lang, branch, text, outside=False, tagged=None):
@@ -177,7 +177,7 @@ class Status(unittest.TestCase):
     def test_unfinished_lists_open_quotas_and_gaps(self):
         es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
         self.assertEqual(s3.unfinished(s3.make_status(es, SMALL)), [])
-        es[0]["read_ok"] = es[0]["truth"] = None                         # 첫 번호를 비우면 두 언어 쪽이 멈추지 않고 표와 모델도 영향을 받는다
+        es[0]["read_ok"] = es[0]["truth"] = None                         # 첫 번호를 비우면 표와 모델 시험이 영향을 받는다(두 언어 쪽은 판정에 쓰지 않는다)
         self.assertTrue(s3.unfinished(s3.make_status(es, SMALL)))
 
     def test_table_gaps_are_not_reported_once_table_is_stopped(self):
@@ -189,10 +189,11 @@ class Status(unittest.TestCase):
         self.assertEqual(s3.unfinished(status), [])
 
     def test_side_gaps_are_still_reported(self):
-        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
-        es[1]["read_ok"] = es[1]["truth"] = None                          # 두 언어 쪽 둘째를 비운다(첫째와 셋째가 맞아 쪽은 멈춘 상태)
+        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang, one="ccc" if (f, lang) == ("exoplanets", "ko") else "cc")]
+        x1 = next(e for e in es if e["no"] == "ekox1")
+        x1["read_ok"] = x1["truth"] = None                                # 한쪽 언어 쪽 첫째를 비운다(둘째와 셋째가 맞아 쪽은 멈춘 상태)
         todo = s3.unfinished(s3.make_status(es, SMALL))
-        self.assertTrue(any("두 언어 쪽" in t and "빈틈 eko2" in t for t in todo))
+        self.assertTrue(any("한쪽 언어 쪽" in t and "빈틈 ekox1" in t for t in todo))
 
     def test_model_quota_stops_only_on_the_front_part(self):
         es = [E("m1", om=1), E("m2", om=2, state="c"), E("m3", om=3, state="c")]
@@ -208,13 +209,13 @@ class Judge(unittest.TestCase):
         es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
         r = s3.judge_all(s3.make_status(es, SMALL), SMALL)["exoplanets"]
         ko = r["quotas"]["ko"]
-        self.assertAlmostEqual(ko["both"]["estimate"], 4 * 2 / 3)        # 후보 4 × 앞 3개 가운데 맞은 2
         self.assertAlmostEqual(ko["one"]["estimate"], 2.0)
-        self.assertAlmostEqual(ko["sum"]["estimate"], 4 * 2 / 3 + 2)
-        self.assertEqual((ko["sum"]["correct"], ko["sum"]["need"]), (4, 4))
+        self.assertEqual(r["reference"]["ko"], {"correct": 2, "filled": 3, "total": 4})    # 두 언어 쪽은 참고로만 남는다
+        self.assertNotIn("both", ko)
+        self.assertNotIn("sum", ko)
         self.assertAlmostEqual(ko["table"]["estimate"], 1.0)
         self.assertTrue(r["passed"])
-        self.assertAlmostEqual(r["reserve"], 1.0)                        # 여덟 몫의 어림÷필요 가운데 가장 낮은 것(한쪽 언어 쪽 2÷2, 표 1÷1)
+        self.assertAlmostEqual(r["reserve"], 1.0)                        # 넷의 어림÷필요 가운데 가장 낮은 것(한쪽 언어 쪽 2÷2, 표 1÷1)
 
     def test_fail_when_one_quota_is_short(self):
         es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang, one="c" if (f, lang) == ("rare_earth", "ko") else "cc")]
@@ -225,9 +226,27 @@ class Judge(unittest.TestCase):
         r = res["rare_earth"]
         self.assertFalse(r["passed"])
         ko = r["quotas"]["ko"]
-        self.assertEqual((ko["one"]["ok"], ko["sum"]["ok"], ko["both"]["ok"], ko["table"]["ok"]), (False, False, True, True))
-        self.assertAlmostEqual(ko["sum"]["estimate"], 4 * 2 / 3 + 1)
+        self.assertEqual((ko["one"]["ok"], ko["table"]["ok"]), (False, True))
         self.assertAlmostEqual(r["reserve"], 0.5)                        # 한쪽 언어 쪽 1÷2
+
+    def test_both_side_is_not_judged(self):
+        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
+        for e in es:
+            if e["field"] == "rare_earth" and e["lang"] == "ko" and e["side"] == "both" and e["order_model"] is None:
+                e["read_ok"] = e["truth"] = None                         # 두 언어 쪽이 멈추지 않고 빈틈도 있다
+        status = s3.make_status(es, SMALL)
+        self.assertFalse(status["rare_earth"]["ko"]["both"]["stopped"])
+        self.assertEqual(s3.unfinished(status), [])
+        r = s3.judge_all(status, SMALL)["rare_earth"]
+        self.assertTrue(r["passed"])                                     # 두 언어 쪽만 모자란 분야도 넘는다
+        self.assertEqual(r["reference"]["ko"], {"correct": 1, "filled": 1, "total": 4})
+
+    def test_reserve_is_lowest_of_the_four(self):
+        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang)]
+        need = {**SMALL, "table": 2}                                     # 표는 후보 1개라 1÷2, 한쪽 언어 쪽은 2÷2
+        r = s3.judge_all(s3.make_status(es, need), need)["exoplanets"]
+        self.assertAlmostEqual(r["reserve"], 0.5)
+        self.assertFalse(r["passed"])
 
     def test_table_estimate_uses_filled_in_that_order(self):
         es = [E(f"t{i}", ot=i, table=True, state={2: "c", 4: "w"}.get(i, "u")) for i in range(1, 6)]   # 후보 5, 채운 2(자리 2, 4) 가운데 맞은 1
