@@ -1,0 +1,192 @@
+[
+ {
+  "id": "E-ko-049",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "외계 행성",
+  "target": "케플러-62e",
+  "question": "외계 행성 케플러-62e의 표면 기압은 몇 기압으로 추정되는가?",
+  "answer": "35 기압",
+  "value": 35,
+  "unit": "기압",
+  "evidence_quotes": [
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 행성 | ESI | 참조 |"
+   },
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 케플러-62e | 0.83 | 표면 온도와 기압은 288 K, 35 기압으로 추정. |"
+   }
+  ]
+ },
+ {
+  "id": "E-ko-069",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "외계 행성",
+  "target": "HD 20367 b",
+  "question": "외계 행성 HD 20367 b의 질량은 목성 질량의 몇 배인가?",
+  "answer": "1.17 목성질량",
+  "value": 1.17,
+  "unit": "목성질량",
+  "evidence_quotes": [
+   {
+    "doc": "HD 20367 b",
+    "quote": "- 질량: 1.17 ± 0.23 목성질량(>370 ± 70 지구질량)"
+   }
+  ]
+ },
+ {
+  "id": "E-ko-054",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "외계 행성",
+  "target": "케플러-440b",
+  "question": "외계 행성 케플러-440b의 표면 온도는 몇 K인가?",
+  "answer": "273 K",
+  "value": 273,
+  "unit": "K",
+  "evidence_quotes": [
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 행성 | ESI | 참조 |"
+   },
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 케플러-440b | 0.75 | 궤도가 타원형, 표면 온도 273 K |"
+   }
+  ]
+ },
+ {
+  "id": "E-ko-070",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "외계 행성",
+  "target": "케플러-438b",
+  "question": "외계 행성 케플러-438b의 온도는 몇 K인가?",
+  "answer": "276 K",
+  "value": 276,
+  "unit": "K",
+  "evidence_quotes": [
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 행성 | ESI | 참조 |"
+   },
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 케플러-438b | 0.88 | 온도는 276 K이며, 조석 고정되었으리라 추정됨. 거주가능성은 확실하지 않음. |"
+   }
+  ]
+ },
+ {
+  "id": "E-ko-042",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "외계 행성",
+  "target": "TRAPPIST-1 f",
+  "question": "외계 행성 TRAPPIST-1 f의 온도는 몇 K인가?",
+  "answer": "230 K",
+  "value": 230,
+  "unit": "K",
+  "evidence_quotes": [
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| 행성 | ESI | 참조 |"
+   },
+   {
+    "doc": "지구 유사도 지수",
+    "quote": "| TRAPPIST-1 f | 0.70 | 온도 230 K, 지구형 행성일 확률이 약간 존재. |"
+   }
+  ]
+ },
+ {
+  "id": "E-en-134",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "외계 행성",
+  "target": "TOI-2109 b",
+  "question": "외계 행성 TOI-2109 b의 궤도 경사는 몇 도인가?",
+  "answer": "70.74°",
+  "value": 70.74,
+  "unit": "°",
+  "evidence_quotes": [
+   {
+    "doc": "TOI-2109 b",
+    "quote": "| Companion (in order from star) | Mass | Semimajor axis (AU) | Orbital period (days) | Eccentricity | Inclination (°) | Radius |"
+   },
+   {
+    "doc": "TOI-2109 b",
+    "quote": "| b | 5.02±0.75 MJ | 0.01791±0.00065 | 0.67247414(28) | 0 | 70.74±0.37 | 1.347±0.047 RJ |"
+   }
+  ]
+ },
+ {
+  "id": "E-en-119",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "외계 행성",
+  "target": "TOI-2109",
+  "question": "항성 TOI-2109의 광도는 태양 광도의 몇 배인가?",
+  "answer": "4.71 L☉",
+  "value": 4.71,
+  "unit": "L☉",
+  "evidence_quotes": [
+   {
+    "doc": "TOI-2109 b",
+    "quote": "- Luminosity 4.71+0.38 −0.27 L☉"
+   }
+  ]
+ },
+ {
+  "id": "E-en-080",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "외계 행성",
+  "target": "토끼자리 제타(Zeta Leporis)",
+  "question": "항성 토끼자리 제타(Zeta Leporis)는 지구에서 몇 파섹 떨어져 있는가?",
+  "answer": "21.6 파섹",
+  "value": 21.6,
+  "unit": "pc",
+  "evidence_quotes": [
+   {
+    "doc": "Zeta Leporis",
+    "quote": "Zeta Leporis, Latinized from ζ Leporis formally named Darlugal, is a star approximately 70.5 light-years (21.6 parsecs) away in the southern constellation of Lepus."
+   }
+  ]
+ },
+ {
+  "id": "E-en-067",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "외계 행성",
+  "target": "TOI-2109",
+  "question": "항성 TOI-2109는 지구에서 몇 광년 떨어져 있는가?",
+  "answer": "870 광년",
+  "value": 870,
+  "unit": "광년",
+  "evidence_quotes": [
+   {
+    "doc": "TOI-2109 b",
+    "quote": "TOI-2109 is a magnitude 10.2 star in the constellation of Hercules. It is located 870 ly (268 pc) from Earth based on parallax measurements."
+   }
+  ]
+ },
+ {
+  "id": "E-en-133",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "외계 행성",
+  "target": "토끼자리 제타(Zeta Leporis)",
+  "question": "항성 토끼자리 제타(Zeta Leporis)의 반지름은 태양 반지름의 몇 배인가?",
+  "answer": "1.5 R☉",
+  "value": 1.5,
+  "unit": "R☉",
+  "evidence_quotes": [
+   {
+    "doc": "Zeta Leporis",
+    "quote": "- Radius 1.5 R☉"
+   }
+  ]
+ }
+]

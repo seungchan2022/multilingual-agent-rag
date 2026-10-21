@@ -1,0 +1,216 @@
+[
+ {
+  "id": "R-ko-038",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "희토류 원소",
+  "target": "¹⁴²ᵐ²Tb",
+  "question": "터븀의 핵이성질체 ¹⁴²ᵐ²Tb(터븀-142m2)의 들뜬 에너지는 몇 keV인가?",
+  "answer": "621.4 keV",
+  "value": 621.4,
+  "unit": "keV",
+  "evidence_quotes": [
+   {
+    "doc": "터븀 동위 원소",
+    "quote": "| 핵자 수 | 들뜬 에너지 | 들뜬 에너지 | 들뜬 에너지 | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |"
+   },
+   {
+    "doc": "터븀 동위 원소",
+    "quote": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |  |"
+   }
+  ]
+ },
+ {
+  "id": "R-ko-125",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "희토류 원소",
+  "target": "¹⁴⁴ᵐ⁴Tb",
+  "question": "터븀의 핵이성질체 ¹⁴⁴ᵐ⁴Tb(터븀-144m4)의 들뜬 에너지는 몇 keV인가?",
+  "answer": "544.5 keV",
+  "value": 544.5,
+  "unit": "keV",
+  "evidence_quotes": [
+   {
+    "doc": "터븀 동위 원소",
+    "quote": "| 핵자 수 | 들뜬 에너지 | 들뜬 에너지 | 들뜬 에너지 | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |"
+   },
+   {
+    "doc": "터븀 동위 원소",
+    "quote": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |"
+   }
+  ]
+ },
+ {
+  "id": "R-ko-110",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "희토류 원소",
+  "target": "¹⁴⁴ᵐ¹Tb",
+  "question": "터븀의 핵이성질체 ¹⁴⁴ᵐ¹Tb(터븀-144m1)의 반감기는 몇 초인가?",
+  "answer": "4.25초",
+  "value": 4.25,
+  "unit": "초",
+  "evidence_quotes": [
+   {
+    "doc": "터븀 동위 원소",
+    "quote": "| 핵자 수 | 들뜬 에너지 | 들뜬 에너지 | 들뜬 에너지 | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |"
+   },
+   {
+    "doc": "터븀 동위 원소",
+    "quote": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | IT (66%) | ¹⁴⁴Tb | (6-) |  |  |"
+   }
+  ]
+ },
+ {
+  "id": "R-ko-090",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "희토류 원소",
+  "target": "¹³⁵Nd",
+  "question": "네오디뮴 동위 원소 ¹³⁵Nd(네오디뮴-135)의 반감기는 몇 분인가?",
+  "answer": "12.4분",
+  "value": 12.4,
+  "unit": "분",
+  "evidence_quotes": [
+   {
+    "doc": "네오디뮴 동위 원소",
+    "quote": "| 핵자 수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |"
+   },
+   {
+    "doc": "네오디뮴 동위 원소",
+    "quote": "| ¹³⁵Nd | 60 | 75 | 134.918181(21) | 12.4(6) min | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |"
+   }
+  ]
+ },
+ {
+  "id": "R-ko-082",
+  "kind": "한국어 문서",
+  "lang": "ko",
+  "subject": "희토류 원소",
+  "target": "¹⁴⁷Nd",
+  "question": "네오디뮴 동위 원소 ¹⁴⁷Nd(네오디뮴-147)의 반감기는 며칠인가?",
+  "answer": "10.98일",
+  "value": 10.98,
+  "unit": "일",
+  "evidence_quotes": [
+   {
+    "doc": "네오디뮴 동위 원소",
+    "quote": "| 핵자 수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |"
+   },
+   {
+    "doc": "네오디뮴 동위 원소",
+    "quote": "| ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 10.98(1) d | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |"
+   }
+  ]
+ },
+ {
+  "id": "R-en-092",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "희토류 원소",
+  "target": "JRR4 원자로 시험의 재발 환자",
+  "question": "붕소 중성자 포획 치료(BNCT) 임상 시험에서, 일본 JRR4 원자로로 치료한 재발 신경교종 환자의 중앙 생존 기간은 몇 개월인가?",
+  "answer": "10.8개월",
+  "value": 10.8,
+  "unit": "개월",
+  "evidence_quotes": [
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "Table 2. Past BNCT clinical trials using an epithermal neutron beams for BNCT of patients with gliomas*"
+   },
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "| Reactor facility* | No. of patients and duration of trial | Delivery agent | Median survival time (months) |"
+   },
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |"
+   }
+  ]
+ },
+ {
+  "id": "R-en-131",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "희토류 원소",
+  "target": "Yamamoto 등의 JRR-4 시험",
+  "question": "Yamamoto 등이 일본 JRR-4 원자로에서 새로 진단된 교모세포종 환자에게 붕소 중성자 포획 치료(BNCT)를 하고 X선을 추가로 쪼인 시험에서, 전체 중앙 생존 기간은 몇 개월이었는가?",
+  "answer": "27.1개월",
+  "value": 27.1,
+  "unit": "개월",
+  "evidence_quotes": [
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months"
+   }
+  ]
+ },
+ {
+  "id": "R-en-138",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "희토류 원소",
+  "target": "MITR 원자로 시험",
+  "question": "붕소 중성자 포획 치료(BNCT) 임상 시험에서, 미국 MIT 연구용 원자로(MITR)로 치료한 신경교종 환자의 중앙 생존 기간은 몇 개월인가?",
+  "answer": "11.1개월",
+  "value": 11.1,
+  "unit": "개월",
+  "evidence_quotes": [
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "Table 2. Past BNCT clinical trials using an epithermal neutron beams for BNCT of patients with gliomas*"
+   },
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "| Reactor facility* | No. of patients and duration of trial | Delivery agent | Median survival time (months) |"
+   },
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "| MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 11.1 |"
+   }
+  ]
+ },
+ {
+  "id": "R-en-193",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "희토류 원소",
+  "target": "Miyatake·Kawabata의 시험",
+  "question": "Miyatake와 Kawabata가 새로 진단된 교모세포종 환자에게 붕소 중성자 포획 치료(BNCT)와 X선 추가 조사를 함께 한 시험에서, 중앙 생존 기간은 몇 개월이었는가?",
+  "answer": "23.5개월",
+  "value": 23.5,
+  "unit": "개월",
+  "evidence_quotes": [
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "Miyatake and Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months"
+   },
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "| KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 23.5 (primary + X-ray) |"
+   }
+  ]
+ },
+ {
+  "id": "R-en-091",
+  "kind": "영어 문서",
+  "lang": "en",
+  "subject": "희토류 원소",
+  "target": "스튜드스빅(Studsvik) 시험",
+  "question": "스웨덴 스튜드스빅(Studsvik)에서 한 붕소 중성자 포획 치료(BNCT) 임상 시험에서, 전체 생존 자료로 다시 본 중앙 생존 기간은 몇 개월이었는가?",
+  "answer": "17.7개월",
+  "value": 17.7,
+  "unit": "개월",
+  "evidence_quotes": [
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "However, more careful examination of the complete survival data revealed that the MeST was 17.7 months"
+   },
+   {
+    "doc": "Neutron capture therapy of cancer",
+    "quote": "| R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 17.7 (primary) |"
+   }
+  ]
+ }
+]
