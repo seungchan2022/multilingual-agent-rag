@@ -9,6 +9,7 @@ collected.yaml의 raw_file(data/corpus/raw/)을 읽어 data/corpus/markdown/<doc
 documents.yaml에 converter_commit이 있으면 코퍼스가 그 커밋의 변환에 묶인 것이다. 만들기는 아무것도 쓰지 않고
 알리며 끝나고(종료 코드 1), --verify는 그 커밋의 build.py로 검사한다.
 규칙은 decisions/stage2.md의 2026-10-14 줄(남기는 것과 지우는 것 / 표를 옮기는 규칙 / 제목)에 있다.
+위첨자와 수식은 decisions/stage2.md 2026-10-21 '세는 규칙 보완: 변환의 적는 방식과 세는 범위' 줄에 있다.
 doc_id 앞머리(wiki, kto, portal)마다 바꾸는 함수가 CONVERT에 있다.
 """
 import argparse, csv, hashlib, html, io, json, re, subprocess, sys, tempfile
@@ -45,6 +46,15 @@ ROAD_SIGN = re.compile(r"/(Korean_(?:Highway|National_Route|Local_Route)[^/]*)")
 FOLD_NOTICE = "이 글을 보려면 오른쪽 ‘펼치기’ 버튼 클릭"  # 접힌 상자를 여는 안내문. 본문이 아니다.
 INFOBOX_SKIP_LABELS = {"웹사이트", "Website"}
 
+# 위첨자 글자. 여기 없는 글자(한글, †, 점 등)는 그대로 둔다.
+SUPERSCRIPT = str.maketrans(
+    "0123456789+-\u2212=()"
+    "abcdefghijklmnoprstuvwxyz"
+    "ABDEGHIJKLMNOPRTUVW",
+    "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁻⁼⁽⁾"
+    "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻ"
+    "ᴬᴮᴰᴱᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾᴿᵀᵁⱽᵂ")
+
 BLOCK = {"p", "div", "li", "dt", "dd", "dl", "ul", "ol", "tr", "td", "th", "table", "caption",
          "blockquote", "h1", "h2", "h3", "h4", "h5", "h6"}
 
@@ -60,9 +70,9 @@ def inline(nodes):
         nodes = [nodes]
     parts = []
 
-    def rec(n):
+    def rec(n, up=False):
         if isinstance(n, NavigableString):
-            parts.append(str(n))
+            parts.append(str(n).translate(SUPERSCRIPT) if up else str(n))
         elif n.name == "br":
             parts.append(" ")
         elif n.name in ("ul", "ol"):
@@ -71,11 +81,11 @@ def inline(nodes):
         elif n.name in BLOCK:
             parts.append(" ")
             for c in n.children:
-                rec(c)
+                rec(c, up)
             parts.append(" ")
         else:
             for c in n.children:
-                rec(c)
+                rec(c, up or n.name == "sup")
 
     for n in nodes:
         rec(n)
@@ -84,10 +94,39 @@ def inline(nodes):
 
 # ---------------------------------------------------------------- 지우기
 
+def tex_of(el):
+    """수식 요소의 TeX 글. <math>의 alttext, 없으면 수식 그림의 alt. 글 전체가 {\\displaystyle …}이면 껍데기만 벗긴다. 못 찾으면 None."""
+    math = el.find("math")
+    tex = math.get("alttext") if math else None
+    if not tex:
+        img = el.find("img", class_=lambda c: c and c.startswith("mwe-math-fallback-image"))
+        tex = img.get("alt") if img else None
+    if not tex:
+        return None
+    if tex.startswith("{\\displaystyle") and tex.endswith("}"):
+        depth = 0
+        for i, ch in enumerate(tex):
+            if i and tex[i - 1] == "\\":  # \{ 와 \} 는 짝을 이루는 괄호가 아니다
+                continue
+            depth += (ch == "{") - (ch == "}")
+            if depth == 0:
+                break
+        if i == len(tex) - 1:  # 첫 {가 마지막 }에서 닫힐 때만 전체를 감싼 껍데기다
+            tex = tex[len("{\\displaystyle"):-1]
+            tex = tex[1:] if tex.startswith(" ") else tex  # 껍데기의 띄어쓰기 하나만 벗긴다
+    return tex
+
+
 def prepare(root):
-    """HTML 나무에서 지울 것을 지우고, 그 자리에 남길 글자(도로 표지, 원그래프)를 넣는다."""
+    """HTML 나무에서 지울 것을 지우고, 그 자리에 남길 글자(도로 표지, 원그래프, 수식의 TeX 글)를 넣는다."""
     for c in root.find_all(string=lambda t: isinstance(t, Comment)):
         c.extract()
+    # 수식: display:none 지우기와 이미지 지우기에서 사라지기 전에 TeX 글로 바꾼다. TeX 글이 없으면 지워지게 둔다.
+    for el in root.find_all(class_="mwe-math-element"):
+        tex = tex_of(el)
+        if tex:
+            block = "mwe-math-element-block" in el.get("class", [])
+            el.replace_with(NavigableString(f"\\[{tex}\\]" if block else f"\\({tex}\\)"))
     # 도로 표지: 그림을 지우고 그 자리에 대체 글자를 넣는다. 다른 이미지의 대체 글자는 넣지 않는다.
     for img in root.find_all("img"):
         if ROAD_SIGN.search(img.get("src", "")) and img.get("alt"):
