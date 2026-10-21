@@ -1,0 +1,1807 @@
+[
+ {
+  "ko_title": "가돌리늄",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Gadolinium",
+  "ko_revid": 42522460,
+  "ko_chars": 2400,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380109030,
+  "en_chars": 20849,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "네오디뮴",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Neodymium",
+  "ko_revid": 42552336,
+  "ko_chars": 3778,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380078250,
+  "en_chars": 39082,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "디스프로슘",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Dysprosium",
+  "ko_revid": 42233139,
+  "ko_chars": 610,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373658711,
+  "en_chars": 14980,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "란타넘",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Lanthanum",
+  "ko_revid": 42243266,
+  "ko_chars": 4760,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380415452,
+  "en_chars": 22050,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "란타넘족",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Lanthanide",
+  "ko_revid": 42143037,
+  "ko_chars": 28344,
+  "ko_n_tables": 8,
+  "ko_tables": [
+   {
+    "rows": 11,
+    "head": "란타넘족의 일부 성질 | 원소 | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | T",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 7,
+    "head": "란타넘족 이온의 전자 배열과 색 | 원소 | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 4,
+    "head": "수용액 내 란타넘족 이온의 대략적인 색 | ",
+    "cls": "wikitable collapsible"
+   },
+   {
+    "rows": 12,
+    "head": "원소의 이온화 에너지 및 환원 전위 | 원소 | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho ",
+    "cls": "wikitable collapsible collapsed"
+   },
+   {
+    "rows": 9,
+    "head": "원소 | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu | ",
+    "cls": "wikitable collapsible collapsed"
+   },
+   {
+    "rows": 36,
+    "head": "란타넘족 할로젠화물 | 원소 | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm",
+    "cls": "wikitable collapsible collapsed"
+   },
+   {
+    "rows": 8,
+    "head": "응용 분야 | 비율 | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 3,
+    "head": "공여자 | 여기⇒방출 λ (nm) | 수용자 | 여기⇒방출 λ (nm) | 스토크스 이동 (nm) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1381169824,
+  "en_chars": 54009,
+  "en_n_tables": 8,
+  "en_tables": [
+   {
+    "rows": 11,
+    "head": "Some properties of the lanthanides | Chemical element | La | Ce | Pr | Nd | Pm |",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 7,
+    "head": "Electron configurations and colours of lanthanide ions | Chemical element | La |",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 4,
+    "head": "Approximate colors of lanthanide ions in aqueous solution | ",
+    "cls": "wikitable collapsible"
+   },
+   {
+    "rows": 12,
+    "head": "Ionization energies and reduction potentials of the elements | Chemical element ",
+    "cls": "wikitable collapsible collapsed"
+   },
+   {
+    "rows": 9,
+    "head": "Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | T",
+    "cls": "wikitable collapsible collapsed"
+   },
+   {
+    "rows": 36,
+    "head": "Lanthanide halides | Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | ",
+    "cls": "wikitable collapsible collapsed"
+   },
+   {
+    "rows": 8,
+    "head": "Application | Percentage | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 3,
+    "head": "Donor | Excitation⇒Emission λ (nm) | Acceptor | Excitation⇒Emission λ (nm) | Sto",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "란타넘족 수축",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Lanthanide contraction",
+  "ko_revid": 41617365,
+  "ko_chars": 340,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376542939,
+  "en_chars": 11549,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 16,
+    "head": "Element | Atomic electronconfiguration(all begin with [Xe]) | Ln3+electronconfig",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 16,
+    "head": "Element | Vickershardness(MPa) | Brinellhardness(MPa) | Density(g/cm3) | Melting",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "루테튬",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Lutetium",
+  "ko_revid": 42249157,
+  "ko_chars": 1179,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379926577,
+  "en_chars": 14459,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "사마륨",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Samarium",
+  "ko_revid": 42303602,
+  "ko_chars": 3854,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380581143,
+  "en_chars": 30600,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 28,
+    "head": "Formula | Color | Symmetry | Space group | No. | Pearson symbol | a(pm) | b(pm) ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "세륨",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Cerium",
+  "ko_revid": 42318800,
+  "ko_chars": 1011,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380019902,
+  "en_chars": 23074,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "스칸듐",
+  "depth": 0,
+  "via": [
+   "분류:스칸듐"
+  ],
+  "en_title": "Scandium",
+  "ko_revid": 39031083,
+  "ko_chars": 2388,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380392469,
+  "en_chars": 14292,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Ionic radius (pm) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "스칸듐 동위 원소",
+  "depth": 0,
+  "via": [
+   "분류:스칸듐"
+  ],
+  "en_title": "Isotopes of scandium",
+  "ko_revid": 41490744,
+  "ko_chars": 2341,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 48,
+    "head": "핵종기호 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴생성물 | 핵스핀 | 전형적동위 원소구성비(몰 분율)",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1350438660,
+  "en_chars": 3605,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 53,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "어븀",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Erbium",
+  "ko_revid": 42361925,
+  "ko_chars": 356,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372136591,
+  "en_chars": 14032,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "유로퓸",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Europium",
+  "ko_revid": 42378287,
+  "ko_chars": 2011,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380092828,
+  "en_chars": 39201,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "이터븀",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Ytterbium",
+  "ko_revid": 42388980,
+  "ko_chars": 6703,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380332337,
+  "en_chars": 21005,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "이트륨",
+  "depth": 0,
+  "via": [
+   "분류:이트륨"
+  ],
+  "en_title": "Yttrium",
+  "ko_revid": 42388979,
+  "ko_chars": 3786,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380441305,
+  "en_chars": 25450,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "이트륨 동위 원소",
+  "depth": 0,
+  "via": [
+   "분류:이트륨"
+  ],
+  "en_title": "Isotopes of yttrium",
+  "ko_revid": 40113523,
+  "ko_chars": 3467,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 83,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1347432297,
+  "en_chars": 5293,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 115,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "터븀",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Terbium",
+  "ko_revid": 42439331,
+  "ko_chars": 3153,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378624246,
+  "en_chars": 16564,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "툴륨",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Thulium",
+  "ko_revid": 42443016,
+  "ko_chars": 755,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379225026,
+  "en_chars": 11588,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "프라세오디뮴",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Praseodymium",
+  "ko_revid": 42450187,
+  "ko_chars": 1889,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380062200,
+  "en_chars": 20365,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "프로메튬",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Promethium",
+  "ko_revid": 42451657,
+  "ko_chars": 3353,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380311154,
+  "en_chars": 20510,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 6,
+    "head": "Formula | symmetry | space group | No | Pearson symbol | a(pm) | b(pm) | c(pm) |",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 6,
+    "head": "Promethium halides | Formula | color | coordinationnumber | symmetry | space gro",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "홀뮴",
+  "depth": 0,
+  "via": [
+   "분류:란타넘족"
+  ],
+  "en_title": "Holmium",
+  "ko_revid": 42465440,
+  "ko_chars": 2474,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377857933,
+  "en_chars": 15540,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "가돌리늄 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:가돌리늄"
+  ],
+  "en_title": "Isotopes of gadolinium",
+  "ko_revid": 40382693,
+  "ko_chars": 2850,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 61,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1369500648,
+  "en_chars": 6205,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 82,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "갈렴석",
+  "depth": 1,
+  "via": [
+   "분류:란타넘족 광물",
+   "분류:이트륨 광물"
+  ],
+  "en_title": "Allanite",
+  "ko_revid": 41252188,
+  "ko_chars": 119,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1305838811,
+  "en_chars": 2152,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "네오디뮴 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:네오디뮴"
+  ],
+  "en_title": "Isotopes of neodymium",
+  "ko_revid": 39557729,
+  "ko_chars": 2902,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 59,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1380219885,
+  "en_chars": 7787,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 79,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "네오디뮴 야그 레이저",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Nd:YAG laser",
+  "ko_revid": 39718893,
+  "ko_chars": 495,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 7,
+    "head": "파장 (μm) | 굴절률n(25 °C) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1368378756,
+  "en_chars": 12346,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 7,
+    "head": "Wavelength (μm) | Indexn(25 °C) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "디스프로슘 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:디스프로슘"
+  ],
+  "en_title": "Isotopes of dysprosium",
+  "ko_revid": 39276901,
+  "ko_chars": 3068,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 64,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1347820622,
+  "en_chars": 5799,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 85,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "라라 실험",
+  "depth": 1,
+  "via": [
+   "분류:란타넘"
+  ],
+  "en_title": "RaLa Experiment",
+  "ko_revid": 42192307,
+  "ko_chars": 10000,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379551487,
+  "en_chars": 20635,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "란타넘 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:란타넘"
+  ],
+  "en_title": "Isotopes of lanthanum",
+  "ko_revid": 39557704,
+  "ko_chars": 3058,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 65,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1376336937,
+  "en_chars": 6372,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 76,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "루테튬 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:루테튬"
+  ],
+  "en_title": "Isotopes of lutetium",
+  "ko_revid": 39278170,
+  "ko_chars": 4094,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 97,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1368635425,
+  "en_chars": 7421,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 110,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "루테튬 화합물",
+  "depth": 1,
+  "via": [
+   "분류:루테튬"
+  ],
+  "en_title": "Lutetium compounds",
+  "ko_revid": 42595707,
+  "ko_chars": 3030,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374508733,
+  "en_chars": 5683,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "모나자이트",
+  "depth": 1,
+  "via": [
+   "분류:란타넘족 광물"
+  ],
+  "en_title": "Monazite",
+  "ko_revid": 39047007,
+  "ko_chars": 850,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374663198,
+  "en_chars": 11849,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "비소화 이트륨(III)",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium(III) arsenide",
+  "ko_revid": 42152980,
+  "ko_chars": 1171,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1315084957,
+  "en_chars": 1376,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "사마륨 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:사마륨"
+  ],
+  "en_title": "Isotopes of samarium",
+  "ko_revid": 39859277,
+  "ko_chars": 2972,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 60,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1375359563,
+  "en_chars": 10044,
+  "en_n_tables": 3,
+  "en_tables": [
+   {
+    "rows": 80,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 10,
+    "head": "Medium-lived fission productsvte | Nuclide | t1⁄2 | Yield | Q | βγ | | (a) | (%)",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 7,
+    "head": "Yield, % perfission | | Thermal | Fast | 14 MeV | ",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "사마스카이트",
+  "depth": 1,
+  "via": [
+   "분류:란타넘족 광물",
+   "분류:이트륨 광물"
+  ],
+  "en_title": "Samarskite-(Y)",
+  "ko_revid": 42294962,
+  "ko_chars": 385,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1280069939,
+  "en_chars": 1484,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "산화 이트륨(III)",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium(III) oxide",
+  "ko_revid": 42573832,
+  "ko_chars": 1840,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380893260,
+  "en_chars": 3523,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "세륨 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:세륨"
+  ],
+  "en_title": "Isotopes of cerium",
+  "ko_revid": 39896949,
+  "ko_chars": 2913,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 55,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵자스핀 | 자연계에 존재하는동위 ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1380219787,
+  "en_chars": 4319,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 65,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "수산화 이트륨",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium hydroxide",
+  "ko_revid": 41964932,
+  "ko_chars": 426,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380915423,
+  "en_chars": 679,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "스칸듐 화합물",
+  "depth": 1,
+  "via": [
+   "분류:스칸듐 화합물"
+  ],
+  "en_title": "Scandium compounds",
+  "ko_revid": 42394104,
+  "ko_chars": 1335,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 2,
+    "head": "이온 반지름 (pm) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1377033116,
+  "en_chars": 2536,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Ionic radii (pm) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "십이붕소화 스칸듐",
+  "depth": 1,
+  "via": [
+   "분류:스칸듐 화합물"
+  ],
+  "en_title": "Scandium dodecaboride",
+  "ko_revid": 41896717,
+  "ko_chars": 293,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1299792205,
+  "en_chars": 542,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "아연-세륨 전지",
+  "depth": 1,
+  "via": [
+   "분류:세륨"
+  ],
+  "en_title": "Zinc–cerium battery",
+  "ko_revid": 42342392,
+  "ko_chars": 2964,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1367270555,
+  "en_chars": 6494,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "어븀 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:어븀"
+  ],
+  "en_title": "Isotopes of erbium",
+  "ko_revid": 40113518,
+  "ko_chars": 2975,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 63,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1363325720,
+  "en_chars": 6773,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 84,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "어븀 화합물",
+  "depth": 1,
+  "via": [
+   "분류:어븀"
+  ],
+  "en_title": "Erbium compounds",
+  "ko_revid": 42563699,
+  "ko_chars": 1924,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378620309,
+  "en_chars": 21137,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 15,
+    "head": "Formula | Appearance | Crystal system | Space group | No. | a(nm) | b(nm) | c(nm",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "유로퓸 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:유로퓸"
+  ],
+  "en_title": "Isotopes of europium",
+  "ko_revid": 40113510,
+  "ko_chars": 3172,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 71,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1352528506,
+  "en_chars": 7108,
+  "en_n_tables": 3,
+  "en_tables": [
+   {
+    "rows": 92,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 10,
+    "head": "Medium-lived fission productsvte | Nuclide | t1⁄2 | Yield | Q | βγ | | (a) | (%)",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 4,
+    "head": "Isotope | Half-life | Relative yield (fission) | Thermal neutron | Resonance int",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "이터븀 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:이터븀"
+  ],
+  "en_title": "Isotopes of ytterbium",
+  "ko_revid": 40113520,
+  "ko_chars": 2742,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 58,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1371900329,
+  "en_chars": 6431,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 75,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "이터븀 화합물",
+  "depth": 1,
+  "via": [
+   "분류:이터븀"
+  ],
+  "en_title": "Ytterbium compounds",
+  "ko_revid": 42394087,
+  "ko_chars": 2573,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381086657,
+  "en_chars": 35142,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 15,
+    "head": "Formula | Appearance | Crystal system | Space group | No. | a(nm) | b(nm) | c(nm",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "이트륨 바륨 구리 산화물",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium barium copper oxide",
+  "ko_revid": 39123978,
+  "ko_chars": 404,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379997991,
+  "en_chars": 12287,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Coordination geometryof metal centres in YBCO | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 2,
+    "head": " | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "이트륨 트리플레이트",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium triflate",
+  "ko_revid": 41870282,
+  "ko_chars": 791,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380018694,
+  "en_chars": 1552,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "이트륨 화합물",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium compounds",
+  "ko_revid": 42394063,
+  "ko_chars": 2481,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378892662,
+  "en_chars": 4623,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "중성자 포획 치료",
+  "depth": 1,
+  "via": [
+   "분류:가돌리늄"
+  ],
+  "en_title": "Neutron capture therapy of cancer",
+  "ko_revid": 41993988,
+  "ko_chars": 20383,
+  "ko_n_tables": 3,
+  "ko_tables": [
+   {
+    "rows": 12,
+    "head": "표 1. 새로운 저분자량 및 고분자량 붕소 전달제 예시a,b | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 9,
+    "head": "표 2. 신경교종 환자의 BNCT를 위한 에피열 중성자 빔을 사용한 과거 BNCT 임상 시험* | 원자로 시설* | 환자 수 및 시험 기간 | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 15,
+    "head": "",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1372808756,
+  "en_chars": 43945,
+  "en_n_tables": 3,
+  "en_tables": [
+   {
+    "rows": 12,
+    "head": "Table 1. Examples of new low- and high-molecular-weight boron delivery agentsa,b",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 9,
+    "head": "Table 2. Past BNCT clinical trials using an epithermal neutron beams for BNCT of",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 15,
+    "head": "ManufacturerProductReactionAccelerator type | Host institution | First clinical ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "터븀 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:터븀"
+  ],
+  "en_title": "Isotopes of terbium",
+  "ko_revid": 40332210,
+  "ko_chars": 3682,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 88,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1372125111,
+  "en_chars": 5488,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 90,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "툴륨 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:툴륨"
+  ],
+  "en_title": "Isotopes of thulium",
+  "ko_revid": 40332213,
+  "ko_chars": 3368,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 80,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1363326077,
+  "en_chars": 6219,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 104,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "프라세오디뮴 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:프라세오디뮴"
+  ],
+  "en_title": "Isotopes of praseodymium",
+  "ko_revid": 40332209,
+  "ko_chars": 2985,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 65,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1363324967,
+  "en_chars": 5365,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 72,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "프로메튬 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:프로메튬"
+  ],
+  "en_title": "Isotopes of promethium",
+  "ko_revid": 40332207,
+  "ko_chars": 3235,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 67,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 들뜬 에너지 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1359160928,
+  "en_chars": 7354,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 89,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "홀뮴 동위 원소",
+  "depth": 1,
+  "via": [
+   "분류:홀뮴"
+  ],
+  "en_title": "Isotopes of holmium",
+  "ko_revid": 40332211,
+  "ko_chars": 3820,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 91,
+    "head": "핵자수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴방식 | 붕괴 생성동위 원소 | 핵스핀 | 자연계에 존재하는동위 원",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1363325238,
+  "en_chars": 7073,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 101,
+    "head": "Nuclide | Z | N | Isotopic mass(Da) | Discoveryyear | Half-life | Decaymode | Da",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "황산 이트륨(III)",
+  "depth": 1,
+  "via": [
+   "분류:이트륨 화합물"
+  ],
+  "en_title": "Yttrium(III) sulfate",
+  "ko_revid": 42573830,
+  "ko_chars": 307,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380915805,
+  "en_chars": 445,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "가도테리돌",
+  "depth": 2,
+  "via": [
+   "분류:가돌리늄 화합물",
+   "분류:유기 란타넘족 화합물"
+  ],
+  "en_title": "Gadoteridol",
+  "ko_revid": 39676381,
+  "ko_chars": 141,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360201863,
+  "en_chars": 245,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "네오디뮴 자석",
+  "depth": 2,
+  "via": [
+   "분류:네오디뮴 화합물",
+   "더함: 분류:희토류 합금"
+  ],
+  "en_title": "Neodymium magnet",
+  "ko_revid": 39292350,
+  "ko_chars": 568,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380933888,
+  "en_chars": 23568,
+  "en_n_tables": 3,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "Magnetic properties of various permanent magnets | Magnet | Br(T) | Hci(kA/m) | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 15,
+    "head": "Comparison of physical properties of sintered neodymium andSm-Comagnets | Proper",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 8,
+    "head": "Global production of NdFeB magnets (selected years) | Year | World production (t",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "네오디뮴 화합물",
+  "depth": 2,
+  "via": [
+   "분류:네오디뮴 화합물"
+  ],
+  "en_title": "Neodymium compounds",
+  "ko_revid": 41856407,
+  "ko_chars": 2199,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375846302,
+  "en_chars": 4192,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "디디뮴",
+  "depth": 2,
+  "via": [
+   "분류:네오디뮴 화합물",
+   "분류:프라세오디뮴 화합물",
+   "더함: 분류:희토류 합금"
+  ],
+  "en_title": "Didymium",
+  "ko_revid": 39414725,
+  "ko_chars": 124,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1368659418,
+  "en_chars": 5823,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "미시메탈",
+  "depth": 2,
+  "via": [
+   "분류:란타넘 화합물",
+   "분류:세륨 화합물",
+   "더함: 분류:희토류 합금"
+  ],
+  "en_title": "Mischmetal",
+  "ko_revid": 42089498,
+  "ko_chars": 816,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1339453821,
+  "en_chars": 4896,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "브로민화 터븀(III)",
+  "depth": 2,
+  "via": [
+   "분류:터븀 화합물"
+  ],
+  "en_title": "Terbium(III) bromide",
+  "ko_revid": 41877475,
+  "ko_chars": 295,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379807471,
+  "en_chars": 529,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "사마륨 화합물",
+  "depth": 2,
+  "via": [
+   "분류:사마륨 화합물"
+  ],
+  "en_title": "Samarium compounds",
+  "ko_revid": 41902936,
+  "ko_chars": 5712,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 28,
+    "head": "화학식 | 색상 | 결정계 | 공간군 | 번호 | 피어슨 심볼 | a (pm) | b (pm) | c (pm) | Z | 밀도,g/cm3 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1377308956,
+  "en_chars": 29281,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 28,
+    "head": "Formula | Colour | Crystal system | Space group | No | Pearson symbol | a(pm) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "사마륨-코발트 자석",
+  "depth": 2,
+  "via": [
+   "분류:사마륨 화합물"
+  ],
+  "en_title": "Samarium–cobalt magnet",
+  "ko_revid": 40913523,
+  "ko_chars": 4858,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 15,
+    "head": "소결된 네오디뮴 자석과 사마륨-코발트 자석의 물리적 특성 비교 | 속성 (단위) | 네오디뮴 | 사마륨-코발트 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1337255332,
+  "en_chars": 10202,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 15,
+    "head": "Comparison of physical properties of sintered neodymium and Sm-Co magnets | Prop",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "산화 터븀(III)",
+  "depth": 2,
+  "via": [
+   "분류:터븀 화합물"
+  ],
+  "en_title": "Terbium(III) oxide",
+  "ko_revid": 41923434,
+  "ko_chars": 341,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380083256,
+  "en_chars": 563,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "산화 터븀(III,IV)",
+  "depth": 2,
+  "via": [
+   "분류:터븀 화합물"
+  ],
+  "en_title": "Terbium(III,IV) oxide",
+  "ko_revid": 41964539,
+  "ko_chars": 1609,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1348272735,
+  "en_chars": 2659,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "산화 프라세오디뮴(III,IV)",
+  "depth": 2,
+  "via": [
+   "분류:프라세오디뮴 화합물"
+  ],
+  "en_title": "Praseodymium(III,IV) oxide",
+  "ko_revid": 42573859,
+  "ko_chars": 1995,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380041552,
+  "en_chars": 4151,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "아세트산 어븀(III)",
+  "depth": 2,
+  "via": [
+   "분류:어븀 화합물"
+  ],
+  "en_title": "Erbium(III) acetate",
+  "ko_revid": 41866588,
+  "ko_chars": 370,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380009967,
+  "en_chars": 580,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "염화 어븀(III)",
+  "depth": 2,
+  "via": [
+   "분류:어븀 화합물"
+  ],
+  "en_title": "Erbium(III) chloride",
+  "ko_revid": 42157428,
+  "ko_chars": 691,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1299147966,
+  "en_chars": 1349,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "유로퓸 화합물",
+  "depth": 2,
+  "via": [
+   "분류:유로퓸 화합물"
+  ],
+  "en_title": "Europium compounds",
+  "ko_revid": 42145492,
+  "ko_chars": 7283,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 19,
+    "head": "화학식 | 색상 | 결정 구조 | 공간군 | 번호 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1336803403,
+  "en_chars": 13251,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 19,
+    "head": "Formula | Color | Crystal structure | Space group | No | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "터븀 화합물",
+  "depth": 2,
+  "via": [
+   "분류:터븀 화합물"
+  ],
+  "en_title": "Terbium compounds",
+  "ko_revid": 42563569,
+  "ko_chars": 7227,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 16,
+    "head": "화학식 | 외관 | 대칭 | 공간군 | 번호 | a (nm) | b (nm) | c (nm) | 밀도,g/cm3 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1379321752,
+  "en_chars": 13987,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 16,
+    "head": "Formula | appearance | symmetry | space group | No | a(nm) | b(nm) | c(nm) | den",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "프라세오디뮴 화합물",
+  "depth": 2,
+  "via": [
+   "분류:프라세오디뮴 화합물"
+  ],
+  "en_title": "Praseodymium compounds",
+  "ko_revid": 42449271,
+  "ko_chars": 3760,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 8,
+    "head": "값 | 화학식 | 상 | PrOx의 x | Pr의 평균 산화수 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1381111546,
+  "en_chars": 38667,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 16,
+    "head": "Formula | Appearance | Crystal system | Space group | No. | a(nm) | b(nm) | c(nm",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 8,
+    "head": "Formula | Phase | xinPrOx | Average oxidation state of Pr | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "플루오린화 프라세오디뮴(IV)",
+  "depth": 2,
+  "via": [
+   "분류:프라세오디뮴 화합물"
+  ],
+  "en_title": "Praseodymium(IV) fluoride",
+  "ko_revid": 41886182,
+  "ko_chars": 902,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380023864,
+  "en_chars": 1229,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "황산 어븀(III)",
+  "depth": 2,
+  "via": [
+   "분류:어븀 화합물"
+  ],
+  "en_title": "Erbium(III) sulfate",
+  "ko_revid": 41866570,
+  "ko_chars": 989,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380013746,
+  "en_chars": 1626,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "황산 터븀(III)",
+  "depth": 2,
+  "via": [
+   "분류:터븀 화합물"
+  ],
+  "en_title": "Terbium(III) sulfate",
+  "ko_revid": 41871899,
+  "ko_chars": 825,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380109747,
+  "en_chars": 1634,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "희토류 원소",
+  "depth": null,
+  "via": [
+   "더함: 문서"
+  ],
+  "en_title": "Rare-earth element",
+  "ko_revid": 42107913,
+  "ko_chars": 6387,
+  "ko_n_tables": 2,
+  "ko_tables": [
+   {
+    "rows": 4,
+    "head": "홍천 철광상 내 미량원소 및희토류 원소함량 (ppm, 금은 ppb) | 금 | 은 | 비소 | 코발트 | 크로뮴 | 세슘 | 구리 | 갈륨 | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 56,
+    "head": "원소 | 가격 (원/1g) | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1379412125,
+  "en_chars": 90530,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 18,
+    "head": "Overview of rare-earth metal properties | Z | Symbol | Name | Etymology | Select",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 13,
+    "head": "Rank | Country | Reserves(million metric tons) | Reservesper capita(kg) | ",
+    "cls": "sortable wikitable"
+   }
+  ],
+  "errors": []
+ }
+]

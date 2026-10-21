@@ -1,0 +1,10424 @@
+[
+ {
+  "ko_title": "BD+05 4868Ab",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "BD+05 4868Ab",
+  "ko_revid": 42480362,
+  "ko_chars": 599,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374384291,
+  "en_chars": 1109,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "MEarth 프로젝트",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "MEarth Project",
+  "ko_revid": 41955686,
+  "ko_chars": 191,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360253678,
+  "en_chars": 1213,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TOI-6478b",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "TOI-6478 b",
+  "ko_revid": 41776379,
+  "ko_chars": 148,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374090051,
+  "en_chars": 300,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "난쟁이 가스행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 40721387,
+  "ko_chars": 528,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "뜨거운 지구",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 40407092,
+  "ko_chars": 451,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "메가지구",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Mega-Earth",
+  "ko_revid": 39412499,
+  "ko_chars": 616,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 5,
+    "head": "행성 | 항성계 | 위치 | 거리 | 별자리 | 질량(MEarth) | 크기(REarth) | 밀도(g/cm3) | 표면 중력 | 궤도 | 각주",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1379924764,
+  "en_chars": 7289,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "바다 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Ocean world",
+  "ko_revid": 42276974,
+  "ko_chars": 8124,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379133601,
+  "en_chars": 23652,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "바다뱀자리 TW b",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "TW Hydrae b",
+  "ko_revid": 41637739,
+  "ko_chars": 576,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380914921,
+  "en_chars": 6754,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "The TW Hydrae planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "부푼 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Puffy planet",
+  "ko_revid": 42286334,
+  "ko_chars": 599,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370780044,
+  "en_chars": 17387,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "사막 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Desert planet",
+  "ko_revid": 39099706,
+  "ko_chars": 793,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375476656,
+  "en_chars": 2798,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "생명체 거주가능 영역",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Habitable zone",
+  "ko_revid": 40635977,
+  "ko_chars": 6024,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379342334,
+  "en_chars": 45655,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 16,
+    "head": "Estimates of the circumstellar habitable zone boundaries of the Solar System | I",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "슈퍼 목성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Super-Jupiter",
+  "ko_revid": 40744410,
+  "ko_chars": 882,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370789692,
+  "en_chars": 1897,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "슈퍼수성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 39814540,
+  "ko_chars": 347,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "슈퍼토성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Ring system",
+  "ko_revid": 39802622,
+  "ko_chars": 326,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380783573,
+  "en_chars": 14868,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "쌍성계의 생명체 거주가능성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Habitability of binary star systems",
+  "ko_revid": 42337545,
+  "ko_chars": 889,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779843,
+  "en_chars": 4210,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "쌍성주위 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Circumbinary planet",
+  "ko_revid": 41697273,
+  "ko_chars": 1441,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378452429,
+  "en_chars": 18173,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 42,
+    "head": "Star system | Startypes | Planet | Mass(MJ) | Semimajor axis(AU) | Orbital perio",
+    "cls": "sortable wikitable"
+   },
+   {
+    "rows": 10,
+    "head": "Star system | Planet | Mass(MJ) | Semimajor axis(AU) | Orbital period | Paramete",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "오릴리아와 블루 문",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Extraterrestrial (TV program)",
+  "ko_revid": 40440006,
+  "ko_chars": 4966,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378378485,
+  "en_chars": 15262,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성",
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Exoplanet",
+  "ko_revid": 42369040,
+  "ko_chars": 24277,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 34,
+    "head": "주제 | 행성 | 항성 | 발견년도 | 주석 | 발견 방법별 최초 사례 | 계(系) 형태별 최초 발견 사례 | 항성 종류별 첫 번째 발견 사례 ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1381126123,
+  "en_chars": 53964,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 행성 백과사전",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Encyclopaedia of Exoplanetary Systems",
+  "ko_revid": 39416671,
+  "ko_chars": 525,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376106356,
+  "en_chars": 1853,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 행성 주인별",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Planet-hosting star",
+  "ko_revid": 42567362,
+  "ko_chars": 7571,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379838086,
+  "en_chars": 14011,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 행성이 확인된 항성 목록",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "List of exoplanetary host stars",
+  "ko_revid": 42566794,
+  "ko_chars": 32448,
+  "ko_n_tables": 2,
+  "ko_tables": [
+   {
+    "rows": 78,
+    "head": "항성 | 별자리 | 적경 | 적위 | App.mag. | 거리(ly) | 분광형 | 행성 | 질량(MJ) | 반지름(RJ) | 공전주기(일) |",
+    "cls": "toccolours sortable"
+   },
+   {
+    "rows": 258,
+    "head": "항성 | 별자리 | 적경 | 적위 | App.mag. | 거리(ly) | 분광형 | 행성 | 질량(MJ) | 공전주기(일) | 긴반지름(AU) ",
+    "cls": "toccolours sortable"
+   }
+  ],
+  "en_revid": 1375945917,
+  "en_chars": 41958,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 370,
+    "head": "Star | Constellation | Rightascension | Declination | Apparentmagnitude | Distan",
+    "cls": "toccolours sortable wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "원시행성계원반이 있는 항성 목록",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 41371516,
+  "ko_chars": 193,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "적색 왜성계의 생명체 거주 가능성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Habitability of red dwarf systems",
+  "ko_revid": 41697944,
+  "ko_chars": 4643,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378805137,
+  "en_chars": 19475,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "지구형 행성 탐사기",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Terrestrial Planet Finder",
+  "ko_revid": 39074782,
+  "ko_chars": 3959,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 101,
+    "head": "순위 | 이름 | 별자리 | 거리 (광년) | 분광형 | 발견된행성 수 | ",
+    "cls": ""
+   }
+  ],
+  "en_revid": 1380321534,
+  "en_chars": 4184,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 11,
+    "head": "Rank | Target star | Constellation | Distance(light-years) | Spectral type | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "초단주기 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Ultra-short period planet",
+  "ko_revid": 39130516,
+  "ko_chars": 286,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370790644,
+  "en_chars": 8787,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Key (Classification) | Terrestrial planets | Gas giant planets | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 16,
+    "head": "Illustration | Name(Alternates) | Orbital period(Days) | Semimajor Axis(AU) | Ke",
+    "cls": "wikitable sortable sticky-header"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "초장주기 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 39802787,
+  "ko_chars": 293,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "크소니언 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Chthonian planet",
+  "ko_revid": 40407077,
+  "ko_chars": 415,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370782422,
+  "en_chars": 2428,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "타원궤도 가스행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Eccentric Jupiter",
+  "ko_revid": 39072786,
+  "ko_chars": 1591,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372468717,
+  "en_chars": 7601,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "Planet | a(AU) | e | MJ | Notes | ",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "플루넷",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Tidally detached exomoon",
+  "ko_revid": 41108095,
+  "ko_chars": 270,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1358452342,
+  "en_chars": 1359,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "헬륨 행성",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Helium planet",
+  "ko_revid": 40722527,
+  "ko_chars": 1120,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379756369,
+  "en_chars": 3422,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "확인되지 않은 외계 행성 목록",
+  "depth": 0,
+  "via": [
+   "분류:외계 행성"
+  ],
+  "en_title": "Hypothetical astronomical object",
+  "ko_revid": 39090407,
+  "ko_chars": 3812,
+  "ko_n_tables": 5,
+  "ko_tables": [
+   {
+    "rows": 55,
+    "head": "항성 | 행성 | 최소질량(× 목성) | 공전주기(일) | 공전거리(× 지구) | 궤도이심률 | 경사각 | 발견년도 | ",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 6,
+    "head": "항성 | 행성 | 최소질량(× 목성) | 공전주기(일) | 공전거리(× 지구) | 발견년도 | 주석 | ",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 23,
+    "head": "어머니 항성 | 행성 | 최소질량 | 공전주기(일) | 궤도장반경(천문단위) | 이심률 | 궤도경사각 | 발견 주장년도 | ",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 13,
+    "head": "항성 | 행성 | 최소질량(× 목성) | 공전주기(일) | 공전거리(× 지구) | 궤도이심률 | 경사각 | 발견년도 | 주석 | ",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 12,
+    "head": "항성 | 틈의 거리(AU) | 주석 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1313272085,
+  "en_chars": 2984,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 17,
+    "head": "Type | Description | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "4U 0142+61",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반",
+   "분류:펄사 행성"
+  ],
+  "en_title": "4U 0142+61",
+  "ko_revid": 39709715,
+  "ko_chars": 503,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1355414635,
+  "en_chars": 1255,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "BD +20˚307",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "BD+20°307",
+  "ko_revid": 41152844,
+  "ko_chars": 672,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376092070,
+  "en_chars": 3910,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "Sun-like Stars with hot dust disks | Star | Stellarclassification | Distance fro",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "BD+14°4559 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "BD+14 4559 b",
+  "ko_revid": 41695290,
+  "ko_chars": 422,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374282912,
+  "en_chars": 3063,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "BD+20°2457 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "BD+20°2457 b",
+  "ko_revid": 41695292,
+  "ko_chars": 541,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637473,
+  "en_chars": 1660,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "BD+20°2457 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": null,
+  "ko_revid": 41695293,
+  "ko_chars": 536,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "BD-08°2823 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "BD−08°2823 b",
+  "ko_revid": 39919012,
+  "ko_chars": 504,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374245389,
+  "en_chars": 542,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "BD-08°2823 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "BD−08°2823 c",
+  "ko_revid": 39919013,
+  "ko_chars": 373,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1304732725,
+  "en_chars": 441,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "BD-10°3166 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "BD−10°3166 b",
+  "ko_revid": 39918413,
+  "ko_chars": 662,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1352870400,
+  "en_chars": 614,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "CFBDSIR 2149-0403",
+  "depth": 1,
+  "via": [
+   "분류:떠돌이 행성"
+  ],
+  "en_title": "CFBDSIR 2149−0403",
+  "ko_revid": 40372286,
+  "ko_chars": 1372,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376211933,
+  "en_chars": 3769,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-1b",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성",
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "CoRoT-1b",
+  "ko_revid": 39918783,
+  "ko_chars": 1131,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1236166525,
+  "en_chars": 2027,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-2b",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성",
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "CoRoT-2b",
+  "ko_revid": 41520036,
+  "ko_chars": 616,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374889179,
+  "en_chars": 1786,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-4b",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성",
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "CoRoT-4b",
+  "ko_revid": 41522471,
+  "ko_chars": 247,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374167964,
+  "en_chars": 279,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-5b",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성",
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "CoRoT-5b",
+  "ko_revid": 41393364,
+  "ko_chars": 311,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374167992,
+  "en_chars": 527,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-6b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "CoRoT-6b",
+  "ko_revid": 39919016,
+  "ko_chars": 354,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168035,
+  "en_chars": 547,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-7b",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성"
+  ],
+  "en_title": "CoRoT-7b",
+  "ko_revid": 42011655,
+  "ko_chars": 1744,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1371070881,
+  "en_chars": 11349,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-7c",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "CoRoT-7c",
+  "ko_revid": 41393243,
+  "ko_chars": 430,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1296448537,
+  "en_chars": 2615,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "COROT-9b",
+  "depth": 1,
+  "via": [
+   "분류:COROT프로그램에 의해 발견된 외계 행성"
+  ],
+  "en_title": "CoRoT-9b",
+  "ko_revid": 39919109,
+  "ko_chars": 1128,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372617532,
+  "en_chars": 3280,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "CoKu Tau/4",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "CoKu Tau/4",
+  "ko_revid": 39851079,
+  "ko_chars": 1017,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1355034449,
+  "en_chars": 1314,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-1 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-1b",
+  "ko_revid": 39918729,
+  "ko_chars": 1482,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168576,
+  "en_chars": 3681,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-11 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HAT-P-11b",
+  "ko_revid": 39919023,
+  "ko_chars": 1193,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374246338,
+  "en_chars": 2588,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-12 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-12b",
+  "ko_revid": 39919024,
+  "ko_chars": 336,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374169024,
+  "en_chars": 1544,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-13 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HAT-P-13b",
+  "ko_revid": 39919025,
+  "ko_chars": 311,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1154745236,
+  "en_chars": 587,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-13 c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-13c",
+  "ko_revid": 39138789,
+  "ko_chars": 316,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1303312256,
+  "en_chars": 553,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-14b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HAT-P-14b",
+  "ko_revid": 39919110,
+  "ko_chars": 248,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374169060,
+  "en_chars": 1784,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-2 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-2b",
+  "ko_revid": 41657367,
+  "ko_chars": 783,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168637,
+  "en_chars": 2085,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-3 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-3b",
+  "ko_revid": 39918790,
+  "ko_chars": 337,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776750,
+  "en_chars": 1640,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-4 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-4b",
+  "ko_revid": 41695327,
+  "ko_chars": 1132,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168706,
+  "en_chars": 1063,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-5b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-5b",
+  "ko_revid": 39918793,
+  "ko_chars": 578,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168776,
+  "en_chars": 849,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-6b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-6b",
+  "ko_revid": 40388733,
+  "ko_chars": 594,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168851,
+  "en_chars": 1299,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-7 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-7b",
+  "ko_revid": 41680686,
+  "ko_chars": 368,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221277,
+  "en_chars": 4511,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-8b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-8b",
+  "ko_revid": 41645341,
+  "ko_chars": 559,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374168958,
+  "en_chars": 1483,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HAT-P-9 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HAT-P-9b",
+  "ko_revid": 41695330,
+  "ko_chars": 650,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1348849144,
+  "en_chars": 889,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 100546",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 100546",
+  "ko_revid": 41844966,
+  "ko_chars": 2536,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637689,
+  "en_chars": 9834,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 10,
+    "head": "The HD 100546 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 102195 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 102195 b",
+  "ko_revid": 39918731,
+  "ko_chars": 453,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219281,
+  "en_chars": 811,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 102272 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 102272 c",
+  "ko_revid": 39918908,
+  "ko_chars": 539,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776877,
+  "en_chars": 1778,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 102272 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 103197 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 103197 b",
+  "ko_revid": 39919027,
+  "ko_chars": 428,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776909,
+  "en_chars": 286,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 104067 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 104067 b",
+  "ko_revid": 41880099,
+  "ko_chars": 373,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374437963,
+  "en_chars": 1983,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The HD 104067 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 107146",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 107146",
+  "ko_revid": 42573345,
+  "ko_chars": 767,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637701,
+  "en_chars": 2357,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The planetary system | Companion(in order from star) | Mass | Semimajor axis(AU ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 109749 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 109749 b",
+  "ko_revid": 39918664,
+  "ko_chars": 467,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328134507,
+  "en_chars": 320,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 12039",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 12039",
+  "ko_revid": 39644612,
+  "ko_chars": 1087,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374405462,
+  "en_chars": 2422,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 125595 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 125595 b",
+  "ko_revid": 41955803,
+  "ko_chars": 513,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374438163,
+  "en_chars": 1447,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 125595 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 125612 c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 125612 c",
+  "ko_revid": 41880883,
+  "ko_chars": 338,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374246701,
+  "en_chars": 722,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 125612 d",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 125612 d",
+  "ko_revid": 41880947,
+  "ko_chars": 354,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329363631,
+  "en_chars": 392,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 12661 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 12661 b",
+  "ko_revid": 39918475,
+  "ko_chars": 779,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378728850,
+  "en_chars": 3893,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 12661 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 126614 Ab",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 126614 Ab",
+  "ko_revid": 39919038,
+  "ko_chars": 394,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1198042068,
+  "en_chars": 844,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 130322 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 130322 b",
+  "ko_revid": 39918417,
+  "ko_chars": 628,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379407170,
+  "en_chars": 701,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 13931 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 13931 b",
+  "ko_revid": 41879828,
+  "ko_chars": 418,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777343,
+  "en_chars": 857,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 141569",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 141569",
+  "ko_revid": 41392648,
+  "ko_chars": 841,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 4,
+    "head": "HD 141569 행성계 | 동반 천체(항성에서 가까운 순서) | 질량 | 궤도 평균 거리(AU) | 공전 주기(일) | 궤도이심률 | 궤도경사",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1377637732,
+  "en_chars": 3827,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The HD 141569 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 1461 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 1461 b",
+  "ko_revid": 41951487,
+  "ko_chars": 352,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377104519,
+  "en_chars": 566,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 1461 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 1461 c",
+  "ko_revid": 41952315,
+  "ko_chars": 286,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379213738,
+  "en_chars": 2696,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 1461 planetary system | Companion(in order from star) | Mass | Semimajor ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 1461 d",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": null,
+  "ko_revid": 41952384,
+  "ko_chars": 388,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "HD 147018 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 147018 b",
+  "ko_revid": 39919047,
+  "ko_chars": 575,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1347744786,
+  "en_chars": 959,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 147018 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 147018 c",
+  "ko_revid": 39919050,
+  "ko_chars": 493,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1347744853,
+  "en_chars": 820,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 148156 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 148156 b",
+  "ko_revid": 41880609,
+  "ko_chars": 346,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1347744939,
+  "en_chars": 547,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 149026 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 149026 b",
+  "ko_revid": 41692497,
+  "ko_chars": 2348,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219405,
+  "en_chars": 7567,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 154672 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 154672 b",
+  "ko_revid": 39918914,
+  "ko_chars": 603,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777518,
+  "en_chars": 4330,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 156668 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 156668 b",
+  "ko_revid": 41955990,
+  "ko_chars": 456,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374249020,
+  "en_chars": 754,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 16417 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HD 16417 b",
+  "ko_revid": 39919052,
+  "ko_chars": 532,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374246416,
+  "en_chars": 552,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 171238 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 171238 b",
+  "ko_revid": 39919054,
+  "ko_chars": 526,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329498988,
+  "en_chars": 773,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 172555",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 172555",
+  "ko_revid": 40328877,
+  "ko_chars": 1543,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379962663,
+  "en_chars": 6427,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 175167 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 175167 b",
+  "ko_revid": 41692502,
+  "ko_chars": 492,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1191206761,
+  "en_chars": 993,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 179949 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 179949 b",
+  "ko_revid": 39918421,
+  "ko_chars": 1378,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1348634455,
+  "en_chars": 2090,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 181433 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "HD 181433 b",
+  "ko_revid": 42498748,
+  "ko_chars": 383,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1191292996,
+  "en_chars": 555,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 185269 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 185269 b",
+  "ko_revid": 39918739,
+  "ko_chars": 512,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329476452,
+  "en_chars": 859,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 187123 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 187123 b",
+  "ko_revid": 39918382,
+  "ko_chars": 786,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219503,
+  "en_chars": 711,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 189733 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 189733 b",
+  "ko_revid": 41680392,
+  "ko_chars": 3182,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378612172,
+  "en_chars": 13715,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 190228 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 190228 b",
+  "ko_revid": 39918488,
+  "ko_chars": 882,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374602215,
+  "en_chars": 2300,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 190228 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 191089",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": null,
+  "ko_revid": 39782860,
+  "ko_chars": 67,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "HD 195019 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 195019 b",
+  "ko_revid": 41692510,
+  "ko_chars": 689,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1189218727,
+  "en_chars": 496,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 202206 c",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성"
+  ],
+  "en_title": "HD 202206 c",
+  "ko_revid": 39919307,
+  "ko_chars": 536,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778116,
+  "en_chars": 2815,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 202206 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 209458 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 209458 b",
+  "ko_revid": 42573347,
+  "ko_chars": 4642,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375885664,
+  "en_chars": 16960,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 212301 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 212301 b",
+  "ko_revid": 41692521,
+  "ko_chars": 1106,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1191310537,
+  "en_chars": 675,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 217107 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 217107 b",
+  "ko_revid": 41843966,
+  "ko_chars": 938,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219699,
+  "en_chars": 1820,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 219828 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HD 219828 b",
+  "ko_revid": 39918836,
+  "ko_chars": 297,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374247041,
+  "en_chars": 408,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 240210 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 240210 b",
+  "ko_revid": 41949642,
+  "ko_chars": 206,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1345065205,
+  "en_chars": 377,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 2638 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 2638 b",
+  "ko_revid": 41692538,
+  "ko_chars": 530,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778382,
+  "en_chars": 358,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 330075 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 330075 b",
+  "ko_revid": 41692545,
+  "ko_chars": 522,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219747,
+  "en_chars": 711,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 40307 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "HD 40307 b",
+  "ko_revid": 41680619,
+  "ko_chars": 1423,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375852508,
+  "en_chars": 3069,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 40307 c",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "HD 40307 c",
+  "ko_revid": 42573356,
+  "ko_chars": 1815,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375852520,
+  "en_chars": 2928,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 40307 d",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "HD 40307 d",
+  "ko_revid": 41680674,
+  "ko_chars": 1232,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778671,
+  "en_chars": 3015,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 4308 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HD 4308 b",
+  "ko_revid": 39918697,
+  "ko_chars": 549,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377188366,
+  "en_chars": 1802,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The HD 4308 planetary system | Companion(in order from star) | Mass | Semimajor ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 45652 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 45652 b",
+  "ko_revid": 39918944,
+  "ko_chars": 415,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387423,
+  "en_chars": 835,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 46375 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 46375 b",
+  "ko_revid": 41692562,
+  "ko_chars": 1049,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374218907,
+  "en_chars": 1039,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 47186 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HD 47186 b",
+  "ko_revid": 41644313,
+  "ko_chars": 330,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374246643,
+  "en_chars": 667,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 53143",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 53143",
+  "ko_revid": 40436680,
+  "ko_chars": 843,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374800734,
+  "en_chars": 2169,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 63454 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 63454 b",
+  "ko_revid": 41692569,
+  "ko_chars": 785,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377661573,
+  "en_chars": 2574,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 63454 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 68988 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 68988 b",
+  "ko_revid": 41692574,
+  "ko_chars": 1115,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374218958,
+  "en_chars": 577,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 69830",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 69830",
+  "ko_revid": 41692576,
+  "ko_chars": 1113,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 4,
+    "head": "동반천체(가까운 순서) | 질량(MJ) | 공전 주기(일) | 공전 궤도 반지름(AU) | 이심률 | ",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "en_revid": 1374406248,
+  "en_chars": 4729,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The HD 69830 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 69830 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:슈퍼지구"
+  ],
+  "en_title": "HD 69830 b",
+  "ko_revid": 41657314,
+  "ko_chars": 512,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374093063,
+  "en_chars": 675,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 69830 c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HD 69830 c",
+  "ko_revid": 39918753,
+  "ko_chars": 380,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1351500869,
+  "en_chars": 698,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 69830 d",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "HD 69830 d",
+  "ko_revid": 39918755,
+  "ko_chars": 1301,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374093117,
+  "en_chars": 3763,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 73256 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 73256 b",
+  "ko_revid": 41695364,
+  "ko_chars": 759,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637667,
+  "en_chars": 2409,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 73256 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 75289 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 75289 b",
+  "ko_revid": 41692583,
+  "ko_chars": 893,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379403462,
+  "en_chars": 648,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 76700 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 76700 b",
+  "ko_revid": 41692584,
+  "ko_chars": 805,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219063,
+  "en_chars": 940,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 7924 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "HD 7924 b",
+  "ko_revid": 42573358,
+  "ko_chars": 644,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374248857,
+  "en_chars": 1326,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 83443 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 83443 b",
+  "ko_revid": 41692587,
+  "ko_chars": 575,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779314,
+  "en_chars": 562,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 86081 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 86081 b",
+  "ko_revid": 39918759,
+  "ko_chars": 494,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219180,
+  "en_chars": 471,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 88133 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 88133 b",
+  "ko_revid": 41692589,
+  "ko_chars": 721,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374219222,
+  "en_chars": 584,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 9446 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HD 9446 c",
+  "ko_revid": 41951017,
+  "ko_chars": 151,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374405577,
+  "en_chars": 1352,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The HD 9446 planetary system | Companion(in order from star) | Mass | Semimajor ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 98800",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HD 98800",
+  "ko_revid": 39644591,
+  "ko_chars": 1903,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380590530,
+  "en_chars": 5161,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 14810 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HIP 14810 b",
+  "ko_revid": 39918761,
+  "ko_chars": 536,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1359724062,
+  "en_chars": 466,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 14810 d",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HIP 14810 d",
+  "ko_revid": 41955031,
+  "ko_chars": 125,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1187420676,
+  "en_chars": 214,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 5158 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HIP 5158 b",
+  "ko_revid": 39919065,
+  "ko_chars": 374,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381220096,
+  "en_chars": 256,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 79431 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "HIP 79431 b",
+  "ko_revid": 41951646,
+  "ko_chars": 292,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374389012,
+  "en_chars": 2425,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HR 8799",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "HR 8799",
+  "ko_revid": 41844119,
+  "ko_chars": 851,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 4,
+    "head": "동반 천체(가까운 천체순) | 질량(MJ) | 공전주기(일) | 공전궤도 반지름(AU) | 이심률 | ",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "en_revid": 1375979908,
+  "en_chars": 17760,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "The HR 8799 planetary system | Companion(in order from star) | Mass | Semimajor ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "K2-138b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "K2-138b",
+  "ko_revid": 39501851,
+  "ko_chars": 215,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380612253,
+  "en_chars": 1018,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "K2-141b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 지구",
+   "분류:슈퍼지구"
+  ],
+  "en_title": "K2-141b",
+  "ko_revid": 39919173,
+  "ko_chars": 627,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374249200,
+  "en_chars": 3837,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "K2-22b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "K2-22b",
+  "ko_revid": 41137481,
+  "ko_chars": 667,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087953,
+  "en_chars": 3224,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "K77-11",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": null,
+  "ko_revid": 42502805,
+  "ko_chars": 136,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "KELT-18b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "KELT-18b",
+  "ko_revid": 39490330,
+  "ko_chars": 124,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374220180,
+  "en_chars": 796,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "KELT-9b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "KELT-9b",
+  "ko_revid": 41695392,
+  "ko_chars": 1702,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379887847,
+  "en_chars": 3645,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Size comparison | Jupiter | KELT-9b | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "KOI-4878.01",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:슈퍼지구"
+  ],
+  "en_title": "KOI-4878.01",
+  "ko_revid": 42229589,
+  "ko_chars": 610,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377985698,
+  "en_chars": 2146,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "KOI-5554.01",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:슈퍼지구"
+  ],
+  "en_title": null,
+  "ko_revid": 42194914,
+  "ko_chars": 522,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "KOI-5715.01",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:슈퍼지구",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "KOI-5715.01",
+  "ko_revid": 42229588,
+  "ko_chars": 494,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374391575,
+  "en_chars": 2103,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "KOI-7923.01",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:슈퍼지구"
+  ],
+  "en_title": "KOI-7923.01",
+  "ko_revid": 42194910,
+  "ko_chars": 574,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378447530,
+  "en_chars": 4868,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 77,
+    "head": "Name | Star | Mass (M🜨) | Radius (R🜨) | Flux (F🜨) | Teq(K) | Period (days) | Dis",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "LHS 1140 b",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:슈퍼지구",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "LHS 1140 b",
+  "ko_revid": 41955537,
+  "ko_chars": 343,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379256628,
+  "en_chars": 9084,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "LTT 9779 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "LTT 9779 b",
+  "ko_revid": 40541844,
+  "ko_chars": 400,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378983198,
+  "en_chars": 2506,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "MOA-2007-BLG-192Lb",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "MOA-2007-BLG-192Lb",
+  "ko_revid": 42012701,
+  "ko_chars": 605,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087399,
+  "en_chars": 1540,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "MOA-2008-BLG-310Lb",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "MOA-2008-BLG-310Lb",
+  "ko_revid": 39919069,
+  "ko_chars": 480,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1154747319,
+  "en_chars": 798,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "NGTS-1b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "NGTS-1b",
+  "ko_revid": 39490556,
+  "ko_chars": 304,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087356,
+  "en_chars": 1368,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2005-BLG-390Lb",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "OGLE-2005-BLG-390Lb",
+  "ko_revid": 42574884,
+  "ko_chars": 3178,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087303,
+  "en_chars": 6112,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2016-BLG-1190Lb",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "OGLE-2016-BLG-1190Lb",
+  "ko_revid": 41255136,
+  "ko_chars": 422,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1338955799,
+  "en_chars": 1558,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2016-BLG-1195Lb",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "OGLE-2016-BLG-1195Lb",
+  "ko_revid": 41248957,
+  "ko_chars": 430,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1296449672,
+  "en_chars": 1139,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-10 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-10b",
+  "ko_revid": 41692604,
+  "ko_chars": 1191,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370786618,
+  "en_chars": 2138,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-111b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-111b",
+  "ko_revid": 41692606,
+  "ko_chars": 1170,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221365,
+  "en_chars": 1580,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-113b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-113b",
+  "ko_revid": 41692610,
+  "ko_chars": 834,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221421,
+  "en_chars": 1163,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-132b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-132b",
+  "ko_revid": 41692613,
+  "ko_chars": 705,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221525,
+  "en_chars": 1265,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-182b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-182b",
+  "ko_revid": 41692614,
+  "ko_chars": 463,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370782037,
+  "en_chars": 28745,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 376,
+    "head": "Name | Mass (MJ) | Radius (RJ) | Period(days) | Semi-major axis(AU) | Temp.(K) |",
+    "cls": "wikitable sortable sticky-header"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-211b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-211b",
+  "ko_revid": 39918857,
+  "ko_chars": 266,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376093134,
+  "en_chars": 516,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-TR-56b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE-TR-56b",
+  "ko_revid": 41775380,
+  "ko_chars": 702,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221304,
+  "en_chars": 1071,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE2-TR-L9b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "OGLE2-TR-L9b",
+  "ko_revid": 39918972,
+  "ko_chars": 776,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376093203,
+  "en_chars": 855,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "PSO J318.5-22",
+  "depth": 1,
+  "via": [
+   "분류:떠돌이 행성"
+  ],
+  "en_title": "PSO J318.5−22",
+  "ko_revid": 40329394,
+  "ko_chars": 786,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1369255355,
+  "en_chars": 4731,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "PSR B1257+12 B",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:펄사 행성"
+  ],
+  "en_title": "PSR B1257+12 B",
+  "ko_revid": 42237701,
+  "ko_chars": 1552,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379911929,
+  "en_chars": 2828,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "PSR B1620-26 b",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성",
+   "분류:펄사 행성"
+  ],
+  "en_title": "PSR B1620−26 b",
+  "ko_revid": 42574991,
+  "ko_chars": 3993,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379527699,
+  "en_chars": 8305,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "R 66과 R 126",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": null,
+  "ko_revid": 39821822,
+  "ko_chars": 1044,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "ROXs 42Bb",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성"
+  ],
+  "en_title": "ROXs 42Bb",
+  "ko_revid": 41264383,
+  "ko_chars": 548,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374384147,
+  "en_chars": 1026,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "SWEEPS-04",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "SWEEPS-04",
+  "ko_revid": 39918764,
+  "ko_chars": 369,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374092269,
+  "en_chars": 1081,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "SWEEPS-11",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "SWEEPS-11",
+  "ko_revid": 39918766,
+  "ko_chars": 433,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1356918177,
+  "en_chars": 926,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TOI-2109b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "TOI-2109 b",
+  "ko_revid": 40329311,
+  "ko_chars": 791,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329892314,
+  "en_chars": 2149,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The TOI-2109 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "TrES-1b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "TrES-1b",
+  "ko_revid": 39918653,
+  "ko_chars": 1944,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378333789,
+  "en_chars": 4549,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TrES-2b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "TrES-2b",
+  "ko_revid": 39918767,
+  "ko_chars": 737,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381038194,
+  "en_chars": 5163,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TrES-3b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "TrES-3b",
+  "ko_revid": 41680688,
+  "ko_chars": 820,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378333988,
+  "en_chars": 1727,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TrES-4b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "TrES-4b",
+  "ko_revid": 42011748,
+  "ko_chars": 1123,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378334065,
+  "en_chars": 2263,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-10b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-10b",
+  "ko_revid": 39918973,
+  "ko_chars": 575,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374241985,
+  "en_chars": 707,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-11b/HAT-P-10b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-11b",
+  "ko_revid": 39918974,
+  "ko_chars": 444,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1333258781,
+  "en_chars": 1927,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-121b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-121b",
+  "ko_revid": 40389788,
+  "ko_chars": 1576,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375503394,
+  "en_chars": 4287,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-12b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-12b",
+  "ko_revid": 39918977,
+  "ko_chars": 705,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380236008,
+  "en_chars": 6370,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-13b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-13b",
+  "ko_revid": 39918978,
+  "ko_chars": 369,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379790785,
+  "en_chars": 5342,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-14b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-14b",
+  "ko_revid": 39918980,
+  "ko_chars": 309,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328137126,
+  "en_chars": 768,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-15b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "WASP-15b",
+  "ko_revid": 39918983,
+  "ko_chars": 430,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374242607,
+  "en_chars": 3690,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-17b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-17b",
+  "ko_revid": 41692621,
+  "ko_chars": 783,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374242841,
+  "en_chars": 4954,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-18b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-18b",
+  "ko_revid": 42065611,
+  "ko_chars": 858,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379821885,
+  "en_chars": 3148,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-19b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "WASP-19b",
+  "ko_revid": 41955133,
+  "ko_chars": 393,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374844406,
+  "en_chars": 3230,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-1b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-1b",
+  "ko_revid": 41692624,
+  "ko_chars": 1154,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378523974,
+  "en_chars": 1820,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-2b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-2b",
+  "ko_revid": 41692626,
+  "ko_chars": 664,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374238799,
+  "en_chars": 917,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-33b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-33b",
+  "ko_revid": 40373599,
+  "ko_chars": 2048,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374243508,
+  "en_chars": 4911,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-3b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-3b",
+  "ko_revid": 39918859,
+  "ko_chars": 357,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374238985,
+  "en_chars": 990,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-4b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-4b",
+  "ko_revid": 39918860,
+  "ko_chars": 595,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374393052,
+  "en_chars": 2699,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-5b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-5b",
+  "ko_revid": 39918866,
+  "ko_chars": 314,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374239182,
+  "en_chars": 882,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-6b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-6b",
+  "ko_revid": 39918985,
+  "ko_chars": 401,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374239422,
+  "en_chars": 2623,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-7b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-7 b",
+  "ko_revid": 39918986,
+  "ko_chars": 365,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374239566,
+  "en_chars": 788,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-8b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "WASP-8b",
+  "ko_revid": 39918987,
+  "ko_chars": 338,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374239709,
+  "en_chars": 1881,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "WISE 0855−0714",
+  "depth": 1,
+  "via": [
+   "분류:떠돌이 행성"
+  ],
+  "en_title": "WISE 0855−0714",
+  "ko_revid": 41098782,
+  "ko_chars": 484,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381053831,
+  "en_chars": 11004,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "Wasp-39b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 토성"
+  ],
+  "en_title": "WASP-39b",
+  "ko_revid": 39919133,
+  "ko_chars": 443,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374243597,
+  "en_chars": 3853,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "XO-1b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "XO-1b",
+  "ko_revid": 39918774,
+  "ko_chars": 2443,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1362350505,
+  "en_chars": 4539,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "XO-2b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "XO-2Nb",
+  "ko_revid": 41695454,
+  "ko_chars": 1252,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1313003417,
+  "en_chars": 1040,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "XO-3b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "XO-3b",
+  "ko_revid": 40381957,
+  "ko_chars": 787,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374244998,
+  "en_chars": 3253,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "XO-4b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "XO-4b",
+  "ko_revid": 39918990,
+  "ko_chars": 461,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374245034,
+  "en_chars": 1143,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "XO-5b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "XO-5b",
+  "ko_revid": 42575887,
+  "ko_chars": 492,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376696343,
+  "en_chars": 1884,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "게자리 55 e",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:슈퍼지구"
+  ],
+  "en_title": "55 Cancri Ae",
+  "ko_revid": 41695560,
+  "ko_chars": 2411,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381139673,
+  "en_chars": 10128,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "고래자리 타우",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Tau Ceti",
+  "ko_revid": 42094432,
+  "ko_chars": 8721,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 7,
+    "head": "고래자리 타우 행성계 | 동반천체(항성에서 가까운 순서) | 질량 | 공전궤도 반지름(AU) | 공전주기(일) | 궤도이심률 | 궤도경사각 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1381249283,
+  "en_chars": 26530,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The Tau Ceti planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "고래자리 타우 e",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Tau Ceti e",
+  "ko_revid": 39919144,
+  "ko_chars": 528,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381249283,
+  "en_chars": 26530,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The Tau Ceti planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "궁수자리 카파1",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Kappa1 Sagittarii",
+  "ko_revid": 39569673,
+  "ko_chars": 655,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374802771,
+  "en_chars": 1489,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 1214 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "GJ 1214 b",
+  "ko_revid": 41680547,
+  "ko_chars": 1005,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374248506,
+  "en_chars": 8305,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 179 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Gliese 179 b",
+  "ko_revid": 39919079,
+  "ko_chars": 521,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088302,
+  "en_chars": 1005,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 367 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 지구"
+  ],
+  "en_title": "Gliese 367 b",
+  "ko_revid": 39905611,
+  "ko_chars": 661,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088283,
+  "en_chars": 2405,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 370 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 85512 b",
+  "ko_revid": 41692669,
+  "ko_chars": 302,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374438779,
+  "en_chars": 1833,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 433 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Gliese 433 b",
+  "ko_revid": 41957404,
+  "ko_chars": 409,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374441796,
+  "en_chars": 2795,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The Gliese 433 planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 436 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "Gliese 436 b",
+  "ko_revid": 41692670,
+  "ko_chars": 1134,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374939322,
+  "en_chars": 6422,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 581 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "Gliese 581b",
+  "ko_revid": 41695804,
+  "ko_chars": 1378,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088209,
+  "en_chars": 2132,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 649 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Gliese 649 b",
+  "ko_revid": 41956842,
+  "ko_chars": 173,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1344386261,
+  "en_chars": 227,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 667 Cb",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Gliese 667 Cb",
+  "ko_revid": 41372073,
+  "ko_chars": 255,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374093283,
+  "en_chars": 629,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 674 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Gliese 674 b",
+  "ko_revid": 39918881,
+  "ko_chars": 348,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374245977,
+  "en_chars": 619,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 676 Ab",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Gliese 676 Ab",
+  "ko_revid": 41371971,
+  "ko_chars": 310,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377196852,
+  "en_chars": 3794,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The Gliese 676 A planetary system | Companion(in order from star) | Mass | Semim",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 758 C",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": null,
+  "ko_revid": 41956318,
+  "ko_chars": 241,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 777 c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "Gliese 777 Ac",
+  "ko_revid": 41692677,
+  "ko_chars": 854,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374246264,
+  "en_chars": 749,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 876 d",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "Gliese 876 d",
+  "ko_revid": 42129242,
+  "ko_chars": 3144,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374086351,
+  "en_chars": 4432,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "까마귀자리 에타",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Eta Corvi",
+  "ko_revid": 42136427,
+  "ko_chars": 1456,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 3,
+    "head": "까마귀자리 에타행성계 | 동반천체(항성에서 가까운 순서) | 질량 | 궤도평균반지름(AU) | 공전주기(년) | 궤도이심률 | 궤도경사각 | 반",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1376478726,
+  "en_chars": 6061,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The Eta Corvi planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "남쪽물고기자리 베타",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Beta Piscis Austrini",
+  "ko_revid": 39706593,
+  "ko_chars": 626,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375885101,
+  "en_chars": 2578,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "땅꾼자리 51",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "51 Ophiuchi",
+  "ko_revid": 40445335,
+  "ko_chars": 838,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370771966,
+  "en_chars": 2718,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "떠돌이 행성",
+  "depth": 1,
+  "via": [
+   "분류:떠돌이 행성"
+  ],
+  "en_title": "Rogue planet",
+  "ko_revid": 41841170,
+  "ko_chars": 790,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381008389,
+  "en_chars": 27756,
+  "en_n_tables": 3,
+  "en_tables": [
+   {
+    "rows": 41,
+    "head": "Exoplanet | Mass(MJ) | Age(Myr) | Distance(ly) | Spectral type | Status | Stella",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 14,
+    "head": "Exoplanet | Mass(MJ) | Mass (M🜨) | Distance (ly) | Status | Year of Announcement",
+    "cls": "wikitable sortable"
+   },
+   {
+    "rows": 2,
+    "head": "Exoplanet | Mass(MJ) | Age (Myr) | Distance (ly) | Spectral type | Status | Stel",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "뜨거운 목성",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "Hot Jupiter",
+  "ko_revid": 40635006,
+  "ko_chars": 4989,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370780044,
+  "en_chars": 17387,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "뜨거운 토성",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 토성"
+  ],
+  "en_title": null,
+  "ko_revid": 39802624,
+  "ko_chars": 385,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "뜨거운 해왕성",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "Hot Neptune",
+  "ko_revid": 39097470,
+  "ko_chars": 541,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370780046,
+  "en_chars": 3424,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "루이텐 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "Luyten b",
+  "ko_revid": 41893346,
+  "ko_chars": 635,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087412,
+  "en_chars": 3144,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "리오사르",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "HD 149143 b",
+  "ko_revid": 39918722,
+  "ko_chars": 647,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374092509,
+  "en_chars": 985,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "먼지 원반",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Debris disk",
+  "ko_revid": 41904321,
+  "ko_chars": 2082,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 27,
+    "head": "항성 | 분광형 | 거리(ly) | 궤도(AU) | 출처 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1372524692,
+  "en_chars": 9167,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 27,
+    "head": "Star | Spectralclass | Distance(ly) | Orbit(AU) | Notes | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "목동자리 감마",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Gamma Boötis",
+  "ko_revid": 41394784,
+  "ko_chars": 239,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374786622,
+  "en_chars": 5070,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "목동자리 타우 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "Tau Boötis b",
+  "ko_revid": 41730047,
+  "ko_chars": 2405,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221899,
+  "en_chars": 5909,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "미니해왕성",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "Mini-Neptune",
+  "ko_revid": 39766631,
+  "ko_chars": 1111,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380508324,
+  "en_chars": 17200,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "미행성",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Planetesimal",
+  "ko_revid": 41237671,
+  "ko_chars": 925,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374469069,
+  "en_chars": 5013,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "뱀자리 엡실론",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Epsilon Serpentis",
+  "ko_revid": 41796020,
+  "ko_chars": 1498,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378263054,
+  "en_chars": 2365,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "뱀자리 파이",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": null,
+  "ko_revid": 42682030,
+  "ko_chars": 497,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "베가",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Vega",
+  "ko_revid": 42279537,
+  "ko_chars": 13705,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380407671,
+  "en_chars": 35002,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "The Vega planetary system | Companion(in order from star) | Mass | Semimajor axi",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "별주위원반",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Circumstellar disc",
+  "ko_revid": 42091274,
+  "ko_chars": 4659,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372523581,
+  "en_chars": 16537,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "사자자리 DP b",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "DP Leonis b",
+  "ko_revid": 42190912,
+  "ko_chars": 276,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377084985,
+  "en_chars": 1176,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The DP Leonis planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "성운설",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Nebular hypothesis",
+  "ko_revid": 41604541,
+  "ko_chars": 16434,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372522139,
+  "en_chars": 38122,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "센타우루스자리 프록시마 b",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성"
+  ],
+  "en_title": "Proxima Centauri b",
+  "ko_revid": 42571913,
+  "ko_chars": 9302,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378868101,
+  "en_chars": 47988,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "슈퍼지구",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구"
+  ],
+  "en_title": "Super-Earth",
+  "ko_revid": 40439927,
+  "ko_chars": 4119,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379401824,
+  "en_chars": 27320,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "쌍둥이자리 람다",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Lambda Geminorum",
+  "ko_revid": 41513534,
+  "ko_chars": 712,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374742572,
+  "en_chars": 1806,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "안드로메다자리 입실론 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "Upsilon Andromedae b",
+  "ko_revid": 42571929,
+  "ko_chars": 2638,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1381004315,
+  "en_chars": 7072,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "알데바란 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "Aldebaran b",
+  "ko_revid": 42347488,
+  "ko_chars": 369,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380006441,
+  "en_chars": 20064,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "WDS 04359+1631 catalogue entry | α Tau | Apparentmagnitude | Angularseparation(″",
+    "cls": "wikitable sortable col5center"
+   },
+   {
+    "rows": 2,
+    "head": "The Aldebaran planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "에리다누스자리 51 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "51 Eridani b",
+  "ko_revid": 41950730,
+  "ko_chars": 325,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380996441,
+  "en_chars": 2753,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "에리다누스자리 엡실론",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Epsilon Eridani",
+  "ko_revid": 42361980,
+  "ko_chars": 19236,
+  "ko_n_tables": 2,
+  "ko_tables": [
+   {
+    "rows": 6,
+    "head": "에리다누스자리 엡실론 행성계 | 동반 천체(항성에서 가까운 순서) | 질량 | 평균 궤도반지름(AU) | 공전주기(일) | 이심률 | 궤도경사각",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 10,
+    "head": "에리다누스자리 엡실론 거리 예측값 목록 | 논문 저자 | 시차(밀리초각) | 거리(파섹) | 거리(광년) | 거리(페타미터) | 출처 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1380318936,
+  "en_chars": 36057,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The Epsilon Eridani planetary system | Companion(in order from star) | Mass | Se",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "원시 행성계 원반",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Protoplanetary disk",
+  "ko_revid": 40474437,
+  "ko_chars": 2035,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372528294,
+  "en_chars": 9191,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "이리자리-TR-3b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "Lupus-TR-3b",
+  "ko_revid": 39918886,
+  "ko_chars": 507,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374221030,
+  "en_chars": 1069,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "작은곰자리 11 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "11 Ursae Minoris b",
+  "ko_revid": 41693344,
+  "ko_chars": 481,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1358223888,
+  "en_chars": 676,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "작은곰자리 8 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "8 Ursae Minoris b",
+  "ko_revid": 40229705,
+  "ko_chars": 497,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374592183,
+  "en_chars": 2305,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The 8 Ursae Minoris planetary system | Companion(in order from star) | Mass | Se",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "제단자리 뮤 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Mu Arae b",
+  "ko_revid": 41949619,
+  "ko_chars": 517,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374104773,
+  "en_chars": 1463,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "제단자리 뮤 c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:슈퍼지구"
+  ],
+  "en_title": "Mu Arae c",
+  "ko_revid": 41697981,
+  "ko_chars": 1602,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374104705,
+  "en_chars": 3221,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 61 b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "61 Virginis b",
+  "ko_revid": 41951317,
+  "ko_chars": 320,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374248377,
+  "en_chars": 2878,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 61 c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "61 Virginis c",
+  "ko_revid": 41950695,
+  "ko_chars": 324,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374245320,
+  "en_chars": 775,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 61 d",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "61 Virginis d",
+  "ko_revid": 41952201,
+  "ko_chars": 398,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374406045,
+  "en_chars": 5637,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The 61 Virginis planetary system | Companion(in order from star) | Mass | Semima",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 HW c",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성"
+  ],
+  "en_title": "HW Virginis c",
+  "ko_revid": 41680744,
+  "ko_chars": 723,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637780,
+  "en_chars": 2409,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 QS b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "QS Virginis",
+  "ko_revid": 41371078,
+  "ko_chars": 286,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378868657,
+  "en_chars": 1239,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 키 b",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Chi Virginis b",
+  "ko_revid": 41698180,
+  "ko_chars": 775,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374548448,
+  "en_chars": 2391,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The Chi Virginis planetary system | Companion(in order from star) | Mass | Semim",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "천칭자리 23 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "23 Librae c",
+  "ko_revid": 41958765,
+  "ko_chars": 323,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1229464074,
+  "en_chars": 547,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "초고온 목성",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "Ultra-hot Jupiter",
+  "ko_revid": 40407144,
+  "ko_chars": 727,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370780044,
+  "en_chars": 17387,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "초고온 해왕성",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성"
+  ],
+  "en_title": "Neptunian desert",
+  "ko_revid": 40407141,
+  "ko_chars": 479,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370816100,
+  "en_chars": 9265,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "카멜레온자리 110913-773444",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Cha 110913−773444",
+  "ko_revid": 41369672,
+  "ko_chars": 235,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370774240,
+  "en_chars": 919,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "카우스 오스트랄리스",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Epsilon Sagittarii",
+  "ko_revid": 41903359,
+  "ko_chars": 2017,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380027772,
+  "en_chars": 5318,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "캅테인 b",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Kapteyn b",
+  "ko_revid": 40354985,
+  "ko_chars": 86,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637790,
+  "en_chars": 6924,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "캅테인 c",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "Kapteyn c",
+  "ko_revid": 39490074,
+  "ko_chars": 167,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637790,
+  "en_chars": 6924,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-10b",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-10b",
+  "ko_revid": 39919136,
+  "ko_chars": 130,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377988245,
+  "en_chars": 5359,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-10c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-10c",
+  "ko_revid": 39919137,
+  "ko_chars": 412,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374249529,
+  "en_chars": 7916,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-11c",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-11c",
+  "ko_revid": 39919140,
+  "ko_chars": 445,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370782276,
+  "en_chars": 5765,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-1625b",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-1625b",
+  "ko_revid": 42013220,
+  "ko_chars": 1874,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379827357,
+  "en_chars": 4514,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-1649c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-1649c",
+  "ko_revid": 41958151,
+  "ko_chars": 241,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087725,
+  "en_chars": 3418,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-16b",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-16b",
+  "ko_revid": 42570376,
+  "ko_chars": 3093,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374382744,
+  "en_chars": 7089,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-22b",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-22b",
+  "ko_revid": 40993118,
+  "ko_chars": 1129,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380140327,
+  "en_chars": 8387,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 7,
+    "head": "Transits of Kepler-22b | Date(s) oftransit | Time (UTC) | Notes | Start | Mid | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-37b",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-37b",
+  "ko_revid": 40225395,
+  "ko_chars": 1542,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374384385,
+  "en_chars": 2918,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Size comparison | Earth | Kepler-37b | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-37c",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-37c",
+  "ko_revid": 39924923,
+  "ko_chars": 459,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374390208,
+  "en_chars": 720,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-37d",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-37d",
+  "ko_revid": 39924924,
+  "ko_chars": 517,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374249665,
+  "en_chars": 1201,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-413b",
+  "depth": 1,
+  "via": [
+   "분류:쌍성주위 행성",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-413b",
+  "ko_revid": 39927325,
+  "ko_chars": 532,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374383948,
+  "en_chars": 1040,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "Size comparison | Neptune | Kepler-413b | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-438b",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-438b",
+  "ko_revid": 41238870,
+  "ko_chars": 209,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087614,
+  "en_chars": 4807,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-452b",
+  "depth": 1,
+  "via": [
+   "분류:골디락스 존의 외계 행성",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-452b",
+  "ko_revid": 39388739,
+  "ko_chars": 1433,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379636337,
+  "en_chars": 8494,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-4b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-4b",
+  "ko_revid": 39919123,
+  "ko_chars": 279,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374247165,
+  "en_chars": 2868,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-56b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 해왕성",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-56b",
+  "ko_revid": 42571494,
+  "ko_chars": 489,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374247462,
+  "en_chars": 2533,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-5b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-5b",
+  "ko_revid": 41949075,
+  "ko_chars": 249,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374220325,
+  "en_chars": 4239,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-62b",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-62b",
+  "ko_revid": 42217813,
+  "ko_chars": 360,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328136070,
+  "en_chars": 2895,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-62e",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-62e",
+  "ko_revid": 42217812,
+  "ko_chars": 165,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372154324,
+  "en_chars": 6285,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-62f",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-62f",
+  "ko_revid": 42217814,
+  "ko_chars": 167,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375549162,
+  "en_chars": 9828,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-69c",
+  "depth": 1,
+  "via": [
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-69c",
+  "ko_revid": 40374669,
+  "ko_chars": 605,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378744857,
+  "en_chars": 5936,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-6b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-6b",
+  "ko_revid": 41949391,
+  "ko_chars": 272,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374220408,
+  "en_chars": 3727,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-70b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 지구"
+  ],
+  "en_title": "Kepler-70b",
+  "ko_revid": 40407082,
+  "ko_chars": 767,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637796,
+  "en_chars": 3644,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-7b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-7b",
+  "ko_revid": 39919128,
+  "ko_chars": 3416,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374220514,
+  "en_chars": 6327,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-8b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성",
+   "분류:외계 행성에 관한 토막글",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-8b",
+  "ko_revid": 41949330,
+  "ko_chars": 236,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374220578,
+  "en_chars": 4190,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "케플러-90i",
+  "depth": 1,
+  "via": [
+   "분류:슈퍼지구",
+   "분류:케플러 우주망원경에 의해 발견된 외계 행성"
+  ],
+  "en_title": "Kepler-90i",
+  "ko_revid": 41188052,
+  "ko_chars": 452,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328127392,
+  "en_chars": 2789,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "큰곰자리 47 d",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "47 Ursae Majoris d",
+  "ko_revid": 41951953,
+  "ko_chars": 310,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328166852,
+  "en_chars": 735,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "큰곰자리 파이¹",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Pi1 Ursae Majoris",
+  "ko_revid": 42570250,
+  "ko_chars": 280,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373905997,
+  "en_chars": 1692,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "큰부리새자리 제타",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Zeta Tucanae",
+  "ko_revid": 39644194,
+  "ko_chars": 271,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370792447,
+  "en_chars": 1834,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "토끼자리 제타",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Zeta Leporis",
+  "ko_revid": 41725916,
+  "ko_chars": 1983,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1345015552,
+  "en_chars": 4657,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The Zeta Leporis planetary system | Companion(in order from star) | Mass | Semim",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "펄사 행성",
+  "depth": 1,
+  "via": [
+   "분류:펄사 행성"
+  ],
+  "en_title": "Pulsar planet",
+  "ko_revid": 41904796,
+  "ko_chars": 1802,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375239400,
+  "en_chars": 33024,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 20,
+    "head": "The parameters of known pulsarplanetary system | Companion(in order from star) |",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 25,
+    "head": "The parameters of candidate/suspect pulsar planetsplanetary system | Companion(i",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "페가수스자리 51 b",
+  "depth": 1,
+  "via": [
+   "분류:뜨거운 목성"
+  ],
+  "en_title": "51 Pegasi b",
+  "ko_revid": 39918349,
+  "ko_chars": 1840,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378907328,
+  "en_chars": 6680,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "포말하우트",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Fomalhaut",
+  "ko_revid": 42091033,
+  "ko_chars": 7287,
+  "ko_n_tables": 2,
+  "ko_tables": [
+   {
+    "rows": 8,
+    "head": "포말하우트 A 행성계 | 동반천체(항성에서 가까운 순서) | 질량 | 공전궤도 반지름(AU) | 공전주기(년) | 이심률 | 궤도경사각 | 반지",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 2,
+    "head": "포말하우트 C 행성계 | 동반천체(항성에서 가까운 순서) | 질량 | 긴반지름(AU) | 공전 주기(일) | 궤도이심률 | 궤도경사각 | 반지름",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1380151720,
+  "en_chars": 15879,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 7,
+    "head": "The Fomalhaut planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "허큘리스자리 14 c",
+  "depth": 1,
+  "via": [
+   "분류:외계 행성에 관한 토막글"
+  ],
+  "en_title": "14 Herculis c",
+  "ko_revid": 41790714,
+  "ko_chars": 310,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372908958,
+  "en_chars": 1955,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "현미경자리 AU",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "AU Microscopii",
+  "ko_revid": 41792823,
+  "ko_chars": 2750,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376711247,
+  "en_chars": 9833,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 8,
+    "head": "The AU Microscopii planetary system | Companion(in order from star) | Mass | Sem",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "화가자리 베타",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Beta Pictoris",
+  "ko_revid": 41897060,
+  "ko_chars": 10232,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 6,
+    "head": "화가자리 베타 행성계 | 동반천체(항성에서 가까운 순서) | 질량 | 긴반지름(AU) | 공전주기(일) | 이심률 | 궤도경사각 | 반지름 | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1377701163,
+  "en_chars": 23651,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The Beta Pictoris planetary system | Companion(in order from star) | Mass | Semi",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "힐스 구름",
+  "depth": 1,
+  "via": [
+   "분류:별주위원반"
+  ],
+  "en_title": "Hills cloud",
+  "ko_revid": 42625688,
+  "ko_chars": 806,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379906593,
+  "en_chars": 12021,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 6,
+    "head": "Name | Diameter(km) | Perihelion(AU) | Aphelion(AU) | Discovery | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "2M1207b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "2M1207b",
+  "ko_revid": 39918627,
+  "ko_chars": 2828,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379502695,
+  "en_chars": 6432,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "2MASS J00443799+2301513",
+  "depth": 2,
+  "via": [
+   "분류:2010년 발견한 외계 행성"
+  ],
+  "en_title": "2MASS J0441+2301",
+  "ko_revid": 41976772,
+  "ko_chars": 576,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379502745,
+  "en_chars": 2219,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The 2M J044144 planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "2MASS J2126-8140",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "2MASS J2126−8140",
+  "ko_revid": 40328775,
+  "ko_chars": 704,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088570,
+  "en_chars": 481,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "BD-17°63 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "BD−17 63 b",
+  "ko_revid": 40201965,
+  "ko_chars": 946,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374386646,
+  "en_chars": 1232,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "GJ 504 b",
+  "depth": 2,
+  "via": [
+   "분류:2013년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 504 b",
+  "ko_revid": 41980204,
+  "ko_chars": 512,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374393383,
+  "en_chars": 5013,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 100777 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 100777 b",
+  "ko_revid": 39918797,
+  "ko_chars": 594,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387743,
+  "en_chars": 618,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 101930 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 101930 b",
+  "ko_revid": 39918661,
+  "ko_chars": 623,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776853,
+  "en_chars": 364,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 102117 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성",
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 102117 b",
+  "ko_revid": 39918629,
+  "ko_chars": 455,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387820,
+  "en_chars": 676,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 102272 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 102272 b",
+  "ko_revid": 39918904,
+  "ko_chars": 437,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776877,
+  "en_chars": 1778,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 102272 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 104985 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 104985 b",
+  "ko_revid": 39918594,
+  "ko_chars": 515,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387983,
+  "en_chars": 894,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 106252 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 106252 b",
+  "ko_revid": 42498737,
+  "ko_chars": 803,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1316929272,
+  "en_chars": 598,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 10647 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 10647 b",
+  "ko_revid": 39918596,
+  "ko_chars": 529,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380319247,
+  "en_chars": 396,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 107148 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 107148 b",
+  "ko_revid": 39918734,
+  "ko_chars": 423,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1313082082,
+  "en_chars": 324,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 108147 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 108147 b",
+  "ko_revid": 41692479,
+  "ko_chars": 687,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1304060084,
+  "en_chars": 971,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 108874 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 108874 b",
+  "ko_revid": 41695331,
+  "ko_chars": 372,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373738,
+  "en_chars": 703,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 108874 c",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 108874 c",
+  "ko_revid": 39918662,
+  "ko_chars": 445,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373696,
+  "en_chars": 431,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 111232 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 111232 b",
+  "ko_revid": 41692478,
+  "ko_chars": 718,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1187186339,
+  "en_chars": 578,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 114386 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "HD 114386 b",
+  "ko_revid": 41692476,
+  "ko_chars": 732,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777058,
+  "en_chars": 464,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 114729 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 114729 b",
+  "ko_revid": 41692475,
+  "ko_chars": 919,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373411836,
+  "en_chars": 733,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 114762 b",
+  "depth": 2,
+  "via": [
+   "분류:1989년 발견한 외계 행성"
+  ],
+  "en_title": "HD 114762 b",
+  "ko_revid": 41692486,
+  "ko_chars": 498,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777085,
+  "en_chars": 1929,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 114783 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 114783 b",
+  "ko_revid": 41692487,
+  "ko_chars": 823,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1195425348,
+  "en_chars": 394,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 11506 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 11506 b",
+  "ko_revid": 41695334,
+  "ko_chars": 761,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360399330,
+  "en_chars": 497,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 11506 c",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성",
+   "분류:2015년 발견한 외계 행성"
+  ],
+  "en_title": "HD 11506 c",
+  "ko_revid": 39919031,
+  "ko_chars": 454,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777109,
+  "en_chars": 532,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 117207 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 117207 b",
+  "ko_revid": 39918667,
+  "ko_chars": 513,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374885598,
+  "en_chars": 494,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 117618 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "HD 117618 b",
+  "ko_revid": 39918634,
+  "ko_chars": 759,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360945684,
+  "en_chars": 882,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 118203 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 118203 b",
+  "ko_revid": 39918668,
+  "ko_chars": 681,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388039,
+  "en_chars": 1222,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 11964 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 11964 b",
+  "ko_revid": 39918671,
+  "ko_chars": 476,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360399339,
+  "en_chars": 883,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 11964 c",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 11964 c",
+  "ko_revid": 39918675,
+  "ko_chars": 709,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1362849212,
+  "en_chars": 980,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 121504 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "HD 121504 b",
+  "ko_revid": 41692488,
+  "ko_chars": 830,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777188,
+  "en_chars": 560,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 122430 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 122430 b",
+  "ko_revid": 39918605,
+  "ko_chars": 631,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777191,
+  "en_chars": 1348,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 122430 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 125612 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 125612 b",
+  "ko_revid": 39918801,
+  "ko_chars": 528,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329363615,
+  "en_chars": 468,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 12661 c",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 12661 c",
+  "ko_revid": 39918607,
+  "ko_chars": 493,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378728850,
+  "en_chars": 3893,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 12661 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 128311 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 128311 b",
+  "ko_revid": 41692490,
+  "ko_chars": 848,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1350112469,
+  "en_chars": 442,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 128311 c",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 128311 c",
+  "ko_revid": 41692492,
+  "ko_chars": 869,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1347343188,
+  "en_chars": 501,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 131399 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2016년 발견한 외계 행성"
+  ],
+  "en_title": "HD 131399 Ab",
+  "ko_revid": 41978473,
+  "ko_chars": 265,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373909809,
+  "en_chars": 2623,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 132406 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 132406 b",
+  "ko_revid": 41695335,
+  "ko_chars": 770,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777312,
+  "en_chars": 462,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 136118 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 136118 b",
+  "ko_revid": 42498741,
+  "ko_chars": 1104,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374435136,
+  "en_chars": 2084,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 136118 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 139357 b",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "HD 139357 b",
+  "ko_revid": 41692495,
+  "ko_chars": 640,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777352,
+  "en_chars": 1543,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 141937 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 141937 b",
+  "ko_revid": 39918478,
+  "ko_chars": 680,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374404515,
+  "en_chars": 1695,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 141937 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 142 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 142 b",
+  "ko_revid": 39918482,
+  "ko_chars": 885,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777377,
+  "en_chars": 484,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 142022 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 142022 Ab",
+  "ko_revid": 39918677,
+  "ko_chars": 754,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328717667,
+  "en_chars": 686,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 142415 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 142415 b",
+  "ko_revid": 39918609,
+  "ko_chars": 832,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1352826944,
+  "en_chars": 713,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 143361 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 143361 b",
+  "ko_revid": 41644295,
+  "ko_chars": 690,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328713321,
+  "en_chars": 801,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 145377 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 145377 b",
+  "ko_revid": 41140163,
+  "ko_chars": 821,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374405319,
+  "en_chars": 1723,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 145377 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 147513 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 147513 b",
+  "ko_revid": 39918536,
+  "ko_chars": 364,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388896,
+  "en_chars": 502,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 153950 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 153950 b",
+  "ko_revid": 39918913,
+  "ko_chars": 970,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373842,
+  "en_chars": 3009,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 154345 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 154345 b",
+  "ko_revid": 41695337,
+  "ko_chars": 844,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1310318509,
+  "en_chars": 1428,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 154857 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "HD 154857 b",
+  "ko_revid": 39918635,
+  "ko_chars": 441,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1296448364,
+  "en_chars": 433,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 155358 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 155358 b",
+  "ko_revid": 39918803,
+  "ko_chars": 429,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373884,
+  "en_chars": 727,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 155358 c",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 155358 c",
+  "ko_revid": 39918805,
+  "ko_chars": 338,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1357956641,
+  "en_chars": 636,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 156846 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 156846 b",
+  "ko_revid": 39918808,
+  "ko_chars": 816,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1191310502,
+  "en_chars": 1007,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 159868 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 159868 b",
+  "ko_revid": 39918810,
+  "ko_chars": 291,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1154747202,
+  "en_chars": 178,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 16175 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성",
+   "분류:2009년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 16175 b",
+  "ko_revid": 41695339,
+  "ko_chars": 768,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777637,
+  "en_chars": 1105,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 164922 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 164922 b",
+  "ko_revid": 39918738,
+  "ko_chars": 588,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372596424,
+  "en_chars": 2673,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 167042 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 167042 b",
+  "ko_revid": 39918815,
+  "ko_chars": 719,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1347746290,
+  "en_chars": 882,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 168443 b",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성"
+  ],
+  "en_title": "HD 168443 b",
+  "ko_revid": 39918381,
+  "ko_chars": 731,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379579759,
+  "en_chars": 595,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 168746 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 168746 b",
+  "ko_revid": 41692499,
+  "ko_chars": 702,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374405549,
+  "en_chars": 1800,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 168746 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 169830 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "HD 169830 b",
+  "ko_revid": 41692500,
+  "ko_chars": 800,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1155119787,
+  "en_chars": 623,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 169830 c",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 169830 c",
+  "ko_revid": 41692501,
+  "ko_chars": 906,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1187243297,
+  "en_chars": 296,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 170469 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 170469 b",
+  "ko_revid": 39918818,
+  "ko_chars": 634,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374784302,
+  "en_chars": 2203,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 170469 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 17092 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 17092 b",
+  "ko_revid": 41977662,
+  "ko_chars": 562,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329482177,
+  "en_chars": 820,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 171028 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 171028 b",
+  "ko_revid": 39918820,
+  "ko_chars": 482,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1347746494,
+  "en_chars": 676,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 17156 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 17156 b",
+  "ko_revid": 41843924,
+  "ko_chars": 999,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387189,
+  "en_chars": 2628,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 17156 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 17156 c",
+  "ko_revid": 41695340,
+  "ko_chars": 588,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370777783,
+  "en_chars": 2956,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 17156 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 173416 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성",
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "HD 173416 b",
+  "ko_revid": 39918917,
+  "ko_chars": 625,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388200,
+  "en_chars": 1128,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 175541 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 175541 b",
+  "ko_revid": 39918825,
+  "ko_chars": 588,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388272,
+  "en_chars": 948,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 177830 b",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성"
+  ],
+  "en_title": "HD 177830 b",
+  "ko_revid": 41692505,
+  "ko_chars": 1384,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374769326,
+  "en_chars": 2621,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 177830 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 177830 c",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 177830",
+  "ko_revid": 39918828,
+  "ko_chars": 487,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374769326,
+  "en_chars": 2621,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 177830 planetary system | Companion(in order from star) | Mass | Semimajo",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 178911 Bb",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 178911 Bb",
+  "ko_revid": 39918486,
+  "ko_chars": 505,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1181018697,
+  "en_chars": 379,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 181433 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 181433 c",
+  "ko_revid": 42498750,
+  "ko_chars": 422,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328713337,
+  "en_chars": 669,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 181433 d",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 181433 d",
+  "ko_revid": 42498752,
+  "ko_chars": 344,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328713353,
+  "en_chars": 589,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 183263 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 183263 b",
+  "ko_revid": 39918681,
+  "ko_chars": 1480,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1271899466,
+  "en_chars": 1343,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 183263 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 183263 c",
+  "ko_revid": 39918925,
+  "ko_chars": 535,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1353282877,
+  "en_chars": 750,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 187085 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 187085 b",
+  "ko_revid": 39918740,
+  "ko_chars": 435,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1329372849,
+  "en_chars": 605,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 187123 c",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성",
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 187123 c",
+  "ko_revid": 41692506,
+  "ko_chars": 865,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1234238582,
+  "en_chars": 858,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 188015 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성",
+   "분류:2006년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 188015 b",
+  "ko_revid": 39918682,
+  "ko_chars": 1373,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373931,
+  "en_chars": 1221,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 188753 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 40369694,
+  "ko_chars": 528,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "HD 190647 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 190647 b",
+  "ko_revid": 39918829,
+  "ko_chars": 586,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1192754114,
+  "en_chars": 473,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 192263 b",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성"
+  ],
+  "en_title": "HD 192263 b",
+  "ko_revid": 42498760,
+  "ko_chars": 2017,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388432,
+  "en_chars": 2272,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 192699 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 192699 b",
+  "ko_revid": 41695344,
+  "ko_chars": 962,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388496,
+  "en_chars": 902,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 196050 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 196050 b",
+  "ko_revid": 42498762,
+  "ko_chars": 1084,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328717688,
+  "en_chars": 1309,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 196885 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성",
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 196885 Ab",
+  "ko_revid": 41695345,
+  "ko_chars": 506,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328721653,
+  "en_chars": 390,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 20367 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 20367 b",
+  "ko_revid": 42499059,
+  "ko_chars": 886,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 13,
+    "head": "거리 | 일사량 (W/m2) | 지구대비 (%) | ",
+    "cls": ""
+   }
+  ],
+  "en_revid": 1377637644,
+  "en_chars": 1641,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 20367 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 2039 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 2039 b",
+  "ko_revid": 39918542,
+  "ko_chars": 645,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328377032,
+  "en_chars": 210,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 205739 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 205739 b",
+  "ko_revid": 39918930,
+  "ko_chars": 540,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388561,
+  "en_chars": 3396,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 20782 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 20782 b",
+  "ko_revid": 39918741,
+  "ko_chars": 636,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375719897,
+  "en_chars": 471,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 208487 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "HD 208487 b",
+  "ko_revid": 42573346,
+  "ko_chars": 549,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388731,
+  "en_chars": 887,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 20868 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 20868 b",
+  "ko_revid": 39918935,
+  "ko_chars": 903,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387244,
+  "en_chars": 994,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 210277 b",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성"
+  ],
+  "en_title": "HD 210277 b",
+  "ko_revid": 41695348,
+  "ko_chars": 836,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778184,
+  "en_chars": 1315,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 210702 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 210702 b",
+  "ko_revid": 41984279,
+  "ko_chars": 719,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1187245508,
+  "en_chars": 725,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 213240 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 213240 b",
+  "ko_revid": 41692523,
+  "ko_chars": 1016,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1327881411,
+  "en_chars": 812,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 216770 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 216770 b",
+  "ko_revid": 41692524,
+  "ko_chars": 937,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1365220891,
+  "en_chars": 558,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 217107 c",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성",
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 217107 c",
+  "ko_revid": 41843968,
+  "ko_chars": 1086,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1336856170,
+  "en_chars": 2060,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 221287 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 221287 b",
+  "ko_revid": 39918837,
+  "ko_chars": 684,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374374054,
+  "en_chars": 1503,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 10,
+    "head": "Planet Distance | Insolation(W/m2) | % of Earth's | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 222582 b",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 222582 b",
+  "ko_revid": 42498777,
+  "ko_chars": 1321,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374374109,
+  "en_chars": 1166,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 224693 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 224693 b",
+  "ko_revid": 41632728,
+  "ko_chars": 592,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388870,
+  "en_chars": 565,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 23079 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 23079 b",
+  "ko_revid": 41695351,
+  "ko_chars": 1224,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374283238,
+  "en_chars": 1375,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 23127 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 23127 b",
+  "ko_revid": 39918840,
+  "ko_chars": 478,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374283314,
+  "en_chars": 388,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 231701 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 231701 b",
+  "ko_revid": 39918841,
+  "ko_chars": 431,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374388922,
+  "en_chars": 660,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 23596 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 23596 b",
+  "ko_revid": 41692536,
+  "ko_chars": 968,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1191197619,
+  "en_chars": 944,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 24040 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 24040 b",
+  "ko_revid": 39918745,
+  "ko_chars": 804,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1339485906,
+  "en_chars": 835,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 27894 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 27894 b",
+  "ko_revid": 39918691,
+  "ko_chars": 580,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374437859,
+  "en_chars": 1920,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The HD 27894 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 28185 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 28185 b",
+  "ko_revid": 42573353,
+  "ko_chars": 1394,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380319372,
+  "en_chars": 3013,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 30177 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 30177 b",
+  "ko_revid": 41692543,
+  "ko_chars": 1160,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328190024,
+  "en_chars": 1001,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 33283 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 33283 b",
+  "ko_revid": 39918747,
+  "ko_chars": 583,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1357616658,
+  "en_chars": 549,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 33564 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 33564 b",
+  "ko_revid": 39918694,
+  "ko_chars": 720,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373191,
+  "en_chars": 669,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 37124 b",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 37124 b",
+  "ko_revid": 41692549,
+  "ko_chars": 946,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373275,
+  "en_chars": 835,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 37124 c",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 37124 c",
+  "ko_revid": 41692551,
+  "ko_chars": 1067,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373305,
+  "en_chars": 800,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 37124 d",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 37124 d",
+  "ko_revid": 39918695,
+  "ko_chars": 934,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373321,
+  "en_chars": 931,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 37605 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "HD 37605 b",
+  "ko_revid": 41695355,
+  "ko_chars": 909,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1245125129,
+  "en_chars": 796,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 38529 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "HD 38529 b",
+  "ko_revid": 41692553,
+  "ko_chars": 624,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1147320551,
+  "en_chars": 214,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 40979 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 40979 b",
+  "ko_revid": 41775337,
+  "ko_chars": 1253,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778713,
+  "en_chars": 1090,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 41004 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 41004 Ab",
+  "ko_revid": 39918615,
+  "ko_chars": 441,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374758944,
+  "en_chars": 2599,
+  "en_n_tables": 2,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 41004 A planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   },
+   {
+    "rows": 2,
+    "head": "The HD 41004 B planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 4113 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 4113 A b",
+  "ko_revid": 39918842,
+  "ko_chars": 691,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778731,
+  "en_chars": 553,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 4203 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 4203 b",
+  "ko_revid": 41692555,
+  "ko_chars": 896,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1296448330,
+  "en_chars": 416,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 4208 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 4208 b",
+  "ko_revid": 41692557,
+  "ko_chars": 942,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374386974,
+  "en_chars": 656,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 43691 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 43691 b",
+  "ko_revid": 41695360,
+  "ko_chars": 964,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778802,
+  "en_chars": 348,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 45350 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성",
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 45350 b",
+  "ko_revid": 39918642,
+  "ko_chars": 980,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387373,
+  "en_chars": 1993,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 45364 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 45364 b",
+  "ko_revid": 41692559,
+  "ko_chars": 420,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374406168,
+  "en_chars": 2138,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 45364 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 45364 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 45364 c",
+  "ko_revid": 41692561,
+  "ko_chars": 501,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374406168,
+  "en_chars": 2138,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 45364 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 47186 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 47186 c",
+  "ko_revid": 41644311,
+  "ko_chars": 335,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379948485,
+  "en_chars": 1042,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 47536 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성",
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 47536 b",
+  "ko_revid": 41692563,
+  "ko_chars": 706,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1295811956,
+  "en_chars": 212,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 47536 c",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 47536 c",
+  "ko_revid": 39918845,
+  "ko_chars": 457,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374547431,
+  "en_chars": 1539,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 47536 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 48265 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 48265 b",
+  "ko_revid": 41644294,
+  "ko_chars": 675,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387457,
+  "en_chars": 676,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 49674 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 49674 b",
+  "ko_revid": 41692564,
+  "ko_chars": 1071,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374676653,
+  "en_chars": 926,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 50499 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 50499 b",
+  "ko_revid": 39918699,
+  "ko_chars": 580,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370778921,
+  "en_chars": 2362,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 50499 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 50554 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 50554 b",
+  "ko_revid": 42498780,
+  "ko_chars": 783,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1361162915,
+  "en_chars": 420,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 52265 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "HD 52265 b",
+  "ko_revid": 41692568,
+  "ko_chars": 1014,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387587,
+  "en_chars": 1129,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 5319 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 5319 b",
+  "ko_revid": 39918847,
+  "ko_chars": 469,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360399316,
+  "en_chars": 376,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 59686 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 59686 Ab",
+  "ko_revid": 41695362,
+  "ko_chars": 586,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328525712,
+  "en_chars": 740,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 60532 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 60532 b",
+  "ko_revid": 39918954,
+  "ko_chars": 745,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779008,
+  "en_chars": 1165,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 60532 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 60532 c",
+  "ko_revid": 39918957,
+  "ko_chars": 900,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779013,
+  "en_chars": 1209,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 6434 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 6434 b",
+  "ko_revid": 41692570,
+  "ko_chars": 916,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387047,
+  "en_chars": 1407,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 65216 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 65216 b",
+  "ko_revid": 42498792,
+  "ko_chars": 1089,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1235168707,
+  "en_chars": 854,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 66428 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 66428 b",
+  "ko_revid": 41692572,
+  "ko_chars": 519,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1191197360,
+  "en_chars": 788,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 68988 c",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 68988 c",
+  "ko_revid": 39918750,
+  "ko_chars": 879,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328964262,
+  "en_chars": 591,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 70573 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 70573 b",
+  "ko_revid": 39918848,
+  "ko_chars": 736,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637663,
+  "en_chars": 1747,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The HD 70573 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 70642 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "HD 70642 b",
+  "ko_revid": 41692577,
+  "ko_chars": 719,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1312960444,
+  "en_chars": 550,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 72659 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 72659 b",
+  "ko_revid": 41692578,
+  "ko_chars": 577,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372371758,
+  "en_chars": 438,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 73267 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HD 73267 b",
+  "ko_revid": 40201967,
+  "ko_chars": 744,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1353828846,
+  "en_chars": 567,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 73526 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 73526 b",
+  "ko_revid": 41692580,
+  "ko_chars": 569,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779159,
+  "en_chars": 2868,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 73526 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 73526 c",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HD 73526 c",
+  "ko_revid": 39918757,
+  "ko_chars": 459,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779159,
+  "en_chars": 2868,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 73526 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 74156 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 74156 b",
+  "ko_revid": 41692581,
+  "ko_chars": 700,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372371859,
+  "en_chars": 279,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 74156 c",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 74156 c",
+  "ko_revid": 41692582,
+  "ko_chars": 732,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372371964,
+  "en_chars": 354,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 74156 d",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 39918850,
+  "ko_chars": 794,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "HD 75898 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "HD 75898 b",
+  "ko_revid": 39918851,
+  "ko_chars": 476,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374435600,
+  "en_chars": 1980,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 75898 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 80606 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 80606 b",
+  "ko_revid": 42573359,
+  "ko_chars": 1407,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378601225,
+  "en_chars": 3737,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 81040 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 81040 b",
+  "ko_revid": 41695365,
+  "ko_chars": 1092,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779268,
+  "en_chars": 583,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 82943 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 82943 b",
+  "ko_revid": 39918439,
+  "ko_chars": 554,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373550,
+  "en_chars": 494,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 82943 c",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "HD 82943 c",
+  "ko_revid": 39918523,
+  "ko_chars": 811,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373520,
+  "en_chars": 496,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 8574 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "HD 8574 b",
+  "ko_revid": 41692588,
+  "ko_chars": 744,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374387120,
+  "en_chars": 3747,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 89307 b",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "HD 89307 b",
+  "ko_revid": 41692590,
+  "ko_chars": 815,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328366772,
+  "en_chars": 878,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 89744 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "HD 89744 b",
+  "ko_revid": 41695367,
+  "ko_chars": 505,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379405660,
+  "en_chars": 519,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 92788 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 92788 b",
+  "ko_revid": 41692592,
+  "ko_chars": 689,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374405925,
+  "en_chars": 1787,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 3,
+    "head": "The HD 92788 planetary system | Companion(in order from star) | Mass | Semimajor",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 93083 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "HD 93083 b",
+  "ko_revid": 42498805,
+  "ko_chars": 473,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373583,
+  "en_chars": 1039,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 9446 b",
+  "depth": 2,
+  "via": [
+   "분류:2010년 발견한 외계 행성"
+  ],
+  "en_title": "HD 9446 b",
+  "ko_revid": 41977304,
+  "ko_chars": 97,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374405577,
+  "en_chars": 1352,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The HD 9446 planetary system | Companion(in order from star) | Mass | Semimajor ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 96167 b",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "HD 96167 b",
+  "ko_revid": 41692593,
+  "ko_chars": 276,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328745123,
+  "en_chars": 811,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HD 99109 b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성",
+   "분류:2006년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "HD 99109 b",
+  "ko_revid": 39918708,
+  "ko_chars": 436,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374373635,
+  "en_chars": 1003,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 11915 b",
+  "depth": 2,
+  "via": [
+   "분류:2015년 발견한 외계 행성"
+  ],
+  "en_title": "HIP 11915 b",
+  "ko_revid": 41778031,
+  "ko_chars": 352,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779600,
+  "en_chars": 3960,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 14810 c",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "HIP 14810 c",
+  "ko_revid": 39918762,
+  "ko_chars": 720,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1187420695,
+  "en_chars": 695,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HIP 5158 c",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "HIP 5158 c",
+  "ko_revid": 41261520,
+  "ko_chars": 292,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370779653,
+  "en_chars": 662,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HR 2562 b",
+  "depth": 2,
+  "via": [
+   "분류:2016년 발견한 외계 행성"
+  ],
+  "en_title": "HR 2562 B",
+  "ko_revid": 39919167,
+  "ko_chars": 595,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1351409529,
+  "en_chars": 2824,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HR 5183 b",
+  "depth": 2,
+  "via": [
+   "분류:2019년 발견한 외계 행성"
+  ],
+  "en_title": "HR 5183 b",
+  "ko_revid": 39919176,
+  "ko_chars": 510,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328721736,
+  "en_chars": 936,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HR 8799 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HR 8799 b",
+  "ko_revid": 42573699,
+  "ko_chars": 608,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375391370,
+  "en_chars": 2236,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HR 8799 c",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HR 8799 c",
+  "ko_revid": 42573702,
+  "ko_chars": 433,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375391355,
+  "en_chars": 2169,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "HR 8799 d",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "HR 8799 d",
+  "ko_revid": 42573703,
+  "ko_chars": 440,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375409221,
+  "en_chars": 1230,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "K2-18b",
+  "depth": 2,
+  "via": [
+   "분류:2015년 발견한 외계 행성",
+   "분류:골디락스 존의 슈퍼 지구"
+  ],
+  "en_title": "K2-18b",
+  "ko_revid": 39555393,
+  "ko_chars": 638,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378952669,
+  "en_chars": 34991,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "K2-33 b",
+  "depth": 2,
+  "via": [
+   "분류:2016년 발견한 외계 행성"
+  ],
+  "en_title": "K2-33b",
+  "ko_revid": 40404187,
+  "ko_chars": 2394,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374247095,
+  "en_chars": 5887,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "M51-ULS-1b",
+  "depth": 2,
+  "via": [
+   "분류:2020년 발견한 외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 39919062,
+  "ko_chars": 271,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "MOA-2007-BLG-400Lb",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "MOA-2007-BLG-400Lb",
+  "ko_revid": 41645338,
+  "ko_chars": 513,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1190788657,
+  "en_chars": 747,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "NGC 2423-3 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "NGC 2423-3 b",
+  "ko_revid": 39918853,
+  "ko_chars": 755,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637819,
+  "en_chars": 1708,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The NGC 2423-3 planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2003-BLG-235Lb",
+  "depth": 2,
+  "via": [
+   "분류:2004년 발견한 외계 행성"
+  ],
+  "en_title": "OGLE-2003-BLG-235Lb",
+  "ko_revid": 39918648,
+  "ko_chars": 469,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1368148516,
+  "en_chars": 547,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2005-BLG-071Lb",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "OGLE-2005-BLG-071Lb",
+  "ko_revid": 41977968,
+  "ko_chars": 321,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374087330,
+  "en_chars": 863,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2005-BLG-169Lb",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "OGLE-2005-BLG-169Lb",
+  "ko_revid": 40201958,
+  "ko_chars": 723,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1369410737,
+  "en_chars": 1162,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2006-BLG-109Lb",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "OGLE-2006-BLG-109Lb",
+  "ko_revid": 41692599,
+  "ko_chars": 1014,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1333309825,
+  "en_chars": 1120,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "OGLE-2006-BLG-109Lc",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "OGLE-2006-BLG-109Lc",
+  "ko_revid": 41692601,
+  "ko_chars": 948,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1333309876,
+  "en_chars": 935,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TOI-5205 b",
+  "depth": 2,
+  "via": [
+   "분류:2023년 발견한 외계 행성"
+  ],
+  "en_title": "List of exoplanets discovered in 2022",
+  "ko_revid": 39851754,
+  "ko_chars": 736,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370792631,
+  "en_chars": 38426,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 313,
+    "head": "Name | Mass (MJ) | Radius (RJ) | Period(days) | Semi-major axis(AU) | Temp.(K) |",
+    "cls": "wikitable sortable sticky-header"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "TOI-849 B",
+  "depth": 2,
+  "via": [
+   "분류:2020년 발견한 외계 행성"
+  ],
+  "en_title": "TOI-849 b",
+  "ko_revid": 40407078,
+  "ko_chars": 815,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374392782,
+  "en_chars": 1412,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TRAPPIST-1b",
+  "depth": 2,
+  "via": [
+   "분류:2016년 발견한 외계 행성"
+  ],
+  "en_title": "TRAPPIST-1b",
+  "ko_revid": 41247950,
+  "ko_chars": 922,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374086652,
+  "en_chars": 7913,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "TRAPPIST-1e",
+  "depth": 2,
+  "via": [
+   "분류:2017년 발견한 외계 행성"
+  ],
+  "en_title": "TRAPPIST-1e",
+  "ko_revid": 41980099,
+  "ko_chars": 750,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378833938,
+  "en_chars": 11414,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "VB 10b",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 42012871,
+  "ko_chars": 807,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "WASP-9b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 39918988,
+  "ko_chars": 417,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "게자리 55 b",
+  "depth": 2,
+  "via": [
+   "분류:1996년 발견한 외계 행성"
+  ],
+  "en_title": "55 Cancri Ab",
+  "ko_revid": 41692635,
+  "ko_chars": 1526,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379905516,
+  "en_chars": 3481,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "게자리 55 c",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "55 Cancri Ac",
+  "ko_revid": 41692636,
+  "ko_chars": 1618,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379905525,
+  "en_chars": 3892,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "게자리 55 d",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "55 Cancri Ad",
+  "ko_revid": 41692637,
+  "ko_chars": 1780,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379905532,
+  "en_chars": 5131,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "게자리 55 f",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "55 Cancri Af",
+  "ko_revid": 41695561,
+  "ko_chars": 1657,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379905705,
+  "en_chars": 3421,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "고래자리 79 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "79 Ceti b",
+  "ko_revid": 42094805,
+  "ko_chars": 663,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360399111,
+  "en_chars": 547,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "고래자리 81 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "81 Ceti b",
+  "ko_revid": 39918992,
+  "ko_chars": 590,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1360399119,
+  "en_chars": 943,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "고래자리 94 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "94 Ceti b",
+  "ko_revid": 41692646,
+  "ko_chars": 583,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375936638,
+  "en_chars": 370,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "그물자리 엡실론 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "Epsilon Reticuli b",
+  "ko_revid": 41692663,
+  "ko_chars": 1341,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 13,
+    "head": "거리 | 일사율 (W/m2) | 지구=100% | ",
+    "cls": ""
+   }
+  ],
+  "en_revid": 1353012732,
+  "en_chars": 733,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 1132 b",
+  "depth": 2,
+  "via": [
+   "분류:2015년 발견한 외계 행성"
+  ],
+  "en_title": "GJ 1132 b",
+  "ko_revid": 39919160,
+  "ko_chars": 857,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375986378,
+  "en_chars": 2906,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 176 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 176 b",
+  "ko_revid": 39918874,
+  "ko_chars": 612,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088314,
+  "en_chars": 1156,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 3021 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "GJ 3021 b",
+  "ko_revid": 41695794,
+  "ko_chars": 704,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374393312,
+  "en_chars": 1331,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 317 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 317 b",
+  "ko_revid": 41976047,
+  "ko_chars": 205,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088295,
+  "en_chars": 415,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 581 c",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성",
+   "분류:골디락스 존의 슈퍼 지구"
+  ],
+  "en_title": "Gliese 581c",
+  "ko_revid": 42643352,
+  "ko_chars": 1953,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380419306,
+  "en_chars": 15322,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 581 d",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성",
+   "분류:골디락스 존의 슈퍼 지구"
+  ],
+  "en_title": "Gliese 581d",
+  "ko_revid": 41695808,
+  "ko_chars": 1071,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373719390,
+  "en_chars": 9610,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 581 e",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 581e",
+  "ko_revid": 41680496,
+  "ko_chars": 751,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776397,
+  "en_chars": 1993,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 581 f",
+  "depth": 2,
+  "via": [
+   "분류:2010년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 581 f",
+  "ko_revid": 39919117,
+  "ko_chars": 322,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379216798,
+  "en_chars": 17109,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "The Gliese 581 planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 581 g",
+  "depth": 2,
+  "via": [
+   "분류:2010년 발견한 외계 행성",
+   "분류:골디락스 존의 슈퍼 지구"
+  ],
+  "en_title": "Gliese 581g",
+  "ko_revid": 41680566,
+  "ko_chars": 1372,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776402,
+  "en_chars": 19835,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 6,
+    "head": "Temperaturecomparisons | Mercury | Venus | Earth | Gliese 581g | Mars | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 758 B",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 758 B",
+  "ko_revid": 39919087,
+  "ko_chars": 887,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378642177,
+  "en_chars": 2583,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 777 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 777 Ab",
+  "ko_revid": 41692676,
+  "ko_chars": 1625,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1336856070,
+  "en_chars": 1557,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 832 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 832 b",
+  "ko_revid": 41588302,
+  "ko_chars": 490,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088122,
+  "en_chars": 1349,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 849 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 849 b",
+  "ko_revid": 39918777,
+  "ko_chars": 691,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374088108,
+  "en_chars": 951,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 86 b",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성"
+  ],
+  "en_title": "Gliese 86 b",
+  "ko_revid": 41695811,
+  "ko_chars": 820,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380319178,
+  "en_chars": 1150,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 876 b",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "Gliese 876 b",
+  "ko_revid": 40440254,
+  "ko_chars": 1933,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379402786,
+  "en_chars": 4517,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "글리제 876 c",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "Gliese 876 c",
+  "ko_revid": 41692684,
+  "ko_chars": 2075,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375231741,
+  "en_chars": 3820,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "독수리자리 크시 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "Xi Aquilae b",
+  "ko_revid": 41775782,
+  "ko_chars": 1259,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374105962,
+  "en_chars": 1107,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "돌고래자리 18 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "18 Delphini b",
+  "ko_revid": 39918999,
+  "ko_chars": 445,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374386589,
+  "en_chars": 1443,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "두루미자리 타우1 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "Tau1 Gruis b",
+  "ko_revid": 42229611,
+  "ko_chars": 808,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1352871715,
+  "en_chars": 979,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "로스 128 b",
+  "depth": 2,
+  "via": [
+   "분류:2017년 발견한 외계 행성"
+  ],
+  "en_title": "Ross 128 b",
+  "ko_revid": 41245997,
+  "ko_chars": 608,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378593358,
+  "en_chars": 7935,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "물고기자리 109 b",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "109 Piscium b",
+  "ko_revid": 41696532,
+  "ko_chars": 890,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 10,
+    "head": "행성의 거리 | 일사량(W/m2) | 지구대비 % | ",
+    "cls": "wikitable"
+   }
+  ],
+  "en_revid": 1379402264,
+  "en_chars": 1217,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "물고기자리 54 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "54 Piscium Ab",
+  "ko_revid": 42263972,
+  "ko_chars": 1059,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1336855773,
+  "en_chars": 2178,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "물뱀자리 에타² b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "Eta2 Hydri b",
+  "ko_revid": 39918723,
+  "ko_chars": 783,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1352870963,
+  "en_chars": 946,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "물병자리 91 b",
+  "depth": 2,
+  "via": [
+   "분류:2003년 발견한 외계 행성"
+  ],
+  "en_title": "91 Aquarii b",
+  "ko_revid": 41696538,
+  "ko_chars": 551,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1361427383,
+  "en_chars": 705,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "백조자리 16 Bb",
+  "depth": 2,
+  "via": [
+   "분류:1996년 발견한 외계 행성"
+  ],
+  "en_title": "16 Cygni Bb",
+  "ko_revid": 42277169,
+  "ko_chars": 1735,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379397948,
+  "en_chars": 2974,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "북쪽왕관자리 로 b",
+  "depth": 2,
+  "via": [
+   "분류:1997년 발견한 외계 행성"
+  ],
+  "en_title": "Rho Coronae Borealis b",
+  "ko_revid": 42286949,
+  "ko_chars": 1277,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370788405,
+  "en_chars": 4429,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The Rho Coronae Borealis planetary system | Companion(in order from star) | Mass",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "북쪽왕관자리 카파 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "Kappa Coronae Borealis b",
+  "ko_revid": 41244979,
+  "ko_chars": 604,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328718168,
+  "en_chars": 708,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "사자자리 83 Bb",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "83 Leonis Bb",
+  "ko_revid": 42297984,
+  "ko_chars": 786,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1336855822,
+  "en_chars": 782,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "살쾡이자리 41 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "41 Lyncis b",
+  "ko_revid": 41997524,
+  "ko_chars": 539,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379750436,
+  "en_chars": 1328,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "살쾡이자리 6 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "6 Lyncis b",
+  "ko_revid": 40220925,
+  "ko_chars": 613,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374393572,
+  "en_chars": 878,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "세페우스자리 감마 Ab",
+  "depth": 2,
+  "via": [
+   "분류:1988년 발견한 외계 행성"
+  ],
+  "en_title": "Gamma Cephei Ab",
+  "ko_revid": 42318362,
+  "ko_chars": 1506,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380619717,
+  "en_chars": 3554,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "센타우루스자리 알파 Bb",
+  "depth": 2,
+  "via": [
+   "분류:2012년 발견한 외계 행성"
+  ],
+  "en_title": "Alpha Centauri Bb",
+  "ko_revid": 42664649,
+  "ko_chars": 3976,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1361532019,
+  "en_chars": 5317,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "시계자리 요타 b",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성"
+  ],
+  "en_title": "Iota Horologii b",
+  "ko_revid": 42328051,
+  "ko_chars": 1971,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1343536504,
+  "en_chars": 2588,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "아인 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "Epsilon Tauri b",
+  "ko_revid": 41186915,
+  "ko_chars": 390,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374386782,
+  "en_chars": 3328,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "안드로메다자리 14 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "14 Andromedae b",
+  "ko_revid": 39919003,
+  "ko_chars": 624,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374386359,
+  "en_chars": 2079,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "안드로메다자리 입실론 c",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성"
+  ],
+  "en_title": "Upsilon Andromedae c",
+  "ko_revid": 41693230,
+  "ko_chars": 1510,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374389124,
+  "en_chars": 4744,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "안드로메다자리 입실론 d",
+  "depth": 2,
+  "via": [
+   "분류:1999년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "Upsilon Andromedae d",
+  "ko_revid": 41693232,
+  "ko_chars": 1880,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380602453,
+  "en_chars": 5431,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "안드로메다자리 입실론 e",
+  "depth": 2,
+  "via": [
+   "분류:2010년 발견한 외계 행성"
+  ],
+  "en_title": "Upsilon Andromedae e",
+  "ko_revid": 42573119,
+  "ko_chars": 552,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370790660,
+  "en_chars": 11797,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The Upsilon Andromedae A planetary system | Companion(in order from star) | Mass",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "안드로메다자리 카파 b",
+  "depth": 2,
+  "via": [
+   "분류:2012년 발견한 외계 행성"
+  ],
+  "en_title": "Kappa Andromedae b",
+  "ko_revid": 41974329,
+  "ko_chars": 1513,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374589106,
+  "en_chars": 6753,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "알기에바 b",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "Gamma1 Leonis b",
+  "ko_revid": 39919091,
+  "ko_chars": 807,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370776145,
+  "en_chars": 1843,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "양자리 30 Bb",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "30 Arietis Bb",
+  "ko_revid": 41693249,
+  "ko_chars": 925,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1333013243,
+  "en_chars": 2603,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "에리다누스자리 엡실론 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성"
+  ],
+  "en_title": "Epsilon Eridani b",
+  "ko_revid": 39918464,
+  "ko_chars": 827,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380318938,
+  "en_chars": 6979,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "에리다누스자리 엡실론 c",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": null,
+  "ko_revid": 39919246,
+  "ko_chars": 451,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": null,
+  "en_chars": null,
+  "en_n_tables": null,
+  "en_tables": null,
+  "errors": []
+ },
+ {
+  "ko_title": "용자리 42 b",
+  "depth": 2,
+  "via": [
+   "분류:2009년 발견한 외계 행성"
+  ],
+  "en_title": "42 Draconis b",
+  "ko_revid": 41693283,
+  "ko_chars": 391,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379758167,
+  "en_chars": 3363,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "용자리 요타 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "Iota Draconis b",
+  "ko_revid": 42372080,
+  "ko_chars": 646,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374389047,
+  "en_chars": 2677,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "이리자리 GQ b",
+  "depth": 2,
+  "via": [
+   "분류:2005년 발견한 외계 행성"
+  ],
+  "en_title": "GQ Lupi b",
+  "ko_revid": 39918726,
+  "ko_chars": 1169,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373373515,
+  "en_chars": 13842,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "인디언자리 로 b",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "Rho Indi b",
+  "ko_revid": 42389144,
+  "ko_chars": 508,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1328719051,
+  "en_chars": 552,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "인디언자리 엡실론 Ab",
+  "depth": 2,
+  "via": [
+   "분류:2024년 발견한 외계 행성"
+  ],
+  "en_title": "Epsilon Indi Ab",
+  "ko_revid": 39919269,
+  "ko_chars": 552,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377513413,
+  "en_chars": 6881,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "제단자리 뮤 d",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "Mu Arae d",
+  "ko_revid": 41974290,
+  "ko_chars": 242,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374104740,
+  "en_chars": 1094,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "제단자리 뮤 e",
+  "depth": 2,
+  "via": [
+   "분류:2002년 발견한 외계 행성"
+  ],
+  "en_title": "Mu Arae e",
+  "ko_revid": 41972675,
+  "ko_chars": 158,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374104800,
+  "en_chars": 801,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "처녀자리 70 b",
+  "depth": 2,
+  "via": [
+   "분류:1996년 발견한 외계 행성",
+   "분류:시선 속도로 발견된 외계 행성"
+  ],
+  "en_title": "70 Virginis b",
+  "ko_revid": 41693388,
+  "ko_chars": 698,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1336855804,
+  "en_chars": 1613,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "천칭자리 23 b",
+  "depth": 2,
+  "via": [
+   "분류:2000년 발견한 외계 행성",
+   "분류:골디락스 존의 목성형 행성"
+  ],
+  "en_title": "23 Librae b",
+  "ko_revid": 41693393,
+  "ko_chars": 784,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379398174,
+  "en_chars": 445,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "카멜레온자리 CT",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "CT Chamaeleontis",
+  "ko_revid": 40328980,
+  "ko_chars": 708,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380820989,
+  "en_chars": 3838,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "The CT Chamaeleontis planetary system | Companion(in order from star) | Mass | S",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "큰곰자리 4 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "4 Ursae Majoris b",
+  "ko_revid": 41698894,
+  "ko_chars": 797,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374548819,
+  "en_chars": 2846,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The 4 Ursae Majoris planetary system | Companion(in order from star) | Mass | Se",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "큰곰자리 47 b",
+  "depth": 2,
+  "via": [
+   "분류:1996년 발견한 외계 행성"
+  ],
+  "en_title": "47 Ursae Majoris b",
+  "ko_revid": 41711105,
+  "ko_chars": 1858,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376550791,
+  "en_chars": 4172,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "큰곰자리 47 c",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "47 Ursae Majoris c",
+  "ko_revid": 41711112,
+  "ko_chars": 1348,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1373706374,
+  "en_chars": 2947,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "테이블산자리 파이 b",
+  "depth": 2,
+  "via": [
+   "분류:2001년 발견한 외계 행성"
+  ],
+  "en_title": "Pi Mensae b",
+  "ko_revid": 41721757,
+  "ko_chars": 1367,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374383257,
+  "en_chars": 2271,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "티가든 b",
+  "depth": 2,
+  "via": [
+   "분류:2019년 발견한 외계 행성",
+   "분류:시선 속도로 발견된 외계 행성"
+  ],
+  "en_title": "Teegarden's Star b",
+  "ko_revid": 39919182,
+  "ko_chars": 1420,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1376737004,
+  "en_chars": 3152,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "티가든 c",
+  "depth": 2,
+  "via": [
+   "분류:2019년 발견한 외계 행성",
+   "분류:시선 속도로 발견된 외계 행성"
+  ],
+  "en_title": "Teegarden's Star c",
+  "ko_revid": 40401281,
+  "ko_chars": 1846,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374086524,
+  "en_chars": 3609,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "페가수스자리 V391 b",
+  "depth": 2,
+  "via": [
+   "분류:2007년 발견한 외계 행성"
+  ],
+  "en_title": "V391 Pegasi b",
+  "ko_revid": 41699134,
+  "ko_chars": 1341,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1348837851,
+  "en_chars": 2162,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "포말하우트 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "Fomalhaut b",
+  "ko_revid": 42571933,
+  "ko_chars": 1904,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370775654,
+  "en_chars": 10295,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "폴룩스 b",
+  "depth": 2,
+  "via": [
+   "분류:2006년 발견한 외계 행성"
+  ],
+  "en_title": "Pollux b",
+  "ko_revid": 41759430,
+  "ko_chars": 1303,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1374105870,
+  "en_chars": 2738,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "허큘리스자리 14 b",
+  "depth": 2,
+  "via": [
+   "분류:1998년 발견한 외계 행성"
+  ],
+  "en_title": "14 Herculis b",
+  "ko_revid": 41790708,
+  "ko_chars": 1147,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1372908886,
+  "en_chars": 2579,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "화가자리 베타 b",
+  "depth": 2,
+  "via": [
+   "분류:2008년 발견한 외계 행성"
+  ],
+  "en_title": "Beta Pictoris b",
+  "ko_revid": 42571942,
+  "ko_chars": 1737,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1378469208,
+  "en_chars": 9831,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "황소자리 V830 b",
+  "depth": 2,
+  "via": [
+   "분류:2016년 발견한 외계 행성"
+  ],
+  "en_title": "V830 Tauri b",
+  "ko_revid": 41933380,
+  "ko_chars": 842,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1377637932,
+  "en_chars": 2723,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 2,
+    "head": "The V830 Tauri planetary system | Companion(in order from star) | Mass | Semimaj",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "OST (우주망원경)",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Origins Space Telescope",
+  "ko_revid": 42011041,
+  "ko_chars": 489,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1364011152,
+  "en_chars": 4408,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "성간 천체",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Interstellar object",
+  "ko_revid": 42661843,
+  "ko_chars": 7805,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 6,
+    "head": "성간 유입 속도(v∞{\\displaystyle v_{\\infty }}) | 천체 | 속도 | ",
+    "cls": "wikitable floatright"
+   }
+  ],
+  "en_revid": 1376698939,
+  "en_chars": 17583,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 6,
+    "head": "Interstellar velocity inbound(v∞) | Object | Velocity | ",
+    "cls": "wikitable floatright"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "손자위성",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Subsatellite",
+  "ko_revid": 39918479,
+  "ko_chars": 512,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380606620,
+  "en_chars": 5642,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 위성",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Exomoon",
+  "ko_revid": 40394792,
+  "ko_chars": 1553,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1375073717,
+  "en_chars": 18377,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 행성 탐사방법",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Methods of detecting exoplanets",
+  "ko_revid": 42567516,
+  "ko_chars": 3655,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379763112,
+  "en_chars": 63167,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 4,
+    "head": "Method | Primary | Secondary | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 행성의 겉 모습",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Sudarsky's gas giant classification",
+  "ko_revid": 40407072,
+  "ko_chars": 3775,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1379944500,
+  "en_chars": 6840,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "외계 혜성",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Exocomet",
+  "ko_revid": 41501098,
+  "ko_chars": 557,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1370775472,
+  "en_chars": 8651,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "지구 유사도 지수",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Earth Similarity Index",
+  "ko_revid": 39918458,
+  "ko_chars": 4800,
+  "ko_n_tables": 1,
+  "ko_tables": [
+   {
+    "rows": 61,
+    "head": "행성 | ESI | 참조 | ",
+    "cls": "wikitable sortable"
+   }
+  ],
+  "en_revid": 1320075311,
+  "en_chars": 5854,
+  "en_n_tables": 0,
+  "en_tables": [],
+  "errors": []
+ },
+ {
+  "ko_title": "행성의 거주 가능성",
+  "depth": null,
+  "via": [
+   "더함: 분류:외계행성학"
+  ],
+  "en_title": "Planetary habitability",
+  "ko_revid": 41795176,
+  "ko_chars": 17399,
+  "ko_n_tables": 0,
+  "ko_tables": [],
+  "en_revid": 1380418347,
+  "en_chars": 60556,
+  "en_n_tables": 1,
+  "en_tables": [
+   {
+    "rows": 5,
+    "head": "Some habitability factors | ",
+    "cls": "wikitable"
+   }
+  ],
+  "errors": []
+ }
+]

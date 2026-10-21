@@ -1,0 +1,38 @@
+{
+ "exoplanets": {
+  "ko_pages": 564,
+  "depth_0": 31,
+  "depth_1": 269,
+  "depth_2": 255,
+  "added": 9,
+  "excluded": 0,
+  "en_yes": 544,
+  "en_no": 20,
+  "ko_with_table": 19,
+  "ko_tables": 26,
+  "en_with_table": 90,
+  "en_tables": 97,
+  "ko_median": 663.5,
+  "en_median": 1778,
+  "fetch_errors": 0,
+  "missing_targets": []
+ },
+ "rare_earth": {
+  "ko_pages": 75,
+  "depth_0": 21,
+  "depth_1": 34,
+  "depth_2": 19,
+  "added": 1,
+  "excluded": 635,
+  "en_yes": 75,
+  "en_no": 0,
+  "ko_with_table": 27,
+  "ko_tables": 37,
+  "en_with_table": 35,
+  "en_tables": 55,
+  "ko_median": 2400,
+  "en_median": 7108,
+  "fetch_errors": 0,
+  "missing_targets": []
+ }
+}
