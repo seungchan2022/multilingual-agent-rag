@@ -1,0 +1,1997 @@
+{
+ "seed": 20261019,
+ "order": [
+  "ko A 그 언어에만",
+  "ko B 그 언어에만",
+  "ko A 있음 쪽",
+  "ko B 있음 쪽",
+  "en A 그 언어에만",
+  "en B 그 언어에만",
+  "en A 있음 쪽",
+  "en B 있음 쪽",
+  "ko 문서 A",
+  "ko 문서 B",
+  "en 문서 A",
+  "en 문서 B"
+ ],
+ "order_note": "정렬한 목록(묶음, 분야, 그룹 id)에서 random.Random(seed) 하나로 order의 차례대로 random.sample로 뽑는다. 수는 그 언어에만 A 25, B 25, 있음 쪽(있음, 있을 수 있음) A 13, B 12(언어마다), 문서 A 1, B 1이다.",
+ "doc_condition": "끝까지 읽는 문서는 plain이 20,000자 이하인 문서 가운데서 뽑는다(AI가 끝까지 읽을 수 있는 길이로 정했다).",
+ "pools": {
+  "ko A 그 언어에만": 136,
+  "ko B 그 언어에만": 111,
+  "ko A 있음 쪽": 660,
+  "ko B 있음 쪽": 88,
+  "en A 그 언어에만": 538,
+  "en B 그 언어에만": 59,
+  "en A 있음 쪽": 744,
+  "en B 있음 쪽": 93,
+  "ko 문서 A": 55,
+  "ko 문서 B": 10,
+  "en 문서 A": 42,
+  "en 문서 B": 10
+ },
+ "shortage": [],
+ "entries": [
+  {
+   "no": "S001",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko19"
+  },
+  {
+   "no": "S002",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko3"
+  },
+  {
+   "no": "S003",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko65"
+  },
+  {
+   "no": "S004",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko23"
+  },
+  {
+   "no": "S005",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko155"
+  },
+  {
+   "no": "S006",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko111"
+  },
+  {
+   "no": "S007",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko12"
+  },
+  {
+   "no": "S008",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko44"
+  },
+  {
+   "no": "S009",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko37"
+  },
+  {
+   "no": "S010",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko10"
+  },
+  {
+   "no": "S011",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko51"
+  },
+  {
+   "no": "S012",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko13"
+  },
+  {
+   "no": "S013",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko39"
+  },
+  {
+   "no": "S014",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko68"
+  },
+  {
+   "no": "S015",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko63"
+  },
+  {
+   "no": "S016",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko36"
+  },
+  {
+   "no": "S017",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko141"
+  },
+  {
+   "no": "S018",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko43"
+  },
+  {
+   "no": "S019",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko124"
+  },
+  {
+   "no": "S020",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko125"
+  },
+  {
+   "no": "S021",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko59"
+  },
+  {
+   "no": "S022",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko239"
+  },
+  {
+   "no": "S023",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko31"
+  },
+  {
+   "no": "S024",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko29"
+  },
+  {
+   "no": "S025",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko69"
+  },
+  {
+   "no": "S026",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko107"
+  },
+  {
+   "no": "S027",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko20"
+  },
+  {
+   "no": "S028",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko53"
+  },
+  {
+   "no": "S029",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko43"
+  },
+  {
+   "no": "S030",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko10"
+  },
+  {
+   "no": "S031",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko71"
+  },
+  {
+   "no": "S032",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko87"
+  },
+  {
+   "no": "S033",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko42"
+  },
+  {
+   "no": "S034",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko33"
+  },
+  {
+   "no": "S035",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko66"
+  },
+  {
+   "no": "S036",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko75"
+  },
+  {
+   "no": "S037",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko109"
+  },
+  {
+   "no": "S038",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko22"
+  },
+  {
+   "no": "S039",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko5"
+  },
+  {
+   "no": "S040",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko80"
+  },
+  {
+   "no": "S041",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko101"
+  },
+  {
+   "no": "S042",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko76"
+  },
+  {
+   "no": "S043",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko51"
+  },
+  {
+   "no": "S044",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko0"
+  },
+  {
+   "no": "S045",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko94"
+  },
+  {
+   "no": "S046",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko47"
+  },
+  {
+   "no": "S047",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko41"
+  },
+  {
+   "no": "S048",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko63"
+  },
+  {
+   "no": "S049",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko97"
+  },
+  {
+   "no": "S050",
+   "type": "only",
+   "lang": "ko",
+   "verdict": "그 언어에만",
+   "stratum": "ko B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko31"
+  },
+  {
+   "no": "S051",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko259"
+  },
+  {
+   "no": "S052",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "ko16"
+  },
+  {
+   "no": "S053",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "ko38"
+  },
+  {
+   "no": "S054",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko95"
+  },
+  {
+   "no": "S055",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko65"
+  },
+  {
+   "no": "S056",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있을 수 있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko100"
+  },
+  {
+   "no": "S057",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko130"
+  },
+  {
+   "no": "S058",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko206"
+  },
+  {
+   "no": "S059",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "ko179"
+  },
+  {
+   "no": "S060",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "ko44"
+  },
+  {
+   "no": "S061",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있을 수 있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko82"
+  },
+  {
+   "no": "S062",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "ko59"
+  },
+  {
+   "no": "S063",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko A 있음 쪽",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "ko88"
+  },
+  {
+   "no": "S064",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko26"
+  },
+  {
+   "no": "S065",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko40"
+  },
+  {
+   "no": "S066",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있을 수 있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko36"
+  },
+  {
+   "no": "S067",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko73"
+  },
+  {
+   "no": "S068",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko24"
+  },
+  {
+   "no": "S069",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko24"
+  },
+  {
+   "no": "S070",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko21"
+  },
+  {
+   "no": "S071",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko46"
+  },
+  {
+   "no": "S072",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko25"
+  },
+  {
+   "no": "S073",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko72"
+  },
+  {
+   "no": "S074",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "ko37"
+  },
+  {
+   "no": "S075",
+   "type": "present",
+   "lang": "ko",
+   "verdict": "있음",
+   "stratum": "ko B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "ko17"
+  },
+  {
+   "no": "S076",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en370"
+  },
+  {
+   "no": "S077",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en17"
+  },
+  {
+   "no": "S078",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en245"
+  },
+  {
+   "no": "S079",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en85"
+  },
+  {
+   "no": "S080",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "en215"
+  },
+  {
+   "no": "S081",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en519"
+  },
+  {
+   "no": "S082",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en5"
+  },
+  {
+   "no": "S083",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en62"
+  },
+  {
+   "no": "S084",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en161"
+  },
+  {
+   "no": "S085",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en509"
+  },
+  {
+   "no": "S086",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "en273"
+  },
+  {
+   "no": "S087",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en87"
+  },
+  {
+   "no": "S088",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en162"
+  },
+  {
+   "no": "S089",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en53"
+  },
+  {
+   "no": "S090",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en12"
+  },
+  {
+   "no": "S091",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en72"
+  },
+  {
+   "no": "S092",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en231"
+  },
+  {
+   "no": "S093",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en286"
+  },
+  {
+   "no": "S094",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en196"
+  },
+  {
+   "no": "S095",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "en179"
+  },
+  {
+   "no": "S096",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en92"
+  },
+  {
+   "no": "S097",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "en166"
+  },
+  {
+   "no": "S098",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en8"
+  },
+  {
+   "no": "S099",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en44"
+  },
+  {
+   "no": "S100",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en A 그 언어에만",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en0"
+  },
+  {
+   "no": "S101",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en54"
+  },
+  {
+   "no": "S102",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en59"
+  },
+  {
+   "no": "S103",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en33"
+  },
+  {
+   "no": "S104",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en14"
+  },
+  {
+   "no": "S105",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en111"
+  },
+  {
+   "no": "S106",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en31"
+  },
+  {
+   "no": "S107",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en5"
+  },
+  {
+   "no": "S108",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en24"
+  },
+  {
+   "no": "S109",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en30"
+  },
+  {
+   "no": "S110",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en37"
+  },
+  {
+   "no": "S111",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en37"
+  },
+  {
+   "no": "S112",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en32"
+  },
+  {
+   "no": "S113",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en9"
+  },
+  {
+   "no": "S114",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en75"
+  },
+  {
+   "no": "S115",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en13"
+  },
+  {
+   "no": "S116",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en1"
+  },
+  {
+   "no": "S117",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en87"
+  },
+  {
+   "no": "S118",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en2"
+  },
+  {
+   "no": "S119",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en16"
+  },
+  {
+   "no": "S120",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en39"
+  },
+  {
+   "no": "S121",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en79"
+  },
+  {
+   "no": "S122",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en64"
+  },
+  {
+   "no": "S123",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en31"
+  },
+  {
+   "no": "S124",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en46"
+  },
+  {
+   "no": "S125",
+   "type": "only",
+   "lang": "en",
+   "verdict": "그 언어에만",
+   "stratum": "en B 그 언어에만",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en96"
+  },
+  {
+   "no": "S126",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있을 수 있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en358"
+  },
+  {
+   "no": "S127",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "probes",
+   "group": "en222"
+  },
+  {
+   "no": "S128",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en89"
+  },
+  {
+   "no": "S129",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en272"
+  },
+  {
+   "no": "S130",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있을 수 있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en156"
+  },
+  {
+   "no": "S131",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en169"
+  },
+  {
+   "no": "S132",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "kr_satellites",
+   "group": "en145"
+  },
+  {
+   "no": "S133",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en15"
+  },
+  {
+   "no": "S134",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en211"
+  },
+  {
+   "no": "S135",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "en147"
+  },
+  {
+   "no": "S136",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en170"
+  },
+  {
+   "no": "S137",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있을 수 있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "group": "en5"
+  },
+  {
+   "no": "S138",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en A 있음 쪽",
+   "bundle": "A",
+   "domain": "rare_earth",
+   "group": "en389"
+  },
+  {
+   "no": "S139",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en104"
+  },
+  {
+   "no": "S140",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en82"
+  },
+  {
+   "no": "S141",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en89"
+  },
+  {
+   "no": "S142",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en36"
+  },
+  {
+   "no": "S143",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en2"
+  },
+  {
+   "no": "S144",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en23"
+  },
+  {
+   "no": "S145",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en18"
+  },
+  {
+   "no": "S146",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en3"
+  },
+  {
+   "no": "S147",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en28"
+  },
+  {
+   "no": "S148",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en38"
+  },
+  {
+   "no": "S149",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "group": "en26"
+  },
+  {
+   "no": "S150",
+   "type": "present",
+   "lang": "en",
+   "verdict": "있음",
+   "stratum": "en B 있음 쪽",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "group": "en90"
+  },
+  {
+   "no": "D1",
+   "type": "doc",
+   "lang": "ko",
+   "title": "목동자리 타우 b",
+   "rule_list": [
+    {
+     "line": 6,
+     "raw": "13ʰ 47ᵐ 17ˢ",
+     "value": 206.82083333333333,
+     "unit": "°",
+     "dim": "각도"
+    },
+    {
+     "line": 7,
+     "raw": "+17° 27′ 22″",
+     "value": 17.45611111111111,
+     "unit": "°",
+     "dim": "각도"
+    },
+    {
+     "line": 8,
+     "raw": "15 파섹",
+     "value": 15.0,
+     "unit": "파섹",
+     "dim": "길이"
+    },
+    {
+     "line": 11,
+     "raw": "0.046",
+     "value": 0.046,
+     "unit": "AU",
+     "dim": "길이"
+    },
+    {
+     "line": 13,
+     "raw": "3.3135 일",
+     "value": 3.3135,
+     "unit": "일",
+     "dim": "시간"
+    },
+    {
+     "line": 15,
+     "raw": "0.003067 초각",
+     "value": 0.003067,
+     "unit": "초각",
+     "dim": "각도"
+    },
+    {
+     "line": 25,
+     "raw": "50광년",
+     "value": 50.0,
+     "unit": "광년",
+     "dim": "길이"
+    },
+    {
+     "line": 29,
+     "raw": "469 ± 5 미터",
+     "value": 469.0,
+     "unit": "미터",
+     "dim": "길이"
+    },
+    {
+     "line": 29,
+     "raw": "15년",
+     "value": 15.0,
+     "unit": "년",
+     "dim": "시간"
+    },
+    {
+     "line": 33,
+     "raw": "79.5시간",
+     "value": 79.5,
+     "unit": "시간",
+     "dim": "시간"
+    },
+    {
+     "line": 33,
+     "raw": "1621 켈빈",
+     "value": 1621.0,
+     "unit": "켈빈",
+     "dim": "온도"
+    },
+    {
+     "line": 41,
+     "raw": "1621 켈빈",
+     "value": 1621.0,
+     "unit": "켈빈",
+     "dim": "온도"
+    }
+   ],
+   "stratum": "ko 문서 A",
+   "bundle": "A",
+   "domain": "exoplanets",
+   "doc": 2
+  },
+  {
+   "no": "D2",
+   "type": "doc",
+   "lang": "ko",
+   "title": "HD 23596 b",
+   "rule_list": [
+    {
+     "line": 6,
+     "raw": "03ʰ 48ᵐ 00.3739ˢ",
+     "value": 57.00155791666667,
+     "unit": "°",
+     "dim": "각도"
+    },
+    {
+     "line": 7,
+     "raw": "+40° 31′ 50.287″",
+     "value": 40.530635277777776,
+     "unit": "°",
+     "dim": "각도"
+    },
+    {
+     "line": 8,
+     "raw": "170 광년",
+     "value": 170.0,
+     "unit": "광년",
+     "dim": "길이"
+    },
+    {
+     "line": 8,
+     "raw": "52 파섹",
+     "value": 52.0,
+     "unit": "파섹",
+     "dim": "길이"
+    },
+    {
+     "line": 11,
+     "raw": "2.83",
+     "value": 2.83,
+     "unit": "AU",
+     "dim": "길이"
+    },
+    {
+     "line": 12,
+     "raw": "2.00",
+     "value": 2.0,
+     "unit": "AU",
+     "dim": "길이"
+    },
+    {
+     "line": 13,
+     "raw": "3.66",
+     "value": 3.66,
+     "unit": "AU",
+     "dim": "길이"
+    },
+    {
+     "line": 15,
+     "raw": "1565±21 일",
+     "value": 1565.0,
+     "unit": "일",
+     "dim": "시간"
+    },
+    {
+     "line": 15,
+     "raw": "4.285년",
+     "value": 4.285,
+     "unit": "년",
+     "dim": "시간"
+    },
+    {
+     "line": 18,
+     "raw": "11400 g/cm³",
+     "value": 11400.0,
+     "unit": "g/cm³",
+     "dim": "밀도"
+    },
+    {
+     "line": 19,
+     "raw": "216 g",
+     "value": 216.0,
+     "unit": "g",
+     "dim": "질량"
+    },
+    {
+     "line": 20,
+     "raw": "196 켈빈",
+     "value": 196.0,
+     "unit": "켈빈",
+     "dim": "온도"
+    },
+    {
+     "line": 29,
+     "raw": "170광년",
+     "value": 170.0,
+     "unit": "광년",
+     "dim": "길이"
+    },
+    {
+     "line": 29,
+     "raw": "2.83 천문단위",
+     "value": 2.83,
+     "unit": "천문단위",
+     "dim": "길이"
+    },
+    {
+     "line": 29,
+     "raw": "1565일",
+     "value": 1565.0,
+     "unit": "일",
+     "dim": "시간"
+    },
+    {
+     "line": 29,
+     "raw": "초속 19.7 킬로미터",
+     "value": 19.7,
+     "unit": "킬로미터",
+     "dim": "속도"
+    },
+    {
+     "line": 29,
+     "raw": "2 천문단위",
+     "value": 2.0,
+     "unit": "천문단위",
+     "dim": "길이"
+    },
+    {
+     "line": 29,
+     "raw": "3.66 천문단위",
+     "value": 3.66,
+     "unit": "천문단위",
+     "dim": "길이"
+    }
+   ],
+   "stratum": "ko 문서 B",
+   "bundle": "B",
+   "domain": "exoplanets",
+   "doc": 1
+  },
+  {
+   "no": "D3",
+   "type": "doc",
+   "lang": "en",
+   "title": "Yinghuo-1",
+   "rule_list": [
+    {
+     "line": 4,
+     "raw": "1 year",
+     "value": 1.0,
+     "unit": "year",
+     "dim": "시간"
+    },
+    {
+     "line": 6,
+     "raw": "254 lb",
+     "value": 254.0,
+     "unit": "lb",
+     "dim": "질량"
+    },
+    {
+     "line": 7,
+     "raw": "750mm",
+     "value": 750.0,
+     "unit": "mm",
+     "dim": "길이"
+    },
+    {
+     "line": 7,
+     "raw": "750mm",
+     "value": 750.0,
+     "unit": "mm",
+     "dim": "길이"
+    },
+    {
+     "line": 7,
+     "raw": "650mm",
+     "value": 650.0,
+     "unit": "mm",
+     "dim": "길이"
+    },
+    {
+     "line": 8,
+     "raw": "90 W",
+     "value": 90.0,
+     "unit": "W",
+     "dim": "출력"
+    },
+    {
+     "line": 19,
+     "raw": "500 mi",
+     "value": 500.0,
+     "unit": "mi",
+     "dim": "길이"
+    },
+    {
+     "line": 20,
+     "raw": "50,000 mi",
+     "value": 50000.0,
+     "unit": "mi",
+     "dim": "길이"
+    },
+    {
+     "line": 22,
+     "raw": "3 days",
+     "value": 3.0,
+     "unit": "days",
+     "dim": "시간"
+    },
+    {
+     "line": 50,
+     "raw": "200 m",
+     "value": 200.0,
+     "unit": "m",
+     "dim": "길이"
+    },
+    {
+     "line": 50,
+     "raw": "660 ft",
+     "value": 660.0,
+     "unit": "ft",
+     "dim": "길이"
+    },
+    {
+     "line": 54,
+     "raw": "8.8 hours",
+     "value": 8.8,
+     "unit": "hours",
+     "dim": "시간"
+    },
+    {
+     "line": 66,
+     "raw": "91 mi",
+     "value": 91.0,
+     "unit": "mi",
+     "dim": "길이"
+    },
+    {
+     "line": 70,
+     "raw": "2.5 ft",
+     "value": 2.5,
+     "unit": "ft",
+     "dim": "길이"
+    },
+    {
+     "line": 71,
+     "raw": "2.5 ft",
+     "value": 2.5,
+     "unit": "ft",
+     "dim": "길이"
+    },
+    {
+     "line": 72,
+     "raw": "2.0 ft",
+     "value": 2.0,
+     "unit": "ft",
+     "dim": "길이"
+    },
+    {
+     "line": 73,
+     "raw": "254 lb",
+     "value": 254.0,
+     "unit": "lb",
+     "dim": "질량"
+    },
+    {
+     "line": 74,
+     "raw": "18 ft",
+     "value": 18.0,
+     "unit": "ft",
+     "dim": "길이"
+    },
+    {
+     "line": 74,
+     "raw": "90 W",
+     "value": 90.0,
+     "unit": "W",
+     "dim": "출력"
+    },
+    {
+     "line": 74,
+     "raw": "180 W",
+     "value": 180.0,
+     "unit": "W",
+     "dim": "출력"
+    },
+    {
+     "line": 75,
+     "raw": "950 mm",
+     "value": 950.0,
+     "unit": "mm",
+     "dim": "길이"
+    },
+    {
+     "line": 75,
+     "raw": "12 W",
+     "value": 12.0,
+     "unit": "W",
+     "dim": "출력"
+    },
+    {
+     "line": 75,
+     "raw": "7.17 GHz",
+     "value": 7.17,
+     "unit": "GHz",
+     "dim": "진동수"
+    }
+   ],
+   "stratum": "en 문서 A",
+   "bundle": "A",
+   "domain": "probes",
+   "doc": 7
+  },
+  {
+   "no": "D4",
+   "type": "doc",
+   "lang": "en",
+   "title": "Terbium(III,IV) oxide",
+   "rule_list": [
+    {
+     "line": 14,
+     "raw": "747.6972 g/mol",
+     "value": 747.6972,
+     "unit": "g/mol",
+     "dim": "몰 질량"
+    },
+    {
+     "line": 16,
+     "raw": "7.3 g/cm³",
+     "value": 7.3,
+     "unit": "g/cm³",
+     "dim": "밀도"
+    },
+    {
+     "line": 30,
+     "raw": "1000 °C",
+     "value": 1000.0,
+     "unit": "°C",
+     "dim": "온도"
+    },
+    {
+     "line": 34,
+     "raw": "350 °C",
+     "value": 350.0,
+     "unit": "°C",
+     "dim": "온도"
+    },
+    {
+     "line": 46,
+     "raw": "350",
+     "value": 350.0,
+     "unit": "°C",
+     "dim": "온도"
+    },
+    {
+     "line": 46,
+     "raw": "400 °C",
+     "value": 400.0,
+     "unit": "°C",
+     "dim": "온도"
+    }
+   ],
+   "stratum": "en 문서 B",
+   "bundle": "B",
+   "domain": "rare_earth",
+   "doc": 7
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+# Orbital eccentricity
+
+| Part of a series on |
+|---|
+| Astrodynamics |
+|  |
+| Orbital mechanics |
+| Orbital elements Apsis, Argument of periapsis, Eccentricity, Inclination, Mean anomaly, Orbital nodes, Semi-major axis, True anomaly |
+| Types of two-body orbits by eccentricity Circular orbit, Elliptic orbit Transfer orbit (Hohmann transfer orbit, Bi-elliptic transfer orbit) Parabolic orbit, Hyperbolic orbit, Radial orbit, Decaying orbit |
+| Equations Dynamical friction, Escape velocity, Kepler's equation, Kepler's laws of planetary motion, Orbital period, Orbital velocity, Surface gravity, Specific orbital energy, Vis-viva equation |
+| Celestial mechanics |
+| Gravitational influences Barycenter, Hill sphere, Perturbations, Sphere of influence |
+| N-body orbits Lagrangian points (Halo orbits) Lissajous orbits, Lyapunov orbits |
+| Engineering and efficiency |
+| Preflight engineering Mass ratio, Payload fraction, Propellant mass fraction, Tsiolkovsky rocket equation |
+| Efficiency measures Gravity assist, Oberth effect |
+| Propulsive maneuvers Orbital maneuver, Orbit insertion |
+| v, t, e |
+
+In astrodynamics, the orbital eccentricity of an astronomical object is a dimensionless parameter that determines the amount by which its orbit around another body deviates from a perfect circle. A value of 0 is a circular orbit, values between 0 and 1 form an elliptic orbit, 1 is a parabolic (escape orbit or capture orbit), and greater than 1 is a hyperbola. The term derives its name from the parameters of conic sections, as every Kepler orbit is a conic section. It is normally used for the isolated two-body problem, but extensions exist for objects following a rosette orbit through the Galaxy.
+
+## Definition
+
+In a two-body problem with inverse-square-law force, every orbit is a Kepler orbit. The eccentricity of this Kepler orbit is a non-negative number that defines its shape.
+
+The eccentricity may take the following values:
+
+- Circular orbit: e = 0
+- Elliptic orbit: 0 < e < 1
+- Parabolic trajectory: e = 1
+- Hyperbolic trajectory: e > 1
+
+The eccentricity e is given by
+
+\[e={\sqrt {1+{\frac {\ 2\ E\ L^{2}\ }{\ m_{\text{rdc}}\ \alpha ^{2}\ }}}}\]
+
+where E is the total orbital energy, L is the angular momentum, mrdc is the reduced mass, and \(\alpha \) the coefficient of the inverse-square law central force such as in the theory of gravity or electrostatics in classical physics:\[F={\frac {\alpha }{r^{2}}}\](\(\alpha \) is negative for an attractive force, positive for a repulsive one; related to the Kepler problem)
+
+or in the case of a gravitational force:\[e={\sqrt {1+{\frac {2\varepsilon h^{2}}{\mu ^{2}}}}}\]
+
+where ε is the specific orbital energy (total energy divided by the reduced mass), μ the standard gravitational parameter based on the total mass, and h the specific relative angular momentum (angular momentum divided by the reduced mass).
+
+For the hyperbolic case, (when \(1<e<\infty \)) the hyperbola branch makes a total turn of 2 arccsc(e), decreasing from 180 to 0 degrees. Here, the total turn is analogous to turning number, but for open curves (an angle covered by velocity vector).
+
+Radial trajectories are classified as elliptic, parabolic, or hyperbolic based on the energy of the orbit, not the eccentricity. Radial orbits have zero angular momentum and hence eccentricity equal to one. Keeping the energy constant and reducing the angular momentum, elliptic, parabolic, and hyperbolic orbits each tend to the corresponding type of radial trajectory while e tends to 1 (or in the parabolic case, remains 1).
+
+For a repulsive force only the hyperbolic trajectory, including the radial version, is applicable.
+
+For elliptical orbits, a simple proof shows that \(\arcsin(e)\) gives the projection angle of a perfect circle to an ellipse of eccentricity e. For example, to view the eccentricity of the planet Mercury (e = 0.2056), one must simply calculate the inverse sine to find the projection angle of 11.86°. Then, tilting any circular object by that angle, the apparent ellipse of that object projected to the viewer's eye will be of the same eccentricity.
+
+## Etymology
+
+The word "eccentricity" comes from Medieval Latin eccentricus, derived from Greek ἔκκεντρος ekkentros "out of the center", from ἐκ- ek-, "out of" + κέντρον kentron "center". "Eccentric" first appeared in English in 1551, with the definition "...a circle in which the earth, sun. etc. deviates from its center". In 1556, five years later, an adjectival form of the word had developed.
+
+## Calculation
+
+The eccentricity of an orbit can be calculated from the orbital state vectors as the magnitude of the eccentricity vector:\[e=\left|\mathbf {e} \right|\]where:
+
+- e is the eccentricity vector ("Hamilton's vector").
+
+For elliptical orbits it can also be calculated from the periapsis and apoapsis since \(r_{\text{p}}=a\,(1-e)\) and \(r_{\text{a}}=a\,(1+e)\,,\) where a is the length of the semi-major axis.\[{\begin{aligned}e&={\frac {r_{\text{a}}-r_{\text{p}}}{r_{\text{a}}+r_{\text{p}}}}\\\,\\&={\frac {r_{\text{a}}/r_{\text{p}}-1}{r_{\text{a}}/r_{\text{p}}+1}}\\\,\\&=1-{\frac {2}{\;{\frac {r_{\text{a}}}{r_{\text{p}}}}+1\;}}\end{aligned}}\]where:
+
+- ra is the radius at apoapsis (also "apofocus", "aphelion", "apogee"), i.e., the farthest distance of the orbit to the center of mass of the system, which is a focus of the ellipse.
+- rp is the radius at periapsis (or "perifocus" etc.), the closest distance.
+
+The semi-major axis, a, is also the path-averaged distance to the centre of mass, while the time-averaged distance is a(1 + e e / 2).
+
+The eccentricity of an elliptical orbit can be used to obtain the ratio of the apoapsis radius to the periapsis radius:\[{\frac {r_{\text{a}}}{r_{\text{p}}}}={\frac {\,a\,(1+e)\,}{\,a\,(1-e)\,}}={\frac {1+e}{1-e}}\]For Earth, orbital eccentricity e ≈ 0.01668, apoapsis is aphelion and periapsis is perihelion, relative to the Sun.
+
+For Earth's annual orbit path, the ratio of longest radius (ra) / shortest radius (rp) is \({\frac {\,r_{\text{a}}\,}{r_{\text{p}}}}={\frac {\,1+e\,}{1-e}}{\text{ ≈ 1.03393 .}}\)
+
+## Examples
+
+Eccentricities of Solar System bodies
+
+| Object | Eccentricity |
+|---|---|
+| Triton | 0.000016 |
+| Venus | 0.0068 |
+| Neptune | 0.0086 |
+| Earth | 0.0167 |
+| Titan | 0.0288 |
+| Uranus | 0.0472 |
+| Jupiter | 0.0484 |
+| Saturn | 0.0541 |
+| Luna (Moon) | 0.0549 |
+| Ceres | 0.0758 |
+| Vesta | 0.0887 |
+| Mars | 0.0934 |
+| 10 Hygiea | 0.1146 |
+| Quaoar | 0.1500 |
+| Makemake | 0.1559 |
+| Haumea | 0.1887 |
+| Mercury | 0.2056 |
+| 2 Pallas | 0.2313 |
+| Orcus | 0.2450 |
+| Pluto | 0.2488 |
+| Planet Nine (estimate) | 0.25 |
+| 3 Juno | 0.2555 |
+| 324 Bamberga | 0.3400 |
+| Eris | 0.4407 |
+| Gonggong | 0.4500 |
+| 8405 Asbolus | 0.5800 |
+| 5145 Pholus | 0.6100 |
+| 944 Hidalgo | 0.6775 |
+| Nereid | 0.7507 |
+| 2001 XA255 | 0.7755 |
+| 5335 Damocles | 0.8386 |
+| Sedna | 0.8549 |
+| 2017 OF201 | 0.9460 |
+| 2019 EU5 | 0.9617 |
+| Halley's Comet | 0.9671 |
+| Comet Hale–Bopp | 0.9951 |
+| Comet Ikeya–Seki | 0.9999 |
+| Comet McNaught | 1.0002 |
+| C/1980 E1 | 1.0570 |
+| ʻOumuamua | 1.20113 |
+| 2I/Borisov | 3.3565 |
+| 3I/ATLAS | 6.139±0.001 |
+
+The table lists the values for all planets and dwarf planets, and selected asteroids, comets, and moons. Mercury has the greatest orbital eccentricity of any planet in the Solar System (e = 0.2056), followed by Mars of 0.0934. Such eccentricity is sufficient for Mercury to receive twice as much solar irradiation at perihelion compared to aphelion. Before its demotion from planet status in 2006, Pluto was considered to be the planet with the most eccentric orbit (\(e\approx 0.248\)). Other trans-Neptunian objects have significant eccentricity, notably the dwarf planet Eris (with \(e\approx 0.435\)). Even further out, Sedna has an extremely high eccentricity of approximately 0.850 due to its estimated aphelion of 937 AU and perihelion of about 76 AU, possibly under influence of unknown object(s).
+
+The eccentricity of Earth's orbit is currently about 0.0167; its orbit is nearly circular. Neptune's and Venus's have even lower eccentricities of 0.0086 and 0.0068 respectively, the latter being the least orbital eccentricity of any planet in the Solar System. Over hundreds of thousands of years, the eccentricity of the Earth's orbit varies from nearly 0.0034 to almost 0.058 as a result of gravitational attractions among the planets.
+
+The Moon's value is 0.0549, the most eccentric of the large moons in the Solar System. The four Galilean moons (Io, Europa, Ganymede and Callisto) have their eccentricities of less than 0.01. Neptune's largest moon Triton has an eccentricity of 1.6×10⁻⁵ (0.000016), the smallest eccentricity of any known moon in the Solar System; its orbit is as close to a perfect circle as can be currently measured. Smaller moons, particularly irregular moons, can have significant eccentricities, such as Neptune's third largest moon, Nereid, of 0.75.
+
+Most of the Solar System's asteroids have orbital eccentricities between 0 and 0.35 with an average value of 0.17. Their comparatively high eccentricities are probably due to the influence of Jupiter and to past collisions.
+
+Comets have very different values of eccentricities. Periodic comets have eccentricities mostly between 0.2 and 0.7, but some of them have highly eccentric elliptical orbits with eccentricities just below 1; for example, Halley's Comet has a value of 0.967. Non-periodic comets follow near-parabolic orbits and thus have eccentricities even closer to 1. Examples include Comet Hale–Bopp with a value of 0.9951, Comet Ikeya–Seki with a value of 0.9999 and Comet McNaught (C/2006 P1) with a value of 1.000019. As first two's values are less than 1, their orbit are elliptical and they will return. McNaught has a hyperbolic orbit but within the influence of the inner planets, is still bound to the Sun with an orbital period of about 10⁵ years. Comet C/1980 E1 has the largest eccentricity of any known hyperbolic comet of solar origin with an eccentricity of 1.057, and will eventually leave the Solar System.
+
+ʻOumuamua is the first interstellar object to be found passing through the Solar System. Its orbital eccentricity of 1.20 indicates that ʻOumuamua has never been gravitationally bound to the Sun. It was discovered 0.2 AU (30000000 km; 19000000 mi) from Earth and is roughly 200 meters in diameter. It has an interstellar speed (velocity at infinity) of 26.33 km/s (58900 mph).
+
+The exoplanet HD 20782 b has the most eccentric orbit known of 0.97 ± 0.01, followed by exoplanet TIC 241249530b with an eccentricity of 0.94, and then HD 80606 b of 0.93226 ⁺⁰.⁰⁰⁰⁶⁴ −0.00069.
+
+## Mean average
+
+The mean eccentricity of an object is the average eccentricity as a result of perturbations over a given time period. For example: Neptune currently has an instant (current epoch) eccentricity of 0.0097, but from 1800 to 2050 has a mean eccentricity of 0.00859.
+
+## Climatic effect
+
+Orbital mechanics imply that the duration of the seasons be proportional to the area of Earth’s orbit swept between successive solstices and equinoxes, so when orbital eccentricity departs from circularity, the seasons that occur on the far side of the orbit (near aphelion) can be longer in duration. This geometric effect arises because Earth’s elliptical orbit causes its orbital speed to vary through the year: Earth moves faster when closer to the Sun (at perihelion) and slower when farther away (at aphelion). Although the total amount of solar radiation received annually changes only slightly with eccentricity, the distribution of that energy through the seasons and across hemispheres is affected by these geometric variations in orbital speed and distance. Over long timescales, Earth’s orbital eccentricity varies as a combination of periodic components, including a long, stable cycle of about 405,000 years and several shorter components with periods between roughly 95,000 and 136,000 years, which together give rise to a prominent ~100,000-year modulation in eccentricity.
+
+Because Earth moves fastest near perihelion and more slowly near aphelion, the lengths of the astronomical seasons are slightly unequal. In the present orbital configuration, Northern Hemisphere autumn and winter occur near perihelion and are therefore shorter than spring and summer, while the opposite pattern occurs in the Southern Hemisphere. As a result, Northern Hemisphere summer is currently about 4.5 days longer than winter, and spring about 3 days longer than autumn, reflecting the influence of orbital eccentricity on seasonal duration. These hemispheric differences are globally balanced over the course of the year.
+
+Changes in orbital eccentricity also influence the magnitude and timing of solar radiation (insolation) received at Earth’s surface. While the annual mean insolation change due to eccentricity alone is small, variations in orbital shape amplify or diminish the seasonal contrast when combined with axial tilt and precession — particularly in high latitudes. This modulation affects climate on timescales of tens to hundreds of thousands of years by altering the relative lengths and intensities of seasons, and it plays a role in the natural pacing of glacial and interglacial periods.
+
+Apsidal precession also slowly changes the place in Earth’s orbit where the solstices and equinoxes occur. This is a slow change in the orbit of Earth, not the axis of rotation, which is referred to as axial precession. Both types of precession, along with changes in eccentricity and axial tilt, form the basis of Milankovitch cycles, which describe how orbital variations alter the spatial and temporal distribution of incoming solar radiation at Earth’s surface. Over the next 10 000 years, the northern hemisphere winters are expected to become gradually longer and summers shorter as the orbital configuration shifts relative to the seasonal calendar. Any cooling effect in one hemisphere is balanced by warming in the other, and any overall change will be counteracted by the fact that the eccentricity of Earth’s orbit will be almost halved.
+
+Long-term climate consequences of eccentricity and precession remain an active focus of palaeoclimate research. Although eccentricity alone produces only a small direct change in global mean insolation, its interaction with precession and axial tilt has been implicated in pacing the timing of glacial–interglacial cycles during the late Quaternary. Marine sediment records, ice cores, and astronomical solutions show that variations in insolation driven by combined orbital parameters correspond with major climate transitions over the past several hundred thousand years. These orbital forcings are widely regarded as a key external influence on Earth’s long-term climate variability, acting in combination with internal feedbacks such as ice–albedo effects and greenhouse gas concentrations.
+
+## Exoplanets
+
+Of the many exoplanets discovered, most have a higher orbital eccentricity than planets in the Solar System. Exoplanets found with low orbital eccentricity (near-circular orbits) are very close to their star and are tidally-locked to the star. All eight planets in the Solar System have near-circular orbits. The exoplanets discovered show that the Solar System, with its unusually-low eccentricity, is rare and unique. One theory attributes this low eccentricity to the high number of planets in the Solar System; another suggests it arose because of its unique asteroid belts. A few other multiplanetary systems have been found, but none resemble the Solar System. The Solar System has unique planetesimal systems, which led the planets to have near-circular orbits. Solar planetesimal systems include the asteroid belt, Hilda family, Kuiper belt, Hills cloud, and the Oort cloud. The exoplanet systems discovered have either no planetesimal systems or a very large one. Low eccentricity is needed for habitability, especially advanced life. High multiplicity planet systems are much more likely to have habitable exoplanets. The grand tack hypothesis of the Solar System also helps understand its near-circular orbits and other unique features.
+
+## Further reading
+
+- Prussing, John E.; Conway, Bruce A. (1993). Orbital Mechanics. New York: Oxford University Press. ISBN 0-19-507834-9.

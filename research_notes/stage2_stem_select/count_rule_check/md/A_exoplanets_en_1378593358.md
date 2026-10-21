@@ -1,0 +1,60 @@
+# Ross 128 b
+
+- Discovery
+  - Discovered by: Xavier Bonfils
+  - Discovery date: November 15, 2017
+  - Detection method: Radial velocity
+- Orbital characteristics
+  - Semi-major axis: 0.049640±0.000004 AU
+  - Eccentricity: 0.21+0.09 −0.10
+  - Orbital period (sidereal): 9.8556+0.0012 −0.0011 d
+  - Semi-amplitude: 1.41±0.14 m/s
+  - Star: Ross 128
+- Physical characteristics
+  - Mean radius: 1.6+1.1 −0.65 R🜨 (predicted)
+  - Mass: ≥1.40±0.13 M🜨; 1.8+0.56 −0.43 M🜨 (predicted)
+  - Temperature: 213–301 K (−60–28 °C; −76–82 °F) (equilibrium)
+
+Ross 128 b is a confirmed Earth-sized exoplanet, likely rocky, that is orbiting near the inner edge of the habitable zone of the red dwarf star Ross 128, at a distance of 11.007 light-years (3.375 parsecs) from Earth in the constellation of Virgo. The exoplanet was found using a decade's worth of radial velocity data using the European Southern Observatory's HARPS spectrograph (High Accuracy Radial velocity Planet Searcher) at the La Silla Observatory in Chile. Ross 128 b is the nearest exoplanet around a quiet red dwarf, and is considered one of the best candidates for habitability. The planet is only 35% more massive than Earth, receives only 38% more starlight, and is expected to be a temperature suitable for liquid water to exist on the surface, if it has an atmosphere.
+
+The planet does not transit its host star, which makes atmospheric characterization very difficult.
+
+## Physical characteristics
+
+### Mass, radius, and temperature
+
+Due to it being discovered by the radial velocity method, the only known physical parameter for Ross 128 b is its minimum possible mass. The planet is at least 1.35 M🜨, or 1.35 times the mass of Earth (about 8.06×10²⁴ kg). This is slightly more massive than the similar and nearby Proxima Centauri b, with a minimum mass of 1.27 M🜨. The low mass of Ross 128 b implies that it is most likely a rocky Earth-sized planet with a solid surface. However, its radius, and therefore its density, is not known as no transits of this planet have been observed. Ross 128 b would be 0.5 R🜨 (Earth radii) for a pure-iron composition and 3.0 R🜨 for a pure hydrogen-helium composition, both implausible extremes. For a more plausible Earth-like composition, the planet would need to be about 1.10 R🜨 - i.e., 1.1 times the radius of Earth (approximately 7008 km). With that radius, Ross 128 b would be slightly denser than Earth, due to how a rocky planet would become more compact as it increases in size. It would give the planet a gravitational pull around 10.945 m/s², or about 1.12 times that of Earth.
+
+A 2019 study predicts a true mass about 1.8 times that of Earth and a radius about 1.6 times that of Earth, with large margins of error.
+
+Ross 128 b is calculated to have a temperature similar to that of Earth and potentially conducive to the development of life. The discovery team modelled the planet's potential equilibrium temperature using albedos of 0.100, 0.367, and 0.750. Albedo is the portion of the light that is reflected instead of absorbed by a celestial object. With these three albedo parameters, Ross 128 b would have a Teq of either 294 K (21 °C; 70 °F), 269 K (−4 °C; 25 °F), or 213 K (−60 °C; −76 °F). For an Earth-like albedo of 0.3, the planet would have an equilibrium temperature of 280 K (7 °C; 44 °F), about 8 Kelvins lower than Earth's average temperature. The actual temperature of Ross 128 b depends on yet-unknown atmospheric parameters, if it has an atmosphere.
+
+### Host star
+
+Ross 128 b orbits the small red dwarf star known as Ross 128. The star is 17% the mass and 20% the radius of that of the Sun. It has a temperature of 3192 K, a luminosity of 0.00362 L☉, and an age of 9.45±0.60 billion years. For comparison, the Sun has a temperature of 5772 K and age of 4.5 billion years, making Ross 128 half the temperature and over twice the age. The star is only 11.03 light-years away, making it one of the 20 closest stars known.
+
+In 2018, astronomers, based on near-infrared, high-resolution spectra (APOGEE Spectra), determined the chemical abundances of several elements (C, O, Mg, Al, K, Ca, Ti, and Fe) present in Ross 128, finding that the star has near solar metallicity.
+
+### Orbit
+
+Ross 128 b is a closely orbiting planet, with a year (orbital period) lasting about 9.9 days. Its semi-major axis is 0.0496 AU (7.42 million km). According to some models of the planet's orbit, its orbit is quite circular, with an eccentricity of around 0.03, but also with a large error range as well. However, if all the orbital models are brought together then the eccentricity is higher at about 0.116, and again this is subject to a large error range. Compared to the Earth's average distance from the Sun of 149 million km, Ross 128 b orbits 20 times closer. At that close distance from its host star, the planet is most likely tidally locked, meaning that one side of the planet would have eternal daylight and the other would be in darkness.
+
+A 2024 study of the radial velocity data found an eccentricity of about 0.21 for Ross 128 b, higher than previous estimates and similar to that of Mercury. Given the planet's orbit near the inner edge of the habitable zone, such a high eccentricity would significantly decrease its potential for habitability.
+
+## Habitability
+
+### Stellar flux properties
+
+Ross 128 b is not confirmed to be orbiting exactly within the habitable zone. It appears to reside within the inner edge, as it receives approximately 38% more sunlight than Earth. The habitable zone is defined as the region around a star where temperatures are just right for a planet with a thick enough atmosphere to support liquid water, a key ingredient in the development of life as we know it. With its moderately high stellar flux, Ross 128 b is likely more prone to water loss, mainly on the side directly facing the star. However, an Earth-like atmosphere, assuming one exists, would be able to distribute the energy received from the star around the planet and allow more areas to potentially hold liquid water. In addition, study author Xavier Bonfils noted the possibility of significant cloud cover on the star-facing side, which would block out much incoming stellar energy and help keep the planet cool.
+
+### Solar flare potential
+
+The planet is considered one of the most Earth-like worlds ever found in relation to its temperature, size and rather quiet host star. Ross 128 b is very close in mass to Earth, only about 35% more massive, and is likely around 10% larger in radius. Gravity on the planet would be only slightly higher. Also, its host star Ross 128 is an evolved star with a stable stellar activity. Many red dwarfs like Proxima Centauri and TRAPPIST-1 are prone to releasing potentially deadly flares caused by powerful magnetic fields. Billions of years of exposure to these flares can potentially strip a planet of its atmosphere and render it sterile with possibly dangerous amounts of radiation. While Ross 128 is known to produce such flares, they are currently much less common and less powerful than those of the previously mentioned stars.
+
+### Atmospheric potential
+
+As of 2017, it is not yet possible to determine if Ross 128 b has an atmosphere because it does not transit the star. However, the James Webb Space Telescope and upcoming massive ground-based telescopes, like the Thirty Meter Telescope and the Extremely Large Telescope, could analyze the possible atmosphere of Ross 128 b without the need of transit. This would enable scientists to find biosignatures in the planet's atmosphere, which are chemicals like oxygen, ozone, and methane that are created by known biological processes.
+
+## In fiction
+
+Alexandra Oliva's 2026 novel, The Radiant Dark, posits an alternate timeline where an extraterrestrial species from Ross 128 b makes contact with Earth in the 1980s.

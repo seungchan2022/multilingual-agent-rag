@@ -1,0 +1,65 @@
+# Kepler-16b
+
+- Discovery
+  - Discovered by: Laurance Doyle
+  - Discovery date: 15 September 2011
+  - Detection method: Transit (Kepler Mission)
+- Orbital characteristics
+  - Semi-major axis: 0.7048 ± 0.0011 AU (105,440,000 ± 160,000 km)
+  - Eccentricity: 0.0069 ± 0.0015
+  - Orbital period (sidereal): 228.776 ± 0.037 d
+  - Inclination: 90.0322 ± 0.0023
+  - Longitude of ascending node: 0.003 ± 0.013
+  - Longitude of periastron: 106.51 ± 0.32
+  - Argument of periastron: 318 ± 22
+  - Star: Kepler-16
+- Physical characteristics
+  - Mean radius: 0.7538 (± 0.0025) RJ
+  - Mass: 0.333 (± 0.015) MJ
+  - Mean density: 0.964 (± 0.047) g cm⁻³
+  - Surface gravity: 14.52 (± 0.7) m/s²
+  - Temperature: 188 K (−85 °C; −121 °F)
+
+Kepler-16b (formally Kepler-16 (AB)-b) is a Saturn-sized exoplanet consisting of half gas and half rock and ice. It orbits a binary star, Kepler-16, with a period of 229 days. "It is the first confirmed, unambiguous example of a circumbinary planet – a planet orbiting not one, but two stars," said Josh Carter of the Center for Astrophysics | Harvard & Smithsonian, one of the discovery team.
+
+Kepler-16b is also unusual in that it falls inside the radius that was thought to be the inner limit for planet formation in a binary star system. According to Sara Seager, a planetary expert at the Massachusetts Institute of Technology, it was thought that for a planet to have a stable orbit around such a system, it would need to be at least seven times as far from the stars as the stars are from each other. Kepler-16b's orbit is only about half that distance.
+
+Kepler-16b orbits near the outer edge of the habitable zone, but it is a gas giant with surface temperatures around −100 to −70 °C (−150 to −94 °F).
+
+## Discovery
+
+Kepler-16b was discovered in 2011 using the space observatory aboard NASA's Kepler spacecraft. Scientists were able to detect Kepler-16b using the transit method, when they noticed the dimming of one of the system's stars even when the other was not eclipsing it. Furthermore, duration of transits and timing all the eclipses and transits of Kepler-16b and its stars in the system has allowed for unusually high precision in the calculations of the sizes and masses of objects in the Kepler-16 system. The leader of Kepler-16b's discovery team, Laurance Doyle of the SETI Institute in Mountain View, California, said of this precision, "I believe this is the best-measured planet outside the Solar System". For example, Kepler-16b's radius is known to within 0.3%, better than that of any other known exoplanet as of September 2011.
+
+As seen from Earth, Kepler-16b ceased transiting the dimmer star in 2014, and stopped crossing the second, brighter star in 2018. After that, Kepler-16b will remain undetectable using the transit method until around 2042.
+
+In 2021, Kepler-16b became the first circumbinary planet to be detected by the radial velocity method. The second such planet was TOI-1338 c, discovered by this method in 2023.
+
+## Characteristics
+
+### Mass, radius, and temperature
+
+Kepler-16b is a gas giant planet that is near the same mass and radius as the planets Jupiter and Saturn. It has a temperature of 188 K (−85 °C; −121 °F). The planet has a radius of 0.77 RJ, slightly smaller than Saturn, and has no solid surface.
+
+### Host stars
+
+The planet orbits in a circumbinary orbit around a K-type and M-type binary star system. The stars orbit each other about every 41 days. The stars have masses of 0.68 M☉ and 0.20 M☉ and radii of 0.64 R☉ and 0.22 R☉, respectively. They have surface temperatures of 4,450 K and 3,311 K and luminosities about 14% and 0.5% that of the Sun, respectively. Based on the stellar characteristics and orbital dynamics, an estimated age of 2 billion years for the system is possible. In comparison, the Sun is about 4.6 billion years old and has a surface temperature of 5,778 K.
+
+### Orbit
+
+Kepler-16b orbits its parent stars (more properly, their barycenter, or center of mass) every 228 days at a distance of 0.704 AU (nearly the same distance that of Venus orbits from the Sun, which is about 0.72 AU). It is unlikely to have formed in its current orbit, and likely migrated from elsewhere. The small eccentricity of Kepler-16b's orbit remains unexplained.
+
+## Potential habitability
+
+The habitable zone of the Kepler-16 system extends from approximately 55 to 106 million kilometers away from the binary system. Kepler-16b, with an orbit of about 104 million kilometers, lies near the outer edge of this habitable zone. Although the chances of life on the gas giant itself are remote, simulations conducted by researchers at the University of Texas suggest that sometime in the system's history, perturbations from other bodies could have caused an Earth-sized planet from the center of the habitable zone to migrate out of its orbit, allowing Kepler-16b to capture it as its moon. Furthermore, the researchers considered the possibility of a habitable planet orbiting at a distance of about 0.95–1.02 AU, which could retain the thermal energy required to keep water in a liquid state via a strong greenhouse effect.
+
+For a stable orbit the ratio between the moon's orbital period Ps around its primary and that of the primary around its star Pp must be less than 1:9 – for example, if a planet takes 90 days to orbit its star, the maximum stable orbit for a moon of that planet is less than 10 days. Simulations suggest that a moon with an orbital period less than about 45 to 60 days will remain safely bound to a massive giant planet or brown dwarf that orbits 1 AU from a Sun-like star.
+
+Tidal effects could also allow the moon to sustain plate tectonics, which would cause volcanic activity to regulate the moon's temperature and create a geodynamo effect which would give the satellite a strong magnetic field.
+
+To support an Earth-like atmosphere for about 4.6 billion years (the age of the Earth), the moon would have to have a Mars-like density and at least a mass of 0.07 M🜨. One way to decrease loss from sputtering is for the moon to have a strong magnetic field that can deflect stellar wind and radiation belts. NASA's Galileo's measurements hints large moons can have magnetic fields; it found that Jupiter's moon Ganymede has its own magnetosphere, even though its mass is only 0.025 M🜨.
+
+## Name
+
+In the announcement paper, the discovery team stated: "Following the convention of Ref. 22, we can denote the third body Kepler-16 (AB)-b, or simply "b" when there is no ambiguity." It is listed as Kepler-16 (AB)-b on the SIMBAD Astronomical Database. The Extrasolar Planets Encyclopaedia lists it as Kepler-16 (AB) b.
+
+The Smithsonian Center has informally referred to Kepler-16b as "Tatooine", a reference to the fictional planet with two Suns that is a key setting in the popular Star Wars series. "Again and again we see that the science is stranger and weirder than fiction" said John Knoll, the head visual effects supervisor at Industrial Light & Magic, who worked on several of the movies.

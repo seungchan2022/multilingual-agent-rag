@@ -1,0 +1,88 @@
+{
+ "seed": 20261019,
+ "rule": "(한국어 제목으로 맞춘다. 한 주제가 여럿에 걸리면 아래 차례의 첫 까닭으로 센다):\n  1 새 코퍼스의 주제(분야마다 15개)  2 지난번 코퍼스의 주제  3 수식이 든 문서(한국어나 영어 HTML에 mwe-math-element)\n남은 후보를 한국어 제목의 sorted로 늘어놓고 make_short_test.shuffled(씨앗 SEED)로 섞어 앞에서부터 5개를 고른다.",
+ "domains": {
+  "exoplanets": {
+   "candidates": 544,
+   "dropped": {
+    "새 코퍼스의 주제": 15,
+    "지난번 코퍼스의 주제": 2,
+    "수식이 든 문서": 33
+   },
+   "skipped": [],
+   "picked": [
+    {
+     "ko_title": "확인되지 않은 외계 행성 목록",
+     "en_title": "Hypothetical astronomical object",
+     "ko_revid": 39090407,
+     "en_revid": 1313272085
+    },
+    {
+     "ko_title": "HD 23596 b",
+     "en_title": "HD 23596 b",
+     "ko_revid": 41692536,
+     "en_revid": 1191197619
+    },
+    {
+     "ko_title": "HD 147513 b",
+     "en_title": "HD 147513 b",
+     "ko_revid": 39918536,
+     "en_revid": 1374388896
+    },
+    {
+     "ko_title": "HAT-P-9 b",
+     "en_title": "HAT-P-9b",
+     "ko_revid": 41695330,
+     "en_revid": 1348849144
+    },
+    {
+     "ko_title": "글리제 86 b",
+     "en_title": "Gliese 86 b",
+     "ko_revid": 41695811,
+     "en_revid": 1380319178
+    }
+   ]
+  },
+  "rare_earth": {
+   "candidates": 75,
+   "dropped": {
+    "새 코퍼스의 주제": 15,
+    "지난번 코퍼스의 주제": 2,
+    "수식이 든 문서": 3
+   },
+   "skipped": [],
+   "picked": [
+    {
+     "ko_title": "미시메탈",
+     "en_title": "Mischmetal",
+     "ko_revid": 42089498,
+     "en_revid": 1339453821
+    },
+    {
+     "ko_title": "십이붕소화 스칸듐",
+     "en_title": "Scandium dodecaboride",
+     "ko_revid": 41896717,
+     "en_revid": 1299792205
+    },
+    {
+     "ko_title": "산화 터븀(III,IV)",
+     "en_title": "Terbium(III,IV) oxide",
+     "ko_revid": 41964539,
+     "en_revid": 1348272735
+    },
+    {
+     "ko_title": "세륨 동위 원소",
+     "en_title": "Isotopes of cerium",
+     "ko_revid": 39896949,
+     "en_revid": 1380219787
+    },
+    {
+     "ko_title": "홀뮴",
+     "en_title": "Holmium",
+     "ko_revid": 42465440,
+     "en_revid": 1377857933
+    }
+   ]
+  }
+ }
+}

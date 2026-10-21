@@ -1,0 +1,390 @@
+# Lanthanide
+
+Lanthanides in the periodic table
+
+| Hydrogen |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Helium |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Lithium | Beryllium |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Boron | Carbon | Nitrogen | Oxygen | Fluorine | Neon |
+| Sodium | Magnesium |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Aluminium | Silicon | Phosphorus | Sulfur | Chlorine | Argon |
+| Potassium | Calcium |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Scandium | Titanium | Vanadium | Chromium | Manganese | Iron | Cobalt | Nickel | Copper | Zinc | Gallium | Germanium | Arsenic | Selenium | Bromine | Krypton |
+| Rubidium | Strontium |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Yttrium | Zirconium | Niobium | Molybdenum | Technetium | Ruthenium | Rhodium | Palladium | Silver | Cadmium | Indium | Tin | Antimony | Tellurium | Iodine | Xenon |
+| Caesium | Barium | Lanthanum | Cerium | Praseodymium | Neodymium | Promethium | Samarium | Europium | Gadolinium | Terbium | Dysprosium | Holmium | Erbium | Thulium | Ytterbium | Lutetium | Hafnium | Tantalum | Tungsten | Rhenium | Osmium | Iridium | Platinum | Gold | Mercury (element) | Thallium | Lead | Bismuth | Polonium | Astatine | Radon |
+| Francium | Radium | Actinium | Thorium | Protactinium | Uranium | Neptunium | Plutonium | Americium | Curium | Berkelium | Californium | Einsteinium | Fermium | Mendelevium | Nobelium | Lawrencium | Rutherfordium | Dubnium | Seaborgium | Bohrium | Hassium | Meitnerium | Darmstadtium | Roentgenium | Copernicium | Nihonium | Flerovium | Moscovium | Livermorium | Tennessine | Oganesson |
+
+| Part of a series on the |
+|---|
+| Periodic table |
+|  |
+| Periodic table forms 18-column, 32-column Alternative and extended forms |
+| Periodic table history D. Mendeleev 1871 table, 1869 predictions Discovery of elements Naming and etymology for people, for places, controversies (in East Asia) Systematic element names |
+| Sets of elements |
+| By periodic table structure Groups (1–18) 1 (alkali metals), 2 (alkaline earth metals), 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 (pnictogens), 16 (chalcogens), 17 (halogens), 18 (noble gases) Periods (1–7, ...) 1, 2, 3, 4, 5, 6, 7, 8+ Blocks (s, p, d, f, ...) Atomic orbitals, Aufbau principle |
+| By metallic classification Metals alkali, alkaline earth transition, post-transition lanthanide, actinide Metalloids dividing metals and nonmetals Nonmetals nonmetal halogen, noble gas |
+| By other characteristics Coinage metals, Platinum-group metals Precious metals, Refractory metals Heavy metals, Light metals Native metals, Noble metals Main-group elements, Rare-earth elements Transuranium elements Major, minor and trans- actinides |
+| Elements |
+| List of chemical elements by abundance (in human body) by atomic properties, by isotope stability by symbol |
+| Properties of elements Relative atomic mass, Crystal structure Electron affinity, configuration Electronegativity (Allen, Pauling) Goldschmidt classification Nutrition, Valence |
+| Data pages for elements Abundance, Atomic radius, Boiling point, Critical point, Density, Elasticity, Electrical resistivity, Electron affinity / configuration, Electronegativity, Hardness, Heat capacity / of fusion / of vaporization, Ionization energy, Melting point, Oxidation state, Speed of sound, Thermal conductivity / expansion coefficient, Vapor pressure |
+| Category, Chemistry Portal |
+| v, t, e |
+
+A lanthanide (/ˈlænθənaɪd/) is any of the 15 metallic chemical elements with atomic numbers 57–71, from lanthanum through lutetium. In the periodic table, the first fourteen (up to ytterbium) fill the 4f orbitals. Lutetium (element 71) is also often considered a lanthanide, despite being a d-block element and a transition metal. The IUPAC lists the 15 elements La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, under the collective name lanthanoid (/ˈlænθənɔɪd/), which it recommends as chemically more correct for this series.
+
+The informal chemical symbol Ln is used in general discussions of lanthanide chemistry to refer to any lanthanide. All but one of the lanthanides are f-block elements, corresponding to the filling of the 4f electron shell. Lutetium is a d-block element (thus also a transition metal), and on this basis its inclusion has been questioned; however, like its congeners scandium and yttrium in group 3, it behaves similarly to the other 14. The term rare-earth element or rare-earth metal is often used to include the stable group 3 elements Sc, Y, and Lu in addition to the 4f elements. All lanthanide elements form trivalent cations, Ln³⁺, whose chemistry is largely determined by the ionic radius, which decreases steadily from lanthanum (La) to lutetium (Lu). Several lanthanides can also form +2 and even +4 oxidation states.
+
+In presentations of the periodic table, the f-block elements are customarily shown as two additional rows below the main body of the table. This convention is entirely a matter of aesthetics and formatting practicality; a rarely used wide-formatted periodic table inserts the 4f and 5f series in their proper places, as parts of the table's sixth and seventh rows (periods), respectively.
+
+## Etymology
+
+The term "lanthanide" was introduced by Victor Goldschmidt in 1925. Despite their abundance, the technical term "lanthanides" is interpreted to reflect a sense of elusiveness on the part of these elements, as it comes from the Greek λανθανειν (lanthanein), "to lie hidden".
+
+The word reflects their property of "hiding" behind each other in minerals. The term derives from lanthanum, first discovered in 1838, at that time a so-called new rare-earth element "lying hidden" or "escaping notice" in a cerium mineral, and it is an irony that lanthanum was later identified as the first in an entire series of chemically similar elements and gave its name to the whole series.
+
+These elements are called lanthanides because the elements in the series are chemically similar to lanthanum. Because "lanthanide" means "like lanthanum", it has been argued that lanthanum cannot logically be a lanthanide, but the International Union of Pure and Applied Chemistry (IUPAC) acknowledges its inclusion based on common usage. The current IUPAC recommendation is that the name lanthanoid be used rather than lanthanide, as the suffix "-ide" is preferred for negative ions, whereas the suffix "-oid" indicates similarity to one of the members of the containing family of elements. However, lanthanide is still commonly used.
+
+## Physical properties of the elements
+
+The properties of the lanthanides arise from the order in which the electron shells of these elements are filled—the outermost (6s) has the same configuration for all of them, and a deeper (4f) shell is progressively filled with electrons as the atomic number increases from 57 towards 71. For many years, mixtures of more than one rare earth were considered to be single elements, such as neodymium and praseodymium being thought to be the single element didymium. Very small differences in solubility are used in solvent and ion-exchange purification methods for these elements, which require repeated application to obtain a purified metal. The diverse applications of refined metals and their compounds can be attributed to the subtle and pronounced variations in their electronic, electrical, optical, and magnetic properties.
+
+Some properties of the lanthanides
+
+| Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Atomic number | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 | 71 |
+| Image |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Density (g/cm³) | 6.162 | 6.770 | 6.77 | 7.01 | 7.26 | 7.52 | 5.244 | 7.90 | 8.23 | 8.540 | 8.79 | 9.066 | 9.32 | 6.90 | 9.841 |
+| Melting point (°C) | 920 | 795 | 935 | 1024 | 1042 | 1072 | 826 | 1312 | 1356 | 1407 | 1461 | 1529 | 1545 | 824 | 1652 |
+| Boiling point (°C) | 3464 | 3443 | 3520 | 3074 | 3000 | 1794 | 1529 | 3273 | 3230 | 2567 | 2720 | 2868 | 1950 | 1196 | 3402 |
+| Atomic electron configuration (gas phase)* | 5d¹ | 4f¹5d¹ | 4f³ | 4f⁴ | 4f⁵ | 4f⁶ | 4f⁷ | 4f⁷5d¹ | 4f⁹ | 4f¹⁰ | 4f¹¹ | 4f¹² | 4f¹³ | 4f¹⁴ | 4f¹⁴5d¹ |
+| Metal lattice (RT) | dhcp | fcc | dhcp | dhcp | dhcp | ** | bcc | hcp | hcp | hcp | hcp | hcp | hcp | fcc | hcp |
+| Metallic radius (pm) | 162 | 181.8 | 182.4 | 181.4 | 183.4 | 180.4 | 208.4 | 180.4 | 177.3 | 178.1 | 176.2 | 176.1 | 175.9 | 193.3 | 173.8 |
+| Resistivity at 25 °C (μΩ·cm) | 57–80 20 °C | 73 | 68 | 64 | —N/a | 88 | 90 | 134 | 114 | 57 | 87 | 87 | 79 | 29 | 79 |
+| Magnetic susceptibility χmol /10⁻⁶(cm³·mol⁻¹) | +95.9 | +2500 (β) | +5530 (α) | +5930 (α) | —N/a | +1278 (α) | +30900 | +185000 (350 K) | +170000 (α) | +98000 | +72900 | +48000 | +24700 | +67 (β) | +183 |
+
+* Between initial Xe and final 6s² electronic shells
+
+** Sm has a close packed structure like most of the lanthanides but has an unusual 9 layer repeat
+
+Gschneider and Daane (1988) attribute the trend in melting point which increases across the series, (lanthanum (920 °C) – lutetium (1622 °C)) to the extent of hybridization of the 6s, 5d, and 4f orbitals. The hybridization is believed to be at its greatest for cerium, which has the lowest melting point of all, 795 °C. The lanthanide metals are soft; their hardness increases across the series. Europium stands out, as it has the lowest density in the series at 5.24 g/cm³ and the largest metallic radius in the series at 208.4 pm. It can be compared to barium, which has a metallic radius of 222 pm. It is believed that the metal contains the larger Eu²⁺ ion and that there are only two electrons in the conduction band. Ytterbium also has a large metallic radius, and a similar explanation is suggested. The resistivities of the lanthanide metals are relatively high, ranging from 29 to 134 μΩ·cm. These values can be compared to a good conductor such as aluminium, which has a resistivity of 2.655 μΩ·cm. With the exceptions of La, Yb, and Lu (which have no unpaired f electrons), the lanthanides are strongly paramagnetic, and this is reflected in their magnetic susceptibilities. Gadolinium becomes ferromagnetic at below 16 °C (Curie point). The other heavier lanthanides – terbium, dysprosium, holmium, erbium, thulium, and ytterbium – become ferromagnetic at much lower temperatures.
+
+Electron configurations and colours of lanthanide ions
+
+| Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Atomic number | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 | 71 |
+| Ln³⁺ electron configuration* | 4f⁰ | 4f¹ | 4f² | 4f³ | 4f⁴ | 4f⁵ | 4f⁶ | 4f⁷ | 4f⁸ | 4f⁹ | 4f¹⁰ | 4f¹¹ | 4f¹² | 4f¹³ | 4f¹⁴ |
+| Ln³⁺ radius (pm) | 103 | 102 | 99 | 98.3 | 97 | 95.8 | 94.7 | 93.8 | 92.3 | 91.2 | 90.1 | 89 | 88 | 86.8 | 86.1 |
+| Ln⁴⁺ ion color in aqueous solution | — | Orange-yellow | Yellow | Blue-violet | — | — | — | — | Red-brown | Orange-yellow | — | — | — | — | — |
+| Ln³⁺ ion color in aqueous solution | Colorless | Colorless | Green | Violet | Pink | Pale yellow | Colorless | Colorless | V. pale pink | Pale yellow | Yellow | Rose | Pale green | Colorless | Colorless |
+| Ln²⁺ ion color in aqueous solution | — | — | — | — | — | Blood red | Colorless | — | — | — | — | — | Violet-red | Yellow-green | — |
+
+* Not including initial [Xe] core
+
+f → f transitions are symmetry forbidden (or Laporte-forbidden), which is also true of transition metals. However, transition metals are able to use vibronic coupling to break this rule. The valence orbitals in lanthanides are almost entirely non-bonding and as such little effective vibronic coupling takes, hence the spectra from f → f transitions are much weaker and narrower than those from d → d transitions. In general this makes the colors of lanthanide complexes far fainter than those of transition metal complexes.
+
+Approximate colors of lanthanide ions in aqueous solution
+
+| Oxidation state | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 | 71 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| +2 |  |  |  |  |  | Sm²⁺ | Eu²⁺ |  |  |  |  |  | Tm²⁺ | Yb²⁺ |  |
+| +3 | La³⁺ | Ce³⁺ | Pr³⁺ | Nd³⁺ | Pm³⁺ | Sm³⁺ | Eu³⁺ | Gd³⁺ | Tb³⁺ | Dy³⁺ | Ho³⁺ | Er³⁺ | Tm³⁺ | Yb³⁺ | Lu³⁺ |
+| +4 |  | Ce⁴⁺ | Pr⁴⁺ | Nd⁴⁺ |  |  |  |  | Tb⁴⁺ | Dy⁴⁺ |  |  |  |  |  |
+
+### Effect of 4f orbitals
+
+Viewing the lanthanides from left to right in the periodic table, the seven 4f atomic orbitals become progressively more filled (see above and Periodic table § Electron configuration table). The electronic configuration of most neutral gas-phase lanthanide atoms is [Xe]6s²4fⁿ, where n is 56 less than the atomic number Z. Exceptions are La, Ce, Gd, and Lu, which have 4fⁿ⁻¹5d¹ (though even then 4fⁿ is a low-lying excited state for La, Ce, and Gd; for Lu, the 4f shell is already full, and the fifteenth electron has no choice but to enter 5d). With the exception of lutetium, the 4f orbitals are chemically active in all lanthanides and produce profound differences between lanthanide chemistry and transition metal chemistry. The 4f orbitals penetrate the [Xe] core and are isolated, and thus they do not participate much in bonding. This explains why crystal field effects are small and why they do not form π bonds. As there are seven 4f orbitals, the number of unpaired electrons can be as high as 7, which gives rise to the large magnetic moments observed for lanthanide compounds.
+
+Measuring the magnetic moment can be used to investigate the 4f electron configuration, and this is a useful tool in providing an insight into the chemical bonding. The lanthanide contraction, i.e. the reduction in size of the Ln³⁺ ion from La³⁺ (103 pm) to Lu³⁺ (86.1 pm), is often explained by the poor shielding of the 5s and 5p electrons by the 4f electrons.
+
+## Chemistry and compounds
+
+The chemistry of the lanthanides is dominated by the +3 oxidation state, and in Lnᴵᴵᴵ compounds the 6s electrons and (usually) one 4f electron are lost and the ions have the configuration [Xe]4f⁽ⁿ⁻¹⁾. All the lanthanide elements exhibit the oxidation state +3. In addition, Ce³⁺ can lose its single f electron to form Ce⁴⁺ with the stable electronic configuration of xenon. Also, Eu³⁺ can gain an electron to form Eu²⁺ with the f⁷ configuration that has the extra stability of a half-filled shell. Other than Ce(IV) and Eu(II), none of the lanthanides are stable in oxidation states other than +3 in aqueous solution.
+
+In terms of reduction potentials, the Ln⁰/³⁺ couples are nearly the same for all lanthanides, ranging from −1.99 (for Eu) to −2.35 V (for Pr). Thus these metals are highly reducing, with reducing power similar to alkaline earth metals such as Mg (−2.36 V).
+
+### Lanthanide oxidation states
+
+Ionization energies and reduction potentials of the elements
+
+| Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Atomic number | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 | 71 |
+| electron configuration above [Xe] core | 4f⁰5d¹6s² | 4f¹5d¹6s² | 4f³6s² | 4f⁴6s² | 4f⁵6s² | 4f⁶6s² | 4f⁷6s² | 4f⁷5d¹6s² | 4f⁹6s² | 4f¹⁰6s² | 4f¹¹6s² | 4f¹²6s² | 4f¹³6s² | 4f¹⁴6s² | 4f¹⁴5d¹6s² |
+| E° Ln⁴⁺/Ln³⁺ |  | 1.72 | 3.2 |  |  |  |  |  | 3.1 |  |  |  |  |  |  |
+| E° Ln³⁺/Ln²⁺ |  |  |  | −2.6 |  | −1.55 | −0.35 |  |  | −2.5 |  |  | −2.3 | −1.05 |  |
+| E° Ln³⁺/Ln | −2.38 | −2.34 | −2.35 | −2.32 | −2.29 | −2.30 | −1.99 | −2.28 | −2.31 | −2.29 | −2.33 | −2.32 | −2.32 | −2.22 | −2.30 |
+| 1st Ionization energy (kJ·mol⁻¹) | 538 | 541 | 522 | 530 | 536 | 542 | 547 | 595 | 569 | 567 | 574 | 581 | 589 | 603 | 513 |
+| 2nd Ionization energy (kJ·mol⁻¹) | 1067 | 1047 | 1018 | 1034 | 1052 | 1068 | 1085 | 1172 | 1112 | 1126 | 1139 | 1151 | 1163 | 1175 | 1341 |
+| 1st + 2nd Ionization energy (kJ·mol⁻¹) | 1605 | 1588 | 1540 | 1564 | 1588 | 1610 | 1632 | 1767 | 1681 | 1693 | 1713 | 1732 | 1752 | 1778 | 1854 |
+| 3rd Ionization energy (kJ·mol⁻¹) | 1850 | 1940 | 2090 | 2128 | 2140 | 2285 | 2425 | 1999 | 2122 | 2230 | 2221 | 2207 | 2305 | 2408 | 2054 |
+| 1st + 2nd + 3rd Ionization energy (kJ·mol⁻¹) | 3455 | 3528 | 3630 | 3692 | 3728 | 3895 | 4057 | 3766 | 3803 | 3923 | 3934 | 3939 | 4057 | 4186 | 3908 |
+| 4th Ionization energy (kJ·mol⁻¹) | 4819 | 3547 | 3761 | 3900 | 3970 | 3990 | 4120 | 4250 | 3839 | 3990 | 4100 | 4120 | 4120 | 4203 | 4370 |
+
+The ionization energies for the lanthanides can be compared with aluminium. In aluminium the sum of the first three ionization energies is 5139 kJ·mol⁻¹, whereas the lanthanides fall in the range 3455 – 4186 kJ·mol⁻¹. This correlates with the highly reactive nature of the lanthanides.
+
+The sum of the first two ionization energies for europium, 1632 kJ·mol⁻¹ can be compared with that of barium 1468.1 kJ·mol⁻¹ and europium's third ionization energy is the highest of the lanthanides. The sum of the first two ionization energies for ytterbium are the second lowest in the series and its third ionization energy is the second highest. The high third ionization energy for Eu and Yb correlate with the half filling 4f⁷ and complete filling 4f¹⁴ of the 4f subshell, and the stability afforded by such configurations due to exchange energy. Europium and ytterbium form salt like compounds with Eu²⁺ and Yb²⁺, for example the salt like dihydrides. Both europium and ytterbium dissolve in liquid ammonia forming solutions of Ln²⁺(NH3)x again demonstrating their similarities to the alkaline earth metals.
+
+The relative ease with which the 4th electron can be removed in cerium and (to a lesser extent praseodymium) indicates why Ce(IV) and Pr(IV) compounds can be formed, for example CeO2 is formed rather than Ce2O3 when cerium reacts with oxygen. Also Tb has a well-known IV state, as removing the 4th electron in this case produces a half-full 4f⁷ configuration.
+
+The additional stable valences for Ce and Eu mean that their abundances in rocks sometimes varies significantly relative to the other rare earth elements: see cerium anomaly and europium anomaly.
+
+### Separation of lanthanides
+
+The separation of lanthanide elements is one of very laborious processes in inorganic chemistry. The dominant technology involves solvent extraction. Typically an aqueous solution of nitrates is extracted into kerosene containing tri-n-butylphosphate. Complete separation is achieved continuously by countercurrent exchange methods.
+
+#### Older methods
+
+At one time, fractional crystallization was used. This approach was applied to the separation of the lanthanides (and related elements) into three groups: yttrium, praseodymium-neodymium-samarium, cerium, and the others.
+
+The elements were also once separated by ion-exchange chromatography, often in combination with the use of aminocarboxylate ligands. Relevant is the stability constant for formation of EDTA complexes increases for log K ≈ 15.5 for [La(EDTA)]⁻ to log K ≈ 19.8 for [Lu(EDTA)]⁻.
+
+### Coordination chemistry
+
+When in the form of coordination complexes, lanthanides exist overwhelmingly in their +3 oxidation state, although particularly stable 4f configurations can also give +4 (Ce, Pr, Tb) or +2 (Sm, Eu, Yb) ions. All of these forms are strongly electropositive and thus lanthanide ions are hard Lewis acids. The oxidation states are also very stable; with the exceptions of SmI2 and cerium(IV) salts, lanthanides are not used for redox chemistry. 4f electrons have a high probability of being found close to the nucleus and are thus strongly affected as the nuclear charge increases across the series; this results in a corresponding decrease in ionic radii referred to as the lanthanide contraction.
+
+The low probability of the 4f electrons existing at the outer region of the atom or ion permits little effective overlap between the orbitals of a lanthanide ion and any binding ligand. Thus lanthanide complexes typically have little or no covalent character and are not influenced by orbital geometries. The lack of orbital interaction also means that varying the metal typically has little effect on the complex (other than size), especially when compared to transition metals. Complexes are held together by weaker electrostatic forces which are omni-directional and thus the ligands alone dictate the symmetry and coordination of complexes. Steric factors therefore dominate, with coordinative saturation of the metal being balanced against inter-ligand repulsion. This results in a diverse range of coordination geometries, many of which are irregular, and also manifests itself in the highly fluxional nature of the complexes. As there is no energetic reason to be locked into a single geometry, rapid intramolecular and intermolecular ligand exchange will take place. This typically results in complexes that rapidly fluctuate between all possible configurations.
+
+Hard Lewis acids polarise bonds upon coordination and thus alter the electrophilicity of compounds, with a classic example being the Luche reduction. The large size of the ions coupled with their labile ionic bonding allows even bulky coordinating species to bind and dissociate rapidly, resulting in very high turnover rates. The lack of orbital interactions combined with the lanthanide contraction means that the lanthanides change in size across the series but that their chemistry remains much the same. This allows for easy tuning of the steric environments and examples exist where this has been used to improve the catalytic activity of the complex and change the nuclearity of metal clusters.
+
+Despite this, the use of lanthanide coordination complexes as homogeneous catalysts is largely restricted to the laboratory
+
+### Catalysis
+
+Approximately 10% of the economic value of the lanthanides is attributed to their use in catalysis. Especially valued are their uses in petrochemical processing such as alkylation, coke removal. Ceria is of particular utility.
+
+#### Ln(III) compounds
+
+The trivalent lanthanides mostly form ionic salts. The trivalent ions are hard acceptors and form more stable complexes with oxygen-donor ligands than with nitrogen-donor ligands. The larger ions are 9-coordinate in aqueous solution, [Ln(H2O)9]³⁺ but the smaller ions are 8-coordinate, [Ln(H2O)8]³⁺. There is some evidence that the later lanthanides have more water molecules in the second coordination sphere. Complexation with monodentate ligands is generally weak because it is difficult to displace water molecules from the first coordination sphere. Stronger complexes are formed with chelating ligands because of the chelate effect, such as the tetra-anion derived from 1,4,7,10-tetraazacyclododecane-1,4,7,10-tetraacetic acid (DOTA).
+
+#### Ln(II) and Ln(IV) compounds
+
+The most common divalent derivatives of the lanthanides are for Eu(II), which achieves a favorable f⁷ configuration. Divalent halide derivatives are known for all of the lanthanides. They are either conventional salts or are Ln(III) "electride"-like salts. The simple salts include YbI2, EuI2, and SmI2. The electride-like salts, described as Ln³⁺, 2I⁻, e⁻, include LaI2, CeI2 and GdI2. Many of the iodides form soluble complexes with ethers, e.g. TmI2(dimethoxyethane)3. Samarium(II) iodide is a useful reducing agent. Ln(II) complexes can be synthesized by transmetalation reactions. The normal range of oxidation states can be expanded via the use of sterically bulky cyclopentadienyl ligands, in this way many lanthanides can be isolated as Ln(II) compounds.
+
+Ce(IV) in ceric ammonium nitrate is a useful oxidizing agent. The Ce(IV) is the exception owing to the tendency to form an unfilled f shell. Otherwise tetravalent lanthanides are rare. However, recently Tb(IV) and Pr(IV) complexes have been shown to exist.
+
+#### Hydrides
+
+| Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Atomic number | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 | 71 |
+| Metal lattice (RT) | dhcp | fcc | dhcp | dhcp | dhcp | r | bcc | hcp | hcp | hcp | hcp | hcp | hcp | hcp | hcp |
+| Dihydride | LaH2+x | CeH2+x | PrH2+x | NdH2+x |  | SmH2+x | EuH2 o "salt like" | GdH2+x | TbH2+x | DyH2+x | HoH2+x | ErH2+x | TmH2+x | YbH2+x o, fcc "salt like" | LuH2+x |
+| Structure | CaF2 | CaF2 | CaF2 | CaF2 | CaF2 | CaF2 | *PbCl2 | CaF2 | CaF2 | CaF2 | CaF2 | CaF2 | CaF2 |  | CaF2 |
+| metal sub lattice | fcc | fcc | fcc | fcc | fcc | fcc | o | fcc | fcc | fcc | fcc | fcc | fcc | o fcc | fcc |
+| Trihydride | LaH3−x | CeH3−x | PrH3−x | NdH3−x |  | SmH3−x | EuH3−x | GdH3−x | TbH3−x | DyH3−x | HoH3−x | ErH3−x | TmH3−x |  | LuH3−x |
+| metal sub lattice | fcc | fcc | fcc | hcp | hcp | hcp | fcc | hcp | hcp | hcp | hcp | hcp | hcp | hcp | hcp |
+| Trihydride properties transparent insulators (color where recorded) | red | bronze to grey | PrH3−x fcc | NdH3−x hcp |  | golden greenish | EuH3−x fcc | GdH3−x hcp | TbH3−x hcp | DyH3−x hcp | HoH3−x hcp | ErH3−x hcp | TmH3−x hcp |  | LuH3−x hcp |
+
+Lanthanide metals react exothermically with hydrogen to form LnH2, dihydrides. With the exception of Eu and Yb, which resemble the Ba and Ca hydrides (non-conducting, transparent salt-like compounds), they form black, pyrophoric, conducting compounds where the metal sub-lattice is face centred cubic and the H atoms occupy tetrahedral sites. Further hydrogenation produces a trihydride which is non-stoichiometric, non-conducting, more salt like. The formation of trihydride is associated with and increase in 8–10% volume and this is linked to greater localization of charge on the hydrogen atoms which become more anionic (H⁻ hydride anion) in character.
+
+#### Halides
+
+Lanthanide halides
+
+| Chemical element | La | Ce | Pr | Nd | Pm | Sm | Eu | Gd | Tb | Dy | Ho | Er | Tm | Yb | Lu |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Atomic number | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 66 | 67 | 68 | 69 | 70 | 71 |
+| Tetrafluoride |  | CeF4 | PrF4 | NdF4 |  |  |  |  | TbF4 | DyF4 |  |  |  |  |  |
+| Color m.p. °C |  | white dec | white dec |  |  |  |  |  | white dec |  |  |  |  |  |  |
+| Structure C.N. |  | UF4 8 | UF4 8 |  |  |  |  |  | UF4 8 |  |  |  |  |  |  |
+| Trifluoride | LaF3 | CeF3 | PrF3 | NdF3 | PmF3 | SmF3 | EuF3 | GdF3 | TbF3 | DyF3 | HoF3 | ErF3 | TmF3 | YbF3 | LuF3 |
+| Color m.p. °C | white 1493 | white 1430 | green 1395 | violet 1374 | pink 1399 | white 1306 | white 1276 | white 1231 | white 1172 | white 1154 | yellow 1143 | pink 1140 | white 1158 | white 1157 | white 1182 |
+| Structure C.N. | LaF3 9 | LaF3 9 | LaF3 9 | LaF3 9 | LaF3 9 | YF3 8 | YF3 8 | YF3 8 | YF3 8 | YF3 8 | YF3 8 | YF3 8 | YF3 8 | YF3 8 | YF3 8 |
+| Trichloride | LaCl3 | CeCl3 | PrCl3 | NdCl3 | PmCl3 | SmCl3 | EuCl3 | GdCl3 | TbCl3 | DyCl3 | HoCl3 | ErCl3 | TmCl3 | YbCl3 | LuCl3 |
+| Color m.p. °C | white 858 | white 817 | green 786 | mauve 758 | purple 786 | yellow 682 | yellow dec | white 602 | white 582 | white 647 | yellow 720 | violet 776 | yellow 824 | white 865 | white 925 |
+| Structure C.N. | UCl3 9 | UCl3 9 | UCl3 9 | UCl3 9 | UCl3 9 | UCl3 9 | UCl3 9 | UCl3 9 | PuBr3 8 | PuBr3 8 | YCl3 6 | YCl3 6 | YCl3 6 | YCl3 6 | YCl3 6 |
+| Tribromide | LaBr3 | CeBr3 | PrBr3 | NdBr3 | PmBr3 | SmBr3 | EuBr3 | GdBr3 | TbBr3 | DyBr3 | HoBr3 | ErBr3 | TmBr3 | YbBr3 | LuBr3 |
+| Color m.p. °C | white 783 | white 733 | green 691 | violet 682 | red 693 | yellow 640 | grey dec | white 770 | white 828 | white 879 | yellow 919 | violet 923 | white 954 | white dec | white 1025 |
+| Structure C.N. | UCl3 9 | UCl3 9 | UCl3 9 | PuBr3 8 | PuBr3 8 | PuBr3 8 | PuBr3 8 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
+| Triiodide | LaI3 | CeI3 | PrI3 | NdI3 | PmI3 | SmI3 | EuI3 | GdI3 | TbI3 | DyI3 | HoI3 | ErI3 | TmI3 | YbI3 | LuI3 |
+| Color m.p. °C | yellow-green 772 | yellow 766 | green 738 | green 784 | red 737 | orange 850 | colorless dec. | yellow 925 | brown 957 | green 978 | yellow 994 | violet 1015 | yellow 1021 | white dec | brown 1050 |
+| Structure C.N. | PuBr3 8 | PuBr3 8 | PuBr3 8 | PuBr3 8 | PuBr3 8 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 | BiI3 6 |
+| Difluoride |  |  |  |  |  | SmF2 | EuF2 |  |  |  |  |  | TmF2 | YbF2 |  |
+| Color m.p. °C |  |  |  |  |  | purple 1417 | yellow 1416 |  |  |  |  |  |  | grey |  |
+| Structure C.N. |  |  |  |  |  | CaF2 8 | CaF2 8 |  |  |  |  |  |  | CaF2 8 |  |
+| Dichloride |  |  |  | NdCl2 |  | SmCl2 | EuCl2 |  |  | DyCl2 |  |  | TmCl2 | YbCl2 |  |
+| Color m.p. °C |  |  |  | green 841 |  | brown 859 | white 731 |  |  | black dec. |  |  | green 718 | green 720 |  |
+| Structure C.N. |  |  |  | PbCl2 9 |  | PbCl2 9 | PbCl2 9 |  |  | SrBr2 |  |  | SrI2 7 | SrI2 7 |  |
+| Dibromide |  |  |  | NdBr2 |  | SmBr2 | EuBr2 |  |  | DyBr2 |  |  | TmBr2 | YbBr2 |  |
+| Color m.p. °C |  |  |  | green 725 |  | brown 669 | white 731 |  |  | black |  |  | green | yellow 673 |  |
+| Structure C.N. |  |  |  | PbCl2 9 |  | SrBr2 8 | SrBr2 8 |  |  | SrI2 7 |  |  | SrI2 7 | SrI2 7 |  |
+| Diiodide | LaI2 metallic | CeI2 metallic | PrI2 metallic | NdI2 high pressure metallic |  | SmI2 | EuI2 | GdI2 metallic |  | DyI2 |  |  | TmI2 | YbI2 |  |
+| Color m.p. °C |  | bronze 808 | bronze 758 | violet 562 |  | green 520 | green 580 | bronze 831 |  | purple 721 |  |  | black 756 | yellow 780 |  |
+| Structure C.N. | CuTi2 8 | CuTi2 8 | CuTi2 8 | SrBr2 8 CuTi2 8 |  | EuI2 7 | EuI2 7 | 2H-MoS2 6 |  |  |  |  | CdI2 6 | CdI2 6 |  |
+| Ln7I12 | La7I12 |  | Pr7I12 |  |  |  |  |  | Tb7I12 |  |  |  |  |  |  |
+| Sesquichloride | La2Cl3 |  |  |  |  |  |  | Gd2Cl3 | Tb2Cl3 |  |  | Er2Cl3 | Tm2Cl3 |  | Lu2Cl3 |
+| Structure |  |  |  |  |  |  |  | Gd2Cl3 | Gd2Cl3 |  |  |  |  |  |  |
+| Sesquibromide |  |  |  |  |  |  |  | Gd2Br3 | Tb2Br3 |  |  |  |  |  |  |
+| Structure |  |  |  |  |  |  |  | Gd2Cl3 | Gd2Cl3 |  |  |  |  |  |  |
+| Monoiodide | LaI |  |  |  |  |  |  |  |  |  |  |  | TmI |  |  |
+| Structure | NiAs type |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+The only tetrahalides known are the tetrafluorides of cerium, praseodymium, terbium, neodymium and dysprosium, the last two known only under matrix isolation conditions. All of the lanthanides form trihalides with fluorine, chlorine, bromine and iodine. They are all high melting and predominantly ionic in nature. The fluorides are only slightly soluble in water and are not sensitive to air, and this contrasts with the other halides which are air sensitive, readily soluble in water and react at high temperature to form oxohalides.
+
+The trihalides were important as pure metal can be prepared from them. In the gas phase the trihalides are planar or approximately planar, the lighter lanthanides have a lower % of dimers, the heavier lanthanides a higher proportion. The dimers have a similar structure to Al2Cl6.
+
+Some of the dihalides are conducting while the rest are insulators. The conducting forms can be considered as Lnᴵᴵᴵ electride compounds where the electron is delocalised into a conduction band, Ln³⁺ (X⁻)2(e⁻). All of the diiodides have relatively short metal-metal separations. The CuTi2 structure of the lanthanum, cerium and praseodymium diiodides along with HP-NdI2 contain 4⁴ nets of metal and iodine atoms with short metal-metal bonds (393-386 La-Pr). these compounds should be considered to be two-dimensional metals (two-dimensional in the same way that graphite is). The salt-like dihalides include those of Eu, Dy, Tm, and Yb. The formation of a relatively stable +2 oxidation state for Eu and Yb is usually explained by the stability (exchange energy) of half filled (f⁷) and fully filled f¹⁴. GdI2 possesses the layered MoS2 structure, is ferromagnetic and exhibits colossal magnetoresistance.
+
+The sesquihalides Ln2X3 and the Ln7I12 compounds listed in the table contain metal clusters, discrete Ln6I12 clusters in Ln7I12 and condensed clusters forming chains in the sesquihalides. Scandium forms a similar cluster compound with chlorine, Sc7Cl12 Unlike many transition metal clusters these lanthanide clusters do not have strong metal-metal interactions and this is due to the low number of valence electrons involved, but instead are stabilised by the surrounding halogen atoms.
+
+LaI and TmI are the only known monohalides. LaI, prepared from the reaction of LaI3 and La metal, it has a NiAs type structure and can be formulated La³⁺ (I⁻)(e⁻)2. TmI is a true Tm(I) compound, however it is not isolated in a pure state.
+
+#### Oxides and hydroxides
+
+All of the lanthanides form sesquioxides, Ln2O3. The lighter/larger lanthanides adopt a hexagonal 7-coordinate structure while the heavier/smaller ones adopt a cubic 6-coordinate "C-M2O3" structure. All of the sesquioxides are basic, and absorb water and carbon dioxide from air to form carbonates, hydroxides and hydroxycarbonates. They dissolve in acids to form salts.
+
+Cerium forms a stoichiometric dioxide, CeO2, where cerium has an oxidation state of +4. CeO2 is basic and dissolves with difficulty in acid to form Ce⁴⁺ solutions, from which Ceᴵⱽ salts can be isolated, for example the hydrated nitrate Ce(NO3)4.5H2O. CeO2 is used as an oxidation catalyst in catalytic converters. Praseodymium and terbium form non-stoichiometric oxides containing Lnᴵⱽ, although more extreme reaction conditions can produce stoichiometric (or near stoichiometric) PrO2 and TbO2.
+
+Europium and ytterbium form salt-like monoxides, EuO and YbO, which have a rock salt structure. EuO is ferromagnetic at low temperatures, and is a semiconductor with possible applications in spintronics. A mixed Euᴵᴵ/Euᴵᴵᴵ oxide Eu3O4 can be produced by reducing Eu2O3 in a stream of hydrogen. Neodymium and samarium also form monoxides, but these are shiny conducting solids, although the existence of samarium monoxide is considered dubious.
+
+All of the lanthanides form hydroxides, Ln(OH)3. With the exception of lutetium hydroxide, which has a cubic structure, they have the hexagonal UCl3 structure. The hydroxides can be precipitated from solutions of Lnᴵᴵᴵ. They can also be formed by the reaction of the sesquioxide, Ln2O3, with water, but although this reaction is thermodynamically favorable it is kinetically slow for the heavier members of the series. Fajans' rules indicate that the smaller Ln³⁺ ions will be more polarizing and their salts correspondingly less ionic. The hydroxides of the heavier lanthanides become less basic, for example Yb(OH)3 and Lu(OH)3 are still basic hydroxides but will dissolve in hot concentrated NaOH.
+
+#### Chalcogenides (S, Se, Te)
+
+All of the lanthanides form Ln2Q3 (Q= S, Se, Te). The sesquisulfides can be produced by reaction of the elements or (with the exception of Eu2S3) sulfidizing the oxide (Ln2O3) with H2S. The sesquisulfides, Ln2S3 generally lose sulfur when heated and can form a range of compositions between Ln2S3 and Ln3S4. The sesquisulfides are insulators but some of the Ln3S4 are metallic conductors (e.g. Ce3S4) formulated (Ln³⁺)3 (S²⁻)4 (e⁻), while others (e.g. Eu3S4 and Sm3S4) are semiconductors. Structurally the sesquisulfides adopt structures that vary according to the size of the Ln metal. The lighter and larger lanthanides favoring 7-coordinate metal atoms, the heaviest and smallest lanthanides (Yb and Lu) favoring 6 coordination and the rest structures with a mixture of 6 and 7 coordination.
+
+Polymorphism is common amongst the sesquisulfides. The colors of the sesquisulfides vary metal to metal and depend on the polymorphic form. The colors of the γ-sesquisulfides are La2S3, white/yellow; Ce2S3, dark red; Pr2S3, green; Nd2S3, light green; Gd2S3, sand; Tb2S3, light yellow and Dy2S3, orange. The shade of γ-Ce2S3 can be varied by doping with Na or Ca with hues ranging from dark red to yellow, and Ce2S3 based pigments are used commercially and are seen as low toxicity substitutes for cadmium based pigments.
+
+All of the lanthanides form monochalcogenides, LnQ, (Q= S, Se, Te). The majority of the monochalcogenides are conducting, indicating a formulation LnᴵᴵᴵQ²⁻(e-) where the electron is in conduction bands. The exceptions are SmQ, EuQ and YbQ which are semiconductors or insulators but exhibit a pressure induced transition to a conducting state. Compounds LnQ2 are known but these do not contain Lnᴵⱽ but are Lnᴵᴵᴵ compounds containing polychalcogenide anions.
+
+Oxysulfides Ln2O2S are well known, they all have the same structure with 7-coordinate Ln atoms, and 3 sulfur and 4 oxygen atoms as near neighbours. Doping these with other lanthanide elements produces phosphors. As an example, gadolinium oxysulfide, Gd2O2S doped with Tb³⁺ produces visible photons when irradiated with high energy X-rays and is used as a scintillator in flat panel detectors. When mischmetal, an alloy of lanthanide metals, is added to molten steel to remove oxygen and sulfur, stable oxysulfides are produced that form an immiscible solid.
+
+#### Pnictides (group 15)
+
+All of the lanthanides form a mononitride, LnN, with the rock salt structure. The mononitrides have attracted interest because of their unusual physical properties. SmN and EuN are reported as being "half metals". NdN, GdN, TbN and DyN are ferromagnetic, SmN is antiferromagnetic. Applications in the field of spintronics are being investigated. CeN is unusual as it is a metallic conductor, contrasting with the other nitrides also with the other cerium pnictides. A simple description is Ce⁴⁺N³⁻ (e–) but the interatomic distances are a better match for the trivalent state rather than for the tetravalent state. A number of different explanations have been offered. The nitrides can be prepared by the reaction of lanthanum metals with nitrogen. Some nitride is produced along with the oxide, when lanthanum metals are ignited in air. Alternative methods of synthesis are a high temperature reaction of lanthanide metals with ammonia or the decomposition of lanthanide amides, Ln(NH2)3. Achieving pure stoichiometric compounds, and crystals with low defect density has proved difficult. The lanthanide nitrides are sensitive to air and hydrolyse producing ammonia.
+
+The other pnictides phosphorus, arsenic, antimony and bismuth also react with the lanthanide metals to form monopnictides, LnQ, where Q = P, As, Sb or Bi. Additionally a range of other compounds can be produced with varying stoichiometries, such as LnP2, LnP5, LnP7, Ln3As, Ln5As3 and LnAs2.
+
+#### Carbides
+
+Carbides of varying stoichiometries are known for the lanthanides. Non-stoichiometry is common. All of the lanthanides form LnC2 and Ln2C3 which both contain C2 units.
+
+The dicarbides with exception of EuC2, are metallic conductors with the calcium carbide structure and can be formulated as Ln³⁺C2²⁻(e–). The C-C bond length is longer than that in CaC2, which contains the C2²⁻ anion, indicating that the antibonding orbitals of the C2²⁻ anion are involved in the conduction band. These dicarbides hydrolyse to form hydrogen and a mixture of hydrocarbons. EuC2 and to a lesser extent YbC2 hydrolyse differently producing a higher percentage of acetylene (ethyne).
+
+The sesquicarbides, Ln2C3 can be formulated as Ln4(C2)3. These compounds adopt the Pu2C3 structure which has been described as having C2²⁻ anions in bisphenoid holes formed by eight near Ln neighbours. The C-C bond is less elongated than in the dicarbides, with the exception of Ce2C3, indicating that the delocalized metal electrons do not fill C-C antibonding orbitals.
+
+Other carbon rich stoichiometries are known for some lanthanides. Ln3C4 (Ho-Lu) containing C, C2 and C3 units; Ln4C7 (Ho-Lu) contain C atoms and C3 units and Ln4C5 (Gd-Ho) containing C and C2 units.
+
+Metal rich carbides contain interstitial C atoms and no C2 or C3 units. These are Ln4C3 (Tb and Lu); Ln2C (Dy, Ho, Tm) and Ln3C (Sm-Lu). These hydrolyze to methane.
+
+#### Borides
+
+All of the lanthanides form a number of borides. The "higher" borides (LnBx where x > 12) are insulators/semiconductors whereas the lower borides are typically conducting. The lower borides have stoichiometries of LnB2, LnB4, LnB6 and LnB12. Applications in the field of spintronics are being investigated. The range of borides formed by the lanthanides can be compared to those formed by the transition metals. The boron rich borides are typical of the lanthanides (and groups 1–3) whereas for the transition metals tend to form metal rich, "lower" borides. The lanthanide borides are typically grouped together with the group 3 metals with which they share many similarities of reactivity, stoichiometry and structure. Collectively these are then termed the rare earth borides.
+
+Many methods of producing lanthanide borides have been used, amongst them are direct reaction of the elements; the reduction of Ln2O3 with boron; reduction of boron oxide, B2O3, and Ln2O3 together with carbon; reduction of metal oxide with boron carbide, B4C. Producing high purity samples has proved to be difficult. Single crystals of the higher borides have been grown in a low melting metal (e.g. Sn, Cu, Al).
+
+Diborides, LnB2, have been reported for Sm, Gd, Tb, Dy, Ho, Er, Tm, Yb and Lu. All have the same, AlB2, structure containing a graphitic layer of boron atoms. Low temperature ferromagnetic transitions for Tb, Dy, Ho and Er. TmB2 is ferromagnetic at 7.2 K.
+
+Tetraborides, LnB4 have been reported for all of the lanthanides except EuB4, all have the same UB4 structure. The structure has a boron sub-lattice consists of chains of octahedral B6 clusters linked by boron atoms. The unit cell decreases in size successively from LaB4 to LuB4. The tetraborides of the lighter lanthanides melt with decomposition to LnB6. Attempts to make EuB4 have failed. The LnB4 are good conductors and typically antiferromagnetic.
+
+Hexaborides, LnB6 have been reported for all of the lanthanides. They all have the CaB6 structure, containing B6 clusters. They are non-stoichiometric due to cation defects. The hexaborides of the lighter lanthanides (La – Sm) melt without decomposition, EuB6 decomposes to boron and metal and the heavier lanthanides decompose to LnB4 with exception of YbB6 which decomposes forming YbB12. The stability has in part been correlated to differences in volatility between the lanthanide metals. In EuB6 and YbB6 the metals have an oxidation state of +2 whereas in the rest of the lanthanide hexaborides it is +3. This rationalises the differences in conductivity, the extra electrons in the Lnᴵᴵᴵ hexaborides entering conduction bands. EuB6 is a semiconductor and the rest are good conductors. LaB6 and CeB6 are thermionic emitters, used, for example, in scanning electron microscopes.
+
+Dodecaborides, LnB12, are formed by the heavier smaller lanthanides, but not by the lighter larger metals, La – Eu. With the exception YbB12 (where Yb takes an intermediate valence and is a Kondo insulator), the dodecaborides are all metallic compounds. They all have the UB12 structure containing a 3 dimensional framework of cubooctahedral B12 clusters.
+
+The higher boride LnB66 is known for all lanthanide metals. The composition is approximate as the compounds are non-stoichiometric. They all have similar complex structure with over 1600 atoms in the unit cell. The boron cubic sub lattice contains super icosahedra made up of a central B12 icosahedra surrounded by 12 others, B12(B12)12. Other complex higher borides LnB50 (Tb, Dy, Ho Er Tm Lu) and LnB25 are known (Gd, Tb, Dy, Ho, Er) and these contain boron icosahedra in the boron framework.
+
+#### Organometallic compounds
+
+Lanthanide-carbon σ bonds are well known; however as the 4f electrons have a low probability of existing at the outer region of the atom there is little effective orbital overlap, resulting in bonds with significant ionic character. As such organo-lanthanide compounds exhibit carbanion-like behavior, unlike the behavior in transition metal organometallic compounds. Because of their large size, lanthanides tend to form more stable organometallic derivatives with bulky ligands to give compounds such as Ln[CH(SiMe3)3]. Analogues of uranocene are derived from dilithiocyclooctatetraene, Li2C8H8. Organic lanthanide(II) compounds are also known, such as Cp*2Eu.
+
+## Physical properties
+
+### Magnetic and spectroscopic
+
+All the trivalent lanthanide ions, except lanthanum and lutetium, have unpaired f electrons. (Ligand-to-metal charge transfer can nonetheless produce a nonzero f-occupancy even in La(III) compounds.) However, the magnetic moments deviate considerably from the spin-only values because of strong spin–orbit coupling. The maximum number of unpaired electrons is 7, in Gd³⁺, with a magnetic moment of 7.94 B.M., but the largest magnetic moments, at 10.4–10.7 B.M., are exhibited by Dy³⁺ and Ho³⁺. However, in Gd³⁺ all the electrons have parallel spin and this property is important for the use of gadolinium complexes as contrast reagent in MRI scans.
+
+Crystal field splitting is rather small for the lanthanide ions and is less important than spin–orbit coupling in regard to energy levels. Transitions of electrons between f orbitals are forbidden by the Laporte rule. Furthermore, because of the "buried" nature of the f orbitals, coupling with molecular vibrations is weak. Consequently, the spectra of lanthanide ions are rather weak and the absorption bands are similarly narrow. Glass containing holmium oxide and holmium oxide solutions (usually in perchloric acid) have sharp optical absorption peaks in the spectral range 200–900 nm and can be used as a wavelength calibration standard for optical spectrophotometers, and are available commercially.
+
+As f-f transitions are Laporte-forbidden, once an electron has been excited, decay to the ground state will be slow. This makes them suitable for use in lasers as it makes the population inversion easy to achieve. The Nd:YAG laser is one that is widely used. Europium-doped yttrium vanadate was the first red phosphor to enable the development of color television screens. Lanthanide ions have notable luminescent properties due to their unique 4f orbitals. Laporte forbidden f-f transitions can be activated by excitation of a bound "antenna" ligand. This leads to sharp emission bands throughout the visible, NIR, and IR and relatively long luminescence lifetimes.
+
+## Occurrence
+
+- v
+- t
+- e
+
+Lanthanides
+
+| Lan­thanum57La​138.91 | Cerium58Ce​140.12 | Praseo­dymium59Pr​140.91 | Neo­dymium60Nd​144.24 | Prome­thium61Pm​[145] | Sama­rium62Sm​150.36 | Europ­ium63Eu​151.96 | Gadolin­ium64Gd​157.25 | Ter­bium65Tb​158.93 | Dyspro­sium66Dy​162.50 | Hol­mium67Ho​164.93 | Erbium68Er​167.26 | Thulium69Tm​168.93 | Ytter­bium70Yb​173.05 | Lute­tium71Lu​174.97 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+Primordial From decay Synthetic Border shows natural occurrence of the element
+
+Samarskite and similar minerals contain lanthanides in association with the elements such as tantalum, niobium, hafnium, zirconium, vanadium, and titanium, from group 4 and group 5, often in similar oxidation states. Monazite is a phosphate of numerous group 3 + lanthanide + actinide metals and mined especially for the thorium content and specific rare earths, especially lanthanum, yttrium and cerium. Cerium and lanthanum as well as other members of the rare-earth series are often produced as a metal called mischmetal containing a variable mixture of these elements with cerium and lanthanum predominating; it has direct uses such as lighter flints and other spark sources which do not require extensive purification of one of these metals.
+
+There are also lanthanide-bearing minerals based on group-2 elements, such as yttrocalcite, yttrocerite and yttrofluorite, which vary in content of yttrium, cerium, lanthanum and others. Other lanthanide-bearing minerals include bastnäsite, florencite, chernovite, perovskite, xenotime, cerite, gadolinite, lanthanite, fergusonite, polycrase, blomstrandine, håleniusite, miserite, loparite, lepersonnite, euxenite, all of which have a range of relative element concentration and may be denoted by a predominating one, as in monazite-(Ce). Group 3 elements do not occur as native-element minerals in the fashion of gold, silver, tantalum and many others on Earth, but may occur in lunar soil. Very rare halides of cerium, lanthanum, and presumably other lanthanides, feldspars and garnets are also known to exist.
+
+The lanthanide contraction is responsible for the great geochemical divide that splits the lanthanides into light and heavy-lanthanide enriched minerals, the latter being almost inevitably associated with and dominated by yttrium. This divide is reflected in the first two "rare earths" that were discovered: yttria (1794) and ceria (1803). The geochemical divide has put more of the light lanthanides in the Earth's crust, but more of the heavy members in the Earth's mantle. The result is that although large rich ore-bodies are found that are enriched in the light lanthanides, correspondingly large ore-bodies for the heavy members are few. The principal ores are monazite and bastnäsite. Monazite sands usually contain all the lanthanide elements, but the heavier elements are lacking in bastnäsite. The lanthanides obey the Oddo–Harkins rule – odd-numbered elements are less abundant than their even-numbered neighbors.
+
+Three of the lanthanide elements have radioactive isotopes with long half-lives (¹³⁸La, ¹⁴⁷Sm and ¹⁷⁶Lu) that can be used to date minerals and rocks from Earth, the Moon and meteorites. Promethium is effectively a man-made element, as all its isotopes are radioactive with half-lives shorter than 20 years.
+
+## Applications
+
+### Industrial
+
+Lanthanide elements and their compounds have many uses but the quantities consumed are relatively small in comparison to other elements. About 15000 ton/year of the lanthanides are consumed as catalysts and in the production of glasses. This 15000 tons corresponds to about 85% of the lanthanide production. From the perspective of value, however, applications in phosphors and magnets are more important.
+
+The devices lanthanide elements are used in include superconductors, samarium-cobalt and neodymium-iron-boron high-flux rare-earth magnets, magnesium alloys, electronic polishers, refining catalysts and hybrid car components (primarily batteries and magnets). Lanthanide ions are used as the active ions in luminescent materials used in optoelectronics applications, most notably the Nd:YAG laser. Erbium-doped fiber amplifiers are significant devices in optical-fiber communication systems. Phosphors with lanthanide dopants are also widely used in cathode-ray tube technology such as television sets. The earliest color television CRTs had a poor-quality red; europium as a phosphor dopant made good red phosphors possible. Yttrium iron garnet (YIG) spheres can act as tunable microwave resonators.
+
+Lanthanide oxides are mixed with tungsten to improve their high temperature properties for TIG welding, replacing thorium, which was mildly hazardous to work with. Many defense-related products also use lanthanide elements such as night-vision goggles and rangefinders. The SPY-1 radar used in some Aegis equipped warships, and the hybrid propulsion system of Arleigh Burke-class destroyers all use rare earth magnets in critical capacities. The price for lanthanum oxide used in fluid catalytic cracking has risen from $5 per kilogram in early 2010 to $140 per kilogram in June 2011.
+
+Most lanthanides are widely used in lasers, and as (co-)dopants in doped-fiber optical amplifiers; for example, in Er-doped fiber amplifiers, which are used as repeaters in the terrestrial and submarine fiber-optic transmission links that carry internet traffic. These elements deflect ultraviolet and infrared radiation and are commonly used in the production of sunglass lenses. Other applications are summarized in the following table:
+
+| Application | Percentage |
+|---|---|
+| Catalytic converters | 45% |
+| Petroleum refining catalysts | 25% |
+| Permanent magnets | 12% |
+| Glass polishing and ceramics | 7% |
+| Metallurgical | 7% |
+| Phosphors | 3% |
+| Other | 1% |
+
+The complex Gd(DOTA) is used in magnetic resonance imaging.
+
+Mixtures containing all of the lanthanides operating as a single-atom catalysts have been proposed for the electroreduction of carbon dioxide (CO2) to carbon monoxide (CO) with a faradaic efficiency greater than 90%.
+
+### Radiation resistance
+
+Titanium oxides of the lanthanides, Ln 2Ti 2O 7, have potential in the storage of nuclear waste. These compounds can incorporate radioactive actinides and yet resist radiation damage. This resistance depends on the critical amorphization temperature of each lanthanide. The critical amorphization temperature decreases with decreasing lanthanide ionic radius. Consequently, lanthanides of a smaller ionic radius possess a higher radiation resistance than larger lanthanides.
+
+### Life science
+
+Lanthanide complexes can be used for optical imaging. Applications are limited by the lability of the complexes.
+
+Some applications depend on the unique luminescence properties of lanthanide chelates or cryptates. These are well-suited for this application due to their large Stokes shifts and extremely long emission lifetimes (from microseconds to milliseconds) compared to more traditional fluorophores (e.g., fluorescein, allophycocyanin, phycoerythrin, and rhodamine).
+
+The biological fluids or serum commonly used in these research applications contain many compounds and proteins which are naturally fluorescent. Therefore, the use of conventional, steady-state fluorescence measurement presents serious limitations in assay sensitivity. Long-lived fluorophores, such as lanthanides, combined with time-resolved detection (a delay between excitation and emission detection) minimizes prompt fluorescence interference.
+
+Time-resolved fluorometry (TRF) combined with Förster resonance energy transfer (FRET) offers a powerful tool for drug discovery researchers: Time-Resolved Förster Resonance Energy Transfer or TR-FRET. TR-FRET combines the low background aspect of TRF with the homogeneous assay format of FRET. The resulting assay provides an increase in flexibility, reliability and sensitivity in addition to higher throughput and fewer false positive/false negative results.
+
+This method involves two fluorophores: a donor and an acceptor. Excitation of the donor fluorophore (in this case, the lanthanide ion complex) by an energy source (e.g. flash lamp or laser) produces an energy transfer to the acceptor fluorophore if they are within a given proximity to each other (known as the Förster's radius). The acceptor fluorophore in turn emits light at its characteristic wavelength.
+
+The two most commonly used lanthanides in life science assays are shown below along with their corresponding acceptor dye as well as their excitation and emission wavelengths and resultant Stokes shift (separation of excitation and emission wavelengths).
+
+| Donor | Excitation⇒Emission λ (nm) | Acceptor | Excitation⇒Emission λ (nm) | Stokes Shift (nm) |
+|---|---|---|---|---|
+| Eu³⁺ | 340⇒615 | Allophycocyanin | 615⇒660 | 320 |
+| Tb³⁺ | 340⇒545 | Phycoerythrin | 545⇒575 | 235 |
+
+### Possible medical uses
+
+Currently there is research showing that lanthanide elements can be used as anticancer agents. The main role of the lanthanides in these studies is to inhibit proliferation of the cancer cells. Specifically cerium and lanthanum have been studied for their role as anti-cancer agents.
+
+One of the specific elements from the lanthanide group that has been tested and used is cerium (Ce). There have been studies that use a protein-cerium complex to observe the effect of cerium on the cancer cells. The hope was to inhibit cell proliferation and promote cytotoxicity. Transferrin receptors in cancer cells, such as those in breast cancer cells and epithelial cervical cells, promote the cell proliferation and malignancy of the cancer. Transferrin is a protein used to transport iron into the cells and is needed to aid the cancer cells in DNA replication. Transferrin acts as a growth factor for the cancerous cells and is dependent on iron. Cancer cells have much higher levels of transferrin receptors than normal cells and are very dependent on iron for their proliferation.
+
+In the field of magnetic resonance imaging (MRI), compounds containing gadolinium are utilized extensively.
+
+The photobiological characteristics, anticancer, anti-leukemia, and anti-HIV activities of the lanthanides with coumarin and its related compounds are demonstrated by the biological activities of the complex.
+
+Cerium has shown results as an anti-cancer agent due to its similarities in structure and biochemistry to iron. Cerium may bind in the place of iron on to the transferrin and then be brought into the cancer cells by transferrin-receptor mediated endocytosis. The cerium binding to the transferrin in place of the iron inhibits the transferrin activity in the cell. This creates a toxic environment for the cancer cells and causes a decrease in cell growth. This is the proposed mechanism for cerium's effect on cancer cells, though the real mechanism may be more complex in how cerium inhibits cancer cell proliferation. Specifically in HeLa cancer cells studied in vitro, cell viability was decreased after 48 to 72 hours of cerium treatments. Cells treated with just cerium had decreases in cell viability, but cells treated with both cerium and transferrin had more significant inhibition for cellular activity.
+
+Another specific element that has been tested and used as an anti-cancer agent is lanthanum, more specifically lanthanum chloride (LaCl3). The lanthanum ion is used to affect the levels of let-7a and microRNAs miR-34a in a cell throughout the cell cycle. When the lanthanum ion was introduced to the cell in vivo or in vitro, it inhibited the rapid growth and induced apoptosis of the cancer cells (specifically cervical cancer cells). This effect was caused by the regulation of the let-7a and microRNAs by the lanthanum ions. The mechanism for this effect is still unclear but it is possible that the lanthanum is acting in a similar way as the cerium and binding to a ligand necessary for cancer cell proliferation.
+
+## Biological effects
+
+Due to their sparse distribution in the earth's crust and low aqueous solubility, the lanthanides have a low availability in the biosphere, and for a long time were not known to naturally form part of any biological molecules. In 2007 a novel methanol dehydrogenase that strictly uses lanthanides as enzymatic cofactors was discovered in a bacterium from the phylum Verrucomicrobiota, Methylacidiphilum fumariolicum. This bacterium was found to survive only if there are lanthanides present in the environment. Compared to most other nondietary elements, non-radioactive lanthanides are classified as having low toxicity. The same nutritional requirement has also been observed in Methylorubrum extorquens and Methylobacterium radiotolerans.
+
+## Cited sources
+
+- Holleman, Arnold F.; Wiberg, Egon; Wiberg, Nils (2007). Lehrbuch der Anorganischen Chemie (in German) (102 ed.). Walter de Gruyter. ISBN 978-3-11-017770-1.
