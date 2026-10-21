@@ -346,7 +346,7 @@ def check_confirm(entries):
 
 
 def quota(order, need, by_prefix=False):
-    """order: 한 차례의 confirm 항목(차례 순). 몫 하나의 상태. by_prefix: 멈춤을 앞에서부터 빈틈없이 채운 부분의 맞은 수로 본다(모델 시험 몫).
+    """order: 한 차례의 confirm 항목(차례 순). 몫 하나의 상태. by_prefix: 멈춤을 앞에서부터 빈틈없이 채운 부분의 맞은 수로 본다(쪽 몫과 모델 시험 몫).
     correct 맞은 수, filled 그 차례에서 채운 수, total 후보 수, stopped, exhausted(후보가 다 떨어짐), gaps(채운 것보다 앞인데 비어 있는 번호),
     next(아직 채우지 않은 앞의 번호, 멈추지 않았을 때), prefix(앞에서부터 빈틈없이 채운 수), prefix_correct(그 가운데 맞은 수)"""
     filled = [e for e in order if is_filled(e)]
@@ -376,8 +376,8 @@ def make_status(entries, need=NEED):
         out[field] = {}
         for lang in LANGS:
             es = [e for e in entries if e["field"] == field and e["lang"] == lang]
-            out[field][lang] = {"both": quota(ordered(es, "order_side", side="both"), need["side"]),
-                                "one": quota(ordered(es, "order_side", side="one"), need["side"]),
+            out[field][lang] = {"both": quota(ordered(es, "order_side", side="both"), need["side"], by_prefix=True),
+                                "one": quota(ordered(es, "order_side", side="one"), need["side"], by_prefix=True),
                                 "table": quota(ordered(es, "order_table"), need["table"]),
                                 "model": quota(ordered(es, "order_model"), need["model"], by_prefix=True)}
     return out
@@ -387,32 +387,28 @@ QUOTA_NAME = {"both": "두 언어 쪽", "one": "한쪽 언어 쪽", "table": "�
 
 
 def unfinished(status):
-    """멈추지도 후보가 다 떨어지지도 않은 몫과 빈틈이 있는 쪽을 글로 돌려준다(두 언어 쪽은 판정에 쓰지 않아 알리지 않고, 표와 모델 시험 몫의 빈틈은 알리지 않는다).
-    비어 있으면 judge를 해도 된다."""
+    """멈추지도 후보가 다 떨어지지도 않은 몫을 글로 돌려준다(두 언어 쪽은 판정에 쓰지 않아 알리지 않고, 빈틈은 어느 몫이든 알리지 않는다.
+    쪽 몫과 모델 시험 몫은 앞부분의 맞은 수로 멈추므로 앞부분 뒤의 빈틈은 판정에 영향이 없다). 비어 있으면 judge를 해도 된다."""
     out = []
     for field, langs in status.items():
         for lang, qs in langs.items():
             for name, s in qs.items():
-                if name == "both":
-                    continue
-                if not (s["stopped"] or s["exhausted"]):
-                    got = s["prefix_correct"] if name == "model" else s["correct"]
+                if name != "both" and not (s["stopped"] or s["exhausted"]):
+                    got = s["correct"] if name == "table" else s["prefix_correct"]
                     out.append(f"{field} {lang} {QUOTA_NAME[name]}: 맞은 수 {got}/{s['need']}, 다음 {', '.join(s['next'][:NEXT_MAX])}")
-                elif name not in ("table", "model") and s["gaps"]:
-                    out.append(f"{field} {lang} {QUOTA_NAME[name]}: 빈틈 {', '.join(s['gaps'])}")
     return out
 
 
 def render_status(status):
     L = ["# 3 세기: 대조 상태 (status)", "",
          "숫자는 confirm.json에서 계산했다. 맞은 것 = read_ok가 true이고 truth가 \"그 언어에만\"인 것. 채운 것 = read_ok와 truth가 둘 다 채워진 것. "
-         "두 언어 쪽은 판정에 쓰지 않는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\"). 표의 맞은 수는 어느 차례에서 채웠든 센다. 모델 시험 값은 차례의 앞에서부터 빈틈없이 채운 부분에서 맞은 것을 쓴다(이미 채운 판정도 그 부분에 들면 쓴다).", ""]
+         "두 언어 쪽은 판정에 쓰지 않는다(결정 \"3 세기에서 두 언어 주제 쪽의 필요한 수(18)는 통과 판정에서 빼고\"). 표의 맞은 수는 어느 차례에서 채웠든 센다. 쪽 몫과 모델 시험 몫은 차례의 앞에서부터 빈틈없이 채운 부분의 맞은 수로 멈춘다. 모델 시험 값은 그 부분에서 맞은 것을 쓴다(이미 채운 판정도 그 부분에 들면 쓴다).", ""]
     for field, langs in status.items():
         for lang, qs in langs.items():
             L += [f"## {field} {lang}", "",
                   "| 몫 | 필요한 수 | 맞은 수 | 그 차례에서 채운 수 | 후보 수 | 멈췄는가 | 후보가 다 떨어졌는가 | 빈틈 | 다음에 볼 번호 |", "|---|---|---|---|---|---|---|---|---|"]
             for name, s in qs.items():
-                right = f"앞부분 {s['prefix_correct']} (모두 {s['correct']})" if name == "model" else s["correct"]
+                right = f"앞부분 {s['prefix_correct']} (모두 {s['correct']})" if name != "table" else s["correct"]
                 label = QUOTA_NAME[name] + (" (판정에 쓰지 않음)" if name == "both" else "")
                 L.append(f"| {label} | {s['need']} | {right} | {s['filled']} | {s['total']} | {'예' if s['stopped'] else '아니오'} | "
                          f"{'예' if s['exhausted'] else '아니오'} | {', '.join(s['gaps']) or '없음'} | {', '.join(s['next']) or '없음'} |")

@@ -188,12 +188,23 @@ class Status(unittest.TestCase):
         self.assertEqual(status["exoplanets"]["ko"]["table"]["gaps"], ["gap"])
         self.assertEqual(s3.unfinished(status), [])
 
-    def test_side_gaps_are_still_reported(self):
-        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang, one="ccc" if (f, lang) == ("exoplanets", "ko") else "cc")]
-        x1 = next(e for e in es if e["no"] == "ekox1")
-        x1["read_ok"] = x1["truth"] = None                                # 한쪽 언어 쪽 첫째를 비운다(둘째와 셋째가 맞아 쪽은 멈춘 상태)
-        todo = s3.unfinished(s3.make_status(es, SMALL))
-        self.assertTrue(any("한쪽 언어 쪽" in t and "빈틈 ekox1" in t for t in todo))
+    def test_side_stops_only_on_the_front_part(self):
+        es = [E("a1", os=1, state="c"), E("a2", os=2), E("a3", os=3, state="c")]
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["both"]
+        self.assertEqual((s["correct"], s["prefix_correct"], s["stopped"], s["next"]), (2, 1, False, ["a2"]))
+        es[1]["read_ok"], es[1]["truth"] = True, "반대 언어에 있음"
+        s = s3.make_status(es, SMALL)["exoplanets"]["ko"]["both"]
+        self.assertEqual((s["prefix_correct"], s["stopped"], s["next"]), (2, True, []))
+
+    def test_gap_after_the_front_part_is_not_reported(self):
+        es = [e for f in s3.FIELDS for lang in s3.LANGS for e in cfg(f, lang, one="cccc" if (f, lang) == ("exoplanets", "ko") else "cc")]
+        x3 = next(e for e in es if e["no"] == "ekox3")
+        x3["read_ok"] = x3["truth"] = None                                # 한쪽 언어 쪽 셋째를 비우고 넷째는 채운다(앞부분 뒤의 빈틈)
+        x2 = next(e for e in es if e["no"] == "ekox2")
+        x2["read_ok"] = x2["truth"] = None                                # 둘째도 비우면 앞부분은 첫째뿐이라 멈추지 않는다
+        self.assertTrue(any("한쪽 언어 쪽" in t and "다음 ekox2" in t for t in s3.unfinished(s3.make_status(es, SMALL))))
+        x2["read_ok"], x2["truth"] = True, s3.ONLY                        # 채우면 앞부분 둘이 맞아 멈추고, 뒤의 빈틈(셋째)은 알리지 않는다
+        self.assertEqual(s3.unfinished(s3.make_status(es, SMALL)), [])
 
     def test_model_quota_stops_only_on_the_front_part(self):
         es = [E("m1", om=1), E("m2", om=2, state="c"), E("m3", om=3, state="c")]
