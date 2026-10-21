@@ -6,10 +6,12 @@
 collected.yaml의 raw_file(data/corpus/raw/)을 읽어 data/corpus/markdown/<doc_id>.md를 쓰고,
 마크다운의 해시를 data/corpus/collected.yaml에 적는다. 인터넷과 시계를 쓰지 않는다.
 같은 원본에서는 항상 글자 하나까지 같은 마크다운이 나온다.
+documents.yaml에 converter_commit이 있으면 코퍼스가 그 커밋의 변환에 묶인 것이다. 만들기는 아무것도 쓰지 않고
+알리며 끝나고(종료 코드 1), --verify는 그 커밋의 build.py로 검사한다.
 규칙은 decisions/stage2.md의 2026-10-14 줄(남기는 것과 지우는 것 / 표를 옮기는 규칙 / 제목)에 있다.
 doc_id 앞머리(wiki, kto, portal)마다 바꾸는 함수가 CONVERT에 있다.
 """
-import argparse, csv, hashlib, html, io, json, re, sys
+import argparse, csv, hashlib, html, io, json, re, subprocess, sys, tempfile
 from pathlib import Path
 
 import yaml
@@ -518,6 +520,20 @@ def save_collected(docs, rows):
     COLLECTED.write_text(HEADER + text, encoding="utf-8")
 
 
+def verify_with_commit(commit, only):
+    """묶인 커밋의 build.py로 --verify를 돌려 출력을 그대로 내고 종료 코드를 돌려준다."""
+    r = subprocess.run(["git", "-C", str(ROOT), "show", f"{commit}:src/corpus/build.py"], capture_output=True)
+    if r.returncode != 0:
+        sys.exit(f"커밋 {commit}의 build.py를 꺼내지 못함: {r.stderr.decode().strip()}")
+    with tempfile.TemporaryDirectory() as tmp:
+        script = Path(tmp) / "src" / "corpus" / "build.py"
+        script.parent.mkdir(parents=True)
+        script.write_bytes(r.stdout)
+        (Path(tmp) / "data").symlink_to(ROOT / "data")  # 옛 build.py는 자기 위치에서 ROOT를 정한다
+        cmd = [sys.executable, str(script), "--verify"] + (["--only", *only] if only else [])
+        return subprocess.run(cmd).returncode
+
+
 def main():
     ap = argparse.ArgumentParser(description="받아 둔 원본에서 마크다운을 만든다.")
     ap.add_argument("--only", nargs="+", metavar="DOC_ID", help="그 문서만 바꾼다")
@@ -525,7 +541,13 @@ def main():
                     help="파일과 기록을 쓰지 않고, 다시 만든 마크다운의 해시를 기록과 견준다")
     args = ap.parse_args()
 
-    docs = yaml.safe_load(DOCS.read_text(encoding="utf-8"))["documents"]
+    config = yaml.safe_load(DOCS.read_text(encoding="utf-8"))
+    commit = config.get("converter_commit")
+    if commit:
+        if args.verify:
+            sys.exit(verify_with_commit(commit, args.only))
+        sys.exit(f"이 코퍼스는 커밋 {commit}의 변환에 묶여 있어 지금 변환으로 다시 만들지 않는다. --verify만 쓸 수 있다.")
+    docs = config["documents"]
     if args.only:
         unknown = set(args.only) - {d["doc_id"] for d in docs}
         if unknown:

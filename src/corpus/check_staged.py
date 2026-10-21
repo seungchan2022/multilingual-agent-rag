@@ -6,6 +6,7 @@
  1. 원본과 마크다운 파일의 해시가 기록과 다르면 손으로 고친 것으로 본다.
  2. index의 build.py와 data/corpus/를 임시 폴더에 꺼내 build.py --verify를 돌려,
     원본으로 다시 만든 마크다운이 기록과 다르면 원본이나 변환 코드만 바뀐 것으로 본다.
+    documents.yaml에 converter_commit이 있으면 index의 build.py 대신 그 커밋의 build.py로 돌린다.
 문제를 한 줄씩 출력하며 종료 코드 1로 끝난다. 문제가 없으면 출력 없이 0이다.
 .githooks/pre-commit이 data/corpus/, build.py, uv.lock, .python-version이 stage되어 있을 때 부른다.
 """
@@ -33,6 +34,13 @@ def rebuilt_problems(count):
             r = subprocess.run(cmd, cwd=ROOT, input=data, capture_output=True)
             if r.returncode != 0:
                 return [f"index에서 다시 만들 파일을 꺼내지 못함: {r.stderr.decode().strip()}"]
+        text = staged("documents.yaml")
+        commit = (yaml.safe_load(text) or {}).get("converter_commit") if text else None
+        if commit:  # 코퍼스가 묶인 변환: index의 build.py 대신 그 커밋의 build.py를 쓴다
+            r = subprocess.run(["git", "show", f"{commit}:src/corpus/build.py"], cwd=ROOT, capture_output=True)
+            if r.returncode != 0:
+                return [f"converter_commit {commit}의 build.py를 꺼내지 못함: {r.stderr.decode().strip()}"]
+            Path(f"{tmp}/src/corpus/build.py").write_bytes(r.stdout)
         r = subprocess.run([sys.executable, f"{tmp}/src/corpus/build.py", "--verify"], capture_output=True, text=True)
     if r.returncode == 0:
         lines = r.stdout.strip().splitlines()
