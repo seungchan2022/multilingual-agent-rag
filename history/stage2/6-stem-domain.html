@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2단계 흐름 요약: 도메인 다시 고르기</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --desk:#b9bfca;--paper:#e6e9ee;--paper-2:#d9dde4;--card:#ffffff;--ink:#1f2230;--muted:#3b4558;--soft:#59627a;
+  --rule:rgba(45,49,66,.20);--accent:#eb6c36;--accent-tint:rgba(235,108,54,.10);
+  --link:#2e5aa8;--link-tint:rgba(46,90,168,.10);--slate-tint:rgba(79,93,117,.12);
+  --sans:-apple-system,'Apple SD Gothic Neo','Pretendard','Noto Sans KR',system-ui,sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,monospace;
+}
+body{font-family:var(--sans);background:var(--desk);color:var(--ink);line-height:1.75;font-size:16px;-webkit-text-size-adjust:100%}
+main{max-width:680px;margin:0 auto;padding:28px 16px 64px;background:var(--paper)}
+@media(min-width:720px){body{padding:32px 16px}main{padding:40px 36px 64px;border-radius:12px;border:1px solid var(--rule)}}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--muted);margin-bottom:8px}
+h1{font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-.02em;margin-bottom:8px}
+.meta{font-size:13px;color:var(--soft);margin-bottom:16px}
+.lead{font-size:16px;margin-bottom:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:20px 0 8px}
+.stat{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:12px}
+.stat b{display:block;font-size:24px;line-height:1.2}
+.stat span{font-size:12px;line-height:1.5;display:block;color:var(--muted)}
+h2{font-size:20px;line-height:1.3;margin:40px 0 4px;padding-top:16px;border-top:1px solid var(--rule)}
+h2 small{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--soft);font-weight:500;margin-bottom:4px}
+.sub{font-size:14px;color:var(--muted);margin-bottom:12px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+.toc a{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:4px 12px}
+.tools{display:flex;justify-content:flex-end;margin:12px 0}
+button{font:inherit;font-size:13px;color:var(--muted);background:none;border:1px solid var(--rule);border-radius:6px;padding:4px 12px}
+figure{margin:16px 0}
+figure svg{width:100%;max-width:560px;height:auto;display:block;margin:0 auto}
+figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+details.card{background:var(--card);border:1px solid var(--rule);border-radius:8px;margin:8px 0}
+details.card>summary{list-style:none;cursor:pointer;padding:12px 40px 12px 16px;position:relative}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"+";position:absolute;right:16px;top:10px;font-size:20px;color:var(--soft)}
+details.card[open]>summary::after{content:"\2212"}
+.t{display:block;font-weight:700;font-size:16px;line-height:1.4}
+.gist{display:block;font-size:14px;color:var(--muted);margin-top:4px}
+.tag{display:inline-block;font-size:11px;font-weight:600;border-radius:4px;padding:1px 8px;margin-bottom:4px}
+.tag.user{background:var(--accent-tint);color:#b54a1c}
+.tag.codex{background:var(--link-tint);color:var(--link)}
+.tag.check{background:var(--slate-tint);color:var(--muted)}
+.body{padding:4px 16px 16px;border-top:1px solid var(--rule)}
+.steps{list-style:none;margin:12px 0 4px;border-left:2px solid var(--rule);padding-left:16px}
+.steps li{position:relative;padding:4px 0 10px;font-size:15px}
+.steps li::before{content:"";position:absolute;left:-22px;top:12px;width:10px;height:10px;border-radius:50%;background:var(--card);border:2px solid var(--soft)}
+.steps li.snag::before{border-color:var(--accent)}
+.steps li.done::before{background:var(--ink);border-color:var(--ink)}
+.steps b,.rows dt{display:block;font-size:12px;letter-spacing:.04em;color:var(--soft);font-weight:600}
+.steps li.snag b{color:#b54a1c}
+.rows{margin-top:12px}
+.rows dd{font-size:15px;margin-bottom:10px}
+.ex{background:var(--paper);border-radius:6px;padding:12px 14px;font-size:14px;margin-top:8px}
+.ex b{font-size:12px;color:var(--soft);display:block}
+.scroll{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+th,td{border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--muted);background:var(--paper-2);white-space:nowrap}
+ul.plain{margin:8px 0 0 22px;font-size:15px}
+ul.plain li{margin-bottom:6px}
+.again{display:grid;gap:8px;margin-top:12px}
+.again div{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px}
+.again div.rec{border-left-color:var(--soft)}
+.again strong{display:block;font-size:15px}
+.again span{display:block;font-size:14px;color:var(--muted)}
+.again em{font-style:normal;font-size:12px;color:var(--soft)}
+code{font-family:var(--mono);font-size:.88em;background:var(--paper-2);border-radius:4px;padding:1px 4px}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--soft)}
+footer a{color:var(--link)}
+@media print{body,main{background:#fff}main{border:0}details.card{break-inside:avoid}.tools,.toc{display:none}}
+</style>
+</head>
+<body>
+<main>
+
+<p class="eyebrow">2단계 · 흐름 요약</p>
+
+<h1>도메인 다시 고르기</h1>
+
+<p class="meta">이슈 #6 · 2026-10-19 ~ 2026-10-22</p>
+
+<p class="lead">앞에서 한 것: 멘토 숙제(10-18)로 한국의 도시 10문제를 모델에 물었다. 문서 없이 답한 것(A)이 100번 가운데 30, 스스로 답을 검사하고 고치는 고리(B, judgement)가 31, 근거 글을 넣고 답한 것(C)이 97이었다. 멘토는 "일반 상식보다는 지식으로, STEM"이라고 했다. 그래서 이 단계: 도메인(코퍼스가 다룰 주제 영역)을 STEM 분야에서 다시 골랐다.</p>
+
+<p class="sub">정한 것은 세 묶음이다. 첫째, 실험(A·C)으로 분야를 고르는 방법이다(10-19~20). 이 방법으로 고른 덜 알려진 위성은 숫자를 다시 세어 무렀다. 둘째, 코퍼스를 꾸리는 방법을 분야의 문서를 보고 다시 정한 과정이다. 그 방법으로 희토류 원소를 골랐다(10-20 밤~22). 셋째, 도메인이 바뀌어 달라진 일정과 다음 일이다.</p>
+
+<p class="sub">결과물은 도메인(희토류 원소)과 코퍼스 문서 20개의 목록, 고친 세는 규칙과 변환, 한쪽 언어에만 있는 사실을 원문과 대조한 기록이다. 문서를 받아 마크다운으로 만드는 일은 다음 이슈에서 한다. 이 글은 그 과정을 다시 볼 때 읽는 글이다. 항목 번호는 이슈 체크리스트의 차례(위에서부터 1~25)다. 규칙의 정확한 문장은 <code>decisions/stage2.md</code>에 있다.</p>
+
+<div class="stats">
+<div class="stat"><b>14</b><span>잰 분야<br>첫 번째 재기 3, 짧은 시험 5, 문서 측정부터 거른 새 후보 6</span></div>
+<div class="stat"><b>88</b><span>결정 줄<br>2단계 76, 3단계 4, 일하는 방식 8</span></div>
+<div class="stat"><b>60</b><span>판단 기록 줄<br>2026-10-19 "화학 원소 후보의 질문 10개" 줄 ~ 2026-10-22 "Codex 2차 검토" 줄</span></div>
+<div class="stat"><b>252</b><span>커밋<br>이슈 번호가 붙은 것, 이 흐름 요약을 넣기 전까지</span></div>
+<div class="stat"><b>4</b><span>Codex 지적<br>검토 2번. 1차 3: 심각 1, 보통 1, 낮음 1. 2차 1: 낮음. 모두 반영</span></div>
+<div class="stat"><b>정식 실험 A 재료 값 맞음 23, C 100. 여유 6.000</b><span>희토류 원소의 숫자<br>외계 행성 2.786). 모델 시험 문서 없이 0, 문서 넣고 97 (100번 가운데</span></div>
+<div class="stat"><b>20</b><span>코퍼스<br>한국어 10, 영어 10. 두 언어 문서를 다 넣은 주제 5, 한국어 문서만 5, 영어 문서만 5</span></div>
+</div>
+
+<nav class="toc">
+  <a href="#sec-1">흐름</a><a href="#sec-2">1 실험으로 분야 고르기</a><a href="#sec-3">2 코퍼스를 꾸리는 방법부터 다시</a><a href="#sec-4">3 도메인이 바뀌어 달라진 일정과 다음 일</a><a href="#sec-5">세부로 정한 것</a><a href="#sec-6">검토에서 있었던 일</a><a href="#sec-7">계획과 달라진 것</a><a href="#sec-8">뒤 단계가 기대는 것</a><a href="#sec-9">남은 것</a><a href="#sec-10">다시 볼 곳</a><a href="#sec-11">원본</a>
+</nav>
+
+<h2 id="sec-1">흐름</h2>
+
+<figure>
+<svg viewBox="0 0 480 1258" role="img" aria-labelledby="stage2-6-flow-title stage2-6-flow-desc" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <title id="stage2-6-flow-title">도메인 다시 고르기가 진행된 순서</title>
+  <desc id="stage2-6-flow-desc">STEM 후보 셋을 실험으로 재고, 재료 값으로 다시 세고, 짧은 시험으로 새 분야를 걸러 정식 실험을 했다. 위성으로 정했다가 Codex 1차 지적으로 무르고, 새 후보와 코퍼스 단위 검사를 거쳐 길 1로 코퍼스를 꾸리는 방법을 다시 정해 희토류 원소를 골랐다. 10-25까지의 범위를 정하고 닫는 절차를 거쳤다.</desc>
+  <defs><marker id="s26-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#3b4558"/></marker></defs>
+  <g stroke="#3b4558" stroke-width="1.2" marker-end="url(#s26-arrow)"><line x1="240" y1="72" x2="240" y2="92"/><line x1="240" y1="150" x2="240" y2="170"/><line x1="240" y1="228" x2="240" y2="248"/><line x1="240" y1="306" x2="240" y2="326"/><line x1="240" y1="384" x2="240" y2="404"/><line x1="240" y1="462" x2="240" y2="482"/><line x1="240" y1="540" x2="240" y2="560"/><line x1="240" y1="618" x2="240" y2="638"/><line x1="240" y1="696" x2="240" y2="716"/><line x1="240" y1="774" x2="240" y2="794"/><line x1="240" y1="852" x2="240" y2="872"/><line x1="240" y1="930" x2="240" y2="950"/><line x1="240" y1="1008" x2="240" y2="1028"/><line x1="240" y1="1086" x2="240" y2="1106"/><line x1="240" y1="1164" x2="240" y2="1184"/></g>
+  <g><rect x="32" y="16" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="40" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">01</text><text x="76" y="40" font-size="16" font-weight="700" fill="#1f2230">항목 1~9: 후보 셋과 기준과 질문 규칙</text><circle cx="80" cy="56" r="2" fill="#59627a"/><text x="92" y="60" font-size="12" fill="#3b4558">화학 원소·태양계 천체·광물, 값 + 계산 질문</text></g>
+  <g><rect x="32" y="94" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="118" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">02</text><text x="76" y="118" font-size="16" font-weight="700" fill="#1f2230">항목 11: 첫 번째 재기, 세 후보 탈락</text><circle cx="80" cy="134" r="2" fill="#59627a"/><text x="92" y="138" font-size="12" fill="#3b4558">세 후보 모두 기준 3에서 떨어졌다</text></g>
+  <g><rect x="32" y="172" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="196" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">03</text><text x="76" y="196" font-size="16" font-weight="700" fill="#1f2230">항목 12, 13, 19: 재료 값으로 다시 셈</text><circle cx="80" cy="212" r="2" fill="#59627a"/><text x="92" y="216" font-size="12" fill="#3b4558">다시 세도 기준 1에서 떨어졌다</text></g>
+  <g><rect x="32" y="250" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="274" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">04</text><text x="76" y="274" font-size="16" font-weight="700" fill="#1f2230">항목 14~18: 짧은 시험으로 새 분야 거르기</text><circle cx="80" cy="290" r="2" fill="#59627a"/><text x="92" y="294" font-size="12" fill="#3b4558">다섯 분야 가운데 셋을 정식 실험으로</text></g>
+  <g><rect x="32" y="328" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="352" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">05</text><text x="76" y="352" font-size="16" font-weight="700" fill="#1f2230">항목 20: 정식 실험, 기준 2를 뺌, 문서 측정</text><circle cx="80" cy="368" r="2" fill="#59627a"/><text x="92" y="372" font-size="12" fill="#3b4558">세 분야가 기준 1·3·4를 넘었다</text></g>
+  <g><rect x="32" y="406" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="430" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">06</text><text x="76" y="430" font-size="16" font-weight="700" fill="#1f2230">항목 23, 25, 10: 위성, 다시 할 것, 기한</text><circle cx="80" cy="446" r="2" fill="#59627a"/><text x="92" y="450" font-size="12" fill="#3b4558">기한을 10-25로, 최소판부터</text></g>
+  <g><rect x="32" y="484" width="416" height="56" rx="6" fill="#f4f5f7" stroke="#3b4558"/><text x="240" y="506" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">Codex 1차: 지적 3개, 위성을 무름</text><text x="240" y="528" font-size="12" fill="#3b4558" text-anchor="middle">단위까지 보고 다시 세니 위성 A 재료 값 19</text></g>
+  <g><rect x="32" y="562" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="586" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">07</text><text x="76" y="586" font-size="16" font-weight="700" fill="#1f2230">항목 21: 새 후보 여섯, 코퍼스 단위 검사</text><circle cx="80" cy="602" r="2" fill="#59627a"/><text x="92" y="606" font-size="12" fill="#3b4558">모두 한국어 쪽에서 떨어졌다</text></g>
+  <g><rect x="32" y="640" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="664" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">08</text><text x="76" y="664" font-size="16" font-weight="700" fill="#1f2230">항목 21: 심층 리서치, 길 1</text><circle cx="80" cy="680" r="2" fill="#59627a"/><text x="92" y="684" font-size="12" fill="#3b4558">코퍼스를 꾸리는 방법을 문서를 보고 다시 정함</text></g>
+  <g><rect x="32" y="718" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="742" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">09</text><text x="76" y="742" font-size="16" font-weight="700" fill="#1f2230">항목 21: 규칙 정하기, 세는 규칙 고치기</text><circle cx="80" cy="758" r="2" fill="#59627a"/><text x="92" y="762" font-size="12" fill="#3b4558">갈래 4·3·3, 세는 규칙을 근본적으로 고침</text></g>
+  <g><rect x="32" y="796" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="820" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">10</text><text x="76" y="820" font-size="16" font-weight="700" fill="#1f2230">항목 21: 3 세기, 모델 시험</text><circle cx="80" cy="836" r="2" fill="#59627a"/><text x="92" y="840" font-size="12" fill="#3b4558">두 분야 모두 넘었다</text></g>
+  <g><rect x="32" y="874" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="898" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">11</text><text x="76" y="898" font-size="16" font-weight="700" fill="#1f2230">항목 22, 23: 희토류 원소</text><circle cx="80" cy="914" r="2" fill="#59627a"/><text x="92" y="918" font-size="12" fill="#3b4558">여유 희토류 원소 6.000, 외계 행성 2.786</text></g>
+  <g><rect x="32" y="952" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="976" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">12</text><text x="76" y="976" font-size="16" font-weight="700" fill="#1f2230">항목 24: 10-25까지의 범위</text><circle cx="80" cy="992" r="2" fill="#59627a"/><text x="92" y="996" font-size="12" fill="#3b4558">개발용 질문은 2단계 뒤 최소판과 나란히</text></g>
+  <g><rect x="32" y="1030" width="416" height="56" rx="6" fill="#f4f5f7" stroke="#3b4558"/><text x="240" y="1052" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">닫는 절차: 완료 기준 대조, 어드바이저</text><text x="240" y="1074" font-size="12" fill="#3b4558" text-anchor="middle">2단계에 남은 일 세 가지를 바로잡았다</text></g>
+  <g><rect x="32" y="1108" width="416" height="56" rx="6" fill="#f4f5f7" stroke="#3b4558"/><text x="240" y="1130" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">Codex 2차</text><text x="240" y="1152" font-size="12" fill="#3b4558" text-anchor="middle">1차 지적 셋 해소, 새 지적 하나를 바로 고침</text></g>
+  <g><rect x="32" y="1186" width="416" height="40" rx="6" fill="#f4f5f7" stroke="#3b4558"/><text x="240" y="1212" font-size="16" font-weight="700" fill="#1f2230" text-anchor="middle">닫음</text></g>
+</svg>
+<figcaption>순서가 이렇게 된 이유: 처음에는 모델이 값을 모르는지(A)와 문서를 주면 맞히는지(C)를 먼저 재고, 문서가 충분한지는 나중에 봤다. 그래서 실험을 통과한 분야가 문서 측정에서 떨어지는 일이 두 번 생겼다. 위성을 무른 뒤에는 문서 측정을 앞에 두었고, 그래도 막히자 코퍼스를 꾸리는 방법 자체를 분야의 문서를 보고 다시 정했다(길 1). 항목 21 하나에 그 과정이 모두 들어 있어 그림에서 여러 칸으로 나눴다.</figcaption>
+</figure>
+
+<div class="tools"><button type="button" id="toggle">모두 펼치기</button></div>
+
+<h2 id="sec-2"><small>01</small>실험으로 분야 고르기</h2>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 1, 7: 후보 STEM 셋과 "값 + 계산" 질문</span><span class="gist">화학 원소·태양계 천체·광물에서 질문을 10개씩 만들었다. 질문은 문서의 값 하나 이상과 계산 두 단계 이상으로 푸는 꼴이다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>질문은 문서에 적힌 값과 식, 사칙연산만 쓴다. 계산 단계를 두 개 이상 넣고, 그 가운데 하나는 단위 바꾸기다.</dd><dt>이유</dt><dd>값만 묻는 질문은 모델이 값을 모르면 B도 고칠 수 없다. B는 문서를 받지 않기 때문이다. 값 + 계산 꼴은 값을 몰라 틀린 것은 C가, 계산 실수는 B가 짚을 수 있다. 사용자의 말: "judgement가 작동할수 있는 환경은 만들어줘야 하지 않을까 싶기도해." 계산 단계의 수도 사용자가 정했다: "2로하자. 사실상 1은 의미가 없을것 같아".</dd><dt>과정</dt><dd>AI는 기준 2(B가 A보다 오름)를 빼고 기록만 하자고 했다. 사용자가 되물었다: "2번에 대해서도 프롬프트를 같이 고치면서 진행을 해야하는거 아닌가". 그래서 judgement 프롬프트를 고치기 전(v1)과 고친 뒤(v2)로 따로 재기로 했다. 사용자는 견본 질문의 해설을 읽고 "따라갈수 있어"라고 했다.</dd></dl>
+<p class="ex"><b>예</b>"오스뮴 1 kg을 한 변이 몇 cm인 정육면체로 만들 수 있는가?" 밀도 22.61은 문서에서 찾는 값이다. 단위 바꾸기, 나눗셈, 세제곱근은 계산 단계다.</p></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 2, 6: 고르는 기준 넷과 문턱</span><span class="gist">100번 가운데 기준 1은 A가 20~40, 기준 2는 B − A가 20 이상, 기준 3은 C − A가 40 이상이다. 기준 4는 대상마다 한국어와 영어 문서가 둘 다 있는 것이다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>점수의 단위는 질문 10개를 10번씩 돌린 100번 가운데 맞은 수다. 기준 1·3·4에서 떨어지면 탈락이고, 모두 탈락하면 다른 분야를 다시 정한다. 돌리기 전에 정했다.</dd><dt>이유</dt><dd>질문 하나가 맞고 틀리는 데 따라 점수가 10 움직인다. 그래서 기준 2는 질문 두 개만큼인 20으로 했다. AI는 10을 냈고, 사용자가 "20은 되야 하지 않을까"라고 했다.</dd></dl>
+<p class="ex"><b>예</b>화학 원소는 A가 70이라 기준 1에서 떨어졌다. 모델이 값을 이미 알았다.</p></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 11, 12, 13: 최종 답 대신 재료 값으로 세기</span><span class="gist">세 후보가 모두 기준 3에서 떨어진 까닭이 계산 실수였다. 그래서 기준 1·3을 "재료 값(문서에서 찾아야 하는 값)이 맞았는가"로 세기로 했다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>첫 번째 재기(10-19, 3시간 23분)의 A·B-v1·C는 화학 원소 70·76·97, 태양계 천체 41·51·65, 광물 37·41·74였다. 세 후보 모두 기준 3에서 떨어졌다.</li><li class="snag"><b>걸린 것</b>정해 둔 규칙대로라면 다른 분야로 가야 했다. 그런데 C − A를 끌어내린 것은 대부분 계산 실수였다(C의 틀린 답 64개 가운데 계산 쪽 갈래가 있는 답 54개). 같은 질문 꼴로 분야만 바꾸면 같은 일이 생긴다. 사용자의 말: "너무 섣불리 하지 말고 분석을 제대로 하고 근본적으로 수정을 해야지".</li><li class="done"><b>정한 것</b>틀린 답을 다섯 갈래로 센 뒤, 기준 1·3을 재료 값으로 센다. 값을 알고 계산만 틀린 답은 "아는 것"으로 친다(사용자: "아는 것으로 치는 걸로 하는데"). 문턱 숫자는 그대로다. 결과를 본 뒤 세는 방식을 바꾼 것이라 그렇게 기록했다.</li></ol>
+<dl class="rows"><dt>결과</dt><dd>다시 세니 세 후보 모두 기준 1에서 떨어졌다(A 재료 값 맞음 화학 원소 80, 태양계 천체 57, 광물 46). 광물을 남겨 두지 않고 새 분야로 갔다.</dd></dl>
+<p class="ex"><b>예</b>태양계 천체 s-01의 A 답 "227,940,000 ÷ 300,000 = 759.8 분"은 값을 알고 초를 분으로 바꾸지 않은 답이다. 재료 값으로 세면 "아는 것"이다.</p></div>
+</details>
+
+<details class="card">
+  <summary><span class="t">항목 14: 질문을 만들기 전에 짧은 시험으로 거르기</span><span class="gist">새 분야는 대상 10개의 값을 계산 없이 먼저 물었다. 100번 가운데 10~50을 맞힌 분야만 정식 실험으로 보냈다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>짧은 시험은 거르기에만 쓰고, 탈락 판정은 정식 실험이 한다. 통과가 셋보다 많으면 30에 가까운 셋을 보낸다. 대상은 한국어 문서의 값이 영어 위키백과의 값과 ±1% 안에서 같을 때만 쓴다.</dd><dt>이유</dt><dd>첫 번째 재기는 약 3시간을 돌린 뒤에야 모델이 값을 이미 안다는 것을 알았다. 값을 아는지는 질문 없이도 짧게 물어 미리 알 수 있다. 한국어·영어 값을 맞춰 보는 규칙은 질문 파일에서 오류를 찾아 넣었다. 243 이다의 궤도 긴반지름이 한국어 문서에 세레스와 같은 값으로 잘못 적혀 있었다. 사용자의 물음: "사실인게 중요하지 않은건가?"</dd><dt>결과</dt><dd>희토류 원소 28, 유기 화합물 45, 왜행성·소행성 10, 덜 알려진 위성 16, 외계 행성 35였다. 30에 가까운 희토류 원소, 외계 행성, 덜 알려진 위성이 정식 실험으로 갔다.</dd></dl>
+<p class="ex"><b>예</b>"가돌리늄의 밀도는 몇 g/cm³인가?"처럼 값 하나를 계산 없이 묻는다.</p></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 4, 5, 16, 20: A·C를 먼저, 기준 2(B − A)는 고르기에서 뺐다</span><span class="gist">정식 실험에서 세 분야가 모두 기준 1·3·4를 넘었다. B로는 분야가 갈리지 않아 기준 2를 빼고, STEPPER 2단계의 문서 기준으로 고르기로 했다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>A와 C를 먼저 돌리고, 기준 1·3·4를 넘는 분야가 둘 이상일 때만 B를 돌리기로 했다. 결과는 A 재료 값 맞음 희토류 원소 23, 외계 행성 28, 덜 알려진 위성 21이었고, C는 모두 100이었다. 셋 다 넘어 B를 돌려야 했다.</li><li class="snag"><b>걸린 것</b>B는 문서를 받지 않아 재료 값이 틀린 답을 거의 고치지 못한다. B − A가 오를 여지(A에서 재료 값은 맞고 최종 답만 틀린 답)는 1·7·3이라 20에 못 미친다. 고친 프롬프트로 B-v2까지 기다리면 그날 정하지 못한다.</li><li class="done"><b>정한 것</b>기준 2를 빼고, judgement 프롬프트 v2와 B-v2는 4단계로 옮겼다. 사용자의 말: "②보다는 judgement가 들어가는것에 내가 중점을 준것이야"(②는 기준 2), "a,c로 충분하고, B도 보면 좋은데 이렇게 시간을 많이 들여가면서 다른 일정에 영향을 주는건 아니라고 생각도 하기는해".</li></ol>
+<dl class="rows"><dt>한계</dt><dd>A·C 결과를 본 뒤 바꾼 기준이다. 무엇을 보고 바꿨는지를 결정 줄에 적었다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag codex">Codex 지적</span><span class="t">항목 20, 23: 위성으로 정했다가 숫자를 다시 세어 무름</span><span class="gist">문서 측정으로 덜 알려진 위성을 골랐다. 그런데 Codex가 A 재료 값 맞음 21에 단위가 다른 값이 섞인 것을 찾았다. 다시 세니 19라 기준 1에서 탈락했다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>사용자가 분야마다 한국어 한 단락을 읽고 내용을 판단할 수 있다고 답했다("한국어로는 괜찮은것 같은데, 영어로된 문서는 장담할수 없을것 같아"). 그 뒤 프로그램이 대상 10개의 문서를 쟀다. 표가 있는 한국어 문서가 희토류 원소·외계 행성은 0개, 위성은 1개라 규칙의 답은 위성이었다. 사용자: "그렇게 가보자. 더이상 시간이없을것 같아".</li><li class="snag"><b>걸린 것</b>이슈를 닫는 Codex 1차 검토가 짚었다. 세는 프로그램이 숫자의 단위를 보지 않아, 풀이의 "12일"의 12를 정답 재료 11.956시간과 같은 값으로 셌다.</li><li class="done"><b>정한 것</b>재료 값은 숫자와 단위를 함께 본다(4.5시간과 4.5일은 다른 값이다). 저장된 기록을 모두 다시 세니 위성은 19로 기준 1(20~40)에서 탈락했다. 사용자: "안된거면 다시 해야지". 기준을 판정하기 전에 "재료 값은 맞고 최종 답은 틀린 답"을 모두 읽는 확인도 더했다.</li></ol>
+<dl class="rows"><dt>선택지마다 달라지는 것</dt><dd>단위를 보지 않았다면 기준을 넘지 못한 분야로 코퍼스를 만들었을 것이다.</dd></dl>
+<p class="ex"><b>예</b>위성 mo-09의 한 답은 공전 주기를 "4.5시간"으로 썼다. 실제 값은 4.518일인데 숫자만 비슷해 맞음으로 세어졌다.</p></div>
+</details>
+
+<h2 id="sec-3"><small>02</small>코퍼스를 꾸리는 방법부터 다시</h2>
+
+<details class="card">
+  <summary><span class="t">항목 21: 새 후보 여섯을 문서 측정부터 걸렀다</span><span class="gist">모델을 돌리지 않는 문서 측정을 앞에 두고 한국과 관련된 공학·과학 분야 여섯을 쟀다. 모두 떨어졌다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>순서는 대상 조사, 대상 고르기, 문단 읽기, 문서 측정, 짧은 시험, 정식 실험이다. 앞에서 떨어지면 뒤로 가지 않는다.</dd><dt>이유</dt><dd>앞의 두 번은 정식 실험을 마친 뒤에야 문서를 재어, 거기까지 간 분야가 한국어 표 0개로 빠졌다. 문서 측정은 짧은 시험보다 싸다.</dd><dt>결과</dt><dd>댐·원자력 발전소·고속철도 차량은 대상 조사에서 떨어졌다. 교량은 처음 판정을 바로잡아 떨어졌다(보이지 않는 칸을 셈). 인공위성과 탐사선은 문서 측정의 선 1~3(본문 길이 중앙값이 언어마다 5,000자 이상, 표가 있는 문서가 언어마다 10개 중 4개 이상)에서 떨어졌다. 한국어 본문 길이의 중앙값은 인공위성 1,107자, 탐사선 598.5자였다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 21: 문서가 충분한지를 코퍼스 단위로 쟀다</span><span class="gist">문서가 충분한지를 대상 10개의 문서가 아니라 대상 10개와 함께 넣을 문서로 쟀다. 네 분야 모두 한국어 쪽에서 떨어졌다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>문서가 충분한지를 대상 10개의 문서로만 쟀다.</li><li class="snag"><b>걸린 것</b>대상 10개는 모델이 모르게 하려고 덜 알려진 것으로 골라 문서가 짧다. 그런데 채워야 하는 수(근거 언어마다 한쪽 언어 문서에만 있는 사실 36개)는 코퍼스 전체의 수다. 사용자의 말: "애초에 견주는 대상이 잘못되어있기 때문에".</li><li class="done"><b>정한 것</b>코퍼스 단위로 잰다. 함께 넣을 문서에도 모델이 그 내용을 아는지 묻는 확인을 건다. 이 확인은 사용자의 말로 더했다.</li></ol>
+<dl class="rows"><dt>결과</dt><dd>한국어 문서에만 있는 숫자는 희토류 원소 7, 외계 행성 37(표 안 2), 인공위성 23, 탐사선 4였다. 네 분야 모두 한국어 쪽에서 떨어졌다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 21: 심층 리서치 뒤 길 1을 골랐다</span><span class="gist">막힌 까닭이 도메인이 아니라 코퍼스를 꾸리는 방법에 있다고 봤다. 그래서 분야의 문서를 보고 방법을 다시 정하기로 했다.</span></summary>
+  <div class="body"><dl class="rows"><dt>걸린 것</dt><dd>분야를 바꿔도 같은 곳(한국어 쪽)에서 막혔다. STEM 도메인을 고르며, 꾸리는 방법을 새 분야의 문서를 보고 정하는 단계를 건너뛰었다. 도시 문서로 만든 잣대와 "두 언어 문서를 다 넣는" 방법을 그대로 둔 채 분야만 바꿨다.</dd><dt>과정</dt><dd>방향을 정하기 전에 심층 리서치를 했다. AI가 처음 둔 시간 제한(1시간)은 사용자가 없앴다: "이것이 또 근본이 잘못되면 그때 다시 고치는 비용이 더 들것같아". 보고서의 답: 한쪽 언어 사실은 대개 같은 내용의 다른 언어 문서를 빼서 만든다. 코퍼스 전체를 사실 단위로 대조한 선례는 없다.</dd><dt>정한 것</dt><dd>길 1이다. 순서는 1 문서 보기, 2 세기 전에 규칙 정하기, 3 세기, 4 모델 시험, 5 도메인 고르기이고, 희토류 원소와 외계 행성을 먼저 한다. 사용자의 말: "1로해줘. 결국 지금 정해져있는것은 이전 도시 코퍼스 관련한 기준이기 때문에 우리가 이것을 다시 정해야 하는건 맞는것 같아."</dd><dt>버린 것</dt><dd>다른 STEM 분야 더 찾기, 한국어 두 번째 소스, 1단계의 수 다시 보기. AI가 네 길을 냈다.</dd><dt>과정</dt><dd>AI가 1 문서 보기를 받아 둔 문서 30개로 좁게 잡았다. 사용자가 바로잡았다: "문서나 분야에 대해서는 다시 조사를 진행하는게 아니라 이미 했던것들만 하는 이유가 뭐야 다시 진행해야하는거 아니야?"</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="t">항목 21: 시험 대상 10개를 두 언어 4, 한국어만 3, 영어만 3으로</span><span class="gist">모델 시험에 쓴 대상 10개는 모두 코퍼스에 넣고, 섞은 순서로 갈래를 나눈다. 표가 있는 문서 넷과 두 언어 주제 하나를 더해 20개다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>갈래는 대상마다 어느 언어 문서를 넣는지다. 두 언어 문서를 다 넣는 대상 4, 한국어 문서만 넣는 대상 3, 영어 문서만 넣는 대상 3이다. 배정은 정해 둔 씨앗(20261019)으로 섞은 순서다. 표가 있는 문서 2개는 한국어만, 2개는 영어만 넣고, 두 언어 주제 1개를 더한다.</dd><dt>이유</dt><dd>시험 대상의 두 언어 문서를 다 넣으면 사실 대부분이 영어 문서에도 있다(희토류 원소 한국어 숫자 120개 가운데 113개). 영어만을 2개로 두면, 영어 근거 질문의 절반(개발용 6, 최종 평가용 후보 12)을 영어 문서 2개에서만 만들어야 한다.</dd><dt>과정</dt><dd>AI가 처음 낸 4·4·2는, 사용자가 평가에 주는 영향을 물어 AI가 거두었다. AI가 물음이 섞인 사용자의 답을 승인으로 잘못 받아 기록했다가 거둔 일도 있었다. 사용자는 이 규칙을 확신하지 못해 Codex 2차 검토에서 다시 보게 했다.</dd></dl>
+<p class="ex"><b>예</b>희토류 원소는 두 언어가 툴륨·디스프로슘·이터븀·루테튬, 한국어만이 어븀·사마륨·이트륨, 영어만이 란타넘·유로퓸·프라세오디뮴이다.</p></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 21: 세는 규칙을 근본적으로 고친 뒤 셌다</span><span class="gist">세기 전에, 숫자를 뽑고 같은 값을 가르는 규칙의 알려진 오차를 고쳤다. 표본 읽기로 남은 오차를 쟀다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>오차마다 예외를 붙이지 않고 규칙 자체를 고친다. 고친 것은 변환의 위첨자와 수식, 숫자와 단위 읽기, 같은 값 판정, 단위 목록, 수를 적는 방법이다. 사용자의 말: "수정해야될것들은 다 수정하고 제대로 측정을 하는게 맞아. … (대신 땜빵식 보완이 아니라, 근본적으로 고치는거여야지)".</dd><dt>결과</dt><dd>표본 읽기의 오차는 많이 센 쪽 33/100, 적게 센 쪽 7/50이었다. 많이 센 33개 가운데 21개는 두 언어 문서가 같은 것을 다른 값으로 적은 경우(서로 어긋남)였다. 값만 견주는 프로그램으로는 이것을 가려내지 못한다.</dd><dt>그래서 정한 것</dt><dd>3 세기는 프로그램이 센 것을 후보로 보고, AI가 원문과 대조해 맞은 수로 판정한다. 서로 어긋남은 한쪽 언어 사실로 세지 않는다. 사용자: "나로하자. 정확한 질문으로 진행을 해야지".</dd><dt>덧붙여 찾은 것</dt><dd>대조하다 변환 고장을 찾았다. 정보 상자에서 그림이 든 줄을 줄째로 지워, 값 칸에 장식 그림이 붙은 줄(격자 상수 등 21줄)까지 사라졌다. 정한 변환 규칙을 어긴 구현의 고장이라 묻지 않고 고치고 다시 셌다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 21: 두 언어 주제 쪽은 판정에서 빼고 있는 만큼 쓴다</span><span class="gist">두 분야 모두 한국어의 두 언어 주제 쪽이 모자랐다(외계 행성 5/18, 희토류 원소 3/17). 그 몫을 판정에서 빼고 한계로 적었다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>근거 언어마다 36개를 두 언어 주제 쪽 18개와 한쪽 언어 주제 쪽 18개로 나눠 셌다. 두 언어 주제는 한국어 문서와 영어 문서를 둘 다 넣은 주제다.</li><li class="snag"><b>걸린 것</b>위키백과의 한국어 과학 문서는 같은 주제의 영어 문서와 값이 거의 겹친다.</li><li class="done"><b>정한 것</b>판정은 근거 언어마다 한쪽 언어 주제 쪽 18개와 표에서 나오는 값 3개로 본다. 두 언어 주제 쪽은 있는 만큼 쓰고, 다른 묶음에서 채우지 않는다. 리포트에서 한국어와 영어는 묶음별로 견준다. 사용자의 말: "이전 주제 말고 지금것을 한계로 인정하고 가자는건 동의를 하는데 … 한·영 문서 부분만 문제를 보고 이부분을 제대로 견줄수 없다고 가면되는데".</li></ol>
+<dl class="rows"><dt>버린 것</dt><dd>18을 5로 줄이는 안(사용자: "18 -&gt; 5는 너무 적은것 같고"). 모자란 만큼을 한쪽 언어 주제 쪽에서 채우는 안(한국어와 영어를 견주는 뜻이 사라지고 문제가 그 묶음까지 퍼진다).</dd><dt>한계</dt><dd>결과를 본 뒤의 변경이다. 두 언어 주제 묶음의 한국어 질문은 희토류 원소에서 3개뿐이라, 그 묶음으로는 한국어 쪽을 견주기 어렵다.</dd><dt>결과</dt><dd>두 분야 모두 넘었다. 여유는 희토류 원소 6.000, 외계 행성 2.786이다. 여유는 네 몫 가운데 "어림 ÷ 필요한 수"가 가장 낮은 값이고, 두 분야를 견주는 잣대일 뿐 충분하다는 선은 없다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 21: 모델 시험은 숫자 하나인 값으로, 문서 넣고 묻는 조건도</span><span class="gist">추가한 문서(시험 대상 밖)의 값 10개를 문서 없이 물어, 모델이 모르는지 봤다. 두 분야 모두 0/100이었다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>시험 대상 밖의 문서에서 3 세기로 나온 한쪽 언어 값 가운데 한국어 5개, 영어 5개를 뽑아 묻는다. 100번 가운데 40 이하면 넘는다. 정답이 숫자 하나로 정해지는 값만 쓴다(범위, 경계 값, 좌표는 건너뜀). 사용자: "그렇게 하자. 기준을 일관적이게 진행해야지".</dd><dt>문서 넣고 묻는 조건</dt><dd>사용자가 더했다: "이렇게 하는게 이전 실험과 같이 일관적이라고 생각을해." 판정에는 쓰지 않고, 질문이 제대로 만들어졌는지 보는 데만 쓴다.</dd><dt>이유</dt><dd>채점은 답의 마지막 숫자로 한다. 범위로 답하면 맞는 답도 틀림이 된다. 틀림이 늘면 분야가 실제보다 쉽게 넘는다.</dd><dt>결과</dt><dd>문서 없이 외계 행성 0, 희토류 원소 0이었다. 문서 넣고는 92와 97이었다. 문서 넣고 틀린 답 11개는 오차를 함께 옮겨 적은 답의 채점 10개와 옮겨 적기 실수 1개라, 잘못 만든 질문은 없다고 봤다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="t">항목 22, 23: 희토류 원소로 정했다</span><span class="gist">두 분야가 3 세기와 모델 시험을 모두 넘었다. 정해 둔 규칙(여유가 큰 분야)의 답대로 희토류 원소를 골랐다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>도메인은 희토류 원소, 코퍼스는 3 세기에서 꾸린 문서 20개다. 사용자: "그렇게 가자".</dd><dt>과정</dt><dd>사용자가 여유의 뜻과 충분한 정도를 물었다("어느정도가 되면 충분한거야?"). AI가 앞서 "한국어 쪽이 세 배쯤 넉넉하다"고 한 것은 표를 넣은 수였다고 바로잡았다. 표 밖만 보면 한국어 어림은 희토류 원소 59, 외계 행성 39.56이다.</dd><dt>한계</dt><dd>한국어 사실은 동위 원소 표에(한국어 한쪽 언어 쪽 후보 143개 가운데 84개), 영어 사실은 중성자 포획 치료 문서에 몰려 있다. 질문이 비슷한 꼴(반감기, 들뜬 에너지, 생존 기간)로 쏠릴 수 있다. 중성자 포획 치료와 사마륨-코발트 자석은 분야의 한가운데가 아니다.</dd></dl></div>
+</details>
+
+<h2 id="sec-4"><small>03</small>도메인이 바뀌어 달라진 일정과 다음 일</h2>
+
+<details class="card">
+  <summary><span class="t">항목 25: 2·3단계에서 다시 만들 것</span><span class="gist">도시 문서에서 나온 결과물 여덟 가운데 여섯은 새 도메인으로 다시 만든다. 받은 질문 후보 묶음 1·2는 기록으로 둔다.</span></summary>
+  <div class="body"><dl class="rows"><dt>정한 것</dt><dd>다시 만드는 순서는 문서 목록, 코퍼스, 사실 목록, <code>excluded.json</code>, 알려진 부딪히는 값 목록, 지시서의 문서 표다. 시험이 읽는 실제 파일은 코퍼스를 바꿀 때 정한다. 1단계 평가 틀과 3단계 검사·카드 프로그램은 그대로 쓰고, 도시가 직접 적힌 곳만 고친다.</dd><dt>이유</dt><dd>문서 목록이 바뀌면 코퍼스, 거기서 뽑는 사실과 빼는 사실, 부딪히는 값, 지시서의 문서 표가 차례로 바뀐다. 검사 규칙은 도메인과 관계없다. 사용자의 말: "표가 결국 순서에 맞게 다시 만든다는것으로 이해했어".</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 25: 두 번째 소스는 한 번 찾아보기만</span><span class="gist">STEPPER 2단계 기준 "소스 2개 이상"을 "과제가 지정한 소스 1개 이상"으로 바꿨다. 두 번째 소스는 문서 목록을 만들 때 한 번 찾아본다.</span></summary>
+  <div class="body"><dl class="rows"><dt>이유</dt><dd>과제는 위키백과·구텐베르크·공공데이터포털 가운데 하나 이상을 요구한다. "2개 이상"은 우리가 처음에 더한 기준이다. 사용자의 말: "주제도 그렇고 글길이도 그렇고 아마 안될 확률이 높다 생각해서 말하는거야".</dd><dt>한계</dt><dd>두 번째 소스를 찾지 못하면, 여러 출처의 문서를 한 코퍼스에서 처리하는 것을 보이지 못한다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 10: 기한을 10-25 멘토 피드백으로, 최소판부터</span><span class="gist">10-25를 제출일로 본다. 3단계를 개발용과 최종 평가용으로 나누고, RAG 최소판을 먼저 만드는 순서로 바꿨다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>AI는 3단계를 10-25까지 끝내고, 줄일지는 나중에 정하자고 했다.</li><li class="snag"><b>걸린 것</b>사용자의 말: "솔직히 그러면은 안돼. … 이러면 또 아무것도 만들지 못하고 내보내게 되는거 아닌가 싶어. … 그렇다고 대충하자는건 아니야."</li><li class="done"><b>정한 것</b>최종 평가용 질문은 10-25 뒤에 한다. 스텝퍼의 "구조와 방법은 4단계에서 확정한다"를 "최소판부터 만들고, 기능을 하나씩 붙일 때마다 정한다"로 바꿨다. 최소판은 검색을 한 번 하고 가져온 글 조각으로 답하는 가장 단순한 RAG다.</li></ol>
+<dl class="rows"><dt>과정</dt><dd>AI는 처음에 이 변경을 "잃는 것"으로 적었다. 사용자의 지적으로 바로잡았다: "오히려 … 기능을 하나씩 붙히면서 워크플로우에서 어떤것들이 개선이 되고 하는지 알수 있는거 아닌가?"</dd><dt>한계</dt><dd>최종 평가용 질문을 시스템이 답하는 모습을 본 뒤에 만든다. 리포트에 적는다.</dd></dl></div>
+</details>
+
+<details class="card">
+  <summary><span class="tag user">사용자 지적</span><span class="t">항목 24: 개발용 질문은 10-25 범위에서 빼고 최소판과 나란히</span><span class="gist">10-25까지 2단계 전부, 최소판과 Baseline의 첫 비교, 멘토 정리를 한다. 개발용 질문은 그 범위에서 빼고 2단계 뒤에 최소판과 나란히 만든다.</span></summary>
+  <div class="body"><ol class="steps"><li><b>처음</b>10-20 계획은 개발용 질문을 마친 뒤 최소판을 만드는 순서였다. 개발용 질문은 시스템을 만들며 확인에 쓰는 질문이고, Baseline은 문서 없이 답하는 시스템이다.</li><li class="snag"><b>걸린 것</b>개발용 질문 30개는 사용자의 대조에만 5시간이 든다. 후보 한 장에 약 10분으로 셈했고, 도시 후보 한 장으로 잰 값이다. 영어 근거 질문의 대조 절차는 끝까지 돈 적이 없다.</li><li class="done"><b>정한 것</b>최소판은 개발용 질문 없이 만들고, 어느 질문을 쓸지는 최소판을 만들 때 정한다. 개발용 질문은 최소판 다음부터 쓴다. 뒤로 미루는 것이고 질문 수와 대조는 줄이지 않는다. 사용자의 말: "최소판을 만들면서는 앞에서 말한 질문으로만 하고, 질문을 만드는것은 다른것에 영향을 받지 않으니 병렬로 질문을 만들면서 틈틈히 신경쓰면서 만들고 최소판 이후부터 개발 질문을 사용하자고."</li></ol>
+<dl class="rows"><dt>한계</dt><dd>최소판의 값(글 조각 크기, 임베딩, 생성 모델 등)을 개발용이 아닌 질문으로 고른다. 7단계 전에 개발용 질문으로 다시 확정할 때 값이 바뀌면 첫 비교를 다시 내야 한다.</dd><dt>과정</dt><dd>사용자는 최소판에 쓸 질문을 짧은 시험·정식 실험의 질문으로 기억했다. 기록은 검색 비교용 질문(한쪽 언어에만 있는 숫자로 만든 질문)이었다. 최소판을 만들 때 함께 본다.</dd></dl></div>
+</details>
+
+<h2 id="sec-5">세부로 정한 것</h2>
+
+<ul class="plain"><li>항목 2: ±1% 채점은 답의 마지막 숫자로 한다. 숫자가 둘 이상인 답은 표시하고 점수와 함께 보고한다.</li><li>항목 3: 실험은 기준 1~4만 보고, STEPPER 2단계의 나머지 도메인 기준은 도메인을 고른 뒤 확인하기로 했다. 10-20에 세 분야를 가르는 데 그 기준을 앞당겨 썼다(항목 20).</li><li>항목 8: 분야 고르기 질문은 Claude가 만들고, 프로그램이 근거 글과 계산을 검사한다. 정식 실험 질문의 해설은 사용자가 보지 않는다.</li><li>항목 9: 실험은 저장소(<code>src/domain_select/</code>)에서 돌린다. 숙제 폴더의 <code>run.py</code>와 <code>summarize.py</code>를 고치지 않은 채 옮긴 뒤 바꿨다.</li><li>항목 11: 디스크가 거의 차서, 이번 실험에 쓰지 않는 Ollama 모델 두 개와 다시 받을 수 있는 캐시를 지웠다.</li><li>항목 15: 계산 실수를 줄이는 수정(generate 프롬프트, 생각 모드 등)은 도메인을 고르는 동안 하지 않고 4단계에서 본다.</li><li>항목 17, 18: 실험은 Ollama 동시 처리 없이 하나씩 돌리고, 실행마다 몸풀기 호출을 먼저 보낸다. 몸풀기의 효과를 확인한 것보다 강하게 적은 것을 바로잡았다 (Codex 지적)</li><li>항목 19: 결과 페이지의 기준 1·3 판정을 재료 값 셈에 맞췄다 (완료 기준 대조 중 발견)</li><li>항목 21: 1 문서 보기의 범위는 한국어 위키백과 분류 깊이 2까지이고, 동위 원소 하나를 다룬 문서는 뺀다.</li><li>항목 21: 도시 코퍼스는 그것을 만든 변환(<code>54b78cd</code>)에 묶어, 변환을 고쳐도 바뀌지 않게 했다.</li><li>항목 21: 웹이나 API에 요청을 보낼 수 있는 서브에이전트의 지시서에는 User-Agent 규칙과 개인 정보 금지를 적는다. 리서치 갈래 하나가 요청에 이메일을 넣은 일에서 생겼다.</li><li>항목 25: 브랜치 <code>6-stem-domain</code>은 <code>5-questions</code> 위에서 땄고, 합칠 때 이슈 #5의 커밋과 함께 <code>main</code>에 합친다.</li></ul>
+
+<h2 id="sec-6">검토에서 있었던 일</h2>
+
+<ul class="plain"><li><strong>Codex 1차(10-20)</strong>: 지적 3개(심각 1, 보통 1, 낮음 1)를 모두 반영했다. 지적 1은 위성의 재료 값 맞음 21에 단위가 다른 값이 섞인 것이다. 단위까지 보는 규칙으로 다시 세어 위성을 무르고 도메인을 다시 골랐다. 지적 2는 최소판부터 하는 순서가 스텝퍼의 넘어가는 조건에 없다는 것이다. 예외를 적었다. 지적 3은 몸풀기 효과를 확인한 것보다 강하게 적었다는 것이다. 본 것과 미루어 본 것을 나눠 적었다.</li><li><strong>어드바이저 점검 두 번</strong>: 10-20에는 넷을 찾았다. 체크리스트의 B-v2, 일정 줄의 어긋남, 넘어가는 조건, 도메인 기준을 미정 목록에 모으기다. 10-22에는 둘을 찾았다. "2단계 전부"에서 사실 목록 등 세 가지가 빠진 것과, AI의 판단을 사실처럼 적은 것이다.</li><li><strong>Codex 2차(10-22)</strong>: 1차 지적 3개를 모두 해소됨으로 가렸고, 새 지적 1개(낮음)를 냈다. 3 세기 대조 기록 한 줄(R-en-003, 이트륨-107의 반감기)의 사유 글에 한국어 칸의 한계 값 <code>[&gt;300 ns]</code>이 빠졌다는 것이다. 판정은 맞고 글만 모자라, 사용자가 바로 고치기로 했다: "어쩌피 수정해야될거면 그냥 고치자. 이것을 고친다고 규칙에 어긋나는것도 아니잖아." Codex는 시험 대상의 갈래 규칙이 3 세기 결과보다 먼저 정해졌는지, AI 대조 표본 37개, 원문으로 다시 만든 후보 568개, 다시 채점한 모델 답 400개를 확인했다. 568개 전부를 대조한 것은 아니다.</li><li><strong>닫는 절차에서 AI가 고친 것</strong>: 도메인 결정 줄이 어림을 정수로 반올림해 적은 것을 계산한 값으로 고쳤다(57.85를 58로 적었던 것 등). 스텝퍼의 "Codex 검토는 단계마다 최대 2번"을 "이슈마다"로 맞췄다. 사용자가 "원래 코덱스 검토는 단계별로 진행하는거 아니였어?"라고 물어 드러났다.</li></ul>
+
+<h2 id="sec-7">계획과 달라진 것</h2>
+
+<ul class="plain"><li>이슈를 열 때는 후보 2~3개를 같은 실험으로 재서 고를 계획이었다. 실제로는 14개 분야를 쟀다. 고르는 방법도 세 번 바뀌었다: 실험(A·C) 먼저, 문서 측정 먼저, 코퍼스를 꾸리는 방법부터(길 1).</li><li>기준 2는 고르기에서 뺐다. B-v2와 judgement 프롬프트 v2는 4단계로 옮겼다.</li><li>10-20에 위성으로 정하고 이슈를 닫으려 했다. Codex 지적으로 다시 열었다.</li><li>기한이 10-18에서 10-25로 바뀌었다. 3단계를 개발용과 최종 평가용으로 나눴고, 개발용 질문은 10-25 범위에서 빠졌다.</li></ul>
+
+<h2 id="sec-8">뒤 단계가 기대는 것</h2>
+
+<div class="scroll"><table>
+<tr><th>단계</th><th>이 이슈에서 가져다 쓰는 것</th></tr>
+<tr><td>2 문서(다음 이슈)</td><td>코퍼스 20개의 목록과 판(<code>src/domain_select/step3_count.py</code>의 <code>CORPUS["rare_earth"]</code>, <code>research_notes/stage2_stem_select/step3/results.json</code>의 <code>revid</code>), 고친 변환(<code>src/corpus/build.py</code>), 사실 목록·<code>excluded.json</code>·알려진 부딪히는 값 목록 다시 만들기, 두 번째 소스 찾기</td></tr>
+<tr><td>3 질문</td><td>3 세기의 대조 기록(<code>step3/confirm.json</code>), 두 언어 주제 묶음은 있는 만큼 쓴다는 규칙, 질문의 근거가 시험 대상 문서인지 추가한 문서인지 셀 수 있게 두기</td></tr>
+<tr><td>4 설계</td><td>judgement 프롬프트 v2와 B-v2, 계산 실수를 줄이는 수정, 최소판에 쓸 질문</td></tr>
+<tr><td>8 리포트</td><td>한국어와 영어를 묶음별로 견준다는 한계, 최종 평가용 질문을 시스템을 본 뒤 만든다는 한계</td></tr>
+</table></div>
+
+<h2 id="sec-9">남은 것</h2>
+
+<ul class="plain"><li>3 세기의 대조와 모델 시험 값의 대조는 AI가 한 번 판정했다. Codex 2차가 표본 37개를 대조해 반례가 없었지만, 568개 전부를 다시 본 것은 아니다.</li><li>모델 시험 질문 20개의 꼴은 AI만 봤다.</li><li>앞선 측정(1 문서 보기, 코퍼스 단위 검사, 표본 읽기)은 변환 고장이 있던 마크다운에서 셌다.</li></ul>
+
+<h2 id="sec-10">다시 볼 곳</h2>
+
+<div class="again">
+<div><strong>시험 대상 10개의 갈래 4·3·3</strong><span>사용자가 확신하지 못함. Codex 2차가 3 세기 결과보다 먼저 정한 것과 씨앗 배정을 확인했고, <code>EVALUATION.md</code>의 평가 데이터 형식 절이 요구하는 것(근거는 한쪽 언어 문서에만 있다)을 채우는 방법으로 쓸 수 있다고 봤다</span><em>쓰이는 곳: 다음 이슈의 문서 목록, 3단계 질문</em></div>
+<div><strong>여유의 뜻</strong><span>사용자가 물어 설명함. 두 분야를 견주는 잣대이고 충분하다는 선은 없다</span><em>쓰이는 곳: 도메인 결정</em></div>
+<div><strong>최소판에 쓸 질문</strong><span>사용자의 기억(짧은 시험·정식 실험 질문)과 기록(검색 비교용 질문)이 다름</span><em>쓰이는 곳: 4·5단계 최소판</em></div>
+<div><strong>Codex 검토의 단위</strong><span>사용자가 물어 설명함. 이슈마다 받는다(2026-10-13 "이슈의 뜻" 줄)</span><em>쓰이는 곳: 닫는 절차</em></div>
+</div>
+
+<h2 id="sec-11">원본</h2>
+
+<footer>
+  <p>원본</p>
+  <p>결정: <code>decisions/stage2.md</code> 2026-10-19 "도메인을 STEM 분야로 다시 고른다" 줄부터 끝까지, <code>decisions/stage3.md</code> 2026-10-19~22 줄, <code>decisions/common.md</code> 2026-10-19~22 줄</p>
+  <p>판단: <code>decisions/judgments.md</code> 2026-10-19 "화학 원소 후보의 질문 10개" 줄부터 끝까지</p>
+  <p>코드와 결과: <code>src/domain_select/</code>, <code>research_notes/stage2_stem_select/</code></p>
+  <p>검토: <code>CODEX_REVIEW.md</code>(이슈를 닫을 때 커밋한 뒤 지운다)</p>
+  <p>이슈: #6</p>
+</footer>
+
+</main>
+<script>
+(function(){
+  var cards=document.querySelectorAll('details.card'),btn=document.getElementById('toggle'),open=false;
+  function set(v){cards.forEach(function(d){d.open=v});open=v;btn.textContent=v?'모두 접기':'모두 펼치기'}
+  btn.addEventListener('click',function(){set(!open)});
+  window.addEventListener('beforeprint',function(){set(true)});
+})();
+</script>
+</body>
+</html>
