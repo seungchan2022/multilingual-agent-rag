@@ -174,7 +174,8 @@ def own_cells(tr):
 def mark_infobox(root):
     """문서 맨 위의 정보 상자 하나를 찾아 이미지가 든 줄을 지우고 돌려준다. 나머지 infobox 표는 지운다.
 
-    이미지가 든 줄에는 그 이미지의 설명이 같이 들어 있으므로 줄째로 지운다. 이 일은
+    칸이 둘(이름표 th, 값 td)인 줄의 이미지는 값 옆의 장식이라 줄은 두고 이미지만 지운다(뒤의 drop_all).
+    그 밖의 모양의 줄에 든 글자는 이미지의 설명이므로 줄째로 지운다. 이 일은
     이미지를 지우기 전에 해야 한다. 국기 아이콘(.flagicon)은 장식이라 줄을 지우는 근거로 쓰지 않는다.
     """
     top = root.find("table", class_="infobox", recursive=False)
@@ -184,7 +185,9 @@ def mark_infobox(root):
     for tr in own_rows(top):
         for fl in tr.select(".flagicon"):
             fl.decompose()
-        if tr.select("img, figure, .mw-kartographer-map"):
+        cells = own_cells(tr)
+        is_row = len(cells) == 2 and cells[0].name == "th" and cells[1].name == "td"
+        if not is_row and tr.select("img, figure, .mw-kartographer-map"):
             tr.decompose()
     return top
 

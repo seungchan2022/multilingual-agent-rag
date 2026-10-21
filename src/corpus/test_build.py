@@ -77,6 +77,56 @@ class Superscript(unittest.TestCase):
         self.assertIn("- 밀도 g/cm³: 5.5×10³", convert_wiki({"title": "T"}, raw))
 
 
+class InfoboxImage(unittest.TestCase):
+    """정보 상자의 그림: 이름표와 값의 줄은 그림만 지우고, 다른 모양의 줄은 줄째로 지운다."""
+
+    def box(self, row):
+        raw = ('<div class="mw-parser-output"><table class="infobox"><tr><th>Density</th><td>8.54 g/cm³</td></tr>'
+               + row + '</table><p>글</p></div>').encode("utf-8")
+        md = convert_wiki({"title": "T"}, raw)
+        self.assertIn("- Density: 8.54 g/cm³", md)  # 상자 자체가 읽힌다
+        self.assertIn("글", md)
+        return md
+
+    def test_영어_격자_상수는_줄을_남긴다(self):
+        md = self.box('<tr><th>Lattice constants</th><td><div style="float:right;"><span typeof="mw:File/Frameless">'
+                      '<a href="/wiki/File:X.svg"><img alt="Hexagonal close packed crystal structure for dysprosium" src="x"></a>'
+                      '</span></div><i>a</i>&#160;=&#160;359.16&#160;pm<br /><i>c</i>&#160;=&#160;565.01&#160;pm (at&#160;20&#160;°C)'
+                      '<sup class="reference"><a href="#c">[3]</a></sup></td></tr>')
+        self.assertIn("- Lattice constants: a = 359.16 pm c = 565.01 pm (at 20 °C)", md)
+        self.assertNotIn("Hexagonal close packed", md)
+        self.assertNotIn("[3]", md)
+
+    def test_한국어_전자껍질은_그림과_설명을_지운다(self):
+        md = self.box('<tr><th>준위별 전자 수</th><td>2, 8, 18, 31, 8, 2<div><figure typeof="mw:File">'
+                      '<a href="/wiki/x" title="툴륨의 전자껍질 (2, 8, 18, 31, 8, 2)">'
+                      '<img alt="툴륨의 전자껍질 (2, 8, 18, 31, 8, 2)" src="x"></a>'
+                      '<figcaption>툴륨의 전자껍질 (2, 8, 18, 31, 8, 2)</figcaption></figure></div></td></tr>')
+        self.assertIn("- 준위별 전자 수: 2, 8, 18, 31, 8, 2", md)
+        self.assertNotIn("전자껍질", md)
+
+    def test_한국어_결정_구조는_값_사이의_그림만_지운다(self):
+        md = self.box('<tr><th>결정 구조</th><td>조밀&#160;육방&#160;격자 (hcp)\n<div style="float:right;">'
+                      '<span typeof="mw:File"><a href="/wiki/x"><img src="x"></a></span></div>'
+                      '&#x20;(<a href="/wiki/y">hP2</a>)</td></tr>')
+        self.assertIn("- 결정 구조: 조밀 육방 격자 (hcp) (hP2)", md)
+
+    def test_칸_하나인_사진_줄은_줄째로_지운다_영어(self):
+        md = self.box('<tr><td colspan="2"><span typeof="mw:File"><a href="/wiki/x"><img src="x"></a></span>'
+                      '<div class="infobox-caption">Artist\'s impression of KELT-9b</div></td></tr>')
+        self.assertNotIn("Artist's impression", md)
+
+    def test_칸_하나인_사진_줄은_줄째로_지운다_한국어(self):
+        md = self.box('<tr><td colspan="2"><span typeof="mw:File"><a href="/wiki/x"><img src="x"></a></span>'
+                      '<br>글리제 436 b의 상상도.</td></tr>')
+        self.assertNotIn("상상도", md)
+
+    def test_값_칸에_그림만_있는_줄은_없다(self):
+        md = self.box('<tr><th>Flag</th><td><span typeof="mw:File"><a href="/wiki/x">'
+                      '<img alt="Flag of X" src="x"></a></span></td></tr>')
+        self.assertNotIn("Flag", md)
+
+
 class Formula(unittest.TestCase):
     def test_글_속_수식(self):
         m = math_span("\\alpha ")  # 위키백과의 alt는 {\displaystyle \alpha } 꼴이라 안쪽 끝 띄어쓰기가 남는다
