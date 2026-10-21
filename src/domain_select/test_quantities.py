@@ -125,7 +125,7 @@ class Number(unittest.TestCase):
         self.assertEqual(it[0]["raw"], "10⁸ km")
 
     def test_exponent_unknown_keeps_mantissa_digits(self):
-        its = qt.read("열팽창 24.31×10⁻⁶/K")
+        its = qt.read("자기 감수율 24.31×10⁻⁶ cgs")          # cgs는 단위 표에 없다
         self.assertEqual([(i["kind"], i["digits"], i["raw"]) for i in its], [("모르는 숫자", "24.31", "24.31×10⁻⁶")])
         self.assertEqual(unk("10⁸ 개"), ["10"])
 
@@ -709,6 +709,209 @@ class RealDocs(unittest.TestCase):
         self.assertEqual(len(its), 1)
         self.assertNotIn("166", qt.unknown_digits(self.line(md, "동위체")))
         self.assertEqual([i["kind"] for i in qt.read(self.line(md, "CAS 번호"))], ["이름"] * 3)
+
+
+class UnitTable(unittest.TestCase):
+    """단위 표를 일반 목록으로 채운 것(decisions/stage2.md 2026-10-21 "세는 규칙 보완의 방향" 줄 ㉡)."""
+
+    def one(self, text):
+        its = qt.quantities(text)
+        self.assertEqual(len(its), 1, its)
+        return its[0]
+
+    def check(self, text, dim, base, unit=None):
+        it = self.one(text)
+        self.assertEqual(it["dim"], dim, text)
+        near(self, it["base"], base)
+        if unit:
+            self.assertEqual(it["unit"], unit)
+
+    # 1. 이미 있는 단위의 영어 이름과 한국어 이름
+    def test_english_names_of_existing_units(self):
+        text = "Launch mass: 115 kilograms (254 lb)"
+        self.assertEqual(qs(text), [("115 kilograms", 115.0, "kilograms"), ("254 lb", 254.0, "lb")])
+        self.assertEqual([i["dim"] for i in qt.quantities(text)], ["질량", "질량"])
+        self.assertEqual(bases(text)[0], 115.0)
+        text = "Perigee altitude: 800 kilometres (500 mi)"
+        its = qt.quantities(text)
+        self.assertEqual([(i["raw"], i["dim"]) for i in its], [("800 kilometres", "길이"), ("500 mi", "길이")])
+        near(self, its[0]["base"], 8e5)
+        text = "Length: 0.75 metres (2.5 ft)"
+        its = qt.quantities(text)
+        self.assertEqual([(i["raw"], i["dim"]) for i in its], [("0.75 metres", "길이"), ("2.5 ft", "길이")])
+        near(self, its[0]["base"], 0.75)
+
+    def test_spellings_and_plurals(self):
+        for t in ("3 meter", "3 meters", "3 metre", "3 metres"):
+            self.check(t, "길이", 3)
+        for t in ("2 kilometers", "2 kilometre"):
+            self.check(t, "길이", 2e3)
+        self.check("5 micron", "길이", 5e-6)
+        self.check("5 angstroms", "길이", 5e-10)
+        self.check("2 astronomical units", "길이", 2 * 1.495978707e11)
+        self.check("3 megaparsecs", "길이", 3 * 3.0856775814913673e22)
+        self.check("4 metric tons", "질량", 4e3)
+        self.check("4 milligrams", "질량", 4e-6)
+        self.check("7 nanoseconds", "시간", 7e-9)
+        self.check("8 square kilometres", "넓이", 8e6)
+        self.check("8 square miles", "넓이", 8 * 2589988.110336)
+        self.check("3 hectares", "넓이", 3e4)
+        self.check("9 cubic centimeters", "부피", 9e-6)
+        self.check("9 millilitres", "부피", 9e-6)
+        self.check("90 atmospheres", "압력", 90 * 101325)
+        self.check("3 millibars", "압력", 300)
+        self.check("3 bars", "압력", 3e5)
+        self.check("2 kilowatt-hours", "에너지", 7.2e6)
+        self.check("2 gigaelectronvolts", "에너지", 2 * 1.602176634e-10)
+        self.check("2 electron volts", "에너지", 2 * 1.602176634e-19)
+        self.check("3 kilocalories", "에너지", 3 * 4184)
+        self.check("2 terawatts", "출력", 2e12)
+        self.check("3 megahertz", "진동수", 3e6)
+        self.check("3 THz", "진동수", 3e12)
+
+    def test_angle_and_temperature_names(self):
+        it = self.one("Inclination: 5 degrees (planned)")
+        self.assertEqual((it["dim"], it["value"], it["base"]), ("각도", 5.0, 5.0))
+        it = self.one("heated to 1,000 degrees Celsius")
+        self.assertEqual((it["dim"], it["unit"]), ("온도", "degrees Celsius"))
+        near(self, it["base"], 1273.15)
+        near(self, self.one("212 degrees Fahrenheit")["base"], 373.15)
+        self.check("300 kelvin", "온도", 300)
+        self.check("2 arcseconds", "각도", 2 / 3600)
+        self.check("2 arc-minutes", "각도", 2 / 60)
+        self.check("5 milliarcseconds", "각도", 5 / 3.6e6)
+        self.check("2 radians", "각도", 2 * 57.29577951308232)
+
+    def test_korean_names_of_existing_units(self):
+        self.check("5 밀리초", "시간", 5e-3)
+        self.check("5 제곱센티미터", "넓이", 5e-4)
+        self.check("5 세제곱킬로미터", "부피", 5e9)
+        self.check("1,013 헥토파스칼", "압력", 101300)
+        self.check("5 킬로줄", "에너지", 5e3)
+        self.check("5 킬로와트시", "에너지", 5 * 3.6e6)
+        self.check("5 킬로칼로리", "에너지", 5 * 4184)
+        self.check("5 기가전자볼트", "에너지", 5 * 1.602176634e-10)
+        self.check("5 테라와트", "출력", 5e12)
+        self.check("5 라디안", "각도", 5 * 57.29577951308232)
+        self.check("5 기가헤르츠", "진동수", 5e9)
+
+    # 2. 새 차원
+    def test_new_dimensions(self):
+        self.check("20 kV", "전압", 2e4)
+        self.check("0.5 mSv", "선량당량", 5e-4)
+        self.check("2 mol", "물질량", 2)
+        self.check("3 newtons", "힘", 3)
+        self.check("3 kN", "힘", 3e3)
+        self.check("12 volts", "전압", 12)
+        self.check("5 mA", "전류", 5e-3)
+        self.check("5 µA", "전류", 5e-6)
+        self.check("4.7 kΩ", "전기 저항", 4.7e3)
+        self.check("4.7 ohms", "전기 저항", 4.7)
+        self.check("2 coulombs", "전하", 2)
+        self.check("2 gauss", "자기장", 2e-4)
+        self.check("3 nT", "자기장", 3e-9)
+        self.check("5 mCi", "방사능", 5 * 3.7e7)
+        self.check("2 Ci", "방사능", 2 * 3.7e10)
+        self.check("3 TBq", "방사능", 3e12)
+        self.check("4 mGy", "흡수선량", 4e-3)
+        self.check("4 sieverts", "선량당량", 4)
+        self.check("4 µmol", "물질량", 4e-6)
+        self.check("4 candelas", "광도", 4)
+        self.check("4 lumens", "광선속", 4)
+        self.check("4 lux", "조도", 4)
+        self.check("4 pF", "전기 용량", 4e-12)
+        self.check("4 Wb", "자기 선속", 4)
+        self.check("4 henries", "인덕턴스", 4)
+        self.check("4 siemens", "전기 전도도", 4)
+        self.check("1 Da", "질량", 1.66053906660e-27)
+        self.check("5 kDa", "질량", 5 * 1.66053906660e-24)
+        self.check("5 달톤", "질량", 5 * 1.66053906660e-27)
+        for t, d, b in (("5 뉴턴", "힘", 5), ("5 볼트", "전압", 5), ("5 암페어", "전류", 5), ("5 옴", "전기 저항", 5),
+                        ("5 쿨롱", "전하", 5), ("5 테슬라", "자기장", 5), ("5 베크렐", "방사능", 5), ("5 퀴리", "방사능", 5 * 3.7e10),
+                        ("5 그레이", "흡수선량", 5), ("5 밀리시버트", "선량당량", 5e-3), ("5 몰", "물질량", 5), ("5 칸델라", "광도", 5),
+                        ("5 루멘", "광선속", 5), ("5 럭스", "조도", 5), ("5 패럿", "전기 용량", 5), ("5 웨버", "자기 선속", 5),
+                        ("5 헨리", "인덕턴스", 5), ("5 지멘스", "전기 전도도", 5), ("5 가우스", "자기장", 5e-4)):
+            self.check(t, d, b)
+
+    def test_new_dimension_boundaries(self):
+        self.assertEqual(qs("5 metresX"), [])
+        self.assertEqual(unk("5 metresX"), ["5"])
+        self.assertEqual(qs("5 몰디브"), [])
+        self.assertEqual(unk("5 몰디브"), ["5"])
+        self.assertEqual(qs("5 뉴턴의"), [("5 뉴턴", 5.0, "뉴턴")])
+        self.assertEqual(qs("5 mTorr"), [])
+
+    # 3. 천문 단위의 이름
+    def test_astronomical_names(self):
+        it = self.one("Mass: 6.81 Earth masses")
+        self.assertEqual((it["dim"], it["value"]), ("질량", 6.81))
+        near(self, it["base"], 6.81 * 5.9722e24)
+        self.check("2 Jupiter masses", "질량", 2 * 1.89813e27)
+        self.check("2 Jovian mass", "질량", 2 * 1.89813e27)
+        self.check("2 MJup", "질량", 2 * 1.89813e27)
+        self.check("2 M♃", "질량", 2 * 1.89813e27)
+        self.check("3 solar masses", "질량", 3 * 1.98847e30)
+        self.check("1.5 Jupiter radii", "길이", 1.5 * 7.1492e7)
+        self.check("1.5 RJup", "길이", 1.5 * 7.1492e7)
+        self.check("0.9 Earth radius", "길이", 0.9 * 6.3781e6)
+        self.check("0.9 solar radii", "길이", 0.9 * 6.957e8)
+        self.check("2 solar luminosities", "출력", 2 * 3.828e26)
+        self.check("5 지구 질량", "질량", 5 * 5.9722e24)
+        self.check("5 태양질량", "질량", 5 * 1.98847e30)
+        self.check("5 지구 반지름", "길이", 5 * 6.3781e6)
+        self.check("5 목성 반지름", "길이", 5 * 7.1492e7)
+        self.check("5 태양 반지름", "길이", 5 * 6.957e8)
+        self.check("5 태양 광도", "출력", 5 * 3.828e26)
+        its = qt.quantities("질량: >7.80±0.35 목성질량(2,480 지구질량)")
+        self.assertEqual([(i["raw"], i["unit"], i["dim"]) for i in its],
+                         [("7.80±0.35 목성질량", "목성질량", "질량"), ("2,480 지구질량", "지구질량", "질량")])
+        near(self, its[0]["base"], 7.80 * 1.89813e27)
+        near(self, its[1]["base"], 2480 * 5.9722e24)
+        self.assertEqual(qt.UNITS["RJup"], qt.UNITS["RJ"])
+
+    # 4. 음의 지수로 적은 합친 단위
+    def test_negative_exponent_units(self):
+        it = self.one("530±0.15 kg m⁻³")
+        self.assertEqual((it["dim"], it["value"], it["unit"]), ("밀도", 530.0, "kg m⁻³"))
+        near(self, it["base"], 530)
+        self.check("1.2 g·cm⁻³", "밀도", 1200)
+        self.check("1.2 g cm⁻³", "밀도", 1200)
+        self.check("20 m s⁻¹", "속도", 20)
+        self.check("20 km·s⁻¹", "속도", 2e4)
+        self.check("36 km h⁻¹", "속도", 10)
+        self.check("9.8 m·s⁻²", "가속도", 9.8)
+        self.check("40 kJ mol⁻¹", "몰 에너지", 4e4)
+        self.check("10 kcal·mol⁻¹", "몰 에너지", 41840)
+        self.check("18 g mol⁻¹", "몰 질량", 0.018)
+        self.check("0.018 kg·mol⁻¹", "몰 질량", 0.018)
+        self.check("401 W m⁻¹ K⁻¹", "열전도율", 401)
+        self.check("401 W·m⁻¹·K⁻¹", "열전도율", 401)
+        self.check("25 J mol⁻¹ K⁻¹", "몰 열용량", 25)
+        self.check("25 J/mol·K", "몰 열용량", 25)
+        self.check("4.18 J g⁻¹ K⁻¹", "비열", 4180)
+        self.check("900 J kg⁻¹ K⁻¹", "비열", 900)
+        self.check("900 J/kg·K", "비열", 900)
+        self.check("4.18 J/g·K", "비열", 4180)
+
+    def test_thermal_expansion(self):
+        its = qt.quantities("Thermal expansion: 4.5×10⁻⁶/K (at 20 °C)")
+        self.assertEqual([(i["raw"], i["dim"]) for i in its], [("4.5×10⁻⁶/K", "열팽창"), ("20 °C", "온도")])
+        near(self, its[0]["base"], 4.5e-6)
+        near(self, its[1]["base"], 293.15)
+        near(self, self.one("23×10⁻⁶ K⁻¹")["base"], 23e-6)
+        near(self, self.one("1.2×10⁻⁵ 1/K")["base"], 1.2e-5)
+        near(self, self.one("1.2×10⁻⁵ °C⁻¹")["base"], 1.2e-5)
+        near(self, self.one("1.2×10⁻⁵/°C")["base"], 1.2e-5)
+
+    # 5. 뜻이 둘인 기호는 읽지 않는다
+    def test_ambiguous_symbols_stay_unknown(self):
+        for t, d in (("3 MJ", "3"), ("5 N", "5"), ("12 V", "12"), ("2 tons", "2"), ("2 ton", "2"), ("4 A", "4"), ("4 C", "4"),
+                     ("4 F", "4"), ("4 S", "4"), ("4 H", "4"), ("4 T", "4"), ("4 cd", "4"), ("4 lm", "4"), ("4 sr", "4"),
+                     ("4 G", "4"), ("4 도", "4"), ("4 줄", "4"), ("4 바", "4")):
+            self.assertEqual(qs(t), [], t)
+            self.assertEqual(unk(t), [d], t)
+        for sym in ("N", "V", "A", "C", "F", "S", "H", "T", "MJ", "cd", "lm", "sr", "G", "ton", "tons", "도", "줄", "바"):
+            self.assertNotIn(sym, qt.UNITS)
 
 
 class Digits(unittest.TestCase):
