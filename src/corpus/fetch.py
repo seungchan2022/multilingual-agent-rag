@@ -1,4 +1,4 @@
-"""코퍼스 문서 28개의 원본을 받는 프로그램.
+"""코퍼스 문서(documents.yaml의 목록)의 원본을 받는 프로그램.
 
   uv run python src/corpus/fetch.py                       documents.yaml의 문서를 차례로 받는다
   uv run python src/corpus/fetch.py --only <doc_id> ...   그 문서만 받는다
