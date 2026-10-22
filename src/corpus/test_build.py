@@ -168,6 +168,12 @@ class Formula(unittest.TestCase):
         self.assertIn(r"- 식: \(a\)", convert_wiki({"title": "T"}, raw))
 
 
+class NoInfobox(unittest.TestCase):
+    def test_정보_상자가_없으면_본문만_옮긴다(self):
+        raw = '<div class="mw-parser-output"><p>글</p><h2>절</h2><p>내용</p></div>'.encode("utf-8")
+        self.assertEqual(convert_wiki({"title": "T"}, raw), "# T\n\n글\n\n## 절\n\n내용\n")
+
+
 class FetchDocs(unittest.TestCase):
     def test_to_markdown도_함께_바뀐다(self):
         sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "domain_select"))

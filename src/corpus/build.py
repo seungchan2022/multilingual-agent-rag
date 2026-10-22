@@ -502,13 +502,19 @@ def render(title, info, items):
 
 
 def convert_wiki(d, raw):
+    """정보 상자가 맨 위에 없는 문서(동위 원소 문서 등)는 정보 상자 줄 없이 본문만 옮긴다."""
     soup = BeautifulSoup(raw.decode("utf-8"), "html.parser")
     root = soup.find("div", class_="mw-parser-output")
+    has_box = root.find("table", class_="infobox", recursive=False) is not None
     prepare(root)
-    box = mark_infobox(root)
-    drop_all(root)
-    info = infobox_lines(box)
-    box.decompose()
+    info = []
+    if has_box:
+        box = mark_infobox(root)
+        drop_all(root)
+        info = infobox_lines(box)
+        box.decompose()
+    else:
+        drop_all(root)
     items = []
     walk(root, items)
     return render(d["title"], info, prune(items))
