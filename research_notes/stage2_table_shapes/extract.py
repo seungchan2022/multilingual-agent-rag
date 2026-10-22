@@ -68,7 +68,7 @@ def html_section(table):
 
 def structure(table):
     rows = build.own_rows(table)
-    grid, all_th, row_texts, row_spans, _ = build.grid_of(table)
+    grid, all_th, row_texts, row_spans, *_ = build.grid_of(table)
     cols = len(grid[0]) if grid else 0
     cells_by_row = [build.own_cells(tr) for tr in rows]
     full = [len(sp) == 1 and sp[0] > 1 and sp[0] >= cols for sp in row_spans]
