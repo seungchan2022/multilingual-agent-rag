@@ -1,0 +1,5815 @@
+{
+ "dismissed_quantities": [
+  {
+   "id": "wiki-en-dysprosium:185:302-314",
+   "raw": "100 kilogram",
+   "reason": "table salt 치사량 300 grams의 조건(사람 체중)이며 그 값의 note에 적음",
+   "quote": "Soluble dysprosium salts, such as dysprosium chloride and dysprosium nitrate are mildly toxic when ingested. Based on the toxicity of dysprosium chloride to mice, it is estimated that the ingestion of 500 grams or more could be fatal to a human (cf. lethal dose of 300 grams of common table salt for a 100 kilogram human). The insoluble salts are non-toxic."
+  },
+  {
+   "id": "wiki-ko-ytterbium:81:251-258",
+   "raw": "39000기압",
+   "reason": "다른 값(전기 저항 상승 배율 10배)이 나타나는 조건인 압력",
+   "quote": "이터븀은 찬물과 천천히 반응하며 공기 중에서 서서히 산화한다. 이터븀은 3가지 결정 구조를 가지는데 알파 결정 구조는 -13 °C이하에서 존재하고 낮은 온도에서 안정하며 육방정계 결정 구조를 가지고 있고, 감마 결정 구조는 795 °C이상에서 존재하고 체심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 16000 기압(1.6 GPa)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4.0 GPa) 전기 저항이 1기압일 때의 전기 저항의 90 %밖에 되지 않는다. 저온에서 강자성이나 반강자성을 가지는 다른 란타넘족들과는 달리 이터븀은 1 K 위의 낮은 온도에서 상자성을 가진다. 예외로 알파 동소체는 반자성체이다. 이터븀은 녹는점이 824 °C, 끓는점이 1196 °C로 액체로 존재하는 온도 범위가 가장 작은 금속이다."
+  },
+  {
+   "id": "wiki-ko-ytterbium:81:259-266",
+   "raw": "3.9 GPa",
+   "reason": "39000기압의 단위 환산(조건인 압력)",
+   "quote": "이터븀은 찬물과 천천히 반응하며 공기 중에서 서서히 산화한다. 이터븀은 3가지 결정 구조를 가지는데 알파 결정 구조는 -13 °C이하에서 존재하고 낮은 온도에서 안정하며 육방정계 결정 구조를 가지고 있고, 감마 결정 구조는 795 °C이상에서 존재하고 체심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 16000 기압(1.6 GPa)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4.0 GPa) 전기 저항이 1기압일 때의 전기 저항의 90 %밖에 되지 않는다. 저온에서 강자성이나 반강자성을 가지는 다른 란타넘족들과는 달리 이터븀은 1 K 위의 낮은 온도에서 상자성을 가진다. 예외로 알파 동소체는 반자성체이다. 이터븀은 녹는점이 824 °C, 끓는점이 1196 °C로 액체로 존재하는 온도 범위가 가장 작은 금속이다."
+  },
+  {
+   "id": "wiki-ko-ytterbium:81:298-305",
+   "raw": "40000기압",
+   "reason": "다른 값(전기 저항 90 %)이 나타나는 조건인 압력",
+   "quote": "이터븀은 찬물과 천천히 반응하며 공기 중에서 서서히 산화한다. 이터븀은 3가지 결정 구조를 가지는데 알파 결정 구조는 -13 °C이하에서 존재하고 낮은 온도에서 안정하며 육방정계 결정 구조를 가지고 있고, 감마 결정 구조는 795 °C이상에서 존재하고 체심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 16000 기압(1.6 GPa)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4.0 GPa) 전기 저항이 1기압일 때의 전기 저항의 90 %밖에 되지 않는다. 저온에서 강자성이나 반강자성을 가지는 다른 란타넘족들과는 달리 이터븀은 1 K 위의 낮은 온도에서 상자성을 가진다. 예외로 알파 동소체는 반자성체이다. 이터븀은 녹는점이 824 °C, 끓는점이 1196 °C로 액체로 존재하는 온도 범위가 가장 작은 금속이다."
+  },
+  {
+   "id": "wiki-ko-ytterbium:81:309-316",
+   "raw": "4.0 GPa",
+   "reason": "40000기압의 단위 환산(조건인 압력)",
+   "quote": "이터븀은 찬물과 천천히 반응하며 공기 중에서 서서히 산화한다. 이터븀은 3가지 결정 구조를 가지는데 알파 결정 구조는 -13 °C이하에서 존재하고 낮은 온도에서 안정하며 육방정계 결정 구조를 가지고 있고, 감마 결정 구조는 795 °C이상에서 존재하고 체심입방격자 구조를 갖는다. 베타 결정 구조는 상온에서 존재하며 면심입방격자 구조를 가지고 있다. 베타 결정 구조는 금속적인 전기전도도를 갖는데 16000 기압(1.6 GPa)에서는 반도체가 되고 39000기압(3.9 GPa)에서는 10배나 전기저항이 상승한다. 하지만 신기하게도 40000기압에서는(4.0 GPa) 전기 저항이 1기압일 때의 전기 저항의 90 %밖에 되지 않는다. 저온에서 강자성이나 반강자성을 가지는 다른 란타넘족들과는 달리 이터븀은 1 K 위의 낮은 온도에서 상자성을 가진다. 예외로 알파 동소체는 반자성체이다. 이터븀은 녹는점이 824 °C, 끓는점이 1196 °C로 액체로 존재하는 온도 범위가 가장 작은 금속이다."
+  },
+  {
+   "id": "wiki-ko-ytterbium:83:219-221",
+   "raw": "6s",
+   "reason": "전자 껍질 이름 6s의 일부",
+   "quote": "조밀육방격자를 가지는 대부분의 란타넘족 원소들과 달리 이터븀은 면심입방격자 구조를 갖는다. 이터븀의 밀도는 6.973 g/cm^(3)로 이웃한 툴륨 (9.32 g/cm^(3))과 루테튬 (9.841 g/cm^(3))에 비해 상당히 낮다. 밀도 뿐만 아니라 녹는점과 끓는점도 이들에 비해 상당히 낮다. 이는 이터븀의 채워진 전자 배치([Xe] 4f¹⁴ 6s²)와 관련이 있는데 이터븀은 두개의 6s전자로 금속결합이 가능하고 (다른 란타넘족들은 3개로 가능하다)이는 최종적으로 이터븀의 금속성 반지름을 증가시킨다."
+  },
+  {
+   "id": "wiki-en-lutetium:78:172-174",
+   "raw": "6s",
+   "reason": "전자 배치(오비탈 이름 6s)의 일부",
+   "quote": "A lutetium atom has 71 electrons, arranged in the configuration [Xe] 4f¹⁴5d¹6s². Lutetium is generally encountered in the +3 oxidation state, having lost its two outermost 6s and the single 5d-electron. The lutetium atom is the smallest among the lanthanide atoms, due to the lanthanide contraction, and as a result lutetium has the highest density, melting point, and hardness of the lanthanides. As lutetium's 4f orbitals are highly stabilized only the 5d and 6s orbitals are involved in chemical reactions and bonding; thus it is characterized as a d-block rather than an f-block element, and on this basis some consider it not to be a lanthanide at all, but a transition metal like its lighter congeners scandium and yttrium."
+  },
+  {
+   "id": "wiki-en-lutetium:78:190-192",
+   "raw": "5d",
+   "reason": "전자 배치(오비탈 이름 5d)의 일부",
+   "quote": "A lutetium atom has 71 electrons, arranged in the configuration [Xe] 4f¹⁴5d¹6s². Lutetium is generally encountered in the +3 oxidation state, having lost its two outermost 6s and the single 5d-electron. The lutetium atom is the smallest among the lanthanide atoms, due to the lanthanide contraction, and as a result lutetium has the highest density, melting point, and hardness of the lanthanides. As lutetium's 4f orbitals are highly stabilized only the 5d and 6s orbitals are involved in chemical reactions and bonding; thus it is characterized as a d-block rather than an f-block element, and on this basis some consider it not to be a lanthanide at all, but a transition metal like its lighter congeners scandium and yttrium."
+  },
+  {
+   "id": "wiki-en-lutetium:78:455-457",
+   "raw": "5d",
+   "reason": "전자 배치(오비탈 이름 5d)의 일부",
+   "quote": "A lutetium atom has 71 electrons, arranged in the configuration [Xe] 4f¹⁴5d¹6s². Lutetium is generally encountered in the +3 oxidation state, having lost its two outermost 6s and the single 5d-electron. The lutetium atom is the smallest among the lanthanide atoms, due to the lanthanide contraction, and as a result lutetium has the highest density, melting point, and hardness of the lanthanides. As lutetium's 4f orbitals are highly stabilized only the 5d and 6s orbitals are involved in chemical reactions and bonding; thus it is characterized as a d-block rather than an f-block element, and on this basis some consider it not to be a lanthanide at all, but a transition metal like its lighter congeners scandium and yttrium."
+  },
+  {
+   "id": "wiki-en-lanthanum:79:533-535",
+   "raw": "5d",
+   "reason": "전자 껍질 이름 5d의 일부",
+   "quote": "Lanthanum is the first element and prototype of the lanthanide series. In the periodic table, it appears to the right of the alkaline earth metal barium and to the left of the lanthanide cerium. Lanthanum is generally considered the first of the f-block elements by authors writing on the subject. The 57 electrons of a lanthanum atom are arranged in the configuration [Xe]5d¹6s², with three valence electrons outside the noble gas core. In chemical reactions, lanthanum almost always gives up these three valence electrons from the 5d and 6s subshells to form the +3 oxidation state, achieving the stable configuration of the preceding noble gas xenon. Some lanthanum(II) compounds are also known, but they are usually much less stable. Lanthanum monoxide (LaO) produces strong absorption bands in some stellar spectra."
+  },
+  {
+   "id": "wiki-en-lanthanum:81:729-731",
+   "raw": "6s",
+   "reason": "전자 껍질 이름 6s의 일부",
+   "quote": "Among the lanthanides, lanthanum is exceptional as it has no 4f electrons as a single gas-phase atom. (Among the actinides, actinium, the heavier congener of lanthanum, also has no 5f electrons as a single gas-phase atom; and neither does its successor thorium.) Thus it is only very weakly paramagnetic, unlike the strongly paramagnetic later lanthanides (with the exceptions of the last two, ytterbium and lutetium, where the 4f shell is completely full). However, the 4f shell of lanthanum can become partially occupied in chemical environments and participate in chemical bonding. For example, the melting points of the trivalent lanthanides (all but europium and ytterbium) are related to the extent of hybridisation of the 6s, 5d, and 4f electrons (lowering with increasing 4f involvement), and lanthanum has the second-lowest melting point among them: 920 °C. (Europium and ytterbium have lower melting points because they delocalise about two electrons per atom rather than three.) This chemical availability of f orbitals justifies lanthanum's placement in the f-block despite its anomalous ground-state configuration (which is merely the result of strong interelectronic repulsion making it less profitable to occupy the 4f shell, as it is small and close to the core electrons)."
+  },
+  {
+   "id": "wiki-en-lanthanum:81:733-735",
+   "raw": "5d",
+   "reason": "전자 껍질 이름 5d의 일부",
+   "quote": "Among the lanthanides, lanthanum is exceptional as it has no 4f electrons as a single gas-phase atom. (Among the actinides, actinium, the heavier congener of lanthanum, also has no 5f electrons as a single gas-phase atom; and neither does its successor thorium.) Thus it is only very weakly paramagnetic, unlike the strongly paramagnetic later lanthanides (with the exceptions of the last two, ytterbium and lutetium, where the 4f shell is completely full). However, the 4f shell of lanthanum can become partially occupied in chemical environments and participate in chemical bonding. For example, the melting points of the trivalent lanthanides (all but europium and ytterbium) are related to the extent of hybridisation of the 6s, 5d, and 4f electrons (lowering with increasing 4f involvement), and lanthanum has the second-lowest melting point among them: 920 °C. (Europium and ytterbium have lower melting points because they delocalise about two electrons per atom rather than three.) This chemical availability of f orbitals justifies lanthanum's placement in the f-block despite its anomalous ground-state configuration (which is merely the result of strong interelectronic repulsion making it less profitable to occupy the 4f shell, as it is small and close to the core electrons)."
+  },
+  {
+   "id": "wiki-en-lanthanum:172:30-37",
+   "raw": "1000 kg",
+   "reason": "가격 단위인 톤의 정의(1000 kg)",
+   "quote": "The price for a (metric) ton [1000 kg] of Lanthanum oxide 99% (FOB China in USD/Mt) is given by the Institute of Rare Earths Elements and Strategic Metals (IREESM) as below $2,000 for most of the period from early 2001 to September 2010 (at $10,000 in the short term in 2008); it rose steeply to $140,000 in mid-2011 and fell back just as rapidly to $38,000 by early 2012. The average price for the last six months (April–September 2022) is given by the IREESM as follows: Lanthanum Oxide - 99.9%min FOB China - 1308 EUR/mt and for Lanthanum Metal - 99%min FOB China - 3706 EUR/mt."
+  },
+  {
+   "id": "wiki-en-europium:130:47-49",
+   "raw": "5d",
+   "reason": "전자 궤도 이름 5d의 일부",
+   "quote": "The Eu(II) halides also show characteristic 4f–5d luminescence. Solid EuCl2, EuBr2 and EuI2 fluoresce under ultraviolet excitation, with broad emission bands whose positions depend strongly on the halide ligand; EuCl2, for example, emits in the blue region."
+  },
+  {
+   "id": "wiki-en-europium:252:486-488",
+   "raw": "5d",
+   "reason": "전자 궤도 이름 5d의 일부",
+   "quote": "Europium-containing phosphors have also been important in electric lighting. In traditional three-band fluorescent lamps, Eu(III)-activated materials provide red emission while Eu(II)-activated phosphors provide blue emission; together with a green-emitting phosphor, these produce white light with improved colour rendering. Europium phosphors remain important in light-emitting diode technology. Eu(II)-activated materials are particularly useful because the energy of their broad 4f–5d emission bands depends strongly on the host lattice, allowing their emission colour to be tuned over much of the visible spectrum. Eu(III)-activated phosphors are likewise used and developed as narrow-band red emitters for phosphor-converted white LEDs and display backlighting."
+  },
+  {
+   "id": "wiki-en-praseodymium:77:376-378",
+   "raw": "5d",
+   "reason": "오비탈 이름(5d)",
+   "quote": "Neutral praseodymium's 59 electrons are arranged in the configuration [Xe]4f³6s². Like most other lanthanides, praseodymium usually uses only three electrons as valence electrons, as the remaining 4f electrons are too strongly bound to engage in bonding: this is because the 4f orbitals penetrate the most through the inert xenon core of electrons to the nucleus, followed by 5d and 6s, and this penetration increases with higher ionic charge. Even so, praseodymium can in some compounds lose a fourth valence electron because it is early in the lanthanide series, where the nuclear charge is still low enough and the 4f subshell energy high enough to allow the removal of further valence electrons."
+  },
+  {
+   "id": "wiki-en-praseodymium:77:383-385",
+   "raw": "6s",
+   "reason": "오비탈 이름(6s)",
+   "quote": "Neutral praseodymium's 59 electrons are arranged in the configuration [Xe]4f³6s². Like most other lanthanides, praseodymium usually uses only three electrons as valence electrons, as the remaining 4f electrons are too strongly bound to engage in bonding: this is because the 4f orbitals penetrate the most through the inert xenon core of electrons to the nucleus, followed by 5d and 6s, and this penetration increases with higher ionic charge. Even so, praseodymium can in some compounds lose a fourth valence electron because it is early in the lanthanide series, where the nuclear charge is still low enough and the 4f subshell energy high enough to allow the removal of further valence electrons."
+  },
+  {
+   "id": "wiki-en-praseodymium:89:259-266",
+   "raw": "282 bar",
+   "reason": "다른 값의 조건",
+   "quote": "This may be reduced to praseodymium(III) oxide (Pr2O3) with hydrogen gas. Praseodymium(IV) oxide, PrO2, is the most oxidised product of the combustion of praseodymium and can be obtained by either reaction of praseodymium metal with pure oxygen at 400 °C and 282 bar or by disproportionation of Pr6O11 in boiling acetic acid. The reactivity of praseodymium conforms to periodic trends, as it is one of the first and thus one of the largest lanthanides. At 1000 °C, many praseodymium oxides with composition PrO2−x exist as disordered, nonstoichiometric phases with 0 < x < 0.25, but at 400–700 °C the oxide defects are instead ordered, creating phases of the general formula PrnO2n−2 with n = 4, 7, 9, 10, 11, 12, and ∞. These phases PrOy are sometimes labelled α and β′ (nonstoichiometric), β (y = 1.833), δ (1.818), ε (1.8), ζ (1.778), ι (1.714), θ, and σ."
+  },
+  {
+   "id": "wiki-en-praseodymium:152:244-246",
+   "raw": "3d",
+   "reason": "전이 금속 3d 오비탈 이름",
+   "quote": "- In combination with neodymium, another rare-earth element, praseodymium is used to create high-power magnets notable for their strength and durability. In general, most alloys of the cerium-group rare earths (lanthanum through samarium) with 3d transition metals give extremely stable magnets that are often used in small equipment, such as motors, printers, watches, headphones, loudspeakers, and magnetic storage."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:129:344-350",
+   "raw": "1-year",
+   "reason": "생존율 이름에 붙은 기준 기간(1년 생존율), 양 이름의 일부",
+   "quote": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:129:355-361",
+   "raw": "2-year",
+   "reason": "생존율 이름에 붙은 기준 기간(2년 생존율), 양 이름의 일부",
+   "quote": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:165:57-65",
+   "raw": "15 years",
+   "reason": "문서를 쓴 때를 기준으로 한 막연한 기간('지난 15년')",
+   "quote": "The single most important clinical advance over the past 15 years has been the application of BNCT to treat patients with recurrent tumors of the head and neck region who had failed all other therapy. These studies were first initiated by Kato et al. in Japan. and subsequently followed by several other Japanese groups and by Kankaanranta, Joensuu, Auterinen, Koivunoro, and their co-workers in Finland. All of these studies employed BPA as the boron delivery agent, usually alone but occasionally in combination with BSH. A very heterogeneous group of patients with a variety of histopathologic types of tumors have been treated, the largest number of which had recurrent squamous cell carcinomas. Kato et al. have reported on a series of 26 patients with far-advanced cancer for whom there were no further treatment options. Either BPA + BSH or BPA alone were administered by a 1- or 2-hour i.v. infusion, and this was followed by BNCT using an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment related complications (\"adverse\" events) included transient mucositis, alopecia, and, rarely, brain necrosis and osteomyelitis."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:165:1111-1117",
+   "raw": "6-year",
+   "reason": "생존율 이름에 붙은 기준 기간(6년 생존율), 양 이름의 일부",
+   "quote": "The single most important clinical advance over the past 15 years has been the application of BNCT to treat patients with recurrent tumors of the head and neck region who had failed all other therapy. These studies were first initiated by Kato et al. in Japan. and subsequently followed by several other Japanese groups and by Kankaanranta, Joensuu, Auterinen, Koivunoro, and their co-workers in Finland. All of these studies employed BPA as the boron delivery agent, usually alone but occasionally in combination with BSH. A very heterogeneous group of patients with a variety of histopathologic types of tumors have been treated, the largest number of which had recurrent squamous cell carcinomas. Kato et al. have reported on a series of 26 patients with far-advanced cancer for whom there were no further treatment options. Either BPA + BSH or BPA alone were administered by a 1- or 2-hour i.v. infusion, and this was followed by BNCT using an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment related complications (\"adverse\" events) included transient mucositis, alopecia, and, rarely, brain necrosis and osteomyelitis."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:183:1915-1922",
+   "raw": "24-hour",
+   "reason": "하루를 뜻하는 기간 표현('24시간 동안')",
+   "quote": "Since the proton beams for BNCT are quite powerful (~20-100 kW), the neutron generating target must incorporate cooling systems capable of removing the heat safely and reliably to protect the target from damage. In the case of the lithium-7, this requirement is especially important due to the low melting point and chemical volatility of the target material. Liquid jets, micro-channels and rotating targets have been employed to solve this problem. Several researchers have proposed the use of liquid lithium-7 targets in which the target material doubles as the coolant. In the case of beryllium-9, \"thin\" targets, in which the protons come to rest and deposit much of their energy in the cooling fluid, can be employed. Target degradation due to beam exposure (\"blistering\") is another problem to be solved, either by using layers of materials resistant to blistering or by spreading the protons over a large target area. Since the nuclear reactions yield neutrons with energies ranging from < 100keV to tens of MeV, a beam-shaping assembly (BSA) must be used to moderate, filter, reflect, and collimate the neutron beam to achieve the desired epithermal energy range, neutron beam size, and direction. BSAs are typically composed of a range of materials with desirable nuclear properties for each function. A well-designed BSA should maximize neutron yield per proton while minimizing fast neutron, thermal neutron, and gamma contamination. It should also produce a sharply delimited and generally forward-directed beam, enabling flexible positioning of the patient relative to the aperture. One key challenge for an ABNS is the duration of treatment time: depending on the neutron beam intensity, treatments can take up to an hour or more. Therefore, it is desirable to reduce the treatment time both for patient comfort during immobilization and to increase the number of patients that could be treated in a 24-hour period. Increasing the neutron beam intensity for the same proton current by adjusting the BSA is often achieved at the cost of reduced beam quality (higher levels of unwanted fast neutrons or gamma rays in the beam or poor beam collimation). Therefore, increasing the proton current delivered by ABNS BNCT systems remains a key goal of technology development programs."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:208:988-994",
+   "raw": "1-year",
+   "reason": "생존율 이름에 붙은 기준 기간(1년 생존율), 양 이름의 일부",
+   "quote": "The single greatest advance in moving BNCT forward clinically has been the introduction of cyclotron-based neutron sources (c-BNS) in Japan. Shin-ichi Miyatake and Shinji Kawabata have led the way with the treatment of patients with recurrent glioblastomas (GBMs). In their Phase II clinical trial, they used the Sumitomo Heavy Industries accelerator at the Osaka Medical College, Kansai BNCT Medical Center to treat a total of 24 patients. These patients ranged in age from 20 to 75 years, and all previously had received standard treatment consisting of surgery followed by chemotherapy with temozolomide (TMZ) and conventional radiation therapy. They were candidates for treatment with BNCT because their tumors had recurred and were progressing in size. They received an intravenous infusion of a proprietary formulation of ¹⁰B-enriched boronophenylalanine (\"Borofalan,\" StellaPharma Corporation, Osaka, Japan) prior to neutron irradiation. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 18.9 months. Based on these results, it was concluded that c-BNS BNCT was safe and resulted in increased survival of patients with recurrent gliomas. Although there was an increased risk of brain edema due to re-irradiation, this was easily controlled. As a result of this trial, the Sumitomo accelerator was approved by the Japanese regulatory authority having jurisdiction over medical devices, and further studies are being carried out with patients who have recurrent, high-grade (malignant) meningiomas. However, further studies for the treatment of patients with GBMs have been put on hold pending additional analysis of the results."
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:212:672-678",
+   "raw": "2-year",
+   "reason": "생존율 이름에 붙은 기준 기간(2년 생존율), 양 이름의 일부",
+   "quote": "Katsumi Hirose and his co-workers at the Southern Tohoku BNCT Research Center in Koriyama, Japan, have reported on their results after treating 21 patients with recurrent tumors of the head and neck region. All of these patients had received surgery, chemotherapy, and conventional radiation therapy. Eight of them had recurrent squamous cell carcinomas (R-SCC), and 13 had either recurrent (R) or locally advanced (LA) non-squamous-cell carcinomas (nSCC). The overall response rate was 71%, and the complete response and partial response rates were 50% and 25%, respectively, for patients with R-SCC and 80% and 62%, respectively, for those with R or LA SCC. The overall 2-year survival rates for patients with R-SCC or R/LA nSCC were 58% and 100%, respectively. The treatment was well tolerated, and adverse events were those usually associated with conventional radiation treatment of these tumors. These patients had received a proprietary formulation of ¹⁰B-enriched boronophenylalanine (Borofalan), which was administered intravenously. Although the manufacturer of the accelerator was not identified, it presumably was the one manufactured by Sumitomo Heavy Industries, Ltd., which was indicated in the Acknowledgements of their report. Based on this Phase II clinical trial, the authors suggested that BNCT using Borofalan and c-BENS was a promising treatment for recurrent head and neck cancers, although further studies would be required to firmly establish this."
+  }
+ ],
+ "lonely_body_values": [
+  {
+   "place": {
+    "id": "wiki-en-thulium:78:1",
+    "doc_id": "wiki-en-thulium",
+    "line": 78,
+    "object": "Tm",
+    "quantity": "ferromagnetic_range",
+    "condition": "",
+    "raw": "below 32 K"
+   },
+   "dim": "온도",
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K ​(1545 °C, ​2813 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K ​(1950 °C, ​3542 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic (at 300 K)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "antiferromagnetic_range",
+     "raw": "between 32 and 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "paramagnetic_range",
+     "raw": "above 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 84,
+     "quantity": "combustion_temperature",
+     "raw": "150 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 94,
+     "quantity": "halogen_reaction_vigorous_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-thulium:78:2",
+    "doc_id": "wiki-en-thulium",
+    "line": 78,
+    "object": "Tm",
+    "quantity": "antiferromagnetic_range",
+    "condition": "",
+    "raw": "between 32 and 56 K"
+   },
+   "dim": "온도",
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K ​(1545 °C, ​2813 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K ​(1950 °C, ​3542 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic (at 300 K)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "ferromagnetic_range",
+     "raw": "below 32 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "paramagnetic_range",
+     "raw": "above 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 84,
+     "quantity": "combustion_temperature",
+     "raw": "150 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 94,
+     "quantity": "halogen_reaction_vigorous_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-thulium:78:3",
+    "doc_id": "wiki-en-thulium",
+    "line": 78,
+    "object": "Tm",
+    "quantity": "paramagnetic_range",
+    "condition": "",
+    "raw": "above 56 K"
+   },
+   "dim": "온도",
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K ​(1545 °C, ​2813 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K ​(1950 °C, ​3542 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic (at 300 K)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "ferromagnetic_range",
+     "raw": "below 32 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "antiferromagnetic_range",
+     "raw": "between 32 and 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 84,
+     "quantity": "combustion_temperature",
+     "raw": "150 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 94,
+     "quantity": "halogen_reaction_vigorous_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-thulium:84:0",
+    "doc_id": "wiki-en-thulium",
+    "line": 84,
+    "object": "Tm",
+    "quantity": "combustion_temperature",
+    "condition": "",
+    "raw": "150 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K ​(1545 °C, ​2813 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K ​(1950 °C, ​3542 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic (at 300 K)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "ferromagnetic_range",
+     "raw": "below 32 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "antiferromagnetic_range",
+     "raw": "between 32 and 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "paramagnetic_range",
+     "raw": "above 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 94,
+     "quantity": "halogen_reaction_vigorous_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-thulium:94:0",
+    "doc_id": "wiki-en-thulium",
+    "line": 94,
+    "object": "Tm",
+    "quantity": "halogen_reaction_vigorous_temperature",
+    "condition": "",
+    "raw": "above 200 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 9,
+   "candidates": [
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1818 K ​(1545 °C, ​2813 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2223 K ​(1950 °C, ​3542 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic (at 300 K)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "ferromagnetic_range",
+     "raw": "below 32 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "antiferromagnetic_range",
+     "raw": "between 32 and 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 78,
+     "quantity": "paramagnetic_range",
+     "raw": "above 56 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-thulium",
+     "line": 84,
+     "quantity": "combustion_temperature",
+     "raw": "150 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:85:0",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 85,
+    "object": "Dy",
+    "quantity": "curie_temperature",
+    "condition": "",
+    "raw": "90.5 K (−182.7 °C)"
+   },
+   "dim": "온도",
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K ​(1407 °C, ​2565 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K ​(2562 °C, ​4653 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic at 300 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "neel_temperature",
+     "raw": "179 K (−94 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "hcp_to_bcc_transition_temperature",
+     "raw": "1,654 K (1,381 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 99,
+     "quantity": "halogen_reaction_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:85:1",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 85,
+    "object": "Dy",
+    "quantity": "neel_temperature",
+    "condition": "",
+    "raw": "179 K (−94 °C)"
+   },
+   "dim": "온도",
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K ​(1407 °C, ​2565 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K ​(2562 °C, ​4653 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic at 300 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "curie_temperature",
+     "raw": "90.5 K (−182.7 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "hcp_to_bcc_transition_temperature",
+     "raw": "1,654 K (1,381 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 99,
+     "quantity": "halogen_reaction_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:85:2",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 85,
+    "object": "Dy",
+    "quantity": "hcp_to_bcc_transition_temperature",
+    "condition": "",
+    "raw": "1,654 K (1,381 °C)"
+   },
+   "dim": "온도",
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K ​(1407 °C, ​2565 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K ​(2562 °C, ​4653 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic at 300 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "curie_temperature",
+     "raw": "90.5 K (−182.7 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "neel_temperature",
+     "raw": "179 K (−94 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 99,
+     "quantity": "halogen_reaction_temperature",
+     "raw": "above 200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:99:0",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 99,
+    "object": "Dy",
+    "quantity": "halogen_reaction_temperature",
+    "condition": "",
+    "raw": "above 200 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 8,
+   "candidates": [
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1680 K ​(1407 °C, ​2565 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2840 K ​(2562 °C, ​4653 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 44,
+     "quantity": "magnetic_ordering",
+     "raw": "paramagnetic at 300 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "curie_temperature",
+     "raw": "90.5 K (−182.7 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "neel_temperature",
+     "raw": "179 K (−94 °C)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 85,
+     "quantity": "hcp_to_bcc_transition_temperature",
+     "raw": "1,654 K (1,381 °C)",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:169:0",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 169,
+    "object": "dysprosium oxide fluoride",
+    "quantity": "synthesis_temperature",
+    "condition": "",
+    "raw": "450 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 169,
+     "quantity": "stability_temperature",
+     "raw": "exceeding 400 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:169:2",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 169,
+    "object": "dysprosium oxide fluoride",
+    "quantity": "synthesis_duration",
+    "condition": "",
+    "raw": "17 hours"
+   },
+   "dim": "시간",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 169,
+     "quantity": "stability_duration",
+     "raw": "over 100 hours",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:169:3",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 169,
+    "object": "dysprosium oxide fluoride",
+    "quantity": "stability_duration",
+    "condition": "",
+    "raw": "over 100 hours"
+   },
+   "dim": "시간",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 169,
+     "quantity": "synthesis_duration",
+     "raw": "17 hours",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-dysprosium:169:4",
+    "doc_id": "wiki-en-dysprosium",
+    "line": 169,
+    "object": "dysprosium oxide fluoride",
+    "quantity": "stability_temperature",
+    "condition": "",
+    "raw": "exceeding 400 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-dysprosium",
+     "line": 169,
+     "quantity": "synthesis_temperature",
+     "raw": "450 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-ko-ytterbium:81:6",
+    "doc_id": "wiki-ko-ytterbium",
+    "line": 81,
+    "object": "Yb",
+    "quantity": "paramagnetic_temperature_threshold",
+    "condition": "",
+    "raw": "1 K"
+   },
+   "dim": "온도",
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1097 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1469 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1097 K ​(824 °C, ​1515 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1469 K ​(1196 °C, ​2185 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "phase_transition_temperature",
+     "raw": "-13 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "phase_transition_temperature",
+     "raw": "795 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "melting_point",
+     "raw": "824 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "boiling_point",
+     "raw": "1196 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 86,
+     "quantity": "allotrope_transformation_temperature",
+     "raw": "−13 and 795 °C (9 and 1,463 °F)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "paramagnetic_range",
+     "raw": "above 1.0 kelvin",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "melting_point",
+     "raw": "824 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "boiling_point",
+     "raw": "1196 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:86:0",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 86,
+    "object": "Yb",
+    "quantity": "allotrope_transformation_temperature",
+    "condition": "",
+    "raw": "−13 and 795 °C (9 and 1,463 °F)"
+   },
+   "dim": "온도",
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1097 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1469 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1097 K ​(824 °C, ​1515 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1469 K ​(1196 °C, ​2185 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "phase_transition_temperature",
+     "raw": "-13 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "phase_transition_temperature",
+     "raw": "795 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "paramagnetic_temperature_threshold",
+     "raw": "1 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "melting_point",
+     "raw": "824 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "boiling_point",
+     "raw": "1196 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "paramagnetic_range",
+     "raw": "above 1.0 kelvin",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "melting_point",
+     "raw": "824 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "boiling_point",
+     "raw": "1196 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:88:1",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 88,
+    "object": "Yb",
+    "quantity": "resistivity_increase_pressure",
+    "condition": "",
+    "raw": "39,000 atmospheres (3.9 GPa)"
+   },
+   "dim": "압력",
+   "n_candidates": 13,
+   "candidates": [
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 43,
+     "quantity": "youngs_modulus",
+     "raw": "23.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 44,
+     "quantity": "shear_modulus",
+     "raw": "9.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 45,
+     "quantity": "bulk_modulus",
+     "raw": "30.5 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 48,
+     "quantity": "vickers_hardness",
+     "raw": "206 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 49,
+     "quantity": "brinell_hardness",
+     "raw": "343 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 46,
+     "quantity": "youngs_modulus",
+     "raw": "23.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 47,
+     "quantity": "shear_modulus",
+     "raw": "9.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 48,
+     "quantity": "bulk_modulus",
+     "raw": "30.5 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 51,
+     "quantity": "vickers_hardness",
+     "raw": "205–250 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 52,
+     "quantity": "brinell_hardness",
+     "raw": "340–440 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "semiconductor_transition_pressure",
+     "raw": "16000 기압(1.6 GPa)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 88,
+     "quantity": "semiconductor_transition_pressure",
+     "raw": "about 16,000 atmospheres (1.6 GPa)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 88,
+     "quantity": "resistivity_drop_pressure",
+     "raw": "about 40,000 atm (4.0 GPa)",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:88:3",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 88,
+    "object": "Yb",
+    "quantity": "resistivity_drop_pressure",
+    "condition": "",
+    "raw": "about 40,000 atm (4.0 GPa)"
+   },
+   "dim": "압력",
+   "n_candidates": 13,
+   "candidates": [
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 43,
+     "quantity": "youngs_modulus",
+     "raw": "23.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 44,
+     "quantity": "shear_modulus",
+     "raw": "9.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 45,
+     "quantity": "bulk_modulus",
+     "raw": "30.5 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 48,
+     "quantity": "vickers_hardness",
+     "raw": "206 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 49,
+     "quantity": "brinell_hardness",
+     "raw": "343 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 46,
+     "quantity": "youngs_modulus",
+     "raw": "23.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 47,
+     "quantity": "shear_modulus",
+     "raw": "9.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 48,
+     "quantity": "bulk_modulus",
+     "raw": "30.5 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 51,
+     "quantity": "vickers_hardness",
+     "raw": "205–250 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 52,
+     "quantity": "brinell_hardness",
+     "raw": "340–440 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "semiconductor_transition_pressure",
+     "raw": "16000 기압(1.6 GPa)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 88,
+     "quantity": "semiconductor_transition_pressure",
+     "raw": "about 16,000 atmospheres (1.6 GPa)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 88,
+     "quantity": "resistivity_increase_pressure",
+     "raw": "39,000 atmospheres (3.9 GPa)",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:90:0",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 90,
+    "object": "Yb",
+    "quantity": "paramagnetic_range",
+    "condition": "",
+    "raw": "above 1.0 kelvin"
+   },
+   "dim": "온도",
+   "n_candidates": 12,
+   "candidates": [
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1097 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1469 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1097 K ​(824 °C, ​1515 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1469 K ​(1196 °C, ​2185 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "phase_transition_temperature",
+     "raw": "-13 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "phase_transition_temperature",
+     "raw": "795 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "paramagnetic_temperature_threshold",
+     "raw": "1 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "melting_point",
+     "raw": "824 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 81,
+     "quantity": "boiling_point",
+     "raw": "1196 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 86,
+     "quantity": "allotrope_transformation_temperature",
+     "raw": "−13 and 795 °C (9 and 1,463 °F)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "melting_point",
+     "raw": "824 °C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 90,
+     "quantity": "boiling_point",
+     "raw": "1196 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:173:2",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 173,
+    "object": "Yb-169",
+    "quantity": "equivalent_xray_energy",
+    "condition": "",
+    "raw": "between 250 and 350 keV"
+   },
+   "dim": "에너지",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-ko-ytterbium",
+     "line": 61,
+     "quantity": "decay_energy",
+     "raw": "0.909",
+     "where": "표"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:187:0",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 187,
+    "object": "ytterbium lasers",
+    "quantity": "laser_wavelength",
+    "condition": "",
+    "raw": "1.03–1.12 μm"
+   },
+   "dim": "길이",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 187,
+     "quantity": "pump_wavelength",
+     "raw": "900 nm–1 μm",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-ytterbium:187:1",
+    "doc_id": "wiki-en-ytterbium",
+    "line": 187,
+    "object": "ytterbium lasers",
+    "quantity": "pump_wavelength",
+    "condition": "",
+    "raw": "900 nm–1 μm"
+   },
+   "dim": "길이",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-ytterbium",
+     "line": 187,
+     "quantity": "laser_wavelength",
+     "raw": "1.03–1.12 μm",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-lutetium:84:0",
+    "doc_id": "wiki-en-lutetium",
+    "line": 84,
+    "object": "Lu",
+    "quantity": "burning_temperature",
+    "condition": "",
+    "raw": "150 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "doc": "wiki-ko-lutetium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1925 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-lutetium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3675 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-lutetium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1925 K ​(1652 °C, ​3006 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-lutetium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3675 K ​(3402 °C, ​6156 °F)",
+     "where": "정보 상자"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-ko-samarium:77:2",
+    "doc_id": "wiki-ko-samarium",
+    "line": 77,
+    "object": "Sm",
+    "quantity": "neel_temperature",
+    "condition": "",
+    "raw": "14.8K 이하"
+   },
+   "dim": "온도",
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1345 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2067 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 77,
+     "quantity": "phase_transition_temperature",
+     "raw": "731°C 이상",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 77,
+     "quantity": "phase_transition_temperature",
+     "raw": "922°C 이상",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 81,
+     "quantity": "ignition_temperature",
+     "raw": "150°C 이상",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-ko-samarium:81:0",
+    "doc_id": "wiki-ko-samarium",
+    "line": 81,
+    "object": "Sm",
+    "quantity": "ignition_temperature",
+    "condition": "",
+    "raw": "150°C 이상"
+   },
+   "dim": "온도",
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1345 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "2067 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 77,
+     "quantity": "phase_transition_temperature",
+     "raw": "731°C 이상",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 77,
+     "quantity": "phase_transition_temperature",
+     "raw": "922°C 이상",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 77,
+     "quantity": "neel_temperature",
+     "raw": "14.8K 이하",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-ko-yttrium:81:0",
+    "doc_id": "wiki-ko-yttrium",
+    "line": 81,
+    "object": "Y",
+    "quantity": "oxide_film_formation_temperature",
+    "condition": "",
+    "raw": "750 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "doc": "wiki-ko-yttrium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1799 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-yttrium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3609 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-yttrium",
+     "line": 81,
+     "quantity": "ignition_temperature",
+     "raw": "400 °C 이상",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-ko-yttrium:81:2",
+    "doc_id": "wiki-ko-yttrium",
+    "line": 81,
+    "object": "Y",
+    "quantity": "ignition_temperature",
+    "condition": "",
+    "raw": "400 °C 이상"
+   },
+   "dim": "온도",
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "doc": "wiki-ko-yttrium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1799 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-yttrium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3609 K",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-ko-yttrium",
+     "line": 81,
+     "quantity": "oxide_film_formation_temperature",
+     "raw": "750 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-europium:84:0",
+    "doc_id": "wiki-en-europium",
+    "line": 84,
+    "object": "Eu",
+    "quantity": "bcc_to_hcp_transition_pressure",
+    "condition": "",
+    "raw": "about 12.5 GPa"
+   },
+   "dim": "압력",
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "doc": "wiki-en-europium",
+     "line": 46,
+     "quantity": "youngs_modulus",
+     "raw": "18.2 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 47,
+     "quantity": "shear_modulus",
+     "raw": "7.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 48,
+     "quantity": "bulk_modulus",
+     "raw": "8.3 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 50,
+     "quantity": "vickers_hardness",
+     "raw": "165–200 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 84,
+     "quantity": "hcp_phase_stability_limit_pressure",
+     "raw": "about 31.5 GPa",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 84,
+     "quantity": "monoclinic_phase_stability_limit_pressure",
+     "raw": "about 37 GPa",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-europium:84:1",
+    "doc_id": "wiki-en-europium",
+    "line": 84,
+    "object": "Eu",
+    "quantity": "hcp_phase_stability_limit_pressure",
+    "condition": "",
+    "raw": "about 31.5 GPa"
+   },
+   "dim": "압력",
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "doc": "wiki-en-europium",
+     "line": 46,
+     "quantity": "youngs_modulus",
+     "raw": "18.2 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 47,
+     "quantity": "shear_modulus",
+     "raw": "7.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 48,
+     "quantity": "bulk_modulus",
+     "raw": "8.3 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 50,
+     "quantity": "vickers_hardness",
+     "raw": "165–200 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 84,
+     "quantity": "bcc_to_hcp_transition_pressure",
+     "raw": "about 12.5 GPa",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 84,
+     "quantity": "monoclinic_phase_stability_limit_pressure",
+     "raw": "about 37 GPa",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-europium:84:2",
+    "doc_id": "wiki-en-europium",
+    "line": 84,
+    "object": "Eu",
+    "quantity": "monoclinic_phase_stability_limit_pressure",
+    "condition": "",
+    "raw": "about 37 GPa"
+   },
+   "dim": "압력",
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "doc": "wiki-en-europium",
+     "line": 46,
+     "quantity": "youngs_modulus",
+     "raw": "18.2 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 47,
+     "quantity": "shear_modulus",
+     "raw": "7.9 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 48,
+     "quantity": "bulk_modulus",
+     "raw": "8.3 GPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 50,
+     "quantity": "vickers_hardness",
+     "raw": "165–200 MPa",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 84,
+     "quantity": "bcc_to_hcp_transition_pressure",
+     "raw": "about 12.5 GPa",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 84,
+     "quantity": "hcp_phase_stability_limit_pressure",
+     "raw": "about 31.5 GPa",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-europium:240:0",
+    "doc_id": "wiki-en-europium",
+    "line": 240,
+    "object": "Eu",
+    "quantity": "reduction_temperature",
+    "condition": "",
+    "raw": "approximately 1100–1200 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "doc": "wiki-en-europium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1099 K ​(826 °C, ​1519 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1802 K ​(1529 °C, ​2784 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 70,
+     "quantity": "neel_temperature",
+     "raw": "about 91 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 80,
+     "quantity": "melting_point",
+     "raw": "822 °C (1,095 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 86,
+     "quantity": "neel_temperature",
+     "raw": "about 91 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 240,
+     "quantity": "spedding_preparation_temperature",
+     "raw": "about 1200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-europium:240:3",
+    "doc_id": "wiki-en-europium",
+    "line": 240,
+    "object": "Eu",
+    "quantity": "spedding_preparation_temperature",
+    "condition": "",
+    "raw": "about 1200 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 6,
+   "candidates": [
+    {
+     "doc": "wiki-en-europium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1099 K ​(826 °C, ​1519 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "1802 K ​(1529 °C, ​2784 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 70,
+     "quantity": "neel_temperature",
+     "raw": "about 91 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 80,
+     "quantity": "melting_point",
+     "raw": "822 °C (1,095 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 86,
+     "quantity": "neel_temperature",
+     "raw": "about 91 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 240,
+     "quantity": "reduction_temperature",
+     "raw": "approximately 1100–1200 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-europium:260:0",
+    "doc_id": "wiki-en-europium",
+    "line": 260,
+    "object": "Eu",
+    "quantity": "emission_wavelength",
+    "condition": "",
+    "raw": "near 612 nm"
+   },
+   "dim": "길이",
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "doc": "wiki-en-europium",
+     "line": 35,
+     "quantity": "atomic_radius",
+     "raw": "180 pm",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 36,
+     "quantity": "covalent_radius",
+     "raw": "198±6 pm",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-europium",
+     "line": 40,
+     "quantity": "lattice_constant",
+     "raw": "458.22 pm",
+     "where": "정보 상자"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-praseodymium:75:0",
+    "doc_id": "wiki-en-praseodymium",
+    "line": 75,
+    "object": "Pr",
+    "quantity": "atomic_radius",
+    "condition": "calculated",
+    "raw": "247 pm"
+   },
+   "dim": "길이",
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 36,
+     "quantity": "covalent_radius",
+     "raw": "203±7 pm",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 40,
+     "quantity": "lattice_constant",
+     "raw": "0.36723 nm",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 40,
+     "quantity": "lattice_constant",
+     "raw": "1.18328 nm",
+     "where": "정보 상자"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-praseodymium:79:0",
+    "doc_id": "wiki-en-praseodymium",
+    "line": 79,
+    "object": "Pr",
+    "quantity": "allotrope_transition_temperature",
+    "condition": "",
+    "raw": "795 °C (1,068 K)"
+   },
+   "dim": "온도",
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1204 K ​(931 °C, ​1708 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3403 K ​(3130 °C, ​5666 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 79,
+     "quantity": "melting_point",
+     "raw": "931 °C (1,204 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 81,
+     "quantity": "paramagnetic_threshold_temperature",
+     "raw": "above 1 K",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 85,
+     "quantity": "combustion_temperature",
+     "raw": "150 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-praseodymium:81:0",
+    "doc_id": "wiki-en-praseodymium",
+    "line": 81,
+    "object": "Pr",
+    "quantity": "paramagnetic_threshold_temperature",
+    "condition": "",
+    "raw": "above 1 K"
+   },
+   "dim": "온도",
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1204 K ​(931 °C, ​1708 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3403 K ​(3130 °C, ​5666 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 79,
+     "quantity": "allotrope_transition_temperature",
+     "raw": "795 °C (1,068 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 79,
+     "quantity": "melting_point",
+     "raw": "931 °C (1,204 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 85,
+     "quantity": "combustion_temperature",
+     "raw": "150 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-praseodymium:85:0",
+    "doc_id": "wiki-en-praseodymium",
+    "line": 85,
+    "object": "Pr",
+    "quantity": "combustion_temperature",
+    "condition": "",
+    "raw": "150 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 17,
+     "quantity": "melting_point",
+     "raw": "1204 K ​(931 °C, ​1708 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 18,
+     "quantity": "boiling_point",
+     "raw": "3403 K ​(3130 °C, ​5666 °F)",
+     "where": "정보 상자"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 79,
+     "quantity": "allotrope_transition_temperature",
+     "raw": "795 °C (1,068 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 79,
+     "quantity": "melting_point",
+     "raw": "931 °C (1,204 K)",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-praseodymium",
+     "line": 81,
+     "quantity": "paramagnetic_threshold_temperature",
+     "raw": "above 1 K",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:76:1",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 76,
+    "object": "Gd-157 capture reaction",
+    "quantity": "neutron_energy",
+    "condition": "",
+    "raw": "0.025eV"
+   },
+   "dim": "에너지",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 76,
+     "quantity": "reaction_energy",
+     "raw": "7.94 MeV",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:76:2",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 76,
+    "object": "Gd-157 capture reaction",
+    "quantity": "reaction_energy",
+    "condition": "",
+    "raw": "7.94 MeV"
+   },
+   "dim": "에너지",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 76,
+     "quantity": "neutron_energy",
+     "raw": "0.025eV",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:121:2",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 121,
+    "object": "KURRI, Japan",
+    "quantity": "infusion_duration",
+    "condition": "",
+    "raw": "over 2 h"
+   },
+   "dim": "시간",
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 145,
+     "quantity": "median_survival_months",
+     "raw": "23.5 (primary + X-ray)",
+     "where": "표"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 123,
+     "quantity": "median_survival_months",
+     "raw": "15.6 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 123,
+     "quantity": "long_term_survivor_years",
+     "raw": ">5 years",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 125,
+     "quantity": "median_survival_months",
+     "raw": "23.5 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:123:2",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 123,
+    "object": "KURRI, Japan",
+    "quantity": "long_term_survivor_years",
+    "condition": "",
+    "raw": ">5 years"
+   },
+   "dim": "시간",
+   "n_candidates": 4,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 145,
+     "quantity": "median_survival_months",
+     "raw": "23.5 (primary + X-ray)",
+     "where": "표"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 121,
+     "quantity": "infusion_duration",
+     "raw": "over 2 h",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 123,
+     "quantity": "median_survival_months",
+     "raw": "15.6 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 125,
+     "quantity": "median_survival_months",
+     "raw": "23.5 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:125:0",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 125,
+    "object": "KURRI, Japan",
+    "quantity": "xray_boost_dose",
+    "condition": "",
+    "raw": "20 to 30 Gy"
+   },
+   "dim": "흡수선량",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 125,
+     "quantity": "xray_boost_fraction_dose",
+     "raw": "2 Gy",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:125:1",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 125,
+    "object": "KURRI, Japan",
+    "quantity": "xray_boost_fraction_dose",
+    "condition": "",
+    "raw": "2 Gy"
+   },
+   "dim": "흡수선량",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 125,
+     "quantity": "xray_boost_dose",
+     "raw": "20 to 30 Gy",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:129:0",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 129,
+    "object": "JRR4, Japan",
+    "quantity": "infusion_duration",
+    "condition": "",
+    "raw": "over 1 h"
+   },
+   "dim": "시간",
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 146,
+     "quantity": "median_survival_months",
+     "raw": "10.8 (recurrent), 27.1 (+ X-ray)",
+     "where": "표"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 129,
+     "quantity": "median_survival_months",
+     "raw": "27.1 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:137:0",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 137,
+    "object": "high-grade meningioma bnct trial",
+    "quantity": "median_survival_months",
+    "condition": "",
+    "raw": "29.6 months"
+   },
+   "dim": "시간",
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 137,
+     "quantity": "median_survival_months_from_diagnosis",
+     "raw": "98.4 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 137,
+     "quantity": "median_progression_free_survival_months",
+     "raw": "13.7 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:137:1",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 137,
+    "object": "high-grade meningioma bnct trial",
+    "quantity": "median_survival_months_from_diagnosis",
+    "condition": "",
+    "raw": "98.4 months"
+   },
+   "dim": "시간",
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 137,
+     "quantity": "median_survival_months",
+     "raw": "29.6 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 137,
+     "quantity": "median_progression_free_survival_months",
+     "raw": "13.7 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:137:3",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 137,
+    "object": "high-grade meningioma bnct trial",
+    "quantity": "median_progression_free_survival_months",
+    "condition": "",
+    "raw": "13.7 months"
+   },
+   "dim": "시간",
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 137,
+     "quantity": "median_survival_months",
+     "raw": "29.6 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 137,
+     "quantity": "median_survival_months_from_diagnosis",
+     "raw": "98.4 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:155:1",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 155,
+    "object": "FiR1, Finland",
+    "quantity": "median_time_to_progression_months",
+    "condition": "",
+    "raw": "3 months"
+   },
+   "dim": "시간",
+   "n_candidates": 2,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 148,
+     "quantity": "median_survival_months",
+     "raw": "11.0 – 21.9 (primary), 7.0 (recurrent)",
+     "where": "표"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 155,
+     "quantity": "median_survival_months",
+     "raw": "7 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:159:5",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 159,
+    "object": "R2-0, Studsvik Medical AB, Sweden",
+    "quantity": "average_whole_brain_dose",
+    "condition": "",
+    "raw": "3.2–6.1 Gy"
+   },
+   "dim": "흡수선량",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 159,
+     "quantity": "minimum_tumor_dose",
+     "raw": "15.4 to 54.3 Gy",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:159:6",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 159,
+    "object": "R2-0, Studsvik Medical AB, Sweden",
+    "quantity": "minimum_tumor_dose",
+    "condition": "",
+    "raw": "15.4 to 54.3 Gy"
+   },
+   "dim": "흡수선량",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 159,
+     "quantity": "average_whole_brain_dose",
+     "raw": "3.2–6.1 Gy",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:159:8",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 159,
+    "object": "R2-0, Studsvik Medical AB, Sweden",
+    "quantity": "time_to_progression_months",
+    "condition": "",
+    "raw": "5.8 months"
+   },
+   "dim": "시간",
+   "n_candidates": 5,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 147,
+     "quantity": "median_survival_months",
+     "raw": "17.7 (primary)",
+     "where": "표"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 159,
+     "quantity": "infusion_duration",
+     "raw": "over 6 hours",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 159,
+     "quantity": "median_survival_months",
+     "raw": "14.2 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 159,
+     "quantity": "median_survival_months",
+     "raw": "17.7 months",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 159,
+     "quantity": "infusion_duration",
+     "raw": "6-hour infusion time",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:165:1",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 165,
+    "object": "kato head and neck series",
+    "quantity": "infusion_duration",
+    "condition": "",
+    "raw": "1- or 2-hour"
+   },
+   "dim": "시간",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 165,
+     "quantity": "median_survival_months",
+     "raw": "13.6 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:165:5",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 165,
+    "object": "kato head and neck series",
+    "quantity": "median_survival_months",
+    "condition": "",
+    "raw": "13.6 months"
+   },
+   "dim": "시간",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 165,
+     "quantity": "infusion_duration",
+     "raw": "1- or 2-hour",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:208:1",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 208,
+    "object": "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan",
+    "quantity": "patient_age_range",
+    "condition": "",
+    "raw": "20 to 75 years"
+   },
+   "dim": "시간",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 208,
+     "quantity": "median_survival_months",
+     "raw": "18.9 months",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-neutron-capture-therapy:208:3",
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "line": 208,
+    "object": "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan",
+    "quantity": "median_survival_months",
+    "condition": "",
+    "raw": "18.9 months"
+   },
+   "dim": "시간",
+   "n_candidates": 1,
+   "candidates": [
+    {
+     "doc": "wiki-en-neutron-capture-therapy",
+     "line": 208,
+     "quantity": "patient_age_range",
+     "raw": "20 to 75 years",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-samarium-cobalt-magnet:14:0",
+    "doc_id": "wiki-en-samarium-cobalt-magnet",
+    "line": 14,
+    "object": "samarium-cobalt magnet",
+    "quantity": "maximum_use_temperature",
+    "condition": "",
+    "raw": "250 °C (523 K) to 550 °C (823 K)"
+   },
+   "dim": "온도",
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 71,
+     "quantity": "demagnetization_temperature",
+     "raw": "약 700°C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 107,
+     "quantity": "demagnetization_temperature",
+     "raw": "700°C 이상",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-samarium-cobalt-magnet",
+     "line": 86,
+     "quantity": "hot_use_temperature_threshold",
+     "raw": "over 180 °C",
+     "where": "본문"
+    }
+   ]
+  },
+  {
+   "place": {
+    "id": "wiki-en-samarium-cobalt-magnet:86:0",
+    "doc_id": "wiki-en-samarium-cobalt-magnet",
+    "line": 86,
+    "object": "samarium-cobalt magnet",
+    "quantity": "hot_use_temperature_threshold",
+    "condition": "",
+    "raw": "over 180 °C"
+   },
+   "dim": "온도",
+   "n_candidates": 3,
+   "candidates": [
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 71,
+     "quantity": "demagnetization_temperature",
+     "raw": "약 700°C",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-ko-samarium",
+     "line": 107,
+     "quantity": "demagnetization_temperature",
+     "raw": "700°C 이상",
+     "where": "본문"
+    },
+    {
+     "doc": "wiki-en-samarium-cobalt-magnet",
+     "line": 14,
+     "quantity": "maximum_use_temperature",
+     "raw": "250 °C (523 K) to 550 °C (823 K)",
+     "where": "본문"
+    }
+   ]
+  }
+ ],
+ "new_quantity_keys": {
+  "price": {
+   "count": 16,
+   "docs": {
+    "wiki-en-thulium": 3,
+    "wiki-en-dysprosium": 5,
+    "wiki-en-ytterbium": 1,
+    "wiki-en-lutetium": 1,
+    "wiki-en-lanthanum": 6
+   }
+  },
+  "crustal_abundance": {
+   "count": 11,
+   "docs": {
+    "wiki-en-thulium": 1,
+    "wiki-en-dysprosium": 1,
+    "wiki-en-ytterbium": 2,
+    "wiki-en-lutetium": 1,
+    "wiki-en-lanthanum": 3,
+    "wiki-en-europium": 1,
+    "wiki-en-praseodymium": 2
+   }
+  },
+  "annual_production": {
+   "count": 8,
+   "docs": {
+    "wiki-en-thulium": 1,
+    "wiki-en-dysprosium": 2,
+    "wiki-en-ytterbium": 1,
+    "wiki-en-lutetium": 1,
+    "wiki-en-europium": 1,
+    "wiki-en-praseodymium": 2
+   }
+  },
+  "infusion_duration": {
+   "count": 7,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 7
+   }
+  },
+  "coordination_number": {
+   "count": 6,
+   "docs": {
+    "wiki-ko-ytterbium": 2,
+    "wiki-ko-yttrium": 1,
+    "wiki-en-lanthanum": 3
+   }
+  },
+  "phase_transition_temperature": {
+   "count": 6,
+   "docs": {
+    "wiki-ko-ytterbium": 2,
+    "wiki-ko-samarium": 2,
+    "wiki-en-lanthanum": 2
+   }
+  },
+  "neutron_energy_range": {
+   "count": 6,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 6
+   }
+  },
+  "laser_wavelength": {
+   "count": 5,
+   "docs": {
+    "wiki-en-thulium": 2,
+    "wiki-en-ytterbium": 3
+   }
+  },
+  "emission_line_energy": {
+   "count": 5,
+   "docs": {
+    "wiki-en-thulium": 5
+   }
+  },
+  "oxygen_to_praseodymium_ratio": {
+   "count": 5,
+   "docs": {
+    "wiki-en-praseodymium": 5
+   }
+  },
+  "curie_temperature": {
+   "count": 4,
+   "docs": {
+    "wiki-en-dysprosium": 1,
+    "wiki-en-europium": 2,
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "neel_temperature": {
+   "count": 4,
+   "docs": {
+    "wiki-en-dysprosium": 1,
+    "wiki-ko-samarium": 1,
+    "wiki-en-europium": 2
+   }
+  },
+  "survival_rate_2_year": {
+   "count": 4,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 4
+   }
+  },
+  "production_share": {
+   "count": 3,
+   "docs": {
+    "wiki-en-dysprosium": 3
+   }
+  },
+  "number_of_elements": {
+   "count": 3,
+   "docs": {
+    "wiki-ko-ytterbium": 1,
+    "wiki-ko-yttrium": 1,
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "number_of_stable_isotopes": {
+   "count": 3,
+   "docs": {
+    "wiki-ko-ytterbium": 2,
+    "wiki-ko-isotopes-of-yttrium": 1
+   }
+  },
+  "emission_wavelength": {
+   "count": 3,
+   "docs": {
+    "wiki-ko-ytterbium": 2,
+    "wiki-en-europium": 1
+   }
+  },
+  "development_period": {
+   "count": 3,
+   "docs": {
+    "wiki-en-ytterbium": 1,
+    "wiki-en-samarium-cobalt-magnet": 2
+   }
+  },
+  "number_of_electrons": {
+   "count": 3,
+   "docs": {
+    "wiki-en-lutetium": 1,
+    "wiki-en-lanthanum": 1,
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "sample_year": {
+   "count": 3,
+   "docs": {
+    "wiki-en-lutetium": 3
+   }
+  },
+  "demagnetization_temperature": {
+   "count": 3,
+   "docs": {
+    "wiki-ko-samarium": 3
+   }
+  },
+  "formation_temperature": {
+   "count": 3,
+   "docs": {
+    "wiki-ko-yttrium": 2,
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "standard_reduction_potential": {
+   "count": 3,
+   "docs": {
+    "wiki-en-europium": 1,
+    "wiki-en-praseodymium": 2
+   }
+  },
+  "europium_oxide_production_share": {
+   "count": 3,
+   "docs": {
+    "wiki-en-europium": 3
+   }
+  },
+  "complex_stoichiometry": {
+   "count": 3,
+   "docs": {
+    "wiki-en-praseodymium": 3
+   }
+  },
+  "trial_start_year": {
+   "count": 3,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 3
+   }
+  },
+  "maximum_energy_product": {
+   "count": 3,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 3
+   }
+  },
+  "paramagnetic_range": {
+   "count": 2,
+   "docs": {
+    "wiki-en-thulium": 1,
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "combustion_temperature": {
+   "count": 2,
+   "docs": {
+    "wiki-en-thulium": 1,
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "purity_grade": {
+   "count": 2,
+   "docs": {
+    "wiki-en-thulium": 2
+   }
+  },
+  "soil_abundance": {
+   "count": 2,
+   "docs": {
+    "wiki-en-thulium": 1,
+    "wiki-ko-samarium": 1
+   }
+  },
+  "solar_system_abundance": {
+   "count": 2,
+   "docs": {
+    "wiki-en-thulium": 2
+   }
+  },
+  "thulium_content": {
+   "count": 2,
+   "docs": {
+    "wiki-en-thulium": 2
+   }
+  },
+  "volume_magnetic_susceptibility": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-dysprosium": 1,
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "concentrate_fraction": {
+   "count": 2,
+   "docs": {
+    "wiki-en-dysprosium": 2
+   }
+  },
+  "semiconductor_transition_pressure": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-ytterbium": 1,
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "relative_electrical_resistivity": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-ytterbium": 2
+   }
+  },
+  "number_of_nuclear_isomers": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-ytterbium": 1,
+    "wiki-en-lutetium": 1
+   }
+  },
+  "laser_power": {
+   "count": 2,
+   "docs": {
+    "wiki-en-ytterbium": 2
+   }
+  },
+  "cassiopeium_name_used_until": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-lutetium": 2
+   }
+  },
+  "name_adoption_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-lutetium": 2
+   }
+  },
+  "priority_decision_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-lutetium": 2
+   }
+  },
+  "content_in_minerals": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-samarium": 2
+   }
+  },
+  "ignition_temperature": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-samarium": 1,
+    "wiki-ko-yttrium": 1
+   }
+  },
+  "sm_to_co_ratio": {
+   "count": 2,
+   "docs": {
+    "wiki-ko-samarium": 2
+   }
+  },
+  "lanthanum_content": {
+   "count": 2,
+   "docs": {
+    "wiki-en-lanthanum": 2
+   }
+  },
+  "most_accessible_oxidation_state": {
+   "count": 2,
+   "docs": {
+    "wiki-en-europium": 2
+   }
+  },
+  "crookes_spectral_observation_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-europium": 2
+   }
+  },
+  "lecoq_unidentified_line_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-europium": 2
+   }
+  },
+  "pure_form_obtained_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-europium": 2
+   }
+  },
+  "transition_temperature": {
+   "count": 2,
+   "docs": {
+    "wiki-en-europium": 2
+   }
+  },
+  "matrix_isolation_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-praseodymium": 2
+   }
+  },
+  "bulk_isolation_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-praseodymium": 2
+   }
+  },
+  "neutron_cross_section": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "occurrence_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "reaction_energy": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "tumor_boron_concentration": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "resumption_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "survival_rate_1_year": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "adverse_event_frequency": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "overall_response_rate": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "proton_accelerator_energy": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "complete_response_rate": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "partial_response_rate": {
+   "count": 2,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 2
+   }
+  },
+  "samarium_content": {
+   "count": 2,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 2
+   }
+  },
+  "temperature_coefficient_of_remanence": {
+   "count": 2,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 2
+   }
+  },
+  "domain_wall_angle": {
+   "count": 2,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 2
+   }
+  },
+  "period_used": {
+   "count": 2,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 2
+   }
+  },
+  "ferromagnetic_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "antiferromagnetic_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "halogen_reaction_vigorous_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "purification_operations": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "first_commercial_availability": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "soil_abundance_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "seawater_abundance": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "world_reserves": {
+   "count": 1,
+   "docs": {
+    "wiki-en-thulium": 1
+   }
+  },
+  "hcp_to_bcc_transition_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "halogen_reaction_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "nanoparticle_diameter": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "radioisotope_mass_number_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "number_of_metastable_isomers": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "metastable_isomer_mass_number_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "holmium_thulium_oxides_found_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "isolation_attempts": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "bose_einstein_condensate_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "supersolid_quantum_gas_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "seawater_concentration": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "distance_from_halls_creek": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "projected_shortfall_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "neodymium_substitution_by_dysprosium": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "dysprosium_requirement": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "projected_annual_units": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "synthesis_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "synthesis_pressure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "synthesis_duration": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "stability_duration": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "stability_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "estimated_lethal_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "lethal_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-dysprosium": 1
+   }
+  },
+  "number_of_crystal_structures": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "paramagnetic_temperature_threshold": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "metallic_bonding_electrons": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "number_of_radioactive_isotopes": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "radiograph_equivalent_xray_energy": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "clock_error": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "cooling_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "number_of_trapped_atoms": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "clock_transition_frequency": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-ytterbium": 1
+   }
+  },
+  "allotrope_transformation_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "resistivity_increase_pressure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "resistivity_drop_ratio": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "resistivity_drop_pressure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "number_of_meta_states": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "ytterbium_content": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "concentrate_abundance": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "settlement_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "equivalent_xray_energy": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "record_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "clock_stability": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "stability_improvement_factor": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "number_of_atoms": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "laser_cooling_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "clock_laser_frequency": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "precision_digits": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "pump_wavelength": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "beam_quality_m2": {
+   "count": 1,
+   "docs": {
+    "wiki-en-ytterbium": 1
+   }
+  },
+  "spelling_change_year": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-lutetium": 1
+   }
+  },
+  "priority_awarded_year": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-lutetium": 1
+   }
+  },
+  "name_use_until": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "burning_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "average_water_coordination_number": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "number_of_synthetic_radioisotopes": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "synthetic_radioisotope_mass_number_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "publication_lead_time": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "quiet_after_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "claim_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "sample_analysis_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "letter_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "lutetium_name_use_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "lutetium_content": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "accuracy_decimal_places": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "fda_approval_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lutetium": 1
+   }
+  },
+  "specific_activity": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "discovery_claims_start": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "alternative_symbol_used_until": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "reserves": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "fission_yield": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "strength_relative_to_iron": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "wavelength": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "pulse_duration": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-samarium": 1
+   }
+  },
+  "oxide_film_formation_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-yttrium": 1
+   }
+  },
+  "oxide_film_thickness": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-yttrium": 1
+   }
+  },
+  "number_of_natural_isotopes": {
+   "count": 1,
+   "docs": {
+    "wiki-ko-isotopes-of-terbium": 1
+   }
+  },
+  "decomposition_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "characteristic_coordination_number": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "max_coordination_number": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "shown_to_be_mixture": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "separation": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "neutralization_ph": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "heating_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "patented": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "factory_established": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "failure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "lanthanum_required": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "hydrogen_storage_capacity": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "share_of_rare_earth_compounds_consumed": {
+   "count": 1,
+   "docs": {
+    "wiki-en-lanthanum": 1
+   }
+  },
+  "most_stable_oxidation_state": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "commercial_importance_decade": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "bcc_to_hcp_transition_pressure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "hcp_phase_stability_limit_pressure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "monoclinic_phase_stability_limit_pressure": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "orbital_angular_momentum_L": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "total_angular_momentum_J": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "ordered_magnetic_moment": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "hydration_number": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "preparation_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "dehydration_transformation_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "half_life_to_universe_age_ratio": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "branching_ratio_ec_beta_plus": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "branching_ratio_beta_minus": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "separation_period": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "absorption_lines_described_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "pink_crystals_observed_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "red_luminescence_reported_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "cathodoluminescence_described_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "crookes_revisit_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "mccoy_separation_method_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "large_scale_availability_period": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "phosphor_reported_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "leading_rare_earth_source_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "term_coined_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "demonstration_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "feed_content": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "content_after_solvent_extraction_enrichment": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "purity": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "reduction_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "high_purity_metal_preparation_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "spedding_preparation_yield": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "spedding_preparation_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "commercial_introduction": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "rat_study_duration": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "rat_study_max_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "no_observed_effect_level": {
+   "count": 1,
+   "docs": {
+    "wiki-en-europium": 1
+   }
+  },
+  "allotrope_transition_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "paramagnetic_threshold_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "disordered_phase_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "x_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "ordered_phase_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "composite_nature_suggested_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "ph": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "china_production_share": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "glass_coloration_research_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-praseodymium": 1
+   }
+  },
+  "neutron_cross_section_ratio": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "cancer_treatment_proposal_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "brain_tumor_bnct_proposal_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "product_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "use_until_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "deliverable_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "treatment_duration": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "blood_to_scalp_boron_ratio": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "cbe_factor": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "rbe_factor": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "start_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "tumor_to_normal_concentration_ratio": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "neutron_energy": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "reactor_only_until_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "first_clinical_trial_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "time_from_infusion_to_irradiation": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "long_term_survivor_years": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "xray_boost_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "xray_boost_fraction_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "median_survival_months_from_diagnosis": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "tumor_shrinkage_patients": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "median_progression_free_survival_months": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "local_recurrence_rate": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "median_time_to_progression_months": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "dosimetric_studies_completion_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "irradiation_fields": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "average_whole_brain_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "minimum_tumor_dose": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "time_to_progression_months": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "complete_regression_cases": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "partial_regression_cases": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "progression_cases": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "survival_rate_6_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "evaluated_patients": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "complete_remissions": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "partial_remissions": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "fully_functional_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "loco_regional_control_rate_2_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "first_trial_date": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "follow_up_months": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "treatment_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "survival_years": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "first_publication_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "active_research_start_year": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "proton_beam_power": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "patient_age_range": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "non_squamous_cell_carcinoma_patients": {
+   "count": 1,
+   "docs": {
+    "wiki-en-neutron-capture-therapy": 1
+   }
+  },
+  "maximum_use_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "maximum_energy_product_theoretical_limit": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "transition_metal_atoms_per_two_samarium": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "sintering_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "solution_treatment_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "tempering_temperature": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  },
+  "hot_use_temperature_threshold": {
+   "count": 1,
+   "docs": {
+    "wiki-en-samarium-cobalt-magnet": 1
+   }
+  }
+ },
+ "years_by_element": {
+  "Ce": [
+   {
+    "year": 1803,
+    "doc": "wiki-en-europium",
+    "line": 188,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1803",
+    "note": [
+     "Cerium had been discovered"
+    ]
+   }
+  ],
+  "Dy": [
+   {
+    "year": 1886,
+    "doc": "wiki-en-dysprosium",
+    "line": 56,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Lecoq de Boisbaudran (1886)",
+    "note": []
+   },
+   {
+    "year": 1886,
+    "doc": "wiki-en-dysprosium",
+    "line": 77,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1886",
+    "note": [
+     "first identified by Paul Émile Lecoq de Boisbaudran"
+    ]
+   },
+   {
+    "year": 1886,
+    "doc": "wiki-en-dysprosium",
+    "line": 130,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1886",
+    "note": [
+     "separated dysprosium oxide from holmium oxide in Paris"
+    ]
+   },
+   {
+    "year": 1886,
+    "doc": "wiki-ko-dysprosium",
+    "line": 52,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1886",
+    "note": []
+   },
+   {
+    "year": 1886,
+    "doc": "wiki-ko-dysprosium",
+    "line": 69,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1886년",
+    "note": [
+     "처음 확인되었으나"
+    ]
+   },
+   {
+    "year": 1905,
+    "doc": "wiki-en-dysprosium",
+    "line": 57,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "Georges Urbain (1905)",
+    "note": []
+   },
+   {
+    "year": 1905,
+    "doc": "wiki-ko-dysprosium",
+    "line": 53,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1905",
+    "note": []
+   },
+   {
+    "year": 1950,
+    "doc": "wiki-en-dysprosium",
+    "line": 77,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1950s",
+    "note": [
+     "not isolated in pure form until the development of ion-exchange techniques"
+    ]
+   },
+   {
+    "year": 1950,
+    "doc": "wiki-en-dysprosium",
+    "line": 130,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "early 1950s",
+    "note": [
+     "isolated in relatively pure form after the development of ion exchange techniques by Frank Spedding"
+    ]
+   },
+   {
+    "year": 1950,
+    "doc": "wiki-ko-dysprosium",
+    "line": 69,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1950년대",
+    "note": [
+     "이온 교환 기술이 개발될 때까지",
+     "순수한 형태로 분리되지 않았다"
+    ]
+   },
+   {
+    "year": 2011,
+    "doc": "wiki-en-dysprosium",
+    "line": 134,
+    "where": "본문",
+    "quantity": "bose_einstein_condensate_year",
+    "raw": "2011",
+    "note": [
+     "a Bose-Einstein condensate of Dy atoms was obtained for the first time"
+    ]
+   },
+   {
+    "year": 2015,
+    "doc": "wiki-en-dysprosium",
+    "line": 157,
+    "where": "본문",
+    "quantity": "projected_shortfall_year",
+    "raw": "before 2015",
+    "note": [
+     "even their most conservative projections predicted a shortfall of dysprosium"
+    ]
+   },
+   {
+    "year": 2021,
+    "doc": "wiki-en-dysprosium",
+    "line": 136,
+    "where": "본문",
+    "quantity": "supersolid_quantum_gas_year",
+    "raw": "2021",
+    "note": [
+     "Dy was turned into a 2-dimensional supersolid quantum gas"
+    ]
+   }
+  ],
+  "Er": [
+   {
+    "year": 1843,
+    "doc": "wiki-ko-erbium",
+    "line": 51,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1843",
+    "note": []
+   },
+   {
+    "year": 1934,
+    "doc": "wiki-ko-erbium",
+    "line": 52,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1934",
+    "note": []
+   }
+  ],
+  "Eu": [
+   {
+    "year": 1885,
+    "doc": "wiki-en-europium",
+    "line": 74,
+    "where": "본문",
+    "quantity": "crookes_spectral_observation_year",
+    "raw": "1885",
+    "note": [
+     "William Crookes",
+     "unexplained spectral feature in rare-earth material"
+    ]
+   },
+   {
+    "year": 1885,
+    "doc": "wiki-en-europium",
+    "line": 190,
+    "where": "본문",
+    "quantity": "crookes_spectral_observation_year",
+    "raw": "1885",
+    "note": [
+     "William Crookes",
+     "anomalous line in the phosphorescence spectrum of material containing samarium and yttrium"
+    ]
+   },
+   {
+    "year": 1892,
+    "doc": "wiki-en-europium",
+    "line": 74,
+    "where": "본문",
+    "quantity": "lecoq_unidentified_line_year",
+    "raw": "1892",
+    "note": [
+     "Paul Émile Lecoq de Boisbaudran",
+     "further unidentified line in samarium"
+    ]
+   },
+   {
+    "year": 1892,
+    "doc": "wiki-en-europium",
+    "line": 190,
+    "where": "본문",
+    "quantity": "lecoq_unidentified_line_year",
+    "raw": "1892",
+    "note": [
+     "Lecoq de Boisbaudran",
+     "unidentified spectral line in samarium"
+    ]
+   },
+   {
+    "year": 1896,
+    "doc": "wiki-en-europium",
+    "line": 54,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Eugène-Anatole Demarçay (1896)",
+    "note": []
+   },
+   {
+    "year": 1896,
+    "doc": "wiki-en-europium",
+    "line": 74,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1896",
+    "note": [
+     "Eugène-Anatole Demarçay",
+     "reported evidence for a new element associated with samarium"
+    ]
+   },
+   {
+    "year": 1896,
+    "doc": "wiki-en-europium",
+    "line": 192,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1896",
+    "note": [
+     "Eugène-Anatole Demarçay",
+     "reported evidence for an unknown element associated with samarium"
+    ]
+   },
+   {
+    "year": 1900,
+    "doc": "wiki-en-europium",
+    "line": 194,
+    "where": "본문",
+    "quantity": "absorption_lines_described_year",
+    "raw": "1900",
+    "note": [
+     "Demarçay",
+     "sharp absorption lines of Eu(III) in solution"
+    ]
+   },
+   {
+    "year": 1901,
+    "doc": "wiki-en-europium",
+    "line": 74,
+    "where": "본문",
+    "quantity": "pure_form_obtained_year",
+    "raw": "1901",
+    "note": [
+     "Eugène-Anatole Demarçay",
+     "after repeated fractional crystallisation",
+     "named europium after Europe"
+    ]
+   },
+   {
+    "year": 1901,
+    "doc": "wiki-en-europium",
+    "line": 192,
+    "where": "본문",
+    "quantity": "pure_form_obtained_year",
+    "raw": "1901",
+    "note": [
+     "Eugène-Anatole Demarçay",
+     "material sufficiently pure to establish the element conclusively",
+     "named it europium, after Europe"
+    ]
+   },
+   {
+    "year": 1905,
+    "doc": "wiki-en-europium",
+    "line": 194,
+    "where": "본문",
+    "quantity": "crookes_revisit_year",
+    "raw": "1905",
+    "note": [
+     "Crookes also revisited the element"
+    ]
+   },
+   {
+    "year": 1935,
+    "doc": "wiki-en-europium",
+    "line": 196,
+    "where": "본문",
+    "quantity": "mccoy_separation_method_year",
+    "raw": "1935",
+    "note": [
+     "Herbert Newby McCoy",
+     "Eu(III) reduced with amalgamated zinc and Eu(II) precipitated as the sulfate"
+    ]
+   },
+   {
+    "year": 1937,
+    "doc": "wiki-en-europium",
+    "line": 55,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1937",
+    "note": []
+   },
+   {
+    "year": 1937,
+    "doc": "wiki-en-europium",
+    "line": 198,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1937",
+    "note": [
+     "Wilhelm Klemm and Heinrich Bommer",
+     "prepared rare-earth metals, including europium, by reducing their chlorides with alkali metals"
+    ]
+   },
+   {
+    "year": 1958,
+    "doc": "wiki-en-europium",
+    "line": 240,
+    "where": "본문",
+    "quantity": "high_purity_metal_preparation_year",
+    "raw": "1958",
+    "note": [
+     "Frank Spedding, J. J. Hanak and A. H. Daane"
+    ]
+   }
+  ],
+  "Hf": [
+   {
+    "year": 1923,
+    "doc": "wiki-en-lutetium",
+    "line": 104,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1923",
+    "note": [
+     "discovering hafnium"
+    ]
+   }
+  ],
+  "La": [
+   {
+    "year": 1838,
+    "doc": "wiki-en-lanthanum",
+    "line": 57,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Carl Gustaf Mosander (1838)",
+    "note": []
+   },
+   {
+    "year": 1839,
+    "doc": "wiki-en-lanthanum",
+    "line": 71,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "in 1839",
+    "note": [
+     "as an impurity in cerium nitrate"
+    ]
+   },
+   {
+    "year": 1923,
+    "doc": "wiki-en-lanthanum",
+    "line": 71,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1923",
+    "note": [
+     "pure lanthanum metal was not isolated until"
+    ]
+   },
+   {
+    "year": 1923,
+    "doc": "wiki-en-lanthanum",
+    "line": 113,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "in 1923",
+    "note": [
+     "Relatively pure lanthanum metal"
+    ]
+   }
+  ],
+  "Lu": [
+   {
+    "year": 1906,
+    "doc": "wiki-en-lutetium",
+    "line": 54,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Carl Auer von Welsbach and Georges Urbain (1906)",
+    "note": []
+   },
+   {
+    "year": 1906,
+    "doc": "wiki-en-lutetium",
+    "line": 56,
+    "where": "정보 상자",
+    "quantity": "named_by",
+    "raw": "Georges Urbain (1906)",
+    "note": []
+   },
+   {
+    "year": 1906,
+    "doc": "wiki-ko-lutetium",
+    "line": 49,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1906",
+    "note": []
+   },
+   {
+    "year": 1906,
+    "doc": "wiki-ko-lutetium",
+    "line": 51,
+    "where": "정보 상자",
+    "quantity": "named_by",
+    "raw": "1906",
+    "note": []
+   },
+   {
+    "year": 1907,
+    "doc": "wiki-en-lutetium",
+    "line": 70,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1907",
+    "note": [
+     "independently discovered by Georges Urbain, Carl Auer von Welsbach, and Charles James"
+    ]
+   },
+   {
+    "year": 1907,
+    "doc": "wiki-en-ytterbium",
+    "line": 76,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1907",
+    "note": [
+     "the new earth \"lutecia\" was separated from ytterbia"
+    ]
+   },
+   {
+    "year": 1907,
+    "doc": "wiki-en-ytterbium",
+    "line": 161,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1907",
+    "note": [
+     "Georges Urbain separated Marignac's ytterbia into two components: neoytterbia and lutecia"
+    ]
+   },
+   {
+    "year": 1907,
+    "doc": "wiki-ko-lutetium",
+    "line": 63,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1907년",
+    "note": [
+     "독립적으로 발견되었다"
+    ]
+   },
+   {
+    "year": 1909,
+    "doc": "wiki-en-lutetium",
+    "line": 70,
+    "where": "본문",
+    "quantity": "priority_decision_year",
+    "raw": "1909",
+    "note": [
+     "the priority was finally granted to Urbain"
+    ]
+   },
+   {
+    "year": 1909,
+    "doc": "wiki-en-lutetium",
+    "line": 102,
+    "where": "본문",
+    "quantity": "priority_decision_year",
+    "raw": "1909",
+    "note": [
+     "The International Commission on Atomic Weights settled the dispute by granting priority to Urbain"
+    ]
+   },
+   {
+    "year": 1909,
+    "doc": "wiki-ko-lutetium",
+    "line": 63,
+    "where": "본문",
+    "quantity": "priority_awarded_year",
+    "raw": "1909년",
+    "note": [
+     "위르뱅에게 우선권이 부여되었고"
+    ]
+   },
+   {
+    "year": 1949,
+    "doc": "wiki-en-lutetium",
+    "line": 70,
+    "where": "본문",
+    "quantity": "name_adoption_year",
+    "raw": "1949",
+    "note": [
+     "the spelling was changed to lutetium"
+    ]
+   },
+   {
+    "year": 1949,
+    "doc": "wiki-en-lutetium",
+    "line": 108,
+    "where": "본문",
+    "quantity": "name_adoption_year",
+    "raw": "1949",
+    "note": [
+     "the International Union of Pure and Applied Chemistry decided to recommend the name lutetium"
+    ]
+   },
+   {
+    "year": 1949,
+    "doc": "wiki-ko-lutetium",
+    "line": 61,
+    "where": "본문",
+    "quantity": "cassiopeium_name_used_until",
+    "raw": "1949년",
+    "note": [
+     "독일에서는"
+    ]
+   },
+   {
+    "year": 1949,
+    "doc": "wiki-ko-lutetium",
+    "line": 63,
+    "where": "본문",
+    "quantity": "spelling_change_year",
+    "raw": "1949년",
+    "note": [
+     "철자가 루테튬으로 변경"
+    ]
+   },
+   {
+    "year": 1950,
+    "doc": "wiki-ko-lutetium",
+    "line": 63,
+    "where": "본문",
+    "quantity": "cassiopeium_name_used_until",
+    "raw": "1950년대",
+    "note": [
+     "많은 독일 과학자들에 의해 사용"
+    ]
+   },
+   {
+    "year": 1953,
+    "doc": "wiki-en-lutetium",
+    "line": 55,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1953",
+    "note": []
+   },
+   {
+    "year": 1953,
+    "doc": "wiki-en-lutetium",
+    "line": 108,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1953",
+    "note": [
+     "Pure lutetium metal was first produced"
+    ]
+   },
+   {
+    "year": 1953,
+    "doc": "wiki-ko-lutetium",
+    "line": 50,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1953",
+    "note": []
+   }
+  ],
+  "Pr": [
+   {
+    "year": 1885,
+    "doc": "wiki-en-praseodymium",
+    "line": 56,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Carl Auer von Welsbach (1885)",
+    "note": []
+   },
+   {
+    "year": 1885,
+    "doc": "wiki-en-praseodymium",
+    "line": 69,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "In 1885",
+    "note": []
+   },
+   {
+    "year": 1885,
+    "doc": "wiki-en-praseodymium",
+    "line": 124,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "until 1885",
+    "note": []
+   },
+   {
+    "year": 1920,
+    "doc": "wiki-en-praseodymium",
+    "line": 146,
+    "where": "본문",
+    "quantity": "glass_coloration_research_year",
+    "raw": "late 1920s",
+    "note": []
+   }
+  ],
+  "Sm": [
+   {
+    "year": 1879,
+    "doc": "wiki-en-europium",
+    "line": 188,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1879",
+    "note": [
+     "Paul Émile Lecoq de Boisbaudran separated samarium from didymium"
+    ]
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-en-praseodymium",
+    "line": 124,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "in 1879",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-ko-samarium",
+    "line": 52,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1879",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-ko-samarium",
+    "line": 69,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1879년",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-ko-samarium",
+    "line": 93,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1879년",
+    "note": [
+     "사마스카이트에서 산화 사마륨(혹은 수산화 사마륨)을 분리하여"
+    ]
+   },
+   {
+    "year": 1901,
+    "doc": "wiki-ko-samarium",
+    "line": 93,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1901년",
+    "note": [
+     "순수한 사마륨"
+    ]
+   },
+   {
+    "year": 1903,
+    "doc": "wiki-ko-samarium",
+    "line": 53,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1903",
+    "note": []
+   },
+   {
+    "year": 1920,
+    "doc": "wiki-ko-samarium",
+    "line": 95,
+    "where": "본문",
+    "quantity": "alternative_symbol_used_until",
+    "raw": "1920년대",
+    "note": [
+     "Sa라는 기호가 주로 사용"
+    ]
+   }
+  ],
+  "Tm": [
+   {
+    "year": 1879,
+    "doc": "wiki-en-thulium",
+    "line": 55,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Per Teodor Cleve (1879)",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-en-thulium",
+    "line": 70,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1879",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-en-thulium",
+    "line": 119,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1879",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-ko-thulium",
+    "line": 50,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1879",
+    "note": []
+   },
+   {
+    "year": 1879,
+    "doc": "wiki-ko-thulium",
+    "line": 64,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1879년",
+    "note": [
+     "페르 테오도르 클레브"
+    ]
+   },
+   {
+    "year": 1911,
+    "doc": "wiki-en-thulium",
+    "line": 121,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1911",
+    "note": [
+     "The first researcher to obtain nearly pure thulium",
+     "he reported his results"
+    ]
+   },
+   {
+    "year": 1911,
+    "doc": "wiki-ko-thulium",
+    "line": 64,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1911년",
+    "note": [
+     "상대적으로 순수한 툴륨 금속 샘플",
+     "처음으로 얻어졌다"
+    ]
+   },
+   {
+    "year": 1936,
+    "doc": "wiki-en-thulium",
+    "line": 56,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "Wilhelm Klemm and Heinrich Bommer (1936)",
+    "note": []
+   },
+   {
+    "year": 1936,
+    "doc": "wiki-en-thulium",
+    "line": 70,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1936",
+    "note": [
+     "The metal itself was first obtained"
+    ]
+   },
+   {
+    "year": 1936,
+    "doc": "wiki-ko-thulium",
+    "line": 51,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1936",
+    "note": []
+   }
+  ],
+  "Y": [
+   {
+    "year": 1794,
+    "doc": "wiki-ko-yttrium",
+    "line": 51,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1794",
+    "note": []
+   },
+   {
+    "year": 1838,
+    "doc": "wiki-ko-yttrium",
+    "line": 52,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "프리드리히 뵐러 (1838)",
+    "note": []
+   }
+  ],
+  "Yb": [
+   {
+    "year": 1878,
+    "doc": "wiki-en-ytterbium",
+    "line": 56,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "Jean Charles Galissard de Marignac (1878)",
+    "note": []
+   },
+   {
+    "year": 1878,
+    "doc": "wiki-en-ytterbium",
+    "line": 76,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1878",
+    "note": []
+   },
+   {
+    "year": 1878,
+    "doc": "wiki-en-ytterbium",
+    "line": 159,
+    "where": "본문",
+    "quantity": "discovery",
+    "raw": "1878",
+    "note": []
+   },
+   {
+    "year": 1878,
+    "doc": "wiki-ko-ytterbium",
+    "line": 53,
+    "where": "정보 상자",
+    "quantity": "discovery",
+    "raw": "1878",
+    "note": []
+   },
+   {
+    "year": 1936,
+    "doc": "wiki-en-ytterbium",
+    "line": 57,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "Wilhelm Klemm and Heinrich Bommer (1936)",
+    "note": []
+   },
+   {
+    "year": 1936,
+    "doc": "wiki-en-ytterbium",
+    "line": 165,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1936",
+    "note": [
+     "Metallic ytterbium was first produced"
+    ]
+   },
+   {
+    "year": 1936,
+    "doc": "wiki-ko-ytterbium",
+    "line": 54,
+    "where": "정보 상자",
+    "quantity": "first_isolation",
+    "raw": "1936",
+    "note": []
+   },
+   {
+    "year": 1953,
+    "doc": "wiki-en-ytterbium",
+    "line": 76,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1953",
+    "note": [
+     "A relatively pure sample of the metal"
+    ]
+   },
+   {
+    "year": 1953,
+    "doc": "wiki-en-ytterbium",
+    "line": 167,
+    "where": "본문",
+    "quantity": "first_isolation",
+    "raw": "1953",
+    "note": [
+     "the first nearly pure ytterbium metal was produced"
+    ]
+   }
+  ]
+ },
+ "years_skipped_with_unit": 34,
+ "uncertain": [
+  {
+   "id": "wiki-en-thulium:121:439-443",
+   "value": true,
+   "reason": "70줄은 같은 1911년을 산화 툴륨(thulium oxide)을 얻은 해라 하고 이 줄은 'nearly pure thulium'이라 해서 대상이 Tm인지 Tm2O3인지 갈림",
+   "quantity": "first_isolation",
+   "raw": "1911"
+  },
+  {
+   "id": "wiki-ko-ytterbium:81:395-398",
+   "value": true,
+   "reason": "1 K 위의 온도에서 상자성이라는 문턱 온도라서 양 열쇠를 새로 만들었다",
+   "quantity": "paramagnetic_temperature_threshold",
+   "raw": "1 K"
+  },
+  {
+   "id": "wiki-ko-ytterbium:109:294-296",
+   "value": true,
+   "reason": "사마륨과 툴륨 두 원소에 걸린 값인데 대상은 하나만 적을 수 있어 Sm으로 적었다",
+   "quantity": "oxidation_states",
+   "raw": "+2"
+  },
+  {
+   "id": "wiki-ko-ytterbium:123:120-121",
+   "value": true,
+   "reason": "3가(+3)를 가리키는 말이라 산화수로 적었다",
+   "quantity": "oxidation_states",
+   "raw": "3가의 희토류 금속 이온"
+  },
+  {
+   "id": "wiki-ko-ytterbium:127:63-64",
+   "value": true,
+   "reason": "3가(+3)를 가리키는 말이라 산화수로 적었다",
+   "quantity": "oxidation_states",
+   "raw": "3가의 이터븀 이온"
+  },
+  {
+   "id": "wiki-ko-ytterbium:155:185-189",
+   "value": true,
+   "reason": "한 문장에 파장 범위 두 개가 적혀 있고 앞 범위의 뜻이 분명하지 않다",
+   "quantity": "emission_wavelength",
+   "raw": "1.06 - 1.12 마이크로미터"
+  },
+  {
+   "id": "wiki-ko-ytterbium:155:212-218",
+   "value": true,
+   "reason": "한 문장에 파장 범위 두 개가 적혀 있고 앞 범위의 뜻이 분명하지 않다",
+   "quantity": "emission_wavelength",
+   "raw": "900 nm~1 마이크로미터"
+  },
+  {
+   "id": "wiki-en-ytterbium:115:181-183",
+   "value": true,
+   "reason": "대상이 Yb가 아니라 란타넘족 일반을 말하는 문장",
+   "quantity": "oxidation_states",
+   "raw": "+3"
+  },
+  {
+   "id": "wiki-en-ytterbium:115:531-533",
+   "value": true,
+   "reason": "Sm, Tm, Yb(문장 주어)가 함께 걸린 문장이라 대상을 Sm으로 적음",
+   "quantity": "oxidation_states",
+   "raw": "+2"
+  },
+  {
+   "id": "wiki-en-ytterbium:127:222-227",
+   "value": true,
+   "reason": "Tm과 Lu 두 원소에 함께 걸린 값이라 대상을 'Tm and Lu'로 적음",
+   "quantity": "concentrate_abundance",
+   "raw": "about 0.5 % each"
+  },
+  {
+   "id": "wiki-en-ytterbium:161:3-7",
+   "value": true,
+   "reason": "1907년 분리가 이터븀(neoytterbia)과 루테튬(lutecia) 둘에 걸린 문장이라 대상을 Lu로 적음",
+   "quantity": "discovery",
+   "raw": "1907"
+  },
+  {
+   "id": "wiki-en-lutetium:70:798-800",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-en-lutetium:104:89-91",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "72"
+  },
+  {
+   "id": "wiki-en-lutetium:104:195-197",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "72"
+  },
+  {
+   "id": "wiki-en-lutetium:104:273-275",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "72"
+  },
+  {
+   "id": "wiki-en-lutetium:104:628-630",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "72"
+  },
+  {
+   "id": "wiki-en-lutetium:104:784-786",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-en-lutetium:106:159-161",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-en-lutetium:106:233-235",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-en-lutetium:106:306-308",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-en-lutetium:106:427-429",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-en-lutetium:106:818-820",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "72"
+  },
+  {
+   "id": "wiki-en-lutetium:106:864-866",
+   "value": false,
+   "reason": "원소를 번호로 가리키는 이름 표현('element NN')의 일부",
+   "raw": "71"
+  },
+  {
+   "id": "wiki-ko-samarium:107:64-65",
+   "value": true,
+   "reason": "문서에 화학식이 없고 비율 1:5를 SmCo5로 옮겼다",
+   "quantity": "sm_to_co_ratio",
+   "raw": "1:5"
+  },
+  {
+   "id": "wiki-ko-samarium:107:71-72",
+   "value": true,
+   "reason": "문서에 화학식이 없고 비율 2:17을 Sm2Co17로 옮겼다",
+   "quantity": "sm_to_co_ratio",
+   "raw": "2:17"
+  },
+  {
+   "id": "wiki-ko-yttrium:89:69-71",
+   "value": true,
+   "reason": "란타넘족 원소 일부가 +3 외의 산화수도 가진다는 문장 속의 +3이라 값 자체라기보다 비교 기준임",
+   "quantity": "oxidation_states",
+   "raw": "+3"
+  },
+  {
+   "id": "wiki-en-europium:70:593-595",
+   "value": true,
+   "reason": "산화 상태 이름이지만 '가장 안정'이라는 성질로 쓰임",
+   "quantity": "most_stable_oxidation_state",
+   "raw": "+3 oxidation state"
+  },
+  {
+   "id": "wiki-en-europium:70:687-689",
+   "value": true,
+   "reason": "산화 상태 이름이지만 '가장 쉽게 얻는' 성질로 쓰임",
+   "quantity": "most_accessible_oxidation_state",
+   "raw": "+2 state"
+  },
+  {
+   "id": "wiki-en-europium:74:292-296",
+   "value": true,
+   "reason": "선이 샘플 속 사마륨에서 보였다고 적혀 대상이 Eu인지 Sm인지 글만으로는 갈림",
+   "quantity": "lecoq_unidentified_line_year",
+   "raw": "1892"
+  },
+  {
+   "id": "wiki-en-europium:76:264-269",
+   "value": true,
+   "reason": "10년 단위의 어림 시기",
+   "quantity": "commercial_importance_decade",
+   "raw": "1960s"
+  },
+  {
+   "id": "wiki-en-europium:102:102-103",
+   "value": true,
+   "reason": "화학식에 적힌 수이지만 수화한 물 분자 수라는 성질로 읽힘",
+   "quantity": "hydration_number",
+   "raw": "[Eu(H2O)9]³⁺"
+  },
+  {
+   "id": "wiki-en-europium:106:446-448",
+   "value": true,
+   "reason": "산화 상태 이름이지만 '가장 쉽게 얻는' 성질로 쓰임",
+   "quantity": "most_accessible_oxidation_state",
+   "raw": "+2 oxidation state"
+  },
+  {
+   "id": "wiki-en-europium:180:183-192",
+   "value": true,
+   "reason": "문서가 이 이성질체의 이름(m 번호)을 적지 않음",
+   "quantity": "excitation_energy",
+   "raw": "147.9 keV"
+  },
+  {
+   "id": "wiki-en-europium:180:218-228",
+   "value": true,
+   "reason": "문서가 이 이성질체의 이름(m 번호)을 적지 않음",
+   "quantity": "half_life",
+   "raw": "about 96 minutes"
+  },
+  {
+   "id": "wiki-en-europium:188:101-113",
+   "value": true,
+   "reason": "세기 단위의 어림 시기",
+   "quantity": "separation_period",
+   "raw": "19th century"
+  },
+  {
+   "id": "wiki-en-europium:190:188-192",
+   "value": true,
+   "reason": "선이 샘플 속 사마륨에서 보였다고 적혀 대상이 Eu인지 Sm인지 글만으로는 갈림",
+   "quantity": "lecoq_unidentified_line_year",
+   "raw": "1892"
+  },
+  {
+   "id": "wiki-en-europium:200:62-74",
+   "value": true,
+   "reason": "세기 단위의 어림 시기",
+   "quantity": "large_scale_availability_period",
+   "raw": "mid-20th century"
+  },
+  {
+   "id": "wiki-en-europium:230:247-250",
+   "value": true,
+   "reason": "문서는 europium이라고만 적고 앞 문장의 Eu2O3 함량에 이어 읽음",
+   "quantity": "content_after_solvent_extraction_enrichment",
+   "raw": "approximately 15%"
+  },
+  {
+   "id": "wiki-en-europium:234:412-414",
+   "value": true,
+   "reason": "한 숫자가 미국과 러시아 둘에 걸림",
+   "quantity": "europium_oxide_production_share",
+   "raw": "about 2% each"
+  },
+  {
+   "id": "wiki-en-europium:250:172-177",
+   "value": true,
+   "reason": "10년 단위의 어림 시기",
+   "quantity": "commercial_introduction",
+   "raw": "1960s"
+  },
+  {
+   "id": "wiki-en-praseodymium:69:262-266",
+   "value": true,
+   "reason": "oxide 찌꺼기를 떼어 didymium이라 부른 해라 discovery인지 first_isolation인지 모호",
+   "quantity": "first_isolation",
+   "raw": "In 1841"
+  },
+  {
+   "id": "wiki-en-praseodymium:114:597-598",
+   "value": true,
+   "reason": "복합체의 비율(4:3)이 값인지 서술인지 모호",
+   "quantity": "complex_stoichiometry",
+   "raw": "4:3"
+  },
+  {
+   "id": "wiki-en-praseodymium:114:605-606",
+   "value": true,
+   "reason": "복합체의 비율(1:1)이 값인지 서술인지 모호",
+   "quantity": "complex_stoichiometry",
+   "raw": "1:1"
+  },
+  {
+   "id": "wiki-en-praseodymium:114:715-716",
+   "value": true,
+   "reason": "복합체의 비율(4:3)이 값인지 서술인지 모호하고 대상이 원소 묶음(promethium에서 gadolinium까지)임",
+   "quantity": "complex_stoichiometry",
+   "raw": "4:3"
+  },
+  {
+   "id": "wiki-en-praseodymium:122:628-632",
+   "value": true,
+   "reason": "lanthana와 didymia 둘을 떼어 낸 기간인데 대상을 하나만 적음",
+   "quantity": "first_isolation",
+   "raw": "Between 1839 and 1843"
+  },
+  {
+   "id": "wiki-en-praseodymium:124:377-381",
+   "value": true,
+   "reason": "samarium과 europium 둘을 함께 떼어 낸 해라 대상이 둘인데 Sm만 적음",
+   "quantity": "discovery",
+   "raw": "in 1879"
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:14:828-832",
+   "value": true,
+   "reason": "문장이 뒤섞여 1951이 제안한 해인지 임상 시험을 시작한 해인지 불분명",
+   "quantity": "brain_tumor_bnct_proposal_year",
+   "raw": "1951"
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:115:360-362",
+   "value": true,
+   "reason": "하버드-MIT 연구진이 치료한 22명은 피부 흑색종 환자를 포함해 표 2의 MITR 행(20명, 신경아교종)과 같은 시험인지 불분명",
+   "quantity": "patients_and_trial_years",
+   "raw": "A total of 22 patients"
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:123:32-34",
+   "value": true,
+   "reason": "쿄토 대학 연구용 원자로에서 한 첫 시험의 10명이 표 2의 KURRI 행(40명)과 같은 시험인지 불분명",
+   "quantity": "patients_and_trial_years",
+   "raw": "10 patients"
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:123:111-122",
+   "value": true,
+   "reason": "본문은 mean survival time(MST)이라 적고 표 열은 median survival time이다",
+   "quantity": "median_survival_months",
+   "raw": "15.6 months"
+  },
+  {
+   "id": "wiki-en-neutron-capture-therapy:155:376-379",
+   "value": true,
+   "reason": "헬싱키 대학 병원·VTT 시설의 신경아교종과 두경부암 환자를 합한 수라 표 2의 FiR1 행(50명, 신경아교종)과 같은 범위인지 불분명",
+   "quantity": "patients_and_trial_years",
+   "raw": "approximately 200+ patients"
+  },
+  {
+   "id": "wiki-en-samarium-cobalt-magnet:14:140-146",
+   "value": true,
+   "reason": "문장은 sintered라고 적지 않았지만 표(sintered 자석 비교표)의 같은 종류 자석으로 보고 표의 대상 열쇠를 씀",
+   "quantity": "curie_temperature",
+   "raw": "700 °C (973 K) to 800 °C (1,070 K)"
+  }
+ ],
+ "non_value_reasons": {
+  "반응식의 계수": 88,
+  "반응식의 계수 (반응식의 일부)": 40,
+  "반응식·화학식의 계수 또는 아래첨자": 31,
+  "다른 값의 조건": 18,
+  "화학식의 일부": 16,
+  "목록 번호": 16,
+  "상(series) 이름의 일부": 14,
+  "원소를 번호로 가리키는 이름 표현('element NN')의 일부": 12,
+  "산화 상태를 가리키는 이름(호칭)": 10,
+  "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)": 7,
+  "참고 문헌의 출판 연도": 6,
+  "반응식의 화학식 첨자": 6,
+  "화학식 PrnO2n−2의 첨자 n이 가질 수 있는 값(식의 일부)": 6,
+  "참고 문헌의 DOI": 6,
+  "소제목에 붙은 해 표기": 4,
+  "참고 문헌 인용 안의 숫자(Radiation Oncology 7:146–167, 2012)": 4,
+  "단위 g/cm^(3)의 지수": 3,
+  "참고 문헌의 연도": 3,
+  "표 번호(Table 1)": 3,
+  "화학식의 일부(수화물 물 분자 수 2-3, Dy2(CO3)3·2-3H2O)": 2,
+  "전자 껍질 이름 6s의 일부": 2,
+  "전자 배치(오비탈 이름 5d)의 일부": 2,
+  "전자 껍질 이름 5d의 일부": 2,
+  "화학식 [La(acac)3(H2O)2]의 아래첨자": 2,
+  "화학식 La(NO3)3·2 NH4NO3·4 H2O의 계수": 2,
+  "전자 궤도 이름 5d의 일부": 2,
+  "화학식 [Pr{N(SiMe3)2}3]의 일부": 2,
+  "기준 시점(as of)을 알리는 말의 해, 그 자체는 양이 아님": 2,
+  "생존율 이름에 붙은 기준 기간(1년 생존율), 양 이름의 일부": 2,
+  "생존율 이름에 붙은 기준 기간(2년 생존율), 양 이름의 일부": 2,
+  "반응식(정의식)의 일부": 2,
+  "착이온 화학식의 일부": 1,
+  "'2차원'이라는 형용 표현의 일부": 1,
+  "3100 tonnes의 해(조건)이며 그 값의 note에 적음": 1,
+  "$7 per pound 값의 해(조건)이며 그 값의 note에 적음": 1,
+  "$130 a pound 값의 해(조건)이며 그 값의 note에 적음": 1,
+  "$1,400/kg 값의 해(조건)이며 그 값의 note에 적음": 1,
+  "$240/kg 값의 해(조건)이며 그 값의 note에 적음": 1,
+  "US$203/kg 값의 기준 시점(조건)이며 그 값의 note에 적음": 1,
+  "50 tonnes 값의 기준 시점(조건)이며 그 값의 note에 적음": 1,
+  "'호주에 희토류 추출 산업이 있다'는 서술의 기준 시점(조건)이며 값이 아님": 1,
+  "table salt 치사량 300 grams의 조건(사람 체중)이며 그 값의 note에 적음": 1,
+  "다른 값(전기 저항 상승 배율 10배)이 나타나는 조건인 압력": 1,
+  "39000기압의 단위 환산(조건인 압력)": 1,
+  "다른 값(전기 저항 90 %)이 나타나는 조건인 압력": 1,
+  "40000기압의 단위 환산(조건인 압력)": 1,
+  "다른 값(전기 저항 90 %)의 기준인 1기압, 조건인 압력": 1,
+  "전자 배치(오비탈 이름 6s)의 일부": 1,
+  "동위 원소를 가리키는 질량수(Lu-173)": 1,
+  "동위 원소를 가리키는 질량수(Lu-176)": 1,
+  "화학 반응식 2Sm(OH)3의 아래첨자로 화학식의 일부": 1,
+  "이온 [La(H2O)9]³⁺의 전하 표기": 1,
+  "화학식 [La(H2O)9]³⁺의 아래첨자": 1,
+  "화학식 La2(SO4)3·9(H2O)의 아래첨자": 1,
+  "화학식 La2(SO4)3·9(H2O)의 계수": 1,
+  "화학식 La(C5H5)3의 아래첨자": 1,
+  "화학식 La(NO3)3·2 NH4NO3·4 H2O의 아래첨자": 1,
+  "도요타 프리우스의 모델 연도로 대상 이름의 일부": 1,
+  "가격 단위인 톤의 정의(1000 kg)": 1,
+  "제품 순도 규격(Lanthanum oxide 99%)이라 이름의 일부": 1,
+  "제품 순도 규격(Lanthanum Oxide - 99.9%min)이라 이름의 일부": 1,
+  "제품 순도 규격(Lanthanum Metal - 99%min)이라 이름의 일부": 1,
+  "전자 배치 4f⁷의 지수": 1,
+  "전자 배치 6s²의 지수": 1,
+  "화학식 Eu(OH)3의 아래 첨자": 1,
+  "이온 SO2−4의 화학식 일부(전하 표기)": 1,
+  "화합물 이름 bis(2-ethylhexyl)phosphoric acid의 일부": 1,
+  "생산량 값에 붙은 기간 2012–2016의 시작 해(note로 붙임)": 1,
+  "생산량 값에 붙은 기간 2012–2016의 끝 해(note로 붙임)": 1,
+  "GHS 위험 분류 '범주 1'의 번호(분류 이름의 일부)": 1,
+  "오비탈 이름(5d)": 1,
+  "오비탈 이름(6s)": 1,
+  "화학식 PrnO2n−2의 일부": 1,
+  "화학식 [Pr(H2O)9]³⁺의 일부": 1,
+  "화학식 [Pr(NPᵗBu3)4]⁺의 일부": 1,
+  "화합물 이름 18-crown-6의 일부": 1,
+  "전이 금속 3d 오비탈 이름": 1,
+  "참고 문헌의 출판일": 1,
+  "참고 문헌의 권": 1,
+  "참고 문헌의 호": 1,
+  "참고 문헌의 논문 번호": 1,
+  "참고 문헌의 arXiv 번호": 1,
+  "기준 시점(as of May 2021)을 알리는 말의 날짜, 그 자체는 양이 아님": 1,
+  "원자로 이름(JRR-4)의 일부": 1,
+  "표 번호(Table 2)": 1,
+  "문서를 쓴 때를 기준으로 한 막연한 기간('지난 15년')": 1,
+  "생존율 이름에 붙은 기준 기간(6년 생존율), 양 이름의 일부": 1,
+  "하루를 뜻하는 기간 표현('24시간 동안')": 1,
+  "표를 갱신한 시점(updated November, 2024)": 1,
+  "모델 이름(Vintage Hot Rod '57 Stratocaster)의 일부": 1
+ }
+}

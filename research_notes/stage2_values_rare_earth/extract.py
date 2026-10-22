@@ -38,6 +38,9 @@ R_HEADER = "머리글"
 R_OBJECT = "대상 칸"
 R_REPEAT = "되풀이 칸"
 R_ROWLABEL = "표 줄 이름"
+R_NAME = "이름의 일부(quantities.read)"       # 본문 줄의 kind "이름" 항목
+BODY_NV = "값 아님: "                          # 본문 항목을 서브에이전트가 값이 아니라고 한 것(뒤에 까닭)
+BODY_DIR = HERE / "body"
 
 # 칸의 값이 늘 낱말인 양(스핀·붕괴 방식처럼 숫자가 들어 있어도 이름표인 것)
 WORD_QUANTITIES = {"decay_mode", "daughter", "spin_parity", "accelerator_product", "delivery_agent_dose",
@@ -70,6 +73,7 @@ APPROX_RE = re.compile(r"(est\.|ca\.|about|~|≈|약|<|>|≥|≤)\s?")
 RANGE_RE = re.compile(r"(?:\s?[–-]\s?|\.\.|\s+to\s+)")
 PAREN_RANGE_RE = re.compile(rf"\((?P<a>{_BASE})[–-](?P<b>{_BASE})\)(?P<exp>{_EXP})")
 FALLBACK_UNIT_RE = re.compile(r"\s?(%|°[CF]?|[A-Za-zµμΩ][A-Za-zµμΩ³²⁻¹/·⋅]*)")
+PERCENT_UNIT_RE = re.compile(r"\s?(%)")
 BRACKET_RE = re.compile(r"\[[^\[\]]*\]")
 PREFIX_RE = re.compile(r"([^:=()]+?): ")
 LATTICE_RE = re.compile(r"([A-Za-zα-ωΑ-Ω]+) = ")
@@ -93,9 +97,10 @@ def _num_part(s, p):
     return num, unc, est, e + 1 if est else e
 
 
-def parse_rep(s, p, value_of=None):
+def parse_rep(s, p, value_of=None, loose=True):
     """s의 p에서 표기 하나(숫자 [범위] [오차] [단위])를 읽는다. 읽을 수 없으면 None.
-    돌려주는 값: (rep dict, 끝). value_of(시작, 끝)은 quantities.read의 값(없으면 None)을 찾는 함수다."""
+    돌려주는 값: (rep dict, 끝). value_of(시작, 끝)은 quantities.read의 값(없으면 None)을 찾는 함수다.
+    loose가 거짓이면 quantities.read가 아는 단위와 %만 단위로 본다(본문 글은 숫자 뒤에 낱말이 오기 때문이다)."""
     a = APPROX_RE.match(s, p)
     approx, q = (a.group(1), a.end()) if a else ("", p)
     pr = PAREN_RANGE_RE.match(s, q)
@@ -117,7 +122,7 @@ def parse_rep(s, p, value_of=None):
     if u:
         unit, ue = u[0], u[2]
     else:
-        f = FALLBACK_UNIT_RE.match(s, e)
+        f = (FALLBACK_UNIT_RE if loose else PERCENT_UNIT_RE).match(s, e)
         if f:
             unit, ue = f.group(1), f.end()
     rep = {"text": s[q:ue], "num": num, "unc": unc, "unit": unit, "range_to": range_to, "approx": approx,
@@ -161,6 +166,7 @@ class Line:
             inv.append(kept)
             kept += ch not in SKIP
         inv.append(kept)
+        self.inv = inv
         self.items = [{**it, "s": inv[it["start"]], "e": inv[it["end"] - 1] + 1} for it in items]
         self.places, self.nonvalue = [], []
 
@@ -672,7 +678,7 @@ def load_tables():
     return tables
 
 
-def build():
+def build(body=True):
     vocab = json.loads((HERE / "vocab.json").read_text(encoding="utf-8"))
     metas = yaml.safe_load((ROOT / "data/corpus/documents.yaml").read_text(encoding="utf-8"))["documents"]
     tables = load_tables()
@@ -702,6 +708,8 @@ def build():
         for i, s in enumerate(d.lines):
             if s.startswith("|") and i not in scope:
                 b.problems.append(f"{d.id}:{i + 1}: tables.json에 없는 표 줄")
+        if body:
+            scope.update(body_lines(d))
         result["scope"][d.id] = scope
     # 줄마다 순번과 id를 단다
     for d in docs:
@@ -712,12 +720,328 @@ def build():
                 r["id"] = f"{d.id}:{ln.no}:{n}"
                 assert r["quote"][r["start"]:r["end"]] == r["raw"]
     b.records.sort(key=lambda r: ([m["doc_id"] for m in metas].index(r["doc_id"]), r["line"], r["start"]))
+    result["body"] = add_body(result, vocab) if body else None
     return result
+
+
+# --- 본문 숫자 ---------------------------------------------------------------
+# 본문 줄: 정보 상자 뒤의 표가 아닌 모든 줄. 숫자 항목은 quantities.read의 항목이고(kind "이름" 제외) 서브에이전트가
+# body/<doc_id>.json에 항목마다 값 여부와 대상·양·조건을 적었다(body/instructions.md). 이 파일들은 읽기만 한다.
+BODY_APPROX = (r"(?:about|approximately|approx\.|around|roughly|nearly|almost|over|under|more than|less than|at least|"
+               r"at most|up to|ca\.|est\.|약|대략|~|≈|<|>|≥|≤)")
+BODY_APPROX_HEAD = re.compile(BODY_APPROX + r"\s*", re.I)
+BODY_APPROX_TAIL = re.compile(r"(?<![A-Za-z])(" + BODY_APPROX + r")\s*$", re.I)
+BODY_TAIL_KO = re.compile(r"\s*(이상|이하|미만|초과|가량|정도|쯤|내외|남짓)\s*$")
+CONV_GAP_RE = re.compile(r"[\s(,/;=)]*(?:or|and|to|≈|~|–|-)?[\s(]*")
+YEAR_RE = re.compile(r"(?<![\d.,])(1[7-9]\d\d|20\d\d)(?!\d)")
+ELEMENT_RE = re.compile(r"^[A-Z][a-z]?$")
+
+
+def body_lines(d):
+    """본문 줄의 0부터 센 번호: 정보 상자 뒤에서 표가 아닌 줄."""
+    return [i for i in range(infobox_end(d.lines), len(d.lines)) if not d.lines[i].startswith("|")]
+
+
+def body_items(d):
+    """본문 줄의 숫자 항목(kind 이름 제외)과 이름 항목 수. 항목은 {id, line, start, end, raw, kind}."""
+    items, names = [], 0
+    for i in body_lines(d):
+        for it in d.q_items.get(i, []):
+            if it["kind"] == "이름":
+                names += 1
+                continue
+            items.append({"id": f"{d.id}:{i + 1}:{it['start']}-{it['end']}", "line": i + 1, "start": it["start"],
+                          "end": it["end"], "raw": it["raw"], "kind": it["kind"]})
+    return items, names
+
+
+def parse_id(item_id):
+    """'<doc>:<줄>:<시작>-<끝>' -> (줄, 시작, 끝)."""
+    _, line, span = item_id.rsplit(":", 2)
+    a, b = span.split("-")
+    return int(line), int(a), int(b)
+
+
+def raw_span(line, raw, need):
+    """줄 안에서 raw가 나오는 자리 가운데 need(구간 목록)를 모두 품은 것의 (시작, 끝). 없으면 None."""
+    pos = line.find(raw)
+    while pos != -1:
+        if all(pos <= a and b <= pos + len(raw) for a, b in need):
+            return pos, pos + len(raw)
+        pos = line.find(raw, pos + 1)
+    return None
+
+
+def validate_results(items, results, lines, struct):
+    """한 문서의 결과(results)가 항목(items: id, raw를 가진 dict 목록)에 맞는지 본다. 틀린 곳을 (id, 까닭) 목록으로 돌려준다."""
+    errs = []
+    by_item = {x["id"]: x for x in items}
+    counts = Counter(r.get("id") for r in results)
+    for i in by_item:
+        if counts[i] != 1:
+            errs.append((i, f"결과가 {counts[i]}개"))
+    for i in counts:
+        if i not in by_item:
+            errs.append((i, "숫자 목록에 없는 id"))
+    by_res = {r["id"]: r for r in results if r.get("id") in by_item}
+    allowed = set(struct.values()) | {""}
+    for r in results:
+        it = by_item.get(r.get("id"))
+        if it is None:
+            continue
+        line_no, a, b = parse_id(it["id"])
+        line = lines[line_no - 1]
+        v = r.get("value")
+        if v is True and "part_of" not in r:
+            miss = [k for k in ("object", "quantity", "condition", "note", "raw") if k not in r]
+            if miss:
+                errs.append((it["id"], f"칸 없음 {miss}"))
+                continue
+            if not (isinstance(r["raw"], str) and r["raw"]):
+                errs.append((it["id"], "raw가 글이 아니거나 비었다"))
+            elif raw_span(line, r["raw"], [(a, b)]) is None:
+                errs.append((it["id"], f"raw가 줄에 없거나 이 숫자를 품지 않는다: {r['raw']!r}"))
+            if not isinstance(r["object"], str) or not r["object"] or not isinstance(r["quantity"], str) or not r["quantity"]:
+                errs.append((it["id"], "object나 quantity가 비었다"))
+            if r["condition"] not in allowed:
+                errs.append((it["id"], f"condition이 structural_condition의 값이 아니다: {r['condition']!r}"))
+            if not (isinstance(r["note"], list) and all(isinstance(n, str) for n in r["note"])):
+                errs.append((it["id"], "note가 글 목록이 아니다"))
+        elif v is True:
+            main = by_res.get(r["part_of"])
+            if main is None:
+                errs.append((it["id"], f"part_of가 목록에 없는 id를 가리킨다: {r['part_of']}"))
+            elif main.get("value") is not True or "part_of" in main:
+                errs.append((it["id"], "part_of가 part_of 없는 값을 가리키지 않는다"))
+            else:
+                ml, ma, mb = parse_id(main["id"])
+                if ml != line_no:
+                    errs.append((it["id"], "part_of가 다른 줄의 항목이다"))
+                elif not isinstance(main.get("raw"), str) or raw_span(line, main["raw"], [(ma, mb), (a, b)]) is None:
+                    errs.append((it["id"], f"part_of 숫자가 주 값의 raw 밖에 있다: {main.get('raw')!r}"))
+        elif v is False:
+            if not (isinstance(r.get("reason"), str) and r["reason"]):
+                errs.append((it["id"], "값이 아닌데 까닭이 없다"))
+        else:
+            errs.append((it["id"], f"value가 true나 false가 아니다: {v!r}"))
+    return errs
+
+
+def fallback_rep(text, item=None):
+    """표기를 읽지 못한 값의 대신 rep: 글자 그대로를 text에, 첫 숫자를 num에 둔다."""
+    m = NUM_RE.search(text)
+    return {"text": text, "num": m.group(0) if m else "", "unc": "", "unit": "", "range_to": None, "approx": "",
+            "est_mark": False, "value": None}
+
+
+def body_reps(ln, cs, ce):
+    """본문 자리 c[cs:ce]의 reps. 첫 항목에서 표기를 읽고(범위, 오차, 단위), 뒤에 같은 차원의 수가 괄호나 쉼표로
+    이어 적히면 단위 환산으로 reps에 더한다. 어림 말은 approx에 둔다. 숫자 항목이 없으면 글자 그대로 하나."""
+    s = ln.c[cs:ce]
+    its = sorted((it for it in ln.items if it["kind"] != "이름" and cs <= it["s"] and it["e"] <= ce), key=lambda it: it["s"])
+    vo = lambda a, b: ln.value_of(cs + a, cs + b)
+    if not its:
+        return [fallback_rep(s)]
+    first = its[0]
+    p0 = first["s"] - cs
+    approx = ""
+    hm = BODY_APPROX_HEAD.match(s)
+    if hm and hm.end() <= p0:
+        approx = hm.group(0).strip()
+    else:
+        tm = BODY_APPROX_TAIL.search(s[:p0])
+        approx = tm.group(1) if tm else ""
+    r = parse_rep(s, p0, vo, loose=False)
+    if r:
+        rep, e = r
+    else:
+        rep, e = fallback_rep(s[p0:first["e"] - cs]), first["e"] - cs
+        rep["value"] = vo(p0, e)
+    if not approx:
+        approx = rep["approx"]
+    if not approx:
+        km = BODY_TAIL_KO.search(s)
+        approx = km.group(1) if km else ""
+    rep["approx"] = approx
+    reps, prev = [rep], e
+    for it in its[1:]:
+        q = it["s"] - cs
+        gap = s[prev:q]
+        if q < prev or not CONV_GAP_RE.fullmatch(gap):
+            continue
+        if (len(reps) == 1 and not rep["unit"] and rep["range_to"] is None and it["kind"] == "양"
+                and (re.fullmatch(r"\s*~\s*", gap) or (re.fullmatch(r"\s+and\s+", gap) and re.search(r"(?i)\bbetween\s+$", s[:p0])))):
+            r2 = parse_rep(s, q, vo, loose=False)          # 'between 32 and 56 K', '300~400°C': 범위의 끝
+            if r2:
+                rep.update(range_to=r2[0]["num"], unit=r2[0]["unit"], text=s[p0:r2[1]])
+                prev = r2[1]
+                continue
+        if it["kind"] == "양" and first["kind"] == "양" and it["dim"] == first["dim"]:
+            r2 = parse_rep(s, q, vo, loose=False)
+            if r2:
+                reps.append(r2[0])
+                prev = r2[1]
+    return reps
+
+
+def add_body(result, vocab, body_dir=None):
+    """본문 숫자를 읽어 자리를 더하고 검사 결과를 돌려준다. 자리는 where "본문"이고 기존 자리 뒤에 문서·줄 차례로 붙는다."""
+    body_dir = body_dir or BODY_DIR
+    struct = vocab["structural_condition"]
+    b = result["builder"]
+    info = {"errors": [], "diffs": [], "names": 0, "items": 0, "part_of": 0, "values": 0, "places": 0,
+            "nonvalue_reasons": Counter(), "uncertain": [], "dismissed": [], "results": {}}
+    new = []
+    for d in result["docs"]:
+        items, names = body_items(d)
+        info["names"] += names
+        info["items"] += len(items)
+        committed = json.loads((body_dir / "items" / f"{d.id}.json").read_text(encoding="utf-8"))
+        a = [(x["id"], x["raw"], x["kind"]) for x in items]
+        c = [(x["id"], x["raw"], x["kind"]) for x in committed]
+        if a != c:
+            info["diffs"].append((d.id, sorted(set(a) ^ set(c))[:10], len(a), len(c)))
+            continue
+        results = json.loads((body_dir / f"{d.id}.json").read_text(encoding="utf-8"))
+        info["results"][d.id] = results
+        errs = validate_results(items, results, d.lines, struct)
+        info["errors"] += [(d.id, *e) for e in errs]
+        if errs:
+            continue
+        item_by = {x["id"]: x for x in items}
+        res_by = {r["id"]: r for r in results}
+        parts = defaultdict(list)
+        for r in results:
+            if r["value"] and "part_of" in r:
+                info["part_of"] += 1
+                it = item_by[r["id"]]
+                parts[r["part_of"]].append((it["start"], it["end"]))
+        for it in items_names(d):
+            ln = d.line(it[0])
+            ln.nonvalue.append((it[1], it[2], R_NAME))
+        for r in results:
+            it = item_by[r["id"]]
+            ln = d.line(it["line"] - 1)
+            if r["value"] is False:
+                ln.nonvalue.append((it["start"], it["end"], BODY_NV + r["reason"]))
+                info["nonvalue_reasons"][r["reason"]] += 1
+                if it["kind"] == "양":
+                    info["dismissed"].append({"id": it["id"], "raw": it["raw"], "reason": r["reason"], "quote": ln.quote})
+                if r.get("uncertain"):
+                    info["uncertain"].append({"id": it["id"], "value": False, "reason": r["reason"], "raw": it["raw"]})
+                continue
+            if "part_of" in r:
+                continue
+            info["values"] += 1
+            s, e = raw_span(ln.quote, r["raw"], [(it["start"], it["end"])] + parts[r["id"]])
+            cs, ce = ln.inv[s], ln.inv[e]
+            kind = "수" if HAS_DIGIT.search(r["raw"]) else "낱말"
+            rec = {
+                "id": "", "doc_id": d.id, "lang": d.lang, "topic": d.topic, "branch": d.branch, "line": it["line"],
+                "where": "본문", "quote": ln.quote, "raw": ln.quote[s:e], "start": s, "end": e,
+                "object": r["object"], "quantity": r["quantity"], "condition": r["condition"], "note": list(r["note"]),
+                "label": "", "kind": kind,
+                "reps": body_reps(ln, cs, ce) if kind == "수" else [{"text": ln.quote[s:e]}],
+            }
+            if r.get("uncertain"):
+                rec["uncertain"] = True
+                rec["uncertain_reason"] = r.get("uncertain_reason") or r.get("reason") or ""
+                info["uncertain"].append({"id": it["id"], "value": True, "reason": rec["uncertain_reason"],
+                                          "quantity": r["quantity"], "raw": rec["raw"]})
+            ln.places.append(rec)
+            new.append(rec)
+    order = [d.id for d in result["docs"]]
+    new.sort(key=lambda r: (order.index(r["doc_id"]), r["line"], r["start"]))
+    count = Counter()
+    for r in new:
+        r["id"] = f"{r['doc_id']}:{r['line']}:{count[(r['doc_id'], r['line'])]}"
+        count[(r["doc_id"], r["line"])] += 1
+    b.records.extend(new)
+    info["places"] = len(new)
+    return info
+
+
+def items_names(d):
+    """본문 줄의 kind 이름 항목 (0부터 센 줄 번호, 시작, 끝)."""
+    return [(i, it["start"], it["end"]) for i in body_lines(d) for it in d.q_items.get(i, []) if it["kind"] == "이름"]
+
+
+def place_dim(result, rec, cache={}):
+    """자리 안에서 처음 나오는 '양' 항목의 차원. 없으면 None."""
+    if rec["id"] not in cache:
+        d = next(x for x in result["docs"] if x.id == rec["doc_id"])
+        cache[rec["id"]] = next((it["dim"] for it in d.q_items.get(rec["line"] - 1, [])
+                                 if it["kind"] == "양" and rec["start"] <= it["start"] and it["end"] <= rec["end"]), None)
+    return cache[rec["id"]]
+
+
+def review_lists(result, vocab):
+    """body_checks.json에 쓸 검토 목록 다섯 가지(brief 6a~6e)."""
+    recs = result["builder"].records
+    body = [r for r in recs if r["where"] == "본문"]
+    out = {}
+    out["dismissed_quantities"] = result["body"]["dismissed"]
+    # 6b: 같은 (대상, 양, 조건) 묶음에 자리가 이것 하나뿐이고, 같은 대상·같은 차원인 자리가 다른 양 열쇠로 있는 본문 자리
+    groups = Counter((r["object"], r["quantity"], r["condition"]) for r in recs)
+    by_obj_dim = defaultdict(list)
+    for r in recs:
+        dim = place_dim(result, r)
+        if dim:
+            by_obj_dim[(r["object"], dim)].append(r)
+    lonely = []
+    for r in body:
+        if groups[(r["object"], r["quantity"], r["condition"])] != 1:
+            continue
+        dim = place_dim(result, r)
+        cands = [c for c in by_obj_dim.get((r["object"], dim), []) if c["quantity"] != r["quantity"]] if dim else []
+        if cands:
+            lonely.append({"place": {k: r[k] for k in ("id", "doc_id", "line", "object", "quantity", "condition", "raw")},
+                           "dim": dim, "n_candidates": len(cands),
+                           "candidates": [{"doc": c["doc_id"], "line": c["line"], "quantity": c["quantity"], "raw": c["raw"],
+                                           "where": c["where"]} for c in cands[:20]]})
+    out["lonely_body_values"] = lonely
+    # 6c: vocab에 없는 본문 양 열쇠
+    known = {e["quantity"] for e in vocab["infobox_label"].values()} | {e["quantity"] for e in vocab["infobox_group_label"].values()}
+    known |= {q for q in vocab["table_column"].values() if q != "@object"}
+    new_keys = {}
+    for r in body:
+        if r["quantity"] not in known:
+            e = new_keys.setdefault(r["quantity"], {"count": 0, "docs": {}})
+            e["count"] += 1
+            e["docs"][r["doc_id"]] = e["docs"].get(r["doc_id"], 0) + 1
+    out["new_quantity_keys"] = dict(sorted(new_keys.items(), key=lambda kv: -kv[1]["count"]))
+    # 6d: 원소별로 네 자리 연도(1700~2099)가 적힌 자리. 연도 아닌 수(1818 K)는 숫자 뒤에 시간이 아닌 단위가 오면 뺀다
+    elements = set(vocab["topic_object"].values()) | {r["object"] for r in recs if ELEMENT_RE.match(r["object"])}
+    elements -= {"neutron capture therapy", "samarium-cobalt magnet"}
+    years, skipped = defaultdict(list), 0
+    for r in recs:
+        if r["object"] not in elements:
+            continue
+        found = []
+        rep_unit = r["reps"][0].get("unit", "") if r["kind"] == "수" else ""
+        rep_dim = Q.UNITS.get(Q.norm(rep_unit), (None,))[0] if rep_unit else None
+        for m in YEAR_RE.finditer(r["raw"]):
+            if rep_dim not in (None, "시간"):          # (1821) K처럼 단위가 칸 밖에 있는 표 값
+                skipped += 1
+                continue
+            u = Q.find_unit(r["raw"], m.end())
+            if (u and Q.UNITS[u[1]][0] != "시간") or r["raw"][m.end():m.end() + 2].strip().startswith("%"):
+                skipped += 1
+                continue
+            found.append(int(m.group(1)))
+        if found:
+            years[r["object"]].append({"year": min(found), "doc": r["doc_id"], "line": r["line"], "where": r["where"],
+                                       "quantity": r["quantity"], "raw": r["raw"], "note": r["note"]})
+    out["years_by_element"] = {el: sorted(v, key=lambda x: (x["year"], x["doc"], x["line"])) for el, v in sorted(years.items())}
+    out["years_skipped_with_unit"] = skipped
+    out["uncertain"] = result["body"]["uncertain"]
+    out["non_value_reasons"] = dict(result["body"]["nonvalue_reasons"].most_common())
+    return out
 
 
 def coverage(result):
     """정보 상자 줄과 표 줄의 숫자 항목이 자리 또는 값이 아닌 범위 안에 있는지 센다."""
-    out = {"checked": 0, "place": 0, "nonvalue": Counter(), "uncovered": [], "overlap": [], "cells": []}
+    out = {"checked": 0, "place": 0, "nonvalue": Counter(), "body_nonvalue": Counter(), "uncovered": [], "overlap": [], "cells": []}
     for d in result["docs"]:
         for i in sorted(result["scope"][d.id]):
             ln = d.line(i)
@@ -732,7 +1056,9 @@ def coverage(result):
                     out["place"] += 1
                     continue
                 why = next((w for s, e, w in ln.nonvalue if s <= a and b <= e), None)
-                if why:
+                if why and why.startswith(BODY_NV):
+                    out["body_nonvalue"][why[len(BODY_NV):]] += 1
+                elif why:
                     out["nonvalue"][why] += 1
                 else:
                     out["uncovered"].append((d.id, ln.no, it["raw"]))
@@ -765,10 +1091,14 @@ def write(result):
 
 
 def main():
+    vocab = json.loads((HERE / "vocab.json").read_text(encoding="utf-8"))
     result = build()
     b = result["builder"]
+    body = result["body"]
     cov = coverage(result)
     write(result)
+    checks = review_lists(result, vocab)
+    (HERE / "body_checks.json").write_text(json.dumps(checks, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     recs = b.records
     print(f"문서 {len(result['docs'])}개, 자리 {len(recs)}개")
     print("표 모양:", dict(result["table_kinds"]))
@@ -776,10 +1106,15 @@ def main():
     print("자리 (where별):", dict(wc))
     for d in result["docs"]:
         c = Counter(r["where"] for r in recs if r["doc_id"] == d.id)
-        print(f"  {d.id}: 정보 상자 {c['정보 상자']}, 표 {c['표']}")
+        print(f"  {d.id}: 정보 상자 {c['정보 상자']}, 표 {c['표']}, 본문 {c['본문']}")
     print("자리 (kind별):", dict(Counter(r["kind"] for r in recs)))
-    print(f"덮임 검사: 항목 {cov['checked']}개 = 자리 안 {cov['place']} + 값이 아닌 범위 {sum(cov['nonvalue'].values())} "
-          f"{dict(cov['nonvalue'])} + 못 덮음 {len(cov['uncovered'])}")
+    print(f"본문: 숫자 항목 {body['items']}개(body/items와 같음) = 값 {body['values']} + part_of {body['part_of']} "
+          f"+ 값 아님 {sum(body['nonvalue_reasons'].values())} (이유 {len(body['nonvalue_reasons'])}가지); "
+          f"자동 값 아님(이름) {body['names']}개; 본문 자리 {body['places']}개")
+    print("  값 아님 이유 상위:", body["nonvalue_reasons"].most_common(8))
+    print(f"덮임 검사: 항목 {cov['checked']}개 = 자리 안 {cov['place']} + 값이 아닌 범위 "
+          f"{sum(cov['nonvalue'].values()) + sum(cov['body_nonvalue'].values())} "
+          f"{dict(cov['nonvalue'])} + 본문 값 아님 {sum(cov['body_nonvalue'].values())} + 못 덮음 {len(cov['uncovered'])}")
     bad = False
     if cov["uncovered"]:
         bad = True
@@ -794,6 +1129,16 @@ def main():
         print("자리도 표시도 없는 표 칸:", cov["cells"])
     else:
         print("표 데이터 칸 검사: 비지 않은 모든 칸이 자리 또는 표시로 덮였다")
+    if body["diffs"]:
+        bad = True
+        print("본문 숫자 목록이 body/items와 다르다:")
+        for x in body["diffs"]:
+            print("  ", x)
+    if body["errors"]:
+        bad = True
+        print(f"본문 결과 검사 실패 {len(body['errors'])}건:")
+        for x in body["errors"]:
+            print("  ", x)
     if b.missing:
         bad = True
         print("vocab에 없는 것:")
@@ -807,6 +1152,10 @@ def main():
     print(f"숫자 규칙에 안 맞아 낱말이 된 칸(숫자가 든 것): {len(b.fallback_words)}개")
     for x in b.fallback_words:
         print("  ", x)
+    print(f"검토 목록(body_checks.json): 값으로 보지 않은 '양' {len(checks['dismissed_quantities'])}개, "
+          f"외톨이 본문 값 {len(checks['lonely_body_values'])}개, 새 양 열쇠 {len(checks['new_quantity_keys'])}개 "
+          f"(자리 {sum(v['count'] for v in checks['new_quantity_keys'].values())}), 원소별 연도 자리 "
+          f"{sum(len(v) for v in checks['years_by_element'].values())}개, uncertain {len(checks['uncertain'])}개")
     sys.exit(1 if bad else 0)
 
 

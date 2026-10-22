@@ -2,7 +2,9 @@
 
 실행: .venv/bin/python -m unittest discover -s research_notes/stage2_values_rare_earth -p "test_*.py"
 """
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -215,6 +217,83 @@ class Tables(unittest.TestCase):
 
 def BY_LINE_ALL(doc):
     return [r for r in RESULT["builder"].records if r["doc_id"] == doc]
+
+
+class Body(unittest.TestCase):
+    def test_first_isolation_year(self):
+        got = [r for r in at("wiki-ko-thulium", 64) if r["start"] <= 161 and 166 <= r["end"]]
+        self.assertEqual(len(got), 1)
+        r = got[0]
+        self.assertEqual((r["where"], r["object"], r["quantity"], r["raw"], r["label"]), ("본문", "Tm", "first_isolation", "1911년", ""))
+        self.assertEqual(r["kind"], "수")
+        self.assertEqual(r["reps"][0]["num"], "1911")
+
+    def test_counts_and_order(self):
+        recs = RESULT["builder"].records
+        body = RESULT["body"]
+        self.assertEqual((body["items"], body["names"], body["part_of"], body["values"]), (1133, 566, 103, 654))
+        self.assertEqual(body["errors"], [])
+        self.assertEqual(body["diffs"], [])
+        wheres = [r["where"] for r in recs]
+        first_body = wheres.index("본문")
+        self.assertEqual(first_body, 3388)
+        self.assertTrue(all(w == "본문" for w in wheres[first_body:]))
+        self.assertEqual(sum(w == "본문" for w in wheres), 654)
+        self.assertEqual(len(recs), 4042)
+
+    def test_part_of_becomes_extra_rep(self):
+        (r,) = [r for r in RESULT["builder"].records if r["id"] == "wiki-en-europium:80:1"]
+        self.assertEqual([x["unit"] for x in r["reps"]], ["°C", "K"])
+        (r,) = [r for r in RESULT["builder"].records if r["id"] == "wiki-en-thulium:78:2"]
+        self.assertEqual((r["reps"][0]["num"], r["reps"][0]["range_to"], r["reps"][0]["unit"]), ("32", "56", "K"))
+
+    def test_uncertain_kept(self):
+        rows = [r for r in RESULT["builder"].records if r.get("uncertain")]
+        self.assertGreater(len(rows), 0)
+        self.assertTrue(all(r["uncertain"] is True and r["uncertain_reason"] for r in rows))
+        checks = ex.review_lists(RESULT, json.loads((HERE / "vocab.json").read_text(encoding="utf-8")))
+        self.assertEqual(len(checks["uncertain"]), 52)
+        self.assertEqual(set(checks), {"dismissed_quantities", "lonely_body_values", "new_quantity_keys", "years_by_element",
+                                       "years_skipped_with_unit", "uncertain", "non_value_reasons"})
+
+    def test_validation_rejects_bad_results(self):
+        doc = "wiki-ko-thulium"
+        items = json.loads((ex.BODY_DIR / "items" / f"{doc}.json").read_text(encoding="utf-8"))
+        good = json.loads((ex.BODY_DIR / f"{doc}.json").read_text(encoding="utf-8"))
+        lines = (ex.MD_DIR / f"{doc}.md").read_text(encoding="utf-8").split("\n")
+        struct = json.loads((HERE / "vocab.json").read_text(encoding="utf-8"))["structural_condition"]
+        self.assertEqual(ex.validate_results(items, good, lines, struct), [])
+        with tempfile.TemporaryDirectory() as tmp:
+            bad = [dict(x) for x in good]
+            missing = bad.pop(0)                                            # id 하나가 빠짐
+            target = next(x for x in bad if x["value"] and "part_of" not in x)
+            target["raw"] = "이 줄에 없는 글자"                                # raw가 줄에 없음
+            other = next(x for x in bad if x is not target and x["value"] and "part_of" not in x)
+            bad.append({"id": "wiki-ko-thulium:99:0-1", "value": True, "part_of": "wiki-ko-thulium:1:0-1"})   # 모르는 id
+            other2 = dict(other, id=other["id"])
+            other2.pop("object")                                              # 칸 없음
+            bad.append(other2)                                                # 같은 id가 두 번
+            path = Path(tmp) / "fake.json"
+            path.write_text(json.dumps(bad, ensure_ascii=False), encoding="utf-8")
+            errs = ex.validate_results(items, json.loads(path.read_text(encoding="utf-8")), lines, struct)
+        text = " ".join(f"{i} {why}" for i, why in errs)
+        self.assertIn(missing["id"], [i for i, _ in errs])
+        self.assertIn("결과가 0개", text)
+        self.assertIn("줄에 없거나", text)
+        self.assertIn("숫자 목록에 없는 id", text)
+        self.assertIn("결과가 2개", text)
+
+    def test_validation_rejects_part_of_unknown(self):
+        items = [{"id": "d:1:0-1", "raw": "1", "kind": "모르는 숫자"}, {"id": "d:1:4-5", "raw": "2", "kind": "모르는 숫자"}]
+        results = [{"id": "d:1:0-1", "value": True, "object": "X", "quantity": "q", "condition": "", "note": [], "raw": "1 to 2"},
+                   {"id": "d:1:4-5", "value": True, "part_of": "d:1:9-10"}]
+        errs = ex.validate_results(items, results, ["1 to 2"], {})
+        self.assertEqual(len(errs), 1)
+        self.assertIn("part_of", errs[0][1])
+        results[1]["part_of"] = "d:1:0-1"
+        self.assertEqual(ex.validate_results(items, results, ["1 to 2"], {}), [])
+        results[0]["condition"] = "no_such"
+        self.assertEqual(len(ex.validate_results(items, results, ["1 to 2"], {})), 1)
 
 
 class Integrity(unittest.TestCase):
