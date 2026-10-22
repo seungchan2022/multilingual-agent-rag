@@ -1,0 +1,3496 @@
+[
+ {
+  "doc_id": "wiki-ko-thulium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 1117 | 1235 | 1381 | 1570 | (1821) | (2217) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-thulium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ¹⁶⁷Tm | 인공 | 9.25 d | ε | 0.748 | ¹⁶⁷Er |",
+   "| ¹⁶⁸Tm | 인공 | 93.1 d | ε | 1.679 | ¹⁶⁸Er |",
+   "| ¹⁶⁹Tm | 100% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷⁰Tm | 인공 | 128.6 d | β⁻ | 0.968 | ¹⁷⁰Yb |",
+   "| ¹⁷¹Tm | 인공 | 1.92 y | β⁻ | 0.096 | ¹⁷¹Yb |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 54,
+  "section": "",
+  "section_source": "md",
+  "rows": 6,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 1,
+   "texts": [
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 1,
+   "examples": [
+    "DE ⏎ (MeV)"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "¹⁶⁷Tm",
+   "¹⁶⁸Tm",
+   "¹⁶⁹Tm",
+   "¹⁷⁰Tm"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-thulium",
+  "n": 3,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 이 글은 화학에 관한 토막글입니다. 여러분의 지식으로 알차게 문서를 완성해 갑시다. |",
+   "|---|"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": null,
+  "section": "## 외부 링크",
+  "section_source": "html",
+  "rows": 1,
+  "cols": 2,
+  "class": [
+   "notice",
+   "metadata",
+   "plainlinks",
+   "stub"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 0,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   ""
+  ]
+ },
+ {
+  "doc_id": "wiki-en-thulium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 1117 | 1235 | 1381 | 1570 | (1821) | (2217) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-thulium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹⁶⁷Tm | synth | 9.25 d | ε | ¹⁶⁷Er |",
+   "| ¹⁶⁸Tm | synth | 93.1 d | β⁺ | ¹⁶⁸Er |",
+   "| ¹⁶⁹Tm | 100% | stable | stable | stable |",
+   "| ¹⁷⁰Tm | synth | 128.6 d | β⁻ | ¹⁷⁰Yb |",
+   "| ¹⁷¹Tm | synth | 1.92 y | β⁻ | ¹⁷¹Yb |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 59,
+  "section": "",
+  "section_source": "md",
+  "rows": 7,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 5,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 3,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹⁶⁷Tm",
+   "¹⁶⁸Tm",
+   "¹⁶⁹Tm"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-dysprosium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 1378 | 1523 | (1704) | (1954) | (2304) | (2831) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-dysprosium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ¹⁵⁴Dy | 인공 | 3.0E+6 y | α | 2.947 | ¹⁵⁰Gd |",
+   "| ¹⁵⁶Dy | 0.06% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁵⁸Dy | 0.10% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁰Dy | 2.34% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶¹Dy | 18.91% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶²Dy | 25.51% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶³Dy | 24.90% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁴Dy | 28.18% | 안정 | 안정 | 안정 | 안정 |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 56,
+  "section": "",
+  "section_source": "md",
+  "rows": 9,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 7,
+   "texts": [
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 1,
+   "examples": [
+    "DE ⏎ (MeV)"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "¹⁵⁴Dy",
+   "¹⁵⁶Dy",
+   "¹⁵⁸Dy",
+   "¹⁶⁰Dy"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-dysprosium",
+  "n": 3,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 이 글은 화학에 관한 토막글입니다. 여러분의 지식으로 알차게 문서를 완성해 갑시다. |",
+   "|---|"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": null,
+  "section": "## 외부 링크",
+  "section_source": "html",
+  "rows": 1,
+  "cols": 2,
+  "class": [
+   "notice",
+   "metadata",
+   "plainlinks",
+   "stub"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 0,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   ""
+  ]
+ },
+ {
+  "doc_id": "wiki-en-dysprosium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 1378 | 1523 | (1704) | (1954) | (2304) | (2831) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-dysprosium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹⁵⁴Dy | synth | 1.40×10⁶ y | α | ¹⁵⁰Gd |",
+   "| ¹⁵⁶Dy | 0.056% | stable | stable | stable |",
+   "| ¹⁵⁸Dy | 0.095% | stable | stable | stable |",
+   "| ¹⁵⁹Dy | synth | 144.4 d | ε | ¹⁵⁹Tb |",
+   "| ¹⁶⁰Dy | 2.33% | stable | stable | stable |",
+   "| ¹⁶¹Dy | 18.9% | stable | stable | stable |",
+   "| ¹⁶²Dy | 25.5% | stable | stable | stable |",
+   "| ¹⁶³Dy | 24.9% | stable | stable | stable |",
+   "| ¹⁶⁴Dy | 28.3% | stable | stable | stable |",
+   "| ¹⁶⁵Dy | synth | 2.332 h | β⁻ | ¹⁶⁵Ho |",
+   "| ¹⁶⁶Dy | synth | 3.40 d | β⁻ | ¹⁶⁶Ho |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 60,
+  "section": "",
+  "section_source": "md",
+  "rows": 13,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 11,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 9,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable",
+    "stable",
+    "stable",
+    "stable",
+    "stable",
+    "stable",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹⁵⁴Dy",
+   "¹⁵⁶Dy",
+   "¹⁵⁸Dy"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-ytterbium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 736 | 813 | 910 | 1047 | (1266) | (1465) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-ytterbium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ¹⁶⁶Yb | 인공 | 56.7 h | ε | 0.304 | ¹⁶⁶Tm |",
+   "| ¹⁶⁸Yb | 0.13% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁹Yb | 인공 | 32.026 d | ε | 0.909 | ¹⁶⁹Tm |",
+   "| ¹⁷⁰Yb | 3.05% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷¹Yb | 14.3% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷²Yb | 21.9% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷³Yb | 16.12% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷⁴Yb | 31.8% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷⁵Yb | 인공 | 4.185 d | β⁻ | 0.470 | ¹⁷⁵Lu |",
+   "| ¹⁷⁶Yb | 12.7% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷⁷Yb | 인공 | 1.911 h | β⁻ | 1.399 | ¹⁷⁷Lu |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 57,
+  "section": "",
+  "section_source": "md",
+  "rows": 12,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 7,
+   "texts": [
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 1,
+   "examples": [
+    "DE ⏎ (MeV)"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "¹⁶⁶Yb",
+   "¹⁶⁸Yb",
+   "¹⁶⁹Yb",
+   "¹⁷⁰Yb"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-ytterbium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 736 | 813 | 910 | 1047 | (1266) | (1465) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-ytterbium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹⁶⁶Yb | synth | 56.7 h | ε | ¹⁶⁶Tm |",
+   "| ¹⁶⁸Yb | 0.126% | stable | stable | stable |",
+   "| ¹⁶⁹Yb | synth | 32.014 d | ε | ¹⁶⁹Tm |",
+   "| ¹⁷⁰Yb | 3.02% | stable | stable | stable |",
+   "| ¹⁷¹Yb | 14.2% | stable | stable | stable |",
+   "| ¹⁷²Yb | 21.8% | stable | stable | stable |",
+   "| ¹⁷³Yb | 16.1% | stable | stable | stable |",
+   "| ¹⁷⁴Yb | 31.9% | stable | stable | stable |",
+   "| ¹⁷⁵Yb | synth | 4.185 d | β⁻ | ¹⁷⁵Lu |",
+   "| ¹⁷⁶Yb | 12.9% | stable | stable | stable |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 60,
+  "section": "",
+  "section_source": "md",
+  "rows": 12,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 10,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 9,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable",
+    "stable",
+    "stable",
+    "stable",
+    "stable",
+    "stable",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹⁶⁶Yb",
+   "¹⁶⁸Yb",
+   "¹⁶⁹Yb"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-lutetium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 1906 | 2103 | 2346 | (2653) | (3072) | (3663) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-lutetium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ¹⁷³Lu | 인공 | 1.37 y | ε | 0.671 | ¹⁷³Yb |",
+   "| ¹⁷⁴Lu | 인공 | 3.31 y | ε | 1.374 | ¹⁷⁴Yb |",
+   "| ¹⁷⁵Lu | 97.41% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷⁶Lu | 2.59% | 3.78×10¹⁰y | β⁻ | 1.193 | ¹⁷⁶Hf |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 54,
+  "section": "",
+  "section_source": "md",
+  "rows": 5,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 1,
+   "texts": [
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 1,
+   "examples": [
+    "DE ⏎ (MeV)"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "¹⁷³Lu",
+   "¹⁷⁴Lu",
+   "¹⁷⁵Lu",
+   "¹⁷⁶Lu"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-lutetium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 1906 | 2103 | 2346 | (2653) | (3072) | (3663) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-lutetium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹⁷³Lu | synth | 1.37 y | ε | ¹⁷³Yb |",
+   "| ¹⁷⁴Lu | synth | 3.31 y | β⁺ | ¹⁷⁴Yb |",
+   "| ¹⁷⁵Lu | 97.4% | stable | stable | stable |",
+   "| ¹⁷⁶Lu | 2.60% | 3.701×10¹⁰ y | β⁻ | ¹⁷⁶Hf |",
+   "| ¹⁷⁷Lu | synth | 6.6443 d | β⁻ | ¹⁷⁷Hf |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 59,
+  "section": "",
+  "section_source": "md",
+  "rows": 7,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 5,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 3,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹⁷³Lu",
+   "¹⁷⁴Lu",
+   "¹⁷⁵Lu"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-isotopes-of-yttrium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 핵자 수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) |",
+   "|---|---|---|---|---|---|---|---|---|",
+   "| 핵자 수 | 들뜬 에너지 | 들뜬 에너지 | 들뜬 에너지 | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) |",
+   "| ⁷⁶Y | 39 | 37 | 75.95845(54)# | 500# ns [>170 ns] |  |  |  |  |",
+   "| ⁷⁷Y | 39 | 38 | 76.94965(7)# | 63(17) ms | p (>99.9%) | ⁷⁶Sr | 5/2+# |  |",
+   "| ⁷⁷Y | 39 | 38 | 76.94965(7)# | 63(17) ms | β⁺ (<0.1%) | ⁷⁷Sr | 5/2+# |  |",
+   "| ⁷⁸Y | 39 | 39 | 77.94361(43)# | 54(5) ms | β⁺ | ⁷⁸Sr | (0+) |  |",
+   "| ⁷⁸ᵐY | 0(500)# keV | 0(500)# keV | 0(500)# keV | 5.8(5) s |  |  | 5+# |  |",
+   "| ⁷⁹Y | 39 | 40 | 78.93735(48) | 14.8(6) s | β⁺ (>99.9%) | ⁷⁹Sr | (5/2+)# |  |",
+   "| ⁷⁹Y | 39 | 40 | 78.93735(48) | 14.8(6) s | β⁺, p (<0.1%) | ⁷⁸Rb | (5/2+)# |  |",
+   "| ⁸⁰Y | 39 | 41 | 79.93428(19) | 30.1(5) s | β⁺ | ⁸⁰Sr | 4- |  |",
+   "| ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 228.5(1) keV | 4.8(3) s |  |  | (1-) |  |",
+   "| ⁸⁰ᵐ²Y | 312.6(9) keV | 312.6(9) keV | 312.6(9) keV | 4.7(3) µs |  |  | (2+) |  |",
+   "| ⁸¹Y | 39 | 42 | 80.92913(7) | 70.4(10) s | β⁺ | ⁸¹Sr | (5/2+) |  |",
+   "| ⁸²Y | 39 | 43 | 81.92679(11) | 8.30(20) s | β⁺ | ⁸²Sr | 1+ |  |",
+   "| ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 268(25) ns |  |  | 4- |  |",
+   "| ⁸²ᵐ²Y | 507.50(13) keV | 507.50(13) keV | 507.50(13) keV | 147(7) ns |  |  | 6+ |  |",
+   "| ⁸³Y | 39 | 44 | 82.92235(5) | 7.08(6) min | β⁺ | ⁸³Sr | 9/2+ |  |",
+   "| ⁸³ᵐY | 61.98(11) keV | 61.98(11) keV | 61.98(11) keV | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2-) |  |",
+   "| ⁸³ᵐY | 61.98(11) keV | 61.98(11) keV | 61.98(11) keV | 2.85(2) min | IT (40%) | ⁸³Y | (3/2-) |  |",
+   "| ⁸⁴Y | 39 | 45 | 83.92039(10) | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |",
+   "| ⁸⁴ᵐY | -80(190) keV | -80(190) keV | -80(190) keV | 39.5(8) min | β⁺ | ⁸⁴Sr | (5-) |  |",
+   "| ⁸⁵Y | 39 | 46 | 84.916433(20) | 2.68(5) h | β⁺ | ⁸⁵Sr | (1/2)- |  |",
+   "| ⁸⁵ᵐ¹Y | 19.8(5) keV | 19.8(5) keV | 19.8(5) keV | 4.86(13) h | β⁺ (99.998%) | ⁸⁵Sr | 9/2+ |  |",
+   "| ⁸⁵ᵐ¹Y | 19.8(5) keV | 19.8(5) keV | 19.8(5) keV | 4.86(13) h | IT (0.002%) | ⁸⁵Y | 9/2+ |  |",
+   "| ⁸⁵ᵐ²Y | 266.30(20) keV | 266.30(20) keV | 266.30(20) keV | 178(6) ns |  |  | 5/2- |  |",
+   "| ⁸⁶Y | 39 | 47 | 85.914886(15) | 14.74(2) h | β⁺ | ⁸⁶Sr | 4- |  |",
+   "| ⁸⁶ᵐ¹Y | 218.30(20) keV | 218.30(20) keV | 218.30(20) keV | 48(1) min | IT (99.31%) | ⁸⁶Y | (8+) |  |",
+   "| ⁸⁶ᵐ¹Y | 218.30(20) keV | 218.30(20) keV | 218.30(20) keV | 48(1) min | β⁺ (.69%) | ⁸⁶Sr | (8+) |  |",
+   "| ⁸⁶ᵐ²Y | 302.2(5) keV | 302.2(5) keV | 302.2(5) keV | 125(6) ns |  |  | (7-) |  |",
+   "| ⁸⁷Y | 39 | 48 | 86.9108757(17) | 79.8(3) h | β⁺ | ⁸⁷Sr | 1/2- |  |",
+   "| ⁸⁷ᵐY | 380.82(7) keV | 380.82(7) keV | 380.82(7) keV | 13.37(3) h | IT (98.43%) | ⁸⁷Y | 9/2+ |  |",
+   "| ⁸⁷ᵐY | 380.82(7) keV | 380.82(7) keV | 380.82(7) keV | 13.37(3) h | β⁺ (1.56%) | ⁸⁷Sr | 9/2+ |  |",
+   "| ⁸⁸Y | 39 | 49 | 87.9095011(20) | 106.616(13) d | β⁺ | ⁸⁸Sr | 4- |  |",
+   "| ⁸⁸ᵐ¹Y | 674.55(4) keV | 674.55(4) keV | 674.55(4) keV | 13.9(2) ms | IT | ⁸⁸Y | (8)+ |  |",
+   "| ⁸⁸ᵐ²Y | 392.86(9) keV | 392.86(9) keV | 392.86(9) keV | 300(3) µs |  |  | 1+ |  |",
+   "| ⁸⁹Y | 39 | 50 | 88.9058483(27) | 안정 | 안정 | 안정 | 1/2- | 1.0000 |",
+   "| ⁸⁹ᵐY | 908.97(3) keV | 908.97(3) keV | 908.97(3) keV | 15.663(5) s | IT | ⁸⁹Y | 9/2+ |  |",
+   "| ⁹⁰Y | 39 | 51 | 89.9071519(27) | 64.053(20) h | β⁻ | ⁹⁰Zr | 2- |  |",
+   "| ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 3.19(6) h | IT (99.99%) | ⁹⁰Y | 7+ |  |",
+   "| ⁹⁰ᵐY | 681.67(10) keV | 681.67(10) keV | 681.67(10) keV | 3.19(6) h | β⁻ (.0018%) | ⁹⁰Zr | 7+ |  |",
+   "| ⁹¹Y | 39 | 52 | 90.907305(3) | 58.51(6) d | β⁻ | ⁹¹Zr | 1/2- |  |",
+   "| ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 49.71(4) min | IT (98.5%) | ⁹¹Y | 9/2+ |  |",
+   "| ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 49.71(4) min | β⁻ (1.5%) | ⁹¹Zr | 9/2+ |  |",
+   "| ⁹²Y | 39 | 53 | 91.908949(10) | 3.54(1) h | β⁻ | ⁹²Zr | 2- |  |",
+   "| ⁹³Y | 39 | 54 | 92.909583(11) | 10.18(8) h | β⁻ | ⁹³Zr | 1/2- |  |",
+   "| ⁹³ᵐY | 758.719(21) keV | 758.719(21) keV | 758.719(21) keV | 820(40) ms | IT | ⁹³Y | 7/2+ |  |",
+   "| ⁹⁴Y | 39 | 55 | 93.911595(8) | 18.7(1) min | β⁻ | ⁹⁴Zr | 2- |  |",
+   "| ⁹⁵Y | 39 | 56 | 94.912821(8) | 10.3(1) min | β⁻ | ⁹⁵Zr | 1/2- |  |",
+   "| ⁹⁶Y | 39 | 57 | 95.915891(25) | 5.34(5) s | β⁻ | ⁹⁶Zr | 0- |  |",
+   "| ⁹⁶ᵐY | 1140(30) keV | 1140(30) keV | 1140(30) keV | 9.6(2) s | β⁻ | ⁹⁶Zr | (8)+ |  |",
+   "| ⁹⁷Y | 39 | 58 | 96.918134(13) | 3.75(3) s | β⁻ (99.942%) | ⁹⁷Zr | (1/2-) |  |",
+   "| ⁹⁷Y | 39 | 58 | 96.918134(13) | 3.75(3) s | β⁻, n (.058%) | ⁹⁶Zr | (1/2-) |  |",
+   "| ⁹⁷ᵐ¹Y | 667.51(23) keV | 667.51(23) keV | 667.51(23) keV | 1.17(3) s | β⁻ (99.3%) | ⁹⁷Zr | (9/2)+ |  |",
+   "| ⁹⁷ᵐ¹Y | 667.51(23) keV | 667.51(23) keV | 667.51(23) keV | 1.17(3) s | IT (.7%) | ⁹⁷Y | (9/2)+ |  |",
+   "| ⁹⁷ᵐ¹Y | 667.51(23) keV | 667.51(23) keV | 667.51(23) keV | 1.17(3) s | β⁻, n (.08%) | ⁹⁶Zr | (9/2)+ |  |",
+   "| ⁹⁷ᵐ²Y | 3523.3(4) keV | 3523.3(4) keV | 3523.3(4) keV | 142(8) ms |  |  | (27/2-) |  |",
+   "| ⁹⁸Y | 39 | 59 | 97.922203(26) | 0.548(2) s | β⁻ (99.669%) | ⁹⁸Zr | (0)- |  |",
+   "| ⁹⁸Y | 39 | 59 | 97.922203(26) | 0.548(2) s | β⁻, n (.331%) | ⁹⁷Zr | (0)- |  |",
+   "| ⁹⁸ᵐ¹Y | 170.74(6) keV | 170.74(6) keV | 170.74(6) keV | 620(80) ns |  |  | (2)- |  |",
+   "| ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 2.0(2) s | β⁻ (86.6%) | ⁹⁸Zr | (5+,4-) |  |",
+   "| ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 2.0(2) s | IT (10%) | ⁹⁸Y | (5+,4-) |  |",
+   "| ⁹⁸ᵐ²Y | 410(30) keV | 410(30) keV | 410(30) keV | 2.0(2) s | β⁻, n (3.4%) | ⁹⁷Zr | (5+,4-) |  |",
+   "| ⁹⁸ᵐ³Y | 496.19(15) keV | 496.19(15) keV | 496.19(15) keV | 7.6(4) µs |  |  | (2-) |  |",
+   "| ⁹⁸ᵐ⁴Y | 1181.1(4) keV | 1181.1(4) keV | 1181.1(4) keV | 0.83(10) µs |  |  | (8-) |  |",
+   "| ⁹⁹Y | 39 | 60 | 98.924636(26) | 1.470(7) s | β⁻ (98.1%) | ⁹⁹Zr | (5/2+) |  |",
+   "| ⁹⁹Y | 39 | 60 | 98.924636(26) | 1.470(7) s | β⁻, n (1.9%) | ⁹⁸Zr | (5/2+) |  |",
+   "| ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 8.6(8) µs |  |  | (17/2+) |  |",
+   "| ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 735(7) ms | β⁻ (98.98%) | ¹⁰⁰Zr | 1-,2- |  |",
+   "| ¹⁰⁰Y | 39 | 61 | 99.92776(8) | 735(7) ms | β⁻, n (1.02%) | ⁹⁹Zr | 1-,2- |  |",
+   "| ¹⁰⁰ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 940(30) ms | β⁻ | ¹⁰⁰Zr | (3,4,5)(+#) |  |",
+   "| ¹⁰¹Y | 39 | 62 | 100.93031(10) | 426(20) ms | β⁻ (98.06%) | ¹⁰¹Zr | (5/2+) |  |",
+   "| ¹⁰¹Y | 39 | 62 | 100.93031(10) | 426(20) ms | β⁻, n (1.94%) | ¹⁰⁰Zr | (5/2+) |  |",
+   "| ¹⁰²Y | 39 | 63 | 101.93356(9) | 0.30(1) s | β⁻ (95.1%) | ¹⁰²Zr |  |  |",
+   "| ¹⁰²Y | 39 | 63 | 101.93356(9) | 0.30(1) s | β⁻, n (4.9%) | ¹⁰¹Zr |  |  |",
+   "| ¹⁰²ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 360(40) ms | β⁻ (94%) | ¹⁰²Zr | high |  |",
+   "| ¹⁰²ᵐY | 200(200)# keV | 200(200)# keV | 200(200)# keV | 360(40) ms | β⁻, n (6%) | ¹⁰¹Zr | high |  |",
+   "| ¹⁰³Y | 39 | 64 | 102.93673(32)# | 224(19) ms | β⁻ (91.7%) | ¹⁰³Zr | 5/2+# |  |",
+   "| ¹⁰³Y | 39 | 64 | 102.93673(32)# | 224(19) ms | β⁻, n (8.3%) | ¹⁰²Zr | 5/2+# |  |",
+   "| ¹⁰⁴Y | 39 | 65 | 103.94105(43)# | 180(60) ms | β⁻ | ¹⁰⁴Zr |  |  |",
+   "| ¹⁰⁵Y | 39 | 66 | 104.94487(54)# | 60# ms [>300 ns] | β⁻ | ¹⁰⁵Zr | 5/2+# |  |",
+   "| ¹⁰⁶Y | 39 | 67 | 105.94979(75)# | 50# ms [>300 ns] | β⁻ | ¹⁰⁶Zr |  |  |",
+   "| ¹⁰⁷Y | 39 | 68 | 106.95414(54)# | 30# ms [>300 ns] |  |  | 5/2+# |  |",
+   "| ¹⁰⁸Y | 39 | 69 | 107.95948(86)# | 20# [>300 ns] |  |  |  |  |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 9,
+  "section": "## 표",
+  "section_source": "md",
+  "rows": 83,
+  "cols": 10,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 133,
+   "texts": [
+    "핵자 수",
+    "반감기",
+    "붕괴 방식",
+    "붕괴 생성 동위 원소",
+    "핵 스핀",
+    "자연계에 존재하는 동위 원소 범위 (몰 분율)",
+    "자연계에 존재하는 최대 범위 (몰 분율)",
+    "⁷⁷Y",
+    "39",
+    "38",
+    "76.94965(7)#",
+    "63(17) ms",
+    "5/2+#",
+    "",
+    "",
+    "⁷⁹Y",
+    "39",
+    "40",
+    "78.93735(48)",
+    "14.8(6) s",
+    "(5/2+)#",
+    "",
+    "",
+    "⁸³ᵐY",
+    "61.98(11) keV",
+    "2.85(2) min",
+    "(3/2-)",
+    "",
+    "",
+    "⁸⁵ᵐ¹Y",
+    "19.8(5) keV",
+    "4.86(13) h",
+    "9/2+",
+    "",
+    "",
+    "⁸⁶ᵐ¹Y",
+    "218.30(20) keV",
+    "48(1) min",
+    "(8+)",
+    "",
+    "",
+    "⁸⁷ᵐY",
+    "380.82(7) keV",
+    "13.37(3) h",
+    "9/2+",
+    "",
+    "",
+    "⁹⁰ᵐY",
+    "681.67(10) keV",
+    "3.19(6) h",
+    "7+",
+    "",
+    "",
+    "⁹¹ᵐY",
+    "555.58(5) keV",
+    "49.71(4) min",
+    "9/2+",
+    "",
+    "",
+    "⁹⁷Y",
+    "39",
+    "58",
+    "96.918134(13)",
+    "3.75(3) s",
+    "(1/2-)",
+    "",
+    "",
+    "⁹⁷ᵐ¹Y",
+    "667.51(23) keV",
+    "1.17(3) s",
+    "(9/2)+",
+    "",
+    "",
+    "⁹⁸Y",
+    "39",
+    "59",
+    "97.922203(26)",
+    "0.548(2) s",
+    "(0)-",
+    "",
+    "",
+    "⁹⁸ᵐ²Y",
+    "410(30) keV",
+    "2.0(2) s",
+    "(5+,4-)",
+    "",
+    "",
+    "⁹⁹Y",
+    "39",
+    "60",
+    "98.924636(26)",
+    "1.470(7) s",
+    "(5/2+)",
+    "",
+    "",
+    "¹⁰⁰Y",
+    "39",
+    "61",
+    "99.92776(8)",
+    "735(7) ms",
+    "1-,2-",
+    "",
+    "",
+    "¹⁰¹Y",
+    "39",
+    "62",
+    "100.93031(10)",
+    "426(20) ms",
+    "(5/2+)",
+    "",
+    "",
+    "¹⁰²Y",
+    "39",
+    "63",
+    "101.93356(9)",
+    "0.30(1) s",
+    "",
+    "",
+    "",
+    "¹⁰²ᵐY",
+    "200(200)# keV",
+    "360(40) ms",
+    "high",
+    "",
+    "",
+    "¹⁰³Y",
+    "39",
+    "64",
+    "102.93673(32)#",
+    "224(19) ms",
+    "5/2+#",
+    "",
+    ""
+   ]
+  },
+  "colspan_cells": {
+   "count": 30,
+   "texts": [
+    "들뜬 에너지",
+    "0(500)# keV",
+    "228.5(1) keV",
+    "312.6(9) keV",
+    "402.63(14) keV",
+    "507.50(13) keV",
+    "61.98(11) keV",
+    "-80(190) keV",
+    "19.8(5) keV",
+    "266.30(20) keV",
+    "218.30(20) keV",
+    "302.2(5) keV",
+    "380.82(7) keV",
+    "674.55(4) keV",
+    "392.86(9) keV",
+    "안정",
+    "908.97(3) keV",
+    "681.67(10) keV",
+    "555.58(5) keV",
+    "758.719(21) keV",
+    "1140(30) keV",
+    "667.51(23) keV",
+    "3523.3(4) keV",
+    "170.74(6) keV",
+    "410(30) keV",
+    "496.19(15) keV",
+    "1181.1(4) keV",
+    "2141.65(19) keV",
+    "200(200)# keV",
+    "200(200)# keV"
+   ]
+  },
+  "br_cells": {
+   "count": 7,
+   "examples": [
+    "핵자 ⏎ 수",
+    "동위 원소 질량 (u)",
+    "붕괴 ⏎ 방식"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [
+   {
+    "row": 1,
+    "cells": [
+     [
+      "핵자",
+      "수"
+     ],
+     [
+      "Z(p)"
+     ],
+     [
+      "N(n)"
+     ],
+     [
+      "동위 원소 질량 (u)"
+     ],
+     [
+      "반감기"
+     ],
+     [
+      "붕괴",
+      "방식"
+     ],
+     [
+      "붕괴 생성",
+      "동위 원소"
+     ],
+     [
+      "핵",
+      "스핀"
+     ],
+     [
+      "자연계에 존재하는",
+      "동위 원소",
+      "범위",
+      "(몰 분율)"
+     ],
+     [
+      "자연계에 존재하는",
+      "최대 범위",
+      "(몰 분율)"
+     ]
+    ]
+   }
+  ],
+  "first_cells": [
+   "핵자 수",
+   "들뜬 에너지",
+   "⁷⁶Y",
+   "⁷⁷Y",
+   "β⁺ (<0.1%)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-isotopes-of-yttrium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ⁸⁷Y | synth | 79.8 h | ε | ⁸⁷Sr |",
+   "| ⁸⁸Y | synth | 106.63 d | ε | ⁸⁸Sr |",
+   "| ⁸⁹Y | 100% | stable | stable | stable |",
+   "| ⁹⁰Y | synth | 64.05 h | β⁻ | ⁹⁰Zr |",
+   "| ⁹¹Y | synth | 58.51 d | β⁻ | ⁹¹Zr |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 3,
+  "section": "",
+  "section_source": "md",
+  "rows": 7,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 5,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 3,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "⁸⁷Y",
+   "⁸⁸Y",
+   "⁸⁹Y"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-isotopes-of-yttrium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Nuclide | Z | N | Isotopic mass (Da) | Discovery year | Half-life | Decay mode | Daughter isotope | Spin and parity | Isotopic abundance |",
+   "|---|---|---|---|---|---|---|---|---|---|",
+   "| Nuclide | Excitation energy | Excitation energy | Excitation energy | Discovery year | Half-life | Decay mode | Daughter isotope | Spin and parity | Isotopic abundance |",
+   "| ⁷⁶Y | 39 | 37 | 75.95894(32)# | 2001 | 28(9) ms | β⁺? | ⁷⁶Sr | 1−# |  |",
+   "| ⁷⁶Y | 39 | 37 | 75.95894(32)# | 2001 | 28(9) ms | p? | ⁷⁵Sr | 1−# |  |",
+   "| ⁷⁶Y | 39 | 37 | 75.95894(32)# | 2001 | 28(9) ms | β⁺, p? | ⁷⁵Rb | 1−# |  |",
+   "| ⁷⁷Y | 39 | 38 | 76.95015(22)# | 1999 | 63(17) ms | β⁺ | ⁷⁷Sr | 5/2+# |  |",
+   "| ⁷⁷Y | 39 | 38 | 76.95015(22)# | 1999 | 63(17) ms | p? | ⁷⁶Sr | 5/2+# |  |",
+   "| ⁷⁷Y | 39 | 38 | 76.95015(22)# | 1999 | 63(17) ms | β⁺, p? | ⁷⁶Rb | 5/2+# |  |",
+   "| ⁷⁸Y | 39 | 39 | 77.94399(32)# | 1992 | 54(5) ms | β⁺ | ⁷⁸Sr | (0+) |  |",
+   "| ⁷⁸Y | 39 | 39 | 77.94399(32)# | 1992 | 54(5) ms | β⁺, p? | ⁷⁷Rb | (0+) |  |",
+   "| ⁷⁸ᵐY | ~300 keV | ~300 keV | ~300 keV | 1998 | 5.8(6) s | β⁺ | ⁷⁸Sr | (5+) |  |",
+   "| ⁷⁸ᵐY | ~300 keV | ~300 keV | ~300 keV | 1998 | 5.8(6) s | β⁺, p? | ⁷⁷Rb | (5+) |  |",
+   "| ⁷⁹Y | 39 | 40 | 78.937752(14) | 1992 | 14.8(6) s | β⁺ | ⁷⁹Sr | 5/2+# |  |",
+   "| ⁸⁰Y | 39 | 41 | 79.9343548(67) | 1981 | 30.1(5) s | β⁺ | ⁸⁰Sr | 4− |  |",
+   "| ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | IT (81%) | ⁸⁰Y | 1− |  |",
+   "| ⁸⁰ᵐ¹Y | 228.5(1) keV | 228.5(1) keV | 228.5(1) keV | 1998 | 4.8(3) s | β⁺ (19%) | ⁸⁰Sr | 1− |  |",
+   "| ⁸⁰ᵐ²Y | 312.6(9) keV | 312.6(9) keV | 312.6(9) keV | 1997 | 4.7(3) μs | IT | ⁸⁰Y | (2+) |  |",
+   "| ⁸¹Y | 39 | 42 | 80.9294459(30) | 1981 | 70.4(10) s | β⁺ | ⁸¹Sr | (5/2+) |  |",
+   "| ⁸²Y | 39 | 43 | 81.9269302(59) | 1980 | 8.30(20) s | β⁺ | ⁸²Sr | 1+ |  |",
+   "| ⁸²ᵐ¹Y | 402.63(14) keV | 402.63(14) keV | 402.63(14) keV | 1993 | 258(22) ns | IT | ⁸²Y | 4− |  |",
+   "| ⁸²ᵐ²Y | 507.50(13) keV | 507.50(13) keV | 507.50(13) keV | 1993 | 148(6) ns | IT | ⁸²Y | 6+ |  |",
+   "| ⁸³Y | 39 | 44 | 82.922484(20) | 1962 | 7.08(8) min | β⁺ | ⁸³Sr | (9/2+) |  |",
+   "| ⁸³ᵐY | 62.04(10) keV | 62.04(10) keV | 62.04(10) keV | 1973 | 2.85(2) min | β⁺ (60%) | ⁸³Sr | (3/2−) |  |",
+   "| ⁸³ᵐY | 62.04(10) keV | 62.04(10) keV | 62.04(10) keV | 1973 | 2.85(2) min | IT (40%) | ⁸³Y | (3/2−) |  |",
+   "| ⁸⁴Y | 39 | 45 | 83.9206711(46) | 1962 | 39.5(8) min | β⁺ | ⁸⁴Sr | (6+) |  |",
+   "| ⁸⁴ᵐ¹Y | 67.0(2) keV | 67.0(2) keV | 67.0(2) keV | 1976 | 4.6(2) s | β⁺ | ⁸⁴Sr | 1+ |  |",
+   "| ⁸⁴ᵐ²Y | 210.42(16) keV | 210.42(16) keV | 210.42(16) keV | 2005 | 292(10) ns | IT | ⁸⁴Y | 4− |  |",
+   "| ⁸⁵Y | 39 | 46 | 84.916433(20) | 1952 | 2.68(5) h | β⁺ | ⁸⁵Sr | (1/2)− |  |",
+   "| ⁸⁵ᵐ¹Y | 19.68(17) keV | 19.68(17) keV | 19.68(17) keV | 1963 | 4.86(20) h | β⁺ | ⁸⁵Sr | (9/2)+ |  |",
+   "| ⁸⁵ᵐ¹Y | 19.68(17) keV | 19.68(17) keV | 19.68(17) keV | 1963 | 4.86(20) h | IT? | ⁸⁵Y | (9/2)+ |  |",
+   "| ⁸⁵ᵐ²Y | 266.18(10) keV | 266.18(10) keV | 266.18(10) keV | 1977 | 178(7) ns | IT | ⁸⁵Y | (5/2)− |  |",
+   "| ⁸⁶Y | 39 | 47 | 85.914886(15) | 1951 | 14.74(2) h | β⁺ | ⁸⁶Sr | 4− |  |",
+   "| ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 47.4(4) min | IT (99.31%) | ⁸⁶Y | (8+) |  |",
+   "| ⁸⁶ᵐ¹Y | 218.21(9) keV | 218.21(9) keV | 218.21(9) keV | 1961 | 47.4(4) min | β⁺ (0.69%) | ⁸⁶Sr | (8+) |  |",
+   "| ⁸⁶ᵐ²Y | 302.18(9) keV | 302.18(9) keV | 302.18(9) keV | 2000 | 125.3(55) ns | IT | ⁸⁶Y | 6+ |  |",
+   "| ⁸⁷Y | 39 | 48 | 86.9108761(12) | 1940 | 79.8(3) h | β⁺ | ⁸⁷Sr | 1/2− |  |",
+   "| ⁸⁷ᵐY | 380.82(7) keV | 380.82(7) keV | 380.82(7) keV | 1940 | 13.37(3) h | IT (98.43%) | ⁸⁷Y | 9/2+ |  |",
+   "| ⁸⁷ᵐY | 380.82(7) keV | 380.82(7) keV | 380.82(7) keV | 1940 | 13.37(3) h | β⁺ (1.57%) | ⁸⁷Sr | 9/2+ |  |",
+   "| ⁸⁸Y | 39 | 49 | 87.9095013(16) | 1948 | 106.629(24) d | β⁺ | ⁸⁸Sr | 4− |  |",
+   "| ⁸⁸ᵐ¹Y | 392.86(9) keV | 392.86(9) keV | 392.86(9) keV | 1955 | 301(3) μs | IT | ⁸⁸Y | 1+ |  |",
+   "| ⁸⁸ᵐ²Y | 674.55(4) keV | 674.55(4) keV | 674.55(4) keV | 1962 | 13.98(17) ms | IT | ⁸⁸Y | 8+ |  |",
+   "| ⁸⁹Y | 39 | 50 | 88.90583816(36) | 1923 | Stable | Stable | Stable | 1/2− | 1.0000 |",
+   "| ⁸⁹ᵐY | 908.97(3) keV | 908.97(3) keV | 908.97(3) keV | 1951 | 15.663(5) s | IT | ⁸⁹Y | 9/2+ |  |",
+   "| ⁹⁰Y | 39 | 51 | 89.90714175(38) | 1937 | 64.05(5) h | β⁻ | ⁹⁰Zr | 2− |  |",
+   "| ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 3.226(11) h | IT | ⁹⁰Y | 7+ |  |",
+   "| ⁹⁰ᵐY | 682.01(5) keV | 682.01(5) keV | 682.01(5) keV | 1961 | 3.226(11) h | β⁻ (0.0018%) | ⁹⁰Zr | 7+ |  |",
+   "| ⁹¹Y | 39 | 52 | 90.9072980(20) | 1943 | 58.51(6) d | β⁻ | ⁹¹Zr | 1/2− |  |",
+   "| ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | IT | ⁹¹Y | 9/2+ |  |",
+   "| ⁹¹ᵐY | 555.58(5) keV | 555.58(5) keV | 555.58(5) keV | 1943 | 49.71(4) min | β⁻? | ⁹¹Zr | 9/2+ |  |",
+   "| ⁹²Y | 39 | 53 | 91.9089458(98) | 1940 | 3.54(1) h | β⁻ | ⁹²Zr | 2− |  |",
+   "| ⁹²ᵐY | 807(50)# keV | 807(50)# keV | 807(50)# keV | 2009 | 3.7(5) μs | IT | ⁹²Y | 7+# |  |",
+   "| ⁹³Y | 39 | 54 | 92.909578(11) | 1948 | 10.18(8) h | β⁻ | ⁹³Zr | 1/2− |  |",
+   "| ⁹³ᵐY | 758.719(21) keV | 758.719(21) keV | 758.719(21) keV | 1971 | 820(40) ms | IT | ⁹³Y | 9/2+ |  |",
+   "| ⁹⁴Y | 39 | 55 | 93.9115921(68) | 1948 | 18.7(1) min | β⁻ | ⁹⁴Zr | 2− |  |",
+   "| ⁹⁴ᵐY | 1202.3(10) keV | 1202.3(10) keV | 1202.3(10) keV | 1999 | 1.304(12) μs | IT | ⁹⁴Y | (5+) |  |",
+   "| ⁹⁵Y | 39 | 56 | 94.9128197(73) | 1959 | 10.3(1) min | β⁻ | ⁹⁵Zr | 1/2− |  |",
+   "| ⁹⁵ᵐY | 1087.6(6) keV | 1087.6(6) keV | 1087.6(6) keV | 1982 | 48.6(5) μs | IT | ⁹⁵Y | 9/2+ |  |",
+   "| ⁹⁶Y | 39 | 57 | 95.9159093(65) | 1975 | 5.34(5) s | β⁻ | ⁹⁶Zr | 0− |  |",
+   "| ⁹⁶ᵐ¹Y | 1540(9) keV | 1540(9) keV | 1540(9) keV | 1975 | 9.6(2) s | β⁻ | ⁹⁶Zr | 8+ |  |",
+   "| ⁹⁶ᵐ²Y | 1655.0(11) keV | 1655.0(11) keV | 1655.0(11) keV | 2017 | 181(9) ns | IT | ⁹⁶Y | (6+) |  |",
+   "| ⁹⁷Y | 39 | 58 | 96.9182867(72) | 1970 | 3.75(3) s | β⁻ (99.945%) | ⁹⁷Zr | 1/2− |  |",
+   "| ⁹⁷Y | 39 | 58 | 96.9182867(72) | 1970 | 3.75(3) s | β⁻, n (0.055%) | ⁹⁶Zr | 1/2− |  |",
+   "| ⁹⁷ᵐ¹Y | 667.52(23) keV | 667.52(23) keV | 667.52(23) keV | 1978 | 1.17(3) s | β⁻ (>99.2%) | ⁹⁷Zr | 9/2+ |  |",
+   "| ⁹⁷ᵐ¹Y | 667.52(23) keV | 667.52(23) keV | 667.52(23) keV | 1978 | 1.17(3) s | IT (<0.7%) | ⁹⁷Y | 9/2+ |  |",
+   "| ⁹⁷ᵐ¹Y | 667.52(23) keV | 667.52(23) keV | 667.52(23) keV | 1978 | 1.17(3) s | β⁻, n (0.11%) | ⁹⁶Zr | 9/2+ |  |",
+   "| ⁹⁷ᵐ²Y | 3522.6(4) keV | 3522.6(4) keV | 3522.6(4) keV | 1986 | 142(8) ms | IT (94.8%) | ⁹⁷Y | (27/2−) |  |",
+   "| ⁹⁷ᵐ²Y | 3522.6(4) keV | 3522.6(4) keV | 3522.6(4) keV | 1986 | 142(8) ms | β⁻ (5.2%) | ⁹⁷Zr | (27/2−) |  |",
+   "| ⁹⁸Y | 39 | 59 | 97.9223948(85) | 1970 | 548(2) ms | β⁻ (99.67%) | ⁹⁸Zr | 0− |  |",
+   "| ⁹⁸Y | 39 | 59 | 97.9223948(85) | 1970 | 548(2) ms | β⁻, n (0.33%) | ⁹⁷Zr | 0− |  |",
+   "| ⁹⁸ᵐ¹Y | 170.78(5) keV | 170.78(5) keV | 170.78(5) keV | 2017 | 615(8) ns | IT | ⁹⁸Y | 2− |  |",
+   "| ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻ (96.56%) | ⁹⁸Zr | (6,7)+ |  |",
+   "| ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | β⁻, n (3.44%) | ⁹⁷Zr | (6,7)+ |  |",
+   "| ⁹⁸ᵐ²Y | 465.7(7) keV | 465.7(7) keV | 465.7(7) keV | 1977 | 2.32(8) s | IT? | ⁹⁸Y | (6,7)+ |  |",
+   "| ⁹⁸ᵐ³Y | 496.10(11) keV | 496.10(11) keV | 496.10(11) keV | 2017 | 6.90(54) μs | IT | ⁹⁸Y | (4)− |  |",
+   "| ⁹⁸ᵐ⁴Y | 594(10) keV | 594(10) keV | 594(10) keV | 2017 | 180(7) ns | IT | ⁹⁸Y | (3−,4−) |  |",
+   "| ⁹⁸ᵐ⁵Y | 972.17(20) keV | 972.17(20) keV | 972.17(20) keV | 1970 | 450(150) ns | IT | ⁹⁸Y | (8+) |  |",
+   "| ⁹⁸ᵐ⁶Y | 1181.50(18) keV | 1181.50(18) keV | 1181.50(18) keV | 2017 | 762(14) ns | IT | ⁹⁸Y | (10−) |  |",
+   "| ⁹⁹Y | 39 | 60 | 98.9241608(71) | 1975 | 1.484(7) s | β⁻ (98.23%) | ⁹⁹Zr | 5/2+ |  |",
+   "| ⁹⁹Y | 39 | 60 | 98.9241608(71) | 1975 | 1.484(7) s | β⁻, n (1.77%) | ⁹⁸Zr | 5/2+ |  |",
+   "| ⁹⁹ᵐY | 2141.65(19) keV | 2141.65(19) keV | 2141.65(19) keV | 1985 | 8.2(4) μs | IT | ⁹⁹Y | (17/2+) |  |",
+   "| ¹⁰⁰Y | 39 | 61 | 99.927728(12) | 1977 | 940(30) ms | β⁻ | ¹⁰⁰Zr | 4+ |  |",
+   "| ¹⁰⁰Y | 39 | 61 | 99.927728(12) | 1977 | 940(30) ms | β⁻, n? | ⁹⁹Zr | 4+ |  |",
+   "| ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 727(6) ms | β⁻ (98.92%) | ¹⁰⁰Zr | 1+# |  |",
+   "| ¹⁰⁰ᵐY | 144(16) keV | 144(16) keV | 144(16) keV | 1977 | 727(6) ms | β⁻, n (1.08%) | ⁹⁹Zr | 1+# |  |",
+   "| ¹⁰¹Y | 39 | 62 | 100.9301608(76) | 1983 | 426(20) ms | β⁻ (97.7%) | ¹⁰¹Zr | 5/2+ |  |",
+   "| ¹⁰¹Y | 39 | 62 | 100.9301608(76) | 1983 | 426(20) ms | β⁻, n (2.3%) | ¹⁰⁰Zr | 5/2+ |  |",
+   "| ¹⁰¹ᵐY | 1205.0(10) keV | 1205.0(10) keV | 1205.0(10) keV | 2009 | 870(90) ns | IT | ¹⁰¹Y | 13/2−# |  |",
+   "| ¹⁰²Y | 39 | 63 | 101.9343285(44) | 1983 | 360(40) ms | β⁻ (>97.4%) | ¹⁰²Zr | (5−) |  |",
+   "| ¹⁰²Y | 39 | 63 | 101.9343285(44) | 1983 | 360(40) ms | β⁻, n (<2.6%) | ¹⁰¹Zr | (5−) |  |",
+   "| ¹⁰²ᵐY | 100(100)# keV | 100(100)# keV | 100(100)# keV | 1991 | 300(100) ms | β⁻ (>97.4%) | ¹⁰²Zr | (0−,1−) |  |",
+   "| ¹⁰²ᵐY | 100(100)# keV | 100(100)# keV | 100(100)# keV | 1991 | 300(100) ms | β⁻, n (<2.6%) | ¹⁰¹Zr | (0−,1−) |  |",
+   "| ¹⁰²ᵐY | 100(100)# keV | 100(100)# keV | 100(100)# keV | 1991 | 300(100) ms | IT? | ¹⁰²Y | (0−,1−) |  |",
+   "| ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 239(12) ms | β⁻ (92.0%) | ¹⁰³Zr | 5/2+# |  |",
+   "| ¹⁰³Y | 39 | 64 | 102.937244(12) | 1994 | 239(12) ms | β⁻, n (8.0%) | ¹⁰²Zr | 5/2+# |  |",
+   "| ¹⁰⁴Y | 39 | 65 | 103.94194(22)# | 1994 | 197(4) ms | β⁻ (66%) | ¹⁰⁴Zr | (0+,1+)# |  |",
+   "| ¹⁰⁴Y | 39 | 65 | 103.94194(22)# | 1994 | 197(4) ms | β⁻, n (34%) | ¹⁰³Zr | (0+,1+)# |  |",
+   "| ¹⁰⁴Y | 39 | 65 | 103.94194(22)# | 1994 | 197(4) ms | β⁻, 2n? | ¹⁰²Zr | (0+,1+)# |  |",
+   "| ¹⁰⁵Y | 39 | 66 | 104.94571(43)# | 1994 | 95(9) ms | β⁻ | ¹⁰⁵Zr | 5/2+# |  |",
+   "| ¹⁰⁵Y | 39 | 66 | 104.94571(43)# | 1994 | 95(9) ms | β⁻, n (<82%) | ¹⁰⁴Zr | 5/2+# |  |",
+   "| ¹⁰⁵Y | 39 | 66 | 104.94571(43)# | 1994 | 95(9) ms | β⁻, 2n? | ¹⁰³Zr | 5/2+# |  |",
+   "| ¹⁰⁶Y | 39 | 67 | 105.95084(54)# | 1997 | 75(6) ms | β⁻ | ¹⁰⁶Zr | 2+# |  |",
+   "| ¹⁰⁶Y | 39 | 67 | 105.95084(54)# | 1997 | 75(6) ms | β⁻, n? | ¹⁰⁵Zr | 2+# |  |",
+   "| ¹⁰⁶Y | 39 | 67 | 105.95084(54)# | 1997 | 75(6) ms | β⁻, 2n? | ¹⁰⁴Zr | 2+# |  |",
+   "| ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 33.5(3) ms | β⁻ | ¹⁰⁷Zr | 5/2+# |  |",
+   "| ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 33.5(3) ms | β⁻, n? | ¹⁰⁶Zr | 5/2+# |  |",
+   "| ¹⁰⁷Y | 39 | 68 | 106.95494(54)# | 1997 | 33.5(3) ms | β⁻, 2n? | ¹⁰⁵Zr | 5/2+# |  |",
+   "| ¹⁰⁸Y | 39 | 69 | 107.96052(64)# | 2010 | 30(5) ms | β⁻ | ¹⁰⁸Zr | 6−# |  |",
+   "| ¹⁰⁸Y | 39 | 69 | 107.96052(64)# | 2010 | 30(5) ms | β⁻, n? | ¹⁰⁷Zr | 6−# |  |",
+   "| ¹⁰⁸Y | 39 | 69 | 107.96052(64)# | 2010 | 30(5) ms | β⁻, 2n? | ¹⁰⁶Zr | 6−# |  |",
+   "| ¹⁰⁹Y | 39 | 70 | 108.96513(75)# | 2010 | 25(5) ms | β⁻ | ¹⁰⁹Zr | 5/2+# |  |",
+   "| ¹⁰⁹Y | 39 | 70 | 108.96513(75)# | 2010 | 25(5) ms | β⁻, n? | ¹⁰⁸Zr | 5/2+# |  |",
+   "| ¹⁰⁹Y | 39 | 70 | 108.96513(75)# | 2010 | 25(5) ms | β⁻, 2n? | ¹⁰⁷Zr | 5/2+# |  |",
+   "| ¹¹⁰Y | 39 | 71 |  | 2021 |  |  |  |  |  |",
+   "| ¹¹¹Y | 39 | 72 |  | 2021 |  |  |  |  |  |"
+  ],
+  "md_above": [],
+  "md_below": [
+   "This table header & footer: view"
+  ],
+  "md_line_no": 23,
+  "section": "## List of isotopes",
+  "section_source": "md",
+  "rows": 115,
+  "cols": 20,
+  "class": [
+   "wikitable",
+   "sortable"
+  ],
+  "caption": null,
+  "full_width_rows": [
+   115
+  ],
+  "top_th_rows": 2,
+  "mid_th_rows": [
+   115
+  ],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 213,
+   "texts": [
+    "Nuclide",
+    "Discovery year",
+    "Half-life",
+    "Decay mode",
+    "Daughter isotope",
+    "Spin and parity",
+    "Isotopic abundance",
+    "⁷⁶Y",
+    "39",
+    "37",
+    "75.95894(32)#",
+    "2001",
+    "28(9) ms",
+    "1−#",
+    "",
+    "⁷⁷Y",
+    "39",
+    "38",
+    "76.95015(22)#",
+    "1999",
+    "63(17) ms",
+    "5/2+#",
+    "",
+    "⁷⁸Y",
+    "39",
+    "39",
+    "77.94399(32)#",
+    "1992",
+    "54(5) ms",
+    "(0+)",
+    "",
+    "⁷⁸ᵐY",
+    "~300 keV",
+    "1998",
+    "5.8(6) s",
+    "(5+)",
+    "",
+    "⁸⁰ᵐ¹Y",
+    "228.5(1) keV",
+    "1998",
+    "4.8(3) s",
+    "1−",
+    "",
+    "⁸³ᵐY",
+    "62.04(10) keV",
+    "1973",
+    "2.85(2) min",
+    "(3/2−)",
+    "",
+    "⁸⁵ᵐ¹Y",
+    "19.68(17) keV",
+    "1963",
+    "4.86(20) h",
+    "(9/2)+",
+    "",
+    "⁸⁶ᵐ¹Y",
+    "218.21(9) keV",
+    "1961",
+    "47.4(4) min",
+    "(8+)",
+    "",
+    "⁸⁷ᵐY",
+    "380.82(7) keV",
+    "1940",
+    "13.37(3) h",
+    "9/2+",
+    "",
+    "⁹⁰ᵐY",
+    "682.01(5) keV",
+    "1961",
+    "3.226(11) h",
+    "7+",
+    "",
+    "⁹¹ᵐY",
+    "555.58(5) keV",
+    "1943",
+    "49.71(4) min",
+    "9/2+",
+    "",
+    "⁹⁷Y",
+    "39",
+    "58",
+    "96.9182867(72)",
+    "1970",
+    "3.75(3) s",
+    "1/2−",
+    "",
+    "⁹⁷ᵐ¹Y",
+    "667.52(23) keV",
+    "1978",
+    "1.17(3) s",
+    "9/2+",
+    "",
+    "⁹⁷ᵐ²Y",
+    "3522.6(4) keV",
+    "1986",
+    "142(8) ms",
+    "(27/2−)",
+    "",
+    "⁹⁸Y",
+    "39",
+    "59",
+    "97.9223948(85)",
+    "1970",
+    "548(2) ms",
+    "0−",
+    "",
+    "⁹⁸ᵐ²Y",
+    "465.7(7) keV",
+    "1977",
+    "2.32(8) s",
+    "(6,7)+",
+    "",
+    "⁹⁹Y",
+    "39",
+    "60",
+    "98.9241608(71)",
+    "1975",
+    "1.484(7) s",
+    "5/2+",
+    "",
+    "¹⁰⁰Y",
+    "39",
+    "61",
+    "99.927728(12)",
+    "1977",
+    "940(30) ms",
+    "4+",
+    "",
+    "¹⁰⁰ᵐY",
+    "144(16) keV",
+    "1977",
+    "727(6) ms",
+    "1+#",
+    "",
+    "¹⁰¹Y",
+    "39",
+    "62",
+    "100.9301608(76)",
+    "1983",
+    "426(20) ms",
+    "5/2+",
+    "",
+    "¹⁰²Y",
+    "39",
+    "63",
+    "101.9343285(44)",
+    "1983",
+    "360(40) ms",
+    "(5−)",
+    "",
+    "¹⁰²ᵐY",
+    "100(100)# keV",
+    "1991",
+    "300(100) ms",
+    "(0−,1−)",
+    "",
+    "¹⁰³Y",
+    "39",
+    "64",
+    "102.937244(12)",
+    "1994",
+    "239(12) ms",
+    "5/2+#",
+    "",
+    "¹⁰⁴Y",
+    "39",
+    "65",
+    "103.94194(22)#",
+    "1994",
+    "197(4) ms",
+    "(0+,1+)#",
+    "",
+    "¹⁰⁵Y",
+    "39",
+    "66",
+    "104.94571(43)#",
+    "1994",
+    "95(9) ms",
+    "5/2+#",
+    "",
+    "¹⁰⁶Y",
+    "39",
+    "67",
+    "105.95084(54)#",
+    "1997",
+    "75(6) ms",
+    "2+#",
+    "",
+    "¹⁰⁷Y",
+    "39",
+    "68",
+    "106.95494(54)#",
+    "1997",
+    "33.5(3) ms",
+    "5/2+#",
+    "",
+    "¹⁰⁸Y",
+    "39",
+    "69",
+    "107.96052(64)#",
+    "2010",
+    "30(5) ms",
+    "6−#",
+    "",
+    "¹⁰⁹Y",
+    "39",
+    "70",
+    "108.96513(75)#",
+    "2010",
+    "25(5) ms",
+    "5/2+#",
+    ""
+   ]
+  },
+  "colspan_cells": {
+   "count": 38,
+   "texts": [
+    "Excitation energy",
+    "~300 keV",
+    "228.5(1) keV",
+    "312.6(9) keV",
+    "402.63(14) keV",
+    "507.50(13) keV",
+    "62.04(10) keV",
+    "67.0(2) keV",
+    "210.42(16) keV",
+    "19.68(17) keV",
+    "266.18(10) keV",
+    "218.21(9) keV",
+    "302.18(9) keV",
+    "380.82(7) keV",
+    "392.86(9) keV",
+    "674.55(4) keV",
+    "Stable",
+    "908.97(3) keV",
+    "682.01(5) keV",
+    "555.58(5) keV",
+    "807(50)# keV",
+    "758.719(21) keV",
+    "1202.3(10) keV",
+    "1087.6(6) keV",
+    "1540(9) keV",
+    "1655.0(11) keV",
+    "667.52(23) keV",
+    "3522.6(4) keV",
+    "170.78(5) keV",
+    "465.7(7) keV",
+    "496.10(11) keV",
+    "594(10) keV",
+    "972.17(20) keV",
+    "1181.50(18) keV",
+    "2141.65(19) keV",
+    "144(16) keV",
+    "1205.0(10) keV",
+    "100(100)# keV"
+   ]
+  },
+  "br_cells": {
+   "count": 8,
+   "examples": [
+    "Nuclide",
+    "Isotopic mass (Da)",
+    "Discovery ⏎ year"
+   ]
+  },
+  "list_cells": {
+   "count": 1,
+   "examples": [
+    "This table header & footer: view"
+   ]
+  },
+  "nested": false,
+  "pair_rows": [
+   {
+    "row": 1,
+    "cells": [
+     [
+      "Nuclide"
+     ],
+     [
+      "Z"
+     ],
+     [
+      "N"
+     ],
+     [
+      "Isotopic mass (Da)"
+     ],
+     [
+      "Discovery",
+      "year"
+     ],
+     [
+      "Half-life"
+     ],
+     [
+      "Decay",
+      "mode"
+     ],
+     [
+      "Daughter",
+      "isotope"
+     ],
+     [
+      "Spin and",
+      "parity"
+     ],
+     [
+      "Isotopic",
+      "abundance"
+     ]
+    ]
+   }
+  ],
+  "first_cells": [
+   "Nuclide",
+   "Excitation energy",
+   "⁷⁶Y",
+   "p?",
+   "β⁺, p?"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-erbium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 1504 | 1663 | (1885) | (2163) | (2552) | (3132) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-erbium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |",
+   "| ¹⁶²Er | 0.14% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁴Er | 1.61% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁵Er | 인공 | 10.36 h | ε | 0.376 | ¹⁶⁵Ho |",
+   "| ¹⁶⁶Er | 33.6% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁷Er | 22.95% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁸Er | 26.8% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁶⁹Er | 인공 | 9.4 d | β⁻ | 0.351 | ¹⁶⁹Tm |",
+   "| ¹⁷⁰Er | 14.9% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁷¹Er | 인공 | 7.516 h | β⁻ | 1.490 | ¹⁷¹Tm |",
+   "| ¹⁷²Er | 인공 | 49.3 h | β⁻ | 0.891 | ¹⁷²Tm |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 55,
+  "section": "",
+  "section_source": "md",
+  "rows": 12,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 6,
+   "texts": [
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정",
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 1,
+   "examples": [
+    "DE ⏎ (MeV)"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "¹⁶⁰Er",
+   "¹⁶²Er",
+   "¹⁶⁴Er",
+   "¹⁶⁵Er"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-erbium",
+  "n": 3,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 이 글은 화학에 관한 토막글입니다. 여러분의 지식으로 알차게 문서를 완성해 갑시다. |",
+   "|---|"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": null,
+  "section": "## 외부 링크",
+  "section_source": "html",
+  "rows": 1,
+  "cols": 2,
+  "class": [
+   "notice",
+   "metadata",
+   "plainlinks",
+   "stub"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 0,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   ""
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-samarium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 1001 | 1106 | 1240 | (1421) | (1675) | (2061) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-samarium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ¹⁴⁴Sm | 3.07% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁴⁶Sm | 인공 | 1.03×10⁸y | α | 2.529 | ¹⁴²Nd |",
+   "| ¹⁴⁷Sm | 14.99% | 1.06×10¹¹y | α | 2.310 | ¹⁴³Nd |",
+   "| ¹⁴⁸Sm | 11.24% | 7×10¹⁵y | α | 1.986 | ¹⁴⁴Nd |",
+   "| ¹⁴⁹Sm | 13.82% | >2×10¹⁵ y | α | 1.870 | ¹⁴⁵Nd |",
+   "| ¹⁵⁰Sm | 7.38% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁵²Sm | 26.75% | 안정 | 안정 | 안정 | 안정 |",
+   "| ¹⁵⁴Sm | 22.75% | 안정 | 안정 | 안정 | 안정 |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 56,
+  "section": "",
+  "section_source": "md",
+  "rows": 9,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 4,
+   "texts": [
+    "안정",
+    "안정",
+    "안정",
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 1,
+   "examples": [
+    "DE ⏎ (MeV)"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "¹⁴⁴Sm",
+   "¹⁴⁶Sm",
+   "¹⁴⁷Sm",
+   "¹⁴⁸Sm"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-yttrium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 압력 (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| 온도 (K) | 1883 | 2075 | (2320) | (2627) | (3036) | (3607) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 26,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "압력 (Pa)",
+   "온도 (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-yttrium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |",
+   "|---|---|---|---|---|---|",
+   "| ⁸⁷Y | 합성 | 3.35d | ε | - | ⁸⁷Sr |",
+   "| ⁸⁷Y | 합성 | 3.35d | γ | 0.48 0.38D | - |",
+   "| ⁸⁸Y | 합성 | 106.6d | ε | - | ⁸⁸Sr |",
+   "| ⁸⁸Y | 합성 | 106.6d | γ | 1.83 0.89 | - |",
+   "| ⁸⁹Y | 100% | 안정 | 안정 | 안정 | 안정 |",
+   "| ⁹⁰Y | 합성 | 2.67d | β- | 2.28 | ⁹⁰Zr |",
+   "| ⁹⁰Y | 합성 | 2.67d | γ | 2.18 | - |",
+   "| ⁹¹Y | 합성 | 58.5d | β- | 1.54 | ⁹¹Zr |",
+   "| ⁹¹Y | 합성 | 58.5d | γ | 1.20 | - |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 55,
+  "section": "",
+  "section_source": "md",
+  "rows": 10,
+  "cols": 6,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 12,
+   "texts": [
+    "⁸⁷Y",
+    "합성",
+    "3.35d",
+    "⁸⁸Y",
+    "합성",
+    "106.6d",
+    "⁹⁰Y",
+    "합성",
+    "2.67d",
+    "⁹¹Y",
+    "합성",
+    "58.5d"
+   ]
+  },
+  "colspan_cells": {
+   "count": 1,
+   "texts": [
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 3,
+   "examples": [
+    "DE ⏎ (MeV)",
+    "0.48 ⏎ 0.38D",
+    "1.83 ⏎ 0.89"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "동위체",
+   "⁸⁷Y",
+   "γ",
+   "⁸⁸Y",
+   "γ"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-isotopes-of-terbium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 핵자 수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) |",
+   "|---|---|---|---|---|---|---|---|---|",
+   "| 핵자 수 | 들뜬 에너지 | 들뜬 에너지 | 들뜬 에너지 | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) |",
+   "| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |",
+   "| ¹³⁶Tb | 65 | 71 | 135.96138(64)# | 0.2# s |  |  |  |  |",
+   "| ¹³⁷Tb | 65 | 72 | 136.95598(64)# | 600# ms |  |  | 11/2-# |  |",
+   "| ¹³⁸Tb | 65 | 73 | 137.95316(43)# | 800# ms [>200 ns] | β⁺ | ¹³⁸Gd |  |  |",
+   "| ¹³⁸Tb | 65 | 73 | 137.95316(43)# | 800# ms [>200 ns] | p | ¹³⁷Gd |  |  |",
+   "| ¹³⁹Tb | 65 | 74 | 138.94829(32)# | 1.6(2) s | β⁺ | ¹³⁹Gd | 11/2-# |  |",
+   "| ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 2.4(2) s | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |",
+   "| ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 2.4(2) s | β⁺, p (0.26%) | ¹³⁹Eu | 5 |  |",
+   "| ¹⁴¹Tb | 65 | 76 | 140.94145(11) | 3.5(2) s | β⁺ | ¹⁴¹Gd | (5/2-) |  |",
+   "| ¹⁴¹ᵐTb | 0(200)# keV | 0(200)# keV | 0(200)# keV | 7.9(6) s | β⁺ | ¹⁴¹Gd | 11/2-# |  |",
+   "| ¹⁴²Tb | 65 | 77 | 141.93874(32)# | 597(17) ms | β⁺ | ¹⁴²Gd | 1+ |  |",
+   "| ¹⁴²Tb | 65 | 77 | 141.93874(32)# | 597(17) ms | β⁺, p | ¹⁴¹Eu | 1+ |  |",
+   "| ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |",
+   "| ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |",
+   "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |",
+   "| ¹⁴³Tb | 65 | 78 | 142.93512(6) | 12(1) s | β⁺ | ¹⁴³Gd | (11/2-) |  |",
+   "| ¹⁴³ᵐTb | 0(100)# keV | 0(100)# keV | 0(100)# keV | <21 s | β⁺ | ¹⁴³Gd | 5/2+# |  |",
+   "| ¹⁴⁴Tb | 65 | 79 | 143.93305(3) | ~1 s | β⁺ | ¹⁴⁴Gd | 1+ |  |",
+   "| ¹⁴⁴Tb | 65 | 79 | 143.93305(3) | ~1 s | β⁺, p (드묾) | ¹⁴³Eu | 1+ |  |",
+   "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | IT (66%) | ¹⁴⁴Tb | (6-) |  |",
+   "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |",
+   "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |",
+   "| ¹⁴⁴ᵐ²Tb | 476.2(5) keV | 476.2(5) keV | 476.2(5) keV | 2.8(3) µs |  |  | (8-) |  |",
+   "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |",
+   "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |",
+   "| ¹⁴⁵Tb | 65 | 80 | 144.92927(6) | 20# min | β⁺ | ¹⁴⁵Gd | (3/2+) |  |",
+   "| ¹⁴⁵ᵐTb | 0(100)# keV | 0(100)# keV | 0(100)# keV | 30.9(7) s | β⁺ | ¹⁴⁵Gd | (11/2-) |  |",
+   "| ¹⁴⁶Tb | 65 | 81 | 145.92725(5) | 8(4) s | β⁺ | ¹⁴⁶Gd | 1+ |  |",
+   "| ¹⁴⁶ᵐ¹Tb | 150(100)# keV | 150(100)# keV | 150(100)# keV | 24.1(5) s | β⁺ | ¹⁴⁶Gd | 5- |  |",
+   "| ¹⁴⁶ᵐ²Tb | 930(100)# keV | 930(100)# keV | 930(100)# keV | 1.18(2) ms |  |  | (10+) |  |",
+   "| ¹⁴⁷Tb | 65 | 82 | 146.924045(13) | 1.64(3) h | β⁺ | ¹⁴⁷Gd | 1/2+# |  |",
+   "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |",
+   "| ¹⁴⁸Tb | 65 | 83 | 147.924272(15) | 60(1) min | β⁺ | ¹⁴⁸Gd | 2- |  |",
+   "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |",
+   "| ¹⁴⁸ᵐ²Tb | 8618.6(10) keV | 8618.6(10) keV | 8618.6(10) keV | 1.310(7) µs |  |  | (27+) |  |",
+   "| ¹⁴⁹Tb | 65 | 84 | 148.923246(5) | 4.118(25) h | β⁺ (83.3%) | ¹⁴⁹Gd | 1/2+ |  |",
+   "| ¹⁴⁹Tb | 65 | 84 | 148.923246(5) | 4.118(25) h | α (16.7%) | ¹⁴⁵Eu | 1/2+ |  |",
+   "| ¹⁴⁹ᵐTb | 35.78(13) keV | 35.78(13) keV | 35.78(13) keV | 4.16(4) min | β⁺ (99.97%) | ¹⁴⁹Gd | 11/2- |  |",
+   "| ¹⁴⁹ᵐTb | 35.78(13) keV | 35.78(13) keV | 35.78(13) keV | 4.16(4) min | α (0.022%) | ¹⁴⁵Eu | 11/2- |  |",
+   "| ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 3.48(16) h | β⁺ (99.95%) | ¹⁵⁰Gd | (2-) |  |",
+   "| ¹⁵⁰Tb | 65 | 85 | 149.923660(8) | 3.48(16) h | α (0.05%) | ¹⁴⁶Eu | (2-) |  |",
+   "| ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 457(29) keV | 5.8(2) min | β⁺ | ¹⁵⁰Gd | 9+ |  |",
+   "| ¹⁵⁰ᵐTb | 457(29) keV | 457(29) keV | 457(29) keV | 5.8(2) min | IT (드묾) | ¹⁵⁰Tb | 9+ |  |",
+   "| ¹⁵¹Tb | 65 | 86 | 150.923103(5) | 17.609(1) h | β⁺ (99.99%) | ¹⁵¹Gd | 1/2(+) |  |",
+   "| ¹⁵¹Tb | 65 | 86 | 150.923103(5) | 17.609(1) h | α (0.0095%) | ¹⁴⁷Eu | 1/2(+) |  |",
+   "| ¹⁵¹ᵐTb | 99.54(6) keV | 99.54(6) keV | 99.54(6) keV | 25(3) s | IT (93.8%) | ¹⁵¹Tb | (11/2-) |  |",
+   "| ¹⁵¹ᵐTb | 99.54(6) keV | 99.54(6) keV | 99.54(6) keV | 25(3) s | β⁺ (6.2%) | ¹⁵¹Gd | (11/2-) |  |",
+   "| ¹⁵²Tb | 65 | 87 | 151.92407(4) | 17.5(1) h | β⁺ | ¹⁵²Gd | 2- |  |",
+   "| ¹⁵²Tb | 65 | 87 | 151.92407(4) | 17.5(1) h | α (7×10⁻⁷%) | ¹⁴⁸Eu | 2- |  |",
+   "| ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 342.15(16) keV | 0.96 µs |  |  | 5- |  |",
+   "| ¹⁵²ᵐ²Tb | 501.74(19) keV | 501.74(19) keV | 501.74(19) keV | 4.2(1) min | IT (78.8%) | ¹⁵²Tb | 8+ |  |",
+   "| ¹⁵²ᵐ²Tb | 501.74(19) keV | 501.74(19) keV | 501.74(19) keV | 4.2(1) min | β⁺ (21.2%) | ¹⁵²Gd | 8+ |  |",
+   "| ¹⁵³Tb | 65 | 88 | 152.923435(5) | 2.34(1) d | β⁺ | ¹⁵³Gd | 5/2+ |  |",
+   "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |",
+   "| ¹⁵⁴Tb | 65 | 89 | 153.92468(5) | 21.5(4) h | β⁺ (99.9%) | ¹⁵⁴Gd | 0(+#) |  |",
+   "| ¹⁵⁴Tb | 65 | 89 | 153.92468(5) | 21.5(4) h | β⁻ (0.1%) | ¹⁵⁴Dy | 0(+#) |  |",
+   "| ¹⁵⁴ᵐ¹Tb | 12(7) keV | 12(7) keV | 12(7) keV | 9.4(4) h | β⁺ (78.2%) | ¹⁵⁴Gd | 3- |  |",
+   "| ¹⁵⁴ᵐ¹Tb | 12(7) keV | 12(7) keV | 12(7) keV | 9.4(4) h | IT (21.8%) | ¹⁵⁴Tb | 3- |  |",
+   "| ¹⁵⁴ᵐ¹Tb | 12(7) keV | 12(7) keV | 12(7) keV | 9.4(4) h | β⁻ (0.1%) | ¹⁵⁴Dy | 3- |  |",
+   "| ¹⁵⁴ᵐ²Tb | 200(150)# keV | 200(150)# keV | 200(150)# keV | 22.7(5) h |  |  | 7- |  |",
+   "| ¹⁵⁴ᵐ³Tb | 0+Z keV | 0+Z keV | 0+Z keV | 513(42) ns |  |  |  |  |",
+   "| ¹⁵⁵Tb | 65 | 90 | 154.923505(13) | 5.32(6) d | ε | ¹⁵⁵Gd | 3/2+ |  |",
+   "| ¹⁵⁶Tb | 65 | 91 | 155.924747(5) | 5.35(10) d | β⁺ | ¹⁵⁶Gd | 3- |  |",
+   "| ¹⁵⁶Tb | 65 | 91 | 155.924747(5) | 5.35(10) d | β⁻ (드묾) | ¹⁵⁶Dy | 3- |  |",
+   "| ¹⁵⁶ᵐ¹Tb | 54(3) keV | 54(3) keV | 54(3) keV | 24.4(10) h | IT | ¹⁵⁶Tb | (7-) |  |",
+   "| ¹⁵⁶ᵐ²Tb | 88.4(2) keV | 88.4(2) keV | 88.4(2) keV | 5.3(2) h |  |  | (0+) |  |",
+   "| ¹⁵⁷Tb | 65 | 92 | 156.9240246(27) | 71(7) a | ε | ¹⁵⁷Gd | 3/2+ |  |",
+   "| ¹⁵⁸Tb | 65 | 93 | 157.9254131(28) | 180(11) a | β⁺ (83.4%) | ¹⁵⁸Gd | 3- |  |",
+   "| ¹⁵⁸Tb | 65 | 93 | 157.9254131(28) | 180(11) a | β⁻ (16.6%) | ¹⁵⁸Dy | 3- |  |",
+   "| ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 10.70(17) s | IT (99.39%) | ¹⁵⁸Tb | 0- |  |",
+   "| ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 10.70(17) s | β⁻ (0.6%) | ¹⁵⁸Dy | 0- |  |",
+   "| ¹⁵⁸ᵐ¹Tb | 110.3(12) keV | 110.3(12) keV | 110.3(12) keV | 10.70(17) s | β⁺ (0.01%) | ¹⁵⁸Gd | 0- |  |",
+   "| ¹⁵⁸ᵐ²Tb | 388.37(15) keV | 388.37(15) keV | 388.37(15) keV | 0.40(4) ms |  |  | 7- |  |",
+   "| ¹⁵⁹Tb | 65 | 94 | 158.9253468(27) | 안정 | 안정 | 안정 | 3/2+ | 1.0000 |",
+   "| ¹⁶⁰Tb | 65 | 95 | 159.9271676(27) | 72.3(2) d | β⁻ | ¹⁶⁰Dy | 3- |  |",
+   "| ¹⁶¹Tb | 65 | 96 | 160.9275699(28) | 6.906(19) d | β⁻ | ¹⁶¹Dy | 3/2+ |  |",
+   "| ¹⁶²Tb | 65 | 97 | 161.92949(4) | 7.60(15) min | β⁻ | ¹⁶²Dy | 1- |  |",
+   "| ¹⁶³Tb | 65 | 98 | 162.930648(5) | 19.5(3) min | β⁻ | ¹⁶³Dy | 3/2+ |  |",
+   "| ¹⁶⁴Tb | 65 | 99 | 163.93335(11) | 3.0(1) min | β⁻ | ¹⁶⁴Dy | (5+) |  |",
+   "| ¹⁶⁵Tb | 65 | 100 | 164.93488(21)# | 2.11(10) min | β⁻ | ¹⁶⁵ᵐDy | 3/2+# |  |",
+   "| ¹⁶⁶Tb | 65 | 101 | 165.93799(11) | 25.6(22) s | β⁻ | ¹⁶⁶Dy |  |  |",
+   "| ¹⁶⁷Tb | 65 | 102 | 166.94005(43)# | 19.4(27) s | β⁻ | ¹⁶⁷Dy | 3/2+# |  |",
+   "| ¹⁶⁸Tb | 65 | 103 | 167.94364(54)# | 8.2(13) s | β⁻ | ¹⁶⁸Dy | 4-# |  |",
+   "| ¹⁶⁹Tb | 65 | 104 | 168.94622(64)# | 2# s | β⁻ | ¹⁶⁹Dy | 3/2+# |  |",
+   "| ¹⁷⁰Tb | 65 | 105 | 169.95025(75)# | 3# s | β⁻ | ¹⁷⁰Dy |  |  |",
+   "| ¹⁷¹Tb | 65 | 106 | 170.95330(86)# | 500# ms | β⁻ | ¹⁷¹Dy | 3/2+# |  |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 9,
+  "section": "## 표",
+  "section_source": "md",
+  "rows": 88,
+  "cols": 10,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 143,
+   "texts": [
+    "핵자 수",
+    "반감기",
+    "붕괴 방식",
+    "붕괴 생성 동위 원소",
+    "핵 스핀",
+    "자연계에 존재하는 동위 원소 범위 (몰 분율)",
+    "자연계에 존재하는 최대 범위 (몰 분율)",
+    "¹³⁸Tb",
+    "65",
+    "73",
+    "137.95316(43)#",
+    "800# ms [>200 ns]",
+    "",
+    "",
+    "",
+    "¹⁴⁰Tb",
+    "65",
+    "75",
+    "139.94581(86)",
+    "2.4(2) s",
+    "5",
+    "",
+    "",
+    "¹⁴²Tb",
+    "65",
+    "77",
+    "141.93874(32)#",
+    "597(17) ms",
+    "1+",
+    "",
+    "",
+    "¹⁴²ᵐ¹Tb",
+    "280.2(10) keV",
+    "303(17) ms",
+    "(5-)",
+    "",
+    "",
+    "¹⁴⁴Tb",
+    "65",
+    "79",
+    "143.93305(3)",
+    "~1 s",
+    "1+",
+    "",
+    "",
+    "¹⁴⁴ᵐ¹Tb",
+    "396.9(5) keV",
+    "4.25(15) s",
+    "(6-)",
+    "",
+    "",
+    "¹⁴⁹Tb",
+    "65",
+    "84",
+    "148.923246(5)",
+    "4.118(25) h",
+    "1/2+",
+    "",
+    "",
+    "¹⁴⁹ᵐTb",
+    "35.78(13) keV",
+    "4.16(4) min",
+    "11/2-",
+    "",
+    "",
+    "¹⁵⁰Tb",
+    "65",
+    "85",
+    "149.923660(8)",
+    "3.48(16) h",
+    "(2-)",
+    "",
+    "",
+    "¹⁵⁰ᵐTb",
+    "457(29) keV",
+    "5.8(2) min",
+    "9+",
+    "",
+    "",
+    "¹⁵¹Tb",
+    "65",
+    "86",
+    "150.923103(5)",
+    "17.609(1) h",
+    "1/2(+)",
+    "",
+    "",
+    "¹⁵¹ᵐTb",
+    "99.54(6) keV",
+    "25(3) s",
+    "(11/2-)",
+    "",
+    "",
+    "¹⁵²Tb",
+    "65",
+    "87",
+    "151.92407(4)",
+    "17.5(1) h",
+    "2-",
+    "",
+    "",
+    "¹⁵²ᵐ²Tb",
+    "501.74(19) keV",
+    "4.2(1) min",
+    "8+",
+    "",
+    "",
+    "¹⁵⁴Tb",
+    "65",
+    "89",
+    "153.92468(5)",
+    "21.5(4) h",
+    "0(+#)",
+    "",
+    "",
+    "¹⁵⁴ᵐ¹Tb",
+    "12(7) keV",
+    "9.4(4) h",
+    "3-",
+    "",
+    "",
+    "¹⁵⁶Tb",
+    "65",
+    "91",
+    "155.924747(5)",
+    "5.35(10) d",
+    "3-",
+    "",
+    "",
+    "¹⁵⁸Tb",
+    "65",
+    "93",
+    "157.9254131(28)",
+    "180(11) a",
+    "3-",
+    "",
+    "",
+    "¹⁵⁸ᵐ¹Tb",
+    "110.3(12) keV",
+    "10.70(17) s",
+    "0-",
+    "",
+    ""
+   ]
+  },
+  "colspan_cells": {
+   "count": 29,
+   "texts": [
+    "들뜬 에너지",
+    "0(200)# keV",
+    "280.2(10) keV",
+    "621.4(11) keV",
+    "0(100)# keV",
+    "396.9(5) keV",
+    "476.2(5) keV",
+    "517.1(5) keV",
+    "544.5(6) keV",
+    "0(100)# keV",
+    "150(100)# keV",
+    "930(100)# keV",
+    "50.6(9) keV",
+    "90.1(3) keV",
+    "8618.6(10) keV",
+    "35.78(13) keV",
+    "457(29) keV",
+    "99.54(6) keV",
+    "342.15(16) keV",
+    "501.74(19) keV",
+    "163.175(5) keV",
+    "12(7) keV",
+    "200(150)# keV",
+    "0+Z keV",
+    "54(3) keV",
+    "88.4(2) keV",
+    "110.3(12) keV",
+    "388.37(15) keV",
+    "안정"
+   ]
+  },
+  "br_cells": {
+   "count": 7,
+   "examples": [
+    "핵자 ⏎ 수",
+    "동위 원소 질량 (u)",
+    "붕괴 ⏎ 방식"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [
+   {
+    "row": 1,
+    "cells": [
+     [
+      "핵자",
+      "수"
+     ],
+     [
+      "Z(p)"
+     ],
+     [
+      "N(n)"
+     ],
+     [
+      "동위 원소 질량 (u)"
+     ],
+     [
+      "반감기"
+     ],
+     [
+      "붕괴",
+      "방식"
+     ],
+     [
+      "붕괴 생성",
+      "동위 원소"
+     ],
+     [
+      "핵",
+      "스핀"
+     ],
+     [
+      "자연계에 존재하는",
+      "동위 원소",
+      "범위",
+      "(몰 분율)"
+     ],
+     [
+      "자연계에 존재하는",
+      "최대 범위",
+      "(몰 분율)"
+     ]
+    ]
+   }
+  ],
+  "first_cells": [
+   "핵자 수",
+   "들뜬 에너지",
+   "¹³⁵Tb",
+   "¹³⁶Tb",
+   "¹³⁷Tb"
+  ]
+ },
+ {
+  "doc_id": "wiki-ko-isotopes-of-neodymium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| 핵자 수 | Z(p) | N(n) | 동위 원소 질량 (u) | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |",
+   "|---|---|---|---|---|---|---|---|---|---|",
+   "| 핵자 수 | 들뜬 에너지 | 들뜬 에너지 | 들뜬 에너지 | 반감기 | 붕괴 방식 | 붕괴 생성 동위 원소 | 핵 스핀 | 자연계에 존재하는 동위 원소 범위 (몰 분율) | 자연계에 존재하는 최대 범위 (몰 분율) |",
+   "| ¹²⁴Nd | 60 | 64 | 123.95223(64)# | 500# ms |  |  | 0+ |  |  |",
+   "| ¹²⁵Nd | 60 | 65 | 124.94888(43)# | 600(150) ms |  |  | 5/2(+#) |  |  |",
+   "| ¹²⁶Nd | 60 | 66 | 125.94322(43)# | 1# s [>200 ns] | β⁺ | ¹²⁶Pr | 0+ |  |  |",
+   "| ¹²⁷Nd | 60 | 67 | 126.94050(43)# | 1.8(4) s | β⁺ | ¹²⁷Pr | 5/2+# |  |  |",
+   "| ¹²⁷Nd | 60 | 67 | 126.94050(43)# | 1.8(4) s | β⁺, p (드묾) | ¹²⁶Ce | 5/2+# |  |  |",
+   "| ¹²⁸Nd | 60 | 68 | 127.93539(21)# | 5# s | β⁺ | ¹²⁸Pr | 0+ |  |  |",
+   "| ¹²⁸Nd | 60 | 68 | 127.93539(21)# | 5# s | β⁺, p (드묾) | ¹²⁷Ce | 0+ |  |  |",
+   "| ¹²⁹Nd | 60 | 69 | 128.93319(22)# | 4.9(2) s | β⁺ | ¹²⁹Pr | 5/2+# |  |  |",
+   "| ¹²⁹Nd | 60 | 69 | 128.93319(22)# | 4.9(2) s | β⁺, p (드묾) | ¹²⁸Ce | 5/2+# |  |  |",
+   "| ¹³⁰Nd | 60 | 70 | 129.92851(3) | 21(3) s | β⁺ | ¹³⁰Pr | 0+ |  |  |",
+   "| ¹³¹Nd | 60 | 71 | 130.92725(3) | 33(3) s | β⁺ | ¹³¹Pr | (5/2)(+#) |  |  |",
+   "| ¹³¹Nd | 60 | 71 | 130.92725(3) | 33(3) s | β⁺, p (드묾) | ¹³⁰Ce | (5/2)(+#) |  |  |",
+   "| ¹³²Nd | 60 | 72 | 131.923321(26) | 1.56(10) min | β⁺ | ¹³²Pr | 0+ |  |  |",
+   "| ¹³³Nd | 60 | 73 | 132.92235(5) | 70(10) s | β⁺ | ¹³³Pr | (7/2+) |  |  |",
+   "| ¹³³ᵐ¹Nd | 127.97(11) keV | 127.97(11) keV | 127.97(11) keV | ~70 s | β⁺ | ¹³³Pr | (1/2)+ |  |  |",
+   "| ¹³³ᵐ²Nd | 176.10(10) keV | 176.10(10) keV | 176.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |",
+   "| ¹³⁴Nd | 60 | 74 | 133.918790(13) | 8.5(15) min | β⁺ | ¹³⁴Pr | 0+ |  |  |",
+   "| ¹³⁴ᵐNd | 2293.1(4) keV | 2293.1(4) keV | 2293.1(4) keV | 410(30) µs |  |  | (8)- |  |  |",
+   "| ¹³⁵Nd | 60 | 75 | 134.918181(21) | 12.4(6) min | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |",
+   "| ¹³⁵ᵐNd | 65.0(2) keV | 65.0(2) keV | 65.0(2) keV | 5.5(5) min | β⁺ | ¹³⁵Pr | (1/2+) |  |  |",
+   "| ¹³⁶Nd | 60 | 76 | 135.914976(13) | 50.65(33) min | β⁺ | ¹³⁶Pr | 0+ |  |  |",
+   "| ¹³⁷Nd | 60 | 77 | 136.914567(12) | 38.5(15) min | β⁺ | ¹³⁷Pr | 1/2+ |  |  |",
+   "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+   "| ¹³⁸Nd | 60 | 78 | 137.911950(13) | 5.04(9) h | β⁺ | ¹³⁸Pr | 0+ |  |  |",
+   "| ¹³⁸ᵐNd | 3174.9(4) keV | 3174.9(4) keV | 3174.9(4) keV | 410(50) ns |  |  | (10+) |  |  |",
+   "| ¹³⁹Nd | 60 | 79 | 138.911978(28) | 29.7(5) min | β⁺ | ¹³⁹Pr | 3/2+ |  |  |",
+   "| ¹³⁹ᵐ¹Nd | 231.15(5) keV | 231.15(5) keV | 231.15(5) keV | 5.50(20) h | β⁺ (88.2%) | ¹³⁹Pr | 11/2- |  |  |",
+   "| ¹³⁹ᵐ¹Nd | 231.15(5) keV | 231.15(5) keV | 231.15(5) keV | 5.50(20) h | IT (11.8%) | ¹³⁹Nd | 11/2- |  |  |",
+   "| ¹³⁹ᵐ²Nd | 2570.9+X keV | 2570.9+X keV | 2570.9+X keV | 276.8(18) ns |  |  |  |  |  |",
+   "| ¹⁴⁰Nd | 60 | 80 | 139.90955(3) | 3.37(2) d | ε | ¹⁴⁰Pr | 0+ |  |  |",
+   "| ¹⁴⁰ᵐNd | 2221.4(1) keV | 2221.4(1) keV | 2221.4(1) keV | 600(50) µs |  |  | 7- |  |  |",
+   "| ¹⁴¹Nd | 60 | 81 | 140.909610(4) | 2.49(3) h | β⁺ | ¹⁴¹Pr | 3/2+ |  |  |",
+   "| ¹⁴¹ᵐNd | 756.51(5) keV | 756.51(5) keV | 756.51(5) keV | 62.0(8) s | IT (99.95%) | ¹⁴¹Nd | 11/2- |  |  |",
+   "| ¹⁴¹ᵐNd | 756.51(5) keV | 756.51(5) keV | 756.51(5) keV | 62.0(8) s | β⁺ (0.05%) | ¹⁴¹Pr | 11/2- |  |  |",
+   "| ¹⁴²Nd | 60 | 82 | 141.9077233(25) | 안정 | 안정 | 안정 | 0+ | 0.272(5) | 0.2680-0.2730 |",
+   "| ¹⁴³Nd | 60 | 83 | 142.9098143(25) | 안정 | 안정 | 안정 | 7/2- | 0.122(2) | 0.1212-0.1232 |",
+   "| ¹⁴⁴Nd | 60 | 84 | 143.9100873(25) | 2.29(16)×10¹⁵ a | α | ¹⁴⁰Ce | 0+ | 0.238(3) | 0.2379-0.2397 |",
+   "| ¹⁴⁵Nd | 60 | 85 | 144.9125736(25) | 관찰 안정 | 관찰 안정 | 관찰 안정 | 7/2- | 0.083(1) | 0.0823-0.0835 |",
+   "| ¹⁴⁶Nd | 60 | 86 | 145.9131169(25) | 안정 | 안정 | 안정 | 0+ | 0.172(3) | 0.1706-0.1735 |",
+   "| ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 10.98(1) d | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |",
+   "| ¹⁴⁸Nd | 60 | 88 | 147.916893(3) | 관찰 안정 | 관찰 안정 | 관찰 안정 | 0+ | 0.057(1) | 0.0566-0.0578 |",
+   "| ¹⁴⁹Nd | 60 | 89 | 148.920149(3) | 1.728(1) h | β⁻ | ¹⁴⁸Pm | 5/2- |  |  |",
+   "| ¹⁵⁰Nd | 60 | 90 | 149.920891(3) | 6.7(7)×10¹⁸ a | β⁻β⁻ | ¹⁵⁰Sm | 0+ | 0.056(2) | 0.0553-0.0569 |",
+   "| ¹⁵¹Nd | 60 | 91 | 150.923829(3) | 12.44(7) min | β⁻ | ¹⁵¹Pm | 3/2+ |  |  |",
+   "| ¹⁵²Nd | 60 | 92 | 151.924682(26) | 11.4(2) min | β⁻ | ¹⁵²Pm | 0+ |  |  |",
+   "| ¹⁵³Nd | 60 | 93 | 152.927698(29) | 31.6(10) s | β⁻ | ¹⁵³Pm | (3/2)- |  |  |",
+   "| ¹⁵⁴Nd | 60 | 94 | 153.92948(12) | 25.9(2) s | β⁻ | ¹⁵⁴Pm | 0+ |  |  |",
+   "| ¹⁵⁴ᵐ¹Nd | 480(150)# keV | 480(150)# keV | 480(150)# keV | 1.3(5) µs |  |  |  |  |  |",
+   "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+   "| ¹⁵⁵Nd | 60 | 95 | 154.93293(16)# | 8.9(2) s | β⁻ | ¹⁵⁵Pm | 3/2-# |  |  |",
+   "| ¹⁵⁶Nd | 60 | 96 | 155.93502(22) | 5.49(7) s | β⁻ | ¹⁵⁶Pm | 0+ |  |  |",
+   "| ¹⁵⁶ᵐNd | 1432(5) keV | 1432(5) keV | 1432(5) keV | 135 ns |  |  | 5- |  |  |",
+   "| ¹⁵⁷Nd | 60 | 97 | 156.93903(21)# | 2# s [>300 ns] | β⁻ | ¹⁵⁷Pm | 5/2-# |  |  |",
+   "| ¹⁵⁸Nd | 60 | 98 | 157.94160(43)# | 700# ms [>300 ns] | β⁻ | ¹⁵⁸Pm | 0+ |  |  |",
+   "| ¹⁵⁹Nd | 60 | 99 | 158.94609(54)# | 500# ms | β⁻ | ¹⁵⁹Pm | 7/2+# |  |  |",
+   "| ¹⁶⁰Nd | 60 | 100 | 159.94909(64)# | 300# ms | β⁻ | ¹⁶⁰Pm | 0+ |  |  |",
+   "| ¹⁶¹Nd | 60 | 101 | 160.95388(75)# | 200# ms | β⁻ | ¹⁶¹Pm | 1/2-# |  |  |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 11,
+  "section": "## 표",
+  "section_source": "md",
+  "rows": 59,
+  "cols": 10,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 51,
+   "texts": [
+    "핵자 수",
+    "반감기",
+    "붕괴 방식",
+    "붕괴 생성 동위 원소",
+    "핵 스핀",
+    "자연계에 존재하는 동위 원소 범위 (몰 분율)",
+    "자연계에 존재하는 최대 범위 (몰 분율)",
+    "¹²⁷Nd",
+    "60",
+    "67",
+    "126.94050(43)#",
+    "1.8(4) s",
+    "5/2+#",
+    "",
+    "",
+    "¹²⁸Nd",
+    "60",
+    "68",
+    "127.93539(21)#",
+    "5# s",
+    "0+",
+    "",
+    "",
+    "¹²⁹Nd",
+    "60",
+    "69",
+    "128.93319(22)#",
+    "4.9(2) s",
+    "5/2+#",
+    "",
+    "",
+    "¹³¹Nd",
+    "60",
+    "71",
+    "130.92725(3)",
+    "33(3) s",
+    "(5/2)(+#)",
+    "",
+    "",
+    "¹³⁹ᵐ¹Nd",
+    "231.15(5) keV",
+    "5.50(20) h",
+    "11/2-",
+    "",
+    "",
+    "¹⁴¹ᵐNd",
+    "756.51(5) keV",
+    "62.0(8) s",
+    "11/2-",
+    "",
+    ""
+   ]
+  },
+  "colspan_cells": {
+   "count": 19,
+   "texts": [
+    "들뜬 에너지",
+    "127.97(11) keV",
+    "176.10(10) keV",
+    "2293.1(4) keV",
+    "65.0(2) keV",
+    "519.43(17) keV",
+    "3174.9(4) keV",
+    "231.15(5) keV",
+    "2570.9+X keV",
+    "2221.4(1) keV",
+    "756.51(5) keV",
+    "안정",
+    "안정",
+    "관찰 안정",
+    "안정",
+    "관찰 안정",
+    "480(150)# keV",
+    "1349(10) keV",
+    "1432(5) keV"
+   ]
+  },
+  "br_cells": {
+   "count": 7,
+   "examples": [
+    "핵자 ⏎ 수",
+    "동위 원소 질량 (u)",
+    "붕괴 ⏎ 방식"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [
+   {
+    "row": 1,
+    "cells": [
+     [
+      "핵자",
+      "수"
+     ],
+     [
+      "Z(p)"
+     ],
+     [
+      "N(n)"
+     ],
+     [
+      "동위 원소 질량 (u)"
+     ],
+     [
+      "반감기"
+     ],
+     [
+      "붕괴",
+      "방식"
+     ],
+     [
+      "붕괴 생성",
+      "동위 원소"
+     ],
+     [
+      "핵",
+      "스핀"
+     ],
+     [
+      "자연계에 존재하는",
+      "동위 원소",
+      "범위",
+      "(몰 분율)"
+     ],
+     [
+      "자연계에 존재하는",
+      "최대 범위",
+      "(몰 분율)"
+     ]
+    ]
+   }
+  ],
+  "first_cells": [
+   "핵자 수",
+   "들뜬 에너지",
+   "¹²⁴Nd",
+   "¹²⁵Nd",
+   "¹²⁶Nd"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-lanthanum",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 2005 | 2208 | 2458 | 2772 | 3178 | 3726 |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-lanthanum",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹³⁷La | synth | 6×10⁴ y | ε | ¹³⁷Ba |",
+   "| ¹³⁸La | 0.0889999999% | 1.03×10¹¹ y | β⁺ | ¹³⁸Ba |",
+   "| ¹³⁸La | 0.0889999999% | 1.03×10¹¹ y | β⁻ | ¹³⁸Ce |",
+   "| ¹³⁹La | 99.911% | stable | stable | stable |",
+   "| ¹⁴⁰La | synth | 40.289 h | β⁻ | ¹⁴⁰Ce |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 60,
+  "section": "",
+  "section_source": "md",
+  "rows": 7,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 4,
+  "rowspan_cells": {
+   "count": 3,
+   "texts": [
+    "¹³⁸La",
+    "0.0889999999%",
+    "1.03×10¹¹ y"
+   ]
+  },
+  "colspan_cells": {
+   "count": 3,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹³⁷La",
+   "¹³⁸La",
+   "β⁻"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-europium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 863 | 957 | 1072 | 1234 | 1452 | 1796 |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-europium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹⁵⁰Eu | synth | 36.9 y | β⁺ | ¹⁵⁰Sm |",
+   "| ¹⁵¹Eu | 47.8% | 4.6×10¹⁸ y | α | ¹⁴⁷Pm |",
+   "| ¹⁵²Eu | synth | 13.517 y | β⁺ | ¹⁵²Sm |",
+   "| ¹⁵²Eu | synth | 13.517 y | β⁻ | ¹⁵²Gd |",
+   "| ¹⁵³Eu | 52.2% | stable | stable | stable |",
+   "| ¹⁵⁴Eu | synth | 8.592 y | β⁻ | ¹⁵⁴Gd |",
+   "| ¹⁵⁴Eu | synth | 8.592 y | ε | ¹⁵⁴Sm |",
+   "| ¹⁵⁵Eu | synth | 4.742 y | β⁻ | ¹⁵⁵Gd |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 58,
+  "section": "",
+  "section_source": "md",
+  "rows": 10,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 6,
+  "rowspan_cells": {
+   "count": 6,
+   "texts": [
+    "¹⁵²Eu",
+    "synth",
+    "13.517 y",
+    "¹⁵⁴Eu",
+    "synth",
+    "8.592 y"
+   ]
+  },
+  "colspan_cells": {
+   "count": 3,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹⁵⁰Eu",
+   "¹⁵¹Eu",
+   "¹⁵²Eu"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-praseodymium",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |",
+   "|---|---|---|---|---|---|---|",
+   "| at T (K) | 1771 | 1973 | (2227) | (2571) | (3054) | (3779) |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 27,
+  "section": "",
+  "section_source": "md",
+  "rows": 2,
+  "cols": 7,
+  "class": [
+   "ib-element-vapor-pressure",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 1,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "P (Pa)",
+   "at T (K)"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-praseodymium",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |",
+   "|---|---|---|---|---|",
+   "| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |",
+   "| ¹⁴¹Pr | 100% | stable | stable | stable |",
+   "| ¹⁴²Pr | synth | 19.12 h | β⁻ | ¹⁴²Nd |",
+   "| ¹⁴²Pr | synth | 19.12 h | ε | ¹⁴²Ce |",
+   "| ¹⁴³Pr | synth | 13.57 d | β⁻ | ¹⁴³Nd |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 59,
+  "section": "",
+  "section_source": "md",
+  "rows": 6,
+  "cols": 5,
+  "class": [
+   "isotopes-table",
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 2,
+  "mid_th_rows": [],
+  "row_header_rows": 3,
+  "rowspan_cells": {
+   "count": 3,
+   "texts": [
+    "¹⁴²Pr",
+    "synth",
+    "19.12 h"
+   ]
+  },
+  "colspan_cells": {
+   "count": 3,
+   "texts": [
+    "Main isotopes",
+    "Decay",
+    "stable"
+   ]
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Main isotopes",
+   "Isotope",
+   "¹⁴¹Pr",
+   "¹⁴²Pr",
+   "ε"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-neutron-capture-therapy",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Boric acid | Boronated unnatural amino acids |",
+   "|---|---|",
+   "| Boron nitride nanotubes | Boronated VEGF |",
+   "| Boron-containing immunoliposomes and liposomes | Carboranyl nucleosides |",
+   "| Boron-containing lipiodol | Carboranyl porphyrazines |",
+   "| Boron-containing nanoparticles | Carboranyl thymidine analogues |",
+   "| Boronated co-polymers | Decaborone (GB10) |",
+   "| Boronated cyclic peptides | Dodecaborate cluster lipids and cholesterol derivatives |",
+   "| Boronated DNAᶜ intercalators | Dodecahydro-closo-dodecaborate clusters |",
+   "| Boronated EGF and anti-EGFR MoAbs | Linear and cyclic peptides |",
+   "| Boronated polyamines | Polyanionic polymers |",
+   "| Boronated porphyrins | Transferrin-polyethylene glycol liposomes |",
+   "| Boronated sugars |  |"
+  ],
+  "md_above": [
+   "Table 1. Examples of new low- and high-molecular-weight boron delivery agentsᵃ,ᵇ"
+  ],
+  "md_below": [],
+  "md_line_no": 56,
+  "section": "## Boron delivery agents",
+  "section_source": "md",
+  "rows": 12,
+  "cols": 2,
+  "class": [
+   "wikitable"
+  ],
+  "caption": "Table 1. Examples of new low- and high-molecular-weight boron delivery agentsᵃ,ᵇ",
+  "full_width_rows": [],
+  "top_th_rows": 0,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Boric acid",
+   "Boron nitride nanotubes",
+   "Boron-containing immunoliposomes and liposomes",
+   "Boron-containing lipiodol",
+   "Boron-containing nanoparticles"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-neutron-capture-therapy",
+  "n": 2,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Reactor facility* | No. of patients and duration of trial | Delivery agent | Median survival time (months) |",
+   "|---|---|---|---|",
+   "| BMRR, US | 53 (1994–1999) | BPA 250–330 mg/kg | 12.8 |",
+   "| MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 11.1 |",
+   "| KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 23.5 (primary + X-ray) |",
+   "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+   "| R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 17.7 (primary) |",
+   "| FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 21.9 (primary), 7.0 (recurrent) |",
+   "| HFR, Netherlands | 26 (1997–2002) | BSH 100 mg/kg | 10.4 – 13.2 |"
+  ],
+  "md_above": [
+   "Table 2. Past BNCT clinical trials using an epithermal neutron beams for BNCT of patients with gliomas*"
+  ],
+  "md_below": [
+   "* A more comprehensive compilation of data relating to BNCT clinical trials can be found in Radiation Oncology 7:146–167, 2012"
+  ],
+  "md_line_no": 141,
+  "section": "## Clinical studies of BNCT for brain tumors / ### Further clinical studies in the United States and Japan",
+  "section_source": "md",
+  "rows": 9,
+  "cols": 5,
+  "class": [
+   "wikitable"
+  ],
+  "caption": "Table 2. Past BNCT clinical trials using an epithermal neutron beams for BNCT of patients with gliomas*",
+  "full_width_rows": [
+   9
+  ],
+  "top_th_rows": 1,
+  "mid_th_rows": [
+   9
+  ],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Reactor facility*",
+   "BMRR, US",
+   "MITR, MIT, US",
+   "KURRI, Japan",
+   "JRR4, Japan"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-neutron-capture-therapy",
+  "n": 3,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Manufacturer Product Reaction Accelerator type | Host institution | First clinical use | Status |",
+   "|---|---|---|---|",
+   "| Sumitomo Heavy Industries NeuCure ⁹Be(p,n)⁹B Cyclotron | Particle Radiation Oncology Research Center, Kyoto University, Kumatori, Japan | 2012 | Retired from clinical use |",
+   "| Sumitomo Heavy Industries NeuCure ⁹Be(p,n)⁹B Cyclotron | Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan | 2016 | Active clinical use (approved) |",
+   "| Sumitomo Heavy Industries NeuCure ⁹Be(p,n)⁹B Cyclotron | Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan | 2020 | Active clinical use (approved) |",
+   "| Sumitomo Heavy Industries NeuCure ⁹Be(p,n)⁹B Cyclotron | Pengbo Co., Ltd. in the Hainan Medical Tourism Pilot Zone | N/A | Under construction |",
+   "| Cancer Intelligence Care Systems ⁷Li(p,n)⁷Be RFQ | National Cancer Center, Tsukiji, Tokyo, Japan | 2019 | Active clinical use (clinical trial) |",
+   "| Cancer Intelligence Care Systems ⁷Li(p,n)⁷Be RFQ | Edogawa Hospital, Edogawa, Tokyo, Japan | 2023 | Active clinical use (clinical trial) |",
+   "| Neuboron Medical Group NeuPex ⁷Li(p,n)⁷Be Tandem Electrostatic | Xiamen Humanity Hospital, Xiamen, China | 2022 | Active clinical use (clinical trial) |",
+   "| Dawon Medax ⁹Be(p,n)⁹B LINAC | BNCT Clinic in the BRC Center, Songdo, Incheon, South Korea | 2022 | Active clinical use (clinical trial) |",
+   "| University of Tsukuba iBNCT ⁹Be(p,n)⁹B LINAC | University of Tsukuba, Tokai, Ibaraki, Japan | 2024 | Active clinical use (clinical trial) |",
+   "| Neutron Therapeutics nuBeam ⁷Li(p,n)⁷Be Single-ended electrostatic | Helsinki University Hospital, Helsinki, Finland | N/A | Operational |",
+   "| Neutron Therapeutics nuBeam ⁷Li(p,n)⁷Be Single-ended electrostatic | Shonan Kamakura General Hospital, Kamakura, Kanagawa, Japan | N/A | Operational |",
+   "| CASBNCT D-BNCT ⁷Li(p,n)⁷Be LINAC | Dongguan Peoples Hospital, Dongguan, Guangdong, China | N/A | Operational |",
+   "| Lanzhou University ⁷Li(p,n)⁷Be LINAC | Fujian Medical University Union Hospital (Mazu Branch), Putian City, Fujian, China | N/A | Operational |",
+   "| TAE Life Sciences Alphabeam ⁷Li(p,n)⁷Be Tandem Electrostatic | CNAO (National Center of Oncological Hadrontherapy), Pavia, Italy | N/A | Under construction |"
+  ],
+  "md_above": [],
+  "md_below": [],
+  "md_line_no": 187,
+  "section": "## Accelerators as neutron sources",
+  "section_source": "md",
+  "rows": 15,
+  "cols": 4,
+  "class": [
+   "wikitable"
+  ],
+  "caption": null,
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 3,
+   "texts": [
+    "Sumitomo Heavy Industries NeuC",
+    "Cancer Intelligence Care Syste",
+    "Neutron Therapeutics nuBeam ⁷L"
+   ]
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 10,
+   "examples": [
+    "Manufacturer ⏎ Product ⏎ Reaction ⏎ Accelerator type",
+    "Sumitomo Heavy Industries ⏎ NeuCure ⏎ ⁹Be(p,n)⁹B ⏎ Cyclotron",
+    "Cancer Intelligence Care Systems ⏎ ⁷Li(p,n)⁷Be ⏎ RFQ"
+   ]
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Manufacturer Product Reaction Accelerator type",
+   "Sumitomo Heavy Industries NeuCure ⁹Be(p,n)⁹B Cyclotron",
+   "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama",
+   "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takats",
+   "Pengbo Co., Ltd. in the Hainan Medical Tourism Pilot Zone"
+  ]
+ },
+ {
+  "doc_id": "wiki-en-samarium-cobalt-magnet",
+  "n": 1,
+  "parent": null,
+  "outcome": "markdown",
+  "md_lines": [
+   "| Property (unit) | Neodymium | Sm-Co |",
+   "|---|---|---|",
+   "| Remanence (T) | 1–1.5 | 0.8–1.16 |",
+   "| Coercivity (MA/m) | 0.875–2.79 | 0.493–2.79 |",
+   "| Relative permeability (–) | 1.05 | 1.05–1.1 |",
+   "| Temperature coefficient of remanence (%/K) | –0.09..–0.12 | −0.03..–0.05 |",
+   "| Temperature coefficient of coercivity (%/K) | −0.40..–0.65 | −0.15..–0.30 |",
+   "| Curie temperature (°C) | 310–370 | 700–850 |",
+   "| Density (g/cm³) | 7.3–7.7 | 8.2–8.5 |",
+   "| CTE, magnetizing direction (1/K) | (3–4)×10⁻⁶ | (5–9)×10⁻⁶ |",
+   "| CTE, normal to magnetizing direction (1/K) | (1–3)×10⁻⁶ | (10–13)×10⁻⁶ |",
+   "| Flexural strength (N/mm²) | 200–400 | 150–180 |",
+   "| Compressive strength (N/mm²) | 1000–1100 | 800–1000 |",
+   "| Tensile strength (N/mm²) | 80–90 | 35–40 |",
+   "| Vickers hardness (HV) | 500–650 | 400–650 |",
+   "| Electrical resistivity (Ω·cm) | (110–170)×10⁻⁶ | (50–90)×10⁻⁶ |"
+  ],
+  "md_above": [
+   "Comparison of physical properties of sintered neodymium and Sm-Co magnets"
+  ],
+  "md_below": [],
+  "md_line_no": 22,
+  "section": "## Attributes",
+  "section_source": "md",
+  "rows": 15,
+  "cols": 3,
+  "class": [
+   "wikitable"
+  ],
+  "caption": "Comparison of physical properties of sintered neodymium and Sm-Co magnets",
+  "full_width_rows": [],
+  "top_th_rows": 1,
+  "mid_th_rows": [],
+  "row_header_rows": 0,
+  "rowspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "colspan_cells": {
+   "count": 0,
+   "texts": []
+  },
+  "br_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "list_cells": {
+   "count": 0,
+   "examples": []
+  },
+  "nested": false,
+  "pair_rows": [],
+  "first_cells": [
+   "Property (unit)",
+   "Remanence (T)",
+   "Coercivity (MA/m)",
+   "Relative permeability (–)",
+   "Temperature coefficient of remanence (%/K)"
+  ]
+ }
+]
