@@ -61,7 +61,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q02-ko",
@@ -153,7 +153,7 @@
     ],
     "branch": "두 언어",
     "one_language_basis": null,
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q03-ko",
@@ -203,7 +203,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q04-ko",
@@ -295,7 +295,7 @@
     ],
     "branch": "두 언어",
     "one_language_basis": null,
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q05-ko",
@@ -359,7 +359,7 @@
     ],
     "branch": "두 언어",
     "one_language_basis": null,
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q06-ko",
@@ -409,7 +409,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q07-ko",
@@ -459,7 +459,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q08-ko",
@@ -509,7 +509,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q09-ko",
@@ -559,7 +559,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q10-ko",
@@ -609,7 +609,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q11-ko",
@@ -659,7 +659,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q12-ko",
@@ -737,7 +737,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q13-ko",
@@ -787,7 +787,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q14-ko",
@@ -837,7 +837,7 @@
     ],
     "branch": "한국어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q15-ko",
@@ -887,7 +887,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q16-ko",
@@ -951,7 +951,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q17-ko",
@@ -1001,7 +1001,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q18-ko",
@@ -1065,7 +1065,7 @@
     ],
     "branch": "영어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   },
   {
     "id": "q19-ko",
@@ -1129,6 +1129,6 @@
     ],
     "branch": "영어만",
     "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
-    "translation_checked": false
+    "translation_checked": true
   }
 ]

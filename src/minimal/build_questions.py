@@ -24,6 +24,10 @@ SRC_B = "research_notes/stage2_stem_select/step4/rare_earth/questions.json"
 # 원본 A에서 쓰는 id와 순서. re-03은 뺀다.
 A_IDS = ["re-01", "re-02", "re-04", "re-05", "re-06", "re-07", "re-08", "re-09", "re-10"]
 
+# 영어 질문 19개를 사용자가 DeepL로 되옮겨 확인했다(decisions/judgments.md 2026-10-22 "영어 질문 19개를 DeepL로" 줄).
+# 영어 질문 글을 바꾸면 False로 되돌리고 다시 확인받는다.
+EN_TRANSLATION_CHECKED = True
+
 EN_QUESTION_A = ("What is the mass in kg of a rectangular cuboid of {name} that is 3 cm wide, 4 cm long, "
                  "and 5 cm high? (Use its density near room temperature.)")
 
@@ -164,7 +168,7 @@ def build():
         result.append({"id": en_id, "lang": "en", "pair_id": ko_id, "source": common["source"],
                        "question": en_q, "answer": en_a, "value": common["value"],
                        "unit": en_unit, "evidence": evidence, "branch": branch,
-                       "one_language_basis": common["one_language_basis"], "translation_checked": False})
+                       "one_language_basis": common["one_language_basis"], "translation_checked": EN_TRANSLATION_CHECKED})
     return result
 
 
