@@ -144,11 +144,11 @@ class Tables(unittest.TestCase):
         for n in (59, 60, 61):
             self.assertEqual(at("wiki-en-thulium", n), [])
         got = {r["quantity"]: r for r in at("wiki-en-thulium", 62)}
-        self.assertEqual(got["abundance"]["raw"], "synth")
+        self.assertEqual(got["natural_abundance"]["raw"], "synth")
         self.assertEqual((got["half_life"]["reps"][0]["num"], got["half_life"]["reps"][0]["unit"]), ("9.25", "d"))
         self.assertEqual(got["decay_mode"]["raw"], "ε")
         self.assertEqual(got["daughter"]["raw"], "¹⁶⁷Er")
-        self.assertEqual(set(got), {"abundance", "half_life", "decay_mode", "daughter"})
+        self.assertEqual(set(got), {"natural_abundance", "half_life", "decay_mode", "daughter"})
 
     def test_e8_isomer_row(self):
         doc = "wiki-ko-isotopes-of-yttrium"

@@ -1,9 +1,9 @@
 # 값 비교 검토
 
-- 곳 3438개, 묶음 2533개 (곳이 하나뿐인 묶음 1796개는 비교하지 않음)
-- 곳이 둘 이상인 묶음 737개: 같음 453, 다름 284 (읽을 것 192, 안 읽어도 됨 92)
-- 다름 묶음의 범위: 같은 문서 86, 같은 언어의 다른 문서 12, 반대 언어 228
-- 읽을 이유: 본문 값 98, 두 언어 낱말 96, 줄 전체 값 91, 덧붙인 말 다름 77, 여러 값 34, 어림 표시 25, 단위를 못 바꿈 17, 본문 값의 일부만 비교 11, 불확실 표시 11
+- 곳 3438개, 묶음 2524개 (곳이 하나뿐인 묶음 1787개는 비교하지 않음)
+- 곳이 둘 이상인 묶음 737개: 같음 453, 다름 284 (읽을 것 197, 안 읽어도 됨 87)
+- 다름 묶음의 범위: 같은 문서 91, 같은 언어의 다른 문서 13, 반대 언어 226
+- 읽을 이유: 본문 값 103, 두 언어 낱말 96, 줄 전체 값 91, 덧붙인 말 다름 82, 여러 값 34, 어림 표시 25, 단위를 못 바꿈 17, 본문 값의 일부만 비교 11, 불확실 표시 11
 - 조건 갈림 후보 0개 (compare.json의 condition_variants)
 
 # 읽을 묶음
@@ -192,6 +192,45 @@
   - raw: `1.40×10⁶ years`
   - 덧붙인 말: the most stable of the radioisotopes
 
+## Dy-156 / natural_abundance / (조건 없음)  [다름; 같은 문서, 반대 언어]
+이유: 덧붙인 말 다름, 본문 값
+- 묶음0 wiki-ko-dysprosium:59 (표) 값 0.06 %
+  - 줄 59: `| ¹⁵⁶Dy | 0.06% | 안정 | 안정 | 안정 | 안정 |`
+  - raw: `0.06%`
+- 묶음1 wiki-en-dysprosium:64 (표) 값 0.056 %
+  - 줄 64: `| ¹⁵⁶Dy | 0.056% | stable | stable | stable |`
+  - raw: `0.056%`
+- 묶음0 wiki-en-dysprosium:124 (본문) 값 0.06 %
+  - 줄 124: `Naturally occurring dysprosium is composed of seven isotopes: ¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, and ¹⁶⁴Dy. These are all considered stable, although only the last two are theoretically stable: the others can theoretically undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that are theoretically stable rather than only observationally stable isotopes that are predicted to be radioactive.`
+  - raw: `0.06%`
+  - 덧붙인 말: the rarest
+
+## Dy-162 / natural_abundance / (조건 없음)  [다름; 같은 문서, 반대 언어]
+이유: 덧붙인 말 다름, 본문 값
+- 묶음0 wiki-ko-dysprosium:63 (표) 값 25.51 %
+  - 줄 63: `| ¹⁶²Dy | 25.51% | 안정 | 안정 | 안정 | 안정 |`
+  - raw: `25.51%`
+- 묶음1 wiki-en-dysprosium:69 (표) 값 25.5 %
+  - 줄 69: `| ¹⁶²Dy | 25.5% | stable | stable | stable |`
+  - raw: `25.5%`
+- 묶음2 wiki-en-dysprosium:124 (본문) 값 26 %
+  - 줄 124: `Naturally occurring dysprosium is composed of seven isotopes: ¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, and ¹⁶⁴Dy. These are all considered stable, although only the last two are theoretically stable: the others can theoretically undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that are theoretically stable rather than only observationally stable isotopes that are predicted to be radioactive.`
+  - raw: `26%`
+  - 덧붙인 말: followed by
+
+## Dy-164 / natural_abundance / (조건 없음)  [다름; 같은 문서, 반대 언어]
+이유: 덧붙인 말 다름, 본문 값
+- 묶음0 wiki-ko-dysprosium:65 (표) 값 28.18 %
+  - 줄 65: `| ¹⁶⁴Dy | 28.18% | 안정 | 안정 | 안정 | 안정 |`
+  - raw: `28.18%`
+- 묶음1 wiki-en-dysprosium:71 (표) 값 28.3 %
+  - 줄 71: `| ¹⁶⁴Dy | 28.3% | stable | stable | stable |`
+  - raw: `28.3%`
+- 묶음2 wiki-en-dysprosium:124 (본문) 값 28 %
+  - 줄 124: `Naturally occurring dysprosium is composed of seven isotopes: ¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, and ¹⁶⁴Dy. These are all considered stable, although only the last two are theoretically stable: the others can theoretically undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that are theoretically stable rather than only observationally stable isotopes that are predicted to be radioactive.`
+  - raw: `28%`
+  - 덧붙인 말: the most abundant of the naturally occurring isotopes
+
 ## Eu / density / (조건 없음)  [다름; 같은 문서]
 이유: 덧붙인 말 다름, 어림 표시, 본문 값
 - 묶음0 wiki-en-europium:19 (정보 상자) 값 5.246 g/cm³
@@ -257,6 +296,26 @@
   - 줄 176: `Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium.`
   - raw: `4.62×10¹⁸ years`
   - 덧붙인 말: measured; alpha decay to ¹⁴⁷Pm
+
+## Eu-151 / natural_abundance / (조건 없음)  [다름; 같은 문서]
+이유: 덧붙인 말 다름, 본문 값
+- 묶음0 wiki-en-europium:62 (표) 값 47.8 %
+  - 줄 62: `| ¹⁵¹Eu | 47.8% | 4.6×10¹⁸ y | α | ¹⁴⁷Pm |`
+  - raw: `47.8%`
+- 묶음1 wiki-en-europium:176 (본문) 값 47.81 %
+  - 줄 176: `Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium.`
+  - raw: `47.81%`
+  - 덧붙인 말: standard isotopic abundances
+
+## Eu-153 / natural_abundance / (조건 없음)  [다름; 같은 문서]
+이유: 덧붙인 말 다름, 본문 값
+- 묶음0 wiki-en-europium:65 (표) 값 52.2 %
+  - 줄 65: `| ¹⁵³Eu | 52.2% | stable | stable | stable |`
+  - raw: `52.2%`
+- 묶음1 wiki-en-europium:176 (본문) 값 52.19 %
+  - 줄 176: `Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium.`
+  - raw: `52.19%`
+  - 덧붙인 말: standard isotopic abundances
 
 ## EuB6 / transition_temperature / (조건 없음)  [다름; 같은 문서]
 이유: 덧붙인 말 다름, 단위를 못 바꿈, 본문 값
@@ -660,7 +719,13 @@
 
 ## Lu-176 / natural_abundance / (조건 없음)  [다름; 같은 문서, 반대 언어]
 이유: 덧붙인 말 다름, 어림 표시, 본문 값
-- 묶음0 wiki-ko-lutetium:65 (본문) 값 2.5 %
+- 묶음0 wiki-ko-lutetium:59 (표) 값 2.59 %
+  - 줄 59: `| ¹⁷⁶Lu | 2.59% | 3.78×10¹⁰y | β⁻ | 1.193 | ¹⁷⁶Hf |`
+  - raw: `2.59%`
+- 묶음1 wiki-en-lutetium:65 (표) 값 2.6 %
+  - 줄 65: `| ¹⁷⁶Lu | 2.60% | 3.701×10¹⁰ y | β⁻ | ¹⁷⁶Hf |`
+  - raw: `2.60%`
+- 묶음2 wiki-ko-lutetium:65 (본문) 값 2.5 %
   - 줄 65: `루테튬은 지각에서 은보다 훨씬 더 흔하지만 특별히 풍부한 원소는 아니다. 구체적으로 이용된 사례는 거의 없다. 루테튬-176은 상대적으로 풍부한(2.5%) 방사성 동위원소로 반감기가 약 380억년으로 광물과 운석의 나이를 결정하는 데 사용된다. 루테튬은 일반적으로 이트륨 원소와 결합하여 발생하며 때때로 금속 합금 및 다양한 화학 반응의 촉매제로 사용된다. 177Lu-DOTA-TATE는 신경내분비 종양에 대한 방사성 핵종 요법(핵의학 참조)에 사용된다. 루테튬은 890-1300 MPa로 란타나이드 중에서 브리넬 경도가 가장 높다.`
   - raw: `2.5%`
   - 덧붙인 말: 상대적으로 풍부한
@@ -668,7 +733,7 @@
   - 줄 72: `Lutetium is not a particularly abundant element, although it is significantly more common than silver in the Earth's crust. It has few specific uses. Lutetium-176 is a relatively abundant (2.6%) radioisotope with a half-life of about 38 billion years, used to determine the age of minerals and meteorites. Lutetium usually occurs in association with the element yttrium and is sometimes used in metal alloys and as a catalyst in various chemical reactions. ¹⁷⁷Lu-DOTA-TATE is used for radionuclide therapy (see Nuclear medicine) on neuroendocrine tumours. Lutetium has the highest Brinell hardness of any lanthanide, at 890–1300 MPa.`
   - raw: `2.6%`
   - 덧붙인 말: a relatively abundant radioisotope
-- 묶음2 wiki-en-lutetium:92 (본문) 값 about 2.6 %
+- 묶음3 wiki-en-lutetium:92 (본문) 값 about 2.6 %
   - 줄 92: `Lutetium occurs on the Earth in two isotopes: lutetium-175 and lutetium-176. Out of these two, only the former is stable, making the element monoisotopic. The latter one, lutetium-176, decays via beta decay with a half-life of 3.70×10¹⁰ years; it makes up about 2.6% of natural lutetium.`
   - raw: `about 2.6%`
   - 덧붙인 말: of natural lutetium
@@ -1751,14 +1816,20 @@
   - 줄 64: `| ⁸⁸ᵐ²Y | 674.55(4) keV | 674.55(4) keV | 674.55(4) keV | 1962 | 13.98(17) ms | IT | ⁸⁸Y | 8+ |  |`
   - raw: `8+`
 
-## Y-89 / natural_abundance / (조건 없음)  [다름; 같은 문서, 반대 언어]
+## Y-89 / natural_abundance / (조건 없음)  [다름; 같은 문서, 같은 언어의 다른 문서, 반대 언어]
 이유: 단위를 못 바꿈, 본문 값
 - 묶음0 wiki-ko-isotopes-of-yttrium:45 (표) 값 1
   - 줄 45: `| ⁸⁹Y | 39 | 50 | 88.9058483(27) | 안정 | 안정 | 안정 | 1/2- | 1.0000 |`
   - raw: `1.0000`
+- 묶음1 wiki-en-isotopes-of-yttrium:8 (표) 값 100 %
+  - 줄 8: `| ⁸⁹Y | 100% | stable | stable | stable |`
+  - raw: `100%`
 - 묶음0 wiki-en-isotopes-of-yttrium:65 (표) 값 1
   - 줄 65: `| ⁸⁹Y | 39 | 50 | 88.90583816(36) | 1923 | Stable | Stable | Stable | 1/2− | 1.0000 |`
   - raw: `1.0000`
+- 묶음1 wiki-ko-yttrium:61 (표) 값 100 %
+  - 줄 61: `| ⁸⁹Y | 100% | 안정 | 안정 | 안정 | 안정 |`
+  - raw: `100%`
 - 묶음1 wiki-ko-isotopes-of-yttrium:3 (본문) 값 100 %
   - 줄 3: `자연계에 존재하는 이트륨의 안정 동위 원소는 1종이며, ⁸⁹Y이 100% 존재한다.`
   - raw: `100%`
@@ -2327,6 +2398,12 @@
 
 ## Yb-174 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 이유: 덧붙인 말 다름, 본문 값
+- 묶음0 wiki-ko-ytterbium:66 (표) 값 31.8 %
+  - 줄 66: `| ¹⁷⁴Yb | 31.8% | 안정 | 안정 | 안정 | 안정 |`
+  - raw: `31.8%`
+- 묶음1 wiki-en-ytterbium:70 (표) 값 31.9 %
+  - 줄 70: `| ¹⁷⁴Yb | 31.9% | stable | stable | stable |`
+  - raw: `31.9%`
 - 묶음0 wiki-ko-ytterbium:117 (본문) 값 31.8 %
   - 줄 117: `자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다.`
   - raw: `31.8 %`
@@ -2456,41 +2533,25 @@
 - 묶음0 wiki-ko-dysprosium:47 (정보 상자) 값 540 MPa  raw `540 MPa`
 - 묶음1 wiki-en-dysprosium:51 (정보 상자) 값 410–550 MPa  raw `410–550 MPa`
 
-## Dy-156 / abundance / (조건 없음)  [다름; 반대 언어]
-- 묶음0 wiki-ko-dysprosium:59 (표) 값 0.06 %  raw `0.06%`
-- 묶음1 wiki-en-dysprosium:64 (표) 값 0.056 %  raw `0.056%`
-
-## Dy-158 / abundance / (조건 없음)  [다름; 반대 언어]
+## Dy-158 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-dysprosium:60 (표) 값 0.1 %  raw `0.10%`
 - 묶음1 wiki-en-dysprosium:65 (표) 값 0.095 %  raw `0.095%`
 
-## Dy-160 / abundance / (조건 없음)  [다름; 반대 언어]
+## Dy-160 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-dysprosium:61 (표) 값 2.34 %  raw `2.34%`
 - 묶음1 wiki-en-dysprosium:67 (표) 값 2.33 %  raw `2.33%`
 
-## Dy-161 / abundance / (조건 없음)  [다름; 반대 언어]
+## Dy-161 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-dysprosium:62 (표) 값 18.91 %  raw `18.91%`
 - 묶음1 wiki-en-dysprosium:68 (표) 값 18.9 %  raw `18.9%`
-
-## Dy-162 / abundance / (조건 없음)  [다름; 반대 언어]
-- 묶음0 wiki-ko-dysprosium:63 (표) 값 25.51 %  raw `25.51%`
-- 묶음1 wiki-en-dysprosium:69 (표) 값 25.5 %  raw `25.5%`
-
-## Dy-164 / abundance / (조건 없음)  [다름; 반대 언어]
-- 묶음0 wiki-ko-dysprosium:65 (표) 값 28.18 %  raw `28.18%`
-- 묶음1 wiki-en-dysprosium:71 (표) 값 28.3 %  raw `28.3%`
 
 ## Lu / vickers_hardness / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-lutetium:44 (정보 상자) 값 1160 MPa  raw `1160 MPa`
 - 묶음1 wiki-en-lutetium:49 (정보 상자) 값 755–1160 MPa  raw `755–1160 MPa`
 
-## Lu-175 / abundance / (조건 없음)  [다름; 반대 언어]
+## Lu-175 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-lutetium:58 (표) 값 97.41 %  raw `97.41%`
 - 묶음1 wiki-en-lutetium:64 (표) 값 97.4 %  raw `97.4%`
-
-## Lu-176 / abundance / (조건 없음)  [다름; 반대 언어]
-- 묶음0 wiki-ko-lutetium:59 (표) 값 2.59 %  raw `2.59%`
-- 묶음1 wiki-en-lutetium:65 (표) 값 2.6 %  raw `2.60%`
 
 ## Tm / atomic_radius / empirical  [다름; 반대 언어]
 - 묶음0 wiki-ko-thulium:34 (정보 상자) 값 175 pm  raw `175 pm`
@@ -2780,31 +2841,27 @@
 - 묶음0 wiki-ko-ytterbium:48 (정보 상자) 값 206 MPa  raw `206 MPa`
 - 묶음1 wiki-en-ytterbium:51 (정보 상자) 값 205–250 MPa  raw `205–250 MPa`
 
-## Yb-168 / abundance / (조건 없음)  [다름; 반대 언어]
+## Yb-168 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-ytterbium:60 (표) 값 0.13 %  raw `0.13%`
 - 묶음1 wiki-en-ytterbium:64 (표) 값 0.126 %  raw `0.126%`
 
-## Yb-170 / abundance / (조건 없음)  [다름; 반대 언어]
+## Yb-170 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-ytterbium:62 (표) 값 3.05 %  raw `3.05%`
 - 묶음1 wiki-en-ytterbium:66 (표) 값 3.02 %  raw `3.02%`
 
-## Yb-171 / abundance / (조건 없음)  [다름; 반대 언어]
+## Yb-171 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-ytterbium:63 (표) 값 14.3 %  raw `14.3%`
 - 묶음1 wiki-en-ytterbium:67 (표) 값 14.2 %  raw `14.2%`
 
-## Yb-172 / abundance / (조건 없음)  [다름; 반대 언어]
+## Yb-172 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-ytterbium:64 (표) 값 21.9 %  raw `21.9%`
 - 묶음1 wiki-en-ytterbium:68 (표) 값 21.8 %  raw `21.8%`
 
-## Yb-173 / abundance / (조건 없음)  [다름; 반대 언어]
+## Yb-173 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-ytterbium:65 (표) 값 16.12 %  raw `16.12%`
 - 묶음1 wiki-en-ytterbium:69 (표) 값 16.1 %  raw `16.1%`
 
-## Yb-174 / abundance / (조건 없음)  [다름; 반대 언어]
-- 묶음0 wiki-ko-ytterbium:66 (표) 값 31.8 %  raw `31.8%`
-- 묶음1 wiki-en-ytterbium:70 (표) 값 31.9 %  raw `31.9%`
-
-## Yb-176 / abundance / (조건 없음)  [다름; 반대 언어]
+## Yb-176 / natural_abundance / (조건 없음)  [다름; 반대 언어]
 - 묶음0 wiki-ko-ytterbium:68 (표) 값 12.7 %  raw `12.7%`
 - 묶음1 wiki-en-ytterbium:72 (표) 값 12.9 %  raw `12.9%`
 

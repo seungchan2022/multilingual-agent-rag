@@ -1,23 +1,23 @@
 {
  "counts": {
   "places": 3438,
-  "groups": 2533,
-  "singletons": 1796,
+  "groups": 2524,
+  "singletons": 1787,
   "groups_2plus": 737,
   "same": 453,
   "different": 284,
-  "review": 192,
-  "different_no_review": 92,
+  "review": 197,
+  "different_no_review": 87,
   "by_scope": {
-   "같은 문서": 86,
-   "같은 언어의 다른 문서": 12,
-   "반대 언어": 228
+   "같은 문서": 91,
+   "같은 언어의 다른 문서": 13,
+   "반대 언어": 226
   },
   "reasons": {
-   "본문 값": 98,
+   "본문 값": 103,
    "두 언어 낱말": 96,
    "줄 전체 값": 91,
-   "덧붙인 말 다름": 77,
+   "덧붙인 말 다름": 82,
    "여러 값": 34,
    "어림 표시": 25,
    "단위를 못 바꿈": 17,
@@ -3198,59 +3198,6 @@
   },
   {
    "object": "Dy-154",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-dysprosium:58:abundance",
-     "doc_id": "wiki-ko-dysprosium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      58
-     ],
-     "values": [
-      "인공"
-     ],
-     "raws": [
-      "인공"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "58": "| ¹⁵⁴Dy | 인공 | 3.0E+6 y | α | 2.947 | ¹⁵⁰Gd |"
-     }
-    },
-    {
-     "place": "wiki-en-dysprosium:63:abundance",
-     "doc_id": "wiki-en-dysprosium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      63
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "63": "| ¹⁵⁴Dy | synth | 1.40×10⁶ y | α | ¹⁵⁰Gd |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Dy-154",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -3437,56 +3384,54 @@
    ]
   },
   {
-   "object": "Dy-156",
-   "quantity": "abundance",
+   "object": "Dy-154",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
+   "verdict": "같음",
+   "scopes": [],
    "review": false,
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-dysprosium:59:abundance",
+     "place": "wiki-ko-dysprosium:58:natural_abundance",
      "doc_id": "wiki-ko-dysprosium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      59
+      58
      ],
      "values": [
-      "0.06 %"
+      "인공"
      ],
      "raws": [
-      "0.06%"
+      "인공"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "59": "| ¹⁵⁶Dy | 0.06% | 안정 | 안정 | 안정 | 안정 |"
+      "58": "| ¹⁵⁴Dy | 인공 | 3.0E+6 y | α | 2.947 | ¹⁵⁰Gd |"
      }
     },
     {
-     "place": "wiki-en-dysprosium:64:abundance",
+     "place": "wiki-en-dysprosium:63:natural_abundance",
      "doc_id": "wiki-en-dysprosium",
      "lang": "en",
      "where": "표",
      "lines": [
-      64
+      63
      ],
      "values": [
-      "0.056 %"
+      "synth"
      ],
      "raws": [
-      "0.056%"
+      "synth"
      ],
      "notes": [],
-     "class": 1,
+     "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "64": "| ¹⁵⁶Dy | 0.056% | stable | stable | stable |"
+      "63": "| ¹⁵⁴Dy | synth | 1.40×10⁶ y | α | ¹⁵⁰Gd |"
      }
     }
    ]
@@ -3651,56 +3596,83 @@
    ]
   },
   {
-   "object": "Dy-158",
-   "quantity": "abundance",
+   "object": "Dy-156",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
+    "같은 문서",
     "반대 언어"
    ],
-   "review": false,
-   "reasons": [],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "본문 값"
+   ],
    "places": [
     {
-     "place": "wiki-ko-dysprosium:60:abundance",
+     "place": "wiki-ko-dysprosium:59:natural_abundance",
      "doc_id": "wiki-ko-dysprosium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      60
+      59
      ],
      "values": [
-      "0.1 %"
+      "0.06 %"
      ],
      "raws": [
-      "0.10%"
+      "0.06%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "60": "| ¹⁵⁸Dy | 0.10% | 안정 | 안정 | 안정 | 안정 |"
+      "59": "| ¹⁵⁶Dy | 0.06% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-dysprosium:65:abundance",
+     "place": "wiki-en-dysprosium:64:natural_abundance",
      "doc_id": "wiki-en-dysprosium",
      "lang": "en",
      "where": "표",
      "lines": [
-      65
+      64
      ],
      "values": [
-      "0.095 %"
+      "0.056 %"
      ],
      "raws": [
-      "0.095%"
+      "0.056%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "65": "| ¹⁵⁸Dy | 0.095% | stable | stable | stable |"
+      "64": "| ¹⁵⁶Dy | 0.056% | stable | stable | stable |"
+     }
+    },
+    {
+     "place": "wiki-en-dysprosium:124:natural_abundance",
+     "doc_id": "wiki-en-dysprosium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      124
+     ],
+     "values": [
+      "0.06 %"
+     ],
+     "raws": [
+      "0.06%"
+     ],
+     "notes": [
+      "the rarest"
+     ],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "124": "Naturally occurring dysprosium is composed of seven isotopes: ¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, and ¹⁶⁴Dy. These are all considered stable, although only the last two are theoretically stable: the others can theoretically undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that are theoretically stable rather than only observationally stable isotopes that are predicted to be radioactive."
      }
     }
    ]
@@ -3865,6 +3837,61 @@
    ]
   },
   {
+   "object": "Dy-158",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "반대 언어"
+   ],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-ko-dysprosium:60:natural_abundance",
+     "doc_id": "wiki-ko-dysprosium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      60
+     ],
+     "values": [
+      "0.1 %"
+     ],
+     "raws": [
+      "0.10%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "60": "| ¹⁵⁸Dy | 0.10% | 안정 | 안정 | 안정 | 안정 |"
+     }
+    },
+    {
+     "place": "wiki-en-dysprosium:65:natural_abundance",
+     "doc_id": "wiki-en-dysprosium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      65
+     ],
+     "values": [
+      "0.095 %"
+     ],
+     "raws": [
+      "0.095%"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "65": "| ¹⁵⁸Dy | 0.095% | stable | stable | stable |"
+     }
+    }
+   ]
+  },
+  {
    "object": "Dy-159",
    "quantity": "half_life",
    "condition": "",
@@ -3915,61 +3942,6 @@
      "uncertain_reason": "",
      "quotes": {
       "126": "Twenty-nine radioisotopes have been synthesized, ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 1.40×10⁶ years, followed by ¹⁵⁹Dy with a half-life of 144.4 days. As a general rule, isotopes that are lighter than the stable isotopes tend to decay primarily by β⁺ decay, though ¹⁵⁴Dy decays by alpha emission and ¹⁵²Dy and ¹⁵⁹Dy only by electron capture, while those that are heavier tend to decay by β⁻ decay. Dysprosium also has at least 11 metastable isomers, ranging in atomic mass from 140 to 165. The most stable of these is ¹⁶⁵ᵐDy, which has a half-life of 1.257 minutes."
-     }
-    }
-   ]
-  },
-  {
-   "object": "Dy-160",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-dysprosium:61:abundance",
-     "doc_id": "wiki-ko-dysprosium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      61
-     ],
-     "values": [
-      "2.34 %"
-     ],
-     "raws": [
-      "2.34%"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "61": "| ¹⁶⁰Dy | 2.34% | 안정 | 안정 | 안정 | 안정 |"
-     }
-    },
-    {
-     "place": "wiki-en-dysprosium:67:abundance",
-     "doc_id": "wiki-en-dysprosium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      67
-     ],
-     "values": [
-      "2.33 %"
-     ],
-     "raws": [
-      "2.33%"
-     ],
-     "notes": [],
-     "class": 1,
-     "uncertain_reason": "",
-     "quotes": {
-      "67": "| ¹⁶⁰Dy | 2.33% | stable | stable | stable |"
      }
     }
    ]
@@ -4134,8 +4106,8 @@
    ]
   },
   {
-   "object": "Dy-161",
-   "quantity": "abundance",
+   "object": "Dy-160",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -4145,45 +4117,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-dysprosium:62:abundance",
+     "place": "wiki-ko-dysprosium:61:natural_abundance",
      "doc_id": "wiki-ko-dysprosium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      62
+      61
      ],
      "values": [
-      "18.91 %"
+      "2.34 %"
      ],
      "raws": [
-      "18.91%"
+      "2.34%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "62": "| ¹⁶¹Dy | 18.91% | 안정 | 안정 | 안정 | 안정 |"
+      "61": "| ¹⁶⁰Dy | 2.34% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-dysprosium:68:abundance",
+     "place": "wiki-en-dysprosium:67:natural_abundance",
      "doc_id": "wiki-en-dysprosium",
      "lang": "en",
      "where": "표",
      "lines": [
-      68
+      67
      ],
      "values": [
-      "18.9 %"
+      "2.33 %"
      ],
      "raws": [
-      "18.9%"
+      "2.33%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "68": "| ¹⁶¹Dy | 18.9% | stable | stable | stable |"
+      "67": "| ¹⁶⁰Dy | 2.33% | stable | stable | stable |"
      }
     }
    ]
@@ -4348,8 +4320,8 @@
    ]
   },
   {
-   "object": "Dy-162",
-   "quantity": "abundance",
+   "object": "Dy-161",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -4359,45 +4331,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-dysprosium:63:abundance",
+     "place": "wiki-ko-dysprosium:62:natural_abundance",
      "doc_id": "wiki-ko-dysprosium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      63
+      62
      ],
      "values": [
-      "25.51 %"
+      "18.91 %"
      ],
      "raws": [
-      "25.51%"
+      "18.91%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "63": "| ¹⁶²Dy | 25.51% | 안정 | 안정 | 안정 | 안정 |"
+      "62": "| ¹⁶¹Dy | 18.91% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-dysprosium:69:abundance",
+     "place": "wiki-en-dysprosium:68:natural_abundance",
      "doc_id": "wiki-en-dysprosium",
      "lang": "en",
      "where": "표",
      "lines": [
-      69
+      68
      ],
      "values": [
-      "25.5 %"
+      "18.9 %"
      ],
      "raws": [
-      "25.5%"
+      "18.9%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "69": "| ¹⁶²Dy | 25.5% | stable | stable | stable |"
+      "68": "| ¹⁶¹Dy | 18.9% | stable | stable | stable |"
      }
     }
    ]
@@ -4562,54 +4534,83 @@
    ]
   },
   {
-   "object": "Dy-163",
-   "quantity": "abundance",
+   "object": "Dy-162",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
+   "verdict": "다름",
+   "scopes": [
+    "같은 문서",
+    "반대 언어"
+   ],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "본문 값"
+   ],
    "places": [
     {
-     "place": "wiki-ko-dysprosium:64:abundance",
+     "place": "wiki-ko-dysprosium:63:natural_abundance",
      "doc_id": "wiki-ko-dysprosium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      64
+      63
      ],
      "values": [
-      "24.9 %"
+      "25.51 %"
      ],
      "raws": [
-      "24.90%"
+      "25.51%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "64": "| ¹⁶³Dy | 24.90% | 안정 | 안정 | 안정 | 안정 |"
+      "63": "| ¹⁶²Dy | 25.51% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-dysprosium:70:abundance",
+     "place": "wiki-en-dysprosium:69:natural_abundance",
      "doc_id": "wiki-en-dysprosium",
      "lang": "en",
      "where": "표",
      "lines": [
-      70
+      69
      ],
      "values": [
-      "24.9 %"
+      "25.5 %"
      ],
      "raws": [
-      "24.9%"
+      "25.5%"
      ],
      "notes": [],
-     "class": 0,
+     "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "70": "| ¹⁶³Dy | 24.9% | stable | stable | stable |"
+      "69": "| ¹⁶²Dy | 25.5% | stable | stable | stable |"
+     }
+    },
+    {
+     "place": "wiki-en-dysprosium:124:natural_abundance",
+     "doc_id": "wiki-en-dysprosium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      124
+     ],
+     "values": [
+      "26 %"
+     ],
+     "raws": [
+      "26%"
+     ],
+     "notes": [
+      "followed by"
+     ],
+     "class": 2,
+     "uncertain_reason": "",
+     "quotes": {
+      "124": "Naturally occurring dysprosium is composed of seven isotopes: ¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, and ¹⁶⁴Dy. These are all considered stable, although only the last two are theoretically stable: the others can theoretically undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that are theoretically stable rather than only observationally stable isotopes that are predicted to be radioactive."
      }
     }
    ]
@@ -4774,56 +4775,54 @@
    ]
   },
   {
-   "object": "Dy-164",
-   "quantity": "abundance",
+   "object": "Dy-163",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
+   "verdict": "같음",
+   "scopes": [],
    "review": false,
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-dysprosium:65:abundance",
+     "place": "wiki-ko-dysprosium:64:natural_abundance",
      "doc_id": "wiki-ko-dysprosium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      65
+      64
      ],
      "values": [
-      "28.18 %"
+      "24.9 %"
      ],
      "raws": [
-      "28.18%"
+      "24.90%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "65": "| ¹⁶⁴Dy | 28.18% | 안정 | 안정 | 안정 | 안정 |"
+      "64": "| ¹⁶³Dy | 24.90% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-dysprosium:71:abundance",
+     "place": "wiki-en-dysprosium:70:natural_abundance",
      "doc_id": "wiki-en-dysprosium",
      "lang": "en",
      "where": "표",
      "lines": [
-      71
+      70
      ],
      "values": [
-      "28.3 %"
+      "24.9 %"
      ],
      "raws": [
-      "28.3%"
+      "24.9%"
      ],
      "notes": [],
-     "class": 1,
+     "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "71": "| ¹⁶⁴Dy | 28.3% | stable | stable | stable |"
+      "70": "| ¹⁶³Dy | 24.9% | stable | stable | stable |"
      }
     }
    ]
@@ -4983,6 +4982,88 @@
      "uncertain_reason": "",
      "quotes": {
       "71": "| ¹⁶⁴Dy | 28.3% | stable | stable | stable |"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Dy-164",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "같은 문서",
+    "반대 언어"
+   ],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "본문 값"
+   ],
+   "places": [
+    {
+     "place": "wiki-ko-dysprosium:65:natural_abundance",
+     "doc_id": "wiki-ko-dysprosium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      65
+     ],
+     "values": [
+      "28.18 %"
+     ],
+     "raws": [
+      "28.18%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "65": "| ¹⁶⁴Dy | 28.18% | 안정 | 안정 | 안정 | 안정 |"
+     }
+    },
+    {
+     "place": "wiki-en-dysprosium:71:natural_abundance",
+     "doc_id": "wiki-en-dysprosium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      71
+     ],
+     "values": [
+      "28.3 %"
+     ],
+     "raws": [
+      "28.3%"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "71": "| ¹⁶⁴Dy | 28.3% | stable | stable | stable |"
+     }
+    },
+    {
+     "place": "wiki-en-dysprosium:124:natural_abundance",
+     "doc_id": "wiki-en-dysprosium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      124
+     ],
+     "values": [
+      "28 %"
+     ],
+     "raws": [
+      "28%"
+     ],
+     "notes": [
+      "the most abundant of the naturally occurring isotopes"
+     ],
+     "class": 2,
+     "uncertain_reason": "",
+     "quotes": {
+      "124": "Naturally occurring dysprosium is composed of seven isotopes: ¹⁵⁶Dy, ¹⁵⁸Dy, ¹⁶⁰Dy, ¹⁶¹Dy, ¹⁶²Dy, ¹⁶³Dy, and ¹⁶⁴Dy. These are all considered stable, although only the last two are theoretically stable: the others can theoretically undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that are theoretically stable rather than only observationally stable isotopes that are predicted to be radioactive."
      }
     }
    ]
@@ -5797,6 +5878,66 @@
    ]
   },
   {
+   "object": "Eu-151",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "같은 문서"
+   ],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "본문 값"
+   ],
+   "places": [
+    {
+     "place": "wiki-en-europium:62:natural_abundance",
+     "doc_id": "wiki-en-europium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      62
+     ],
+     "values": [
+      "47.8 %"
+     ],
+     "raws": [
+      "47.8%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "62": "| ¹⁵¹Eu | 47.8% | 4.6×10¹⁸ y | α | ¹⁴⁷Pm |"
+     }
+    },
+    {
+     "place": "wiki-en-europium:176:natural_abundance",
+     "doc_id": "wiki-en-europium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      176
+     ],
+     "values": [
+      "47.81 %"
+     ],
+     "raws": [
+      "47.81%"
+     ],
+     "notes": [
+      "standard isotopic abundances"
+     ],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "176": "Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium."
+     }
+    }
+   ]
+  },
+  {
    "object": "Eu-152",
    "quantity": "half_life",
    "condition": "",
@@ -5848,6 +5989,66 @@
      "uncertain_reason": "",
      "quotes": {
       "178": "Artificial europium radioisotopes are known from ¹³⁰Eu through ¹⁷⁰Eu. The neutron-rich isotope ¹⁷⁰Eu, at the upper end of this range, was first experimentally characterised in 2022 and was measured to have a half-life of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium radioisotopes have half-lives shorter than 100 days."
+     }
+    }
+   ]
+  },
+  {
+   "object": "Eu-153",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "같은 문서"
+   ],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "본문 값"
+   ],
+   "places": [
+    {
+     "place": "wiki-en-europium:65:natural_abundance",
+     "doc_id": "wiki-en-europium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      65
+     ],
+     "values": [
+      "52.2 %"
+     ],
+     "raws": [
+      "52.2%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "65": "| ¹⁵³Eu | 52.2% | stable | stable | stable |"
+     }
+    },
+    {
+     "place": "wiki-en-europium:176:natural_abundance",
+     "doc_id": "wiki-en-europium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      176
+     ],
+     "values": [
+      "52.19 %"
+     ],
+     "raws": [
+      "52.19%"
+     ],
+     "notes": [
+      "standard isotopic abundances"
+     ],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "176": "Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium."
      }
     }
    ]
@@ -7159,6 +7360,61 @@
      ],
      "notes": [
       "long half-life"
+     ],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "93": "Naturally occurring lanthanum is made up of two isotopes, the stable ¹³⁹La and the primordial long-lived radioisotope ¹³⁸La. ¹³⁹La is by far the most abundant, making up 99.911% of natural lanthanum: it is produced in the s-process (slow neutron capture, which occurs in low- to medium-mass stars) and the r-process (rapid neutron capture, which occurs in core-collapse supernovae). It is the only stable isotope of lanthanum. The very rare isotope ¹³⁸La is one of the few primordial odd–odd nuclei, with a long half-life of 1.03×10¹¹ years. It is one of the proton-rich p-nuclei which cannot be produced in the s- or r-processes. ¹³⁸La, along with the even rarer ¹⁸⁰ᵐTa, is produced in the ν-process, where neutrinos interact with stable nuclei. All other lanthanum isotopes are synthetic: with the exception of ¹³⁷La, which has a half-life of about 60,000 years, all of them have half-lives less than two days, and most have half-lives less than a minute. The isotopes ¹³⁹La and ¹⁴⁰La occur as fission products of uranium."
+     }
+    }
+   ]
+  },
+  {
+   "object": "La-139",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-en-lanthanum:66:natural_abundance",
+     "doc_id": "wiki-en-lanthanum",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      66
+     ],
+     "values": [
+      "99.911 %"
+     ],
+     "raws": [
+      "99.911%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "66": "| ¹³⁹La | 99.911% | stable | stable | stable |"
+     }
+    },
+    {
+     "place": "wiki-en-lanthanum:93:natural_abundance",
+     "doc_id": "wiki-en-lanthanum",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      93
+     ],
+     "values": [
+      "99.911 %"
+     ],
+     "raws": [
+      "99.911%"
+     ],
+     "notes": [
+      "of natural lanthanum"
      ],
      "class": 0,
      "uncertain_reason": "",
@@ -10430,59 +10686,6 @@
   },
   {
    "object": "Lu-173",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-lutetium:56:abundance",
-     "doc_id": "wiki-ko-lutetium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      56
-     ],
-     "values": [
-      "인공"
-     ],
-     "raws": [
-      "인공"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "56": "| ¹⁷³Lu | 인공 | 1.37 y | ε | 0.671 | ¹⁷³Yb |"
-     }
-    },
-    {
-     "place": "wiki-en-lutetium:62:abundance",
-     "doc_id": "wiki-en-lutetium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      62
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "62": "| ¹⁷³Lu | synth | 1.37 y | ε | ¹⁷³Yb |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Lu-173",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -10664,8 +10867,8 @@
    ]
   },
   {
-   "object": "Lu-174",
-   "quantity": "abundance",
+   "object": "Lu-173",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "같음",
    "scopes": [],
@@ -10673,12 +10876,12 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-lutetium:57:abundance",
+     "place": "wiki-ko-lutetium:56:natural_abundance",
      "doc_id": "wiki-ko-lutetium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      57
+      56
      ],
      "values": [
       "인공"
@@ -10690,16 +10893,16 @@
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "57": "| ¹⁷⁴Lu | 인공 | 3.31 y | ε | 1.374 | ¹⁷⁴Yb |"
+      "56": "| ¹⁷³Lu | 인공 | 1.37 y | ε | 0.671 | ¹⁷³Yb |"
      }
     },
     {
-     "place": "wiki-en-lutetium:63:abundance",
+     "place": "wiki-en-lutetium:62:natural_abundance",
      "doc_id": "wiki-en-lutetium",
      "lang": "en",
      "where": "표",
      "lines": [
-      63
+      62
      ],
      "values": [
       "synth"
@@ -10711,7 +10914,7 @@
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "63": "| ¹⁷⁴Lu | synth | 3.31 y | β⁺ | ¹⁷⁴Yb |"
+      "62": "| ¹⁷³Lu | synth | 1.37 y | ε | ¹⁷³Yb |"
      }
     }
    ]
@@ -10903,56 +11106,54 @@
    ]
   },
   {
-   "object": "Lu-175",
-   "quantity": "abundance",
+   "object": "Lu-174",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
+   "verdict": "같음",
+   "scopes": [],
    "review": false,
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-lutetium:58:abundance",
+     "place": "wiki-ko-lutetium:57:natural_abundance",
      "doc_id": "wiki-ko-lutetium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      58
+      57
      ],
      "values": [
-      "97.41 %"
+      "인공"
      ],
      "raws": [
-      "97.41%"
+      "인공"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "58": "| ¹⁷⁵Lu | 97.41% | 안정 | 안정 | 안정 | 안정 |"
+      "57": "| ¹⁷⁴Lu | 인공 | 3.31 y | ε | 1.374 | ¹⁷⁴Yb |"
      }
     },
     {
-     "place": "wiki-en-lutetium:64:abundance",
+     "place": "wiki-en-lutetium:63:natural_abundance",
      "doc_id": "wiki-en-lutetium",
      "lang": "en",
      "where": "표",
      "lines": [
-      64
+      63
      ],
      "values": [
-      "97.4 %"
+      "synth"
      ],
      "raws": [
-      "97.4%"
+      "synth"
      ],
      "notes": [],
-     "class": 1,
+     "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "64": "| ¹⁷⁵Lu | 97.4% | stable | stable | stable |"
+      "63": "| ¹⁷⁴Lu | synth | 3.31 y | β⁺ | ¹⁷⁴Yb |"
      }
     }
    ]
@@ -11117,8 +11318,8 @@
    ]
   },
   {
-   "object": "Lu-176",
-   "quantity": "abundance",
+   "object": "Lu-175",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -11128,45 +11329,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-lutetium:59:abundance",
+     "place": "wiki-ko-lutetium:58:natural_abundance",
      "doc_id": "wiki-ko-lutetium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      59
+      58
      ],
      "values": [
-      "2.59 %"
+      "97.41 %"
      ],
      "raws": [
-      "2.59%"
+      "97.41%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "59": "| ¹⁷⁶Lu | 2.59% | 3.78×10¹⁰y | β⁻ | 1.193 | ¹⁷⁶Hf |"
+      "58": "| ¹⁷⁵Lu | 97.41% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-lutetium:65:abundance",
+     "place": "wiki-en-lutetium:64:natural_abundance",
      "doc_id": "wiki-en-lutetium",
      "lang": "en",
      "where": "표",
      "lines": [
-      65
+      64
      ],
      "values": [
-      "2.6 %"
+      "97.4 %"
      ],
      "raws": [
-      "2.60%"
+      "97.4%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "65": "| ¹⁷⁶Lu | 2.60% | 3.701×10¹⁰ y | β⁻ | ¹⁷⁶Hf |"
+      "64": "| ¹⁷⁵Lu | 97.4% | stable | stable | stable |"
      }
     }
    ]
@@ -11419,6 +11620,48 @@
    ],
    "places": [
     {
+     "place": "wiki-ko-lutetium:59:natural_abundance",
+     "doc_id": "wiki-ko-lutetium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      59
+     ],
+     "values": [
+      "2.59 %"
+     ],
+     "raws": [
+      "2.59%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "59": "| ¹⁷⁶Lu | 2.59% | 3.78×10¹⁰y | β⁻ | 1.193 | ¹⁷⁶Hf |"
+     }
+    },
+    {
+     "place": "wiki-en-lutetium:65:natural_abundance",
+     "doc_id": "wiki-en-lutetium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      65
+     ],
+     "values": [
+      "2.6 %"
+     ],
+     "raws": [
+      "2.60%"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "65": "| ¹⁷⁶Lu | 2.60% | 3.701×10¹⁰ y | β⁻ | ¹⁷⁶Hf |"
+     }
+    },
+    {
      "place": "wiki-ko-lutetium:65:natural_abundance",
      "doc_id": "wiki-ko-lutetium",
      "lang": "ko",
@@ -11435,7 +11678,7 @@
      "notes": [
       "상대적으로 풍부한"
      ],
-     "class": 0,
+     "class": 2,
      "uncertain_reason": "",
      "quotes": {
       "65": "루테튬은 지각에서 은보다 훨씬 더 흔하지만 특별히 풍부한 원소는 아니다. 구체적으로 이용된 사례는 거의 없다. 루테튬-176은 상대적으로 풍부한(2.5%) 방사성 동위원소로 반감기가 약 380억년으로 광물과 운석의 나이를 결정하는 데 사용된다. 루테튬은 일반적으로 이트륨 원소와 결합하여 발생하며 때때로 금속 합금 및 다양한 화학 반응의 촉매제로 사용된다. 177Lu-DOTA-TATE는 신경내분비 종양에 대한 방사성 핵종 요법(핵의학 참조)에 사용된다. 루테튬은 890-1300 MPa로 란타나이드 중에서 브리넬 경도가 가장 높다."
@@ -11481,7 +11724,7 @@
      "notes": [
       "of natural lutetium"
      ],
-     "class": 2,
+     "class": 3,
      "uncertain_reason": "",
      "quotes": {
       "92": "Lutetium occurs on the Earth in two isotopes: lutetium-175 and lutetium-176. Out of these two, only the former is stable, making the element monoisotopic. The latter one, lutetium-176, decays via beta decay with a half-life of 3.70×10¹⁰ years; it makes up about 2.6% of natural lutetium."
@@ -16634,59 +16877,6 @@
   },
   {
    "object": "Tm-167",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-thulium:56:abundance",
-     "doc_id": "wiki-ko-thulium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      56
-     ],
-     "values": [
-      "인공"
-     ],
-     "raws": [
-      "인공"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "56": "| ¹⁶⁷Tm | 인공 | 9.25 d | ε | 0.748 | ¹⁶⁷Er |"
-     }
-    },
-    {
-     "place": "wiki-en-thulium:62:abundance",
-     "doc_id": "wiki-en-thulium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      62
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "62": "| ¹⁶⁷Tm | synth | 9.25 d | ε | ¹⁶⁷Er |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Tm-167",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -16845,8 +17035,8 @@
    ]
   },
   {
-   "object": "Tm-168",
-   "quantity": "abundance",
+   "object": "Tm-167",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "같음",
    "scopes": [],
@@ -16854,12 +17044,12 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-thulium:57:abundance",
+     "place": "wiki-ko-thulium:56:natural_abundance",
      "doc_id": "wiki-ko-thulium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      57
+      56
      ],
      "values": [
       "인공"
@@ -16871,16 +17061,16 @@
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "57": "| ¹⁶⁸Tm | 인공 | 93.1 d | ε | 1.679 | ¹⁶⁸Er |"
+      "56": "| ¹⁶⁷Tm | 인공 | 9.25 d | ε | 0.748 | ¹⁶⁷Er |"
      }
     },
     {
-     "place": "wiki-en-thulium:63:abundance",
+     "place": "wiki-en-thulium:62:natural_abundance",
      "doc_id": "wiki-en-thulium",
      "lang": "en",
      "where": "표",
      "lines": [
-      63
+      62
      ],
      "values": [
       "synth"
@@ -16892,7 +17082,7 @@
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "63": "| ¹⁶⁸Tm | synth | 93.1 d | β⁺ | ¹⁶⁸Er |"
+      "62": "| ¹⁶⁷Tm | synth | 9.25 d | ε | ¹⁶⁷Er |"
      }
     }
    ]
@@ -17061,8 +17251,8 @@
    ]
   },
   {
-   "object": "Tm-169",
-   "quantity": "abundance",
+   "object": "Tm-168",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "같음",
    "scopes": [],
@@ -17070,45 +17260,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-thulium:58:abundance",
+     "place": "wiki-ko-thulium:57:natural_abundance",
      "doc_id": "wiki-ko-thulium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      58
+      57
      ],
      "values": [
-      "100 %"
+      "인공"
      ],
      "raws": [
-      "100%"
+      "인공"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "58": "| ¹⁶⁹Tm | 100% | 안정 | 안정 | 안정 | 안정 |"
+      "57": "| ¹⁶⁸Tm | 인공 | 93.1 d | ε | 1.679 | ¹⁶⁸Er |"
      }
     },
     {
-     "place": "wiki-en-thulium:64:abundance",
+     "place": "wiki-en-thulium:63:natural_abundance",
      "doc_id": "wiki-en-thulium",
      "lang": "en",
      "where": "표",
      "lines": [
-      64
+      63
      ],
      "values": [
-      "100 %"
+      "synth"
      ],
      "raws": [
-      "100%"
+      "synth"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "64": "| ¹⁶⁹Tm | 100% | stable | stable | stable |"
+      "63": "| ¹⁶⁸Tm | synth | 93.1 d | β⁺ | ¹⁶⁸Er |"
      }
     }
    ]
@@ -17273,8 +17463,8 @@
    ]
   },
   {
-   "object": "Tm-170",
-   "quantity": "abundance",
+   "object": "Tm-169",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "같음",
    "scopes": [],
@@ -17282,45 +17472,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-thulium:59:abundance",
+     "place": "wiki-ko-thulium:58:natural_abundance",
      "doc_id": "wiki-ko-thulium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      59
+      58
      ],
      "values": [
-      "인공"
+      "100 %"
      ],
      "raws": [
-      "인공"
+      "100%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "59": "| ¹⁷⁰Tm | 인공 | 128.6 d | β⁻ | 0.968 | ¹⁷⁰Yb |"
+      "58": "| ¹⁶⁹Tm | 100% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-thulium:65:abundance",
+     "place": "wiki-en-thulium:64:natural_abundance",
      "doc_id": "wiki-en-thulium",
      "lang": "en",
      "where": "표",
      "lines": [
-      65
+      64
      ],
      "values": [
-      "synth"
+      "100 %"
      ],
      "raws": [
-      "synth"
+      "100%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "65": "| ¹⁷⁰Tm | synth | 128.6 d | β⁻ | ¹⁷⁰Yb |"
+      "64": "| ¹⁶⁹Tm | 100% | stable | stable | stable |"
      }
     }
    ]
@@ -17663,8 +17853,8 @@
    ]
   },
   {
-   "object": "Tm-171",
-   "quantity": "abundance",
+   "object": "Tm-170",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "같음",
    "scopes": [],
@@ -17672,12 +17862,12 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-thulium:60:abundance",
+     "place": "wiki-ko-thulium:59:natural_abundance",
      "doc_id": "wiki-ko-thulium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      60
+      59
      ],
      "values": [
       "인공"
@@ -17689,16 +17879,16 @@
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "60": "| ¹⁷¹Tm | 인공 | 1.92 y | β⁻ | 0.096 | ¹⁷¹Yb |"
+      "59": "| ¹⁷⁰Tm | 인공 | 128.6 d | β⁻ | 0.968 | ¹⁷⁰Yb |"
      }
     },
     {
-     "place": "wiki-en-thulium:66:abundance",
+     "place": "wiki-en-thulium:65:natural_abundance",
      "doc_id": "wiki-en-thulium",
      "lang": "en",
      "where": "표",
      "lines": [
-      66
+      65
      ],
      "values": [
       "synth"
@@ -17710,7 +17900,7 @@
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "66": "| ¹⁷¹Tm | synth | 1.92 y | β⁻ | ¹⁷¹Yb |"
+      "65": "| ¹⁷⁰Tm | synth | 128.6 d | β⁻ | ¹⁷⁰Yb |"
      }
     }
    ]
@@ -17891,6 +18081,59 @@
      "uncertain_reason": "",
      "quotes": {
       "115": "The primary decay mode before the stable isotope, ¹⁶⁹Tm, is electron capture to erbium isotopes, and the primary mode after is beta emission to ytterbium isotopes. The longest-lived radioisotopes are thulium-171, which has a half-life of 1.92 years, and thulium-170, which has a half-life of 128.6 days. Most other isotopes have half-lives under 10 minutes."
+     }
+    }
+   ]
+  },
+  {
+   "object": "Tm-171",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-ko-thulium:60:natural_abundance",
+     "doc_id": "wiki-ko-thulium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      60
+     ],
+     "values": [
+      "인공"
+     ],
+     "raws": [
+      "인공"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "60": "| ¹⁷¹Tm | 인공 | 1.92 y | β⁻ | 0.096 | ¹⁷¹Yb |"
+     }
+    },
+    {
+     "place": "wiki-en-thulium:66:natural_abundance",
+     "doc_id": "wiki-en-thulium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      66
+     ],
+     "values": [
+      "synth"
+     ],
+     "raws": [
+      "synth"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "66": "| ¹⁷¹Tm | synth | 1.92 y | β⁻ | ¹⁷¹Yb |"
      }
     }
    ]
@@ -28710,62 +28953,6 @@
   },
   {
    "object": "Y-87",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-en-isotopes-of-yttrium:6:abundance",
-     "doc_id": "wiki-en-isotopes-of-yttrium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      6
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "6": "| ⁸⁷Y | synth | 79.8 h | ε | ⁸⁷Sr |"
-     }
-    },
-    {
-     "place": "wiki-ko-yttrium:57:abundance",
-     "doc_id": "wiki-ko-yttrium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      57,
-      58
-     ],
-     "values": [
-      "합성"
-     ],
-     "raws": [
-      "합성",
-      "합성"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "57": "| ⁸⁷Y | 합성 | 3.35d | ε | - | ⁸⁷Sr |",
-      "58": "| ⁸⁷Y | 합성 | 3.35d | γ | 0.48 / 0.38D | - |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Y-87",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -29140,6 +29327,62 @@
      "uncertain_reason": "",
      "quotes": {
       "59": "| ⁸⁷Y | 39 | 48 | 86.9108761(12) | 1940 | 79.8(3) h | β⁺ | ⁸⁷Sr | 1/2− |  |"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Y-87",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-en-isotopes-of-yttrium:6:natural_abundance",
+     "doc_id": "wiki-en-isotopes-of-yttrium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      6
+     ],
+     "values": [
+      "synth"
+     ],
+     "raws": [
+      "synth"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "6": "| ⁸⁷Y | synth | 79.8 h | ε | ⁸⁷Sr |"
+     }
+    },
+    {
+     "place": "wiki-ko-yttrium:57:natural_abundance",
+     "doc_id": "wiki-ko-yttrium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      57,
+      58
+     ],
+     "values": [
+      "합성"
+     ],
+     "raws": [
+      "합성",
+      "합성"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "57": "| ⁸⁷Y | 합성 | 3.35d | ε | - | ⁸⁷Sr |",
+      "58": "| ⁸⁷Y | 합성 | 3.35d | γ | 0.48 / 0.38D | - |"
      }
     }
    ]
@@ -29610,62 +29853,6 @@
   },
   {
    "object": "Y-88",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-en-isotopes-of-yttrium:7:abundance",
-     "doc_id": "wiki-en-isotopes-of-yttrium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      7
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "7": "| ⁸⁸Y | synth | 106.63 d | ε | ⁸⁸Sr |"
-     }
-    },
-    {
-     "place": "wiki-ko-yttrium:59:abundance",
-     "doc_id": "wiki-ko-yttrium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      59,
-      60
-     ],
-     "values": [
-      "합성"
-     ],
-     "raws": [
-      "합성",
-      "합성"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "59": "| ⁸⁸Y | 합성 | 106.6d | ε | - | ⁸⁸Sr |",
-      "60": "| ⁸⁸Y | 합성 | 106.6d | γ | 1.83 / 0.89 | - |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Y-88",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -30067,6 +30254,62 @@
      "uncertain_reason": "",
      "quotes": {
       "62": "| ⁸⁸Y | 39 | 49 | 87.9095013(16) | 1948 | 106.629(24) d | β⁺ | ⁸⁸Sr | 4− |  |"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Y-88",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-en-isotopes-of-yttrium:7:natural_abundance",
+     "doc_id": "wiki-en-isotopes-of-yttrium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      7
+     ],
+     "values": [
+      "synth"
+     ],
+     "raws": [
+      "synth"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "7": "| ⁸⁸Y | synth | 106.63 d | ε | ⁸⁸Sr |"
+     }
+    },
+    {
+     "place": "wiki-ko-yttrium:59:natural_abundance",
+     "doc_id": "wiki-ko-yttrium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      59,
+      60
+     ],
+     "values": [
+      "합성"
+     ],
+     "raws": [
+      "합성",
+      "합성"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "59": "| ⁸⁸Y | 합성 | 106.6d | ε | - | ⁸⁸Sr |",
+      "60": "| ⁸⁸Y | 합성 | 106.6d | γ | 1.83 / 0.89 | - |"
      }
     }
    ]
@@ -30674,59 +30917,6 @@
   },
   {
    "object": "Y-89",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-en-isotopes-of-yttrium:8:abundance",
-     "doc_id": "wiki-en-isotopes-of-yttrium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      8
-     ],
-     "values": [
-      "100 %"
-     ],
-     "raws": [
-      "100%"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "8": "| ⁸⁹Y | 100% | stable | stable | stable |"
-     }
-    },
-    {
-     "place": "wiki-ko-yttrium:61:abundance",
-     "doc_id": "wiki-ko-yttrium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      61
-     ],
-     "values": [
-      "100 %"
-     ],
-     "raws": [
-      "100%"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "61": "| ⁸⁹Y | 100% | 안정 | 안정 | 안정 | 안정 |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Y-89",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -31072,6 +31262,7 @@
    "verdict": "다름",
    "scopes": [
     "같은 문서",
+    "같은 언어의 다른 문서",
     "반대 언어"
    ],
    "review": true,
@@ -31102,6 +31293,27 @@
      }
     },
     {
+     "place": "wiki-en-isotopes-of-yttrium:8:natural_abundance",
+     "doc_id": "wiki-en-isotopes-of-yttrium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      8
+     ],
+     "values": [
+      "100 %"
+     ],
+     "raws": [
+      "100%"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "8": "| ⁸⁹Y | 100% | stable | stable | stable |"
+     }
+    },
+    {
      "place": "wiki-en-isotopes-of-yttrium:65:natural_abundance",
      "doc_id": "wiki-en-isotopes-of-yttrium",
      "lang": "en",
@@ -31120,6 +31332,27 @@
      "uncertain_reason": "",
      "quotes": {
       "65": "| ⁸⁹Y | 39 | 50 | 88.90583816(36) | 1923 | Stable | Stable | Stable | 1/2− | 1.0000 |"
+     }
+    },
+    {
+     "place": "wiki-ko-yttrium:61:natural_abundance",
+     "doc_id": "wiki-ko-yttrium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      61
+     ],
+     "values": [
+      "100 %"
+     ],
+     "raws": [
+      "100%"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "61": "| ⁸⁹Y | 100% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
@@ -31571,62 +31804,6 @@
   },
   {
    "object": "Y-90",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-en-isotopes-of-yttrium:9:abundance",
-     "doc_id": "wiki-en-isotopes-of-yttrium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      9
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "9": "| ⁹⁰Y | synth | 64.05 h | β⁻ | ⁹⁰Zr |"
-     }
-    },
-    {
-     "place": "wiki-ko-yttrium:62:abundance",
-     "doc_id": "wiki-ko-yttrium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      62,
-      63
-     ],
-     "values": [
-      "합성"
-     ],
-     "raws": [
-      "합성",
-      "합성"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "62": "| ⁹⁰Y | 합성 | 2.67d | β- | 2.28 | ⁹⁰Zr |",
-      "63": "| ⁹⁰Y | 합성 | 2.67d | γ | 2.18 | - |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Y-90",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -32021,6 +32198,62 @@
      "uncertain_reason": "",
      "quotes": {
       "67": "| ⁹⁰Y | 39 | 51 | 89.90714175(38) | 1937 | 64.05(5) h | β⁻ | ⁹⁰Zr | 2− |  |"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Y-90",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-en-isotopes-of-yttrium:9:natural_abundance",
+     "doc_id": "wiki-en-isotopes-of-yttrium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      9
+     ],
+     "values": [
+      "synth"
+     ],
+     "raws": [
+      "synth"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "9": "| ⁹⁰Y | synth | 64.05 h | β⁻ | ⁹⁰Zr |"
+     }
+    },
+    {
+     "place": "wiki-ko-yttrium:62:natural_abundance",
+     "doc_id": "wiki-ko-yttrium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      62,
+      63
+     ],
+     "values": [
+      "합성"
+     ],
+     "raws": [
+      "합성",
+      "합성"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "62": "| ⁹⁰Y | 합성 | 2.67d | β- | 2.28 | ⁹⁰Zr |",
+      "63": "| ⁹⁰Y | 합성 | 2.67d | γ | 2.18 | - |"
      }
     }
    ]
@@ -32495,62 +32728,6 @@
   },
   {
    "object": "Y-91",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-en-isotopes-of-yttrium:10:abundance",
-     "doc_id": "wiki-en-isotopes-of-yttrium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      10
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "10": "| ⁹¹Y | synth | 58.51 d | β⁻ | ⁹¹Zr |"
-     }
-    },
-    {
-     "place": "wiki-ko-yttrium:64:abundance",
-     "doc_id": "wiki-ko-yttrium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      64,
-      65
-     ],
-     "values": [
-      "합성"
-     ],
-     "raws": [
-      "합성",
-      "합성"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "64": "| ⁹¹Y | 합성 | 58.5d | β- | 1.54 | ⁹¹Zr |",
-      "65": "| ⁹¹Y | 합성 | 58.5d | γ | 1.20 | - |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Y-91",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -32951,6 +33128,62 @@
      "uncertain_reason": "",
      "quotes": {
       "70": "| ⁹¹Y | 39 | 52 | 90.9072980(20) | 1943 | 58.51(6) d | β⁻ | ⁹¹Zr | 1/2− |  |"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Y-91",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-en-isotopes-of-yttrium:10:natural_abundance",
+     "doc_id": "wiki-en-isotopes-of-yttrium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      10
+     ],
+     "values": [
+      "synth"
+     ],
+     "raws": [
+      "synth"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "10": "| ⁹¹Y | synth | 58.51 d | β⁻ | ⁹¹Zr |"
+     }
+    },
+    {
+     "place": "wiki-ko-yttrium:64:natural_abundance",
+     "doc_id": "wiki-ko-yttrium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      64,
+      65
+     ],
+     "values": [
+      "합성"
+     ],
+     "raws": [
+      "합성",
+      "합성"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "64": "| ⁹¹Y | 합성 | 58.5d | β- | 1.54 | ⁹¹Zr |",
+      "65": "| ⁹¹Y | 합성 | 58.5d | γ | 1.20 | - |"
      }
     }
    ]
@@ -42166,59 +42399,6 @@
   },
   {
    "object": "Yb-166",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-ytterbium:59:abundance",
-     "doc_id": "wiki-ko-ytterbium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      59
-     ],
-     "values": [
-      "인공"
-     ],
-     "raws": [
-      "인공"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "59": "| ¹⁶⁶Yb | 인공 | 56.7 h | ε | 0.304 | ¹⁶⁶Tm |"
-     }
-    },
-    {
-     "place": "wiki-en-ytterbium:63:abundance",
-     "doc_id": "wiki-en-ytterbium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      63
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "63": "| ¹⁶⁶Yb | synth | 56.7 h | ε | ¹⁶⁶Tm |"
-     }
-    }
-   ]
-  },
-  {
-   "object": "Yb-166",
    "quantity": "daughter",
    "condition": "",
    "verdict": "같음",
@@ -42421,56 +42601,54 @@
    ]
   },
   {
-   "object": "Yb-168",
-   "quantity": "abundance",
+   "object": "Yb-166",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
+   "verdict": "같음",
+   "scopes": [],
    "review": false,
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:60:abundance",
+     "place": "wiki-ko-ytterbium:59:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      60
+      59
      ],
      "values": [
-      "0.13 %"
+      "인공"
      ],
      "raws": [
-      "0.13%"
+      "인공"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "60": "| ¹⁶⁸Yb | 0.13% | 안정 | 안정 | 안정 | 안정 |"
+      "59": "| ¹⁶⁶Yb | 인공 | 56.7 h | ε | 0.304 | ¹⁶⁶Tm |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:64:abundance",
+     "place": "wiki-en-ytterbium:63:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      64
+      63
      ],
      "values": [
-      "0.126 %"
+      "synth"
      ],
      "raws": [
-      "0.126%"
+      "synth"
      ],
      "notes": [],
-     "class": 1,
+     "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "64": "| ¹⁶⁸Yb | 0.126% | stable | stable | stable |"
+      "63": "| ¹⁶⁶Yb | synth | 56.7 h | ε | ¹⁶⁶Tm |"
      }
     }
    ]
@@ -42635,54 +42813,56 @@
    ]
   },
   {
-   "object": "Yb-169",
-   "quantity": "abundance",
+   "object": "Yb-168",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "같음",
-   "scopes": [],
+   "verdict": "다름",
+   "scopes": [
+    "반대 언어"
+   ],
    "review": false,
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:61:abundance",
+     "place": "wiki-ko-ytterbium:60:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      61
+      60
      ],
      "values": [
-      "인공"
+      "0.13 %"
      ],
      "raws": [
-      "인공"
+      "0.13%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "61": "| ¹⁶⁹Yb | 인공 | 32.026 d | ε | 0.909 | ¹⁶⁹Tm |"
+      "60": "| ¹⁶⁸Yb | 0.13% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:65:abundance",
+     "place": "wiki-en-ytterbium:64:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      65
+      64
      ],
      "values": [
-      "synth"
+      "0.126 %"
      ],
      "raws": [
-      "synth"
+      "0.126%"
      ],
      "notes": [],
-     "class": 0,
+     "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "65": "| ¹⁶⁹Yb | synth | 32.014 d | ε | ¹⁶⁹Tm |"
+      "64": "| ¹⁶⁸Yb | 0.126% | stable | stable | stable |"
      }
     }
    ]
@@ -43008,6 +43188,59 @@
    ]
   },
   {
+   "object": "Yb-169",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "같음",
+   "scopes": [],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-ko-ytterbium:61:natural_abundance",
+     "doc_id": "wiki-ko-ytterbium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      61
+     ],
+     "values": [
+      "인공"
+     ],
+     "raws": [
+      "인공"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "61": "| ¹⁶⁹Yb | 인공 | 32.026 d | ε | 0.909 | ¹⁶⁹Tm |"
+     }
+    },
+    {
+     "place": "wiki-en-ytterbium:65:natural_abundance",
+     "doc_id": "wiki-en-ytterbium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      65
+     ],
+     "values": [
+      "synth"
+     ],
+     "raws": [
+      "synth"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "65": "| ¹⁶⁹Yb | synth | 32.014 d | ε | ¹⁶⁹Tm |"
+     }
+    }
+   ]
+  },
+  {
    "object": "Yb-169m",
    "quantity": "half_life",
    "condition": "",
@@ -43058,61 +43291,6 @@
      "uncertain_reason": "",
      "quotes": {
       "119": "Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds)."
-     }
-    }
-   ]
-  },
-  {
-   "object": "Yb-170",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-ytterbium:62:abundance",
-     "doc_id": "wiki-ko-ytterbium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      62
-     ],
-     "values": [
-      "3.05 %"
-     ],
-     "raws": [
-      "3.05%"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "62": "| ¹⁷⁰Yb | 3.05% | 안정 | 안정 | 안정 | 안정 |"
-     }
-    },
-    {
-     "place": "wiki-en-ytterbium:66:abundance",
-     "doc_id": "wiki-en-ytterbium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      66
-     ],
-     "values": [
-      "3.02 %"
-     ],
-     "raws": [
-      "3.02%"
-     ],
-     "notes": [],
-     "class": 1,
-     "uncertain_reason": "",
-     "quotes": {
-      "66": "| ¹⁷⁰Yb | 3.02% | stable | stable | stable |"
      }
     }
    ]
@@ -43277,8 +43455,8 @@
    ]
   },
   {
-   "object": "Yb-171",
-   "quantity": "abundance",
+   "object": "Yb-170",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -43288,45 +43466,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:63:abundance",
+     "place": "wiki-ko-ytterbium:62:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      63
+      62
      ],
      "values": [
-      "14.3 %"
+      "3.05 %"
      ],
      "raws": [
-      "14.3%"
+      "3.05%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "63": "| ¹⁷¹Yb | 14.3% | 안정 | 안정 | 안정 | 안정 |"
+      "62": "| ¹⁷⁰Yb | 3.05% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:67:abundance",
+     "place": "wiki-en-ytterbium:66:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      67
+      66
      ],
      "values": [
-      "14.2 %"
+      "3.02 %"
      ],
      "raws": [
-      "14.2%"
+      "3.02%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "67": "| ¹⁷¹Yb | 14.2% | stable | stable | stable |"
+      "66": "| ¹⁷⁰Yb | 3.02% | stable | stable | stable |"
      }
     }
    ]
@@ -43491,8 +43669,8 @@
    ]
   },
   {
-   "object": "Yb-172",
-   "quantity": "abundance",
+   "object": "Yb-171",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -43502,45 +43680,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:64:abundance",
+     "place": "wiki-ko-ytterbium:63:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      64
+      63
      ],
      "values": [
-      "21.9 %"
+      "14.3 %"
      ],
      "raws": [
-      "21.9%"
+      "14.3%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "64": "| ¹⁷²Yb | 21.9% | 안정 | 안정 | 안정 | 안정 |"
+      "63": "| ¹⁷¹Yb | 14.3% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:68:abundance",
+     "place": "wiki-en-ytterbium:67:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      68
+      67
      ],
      "values": [
-      "21.8 %"
+      "14.2 %"
      ],
      "raws": [
-      "21.8%"
+      "14.2%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "68": "| ¹⁷²Yb | 21.8% | stable | stable | stable |"
+      "67": "| ¹⁷¹Yb | 14.2% | stable | stable | stable |"
      }
     }
    ]
@@ -43705,8 +43883,8 @@
    ]
   },
   {
-   "object": "Yb-173",
-   "quantity": "abundance",
+   "object": "Yb-172",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -43716,45 +43894,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:65:abundance",
+     "place": "wiki-ko-ytterbium:64:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      65
+      64
      ],
      "values": [
-      "16.12 %"
+      "21.9 %"
      ],
      "raws": [
-      "16.12%"
+      "21.9%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "65": "| ¹⁷³Yb | 16.12% | 안정 | 안정 | 안정 | 안정 |"
+      "64": "| ¹⁷²Yb | 21.9% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:69:abundance",
+     "place": "wiki-en-ytterbium:68:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      69
+      68
      ],
      "values": [
-      "16.1 %"
+      "21.8 %"
      ],
      "raws": [
-      "16.1%"
+      "21.8%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "69": "| ¹⁷³Yb | 16.1% | stable | stable | stable |"
+      "68": "| ¹⁷²Yb | 21.8% | stable | stable | stable |"
      }
     }
    ]
@@ -43919,8 +44097,8 @@
    ]
   },
   {
-   "object": "Yb-174",
-   "quantity": "abundance",
+   "object": "Yb-173",
+   "quantity": "natural_abundance",
    "condition": "",
    "verdict": "다름",
    "scopes": [
@@ -43930,45 +44108,45 @@
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:66:abundance",
+     "place": "wiki-ko-ytterbium:65:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      66
+      65
      ],
      "values": [
-      "31.8 %"
+      "16.12 %"
      ],
      "raws": [
-      "31.8%"
+      "16.12%"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "66": "| ¹⁷⁴Yb | 31.8% | 안정 | 안정 | 안정 | 안정 |"
+      "65": "| ¹⁷³Yb | 16.12% | 안정 | 안정 | 안정 | 안정 |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:70:abundance",
+     "place": "wiki-en-ytterbium:69:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      70
+      69
      ],
      "values": [
-      "31.9 %"
+      "16.1 %"
      ],
      "raws": [
-      "31.9%"
+      "16.1%"
      ],
      "notes": [],
      "class": 1,
      "uncertain_reason": "",
      "quotes": {
-      "70": "| ¹⁷⁴Yb | 31.9% | stable | stable | stable |"
+      "69": "| ¹⁷³Yb | 16.1% | stable | stable | stable |"
      }
     }
    ]
@@ -44147,6 +44325,48 @@
    ],
    "places": [
     {
+     "place": "wiki-ko-ytterbium:66:natural_abundance",
+     "doc_id": "wiki-ko-ytterbium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      66
+     ],
+     "values": [
+      "31.8 %"
+     ],
+     "raws": [
+      "31.8%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "66": "| ¹⁷⁴Yb | 31.8% | 안정 | 안정 | 안정 | 안정 |"
+     }
+    },
+    {
+     "place": "wiki-en-ytterbium:70:natural_abundance",
+     "doc_id": "wiki-en-ytterbium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      70
+     ],
+     "values": [
+      "31.9 %"
+     ],
+     "raws": [
+      "31.9%"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "70": "| ¹⁷⁴Yb | 31.9% | stable | stable | stable |"
+     }
+    },
+    {
      "place": "wiki-ko-ytterbium:117:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
@@ -44190,59 +44410,6 @@
      "uncertain_reason": "",
      "quotes": {
       "119": "Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds)."
-     }
-    }
-   ]
-  },
-  {
-   "object": "Yb-175",
-   "quantity": "abundance",
-   "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
-   "places": [
-    {
-     "place": "wiki-ko-ytterbium:67:abundance",
-     "doc_id": "wiki-ko-ytterbium",
-     "lang": "ko",
-     "where": "표",
-     "lines": [
-      67
-     ],
-     "values": [
-      "인공"
-     ],
-     "raws": [
-      "인공"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "67": "| ¹⁷⁵Yb | 인공 | 4.185 d | β⁻ | 0.470 | ¹⁷⁵Lu |"
-     }
-    },
-    {
-     "place": "wiki-en-ytterbium:71:abundance",
-     "doc_id": "wiki-en-ytterbium",
-     "lang": "en",
-     "where": "표",
-     "lines": [
-      71
-     ],
-     "values": [
-      "synth"
-     ],
-     "raws": [
-      "synth"
-     ],
-     "notes": [],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "71": "| ¹⁷⁵Yb | synth | 4.185 d | β⁻ | ¹⁷⁵Lu |"
      }
     }
    ]
@@ -44478,56 +44645,54 @@
    ]
   },
   {
-   "object": "Yb-176",
-   "quantity": "abundance",
+   "object": "Yb-175",
+   "quantity": "natural_abundance",
    "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "반대 언어"
-   ],
+   "verdict": "같음",
+   "scopes": [],
    "review": false,
    "reasons": [],
    "places": [
     {
-     "place": "wiki-ko-ytterbium:68:abundance",
+     "place": "wiki-ko-ytterbium:67:natural_abundance",
      "doc_id": "wiki-ko-ytterbium",
      "lang": "ko",
      "where": "표",
      "lines": [
-      68
+      67
      ],
      "values": [
-      "12.7 %"
+      "인공"
      ],
      "raws": [
-      "12.7%"
+      "인공"
      ],
      "notes": [],
      "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "68": "| ¹⁷⁶Yb | 12.7% | 안정 | 안정 | 안정 | 안정 |"
+      "67": "| ¹⁷⁵Yb | 인공 | 4.185 d | β⁻ | 0.470 | ¹⁷⁵Lu |"
      }
     },
     {
-     "place": "wiki-en-ytterbium:72:abundance",
+     "place": "wiki-en-ytterbium:71:natural_abundance",
      "doc_id": "wiki-en-ytterbium",
      "lang": "en",
      "where": "표",
      "lines": [
-      72
+      71
      ],
      "values": [
-      "12.9 %"
+      "synth"
      ],
      "raws": [
-      "12.9%"
+      "synth"
      ],
      "notes": [],
-     "class": 1,
+     "class": 0,
      "uncertain_reason": "",
      "quotes": {
-      "72": "| ¹⁷⁶Yb | 12.9% | stable | stable | stable |"
+      "71": "| ¹⁷⁵Yb | synth | 4.185 d | β⁻ | ¹⁷⁵Lu |"
      }
     }
    ]
@@ -44684,6 +44849,61 @@
      ],
      "notes": [],
      "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "72": "| ¹⁷⁶Yb | 12.9% | stable | stable | stable |"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Yb-176",
+   "quantity": "natural_abundance",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "반대 언어"
+   ],
+   "review": false,
+   "reasons": [],
+   "places": [
+    {
+     "place": "wiki-ko-ytterbium:68:natural_abundance",
+     "doc_id": "wiki-ko-ytterbium",
+     "lang": "ko",
+     "where": "표",
+     "lines": [
+      68
+     ],
+     "values": [
+      "12.7 %"
+     ],
+     "raws": [
+      "12.7%"
+     ],
+     "notes": [],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "68": "| ¹⁷⁶Yb | 12.7% | 안정 | 안정 | 안정 | 안정 |"
+     }
+    },
+    {
+     "place": "wiki-en-ytterbium:72:natural_abundance",
+     "doc_id": "wiki-en-ytterbium",
+     "lang": "en",
+     "where": "표",
+     "lines": [
+      72
+     ],
+     "values": [
+      "12.9 %"
+     ],
+     "raws": [
+      "12.9%"
+     ],
+     "notes": [],
+     "class": 1,
      "uncertain_reason": "",
      "quotes": {
       "72": "| ¹⁷⁶Yb | 12.9% | stable | stable | stable |"
