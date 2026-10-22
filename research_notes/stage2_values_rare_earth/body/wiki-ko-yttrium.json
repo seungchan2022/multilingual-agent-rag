@@ -1,0 +1,199 @@
+[
+ {
+  "id": "wiki-ko-yttrium:67:126-128",
+  "value": true,
+  "object": "Y",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "39"
+ },
+ {
+  "id": "wiki-ko-yttrium:79:34-35",
+  "value": true,
+  "object": "Y",
+  "quantity": "group",
+  "condition": "",
+  "note": [],
+  "raw": "3족"
+ },
+ {
+  "id": "wiki-ko-yttrium:79:178-179",
+  "value": true,
+  "object": "La",
+  "quantity": "group",
+  "condition": "",
+  "note": [],
+  "raw": "3족"
+ },
+ {
+  "id": "wiki-ko-yttrium:79:181-182",
+  "value": true,
+  "object": "La",
+  "quantity": "period",
+  "condition": "",
+  "note": [],
+  "raw": "6주기"
+ },
+ {
+  "id": "wiki-ko-yttrium:79:234-235",
+  "value": true,
+  "object": "Y",
+  "quantity": "period",
+  "condition": "",
+  "note": [],
+  "raw": "5주기"
+ },
+ {
+  "id": "wiki-ko-yttrium:81:99-105",
+  "value": true,
+  "object": "Y",
+  "quantity": "oxide_film_formation_temperature",
+  "condition": "",
+  "note": [
+   "수증기 안에서"
+  ],
+  "raw": "750 °C"
+ },
+ {
+  "id": "wiki-ko-yttrium:81:114-118",
+  "value": true,
+  "object": "Y2O3",
+  "quantity": "oxide_film_thickness",
+  "condition": "",
+  "note": [
+   "수증기 안에서 750 °C 로 가열될 때"
+  ],
+  "raw": "1 μm"
+ },
+ {
+  "id": "wiki-ko-yttrium:81:174-180",
+  "value": true,
+  "object": "Y",
+  "quantity": "ignition_temperature",
+  "condition": "",
+  "note": [
+   "작은 이트륨 조각"
+  ],
+  "raw": "400 °C 이상"
+ },
+ {
+  "id": "wiki-ko-yttrium:81:232-239",
+  "value": true,
+  "object": "YN",
+  "quantity": "formation_temperature",
+  "condition": "",
+  "note": [
+   "질소(N) 기체 안에서"
+  ],
+  "raw": "1000 °C"
+ },
+ {
+  "id": "wiki-ko-yttrium:89:40-42",
+  "value": true,
+  "object": "Y",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-yttrium:89:69-71",
+  "value": true,
+  "object": "lanthanides",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "+3을 제외한 다른 산화수"
+  ],
+  "raw": "+3",
+  "uncertain": true,
+  "reason": "란타넘족 원소 일부가 +3 외의 산화수도 가진다는 문장 속의 +3이라 값 자체라기보다 비교 기준임"
+ },
+ {
+  "id": "wiki-ko-yttrium:89:124-126",
+  "value": true,
+  "object": "lanthanides",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "주요 산화수"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-yttrium:89:130-132",
+  "value": true,
+  "object": "lanthanides",
+  "quantity": "number_of_elements",
+  "condition": "",
+  "note": [],
+  "raw": "15종"
+ },
+ {
+  "id": "wiki-ko-yttrium:93:8-10",
+  "value": true,
+  "object": "Y",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "주요 산화수"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-yttrium:93:107-108",
+  "value": true,
+  "object": "Y2O3",
+  "quantity": "coordination_number",
+  "condition": "",
+  "note": [
+   "배위 결합"
+  ],
+  "raw": "6개"
+ },
+ {
+  "id": "wiki-ko-yttrium:97:67-73",
+  "value": true,
+  "object": "yttrium trihalides",
+  "quantity": "formation_temperature",
+  "condition": "",
+  "note": [
+   "플루오린화 이트륨(III), 염화 이트륨(III), 브로민화 이트륨(III)"
+  ],
+  "raw": "약 200 °C 이상"
+ },
+ {
+  "id": "wiki-ko-yttrium:99:85-86",
+  "value": true,
+  "object": "Y",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "몇몇 유기 이트륨 화합물"
+  ],
+  "raw": "0"
+ },
+ {
+  "id": "wiki-ko-yttrium:99:116-118",
+  "value": true,
+  "object": "Y",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "염화물이 녹을 때"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-ko-yttrium:99:136-138",
+  "value": true,
+  "object": "Y",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "기체 상태에 있는 산화물의 '무리(cluster)'"
+  ],
+  "raw": "+1"
+ }
+]

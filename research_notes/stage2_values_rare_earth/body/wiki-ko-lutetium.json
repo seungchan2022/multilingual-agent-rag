@@ -1,0 +1,112 @@
+[
+ {
+  "id": "wiki-ko-lutetium:61:107-109",
+  "value": true,
+  "object": "Lu",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "71"
+ },
+ {
+  "id": "wiki-ko-lutetium:61:223-228",
+  "value": true,
+  "object": "Lu",
+  "quantity": "cassiopeium_name_used_until",
+  "condition": "",
+  "note": [
+   "독일에서는"
+  ],
+  "raw": "1949년"
+ },
+ {
+  "id": "wiki-ko-lutetium:63:5-10",
+  "value": true,
+  "object": "Lu",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "독립적으로 발견되었다"
+  ],
+  "raw": "1907년"
+ },
+ {
+  "id": "wiki-ko-lutetium:63:357-362",
+  "value": true,
+  "object": "Lu",
+  "quantity": "spelling_change_year",
+  "condition": "",
+  "note": [
+   "철자가 루테튬으로 변경"
+  ],
+  "raw": "1949년"
+ },
+ {
+  "id": "wiki-ko-lutetium:63:381-386",
+  "value": true,
+  "object": "Lu",
+  "quantity": "priority_awarded_year",
+  "condition": "",
+  "note": [
+   "위르뱅에게 우선권이 부여되었고"
+  ],
+  "raw": "1909년"
+ },
+ {
+  "id": "wiki-ko-lutetium:63:445-447",
+  "value": true,
+  "object": "Lu",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "71번 원소"
+ },
+ {
+  "id": "wiki-ko-lutetium:63:485-491",
+  "value": true,
+  "object": "Lu",
+  "quantity": "cassiopeium_name_used_until",
+  "condition": "",
+  "note": [
+   "많은 독일 과학자들에 의해 사용"
+  ],
+  "raw": "1950년대"
+ },
+ {
+  "id": "wiki-ko-lutetium:65:81-85",
+  "value": true,
+  "object": "Lu-176",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "상대적으로 풍부한"
+  ],
+  "raw": "2.5%"
+ },
+ {
+  "id": "wiki-ko-lutetium:65:104-109",
+  "value": true,
+  "object": "Lu-176",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "약 380억년"
+ },
+ {
+  "id": "wiki-ko-lutetium:65:260-263",
+  "value": true,
+  "object": "Lu",
+  "quantity": "brinell_hardness",
+  "condition": "",
+  "note": [
+   "란타나이드 중에서",
+   "가장 높다"
+  ],
+  "raw": "890-1300 MPa"
+ },
+ {
+  "id": "wiki-ko-lutetium:65:264-272",
+  "value": true,
+  "part_of": "wiki-ko-lutetium:65:260-263"
+ }
+]

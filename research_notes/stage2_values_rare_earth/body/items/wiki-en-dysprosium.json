@@ -1,0 +1,882 @@
+[
+ {
+  "id": "wiki-en-dysprosium:75:69-71",
+  "line": 75,
+  "raw": "66",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Dysprosium is a chemical element; it has symbol Dy and atomic number 66. It is a rare-earth element in the lanthanide series with a"
+ },
+ {
+  "id": "wiki-en-dysprosium:77:35-39",
+  "line": 77,
+  "raw": "1886",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Dysprosium was first identified in 1886 by Paul Émile Lecoq de Boisbaudran, but it was not isolated"
+ },
+ {
+  "id": "wiki-en-dysprosium:77:169-174",
+  "line": 77,
+  "raw": "1950s",
+  "kind": "날짜",
+  "unit": null,
+  "context": " it was not isolated in pure form until the development of ion-exchange techniques in the 1950s. Dysprosium is used to produce neodymium-iron-boron (NdFeB)"
+ },
+ {
+  "id": "wiki-en-dysprosium:77:488-497",
+  "line": 77,
+  "raw": "5.44×10⁻³",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "on in making control rods in nuclear reactors, for its high magnetic susceptibility (χv ≈ 5.44×10⁻³) in data-storage applications, and as a component of Terfen"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:202-208",
+  "line": 85,
+  "raw": "90.5 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "rosium has a simple ferromagnetic ordering at temperatures below its Curie temperature of 90.5 K (−182.7 °C), at which point it undergoes a first-order phas"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:210-219",
+  "line": 85,
+  "raw": "−182.7 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "as a simple ferromagnetic ordering at temperatures below its Curie temperature of 90.5 K (−182.7 °C), at which point it undergoes a first-order phase transitio"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:642-647",
+  "line": 85,
+  "raw": "179 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "ers. This unusual antiferromagnetism transforms into a disordered (paramagnetic) state at 179 K (−94 °C). It transforms from the hcp phase to the body-cent"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:649-655",
+  "line": 85,
+  "raw": "−94 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "is unusual antiferromagnetism transforms into a disordered (paramagnetic) state at 179 K (−94 °C). It transforms from the hcp phase to the body-centered cub"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:727-734",
+  "line": 85,
+  "raw": "1,654 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "e at 179 K (−94 °C). It transforms from the hcp phase to the body-centered cubic phase at 1,654 K (1,381 °C)."
+ },
+ {
+  "id": "wiki-en-dysprosium:85:736-744",
+  "line": 85,
+  "raw": "1,381 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "K (−94 °C). It transforms from the hcp phase to the body-centered cubic phase at 1,654 K (1,381 °C)."
+ },
+ {
+  "id": "wiki-en-dysprosium:91:0-1",
+  "line": 91,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Dy + 3 O2 → 2 Dy2O3"
+ },
+ {
+  "id": "wiki-en-dysprosium:91:7-8",
+  "line": 91,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Dy + 3 O2 → 2 Dy2O3"
+ },
+ {
+  "id": "wiki-en-dysprosium:91:14-15",
+  "line": 91,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Dy + 3 O2 → 2 Dy2O3"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:0-1",
+  "line": 95,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 6 H2O(l) → 2 Dy(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:10-11",
+  "line": 95,
+  "raw": "6",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 6 H2O(l) → 2 Dy(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:21-22",
+  "line": 95,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 6 H2O(l) → 2 Dy(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:29-30",
+  "line": 95,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 6 H2O(l) → 2 Dy(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:37-38",
+  "line": 95,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 6 H2O(l) → 2 Dy(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:99:66-72",
+  "line": 99,
+  "raw": "200 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "Dysprosium metal vigorously reacts with all the halogens at above 200 °C:"
+ },
+ {
+  "id": "wiki-en-dysprosium:101:0-1",
+  "line": 101,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 F2(g) → 2 DyF3(s) [green]"
+ },
+ {
+  "id": "wiki-en-dysprosium:101:10-11",
+  "line": 101,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 F2(g) → 2 DyF3(s) [green]"
+ },
+ {
+  "id": "wiki-en-dysprosium:101:20-21",
+  "line": 101,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 F2(g) → 2 DyF3(s) [green]"
+ },
+ {
+  "id": "wiki-en-dysprosium:102:0-1",
+  "line": 102,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 Cl2(g) → 2 DyCl3(s) [white]"
+ },
+ {
+  "id": "wiki-en-dysprosium:102:10-11",
+  "line": 102,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 Cl2(g) → 2 DyCl3(s) [white]"
+ },
+ {
+  "id": "wiki-en-dysprosium:102:21-22",
+  "line": 102,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 Cl2(g) → 2 DyCl3(s) [white]"
+ },
+ {
+  "id": "wiki-en-dysprosium:103:0-1",
+  "line": 103,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 Br2(l) → 2 DyBr3(s) [white]"
+ },
+ {
+  "id": "wiki-en-dysprosium:103:10-11",
+  "line": 103,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 Br2(l) → 2 DyBr3(s) [white]"
+ },
+ {
+  "id": "wiki-en-dysprosium:103:21-22",
+  "line": 103,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 Br2(l) → 2 DyBr3(s) [white]"
+ },
+ {
+  "id": "wiki-en-dysprosium:104:0-1",
+  "line": 104,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 I2(g) → 2 DyI3(s) [green]"
+ },
+ {
+  "id": "wiki-en-dysprosium:104:10-11",
+  "line": 104,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 I2(g) → 2 DyI3(s) [green]"
+ },
+ {
+  "id": "wiki-en-dysprosium:104:20-21",
+  "line": 104,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 I2(g) → 2 DyI3(s) [green]"
+ },
+ {
+  "id": "wiki-en-dysprosium:106:132-133",
+  "line": 106,
+  "raw": "9",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "furic acid to form solutions containing the yellow Dy(III) ions, which exist as a [Dy(H2O)9]³⁺ complex:"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:0-1",
+  "line": 108,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 H2SO4(aq) → 2 Dy³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:10-11",
+  "line": 108,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 H2SO4(aq) → 2 Dy³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:24-25",
+  "line": 108,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 H2SO4(aq) → 2 Dy³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:37-38",
+  "line": 108,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 H2SO4(aq) → 2 Dy³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:51-52",
+  "line": 108,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Dy(s) + 3 H2SO4(aq) → 2 Dy³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-dysprosium:116:136-138",
+  "line": 116,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " high temperatures to form binary compounds with varying composition and oxidation states +3 and sometimes +2, such as DyN, DyP, DyH2 and DyH3; DyS, DyS"
+ },
+ {
+  "id": "wiki-en-dysprosium:116:153-155",
+  "line": 116,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "s to form binary compounds with varying composition and oxidation states +3 and sometimes +2, such as DyN, DyP, DyH2 and DyH3; DyS, DyS2, Dy2S3 and Dy5S"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:30-31",
+  "line": 118,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Dysprosium carbonate, Dy2(CO3)3, and dysprosium sulfate, Dy2(SO4)3, result from similar rea"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:65-66",
+  "line": 118,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Dysprosium carbonate, Dy2(CO3)3, and dysprosium sulfate, Dy2(SO4)3, result from similar reactions. Most dysprosium compounds a"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:197-198",
+  "line": 118,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "prosium compounds are soluble in water, though dysprosium carbonate tetrahydrate (Dy2(CO3)3·4H2O) and dysprosium oxalate decahydrate (Dy2(C2O4)3·10H2O)"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:250-251",
+  "line": 118,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "sium carbonate tetrahydrate (Dy2(CO3)3·4H2O) and dysprosium oxalate decahydrate (Dy2(C2O4)3·10H2O) are both insoluble in water. Two of the most abundan"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:344-345",
+  "line": 118,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "H2O) are both insoluble in water. Two of the most abundant dysprosium carbonates, Dy2(CO3)3·2-3H2O (similar to the mineral tengerite-(Y)), and DyCO3(OH"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:346-347",
+  "line": 118,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "O) are both insoluble in water. Two of the most abundant dysprosium carbonates, Dy2(CO3)3·2-3H2O (similar to the mineral tengerite-(Y)), and DyCO3(OH) "
+ },
+ {
+  "id": "wiki-en-dysprosium:118:553-554",
+  "line": 118,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " known to form via a poorly ordered (amorphous) precursor phase with a formula of Dy2(CO3)3·4H2O. This amorphous precursor consists of highly hydrated "
+ },
+ {
+  "id": "wiki-en-dysprosium:118:641-643",
+  "line": 118,
+  "raw": "10",
+  "kind": "양",
+  "unit": "nm",
+  "context": "3)3·4H2O. This amorphous precursor consists of highly hydrated spherical nanoparticles of 10–20 nm diameter that are exceptionally stable under dry trea"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:644-649",
+  "line": 118,
+  "raw": "20 nm",
+  "kind": "양",
+  "unit": "nm",
+  "context": "·4H2O. This amorphous precursor consists of highly hydrated spherical nanoparticles of 10–20 nm diameter that are exceptionally stable under dry treatment "
+ },
+ {
+  "id": "wiki-en-dysprosium:124:318-321",
+  "line": 124,
+  "raw": "28%",
+  "kind": "비율",
+  "unit": null,
+  "context": "y undergo alpha decay. Of the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dy"
+ },
+ {
+  "id": "wiki-en-dysprosium:124:344-347",
+  "line": 124,
+  "raw": "26%",
+  "kind": "비율",
+  "unit": null,
+  "context": "the naturally occurring isotopes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest e"
+ },
+ {
+  "id": "wiki-en-dysprosium:124:372-377",
+  "line": 124,
+  "raw": "0.06%",
+  "kind": "비율",
+  "unit": null,
+  "context": "opes, ¹⁶⁴Dy is the most abundant at 28%, followed by ¹⁶²Dy at 26%; the rarest is ¹⁵⁶Dy at 0.06%. Dysprosium is the heaviest element to have isotopes that a"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:77-80",
+  "line": 126,
+  "raw": "138",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Twenty-nine radioisotopes have been synthesized, ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:84-87",
+  "line": 126,
+  "raw": "173",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Twenty-nine radioisotopes have been synthesized, ranging in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 1.4"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:144-158",
+  "line": 126,
+  "raw": "1.40×10⁶ years",
+  "kind": "양",
+  "unit": "years",
+  "context": "ng in atomic mass from 138 to 173. The most stable of these is ¹⁵⁴Dy, with a half-life of 1.40×10⁶ years, followed by ¹⁵⁹Dy with a half-life of 144.4 days. As a gen"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:198-208",
+  "line": 126,
+  "raw": "144.4 days",
+  "kind": "양",
+  "unit": "days",
+  "context": "these is ¹⁵⁴Dy, with a half-life of 1.40×10⁶ years, followed by ¹⁵⁹Dy with a half-life of 144.4 days. As a general rule, isotopes that are lighter than the stab"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:486-488",
+  "line": 126,
+  "raw": "11",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ure, while those that are heavier tend to decay by β⁻ decay. Dysprosium also has at least 11 metastable isomers, ranging in atomic mass from 140 to 165."
+ },
+ {
+  "id": "wiki-en-dysprosium:126:537-540",
+  "line": 126,
+  "raw": "140",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "β⁻ decay. Dysprosium also has at least 11 metastable isomers, ranging in atomic mass from 140 to 165. The most stable of these is ¹⁶⁵ᵐDy, which has a hal"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:544-547",
+  "line": 126,
+  "raw": "165",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "y. Dysprosium also has at least 11 metastable isomers, ranging in atomic mass from 140 to 165. The most stable of these is ¹⁶⁵ᵐDy, which has a half-life "
+ },
+ {
+  "id": "wiki-en-dysprosium:126:610-623",
+  "line": 126,
+  "raw": "1.257 minutes",
+  "kind": "양",
+  "unit": "minutes",
+  "context": "atomic mass from 140 to 165. The most stable of these is ¹⁶⁵ᵐDy, which has a half-life of 1.257 minutes."
+ },
+ {
+  "id": "wiki-en-dysprosium:130:3-7",
+  "line": 130,
+  "raw": "1878",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "In 1878, erbium ores were found to contain the oxides of holmium an"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:207-211",
+  "line": 130,
+  "raw": "1886",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "baudran, while working with holmium oxide, separated dysprosium oxide from it in Paris in 1886. His procedure for isolating the dysprosium involved dissol"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:422-424",
+  "line": 130,
+  "raw": "30",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "tate the hydroxide. He was only able to isolate dysprosium from its oxide after more than 30 attempts at his procedure. On succeeding, he named the elem"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:728-733",
+  "line": 130,
+  "raw": "1950s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "opment of ion exchange techniques by Frank Spedding at Iowa State University in the early 1950s."
+ },
+ {
+  "id": "wiki-en-dysprosium:134:3-7",
+  "line": 134,
+  "raw": "2011",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "In 2011, a Bose-Einstein condensate of Dy atoms was obtained for th"
+ },
+ {
+  "id": "wiki-en-dysprosium:136:3-7",
+  "line": 136,
+  "raw": "2021",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "In 2021, Dy was turned into a 2-dimensional supersolid quantum gas."
+ },
+ {
+  "id": "wiki-en-dysprosium:136:30-31",
+  "line": 136,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "In 2021, Dy was turned into a 2-dimensional supersolid quantum gas."
+ },
+ {
+  "id": "wiki-en-dysprosium:142:124-125",
+  "line": 142,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "se, dysprosium happens to be the most abundant of the heavy lanthanides, comprising up to 7–8% of the concentrate (as compared to about 65% for yttrium"
+ },
+ {
+  "id": "wiki-en-dysprosium:142:126-128",
+  "line": 142,
+  "raw": "8%",
+  "kind": "비율",
+  "unit": null,
+  "context": ", dysprosium happens to be the most abundant of the heavy lanthanides, comprising up to 7–8% of the concentrate (as compared to about 65% for yttrium). "
+ },
+ {
+  "id": "wiki-en-dysprosium:142:170-173",
+  "line": 142,
+  "raw": "65%",
+  "kind": "비율",
+  "unit": null,
+  "context": " of the heavy lanthanides, comprising up to 7–8% of the concentrate (as compared to about 65% for yttrium). The concentration of Dy in the Earth's crust "
+ },
+ {
+  "id": "wiki-en-dysprosium:142:242-245",
+  "line": 142,
+  "raw": "5.2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "compared to about 65% for yttrium). The concentration of Dy in the Earth's crust is about 5.2 mg/kg and in sea water 0.9 ng/L."
+ },
+ {
+  "id": "wiki-en-dysprosium:142:269-272",
+  "line": 142,
+  "raw": "0.9",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ttrium). The concentration of Dy in the Earth's crust is about 5.2 mg/kg and in sea water 0.9 ng/L."
+ },
+ {
+  "id": "wiki-en-dysprosium:148:0-1",
+  "line": 148,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3 Ca + 2 DyF3 → 2 Dy + 3 CaF2"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:7-8",
+  "line": 148,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3 Ca + 2 DyF3 → 2 Dy + 3 CaF2"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:16-17",
+  "line": 148,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3 Ca + 2 DyF3 → 2 Dy + 3 CaF2"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:23-24",
+  "line": 148,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3 Ca + 2 DyF3 → 2 Dy + 3 CaF2"
+ },
+ {
+  "id": "wiki-en-dysprosium:149:0-1",
+  "line": 149,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3 Li + DyCl3 → Dy + 3 LiCl"
+ },
+ {
+  "id": "wiki-en-dysprosium:149:20-21",
+  "line": 149,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3 Li + DyCl3 → Dy + 3 LiCl"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:6-17",
+  "line": 153,
+  "raw": "3100 tonnes",
+  "kind": "양",
+  "unit": "tonnes",
+  "context": "About 3100 tonnes of dysprosium were produced worldwide in 2021, with 40% of "
+ },
+ {
+  "id": "wiki-en-dysprosium:153:59-63",
+  "line": 153,
+  "raw": "2021",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "About 3100 tonnes of dysprosium were produced worldwide in 2021, with 40% of that total produced in China, 31% in Myanmar, "
+ },
+ {
+  "id": "wiki-en-dysprosium:153:70-73",
+  "line": 153,
+  "raw": "40%",
+  "kind": "비율",
+  "unit": null,
+  "context": "About 3100 tonnes of dysprosium were produced worldwide in 2021, with 40% of that total produced in China, 31% in Myanmar, and 20% in"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:107-110",
+  "line": 153,
+  "raw": "31%",
+  "kind": "비율",
+  "unit": null,
+  "context": " of dysprosium were produced worldwide in 2021, with 40% of that total produced in China, 31% in Myanmar, and 20% in Australia. Dysprosium prices have cl"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:127-130",
+  "line": 153,
+  "raw": "20%",
+  "kind": "비율",
+  "unit": null,
+  "context": "produced worldwide in 2021, with 40% of that total produced in China, 31% in Myanmar, and 20% in Australia. Dysprosium prices have climbed over time, fro"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:193-194",
+  "line": 153,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "na, 31% in Myanmar, and 20% in Australia. Dysprosium prices have climbed over time, from $7 per pound in 2003, to $130 a pound in late 2010, to $1,400/"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:208-212",
+  "line": 153,
+  "raw": "2003",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "mar, and 20% in Australia. Dysprosium prices have climbed over time, from $7 per pound in 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and the"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:218-221",
+  "line": 153,
+  "raw": "130",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "0% in Australia. Dysprosium prices have climbed over time, from $7 per pound in 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and then falling"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:238-242",
+  "line": 153,
+  "raw": "2010",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "prosium prices have climbed over time, from $7 per pound in 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and then falling to $240/kg in 2015, "
+ },
+ {
+  "id": "wiki-en-dysprosium:153:248-253",
+  "line": 153,
+  "raw": "1,400",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ices have climbed over time, from $7 per pound in 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and then falling to $240/kg in 2015, largely due"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:260-264",
+  "line": 153,
+  "raw": "2011",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "imbed over time, from $7 per pound in 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and then falling to $240/kg in 2015, largely due to illegal"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:286-289",
+  "line": 153,
+  "raw": "240",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "er pound in 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and then falling to $240/kg in 2015, largely due to illegal production in China whic"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:296-300",
+  "line": 153,
+  "raw": "2015",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "n 2003, to $130 a pound in late 2010, to $1,400/kg in 2011 and then falling to $240/kg in 2015, largely due to illegal production in China which circumven"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:395-405",
+  "line": 153,
+  "raw": "April 2025",
+  "kind": "날짜",
+  "unit": null,
+  "context": "gely due to illegal production in China which circumvented government restrictions. As of April 2025, the price is around US$203/kg."
+ },
+ {
+  "id": "wiki-en-dysprosium:153:430-433",
+  "line": 153,
+  "raw": "203",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "hina which circumvented government restrictions. As of April 2025, the price is around US$203/kg."
+ },
+ {
+  "id": "wiki-en-dysprosium:155:104-117",
+  "line": 155,
+  "raw": "November 2018",
+  "kind": "날짜",
+  "unit": null,
+  "context": "t dysprosium is being obtained from the ion-adsorption clay ores of southern China. As of November 2018 the Browns Range Project pilot plant, 160 km south east of "
+ },
+ {
+  "id": "wiki-en-dysprosium:155:156-162",
+  "line": 155,
+  "raw": "160 km",
+  "kind": "양",
+  "unit": "km",
+  "context": "on clay ores of southern China. As of November 2018 the Browns Range Project pilot plant, 160 km south east of Halls Creek, Western Australia, is producing "
+ },
+ {
+  "id": "wiki-en-dysprosium:155:222-231",
+  "line": 155,
+  "raw": "50 tonnes",
+  "kind": "양",
+  "unit": "tonnes",
+  "context": "ge Project pilot plant, 160 km south east of Halls Creek, Western Australia, is producing 50 tonnes (49 long tons) per annum."
+ },
+ {
+  "id": "wiki-en-dysprosium:155:233-235",
+  "line": 155,
+  "raw": "49",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "pilot plant, 160 km south east of Halls Creek, Western Australia, is producing 50 tonnes (49 long tons) per annum."
+ },
+ {
+  "id": "wiki-en-dysprosium:157:341-345",
+  "line": 157,
+  "raw": "2015",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "gies; even their most conservative projections predicted a shortfall of dysprosium before 2015. As of October 2015, there is a nascent rare earth (includi"
+ },
+ {
+  "id": "wiki-en-dysprosium:157:353-365",
+  "line": 157,
+  "raw": "October 2015",
+  "kind": "날짜",
+  "unit": null,
+  "context": "heir most conservative projections predicted a shortfall of dysprosium before 2015. As of October 2015, there is a nascent rare earth (including dysprosium) extra"
+ },
+ {
+  "id": "wiki-en-dysprosium:163:44-46",
+  "line": 163,
+  "raw": "6%",
+  "kind": "비율",
+  "unit": null,
+  "context": "Neodymium–iron–boron magnets can have up to 6% of the neodymium substituted by dysprosium to raise the coe"
+ },
+ {
+  "id": "wiki-en-dysprosium:163:257-266",
+  "line": 163,
+  "raw": "100 grams",
+  "kind": "양",
+  "unit": "grams",
+  "context": "electric vehicles and generators for wind turbines. This substitution would require up to 100 grams of dysprosium per electric car produced. Based on Toyota's "
+ },
+ {
+  "id": "wiki-en-dysprosium:163:336-345",
+  "line": 163,
+  "raw": "2 million",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "uire up to 100 grams of dysprosium per electric car produced. Based on Toyota's projected 2 million units per year, the use of dysprosium in applications such "
+ },
+ {
+  "id": "wiki-en-dysprosium:169:263-269",
+  "line": 169,
+  "raw": "450 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "prosium oxide fluoride can be produced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 450 bars for 17 hours. This material is remarkably robus"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:273-281",
+  "line": 169,
+  "raw": "450 bars",
+  "kind": "양",
+  "unit": "bars",
+  "context": "ide fluoride can be produced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 450 bars for 17 hours. This material is remarkably robust, surviving"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:286-294",
+  "line": 169,
+  "raw": "17 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": "can be produced by heating an aqueous solution of DyBr3 and NaF to 450 °C at 450 bars for 17 hours. This material is remarkably robust, surviving over 100 hou"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:347-356",
+  "line": 169,
+  "raw": "100 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": "aF to 450 °C at 450 bars for 17 hours. This material is remarkably robust, surviving over 100 hours in various aqueous solutions at temperatures exceeding 400 "
+ },
+ {
+  "id": "wiki-en-dysprosium:169:412-418",
+  "line": 169,
+  "raw": "400 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "y robust, surviving over 100 hours in various aqueous solutions at temperatures exceeding 400 °C without redissolving or aggregating. Additionally, dysprosi"
+ },
+ {
+  "id": "wiki-en-dysprosium:183:469-470",
+  "line": 183,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "r. Dysprosium fluoride and dysprosium oxide are non-flammable. Dysprosium nitrate, Dy(NO3)3, is a strong oxidizing agent and readily ignites on contact"
+ },
+ {
+  "id": "wiki-en-dysprosium:185:201-210",
+  "line": 185,
+  "raw": "500 grams",
+  "kind": "양",
+  "unit": "grams",
+  "context": "sed on the toxicity of dysprosium chloride to mice, it is estimated that the ingestion of 500 grams or more could be fatal to a human (cf. lethal dose of 300 g"
+ },
+ {
+  "id": "wiki-en-dysprosium:185:265-274",
+  "line": 185,
+  "raw": "300 grams",
+  "kind": "양",
+  "unit": "grams",
+  "context": "ted that the ingestion of 500 grams or more could be fatal to a human (cf. lethal dose of 300 grams of common table salt for a 100 kilogram human). The insolub"
+ },
+ {
+  "id": "wiki-en-dysprosium:185:302-314",
+  "line": 185,
+  "raw": "100 kilogram",
+  "kind": "양",
+  "unit": "kilogram",
+  "context": "r more could be fatal to a human (cf. lethal dose of 300 grams of common table salt for a 100 kilogram human). The insoluble salts are non-toxic."
+ }
+]

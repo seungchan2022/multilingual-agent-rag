@@ -1,0 +1,722 @@
+[
+ {
+  "id": "wiki-en-lanthanum:69:68-70",
+  "value": true,
+  "object": "La",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "57"
+ },
+ {
+  "id": "wiki-en-lanthanum:69:229-231",
+  "value": true,
+  "object": "lanthanides",
+  "quantity": "number_of_elements",
+  "condition": "",
+  "note": [
+   "between lanthanum and lutetium in the periodic table"
+  ],
+  "raw": "15 similar elements"
+ },
+ {
+  "id": "wiki-en-lanthanum:69:435-437",
+  "value": true,
+  "object": "La",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "its usual oxidation state"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-lanthanum:69:500-502",
+  "value": true,
+  "object": "La",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "some compounds are known"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-en-lanthanum:71:154-158",
+  "value": true,
+  "object": "La",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "as an impurity in cerium nitrate"
+  ],
+  "raw": "in 1839"
+ },
+ {
+  "id": "wiki-en-lanthanum:71:673-677",
+  "value": true,
+  "object": "La",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "pure lanthanum metal was not isolated until"
+  ],
+  "raw": "1923"
+ },
+ {
+  "id": "wiki-en-lanthanum:79:302-304",
+  "value": true,
+  "object": "La",
+  "quantity": "number_of_electrons",
+  "condition": "",
+  "note": [],
+  "raw": "57 electrons"
+ },
+ {
+  "id": "wiki-en-lanthanum:79:533-535",
+  "value": false,
+  "reason": "전자 껍질 이름 5d의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:79:565-567",
+  "value": true,
+  "object": "La",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "the +3 oxidation state"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-lanthanum:81:729-731",
+  "value": false,
+  "reason": "전자 껍질 이름 6s의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:81:733-735",
+  "value": false,
+  "reason": "전자 껍질 이름 5d의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:81:859-865",
+  "value": true,
+  "object": "La",
+  "quantity": "melting_point",
+  "condition": "",
+  "note": [
+   "second-lowest melting point among them"
+  ],
+  "raw": "920 °C"
+ },
+ {
+  "id": "wiki-en-lanthanum:83:145-148",
+  "value": true,
+  "object": "La",
+  "quantity": "electrical_resistivity",
+  "condition": "",
+  "note": [
+   "at room temperature"
+  ],
+  "raw": "615 nΩm"
+ },
+ {
+  "id": "wiki-en-lanthanum:83:240-245",
+  "value": true,
+  "object": "Al",
+  "quantity": "electrical_resistivity",
+  "condition": "",
+  "note": [
+   "good conductor aluminium"
+  ],
+  "raw": "26.50 nΩm"
+ },
+ {
+  "id": "wiki-en-lanthanum:83:408-414",
+  "value": true,
+  "object": "La",
+  "quantity": "phase_transition_temperature",
+  "condition": "",
+  "note": [
+   "changes to a face-centered cubic structure (β-La)"
+  ],
+  "raw": "310 °C"
+ },
+ {
+  "id": "wiki-en-lanthanum:83:484-490",
+  "value": true,
+  "object": "La",
+  "quantity": "phase_transition_temperature",
+  "condition": "",
+  "note": [
+   "changes to a body-centered cubic structure (γ-La)"
+  ],
+  "raw": "865 °C"
+ },
+ {
+  "id": "wiki-en-lanthanum:87:816-817",
+  "value": false,
+  "reason": "이온 [La(H2O)9]³⁺의 전하 표기"
+ },
+ {
+  "id": "wiki-en-lanthanum:87:904-905",
+  "value": false,
+  "reason": "화학식 [La(H2O)9]³⁺의 아래첨자"
+ },
+ {
+  "id": "wiki-en-lanthanum:93:170-177",
+  "value": true,
+  "object": "La-139",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "of natural lanthanum"
+  ],
+  "raw": "99.911%"
+ },
+ {
+  "id": "wiki-en-lanthanum:93:525-540",
+  "value": true,
+  "object": "La-138",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "long half-life"
+  ],
+  "raw": "1.03×10¹¹ years"
+ },
+ {
+  "id": "wiki-en-lanthanum:93:851-863",
+  "value": true,
+  "object": "La-137",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "about 60,000 years"
+ },
+ {
+  "id": "wiki-en-lanthanum:97:166-167",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "coordination_number",
+  "condition": "",
+  "note": [
+   "hexagonal"
+  ],
+  "raw": "7-coordinate"
+ },
+ {
+  "id": "wiki-en-lanthanum:97:209-210",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "coordination_number",
+  "condition": "",
+  "note": [
+   "changes to the 6-coordinate structure of scandium oxide (Sc2O3) and yttrium oxide (Y2O3) at high temperature"
+  ],
+  "raw": "6-coordinate"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:307-308",
+  "value": false,
+  "reason": "화학식 [La(acac)3(H2O)2]의 아래첨자"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:313-314",
+  "value": false,
+  "reason": "화학식 [La(acac)3(H2O)2]의 아래첨자"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:334-340",
+  "value": true,
+  "object": "[La(acac)3(H2O)2]",
+  "quantity": "decomposition_temperature",
+  "condition": "",
+  "note": [],
+  "raw": "around 500 °C"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:472-473",
+  "value": true,
+  "object": "lanthanum complexes",
+  "quantity": "coordination_number",
+  "condition": "",
+  "note": [
+   "often have high coordination numbers"
+  ],
+  "raw": "over 6"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:476-477",
+  "value": true,
+  "object": "lanthanum complexes",
+  "quantity": "characteristic_coordination_number",
+  "condition": "",
+  "note": [
+   "8 is the most characteristic"
+  ],
+  "raw": "8"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:635-637",
+  "value": true,
+  "object": "lanthanum complexes",
+  "quantity": "max_coordination_number",
+  "condition": "",
+  "note": [
+   "with the use of chelating ligands"
+  ],
+  "raw": "coordination number 12"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:691-692",
+  "value": false,
+  "reason": "화학식 La2(SO4)3·9(H2O)의 아래첨자"
+ },
+ {
+  "id": "wiki-en-lanthanum:103:694-695",
+  "value": false,
+  "reason": "화학식 La2(SO4)3·9(H2O)의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:105:243-244",
+  "value": false,
+  "reason": "화학식 La(C5H5)3의 아래첨자"
+ },
+ {
+  "id": "wiki-en-lanthanum:109:3-7",
+  "value": true,
+  "object": "cerite",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "Axel Fredrik Cronstedt discovered a heavy mineral from the mine at Bastnäs"
+  ],
+  "raw": "In 1751"
+ },
+ {
+  "id": "wiki-en-lanthanum:109:304-308",
+  "value": true,
+  "object": "ceria",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "isolated a new oxide which they named ceria"
+  ],
+  "raw": "In 1803"
+ },
+ {
+  "id": "wiki-en-lanthanum:109:623-627",
+  "value": true,
+  "object": "ceria",
+  "quantity": "shown_to_be_mixture",
+  "condition": "",
+  "note": [
+   "ceria was shown to be a mixture of oxides"
+  ],
+  "raw": "Between 1839 and 1843"
+ },
+ {
+  "id": "wiki-en-lanthanum:109:632-636",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:109:623-627"
+ },
+ {
+  "id": "wiki-en-lanthanum:111:194-198",
+  "value": true,
+  "object": "didymium",
+  "quantity": "separation",
+  "condition": "",
+  "note": [
+   "separated into praseodymium and neodymium"
+  ],
+  "raw": "in 1885"
+ },
+ {
+  "id": "wiki-en-lanthanum:113:249-253",
+  "value": true,
+  "object": "La",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "Relatively pure lanthanum metal"
+  ],
+  "raw": "in 1923"
+ },
+ {
+  "id": "wiki-en-lanthanum:117:19-21",
+  "value": true,
+  "object": "La",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "of the Earth's crust"
+  ],
+  "raw": "39 mg/kg"
+ },
+ {
+  "id": "wiki-en-lanthanum:117:70-74",
+  "value": true,
+  "object": "Nd",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "behind neodymium"
+  ],
+  "raw": "41.5 mg/kg"
+ },
+ {
+  "id": "wiki-en-lanthanum:117:95-99",
+  "value": true,
+  "object": "Ce",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "cerium"
+  ],
+  "raw": "66.5 mg/kg"
+ },
+ {
+  "id": "wiki-en-lanthanum:121:405-406",
+  "value": true,
+  "object": "acidic filtrates",
+  "quantity": "neutralization_ph",
+  "condition": "",
+  "note": [
+   "partially neutralized with sodium hydroxide"
+  ],
+  "raw": "pH 3–4"
+ },
+ {
+  "id": "wiki-en-lanthanum:121:407-408",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:121:405-406"
+ },
+ {
+  "id": "wiki-en-lanthanum:121:1250-1252",
+  "value": true,
+  "object": "Ce",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "its ability to be oxidised"
+  ],
+  "raw": "+4 state"
+ },
+ {
+  "id": "wiki-en-lanthanum:121:1368-1369",
+  "value": false,
+  "reason": "화학식 La(NO3)3·2 NH4NO3·4 H2O의 아래첨자"
+ },
+ {
+  "id": "wiki-en-lanthanum:121:1371-1372",
+  "value": false,
+  "reason": "화학식 La(NO3)3·2 NH4NO3·4 H2O의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:121:1381-1382",
+  "value": false,
+  "reason": "화학식 La(NO3)3·2 NH4NO3·4 H2O의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:123:117-120",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "heating_temperature",
+  "condition": "",
+  "note": [
+   "with ammonium chloride or fluoride and hydrofluoric acid"
+  ],
+  "raw": "300–400 °C"
+ },
+ {
+  "id": "wiki-en-lanthanum:123:121-127",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:123:117-120"
+ },
+ {
+  "id": "wiki-en-lanthanum:125:8-9",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:125:18-19",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:125:28-29",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:125:36-37",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:129:8-9",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:129:20-21",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-lanthanum:135:195-199",
+  "value": true,
+  "object": "Actinophor",
+  "quantity": "patented",
+  "condition": "",
+  "note": [
+   "Carl Auer von Welsbach used a mixture of lanthanum oxide and zirconium oxide"
+  ],
+  "raw": "in 1886"
+ },
+ {
+  "id": "wiki-en-lanthanum:135:347-351",
+  "value": true,
+  "object": "auer von welsbach first company",
+  "quantity": "factory_established",
+  "condition": "",
+  "note": [
+   "established a factory in Atzgersdorf"
+  ],
+  "raw": "in 1887"
+ },
+ {
+  "id": "wiki-en-lanthanum:135:363-367",
+  "value": true,
+  "object": "auer von welsbach first company",
+  "quantity": "failure",
+  "condition": "",
+  "note": [
+   "failed"
+  ],
+  "raw": "in 1889"
+ },
+ {
+  "id": "wiki-en-lanthanum:139:182-185",
+  "value": true,
+  "object": "mischmetal",
+  "quantity": "lanthanum_content",
+  "condition": "",
+  "note": [
+   "used instead of pure lanthanum in nickel–metal hydride batteries"
+  ],
+  "raw": "more than 50%"
+ },
+ {
+  "id": "wiki-en-lanthanum:139:481-485",
+  "value": false,
+  "reason": "도요타 프리우스의 모델 연도로 대상 이름의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:139:521-523",
+  "value": true,
+  "object": "2008 toyota prius nimh battery",
+  "quantity": "lanthanum_required",
+  "condition": "",
+  "note": [
+   "The 2008 Toyota Prius NiMH battery requires"
+  ],
+  "raw": "10 to 15 kilograms (22 to 33 lb)"
+ },
+ {
+  "id": "wiki-en-lanthanum:139:527-539",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:139:521-523"
+ },
+ {
+  "id": "wiki-en-lanthanum:139:541-543",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:139:521-523"
+ },
+ {
+  "id": "wiki-en-lanthanum:139:547-552",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:139:521-523"
+ },
+ {
+  "id": "wiki-en-lanthanum:140:90-93",
+  "value": true,
+  "object": "hydrogen sponge alloys",
+  "quantity": "hydrogen_storage_capacity",
+  "condition": "",
+  "note": [
+   "up to"
+  ],
+  "raw": "400 times their own volume of hydrogen gas"
+ },
+ {
+  "id": "wiki-en-lanthanum:141:66-69",
+  "value": true,
+  "object": "mischmetal",
+  "quantity": "lanthanum_content",
+  "condition": "",
+  "note": [
+   "a pyrophoric alloy used in lighter flints"
+  ],
+  "raw": "25% to 45%"
+ },
+ {
+  "id": "wiki-en-lanthanum:141:73-76",
+  "value": true,
+  "part_of": "wiki-en-lanthanum:141:66-69"
+ },
+ {
+  "id": "wiki-en-lanthanum:145:197-200",
+  "value": true,
+  "object": "carbon arc lamps",
+  "quantity": "share_of_rare_earth_compounds_consumed",
+  "condition": "",
+  "note": [
+   "until the phase out of carbon arc lamps"
+  ],
+  "raw": "about 25%"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:30-37",
+  "value": false,
+  "reason": "가격 단위인 톤의 정의(1000 kg)"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:58-61",
+  "value": false,
+  "reason": "제품 순도 규격(Lanthanum oxide 99%)이라 이름의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:174-179",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "for most of the period from early 2001 to September 2010",
+   "Lanthanum oxide 99% (FOB China in USD/Mt)"
+  ],
+  "raw": "below $2,000"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:214-218",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:222-236",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:242-248",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in the short term in 2008",
+   "Lanthanum oxide 99% (FOB China in USD/Mt)"
+  ],
+  "raw": "$10,000"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:270-274",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:297-304",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in mid-2011",
+   "Lanthanum oxide 99% (FOB China in USD/Mt)"
+  ],
+  "raw": "$140,000"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:351-357",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "by early 2012",
+   "Lanthanum oxide 99% (FOB China in USD/Mt)"
+  ],
+  "raw": "$38,000"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:367-371",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:422-436",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:491-496",
+  "value": false,
+  "reason": "제품 순도 규격(Lanthanum Oxide - 99.9%min)이라 이름의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:512-516",
+  "value": true,
+  "object": "La2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "The average price for the last six months (April–September 2022)",
+   "Lanthanum Oxide - 99.9%min FOB China"
+  ],
+  "raw": "1308 EUR/mt"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:550-553",
+  "value": false,
+  "reason": "제품 순도 규격(Lanthanum Metal - 99%min)이라 이름의 일부"
+ },
+ {
+  "id": "wiki-en-lanthanum:172:569-573",
+  "value": true,
+  "object": "La",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "The average price for the last six months (April–September 2022)",
+   "Lanthanum Metal - 99%min FOB China"
+  ],
+  "raw": "3706 EUR/mt"
+ },
+ {
+  "id": "wiki-en-lanthanum:176:40-44",
+  "value": false,
+  "reason": "참고 문헌의 출판 연도"
+ },
+ {
+  "id": "wiki-en-lanthanum:180:16-20",
+  "value": false,
+  "reason": "참고 문헌의 출판 연도"
+ },
+ {
+  "id": "wiki-en-lanthanum:181:34-38",
+  "value": false,
+  "reason": "참고 문헌의 출판 연도"
+ },
+ {
+  "id": "wiki-en-lanthanum:182:19-23",
+  "value": false,
+  "reason": "참고 문헌의 출판 연도"
+ },
+ {
+  "id": "wiki-en-lanthanum:183:17-21",
+  "value": false,
+  "reason": "참고 문헌의 출판 연도"
+ }
+]

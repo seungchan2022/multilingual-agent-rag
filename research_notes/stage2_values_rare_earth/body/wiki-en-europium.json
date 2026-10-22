@@ -1,0 +1,1156 @@
+[
+ {
+  "id": "wiki-en-europium:70:67-69",
+  "value": true,
+  "object": "Eu",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "atomic number 63"
+ },
+ {
+  "id": "wiki-en-europium:70:569-573",
+  "value": true,
+  "object": "Eu",
+  "quantity": "neel_temperature",
+  "condition": "",
+  "note": [
+   "becomes antiferromagnetic",
+   "paramagnetic at room temperature"
+  ],
+  "raw": "about 91 K"
+ },
+ {
+  "id": "wiki-en-europium:70:593-595",
+  "value": true,
+  "object": "Eu",
+  "quantity": "most_stable_oxidation_state",
+  "condition": "",
+  "note": [
+   "in compounds",
+   "generally the most stable"
+  ],
+  "raw": "+3 oxidation state",
+  "uncertain": true,
+  "reason": "산화 상태 이름이지만 '가장 안정'이라는 성질로 쓰임"
+ },
+ {
+  "id": "wiki-en-europium:70:687-689",
+  "value": true,
+  "object": "Eu",
+  "quantity": "most_accessible_oxidation_state",
+  "condition": "",
+  "note": [
+   "most readily accessible of any lanthanide"
+  ],
+  "raw": "+2 state",
+  "uncertain": true,
+  "reason": "산화 상태 이름이지만 '가장 쉽게 얻는' 성질로 쓰임"
+ },
+ {
+  "id": "wiki-en-europium:72:591-605",
+  "value": true,
+  "object": "Eu-151",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "very long-lived alpha emitter"
+  ],
+  "raw": "about 4.6×10¹⁸ years"
+ },
+ {
+  "id": "wiki-en-europium:74:198-202",
+  "value": true,
+  "object": "Eu",
+  "quantity": "crookes_spectral_observation_year",
+  "condition": "",
+  "note": [
+   "William Crookes",
+   "unexplained spectral feature in rare-earth material"
+  ],
+  "raw": "1885"
+ },
+ {
+  "id": "wiki-en-europium:74:292-296",
+  "value": true,
+  "object": "Eu",
+  "quantity": "lecoq_unidentified_line_year",
+  "condition": "",
+  "note": [
+   "Paul Émile Lecoq de Boisbaudran",
+   "further unidentified line in samarium"
+  ],
+  "raw": "1892",
+  "uncertain": true,
+  "reason": "선이 샘플 속 사마륨에서 보였다고 적혀 대상이 Eu인지 Sm인지 글만으로는 갈림"
+ },
+ {
+  "id": "wiki-en-europium:74:301-305",
+  "value": true,
+  "object": "Eu",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "Eugène-Anatole Demarçay",
+   "reported evidence for a new element associated with samarium"
+  ],
+  "raw": "1896"
+ },
+ {
+  "id": "wiki-en-europium:74:499-503",
+  "value": true,
+  "object": "Eu",
+  "quantity": "pure_form_obtained_year",
+  "condition": "",
+  "note": [
+   "Eugène-Anatole Demarçay",
+   "after repeated fractional crystallisation",
+   "named europium after Europe"
+  ],
+  "raw": "1901"
+ },
+ {
+  "id": "wiki-en-europium:76:264-269",
+  "value": true,
+  "object": "europium phosphors",
+  "quantity": "commercial_importance_decade",
+  "condition": "",
+  "note": [
+   "red emitters in colour television"
+  ],
+  "raw": "1960s",
+  "uncertain": true,
+  "reason": "10년 단위의 어림 시기"
+ },
+ {
+  "id": "wiki-en-europium:80:148-158",
+  "value": true,
+  "object": "Eu",
+  "quantity": "density",
+  "condition": "",
+  "note": [
+   "at room temperature"
+  ],
+  "raw": "about 5.24 g/cm³"
+ },
+ {
+  "id": "wiki-en-europium:80:182-188",
+  "value": true,
+  "object": "Eu",
+  "quantity": "melting_point",
+  "condition": "",
+  "note": [
+   "at room temperature"
+  ],
+  "raw": "822 °C (1,095 K)"
+ },
+ {
+  "id": "wiki-en-europium:80:190-197",
+  "value": true,
+  "part_of": "wiki-en-europium:80:182-188"
+ },
+ {
+  "id": "wiki-en-europium:82:121-122",
+  "value": false,
+  "reason": "전자 배치 4f⁷의 지수"
+ },
+ {
+  "id": "wiki-en-europium:82:123-124",
+  "value": false,
+  "reason": "전자 배치 6s²의 지수"
+ },
+ {
+  "id": "wiki-en-europium:84:316-324",
+  "value": true,
+  "object": "Eu",
+  "quantity": "bcc_to_hcp_transition_pressure",
+  "condition": "",
+  "note": [
+   "under pressure",
+   "bcc phase transforms to hexagonal close-packed structure"
+  ],
+  "raw": "about 12.5 GPa"
+ },
+ {
+  "id": "wiki-en-europium:84:356-364",
+  "value": true,
+  "object": "Eu",
+  "quantity": "hcp_phase_stability_limit_pressure",
+  "condition": "",
+  "note": [
+   "hexagonal close-packed structure remains stable"
+  ],
+  "raw": "about 31.5 GPa"
+ },
+ {
+  "id": "wiki-en-europium:84:495-501",
+  "value": true,
+  "object": "Eu",
+  "quantity": "monoclinic_phase_stability_limit_pressure",
+  "condition": "",
+  "note": [
+   "incommensurately modulated monoclinic structure, known as Eu-IV",
+   "stable"
+  ],
+  "raw": "about 37 GPa"
+ },
+ {
+  "id": "wiki-en-europium:86:126-127",
+  "value": true,
+  "object": "Eu",
+  "quantity": "orbital_angular_momentum_L",
+  "condition": "",
+  "note": [
+   "divalent 4f⁷ configuration"
+  ],
+  "raw": "L = 0"
+ },
+ {
+  "id": "wiki-en-europium:86:140-141",
+  "value": true,
+  "object": "Eu",
+  "quantity": "total_angular_momentum_J",
+  "condition": "",
+  "note": [
+   "divalent 4f⁷ configuration",
+   "S = J"
+  ],
+  "raw": "S = J = 7/2"
+ },
+ {
+  "id": "wiki-en-europium:86:142-143",
+  "value": true,
+  "part_of": "wiki-en-europium:86:140-141"
+ },
+ {
+  "id": "wiki-en-europium:86:280-284",
+  "value": true,
+  "object": "Eu",
+  "quantity": "neel_temperature",
+  "condition": "",
+  "note": [
+   "becomes antiferromagnetic",
+   "paramagnetic at room temperature"
+  ],
+  "raw": "about 91 K"
+ },
+ {
+  "id": "wiki-en-europium:86:554-563",
+  "value": true,
+  "object": "Eu",
+  "quantity": "ordered_magnetic_moment",
+  "condition": "",
+  "note": [
+   "measured",
+   "per atom"
+  ],
+  "raw": "5.9 ± 0.4 μB per atom"
+ },
+ {
+  "id": "wiki-en-europium:92:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:92:7-8",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:92:14-15",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:96:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:96:7-8",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:96:15-16",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:96:23-24",
+  "value": false,
+  "reason": "화학식 Eu(OH)3의 아래 첨자"
+ },
+ {
+  "id": "wiki-en-europium:96:27-28",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:100:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:100:7-8",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:100:14-15",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:100:23-24",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:102:102-103",
+  "value": true,
+  "object": "Eu3+",
+  "quantity": "hydration_number",
+  "condition": "",
+  "note": [
+   "aqueous Eu(III)",
+   "hydrated ion"
+  ],
+  "raw": "[Eu(H2O)9]³⁺",
+  "uncertain": true,
+  "reason": "화학식에 적힌 수이지만 수화한 물 분자 수라는 성질로 읽힘"
+ },
+ {
+  "id": "wiki-en-europium:106:59-61",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:106:66-68",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:106:446-448",
+  "value": true,
+  "object": "Eu",
+  "quantity": "most_accessible_oxidation_state",
+  "condition": "",
+  "note": [
+   "most accessible of any lanthanide"
+  ],
+  "raw": "+2 oxidation state",
+  "uncertain": true,
+  "reason": "산화 상태 이름이지만 '가장 쉽게 얻는' 성질로 쓰임"
+ },
+ {
+  "id": "wiki-en-europium:108:92-97",
+  "value": true,
+  "object": "Eu",
+  "quantity": "standard_reduction_potential",
+  "condition": "",
+  "note": [
+   "in aqueous solution",
+   "Eu(III)/Eu(II) couple",
+   "relative to the standard hydrogen electrode"
+  ],
+  "raw": "about −0.34 V"
+ },
+ {
+  "id": "wiki-en-europium:114:126-128",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:114:235-237",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:114:242-244",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:120:72-76",
+  "value": true,
+  "object": "EuO",
+  "quantity": "curie_temperature",
+  "condition": "",
+  "note": [
+   "ferromagnetic semiconductor below"
+  ],
+  "raw": "about 69 K"
+ },
+ {
+  "id": "wiki-en-europium:130:47-49",
+  "value": false,
+  "reason": "전자 궤도 이름 5d의 일부"
+ },
+ {
+  "id": "wiki-en-europium:140:388-392",
+  "value": true,
+  "object": "EuB6",
+  "quantity": "transition_temperature",
+  "condition": "",
+  "note": [
+   "two closely spaced electronic and magnetic transitions"
+  ],
+  "raw": "near 15.5"
+ },
+ {
+  "id": "wiki-en-europium:140:397-403",
+  "value": true,
+  "object": "EuB6",
+  "quantity": "transition_temperature",
+  "condition": "",
+  "note": [
+   "near",
+   "two closely spaced electronic and magnetic transitions"
+  ],
+  "raw": "12.6 K"
+ },
+ {
+  "id": "wiki-en-europium:142:329-333",
+  "value": true,
+  "object": "EuC2",
+  "quantity": "curie_temperature",
+  "condition": "",
+  "note": [
+   "becomes ferromagnetic"
+  ],
+  "raw": "about 15 K"
+ },
+ {
+  "id": "wiki-en-europium:146:218-224",
+  "value": true,
+  "object": "EuN",
+  "quantity": "preparation_temperature",
+  "condition": "",
+  "note": [
+   "direct reaction of the metal with ammonia"
+  ],
+  "raw": "about 600 °C"
+ },
+ {
+  "id": "wiki-en-europium:154:72-74",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:156:223-229",
+  "value": true,
+  "object": "EuPO4",
+  "quantity": "dehydration_transformation_temperature",
+  "condition": "",
+  "note": [
+   "after dehydration",
+   "transforms to monoclinic anhydrous EuPO4"
+  ],
+  "raw": "above about 600 °C"
+ },
+ {
+  "id": "wiki-en-europium:158:4-6",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:162:64-66",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:162:71-73",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:170:428-429",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-europium:176:140-146",
+  "value": true,
+  "object": "Eu-151",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "standard isotopic abundances"
+  ],
+  "raw": "47.81%"
+ },
+ {
+  "id": "wiki-en-europium:176:151-157",
+  "value": true,
+  "object": "Eu-153",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "standard isotopic abundances"
+  ],
+  "raw": "52.19%"
+ },
+ {
+  "id": "wiki-en-europium:176:313-328",
+  "value": true,
+  "object": "Eu-151",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "measured",
+   "alpha decay to ¹⁴⁷Pm"
+  ],
+  "raw": "4.62×10¹⁸ years"
+ },
+ {
+  "id": "wiki-en-europium:176:354-365",
+  "value": true,
+  "object": "Eu-151",
+  "quantity": "half_life_to_universe_age_ratio",
+  "condition": "",
+  "note": [
+   "age of the Universe"
+  ],
+  "raw": "about 300 million times"
+ },
+ {
+  "id": "wiki-en-europium:178:176-180",
+  "value": true,
+  "object": "Eu-170",
+  "quantity": "discovery_year",
+  "condition": "",
+  "note": [
+   "first experimentally characterised"
+  ],
+  "raw": "2022"
+ },
+ {
+  "id": "wiki-en-europium:178:221-234",
+  "value": true,
+  "object": "Eu-170",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "neutron-rich isotope"
+  ],
+  "raw": "197+74 −71 ms"
+ },
+ {
+  "id": "wiki-en-europium:178:303-313",
+  "value": true,
+  "object": "Eu-150",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "longest-lived artificial isotope"
+  ],
+  "raw": "36.9 years"
+ },
+ {
+  "id": "wiki-en-europium:178:366-378",
+  "value": true,
+  "object": "Eu-152",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "13.517 years"
+ },
+ {
+  "id": "wiki-en-europium:178:388-399",
+  "value": true,
+  "object": "Eu-154",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "8.592 years"
+ },
+ {
+  "id": "wiki-en-europium:178:412-423",
+  "value": true,
+  "object": "Eu-155",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "4.742 years"
+ },
+ {
+  "id": "wiki-en-europium:178:507-515",
+  "value": true,
+  "object": "other ground-state europium radioisotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "all other known ground-state europium radioisotopes"
+  ],
+  "raw": "shorter than 100 days"
+ },
+ {
+  "id": "wiki-en-europium:180:97-107",
+  "value": true,
+  "object": "Eu-150m",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "12.8 hours"
+ },
+ {
+  "id": "wiki-en-europium:180:142-154",
+  "value": true,
+  "object": "Eu-152m1",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "9.3116 hours"
+ },
+ {
+  "id": "wiki-en-europium:180:183-192",
+  "value": true,
+  "object": "Eu-152m",
+  "quantity": "excitation_energy",
+  "condition": "",
+  "note": [
+   "another isomer of ¹⁵²Eu"
+  ],
+  "raw": "147.9 keV",
+  "uncertain": true,
+  "reason": "문서가 이 이성질체의 이름(m 번호)을 적지 않음"
+ },
+ {
+  "id": "wiki-en-europium:180:218-228",
+  "value": true,
+  "object": "Eu-152m",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "another isomer of ¹⁵²Eu at 147.9 keV"
+  ],
+  "raw": "about 96 minutes",
+  "uncertain": true,
+  "reason": "문서가 이 이성질체의 이름(m 번호)을 적지 않음"
+ },
+ {
+  "id": "wiki-en-europium:180:550-553",
+  "value": true,
+  "object": "Eu-152",
+  "quantity": "branching_ratio_ec_beta_plus",
+  "condition": "",
+  "note": [
+   "decays proceed by electron capture or positron emission to ¹⁵²Sm"
+  ],
+  "raw": "about 72%"
+ },
+ {
+  "id": "wiki-en-europium:180:639-642",
+  "value": true,
+  "object": "Eu-152",
+  "quantity": "branching_ratio_beta_minus",
+  "condition": "",
+  "note": [
+   "beta decay to ¹⁵²Gd"
+  ],
+  "raw": "about 28%"
+ },
+ {
+  "id": "wiki-en-europium:188:101-113",
+  "value": true,
+  "object": "rare-earth elements",
+  "quantity": "separation_period",
+  "condition": "",
+  "note": [
+   "prolonged separation"
+  ],
+  "raw": "19th century",
+  "uncertain": true,
+  "reason": "세기 단위의 어림 시기"
+ },
+ {
+  "id": "wiki-en-europium:188:145-149",
+  "value": true,
+  "object": "Ce",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "Cerium had been discovered"
+  ],
+  "raw": "1803"
+ },
+ {
+  "id": "wiki-en-europium:188:435-439",
+  "value": true,
+  "object": "Sm",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "Paul Émile Lecoq de Boisbaudran separated samarium from didymium"
+  ],
+  "raw": "1879"
+ },
+ {
+  "id": "wiki-en-europium:190:3-7",
+  "value": true,
+  "object": "Eu",
+  "quantity": "crookes_spectral_observation_year",
+  "condition": "",
+  "note": [
+   "William Crookes",
+   "anomalous line in the phosphorescence spectrum of material containing samarium and yttrium"
+  ],
+  "raw": "1885"
+ },
+ {
+  "id": "wiki-en-europium:190:188-192",
+  "value": true,
+  "object": "Eu",
+  "quantity": "lecoq_unidentified_line_year",
+  "condition": "",
+  "note": [
+   "Lecoq de Boisbaudran",
+   "unidentified spectral line in samarium"
+  ],
+  "raw": "1892",
+  "uncertain": true,
+  "reason": "선이 샘플 속 사마륨에서 보였다고 적혀 대상이 Eu인지 Sm인지 글만으로는 갈림"
+ },
+ {
+  "id": "wiki-en-europium:192:91-95",
+  "value": true,
+  "object": "Eu",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "Eugène-Anatole Demarçay",
+   "reported evidence for an unknown element associated with samarium"
+  ],
+  "raw": "1896"
+ },
+ {
+  "id": "wiki-en-europium:192:383-387",
+  "value": true,
+  "object": "Eu",
+  "quantity": "pure_form_obtained_year",
+  "condition": "",
+  "note": [
+   "Eugène-Anatole Demarçay",
+   "material sufficiently pure to establish the element conclusively",
+   "named it europium, after Europe"
+  ],
+  "raw": "1901"
+ },
+ {
+  "id": "wiki-en-europium:194:172-176",
+  "value": true,
+  "object": "Eu",
+  "quantity": "absorption_lines_described_year",
+  "condition": "",
+  "note": [
+   "Demarçay",
+   "sharp absorption lines of Eu(III) in solution"
+  ],
+  "raw": "1900"
+ },
+ {
+  "id": "wiki-en-europium:194:181-185",
+  "value": true,
+  "object": "europium(III) sulfate octahydrate",
+  "quantity": "pink_crystals_observed_year",
+  "condition": "",
+  "note": [
+   "Georges Urbain",
+   "faint pink appearance of crystals"
+  ],
+  "raw": "1904"
+ },
+ {
+  "id": "wiki-en-europium:194:294-298",
+  "value": true,
+  "object": "europium oxide",
+  "quantity": "red_luminescence_reported_year",
+  "condition": "",
+  "note": [
+   "Georges Urbain",
+   "intense red luminescence of europium oxide dispersed in lime"
+  ],
+  "raw": "1906"
+ },
+ {
+  "id": "wiki-en-europium:194:380-384",
+  "value": true,
+  "object": "europium-doped gadolinium oxide",
+  "quantity": "cathodoluminescence_described_year",
+  "condition": "",
+  "note": [
+   "Georges Urbain"
+  ],
+  "raw": "1909"
+ },
+ {
+  "id": "wiki-en-europium:194:559-563",
+  "value": true,
+  "object": "Eu",
+  "quantity": "crookes_revisit_year",
+  "condition": "",
+  "note": [
+   "Crookes also revisited the element"
+  ],
+  "raw": "1905"
+ },
+ {
+  "id": "wiki-en-europium:196:329-333",
+  "value": true,
+  "object": "Eu",
+  "quantity": "mccoy_separation_method_year",
+  "condition": "",
+  "note": [
+   "Herbert Newby McCoy",
+   "Eu(III) reduced with amalgamated zinc and Eu(II) precipitated as the sulfate"
+  ],
+  "raw": "1935"
+ },
+ {
+  "id": "wiki-en-europium:198:85-89",
+  "value": true,
+  "object": "Eu",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "Wilhelm Klemm and Heinrich Bommer",
+   "prepared rare-earth metals, including europium, by reducing their chlorides with alkali metals"
+  ],
+  "raw": "1937"
+ },
+ {
+  "id": "wiki-en-europium:200:62-74",
+  "value": true,
+  "object": "Eu",
+  "quantity": "large_scale_availability_period",
+  "condition": "",
+  "note": [
+   "increased",
+   "improved methods allowed the individual rare-earth elements to be separated in greater quantities"
+  ],
+  "raw": "mid-20th century",
+  "uncertain": true,
+  "reason": "세기 단위의 어림 시기"
+ },
+ {
+  "id": "wiki-en-europium:200:180-184",
+  "value": true,
+  "object": "YVO4:Eu",
+  "quantity": "phosphor_reported_year",
+  "condition": "",
+  "note": [
+   "Albert K. Levine and Frank C. Palilla",
+   "highly efficient red-emitting cathodoluminescent phosphor for colour television"
+  ],
+  "raw": "1964"
+ },
+ {
+  "id": "wiki-en-europium:200:558-562",
+  "value": true,
+  "object": "Mountain Pass mine",
+  "quantity": "leading_rare_earth_source_year",
+  "condition": "",
+  "note": [
+   "world's leading source of rare-earth elements"
+  ],
+  "raw": "By 1966"
+ },
+ {
+  "id": "wiki-en-europium:204:403-404",
+  "value": true,
+  "object": "Eu",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "average abundance in the Earth's crust"
+  ],
+  "raw": "about 2 ppm"
+ },
+ {
+  "id": "wiki-en-europium:210:249-253",
+  "value": true,
+  "object": "fluorescence",
+  "quantity": "term_coined_year",
+  "condition": "",
+  "note": [
+   "George Gabriel Stokes coined the term",
+   "studying the luminescence of fluor-spar (fluorite)"
+  ],
+  "raw": "1852"
+ },
+ {
+  "id": "wiki-en-europium:218:98-100",
+  "value": false,
+  "reason": "산화 상태를 가리키는 이름(호칭)"
+ },
+ {
+  "id": "wiki-en-europium:220:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:220:14-15",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:224:11-12",
+  "value": false,
+  "reason": "이온 SO2−4의 화학식 일부(전하 표기)"
+ },
+ {
+  "id": "wiki-en-europium:228:114-115",
+  "value": false,
+  "reason": "화합물 이름 bis(2-ethylhexyl)phosphoric acid의 일부"
+ },
+ {
+  "id": "wiki-en-europium:230:54-58",
+  "value": true,
+  "object": "molycorp europium separation",
+  "quantity": "demonstration_year",
+  "condition": "",
+  "note": [
+   "large-scale example demonstrated by Molycorp",
+   "bastnäsite-derived rare-earth chloride feed from Mountain Pass"
+  ],
+  "raw": "1965"
+ },
+ {
+  "id": "wiki-en-europium:230:159-163",
+  "value": true,
+  "object": "Eu2O3",
+  "quantity": "feed_content",
+  "condition": "",
+  "note": [
+   "bastnäsite-derived rare-earth chloride feed from Mountain Pass"
+  ],
+  "raw": "about 0.1% Eu2O3"
+ },
+ {
+  "id": "wiki-en-europium:230:247-250",
+  "value": true,
+  "object": "Eu2O3",
+  "quantity": "content_after_solvent_extraction_enrichment",
+  "condition": "",
+  "note": [
+   "solvent extraction with D2EHPA first enriched the europium"
+  ],
+  "raw": "approximately 15%",
+  "uncertain": true,
+  "reason": "문서는 europium이라고만 적고 앞 문장의 Eu2O3 함량에 이어 읽음"
+ },
+ {
+  "id": "wiki-en-europium:230:522-528",
+  "value": true,
+  "object": "Eu2O3",
+  "quantity": "purity",
+  "condition": "",
+  "note": [
+   "produced by calcination of the precipitate"
+  ],
+  "raw": "approximately 99.99% purity"
+ },
+ {
+  "id": "wiki-en-europium:234:253-263",
+  "value": true,
+  "object": "europium oxide",
+  "quantity": "annual_production",
+  "condition": "",
+  "note": [
+   "average global production",
+   "European Commission estimates",
+   "2012–2016"
+  ],
+  "raw": "about 422 tonnes per year"
+ },
+ {
+  "id": "wiki-en-europium:234:276-280",
+  "value": false,
+  "reason": "생산량 값에 붙은 기간 2012–2016의 시작 해(note로 붙임)"
+ },
+ {
+  "id": "wiki-en-europium:234:281-285",
+  "value": false,
+  "reason": "생산량 값에 붙은 기간 2012–2016의 끝 해(note로 붙임)"
+ },
+ {
+  "id": "wiki-en-europium:234:321-324",
+  "value": true,
+  "object": "china",
+  "quantity": "europium_oxide_production_share",
+  "condition": "",
+  "note": [
+   "share of average global production of europium oxide",
+   "2012–2016"
+  ],
+  "raw": "approximately 86%"
+ },
+ {
+  "id": "wiki-en-europium:234:370-372",
+  "value": true,
+  "object": "australia",
+  "quantity": "europium_oxide_production_share",
+  "condition": "",
+  "note": [
+   "share of average global production of europium oxide",
+   "2012–2016"
+  ],
+  "raw": "6%"
+ },
+ {
+  "id": "wiki-en-europium:234:412-414",
+  "value": true,
+  "object": "united states",
+  "quantity": "europium_oxide_production_share",
+  "condition": "",
+  "note": [
+   "United States and Russia",
+   "share of average global production of europium oxide",
+   "2012–2016"
+  ],
+  "raw": "about 2% each",
+  "uncertain": true,
+  "reason": "한 숫자가 미국과 러시아 둘에 걸림"
+ },
+ {
+  "id": "wiki-en-europium:238:8-9",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:238:15-16",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-europium:240:95-99",
+  "value": true,
+  "object": "Eu",
+  "quantity": "reduction_temperature",
+  "condition": "",
+  "note": [
+   "reaction carried out in refractory apparatus, commonly using tantalum"
+  ],
+  "raw": "approximately 1100–1200 °C"
+ },
+ {
+  "id": "wiki-en-europium:240:100-107",
+  "value": true,
+  "part_of": "wiki-en-europium:240:95-99"
+ },
+ {
+  "id": "wiki-en-europium:240:429-433",
+  "value": true,
+  "object": "Eu",
+  "quantity": "high_purity_metal_preparation_year",
+  "condition": "",
+  "note": [
+   "Frank Spedding, J. J. Hanak and A. H. Daane"
+  ],
+  "raw": "1958"
+ },
+ {
+  "id": "wiki-en-europium:240:498-504",
+  "value": true,
+  "object": "Eu",
+  "quantity": "spedding_preparation_yield",
+  "condition": "",
+  "note": [
+   "high-purity europium",
+   "heating europium oxide with lanthanum in vacuum"
+  ],
+  "raw": "70.4 g"
+ },
+ {
+  "id": "wiki-en-europium:240:589-596",
+  "value": true,
+  "object": "Eu",
+  "quantity": "spedding_preparation_temperature",
+  "condition": "",
+  "note": [
+   "heating europium oxide with lanthanum in vacuum"
+  ],
+  "raw": "about 1200 °C"
+ },
+ {
+  "id": "wiki-en-europium:250:172-177",
+  "value": true,
+  "object": "YVO4:Eu",
+  "quantity": "commercial_introduction",
+  "condition": "",
+  "note": [
+   "introduced",
+   "red component for cathode-ray tube displays"
+  ],
+  "raw": "1960s",
+  "uncertain": true,
+  "reason": "10년 단위의 어림 시기"
+ },
+ {
+  "id": "wiki-en-europium:252:486-488",
+  "value": false,
+  "reason": "전자 궤도 이름 5d의 일부"
+ },
+ {
+  "id": "wiki-en-europium:260:195-201",
+  "value": true,
+  "object": "Eu",
+  "quantity": "emission_wavelength",
+  "condition": "",
+  "note": [
+   "Eu(III) complexes",
+   "⁵D0 → ⁷F2 transition"
+  ],
+  "raw": "near 612 nm"
+ },
+ {
+  "id": "wiki-en-europium:268:105-106",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-europium:268:297-298",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-europium:276:175-181",
+  "value": true,
+  "object": "europium(III) chloride",
+  "quantity": "rat_study_duration",
+  "condition": "",
+  "note": [
+   "rats given europium(III) chloride hexahydrate"
+  ],
+  "raw": "28-day study"
+ },
+ {
+  "id": "wiki-en-europium:276:258-262",
+  "value": true,
+  "object": "europium(III) chloride",
+  "quantity": "rat_study_max_dose",
+  "condition": "",
+  "note": [
+   "up to",
+   "28-day study in rats"
+  ],
+  "raw": "1000 mg/kg of body weight per day"
+ },
+ {
+  "id": "wiki-en-europium:276:527-530",
+  "value": true,
+  "object": "europium(III) chloride",
+  "quantity": "no_observed_effect_level",
+  "condition": "",
+  "note": [
+   "28-day study in rats"
+  ],
+  "raw": "200 mg/kg/day"
+ },
+ {
+  "id": "wiki-en-europium:278:142-143",
+  "value": false,
+  "reason": "GHS 위험 분류 '범주 1'의 번호(분류 이름의 일부)"
+ }
+]

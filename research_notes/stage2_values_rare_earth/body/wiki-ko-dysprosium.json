@@ -1,0 +1,56 @@
+[
+ {
+  "id": "wiki-ko-dysprosium:67:124-126",
+  "value": true,
+  "object": "Dy",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "66"
+ },
+ {
+  "id": "wiki-ko-dysprosium:69:7-12",
+  "value": true,
+  "object": "Dy",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "처음 확인되었으나"
+  ],
+  "raw": "1886년"
+ },
+ {
+  "id": "wiki-ko-dysprosium:69:77-83",
+  "value": true,
+  "object": "Dy",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "이온 교환 기술이 개발될 때까지",
+   "순수한 형태로 분리되지 않았다"
+  ],
+  "raw": "1950년대"
+ },
+ {
+  "id": "wiki-ko-dysprosium:69:226-230",
+  "value": true,
+  "object": "Dy",
+  "quantity": "volume_magnetic_susceptibility",
+  "condition": "",
+  "note": [
+   "데이터 저장 응용 분야의 높은 자기 민감성",
+   "χv ≒"
+  ],
+  "raw": "5.44×10−3"
+ },
+ {
+  "id": "wiki-ko-dysprosium:69:231-233",
+  "value": true,
+  "part_of": "wiki-ko-dysprosium:69:226-230"
+ },
+ {
+  "id": "wiki-ko-dysprosium:69:234-235",
+  "value": true,
+  "part_of": "wiki-ko-dysprosium:69:226-230"
+ }
+]

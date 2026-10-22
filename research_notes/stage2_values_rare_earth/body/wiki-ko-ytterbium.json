@@ -1,0 +1,741 @@
+[
+ {
+  "id": "wiki-ko-ytterbium:71:121-123",
+  "value": true,
+  "object": "Yb",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "70"
+ },
+ {
+  "id": "wiki-ko-ytterbium:73:76-78",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "비교적 안정한"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-ko-ytterbium:73:154-156",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "주요 산화수"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-ytterbium:73:220-221",
+  "value": true,
+  "object": "Yb",
+  "quantity": "coordination_number",
+  "condition": "",
+  "note": [
+   "수용액 내에서"
+  ],
+  "raw": "9개의 물 분자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:75:39-40",
+  "value": true,
+  "object": "yttria",
+  "quantity": "number_of_elements",
+  "condition": "",
+  "note": [],
+  "raw": "9가지 원소들"
+ },
+ {
+  "id": "wiki-ko-ytterbium:77:62-63",
+  "value": true,
+  "object": "Yb",
+  "quantity": "number_of_stable_isotopes",
+  "condition": "",
+  "note": [],
+  "raw": "7개의 안정 동위원소"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:40-41",
+  "value": true,
+  "object": "Yb",
+  "quantity": "number_of_crystal_structures",
+  "condition": "",
+  "note": [],
+  "raw": "3가지 결정 구조"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:66-72",
+  "value": true,
+  "object": "Yb",
+  "quantity": "phase_transition_temperature",
+  "condition": "",
+  "note": [
+   "알파 결정 구조",
+   "이하"
+  ],
+  "raw": "-13 °C"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:125-131",
+  "value": true,
+  "object": "Yb",
+  "quantity": "phase_transition_temperature",
+  "condition": "",
+  "note": [
+   "감마 결정 구조",
+   "이상"
+  ],
+  "raw": "795 °C"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:222-230",
+  "value": true,
+  "object": "Yb",
+  "quantity": "semiconductor_transition_pressure",
+  "condition": "",
+  "note": [
+   "베타 결정 구조",
+   "반도체가 되고"
+  ],
+  "raw": "16000 기압(1.6 GPa)"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:231-238",
+  "value": true,
+  "part_of": "wiki-ko-ytterbium:81:222-230"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:251-258",
+  "value": false,
+  "reason": "다른 값(전기 저항 상승 배율 10배)이 나타나는 조건인 압력"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:259-266",
+  "value": false,
+  "reason": "39000기압의 단위 환산(조건인 압력)"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:271-273",
+  "value": true,
+  "object": "Yb",
+  "quantity": "relative_electrical_resistivity",
+  "condition": "",
+  "note": [
+   "39000기압(3.9 GPa)에서는"
+  ],
+  "raw": "10배"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:298-305",
+  "value": false,
+  "reason": "다른 값(전기 저항 90 %)이 나타나는 조건인 압력"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:309-316",
+  "value": false,
+  "reason": "40000기압의 단위 환산(조건인 압력)"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:325-326",
+  "value": false,
+  "reason": "다른 값(전기 저항 90 %)의 기준인 1기압, 조건인 압력"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:340-344",
+  "value": true,
+  "object": "Yb",
+  "quantity": "relative_electrical_resistivity",
+  "condition": "",
+  "note": [
+   "40000기압에서는(4.0 GPa)",
+   "1기압일 때의 전기 저항의"
+  ],
+  "raw": "90 %"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:395-398",
+  "value": true,
+  "object": "Yb",
+  "quantity": "paramagnetic_temperature_threshold",
+  "condition": "",
+  "note": [
+   "1 K 위의 낮은 온도에서 상자성"
+  ],
+  "raw": "1 K",
+  "uncertain": true,
+  "reason": "1 K 위의 온도에서 상자성이라는 문턱 온도라서 양 열쇠를 새로 만들었다"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:450-456",
+  "value": true,
+  "object": "Yb",
+  "quantity": "melting_point",
+  "condition": "",
+  "note": [],
+  "raw": "824 °C"
+ },
+ {
+  "id": "wiki-ko-ytterbium:81:463-470",
+  "value": true,
+  "object": "Yb",
+  "quantity": "boiling_point",
+  "condition": "",
+  "note": [],
+  "raw": "1196 °C"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:60-65",
+  "value": true,
+  "object": "Yb",
+  "quantity": "density",
+  "condition": "",
+  "note": [],
+  "raw": "6.973 g/cm^(3)"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:72-73",
+  "value": false,
+  "reason": "단위 g/cm^(3)의 지수"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:84-88",
+  "value": true,
+  "object": "Tm",
+  "quantity": "density",
+  "condition": "",
+  "note": [],
+  "raw": "9.32 g/cm^(3)"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:95-96",
+  "value": false,
+  "reason": "단위 g/cm^(3)의 지수"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:105-110",
+  "value": true,
+  "object": "Lu",
+  "quantity": "density",
+  "condition": "",
+  "note": [],
+  "raw": "9.841 g/cm^(3)"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:117-118",
+  "value": false,
+  "reason": "단위 g/cm^(3)의 지수"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:219-221",
+  "value": false,
+  "reason": "전자 껍질 이름 6s의 일부"
+ },
+ {
+  "id": "wiki-ko-ytterbium:83:247-248",
+  "value": true,
+  "object": "other lanthanides",
+  "quantity": "metallic_bonding_electrons",
+  "condition": "",
+  "note": [
+   "다른 란타넘족들"
+  ],
+  "raw": "3개"
+ },
+ {
+  "id": "wiki-ko-ytterbium:91:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:91:11-12",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:91:23-24",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:91:31-32",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:91:40-41",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:95:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:95:11-12",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:95:22-23",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:97:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:97:11-12",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:97:23-24",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:99:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:99:11-12",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:99:23-24",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:101:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:101:11-12",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:101:22-23",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:103:194-195",
+  "value": true,
+  "object": "Yb",
+  "quantity": "coordination_number",
+  "condition": "",
+  "note": [
+   "색깔 없는 이터븀(III) 이온",
+   "복합체"
+  ],
+  "raw": "9수화물"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:11-12",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:26-28",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:39-40",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:49-50",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:61-62",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:67-68",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:105:76-77",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:109:13-15",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "주요 산화수"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-ytterbium:109:22-24",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "쉽게"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-ko-ytterbium:109:76-78",
+  "value": true,
+  "object": "lanthanides",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "거의 오직",
+   "란타넘족 원소"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-ytterbium:109:294-296",
+  "value": true,
+  "object": "Sm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "사마륨(Sm)과 툴륨(Tm)도"
+  ],
+  "raw": "+2",
+  "uncertain": true,
+  "reason": "사마륨과 툴륨 두 원소에 걸린 값인데 대상은 하나만 적을 수 있어 Sm으로 적었다"
+ },
+ {
+  "id": "wiki-ko-ytterbium:111:26-27",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:111:42-43",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:11-12",
+  "value": true,
+  "object": "Yb",
+  "quantity": "number_of_stable_isotopes",
+  "condition": "",
+  "note": [],
+  "raw": "7가지의 안정 동위원소"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:98-104",
+  "value": true,
+  "object": "Yb-174",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "가장 존재비가 높다"
+  ],
+  "raw": "31.8 %"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:118-120",
+  "value": true,
+  "object": "Yb",
+  "quantity": "number_of_radioactive_isotopes",
+  "condition": "",
+  "note": [],
+  "raw": "27개의 방사성 동위원소"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:162-168",
+  "value": true,
+  "object": "Yb-169",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "가장 반감기가 긴 것들"
+  ],
+  "raw": "32.0 일"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:178-184",
+  "value": true,
+  "object": "Yb-175",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "가장 반감기가 긴 것들"
+  ],
+  "raw": "4.18 일"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:198-205",
+  "value": true,
+  "object": "Yb-166",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "가장 반감기가 긴 것들"
+  ],
+  "raw": "56.7 시간"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:230-233",
+  "value": true,
+  "object": "other Yb radioactive isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "넘지 않으며"
+  ],
+  "raw": "2시간"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:246-249",
+  "value": true,
+  "object": "other Yb radioactive isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "대부분",
+   "이하"
+  ],
+  "raw": "20분"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:261-263",
+  "value": true,
+  "object": "Yb",
+  "quantity": "number_of_nuclear_isomers",
+  "condition": "",
+  "note": [],
+  "raw": "12개의 준안정 상태"
+ },
+ {
+  "id": "wiki-ko-ytterbium:117:328-331",
+  "value": true,
+  "object": "Yb-169m",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "가장 반감기가 긴"
+  ],
+  "raw": "46초"
+ },
+ {
+  "id": "wiki-ko-ytterbium:119:23-31",
+  "value": true,
+  "object": "Yb-148",
+  "quantity": "isotopic_mass",
+  "condition": "",
+  "note": [],
+  "raw": "147.9674 u"
+ },
+ {
+  "id": "wiki-ko-ytterbium:119:49-57",
+  "value": true,
+  "object": "Yb-181",
+  "quantity": "isotopic_mass",
+  "condition": "",
+  "note": [],
+  "raw": "182.9562 u"
+ },
+ {
+  "id": "wiki-ko-ytterbium:123:120-121",
+  "value": true,
+  "object": "rare earth metals",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [],
+  "raw": "3가의 희토류 금속 이온",
+  "uncertain": true,
+  "reason": "3가(+3)를 가리키는 말이라 산화수로 적었다"
+ },
+ {
+  "id": "wiki-ko-ytterbium:127:50-52",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "대부분",
+   "화합물 내에서"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-ytterbium:127:63-64",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [],
+  "raw": "3가의 이터븀 이온",
+  "uncertain": true,
+  "reason": "3가(+3)를 가리키는 말이라 산화수로 적었다"
+ },
+ {
+  "id": "wiki-ko-ytterbium:127:228-230",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "고체 화합물 내에서만"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-ko-ytterbium:133:0-1",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:133:9-10",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:139:21-22",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:139:23-24",
+  "value": false,
+  "reason": "반응식·화학식의 계수 또는 아래첨자"
+ },
+ {
+  "id": "wiki-ko-ytterbium:147:0-3",
+  "value": true,
+  "object": "Yb-169",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "32일"
+ },
+ {
+  "id": "wiki-ko-ytterbium:147:246-249",
+  "value": true,
+  "object": "Yb-169",
+  "quantity": "radiograph_equivalent_xray_energy",
+  "condition": "",
+  "note": [
+   "이 동위원소로 찍은 방사선 촬영 사진"
+  ],
+  "raw": "250~350 kev"
+ },
+ {
+  "id": "wiki-ko-ytterbium:147:250-253",
+  "value": true,
+  "part_of": "wiki-ko-ytterbium:147:246-249"
+ },
+ {
+  "id": "wiki-ko-ytterbium:155:185-189",
+  "value": true,
+  "object": "ytterbium laser",
+  "quantity": "emission_wavelength",
+  "condition": "",
+  "note": [
+   "일반적으로"
+  ],
+  "raw": "1.06 - 1.12 마이크로미터",
+  "uncertain": true,
+  "reason": "한 문장에 파장 범위 두 개가 적혀 있고 앞 범위의 뜻이 분명하지 않다"
+ },
+ {
+  "id": "wiki-ko-ytterbium:155:192-203",
+  "value": true,
+  "part_of": "wiki-ko-ytterbium:155:185-189"
+ },
+ {
+  "id": "wiki-ko-ytterbium:155:212-218",
+  "value": true,
+  "object": "ytterbium laser",
+  "quantity": "emission_wavelength",
+  "condition": "",
+  "note": [
+   "파장"
+  ],
+  "raw": "900 nm~1 마이크로미터",
+  "uncertain": true,
+  "reason": "한 문장에 파장 범위 두 개가 적혀 있고 앞 범위의 뜻이 분명하지 않다"
+ },
+ {
+  "id": "wiki-ko-ytterbium:155:219-227",
+  "value": true,
+  "part_of": "wiki-ko-ytterbium:155:212-218"
+ },
+ {
+  "id": "wiki-ko-ytterbium:159:32-41",
+  "value": true,
+  "object": "ytterbium optical clock",
+  "quantity": "clock_error",
+  "condition": "",
+  "note": [
+   "오차"
+  ],
+  "raw": "2 × 10⁻¹⁸"
+ },
+ {
+  "id": "wiki-ko-ytterbium:159:95-97",
+  "value": true,
+  "object": "ytterbium optical clock",
+  "quantity": "cooling_temperature",
+  "condition": "",
+  "note": [
+   "미국 국립 표준기술 연구소(NIST)가 개발한"
+  ],
+  "raw": "10 마이크로켈빈"
+ },
+ {
+  "id": "wiki-ko-ytterbium:159:119-125",
+  "value": true,
+  "object": "ytterbium optical clock",
+  "quantity": "number_of_trapped_atoms",
+  "condition": "",
+  "note": [
+   "미국 국립 표준기술 연구소(NIST)가 개발한"
+  ],
+  "raw": "10,000개"
+ },
+ {
+  "id": "wiki-ko-ytterbium:159:213-215",
+  "value": true,
+  "object": "ytterbium optical clock",
+  "quantity": "clock_transition_frequency",
+  "condition": "",
+  "note": [
+   "미국 국립 표준기술 연구소(NIST)가 개발한"
+  ],
+  "raw": "1초에 518조 번"
+ },
+ {
+  "id": "wiki-ko-ytterbium:159:217-221",
+  "value": true,
+  "part_of": "wiki-ko-ytterbium:159:213-215"
+ }
+]

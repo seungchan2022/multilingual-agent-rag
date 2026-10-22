@@ -1,0 +1,876 @@
+[
+ {
+  "id": "wiki-en-ytterbium:74:68-70",
+  "value": true,
+  "object": "Yb",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "70"
+ },
+ {
+  "id": "wiki-en-ytterbium:74:188-190",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-en-ytterbium:74:271-273",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "its most common oxidation state"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-ytterbium:76:3-7",
+  "value": true,
+  "object": "Yb",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [],
+  "raw": "1878"
+ },
+ {
+  "id": "wiki-en-ytterbium:76:421-425",
+  "value": true,
+  "object": "Lu",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "the new earth \"lutecia\" was separated from ytterbia"
+  ],
+  "raw": "1907"
+ },
+ {
+  "id": "wiki-en-ytterbium:76:730-734",
+  "value": true,
+  "object": "Yb",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "A relatively pure sample of the metal"
+  ],
+  "raw": "1953"
+ },
+ {
+  "id": "wiki-en-ytterbium:78:117-118",
+  "value": true,
+  "object": "Yb",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "average concentration",
+   "in the Earth's crust"
+  ],
+  "raw": "3 parts per million"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:121-124",
+  "value": true,
+  "object": "Yb",
+  "quantity": "allotrope_transformation_temperature",
+  "condition": "",
+  "note": [],
+  "raw": "−13 and 795 °C (9 and 1,463 °F)"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:129-135",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:86:121-124"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:137-138",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:86:121-124"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:143-151",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:86:121-124"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:256-267",
+  "value": true,
+  "object": "Yb",
+  "quantity": "density",
+  "condition": "",
+  "note": [
+   "The beta allotrope",
+   "exists at room temperature"
+  ],
+  "raw": "6.966 g/cm³ [4.027 oz/cu in]"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:269-274",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:86:256-267"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:404-414",
+  "value": true,
+  "object": "Yb",
+  "quantity": "density",
+  "condition": "",
+  "note": [
+   "The high-temperature gamma allotrope"
+  ],
+  "raw": "6.57 g/cm³ [3.80 oz/cu in]"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:416-420",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:86:404-414"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:502-513",
+  "value": true,
+  "object": "Yb",
+  "quantity": "density",
+  "condition": "",
+  "note": [
+   "The alpha allotrope"
+  ],
+  "raw": "6.903 g/cm³ [3.990 oz/cu in]"
+ },
+ {
+  "id": "wiki-en-ytterbium:86:515-520",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:86:502-513"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:157-175",
+  "value": true,
+  "object": "Yb",
+  "quantity": "semiconductor_transition_pressure",
+  "condition": "",
+  "note": [
+   "The beta allotrope",
+   "becomes a semiconductor"
+  ],
+  "raw": "about 16,000 atmospheres (1.6 GPa)"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:177-184",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:88:157-175"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:254-272",
+  "value": true,
+  "object": "Yb",
+  "quantity": "resistivity_increase_pressure",
+  "condition": "",
+  "note": [
+   "electrical resistivity increases ten times upon compression"
+  ],
+  "raw": "39,000 atmospheres (3.9 GPa)"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:274-281",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:88:254-272"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:308-312",
+  "value": true,
+  "object": "Yb",
+  "quantity": "resistivity_drop_ratio",
+  "condition": "",
+  "note": [
+   "of its room-temperature resistivity"
+  ],
+  "raw": "about 10 %"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:358-368",
+  "value": true,
+  "object": "Yb",
+  "quantity": "resistivity_drop_pressure",
+  "condition": "",
+  "note": [
+   "drops to about 10 % of its room-temperature resistivity"
+  ],
+  "raw": "about 40,000 atm (4.0 GPa)"
+ },
+ {
+  "id": "wiki-en-ytterbium:88:370-377",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:88:358-368"
+ },
+ {
+  "id": "wiki-en-ytterbium:90:182-192",
+  "value": true,
+  "object": "Yb",
+  "quantity": "paramagnetic_range",
+  "condition": "",
+  "note": [],
+  "raw": "above 1.0 kelvin"
+ },
+ {
+  "id": "wiki-en-ytterbium:90:263-269",
+  "value": true,
+  "object": "Yb",
+  "quantity": "melting_point",
+  "condition": "",
+  "note": [],
+  "raw": "824 °C"
+ },
+ {
+  "id": "wiki-en-ytterbium:90:293-300",
+  "value": true,
+  "object": "Yb",
+  "quantity": "boiling_point",
+  "condition": "",
+  "note": [],
+  "raw": "1196 °C"
+ },
+ {
+  "id": "wiki-en-ytterbium:92:166-177",
+  "value": true,
+  "object": "Yb",
+  "quantity": "density",
+  "condition": "",
+  "note": [],
+  "raw": "6.973 g/cm³"
+ },
+ {
+  "id": "wiki-en-ytterbium:92:260-270",
+  "value": true,
+  "object": "Tm",
+  "quantity": "density",
+  "condition": "",
+  "note": [],
+  "raw": "9.32 g/cm³"
+ },
+ {
+  "id": "wiki-en-ytterbium:92:286-297",
+  "value": true,
+  "object": "Lu",
+  "quantity": "density",
+  "condition": "",
+  "note": [],
+  "raw": "9.841 g/cm³"
+ },
+ {
+  "id": "wiki-en-ytterbium:100:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:100:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:100:21-22",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:100:29-30",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-ytterbium:100:37-38",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:104:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:104:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:104:20-21",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:105:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:105:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:105:21-22",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:106:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:106:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:106:21-22",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:107:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:107:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:107:20-21",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:24-26",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:36-37",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:46-47",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:57-58",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:111:71-72",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:115:181-183",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "lanthanides, which almost exclusively form compounds with an oxidation state of +3"
+  ],
+  "raw": "+3",
+  "uncertain": true,
+  "uncertain_reason": "대상이 Yb가 아니라 란타넘족 일반을 말하는 문장"
+ },
+ {
+  "id": "wiki-en-ytterbium:115:189-191",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "ytterbium readily forms divalent compounds"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-en-ytterbium:115:531-533",
+  "value": true,
+  "object": "Sm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "Samarium and thulium also behave this way in the +2 state"
+  ],
+  "raw": "+2",
+  "uncertain": true,
+  "uncertain_reason": "Sm, Tm, Yb(문장 주어)가 함께 걸린 문장이라 대상을 Sm으로 적음"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:145-152",
+  "value": true,
+  "object": "Yb-174",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "the most abundant"
+  ],
+  "raw": "31.90 %"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:281-292",
+  "value": true,
+  "object": "Yb-169",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "32.014 days"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:320-330",
+  "value": true,
+  "object": "Yb-175",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "4.185 days"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:362-372",
+  "value": true,
+  "object": "Yb-166",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "56.7 hours"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:451-458",
+  "value": true,
+  "object": "remaining radioactive ytterbium isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "less than 2 hours"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:502-512",
+  "value": true,
+  "object": "majority of remaining radioactive ytterbium isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "less than 20 minutes"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:536-538",
+  "value": true,
+  "object": "Yb",
+  "quantity": "number_of_meta_states",
+  "condition": "",
+  "note": [],
+  "raw": "18 meta states"
+ },
+ {
+  "id": "wiki-en-ytterbium:119:597-607",
+  "value": true,
+  "object": "Yb-169m",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "46 seconds"
+ },
+ {
+  "id": "wiki-en-ytterbium:125:136-142",
+  "value": true,
+  "object": "monazite sand",
+  "quantity": "ytterbium_content",
+  "condition": "",
+  "note": [],
+  "raw": "0.03 %"
+ },
+ {
+  "id": "wiki-en-ytterbium:125:508-520",
+  "value": true,
+  "object": "ion-exchange and solvent extraction techniques",
+  "quantity": "development_period",
+  "condition": "",
+  "note": [],
+  "raw": "mid- to late 20th century"
+ },
+ {
+  "id": "wiki-en-ytterbium:125:680-681",
+  "value": true,
+  "object": "Yb",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "The abundance of ytterbium in the Earth's crust"
+  ],
+  "raw": "about 3 mg/kg"
+ },
+ {
+  "id": "wiki-en-ytterbium:127:222-227",
+  "value": true,
+  "object": "Tm and Lu",
+  "quantity": "concentrate_abundance",
+  "condition": "",
+  "note": [
+   "occur in the same concentrate"
+  ],
+  "raw": "about 0.5 % each",
+  "uncertain": true,
+  "uncertain_reason": "Tm과 Lu 두 원소에 함께 걸린 값이라 대상을 'Tm and Lu'로 적음"
+ },
+ {
+  "id": "wiki-en-ytterbium:127:282-291",
+  "value": true,
+  "object": "Yb",
+  "quantity": "annual_production",
+  "condition": "",
+  "note": [
+   "The world production"
+  ],
+  "raw": "about 50 tonnes per year"
+ },
+ {
+  "id": "wiki-en-ytterbium:139:128-130",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "Most ytterbium compounds are found in the +3 oxidation state"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-ytterbium:139:376-378",
+  "value": true,
+  "object": "Yb",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "occurs only in solid compounds"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-en-ytterbium:145:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:145:9-10",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-ytterbium:159:3-7",
+  "value": true,
+  "object": "Yb",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [],
+  "raw": "1878"
+ },
+ {
+  "id": "wiki-en-ytterbium:161:3-7",
+  "value": true,
+  "object": "Lu",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "Georges Urbain separated Marignac's ytterbia into two components: neoytterbia and lutecia"
+  ],
+  "raw": "1907",
+  "uncertain": true,
+  "uncertain_reason": "1907년 분리가 이터븀(neoytterbia)과 루테튬(lutecia) 둘에 걸린 문장이라 대상을 Lu로 적음"
+ },
+ {
+  "id": "wiki-en-ytterbium:163:90-94",
+  "value": true,
+  "object": "lutetium naming dispute",
+  "quantity": "settlement_year",
+  "condition": "",
+  "note": [
+   "the Commission on Atomic Mass",
+   "settled the dispute"
+  ],
+  "raw": "1909"
+ },
+ {
+  "id": "wiki-en-ytterbium:165:78-82",
+  "value": true,
+  "object": "Yb",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "Metallic ytterbium was first produced"
+  ],
+  "raw": "1936"
+ },
+ {
+  "id": "wiki-en-ytterbium:167:99-103",
+  "value": true,
+  "object": "Yb",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "the first nearly pure ytterbium metal was produced"
+  ],
+  "raw": "1953"
+ },
+ {
+  "id": "wiki-en-ytterbium:167:247-251",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-ytterbium:167:256-260",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-ytterbium:167:273-278",
+  "value": true,
+  "object": "Yb",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "The price of ytterbium was relatively stable between 1953 and 1998"
+  ],
+  "raw": "US$1,000/kg"
+ },
+ {
+  "id": "wiki-en-ytterbium:173:39-46",
+  "value": true,
+  "object": "Yb-169",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "32 days"
+ },
+ {
+  "id": "wiki-en-ytterbium:173:118-126",
+  "value": true,
+  "object": "Yb-175",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "4.2 days"
+ },
+ {
+  "id": "wiki-en-ytterbium:173:666-669",
+  "value": true,
+  "object": "Yb-169",
+  "quantity": "equivalent_xray_energy",
+  "condition": "",
+  "note": [
+   "radiographs taken with a ¹⁶⁹Yb source are roughly equivalent to those taken with X-rays"
+  ],
+  "raw": "between 250 and 350 keV"
+ },
+ {
+  "id": "wiki-en-ytterbium:173:674-681",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:173:666-669"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:3-7",
+  "value": true,
+  "object": "ytterbium atomic clocks",
+  "quantity": "record_year",
+  "condition": "",
+  "note": [
+   "a pair of experimental atomic clocks based on ytterbium atoms at the National Institute of Standards and Technology (NIST) set a record for stability"
+  ],
+  "raw": "2013"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:257-258",
+  "value": true,
+  "object": "ytterbium atomic clocks",
+  "quantity": "clock_stability",
+  "condition": "",
+  "note": [],
+  "raw": "less than two parts in 1 quintillion (1 followed by 18 zeros)"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:272-273",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:177:257-258"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:286-288",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:177:257-258"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:305-307",
+  "value": true,
+  "object": "ytterbium atomic clocks",
+  "quantity": "stability_improvement_factor",
+  "condition": "",
+  "note": [
+   "than the previous best published results for other atomic clocks"
+  ],
+  "raw": "roughly 10 times better"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:511-517",
+  "value": true,
+  "object": "ytterbium atomic clocks",
+  "quantity": "number_of_atoms",
+  "condition": "",
+  "note": [],
+  "raw": "about 10,000 ytterbium atoms"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:550-552",
+  "value": true,
+  "object": "ytterbium atoms in clocks",
+  "quantity": "laser_cooling_temperature",
+  "condition": "",
+  "note": [
+   "laser-cooled"
+  ],
+  "raw": "10 microkelvin (10 millionths of a degree above absolute zero)"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:566-568",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:177:550-552"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:728-740",
+  "value": true,
+  "object": "ytterbium atomic clocks",
+  "quantity": "clock_laser_frequency",
+  "condition": "",
+  "note": [],
+  "raw": "518 trillion times per second (518 THz)"
+ },
+ {
+  "id": "wiki-en-ytterbium:177:759-766",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:177:728-740"
+ },
+ {
+  "id": "wiki-en-ytterbium:179:332-334",
+  "value": true,
+  "object": "Yb ion optical clock",
+  "quantity": "precision_digits",
+  "condition": "",
+  "note": [
+   "exact to"
+  ],
+  "raw": "17 digits after the decimal point"
+ },
+ {
+  "id": "wiki-en-ytterbium:187:345-349",
+  "value": true,
+  "object": "ytterbium lasers",
+  "quantity": "laser_wavelength",
+  "condition": "",
+  "note": [
+   "commonly radiate in the"
+  ],
+  "raw": "1.03–1.12 μm"
+ },
+ {
+  "id": "wiki-en-ytterbium:187:350-357",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:187:345-349"
+ },
+ {
+  "id": "wiki-en-ytterbium:187:400-406",
+  "value": true,
+  "object": "ytterbium lasers",
+  "quantity": "pump_wavelength",
+  "condition": "",
+  "note": [
+   "optically pumped at wavelength"
+  ],
+  "raw": "900 nm–1 μm"
+ },
+ {
+  "id": "wiki-en-ytterbium:187:407-411",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:187:400-406"
+ },
+ {
+  "id": "wiki-en-ytterbium:193:159-163",
+  "value": true,
+  "object": "Yb-doped fiber lasers",
+  "quantity": "laser_power",
+  "condition": "",
+  "note": [
+   "Power levels have increased from the"
+  ],
+  "raw": "1 kW"
+ },
+ {
+  "id": "wiki-en-ytterbium:193:342-345",
+  "value": true,
+  "object": "Yb-doped large mode area fibers",
+  "quantity": "beam_quality_m2",
+  "condition": "",
+  "note": [
+   "near perfect beam qualities"
+  ],
+  "raw": "M2<1.1"
+ },
+ {
+  "id": "wiki-en-ytterbium:193:366-372",
+  "value": true,
+  "object": "Yb-doped large mode area fibers",
+  "quantity": "laser_power",
+  "condition": "",
+  "note": [
+   "at ~1064 nm in a broadband configuration"
+  ],
+  "raw": "1.5 kW to greater than 2 kW"
+ },
+ {
+  "id": "wiki-en-ytterbium:193:389-393",
+  "value": true,
+  "part_of": "wiki-en-ytterbium:193:366-372"
+ },
+ {
+  "id": "wiki-en-ytterbium:193:398-405",
+  "value": true,
+  "object": "Yb-doped large mode area fibers",
+  "quantity": "laser_wavelength",
+  "condition": "",
+  "note": [
+   "at power levels of 1.5 kW to greater than 2 kW"
+  ],
+  "raw": "~1064 nm"
+ },
+ {
+  "id": "wiki-en-ytterbium:195:726-730",
+  "value": true,
+  "object": "Yb-doped fiber lasers",
+  "quantity": "laser_wavelength",
+  "condition": "",
+  "note": [
+   "1 μm systems"
+  ],
+  "raw": "1 μm"
+ },
+ {
+  "id": "wiki-en-ytterbium:213:14-18",
+  "value": false,
+  "reason": "참고 문헌의 출판 연도"
+ }
+]

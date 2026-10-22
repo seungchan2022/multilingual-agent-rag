@@ -1,0 +1,682 @@
+[
+ {
+  "id": "wiki-en-thulium:68:66-68",
+  "line": 68,
+  "raw": "69",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Thulium is a chemical element; it has symbol Tm and atomic number 69. It is the thirteenth element in the lanthanide series of m"
+ },
+ {
+  "id": "wiki-en-thulium:70:3-7",
+  "line": 70,
+  "raw": "1879",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "In 1879, the Swedish chemist Per Teodor Cleve separated two previou"
+ },
+ {
+  "id": "wiki-en-thulium:70:355-359",
+  "line": 70,
+  "raw": "1911",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ities of ytterbium oxide. A relatively pure sample of thulium oxide was first obtained in 1911. The metal itself was first obtained in 1936 by Wilhelm Kle"
+ },
+ {
+  "id": "wiki-en-thulium:70:400-404",
+  "line": 70,
+  "raw": "1936",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ample of thulium oxide was first obtained in 1911. The metal itself was first obtained in 1936 by Wilhelm Klemm and Heinrich Bommer."
+ },
+ {
+  "id": "wiki-en-thulium:72:63-65",
+  "line": 72,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Like the other lanthanides, its most common oxidation state is +3, seen in its oxide, halides and other compounds. In aqueous"
+ },
+ {
+  "id": "wiki-en-thulium:78:149-150",
+  "line": 78,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ishes on exposure to air. The metal can be cut with a knife, as it has a Mohs hardness of 2 to 3; it is malleable and ductile. Thulium is ferromagnetic"
+ },
+ {
+  "id": "wiki-en-thulium:78:154-155",
+  "line": 78,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " on exposure to air. The metal can be cut with a knife, as it has a Mohs hardness of 2 to 3; it is malleable and ductile. Thulium is ferromagnetic belo"
+ },
+ {
+  "id": "wiki-en-thulium:78:217-221",
+  "line": 78,
+  "raw": "32 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "as a Mohs hardness of 2 to 3; it is malleable and ductile. Thulium is ferromagnetic below 32 K, antiferromagnetic between 32 and 56 K, and paramagnetic ab"
+ },
+ {
+  "id": "wiki-en-thulium:78:249-251",
+  "line": 78,
+  "raw": "32",
+  "kind": "양",
+  "unit": "K",
+  "context": " is malleable and ductile. Thulium is ferromagnetic below 32 K, antiferromagnetic between 32 and 56 K, and paramagnetic above 56 K."
+ },
+ {
+  "id": "wiki-en-thulium:78:256-260",
+  "line": 78,
+  "raw": "56 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "leable and ductile. Thulium is ferromagnetic below 32 K, antiferromagnetic between 32 and 56 K, and paramagnetic above 56 K."
+ },
+ {
+  "id": "wiki-en-thulium:78:285-289",
+  "line": 78,
+  "raw": "56 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "s ferromagnetic below 32 K, antiferromagnetic between 32 and 56 K, and paramagnetic above 56 K."
+ },
+ {
+  "id": "wiki-en-thulium:84:53-59",
+  "line": 84,
+  "raw": "150 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "Thulium tarnishes slowly in air and burns readily at 150 °C to form thulium(III) oxide:"
+ },
+ {
+  "id": "wiki-en-thulium:86:0-1",
+  "line": 86,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Tm + 3 O2 → 2 Tm2O3"
+ },
+ {
+  "id": "wiki-en-thulium:86:7-8",
+  "line": 86,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Tm + 3 O2 → 2 Tm2O3"
+ },
+ {
+  "id": "wiki-en-thulium:86:14-15",
+  "line": 86,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Tm + 3 O2 → 2 Tm2O3"
+ },
+ {
+  "id": "wiki-en-thulium:92:0-1",
+  "line": 92,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 6 H2O(l) → 2 Tm(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-thulium:92:10-11",
+  "line": 92,
+  "raw": "6",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 6 H2O(l) → 2 Tm(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-thulium:92:21-22",
+  "line": 92,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 6 H2O(l) → 2 Tm(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-thulium:92:29-30",
+  "line": 92,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 6 H2O(l) → 2 Tm(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-thulium:92:37-38",
+  "line": 92,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 6 H2O(l) → 2 Tm(OH)3(aq) + 3 H2(g)"
+ },
+ {
+  "id": "wiki-en-thulium:94:101-107",
+  "line": 94,
+  "raw": "200 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "cts with all the halogens. Reactions are slow at room temperature, but are vigorous above 200 °C:"
+ },
+ {
+  "id": "wiki-en-thulium:96:0-1",
+  "line": 96,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 F2(g) → 2 TmF3(s) (white)"
+ },
+ {
+  "id": "wiki-en-thulium:96:10-11",
+  "line": 96,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 F2(g) → 2 TmF3(s) (white)"
+ },
+ {
+  "id": "wiki-en-thulium:96:20-21",
+  "line": 96,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 F2(g) → 2 TmF3(s) (white)"
+ },
+ {
+  "id": "wiki-en-thulium:97:0-1",
+  "line": 97,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 Cl2(g) → 2 TmCl3(s) (yellow)"
+ },
+ {
+  "id": "wiki-en-thulium:97:10-11",
+  "line": 97,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 Cl2(g) → 2 TmCl3(s) (yellow)"
+ },
+ {
+  "id": "wiki-en-thulium:97:21-22",
+  "line": 97,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 Cl2(g) → 2 TmCl3(s) (yellow)"
+ },
+ {
+  "id": "wiki-en-thulium:98:0-1",
+  "line": 98,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 Br2(g) → 2 TmBr3(s) (white)"
+ },
+ {
+  "id": "wiki-en-thulium:98:10-11",
+  "line": 98,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 Br2(g) → 2 TmBr3(s) (white)"
+ },
+ {
+  "id": "wiki-en-thulium:98:21-22",
+  "line": 98,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 Br2(g) → 2 TmBr3(s) (white)"
+ },
+ {
+  "id": "wiki-en-thulium:99:0-1",
+  "line": 99,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 I2(g) → 2 TmI3(s) (yellow)"
+ },
+ {
+  "id": "wiki-en-thulium:99:10-11",
+  "line": 99,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 I2(g) → 2 TmI3(s) (yellow)"
+ },
+ {
+  "id": "wiki-en-thulium:99:20-21",
+  "line": 99,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 I2(g) → 2 TmI3(s) (yellow)"
+ },
+ {
+  "id": "wiki-en-thulium:101:131-132",
+  "line": 101,
+  "raw": "9",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ric acid to form solutions containing the pale green Tm(III) ions, which exist as [Tm(OH2)9]³⁺ complexes:"
+ },
+ {
+  "id": "wiki-en-thulium:103:0-1",
+  "line": 103,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 H2SO4(aq) → 2 Tm³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(aq)"
+ },
+ {
+  "id": "wiki-en-thulium:103:10-11",
+  "line": 103,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 H2SO4(aq) → 2 Tm³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(aq)"
+ },
+ {
+  "id": "wiki-en-thulium:103:24-25",
+  "line": 103,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 H2SO4(aq) → 2 Tm³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(aq)"
+ },
+ {
+  "id": "wiki-en-thulium:103:37-38",
+  "line": 103,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 H2SO4(aq) → 2 Tm³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(aq)"
+ },
+ {
+  "id": "wiki-en-thulium:103:51-52",
+  "line": 103,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Tm(s) + 3 H2SO4(aq) → 2 Tm³⁺(aq) + 3 SO4²⁻(aq) + 3 H2(aq)"
+ },
+ {
+  "id": "wiki-en-thulium:105:208-210",
+  "line": 105,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ", TmC2, Tm2C3, TmH2, TmH3, TmSi2, TmGe3, TmB4, TmB6 and TmB12. Like most lanthanides, the +3 state is most common and is the only state observed in thul"
+ },
+ {
+  "id": "wiki-en-thulium:105:488-490",
+  "line": 105,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ". Tm³⁺ ions exhibit a bright blue luminescence. Because it occurs late in the series, the +2 oxidation state can also exist, stabilized by the nearly fu"
+ },
+ {
+  "id": "wiki-en-thulium:107:313-314",
+  "line": 107,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "s (except the fluoride). Some hydrated thulium compounds, such as TmCl3·7H2O and Tm2(C2O4)3·6H2O are green or greenish-white. Thulium dichloride reacts"
+ },
+ {
+  "id": "wiki-en-thulium:107:451-452",
+  "line": 107,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "loride reacts very vigorously with water. This reaction results in hydrogen gas and Tm(OH)3 exhibiting a fading reddish color. Combination of thulium a"
+ },
+ {
+  "id": "wiki-en-thulium:109:135-136",
+  "line": 109,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "uce hydrogen gas and thulium chloride. With nitric acid it yields thulium nitrate, Tm(NO3)3."
+ },
+ {
+  "id": "wiki-en-thulium:115:238-248",
+  "line": 115,
+  "raw": "1.92 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "rbium isotopes. The longest-lived radioisotopes are thulium-171, which has a half-life of 1.92 years, and thulium-170, which has a half-life of 128.6 days. Most"
+ },
+ {
+  "id": "wiki-en-thulium:115:292-302",
+  "line": 115,
+  "raw": "128.6 days",
+  "kind": "양",
+  "unit": "days",
+  "context": "ulium-171, which has a half-life of 1.92 years, and thulium-170, which has a half-life of 128.6 days. Most other isotopes have half-lives under 10 minutes."
+ },
+ {
+  "id": "wiki-en-thulium:115:346-356",
+  "line": 115,
+  "raw": "10 minutes",
+  "kind": "양",
+  "unit": "minutes",
+  "context": "ulium-170, which has a half-life of 128.6 days. Most other isotopes have half-lives under 10 minutes."
+ },
+ {
+  "id": "wiki-en-thulium:119:62-66",
+  "line": 119,
+  "raw": "1879",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Thulium was discovered by Swedish chemist Per Teodor Cleve in 1879 by looking for impurities in the oxides of other rare earth"
+ },
+ {
+  "id": "wiki-en-thulium:121:439-443",
+  "line": 121,
+  "raw": "1911",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "a British expatriate working on a large scale at New Hampshire College in Durham, USA. In 1911 he reported his results, having used his discovered method "
+ },
+ {
+  "id": "wiki-en-thulium:121:584-590",
+  "line": 121,
+  "raw": "15,000",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "d method of bromate fractional crystallization to do the purification. He famously needed 15,000 purification operations to establish that the material was "
+ },
+ {
+  "id": "wiki-en-thulium:123:69-74",
+  "line": 123,
+  "raw": "1950s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "High-purity thulium oxide was first offered commercially in the late 1950s, as a result of the adoption of ion-exchange separation tec"
+ },
+ {
+  "id": "wiki-en-thulium:123:235-239",
+  "line": 123,
+  "raw": "99 %",
+  "kind": "비율",
+  "unit": null,
+  "context": "ndsay Chemical Division of American Potash & Chemical Corporation offered it in grades of 99 % and 99.9 % purity. The price per kilogram oscillated betwee"
+ },
+ {
+  "id": "wiki-en-thulium:123:244-250",
+  "line": 123,
+  "raw": "99.9 %",
+  "kind": "비율",
+  "unit": null,
+  "context": "mical Division of American Potash & Chemical Corporation offered it in grades of 99 % and 99.9 % purity. The price per kilogram oscillated between US$4,600 "
+ },
+ {
+  "id": "wiki-en-thulium:123:304-309",
+  "line": 123,
+  "raw": "4,600",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ered it in grades of 99 % and 99.9 % purity. The price per kilogram oscillated between US$4,600 and $13,300 in the period from 1959 to 1998 for 99.9 % puri"
+ },
+ {
+  "id": "wiki-en-thulium:123:315-321",
+  "line": 123,
+  "raw": "13,300",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "grades of 99 % and 99.9 % purity. The price per kilogram oscillated between US$4,600 and $13,300 in the period from 1959 to 1998 for 99.9 % purity, and it w"
+ },
+ {
+  "id": "wiki-en-thulium:123:341-345",
+  "line": 123,
+  "raw": "1959",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "purity. The price per kilogram oscillated between US$4,600 and $13,300 in the period from 1959 to 1998 for 99.9 % purity, and it was the second highest fo"
+ },
+ {
+  "id": "wiki-en-thulium:123:349-353",
+  "line": 123,
+  "raw": "1998",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The price per kilogram oscillated between US$4,600 and $13,300 in the period from 1959 to 1998 for 99.9 % purity, and it was the second highest for the la"
+ },
+ {
+  "id": "wiki-en-thulium:123:358-364",
+  "line": 123,
+  "raw": "99.9 %",
+  "kind": "비율",
+  "unit": null,
+  "context": " per kilogram oscillated between US$4,600 and $13,300 in the period from 1959 to 1998 for 99.9 % purity, and it was the second highest for the lanthanides b"
+ },
+ {
+  "id": "wiki-en-thulium:127:477-480",
+  "line": 127,
+  "raw": "0.5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ence over the other rare earths in any mineral yet. Its abundance in the Earth's crust is 0.5 mg/kg by weight."
+ },
+ {
+  "id": "wiki-en-thulium:129:31-34",
+  "line": 129,
+  "raw": "0.5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Thulium makes up approximately 0.5 parts per million of soil, although this value can range fr"
+ },
+ {
+  "id": "wiki-en-thulium:129:97-100",
+  "line": 129,
+  "raw": "0.4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " makes up approximately 0.5 parts per million of soil, although this value can range from 0.4 to 0.8 parts per million. Thulium makes up 250 parts per qu"
+ },
+ {
+  "id": "wiki-en-thulium:129:104-107",
+  "line": 129,
+  "raw": "0.8",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "up approximately 0.5 parts per million of soil, although this value can range from 0.4 to 0.8 parts per million. Thulium makes up 250 parts per quadrilli"
+ },
+ {
+  "id": "wiki-en-thulium:129:144-147",
+  "line": 129,
+  "raw": "250",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "f soil, although this value can range from 0.4 to 0.8 parts per million. Thulium makes up 250 parts per quadrillion of seawater. In the Solar System, thu"
+ },
+ {
+  "id": "wiki-en-thulium:129:240-243",
+  "line": 129,
+  "raw": "200",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "rts per quadrillion of seawater. In the Solar System, thulium exists in concentrations of 200 parts per trillion by weight and 1 part per trillion by mol"
+ },
+ {
+  "id": "wiki-en-thulium:129:277-278",
+  "line": 129,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "he Solar System, thulium exists in concentrations of 200 parts per trillion by weight and 1 part per trillion by moles. Thulium ore occurs most commonl"
+ },
+ {
+  "id": "wiki-en-thulium:129:459-463",
+  "line": 129,
+  "raw": "2001",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Greenland, India, Tanzania, and the United States also have large reserves of thulium. In 2001, the total world reserves of thulium were approximately 100"
+ },
+ {
+  "id": "wiki-en-thulium:129:520-534",
+  "line": 129,
+  "raw": "100,000 tonnes",
+  "kind": "양",
+  "unit": "tonnes",
+  "context": "arge reserves of thulium. In 2001, the total world reserves of thulium were approximately 100,000 tonnes. Thulium is the least abundant lanthanide on Earth except f"
+ },
+ {
+  "id": "wiki-en-thulium:133:54-61",
+  "line": 133,
+  "raw": "0.007 %",
+  "kind": "비율",
+  "unit": null,
+  "context": "Thulium is principally extracted from monazite ores (~0.007 % thulium) found in river sands, through ion exchange. Newer "
+ },
+ {
+  "id": "wiki-en-thulium:133:447-452",
+  "line": 133,
+  "raw": "0.5 %",
+  "kind": "비율",
+  "unit": null,
+  "context": "hese, where about two-thirds of the total rare-earth content is yttrium, thulium is about 0.5 % (or about tied with lutetium for rarity)."
+ },
+ {
+  "id": "wiki-en-thulium:135:192-196",
+  "line": 135,
+  "raw": "2001",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "in a closed container. None of thulium's natural compounds are commercially important. In 2001, approximately 50 tonnes per year of thulium oxide were pro"
+ },
+ {
+  "id": "wiki-en-thulium:135:212-221",
+  "line": 135,
+  "raw": "50 tonnes",
+  "kind": "양",
+  "unit": "tonnes",
+  "context": "r. None of thulium's natural compounds are commercially important. In 2001, approximately 50 tonnes per year of thulium oxide were produced. In 1996, thulium o"
+ },
+ {
+  "id": "wiki-en-thulium:135:266-270",
+  "line": 135,
+  "raw": "1996",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "y important. In 2001, approximately 50 tonnes per year of thulium oxide were produced. In 1996, thulium oxide cost US$20 per gram, and in 2005, 99 %-pure "
+ },
+ {
+  "id": "wiki-en-thulium:135:294-296",
+  "line": 135,
+  "raw": "20",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "imately 50 tonnes per year of thulium oxide were produced. In 1996, thulium oxide cost US$20 per gram, and in 2005, 99 %-pure thulium metal powder cost "
+ },
+ {
+  "id": "wiki-en-thulium:135:314-318",
+  "line": 135,
+  "raw": "2005",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "r year of thulium oxide were produced. In 1996, thulium oxide cost US$20 per gram, and in 2005, 99 %-pure thulium metal powder cost US$70 per gram."
+ },
+ {
+  "id": "wiki-en-thulium:135:320-324",
+  "line": 135,
+  "raw": "99 %",
+  "kind": "비율",
+  "unit": null,
+  "context": " of thulium oxide were produced. In 1996, thulium oxide cost US$20 per gram, and in 2005, 99 %-pure thulium metal powder cost US$70 per gram."
+ },
+ {
+  "id": "wiki-en-thulium:135:359-361",
+  "line": 135,
+  "raw": "70",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "6, thulium oxide cost US$20 per gram, and in 2005, 99 %-pure thulium metal powder cost US$70 per gram."
+ },
+ {
+  "id": "wiki-en-thulium:141:164-171",
+  "line": 141,
+  "raw": "2080 nm",
+  "kind": "양",
+  "unit": "nm",
+  "context": "AG, or Ho,Cr,Tm:YAG) is an active laser medium material with high efficiency. It lases at 2080 nm in the infrared and is widely used in military applications"
+ },
+ {
+  "id": "wiki-en-thulium:141:320-327",
+  "line": 141,
+  "raw": "2010 nm",
+  "kind": "양",
+  "unit": "nm",
+  "context": "s, medicine, and meteorology. Single-element thulium-doped YAG (Tm:YAG) lasers operate at 2010 nm. The wavelength of thulium-based lasers is very efficient f"
+ },
+ {
+  "id": "wiki-en-thulium:145:175-185",
+  "line": 145,
+  "raw": "128.6 days",
+  "kind": "양",
+  "unit": "days",
+  "context": "h neutrons in a nuclear reactor to produce the isotope thulium-170, having a half-life of 128.6 days and five major emission lines of comparable intensity (at 7"
+ },
+ {
+  "id": "wiki-en-thulium:145:244-247",
+  "line": 145,
+  "raw": "7.4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "aving a half-life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 84.253 keV). These radioactive so"
+ },
+ {
+  "id": "wiki-en-thulium:145:249-255",
+  "line": 145,
+  "raw": "51.354",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " a half-life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 84.253 keV). These radioactive sources ha"
+ },
+ {
+  "id": "wiki-en-thulium:145:257-263",
+  "line": 145,
+  "raw": "52.389",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "life of 128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 84.253 keV). These radioactive sources have a use"
+ },
+ {
+  "id": "wiki-en-thulium:145:265-269",
+  "line": 145,
+  "raw": "59.4",
+  "kind": "양",
+  "unit": "keV",
+  "context": "128.6 days and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 84.253 keV). These radioactive sources have a useful li"
+ },
+ {
+  "id": "wiki-en-thulium:145:274-284",
+  "line": 145,
+  "raw": "84.253 keV",
+  "kind": "양",
+  "unit": "keV",
+  "context": "s and five major emission lines of comparable intensity (at 7.4, 51.354, 52.389, 59.4 and 84.253 keV). These radioactive sources have a useful life of about one"
+ },
+ {
+  "id": "wiki-en-thulium:151:162-163",
+  "line": 151,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "nal dosimeters for visual monitoring of radiation. Tm-doped halides in which Tm is in its 2+ oxidation state are luminescent materials that are propose"
+ }
+]

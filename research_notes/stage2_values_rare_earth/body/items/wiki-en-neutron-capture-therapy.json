@@ -1,0 +1,1466 @@
+[
+ {
+  "id": "wiki-en-neutron-capture-therapy:6:460-465",
+  "line": 6,
+  "raw": "3,837",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "gh propensity to capture low-energy \"thermal\" neutrons. The neutron cross section of ¹⁰B (3,837 barns) is 1,000 times more than that of other elements, suc"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:6:476-481",
+  "line": 6,
+  "raw": "1,000",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " capture low-energy \"thermal\" neutrons. The neutron cross section of ¹⁰B (3,837 barns) is 1,000 times more than that of other elements, such as nitrogen, h"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:41-45",
+  "line": 14,
+  "raw": "1932",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "James Chadwick discovered the neutron in 1932. Shortly thereafter, H. J. Taylor reported that boron-10 nu"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:292-296",
+  "line": 14,
+  "raw": "1936",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ecay of the boron-10 nuclei into helium-4 nuclei (alpha particles) and lithium-7 ions. In 1936, G.L. Locher, a scientist at the Franklin Institute in Phil"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:828-832",
+  "line": 14,
+  "raw": "1951",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " brain tumors, glioblastoma multiforme (GBMs), using borax as the boron-delivery agent in 1951. A clinical trial subsequently was initiated by Lee Farr us"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:1045-1049",
+  "line": 14,
+  "raw": "1954",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ational Laboratory in Long Island, New York, USA. Another clinical trial was initiated in 1954 by Sweet at the Massachusetts General Hospital using the MI"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:16:197-202",
+  "line": 16,
+  "raw": "1960s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "d Farr, and subsequently the pioneering clinical studies of Hiroshi Hatanaka (畠中洋) in the 1960s, to treat patients with brain tumors. Since then, clinical "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:16:448-452",
+  "line": 16,
+  "raw": "2011",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "nd, the Czech Republic, Taiwan, and Argentina. After the nuclear accident at Fukushima in 2011, the clinical program there transitioned from a reactor neu"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:22:128-131",
+  "line": 22,
+  "raw": "20%",
+  "kind": "비율",
+  "unit": null,
+  "context": "nd decay reactions that occur when non-radioactive boron-10, which makes up approximately 20% of natural elemental boron, is irradiated with neutrons of "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:24:31-39",
+  "line": 24,
+  "raw": "2.31 MeV",
+  "kind": "양",
+  "unit": "MeV",
+  "context": "¹⁰B + nth → [¹¹B] *→ α + ⁷Li + 2.31 MeV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:26:142-143",
+  "line": 26,
+  "raw": "5",
+  "kind": "양",
+  "unit": "μm",
+  "context": "uce closely spaced ionizations in the immediate vicinity of the reaction, with a range of 5–9 μm. This approximately is the diameter of the target cell"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:26:144-148",
+  "line": 26,
+  "raw": "9 μm",
+  "kind": "양",
+  "unit": "μm",
+  "context": "e closely spaced ionizations in the immediate vicinity of the reaction, with a range of 5–9 μm. This approximately is the diameter of the target cell, and"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:567-571",
+  "line": 28,
+  "raw": "1994",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ntly, has been specially designed nuclear reactors and now is neutron accelerators. Until 1994, low-energy (< 0.5 eV) thermal neutron beams were used in J"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:587-593",
+  "line": 28,
+  "raw": "0.5 eV",
+  "kind": "양",
+  "unit": "eV",
+  "context": "ally designed nuclear reactors and now is neutron accelerators. Until 1994, low-energy (< 0.5 eV) thermal neutron beams were used in Japan and the United St"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:737-740",
+  "line": 28,
+  "raw": "0.5",
+  "kind": "양",
+  "unit": "eV",
+  "context": "ted States, but since they have a limited depth of penetration in tissues, higher-energy (0.5–10,000 eV) epithermal neutron beams, which have a greater d"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:741-750",
+  "line": 28,
+  "raw": "10,000 eV",
+  "kind": "양",
+  "unit": "eV",
+  "context": "States, but since they have a limited depth of penetration in tissues, higher-energy (0.5–10,000 eV) epithermal neutron beams, which have a greater depth of pe"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1151-1153",
+  "line": 28,
+  "raw": "60",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ls without causing radiation damage to the adjacent normal cells and tissues. Doses up to 60–70 grays (Gy) can be delivered to the tumor cells in one or"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1154-1156",
+  "line": 28,
+  "raw": "70",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "without causing radiation damage to the adjacent normal cells and tissues. Doses up to 60–70 grays (Gy) can be delivered to the tumor cells in one or tw"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1243-1244",
+  "line": 28,
+  "raw": "6",
+  "kind": "양",
+  "unit": "weeks",
+  "context": "–70 grays (Gy) can be delivered to the tumor cells in one or two applications compared to 6–7 weeks for conventional fractionated external beam photon "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1245-1252",
+  "line": 28,
+  "raw": "7 weeks",
+  "kind": "양",
+  "unit": "weeks",
+  "context": "0 grays (Gy) can be delivered to the tumor cells in one or two applications compared to 6–7 weeks for conventional fractionated external beam photon irradiat"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:34:0-1",
+  "line": 34,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "1. Low-LET gamma rays, resulting primarily from the capture o"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:35:0-1",
+  "line": 35,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2. High-LET protons, produced by the scattering of fast neutr"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:36:0-1",
+  "line": 36,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3. High-LET, heavier charged alpha particles (stripped-down h"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:396-399",
+  "line": 42,
+  "raw": "1.5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ion in the blood at the time of BNCT, assuming a blood:scalp boron concentration ratio of 1.5:1 and a compound biological effectiveness (CBE) factor for "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:400-401",
+  "line": 42,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "in the blood at the time of BNCT, assuming a blood:scalp boron concentration ratio of 1.5:1 and a compound biological effectiveness (CBE) factor for BP"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:474-477",
+  "line": 42,
+  "raw": "2.5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "on ratio of 1.5:1 and a compound biological effectiveness (CBE) factor for BPA in skin of 2.5. A relative biological effectiveness (RBE) or CBE factor of"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:538-541",
+  "line": 42,
+  "raw": "3.2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "factor for BPA in skin of 2.5. A relative biological effectiveness (RBE) or CBE factor of 3.2 has been used in all tissues for the high-LET components of"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:46:69-74",
+  "line": 46,
+  "raw": "1960s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "The development of boron delivery agents for BNCT began in the early 1960s and is an ongoing and difficult task. A number of boron-10-"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:48:161-162",
+  "line": 48,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " and concomitantly high tumor:brain (T:Br) and tumor:blood (T:Bl) concentration ratios (> 3–4:1);"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:48:163-164",
+  "line": 48,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "nd concomitantly high tumor:brain (T:Br) and tumor:blood (T:Bl) concentration ratios (> 3–4:1);"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:48:165-166",
+  "line": 48,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " concomitantly high tumor:brain (T:Br) and tumor:blood (T:Bl) concentration ratios (> 3–4:1);"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:49:40-42",
+  "line": 49,
+  "raw": "20",
+  "kind": "양",
+  "unit": "μg",
+  "context": "- tumor concentrations in the range of ~20–50 μg ¹⁰B/g tumor;"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:49:43-48",
+  "line": 49,
+  "raw": "50 μg",
+  "kind": "양",
+  "unit": "μg",
+  "context": "- tumor concentrations in the range of ~20–50 μg ¹⁰B/g tumor;"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:52:15-19",
+  "line": 52,
+  "raw": "2021",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "However, as of 2021 no single boron delivery agent fulfills all of these criter"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:52:341-342",
+  "line": 52,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " modes of delivery, a wide variety of new boron agents has emerged (see examples in Table 1). However, only one of these compounds has ever been tested"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:54:6-7",
+  "line": 54,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Table 1. Examples of new low- and high-molecular-weight boron deliv"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:477-479",
+  "line": 70,
+  "raw": "38",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ", W., Boron delivery agents for neutron capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated revie"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:480-482",
+  "line": 70,
+  "raw": "35",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "., Boron delivery agents for neutron capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated review. "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:488-495",
+  "line": 70,
+  "raw": "10.1186",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " delivery agents for neutron capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated review. ᶜThe abbrevia"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:503-506",
+  "line": 70,
+  "raw": "018",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "s for neutron capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated review. ᶜThe abbreviations used "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:507-511",
+  "line": 70,
+  "raw": "0299",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "r neutron capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated review. ᶜThe abbreviations used in th"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:512-513",
+  "line": 70,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "tron capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated review. ᶜThe abbreviations used in this"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:514-518",
+  "line": 70,
+  "raw": "2018",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "on capture therapy of cancer, Cancer Communications, 38:35 (doi:10.1186/s40880-018-0299-7 2018 for an updated review. ᶜThe abbreviations used in this tabl"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:72:161-163",
+  "line": 72,
+  "raw": "20",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "n the requirement for selective tumor targeting in order to achieve boron concentrations (20–50 μg/g tumor) sufficient to produce therapeutic doses of r"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:72:164-166",
+  "line": 72,
+  "raw": "50",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "he requirement for selective tumor targeting in order to achieve boron concentrations (20–50 μg/g tumor) sufficient to produce therapeutic doses of radi"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:211-218",
+  "line": 76,
+  "raw": "254,000",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ing reasons: First, and foremost, has been its very high neutron-capture cross section of 254,000 barns. Second, gadolinium compounds, such as Gd-DTPA (gadop"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:615-622",
+  "line": 76,
+  "raw": "0.025eV",
+  "kind": "양",
+  "unit": "eV",
+  "context": "on and Auger electrons are products of the ¹⁵⁷Gd(n,γ)¹⁵⁸Gd capture reaction (¹⁵⁷Gd + nth (0.025eV) → [¹⁵⁸Gd] → ¹⁵⁸Gd + γ + 7.94 MeV). Though the gamma rays h"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:648-656",
+  "line": 76,
+  "raw": "7.94 MeV",
+  "kind": "양",
+  "unit": "MeV",
+  "context": "ts of the ¹⁵⁷Gd(n,γ)¹⁵⁸Gd capture reaction (¹⁵⁷Gd + nth (0.025eV) → [¹⁵⁸Gd] → ¹⁵⁸Gd + γ + 7.94 MeV). Though the gamma rays have longer pathlengths, orders of "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:1395-1396",
+  "line": 76,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " experimental animals compared to the large number with boron-containing compounds (Table 1) which have been synthesized and evaluated in experimental "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:1786-1790",
+  "line": 76,
+  "raw": "2019",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "models, and, as evidenced by a lack of citations in the literature, Gd NCT has not, as of 2019, been used clinically in humans."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:6-10",
+  "line": 82,
+  "raw": "2014",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Until 2014, neutron sources for NCT were limited to nuclear reactors. "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:155-161",
+  "line": 82,
+  "raw": "0.5 eV",
+  "kind": "양",
+  "unit": "eV",
+  "context": "ors. Reactor-derived neutrons are classified according to their energies as thermal (En < 0.5 eV), epithermal (0.5–10,000 eV), or fast (En >10 keV). Thermal"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:176-179",
+  "line": 82,
+  "raw": "0.5",
+  "kind": "양",
+  "unit": "eV",
+  "context": "neutrons are classified according to their energies as thermal (En < 0.5 eV), epithermal (0.5–10,000 eV), or fast (En >10 keV). Thermal neutrons are the "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:180-189",
+  "line": 82,
+  "raw": "10,000 eV",
+  "kind": "양",
+  "unit": "eV",
+  "context": "rons are classified according to their energies as thermal (En < 0.5 eV), epithermal (0.5–10,000 eV), or fast (En >10 keV). Thermal neutrons are the most impor"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:205-211",
+  "line": 82,
+  "raw": "10 keV",
+  "kind": "양",
+  "unit": "keV",
+  "context": "ding to their energies as thermal (En < 0.5 eV), epithermal (0.5–10,000 eV), or fast (En >10 keV). Thermal neutrons are the most important for BNCT, since t"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:86:0-1",
+  "line": 86,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "1. Kyoto University Research Reactor Institute (KURRI) in Kum"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:87:0-1",
+  "line": 87,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2. the Massachusetts Institute of Technology Research Reactor"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:88:0-1",
+  "line": 88,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3. the FiR1 (Triga Mk II) research reactor at VTT Technical R"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:89:0-1",
+  "line": 89,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4. the RA-6 CNEA reactor in Bariloche, Argentina;"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:90:0-1",
+  "line": 90,
+  "raw": "5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "5. the High Flux Reactor (HFR) at Petten in the Netherlands;"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:91:0-1",
+  "line": 91,
+  "raw": "6",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "6. Tsing Hua Open-pool Reactor (THOR) at the National Tsing H"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:92:0-1",
+  "line": 92,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "7. JRR-4 at Japan Atomic Energy Agency, Tokai, Japan;"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:93:0-1",
+  "line": 93,
+  "raw": "8",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "8. A compact In-Hospital Neutron Irradiator (IHNI) in a free-"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:95:6-14",
+  "line": 95,
+  "raw": "May 2021",
+  "kind": "날짜",
+  "unit": null,
+  "context": "As of May 2021, only the reactors in Argentina, China, and Taiwan are stil"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:95:146-150",
+  "line": 95,
+  "raw": "2022",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "nd Taiwan are still being used clinically. It is anticipated that, beginning some time in 2022, clinical studies in Finland will utilize an accelerator ne"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:101:21-26",
+  "line": 101,
+  "raw": "1950s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "It was not until the 1950s that the first clinical trials were initiated by Farr at th"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:101:509-514",
+  "line": 101,
+  "raw": "1990s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "ppointing, and no further clinical trials were carried out in the United States until the 1990s."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:103:140-144",
+  "line": 103,
+  "raw": "1967",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "'s laboratory at the MGH, clinical studies were initiated by Hiroshi Hatanaka in Japan in 1967. He used a low-energy thermal neutron beam, which had low t"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:103:601-609",
+  "line": 103,
+  "raw": "14 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": "nistered by a slow infusion, usually intra-arterially, but later intravenously. Twelve to 14 hours later, BNCT was carried out at one or another of several di"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:105:14-17",
+  "line": 105,
+  "raw": "200",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Approximately 200+ patients were treated by Hatanaka, and subsequently by his"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:109:9-13",
+  "line": 109,
+  "raw": "2003",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "#### US (2003)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:111:79-84",
+  "line": 111,
+  "raw": "1990s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "BNCT of patients with brain tumors was resumed in the United States in the mid-1990s by Chanana, Diaz, and Coderre and their co-workers at the B"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:115:360-362",
+  "line": 115,
+  "raw": "22",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "n Oncologist Paul Busse at the Beth Israel Deaconess Medical Center in Boston. A total of 22 patients were treated by the Harvard-MIT research group. Fi"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:119:12-16",
+  "line": 119,
+  "raw": "2009",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "#### Japan (2009) - glioblastomas"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:121:132-135",
+  "line": 121,
+  "raw": "500",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Osaka Medical College in Japan have carried out extensive clinical studies employing BPA (500 mg/kg) either alone or in combination with BSH (100 mg/kg),"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:121:184-187",
+  "line": 121,
+  "raw": "100",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "nsive clinical studies employing BPA (500 mg/kg) either alone or in combination with BSH (100 mg/kg), infused intravenously (i.v.) over 2 h, followed by "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:121:230-233",
+  "line": 121,
+  "raw": "2 h",
+  "kind": "양",
+  "unit": "h",
+  "context": "g) either alone or in combination with BSH (100 mg/kg), infused intravenously (i.v.) over 2 h, followed by neutron irradiation at Kyoto University Resear"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:123:32-34",
+  "line": 123,
+  "raw": "10",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The mean survival time (MST) of 10 patients with recurrent high-grade gliomas in the first of "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:123:111-122",
+  "line": 123,
+  "raw": "15.6 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "e (MST) of 10 patients with recurrent high-grade gliomas in the first of their trials was 15.6 months, with one long-term survivor (>5 years)."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:123:154-161",
+  "line": 123,
+  "raw": "5 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "grade gliomas in the first of their trials was 15.6 months, with one long-term survivor (>5 years)."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:255-257",
+  "line": 125,
+  "raw": "20",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "take and Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fraction"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:261-266",
+  "line": 125,
+  "raw": "30 Gy",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "nd Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MS"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:298-302",
+  "line": 125,
+  "raw": "2 Gy",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "ed above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with ne"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:395-406",
+  "line": 125,
+  "raw": "23.5 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "ily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months and no significant toxicity was observed, other than hair l"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:127:12-16",
+  "line": 127,
+  "raw": "2011",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "#### Japan (2011) - glioblastomas"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:138-141",
+  "line": 129,
+  "raw": "1 h",
+  "kind": "양",
+  "unit": "h",
+  "context": "ly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 rea"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:195-197",
+  "line": 129,
+  "raw": "-4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost afte"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:323-334",
+  "line": 129,
+  "raw": "27.1 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "ived an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:344-350",
+  "line": 129,
+  "raw": "1-year",
+  "kind": "양",
+  "unit": "year",
+  "context": "fter completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectivel"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:355-361",
+  "line": 129,
+  "raw": "2-year",
+  "kind": "양",
+  "unit": "year",
+  "context": "tion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:382-387",
+  "line": 129,
+  "raw": "87.5%",
+  "kind": "비율",
+  "unit": null,
+  "context": "edian survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:392-397",
+  "line": 129,
+  "raw": "62.5%",
+  "kind": "비율",
+  "unit": null,
+  "context": "ival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:133:12-16",
+  "line": 133,
+  "raw": "2021",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "#### Japan (2021) - meningiomas"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:135:58-60",
+  "line": 135,
+  "raw": "44",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Miyatake and his co-workers also have treated a cohort of 44 patients with recurrent high-grade meningiomas (HGM) that w"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:29-40",
+  "line": 137,
+  "raw": "29.6 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "The median OS after BNCT was 29.6 months and 98.4 months after diagnosis. Better responses were seen"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:45-56",
+  "line": 137,
+  "raw": "98.4 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "The median OS after BNCT was 29.6 months and 98.4 months after diagnosis. Better responses were seen in patients wit"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:141-143",
+  "line": 137,
+  "raw": "35",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "onths after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median p"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:147-149",
+  "line": 137,
+  "raw": "36",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progres"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:238-249",
+  "line": 137,
+  "raw": "13.7 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "6 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 13.7 months. There was good local control of the patients' tumors, as e"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:340-345",
+  "line": 137,
+  "raw": "22.2%",
+  "kind": "비율",
+  "unit": null,
+  "context": " There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors. From "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:139:6-7",
+  "line": 139,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Table 2. Past BNCT clinical trials using an epithermal neutron beam"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:111-112",
+  "line": 151,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "e compilation of data relating to BNCT clinical trials can be found in Radiation Oncology 7:146–167, 2012"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:113-116",
+  "line": 151,
+  "raw": "146",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "compilation of data relating to BNCT clinical trials can be found in Radiation Oncology 7:146–167, 2012"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:117-120",
+  "line": 151,
+  "raw": "167",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ilation of data relating to BNCT clinical trials can be found in Radiation Oncology 7:146–167, 2012"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:122-126",
+  "line": 151,
+  "raw": "2012",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "on of data relating to BNCT clinical trials can be found in Radiation Oncology 7:146–167, 2012"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:376-379",
+  "line": 155,
+  "raw": "200",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " Central Hospital and VTT Technical Research Center of Finland have treated approximately 200+ patients with recurrent malignant gliomas (glioblastomas) "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:672-680",
+  "line": 155,
+  "raw": "3 months",
+  "kind": "양",
+  "unit": "months",
+  "context": " as the boron delivery agent. The median time to progression in patients with gliomas was 3 months, and the overall MeST was 7 months. It is difficult to comp"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:707-715",
+  "line": 155,
+  "raw": "7 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "edian time to progression in patients with gliomas was 3 months, and the overall MeST was 7 months. It is difficult to compare these results with other report"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:1405-1409",
+  "line": 155,
+  "raw": "2021",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "linical studies will be carried out there after dosimetric studies have been completed in 2021. Both Finnish and foreign patients are expected to be treat"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:549-552",
+  "line": 159,
+  "raw": "900",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was base"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:590-597",
+  "line": 159,
+  "raw": "6 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": " total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-be"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:745-751",
+  "line": 159,
+  "raw": "6-hour",
+  "kind": "양",
+  "unit": "hour",
+  "context": "bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tole"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:824-826",
+  "line": 159,
+  "raw": "30",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ollowing a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:891-892",
+  "line": 159,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (we"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:938-941",
+  "line": 159,
+  "raw": "3.2",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "olled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:942-948",
+  "line": 159,
+  "raw": "6.1 Gy",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "d in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 1"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1007-1011",
+  "line": 159,
+  "raw": "15.4",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1015-1022",
+  "line": 159,
+  "raw": "54.3 Gy",
+  "kind": "양",
+  "unit": "Gy",
+  "context": "ain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish inv"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1194-1205",
+  "line": 159,
+  "raw": "14.2 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "he evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1244-1254",
+  "line": 159,
+  "raw": "5.8 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1347-1358",
+  "line": 159,
+  "raw": "17.7 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "owever, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1371-1382",
+  "line": 159,
+  "raw": "15.5 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "mination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard t"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1591-1594",
+  "line": 159,
+  "raw": "14%",
+  "kind": "비율",
+  "unit": null,
+  "context": "ug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1637-1640",
+  "line": 159,
+  "raw": "21%",
+  "kind": "비율",
+  "unit": null,
+  "context": "ncy of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1802-1808",
+  "line": 159,
+  "raw": "6-hour",
+  "kind": "양",
+  "unit": "hour",
+  "context": "ion with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:57-65",
+  "line": 165,
+  "raw": "15 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "The single most important clinical advance over the past 15 years has been the application of BNCT to treat patients with rec"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:741-743",
+  "line": 165,
+  "raw": "26",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "of which had recurrent squamous cell carcinomas. Kato et al. have reported on a series of 26 patients with far-advanced cancer for whom there were no fu"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:881-882",
+  "line": 165,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "e were no further treatment options. Either BPA + BSH or BPA alone were administered by a 1- or 2-hour i.v. infusion, and this was followed by BNCT usi"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:887-893",
+  "line": 165,
+  "raw": "2-hour",
+  "kind": "양",
+  "unit": "hour",
+  "context": " no further treatment options. Either BPA + BSH or BPA alone were administered by a 1- or 2-hour i.v. infusion, and this was followed by BNCT using an epith"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1016-1018",
+  "line": 165,
+  "raw": "12",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "owed by BNCT using an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1026-1028",
+  "line": 165,
+  "raw": "10",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "CT using an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST wa"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1069-1070",
+  "line": 165,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ", there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1090-1101",
+  "line": 165,
+  "raw": "13.6 months",
+  "kind": "양",
+  "unit": "months",
+  "context": " regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment rel"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1111-1117",
+  "line": 165,
+  "raw": "6-year",
+  "kind": "양",
+  "unit": "year",
+  "context": "ses, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment related complicatio"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1131-1134",
+  "line": 165,
+  "raw": "24%",
+  "kind": "비율",
+  "unit": null,
+  "context": "essions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment related complications (\"adverse\" eve"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:85-87",
+  "line": 167,
+  "raw": "30",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Kankaanranta et al. have reported their results in a prospective Phase I/II study of 30 patients with inoperable, locally recurrent squamous cell c"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:269-272",
+  "line": 167,
+  "raw": "400",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "egion. Patients received either two or, in a few instances, one BNCT treatment using BPA (400 mg/kg), administered i.v. over 2 hours, followed by neutron"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:304-311",
+  "line": 167,
+  "raw": "2 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": " or, in a few instances, one BNCT treatment using BPA (400 mg/kg), administered i.v. over 2 hours, followed by neutron irradiation. Of 29 evaluated patients,"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:349-351",
+  "line": 167,
+  "raw": "29",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "sing BPA (400 mg/kg), administered i.v. over 2 hours, followed by neutron irradiation. Of 29 evaluated patients, there were 13 complete and 9 partial re"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:383-385",
+  "line": 167,
+  "raw": "13",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " i.v. over 2 hours, followed by neutron irradiation. Of 29 evaluated patients, there were 13 complete and 9 partial remissions, with an overall response"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:399-400",
+  "line": 167,
+  "raw": "9",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "rs, followed by neutron irradiation. Of 29 evaluated patients, there were 13 complete and 9 partial remissions, with an overall response rate of 76%. T"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:454-457",
+  "line": 167,
+  "raw": "76%",
+  "kind": "비율",
+  "unit": null,
+  "context": "tients, there were 13 complete and 9 partial remissions, with an overall response rate of 76%. The most common adverse event was oral mucositis, oral pai"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1211-1215",
+  "line": 167,
+  "raw": "2022",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "rapeutics and installed at the Helsinki University Hospital should be fully functional by 2022. Finally, a group in Taiwan, led by Ling-Wei Wang and his c"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1339-1341",
+  "line": 167,
+  "raw": "17",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "by Ling-Wei Wang and his co-workers at the Taipei Veterans General Hospital, have treated 17 patients with locally recurrent head and neck cancers at th"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1506-1509",
+  "line": 167,
+  "raw": "47%",
+  "kind": "비율",
+  "unit": null,
+  "context": "n-pool Reactor (THOR) of the National Tsing Hua University. Two-year overall survival was 47%, and two-year loco-regional control was 28%. Further studie"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1550-1553",
+  "line": 167,
+  "raw": "28%",
+  "kind": "비율",
+  "unit": null,
+  "context": "Hua University. Two-year overall survival was 47%, and two-year loco-regional control was 28%. Further studies are in progress to further optimize their "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:173:923-935",
+  "line": 173,
+  "raw": "October 2003",
+  "kind": "날짜",
+  "unit": null,
+  "context": "first clinical trial of BNCT in Argentina for the treatment of melanomas was performed in October 2003, and since then several patients with cutaneous melanomas h"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:173:1429-1431",
+  "line": 173,
+  "raw": "24",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "complete response of the primary lesion and no evidence of late radiation injury during a 24+-month follow-up period."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:177:171-175",
+  "line": 177,
+  "raw": "2001",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "by Zonta and his co-workers at the University of Pavia in Italy. The first was treated in 2001 and the second in mid-2003. The patients received an i.v. i"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:177:465-472",
+  "line": 177,
+  "raw": "4 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "ransplanted into the patient. The first patient did remarkably well and survived for over 4 years after treatment, but the second died within a month of card"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:152-157",
+  "line": 181,
+  "raw": "1980s",
+  "kind": "날짜",
+  "unit": null,
+  "context": " for clinical BNCT. The first papers relating to their possible use were published in the 1980s, and, as summarized by Blue and Yanch, this topic became an"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:255-260",
+  "line": 181,
+  "raw": "2000s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "s summarized by Blue and Yanch, this topic became an active area of research in the early 2000s. However, it was the Fukushima nuclear accident in Japan in"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:321-325",
+  "line": 181,
+  "raw": "2011",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "f research in the early 2000s. However, it was the Fukushima nuclear accident in Japan in 2011 that gave impetus to their development for clinical use. Ac"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:825-828",
+  "line": 181,
+  "raw": "1.9",
+  "kind": "양",
+  "unit": "MeV",
+  "context": "en considered. The lithium-7 reaction requires a proton accelerator with energies between 1.9 and 3.0 MeV, while the beryllium-9 reaction typically uses "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:833-840",
+  "line": 181,
+  "raw": "3.0 MeV",
+  "kind": "양",
+  "unit": "MeV",
+  "context": "dered. The lithium-7 reaction requires a proton accelerator with energies between 1.9 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:923-924",
+  "line": 181,
+  "raw": "5",
+  "kind": "양",
+  "unit": "MeV",
+  "context": "3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that the lit"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:929-935",
+  "line": 181,
+  "raw": "30 MeV",
+  "kind": "양",
+  "unit": "MeV",
+  "context": "V, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that the lithium-7 reac"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:53-55",
+  "line": 183,
+  "raw": "20",
+  "kind": "양",
+  "unit": "kW",
+  "context": "Since the proton beams for BNCT are quite powerful (~20-100 kW), the neutron generating target must incorporate coo"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:56-62",
+  "line": 183,
+  "raw": "100 kW",
+  "kind": "양",
+  "unit": "kW",
+  "context": "Since the proton beams for BNCT are quite powerful (~20-100 kW), the neutron generating target must incorporate cooling sy"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:998-1004",
+  "line": 183,
+  "raw": "100keV",
+  "kind": "양",
+  "unit": "keV",
+  "context": "arge target area. Since the nuclear reactions yield neutrons with energies ranging from < 100keV to tens of MeV, a beam-shaping assembly (BSA) must be used "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:1915-1922",
+  "line": 183,
+  "raw": "24-hour",
+  "kind": "양",
+  "unit": "hour",
+  "context": "t during immobilization and to increase the number of patients that could be treated in a 24-hour period. Increasing the neutron beam intensity for the same "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:185:106-110",
+  "line": 185,
+  "raw": "2024",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "summarizes the existing or planned ABNS installations for clinical use (updated November, 2024)."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:428-430",
+  "line": 208,
+  "raw": "24",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " accelerator at the Osaka Medical College, Kansai BNCT Medical Center to treat a total of 24 patients. These patients ranged in age from 20 to 75 years,"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:475-477",
+  "line": 208,
+  "raw": "20",
+  "kind": "양",
+  "unit": "years",
+  "context": "ai BNCT Medical Center to treat a total of 24 patients. These patients ranged in age from 20 to 75 years, and all previously had received standard treat"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:481-489",
+  "line": 208,
+  "raw": "75 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "T Medical Center to treat a total of 24 patients. These patients ranged in age from 20 to 75 years, and all previously had received standard treatment consist"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:988-994",
+  "line": 208,
+  "raw": "1-year",
+  "kind": "양",
+  "unit": "year",
+  "context": "n, Osaka, Japan) prior to neutron irradiation. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median o"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:1031-1036",
+  "line": 208,
+  "raw": "79.2%",
+  "kind": "비율",
+  "unit": null,
+  "context": "on. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 18.9 months. Base"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:1079-1090",
+  "line": 208,
+  "raw": "18.9 months",
+  "kind": "양",
+  "unit": "months",
+  "context": "-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 18.9 months. Based on these results, it was concluded that c-BNS BNCT w"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:144-146",
+  "line": 212,
+  "raw": "21",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ku BNCT Research Center in Koriyama, Japan, have reported on their results after treating 21 patients with recurrent tumors of the head and neck region."
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:367-369",
+  "line": 212,
+  "raw": "13",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "onal radiation therapy. Eight of them had recurrent squamous cell carcinomas (R-SCC), and 13 had either recurrent (R) or locally advanced (LA) non-squam"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:487-490",
+  "line": 212,
+  "raw": "71%",
+  "kind": "비율",
+  "unit": null,
+  "context": " locally advanced (LA) non-squamous-cell carcinomas (nSCC). The overall response rate was 71%, and the complete response and partial response rates were "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:550-553",
+  "line": 212,
+  "raw": "50%",
+  "kind": "비율",
+  "unit": null,
+  "context": " overall response rate was 71%, and the complete response and partial response rates were 50% and 25%, respectively, for patients with R-SCC and 80% and "
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:558-561",
+  "line": 212,
+  "raw": "25%",
+  "kind": "비율",
+  "unit": null,
+  "context": " response rate was 71%, and the complete response and partial response rates were 50% and 25%, respectively, for patients with R-SCC and 80% and 62%, res"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:605-608",
+  "line": 212,
+  "raw": "80%",
+  "kind": "비율",
+  "unit": null,
+  "context": "se and partial response rates were 50% and 25%, respectively, for patients with R-SCC and 80% and 62%, respectively, for those with R or LA SCC. The over"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:613-616",
+  "line": 212,
+  "raw": "62%",
+  "kind": "비율",
+  "unit": null,
+  "context": "artial response rates were 50% and 25%, respectively, for patients with R-SCC and 80% and 62%, respectively, for those with R or LA SCC. The overall 2-ye"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:672-678",
+  "line": 212,
+  "raw": "2-year",
+  "kind": "양",
+  "unit": "year",
+  "context": "atients with R-SCC and 80% and 62%, respectively, for those with R or LA SCC. The overall 2-year survival rates for patients with R-SCC or R/LA nSCC were 58"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:736-739",
+  "line": 212,
+  "raw": "58%",
+  "kind": "비율",
+  "unit": null,
+  "context": " R or LA SCC. The overall 2-year survival rates for patients with R-SCC or R/LA nSCC were 58% and 100%, respectively. The treatment was well tolerated, a"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:744-748",
+  "line": 212,
+  "raw": "100%",
+  "kind": "비율",
+  "unit": null,
+  "context": " SCC. The overall 2-year survival rates for patients with R-SCC or R/LA nSCC were 58% and 100%, respectively. The treatment was well tolerated, and advers"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:218:0-1",
+  "line": 218,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "1. Optimizing the dosing and delivery paradigms and administr"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:219:0-1",
+  "line": 219,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2. The development of more tumor-selective boron delivery age"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:220:0-1",
+  "line": 220,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "3. Accurate, real-time dosimetry to better estimate the radia"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:221:0-1",
+  "line": 221,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4. Further clinical evaluation of accelerator-based neutron s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:222:0-1",
+  "line": 222,
+  "raw": "5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "5. Reducing the cost."
+ }
+]

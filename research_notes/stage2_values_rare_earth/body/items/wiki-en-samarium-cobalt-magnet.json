@@ -1,0 +1,474 @@
+[
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:5:33-38",
+  "line": 5,
+  "raw": "1960s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "They were developed in the early 1960s based on work done by Karl Strnat at Wright-Patterson Air F"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:79-85",
+  "line": 14,
+  "raw": "250 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "- These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:87-92",
+  "line": 14,
+  "raw": "523 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "- These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 "
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:97-103",
+  "line": 14,
+  "raw": "550 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": " magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:105-110",
+  "line": 14,
+  "raw": "823 K",
+  "kind": "양",
+  "unit": "K",
+  "context": " have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,07"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:140-146",
+  "line": 14,
+  "raw": "700 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "aximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K)."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:148-153",
+  "line": 14,
+  "raw": "973 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "se temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K)."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:158-164",
+  "line": 14,
+  "raw": "800 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "tures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K)."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:14:166-173",
+  "line": 14,
+  "raw": "1,070 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "om 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K)."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:17:132-134",
+  "line": 17,
+  "raw": "14",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "nd chipping. Samarium–cobalt magnets have maximum energy products (BHmax) that range from 14 megagauss-oersteds (MG·Oe) to 33 MG·Oe, ≈ 112 kJ/m³ to 264 "
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:17:165-167",
+  "line": 17,
+  "raw": "33",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ets have maximum energy products (BHmax) that range from 14 megagauss-oersteds (MG·Oe) to 33 MG·Oe, ≈ 112 kJ/m³ to 264 kJ/m³; their theoretical limit is"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:17:177-180",
+  "line": 17,
+  "raw": "112",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "imum energy products (BHmax) that range from 14 megagauss-oersteds (MG·Oe) to 33 MG·Oe, ≈ 112 kJ/m³ to 264 kJ/m³; their theoretical limit is 34 MG·Oe, ab"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:17:190-193",
+  "line": 17,
+  "raw": "264",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "roducts (BHmax) that range from 14 megagauss-oersteds (MG·Oe) to 33 MG·Oe, ≈ 112 kJ/m³ to 264 kJ/m³; their theoretical limit is 34 MG·Oe, about 272 kJ/m³"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:17:228-230",
+  "line": 17,
+  "raw": "34",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "agauss-oersteds (MG·Oe) to 33 MG·Oe, ≈ 112 kJ/m³ to 264 kJ/m³; their theoretical limit is 34 MG·Oe, about 272 kJ/m³."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:17:244-247",
+  "line": 17,
+  "raw": "272",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "(MG·Oe) to 33 MG·Oe, ≈ 112 kJ/m³ to 264 kJ/m³; their theoretical limit is 34 MG·Oe, about 272 kJ/m³."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:43:10-11",
+  "line": 43,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "### Phase 1:5"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:43:12-13",
+  "line": 43,
+  "raw": "5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "### Phase 1:5"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:80-81",
+  "line": 45,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "These samarium–cobalt magnet alloys (generally written as SmCo5, or SmCo Series 1:5) have one atom of rare-earth samarium per five atoms of c"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:82-83",
+  "line": 45,
+  "raw": "5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "These samarium–cobalt magnet alloys (generally written as SmCo5, or SmCo Series 1:5) have one atom of rare-earth samarium per five atoms of cob"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:200-203",
+  "line": 45,
+  "raw": "36%",
+  "kind": "비율",
+  "unit": null,
+  "context": "th samarium per five atoms of cobalt. By weight, this magnet alloy will typically contain 36% samarium with the balance cobalt. The energy products of th"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:301-303",
+  "line": 45,
+  "raw": "16",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "m with the balance cobalt. The energy products of these samarium–cobalt alloys range from 16 MG·Oe to 25 MG·Oe, that is, approx. 128–200 kJ/m³. These sa"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:313-315",
+  "line": 45,
+  "raw": "25",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "alance cobalt. The energy products of these samarium–cobalt alloys range from 16 MG·Oe to 25 MG·Oe, that is, approx. 128–200 kJ/m³. These samarium–cobal"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:340-343",
+  "line": 45,
+  "raw": "128",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "roducts of these samarium–cobalt alloys range from 16 MG·Oe to 25 MG·Oe, that is, approx. 128–200 kJ/m³. These samarium–cobalt magnets generally have a r"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:344-347",
+  "line": 45,
+  "raw": "200",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "cts of these samarium–cobalt alloys range from 16 MG·Oe to 25 MG·Oe, that is, approx. 128–200 kJ/m³. These samarium–cobalt magnets generally have a rever"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:440-446",
+  "line": 45,
+  "raw": "-0.05%",
+  "kind": "비율",
+  "unit": null,
+  "context": "/m³. These samarium–cobalt magnets generally have a reversible temperature coefficient of -0.05%/°C. Saturation magnetization can be achieved with a moderat"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:615-616",
+  "line": 45,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ". This series of magnet is easier to calibrate to a specific magnetic field than the SmCo 2:17 series magnets."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:45:617-619",
+  "line": 45,
+  "raw": "17",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "This series of magnet is easier to calibrate to a specific magnetic field than the SmCo 2:17 series magnets."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:51:12-13",
+  "line": 51,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "(∆Br/Br) x (1/∆T) × 100%."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:51:20-24",
+  "line": 51,
+  "raw": "100%",
+  "kind": "비율",
+  "unit": null,
+  "context": "(∆Br/Br) x (1/∆T) × 100%."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:53:90-95",
+  "line": 53,
+  "raw": "1970s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "To address these requirements, temperature compensated magnets were developed in the late 1970s. For conventional SmCo magnets, Br decreases as temperature"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:55:431-442",
+  "line": 55,
+  "raw": "180 degrees",
+  "kind": "양",
+  "unit": "degrees",
+  "context": "exagonal base in the lattice of the crystal. In this case, all of the domain walls are at 180 degrees. When there are no impurities, the reversal process of the "
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:55:873-877",
+  "line": 55,
+  "raw": "180°",
+  "kind": "양",
+  "unit": "°",
+  "context": "aligned easy axes, their directions of magnetization are easier to spin, which breaks the 180° domain wall configuration. In such materials, the coercivit"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:57:11-12",
+  "line": 57,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "### Series 2:17"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:57:13-15",
+  "line": 57,
+  "raw": "17",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "### Series 2:17"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:49-50",
+  "line": 59,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "These alloys (written as Sm2Co17, or SmCo Series 2:17) are age-hardened with a composition of two atoms of rar"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:51-53",
+  "line": 59,
+  "raw": "17",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "These alloys (written as Sm2Co17, or SmCo Series 2:17) are age-hardened with a composition of two atoms of rare-e"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:131-133",
+  "line": 59,
+  "raw": "13",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " Series 2:17) are age-hardened with a composition of two atoms of rare-earth samarium per 13–17 atoms of transition metals (TM). The arrangement of the "
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:134-136",
+  "line": 59,
+  "raw": "17",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ries 2:17) are age-hardened with a composition of two atoms of rare-earth samarium per 13–17 atoms of transition metals (TM). The arrangement of the ato"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:496-499",
+  "line": 59,
+  "raw": "25%",
+  "kind": "비율",
+  "unit": null,
+  "context": "es to achieve better heat treatment response. By weight, the alloy will generally contain 25% of samarium. The maximum energy products of these alloys ra"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:568-570",
+  "line": 59,
+  "raw": "20",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "generally contain 25% of samarium. The maximum energy products of these alloys range from 20 to 32 MGOe, which is about 160-260 kJ/m³. These alloys have"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:574-576",
+  "line": 59,
+  "raw": "32",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "lly contain 25% of samarium. The maximum energy products of these alloys range from 20 to 32 MGOe, which is about 160-260 kJ/m³. These alloys have the b"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:598-601",
+  "line": 59,
+  "raw": "160",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ium. The maximum energy products of these alloys range from 20 to 32 MGOe, which is about 160-260 kJ/m³. These alloys have the best reversible temperatur"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:602-605",
+  "line": 59,
+  "raw": "260",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " The maximum energy products of these alloys range from 20 to 32 MGOe, which is about 160-260 kJ/m³. These alloys have the best reversible temperature co"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:59:717-723",
+  "line": 59,
+  "raw": "-0.03%",
+  "kind": "비율",
+  "unit": null,
+  "context": "ave the best reversible temperature coefficient of all rare-earth alloys, typically being -0.03%/°C. The \"second generation\" materials can also be used at h"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:67:487-488",
+  "line": 67,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ases is not the same, this can be understood by looking at the phase diagram. in fact the 1:5 phase is not stable at room temperature. Typically it is "
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:67:489-490",
+  "line": 67,
+  "raw": "5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "es is not the same, this can be understood by looking at the phase diagram. in fact the 1:5 phase is not stable at room temperature. Typically it is po"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:67:569-570",
+  "line": 67,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "act the 1:5 phase is not stable at room temperature. Typically it is possible to keep the 1:5 phase with a fast quenching after an annealing process."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:67:571-572",
+  "line": 67,
+  "raw": "5",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "t the 1:5 phase is not stable at room temperature. Typically it is possible to keep the 1:5 phase with a fast quenching after an annealing process."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:69:386-390",
+  "line": 69,
+  "raw": "1100",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "d to orient the magnetic field of the particles. Sintering is applied at a temperature of 1100˚C–1250˚C, followed by solution treatment at 1100˚C–1200˚C a"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:69:393-397",
+  "line": 69,
+  "raw": "1250",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ient the magnetic field of the particles. Sintering is applied at a temperature of 1100˚C–1250˚C, followed by solution treatment at 1100˚C–1200˚C and temp"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:69:435-439",
+  "line": 69,
+  "raw": "1100",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Sintering is applied at a temperature of 1100˚C–1250˚C, followed by solution treatment at 1100˚C–1200˚C and tempering is finally performed on the magnet a"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:69:442-446",
+  "line": 69,
+  "raw": "1200",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ng is applied at a temperature of 1100˚C–1250˚C, followed by solution treatment at 1100˚C–1200˚C and tempering is finally performed on the magnet at about"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:69:507-510",
+  "line": 69,
+  "raw": "700",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "tion treatment at 1100˚C–1200˚C and tempering is finally performed on the magnet at about 700˚C–900˚C. It then is ground and further magnetized to increa"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:69:513-516",
+  "line": 69,
+  "raw": "900",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "reatment at 1100˚C–1200˚C and tempering is finally performed on the magnet at about 700˚C–900˚C. It then is ground and further magnetized to increase its"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:75:133-135",
+  "line": 75,
+  "raw": "57",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " Samarium Cobalt Noiseless series of electric guitar pickups in Fender's Vintage Hot Rod '57 Stratocaster. These pickups were used in American Deluxe Se"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:75:224-228",
+  "line": 75,
+  "raw": "2004",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "7 Stratocaster. These pickups were used in American Deluxe Series Guitars and Basses from 2004 until early 2010."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:75:241-245",
+  "line": 75,
+  "raw": "2010",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "hese pickups were used in American Deluxe Series Guitars and Basses from 2004 until early 2010."
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:79:11-16",
+  "line": 79,
+  "raw": "1980s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "In the mid-1980s some expensive headphones such as the Ross RE-278 used sama"
+ },
+ {
+  "id": "wiki-en-samarium-cobalt-magnet:86:113-119",
+  "line": 86,
+  "raw": "180 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "l require the system to function at cryogenic temperatures or very hot temperatures (over 180 °C)"
+ }
+]

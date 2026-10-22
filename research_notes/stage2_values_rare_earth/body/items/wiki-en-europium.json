@@ -1,0 +1,978 @@
+[
+ {
+  "id": "wiki-en-europium:70:67-69",
+  "line": 70,
+  "raw": "63",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Europium is a chemical element; it has symbol Eu and atomic number 63. It is a soft, silvery-white lanthanide metal that tarnishe"
+ },
+ {
+  "id": "wiki-en-europium:70:569-573",
+  "line": 70,
+  "raw": "91 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "perties; it is paramagnetic at room temperature and becomes antiferromagnetic below about 91 K. In compounds, the +3 oxidation state is generally the most"
+ },
+ {
+  "id": "wiki-en-europium:70:593-595",
+  "line": 70,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "tic at room temperature and becomes antiferromagnetic below about 91 K. In compounds, the +3 oxidation state is generally the most stable, but europium "
+ },
+ {
+  "id": "wiki-en-europium:70:687-689",
+  "line": 70,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "xidation state is generally the most stable, but europium has the most readily accessible +2 state of any lanthanide."
+ },
+ {
+  "id": "wiki-en-europium:72:591-605",
+  "line": 72,
+  "raw": "4.6×10¹⁸ years",
+  "kind": "양",
+  "unit": "years",
+  "context": "tionally stable, while ¹⁵¹Eu is a very long-lived alpha emitter with a half-life of about 4.6×10¹⁸ years."
+ },
+ {
+  "id": "wiki-en-europium:74:198-202",
+  "line": 74,
+  "raw": "1885",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ments. William Crookes observed an unexplained spectral feature in rare-earth material in 1885, and Paul Émile Lecoq de Boisbaudran reported a further uni"
+ },
+ {
+  "id": "wiki-en-europium:74:292-296",
+  "line": 74,
+  "raw": "1892",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ", and Paul Émile Lecoq de Boisbaudran reported a further unidentified line in samarium in 1892. In 1896, the French chemist Eugène-Anatole Demarçay report"
+ },
+ {
+  "id": "wiki-en-europium:74:301-305",
+  "line": 74,
+  "raw": "1896",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "l Émile Lecoq de Boisbaudran reported a further unidentified line in samarium in 1892. In 1896, the French chemist Eugène-Anatole Demarçay reported eviden"
+ },
+ {
+  "id": "wiki-en-europium:74:499-503",
+  "line": 74,
+  "raw": "1901",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "m; after repeated fractional crystallisation, he obtained it in sufficiently pure form in 1901 and named it europium after Europe. Elemental europium meta"
+ },
+ {
+  "id": "wiki-en-europium:76:264-269",
+  "line": 76,
+  "raw": "1960s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "pan much of the visible spectrum. Europium phosphors became commercially important in the 1960s as red emitters in colour television and remain important i"
+ },
+ {
+  "id": "wiki-en-europium:80:148-158",
+  "line": 80,
+  "raw": "5.24 g/cm³",
+  "kind": "양",
+  "unit": "g/cm³",
+  "context": "l. Its hardness is similar to that of lead. At room temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (1,095 K)."
+ },
+ {
+  "id": "wiki-en-europium:80:182-188",
+  "line": 80,
+  "raw": "822 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": " of lead. At room temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (1,095 K)."
+ },
+ {
+  "id": "wiki-en-europium:80:190-197",
+  "line": 80,
+  "raw": "1,095 K",
+  "kind": "양",
+  "unit": "K",
+  "context": ". At room temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (1,095 K)."
+ },
+ {
+  "id": "wiki-en-europium:82:121-122",
+  "line": 82,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "guration of a neutral europium atom is [Xe] 4f⁷6s², with the spectroscopic ground term ⁸Sᵒ7/2. The seven 4f electrons form a particularly stable half-f"
+ },
+ {
+  "id": "wiki-en-europium:82:123-124",
+  "line": 82,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ration of a neutral europium atom is [Xe] 4f⁷6s², with the spectroscopic ground term ⁸Sᵒ7/2. The seven 4f electrons form a particularly stable half-fil"
+ },
+ {
+  "id": "wiki-en-europium:84:316-324",
+  "line": 84,
+  "raw": "12.5 GPa",
+  "kind": "양",
+  "unit": "GPa",
+  "context": " transformations. The bcc phase transforms to a hexagonal close-packed structure at about 12.5 GPa, which remains stable to about 31.5 GPa. Above this pressur"
+ },
+ {
+  "id": "wiki-en-europium:84:356-364",
+  "line": 84,
+  "raw": "31.5 GPa",
+  "kind": "양",
+  "unit": "GPa",
+  "context": "ms to a hexagonal close-packed structure at about 12.5 GPa, which remains stable to about 31.5 GPa. Above this pressure europium adopts an incommensurately mo"
+ },
+ {
+  "id": "wiki-en-europium:84:495-501",
+  "line": 84,
+  "raw": "37 GPa",
+  "kind": "양",
+  "unit": "GPa",
+  "context": "incommensurately modulated monoclinic structure, known as Eu-IV, which is stable to about 37 GPa; another structural transition occurs at higher pressure."
+ },
+ {
+  "id": "wiki-en-europium:86:126-127",
+  "line": 86,
+  "raw": "0",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "tes the magnetic properties of elemental europium. The divalent 4f⁷ configuration has L = 0 and S = J = 7/2, giving a large predominantly spin magnetic"
+ },
+ {
+  "id": "wiki-en-europium:86:140-141",
+  "line": 86,
+  "raw": "7",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ic properties of elemental europium. The divalent 4f⁷ configuration has L = 0 and S = J = 7/2, giving a large predominantly spin magnetic moment. Europ"
+ },
+ {
+  "id": "wiki-en-europium:86:142-143",
+  "line": 86,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " properties of elemental europium. The divalent 4f⁷ configuration has L = 0 and S = J = 7/2, giving a large predominantly spin magnetic moment. Europiu"
+ },
+ {
+  "id": "wiki-en-europium:86:280-284",
+  "line": 86,
+  "raw": "91 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "ment. Europium is paramagnetic at room temperature, but below a Néel temperature of about 91 K it becomes antiferromagnetic. Neutron-diffraction measureme"
+ },
+ {
+  "id": "wiki-en-europium:86:554-563",
+  "line": 86,
+  "raw": "5.9 ± 0.4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "d rotating from one atomic plane to the next. The ordered magnetic moment was measured as 5.9 ± 0.4 μB per atom."
+ },
+ {
+  "id": "wiki-en-europium:92:0-1",
+  "line": 92,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Eu + 3 O2 → 2 Eu2O3"
+ },
+ {
+  "id": "wiki-en-europium:92:7-8",
+  "line": 92,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Eu + 3 O2 → 2 Eu2O3"
+ },
+ {
+  "id": "wiki-en-europium:92:14-15",
+  "line": 92,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "4 Eu + 3 O2 → 2 Eu2O3"
+ },
+ {
+  "id": "wiki-en-europium:96:0-1",
+  "line": 96,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H2O → 2 Eu(OH)3 + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:96:7-8",
+  "line": 96,
+  "raw": "6",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H2O → 2 Eu(OH)3 + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:96:15-16",
+  "line": 96,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H2O → 2 Eu(OH)3 + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:96:23-24",
+  "line": 96,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H2O → 2 Eu(OH)3 + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:96:27-28",
+  "line": 96,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H2O → 2 Eu(OH)3 + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:100:0-1",
+  "line": 100,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H⁺ → 2 Eu³⁺ + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:100:7-8",
+  "line": 100,
+  "raw": "6",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H⁺ → 2 Eu³⁺ + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:100:14-15",
+  "line": 100,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H⁺ → 2 Eu³⁺ + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:100:23-24",
+  "line": 100,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu + 6 H⁺ → 2 Eu³⁺ + 3 H2"
+ },
+ {
+  "id": "wiki-en-europium:102:102-103",
+  "line": 102,
+  "raw": "9",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "II) solutions are very pale pink, and the hydrated ion is commonly represented as [Eu(H2O)9]³⁺. Europium ions generally adopt high coordination numbers"
+ },
+ {
+  "id": "wiki-en-europium:106:59-61",
+  "line": 106,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The conventional chemistry of europium is dominated by the +3 and +2 oxidation states. Eu(III), with the electron configu"
+ },
+ {
+  "id": "wiki-en-europium:106:66-68",
+  "line": 106,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The conventional chemistry of europium is dominated by the +3 and +2 oxidation states. Eu(III), with the electron configuration "
+ },
+ {
+  "id": "wiki-en-europium:106:446-448",
+  "line": 106,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ributes to the relative stability of the divalent state; europium has the most accessible +2 oxidation state of any lanthanide."
+ },
+ {
+  "id": "wiki-en-europium:108:92-97",
+  "line": 108,
+  "raw": "−0.34",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " aqueous solution, the standard reduction potential of the Eu(III)/Eu(II) couple is about −0.34 V relative to the standard hydrogen electrode. Eu(III) can "
+ },
+ {
+  "id": "wiki-en-europium:114:126-128",
+  "line": 114,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "rganic, coordination and organometallic compounds. Unlike most lanthanides, for which the +3 oxidation state overwhelmingly dominates ordinary chemistry"
+ },
+ {
+  "id": "wiki-en-europium:114:235-237",
+  "line": 114,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "overwhelmingly dominates ordinary chemistry, europium has extensive chemistry in both the +3 and +2 states. Eu(III) is generally more stable under oxidi"
+ },
+ {
+  "id": "wiki-en-europium:114:242-244",
+  "line": 114,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "lmingly dominates ordinary chemistry, europium has extensive chemistry in both the +3 and +2 states. Eu(III) is generally more stable under oxidising co"
+ },
+ {
+  "id": "wiki-en-europium:120:72-76",
+  "line": 120,
+  "raw": "69 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "EuO is a ferromagnetic semiconductor below a Curie temperature of about 69 K, and has been extensively studied because of the strong cou"
+ },
+ {
+  "id": "wiki-en-europium:130:47-49",
+  "line": 130,
+  "raw": "5d",
+  "kind": "양",
+  "unit": "d",
+  "context": "The Eu(II) halides also show characteristic 4f–5d luminescence. Solid EuCl2, EuBr2 and EuI2 fluoresce under u"
+ },
+ {
+  "id": "wiki-en-europium:140:388-392",
+  "line": 140,
+  "raw": "15.5",
+  "kind": "양",
+  "unit": "K",
+  "context": "netic semimetal and undergoes two closely spaced electronic and magnetic transitions near 15.5 and 12.6 K. Its unusual transport properties, including lar"
+ },
+ {
+  "id": "wiki-en-europium:140:397-403",
+  "line": 140,
+  "raw": "12.6 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "imetal and undergoes two closely spaced electronic and magnetic transitions near 15.5 and 12.6 K. Its unusual transport properties, including large magnetor"
+ },
+ {
+  "id": "wiki-en-europium:142:329-333",
+  "line": 142,
+  "raw": "15 K",
+  "kind": "양",
+  "unit": "K",
+  "context": "efore transforming to a cubic high-temperature phase. EuC2 becomes ferromagnetic at about 15 K and is semiconducting above the transition; near the Curie "
+ },
+ {
+  "id": "wiki-en-europium:146:218-224",
+  "line": 146,
+  "raw": "600 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "opium nitride, EuN, can be prepared by direct reaction of the metal with ammonia at about 600 °C and crystallizes in the cubic rock-salt structure. Europium"
+ },
+ {
+  "id": "wiki-en-europium:154:72-74",
+  "line": 154,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Europium forms numerous salts of inorganic oxoacids, principally in the +3 oxidation state, including nitrates, sulfates, phosphates, "
+ },
+ {
+  "id": "wiki-en-europium:156:223-229",
+  "line": 156,
+  "raw": "600 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "ate in the hexagonal rhabdophane structure; after dehydration at temperatures above about 600 °C it transforms to monoclinic anhydrous EuPO4, which is isost"
+ },
+ {
+  "id": "wiki-en-europium:158:4-6",
+  "line": 158,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The +2 state gives several chemically distinctive salts. Europium("
+ },
+ {
+  "id": "wiki-en-europium:162:64-66",
+  "line": 162,
+  "raw": "+3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The coordination chemistry of europium is extensive in both the +3 and +2 oxidation states. Eu(III) is a hard Lewis acid that "
+ },
+ {
+  "id": "wiki-en-europium:162:71-73",
+  "line": 162,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "The coordination chemistry of europium is extensive in both the +3 and +2 oxidation states. Eu(III) is a hard Lewis acid that favours"
+ },
+ {
+  "id": "wiki-en-europium:170:428-429",
+  "line": 170,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " discrete soluble metallocenes such as bis(pentamethylcyclopentadienyl)europium, Eu(C5Me5)2."
+ },
+ {
+  "id": "wiki-en-europium:176:140-146",
+  "line": 176,
+  "raw": "47.81%",
+  "kind": "비율",
+  "unit": null,
+  "context": "pes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, "
+ },
+ {
+  "id": "wiki-en-europium:176:151-157",
+  "line": 176,
+  "raw": "52.19%",
+  "kind": "비율",
+  "unit": null,
+  "context": "and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹"
+ },
+ {
+  "id": "wiki-en-europium:176:313-328",
+  "line": 176,
+  "raw": "4.62×10¹⁸ years",
+  "kind": "양",
+  "unit": "years",
+  "context": "a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the U"
+ },
+ {
+  "id": "wiki-en-europium:176:354-365",
+  "line": 176,
+  "raw": "300 million",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "lpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligibl"
+ },
+ {
+  "id": "wiki-en-europium:178:176-180",
+  "line": 178,
+  "raw": "2022",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " isotope ¹⁷⁰Eu, at the upper end of this range, was first experimentally characterised in 2022 and was measured to have a half-life of 197+74 −71 ms. The "
+ },
+ {
+  "id": "wiki-en-europium:178:221-234",
+  "line": 178,
+  "raw": "197+74 −71 ms",
+  "kind": "양",
+  "unit": "ms",
+  "context": "e, was first experimentally characterised in 2022 and was measured to have a half-life of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half"
+ },
+ {
+  "id": "wiki-en-europium:178:303-313",
+  "line": 178,
+  "raw": "36.9 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "life of 197+74 −71 ms. The longest-lived artificial isotope is ¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 "
+ },
+ {
+  "id": "wiki-en-europium:178:366-378",
+  "line": 178,
+  "raw": "13.517 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "¹⁵⁰Eu, with a half-life of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other kn"
+ },
+ {
+  "id": "wiki-en-europium:178:388-399",
+  "line": 178,
+  "raw": "8.592 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "e of 36.9 years. Other comparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state euro"
+ },
+ {
+  "id": "wiki-en-europium:178:412-423",
+  "line": 178,
+  "raw": "4.742 years",
+  "kind": "양",
+  "unit": "years",
+  "context": "omparatively long-lived isotopes are ¹⁵²Eu (13.517 years), ¹⁵⁴Eu (8.592 years) and ¹⁵⁵Eu (4.742 years); all other known ground-state europium radioisotopes have "
+ },
+ {
+  "id": "wiki-en-europium:178:507-515",
+  "line": 178,
+  "raw": "100 days",
+  "kind": "양",
+  "unit": "days",
+  "context": " years); all other known ground-state europium radioisotopes have half-lives shorter than 100 days."
+ },
+ {
+  "id": "wiki-en-europium:180:97-107",
+  "line": 180,
+  "raw": "12.8 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": "s nuclear isomers are also known. Among the longest-lived are ¹⁵⁰ᵐEu, with a half-life of 12.8 hours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another iso"
+ },
+ {
+  "id": "wiki-en-europium:180:142-154",
+  "line": 180,
+  "raw": "9.3116 hours",
+  "kind": "양",
+  "unit": "hours",
+  "context": "ongest-lived are ¹⁵⁰ᵐEu, with a half-life of 12.8 hours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of ab"
+ },
+ {
+  "id": "wiki-en-europium:180:183-192",
+  "line": 180,
+  "raw": "147.9 keV",
+  "kind": "양",
+  "unit": "keV",
+  "context": " of 12.8 hours, and ¹⁵²ᵐ¹Eu, with a half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 96 minutes. Most neutron-deficient"
+ },
+ {
+  "id": "wiki-en-europium:180:218-228",
+  "line": 180,
+  "raw": "96 minutes",
+  "kind": "양",
+  "unit": "minutes",
+  "context": " half-life of 9.3116 hours; another isomer of ¹⁵²Eu at 147.9 keV has a half-life of about 96 minutes. Most neutron-deficient europium isotopes decay towards iso"
+ },
+ {
+  "id": "wiki-en-europium:180:550-553",
+  "line": 180,
+  "raw": "72%",
+  "kind": "비율",
+  "unit": null,
+  "context": "usual in lying close enough to the valley of stability to decay in both directions: about 72% of its decays proceed by electron capture or positron emiss"
+ },
+ {
+  "id": "wiki-en-europium:180:639-642",
+  "line": 180,
+  "raw": "28%",
+  "kind": "비율",
+  "unit": null,
+  "context": " 72% of its decays proceed by electron capture or positron emission to ¹⁵²Sm, while about 28% proceed by beta decay to ¹⁵²Gd."
+ },
+ {
+  "id": "wiki-en-europium:188:101-113",
+  "line": 188,
+  "raw": "19th century",
+  "kind": "날짜",
+  "unit": null,
+  "context": "ry of europium was part of the prolonged separation of the rare-earth elements during the 19th century. Cerium had been discovered in 1803, and in the following d"
+ },
+ {
+  "id": "wiki-en-europium:188:145-149",
+  "line": 188,
+  "raw": "1803",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "aration of the rare-earth elements during the 19th century. Cerium had been discovered in 1803, and in the following decades apparently single rare-earth "
+ },
+ {
+  "id": "wiki-en-europium:188:435-439",
+  "line": 188,
+  "raw": "1879",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ng material, while didymium itself was later resolved into praseodymium and neodymium. In 1879, Paul Émile Lecoq de Boisbaudran separated samarium from di"
+ },
+ {
+  "id": "wiki-en-europium:190:3-7",
+  "line": 190,
+  "raw": "1885",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "In 1885, William Crookes observed an anomalous line in the phosphor"
+ },
+ {
+  "id": "wiki-en-europium:190:188-192",
+  "line": 190,
+  "raw": "1892",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ntaining samarium and yttrium, indicating the presence of an unidentified constituent. In 1892, Lecoq de Boisbaudran reported an unidentified spectral lin"
+ },
+ {
+  "id": "wiki-en-europium:192:91-95",
+  "line": 192,
+  "raw": "1896",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "he French chemist Eugène-Anatole Demarçay investigated the material in greater detail. In 1896 he reported evidence for an unknown element associated with"
+ },
+ {
+  "id": "wiki-en-europium:192:383-387",
+  "line": 192,
+  "raw": "1901",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "isation of double magnesium nitrate salts, monitoring the fractions spectroscopically. In 1901 he obtained material sufficiently pure to establish the ele"
+ },
+ {
+  "id": "wiki-en-europium:194:172-176",
+  "line": 194,
+  "raw": "1900",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "r its identification. Demarçay described sharp absorption lines of Eu(III) in solution in 1900. In 1904, Georges Urbain observed the faint pink appearance"
+ },
+ {
+  "id": "wiki-en-europium:194:181-185",
+  "line": 194,
+  "raw": "1904",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ntification. Demarçay described sharp absorption lines of Eu(III) in solution in 1900. In 1904, Georges Urbain observed the faint pink appearance of cryst"
+ },
+ {
+  "id": "wiki-en-europium:194:294-298",
+  "line": 194,
+  "raw": "1906",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "served the faint pink appearance of crystals of europium(III) sulfate octahydrate, and in 1906 he reported the intense red luminescence of europium oxide "
+ },
+ {
+  "id": "wiki-en-europium:194:380-384",
+  "line": 194,
+  "raw": "1909",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " in 1906 he reported the intense red luminescence of europium oxide dispersed in lime. In 1909 he described the cathodoluminescence of europium-doped gado"
+ },
+ {
+  "id": "wiki-en-europium:194:559-563",
+  "line": 194,
+  "raw": "1905",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "ample of Eu(III) acting as a luminescent activator. Crookes also revisited the element in 1905, comparing the phosphorescent spectra of his earlier materi"
+ },
+ {
+  "id": "wiki-en-europium:196:329-333",
+  "line": 196,
+  "raw": "1935",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "le the sulfates of the predominantly trivalent rare-earth elements remain in solution. In 1935, Herbert Newby McCoy described a method in which Eu(III) wa"
+ },
+ {
+  "id": "wiki-en-europium:198:85-89",
+  "line": 198,
+  "raw": "1937",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Metallic europium remained considerably more difficult to prepare than its salts. In 1937, Wilhelm Klemm and Heinrich Bommer prepared rare-earth meta"
+ },
+ {
+  "id": "wiki-en-europium:200:62-74",
+  "line": 200,
+  "raw": "20th century",
+  "kind": "날짜",
+  "unit": null,
+  "context": "Large-scale availability of europium increased during the mid-20th century as improved methods allowed the individual rare-earth eleme"
+ },
+ {
+  "id": "wiki-en-europium:200:180-184",
+  "line": 200,
+  "raw": "1964",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "hods allowed the individual rare-earth elements to be separated in greater quantities. In 1964, Albert K. Levine and Frank C. Palilla reported europium-do"
+ },
+ {
+  "id": "wiki-en-europium:200:558-562",
+  "line": 200,
+  "raw": "1966",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " drive the expansion of rare-earth production at the Mountain Pass mine in California. By 1966, Mountain Pass had become the world's leading source of rar"
+ },
+ {
+  "id": "wiki-en-europium:204:403-404",
+  "line": 204,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " minor constituent of these minerals; its average abundance in the Earth's crust is about 2 ppm. The chemical similarity of Eu(III) to the neighbouring"
+ },
+ {
+  "id": "wiki-en-europium:210:249-253",
+  "line": 210,
+  "raw": "1852",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "natural irradiation can favour conversion of Eu(III) impurities to luminescent Eu(II). In 1852, George Gabriel Stokes coined the term fluorescence while s"
+ },
+ {
+  "id": "wiki-en-europium:218:98-100",
+  "line": 218,
+  "raw": "+2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": " can be separated particularly effectively by exploiting the unusual accessibility of its +2 oxidation state. Eu(III) in a rare-earth solution can be se"
+ },
+ {
+  "id": "wiki-en-europium:220:0-1",
+  "line": 220,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu³⁺ + Zn → 2 Eu²⁺ + Zn²⁺"
+ },
+ {
+  "id": "wiki-en-europium:220:14-15",
+  "line": 220,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "2 Eu³⁺ + Zn → 2 Eu²⁺ + Zn²⁺"
+ },
+ {
+  "id": "wiki-en-europium:224:11-12",
+  "line": 224,
+  "raw": "4",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Eu²⁺ + SO2−4 → EuSO4(v)"
+ },
+ {
+  "id": "wiki-en-europium:228:114-115",
+  "line": 228,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "also be combined with solvent extraction. Acidic organophosphorus extractants such as bis(2-ethylhexyl)phosphoric acid (D2EHPA) extract trivalent rare-"
+ },
+ {
+  "id": "wiki-en-europium:230:54-58",
+  "line": 230,
+  "raw": "1965",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "A large-scale example was demonstrated by Molycorp in 1965 using bastnäsite-derived rare-earth chloride feed from Moun"
+ },
+ {
+  "id": "wiki-en-europium:230:159-163",
+  "line": 230,
+  "raw": "0.1%",
+  "kind": "비율",
+  "unit": null,
+  "context": "näsite-derived rare-earth chloride feed from Mountain Pass. The feed contained only about 0.1% Eu2O3; solvent extraction with D2EHPA first enriched the eu"
+ },
+ {
+  "id": "wiki-en-europium:230:247-250",
+  "line": 230,
+  "raw": "15%",
+  "kind": "비율",
+  "unit": null,
+  "context": "t 0.1% Eu2O3; solvent extraction with D2EHPA first enriched the europium to approximately 15%. In the subsequent process, europium-bearing solution was f"
+ },
+ {
+  "id": "wiki-en-europium:230:522-528",
+  "line": 230,
+  "raw": "99.99%",
+  "kind": "비율",
+  "unit": null,
+  "context": "cipitate EuSO4. Calcination of the precipitate ultimately produced Eu2O3 of approximately 99.99% purity. The preparation of elemental europium from purified"
+ },
+ {
+  "id": "wiki-en-europium:234:253-263",
+  "line": 234,
+  "raw": "422 tonnes",
+  "kind": "양",
+  "unit": "tonnes",
+  "context": "European Commission estimates placed average global production of europium oxide at about 422 tonnes per year in 2012–2016. China accounted for approximately 86"
+ },
+ {
+  "id": "wiki-en-europium:234:276-280",
+  "line": 234,
+  "raw": "2012",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "imates placed average global production of europium oxide at about 422 tonnes per year in 2012–2016. China accounted for approximately 86% of this product"
+ },
+ {
+  "id": "wiki-en-europium:234:281-285",
+  "line": 234,
+  "raw": "2016",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "s placed average global production of europium oxide at about 422 tonnes per year in 2012–2016. China accounted for approximately 86% of this production, "
+ },
+ {
+  "id": "wiki-en-europium:234:321-324",
+  "line": 234,
+  "raw": "86%",
+  "kind": "비율",
+  "unit": null,
+  "context": "ropium oxide at about 422 tonnes per year in 2012–2016. China accounted for approximately 86% of this production, followed by Australia at 6%, the United"
+ },
+ {
+  "id": "wiki-en-europium:234:370-372",
+  "line": 234,
+  "raw": "6%",
+  "kind": "비율",
+  "unit": null,
+  "context": "–2016. China accounted for approximately 86% of this production, followed by Australia at 6%, the United States and Russia at about 2% each, and other c"
+ },
+ {
+  "id": "wiki-en-europium:234:412-414",
+  "line": 234,
+  "raw": "2%",
+  "kind": "비율",
+  "unit": null,
+  "context": "6% of this production, followed by Australia at 6%, the United States and Russia at about 2% each, and other countries for the remainder. More recent es"
+ },
+ {
+  "id": "wiki-en-europium:238:8-9",
+  "line": 238,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Eu2O3 + 2 La → 2 Eu + La2O3"
+ },
+ {
+  "id": "wiki-en-europium:238:15-16",
+  "line": 238,
+  "raw": "2",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "Eu2O3 + 2 La → 2 Eu + La2O3"
+ },
+ {
+  "id": "wiki-en-europium:240:95-99",
+  "line": 240,
+  "raw": "1100",
+  "kind": "양",
+  "unit": "°C",
+  "context": "eaction is carried out in refractory apparatus, commonly using tantalum, at approximately 1100–1200 °C. The europium produced is considerably more volatil"
+ },
+ {
+  "id": "wiki-en-europium:240:100-107",
+  "line": 240,
+  "raw": "1200 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "on is carried out in refractory apparatus, commonly using tantalum, at approximately 1100–1200 °C. The europium produced is considerably more volatile than t"
+ },
+ {
+  "id": "wiki-en-europium:240:429-433",
+  "line": 240,
+  "raw": "1958",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "re occur simultaneously, helping to separate europium from less volatile contaminants. In 1958, Frank Spedding, J. J. Hanak and A. H. Daane reported prepa"
+ },
+ {
+  "id": "wiki-en-europium:240:498-504",
+  "line": 240,
+  "raw": "70.4 g",
+  "kind": "양",
+  "unit": "g",
+  "context": "ile contaminants. In 1958, Frank Spedding, J. J. Hanak and A. H. Daane reported preparing 70.4 g of high-purity europium by heating europium oxide with lant"
+ },
+ {
+  "id": "wiki-en-europium:240:589-596",
+  "line": 240,
+  "raw": "1200 °C",
+  "kind": "양",
+  "unit": "°C",
+  "context": "0.4 g of high-purity europium by heating europium oxide with lanthanum in vacuum at about 1200 °C."
+ },
+ {
+  "id": "wiki-en-europium:250:172-177",
+  "line": 250,
+  "raw": "1960s",
+  "kind": "날짜",
+  "unit": null,
+  "context": "r colour television. Europium-doped yttrium orthovanadate, YVO4:Eu, introduced during the 1960s, provided an efficient and highly saturated red component f"
+ },
+ {
+  "id": "wiki-en-europium:252:486-488",
+  "line": 252,
+  "raw": "5d",
+  "kind": "양",
+  "unit": "d",
+  "context": ". Eu(II)-activated materials are particularly useful because the energy of their broad 4f–5d emission bands depends strongly on the host lattice, allowi"
+ },
+ {
+  "id": "wiki-en-europium:260:195-201",
+  "line": 260,
+  "raw": "612 nm",
+  "kind": "양",
+  "unit": "nm",
+  "context": "ng diodes. Their narrow emission bands, particularly the strong ⁵D0 → ⁷F2 transition near 612 nm, can produce highly saturated red electroluminescence. Devi"
+ },
+ {
+  "id": "wiki-en-europium:268:105-106",
+  "line": 268,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "omplexes have also been used as NMR shift reagents. Paramagnetic complexes such as Eu(fod)3 coordinate reversibly to suitable organic molecules and alt"
+ },
+ {
+  "id": "wiki-en-europium:268:297-298",
+  "line": 268,
+  "raw": "3",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "therwise overlapping resonances to be separated. Chiral europium complexes such as Eu(hfc)3 can give different induced shifts for a pair of enantiomers"
+ },
+ {
+  "id": "wiki-en-europium:276:175-181",
+  "line": 276,
+  "raw": "28-day",
+  "kind": "양",
+  "unit": "day",
+  "context": "uropium(III) chloride, although sufficiently high doses can produce adverse effects. In a 28-day study, rats were given europium(III) chloride hexahydrate a"
+ },
+ {
+  "id": "wiki-en-europium:276:258-262",
+  "line": 276,
+  "raw": "1000",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": ". In a 28-day study, rats were given europium(III) chloride hexahydrate at doses of up to 1000 mg/kg of body weight per day. At the highest dose, gastric "
+ },
+ {
+  "id": "wiki-en-europium:276:527-530",
+  "line": 276,
+  "raw": "200",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "n the liver, kidneys, spleen and bone. The authors reported a no-observed-effect level of 200 mg/kg/day. A separate study of single oral doses of europiu"
+ },
+ {
+  "id": "wiki-en-europium:278:142-143",
+  "line": 278,
+  "raw": "1",
+  "kind": "모르는 숫자",
+  "unit": null,
+  "context": "because of its chemical reactivity. Commercial europium metal is classified as a category 1 pyrophoric solid under the Globally Harmonized System of Cl"
+ }
+]

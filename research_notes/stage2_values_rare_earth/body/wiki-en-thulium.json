@@ -1,0 +1,684 @@
+[
+ {
+  "id": "wiki-en-thulium:68:66-68",
+  "value": true,
+  "object": "Tm",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "69"
+ },
+ {
+  "id": "wiki-en-thulium:70:3-7",
+  "value": true,
+  "object": "Tm",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [],
+  "raw": "1879"
+ },
+ {
+  "id": "wiki-en-thulium:70:355-359",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "A relatively pure sample of thulium oxide was first obtained"
+  ],
+  "raw": "1911"
+ },
+ {
+  "id": "wiki-en-thulium:70:400-404",
+  "value": true,
+  "object": "Tm",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "The metal itself was first obtained"
+  ],
+  "raw": "1936"
+ },
+ {
+  "id": "wiki-en-thulium:72:63-65",
+  "value": true,
+  "object": "Tm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "its most common oxidation state"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-thulium:78:149-150",
+  "value": true,
+  "object": "Tm",
+  "quantity": "mohs_hardness",
+  "condition": "",
+  "note": [],
+  "raw": "2 to 3"
+ },
+ {
+  "id": "wiki-en-thulium:78:154-155",
+  "value": true,
+  "part_of": "wiki-en-thulium:78:149-150"
+ },
+ {
+  "id": "wiki-en-thulium:78:217-221",
+  "value": true,
+  "object": "Tm",
+  "quantity": "ferromagnetic_range",
+  "condition": "",
+  "note": [],
+  "raw": "below 32 K"
+ },
+ {
+  "id": "wiki-en-thulium:78:249-251",
+  "value": true,
+  "object": "Tm",
+  "quantity": "antiferromagnetic_range",
+  "condition": "",
+  "note": [],
+  "raw": "between 32 and 56 K"
+ },
+ {
+  "id": "wiki-en-thulium:78:256-260",
+  "value": true,
+  "part_of": "wiki-en-thulium:78:249-251"
+ },
+ {
+  "id": "wiki-en-thulium:78:285-289",
+  "value": true,
+  "object": "Tm",
+  "quantity": "paramagnetic_range",
+  "condition": "",
+  "note": [],
+  "raw": "above 56 K"
+ },
+ {
+  "id": "wiki-en-thulium:84:53-59",
+  "value": true,
+  "object": "Tm",
+  "quantity": "combustion_temperature",
+  "condition": "",
+  "note": [
+   "burns readily at"
+  ],
+  "raw": "150 °C"
+ },
+ {
+  "id": "wiki-en-thulium:86:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:86:7-8",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:86:14-15",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:92:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:92:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:92:21-22",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:92:29-30",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-thulium:92:37-38",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:94:101-107",
+  "value": true,
+  "object": "Tm",
+  "quantity": "halogen_reaction_vigorous_temperature",
+  "condition": "",
+  "note": [
+   "Reactions are slow at room temperature, but are vigorous"
+  ],
+  "raw": "above 200 °C"
+ },
+ {
+  "id": "wiki-en-thulium:96:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:96:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:96:20-21",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:97:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:97:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:97:21-22",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:98:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:98:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:98:21-22",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:99:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:99:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:99:20-21",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:101:131-132",
+  "value": false,
+  "reason": "착이온 화학식의 일부"
+ },
+ {
+  "id": "wiki-en-thulium:103:0-1",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:103:10-11",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:103:24-25",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:103:37-38",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:103:51-52",
+  "value": false,
+  "reason": "반응식의 계수"
+ },
+ {
+  "id": "wiki-en-thulium:105:208-210",
+  "value": true,
+  "object": "Tm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "the +3 state is most common"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-thulium:105:488-490",
+  "value": true,
+  "object": "Tm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "occurs only in solids"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-en-thulium:107:313-314",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-thulium:107:451-452",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-thulium:109:135-136",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-thulium:115:238-248",
+  "value": true,
+  "object": "Tm-171",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "1.92 years"
+ },
+ {
+  "id": "wiki-en-thulium:115:292-302",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "128.6 days"
+ },
+ {
+  "id": "wiki-en-thulium:115:346-356",
+  "value": true,
+  "object": "other thulium isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "Most other isotopes have half-lives"
+  ],
+  "raw": "under 10 minutes"
+ },
+ {
+  "id": "wiki-en-thulium:119:62-66",
+  "value": true,
+  "object": "Tm",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [],
+  "raw": "1879"
+ },
+ {
+  "id": "wiki-en-thulium:121:439-443",
+  "value": true,
+  "object": "Tm",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "The first researcher to obtain nearly pure thulium",
+   "he reported his results"
+  ],
+  "raw": "1911",
+  "uncertain": true,
+  "uncertain_reason": "70줄은 같은 1911년을 산화 툴륨(thulium oxide)을 얻은 해라 하고 이 줄은 'nearly pure thulium'이라 해서 대상이 Tm인지 Tm2O3인지 갈림"
+ },
+ {
+  "id": "wiki-en-thulium:121:584-590",
+  "value": true,
+  "object": "Tm",
+  "quantity": "purification_operations",
+  "condition": "",
+  "note": [
+   "needed",
+   "to establish that the material was homogeneous"
+  ],
+  "raw": "15,000 purification operations"
+ },
+ {
+  "id": "wiki-en-thulium:123:69-74",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "first_commercial_availability",
+  "condition": "",
+  "note": [
+   "High-purity thulium oxide was first offered commercially"
+  ],
+  "raw": "late 1950s"
+ },
+ {
+  "id": "wiki-en-thulium:123:235-239",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "purity_grade",
+  "condition": "",
+  "note": [
+   "offered it in grades of"
+  ],
+  "raw": "99 %"
+ },
+ {
+  "id": "wiki-en-thulium:123:244-250",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "purity_grade",
+  "condition": "",
+  "note": [
+   "offered it in grades of"
+  ],
+  "raw": "99.9 %"
+ },
+ {
+  "id": "wiki-en-thulium:123:304-309",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "per kilogram",
+   "oscillated between",
+   "in the period from 1959 to 1998",
+   "for 99.9 % purity"
+  ],
+  "raw": "US$4,600 and $13,300"
+ },
+ {
+  "id": "wiki-en-thulium:123:315-321",
+  "value": true,
+  "part_of": "wiki-en-thulium:123:304-309"
+ },
+ {
+  "id": "wiki-en-thulium:123:341-345",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:123:349-353",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:123:358-364",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:127:477-480",
+  "value": true,
+  "object": "Tm",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "Its abundance in the Earth's crust",
+   "by weight"
+  ],
+  "raw": "0.5 mg/kg"
+ },
+ {
+  "id": "wiki-en-thulium:129:31-34",
+  "value": true,
+  "object": "Tm",
+  "quantity": "soil_abundance",
+  "condition": "",
+  "note": [],
+  "raw": "approximately 0.5 parts per million"
+ },
+ {
+  "id": "wiki-en-thulium:129:97-100",
+  "value": true,
+  "object": "Tm",
+  "quantity": "soil_abundance_range",
+  "condition": "",
+  "note": [
+   "this value can range from"
+  ],
+  "raw": "0.4 to 0.8 parts per million"
+ },
+ {
+  "id": "wiki-en-thulium:129:104-107",
+  "value": true,
+  "part_of": "wiki-en-thulium:129:97-100"
+ },
+ {
+  "id": "wiki-en-thulium:129:144-147",
+  "value": true,
+  "object": "Tm",
+  "quantity": "seawater_abundance",
+  "condition": "",
+  "note": [],
+  "raw": "250 parts per quadrillion"
+ },
+ {
+  "id": "wiki-en-thulium:129:240-243",
+  "value": true,
+  "object": "Tm",
+  "quantity": "solar_system_abundance",
+  "condition": "",
+  "note": [
+   "In the Solar System",
+   "by weight"
+  ],
+  "raw": "200 parts per trillion"
+ },
+ {
+  "id": "wiki-en-thulium:129:277-278",
+  "value": true,
+  "object": "Tm",
+  "quantity": "solar_system_abundance",
+  "condition": "",
+  "note": [
+   "In the Solar System",
+   "by moles"
+  ],
+  "raw": "1 part per trillion"
+ },
+ {
+  "id": "wiki-en-thulium:129:459-463",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:129:520-534",
+  "value": true,
+  "object": "Tm",
+  "quantity": "world_reserves",
+  "condition": "",
+  "note": [
+   "In 2001",
+   "the total world reserves of thulium"
+  ],
+  "raw": "approximately 100,000 tonnes"
+ },
+ {
+  "id": "wiki-en-thulium:133:54-61",
+  "value": true,
+  "object": "monazite ores",
+  "quantity": "thulium_content",
+  "condition": "",
+  "note": [
+   "found in river sands"
+  ],
+  "raw": "~0.007 % thulium"
+ },
+ {
+  "id": "wiki-en-thulium:133:447-452",
+  "value": true,
+  "object": "ion adsorption clays of southern China",
+  "quantity": "thulium_content",
+  "condition": "",
+  "note": [
+   "about two-thirds of the total rare-earth content is yttrium"
+  ],
+  "raw": "about 0.5 %"
+ },
+ {
+  "id": "wiki-en-thulium:135:192-196",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:135:212-221",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "annual_production",
+  "condition": "",
+  "note": [
+   "In 2001"
+  ],
+  "raw": "approximately 50 tonnes per year"
+ },
+ {
+  "id": "wiki-en-thulium:135:266-270",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:135:294-296",
+  "value": true,
+  "object": "Tm2O3",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "In 1996",
+   "thulium oxide cost"
+  ],
+  "raw": "US$20 per gram"
+ },
+ {
+  "id": "wiki-en-thulium:135:314-318",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:135:320-324",
+  "value": false,
+  "reason": "다른 값의 조건"
+ },
+ {
+  "id": "wiki-en-thulium:135:359-361",
+  "value": true,
+  "object": "Tm",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in 2005",
+   "99 %-pure thulium metal powder cost"
+  ],
+  "raw": "US$70 per gram"
+ },
+ {
+  "id": "wiki-en-thulium:141:164-171",
+  "value": true,
+  "object": "Ho:Cr:Tm:YAG",
+  "quantity": "laser_wavelength",
+  "condition": "",
+  "note": [
+   "It lases at"
+  ],
+  "raw": "2080 nm"
+ },
+ {
+  "id": "wiki-en-thulium:141:320-327",
+  "value": true,
+  "object": "Tm:YAG",
+  "quantity": "laser_wavelength",
+  "condition": "",
+  "note": [
+   "Single-element thulium-doped YAG (Tm:YAG) lasers operate at"
+  ],
+  "raw": "2010 nm"
+ },
+ {
+  "id": "wiki-en-thulium:145:175-185",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "128.6 days"
+ },
+ {
+  "id": "wiki-en-thulium:145:244-247",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "emission_line_energy",
+  "condition": "",
+  "note": [
+   "keV",
+   "five major emission lines of comparable intensity"
+  ],
+  "raw": "7.4"
+ },
+ {
+  "id": "wiki-en-thulium:145:249-255",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "emission_line_energy",
+  "condition": "",
+  "note": [
+   "keV",
+   "five major emission lines of comparable intensity"
+  ],
+  "raw": "51.354"
+ },
+ {
+  "id": "wiki-en-thulium:145:257-263",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "emission_line_energy",
+  "condition": "",
+  "note": [
+   "keV",
+   "five major emission lines of comparable intensity"
+  ],
+  "raw": "52.389"
+ },
+ {
+  "id": "wiki-en-thulium:145:265-269",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "emission_line_energy",
+  "condition": "",
+  "note": [
+   "keV",
+   "five major emission lines of comparable intensity"
+  ],
+  "raw": "59.4"
+ },
+ {
+  "id": "wiki-en-thulium:145:274-284",
+  "value": true,
+  "object": "Tm-170",
+  "quantity": "emission_line_energy",
+  "condition": "",
+  "note": [
+   "five major emission lines of comparable intensity"
+  ],
+  "raw": "84.253 keV"
+ },
+ {
+  "id": "wiki-en-thulium:151:162-163",
+  "value": true,
+  "object": "Tm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "Tm-doped halides in which Tm is in its 2+ oxidation state"
+  ],
+  "raw": "2+"
+ }
+]

@@ -1,0 +1,367 @@
+[
+ {
+  "id": "wiki-ko-samarium:67:108-110",
+  "value": true,
+  "object": "Sm",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "62"
+ },
+ {
+  "id": "wiki-ko-samarium:67:166-168",
+  "value": true,
+  "object": "Sm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "주로"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-ko-samarium:69:5-10",
+  "value": true,
+  "object": "Sm",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [],
+  "raw": "1879년"
+ },
+ {
+  "id": "wiki-ko-samarium:69:199-203",
+  "value": true,
+  "object": "Sm",
+  "quantity": "content_in_minerals",
+  "condition": "",
+  "note": [
+   "세라이트, 가돌리나이트, 사마스카이트, 모나자이트, 희토류광 등의 광물에"
+  ],
+  "raw": "최대 2.8%"
+ },
+ {
+  "id": "wiki-ko-samarium:71:105-110",
+  "value": true,
+  "object": "samarium-cobalt magnet",
+  "quantity": "demagnetization_temperature",
+  "condition": "",
+  "note": [
+   "고온에서도 자성을 잃지 않는"
+  ],
+  "raw": "약 700°C"
+ },
+ {
+  "id": "wiki-ko-samarium:77:145-150",
+  "value": true,
+  "object": "Sm",
+  "quantity": "phase_transition_temperature",
+  "condition": "",
+  "note": [
+   "육방정계 구조로 전환"
+  ],
+  "raw": "731°C 이상"
+ },
+ {
+  "id": "wiki-ko-samarium:77:205-210",
+  "value": true,
+  "object": "Sm",
+  "quantity": "phase_transition_temperature",
+  "condition": "",
+  "note": [
+   "체심 입방정계 구조가 된다"
+  ],
+  "raw": "922°C 이상"
+ },
+ {
+  "id": "wiki-ko-samarium:77:263-268",
+  "value": true,
+  "object": "Sm",
+  "quantity": "neel_temperature",
+  "condition": "",
+  "note": [
+   "반강자성을 띤다"
+  ],
+  "raw": "14.8K 이하"
+ },
+ {
+  "id": "wiki-ko-samarium:81:46-51",
+  "value": true,
+  "object": "Sm",
+  "quantity": "ignition_temperature",
+  "condition": "",
+  "note": [],
+  "raw": "150°C 이상"
+ },
+ {
+  "id": "wiki-ko-samarium:83:20-21",
+  "value": false,
+  "reason": "화학 반응식 2Sm(OH)3의 아래첨자로 화학식의 일부"
+ },
+ {
+  "id": "wiki-ko-samarium:85:21-23",
+  "value": true,
+  "object": "Sm",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "란타넘족 원소 중에서"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-ko-samarium:89:14-16",
+  "value": true,
+  "object": "Sm",
+  "quantity": "specific_activity",
+  "condition": "",
+  "note": [
+   "자연에 존재하는 사마륨"
+  ],
+  "raw": "1g 당 128Bq"
+ },
+ {
+  "id": "wiki-ko-samarium:89:19-24",
+  "value": true,
+  "part_of": "wiki-ko-samarium:89:14-16"
+ },
+ {
+  "id": "wiki-ko-samarium:89:195-205",
+  "value": true,
+  "object": "Sm-147",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "1.06×10¹¹년"
+ },
+ {
+  "id": "wiki-ko-samarium:89:218-225",
+  "value": true,
+  "object": "Sm-148",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "7×10¹⁵년"
+ },
+ {
+  "id": "wiki-ko-samarium:89:253-260",
+  "value": true,
+  "object": "Sm-149",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "자료에 따라"
+  ],
+  "raw": "2×10¹⁵년 이상"
+ },
+ {
+  "id": "wiki-ko-samarium:93:18-22",
+  "value": true,
+  "object": "Sm",
+  "quantity": "discovery_claims_start",
+  "condition": "",
+  "note": [
+   "여러 과학자들이 발견했다고 주장"
+  ],
+  "raw": "19세기 후반"
+ },
+ {
+  "id": "wiki-ko-samarium:93:99-104",
+  "value": true,
+  "object": "Sm",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "사마스카이트에서 산화 사마륨(혹은 수산화 사마륨)을 분리하여"
+  ],
+  "raw": "1879년"
+ },
+ {
+  "id": "wiki-ko-samarium:93:182-187",
+  "value": true,
+  "object": "decipium",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "스위스의 화학자 드라폰테인이"
+  ],
+  "raw": "1878년"
+ },
+ {
+  "id": "wiki-ko-samarium:93:347-352",
+  "value": true,
+  "object": "Sm",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "순수한 사마륨"
+  ],
+  "raw": "1901년"
+ },
+ {
+  "id": "wiki-ko-samarium:95:291-297",
+  "value": true,
+  "object": "Sm",
+  "quantity": "alternative_symbol_used_until",
+  "condition": "",
+  "note": [
+   "Sa라는 기호가 주로 사용"
+  ],
+  "raw": "1920년대"
+ },
+ {
+  "id": "wiki-ko-samarium:99:102-103",
+  "value": true,
+  "object": "Sm",
+  "quantity": "soil_abundance",
+  "condition": "",
+  "note": [
+   "토양에 포함된 양",
+   "약"
+  ],
+  "raw": "2~23ppm"
+ },
+ {
+  "id": "wiki-ko-samarium:99:237-241",
+  "value": true,
+  "object": "Sm",
+  "quantity": "content_in_minerals",
+  "condition": "",
+  "note": [
+   "세라이트, 가돌리나이트, 사마스카이트, 모나자이트, 희토류광 등 다양한 광물에"
+  ],
+  "raw": "최대 2.8%"
+ },
+ {
+  "id": "wiki-ko-samarium:99:261-262",
+  "value": true,
+  "object": "Sm",
+  "quantity": "reserves",
+  "condition": "",
+  "note": [
+   "전 세계에",
+   "추정"
+  ],
+  "raw": "약 2백만 톤"
+ },
+ {
+  "id": "wiki-ko-samarium:101:26-30",
+  "value": true,
+  "object": "Sm-151",
+  "quantity": "fission_yield",
+  "condition": "",
+  "note": [
+   "우라늄의 핵분열 결과물로서"
+  ],
+  "raw": "약 0.4%"
+ },
+ {
+  "id": "wiki-ko-samarium:107:64-65",
+  "value": true,
+  "object": "SmCo5",
+  "quantity": "sm_to_co_ratio",
+  "condition": "",
+  "note": [
+   "사마륨과 코발트의 비율"
+  ],
+  "raw": "1:5",
+  "uncertain": true,
+  "reason": "문서에 화학식이 없고 비율 1:5를 SmCo5로 옮겼다"
+ },
+ {
+  "id": "wiki-ko-samarium:107:66-67",
+  "value": true,
+  "part_of": "wiki-ko-samarium:107:64-65"
+ },
+ {
+  "id": "wiki-ko-samarium:107:71-72",
+  "value": true,
+  "object": "Sm2Co17",
+  "quantity": "sm_to_co_ratio",
+  "condition": "",
+  "note": [
+   "사마륨과 코발트의 비율"
+  ],
+  "raw": "2:17",
+  "uncertain": true,
+  "reason": "문서에 화학식이 없고 비율 2:17을 Sm2Co17로 옮겼다"
+ },
+ {
+  "id": "wiki-ko-samarium:107:73-75",
+  "value": true,
+  "part_of": "wiki-ko-samarium:107:71-72"
+ },
+ {
+  "id": "wiki-ko-samarium:107:97-98",
+  "value": true,
+  "object": "samarium-cobalt magnet",
+  "quantity": "strength_relative_to_iron",
+  "condition": "",
+  "note": [
+   "철보다"
+  ],
+  "raw": "1만배 이상"
+ },
+ {
+  "id": "wiki-ko-samarium:107:125-128",
+  "value": true,
+  "object": "neodymium magnet",
+  "quantity": "demagnetization_temperature",
+  "condition": "",
+  "note": [
+   "가량의 온도에서 자성을 잃는"
+  ],
+  "raw": "300~400°C"
+ },
+ {
+  "id": "wiki-ko-samarium:107:129-134",
+  "value": true,
+  "part_of": "wiki-ko-samarium:107:125-128"
+ },
+ {
+  "id": "wiki-ko-samarium:107:167-172",
+  "value": true,
+  "object": "samarium-cobalt magnet",
+  "quantity": "demagnetization_temperature",
+  "condition": "",
+  "note": [
+   "고온에서도 자성을 잃지 않는"
+  ],
+  "raw": "700°C 이상"
+ },
+ {
+  "id": "wiki-ko-samarium:117:26-32",
+  "value": true,
+  "object": "Sm-153",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "베타 붕괴"
+  ],
+  "raw": "46.3시간"
+ },
+ {
+  "id": "wiki-ko-samarium:118:73-76",
+  "value": true,
+  "object": "x-ray laser",
+  "quantity": "wavelength",
+  "condition": "",
+  "note": [],
+  "raw": "6.8~7.3나노미터"
+ },
+ {
+  "id": "wiki-ko-samarium:118:77-84",
+  "value": true,
+  "part_of": "wiki-ko-samarium:118:73-76"
+ },
+ {
+  "id": "wiki-ko-samarium:118:97-99",
+  "value": true,
+  "object": "x-ray laser",
+  "quantity": "pulse_duration",
+  "condition": "",
+  "note": [
+   "방출"
+  ],
+  "raw": "50피코초"
+ }
+]

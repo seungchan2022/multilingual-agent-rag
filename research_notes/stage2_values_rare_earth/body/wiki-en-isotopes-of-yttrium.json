@@ -1,0 +1,53 @@
+[
+ {
+  "id": "wiki-en-isotopes-of-yttrium:15:133-144",
+  "value": true,
+  "object": "Y-88",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "most stable radioisotope"
+  ],
+  "raw": "106.63 days"
+ },
+ {
+  "id": "wiki-en-isotopes-of-yttrium:15:175-185",
+  "value": true,
+  "object": "Y-91",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "most stable radioisotope"
+  ],
+  "raw": "58.51 days"
+ },
+ {
+  "id": "wiki-en-isotopes-of-yttrium:15:251-259",
+  "value": true,
+  "object": "other yttrium isotopes and isomers",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "except ⁸⁷Y with 79.8 hours and ⁹⁰Y with 64.05 hours"
+  ],
+  "raw": "less than 15 hours"
+ },
+ {
+  "id": "wiki-en-isotopes-of-yttrium:15:277-287",
+  "value": true,
+  "object": "Y-87",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "79.8 hours"
+ },
+ {
+  "id": "wiki-en-isotopes-of-yttrium:15:301-312",
+  "value": true,
+  "object": "Y-90",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "64.05 hours"
+ }
+]

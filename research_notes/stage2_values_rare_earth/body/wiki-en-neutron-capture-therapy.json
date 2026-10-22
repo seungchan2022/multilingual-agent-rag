@@ -1,0 +1,1487 @@
+[
+ {
+  "id": "wiki-en-neutron-capture-therapy:6:460-465",
+  "value": true,
+  "object": "B-10",
+  "quantity": "neutron_cross_section",
+  "condition": "",
+  "note": [],
+  "raw": "3,837 barns"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:6:476-481",
+  "value": true,
+  "object": "B-10",
+  "quantity": "neutron_cross_section_ratio",
+  "condition": "",
+  "note": [
+   "other elements, such as nitrogen, hydrogen, or oxygen"
+  ],
+  "raw": "1,000 times more"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:41-45",
+  "value": true,
+  "object": "neutron",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [],
+  "raw": "in 1932"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:292-296",
+  "value": true,
+  "object": "neutron capture therapy",
+  "quantity": "cancer_treatment_proposal_year",
+  "condition": "",
+  "note": [],
+  "raw": "In 1936"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:828-832",
+  "value": true,
+  "object": "neutron capture therapy",
+  "quantity": "brain_tumor_bnct_proposal_year",
+  "condition": "",
+  "note": [
+   "using borax as the boron-delivery agent"
+  ],
+  "raw": "1951",
+  "uncertain": true,
+  "uncertain_reason": "문장이 뒤섞여 1951이 제안한 해인지 임상 시험을 시작한 해인지 불분명"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:14:1045-1049",
+  "value": true,
+  "object": "MITR, MIT, US",
+  "quantity": "trial_start_year",
+  "condition": "",
+  "note": [
+   "at the Massachusetts General Hospital"
+  ],
+  "raw": "in 1954"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:16:197-202",
+  "value": true,
+  "object": "hatanaka bnct trials",
+  "quantity": "trial_start_year",
+  "condition": "",
+  "note": [],
+  "raw": "in the 1960s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:16:448-452",
+  "value": true,
+  "object": "fukushima nuclear accident",
+  "quantity": "occurrence_year",
+  "condition": "",
+  "note": [],
+  "raw": "in 2011"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:22:128-131",
+  "value": true,
+  "object": "B-10",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "natural elemental boron"
+  ],
+  "raw": "approximately 20%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:24:31-39",
+  "value": true,
+  "object": "B-10 capture reaction",
+  "quantity": "reaction_energy",
+  "condition": "",
+  "note": [],
+  "raw": "2.31 MeV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:26:142-143",
+  "value": true,
+  "object": "B-10 capture reaction",
+  "quantity": "product_range",
+  "condition": "",
+  "note": [],
+  "raw": "5–9 μm"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:26:144-148",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:26:142-143"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:567-571",
+  "value": true,
+  "object": "thermal neutron beams",
+  "quantity": "use_until_year",
+  "condition": "",
+  "note": [
+   "in Japan and the United States"
+  ],
+  "raw": "Until 1994"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:587-593",
+  "value": true,
+  "object": "thermal neutron",
+  "quantity": "neutron_energy_range",
+  "condition": "",
+  "note": [],
+  "raw": "< 0.5 eV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:737-740",
+  "value": true,
+  "object": "epithermal neutron",
+  "quantity": "neutron_energy_range",
+  "condition": "",
+  "note": [],
+  "raw": "0.5–10,000 eV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:741-750",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:28:737-740"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1151-1153",
+  "value": true,
+  "object": "BNCT",
+  "quantity": "deliverable_dose",
+  "condition": "",
+  "note": [
+   "in one or two applications"
+  ],
+  "raw": "up to 60–70 grays"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1154-1156",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:28:1151-1153"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1243-1244",
+  "value": true,
+  "object": "conventional fractionated external beam photon irradiation",
+  "quantity": "treatment_duration",
+  "condition": "",
+  "note": [],
+  "raw": "6–7 weeks"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:28:1245-1252",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:28:1243-1244"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:34:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:35:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:36:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:396-399",
+  "value": true,
+  "object": "scalp",
+  "quantity": "blood_to_scalp_boron_ratio",
+  "condition": "",
+  "note": [],
+  "raw": "1.5:1"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:400-401",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:42:396-399"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:474-477",
+  "value": true,
+  "object": "BPA",
+  "quantity": "cbe_factor",
+  "condition": "",
+  "note": [
+   "in skin"
+  ],
+  "raw": "2.5"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:42:538-541",
+  "value": true,
+  "object": "high-LET components",
+  "quantity": "rbe_factor",
+  "condition": "",
+  "note": [
+   "in all tissues"
+  ],
+  "raw": "3.2"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:46:69-74",
+  "value": true,
+  "object": "boron delivery agent development",
+  "quantity": "start_year",
+  "condition": "",
+  "note": [],
+  "raw": "early 1960s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:48:161-162",
+  "value": true,
+  "object": "boron delivery agent",
+  "quantity": "tumor_to_normal_concentration_ratio",
+  "condition": "",
+  "note": [],
+  "raw": "> 3–4:1"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:48:163-164",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:48:161-162"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:48:165-166",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:48:161-162"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:49:40-42",
+  "value": true,
+  "object": "boron delivery agent",
+  "quantity": "tumor_boron_concentration",
+  "condition": "",
+  "note": [],
+  "raw": "~20–50 μg ¹⁰B/g tumor"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:49:43-48",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:49:40-42"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:52:15-19",
+  "value": false,
+  "reason": "기준 시점(as of)을 알리는 말의 해, 그 자체는 양이 아님"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:52:341-342",
+  "value": false,
+  "reason": "표 번호(Table 1)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:54:6-7",
+  "value": false,
+  "reason": "표 번호(Table 1)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:477-479",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:480-482",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:488-495",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:503-506",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:507-511",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:512-513",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:70:514-518",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Cancer Communications 38:35, DOI, 2018)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:72:161-163",
+  "value": true,
+  "object": "boron delivery agent",
+  "quantity": "tumor_boron_concentration",
+  "condition": "",
+  "note": [],
+  "raw": "20–50 μg/g tumor"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:72:164-166",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:72:161-163"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:211-218",
+  "value": true,
+  "object": "Gd-157",
+  "quantity": "neutron_cross_section",
+  "condition": "",
+  "note": [],
+  "raw": "254,000 barns"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:615-622",
+  "value": true,
+  "object": "Gd-157 capture reaction",
+  "quantity": "neutron_energy",
+  "condition": "",
+  "note": [],
+  "raw": "0.025eV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:648-656",
+  "value": true,
+  "object": "Gd-157 capture reaction",
+  "quantity": "reaction_energy",
+  "condition": "",
+  "note": [],
+  "raw": "7.94 MeV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:1395-1396",
+  "value": false,
+  "reason": "표 번호(Table 1)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:76:1786-1790",
+  "value": false,
+  "reason": "기준 시점(as of)을 알리는 말의 해, 그 자체는 양이 아님"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:6-10",
+  "value": true,
+  "object": "neutron sources for NCT",
+  "quantity": "reactor_only_until_year",
+  "condition": "",
+  "note": [],
+  "raw": "Until 2014"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:155-161",
+  "value": true,
+  "object": "thermal neutron",
+  "quantity": "neutron_energy_range",
+  "condition": "",
+  "note": [],
+  "raw": "En < 0.5 eV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:176-179",
+  "value": true,
+  "object": "epithermal neutron",
+  "quantity": "neutron_energy_range",
+  "condition": "",
+  "note": [],
+  "raw": "0.5–10,000 eV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:180-189",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:82:176-179"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:82:205-211",
+  "value": true,
+  "object": "fast neutron",
+  "quantity": "neutron_energy_range",
+  "condition": "",
+  "note": [],
+  "raw": "En >10 keV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:86:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:87:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:88:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:89:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:90:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:91:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:92:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:93:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:95:6-14",
+  "value": false,
+  "reason": "기준 시점(as of May 2021)을 알리는 말의 날짜, 그 자체는 양이 아님"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:95:146-150",
+  "value": true,
+  "object": "Helsinki University Hospital, Helsinki, Finland",
+  "quantity": "first_clinical_use_year",
+  "condition": "",
+  "note": [
+   "clinical studies in Finland will utilize an accelerator neutron source"
+  ],
+  "raw": "beginning some time in 2022"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:101:21-26",
+  "value": true,
+  "object": "neutron capture therapy",
+  "quantity": "first_clinical_trial_year",
+  "condition": "",
+  "note": [],
+  "raw": "1950s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:101:509-514",
+  "value": true,
+  "object": "BNCT clinical trials in the United States",
+  "quantity": "resumption_year",
+  "condition": "",
+  "note": [],
+  "raw": "until the 1990s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:103:140-144",
+  "value": true,
+  "object": "hatanaka bnct trials",
+  "quantity": "trial_start_year",
+  "condition": "",
+  "note": [],
+  "raw": "in Japan in 1967"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:103:601-609",
+  "value": true,
+  "object": "hatanaka bnct trials",
+  "quantity": "time_from_infusion_to_irradiation",
+  "condition": "",
+  "note": [],
+  "raw": "Twelve to 14 hours"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:105:14-17",
+  "value": true,
+  "object": "hatanaka bnct trials",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [],
+  "raw": "Approximately 200+ patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:109:9-13",
+  "value": false,
+  "reason": "소제목에 붙은 해 표기"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:111:79-84",
+  "value": true,
+  "object": "BNCT clinical trials in the United States",
+  "quantity": "resumption_year",
+  "condition": "",
+  "note": [],
+  "raw": "mid-1990s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:115:360-362",
+  "value": true,
+  "object": "MITR, MIT, US",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [
+   "Harvard-MIT research group"
+  ],
+  "raw": "A total of 22 patients",
+  "uncertain": true,
+  "uncertain_reason": "하버드-MIT 연구진이 치료한 22명은 피부 흑색종 환자를 포함해 표 2의 MITR 행(20명, 신경아교종)과 같은 시험인지 불분명"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:119:12-16",
+  "value": false,
+  "reason": "소제목에 붙은 해 표기"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:121:132-135",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "delivery_agent_dose",
+  "condition": "",
+  "note": [],
+  "raw": "BPA (500 mg/kg)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:121:184-187",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "delivery_agent_dose",
+  "condition": "",
+  "note": [],
+  "raw": "BSH (100 mg/kg)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:121:230-233",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [],
+  "raw": "over 2 h"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:123:32-34",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [
+   "recurrent high-grade gliomas",
+   "first of their trials"
+  ],
+  "raw": "10 patients",
+  "uncertain": true,
+  "uncertain_reason": "쿄토 대학 연구용 원자로에서 한 첫 시험의 10명이 표 2의 KURRI 행(40명)과 같은 시험인지 불분명"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:123:111-122",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "recurrent high-grade gliomas",
+   "first of their trials"
+  ],
+  "raw": "15.6 months",
+  "uncertain": true,
+  "uncertain_reason": "본문은 mean survival time(MST)이라 적고 표 열은 median survival time이다"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:123:154-161",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "long_term_survivor_years",
+  "condition": "",
+  "note": [
+   "one long-term survivor"
+  ],
+  "raw": ">5 years"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:255-257",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "xray_boost_dose",
+  "condition": "",
+  "note": [
+   "X-ray boost"
+  ],
+  "raw": "20 to 30 Gy"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:261-266",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:125:255-257"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:298-302",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "xray_boost_fraction_dose",
+  "condition": "",
+  "note": [
+   "daily fractions"
+  ],
+  "raw": "2 Gy"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:125:395-406",
+  "value": true,
+  "object": "KURRI, Japan",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "newly diagnosed glioblastomas"
+  ],
+  "raw": "23.5 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:127:12-16",
+  "value": false,
+  "reason": "소제목에 붙은 해 표기"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:138-141",
+  "value": true,
+  "object": "JRR4, Japan",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [],
+  "raw": "over 1 h"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:195-197",
+  "value": false,
+  "reason": "원자로 이름(JRR-4)의 일부"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:323-334",
+  "value": true,
+  "object": "JRR4, Japan",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "overall median survival time"
+  ],
+  "raw": "27.1 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:344-350",
+  "value": false,
+  "reason": "생존율 이름에 붙은 기준 기간(1년 생존율), 양 이름의 일부"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:355-361",
+  "value": false,
+  "reason": "생존율 이름에 붙은 기준 기간(2년 생존율), 양 이름의 일부"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:382-387",
+  "value": true,
+  "object": "JRR4, Japan",
+  "quantity": "survival_rate_1_year",
+  "condition": "",
+  "note": [],
+  "raw": "87.5%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:129:392-397",
+  "value": true,
+  "object": "JRR4, Japan",
+  "quantity": "survival_rate_2_year",
+  "condition": "",
+  "note": [],
+  "raw": "62.5%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:133:12-16",
+  "value": false,
+  "reason": "소제목에 붙은 해 표기"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:135:58-60",
+  "value": true,
+  "object": "high-grade meningioma bnct trial",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [
+   "recurrent high-grade meningiomas"
+  ],
+  "raw": "44 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:29-40",
+  "value": true,
+  "object": "high-grade meningioma bnct trial",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "median OS after BNCT"
+  ],
+  "raw": "29.6 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:45-56",
+  "value": true,
+  "object": "high-grade meningioma bnct trial",
+  "quantity": "median_survival_months_from_diagnosis",
+  "condition": "",
+  "note": [
+   "after diagnosis"
+  ],
+  "raw": "98.4 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:141-143",
+  "value": true,
+  "object": "high-grade meningioma bnct trial",
+  "quantity": "tumor_shrinkage_patients",
+  "condition": "",
+  "note": [],
+  "raw": "35 of 36 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:147-149",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:137:141-143"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:238-249",
+  "value": true,
+  "object": "high-grade meningioma bnct trial",
+  "quantity": "median_progression_free_survival_months",
+  "condition": "",
+  "note": [
+   "median progression-free survival (PFS)"
+  ],
+  "raw": "13.7 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:137:340-345",
+  "value": true,
+  "object": "high-grade meningioma bnct trial",
+  "quantity": "local_recurrence_rate",
+  "condition": "",
+  "note": [],
+  "raw": "22.2%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:139:6-7",
+  "value": false,
+  "reason": "표 번호(Table 2)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:111-112",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Radiation Oncology 7:146–167, 2012)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:113-116",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Radiation Oncology 7:146–167, 2012)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:117-120",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Radiation Oncology 7:146–167, 2012)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:151:122-126",
+  "value": false,
+  "reason": "참고 문헌 인용 안의 숫자(Radiation Oncology 7:146–167, 2012)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:376-379",
+  "value": true,
+  "object": "FiR1, Finland",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [
+   "recurrent malignant gliomas (glioblastomas) and head and neck cancer"
+  ],
+  "raw": "approximately 200+ patients",
+  "uncertain": true,
+  "uncertain_reason": "헬싱키 대학 병원·VTT 시설의 신경아교종과 두경부암 환자를 합한 수라 표 2의 FiR1 행(50명, 신경아교종)과 같은 범위인지 불분명"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:672-680",
+  "value": true,
+  "object": "FiR1, Finland",
+  "quantity": "median_time_to_progression_months",
+  "condition": "",
+  "note": [
+   "patients with gliomas"
+  ],
+  "raw": "3 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:707-715",
+  "value": true,
+  "object": "FiR1, Finland",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "overall MeST",
+   "recurrent"
+  ],
+  "raw": "7 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:155:1405-1409",
+  "value": true,
+  "object": "Helsinki University Hospital, Helsinki, Finland",
+  "quantity": "dosimetric_studies_completion_year",
+  "condition": "",
+  "note": [],
+  "raw": "2021"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:549-552",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "delivery_agent_dose",
+  "condition": "",
+  "note": [],
+  "raw": "900 mg/kg"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:590-597",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [],
+  "raw": "over 6 hours"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:745-751",
+  "value": true,
+  "object": "BPA",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [
+   "glioma-bearing rats"
+  ],
+  "raw": "6-hour infusion"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:824-826",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [],
+  "raw": "30 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:891-892",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "irradiation_fields",
+  "condition": "",
+  "note": [],
+  "raw": "2 fields"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:938-941",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "average_whole_brain_dose",
+  "condition": "",
+  "note": [
+   "(weighted)"
+  ],
+  "raw": "3.2–6.1 Gy"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:942-948",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:159:938-941"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1007-1011",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "minimum_tumor_dose",
+  "condition": "",
+  "note": [
+   "(w)"
+  ],
+  "raw": "15.4 to 54.3 Gy"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1015-1022",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:159:1007-1011"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1194-1205",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "Based on incomplete survival data"
+  ],
+  "raw": "14.2 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1244-1254",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "time_to_progression_months",
+  "condition": "",
+  "note": [
+   "time to tumor progression"
+  ],
+  "raw": "5.8 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1347-1358",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "complete survival data"
+  ],
+  "raw": "17.7 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1371-1382",
+  "value": true,
+  "object": "standard therapy for glioblastoma",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ)"
+  ],
+  "raw": "15.5 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1591-1594",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "adverse_event_frequency",
+  "condition": "",
+  "note": [
+   "after BNCT"
+  ],
+  "raw": "14%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1637-1640",
+  "value": true,
+  "object": "radiation therapy alone",
+  "quantity": "adverse_event_frequency",
+  "condition": "",
+  "note": [],
+  "raw": "21%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:159:1802-1808",
+  "value": true,
+  "object": "R2-0, Studsvik Medical AB, Sweden",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [],
+  "raw": "6-hour infusion time"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:57-65",
+  "value": false,
+  "reason": "문서를 쓴 때를 기준으로 한 막연한 기간('지난 15년')"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:741-743",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [],
+  "raw": "26 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:881-882",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [],
+  "raw": "1- or 2-hour"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:887-893",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:165:881-882"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1016-1018",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "complete_regression_cases",
+  "condition": "",
+  "note": [],
+  "raw": "12 cases"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1026-1028",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "partial_regression_cases",
+  "condition": "",
+  "note": [],
+  "raw": "10 partial regressions"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1069-1070",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "progression_cases",
+  "condition": "",
+  "note": [],
+  "raw": "3 cases"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1090-1101",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "The MST"
+  ],
+  "raw": "13.6 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1111-1117",
+  "value": false,
+  "reason": "생존율 이름에 붙은 기준 기간(6년 생존율), 양 이름의 일부"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:165:1131-1134",
+  "value": true,
+  "object": "kato head and neck series",
+  "quantity": "survival_rate_6_year",
+  "condition": "",
+  "note": [],
+  "raw": "24%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:85-87",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [],
+  "raw": "30 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:269-272",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "delivery_agent_dose",
+  "condition": "",
+  "note": [],
+  "raw": "BPA (400 mg/kg)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:304-311",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "infusion_duration",
+  "condition": "",
+  "note": [],
+  "raw": "over 2 hours"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:349-351",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "evaluated_patients",
+  "condition": "",
+  "note": [],
+  "raw": "29 evaluated patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:383-385",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "complete_remissions",
+  "condition": "",
+  "note": [],
+  "raw": "13 complete"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:399-400",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "partial_remissions",
+  "condition": "",
+  "note": [],
+  "raw": "9 partial remissions"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:454-457",
+  "value": true,
+  "object": "kankaanranta head and neck trial",
+  "quantity": "overall_response_rate",
+  "condition": "",
+  "note": [],
+  "raw": "76%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1211-1215",
+  "value": true,
+  "object": "Helsinki University Hospital, Helsinki, Finland",
+  "quantity": "fully_functional_year",
+  "condition": "",
+  "note": [],
+  "raw": "by 2022"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1339-1341",
+  "value": true,
+  "object": "taipei head and neck trial",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [],
+  "raw": "17 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1506-1509",
+  "value": true,
+  "object": "taipei head and neck trial",
+  "quantity": "survival_rate_2_year",
+  "condition": "",
+  "note": [
+   "Two-year overall survival"
+  ],
+  "raw": "47%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:167:1550-1553",
+  "value": true,
+  "object": "taipei head and neck trial",
+  "quantity": "loco_regional_control_rate_2_year",
+  "condition": "",
+  "note": [
+   "two-year loco-regional control"
+  ],
+  "raw": "28%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:173:923-935",
+  "value": true,
+  "object": "argentina melanoma bnct trial",
+  "quantity": "first_trial_date",
+  "condition": "",
+  "note": [],
+  "raw": "October 2003"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:173:1429-1431",
+  "value": true,
+  "object": "IHNI, Beijing",
+  "quantity": "follow_up_months",
+  "condition": "",
+  "note": [],
+  "raw": "24+-month"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:177:171-175",
+  "value": true,
+  "object": "extracorporeal bnct first patient",
+  "quantity": "treatment_year",
+  "condition": "",
+  "note": [],
+  "raw": "treated in 2001"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:177:465-472",
+  "value": true,
+  "object": "extracorporeal bnct first patient",
+  "quantity": "survival_years",
+  "condition": "",
+  "note": [],
+  "raw": "over 4 years"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:152-157",
+  "value": true,
+  "object": "accelerator neutron sources for BNCT",
+  "quantity": "first_publication_year",
+  "condition": "",
+  "note": [],
+  "raw": "1980s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:255-260",
+  "value": true,
+  "object": "accelerator neutron sources for BNCT",
+  "quantity": "active_research_start_year",
+  "condition": "",
+  "note": [],
+  "raw": "early 2000s"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:321-325",
+  "value": true,
+  "object": "fukushima nuclear accident",
+  "quantity": "occurrence_year",
+  "condition": "",
+  "note": [],
+  "raw": "in 2011"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:825-828",
+  "value": true,
+  "object": "Li-7(p,n)Be-7 reaction",
+  "quantity": "proton_accelerator_energy",
+  "condition": "",
+  "note": [],
+  "raw": "between 1.9 and 3.0 MeV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:833-840",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:181:825-828"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:923-924",
+  "value": true,
+  "object": "Be-9(p,n)B-9 reaction",
+  "quantity": "proton_accelerator_energy",
+  "condition": "",
+  "note": [],
+  "raw": "between 5 and 30 MeV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:181:929-935",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:181:923-924"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:53-55",
+  "value": true,
+  "object": "proton beams for BNCT",
+  "quantity": "proton_beam_power",
+  "condition": "",
+  "note": [],
+  "raw": "~20-100 kW"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:56-62",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:183:53-55"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:998-1004",
+  "value": true,
+  "object": "neutrons from accelerator nuclear reactions",
+  "quantity": "neutron_energy_range",
+  "condition": "",
+  "note": [],
+  "raw": "< 100keV"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:183:1915-1922",
+  "value": false,
+  "reason": "하루를 뜻하는 기간 표현('24시간 동안')"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:185:106-110",
+  "value": false,
+  "reason": "표를 갱신한 시점(updated November, 2024)"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:428-430",
+  "value": true,
+  "object": "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [
+   "Phase II clinical trial",
+   "recurrent glioblastomas"
+  ],
+  "raw": "a total of 24 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:475-477",
+  "value": true,
+  "object": "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan",
+  "quantity": "patient_age_range",
+  "condition": "",
+  "note": [],
+  "raw": "20 to 75 years"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:481-489",
+  "value": true,
+  "part_of": "wiki-en-neutron-capture-therapy:208:475-477"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:988-994",
+  "value": false,
+  "reason": "생존율 이름에 붙은 기준 기간(1년 생존율), 양 이름의 일부"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:1031-1036",
+  "value": true,
+  "object": "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan",
+  "quantity": "survival_rate_1_year",
+  "condition": "",
+  "note": [],
+  "raw": "79.2%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:208:1079-1090",
+  "value": true,
+  "object": "Kansai BNCT Research Center, Osaka Medical and Pharmaceutical University, Takatsuki, Osaka, Japan",
+  "quantity": "median_survival_months",
+  "condition": "",
+  "note": [
+   "median overall survival rate"
+  ],
+  "raw": "18.9 months"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:144-146",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "patients_and_trial_years",
+  "condition": "",
+  "note": [
+   "recurrent tumors of the head and neck region"
+  ],
+  "raw": "21 patients"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:367-369",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "non_squamous_cell_carcinoma_patients",
+  "condition": "",
+  "note": [],
+  "raw": "13 had either recurrent (R) or locally advanced (LA) non-squamous-cell carcinomas"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:487-490",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "overall_response_rate",
+  "condition": "",
+  "note": [],
+  "raw": "71%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:550-553",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "complete_response_rate",
+  "condition": "",
+  "note": [
+   "for patients with R-SCC"
+  ],
+  "raw": "50%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:558-561",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "partial_response_rate",
+  "condition": "",
+  "note": [
+   "for patients with R-SCC"
+  ],
+  "raw": "25%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:605-608",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "complete_response_rate",
+  "condition": "",
+  "note": [
+   "for those with R or LA SCC"
+  ],
+  "raw": "80%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:613-616",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "partial_response_rate",
+  "condition": "",
+  "note": [
+   "for those with R or LA SCC"
+  ],
+  "raw": "62%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:672-678",
+  "value": false,
+  "reason": "생존율 이름에 붙은 기준 기간(2년 생존율), 양 이름의 일부"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:736-739",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "survival_rate_2_year",
+  "condition": "",
+  "note": [
+   "R-SCC"
+  ],
+  "raw": "58%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:212:744-748",
+  "value": true,
+  "object": "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan",
+  "quantity": "survival_rate_2_year",
+  "condition": "",
+  "note": [
+   "R/LA nSCC"
+  ],
+  "raw": "100%"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:218:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:219:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:220:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:221:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ },
+ {
+  "id": "wiki-en-neutron-capture-therapy:222:0-1",
+  "value": false,
+  "reason": "목록 번호"
+ }
+]

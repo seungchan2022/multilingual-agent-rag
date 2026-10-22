@@ -1,0 +1,53 @@
+[
+ {
+  "id": "wiki-ko-isotopes-of-yttrium:3:25-26",
+  "value": true,
+  "object": "Y",
+  "quantity": "number_of_stable_isotopes",
+  "condition": "",
+  "note": [
+   "자연계에 존재하는"
+  ],
+  "raw": "1종"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-yttrium:3:36-40",
+  "value": true,
+  "object": "Y-89",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [],
+  "raw": "100%"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-yttrium:5:47-54",
+  "value": true,
+  "object": "Y-88",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "가장 길다"
+  ],
+  "raw": "106.62일"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-yttrium:5:96-104",
+  "value": true,
+  "object": "Y-90",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [],
+  "raw": "64.053시간"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-yttrium:5:118-123",
+  "value": true,
+  "object": "Y-91",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "핵분열 생성물들 중 반감기가 가장 길다"
+  ],
+  "raw": "58.5일"
+ }
+]

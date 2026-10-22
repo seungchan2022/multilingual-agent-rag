@@ -1,0 +1,872 @@
+[
+ {
+  "id": "wiki-en-dysprosium:75:69-71",
+  "value": true,
+  "object": "Dy",
+  "quantity": "atomic_number",
+  "condition": "",
+  "note": [],
+  "raw": "66"
+ },
+ {
+  "id": "wiki-en-dysprosium:77:35-39",
+  "value": true,
+  "object": "Dy",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "first identified by Paul Émile Lecoq de Boisbaudran"
+  ],
+  "raw": "1886"
+ },
+ {
+  "id": "wiki-en-dysprosium:77:169-174",
+  "value": true,
+  "object": "Dy",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "not isolated in pure form until the development of ion-exchange techniques"
+  ],
+  "raw": "1950s"
+ },
+ {
+  "id": "wiki-en-dysprosium:77:488-497",
+  "value": true,
+  "object": "Dy",
+  "quantity": "volume_magnetic_susceptibility",
+  "condition": "",
+  "note": [
+   "χv"
+  ],
+  "raw": "≈ 5.44×10⁻³"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:202-208",
+  "value": true,
+  "object": "Dy",
+  "quantity": "curie_temperature",
+  "condition": "",
+  "note": [
+   "below which simple ferromagnetic ordering"
+  ],
+  "raw": "90.5 K (−182.7 °C)"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:210-219",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:85:202-208"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:642-647",
+  "value": true,
+  "object": "Dy",
+  "quantity": "neel_temperature",
+  "condition": "",
+  "note": [
+   "helical antiferromagnetic state transforms into a disordered (paramagnetic) state"
+  ],
+  "raw": "179 K (−94 °C)"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:649-655",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:85:642-647"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:727-734",
+  "value": true,
+  "object": "Dy",
+  "quantity": "hcp_to_bcc_transition_temperature",
+  "condition": "",
+  "note": [
+   "transforms from the hcp phase to the body-centered cubic phase"
+  ],
+  "raw": "1,654 K (1,381 °C)"
+ },
+ {
+  "id": "wiki-en-dysprosium:85:736-744",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:85:727-734"
+ },
+ {
+  "id": "wiki-en-dysprosium:91:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:91:7-8",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:91:14-15",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:10-11",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:21-22",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:29-30",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:95:37-38",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:99:66-72",
+  "value": true,
+  "object": "Dy",
+  "quantity": "halogen_reaction_temperature",
+  "condition": "",
+  "note": [
+   "vigorously reacts with all the halogens"
+  ],
+  "raw": "above 200 °C"
+ },
+ {
+  "id": "wiki-en-dysprosium:101:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:101:10-11",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:101:20-21",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:102:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:102:10-11",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:102:21-22",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:103:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:103:10-11",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:103:21-22",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:104:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:104:10-11",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:104:20-21",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:106:132-133",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:10-11",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:24-25",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:37-38",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:108:51-52",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:116:136-138",
+  "value": true,
+  "object": "Dy",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "in binary compounds with various non-metals at high temperatures"
+  ],
+  "raw": "+3"
+ },
+ {
+  "id": "wiki-en-dysprosium:116:153-155",
+  "value": true,
+  "object": "Dy",
+  "quantity": "oxidation_states",
+  "condition": "",
+  "note": [
+   "sometimes",
+   "in binary compounds with various non-metals at high temperatures"
+  ],
+  "raw": "+2"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:30-31",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:65-66",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:197-198",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:250-251",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:344-345",
+  "value": false,
+  "reason": "화학식의 일부(수화물 물 분자 수 2-3, Dy2(CO3)3·2-3H2O)"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:346-347",
+  "value": false,
+  "reason": "화학식의 일부(수화물 물 분자 수 2-3, Dy2(CO3)3·2-3H2O)"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:553-554",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:641-643",
+  "value": true,
+  "object": "Dy2(CO3)3·4H2O",
+  "quantity": "nanoparticle_diameter",
+  "condition": "",
+  "note": [
+   "amorphous precursor",
+   "highly hydrated spherical nanoparticles"
+  ],
+  "raw": "10–20 nm"
+ },
+ {
+  "id": "wiki-en-dysprosium:118:644-649",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:118:641-643"
+ },
+ {
+  "id": "wiki-en-dysprosium:124:318-321",
+  "value": true,
+  "object": "Dy-164",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "the most abundant of the naturally occurring isotopes"
+  ],
+  "raw": "28%"
+ },
+ {
+  "id": "wiki-en-dysprosium:124:344-347",
+  "value": true,
+  "object": "Dy-162",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "followed by"
+  ],
+  "raw": "26%"
+ },
+ {
+  "id": "wiki-en-dysprosium:124:372-377",
+  "value": true,
+  "object": "Dy-156",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [
+   "the rarest"
+  ],
+  "raw": "0.06%"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:77-80",
+  "value": true,
+  "object": "Dy",
+  "quantity": "radioisotope_mass_number_range",
+  "condition": "",
+  "note": [
+   "Twenty-nine radioisotopes have been synthesized"
+  ],
+  "raw": "138 to 173"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:84-87",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:126:77-80"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:144-158",
+  "value": true,
+  "object": "Dy-154",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "the most stable of the radioisotopes"
+  ],
+  "raw": "1.40×10⁶ years"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:198-208",
+  "value": true,
+  "object": "Dy-159",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "followed by"
+  ],
+  "raw": "144.4 days"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:486-488",
+  "value": true,
+  "object": "Dy",
+  "quantity": "number_of_metastable_isomers",
+  "condition": "",
+  "note": [],
+  "raw": "at least 11"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:537-540",
+  "value": true,
+  "object": "Dy",
+  "quantity": "metastable_isomer_mass_number_range",
+  "condition": "",
+  "note": [
+   "ranging in atomic mass"
+  ],
+  "raw": "140 to 165"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:544-547",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:126:537-540"
+ },
+ {
+  "id": "wiki-en-dysprosium:126:610-623",
+  "value": true,
+  "object": "Dy-165m",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "the most stable of the metastable isomers"
+  ],
+  "raw": "1.257 minutes"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:3-7",
+  "value": true,
+  "object": "erbium ores",
+  "quantity": "holmium_thulium_oxides_found_year",
+  "condition": "",
+  "note": [
+   "erbium ores were found to contain the oxides of holmium and thulium"
+  ],
+  "raw": "1878"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:207-211",
+  "value": true,
+  "object": "Dy",
+  "quantity": "discovery",
+  "condition": "",
+  "note": [
+   "separated dysprosium oxide from holmium oxide in Paris"
+  ],
+  "raw": "1886"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:422-424",
+  "value": true,
+  "object": "Dy",
+  "quantity": "isolation_attempts",
+  "condition": "",
+  "note": [
+   "only able to isolate dysprosium from its oxide"
+  ],
+  "raw": "more than 30 attempts"
+ },
+ {
+  "id": "wiki-en-dysprosium:130:728-733",
+  "value": true,
+  "object": "Dy",
+  "quantity": "first_isolation",
+  "condition": "",
+  "note": [
+   "isolated in relatively pure form after the development of ion exchange techniques by Frank Spedding"
+  ],
+  "raw": "early 1950s"
+ },
+ {
+  "id": "wiki-en-dysprosium:134:3-7",
+  "value": true,
+  "object": "Dy",
+  "quantity": "bose_einstein_condensate_year",
+  "condition": "",
+  "note": [
+   "a Bose-Einstein condensate of Dy atoms was obtained for the first time"
+  ],
+  "raw": "2011"
+ },
+ {
+  "id": "wiki-en-dysprosium:136:3-7",
+  "value": true,
+  "object": "Dy",
+  "quantity": "supersolid_quantum_gas_year",
+  "condition": "",
+  "note": [
+   "Dy was turned into a 2-dimensional supersolid quantum gas"
+  ],
+  "raw": "2021"
+ },
+ {
+  "id": "wiki-en-dysprosium:136:30-31",
+  "value": false,
+  "reason": "'2차원'이라는 형용 표현의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:142:124-125",
+  "value": true,
+  "object": "Dy",
+  "quantity": "concentrate_fraction",
+  "condition": "",
+  "note": [
+   "in the high-yttrium version of these",
+   "of the concentrate"
+  ],
+  "raw": "up to 7–8%"
+ },
+ {
+  "id": "wiki-en-dysprosium:142:126-128",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:142:124-125"
+ },
+ {
+  "id": "wiki-en-dysprosium:142:170-173",
+  "value": true,
+  "object": "Y",
+  "quantity": "concentrate_fraction",
+  "condition": "",
+  "note": [
+   "in the high-yttrium version of these",
+   "of the concentrate"
+  ],
+  "raw": "about 65%"
+ },
+ {
+  "id": "wiki-en-dysprosium:142:242-245",
+  "value": true,
+  "object": "Dy",
+  "quantity": "crustal_abundance",
+  "condition": "",
+  "note": [
+   "in the Earth's crust"
+  ],
+  "raw": "about 5.2 mg/kg"
+ },
+ {
+  "id": "wiki-en-dysprosium:142:269-272",
+  "value": true,
+  "object": "Dy",
+  "quantity": "seawater_concentration",
+  "condition": "",
+  "note": [
+   "in sea water"
+  ],
+  "raw": "0.9 ng/L"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:7-8",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:16-17",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:148:23-24",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:149:0-1",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:149:20-21",
+  "value": false,
+  "reason": "반응식의 계수 (반응식의 일부)"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:6-17",
+  "value": true,
+  "object": "Dy",
+  "quantity": "annual_production",
+  "condition": "",
+  "note": [
+   "worldwide",
+   "in 2021"
+  ],
+  "raw": "About 3100 tonnes"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:59-63",
+  "value": false,
+  "reason": "3100 tonnes의 해(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:70-73",
+  "value": true,
+  "object": "Dy",
+  "quantity": "production_share",
+  "condition": "",
+  "note": [
+   "of that total produced in China",
+   "in 2021"
+  ],
+  "raw": "40%"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:107-110",
+  "value": true,
+  "object": "Dy",
+  "quantity": "production_share",
+  "condition": "",
+  "note": [
+   "of that total produced in Myanmar",
+   "in 2021"
+  ],
+  "raw": "31%"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:127-130",
+  "value": true,
+  "object": "Dy",
+  "quantity": "production_share",
+  "condition": "",
+  "note": [
+   "of that total produced in Australia",
+   "in 2021"
+  ],
+  "raw": "20%"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:193-194",
+  "value": true,
+  "object": "Dy",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in 2003"
+  ],
+  "raw": "$7 per pound"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:208-212",
+  "value": false,
+  "reason": "$7 per pound 값의 해(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:218-221",
+  "value": true,
+  "object": "Dy",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in late 2010"
+  ],
+  "raw": "$130 a pound"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:238-242",
+  "value": false,
+  "reason": "$130 a pound 값의 해(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:248-253",
+  "value": true,
+  "object": "Dy",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in 2011"
+  ],
+  "raw": "$1,400/kg"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:260-264",
+  "value": false,
+  "reason": "$1,400/kg 값의 해(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:286-289",
+  "value": true,
+  "object": "Dy",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "in 2015",
+   "falling"
+  ],
+  "raw": "$240/kg"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:296-300",
+  "value": false,
+  "reason": "$240/kg 값의 해(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:395-405",
+  "value": false,
+  "reason": "US$203/kg 값의 기준 시점(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:153:430-433",
+  "value": true,
+  "object": "Dy",
+  "quantity": "price",
+  "condition": "",
+  "note": [
+   "As of April 2025"
+  ],
+  "raw": "around US$203/kg"
+ },
+ {
+  "id": "wiki-en-dysprosium:155:104-117",
+  "value": false,
+  "reason": "50 tonnes 값의 기준 시점(조건)이며 그 값의 note에 적음"
+ },
+ {
+  "id": "wiki-en-dysprosium:155:156-162",
+  "value": true,
+  "object": "Browns Range Project pilot plant",
+  "quantity": "distance_from_halls_creek",
+  "condition": "",
+  "note": [
+   "south east of Halls Creek, Western Australia"
+  ],
+  "raw": "160 km"
+ },
+ {
+  "id": "wiki-en-dysprosium:155:222-231",
+  "value": true,
+  "object": "Browns Range Project pilot plant",
+  "quantity": "annual_production",
+  "condition": "",
+  "note": [
+   "As of November 2018"
+  ],
+  "raw": "50 tonnes (49 long tons) per annum"
+ },
+ {
+  "id": "wiki-en-dysprosium:155:233-235",
+  "value": true,
+  "part_of": "wiki-en-dysprosium:155:222-231"
+ },
+ {
+  "id": "wiki-en-dysprosium:157:341-345",
+  "value": true,
+  "object": "Dy",
+  "quantity": "projected_shortfall_year",
+  "condition": "",
+  "note": [
+   "even their most conservative projections predicted a shortfall of dysprosium"
+  ],
+  "raw": "before 2015"
+ },
+ {
+  "id": "wiki-en-dysprosium:157:353-365",
+  "value": false,
+  "reason": "'호주에 희토류 추출 산업이 있다'는 서술의 기준 시점(조건)이며 값이 아님"
+ },
+ {
+  "id": "wiki-en-dysprosium:163:44-46",
+  "value": true,
+  "object": "NdFeB",
+  "quantity": "neodymium_substitution_by_dysprosium",
+  "condition": "",
+  "note": [
+   "of the neodymium substituted by dysprosium",
+   "to raise the coercivity"
+  ],
+  "raw": "up to 6%"
+ },
+ {
+  "id": "wiki-en-dysprosium:163:257-266",
+  "value": true,
+  "object": "electric car",
+  "quantity": "dysprosium_requirement",
+  "condition": "",
+  "note": [
+   "of dysprosium per electric car produced"
+  ],
+  "raw": "up to 100 grams"
+ },
+ {
+  "id": "wiki-en-dysprosium:163:336-345",
+  "value": true,
+  "object": "Toyota",
+  "quantity": "projected_annual_units",
+  "condition": "",
+  "note": [
+   "projected"
+  ],
+  "raw": "2 million units per year"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:263-269",
+  "value": true,
+  "object": "dysprosium oxide fluoride",
+  "quantity": "synthesis_temperature",
+  "condition": "",
+  "note": [
+   "fibers produced by heating an aqueous solution of DyBr3 and NaF"
+  ],
+  "raw": "450 °C"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:273-281",
+  "value": true,
+  "object": "dysprosium oxide fluoride",
+  "quantity": "synthesis_pressure",
+  "condition": "",
+  "note": [
+   "fibers produced by heating an aqueous solution of DyBr3 and NaF"
+  ],
+  "raw": "450 bars"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:286-294",
+  "value": true,
+  "object": "dysprosium oxide fluoride",
+  "quantity": "synthesis_duration",
+  "condition": "",
+  "note": [
+   "fibers produced by heating an aqueous solution of DyBr3 and NaF"
+  ],
+  "raw": "17 hours"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:347-356",
+  "value": true,
+  "object": "dysprosium oxide fluoride",
+  "quantity": "stability_duration",
+  "condition": "",
+  "note": [
+   "surviving in various aqueous solutions without redissolving or aggregating"
+  ],
+  "raw": "over 100 hours"
+ },
+ {
+  "id": "wiki-en-dysprosium:169:412-418",
+  "value": true,
+  "object": "dysprosium oxide fluoride",
+  "quantity": "stability_temperature",
+  "condition": "",
+  "note": [
+   "surviving in various aqueous solutions without redissolving or aggregating"
+  ],
+  "raw": "exceeding 400 °C"
+ },
+ {
+  "id": "wiki-en-dysprosium:183:469-470",
+  "value": false,
+  "reason": "화학식의 일부"
+ },
+ {
+  "id": "wiki-en-dysprosium:185:201-210",
+  "value": true,
+  "object": "DyCl3",
+  "quantity": "estimated_lethal_dose",
+  "condition": "",
+  "note": [
+   "ingestion could be fatal to a human",
+   "based on the toxicity of dysprosium chloride to mice"
+  ],
+  "raw": "500 grams or more"
+ },
+ {
+  "id": "wiki-en-dysprosium:185:265-274",
+  "value": true,
+  "object": "table salt",
+  "quantity": "lethal_dose",
+  "condition": "",
+  "note": [
+   "common table salt",
+   "for a 100 kilogram human"
+  ],
+  "raw": "300 grams"
+ },
+ {
+  "id": "wiki-en-dysprosium:185:302-314",
+  "value": false,
+  "reason": "table salt 치사량 300 grams의 조건(사람 체중)이며 그 값의 note에 적음"
+ }
+]

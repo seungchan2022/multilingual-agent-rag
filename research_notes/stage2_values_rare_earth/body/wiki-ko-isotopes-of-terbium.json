@@ -1,0 +1,55 @@
+[
+ {
+  "id": "wiki-ko-isotopes-of-terbium:3:28-29",
+  "value": true,
+  "object": "Tb",
+  "quantity": "number_of_natural_isotopes",
+  "condition": "",
+  "note": [
+   "자연계에 존재하는"
+  ],
+  "raw": "1종"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-terbium:3:40-44",
+  "value": true,
+  "object": "Tb-159",
+  "quantity": "natural_abundance",
+  "condition": "",
+  "note": [],
+  "raw": "100%"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-terbium:3:90-94",
+  "value": true,
+  "object": "Tb-161",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "자연계에 미량 존재"
+  ],
+  "raw": "6.9일"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-terbium:5:54-57",
+  "value": true,
+  "object": "Tb-157",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "인공 동위 원소들 중 반감기가 가장 길다"
+  ],
+  "raw": "71년"
+ },
+ {
+  "id": "wiki-ko-isotopes-of-terbium:5:65-69",
+  "value": true,
+  "object": "Tb-158",
+  "quantity": "half_life",
+  "condition": "",
+  "note": [
+   "인공 동위 원소들 중 반감기가 가장 길다"
+  ],
+  "raw": "180년"
+ }
+]
