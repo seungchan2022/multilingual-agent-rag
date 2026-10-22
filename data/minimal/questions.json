@@ -1,0 +1,1134 @@
+[
+  {
+    "id": "q01-ko",
+    "lang": "ko",
+    "pair_id": "q01-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-01"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 유로퓸 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.31464 kg",
+    "value": 0.31464,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-europium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 5.246 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-europium",
+        "language": "en",
+        "line": 80,
+        "text": "Europium is a soft, silvery-white, ductile rare-earth metal. Its hardness is similar to that of lead. At room temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (1,095 K).",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": null
+  },
+  {
+    "id": "q01-en",
+    "lang": "en",
+    "pair_id": "q01-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-01"
+    },
+    "question": "What is the mass in kg of a europium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.31464 kg",
+    "value": 0.31464,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-europium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 5.246 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-europium",
+        "language": "en",
+        "line": 80,
+        "text": "Europium is a soft, silvery-white, ductile rare-earth metal. Its hardness is similar to that of lead. At room temperature it has a density of about 5.24 g/cm³ and a melting point of 822 °C (1,095 K).",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": false
+  },
+  {
+    "id": "q02-ko",
+    "lang": "ko",
+    "pair_id": "q02-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-02"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 루테튬 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.59046 kg",
+    "value": 0.59046,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-lutetium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 9.841 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-lutetium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 9.840 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-ko-ytterbium",
+        "language": "ko",
+        "line": 83,
+        "text": "조밀육방격자를 가지는 대부분의 란타넘족 원소들과 달리 이터븀은 면심입방격자 구조를 갖는다. 이터븀의 밀도는 6.973 g/cm^(3)로 이웃한 툴륨 (9.32 g/cm^(3))과 루테튬 (9.841 g/cm^(3))에 비해 상당히 낮다. 밀도 뿐만 아니라 녹는점과 끓는점도 이들에 비해 상당히 낮다. 이는 이터븀의 채워진 전자 배치([Xe] 4f¹⁴ 6s²)와 관련이 있는데 이터븀은 두개의 6s전자로 금속결합이 가능하고 (다른 란타넘족들은 3개로 가능하다)이는 최종적으로 이터븀의 금속성 반지름을 증가시킨다.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-ytterbium",
+        "language": "en",
+        "line": 92,
+        "text": "Contrary to most other lanthanides, which have a close-packed hexagonal lattice, ytterbium crystallizes in the face-centered cubic system. Ytterbium has a density of 6.973 g/cm³, which is significantly lower than those of the neighboring lanthanides, thulium (9.32 g/cm³) and lutetium (9.841 g/cm³). Its melting and boiling points are also significantly lower than those of thulium and lutetium. This is due to the closed-shell electron configuration of ytterbium ([Xe] 4f¹⁴ 6s²), which causes only the two 6s electrons to be available for metallic bonding (in contrast to the other lanthanides where three electrons are available) and increases ytterbium's metallic radius.",
+        "table_header_line": null
+      }
+    ],
+    "branch": "두 언어",
+    "one_language_basis": null,
+    "translation_checked": null
+  },
+  {
+    "id": "q02-en",
+    "lang": "en",
+    "pair_id": "q02-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-02"
+    },
+    "question": "What is the mass in kg of a lutetium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.59046 kg",
+    "value": 0.59046,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-lutetium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 9.841 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-lutetium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 9.840 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-ko-ytterbium",
+        "language": "ko",
+        "line": 83,
+        "text": "조밀육방격자를 가지는 대부분의 란타넘족 원소들과 달리 이터븀은 면심입방격자 구조를 갖는다. 이터븀의 밀도는 6.973 g/cm^(3)로 이웃한 툴륨 (9.32 g/cm^(3))과 루테튬 (9.841 g/cm^(3))에 비해 상당히 낮다. 밀도 뿐만 아니라 녹는점과 끓는점도 이들에 비해 상당히 낮다. 이는 이터븀의 채워진 전자 배치([Xe] 4f¹⁴ 6s²)와 관련이 있는데 이터븀은 두개의 6s전자로 금속결합이 가능하고 (다른 란타넘족들은 3개로 가능하다)이는 최종적으로 이터븀의 금속성 반지름을 증가시킨다.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-ytterbium",
+        "language": "en",
+        "line": 92,
+        "text": "Contrary to most other lanthanides, which have a close-packed hexagonal lattice, ytterbium crystallizes in the face-centered cubic system. Ytterbium has a density of 6.973 g/cm³, which is significantly lower than those of the neighboring lanthanides, thulium (9.32 g/cm³) and lutetium (9.841 g/cm³). Its melting and boiling points are also significantly lower than those of thulium and lutetium. This is due to the closed-shell electron configuration of ytterbium ([Xe] 4f¹⁴ 6s²), which causes only the two 6s electrons to be available for metallic bonding (in contrast to the other lanthanides where three electrons are available) and increases ytterbium's metallic radius.",
+        "table_header_line": null
+      }
+    ],
+    "branch": "두 언어",
+    "one_language_basis": null,
+    "translation_checked": false
+  },
+  {
+    "id": "q03-ko",
+    "lang": "ko",
+    "pair_id": "q03-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-04"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 이트륨 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.26832 kg",
+    "value": 0.26832,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-yttrium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 4.472 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": null
+  },
+  {
+    "id": "q03-en",
+    "lang": "en",
+    "pair_id": "q03-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-04"
+    },
+    "question": "What is the mass in kg of a yttrium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.26832 kg",
+    "value": 0.26832,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-yttrium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 4.472 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": false
+  },
+  {
+    "id": "q04-ko",
+    "lang": "ko",
+    "pair_id": "q04-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-05"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 툴륨 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.5592 kg",
+    "value": 0.5592,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-thulium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 9.32 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-thulium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 9.320 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-ko-ytterbium",
+        "language": "ko",
+        "line": 83,
+        "text": "조밀육방격자를 가지는 대부분의 란타넘족 원소들과 달리 이터븀은 면심입방격자 구조를 갖는다. 이터븀의 밀도는 6.973 g/cm^(3)로 이웃한 툴륨 (9.32 g/cm^(3))과 루테튬 (9.841 g/cm^(3))에 비해 상당히 낮다. 밀도 뿐만 아니라 녹는점과 끓는점도 이들에 비해 상당히 낮다. 이는 이터븀의 채워진 전자 배치([Xe] 4f¹⁴ 6s²)와 관련이 있는데 이터븀은 두개의 6s전자로 금속결합이 가능하고 (다른 란타넘족들은 3개로 가능하다)이는 최종적으로 이터븀의 금속성 반지름을 증가시킨다.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-ytterbium",
+        "language": "en",
+        "line": 92,
+        "text": "Contrary to most other lanthanides, which have a close-packed hexagonal lattice, ytterbium crystallizes in the face-centered cubic system. Ytterbium has a density of 6.973 g/cm³, which is significantly lower than those of the neighboring lanthanides, thulium (9.32 g/cm³) and lutetium (9.841 g/cm³). Its melting and boiling points are also significantly lower than those of thulium and lutetium. This is due to the closed-shell electron configuration of ytterbium ([Xe] 4f¹⁴ 6s²), which causes only the two 6s electrons to be available for metallic bonding (in contrast to the other lanthanides where three electrons are available) and increases ytterbium's metallic radius.",
+        "table_header_line": null
+      }
+    ],
+    "branch": "두 언어",
+    "one_language_basis": null,
+    "translation_checked": null
+  },
+  {
+    "id": "q04-en",
+    "lang": "en",
+    "pair_id": "q04-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-05"
+    },
+    "question": "What is the mass in kg of a thulium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.5592 kg",
+    "value": 0.5592,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-thulium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 9.32 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-thulium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 9.320 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-ko-ytterbium",
+        "language": "ko",
+        "line": 83,
+        "text": "조밀육방격자를 가지는 대부분의 란타넘족 원소들과 달리 이터븀은 면심입방격자 구조를 갖는다. 이터븀의 밀도는 6.973 g/cm^(3)로 이웃한 툴륨 (9.32 g/cm^(3))과 루테튬 (9.841 g/cm^(3))에 비해 상당히 낮다. 밀도 뿐만 아니라 녹는점과 끓는점도 이들에 비해 상당히 낮다. 이는 이터븀의 채워진 전자 배치([Xe] 4f¹⁴ 6s²)와 관련이 있는데 이터븀은 두개의 6s전자로 금속결합이 가능하고 (다른 란타넘족들은 3개로 가능하다)이는 최종적으로 이터븀의 금속성 반지름을 증가시킨다.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-ytterbium",
+        "language": "en",
+        "line": 92,
+        "text": "Contrary to most other lanthanides, which have a close-packed hexagonal lattice, ytterbium crystallizes in the face-centered cubic system. Ytterbium has a density of 6.973 g/cm³, which is significantly lower than those of the neighboring lanthanides, thulium (9.32 g/cm³) and lutetium (9.841 g/cm³). Its melting and boiling points are also significantly lower than those of thulium and lutetium. This is due to the closed-shell electron configuration of ytterbium ([Xe] 4f¹⁴ 6s²), which causes only the two 6s electrons to be available for metallic bonding (in contrast to the other lanthanides where three electrons are available) and increases ytterbium's metallic radius.",
+        "table_header_line": null
+      }
+    ],
+    "branch": "두 언어",
+    "one_language_basis": null,
+    "translation_checked": false
+  },
+  {
+    "id": "q05-ko",
+    "lang": "ko",
+    "pair_id": "q05-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-06"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 디스프로슘 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.5124 kg",
+    "value": 0.5124,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-dysprosium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 8.540 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-dysprosium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 8.550 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "두 언어",
+    "one_language_basis": null,
+    "translation_checked": null
+  },
+  {
+    "id": "q05-en",
+    "lang": "en",
+    "pair_id": "q05-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-06"
+    },
+    "question": "What is the mass in kg of a dysprosium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.5124 kg",
+    "value": 0.5124,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-dysprosium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 8.540 g/cm³",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-dysprosium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 8.550 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "두 언어",
+    "one_language_basis": null,
+    "translation_checked": false
+  },
+  {
+    "id": "q06-ko",
+    "lang": "ko",
+    "pair_id": "q06-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-07"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 프라세오디뮴 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.4062 kg",
+    "value": 0.4062,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-praseodymium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 6.773 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": null
+  },
+  {
+    "id": "q06-en",
+    "lang": "en",
+    "pair_id": "q06-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-07"
+    },
+    "question": "What is the mass in kg of a praseodymium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.4062 kg",
+    "value": 0.4062,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-praseodymium",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 6.773 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": false
+  },
+  {
+    "id": "q07-ko",
+    "lang": "ko",
+    "pair_id": "q07-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-08"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 사마륨 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.4512 kg",
+    "value": 0.4512,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-samarium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 7.52 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": null
+  },
+  {
+    "id": "q07-en",
+    "lang": "en",
+    "pair_id": "q07-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-08"
+    },
+    "question": "What is the mass in kg of a samarium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.4512 kg",
+    "value": 0.4512,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-samarium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 7.52 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": false
+  },
+  {
+    "id": "q08-ko",
+    "lang": "ko",
+    "pair_id": "q08-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-09"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 란타넘 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.36972 kg",
+    "value": 0.36972,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-lanthanum",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 6.145 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": null
+  },
+  {
+    "id": "q08-en",
+    "lang": "en",
+    "pair_id": "q08-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-09"
+    },
+    "question": "What is the mass in kg of a lanthanum rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.36972 kg",
+    "value": 0.36972,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-lanthanum",
+        "language": "en",
+        "line": 19,
+        "text": "  - Density (at 20° C): 6.145 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": false
+  },
+  {
+    "id": "q09-ko",
+    "lang": "ko",
+    "pair_id": "q09-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-10"
+    },
+    "question": "가로 3 cm, 세로 4 cm, 높이 5 cm인 어븀 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다)",
+    "answer": "0.54396 kg",
+    "value": 0.54396,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-erbium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 9.066 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": null
+  },
+  {
+    "id": "q09-en",
+    "lang": "en",
+    "pair_id": "q09-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/round2/rare_earth/questions.json",
+      "id": "re-10"
+    },
+    "question": "What is the mass in kg of a erbium rectangular cuboid that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)",
+    "answer": "0.54396 kg",
+    "value": 0.54396,
+    "unit": "kg",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-erbium",
+        "language": "ko",
+        "line": 19,
+        "text": "  - 밀도 (상온 근처): 9.066 g/cm³",
+        "table_header_line": null
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "코퍼스를 꾸릴 때 그 원소의 다른 언어 문서를 넣지 않음. 원문 대조는 하지 않음(원래 두 언어 위키백과에 다 있는 값)",
+    "translation_checked": false
+  },
+  {
+    "id": "q10-ko",
+    "lang": "ko",
+    "pair_id": "q10-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-038"
+    },
+    "question": "터븀의 핵이성질체 ¹⁴²ᵐ²Tb(터븀-142m2)의 들뜬 에너지는 몇 keV인가?",
+    "answer": "621.4 keV",
+    "value": 621.4,
+    "unit": "keV",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 26,
+        "text": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |",
+        "table_header_line": 9
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q10-en",
+    "lang": "en",
+    "pair_id": "q10-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-038"
+    },
+    "question": "What is the excitation energy, in keV, of the terbium nuclear isomer ¹⁴²ᵐ²Tb (terbium-142m2)?",
+    "answer": "621.4 keV",
+    "value": 621.4,
+    "unit": "keV",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 26,
+        "text": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |",
+        "table_header_line": 9
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q11-ko",
+    "lang": "ko",
+    "pair_id": "q11-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-125"
+    },
+    "question": "터븀의 핵이성질체 ¹⁴⁴ᵐ⁴Tb(터븀-144m4)의 들뜬 에너지는 몇 keV인가?",
+    "answer": "544.5 keV",
+    "value": 544.5,
+    "unit": "keV",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 36,
+        "text": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |",
+        "table_header_line": 9
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q11-en",
+    "lang": "en",
+    "pair_id": "q11-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-125"
+    },
+    "question": "What is the excitation energy, in keV, of the terbium nuclear isomer ¹⁴⁴ᵐ⁴Tb (terbium-144m4)?",
+    "answer": "544.5 keV",
+    "value": 544.5,
+    "unit": "keV",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 36,
+        "text": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |",
+        "table_header_line": 9
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q12-ko",
+    "lang": "ko",
+    "pair_id": "q12-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-110"
+    },
+    "question": "터븀의 핵이성질체 ¹⁴⁴ᵐ¹Tb(터븀-144m1)의 반감기는 몇 초인가?",
+    "answer": "4.25초",
+    "value": 4.25,
+    "unit": "초",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 31,
+        "text": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | IT (66%) | ¹⁴⁴Tb | (6-) |  |",
+        "table_header_line": 9
+      },
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 32,
+        "text": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |",
+        "table_header_line": 9
+      },
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 33,
+        "text": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |",
+        "table_header_line": 9
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q12-en",
+    "lang": "en",
+    "pair_id": "q12-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-110"
+    },
+    "question": "What is the half-life, in seconds, of the terbium nuclear isomer ¹⁴⁴ᵐ¹Tb (terbium-144m1)?",
+    "answer": "4.25 seconds",
+    "value": 4.25,
+    "unit": "s",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 31,
+        "text": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | IT (66%) | ¹⁴⁴Tb | (6-) |  |",
+        "table_header_line": 9
+      },
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 32,
+        "text": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |",
+        "table_header_line": 9
+      },
+      {
+        "doc_id": "wiki-ko-isotopes-of-terbium",
+        "language": "ko",
+        "line": 33,
+        "text": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |",
+        "table_header_line": 9
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q13-ko",
+    "lang": "ko",
+    "pair_id": "q13-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-090"
+    },
+    "question": "네오디뮴 동위 원소 ¹³⁵Nd(네오디뮴-135)의 반감기는 몇 분인가?",
+    "answer": "12.4분",
+    "value": 12.4,
+    "unit": "분",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-neodymium",
+        "language": "ko",
+        "line": 32,
+        "text": "| ¹³⁵Nd | 60 | 75 | 134.918181(21) | 12.4(6) min | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |",
+        "table_header_line": 11
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q13-en",
+    "lang": "en",
+    "pair_id": "q13-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-090"
+    },
+    "question": "What is the half-life, in minutes, of the neodymium isotope ¹³⁵Nd (neodymium-135)?",
+    "answer": "12.4 minutes",
+    "value": 12.4,
+    "unit": "min",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-neodymium",
+        "language": "ko",
+        "line": 32,
+        "text": "| ¹³⁵Nd | 60 | 75 | 134.918181(21) | 12.4(6) min | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |",
+        "table_header_line": 11
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q14-ko",
+    "lang": "ko",
+    "pair_id": "q14-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-082"
+    },
+    "question": "네오디뮴 동위 원소 ¹⁴⁷Nd(네오디뮴-147)의 반감기는 며칠인가?",
+    "answer": "10.98일",
+    "value": 10.98,
+    "unit": "일",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-neodymium",
+        "language": "ko",
+        "line": 53,
+        "text": "| ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 10.98(1) d | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |",
+        "table_header_line": 11
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q14-en",
+    "lang": "en",
+    "pair_id": "q14-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-ko-082"
+    },
+    "question": "What is the half-life, in days, of the neodymium isotope ¹⁴⁷Nd (neodymium-147)?",
+    "answer": "10.98 days",
+    "value": 10.98,
+    "unit": "days",
+    "evidence": [
+      {
+        "doc_id": "wiki-ko-isotopes-of-neodymium",
+        "language": "ko",
+        "line": 53,
+        "text": "| ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 10.98(1) d | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |",
+        "table_header_line": 11
+      }
+    ],
+    "branch": "한국어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q15-ko",
+    "lang": "ko",
+    "pair_id": "q15-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-092"
+    },
+    "question": "붕소 중성자 포획 치료(BNCT) 임상 시험에서, 일본 JRR4 원자로로 치료한 재발 신경교종 환자의 중앙 생존 기간은 몇 개월인가?",
+    "answer": "10.8개월",
+    "value": 10.8,
+    "unit": "개월",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 146,
+        "text": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q15-en",
+    "lang": "en",
+    "pair_id": "q15-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-092"
+    },
+    "question": "In clinical trials of boron neutron capture therapy (BNCT), what was the median survival time, in months, of patients with recurrent gliomas treated at Japan's JRR4 reactor?",
+    "answer": "10.8 months",
+    "value": 10.8,
+    "unit": "months",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 146,
+        "text": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q16-ko",
+    "lang": "ko",
+    "pair_id": "q16-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-131"
+    },
+    "question": "Yamamoto 등이 일본 JRR-4 원자로에서 새로 진단된 교모세포종 환자에게 붕소 중성자 포획 치료(BNCT)를 하고 X선을 추가로 쪼인 시험에서, 전체 중앙 생존 기간은 몇 개월이었는가?",
+    "answer": "27.1개월",
+    "value": 27.1,
+    "unit": "개월",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 129,
+        "text": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 146,
+        "text": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q16-en",
+    "lang": "en",
+    "pair_id": "q16-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-131"
+    },
+    "question": "In the trial by Yamamoto et al., in which patients with newly diagnosed glioblastoma received boron neutron capture therapy (BNCT) at Japan's JRR-4 reactor followed by an additional X-ray boost, what was the overall median survival time in months?",
+    "answer": "27.1 months",
+    "value": 27.1,
+    "unit": "months",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 129,
+        "text": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 146,
+        "text": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q17-ko",
+    "lang": "ko",
+    "pair_id": "q17-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-138"
+    },
+    "question": "붕소 중성자 포획 치료(BNCT) 임상 시험에서, 미국 MIT 연구용 원자로(MITR)로 치료한 신경교종 환자의 중앙 생존 기간은 몇 개월인가?",
+    "answer": "11.1개월",
+    "value": 11.1,
+    "unit": "개월",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 144,
+        "text": "| MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 11.1 |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q17-en",
+    "lang": "en",
+    "pair_id": "q17-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-138"
+    },
+    "question": "In clinical trials of boron neutron capture therapy (BNCT), what was the median survival time, in months, of glioma patients treated at the MIT Research Reactor (MITR) in the United States?",
+    "answer": "11.1 months",
+    "value": 11.1,
+    "unit": "months",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 144,
+        "text": "| MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 11.1 |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q18-ko",
+    "lang": "ko",
+    "pair_id": "q18-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-193"
+    },
+    "question": "Miyatake와 Kawabata가 새로 진단된 교모세포종 환자에게 붕소 중성자 포획 치료(BNCT)와 X선 추가 조사를 함께 한 시험에서, 중앙 생존 기간은 몇 개월이었는가?",
+    "answer": "23.5개월",
+    "value": 23.5,
+    "unit": "개월",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 125,
+        "text": "Based on experimental animal data, which showed that BNCT in combination with X-irradiation produced enhanced survival compared to BNCT alone, in another study, Miyatake and Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months and no significant toxicity was observed, other than hair loss (alopecia). However, a significant subset of these patients, a high proportion of which had small-cell variant glioblastomas, developed cerebrospinal fluid dissemination of their tumors.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 145,
+        "text": "| KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 23.5 (primary + X-ray) |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q18-en",
+    "lang": "en",
+    "pair_id": "q18-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-193"
+    },
+    "question": "In the trial in which Miyatake and Kawabata combined boron neutron capture therapy (BNCT) with an additional X-ray boost for patients with newly diagnosed glioblastoma, what was the median survival time in months?",
+    "answer": "23.5 months",
+    "value": 23.5,
+    "unit": "months",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 125,
+        "text": "Based on experimental animal data, which showed that BNCT in combination with X-irradiation produced enhanced survival compared to BNCT alone, in another study, Miyatake and Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months and no significant toxicity was observed, other than hair loss (alopecia). However, a significant subset of these patients, a high proportion of which had small-cell variant glioblastomas, developed cerebrospinal fluid dissemination of their tumors.",
+        "table_header_line": null
+      },
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 145,
+        "text": "| KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 23.5 (primary + X-ray) |",
+        "table_header_line": 141
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  },
+  {
+    "id": "q19-ko",
+    "lang": "ko",
+    "pair_id": "q19-en",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-091"
+    },
+    "question": "스웨덴 스튜드스빅(Studsvik)에서 한 붕소 중성자 포획 치료(BNCT) 임상 시험에서, 전체 생존 자료로 다시 본 중앙 생존 기간은 몇 개월이었는가?",
+    "answer": "17.7개월",
+    "value": 17.7,
+    "unit": "개월",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 147,
+        "text": "| R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 17.7 (primary) |",
+        "table_header_line": 141
+      },
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 159,
+        "text": "To conclude this section on treating brain tumors with BNCT using reactor neutron sources, a clinical trial that was carried out by Stenstam, Sköld, Capala, and their co-workers in Studsvik, Sweden, using an epithermal neutron beam produced by the Studsvik nuclear reactor, which had greater tissue penetration properties than the thermal beams originally used in the United States and Japan, will be briefly summarized. This study differed significantly from all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT in combination with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a randomized clinical trial, it could represent a significant step forward in BNCT of brain tumors, especially if combined with a photon boost.",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": null
+  },
+  {
+    "id": "q19-en",
+    "lang": "en",
+    "pair_id": "q19-ko",
+    "source": {
+      "file": "research_notes/stage2_stem_select/step4/rare_earth/questions.json",
+      "id": "R-en-091"
+    },
+    "question": "In the boron neutron capture therapy (BNCT) clinical trial carried out at Studsvik, Sweden, what was the median survival time, in months, when re-examined using the complete survival data?",
+    "answer": "17.7 months",
+    "value": 17.7,
+    "unit": "months",
+    "evidence": [
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 147,
+        "text": "| R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 17.7 (primary) |",
+        "table_header_line": 141
+      },
+      {
+        "doc_id": "wiki-en-neutron-capture-therapy",
+        "language": "en",
+        "line": 159,
+        "text": "To conclude this section on treating brain tumors with BNCT using reactor neutron sources, a clinical trial that was carried out by Stenstam, Sköld, Capala, and their co-workers in Studsvik, Sweden, using an epithermal neutron beam produced by the Studsvik nuclear reactor, which had greater tissue penetration properties than the thermal beams originally used in the United States and Japan, will be briefly summarized. This study differed significantly from all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT in combination with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a randomized clinical trial, it could represent a significant step forward in BNCT of brain tumors, especially if combined with a photon boost.",
+        "table_header_line": null
+      }
+    ],
+    "branch": "영어만",
+    "one_language_basis": "도메인 고르기 3 세기에서 AI가 코퍼스의 반대 언어 문서와 원문 대조(research_notes/stage2_stem_select/step3/confirm.json)",
+    "translation_checked": false
+  }
+]
