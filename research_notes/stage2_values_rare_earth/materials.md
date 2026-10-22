@@ -1,6 +1,6 @@
 # 질문 재료 후보 (materials.py)
 
-부딪히는 값 목록: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/known_conflicts.json`. 후보는 정해진 순서로 낸 것이고 원문 확인은 사람이 한다.
+부딪히는 값 목록: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/known_conflicts.json`. 후보는 정해진 순서로 낸 것이고 원문 확인은 AI(Claude)가 해 materials_check.md에 적는다.
 
 - 한국어 적격 자리 552, 쌍 24, 단독 12(표 칸 8); 영어 적격 자리 342, 쌍 24, 단독 12(표 칸 6)
 

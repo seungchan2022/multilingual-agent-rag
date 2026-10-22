@@ -5,7 +5,7 @@
 읽는 것(읽기만 한다): values.json, vocab.json, data/corpus/documents.yaml, data/corpus/markdown/*.md, 부딪히는 값 목록
 쓰는 것: materials.json, materials.md
 
-이 프로그램은 후보를 정해진 순서로 내놓을 뿐이다. 원문 확인은 사람이 한다.
+이 프로그램은 후보를 정해진 순서로 내놓을 뿐이다. 원문 확인은 AI(Claude)가 하고 결과는 materials_check.md에 적는다.
 
 풀: values.json의 숫자 자리(kind == "수", multi 아님) 가운데 한 언어 주제 문서(documents.yaml의 branch가 "한국어만"/"영어만")의 것.
 적격인 자리:
@@ -270,7 +270,7 @@ def counts_line(result):
 
 def to_md(result, conflicts_path):
     out = ["# 질문 재료 후보 (materials.py)", "",
-           f"부딪히는 값 목록: `{conflicts_path}`. 후보는 정해진 순서로 낸 것이고 원문 확인은 사람이 한다.", "",
+           f"부딪히는 값 목록: `{conflicts_path}`. 후보는 정해진 순서로 낸 것이고 원문 확인은 AI(Claude)가 해 materials_check.md에 적는다.", "",
            "- " + counts_line(result), ""]
     for lang, r in result.items():
         out += [f"## {LANG_NAME[lang]}", "", f"문서: {', '.join(r['pool_docs'])}", "", f"### A 여러 문서 연결 쌍 ({len(r['A'])})", ""]
