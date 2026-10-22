@@ -705,9 +705,11 @@ class RealDocs(unittest.TestCase):
         self.assertEqual(qt.quantities(self.line(md, "주기:")), [])
         self.assertEqual([(i["kind"], i["digits"]) for i in qt.read(self.line(md, "주기:"))], [("모르는 숫자", "6")])
         self.assertEqual([(i["kind"], i["digits"]) for i in qt.read(self.line(md, "발견"))], [("모르는 숫자", "1878")])
-        its = [i for i in qt.read(self.line(md, "동위체")) if i["raw"] == "56.7 h"]
+        row = [ln for ln in md.split("\n") if ln.startswith("| ¹⁶⁶Yb |")]  # 주요 동위원소는 정보 상자 안의 표다
+        self.assertEqual(len(row), 1)
+        its = [i for i in qt.read(row[0]) if i["raw"] == "56.7 h"]
         self.assertEqual(len(its), 1)
-        self.assertNotIn("166", qt.unknown_digits(self.line(md, "동위체")))
+        self.assertNotIn("166", qt.unknown_digits(row[0]))
         self.assertEqual([i["kind"] for i in qt.read(self.line(md, "CAS 번호"))], ["이름"] * 3)
 
 
