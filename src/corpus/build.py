@@ -68,7 +68,7 @@ def norm(s):
 
 
 def inline(nodes):
-    """노드(또는 노드 목록)의 글자. <br>과 칸 안의 문단은 빈칸 하나로, 목록은 ', '로 잇는다."""
+    """노드(또는 노드 목록)의 글자. <br>과 칸 안의 문단은 빈칸 하나로, 목록은 ', '로 잇는다. (값 칸의 <br>은 prepare가 먼저 ' / '로 바꿔 둔다.)"""
     if not isinstance(nodes, list):
         nodes = [nodes]
     parts = []
@@ -155,6 +155,34 @@ def prepare(root):
             legend.append(li)
         new.append(legend)
         box.replace_with(new)
+    split_value_breaks(root)
+
+
+def only_parens(text):
+    """글이 통째로 괄호 묶음뿐인가. 예: '(실온) (poly)'."""
+    return bool(re.fullmatch(r"(\([^()]*\)\s*)+", text))
+
+
+def split_value_breaks(root):
+    """값 칸(td)의 <br>을 ' / '로 바꾼다. <br>이 서로 다른 두 값을 가르는데 빈칸이면 한 값으로 읽히기 때문이다(0.48 0.38D).
+    가장 가까운 칸이 th(머리글 칸)이면 그대로 둔다. <br> 바로 앞이나 뒤 조각이 통째로 괄호면 값이 아니라 조건·설명을 떼는 줄바꿈이라 빈칸으로 둔다."""
+    swaps = []
+    for br in root.find_all("br"):
+        cell = br.find_parent(["th", "td"])
+        if cell is None or cell.name == "th":
+            continue
+        before, after = [], []
+        for s in br.previous_siblings:
+            if getattr(s, "name", None) == "br":
+                break
+            before.insert(0, s)
+        for s in br.next_siblings:
+            if getattr(s, "name", None) == "br":
+                break
+            after.append(s)
+        swaps.append((br, " " if only_parens(inline(before)) or only_parens(inline(after)) else " / "))
+    for br, text in swaps:  # 조각 글자는 <br>이 그대로일 때 재야 하므로 다 잰 뒤에 바꾼다
+        br.replace_with(NavigableString(text))
 
 
 def drop_all(root):

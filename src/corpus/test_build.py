@@ -93,7 +93,7 @@ class InfoboxImage(unittest.TestCase):
                       '<a href="/wiki/File:X.svg"><img alt="Hexagonal close packed crystal structure for dysprosium" src="x"></a>'
                       '</span></div><i>a</i>&#160;=&#160;359.16&#160;pm<br /><i>c</i>&#160;=&#160;565.01&#160;pm (at&#160;20&#160;°C)'
                       '<sup class="reference"><a href="#c">[3]</a></sup></td></tr>')
-        self.assertIn("- Lattice constants: a = 359.16 pm c = 565.01 pm (at 20 °C)", md)
+        self.assertIn("- Lattice constants: a = 359.16 pm / c = 565.01 pm (at 20 °C)", md)
         self.assertNotIn("Hexagonal close packed", md)
         self.assertNotIn("[3]", md)
 
@@ -196,6 +196,44 @@ class InfoboxNestedTable(unittest.TestCase):
         md = box_md('<tr><td colspan="2"><table class="infobox-subbox"><tr><td colspan="2"><b>스펙트럼 선</b></td></tr>'
                     '</table></td></tr>')
         self.assertEqual(md, "# T\n\n- 스펙트럼 선\n\n글\n")
+
+
+class ValueBreak(unittest.TestCase):
+    """값 칸(td)의 <br>은 ' / '다. 머리글 칸(th)과 괄호뿐인 조각 옆, 값 칸 밖의 <br>은 빈칸 하나다."""
+
+    def test_값_칸의_줄바꿈은_슬래시다(self):
+        md = box_md('<tr><th>원자 반지름</th><td>0.48<br>0.38D</td></tr>')
+        self.assertIn("- 원자 반지름: 0.48 / 0.38D", md)
+
+    def test_표의_값_칸도_슬래시다(self):
+        md = convert('<table><tr><th>a</th><th>b</th></tr><tr><td>x<br>y</td><td>z</td></tr></table>')
+        self.assertIn("| x / y | z |", md)
+
+    def test_정보_상자_안_표의_값_칸도_슬래시다(self):
+        md = box_md('<tr><td colspan="2"><table class="wikitable"><tr><th>a</th><th>b</th></tr>'
+                    '<tr><td>1<br>2</td><td>3</td></tr></table></td></tr>')
+        self.assertIn("| 1 / 2 | 3 |", md)
+
+    def test_머리글_칸의_줄바꿈은_빈칸이다(self):
+        md = box_md('<tr><th>동위체<br>번호</th><td>1</td></tr>')
+        self.assertIn("- 동위체 번호: 1", md)
+
+    def test_값_칸_안_표의_머리글_칸은_빈칸이다(self):
+        md = box_md('<tr><td colspan="2"><table class="wikitable"><tr><th>DE<br>(MeV)</th><th>b</th></tr>'
+                    '<tr><td>1<br>2</td><td>3</td></tr></table></td></tr>')
+        self.assertIn("| DE (MeV) | b |", md)
+        self.assertIn("| 1 / 2 | 3 |", md)
+
+    def test_앞_조각이_괄호뿐이면_빈칸이다(self):
+        md = box_md('<tr><th>밀도</th><td>(실온) (poly)<br>8.5</td></tr>')
+        self.assertIn("- 밀도: (실온) (poly) 8.5", md)
+
+    def test_뒤_조각이_괄호뿐이면_빈칸이다(self):
+        md = box_md('<tr><th>산화 상태</th><td>3<br>(염기성 산화물)</td></tr>')
+        self.assertIn("- 산화 상태: 3 (염기성 산화물)", md)
+
+    def test_값_칸_밖의_줄바꿈은_빈칸이다(self):
+        self.assertEqual(convert('<p>La<br>2O<br>3</p>'), "La 2O 3")
 
 
 class InfoboxNavbar(unittest.TestCase):

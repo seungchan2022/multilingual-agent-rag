@@ -29,7 +29,7 @@
 | at T (K) | 736 | 813 | 910 | 1047 | (1266) | (1465) |
 
 - Atomic properties
-  - Oxidation states: common: +3 +1, +2
+  - Oxidation states: common: +3 / +1, +2
   - Electronegativity: Pauling scale: 1.1 (?)
   - Ionization energies: 1st: 603.4 kJ/mol, 2nd: 1174.8 kJ/mol, 3rd: 2417 kJ/mol
   - Atomic radius: empirical: 176 pm

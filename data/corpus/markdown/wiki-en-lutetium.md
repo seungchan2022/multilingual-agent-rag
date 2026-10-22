@@ -29,7 +29,7 @@
 | at T (K) | 1906 | 2103 | 2346 | (2653) | (3072) | (3663) |
 
 - Atomic properties
-  - Oxidation states: common: +3 0, +2
+  - Oxidation states: common: +3 / 0, +2
   - Electronegativity: Pauling scale: 1.27
   - Ionization energies: 1st: 523.5 kJ/mol, 2nd: 1340 kJ/mol, 3rd: 2022.3 kJ/mol
   - Atomic radius: empirical: 174 pm
@@ -37,7 +37,7 @@
 - Other properties
   - Natural occurrence: primordial
   - Crystal structure: ​hexagonal close-packed (hcp) (hP2)
-  - Lattice constants: a = 350.53 pm c = 554.93 pm (at 20 °C)
+  - Lattice constants: a = 350.53 pm / c = 554.93 pm (at 20 °C)
   - Thermal expansion: poly: 9.9 µm/(m⋅K) (at r.t.)
   - Thermal conductivity: 16.4 W/(m⋅K)
   - Electrical resistivity: poly: 582 nΩ⋅m (at r.t.)
