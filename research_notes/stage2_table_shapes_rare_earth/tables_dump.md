@@ -349,17 +349,17 @@ colspan 글자: 안정 | 안정 | 안정 | 안정
     | 온도 (K) | 1883 | 2075 | (2320) | (2627) | (3036) | (3607) |
 
 ### wiki-ko-yttrium #2 [markdown] — md 55줄 — 
-구조: 10×6, top_th_rows 1, mid_th_rows [], row_header_rows 0, rowspan 12, colspan 1, br 3, list 0, nested False, caption None, class ['wikitable'], full_width_rows []
-br 예: DE ⏎ (MeV) | 0.48 ⏎ 0.38D | 1.83 ⏎ 0.89
+구조: 10×6, top_th_rows 1, mid_th_rows [], row_header_rows 0, rowspan 12, colspan 1, br 1, list 0, nested False, caption None, class ['wikitable'], full_width_rows []
+br 예: DE ⏎ (MeV)
 rowspan 글자: ⁸⁷Y | 합성 | 3.35d | ⁸⁸Y | 합성 | 106.6d | ⁹⁰Y | 합성 | 2.67d | ⁹¹Y … 외 2
 colspan 글자: 안정
 마크다운:
     | 동위체 | 존재비 | 반감기 | DM | DE (MeV) | DP |
     |---|---|---|---|---|---|
     | ⁸⁷Y | 합성 | 3.35d | ε | - | ⁸⁷Sr |
-    | ⁸⁷Y | 합성 | 3.35d | γ | 0.48 0.38D | - |
+    | ⁸⁷Y | 합성 | 3.35d | γ | 0.48 / 0.38D | - |
     | ⁸⁸Y | 합성 | 106.6d | ε | - | ⁸⁸Sr |
-    | ⁸⁸Y | 합성 | 106.6d | γ | 1.83 0.89 | - |
+    | ⁸⁸Y | 합성 | 106.6d | γ | 1.83 / 0.89 | - |
     | ⁸⁹Y | 100% | 안정 | 안정 | 안정 | 안정 |
     | ⁹⁰Y | 합성 | 2.67d | β- | 2.28 | ⁹⁰Zr |
     | ⁹⁰Y | 합성 | 2.67d | γ | 2.18 | - |
