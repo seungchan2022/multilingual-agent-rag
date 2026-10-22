@@ -21,6 +21,10 @@
     "표": 15,
     "기준": "충족"
    },
+   "confirm_more 출처": {
+    "사실": 0,
+    "표": 0
+   },
    "A 엄격": {
     "사실": 21,
     "표": 15,
@@ -38,27 +42,31 @@
   },
   "en": {
    "확인됨": {
-    "사실": 24,
+    "사실": 26,
     "표": 7,
     "기준": "충족"
    },
    "A": {
-    "사실": 23,
+    "사실": 24,
     "표": 7,
     "기준": "충족"
    },
    "B": {
-    "사실": 17,
+    "사실": 18,
     "표": 5,
-    "기준": "미달"
+    "기준": "충족"
+   },
+   "confirm_more 출처": {
+    "사실": 2,
+    "표": 0
    },
    "A 엄격": {
-    "사실": 23,
+    "사실": 24,
     "표": 7,
     "기준": "충족"
    },
    "B 엄격": {
-    "사실": 16,
+    "사실": 17,
     "표": 4,
     "기준": "미달"
    },
@@ -109,6 +117,12 @@
    "no": "R-en-100",
    "raw": "4.6×10¹⁸ y",
    "old_line": "  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-en-111",
+   "raw": "40.289 h",
+   "old_line": "  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 1.03×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce",
    "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
   }
  ],
@@ -229,6 +243,7 @@
  "facts": [
   {
    "no": "R-ko-010",
+   "source": "3 세기",
    "lang": "ko",
    "side": "both",
    "in_table": false,
@@ -260,6 +275,7 @@
   },
   {
    "no": "R-ko-015",
+   "source": "3 세기",
    "lang": "ko",
    "side": "both",
    "in_table": false,
@@ -291,6 +307,7 @@
   },
   {
    "no": "R-ko-016",
+   "source": "3 세기",
    "lang": "ko",
    "side": "both",
    "in_table": false,
@@ -314,6 +331,7 @@
   },
   {
    "no": "R-ko-018",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -370,6 +388,7 @@
   },
   {
    "no": "R-ko-019",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -398,6 +417,7 @@
   },
   {
    "no": "R-ko-020",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -426,6 +446,7 @@
   },
   {
    "no": "R-ko-021",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -524,6 +545,7 @@
   },
   {
    "no": "R-ko-022",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -561,6 +583,7 @@
   },
   {
    "no": "R-ko-023",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -589,6 +612,7 @@
   },
   {
    "no": "R-ko-024",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -617,6 +641,7 @@
   },
   {
    "no": "R-ko-025",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -645,6 +670,7 @@
   },
   {
    "no": "R-ko-026",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -673,6 +699,7 @@
   },
   {
    "no": "R-ko-027",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -696,6 +723,7 @@
   },
   {
    "no": "R-ko-028",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -752,6 +780,7 @@
   },
   {
    "no": "R-ko-029",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -780,6 +809,7 @@
   },
   {
    "no": "R-ko-030",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -808,6 +838,7 @@
   },
   {
    "no": "R-ko-031",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -864,6 +895,7 @@
   },
   {
    "no": "R-ko-032",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -920,6 +952,7 @@
   },
   {
    "no": "R-ko-033",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -948,6 +981,7 @@
   },
   {
    "no": "R-ko-034",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -976,6 +1010,7 @@
   },
   {
    "no": "R-ko-035",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": false,
@@ -1004,6 +1039,7 @@
   },
   {
    "no": "R-ko-038",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -1060,6 +1096,7 @@
   },
   {
    "no": "R-ko-082",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -1088,6 +1125,7 @@
   },
   {
    "no": "R-ko-090",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -1130,6 +1168,7 @@
   },
   {
    "no": "R-ko-110",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -1171,6 +1210,7 @@
   },
   {
    "no": "R-ko-125",
+   "source": "3 세기",
    "lang": "ko",
    "side": "one",
    "in_table": true,
@@ -1227,6 +1267,7 @@
   },
   {
    "no": "R-en-091",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,
@@ -1269,6 +1310,7 @@
   },
   {
    "no": "R-en-092",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,
@@ -1297,6 +1339,7 @@
   },
   {
    "no": "R-en-093",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1325,6 +1368,7 @@
   },
   {
    "no": "R-en-094",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1353,6 +1397,7 @@
   },
   {
    "no": "R-en-095",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1381,6 +1426,7 @@
   },
   {
    "no": "R-en-096",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1409,6 +1455,7 @@
   },
   {
    "no": "R-en-097",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,
@@ -1437,6 +1484,7 @@
   },
   {
    "no": "R-en-098",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1465,6 +1513,7 @@
   },
   {
    "no": "R-en-099",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1495,6 +1544,7 @@
   },
   {
    "no": "R-en-100",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1562,6 +1612,7 @@
   },
   {
    "no": "R-en-101",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1590,6 +1641,7 @@
   },
   {
    "no": "R-en-102",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,
@@ -1620,6 +1672,7 @@
   },
   {
    "no": "R-en-103",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1648,6 +1701,7 @@
   },
   {
    "no": "R-en-104",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1679,6 +1733,7 @@
   },
   {
    "no": "R-en-105",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1710,6 +1765,7 @@
   },
   {
    "no": "R-en-106",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1764,6 +1820,7 @@
   },
   {
    "no": "R-en-107",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1792,6 +1849,7 @@
   },
   {
    "no": "R-en-108",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1834,6 +1892,7 @@
   },
   {
    "no": "R-en-109",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1862,6 +1921,7 @@
   },
   {
    "no": "R-en-110",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1889,7 +1949,61 @@
    "B_only_without_slot": false
   },
   {
+   "no": "R-en-111",
+   "source": "confirm_more",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "¹⁴⁰La 반감기 40.289 h(란타넘 정보 상자의 주요 동위 원소). 코퍼스의 한국어 문서에 없음. 오늘 마크다운에서는 정보 상자 줄이 표 행(67줄)으로 바뀌어 다시 세기 프로그램이 이 언급을 찾지 못한다",
+   "mentions": [
+    {
+     "raw": "40.289 h",
+     "old_line": "  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 1.03×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce",
+     "doc_id": "wiki-en-lanthanum",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    }
+   ],
+   "A": false,
+   "B": false,
+   "A_strict": false,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-112",
+   "source": "confirm_more",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "란타넘이 865 °C에서 체심 입방 구조(γ-La)로 바뀜. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "865 °C",
+     "old_line": "The lanthanides become harder as the series is traversed: as expected, lanthanum is a soft metal. Lanthanum has a relatively high resistivity of 615 nΩm at room temperature; in comparison, the value for the good conductor aluminium is only 26.50 nΩm. Lanthanum is the least volatile of the lanthanides. Like most of the lanthanides, lanthanum has a hexagonal crystal structure at room temperature (α-La). At 310 °C, lanthanum changes to a face-centered cubic structure (β-La), and at 865 °C, it changes to a body-centered cubic structure (γ-La).",
+     "doc_id": "wiki-en-lanthanum",
+     "status": "찾음",
+     "how": "줄",
+     "line": 83,
+     "new_line": "The lanthanides become harder as the series is traversed: as expected, lanthanum is a soft metal. Lanthanum has a relatively high resistivity of 615 nΩm at room temperature; in comparison, the value for the good conductor aluminium is only 26.50 nΩm. Lanthanum is the least volatile of the lanthanides. Like most of the lanthanides, lanthanum has a hexagonal crystal structure at room temperature (α-La). At 310 °C, lanthanum changes to a face-centered cubic structure (β-La), and at 865 °C, it changes to a body-centered cubic structure (γ-La).",
+     "slot": "wiki-en-lanthanum:83:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
    "no": "R-en-131",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,
@@ -1932,6 +2046,7 @@
   },
   {
    "no": "R-en-132",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": false,
@@ -1960,6 +2075,7 @@
   },
   {
    "no": "R-en-138",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,
@@ -2006,6 +2122,7 @@
   },
   {
    "no": "R-en-193",
+   "source": "3 세기",
    "lang": "en",
    "side": "one",
    "in_table": true,

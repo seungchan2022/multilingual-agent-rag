@@ -1,0 +1,26 @@
+[
+ {
+  "no": "R-en-111",
+  "field": "rare_earth",
+  "lang": "en",
+  "side": "one",
+  "group": "en-one-059",
+  "in_table": false,
+  "order_side": 21,
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "¹⁴⁰La 반감기 40.289 h(란타넘 정보 상자의 주요 동위 원소). 코퍼스의 한국어 문서에 없음. 오늘 마크다운에서는 정보 상자 줄이 표 행(67줄)으로 바뀌어 다시 세기 프로그램이 이 언급을 찾지 못한다"
+ },
+ {
+  "no": "R-en-112",
+  "field": "rare_earth",
+  "lang": "en",
+  "side": "one",
+  "group": "en-one-159",
+  "in_table": false,
+  "order_side": 22,
+  "read_ok": true,
+  "truth": "그 언어에만",
+  "note": "란타넘이 865 °C에서 체심 입방 구조(γ-La)로 바뀜. 코퍼스의 한국어 문서에 없음"
+ }
+]
