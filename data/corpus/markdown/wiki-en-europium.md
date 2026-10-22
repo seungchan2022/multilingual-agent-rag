@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(Eu)
   - 151.964±0.001, 151.96±0.01 (abridged)
 - Europium in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ Eu ↓ Am samarium ← europium → gadolinium
   - Atomic number (Z): 63
   - Group: f-block groups (no number)
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 176 kJ/mol
   - Molar heat capacity: 27.66 J/(mol·K)
   - Specific heat capacity: 182.022 J/(kg·K)
-  - Vapor pressure P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 863 957 1072 1234 1452 1796
+  - Vapor pressure
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 863 | 957 | 1072 | 1234 | 1452 | 1796 |
+
 - Atomic properties
   - Oxidation states: common: +2, +3 0
   - Electronegativity: Pauling scale: 1.2
@@ -49,8 +53,19 @@
   - Naming: after Europe
   - Discovery: Eugène-Anatole Demarçay (1896)
   - First isolation: 1937
-- Isotopes of europium v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.8% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd
+- Isotopes of europium
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹⁵⁰Eu | synth | 36.9 y | β⁺ | ¹⁵⁰Sm |
+| ¹⁵¹Eu | 47.8% | 4.6×10¹⁸ y | α | ¹⁴⁷Pm |
+| ¹⁵²Eu | synth | 13.517 y | β⁺ | ¹⁵²Sm |
+| ¹⁵²Eu | synth | 13.517 y | β⁻ | ¹⁵²Gd |
+| ¹⁵³Eu | 52.2% | stable | stable | stable |
+| ¹⁵⁴Eu | synth | 8.592 y | β⁻ | ¹⁵⁴Gd |
+| ¹⁵⁴Eu | synth | 8.592 y | ε | ¹⁵⁴Sm |
+| ¹⁵⁵Eu | synth | 4.742 y | β⁻ | ¹⁵⁵Gd |
 
 Europium is a chemical element; it has symbol Eu and atomic number 63. It is a soft, silvery-white lanthanide metal that tarnishes rapidly in air and is the most chemically reactive of the lanthanides. Europium has an unusually low density and large atomic volume for a lanthanide because the metal is effectively divalent, unlike the predominantly trivalent neighbouring elements. Its half-filled 4f⁷ electron configuration also gives elemental europium distinctive magnetic properties; it is paramagnetic at room temperature and becomes antiferromagnetic below about 91 K. In compounds, the +3 oxidation state is generally the most stable, but europium has the most readily accessible +2 state of any lanthanide.
 

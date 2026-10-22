@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(Yb)
   - 173.045±0.010, 173.05±0.02 (abridged)
 - Ytterbium in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ Yb ↓ No thulium ← ytterbium → lutetium
   - Atomic number (Z): 70
   - Group: f-block groups (no number)
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 129 kJ/mol
   - Molar heat capacity: 26.74 J/(mol·K)
   - Specific heat capacity: 154.522 J/(kg·K)
-  - Vapor pressure P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 736 813 910 1047 (1266) (1465)
+  - Vapor pressure
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 736 | 813 | 910 | 1047 | (1266) | (1465) |
+
 - Atomic properties
   - Oxidation states: common: +3 +1, +2
   - Electronegativity: Pauling scale: 1.1 (?)
@@ -51,8 +55,21 @@
   - Naming: after Ytterby (Sweden), where it was mined
   - Discovery: Jean Charles Galissard de Marignac (1878)
   - First isolation: Wilhelm Klemm and Heinrich Bommer (1936)
-- Isotopes of ytterbium v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁶⁶Yb synth 56.7 h ε ¹⁶⁶Tm ¹⁶⁸Yb 0.126% stable ¹⁶⁹Yb synth 32.014 d ε ¹⁶⁹Tm ¹⁷⁰Yb 3.02% stable ¹⁷¹Yb 14.2% stable ¹⁷²Yb 21.8% stable ¹⁷³Yb 16.1% stable ¹⁷⁴Yb 31.9% stable ¹⁷⁵Yb synth 4.185 d β⁻ ¹⁷⁵Lu ¹⁷⁶Yb 12.9% stable
+- Isotopes of ytterbium
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹⁶⁶Yb | synth | 56.7 h | ε | ¹⁶⁶Tm |
+| ¹⁶⁸Yb | 0.126% | stable | stable | stable |
+| ¹⁶⁹Yb | synth | 32.014 d | ε | ¹⁶⁹Tm |
+| ¹⁷⁰Yb | 3.02% | stable | stable | stable |
+| ¹⁷¹Yb | 14.2% | stable | stable | stable |
+| ¹⁷²Yb | 21.8% | stable | stable | stable |
+| ¹⁷³Yb | 16.1% | stable | stable | stable |
+| ¹⁷⁴Yb | 31.9% | stable | stable | stable |
+| ¹⁷⁵Yb | synth | 4.185 d | β⁻ | ¹⁷⁵Lu |
+| ¹⁷⁶Yb | 12.9% | stable | stable | stable |
 
 Ytterbium is a chemical element; it has symbol Yb and atomic number 70. It is a metal, the fourteenth element in the lanthanide series, which is the basis of the relative stability of its +2 oxidation state. Like the other lanthanides, its most common oxidation state is +3, as in its oxide, halides, and other compounds. In aqueous solution, like compounds of other late lanthanides, soluble ytterbium compounds form complexes with nine water molecules. Because of its closed-shell electron configuration, its density, melting point and boiling point are much lower than those of most other lanthanides.
 

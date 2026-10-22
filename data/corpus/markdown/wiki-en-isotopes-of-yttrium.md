@@ -1,6 +1,14 @@
 # Isotopes of yttrium
 
-- Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ⁸⁷Y synth 79.8 h ε ⁸⁷Sr ⁸⁸Y synth 106.63 d ε ⁸⁸Sr ⁸⁹Y 100% stable ⁹⁰Y synth 64.05 h β⁻ ⁹⁰Zr ⁹¹Y synth 58.51 d β⁻ ⁹¹Zr
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ⁸⁷Y | synth | 79.8 h | ε | ⁸⁷Sr |
+| ⁸⁸Y | synth | 106.63 d | ε | ⁸⁸Sr |
+| ⁸⁹Y | 100% | stable | stable | stable |
+| ⁹⁰Y | synth | 64.05 h | β⁻ | ⁹⁰Zr |
+| ⁹¹Y | synth | 58.51 d | β⁻ | ⁹¹Zr |
+
 - Standard atomic weight Ar°(Y)
   - 88.905838±0.000002, 88.906±0.001 (abridged)
 

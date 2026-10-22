@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(Tm)
   - 168.934219±0.000005, 168.93±0.01 (abridged)
 - Thulium in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ Tm ↓ Md erbium ← thulium → ytterbium
   - Atomic number (Z): 69
   - Group: f-block groups (no number)
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 191 kJ/mol
   - Molar heat capacity: 27.03 J/(mol·K)
   - Specific heat capacity: 160.007 J/(kg·K)
-  - Vapor pressure P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 1117 1235 1381 1570 (1821) (2217)
+  - Vapor pressure
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 1117 | 1235 | 1381 | 1570 | (1821) | (2217) |
+
 - Atomic properties
   - Oxidation states: common: +3 +1, +2
   - Electronegativity: Pauling scale: 1.25
@@ -50,8 +54,16 @@
   - Naming: after Thule, a mythical region in Scandinavia
   - Discovery: Per Teodor Cleve (1879)
   - First isolation: Wilhelm Klemm and Heinrich Bommer (1936)
-- Isotopes of thulium v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁶⁷Tm synth 9.25 d ε ¹⁶⁷Er ¹⁶⁸Tm synth 93.1 d β⁺ ¹⁶⁸Er ¹⁶⁹Tm 100% stable ¹⁷⁰Tm synth 128.6 d β⁻ ¹⁷⁰Yb ¹⁷¹Tm synth 1.92 y β⁻ ¹⁷¹Yb
+- Isotopes of thulium
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹⁶⁷Tm | synth | 9.25 d | ε | ¹⁶⁷Er |
+| ¹⁶⁸Tm | synth | 93.1 d | β⁺ | ¹⁶⁸Er |
+| ¹⁶⁹Tm | 100% | stable | stable | stable |
+| ¹⁷⁰Tm | synth | 128.6 d | β⁻ | ¹⁷⁰Yb |
+| ¹⁷¹Tm | synth | 1.92 y | β⁻ | ¹⁷¹Yb |
 
 Thulium is a chemical element; it has symbol Tm and atomic number 69. It is the thirteenth element in the lanthanide series of metals. It is the second-least abundant lanthanide in the Earth's crust, after radioactively unstable promethium. It is an easily workable metal with a bright silvery-gray luster. It is fairly soft and slowly tarnishes in air. Despite its high price and rarity, thulium is used as a dopant in solid-state lasers. It has no significant biological role and is not particularly toxic. Artificial radioactive isotopes of thulium are used as radiation sources in some portable X-ray devices.
 

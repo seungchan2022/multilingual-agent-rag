@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(Lu)
   - 174.96669±0.00005, 174.97±0.01 (abridged)
 - Lutetium in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson Y ↑ Lu ↓ Lr ytterbium ← lutetium → hafnium
   - Atomic number (Z): 71
   - Group: group 3
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 414 kJ/mol
   - Molar heat capacity: 26.86 J/(mol·K)
   - Specific heat capacity: 153.512 J/(kg·K)
-  - Vapor pressure P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 1906 2103 2346 (2653) (3072) (3663)
+  - Vapor pressure
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 1906 | 2103 | 2346 | (2653) | (3072) | (3663) |
+
 - Atomic properties
   - Oxidation states: common: +3 0, +2
   - Electronegativity: Pauling scale: 1.27
@@ -50,8 +54,16 @@
   - Discovery: Carl Auer von Welsbach and Georges Urbain (1906)
   - First isolation: 1953
   - Named by: Georges Urbain (1906)
-- Isotopes of lutetium v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁷³Lu synth 1.37 y ε ¹⁷³Yb ¹⁷⁴Lu synth 3.31 y β⁺ ¹⁷⁴Yb ¹⁷⁵Lu 97.4% stable ¹⁷⁶Lu 2.60% 3.701×10¹⁰ y β⁻ ¹⁷⁶Hf ¹⁷⁷Lu synth 6.6443 d β⁻ ¹⁷⁷Hf
+- Isotopes of lutetium
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹⁷³Lu | synth | 1.37 y | ε | ¹⁷³Yb |
+| ¹⁷⁴Lu | synth | 3.31 y | β⁺ | ¹⁷⁴Yb |
+| ¹⁷⁵Lu | 97.4% | stable | stable | stable |
+| ¹⁷⁶Lu | 2.60% | 3.701×10¹⁰ y | β⁻ | ¹⁷⁶Hf |
+| ¹⁷⁷Lu | synth | 6.6443 d | β⁻ | ¹⁷⁷Hf |
 
 Lutetium is a chemical element; it has symbol Lu and atomic number 71. It is a silvery white metal which resists corrosion in dry air, but not in moist air. Lutetium is the last element in the lanthanide series, and it is traditionally counted among the rare earth elements; it can also be classified as the first element of the sixth-period transition metals.
 

@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(Pr)
   - 140.90766±0.00001, 140.91±0.01 (abridged)
 - Praseodymium in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ Pr ↓ Pa cerium ← praseodymium → neodymium
   - Atomic number (Z): 59
   - Group: f-block groups (no number)
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 331 kJ/mol
   - Molar heat capacity: 27.20 J/(mol·K)
   - Specific heat capacity: 193.031 J/(kg·K)
-  - Vapor pressure P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 1771 1973 (2227) (2571) (3054) (3779)
+  - Vapor pressure
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 1771 | 1973 | (2227) | (2571) | (3054) | (3779) |
+
 - Atomic properties
   - Oxidation states: common: +3 0, +1, +2, +4, +5
   - Electronegativity: Pauling scale: 1.13
@@ -50,8 +54,15 @@
 - History
   - Naming: after Greek πρασιος, "leek green" (for the color of its salts) and δίδυμος, "twin" (of lanthanum)
   - Discovery: Carl Auer von Welsbach (1885)
-- Isotopes of praseodymium v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁴¹Pr 100% stable ¹⁴²Pr synth 19.12 h β⁻ ¹⁴²Nd ε ¹⁴²Ce ¹⁴³Pr synth 13.57 d β⁻ ¹⁴³Nd
+- Isotopes of praseodymium
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹⁴¹Pr | 100% | stable | stable | stable |
+| ¹⁴²Pr | synth | 19.12 h | β⁻ | ¹⁴²Nd |
+| ¹⁴²Pr | synth | 19.12 h | ε | ¹⁴²Ce |
+| ¹⁴³Pr | synth | 13.57 d | β⁻ | ¹⁴³Nd |
 
 Praseodymium is a chemical element; it has symbol Pr and atomic number 59. It is the third member of the lanthanide series and is considered one of the rare-earth metals. It is a soft, silvery, malleable and ductile metal, valued for its magnetic, electrical, chemical, and optical properties. It is too reactive to be found in native form, and pure praseodymium metal slowly develops a green oxide coating when exposed to air.
 

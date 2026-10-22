@@ -132,6 +132,105 @@ class InfoboxImage(unittest.TestCase):
         self.assertNotIn("출처", md)
 
 
+def box_md(rows):
+    """정보 상자 줄들을 문서 앞에 둔 마크다운. 첫 줄 '# T'와 뒤의 본문 '글' 사이가 정보 상자와 표다."""
+    raw = f'<div class="mw-parser-output"><table class="infobox">{rows}</table><p>글</p></div>'.encode("utf-8")
+    return convert_wiki({"title": "T"}, raw)
+
+
+def swatches(n, names="X"):
+    """주기율표 그림의 원소 칸 n개: 글자색이 투명한 span이 든 링크."""
+    return "".join(f'<td><a href="/wiki/{names}{i}" title="{names}{i}"><span style="display:block;width:6px;height:8px;'
+                   f'overflow:hidden;padding:0;color:transparent;background-color:#ff9999;">{names}{i}</span></a></td>'
+                   for i in range(n))
+
+
+VAPOR = ('<tr><td colspan="2"><b>증기 압력</b><div><table class="wikitable">'
+         '<tr><th>압력 (Pa)</th><th>1</th><th>10</th></tr>'
+         '<tr><th>온도 (K)</th><td>1117</td><td>1235</td></tr></table></div></td></tr>')
+
+
+class InfoboxPeriodicTable(unittest.TestCase):
+    """주기율표 그림 줄: 원소 칸(글자색이 투명한 span)이 100개 이상 든 줄만 지우고 묶음 제목과 다른 줄은 둔다."""
+
+    def test_한국어_겹친_격자(self):
+        grid = (f'<table class="wikitable"><tr><td><table style="border:none"><tr>{swatches(118, "원소")}</tr></table>'
+                '</td></tr></table>')
+        md = box_md(f'<tr><th class="infobox-header" colspan="2">주기율표 정보</th></tr><tr><td colspan="2">{grid}</td></tr>'
+                    '<tr><th>원자 번호</th><td>69</td></tr>')
+        self.assertEqual(md, "# T\n\n- 주기율표 정보\n  - 원자 번호: 69\n\n글\n")
+
+    def test_영어_div_안의_표(self):
+        grid = (f'<div class="ib-element-periodic-table"><table class="periodic-table-32-micro"><tr>{swatches(118)}</tr>'
+                '</table></div>')
+        md = box_md(f'<tr><th class="infobox-header" colspan="2">Thulium in the periodic table</th></tr><tr><td colspan="2">{grid}</td></tr>'
+                    '<tr><th>Atomic number</th><td>69</td></tr>')
+        self.assertEqual(md, "# T\n\n- Thulium in the periodic table\n  - Atomic number: 69\n\n글\n")
+
+    def test_원소_칸이_적으면_지우지_않는다(self):
+        md = box_md(f'<tr><th class="infobox-header" colspan="2">묶음</th></tr><tr><td colspan="2"><table><tr>{swatches(5)}</tr></table></td></tr>')
+        self.assertIn("X0", md)
+
+
+class InfoboxNestedTable(unittest.TestCase):
+    """정보 상자 줄 안의 자료 표는 마크다운 표가 된다. 표 앞에 이름 줄, 표 앞뒤는 빈 줄, 목록은 표 뒤에서 이어진다."""
+
+    def test_이름_줄_다음에_표가_오고_목록이_이어진다(self):
+        md = box_md('<tr><th class="infobox-header" colspan="2">물리적 성질</th></tr><tr><th>녹는점</th><td>1818 K</td></tr>' + VAPOR
+                    + '<tr><th>밀도</th><td>9.32</td></tr><tr><th class="infobox-header" colspan="2">원자의 성질</th></tr><tr><th>산화 상태</th><td>3</td></tr>')
+        self.assertEqual(md, "# T\n\n- 물리적 성질\n  - 녹는점: 1818 K\n  - 증기 압력\n\n"
+                             "| 압력 (Pa) | 1 | 10 |\n|---|---|---|\n| 온도 (K) | 1117 | 1235 |\n\n"
+                             "  - 밀도: 9.32\n- 원자의 성질\n  - 산화 상태: 3\n\n글\n")
+
+    def test_묶음_제목이_표의_이름이다(self):
+        md = box_md('<tr><th class="infobox-header" colspan="2">주요 동위원소</th></tr><tr><td colspan="2"><table class="wikitable">'
+                    '<tr><th>동위체</th><th>반감기</th></tr><tr><td>¹⁶⁷Tm</td><td>9.25 d</td></tr></table></td></tr>')
+        self.assertEqual(md, "# T\n\n- 주요 동위원소\n\n| 동위체 | 반감기 |\n|---|---|\n| ¹⁶⁷Tm | 9.25 d |\n\n글\n")
+
+    def test_이름_줄이_없는_첫_줄의_표(self):
+        md = box_md('<tr><td colspan="2"><table class="wikitable"><tr><th>a</th><th>b</th></tr>'
+                    '<tr><td>1</td><td>2</td></tr></table></td></tr><tr><th>밀도</th><td>9</td></tr>')
+        self.assertEqual(md, "# T\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\n- 밀도: 9\n\n글\n")
+
+    def test_한_줄짜리_배치용_표는_글자로_둔다(self):
+        md = box_md('<tr><td colspan="2"><table class="infobox-subbox"><tr><td colspan="2"><b>스펙트럼 선</b></td></tr>'
+                    '</table></td></tr>')
+        self.assertEqual(md, "# T\n\n- 스펙트럼 선\n\n글\n")
+
+
+class InfoboxNavbar(unittest.TestCase):
+    def test_묶음_제목의_v_e를_지운다(self):
+        md = box_md('<tr><th class="infobox-header"><a href="/wiki/Isotopes_of_thulium">Isotopes of thulium</a>'
+                    '<div style="float:right"><div class="navbar plainlinks hlist navbar-mini"><ul>'
+                    '<li class="nv-view"><a href="/wiki/Template:X"><abbr title="View this template">v</abbr></a></li>'
+                    '<li class="nv-edit"><a href="/wiki/Special:EditPage/Template:X"><abbr title="Edit this template">e</abbr></a></li>'
+                    '</ul></div></div></th></tr><tr><th>Mass</th><td>169</td></tr>')
+        self.assertEqual(md, "# T\n\n- Isotopes of thulium\n  - Mass: 169\n\n글\n")
+
+
+class EmptyColumn(unittest.TestCase):
+    """값 칸(td)이 모두 빈 열은 머리글까지 지운다. th는 값으로 세지 않는다."""
+
+    def test_빈_열을_지운다(self):
+        md = convert("<table><tr><th>이름</th><th>비고</th><th>값</th></tr>"
+                     "<tr><td>a</td><td></td><td>1</td></tr><tr><td>b</td><td></td><td>2</td></tr></table>")
+        self.assertEqual(md, "| 이름 | 값 |\n|---|---|\n| a | 1 |\n| b | 2 |")
+
+    def test_값이_하나라도_있는_열은_남긴다(self):
+        md = convert("<table><tr><th>이름</th><th>비고</th></tr>"
+                     "<tr><td>a</td><td></td></tr><tr><td>b</td><td>x</td></tr></table>")
+        self.assertEqual(md, "| 이름 | 비고 |\n|---|---|\n| a |  |\n| b | x |")
+
+    def test_머리글을_되풀이한_th_칸의_글자는_값이_아니다(self):
+        md = convert('<table><tr><th>이름</th><th>값</th><th rowspan="2">비고</th></tr><tr><th colspan="2">세부</th></tr>'
+                     "<tr><td>a</td><td>1</td><td></td></tr></table>")
+        self.assertEqual(md, "| 이름 | 값 |\n|---|---|\n| 세부 | 세부 |\n| a | 1 |")
+
+    def test_줄_이름표_열은_남긴다(self):
+        md = convert("<table><tr><th>구분</th><th>1</th></tr><tr><th>온도</th><td>9</td></tr></table>")
+        self.assertEqual(md, "| 구분 | 1 |\n|---|---|\n| 온도 | 9 |")
+
+
 class Formula(unittest.TestCase):
     def test_글_속_수식(self):
         m = math_span("\\alpha ")  # 위키백과의 alt는 {\displaystyle \alpha } 꼴이라 안쪽 끝 띄어쓰기가 남는다

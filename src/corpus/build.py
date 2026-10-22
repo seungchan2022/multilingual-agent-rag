@@ -38,7 +38,7 @@ DROP_SELECTORS = [
     ".hatnote", ".navbox", ".navbox-styles", ".sistersitebox", ".side-box", ".authority-control",
     ".portalbox", ".catlinks",
     ".mw-editsection", "sup.noprint", "span.noprint", "sup.Inline-Template", ".ambox", "a.autonumber",
-    ".infobox-below",
+    ".infobox-below", ".infobox .navbar",
     "style", "script", "link", "meta",
     ".geo-nondefault", ".geo-multi-punct", ".geo-inline-hidden",
 ]
@@ -46,6 +46,8 @@ DISPLAY_NONE = re.compile(r"display\s*:\s*none", re.I)
 ROAD_SIGN = re.compile(r"/(Korean_(?:Highway|National_Route|Local_Route)[^/]*)")
 FOLD_NOTICE = "이 글을 보려면 오른쪽 ‘펼치기’ 버튼 클릭"  # 접힌 상자를 여는 안내문. 본문이 아니다.
 INFOBOX_SKIP_LABELS = {"웹사이트", "Website"}
+SWATCH = re.compile(r"color\s*:\s*transparent")  # 주기율표 그림의 원소 한 칸: 링크 안에 글자색이 투명한 span이 든다
+PERIODIC_TABLE_MIN = 100  # 원소는 118개다. 줄 하나에 투명한 칸이 이만큼 이상이면 주기율표 그림이다.
 
 # 위첨자 글자. 여기 없는 글자(한글, †, 점 등)는 그대로 둔다.
 SUPERSCRIPT = str.maketrans(
@@ -173,11 +175,15 @@ def own_cells(tr):
 
 
 def mark_infobox(root):
-    """문서 맨 위의 정보 상자 하나를 찾아 이미지가 든 줄을 지우고 돌려준다. 나머지 infobox 표는 지운다.
+    """문서 맨 위의 정보 상자 하나를 찾아 이미지가 든 줄과 주기율표 그림 줄을 지우고 돌려준다. 나머지 infobox 표는 지운다.
 
     칸이 둘(이름표 th, 값 td)인 줄의 이미지는 값 옆의 장식이라 줄은 두고 이미지만 지운다(뒤의 drop_all).
     그 밖의 모양의 줄에 든 글자는 이미지의 설명이므로 줄째로 지운다. 이 일은
     이미지를 지우기 전에 해야 한다. 국기 아이콘(.flagicon)은 장식이라 줄을 지우는 근거로 쓰지 않는다.
+
+    주기율표 그림 줄은 한국어와 영어 상자에 모두 있고 원소 118개를 작은 링크로 이은 격자다. 화면에는 색 칸이지만
+    글로는 원소 이름이 이어져 읽을 수 없다. 클래스 이름은 두 언어가 달라서(영어만 periodic-table-32-micro) 쓰지 않고,
+    줄 하나 안에 글자색이 투명한 span(원소 한 칸)이 PERIODIC_TABLE_MIN개 이상 든 줄을 지운다. 묶음 제목과 다른 줄은 둔다.
     """
     top = root.find("table", class_="infobox", recursive=False)
     for t in root.find_all("table", class_="infobox"):
@@ -190,6 +196,8 @@ def mark_infobox(root):
         is_row = len(cells) == 2 and cells[0].name == "th" and cells[1].name == "td"
         if not is_row and tr.select("img, figure, .mw-kartographer-map"):
             tr.decompose()
+        elif len(tr.find_all("span", style=SWATCH)) >= PERIODIC_TABLE_MIN:
+            tr.decompose()
     return top
 
 
@@ -201,10 +209,15 @@ def infobox_lines(box):
       - 제목 바로 다음 줄의 이름표가 '•'로 시작하면(영어): '•'로 시작하는 줄이 이어지는 동안.
       - 아니면(한국어 상자, 영어의 Korean name 상자): 다음 묶음 제목이나 상자의 끝까지.
     딸린 줄 앞의 '•'는 뺀다. 딸린 줄이 하나도 없는 묶음 제목은 지운다.
+    줄의 칸에 자료 표(증기 압력, 주요 동위원소)가 들어 있으면 표는 마크다운 표로 그 자리에 둔다(cell_parts).
+    표 앞에 칸의 글자(표의 이름)가 있으면 그 글자가 목록 줄이 되고, 목록은 빈 줄로 끊겼다가 표 뒤에서 이어진다.
     """
-    entries = []  # (종류: head/row/text, 이름표가 •로 시작하는가, 글자)
+    entries = []  # (종류: head/row/text/table, 이름표가 •로 시작하는가, 글자 또는 table의 조각들)
     for tr in own_rows(box):
         cells = own_cells(tr)
+        if any(data_tables(c) for c in cells):
+            entries.append(("table", False, [p for c in cells for p in cell_parts(c)]))
+            continue
         texts = [inline(c) for c in cells]
         if len(cells) == 2 and cells[0].name == "th" and cells[1].name == "td":
             value = texts[1]
@@ -226,7 +239,7 @@ def infobox_lines(box):
     while i < len(entries):
         kind, _, text = entries[i]
         if kind != "head":
-            lines.append(f"- {text}")
+            lines += entry_lines(entries[i], "")
             i += 1
             continue
         j = i + 1
@@ -238,16 +251,66 @@ def infobox_lines(box):
                 j += 1
         if j > i + 1:
             lines.append(f"- {text}")
-            lines += [f"  - {e[2]}" for e in entries[i + 1:j]]
+            for e in entries[i + 1:j]:
+                lines += entry_lines(e, "  ")
         i = j
+    while lines and not lines[-1]:  # 표 앞뒤의 빈 줄이 맨 앞이나 맨 끝에 남으면 뺀다
+        lines.pop()
+    while lines and not lines[0]:
+        lines.pop(0)
+    return lines
+
+
+def data_tables(cell):
+    """칸 안의 자료 표: 겹친 표 가운데 가장 바깥의 것. 한 줄짜리 배치용 표(table.infobox-subbox)는 자료 표가 아니다."""
+    tables = []
+    for t in cell.find_all("table"):
+        outer = t.find_parent("table")
+        if "infobox-subbox" not in t.get("class", []) and not (outer is not None and cell in outer.parents):
+            tables.append(t)
+    return tables
+
+
+def cell_parts(cell):
+    """칸을 차례대로 읽어 [('text', 글자) 또는 ('table', 표의 항목들)]로. 자료 표는 table_items로 바꾼다.
+
+    표 자리에 표시 글자를 넣고 칸의 글자를 읽은 뒤 표시 글자에서 잘라, 표 앞뒤의 글자(표의 이름)가 제자리에 남게 한다.
+    """
+    marks = [(t, table_items(t)) for t in data_tables(cell)]
+    for n, (t, _) in enumerate(marks):
+        t.replace_with(NavigableString(f"\ue000{n}\ue000"))
+    parts = []
+    for k, piece in enumerate(re.split("\ue000(\\d+)\ue000", inline(cell))):
+        if k % 2:
+            parts.append(("table", marks[int(piece)][1]))
+        elif norm(piece):
+            parts.append(("text", norm(piece)))
+    return parts
+
+
+def entry_lines(entry, indent):
+    """정보 상자 항목 하나의 줄. 표는 앞뒤를 빈 줄로 띄운다(마크다운은 목록 안에 표를 둘 수 없다)."""
+    kind, _, text = entry
+    if kind != "table":
+        return [f"{indent}- {text}"]
+    lines = []
+    for k, piece in text:
+        if k == "text":
+            lines.append(f"{indent}- {piece}")
+        else:
+            for it in piece:
+                lines += ["", *it[1], ""] if it[0] == "b" else []
     return lines
 
 
 # ---------------------------------------------------------------- 표
 
 def grid_of(table):
-    """칸을 합친 표를 폈을 때의 (칸 글자 격자, 줄마다 모두 th인지, 줄의 원래 칸 글자, 줄의 원래 colspan, 칸의 출처)."""
-    cells, origin = {}, {}
+    """칸을 합친 표를 폈을 때의 (칸 글자 격자, 줄마다 모두 th인지, 줄의 원래 칸 글자, 줄의 원래 colspan, 칸의 출처, th에서 나온 칸).
+
+    th에서 나온 칸: 칸마다 th에서 나왔는지의 격자. 줄이 짧아 채운 빈 자리는 th가 아니다.
+    """
+    cells, origin, from_th = {}, {}, {}
     all_th, row_texts, row_spans = [], [], []
     rows = own_rows(table)
     for r, tr in enumerate(rows):
@@ -265,6 +328,7 @@ def grid_of(table):
                 for dc in range(cs):
                     cells.setdefault((r + dr, c + dc), text)
                     origin.setdefault((r + dr, c + dc), id(cell))
+                    from_th.setdefault((r + dr, c + dc), cell.name == "th")
             c += cs
     nrows = len(rows)
     ncols = max((c for _, c in cells), default=-1) + 1
@@ -277,7 +341,8 @@ def grid_of(table):
             last = origin.get((r, c), last)
             row.append(last)
         src.append(row if own_cells(rows[r]) else None)
-    return grid, all_th, row_texts, row_spans, src
+    th_grid = [[from_th.get((r, c), False) for c in range(ncols)] for r in range(nrows)]
+    return grid, all_th, row_texts, row_spans, src, th_grid
 
 
 def span(cell, attr):
@@ -331,7 +396,7 @@ def table_items(table):
                 col += span_c
         return out
 
-    grid, all_th, row_texts, row_spans, src = grid_of(table)
+    grid, all_th, row_texts, row_spans, src, th_grid = grid_of(table)
     if not grid:
         return out
     caption = table.find("caption")
@@ -362,13 +427,17 @@ def table_items(table):
         if not all(src[i] is None or src[i][c] == src[i][c - 1] for i in rows):
             cols.append(c)
     head, body = [grid[rows[0]][c] for c in cols], [[grid[i][c] for c in cols] for i in rows[1:]]
-    # 머리글 줄을 뺀 모든 줄에서 글자가 없는 열은 머리글까지 지운다. 첫 줄이 머리글(th)이 아닌 표는
-    # 첫 줄도 내용 줄이므로 첫 줄에만 글자가 있는 열도 남긴다(마크다운 머리글 자리에는 그대로 첫 줄을 쓴다).
-    # 머리글 줄밖에 없는 표는 줄이 없어 모든 열이 비게 되므로, 머리글 칸이 빈 열만 지운다.
-    if not all_th[rows[0]]:
-        keep = [c for c in range(len(head)) if head[c] or any(r[c] for r in body)]
-    else:
-        keep = [c for c in range(len(head)) if any(r[c] for r in body)] if body else [c for c in range(len(head)) if head[c]]
+    # 값 칸(td)이 모두 빈 열은 머리글까지 지운다. th는 머리글로 보고 값으로 세지 않는다(머리글 줄을 아래로 되풀이한 칸이
+    # 글자를 가져도 값이 아니다). 첫 줄이 머리글(th)이 아닌 표는 첫 줄도 내용 줄이므로 값 칸에 넣는다(마크다운
+    # 머리글 자리에는 그대로 첫 줄을 쓴다). 값 칸이 아예 없는 열(줄 이름표 열, 머리글 줄밖에 없는 표)은 칸에 글자가
+    # 있으면 남긴다.
+    check = rows[1:] if all_th[rows[0]] else rows
+
+    def keep_col(k):
+        values = [grid[i][cols[k]] for i in check if not th_grid[i][cols[k]]]
+        return any(values) if values else bool(head[k] or any(r[k] for r in body))
+
+    keep = [k for k in range(len(head)) if keep_col(k)]
     head, body = [head[c] for c in keep], [[r[c] for c in keep] for r in body]
     if not head:
         return out + below

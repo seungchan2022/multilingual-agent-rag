@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(Dy)
   - 162.500±0.001, 162.50±0.01 (abridged)
 - Dysprosium in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ Dy ↓ Cf terbium ← dysprosium → holmium
   - Atomic number (Z): 66
   - Group: f-block groups (no number)
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 280 kJ/mol
   - Molar heat capacity: 27.7 J/(mol·K)
   - Specific heat capacity: 170.462 J/(kg·K)
-  - Vapor pressure P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 1378 1523 (1704) (1954) (2304) (2831)
+  - Vapor pressure
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 1378 | 1523 | (1704) | (1954) | (2304) | (2831) |
+
 - Atomic properties
   - Oxidation states: common: +3 0, +2, +4
   - Electronegativity: Pauling scale: 1.22
@@ -51,8 +55,22 @@
   - Naming: after Greek δυσπρόσιτος, "hard to get", for requiring 30 attempts to isolate
   - Discovery: Lecoq de Boisbaudran (1886)
   - First isolation: Georges Urbain (1905)
-- Isotopes of dysprosium v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁴Dy synth 1.40×10⁶ y α ¹⁵⁰Gd ¹⁵⁶Dy 0.056% stable ¹⁵⁸Dy 0.095% stable ¹⁵⁹Dy synth 144.4 d ε ¹⁵⁹Tb ¹⁶⁰Dy 2.33% stable ¹⁶¹Dy 18.9% stable ¹⁶²Dy 25.5% stable ¹⁶³Dy 24.9% stable ¹⁶⁴Dy 28.3% stable ¹⁶⁵Dy synth 2.332 h β⁻ ¹⁶⁵Ho ¹⁶⁶Dy synth 3.40 d β⁻ ¹⁶⁶Ho
+- Isotopes of dysprosium
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹⁵⁴Dy | synth | 1.40×10⁶ y | α | ¹⁵⁰Gd |
+| ¹⁵⁶Dy | 0.056% | stable | stable | stable |
+| ¹⁵⁸Dy | 0.095% | stable | stable | stable |
+| ¹⁵⁹Dy | synth | 144.4 d | ε | ¹⁵⁹Tb |
+| ¹⁶⁰Dy | 2.33% | stable | stable | stable |
+| ¹⁶¹Dy | 18.9% | stable | stable | stable |
+| ¹⁶²Dy | 25.5% | stable | stable | stable |
+| ¹⁶³Dy | 24.9% | stable | stable | stable |
+| ¹⁶⁴Dy | 28.3% | stable | stable | stable |
+| ¹⁶⁵Dy | synth | 2.332 h | β⁻ | ¹⁶⁵Ho |
+| ¹⁶⁶Dy | synth | 3.40 d | β⁻ | ¹⁶⁶Ho |
 
 Dysprosium is a chemical element; it has symbol Dy and atomic number 66. It is a rare-earth element in the lanthanide series with a metallic silver luster. Dysprosium is never found in nature as a free element, though, like other lanthanides, it is found in various minerals, such as xenotime. Naturally occurring dysprosium is composed of seven isotopes, the most abundant of which is ¹⁶⁴Dy.
 

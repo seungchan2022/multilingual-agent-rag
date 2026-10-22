@@ -6,7 +6,6 @@
 - Standard atomic weight Ar°(La)
   - 138.90547±0.00007, 138.91±0.01 (abridged)
 - Lanthanum in the periodic table
-  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ La ↓ Ac barium ← lanthanum → cerium
   - Atomic number (Z): 57
   - Group: f-block groups (no number)
   - Period: period 6
@@ -23,7 +22,12 @@
   - Heat of vaporization: 400 kJ/mol
   - Molar heat capacity: 27.11 J/(mol·K)
   - Specific heat capacity: 195.162 J/(kg·K)
-  - Vapor pressure (extrapolated) P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 2005 2208 2458 2772 3178 3726
+  - Vapor pressure (extrapolated)
+
+| P (Pa) | 1 | 10 | 100 | 1 k | 10 k | 100 k |
+|---|---|---|---|---|---|---|
+| at T (K) | 2005 | 2208 | 2458 | 2772 | 3178 | 3726 |
+
 - Atomic properties
   - Oxidation states: common: +3 0, +1, +2
   - Electronegativity: Pauling scale: 1.10
@@ -51,8 +55,16 @@
 - History
   - Naming: from the Greek λανθάνειν, "to lie hidden", for 'hiding' in cerite
   - Discovery: Carl Gustaf Mosander (1838)
-- Isotopes of lanthanum v, e
-  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 1.03×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
+- Isotopes of lanthanum
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abun­dance | half-life (t1/2) | mode | pro­duct |
+| ¹³⁷La | synth | 6×10⁴ y | ε | ¹³⁷Ba |
+| ¹³⁸La | 0.0889999999% | 1.03×10¹¹ y | β⁺ | ¹³⁸Ba |
+| ¹³⁸La | 0.0889999999% | 1.03×10¹¹ y | β⁻ | ¹³⁸Ce |
+| ¹³⁹La | 99.911% | stable | stable | stable |
+| ¹⁴⁰La | synth | 40.289 h | β⁻ | ¹⁴⁰Ce |
 
 Lanthanum is a chemical element; it has symbol La and atomic number 57. It is a soft, ductile, silvery-white metal that tarnishes slowly when exposed to air. It is the first and the prototype of the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table. Lanthanum is traditionally counted among the rare-earth elements. Like most other rare-earth elements, its usual oxidation state is +3, although some compounds are known with an oxidation state of +2. Lanthanum has no biological role in humans but is used by some bacteria. It is not particularly toxic to humans but does show some antimicrobial activity.
 
