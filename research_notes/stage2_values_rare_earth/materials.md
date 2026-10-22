@@ -2,7 +2,7 @@
 
 부딪히는 값 목록: `/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/known_conflicts.json`. 후보는 정해진 순서로 낸 것이고 원문 확인은 AI(Claude)가 해 materials_check.md에 적는다.
 
-- 한국어 적격 자리 552, 쌍 24, 단독 12(표 칸 8); 영어 적격 자리 342, 쌍 24, 단독 12(표 칸 6)
+- 한국어 적격 자리 539, 쌍 24, 단독 12(표 칸 7); 영어 적격 자리 339, 쌍 24, 단독 12(표 칸 6)
 
 ## 한국어
 
@@ -44,57 +44,51 @@
 - 나 `wiki-ko-samarium:44` `37.8 GPa` = 37.8 GPa (정보 상자) 대상 Sm, 양 bulk_modulus
   - 줄: `  - 부피 탄성 계수: (α form) 37.8 GPa`
 
-6. 양 decay_energy - 큰 쪽 Sm-146 (2.529 MeV)
-- 가 `wiki-ko-erbium:57` `0.330` = 0.33 MeV (표) 대상 Er-160, 양 decay_energy
-  - 줄: `| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |`
-- 나 `wiki-ko-samarium:59` `2.529` = 2.529 MeV (표) 대상 Sm-146, 양 decay_energy
-  - 줄: `| ¹⁴⁶Sm | 인공 | 1.03×10⁸y | α | 2.529 | ¹⁴²Nd |`
-
-7. 양 density - 큰 쪽 Er (9.066 g/cm³)
+6. 양 density - 큰 쪽 Er (9.066 g/cm³)
 - 가 `wiki-ko-erbium:19` `9.066 g/cm³` = 9.066 g/cm³ (정보 상자) 대상 Er, 양 density
   - 줄: `  - 밀도 (상온 근처): 9.066 g/cm³`
 - 나 `wiki-ko-samarium:19` `7.52 g/cm³` = 7.52 g/cm³ (정보 상자) 대상 Sm, 양 density
   - 줄: `  - 밀도 (상온 근처): 7.52 g/cm³`
 
-8. 양 density_liquid_at_mp - 큰 쪽 Er (8.86 g/cm³)
+7. 양 density_liquid_at_mp - 큰 쪽 Er (8.86 g/cm³)
 - 가 `wiki-ko-erbium:20` `8.86 g/cm³` = 8.86 g/cm³ (정보 상자) 대상 Er, 양 density_liquid_at_mp
   - 줄: `  - 액체(녹는점)일 때: 8.86 g/cm³`
 - 나 `wiki-ko-samarium:20` `7.16 g/cm³` = 7.16 g/cm³ (정보 상자) 대상 Sm, 양 density_liquid_at_mp
   - 줄: `  - 액체(녹는점)일 때: 7.16 g/cm³`
 
-9. 양 electrical_resistivity - 큰 쪽 Sm (0.94 µΩ·m)
+8. 양 electrical_resistivity - 큰 쪽 Sm (0.94 µΩ·m)
 - 가 `wiki-ko-erbium:40` `0.860 μ Ω·m` = 0.86 µΩ·m (정보 상자) 대상 Er, 양 electrical_resistivity
   - 줄: `  - 전기 저항도: (실온) (poly) 0.860 μ Ω·m`
 - 나 `wiki-ko-samarium:40` `0.940 μ Ω·m` = 0.94 µΩ·m (정보 상자) 대상 Sm, 양 electrical_resistivity
   - 줄: `  - 전기 저항도: (실온) (α, poly) 0.940 μ Ω·m`
 
-10. 양 electronegativity - 큰 쪽 Er (1.24)
+9. 양 electronegativity - 큰 쪽 Er (1.24)
 - 가 `wiki-ko-erbium:32` `1.24` = 1.24 (정보 상자) 대상 Er, 양 electronegativity
   - 줄: `  - 전기 음성도 (폴링 척도): 1.24`
 - 나 `wiki-ko-samarium:32` `1.17` = 1.17 (정보 상자) 대상 Sm, 양 electronegativity
   - 줄: `  - 전기 음성도 (폴링 척도): 1.17`
   - 표시: 반대 언어에 같은 숫자 1.17: wiki-en-isotopes-of-yttrium:86, wiki-en-isotopes-of-yttrium:87, wiki-en-isotopes-of-yttrium:88
 
-11. 양 excitation_energy - 큰 쪽 Tb-142m1 (280.2 keV)
+10. 양 excitation_energy - 큰 쪽 Tb-142m1 (280.2 keV)
 - 가 `wiki-ko-isotopes-of-neodymium:28` `127.97(11) keV` = 127.97 keV (표) 대상 Nd-133m1, 양 excitation_energy
   - 줄: `| ¹³³ᵐ¹Nd | 127.97(11) keV | 127.97(11) keV | 127.97(11) keV | ~70 s | β⁺ | ¹³³Pr | (1/2)+ |  |  |`
 - 나 `wiki-ko-isotopes-of-terbium:24` `280.2(10) keV` = 280.2 keV (표) 대상 Tb-142m1, 양 excitation_energy
   - 줄: `| ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |`
 
-12. 양 half_life - 큰 쪽 Er-160 (28.58 h)
+11. 양 half_life - 큰 쪽 Er-160 (28.58 h)
 - 가 `wiki-ko-erbium:57` `28.58 h` = 28.58 h (표) 대상 Er-160, 양 half_life
   - 줄: `| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |`
 - 나 `wiki-ko-isotopes-of-neodymium:15` `600(150) ms` = 600 ms (표) 대상 Nd-125, 양 half_life
   - 줄: `| ¹²⁵Nd | 60 | 65 | 124.94888(43)# | 600(150) ms |  |  | 5/2(+#) |  |  |`
   - 표시: 반대 언어에 같은 숫자 600: wiki-en-europium:146, wiki-en-europium:156
 
-13. 양 heat_of_fusion - 큰 쪽 Er (19.9 kJ/mol)
+12. 양 heat_of_fusion - 큰 쪽 Er (19.9 kJ/mol)
 - 가 `wiki-ko-erbium:21` `19.90 kJ/mol` = 19.9 kJ/mol (정보 상자) 대상 Er, 양 heat_of_fusion
   - 줄: `  - 융해열: 19.90 kJ/mol`
 - 나 `wiki-ko-samarium:21` `8.62 kJ/mol` = 8.62 kJ/mol (정보 상자) 대상 Sm, 양 heat_of_fusion
   - 줄: `  - 융해열: 8.62 kJ/mol`
 
-14. 양 heat_of_vaporization - 큰 쪽 Er (280 kJ/mol)
+13. 양 heat_of_vaporization - 큰 쪽 Er (280 kJ/mol)
 - 가 `wiki-ko-erbium:22` `280 kJ/mol` = 280 kJ/mol (정보 상자) 대상 Er, 양 heat_of_vaporization
   - 줄: `  - 기화열: 280 kJ/mol`
   - 표시: 반대 언어에 같은 숫자 280: wiki-en-dysprosium:22
@@ -102,43 +96,43 @@
   - 줄: `  - 기화열: 165 kJ/mol`
   - 표시: 반대 언어에 같은 숫자 165: wiki-en-thulium:113, wiki-en-dysprosium:126, wiki-en-europium:50
 
-15. 양 ionization_energy, 조건 1st - 큰 쪽 Er (589.3 kJ/mol)
+14. 양 ionization_energy, 조건 1st - 큰 쪽 Er (589.3 kJ/mol)
 - 가 `wiki-ko-erbium:33` `589.3 kJ/mol` = 589.3 kJ/mol (정보 상자) 대상 Er, 양 ionization_energy, 조건 1st
   - 줄: `  - 이온화 에너지: 1차: 589.3 kJ/mol, 2차: 1150 kJ/mol, 3차: 2194 kJ/mol`
 - 나 `wiki-ko-samarium:33` `544.5 kJ/mol` = 544.5 kJ/mol (정보 상자) 대상 Sm, 양 ionization_energy, 조건 1st
   - 줄: `  - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 2260 kJ/mol`
 
-16. 양 isotopic_mass - 큰 쪽 Tb-140 (139.94581 Da)
+15. 양 isotopic_mass - 큰 쪽 Tb-140 (139.94581 Da)
 - 가 `wiki-ko-isotopes-of-neodymium:23` `129.92851(3)` = 129.92851 Da (표) 대상 Nd-130, 양 isotopic_mass
   - 줄: `| ¹³⁰Nd | 60 | 70 | 129.92851(3) | 21(3) s | β⁺ | ¹³⁰Pr | 0+ |  |  |`
 - 나 `wiki-ko-isotopes-of-terbium:18` `139.94581(86)` = 139.94581 Da (표) 대상 Tb-140, 양 isotopic_mass
   - 줄: `| ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 2.4(2) s | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |`
 
-17. 양 lattice_constant, 조건 a - 큰 쪽 Y (364.83 pm)
+16. 양 lattice_constant, 조건 a - 큰 쪽 Y (364.83 pm)
 - 가 `wiki-ko-erbium:37` `355.93 pm` = 355.93 pm (정보 상자) 대상 Er, 양 lattice_constant, 조건 a
   - 줄: `  - 격자 상수: a = 355.93 pm / c = 558.49 pm (20 °C에서)`
 - 나 `wiki-ko-yttrium:37` `364.83 pm` = 364.83 pm (정보 상자) 대상 Y, 양 lattice_constant, 조건 a
   - 줄: `  - 격자 상수: a = 364.83 pm / c = 573.17 pm (20 °C에서)`
 
-18. 양 melting_point - 큰 쪽 Er (1770 K)
+17. 양 melting_point - 큰 쪽 Er (1770 K)
 - 가 `wiki-ko-erbium:17` `1770 K` = 1770 K (정보 상자) 대상 Er, 양 melting_point
   - 줄: `  - 녹는점: 1770 K`
 - 나 `wiki-ko-samarium:17` `1345 K` = 1345 K (정보 상자) 대상 Sm, 양 melting_point
   - 줄: `  - 녹는점: 1345 K`
 
-19. 양 molar_heat_capacity - 큰 쪽 Sm (29.54 J/(mol·K))
+18. 양 molar_heat_capacity - 큰 쪽 Sm (29.54 J/(mol·K))
 - 가 `wiki-ko-erbium:23` `28.12 J/(mol·K)` = 28.12 J/(mol·K) (정보 상자) 대상 Er, 양 molar_heat_capacity
   - 줄: `  - 몰열용량: 28.12 J/(mol·K)`
 - 나 `wiki-ko-samarium:23` `29.54 J/(mol·K)` = 29.54 J/(mol·K) (정보 상자) 대상 Sm, 양 molar_heat_capacity
   - 줄: `  - 몰열용량: 29.54 J/(mol·K)`
 
-20. 양 natural_abundance - 큰 쪽 Sm-144 (3.07 %)
+19. 양 natural_abundance - 큰 쪽 Sm-144 (3.07 %)
 - 가 `wiki-ko-erbium:58` `0.14%` = 0.14 % (표) 대상 Er-162, 양 natural_abundance
   - 줄: `| ¹⁶²Er | 0.14% | 안정 | 안정 | 안정 | 안정 |`
 - 나 `wiki-ko-samarium:58` `3.07%` = 3.07 % (표) 대상 Sm-144, 양 natural_abundance
   - 줄: `| ¹⁴⁴Sm | 3.07% | 안정 | 안정 | 안정 | 안정 |`
 
-21. 양 neutron_number - 큰 쪽 Tb-135 (70)
+20. 양 neutron_number - 큰 쪽 Tb-135 (70)
 - 가 `wiki-ko-isotopes-of-neodymium:14` `64` = 64 (표) 대상 Nd-124, 양 neutron_number
   - 줄: `| ¹²⁴Nd | 60 | 64 | 123.95223(64)# | 500# ms |  |  | 0+ |  |  |`
   - 표시: 반대 언어에 같은 숫자 64: wiki-en-ytterbium:53, wiki-en-isotopes-of-yttrium:116, wiki-en-isotopes-of-yttrium:117, wiki-en-isotopes-of-yttrium:130, wiki-en-isotopes-of-yttrium:131 외 1곳
@@ -146,13 +140,13 @@
   - 줄: `| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |`
   - 표시: 반대 언어에 같은 숫자 70: wiki-en-thulium:135, wiki-en-ytterbium:9, wiki-en-ytterbium:74, wiki-en-isotopes-of-yttrium:133, wiki-en-isotopes-of-yttrium:134 외 2곳
 
-22. 양 poisson_ratio - 큰 쪽 Sm (0.274)
+21. 양 poisson_ratio - 큰 쪽 Sm (0.274)
 - 가 `wiki-ko-erbium:45` `0.237` = 0.237 (정보 상자) 대상 Er, 양 poisson_ratio
   - 줄: `  - 푸아송 비: 0.237`
 - 나 `wiki-ko-samarium:46` `0.274` = 0.274 (정보 상자) 대상 Sm, 양 poisson_ratio
   - 줄: `  - 푸아송 비: (α form) 0.274`
 
-23. 양 proton_number - 큰 쪽 Tb-135 (65)
+22. 양 proton_number - 큰 쪽 Tb-135 (65)
 - 가 `wiki-ko-isotopes-of-neodymium:14` `60` = 60 (표) 대상 Nd-124, 양 proton_number
   - 줄: `| ¹²⁴Nd | 60 | 64 | 123.95223(64)# | 500# ms |  |  | 0+ |  |  |`
   - 표시: 반대 언어에 같은 숫자 60: wiki-en-isotopes-of-yttrium:46, wiki-en-isotopes-of-yttrium:101, wiki-en-isotopes-of-yttrium:102, wiki-en-neutron-capture-therapy:28
@@ -160,12 +154,18 @@
   - 줄: `| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |`
   - 표시: 반대 언어에 같은 숫자 65: wiki-en-dysprosium:142, wiki-en-isotopes-of-yttrium:81, wiki-en-isotopes-of-yttrium:118, wiki-en-isotopes-of-yttrium:119, wiki-en-isotopes-of-yttrium:120
 
-24. 양 shear_modulus - 큰 쪽 Er (28.3 GPa)
+23. 양 shear_modulus - 큰 쪽 Er (28.3 GPa)
 - 가 `wiki-ko-erbium:42` `28.3 GPa` = 28.3 GPa (정보 상자) 대상 Er, 양 shear_modulus
   - 줄: `  - 전단 탄성 계수: 28.3 GPa`
   - 표시: 반대 언어에 같은 숫자 28.3: wiki-en-dysprosium:71
 - 나 `wiki-ko-samarium:43` `19.5 GPa` = 19.5 GPa (정보 상자) 대상 Sm, 양 shear_modulus
   - 줄: `  - 전단 탄성 계수: (α form) 19.5 GPa`
+
+24. 양 speed_of_sound_thin_rod - 큰 쪽 Er (2830 m/s)
+- 가 `wiki-ko-erbium:44` `2830 m/s` = 2830 m/s (정보 상자) 대상 Er, 양 speed_of_sound_thin_rod
+  - 줄: `  - 음속 (얇은 막대): 2830 m/s (20 °C)`
+- 나 `wiki-ko-samarium:45` `2130 m/s` = 2130 m/s (정보 상자) 대상 Sm, 양 speed_of_sound_thin_rod
+  - 줄: `  - 음속 (얇은 막대): 2130 m/s (20 °C)`
 
 ### B 표·수치·조건 단독 (12)
 
@@ -191,8 +191,8 @@
   - 표시: 반대 언어에 같은 숫자 600: wiki-en-europium:146, wiki-en-europium:156
 
 6. 표 칸
-- `wiki-ko-erbium:60` `0.376` = 0.376 MeV (표) 대상 Er-165, 양 decay_energy
-  - 줄: `| ¹⁶⁵Er | 인공 | 10.36 h | ε | 0.376 | ¹⁶⁵Ho |`
+- `wiki-ko-erbium:57` `0.330` = 0.33 MeV (표) 대상 Er-160, 양 decay_energy
+  - 줄: `| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |`
 
 7. 표 칸
 - `wiki-ko-isotopes-of-neodymium:17` `1.8(4) s` = 1.8 s (표) 대상 Nd-127, 양 half_life
@@ -203,9 +203,10 @@
 - `wiki-ko-isotopes-of-terbium:12` `0.94(+33-22) ms` = 0.94 ms (표) 대상 Tb-135, 양 half_life
   - 줄: `| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |`
 
-9. 표 칸
-- `wiki-ko-samarium:60` `2.310` = 2.31 MeV (표) 대상 Sm-147, 양 decay_energy
-  - 줄: `| ¹⁴⁷Sm | 14.99% | 1.06×10¹¹y | α | 2.310 | ¹⁴³Nd |`
+9. 본문·정보 상자, 조건이 다른 같은 대상·양이 같은 문서에 있음
+- `wiki-ko-samarium:33` `1070 kJ/mol` = 1070 kJ/mol (정보 상자) 대상 Sm, 양 ionization_energy, 조건 2nd
+  - 줄: `  - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 2260 kJ/mol`
+  - 표시: 반대 언어에 같은 숫자 1070: wiki-en-samarium-cobalt-magnet:14
 
 10. 본문·정보 상자, 조건이 다른 같은 대상·양이 같은 문서에 있음
 - `wiki-ko-yttrium:37` `573.17 pm` = 573.17 pm (정보 상자) 대상 Y, 양 lattice_constant, 조건 c

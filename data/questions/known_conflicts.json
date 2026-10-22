@@ -1,6 +1,37 @@
 [
  {
   "section": "같은 문서",
+  "text": "BNCT clinical trials in the United States resumption_year: `wiki-en-neutron-capture-therapy` 101줄 until the 1990s / `wiki-en-neutron-capture-therapy` 111줄 mid-1990s",
+  "object": "BNCT clinical trials in the United States",
+  "quantity": "resumption_year",
+  "condition": "",
+  "targets": [
+   {
+    "doc_id": "wiki-en-neutron-capture-therapy",
+    "quotes": [
+     "It was not until the 1950s that the first clinical trials were initiated by Farr at the Brookhaven National Laboratory (BNL) in New York and by Sweet and Brownell at the Massachusetts General Hospital (MGH) using the Massachusetts Institute of Technology (MIT) nuclear reactor (MITR) and several different low-molecular-weight boron compounds as the boron delivery agent. However, the results of these studies were disappointing, and no further clinical trials were carried out in the United States until the 1990s.",
+     "BNCT of patients with brain tumors was resumed in the United States in the mid-1990s by Chanana, Diaz, and Coderre and their co-workers at the Brookhaven National Laboratory using the Brookhaven Medical Research Reactor (BMRR) and at Harvard/Massachusetts Institute of Technology (MIT) using the MIT Research Reactor (MITR)."
+    ],
+    "values": [
+     "1990"
+    ],
+    "places": [
+     {
+      "line": 101,
+      "label": "",
+      "raw": "until the 1990s"
+     },
+     {
+      "line": 111,
+      "label": "",
+      "raw": "mid-1990s"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "section": "같은 문서",
   "text": "Eu 밀도(density): `wiki-en-europium` 19줄 5.246 g/cm³ / `wiki-en-europium` 80줄 about 5.24 g/cm³",
   "object": "Eu",
   "quantity": "density",
@@ -437,6 +468,37 @@
       "line": 93,
       "label": "",
       "raw": "1901년"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "section": "같은 문서",
+  "text": "Sm-149 반감기(half_life): `wiki-ko-samarium` 62줄 >2×10¹⁵ y / `wiki-ko-samarium` 89줄 2×10¹⁵년 이상",
+  "object": "Sm-149",
+  "quantity": "half_life",
+  "condition": "",
+  "targets": [
+   {
+    "doc_id": "wiki-ko-samarium",
+    "quotes": [
+     "| ¹⁴⁹Sm | 13.82% | >2×10¹⁵ y | α | 1.870 | ¹⁴⁵Nd |",
+     "자연에 존재하는 사마륨은 1g 당 128Bq의 방사능을 나타낸다. 네 개의 안정한 동위 원소(¹⁴⁴Sm, ¹⁵⁰Sm, ¹⁵²Sm, ¹⁵⁴Sm)와 세 개의 방사성 동위 원소(¹⁴⁷Sm, ¹⁴⁸Sm, ¹⁴⁹Sm)가 존재하며, 이 중 가장 많이 존재하는 것은 ¹⁵²Sm이다. 방사성 동위 원소 세 가지는 모두 반감기가 매우 긴 편이며(¹⁴⁷Sm은 반감기 1.06×10¹¹년, ¹⁴⁸Sm은 반감기 7×10¹⁵년)이며, 이들 중 ¹⁴⁹Sm은 자료에 따라 반감기 2×10¹⁵년 이상인 방사성 동위 원소로 분류되기도 하고 안정한 동위 원소로 분류되기도 한다."
+    ],
+    "values": [
+     "10"
+    ],
+    "places": [
+     {
+      "line": 62,
+      "label": "반감기",
+      "raw": ">2×10¹⁵ y"
+     },
+     {
+      "line": 89,
+      "label": "",
+      "raw": "2×10¹⁵년 이상"
      }
     ]
    }
@@ -10082,6 +10144,84 @@
       "line": 72,
       "label": "abundance",
       "raw": "12.9%"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "section": "반대 언어",
+  "text": "majority of remaining radioactive ytterbium isotopes 반감기(half_life): `wiki-ko-ytterbium` 117줄 20분 / `wiki-en-ytterbium` 119줄 less than 20 minutes",
+  "object": "majority of remaining radioactive ytterbium isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "targets": [
+   {
+    "doc_id": "wiki-ko-ytterbium",
+    "quotes": [
+     "자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다."
+    ],
+    "values": [
+     "20"
+    ],
+    "places": [
+     {
+      "line": 117,
+      "label": "",
+      "raw": "20분"
+     }
+    ]
+   },
+   {
+    "doc_id": "wiki-en-ytterbium",
+    "quotes": [
+     "Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds)."
+    ],
+    "values": [
+     "20"
+    ],
+    "places": [
+     {
+      "line": 119,
+      "label": "",
+      "raw": "less than 20 minutes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "section": "반대 언어",
+  "text": "remaining radioactive ytterbium isotopes 반감기(half_life): `wiki-ko-ytterbium` 117줄 2시간 / `wiki-en-ytterbium` 119줄 less than 2 hours",
+  "object": "remaining radioactive ytterbium isotopes",
+  "quantity": "half_life",
+  "condition": "",
+  "targets": [
+   {
+    "doc_id": "wiki-ko-ytterbium",
+    "quotes": [
+     "자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다."
+    ],
+    "values": [],
+    "places": [
+     {
+      "line": 117,
+      "label": "",
+      "raw": "2시간"
+     }
+    ]
+   },
+   {
+    "doc_id": "wiki-en-ytterbium",
+    "quotes": [
+     "Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds)."
+    ],
+    "values": [],
+    "places": [
+     {
+      "line": 119,
+      "label": "",
+      "raw": "less than 2 hours"
      }
     ]
    }

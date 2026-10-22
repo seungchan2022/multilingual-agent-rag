@@ -1,4 +1,8 @@
 {
+ "BNCT clinical trials in the United States|resumption_year|": {
+  "verdict": "부딪힘",
+  "why": "101줄 until the 1990s(1990년대)와 111줄 mid-1990s(1990년대 중반): 덜 자세하게 적은 때(Codex 1차 지적 2로 연대를 고친 뒤 생긴 묶음)"
+ },
  "Dy-154|half_life|": {
   "verdict": "부딪힘",
   "why": "3.0×10⁶년과 1.40×10⁶년"
@@ -280,8 +284,8 @@
   "why": "30명이 같다"
  },
  "Sm-149|half_life|": {
-  "verdict": "부딪힘 아님",
-  "why": ">2×10¹⁵년과 2×10¹⁵년 이상은 같은 하한"
+  "verdict": "부딪힘",
+  "why": "표 >2×10¹⁵ y(보다 길다)와 본문 2×10¹⁵년 이상(≥)은 부등호가 달라 다른 값(Codex 1차 지적 1로 고침. 처음에는 같은 하한으로 보고 부딪힘 아님)"
  },
  "Sm|discovery|": {
   "verdict": "부딪힘 아님",
@@ -767,17 +771,21 @@
   "verdict": "부딪힘",
   "why": "1960년대와 1967년(덜 자세한 때)"
  },
+ "majority of remaining radioactive ytterbium isotopes|half_life|": {
+  "verdict": "부딪힘",
+  "why": "한국어 대부분 20분 이하(≤)와 영어 the majority … less than 20 minutes(<)는 부등호가 달라 다른 값(위와 같은 까닭)"
+ },
  "mischmetal|lanthanum_content|": {
   "verdict": "부딪힘",
   "why": "50% 넘게와 25–45%"
  },
- "other Yb radioactive isotopes|half_life|": {
-  "verdict": "부딪힘 아님",
-  "why": "'모두 2시간을 넘지 않음'과 '대부분 20분 이하'는 다른 말"
- },
  "praseodymium nitrate|complex_stoichiometry|": {
   "verdict": "부딪힘 아님",
   "why": "4:3과 1:1 두 착물이 함께 있다는 말"
+ },
+ "remaining radioactive ytterbium isotopes|half_life|": {
+  "verdict": "부딪힘",
+  "why": "한국어 2시간을 넘지 않으며(≤)와 영어 less than 2 hours(<)는 부등호가 달라 다른 값(Codex 1차 지적 1과 같은 까닭으로 대상 열쇠를 맞춘 뒤 생긴 묶음)"
  },
  "sintered samarium-cobalt magnet|curie_temperature|": {
   "verdict": "부딪힘",

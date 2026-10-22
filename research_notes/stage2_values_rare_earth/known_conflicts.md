@@ -2,8 +2,9 @@
 
 이 목록은 코퍼스 20개 문서에서 같은 대상의 같은 양이 문서끼리, 또는 한 문서 안에서 서로 다른 값으로 적힌 곳이다. 문제의 정답이나 근거 구절로 쓰면 안 된다. 값 목록(`values.json`)에서 (대상, 양, 조건)이 같은 자리끼리 묶고, 숫자가 정확히 같은 경우만 같은 값으로 보았다(반올림·어림·범위·단위 환산이 정확히 같지 않으면 다른 값). 그 기준은 decisions/stage2.md 2026-10-22 '희토류 원소 값 목록의 "다른 값" 기준' 줄에 있다. 읽어야 하는 묶음은 AI(Claude)가 원문을 읽고 부딪히는지 판정했다(`verdicts.json`). 숫자를 낱말로 적어 값 목록에 없는 부딪힘은 AI가 찾은 것만 손으로 더했다(`verdicts.json`의 manual). 한계: 숫자가 없는 본문 문장은 비교하지 않았다(decisions/stage2.md 2026-10-22 '희토류 원소 값 목록에 넣는 값' ㉣).
 
-## 같은 문서 (20개)
+## 같은 문서 (22개)
 
+- BNCT clinical trials in the United States resumption_year: `wiki-en-neutron-capture-therapy` 101줄 until the 1990s / `wiki-en-neutron-capture-therapy` 111줄 mid-1990s
 - Eu 밀도(density): `wiki-en-europium` 19줄 5.246 g/cm³ / `wiki-en-europium` 80줄 about 5.24 g/cm³
 - Eu 최초 분리(first_isolation): `wiki-en-europium` 55줄 1937 / `wiki-en-europium` 74줄 1901 / `wiki-en-europium` 192줄 1901 / `wiki-en-europium` 198줄 1937
 - Eu 녹는점(melting_point): `wiki-en-europium` 17줄 1099 K ​(826 °C, ​1519 °F) / `wiki-en-europium` 80줄 822 °C (1,095 K)
@@ -17,6 +18,7 @@
 - Pr 원자 반지름(atomic_radius) [조건 empirical]: `wiki-en-praseodymium` 35줄 182 pm / `wiki-en-praseodymium` 75줄 usually 185 pm
 - Pr crustal_abundance: `wiki-en-praseodymium` 69줄 9.1 parts per million / `wiki-en-praseodymium` 128줄 9.2 mg/kg
 - Sm 최초 분리(first_isolation): `wiki-ko-samarium` 53줄 1903 / `wiki-ko-samarium` 93줄 1901년
+- Sm-149 반감기(half_life): `wiki-ko-samarium` 62줄 >2×10¹⁵ y / `wiki-ko-samarium` 89줄 2×10¹⁵년 이상
 - Tb-161 반감기(half_life): `wiki-ko-isotopes-of-terbium` 87줄 6.906(19) d / `wiki-ko-isotopes-of-terbium` 3줄 6.9일
 - Tm2O3 price: `wiki-en-thulium` 123줄 US$4,600 and $13,300 / `wiki-en-thulium` 135줄 US$20 per gram
 - Y 산화 상태(oxidation_states): `wiki-ko-yttrium` 31줄 3 (약염기성 산화물) / `wiki-ko-yttrium` 89줄 +3 / `wiki-ko-yttrium` 93줄 +3 / `wiki-ko-yttrium` 99줄 0 / `wiki-ko-yttrium` 99줄 +2 / `wiki-ko-yttrium` 99줄 +1
@@ -63,7 +65,7 @@
 - Y-90 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 47줄 64.053(20) h / `wiki-en-isotopes-of-yttrium` 9줄 64.05 h / `wiki-en-isotopes-of-yttrium` 67줄 64.05(5) h / `wiki-ko-yttrium` 62·63줄 2.67d / `wiki-ko-isotopes-of-yttrium` 5줄 64.053시간 / `wiki-en-isotopes-of-yttrium` 15줄 64.05 hours
 - Y-91 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 50줄 β⁻ / `wiki-en-isotopes-of-yttrium` 10줄 β⁻ / `wiki-en-isotopes-of-yttrium` 70줄 β⁻ / `wiki-ko-yttrium` 64·65줄 β-, γ
 
-## 반대 언어 (160개)
+## 반대 언어 (162개)
 
 - Dy 원자 반지름(atomic_radius) [조건 empirical]: `wiki-ko-dysprosium` 34줄 175 pm / `wiki-en-dysprosium` 35줄 178 pm
 - Dy 브리넬 굳기(brinell_hardness): `wiki-ko-dysprosium` 48줄 500 MPa / `wiki-en-dysprosium` 52줄 500–1050 MPa
@@ -224,4 +226,6 @@
 - Yb-173 존재비(natural_abundance): `wiki-ko-ytterbium` 65줄 16.12% / `wiki-en-ytterbium` 69줄 16.1%
 - Yb-174 존재비(natural_abundance): `wiki-ko-ytterbium` 66줄 31.8% / `wiki-en-ytterbium` 70줄 31.9% / `wiki-ko-ytterbium` 117줄 31.8 % / `wiki-en-ytterbium` 119줄 31.90 %
 - Yb-176 존재비(natural_abundance): `wiki-ko-ytterbium` 68줄 12.7% / `wiki-en-ytterbium` 72줄 12.9%
+- majority of remaining radioactive ytterbium isotopes 반감기(half_life): `wiki-ko-ytterbium` 117줄 20분 / `wiki-en-ytterbium` 119줄 less than 20 minutes
+- remaining radioactive ytterbium isotopes 반감기(half_life): `wiki-ko-ytterbium` 117줄 2시간 / `wiki-en-ytterbium` 119줄 less than 2 hours
 - ytterbium lasers laser_wavelength: `wiki-ko-ytterbium` 155줄 1.06 - 1.12 마이크로미터 / `wiki-en-ytterbium` 187줄 1.03–1.12 μm

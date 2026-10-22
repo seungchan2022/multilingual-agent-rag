@@ -187,7 +187,9 @@
     "wiki-ko-ytterbium:155:0": {"object": "ytterbium lasers", "quantity": "laser_wavelength"},
     "wiki-ko-ytterbium:155:1": {"object": "ytterbium lasers", "quantity": "pump_wavelength"},
     "wiki-en-praseodymium:75:0": {"condition": "calculated"},
-    "wiki-en-neutron-capture-therapy:123:1": {"quantity": "mean_survival_months"}
+    "wiki-en-neutron-capture-therapy:123:1": {"quantity": "mean_survival_months"},
+    "wiki-ko-ytterbium:117:6": {"object": "remaining radioactive ytterbium isotopes"},
+    "wiki-ko-ytterbium:117:7": {"object": "majority of remaining radioactive ytterbium isotopes"}
   },
   "word": {
     "안정": "stable", "stable": "stable", "Stable": "stable",

@@ -13,7 +13,7 @@
     "wiki-ko-samarium",
     "wiki-ko-yttrium"
    ],
-   "eligible": 552,
+   "eligible": 539,
    "A": [
     {
      "rank": 1,
@@ -251,46 +251,6 @@
     },
     {
      "rank": 6,
-     "quantity": "decay_energy",
-     "condition": "",
-     "larger": "b",
-     "a": {
-      "id": "wiki-ko-erbium:57:3",
-      "doc_id": "wiki-ko-erbium",
-      "line": 57,
-      "raw": "0.330",
-      "object": "Er-160",
-      "quantity": "decay_energy",
-      "condition": "",
-      "where": "표",
-      "quote": "| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |",
-      "start": 29,
-      "end": 34,
-      "value": "0.33 MeV",
-      "flags": {
-       "opposite_number": []
-      }
-     },
-     "b": {
-      "id": "wiki-ko-samarium:59:3",
-      "doc_id": "wiki-ko-samarium",
-      "line": 59,
-      "raw": "2.529",
-      "object": "Sm-146",
-      "quantity": "decay_energy",
-      "condition": "",
-      "where": "표",
-      "quote": "| ¹⁴⁶Sm | 인공 | 1.03×10⁸y | α | 2.529 | ¹⁴²Nd |",
-      "start": 31,
-      "end": 36,
-      "value": "2.529 MeV",
-      "flags": {
-       "opposite_number": []
-      }
-     }
-    },
-    {
-     "rank": 7,
      "quantity": "density",
      "condition": "",
      "larger": "a",
@@ -330,7 +290,7 @@
      }
     },
     {
-     "rank": 8,
+     "rank": 7,
      "quantity": "density_liquid_at_mp",
      "condition": "",
      "larger": "a",
@@ -370,7 +330,7 @@
      }
     },
     {
-     "rank": 9,
+     "rank": 8,
      "quantity": "electrical_resistivity",
      "condition": "",
      "larger": "b",
@@ -410,7 +370,7 @@
      }
     },
     {
-     "rank": 10,
+     "rank": 9,
      "quantity": "electronegativity",
      "condition": "",
      "larger": "a",
@@ -459,7 +419,7 @@
      }
     },
     {
-     "rank": 11,
+     "rank": 10,
      "quantity": "excitation_energy",
      "condition": "",
      "larger": "b",
@@ -499,7 +459,7 @@
      }
     },
     {
-     "rank": 12,
+     "rank": 11,
      "quantity": "half_life",
      "condition": "",
      "larger": "a",
@@ -547,7 +507,7 @@
      }
     },
     {
-     "rank": 13,
+     "rank": 12,
      "quantity": "heat_of_fusion",
      "condition": "",
      "larger": "a",
@@ -587,7 +547,7 @@
      }
     },
     {
-     "rank": 14,
+     "rank": 13,
      "quantity": "heat_of_vaporization",
      "condition": "",
      "larger": "a",
@@ -643,7 +603,7 @@
      }
     },
     {
-     "rank": 15,
+     "rank": 14,
      "quantity": "ionization_energy",
      "condition": "1st",
      "larger": "a",
@@ -683,7 +643,7 @@
      }
     },
     {
-     "rank": 16,
+     "rank": 15,
      "quantity": "isotopic_mass",
      "condition": "",
      "larger": "b",
@@ -723,7 +683,7 @@
      }
     },
     {
-     "rank": 17,
+     "rank": 16,
      "quantity": "lattice_constant",
      "condition": "a",
      "larger": "b",
@@ -763,7 +723,7 @@
      }
     },
     {
-     "rank": 18,
+     "rank": 17,
      "quantity": "melting_point",
      "condition": "",
      "larger": "a",
@@ -803,7 +763,7 @@
      }
     },
     {
-     "rank": 19,
+     "rank": 18,
      "quantity": "molar_heat_capacity",
      "condition": "",
      "larger": "b",
@@ -843,7 +803,7 @@
      }
     },
     {
-     "rank": 20,
+     "rank": 19,
      "quantity": "natural_abundance",
      "condition": "",
      "larger": "b",
@@ -883,7 +843,7 @@
      }
     },
     {
-     "rank": 21,
+     "rank": 20,
      "quantity": "neutron_number",
      "condition": "",
      "larger": "b",
@@ -948,7 +908,7 @@
      }
     },
     {
-     "rank": 22,
+     "rank": 21,
      "quantity": "poisson_ratio",
      "condition": "",
      "larger": "b",
@@ -988,7 +948,7 @@
      }
     },
     {
-     "rank": 23,
+     "rank": 22,
      "quantity": "proton_number",
      "condition": "",
      "larger": "b",
@@ -1049,7 +1009,7 @@
      }
     },
     {
-     "rank": 24,
+     "rank": 23,
      "quantity": "shear_modulus",
      "condition": "",
      "larger": "a",
@@ -1090,6 +1050,46 @@
       "start": 23,
       "end": 31,
       "value": "19.5 GPa",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 24,
+     "quantity": "speed_of_sound_thin_rod",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:44:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 44,
+      "raw": "2830 m/s",
+      "object": "Er",
+      "quantity": "speed_of_sound_thin_rod",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 음속 (얇은 막대): 2830 m/s (20 °C)",
+      "start": 16,
+      "end": 24,
+      "value": "2830 m/s",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:45:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 45,
+      "raw": "2130 m/s",
+      "object": "Sm",
+      "quantity": "speed_of_sound_thin_rod",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 음속 (얇은 막대): 2130 m/s (20 °C)",
+      "start": 16,
+      "end": 24,
+      "value": "2130 m/s",
       "flags": {
        "opposite_number": []
       }
@@ -1196,18 +1196,18 @@
      "rank": 5
     },
     {
-     "id": "wiki-ko-erbium:60:3",
+     "id": "wiki-ko-erbium:57:3",
      "doc_id": "wiki-ko-erbium",
-     "line": 60,
-     "raw": "0.376",
-     "object": "Er-165",
+     "line": 57,
+     "raw": "0.330",
+     "object": "Er-160",
      "quantity": "decay_energy",
      "condition": "",
      "where": "표",
-     "quote": "| ¹⁶⁵Er | 인공 | 10.36 h | ε | 0.376 | ¹⁶⁵Ho |",
+     "quote": "| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |",
      "start": 29,
      "end": 34,
-     "value": "0.376 MeV",
+     "value": "0.33 MeV",
      "flags": {
       "opposite_number": []
      },
@@ -1257,20 +1257,27 @@
      "rank": 8
     },
     {
-     "id": "wiki-ko-samarium:60:3",
+     "id": "wiki-ko-samarium:33:1",
      "doc_id": "wiki-ko-samarium",
-     "line": 60,
-     "raw": "2.310",
-     "object": "Sm-147",
-     "quantity": "decay_energy",
-     "condition": "",
-     "where": "표",
-     "quote": "| ¹⁴⁷Sm | 14.99% | 1.06×10¹¹y | α | 2.310 | ¹⁴³Nd |",
-     "start": 36,
-     "end": 41,
-     "value": "2.31 MeV",
+     "line": 33,
+     "raw": "1070 kJ/mol",
+     "object": "Sm",
+     "quantity": "ionization_energy",
+     "condition": "2nd",
+     "where": "정보 상자",
+     "quote": "  - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 2260 kJ/mol",
+     "start": 35,
+     "end": 46,
+     "value": "1070 kJ/mol",
      "flags": {
-      "opposite_number": []
+      "opposite_number": [
+       {
+        "number": "1070",
+        "at": [
+         "wiki-en-samarium-cobalt-magnet:14"
+        ]
+       }
+      ]
      },
      "rank": 9
     },
@@ -1338,7 +1345,7 @@
     "wiki-en-praseodymium",
     "wiki-en-samarium-cobalt-magnet"
    ],
-   "eligible": 342,
+   "eligible": 339,
    "A": [
     {
      "rank": 1,
