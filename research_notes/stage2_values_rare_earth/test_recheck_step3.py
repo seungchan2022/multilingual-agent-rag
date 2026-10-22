@@ -20,12 +20,33 @@ def md_lines(doc_id):
     return rc.read_text(MD_DIR / f"{doc_id}.md").split("\n")
 
 
-def run_with(entries):
-    """항목들(대상 목록)로 임시 목록 파일을 만들어 재확인을 돌린다. {사실 번호: 결과}."""
+def run_with(entries, more=None):
+    """항목들(대상 목록)로 임시 목록 파일을 만들어 재확인을 돌린다. {사실 번호: 결과}.
+    more가 None이면 없는 confirm_more 파일을 가리킨다(진짜 confirm_more.json이 생겨도 시험이 흔들리지 않게). 리스트면 임시 파일로 쓴다."""
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / "conflicts.json"
         path.write_text(json.dumps(entries, ensure_ascii=False), encoding="utf-8")
-        return {r["no"]: r for r in rc.run(path)}
+        more_path = Path(tmp) / "confirm_more.json"
+        if more is not None:
+            more_path.write_text(json.dumps(more, ensure_ascii=False), encoding="utf-8")
+        return {r["no"]: r for r in rc.run(path, more_path)}
+
+
+def confirm_rows():
+    return json.loads((rc.STEP3 / "confirm.json").read_text(encoding="utf-8"))
+
+
+def more_record(base, **kw):
+    """confirm.json 기록 base를 확인한 것으로 채운 confirm_more 기록."""
+    m = {k: base[k] for k in ("no", "field", "lang", "side", "group", "in_table", "order_side")}
+    m.update(read_ok=True, truth="그 언어에만", note="시험용 메모")
+    m.update(kw)
+    return m
+
+
+def unconfirmed(lang="en"):
+    """3 세기 때 확인하지 못한 희토류 한 쪽 기록 가운데 첫째."""
+    return next(r for r in confirm_rows() if r["field"] == "rare_earth" and r["lang"] == lang and r["side"] == "one" and r["read_ok"] is None)
 
 
 def entry(doc_id, places, quotes, values):
@@ -124,6 +145,53 @@ class CountTest(unittest.TestCase):
         rows = json.loads((rc.STEP3 / "confirm.json").read_text(encoding="utf-8"))
         want = {r["no"] for r in rows if r["field"] == "rare_earth" and r["read_ok"] is True and r["truth"] == "그 언어에만"}
         self.assertEqual(set(run_with([])), want)
+
+
+class ConfirmMoreTest(unittest.TestCase):
+    def test_extra_record_adds_one_confirmed_fact(self):
+        base = unconfirmed("en")
+        before = run_with([])
+        after = run_with([], [more_record(base)])
+        self.assertEqual(len(after), len(before) + 1)
+        self.assertEqual(set(after) - set(before), {base["no"]})
+        self.assertEqual(after[base["no"]]["source"], rc.SRC_MORE)
+        self.assertEqual(after[base["no"]]["note"], "시험용 메모")
+        self.assertTrue(all(r["source"] == rc.SRC_STEP3 for no, r in after.items() if no != base["no"]))
+        s0, s1 = rc.summarize(list(before.values()), "en"), rc.summarize(list(after.values()), "en")
+        self.assertEqual(s1["확인됨"]["사실"], s0["확인됨"]["사실"] + 1)
+        self.assertEqual(s1["확인됨"]["표"], s0["확인됨"]["표"] + int(base["in_table"]))
+        self.assertEqual(s1["confirm_more 출처"]["사실"], 1)
+        self.assertEqual(s0["confirm_more 출처"]["사실"], 0)
+        self.assertEqual(rc.summarize(list(after.values()), "ko"), rc.summarize(list(before.values()), "ko"))
+
+    def test_record_not_confirmed_true_is_not_counted(self):
+        base = unconfirmed("en")
+        after = run_with([], [more_record(base, read_ok=True, truth="반대 언어에 있음")])
+        self.assertNotIn(base["no"], after)
+
+    def test_missing_file_gives_same_counts(self):
+        rows = [r for r in confirm_rows() if r["field"] == "rare_earth" and r["read_ok"] is True and r["truth"] == "그 언어에만"]
+        self.assertEqual({r["no"] for r in rows}, {r["no"] for r in rc.confirmed_facts(HERE / "no_such_file.json")})
+
+    def test_already_filled_record_is_error(self):
+        filled = next(r for r in confirm_rows() if r["field"] == "rare_earth" and r["read_ok"] is True and r["side"] == "one")
+        with self.assertRaises(SystemExit) as cm:
+            run_with([], [more_record(filled)])
+        self.assertIn(filled["no"], str(cm.exception))
+
+    def test_unknown_no_is_error(self):
+        with self.assertRaises(SystemExit) as cm:
+            run_with([], [more_record(unconfirmed(), no="R-en-99999")])
+        self.assertIn("R-en-99999", str(cm.exception))
+
+    def test_changed_group_or_duplicate_is_error(self):
+        base = unconfirmed()
+        with self.assertRaises(SystemExit) as cm:
+            run_with([], [more_record(base, group="en-one-xxx")])
+        self.assertIn(base["no"], str(cm.exception))
+        with self.assertRaises(SystemExit) as cm:
+            run_with([], [more_record(base), more_record(base)])
+        self.assertIn(base["no"], str(cm.exception))
 
 
 if __name__ == "__main__":

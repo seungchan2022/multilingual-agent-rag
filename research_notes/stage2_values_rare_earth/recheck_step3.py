@@ -2,12 +2,15 @@
 
 실행: .venv/bin/python research_notes/stage2_values_rare_earth/recheck_step3.py [부딪히는 값 목록 경로]
       (경로를 주지 않으면 data/questions/known_conflicts.json)
-읽는 것(읽기만 한다): step3/confirm.json, step3/results.json, step3/md/*.md, data/corpus/documents.yaml,
+읽는 것(읽기만 한다): step3/confirm.json, confirm_more.json(있을 때만), step3/results.json, step3/md/*.md, data/corpus/documents.yaml,
                     data/corpus/markdown/*.md, values.json, 부딪히는 값 목록
 쓰는 것: recheck_step3.json
 
 2단계 기준: 언어마다 한 쪽에만 있는 확인된 사실(side == "one")이 18개 이상이고, 그 가운데 표(in_table)가 3개 이상.
 확인된 사실 = confirm.json에서 field == "rare_earth", read_ok == true, truth == "그 언어에만"인 기록.
+confirm_more.json(있을 때만)은 3 세기 때 확인하지 못한 기록(read_ok, truth가 null)을 나중에 확인한 것이다.
+같은 no의 confirm.json 기록에 read_ok, truth, note만 덮어 합친다. 그 no가 confirm.json에 없거나, field, lang, side, group이 다르거나,
+confirm.json에서 이미 채워져 있거나, confirm_more에 같은 no가 두 번 있으면 오류로 멈춘다. 사실마다 출처(source)를 "3 세기"나 "confirm_more"로 적는다.
 
 사실 하나는 값 묶음(group)의 언급(mention)들로 3 세기 마크다운에 있다. 언급을 오늘의 문서에서 찾는다.
   1) 옛 줄이 오늘 문서에 줄 하나로 정확히 한 번 있으면 줄 안 위치를 그대로 쓴다.
@@ -44,6 +47,9 @@ MD_DIR = ROOT / "data" / "corpus" / "markdown"
 VALUES = HERE / "values.json"
 OUT = HERE / "recheck_step3.json"
 DEFAULT_CONFLICTS = ROOT / "data" / "questions" / "known_conflicts.json"
+CONFIRM_MORE = HERE / "confirm_more.json"
+SRC_STEP3 = "3 세기"
+SRC_MORE = "confirm_more"
 
 NEED_ONE = 18        # 언어마다 한 쪽에만 있는 확인된 사실의 하한
 NEED_TABLE = 3       # 그 가운데 표의 하한
@@ -61,10 +67,34 @@ def read_text(path):
 
 
 # --- 입력 -------------------------------------------------------------------
-def confirmed_facts():
-    """confirm.json에서 확인된 희토류 사실(그 언어에만)."""
+def merged_confirm(more_path):
+    """confirm.json 기록에 confirm_more의 read_ok, truth, note를 덮어 합친다. 기록마다 source를 붙인다."""
     rows = json.loads((STEP3 / "confirm.json").read_text(encoding="utf-8"))
-    return [r for r in rows if r.get("field") == "rare_earth" and r.get("read_ok") is True and r.get("truth") == "그 언어에만"]
+    rows = [dict(r, source=SRC_STEP3) for r in rows]
+    if not Path(more_path).exists():
+        return rows
+    by_no = {r["no"]: r for r in rows}
+    seen = set()
+    for m in json.loads(Path(more_path).read_text(encoding="utf-8")):
+        no = m["no"]
+        if no in seen:
+            sys.exit(f"오류: confirm_more에 {no}가 두 번 있음")
+        seen.add(no)
+        base = by_no.get(no)
+        if base is None:
+            sys.exit(f"오류: confirm_more의 {no}가 confirm.json에 없음")
+        for k in ("field", "lang", "side", "group"):
+            if m[k] != base[k]:
+                sys.exit(f"오류: confirm_more의 {no}의 {k}({m[k]})가 confirm.json({base[k]})과 다름")
+        if base["read_ok"] is not None or base["truth"] is not None:
+            sys.exit(f"오류: confirm_more의 {no}는 confirm.json에 이미 채워져 있어 덮어쓸 수 없음")
+        base.update(read_ok=m["read_ok"], truth=m["truth"], note=m["note"], source=SRC_MORE)
+    return rows
+
+
+def confirmed_facts(more_path=CONFIRM_MORE):
+    """확인된 희토류 사실(그 언어에만)."""
+    return [r for r in merged_confirm(more_path) if r.get("field") == "rare_earth" and r.get("read_ok") is True and r.get("truth") == "그 언어에만"]
 
 
 def old_groups():
@@ -194,7 +224,7 @@ def check_fact(fact, groups, docs, doc_ids, records, targets, cache):
     use_b = [m for m in found if m["B"] == OK]
     use_b_slot = [m for m in use_b if m["slot"] != NO_SLOT]
     return {
-        "no": fact["no"], "lang": fact["lang"], "side": fact["side"], "in_table": fact["in_table"], "note": fact["note"],
+        "no": fact["no"], "source": fact["source"], "lang": fact["lang"], "side": fact["side"], "in_table": fact["in_table"], "note": fact["note"],
         "mentions": ments,
         "A": bool(use_a), "B": bool(use_b),
         "A_strict": bool(use_a) and not any(m["A"] == BLOCKED for m in found),
@@ -203,7 +233,7 @@ def check_fact(fact, groups, docs, doc_ids, records, targets, cache):
     }
 
 
-def run(conflicts_path):
+def run(conflicts_path, more_path=CONFIRM_MORE):
     groups, docs = old_groups()
     doc_ids = today_doc_ids()
     records = {}
@@ -211,7 +241,7 @@ def run(conflicts_path):
         records.setdefault((r["doc_id"], r["line"]), []).append(r)
     targets = load_conflicts(conflicts_path)
     cache = {}
-    return [check_fact(f, groups, docs, doc_ids, records, targets, cache) for f in confirmed_facts()]
+    return [check_fact(f, groups, docs, doc_ids, records, targets, cache) for f in confirmed_facts(more_path)]
 
 
 def summarize(results, lang):
@@ -222,7 +252,8 @@ def summarize(results, lang):
         sel = [r for r in rows if (key(r) if callable(key) else r[key])]
         return {"사실": len(sel), "표": sum(r["in_table"] for r in sel)}
 
-    out = {"확인됨": count(lambda r: True), "A": count("A"), "B": count("B"), "A 엄격": count("A_strict"), "B 엄격": count("B_strict"),
+    out = {"확인됨": count(lambda r: True), "A": count("A"), "B": count("B"), "confirm_more 출처": count(lambda r: r["source"] == SRC_MORE),
+           "A 엄격": count("A_strict"), "B 엄격": count("B_strict"),
            "B만 자리 없이": count("B_only_without_slot")}
     for k in ("확인됨", "A", "B", "A 엄격", "B 엄격"):
         out[k]["기준"] = "충족" if out[k]["사실"] >= NEED_ONE and out[k]["표"] >= NEED_TABLE else "미달"
