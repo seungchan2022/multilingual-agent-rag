@@ -1,0 +1,808 @@
+{
+ "Dy-154|half_life|": {
+  "verdict": "부딪힘",
+  "why": "3.0×10⁶년과 1.40×10⁶년"
+ },
+ "Dy-156|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "0.06%와 0.056%"
+ },
+ "Dy-162|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "25.51%, 25.5%, 26%"
+ },
+ "Dy-164|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "28.18%, 28.3%, 28%"
+ },
+ "Dy|appearance|": {
+  "verdict": "부딪힘 아님",
+  "why": "은백색과 silvery white는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Dy|block|": {
+  "verdict": "부딪힘 아님",
+  "why": "f-구역과 f-block은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Dy|crystal_structure|": {
+  "verdict": "부딪힘 아님",
+  "why": "조밀 육방 격자와 hexagonal close-packed는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Dy|discovery|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1886년이고 영어 정보 상자에 발견자 이름만 더 적혔다"
+ },
+ "Dy|first_isolation|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자는 1905년, 본문은 1950년대(순수한 분리)라 첫 분리 해가 갈린다"
+ },
+ "Dy|group|": {
+  "verdict": "부딪힘 아님",
+  "why": "n/a와 'f-block groups (no number)'는 족 번호가 없다는 같은 뜻"
+ },
+ "Dy|magnetic_ordering|": {
+  "verdict": "부딪힘",
+  "why": "한국어는 강자성, 영어는 300 K에서 상자성"
+ },
+ "Dy|naming|": {
+  "verdict": "부딪힘 아님",
+  "why": "둘 다 그리스어 '얻기 어려운'에서 왔다는 같은 뜻(영어는 까닭을 더 적음)"
+ },
+ "Dy|oxidation_states|": {
+  "verdict": "부딪힘",
+  "why": "한국어 정보 상자는 3만, 영어는 +3과 0, +2, +4를 적어 목록이 다르다"
+ },
+ "Dy|period|": {
+  "verdict": "부딪힘 아님",
+  "why": "6주기와 period 6은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Dy|price|": {
+  "verdict": "부딪힘 아님",
+  "why": "해(2003, 2010, 2011, 2015, 2025)마다 다른 값"
+ },
+ "Dy|production_share|": {
+  "verdict": "부딪힘 아님",
+  "why": "나라(중국, 미얀마, 오스트레일리아)마다 다른 값"
+ },
+ "Dy|volume_magnetic_susceptibility|": {
+  "verdict": "부딪힘 아님",
+  "why": "두 곳 모두 ≈ 5.44×10⁻³(한국어의 ≒가 덧붙인 말로 들어가 어림 표시가 달라 보였다)"
+ },
+ "Eu-151|half_life|": {
+  "verdict": "부딪힘",
+  "why": "4.6×10¹⁸년, 약 4.6×10¹⁸년, 4.62×10¹⁸년"
+ },
+ "Eu-151|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "47.8%와 47.81%"
+ },
+ "Eu-153|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "52.2%와 52.19%"
+ },
+ "EuB6|transition_temperature|": {
+  "verdict": "부딪힘 아님",
+  "why": "가까운 두 전이의 온도(15.5 K, 12.6 K)라 서로 다른 값"
+ },
+ "Eu|density|": {
+  "verdict": "부딪힘",
+  "why": "5.246과 약 5.24 g/cm³"
+ },
+ "Eu|discovery|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1896년이고 정보 상자에 발견자 이름만 더 적혔다"
+ },
+ "Eu|first_isolation|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자는 1937년, 본문은 1901년(순수한 물질)과 1937년(금속)이라 첫 분리 해가 갈린다"
+ },
+ "Eu|melting_point|": {
+  "verdict": "부딪힘",
+  "why": "1099 K(826 °C)와 822 °C(1,095 K)"
+ },
+ "FiR1, Finland|median_survival_months|": {
+  "verdict": "부딪힘 아님",
+  "why": "재발 환자 7.0개월과 본문 7개월이 같다(표의 11.0–21.9는 원발 환자)"
+ },
+ "FiR1, Finland|patients_and_trial_years|": {
+  "verdict": "부딪힘 아님",
+  "why": "표는 FiR1 시험 50명, 본문의 200여 명은 두경부암 환자까지 합친 다른 수"
+ },
+ "Helsinki University Hospital, Helsinki, Finland|first_clinical_use_year|": {
+  "verdict": "부딪힘",
+  "why": "표는 N/A, 본문은 2022년에 시작한다고 적었다"
+ },
+ "JRR4, Japan|median_survival_months|": {
+  "verdict": "부딪힘 아님",
+  "why": "27.1개월이 같다(표의 10.8은 재발 환자)"
+ },
+ "KURRI, Japan|delivery_agent_dose|": {
+  "verdict": "부딪힘 아님",
+  "why": "BPA 500 mg/kg이 같고 본문의 BSH 100 mg/kg은 다른 약제"
+ },
+ "KURRI, Japan|median_survival_months|": {
+  "verdict": "부딪힘 아님",
+  "why": "23.5개월이 같다"
+ },
+ "KURRI, Japan|patients_and_trial_years|": {
+  "verdict": "부딪힘 아님",
+  "why": "표는 KURRI 전체 40명, 본문 10명은 첫 시험의 수"
+ },
+ "La-137|half_life|": {
+  "verdict": "부딪힘",
+  "why": "6×10⁴년과 약 60,000년(어림 표시가 다르다)"
+ },
+ "La2O3|coordination_number|": {
+  "verdict": "부딪힘 아님",
+  "why": "다른 구조의 배위수(육방 7, 바뀐 구조 6)"
+ },
+ "La2O3|price|": {
+  "verdict": "부딪힘 아님",
+  "why": "때마다 다른 값"
+ },
+ "La|discovery|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자 1838년, 본문 1839년"
+ },
+ "La|electrical_resistivity|": {
+  "verdict": "부딪힘 아님",
+  "why": "615 nΩ⋅m와 615 nΩm는 단위 표기만 다르다"
+ },
+ "La|group|": {
+  "verdict": "부딪힘",
+  "why": "영어 란타넘 문서는 족 번호가 없다고, 한국어 이트륨 문서는 3족이라 적었다"
+ },
+ "La|melting_point|": {
+  "verdict": "부딪힘 아님",
+  "why": "본문 920 °C는 정보 상자가 1193 K와 함께 적은 920 °C와 같다"
+ },
+ "La|oxidation_states|": {
+  "verdict": "부딪힘 아님",
+  "why": "본문의 +3, +2가 모두 정보 상자 목록(+3 / 0, +1, +2) 안에 있다"
+ },
+ "La|period|": {
+  "verdict": "부딪힘 아님",
+  "why": "period 6과 6주기는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "La|phase_transition_temperature|": {
+  "verdict": "부딪힘 아님",
+  "why": "다른 두 전이(β-La 310 °C, γ-La 865 °C)"
+ },
+ "Lu-174|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "ε와 β⁺"
+ },
+ "Lu-176|half_life|": {
+  "verdict": "부딪힘",
+  "why": "3.78×10¹⁰년, 3.701×10¹⁰년, 약 380억 년, 3.70×10¹⁰년"
+ },
+ "Lu-176|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "2.59%, 2.60%, 2.5%, 2.6%, 약 2.6%"
+ },
+ "Lu-177|half_life|": {
+  "verdict": "부딪힘",
+  "why": "6.6443일, 6.693일, 약 7일"
+ },
+ "Lu|appearance|": {
+  "verdict": "부딪힘 아님",
+  "why": "은백색과 silvery white는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Lu|block|": {
+  "verdict": "부딪힘 아님",
+  "why": "d-구역과 d-block은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Lu|brinell_hardness|": {
+  "verdict": "부딪힘",
+  "why": "893 MPa와 890–1300 MPa"
+ },
+ "Lu|cassiopeium_name_used_until|": {
+  "verdict": "부딪힘",
+  "why": "1949년(독일)과 1950년대"
+ },
+ "Lu|crystal_structure|": {
+  "verdict": "부딪힘 아님",
+  "why": "조밀 육방 격자와 hexagonal close-packed는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Lu|density|": {
+  "verdict": "부딪힘",
+  "why": "9.841과 9.840 g/cm³"
+ },
+ "Lu|discovery|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자 1906년, 본문 1907년"
+ },
+ "Lu|first_isolation|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1953년"
+ },
+ "Lu|group|": {
+  "verdict": "부딪힘 아님",
+  "why": "3족과 group 3은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Lu|named_by|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1906년이고 영어에 이름을 지은 사람만 더 적혔다"
+ },
+ "Lu|naming|": {
+  "verdict": "부딪힘 아님",
+  "why": "둘 다 파리의 라틴어 이름 Lutetia에서 왔다는 같은 뜻"
+ },
+ "Lu|oxidation_states|": {
+  "verdict": "부딪힘",
+  "why": "한국어 정보 상자는 3만, 영어는 +3과 0, +2"
+ },
+ "Lu|period|": {
+  "verdict": "부딪힘 아님",
+  "why": "6주기와 period 6은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "MITR, MIT, US|patients_and_trial_years|": {
+  "verdict": "부딪힘 아님",
+  "why": "표는 MITR 시험 20명, 본문 22명은 흑색종 환자를 포함한 하버드-MIT 연구진 전체"
+ },
+ "Pr|annual_production|": {
+  "verdict": "부딪힘 아님",
+  "why": "해(2020, 2022)마다 다른 값"
+ },
+ "Pr|atomic_radius|empirical": {
+  "verdict": "부딪힘",
+  "why": "182 pm와 보통 185 pm"
+ },
+ "Pr|crustal_abundance|": {
+  "verdict": "부딪힘",
+  "why": "9.1 ppm과 9.2 mg/kg"
+ },
+ "Pr|discovery|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1885년"
+ },
+ "Pr|melting_point|": {
+  "verdict": "부딪힘 아님",
+  "why": "본문 931 °C (1,204 K)가 정보 상자 1204 K (931 °C)와 같다"
+ },
+ "Pr|oxidation_states|": {
+  "verdict": "부딪힘 아님",
+  "why": "본문 상태가 모두 정보 상자 목록(+3 / 0, +1, +2, +4, +5) 안에 있다"
+ },
+ "R2-0, Studsvik Medical AB, Sweden|delivery_agent_dose|": {
+  "verdict": "부딪힘 아님",
+  "why": "BPA 900 mg/kg이 같다"
+ },
+ "R2-0, Studsvik Medical AB, Sweden|infusion_duration|": {
+  "verdict": "부딪힘 아님",
+  "why": "6시간에 걸친 주입과 6시간 주입은 같은 값"
+ },
+ "R2-0, Studsvik Medical AB, Sweden|median_survival_months|": {
+  "verdict": "부딪힘 아님",
+  "why": "14.2개월은 불완전한 자료, 17.7개월은 완전한 자료의 값이고 표의 17.7과 같다"
+ },
+ "R2-0, Studsvik Medical AB, Sweden|patients_and_trial_years|": {
+  "verdict": "부딪힘 아님",
+  "why": "30명이 같다"
+ },
+ "Sm-149|half_life|": {
+  "verdict": "부딪힘 아님",
+  "why": ">2×10¹⁵년과 2×10¹⁵년 이상은 같은 하한"
+ },
+ "Sm|discovery|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1879년"
+ },
+ "Sm|first_isolation|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자 1903년, 본문 1901년"
+ },
+ "Sm|oxidation_states|": {
+  "verdict": "부딪힘",
+  "why": "한국어 정보 상자는 3만, 본문은 +2도 적었다"
+ },
+ "Sm|phase_transition_temperature|": {
+  "verdict": "부딪힘 아님",
+  "why": "다른 두 전이(731 °C 육방정계, 922 °C 체심 입방정계)"
+ },
+ "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan|complete_response_rate|": {
+  "verdict": "부딪힘 아님",
+  "why": "환자 무리(R-SCC, R/LA SCC)마다 다른 값"
+ },
+ "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan|partial_response_rate|": {
+  "verdict": "부딪힘 아님",
+  "why": "환자 무리(R-SCC, R/LA SCC)마다 다른 값"
+ },
+ "Southern Tohoku BCNT Research Center, Southern Tohoku General Hospital, Koriyama, Fukushima, Japan|survival_rate_2_year|": {
+  "verdict": "부딪힘 아님",
+  "why": "환자 무리(R-SCC, R/LA nSCC)마다 다른 값"
+ },
+ "Tb-159|natural_abundance|": {
+  "verdict": "부딪힘 아님",
+  "why": "1.0000(몰 분율)과 100%는 같은 값"
+ },
+ "Tb-161|half_life|": {
+  "verdict": "부딪힘",
+  "why": "6.906일과 6.9일"
+ },
+ "Tm-168|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "ε와 β⁺"
+ },
+ "Tm-170|emission_line_energy|": {
+  "verdict": "부딪힘 아님",
+  "why": "서로 다른 다섯 방출선"
+ },
+ "Tm2O3|price|": {
+  "verdict": "부딪힘",
+  "why": "1959–1998년에 kg당 4,600–13,300달러라 했는데 1996년에 g당 20달러(kg당 20,000달러)"
+ },
+ "Tm2O3|purity_grade|": {
+  "verdict": "부딪힘 아님",
+  "why": "두 등급(99%, 99.9%)"
+ },
+ "Tm|appearance|": {
+  "verdict": "부딪힘 아님",
+  "why": "은회색과 silvery gray는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Tm|block|": {
+  "verdict": "부딪힘 아님",
+  "why": "f-구역과 f-block은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Tm|crystal_structure|": {
+  "verdict": "부딪힘 아님",
+  "why": "조밀 육방 격자와 hexagonal close-packed는 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Tm|density|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 9.32 g/cm³(g/cm^(3)는 단위 표기만 다르다)"
+ },
+ "Tm|discovery|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1879년"
+ },
+ "Tm|first_isolation|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자 1936년, 본문 1911년(거의 순수한 툴륨)"
+ },
+ "Tm|group|": {
+  "verdict": "부딪힘 아님",
+  "why": "n/a와 'f-block groups (no number)'는 족 번호가 없다는 같은 뜻"
+ },
+ "Tm|naming|": {
+  "verdict": "부딪힘 아님",
+  "why": "둘 다 스칸디나비아의 전설상 지명 Thule"
+ },
+ "Tm|oxidation_states|": {
+  "verdict": "부딪힘",
+  "why": "한국어 정보 상자는 3만, 영어는 +3과 +1, +2"
+ },
+ "Tm|period|": {
+  "verdict": "부딪힘 아님",
+  "why": "6주기와 period 6은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Tm|solar_system_abundance|": {
+  "verdict": "부딪힘 아님",
+  "why": "무게 기준(200 ppt)과 몰 기준(1 ppt)은 다른 값"
+ },
+ "Y-100m|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-100m|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-100m|excitation_energy|": {
+  "verdict": "부딪힘",
+  "why": "200(200)# keV와 144(16) keV"
+ },
+ "Y-100m|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "(3,4,5)(+#)와 1+#"
+ },
+ "Y-100|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-100|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "1-,2-와 4+"
+ },
+ "Y-101|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-101|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-102m|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-102m|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-102m|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "high와 (0−,1−)"
+ },
+ "Y-102|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-103|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-103|isotopic_mass|": {
+  "verdict": "부딪힘",
+  "why": "102.93673(32)#와 102.937244(12)"
+ },
+ "Y-104|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-104|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-105|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-105|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-105|half_life|": {
+  "verdict": "부딪힘",
+  "why": "60# ms와 95(9) ms"
+ },
+ "Y-106|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-106|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-106|half_life|": {
+  "verdict": "부딪힘",
+  "why": "50# ms와 75(6) ms"
+ },
+ "Y-107|half_life|": {
+  "verdict": "부딪힘",
+  "why": "30# ms와 33.5(3) ms"
+ },
+ "Y-108|half_life|": {
+  "verdict": "부딪힘",
+  "why": "20#와 30(5) ms"
+ },
+ "Y-76|half_life|": {
+  "verdict": "부딪힘",
+  "why": "500# ns와 28(9) ms"
+ },
+ "Y-77|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-77|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-78m|excitation_energy|": {
+  "verdict": "부딪힘",
+  "why": "0(500)# keV와 약 300 keV"
+ },
+ "Y-78m|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "5+#(어림)와 (5+)(잠정)"
+ },
+ "Y-78|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-78|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-79|daughter|": {
+  "verdict": "부딪힘",
+  "why": "딸핵 목록이 다르다"
+ },
+ "Y-79|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-79|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-80m1|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-83|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-84|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "1+와 (6+)"
+ },
+ "Y-85m1|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-85m1|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-85m2|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-86m1|decay_mode|": {
+  "verdict": "부딪힘 아님",
+  "why": "갈래 비율 .69%와 0.69%는 표기만 다르다"
+ },
+ "Y-86m2|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "(7-)와 6+"
+ },
+ "Y-87m|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-87|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "ε와 β⁺로 갈리고 한국어 이트륨 문서는 γ도 적었다"
+ },
+ "Y-87|half_life|": {
+  "verdict": "부딪힘",
+  "why": "79.8시간과 3.35일(80.4시간)"
+ },
+ "Y-88m1|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "(8)+와 1+"
+ },
+ "Y-88m2|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "1+와 8+"
+ },
+ "Y-88|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "ε와 β⁺로 갈리고 한국어 이트륨 문서는 γ도 적었다"
+ },
+ "Y-88|half_life|": {
+  "verdict": "부딪힘",
+  "why": "106.616일, 106.63일, 106.629일, 106.6일, 106.62일"
+ },
+ "Y-89|natural_abundance|": {
+  "verdict": "부딪힘 아님",
+  "why": "1.0000(몰 분율)과 100%는 같은 값"
+ },
+ "Y-90m|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "한국어만 IT 99.99%를 적었다"
+ },
+ "Y-90|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "한국어 이트륨 문서만 γ를 더 적었다"
+ },
+ "Y-90|half_life|": {
+  "verdict": "부딪힘",
+  "why": "64.053시간, 64.05시간, 2.67일"
+ },
+ "Y-91m|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-91|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "한국어 이트륨 문서만 γ를 더 적었다"
+ },
+ "Y-91|half_life|": {
+  "verdict": "부딪힘",
+  "why": "58.51일과 58.5일"
+ },
+ "Y-93m|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "7/2+와 9/2+"
+ },
+ "Y-97m1|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-97m1|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-97|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-97|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-98m1|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-98m2|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-98m2|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "(5+,4-)와 (6,7)+"
+ },
+ "Y-98m3|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "(2-)와 (4)−"
+ },
+ "Y-98m4|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "(8-)와 (3−,4−)"
+ },
+ "Y-98|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-98|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Y-99|decay_mode|": {
+  "verdict": "부딪힘",
+  "why": "갈래 비율이나 갈래 목록이 다르다"
+ },
+ "Y-99|spin_parity|": {
+  "verdict": "부딪힘",
+  "why": "한쪽만 괄호(잠정 배정)로 적어 적힌 값이 다르다"
+ },
+ "Yb-169|equivalent_xray_energy|": {
+  "verdict": "부딪힘 아님",
+  "why": "250~350 keV로 같다(kev 표기만 다르다)"
+ },
+ "Yb-169|half_life|": {
+  "verdict": "부딪힘",
+  "why": "32.026일, 32.014일, 32.0일, 32일"
+ },
+ "Yb-174|natural_abundance|": {
+  "verdict": "부딪힘",
+  "why": "31.8%와 31.9%(31.90%)"
+ },
+ "Yb-175|half_life|": {
+  "verdict": "부딪힘",
+  "why": "4.185일, 4.18일, 4.2일"
+ },
+ "Yb|allotrope_transformation_temperature|": {
+  "verdict": "부딪힘 아님",
+  "why": "두 언어 모두 −13 °C와 795 °C(한국어는 두 곳으로 나눠 적었다)"
+ },
+ "Yb|appearance|": {
+  "verdict": "부딪힘",
+  "why": "영어만 옅은 노란빛을 더 적어 색이 다르다"
+ },
+ "Yb|block|": {
+  "verdict": "부딪힘 아님",
+  "why": "f-구역과 f-block은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Yb|boiling_point|": {
+  "verdict": "부딪힘 아님",
+  "why": "본문 1196 °C는 영어 정보 상자가 1469 K와 함께 적은 1196 °C와 같다"
+ },
+ "Yb|crustal_abundance|": {
+  "verdict": "부딪힘",
+  "why": "3 ppm과 약 3 mg/kg(어림 표시가 다르다)"
+ },
+ "Yb|crystal_structure|": {
+  "verdict": "부딪힘 아님",
+  "why": "면심 입방정계와 face-centered cubic은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Yb|density|": {
+  "verdict": "부딪힘",
+  "why": "6.90, 6.967, 6.973, 6.966 g/cm³ 등"
+ },
+ "Yb|discovery|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 1878년"
+ },
+ "Yb|first_isolation|": {
+  "verdict": "부딪힘",
+  "why": "1936년과 1953년"
+ },
+ "Yb|group|": {
+  "verdict": "부딪힘 아님",
+  "why": "n/a와 'f-block groups (no number)'는 족 번호가 없다는 같은 뜻"
+ },
+ "Yb|melting_point|": {
+  "verdict": "부딪힘 아님",
+  "why": "본문 824 °C는 영어 정보 상자가 1097 K와 함께 적은 824 °C와 같다"
+ },
+ "Yb|naming|": {
+  "verdict": "부딪힘 아님",
+  "why": "둘 다 스웨덴의 위테르뷔"
+ },
+ "Yb|number_of_nuclear_isomers|": {
+  "verdict": "부딪힘",
+  "why": "12개와 18개"
+ },
+ "Yb|oxidation_states|": {
+  "verdict": "부딪힘",
+  "why": "한국어 정보 상자는 3만, 영어는 +3과 +1, +2"
+ },
+ "Yb|period|": {
+  "verdict": "부딪힘 아님",
+  "why": "6주기와 period 6은 같은 뜻을 두 언어로 적었다(번역)"
+ },
+ "Yb|resistivity_drop_ratio|": {
+  "verdict": "부딪힘",
+  "why": "40000기압에서 1기압 때의 90%와 실온 저항의 약 10%"
+ },
+ "Yb|semiconductor_transition_pressure|": {
+  "verdict": "부딪힘",
+  "why": "16000기압과 약 16,000기압(어림 표시가 다르다)"
+ },
+ "Yb|thermal_expansion|": {
+  "verdict": "부딪힘",
+  "why": "26.3 µm/(m·K)와 24.31×10⁻⁶/K"
+ },
+ "Y|group|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 3족"
+ },
+ "Y|oxidation_states|": {
+  "verdict": "부딪힘",
+  "why": "정보 상자는 3만, 본문은 0, +1, +2도 적었다"
+ },
+ "Y|period|": {
+  "verdict": "부딪힘 아님",
+  "why": "모두 5주기"
+ },
+ "boron delivery agent|tumor_boron_concentration|": {
+  "verdict": "부딪힘",
+  "why": "~20–50과 20–50 μg/g(어림 표시가 다르다)"
+ },
+ "hatanaka bnct trials|trial_start_year|": {
+  "verdict": "부딪힘",
+  "why": "1960년대와 1967년(덜 자세한 때)"
+ },
+ "mischmetal|lanthanum_content|": {
+  "verdict": "부딪힘",
+  "why": "50% 넘게와 25–45%"
+ },
+ "other Yb radioactive isotopes|half_life|": {
+  "verdict": "부딪힘 아님",
+  "why": "'모두 2시간을 넘지 않음'과 '대부분 20분 이하'는 다른 말"
+ },
+ "praseodymium nitrate|complex_stoichiometry|": {
+  "verdict": "부딪힘 아님",
+  "why": "4:3과 1:1 두 착물이 함께 있다는 말"
+ },
+ "sintered samarium-cobalt magnet|curie_temperature|": {
+  "verdict": "부딪힘",
+  "why": "700–850, 약 700, 700 이상, 700–800 °C"
+ },
+ "ytterbium lasers|laser_wavelength|": {
+  "verdict": "부딪힘",
+  "why": "1.06–1.12와 1.03–1.12 μm"
+ },
+ "manual": [
+  {
+   "object": "Yb",
+   "quantity": "number_of_radioactive_isotopes",
+   "condition": "",
+   "why": "한국어는 방사성 동위 원소 27개, 영어는 Thirty-two(32개). 영어는 숫자를 낱말로 적어 값 목록에 없다",
+   "places": [
+    {
+     "id": "wiki-ko-ytterbium:117:2"
+    },
+    {
+     "doc_id": "wiki-en-ytterbium",
+     "line": 119,
+     "raw": "Thirty-two synthetic radioisotopes"
+    }
+   ]
+  }
+ ]
+}
