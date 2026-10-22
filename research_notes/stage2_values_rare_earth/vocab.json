@@ -168,6 +168,27 @@
     "First clinical use": "first_clinical_use_year",
     "Status": "clinical_status"
   },
+  "_고침": "quantity_alias와 place_override는 AI(Claude)가 본문 결과의 검토 목록(body_checks.json의 외톨이 본문 값, 원소별 연도, uncertain)과 대상별 본문 열쇠를 읽고 정한 고침이다(2026-10-22). 서브에이전트 결과 파일(body/*.json)은 고치지 않고, 견주기(compare.py)가 묶기 전에 이 고침을 쓴다. 까닭은 decisions/judgments.md 2026-10-22 값 목록 검토 줄에 있다.",
+  "quantity_alias": {
+    "Yb|phase_transition_temperature": "Yb|allotrope_transformation_temperature",
+    "Yb|paramagnetic_temperature_threshold": "Yb|paramagnetic_range",
+    "Yb|number_of_meta_states": "Yb|number_of_nuclear_isomers",
+    "Yb-169|radiograph_equivalent_xray_energy": "Yb-169|equivalent_xray_energy",
+    "Lu|spelling_change_year": "Lu|name_adoption_year",
+    "Lu|priority_awarded_year": "Lu|priority_decision_year",
+    "cassiopeium|name_use_until": "Lu|cassiopeium_name_used_until",
+    "samarium-cobalt magnet|demagnetization_temperature": "sintered samarium-cobalt magnet|curie_temperature",
+    "Eu|pure_form_obtained_year": "Eu|first_isolation",
+    "acidic filtrates|neutralization_ph": "acidic filtrates|ph"
+  },
+  "place_override": {
+    "wiki-ko-ytterbium:81:4": {"quantity": "resistivity_increase_factor"},
+    "wiki-ko-ytterbium:81:5": {"quantity": "resistivity_drop_ratio"},
+    "wiki-ko-ytterbium:155:0": {"object": "ytterbium lasers", "quantity": "laser_wavelength"},
+    "wiki-ko-ytterbium:155:1": {"object": "ytterbium lasers", "quantity": "pump_wavelength"},
+    "wiki-en-praseodymium:75:0": {"condition": "calculated"},
+    "wiki-en-neutron-capture-therapy:123:1": {"quantity": "mean_survival_months"}
+  },
   "word": {
     "안정": "stable", "stable": "stable", "Stable": "stable",
     "합성": "synth", "인공": "synth", "synth": "synth",
