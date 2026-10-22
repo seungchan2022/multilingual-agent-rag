@@ -12,7 +12,7 @@
 | 지적 | 판정 | 처리 |
 |---|---|---|
 | 1 `verdicts.json`의 Sm-149 반감기(`wiki-ko-samarium.md` 62줄 `>2×10¹⁵ y`, 89줄 `2×10¹⁵년 이상`)를 "같은 하한"으로 부딪힘 아님 판정해 부딪히는 값 목록에서 빠짐(보통) | 맞음. `compare.py` 설명(14줄)이 "부등호가 다르면 다른 값"이고, 수가 같을 때만 같은 값이라는 기준(`decisions/stage2.md` 2026-10-22)으로도 경계를 넣는지가 다르다 | 판정을 부딪힘으로 고친다. 같은 까닭으로 `wiki-ko-ytterbium.md` 117줄 "나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하"와 `wiki-en-ytterbium.md` 119줄 "less than 2 hours … less than 20 minutes"도 견준다. 두 언어의 대상 열쇠가 달라(`other Yb radioactive isotopes`와 `remaining radioactive ytterbium isotopes`) 묶이지 않았으므로 `vocab.json`의 `place_override`로 한국어 두 자리의 대상을 영어와 맞춘다 |
-| 2 연대(`1990s`, `mid-1990s`)를 1990초로 읽어 `wiki-en-neutron-capture-therapy.md` 101줄 "until the 1990s"와 111줄 "mid-1990s"를 같음으로 보고 부딪힘을 놓침(보통) | 맞음. 값 목록의 연대 21곳이 모두 그렇게 읽혔고, "초·중·후반"이 사라졌다 | `extract.py`가 연대를 연대(단위 `decade`, 초·중·후반 `decade_part`)로 읽고, `compare.py`는 연대와 초·중·후반이 모두 같을 때만 같은 값으로 본다. 3 세기 기록과 함께 쓰는 `src/domain_select/quantities.py`는 고치지 않는다 |
+| 2 연대(`1990s`, `mid-1990s`)를 1990초로 읽어 `wiki-en-neutron-capture-therapy.md` 101줄 "until the 1990s"와 111줄 "mid-1990s"를 같음으로 보고 부딪힘을 놓침(보통) | 맞음. 값 목록의 연대 21곳이 연대로 읽히지 않았고(영어 18곳은 초로, 한국어 3곳은 단위 없는 수로. 처음에 "모두 그렇게 읽혔다"고 적은 것을 2차 지적으로 바로잡음), "초·중·후반"이 사라졌다 | `extract.py`가 연대를 연대(단위 `decade`, 초·중·후반 `decade_part`)로 읽고, `compare.py`는 연대와 초·중·후반이 모두 같을 때만 같은 값으로 본다. 3 세기 기록과 함께 쓰는 `src/domain_select/quantities.py`는 고치지 않는다 |
 | 3 `research_notes/stage2_table_shapes_rare_earth/classify.py`의 "한 칸에 여러 항목이 든 표" 설명이 줄바꿈 규칙을 고치기 전 상태로 남음(낮음) | 맞음 | 이트륨 칸은 ` / `로 경계가 살아났고 중성자 포획 치료 장비 표는 문단으로 나뉜 항목이 빈칸으로 이어진 채 남는다고 고쳐 `shapes.json`·`shapes.md`를 다시 만든다 |
 
 ## 1차 요청
