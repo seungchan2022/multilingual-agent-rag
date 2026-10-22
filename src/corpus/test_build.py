@@ -126,6 +126,11 @@ class InfoboxImage(unittest.TestCase):
                       '<img alt="Flag of X" src="x"></a></span></td></tr>')
         self.assertNotIn("Flag", md)
 
+    def test_정보_상자_맨_아래_보기_토론_편집_줄은_지운다(self):
+        md = self.box('<tr><td class="infobox-below noprint" colspan="2"><span class="noprint">보기</span>'
+                      '<span> | 출처</span></td></tr>')
+        self.assertNotIn("출처", md)
+
 
 class Formula(unittest.TestCase):
     def test_글_속_수식(self):

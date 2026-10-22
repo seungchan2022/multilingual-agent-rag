@@ -38,6 +38,7 @@ DROP_SELECTORS = [
     ".hatnote", ".navbox", ".navbox-styles", ".sistersitebox", ".side-box", ".authority-control",
     ".portalbox", ".catlinks",
     ".mw-editsection", "sup.noprint", "span.noprint", "sup.Inline-Template", ".ambox", "a.autonumber",
+    ".infobox-below",
     "style", "script", "link", "meta",
     ".geo-nondefault", ".geo-multi-punct", ".geo-inline-hidden",
 ]

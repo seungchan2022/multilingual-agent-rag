@@ -12,7 +12,7 @@ documents:
   raw_file: raw/wiki-ko-thulium.html
   raw_sha256: e99168c72f1ffd7c805144b0ba4bcebac66f12fa02c9abba7624c5a7a14d994d
   markdown_file: markdown/wiki-ko-thulium.md
-  markdown_sha256: 074f87d4cbf2fccb1bffff26b14b2ef499a9a825f79e43e93a739bfc99c4066a
+  markdown_sha256: 2df8d060b97f0d80ce9fe26dd2a3599e6677ba7af28803f9e4d3c784d6c2c779
 - doc_id: wiki-en-thulium
   fetched_at: '2026-10-22T13:33:47+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379225026&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -38,7 +38,7 @@ documents:
   raw_file: raw/wiki-ko-dysprosium.html
   raw_sha256: 102e977a78350a822d929bfc2278f2394b83f4d95dbe446eacab8f04c99e9743
   markdown_file: markdown/wiki-ko-dysprosium.md
-  markdown_sha256: 81b9118fd33339c6876b3b30648e990b1f7b93400e72993a784c57179c86d79b
+  markdown_sha256: 8e4a63a951348f9e6fefeb492202e02e1c5c6ff093e61ce858b222a494d01cdf
 - doc_id: wiki-en-dysprosium
   fetched_at: '2026-10-22T13:33:56+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1373658711&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -64,7 +64,7 @@ documents:
   raw_file: raw/wiki-ko-ytterbium.html
   raw_sha256: 9f5bf89a7aebfa1b1a541a1ebdb96ecd3645e0ef785c97a5bda5b439fcc38ea7
   markdown_file: markdown/wiki-ko-ytterbium.md
-  markdown_sha256: 65819f4f728ecbaef272ae8d64bd4ddcdde20a817a9022086b1291dea37eb352
+  markdown_sha256: b1355eff4d3cc42fb4f20673fda03bb5b762860d293348b631d85ae77e4d4ce9
 - doc_id: wiki-en-ytterbium
   fetched_at: '2026-10-22T13:34:03+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1380332337&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -90,7 +90,7 @@ documents:
   raw_file: raw/wiki-ko-lutetium.html
   raw_sha256: 89c0132d4692bf4997d4e866c1633104679ea5f8f7e1208ed49328b5c48aae27
   markdown_file: markdown/wiki-ko-lutetium.md
-  markdown_sha256: 63c828f54c4199cc19ac14ab94a122376f8c0728c575b7135188bbffff911fd4
+  markdown_sha256: ab67be394f7abb983d4a3bb2d1d2ae27a2b054b318dd026bcd536ae9f511e9c1
 - doc_id: wiki-en-lutetium
   fetched_at: '2026-10-22T13:34:10+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379926577&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -129,7 +129,7 @@ documents:
   raw_file: raw/wiki-en-isotopes-of-yttrium.html
   raw_sha256: 81a3a7082d7c04f1b6104ebe1a6189dcddb4da0cad8136d2ab954148605bd46a
   markdown_file: markdown/wiki-en-isotopes-of-yttrium.md
-  markdown_sha256: 2529be2f4853cdd1dcb2d45da82b34e1277e6aec459cd075a69c8695eea84c26
+  markdown_sha256: 3940808f4452991c86598b4e2e911944e15ec29745ae96e5cba16dd9069a1fd6
 - doc_id: wiki-ko-erbium
   fetched_at: '2026-10-22T13:34:19+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42361925&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -142,7 +142,7 @@ documents:
   raw_file: raw/wiki-ko-erbium.html
   raw_sha256: 6b856acbbd8b913708d6e8a1a72fc0f3d5d502cd1465f2e43288c73c8fe50a87
   markdown_file: markdown/wiki-ko-erbium.md
-  markdown_sha256: 51501cb1a14ae7eec2e646771d70371496b28abda3799def634afda7e32f478b
+  markdown_sha256: 96a2b5a5c56769d54dd1be49a7c7afe0bb892010f5104ec88c8962c18d0221b2
 - doc_id: wiki-ko-samarium
   fetched_at: '2026-10-22T13:34:23+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42303602&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -155,7 +155,7 @@ documents:
   raw_file: raw/wiki-ko-samarium.html
   raw_sha256: f91051834224042eb3cf3c81c5345fc23b55b7fed91ae735192fbbe9a60bb10e
   markdown_file: markdown/wiki-ko-samarium.md
-  markdown_sha256: dda7397293a4d2349467f1865a1cc544b8dc9c8155f31d7f17a1bc0f433a8664
+  markdown_sha256: 0cfff7a39109019cebbc82eb8dcc4a57d7dd1bfe58ff01f820fea05f890eb68b
 - doc_id: wiki-ko-yttrium
   fetched_at: '2026-10-22T13:34:27+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42388979&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -168,7 +168,7 @@ documents:
   raw_file: raw/wiki-ko-yttrium.html
   raw_sha256: 8dd647f32b9ddf3db1c4d8c05354298b5065123a0b228973c135530d06cf1f38
   markdown_file: markdown/wiki-ko-yttrium.md
-  markdown_sha256: 15e919f187856f3e8041bba35192b1401ad078b130a5e0d5a72d49900013ff55
+  markdown_sha256: 306a136b2e5095312c1ba266cf967f13ee30f1823c86d7bdab9f3cf1230ad31d
 - doc_id: wiki-ko-isotopes-of-terbium
   fetched_at: '2026-10-22T13:34:30+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=40332210&prop=text%7Crevid&format=json&formatversion=2&maxlag=5

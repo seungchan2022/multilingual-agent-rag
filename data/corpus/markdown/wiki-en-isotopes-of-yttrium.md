@@ -3,7 +3,6 @@
 - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ⁸⁷Y synth 79.8 h ε ⁸⁷Sr ⁸⁸Y synth 106.63 d ε ⁸⁸Sr ⁸⁹Y 100% stable ⁹⁰Y synth 64.05 h β⁻ ⁹⁰Zr ⁹¹Y synth 58.51 d β⁻ ⁹¹Zr
 - Standard atomic weight Ar°(Y)
   - 88.905838±0.000002, 88.906±0.001 (abridged)
-  - view, talk, edit
 
 Natural yttrium (39Y) is composed of the single stable isotope, ⁸⁹Y. The most stable radioisotopes are ⁸⁸Y, which has a half-life of 106.63 days, and ⁹¹Y, with a half-life of 58.51 days. All the other isotopes and isomers have half-lives of less than 15 hours, except ⁸⁷Y with 79.8 hours and ⁹⁰Y with 64.05 hours. The dominant decay mode below the stable ⁸⁹Y is electron capture to isotopes of strontium and the dominant mode after it is beta emission to isotopes of zirconium.
 
