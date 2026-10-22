@@ -1,12 +1,21 @@
 # 값 비교 검토
 
-- 곳 3438개, 묶음 2524개 (곳이 하나뿐인 묶음 1787개는 비교하지 않음)
-- 곳이 둘 이상인 묶음 737개: 같음 453, 다름 284 (읽을 것 197, 안 읽어도 됨 87)
-- 다름 묶음의 범위: 같은 문서 91, 같은 언어의 다른 문서 13, 반대 언어 226
-- 읽을 이유: 본문 값 103, 두 언어 낱말 96, 줄 전체 값 91, 덧붙인 말 다름 82, 여러 값 34, 어림 표시 25, 단위를 못 바꿈 17, 본문 값의 일부만 비교 11, 불확실 표시 11
+- 곳 3438개, 묶음 2523개 (곳이 하나뿐인 묶음 1785개는 비교하지 않음)
+- 곳이 둘 이상인 묶음 738개: 같음 452, 다름 286 (읽을 것 199, 안 읽어도 됨 87)
+- 다름 묶음의 범위: 같은 문서 91, 같은 언어의 다른 문서 13, 반대 언어 228
+- 읽을 이유: 본문 값 105, 두 언어 낱말 96, 줄 전체 값 91, 덧붙인 말 다름 83, 여러 값 34, 어림 표시 27, 단위를 못 바꿈 16, 본문 값의 일부만 비교 11, 불확실 표시 11
 - 조건 갈림 후보 0개 (compare.json의 condition_variants)
 
 # 읽을 묶음
+
+## BNCT clinical trials in the United States / resumption_year / (조건 없음)  [다름; 같은 문서]
+이유: 본문 값
+- 묶음0 wiki-en-neutron-capture-therapy:101 (본문) 값 1990s
+  - 줄 101: `It was not until the 1950s that the first clinical trials were initiated by Farr at the Brookhaven National Laboratory (BNL) in New York and by Sweet and Brownell at the Massachusetts General Hospital (MGH) using the Massachusetts Institute of Technology (MIT) nuclear reactor (MITR) and several different low-molecular-weight boron compounds as the boron delivery agent. However, the results of these studies were disappointing, and no further clinical trials were carried out in the United States until the 1990s.`
+  - raw: `until the 1990s`
+- 묶음1 wiki-en-neutron-capture-therapy:111 (본문) 값 mid 1990s
+  - 줄 111: `BNCT of patients with brain tumors was resumed in the United States in the mid-1990s by Chanana, Diaz, and Coderre and their co-workers at the Brookhaven National Laboratory using the Brookhaven Medical Research Reactor (BMRR) and at Harvard/Massachusetts Institute of Technology (MIT) using the MIT Research Reactor (MITR).`
+  - raw: `mid-1990s`
 
 ## Dy / appearance / (조건 없음)  [다름; 반대 언어]
 이유: 두 언어 낱말
@@ -57,22 +66,22 @@
   - 덧붙인 말: separated dysprosium oxide from holmium oxide in Paris
 
 ## Dy / first_isolation / (조건 없음)  [다름; 같은 문서, 반대 언어]
-이유: 줄 전체 값, 두 언어 낱말, 덧붙인 말 다름, 단위를 못 바꿈, 본문 값
+이유: 줄 전체 값, 두 언어 낱말, 덧붙인 말 다름, 본문 값
 - 묶음0 wiki-ko-dysprosium:53 (정보 상자) 값 1905
   - 줄 53: `  - 최초 분리: 1905`
   - raw: `1905`
 - 묶음1 wiki-en-dysprosium:57 (정보 상자) 값 Georges Urbain (1905)
   - 줄 57: `  - First isolation: Georges Urbain (1905)`
   - raw: `Georges Urbain (1905)`
-- 묶음2 wiki-ko-dysprosium:69 (본문) 값 1950
+- 묶음2 wiki-ko-dysprosium:69 (본문) 값 1950s
   - 줄 69: `디스프로슘은 1886년 폴 에밀 르코크 드 부아보드랑(Paul Émile Lecoq de Boisbaudran)에 의해 처음 확인되었으나 1950년대 이온 교환 기술이 개발될 때까지 순수한 형태로 분리되지 않았다. 디스프로슘은 다른 화학 원소로 대체할 수 없는 응용 분야가 상대적으로 적다. 이는 원자로의 제어봉 제조 시 높은 열 중성자 흡수 단면적, 데이터 저장 응용 분야의 높은 자기 민감성(χv ≒ 5.44×10−3) 및 Terfenol-D(자기 변형 재료)의 구성 요소로 사용된다. 수용성 디스프로슘염은 독성이 약간 있는 반면, 불용성 염은 독성이 없는 것으로 간주된다.`
   - raw: `1950년대`
   - 덧붙인 말: 이온 교환 기술이 개발될 때까지; 순수한 형태로 분리되지 않았다
-- 묶음3 wiki-en-dysprosium:77 (본문) 값 1950 s
+- 묶음2 wiki-en-dysprosium:77 (본문) 값 1950s
   - 줄 77: `Dysprosium was first identified in 1886 by Paul Émile Lecoq de Boisbaudran, but it was not isolated in pure form until the development of ion-exchange techniques in the 1950s. Dysprosium is used to produce neodymium-iron-boron (NdFeB) magnets, which are crucial for electric vehicle motors and the efficient operation of wind turbines. It is used for its high thermal neutron absorption cross-section in making control rods in nuclear reactors, for its high magnetic susceptibility (χv ≈ 5.44×10⁻³) in data-storage applications, and as a component of Terfenol-D (a magnetostrictive material). Soluble dysprosium salts are mildly toxic, while the insoluble salts are considered non-toxic.`
   - raw: `1950s`
   - 덧붙인 말: not isolated in pure form until the development of ion-exchange techniques
-- 묶음3 wiki-en-dysprosium:130 (본문) 값 1950 s
+- 묶음3 wiki-en-dysprosium:130 (본문) 값 early 1950s
   - 줄 130: `In 1878, erbium ores were found to contain the oxides of holmium and thulium. French chemist Paul Émile Lecoq de Boisbaudran, while working with holmium oxide, separated dysprosium oxide from it in Paris in 1886. His procedure for isolating the dysprosium involved dissolving dysprosium oxide in acid, then adding ammonia to precipitate the hydroxide. He was only able to isolate dysprosium from its oxide after more than 30 attempts at his procedure. On succeeding, he named the element dysprosium from the Greek dysprositos (δυσπρόσιτος), meaning "hard to get". The element was not isolated in relatively pure form until after the development of ion exchange techniques by Frank Spedding at Iowa State University in the early 1950s.`
   - raw: `early 1950s`
   - 덧붙인 말: isolated in relatively pure form after the development of ion exchange techniques by Frank Spedding
@@ -564,11 +573,11 @@
   - 줄 61: `루테튬(←영어: Lutetium 루티시엄[*], 문화어: 루테티움←독일어: Lutetium 루테치움[*])은 화학 원소로 기호는 Lu(←라틴어: Lutetium 루테티움[*]), 원자 번호는 71이다. 희토류 원소에 속하는 금속으로, 이트륨과 함께 산출되며, 합금이나 다른 공정의 촉매로 사용된다. 루테튬은 주기율표의 화학 계열에서 전이 금속 위치에 있으나, 보통 란타넘족으로 분류한다. 독일에서는 1949년까지 카시오페이움(Cassiopeium, 기호 Cp)으로 불렀다.`
   - raw: `1949년`
   - 덧붙인 말: 독일에서는
-- 묶음1 wiki-ko-lutetium:63 (본문) 값 1950
+- 묶음1 wiki-ko-lutetium:63 (본문) 값 1950s
   - 줄 63: `루테튬은 1907년 프랑스 과학자 조르주 위르뱅(Georges Urbain), 오스트리아 광물학자 프라이헤어 카를 아우어 폰 벨스바흐(Baron Carl Auer von Welsbach) 및 미국 화학자 찰스 제임스에 의해 독립적으로 발견되었다. 이 연구자들은 모두 이전에 전적으로 이터븀으로 구성되어 있다고 생각되었던 광물 이터비아에서 불순물로서 루테튬을 발견했다. 발견의 우선순위에 대한 논쟁은 곧 발생했으며, 위르뱅과 벨스바흐는 상대방의 출판된 연구에 영향을 받은 결과를 출판했다고 서로를 비난했다. 위르뱅이 이전에 자신의 결과를 발표했기 때문에 명명의 영예는 위르뱅에게 돌아갔다. 그는 새로운 원소에 루테슘이라는 이름을 선택했지만 1949년에 철자가 루테튬으로 변경되었다. 1909년에 마침내 위르뱅에게 우선권이 부여되었고 그의 이름이 공식 이름으로 채택되었다. 그러나 벨스바흐가 제안한 71번 원소에 대한 카시오페이움(또는 나중에 카시오페이움)이라는 이름은 1950년대까지 많은 독일 과학자들에 의해 사용되었다.`
   - raw: `1950년대`
   - 덧붙인 말: 많은 독일 과학자들에 의해 사용
-- 묶음2 wiki-en-lutetium:70 (본문) 값 1950 s
+- 묶음1 wiki-en-lutetium:70 (본문) 값 1950s
   - 줄 70: `Lutetium was independently discovered in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. All of these researchers found lutetium as an impurity in ytterbium. The dispute on the priority of the discovery occurred shortly after, with Urbain and Welsbach accusing each other of publishing results influenced by the published research of the other; the naming honor went to Urbain, as he had published his results earlier. He chose the name lutecium for the new element honoring the Latin name for Paris, Lutetia. In 1949 the spelling was changed to lutetium. In 1909, the priority was finally granted to Urbain and his names were adopted as official ones; however, the name cassiopeium (or later cassiopium) for element 71 proposed by Welsbach was used by many German scientists until the 1950s.`
   - raw: `until the 1950s`
   - 덧붙인 말: used by many German scientists
@@ -2443,12 +2452,22 @@
 
 ## hatanaka bnct trials / trial_start_year / (조건 없음)  [다름; 같은 문서]
 이유: 단위를 못 바꿈, 본문 값
-- 묶음0 wiki-en-neutron-capture-therapy:16 (본문) 값 1960 s
+- 묶음0 wiki-en-neutron-capture-therapy:16 (본문) 값 1960s
   - 줄 16: `A number of research groups worldwide have continued the early ground-breaking clinical studies of Sweet and Farr, and subsequently the pioneering clinical studies of Hiroshi Hatanaka (畠中洋) in the 1960s, to treat patients with brain tumors. Since then, clinical trials have been done in a number of countries including Japan, the United States, Sweden, Finland, the Czech Republic, Taiwan, and Argentina. After the nuclear accident at Fukushima in 2011, the clinical program there transitioned from a reactor neutron source to accelerators that would produce high-energy neutrons that become thermalized as they penetrate tissue.`
   - raw: `in the 1960s`
 - 묶음1 wiki-en-neutron-capture-therapy:103 (본문) 값 1967
   - 줄 103: `Following a two-year Fulbright fellowship in Sweet's laboratory at the MGH, clinical studies were initiated by Hiroshi Hatanaka in Japan in 1967. He used a low-energy thermal neutron beam, which had low tissue-penetrating properties, and sodium borocaptate (BSH) as the boron delivery agent, which had been evaluated as a boron delivery agent by Albert Soloway at the MGH. In Hatanaka's procedure, as much as possible of the tumor was surgically resected ("debulking"), and at some time thereafter, BSH was administered by a slow infusion, usually intra-arterially, but later intravenously. Twelve to 14 hours later, BNCT was carried out at one or another of several different nuclear reactors using low-energy thermal neutron beams. The poor tissue-penetrating properties of the thermal neutron beams necessitated reflecting the skin and raising a bone flap in order to directly irradiate the exposed brain, a procedure first used by Sweet and his collaborators.`
   - raw: `in Japan in 1967`
+
+## majority of remaining radioactive ytterbium isotopes / half_life / (조건 없음)  [다름; 반대 언어]
+이유: 덧붙인 말 다름, 어림 표시, 본문 값
+- 묶음0 wiki-ko-ytterbium:117 (본문) 값 20 분
+  - 줄 117: `자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다.`
+  - raw: `20분`
+  - 덧붙인 말: 대부분; 이하
+- 묶음1 wiki-en-ytterbium:119 (본문) 값 less than 20 minutes
+  - 줄 119: `Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds).`
+  - raw: `less than 20 minutes`
 
 ## mischmetal / lanthanum_content / (조건 없음)  [다름; 같은 문서]
 이유: 덧붙인 말 다름, 어림 표시, 본문 값, 본문 값의 일부만 비교
@@ -2460,17 +2479,6 @@
   - 줄 141: `- Mischmetal, a pyrophoric alloy used in lighter flints, contains 25% to 45% lanthanum.`
   - raw: `25% to 45%`
   - 덧붙인 말: a pyrophoric alloy used in lighter flints
-
-## other Yb radioactive isotopes / half_life / (조건 없음)  [다름; 같은 문서]
-이유: 덧붙인 말 다름, 본문 값
-- 묶음0 wiki-ko-ytterbium:117 (본문) 값 2 시간
-  - 줄 117: `자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다.`
-  - raw: `2시간`
-  - 덧붙인 말: 넘지 않으며
-- 묶음1 wiki-ko-ytterbium:117 (본문) 값 20 분
-  - 줄 117: `자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다.`
-  - raw: `20분`
-  - 덧붙인 말: 대부분; 이하
 
 ## praseodymium nitrate / complex_stoichiometry / (조건 없음)  [다름; 같은 문서]
 이유: 본문 값, 불확실 표시, 본문 값의 일부만 비교
@@ -2484,6 +2492,16 @@
   - raw: `1:1`
   - 덧붙인 말: with 18-crown-6
   - 불확실: 복합체의 비율(1:1)이 값인지 서술인지 모호
+
+## remaining radioactive ytterbium isotopes / half_life / (조건 없음)  [다름; 반대 언어]
+이유: 덧붙인 말 다름, 어림 표시, 본문 값
+- 묶음0 wiki-ko-ytterbium:117 (본문) 값 2 시간
+  - 줄 117: `자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다.`
+  - raw: `2시간`
+  - 덧붙인 말: 넘지 않으며
+- 묶음1 wiki-en-ytterbium:119 (본문) 값 less than 2 hours
+  - 줄 119: `Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds).`
+  - raw: `less than 2 hours`
 
 ## sintered samarium-cobalt magnet / curie_temperature / (조건 없음)  [다름; 같은 문서, 반대 언어]
 이유: 덧붙인 말 다름, 어림 표시, 본문 값, 불확실 표시, 본문 값의 일부만 비교

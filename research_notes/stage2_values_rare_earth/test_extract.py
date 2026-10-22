@@ -296,6 +296,43 @@ class Body(unittest.TestCase):
         self.assertEqual(len(ex.validate_results(items, results, ["1 to 2"], {})), 1)
 
 
+class Decades(unittest.TestCase):
+    def test_decade_is_not_seconds(self):
+        import re
+        pat = re.compile(r"\d{3}0s")
+        reps = [(r, x) for r in RESULT["builder"].records for x in r["reps"]]
+        self.assertEqual([r["id"] for r, x in reps if x.get("unit") == "s" and pat.fullmatch(x.get("text", ""))], [])
+        decades = [(r, x) for r, x in reps if x.get("unit") == "decade"]
+        self.assertEqual(len(decades), 21)
+        self.assertTrue(all(x["num"].endswith("0") and len(x["num"]) == 4 for r, x in decades))
+
+    def test_decade_part(self):
+        import re
+        decades = [(r, x) for r in RESULT["builder"].records for x in r["reps"] if x.get("unit") == "decade"]
+        parts = sorted(x["decade_part"] for r, x in decades if x["decade_part"])
+        want = sorted(m.group(1).lower() for r, x in decades for m in [re.search(r"(?i)(early|mid|late)[- ]?\d{3}0s", r["raw"])] if m)
+        self.assertEqual(parts, want)
+        self.assertEqual(parts, ["early"] * 4 + ["late"] * 3 + ["mid"] * 2)
+        by_id = {r["id"]: x for r, x in decades}
+        self.assertEqual(by_id["wiki-en-neutron-capture-therapy:111:0"]["decade_part"], "mid")
+        ko = by_id["wiki-ko-dysprosium:69:1"]                       # 1950년대: text는 숫자 모양 그대로
+        self.assertEqual((ko["num"], ko["text"], ko["decade_part"]), ("1950", "1950", ""))
+
+    def test_decade_parser(self):
+        r, end = ex.parse_rep("1950년대 후반", 0, loose=False)
+        self.assertEqual((r["unit"], r["decade_part"], end), ("decade", "late", len("1950년대 후반")))
+        r, end = ex.parse_rep("1950년대 초", 0, loose=False)
+        self.assertEqual(r["decade_part"], "early")
+        r, _ = ex.parse_rep("mid-1990s", 4, loose=False)
+        self.assertEqual((r["unit"], r["decade_part"]), ("decade", "mid"))
+        r, _ = ex.parse_rep("1950 s", 0, loose=False)               # 띄어 쓴 s는 초
+        self.assertEqual(r["unit"], "s")
+        r, _ = ex.parse_rep("1950sec", 0, loose=False)
+        self.assertNotEqual(r["unit"], "decade")
+        r, _ = ex.parse_rep("1951s", 0, loose=False)                # 0으로 끝나지 않으면 십 년대가 아니다
+        self.assertEqual(r["unit"], "s")
+
+
 class Integrity(unittest.TestCase):
     def test_quote_and_spans(self):
         for r in RESULT["builder"].records:

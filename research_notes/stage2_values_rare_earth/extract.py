@@ -73,6 +73,11 @@ APPROX_RE = re.compile(r"(est\.|ca\.|about|~|≈|약|<|>|≥|≤)\s?")
 RANGE_RE = re.compile(r"(?:\s?[–-]\s?|\.\.|\s+to\s+)")
 PAREN_RANGE_RE = re.compile(rf"\((?P<a>{_BASE})[–-](?P<b>{_BASE})\)(?P<exp>{_EXP})")
 FALLBACK_UNIT_RE = re.compile(r"\s?(%|°[CF]?|[A-Za-zµμΩ][A-Za-zµμΩ³²⁻¹/·⋅]*)")
+DECADE_NUM_RE = re.compile(r"\d{3}0")
+DECADE_EN_RE = re.compile(r"s(?![A-Za-z])")                                    # 1950s: 숫자 바로 뒤의 s
+DECADE_KO_RE = re.compile(r"년대(?:\s?(초반|초|중반|후반|말))?")                  # 1950년대 [초반]
+DECADE_PART_BEFORE_RE = re.compile(r"(early|mid|late)[- ]?$", re.I)           # early 1950s, mid-1990s
+DECADE_PART_KO = {"초반": "early", "초": "early", "중반": "mid", "후반": "late", "말": "late"}
 PERCENT_UNIT_RE = re.compile(r"\s?(%)")
 BRACKET_RE = re.compile(r"\[[^\[\]]*\]")
 PREFIX_RE = re.compile(r"([^:=()]+?): ")
@@ -117,6 +122,17 @@ def parse_rep(s, p, value_of=None, loose=True):
         if n2:
             range_to, e = n2[0], n2[3]
             est = est or n2[2]
+    if range_to is None and not unc and DECADE_NUM_RE.fullmatch(num):
+        # 십 년대: 1950s, 1950년대. 초(초반)·중반·후반(말)은 decade_part에 둔다. text는 숫자 모양 그대로 둔다.
+        # quantities.read는 1950s의 s를 초(시간 단위)로 읽지만 여기서는 십 년대로 읽는다.
+        en, ko = DECADE_EN_RE.match(s, e), DECADE_KO_RE.match(s, e)
+        if en or ko:
+            pm = DECADE_PART_BEFORE_RE.search(s[:q])
+            part = pm.group(1).lower() if pm else (DECADE_PART_KO.get(ko.group(1), "") if ko and ko.group(1) else "")
+            ue = (en or ko).end()
+            rep = {"text": s[q:e + 1] if en else s[q:e], "num": num, "unc": "", "unit": "decade", "range_to": None,
+                   "approx": approx, "est_mark": False, "value": value_of(q, ue) if value_of else None, "decade_part": part}
+            return rep, ue
     unit, ue = "", e
     u = Q.find_unit(s, e)
     if u:

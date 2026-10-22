@@ -95,6 +95,16 @@ class PureCompare(unittest.TestCase):
         self.assertEqual(cp.header_unit("Z(p)"), "")
         self.assertEqual(cp.header_unit("자연계에 존재하는 동위 원소 범위 (몰 분율)"), "")
 
+    def test_decade_members(self):
+        d = lambda num, part="", **kw: cp.member(rep(num, "decade", decade_part=part, **kw), "수")["key"]
+        self.assertEqual(d("1950"), d("1950"))
+        self.assertNotEqual(d("1950"), d("1950", "early"))
+        self.assertNotEqual(d("1950"), d("1960"))
+        self.assertNotEqual(d("1950"), key("1950"))                 # 연도와 다르다
+        self.assertNotEqual(d("1950"), key("1950", "s"))            # 1950초와도 다르다
+        self.assertNotEqual(d("1950"), key("1950", "y"))
+        self.assertIsNotNone(d("1950")[3])                          # materials.py가 단일 값 쌍으로 보지 않는다
+
     def test_year_suffix_is_a_date(self):
         self.assertEqual(key("1879", "년"), key("1879"))
         self.assertNotEqual(key("100", "년"), key("100"))                                # 연도가 아닌 기간은 단위다
@@ -242,6 +252,15 @@ class Golden(unittest.TestCase):
             cp.apply_keys(rows, {"place_override": {"d:9:9": {"condition": "c"}}})
         with self.assertRaises(ValueError):
             cp.apply_keys(rows, {"quantity_alias": {"A|nope": "B|q"}})
+
+    def test_decades(self):
+        g = GROUPS[("BNCT clinical trials in the United States", "resumption_year", "")]
+        self.assertEqual(g["verdict"], "다름")
+        self.assertEqual(len({p["class"] for p in g["places"]}), 2)               # until the 1990s != mid-1990s
+        g = GROUPS[("Dy", "first_isolation", "")]
+        body = {p["lines"][0]: p for p in g["places"] if p["where"] == "본문"}
+        self.assertEqual(body[69]["class"], body[77]["class"])                    # 1950년대 == 1950s
+        self.assertNotEqual(body[77]["class"], body[130]["class"])                # early 1950s는 다르다
 
     def test_body_rules(self):
         for g in RESULT["groups"]:

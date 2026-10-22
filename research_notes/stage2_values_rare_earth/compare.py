@@ -157,6 +157,13 @@ def member(rep, kind, raw="", unit_default=""):
     같은 값인지는 key가 같은지로 가른다."""
     if kind == "낱말":
         return {"key": ("w", WORD(rep["text"])), "text": rep["text"], "approx": "", "est": False, "word": True, "dim": None}
+    if rep.get("unit") == "decade":
+        # 십 년대(1950s, 1950년대)는 숫자와 초·중·후반 표시가 모두 같을 때만 같은 값이고, 연도 같은 다른 값과는 늘 다르다.
+        # 10년 구간이라 key[3]을 비워 두지 않는다(materials.py가 단일 값 쌍으로 보지 않도록).
+        lo, part = parse_num(rep["num"]), rep.get("decade_part", "")
+        return {"key": ("n", "?decade", lo, ("decade", part), approx_class(rep.get("approx", ""))),
+                "text": f"{rep.get('approx', '') + ' ' if rep.get('approx') else ''}{part + ' ' if part else ''}{num_text(lo)}s",
+                "approx": rep.get("approx", ""), "est": False, "word": False, "dim": "?decade"}
     unit = clean_unit(rep.get("unit", ""))
     mult, tail_unit = magnitude(raw, rep)
     if not unit and tail_unit:

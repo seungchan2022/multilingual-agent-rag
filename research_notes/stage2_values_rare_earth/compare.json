@@ -1,26 +1,26 @@
 {
  "counts": {
   "places": 3438,
-  "groups": 2524,
-  "singletons": 1787,
-  "groups_2plus": 737,
-  "same": 453,
-  "different": 284,
-  "review": 197,
+  "groups": 2523,
+  "singletons": 1785,
+  "groups_2plus": 738,
+  "same": 452,
+  "different": 286,
+  "review": 199,
   "different_no_review": 87,
   "by_scope": {
    "같은 문서": 91,
    "같은 언어의 다른 문서": 13,
-   "반대 언어": 226
+   "반대 언어": 228
   },
   "reasons": {
-   "본문 값": 103,
+   "본문 값": 105,
    "두 언어 낱말": 96,
    "줄 전체 값": 91,
-   "덧붙인 말 다름": 82,
+   "덧붙인 말 다름": 83,
    "여러 값": 34,
-   "어림 표시": 25,
-   "단위를 못 바꿈": 17,
+   "어림 표시": 27,
+   "단위를 못 바꿈": 16,
    "본문 값의 일부만 비교": 11,
    "불확실 표시": 11
   },
@@ -31,10 +31,14 @@
    "object": "BNCT clinical trials in the United States",
    "quantity": "resumption_year",
    "condition": "",
-   "verdict": "같음",
-   "scopes": [],
-   "review": false,
-   "reasons": [],
+   "verdict": "다름",
+   "scopes": [
+    "같은 문서"
+   ],
+   "review": true,
+   "reasons": [
+    "본문 값"
+   ],
    "places": [
     {
      "place": "wiki-en-neutron-capture-therapy:101:resumption_year",
@@ -45,7 +49,7 @@
       101
      ],
      "values": [
-      "1990 s"
+      "1990s"
      ],
      "raws": [
       "until the 1990s"
@@ -66,13 +70,13 @@
       111
      ],
      "values": [
-      "1990 s"
+      "mid 1990s"
      ],
      "raws": [
       "mid-1990s"
      ],
      "notes": [],
-     "class": 0,
+     "class": 1,
      "uncertain_reason": "",
      "quotes": {
       "111": "BNCT of patients with brain tumors was resumed in the United States in the mid-1990s by Chanana, Diaz, and Coderre and their co-workers at the Brookhaven National Laboratory using the Brookhaven Medical Research Reactor (BMRR) and at Harvard/Massachusetts Institute of Technology (MIT) using the MIT Research Reactor (MITR)."
@@ -1090,7 +1094,6 @@
     "줄 전체 값",
     "두 언어 낱말",
     "덧붙인 말 다름",
-    "단위를 못 바꿈",
     "본문 값"
    ],
    "places": [
@@ -1145,7 +1148,7 @@
       69
      ],
      "values": [
-      "1950"
+      "1950s"
      ],
      "raws": [
       "1950년대"
@@ -1169,7 +1172,7 @@
       77
      ],
      "values": [
-      "1950 s"
+      "1950s"
      ],
      "raws": [
       "1950s"
@@ -1177,7 +1180,7 @@
      "notes": [
       "not isolated in pure form until the development of ion-exchange techniques"
      ],
-     "class": 3,
+     "class": 2,
      "uncertain_reason": "",
      "quotes": {
       "77": "Dysprosium was first identified in 1886 by Paul Émile Lecoq de Boisbaudran, but it was not isolated in pure form until the development of ion-exchange techniques in the 1950s. Dysprosium is used to produce neodymium-iron-boron (NdFeB) magnets, which are crucial for electric vehicle motors and the efficient operation of wind turbines. It is used for its high thermal neutron absorption cross-section in making control rods in nuclear reactors, for its high magnetic susceptibility (χv ≈ 5.44×10⁻³) in data-storage applications, and as a component of Terfenol-D (a magnetostrictive material). Soluble dysprosium salts are mildly toxic, while the insoluble salts are considered non-toxic."
@@ -1192,7 +1195,7 @@
       130
      ],
      "values": [
-      "1950 s"
+      "early 1950s"
      ],
      "raws": [
       "early 1950s"
@@ -8165,7 +8168,7 @@
       63
      ],
      "values": [
-      "1950"
+      "1950s"
      ],
      "raws": [
       "1950년대"
@@ -8188,7 +8191,7 @@
       70
      ],
      "values": [
-      "1950 s"
+      "1950s"
      ],
      "raws": [
       "until the 1950s"
@@ -8196,7 +8199,7 @@
      "notes": [
       "used by many German scientists"
      ],
-     "class": 2,
+     "class": 1,
      "uncertain_reason": "",
      "quotes": {
       "70": "Lutetium was independently discovered in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. All of these researchers found lutetium as an impurity in ytterbium. The dispute on the priority of the discovery occurred shortly after, with Urbain and Welsbach accusing each other of publishing results influenced by the published research of the other; the naming honor went to Urbain, as he had published his results earlier. He chose the name lutecium for the new element honoring the Latin name for Paris, Lutetia. In 1949 the spelling was changed to lutetium. In 1909, the priority was finally granted to Urbain and his names were adopted as official ones; however, the name cassiopeium (or later cassiopium) for element 71 proposed by Welsbach was used by many German scientists until the 1950s."
@@ -45269,7 +45272,7 @@
       16
      ],
      "values": [
-      "1960 s"
+      "1960s"
      ],
      "raws": [
       "in the 1960s"
@@ -45441,6 +45444,73 @@
    ]
   },
   {
+   "object": "majority of remaining radioactive ytterbium isotopes",
+   "quantity": "half_life",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "반대 언어"
+   ],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "어림 표시",
+    "본문 값"
+   ],
+   "places": [
+    {
+     "place": "wiki-ko-ytterbium:117:half_life",
+     "doc_id": "wiki-ko-ytterbium",
+     "lang": "ko",
+     "where": "본문",
+     "lines": [
+      117
+     ],
+     "values": [
+      "20 분"
+     ],
+     "raws": [
+      "20분"
+     ],
+     "notes": [
+      "대부분",
+      "이하"
+     ],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "117": "자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다."
+     },
+     "given": {
+      "object": "other Yb radioactive isotopes",
+      "quantity": "half_life",
+      "condition": ""
+     }
+    },
+    {
+     "place": "wiki-en-ytterbium:119:half_life",
+     "doc_id": "wiki-en-ytterbium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      119
+     ],
+     "values": [
+      "less than 20 minutes"
+     ],
+     "raws": [
+      "less than 20 minutes"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "119": "Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds)."
+     }
+    }
+   ]
+  },
+  {
    "object": "mischmetal",
    "quantity": "lanthanum_content",
    "condition": "",
@@ -45505,69 +45575,6 @@
    ]
   },
   {
-   "object": "other Yb radioactive isotopes",
-   "quantity": "half_life",
-   "condition": "",
-   "verdict": "다름",
-   "scopes": [
-    "같은 문서"
-   ],
-   "review": true,
-   "reasons": [
-    "덧붙인 말 다름",
-    "본문 값"
-   ],
-   "places": [
-    {
-     "place": "wiki-ko-ytterbium:117:half_life",
-     "doc_id": "wiki-ko-ytterbium",
-     "lang": "ko",
-     "where": "본문",
-     "lines": [
-      117
-     ],
-     "values": [
-      "2 시간"
-     ],
-     "raws": [
-      "2시간"
-     ],
-     "notes": [
-      "넘지 않으며"
-     ],
-     "class": 0,
-     "uncertain_reason": "",
-     "quotes": {
-      "117": "자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다."
-     }
-    },
-    {
-     "place": "wiki-ko-ytterbium:117:half_life",
-     "doc_id": "wiki-ko-ytterbium",
-     "lang": "ko",
-     "where": "본문",
-     "lines": [
-      117
-     ],
-     "values": [
-      "20 분"
-     ],
-     "raws": [
-      "20분"
-     ],
-     "notes": [
-      "대부분",
-      "이하"
-     ],
-     "class": 1,
-     "uncertain_reason": "",
-     "quotes": {
-      "117": "자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다."
-     }
-    }
-   ]
-  },
-  {
    "object": "praseodymium nitrate",
    "quantity": "complex_stoichiometry",
    "condition": "",
@@ -45626,6 +45633,72 @@
      "uncertain_reason": "복합체의 비율(1:1)이 값인지 서술인지 모호",
      "quotes": {
       "114": "Organopraseodymium compounds are very similar to those of the other lanthanides, as they all share an inability to undergo π backbonding. They are thus mostly restricted to the mostly ionic cyclopentadienides (isostructural with those of lanthanum) and the σ-bonded simple alkyls and aryls, some of which may be polymeric. The coordination chemistry of praseodymium is largely that of the large, electropositive Pr³⁺ ion, and is thus largely similar to those of the other early lanthanides La³⁺, Ce³⁺, and Nd³⁺. For instance, like lanthanum, cerium, and neodymium, praseodymium nitrates form both 4:3 and 1:1 complexes with 18-crown-6, whereas the middle lanthanides from promethium to gadolinium can only form the 4:3 complex and the later lanthanides from terbium to lutetium cannot successfully coordinate to all the ligands. Such praseodymium complexes have high but uncertain coordination numbers and poorly defined stereochemistry, with exceptions resulting from exceptionally bulky ligands such as the tricoordinate [Pr{N(SiMe3)2}3]. There are also a few mixed oxides and fluorides involving praseodymium(IV), but it does not have an appreciable coordination chemistry in this oxidation state like its neighbour cerium. However, the first example of a molecular complex of praseodymium(IV) has recently been reported."
+     }
+    }
+   ]
+  },
+  {
+   "object": "remaining radioactive ytterbium isotopes",
+   "quantity": "half_life",
+   "condition": "",
+   "verdict": "다름",
+   "scopes": [
+    "반대 언어"
+   ],
+   "review": true,
+   "reasons": [
+    "덧붙인 말 다름",
+    "어림 표시",
+    "본문 값"
+   ],
+   "places": [
+    {
+     "place": "wiki-ko-ytterbium:117:half_life",
+     "doc_id": "wiki-ko-ytterbium",
+     "lang": "ko",
+     "where": "본문",
+     "lines": [
+      117
+     ],
+     "values": [
+      "2 시간"
+     ],
+     "raws": [
+      "2시간"
+     ],
+     "notes": [
+      "넘지 않으며"
+     ],
+     "class": 0,
+     "uncertain_reason": "",
+     "quotes": {
+      "117": "자연적으로 이터븀은 7가지의 안정 동위원소(¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb 그리고 ¹⁷⁶Yb) 형태로 존재한다. 이들 중 ¹⁷⁴Yb가 31.8 %로 가장 존재비가 높다. 27개의 방사성 동위원소도 알려져 있으며 가장 반감기가 긴 것들은 ¹⁶⁹Yb (32.0 일), ¹⁷⁵Yb (4.18 일), 그리고 ¹⁶⁶Yb (56.7 시간)이다. 나머지 방사성 동위원소들은 반감기가 2시간을 넘지 않으며 대부분 20분 이하이다. 이터븀은 12개의 준안정 상태(meta state)의 원자핵 역시 가지는데, 이 중 가장 반감기가 긴 것은 ¹⁶⁹ᵐYb (반감기 46초)이다."
+     },
+     "given": {
+      "object": "other Yb radioactive isotopes",
+      "quantity": "half_life",
+      "condition": ""
+     }
+    },
+    {
+     "place": "wiki-en-ytterbium:119:half_life",
+     "doc_id": "wiki-en-ytterbium",
+     "lang": "en",
+     "where": "본문",
+     "lines": [
+      119
+     ],
+     "values": [
+      "less than 2 hours"
+     ],
+     "raws": [
+      "less than 2 hours"
+     ],
+     "notes": [],
+     "class": 1,
+     "uncertain_reason": "",
+     "quotes": {
+      "119": "Natural ytterbium is composed of seven stable isotopes: ¹⁶⁸Yb, ¹⁷⁰Yb, ¹⁷¹Yb, ¹⁷²Yb, ¹⁷³Yb, ¹⁷⁴Yb, and ¹⁷⁶Yb, with ¹⁷⁴Yb being the most abundant (31.90 % natural abundance). Thirty-two synthetic radioisotopes have been observed, with the most stable being ¹⁶⁹Yb with a half-life of 32.014 days, ¹⁷⁵Yb with a half-life of 4.185 days, and ¹⁶⁶Yb with a half-life of 56.7 hours. All of the remaining radioactive isotopes have half-lives that are less than 2 hours, with the majority of them being less than 20 minutes. This element also has 18 meta states, with the most stable being ¹⁶⁹ᵐYb (half-life 46 seconds)."
      }
     }
    ]
