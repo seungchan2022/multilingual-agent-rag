@@ -236,6 +236,35 @@ class ValueBreak(unittest.TestCase):
         self.assertEqual(convert('<p>La<br>2O<br>3</p>'), "La 2O 3")
 
 
+class ChemicalFormula(unittest.TestCase):
+    """화학식 틀(.chemf) 안의 <br>은 없앤다. 첨자를 위아래로 쌓은 줄바꿈이라 빈칸이 되면 원소 기호에서 떨어진다."""
+
+    STACK = '<span class="nowrap"><span style="display:inline-block;"><sup>{sup}</sup><br /><sub>{sub}</sub></span></span>'
+
+    def test_쌓은_아래첨자는_원소_기호에_붙는다(self):
+        stack = self.STACK.format(sup="", sub="2")
+        md = convert(f'<p>oxide <span class="chemf nowrap">La{stack}O<sub>3</sub></span>, ok</p>')
+        self.assertEqual(md, "oxide La2O3, ok")
+
+    def test_쌓은_위첨자는_원소_기호에_붙는다(self):
+        stack = self.STACK.format(sup="3+", sub="")
+        md = convert(f'<p>ion <span class="chemf nowrap">La{stack}</span>.</p>')
+        self.assertEqual(md, "ion La³⁺.")
+
+    def test_질량수_위첨자는_앞에서_붙는다(self):
+        stack = self.STACK.format(sup="139", sub="")
+        md = convert(f'<p><span class="chemf nowrap">{stack}La</span> is stable</p>')
+        self.assertEqual(md, "¹³⁹La is stable")
+
+    def test_화학식_밖의_줄바꿈은_빈칸이다(self):
+        self.assertEqual(convert('<p>La<br>2O</p>'), "La 2O")
+
+    def test_값_칸_안의_화학식도_값_칸_규칙보다_먼저_없앤다(self):
+        stack = self.STACK.format(sup="", sub="2")
+        md = box_md(f'<tr><th>산화물</th><td><span class="chemf">La{stack}O<sub>3</sub></span></td></tr>')
+        self.assertIn("- 산화물: La2O3", md)
+
+
 class InfoboxNavbar(unittest.TestCase):
     def test_묶음_제목의_v_e를_지운다(self):
         md = box_md('<tr><th class="infobox-header"><a href="/wiki/Isotopes_of_thulium">Isotopes of thulium</a>'

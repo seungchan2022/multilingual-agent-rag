@@ -103,7 +103,7 @@ documents:
   raw_file: raw/wiki-en-lutetium.html
   raw_sha256: 4d9277045d6d686b183240c164877075ca809c8114ed0ed408db8891dac4db20
   markdown_file: markdown/wiki-en-lutetium.md
-  markdown_sha256: fb485578cf7acb99e1caae1fc95e020597b851333a8dbcf90056d422473cb3cb
+  markdown_sha256: f413475310641c6827bb7f1a01e64fd47110d0c8d052f8de22607c1bcd8f7856
 - doc_id: wiki-ko-isotopes-of-yttrium
   fetched_at: '2026-10-22T13:34:13+09:00'
   request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=40113523&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
@@ -207,7 +207,7 @@ documents:
   raw_file: raw/wiki-en-lanthanum.html
   raw_sha256: d3e10d55648c579f3bf74ed2d3c6a9b949a7a940a78e58c84fa750bdf1179013
   markdown_file: markdown/wiki-en-lanthanum.md
-  markdown_sha256: f49f4dbd13962b5abaf5a64dc870757a75e9893424c9dc98fcdefd63e6e98032
+  markdown_sha256: 9f44756adb83ddb5879dc80546b09d4ab18ad801360aa301f77b864f948fba7f
 - doc_id: wiki-en-europium
   fetched_at: '2026-10-22T13:34:41+09:00'
   request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1380092828&prop=text%7Crevid&format=json&formatversion=2&maxlag=5

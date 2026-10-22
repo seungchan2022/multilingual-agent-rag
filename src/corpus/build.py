@@ -155,6 +155,9 @@ def prepare(root):
             legend.append(li)
         new.append(legend)
         box.replace_with(new)
+    # 화학식 틀(.chemf): 위첨자와 아래첨자를 위아래로 쌓느라 사이에 <br>이 든다. 빈칸이 되면 La2O3이 'La 2O 3'으로 끊기므로 값 칸 규칙보다 먼저 없앤다.
+    for br in root.select(".chemf br"):
+        br.decompose()
     split_value_breaks(root)
 
 
