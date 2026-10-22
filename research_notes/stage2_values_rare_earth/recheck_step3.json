@@ -1,0 +1,2052 @@
+{
+ "conflicts": "/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/known_conflicts.json",
+ "need": {
+  "one": 18,
+  "table": 3
+ },
+ "summary": {
+  "ko": {
+   "확인됨": {
+    "사실": 23,
+    "표": 16,
+    "기준": "충족"
+   },
+   "A": {
+    "사실": 21,
+    "표": 15,
+    "기준": "충족"
+   },
+   "B": {
+    "사실": 21,
+    "표": 15,
+    "기준": "충족"
+   },
+   "A 엄격": {
+    "사실": 21,
+    "표": 15,
+    "기준": "충족"
+   },
+   "B 엄격": {
+    "사실": 21,
+    "표": 15,
+    "기준": "충족"
+   },
+   "B만 자리 없이": {
+    "사실": 0,
+    "표": 0
+   }
+  },
+  "en": {
+   "확인됨": {
+    "사실": 24,
+    "표": 7,
+    "기준": "충족"
+   },
+   "A": {
+    "사실": 23,
+    "표": 7,
+    "기준": "충족"
+   },
+   "B": {
+    "사실": 17,
+    "표": 5,
+    "기준": "미달"
+   },
+   "A 엄격": {
+    "사실": 23,
+    "표": 7,
+    "기준": "충족"
+   },
+   "B 엄격": {
+    "사실": 16,
+    "표": 4,
+    "기준": "미달"
+   },
+   "B만 자리 없이": {
+    "사실": 0,
+    "표": 0
+   }
+  }
+ },
+ "not_found": [
+  {
+   "no": "R-ko-016",
+   "raw": "1.911 h",
+   "old_line": "  - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁶Yb 인공 56.7 h ε 0.304 ¹⁶⁶Tm ¹⁶⁸Yb 0.13% 안정 ¹⁶⁹Yb 인공 32.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵Lu ¹⁷⁶Yb 12.7% 안정 ¹⁷⁷Yb 인공 1.911 h β⁻ 1.399 ¹⁷⁷Lu",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-ko-022",
+   "raw": "1.06×10¹¹y",
+   "old_line": "  - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.75% 안정 ¹⁵⁴Sm 22.75% 안정",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-ko-027",
+   "raw": "28.58 h",
+   "old_line": "  - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 28.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.3 h β⁻ 0.891 ¹⁷²Tm",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-ko-110",
+   "raw": "4.25(15) s",
+   "old_line": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | IT (66%) | ¹⁴⁴Tb | (6-) |  |  |",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-ko-110",
+   "raw": "4.25(15) s",
+   "old_line": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |  |",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-ko-110",
+   "raw": "4.25(15) s",
+   "old_line": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |  |",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  },
+  {
+   "no": "R-en-100",
+   "raw": "4.6×10¹⁸ y",
+   "old_line": "  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd",
+   "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음"
+  }
+ ],
+ "no_slot": [
+  {
+   "no": "R-ko-018",
+   "raw": "50.6(9) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 43,
+   "new_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |"
+  },
+  {
+   "no": "R-ko-018",
+   "raw": "50.6(9) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 43,
+   "new_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |"
+  },
+  {
+   "no": "R-ko-021",
+   "raw": "517.1(5) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 35,
+   "new_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |"
+  },
+  {
+   "no": "R-ko-021",
+   "raw": "517.1(5) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 35,
+   "new_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |"
+  },
+  {
+   "no": "R-ko-021",
+   "raw": "519.43(17) keV",
+   "doc_id": "wiki-ko-isotopes-of-neodymium",
+   "line": 36,
+   "new_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |"
+  },
+  {
+   "no": "R-ko-021",
+   "raw": "519.43(17) keV",
+   "doc_id": "wiki-ko-isotopes-of-neodymium",
+   "line": 36,
+   "new_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |"
+  },
+  {
+   "no": "R-ko-028",
+   "raw": "163.175(5) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 65,
+   "new_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |"
+  },
+  {
+   "no": "R-ko-028",
+   "raw": "163.175(5) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 65,
+   "new_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |"
+  },
+  {
+   "no": "R-ko-031",
+   "raw": "1349(10) keV",
+   "doc_id": "wiki-ko-isotopes-of-neodymium",
+   "line": 62,
+   "new_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |"
+  },
+  {
+   "no": "R-ko-031",
+   "raw": "1349(10) keV",
+   "doc_id": "wiki-ko-isotopes-of-neodymium",
+   "line": 62,
+   "new_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |"
+  },
+  {
+   "no": "R-ko-032",
+   "raw": "90.1(3) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 45,
+   "new_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |"
+  },
+  {
+   "no": "R-ko-032",
+   "raw": "90.1(3) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 45,
+   "new_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |"
+  },
+  {
+   "no": "R-ko-038",
+   "raw": "621.4(11) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 26,
+   "new_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |"
+  },
+  {
+   "no": "R-ko-038",
+   "raw": "621.4(11) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 26,
+   "new_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |"
+  },
+  {
+   "no": "R-ko-125",
+   "raw": "544.5(6) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 36,
+   "new_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |"
+  },
+  {
+   "no": "R-ko-125",
+   "raw": "544.5(6) keV",
+   "doc_id": "wiki-ko-isotopes-of-terbium",
+   "line": 36,
+   "new_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |"
+  }
+ ],
+ "facts": [
+  {
+   "no": "R-ko-010",
+   "lang": "ko",
+   "side": "both",
+   "in_table": false,
+   "note": "디스프로슘 원자 반지름 계산값 228 pm. 영어 Dysprosium에는 empirical 178 pm과 covalent 192±7 pm만 있고 계산값이 없다(원문 HTML에도 없다)",
+   "mentions": [
+    {
+     "raw": "228 pm",
+     "old_line": "  - 원자 반지름: 175 pm (실험값) 228 pm (계산값)",
+     "doc_id": "wiki-ko-dysprosium",
+     "status": "찾음",
+     "how": "뒤 창",
+     "line": 34,
+     "new_line": "  - 원자 반지름: 175 pm (실험값) / 228 pm (계산값)",
+     "slot": "wiki-ko-dysprosium:34:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 50 자리",
+      "항목 50 값 175"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-015",
+   "lang": "ko",
+   "side": "both",
+   "in_table": false,
+   "note": "툴륨 원자 반지름 계산값 222 pm. 영어 Thulium에는 empirical 176 pm과 covalent 190±10 pm만 있고 계산값이 없다(원문 HTML에도 없다)",
+   "mentions": [
+    {
+     "raw": "222 pm",
+     "old_line": "  - 원자 반지름: 175 pm (실험값) 222 pm (계산값)",
+     "doc_id": "wiki-ko-thulium",
+     "status": "찾음",
+     "how": "뒤 창",
+     "line": 34,
+     "new_line": "  - 원자 반지름: 175 pm (실험값) / 222 pm (계산값)",
+     "slot": "wiki-ko-thulium:34:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 63 자리",
+      "항목 63 값 175"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-016",
+   "lang": "ko",
+   "side": "both",
+   "in_table": false,
+   "note": "¹⁷⁷Yb 반감기 1.911 h. 영어 Ytterbium(원문 HTML 포함)에 ¹⁷⁷Yb가 없다. \"less than 2 hours\"는 남은 동위 원소 전체를 말한 것이라 같은 사실이 아니다",
+   "mentions": [
+    {
+     "raw": "1.911 h",
+     "old_line": "  - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁶Yb 인공 56.7 h ε 0.304 ¹⁶⁶Tm ¹⁶⁸Yb 0.13% 안정 ¹⁶⁹Yb 인공 32.026 d ε 0.909 ¹⁶⁹Tm ¹⁷⁰Yb 3.05% 안정 ¹⁷¹Yb 14.3% 안정 ¹⁷²Yb 21.9% 안정 ¹⁷³Yb 16.12% 안정 ¹⁷⁴Yb 31.8% 안정 ¹⁷⁵Yb 인공 4.185 d β⁻ 0.470 ¹⁷⁵Lu ¹⁷⁶Yb 12.7% 안정 ¹⁷⁷Yb 인공 1.911 h β⁻ 1.399 ¹⁷⁷Lu",
+     "doc_id": "wiki-ko-ytterbium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    }
+   ],
+   "A": false,
+   "B": false,
+   "A_strict": false,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-018",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁴⁷ᵐTb 들뜸 에너지 50.6(9) keV. 코퍼스의 영어 문서에 터븀 동위 원소가 없음",
+   "mentions": [
+    {
+     "raw": "50.6(9) keV",
+     "old_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 43,
+     "new_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:43:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "50.6(9) keV",
+     "old_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 43,
+     "new_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "50.6(9) keV",
+     "old_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 43,
+     "new_line": "| ¹⁴⁷ᵐTb | 50.6(9) keV | 50.6(9) keV | 50.6(9) keV | 1.87(5) min | β⁺ | ¹⁴⁷Gd | (11/2)- |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-019",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁶⁰Tb 반감기 72.3(2) d. 코퍼스의 영어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "72.3(2) d",
+     "old_line": "| ¹⁶⁰Tb | 65 | 95 | 159.9271676(27) | 72.3(2) d | β⁻ | ¹⁶⁰Dy | 3- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 86,
+     "new_line": "| ¹⁶⁰Tb | 65 | 95 | 159.9271676(27) | 72.3(2) d | β⁻ | ¹⁶⁰Dy | 3- |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:86:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-020",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "이트륨 부피 탄성 계수 41.2 GPa. 영어의 40.5 GPa·44.5 GPa는 디스프로슘·툴륨",
+   "mentions": [
+    {
+     "raw": "41.2 GPa",
+     "old_line": "  - 부피 탄성 계수: 41.2 GPa",
+     "doc_id": "wiki-ko-yttrium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 44,
+     "new_line": "  - 부피 탄성 계수: 41.2 GPa",
+     "slot": "wiki-ko-yttrium:44:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-021",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁴⁴ᵐ³Tb 들뜸 에너지 517.1(5) keV. 영어의 507.50 keV 등은 이트륨 동위 원소",
+   "mentions": [
+    {
+     "raw": "517.1(5) keV",
+     "old_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 35,
+     "new_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:35:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "517.1(5) keV",
+     "old_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 35,
+     "new_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "517.1(5) keV",
+     "old_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 35,
+     "new_line": "| ¹⁴⁴ᵐ³Tb | 517.1(5) keV | 517.1(5) keV | 517.1(5) keV | 670(60) ns |  |  | (9+) |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "519.43(17) keV",
+     "old_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 36,
+     "new_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:36:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "519.43(17) keV",
+     "old_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 36,
+     "new_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "519.43(17) keV",
+     "old_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 36,
+     "new_line": "| ¹³⁷ᵐNd | 519.43(17) keV | 519.43(17) keV | 519.43(17) keV | 1.60(15) s | IT | ¹³⁷Nd | (11/2-) |  |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-022",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "¹⁴⁷Sm 반감기 1.06×10¹¹년(정보 상자와 본문). 영어의 1.03×10¹¹ y는 ¹³⁸La",
+   "mentions": [
+    {
+     "raw": "1.06×10¹¹y",
+     "old_line": "  - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁴⁴Sm 3.07% 안정 ¹⁴⁶Sm 인공 1.03×10⁸y α 2.529 ¹⁴²Nd ¹⁴⁷Sm 14.99% 1.06×10¹¹y α 2.310 ¹⁴³Nd ¹⁴⁸Sm 11.24% 7×10¹⁵y α 1.986 ¹⁴⁴Nd ¹⁴⁹Sm 13.82% >2×10¹⁵ y α 1.870 ¹⁴⁵Nd ¹⁵⁰Sm 7.38% 안정 ¹⁵²Sm 26.75% 안정 ¹⁵⁴Sm 22.75% 안정",
+     "doc_id": "wiki-ko-samarium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    },
+    {
+     "raw": "1.06×10¹¹년",
+     "old_line": "자연에 존재하는 사마륨은 1g 당 128Bq의 방사능을 나타낸다. 네 개의 안정한 동위 원소(¹⁴⁴Sm, ¹⁵⁰Sm, ¹⁵²Sm, ¹⁵⁴Sm)와 세 개의 방사성 동위 원소(¹⁴⁷Sm, ¹⁴⁸Sm, ¹⁴⁹Sm)가 존재하며, 이 중 가장 많이 존재하는 것은 ¹⁵²Sm이다. 방사성 동위 원소 세 가지는 모두 반감기가 매우 긴 편이며(¹⁴⁷Sm은 반감기 1.06×10¹¹년, ¹⁴⁸Sm은 반감기 7×10¹⁵년)이며, 이들 중 ¹⁴⁹Sm은 자료에 따라 반감기 2×10¹⁵년 이상인 방사성 동위 원소로 분류되기도 하고 안정한 동위 원소로 분류되기도 한다.",
+     "doc_id": "wiki-ko-samarium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 89,
+     "new_line": "자연에 존재하는 사마륨은 1g 당 128Bq의 방사능을 나타낸다. 네 개의 안정한 동위 원소(¹⁴⁴Sm, ¹⁵⁰Sm, ¹⁵²Sm, ¹⁵⁴Sm)와 세 개의 방사성 동위 원소(¹⁴⁷Sm, ¹⁴⁸Sm, ¹⁴⁹Sm)가 존재하며, 이 중 가장 많이 존재하는 것은 ¹⁵²Sm이다. 방사성 동위 원소 세 가지는 모두 반감기가 매우 긴 편이며(¹⁴⁷Sm은 반감기 1.06×10¹¹년, ¹⁴⁸Sm은 반감기 7×10¹⁵년)이며, 이들 중 ¹⁴⁹Sm은 자료에 따라 반감기 2×10¹⁵년 이상인 방사성 동위 원소로 분류되기도 하고 안정한 동위 원소로 분류되기도 한다.",
+     "slot": "wiki-ko-samarium:89:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-023",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "네오디뮴 동위 원소 표: ¹⁴⁹Nd 반감기 1.728(1) h. 영어의 96 minutes는 ¹⁵²Eu의 이성질체",
+   "mentions": [
+    {
+     "raw": "1.728(1) h",
+     "old_line": "| ¹⁴⁹Nd | 60 | 89 | 148.920149(3) | 1.728(1) h | β⁻ | ¹⁴⁸Pm | 5/2- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 55,
+     "new_line": "| ¹⁴⁹Nd | 60 | 89 | 148.920149(3) | 1.728(1) h | β⁻ | ¹⁴⁸Pm | 5/2- |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:55:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-024",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁵⁶ᵐ²Tb 반감기 5.3(2) h. 영어의 4.86 h는 ⁸⁵ᵐ¹Y",
+   "mentions": [
+    {
+     "raw": "5.3(2) h",
+     "old_line": "| ¹⁵⁶ᵐ²Tb | 88.4(2) keV | 88.4(2) keV | 88.4(2) keV | 5.3(2) h |  |  | (0+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 77,
+     "new_line": "| ¹⁵⁶ᵐ²Tb | 88.4(2) keV | 88.4(2) keV | 88.4(2) keV | 5.3(2) h |  |  | (0+) |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:77:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-025",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁵⁶ᵐ¹Tb 반감기 24.4(10) h. 영어의 24-hour는 치료 시간",
+   "mentions": [
+    {
+     "raw": "24.4(10) h",
+     "old_line": "| ¹⁵⁶ᵐ¹Tb | 54(3) keV | 54(3) keV | 54(3) keV | 24.4(10) h | IT | ¹⁵⁶Tb | (7-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 76,
+     "new_line": "| ¹⁵⁶ᵐ¹Tb | 54(3) keV | 54(3) keV | 54(3) keV | 24.4(10) h | IT | ¹⁵⁶Tb | (7-) |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:76:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-026",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "어븀 액체 밀도 8.86 g/cm³. 영어의 8.550·9.3·8.37 g/cm³는 디스프로슘·루테튬",
+   "mentions": [
+    {
+     "raw": "8.86 g/cm³",
+     "old_line": "  - 액체(녹는점)일 때: 8.86 g/cm³",
+     "doc_id": "wiki-ko-erbium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 20,
+     "new_line": "  - 액체(녹는점)일 때: 8.86 g/cm³",
+     "slot": "wiki-ko-erbium:20:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-027",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "¹⁶⁰Er 반감기 28.58 h(어븀 정보 상자). 코퍼스의 영어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "28.58 h",
+     "old_line": "  - 동위체 존재비 반감기 DM DE (MeV) DP ¹⁶⁰Er 인공 28.58 h ε 0.330 ¹⁶⁰Ho ¹⁶²Er 0.14% 안정 ¹⁶⁴Er 1.61% 안정 ¹⁶⁵Er 인공 10.36 h ε 0.376 ¹⁶⁵Ho ¹⁶⁶Er 33.6% 안정 ¹⁶⁷Er 22.95% 안정 ¹⁶⁸Er 26.8% 안정 ¹⁶⁹Er 인공 9.4 d β⁻ 0.351 ¹⁶⁹Tm ¹⁷⁰Er 14.9% 안정 ¹⁷¹Er 인공 7.516 h β⁻ 1.490 ¹⁷¹Tm ¹⁷²Er 인공 49.3 h β⁻ 0.891 ¹⁷²Tm",
+     "doc_id": "wiki-ko-erbium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    }
+   ],
+   "A": false,
+   "B": false,
+   "A_strict": false,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-028",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁵³ᵐTb 들뜸 에너지 163.175(5) keV. 영어의 170.78 keV·147.9 keV는 이트륨·유로퓸",
+   "mentions": [
+    {
+     "raw": "163.175(5) keV",
+     "old_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 65,
+     "new_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:65:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "163.175(5) keV",
+     "old_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 65,
+     "new_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "163.175(5) keV",
+     "old_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 65,
+     "new_line": "| ¹⁵³ᵐTb | 163.175(5) keV | 163.175(5) keV | 163.175(5) keV | 186(4) µs |  |  | 11/2- |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-029",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "사마륨 전단 탄성 계수 19.5 GPa(α형). 영어의 18.2 GPa는 유로퓸의 영률",
+   "mentions": [
+    {
+     "raw": "19.5 GPa",
+     "old_line": "  - 전단 탄성 계수: (α form) 19.5 GPa",
+     "doc_id": "wiki-ko-samarium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 43,
+     "new_line": "  - 전단 탄성 계수: (α form) 19.5 GPa",
+     "slot": "wiki-ko-samarium:43:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-030",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "이트륨 열전도율 17.2 W/(m·K). 영어의 16.9·16.4는 툴륨·루테튬",
+   "mentions": [
+    {
+     "raw": "17.2 W/(m·K)",
+     "old_line": "  - 열전도율: 17.2 W/(m·K)",
+     "doc_id": "wiki-ko-yttrium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 39,
+     "new_line": "  - 열전도율: 17.2 W/(m·K)",
+     "slot": "wiki-ko-yttrium:39:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-031",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "네오디뮴 동위 원소 표: ¹⁵⁴ᵐ²Nd 들뜸 에너지 1349(10) keV. 코퍼스의 영어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "1349(10) keV",
+     "old_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 62,
+     "new_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:62:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "1349(10) keV",
+     "old_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 62,
+     "new_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "1349(10) keV",
+     "old_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 62,
+     "new_line": "| ¹⁵⁴ᵐ²Nd | 1349(10) keV | 1349(10) keV | 1349(10) keV | >1 µs |  |  | (5-) |  |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-032",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁴⁸ᵐ¹Tb 들뜸 에너지 90.1(3) keV. 영어의 84.253 keV는 툴륨의 감마선",
+   "mentions": [
+    {
+     "raw": "90.1(3) keV",
+     "old_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 45,
+     "new_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:45:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "90.1(3) keV",
+     "old_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 45,
+     "new_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "90.1(3) keV",
+     "old_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 45,
+     "new_line": "| ¹⁴⁸ᵐ¹Tb | 90.1(3) keV | 90.1(3) keV | 90.1(3) keV | 2.20(5) min | β⁺ | ¹⁴⁸Gd | (9)+ |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-033",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁵²ᵐ¹Tb 반감기 0.96 µs. 영어의 870 ns는 ¹⁰¹ᵐY",
+   "mentions": [
+    {
+     "raw": "0.96 µs",
+     "old_line": "| ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 342.15(16) keV | 0.96 µs |  |  | 5- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 61,
+     "new_line": "| ¹⁵²ᵐ¹Tb | 342.15(16) keV | 342.15(16) keV | 342.15(16) keV | 0.96 µs |  |  | 5- |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:61:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-034",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "네오디뮴 동위 원소 표: ¹⁵⁴Nd 반감기 25.9(2) s. 코퍼스의 영어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "25.9(2) s",
+     "old_line": "| ¹⁵⁴Nd | 60 | 94 | 153.92948(12) | 25.9(2) s | β⁻ | ¹⁵⁴Pm | 0+ |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 60,
+     "new_line": "| ¹⁵⁴Nd | 60 | 94 | 153.92948(12) | 25.9(2) s | β⁻ | ¹⁵⁴Pm | 0+ |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:60:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-035",
+   "lang": "ko",
+   "side": "one",
+   "in_table": false,
+   "note": "어븀 전기 저항도 0.860 μΩ·m. 영어의 0.900 µΩ⋅m·926 nΩ⋅m는 유로퓸·디스프로슘",
+   "mentions": [
+    {
+     "raw": "0.860 μ Ω·m",
+     "old_line": "  - 전기 저항도: (실온) (poly) 0.860 μ Ω·m",
+     "doc_id": "wiki-ko-erbium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 40,
+     "new_line": "  - 전기 저항도: (실온) (poly) 0.860 μ Ω·m",
+     "slot": "wiki-ko-erbium:40:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-038",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁴²ᵐ²Tb 들뜸 에너지 621.4(11) keV. 영어의 594·667.52 keV 등은 이트륨 동위 원소",
+   "mentions": [
+    {
+     "raw": "621.4(11) keV",
+     "old_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 26,
+     "new_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:26:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "621.4(11) keV",
+     "old_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 26,
+     "new_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "621.4(11) keV",
+     "old_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 26,
+     "new_line": "| ¹⁴²ᵐ²Tb | 621.4(11) keV | 621.4(11) keV | 621.4(11) keV | 15(4) µs |  |  |  |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-082",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "네오디뮴 동위 원소 표: ¹⁴⁷Nd 반감기 10.98(1) d. 코퍼스의 영어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "10.98(1) d",
+     "old_line": "| ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 10.98(1) d | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 53,
+     "new_line": "| ¹⁴⁷Nd | 60 | 87 | 146.9161004(25) | 10.98(1) d | β⁻ | ¹⁴⁷Pm | 5/2- |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:53:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-090",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "네오디뮴 동위 원소 표: ¹³⁵Nd 반감기 12.4(6) min과 ¹⁵¹Nd 12.44(7) min이 한 묶음. 둘 다 코퍼스의 영어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "12.4(6) min",
+     "old_line": "| ¹³⁵Nd | 60 | 75 | 134.918181(21) | 12.4(6) min | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 32,
+     "new_line": "| ¹³⁵Nd | 60 | 75 | 134.918181(21) | 12.4(6) min | β⁺ | ¹³⁵Pr | 9/2(-) |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:32:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "12.44(7) min",
+     "old_line": "| ¹⁵¹Nd | 60 | 91 | 150.923829(3) | 12.44(7) min | β⁻ | ¹⁵¹Pm | 3/2+ |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 57,
+     "new_line": "| ¹⁵¹Nd | 60 | 91 | 150.923829(3) | 12.44(7) min | β⁻ | ¹⁵¹Pm | 3/2+ |  |  |",
+     "slot": "wiki-ko-isotopes-of-neodymium:57:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-110",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁴⁴ᵐ¹Tb 반감기 4.25(15) s. 영어의 4.6 s는 ⁸⁴ᵐ¹Y",
+   "mentions": [
+    {
+     "raw": "4.25(15) s",
+     "old_line": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | IT (66%) | ¹⁴⁴Tb | (6-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    },
+    {
+     "raw": "4.25(15) s",
+     "old_line": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺ (34%) | ¹⁴⁴Gd | (6-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    },
+    {
+     "raw": "4.25(15) s",
+     "old_line": "| ¹⁴⁴ᵐ¹Tb | 396.9(5) keV | 396.9(5) keV | 396.9(5) keV | 4.25(15) s | β⁺, p (<1%) | ¹⁴³Eu | (6-) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    }
+   ],
+   "A": false,
+   "B": false,
+   "A_strict": false,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-ko-125",
+   "lang": "ko",
+   "side": "one",
+   "in_table": true,
+   "note": "터븀 동위 원소 표: ¹⁴⁴ᵐ⁴Tb 들뜸 에너지 544.5(6) keV. 영어의 555.58·507.50 keV 등은 이트륨 동위 원소",
+   "mentions": [
+    {
+     "raw": "544.5(6) keV",
+     "old_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 36,
+     "new_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |",
+     "slot": "wiki-ko-isotopes-of-terbium:36:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "544.5(6) keV",
+     "old_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "창",
+     "line": 36,
+     "new_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "544.5(6) keV",
+     "old_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |  |",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "status": "찾음",
+     "how": "앞 창",
+     "line": 36,
+     "new_line": "| ¹⁴⁴ᵐ⁴Tb | 544.5(6) keV | 544.5(6) keV | 544.5(6) keV | <300 ns |  |  | (10+) |  |",
+     "slot": "자리 없음",
+     "A": "자리 없음",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-091",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료 표: 중앙 생존 기간 17.7개월(본문 17.7 months와 한 묶음). 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "17.7",
+     "old_line": "| R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 17.7 (primary) |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 147,
+     "new_line": "| R2-0, Studsvik Medical AB, Sweden | 30 (2001–2007) | BPA 900 mg/kg | 17.7 (primary) |",
+     "slot": "wiki-en-neutron-capture-therapy:147:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "17.7 months",
+     "old_line": "To conclude this section on treating brain tumors with BNCT using reactor neutron sources, a clinical trial that was carried out by Stenstam, Sköld, Capala, and their co-workers in Studsvik, Sweden, using an epithermal neutron beam produced by the Studsvik nuclear reactor, which had greater tissue penetration properties than the thermal beams originally used in the United States and Japan, will be briefly summarized. This study differed significantly from all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT in combination with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a randomized clinical trial, it could represent a significant step forward in BNCT of brain tumors, especially if combined with a photon boost.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 159,
+     "new_line": "To conclude this section on treating brain tumors with BNCT using reactor neutron sources, a clinical trial that was carried out by Stenstam, Sköld, Capala, and their co-workers in Studsvik, Sweden, using an epithermal neutron beam produced by the Studsvik nuclear reactor, which had greater tissue penetration properties than the thermal beams originally used in the United States and Japan, will be briefly summarized. This study differed significantly from all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT in combination with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a randomized clinical trial, it could represent a significant step forward in BNCT of brain tumors, especially if combined with a photon boost.",
+     "slot": "wiki-en-neutron-capture-therapy:159:9",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-092",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료 표: JRR4 재발 환자 중앙 생존 기간 10.8개월. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "10.8",
+     "old_line": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 146,
+     "new_line": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+     "slot": "wiki-en-neutron-capture-therapy:146:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-093",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "란타넘 비열 195.162 J/(kg·K). 코퍼스의 한국어 문서에 란타넘이 없음",
+   "mentions": [
+    {
+     "raw": "195.162 J/(kg·K)",
+     "old_line": "  - Specific heat capacity: 195.162 J/(kg·K)",
+     "doc_id": "wiki-en-lanthanum",
+     "status": "찾음",
+     "how": "줄",
+     "line": 24,
+     "new_line": "  - Specific heat capacity: 195.162 J/(kg·K)",
+     "slot": "wiki-en-lanthanum:24:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-094",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 양성자 가속기 에너지 1.9~3.0 MeV의 끝값. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "3.0 MeV",
+     "old_line": "Accelerators now are the primary source of epithermal neutrons for clinical BNCT. The first papers relating to their possible use were published in the 1980s, and, as summarized by Blue and Yanch, this topic became an active area of research in the early 2000s. However, it was the Fukushima nuclear accident in Japan in 2011 that gave impetus to their development for clinical use. Accelerators also can be used to produce epithermal neutrons. Today several accelerator-based neutron sources (ABNS) are commercially available or under development. Most existing or planned systems use either the lithium-7 reaction, ⁷Li(p,n)⁷Be or the beryllium-9 reaction, ⁹Be(p,n)⁹B, to generate neutrons, though other nuclear reactions also have been considered. The lithium-7 reaction requires a proton accelerator with energies between 1.9 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that the lithium-7 reaction requires, its main benefit is the lower energy of the neutrons produced. This in turn allows the use of smaller moderators, \"cleaner\" neutron beams, and reduced neutron activation. Benefits of the beryllium-9 reaction include simplified target design and disposal, long target lifetime, and lower required proton beam current.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 181,
+     "new_line": "Accelerators now are the primary source of epithermal neutrons for clinical BNCT. The first papers relating to their possible use were published in the 1980s, and, as summarized by Blue and Yanch, this topic became an active area of research in the early 2000s. However, it was the Fukushima nuclear accident in Japan in 2011 that gave impetus to their development for clinical use. Accelerators also can be used to produce epithermal neutrons. Today several accelerator-based neutron sources (ABNS) are commercially available or under development. Most existing or planned systems use either the lithium-7 reaction, ⁷Li(p,n)⁷Be or the beryllium-9 reaction, ⁹Be(p,n)⁹B, to generate neutrons, though other nuclear reactions also have been considered. The lithium-7 reaction requires a proton accelerator with energies between 1.9 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that the lithium-7 reaction requires, its main benefit is the lower energy of the neutrons produced. This in turn allows the use of smaller moderators, \"cleaner\" neutron beams, and reduced neutron activation. Benefits of the beryllium-9 reaction include simplified target design and disposal, long target lifetime, and lower required proton beam current.",
+     "slot": "wiki-en-neutron-capture-therapy:181:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-095",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 종양 최소 선량 15.4~54.3 Gy(w)의 앞 끝값. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "15.4",
+     "old_line": "To conclude this section on treating brain tumors with BNCT using reactor neutron sources, a clinical trial that was carried out by Stenstam, Sköld, Capala, and their co-workers in Studsvik, Sweden, using an epithermal neutron beam produced by the Studsvik nuclear reactor, which had greater tissue penetration properties than the thermal beams originally used in the United States and Japan, will be briefly summarized. This study differed significantly from all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT in combination with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a randomized clinical trial, it could represent a significant step forward in BNCT of brain tumors, especially if combined with a photon boost.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 159,
+     "new_line": "To conclude this section on treating brain tumors with BNCT using reactor neutron sources, a clinical trial that was carried out by Stenstam, Sköld, Capala, and their co-workers in Studsvik, Sweden, using an epithermal neutron beam produced by the Studsvik nuclear reactor, which had greater tissue penetration properties than the thermal beams originally used in the United States and Japan, will be briefly summarized. This study differed significantly from all previous clinical trials in that the total amount of BPA administered was increased (900 mg/kg), and it was infused i.v. over 6 hours. This was based on experimental animal studies in glioma-bearing rats demonstrating enhanced uptake of BPA by infiltrating tumor cells following a 6-hour infusion. The longer infusion time of the BPA was well-tolerated by the 30 patients who were enrolled in this study. All were treated with 2 fields, and the average whole-brain dose was 3.2–6.1 Gy (weighted), and the minimum dose to the tumor ranged from 15.4 to 54.3 Gy (w). There has been some disagreement among the Swedish investigators regarding the evaluation of the results. Based on incomplete survival data, the MeST was reported as 14.2 months and the time to tumor progression was 5.8 months. However, more careful examination of the complete survival data revealed that the MeST was 17.7 months compared to 15.5 months that has been reported for patients who received standard therapy of surgery, followed by radiotherapy (RT) and the drug temozolomide (TMZ). Furthermore, the frequency of adverse events was lower after BNCT (14%) than after radiation therapy (RT) alone (21%), and both of these were lower than those seen following RT in combination with TMZ. If this improved survival data, obtained using the higher dose of BPA and a 6-hour infusion time, can be confirmed by others, preferably in a randomized clinical trial, it could represent a significant step forward in BNCT of brain tumors, especially if combined with a photon boost.",
+     "slot": "wiki-en-neutron-capture-therapy:159:6",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-096",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "유로퓸 열전도율 13.9 W/(m⋅K)(어림). 한국어의 14.5·13.3은 어븀·사마륨",
+   "mentions": [
+    {
+     "raw": "13.9 W/(m⋅K)",
+     "old_line": "  - Thermal conductivity: est. 13.9 W/(m⋅K)",
+     "doc_id": "wiki-en-europium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 42,
+     "new_line": "  - Thermal conductivity: est. 13.9 W/(m⋅K)",
+     "slot": "wiki-en-europium:42:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-097",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료 표: BMRR 중앙 생존 기간 12.8개월. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "12.8",
+     "old_line": "| BMRR, US | 53 (1994–1999) | BPA 250–330 mg/kg | 12.8 |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 143,
+     "new_line": "| BMRR, US | 53 (1994–1999) | BPA 250–330 mg/kg | 12.8 |",
+     "slot": "wiki-en-neutron-capture-therapy:143:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-098",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "유로퓸 부피 탄성 계수 8.3 GPa. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "8.3 GPa",
+     "old_line": "  - Bulk modulus: 8.3 GPa",
+     "doc_id": "wiki-en-europium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 48,
+     "new_line": "  - Bulk modulus: 8.3 GPa",
+     "slot": "wiki-en-europium:48:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-099",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 중앙 전체 생존 기간 18.9개월. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "18.9 months",
+     "old_line": "The single greatest advance in moving BNCT forward clinically has been the introduction of cyclotron-based neutron sources (c-BNS) in Japan. Shin-ichi Miyatake and Shinji Kawabata have led the way with the treatment of patients with recurrent glioblastomas (GBMs). In their Phase II clinical trial, they used the Sumitomo Heavy Industries accelerator at the Osaka Medical College, Kansai BNCT Medical Center to treat a total of 24 patients. These patients ranged in age from 20 to 75 years, and all previously had received standard treatment consisting of surgery followed by chemotherapy with temozolomide (TMZ) and conventional radiation therapy. They were candidates for treatment with BNCT because their tumors had recurred and were progressing in size. They received an intravenous infusion of a proprietary formulation of ¹⁰B-enriched boronophenylalanine (\"Borofalan,\" StellaPharma Corporation, Osaka, Japan) prior to neutron irradiation. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 18.9 months. Based on these results, it was concluded that c-BNS BNCT was safe and resulted in increased survival of patients with recurrent gliomas. Although there was an increased risk of brain edema due to re-irradiation, this was easily controlled. As a result of this trial, the Sumitomo accelerator was approved by the Japanese regulatory authority having jurisdiction over medical devices, and further studies are being carried out with patients who have recurrent, high-grade (malignant) meningiomas. However, further studies for the treatment of patients with GBMs have been put on hold pending additional analysis of the results.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 208,
+     "new_line": "The single greatest advance in moving BNCT forward clinically has been the introduction of cyclotron-based neutron sources (c-BNS) in Japan. Shin-ichi Miyatake and Shinji Kawabata have led the way with the treatment of patients with recurrent glioblastomas (GBMs). In their Phase II clinical trial, they used the Sumitomo Heavy Industries accelerator at the Osaka Medical College, Kansai BNCT Medical Center to treat a total of 24 patients. These patients ranged in age from 20 to 75 years, and all previously had received standard treatment consisting of surgery followed by chemotherapy with temozolomide (TMZ) and conventional radiation therapy. They were candidates for treatment with BNCT because their tumors had recurred and were progressing in size. They received an intravenous infusion of a proprietary formulation of ¹⁰B-enriched boronophenylalanine (\"Borofalan,\" StellaPharma Corporation, Osaka, Japan) prior to neutron irradiation. The primary endpoint of this study was the 1-year survival rate after BNCT, which was 79.2%, and the median overall survival rate was 18.9 months. Based on these results, it was concluded that c-BNS BNCT was safe and resulted in increased survival of patients with recurrent gliomas. Although there was an increased risk of brain edema due to re-irradiation, this was easily controlled. As a result of this trial, the Sumitomo accelerator was approved by the Japanese regulatory authority having jurisdiction over medical devices, and further studies are being carried out with patients who have recurrent, high-grade (malignant) meningiomas. However, further studies for the treatment of patients with GBMs have been put on hold pending additional analysis of the results.",
+     "slot": "wiki-en-neutron-capture-therapy:208:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 18 값 20"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-100",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "¹⁵¹Eu 반감기 4.6×10¹⁸년(4.62×10¹⁸ years). 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "4.6×10¹⁸ y",
+     "old_line": "  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹⁵⁰Eu synth 36.9 y β⁺ ¹⁵⁰Sm ¹⁵¹Eu 47.7999999999% 4.6×10¹⁸ y α ¹⁴⁷Pm ¹⁵²Eu synth 13.517 y β⁺ ¹⁵²Sm β⁻ ¹⁵²Gd ¹⁵³Eu 52.2% stable ¹⁵⁴Eu synth 8.592 y β⁻ ¹⁵⁴Gd ε ¹⁵⁴Sm ¹⁵⁵Eu synth 4.742 y β⁻ ¹⁵⁵Gd",
+     "doc_id": "wiki-en-europium",
+     "status": "찾지 못함",
+     "why": "줄도 창도 오늘 문서에서 정확히 한 번 나오지 않음",
+     "A": "찾지 못함",
+     "B": "찾지 못함"
+    },
+    {
+     "raw": "4.6×10¹⁸ years",
+     "old_line": "Europium does not occur naturally as the free metal and is found only as a minor component of rare-earth minerals such as bastnäsite, monazite and xenotime. Its ability to form Eu(II) gives it unusual geochemical behaviour: europium can be preferentially incorporated into feldspar, producing positive or negative europium anomalies that are widely used in petrology and geochemistry. Naturally occurring europium consists of two isotopes in nearly equal proportions, ¹⁵¹Eu and ¹⁵³Eu. ¹⁵³Eu is observationally stable, while ¹⁵¹Eu is a very long-lived alpha emitter with a half-life of about 4.6×10¹⁸ years.",
+     "doc_id": "wiki-en-europium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 72,
+     "new_line": "Europium does not occur naturally as the free metal and is found only as a minor component of rare-earth minerals such as bastnäsite, monazite and xenotime. Its ability to form Eu(II) gives it unusual geochemical behaviour: europium can be preferentially incorporated into feldspar, producing positive or negative europium anomalies that are widely used in petrology and geochemistry. Naturally occurring europium consists of two isotopes in nearly equal proportions, ¹⁵¹Eu and ¹⁵³Eu. ¹⁵³Eu is observationally stable, while ¹⁵¹Eu is a very long-lived alpha emitter with a half-life of about 4.6×10¹⁸ years.",
+     "slot": "wiki-en-europium:72:0",
+     "A": "막힘",
+     "A_entries": [
+      4
+     ],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 4 자리",
+      "항목 4 값 4.6",
+      "항목 4 값 10"
+     ]
+    },
+    {
+     "raw": "4.62×10¹⁸ years",
+     "old_line": "Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium.",
+     "doc_id": "wiki-en-europium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 176,
+     "new_line": "Naturally occurring europium consists of two isotopes, ¹⁵¹Eu and ¹⁵³Eu, in nearly equal proportions. Their standard isotopic abundances are 47.81% and 52.19%, respectively. ¹⁵³Eu is observationally stable, whereas ¹⁵¹Eu is a primordial radioisotope. It undergoes alpha decay to ¹⁴⁷Pm with a measured half-life of 4.62×10¹⁸ years. This half-life is about 300 million times the age of the Universe, so the decay has a negligible effect on the natural isotopic composition of europium.",
+     "slot": "wiki-en-europium:176:2",
+     "A": "막힘",
+     "A_entries": [
+      4
+     ],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 4 자리",
+      "항목 4 값 10",
+      "항목 4 값 4.62",
+      "항목 5 자리",
+      "항목 5 값 47.81",
+      "항목 6 자리",
+      "항목 6 값 52.19"
+     ]
+    }
+   ],
+   "A": false,
+   "B": false,
+   "A_strict": false,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-101",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 진단 뒤 중앙 전체 생존 기간 98.4개월. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "98.4 months",
+     "old_line": "The median OS after BNCT was 29.6 months and 98.4 months after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 13.7 months. There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors. From these results, it was concluded that BNCT was effective in locally controlling tumor growth, shrinking tumors, and improving survival with acceptable safety in patients with therapeutically refractory HGMs.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 137,
+     "new_line": "The median OS after BNCT was 29.6 months and 98.4 months after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 13.7 months. There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors. From these results, it was concluded that BNCT was effective in locally controlling tumor growth, shrinking tumors, and improving survival with acceptable safety in patients with therapeutically refractory HGMs.",
+     "slot": "wiki-en-neutron-capture-therapy:137:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-102",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료 표: FiR1 중앙 생존 기간 11.0–21.9개월의 끝값. 한국어의 21.9%는 ¹⁷²Yb 존재비",
+   "mentions": [
+    {
+     "raw": "21.9",
+     "old_line": "| FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 21.9 (primary), 7.0 (recurrent) |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 148,
+     "new_line": "| FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 21.9 (primary), 7.0 (recurrent) |",
+     "slot": "wiki-en-neutron-capture-therapy:148:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 18 값 50"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-103",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "고순도 유로퓸 70.4 g을 만들었다는 기록. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "70.4 g",
+     "old_line": "The reaction is carried out in refractory apparatus, commonly using tantalum, at approximately 1100–1200 °C. The europium produced is considerably more volatile than the lanthanum reductant and lanthanum oxide product, so it distils from the reaction zone and condenses in a cooler part of the apparatus. Reduction and distillation therefore occur simultaneously, helping to separate europium from less volatile contaminants. In 1958, Frank Spedding, J. J. Hanak and A. H. Daane reported preparing 70.4 g of high-purity europium by heating europium oxide with lanthanum in vacuum at about 1200 °C.",
+     "doc_id": "wiki-en-europium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 240,
+     "new_line": "The reaction is carried out in refractory apparatus, commonly using tantalum, at approximately 1100–1200 °C. The europium produced is considerably more volatile than the lanthanum reductant and lanthanum oxide product, so it distils from the reaction zone and condenses in a cooler part of the apparatus. Reduction and distillation therefore occur simultaneously, helping to separate europium from less volatile contaminants. In 1958, Frank Spedding, J. J. Hanak and A. H. Daane reported preparing 70.4 g of high-purity europium by heating europium oxide with lanthanum in vacuum at about 1200 °C.",
+     "slot": "wiki-en-europium:240:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-104",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 주입 뒤 12~14시간에 치료함의 끝값. 한국어의 13.37 h·14.74 h는 이트륨 동위 원소",
+   "mentions": [
+    {
+     "raw": "14 hours",
+     "old_line": "Following a two-year Fulbright fellowship in Sweet's laboratory at the MGH, clinical studies were initiated by Hiroshi Hatanaka in Japan in 1967. He used a low-energy thermal neutron beam, which had low tissue-penetrating properties, and sodium borocaptate (BSH) as the boron delivery agent, which had been evaluated as a boron delivery agent by Albert Soloway at the MGH. In Hatanaka's procedure, as much as possible of the tumor was surgically resected (\"debulking\"), and at some time thereafter, BSH was administered by a slow infusion, usually intra-arterially, but later intravenously. Twelve to 14 hours later, BNCT was carried out at one or another of several different nuclear reactors using low-energy thermal neutron beams. The poor tissue-penetrating properties of the thermal neutron beams necessitated reflecting the skin and raising a bone flap in order to directly irradiate the exposed brain, a procedure first used by Sweet and his collaborators.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 103,
+     "new_line": "Following a two-year Fulbright fellowship in Sweet's laboratory at the MGH, clinical studies were initiated by Hiroshi Hatanaka in Japan in 1967. He used a low-energy thermal neutron beam, which had low tissue-penetrating properties, and sodium borocaptate (BSH) as the boron delivery agent, which had been evaluated as a boron delivery agent by Albert Soloway at the MGH. In Hatanaka's procedure, as much as possible of the tumor was surgically resected (\"debulking\"), and at some time thereafter, BSH was administered by a slow infusion, usually intra-arterially, but later intravenously. Twelve to 14 hours later, BNCT was carried out at one or another of several different nuclear reactors using low-energy thermal neutron beams. The poor tissue-penetrating properties of the thermal neutron beams necessitated reflecting the skin and raising a bone flap in order to directly irradiate the exposed brain, a procedure first used by Sweet and his collaborators.",
+     "slot": "wiki-en-neutron-capture-therapy:103:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 19 자리",
+      "항목 19 값 1967"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-105",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "프라세오디뮴의 계산한 원자 반지름 247 pm. 한국어의 238 pm·228 pm은 사마륨·디스프로슘",
+   "mentions": [
+    {
+     "raw": "247 pm",
+     "old_line": "Praseodymium is the third member of the lanthanide series, and a member of the rare-earth metals. In the periodic table, it appears between the lanthanides cerium to its left and neodymium to its right, and above the actinide protactinium. It is a ductile metal with a hardness comparable to that of silver. Praseodymium is calculated to have a very large atomic radius; with a radius of 247 pm, barium, rubidium and caesium are larger. However, observationally, it is usually 185 pm.",
+     "doc_id": "wiki-en-praseodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 75,
+     "new_line": "Praseodymium is the third member of the lanthanide series, and a member of the rare-earth metals. In the periodic table, it appears between the lanthanides cerium to its left and neodymium to its right, and above the actinide protactinium. It is a ductile metal with a hardness comparable to that of silver. Praseodymium is calculated to have a very large atomic radius; with a radius of 247 pm, barium, rubidium and caesium are larger. However, observationally, it is usually 185 pm.",
+     "slot": "wiki-en-praseodymium:75:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 11 자리",
+      "항목 11 값 185"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-106",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "사마륨-코발트 자석의 최고 사용 온도 550 °C(823 K). 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "823 K",
+     "old_line": "- These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).",
+     "doc_id": "wiki-en-samarium-cobalt-magnet",
+     "status": "찾음",
+     "how": "줄",
+     "line": 14,
+     "new_line": "- These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).",
+     "slot": "wiki-en-samarium-cobalt-magnet:14:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 44 자리",
+      "항목 44 값 700",
+      "항목 44 값 973",
+      "항목 44 값 800",
+      "항목 44 값 1070"
+     ]
+    },
+    {
+     "raw": "550 °C",
+     "old_line": "- These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).",
+     "doc_id": "wiki-en-samarium-cobalt-magnet",
+     "status": "찾음",
+     "how": "줄",
+     "line": 14,
+     "new_line": "- These magnets have good temperature stability, maximum use temperatures from 250 °C (523 K) to 550 °C (823 K) and Curie temperatures from 700 °C (973 K) to 800 °C (1,070 K).",
+     "slot": "wiki-en-samarium-cobalt-magnet:14:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 44 자리",
+      "항목 44 값 700",
+      "항목 44 값 973",
+      "항목 44 값 800",
+      "항목 44 값 1070"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-107",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "란타넘 1차 이온화 에너지 538.1 kJ/mol. 한국어의 544.5·523.5·573.0은 사마륨·루테튬·디스프로슘",
+   "mentions": [
+    {
+     "raw": "538.1 kJ/mol",
+     "old_line": "  - Ionization energies: 1st: 538.1 kJ/mol, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol",
+     "doc_id": "wiki-en-lanthanum",
+     "status": "찾음",
+     "how": "줄",
+     "line": 34,
+     "new_line": "  - Ionization energies: 1st: 538.1 kJ/mol, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol",
+     "slot": "wiki-en-lanthanum:34:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-108",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 중앙 생존 기간 13.6개월과 무진행 생존 기간 13.7개월이 한 묶음. 둘 다 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "13.6 months",
+     "old_line": "The single most important clinical advance over the past 15 years has been the application of BNCT to treat patients with recurrent tumors of the head and neck region who had failed all other therapy. These studies were first initiated by Kato et al. in Japan. and subsequently followed by several other Japanese groups and by Kankaanranta, Joensuu, Auterinen, Koivunoro, and their co-workers in Finland. All of these studies employed BPA as the boron delivery agent, usually alone but occasionally in combination with BSH. A very heterogeneous group of patients with a variety of histopathologic types of tumors have been treated, the largest number of which had recurrent squamous cell carcinomas. Kato et al. have reported on a series of 26 patients with far-advanced cancer for whom there were no further treatment options. Either BPA + BSH or BPA alone were administered by a 1- or 2-hour i.v. infusion, and this was followed by BNCT using an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment related complications (\"adverse\" events) included transient mucositis, alopecia, and, rarely, brain necrosis and osteomyelitis.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 165,
+     "new_line": "The single most important clinical advance over the past 15 years has been the application of BNCT to treat patients with recurrent tumors of the head and neck region who had failed all other therapy. These studies were first initiated by Kato et al. in Japan. and subsequently followed by several other Japanese groups and by Kankaanranta, Joensuu, Auterinen, Koivunoro, and their co-workers in Finland. All of these studies employed BPA as the boron delivery agent, usually alone but occasionally in combination with BSH. A very heterogeneous group of patients with a variety of histopathologic types of tumors have been treated, the largest number of which had recurrent squamous cell carcinomas. Kato et al. have reported on a series of 26 patients with far-advanced cancer for whom there were no further treatment options. Either BPA + BSH or BPA alone were administered by a 1- or 2-hour i.v. infusion, and this was followed by BNCT using an epithermal beam. In this series, there were complete regressions in 12 cases, 10 partial regressions, and progression in 3 cases. The MST was 13.6 months, and the 6-year survival was 24%. Significant treatment related complications (\"adverse\" events) included transient mucositis, alopecia, and, rarely, brain necrosis and osteomyelitis.",
+     "slot": "wiki-en-neutron-capture-therapy:165:5",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "13.7 months",
+     "old_line": "The median OS after BNCT was 29.6 months and 98.4 months after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 13.7 months. There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors. From these results, it was concluded that BNCT was effective in locally controlling tumor growth, shrinking tumors, and improving survival with acceptable safety in patients with therapeutically refractory HGMs.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 137,
+     "new_line": "The median OS after BNCT was 29.6 months and 98.4 months after diagnosis. Better responses were seen in patients with lower-grade tumors. In 35 of 36 patients, there was tumor shrinkage, and the median progression-free survival (PFS) was 13.7 months. There was good local control of the patients' tumors, as evidenced by the fact that only 22.2% of them experienced local recurrence of their tumors. From these results, it was concluded that BNCT was effective in locally controlling tumor growth, shrinking tumors, and improving survival with acceptable safety in patients with therapeutically refractory HGMs.",
+     "slot": "wiki-en-neutron-capture-therapy:137:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-109",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "란타넘 융해열 6.20 kJ/mol. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "6.20 kJ/mol",
+     "old_line": "  - Heat of fusion: 6.20 kJ/mol",
+     "doc_id": "wiki-en-lanthanum",
+     "status": "찾음",
+     "how": "줄",
+     "line": 21,
+     "new_line": "  - Heat of fusion: 6.20 kJ/mol",
+     "slot": "wiki-en-lanthanum:21:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-110",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "프라세오디뮴 융해열 6.89 kJ/mol. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "6.89 kJ/mol",
+     "old_line": "  - Heat of fusion: 6.89 kJ/mol",
+     "doc_id": "wiki-en-praseodymium",
+     "status": "찾음",
+     "how": "줄",
+     "line": 21,
+     "new_line": "  - Heat of fusion: 6.89 kJ/mol",
+     "slot": "wiki-en-praseodymium:21:0",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-131",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료: 중앙 생존 기간 27.1개월(본문과 표). 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "27.1 months",
+     "old_line": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 129,
+     "new_line": "In another Japanese trial with patients with newly diagnosed glioblastomas, carried out by Yamamoto et al., BPA and BSH were infused over 1 h, followed by BNCT at the Japan Research Reactor (JRR)-4 reactor. Patients subsequently received an X-ray boost after completion of BNCT. The overall median survival time (MeST) was 27.1 months, and the 1-year and 2-year survival rates were 87.5% and 62.5%, respectively.",
+     "slot": "wiki-en-neutron-capture-therapy:129:1",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    },
+    {
+     "raw": "27.1",
+     "old_line": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 146,
+     "new_line": "| JRR4, Japan | 15 (1998–2007) | BPA 250 mg/kg + BSH 5 g | 10.8 (recurrent), 27.1 (+ X-ray) |",
+     "slot": "wiki-en-neutron-capture-therapy:146:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-132",
+   "lang": "en",
+   "side": "one",
+   "in_table": false,
+   "note": "중성자 포획 치료: 리튬-7 반응의 양성자 가속기 에너지 1.9~3.0 MeV의 앞 끝값. 코퍼스의 한국어 문서에 없음(이트륨 동위 원소의 1.9%는 ⁹⁹Y 붕괴 비율)",
+   "mentions": [
+    {
+     "raw": "1.9",
+     "old_line": "Accelerators now are the primary source of epithermal neutrons for clinical BNCT. The first papers relating to their possible use were published in the 1980s, and, as summarized by Blue and Yanch, this topic became an active area of research in the early 2000s. However, it was the Fukushima nuclear accident in Japan in 2011 that gave impetus to their development for clinical use. Accelerators also can be used to produce epithermal neutrons. Today several accelerator-based neutron sources (ABNS) are commercially available or under development. Most existing or planned systems use either the lithium-7 reaction, ⁷Li(p,n)⁷Be or the beryllium-9 reaction, ⁹Be(p,n)⁹B, to generate neutrons, though other nuclear reactions also have been considered. The lithium-7 reaction requires a proton accelerator with energies between 1.9 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that the lithium-7 reaction requires, its main benefit is the lower energy of the neutrons produced. This in turn allows the use of smaller moderators, \"cleaner\" neutron beams, and reduced neutron activation. Benefits of the beryllium-9 reaction include simplified target design and disposal, long target lifetime, and lower required proton beam current.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 181,
+     "new_line": "Accelerators now are the primary source of epithermal neutrons for clinical BNCT. The first papers relating to their possible use were published in the 1980s, and, as summarized by Blue and Yanch, this topic became an active area of research in the early 2000s. However, it was the Fukushima nuclear accident in Japan in 2011 that gave impetus to their development for clinical use. Accelerators also can be used to produce epithermal neutrons. Today several accelerator-based neutron sources (ABNS) are commercially available or under development. Most existing or planned systems use either the lithium-7 reaction, ⁷Li(p,n)⁷Be or the beryllium-9 reaction, ⁹Be(p,n)⁹B, to generate neutrons, though other nuclear reactions also have been considered. The lithium-7 reaction requires a proton accelerator with energies between 1.9 and 3.0 MeV, while the beryllium-9 reaction typically uses accelerators with energies between 5 and 30 MeV. Aside from the lower proton energy that the lithium-7 reaction requires, its main benefit is the lower energy of the neutrons produced. This in turn allows the use of smaller moderators, \"cleaner\" neutron beams, and reduced neutron activation. Benefits of the beryllium-9 reaction include simplified target design and disposal, long target lifetime, and lower required proton beam current.",
+     "slot": "wiki-en-neutron-capture-therapy:181:3",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": true,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-138",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료 표: FiR1 11.0개월(11.0–21.9의 앞 끝값)과 MITR 11.1개월이 한 묶음. 코퍼스의 한국어 문서에 없음",
+   "mentions": [
+    {
+     "raw": "11.0",
+     "old_line": "| FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 21.9 (primary), 7.0 (recurrent) |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 148,
+     "new_line": "| FiR1, Finland | 50 (1999–2012) | BPA 290–400 mg/kg | 11.0 – 21.9 (primary), 7.0 (recurrent) |",
+     "slot": "wiki-en-neutron-capture-therapy:148:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 18 값 50"
+     ]
+    },
+    {
+     "raw": "11.1",
+     "old_line": "| MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 11.1 |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 144,
+     "new_line": "| MITR, MIT, US | 20 (1996–1999) | BPA 250 or 350 mg/kg | 11.1 |",
+     "slot": "wiki-en-neutron-capture-therapy:144:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 18 값 20"
+     ]
+    }
+   ],
+   "A": true,
+   "B": false,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  },
+  {
+   "no": "R-en-193",
+   "lang": "en",
+   "side": "one",
+   "in_table": true,
+   "note": "중성자 포획 치료: KURRI 중앙 생존 기간 23.5개월(본문과 표). 코퍼스의 한국어 문서에 없음(툴륨의 1.92 y는 ¹⁷¹Tm 반감기)",
+   "mentions": [
+    {
+     "raw": "23.5 months",
+     "old_line": "Based on experimental animal data, which showed that BNCT in combination with X-irradiation produced enhanced survival compared to BNCT alone, in another study, Miyatake and Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months and no significant toxicity was observed, other than hair loss (alopecia). However, a significant subset of these patients, a high proportion of which had small-cell variant glioblastomas, developed cerebrospinal fluid dissemination of their tumors.",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 125,
+     "new_line": "Based on experimental animal data, which showed that BNCT in combination with X-irradiation produced enhanced survival compared to BNCT alone, in another study, Miyatake and Kawabata combined BNCT, as described above, with an X-ray boost. A total dose of 20 to 30 Gy was administered, divided into 2 Gy daily fractions. The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months and no significant toxicity was observed, other than hair loss (alopecia). However, a significant subset of these patients, a high proportion of which had small-cell variant glioblastomas, developed cerebrospinal fluid dissemination of their tumors.",
+     "slot": "wiki-en-neutron-capture-therapy:125:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "막힘",
+     "B_reasons": [
+      "항목 18 값 20"
+     ]
+    },
+    {
+     "raw": "23.5",
+     "old_line": "| KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 23.5 (primary + X-ray) |",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "status": "찾음",
+     "how": "줄",
+     "line": 145,
+     "new_line": "| KURRI, Japan | 40 (1998–2008) | BPA 500 mg/kg | 23.5 (primary + X-ray) |",
+     "slot": "wiki-en-neutron-capture-therapy:145:2",
+     "A": "사용 가능",
+     "A_entries": [],
+     "B": "사용 가능",
+     "B_reasons": []
+    }
+   ],
+   "A": true,
+   "B": true,
+   "A_strict": true,
+   "B_strict": false,
+   "B_only_without_slot": false
+  }
+ ]
+}
