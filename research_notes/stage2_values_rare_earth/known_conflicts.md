@@ -1,0 +1,227 @@
+# 알려진 부딪히는 값
+
+이 목록은 코퍼스 20개 문서에서 같은 대상의 같은 양이 문서끼리, 또는 한 문서 안에서 서로 다른 값으로 적힌 곳이다. 문제의 정답이나 근거 구절로 쓰면 안 된다. 값 목록(`values.json`)에서 (대상, 양, 조건)이 같은 자리끼리 묶고, 숫자가 정확히 같은 경우만 같은 값으로 보았다(반올림·어림·범위·단위 환산이 정확히 같지 않으면 다른 값). 그 기준은 decisions/stage2.md 2026-10-22 '희토류 원소 값 목록의 "다른 값" 기준' 줄에 있다. 읽어야 하는 묶음은 AI(Claude)가 원문을 읽고 부딪히는지 판정했다(`verdicts.json`). 숫자를 낱말로 적어 값 목록에 없는 부딪힘은 AI가 찾은 것만 손으로 더했다(`verdicts.json`의 manual). 한계: 숫자가 없는 본문 문장은 비교하지 않았다(decisions/stage2.md 2026-10-22 '희토류 원소 값 목록에 넣는 값' ㉣).
+
+## 같은 문서 (20개)
+
+- Eu 밀도(density): `wiki-en-europium` 19줄 5.246 g/cm³ / `wiki-en-europium` 80줄 about 5.24 g/cm³
+- Eu 최초 분리(first_isolation): `wiki-en-europium` 55줄 1937 / `wiki-en-europium` 74줄 1901 / `wiki-en-europium` 192줄 1901 / `wiki-en-europium` 198줄 1937
+- Eu 녹는점(melting_point): `wiki-en-europium` 17줄 1099 K ​(826 °C, ​1519 °F) / `wiki-en-europium` 80줄 822 °C (1,095 K)
+- Eu-151 반감기(half_life): `wiki-en-europium` 62줄 4.6×10¹⁸ y / `wiki-en-europium` 72줄 about 4.6×10¹⁸ years / `wiki-en-europium` 176줄 4.62×10¹⁸ years
+- Eu-151 존재비(natural_abundance): `wiki-en-europium` 62줄 47.8% / `wiki-en-europium` 176줄 47.81%
+- Eu-153 존재비(natural_abundance): `wiki-en-europium` 65줄 52.2% / `wiki-en-europium` 176줄 52.19%
+- Helsinki University Hospital, Helsinki, Finland first_clinical_use_year: `wiki-en-neutron-capture-therapy` 198줄 N/A / `wiki-en-neutron-capture-therapy` 95줄 beginning some time in 2022
+- La 발견(discovery): `wiki-en-lanthanum` 57줄 Carl Gustaf Mosander (1838) / `wiki-en-lanthanum` 71줄 in 1839
+- La-137 반감기(half_life): `wiki-en-lanthanum` 63줄 6×10⁴ y / `wiki-en-lanthanum` 93줄 about 60,000 years
+- Lu-177 반감기(half_life): `wiki-en-lutetium` 66줄 6.6443 d / `wiki-en-lutetium` 118줄 6.693-day half-life / `wiki-en-lutetium` 140줄 around 7 days
+- Pr 원자 반지름(atomic_radius) [조건 empirical]: `wiki-en-praseodymium` 35줄 182 pm / `wiki-en-praseodymium` 75줄 usually 185 pm
+- Pr crustal_abundance: `wiki-en-praseodymium` 69줄 9.1 parts per million / `wiki-en-praseodymium` 128줄 9.2 mg/kg
+- Sm 최초 분리(first_isolation): `wiki-ko-samarium` 53줄 1903 / `wiki-ko-samarium` 93줄 1901년
+- Tb-161 반감기(half_life): `wiki-ko-isotopes-of-terbium` 87줄 6.906(19) d / `wiki-ko-isotopes-of-terbium` 3줄 6.9일
+- Tm2O3 price: `wiki-en-thulium` 123줄 US$4,600 and $13,300 / `wiki-en-thulium` 135줄 US$20 per gram
+- Y 산화 상태(oxidation_states): `wiki-ko-yttrium` 31줄 3 (약염기성 산화물) / `wiki-ko-yttrium` 89줄 +3 / `wiki-ko-yttrium` 93줄 +3 / `wiki-ko-yttrium` 99줄 0 / `wiki-ko-yttrium` 99줄 +2 / `wiki-ko-yttrium` 99줄 +1
+- Yb crustal_abundance: `wiki-en-ytterbium` 78줄 3 parts per million / `wiki-en-ytterbium` 125줄 about 3 mg/kg
+- boron delivery agent tumor_boron_concentration: `wiki-en-neutron-capture-therapy` 49줄 ~20–50 μg ¹⁰B/g tumor / `wiki-en-neutron-capture-therapy` 72줄 20–50 μg/g tumor
+- hatanaka bnct trials trial_start_year: `wiki-en-neutron-capture-therapy` 16줄 in the 1960s / `wiki-en-neutron-capture-therapy` 103줄 in Japan in 1967
+- mischmetal lanthanum_content: `wiki-en-lanthanum` 139줄 more than 50% / `wiki-en-lanthanum` 141줄 25% to 45%
+
+## 같은 문서 · 같은 언어의 다른 문서 · 반대 언어 (6개)
+
+- Lu 발견(discovery): `wiki-ko-lutetium` 49줄 1906 / `wiki-en-lutetium` 54줄 Carl Auer von Welsbach and Georges Urbain (1906) / `wiki-en-ytterbium` 76줄 1907 / `wiki-en-ytterbium` 161줄 1907 / `wiki-ko-lutetium` 63줄 1907년 / `wiki-en-lutetium` 70줄 1907
+- Sm 산화 상태(oxidation_states): `wiki-ko-samarium` 31줄 3 (염기성 산화물) / `wiki-ko-ytterbium` 109줄 +2 / `wiki-en-ytterbium` 115줄 +2 / `wiki-ko-samarium` 67줄 +3 / `wiki-ko-samarium` 85줄 +2
+- Y-87 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 39줄 β⁺ / `wiki-en-isotopes-of-yttrium` 6줄 ε / `wiki-en-isotopes-of-yttrium` 59줄 β⁺ / `wiki-ko-yttrium` 57·58줄 ε, γ
+- Y-88 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 42줄 β⁺ / `wiki-en-isotopes-of-yttrium` 7줄 ε / `wiki-en-isotopes-of-yttrium` 62줄 β⁺ / `wiki-ko-yttrium` 59·60줄 ε, γ
+- Y-88 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 42줄 106.616(13) d / `wiki-en-isotopes-of-yttrium` 7줄 106.63 d / `wiki-en-isotopes-of-yttrium` 62줄 106.629(24) d / `wiki-ko-yttrium` 59·60줄 106.6d / `wiki-ko-isotopes-of-yttrium` 5줄 106.62일 / `wiki-en-isotopes-of-yttrium` 15줄 106.63 days
+- Y-91 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 50줄 58.51(6) d / `wiki-en-isotopes-of-yttrium` 10줄 58.51 d / `wiki-en-isotopes-of-yttrium` 70줄 58.51(6) d / `wiki-ko-yttrium` 64·65줄 58.5d / `wiki-ko-isotopes-of-yttrium` 5줄 58.5일 / `wiki-en-isotopes-of-yttrium` 15줄 58.51 days
+
+## 같은 문서 · 반대 언어 (18개)
+
+- Dy 최초 분리(first_isolation): `wiki-ko-dysprosium` 53줄 1905 / `wiki-en-dysprosium` 57줄 Georges Urbain (1905) / `wiki-ko-dysprosium` 69줄 1950년대 / `wiki-en-dysprosium` 77줄 1950s / `wiki-en-dysprosium` 130줄 early 1950s
+- Dy 산화 상태(oxidation_states): `wiki-ko-dysprosium` 31줄 3 (약염기성 산화물) / `wiki-en-dysprosium` 32줄 common: +3 / 0, +2, +4 / `wiki-en-dysprosium` 116줄 +3 / `wiki-en-dysprosium` 116줄 +2
+- Dy-156 존재비(natural_abundance): `wiki-ko-dysprosium` 59줄 0.06% / `wiki-en-dysprosium` 64줄 0.056% / `wiki-en-dysprosium` 124줄 0.06%
+- Dy-162 존재비(natural_abundance): `wiki-ko-dysprosium` 63줄 25.51% / `wiki-en-dysprosium` 69줄 25.5% / `wiki-en-dysprosium` 124줄 26%
+- Dy-164 존재비(natural_abundance): `wiki-ko-dysprosium` 65줄 28.18% / `wiki-en-dysprosium` 71줄 28.3% / `wiki-en-dysprosium` 124줄 28%
+- Lu 브리넬 굳기(brinell_hardness): `wiki-ko-lutetium` 45줄 893 MPa / `wiki-en-lutetium` 50줄 890–1300 MPa / `wiki-ko-lutetium` 65줄 890-1300 MPa / `wiki-en-lutetium` 72줄 890–1300 MPa
+- Lu cassiopeium_name_used_until: `wiki-ko-lutetium` 61줄 1949년 / `wiki-ko-lutetium` 63줄 1950년대 / `wiki-en-lutetium` 70줄 until the 1950s
+- Lu 산화 상태(oxidation_states): `wiki-ko-lutetium` 31줄 3 (약염기성 산화물) / `wiki-en-lutetium` 32줄 common: +3 / 0, +2 / `wiki-en-lutetium` 78줄 +3 / `wiki-en-lutetium` 82줄 +3
+- Lu-176 반감기(half_life): `wiki-ko-lutetium` 59줄 3.78×10¹⁰y / `wiki-en-lutetium` 65줄 3.701×10¹⁰ y / `wiki-ko-lutetium` 65줄 약 380억년 / `wiki-en-lutetium` 72줄 about 38 billion years / `wiki-en-lutetium` 92줄 3.70×10¹⁰ years
+- Lu-176 존재비(natural_abundance): `wiki-ko-lutetium` 59줄 2.59% / `wiki-en-lutetium` 65줄 2.60% / `wiki-ko-lutetium` 65줄 2.5% / `wiki-en-lutetium` 72줄 2.6% / `wiki-en-lutetium` 92줄 about 2.6%
+- Tm 최초 분리(first_isolation): `wiki-ko-thulium` 51줄 1936 / `wiki-en-thulium` 56줄 Wilhelm Klemm and Heinrich Bommer (1936) / `wiki-ko-thulium` 64줄 1911년 / `wiki-en-thulium` 70줄 1936 / `wiki-en-thulium` 121줄 1911
+- Tm 산화 상태(oxidation_states): `wiki-ko-thulium` 31줄 3 (염기성 산화물) / `wiki-en-thulium` 32줄 common: +3 / +1, +2 / `wiki-en-thulium` 72줄 +3 / `wiki-en-thulium` 105줄 +3 / `wiki-en-thulium` 105줄 +2 / `wiki-en-thulium` 151줄 2+
+- Yb 밀도(density): `wiki-ko-ytterbium` 19줄 6.90 g/cm³ / `wiki-en-ytterbium` 19줄 6.967 g/cm³ / `wiki-ko-ytterbium` 83줄 6.973 g/cm^(3) / `wiki-en-ytterbium` 86줄 6.966 g/cm³ [4.027 oz/cu in] / `wiki-en-ytterbium` 86줄 6.57 g/cm³ [3.80 oz/cu in] / `wiki-en-ytterbium` 86줄 6.903 g/cm³ [3.990 oz/cu in] / `wiki-en-ytterbium` 92줄 6.973 g/cm³
+- Yb 최초 분리(first_isolation): `wiki-ko-ytterbium` 54줄 1936 / `wiki-en-ytterbium` 57줄 Wilhelm Klemm and Heinrich Bommer (1936) / `wiki-en-ytterbium` 76줄 1953 / `wiki-en-ytterbium` 165줄 1936 / `wiki-en-ytterbium` 167줄 1953
+- Yb 산화 상태(oxidation_states): `wiki-ko-ytterbium` 31줄 3 (염기성 산화물) / `wiki-en-ytterbium` 32줄 common: +3 / +1, +2 / `wiki-ko-ytterbium` 73줄 +2 / `wiki-ko-ytterbium` 73줄 +3 / `wiki-ko-ytterbium` 109줄 +3 / `wiki-ko-ytterbium` 109줄 +2 / `wiki-ko-ytterbium` 127줄 +3 / `wiki-ko-ytterbium` 127줄 3가의 이터븀 이온 / `wiki-ko-ytterbium` 127줄 +2 / `wiki-en-ytterbium` 74줄 +2 / `wiki-en-ytterbium` 74줄 +3 / `wiki-en-ytterbium` 115줄 +3 / `wiki-en-ytterbium` 115줄 +2 / `wiki-en-ytterbium` 139줄 +3 / `wiki-en-ytterbium` 139줄 +2
+- Yb-169 반감기(half_life): `wiki-ko-ytterbium` 61줄 32.026 d / `wiki-en-ytterbium` 65줄 32.014 d / `wiki-ko-ytterbium` 117줄 32.0 일 / `wiki-ko-ytterbium` 147줄 32일 / `wiki-en-ytterbium` 119줄 32.014 days / `wiki-en-ytterbium` 173줄 32 days
+- Yb-175 반감기(half_life): `wiki-ko-ytterbium` 67줄 4.185 d / `wiki-en-ytterbium` 71줄 4.185 d / `wiki-ko-ytterbium` 117줄 4.18 일 / `wiki-en-ytterbium` 119줄 4.185 days / `wiki-en-ytterbium` 173줄 4.2 days
+- sintered samarium-cobalt magnet curie_temperature: `wiki-en-samarium-cobalt-magnet` 29줄 700–850 / `wiki-ko-samarium` 71줄 약 700°C / `wiki-ko-samarium` 107줄 700°C 이상 / `wiki-en-samarium-cobalt-magnet` 14줄 700 °C (973 K) to 800 °C (1,070 K)
+
+## 같은 언어의 다른 문서 · 반대 언어 (5개)
+
+- Lu 밀도(density): `wiki-ko-lutetium` 19줄 9.841 g/cm³ / `wiki-en-lutetium` 19줄 9.840 g/cm³ / `wiki-ko-ytterbium` 83줄 9.841 g/cm^(3) / `wiki-en-ytterbium` 92줄 9.841 g/cm³
+- Y-87 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 39줄 79.8(3) h / `wiki-en-isotopes-of-yttrium` 6줄 79.8 h / `wiki-en-isotopes-of-yttrium` 59줄 79.8(3) h / `wiki-ko-yttrium` 57·58줄 3.35d / `wiki-en-isotopes-of-yttrium` 15줄 79.8 hours
+- Y-90 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 47줄 β⁻ / `wiki-en-isotopes-of-yttrium` 9줄 β⁻ / `wiki-en-isotopes-of-yttrium` 67줄 β⁻ / `wiki-ko-yttrium` 62·63줄 β-, γ
+- Y-90 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 47줄 64.053(20) h / `wiki-en-isotopes-of-yttrium` 9줄 64.05 h / `wiki-en-isotopes-of-yttrium` 67줄 64.05(5) h / `wiki-ko-yttrium` 62·63줄 2.67d / `wiki-ko-isotopes-of-yttrium` 5줄 64.053시간 / `wiki-en-isotopes-of-yttrium` 15줄 64.05 hours
+- Y-91 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 50줄 β⁻ / `wiki-en-isotopes-of-yttrium` 10줄 β⁻ / `wiki-en-isotopes-of-yttrium` 70줄 β⁻ / `wiki-ko-yttrium` 64·65줄 β-, γ
+
+## 반대 언어 (160개)
+
+- Dy 원자 반지름(atomic_radius) [조건 empirical]: `wiki-ko-dysprosium` 34줄 175 pm / `wiki-en-dysprosium` 35줄 178 pm
+- Dy 브리넬 굳기(brinell_hardness): `wiki-ko-dysprosium` 48줄 500 MPa / `wiki-en-dysprosium` 52줄 500–1050 MPa
+- Dy 밀도(density): `wiki-ko-dysprosium` 19줄 8.540 g/cm³ / `wiki-en-dysprosium` 19줄 8.550 g/cm³
+- Dy 자기 정렬(magnetic_ordering): `wiki-ko-dysprosium` 41줄 강자성 / `wiki-en-dysprosium` 44줄 paramagnetic at 300 K
+- Dy 비커스 굳기(vickers_hardness): `wiki-ko-dysprosium` 47줄 540 MPa / `wiki-en-dysprosium` 51줄 410–550 MPa
+- Dy-154 반감기(half_life): `wiki-ko-dysprosium` 58줄 3.0E+6 y / `wiki-en-dysprosium` 63줄 1.40×10⁶ y / `wiki-en-dysprosium` 126줄 1.40×10⁶ years
+- Dy-158 존재비(natural_abundance): `wiki-ko-dysprosium` 60줄 0.10% / `wiki-en-dysprosium` 65줄 0.095%
+- Dy-160 존재비(natural_abundance): `wiki-ko-dysprosium` 61줄 2.34% / `wiki-en-dysprosium` 67줄 2.33%
+- Dy-161 존재비(natural_abundance): `wiki-ko-dysprosium` 62줄 18.91% / `wiki-en-dysprosium` 68줄 18.9%
+- La 족(group): `wiki-en-lanthanum` 10줄 f-block groups (no number) / `wiki-ko-yttrium` 79줄 3족
+- Lu 비커스 굳기(vickers_hardness): `wiki-ko-lutetium` 44줄 1160 MPa / `wiki-en-lutetium` 49줄 755–1160 MPa
+- Lu-174 붕괴 방식(decay_mode): `wiki-ko-lutetium` 57줄 ε / `wiki-en-lutetium` 63줄 β⁺
+- Lu-175 존재비(natural_abundance): `wiki-ko-lutetium` 58줄 97.41% / `wiki-en-lutetium` 64줄 97.4%
+- Tm 원자 반지름(atomic_radius) [조건 empirical]: `wiki-ko-thulium` 34줄 175 pm / `wiki-en-thulium` 35줄 176 pm
+- Tm 브리넬 굳기(brinell_hardness): `wiki-ko-thulium` 46줄 471 MPa / `wiki-en-thulium` 51줄 470–900 MPa
+- Tm 기화열(heat_of_vaporization): `wiki-ko-thulium` 22줄 247 kJ/mol / `wiki-en-thulium` 22줄 191 kJ/mol
+- Tm 비커스 굳기(vickers_hardness): `wiki-ko-thulium` 45줄 520 MPa / `wiki-en-thulium` 50줄 470–650 MPa
+- Tm-168 붕괴 방식(decay_mode): `wiki-ko-thulium` 57줄 ε / `wiki-en-thulium` 63줄 β⁺
+- Y-100 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 77·78줄 β⁻ (98.98%), β⁻, n (1.02%) / `wiki-en-isotopes-of-yttrium` 104·105줄 β⁻, β⁻, n?
+- Y-100 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 77·78줄 735(7) ms / `wiki-en-isotopes-of-yttrium` 104·105줄 940(30) ms
+- Y-100 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 77·78줄 99.92776(8) / `wiki-en-isotopes-of-yttrium` 104·105줄 99.927728(12)
+- Y-100 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 77·78줄 1-,2- / `wiki-en-isotopes-of-yttrium` 104·105줄 4+
+- Y-100m 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 79줄 ¹⁰⁰Zr / `wiki-en-isotopes-of-yttrium` 106·107줄 ¹⁰⁰Zr, ⁹⁹Zr
+- Y-100m 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 79줄 β⁻ / `wiki-en-isotopes-of-yttrium` 106·107줄 β⁻ (98.92%), β⁻, n (1.08%)
+- Y-100m 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 79줄 200(200)# keV / `wiki-en-isotopes-of-yttrium` 106·107줄 144(16) keV
+- Y-100m 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 79줄 940(30) ms / `wiki-en-isotopes-of-yttrium` 106·107줄 727(6) ms
+- Y-100m 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 79줄 (3,4,5)(+#) / `wiki-en-isotopes-of-yttrium` 106·107줄 1+#
+- Y-101 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 80·81줄 β⁻ (98.06%), β⁻, n (1.94%) / `wiki-en-isotopes-of-yttrium` 108·109줄 β⁻ (97.7%), β⁻, n (2.3%)
+- Y-101 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 80·81줄 100.93031(10) / `wiki-en-isotopes-of-yttrium` 108·109줄 100.9301608(76)
+- Y-101 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 80·81줄 (5/2+) / `wiki-en-isotopes-of-yttrium` 108·109줄 5/2+
+- Y-102 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 82·83줄 β⁻ (95.1%), β⁻, n (4.9%) / `wiki-en-isotopes-of-yttrium` 111·112줄 β⁻ (>97.4%), β⁻, n (<2.6%)
+- Y-102 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 82·83줄 0.30(1) s / `wiki-en-isotopes-of-yttrium` 111·112줄 360(40) ms
+- Y-102 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 82·83줄 101.93356(9) / `wiki-en-isotopes-of-yttrium` 111·112줄 101.9343285(44)
+- Y-102m 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 84·85줄 ¹⁰²Zr, ¹⁰¹Zr / `wiki-en-isotopes-of-yttrium` 113·114·115줄 ¹⁰²Zr, ¹⁰¹Zr, ¹⁰²Y
+- Y-102m 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 84·85줄 β⁻ (94%), β⁻, n (6%) / `wiki-en-isotopes-of-yttrium` 113·114·115줄 β⁻ (>97.4%), β⁻, n (<2.6%), IT?
+- Y-102m 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 84·85줄 200(200)# keV / `wiki-en-isotopes-of-yttrium` 113·114·115줄 100(100)# keV
+- Y-102m 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 84·85줄 360(40) ms / `wiki-en-isotopes-of-yttrium` 113·114·115줄 300(100) ms
+- Y-102m 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 84·85줄 high / `wiki-en-isotopes-of-yttrium` 113·114·115줄 (0−,1−)
+- Y-103 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 86·87줄 β⁻ (91.7%), β⁻, n (8.3%) / `wiki-en-isotopes-of-yttrium` 116·117줄 β⁻ (92.0%), β⁻, n (8.0%)
+- Y-103 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 86·87줄 224(19) ms / `wiki-en-isotopes-of-yttrium` 116·117줄 239(12) ms
+- Y-103 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 86·87줄 102.93673(32)# / `wiki-en-isotopes-of-yttrium` 116·117줄 102.937244(12)
+- Y-104 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 88줄 ¹⁰⁴Zr / `wiki-en-isotopes-of-yttrium` 118·119·120줄 ¹⁰⁴Zr, ¹⁰³Zr, ¹⁰²Zr
+- Y-104 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 88줄 β⁻ / `wiki-en-isotopes-of-yttrium` 118·119·120줄 β⁻ (66%), β⁻, n (34%), β⁻, 2n?
+- Y-104 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 88줄 180(60) ms / `wiki-en-isotopes-of-yttrium` 118·119·120줄 197(4) ms
+- Y-104 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 88줄 103.94105(43)# / `wiki-en-isotopes-of-yttrium` 118·119·120줄 103.94194(22)#
+- Y-105 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 89줄 ¹⁰⁵Zr / `wiki-en-isotopes-of-yttrium` 121·122·123줄 ¹⁰⁵Zr, ¹⁰⁴Zr, ¹⁰³Zr
+- Y-105 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 89줄 β⁻ / `wiki-en-isotopes-of-yttrium` 121·122·123줄 β⁻, β⁻, n (<82%), β⁻, 2n?
+- Y-105 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 89줄 60# ms / `wiki-en-isotopes-of-yttrium` 121·122·123줄 95(9) ms
+- Y-105 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 89줄 104.94487(54)# / `wiki-en-isotopes-of-yttrium` 121·122·123줄 104.94571(43)#
+- Y-106 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 90줄 ¹⁰⁶Zr / `wiki-en-isotopes-of-yttrium` 124·125·126줄 ¹⁰⁶Zr, ¹⁰⁵Zr, ¹⁰⁴Zr
+- Y-106 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 90줄 β⁻ / `wiki-en-isotopes-of-yttrium` 124·125·126줄 β⁻, β⁻, n?, β⁻, 2n?
+- Y-106 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 90줄 50# ms / `wiki-en-isotopes-of-yttrium` 124·125·126줄 75(6) ms
+- Y-106 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 90줄 105.94979(75)# / `wiki-en-isotopes-of-yttrium` 124·125·126줄 105.95084(54)#
+- Y-107 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 91줄 30# ms / `wiki-en-isotopes-of-yttrium` 127·128·129줄 33.5(3) ms
+- Y-107 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 91줄 106.95414(54)# / `wiki-en-isotopes-of-yttrium` 127·128·129줄 106.95494(54)#
+- Y-108 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 92줄 20# / `wiki-en-isotopes-of-yttrium` 130·131·132줄 30(5) ms
+- Y-108 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 92줄 107.95948(86)# / `wiki-en-isotopes-of-yttrium` 130·131·132줄 107.96052(64)#
+- Y-76 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 12줄 500# ns / `wiki-en-isotopes-of-yttrium` 26·27·28줄 28(9) ms
+- Y-76 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 12줄 75.95845(54)# / `wiki-en-isotopes-of-yttrium` 26·27·28줄 75.95894(32)#
+- Y-77 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 13·14줄 ⁷⁶Sr, ⁷⁷Sr / `wiki-en-isotopes-of-yttrium` 29·30·31줄 ⁷⁷Sr, ⁷⁶Sr, ⁷⁶Rb
+- Y-77 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 13·14줄 p (>99.9%), β⁺ (<0.1%) / `wiki-en-isotopes-of-yttrium` 29·30·31줄 β⁺, p?, β⁺, p?
+- Y-77 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 13·14줄 76.94965(7)# / `wiki-en-isotopes-of-yttrium` 29·30·31줄 76.95015(22)#
+- Y-78 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 15줄 ⁷⁸Sr / `wiki-en-isotopes-of-yttrium` 32·33줄 ⁷⁸Sr, ⁷⁷Rb
+- Y-78 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 15줄 β⁺ / `wiki-en-isotopes-of-yttrium` 32·33줄 β⁺, β⁺, p?
+- Y-78 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 15줄 77.94361(43)# / `wiki-en-isotopes-of-yttrium` 32·33줄 77.94399(32)#
+- Y-78m 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 16줄 0(500)# keV / `wiki-en-isotopes-of-yttrium` 34·35줄 ~300 keV
+- Y-78m 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 16줄 5+# / `wiki-en-isotopes-of-yttrium` 34·35줄 (5+)
+- Y-79 붕괴 생성 동위 원소(daughter): `wiki-ko-isotopes-of-yttrium` 17·18줄 ⁷⁹Sr, ⁷⁸Rb / `wiki-en-isotopes-of-yttrium` 36줄 ⁷⁹Sr
+- Y-79 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 17·18줄 β⁺ (>99.9%), β⁺, p (<0.1%) / `wiki-en-isotopes-of-yttrium` 36줄 β⁺
+- Y-79 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 17·18줄 78.93735(48) / `wiki-en-isotopes-of-yttrium` 36줄 78.937752(14)
+- Y-79 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 17·18줄 (5/2+)# / `wiki-en-isotopes-of-yttrium` 36줄 5/2+#
+- Y-80 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 19줄 79.93428(19) / `wiki-en-isotopes-of-yttrium` 37줄 79.9343548(67)
+- Y-80m1 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 20줄 (1-) / `wiki-en-isotopes-of-yttrium` 38·39줄 1−
+- Y-81 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 22줄 80.92913(7) / `wiki-en-isotopes-of-yttrium` 41줄 80.9294459(30)
+- Y-82 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 23줄 81.92679(11) / `wiki-en-isotopes-of-yttrium` 42줄 81.9269302(59)
+- Y-82m1 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 24줄 268(25) ns / `wiki-en-isotopes-of-yttrium` 43줄 258(22) ns
+- Y-82m2 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 25줄 147(7) ns / `wiki-en-isotopes-of-yttrium` 44줄 148(6) ns
+- Y-83 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 26줄 82.92235(5) / `wiki-en-isotopes-of-yttrium` 45줄 82.922484(20)
+- Y-83 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 26줄 9/2+ / `wiki-en-isotopes-of-yttrium` 45줄 (9/2+)
+- Y-83m 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 27·28줄 61.98(11) keV / `wiki-en-isotopes-of-yttrium` 46·47줄 62.04(10) keV
+- Y-84 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 29줄 4.6(2) s / `wiki-en-isotopes-of-yttrium` 48줄 39.5(8) min
+- Y-84 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 29줄 83.92039(10) / `wiki-en-isotopes-of-yttrium` 48줄 83.9206711(46)
+- Y-84 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 29줄 1+ / `wiki-en-isotopes-of-yttrium` 48줄 (6+)
+- Y-85m1 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 32·33줄 β⁺ (99.998%), IT (0.002%) / `wiki-en-isotopes-of-yttrium` 52·53줄 β⁺, IT?
+- Y-85m1 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 32·33줄 19.8(5) keV / `wiki-en-isotopes-of-yttrium` 52·53줄 19.68(17) keV
+- Y-85m1 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 32·33줄 9/2+ / `wiki-en-isotopes-of-yttrium` 52·53줄 (9/2)+
+- Y-85m2 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 34줄 266.30(20) keV / `wiki-en-isotopes-of-yttrium` 54줄 266.18(10) keV
+- Y-85m2 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 34줄 5/2- / `wiki-en-isotopes-of-yttrium` 54줄 (5/2)−
+- Y-86m1 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 36·37줄 218.30(20) keV / `wiki-en-isotopes-of-yttrium` 56·57줄 218.21(9) keV
+- Y-86m1 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 36·37줄 48(1) min / `wiki-en-isotopes-of-yttrium` 56·57줄 47.4(4) min
+- Y-86m2 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 38줄 302.2(5) keV / `wiki-en-isotopes-of-yttrium` 58줄 302.18(9) keV
+- Y-86m2 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 38줄 125(6) ns / `wiki-en-isotopes-of-yttrium` 58줄 125.3(55) ns
+- Y-86m2 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 38줄 (7-) / `wiki-en-isotopes-of-yttrium` 58줄 6+
+- Y-87 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 39줄 86.9108757(17) / `wiki-en-isotopes-of-yttrium` 59줄 86.9108761(12)
+- Y-87m 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 40·41줄 IT (98.43%), β⁺ (1.56%) / `wiki-en-isotopes-of-yttrium` 60·61줄 IT (98.43%), β⁺ (1.57%)
+- Y-88 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 42줄 87.9095011(20) / `wiki-en-isotopes-of-yttrium` 62줄 87.9095013(16)
+- Y-88m1 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 43줄 674.55(4) keV / `wiki-en-isotopes-of-yttrium` 63줄 392.86(9) keV
+- Y-88m1 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 43줄 13.9(2) ms / `wiki-en-isotopes-of-yttrium` 63줄 301(3) μs
+- Y-88m1 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 43줄 (8)+ / `wiki-en-isotopes-of-yttrium` 63줄 1+
+- Y-88m2 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 44줄 392.86(9) keV / `wiki-en-isotopes-of-yttrium` 64줄 674.55(4) keV
+- Y-88m2 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 44줄 300(3) µs / `wiki-en-isotopes-of-yttrium` 64줄 13.98(17) ms
+- Y-88m2 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 44줄 1+ / `wiki-en-isotopes-of-yttrium` 64줄 8+
+- Y-89 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 45줄 88.9058483(27) / `wiki-en-isotopes-of-yttrium` 65줄 88.90583816(36)
+- Y-90 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 47줄 89.9071519(27) / `wiki-en-isotopes-of-yttrium` 67줄 89.90714175(38)
+- Y-90m 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 48·49줄 IT (99.99%), β⁻ (.0018%) / `wiki-en-isotopes-of-yttrium` 68·69줄 IT, β⁻ (0.0018%)
+- Y-90m 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 48·49줄 681.67(10) keV / `wiki-en-isotopes-of-yttrium` 68·69줄 682.01(5) keV
+- Y-90m 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 48·49줄 3.19(6) h / `wiki-en-isotopes-of-yttrium` 68·69줄 3.226(11) h
+- Y-91 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 50줄 90.907305(3) / `wiki-en-isotopes-of-yttrium` 70줄 90.9072980(20)
+- Y-91m 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 51·52줄 IT (98.5%), β⁻ (1.5%) / `wiki-en-isotopes-of-yttrium` 71·72줄 IT, β⁻?
+- Y-92 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 53줄 91.908949(10) / `wiki-en-isotopes-of-yttrium` 73줄 91.9089458(98)
+- Y-93 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 54줄 92.909583(11) / `wiki-en-isotopes-of-yttrium` 75줄 92.909578(11)
+- Y-93m 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 55줄 7/2+ / `wiki-en-isotopes-of-yttrium` 76줄 9/2+
+- Y-94 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 56줄 93.911595(8) / `wiki-en-isotopes-of-yttrium` 77줄 93.9115921(68)
+- Y-95 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 57줄 94.912821(8) / `wiki-en-isotopes-of-yttrium` 79줄 94.9128197(73)
+- Y-96 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 58줄 95.915891(25) / `wiki-en-isotopes-of-yttrium` 81줄 95.9159093(65)
+- Y-97 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 60·61줄 β⁻ (99.942%), β⁻, n (.058%) / `wiki-en-isotopes-of-yttrium` 84·85줄 β⁻ (99.945%), β⁻, n (0.055%)
+- Y-97 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 60·61줄 96.918134(13) / `wiki-en-isotopes-of-yttrium` 84·85줄 96.9182867(72)
+- Y-97 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 60·61줄 (1/2-) / `wiki-en-isotopes-of-yttrium` 84·85줄 1/2−
+- Y-97m1 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 62·63·64줄 β⁻ (99.3%), IT (.7%), β⁻, n (.08%) / `wiki-en-isotopes-of-yttrium` 86·87·88줄 β⁻ (>99.2%), IT (<0.7%), β⁻, n (0.11%)
+- Y-97m1 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 62·63·64줄 667.51(23) keV / `wiki-en-isotopes-of-yttrium` 86·87·88줄 667.52(23) keV
+- Y-97m1 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 62·63·64줄 (9/2)+ / `wiki-en-isotopes-of-yttrium` 86·87·88줄 9/2+
+- Y-97m2 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 65줄 3523.3(4) keV / `wiki-en-isotopes-of-yttrium` 89·90줄 3522.6(4) keV
+- Y-98 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 66·67줄 β⁻ (99.669%), β⁻, n (.331%) / `wiki-en-isotopes-of-yttrium` 91·92줄 β⁻ (99.67%), β⁻, n (0.33%)
+- Y-98 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 66·67줄 97.922203(26) / `wiki-en-isotopes-of-yttrium` 91·92줄 97.9223948(85)
+- Y-98 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 66·67줄 (0)- / `wiki-en-isotopes-of-yttrium` 91·92줄 0−
+- Y-98m1 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 68줄 170.74(6) keV / `wiki-en-isotopes-of-yttrium` 93줄 170.78(5) keV
+- Y-98m1 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 68줄 620(80) ns / `wiki-en-isotopes-of-yttrium` 93줄 615(8) ns
+- Y-98m1 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 68줄 (2)- / `wiki-en-isotopes-of-yttrium` 93줄 2−
+- Y-98m2 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 69·70·71줄 β⁻ (86.6%), IT (10%), β⁻, n (3.4%) / `wiki-en-isotopes-of-yttrium` 94·95·96줄 β⁻ (96.56%), β⁻, n (3.44%), IT?
+- Y-98m2 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 69·70·71줄 410(30) keV / `wiki-en-isotopes-of-yttrium` 94·95·96줄 465.7(7) keV
+- Y-98m2 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 69·70·71줄 2.0(2) s / `wiki-en-isotopes-of-yttrium` 94·95·96줄 2.32(8) s
+- Y-98m2 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 69·70·71줄 (5+,4-) / `wiki-en-isotopes-of-yttrium` 94·95·96줄 (6,7)+
+- Y-98m3 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 72줄 496.19(15) keV / `wiki-en-isotopes-of-yttrium` 97줄 496.10(11) keV
+- Y-98m3 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 72줄 7.6(4) µs / `wiki-en-isotopes-of-yttrium` 97줄 6.90(54) μs
+- Y-98m3 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 72줄 (2-) / `wiki-en-isotopes-of-yttrium` 97줄 (4)−
+- Y-98m4 들뜬 에너지(excitation_energy): `wiki-ko-isotopes-of-yttrium` 73줄 1181.1(4) keV / `wiki-en-isotopes-of-yttrium` 98줄 594(10) keV
+- Y-98m4 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 73줄 0.83(10) µs / `wiki-en-isotopes-of-yttrium` 98줄 180(7) ns
+- Y-98m4 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 73줄 (8-) / `wiki-en-isotopes-of-yttrium` 98줄 (3−,4−)
+- Y-99 붕괴 방식(decay_mode): `wiki-ko-isotopes-of-yttrium` 74·75줄 β⁻ (98.1%), β⁻, n (1.9%) / `wiki-en-isotopes-of-yttrium` 101·102줄 β⁻ (98.23%), β⁻, n (1.77%)
+- Y-99 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 74·75줄 1.470(7) s / `wiki-en-isotopes-of-yttrium` 101·102줄 1.484(7) s
+- Y-99 동위 원소 질량(isotopic_mass): `wiki-ko-isotopes-of-yttrium` 74·75줄 98.924636(26) / `wiki-en-isotopes-of-yttrium` 101·102줄 98.9241608(71)
+- Y-99 핵 스핀(spin_parity): `wiki-ko-isotopes-of-yttrium` 74·75줄 (5/2+) / `wiki-en-isotopes-of-yttrium` 101·102줄 5/2+
+- Y-99m 반감기(half_life): `wiki-ko-isotopes-of-yttrium` 76줄 8.6(8) µs / `wiki-en-isotopes-of-yttrium` 103줄 8.2(4) μs
+- Yb 겉보기(appearance): `wiki-ko-ytterbium` 15줄 은백색 / `wiki-en-ytterbium` 5줄 silvery white; with a pale yellow tint
+- Yb 브리넬 굳기(brinell_hardness): `wiki-ko-ytterbium` 49줄 343 MPa / `wiki-en-ytterbium` 52줄 340–440 MPa
+- Yb 기화열(heat_of_vaporization): `wiki-ko-ytterbium` 22줄 159 kJ/mol / `wiki-en-ytterbium` 22줄 129 kJ/mol
+- Yb number_of_nuclear_isomers: `wiki-ko-ytterbium` 117줄 12개의 준안정 상태 / `wiki-en-ytterbium` 119줄 18 meta states
+- Yb number_of_radioactive_isotopes: `wiki-ko-ytterbium` 117줄 27개의 방사성 동위원소 / `wiki-en-ytterbium` 119줄 Thirty-two synthetic radioisotopes — 한국어는 방사성 동위 원소 27개, 영어는 Thirty-two(32개). 영어는 숫자를 낱말로 적어 값 목록에 없다
+- Yb resistivity_drop_ratio: `wiki-ko-ytterbium` 81줄 90 % / `wiki-en-ytterbium` 88줄 about 10 %
+- Yb semiconductor_transition_pressure: `wiki-ko-ytterbium` 81줄 16000 기압(1.6 GPa) / `wiki-en-ytterbium` 88줄 about 16,000 atmospheres (1.6 GPa)
+- Yb 열팽창(thermal_expansion): `wiki-ko-ytterbium` 39줄 26.3 µm/(m·K) / `wiki-en-ytterbium` 41줄 24.31×10⁻⁶/K
+- Yb 비커스 굳기(vickers_hardness): `wiki-ko-ytterbium` 48줄 206 MPa / `wiki-en-ytterbium` 51줄 205–250 MPa
+- Yb-168 존재비(natural_abundance): `wiki-ko-ytterbium` 60줄 0.13% / `wiki-en-ytterbium` 64줄 0.126%
+- Yb-170 존재비(natural_abundance): `wiki-ko-ytterbium` 62줄 3.05% / `wiki-en-ytterbium` 66줄 3.02%
+- Yb-171 존재비(natural_abundance): `wiki-ko-ytterbium` 63줄 14.3% / `wiki-en-ytterbium` 67줄 14.2%
+- Yb-172 존재비(natural_abundance): `wiki-ko-ytterbium` 64줄 21.9% / `wiki-en-ytterbium` 68줄 21.8%
+- Yb-173 존재비(natural_abundance): `wiki-ko-ytterbium` 65줄 16.12% / `wiki-en-ytterbium` 69줄 16.1%
+- Yb-174 존재비(natural_abundance): `wiki-ko-ytterbium` 66줄 31.8% / `wiki-en-ytterbium` 70줄 31.9% / `wiki-ko-ytterbium` 117줄 31.8 % / `wiki-en-ytterbium` 119줄 31.90 %
+- Yb-176 존재비(natural_abundance): `wiki-ko-ytterbium` 68줄 12.7% / `wiki-en-ytterbium` 72줄 12.9%
+- ytterbium lasers laser_wavelength: `wiki-ko-ytterbium` 155줄 1.06 - 1.12 마이크로미터 / `wiki-en-ytterbium` 187줄 1.03–1.12 μm

@@ -240,12 +240,12 @@ def conflicts():
     try:
         data = json.loads(CONFLICTS.read_text(encoding="utf-8"))
     except (OSError, ValueError) as err:
-        sys.exit(f"오류: 알려진 부딪히는 값 목록({CONFLICTS.relative_to(ROOT)})을 읽지 못함 ({err}). research_notes/stage2_fact_count/known_conflicts.py로 만든다")
+        sys.exit(f"오류: 알려진 부딪히는 값 목록({CONFLICTS.relative_to(ROOT)})을 읽지 못함 ({err}). research_notes/stage2_values_rare_earth/build_conflicts.py로 만든다")
     for n, entry in enumerate(data, 1):
         docs = [t["doc_id"] for t in entry["targets"]] if "targets" in entry else [entry.get("doc_id")]
         for doc in docs:
             if not (entry_quotes(entry, doc) or entry_values(entry, doc) or entry.get("table_years")):
-                sys.exit(f"오류: 알려진 부딪히는 값 목록의 {n}번째 항목의 문서 {doc}에 조건(quotes, 값, table_years)이 하나도 없어 절대 잡히지 않음. research_notes/stage2_fact_count/known_conflicts.py로 다시 만든다")
+                sys.exit(f"오류: 알려진 부딪히는 값 목록의 {n}번째 항목의 문서 {doc}에 조건(quotes, 값, table_years)이 하나도 없어 절대 잡히지 않음. research_notes/stage2_values_rare_earth/build_conflicts.py로 다시 만든다")
     return data
 
 
