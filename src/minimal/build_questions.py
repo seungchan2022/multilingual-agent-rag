@@ -24,7 +24,7 @@ SRC_B = "research_notes/stage2_stem_select/step4/rare_earth/questions.json"
 # 원본 A에서 쓰는 id와 순서. re-03은 뺀다.
 A_IDS = ["re-01", "re-02", "re-04", "re-05", "re-06", "re-07", "re-08", "re-09", "re-10"]
 
-EN_QUESTION_A = ("What is the mass in kg of a {name} rectangular cuboid that is 3 cm wide, 4 cm long, "
+EN_QUESTION_A = ("What is the mass in kg of a rectangular cuboid of {name} that is 3 cm wide, 4 cm long, "
                  "and 5 cm high? (Use its density near room temperature.)")
 
 # 원본 A 항목: id -> (영어 원소 이름, 근거 [(doc_id, 줄 번호, 그 줄에 있어야 하는 글자), ...])
