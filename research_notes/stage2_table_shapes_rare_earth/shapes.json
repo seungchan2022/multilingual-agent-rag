@@ -180,14 +180,14 @@
  },
  "한 칸에 여러 항목이 든 표(줄바꿈이 항목을 나눔)": {
   "how": "읽어서 판정",
-  "rule": "칸 안의 줄바꿈이 글이 길어 바꾼 것이 아니라 다른 항목을 나눈다. 변환은 줄바꿈을 빈칸 하나로 바꿔(decisions/stage2.md 2026-10-14 표 규칙 ㉢) 항목의 경계가 사라졌다",
+  "rule": "칸 안의 줄바꿈이 글이 길어 바꾼 것이 아니라 다른 항목을 나눈다. 값 칸 안의 줄바꿈은 ` / `로 바꾸므로(decisions/stage2.md 2026-10-22 \"값 칸 안의 줄바꿈은 ` / `로 바꾼다\") 줄바꿈이 나눈 항목은 경계가 남는다. 줄바꿈이 아니라 문단으로 항목을 나눈 칸은 이 규칙에 들지 않아 항목이 빈칸으로 이어진 채 남는다(남은 한계)",
   "tables": [
    "wiki-ko-yttrium:55",
    "wiki-en-neutron-capture-therapy:187"
   ],
   "notes": {
-   "wiki-ko-yttrium:55": "붕괴 에너지 칸에 값 둘: '0.48 ⏎ 0.38D', '1.83 ⏎ 0.89'",
-   "wiki-en-neutron-capture-therapy:187": "첫 열의 머리글과 칸이 네 항목(Manufacturer, Product, Reaction, Accelerator type)을 한 칸에 담는다"
+   "wiki-ko-yttrium:55": "붕괴 에너지 칸에 값 둘이 ` / `로 나뉘어 경계가 남아 있다: 58줄 `0.48 / 0.38D`, 60줄 `1.83 / 0.89`",
+   "wiki-en-neutron-capture-therapy:187": "첫 열의 머리글과 칸이 네 항목(Manufacturer, Product, Reaction, Accelerator type)을 한 칸에 담는다. 항목을 줄바꿈이 아니라 문단으로 나눈 칸이라 ` / `로 바뀌지 않고 빈칸으로 이어진 채 남는다(남은 한계)"
   }
  },
  "목록을 여러 열로 나눈 표(한 줄의 칸끼리 관계가 없음)": {
