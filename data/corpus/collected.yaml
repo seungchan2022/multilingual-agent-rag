@@ -1,360 +1,262 @@
 # 수집 기록. src/corpus/fetch.py가 원본을 받을 때 쓴다. 마크다운의 해시는 src/corpus/build.py가 채운다.
 documents:
-- doc_id: wiki-ko-jeonju
-  fetched_at: '2026-10-14T10:18:32+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42643645&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "전주시" (revid 42643645)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42643645
+- doc_id: wiki-ko-thulium
+  fetched_at: '2026-10-22T13:33:42+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42443016&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "툴륨" (revid 42443016)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42443016
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-jeonju.html
-  raw_sha256: 62f534f77d02bf78dc979099ec523d768022475015840d79e3242d3c4a25fda6
-  markdown_file: markdown/wiki-ko-jeonju.md
-  markdown_sha256: bbe8a76e1f026e231d4e012011ebcd5d629dc3f3d2634252125a51d5e7f51cf4
-- doc_id: wiki-en-jeonju
-  fetched_at: '2026-10-14T10:18:43+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379135207&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Jeonju" (revid 1379135207)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1379135207
+  raw_file: raw/wiki-ko-thulium.html
+  raw_sha256: e99168c72f1ffd7c805144b0ba4bcebac66f12fa02c9abba7624c5a7a14d994d
+  markdown_file: markdown/wiki-ko-thulium.md
+  markdown_sha256: 074f87d4cbf2fccb1bffff26b14b2ef499a9a825f79e43e93a739bfc99c4066a
+- doc_id: wiki-en-thulium
+  fetched_at: '2026-10-22T13:33:47+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379225026&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Thulium" (revid 1379225026)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1379225026
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-jeonju.html
-  raw_sha256: bea8a632aaac691466881523a486210849f64a66b997bd00f9586866ddf77e1a
-  markdown_file: markdown/wiki-en-jeonju.md
-  markdown_sha256: 0c0f757a8215f9c41aa80212c8dfd6ff3da3a93a206fb18524f2a5e5ff9ee707
-- doc_id: wiki-ko-cheongju
-  fetched_at: '2026-10-14T10:18:46+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42630014&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "청주시" (revid 42630014)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42630014
+  raw_file: raw/wiki-en-thulium.html
+  raw_sha256: 9440526c055956fb8876cbec05d177797700c1899ff7ca4e7ffb0b58900afb2c
+  markdown_file: markdown/wiki-en-thulium.md
+  markdown_sha256: 7900e24f405732bbff71cd39f62b621c2e4ac15589d3cec91029fc5e4469f739
+- doc_id: wiki-ko-dysprosium
+  fetched_at: '2026-10-22T13:33:50+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42233139&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "디스프로슘" (revid 42233139)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42233139
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-cheongju.html
-  raw_sha256: fa2313be84ff103bcb78fb9214d97c6712c28d9b35b9743202de0f55d44e0155
-  markdown_file: markdown/wiki-ko-cheongju.md
-  markdown_sha256: fee547b558910547ef2794a14c5fd621dd26cc3036247ef87b35b712103c09f2
-- doc_id: wiki-en-cheongju
-  fetched_at: '2026-10-14T10:18:50+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378953230&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Cheongju" (revid 1378953230)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1378953230
+  raw_file: raw/wiki-ko-dysprosium.html
+  raw_sha256: 102e977a78350a822d929bfc2278f2394b83f4d95dbe446eacab8f04c99e9743
+  markdown_file: markdown/wiki-ko-dysprosium.md
+  markdown_sha256: 81b9118fd33339c6876b3b30648e990b1f7b93400e72993a784c57179c86d79b
+- doc_id: wiki-en-dysprosium
+  fetched_at: '2026-10-22T13:33:56+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1373658711&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Dysprosium" (revid 1373658711)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1373658711
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-cheongju.html
-  raw_sha256: 0d84020e6417e516d2bd77511e2e8279d8d27056edb0a01ccf5ee3d581abe266
-  markdown_file: markdown/wiki-en-cheongju.md
-  markdown_sha256: 385575804887896e90df0e9a571699bb7a9a0048c3dfcdb81df91a391223161a
-- doc_id: wiki-ko-chuncheon
-  fetched_at: '2026-10-14T10:18:54+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42647646&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "춘천시" (revid 42647646)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42647646
+  raw_file: raw/wiki-en-dysprosium.html
+  raw_sha256: 7e15b9e13a725485414277eac2ba93dcc14dabdd516a8318d1bad632d3c4785d
+  markdown_file: markdown/wiki-en-dysprosium.md
+  markdown_sha256: f8538fdf3680ecd2140b3e30e279d8dbe68dc571e956818b5ecb33cff8d664cd
+- doc_id: wiki-ko-ytterbium
+  fetched_at: '2026-10-22T13:33:59+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42388980&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "이터븀" (revid 42388980)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42388980
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-chuncheon.html
-  raw_sha256: f66d33cd6256deab1b42e72ed3f773a8792a0c0715cd047fefc58345709e2a09
-  markdown_file: markdown/wiki-ko-chuncheon.md
-  markdown_sha256: dfeee3121ec8ee5a5da785372042943f5bf8570d1ea4fc7e0735ed921b8f4aa7
-- doc_id: wiki-en-chuncheon
-  fetched_at: '2026-10-14T10:18:58+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1376994978&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Chuncheon" (revid 1376994978)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1376994978
+  raw_file: raw/wiki-ko-ytterbium.html
+  raw_sha256: 9f5bf89a7aebfa1b1a541a1ebdb96ecd3645e0ef785c97a5bda5b439fcc38ea7
+  markdown_file: markdown/wiki-ko-ytterbium.md
+  markdown_sha256: 65819f4f728ecbaef272ae8d64bd4ddcdde20a817a9022086b1291dea37eb352
+- doc_id: wiki-en-ytterbium
+  fetched_at: '2026-10-22T13:34:03+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1380332337&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Ytterbium" (revid 1380332337)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1380332337
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-chuncheon.html
-  raw_sha256: d20a38c0356a729e4d885192dcd457b98dd408c9b09017c2e0cfed5bfb68eb0e
-  markdown_file: markdown/wiki-en-chuncheon.md
-  markdown_sha256: b95402d4b524cee5894df61dcc8cbfd0771bb0da1e9d50d37e07d5c12b0412fb
-- doc_id: wiki-ko-cheonan
-  fetched_at: '2026-10-14T10:19:03+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42545685&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "천안시" (revid 42545685)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42545685
+  raw_file: raw/wiki-en-ytterbium.html
+  raw_sha256: 37dc1cfb763471f6896d2d9173aa416e2f9c2fc3cf5538d54c0dba496cfbf063
+  markdown_file: markdown/wiki-en-ytterbium.md
+  markdown_sha256: 4522ac4227a69149b9f7c049c17c92ea6c6a7703211f19e50ac1dad7b8a44038
+- doc_id: wiki-ko-lutetium
+  fetched_at: '2026-10-22T13:34:06+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42249157&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "루테튬" (revid 42249157)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42249157
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-cheonan.html
-  raw_sha256: de32e5c971de3986b18f929094c7c33dced2bb3a3bad5066710ad7e79e47cbba
-  markdown_file: markdown/wiki-ko-cheonan.md
-  markdown_sha256: f58026a185bcc75b6228e4a6f9cd0f27f4d0739747e023a3477ea1a8f37e777e
-- doc_id: wiki-en-cheonan
-  fetched_at: '2026-10-14T10:19:06+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378953224&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Cheonan" (revid 1378953224)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1378953224
+  raw_file: raw/wiki-ko-lutetium.html
+  raw_sha256: 89c0132d4692bf4997d4e866c1633104679ea5f8f7e1208ed49328b5c48aae27
+  markdown_file: markdown/wiki-ko-lutetium.md
+  markdown_sha256: 63c828f54c4199cc19ac14ab94a122376f8c0728c575b7135188bbffff911fd4
+- doc_id: wiki-en-lutetium
+  fetched_at: '2026-10-22T13:34:10+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379926577&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Lutetium" (revid 1379926577)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1379926577
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-cheonan.html
-  raw_sha256: 676daa752712ac1c8ad72d71f1a7bea2847c86f74b9e6aa461264ed58a18bc8e
-  markdown_file: markdown/wiki-en-cheonan.md
-  markdown_sha256: 35d0c2364f0657703ccd2e09fa9a4b0356cff0623c29188a71d546f699afed59
-- doc_id: wiki-en-busan
-  fetched_at: '2026-10-14T10:19:10+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1379685823&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Busan" (revid 1379685823)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1379685823
+  raw_file: raw/wiki-en-lutetium.html
+  raw_sha256: 4d9277045d6d686b183240c164877075ca809c8114ed0ed408db8891dac4db20
+  markdown_file: markdown/wiki-en-lutetium.md
+  markdown_sha256: d1d6bf9a0311347b2dbca3da0b803d37ccf9beb6e56f91dd38b3abd8d8b73a28
+- doc_id: wiki-ko-isotopes-of-yttrium
+  fetched_at: '2026-10-22T13:34:13+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=40113523&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "이트륨 동위 원소" (revid 40113523)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=40113523
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-busan.html
-  raw_sha256: ac898e33ba1fd8e3707b705b0ad36181806099d68a128a624965bdf0de21abdb
-  markdown_file: markdown/wiki-en-busan.md
-  markdown_sha256: 8b01849bd15367e5a6c6799db7b7a57e08feae57c6689b0ad0103ac11cb09562
-- doc_id: wiki-en-jeju
-  fetched_at: '2026-10-14T10:19:13+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1377658564&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Jeju City" (revid 1377658564)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1377658564
+  raw_file: raw/wiki-ko-isotopes-of-yttrium.html
+  raw_sha256: a9c5dab9457ed3ac8467e0e010a9d76d4b29f7771e6a7ddb4da75b9ed3df0671
+  markdown_file: markdown/wiki-ko-isotopes-of-yttrium.md
+  markdown_sha256: 0bbbc251587a19de8311a7fcdd57831122e5fd7c7a1d571fe8138e6ceba2a191
+- doc_id: wiki-en-isotopes-of-yttrium
+  fetched_at: '2026-10-22T13:34:16+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1347432297&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Isotopes of yttrium" (revid 1347432297)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1347432297
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-jeju.html
-  raw_sha256: b7ccc8ca00c5924853b5e7d873805e5211334a8ac7efc0165b5d7340c2d8f59d
-  markdown_file: markdown/wiki-en-jeju.md
-  markdown_sha256: 4045f588a5c4f1bcd36a8d8f620a7af92063f99b5dad0e2aa9bb0f18c9dbf3dd
-- doc_id: wiki-en-andong
-  fetched_at: '2026-10-14T10:19:18+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378924154&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Andong" (revid 1378924154)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1378924154
+  raw_file: raw/wiki-en-isotopes-of-yttrium.html
+  raw_sha256: 81a3a7082d7c04f1b6104ebe1a6189dcddb4da0cad8136d2ab954148605bd46a
+  markdown_file: markdown/wiki-en-isotopes-of-yttrium.md
+  markdown_sha256: 2529be2f4853cdd1dcb2d45da82b34e1277e6aec459cd075a69c8695eea84c26
+- doc_id: wiki-ko-erbium
+  fetched_at: '2026-10-22T13:34:19+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42361925&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "어븀" (revid 42361925)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42361925
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-andong.html
-  raw_sha256: c912a88a7adde2d3435f67e63add4d4ddfe5b915e0239efd6b182d13029fec8d
-  markdown_file: markdown/wiki-en-andong.md
-  markdown_sha256: d577efc5a98078ab6abaf553bb1ccffc4e77a93e6a87171bbf43671bcdce177d
-- doc_id: wiki-en-gangneung
-  fetched_at: '2026-10-14T10:19:21+09:00'
-  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1378182836&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "Gangneung" (revid 1378182836)
-  source_url: https://en.wikipedia.org/w/index.php?oldid=1378182836
+  raw_file: raw/wiki-ko-erbium.html
+  raw_sha256: 6b856acbbd8b913708d6e8a1a72fc0f3d5d502cd1465f2e43288c73c8fe50a87
+  markdown_file: markdown/wiki-ko-erbium.md
+  markdown_sha256: 51501cb1a14ae7eec2e646771d70371496b28abda3799def634afda7e32f478b
+- doc_id: wiki-ko-samarium
+  fetched_at: '2026-10-22T13:34:23+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42303602&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "사마륨" (revid 42303602)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42303602
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-en-gangneung.html
-  raw_sha256: c2a0dcccec2afd19aa6c93da83c5b60f210dffbfa38cf0305797122fd4c31d74
-  markdown_file: markdown/wiki-en-gangneung.md
-  markdown_sha256: b1d6c28821a98682d1f2d3c152be347410ae6128becf56b1d6458f54e4054f5d
-- doc_id: wiki-ko-suwon
-  fetched_at: '2026-10-14T10:19:25+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42534963&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "수원시" (revid 42534963)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42534963
+  raw_file: raw/wiki-ko-samarium.html
+  raw_sha256: f91051834224042eb3cf3c81c5345fc23b55b7fed91ae735192fbbe9a60bb10e
+  markdown_file: markdown/wiki-ko-samarium.md
+  markdown_sha256: dda7397293a4d2349467f1865a1cc544b8dc9c8155f31d7f17a1bc0f433a8664
+- doc_id: wiki-ko-yttrium
+  fetched_at: '2026-10-22T13:34:27+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42388979&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "이트륨" (revid 42388979)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=42388979
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-suwon.html
-  raw_sha256: 1b7461a79db021d4e77e7aa987e4ff7bc494eb6b4022930178a24d8f694fa1dd
-  markdown_file: markdown/wiki-ko-suwon.md
-  markdown_sha256: fa132bfa966ac229a0430168e498437136803c155c0060a65e83f6e0bf901acd
-- doc_id: wiki-ko-gyeongju
-  fetched_at: '2026-10-14T10:19:30+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42639825&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "경주시" (revid 42639825)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42639825
+  raw_file: raw/wiki-ko-yttrium.html
+  raw_sha256: 8dd647f32b9ddf3db1c4d8c05354298b5065123a0b228973c135530d06cf1f38
+  markdown_file: markdown/wiki-ko-yttrium.md
+  markdown_sha256: 15e919f187856f3e8041bba35192b1401ad078b130a5e0d5a72d49900013ff55
+- doc_id: wiki-ko-isotopes-of-terbium
+  fetched_at: '2026-10-22T13:34:30+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=40332210&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "터븀 동위 원소" (revid 40332210)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=40332210
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-gyeongju.html
-  raw_sha256: 6b301c77b639c9e11e553d09fc3eee73caeaab65f9aa3a4e7393a6e21ba1137e
-  markdown_file: markdown/wiki-ko-gyeongju.md
-  markdown_sha256: 636005a0c21daca4b9a55ef9b2be97a1166bb4d25680bd6dbea68fb2434b8745
-- doc_id: wiki-ko-sejong
-  fetched_at: '2026-10-14T10:19:34+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42585449&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "세종특별자치시" (revid 42585449)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42585449
+  raw_file: raw/wiki-ko-isotopes-of-terbium.html
+  raw_sha256: 376565843fdb8e9235aa35a0470fde6d7ef47c7e04c6328d03284199f94cdbb0
+  markdown_file: markdown/wiki-ko-isotopes-of-terbium.md
+  markdown_sha256: 771ce1ccbff627cc5a6aaa2af427c7da0a913d8811851d3175b0625b88edd615
+- doc_id: wiki-ko-isotopes-of-neodymium
+  fetched_at: '2026-10-22T13:34:33+09:00'
+  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=39557729&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "네오디뮴 동위 원소" (revid 39557729)
+  source_url: https://ko.wikipedia.org/w/index.php?oldid=39557729
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-sejong.html
-  raw_sha256: e4beb8410cc39a894ec43adc300a06e7fae77d93644806d125d14aa9923abe04
-  markdown_file: markdown/wiki-ko-sejong.md
-  markdown_sha256: fd97bd5fc8c970ad836174a6019ed2a5999c7df3b1ec33ca4b301aeef7dad36e
-- doc_id: wiki-ko-gwangju
-  fetched_at: '2026-10-14T10:19:39+09:00'
-  request_url: https://ko.wikipedia.org/w/api.php?action=parse&oldid=42623705&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
-  source: 위키백과 "광주광역시" (revid 42623705)
-  source_url: https://ko.wikipedia.org/w/index.php?oldid=42623705
+  raw_file: raw/wiki-ko-isotopes-of-neodymium.html
+  raw_sha256: 35e6e9db361a5ab3c3508eb50280bc9a582f8f3b21d2ec516392cc1d5e44b12a
+  markdown_file: markdown/wiki-ko-isotopes-of-neodymium.md
+  markdown_sha256: d86ae8d2aa7980ca8d080cb763439c8038166c7a1914a74507dae4c3274fa9f8
+- doc_id: wiki-en-lanthanum
+  fetched_at: '2026-10-22T13:34:37+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1380415452&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Lanthanum" (revid 1380415452)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1380415452
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
   modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
     2026-10-14 줄에 있다.
-  raw_file: raw/wiki-ko-gwangju.html
-  raw_sha256: cf717a133cbca98dbacf0501d232a1bf3ff69ee55e7532bac57783a0c9e74bf2
-  markdown_file: markdown/wiki-ko-gwangju.md
-  markdown_sha256: 72b0464a3a90b7aaf10e3a789837601c2cea3275a47a932afd7fb8497aa68da7
-- doc_id: kto-ko-jeonju-hanok-village
-  fetched_at: '2026-10-14T10:19:41+09:00'
-  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=264284
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "전북 전주 한옥마을 [슬로시티]" (modifiedtime 20260630155423)
-  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=264284
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-ko-jeonju-hanok-village.json
-  raw_sha256: 59b255b6911e6db5fccc151bcb0bebb4d661bc4d7effb8fa6f31a06c932873b2
-  markdown_file: markdown/kto-ko-jeonju-hanok-village.md
-  markdown_sha256: fe08972821074230e058b15693d1d42f3eae82b388af919addb5b2383b281398
-- doc_id: kto-en-jeonju-hanok-village
-  fetched_at: '2026-10-14T10:19:43+09:00'
-  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=264285
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Jeonju Hanok Village [Slow City] (전북 전주 한옥마을
-    [슬로시티])" (modifiedtime 20260907140157)
-  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=264285
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-en-jeonju-hanok-village.json
-  raw_sha256: 0bd931f11d2ef4eefd0e783597b37be49074c9406c9ca96d8da298177c5eb803
-  markdown_file: markdown/kto-en-jeonju-hanok-village.md
-  markdown_sha256: ec56c270543837cd1eee3e1d9660f6c937f0e26f243465688c3c9debce871e75
-- doc_id: kto-ko-cheongju-cheongnamdae
-  fetched_at: '2026-10-14T10:19:46+09:00'
-  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=127916
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "청남대" (modifiedtime 20260605084251)
-  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=127916
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-ko-cheongju-cheongnamdae.json
-  raw_sha256: be2426f3225376ffbe851bfccb987e6acf278313bd1cd6e9083e15725f509188
-  markdown_file: markdown/kto-ko-cheongju-cheongnamdae.md
-  markdown_sha256: 75194e1dee51fe6b510bc153bff1cb96264538fdbed341a808d5ec111a1916c7
-- doc_id: kto-en-cheongju-cheongnamdae
-  fetched_at: '2026-10-14T10:19:48+09:00'
-  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=795179
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Cheongnamdae Presidential Villa (청남대)" (modifiedtime
-    20261012141518)
-  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=795179
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-en-cheongju-cheongnamdae.json
-  raw_sha256: 055016b11ca97aac154b3e5f2948a0272d077000ef4e6c6e9a314d922acf3c84
-  markdown_file: markdown/kto-en-cheongju-cheongnamdae.md
-  markdown_sha256: 4af38f94333018fc95b063a2d0fae2b09b524a6c32debaf2b3f30de631bd8df8
-- doc_id: kto-ko-chuncheon-samaksan-cable-car
-  fetched_at: '2026-10-14T10:19:50+09:00'
-  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2814588
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "춘천 삼악산 호수케이블카" (modifiedtime 20261001092603)
-  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=2814588
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-ko-chuncheon-samaksan-cable-car.json
-  raw_sha256: 661801768ae04cba115a5584c4c37a2a0bb871d29e22692809025339fd41b494
-  markdown_file: markdown/kto-ko-chuncheon-samaksan-cable-car.md
-  markdown_sha256: 339b80992041c8ad50bcb6ffea0c33152b1b656b5874e3da5ac4c873c0d51cd7
-- doc_id: kto-en-chuncheon-samaksan-cable-car
-  fetched_at: '2026-10-14T10:19:52+09:00'
-  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2971541
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Chuncheon Samaksan Mountain Lake Cable Car (춘천
-    삼악산 호수케이블카)" (modifiedtime 20260212093513)
-  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2971541
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-en-chuncheon-samaksan-cable-car.json
-  raw_sha256: fad4ddaf6a29a2267a77b8f6aab328e80a2e28d0ecad45c7df34d658ecc37680
-  markdown_file: markdown/kto-en-chuncheon-samaksan-cable-car.md
-  markdown_sha256: 7f14adaf6f91c0f863c2fc6852ea361e845d6a884094d5e3ae5742becc9bd46a
-- doc_id: kto-ko-cheonan-samgeori-park
-  fetched_at: '2026-10-14T10:21:00+09:00'
-  request_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=126922
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "천안삼거리공원" (modifiedtime 20260927115418)
-  source_url: https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=126922
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-ko-cheonan-samgeori-park.json
-  raw_sha256: b23f30f3e13da9e1b3401fbd5b87ddac35eb805638eccdfe5bb02a29d498cf8d
-  markdown_file: markdown/kto-ko-cheonan-samgeori-park.md
-  markdown_sha256: b4739ae187b86dfb30bef32fa62fc074e19157641535d9e909ec4529358dffdf
-- doc_id: kto-en-cheonan-samgeori-park
-  fetched_at: '2026-10-14T10:21:02+09:00'
-  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=1840356
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Cheonan Three-way Intersection Park (천안삼거리공원)"
-    (modifiedtime 20260929144034)
-  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=1840356
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-en-cheonan-samgeori-park.json
-  raw_sha256: f738f045eeaf78da51afa0db32c7e8a17b5dfdc13abf7f820ef4bc6d44396455
-  markdown_file: markdown/kto-en-cheonan-samgeori-park.md
-  markdown_sha256: 53f10f6f755a2e642212081f996801ff9e6f7d3d2e77a0ed144a94f9387649ed
-- doc_id: kto-en-busan-haeundae-green-railway
-  fetched_at: '2026-10-14T10:21:04+09:00'
-  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=2990076
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Haeundae Green Railway (Mipo-Songjeong) (해운대
-    그린레일웨이 (미포~송정 구간))" (modifiedtime 20241010132555)
-  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2990076
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-en-busan-haeundae-green-railway.json
-  raw_sha256: 11feec85a3c7eecc01f3cf8abcfa0bfe82255d7922c26d311b4282380835690a
-  markdown_file: markdown/kto-en-busan-haeundae-green-railway.md
-  markdown_sha256: 303bb87d041f0b38cf6dc950ef6d01701a684dc88f9e93a8cc0b83ab1abff027
-- doc_id: kto-en-jeju-ara-dong-trail
-  fetched_at: '2026-10-14T10:18:34+09:00'
-  request_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?MobileOS=ETC&MobileApp=MultilingualAgentRAG&_type=json&contentId=3079418
-  source: 공공데이터포털 (한국관광공사 관광정보 서비스) "Ara-dong History and Culture Trail (아라동 역사문화탐방로)"
-    (modifiedtime 20250520110131)
-  source_url: https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=3079418
-  license: 한국관광공사 관광정보의 저작권 유형 Type1 (응답의 cpyrhtDivCd 값)
-  modified: 소개 글에 제목과 주소 줄을 붙이고 <br>과 문자 참조를 글자로 바꿨다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/kto-en-jeju-ara-dong-trail.json
-  raw_sha256: b8c6965a77205a5b11dab6b50c70948d95d7860c83bf1b9fb410bfb1d2a3b7b6
-  markdown_file: markdown/kto-en-jeju-ara-dong-trail.md
-  markdown_sha256: 23e4c617d0a6b5c78b9ba73c58e69b8e4a6d10069215db87535dcc6b474c69a7
-- doc_id: portal-ko-suwon-population
-  fetched_at: '2026-10-14T10:21:06+09:00'
-  request_url: https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002404642&fileDetailSn=1&insertDataPrcus=N
-  source: 공공데이터포털 (파일데이터) "경기도 수원시_인구현황" (데이터기준일자 2021-05-31)
-  source_url: https://www.data.go.kr/data/15051539/fileData.do
-  license: '이용허락범위: 제한 없음 (자료 설명 페이지에 적힌 값)'
-  modified: 파일의 칸 이름과 값을 바꾸지 않고 마크다운 표로 옮기고 제목을 붙였다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/portal-ko-suwon-population.csv
-  raw_sha256: e368b6506badd3dc4bb7b2f07f7bc36bd9894fd34f48fce7bece51f1b32018de
-  markdown_file: markdown/portal-ko-suwon-population.md
-  markdown_sha256: 53e97f65cfa442b7aac93de772b6b9577248e1c825048bdc9b26bb6367eb31d9
-- doc_id: portal-ko-jeonju-population
-  fetched_at: '2026-10-14T10:18:36+09:00'
-  request_url: https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003611561&fileDetailSn=1&insertDataPrcus=N
-  source: 공공데이터포털 (파일데이터) "전북특별자치도 전주시_인구현황" (데이터기준일자 2026-03-17)
-  source_url: https://www.data.go.kr/data/15126886/fileData.do
-  license: '이용허락범위: 제한 없음 (자료 설명 페이지에 적힌 값)'
-  modified: 파일의 칸 이름과 값을 바꾸지 않고 마크다운 표로 옮기고 제목을 붙였다. 규칙은 decisions/stage2.md의 2026-10-14
-    줄에 있다.
-  raw_file: raw/portal-ko-jeonju-population.csv
-  raw_sha256: 51c8ece312b7ef46d6d6d1ac32c365f65bdc20f0e6fceebb91be1fc89795bb41
-  markdown_file: markdown/portal-ko-jeonju-population.md
-  markdown_sha256: 4398cb0457187a6269dd1c00d437a72a2900ad8e884f8676905d090e52f3e507
+  raw_file: raw/wiki-en-lanthanum.html
+  raw_sha256: d3e10d55648c579f3bf74ed2d3c6a9b949a7a940a78e58c84fa750bdf1179013
+  markdown_file: markdown/wiki-en-lanthanum.md
+  markdown_sha256: 5981cfd5f170fdbafca3d515b40c4a562aa71c78dd2c487f736614cd505aa3fb
+- doc_id: wiki-en-europium
+  fetched_at: '2026-10-22T13:34:41+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1380092828&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Europium" (revid 1380092828)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1380092828
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-europium.html
+  raw_sha256: aa55c020d5147377f0869c959e9d5208f3541f03c8a8642ef9504404b7996ea5
+  markdown_file: markdown/wiki-en-europium.md
+  markdown_sha256: cecdcbacb2478e4b1982900abf850d1c3accea87160a5856ae912d5407fec4e1
+- doc_id: wiki-en-praseodymium
+  fetched_at: '2026-10-22T13:34:44+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1380062200&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Praseodymium" (revid 1380062200)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1380062200
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-praseodymium.html
+  raw_sha256: 4602ef25c5330958c99559def920473f7e2a620a97410831c93818e538a48b7a
+  markdown_file: markdown/wiki-en-praseodymium.md
+  markdown_sha256: 833e0d32783925541a865fb9ed1c75377fcd83fcb4bd3ad33385b134b2f85d3a
+- doc_id: wiki-en-neutron-capture-therapy
+  fetched_at: '2026-10-22T13:34:48+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1372808756&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Neutron capture therapy of cancer" (revid 1372808756)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1372808756
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-neutron-capture-therapy.html
+  raw_sha256: 2a84d6276ed46fec57f38c11459281f06ab72c3533731147d80e52ee566e5868
+  markdown_file: markdown/wiki-en-neutron-capture-therapy.md
+  markdown_sha256: 29f65411c9889d8466979cdda74bb5ddf3cd617bd2fb9069eec33f20688e100c
+- doc_id: wiki-en-samarium-cobalt-magnet
+  fetched_at: '2026-10-22T13:34:51+09:00'
+  request_url: https://en.wikipedia.org/w/api.php?action=parse&oldid=1337255332&prop=text%7Crevid&format=json&formatversion=2&maxlag=5
+  source: 위키백과 "Samarium–cobalt magnet" (revid 1337255332)
+  source_url: https://en.wikipedia.org/w/index.php?oldid=1337255332
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  modified: 원문에서 이미지, 각주, 링크의 연결, 안내 줄 등을 지우고 마크다운으로 바꿨다. 규칙은 decisions/stage2.md의
+    2026-10-14 줄에 있다.
+  raw_file: raw/wiki-en-samarium-cobalt-magnet.html
+  raw_sha256: ba6e6540dae8c0f305cc09acdbac8f7f57d150517438396fdce9594585883dca
+  markdown_file: markdown/wiki-en-samarium-cobalt-magnet.md
+  markdown_sha256: a96b2c522269eb99436f7b7471bea96920b86a044a38ce648a6b008bf90db7ca

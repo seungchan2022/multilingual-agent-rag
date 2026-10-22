@@ -1,5 +1,0 @@
-# Haeundae Green Railway (Mipo-Songjeong) (해운대 그린레일웨이 (미포~송정 구간))
-
-Address: 11 Dalmaji-gil 62beon-gil, Haeundae-gu, Busan
-
-It is an urban promenade that walks along the coastline using the site of the abandoned Donghae Nambu Line. Among them, the Mipo-Songjeong section is 4.8 km-long, and you can walk in both directions along the beautiful coastal scenery. It is a nationwide photo spot and trekking place where you can see different attractions at a glance. Representative tourist attractions within the trail section include the Cheongsapo Daritdol Observatory, which opened in 2017, and the Sea Sound Gallery, which opened in January 2022. This is the section where the core facilities of the special tourist zone are concentrated. - Major tourist spots within the Green Railway section: Haeundae Beach, Mipo Port, Dalmaji Tunnel, Sea Sound Gallery, Cheongsapo (Daritdol Observatory), Gudeokpo, Songjeong Beach - Haeundae Beach Train, Sky Capsule Service Section: (Main Stations) Mipo Station, Cheongsapo Station, Songjeong Station.

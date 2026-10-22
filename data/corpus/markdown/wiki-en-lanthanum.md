@@ -1,0 +1,171 @@
+# Lanthanum
+
+- Lanthanum
+  - Pronunciation: /ˈlænθənəm/ ​(LAN-thə-nəm)
+  - Appearance: silvery white
+- Standard atomic weight Ar°(La)
+  - 138.90547±0.00007, 138.91±0.01 (abridged)
+- Lanthanum in the periodic table
+  - Hydrogen Helium Lithium Beryllium Boron Carbon Nitrogen Oxygen Fluorine Neon Sodium Magnesium Aluminium Silicon Phosphorus Sulfur Chlorine Argon Potassium Calcium Scandium Titanium Vanadium Chromium Manganese Iron Cobalt Nickel Copper Zinc Gallium Germanium Arsenic Selenium Bromine Krypton Rubidium Strontium Yttrium Zirconium Niobium Molybdenum Technetium Ruthenium Rhodium Palladium Silver Cadmium Indium Tin Antimony Tellurium Iodine Xenon Caesium Barium Lanthanum Cerium Praseodymium Neodymium Promethium Samarium Europium Gadolinium Terbium Dysprosium Holmium Erbium Thulium Ytterbium Lutetium Hafnium Tantalum Tungsten Rhenium Osmium Iridium Platinum Gold Mercury (element) Thallium Lead Bismuth Polonium Astatine Radon Francium Radium Actinium Thorium Protactinium Uranium Neptunium Plutonium Americium Curium Berkelium Californium Einsteinium Fermium Mendelevium Nobelium Lawrencium Rutherfordium Dubnium Seaborgium Bohrium Hassium Meitnerium Darmstadtium Roentgenium Copernicium Nihonium Flerovium Moscovium Livermorium Tennessine Oganesson – ↑ La ↓ Ac barium ← lanthanum → cerium
+  - Atomic number (Z): 57
+  - Group: f-block groups (no number)
+  - Period: period 6
+  - Block: f-block
+  - Electron configuration: [Xe] 5d¹ 6s²
+  - Electrons per shell: 2, 8, 18, 18, 9, 2
+- Physical properties
+  - Phase at STP: solid
+  - Melting point: 1193 K ​(920 °C, ​1688 °F)
+  - Boiling point: 3737 K ​(3464 °C, ​6267 °F)
+  - Density (at 20° C): 6.145 g/cm³
+  - when liquid (at m.p.): 5.94 g/cm³
+  - Heat of fusion: 6.20 kJ/mol
+  - Heat of vaporization: 400 kJ/mol
+  - Molar heat capacity: 27.11 J/(mol·K)
+  - Specific heat capacity: 195.162 J/(kg·K)
+  - Vapor pressure (extrapolated) P (Pa) 1 10 100 1 k 10 k 100 k at T (K) 2005 2208 2458 2772 3178 3726
+- Atomic properties
+  - Oxidation states: common: +3 0, +1, +2
+  - Electronegativity: Pauling scale: 1.10
+  - Ionization energies: 1st: 538.1 kJ/mol, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol
+  - Atomic radius: empirical: 187 pm
+  - Covalent radius: 207±8 pm
+- Other properties
+  - Natural occurrence: primordial
+  - Crystal structure: α form: ​double hexagonal close-packed (dhcp) (hP4)
+  - Lattice constants: a = 0.37742 nm c = 1.2171 nm (at 20 °C)
+  - Thermal expansion: 5.1×10⁻⁶/K (at 20 °C)
+  - Thermal conductivity: 13.4 W/(m⋅K)
+  - Electrical resistivity: α, poly: 615 nΩ⋅m (at r.t.)
+  - Magnetic ordering: paramagnetic
+  - Molar magnetic susceptibility: +118.0×10⁻⁶ cm³/mol (298 K)
+  - Young's modulus: α form: 36.6 GPa
+  - Shear modulus: α form: 14.3 GPa
+  - Bulk modulus: α form: 27.9 GPa
+  - Speed of sound thin rod: 2475 m/s (at 20 °C)
+  - Poisson ratio: α form: 0.280
+  - Mohs hardness: 2.5
+  - Vickers hardness: 360–1750 MPa
+  - Brinell hardness: 350–400 MPa
+  - CAS Number: 7439-91-0
+- History
+  - Naming: from the Greek λανθάνειν, "to lie hidden", for 'hiding' in cerite
+  - Discovery: Carl Gustaf Mosander (1838)
+- Isotopes of lanthanum v, e
+  - Main isotopes Decay Isotope abun­dance half-life (t1/2) mode pro­duct ¹³⁷La synth 6×10⁴ y ε ¹³⁷Ba ¹³⁸La 0.0889999999% 1.03×10¹¹ y β⁺ ¹³⁸Ba β⁻ ¹³⁸Ce ¹³⁹La 99.911% stable ¹⁴⁰La synth 40.289 h β⁻ ¹⁴⁰Ce
+
+Lanthanum is a chemical element; it has symbol La and atomic number 57. It is a soft, ductile, silvery-white metal that tarnishes slowly when exposed to air. It is the first and the prototype of the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table. Lanthanum is traditionally counted among the rare-earth elements. Like most other rare-earth elements, its usual oxidation state is +3, although some compounds are known with an oxidation state of +2. Lanthanum has no biological role in humans but is used by some bacteria. It is not particularly toxic to humans but does show some antimicrobial activity.
+
+Lanthanum usually occurs together with cerium and the other rare-earth elements. Lanthanum was first found by the Swedish chemist Carl Gustaf Mosander in 1839 as an impurity in cerium nitrate – hence the name lanthanum, from the ancient Greek λανθάνειν (lanthanein), meaning 'to lie hidden'. Although it is classified as a rare-earth element, lanthanum is the 28th most abundant element in the Earth's crust, almost three times as abundant as lead. In minerals such as monazite and bastnäsite, lanthanum composes about a quarter of the lanthanide content. It is extracted from those minerals by a process of such complexity that pure lanthanum metal was not isolated until 1923.
+
+Lanthanum compounds have numerous applications including catalysts, additives in glass, carbon arc lamps for studio lights and projectors, ignition elements in lighters and torches, electron cathodes, scintillators, and gas tungsten arc welding electrodes. Lanthanum carbonate is used as a phosphate binder to treat high levels of phosphate in the blood accompanied by kidney failure.
+
+## Characteristics
+
+### Physical
+
+Lanthanum is the first element and prototype of the lanthanide series. In the periodic table, it appears to the right of the alkaline earth metal barium and to the left of the lanthanide cerium. Lanthanum is generally considered the first of the f-block elements by authors writing on the subject. The 57 electrons of a lanthanum atom are arranged in the configuration [Xe]5d¹6s², with three valence electrons outside the noble gas core. In chemical reactions, lanthanum almost always gives up these three valence electrons from the 5d and 6s subshells to form the +3 oxidation state, achieving the stable configuration of the preceding noble gas xenon. Some lanthanum(II) compounds are also known, but they are usually much less stable. Lanthanum monoxide (LaO) produces strong absorption bands in some stellar spectra.
+
+Among the lanthanides, lanthanum is exceptional as it has no 4f electrons as a single gas-phase atom. (Among the actinides, actinium, the heavier congener of lanthanum, also has no 5f electrons as a single gas-phase atom; and neither does its successor thorium.) Thus it is only very weakly paramagnetic, unlike the strongly paramagnetic later lanthanides (with the exceptions of the last two, ytterbium and lutetium, where the 4f shell is completely full). However, the 4f shell of lanthanum can become partially occupied in chemical environments and participate in chemical bonding. For example, the melting points of the trivalent lanthanides (all but europium and ytterbium) are related to the extent of hybridisation of the 6s, 5d, and 4f electrons (lowering with increasing 4f involvement), and lanthanum has the second-lowest melting point among them: 920 °C. (Europium and ytterbium have lower melting points because they delocalise about two electrons per atom rather than three.) This chemical availability of f orbitals justifies lanthanum's placement in the f-block despite its anomalous ground-state configuration (which is merely the result of strong interelectronic repulsion making it less profitable to occupy the 4f shell, as it is small and close to the core electrons).
+
+The lanthanides become harder as the series is traversed: as expected, lanthanum is a soft metal. Lanthanum has a relatively high resistivity of 615 nΩm at room temperature; in comparison, the value for the good conductor aluminium is only 26.50 nΩm. Lanthanum is the least volatile of the lanthanides. Like most of the lanthanides, lanthanum has a hexagonal crystal structure at room temperature (α-La). At 310 °C, lanthanum changes to a face-centered cubic structure (β-La), and at 865 °C, it changes to a body-centered cubic structure (γ-La).
+
+### Chemical
+
+As expected from periodic trends, lanthanum has the largest atomic radius of the lanthanides. Hence, it is the most reactive among them, tarnishing quite rapidly in air, turning completely dark after several hours and can readily burn to form lanthanum(III) oxide, La 2O 3, which is almost as basic as calcium oxide. A centimeter-sized sample of lanthanum will corrode completely in a year as its oxide spalls off like iron rust, instead of forming a protective oxide coating like aluminium, scandium, yttrium, and lutetium. Lanthanum reacts with the halogens at room temperature to form the trihalides, and upon warming will form binary compounds with the nonmetals nitrogen, carbon, sulfur, phosphorus, boron, selenium, silicon and arsenic. Lanthanum reacts slowly with water to form lanthanum(III) hydroxide, La(OH) 3. In dilute sulfuric acid, lanthanum readily forms the aquated tripositive ion [La(H 2O) 9]³⁺ : This is colorless in aqueous solution since La³⁺ has no d or f electrons. Lanthanum is the strongest and hardest base among the rare earth elements, which is again expected from its being the largest of them.
+
+Some lanthanum(II) compounds are also known, but they are much less stable. Therefore, in officially naming compounds of lanthanum its oxidation number always is to be mentioned.
+
+### Isotopes
+
+Naturally occurring lanthanum is made up of two isotopes, the stable ¹³⁹ La and the primordial long-lived radioisotope ¹³⁸ La. ¹³⁹ La is by far the most abundant, making up 99.911% of natural lanthanum: it is produced in the s-process (slow neutron capture, which occurs in low- to medium-mass stars) and the r-process (rapid neutron capture, which occurs in core-collapse supernovae). It is the only stable isotope of lanthanum. The very rare isotope ¹³⁸ La is one of the few primordial odd–odd nuclei, with a long half-life of 1.03×10¹¹ years. It is one of the proton-rich p-nuclei which cannot be produced in the s- or r-processes. ¹³⁸ La, along with the even rarer ¹⁸⁰ᵐ Ta, is produced in the ν-process, where neutrinos interact with stable nuclei. All other lanthanum isotopes are synthetic: with the exception of ¹³⁷ La, which has a half-life of about 60,000 years, all of them have half-lives less than two days, and most have half-lives less than a minute. The isotopes ¹³⁹ La and ¹⁴⁰ La occur as fission products of uranium.
+
+## Compounds
+
+Lanthanum oxide is a white solid that can be prepared by direct reaction of its constituent elements. Due to the large size of the La³⁺ ion, La 2O 3 adopts a hexagonal 7-coordinate structure that changes to the 6-coordinate structure of scandium oxide (Sc 2O 3) and yttrium oxide (Y 2O 3) at high temperature. When it reacts with water, lanthanum hydroxide is formed: a lot of heat is evolved in the reaction and a hissing sound is heard. Lanthanum hydroxide will react with atmospheric carbon dioxide to form the basic carbonate.
+
+Lanthanum fluoride is insoluble in water and can be used as a qualitative test for the presence of La³⁺ . The heavier halides are all very soluble deliquescent compounds. The anhydrous halides are produced by direct reaction of their elements, as heating the hydrates causes hydrolysis: for example, heating hydrated LaCl 3 produces LaOCl.
+
+Lanthanum reacts exothermically with hydrogen to produce the dihydride LaH 2, a black, pyrophoric, brittle, conducting compound with the calcium fluoride structure. This is a non-stoichiometric compound, and further absorption of hydrogen is possible, with a concomitant loss of electrical conductivity, until the more salt-like LaH 3 is reached. Like LaI 2 and LaI, LaH 2 is probably an electride compound.
+
+Due to the large ionic radius and great electropositivity of La³⁺ , there is not much covalent contribution to its bonding and hence it has a limited coordination chemistry, like yttrium and the other lanthanides. Lanthanum oxalate does not dissolve very much in alkali-metal oxalate solutions, and [La(acac) 3(H 2O) 2] decomposes around 500 °C. Oxygen is the most common donor atom in lanthanum complexes, which are mostly ionic and often have high coordination numbers over 6 : 8 is the most characteristic, forming square antiprismatic and dodecadeltahedral structures. These high-coordinate species, reaching up to coordination number 12 with the use of chelating ligands such as in La 2(SO 4) 3· 9(H 2O), often have a low degree of symmetry because of stereo-chemical factors.
+
+Lanthanum chemistry tends not to involve π-bonding due to the electron configuration of the element: thus its organometallic chemistry is quite limited. The best characterized organolanthanum compounds are the cyclopentadienyl complex La(C 5H 5) 3, which is produced by reacting anhydrous LaCl 3 with NaC 5H 5 in tetrahydrofuran, and its methyl-substituted derivatives.
+
+## History
+
+In 1751, the Swedish mineralogist Axel Fredrik Cronstedt discovered a heavy mineral from the mine at Bastnäs, later named cerite. Thirty years later, the fifteen-year-old Wilhelm Hisinger, from the family owning the mine, sent a sample of it to Carl Scheele, who did not find any new elements within. In 1803, after Hisinger had become an ironmaster, he returned to the mineral with Jöns Jacob Berzelius and isolated a new oxide which they named ceria after the dwarf planet Ceres, which had been discovered two years earlier. Ceria was simultaneously independently isolated in Germany by Martin Heinrich Klaproth. Between 1839 and 1843, ceria was shown to be a mixture of oxides by the Swedish surgeon and chemist Carl Gustaf Mosander, who lived in the same house as Berzelius and studied under him: he separated out two other oxides which he named lanthana and didymia. He partially decomposed a sample of cerium nitrate by roasting it in air and then treating the resulting oxide with dilute nitric acid. That same year, Axel Erdmann, a student also at the Karolinska Institute, discovered lanthanum in a new mineral from Låven island located in a Norwegian fjord.
+
+Finally, Mosander explained his delay, saying that he had extracted a second element from cerium, and this he called didymium. Although he did not realise it, didymium too was a mixture, and in 1885 it was separated into praseodymium and neodymium.
+
+Since lanthanum's properties differed only slightly from those of cerium, and occurred along with it in its salts, he named it from the Ancient Greek λανθάνειν [lanthanein] (lit. to lie hidden). Relatively pure lanthanum metal was first isolated in 1923.
+
+## Occurrence and production
+
+Lanthanum makes up 39 mg/kg of the Earth's crust, behind neodymium at 41.5 mg/kg and cerium at 66.5 mg/kg. Despite being among the so-called "rare-earth metals", lanthanum is thus not rare at all, but it is historically named so because it is rarer than "common earths" such as lime and magnesia, and at the time it was recognized only a few deposits were known. Lanthanum is also considered a "rare-earth" metal because the process to mine it is difficult, time-consuming, and expensive. Lanthanum is rarely the dominant lanthanide found in the rare-earth minerals, and in their chemical formulas it is usually preceded by cerium. Rare examples of La-dominant minerals are monazite-(La) and lanthanite-(La).
+
+The La³⁺ ion is similarly sized to the early lanthanides of the cerium group (those up to samarium and europium) that immediately follow in the periodic table, and hence it tends to occur along with them in phosphate, silicate and carbonate minerals, such as monazite (MᴵᴵᴵPO4) and bastnäsite (MᴵᴵᴵCO3F), where M refers to all the rare-earth metals except scandium and the radioactive promethium (mostly Ce, La, and Y). Bastnäsite is usually lacking in thorium and the heavy lanthanides, and the purification of the light lanthanides from it is less involved. The ore, after being crushed and ground, is first treated with hot concentrated sulfuric acid, evolving carbon dioxide, hydrogen fluoride, and silicon tetrafluoride: the product is then dried and leached with water, leaving the early lanthanide ions, including lanthanum, in solution.
+
+The procedure for monazite, which usually contains all the rare earths as well as thorium, is more involved. Monazite, because of its magnetic properties, can be separated by repeated electromagnetic separation. After separation, it is treated with hot concentrated sulfuric acid to produce water-soluble sulfates of rare earths. The acidic filtrates are partially neutralized with sodium hydroxide to pH 3–4. Thorium precipitates out of solution as hydroxide and is removed. After that, the solution is treated with ammonium oxalate to convert rare earths to their insoluble oxalates. The oxalates are converted to oxides by annealing. The oxides are dissolved in nitric acid that excludes one of the main components, cerium, whose oxide is insoluble in HNO 3. Lanthanum is separated as a double salt with ammonium nitrate by crystallization. This salt is relatively less soluble than other rare-earth double salts and therefore stays in the residue. Care must be taken when handling some of the residues as they contain ²²⁸ Ra, the daughter of ²³² Th, which is a strong gamma emitter. Lanthanum is relatively easy to extract, as it has only one neighbouring lanthanide – cerium, which can be removed by making use of its ability to be oxidised to the +4 state; thereafter, lanthanum may be separated out by the historical method of fractional crystallization of La(NO 3) 3· 2 NH 4NO 3· 4 H 2O, or by ion-exchange techniques when higher purity is desired.
+
+Lanthanum metal is obtained from its oxide by heating it with ammonium chloride or fluoride and hydrofluoric acid at 300–400 °C to produce the chloride or fluoride:
+
+La 2O 3 + 6 NH 4Cl → 2 LaCl 3 + 6 NH 3 + 3 H 2O
+
+This is followed by reduction with alkali or alkaline-earth metals in vacuum or argon atmosphere:
+
+LaCl 3 + 3 Li → La + 3 LiCl
+
+Also, pure lanthanum can be produced by electrolysis of molten mixture of anhydrous LaCl 3 and NaCl or KCl at elevated temperatures.
+
+## Applications
+
+The first historical application of lanthanum was in gas lantern mantles. Carl Auer von Welsbach used a mixture of lanthanum oxide and zirconium oxide, which he called Actinophor and patented in 1886. The original mantles gave a green-tinted light and were not very successful, and his first company, which established a factory in Atzgersdorf in 1887, failed in 1889.
+
+Modern uses of lanthanum include:
+
+- One material used for anodic material of nickel–metal hydride batteries is La(Ni 3.6Mn 0.4Al 0.3Co 0.7). Due to high cost to extract the other lanthanides, a mischmetal with more than 50% of lanthanum is used instead of pure lanthanum. The compound is an intermetallic component of the AB 5 type. NiMH batteries can be found in many models of the Toyota Prius sold in the US. These larger nickel-metal hydride batteries require massive quantities of lanthanum for the production. The 2008 Toyota Prius NiMH battery requires 10 to 15 kilograms (22 to 33 lb) of lanthanum.
+- Hydrogen sponge alloys can contain lanthanum. These alloys are capable of storing up to 400 times their own volume of hydrogen gas in a reversible adsorption process. Heat energy is released every time they do so; therefore these alloys have possibilities in energy conservation systems.
+- Mischmetal, a pyrophoric alloy used in lighter flints, contains 25% to 45% lanthanum.
+- Lanthanum oxide and the boride are used in electronic vacuum tubes as hot cathode materials with strong emissivity of electrons. Crystals of LaB 6 are used in high-brightness, extended-life, thermionic electron emission sources for electron microscopes and Hall-effect thrusters.
+- Lanthanum trifluoride (LaF 3) is an essential component of a heavy fluoride glass named ZBLAN. This glass has superior transmittance in the infrared range and is therefore used for fiber-optical communication systems.
+- Cerium-doped lanthanum bromide and lanthanum chloride are the recent inorganic scintillators, which have a combination of high light yield, best energy resolution, and fast response. Their high yield converts into superior energy resolution; moreover, the light output is very stable and quite high over a very wide range of temperatures, making it particularly attractive for high-temperature applications. These scintillators are already widely used commercially in detectors of neutrons or gamma rays.
+- Carbon arc lamps use a mixture of rare earth elements to improve the light quality. This application, especially by the motion picture industry for studio lighting and projection, consumed about 25% of the rare-earth compounds produced until the phase out of carbon arc lamps.
+- Lanthanum(III) oxide (La 2O 3) improves the alkali resistance of glass and is used in making special optical glasses, such as infrared-absorbing glass, as well as camera and telescope lenses, because of the high refractive index and low dispersion of rare-earth glasses. Lanthanum oxide is also used as a grain-growth additive during the liquid-phase sintering of silicon nitride and zirconium diboride.
+- Small amounts of lanthanum added to steel improves its malleability, resistance to impact, and ductility, whereas addition of lanthanum to molybdenum decreases its hardness and sensitivity to temperature variations.
+- Small amounts of lanthanum are present in many pool products to remove the phosphates that feed algae.
+- Lanthanum oxide additive to tungsten is used in gas tungsten arc welding electrodes, as a substitute for radioactive thorium.
+- Various compounds of lanthanum and other rare-earth elements (oxides, chlorides, triflates, etc.) are components of various catalysis, such as petroleum cracking catalysts.
+- Lanthanum-barium radiometric dating is used to estimate age of rocks and ores, though the technique has limited popularity.
+- Lanthanum carbonate was approved as a medication (Fosrenol, Shire Pharmaceuticals) to absorb excess phosphate in cases of hyperphosphatemia seen in end-stage kidney disease.
+- Lanthanum fluoride is used in phosphor lamp coatings. Mixed with europium fluoride, it is also applied in the crystal membrane of fluoride ion-selective electrodes.
+- Like horseradish peroxidase, lanthanum is used as an electron-dense tracer in molecular biology.
+- Lanthanum-modified bentonite (or phoslock) is used to remove phosphates from water in lake treatments.
+- Lanthanum telluride (La 3Te 4) is considered to be applied in the field of radioisotope power system (nuclear power plant) due to its significant conversion capabilities. The transmuted elements and isotopes in the segment will not react with the material itself, thus presenting no harm to the safety of the power plant. Though iodine, which can be generated during transmutation, is suspected to react with La 3Te 4 segment, the quantity of iodine is small enough to pose no threat to the power system.
+
+## Biological role
+
+Lanthanum has no known biological role in humans. The element is very poorly absorbed after oral administration and when injected its elimination is very slow. Lanthanum carbonate (Fosrenol) was approved as a phosphate binder to absorb excess phosphate in cases of end stage renal disease.
+
+While lanthanum has pharmacological effects on several receptors and ion channels, its specificity for the GABA receptor is unique among trivalent cations. Lanthanum acts at the same modulatory site on the GABA receptor as zinc, a known negative allosteric modulator. The lanthanum cation La³⁺ is a positive allosteric modulator at native and recombinant GABA receptors, increasing open channel time and decreasing desensitization in a subunit configuration dependent manner.
+
+Lanthanum is a cofactor for the methanol dehydrogenase of the methanotrophic bacterium Methylacidiphilum fumariolicum SolV, although the great chemical similarity of the lanthanides means that it may be substituted with cerium, praseodymium, or neodymium without ill effects, and with the smaller samarium, europium, or gadolinium giving no side effects other than slower growth.
+
+## Precautions
+
+Lanthanum has no known biological impact. In two cases exposure to carbon arc light led to findings of lanthanum and other rare-earth elements in lung tissue. Oral lanthanum carbonate is used to treat hyperphosphatemia by intercepting dietary phosphorus.
+
+## Prices
+
+The price for a (metric) ton [1000 kg] of Lanthanum oxide 99% (FOB China in USD/Mt) is given by the Institute of Rare Earths Elements and Strategic Metals (IREESM) as below $2,000 for most of the period from early 2001 to September 2010 (at $10,000 in the short term in 2008); it rose steeply to $140,000 in mid-2011 and fell back just as rapidly to $38,000 by early 2012. The average price for the last six months (April–September 2022) is given by the IREESM as follows: Lanthanum Oxide - 99.9%min FOB China - 1308 EUR/mt and for Lanthanum Metal - 99%min FOB China - 3706 EUR/mt.
+
+## Bibliography
+
+- Greenwood, Norman N.; Earnshaw, Alan (1984). Chemistry of the Elements. Oxford: Pergamon Press. ISBN 978-0-08-022057-4.
+
+## Further reading
+
+- Callow, R.J. (1967). The Industrial Chemistry of the Lanthanons, Yttrium, Thorium and Uranium. Pergamon Press.
+- Gupta, C.K.; Krishnamurthy, N. (2005). Extractive Metallurgy of Rare Earths. CRC Press.
+- Pascal, P., ed. (1959). Nouveau Traité de Chimie Minérale [New Treatise on Mineral Chemistry] (in French). Vol. VII Scandium, Yttrium, Elements des Terres Rares, Actinium. Masson & Cie.
+- Vickery, R.C. (1953). Chemistry of the Lanthanons. Butterworths.

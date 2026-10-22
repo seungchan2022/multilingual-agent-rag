@@ -1,288 +1,187 @@
-# 코퍼스의 문서 목록. 28개(한국어 14, 영어 14).
-# 정한 과정은 decisions/stage2.md의 2026-10-13 줄들에 있다. 수집 코드(이슈 #4의 ③)가 이 파일을 읽는다.
-# version은 고른 때의 판이다: 위키백과는 판 번호(revid), 관광공사 글은 수정 시각(modifiedtime), 통계 표는 파일에 적힌 데이터기준일자.
-# 이 코퍼스의 마크다운은 이 커밋의 src/corpus/build.py로 만든 기록이다. 2026-10-21에 변환을 고친 뒤에도
-# 이슈 #5의 기록과 시험이 이 마크다운을 글자 그대로 쓰므로 다시 만들지 않고, 검사는 이 커밋의 변환으로 한다.
-# 새 도메인의 코퍼스로 바꿀 때 이 키를 지운다(decisions/stage2.md 2026-10-21 "도시 코퍼스를 그것을 만든 변환에 묶는다" 줄).
-converter_commit: 54b78cd
+# 코퍼스의 문서 목록. 20개(한국어 10, 영어 10). 도메인은 희토류 원소다.
+# 문서와 판은 도메인을 고를 때 3 세기에서 꾸린 것이다(src/domain_select/step3_count.py의 CORPUS["rare_earth"],
+# research_notes/stage2_stem_select/step3/results.json). 정한 과정은 decisions/stage2.md의 2026-10-22 "도메인을 희토류 원소로 정한다" 줄에 있다.
+# 수집 코드(src/corpus/fetch.py)가 이 파일을 읽는다. version은 고른 때의 판 번호(revid)다.
+# topic은 문서가 다루는 주제 하나다(두 언어 주제는 한국어 문서와 영어 문서가 같은 topic을 갖는다).
+# branch는 그 주제를 어느 언어 문서로 넣었는지다: 두 언어, 한국어만, 영어만.
 documents:
-  - doc_id: wiki-ko-jeonju
+  - doc_id: wiki-ko-thulium
     language: ko
-    title: "전주시"
-    city: "전주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "툴륨"
+    topic: "툴륨"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42643645"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42643645"
-    version: "revid 42643645"
-  - doc_id: wiki-en-jeonju
+    identifier: "revid 42443016"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42443016"
+    version: "revid 42443016"
+  - doc_id: wiki-en-thulium
     language: en
-    title: "Jeonju"
-    city: "전주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "Thulium"
+    topic: "툴륨"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1379135207"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1379135207"
-    version: "revid 1379135207"
-  - doc_id: wiki-ko-cheongju
+    identifier: "revid 1379225026"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1379225026"
+    version: "revid 1379225026"
+  - doc_id: wiki-ko-dysprosium
     language: ko
-    title: "청주시"
-    city: "청주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "디스프로슘"
+    topic: "디스프로슘"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42630014"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42630014"
-    version: "revid 42630014"
-  - doc_id: wiki-en-cheongju
+    identifier: "revid 42233139"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42233139"
+    version: "revid 42233139"
+  - doc_id: wiki-en-dysprosium
     language: en
-    title: "Cheongju"
-    city: "청주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "Dysprosium"
+    topic: "디스프로슘"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1378953230"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1378953230"
-    version: "revid 1378953230"
-  - doc_id: wiki-ko-chuncheon
+    identifier: "revid 1373658711"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1373658711"
+    version: "revid 1373658711"
+  - doc_id: wiki-ko-ytterbium
     language: ko
-    title: "춘천시"
-    city: "춘천시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "이터븀"
+    topic: "이터븀"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42647646"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42647646"
-    version: "revid 42647646"
-  - doc_id: wiki-en-chuncheon
+    identifier: "revid 42388980"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42388980"
+    version: "revid 42388980"
+  - doc_id: wiki-en-ytterbium
     language: en
-    title: "Chuncheon"
-    city: "춘천시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "Ytterbium"
+    topic: "이터븀"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1376994978"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1376994978"
-    version: "revid 1376994978"
-  - doc_id: wiki-ko-cheonan
+    identifier: "revid 1380332337"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1380332337"
+    version: "revid 1380332337"
+  - doc_id: wiki-ko-lutetium
     language: ko
-    title: "천안시"
-    city: "천안시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "루테튬"
+    topic: "루테튬"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42545685"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42545685"
-    version: "revid 42545685"
-  - doc_id: wiki-en-cheonan
+    identifier: "revid 42249157"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42249157"
+    version: "revid 42249157"
+  - doc_id: wiki-en-lutetium
     language: en
-    title: "Cheonan"
-    city: "천안시"
-    city_group: "두 언어 문서를 다 넣는 도시"
+    title: "Lutetium"
+    topic: "루테튬"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1378953224"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1378953224"
-    version: "revid 1378953224"
-  - doc_id: wiki-en-busan
-    language: en
-    title: "Busan"
-    city: "부산광역시"
-    city_group: "영어 문서만 넣는 도시"
+    identifier: "revid 1379926577"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1379926577"
+    version: "revid 1379926577"
+  - doc_id: wiki-ko-isotopes-of-yttrium
+    language: ko
+    title: "이트륨 동위 원소"
+    topic: "이트륨 동위 원소"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1379685823"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1379685823"
-    version: "revid 1379685823"
-  - doc_id: wiki-en-jeju
+    identifier: "revid 40113523"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=40113523"
+    version: "revid 40113523"
+  - doc_id: wiki-en-isotopes-of-yttrium
     language: en
-    title: "Jeju City"
-    city: "제주시"
-    city_group: "영어 문서만 넣는 도시"
+    title: "Isotopes of yttrium"
+    topic: "이트륨 동위 원소"
+    branch: "두 언어"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1377658564"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1377658564"
-    version: "revid 1377658564"
-  - doc_id: wiki-en-andong
-    language: en
-    title: "Andong"
-    city: "안동시"
-    city_group: "영어 문서만 넣는 도시"
+    identifier: "revid 1347432297"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1347432297"
+    version: "revid 1347432297"
+  - doc_id: wiki-ko-erbium
+    language: ko
+    title: "어븀"
+    topic: "어븀"
+    branch: "한국어만"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1378924154"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1378924154"
-    version: "revid 1378924154"
-  - doc_id: wiki-en-gangneung
-    language: en
-    title: "Gangneung"
-    city: "강릉시"
-    city_group: "영어 문서만 넣는 도시"
+    identifier: "revid 42361925"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42361925"
+    version: "revid 42361925"
+  - doc_id: wiki-ko-samarium
+    language: ko
+    title: "사마륨"
+    topic: "사마륨"
+    branch: "한국어만"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 1378182836"
-    url: "https://en.wikipedia.org/w/index.php?oldid=1378182836"
-    version: "revid 1378182836"
-  - doc_id: wiki-ko-suwon
+    identifier: "revid 42303602"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42303602"
+    version: "revid 42303602"
+  - doc_id: wiki-ko-yttrium
     language: ko
-    title: "수원시"
-    city: "수원시"
-    city_group: "한국어 문서만 넣는 도시"
+    title: "이트륨"
+    topic: "이트륨"
+    branch: "한국어만"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42534963"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42534963"
-    version: "revid 42534963"
-  - doc_id: wiki-ko-gyeongju
+    identifier: "revid 42388979"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=42388979"
+    version: "revid 42388979"
+  - doc_id: wiki-ko-isotopes-of-terbium
     language: ko
-    title: "경주시"
-    city: "경주시"
-    city_group: "한국어 문서만 넣는 도시"
+    title: "터븀 동위 원소"
+    topic: "터븀 동위 원소"
+    branch: "한국어만"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42639825"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42639825"
-    version: "revid 42639825"
-  - doc_id: wiki-ko-sejong
+    identifier: "revid 40332210"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=40332210"
+    version: "revid 40332210"
+  - doc_id: wiki-ko-isotopes-of-neodymium
     language: ko
-    title: "세종특별자치시"
-    city: "세종특별자치시"
-    city_group: "한국어 문서만 넣는 도시"
+    title: "네오디뮴 동위 원소"
+    topic: "네오디뮴 동위 원소"
+    branch: "한국어만"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42585449"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42585449"
-    version: "revid 42585449"
-  - doc_id: wiki-ko-gwangju
-    language: ko
-    title: "광주광역시"
-    city: "광주광역시"
-    city_group: "한국어 문서만 넣는 도시"
+    identifier: "revid 39557729"
+    url: "https://ko.wikipedia.org/w/index.php?oldid=39557729"
+    version: "revid 39557729"
+  - doc_id: wiki-en-lanthanum
+    language: en
+    title: "Lanthanum"
+    topic: "란타넘"
+    branch: "영어만"
     source: "위키백과"
-    kind: "도시 문서"
-    identifier: "revid 42623705"
-    url: "https://ko.wikipedia.org/w/index.php?oldid=42623705"
-    version: "revid 42623705"
-  - doc_id: kto-ko-jeonju-hanok-village
-    language: ko
-    title: "전북 전주 한옥마을 [슬로시티]"
-    city: "전주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 264284"
-    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=264284"
-    version: "modifiedtime 20260630155423"
-  - doc_id: kto-en-jeonju-hanok-village
+    identifier: "revid 1380415452"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1380415452"
+    version: "revid 1380415452"
+  - doc_id: wiki-en-europium
     language: en
-    title: "Jeonju Hanok Village [Slow City] (전북 전주 한옥마을 [슬로시티])"
-    city: "전주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 264285"
-    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=264285"
-    version: "modifiedtime 20260907140157"
-  - doc_id: kto-ko-cheongju-cheongnamdae
-    language: ko
-    title: "청남대"
-    city: "청주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 127916"
-    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=127916"
-    version: "modifiedtime 20260605084251"
-  - doc_id: kto-en-cheongju-cheongnamdae
+    title: "Europium"
+    topic: "유로퓸"
+    branch: "영어만"
+    source: "위키백과"
+    identifier: "revid 1380092828"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1380092828"
+    version: "revid 1380092828"
+  - doc_id: wiki-en-praseodymium
     language: en
-    title: "Cheongnamdae Presidential Villa (청남대)"
-    city: "청주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 795179"
-    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=795179"
-    version: "modifiedtime 20261012141518"
-  - doc_id: kto-ko-chuncheon-samaksan-cable-car
-    language: ko
-    title: "춘천 삼악산 호수케이블카"
-    city: "춘천시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 2814588"
-    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=2814588"
-    version: "modifiedtime 20261001092603"
-  - doc_id: kto-en-chuncheon-samaksan-cable-car
+    title: "Praseodymium"
+    topic: "프라세오디뮴"
+    branch: "영어만"
+    source: "위키백과"
+    identifier: "revid 1380062200"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1380062200"
+    version: "revid 1380062200"
+  - doc_id: wiki-en-neutron-capture-therapy
     language: en
-    title: "Chuncheon Samaksan Mountain Lake Cable Car (춘천 삼악산 호수케이블카)"
-    city: "춘천시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 2971541"
-    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2971541"
-    version: "modifiedtime 20260212093513"
-  - doc_id: kto-ko-cheonan-samgeori-park
-    language: ko
-    title: "천안삼거리공원"
-    city: "천안시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 126922"
-    url: "https://apis.data.go.kr/B551011/KorService2/detailCommon2?contentId=126922"
-    version: "modifiedtime 20260927115418"
-  - doc_id: kto-en-cheonan-samgeori-park
+    title: "Neutron capture therapy of cancer"
+    topic: "중성자 포획 치료"
+    branch: "영어만"
+    source: "위키백과"
+    identifier: "revid 1372808756"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1372808756"
+    version: "revid 1372808756"
+  - doc_id: wiki-en-samarium-cobalt-magnet
     language: en
-    title: "Cheonan Three-way Intersection Park (천안삼거리공원)"
-    city: "천안시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 1840356"
-    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=1840356"
-    version: "modifiedtime 20260929144034"
-  - doc_id: kto-en-busan-haeundae-green-railway
-    language: en
-    title: "Haeundae Green Railway (Mipo-Songjeong) (해운대 그린레일웨이 (미포~송정 구간))"
-    city: "부산광역시"
-    city_group: "영어 문서만 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 2990076"
-    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=2990076"
-    version: "modifiedtime 20241010132555"
-  - doc_id: kto-en-jeju-ara-dong-trail
-    language: en
-    title: "Ara-dong History and Culture Trail (아라동 역사문화탐방로)"
-    city: "제주시"
-    city_group: "영어 문서만 넣는 도시"
-    source: "공공데이터포털 (한국관광공사 관광정보 서비스)"
-    kind: "명소 소개 글"
-    identifier: "contentid 3079418"
-    url: "https://apis.data.go.kr/B551011/EngService2/detailCommon2?contentId=3079418"
-    version: "modifiedtime 20250520110131"
-  - doc_id: portal-ko-suwon-population
-    language: ko
-    title: "경기도 수원시_인구현황"
-    city: "수원시"
-    city_group: "한국어 문서만 넣는 도시"
-    source: "공공데이터포털 (파일데이터)"
-    kind: "통계 표"
-    identifier: "data.go.kr 15051539, atchFileId FILE_000000002404642"
-    url: "https://www.data.go.kr/data/15051539/fileData.do"
-    version: "데이터기준일자 2021-05-31"
-  - doc_id: portal-ko-jeonju-population
-    language: ko
-    title: "전북특별자치도 전주시_인구현황"
-    city: "전주시"
-    city_group: "두 언어 문서를 다 넣는 도시"
-    source: "공공데이터포털 (파일데이터)"
-    kind: "통계 표"
-    identifier: "data.go.kr 15126886, atchFileId FILE_000000003611561"
-    url: "https://www.data.go.kr/data/15126886/fileData.do"
-    version: "데이터기준일자 2026-03-17"
+    title: "Samarium–cobalt magnet"
+    topic: "사마륨-코발트 자석"
+    branch: "영어만"
+    source: "위키백과"
+    identifier: "revid 1337255332"
+    url: "https://en.wikipedia.org/w/index.php?oldid=1337255332"
+    version: "revid 1337255332"
