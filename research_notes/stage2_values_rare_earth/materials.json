@@ -1,0 +1,2634 @@
+{
+ "conflicts": "/Users/seungchan/Workspace/MultilingualAgentRAG/data/questions/known_conflicts.json",
+ "limits": {
+  "A": 24,
+  "B": 12
+ },
+ "languages": {
+  "ko": {
+   "pool_docs": [
+    "wiki-ko-erbium",
+    "wiki-ko-isotopes-of-neodymium",
+    "wiki-ko-isotopes-of-terbium",
+    "wiki-ko-samarium",
+    "wiki-ko-yttrium"
+   ],
+   "eligible": 552,
+   "A": [
+    {
+     "rank": 1,
+     "quantity": "atomic_number",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:7:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 7,
+      "raw": "68",
+      "object": "Er",
+      "quantity": "atomic_number",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 원자 번호 (Z): 68",
+      "start": 15,
+      "end": 17,
+      "value": "68",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "68",
+         "at": [
+          "wiki-en-isotopes-of-yttrium:77",
+          "wiki-en-isotopes-of-yttrium:127",
+          "wiki-en-isotopes-of-yttrium:128",
+          "wiki-en-isotopes-of-yttrium:129"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:7:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 7,
+      "raw": "62",
+      "object": "Sm",
+      "quantity": "atomic_number",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 원자 번호 (Z): 62",
+      "start": 15,
+      "end": 17,
+      "value": "62",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "62",
+         "at": [
+          "wiki-en-isotopes-of-yttrium:108",
+          "wiki-en-isotopes-of-yttrium:109",
+          "wiki-en-neutron-capture-therapy:212"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 2,
+     "quantity": "atomic_radius",
+     "condition": "empirical",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:34:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 34,
+      "raw": "175 pm",
+      "object": "Er",
+      "quantity": "atomic_radius",
+      "condition": "empirical",
+      "where": "정보 상자",
+      "quote": "  - 원자 반지름: 175 pm (실험값) / 226 pm (계산값)",
+      "start": 12,
+      "end": 18,
+      "value": "175 pm",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "175",
+         "at": [
+          "wiki-en-lutetium:92",
+          "wiki-en-lutetium:94"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:34:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 34,
+      "raw": "185 pm",
+      "object": "Sm",
+      "quantity": "atomic_radius",
+      "condition": "empirical",
+      "where": "정보 상자",
+      "quote": "  - 원자 반지름: 185 pm (실험값) / 238 pm (계산값)",
+      "start": 12,
+      "end": 18,
+      "value": "185 pm",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "185",
+         "at": [
+          "wiki-en-praseodymium:75"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 3,
+     "quantity": "boiling_point",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:18:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 18,
+      "raw": "3141 K",
+      "object": "Er",
+      "quantity": "boiling_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 끓는점: 3141 K",
+      "start": 9,
+      "end": 15,
+      "value": "3141 K",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:18:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 18,
+      "raw": "2067 K",
+      "object": "Sm",
+      "quantity": "boiling_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 끓는점: 2067 K",
+      "start": 9,
+      "end": 15,
+      "value": "2067 K",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 4,
+     "quantity": "brinell_hardness",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:47:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 47,
+      "raw": "814 MPa",
+      "object": "Er",
+      "quantity": "brinell_hardness",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 브리넬 굳기: 814 MPa",
+      "start": 12,
+      "end": 19,
+      "value": "814 MPa",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:48:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 48,
+      "raw": "441 MPa",
+      "object": "Sm",
+      "quantity": "brinell_hardness",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 브리넬 굳기: 441 MPa",
+      "start": 12,
+      "end": 19,
+      "value": "441 MPa",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 5,
+     "quantity": "bulk_modulus",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:43:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 43,
+      "raw": "44.4 GPa",
+      "object": "Er",
+      "quantity": "bulk_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 부피 탄성 계수: 44.4 GPa",
+      "start": 14,
+      "end": 22,
+      "value": "44.4 GPa",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:44:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 44,
+      "raw": "37.8 GPa",
+      "object": "Sm",
+      "quantity": "bulk_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 부피 탄성 계수: (α form) 37.8 GPa",
+      "start": 23,
+      "end": 31,
+      "value": "37.8 GPa",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 6,
+     "quantity": "decay_energy",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:57:3",
+      "doc_id": "wiki-ko-erbium",
+      "line": 57,
+      "raw": "0.330",
+      "object": "Er-160",
+      "quantity": "decay_energy",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |",
+      "start": 29,
+      "end": 34,
+      "value": "0.33 MeV",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:59:3",
+      "doc_id": "wiki-ko-samarium",
+      "line": 59,
+      "raw": "2.529",
+      "object": "Sm-146",
+      "quantity": "decay_energy",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁴⁶Sm | 인공 | 1.03×10⁸y | α | 2.529 | ¹⁴²Nd |",
+      "start": 31,
+      "end": 36,
+      "value": "2.529 MeV",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 7,
+     "quantity": "density",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:19:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 19,
+      "raw": "9.066 g/cm³",
+      "object": "Er",
+      "quantity": "density",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 밀도 (상온 근처): 9.066 g/cm³",
+      "start": 16,
+      "end": 27,
+      "value": "9.066 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:19:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 19,
+      "raw": "7.52 g/cm³",
+      "object": "Sm",
+      "quantity": "density",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 밀도 (상온 근처): 7.52 g/cm³",
+      "start": 16,
+      "end": 26,
+      "value": "7.52 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 8,
+     "quantity": "density_liquid_at_mp",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:20:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 20,
+      "raw": "8.86 g/cm³",
+      "object": "Er",
+      "quantity": "density_liquid_at_mp",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 액체(녹는점)일 때: 8.86 g/cm³",
+      "start": 16,
+      "end": 26,
+      "value": "8.86 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:20:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 20,
+      "raw": "7.16 g/cm³",
+      "object": "Sm",
+      "quantity": "density_liquid_at_mp",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 액체(녹는점)일 때: 7.16 g/cm³",
+      "start": 16,
+      "end": 26,
+      "value": "7.16 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 9,
+     "quantity": "electrical_resistivity",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:40:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 40,
+      "raw": "0.860 μ Ω·m",
+      "object": "Er",
+      "quantity": "electrical_resistivity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 전기 저항도: (실온) (poly) 0.860 μ Ω·m",
+      "start": 24,
+      "end": 35,
+      "value": "0.86 µΩ·m",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:40:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 40,
+      "raw": "0.940 μ Ω·m",
+      "object": "Sm",
+      "quantity": "electrical_resistivity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 전기 저항도: (실온) (α, poly) 0.940 μ Ω·m",
+      "start": 27,
+      "end": 38,
+      "value": "0.94 µΩ·m",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 10,
+     "quantity": "electronegativity",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:32:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 32,
+      "raw": "1.24",
+      "object": "Er",
+      "quantity": "electronegativity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 전기 음성도 (폴링 척도): 1.24",
+      "start": 20,
+      "end": 24,
+      "value": "1.24",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:32:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 32,
+      "raw": "1.17",
+      "object": "Sm",
+      "quantity": "electronegativity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 전기 음성도 (폴링 척도): 1.17",
+      "start": 20,
+      "end": 24,
+      "value": "1.17",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "1.17",
+         "at": [
+          "wiki-en-isotopes-of-yttrium:86",
+          "wiki-en-isotopes-of-yttrium:87",
+          "wiki-en-isotopes-of-yttrium:88"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 11,
+     "quantity": "excitation_energy",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-isotopes-of-neodymium:28:0",
+      "doc_id": "wiki-ko-isotopes-of-neodymium",
+      "line": 28,
+      "raw": "127.97(11) keV",
+      "object": "Nd-133m1",
+      "quantity": "excitation_energy",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹³³ᵐ¹Nd | 127.97(11) keV | 127.97(11) keV | 127.97(11) keV | ~70 s | β⁺ | ¹³³Pr | (1/2)+ |  |  |",
+      "start": 12,
+      "end": 26,
+      "value": "127.97 keV",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-isotopes-of-terbium:24:0",
+      "doc_id": "wiki-ko-isotopes-of-terbium",
+      "line": 24,
+      "raw": "280.2(10) keV",
+      "object": "Tb-142m1",
+      "quantity": "excitation_energy",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | IT (99.5%) | ¹⁴²Tb | (5-) |  |",
+      "start": 12,
+      "end": 25,
+      "value": "280.2 keV",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 12,
+     "quantity": "half_life",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:57:1",
+      "doc_id": "wiki-ko-erbium",
+      "line": 57,
+      "raw": "28.58 h",
+      "object": "Er-160",
+      "quantity": "half_life",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁶⁰Er | 인공 | 28.58 h | ε | 0.330 | ¹⁶⁰Ho |",
+      "start": 15,
+      "end": 22,
+      "value": "28.58 h",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-isotopes-of-neodymium:15:3",
+      "doc_id": "wiki-ko-isotopes-of-neodymium",
+      "line": 15,
+      "raw": "600(150) ms",
+      "object": "Nd-125",
+      "quantity": "half_life",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹²⁵Nd | 60 | 65 | 124.94888(43)# | 600(150) ms |  |  | 5/2(+#) |  |  |",
+      "start": 37,
+      "end": 48,
+      "value": "600 ms",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "600",
+         "at": [
+          "wiki-en-europium:146",
+          "wiki-en-europium:156"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 13,
+     "quantity": "heat_of_fusion",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:21:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 21,
+      "raw": "19.90 kJ/mol",
+      "object": "Er",
+      "quantity": "heat_of_fusion",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 융해열: 19.90 kJ/mol",
+      "start": 9,
+      "end": 21,
+      "value": "19.9 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:21:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 21,
+      "raw": "8.62 kJ/mol",
+      "object": "Sm",
+      "quantity": "heat_of_fusion",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 융해열: 8.62 kJ/mol",
+      "start": 9,
+      "end": 20,
+      "value": "8.62 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 14,
+     "quantity": "heat_of_vaporization",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:22:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 22,
+      "raw": "280 kJ/mol",
+      "object": "Er",
+      "quantity": "heat_of_vaporization",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 기화열: 280 kJ/mol",
+      "start": 9,
+      "end": 19,
+      "value": "280 kJ/mol",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "280",
+         "at": [
+          "wiki-en-dysprosium:22"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:22:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 22,
+      "raw": "165 kJ/mol",
+      "object": "Sm",
+      "quantity": "heat_of_vaporization",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 기화열: 165 kJ/mol",
+      "start": 9,
+      "end": 19,
+      "value": "165 kJ/mol",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "165",
+         "at": [
+          "wiki-en-thulium:113",
+          "wiki-en-dysprosium:126",
+          "wiki-en-europium:50"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 15,
+     "quantity": "ionization_energy",
+     "condition": "1st",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:33:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 33,
+      "raw": "589.3 kJ/mol",
+      "object": "Er",
+      "quantity": "ionization_energy",
+      "condition": "1st",
+      "where": "정보 상자",
+      "quote": "  - 이온화 에너지: 1차: 589.3 kJ/mol, 2차: 1150 kJ/mol, 3차: 2194 kJ/mol",
+      "start": 17,
+      "end": 29,
+      "value": "589.3 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:33:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 33,
+      "raw": "544.5 kJ/mol",
+      "object": "Sm",
+      "quantity": "ionization_energy",
+      "condition": "1st",
+      "where": "정보 상자",
+      "quote": "  - 이온화 에너지: 1차: 544.5 kJ/mol, 2차: 1070 kJ/mol, 3차: 2260 kJ/mol",
+      "start": 17,
+      "end": 29,
+      "value": "544.5 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 16,
+     "quantity": "isotopic_mass",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-isotopes-of-neodymium:23:2",
+      "doc_id": "wiki-ko-isotopes-of-neodymium",
+      "line": 23,
+      "raw": "129.92851(3)",
+      "object": "Nd-130",
+      "quantity": "isotopic_mass",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹³⁰Nd | 60 | 70 | 129.92851(3) | 21(3) s | β⁺ | ¹³⁰Pr | 0+ |  |  |",
+      "start": 20,
+      "end": 32,
+      "value": "129.92851 Da",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-isotopes-of-terbium:18:2",
+      "doc_id": "wiki-ko-isotopes-of-terbium",
+      "line": 18,
+      "raw": "139.94581(86)",
+      "object": "Tb-140",
+      "quantity": "isotopic_mass",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁴⁰Tb | 65 | 75 | 139.94581(86) | 2.4(2) s | β⁺ (99.74%) | ¹⁴⁰Gd | 5 |  |",
+      "start": 20,
+      "end": 33,
+      "value": "139.94581 Da",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 17,
+     "quantity": "lattice_constant",
+     "condition": "a",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:37:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 37,
+      "raw": "355.93 pm",
+      "object": "Er",
+      "quantity": "lattice_constant",
+      "condition": "a",
+      "where": "정보 상자",
+      "quote": "  - 격자 상수: a = 355.93 pm / c = 558.49 pm (20 °C에서)",
+      "start": 15,
+      "end": 24,
+      "value": "355.93 pm",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-yttrium:37:0",
+      "doc_id": "wiki-ko-yttrium",
+      "line": 37,
+      "raw": "364.83 pm",
+      "object": "Y",
+      "quantity": "lattice_constant",
+      "condition": "a",
+      "where": "정보 상자",
+      "quote": "  - 격자 상수: a = 364.83 pm / c = 573.17 pm (20 °C에서)",
+      "start": 15,
+      "end": 24,
+      "value": "364.83 pm",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 18,
+     "quantity": "melting_point",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:17:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 17,
+      "raw": "1770 K",
+      "object": "Er",
+      "quantity": "melting_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 녹는점: 1770 K",
+      "start": 9,
+      "end": 15,
+      "value": "1770 K",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:17:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 17,
+      "raw": "1345 K",
+      "object": "Sm",
+      "quantity": "melting_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 녹는점: 1345 K",
+      "start": 9,
+      "end": 15,
+      "value": "1345 K",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 19,
+     "quantity": "molar_heat_capacity",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:23:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 23,
+      "raw": "28.12 J/(mol·K)",
+      "object": "Er",
+      "quantity": "molar_heat_capacity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 몰열용량: 28.12 J/(mol·K)",
+      "start": 10,
+      "end": 25,
+      "value": "28.12 J/(mol·K)",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:23:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 23,
+      "raw": "29.54 J/(mol·K)",
+      "object": "Sm",
+      "quantity": "molar_heat_capacity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 몰열용량: 29.54 J/(mol·K)",
+      "start": 10,
+      "end": 25,
+      "value": "29.54 J/(mol·K)",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 20,
+     "quantity": "natural_abundance",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:58:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 58,
+      "raw": "0.14%",
+      "object": "Er-162",
+      "quantity": "natural_abundance",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁶²Er | 0.14% | 안정 | 안정 | 안정 | 안정 |",
+      "start": 10,
+      "end": 15,
+      "value": "0.14 %",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:58:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 58,
+      "raw": "3.07%",
+      "object": "Sm-144",
+      "quantity": "natural_abundance",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁴⁴Sm | 3.07% | 안정 | 안정 | 안정 | 안정 |",
+      "start": 10,
+      "end": 15,
+      "value": "3.07 %",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 21,
+     "quantity": "neutron_number",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-isotopes-of-neodymium:14:1",
+      "doc_id": "wiki-ko-isotopes-of-neodymium",
+      "line": 14,
+      "raw": "64",
+      "object": "Nd-124",
+      "quantity": "neutron_number",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹²⁴Nd | 60 | 64 | 123.95223(64)# | 500# ms |  |  | 0+ |  |  |",
+      "start": 15,
+      "end": 17,
+      "value": "64",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "64",
+         "at": [
+          "wiki-en-ytterbium:53",
+          "wiki-en-isotopes-of-yttrium:116",
+          "wiki-en-isotopes-of-yttrium:117",
+          "wiki-en-isotopes-of-yttrium:130",
+          "wiki-en-isotopes-of-yttrium:131",
+          "wiki-en-isotopes-of-yttrium:132"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-ko-isotopes-of-terbium:12:1",
+      "doc_id": "wiki-ko-isotopes-of-terbium",
+      "line": 12,
+      "raw": "70",
+      "object": "Tb-135",
+      "quantity": "neutron_number",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |",
+      "start": 15,
+      "end": 17,
+      "value": "70",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "70",
+         "at": [
+          "wiki-en-thulium:135",
+          "wiki-en-ytterbium:9",
+          "wiki-en-ytterbium:74",
+          "wiki-en-isotopes-of-yttrium:133",
+          "wiki-en-isotopes-of-yttrium:134",
+          "wiki-en-isotopes-of-yttrium:135",
+          "wiki-en-neutron-capture-therapy:28"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 22,
+     "quantity": "poisson_ratio",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-erbium:45:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 45,
+      "raw": "0.237",
+      "object": "Er",
+      "quantity": "poisson_ratio",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 푸아송 비: 0.237",
+      "start": 11,
+      "end": 16,
+      "value": "0.237",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:46:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 46,
+      "raw": "0.274",
+      "object": "Sm",
+      "quantity": "poisson_ratio",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 푸아송 비: (α form) 0.274",
+      "start": 20,
+      "end": 25,
+      "value": "0.274",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 23,
+     "quantity": "proton_number",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-ko-isotopes-of-neodymium:14:0",
+      "doc_id": "wiki-ko-isotopes-of-neodymium",
+      "line": 14,
+      "raw": "60",
+      "object": "Nd-124",
+      "quantity": "proton_number",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹²⁴Nd | 60 | 64 | 123.95223(64)# | 500# ms |  |  | 0+ |  |  |",
+      "start": 10,
+      "end": 12,
+      "value": "60",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "60",
+         "at": [
+          "wiki-en-isotopes-of-yttrium:46",
+          "wiki-en-isotopes-of-yttrium:101",
+          "wiki-en-isotopes-of-yttrium:102",
+          "wiki-en-neutron-capture-therapy:28"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-ko-isotopes-of-terbium:12:0",
+      "doc_id": "wiki-ko-isotopes-of-terbium",
+      "line": 12,
+      "raw": "65",
+      "object": "Tb-135",
+      "quantity": "proton_number",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |",
+      "start": 10,
+      "end": 12,
+      "value": "65",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "65",
+         "at": [
+          "wiki-en-dysprosium:142",
+          "wiki-en-isotopes-of-yttrium:81",
+          "wiki-en-isotopes-of-yttrium:118",
+          "wiki-en-isotopes-of-yttrium:119",
+          "wiki-en-isotopes-of-yttrium:120"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 24,
+     "quantity": "shear_modulus",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-ko-erbium:42:0",
+      "doc_id": "wiki-ko-erbium",
+      "line": 42,
+      "raw": "28.3 GPa",
+      "object": "Er",
+      "quantity": "shear_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 전단 탄성 계수: 28.3 GPa",
+      "start": 14,
+      "end": 22,
+      "value": "28.3 GPa",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "28.3",
+         "at": [
+          "wiki-en-dysprosium:71"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-ko-samarium:43:0",
+      "doc_id": "wiki-ko-samarium",
+      "line": 43,
+      "raw": "19.5 GPa",
+      "object": "Sm",
+      "quantity": "shear_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - 전단 탄성 계수: (α form) 19.5 GPa",
+      "start": 23,
+      "end": 31,
+      "value": "19.5 GPa",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    }
+   ],
+   "B": [
+    {
+     "id": "wiki-ko-erbium:34:1",
+     "doc_id": "wiki-ko-erbium",
+     "line": 34,
+     "raw": "226 pm",
+     "object": "Er",
+     "quantity": "atomic_radius",
+     "condition": "calculated",
+     "where": "정보 상자",
+     "quote": "  - 원자 반지름: 175 pm (실험값) / 226 pm (계산값)",
+     "start": 27,
+     "end": 33,
+     "value": "226 pm",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 1
+    },
+    {
+     "id": "wiki-ko-isotopes-of-neodymium:29:0",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "line": 29,
+     "raw": "176.10(10) keV",
+     "object": "Nd-133m2",
+     "quantity": "excitation_energy",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹³³ᵐ²Nd | 176.10(10) keV | 176.10(10) keV | 176.10(10) keV | ~300 ns |  |  | (9/2-) |  |  |",
+     "start": 12,
+     "end": 26,
+     "value": "176.1 keV",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 2
+    },
+    {
+     "id": "wiki-ko-isotopes-of-terbium:25:0",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "line": 25,
+     "raw": "280.2(10) keV",
+     "object": "Tb-142m1",
+     "quantity": "excitation_energy",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹⁴²ᵐ¹Tb | 280.2(10) keV | 280.2(10) keV | 280.2(10) keV | 303(17) ms | β⁺ (0.5%) | ¹⁴²Gd | (5-) |  |",
+     "start": 12,
+     "end": 25,
+     "value": "280.2 keV",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 3
+    },
+    {
+     "id": "wiki-ko-samarium:34:1",
+     "doc_id": "wiki-ko-samarium",
+     "line": 34,
+     "raw": "238 pm",
+     "object": "Sm",
+     "quantity": "atomic_radius",
+     "condition": "calculated",
+     "where": "정보 상자",
+     "quote": "  - 원자 반지름: 185 pm (실험값) / 238 pm (계산값)",
+     "start": 27,
+     "end": 33,
+     "value": "238 pm",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 4
+    },
+    {
+     "id": "wiki-ko-yttrium:33:0",
+     "doc_id": "wiki-ko-yttrium",
+     "line": 33,
+     "raw": "600 kJ/mol",
+     "object": "Y",
+     "quantity": "ionization_energy",
+     "condition": "1st",
+     "where": "정보 상자",
+     "quote": "  - 이온화 에너지: 1차: 600 kJ/mol, 2차: 1180 kJ/mol, 3차: 1980 kJ/mol",
+     "start": 17,
+     "end": 27,
+     "value": "600 kJ/mol",
+     "flags": {
+      "opposite_number": [
+       {
+        "number": "600",
+        "at": [
+         "wiki-en-europium:146",
+         "wiki-en-europium:156"
+        ]
+       }
+      ]
+     },
+     "rank": 5
+    },
+    {
+     "id": "wiki-ko-erbium:60:3",
+     "doc_id": "wiki-ko-erbium",
+     "line": 60,
+     "raw": "0.376",
+     "object": "Er-165",
+     "quantity": "decay_energy",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹⁶⁵Er | 인공 | 10.36 h | ε | 0.376 | ¹⁶⁵Ho |",
+     "start": 29,
+     "end": 34,
+     "value": "0.376 MeV",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 6
+    },
+    {
+     "id": "wiki-ko-isotopes-of-neodymium:17:3",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "line": 17,
+     "raw": "1.8(4) s",
+     "object": "Nd-127",
+     "quantity": "half_life",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹²⁷Nd | 60 | 67 | 126.94050(43)# | 1.8(4) s | β⁺ | ¹²⁷Pr | 5/2+# |  |  |",
+     "start": 37,
+     "end": 45,
+     "value": "1.8 s",
+     "flags": {
+      "opposite_number": [
+       {
+        "number": "1.8",
+        "at": [
+         "wiki-en-praseodymium:89"
+        ]
+       }
+      ]
+     },
+     "rank": 7
+    },
+    {
+     "id": "wiki-ko-isotopes-of-terbium:12:2",
+     "doc_id": "wiki-ko-isotopes-of-terbium",
+     "line": 12,
+     "raw": "0.94(+33-22) ms",
+     "object": "Tb-135",
+     "quantity": "half_life",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹³⁵Tb | 65 | 70 |  | 0.94(+33-22) ms |  |  | (7/2-) |  |",
+     "start": 23,
+     "end": 38,
+     "value": "0.94 ms",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 8
+    },
+    {
+     "id": "wiki-ko-samarium:60:3",
+     "doc_id": "wiki-ko-samarium",
+     "line": 60,
+     "raw": "2.310",
+     "object": "Sm-147",
+     "quantity": "decay_energy",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹⁴⁷Sm | 14.99% | 1.06×10¹¹y | α | 2.310 | ¹⁴³Nd |",
+     "start": 36,
+     "end": 41,
+     "value": "2.31 MeV",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 9
+    },
+    {
+     "id": "wiki-ko-yttrium:37:1",
+     "doc_id": "wiki-ko-yttrium",
+     "line": 37,
+     "raw": "573.17 pm",
+     "object": "Y",
+     "quantity": "lattice_constant",
+     "condition": "c",
+     "where": "정보 상자",
+     "quote": "  - 격자 상수: a = 364.83 pm / c = 573.17 pm (20 °C에서)",
+     "start": 31,
+     "end": 40,
+     "value": "573.17 pm",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 10
+    },
+    {
+     "id": "wiki-ko-erbium:60:1",
+     "doc_id": "wiki-ko-erbium",
+     "line": 60,
+     "raw": "10.36 h",
+     "object": "Er-165",
+     "quantity": "half_life",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹⁶⁵Er | 인공 | 10.36 h | ε | 0.376 | ¹⁶⁵Ho |",
+     "start": 15,
+     "end": 22,
+     "value": "10.36 h",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 11
+    },
+    {
+     "id": "wiki-ko-isotopes-of-neodymium:24:2",
+     "doc_id": "wiki-ko-isotopes-of-neodymium",
+     "line": 24,
+     "raw": "130.92725(3)",
+     "object": "Nd-131",
+     "quantity": "isotopic_mass",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹³¹Nd | 60 | 71 | 130.92725(3) | 33(3) s | β⁺ | ¹³¹Pr | (5/2)(+#) |  |  |",
+     "start": 20,
+     "end": 32,
+     "value": "130.92725 Da",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 12
+    }
+   ]
+  },
+  "en": {
+   "pool_docs": [
+    "wiki-en-europium",
+    "wiki-en-lanthanum",
+    "wiki-en-neutron-capture-therapy",
+    "wiki-en-praseodymium",
+    "wiki-en-samarium-cobalt-magnet"
+   ],
+   "eligible": 342,
+   "A": [
+    {
+     "rank": 1,
+     "quantity": "atomic_number",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:9:0",
+      "doc_id": "wiki-en-europium",
+      "line": 9,
+      "raw": "63",
+      "object": "Eu",
+      "quantity": "atomic_number",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Atomic number (Z): 63",
+      "start": 23,
+      "end": 25,
+      "value": "63",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "63",
+         "at": [
+          "wiki-ko-isotopes-of-yttrium:13",
+          "wiki-ko-isotopes-of-yttrium:14",
+          "wiki-ko-isotopes-of-yttrium:82",
+          "wiki-ko-isotopes-of-yttrium:83"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:9:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 9,
+      "raw": "57",
+      "object": "La",
+      "quantity": "atomic_number",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Atomic number (Z): 57",
+      "start": 23,
+      "end": 25,
+      "value": "57",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "57",
+         "at": [
+          "wiki-ko-isotopes-of-yttrium:58"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 2,
+     "quantity": "atomic_radius",
+     "condition": "empirical",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:35:0",
+      "doc_id": "wiki-en-europium",
+      "line": 35,
+      "raw": "180 pm",
+      "object": "Eu",
+      "quantity": "atomic_radius",
+      "condition": "empirical",
+      "where": "정보 상자",
+      "quote": "  - Atomic radius: empirical: 180 pm",
+      "start": 30,
+      "end": 36,
+      "value": "180 pm",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "180",
+         "at": [
+          "wiki-ko-isotopes-of-yttrium:88",
+          "wiki-ko-yttrium:34",
+          "wiki-ko-isotopes-of-terbium:5",
+          "wiki-ko-isotopes-of-terbium:79",
+          "wiki-ko-isotopes-of-terbium:80"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:35:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 35,
+      "raw": "187 pm",
+      "object": "La",
+      "quantity": "atomic_radius",
+      "condition": "empirical",
+      "where": "정보 상자",
+      "quote": "  - Atomic radius: empirical: 187 pm",
+      "start": 30,
+      "end": 36,
+      "value": "187 pm",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "187",
+         "at": [
+          "wiki-ko-ytterbium:35"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 3,
+     "quantity": "boiling_point",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:18:0",
+      "doc_id": "wiki-en-europium",
+      "line": 18,
+      "raw": "1802 K ​(1529 °C, ​2784 °F)",
+      "object": "Eu",
+      "quantity": "boiling_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Boiling point: 1802 K ​(1529 °C, ​2784 °F)",
+      "start": 19,
+      "end": 46,
+      "value": "1802 K",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:18:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 18,
+      "raw": "3737 K ​(3464 °C, ​6267 °F)",
+      "object": "La",
+      "quantity": "boiling_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Boiling point: 3737 K ​(3464 °C, ​6267 °F)",
+      "start": 19,
+      "end": 46,
+      "value": "3737 K",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 4,
+     "quantity": "bulk_modulus",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:48:0",
+      "doc_id": "wiki-en-europium",
+      "line": 48,
+      "raw": "8.3 GPa",
+      "object": "Eu",
+      "quantity": "bulk_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Bulk modulus: 8.3 GPa",
+      "start": 18,
+      "end": 25,
+      "value": "8.3 GPa",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "8.3",
+         "at": [
+          "wiki-ko-isotopes-of-yttrium:87"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:48:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 48,
+      "raw": "27.9 GPa",
+      "object": "La",
+      "quantity": "bulk_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Bulk modulus: α form: 27.9 GPa",
+      "start": 26,
+      "end": 34,
+      "value": "27.9 GPa",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 5,
+     "quantity": "covalent_radius",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:36:0",
+      "doc_id": "wiki-en-europium",
+      "line": 36,
+      "raw": "198±6 pm",
+      "object": "Eu",
+      "quantity": "covalent_radius",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Covalent radius: 198±6 pm",
+      "start": 21,
+      "end": 29,
+      "value": "198 pm",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:36:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 36,
+      "raw": "207±8 pm",
+      "object": "La",
+      "quantity": "covalent_radius",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Covalent radius: 207±8 pm",
+      "start": 21,
+      "end": 29,
+      "value": "207 pm",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 6,
+     "quantity": "density",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-lanthanum:19:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 19,
+      "raw": "6.145 g/cm³",
+      "object": "La",
+      "quantity": "density",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Density (at 20° C): 6.145 g/cm³",
+      "start": 24,
+      "end": 35,
+      "value": "6.145 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-praseodymium:19:0",
+      "doc_id": "wiki-en-praseodymium",
+      "line": 19,
+      "raw": "6.773 g/cm³",
+      "object": "Pr",
+      "quantity": "density",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Density (at 20° C): 6.773 g/cm³",
+      "start": 24,
+      "end": 35,
+      "value": "6.773 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 7,
+     "quantity": "density_liquid_at_mp",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:20:0",
+      "doc_id": "wiki-en-europium",
+      "line": 20,
+      "raw": "5.13 g/cm³",
+      "object": "Eu",
+      "quantity": "density_liquid_at_mp",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - when liquid (at m.p.): 5.13 g/cm³",
+      "start": 27,
+      "end": 37,
+      "value": "5.13 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:20:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 20,
+      "raw": "5.94 g/cm³",
+      "object": "La",
+      "quantity": "density_liquid_at_mp",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - when liquid (at m.p.): 5.94 g/cm³",
+      "start": 27,
+      "end": 37,
+      "value": "5.94 g/cm³",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 8,
+     "quantity": "discovery",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:188:1",
+      "doc_id": "wiki-en-europium",
+      "line": 188,
+      "raw": "1803",
+      "object": "Ce",
+      "quantity": "discovery",
+      "condition": "",
+      "where": "본문",
+      "quote": "The discovery of europium was part of the prolonged separation of the rare-earth elements during the 19th century. Cerium had been discovered in 1803, and in the following decades apparently single rare-earth substances were repeatedly shown to contain further elements. Carl Gustaf Mosander separated lanthanum and didymium from cerium-containing material, while didymium itself was later resolved into praseodymium and neodymium. In 1879, Paul Émile Lecoq de Boisbaudran separated samarium from didymium, and samarium-rich material was subsequently found to contain gadolinium as well.",
+      "start": 145,
+      "end": 149,
+      "value": "1803",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-neutron-capture-therapy:14:0",
+      "doc_id": "wiki-en-neutron-capture-therapy",
+      "line": 14,
+      "raw": "in 1932",
+      "object": "neutron",
+      "quantity": "discovery",
+      "condition": "",
+      "where": "본문",
+      "quote": "James Chadwick discovered the neutron in 1932. Shortly thereafter, H. J. Taylor reported that boron-10 nuclei had a high propensity to capture low-energy thermal neutrons. This reaction causes nuclear decay of the boron-10 nuclei into helium-4 nuclei (alpha particles) and lithium-7 ions. In 1936, G.L. Locher, a scientist at the Franklin Institute in Philadelphia, Pennsylvania, recognized the therapeutic potential of this discovery and suggested that this specific type of neutron capture reaction could be used to treat cancer. William Sweet, a neurosurgeon at the Massachusetts General Hospital, first suggested the possibility of using BNCT to treat malignant brain tumors to evaluate BNCT for treatment of the most malignant of all brain tumors, glioblastoma multiforme (GBMs), using borax as the boron-delivery agent in 1951. A clinical trial subsequently was initiated by Lee Farr using a specially constructed nuclear reactor at the Brookhaven National Laboratory in Long Island, New York, USA. Another clinical trial was initiated in 1954 by Sweet at the Massachusetts General Hospital using the MIT Nuclear Research Reactor in Boston.",
+      "start": 38,
+      "end": 45,
+      "value": "1932",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 9,
+     "quantity": "electrical_resistivity",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:43:0",
+      "doc_id": "wiki-en-europium",
+      "line": 43,
+      "raw": "0.900 µΩ⋅m",
+      "object": "Eu",
+      "quantity": "electrical_resistivity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Electrical resistivity: poly: 0.900 µΩ⋅m (at r.t.)",
+      "start": 34,
+      "end": 44,
+      "value": "0.9 µΩ·m",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:43:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 43,
+      "raw": "615 nΩ⋅m",
+      "object": "La",
+      "quantity": "electrical_resistivity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Electrical resistivity: α, poly: 615 nΩ⋅m (at r.t.)",
+      "start": 37,
+      "end": 45,
+      "value": "615 nΩ·m",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 10,
+     "quantity": "electronegativity",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:33:0",
+      "doc_id": "wiki-en-europium",
+      "line": 33,
+      "raw": "1.2",
+      "object": "Eu",
+      "quantity": "electronegativity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Electronegativity: Pauling scale: 1.2",
+      "start": 38,
+      "end": 41,
+      "value": "1.2",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:33:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 33,
+      "raw": "1.10",
+      "object": "La",
+      "quantity": "electronegativity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Electronegativity: Pauling scale: 1.10",
+      "start": 38,
+      "end": 42,
+      "value": "1.1",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 11,
+     "quantity": "first_isolation",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-lanthanum:113:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 113,
+      "raw": "in 1923",
+      "object": "La",
+      "quantity": "first_isolation",
+      "condition": "",
+      "where": "본문",
+      "quote": "Since lanthanum's properties differed only slightly from those of cerium, and occurred along with it in its salts, he named it from the Ancient Greek λανθάνειν [lanthanein] (lit. to lie hidden). Relatively pure lanthanum metal was first isolated in 1923.",
+      "start": 246,
+      "end": 253,
+      "value": "1923",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-praseodymium:122:1",
+      "doc_id": "wiki-en-praseodymium",
+      "line": 122,
+      "raw": "In 1803",
+      "object": "ceria",
+      "quantity": "first_isolation",
+      "condition": "",
+      "where": "본문",
+      "quote": "In 1751, the Swedish mineralogist Axel Fredrik Cronstedt discovered a heavy mineral from the mine at Bastnäs, later named cerite. Thirty years later, the fifteen-year-old Wilhelm Hisinger, from the family owning the mine, sent a sample of it to Carl Scheele, who did not find any new elements within. In 1803, after Hisinger had become an ironmaster, he returned to the mineral with Jöns Jacob Berzelius and isolated a new oxide, which they named ceria after the dwarf planet Ceres, which had been discovered two years earlier. Ceria was simultaneously and independently isolated in Germany by Martin Heinrich Klaproth. Between 1839 and 1843, ceria was shown to be a mixture of oxides by the Swedish surgeon and chemist Carl Gustaf Mosander, who lived in the same house as Berzelius; he separated out two other oxides, which he named lanthana and didymia. He partially decomposed a sample of cerium nitrate by roasting it in air and then treating the resulting oxide with dilute nitric acid. The metals that formed these oxides were thus named lanthanum and didymium.",
+      "start": 301,
+      "end": 308,
+      "value": "1803",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 12,
+     "quantity": "half_life",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:61:1",
+      "doc_id": "wiki-en-europium",
+      "line": 61,
+      "raw": "36.9 y",
+      "object": "Eu-150",
+      "quantity": "half_life",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁵⁰Eu | synth | 36.9 y | β⁺ | ¹⁵⁰Sm |",
+      "start": 18,
+      "end": 24,
+      "value": "36.9 y",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:67:1",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 67,
+      "raw": "40.289 h",
+      "object": "La-140",
+      "quantity": "half_life",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁴⁰La | synth | 40.289 h | β⁻ | ¹⁴⁰Ce |",
+      "start": 18,
+      "end": 26,
+      "value": "40.289 h",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 13,
+     "quantity": "heat_of_fusion",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:21:0",
+      "doc_id": "wiki-en-europium",
+      "line": 21,
+      "raw": "9.21 kJ/mol",
+      "object": "Eu",
+      "quantity": "heat_of_fusion",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Heat of fusion: 9.21 kJ/mol",
+      "start": 20,
+      "end": 31,
+      "value": "9.21 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:21:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 21,
+      "raw": "6.20 kJ/mol",
+      "object": "La",
+      "quantity": "heat_of_fusion",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Heat of fusion: 6.20 kJ/mol",
+      "start": 20,
+      "end": 31,
+      "value": "6.2 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 14,
+     "quantity": "heat_of_vaporization",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:22:0",
+      "doc_id": "wiki-en-europium",
+      "line": 22,
+      "raw": "176 kJ/mol",
+      "object": "Eu",
+      "quantity": "heat_of_vaporization",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Heat of vaporization: 176 kJ/mol",
+      "start": 26,
+      "end": 36,
+      "value": "176 kJ/mol",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "176",
+         "at": [
+          "wiki-ko-ytterbium:34",
+          "wiki-ko-lutetium:65"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:22:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 22,
+      "raw": "400 kJ/mol",
+      "object": "La",
+      "quantity": "heat_of_vaporization",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Heat of vaporization: 400 kJ/mol",
+      "start": 26,
+      "end": 36,
+      "value": "400 kJ/mol",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "400",
+         "at": [
+          "wiki-ko-samarium:107",
+          "wiki-ko-yttrium:81"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 15,
+     "quantity": "ionization_energy",
+     "condition": "1st",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:34:0",
+      "doc_id": "wiki-en-europium",
+      "line": 34,
+      "raw": "547.1 kJ/mol",
+      "object": "Eu",
+      "quantity": "ionization_energy",
+      "condition": "1st",
+      "where": "정보 상자",
+      "quote": "  - Ionization energies: 1st: 547.1 kJ/mol, 2nd: 1085 kJ/mol, 3rd: 2404 kJ/mol",
+      "start": 30,
+      "end": 42,
+      "value": "547.1 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:34:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 34,
+      "raw": "538.1 kJ/mol",
+      "object": "La",
+      "quantity": "ionization_energy",
+      "condition": "1st",
+      "where": "정보 상자",
+      "quote": "  - Ionization energies: 1st: 538.1 kJ/mol, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol",
+      "start": 30,
+      "end": 42,
+      "value": "538.1 kJ/mol",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 16,
+     "quantity": "lattice_constant",
+     "condition": "a",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:40:0",
+      "doc_id": "wiki-en-europium",
+      "line": 40,
+      "raw": "458.22 pm",
+      "object": "Eu",
+      "quantity": "lattice_constant",
+      "condition": "a",
+      "where": "정보 상자",
+      "quote": "  - Lattice constant: a = 458.22 pm (at 20 °C)",
+      "start": 26,
+      "end": 35,
+      "value": "458.22 pm",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:40:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 40,
+      "raw": "0.37742 nm",
+      "object": "La",
+      "quantity": "lattice_constant",
+      "condition": "a",
+      "where": "정보 상자",
+      "quote": "  - Lattice constants: a = 0.37742 nm / c = 1.2171 nm (at 20 °C)",
+      "start": 27,
+      "end": 37,
+      "value": "0.37742 nm",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 17,
+     "quantity": "melting_point",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-lanthanum:17:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 17,
+      "raw": "1193 K ​(920 °C, ​1688 °F)",
+      "object": "La",
+      "quantity": "melting_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Melting point: 1193 K ​(920 °C, ​1688 °F)",
+      "start": 19,
+      "end": 45,
+      "value": "1193 K",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-praseodymium:17:0",
+      "doc_id": "wiki-en-praseodymium",
+      "line": 17,
+      "raw": "1204 K ​(931 °C, ​1708 °F)",
+      "object": "Pr",
+      "quantity": "melting_point",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Melting point: 1204 K ​(931 °C, ​1708 °F)",
+      "start": 19,
+      "end": 45,
+      "value": "1204 K",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 18,
+     "quantity": "molar_heat_capacity",
+     "condition": "",
+     "larger": "a",
+     "a": {
+      "id": "wiki-en-europium:23:0",
+      "doc_id": "wiki-en-europium",
+      "line": 23,
+      "raw": "27.66 J/(mol·K)",
+      "object": "Eu",
+      "quantity": "molar_heat_capacity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Molar heat capacity: 27.66 J/(mol·K)",
+      "start": 25,
+      "end": 40,
+      "value": "27.66 J/(mol·K)",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:23:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 23,
+      "raw": "27.11 J/(mol·K)",
+      "object": "La",
+      "quantity": "molar_heat_capacity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Molar heat capacity: 27.11 J/(mol·K)",
+      "start": 25,
+      "end": 40,
+      "value": "27.11 J/(mol·K)",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 19,
+     "quantity": "natural_abundance",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-lanthanum:66:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 66,
+      "raw": "99.911%",
+      "object": "La-139",
+      "quantity": "natural_abundance",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹³⁹La | 99.911% | stable | stable | stable |",
+      "start": 10,
+      "end": 17,
+      "value": "99.911 %",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-praseodymium:62:0",
+      "doc_id": "wiki-en-praseodymium",
+      "line": 62,
+      "raw": "100%",
+      "object": "Pr-141",
+      "quantity": "natural_abundance",
+      "condition": "",
+      "where": "표",
+      "quote": "| ¹⁴¹Pr | 100% | stable | stable | stable |",
+      "start": 10,
+      "end": 14,
+      "value": "100 %",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "100",
+         "at": [
+          "wiki-ko-thulium:26",
+          "wiki-ko-thulium:58",
+          "wiki-ko-dysprosium:26",
+          "wiki-ko-ytterbium:26",
+          "wiki-ko-lutetium:26",
+          "wiki-ko-isotopes-of-yttrium:3",
+          "wiki-ko-erbium:26",
+          "wiki-ko-samarium:26",
+          "wiki-ko-yttrium:26",
+          "wiki-ko-yttrium:61",
+          "wiki-ko-isotopes-of-terbium:3",
+          "wiki-ko-isotopes-of-terbium:28",
+          "wiki-ko-isotopes-of-terbium:38",
+          "wiki-ko-isotopes-of-terbium:40",
+          "wiki-ko-isotopes-of-terbium:41",
+          "wiki-ko-isotopes-of-terbium:91",
+          "wiki-ko-isotopes-of-neodymium:69"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 20,
+     "quantity": "number_of_electrons",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-lanthanum:79:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 79,
+      "raw": "57 electrons",
+      "object": "La",
+      "quantity": "number_of_electrons",
+      "condition": "",
+      "where": "본문",
+      "quote": "Lanthanum is the first element and prototype of the lanthanide series. In the periodic table, it appears to the right of the alkaline earth metal barium and to the left of the lanthanide cerium. Lanthanum is generally considered the first of the f-block elements by authors writing on the subject. The 57 electrons of a lanthanum atom are arranged in the configuration [Xe]5d¹6s², with three valence electrons outside the noble gas core. In chemical reactions, lanthanum almost always gives up these three valence electrons from the 5d and 6s subshells to form the +3 oxidation state, achieving the stable configuration of the preceding noble gas xenon. Some lanthanum(II) compounds are also known, but they are usually much less stable. Lanthanum monoxide (LaO) produces strong absorption bands in some stellar spectra.",
+      "start": 302,
+      "end": 314,
+      "value": "57",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "57",
+         "at": [
+          "wiki-ko-isotopes-of-yttrium:58"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-en-praseodymium:77:0",
+      "doc_id": "wiki-en-praseodymium",
+      "line": 77,
+      "raw": "59 electrons",
+      "object": "Pr",
+      "quantity": "number_of_electrons",
+      "condition": "",
+      "where": "본문",
+      "quote": "Neutral praseodymium's 59 electrons are arranged in the configuration [Xe]4f³6s². Like most other lanthanides, praseodymium usually uses only three electrons as valence electrons, as the remaining 4f electrons are too strongly bound to engage in bonding: this is because the 4f orbitals penetrate the most through the inert xenon core of electrons to the nucleus, followed by 5d and 6s, and this penetration increases with higher ionic charge. Even so, praseodymium can in some compounds lose a fourth valence electron because it is early in the lanthanide series, where the nuclear charge is still low enough and the 4f subshell energy high enough to allow the removal of further valence electrons.",
+      "start": 23,
+      "end": 35,
+      "value": "59",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "59",
+         "at": [
+          "wiki-ko-isotopes-of-yttrium:66",
+          "wiki-ko-isotopes-of-yttrium:67"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 21,
+     "quantity": "oxidation_states",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-lanthanum:69:2",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 69,
+      "raw": "+3",
+      "object": "La",
+      "quantity": "oxidation_states",
+      "condition": "",
+      "where": "본문",
+      "quote": "Lanthanum is a chemical element; it has symbol La and atomic number 57. It is a soft, ductile, silvery-white metal that tarnishes slowly when exposed to air. It is the first and the prototype of the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table. Lanthanum is traditionally counted among the rare-earth elements. Like most other rare-earth elements, its usual oxidation state is +3, although some compounds are known with an oxidation state of +2. Lanthanum has no biological role in humans but is used by some bacteria. It is not particularly toxic to humans but does show some antimicrobial activity.",
+      "start": 435,
+      "end": 437,
+      "value": "3",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-praseodymium:71:1",
+      "doc_id": "wiki-en-praseodymium",
+      "line": 71,
+      "raw": "+4",
+      "object": "Pr",
+      "quantity": "oxidation_states",
+      "condition": "",
+      "where": "본문",
+      "quote": "Like most rare-earth elements, praseodymium most readily forms the +3 oxidation state, which is the only stable state in aqueous solution, although the +4 oxidation state is known in some solid compounds and, uniquely among the lanthanides, the +5 oxidation state is attainable at low temperatures. The 0, +1, and +2 oxidation states are rarely found. Aqueous praseodymium ions are yellowish-green, and similarly, praseodymium results in various shades of yellow-green when incorporated into glasses. Many of praseodymium's industrial uses involve its ability to filter yellow light from light sources.",
+      "start": 152,
+      "end": 154,
+      "value": "4",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 22,
+     "quantity": "poisson_ratio",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:49:0",
+      "doc_id": "wiki-en-europium",
+      "line": 49,
+      "raw": "0.152",
+      "object": "Eu",
+      "quantity": "poisson_ratio",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Poisson ratio: 0.152",
+      "start": 19,
+      "end": 24,
+      "value": "0.152",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:50:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 50,
+      "raw": "0.280",
+      "object": "La",
+      "quantity": "poisson_ratio",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Poisson ratio: α form: 0.280",
+      "start": 27,
+      "end": 32,
+      "value": "0.28",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    },
+    {
+     "rank": 23,
+     "quantity": "shear_modulus",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:47:0",
+      "doc_id": "wiki-en-europium",
+      "line": 47,
+      "raw": "7.9 GPa",
+      "object": "Eu",
+      "quantity": "shear_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Shear modulus: 7.9 GPa",
+      "start": 19,
+      "end": 26,
+      "value": "7.9 GPa",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "7.9",
+         "at": [
+          "wiki-ko-isotopes-of-terbium:21"
+         ]
+        }
+       ]
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:47:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 47,
+      "raw": "14.3 GPa",
+      "object": "La",
+      "quantity": "shear_modulus",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Shear modulus: α form: 14.3 GPa",
+      "start": 27,
+      "end": 35,
+      "value": "14.3 GPa",
+      "flags": {
+       "opposite_number": [
+        {
+         "number": "14.3",
+         "at": [
+          "wiki-ko-ytterbium:63"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "rank": 24,
+     "quantity": "specific_heat_capacity",
+     "condition": "",
+     "larger": "b",
+     "a": {
+      "id": "wiki-en-europium:24:0",
+      "doc_id": "wiki-en-europium",
+      "line": 24,
+      "raw": "182.022 J/(kg·K)",
+      "object": "Eu",
+      "quantity": "specific_heat_capacity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Specific heat capacity: 182.022 J/(kg·K)",
+      "start": 28,
+      "end": 44,
+      "value": "182.022 J/(kg·K)",
+      "flags": {
+       "opposite_number": []
+      }
+     },
+     "b": {
+      "id": "wiki-en-lanthanum:24:0",
+      "doc_id": "wiki-en-lanthanum",
+      "line": 24,
+      "raw": "195.162 J/(kg·K)",
+      "object": "La",
+      "quantity": "specific_heat_capacity",
+      "condition": "",
+      "where": "정보 상자",
+      "quote": "  - Specific heat capacity: 195.162 J/(kg·K)",
+      "start": 28,
+      "end": 44,
+      "value": "195.162 J/(kg·K)",
+      "flags": {
+       "opposite_number": []
+      }
+     }
+    }
+   ],
+   "B": [
+    {
+     "id": "wiki-en-europium:63:1",
+     "doc_id": "wiki-en-europium",
+     "line": 63,
+     "raw": "13.517 y",
+     "object": "Eu-152",
+     "quantity": "half_life",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹⁵²Eu | synth | 13.517 y | β⁺ | ¹⁵²Sm |",
+     "start": 18,
+     "end": 26,
+     "value": "13.517 y",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 1
+    },
+    {
+     "id": "wiki-en-lanthanum:34:1",
+     "doc_id": "wiki-en-lanthanum",
+     "line": 34,
+     "raw": "1067 kJ/mol",
+     "object": "La",
+     "quantity": "ionization_energy",
+     "condition": "2nd",
+     "where": "정보 상자",
+     "quote": "  - Ionization energies: 1st: 538.1 kJ/mol, 2nd: 1067 kJ/mol, 3rd: 1850.3 kJ/mol",
+     "start": 49,
+     "end": 60,
+     "value": "1067 kJ/mol",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 2
+    },
+    {
+     "id": "wiki-en-neutron-capture-therapy:189:1",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "line": 189,
+     "raw": "2012",
+     "object": "Particle Radiation Oncology Research Center, Kyoto University, Kumatori, Japan",
+     "quantity": "first_clinical_use_year",
+     "condition": "",
+     "where": "표",
+     "quote": "| Sumitomo Heavy Industries NeuCure ⁹Be(p,n)⁹B Cyclotron | Particle Radiation Oncology Research Center, Kyoto University, Kumatori, Japan | 2012 | Retired from clinical use |",
+     "start": 140,
+     "end": 144,
+     "value": "2012",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 3
+    },
+    {
+     "id": "wiki-en-praseodymium:63:1",
+     "doc_id": "wiki-en-praseodymium",
+     "line": 63,
+     "raw": "19.12 h",
+     "object": "Pr-142",
+     "quantity": "half_life",
+     "condition": "",
+     "where": "표",
+     "quote": "| ¹⁴²Pr | synth | 19.12 h | β⁻ | ¹⁴²Nd |",
+     "start": 18,
+     "end": 25,
+     "value": "19.12 h",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 4
+    },
+    {
+     "id": "wiki-en-samarium-cobalt-magnet:25:0",
+     "doc_id": "wiki-en-samarium-cobalt-magnet",
+     "line": 25,
+     "raw": "0.875–2.79",
+     "object": "sintered neodymium magnet",
+     "quantity": "coercivity",
+     "condition": "",
+     "where": "표",
+     "quote": "| Coercivity (MA/m) | 0.875–2.79 | 0.493–2.79 |",
+     "start": 22,
+     "end": 32,
+     "value": "0.875–2.79 MA/m",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 5
+    },
+    {
+     "id": "wiki-en-europium:34:1",
+     "doc_id": "wiki-en-europium",
+     "line": 34,
+     "raw": "1085 kJ/mol",
+     "object": "Eu",
+     "quantity": "ionization_energy",
+     "condition": "2nd",
+     "where": "정보 상자",
+     "quote": "  - Ionization energies: 1st: 547.1 kJ/mol, 2nd: 1085 kJ/mol, 3rd: 2404 kJ/mol",
+     "start": 49,
+     "end": 60,
+     "value": "1085 kJ/mol",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 6
+    },
+    {
+     "id": "wiki-en-lanthanum:40:1",
+     "doc_id": "wiki-en-lanthanum",
+     "line": 40,
+     "raw": "1.2171 nm",
+     "object": "La",
+     "quantity": "lattice_constant",
+     "condition": "c",
+     "where": "정보 상자",
+     "quote": "  - Lattice constants: a = 0.37742 nm / c = 1.2171 nm (at 20 °C)",
+     "start": 44,
+     "end": 53,
+     "value": "1.2171 nm",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 7
+    },
+    {
+     "id": "wiki-en-neutron-capture-therapy:143:2",
+     "doc_id": "wiki-en-neutron-capture-therapy",
+     "line": 143,
+     "raw": "12.8",
+     "object": "BMRR, US",
+     "quantity": "median_survival_months",
+     "condition": "",
+     "where": "표",
+     "quote": "| BMRR, US | 53 (1994–1999) | BPA 250–330 mg/kg | 12.8 |",
+     "start": 50,
+     "end": 54,
+     "value": "12.8 months",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 8
+    },
+    {
+     "id": "wiki-en-praseodymium:34:0",
+     "doc_id": "wiki-en-praseodymium",
+     "line": 34,
+     "raw": "527 kJ/mol",
+     "object": "Pr",
+     "quantity": "ionization_energy",
+     "condition": "1st",
+     "where": "정보 상자",
+     "quote": "  - Ionization energies: 1st: 527 kJ/mol, 2nd: 1020 kJ/mol, 3rd: 2086 kJ/mol",
+     "start": 30,
+     "end": 40,
+     "value": "527 kJ/mol",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 9
+    },
+    {
+     "id": "wiki-en-samarium-cobalt-magnet:31:0",
+     "doc_id": "wiki-en-samarium-cobalt-magnet",
+     "line": 31,
+     "raw": "(3–4)×10⁻⁶",
+     "object": "sintered neodymium magnet",
+     "quantity": "cte,_magnetizing_direction",
+     "condition": "",
+     "where": "표",
+     "quote": "| CTE, magnetizing direction (1/K) | (3–4)×10⁻⁶ | (5–9)×10⁻⁶ |",
+     "start": 37,
+     "end": 47,
+     "value": "0.000003–0.000004 1/K",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 10
+    },
+    {
+     "id": "wiki-en-europium:7:0",
+     "doc_id": "wiki-en-europium",
+     "line": 7,
+     "raw": "151.964±0.001",
+     "object": "Eu",
+     "quantity": "standard_atomic_weight",
+     "condition": "",
+     "where": "정보 상자",
+     "quote": "  - 151.964±0.001, 151.96±0.01 (abridged)",
+     "start": 4,
+     "end": 17,
+     "value": "151.964",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 11
+    },
+    {
+     "id": "wiki-en-lanthanum:7:0",
+     "doc_id": "wiki-en-lanthanum",
+     "line": 7,
+     "raw": "138.90547±0.00007",
+     "object": "La",
+     "quantity": "standard_atomic_weight",
+     "condition": "",
+     "where": "정보 상자",
+     "quote": "  - 138.90547±0.00007, 138.91±0.01 (abridged)",
+     "start": 4,
+     "end": 21,
+     "value": "138.90547",
+     "flags": {
+      "opposite_number": []
+     },
+     "rank": 12
+    }
+   ]
+  }
+ }
+}
