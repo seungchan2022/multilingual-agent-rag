@@ -897,71 +897,46 @@
 {"set": "size256_notitle", "chunk_id": "wiki-en-europium#0008", "doc_id": "wiki-en-europium", "kind": "infobox", "tables": [58], "rows": [61, 62, 63, 64, 65, 66, 67], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-en-europium#0009", "doc_id": "wiki-en-europium", "kind": "infobox", "tables": [58], "rows": [68], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0001", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [3], "rows": [6, 7, 8, 9, 10], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0004", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [26, 27], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0005", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [28, 29], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0006", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [30, 31], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0007", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [32, 33], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0008", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [34, 35], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0009", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [36, 37], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0010", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [38, 39], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0011", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [40, 41], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0012", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [42, 43], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0013", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [44, 45], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0014", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0015", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [47, 48], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0016", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [49, 50], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0017", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0018", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [52, 53], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0019", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [54, 55], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0020", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [56], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0021", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [57, 58], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0022", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [59, 60], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0023", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [61, 62], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0024", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [63, 64], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0025", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [65, 66], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0026", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0027", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [68, 69], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0028", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0029", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [71, 72], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0030", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [73, 74], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0031", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [75, 76], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0032", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [77, 78], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0033", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [79, 80], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0034", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [81, 82], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0035", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [83], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0036", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [84, 85], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0037", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [86], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0038", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [87], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0039", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [88], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0040", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [89], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0041", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [90], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0042", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [91, 92], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0043", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [93, 94], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0044", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [95], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0045", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [96, 97], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0046", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [98, 99], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0047", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [100], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0048", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [101, 102], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0049", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [103], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0050", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [104, 105], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0051", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [106, 107], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0052", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [108, 109], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0053", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [110], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0054", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [111, 112], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0055", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [113], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0056", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [114], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0057", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [115], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0058", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [116, 117], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0059", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [118, 119], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0060", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [120, 121], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0061", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [122, 123], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0062", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [124, 125], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0063", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [126, 127], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0064", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [128, 129], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0065", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [130, 131], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0066", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [132, 133], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0067", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [134, 135], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0068", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [136, 137], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0004", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [26, 27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0005", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [29, 30, 31], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0006", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [32, 33], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0007", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [34, 35, 36], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0008", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [37, 38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0009", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [40, 41, 42], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0010", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [43, 44, 45], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0011", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [46, 47, 48], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0012", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [49, 50, 51], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0013", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [52, 53, 54], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0014", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [55, 56, 57], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0015", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [58, 59], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0016", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [60, 61, 62], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0017", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [63, 64, 65], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0018", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [66, 67], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0019", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [68, 69, 70], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0020", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [71, 72, 73], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0021", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [74, 75, 76], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0022", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [77, 78, 79], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0023", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [80, 81, 82], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0024", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [83, 84, 85], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0025", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [86, 87, 88], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0026", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [89, 90], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0027", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [91, 92, 93], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0028", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [94, 95, 96], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0029", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [97, 98, 99], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0030", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [100, 101, 102], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0031", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [103, 104, 105], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0032", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [106, 107], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0033", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [108, 109, 110], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0034", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [111, 112], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0035", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [113, 114, 115], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0036", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [116, 117], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0037", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [118, 119, 120], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0038", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [121, 122, 123], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0039", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [124, 125, 126], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0040", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [127, 128, 129], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0041", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [130, 131, 132], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0042", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [133, 134, 135, 136], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-en-isotopes-of-yttrium#0043", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [137], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-en-lanthanum#0004", "doc_id": "wiki-en-lanthanum", "kind": "infobox", "tables": [27], "rows": [29], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-en-lanthanum#0009", "doc_id": "wiki-en-lanthanum", "kind": "infobox", "tables": [60], "rows": [63, 64, 65, 66, 67], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-en-lutetium#0004", "doc_id": "wiki-en-lutetium", "kind": "infobox", "tables": [27], "rows": [29], "verdict": "맞음", "problems": []}
@@ -988,199 +963,93 @@
 {"set": "size256_notitle", "chunk_id": "wiki-ko-erbium#0003", "doc_id": "wiki-ko-erbium", "kind": "infobox", "tables": [26], "rows": [28], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-ko-erbium#0007", "doc_id": "wiki-ko-erbium", "kind": "infobox", "tables": [55], "rows": [57, 58, 59, 60, 61, 62, 63, 64], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-ko-erbium#0008", "doc_id": "wiki-ko-erbium", "kind": "infobox", "tables": [55], "rows": [65, 66, 67], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0002", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [14], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0003", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [15], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0004", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [16], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0005", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [17], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0006", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [18], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0007", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [19], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0008", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [20], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0009", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [21], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0010", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [22], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0011", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [23], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0012", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [24], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0013", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [25], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0014", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [26], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0015", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [27], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0016", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [28], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0017", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [29], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0018", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [30], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0019", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [31], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0020", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [32], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0021", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [33], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0022", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [34], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0023", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [35], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0024", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [36], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0025", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [37], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0026", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [38], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0027", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [39], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0028", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [40], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0029", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [41], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0030", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [42], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0031", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0032", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [44], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0033", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [45], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0034", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0035", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [47], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0036", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [48], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0037", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0038", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [50], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0039", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0040", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0041", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [53], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0042", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [54], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0043", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [55], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0044", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [56], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0045", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [57], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0046", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [58], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0047", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [59], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0048", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [60], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0049", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0050", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [62], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0051", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [63], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0052", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [64], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0053", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [65], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0054", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [66], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0055", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0056", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0057", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0058", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0002", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [12, 13], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0003", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [14, 15], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0004", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [16, 17], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0005", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [18, 19], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0006", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [20], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0007", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [21], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0008", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [22, 23], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0009", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [24], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0010", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [25], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0011", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [26, 27], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0012", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [28], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0013", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [29, 30], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0014", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [31], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0015", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [32], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0016", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [33], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0017", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [34], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0018", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [35], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0019", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [36, 37], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0020", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [38], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0021", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [39], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0022", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [40], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0023", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [41], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0024", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [42], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0025", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0026", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [44], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0027", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [45], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0028", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0029", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [47, 48], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0030", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0031", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [50], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0032", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0033", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0034", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [53], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0035", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [54], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0036", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [55, 56], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0037", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [57], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0038", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [58], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0039", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [59, 60], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0040", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0041", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [62], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0042", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [63], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0043", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [64], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0044", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [65], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0045", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [66], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0046", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0047", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0048", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0049", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0050", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [71], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0051", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [72, 73], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0052", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [74, 75], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0053", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [76], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0054", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [77, 78], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0055", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [79], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0056", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [80], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0057", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [81], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0058", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [82], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0059", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [83], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0060", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [84], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0061", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [85, 86], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0062", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [87, 88], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0063", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [89, 90], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0064", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [91, 92], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0065", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [93, 94], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0066", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [95, 96], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0067", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [97], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0002", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [12, 13], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0003", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [14, 15], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0004", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [16], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0005", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [17], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0006", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [18, 19], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0007", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [20], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0008", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [21, 22], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0009", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [23], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0010", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [24], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0011", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [25], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0012", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [26], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0013", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [27], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0014", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [28], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0015", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [29], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0016", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [30], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0017", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [31], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0018", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [32], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0019", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [33], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0020", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [34], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0021", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [35], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0022", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [36], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0023", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [37], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0024", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [38, 39], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0025", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [40], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0026", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [41], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0027", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [42], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0028", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0029", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [44, 45], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0030", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0031", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [47], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0032", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [48], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0033", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0034", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [50], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0035", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0036", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0037", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [53, 54], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0038", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [55], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0039", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [56, 57], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0040", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [58], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0041", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [59], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0042", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [60], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0043", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0044", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [62], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0045", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [63], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0046", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [64], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0047", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [65], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0048", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [66], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0049", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0050", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0051", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0052", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0053", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [71], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0054", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [72], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0055", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [73], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0056", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [74], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0057", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [75], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0058", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [76], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0059", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [77], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0060", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [78], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0061", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [79], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0062", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [80], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0063", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [81], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0064", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [82, 83], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0065", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [84], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0066", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [85], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0067", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [86], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0068", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [87, 88], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0069", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [89], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0070", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [90, 91], "verdict": "맞음", "problems": []}
-{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0071", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [92], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0002", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [14, 15, 16], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0003", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [17, 18], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0004", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [19, 20], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0005", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [21, 22, 23], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0006", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [24, 25], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0007", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [26, 27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0008", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [29, 30, 31], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0009", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [32, 33, 34], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0010", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [35, 36, 37], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0011", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0012", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [40, 41], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0013", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [42, 43, 44], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0014", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [45], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0015", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [46, 47], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0016", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [48, 49], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0017", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [50, 51], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0018", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [52, 53], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0019", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [54, 55], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0020", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [56, 57], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0021", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [58, 59, 60], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0022", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [61, 62, 63], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0023", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [64, 65, 66], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0024", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [67, 68, 69], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-neodymium#0025", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [70], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0002", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [12, 13, 14], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0003", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [15, 16, 17], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0004", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [18, 19, 20], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0005", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [21, 22, 23], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0006", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [24, 25, 26], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0007", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0008", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [29, 30], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0009", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [31, 32, 33], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0010", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [34, 35, 36], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0011", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [37, 38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0012", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [40, 41, 42], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0013", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [43, 44, 45], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0014", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [46, 47, 48], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0015", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [49, 50], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0016", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [51, 52], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0017", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [53, 54], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0018", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [55, 56], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0019", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [57, 58], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0020", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [59, 60, 61], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0021", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [62, 63, 64], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0022", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [65, 66, 67], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0023", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [68, 69, 70], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0024", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [71, 72, 73], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0025", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [74, 75, 76], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0026", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [77, 78], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0027", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [79, 80], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0028", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [81, 82, 83], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0029", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [84, 85, 86], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0030", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [87, 88, 89], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0031", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [90, 91, 92], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0032", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [93, 94, 95], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-terbium#0033", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [96, 97], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0002", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [12, 13, 14], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0003", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [15, 16], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0004", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [17, 18, 19], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0005", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [20, 21, 22], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0006", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [23, 24, 25], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0007", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [26, 27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0008", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [29, 30, 31], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0009", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [32, 33, 34], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0010", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [35, 36, 37], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0011", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0012", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [40, 41, 42], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0013", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [43, 44, 45], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0014", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [46, 47], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0015", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [48, 49, 50], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0016", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [51, 52, 53], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0017", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [54, 55, 56], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0018", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [57, 58, 59], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0019", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [60, 61], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0020", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [62, 63, 64], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0021", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [65, 66, 67], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0022", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [68], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0023", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [69, 70, 71], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0024", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [72, 73], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0025", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [74, 75, 76], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0026", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [77, 78, 79], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0027", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [80, 81], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0028", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [82, 83], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0029", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [84, 85], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0030", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [86, 87, 88], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0031", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [89, 90, 91], "verdict": "맞음", "problems": []}
+{"set": "size256_notitle", "chunk_id": "wiki-ko-isotopes-of-yttrium#0032", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [92], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-ko-lutetium#0003", "doc_id": "wiki-ko-lutetium", "kind": "infobox", "tables": [26], "rows": [28], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-ko-lutetium#0007", "doc_id": "wiki-ko-lutetium", "kind": "infobox", "tables": [54], "rows": [56, 57, 58, 59], "verdict": "맞음", "problems": []}
 {"set": "size256_notitle", "chunk_id": "wiki-ko-samarium#0003", "doc_id": "wiki-ko-samarium", "kind": "infobox", "tables": [26], "rows": [28], "verdict": "맞음", "problems": []}
@@ -1201,78 +1070,46 @@
 {"set": "size256_title", "chunk_id": "wiki-en-europium#0008", "doc_id": "wiki-en-europium", "kind": "infobox", "tables": [58], "rows": [61, 62, 63, 64, 65, 66, 67], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-en-europium#0009", "doc_id": "wiki-en-europium", "kind": "infobox", "tables": [58], "rows": [68], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0001", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [3], "rows": [6, 7, 8, 9, 10], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0004", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [26, 27], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0005", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [28, 29], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0006", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [30, 31], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0007", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [32, 33], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0008", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [34, 35], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0009", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [36, 37], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0010", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [38], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0011", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [39, 40], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0012", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [41, 42], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0013", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0014", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [44, 45], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0015", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0016", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [47, 48], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0017", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0018", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [50, 51], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0019", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0020", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [53], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0021", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [54, 55], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0022", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [56], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0023", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [57], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0024", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [58, 59], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0025", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [60], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0026", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0027", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [62, 63], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0028", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [64, 65], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0029", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [66, 67], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0030", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0031", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0032", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [70, 71], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0033", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [72, 73], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0034", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [74, 75], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0035", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [76, 77], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0036", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [78, 79], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0037", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [80, 81], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0038", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [82, 83], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0039", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [84, 85], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0040", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [86], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0041", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [87], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0042", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [88], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0043", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [89], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0044", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [90], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0045", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [91, 92], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0046", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [93], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0047", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [94], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0048", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [95], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0049", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [96], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0050", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [97], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0051", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [98], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0052", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [99], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0053", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [100], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0054", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [101, 102], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0055", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [103], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0056", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [104, 105], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0057", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [106], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0058", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [107], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0059", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [108, 109], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0060", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [110], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0061", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [111, 112], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0062", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [113], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0063", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [114], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0064", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [115], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0065", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [116, 117], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0066", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [118, 119], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0067", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [120, 121], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0068", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [122, 123], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0069", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [124, 125], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0070", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [126, 127], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0071", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [128, 129], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0072", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [130, 131], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0073", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [132, 133], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0074", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [134, 135], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0075", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [136, 137], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0004", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [26, 27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0005", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [29, 30, 31], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0006", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [32, 33], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0007", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [34, 35, 36], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0008", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [37, 38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0009", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [40, 41, 42], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0010", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [43, 44, 45], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0011", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [46, 47, 48], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0012", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [49, 50, 51], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0013", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [52, 53, 54], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0014", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [55, 56, 57], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0015", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [58, 59], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0016", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [60, 61, 62], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0017", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [63, 64, 65], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0018", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [66, 67], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0019", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [68, 69, 70], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0020", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [71, 72, 73], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0021", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [74, 75, 76], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0022", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [77, 78, 79], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0023", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [80, 81, 82], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0024", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [83, 84, 85], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0025", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [86, 87, 88], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0026", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [89, 90], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0027", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [91, 92, 93], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0028", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [94, 95, 96], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0029", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [97, 98, 99], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0030", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [100, 101, 102], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0031", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [103, 104, 105], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0032", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [106, 107], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0033", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [108, 109, 110], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0034", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [111, 112, 113], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0035", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [114, 115], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0036", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [116, 117], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0037", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [118, 119, 120], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0038", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [121, 122, 123], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0039", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [124, 125, 126], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0040", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [127, 128, 129], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0041", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [130, 131, 132], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0042", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [133, 134, 135], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-en-isotopes-of-yttrium#0043", "doc_id": "wiki-en-isotopes-of-yttrium", "kind": "table", "tables": [23], "rows": [136, 137], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-en-lanthanum#0004", "doc_id": "wiki-en-lanthanum", "kind": "infobox", "tables": [27], "rows": [29], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-en-lanthanum#0009", "doc_id": "wiki-en-lanthanum", "kind": "infobox", "tables": [60], "rows": [63, 64, 65, 66, 67], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-en-lutetium#0004", "doc_id": "wiki-en-lutetium", "kind": "infobox", "tables": [27], "rows": [29], "verdict": "맞음", "problems": []}
@@ -1300,227 +1137,97 @@
 {"set": "size256_title", "chunk_id": "wiki-ko-erbium#0003", "doc_id": "wiki-ko-erbium", "kind": "infobox", "tables": [26], "rows": [28], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-ko-erbium#0007", "doc_id": "wiki-ko-erbium", "kind": "infobox", "tables": [55], "rows": [57, 58, 59, 60, 61, 62, 63, 64], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-ko-erbium#0008", "doc_id": "wiki-ko-erbium", "kind": "infobox", "tables": [55], "rows": [65, 66, 67], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0002", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [14], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0003", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [15], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0004", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [16], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0005", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [17], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0006", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [18], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0007", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [19], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0008", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [20], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0009", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [21], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0010", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [22], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0011", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [23], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0012", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [24], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0013", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [25], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0014", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [26], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0015", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [27], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0016", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [28], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0017", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [29], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0018", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [30], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0019", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [31], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0020", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [32], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0021", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [33], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0022", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [34], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0023", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [35], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0024", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [36], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0025", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [37], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0026", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [38], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0027", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [39], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0028", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [40], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0029", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [41], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0030", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [42], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0031", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0032", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [44], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0033", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [45], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0034", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0035", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [47], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0036", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [48], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0037", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0038", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [50], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0039", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0040", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0041", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [53], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0042", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [54], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0043", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [55], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0044", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [56], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0045", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [57], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0046", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [58], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0047", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [59], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0048", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [60], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0049", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0050", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [62], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0051", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [63], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0052", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [64], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0053", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [65], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0054", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [66], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0055", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0056", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0057", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0058", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0002", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [12, 13], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0003", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [14], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0004", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [15], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0005", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [16], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0006", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [17], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0007", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [18], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0008", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [19], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0009", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [20], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0010", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [21], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0011", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [22], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0012", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [23], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0013", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [24], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0014", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [25], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0015", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [26], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0016", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [27], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0017", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [28], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0018", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [29], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0019", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [30], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0020", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [31], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0021", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [32], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0022", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [33], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0023", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [34], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0024", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [35], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0025", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [36], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0026", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [37], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0027", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [38], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0028", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [39], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0029", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [40], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0030", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [41], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0031", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [42], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0032", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0033", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [44], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0034", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [45], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0035", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0036", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [47], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0037", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [48], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0038", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0039", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [50], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0040", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0041", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0042", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [53], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0043", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [54], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0044", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [55], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0045", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [56], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0046", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [57], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0047", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [58], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0048", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [59], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0049", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [60], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0050", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0051", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [62], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0052", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [63], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0053", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [64], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0054", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [65], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0055", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [66], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0056", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0057", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0058", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0059", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0060", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [71], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0061", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [72], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0062", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [73], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0063", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [74], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0064", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [75], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0065", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [76], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0066", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [77], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0067", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [78], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0068", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [79], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0069", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [80], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0070", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [81], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0071", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [82], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0072", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [83], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0073", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [84], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0074", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [85, 86], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0075", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [87], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0076", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [88], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0077", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [89], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0078", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [90], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0079", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [91], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0080", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [92], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0081", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [93], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0082", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [94], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0083", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [95], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0084", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [96], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0085", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [97], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0002", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [12], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0003", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [13], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0004", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [14], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0005", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [15], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0006", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [16], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0007", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [17], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0008", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [18], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0009", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [19], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0010", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [20], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0011", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [21], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0012", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [22], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0013", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [23], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0014", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [24], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0015", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [25], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0016", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [26], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0017", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [27], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0018", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [28], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0019", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [29], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0020", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [30], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0021", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [31], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0022", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [32], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0023", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [33], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0024", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [34], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0025", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [35], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0026", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [36], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0027", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [37], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0028", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [38], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0029", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [39], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0030", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [40], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0031", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [41], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0032", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [42], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0033", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [43], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0034", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [44], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0035", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [45], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0036", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [46], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0037", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [47], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0038", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [48], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0039", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [49], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0040", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [50], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0041", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [51], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0042", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [52], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0043", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [53], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0044", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [54], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0045", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [55], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0046", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [56, 57], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0047", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [58], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0048", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [59], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0049", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [60], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0050", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [61], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0051", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [62], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0052", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [63], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0053", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [64], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0054", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [65], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0055", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [66], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0056", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [67], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0057", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [68], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0058", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [69], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0059", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [70], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0060", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [71], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0061", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [72], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0062", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [73], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0063", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [74], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0064", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [75], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0065", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [76], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0066", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [77], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0067", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [78], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0068", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [79], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0069", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [80], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0070", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [81], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0071", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [82], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0072", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [83], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0073", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [84], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0074", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [85], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0075", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [86], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0076", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [87], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0077", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [88], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0078", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [89], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0079", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [90], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0080", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [91], "verdict": "맞음", "problems": []}
-{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0081", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [92], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0002", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [14, 15], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0003", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [16], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0004", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [17, 18], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0005", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [19, 20], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0006", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [21, 22], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0007", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [23], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0008", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [24, 25], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0009", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [26, 27], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0010", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [28, 29], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0011", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [30, 31], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0012", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [32, 33], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0013", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [34, 35], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0014", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [36, 37], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0015", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0016", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [40, 41], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0017", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [42, 43, 44], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0018", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [45], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0019", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [46, 47], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0020", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [48, 49], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0021", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [50, 51], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0022", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [52, 53], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0023", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [54, 55], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0024", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [56, 57], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0025", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [58, 59], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0026", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [60, 61, 62], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0027", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [63, 64, 65], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0028", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [66, 67], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0029", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [68, 69], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-neodymium#0030", "doc_id": "wiki-ko-isotopes-of-neodymium", "kind": "table", "tables": [11], "rows": [70], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0002", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [12, 13, 14], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0003", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [15, 16, 17], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0004", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [18, 19, 20], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0005", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [21, 22, 23], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0006", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [24, 25, 26], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0007", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0008", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [29, 30], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0009", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [31, 32, 33], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0010", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [34, 35, 36], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0011", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [37, 38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0012", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [40, 41, 42], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0013", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [43, 44, 45], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0014", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [46, 47, 48], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0015", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [49, 50], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0016", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [51, 52], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0017", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [53, 54], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0018", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [55, 56], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0019", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [57, 58], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0020", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [59, 60, 61], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0021", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [62, 63, 64], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0022", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [65, 66, 67], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0023", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [68, 69, 70], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0024", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [71, 72, 73], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0025", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [74, 75, 76], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0026", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [77, 78], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0027", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [79, 80], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0028", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [81, 82, 83], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0029", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [84, 85, 86], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0030", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [87, 88, 89], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0031", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [90, 91, 92], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0032", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [93, 94, 95], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-terbium#0033", "doc_id": "wiki-ko-isotopes-of-terbium", "kind": "table", "tables": [9], "rows": [96, 97], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0002", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [12, 13, 14], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0003", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [15, 16], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0004", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [17, 18, 19], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0005", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [20, 21, 22], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0006", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [23, 24, 25], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0007", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [26, 27, 28], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0008", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [29, 30, 31], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0009", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [32, 33, 34], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0010", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [35, 36, 37], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0011", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [38, 39], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0012", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [40, 41, 42], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0013", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [43, 44, 45], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0014", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [46, 47], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0015", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [48, 49, 50], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0016", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [51, 52, 53], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0017", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [54, 55, 56], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0018", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [57, 58, 59], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0019", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [60, 61, 62], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0020", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [63, 64, 65], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0021", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [66, 67, 68], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0022", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [69, 70, 71], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0023", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [72, 73], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0024", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [74, 75, 76], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0025", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [77, 78, 79], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0026", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [80, 81], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0027", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [82, 83], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0028", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [84, 85], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0029", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [86, 87, 88], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0030", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [89, 90, 91], "verdict": "맞음", "problems": []}
+{"set": "size256_title", "chunk_id": "wiki-ko-isotopes-of-yttrium#0031", "doc_id": "wiki-ko-isotopes-of-yttrium", "kind": "table", "tables": [9], "rows": [92], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-ko-lutetium#0003", "doc_id": "wiki-ko-lutetium", "kind": "infobox", "tables": [26], "rows": [28], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-ko-lutetium#0007", "doc_id": "wiki-ko-lutetium", "kind": "infobox", "tables": [54], "rows": [56, 57, 58, 59], "verdict": "맞음", "problems": []}
 {"set": "size256_title", "chunk_id": "wiki-ko-samarium#0003", "doc_id": "wiki-ko-samarium", "kind": "infobox", "tables": [26], "rows": [28], "verdict": "맞음", "problems": []}

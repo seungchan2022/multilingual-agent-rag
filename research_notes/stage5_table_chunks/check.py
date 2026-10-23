@@ -11,6 +11,8 @@
     머리글 바로 위에 있는지, 행이 그 표의 원문 줄 그대로 원문 순서로 머리글 아래 이어지는지, 줄마다 칸 수가 머리글과 같은지,
     정보 상자 청크는 묶음 이름 줄로 시작하는지 본다. 묶음마다 표의 행이 정확히 한 청크에 드는지(빠짐·겹침 없음)도 본다.
     표 예외 1(목록으로 바꾼 표)과 예외 2(첫 열을 네 열로 나눈 표)는 원문에서 따로 기대값을 만들어 견준다.
+    들뜬 상태 행(decisions/stage4.md 2026-10-23 "들뜬 상태 행의 값에 이름을 붙이고" 줄)은 이름을 붙일 표와 줄을 원문 HTML의
+    칸 출처로 따로 찾아 기대값을 만든다. 그 표에서는 둘째 머리글 줄이 청크에 없어야 한다.
 결과: 같은 폴더의 verdicts.jsonl(청크마다 판정), tables.json(표마다 판정과 행 모양), output.txt(요약).
 """
 import copy
@@ -160,6 +162,30 @@ def check_table(snap, md_start, md_lines):
     while top < len(kept) and own_cells(rows[kept[top]]) and all(x.name == "th" for x in own_cells(rows[kept[top]])):
         top += 1
     rec["header_rows"] = top
+    # 이름 구간(decisions/stage4.md 2026-10-23 "들뜬 상태 행의 값에 이름을 붙이고" 줄): 둘째 머리글 줄에서 한 원래 칸이
+    # 이웃 열 여럿에 걸치고, 그 열들의 첫째 머리글 글자가 서로 다른 곳. 원문 HTML의 칸 출처로 따로 찾는다
+    alt = []
+    if top >= 2:
+        r1, r2 = kept[0], kept[1]
+        j = 0
+        while j < len(mapping):
+            k = j
+            while k + 1 < len(mapping) and grid[r2][mapping[k + 1]][0] == grid[r2][mapping[j]][0]:
+                k += 1
+            if k > j and len({grid[r1][mapping[x]][1] for x in range(j, k + 1)}) > 1:
+                alt.append((j, k, grid[r2][mapping[j]][1]))
+            j = k + 1
+    inside = {x for j, k, _ in alt for x in range(j, k + 1)}
+    rec["alt_runs"] = [[j + 1, k + 1, label] for j, k, label in alt]
+    rec["drop_header2"] = bool(alt) and all(grid[kept[1]][mapping[x]][1] == grid[kept[0]][mapping[x]][1]
+                                            for x in range(len(mapping)) if x not in inside)
+    if alt and not rec["drop_header2"]:
+        rec["problems"].append("이름 구간이 있는데 둘째 머리글 줄이 구간 밖에서 첫째 줄과 다르다")
+    # 이름을 붙일 줄: 값 줄에서 한 원래 칸이 이름 구간의 열 전부에 걸친 줄
+    rec["isomer_lines"] = [md_no[i] for i in range(top, len(kept))
+                           if any(grid[kept[i]][mapping[j]][0] is not None
+                                  and len({grid[kept[i]][mapping[x]][0] for x in range(j, k + 1)}) == 1
+                                  for j, k, _ in alt)]
     # 행 모양: 값 줄마다 같은 원래 칸에서 나온 이웃 마크다운 열의 길이. 1만 있으면 보통 줄
     shapes = Counter()
     examples = {}
@@ -202,6 +228,19 @@ def ex2_expected(snap, info, md_file):
             problems.append(f"{line}줄: 원문 조각 {frags}을 이은 글이 마크다운 첫 칸 {first!r}와 다르다")
         out[line] = {"frags": frags, "rest": md_cells(md_file[line - 1])[1:]}
     return out, problems
+
+
+def expected_row(t, src, line):
+    """청크 글에 있어야 하는 행: 들뜬 상태 행은 이름 구간의 첫 칸에 '이름 값'을 쓰고 나머지 칸을 비운다. 다른 행은 원문 그대로."""
+    if line not in t.get("isomer_lines", []):
+        return src[line - 1].rstrip()
+    cells = md_cells(src[line - 1])
+    for j, k, label in t["alt_runs"]:
+        j, k = j - 1, k - 1
+        cells[j] = f"{label} {cells[j]}"
+        for x in range(j + 1, k + 1):
+            cells[x] = ""
+    return build.md_row(cells)
 
 
 def id_of(info, cell):
@@ -281,6 +320,8 @@ def main():
     for (did, start), rec in tables.items():
         lines = md[did]
         rec["header_lines"] = [start, start + 1] + list(range(start + 2, start + 1 + (rec.get("header_rows") or 1)))
+        # 청크에 붙어야 하는 머리글 줄: 이름 구간이 있는 표는 둘째 머리글 줄을 붙이지 않는다
+        rec["chunk_header_lines"] = [l for l in rec["header_lines"] if not (rec.get("drop_header2") and l == start + 2)]
         rec["name_line"] = rec["group_line"] = None
         up = start - 2  # 표 바로 위 빈 줄의 위 줄(1부터)
         if start <= box_end[did] and up >= 1 and lines[start - 2] == "":
@@ -344,9 +385,12 @@ def main():
                             problems.append(f"예외 1 조각의 이름 {n!r}이 나온 {line_of[n]}줄이 줄 목록에 없다")
                     ex1_seq += body[1:]
                     continue
-                missing_head = [l for l in t["header_lines"] if l not in ls]
+                missing_head = [l for l in t["chunk_header_lines"] if l not in ls]
                 if missing_head:
                     problems.append(f"표 {key[1]}: 머리글 줄 {missing_head}이 줄 목록에 없다")
+                extra_head = [l for l in t["header_lines"] if l not in t["chunk_header_lines"] and l in ls]
+                if extra_head:
+                    problems.append(f"표 {key[1]}: 붙이지 않아야 할 머리글 줄 {extra_head}이 줄 목록에 있다")
                 if key == EX2:
                     head = md_cells(src[t["md_line"] - 1])
                     want = ["| " + " | ".join(EX2_HEAD + head[1:]) + " |", "|" + "---|" * (len(head) + 3)]
@@ -370,7 +414,7 @@ def main():
                         elif got != w:
                             problems.append(f"예외 2 {(rows_in[k - 2] if k >= 2 else '머리글')}: 기대 {w!r}, 실제 {got!r}")
                     continue
-                block = [src[l - 1].rstrip() for l in t["header_lines"]] + [src[l - 1].rstrip() for l in rows_in]
+                block = [src[l - 1].rstrip() for l in t["chunk_header_lines"]] + [expected_row(t, src, l) for l in rows_in]
                 i = next((i for i in range(len(body)) if body[i:i + len(block)] == block), None)
                 if i is None:
                     problems.append(f"표 {key[1]}: 머리글 + 행이 원문 그대로 이어진 덩어리가 청크 글에 없다")
@@ -425,8 +469,9 @@ def main():
     for k, t in sorted(tables.items()):
         shapes = ", ".join(f"{'·'.join(map(str, s['runs'])) if any(x > 1 for x in s['runs']) else '보통'} {s['count']}"
                            for s in t.get("row_shapes", []))
+        alt = f", 이름 구간 {t['alt_runs']}, 이름 붙일 줄 {len(t['isomer_lines'])}" if t.get("alt_runs") else ""
         out.append(f"{k[0]}:{k[1]}  원문 {t['html_rows']}줄×{t['html_cols']}열 → 마크다운 {t['md_rows']}줄×{t['md_cols']}열, "
-                   f"머리글 {t.get('header_rows')}줄, 뺀 열 {t.get('dropped')}, 행 모양 [{shapes}], "
+                   f"머리글 {t.get('header_rows')}줄, 뺀 열 {t.get('dropped')}, 행 모양 [{shapes}]{alt}, "
                    f"문제 {t['problems'] or '없음'}")
     out.append("")
     out.append("나. 청크")

@@ -56,10 +56,24 @@ def run(label, name, mutate):
     print(("잡음 " if caught else "놓침 ") + label + " | " + line[:220])
 
 
-def drop_header2(cs):  # 터븀 128 조각에서 둘째 머리글 줄(11줄)을 뺀다
+def drop_header1(cs):  # 터븀 128 조각에서 첫째 머리글 줄(9줄)을 뺀다
     c = find(cs, T, 40)
-    c["lines"].remove(11)
-    c["text"] = "\n".join(l for l in c["text"].split("\n") if not l.startswith("| 핵자 수 | 들뜬 에너지"))
+    c["lines"].remove(9)
+    c["text"] = "\n".join(l for l in c["text"].split("\n") if l != md_lines(T)[8])
+
+
+def readd_header2(cs):  # 터븀 조각에 붙이지 않아야 할 둘째 머리글 줄(11줄)을 다시 붙인다
+    c = find(cs, T, 40)
+    c["lines"] = sorted(set(c["lines"]) | {11})
+    lines = c["text"].split("\n")
+    k = next(i for i, l in enumerate(lines) if l.startswith("|---"))
+    lines.insert(k + 1, md_lines(T)[10])
+    c["text"] = "\n".join(lines)
+
+
+def unlabel_isomer(cs):  # 들뜬 상태 행(26줄 ¹⁴²ᵐ²Tb)을 이름을 붙이기 전의 원문 줄로 되돌린다
+    c = find(cs, T, 26)
+    c["text"] = "\n".join(md_lines(T)[25] if l.startswith("| ¹⁴²ᵐ²Tb |") else l for l in c["text"].split("\n"))
 
 
 def swap_cells(cs):  # 영어 툴륨 정보 상자 표의 한 행에서 칸 둘을 바꾼다(줄 목록은 그대로)
@@ -112,7 +126,9 @@ def group_line(cs):  # 정보 상자 조각에서 묶음 이름 줄을 뺀다
 
 
 def main():
-    for label, name, f in [("둘째 머리글 줄 빠짐", "size128_notitle", drop_header2),
+    for label, name, f in [("첫째 머리글 줄 빠짐", "size128_notitle", drop_header1),
+                           ("둘째 머리글 줄이 다시 붙음", "size128_notitle", readd_header2),
+                           ("들뜬 상태 행의 이름 빠짐", "size256_title", unlabel_isomer),
                            ("칸 자리 바뀜", "size256_notitle", swap_cells),
                            ("행 빠짐", "size128_notitle", drop_row), ("행 겹침", "size128_notitle", dup_row),
                            ("다른 표 머리글", "size128_notitle", wrong_header),
