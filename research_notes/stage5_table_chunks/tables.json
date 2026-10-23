@@ -1,0 +1,2082 @@
+[
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-dysprosium",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-dysprosium:27"
+ },
+ {
+  "html_rows": 13,
+  "html_cols": 5,
+  "kept_rows": 13,
+  "md_rows": 13,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 63
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 7,
+    "example_line": 64
+   }
+  ],
+  "doc_id": "wiki-en-dysprosium",
+  "md_line": 60,
+  "md_end": 73,
+  "caption_line": null,
+  "header_lines": [
+   60,
+   61,
+   62
+  ],
+  "name_line": null,
+  "group_line": 58,
+  "key": "wiki-en-dysprosium:60"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-europium",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-europium:27"
+ },
+ {
+  "html_rows": 10,
+  "html_cols": 5,
+  "kept_rows": 10,
+  "md_rows": 10,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 7,
+    "example_line": 61
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 1,
+    "example_line": 65
+   }
+  ],
+  "doc_id": "wiki-en-europium",
+  "md_line": 58,
+  "md_end": 68,
+  "caption_line": null,
+  "header_lines": [
+   58,
+   59,
+   60
+  ],
+  "name_line": null,
+  "group_line": 56,
+  "key": "wiki-en-europium:58"
+ },
+ {
+  "html_rows": 7,
+  "html_cols": 5,
+  "kept_rows": 7,
+  "md_rows": 7,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 6
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 1,
+    "example_line": 8
+   }
+  ],
+  "doc_id": "wiki-en-isotopes-of-yttrium",
+  "md_line": 3,
+  "md_end": 10,
+  "caption_line": null,
+  "header_lines": [
+   3,
+   4,
+   5
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-en-isotopes-of-yttrium:3"
+ },
+ {
+  "html_rows": 115,
+  "html_cols": 20,
+  "kept_rows": 114,
+  "md_rows": 114,
+  "md_cols": 10,
+  "moved_rows": [
+   115
+  ],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "dropped": [
+   [
+    11,
+    "값이 빈 열"
+   ],
+   [
+    12,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    13,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    14,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    15,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    16,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    17,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    18,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    19,
+    "왼쪽 열의 되풀이"
+   ],
+   [
+    20,
+    "왼쪽 열의 되풀이"
+   ]
+  ],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 59,
+    "example_line": 26
+   },
+   {
+    "runs": [
+     1,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 52,
+    "example_line": 34
+   },
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     3,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 65
+   }
+  ],
+  "doc_id": "wiki-en-isotopes-of-yttrium",
+  "md_line": 23,
+  "md_end": 137,
+  "caption_line": null,
+  "header_lines": [
+   23,
+   24,
+   25
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-en-isotopes-of-yttrium:23"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-lanthanum",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-lanthanum:27"
+ },
+ {
+  "html_rows": 7,
+  "html_cols": 5,
+  "kept_rows": 7,
+  "md_rows": 7,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 63
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 1,
+    "example_line": 66
+   }
+  ],
+  "doc_id": "wiki-en-lanthanum",
+  "md_line": 60,
+  "md_end": 67,
+  "caption_line": null,
+  "header_lines": [
+   60,
+   61,
+   62
+  ],
+  "name_line": null,
+  "group_line": 58,
+  "key": "wiki-en-lanthanum:60"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-lutetium",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-lutetium:27"
+ },
+ {
+  "html_rows": 7,
+  "html_cols": 5,
+  "kept_rows": 7,
+  "md_rows": 7,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 62
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 1,
+    "example_line": 64
+   }
+  ],
+  "doc_id": "wiki-en-lutetium",
+  "md_line": 59,
+  "md_end": 66,
+  "caption_line": null,
+  "header_lines": [
+   59,
+   60,
+   61
+  ],
+  "name_line": null,
+  "group_line": 57,
+  "key": "wiki-en-lutetium:59"
+ },
+ {
+  "html_rows": 12,
+  "html_cols": 2,
+  "kept_rows": 12,
+  "md_rows": 12,
+  "md_cols": 2,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2
+  ],
+  "dropped": [],
+  "header_rows": 0,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1
+    ],
+    "count": 12,
+    "example_line": 56
+   }
+  ],
+  "doc_id": "wiki-en-neutron-capture-therapy",
+  "md_line": 56,
+  "md_end": 68,
+  "caption_line": 54,
+  "header_lines": [
+   56,
+   57
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-en-neutron-capture-therapy:56"
+ },
+ {
+  "html_rows": 9,
+  "html_cols": 5,
+  "kept_rows": 8,
+  "md_rows": 8,
+  "md_cols": 4,
+  "moved_rows": [
+   9
+  ],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "dropped": [
+   [
+    5,
+    "값이 빈 열"
+   ]
+  ],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 7,
+    "example_line": 143
+   }
+  ],
+  "doc_id": "wiki-en-neutron-capture-therapy",
+  "md_line": 141,
+  "md_end": 149,
+  "caption_line": 139,
+  "header_lines": [
+   141,
+   142
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-en-neutron-capture-therapy:141"
+ },
+ {
+  "html_rows": 15,
+  "html_cols": 4,
+  "kept_rows": 15,
+  "md_rows": 15,
+  "md_cols": 4,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 14,
+    "example_line": 189
+   }
+  ],
+  "doc_id": "wiki-en-neutron-capture-therapy",
+  "md_line": 187,
+  "md_end": 202,
+  "caption_line": null,
+  "header_lines": [
+   187,
+   188
+  ],
+  "name_line": null,
+  "group_line": null,
+  "ex2_frags": {
+   "189": [
+    "Sumitomo Heavy Industries",
+    "NeuCure",
+    "⁹Be(p,n)⁹B",
+    "Cyclotron"
+   ],
+   "190": [
+    "Sumitomo Heavy Industries",
+    "NeuCure",
+    "⁹Be(p,n)⁹B",
+    "Cyclotron"
+   ],
+   "191": [
+    "Sumitomo Heavy Industries",
+    "NeuCure",
+    "⁹Be(p,n)⁹B",
+    "Cyclotron"
+   ],
+   "192": [
+    "Sumitomo Heavy Industries",
+    "NeuCure",
+    "⁹Be(p,n)⁹B",
+    "Cyclotron"
+   ],
+   "193": [
+    "Cancer Intelligence Care Systems",
+    "⁷Li(p,n)⁷Be",
+    "RFQ"
+   ],
+   "194": [
+    "Cancer Intelligence Care Systems",
+    "⁷Li(p,n)⁷Be",
+    "RFQ"
+   ],
+   "195": [
+    "Neuboron Medical Group",
+    "NeuPex",
+    "⁷Li(p,n)⁷Be",
+    "Tandem Electrostatic"
+   ],
+   "196": [
+    "Dawon Medax",
+    "⁹Be(p,n)⁹B",
+    "LINAC"
+   ],
+   "197": [
+    "University of Tsukuba",
+    "iBNCT",
+    "⁹Be(p,n)⁹B",
+    "LINAC"
+   ],
+   "198": [
+    "Neutron Therapeutics",
+    "nuBeam",
+    "⁷Li(p,n)⁷Be",
+    "Single-ended electrostatic"
+   ],
+   "199": [
+    "Neutron Therapeutics",
+    "nuBeam",
+    "⁷Li(p,n)⁷Be",
+    "Single-ended electrostatic"
+   ],
+   "200": [
+    "CASBNCT",
+    "D-BNCT",
+    "⁷Li(p,n)⁷Be",
+    "LINAC"
+   ],
+   "201": [
+    "Lanzhou University",
+    "⁷Li(p,n)⁷Be",
+    "LINAC"
+   ],
+   "202": [
+    "TAE Life Sciences",
+    "Alphabeam",
+    "⁷Li(p,n)⁷Be",
+    "Tandem Electrostatic"
+   ]
+  },
+  "key": "wiki-en-neutron-capture-therapy:187"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-praseodymium",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-praseodymium:27"
+ },
+ {
+  "html_rows": 6,
+  "html_cols": 5,
+  "kept_rows": 6,
+  "md_rows": 6,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 1,
+    "example_line": 62
+   },
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 3,
+    "example_line": 63
+   }
+  ],
+  "doc_id": "wiki-en-praseodymium",
+  "md_line": 59,
+  "md_end": 65,
+  "caption_line": null,
+  "header_lines": [
+   59,
+   60,
+   61
+  ],
+  "name_line": null,
+  "group_line": 57,
+  "key": "wiki-en-praseodymium:59"
+ },
+ {
+  "html_rows": 15,
+  "html_cols": 3,
+  "kept_rows": 15,
+  "md_rows": 15,
+  "md_cols": 3,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1
+    ],
+    "count": 14,
+    "example_line": 24
+   }
+  ],
+  "doc_id": "wiki-en-samarium-cobalt-magnet",
+  "md_line": 22,
+  "md_end": 37,
+  "caption_line": 20,
+  "header_lines": [
+   22,
+   23
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-en-samarium-cobalt-magnet:22"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-thulium",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-thulium:27"
+ },
+ {
+  "html_rows": 7,
+  "html_cols": 5,
+  "kept_rows": 7,
+  "md_rows": 7,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 62
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 1,
+    "example_line": 64
+   }
+  ],
+  "doc_id": "wiki-en-thulium",
+  "md_line": 59,
+  "md_end": 66,
+  "caption_line": null,
+  "header_lines": [
+   59,
+   60,
+   61
+  ],
+  "name_line": null,
+  "group_line": 57,
+  "key": "wiki-en-thulium:59"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 29
+   }
+  ],
+  "doc_id": "wiki-en-ytterbium",
+  "md_line": 27,
+  "md_end": 29,
+  "caption_line": null,
+  "header_lines": [
+   27,
+   28
+  ],
+  "name_line": 25,
+  "group_line": 15,
+  "key": "wiki-en-ytterbium:27"
+ },
+ {
+  "html_rows": 12,
+  "html_cols": 5,
+  "kept_rows": 12,
+  "md_rows": 12,
+  "md_cols": 5,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 3,
+    "example_line": 63
+   },
+   {
+    "runs": [
+     1,
+     1,
+     3
+    ],
+    "count": 7,
+    "example_line": 64
+   }
+  ],
+  "doc_id": "wiki-en-ytterbium",
+  "md_line": 60,
+  "md_end": 72,
+  "caption_line": null,
+  "header_lines": [
+   60,
+   61,
+   62
+  ],
+  "name_line": null,
+  "group_line": 58,
+  "key": "wiki-en-ytterbium:60"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-dysprosium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-dysprosium:26"
+ },
+ {
+  "html_rows": 9,
+  "html_cols": 6,
+  "kept_rows": 9,
+  "md_rows": 9,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 58
+   },
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 7,
+    "example_line": 59
+   }
+  ],
+  "doc_id": "wiki-ko-dysprosium",
+  "md_line": 56,
+  "md_end": 65,
+  "caption_line": null,
+  "header_lines": [
+   56,
+   57
+  ],
+  "name_line": null,
+  "group_line": 54,
+  "key": "wiki-ko-dysprosium:56"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-erbium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-erbium:26"
+ },
+ {
+  "html_rows": 12,
+  "html_cols": 6,
+  "kept_rows": 12,
+  "md_rows": 12,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 5,
+    "example_line": 57
+   },
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 6,
+    "example_line": 58
+   }
+  ],
+  "doc_id": "wiki-ko-erbium",
+  "md_line": 55,
+  "md_end": 67,
+  "caption_line": null,
+  "header_lines": [
+   55,
+   56
+  ],
+  "name_line": null,
+  "group_line": 53,
+  "key": "wiki-ko-erbium:55"
+ },
+ {
+  "html_rows": 59,
+  "html_cols": 10,
+  "kept_rows": 59,
+  "md_rows": 59,
+  "md_cols": 10,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "dropped": [],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 37,
+    "example_line": 14
+   },
+   {
+    "runs": [
+     1,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 15,
+    "example_line": 28
+   },
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     3,
+     1,
+     1,
+     1
+    ],
+    "count": 5,
+    "example_line": 48
+   }
+  ],
+  "doc_id": "wiki-ko-isotopes-of-neodymium",
+  "md_line": 11,
+  "md_end": 70,
+  "caption_line": null,
+  "header_lines": [
+   11,
+   12,
+   13
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-ko-isotopes-of-neodymium:11"
+ },
+ {
+  "html_rows": 88,
+  "html_cols": 10,
+  "kept_rows": 88,
+  "md_rows": 88,
+  "md_cols": 9,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "dropped": [
+   [
+    10,
+    "값이 빈 열"
+   ]
+  ],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 47,
+    "example_line": 12
+   },
+   {
+    "runs": [
+     1,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 38,
+    "example_line": 21
+   },
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     3,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 85
+   }
+  ],
+  "doc_id": "wiki-ko-isotopes-of-terbium",
+  "md_line": 9,
+  "md_end": 97,
+  "caption_line": null,
+  "header_lines": [
+   9,
+   10,
+   11
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-ko-isotopes-of-terbium:9"
+ },
+ {
+  "html_rows": 83,
+  "html_cols": 10,
+  "kept_rows": 83,
+  "md_rows": 83,
+  "md_cols": 9,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "dropped": [
+   [
+    10,
+    "값이 빈 열"
+   ]
+  ],
+  "header_rows": 2,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 41,
+    "example_line": 12
+   },
+   {
+    "runs": [
+     1,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 39,
+    "example_line": 16
+   },
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     3,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 45
+   }
+  ],
+  "doc_id": "wiki-ko-isotopes-of-yttrium",
+  "md_line": 9,
+  "md_end": 92,
+  "caption_line": null,
+  "header_lines": [
+   9,
+   10,
+   11
+  ],
+  "name_line": null,
+  "group_line": null,
+  "key": "wiki-ko-isotopes-of-yttrium:9"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-lutetium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-lutetium:26"
+ },
+ {
+  "html_rows": 5,
+  "html_cols": 6,
+  "kept_rows": 5,
+  "md_rows": 5,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 3,
+    "example_line": 56
+   },
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 1,
+    "example_line": 58
+   }
+  ],
+  "doc_id": "wiki-ko-lutetium",
+  "md_line": 54,
+  "md_end": 59,
+  "caption_line": null,
+  "header_lines": [
+   54,
+   55
+  ],
+  "name_line": null,
+  "group_line": 52,
+  "key": "wiki-ko-lutetium:54"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-samarium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-samarium:26"
+ },
+ {
+  "html_rows": 9,
+  "html_cols": 6,
+  "kept_rows": 9,
+  "md_rows": 9,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 4,
+    "example_line": 58
+   },
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 59
+   }
+  ],
+  "doc_id": "wiki-ko-samarium",
+  "md_line": 56,
+  "md_end": 65,
+  "caption_line": null,
+  "header_lines": [
+   56,
+   57
+  ],
+  "name_line": null,
+  "group_line": 54,
+  "key": "wiki-ko-samarium:56"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-thulium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-thulium:26"
+ },
+ {
+  "html_rows": 6,
+  "html_cols": 6,
+  "kept_rows": 6,
+  "md_rows": 6,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 56
+   },
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 1,
+    "example_line": 58
+   }
+  ],
+  "doc_id": "wiki-ko-thulium",
+  "md_line": 54,
+  "md_end": 60,
+  "caption_line": null,
+  "header_lines": [
+   54,
+   55
+  ],
+  "name_line": null,
+  "group_line": 52,
+  "key": "wiki-ko-thulium:54"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-ytterbium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-ytterbium:26"
+ },
+ {
+  "html_rows": 12,
+  "html_cols": 6,
+  "kept_rows": 12,
+  "md_rows": 12,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 4,
+    "example_line": 59
+   },
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 7,
+    "example_line": 60
+   }
+  ],
+  "doc_id": "wiki-ko-ytterbium",
+  "md_line": 57,
+  "md_end": 69,
+  "caption_line": null,
+  "header_lines": [
+   57,
+   58
+  ],
+  "name_line": null,
+  "group_line": 55,
+  "key": "wiki-ko-ytterbium:57"
+ },
+ {
+  "html_rows": 2,
+  "html_cols": 7,
+  "kept_rows": 2,
+  "md_rows": 2,
+  "md_cols": 7,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 1,
+    "example_line": 28
+   }
+  ],
+  "doc_id": "wiki-ko-yttrium",
+  "md_line": 26,
+  "md_end": 28,
+  "caption_line": null,
+  "header_lines": [
+   26,
+   27
+  ],
+  "name_line": 24,
+  "group_line": 14,
+  "key": "wiki-ko-yttrium:26"
+ },
+ {
+  "html_rows": 10,
+  "html_cols": 6,
+  "kept_rows": 10,
+  "md_rows": 10,
+  "md_cols": 6,
+  "moved_rows": [],
+  "spanned_rows": [],
+  "problems": [],
+  "mapping": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "dropped": [],
+  "header_rows": 1,
+  "row_shapes": [
+   {
+    "runs": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "count": 8,
+    "example_line": 57
+   },
+   {
+    "runs": [
+     1,
+     1,
+     4
+    ],
+    "count": 1,
+    "example_line": 61
+   }
+  ],
+  "doc_id": "wiki-ko-yttrium",
+  "md_line": 55,
+  "md_end": 65,
+  "caption_line": null,
+  "header_lines": [
+   55,
+   56
+  ],
+  "name_line": null,
+  "group_line": 53,
+  "key": "wiki-ko-yttrium:55"
+ }
+]
