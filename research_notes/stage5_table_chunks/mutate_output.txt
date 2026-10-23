@@ -1,0 +1,13 @@
+잡음 둘째 머리글 줄 빠짐 | size128_notitle: 표가 든 청크 434, 틀림 1, 행 빠짐·겹침 없음
+잡음 칸 자리 바뀜 | size256_notitle: 표가 든 청크 304, 틀림 1, 행 빠짐·겹침 없음
+잡음 행 빠짐 | size128_notitle: 표가 든 청크 434, 틀림 0, 행 빠짐·겹침 ['wiki-ko-isotopes-of-terbium:9 행 [40]의 든 청크 수 [0]']
+잡음 행 겹침 | size128_notitle: 표가 든 청크 434, 틀림 0, 행 빠짐·겹침 ['wiki-ko-isotopes-of-terbium:9 행 [40]의 든 청크 수 [2]']
+잡음 다른 표 머리글 | size128_notitle: 표가 든 청크 434, 틀림 1, 행 빠짐·겹침 없음
+잡음 표 이름 줄 빠짐 | size128_title: 표가 든 청크 458, 틀림 1, 행 빠짐·겹침 없음
+잡음 예외 2 칸 바뀜 | size256_title: 표가 든 청크 340, 틀림 1, 행 빠짐·겹침 없음
+잡음 예외 1 순서 바뀜 | size128_notitle: 표가 든 청크 434, 틀림 0, 행 빠짐·겹침 ["예외 1 이름 순서가 기대와 다르다: ['Boron nitride nanotubes', 'Boric acid', 'Boron-containing immunoliposomes and liposomes', 'Boron-containing lipiodol', 'Boron-containing nanoparticles'
+잡음 묶음 이름 줄 빠짐 | size256_notitle: 표가 든 청크 304, 틀림 1, 행 빠짐·겹침 없음
+잡음 변환: 한 행에서 칸 둘 바뀜 | ["마크다운 4열의 짝 HTML 열이 없다. 다음 열과의 어긋남(줄, 마크다운, 원문): [(29, '~1 s', '143.93305(3)')]"]
+잡음 변환: 한 행에서 칸이 왼쪽으로 밀림 | ["마크다운 4열의 짝 HTML 열이 없다. 다음 열과의 어긋남(줄, 마크다운, 원문): [(29, '~1 s', '143.93305(3)')]"]
+잡음 변환: 행 하나 빠짐 | ['줄 수가 다르다: 원문(뺀 줄 제외) 88, 마크다운 87']
+문제 없음(기대대로) 변환 대조: 망가뜨리지 않은 표 | []
