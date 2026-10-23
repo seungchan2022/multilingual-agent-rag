@@ -67,7 +67,7 @@
   - 셋 다 잃은 값이 없다.
 - **표 예외 1**(`wiki-en-neutron-capture-therapy` 54~68줄): 이름 23개가 표 제목 아래에 왼쪽 열부터 위에서 아래로 놓였다. 이 순서는 알파벳 순서와 같다(Boric acid … Boronated sugars, Boronated unnatural amino acids … Transferrin-polyethylene glycol liposomes). 조각마다 표 제목이 붙는다. 맞음.
 - **표 예외 2**(같은 문서 187~202줄): 원문 첫 열 칸은 `<p>` 밖의 제조사 이름과 `<p>`마다 하나인 제품·반응·가속기 종류로 되어 있다. 청크의 네 열은 이 조각과 같다.
-  - 조각이 셋뿐인 세 행(193·194줄 Cancer Intelligence Care Systems, 196줄 Dawon Medax, 201줄 Lanzhou University)을 원문에서 읽었다. 둘째 조각은 반응식(`⁷Li(p,n)⁷Be`, `⁹Be(p,n)⁹B`)이고, 셋째 조각은 가속기 종류(RFQ, LINAC)다. 그래서 빠진 것은 제품 이름이고, 제품 칸을 비운 처리가 맞다.
+  - 조각이 셋뿐인 네 행(193·194줄 Cancer Intelligence Care Systems, 196줄 Dawon Medax, 201줄 Lanzhou University)을 원문에서 읽었다. 둘째 조각은 반응식(`⁷Li(p,n)⁷Be`, `⁹Be(p,n)⁹B`)이고, 셋째 조각은 가속기 종류(RFQ, LINAC)다. 그래서 빠진 것은 제품 이름이고, 제품 칸을 비운 처리가 맞다.
 
 ## 결론
 
