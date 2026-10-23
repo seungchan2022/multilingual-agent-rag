@@ -9,6 +9,8 @@
   A : 영어 지시문 하나(계산 줄, 언어 줄 포함)
   B : 한국어 지시문(계산 줄 포함) 그대로, 질문 끝에 질문 언어의 한 문장을 붙임
   C : 질문 언어에 맞는 지시문(한국어판, 영어판)을 바꿔 끼움
+  A_ctx : A 지시문 끝에 근거 글 부분(영어)을 붙이고, 청크 대신 질문 파일의 근거 줄(표 행이면 머리글 줄을 앞에)을 넣음
+          (decisions/stage4.md 2026-10-23 "가져온 청크를 넣는 부분도 영어로" 줄)
 v1이 아니면 결과는 results_<후보>.jsonl, summary_<후보>.json에 쓴다.
 """
 import json
@@ -50,6 +52,20 @@ SYSTEM_EN = (
     "if it is in English, write them in English."
 )
 SUFFIX_B = {"en": "\n\nAnswer in English.", "ko": "\n\n한국어로 답하라."}
+CONTEXT_EN = "\n\nAnswer based on the reference passages below.\nReference passages:\n{passages}"
+MARKDOWN = ROOT / "data" / "corpus" / "markdown"
+
+
+def passages_for(q):
+    """질문 파일의 근거 줄을 청크처럼 적는다. 표 행이면 그 표의 머리글 줄(첫 줄)을 앞에 붙인다."""
+    out = []
+    for i, e in enumerate(q["evidence"], 1):
+        ls = (MARKDOWN / f"{e['doc_id']}.md").read_text(encoding="utf-8").split("\n")
+        h = e["table_header_line"]
+        body = (ls[h - 1] + "\n" + e["text"]) if h else e["text"]
+        first = h or e["line"]
+        out.append(f"[{i}] {e['doc_id']} (lines {first}-{e['line']})\n{body}")
+    return "\n\n".join(out)
 
 
 def prompt_for(variant, q):
@@ -60,6 +76,8 @@ def prompt_for(variant, q):
         return SYSTEM_EN, q["question"]
     if variant == "B":
         return SYSTEM_KO, q["question"] + SUFFIX_B[q["lang"]]
+    if variant == "A_ctx":
+        return SYSTEM_EN + CONTEXT_EN.format(passages=passages_for(q)), q["question"]
     if variant == "C":
         return (SYSTEM_EN if q["lang"] == "en" else SYSTEM_KO), q["question"]
     raise ValueError(variant)
