@@ -1,0 +1,9 @@
+{
+  "total": 38,
+  "ok": 38,
+  "failed": [],
+  "pass": true,
+  "seconds_total": 204.7,
+  "seconds_median": 5.3,
+  "variant": "C"
+}
