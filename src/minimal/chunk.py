@@ -7,6 +7,7 @@
 모델은 캐시에서만 읽는다(HF_HUB_OFFLINE=1). 시계, 무작위, 인터넷을 쓰지 않아 같은 입력에서는 바이트까지 같은 파일이 나온다.
 표의 둘째 머리글 줄은 마크다운만 보고 가를 수 없어 research_notes/stage2_table_shapes_rare_earth/tables.json에서 읽고,
 표 두 개(neutron-capture-therapy 56줄, 187줄)는 청크 글만 바꿔 쓴다(코퍼스 파일은 고치지 않는다).
+동위 원소 표 4개는 들뜬 상태 행에 둘째 머리글 줄의 이름을 붙이고 그 둘째 줄을 청크에 붙이지 않는다(decisions/stage4.md 마지막 줄).
 규칙이 맞지 않는 모양을 만나면 예외를 던지고 멈춘다(규칙을 고쳐서 맞추지 않는다).
 """
 import json
@@ -188,28 +189,72 @@ def piece_at(ls, k):
     return Piece(ls[k - 1].rstrip(), (k,))
 
 
-def group_rows(ls, rows, key, ctx):
-    """표 행(줄 번호 목록)을, 첫 칸이 같은 이어진 행끼리 묶는다."""
+def name_spans(head1, head2):
+    """둘째 머리글 줄에서 같은 이름이 이웃한 열 둘 이상에 이어지고 그 열들의 첫째 머리글 이름이 서로 다른 구간 [(처음 열, 끝 열(미포함))] 목록.
+    (들뜬 에너지가 Z(p)·N(n)·동위 원소 질량 세 열에 걸친 꼴. Main isotopes 표는 둘째 줄에 같은 이름이 이어지지 않아 빈 목록이다.)"""
+    spans, i = [], 0
+    while i < len(head2):
+        j = i + 1
+        while j < len(head2) and head2[j] == head2[i]:
+            j += 1
+        if j - i >= 2 and len(set(head1[i:j])) == j - i:
+            spans.append((i, j))
+        i = j
+    return spans
+
+
+def named_row(line, n, spans, names):
+    """들뜬 상태 행(이름 구간의 칸이 모두 같은 글자이고 비어 있지 않음)이면 구간의 첫 칸에 '이름 값'을 쓰고 나머지 칸을 비운 줄을, 아니면 None을 돌려준다."""
+    cells = cells_of(line)
+    if len(cells) != n:
+        raise ValueError(f"칸 수가 머리글과 다름: {len(cells)} / {n}: {line!r}")
+    changed = False
+    for a, b in spans:
+        if cells[a] and all(c == cells[a] for c in cells[a:b]):
+            cells[a:b] = [f"{names[a]} {cells[a]}"] + [""] * (b - a - 1)
+            changed = True
+    return "| " + " | ".join(cells) + " |" if changed else None
+
+
+def group_rows(ls, rows, key, ctx, spans=(), head2=()):
+    """표 행(줄 번호 목록)을, 첫 칸이 같은 이어진 행끼리 묶는다. spans가 있으면 들뜬 상태 행은 이름을 붙인 꼴로 쓴다."""
     groups = []
     for k in rows:
         first = cells_of(ls[k - 1])[0]
+        piece = piece_at(ls, k)
+        if spans:
+            named = named_row(ls[k - 1], len(head2), spans, head2)
+            if named is not None:
+                piece = Piece(named, (k,))
         if groups and groups[-1][0] == first:
-            groups[-1][1].append(piece_at(ls, k))
+            groups[-1][1].append(piece)
         else:
-            groups.append((first, [piece_at(ls, k)]))
+            groups.append((first, [piece]))
     return [Group(key, tuple(ctx), rows_) for _, rows_ in groups]
 
 
 def normal_table(ls, doc_id, first, last, meta, ctx_prefix):
-    """보통 표. first·last는 1부터 세는 줄 번호. 머리글 = 첫 줄 + 구분 줄 + 그 아래 (top_th_rows - 1)줄."""
+    """보통 표. first·last는 1부터 세는 줄 번호. 머리글 = 첫 줄 + 구분 줄 + 그 아래 (top_th_rows - 1)줄.
+    머리글이 두 줄 이상이고 둘째 줄에 이름 구간이 있으면(name_spans) 들뜬 상태 행에 이름을 붙이고 둘째 머리글 줄은 붙이지 않는다.
+    둘째 줄이 구간 밖에서 첫째 줄과 다르면 멈춘다."""
     th = meta.th_rows.get((doc_id, first), 1)
     header_len = 1 + max(th, 1)
     if not re.fullmatch(r"\|(\s*:?-+:?\s*\|)+", ls[first].strip()):
         raise ValueError(f"{doc_id}:{first}: 둘째 줄이 구분 줄이 아님")
     if last - first + 1 <= header_len:
         raise ValueError(f"{doc_id}:{first}: 표에 행이 없음")
-    ctx = list(ctx_prefix) + [piece_at(ls, k) for k in range(first, first + header_len)]
-    return Table([], group_rows(ls, range(first + header_len, last + 1), first, ctx))
+    head_nos = list(range(first, first + header_len))
+    spans, head2 = [], []
+    if th >= 2:
+        head1, head2 = cells_of(ls[first - 1]), cells_of(ls[first + 1])
+        spans = name_spans(head1, head2) if len(head1) == len(head2) else []
+        if spans:
+            inside = {c for a, b in spans for c in range(a, b)}
+            if any(h1 != h2 for c, (h1, h2) in enumerate(zip(head1, head2)) if c not in inside):
+                raise ValueError(f"{doc_id}:{first + 2}: 둘째 머리글 줄이 이름 구간 밖에서 첫째 줄과 다름")
+            head_nos.remove(first + 2)
+    ctx = list(ctx_prefix) + [piece_at(ls, k) for k in head_nos]
+    return Table([], group_rows(ls, range(first + header_len, last + 1), first, ctx, spans, head2))
 
 
 def names_table(ls, doc_id, first, last, title_no):

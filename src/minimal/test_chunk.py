@@ -252,6 +252,68 @@ class TestFakeTables(unittest.TestCase):
         self.assertTrue(all(c["over_limit"] for c in out))  # 겹침 없음: 겹친 문장 + 다음 문장이 한도를 넘으므로 넣지 않는다
 
 
+class TestFakeNamedRows(unittest.TestCase):
+    """들뜬 상태 행: 이름 구간이 있는 표는 들뜬 행에 이름을 붙이고 둘째 머리글 줄을 붙이지 않는다."""
+
+    TARGET = """# Doc
+
+| Nuc | Z | N | Mass | Half | Mode | Next |
+|---|---|---|---|---|---|---|
+| Nuc | Exc | Exc | Exc | Half | Mode | Next |
+| A | 1 | 2 | 3.5 | 5 s | b | X |
+| Bm | 10 keV | 10 keV | 10 keV | 6 s | IT |  |
+| C | 1 | 2 | 3 | Stable | Stable | Stable |
+| D | 1 | 1 | 2 | 7 s | b | Y |
+| E |  |  |  | 8 s | b | Z |
+"""
+    MAIN = """# Doc
+
+| Main isotopes | Main isotopes | Main isotopes | Decay | Decay |
+|---|---|---|---|---|
+| Isotope | abundance | half-life | mode | product |
+| A | synth | 9 d | e | B |
+| C | stable | stable | stable | stable |
+"""
+
+    def meta(self):
+        return chunk.TableMeta([{"doc_id": "wiki-en-fake", "md_line_no": 3, "top_th_rows": 2, "caption": None}])
+
+    def test_only_the_excited_row_changes_and_second_header_is_dropped(self):
+        out = run(self.TARGET, 1000, meta=self.meta())
+        self.assertEqual(len(out), 1)
+        self.assertEqual(out[0]["text"].split("\n"), [
+            "| Nuc | Z | N | Mass | Half | Mode | Next |",
+            "|---|---|---|---|---|---|---|",
+            "| A | 1 | 2 | 3.5 | 5 s | b | X |",
+            "| Bm | Exc 10 keV |  |  | 6 s | IT |  |",   # 들뜬 행: 이름 구간 첫 칸에 이름 + 값, 나머지 칸은 비움. 마지막 빈 칸은 그대로
+            "| C | 1 | 2 | 3 | Stable | Stable | Stable |",  # 같은 글자가 이름 구간 밖 열에 걸친 행은 그대로
+            "| D | 1 | 1 | 2 | 7 s | b | Y |",  # 구간의 칸이 둘만 같은 행도 그대로
+            "| E |  |  |  | 8 s | b | Z |"])  # 구간의 칸이 모두 비어 있으면 그대로
+        self.assertEqual(out[0]["lines"], [3, 4, 6, 7, 8, 9, 10])  # 5줄(둘째 머리글)은 빠지고 바뀐 행도 원문 줄 번호를 남긴다
+
+    def test_second_header_is_dropped_in_every_piece(self):
+        size = COUNT("| Nuc | Z | N | Mass | Half | Mode | Next |\n|---|---|---|---|---|---|---|\n| Bm | Exc 10 keV |  |  | 6 s | IT |  |")
+        out = run(self.TARGET, size, meta=self.meta())
+        self.assertGreater(len(out), 1)
+        for c in out:
+            self.assertEqual(c["text"].split("\n")[:2], ["| Nuc | Z | N | Mass | Half | Mode | Next |", "|---|---|---|---|---|---|---|"])
+            self.assertNotIn(5, c["lines"])
+            self.assertNotIn("Exc |", c["text"])
+        self.assertEqual([n for c in out for n in c["lines"][2:]], [6, 7, 8, 9, 10])
+
+    def test_main_isotopes_shape_is_unchanged(self):
+        out = run(self.MAIN, 1000, meta=chunk.TableMeta([{"doc_id": "wiki-en-fake", "md_line_no": 3, "top_th_rows": 2, "caption": None}]))
+        self.assertEqual(len(out), 1)
+        self.assertEqual(out[0]["text"], self.MAIN.split("\n", 2)[2].rstrip("\n"))  # 머리글 두 줄과 행이 원문 그대로
+        self.assertEqual(out[0]["lines"], [3, 4, 5, 6, 7])
+        self.assertEqual(chunk.name_spans(["Main isotopes"] * 3 + ["Decay"] * 2, ["Isotope", "abundance", "half-life", "mode", "product"]), [])
+
+    def test_second_header_that_differs_outside_the_span_stops(self):
+        md = self.TARGET.replace("| Nuc | Exc | Exc | Exc | Half | Mode | Next |", "| Nuc | Exc | Exc | Exc | Half | Other | Next |")
+        with self.assertRaises(ValueError):
+            run(md, 1000, meta=self.meta())
+
+
 class TestFakeParagraphSplit(unittest.TestCase):
     """규칙 3: 한도를 넘는 문단은 문장 경계에서 나누고 마지막 문장 하나를 다음 조각 맨 앞에 다시 넣는다."""
 
@@ -415,6 +477,46 @@ def infobox_region_lines(ls):
     return range(3, j)
 
 
+def named_targets():
+    """둘째 머리글 줄에 이름 구간이 있는 표: {(doc_id, 첫 줄): 둘째 머리글 이름}. 시험은 구간이 2~4열(Z·N·질량 위)이라는 사실로 따로 가른다."""
+    out = {}
+    for (d, first), th in META.th_rows.items():
+        if th >= 2:
+            h2 = chunk.cells_of(LS[d][first + 1])
+            if h2[1] == h2[2] == h2[3] != h2[0]:
+                out[(d, first)] = h2[1]
+    return out
+
+
+TARGETS = named_targets()
+
+
+def excited_rows(doc_id, first):
+    """대상 표에서 바뀌어야 하는 행: {줄 번호: 바뀐 줄}. 값 줄(첫 줄 + 3부터)에서 2~4열이 같은 글자이고 비어 있지 않은 행."""
+    ls = LS[doc_id]
+    out = {}
+    k = first + 3
+    while k <= len(ls) and ls[k - 1].startswith("|"):
+        c = chunk.cells_of(ls[k - 1])
+        if c[1] and c[1] == c[2] == c[3]:
+            out[k] = "| " + " | ".join([c[0], f"{TARGETS[(doc_id, first)]} {c[1]}", "", ""] + c[4:]) + " |"
+        k += 1
+    return out
+
+
+CHANGED = {key: excited_rows(*key) for key in TARGETS}
+CHANGED_LINES = {d: rows for (d, _), rows in CHANGED.items()}  # 대상 표는 문서마다 하나
+SECOND_HEADERS = {key: key[1] + 2 for key in TARGETS}
+
+
+def header_lines(d, first, th):
+    """보통 표의 머리글 줄 번호. 대상 표는 둘째 머리글 줄이 빠진다."""
+    head = set(range(first, first + 1 + max(th, 1)))
+    if (d, first) in TARGETS:
+        head.discard(first + 2)
+    return head
+
+
 def structure_lines(doc_id):
     """청크마다 다시 붙는 구조 줄의 번호: 묶음 이름 줄, 표 이름 줄, 표 제목 줄, 표 머리글 줄."""
     ls = LS[doc_id]
@@ -432,7 +534,7 @@ def structure_lines(doc_id):
         elif (d, first) == chunk.EXC_ACCEL:
             s |= {first, first + 1}
         else:
-            s |= set(range(first, first + 1 + max(th, 1)))
+            s |= header_lines(d, first, th)
         if (d, first) in META.captions:
             s.add(first - 2)
     return s
@@ -453,7 +555,7 @@ def table_ranges(doc_id):
         elif (d, first) == chunk.EXC_ACCEL:
             head = {first, first + 1}
         else:
-            head = set(range(first, first + 1 + max(th, 1)))
+            head = header_lines(d, first, th)
             if (d, first) in META.captions:
                 head.add(first - 2)
         out.append((first, last, head))
@@ -529,7 +631,10 @@ class TestCorpusLines(unittest.TestCase):
                 for piece, n in zip(pieces, r["lines"]):
                     line = ls[n - 1].strip()
                     self.assertTrue(line, f"{r['chunk_id']} 빈 줄 {n}")
-                    if line in r["text"]:
+                    if n in CHANGED_LINES.get(r["doc_id"], {}):  # 들뜬 상태 행: 이름을 붙인 꼴로 있다(원문 줄은 청크 글에 없다)
+                        self.assertEqual(piece, CHANGED_LINES[r["doc_id"]][n], r["chunk_id"])
+                        self.assertNotIn(line, r["text"])
+                    elif line in r["text"]:
                         self.assertEqual(piece.strip(), line, r["chunk_id"])
                     else:  # 예외 (가): 문장 경계에서 나뉜 글 조각은 원문 줄의 일부만 담는다
                         self.assertEqual(r["kind"], "text", f"{r['chunk_id']} 줄 {n}")
@@ -543,6 +648,7 @@ class TestCorpusLines(unittest.TestCase):
                 covered.setdefault(r["doc_id"], set()).update(r["lines"])
             for doc_id, ls in LS.items():
                 want = {i + 1 for i, l in enumerate(ls) if l.strip() and not l.startswith("#")}
+                want -= {n for (d, _), n in SECOND_HEADERS.items() if d == doc_id}  # 대상 표의 둘째 머리글 줄은 청크에 붙이지 않는다
                 self.assertEqual(want - covered[doc_id], set(), f"{name} {doc_id} 빠진 줄")
                 self.assertEqual(covered[doc_id] - want, set(), f"{name} {doc_id} 원문에 없는 줄")
 
@@ -603,41 +709,43 @@ class TestCorpusRules(unittest.TestCase):
             starts = {i + 1 for i, l in enumerate(ls) if l.startswith("|") and (i == 0 or not ls[i - 1].startswith("|"))}
             self.assertEqual(starts, META.starts.get(doc_id, set()), doc_id)
 
-    def test_terbium_128_tables_carry_lines_9_to_11(self):
+    def test_terbium_128_tables_carry_lines_9_and_10(self):
         for name in ("size128_notitle", "size128_title"):
             tab = [r for r in CHUNKS[name] if r["doc_id"] == "wiki-ko-isotopes-of-terbium" and r["kind"] == "table"]
             self.assertGreater(len(tab), 50)
             for r in tab:
-                self.assertLessEqual({9, 10, 11}, set(r["lines"]), r["chunk_id"])
-                self.assertEqual(len(r["lines"]), 4, r["chunk_id"])  # 머리글 + 행 하나
+                self.assertLessEqual({9, 10}, set(r["lines"]), r["chunk_id"])
+                self.assertNotIn(11, r["lines"], r["chunk_id"])  # 둘째 머리글 줄은 붙이지 않는다
+                self.assertEqual(len(r["lines"]), 3, r["chunk_id"])  # 머리글 + 행 하나
                 self.assertTrue(r["over_limit"])
-        # ¹⁴⁴ᵐ¹Tb 세 행(31~33줄)은 머리글과 334토큰이라 256에서도 갈린다
+        # ¹⁴⁴ᵐ¹Tb 세 행(31~33줄)은 둘째 머리글 줄이 빠지고 이름 붙인 행이 짧아져 256에서 한 조각에 든다(전에는 머리글 3줄과 334토큰이라 갈렸다)
         for name in ("size256_notitle", "size256_title"):
             hit = [r for r in CHUNKS[name] if r["doc_id"] == "wiki-ko-isotopes-of-terbium" and set(r["lines"]) & {31, 32, 33}]
-            self.assertEqual(sorted(sum((r["lines"][3:] for r in hit), [])), [31, 32, 33])
-            self.assertGreater(len(hit), 1)
-        # 같은 첫 칸의 이어진 행은 머리글과 함께 한도(256) 안에 들 때 한 조각에 둔다. 넘으면 갈린다(¹³⁸Tb 두 행은 머리글과 257토큰)
+            self.assertEqual([r["lines"][2:] for r in hit], [[31, 32, 33]])
+        # 같은 첫 칸의 이어진 행은 머리글과 함께 한도 안에 들 때 한 조각에 둔다. 넘으면 갈린다.
+        # 256에서는 둘째 머리글 줄이 빠지고 들뜬 행이 짧아져 모두 들어가고, 128에서는 모두 갈린다
         ls = LS["wiki-ko-isotopes-of-terbium"]
-        tab = [r for r in CHUNKS["size256_notitle"] if r["doc_id"] == "wiki-ko-isotopes-of-terbium" and r["kind"] == "table"]
-        head = "\n".join(ls[8:11])
-        kept = split = 0
-        k = 12
-        while k <= 98:
-            if not ls[k - 1].startswith("|"):
-                break
-            first = ls[k - 1].split("|")[1]
-            j = k
-            while j + 1 <= 98 and ls[j].startswith("|") and ls[j].split("|")[1] == first:
-                j += 1
-            if j > k:
-                fits = COUNT(head + "\n" + "\n".join(ls[k - 1:j])) <= 256
-                together = any({k, j} <= set(r["lines"]) for r in tab)
-                self.assertEqual(together, fits, f"{k}~{j}줄")
-                kept += fits
-                split += not fits
-            k = j + 1
-        self.assertGreater(kept, 0)
-        self.assertGreater(split, 0)
+        changed = CHANGED[("wiki-ko-isotopes-of-terbium", 9)]
+        head = "\n".join(ls[8:10])
+        for size, name in ((256, "size256_notitle"), (128, "size128_notitle")):
+            tab = [r for r in CHUNKS[name] if r["doc_id"] == "wiki-ko-isotopes-of-terbium" and r["kind"] == "table"]
+            kept = split = 0
+            k = 12
+            while k <= 98:
+                if not ls[k - 1].startswith("|"):
+                    break
+                first = ls[k - 1].split("|")[1]
+                j = k
+                while j + 1 <= 98 and ls[j].startswith("|") and ls[j].split("|")[1] == first:
+                    j += 1
+                if j > k:
+                    fits = COUNT(head + "\n" + "\n".join(changed.get(n, ls[n - 1]) for n in range(k, j + 1))) <= size
+                    together = any({k, j} <= set(r["lines"]) for r in tab)
+                    self.assertEqual(together, fits, f"{size} {k}~{j}줄")
+                    kept += fits
+                    split += not fits
+                k = j + 1
+            self.assertGreater(kept if size == 256 else split, 0)
 
     def test_exception_1_names_table(self):
         ls = LS[NCT]
@@ -704,6 +812,56 @@ class TestCorpusRules(unittest.TestCase):
         ls = LS[NCT]
         self.assertTrue(ls[55].startswith("| Boric acid | Boronated unnatural amino acids |"))
         self.assertTrue(ls[186].startswith("| Manufacturer Product Reaction Accelerator type | Host institution |"))
+
+
+class TestCorpusNamedRows(unittest.TestCase):
+    """들뜬 상태 행에 이름 붙이기: 대상 표 4개, 바뀐 행 수, 빠진 둘째 머리글 줄."""
+
+    def test_exactly_four_target_tables(self):
+        self.assertEqual(sorted(TARGETS), [("wiki-en-isotopes-of-yttrium", 23), ("wiki-ko-isotopes-of-neodymium", 11),
+                                           ("wiki-ko-isotopes-of-terbium", 9), ("wiki-ko-isotopes-of-yttrium", 9)])
+        self.assertEqual(sorted(TARGETS.values()), ["Excitation energy", "들뜬 에너지", "들뜬 에너지", "들뜬 에너지"])
+        # 프로그램의 판정(name_spans)도 같은 4개다. 머리글이 두 줄인 표 12개 중 나머지 8개(Main isotopes 꼴 등)는 대상이 아니다
+        found = {}
+        for (d, first), th in META.th_rows.items():
+            if th >= 2:
+                spans = chunk.name_spans(chunk.cells_of(LS[d][first - 1]), chunk.cells_of(LS[d][first + 1]))
+                if spans:
+                    found[(d, first)] = spans
+        self.assertEqual(found, {key: [(1, 4)] for key in TARGETS})
+
+    def test_changed_row_counts(self):
+        counts = {d: len(rows) for (d, _), rows in CHANGED.items()}
+        self.assertEqual(counts, {"wiki-ko-isotopes-of-terbium": 38, "wiki-ko-isotopes-of-yttrium": 39,
+                                  "wiki-ko-isotopes-of-neodymium": 15, "wiki-en-isotopes-of-yttrium": 52})
+        for name in NAMES:  # 청크 글에 든 이름 붙인 행 = 위 행 전부(조각이 달라도 같은 줄 번호는 한 번만 센다)
+            for doc_id, rows in CHANGED_LINES.items():
+                got = {n: l for r in CHUNKS[name] if r["doc_id"] == doc_id for n, l in zip(r["lines"], body(r).split("\n")) if n in rows}
+                self.assertEqual(got, rows, f"{name} {doc_id}")
+                self.assertEqual(sum(l.count("Excitation energy ") + l.count("들뜬 에너지 ") for l in got.values()), len(rows))
+
+    def test_second_header_lines_are_in_no_chunk(self):
+        self.assertEqual(sorted(SECOND_HEADERS.values()), [11, 11, 13, 25])
+        for name in NAMES:
+            for (doc_id, _), n in SECOND_HEADERS.items():
+                self.assertEqual([r["chunk_id"] for r in CHUNKS[name] if r["doc_id"] == doc_id and n in r["lines"]], [], f"{name} {doc_id}:{n}")
+                self.assertFalse(any(r["doc_id"] == doc_id and LS[doc_id][n - 1].strip() in r["text"].split("\n") for r in CHUNKS[name]))  # 글로도 없다
+
+    def test_terbium_142m2_row_text(self):
+        for name in NAMES:
+            hit = [r for r in CHUNKS[name] if r["doc_id"] == "wiki-ko-isotopes-of-terbium" and 26 in r["lines"]]
+            self.assertEqual(len(hit), 1, name)
+            self.assertTrue(any(l.startswith("| ¹⁴²ᵐ²Tb | 들뜬 에너지 621.4(11) keV |  |  | 15(4) µs |") for l in hit[0]["text"].split("\n")), name)
+            self.assertNotIn("| 621.4(11) keV |", hit[0]["text"])
+
+    def test_normal_rows_and_other_tables_are_untouched(self):
+        # 보통 행 한 줄(¹⁴⁴Tb 26줄 아래)과, 대상이 아닌 두 줄 머리글 표(thulium 59줄)의 머리글 두 줄이 그대로 있다
+        for name in NAMES:
+            ex = [r for r in CHUNKS[name] if r["doc_id"] == "wiki-ko-isotopes-of-terbium" and 29 in r["lines"]]
+            self.assertTrue(any(LS["wiki-ko-isotopes-of-terbium"][28].strip() in r["text"] for r in ex), name)
+            tm = [r for r in CHUNKS[name] if r["doc_id"] == "wiki-en-thulium" and {59, 60, 61} <= set(r["lines"])]
+            self.assertTrue(tm, name)
+            self.assertIn(LS["wiki-en-thulium"][60].strip(), tm[0]["text"])  # 둘째 머리글 줄(Isotope | abundance …)
 
 
 class TestCorpusEvidence(unittest.TestCase):
