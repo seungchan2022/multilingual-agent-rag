@@ -4,6 +4,6 @@
   "failed": [],
   "pass": true,
   "seconds_total": 204.7,
-  "seconds_median": 5.3,
+  "seconds_median": 4.965,
   "variant": "C"
 }

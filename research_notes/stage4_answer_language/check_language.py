@@ -13,6 +13,7 @@ v1이 아니면 결과는 results_<후보>.jsonl, summary_<후보>.json에 쓴�
 """
 import json
 import re
+import statistics
 import sys
 import time
 import urllib.request
@@ -107,7 +108,7 @@ def main(variant="v1"):
     failed = [r["id"] for r in rows if not r["ok"]]
     summary = {"total": len(rows), "ok": len(rows) - len(failed), "failed": failed, "pass": not failed,
                "seconds_total": round(sum(r["seconds"] for r in rows), 1),
-               "seconds_median": sorted(r["seconds"] for r in rows)[len(rows) // 2]}
+               "seconds_median": round(statistics.median(r["seconds"] for r in rows), 3)}
     summary["variant"] = variant
     (HERE / f"summary{suffix}.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False))
