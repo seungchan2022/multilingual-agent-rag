@@ -122,8 +122,8 @@ def make_evidence(spec, language, lines):
         text = ls[line - 1]
         if expect not in text:
             raise ValueError(f"{doc_id}:{line}: 기대한 글자 '{expect}'가 줄에 없음: {text!r}")
-        # value_text: 그 줄에서 정답 값을 적은 글자. 검색 채점은 청크의 줄 범위에 근거 줄이 들고 청크 글에 이 글자가 있어야 맞음으로 센다
-        # (긴 문단을 문장 경계에서 나누면 같은 줄 번호의 조각이 여럿 생기기 때문, decisions/stage4.md 2026-10-23 Codex 1차 지적 2)
+        # value_text: 그 줄에서 정답 값을 적은 글자. 검색 채점은 청크에 든 원문 줄 목록에 근거 줄이 있고 청크 글에 이 글자가 있어야 맞음으로 센다
+        # (긴 문단을 문장 경계에서 나누면 같은 줄 번호의 조각이 여럿 생기기 때문, decisions/stage4.md 2026-10-23 Codex 1차 지적 2. 줄 목록은 2026-10-23 "원문 줄 번호 목록" 줄)
         out.append({"doc_id": doc_id, "language": language[doc_id], "line": line, "text": text,
                     "value_text": expect, "table_header_line": table_header_line(ls, line)})
     return out
