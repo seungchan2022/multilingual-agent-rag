@@ -6,7 +6,7 @@
 규칙은 decisions/stage4.md의 2026-10-23 줄(비교에서 재는 것 / 가장 많은 것을 고르되 2개 이하 차이는 비김 / 비긴 조합을 고르는 순서 /
 검색 예산은 1,024토큰 / Codex 1차 검토 ㉣·㉤·㉦·㉧ / MiniLM은 비교에서 재기 전에 뺀다 / 청크마다 원문 줄 번호 목록)에 있다.
 검색은 src/minimal/search.py, 모델은 src/minimal/index.py의 load_model이다. 요약은 results.jsonl만 읽고(청크 묶음 수치만 청크 파일에서 읽는다)
-시계와 무작위를 쓰지 않으므로 같은 파일에서는 같은 요약이 나온다. 시간은 출력에만 찍는다.
+시계와 무작위를 쓰지 않으므로 같은 파일에서는 같은 요약이 나온다. 요약에 찍는 시간은 출력의 걸린 시간뿐이고, 결과 줄의 시간 칸(embed_seconds, search_seconds)은 요약이 읽지 않는다.
 """
 import argparse
 import json
@@ -54,32 +54,42 @@ def matched_evidence(question, chunk):
     return found
 
 
-def result_row(chunk_set, model, question, found):
-    """검색 결과 found(search의 (chunk_id, distance, doc_id, lines, text, tokens) 목록, 순위 순)를 결과 파일의 한 줄로 바꾼다."""
+def result_row(chunk_set, model, question, found, embed_seconds, search_seconds):
+    """검색 결과 found(search의 (chunk_id, distance, doc_id, lines, text, tokens, language, line_start, line_end) 목록, 순위 순)를 결과 파일의 한 줄로 바꾼다.
+    query는 검색 쿼리로, 최소판은 질문 글 그대로다. embed_seconds는 그 질문 글을 벡터로 바꾼 시간, search_seconds는 search 호출 하나의 시간이다."""
     size, _ = parse_chunk_set(chunk_set)
     retrieved = []
-    for rank, (chunk_id, distance, doc_id, lines, text, tokens) in enumerate(found, 1):
+    for rank, (chunk_id, distance, doc_id, lines, text, tokens, language, line_start, line_end) in enumerate(found, 1):
         evidence = matched_evidence(question, {"doc_id": doc_id, "lines": lines, "text": text})
-        retrieved.append({"rank": rank, "chunk_id": chunk_id, "doc_id": doc_id, "distance": distance,
-                          "lines": list(lines), "tokens": tokens, "evidence": evidence})
+        retrieved.append({"rank": rank, "chunk_id": chunk_id, "doc_id": doc_id, "language": language, "distance": distance,
+                          "lines": list(lines), "line_start": line_start, "line_end": line_end, "tokens": tokens, "evidence": evidence})
     hit_ranks = [r["rank"] for r in retrieved if r["evidence"]]
     return {"chunk_set": chunk_set, "model": model, "k": K[size], "question_id": question["id"], "lang": question["lang"],
-            "branch": question["branch"], "cross": is_cross(question), "hit": bool(hit_ranks), "hit_ranks": hit_ranks,
+            "branch": question["branch"], "cross": is_cross(question), "query": question["question"],
+            "embed_seconds": embed_seconds, "search_seconds": search_seconds, "hit": bool(hit_ranks), "hit_ranks": hit_ranks,
             "retrieved": retrieved, "retrieved_tokens": sum(r["tokens"] for r in retrieved)}
 
 
 def run_search(questions):
-    """조합 8개 × 질문 38개를 검색해 결과 줄 목록을 만든다(모델 → 청크 묶음 → 질문 순). 질문 벡터는 모델마다 한 번만 만든다."""
+    """조합 8개 × 질문 38개를 검색해 결과 줄 목록을 만든다(모델 → 청크 묶음 → 질문 순). 질문 벡터는 모델마다 한 번만 만든다.
+    그래서 같은 모델의 청크 묶음 4개는 같은 질문에 같은 embed_seconds를 쓴다(조합마다 다시 재지 않는다)."""
     import psycopg
     rows = []
     with psycopg.connect(DSN) as conn:
         for model_key in MODELS:
             model = load_model(model_key)
-            vectors = [embed_query(model, q["question"]) for q in questions]
+            vectors, embed_seconds = [], []
+            for q in questions:
+                start = time.perf_counter()
+                vectors.append(embed_query(model, q["question"]))
+                embed_seconds.append(time.perf_counter() - start)
             for chunk_set in CHUNK_SETS:
                 k = K[parse_chunk_set(chunk_set)[0]]
-                for q, vector in zip(questions, vectors):
-                    rows.append(result_row(chunk_set, model_key, q, search(conn, chunk_set, model_key, vector, k)))
+                for q, vector, embed_s in zip(questions, vectors, embed_seconds):
+                    start = time.perf_counter()
+                    found = search(conn, chunk_set, model_key, vector, k)
+                    search_s = time.perf_counter() - start
+                    rows.append(result_row(chunk_set, model_key, q, found, embed_s, search_s))
                 print(f"검색함: {chunk_set} × {model_key}: 질문 {len(questions)}개, k = {k}", flush=True)
     return rows
 

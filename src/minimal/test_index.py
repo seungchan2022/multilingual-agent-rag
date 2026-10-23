@@ -14,6 +14,7 @@ import numpy as np
 import psycopg
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import compare_retrieval  # noqa: E402
 import index  # noqa: E402
 from search import search, vector_literal  # noqa: E402
 
@@ -31,9 +32,9 @@ def unit(rng, n=1):
     return v / np.linalg.norm(v, axis=1, keepdims=True)
 
 
-def fake_row(chunk_id, text):
-    return {"chunk_id": chunk_id, "doc_id": chunk_id.split("#")[0], "language": "en", "size": 128, "title": True,
-            "kind": "text", "path": "Fake", "text": text, "line_start": 3, "line_end": 5, "lines": [3, 4, 5],
+def fake_row(chunk_id, text, language="en", lines=(3, 4, 5)):
+    return {"chunk_id": chunk_id, "doc_id": chunk_id.split("#")[0], "language": language, "size": 128, "title": True,
+            "kind": "text", "path": "Fake", "text": text, "line_start": min(lines), "line_end": max(lines), "lines": list(lines),
             "tokens": 7, "over_limit": False}
 
 
@@ -54,7 +55,8 @@ class IndexTest(unittest.TestCase):
         self.tie_vectors = unit(rng, len(TIES))   # 쌍마다 같은 벡터(거리가 같다)
         self.rows, vectors = [], []
         for n, vec in enumerate(unit(rng, 5), 1):
-            self.rows.append(fake_row(f"fake#{n:04d}", f"글 {n}"))
+            # 문서 언어와 줄이 청크마다 다르게 해서, 검색이 돌려주는 값이 그 청크의 값인지 가려 본다(표 조각처럼 줄이 끊긴 청크도 둔다)
+            self.rows.append(fake_row(f"fake#{n:04d}", f"글 {n}", "ko" if n % 2 else "en", (n, n + 1, n + 4) if n == 2 else (n, n + 1)))
             vectors.append(vec)
         for pair, vec in zip(TIES, self.tie_vectors):
             for chunk_id in pair:                 # 정렬 규칙을 잘못 쓰면 뒤집히도록 사전 순서로 먼저 오는 것부터 넣는다
@@ -84,7 +86,7 @@ class IndexTest(unittest.TestCase):
 
     def test_chunk_columns_are_stored(self):
         row = self.conn.execute("SELECT chunk_set, doc_id, lines, tokens, over_limit, title FROM chunks WHERE chunk_id = 'fake#0001'").fetchone()
-        self.assertEqual(row, (SET, "fake", [3, 4, 5], 7, False, True))
+        self.assertEqual(row, (SET, "fake", [1, 2], 7, False, True))
 
     def test_same_distance_orders_by_chunk_id_bytes(self):
         for pair, vec in zip(TIES, self.tie_vectors):
@@ -108,11 +110,32 @@ class IndexTest(unittest.TestCase):
         by_id = {r["chunk_id"]: v for r, v in zip(self.rows, self.vectors)}
         result = search(self.conn, SET, MODEL, query, len(self.rows))
         self.assertEqual(len(result), len(self.rows))
-        for chunk_id, distance, doc_id, lines, text, tokens in result:
+        for chunk_id, distance, doc_id, lines, text, tokens, language, line_start, line_end in result:
             expected = 1 - float(np.dot(by_id[chunk_id].astype(np.float64), query.astype(np.float64)))
             self.assertAlmostEqual(distance, expected, delta=1e-5)
         best = next(r for r in result if r[0] == "fake#0001")
-        self.assertEqual(best[2:], ("fake", [3, 4, 5], "글 1", 7))
+        self.assertEqual(best[2:], ("fake", [1, 2], "글 1", 7, "ko", 1, 2))
+
+    def test_search_returns_chunk_language_and_line_range(self):
+        query = unit(np.random.default_rng(3))[0]
+        result = search(self.conn, SET, MODEL, query, len(self.rows))
+        stored = {r[0]: r[1:] for r in self.conn.execute("SELECT chunk_id, language, line_start, line_end, lines FROM chunks")}
+        self.assertEqual(len(result), len(self.rows))
+        for chunk_id, _, _, lines, _, _, language, line_start, line_end in result:
+            self.assertEqual((language, line_start, line_end, lines), stored[chunk_id])
+            self.assertEqual((line_start, line_end), (min(lines), max(lines)))
+        self.assertEqual({r[6] for r in result}, {"ko", "en"})
+
+    def test_result_row_has_record_fields_from_db(self):
+        query = unit(np.random.default_rng(4))[0]
+        q = {"id": "q01-ko", "lang": "ko", "branch": "한국어만", "question": "시험 질문", "evidence": [{"doc_id": "fake", "line": 1, "value_text": "글 1"}]}
+        row = compare_retrieval.result_row(SET, MODEL, q, search(self.conn, SET, MODEL, query, 4), 0.25, 0.5)
+        self.assertEqual((row["query"], row["embed_seconds"], row["search_seconds"]), ("시험 질문", 0.25, 0.5))
+        stored = {r[0]: r[1:] for r in self.conn.execute("SELECT chunk_id, language, line_start, line_end, lines FROM chunks")}
+        self.assertEqual(len(row["retrieved"]), 4)
+        for r in row["retrieved"]:
+            self.assertEqual((r["language"], r["line_start"], r["line_end"], r["lines"]), stored[r["chunk_id"]])
+            self.assertEqual((r["line_start"], r["line_end"]), (min(r["lines"]), max(r["lines"])))
 
     def test_search_stays_within_chunk_set_and_model_and_limit(self):
         query = self.vectors[0]

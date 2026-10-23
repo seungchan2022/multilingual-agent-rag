@@ -6,7 +6,8 @@
 """
 
 SQL = """
-SELECT c.chunk_id, e.embedding <=> %s::vector AS distance, c.doc_id, c.lines, c.text, c.tokens
+SELECT c.chunk_id, e.embedding <=> %s::vector AS distance, c.doc_id, c.lines, c.text, c.tokens,
+       c.language, c.line_start, c.line_end
 FROM chunk_embeddings e JOIN chunks c ON c.chunk_set = e.chunk_set AND c.chunk_id = e.chunk_id
 WHERE e.chunk_set = %s AND e.model = %s
 ORDER BY distance, c.chunk_id COLLATE "C"
@@ -25,5 +26,6 @@ def embed_query(model, text):
 
 
 def search(conn, chunk_set, model_name, query_vector, k):
-    """chunk_set·model_name의 청크에서 상위 k개를 (chunk_id, distance, doc_id, lines, text, tokens) 목록으로 돌려준다."""
+    """chunk_set·model_name의 청크에서 상위 k개를 (chunk_id, distance, doc_id, lines, text, tokens, language, line_start, line_end) 목록으로 돌려준다.
+    뒤의 셋(문서 언어, 원문 첫 줄·끝 줄)은 chunks 표의 칸이고, 검색 기록(compare_retrieval.py)이 쓴다."""
     return conn.execute(SQL, (vector_literal(query_vector), chunk_set, model_name, k)).fetchall()

@@ -22,7 +22,7 @@ def evidence(doc_id, line, value_text):
 
 
 def question(qid="q01-ko", lang="ko", branch="한국어만", evid=None):
-    return {"id": qid, "lang": lang, "branch": branch, "evidence": evid or [evidence("doc-a", 5, "17.7")]}
+    return {"id": qid, "lang": lang, "branch": branch, "question": "반감기는 얼마인가?", "evidence": evid or [evidence("doc-a", 5, "17.7")]}
 
 
 def chunk(doc_id="doc-a", lines=(4, 5, 9), text="반감기는 17.7 시간이다"):
@@ -56,16 +56,16 @@ class MatchedEvidenceTest(unittest.TestCase):
             cr.matched_evidence(question(evid=[evidence("doc-a", 5, "")]), chunk())
 
 
-def found_row(n, doc_id="doc-x", lines=(1,), text="무관", tokens=100):
-    """search가 돌려주는 한 줄 (chunk_id, distance, doc_id, lines, text, tokens)."""
-    return (f"{doc_id}#{n:04d}", 0.1 * n, doc_id, list(lines), text, tokens)
+def found_row(n, doc_id="doc-x", lines=(1,), text="무관", tokens=100, language="en"):
+    """search가 돌려주는 한 줄 (chunk_id, distance, doc_id, lines, text, tokens, language, line_start, line_end)."""
+    return (f"{doc_id}#{n:04d}", 0.1 * n, doc_id, list(lines), text, tokens, language, min(lines), max(lines))
 
 
 class ResultRowTest(unittest.TestCase):
     def test_row_fields(self):
         found = [found_row(1, tokens=100), found_row(2, "doc-a", (5,), "17.7 값", 80), found_row(3, tokens=60),
                  found_row(4, "doc-a", (5,), "17.7", 40)]
-        row = cr.result_row("size256_title", "bge-m3", question(), found)
+        row = cr.result_row("size256_title", "bge-m3", question(), found, 0.25, 0.5)
         self.assertEqual((row["chunk_set"], row["model"], row["k"], row["question_id"]), ("size256_title", "bge-m3", 4, "q01-ko"))
         self.assertEqual((row["lang"], row["branch"], row["cross"]), ("ko", "한국어만", False))
         self.assertTrue(row["hit"])
@@ -73,10 +73,20 @@ class ResultRowTest(unittest.TestCase):
         self.assertEqual(row["retrieved_tokens"], 280)
         self.assertEqual([r["rank"] for r in row["retrieved"]], [1, 2, 3, 4])
         self.assertEqual([r["evidence"] for r in row["retrieved"]], [[], [0], [], [0]])
-        self.assertEqual(set(row["retrieved"][1]), {"rank", "chunk_id", "doc_id", "distance", "lines", "tokens", "evidence"})
+        self.assertEqual(set(row["retrieved"][1]), {"rank", "chunk_id", "doc_id", "language", "distance", "lines", "line_start", "line_end",
+                                                    "tokens", "evidence"})
+
+    def test_record_fields(self):
+        found = [found_row(1, "doc-a", (4, 5, 9), "17.7 값", language="ko"), found_row(2, lines=(7,))]
+        q = question()
+        row = cr.result_row("size128_title", "bge-m3", q, found, 0.25, 0.5)
+        self.assertEqual((row["query"], row["embed_seconds"], row["search_seconds"]), ("반감기는 얼마인가?", 0.25, 0.5))
+        first, second = row["retrieved"]
+        self.assertEqual((first["language"], first["line_start"], first["line_end"]), ("ko", 4, 9))
+        self.assertEqual((second["language"], second["line_start"], second["line_end"]), ("en", 7, 7))
 
     def test_miss(self):
-        row = cr.result_row("size128_notitle", "gte-multilingual-base", question(), [found_row(1)])
+        row = cr.result_row("size128_notitle", "gte-multilingual-base", question(), [found_row(1)], 0.1, 0.2)
         self.assertEqual((row["hit"], row["hit_ranks"], row["k"]), (False, [], 8))
 
     def test_chunk_set_name(self):
