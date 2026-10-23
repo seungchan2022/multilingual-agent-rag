@@ -64,6 +64,9 @@ class TestQuestions(unittest.TestCase):
                 else:
                     ok = any(within(x, q["value"]) for x in numbers(line))
                 self.assertTrue(ok, f"{q['id']} {e['doc_id']}:{e['line']} 값 {q['value']}에 맞는 숫자가 없음")
+                self.assertIn(e["value_text"], line, f"{q['id']} {e['doc_id']}:{e['line']} value_text")
+                self.assertTrue(any(within(x * 60 / 1000 if is_a else x, q["value"]) for x in numbers(e["value_text"])),
+                                f"{q['id']} value_text {e['value_text']}")
 
     def test_4_language_and_branch(self):
         for q in QS:
