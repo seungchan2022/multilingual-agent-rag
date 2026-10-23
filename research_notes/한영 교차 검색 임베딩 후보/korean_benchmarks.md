@@ -1,5 +1,8 @@
 # Open-weight embedding models on Korean retrieval benchmarks (2025–2026), and their English / Korean↔English ability
 
+> **정정(2026-10-23, Codex 4단계 검토 1차 지적 7·2차 지적 2)**: 이 메모의 "Observed run-to-run spread", "near noise" 같은 표현은 서로 다른 곳에서 같은 모델을 잰 점수가 약 0.01 달랐다는 관찰일 뿐이다. 같은 조건으로 다시 잰 흔들림 폭은 확인되지 않았다. KURE-v1과 bge-m3의 차이는 0.7616 − 0.7509 = 0.0107이다(`decisions/references.md` S12 (마)).
+
+
 Research date: 2026-10-23. "Self-reported" = the model's own authors published the number. "Third-party" = someone else ran it. "Raw" = I read the value from a stored result JSON file, not from a summary table.
 
 Conventions used throughout:
