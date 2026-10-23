@@ -24,7 +24,7 @@ h1{font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-.02em;margin-
 .meta{font-size:13px;color:var(--soft);margin-bottom:16px}
 .lead{font-size:16px;margin-bottom:12px}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:20px 0 8px}
-.stat{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:12px}
+.stat{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:12px;min-width:0;overflow-wrap:anywhere}
 .stat b{display:block;font-size:24px;line-height:1.2}
 .stat span{font-size:12px;line-height:1.5;display:block;color:var(--muted)}
 h2{font-size:20px;line-height:1.3;margin:40px 0 4px;padding-top:16px;border-top:1px solid var(--rule)}
