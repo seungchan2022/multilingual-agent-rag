@@ -1,0 +1,22 @@
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 normalizer: Precompiled
+  '¹⁴⁷Nd'          ['▁147', 'N', 'd']  | '147Nd'        ['▁147', 'N', 'd']  same=True
+  '¹³⁹La'          ['▁139', 'La']  | '139La'        ['▁139', 'La']  same=True
+  'La³⁺'           ['▁La', '3', '+']  | 'La3+'         ['▁La', '3', '+']  same=True
+  'La₂O₃'          ['▁La', '2', 'O', '3']  | 'La2O3'        ['▁La', '2', 'O', '3']  same=True
+  '９.８４１ g/cm³'    ['▁9.', '84', '1', '▁g', '/', 'cm', '3']  | '9.841 g/cm3'  ['▁9.', '84', '1', '▁g', '/', 'cm', '3']  same=True
+  'ｇ／ｃｍ'           ['▁g', '/', 'cm']  | 'g/cm'         ['▁g', '/', 'cm']  same=True
+Alibaba-NLP/gte-multilingual-base normalizer: Precompiled
+  '¹⁴⁷Nd'          ['▁147', 'N', 'd']  | '147Nd'        ['▁147', 'N', 'd']  same=True
+  '¹³⁹La'          ['▁139', 'La']  | '139La'        ['▁139', 'La']  same=True
+  'La³⁺'           ['▁La', '3', '+']  | 'La3+'         ['▁La', '3', '+']  same=True
+  'La₂O₃'          ['▁La', '2', 'O', '3']  | 'La2O3'        ['▁La', '2', 'O', '3']  same=True
+  '９.８４１ g/cm³'    ['▁9.', '84', '1', '▁g', '/', 'cm', '3']  | '9.841 g/cm3'  ['▁9.', '84', '1', '▁g', '/', 'cm', '3']  same=True
+  'ｇ／ｃｍ'           ['▁g', '/', 'cm']  | 'g/cm'         ['▁g', '/', 'cm']  same=True
+BAAI/bge-m3 normalizer: Sequence
+  '¹⁴⁷Nd'          ['▁147', 'N', 'd']  | '147Nd'        ['▁147', 'N', 'd']  same=True
+  '¹³⁹La'          ['▁139', 'La']  | '139La'        ['▁139', 'La']  same=True
+  'La³⁺'           ['▁La', '3', '+']  | 'La3+'         ['▁La', '3', '+']  same=True
+  'La₂O₃'          ['▁La', '2', 'O', '3']  | 'La2O3'        ['▁La', '2', 'O', '3']  same=True
+  '９.８４１ g/cm³'    ['▁9.', '84', '1', '▁g', '/', 'cm', '3']  | '9.841 g/cm3'  ['▁9.', '84', '1', '▁g', '/', 'cm', '3']  same=True
+  'ｇ／ｃｍ'           ['▁g', '/', 'cm']  | 'g/cm'         ['▁g', '/', 'cm']  same=True
+NFKC: ['147Nd', '139La', 'La3+', 'La2O3', '9.841 g/cm3', 'g/cm']
