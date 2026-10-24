@@ -1,0 +1,31 @@
+5754:[GIN] 2026/10/18 - 22:35:44 | 500 |         6m47s |       127.0.0.1 | POST     "/api/chat"
+53879:[GIN] 2026/10/18 - 23:14:14 | 500 | 18.628923792s |       127.0.0.1 | POST     "/api/chat"
+68498:[GIN] 2026/10/18 - 23:23:55 | 500 | 31.729818333s |       127.0.0.1 | POST     "/api/chat"
+71444:[GIN] 2026/10/18 - 23:27:42 | 500 | 24.344526542s |       127.0.0.1 | POST     "/api/chat"
+71470:[GIN] 2026/10/18 - 23:27:55 | 500 |  9.877435708s |       127.0.0.1 | POST     "/api/chat"
+71497:[GIN] 2026/10/18 - 23:28:07 | 500 |   9.76606375s |       127.0.0.1 | POST     "/api/chat"
+72743:[GIN] 2026/10/18 - 23:29:57 | 500 | 12.530199125s |       127.0.0.1 | POST     "/api/chat"
+72769:[GIN] 2026/10/18 - 23:30:09 | 500 |   9.45272275s |       127.0.0.1 | POST     "/api/chat"
+72796:[GIN] 2026/10/18 - 23:30:22 | 500 |  9.315715875s |       127.0.0.1 | POST     "/api/chat"
+74010:[GIN] 2026/10/18 - 23:31:53 | 500 | 12.856820417s |       127.0.0.1 | POST     "/api/chat"
+74036:[GIN] 2026/10/18 - 23:32:06 | 500 |  9.978732625s |       127.0.0.1 | POST     "/api/chat"
+74062:[GIN] 2026/10/18 - 23:32:18 | 500 |  9.141689834s |       127.0.0.1 | POST     "/api/chat"
+467427:[GIN] 2026/10/20 - 09:44:26 | 500 |  266.001584ms |       127.0.0.1 | POST     "/api/chat"
+619239:[GIN] 2026/10/20 - 12:55:30 | 500 |    4.6589005s |       127.0.0.1 | POST     "/api/chat"
+619263:[GIN] 2026/10/20 - 12:55:36 | 500 |  3.483635292s |       127.0.0.1 | POST     "/api/chat"
+619288:[GIN] 2026/10/20 - 12:55:43 | 500 |  3.586947041s |       127.0.0.1 | POST     "/api/chat"
+716611:[GIN] 2026/10/24 - 12:18:39 | 500 |  8.466700125s |       127.0.0.1 | POST     "/api/chat"
+717012:[GIN] 2026/10/24 - 13:42:34 | 500 |   4.15311425s |       127.0.0.1 | POST     "/api/chat"
+727262:[GIN] 2026/10/24 - 13:57:26 | 500 |  8.195810958s |       127.0.0.1 | POST     "/api/chat"
+705759:time=2026-10-24T11:52:27.951+09:00 level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/Applications/Ollama.app/Contents/Resources/llama-server --model /Users/seungchan/.ollama/models/blobs/sha256-a3de86cd1c132c822487ededd47a324c50491
+705994:time=2026-10-24T11:52:32.484+09:00 level=INFO source=sched.go:733 msg="loaded runners" count=1
+706136:time=2026-10-24T12:04:08.362+09:00 level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/Applications/Ollama.app/Contents/Resources/llama-server --model /Users/seungchan/.ollama/models/blobs/sha256-a3de86cd1c132c822487ededd47a324c50491
+706371:time=2026-10-24T12:04:09.876+09:00 level=INFO source=sched.go:733 msg="loaded runners" count=1
+716708:time=2026-10-24T13:42:21.513+09:00 level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/Applications/Ollama.app/Contents/Resources/llama-server --model /Users/seungchan/.ollama/models/blobs/sha256-a3de86cd1c132c822487ededd47a324c50491
+716943:time=2026-10-24T13:42:23.023+09:00 level=INFO source=sched.go:733 msg="loaded runners" count=1
+742967:time=2026-10-24T14:15:49.027+09:00 level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/Applications/Ollama.app/Contents/Resources/llama-server --model /Users/seungchan/.ollama/models/blobs/sha256-a3de86cd1c132c822487ededd47a324c50491
+743202:time=2026-10-24T14:15:50.288+09:00 level=INFO source=sched.go:733 msg="loaded runners" count=1
+753450:time=2026-10-24T14:40:07.550+09:00 level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/Applications/Ollama.app/Contents/Resources/llama-server --model /Users/seungchan/.ollama/models/blobs/sha256-a3de86cd1c132c822487ededd47a324c50491
+753685:time=2026-10-24T14:40:11.329+09:00 level=INFO source=sched.go:733 msg="loaded runners" count=1
+766666:time=2026-10-24T14:59:29.096+09:00 level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/Applications/Ollama.app/Contents/Resources/llama-server --model /Users/seungchan/.ollama/models/blobs/sha256-a3de86cd1c132c822487ededd47a324c50491
+766901:time=2026-10-24T14:59:30.360+09:00 level=INFO source=sched.go:733 msg="loaded runners" count=1
