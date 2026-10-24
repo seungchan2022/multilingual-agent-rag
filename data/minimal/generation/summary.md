@@ -36,10 +36,26 @@
 | JSON이 읽히지 않은 답(`parsed_ok` false) | 1/190 | 0/190 |
 | 숫자를 못 꺼낸 답(`picked` null) | 1/190 | 29/190 |
 | 되풀이로 끊긴 답(`aborted`) | 1/190 | 0/190 |
+| 숫자가 둘 이상인 답 | 7/190 | 1/190 |
 | 단위 다름(`unit_check`) | 0/190 | 0/190 |
 | 단위 없음(`unit_check`) | 33/190 | 83/190 |
 | 생성 시간 중앙값(초) | 5.87 | 5.84 |
 | 입력 토큰 중앙값(`prompt_tokens`, null 제외) | 177 (189/190줄) | 1378.5 (190/190줄) |
+
+## 숫자가 둘 이상인 답
+
+새 규칙으로 answer에서 꺼낸 숫자가 둘 이상인 답이다. 마지막 숫자를 골랐고, 맞음·틀림은 바꾸지 않았다.
+
+| 시스템 | 질문 ID | 씨앗 | answer | 꺼낸 숫자들 | 고른 숫자 | 맞음 |
+|---|---|---|---|---|---|---|
+| Baseline | q01-en | 1 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Then, calculate the mass: 60 cm³ × 5.24 g/cm³ = 314.4 g. Finally, convert to kg: 314.4 g ÷ 1000 = 0.3144 kg. | 3.0, 4.0, 5.0, 60.0, 60.0, 5.24, 314.4, 314.4, 1000.0, 0.3144 | 0.3144 | 맞음 |
+| Baseline | q05-en | 1 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Then, calculate the mass in grams: 60 cm³ × 8.55 g/cm³ = 513 g. Finally, convert grams to kilograms: 513 g ÷ 1000 = 0.513 kg. | 3.0, 4.0, 5.0, 60.0, 60.0, 8.55, 513.0, 513.0, 1000.0, 0.513 | 0.513 | 맞음 |
+| Baseline | q09-en | 1 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Then, calculate the mass: 9.05 g/cm³ × 60 cm³ = 543 g. Finally, convert to kilograms: 543 g ÷ 1000 = 0.543 kg. | 3.0, 4.0, 5.0, 60.0, 9.05, 60.0, 543.0, 543.0, 1000.0, 0.543 | 0.543 | 맞음 |
+| Baseline | q02-en | 2 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Next, multiply by the density of lutetium: 60 cm³ × 9.84 g/cm³ = 590.4 g. Convert to kilograms: 590.4 g ÷ 1000 = 0.5904 kg. The mass is 0.5904 kg. | 3.0, 4.0, 5.0, 60.0, 60.0, 9.84, 590.4, 590.4, 1000.0, 0.5904, 0.5904 | 0.5904 | 맞음 |
+| Baseline | q08-en | 2 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Then, calculate the mass: 60 cm³ × 6.78 g/cm³ = 406.8 g. Finally, convert grams to kilograms: 406.8 g = 0.4068 kg. | 3.0, 4.0, 5.0, 60.0, 60.0, 6.78, 406.8, 406.8, 0.4068 | 0.4068 | 틀림 |
+| Baseline | q01-ko | 3 | 유로inium 직육면체의 부피는 3 × 4 × 5 = 60 cm³입니다. 질량은 60 × 19.3 = 1158 g입니다. 1158 g을 kg로 변환하면 1.158 kg입니다. | 3.0, 4.0, 5.0, 60.0, 60.0, 19.3, 1158.0, 1158.0, 1.158 | 1.158 | 틀림 |
+| Baseline | q08-en | 3 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Then, calculate the mass: 60 cm³ × 6.78 g/cm³ = 406.8 g. Finally, convert grams to kilograms: 406.8 g = 0.4068 kg. The mass is approximately 0.407 kg. | 3.0, 4.0, 5.0, 60.0, 60.0, 6.78, 406.8, 406.8, 0.4068, 0.407 | 0.407 | 틀림 |
+| 최소판 | q05-en | 3 | First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³. Then, calculate the mass: 60 cm³ × 8.550 g/cm³ = 513 g. Convert grams to kilograms: 513 g = 0.513 kg. | 3.0, 4.0, 5.0, 60.0, 60.0, 8.55, 513.0, 513.0, 0.513 | 0.513 | 맞음 |
 
 ## 단위가 다른 답
 
