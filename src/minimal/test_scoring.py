@@ -116,6 +116,35 @@ class UnitTest(unittest.TestCase):
         self.assertEqual(self.check("keV", "621.4 MeV"), "다름")
         self.assertEqual(self.check("개월", "10.8 days"), "다름")
 
+    def test_lookalike_units_are_different(self):
+        for answer in ("0.5592 kg/m³", "0.5592 kgf", "0.5592 stones", "2.11 Sv", "10 달러", "5 분자", "3 초과", "3 일부", "2 달러"):
+            unit = "개월" if "달" in answer else "분" if "분" in answer else "초" if "초" in answer else "일" if "일" in answer else "kg"
+            self.assertEqual(self.check(unit, answer), "다름", answer)
+        self.assertEqual(self.check("keV", "2.11 Sv"), "다름")
+        self.assertEqual(self.check("s", "4 stones"), "다름")
+
+    def test_whole_token_and_case(self):
+        self.assertEqual(self.check("kg", "0.5592 Kg"), "같음")
+        self.assertEqual(self.check("kg", "0.5592 KG입니다"), "같음")
+        self.assertEqual(self.check("keV", "621.4 KEV"), "같음")
+        self.assertEqual(self.check("s", "4 seconds"), "같음")
+        self.assertEqual(self.check("s", "4 sec"), "같음")
+        self.assertEqual(self.check("s", "4 Sec."), "같음")
+
+    def test_hangul_endings(self):
+        for ending in scoring.ENDINGS:
+            self.assertEqual(self.check("분", f"12.4 분{ending}"), "같음", ending)
+            self.assertEqual(self.check("kg", f"12.4 킬로그램{ending}"), "같음", ending)
+        self.assertEqual(self.check("분", "12.4 분입니다"), "같음")
+        self.assertEqual(self.check("개월", "10 개월쯤"), "같음")
+        self.assertEqual(self.check("초", "3초로"), "같음")
+        self.assertEqual(self.check("분", "12.4 분자"), "다름")
+        self.assertEqual(self.check("kg", "12.4 킬로그램은"), "다름")   # 목록에 없는 조사로 시작하면 다름
+
+    def test_latin_unit_ignores_hangul_after_it(self):
+        self.assertEqual(self.check("kg", "0.5592 kg입니다"), "같음")
+        self.assertEqual(self.check("kg", "0.5592 kgf입니다"), "다름")
+
     def test_no_unit(self):
         self.assertEqual(self.check("kg", "0.5592"), "없음")
         self.assertEqual(self.check("kg", "0.5592."), "없음")

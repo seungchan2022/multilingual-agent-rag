@@ -44,11 +44,13 @@ def make_rows(system):
                 row.update({"hit": bool(HIT[q["id"]]), "hit_ranks": HIT[q["id"]]})
             rows.append(row)
     if system == "baseline":
+        rows[0]["answer"] = "5 중 10 kg"                             # 씨앗 1의 a-ko: 숫자가 둘, 마지막이 정답
         rows[1].update({"lang_ok": False, "answer": "30(20) min", "correct": True})   # 씨앗 1의 b-en: 답 언어가 다름. 예전 규칙은 20을 골라 맞음, 새 규칙은 30이라 틀림
         rows[3].update({"answer": "10(5) kg", "correct": False})   # 씨앗 2의 a-ko: 예전 규칙은 5를 골라 틀림, 새 규칙은 10이라 맞음
         rows[4]["answer"] = "20 s"                                  # 씨앗 2의 b-en: 숫자는 맞고 단위가 다름
         rows[5].update({"aborted": True, "parsed_ok": False, "answer": "", "lang_ok": False, "prompt_tokens": None})   # 씨앗 2의 c-ko: 끊김
     else:
+        rows[4]["answer"] = "19 대신 20 min"                        # 씨앗 2의 b-en: 숫자가 둘, 마지막이 정답
         rows[2]["answer"] = "모름"                                  # 씨앗 1의 c-ko: 숫자를 못 꺼냄
         rows[3].update({"parsed_ok": False, "answer": ""})          # 씨앗 2의 a-ko: JSON이 읽히지 않음
     return rows
@@ -65,9 +67,9 @@ def graded_runs():
 class StatsTest(unittest.TestCase):
     def test_system_stats(self):
         base, mini = (cg.system_stats(rows) for rows in graded_runs().values())
-        keys = ("n", "correct", "old_correct", "lang_ok", "not_parsed", "no_number", "aborted", "unit_diff", "unit_none")
-        self.assertEqual(tuple(base[k] for k in keys), (6, 4, 4, 4, 1, 1, 1, 1, 1))
-        self.assertEqual(tuple(mini[k] for k in keys), (6, 3, 3, 6, 1, 2, 0, 0, 2))
+        keys = ("n", "correct", "old_correct", "lang_ok", "not_parsed", "no_number", "aborted", "multi", "unit_diff", "unit_none")
+        self.assertEqual(tuple(base[k] for k in keys), (6, 4, 4, 4, 1, 1, 1, 1, 1, 1))
+        self.assertEqual(tuple(mini[k] for k in keys), (6, 3, 3, 6, 1, 2, 0, 1, 0, 2))
 
     def test_medians_and_null_tokens_are_dropped(self):
         base, mini = (cg.system_stats(rows) for rows in graded_runs().values())
@@ -179,6 +181,13 @@ class RegradeTest(unittest.TestCase):
         self.assertEqual(stats["old_correct"], stats["correct"])   # 합은 같지만 바뀐 답은 둘이다
         self.assertEqual(len(cg.changed_answers(graded_runs())), 2)
 
+    def test_multi_number_answers(self):
+        multi = cg.multi_number_answers(graded_runs())
+        self.assertEqual([(r["system"], r["question_id"], r["seed"], r["answer"], r["numbers"], r["picked"], r["correct"]) for r in multi],
+                         [("baseline", "a-ko", 1, "5 중 10 kg", [5.0, 10.0], 10.0, True), ("minimal", "b-en", 2, "19 대신 20 min", [19.0, 20.0], 20.0, True)])
+        # 괄호 오차 표기만 있는 답(10(5) kg)은 숫자가 하나라서 들지 않는다
+        self.assertNotIn("10(5) kg", [r["answer"] for r in multi])
+
     def test_unit_diff_answers(self):
         diff = cg.unit_diff_answers(graded_runs())
         self.assertEqual([(r["system"], r["question_id"], r["seed"], r["answer"]) for r in diff], [("baseline", "b-en", 2, "20 s")])
@@ -236,7 +245,8 @@ class SummaryTest(unittest.TestCase):
                          "| 질문 언어 ko | 2 | 3/4 | 1/4 |", "| en·두 언어 | 0 | 0/0 | 0/0 |",
                          "| 원래 기록의 `correct` 합 | 4/6 | 3/6 |", "| 새 규칙의 합 | 4/6 | 3/6 |", "맞음·틀림이 바뀐 답: 2/12개",
                          "| Baseline | b-en | 1 | 30(20) min | 맞음 → 틀림 |", "| Baseline | a-ko | 2 | 10(5) kg | 틀림 → 맞음 |",
-                         "| 단위 다름(`unit_check`) | 1/6 | 0/6 |", "| 단위 없음(`unit_check`) | 1/6 | 2/6 |",
+                         "| 숫자가 둘 이상인 답 | 1/6 | 1/6 |", "| 단위 다름(`unit_check`) | 1/6 | 0/6 |",
+                         "| Baseline | a-ko | 1 | 5 중 10 kg | 5.0, 10.0 | 10.0 | 맞음 |", "| 최소판 | b-en | 2 | 19 대신 20 min | 19.0, 20.0 | 20.0 | 맞음 |", "| 단위 없음(`unit_check`) | 1/6 | 2/6 |",
                          "| Baseline | b-en | 2 | 20 s | min |", "| 숫자를 못 꺼낸 답(`picked` null) | 1/6 | 2/6 |",
                          "| 둘 다 맞음 | 2/6 |", "| Baseline만 맞음 | 2/6 |", "| 최소판만 맞음 | 1/6 |", "| 둘 다 틀림 | 1/6 |",
                          "| ✔ | 3 | 1 | 4/6 |", "| ✘ | 0 | 2 | 2/6 |", "검색 ✔인 질문이 2/3개",

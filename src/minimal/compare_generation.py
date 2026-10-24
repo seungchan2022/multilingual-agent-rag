@@ -64,6 +64,7 @@ def system_stats(rows):
     """시스템 하나의 전체 수치. 개수는 그대로 세고(분모는 줄 수), 시간·토큰은 중앙값이다(prompt_tokens는 null을 뺀다)."""
     tokens = [r["prompt_tokens"] for r in rows if r["prompt_tokens"] is not None]
     return {"n": len(rows), "correct": sum(r["correct"] for r in rows), "old_correct": sum(r["old_correct"] for r in rows),
+            "multi": sum(len(r["numbers"]) >= 2 for r in rows),
             "unit_diff": sum(r["unit_check"] == "다름" for r in rows), "unit_none": sum(r["unit_check"] == "없음" for r in rows),
             "lang_ok": sum(r["lang_ok"] for r in rows),
             "not_parsed": sum(not r["parsed_ok"] for r in rows), "no_number": sum(r["picked"] is None for r in rows),
@@ -141,6 +142,11 @@ def changed_answers(runs):
     return [r for system in SYSTEMS for r in runs[system] if r["old_correct"] != r["correct"]]
 
 
+def multi_number_answers(runs):
+    """새 규칙으로 꺼낸 숫자가 둘 이상인 줄(시스템 순서, 파일의 순서). 맞음·틀림은 바꾸지 않고 표시만 한다."""
+    return [r for system in SYSTEMS for r in runs[system] if len(r["numbers"]) >= 2]
+
+
 def unit_diff_answers(runs):
     """단위가 질문의 단위와 다른 줄(시스템 순서, 파일의 순서)."""
     return [r for system in SYSTEMS for r in runs[system] if r["unit_check"] == "다름"]
@@ -197,6 +203,7 @@ def build_summary(runs, questions, seeds=SEEDS):
              ("JSON이 읽히지 않은 답(`parsed_ok` false)", lambda s: f"{s['not_parsed']}/{s['n']}"),
              ("숫자를 못 꺼낸 답(`picked` null)", lambda s: f"{s['no_number']}/{s['n']}"),
              ("되풀이로 끊긴 답(`aborted`)", lambda s: f"{s['aborted']}/{s['n']}"),
+             ("숫자가 둘 이상인 답", lambda s: f"{s['multi']}/{s['n']}"),
              ("단위 다름(`unit_check`)", lambda s: f"{s['unit_diff']}/{s['n']}"),
              ("단위 없음(`unit_check`)", lambda s: f"{s['unit_none']}/{s['n']}"),
              ("생성 시간 중앙값(초)", lambda s: f"{s['gen_seconds']:.2f}"),
@@ -204,6 +211,16 @@ def build_summary(runs, questions, seeds=SEEDS):
               lambda s: f"{num(s['prompt_tokens'])} ({s['prompt_tokens_n']}/{s['n']}줄)" if s["prompt_tokens"] is not None else f"- (0/{s['n']}줄)")]
     for name, cell in rows_:
         out.append(f"| {name} | " + " | ".join(cell(stats[s]) for s in SYSTEMS) + " |")
+
+    multi = multi_number_answers(runs)
+    out += ["", "## 숫자가 둘 이상인 답", "",
+            "새 규칙으로 answer에서 꺼낸 숫자가 둘 이상인 답이다. 마지막 숫자를 골랐고, 맞음·틀림은 바꾸지 않았다.",
+            "" if multi else "없음"]
+    if multi:
+        out += ["| 시스템 | 질문 ID | 씨앗 | answer | 꺼낸 숫자들 | 고른 숫자 | 맞음 |", "|---|---|---|---|---|---|---|"]
+        for r in multi:
+            out.append(f"| {LABEL[r['system']]} | {r['question_id']} | {r['seed']} | {table_text(r['answer'])} | "
+                       f"{', '.join(str(n) for n in r['numbers'])} | {r['picked']} | {'맞음' if r['correct'] else '틀림'} |")
 
     unit_diff = unit_diff_answers(runs)
     out += ["", "## 단위가 다른 답", "",
