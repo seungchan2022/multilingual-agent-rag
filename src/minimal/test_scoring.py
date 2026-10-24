@@ -139,7 +139,23 @@ class UnitTest(unittest.TestCase):
         self.assertEqual(self.check("개월", "10 개월쯤"), "같음")
         self.assertEqual(self.check("초", "3초로"), "같음")
         self.assertEqual(self.check("분", "12.4 분자"), "다름")
-        self.assertEqual(self.check("kg", "12.4 킬로그램은"), "다름")   # 목록에 없는 조사로 시작하면 다름
+
+    def test_hangul_particles_and_endings_are_same(self):
+        for unit, answer in (("초", "3초가 걸립니다"), ("분", "12.4분이었다"), ("kg", "0.5592 킬로그램은"), ("분", "12.4분이고"),
+                             ("개월", "10개월간"), ("일", "5일이다"), ("초", "3초의"), ("분", "2분을"), ("일", "5일째"),
+                             ("분", "12.4분입니다"), ("개월", "10개월쯤"), ("초", "3초로"), ("일", "4일정도"), ("초", "3초부터"),
+                             ("초", "5분과 3초"), ("분", "10분간"), ("분", "5분만"), ("일", "5일간"), ("개월", "3달이"), ("kg", "2킬로그램에")):
+            self.assertEqual(self.check(unit, answer), "같음", answer)
+
+    def test_other_words_starting_with_a_unit_are_different(self):
+        for unit, answer in (("분", "5 분자"), ("분", "5 분석"), ("초", "3 초과"), ("초", "3초과를"), ("초", "3 초기"), ("일", "3 일부"),
+                             ("일", "3 일반"), ("개월", "10 달러"), ("개월", "10 달리"), ("분", "5 분자의"), ("일", "3 일정")):
+            self.assertEqual(self.check(unit, answer), "다름", answer)
+
+    def test_hangul_compound_units_are_different(self):
+        for unit, answer in (("kg", "0.5592 킬로그램/초"), ("분", "12.4 분/초"), ("분", "12.4분 / 초"), ("분", "12.4 분·초"),
+                             ("kg", "0.5592 킬로그램²"), ("초", "3 초³")):
+            self.assertEqual(self.check(unit, answer), "다름", answer)
 
     def test_latin_unit_ignores_hangul_after_it(self):
         self.assertEqual(self.check("kg", "0.5592 kg입니다"), "같음")
