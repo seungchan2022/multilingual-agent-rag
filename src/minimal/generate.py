@@ -6,7 +6,9 @@
 규칙은 decisions/stage4.md의 2026-10-23 줄(생성 설정 / 다시 돌려 같은 글이 나오는지는 확인 조건으로 두지 않고 실행 조건을 고정 /
 Baseline과 최소판의 지시문은 영어 지시문 하나 / 가져온 청크를 넣는 부분도 영어로 / 실행 기록)과 decisions/stage5.md의 2026-10-23 줄(최소판의 조합)에 있다.
 시스템은 따로 돌린다(명령 하나에 시스템 하나, 합쳐서 380번). 한 명령 안의 순서는 씨앗(1 → 5) → 질문(파일 순서)이고, 요청은 한 번에 하나씩 보낸다.
-명령마다 시작할 때 몸풀기 호출을 한 번 하고 기록하지 않는다. baseline은 임베딩 모델을 불러오지 않고 DB에도 붙지 않는다.
+명령마다 시작할 때 모델을 메모리에서 내리고(keep_alive 0) 몸풀기 호출을 한 번 한다. 몸풀기는 기록하지 않는다. 모델을 막 올린 상태로 시작하게 고정하는 것이다.
+요청은 stream으로 보내 줄마다 읽는다. 응답 중간에 "token repeat limit" error가 오면(모델이 같은 글을 끝없이 쓴 것) 멈추지 않고 그때까지 받은 글을 그 답으로 기록한다
+(aborted, abort_reason 칸, gen_tokens와 prompt_tokens는 null). 그 밖의 error와 HTTP 오류는 어느 요청이었는지와 함께 RuntimeError로 멈춘다. baseline은 임베딩 모델을 불러오지 않고 DB에도 붙지 않는다.
 시스템마다 기록 파일이 따로 있고, 그 파일이 이미 있으면 덮어쓰지 않고 멈춘다(점수는 첫 실행의 기록에서만 계산하기 때문이다). 요약·비교 계산은 이 프로그램에 없다.
 """
 import argparse
@@ -28,6 +30,8 @@ from search import embed_query, search  # noqa: E402
 OUT_DIR = ROOT / "data" / "minimal" / "generation"
 RUNS = {system: OUT_DIR / f"runs_{system}.jsonl" for system in ("baseline", "minimal")}
 URL = "http://localhost:11434/api/chat"
+GENERATE_URL = "http://localhost:11434/api/generate"   # 모델을 메모리에서 내릴 때만 쓴다
+ABORT_MARK = "token repeat limit"
 MODEL = "qwen3:8b"
 SEEDS = (1, 2, 3, 4, 5)
 SYSTEMS = ("baseline", "minimal")
@@ -77,22 +81,44 @@ def messages_of(system, question, found=None):
 def request_body(system_message, user_message, seed):
     options = {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "min_p": 0, "num_predict": 2048, "num_ctx": 32768, "seed": seed}
     body = {"model": MODEL, "messages": [{"role": "system", "content": system_message}, {"role": "user", "content": user_message}],
-            "stream": False, "think": False, "format": "json", "options": options}
+            "stream": True, "think": False, "format": "json", "options": options}
     return body
 
 
 def chat(system_message, user_message, seed):
-    """Ollama에 요청 하나를 보내 (모델이 돌려준 글, 걸린 시간, eval_count, prompt_eval_count)를 돌려준다.
-    HTTP 오류(예: 500)는 응답 본문을 읽어 상태 코드와 함께 RuntimeError로 다시 던진다. 재시도하지 않는다."""
+    """Ollama에 stream 요청 하나를 보내 줄마다 읽고 (글, 걸린 시간, eval_count, prompt_eval_count, 끊긴 이유)를 돌려준다.
+    글은 줄마다 온 message.content를 이어 붙인 것이다. 응답 중간에 error 줄이 오고 그 글에 'token repeat limit'가 있으면 멈추지 않고
+    그때까지의 글과 error 글을 돌려준다(eval_count와 prompt_eval_count는 마지막 줄이 없으므로 None). 끊기지 않았으면 끊긴 이유는 None이다.
+    그 밖의 error와 HTTP 오류(예: 500)는 상태 코드·오류 글과 함께 RuntimeError로 던진다. 재시도하지 않는다."""
     body = request_body(system_message, user_message, seed)
     req = urllib.request.Request(URL, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     t0 = time.time()
+    parts, last = [], None
     try:
         with urllib.request.urlopen(req, timeout=600) as r:
-            res = json.loads(r.read())
+            for line in r:
+                if not line.strip():
+                    continue
+                res = json.loads(line)
+                if "error" in res:
+                    if ABORT_MARK not in res["error"]:
+                        raise RuntimeError(f"Ollama 오류: {res['error']}")
+                    return "".join(parts), round(time.time() - t0, 2), None, None, res["error"]
+                parts.append(res["message"]["content"])
+                last = res
     except urllib.error.HTTPError as e:
         raise RuntimeError(f"Ollama HTTP {e.code}: {e.read().decode('utf-8', errors='replace')}") from e
-    return res["message"]["content"], round(time.time() - t0, 2), res.get("eval_count"), res.get("prompt_eval_count")
+    if last is None or not last.get("done"):
+        raise RuntimeError("Ollama 응답이 done 줄 없이 끝남")
+    return "".join(parts), round(time.time() - t0, 2), last.get("eval_count"), last.get("prompt_eval_count"), None
+
+
+def unload_model():
+    """모델을 메모리에서 내린다(keep_alive 0). 다음 호출에서 모델이 새로 올라온다."""
+    body = {"model": MODEL, "keep_alive": 0}
+    req = urllib.request.Request(GENERATE_URL, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=600) as r:
+        r.read()
 
 
 def language_of(text):
@@ -158,6 +184,8 @@ def run(questions, path, conn, model, seeds=SEEDS, systems=SYSTEMS):
     commit, dirty = git_state()
     run_id = time.strftime("%Y%m%dT%H%M%S")
     path.parent.mkdir(parents=True, exist_ok=True)
+    unload_model()
+    print("모델을 메모리에서 내리고 시작한다(몸풀기 호출 한 번, 기록하지 않음)", flush=True)
     chat(SYSTEM_EN, WARMUP_USER, seeds[0])  # 몸풀기 호출. 결과는 쓰지 않는다.
     n = 0
     with open(path, "x", encoding="utf-8") as out:
@@ -171,18 +199,18 @@ def run(questions, path, conn, model, seeds=SEEDS, systems=SYSTEMS):
                         found, search_part = None, NO_RETRIEVAL
                     system_message, user_message = messages_of(system, q, found)
                     try:
-                        output, seconds, tokens, prompt_tokens = chat(system_message, user_message, seed)
+                        output, seconds, tokens, prompt_tokens, abort_reason = chat(system_message, user_message, seed)
                     except RuntimeError as e:
                         raise RuntimeError(f'{system} 씨앗{seed} {q["id"]}에서 멈춤: {e}') from e
                     row = {"run_id": run_id, "system": system, "question_id": q["id"], "lang": q["lang"], "branch": q["branch"], "seed": seed,
                            "model": MODEL, "options": request_body(system_message, user_message, seed)["options"],
                            "prompt_version": PROMPT_VERSION[system], "code_commit": commit, "code_dirty": dirty,
-                           **search_part, "system_message": system_message, "user_message": user_message, "output": output,
+                           **search_part, "system_message": system_message, "user_message": user_message, "output": output, "aborted": abort_reason is not None, "abort_reason": abort_reason,
                            **graded(q, output), "gen_seconds": seconds, "gen_tokens": tokens, "prompt_tokens": prompt_tokens}
                     out.write(json.dumps(row, ensure_ascii=False) + "\n")
                     out.flush()
                     n += 1
-                    print(f'{system} 씨앗{seed} {q["id"]} {"맞음" if row["correct"] else "틀림"} {seconds}s', flush=True)
+                    print(f'{system} 씨앗{seed} {q["id"]} {"맞음" if row["correct"] else "틀림"}{" (끊김)" if row["aborted"] else ""} {seconds}s', flush=True)
     return n
 
 

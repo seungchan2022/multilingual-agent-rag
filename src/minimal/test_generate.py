@@ -39,8 +39,14 @@ def question(qid="q01-ko", lang="ko", value=17.7, text="반감기는 몇 시간�
 
 
 class FakeResponse:
-    def __init__(self, content, eval_count=12, prompt_eval_count=345):
-        self.data = json.dumps({"message": {"content": content}, "eval_count": eval_count, "prompt_eval_count": prompt_eval_count}).encode()
+    """stream 응답 하나. 줄 단위로 읽힌다. 글은 두 조각으로 나눠 오고, 끝에 done 줄이 온다. error를 주면 done 줄 대신 error 줄이 온다."""
+
+    def __init__(self, content, eval_count=12, prompt_eval_count=345, error=None):
+        cut = len(content) // 2
+        lines = [{"message": {"role": "assistant", "content": piece}, "done": False} for piece in (content[:cut], content[cut:]) if piece]
+        lines.append({"error": error} if error else
+                     {"message": {"role": "assistant", "content": ""}, "done": True, "eval_count": eval_count, "prompt_eval_count": prompt_eval_count})
+        self.lines = [(json.dumps(line, ensure_ascii=False) + "\n").encode() for line in lines]
 
     def __enter__(self):
         return self
@@ -48,21 +54,31 @@ class FakeResponse:
     def __exit__(self, *exc):
         return False
 
+    def __iter__(self):
+        return iter(self.lines)
+
     def read(self):
-        return self.data
+        return b'{"done": true}'
 
 
 class FakeOllama:
-    """urlopen을 대신한다. 보낸 요청 본문을 requests에 쌓고, 정해진 글을 돌려준다."""
+    """urlopen을 대신한다. 모든 요청을 순서대로 calls에, 채팅 요청 본문만 requests에 쌓고, 정해진 글을 돌려준다.
+    responses는 {채팅 요청 번호(0이 몸풀기): FakeResponse}로, 그 번호의 요청에만 다른 응답을 준다."""
 
-    def __init__(self, content='{"reason": "계산", "answer": "17.7 시간"}'):
+    def __init__(self, content='{"reason": "계산", "answer": "17.7 시간"}', responses=None):
         self.content = content
+        self.responses = responses or {}
         self.requests = []
+        self.calls = []
 
     def __call__(self, req, timeout=None):
+        body = json.loads(req.data)
+        self.calls.append((req.full_url, body))
+        if req.full_url == g.GENERATE_URL:
+            return FakeResponse("")
         assert req.full_url == "http://localhost:11434/api/chat", req.full_url
-        self.requests.append(json.loads(req.data))
-        return FakeResponse(self.content)
+        self.requests.append(body)
+        return self.responses.get(len(self.requests) - 1) or FakeResponse(self.content)
 
 
 def http_error(code=500, body="model runner has unexpectedly stopped".encode()):
@@ -103,13 +119,13 @@ class RequestTest(unittest.TestCase):
     def test_body_matches_spec(self):
         fake = FakeOllama()
         with mock.patch.object(g.urllib.request, "urlopen", fake):
-            content, seconds, tokens, prompt_tokens = g.chat("지시문", "질문", 3)
-        self.assertEqual((content, tokens, prompt_tokens), ('{"reason": "계산", "answer": "17.7 시간"}', 12, 345))
+            content, seconds, tokens, prompt_tokens, abort_reason = g.chat("지시문", "질문", 3)
+        self.assertEqual((content, tokens, prompt_tokens, abort_reason), ('{"reason": "계산", "answer": "17.7 시간"}', 12, 345, None))
         body = fake.requests[0]
         self.assertEqual(body["model"], "qwen3:8b")
         self.assertIs(body["think"], False)
         self.assertEqual(body["format"], "json")
-        self.assertIs(body["stream"], False)
+        self.assertIs(body["stream"], True)
         self.assertEqual(body["options"], {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "min_p": 0, "num_predict": 2048,
                                            "num_ctx": 32768, "seed": 3})
         self.assertEqual(body["messages"], [{"role": "system", "content": "지시문"}, {"role": "user", "content": "질문"}])
@@ -130,6 +146,31 @@ class RequestTest(unittest.TestCase):
         with mock.patch.object(g.urllib.request, "urlopen", fail), self.assertRaises(RuntimeError) as cm:
             g.chat("지시문", "질문", 1)
         self.assertIn("HTTP 500: bad \ufffd byte", str(cm.exception))
+
+
+    def test_stream_pieces_are_joined(self):
+        with mock.patch.object(g.urllib.request, "urlopen", FakeOllama("가나다라마바사")):
+            content, _, tokens, prompt_tokens, abort_reason = g.chat("지시문", "질문", 1)
+        self.assertEqual((content, tokens, prompt_tokens, abort_reason), ("가나다라마바사", 12, 345, None))
+
+    def test_token_repeat_limit_returns_partial_text(self):
+        fake = FakeOllama(responses={0: FakeResponse('{"reason": "r", "answer": "0.0000000', error="prediction aborted, token repeat limit reached")})
+        with mock.patch.object(g.urllib.request, "urlopen", fake):
+            content, _, tokens, prompt_tokens, abort_reason = g.chat("지시문", "질문", 1)
+        self.assertEqual(content, '{"reason": "r", "answer": "0.0000000')
+        self.assertEqual((tokens, prompt_tokens, abort_reason), (None, None, "prediction aborted, token repeat limit reached"))
+
+    def test_other_error_line_stops(self):
+        fake = FakeOllama(responses={0: FakeResponse("앞 글", error="model runner has unexpectedly stopped")})
+        with mock.patch.object(g.urllib.request, "urlopen", fake), self.assertRaises(RuntimeError) as cm:
+            g.chat("지시문", "질문", 1)
+        self.assertEqual(str(cm.exception), "Ollama 오류: model runner has unexpectedly stopped")
+
+    def test_unload_request(self):
+        fake = FakeOllama()
+        with mock.patch.object(g.urllib.request, "urlopen", fake):
+            g.unload_model()
+        self.assertEqual(fake.calls, [("http://localhost:11434/api/generate", {"model": "qwen3:8b", "keep_alive": 0})])
 
 
 class LanguageTest(unittest.TestCase):
@@ -296,10 +337,15 @@ class RunTest(unittest.TestCase):
                          [(s, seed, q) for s in ("baseline", "minimal") for seed in (1, 2) for q in ("q01-ko", "q01-en")])
         # 요청은 몸풀기 1 + 8번이고, 몸풀기는 맨 앞이며 기록에 들어가지 않는다
         self.assertEqual(len(fake.requests), 9)
+        # 모델 내리기 요청이 몸풀기보다 먼저 가고, 기록에는 없다
+        self.assertEqual(fake.calls[0], (g.GENERATE_URL, {"model": "qwen3:8b", "keep_alive": 0}))
+        self.assertEqual(fake.calls[1][1]["messages"][1]["content"], g.WARMUP_USER)
+        self.assertEqual(len(fake.calls), 10)
+        self.assertTrue(all(r["aborted"] is False and r["abort_reason"] is None for r in rows))
         self.assertEqual(fake.requests[0]["messages"][1]["content"], g.WARMUP_USER)
         self.assertNotIn(g.WARMUP_USER, [r["user_message"] for r in rows])
         self.assertEqual([r["options"]["seed"] for r in rows], [req["options"]["seed"] for req in fake.requests[1:]])
-        self.assertEqual(len(printed.strip().splitlines()), 8)
+        self.assertEqual(len(printed.strip().splitlines()), 9)   # 모델 내림 알림 1줄 + 진행 8줄
         self.assertEqual(len({r["run_id"] for r in rows}), 1)
 
     def test_baseline_and_minimal_rows(self):
@@ -336,6 +382,8 @@ class RunTest(unittest.TestCase):
         calls = []
 
         def flaky(req, timeout=None):
+            if req.full_url == g.GENERATE_URL:
+                return FakeResponse("")
             calls.append(json.loads(req.data))
             if len(calls) == 4:   # 몸풀기 1 + baseline 씨앗 1의 2개 + 다음 요청(baseline 씨앗 2, q01-ko)
                 raise http_error(500)
@@ -349,6 +397,29 @@ class RunTest(unittest.TestCase):
         rows = [json.loads(line) for line in self.path.read_text(encoding="utf-8").splitlines()]
         self.assertEqual([(r["seed"], r["question_id"]) for r in rows], [(1, "q01-ko"), (1, "q01-en")])   # 오류 줄은 쓰지 않는다
 
+    def test_token_repeat_limit_is_recorded_and_run_continues(self):
+        abort = "prediction aborted, token repeat limit reached"
+        partial = '{"reason": "r", "answer": "0.000000'
+        # 채팅 요청 번호: 0 몸풀기, 1~2 baseline 씨앗 1(q01-ko, q01-en). 1번을 끊는다
+        fake = FakeOllama(responses={1: FakeResponse(partial, error=abort)})
+        n, rows, printed = self.run_small(fake, seeds=(1,))
+        self.assertEqual(n, 4)   # 끊겨도 멈추지 않고 나머지를 돈다
+        cut, ok = rows[0], rows[1]
+        self.assertEqual((cut["question_id"], cut["output"], cut["aborted"], cut["abort_reason"]), ("q01-ko", partial, True, abort))
+        self.assertEqual((cut["gen_tokens"], cut["prompt_tokens"]), (None, None))
+        self.assertEqual((cut["parsed_ok"], cut["correct"], cut["answer_lang"], cut["reason"], cut["answer"]), (False, False, None, "", ""))
+        self.assertEqual((ok["aborted"], ok["abort_reason"], ok["gen_tokens"], ok["prompt_tokens"], ok["correct"]), (False, None, 12, 345, True))
+        self.assertIn("q01-ko 틀림 (끊김)", printed)
+
+    def test_other_error_line_stops_run_with_request_identified(self):
+        fake = FakeOllama(responses={2: FakeResponse("앞 글", error="model runner has unexpectedly stopped")})
+        with mock.patch.object(g.urllib.request, "urlopen", fake), redirect_stdout(io.StringIO()), self.assertRaises(RuntimeError) as cm:
+            g.run(self.questions, self.path, self.conn, None, seeds=(1,), systems=("baseline",))
+        for part in ("baseline", "씨앗1", "q01-en", "model runner has unexpectedly stopped"):
+            self.assertIn(part, str(cm.exception))
+        rows = [json.loads(line) for line in self.path.read_text(encoding="utf-8").splitlines()]
+        self.assertEqual([r["question_id"] for r in rows], ["q01-ko"])
+
     def test_existing_file_stops_and_is_kept(self):
         self.path.parent.mkdir(parents=True)
         self.path.write_text("첫 실행의 기록\n", encoding="utf-8")
@@ -356,7 +427,7 @@ class RunTest(unittest.TestCase):
         with mock.patch.object(g.urllib.request, "urlopen", fake), self.assertRaises(FileExistsError):
             g.run(self.questions, self.path, self.conn, None, seeds=(1,))
         self.assertEqual(self.path.read_text(encoding="utf-8"), "첫 실행의 기록\n")
-        self.assertEqual(fake.requests, [])   # 몸풀기 호출도 하지 않는다
+        self.assertEqual((fake.requests, fake.calls), ([], []))   # 모델 내리기도 몸풀기도 하지 않는다
 
 
 if __name__ == "__main__":
