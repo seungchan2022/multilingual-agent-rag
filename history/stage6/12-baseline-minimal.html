@@ -93,17 +93,17 @@ footer a{color:var(--link)}
 <p class="sub">결과물은 프로그램(<code>src/minimal/generate.py</code>, <code>scoring.py</code>, <code>compare_generation.py</code>와 시험), 실행 기록(<code>data/minimal/generation/</code>의 <code>runs_baseline.jsonl</code>, <code>runs_minimal.jsonl</code>, 요약 <code>summary.md</code>, 멈춘 실행 셋), 멈춘 사례의 재현 자료(<code>research_notes/stage6_repeat_abort/</code>), 결정 기록(<code>decisions/stage6.md</code>)이다. 항목 번호는 이슈 체크리스트의 차례(1~7)다.</p>
 
 <div class="stats">
-<div class="stat"><b>9</b><span>결정 줄<br>6단계 결정 파일 7, 일하는 방식 파일 2</span></div>
-<div class="stat"><b>9</b><span>판단 기록 줄<br>판단 기록 파일의 2026-10-24 줄</span></div>
-<div class="stat"><b>30</b><span>커밋<br>이슈 번호가 붙은 것, 이 흐름 요약을 넣기 전까지</span></div>
+<div class="stat"><b>10</b><span>결정 줄<br>6단계 결정 파일 8, 일하는 방식 파일 2</span></div>
+<div class="stat"><b>10</b><span>판단 기록 줄<br>판단 기록 파일의 2026-10-24 줄</span></div>
+<div class="stat"><b>33</b><span>커밋<br>이슈 번호가 붙은 것, 이 흐름 요약을 고치기 전까지</span></div>
 <div class="stat"><b>380번 (질문 38 × 씨앗 5 × 시스템 2). 그 전에 멈춘 실행 셋(158줄, 1줄, 158줄)은 점수에 쓰지 않고 남김</b><span>실행</span></div>
 <div class="stat"><b>Baseline 37/190, 최소판 144/190</b><span>맞은 답<br>오차 표기 규칙을 고치기 전 138/190</span></div>
 <div class="stat"><b>최소판만 맞음 121, Baseline만 맞음 14, 둘 다 맞음 23, 둘 다 틀림 32</b><span>같은 질문·씨앗 짝 190개</span></div>
 <div class="stat"><b>근거 청크를 가져온 155개 중 144개 맞음, 놓친 35개는 모두 틀림</b><span>최소판의 검색과 답<br>거절 27</span></div>
 <div class="stat"><b>Baseline 1, 최소판 0</b><span>되풀이로 끊긴 답</span></div>
-<div class="stat"><b>190개</b><span>시험<br>생성, 채점, 비교 프로그램과 앞 단계의 것</span></div>
-<div class="stat"><b>1차 3(보통 2, 낮음 1, 모두 반영). 2차: 2개 해소, 1개 절반, 새 1개. 남은 둘(낮음)은 미정 목록으로</b><span>Codex 지적</span></div>
-<div class="stat"><b>더한 줄 4, 지운 줄 2</b><span>미정 목록</span></div>
+<div class="stat"><b>193개</b><span>시험<br>생성, 채점, 비교 프로그램과 앞 단계의 것</span></div>
+<div class="stat"><b>1차 3(보통 2, 낮음 1, 모두 반영). 2차: 2개 해소, 1개 절반, 새 1개. 남은 둘(낮음)도 사용자의 결정으로 바로 고침</b><span>Codex 지적</span></div>
+<div class="stat"><b>더한 줄 3, 지운 줄 2</b><span>미정 목록<br>Codex 2차로 더했다가 바로 고쳐 지운 줄 1은 빼고 셈</span></div>
 </div>
 
 <nav class="toc">
@@ -113,11 +113,11 @@ footer a{color:var(--link)}
 <h2 id="sec-1">흐름</h2>
 
 <figure>
-<svg viewBox="0 0 480 1102" role="img" aria-labelledby="stage6-12-flow-title stage6-12-flow-desc" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<svg viewBox="0 0 480 1180" role="img" aria-labelledby="stage6-12-flow-title stage6-12-flow-desc" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
   <title id="stage6-12-flow-title">Baseline과 최소판을 돌리고 견준 순서</title>
-  <desc id="stage6-12-flow-desc">Codex 검토 단위를 정하고 생성 프로그램을 만든 뒤 Baseline을 돌렸다. 같은 곳에서 두 번 멈춰 원인을 찾았고, 모델이 답에 0을 끝없이 쓴 실패였다. 끊긴 답을 기록하게 고쳐 380번을 마치고, Baseline 입력을 확인하고, 첫 비교와 채점 규칙 수정, 지금 설정에서 본 약점, 넘겨받은 확인 셋을 본 뒤 닫는 절차를 거쳤다.</desc>
+  <desc id="stage6-12-flow-desc">Codex 검토 단위를 정하고 생성 프로그램을 만든 뒤 Baseline을 돌렸다. 같은 곳에서 두 번 멈춰 원인을 찾았고, 모델이 답에 0을 끝없이 쓴 실패였다. 끊긴 답을 기록하게 고쳐 380번을 마치고, Baseline 입력을 확인하고, 첫 비교와 채점 규칙 수정, 지금 설정에서 본 약점, 넘겨받은 확인 셋을 본 뒤 닫는 절차를 거쳤고, Codex 2차의 낮은 지적도 바로 고쳤다.</desc>
   <defs><marker id="s612-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#3b4558"/></marker></defs>
-  <g stroke="#3b4558" stroke-width="1.2" marker-end="url(#s612-arrow)"><line x1="240" y1="72" x2="240" y2="92"/><line x1="240" y1="150" x2="240" y2="170"/><line x1="240" y1="228" x2="240" y2="248"/><line x1="240" y1="306" x2="240" y2="326"/><line x1="240" y1="384" x2="240" y2="404"/><line x1="240" y1="462" x2="240" y2="482"/><line x1="240" y1="540" x2="240" y2="560"/><line x1="240" y1="618" x2="240" y2="638"/><line x1="240" y1="696" x2="240" y2="716"/><line x1="240" y1="774" x2="240" y2="794"/><line x1="240" y1="852" x2="240" y2="872"/><line x1="240" y1="930" x2="240" y2="950"/><line x1="240" y1="1008" x2="240" y2="1028"/></g>
+  <g stroke="#3b4558" stroke-width="1.2" marker-end="url(#s612-arrow)"><line x1="240" y1="72" x2="240" y2="92"/><line x1="240" y1="150" x2="240" y2="170"/><line x1="240" y1="228" x2="240" y2="248"/><line x1="240" y1="306" x2="240" y2="326"/><line x1="240" y1="384" x2="240" y2="404"/><line x1="240" y1="462" x2="240" y2="482"/><line x1="240" y1="540" x2="240" y2="560"/><line x1="240" y1="618" x2="240" y2="638"/><line x1="240" y1="696" x2="240" y2="716"/><line x1="240" y1="774" x2="240" y2="794"/><line x1="240" y1="852" x2="240" y2="872"/><line x1="240" y1="930" x2="240" y2="950"/><line x1="240" y1="1008" x2="240" y2="1028"/><line x1="240" y1="1086" x2="240" y2="1106"/></g>
   <g><rect x="32" y="16" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="40" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">01</text><text x="76" y="40" font-size="16" font-weight="700" fill="#1f2230">이슈를 열기 전: Codex 검토 단위</text><circle cx="80" cy="56" r="2" fill="#59627a"/><text x="92" y="60" font-size="12" fill="#3b4558">서브이슈마다 1차·2차</text></g>
   <g><rect x="32" y="94" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="118" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">02</text><text x="76" y="118" font-size="16" font-weight="700" fill="#1f2230">항목 1: 생성 프로그램</text><circle cx="80" cy="134" r="2" fill="#59627a"/><text x="92" y="138" font-size="12" fill="#3b4558">4단계 설정 그대로, 기록 칸</text></g>
   <g><rect x="32" y="172" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="196" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">03</text><text x="76" y="196" font-size="16" font-weight="700" fill="#1f2230">항목 2: Baseline 190번</text><circle cx="80" cy="212" r="2" fill="#59627a"/><text x="92" y="216" font-size="12" fill="#3b4558">같은 곳에서 두 번 멈춤</text></g>
@@ -130,8 +130,9 @@ footer a{color:var(--link)}
   <g><rect x="32" y="718" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="742" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">10</text><text x="76" y="742" font-size="16" font-weight="700" fill="#1f2230">항목 7: 넘겨받은 확인 셋</text><circle cx="80" cy="758" r="2" fill="#59627a"/><text x="92" y="762" font-size="12" fill="#3b4558">표 질문 5/5 대 0/5</text></g>
   <g><rect x="32" y="796" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="820" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">11</text><text x="76" y="820" font-size="16" font-weight="700" fill="#1f2230">닫는 절차: 문서 대조, 어드바이저</text><circle cx="80" cy="836" r="2" fill="#59627a"/><text x="92" y="840" font-size="12" fill="#3b4558">생성 프로그램 채점, 숫자 하나</text></g>
   <g><rect x="32" y="874" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="898" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">12</text><text x="76" y="898" font-size="16" font-weight="700" fill="#1f2230">Codex 1차</text><circle cx="80" cy="914" r="2" fill="#59627a"/><text x="92" y="918" font-size="12" fill="#3b4558">3개 지적, 모두 반영</text></g>
-  <g><rect x="32" y="952" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="976" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">13</text><text x="76" y="976" font-size="16" font-weight="700" fill="#1f2230">Codex 2차</text><circle cx="80" cy="992" r="2" fill="#59627a"/><text x="92" y="996" font-size="12" fill="#3b4558">2개 해소, 낮음 2개는 미정으로</text></g>
-  <g><rect x="32" y="1030" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="1054" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">14</text><text x="76" y="1054" font-size="16" font-weight="700" fill="#1f2230">흐름 요약과 승인</text><circle cx="80" cy="1070" r="2" fill="#59627a"/><text x="92" y="1074" font-size="12" fill="#3b4558">다음: 멘토 정리, 서브이슈 2</text></g>
+  <g><rect x="32" y="952" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="976" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">13</text><text x="76" y="976" font-size="16" font-weight="700" fill="#1f2230">Codex 2차</text><circle cx="80" cy="992" r="2" fill="#59627a"/><text x="92" y="996" font-size="12" fill="#3b4558">2개 해소, 절반 1, 새 지적 1(모두 낮음)</text></g>
+  <g><rect x="32" y="1030" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="1054" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">14</text><text x="76" y="1054" font-size="16" font-weight="700" fill="#1f2230">2차 지적도 바로 고침</text><circle cx="80" cy="1070" r="2" fill="#59627a"/><text x="92" y="1074" font-size="12" fill="#3b4558">반례 18개 모두 원하는 결과</text></g>
+  <g><rect x="32" y="1108" width="416" height="56" rx="6" fill="#ffffff" stroke="#1f2230"/><text x="48" y="1132" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#59627a">15</text><text x="76" y="1132" font-size="16" font-weight="700" fill="#1f2230">흐름 요약과 승인</text><circle cx="80" cy="1148" r="2" fill="#59627a"/><text x="92" y="1152" font-size="12" fill="#3b4558">다음: 멘토 정리, 서브이슈 2</text></g>
 </svg>
 <figcaption>차례는 체크리스트대로 갔지만 항목 2에서 오래 머물렀다. Baseline이 멈춘 원인을 모른 채 처리 방법부터 고르려다, 사용자의 지적으로 원인부터 찾았기 때문이다. 셀 것은 결과를 보기 전에 정하고 비교 프로그램을 먼저 커밋했다. 결과를 본 뒤 채점 규칙을 고친 것은 두 번이고, 둘 다 이유와 영향을 기록에 남겼다.</figcaption>
 </figure>
@@ -184,8 +185,8 @@ footer a{color:var(--link)}
 <details class="card">
   <summary><span class="tag user">사용자 지적</span> <span class="tag codex">Codex 지적</span><span class="t">항목 5: 답에 적힌 단위가 질문의 단위와 다르면 표시한다</span><span class="gist">채점은 숫자만 보므로, 단위가 다른 답을 "단위 다름"으로 표시해 따로 센다. 단위를 바꾸거나 맞음을 고치지는 않는다.</span></summary>
   <div class="body"><ol class="steps"><li><b>처음</b>사용자는 오차 표기를 단위 문제로 읽고 물었다: "이게 어떻게 표현 표기이면서 단위가 되는거 아니야? … 근본적으로 이것도 제대로 판단할수 있게 할수는없는건가?"</li><li class="snag"><b>걸린 것</b>괄호는 단위가 아니었지만, 채점이 단위를 전혀 보지 않는다는 걱정은 맞았다("0.5592 g"도 맞음이 된다). 380개에서 단위를 적은 답은 모두 질문의 단위였다.</li><li class="done"><b>정한 것</b>단위 표시를 더한다. 사용자: "단위 표시도 더해서 진행해줘."</li></ol>
-<dl class="rows"><dt>버린 것</dt><dd>단위를 바꿔 계산하는 규칙(g에서 kg 등)은 단위 표기가 늘수록 커지고, 7단계 최종 평가는 사람이 판정하므로 만들지 않았다.</dd><dt>첫 번째 변경</dt><dd>Codex 1차가 짚었다. 앞 글자만 견줘 <code>kg/m³</code>, <code>kgf</code>, <code>Sv</code>를 같음으로 봤다. 단위를 통째로 견주게 고쳤다.</dd></dl>
-<p class="ex"><b>예</b>Codex 2차는 한국어 조사(<code>3초가</code>)와 한글 복합 단위(<code>킬로그램/초</code>)를 아직 잘못 가른다고 짚었다. 낮음이라 미정 목록으로 넘겼다.</p></div>
+<dl class="rows"><dt>버린 것</dt><dd>단위를 바꿔 계산하는 규칙(g에서 kg 등)은 단위 표기가 늘수록 커지고, 7단계 최종 평가는 사람이 판정하므로 만들지 않았다.</dd><dt>첫 번째 변경</dt><dd>Codex 1차가 짚었다. 앞 글자만 견줘 <code>kg/m³</code>, <code>kgf</code>, <code>Sv</code>를 같음으로 봤다. 단위를 통째로 견주게 고쳤다.</dd><dt>두 번째 변경</dt><dd>Codex 2차가 한국어 조사(<code>3초가</code>, <code>12.4분이었다</code>)를 다름으로, 한글 복합 단위(<code>킬로그램/초</code>)를 같음으로 가른다고 짚었다. 낮음이라 규칙대로 미정 목록에 올렸다가, 사용자가 물었다: "2차 검토도 바로 수정할게 있으면 하는게 맞지 않아?" 반례가 주어져 확인이 분명하고 짧은 일이라 바로 고쳤다. 조사·어미는 같음, <code>초과</code>처럼 조사와 부딪히는 낱말은 다름, 한글 단위 뒤의 <code>/</code>는 복합 단위로 다름이다.</dd></dl>
+<p class="ex"><b>예</b>Codex가 든 반례와 1차 반례 18개를 고친 프로그램에 넣어 모두 원하는 결과였다. 3차 검토는 돌리지 않았다.</p></div>
 </details>
 
 <h2 id="sec-4"><small>03</small>읽은 것</h2>
@@ -223,11 +224,11 @@ footer a{color:var(--link)}
 
 <ul class="plain"><li>어드바이저 점검은 한 번 했고 네 가지를 짚었다.</li></ul>
 <p class="sub">- 판단 기록과 결과 페이지의 숫자 하나: 검색이 놓친 7개는 "거절 7"이 아니라 거절 6과 다른 숫자 1이다. - 재현 조건 문구가 증거보다 강하다(위 항목 2 카드의 첫 번째 변경). - 실행 뒤 프로그램이 바뀌었으니 지금 코드에서 재현 확인을 하라. 요약은 바이트까지 같았고, 380줄의 지시문과 설정이 지금 코드와 같았다. - 스텝퍼의 "①~⑦ 순서대로"와 10-20 결정의 어긋남을 미정 목록에 올리라.</p>
-<ul class="plain"><li>Codex 1차는 셋을 지적했다(보통 2, 낮음 1): 숫자가 여럿인 답의 보고 누락, 끊긴 답 원인의 과한 단정, 단위의 앞 글자 비교. 셋 다 AI가 동의했고 사용자가 "세 개 모두 반영"하기로 했다.</li><li>Codex 2차: 2개 해소, 단위 1개는 절반만 해소. 고치며 생긴 새 지적 1개(한국어 조사). 둘 다 낮음이라 규칙대로 고치지 않고 미정 목록에 올렸다.</li><li>Codex는 샌드박스에서 DB와 Ollama에 붙지 못해, 기록 파일에서 숫자를 다시 세어 37/190, 144/190과 세부 표가 맞다고 확인했다.</li></ul>
+<ul class="plain"><li>Codex 1차는 셋을 지적했다(보통 2, 낮음 1): 숫자가 여럿인 답의 보고 누락, 끊긴 답 원인의 과한 단정, 단위의 앞 글자 비교. 셋 다 AI가 동의했고 사용자가 "세 개 모두 반영"하기로 했다.</li><li>Codex 2차: 2개 해소, 단위 1개는 절반만 해소. 고치며 생긴 새 지적 1개(한국어 조사). 둘 다 낮음이라 규칙("2차에서는 심각한 지적만 반영")대로 미정 목록에 올렸다가, 사용자의 물음으로 바로 고쳤다. 반례 18개를 넣어 확인했다(<code>STEPPER.md</code> 닫는 절차 ④).</li><li>Codex는 샌드박스에서 DB와 Ollama에 붙지 못해, 기록 파일에서 숫자를 다시 세어 37/190, 144/190과 세부 표가 맞다고 확인했다.</li></ul>
 
 <h2 id="sec-7">계획과 달라진 것</h2>
 
-<ul class="plain"><li>380번 실행이 네 번째에 끝났다. 첫째와 셋째는 같은 요청에서 끊겨 멈췄고, 둘째는 사이 커밋 문제로 AI가 첫 답 뒤에 멈췄다. 세 기록 모두 점수에 쓰지 않고 남겼다.</li><li>체크리스트에 없던 일이 셋 생겼다: 멈춘 원인 찾기와 재현 자료, 채점 규칙 둘(오차 표기, 단위), 일하는 방식 규칙 둘.</li><li>체크리스트의 "Baseline 입력 확인"이 실행보다 앞에 적혀 있었다. 실행 기록이 있어야 할 수 있는 확인이라, 사용자의 지적으로 실제 순서대로 고쳤다.</li><li>일하는 방식 문서는 원래 <code>chore-</code> 브랜치에서 고치지만, 이번에는 사용자의 말로 이슈 브랜치에서 고쳤다.</li></ul>
+<ul class="plain"><li>380번 실행이 네 번째에 끝났다. 첫째와 셋째는 같은 요청에서 끊겨 멈췄고, 둘째는 사이 커밋 문제로 AI가 첫 답 뒤에 멈췄다. 세 기록 모두 점수에 쓰지 않고 남겼다.</li><li>체크리스트에 없던 일이 셋 생겼다: 멈춘 원인 찾기와 재현 자료, 채점 규칙 둘(오차 표기, 단위), 일하는 방식 규칙 둘.</li><li>Codex 2차의 낮은 지적은 원래 미정 목록으로 넘기는 규칙이지만, 이번에는 사용자의 결정으로 바로 고쳤다.</li><li>체크리스트의 "Baseline 입력 확인"이 실행보다 앞에 적혀 있었다. 실행 기록이 있어야 할 수 있는 확인이라, 사용자의 지적으로 실제 순서대로 고쳤다.</li><li>일하는 방식 문서는 원래 <code>chore-</code> 브랜치에서 고치지만, 이번에는 사용자의 말로 이슈 브랜치에서 고쳤다.</li></ul>
 
 <h2 id="sec-8">뒤 단계가 기대는 것</h2>
 
@@ -242,7 +243,7 @@ footer a{color:var(--link)}
 
 <h2 id="sec-9">남은 것</h2>
 
-<ul class="plain"><li>미정 목록에 더한 줄 넷: 최종 평가에서 "답을 끝내지 못한 답"을 셀 규칙(6단계 판정 기능, 7단계 동결 전), 지시문을 고칠 때 함께 볼 것("모르면 모른다고 하라", 계산 건너뛰기), 6단계에서 무엇부터 붙일지와 스텝퍼 순서 맞추기(10-25 피드백 뒤), 단위 표시의 한국어 처리(다음 실행 전).</li><li>큰 이슈 #11의 나머지: 서브이슈 2~7과 개발용 질문으로 하는 채점 일.</li><li>한계: 10-20 Ollama 로그의 HTTP 500(도시 도메인 실험)은 오류 내용이 남지 않아 원인을 가를 수 없다.</li></ul>
+<ul class="plain"><li>미정 목록에 더한 줄 셋: 최종 평가에서 "답을 끝내지 못한 답"을 셀 규칙(6단계 판정 기능, 7단계 동결 전), 지시문을 고칠 때 함께 볼 것("모르면 모른다고 하라", 계산 건너뛰기), 6단계에서 무엇부터 붙일지와 스텝퍼 순서 맞추기(10-25 피드백 뒤).</li><li>단위 표시의 한계: 마지막 숫자 뒤의 글자만 본다(<code>5분과 3초</code>는 <code>초</code>만 봄).</li><li>큰 이슈 #11의 나머지: 서브이슈 2~7과 개발용 질문으로 하는 채점 일.</li><li>한계: 10-20 Ollama 로그의 HTTP 500(도시 도메인 실험)은 오류 내용이 남지 않아 원인을 가를 수 없다.</li></ul>
 
 <h2 id="sec-10">다시 볼 곳</h2>
 
@@ -251,6 +252,7 @@ footer a{color:var(--link)}
 <div><strong>씨앗과 temperature의 차이</strong><span>사용자가 여러 번 물어 HTML과 비유로 설명함("1번 상자는 몇 번 열어도 같은 선물")</span><em>쓰이는 곳: 항목 1</em></div>
 <div><strong>질문 하나가 Baseline과 최소판을 지나가는 길(지시문, 청크, 설정, 채점)</strong><span>사용자가 "어떤식으로 돌아가는지 알아야 하지 않나"라고 해 HTML로 그림</span><em>쓰이는 곳: 항목 1, 5</em></div>
 <div><strong>자동 채점의 세 단계와 오차 표기·단위</strong><span>사용자가 이해하지 못해 HTML로 다시 설명함</span><em>쓰이는 곳: 항목 5</em></div>
+<div><strong>Codex 2차의 낮은 지적도 바로 고칠지</strong><span>사용자가 물어 바로 고침. 이번 이슈의 예외로 기록했다</span><em>쓰이는 곳: 닫는 절차</em></div>
 <div><strong>Ollama가 끊은 것이 정답을 끊은 것인가</strong><span>사용자가 물음. 모델은 정답이 아니라 0을 되풀이하던 중이었다</span><em>쓰이는 곳: 항목 2</em></div>
 <div><strong>최소판이 이 이슈까지인가</strong><span>사용자가 물음. 맞다, 다음부터는 기능을 붙인다</span><em>쓰이는 곳: 항목 4</em></div>
 <div><strong>"앞 단계에서 넘겨받은 확인 셋"의 뜻</strong><span>사용자가 물어 설명함</span><em>쓰이는 곳: 항목 7</em></div>
@@ -261,7 +263,7 @@ footer a{color:var(--link)}
 <footer>
   <p>원본</p>
   <p>결정: <code>decisions/stage6.md</code> 전체, <code>decisions/common.md</code> 2026-10-24 두 줄</p>
-  <p>판단: <code>decisions/judgments.md</code> 2026-10-24 아홉 줄</p>
+  <p>판단: <code>decisions/judgments.md</code> 2026-10-24 열 줄</p>
   <p>검토: <code>CODEX_REVIEW.md</code>(닫을 때 커밋한 뒤 지움, git 기록에 남음)</p>
   <p>결과: <code>data/minimal/generation/summary.md</code>, 실행 기록 두 파일</p>
 </footer>
