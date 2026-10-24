@@ -5,7 +5,7 @@
 ## 무슨 일이었나
 
 - Baseline(문서 없이 답) 실행에서 씨앗 5, 질문 q04-ko(툴륨 직육면체의 질량, 정답 0.5592 kg)에 모델 qwen3:8b가 answer에 "0.000…"을 끝없이 썼고, Ollama가 `prediction aborted, token repeat limit reached`로 생성을 끊었다.
-- reason에서 계산을 하지 않고 방법만 말한 뒤 answer를 "0."으로 시작했다. 밀도도 9.90 g/cm³로 틀렸다(문서 값 9.32).
+- reason에서 계산을 하지 않고 방법만 말한 뒤 answer를 "0."으로 시작했다. 재현은 모두 같은 지시문·생성 설정·JSON 모드로 했으므로, 이것들이 되풀이에 기여했는지는 모른다(Codex 1차 지적 2). 밀도도 9.90 g/cm³로 틀렸다(문서 값 9.32).
 - 380번 본 실행(`data/minimal/generation/runs_baseline.jsonl`)에서도 같은 요청이 끊겼고, 그 줄에 끊기기 전 글(270자)이 `output`, 이유가 `abort_reason`으로 남아 있다. 최소판(청크를 넣음)에서는 끊긴 답이 없었다.
 
 ## 재현 조건 (다시 해 보려면)
