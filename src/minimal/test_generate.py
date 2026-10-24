@@ -65,6 +65,10 @@ class FakeOllama:
         return FakeResponse(self.content)
 
 
+def http_error(code=500, body="model runner has unexpectedly stopped".encode()):
+    return g.urllib.error.HTTPError(g.URL, code, "Internal Server Error", {}, io.BytesIO(body))
+
+
 class MessagesTest(unittest.TestCase):
     def test_baseline_has_only_instruction_and_question(self):
         system, user = g.messages_of("baseline", question())
@@ -110,6 +114,22 @@ class RequestTest(unittest.TestCase):
                                            "num_ctx": 32768, "seed": 3})
         self.assertEqual(body["messages"], [{"role": "system", "content": "지시문"}, {"role": "user", "content": "질문"}])
         self.assertNotIn("tools", body)
+
+
+    def test_http_error_becomes_runtime_error_with_code_and_body(self):
+        def fail(req, timeout=None):
+            raise http_error(500, "모델 오류 {\"error\": \"runner stopped\"}".encode())
+        with mock.patch.object(g.urllib.request, "urlopen", fail), self.assertRaises(RuntimeError) as cm:
+            g.chat("지시문", "질문", 1)
+        self.assertEqual(str(cm.exception), 'Ollama HTTP 500: 모델 오류 {"error": "runner stopped"}')
+        self.assertIsInstance(cm.exception.__cause__, g.urllib.error.HTTPError)
+
+    def test_undecodable_body_is_replaced(self):
+        def fail(req, timeout=None):
+            raise http_error(500, b"bad \xff byte")
+        with mock.patch.object(g.urllib.request, "urlopen", fail), self.assertRaises(RuntimeError) as cm:
+            g.chat("지시문", "질문", 1)
+        self.assertIn("HTTP 500: bad \ufffd byte", str(cm.exception))
 
 
 class LanguageTest(unittest.TestCase):
@@ -311,6 +331,23 @@ class RunTest(unittest.TestCase):
         self.assertEqual(mini["user_message"], "반감기는 몇 시간인가?")
         self.assertIsInstance(mini["embed_seconds"], float)
         self.assertIsInstance(mini["search_seconds"], float)
+
+    def test_http_error_stops_with_request_identified_and_no_error_line(self):
+        calls = []
+
+        def flaky(req, timeout=None):
+            calls.append(json.loads(req.data))
+            if len(calls) == 4:   # 몸풀기 1 + baseline 씨앗 1의 2개 + 다음 요청(baseline 씨앗 2, q01-ko)
+                raise http_error(500)
+            return FakeResponse('{"reason": "r", "answer": "17.7"}')
+        with mock.patch.object(g.urllib.request, "urlopen", flaky), redirect_stdout(io.StringIO()), self.assertRaises(RuntimeError) as cm:
+            g.run(self.questions, self.path, self.conn, None, seeds=(1, 2), systems=("baseline",))
+        message = str(cm.exception)
+        for part in ("baseline", "씨앗2", "q01-ko", "HTTP 500", "model runner has unexpectedly stopped"):
+            self.assertIn(part, message)
+        self.assertEqual(len(calls), 4)   # 재시도하지 않는다
+        rows = [json.loads(line) for line in self.path.read_text(encoding="utf-8").splitlines()]
+        self.assertEqual([(r["seed"], r["question_id"]) for r in rows], [(1, "q01-ko"), (1, "q01-en")])   # 오류 줄은 쓰지 않는다
 
     def test_existing_file_stops_and_is_kept(self):
         self.path.parent.mkdir(parents=True)

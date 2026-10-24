@@ -16,6 +16,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -81,12 +82,16 @@ def request_body(system_message, user_message, seed):
 
 
 def chat(system_message, user_message, seed):
-    """Ollama에 요청 하나를 보내 (모델이 돌려준 글, 걸린 시간, eval_count, prompt_eval_count)를 돌려준다."""
+    """Ollama에 요청 하나를 보내 (모델이 돌려준 글, 걸린 시간, eval_count, prompt_eval_count)를 돌려준다.
+    HTTP 오류(예: 500)는 응답 본문을 읽어 상태 코드와 함께 RuntimeError로 다시 던진다. 재시도하지 않는다."""
     body = request_body(system_message, user_message, seed)
     req = urllib.request.Request(URL, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     t0 = time.time()
-    with urllib.request.urlopen(req, timeout=600) as r:
-        res = json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            res = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Ollama HTTP {e.code}: {e.read().decode('utf-8', errors='replace')}") from e
     return res["message"]["content"], round(time.time() - t0, 2), res.get("eval_count"), res.get("prompt_eval_count")
 
 
@@ -165,7 +170,10 @@ def run(questions, path, conn, model, seeds=SEEDS, systems=SYSTEMS):
                     else:
                         found, search_part = None, NO_RETRIEVAL
                     system_message, user_message = messages_of(system, q, found)
-                    output, seconds, tokens, prompt_tokens = chat(system_message, user_message, seed)
+                    try:
+                        output, seconds, tokens, prompt_tokens = chat(system_message, user_message, seed)
+                    except RuntimeError as e:
+                        raise RuntimeError(f'{system} 씨앗{seed} {q["id"]}에서 멈춤: {e}') from e
                     row = {"run_id": run_id, "system": system, "question_id": q["id"], "lang": q["lang"], "branch": q["branch"], "seed": seed,
                            "model": MODEL, "options": request_body(system_message, user_message, seed)["options"],
                            "prompt_version": PROMPT_VERSION[system], "code_commit": commit, "code_dirty": dirty,
