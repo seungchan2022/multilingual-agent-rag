@@ -5,6 +5,7 @@
 
 규칙은 decisions/stage4.md의 2026-10-23 줄(생성 설정 / 다시 돌려 같은 글이 나오는지는 확인 조건으로 두지 않고 실행 조건을 고정 /
 Baseline과 최소판의 지시문은 영어 지시문 하나 / 가져온 청크를 넣는 부분도 영어로 / 실행 기록)과 decisions/stage5.md의 2026-10-23 줄(최소판의 조합)에 있다.
+채점(숫자 꺼내기, 맞음, 단위 확인)은 src/minimal/scoring.py의 규칙이다.
 시스템은 따로 돌린다(명령 하나에 시스템 하나, 합쳐서 380번). 한 명령 안의 순서는 씨앗(1 → 5) → 질문(파일 순서)이고, 요청은 한 번에 하나씩 보낸다.
 명령마다 시작할 때 모델을 메모리에서 내리고(keep_alive 0) 몸풀기 호출을 한 번 한다. 몸풀기는 기록하지 않는다. 모델을 막 올린 상태로 시작하게 고정하는 것이다.
 요청은 stream으로 보내 줄마다 읽는다. 응답 중간에 "token repeat limit" error가 오면(모델이 같은 글을 끝없이 쓴 것) 멈추지 않고 그때까지 받은 글을 그 답으로 기록한다
@@ -12,7 +13,6 @@ Baseline과 최소판의 지시문은 영어 지시문 하나 / 가져온 청크
 시스템마다 기록 파일이 따로 있고, 그 파일이 이미 있으면 덮어쓰지 않고 멈춘다(점수는 첫 실행의 기록에서만 계산하기 때문이다). 요약·비교 계산은 이 프로그램에 없다.
 """
 import argparse
-import importlib.util
 import json
 import re
 import subprocess
@@ -25,6 +25,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from compare_retrieval import parse_chunk_set, result_row  # noqa: E402
 from index import DSN, QUESTIONS, ROOT, load_model  # noqa: E402
+from scoring import grade, unit_check  # noqa: E402
 from search import embed_query, search  # noqa: E402
 
 OUT_DIR = ROOT / "data" / "minimal" / "generation"
@@ -52,17 +53,6 @@ SYSTEM_EN = (
 )
 CONTEXT_EN = "\n\nAnswer based on the reference passages below.\nReference passages:\n{passages}"
 WARMUP_USER = "안녕"   # 몸풀기 호출의 사용자 메시지(check_language.py와 같다)
-
-
-def _load_grade_record():
-    """채점 규칙은 도메인 고르기 실험의 grade_record(src/domain_select/run.py)를 그대로 쓴다. 파일 이름이 흔한 run이라 경로로 불러온다."""
-    spec = importlib.util.spec_from_file_location("domain_select_run", ROOT / "src" / "domain_select" / "run.py")
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module.grade_record
-
-
-grade_record = _load_grade_record()
 
 
 def passages_of(found):
@@ -129,17 +119,19 @@ def language_of(text):
 
 
 def graded(question, output):
-    """모델이 돌려준 글을 읽어 reason·answer와 채점 칸을 만든다. JSON이 아니거나 dict가 아니면 reason·answer는 빈 글, 맞음은 false, 답 언어는 null이다."""
+    """모델이 돌려준 글을 읽어 reason·answer와 채점 칸을 만든다. 숫자 꺼내기·맞음·단위 확인(unit)의 규칙은 scoring.py에 있다.
+    JSON이 아니거나 dict가 아니면 reason·answer는 빈 글, 맞음은 false, 단위는 '없음', 답 언어는 null이다."""
     try:
         parsed = json.loads(output)
     except json.JSONDecodeError:
         parsed = None
     ok = isinstance(parsed, dict)
     reason, answer = (parsed.get("reason", ""), parsed.get("answer", "")) if ok else ("", "")
-    grade = grade_record(question, answer)
+    scored = grade(question, answer)
     answer_lang, hangul, latin = language_of(f"{reason} {answer}") if ok else (None, None, None)
     return {"parsed_ok": ok, "reason": reason, "answer": answer,
-            "numbers": grade["numbers"], "picked": grade["picked"], "value": question["value"], "correct": grade["correct"],
+            "numbers": scored["numbers"], "picked": scored["picked"], "value": question["value"], "correct": scored["correct"],
+            "unit": unit_check(question, answer),
             "answer_lang": answer_lang, "hangul": hangul, "latin": latin, "lang_ok": answer_lang == question["lang"]}
 
 

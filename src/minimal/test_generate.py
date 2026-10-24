@@ -34,7 +34,7 @@ def found_row(n, doc_id="doc-a", text="청크 글", lines=(3, 4)):
 
 
 def question(qid="q01-ko", lang="ko", value=17.7, text="반감기는 몇 시간인가?"):
-    return {"id": qid, "lang": lang, "branch": "한국어만", "question": text, "value": value, "answer": f"{value} 시간",
+    return {"id": qid, "lang": lang, "branch": "한국어만", "question": text, "value": value, "unit": "kg", "answer": f"{value} kg",
             "evidence": [{"doc_id": "doc-a", "line": 5, "value_text": "17.7"}]}
 
 
@@ -221,6 +221,7 @@ class GradeTest(unittest.TestCase):
     def test_broken_json(self):
         r = graded(None, raw='{"reason": "풀이", "answer": "17.')
         self.assertEqual((r["parsed_ok"], r["reason"], r["answer"], r["numbers"], r["picked"], r["correct"]), (False, "", "", [], None, False))
+        self.assertEqual(r["unit"], "없음")
         self.assertEqual((r["answer_lang"], r["hangul"], r["latin"], r["lang_ok"]), (None, None, None, False))
 
     def test_json_but_not_dict(self):
@@ -230,6 +231,19 @@ class GradeTest(unittest.TestCase):
     def test_missing_keys_are_empty(self):
         r = graded(None, raw='{"answer": "17.7"}')
         self.assertEqual((r["parsed_ok"], r["reason"], r["correct"]), (True, "", True))
+
+    def test_error_notation_is_correct_in_record(self):
+        # 오차 표기(621.4(11))를 숫자로 세지 않으므로 마지막 숫자가 621.4다(예전 규칙은 11을 골라 틀렸다)
+        r = g.graded(question(value=621.4), json.dumps({"reason": "읽는다", "answer": "621.4(11) keV"}, ensure_ascii=False))
+        self.assertEqual((r["numbers"], r["picked"], r["correct"]), ([621.4], 621.4, True))
+        self.assertEqual(r["unit"], "다름")   # 이 시험의 질문 단위는 kg라 keV와 다르다
+
+    def test_unit_field(self):
+        self.assertEqual(graded("17.7 kg")["unit"], "같음")
+        self.assertEqual(graded("17.7 kg입니다")["unit"], "같음")
+        self.assertEqual(graded("17.7 g")["unit"], "다름")
+        self.assertEqual(graded("17.7")["unit"], "없음")
+        self.assertTrue(graded("17.7 g")["correct"])   # 단위는 맞음을 바꾸지 않는다
 
     def test_language_fields(self):
         r = graded("17.7 시간", reason="반감기를 읽는다", lang="ko")

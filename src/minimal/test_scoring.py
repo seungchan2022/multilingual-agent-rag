@@ -4,6 +4,7 @@
 
 DB도 Ollama도 쓰지 않는다. 괄호 오차 표기 빼기, 예전 규칙과 같은 경우, 단위 확인을 손으로 만든 글로 본다.
 """
+import importlib.util
 import json
 import sys
 import unittest
@@ -11,8 +12,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import scoring  # noqa: E402
-from generate import grade_record  # noqa: E402  (예전 규칙: src/domain_select/run.py의 grade_record)
-from index import QUESTIONS  # noqa: E402
+from index import QUESTIONS, ROOT  # noqa: E402
+
+# 예전 규칙: 도메인 고르기 실험의 grade_record(src/domain_select/run.py). 파일 이름이 흔한 run이라 경로로 불러온다.
+_spec = importlib.util.spec_from_file_location("domain_select_run", ROOT / "src" / "domain_select" / "run.py")
+_old = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_old)
+grade_record = _old.grade_record
 
 
 def q(value=621.4, unit="keV"):
