@@ -12,7 +12,7 @@ import json
 import sys
 import tempfile
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest import mock
 
@@ -178,6 +178,56 @@ class GradeTest(unittest.TestCase):
         self.assertEqual((r["answer_lang"], r["lang_ok"]), ("en", False))
         r = graded("17.7 hours", reason="Read the half-life", lang="en")
         self.assertTrue(r["lang_ok"])
+
+
+class MainTest(unittest.TestCase):
+    """명령 인자에 따라 기록 파일과 시스템이 갈리는지 본다. run, 모델 불러오기, DB 연결은 가짜로 바꿔 불린 것만 센다."""
+
+    def call_main(self, argv):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        paths = {s: Path(self.tmp.name) / f"runs_{s}.jsonl" for s in g.SYSTEMS}
+        calls = []
+        fake_run = lambda questions, path, conn, model, **kw: calls.append(("run", path, conn, model, kw)) or 190
+        with mock.patch.dict(g.RUNS, paths), mock.patch.object(g, "run", fake_run), \
+                mock.patch.object(g, "load_model", lambda key: calls.append(("load_model", key)) or "MODEL"), \
+                mock.patch.object(psycopg, "connect", lambda dsn: calls.append(("connect", dsn)) or mock.MagicMock()), \
+                redirect_stdout(io.StringIO()):
+            g.main(argv)
+        return paths, calls
+
+    def test_real_paths_are_per_system(self):
+        self.assertEqual({s: p.name for s, p in g.RUNS.items()}, {"baseline": "runs_baseline.jsonl", "minimal": "runs_minimal.jsonl"})
+        self.assertEqual({p.parent for p in g.RUNS.values()}, {g.ROOT / "data" / "minimal" / "generation"})
+
+    def test_baseline_loads_no_model_and_no_db(self):
+        paths, calls = self.call_main(["--system", "baseline"])
+        self.assertEqual([c[0] for c in calls], ["run"])
+        _, path, conn, model, kw = calls[0]
+        self.assertEqual((path, conn, model, kw), (paths["baseline"], None, None, {"systems": ("baseline",)}))
+
+    def test_minimal_loads_model_and_connects(self):
+        paths, calls = self.call_main(["--system", "minimal"])
+        self.assertEqual([c[0] for c in calls], ["load_model", "connect", "run"])
+        self.assertEqual(calls[0][1], "bge-m3")
+        _, path, conn, model, kw = calls[2]
+        self.assertEqual((path, model, kw), (paths["minimal"], "MODEL", {"systems": ("minimal",)}))
+
+    def test_system_is_required_and_checked(self):
+        for argv in ([], ["--system", "other"]):
+            with self.assertRaises(SystemExit), redirect_stderr(io.StringIO()):
+                self.call_main(argv)
+
+    def test_existing_file_stops_before_loading_anything(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        path = Path(self.tmp.name) / "runs_minimal.jsonl"
+        path.write_text("첫 실행의 기록\n", encoding="utf-8")
+        calls = []
+        with mock.patch.dict(g.RUNS, {"minimal": path}), mock.patch.object(g, "load_model", lambda key: calls.append(key)), \
+                self.assertRaises(FileExistsError):
+            g.main(["--system", "minimal"])
+        self.assertEqual(calls, [])
 
 
 class RunTest(unittest.TestCase):

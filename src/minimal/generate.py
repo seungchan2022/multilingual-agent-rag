@@ -1,12 +1,15 @@
 """Baseline(문서 없이 답)과 최소판(검색 한 번 + 가져온 청크로 답)으로 질문 38개를 씨앗 1~5로 돌려 실행 기록을 남기는 프로그램(이슈 #12).
 
-  .venv/bin/python src/minimal/generate.py        # 38 × 5 × 2 = 380번 → data/minimal/generation/runs.jsonl
+  .venv/bin/python src/minimal/generate.py --system baseline   # 38 × 5 = 190번 → data/minimal/generation/runs_baseline.jsonl
+  .venv/bin/python src/minimal/generate.py --system minimal    # 38 × 5 = 190번 → data/minimal/generation/runs_minimal.jsonl
 
 규칙은 decisions/stage4.md의 2026-10-23 줄(생성 설정 / 다시 돌려 같은 글이 나오는지는 확인 조건으로 두지 않고 실행 조건을 고정 /
 Baseline과 최소판의 지시문은 영어 지시문 하나 / 가져온 청크를 넣는 부분도 영어로 / 실행 기록)과 decisions/stage5.md의 2026-10-23 줄(최소판의 조합)에 있다.
-순서는 시스템(baseline → minimal) → 씨앗(1 → 5) → 질문(파일 순서)이고, 요청은 한 번에 하나씩 보낸다. 시작할 때 몸풀기 호출을 한 번 하고 기록하지 않는다.
-실행 기록 파일이 이미 있으면 덮어쓰지 않고 멈춘다(점수는 첫 실행의 기록에서만 계산하기 때문이다). 요약·비교 계산은 이 프로그램에 없다.
+시스템은 따로 돌린다(명령 하나에 시스템 하나, 합쳐서 380번). 한 명령 안의 순서는 씨앗(1 → 5) → 질문(파일 순서)이고, 요청은 한 번에 하나씩 보낸다.
+명령마다 시작할 때 몸풀기 호출을 한 번 하고 기록하지 않는다. baseline은 임베딩 모델을 불러오지 않고 DB에도 붙지 않는다.
+시스템마다 기록 파일이 따로 있고, 그 파일이 이미 있으면 덮어쓰지 않고 멈춘다(점수는 첫 실행의 기록에서만 계산하기 때문이다). 요약·비교 계산은 이 프로그램에 없다.
 """
+import argparse
 import importlib.util
 import json
 import re
@@ -22,7 +25,7 @@ from index import DSN, QUESTIONS, ROOT, load_model  # noqa: E402
 from search import embed_query, search  # noqa: E402
 
 OUT_DIR = ROOT / "data" / "minimal" / "generation"
-RUNS = OUT_DIR / "runs.jsonl"
+RUNS = {system: OUT_DIR / f"runs_{system}.jsonl" for system in ("baseline", "minimal")}
 URL = "http://localhost:11434/api/chat"
 MODEL = "qwen3:8b"
 SEEDS = (1, 2, 3, 4, 5)
@@ -175,14 +178,21 @@ def run(questions, path, conn, model, seeds=SEEDS, systems=SYSTEMS):
     return n
 
 
-def main():
-    import psycopg
-    check_new(RUNS)
+def main(argv=None):
+    parser = argparse.ArgumentParser(description="Baseline 또는 최소판으로 질문 38개를 씨앗 1~5로 돌려 실행 기록을 남긴다")
+    parser.add_argument("--system", choices=SYSTEMS, required=True, help="돌릴 시스템 하나(190번)")
+    system = parser.parse_args(argv).system
+    path = RUNS[system]
+    check_new(path)
     questions = json.loads(QUESTIONS.read_text(encoding="utf-8"))
-    model = load_model(EMBED_MODEL)
-    with psycopg.connect(DSN) as conn:
-        n = run(questions, RUNS, conn, model)
-    print(f"\n{n}줄 씀: {RUNS.relative_to(ROOT)}")
+    if system == "baseline":   # 검색을 하지 않으므로 모델도 DB도 쓰지 않는다
+        n = run(questions, path, None, None, systems=(system,))
+    else:
+        import psycopg
+        model = load_model(EMBED_MODEL)
+        with psycopg.connect(DSN) as conn:
+            n = run(questions, path, conn, model, systems=(system,))
+    print(f"\n{n}줄 씀: {path}")
 
 
 if __name__ == "__main__":
