@@ -2,11 +2,12 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* 레이아웃: 머리말과 읽는 법 → 과제와 낱말 → 한눈에(여섯 개) → 만든 것 여섯 칸(칸 사이 연결 줄) → 남은 일 */
+/* 레이아웃: 머리말과 읽는 법 → 과제와 낱말 → 한눈에 → 단계별 칸(칸 사이 연결 줄) → 남은 일
+   칸 안의 층: 칸 제목 → 소제목(무엇을 왜 / 정한 것 / 나온 것) → 항목의 굵은 첫 문장 → 까닭 문단 → 예·읽는 법·한계 상자 */
 :root {
   color-scheme: light;
   --bg: #e7e9e3; --surface: #f0f1ec; --fg: #333a35; --muted: #5f6862; --line: #cdd2ca;
-  --accent: #2f6f5f; --accent-soft: #d9e5de;
+  --accent: #2f6f5f; --accent-strong: #245a4d; --accent-soft: #d9e5de;
   --warn: #9a6b1f; --warn-soft: #efe5d2; --code-bg: #e3e6df;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -16,9 +17,9 @@ body { background: var(--bg); color: var(--fg); font-family: var(--font-body); f
 main { max-width: 860px; margin: 0 auto; display: grid; gap: 40px; }
 h1 { font-size: 1.75rem; margin: 0; text-wrap: balance; }
 h2 { font-size: 1.25rem; margin: 0; text-wrap: balance; }
-h3 { font-size: 1.1rem; margin: 0; text-wrap: balance; }
+h3 { font-size: 1.15rem; line-height: 1.5; margin: 0; text-wrap: balance; }
 p { margin: 0; }
-.lead { color: var(--muted); max-width: 70ch; margin-top: 6px; }
+.lead-in { color: var(--muted); max-width: 70ch; margin-top: 6px; }
 .sub { color: var(--muted); font-size: .92rem; }
 .src { color: var(--muted); font-size: .8rem; font-family: var(--font-mono); word-break: break-all; }
 code { font-family: var(--font-mono); font-size: .88em; }
@@ -32,6 +33,7 @@ th { color: var(--muted); font-weight: 500; font-size: .8rem; }
 .tablewrap { overflow-x: auto; }
 a { color: var(--accent); }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 6px; }
 
 /* 한눈에 */
 .map { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
@@ -40,25 +42,38 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .map .n { font-family: var(--font-mono); font-size: .78rem; color: var(--accent); }
 .map b { font-size: .95rem; }
 .map .st { font-size: .8rem; color: var(--muted); }
+.map .live { border-color: var(--warn); }
+.map .live .st { color: var(--warn); }
 
-/* 만든 것 칸 */
+/* 단계별 칸 */
 .things { display: grid; gap: 0; }
-.thing { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 18px; display: grid; gap: 12px; min-width: 0; }
-.thing header { display: grid; gap: 4px; }
+.thing { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; min-width: 0; }
+.thing > header { padding: 18px 18px 14px; background: var(--accent-soft); border-bottom: 1px solid var(--line); display: grid; gap: 4px; }
+.thing > .more { padding: 12px 18px 16px; border-top: 1px solid var(--line); font-size: .82rem; color: var(--muted); }
+.thing > .more code { word-break: break-all; }
 .tag { font-family: var(--font-mono); font-size: .8rem; color: var(--accent); }
 .tag .live { color: var(--warn); background: var(--warn-soft); border-radius: 999px; padding: 0 8px; margin-left: 4px; font-family: var(--font-body); }
-.rows { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: 8px 14px; margin: 0; }
-.rows dt { font-weight: 500; font-size: .88rem; color: var(--accent); padding-top: 2px; }
-.rows dd { margin: 0; }
-.rows dd p + p { margin-top: 4px; }
-@media (max-width: 560px) { .rows { grid-template-columns: 1fr; gap: 2px; } .rows dd { margin-bottom: 8px; } }
-.note { font-size: .88rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; }
-.more { font-size: .82rem; color: var(--muted); }
-.more code { word-break: break-all; }
+.part { display: grid; gap: 10px; padding: 16px 18px; min-width: 0; }
+.part + .part { border-top: 1px dashed var(--line); }
+.part h4 { margin: 0; font-size: .8rem; font-weight: 700; color: var(--accent); letter-spacing: .02em; display: flex; align-items: center; gap: 8px; }
+.part h4::before { content: ""; width: 4px; height: 14px; border-radius: 2px; background: var(--accent); }
+.part p + p { margin-top: 2px; }
+.decide { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; counter-reset: d; }
+.decide > li { display: grid; gap: 6px; padding-left: 26px; min-width: 0; }
+.decide .lead { counter-increment: d; position: relative; font-size: 1.05rem; line-height: 1.6; font-weight: 700; color: var(--accent-strong); padding-bottom: 6px; border-bottom: 1px solid var(--accent-soft); }
+.decide .lead::before { content: counter(d) "."; position: absolute; left: -26px; width: 20px; text-align: right; font-variant-numeric: tabular-nums; }
+.ex { background: var(--code-bg); border-radius: 6px; padding: 8px 12px; font-size: .88rem; }
+.ex::before { content: "예"; font-weight: 700; color: var(--accent); margin-right: 8px; }
+.info { background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; padding: 8px 12px; font-size: .88rem; }
+.info b { color: var(--accent); margin-right: 6px; }
+.caution { background: var(--warn-soft); border-left: 3px solid var(--warn); border-radius: 0 6px 6px 0; padding: 8px 12px; font-size: .88rem; }
+.caution b { color: var(--warn); margin-right: 6px; }
+.whole { margin-top: 10px; }
+.calc { font-variant-numeric: tabular-nums; }
 
 .join { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 10px; padding: 10px 0 10px 18px; align-items: start; }
-.join .arr { color: var(--accent); font-weight: 700; text-align: center; border-left: 2px solid var(--accent); height: 100%; min-height: 28px; position: relative; }
-.join .arr::after { content: "↓"; position: absolute; left: -9px; bottom: -6px; font-size: .9rem; }
+.join .arr { border-left: 2px solid var(--accent); height: 100%; min-height: 28px; position: relative; color: var(--accent); }
+.join .arr::after { content: "↓"; position: absolute; left: -9px; bottom: -6px; font-size: .9rem; font-weight: 700; }
 .join p { font-size: .92rem; background: var(--accent-soft); border-radius: 6px; padding: 6px 10px; }
 .join.side p { background: var(--warn-soft); }
 
@@ -68,22 +83,30 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .num span { display: block; font-size: .82rem; color: var(--muted); }
 .num b { font-size: 1.5rem; font-variant-numeric: tabular-nums; }
 .num b small { font-size: .9rem; color: var(--muted); font-weight: 500; }
+.tree { border-collapse: collapse; width: 100%; font-size: .9rem; font-variant-numeric: tabular-nums; }
+.tree td { padding: 5px 8px; border-bottom: 1px solid var(--line); }
+.tree td:last-child { text-align: right; white-space: nowrap; font-weight: 700; }
+.tree .l1 td:first-child { padding-left: 24px; }
+.tree .l2 td:first-child { padding-left: 44px; color: var(--muted); }
+.tree .l2 td:last-child { color: var(--muted); font-weight: 500; }
+.tree .top td { font-weight: 700; background: var(--bg); }
 </style>
 
 <main>
 <header>
   <h1>지금까지 만든 것 복습</h1>
-  <p class="lead">2026-10-25 기준, 나 스스로 하는 복습입니다. 2026-10-12부터 만든 것 여섯 개를 만든 순서대로 놓고, 하나씩 무엇이고 어떻게 움직이며 왜 그렇게 정했는지를 적었습니다. 끝에 남은 일을 짧게 붙였습니다.</p>
+  <p class="lead-in">2026-10-25 기준, 나 스스로 읽는 복습 자료입니다. 2026-10-12부터 스텝퍼 1~6단계에서 한 일을 단계 순서대로 놓고, 단계마다 무엇을 왜 했고 무엇을 정했으며 무엇이 나왔는지를 적었습니다. 끝에 남은 일을 붙였습니다.</p>
 </header>
 
 <section>
   <div class="panel howto">
     <h2>읽는 법</h2>
     <ul>
-      <li>위에서 아래로 읽습니다. 칸 하나가 만든 것 하나이고, 만든 순서대로 놓여 있습니다.</li>
-      <li>칸마다 네 줄이 같은 순서로 있습니다: <b>무엇인가</b> → <b>어떻게 움직이나</b> → <b>왜 이렇게 했나</b> → <b>무엇이 나왔나</b>.</li>
-      <li>칸과 칸 사이의 초록 줄은 "앞의 것 때문에 다음 것을 이렇게 했다"는 연결입니다. 작업 흐름은 이 줄들로 따라갑니다.</li>
-      <li>더 깊이 보고 싶으면 칸 끝의 "더 보기" 파일(이슈마다 쓴 흐름 요약)을 엽니다.</li>
+      <li>위에서 아래로 읽습니다. 칸 하나가 스텝퍼 단계 하나에서 한 일입니다.</li>
+      <li>칸마다 소제목 셋이 같은 순서로 있습니다: <b>무엇을 왜 했나</b> → <b>정한 것과 그 까닭</b> → <b>나온 것</b>.</li>
+      <li>번호가 붙은 굵은 초록 문장이 정한 것(또는 나온 것)이고, 그 아래 문단이 까닭과 설명입니다. 굵은 문장만 따라 읽어도 흐름이 이어집니다.</li>
+      <li>상자의 색은 뜻이 정해져 있습니다. <span class="swatch" style="background:var(--code-bg)"></span>회색은 실제 예, <span class="swatch" style="background:var(--accent-soft)"></span>연초록은 읽는 법·구분, <span class="swatch" style="background:var(--warn-soft)"></span>노랑은 한계입니다.</li>
+      <li>칸과 칸 사이의 초록 줄은 "앞 단계 때문에 다음 단계를 이렇게 했다"는 연결입니다. 노란 연결 줄은 순서대로 이어진 것이 아니라 사정이 있어 그렇게 된 연결입니다.</li>
     </ul>
   </div>
 </section>
@@ -92,166 +115,380 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   <h2>먼저 알아 둘 것</h2>
   <div class="panel">
     <p><b>과제.</b> 한국어 문서와 영어 문서를 섞은 문서 묶음에서, 한국어나 영어 질문에 답하는 시스템을 만듭니다. 목표는 모델이 스스로 검색하고, 모자라면 다시 검색하고, 답을 검사하는 Agent-RAG입니다. 이것을 문서 없이 답하는 Baseline과 견줍니다. 모델은 이 컴퓨터에서 도는 오픈소스 모델만 씁니다.</p>
+    <p><b>스텝퍼.</b> 과제를 0~8단계로 나눈 진행표(<code>STEPPER.md</code>)입니다. 이 페이지의 "N단계"는 모두 스텝퍼의 단계입니다.</p>
   </div>
   <div class="panel tablewrap"><table>
     <tr><th>낱말</th><th>뜻</th></tr>
     <tr><td>RAG</td><td>질문에 맞는 글 조각을 먼저 찾아 모델에게 함께 주고, 그것을 보고 답하게 하는 방식</td></tr>
     <tr><td>Baseline</td><td>문서 없이 모델이 아는 것만으로 답하는 시스템. 비교의 바닥</td></tr>
     <tr><td>최소판</td><td>질문으로 검색을 한 번 하고, 가져온 글 조각으로 답하는 가장 단순한 RAG. 여기에 기능을 하나씩 붙여 Agent-RAG로 키운다</td></tr>
-    <tr><td>코퍼스</td><td>시스템이 검색하는 문서 묶음</td></tr>
+    <tr><td>문서 모음(코퍼스)</td><td>시스템이 검색하는 문서들</td></tr>
     <tr><td>청크</td><td>문서를 잘게 자른 글 조각. 검색은 청크 단위로 가져온다</td></tr>
     <tr><td>임베딩 모델</td><td>글을 숫자 묶음(벡터)으로 바꾸는 모델. 뜻이 비슷한 글은 가까운 벡터가 되어, 질문과 가까운 청크를 찾을 수 있다</td></tr>
-    <tr><td>정보 상자</td><td>위키백과 문서 오른쪽의 요약 표(밀도, 녹는점 같은 값이 묶음별로 있다)</td></tr>
+    <tr><td>정보 상자</td><td>위키백과 문서 오른쪽의 요약 표. 밀도, 녹는점 같은 값이 "물리적 성질" 같은 묶음별로 있다</td></tr>
+    <tr><td>근거 언어</td><td>질문의 정답이 들어 있는 문서의 언어. 질문의 언어와 다를 수 있다</td></tr>
     <tr><td>한쪽 언어에만 있는 사실</td><td>한국어 문서에만 있거나 영어 문서에만 있는 사실</td></tr>
-    <tr><td>부딪히는 값</td><td>같은 대상의 같은 양이 문서마다 다르게 적힌 값(예: 툴륨의 기화열이 한국어 문서에 247 kJ/mol, 영어 문서에 191 kJ/mol)</td></tr>
-    <tr><td>개발용 질문 · 최종 평가용 질문</td><td>개발용은 시스템을 만들며 확인에 쓰는 질문. 최종 평가용은 마지막 평가에만 쓰고, 7단계 전에는 Claude가 보지 않도록 프로젝트 폴더 밖에 둔다</td></tr>
+    <tr><td>두 언어 주제 · 한쪽 언어 주제</td><td>두 언어 주제는 한국어 문서와 영어 문서를 둘 다 넣은 주제(예: 툴륨). 한쪽 언어 주제는 한 언어 문서만 넣은 주제(예: 어븀은 한국어 문서만)</td></tr>
+    <tr><td>부딪히는 값</td><td>같은 대상의 같은 양이 문서마다 다르게 적힌 값. 이런 값으로는 질문을 만들지 않는다</td></tr>
+    <tr><td>개발용 질문 · 최종 평가용 질문</td><td>개발용은 시스템을 만들며 확인에 쓰는 질문. 최종 평가용은 7단계 평가에만 쓰고, 그 전에는 Claude가 보지 않도록 프로젝트 폴더 밖에 둔다</td></tr>
+    <tr><td>BM25</td><td>질문과 낱말이 겹치는 정도로 찾는 검색 방식. 지금 쓰는 임베딩 검색(뜻이 가까운 글을 찾음)과 다르며, 아직 붙이지 않았다</td></tr>
     <tr><td>씨앗</td><td>모델이 답을 고를 때 쓰는 번호. 같은 질문을 씨앗 1~5로 다섯 번 물어, 맞은 것이 우연인지 본다</td></tr>
   </table></div>
 </section>
 
 <section>
-  <h2>한눈에: 만든 것 여섯 개</h2>
-  <ol class="map">
-    <li><span class="n">1 · 1단계</span><b>평가의 틀</b><span class="st">끝</span></li>
-    <li><span class="n">2 · 2단계</span><b>문서 모음</b><span class="st">끝</span></li>
-    <li><span class="n">3 · 3단계</span><b>질문 작업</b><span class="st">진행 중, 나란히 감</span></li>
-    <li><span class="n">4 · 4단계</span><b>최소판 설계</b><span class="st">최소판 몫만 끝</span></li>
-    <li><span class="n">5 · 5단계</span><b>지식 베이스</b><span class="st">최소판 몫만 끝</span></li>
-    <li><span class="n">6 · 6단계</span><b>첫 비교 결과</b><span class="st">6단계 기능 7개 중 첫째</span></li>
-  </ol>
-  <p class="sub">4·5단계가 "최소판 몫만"인 까닭: 2026-10-20에 설계를 한꺼번에 확정하는 순서를, 최소판부터 만들고 기능을 붙일 때마다 정하는 순서로 바꿨습니다.</p>
+  <h2>한눈에: 스텝퍼 1~6단계에서 한 일</h2>
+  <ul class="map">
+    <li><span class="n">스텝퍼 1단계 · 10-12~13</span><b>평가 방법</b><span class="st">끝</span></li>
+    <li><span class="n">스텝퍼 2단계 · 10-13~22</span><b>문서 모음</b><span class="st">끝</span></li>
+    <li class="live"><span class="n">스텝퍼 3단계 · 10-22~</span><b>질문 준비</b><span class="st">진행 중, 4~6단계와 나란히</span></li>
+    <li><span class="n">스텝퍼 4단계 · 10-22~23</span><b>최소판 설계</b><span class="st">최소판 몫만 끝</span></li>
+    <li><span class="n">스텝퍼 5단계 · 10-23</span><b>청크 저장과 검색</b><span class="st">최소판 몫만 끝</span></li>
+    <li><span class="n">스텝퍼 6단계 · 10-24</span><b>첫 비교</b><span class="st">기능 7개 가운데 첫째만 끝</span></li>
+  </ul>
+  <p class="sub">4·5단계가 "최소판 몫만"인 까닭: 2026-10-20에 순서를 바꿨습니다. 설계를 4단계에서 한꺼번에 확정하는 대신, 최소판부터 만들고 기능을 붙일 때마다 그 기능의 설계를 정하기로 했습니다.</p>
 </section>
 
 <section>
-  <h2>만든 것</h2>
+  <h2>단계별로 한 일</h2>
   <div class="things">
 
+    <!-- 1단계 -->
     <article class="thing">
       <header>
-        <span class="tag">1 · 1단계 · 이슈 #1 · 10-12~13</span>
-        <h3>평가의 틀: 시스템을 무엇으로 잴지</h3>
+        <span class="tag">스텝퍼 1단계 · 이슈 #1 · 10-12~13</span>
+        <h3>1단계: 시스템을 만들기 전에, 무엇을 어떻게 잴지(평가 방법)부터 정했다</h3>
       </header>
-      <dl class="rows">
-        <dt>무엇인가</dt>
-        <dd>시스템을 만들기 전에 정한 평가 규칙입니다. 질문 유형 5개, 답 하나를 채점하는 방법, 두 시스템을 견주는 기준이 <code>EVALUATION.md</code> 한 문서에 있습니다.</dd>
-        <dt>어떻게 움직이나</dt>
-        <dd><p>질문마다 "정답에 꼭 들어가야 할 사실" 목록을 적어 두고, 사람이 답을 읽어 그 사실이 다 있는지로 정답을 가립니다.</p><p>지어낸 내용이 있는지(환각)는 정답과 따로 판정합니다. 질문마다 질문 언어와 근거 문서 언어도 따로 적습니다.</p></dd>
-        <dt>왜 이렇게 했나</dt>
-        <dd>답 있는 질문은 한쪽 언어에만 있는 사실로 만들기로 했습니다. 같은 사실이 두 언어 문서에 다 있으면, 시스템이 질문과 같은 언어의 문서만 찾아도 맞혀서 다른 언어 문서를 찾는 능력을 볼 수 없기 때문입니다.</dd>
-        <dt>무엇이 나왔나</dt>
-        <dd>이 조건에서 "코퍼스는 근거 언어마다 한쪽 언어에만 있는 사실을 36개 내놓아야 한다"는 수가 나왔습니다. 질문 수는 개발용 30개, 최종 평가용 30개로 정했습니다.</dd>
-      </dl>
-      <p class="note">이 틀은 7단계에서 사람이 쓰는 채점입니다. 6번 첫 비교에 쓴 "답의 마지막 숫자가 정답의 ±1% 안이면 맞음"은 이것과 다른 자동 채점으로, 4단계에서 최소판 질문용으로 정했습니다.</p>
-      <p class="more">더 보기: <code>history/stage1/1-evaluation-frame.md</code></p>
+      <div class="part">
+        <h4>무엇을 왜 했나</h4>
+        <p>시스템을 다 만든 뒤에 평가 방법을 정하면, 결과를 보고 유리한 잣대를 고르게 될 수 있습니다. 그래서 시스템보다 먼저 평가 방법을 정해 <code>EVALUATION.md</code> 한 문서에 적었습니다.</p>
+        <p>정한 것은 세 가지입니다. 질문을 어떻게 만들지, 답 하나를 어떻게 채점할지, 두 시스템을 어떻게 견줄지입니다.</p>
+      </div>
+      <div class="part">
+        <h4>정한 것과 그 까닭</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">질문은 개발용 30개와 최종 평가용 30개를 따로 만든다.</p>
+            <p>개발용은 시스템을 만들면서 확인에 쓰고, 최종 평가용은 7단계에서 한 번만 씁니다. 개발 중에 최종 평가용 질문을 보면 그 질문에 맞춰 시스템을 고치게 되기 때문에 둘을 나눴습니다.</p>
+            <p>30개는 답 있는 질문 24개와 답 없는 질문 6개입니다. 답 없는 질문은 문서를 보든 안 보든 답할 수 없는 질문으로, 시스템이 지어내지 않고 "모른다"고 하는지 봅니다. 답 있는 24개는 근거 언어로 나누면 한국어 12개, 영어 12개입니다.</p>
+          </li>
+          <li>
+            <p class="lead">답 있는 질문은 한쪽 언어에만 있는 사실로 만든다.</p>
+            <p>같은 사실이 한국어 문서와 영어 문서에 다 있으면, 시스템이 질문과 같은 언어의 문서만 찾아도 맞힙니다. 그러면 다른 언어의 문서를 찾아 쓰는 능력, 곧 이 과제에서 보려는 것을 볼 수 없습니다.</p>
+            <p class="ex">영어 문서에만 있는 사실을 한국어로 물으면, 시스템은 영어 문서를 찾아야만 맞힐 수 있습니다.</p>
+          </li>
+          <li>
+            <p class="lead">정답은 "꼭 들어가야 할 사실"로 가리고, 지어낸 내용(환각)은 따로 판정한다.</p>
+            <p>질문마다 정답에 꼭 들어가야 할 사실을 목록으로 적어 두고, 사람이 답을 읽어 그 사실이 다 있는지로 정답을 가립니다. 누가 판정해도 같게 갈리게 하려는 것입니다. 답이 맞아도 지어낸 내용이 섞일 수 있어서, 환각은 정답과 따로 판정합니다.</p>
+            <p class="info"><b>구분</b>이것은 7단계 최종 평가에서 사람이 하는 채점입니다. 개발 중에 빠르게 견줄 때는 프로그램이 하는 자동 채점을 따로 씁니다(6단계 칸).</p>
+          </li>
+        </ol>
+      </div>
+      <div class="part">
+        <h4>나온 것</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">문서 모음은 근거 언어마다 한쪽 언어에만 있는 사실을 36개 갖고 있어야 한다.</p>
+            <p>36은 질문 수가 아니라, 질문을 만들 재료인 사실의 수입니다. 근거 언어가 한국어인 질문으로 세면, 개발용 질문에 12개가 들고 최종 평가용에 24개가 듭니다. 최종 평가용은 확정할 12개의 2배를 후보로 받아 고르고, 후보는 개발용과 같은 사실을 물을 수 없어서 질문마다 따로 사실이 있어야 합니다. 영어도 같은 셈으로 36개입니다.</p>
+            <p class="ex calc">개발용 12 + 최종 평가용 후보 24(확정 12 × 2) = 근거 언어마다 36</p>
+          </li>
+        </ol>
+      </div>
+      <p class="more">더 보기: <code>history/stage1/1-evaluation-frame.md</code>, 규칙의 정확한 문장은 <code>EVALUATION.md</code></p>
     </article>
 
-    <div class="join"><span class="arr"></span><p>"근거 언어마다 한쪽 언어 사실 36개"라는 수가 문서 모음을 고르는 잣대가 됐습니다.</p></div>
+    <div class="join"><span class="arr"></span><p>"근거 언어마다 한쪽 언어에만 있는 사실 36개"가 문서 모음을 고르는 잣대가 됐습니다.</p></div>
 
+    <!-- 2단계 -->
     <article class="thing">
       <header>
-        <span class="tag">2 · 2단계 · 이슈 #4 → #6 → #7 · 10-13~22</span>
-        <h3>문서 모음: 희토류 원소 위키백과 문서 20개</h3>
+        <span class="tag">스텝퍼 2단계 · 이슈 #4 → #6 → #7 · 10-13~22</span>
+        <h3>2단계: 문서 모음을 한국 도시에서 희토류 원소로 바꿔, 위키백과 문서 20개로 꾸렸다</h3>
       </header>
-      <dl class="rows">
-        <dt>무엇인가</dt>
-        <dd>시스템이 검색하는 코퍼스입니다. 희토류 원소에 관한 위키백과 문서 20개(한국어 10, 영어 10)를 마크다운으로 바꿔 <code>data/corpus/</code>에 두었습니다.</dd>
-        <dt>어떻게 움직이나</dt>
-        <dd><p>주제 15개마다 넣을 언어를 정했습니다. 두 언어 문서를 다 넣은 주제 5개, 한국어 문서만 넣은 주제 5개, 영어 문서만 넣은 주제 5개입니다.</p><p>문서마다 다르게 적힌 값 213개를 "부딪히는 값" 목록으로 만들어, 이런 값으로는 질문을 만들지 않게 했습니다.</p></dd>
-        <dt>왜 이렇게 했나</dt>
-        <dd><p>처음 코퍼스는 한국의 도시 문서 28개였습니다(#4). 10-18 멘토 숙제 뒤 "일반 상식보다는 지식으로, STEM"이라는 피드백을 받아 분야를 다시 골랐습니다(#6).</p><p>분야 14개를 재서, 모델이 문서 없이는 값을 모르고(0/100) 문서를 주면 맞히는(97/100) 희토류 원소를 골랐습니다. 도중에 막힌 까닭이 분야가 아니라 도시 문서로 만든 잣대를 그대로 쓴 데 있다고 보고, 코퍼스를 꾸리는 방법부터 다시 정했습니다.</p></dd>
-        <dt>무엇이 나왔나</dt>
-        <dd>부딪히는 값을 빼고도 한쪽 언어에만 있는 사실이 한국어 20개, 영어 18개로 기준(언어마다 18개)을 채웠습니다. 영어는 여유가 없습니다. 자료 출처는 위키백과 하나입니다.</dd>
-      </dl>
-      <p class="note">36개였던 기준이 18개가 된 것은 두 언어 문서를 다 넣은 주제 쪽 몫(18개)을 판정에서 뺐기 때문입니다. 위키백과의 한국어 과학 문서는 같은 주제의 영어 문서와 값이 거의 겹쳐 그 몫을 채울 수 없었고, 이것은 결과를 본 뒤 바꾼 기준이라 기록과 한계에 적었습니다.</p>
+      <div class="part">
+        <h4>무엇을 왜 했나</h4>
+        <p>처음에는 한국의 도시 문서 28개로 문서 모음을 꾸렸습니다(#4). 10-18 멘토 숙제 뒤 "일반 상식보다는 지식으로, STEM(과학·기술·공학·수학)"이라는 피드백을 받아, 과학 분야에서 다시 골랐습니다(#6).</p>
+        <p>고른 분야는 희토류 원소입니다. 위키백과 문서 20개(한국어 10, 영어 10)를 받아 마크다운으로 바꾸고, 문서마다 다르게 적힌 값을 찾아 두었습니다(#7).</p>
+      </div>
+      <div class="part">
+        <h4>정한 것과 그 까닭</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">분야는 "모델이 문서 없이는 조금만 알고, 문서를 주면 맞히는 곳"으로 골랐다.</p>
+            <p>분야마다 질문 10개를 10번씩 물어, 문서 없이 100번 중 20~40번 맞히고, 문서를 주면 그보다 40번 이상 더 맞히는 분야를 찾았습니다. 맞음은 문서에서 찾아야 하는 값을 맞게 썼는지로 셌습니다. 모델이 이미 잘 아는 분야는 문서를 넣는 효과를 볼 수 없어서 뺐습니다(화학 원소는 문서 없이 80). 희토류 원소는 문서 없이 23, 문서를 주고 100이었습니다.</p>
+            <p class="caution"><b>한계</b>이 기준 가운데 둘은 결과를 본 뒤 바꿨습니다. 처음에는 최종 답이 맞았는지로 셌는데, 첫 세 분야가 모두 계산 실수 때문에 떨어지는 것을 보고 "문서에서 찾아야 하는 값"으로 세기로 바꿨습니다. "답을 스스로 검사하고 고치는 고리가 점수를 20 이상 올린다"는 기준도, 그 고리로는 분야가 갈리지 않는 것을 보고 고르는 데서 뺐습니다. 둘 다 무엇을 보고 바꿨는지를 기록에 적었습니다.</p>
+            <p class="info"><b>구분</b>희토류 원소로 정한 뒤에는 "모델 시험"을 따로 했습니다. 문서 모음에 더 넣을 문서의 값 10개를 문서 없이 물어 모델이 그 값을 모르는지 본 시험이고, 0/100이었습니다(40 이하면 통과). 위의 23과는 다른 시험입니다.</p>
+          </li>
+          <li>
+            <p class="lead">막힌 까닭이 분야가 아니라 잣대에 있다고 보고, 문서 모음을 꾸리는 방법부터 다시 정했다.</p>
+            <p>분야를 14개까지 재는 동안, 여러 분야가 한국어 쪽 사실이 모자라 떨어졌습니다. 도시 문서로 만든 잣대와 꾸리는 방법을 그대로 둔 채 분야만 바꾼 것이 원인이었습니다. 그래서 새 분야의 문서를 먼저 보고, 꾸리는 방법을 다시 정한 뒤에 셌습니다.</p>
+          </li>
+          <li>
+            <p class="lead">주제 15개마다 넣을 언어를 정했다: 두 언어 주제 5개, 한국어만 5개, 영어만 5개.</p>
+            <p>근거 언어마다 36개를 반씩 나눠, 두 언어 주제 쪽에서 18개, 한쪽 언어 주제 쪽에서 18개를 채우기로 했습니다. 두 언어 주제는 같은 주제의 반대 언어 문서가 함께 있어 검색이 헷갈릴 수 있는 쪽이라, 두 경우를 견주려는 것입니다.</p>
+            <p class="ex">툴륨은 한국어·영어 문서를 둘 다 넣었고(두 언어 주제), 어븀은 한국어 문서만 넣었습니다(한쪽 언어 주제). 두 언어 주제 5개는 문서가 10개라 모두 20개입니다.</p>
+          </li>
+          <li>
+            <p class="lead">문서마다 다르게 적힌 값 213개를 "부딪히는 값"으로 모아, 질문에 쓰지 않게 했다.</p>
+            <p>이런 값으로 질문을 만들면 어느 문서를 읽느냐에 따라 정답이 갈립니다. 문서에 적힌 값 4,042자리를 모두 모아 서로 견줘 찾았습니다.</p>
+            <p class="ex">툴륨의 기화열이 한국어 문서에는 247 kJ/mol, 영어 문서에는 191 kJ/mol로 적혀 있습니다.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="part">
+        <h4>나온 것</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">희토류 원소 위키백과 문서 20개와, 부딪히는 값 213개의 목록.</p>
+            <p>문서는 <code>data/corpus/</code>에, 목록은 질문을 검사하는 프로그램이 읽는 파일로 두었습니다.</p>
+          </li>
+          <li>
+            <p class="lead">한쪽 언어에만 있는 사실은 한국어 20개, 영어 18개로, 판정 기준(근거 언어마다 18개)을 채웠다.</p>
+            <p>부딪히는 값을 빼고 센 수입니다. 영어는 18개로 여유가 없습니다.</p>
+            <p class="info"><b>읽는 법</b>이 수는 문서에 있는 사실의 전부가 아닙니다. 프로그램이 낸 후보(한국어 143개, 영어 108개)를 앞에서부터 AI가 원문과 대조해, 기준을 넘는지 볼 만큼만 확인한 수입니다.</p>
+            <p class="caution"><b>한계</b>기준이 36개에서 18개가 된 것은 두 언어 주제 쪽 18개를 판정에서 뺐기 때문입니다. 위키백과의 한국어 과학 문서는 같은 주제의 영어 문서와 값이 거의 겹쳐, 두 언어 주제 쪽 한국어 사실이 3개뿐이었습니다. 이 쪽은 있는 만큼만 쓰기로 했고, 결과를 본 뒤 바꾼 기준이라 기록과 한계에 적었습니다.</p>
+          </li>
+          <li>
+            <p class="lead">자료 출처는 위키백과 하나다.</p>
+            <p>두 번째 출처는 찾아서 바꾸고 다시 세는 데 시간이 많이 들어 찾지 않았습니다.</p>
+            <p class="caution"><b>한계</b>여러 출처의 문서를 한 문서 모음에서 다루는 모습은 보이지 못합니다.</p>
+          </li>
+        </ol>
+      </div>
       <p class="more">더 보기: <code>history/stage2/4-corpus.md</code>, <code>history/stage2/6-stem-domain.md</code>, <code>history/stage2/7-rare-earth-corpus.md</code></p>
     </article>
 
-    <div class="join"><span class="arr"></span><p>부딪히는 값 목록이 질문을 만들 사실을 거르는 재료가 됐습니다. 코퍼스가 굳은 뒤 질문 작업은 다른 작업과 나란히 따로 갑니다.</p></div>
+    <div class="join"><span class="arr"></span><p>2단계에서 모은 문서의 값 목록과 부딪히는 값 목록이, 질문에 써도 되는 사실을 거르는 재료가 됐습니다. 문서 모음이 굳은 10-22부터 질문 준비는 4~6단계와 나란히 따로 갑니다.</p></div>
 
+    <!-- 3단계 -->
     <article class="thing">
       <header>
-        <span class="tag">3 · 3단계 · 이슈 #9 · 진행 중<span class="live">다른 폴더에서 나란히</span></span>
-        <h3>질문 작업: 질문을 만들 사실 목록과 절차</h3>
+        <span class="tag">스텝퍼 3단계 · 이슈 #9 · 10-22~<span class="live">진행 중 · 다른 폴더에서 나란히</span></span>
+        <h3>3단계(진행 중): 개발용 질문을 만들기 위해, 질문에 써도 되는 사실의 목록과 만드는 절차를 준비했다</h3>
       </header>
-      <dl class="rows">
-        <dt>무엇인가</dt>
-        <dd>시스템을 만들며 확인에 쓸 개발용 질문 30개를 만드는 일입니다. 질문은 아직 0개이고, 질문의 재료인 "검증한 사실 목록" 377개와 만드는 절차를 준비했습니다.</dd>
-        <dt>어떻게 움직이나</dt>
-        <dd>웹 AI가 사실 목록 안의 사실로만 질문 후보를 냅니다. 후보 검사 프로그램이 목록 밖의 사실과 부딪히는 값을 막고, 사용자가 대조 카드를 보며 원문과 맞춰 확정합니다. 그 뒤 Opus가 원문과 한 번 더 대조합니다.</dd>
-        <dt>왜 이렇게 했나</dt>
-        <dd><p>반대 언어 문서에서 단위를 바꾸거나 계산하면 같은 답이 나오는 사실은 사용자가 혼자 가려낼 수 없습니다. 그래서 질문을 만들기 전에 사실을 프로그램 규칙만으로 걸러 목록을 만들었습니다.</p><p>이 절차는 나중에 최종 평가용 질문을 사용자가 Claude 없이 만들 때 그대로 씁니다.</p></dd>
-        <dt>무엇이 나왔나</dt>
-        <dd>사실 377개: 한국어 문서에만 200, 영어 문서에만 127, 두 언어 주제의 영어 문서 45, 두 언어 주제의 한국어 문서 5. 개발용 질문은 아직 없어서, 지금까지의 시스템 확인에는 쓰지 못했습니다.</dd>
-      </dl>
-      <p class="note">지난 정리 페이지의 420개는 그 뒤 2차 중간 검토의 지적을 반영하며 377개로 줄었습니다. 작업 중이라 수가 더 바뀔 수 있습니다.</p>
-      <p class="more">더 보기: <code>../MultilingualAgentRAG-questions/HANDOFF-questions.md</code> (커밋 <code>5b7a9e2</code> 기준), 같은 폴더 <code>decisions/stage3.md</code> 2026-10-24 "검증한 사실 목록을 만드는 방법" 줄</p>
+      <div class="part">
+        <h4>무엇을 왜 했나</h4>
+        <p>개발용 질문 30개를 만드는 작업입니다. 아직 질문은 0개이고, 질문을 만들 준비를 마친 상태입니다.</p>
+        <p>이 작업은 최종 평가용 질문을 만드는 연습이기도 합니다. 최종 평가용은 7단계 전에 Claude가 볼 수 없어서, 사용자가 Claude 없이 같은 절차로 만들어야 하기 때문입니다. 10-20에 일정을 정하면서, 개발용 질문은 사용자의 원문 대조에만 5시간쯤 들 것으로 보여 최소판(4~6단계)과 나란히 만들기로 했습니다.</p>
+      </div>
+      <div class="part">
+        <h4>정한 것과 그 까닭</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">질문은 미리 검증한 "사실 목록" 안의 사실로만 만든다.</p>
+            <p>사실 목록은 2단계에서 문서의 값을 모두 모은 값 목록에서 출발해, 프로그램이 정해 둔 규칙으로 거른 것입니다. 반대 언어 문서에 같은 값이 있는 사실, 단위를 바꾸거나 계산하면 같은 답이 나오는 사실, 부딪히는 값을 뺍니다.</p>
+            <p>이런 사실은 영어 문서를 읽어야 가려낼 수 있어 사용자가 혼자 확인할 수 없습니다. 그래서 질문을 만들기 전에 프로그램으로 걸러 두었습니다.</p>
+            <p class="ex">어떤 원소의 비열이 한국어 문서에만 있어도, 영어 문서의 몰열용량을 원자량으로 나누면 같은 값이 나옵니다. 이런 사실은 목록에서 뺍니다.</p>
+          </li>
+          <li>
+            <p class="lead">질문 후보는 웹 AI가 내고, 프로그램 검사와 사용자의 원문 대조를 거쳐 확정한다.</p>
+            <p>웹 AI(웹 채팅에서 쓰는 다른 AI)가 사실 목록의 사실로 후보를 냅니다. 후보 검사 프로그램이 목록 밖의 사실을 쓰거나 정답이 목록의 값과 어긋난 후보를 떨어뜨리고, 사용자가 대조 카드(후보와 원문을 나란히 보여 주는 페이지)를 보며 원문과 맞춰 확정합니다. 최종 평가용도 이 길로 똑같이 만듭니다.</p>
+          </li>
+          <li>
+            <p class="lead">개발용에서만, 확정된 질문을 Opus가 원문과 한 번 더 대조한다.</p>
+            <p>질문을 고치려는 것이 아니라, 사용자의 대조 절차가 무엇을 놓치는지 세려는 것입니다. 놓친 것이 나오면 그 원인을 웹 AI에게 주는 지시서와 사용자가 따라가는 진행 안내에서 고칩니다.</p>
+            <p class="info"><b>읽는 법</b>최종 평가용에서는 Claude가 질문을 볼 수 없어 이 대조를 할 수 없습니다. 그래서 대조할 수 있는 개발용에서 절차를 미리 시험해 둡니다.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="part">
+        <h4>나온 것 (지금까지)</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">검증한 사실 목록 377개와, 질문을 만드는 데 쓸 지시서·진행 안내·후보 검사 프로그램·대조 카드.</p>
+            <div class="tablewrap"><table>
+              <tr><th>사실이 있는 곳</th><th>사실 수</th></tr>
+              <tr><td>한쪽 언어 주제의 한국어 문서</td><td>200</td></tr>
+              <tr><td>한쪽 언어 주제의 영어 문서</td><td>127</td></tr>
+              <tr><td>두 언어 주제의 영어 문서</td><td>45</td></tr>
+              <tr><td>두 언어 주제의 한국어 문서</td><td>5</td></tr>
+            </table></div>
+            <p class="info"><b>구분</b>2단계 칸의 "한국어 20개, 영어 18개"와는 다른 셈입니다. 그것은 기준을 넘는지 볼 만큼만 원문과 대조한 수이고, 이 377개는 문서의 모든 숫자 값을 프로그램 규칙으로 거른 목록입니다. 작업 중이라 수가 바뀔 수 있습니다.</p>
+            <p class="caution"><b>한계</b>두 언어 주제의 한국어 문서 쪽은 5개뿐이라 개발용 특별 질문 하나에만 씁니다(2단계 칸의 한계와 같은 까닭). 두 언어 주제의 영어 문서 쪽 45개는 Claude가 이미 원문과 대조한 사실이라, 이 쪽의 최종 평가용 질문은 Claude가 아는 사실에서 나옵니다.</p>
+          </li>
+          <li>
+            <p class="lead">개발용 질문은 아직 0개라, 4~6단계의 확인에는 쓰지 못했다.</p>
+            <p>그래서 4~6단계는 다른 질문 38개로 값을 고르고 결과를 냈습니다(아래 4단계 칸).</p>
+          </li>
+        </ol>
+      </div>
+      <p class="more">더 보기: <code>../MultilingualAgentRAG-questions/HANDOFF-questions.md</code>(커밋 <code>5b7a9e2</code> 기준), 같은 폴더 <code>decisions/stage3.md</code> 2026-10-24 "검증한 사실 목록을 만드는 방법" 줄</p>
     </article>
 
-    <div class="join side"><span class="arr"></span><p>개발용 질문이 아직 없어서, 최소판은 도메인을 고를 때 원문과 확인한 질문 19개와 그 영어 번역 19개(모두 38개)로 값을 골랐습니다.</p></div>
+    <div class="join side"><span class="arr"></span><p>개발용 질문이 아직 없어서, 최소판은 개발용이 아닌 다른 질문으로 만들어야 했습니다.</p></div>
 
+    <!-- 4단계 -->
     <article class="thing">
       <header>
-        <span class="tag">4 · 4단계 · 이슈 #8 · 10-22~23</span>
-        <h3>최소판 설계: 자르는 법, 찾는 법, 답하는 법</h3>
+        <span class="tag">스텝퍼 4단계 · 이슈 #8 · 10-22~23</span>
+        <h3>4단계: 최소판을 만들기 전에, 문서를 자르는 법·찾는 법·답하는 법을 정했다</h3>
       </header>
-      <dl class="rows">
-        <dt>무엇인가</dt>
-        <dd>최소판을 만드는 데 필요한 설계만 먼저 정한 것입니다. 견줄 질문 38개, 청크를 자르는 규칙, 검색 후보와 고르는 기준, 답을 쓰는 모델과 지시문입니다.</dd>
-        <dt>어떻게 움직이나</dt>
-        <dd><p>청크는 문서 구조를 따라 자릅니다. 정보 상자는 묶음마다, 글은 절 안의 문단마다, 표는 행 경계에서 나누고 조각마다 머리글을 붙입니다.</p><p>답은 qwen3:8b가 영어 지시문 하나로 씁니다. 같은 질문을 씨앗 1~5로 다섯 번 묻습니다.</p></dd>
-        <dt>왜 이렇게 했나</dt>
-        <dd><p>길이로만 자르면 표의 행이나 정보 상자 묶음이 중간에서 잘려, 값이 무엇의 값인지 알 수 없게 됩니다.</p><p>처음 한국어 지시문으로는 영어 질문 19개가 모두 한국어로 답해서, 지시문을 영어로 바꿨습니다(38/38이 질문 언어로 답함).</p></dd>
-        <dt>무엇이 나왔나</dt>
-        <dd>돌려 봐야 정해지는 값(청크 크기 128·256, 임베딩 모델 2개, 청크 앞에 문서 제목을 붙일지)은 결과를 보기 전에 후보와 고르는 기준만 정했습니다. 다시 검색하기, 판정 같은 기능은 그 기능을 붙일 때 정하기로 미뤘습니다.</dd>
-      </dl>
+      <div class="part">
+        <h4>무엇을 왜 했나</h4>
+        <p>최소판은 가장 단순한 RAG입니다. 질문이 들어오면 그 질문 글 그대로 문서 모음에서 한 번 검색하고, 가져온 청크 몇 개를 질문과 함께 모델에게 주어 답하게 합니다. 다시 검색하거나 답을 검사하는 기능은 없습니다.</p>
+        <p>이 최소판에 기능을 하나씩 붙여 Agent-RAG로 키울 계획이라, 먼저 최소판에 꼭 필요한 것만 정했습니다. 문서를 청크로 자르는 법, 질문에 맞는 청크를 찾는 법, 답을 쓰는 모델과 지시문입니다.</p>
+      </div>
+      <div class="part">
+        <h4>정한 것과 그 까닭</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">값을 고를 질문은 38개로 했다.</p>
+            <p>개발용 질문이 없어서, 분야를 고를 때 원문과 확인해 둔 한국어 질문 19개를 다시 썼습니다. 한국어 질문만으로 고르면 한국어에 맞춘 값이 될 수 있어서, 같은 19개를 영어로 옮겨 더했습니다.</p>
+          </li>
+          <li>
+            <p class="lead">문서는 구조를 따라 자른다.</p>
+            <p>정보 상자는 묶음마다, 글은 절 안의 문단마다 한 청크로 둡니다. 표는 행 사이에서 나누되, 조각마다 표의 머리글을 다시 붙입니다. 길이만 보고 자르면 표의 행이나 정보 상자 묶음이 중간에서 잘려, 남은 숫자가 무엇의 값인지 알 수 없게 되기 때문입니다.</p>
+            <p class="ex">정보 상자의 "물리적 성질" 묶음(밀도, 녹는점 등)은 통째로 한 청크입니다.</p>
+          </li>
+          <li>
+            <p class="lead">돌려 봐야 알 수 있는 값은 후보만 정하고, 고르는 기준을 결과보다 먼저 적었다.</p>
+            <p>그 값은 셋입니다. 청크 크기(128 또는 256토큰. 토큰은 모델이 글을 세는 단위), 임베딩 모델(bge-m3 또는 gte), 청크 앞에 문서 제목을 붙일지입니다. 이를 조합한 8가지 가운데 하나를 5단계에서 돌려 고르기로 했습니다. 결과를 본 뒤에 기준을 정하면 그 결과에 맞춘 선택이 되기 때문입니다.</p>
+          </li>
+          <li>
+            <p class="lead">답은 qwen3:8b가 쓰고, 지시문(시스템 프롬프트)은 영어로 썼다.</p>
+            <p>지시문 안에 "질문과 같은 언어로 답하라"는 줄이 있어서, 답은 질문의 언어로 나옵니다. 처음 한국어 지시문으로는 영어 질문 19개에도 모두 한국어로 답했고, 지시문을 영어로 바꾸자 38개 모두 질문의 언어로 답했습니다. 모델은 분야를 고르는 실험에서 쓴 것과 같습니다.</p>
+          </li>
+          <li>
+            <p class="lead">같은 질문을 씨앗 1~5로 다섯 번 묻는다.</p>
+            <p>모델은 같은 질문에도 답이 조금씩 달라집니다. 한 번만 물으면 맞은 것이 우연인지 알 수 없어서, 다섯 번 묻고 몇 번 맞았는지 봅니다.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="part">
+        <h4>나온 것</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">최소판의 설계 기록과 질문 38개의 파일.</p>
+            <p>설계는 <code>decisions/stage4.md</code>에 있습니다. 이 단계에서 실제로 돌려 본 것은 답의 언어를 확인한 짧은 시험뿐이고, 청크를 만들어 8가지를 견주는 일은 5단계에서 했습니다.</p>
+          </li>
+          <li>
+            <p class="lead">다시 검색하기, 답을 검사하는 판정 같은 기능의 설계는 미뤘다.</p>
+            <p>그 기능을 붙일 때 정합니다(위 "한눈에"의 10-20 순서 변경).</p>
+          </li>
+        </ol>
+      </div>
       <p class="more">더 보기: <code>history/stage4/8-minimal-rag-design.md</code></p>
     </article>
 
-    <div class="join"><span class="arr"></span><p>정해 둔 후보 8가지(임베딩 모델 2 × 청크 크기 2 × 제목 붙임 여부 2)를 실제로 만들어 견줬습니다.</p></div>
+    <div class="join"><span class="arr"></span><p>정해 둔 후보 8가지(청크 크기 2 × 임베딩 모델 2 × 제목 붙임 여부 2)를 실제로 만들어 견줬습니다.</p></div>
 
+    <!-- 5단계 -->
     <article class="thing">
       <header>
-        <span class="tag">5 · 5단계 · 이슈 #10 · 10-23</span>
-        <h3>지식 베이스: 청크를 저장하고 찾는 장치</h3>
+        <span class="tag">스텝퍼 5단계(최소판 몫) · 이슈 #10 · 10-23</span>
+        <h3>5단계: 청크를 만들어 데이터베이스에 넣고, 검색 방식 8가지를 견줘 하나를 골랐다</h3>
       </header>
-      <dl class="rows">
-        <dt>무엇인가</dt>
-        <dd>문서를 청크로 자르고, 청크를 벡터로 바꿔 데이터베이스(PostgreSQL 18 + pgvector)에 넣고, 질문과 가까운 청크를 찾는 장치입니다.</dd>
-        <dt>어떻게 움직이나</dt>
-        <dd>질문도 같은 임베딩 모델로 벡터로 바꾼 뒤, 모든 청크와 거리를 재서 가까운 순서로 8개를 가져옵니다. 고른 방식은 크기 128 + 청크 앞에 문서 제목 붙임 + 임베딩 모델 bge-m3입니다.</dd>
-        <dt>왜 이렇게 했나</dt>
-        <dd><p>8가지를 질문 38개로 견주고, 근거 청크(정답이 든 청크)를 가져온 질문 수로 골랐습니다. 결과를 보고 기준을 바꾸지 않으려고 채점 프로그램을 돌리기 전에 커밋했습니다.</p><p>제목을 붙이면 네 쌍 모두 나아졌습니다(bge-m3 크기 128은 21개 → 31개). 정보 상자 청크에는 원소 이름이 없고 붙인 제목에만 있기 때문입니다.</p></dd>
-        <dt>무엇이 나왔나</dt>
-        <dd>질문 38개 가운데 31개에서 근거 청크를 가져왔습니다. 모든 방식이 놓친 질문 둘은 영어로 물었는데 근거가 한국어 문서에만 있는 질문이었습니다.</dd>
-      </dl>
+      <div class="part">
+        <h4>무엇을 왜 했나</h4>
+        <p>4단계에서 정한 규칙대로 문서 20개를 청크로 자르고, 청크마다 벡터를 만들어 데이터베이스(PostgreSQL 18 + pgvector)에 넣었습니다. 질문이 들어오면 질문도 같은 임베딩 모델로 벡터로 바꾸고, 모든 청크와 거리를 재서 가장 가까운 것부터 가져옵니다. 이것이 최소판의 "찾는" 부분입니다.</p>
+        <p>5단계의 나머지(BM25 검색, 개발용 질문으로 값 다시 정하기 등)는 개발용 질문이 생긴 뒤 두 번째 5단계 작업에서 합니다.</p>
+      </div>
+      <div class="part">
+        <h4>정한 것과 그 까닭</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">검색 방식 8가지를 질문 38개로 견주고, 정답이 든 청크를 가져온 질문 수로 골랐다.</p>
+            <p>가져오는 글의 양은 같게 맞췄습니다. 크기 128은 청크 8개, 256은 4개를 가져옵니다. 큰 청크가 글을 더 많이 봐서 이기는 일을 막으려는 것입니다. 2개 이하 차이는 우연일 수 있어 비김으로 보고, 비기면 미리 정한 순서로 골랐습니다.</p>
+          </li>
+          <li>
+            <p class="lead">고르는 프로그램을 결과를 보기 전에 커밋했다.</p>
+            <p>결과를 본 뒤 기준을 바꾸면 결과에 맞춘 선택이 됩니다. 커밋으로 남겨 두면 기준이 결과보다 먼저였다는 것을 기록으로 보일 수 있습니다.</p>
+          </li>
+          <li>
+            <p class="lead">표 청크가 값과 머리글을 맞게 짝지었는지 프로그램으로 모두 확인했다.</p>
+            <p>표를 행 사이에서 나눌 때 머리글이 잘못 붙으면, 청크 안의 숫자가 엉뚱한 이름의 값이 됩니다. 표가 든 청크 1,243개를 모두 원문 표와 견줘 확인했고, 일부러 망가뜨린 경우 14가지를 확인 프로그램이 모두 잡는지도 봤습니다.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="part">
+        <h4>나온 것</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">고른 방식은 크기 128 + 문서 제목 붙임 + bge-m3, 청크 8개다.</p>
+            <p>질문 38개 가운데 31개에서 정답이 든 청크를 가져왔습니다.</p>
+          </li>
+          <li>
+            <p class="lead">청크 앞에 문서 제목을 붙이면 8가지 가운데 네 쌍 모두 나아졌다.</p>
+            <p>bge-m3 크기 128은 21개에서 31개로 늘었습니다. 정보 상자 청크에는 원소 이름이 없고, 붙인 제목에만 있기 때문입니다.</p>
+            <p class="ex">정보 상자의 "물리적 성질" 청크에는 "밀도 … g/cm³"처럼 값만 있고 어느 원소인지가 없습니다. 제목을 붙이면 청크 앞에 원소 이름이 붙어, "이 원소의 밀도"를 묻는 질문과 가까워집니다.</p>
+          </li>
+          <li>
+            <p class="lead">모든 방식이 놓친 질문 둘은, 영어로 묻고 정답이 한국어 문서에만 있는 질문이었다.</p>
+            <p>둘 다 이름이 비슷한 다른 원소(Ytterbium, 이터븀)의 영어 문서를 가져왔습니다. 이 약점은 6단계 첫 비교에서도 그대로 보였습니다.</p>
+          </li>
+        </ol>
+        <p class="caution whole"><b>이 결과 전체의 한계</b>질문이 38개라 1~2개 차이는 우연일 수 있습니다. 이 값들은 7단계 전에 개발용 질문으로 다시 정합니다.</p>
+      </div>
       <p class="more">더 보기: <code>history/stage5/10-minimal-knowledge-base.md</code></p>
     </article>
 
-    <div class="join"><span class="arr"></span><p>이 검색으로 최소판이 완성됐고, Baseline과 처음으로 견줬습니다. "영어 질문 · 한국어 근거"의 약점은 첫 비교에서도 그대로 보였습니다.</p></div>
+    <div class="join"><span class="arr"></span><p>이 검색으로 최소판이 완성됐고, Baseline과 처음으로 견줬습니다.</p></div>
 
+    <!-- 6단계 -->
     <article class="thing">
       <header>
-        <span class="tag">6 · 6단계 첫 서브이슈 · 이슈 #12 · 10-24</span>
-        <h3>첫 비교 결과: Baseline 대 최소판</h3>
+        <span class="tag">스텝퍼 6단계 첫 서브이슈 · 이슈 #12 · 10-24</span>
+        <h3>6단계 첫 작업: 문서 없이 답하는 Baseline과 최소판을 같은 조건으로 견줬다</h3>
       </header>
-      <dl class="rows">
-        <dt>무엇인가</dt>
-        <dd>문서 없이 답하는 Baseline과 최소판을 같은 모델·지시문·설정으로 견준 첫 결과입니다. 두 시스템의 차이는 문서를 넣었느냐 하나입니다.</dd>
-        <dt>어떻게 움직이나</dt>
-        <dd>질문 38개를 씨앗 1~5로 두 시스템에 물어 모두 380번 돌렸습니다. 답의 마지막 숫자가 정답의 ±1% 안이면 맞음으로 자동 채점합니다.</dd>
-        <dt>왜 이렇게 했나</dt>
-        <dd>앞으로 기능을 하나씩 붙일 때마다 견줄 출발점이 필요해서입니다. 기능 하나를 붙이면 이 숫자와 견줘 그 기능이 무엇을 바꿨는지 봅니다.</dd>
-        <dt>무엇이 나왔나</dt>
-        <dd>
-          <div class="nums">
-            <div class="num"><span>Baseline (문서 없음)</span><b>37<small> / 190</small></b></div>
-            <div class="num"><span>최소판 (청크 8개)</span><b>144<small> / 190</small></b></div>
-          </div>
-          <p>최소판이 틀린 46개 가운데 35개는 검색이 근거 청크를 놓친 경우였습니다. 가장 약한 곳은 영어로 물었는데 정답이 한국어 문서에만 있는 묶음(15/40)입니다.</p>
-          <p>Baseline은 모르는 값도 숫자를 지어냈습니다. 다만 지금 지시문에는 "모르면 모른다고 하라"는 줄이 없어서, 이것은 지금 지시문·설정에서 본 약점으로 적었습니다.</p>
-        </dd>
-      </dl>
-      <p class="note">144는 결과를 본 뒤 고친 채점 규칙의 값입니다. 위키백과 표의 오차 표기(<code>621.4(11)</code>의 괄호 안 11)를 숫자로 세지 않게 고쳤고, 고치기 전에는 최소판이 138/190이었습니다.</p>
+      <div class="part">
+        <h4>무엇을 왜 했나</h4>
+        <p>5단계에서 고른 검색으로 최소판을 완성하고, 문서 없이 답하는 Baseline과 처음으로 견줬습니다. 두 시스템은 같은 모델(qwen3:8b), 같은 지시문, 같은 설정을 씁니다. 다른 것은 최소판만 청크 8개를 함께 받는다는 것 하나라서, 두 점수의 차이를 "문서를 넣은 효과"로 읽을 수 있습니다.</p>
+        <p>이 점수는 앞으로 기능을 하나 붙일 때마다 견줄 출발점이 됩니다. 기능을 붙인 뒤 점수가 달라지면, 이 숫자와 견줘 그 기능이 무엇을 바꿨는지 봅니다.</p>
+      </div>
+      <div class="part">
+        <h4>정한 것과 그 까닭</h4>
+        <ol class="decide">
+          <li>
+            <p class="lead">질문 38개를 씨앗 1~5로 다섯 번씩, 두 시스템에 모두 380번 물었다.</p>
+            <p>시스템마다 답이 190개(질문 38개 × 5번)라서, 아래 점수는 모두 190개 가운데 맞은 수입니다.</p>
+          </li>
+          <li>
+            <p class="lead">채점은 프로그램이 한다. 답의 마지막 숫자가 정답의 ±1% 안이면 맞음이다.</p>
+            <p>질문이 모두 숫자로 답하는 질문이라 프로그램으로 가릴 수 있습니다. 1%의 폭은 반올림 차이를 틀림으로 세지 않으려고 둔 것입니다. 정답 0.5592 kg에 0.559 kg이라고 답해도 맞음이지만, 단위를 바꾸지 않아 1000배가 된 답은 틀림으로 남습니다.</p>
+            <p>마지막 숫자를 고르는 것은 모델이 답에 풀이를 함께 쓰기도 해서입니다. 그러면 첫 숫자는 질문에 나온 숫자일 수 있고, 최종 답은 보통 맨 끝에 옵니다.</p>
+            <p class="ex">Baseline의 실제 답 "First, calculate the volume: 3 cm × 4 cm × 5 cm = 60 cm³ … = 0.3144 kg"(먼저 부피를 구하면 …). 첫 숫자를 고르면 3이 되고, 마지막 숫자를 고르면 최종 답 0.3144가 됩니다.</p>
+            <p class="info"><b>구분</b>이 자동 채점은 개발하면서 빠르게 견주는 용도입니다. 7단계 최종 평가는 1단계에서 정한 평가 방법대로 사람이 답을 읽고 채점합니다.</p>
+          </li>
+          <li>
+            <p class="lead">결과를 본 뒤 채점 규칙 하나를 고쳤다.</p>
+            <p>위키백과 표는 값 뒤 괄호에 측정 오차를 적습니다. 최소판이 이 표기를 그대로 옮겨 답하자, 마지막 숫자를 고르는 규칙이 값이 아니라 오차를 골라 틀림으로 셌습니다. 숫자 바로 뒤 괄호 안의 정수는 세지 않게 고쳤고, 최소판 점수가 138에서 144로 올랐습니다.</p>
+            <p class="ex"><code>621.4(11) keV</code>는 "621.4 ± 1.1 keV"라는 뜻입니다. 고치기 전 규칙은 마지막 숫자 11을 골라 틀림으로 셌습니다.</p>
+            <p class="caution"><b>한계</b>결과를 보고 바꾼 규칙이고, 최소판 쪽에만 유리하게 작용했습니다. 그래서 고치기 전 점수(138)를 함께 적어 둡니다.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="part">
+        <h4>나온 것</h4>
+        <div class="nums">
+          <div class="num"><span>Baseline (문서 없음) · 190개 중 맞은 수</span><b>37<small> / 190</small></b></div>
+          <div class="num"><span>최소판 (청크 8개) · 고치기 전 규칙으로 138</span><b>144<small> / 190</small></b></div>
+        </div>
+        <div class="tablewrap"><table class="tree">
+          <tr class="top"><td>최소판의 답 190개</td><td>190</td></tr>
+          <tr><td>맞음</td><td>144</td></tr>
+          <tr><td>틀림</td><td>46</td></tr>
+          <tr class="l1"><td>검색이 정답이 든 청크를 가져오지 못함 ("문서에서 찾지 못했다"는 답 27개 포함)</td><td>35</td></tr>
+          <tr class="l2"><td>영어로 묻고 정답은 한국어 문서에만 있는 질문</td><td>25</td></tr>
+          <tr class="l2"><td>한국어로 묻고 정답은 한국어 문서에만 있는 질문</td><td>10</td></tr>
+          <tr class="l1"><td>정답이 든 청크를 받고도 틀림 (계산을 건너뜀 등)</td><td>11</td></tr>
+        </table></div>
+        <ol class="decide">
+          <li>
+            <p class="lead">문서를 넣으면 크게 올랐고, 최소판이 틀린 답은 대부분 검색 탓이었다.</p>
+            <p>최소판이 틀린 46개 가운데 35개는 검색이 정답이 든 청크를 가져오지 못한 답입니다. 이때 모델은 대부분 지시대로 "문서에서 찾지 못했다"고 답했습니다.</p>
+          </li>
+          <li>
+            <p class="lead">가장 약한 곳은 영어로 묻고 정답이 한국어 문서에만 있는 질문이었다.</p>
+            <p>이런 질문 8개를 다섯 번씩 물은 40개 가운데 15개만 맞았고, 틀린 25개는 모두 검색이 한국어 청크를 찾지 못한 경우입니다(위 표의 25). 반대 방향인 "한국어로 묻고 정답이 영어 문서에만 있는 질문"은 40개 가운데 35개가 맞았습니다. 5단계 검색 비교에서 본 약점이 그대로 이어진 것입니다.</p>
+          </li>
+          <li>
+            <p class="lead">Baseline은 모르는 값도 숫자를 지어냈다.</p>
+            <p>190개 가운데 189개에서 숫자를 답했고, 그 가운데 152개가 틀린 숫자였습니다. "모른다"는 답은 하나도 없었습니다.</p>
+            <p class="info"><b>읽는 법</b>지금 지시문에는 "모르면 모른다고 하라"는 줄이 없습니다. 그래서 이것을 모델이 원래 못 하는 것으로 보지 않고, 지금 지시문에서 본 약점으로 적었습니다.</p>
+          </li>
+        </ol>
+        <p class="caution whole"><b>이 결과 전체의 한계</b>질문이 38개뿐이고, 5단계에서 검색 방식을 같은 질문으로 골랐습니다. 그래서 이 결과는 최소판에 조금 유리할 수 있습니다.</p>
+      </div>
       <p class="more">더 보기: <code>history/stage6/12-baseline-minimal.md</code>, 묶음별 표와 사례는 <a href="https://claude.ai/artifact/X6R68EqM6Und6DSKAZY6UW">첫 비교 페이지</a>, 질문 하나가 두 시스템을 지나가는 모습은 <a href="https://claude.ai/artifact/3whm2drFKW1W7rSmYVaLQi">질문 하나가 지나가는 길</a></p>
     </article>
 
@@ -265,7 +502,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       <li><b>먼저 정할 것:</b> 최소판 다음에 무엇부터 붙일지. 10-25 멘토 피드백을 들은 뒤 정하기로 했는데, 피드백이 없어져 언제 정할지부터 다시 정해야 합니다.</li>
       <li><b>6단계 기능 ②~⑦:</b> 모델 확정, 모델이 검색 도구를 부르는 검색, 근거 청크를 인용한 답, 충분한지 판단하고 다시 검색(최대 2회), 판정과 신뢰도 점수, API 3개.</li>
       <li><b>3단계:</b> 개발용 질문을 묶음 1부터 받아 확정합니다.</li>
-      <li><b>두 번째 5단계 이슈(개발용 질문이 생긴 뒤):</b> BM25 검색, 개발용 질문으로 검색 값 다시 정하기, 나머지 문서 분석. 값이 바뀌면 첫 비교를 다시 냅니다.</li>
+      <li><b>두 번째 5단계 작업(개발용 질문이 생긴 뒤):</b> BM25 검색, 개발용 질문으로 검색 값 다시 정하기, 나머지 문서 분석. 값이 바뀌면 첫 비교를 다시 냅니다.</li>
       <li><b>뒤 단계:</b> 최종 평가용 질문, 7단계 평가, 8단계 리포트.</li>
       <li><b>일정:</b> 10-25 제출이 없어져, 이번 주 일정을 새로 정합니다.</li>
     </ul>
