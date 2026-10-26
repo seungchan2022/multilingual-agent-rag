@@ -35,7 +35,7 @@ english_ok: english_question is written in English and asks exactly the same thi
 reason: before deciding, compare the plan with the question item by item and write what matches and what differs.
 For every check that fails, write one problem: what is wrong and how to fix it.
 Answer only in the JSON format below.
-{"reason": "...", "targets_ok": true, "korean_ok": true, "english_ok": true, "problems": []}'''
+{"reason": "...", "targets_ok": true, "korean_ok": true, "english_ok": true, "problems": ["..."]}'''
 
 
 def a_plan(**changes):
@@ -50,7 +50,7 @@ class ConstantsTest(unittest.TestCase):
         self.assertEqual(plan.JUDGE_SYSTEM, JUDGE_SYSTEM_TEXT)
 
     def test_versions_and_limits(self):
-        self.assertEqual((plan.PLAN_VERSION, plan.JUDGE_VERSION, plan.REFINE_VERSION), ("plan-en-v1", "judge-en-v1", "refine-en-v1"))
+        self.assertEqual((plan.PLAN_VERSION, plan.JUDGE_VERSION, plan.REFINE_VERSION), ("plan-en-v1", "judge-en-v2", "refine-en-v1"))
         self.assertEqual((plan.JUDGE_MODEL, plan.MAX_JUDGMENTS), ("gemma3:4b", 3))
 
 

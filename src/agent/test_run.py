@@ -80,7 +80,7 @@ class RunTest(unittest.TestCase):
         self.assertEqual((r["generate_model"], r["judge_model"]), ("qwen3:8b", "gemma3:4b"))
         self.assertEqual(r["generate_options"], generate.request_body("", "", 1)["options"])
         self.assertEqual(r["judge_options"], plan.judge_body("", 1)["options"])
-        self.assertEqual(r["prompt_version"], {"plan": "plan-en-v1", "judge": "judge-en-v1", "refine": "refine-en-v1", "answer": "en-v1+ctx-en-v1"})
+        self.assertEqual(r["prompt_version"], {"plan": "plan-en-v1", "judge": "judge-en-v2", "refine": "refine-en-v1", "answer": "en-v1+ctx-en-v1"})
         self.assertEqual(len(r["code_commit"]), 40)
         self.assertIsInstance(r["code_dirty"], bool)
         self.assertRegex(r["langgraph_version"], r"^\d+\.\d+")

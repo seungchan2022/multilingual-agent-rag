@@ -10,7 +10,7 @@ import json
 JUDGE_MODEL = "gemma3:4b"
 MAX_JUDGMENTS = 3   # 계획 검사 최대 3번, 계획 다시 쓰기 최대 2번(decisions/stage6.md 2026-10-26 1단계 고리의 반복 한도)
 PLAN_VERSION = "plan-en-v1"
-JUDGE_VERSION = "judge-en-v1"
+JUDGE_VERSION = "judge-en-v2"
 REFINE_VERSION = "refine-en-v1"
 CHECKS = ("targets_ok", "korean_ok", "english_ok")
 
@@ -40,7 +40,7 @@ JUDGE_SYSTEM = "\n".join([
     "reason: before deciding, compare the plan with the question item by item and write what matches and what differs.",
     "For every check that fails, write one problem: what is wrong and how to fix it.",
     "Answer only in the JSON format below.",
-    '{"reason": "...", "targets_ok": true, "korean_ok": true, "english_ok": true, "problems": []}',
+    '{"reason": "...", "targets_ok": true, "korean_ok": true, "english_ok": true, "problems": ["..."]}',
 ])
 
 
