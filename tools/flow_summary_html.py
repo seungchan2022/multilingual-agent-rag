@@ -42,8 +42,8 @@ details.card>summary{list-style:none;cursor:pointer;padding:12px 40px 12px 16px;
 details.card>summary::-webkit-details-marker{display:none}
 details.card>summary::after{content:"+";position:absolute;right:16px;top:10px;font-size:20px;color:var(--soft)}
 details.card[open]>summary::after{content:"\2212"}
-.t{display:block;font-weight:700;font-size:16px;line-height:1.4}
-.gist{display:block;font-size:14px;color:var(--muted);margin-top:4px}
+.t{display:block;font-weight:700;font-size:17px;line-height:1.4}
+.gist{display:block;font-size:15px;line-height:1.65;color:var(--ink);margin-top:8px;padding:8px 12px;background:var(--paper);border-left:3px solid var(--accent);border-radius:4px}
 .tag{display:inline-block;font-size:11px;font-weight:600;border-radius:4px;padding:1px 8px;margin-bottom:4px}
 .tag.user{background:var(--accent-tint);color:#b54a1c}
 .tag.codex{background:var(--link-tint);color:var(--link)}
@@ -54,10 +54,11 @@ details.card[open]>summary::after{content:"\2212"}
 .steps li::before{content:"";position:absolute;left:-22px;top:12px;width:10px;height:10px;border-radius:50%;background:var(--card);border:2px solid var(--soft)}
 .steps li.snag::before{border-color:var(--accent)}
 .steps li.done::before{background:var(--ink);border-color:var(--ink)}
-.steps b,.rows dt{display:block;font-size:12px;letter-spacing:.04em;color:var(--soft);font-weight:600}
+.steps b{display:block;font-size:12px;letter-spacing:.04em;color:var(--soft);font-weight:600}
+.rows dt{display:inline-block;font-size:12.5px;letter-spacing:.02em;color:var(--ink);font-weight:700;background:var(--paper-2);border-radius:4px;padding:1px 8px;margin-top:14px;margin-bottom:6px}
 .steps li.snag b{color:#b54a1c}
 .rows{margin-top:12px}
-.rows dd{font-size:15px;margin-bottom:10px}
+.rows dd{font-size:15px;line-height:1.75;color:var(--muted);padding-left:12px;border-left:2px solid var(--rule);margin-bottom:2px}
 .ex{background:var(--paper);border-radius:6px;padding:12px 14px;font-size:14px;margin-top:8px}
 .ex b{font-size:12px;color:var(--soft);display:block}
 .scroll{overflow-x:auto;margin:12px 0}
