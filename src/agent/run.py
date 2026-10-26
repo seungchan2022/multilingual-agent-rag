@@ -5,7 +5,7 @@
 
 규칙은 decisions/stage6.md의 2026-10-26 줄(재는 법의 첫째 / 비교용이 넘기는 청크 수를 실행마다 맞춘다 / 남길 기준의 둘 / 모델 답의 꼴 검사 /
 리파이먼트가 일어난 실행에서는 처음 계획으로도 답을 써 둔다 / 1단계 고리의 사용자 메시지 모양과 판정 모델 설정)에 있다. 그래프는 src/agent/graph.py다.
-모델 설정은 생성 모델(qwen3:8b)이 src/minimal/generate.py의 request_body와 같고, 판정 모델(gemma3:4b)은 src/agent/plan.py의 judge_body다. 씨앗은 그 실행의 씨앗이다.
+모델 설정은 생성 모델(qwen3:8b)의 답 쓰기가 src/minimal/generate.py의 request_body와 같고 계획 쓰기는 온도만 0인 plan.plan_body이며, 판정 모델(gemma3:4b)은 src/agent/plan.py의 judge_body다. 씨앗은 그 실행의 씨앗이다.
 실행 시작 때 두 모델을 메모리에서 내리고 몸풀기 호출을 모델마다 한 번 한다. 몸풀기는 기록하지 않는다.
 순서는 씨앗(1 → 5) → 질문(파일 순서)이고, 요청은 한 번에 하나씩 보내며 줄마다 바로 써서 flush한다.
 시스템의 흐름 밖에서 이 파일이 덧붙이는 것(그래프에는 넣지 않았다): ① 원래 질문으로 k = 16 검색한 비교용 재료(comparison_retrieved)
@@ -41,7 +41,7 @@ def warm_up():
     generate.unload_model()
     generate.unload_model(plan.JUDGE_MODEL)
     print("두 모델을 메모리에서 내리고 시작한다(몸풀기 호출 모델마다 한 번, 기록하지 않음)", flush=True)
-    generate.chat(plan.PLAN_SYSTEM, generate.WARMUP_USER, WARMUP_SEED)
+    generate.send(plan.plan_body(generate.WARMUP_USER, WARMUP_SEED))
     body = plan.judge_body(generate.WARMUP_USER, WARMUP_SEED)
     generate.send(body)
 
@@ -79,7 +79,8 @@ def run(questions, path, conn, model, seeds=SEEDS):
                     raise RuntimeError(f'씨앗{seed} {q["id"]}에서 멈춤: {e}') from e
                 error = state["shape_error"]
                 row = {"run_id": run_id, "question_id": q["id"], "lang": q["lang"], "branch": q["branch"], "seed": seed,
-                       "generate_model": generate.MODEL, "generate_options": generate.request_body(plan.PLAN_SYSTEM, "", seed)["options"],
+                       "generate_model": generate.MODEL, "plan_options": plan.plan_body("", seed)["options"],
+                       "answer_options": generate.request_body("", "", seed)["options"],
                        "judge_model": plan.JUDGE_MODEL, "judge_options": plan.judge_body("", seed)["options"],
                        "prompt_version": PROMPT_VERSION, "code_commit": commit, "code_dirty": dirty, "langgraph_version": version("langgraph"),
                        "plan_steps": state["plan_steps"], "judgments": state["judgments"],

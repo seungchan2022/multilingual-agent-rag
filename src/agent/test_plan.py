@@ -53,6 +53,13 @@ class ConstantsTest(unittest.TestCase):
         self.assertEqual((plan.PLAN_VERSION, plan.JUDGE_VERSION, plan.REFINE_VERSION), ("plan-en-v1", "judge-en-v2", "refine-en-v1"))
         self.assertEqual((plan.JUDGE_MODEL, plan.MAX_JUDGMENTS), ("gemma3:4b", 3))
 
+    def test_plan_body_is_answer_settings_with_temperature_zero(self):
+        body = plan.plan_body("질문", 3)
+        expected = plan.generate.request_body(plan.PLAN_SYSTEM, "질문", 3)
+        expected["options"]["temperature"] = 0
+        self.assertEqual(body, expected)
+        self.assertEqual(plan.generate.request_body("", "", 3)["options"]["temperature"], 0.7)
+
 
 class MessageTest(unittest.TestCase):
     def test_plan_json_drops_reason_and_extra_fields_and_fixes_order(self):

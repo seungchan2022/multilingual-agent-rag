@@ -9,7 +9,7 @@ generate는 계획 쓰기(요청 한 번)이고, 사용자 메시지로 리파�
 judgment는 판정 모델(gemma3:4b)에게 계획을 검사시키고, 통과는 코드가 정한다(세 칸이 모두 true). refinement는 모델을 부르지 않고 코드가
 앞 계획·떨어진 검사 이름·판정 모델이 적은 문제를 모아 다시 쓰기 메시지를 만든다. 검사는 최대 3번, 다시 쓰기는 최대 2번이고,
 3번째 검사에서도 떨어지면 마지막 계획 그대로 search로 가며 plan_passed가 false로 남는다.
-모델 요청은 src/minimal/generate.py의 chat(생성 모델)과 send(판정 모델)로 보낸다. LangChain의 모델 연결은 쓰지 않는다.
+모델 요청은 src/minimal/generate.py의 send(계획 쓰기 plan.plan_body, 판정 plan.judge_body)와 chat(답 쓰기)으로 보낸다. LangChain의 모델 연결은 쓰지 않는다.
 계획이나 판정이 꼴 검사(plan.py)에 걸리면 그 실행만 search 전에 멈추고(그래프가 끝으로 감) 까닭과 요청·원문을 shape_error에 남긴다. 처리는 만들지 않았다.
 """
 import sys
@@ -81,12 +81,13 @@ def build(conn, model):
         question, seed = state["question"], state["seed"]
         user_message = state["user_message"] or question["question"]
         n = len(state["plan_steps"]) + 1
-        reply = ask(f"generate {n}번째 요청", generate.chat, plan.PLAN_SYSTEM, user_message, seed)
+        body = plan.plan_body(user_message, seed)
+        reply = ask(f"generate {n}번째 요청", generate.send, body)
         parsed, problems = plan.check_plan(reply[0])
         step = {"user_message": user_message, **reply_fields(*reply), "plan": parsed, "problems": problems}
         update = {"plan_steps": state["plan_steps"] + [step]}
         if problems:
-            update["shape_error"] = shape_error_of("generate", n, problems, generate.request_body(plan.PLAN_SYSTEM, user_message, seed), reply[0])
+            update["shape_error"] = shape_error_of("generate", n, problems, body, reply[0])
         else:
             update["plan"] = parsed
             if state["first_plan"] is None:

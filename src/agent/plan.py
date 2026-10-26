@@ -3,9 +3,15 @@
 규칙은 decisions/stage6.md의 2026-10-26 줄(검색 계획의 칸과 요청 글 / 계획 요청 글에 reason을 더하고 계획 검사의 기준과 요청 글을 정한다 /
 계획 고치기의 요청 글 / 1단계 고리의 사용자 메시지 모양과 판정 모델 설정 / 모델 답의 꼴 검사)에 있다.
 요청 글(PLAN_SYSTEM, JUDGE_SYSTEM)은 결정 줄에 적힌 전문과 글자가 같다. 한 글자도 바꾸지 않는다(test_plan.py가 전문을 따로 적어 견준다).
-이 파일은 모델을 부르지 않는다. 요청은 src/minimal/generate.py의 chat(생성 모델)과 send(판정 모델)로 보낸다.
+이 파일은 모델을 부르지 않는다. 요청은 src/minimal/generate.py의 send로 보낸다.
+계획 쓰기의 설정은 답 쓰기(generate.request_body)와 같고 온도만 0이다(decisions/stage6.md 2026-10-27 "계획 쓰기의 온도" 줄).
 """
 import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "minimal"))
+import generate  # noqa: E402
 
 JUDGE_MODEL = "gemma3:4b"
 MAX_JUDGMENTS = 3   # 계획 검사 최대 3번, 계획 다시 쓰기 최대 2번(decisions/stage6.md 2026-10-26 1단계 고리의 반복 한도)
@@ -67,6 +73,13 @@ def refine_user_message(question_text, plan, judgment):
     return (question_text + "\n\nYour previous plan:\n" + plan_json(plan) + "\nFailed checks: " + ", ".join(failed_checks(judgment))
             + "\nProblems found in the plan:\n" + problems
             + "\nWrite the whole plan again in the same JSON format. Fix every problem. Keep the parts without problems as they are.")
+
+
+def plan_body(user_message, seed):
+    """계획 쓰기(처음·다시 쓰기)의 요청 본문. 답 쓰기의 설정에서 온도만 0으로 바꾼다. 옮겨 쓰기에 무작위성이 들면 드문 글자가 깨졌다."""
+    body = generate.request_body(PLAN_SYSTEM, user_message, seed)
+    body["options"]["temperature"] = 0
+    return body
 
 
 def judge_body(user_message, seed):

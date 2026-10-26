@@ -63,7 +63,7 @@ class RunTest(unittest.TestCase):
         # 두 모델을 내리고, 몸풀기 호출을 모델마다 한 번(씨앗 1): 생성 모델은 PLAN_SYSTEM + 안녕, 판정 모델은 JUDGE_SYSTEM + 안녕
         self.assertEqual(ollama.calls[0], (generate.GENERATE_URL, {"model": "qwen3:8b", "keep_alive": 0}))
         self.assertEqual(ollama.calls[1], (generate.GENERATE_URL, {"model": "gemma3:4b", "keep_alive": 0}))
-        self.assertEqual(ollama.calls[2][1], generate.request_body(plan.PLAN_SYSTEM, "안녕", 1))
+        self.assertEqual(ollama.calls[2][1], plan.plan_body("안녕", 1))
         self.assertEqual(ollama.calls[3][1], plan.judge_body("안녕", 1))
         self.assertEqual(len(ollama.requests), 2 + 4 * 3)   # 몸풀기 둘 + 실행 4번 × (계획, 판정, 답)
         self.assertNotIn("안녕", [r["plan_steps"][0]["user_message"] for r in rows])
@@ -78,7 +78,9 @@ class RunTest(unittest.TestCase):
         r = rows[0]
         self.assertEqual((r["question_id"], r["lang"], r["branch"], r["seed"]), ("q01-ko", "ko", "한국어만", 1))
         self.assertEqual((r["generate_model"], r["judge_model"]), ("qwen3:8b", "gemma3:4b"))
-        self.assertEqual(r["generate_options"], generate.request_body("", "", 1)["options"])
+        self.assertEqual(r["plan_options"], plan.plan_body("", 1)["options"])
+        self.assertEqual(r["plan_options"]["temperature"], 0)
+        self.assertEqual(r["answer_options"], generate.request_body("", "", 1)["options"])
         self.assertEqual(r["judge_options"], plan.judge_body("", 1)["options"])
         self.assertEqual(r["prompt_version"], {"plan": "plan-en-v1", "judge": "judge-en-v2", "refine": "refine-en-v1", "answer": "en-v1+ctx-en-v1"})
         self.assertEqual(len(r["code_commit"]), 40)

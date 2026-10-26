@@ -67,7 +67,8 @@ class PassFirstTest(unittest.TestCase):
 
     def test_plan_request_is_the_generation_request(self):
         role, body = self.ollama.requests[0]
-        self.assertEqual(body, generate.request_body(plan.PLAN_SYSTEM, Q, SEED))
+        self.assertEqual(body, plan.plan_body(Q, SEED))
+        self.assertEqual(body["options"]["temperature"], 0)
         self.assertEqual(body["messages"][1]["content"], Q)
 
     def test_judge_request(self):
@@ -191,7 +192,7 @@ class ShapeErrorTest(unittest.TestCase):
         self.assertEqual((error["stage"], error["index"], error["output"]), ("generate", 1, '{"reason": "r", "targets": ['))
         self.assertTrue(error["problems"])
         self.assertEqual((error["system_message"], error["user_message"], error["model"]), (plan.PLAN_SYSTEM, Q, "qwen3:8b"))
-        self.assertEqual(error["options"], generate.request_body("", "", SEED)["options"])
+        self.assertEqual(error["options"], plan.plan_body("", SEED)["options"])
         self.assertEqual((state["first_plan"], state["plan"], state["n_judgments"]), (None, None, 0))
         self.assertEqual(state["plan_steps"][0]["problems"], error["problems"])
 
