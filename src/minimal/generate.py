@@ -75,12 +75,11 @@ def request_body(system_message, user_message, seed):
     return body
 
 
-def chat(system_message, user_message, seed):
-    """Ollama에 stream 요청 하나를 보내 줄마다 읽고 (글, 걸린 시간, eval_count, prompt_eval_count, 끊긴 이유)를 돌려준다.
+def send(body):
+    """Ollama에 stream 요청 본문을 보내 줄마다 읽고 (글, 걸린 시간, eval_count, prompt_eval_count, 끊긴 이유)를 돌려준다.
     글은 줄마다 온 message.content를 이어 붙인 것이다. 응답 중간에 error 줄이 오고 그 글에 'token repeat limit'가 있으면 멈추지 않고
     그때까지의 글과 error 글을 돌려준다(eval_count와 prompt_eval_count는 마지막 줄이 없으므로 None). 끊기지 않았으면 끊긴 이유는 None이다.
     그 밖의 error와 HTTP 오류(예: 500)는 상태 코드·오류 글과 함께 RuntimeError로 던진다. 재시도하지 않는다."""
-    body = request_body(system_message, user_message, seed)
     req = urllib.request.Request(URL, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     t0 = time.time()
     parts, last = [], None
@@ -103,9 +102,14 @@ def chat(system_message, user_message, seed):
     return "".join(parts), round(time.time() - t0, 2), last.get("eval_count"), last.get("prompt_eval_count"), None
 
 
-def unload_model():
+def chat(system_message, user_message, seed):
+    """생성 모델에 시스템 메시지와 사용자 메시지로 요청 하나를 보낸다. 돌려주는 값과 오류는 send와 같다."""
+    return send(request_body(system_message, user_message, seed))
+
+
+def unload_model(model=MODEL):
     """모델을 메모리에서 내린다(keep_alive 0). 다음 호출에서 모델이 새로 올라온다."""
-    body = {"model": MODEL, "keep_alive": 0}
+    body = {"model": model, "keep_alive": 0}
     req = urllib.request.Request(GENERATE_URL, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=600) as r:
         r.read()
