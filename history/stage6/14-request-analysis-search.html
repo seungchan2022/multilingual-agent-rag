@@ -2,7 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* 레이아웃: 한 줄 기둥. 작은 전체 그림 → 확대 그림 → 칸마다 설명 → 정할 것 → 잰 결과 → 낱말. 라이트 하나로 고정 */
+/* 레이아웃: 한 줄 기둥. 진행하는 법 → 작은 전체 그림 → 왜 → 질문 하나가 지나가는 길(본론) → 정할 것 → 잰 결과 → 낱말. 라이트 하나로 고정 */
 :root {
   --bg: #f5f7f6;
   --paper: #ffffff;
@@ -17,6 +17,7 @@
   --read: #e8f4ea; --readb: #9cc8a5;
   --warn: #fff6dc; --warnb: #e6cf86;
   --stop: #fbecea; --stopb: #c9665b;
+  --done: #e3efe9;
   --body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
   --mono: "IBM Plex Mono", "SF Mono", Menlo, monospace;
   color-scheme: light;
@@ -29,6 +30,7 @@ p { margin: 0; }
 .eyebrow { font-family: var(--mono); font-size: 13px; color: var(--muted); letter-spacing: .04em; }
 .lead { color: var(--muted); }
 section { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 22px 22px 24px; display: grid; gap: 12px; min-width: 0; }
+section.guide { border: 2px solid var(--accent); }
 .box { border-radius: 8px; padding: 12px 14px; border: 1px solid; }
 .box.read { background: var(--read); border-color: var(--readb); }
 .box.warn { background: var(--warn); border-color: var(--warnb); }
@@ -40,6 +42,7 @@ td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
 code { font-family: var(--mono); font-size: 13.5px; background: var(--have); padding: 0 4px; border-radius: 4px; }
 .legend { display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: 14px; color: var(--muted); align-items: center; }
 .sw { display: inline-block; width: 14px; height: 14px; border-radius: 4px; border: 1.5px solid var(--line); vertical-align: -2px; margin-right: 5px; }
+.steps { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
 
 /* 작은 전체 그림 */
 .mini { display: grid; gap: 6px; font-size: 13.5px; }
@@ -54,142 +57,195 @@ code { font-family: var(--mono); font-size: 13.5px; background: var(--have); pad
 .chip.now { background: var(--now); border-color: var(--nowb); border-width: 2.5px; font-weight: 700; }
 .mini .row { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
 
-/* 확대 그림 */
-.diagram { overflow-x: auto; }
-.diagram svg { width: 100%; min-width: 520px; max-width: 760px; height: auto; display: block; margin: 0 auto; }
-.diagram text { font-family: var(--body); }
-.n-box { fill: var(--paper); stroke: #5d6b66; stroke-width: 1.6; }
-.n-now { fill: var(--now); stroke: var(--nowb); stroke-width: 3; }
-.n-have { fill: var(--have); stroke: #9aa5a0; stroke-width: 1.4; }
-.n-later { fill: var(--paper); stroke: #9aa5a0; stroke-width: 1.4; stroke-dasharray: 5 4; }
-.n-pill { fill: var(--fg); }
-.n-dia { fill: var(--paper); stroke: #5d6b66; stroke-width: 1.6; }
-.t-main { font-size: 15px; font-weight: 700; fill: var(--fg); }
-.t-sub { font-size: 12.5px; fill: var(--muted); }
-.t-pill { font-size: 14px; font-weight: 700; fill: #ffffff; }
-.t-edge { font-size: 12.5px; fill: var(--muted); font-weight: 500; }
-.t-no { font-size: 12.5px; fill: var(--stopb); font-weight: 700; }
-.t-ask { font-size: 12.5px; fill: #8a6400; font-weight: 700; }
-.edge { stroke: #5d6b66; stroke-width: 1.8; fill: none; }
-.edge-no { stroke: var(--stopb); stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; }
-.edge-later { stroke: #9aa5a0; stroke-width: 1.6; fill: none; stroke-dasharray: 5 4; }
-.g1 { fill: var(--s1); stroke: var(--s1b); stroke-width: 1.8; stroke-dasharray: 7 5; }
-.g2 { fill: var(--s2); stroke: var(--s2b); stroke-width: 1.8; stroke-dasharray: 7 5; }
-.g1-l { fill: var(--s1b); } .g2-l { fill: var(--s2b); }
-.t-glabel { font-size: 13px; font-weight: 700; fill: #ffffff; }
+/* 질문 하나가 지나가는 길 */
+.path { display: grid; gap: 0; }
+.stop { border: 1.5px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; background: var(--paper); min-width: 0; }
+.stop.one { border-color: var(--s1b); background: var(--s1); }
+.stop.two { border-color: var(--s2b); background: var(--s2); }
+.stop .head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; }
+.stop .box-name { font-weight: 700; font-size: 17px; }
+.stop .who { font-size: 13px; padding: 1px 8px; border-radius: 999px; background: var(--paper); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.stop dl { margin: 0; display: grid; grid-template-columns: 5.5em 1fr; gap: 4px 10px; font-size: 15px; }
+.stop dt { color: var(--muted); font-weight: 500; }
+.stop dd { margin: 0; min-width: 0; }
+.ex { font-family: var(--mono); font-size: 13.5px; background: var(--paper); border: 1px dashed #9aa5a0; border-radius: 6px; padding: 8px 10px; white-space: pre-wrap; word-break: break-word; }
+.open { display: inline-block; font-size: 13px; font-weight: 500; color: #7a5a00; background: var(--warn); border: 1px solid var(--warnb); border-radius: 6px; padding: 1px 8px; }
+.fixed { display: inline-block; font-size: 13px; font-weight: 500; color: var(--accent); background: var(--done); border: 1px solid var(--accent); border-radius: 6px; padding: 1px 8px; }
+.down { text-align: center; color: var(--muted); font-size: 18px; line-height: 1; padding: 6px 0; }
+@media (max-width: 520px) { .stop dl { grid-template-columns: 1fr; } .stop dt { margin-top: 4px; } }
 
-.decide { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; counter-reset: d; }
-.decide li { counter-increment: d; display: grid; gap: 4px; border-left: 3px solid var(--line); padding-left: 12px; }
-.decide li > b::before { content: counter(d) ". "; }
-.decide .who { font-size: 13.5px; color: var(--muted); }
-.decide li.user { border-color: var(--nowb); }
+/* 정할 것 표 */
+.st { white-space: nowrap; font-weight: 500; }
+.st.done { color: var(--accent); }
+.st.ask { color: #7a5a00; }
+.st.wait { color: var(--muted); }
+tr.asking td { background: var(--now); }
 </style>
 
 <main>
   <header style="display:grid;gap:10px">
-    <div class="eyebrow">이슈 #14 · 6단계 · 2026-10-26 시작 · 진행 중</div>
+    <div class="eyebrow">이슈 #14 · 6단계 시스템 만들기 · 2026-10-26 시작</div>
     <h1>요청 분석과 1단계 고리 + 도구 호출 검색</h1>
-    <p class="lead">Agent-RAG 워크플로우 전체 그림(<code>history/stage6/13-workflow-diagram.html</code>)에서 이번 이슈가 붙이는 칸만 뽑아 크게 그린 페이지입니다. 질문을 받으면 먼저 "무엇을 어떤 검색어로 찾을지"라는 검색 계획을 세우고, 그 검색어로 검색합니다. 결정의 원본은 <code>decisions/</code>이고, 이 페이지는 그것을 보여 줍니다.</p>
+    <p class="lead">이 이슈에서는 질문을 받으면 먼저 "무엇을, 어떤 한국어·영어 검색어로 찾을지"를 적은 검색 계획을 세우게 하고, 그 검색어로 검색하게 만듭니다. 그리고 지금 시스템보다 근거를 더 잘 찾는지 잽니다. 이 페이지는 그 과정에서 질문 하나가 무엇을 지나가는지, 무엇이 정해졌고 무엇이 남았는지를 보여 줍니다.</p>
   </header>
 
+  <section class="guide">
+    <h2>진행하는 법</h2>
+    <ol class="steps">
+      <li><b>이 페이지를 "질문 하나가 지나가는 길"까지 읽습니다.</b> 이해가 안 되는 곳이 있어도 넘어가셔도 됩니다.</li>
+      <li><b>정할 것은 채팅에서 AI가 하나씩 여쭙니다.</b> 물을 때는 "정할 것 2 · 검색 계획의 칸과 요청 글"처럼 아래 "정할 것" 표의 번호와 이름을 함께 씁니다. 질문마다 왜 정해야 하는지, 안마다 무엇이 달라지는지, 추천을 붙입니다.</li>
+      <li><b>답하시면 이 페이지가 바뀝니다.</b> "정할 것" 표의 상태가 "정함"으로 바뀌고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다. 그 자리를 보시면 정한 것이 시스템의 어디에 쓰이는지 알 수 있습니다.</li>
+      <li><b>다 정하면 AI가 만들고 잽니다.</b> 결과는 "잰 결과" 표에 들어가고, 남길지 뺄지는 채팅에서 여쭙니다.</li>
+    </ol>
+    <div class="box warn"><b>지금:</b> "정할 것" 표에서 노란 줄이 지금 채팅에서 묻는 것입니다. 정함 1개, 남은 것 7개.</div>
+  </section>
+
   <section>
-    <h2>전체 그림에서 지금 붙이는 곳</h2>
+    <h2>전체 워크플로우에서 이번에 붙이는 곳</h2>
+    <p>질문 하나가 답이 되기까지 지나는 칸 전체입니다. 칸 이름은 참고 PDF(「ReAct 기반 2단계 에이전트 플로우」)의 이름입니다. 노란 칸을 이번 이슈에서 붙입니다.</p>
     <div class="legend">
       <span><span class="sw" style="background:var(--now);border-color:var(--nowb);border-width:2.5px"></span>이번 이슈에서 붙임</span>
-      <span><span class="sw" style="background:var(--have)"></span>최소판에 있음</span>
-      <span><span class="sw"></span>뒤 기능에서 붙임</span>
+      <span><span class="sw" style="background:var(--have)"></span>지금 시스템에 이미 있음</span>
+      <span><span class="sw"></span>뒤 이슈에서 붙임</span>
     </div>
     <div class="mini">
       <div class="row"><span class="chip have">질문</span>→<span class="chip now">요청 분석</span>→</div>
-      <div class="grp one"><span class="gname">1단계 고리</span><span class="chip now">생성 (검색 계획)</span>→<span class="chip now">저지먼트</span>→<span class="chip now">리파이먼트 (계획 고치기)</span>→<span class="chip now">1단계 결과 정리</span></div>
-      <div class="grp two"><span class="gname">2단계 고리</span><span class="chip now">생성 (검색어 고르기)</span>→<span class="chip now">툴유즈</span>→<span class="chip have">관찰값</span>→<span class="chip">저지먼트 ① 충분성</span>→<span class="chip">리파이먼트 (재검색)</span>→<span class="chip have">답 쓰기</span>→<span class="chip">저지먼트 ② 판정</span>→<span class="chip">리파이먼트 (답 고치기)</span></div>
+      <div class="grp one"><span class="gname">1단계 고리 · 문서 없이 계획 다듬기</span><span class="chip now">생성 (검색 계획 쓰기)</span>→<span class="chip now">저지먼트 (계획 검사)</span>→<span class="chip now">리파이먼트 (계획 고치기)</span>→<span class="chip now">1단계 결과 정리</span></div>
+      <div class="grp two"><span class="gname">2단계 고리 · 검색해서 답하기</span><span class="chip now">생성 (검색할 검색어 고르기)</span>→<span class="chip now">툴유즈 (검색 도구 부르기)</span>→<span class="chip have">관찰값 (청크)</span>→<span class="chip">저지먼트 ① 충분성</span>→<span class="chip">리파이먼트 (재검색)</span>→<span class="chip have">답 쓰기</span>→<span class="chip">저지먼트 ② 판정</span>→<span class="chip">리파이먼트 (답 고치기)</span></div>
       <div class="row"><span class="chip have">최종 응답 생성</span>→<span class="chip">출력 (API)</span></div>
     </div>
   </section>
 
   <section>
-    <h2>왜 이 칸부터인가</h2>
-    <p>최소판(질문을 그대로 검색어로 써서 한 번 검색하고, 가져온 청크 8개로 답하는 지금 시스템)은 질문 38개 가운데 31개에서 근거가 든 청크를 가져왔습니다. 놓친 질문 7개는 모두 근거가 한국어 문서에만 있습니다. 그 가운데 5개는 영어 질문이고, 2개는 한국어 표 질문입니다.</p>
-    <p>답으로 보면 최소판이 틀린 답 46개 가운데 35개가 이렇게 검색이 근거를 놓친 경우였습니다. 질문 38개를 씨앗(같은 질문을 다시 돌릴 때 바꾸는 난수 값) 5개로 돌린 답 190개에서 센 수입니다.</p>
-    <p>검색 계획이 한국어 검색어와 영어 검색어를 함께 내면, 영어 질문도 한국어 문서를 찾을 수 있게 됩니다. 이번 이슈는 그렇게 되는지 잽니다.</p>
-    <div class="box read">출처: <code>decisions/judgments.md</code> 2026-10-24 "첫 비교" 줄, <code>decisions/stage4.md</code> 2026-10-26 "워크플로우 큰 그림" 줄. 질문 38개는 개발용 질문이 아니라 최소판을 만들 때 쓴 질문입니다(<code>decisions/common.md</code> 2026-10-25).</div>
+    <h2>왜 이것부터 붙이나</h2>
+    <p>지금 시스템(최소판)은 질문을 그대로 검색어로 써서 한 번 검색하고, 가져온 청크 8개로 답합니다. 질문 38개 가운데 31개에서 근거가 든 청크를 가져왔고, 7개에서 놓쳤습니다. 놓친 7개는 모두 근거가 한국어 문서에만 있는 질문입니다. 그 가운데 5개는 영어 질문입니다.</p>
+    <p>답으로 보면, 질문 38개를 씨앗(같은 질문을 다시 돌릴 때 바꾸는 난수 값) 5개로 돌린 답 190개 가운데 46개가 틀렸고, 그중 35개가 이렇게 검색이 근거를 놓친 경우였습니다.</p>
+    <p>영어 질문에 한국어 검색어를 함께 쓰면 한국어 문서의 근거를 찾을 수 있을 것으로 봅니다. 이번 이슈는 그것이 실제로 되는지 잽니다.</p>
+    <div class="box read">출처: <code>decisions/judgments.md</code> 2026-10-24 "첫 비교" 줄. 질문 38개는 개발용 질문이 아니라 최소판을 만들 때 쓴 질문입니다(<code>decisions/common.md</code> 2026-10-25).</div>
   </section>
 
   <section>
-    <h2>확대 그림</h2>
-    <div class="diagram"><svg viewBox="0 0 760 900" role="img" aria-label="요청 분석과 1단계 고리, 2단계의 생성과 툴유즈 확대 그림">
-<defs><marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#5d6b66"/></marker><marker id="r" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#c9665b"/></marker></defs>
-<rect x="220" y="14" width="180" height="38" rx="19" class="n-pill"/><text x="310" y="38" text-anchor="middle" class="t-pill">질문 (한국어·영어)</text>
-<line x1="310" y1="52" x2="310" y2="72" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="74" width="240" height="50" rx="9" class="n-now"/><text x="310" y="96" text-anchor="middle" class="t-main">요청 분석</text><text x="310" y="114" text-anchor="middle" class="t-sub">찾을 것 · 조건 · 단위 · 질문 언어</text>
-<line x1="310" y1="124" x2="310" y2="176" class="edge" marker-end="url(#a)"/>
-<rect x="30" y="150" width="690" height="300" rx="14" class="g1"/><rect x="46" y="138" width="200" height="25" rx="6" class="g1-l"/><text x="146" y="155" text-anchor="middle" class="t-glabel">1단계 고리 · 문서 없이</text>
-<rect x="190" y="178" width="240" height="54" rx="9" class="n-now"/><text x="310" y="202" text-anchor="middle" class="t-main">생성</text><text x="310" y="220" text-anchor="middle" class="t-sub">검색 계획 쓰기 · 생성 모델</text>
-<line x1="310" y1="232" x2="310" y2="256" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="258" width="240" height="54" rx="9" class="n-now"/><text x="310" y="282" text-anchor="middle" class="t-main">저지먼트</text><text x="310" y="300" text-anchor="middle" class="t-sub">빠진 것 · 두 언어 검색어 · 판정 모델</text>
-<line x1="310" y1="312" x2="310" y2="330" class="edge" marker-end="url(#a)"/>
-<polygon points="310,330 360,354 310,378 260,354" class="n-dia"/><text x="310" y="359" text-anchor="middle" class="t-main" style="font-size:13.5px">통과?</text>
-<rect x="490" y="330" width="190" height="48" rx="9" class="n-now"/><text x="585" y="351" text-anchor="middle" class="t-main">리파이먼트</text><text x="585" y="369" text-anchor="middle" class="t-sub">지적을 받아 계획 고치기</text>
-<line x1="360" y1="354" x2="488" y2="354" class="edge-no" marker-end="url(#r)"/>
-<text x="425" y="346" text-anchor="middle" class="t-no">아니오</text>
-<path d="M585 330 L585 205 L434 205" class="edge-no" marker-end="url(#r)"/>
-<text x="585" y="400" text-anchor="middle" class="t-ask">몇 번까지? 넘으면? (정할 것)</text>
-<line x1="310" y1="378" x2="310" y2="473" class="edge" marker-end="url(#a)"/>
-<text x="320" y="425" text-anchor="start" class="t-edge">예</text>
-<rect x="190" y="475" width="240" height="44" rx="9" class="n-now"/><text x="310" y="494" text-anchor="middle" class="t-main">1단계 결과 정리</text><text x="310" y="512" text-anchor="middle" class="t-sub">마지막 계획을 2단계로</text>
-<line x1="310" y1="519" x2="310" y2="576" class="edge" marker-end="url(#a)"/>
-<rect x="30" y="550" width="690" height="300" rx="14" class="g2"/><rect x="46" y="538" width="270" height="25" rx="6" class="g2-l"/><text x="181" y="555" text-anchor="middle" class="t-glabel">2단계 고리 · 이번에는 앞 세 칸만</text>
-<rect x="190" y="578" width="240" height="54" rx="9" class="n-now"/><text x="310" y="602" text-anchor="middle" class="t-main">생성</text><text x="310" y="620" text-anchor="middle" class="t-sub">계획의 검색어로 도구 호출 쓰기</text>
-<line x1="310" y1="632" x2="310" y2="656" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="658" width="240" height="50" rx="9" class="n-now"/><text x="310" y="680" text-anchor="middle" class="t-main">툴유즈</text><text x="310" y="698" text-anchor="middle" class="t-sub">검색 도구 실행 (검색어마다)</text>
-<line x1="310" y1="708" x2="310" y2="732" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="734" width="240" height="54" rx="9" class="n-have"/><text x="310" y="758" text-anchor="middle" class="t-main">관찰값</text><text x="310" y="776" text-anchor="middle" class="t-sub">청크 · 두 검색어 것을 어떻게 합칠지</text>
-<line x1="430" y1="761" x2="488" y2="761" class="edge-later" marker-end="url(#a)"/>
-<rect x="490" y="738" width="190" height="46" rx="9" class="n-later"/><text x="585" y="758" text-anchor="middle" class="t-main" style="fill:var(--muted)">저지먼트 ① 충분성</text><text x="585" y="775" text-anchor="middle" class="t-sub">뒤 기능 · 이번에는 건너뜀</text>
-<line x1="310" y1="788" x2="310" y2="812" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="814" width="240" height="30" rx="9" class="n-have"/><text x="310" y="834" text-anchor="middle" class="t-main" style="font-size:13.5px">답 쓰기 (최소판 그대로)</text>
-</svg></div>
-    <div class="box warn">두 번에 나눠 붙입니다. 먼저 요청 분석과 1단계 고리만 붙이고, 2단계의 생성·툴유즈 자리는 코드가 계획의 검색어로 지금 검색을 그대로 부릅니다. 그다음 도구 호출 검색을 붙여, 같은 자리를 모델이 검색 도구를 직접 부르는 방식으로 바꿉니다. 둘을 따로 재야 어느 쪽이 얼마나 바꿨는지 보입니다.</div>
-  </section>
+    <h2>질문 하나가 지나가는 길</h2>
+    <p>지금 시스템이 놓친 영어 질문 하나(q03-en)를 따라갑니다. 칸마다 누가 일하는지(생성 모델, 판정 모델, 코드), 무엇을 받고, 안에서 무엇을 하고, 무엇을 넘기는지 적었습니다. <span class="fixed">정함</span>은 정한 것, <span class="open">정할 것 N</span>은 아직 정하지 않은 것입니다. 예는 AI가 쓴 것이고, 아직 돌려서 나온 것이 아닙니다.</p>
 
-  <section>
-    <h2>칸마다 받는 것과 넘기는 것</h2>
-    <p>예는 모두 같은 질문 하나입니다. 질문 q03-en은 영어로 이트륨(yttrium)의 밀도를 묻고, 근거는 한국어 문서의 정보 상자에만 있습니다. 최소판은 이 질문에서 이름이 비슷한 이터븀(ytterbium) 문서를 가져와 5번 모두 답하지 못했습니다.</p>
-    <div class="tbl"><table>
-      <tr><th style="width:8em">칸</th><th>받는 것 → 넘기는 것</th><th>까닭</th><th>예 (q03-en)</th></tr>
-      <tr><td>요청 분석</td><td>질문 → 찾을 것, 조건, 단위, 질문 언어</td><td>검색어를 쓰기 전에 질문이 무엇을 묻는지 칸으로 나눠 둡니다. 과제의 "질문 분석" 자리입니다.</td><td>찾을 것: 이트륨의 밀도 / 조건: 상온 근처 / 단위: g/cm³ / 질문 언어: 영어</td></tr>
-      <tr><td>1단계 생성</td><td>요청 분석 → 검색 계획(위 칸 + 한국어 검색어 + 영어 검색어)</td><td>근거가 반대 언어 문서에만 있어도 찾도록 두 언어 검색어를 함께 씁니다. 과제의 "검색 쿼리 생성(확장)" 자리입니다. 문서와 도구 없이 생성 모델이 씁니다.</td><td>한국어 검색어: 이트륨 밀도 / 영어 검색어: yttrium density</td></tr>
-      <tr><td>1단계 저지먼트</td><td>질문 + 검색 계획 → 통과·불통과와 지적</td><td>계획이 질문의 대상·조건을 빠뜨렸거나 한쪽 언어 검색어가 없으면 검색이 엉뚱한 것을 가져옵니다. 판정 모델이 봅니다. 검색은 붙이지 않습니다(<code>decisions/stage4.md</code> 2026-10-26).</td><td>"영어 검색어가 yttrium이 아니라 ytterbium이다" 같은 지적이면 불통과</td></tr>
-      <tr><td>1단계 리파이먼트</td><td>계획 + 지적 → 고친 계획</td><td>지적을 받은 생성 모델이 계획을 고치고 다시 저지먼트를 받습니다. 몇 번까지 되풀이할지는 아래 "정할 것"에 있습니다.</td><td>영어 검색어를 yttrium density로 고침</td></tr>
-      <tr><td>1단계 결과 정리</td><td>마지막 계획 → 2단계로 넘길 계획</td><td>1단계에서는 답을 내지 않습니다. 모든 질문이 2단계로 갑니다.</td><td>통과한 계획 그대로</td></tr>
-      <tr><td>2단계 생성·툴유즈</td><td>계획 → 검색어마다 검색 도구 호출</td><td>먼저 붙일 때는 코드가 검색어마다 검색을 부르고, 도구 호출 검색을 붙이면 모델이 도구를 부릅니다. 도구 안은 5단계 검색 그대로라 같은 검색어면 같은 청크가 나와야 합니다.</td><td><code>search("이트륨 밀도")</code>, <code>search("yttrium density")</code></td></tr>
-      <tr><td>관찰값</td><td>검색 결과 → 답 쓰기로 넘길 청크</td><td>검색어가 둘이라 청크 목록도 둘입니다. 어떻게 합칠지가 아래 "정할 것"에 있습니다. 청크를 더 많이 넘기면 그것만으로도 근거를 찾을 가능성이 커집니다. 그래서 최소판과 견줄 때 청크 수를 8개로 맞출지도 함께 정합니다.</td><td>한국어 이트륨 문서의 정보 상자 청크가 들어오기를 기대</td></tr>
-    </table></div>
-    <div class="box read">칸 이름과 정확한 형식(JSON의 칸 이름)은 설계를 정할 때 결정 표에 적습니다. 위 예의 검색어는 아직 돌려 보지 않은 예입니다.</div>
+    <div class="path">
+      <div class="stop">
+        <div class="head"><span class="box-name">질문</span></div>
+        <div class="ex">What is the mass in kg of a rectangular cuboid of yttrium that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)</div>
+        <p>뜻: 가로 3 cm, 세로 4 cm, 높이 5 cm인 이트륨 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로 계산한다). 정답 0.26832 kg. 답에 필요한 밀도(4.472 g/cm³)는 한국어 문서 「이트륨」의 정보 상자에만 있습니다. 코퍼스(검색 대상 문서 묶음)에 영어 「Yttrium」 문서는 없습니다.</p>
+        <p>지금 시스템은 이 영어 문장을 그대로 검색해, 이름이 비슷한 영어 「Ytterbium」(이터븀) 문서와 「Isotopes of yttrium」(이트륨 동위 원소) 문서의 청크만 가져왔습니다. 그래서 5번 모두 "밀도가 주어지지 않아 답할 수 없다"고 답했습니다.</p>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop one">
+        <div class="head"><span class="box-name">요청 분석 + 1단계 생성</span><span class="who">생성 모델 qwen3:8b</span><span class="fixed">정함: 두 칸을 요청 한 번으로</span></div>
+        <dl>
+          <dt>받는 것</dt><dd>질문 글</dd>
+          <dt>하는 일</dt><dd>코드가 생성 모델에게 요청 글과 질문을 보냅니다. 요청 글에는 "이 질문을 읽고 찾을 것·조건·단위·질문 언어를 적고, 그것을 찾을 한국어 검색어와 영어 검색어를 하나씩 써서 JSON으로 답하라"고 적습니다. 번역기는 따로 두지 않습니다. 생성 모델이 한국어와 영어를 둘 다 하므로, 영어 질문을 읽고 한국어 검색어를 스스로 씁니다.</dd>
+          <dt>넘기는 것</dt><dd>검색 계획(아래 예). 칸의 이름과 요청 글 전문은 <span class="open">정할 것 2 · 검색 계획의 칸과 요청 글</span></dd>
+        </dl>
+        <div class="ex">찾을 것: 이트륨의 밀도
+조건: 상온 근처
+단위: g/cm³
+질문 언어: 영어
+한국어 검색어: 이트륨 밀도
+영어 검색어: yttrium density</div>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop one">
+        <div class="head"><span class="box-name">1단계 저지먼트</span><span class="who">판정 모델 gemma3:4b</span></div>
+        <dl>
+          <dt>받는 것</dt><dd>질문 글과 검색 계획</dd>
+          <dt>하는 일</dt><dd>계획이 질문과 맞는지 검사합니다. 예: 찾을 것이 질문의 대상(이트륨)과 조건(상온 근처)을 빠뜨리지 않았나, 한국어·영어 검색어가 둘 다 있나, 두 검색어가 같은 것을 가리키나(이트륨을 이터븀으로 잘못 옮기지 않았나). 문서와 검색은 쓰지 않습니다. 무엇을 볼지와 요청 글 전문은 <span class="open">정할 것 3 · 1단계 저지먼트가 보는 것과 요청 글</span></dd>
+          <dt>넘기는 것</dt><dd>통과 또는 불통과, 불통과면 무엇이 틀렸는지 적은 지적</dd>
+        </dl>
+        <div class="ex">통과</div>
+      </div>
+      <div class="down">↓ 통과하면 아래로, 불통과면 리파이먼트로</div>
+
+      <div class="stop one">
+        <div class="head"><span class="box-name">1단계 리파이먼트</span><span class="who">생성 모델 qwen3:8b</span></div>
+        <dl>
+          <dt>받는 것</dt><dd>질문, 불통과한 계획, 지적</dd>
+          <dt>하는 일</dt><dd>지적을 보고 계획을 다시 씁니다. 다시 쓴 계획은 다시 1단계 저지먼트로 갑니다. 몇 번까지 되풀이할지, 끝내 통과하지 못하면 어떻게 할지(마지막 계획을 그대로 쓸지, 사람이 확인해야 한다는 표시를 붙일지)는 <span class="open">정할 것 4 · 1단계 고리의 반복 한도와 넘었을 때</span></dd>
+          <dt>넘기는 것</dt><dd>고친 계획</dd>
+        </dl>
+        <div class="ex">지적이 "영어 검색어가 ytterbium density로 이터븀을 가리킨다"였다면 → 영어 검색어: yttrium density</div>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop one">
+        <div class="head"><span class="box-name">1단계 결과 정리</span><span class="who">코드</span></div>
+        <dl>
+          <dt>하는 일</dt><dd>마지막 계획을 2단계로 넘깁니다. 1단계에서는 답을 내지 않습니다. 실행 기록에는 처음 쓴 계획과 마지막 계획을 둘 다 남깁니다. 그러면 검사와 고치기가 검색어를 얼마나 바꿨는지 같은 실행 안에서 잴 수 있습니다.</dd>
+        </dl>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop two">
+        <div class="head"><span class="box-name">2단계 생성 + 툴유즈</span><span class="who">코드 → 뒤에 생성 모델</span></div>
+        <p>이 자리는 두 번에 나눠 만듭니다. 둘을 따로 재야 각각이 얼마나 바꿨는지 보이기 때문입니다.</p>
+        <dl>
+          <dt>먼저</dt><dd>코드가 계획의 두 검색어로 지금의 검색 함수를 한 번씩 부릅니다. 모델은 끼지 않습니다. 이 상태로 한 번 잽니다.</dd>
+          <dt>그다음</dt><dd>생성 모델이 직접 검색 도구를 부르게 바꿉니다(도구 호출 검색). 코드가 모델에게 "검색어를 넣으면 청크를 돌려주는 search라는 도구가 있다"고 알려 주고 계획을 건넵니다. 모델이 "search를 '이트륨 밀도'로 불러 달라"는 답을 내면, 코드가 그 검색을 실행해 결과를 모델에게 돌려줍니다. 도구 안은 지금의 검색 함수 그대로라, 같은 검색어면 같은 청크가 나와야 합니다. 검색 도구를 몇 개로 나눌지와 실행 기록에 남길 칸은 <span class="open">정할 것 8 · 검색 도구 수와 기록 칸</span></dd>
+        </dl>
+        <div class="ex">search("이트륨 밀도")
+search("yttrium density")</div>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop two">
+        <div class="head"><span class="box-name">관찰값 (검색)</span><span class="who">코드 · 지금 있는 검색 그대로</span></div>
+        <dl>
+          <dt>받는 것</dt><dd>검색어 하나</dd>
+          <dt>하는 일</dt><dd>임베딩 모델 bge-m3가 검색어를 숫자 목록(벡터)으로 바꾸고, 한국어 청크와 영어 청크가 함께 들어 있는 데이터베이스에서 뜻이 가장 가까운 청크 8개를 가져옵니다. bge-m3는 언어가 달라도 뜻이 같으면 가깝게 보도록 만든 모델이지만, 이 질문에서는 영어 질문으로 한국어 이트륨 청크를 찾지 못했습니다. 한국어 검색어 "이트륨 밀도"는 한국어 「이트륨」 문서의 정보 상자 청크와 더 가까울 것으로 봅니다(아직 재지 않음).</dd>
+          <dt>넘기는 것</dt><dd>검색어마다 청크 8개. 검색어가 둘이라 목록도 둘입니다. 이 둘을 답 쓰기로 넘길 하나로 어떻게 합칠지는 <span class="open">정할 것 5 · 두 검색어의 청크를 합치는 법</span>. 청크를 많이 넘길수록 그것만으로 근거가 들어 있을 가능성이 커지므로, 지금 시스템과 견줄 때 8개로 맞출지도 여기서 정합니다.</dd>
+        </dl>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop">
+        <div class="head"><span class="box-name">답 쓰기</span><span class="who">생성 모델 qwen3:8b · 지금 시스템 그대로</span></div>
+        <dl>
+          <dt>하는 일</dt><dd>질문과 합친 청크를 받아 답을 씁니다. 이번 이슈에서는 바꾸지 않습니다. 청크를 인용하게 바꾸는 일은 다음 이슈(답변 합성)입니다.</dd>
+        </dl>
+      </div>
+      <div class="down">↓</div>
+
+      <div class="stop">
+        <div class="head"><span class="box-name">재기</span><span class="who">코드</span></div>
+        <dl>
+          <dt>하는 일</dt><dd>답 쓰기로 넘긴 청크 가운데 정답의 근거 줄(여기서는 "밀도 (상온 근처): 4.472 g/cm³")이 든 청크가 있으면 "근거를 찾음"으로 셉니다. 지금 시스템은 질문을 그대로 검색해 씨앗 5번이 모두 같은 청크를 받았지만, 검색 계획은 생성 모델이 쓰므로 씨앗마다 검색어가 달라질 수 있습니다. 그래서 질문 38개마다 셀지 실행 190번마다 셀지, 몇 개가 늘어야 남길지, 답까지 돌려 맞은 수도 볼지를 재기 전에 정합니다: <span class="open">정할 것 6 · 재는 법과 남길 기준</span></dd>
+        </dl>
+      </div>
+    </div>
   </section>
 
   <section>
     <h2>정할 것</h2>
-    <p>재기 전에 정합니다. 결과를 보고 기준을 바꾸지 않기 위해서입니다. 노란 줄은 사용자가 정할 것입니다.</p>
-    <ol class="decide">
-      <li><b>요청 분석과 1단계 생성을 모델 호출 한 번으로 할지, 두 번으로 나눌지</b><span class="who">AI가 안을 내고 사용자가 승인 · 한 번이면 빠르고, 두 번이면 요청 분석만 따로 기록·판정할 수 있습니다</span></li>
-      <li><b>검색 계획의 칸과 프롬프트 전문</b><span class="who">AI가 쓰고 사용자가 읽고 승인</span></li>
-      <li><b>1단계 저지먼트가 보는 것과 프롬프트 전문</b><span class="who">AI가 쓰고 사용자가 읽고 승인 · 판정 모델은 gemma3:4b로 정해져 있습니다</span></li>
-      <li class="user"><b>1단계 고리의 반복 한도와, 한도를 넘었을 때의 처리</b><span class="who">사용자 · 넘으면 마지막 계획으로 2단계에 갈지, 사람 검수 표시(사람이 확인해야 하는 답이라는 표시)를 붙일지</span></li>
-      <li><b>검색어 둘로 가져온 청크를 어떻게 합칠지</b><span class="who">AI가 안을 내고 사용자가 승인 · 최소판과 같은 청크 8개로 맞출지가 핵심입니다. 이것이 <code>EVALUATION.md</code>의 "첫 검색의 청크"의 뜻도 정합니다</span></li>
-      <li><b>재는 법과 판단 기준</b><span class="who">AI가 안을 내고 사용자가 승인 · 최소판은 질문을 그대로 검색해 씨앗 5번이 모두 같은 청크를 받았지만, 검색 계획은 생성 모델이 쓰므로 씨앗마다 검색어가 달라질 수 있습니다. 그래서 세는 단위(실행 190번마다 셀지, 질문 38개마다 셀지와 그때의 규칙), 몇 개가 늘어야 남길지, 답까지 돌릴지를 정합니다. 판정·고치기 전의 첫 계획과 마지막 계획을 둘 다 기록하면, 같은 실행으로 1단계 고리의 판정·고치기가 더하는 것도 잴 수 있습니다</span></li>
-      <li class="user"><b>LangGraph와 ReAct를 고른 이유</b><span class="who">사용자 · 처음 계획 때 사용자가 정했고 이유 칸이 비어 있습니다. LangGraph 코드를 처음 쓰는 이번 이슈에서 채웁니다</span></li>
-      <li><b>검색 도구를 몇 개로 나눌지와 도구 호출 실행 기록의 칸</b><span class="who">AI가 안을 내고 사용자가 승인 · 도구 호출 검색을 붙이기 전에</span></li>
-    </ol>
+    <p>재기 전에 모두 정합니다. 결과를 보고 기준을 바꾸지 않기 위해서입니다. 노란 줄이 지금 채팅에서 묻는 것입니다.</p>
+    <div class="tbl"><table>
+      <tr><th style="width:2.5em">번호</th><th>무엇을 정하나</th><th style="width:9em">길의 어느 자리</th><th style="width:7.5em">누가 정하나</th><th style="width:5.5em">상태</th></tr>
+      <tr><td class="n">1</td><td><b>요청 분석과 검색 계획 쓰기를 요청 몇 번으로 할지</b><br>정함: 생성 모델에게 요청 한 번. 한 번의 답에 찾을 것부터 두 검색어까지 함께 나온다(<code>decisions/stage6.md</code> 2026-10-26)</td><td>요청 분석 + 1단계 생성</td><td>사용자 (AI 추천)</td><td><span class="st done">정함</span></td></tr>
+      <tr class="asking"><td class="n">2</td><td><b>검색 계획의 칸과 요청 글</b><br>계획에 어떤 칸을 둘지, 생성 모델에게 보낼 요청 글 전문. 요청 글은 영어로 쓰고 한국어 뜻을 붙여 보입니다</td><td>요청 분석 + 1단계 생성</td><td>AI가 쓰고 사용자가 승인</td><td><span class="st ask">지금 묻는 중</span></td></tr>
+      <tr><td class="n">3</td><td><b>1단계 저지먼트가 보는 것과 요청 글</b><br>판정 모델이 계획에서 무엇을 검사할지, 판정 모델에게 보낼 요청 글 전문</td><td>1단계 저지먼트</td><td>AI가 쓰고 사용자가 승인</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">4</td><td><b>1단계 고리의 반복 한도와 넘었을 때</b><br>검사 → 고치기를 몇 번까지 할지, 끝내 통과하지 못하면 마지막 계획을 그대로 쓸지 사람이 확인해야 한다는 표시를 붙일지</td><td>1단계 리파이먼트</td><td>사용자</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">5</td><td><b>두 검색어의 청크를 합치는 법</b><br>검색어마다 나온 청크 8개씩을 어떻게 하나로 합칠지, 지금 시스템과 견줄 때 8개로 맞출지</td><td>관찰값</td><td>AI가 안을 내고 사용자가 승인</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">6</td><td><b>재는 법과 남길 기준</b><br>근거를 찾은 수를 질문마다 셀지 실행마다 셀지, 몇 개가 늘어야 남길지, 답까지 돌릴지</td><td>재기</td><td>AI가 안을 내고 사용자가 승인</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">7</td><td><b>LangGraph와 ReAct를 고른 이유</b><br>처음 계획 때 사용자가 고른 것이고 이유를 적는 칸이 비어 있습니다. 이번 이슈에서 LangGraph 코드를 처음 쓰므로 여기서 채웁니다</td><td>전체 (흐름을 짜는 도구)</td><td>사용자</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">8</td><td><b>검색 도구 수와 기록 칸</b><br>검색 도구를 몇 개로 나눌지, 도구를 부를 때마다 실행 기록에 남길 칸</td><td>2단계 생성 + 툴유즈</td><td>AI가 안을 내고 사용자가 승인</td><td><span class="st wait">아직</span></td></tr>
+    </table></div>
   </section>
 
   <section>
     <h2>잰 결과</h2>
+    <p>아직 재지 않았습니다. 세는 단위는 "정할 것 6 · 재는 법과 남길 기준"에서 정합니다. 지금 시스템의 값은 두 단위로 다 적어 둡니다.</p>
     <div class="tbl"><table>
       <tr><th>시스템</th><th>근거를 찾은 질문 (38개 가운데)</th><th>근거를 찾은 실행 (190번 가운데)</th><th>판단</th></tr>
-      <tr><td>최소판 (질문 그대로 한 번 검색)</td><td class="n">31</td><td class="n">155</td><td>기준 (<code>decisions/judgments.md</code> 2026-10-24)</td></tr>
-      <tr><td>+ 요청 분석과 1단계 고리</td><td class="n">아직 안 잼</td><td class="n">아직 안 잼</td><td>—</td></tr>
-      <tr><td>+ 도구 호출 검색</td><td class="n">아직 안 잼</td><td class="n">아직 안 잼</td><td>—</td></tr>
+      <tr><td>지금 시스템 (질문을 그대로 한 번 검색)</td><td class="n">31</td><td class="n">155</td><td>견줄 기준 (<code>decisions/judgments.md</code> 2026-10-24)</td></tr>
+      <tr><td>+ 요청 분석과 1단계 고리 (코드가 검색)</td><td class="n">아직 안 잼</td><td class="n">아직 안 잼</td><td>—</td></tr>
+      <tr><td>+ 도구 호출 검색 (모델이 검색 도구를 부름)</td><td class="n">아직 안 잼</td><td class="n">아직 안 잼</td><td>—</td></tr>
     </table></div>
   </section>
 
@@ -197,20 +253,23 @@ code { font-family: var(--mono); font-size: 13.5px; background: var(--have); pad
     <h2>이 페이지에 나오는 낱말</h2>
     <div class="tbl"><table>
       <tr><th style="width:9.5em">낱말</th><th>뜻</th></tr>
-      <tr><td>최소판</td><td>지금 있는 시스템. 질문을 그대로 검색어로 써서 한 번 검색하고, 가져온 청크 8개를 넣어 답을 씁니다.</td></tr>
-      <tr><td>청크</td><td>문서를 잘라 놓은 조각. 검색하면 검색어와 가까운 청크가 돌아옵니다.</td></tr>
-      <tr><td>근거를 찾은 질문</td><td>가져온 청크 가운데 정답의 근거 줄이 든 청크가 하나라도 있는 질문. 첫 비교에서 "검색 ✔"라고 부른 것입니다.</td></tr>
-      <tr><td>검색 계획</td><td>1단계 고리가 만드는 것. 찾을 것, 조건, 단위, 한국어 검색어, 영어 검색어입니다.</td></tr>
-      <tr><td>1단계 고리</td><td>문서와 도구 없이 생성 → 저지먼트 → 리파이먼트를 되풀이해 검색 계획을 다듬는 부분입니다.</td></tr>
-      <tr><td>2단계 고리</td><td>검색 도구로 청크를 가져와 답을 쓰고 검사하는 부분입니다. 이번에는 앞의 생성·툴유즈만 붙입니다.</td></tr>
-      <tr><td>저지먼트</td><td>PDF의 칸 이름. 앞 칸이 만든 것을 검사해 통과·불통과를 정합니다.</td></tr>
-      <tr><td>리파이먼트</td><td>PDF의 칸 이름. 저지먼트의 지적을 받아 고칩니다.</td></tr>
-      <tr><td>툴유즈</td><td>PDF의 칸 이름. 모델이 도구(여기서는 검색 도구)를 부르는 칸입니다.</td></tr>
-      <tr><td>관찰값</td><td>PDF의 칸 이름. 도구가 돌려준 결과, 여기서는 청크입니다.</td></tr>
-      <tr><td>생성 모델</td><td>검색 계획과 답을 쓰고 검색 도구를 부르는 모델, qwen3:8b입니다.</td></tr>
-      <tr><td>판정 모델</td><td>생성 모델이 쓴 것을 검사하는 모델, gemma3:4b입니다.</td></tr>
-      <tr><td>LangGraph</td><td>모델 호출과 도구 실행을 칸과 화살표로 이어 흐름을 만드는 파이썬 라이브러리입니다.</td></tr>
-      <tr><td>ReAct</td><td>모델이 생각하고, 도구를 부르고, 결과를 보고 다시 생각하기를 되풀이하는 방식입니다.</td></tr>
+      <tr><td>지금 시스템 (최소판)</td><td>질문을 그대로 검색어로 써서 한 번 검색하고, 가져온 청크 8개를 넣어 답을 쓰는 시스템. 여기에 기능을 하나씩 붙여 나갑니다.</td></tr>
+      <tr><td>청크</td><td>문서를 잘라 놓은 조각. 검색하면 검색어와 뜻이 가까운 청크가 돌아옵니다.</td></tr>
+      <tr><td>근거를 찾음</td><td>답 쓰기로 넘긴 청크 가운데 정답의 근거 줄이 든 청크가 하나라도 있는 것.</td></tr>
+      <tr><td>검색 계획</td><td>1단계 고리가 만드는 것. 찾을 것, 조건, 단위, 질문 언어, 한국어 검색어, 영어 검색어.</td></tr>
+      <tr><td>요청 글</td><td>코드가 모델에게 질문과 함께 보내는 지시문. 모델이 무엇을 어떤 꼴로 답할지 적습니다.</td></tr>
+      <tr><td>JSON</td><td>"칸 이름: 값"을 묶어 적는 글의 꼴. 코드가 모델의 답을 칸별로 꺼내 쓰려고 이 꼴로 답하게 합니다.</td></tr>
+      <tr><td>생성 모델</td><td>검색 계획과 답을 쓰고 검색 도구를 부르는 모델, qwen3:8b.</td></tr>
+      <tr><td>판정 모델</td><td>생성 모델이 쓴 것을 검사하는 모델, gemma3:4b.</td></tr>
+      <tr><td>임베딩 모델 (bge-m3)</td><td>글을 숫자 목록(벡터)으로 바꾸는 모델. 뜻이 가까운 글은 가까운 숫자 목록이 됩니다. 검색은 이 가까움으로 청크를 고릅니다.</td></tr>
+      <tr><td>씨앗</td><td>같은 질문을 다시 돌릴 때 바꾸는 난수 값. 같은 질문도 씨앗이 다르면 모델이 다른 글을 쓸 수 있습니다. 질문마다 5개를 씁니다.</td></tr>
+      <tr><td>1단계 고리</td><td>문서와 검색 없이 생성 → 저지먼트 → 리파이먼트를 되풀이해 검색 계획을 다듬는 부분.</td></tr>
+      <tr><td>2단계 고리</td><td>검색 도구로 청크를 가져와 답을 쓰고 검사하는 부분. 이번에는 앞의 생성·툴유즈만 붙입니다.</td></tr>
+      <tr><td>저지먼트 / 리파이먼트</td><td>참고 PDF의 칸 이름. 저지먼트는 앞 칸이 만든 것을 검사해 통과·불통과를 정하고, 리파이먼트는 그 지적을 받아 고칩니다.</td></tr>
+      <tr><td>툴유즈 / 관찰값</td><td>참고 PDF의 칸 이름. 툴유즈는 모델이 도구(여기서는 검색 도구)를 부르는 칸, 관찰값은 도구가 돌려준 결과(여기서는 청크)입니다.</td></tr>
+      <tr><td>도구 호출 검색</td><td>코드가 정해진 대로 검색하는 대신, 생성 모델이 언제 어떤 검색어로 검색할지 정해 검색 도구를 부르는 방식.</td></tr>
+      <tr><td>LangGraph</td><td>모델 요청과 도구 실행을 칸과 화살표로 이어 흐름을 만드는 파이썬 라이브러리.</td></tr>
+      <tr><td>ReAct</td><td>모델이 생각하고, 도구를 부르고, 결과를 보고 다시 생각하기를 되풀이하는 방식.</td></tr>
     </table></div>
   </section>
 </main>
