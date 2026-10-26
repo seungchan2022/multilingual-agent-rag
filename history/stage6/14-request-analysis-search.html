@@ -154,7 +154,7 @@ tr.asking td { background: var(--now); }
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 AI가 만들고 잽니다.</b><br><span class="note">결과는 "잰 결과" 표에 들어가고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
-    <div class="field"><span class="lab">지금</span><p>정함 6개: 정할 것 1~6(검색어의 꼴, 요청 횟수, 검색 계획의 칸과 요청 글, 계획 검사의 기준과 요청 글, 고치기 한도와 요청 글, 청크 합치기). 지금 묻는 것: <span class="mark">정할 것 7 · 재는 법과 남길 기준</span>.</p></div>
+    <div class="field"><span class="lab">지금</span><p>정함 6개와 정할 것 7의 하나: 정할 것 1~6(검색어의 꼴, 요청 횟수, 검색 계획의 칸과 요청 글, 계획 검사의 기준과 요청 글, 고치기 한도와 요청 글, 청크 합치기), 정할 것 7의 하나(세는 법과 견줄 것). 지금 묻는 것: <span class="mark">정할 것 7의 둘 · 남길 기준</span>.</p></div>
   </section>
 
   <section>
@@ -471,13 +471,15 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
 
   <section>
     <h2>잰 결과</h2>
-    <p>아직 재지 않았습니다. 세는 단위는 "정할 것 7 · 재는 법과 남길 기준"에서 정합니다. 지금 시스템의 값은 두 단위로 다 적어 둡니다.</p>
+    <p>아직 재지 않았습니다. 질문 하나를 5번씩, 모두 190번 돌리며 "가져온 청크 안에 정답의 근거가 있었나"를 세고, 질문마다 5번 가운데 몇 번인지도 표로 보입니다. <span class="mark fixed">정함 · 정할 것 7의 하나</span></p>
     <div class="tbl"><table>
-      <tr><th>시스템</th><th>근거를 찾은 질문 (38개 가운데)</th><th>근거를 찾은 실행 (190번 가운데)</th><th>판단</th></tr>
-      <tr><td>지금 시스템 (질문을 그대로 한 번 검색)</td><td class="n">31</td><td class="n">155</td><td>견줄 기준</td></tr>
-      <tr><td>+ 검색 계획 (코드가 검색)</td><td class="n">아직 안 잼</td><td class="n">아직 안 잼</td><td>—</td></tr>
-      <tr><td>+ 도구 호출 검색 (모델이 검색 도구를 부름)</td><td class="n">아직 안 잼</td><td class="n">아직 안 잼</td><td>—</td></tr>
+      <tr><th>무엇</th><th>넘기는 청크</th><th>근거를 찾은 횟수 (190번 가운데)</th><th>판단</th></tr>
+      <tr><td>지금 시스템</td><td>원래 질문 검색의 1~8등</td><td class="n">155</td><td>출발점</td></tr>
+      <tr><td>비교용</td><td>원래 질문 검색의 1~12등</td><td class="n">아직 안 셈</td><td>—</td></tr>
+      <tr><td>새 시스템 (코드가 검색)</td><td>원래 질문 검색의 1~8등 + 다른 판 검색의 1~4등씩</td><td class="n">아직 안 셈</td><td>—</td></tr>
+      <tr><td>새 시스템 (모델이 검색 도구를 부름)</td><td>같음</td><td class="n">아직 안 셈</td><td>—</td></tr>
     </table></div>
+    <div class="field"><span class="lab">비교용을 함께 세는 까닭</span><p>비교용과 새 시스템은 둘 다 12개를 넘기고, 더 얹는 4개를 어디서 가져오느냐만 다릅니다. 새 시스템이 비교용만큼만 찾으면, 원래 질문으로 더 많이 가져오기만 해도 근거가 걸린다는 뜻이라 검색어를 나눌 필요가 없습니다. 새 시스템이 더 많이 찾으면 한국어판으로 검색해야만 닿는 근거가 있다는 뜻입니다.</p></div>
   </section>
 
   <section>
