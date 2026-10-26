@@ -63,6 +63,37 @@ ol.steps, ul.plain { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
 .chip.now { background: var(--now); border-color: var(--nowb); border-width: 2.5px; font-weight: 700; }
 .mini .row { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
 
+
+/* 전체 흐름 그림 */
+.diagram { overflow-x: auto; }
+.diagram svg { width: 100%; min-width: 540px; max-width: 760px; height: auto; display: block; margin: 0 auto; }
+.diagram text { font-family: var(--body); }
+.f-now { fill: var(--now); stroke: var(--nowb); stroke-width: 2.6; }
+.f-have { fill: var(--have); stroke: #9aa5a0; stroke-width: 1.4; }
+.f-later { fill: var(--paper); stroke: #8c9893; stroke-width: 1.4; stroke-dasharray: 5 4; }
+.f-pill { fill: var(--fg); }
+.f-dia { fill: var(--paper); stroke: #5d6b66; stroke-width: 1.5; }
+.f-g1 { fill: var(--s1); stroke: var(--s1b); stroke-width: 1.8; stroke-dasharray: 7 5; }
+.f-g2 { fill: var(--s2); stroke: var(--s2b); stroke-width: 1.8; stroke-dasharray: 7 5; }
+.f-g1l { fill: var(--s1b); } .f-g2l { fill: var(--s2b); }
+.t-gl { font-size: 13px; font-weight: 700; fill: #ffffff; }
+.t-m { font-size: 15px; font-weight: 700; fill: var(--fg); }
+.t-s { font-size: 12.5px; fill: var(--muted); }
+.t-p { font-size: 14px; font-weight: 700; fill: #ffffff; }
+.t-e { font-size: 12.5px; fill: var(--muted); font-weight: 500; }
+.t-no { font-size: 12.5px; fill: var(--stopb, #c9665b); font-weight: 700; }
+.t-note { font-size: 12.5px; fill: var(--nowt); font-weight: 700; }
+.e { stroke: #5d6b66; stroke-width: 1.8; fill: none; }
+.e-no { stroke: #c9665b; stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; }
+.flow-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.flow-list li { display: grid; grid-template-columns: 2.2em 1fr; gap: 6px; align-items: baseline; }
+.flow-list .no { font-weight: 700; color: var(--muted); }
+.st-tag { font-size: 12.5px; font-weight: 700; padding: 0 6px; border-radius: 4px; white-space: nowrap; margin-left: 4px; }
+.st-tag.now { background: var(--now); color: var(--nowt); }
+.st-tag.have { background: var(--have); color: var(--muted); }
+.st-tag.later { border: 1px dashed #8c9893; color: var(--muted); }
+.keys { display: grid; gap: 8px; }
+
 /* 지금과 바꾼 뒤 */
 .vs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .vs > div { display: grid; gap: 6px; align-content: start; min-width: 0; }
@@ -99,12 +130,78 @@ tr.asking td { background: var(--now); }
   <section class="guide">
     <h2>진행하는 법</h2>
     <ol class="steps">
-      <li><b>"지금 상황"부터 "질문 하나가 지나가는 길"까지 읽습니다.</b><br><span class="note">이해가 안 되는 곳이 있어도 넘어가셔도 됩니다. 채팅에서 하나씩 다시 봅니다.</span></li>
+      <li><b>"전체 흐름"부터 "질문 하나가 지나가는 길"까지 읽습니다.</b><br><span class="note">이해가 안 되는 곳이 있어도 넘어가셔도 됩니다. 채팅에서 하나씩 다시 봅니다.</span></li>
       <li><b>정할 것은 채팅에서 하나씩 여쭙니다.</b><br><span class="note">물을 때는 "정할 것 1 · 검색어의 꼴"처럼 아래 "정할 것" 표의 번호와 이름을 함께 씁니다. 질문마다 왜 정해야 하는지, 안마다 무엇이 달라지는지, 추천을 붙입니다.</span></li>
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 AI가 만들고 잽니다.</b><br><span class="note">결과는 "잰 결과" 표에 들어가고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
     <div class="field"><span class="lab">지금</span><p>정함 4개: <span class="mark fixed">정할 것 1 · 검색어의 꼴</span>, <span class="mark fixed">정할 것 2 · 요청 횟수</span>, <span class="mark fixed">정할 것 3 · 검색 계획의 칸과 요청 글</span>, <span class="mark fixed">정할 것 4 · 계획 검사의 기준과 요청 글</span>. 지금 묻는 것: <span class="mark">정할 것 5 · 고치기 한도와 요청 글</span>.</p></div>
+  </section>
+
+  <section>
+    <h2>전체 흐름: 질문 하나가 답이 되기까지</h2>
+    <p>질문 하나가 거치는 열 칸입니다. 노란 칸을 이번 이슈에서 붙이고, 회색 칸은 지금 시스템에 이미 있으며, 점선 칸은 뒤 이슈에서 붙입니다. 빨간 점선은 떨어졌을 때 되돌아가는 길입니다.</p>
+    <div class="diagram"><svg viewBox="0 0 760 1000" role="img" aria-label="질문 하나가 지나가는 전체 흐름: 1단계 고리와 2단계 고리">
+<defs><marker id="fa" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#5d6b66"/></marker><marker id="fr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#c9665b"/></marker></defs>
+<rect x="230" y="8" width="140" height="34" rx="17" class="f-pill"/><text x="300" y="30" text-anchor="middle" class="t-p">질문</text>
+<line x1="300" y1="42" x2="300" y2="90" class="e" marker-end="url(#fa)"/>
+<rect x="20" y="64" width="720" height="290" rx="14" class="f-g1"/><rect x="36" y="52" width="330" height="25" rx="6" class="f-g1l"/><text x="201" y="69" text-anchor="middle" class="t-gl">1단계 고리 · 문서 없이 계획 다듬기 · 검색 없음</text>
+<rect x="150" y="92" width="300" height="52" rx="9" class="f-now"/><text x="300" y="114" text-anchor="middle" class="t-m">① 계획 쓰기</text><text x="300" y="133" text-anchor="middle" class="t-s">생성 모델 · 찾을 것, 한국어판, 영어판</text>
+<line x1="300" y1="144" x2="300" y2="164" class="e" marker-end="url(#fa)"/>
+<rect x="150" y="166" width="300" height="52" rx="9" class="f-now"/><text x="300" y="188" text-anchor="middle" class="t-m">② 계획 검사</text><text x="300" y="207" text-anchor="middle" class="t-s">판정 모델 · 계획이 질문과 맞는가</text>
+<line x1="300" y1="218" x2="300" y2="236" class="e" marker-end="url(#fa)"/>
+<polygon points="300,238 352,262 300,286 248,262" class="f-dia"/><text x="300" y="267" text-anchor="middle" class="t-m" style="font-size:13.5px">통과?</text>
+<rect x="500" y="238" width="220" height="48" rx="9" class="f-now"/><text x="610" y="258" text-anchor="middle" class="t-m">③ 계획 고치기</text><text x="610" y="276" text-anchor="middle" class="t-s">생성 모델 · 검사는 최대 3번</text>
+<line x1="352" y1="262" x2="498" y2="262" class="e-no" marker-end="url(#fr)"/><text x="425" y="254" text-anchor="middle" class="t-no">아니오</text>
+<path d="M610 238 L610 118 L454 118" class="e-no" marker-end="url(#fr)"/>
+<text x="610" y="308" text-anchor="middle" class="t-note">3번째도 떨어지면 마지막 계획으로</text><text x="610" y="325" text-anchor="middle" class="t-note">검색하고 기록에 표시</text>
+<line x1="300" y1="286" x2="300" y2="398" class="e" marker-end="url(#fa)"/><text x="310" y="330" class="t-e">예</text>
+<rect x="20" y="372" width="720" height="560" rx="14" class="f-g2"/><rect x="36" y="360" width="330" height="25" rx="6" class="f-g2l"/><text x="201" y="377" text-anchor="middle" class="t-gl">2단계 고리 · 검색해서 답하기 (ReAct 루프)</text>
+<rect x="150" y="400" width="300" height="52" rx="9" class="f-now"/><text x="300" y="422" text-anchor="middle" class="t-m">④ 첫 검색</text><text x="300" y="441" text-anchor="middle" class="t-s">원래 질문 · 한국어판 · 영어판으로</text>
+<line x1="300" y1="452" x2="300" y2="472" class="e" marker-end="url(#fa)"/>
+<rect x="150" y="474" width="300" height="52" rx="9" class="f-later"/><text x="300" y="496" text-anchor="middle" class="t-m">⑤ 충분성 판단</text><text x="300" y="515" text-anchor="middle" class="t-s">가져온 청크로 답할 수 있나</text>
+<line x1="300" y1="526" x2="300" y2="544" class="e" marker-end="url(#fa)"/>
+<polygon points="300,546 352,570 300,594 248,570" class="f-dia"/><text x="300" y="575" text-anchor="middle" class="t-m" style="font-size:13.5px">충분?</text>
+<rect x="500" y="546" width="220" height="48" rx="9" class="f-later"/><text x="610" y="566" text-anchor="middle" class="t-m">⑥ 검색어 고치기·재검색</text><text x="610" y="584" text-anchor="middle" class="t-s">청크를 보고 고침 · 최대 2번</text>
+<line x1="352" y1="570" x2="498" y2="570" class="e-no" marker-end="url(#fr)"/><text x="425" y="562" text-anchor="middle" class="t-no">아니오</text>
+<path d="M610 546 L610 426 L454 426" class="e-no" marker-end="url(#fr)"/>
+<text x="610" y="616" text-anchor="middle" class="t-note">과제의 「재검색 최대 2회」가 여기</text>
+<line x1="300" y1="594" x2="300" y2="652" class="e" marker-end="url(#fa)"/><text x="310" y="628" class="t-e">예, 또는 재검색 2번을 다 씀</text>
+<rect x="150" y="654" width="300" height="52" rx="9" class="f-have"/><text x="300" y="676" text-anchor="middle" class="t-m">⑦ 답 쓰기</text><text x="300" y="695" text-anchor="middle" class="t-s">생성 모델 · 질문 원문 + 청크</text>
+<line x1="300" y1="706" x2="300" y2="724" class="e" marker-end="url(#fa)"/>
+<rect x="150" y="726" width="300" height="52" rx="9" class="f-later"/><text x="300" y="748" text-anchor="middle" class="t-m">⑧ 답 판정</text><text x="300" y="767" text-anchor="middle" class="t-s">판정 모델 · 주장마다 청크에 근거가 있나</text>
+<line x1="300" y1="778" x2="300" y2="796" class="e" marker-end="url(#fa)"/>
+<polygon points="300,798 352,822 300,846 248,822" class="f-dia"/><text x="300" y="827" text-anchor="middle" class="t-m" style="font-size:13.5px">통과?</text>
+<rect x="500" y="798" width="220" height="48" rx="9" class="f-later"/><text x="610" y="818" text-anchor="middle" class="t-m">⑨ 답 고치기</text><text x="610" y="836" text-anchor="middle" class="t-s">근거가 모자라면 재검색으로</text>
+<line x1="352" y1="822" x2="498" y2="822" class="e-no" marker-end="url(#fr)"/><text x="425" y="814" text-anchor="middle" class="t-no">아니오</text>
+<path d="M610 798 L610 680 L454 680" class="e-no" marker-end="url(#fr)"/>
+<line x1="300" y1="846" x2="300" y2="950" class="e" marker-end="url(#fa)"/><text x="310" y="890" class="t-e">예</text>
+<rect x="190" y="952" width="220" height="36" rx="18" class="f-pill"/><text x="300" y="975" text-anchor="middle" class="t-p">⑩ 내보내기</text>
+</svg></div>
+    <div class="field">
+      <span class="lab">칸마다 한 줄</span>
+      <ol class="flow-list">
+        <li><span class="no">①</span><span><b>계획 쓰기</b> 생성 모델이 찾을 것과 질문의 한국어판·영어판을 씁니다.<span class="st-tag now">이번 이슈</span></span></li>
+        <li><span class="no">②</span><span><b>계획 검사</b> 판정 모델이 계획을 질문과 맞대어 봅니다. 문서는 보지 않습니다.<span class="st-tag now">이번 이슈</span></span></li>
+        <li><span class="no">③</span><span><b>계획 고치기</b> 떨어지면 생성 모델이 고치고 다시 검사받습니다.<span class="st-tag now">이번 이슈</span></span></li>
+        <li><span class="no">④</span><span><b>첫 검색</b> 원래 질문, 한국어판, 영어판으로 검색해 청크를 가져옵니다. 여기서 처음 검색합니다.<span class="st-tag now">이번 이슈</span></span></li>
+        <li><span class="no">⑤</span><span><b>충분성 판단</b> 가져온 청크로 답할 수 있는지 봅니다.<span class="st-tag later">뒤 이슈: 충분성 판단과 재검색</span></span></li>
+        <li><span class="no">⑥</span><span><b>검색어 고치기·재검색</b> 모자라면 생성 모델이 가져온 청크를 보고 검색어를 고쳐 다시 검색합니다. 최대 2번.<span class="st-tag later">뒤 이슈: 충분성 판단과 재검색</span></span></li>
+        <li><span class="no">⑦</span><span><b>답 쓰기</b> 질문 원문과 청크로 답을 씁니다.<span class="st-tag have">지금 있음</span></span></li>
+        <li><span class="no">⑧</span><span><b>답 판정</b> 답의 주장마다 청크에 근거가 있는지 봅니다.<span class="st-tag later">뒤 이슈: 판정과 신뢰도 점수</span></span></li>
+        <li><span class="no">⑨</span><span><b>답 고치기</b> 떨어지면 답을 고치거나, 근거가 모자라면 재검색으로 돌아갑니다.<span class="st-tag later">뒤 이슈: 답 고치기</span></span></li>
+        <li><span class="no">⑩</span><span><b>내보내기</b> 답, 참조 청크, 신뢰도를 내보냅니다.<span class="st-tag later">뒤 이슈: API</span></span></li>
+      </ol>
+    </div>
+    <div class="field">
+      <span class="lab">짚어 둘 것</span>
+      <ul class="plain">
+        <li><b>1단계 고리에서는 검색하지 않습니다.</b> 청크 검색은 모두 2단계 고리에서 합니다.</li>
+        <li><b>과제의 "부족 시 쿼리 재구성 후 재검색(최대 2회)"은 ⑥입니다.</b> ③ 계획 고치기는 검색이 아니라서 이 2회에 들어가지 않습니다(<code>decisions/stage4.md</code> 2026-10-26).</li>
+        <li><b>계획이 잘못돼도 지금 시스템보다 나빠지지 않습니다.</b> ④에서 원래 질문 검색이 늘 들어가고, 뒤 이슈에서 ⑥이 붙으면 실제 청크를 보고 검색어를 다시 고칠 기회가 생깁니다.</li>
+        <li><b>이번 이슈에서 잴 때는 ⑤⑥⑧⑨가 아직 없습니다.</b> ④에서 가져온 청크가 그대로 ⑦ 답 쓰기로 갑니다.</li>
+      </ul>
+    </div>
   </section>
 
   <section>
@@ -161,16 +258,6 @@ tr.asking td { background: var(--now); }
     <div class="field">
       <span class="lab">두 번에 나눠 붙입니다</span>
       <p><b>먼저</b>, 검색 계획만 붙이고 검색은 코드가 계획의 검색어로 부릅니다. <b>그다음</b>, 생성 모델이 검색 도구를 직접 부르게 바꿉니다(도구 호출 검색). 따로 재야 둘이 각각 얼마나 바꿨는지 보입니다.</p>
-    </div>
-    <div class="field">
-      <span class="lab">전체 워크플로우에서 이번에 붙이는 곳 (노란 칸)</span>
-      <div class="mini">
-        <div class="row"><span class="chip have">질문</span>→<span class="chip now">요청 분석</span>→</div>
-        <div class="grp one"><span class="gname">1단계 고리 · 문서 없이 계획 다듬기</span><span class="chip now">생성 (검색 계획 쓰기)</span>→<span class="chip now">저지먼트 (계획 검사)</span>→<span class="chip now">리파이먼트 (계획 고치기)</span>→<span class="chip now">1단계 결과 정리</span></div>
-        <div class="grp two"><span class="gname">2단계 고리 · 검색해서 답하기</span><span class="chip now">생성 (검색할 검색어 고르기)</span>→<span class="chip now">툴유즈 (검색 도구 부르기)</span>→<span class="chip have">관찰값 (청크)</span>→<span class="chip">저지먼트 ① 충분성</span>→<span class="chip">리파이먼트 (재검색)</span>→<span class="chip have">답 쓰기</span>→<span class="chip">저지먼트 ② 판정</span>→<span class="chip">리파이먼트 (답 고치기)</span></div>
-        <div class="row"><span class="chip have">최종 응답 생성</span>→<span class="chip">출력 (API)</span></div>
-      </div>
-      <p class="note">칸 이름은 참고 PDF(「ReAct 기반 2단계 에이전트 플로우」)의 이름입니다. 회색 칸은 지금 시스템에 이미 있고, 흰 칸은 뒤 이슈에서 붙입니다.</p>
     </div>
   </section>
 
@@ -269,10 +356,11 @@ Answer only in the JSON format below.
         <div class="stop-head"><span class="where">1단계 고리</span><span class="stop-name">리파이먼트 (계획 고치기)</span><span class="who">생성 모델 qwen3:8b</span></div>
         <div class="field"><span class="lab">받는 것</span><p>질문, 불통과한 계획, 지적</p></div>
         <div class="field"><span class="lab">하는 일</span><p>판정 모델이 적은 문제(problems)를 보고 계획을 다시 씁니다. 다시 쓴 계획은 다시 저지먼트로 갑니다.</p></div>
+        <div class="field"><span class="lab">한도 <span class="mark fixed">정함 · 정할 것 5의 앞 둘</span></span><p>계획 검사는 최대 3번(고치기 최대 2번)입니다. 3번째 검사에서도 떨어지면 마지막 계획 그대로 검색하고, 실행 기록에 "계획 검사 불통과"를 표시합니다. 원래 질문 검색이 늘 들어가므로 지금 시스템보다 나빠지지 않고, 판정 모델이 얼마나 정확한지 아직 몰라 그 판정으로 검색어를 버리지 않습니다.</p></div>
         <div class="field"><span class="lab">예</span><div class="model">지적: 한국어판에서 이트륨이 "이터븀"으로 옮겨졌다
 고친 한국어판: 가로 3 cm, 세로 4 cm, 높이 5 cm인 이트륨 직육면체의 …</div></div>
         <div class="field"><span class="lab">아직 정하지 않은 것</span>
-          <ul class="plain"><li><span class="mark">정할 것 5 · 고치기 한도와 요청 글</span> 검사 → 고치기를 몇 번까지 할지, 끝내 통과하지 못하면 어떻게 할지, 고치기 요청 글 전문</li></ul>
+          <ul class="plain"><li><span class="mark">정할 것 5 · 고치기 한도와 요청 글</span> 고치기 요청 글 전문</li></ul>
         </div>
       </div>
       <div class="down">↓</div>
@@ -336,7 +424,7 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
       <tr><td class="n">2</td><td><b>요청 횟수</b><br>정함: 모델에게 한 번 물어 검색 계획 전체를 받는다. 옮긴 질문이 줄거나 바뀌는 문제가 되풀이되면 요청 글을 고치고, 그래도 안 되면 두 번으로 나눈다(<code>decisions/stage6.md</code> 2026-10-26)</td><td>요청 분석 + 생성</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">3</td><td><b>검색 계획의 칸과 요청 글</b><br>정함: 생각 과정(기록에만 남김), 찾을 것 목록(항목마다 사실·조건·단위), 한국어판, 영어판. 요청 글 전문은 "질문 하나가 지나가는 길"의 요청 분석 + 생성 칸에 있다(<code>decisions/stage6.md</code> 2026-10-26)</td><td>요청 분석 + 생성</td><td>사용자 승인 (AI가 씀)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">4</td><td><b>계획 검사의 기준과 요청 글</b><br>정함: 세 검사(찾을 것 목록, 한국어판, 영어판), 판정 모델이 먼저 견준 과정을 씀, 셋 다 맞음이면 코드가 통과로 정함, 온도 0, 생성 모델의 생각 과정은 보지 않음(잘 안 되면 보여 줌). 요청 글 전문은 "질문 하나가 지나가는 길"의 저지먼트 칸에 있다(<code>decisions/stage6.md</code> 2026-10-26)</td><td>저지먼트 (계획 검사)</td><td>사용자 승인 (AI가 씀)</td><td><span class="st">정함</span></td></tr>
-      <tr class="asking"><td class="n">5</td><td><b>고치기 한도와 요청 글</b><br>검사 → 고치기를 몇 번까지 할지, 끝내 통과하지 못하면 어떻게 할지(사용자), 고치기 요청 글 전문(AI가 쓰고 사용자가 승인)</td><td>리파이먼트 (계획 고치기)</td><td>사용자</td><td><span class="st ask">지금 묻는 중</span></td></tr>
+      <tr class="asking"><td class="n">5</td><td><b>고치기 한도와 요청 글</b><br>정함: 검사 최대 3번, 끝내 떨어지면 마지막 계획 그대로 검색하고 기록에 표시(<code>decisions/stage6.md</code> 2026-10-26). 남은 것: 고치기 요청 글 전문(AI가 쓰고 사용자가 승인)</td><td>리파이먼트 (계획 고치기)</td><td>사용자</td><td><span class="st ask">지금 묻는 중</span></td></tr>
       <tr><td class="n">6</td><td><b>청크 합치기</b><br>검색어 세 개마다 나온 청크 8개씩(모두 24개)을 하나로 어떻게 합칠지, 지금 시스템과 견줄 때 8개로 맞출지. 사용자가 가장 걱정하는 자리(너무 많아짐)</td><td>관찰값</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
       <tr><td class="n">7</td><td><b>재는 법과 남길 기준</b><br>근거를 찾은 수를 질문마다 셀지 돌린 횟수마다 셀지, 몇 개가 늘어야 남길지, 답까지 돌릴지</td><td>재기</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
       <tr><td class="n">8</td><td><b>LangGraph와 ReAct를 고른 이유</b><br>처음 계획 때 사용자가 고른 것의 이유. 이번 이슈에서 LangGraph 코드를 처음 쓰므로 여기서 채웁니다</td><td>생성 + 툴유즈</td><td>사용자</td><td><span class="st wait">아직</span></td></tr>
