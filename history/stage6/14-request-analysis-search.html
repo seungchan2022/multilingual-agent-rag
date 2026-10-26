@@ -404,9 +404,13 @@ Write the whole plan again in the same JSON format. Fix every problem. Keep the 
         <div class="field"><span class="lab">예 · 부르는 검색</span><div class="model">search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← 원래 질문
 search("가로 3 cm, 세로 4 cm, 높이 5 cm인 이트륨 직육면체의 질량은 …")   ← 한국어판
 search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← 영어판</div></div>
+        <div class="field"><span class="lab">정한 것</span>
+          <ul class="plain">
+            <li><span class="mark fixed">정함 · 정할 것 8 · LangGraph와 ReAct를 고른 이유</span> 고른 이유를 채웠습니다. 아래 "정할 것" 표의 8번 줄에 있습니다(<code>decisions/common.md</code> 2026-10-26)</li>
+          </ul>
+        </div>
         <div class="field"><span class="lab">아직 정하지 않은 것</span>
           <ul class="plain">
-            <li><span class="mark">정할 것 8 · LangGraph와 ReAct를 고른 이유</span> 이 흐름을 짜는 도구(LangGraph)와 방식(ReAct)은 처음 계획 때 사용자가 골랐고, 고른 이유가 비어 있습니다</li>
             <li><span class="mark">정할 것 9 · 검색 도구 수와 기록 칸</span> 검색 도구를 몇 개로 나눌지, 도구를 부를 때마다 실행 기록에 남길 칸</li>
           </ul>
         </div>
@@ -445,8 +449,8 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
       <div class="stop">
         <div class="stop-head"><span class="stop-name">재기</span><span class="who">코드</span></div>
         <div class="field"><span class="lab">하는 일</span><p>답 쓰기로 넘긴 청크 가운데 정답의 근거 줄(여기서는 "밀도 (상온 근처): 4.472 g/cm³")이 든 청크가 있으면 "근거를 찾음"으로 셉니다.</p></div>
-        <div class="field"><span class="lab">아직 정하지 않은 것</span>
-          <ul class="plain"><li><span class="mark">정할 것 7 · 재는 법과 남길 기준</span> 지금 시스템은 같은 질문을 5번 돌려도 검색어가 같았지만, 검색 계획은 모델이 쓰므로 돌릴 때마다 검색어가 달라질 수 있습니다. 그래서 질문 38개마다 셀지 돌린 190번마다 셀지, 몇 개가 늘어야 남길지, 답까지 돌려 맞은 수도 볼지를 정합니다</li></ul>
+        <div class="field"><span class="lab">정한 것</span>
+          <ul class="plain"><li><span class="mark fixed">정함 · 정할 것 7 · 재는 법과 남길 기준</span> 질문 38개를 5번씩 돌린 190번마다 근거를 찾았는지 셉니다. 무엇과 견주고 언제 남기는지는 아래 "잰 결과"에 있습니다</li></ul>
         </div>
       </div>
     </div>
@@ -503,6 +507,11 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
     <h2>이 페이지에 나오는 낱말</h2>
     <div class="tbl"><table>
       <tr><th style="width:9.5em">낱말</th><th>뜻</th></tr>
+      <tr><td>새 시스템</td><td>원래 질문으로 검색한 청크 8개에, 다른 판으로 검색한 청크의 위쪽 4개씩(이미 고른 청크는 뺌)을 더해 답 쓰기로 넘기는 시스템. 이번에 만드는 것입니다.</td></tr>
+      <tr><td>다른 판</td><td>검색 계획의 한국어판·영어판 가운데 원래 질문과 글이 다른 것. 영어 질문이면 대개 한국어판입니다. 원래 질문과 글이 같은 판으로는 검색하지 않습니다.</td></tr>
+      <tr><td>비교용</td><td>원래 질문으로만 검색하되, 견주는 상대가 그 실행에서 넘긴 청크 수만큼 가져오는 검색. 재기 위해서만 씁니다.</td></tr>
+      <tr><td>짝 질문 / 짝 질문으로 검색</td><td>짝 질문은 질문 38개(한국어 19개, 그것을 영어로 옮긴 19개) 안에서 같은 사실을 묻는 다른 언어의 질문입니다(예: q03-en의 짝은 q03-ko). 짝 질문으로 검색은 다른 판 대신 짝 질문으로 같은 방식의 검색을 하는 것으로, "모델이 사람만큼 옮겼다면"의 값을 줍니다. 원인을 가를 때만 씁니다.</td></tr>
+      <tr><td>처음 계획 / 고친 계획</td><td>처음 계획은 생성 모델이 처음 쓴 검색 계획, 고친 계획은 계획 검사에서 떨어져 계획 고치기를 거친 검색 계획입니다.</td></tr>
       <tr><td>지금 시스템 (최소판)</td><td>질문을 그대로 검색어로 써서 한 번 검색하고, 가져온 청크 8개를 넣어 답을 쓰는 시스템. 여기에 기능을 하나씩 붙여 나갑니다.</td></tr>
       <tr><td>청크</td><td>문서를 잘라 놓은 조각. 검색하면 검색어와 뜻이 가까운 청크가 돌아옵니다.</td></tr>
       <tr><td>근거를 찾음</td><td>답 쓰기로 넘긴 청크 가운데 정답의 근거 줄이 든 청크가 하나라도 있는 것.</td></tr>
