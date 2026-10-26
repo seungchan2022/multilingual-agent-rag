@@ -477,13 +477,14 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
     <h2>잰 결과</h2>
     <p>아직 재지 않았습니다. 질문 하나를 5번씩, 모두 190번 돌리며 "가져온 청크 안에 정답의 근거가 있었나"를 세고, 질문마다 5번 가운데 몇 번인지도 표로 보입니다. <span class="mark fixed">정함 · 정할 것 7의 하나</span></p>
     <div class="tbl"><table>
-      <tr><th>무엇</th><th>넘기는 청크</th><th>근거를 찾은 횟수 (190번 가운데)</th><th>판단</th></tr>
-      <tr><td>지금 시스템</td><td>원래 질문 검색의 1~8등</td><td class="n">155</td><td>출발점</td></tr>
-      <tr><td>비교용</td><td>원래 질문 검색의 1등부터, 그 실행에서 견주는 상대(새 시스템, 짝 질문으로 검색)가 넘긴 수만큼</td><td class="n">아직 안 셈</td><td>—</td></tr>
-      <tr><td>새 시스템 (코드가 검색)</td><td>원래 질문 검색의 1~8등 + 다른 판 검색의 1~4등씩</td><td class="n">아직 안 셈</td><td>—</td></tr>
-      <tr><td>새 시스템 (모델이 검색 도구를 부름)</td><td>같음</td><td class="n">아직 안 셈</td><td>—</td></tr>
-      <tr><td>짝 질문으로 검색 (원인 가르기용)</td><td>원래 질문 검색의 1~8등 + 짝 질문 검색의 1~4등</td><td class="n">아직 안 셈</td><td>—</td></tr>
+      <tr><th>무엇</th><th>넘기는 청크</th><th>근거를 찾은 횟수 (190번 가운데)</th><th>그 줄에 맞춘 비교용</th><th>차이</th><th>판단</th></tr>
+      <tr><td>지금 시스템</td><td>원래 질문 검색의 1~8등</td><td class="n">155</td><td>—</td><td>—</td><td>출발점</td></tr>
+      <tr><td>새 시스템 (코드가 검색) · 처음 계획으로</td><td>원래 질문 검색의 1~8등 + 다른 판 검색의 1~4등씩(이미 고른 청크는 뺌)</td><td class="n">아직 안 셈</td><td class="n">아직 안 셈</td><td class="n">—</td><td>—</td></tr>
+      <tr><td>새 시스템 (코드가 검색) · 고친 계획으로</td><td>같음</td><td class="n">아직 안 셈</td><td class="n">아직 안 셈</td><td class="n">—</td><td>—</td></tr>
+      <tr><td>짝 질문으로 검색 (원인 가르기용)</td><td>원래 질문 검색의 1~8등 + 짝 질문 검색의 1~4등(이미 고른 청크는 뺌)</td><td class="n">아직 안 셈</td><td class="n">아직 안 셈</td><td class="n">—</td><td>—</td></tr>
+      <tr><td>새 시스템 (모델이 검색 도구를 부름)</td><td>같음</td><td class="n">아직 안 셈</td><td class="n">아직 안 셈</td><td class="n">—</td><td>—</td></tr>
     </table></div>
+    <p class="note">"그 줄에 맞춘 비교용"은 원래 질문 검색의 1등부터, 그 줄의 검색이 실행마다 넘긴 청크 수만큼 가져와 센 값입니다. 줄마다 넘긴 수가 달라 비교용도 줄마다 따로 셉니다. 새 시스템의 두 줄(처음 계획, 고친 계획) 가운데 어느 쪽으로 다른 판 검색을 판단할지는 아래 "판정 순서"로 정합니다(Codex 2차 설계 검토 지적 2).</p>
     <div class="field"><span class="lab">남길 기준 · 다른 판으로 검색 <span class="mark fixed">정함</span></span>
       <ul class="plain">
         <li>새 시스템이 비교용보다 <b>11번 이상</b> 많이 찾으면 남깁니다. 질문 2개 × 5번 = 10번까지는 우연일 수 있어 비긴 것으로 봅니다(5단계 검색 조합 고르기와 같은 선).</li>
