@@ -157,11 +157,52 @@ tr.asking td { background: var(--now); }
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 AI가 만들고 잽니다.</b><br><span class="note">결과는 "잰 결과" 표에 들어가고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
-    <div class="field"><span class="lab">지금 (2026-10-27)</span><p><b>⑧을 만들어 190번 재고 판단했습니다. 결과와 판단은 아래 "잰 결과"에 있습니다.</b> 저지먼트·리파이먼트는 재 보니 효과가 없고 판정 모델이 계획을 망가뜨려 뺐습니다. 생성이 처음 쓴 계획으로 바로 검색합니다. 다른 판 검색은 남겼습니다. 다음 할 일: 코드에서 저지먼트·리파이먼트를 빼고, 시간 기록 칸을 넣고, 정할 것 9를 정합니다.</p></div>
+    <div class="field"><span class="lab">지금 (2026-10-27)</span><p><b>⑧을 만들어 190번 재고 판단했습니다. 결과와 판단은 아래 "잰 결과"에 있습니다.</b> 저지먼트·리파이먼트는 재 보니 효과가 없고 판정 모델이 계획을 망가뜨려 뺐습니다. 생성이 처음 쓴 계획으로 바로 검색합니다. 다른 판 검색은 남겼습니다. 코드에서 저지먼트·리파이먼트를 빼고 시간 기록 칸을 넣었습니다. <b>지금: ③ 도구 호출 검색을 정합니다</b>(바로 아래 노란 칸).</p></div>
     <div class="field"><span class="lab">그 전 (2026-10-26)</span><p>정함 8개: 정할 것 1~8. 남은 것: 정할 것 9 · 검색 도구 수와 기록 칸(모델이 검색 도구를 부르게 만들기 전에 정함). Codex 설계 검토를 2차까지 받아 지적을 모두 고쳤습니다(1차 5개, 2차 4개. 맨 위 노란 칸은 마지막으로 정한 2차 지적 1). 리파이먼트의 흐름은 참고 PDF 모양으로 되돌렸습니다. 다음 할 일: 만들고 질문 38개로 잽니다.</p></div>
   </section>
 
   <section style="border:2px solid var(--nowb)">
+    <h2>지금 보는 것 · ③ 도구 호출 검색 · 검색어를 누가 고를까</h2>
+    <div class="field"><span class="lab">읽는 순서</span><p>① 무엇이 바뀌나 → ② 정해 둔 것 → ③ 시험해 본 장면 → ④ 문제 → ⑤ 정할 것 두 가지.</p></div>
+
+    <div class="field"><span class="lab">① 무엇이 바뀌나</span>
+      <ul class="plain">
+        <li><b>지금(⑧)</b>: 생성 모델이 계획(한국어판·영어판)을 쓰면, <b>코드가</b> 원래 질문·한국어판·영어판으로 세 번 검색합니다.</li>
+        <li><b>③</b>: <b>생성 모델이</b> 검색 도구를 스스로 부릅니다. 무엇으로 검색할지 모델이 정하고, 코드는 모델이 부른 대로 검색해 결과를 돌려줍니다.</li>
+        <li>까닭: 과제가 "Agent가 검색 도구를 써서 검색하고, 문서에는 검색 도구로만 접근한다"를 요구합니다. 그래서 ③은 빼는 선택지가 없는 기능입니다.</li>
+      </ul>
+    </div>
+
+    <div class="field"><span class="lab">② 정해 둔 것 (AI가 정함, 알림)</span>
+      <ul class="plain">
+        <li><b>검색 도구는 하나</b>: <code>search_documents(검색어)</code>. 안은 지금 쓰는 검색 그대로입니다. 다른 방식의 검색(BM25)은 아직 만들지 않아(두 번째 5단계 이슈) 나눌 도구가 없습니다.</li>
+        <li><b>호출마다 남길 것</b>: 모델이 쓴 검색어, 가져온 청크, 걸린 시간, 형식이 틀려 실행하지 못한 호출.</li>
+      </ul>
+    </div>
+
+    <div class="field"><span class="lab">③ 시험해 본 장면 · 질문 5개, 씨앗 1 (결과 숫자에 쓰지 않음)</span>
+      <p>모델에게 질문과 계획을 주고 검색 도구를 쓰게 했습니다. 지시문을 두 가지로 했습니다. 고른 질문은 ⑧에서 한국어판 검색 덕에 근거를 찾게 된 영어 질문 넷(q03-en, q09-en, q13-en, q14-en)과 한국어 질문 q12-ko입니다.</p>
+      <div class="tbl"><table>
+        <tr><th style="width:11em">지시문</th><th>한국어판으로 검색한 질문</th><th>검색 횟수</th></tr>
+        <tr><td><b>자유롭게</b>: "필요한 만큼 검색하라"</td><td class="n">0 / 5</td><td>질문마다 1~4번. 모두 영어로만 검색. 한국어 질문 q12-ko도 영어로 검색</td></tr>
+        <tr><td><b>계획대로</b>: "원래 질문, 한국어판, 영어판으로 세 번 검색하라"</td><td class="n">5 / 5</td><td>질문마다 5~18번. 같은 검색을 되풀이하며 멈추지 않음</td></tr>
+      </table></div>
+      <p class="note">예 · q03-en(이트륨 직육면체의 질량): 자유롭게 두면 영어 질문 그대로 4번 검색했습니다. 계획대로 시키면 두 번째에 "실온 근처에서의 이트륨의 밀도를…"(한국어판)으로 검색해 근거 청크가 나왔고, 그 뒤 영어 검색을 세 번 더 되풀이했습니다.</p>
+    </div>
+
+    <div class="field"><span class="lab">④ 문제</span>
+      <ul class="plain">
+        <li>자유롭게 두면 모델이 한국어로 검색하지 않습니다. 그러면 ⑧에서 얻은 영어 질문 넷(근거가 한국어 문서에만 있음)을 다시 잃습니다.</li>
+        <li>계획대로 시키면 한국어판으로 검색하지만, 같은 검색을 되풀이해 멈추지 않습니다. 횟수를 코드가 막아야 합니다.</li>
+      </ul>
+    </div>
+
+    <div class="field"><span class="lab">⑤ 정할 것 <span class="mark">정할 것 9 · 검색어를 누가 고를까</span> <span class="mark">정할 것 10 · ③을 남기는 기준</span></span>
+      <p>채팅에서 하나씩 여쭙니다.</p>
+    </div>
+  </section>
+
+  <details class="rules" style="background:var(--paper)"><summary>지난 것 · 2차 설계 검토 지적 1 · 저지먼트·리파이먼트를 없애기로 하면 답은 어느 청크로 셀까 (정함, 지금은 안 읽으셔도 됩니다)</summary>
     <h2>지금 보는 것 · 2차 설계 검토 지적 1 · 저지먼트·리파이먼트를 없애기로 하면 답은 어느 청크로 셀까</h2>
     <div class="field"><span class="lab">읽는 순서</span><p>① 돌리는 동안 → ② 190번을 다 돌린 뒤 → ③ 문제 → ④ 안. 표의 "시스템이 하는 일" 칸은 시스템이 질문을 처리하는 흐름이고, "우리가 재려고 따로 하는 일" 칸은 시스템 밖에서 재기 위해 코드가 덧붙이는 일입니다.</p></div>
 
@@ -204,7 +245,7 @@ tr.asking td { background: var(--now); }
       </table></div>
       <p class="note">어느 안이든 답을 더 쓰는 것은 리파이먼트가 일어난 실행뿐이고, 한 번에 약 5.8초(지난 실행의 답 한 번 가운데값)입니다. 새 개념은 늘지 않습니다. 안 B를 추천하는 까닭: 재는 데 필요한 것을 결과를 보기 전에 모두 마련해 두면, 결과를 본 뒤 할 일이 줄어듭니다.</p>
     </div>
-  </section>
+  </details>
 
   <section>
     <h2>전체 흐름: 질문 하나가 답이 되기까지</h2>
@@ -462,7 +503,8 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
         </div>
         <div class="field"><span class="lab">아직 정하지 않은 것</span>
           <ul class="plain">
-            <li><span class="mark">정할 것 9 · 검색 도구 수와 기록 칸</span> 검색 도구를 몇 개로 나눌지, 도구를 부를 때마다 실행 기록에 남길 칸</li>
+            <li><span class="mark">정할 것 9 · 검색어를 누가 고를까</span> 모델이 자유롭게 고를지, 계획대로 세 번 부르게 할지. 도구 수(하나)와 기록 칸은 AI가 정함(맨 위 노란 칸 ②)</li>
+            <li><span class="mark">정할 것 10 · ③을 남기는 기준</span> ③을 붙인 뒤 근거를 찾은 수가 ⑧보다 얼마나 줄면 "나빠짐"으로 볼지와 그때 할 일</li>
           </ul>
         </div>
       </div>
@@ -520,7 +562,8 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
       <tr><td class="n">6</td><td><b>청크 합치기</b><br>정함: 원래 질문의 8개를 모두 두고 한국어판·영어판 목록의 위쪽 4개씩을 겹치지 않게 더함. 원래 질문과 같은 글의 판은 검색하지 않음. 대개 12개, 최대 16개. 재순위는 뒤 기능 후보(<code>decisions/stage6.md</code> 2026-10-26)</td><td>관찰값</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">7</td><td><b>재는 법과 남길 기준</b><br>정함: 190번마다 근거를 찾았는지 셈. 지금 시스템·비교용(원래 질문 검색만으로, 실행마다 새 시스템이 넘긴 수만큼)·새 시스템을 견줌. 다른 판 검색은 비교용보다 11번 이상 많으면 남기고, 아니면 짝 질문으로 원인을 가림. 계획 검사와 고치기는 나아짐이 나빠짐보다 많으면 남기고, 아니면 기록으로 원인을 가림. 답까지 돌림. "잘 안 되면"은 이 잣대에 묶음(<code>decisions/stage6.md</code> 2026-10-26)</td><td>재기</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">8</td><td><b>LangGraph와 ReAct를 고른 이유</b><br>정함: 주된 까닭은 사용자가 공부한 프레임워크가 LangChain/LangGraph뿐이었던 것. 설계해 보니 고리 셋과 횟수 한도를 칸과 갈라지는 화살표로 그대로 옮길 수 있고, 2단계의 검색과 재검색이 ReAct(생각 → 도구 → 관찰)에 맞음. LangGraph는 흐름을 짜는 틀이고 ReAct는 그 틀로 짤 수 있는 방식 하나(<code>decisions/common.md</code> 2026-10-26)</td><td>생성 + 툴유즈</td><td>사용자</td><td><span class="st">정함</span></td></tr>
-      <tr><td class="n">9</td><td><b>검색 도구 수와 기록 칸</b><br>검색 도구를 몇 개로 나눌지, 도구를 부를 때마다 실행 기록에 남길 칸</td><td>생성 + 툴유즈</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">9</td><td><b>검색어를 누가 고를까</b><br>모델이 자유롭게 고를지, 계획대로 세 번 부르게 할지(도구 수 하나와 호출마다 남길 칸은 AI가 정함)</td><td>생성 + 툴유즈</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">10</td><td><b>③을 남기는 기준</b><br>근거를 찾은 수가 ⑧보다 얼마나 줄면 나빠짐으로 볼지와 그때 할 일. 결과를 보기 전에 정함</td><td>툴유즈</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
     </table></div>
   </section>
 
