@@ -72,6 +72,7 @@ details.rules[open] > summary { margin-bottom: 10px; }
 .diagram svg { width: 100%; min-width: 540px; max-width: 760px; height: auto; display: block; margin: 0 auto; }
 .diagram text { font-family: var(--body); }
 .f-now { fill: var(--now); stroke: var(--nowb); stroke-width: 2.6; }
+.f-removed { fill: #f1f1ef; stroke: #9aa5a0; stroke-width: 1.6; stroke-dasharray: 6 4; }
 .f-have { fill: var(--have); stroke: #9aa5a0; stroke-width: 1.4; }
 .f-later { fill: var(--paper); stroke: #8c9893; stroke-width: 1.4; stroke-dasharray: 5 4; }
 .f-pill { fill: var(--fg); }
@@ -157,7 +158,7 @@ tr.asking td { background: var(--now); }
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 AI가 만들고 잽니다.</b><br><span class="note">결과는 "잰 결과" 표에 들어가고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
-    <div class="field"><span class="lab">지금 (2026-10-27)</span><p><b>⑧을 만들어 190번 재고 판단했습니다. 결과와 판단은 아래 "잰 결과"에 있습니다.</b> 저지먼트·리파이먼트는 재 보니 효과가 없고 판정 모델이 계획을 망가뜨려 뺐습니다. 생성이 처음 쓴 계획으로 바로 검색합니다. 다른 판 검색은 남겼습니다. 코드에서 저지먼트·리파이먼트를 빼고 시간 기록 칸을 넣었습니다. <b>지금: ③ 도구 호출 검색을 정합니다</b>(바로 아래 노란 칸).</p></div>
+    <div class="field"><span class="lab">지금 (2026-10-27)</span><p><b>⑧을 만들어 190번 재고 판단했습니다. 결과와 판단은 아래 "잰 결과"에 있습니다.</b> 저지먼트·리파이먼트는 재 보니 효과가 없고 판정 모델이 계획을 망가뜨려 뺐습니다. 생성이 처음 쓴 계획으로 바로 검색합니다. 다른 판 검색은 남겼습니다. 코드에서 저지먼트·리파이먼트를 빼고 시간 기록 칸을 넣었습니다. ③ 도구 호출 검색은 따로 만들지 않고 ⑤와 함께 붙이기로 정했습니다(바로 아래 노란 칸). <b>지금: 이슈를 닫는 검토 중입니다.</b></p></div>
     <div class="field"><span class="lab">그 전 (2026-10-26)</span><p>정함 8개: 정할 것 1~8. 남은 것: 정할 것 9 · 검색 도구 수와 기록 칸(모델이 검색 도구를 부르게 만들기 전에 정함). Codex 설계 검토를 2차까지 받아 지적을 모두 고쳤습니다(1차 5개, 2차 4개. 맨 위 노란 칸은 마지막으로 정한 2차 지적 1). 리파이먼트의 흐름은 참고 PDF 모양으로 되돌렸습니다. 다음 할 일: 만들고 질문 38개로 잽니다.</p></div>
   </section>
 
@@ -258,10 +259,10 @@ tr.asking td { background: var(--now); }
 <rect x="20" y="64" width="720" height="290" rx="14" class="f-g1"/><rect x="36" y="52" width="330" height="25" rx="6" class="f-g1l"/><text x="201" y="69" text-anchor="middle" class="t-gl">1단계 고리 · 문서 없이 계획 다듬기 · 검색 없음</text>
 <rect x="150" y="92" width="300" height="52" rx="9" class="f-now"/><text x="300" y="114" text-anchor="middle" class="t-m">① 계획 쓰기</text><text x="300" y="133" text-anchor="middle" class="t-s">생성 모델 · 찾을 것, 한국어판, 영어판</text>
 <line x1="300" y1="144" x2="300" y2="164" class="e" marker-end="url(#fa)"/>
-<rect x="150" y="166" width="300" height="52" rx="9" class="f-now"/><text x="300" y="188" text-anchor="middle" class="t-m">② 계획 검사</text><text x="300" y="207" text-anchor="middle" class="t-s">판정 모델 · 계획이 질문과 맞는가</text>
+<rect x="150" y="166" width="300" height="52" rx="9" class="f-removed"/><text x="300" y="188" text-anchor="middle" class="t-m">② 계획 검사</text><text x="300" y="207" text-anchor="middle" class="t-s">뺌 (10-27) · 재 보니 효과 없음</text>
 <line x1="300" y1="218" x2="300" y2="236" class="e" marker-end="url(#fa)"/>
 <polygon points="300,238 352,262 300,286 248,262" class="f-dia"/><text x="300" y="267" text-anchor="middle" class="t-m" style="font-size:13.5px">통과?</text>
-<rect x="500" y="238" width="220" height="48" rx="9" class="f-now"/><text x="610" y="258" text-anchor="middle" class="t-m">③ 계획 고치기</text><text x="610" y="276" text-anchor="middle" class="t-s">코드 · 지적을 모아 ①로 · 검사 최대 3번</text>
+<rect x="500" y="238" width="220" height="48" rx="9" class="f-removed"/><text x="610" y="258" text-anchor="middle" class="t-m">③ 계획 고치기</text><text x="610" y="276" text-anchor="middle" class="t-s">코드 · 지적을 모아 ①로 · 검사 최대 3번</text>
 <line x1="352" y1="262" x2="498" y2="262" class="e-no" marker-end="url(#fr)"/><text x="425" y="254" text-anchor="middle" class="t-no">아니오</text>
 <path d="M610 238 L610 118 L454 118" class="e-no" marker-end="url(#fr)"/>
 <text x="610" y="308" text-anchor="middle" class="t-note">3번째도 떨어지면 마지막 계획으로</text><text x="610" y="325" text-anchor="middle" class="t-note">검색하고 기록에 표시</text>
@@ -292,8 +293,8 @@ tr.asking td { background: var(--now); }
       <span class="lab">칸마다 한 줄</span>
       <ol class="flow-list">
         <li><span class="no">①</span><span><b>계획 쓰기</b> 생성 모델이 찾을 것과 질문의 한국어판·영어판을 씁니다.<span class="st-tag now">이번 이슈</span></span></li>
-        <li><span class="no">②</span><span><b>계획 검사</b> 판정 모델이 계획을 질문과 맞대어 봅니다. 문서는 보지 않습니다.<span class="st-tag now">이번 이슈</span></span></li>
-        <li><span class="no">③</span><span><b>계획 고치기</b> 떨어지면 코드가 앞 계획과 지적을 모아 ① 계획 쓰기로 돌려보내고, 생성 모델이 계획을 다시 써서 다시 검사받습니다.<span class="st-tag now">이번 이슈</span></span></li>
+        <li><span class="no">②</span><span><b>계획 검사</b> 판정 모델이 계획을 질문과 맞대어 봅니다. 문서는 보지 않습니다. <b>2026-10-27 뺌</b>(아래 "잰 결과"의 판단 2).<span class="st-tag">뺌</span></span></li>
+        <li><span class="no">③</span><span><b>계획 고치기</b> 떨어지면 코드가 앞 계획과 지적을 모아 ① 계획 쓰기로 돌려보내고, 생성 모델이 계획을 다시 써서 다시 검사받습니다. <b>2026-10-27 뺌</b>.<span class="st-tag">뺌</span></span></li>
         <li><span class="no">④</span><span><b>첫 검색</b> 원래 질문, 한국어판, 영어판으로 검색해 청크를 가져옵니다. 여기서 처음 검색합니다.<span class="st-tag now">이번 이슈</span></span></li>
         <li><span class="no">⑤</span><span><b>충분성 판단</b> 가져온 청크로 답할 수 있는지 봅니다.<span class="st-tag later">뒤 이슈: 충분성 판단과 재검색</span></span></li>
         <li><span class="no">⑥</span><span><b>검색어 고치기·재검색</b> 모자라면 생성 모델이 가져온 청크를 보고 검색어를 고쳐 다시 검색합니다. 최대 2번.<span class="st-tag later">뒤 이슈: 충분성 판단과 재검색</span></span></li>
@@ -505,7 +506,7 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
         <div class="field"><span class="lab">아직 정하지 않은 것</span>
           <ul class="plain">
             <li><span class="mark">정할 것 9 · 검색어를 누가 고를까</span> 모델이 자유롭게 고를지, 계획대로 세 번 부르게 할지. 도구 수(하나)와 기록 칸은 AI가 정함(맨 위 노란 칸 ②)</li>
-            <li><span class="mark">정할 것 10 · ③을 남기는 기준</span> ③을 붙인 뒤 근거를 찾은 수가 ⑧보다 얼마나 줄면 "나빠짐"으로 볼지와 그때 할 일</li>
+            <li><span class="mark">정할 것 10 · ③을 남기는 기준</span> ③을 ⑤와 함께 붙이기로 해 ⑤에서 정함. 사용자: 같은 검색이면 1번이라도 줄면 원인을 찾는다(<code>DECISIONS.md</code> 미정 목록)</li>
           </ul>
         </div>
       </div>
@@ -563,8 +564,8 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
       <tr><td class="n">6</td><td><b>청크 합치기</b><br>정함: 원래 질문의 8개를 모두 두고 한국어판·영어판 목록의 위쪽 4개씩을 겹치지 않게 더함. 원래 질문과 같은 글의 판은 검색하지 않음. 대개 12개, 최대 16개. 재순위는 뒤 기능 후보(<code>decisions/stage6.md</code> 2026-10-26)</td><td>관찰값</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">7</td><td><b>재는 법과 남길 기준</b><br>정함: 190번마다 근거를 찾았는지 셈. 지금 시스템·비교용(원래 질문 검색만으로, 실행마다 새 시스템이 넘긴 수만큼)·새 시스템을 견줌. 다른 판 검색은 비교용보다 11번 이상 많으면 남기고, 아니면 짝 질문으로 원인을 가림. 계획 검사와 고치기는 나아짐이 나빠짐보다 많으면 남기고, 아니면 기록으로 원인을 가림. 답까지 돌림. "잘 안 되면"은 이 잣대에 묶음(<code>decisions/stage6.md</code> 2026-10-26)</td><td>재기</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">8</td><td><b>LangGraph와 ReAct를 고른 이유</b><br>정함: 주된 까닭은 사용자가 공부한 프레임워크가 LangChain/LangGraph뿐이었던 것. 설계해 보니 고리 셋과 횟수 한도를 칸과 갈라지는 화살표로 그대로 옮길 수 있고, 2단계의 검색과 재검색이 ReAct(생각 → 도구 → 관찰)에 맞음. LangGraph는 흐름을 짜는 틀이고 ReAct는 그 틀로 짤 수 있는 방식 하나(<code>decisions/common.md</code> 2026-10-26)</td><td>생성 + 툴유즈</td><td>사용자</td><td><span class="st">정함</span></td></tr>
-      <tr><td class="n">9</td><td><b>검색어를 누가 고를까</b><br>정함: 안 B · 계획대로. 모델에게 원래 질문·한국어판·영어판으로 세 번 검색하라고 지시하고, 넘친 호출은 코드가 막음. 도구는 하나(<code>decisions/stage6.md</code> 2026-10-27)</td><td>생성 + 툴유즈</td><td>사용자</td><td><span class="st">정함</span></td></tr>
-      <tr><td class="n">10</td><td><b>③을 남기는 기준</b><br>근거를 찾은 수가 ⑧보다 얼마나 줄면 나빠짐으로 볼지와 그때 할 일. 결과를 보기 전에 정함</td><td>툴유즈</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">9</td><td><b>검색어를 누가 고를까</b><br>정함: 안 B · 계획대로(뒤에 ③을 ⑤와 함께 붙이기로 해 ⑤ 때 첫 검색의 지시로 다시 봄). 모델에게 원래 질문·한국어판·영어판으로 세 번 검색하라고 지시하고, 넘친 호출은 코드가 막음. 도구는 하나(<code>decisions/stage6.md</code> 2026-10-27)</td><td>생성 + 툴유즈</td><td>사용자</td><td><span class="st">정함</span></td></tr>
+      <tr><td class="n">10</td><td><b>③을 남기는 기준</b><br>근거를 찾은 수가 ⑧보다 얼마나 줄면 나빠짐으로 볼지와 그때 할 일. 결과를 보기 전에 정함</td><td>툴유즈</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st">⑤로 넘김</span></td></tr>
     </table></div>
   </section>
 
@@ -593,7 +594,7 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
     <h3>판단 2 · 저지먼트·리파이먼트: <span class="mark fixed">뺌</span></h3>
     <p>저지먼트는 판정 모델(gemma3:4b)이 계획을 검사하는 칸, 리파이먼트는 떨어진 계획을 생성 칸에 돌려보내 다시 쓰게 하는 칸입니다.</p>
     <ul class="plain">
-      <li><b>좋아진 것이 없었습니다.</b> 190번 가운데 계획을 다시 쓴 것은 10번(질문 q09-ko, q14-ko 둘)이고, 근거 찾음과 맞은 답이 바뀐 실행은 0번입니다. 앞서 돌린 기록까지 합친 67번에서도 0번입니다.</li>
+      <li><b>좋아진 것이 없었습니다.</b> 190번 가운데 계획을 다시 쓴 것은 10번(질문 q09-ko, q14-ko 둘)이고, 근거 찾음과 맞은 답이 바뀐 실행은 0번입니다. 앞서 돌린 기록까지 합치면 계획을 다시 쓴 실행이 68번이고, 견줄 수 있는 67번에서도 0번입니다(나머지 1번은 꼴 오류로 견줄 수 없음).</li>
       <li><b>q09-ko에서는 계획을 망가뜨렸습니다.</b> 생성이 "어븀"을 "어铒"로 깨뜨림 → 저지먼트는 그것을 못 찾고 맞는 곳을 틀렸다고 함 → 두 번째 저지먼트가 "어铒를 어뢰로 바꿔라"라고 없는 잘못을 지어냄 → 생성이 따름(영어판 "sonar rectangular prism", 음파 탐지기 직육면체) → 세 번째 저지먼트가 통과.</li>
       <li><b>q14-ko에서는 맞는 계획을 떨어뜨렸습니다.</b> "단위가 구체적이지 않다"며 3번 떨어뜨려 끝내 통과하지 못했습니다.</li>
       <li><b>판정 지시문을 고쳐 봐도 안 됐습니다.</b> 지시문을 고친 판, 생성 모델의 생각 과정을 함께 보여 준 판을 만들어 계획 8개(틀린 것 5, 맞는 것 3)에 돌렸습니다. 어느 판도 8개 가운데 2~3개만 바르게 판정했습니다.</li>
@@ -603,7 +604,7 @@ search("What is the mass in kg of a rectangular cuboid of yttrium …")   ← �
     </ul>
 
     <h3>아직 안 잰 것</h3>
-    <p>③ 도구 호출 검색(생성 모델이 검색 도구를 스스로 부르는 것)을 만든 뒤 같은 방식으로 재서 위 표에 한 줄을 더합니다.</p>
+    <p>③ 도구 호출 검색(생성 모델이 검색 도구를 스스로 부르는 것)은 따로 재지 않고 ⑤ 충분성 판단과 재검색을 붙일 때 함께 붙여 잽니다(2026-10-27 정함). 첫 검색은 ⑧과 같은 세 검색어로 하므로, 같은 질문으로 잰 ⑧보다 근거를 찾은 수가 1번이라도 줄면 원인을 찾습니다.</p>
     <p class="note">기록: <code>decisions/judgments.md</code> 2026-10-27 "이슈 #14 네 번째 190번" 줄, <code>decisions/stage6.md</code> 2026-10-27 "저지먼트·리파이먼트를 뺀다" 줄. 질문마다의 값: <code>data/agent/plan_search/summary.md</code>.</p>
 
     <details class="rules"><summary>재기 전에 정한 기준 (지금은 안 읽으셔도 됩니다)</summary>
