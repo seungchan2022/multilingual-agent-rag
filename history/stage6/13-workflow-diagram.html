@@ -95,6 +95,8 @@ code { font-family: var(--mono); font-size: 13.5px; background: var(--have); pad
 .t-main { font-size: 15px; font-weight: 700; fill: var(--fg); }
 .t-sub { font-size: 12.5px; fill: var(--muted); }
 .t-pill { font-size: 14px; font-weight: 700; fill: #ffffff; }
+.t-llm { font-size: 12.5px; font-weight: 700; fill: #8a4b00; }
+.t-code { font-size: 12.5px; fill: var(--muted); }
 .t-edge { font-size: 12.5px; fill: var(--muted); font-weight: 500; }
 .t-no { font-size: 12.5px; fill: var(--stopb); font-weight: 700; }
 .edge { stroke: #5d6b66; stroke-width: 1.8; fill: none; }
@@ -136,16 +138,17 @@ details .inner { display: grid; gap: 28px; }
       <span><span class="sw" style="background:var(--s2);border-color:var(--s2b)"></span>2단계 고리</span>
       <span><span class="sw" style="background:var(--stop);border-color:var(--stopb)"></span>멈추고 사람에게</span>
       <span><span class="sw" style="background:#f1f1ef;border-color:#9aa5a0;border-style:dashed"></span>재 보고 뺌</span>
+      <span><b style="color:#8a4b00">LLM</b> 칸 왼쪽 글씨: 그 칸에서 모델을 부름(지금 / 붙일 때) · <span style="color:var(--muted)">코드</span>: 모델 없이 프로그램이 함</span>
     </div>
     <div class="box warn">PDF와 다른 곳은 둘입니다. ① 1단계의 생성이 답 초안 대신 검색 계획을 만듭니다(안 B로 정함). ② 2단계의 저지먼트가 두 번입니다. 과제가 「충분성 판단 → 답 쓰기 → 환각 검증」 순서를 요구해서, 답을 쓰기 전에 충분성을 보고 답을 쓴 뒤에 판정합니다. 판정에서 떨어지면 PDF의 리파이먼트(가설·쿼리·답안 수정)처럼 답을 고치거나, 근거가 모자라면 재검색으로 돌아갑니다.</div>
     <div class="diagram"><svg viewBox="0 0 760 1320" role="img" aria-label="Agent-RAG 워크플로우 한눈 그림">
 <defs><marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#5d6b66"/></marker><marker id="r" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#c9665b"/></marker></defs>
 <rect x="220.0" y="14" width="180" height="38" rx="19" class="n-pill"/><text x="310.0" y="38" text-anchor="middle" class="t-pill">질문 (한국어·영어)</text>
 <line x1="310.0" y1="52" x2="310.0" y2="72" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="74" width="240" height="50" rx="9" class="n-box n-now"/><text x="310.0" y="96.0" text-anchor="middle" class="t-main">요청 분석</text><text x="310.0" y="114.0" text-anchor="middle" class="t-sub">대상·조건·단위·언어</text><circle cx="190" cy="74" r="13" class="badge"/><text x="190" y="78.5" text-anchor="middle" class="badge-t">1</text>
+<rect x="190" y="74" width="240" height="50" rx="9" class="n-box n-now"/><text x="310.0" y="96.0" text-anchor="middle" class="t-main">요청 분석</text><text x="310.0" y="114.0" text-anchor="middle" class="t-sub">대상·조건·단위·언어</text><text x="176" y="98" text-anchor="end" class="t-llm">LLM (생성과</text><text x="176" y="113" text-anchor="end" class="t-llm">한 요청)</text><circle cx="190" cy="74" r="13" class="badge"/><text x="190" y="78.5" text-anchor="middle" class="badge-t">1</text>
 <line x1="310.0" y1="124" x2="310.0" y2="176" class="edge" marker-end="url(#a)"/>
 <rect x="30" y="150" width="690" height="290" rx="14" class="g1"/><rect x="46" y="138" width="250" height="25" rx="6" class="g1-l"/><text x="171" y="155" text-anchor="middle" class="t-glabel">1단계 고리 · 문서 없이 (Self-Refine)</text>
-<rect x="190" y="178" width="240" height="54" rx="9" class="n-box n-now"/><text x="310.0" y="202.0" text-anchor="middle" class="t-main">생성</text><text x="310.0" y="220.0" text-anchor="middle" class="t-sub">검색 계획: 찾을 것 · 한국어판 · 영어판</text><circle cx="190" cy="178" r="13" class="badge"/><text x="190" y="182.5" text-anchor="middle" class="badge-t">1</text>
+<rect x="190" y="178" width="240" height="54" rx="9" class="n-box n-now"/><text x="310.0" y="202.0" text-anchor="middle" class="t-main">생성</text><text x="310.0" y="220.0" text-anchor="middle" class="t-sub">검색 계획: 찾을 것 · 한국어판 · 영어판</text><text x="176" y="209" text-anchor="end" class="t-llm">LLM · 지금</text><circle cx="190" cy="178" r="13" class="badge"/><text x="190" y="182.5" text-anchor="middle" class="badge-t">1</text>
 <line x1="310.0" y1="232" x2="310.0" y2="256" class="edge" marker-end="url(#a)"/>
 <rect x="190" y="258" width="240" height="50" rx="9" class="n-box n-removed"/><text x="310.0" y="280.0" text-anchor="middle" class="t-main">저지먼트</text><text x="310.0" y="298.0" text-anchor="middle" class="t-sub">뺌 (10-27) · 재 보니 효과 없음</text><circle cx="190" cy="258" r="13" class="badge"/><text x="190" y="262.5" text-anchor="middle" class="badge-t">1</text>
 <line x1="310.0" y1="308" x2="310.0" y2="326" class="edge" marker-end="url(#a)"/>
@@ -157,16 +160,16 @@ details .inner { display: grid; gap: 28px; }
 <text x="585.0" y="394" text-anchor="middle" class="t-sub">뺀 뒤: 생성의 계획으로 바로 다음 칸</text>
 <line x1="310.0" y1="374" x2="310.0" y2="463" class="edge" marker-end="url(#a)"/>
 <text x="320.0" y="420" text-anchor="start" class="t-edge">예</text>
-<rect x="190" y="465" width="240" height="44" rx="9" class="n-box n-now"/><text x="310.0" y="484.0" text-anchor="middle" class="t-main">1단계 결과 정리</text><text x="310.0" y="502.0" text-anchor="middle" class="t-sub">계획을 2단계로 넘김</text><circle cx="190" cy="465" r="13" class="badge"/><text x="190" y="469.5" text-anchor="middle" class="badge-t">1</text>
+<rect x="190" y="465" width="240" height="44" rx="9" class="n-box n-now"/><text x="310.0" y="484.0" text-anchor="middle" class="t-main">1단계 결과 정리</text><text x="310.0" y="502.0" text-anchor="middle" class="t-sub">계획을 2단계로 넘김</text><text x="176" y="491" text-anchor="end" class="t-code">코드</text><circle cx="190" cy="465" r="13" class="badge"/><text x="190" y="469.5" text-anchor="middle" class="badge-t">1</text>
 <line x1="310.0" y1="509" x2="310.0" y2="566" class="edge" marker-end="url(#a)"/>
 <rect x="30" y="540" width="690" height="630" rx="14" class="g2"/><rect x="46" y="528" width="230" height="25" rx="6" class="g2-l"/><text x="161" y="545" text-anchor="middle" class="t-glabel">2단계 고리 · ReAct 툴 루프</text>
-<rect x="190" y="568" width="240" height="54" rx="9" class="n-box n-now"/><text x="310.0" y="592.0" text-anchor="middle" class="t-main">생성</text><text x="310.0" y="610.0" text-anchor="middle" class="t-sub">다음 행동: 검색어 고르기</text><circle cx="190" cy="568" r="13" class="badge"/><text x="190" y="572.5" text-anchor="middle" class="badge-t">2</text>
+<rect x="190" y="568" width="240" height="54" rx="9" class="n-box n-now"/><text x="310.0" y="592.0" text-anchor="middle" class="t-main">생성</text><text x="310.0" y="610.0" text-anchor="middle" class="t-sub">다음 행동: 검색어 고르기</text><text x="176" y="592" text-anchor="end" class="t-llm">지금 코드(계획 글</text><text x="176" y="607" text-anchor="end" class="t-llm">그대로) · ⑤에서 LLM</text><circle cx="190" cy="568" r="13" class="badge"/><text x="190" y="572.5" text-anchor="middle" class="badge-t">2</text>
 <line x1="310.0" y1="622" x2="310.0" y2="646" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="648" width="240" height="50" rx="9" class="n-box n-now"/><text x="310.0" y="670.0" text-anchor="middle" class="t-main">툴유즈</text><text x="310.0" y="688.0" text-anchor="middle" class="t-sub">검색 도구 호출</text><circle cx="190" cy="648" r="13" class="badge"/><text x="190" y="652.5" text-anchor="middle" class="badge-t">2</text>
+<rect x="190" y="648" width="240" height="50" rx="9" class="n-box n-now"/><text x="310.0" y="670.0" text-anchor="middle" class="t-main">툴유즈</text><text x="310.0" y="688.0" text-anchor="middle" class="t-sub">검색 도구 호출</text><text x="176" y="677" text-anchor="end" class="t-code">코드 (벡터 DB)</text><circle cx="190" cy="648" r="13" class="badge"/><text x="190" y="652.5" text-anchor="middle" class="badge-t">2</text>
 <line x1="310.0" y1="698" x2="310.0" y2="722" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="724" width="240" height="50" rx="9" class="n-have"/><text x="310.0" y="746.0" text-anchor="middle" class="t-main">관찰값</text><text x="310.0" y="764.0" text-anchor="middle" class="t-sub">원래 질문 8개 + 다른 판 4개씩</text>
+<rect x="190" y="724" width="240" height="50" rx="9" class="n-have"/><text x="310.0" y="746.0" text-anchor="middle" class="t-main">관찰값</text><text x="310.0" y="764.0" text-anchor="middle" class="t-sub">원래 질문 8개 + 다른 판 4개씩</text><text x="176" y="753" text-anchor="end" class="t-code">코드</text>
 <line x1="310.0" y1="774" x2="310.0" y2="798" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="800" width="240" height="54" rx="9" class="n-box"/><text x="310.0" y="824.0" text-anchor="middle" class="t-main">저지먼트 ①</text><text x="310.0" y="842.0" text-anchor="middle" class="t-sub">충분성: 답할 근거가 모였나</text><circle cx="190" cy="800" r="13" class="badge"/><text x="190" y="804.5" text-anchor="middle" class="badge-t">4</text>
+<rect x="190" y="800" width="240" height="54" rx="9" class="n-box"/><text x="310.0" y="824.0" text-anchor="middle" class="t-main">저지먼트 ①</text><text x="310.0" y="842.0" text-anchor="middle" class="t-sub">충분성: 답할 근거가 모였나</text><text x="176" y="831" text-anchor="end" class="t-llm">LLM · ⑤에서</text><circle cx="190" cy="800" r="13" class="badge"/><text x="190" y="804.5" text-anchor="middle" class="badge-t">4</text>
 <line x1="310.0" y1="854" x2="310.0" y2="868" class="edge" marker-end="url(#a)"/>
 <polygon points="310.0,868 360.0,892 310.0,916 260.0,892" class="n-dia"/><text x="310.0" y="897" text-anchor="middle" class="t-main" style="font-size:13.5px">충분?</text>
 <rect x="490" y="865" width="190" height="54" rx="9" class="n-box"/><text x="585.0" y="889.0" text-anchor="middle" class="t-main">리파이먼트</text><text x="585.0" y="907.0" text-anchor="middle" class="t-sub">검색어 고치기 · 재검색 ≤ 2</text><circle cx="490" cy="865" r="13" class="badge"/><text x="490" y="869.5" text-anchor="middle" class="badge-t">4</text>
@@ -175,9 +178,9 @@ details .inner { display: grid; gap: 28px; }
 <path d="M585.0 865 L585.0 595 L434 595" class="edge-no" marker-end="url(#r)"/>
 <line x1="310.0" y1="916" x2="310.0" y2="942" class="edge" marker-end="url(#a)"/>
 <text x="320.0" y="934" text-anchor="start" class="t-edge">예, 또는 재검색 2번을 다 씀</text>
-<rect x="190" y="944" width="240" height="54" rx="9" class="n-have"/><text x="310.0" y="968.0" text-anchor="middle" class="t-main">답 쓰기</text><text x="310.0" y="986.0" text-anchor="middle" class="t-sub">청크 인용 · 근거 없으면 거절</text><circle cx="190" cy="944" r="13" class="badge"/><text x="190" y="948.5" text-anchor="middle" class="badge-t">3</text>
+<rect x="190" y="944" width="240" height="54" rx="9" class="n-have"/><text x="310.0" y="968.0" text-anchor="middle" class="t-main">답 쓰기</text><text x="310.0" y="986.0" text-anchor="middle" class="t-sub">청크 인용 · 근거 없으면 거절</text><text x="176" y="975" text-anchor="end" class="t-llm">LLM · 지금</text><circle cx="190" cy="944" r="13" class="badge"/><text x="190" y="948.5" text-anchor="middle" class="badge-t">3</text>
 <line x1="310.0" y1="998" x2="310.0" y2="1022" class="edge" marker-end="url(#a)"/>
-<rect x="190" y="1024" width="240" height="54" rx="9" class="n-box"/><text x="310.0" y="1048.0" text-anchor="middle" class="t-main">저지먼트 ②</text><text x="310.0" y="1066.0" text-anchor="middle" class="t-sub">판정: 주장마다 근거 · 신뢰도</text><circle cx="190" cy="1024" r="13" class="badge"/><text x="190" y="1028.5" text-anchor="middle" class="badge-t">5</text>
+<rect x="190" y="1024" width="240" height="54" rx="9" class="n-box"/><text x="310.0" y="1048.0" text-anchor="middle" class="t-main">저지먼트 ②</text><text x="310.0" y="1066.0" text-anchor="middle" class="t-sub">판정: 주장마다 근거 · 신뢰도</text><text x="176" y="1055" text-anchor="end" class="t-llm">LLM · ⑥에서</text><circle cx="190" cy="1024" r="13" class="badge"/><text x="190" y="1028.5" text-anchor="middle" class="badge-t">5</text>
 <line x1="310.0" y1="1078" x2="310.0" y2="1094" class="edge" marker-end="url(#a)"/>
 <polygon points="310.0,1094 360.0,1118 310.0,1142 260.0,1118" class="n-dia"/><text x="310.0" y="1123" text-anchor="middle" class="t-main" style="font-size:13.5px">통과?</text>
 <rect x="490" y="1091" width="190" height="54" rx="9" class="n-box"/><text x="585.0" y="1115.0" text-anchor="middle" class="t-main">리파이먼트</text><text x="585.0" y="1133.0" text-anchor="middle" class="t-sub">답 고치기 · 근거 모자라면 재검색</text><circle cx="490" cy="1091" r="13" class="badge"/><text x="490" y="1095.5" text-anchor="middle" class="badge-t">6</text><text x="585.0" y="1162" text-anchor="middle" class="t-sub">6은 재 보고 남길지 정함</text>
@@ -186,7 +189,7 @@ details .inner { display: grid; gap: 28px; }
 <path d="M585.0 1091 L585.0 971 L434 971" class="edge-no" marker-end="url(#r)"/>
 <line x1="310.0" y1="1142" x2="310.0" y2="1194" class="edge" marker-end="url(#a)"/>
 <text x="320.0" y="1166" text-anchor="start" class="t-edge">예</text>
-<rect x="190" y="1196" width="240" height="44" rx="9" class="n-have"/><text x="310.0" y="1215.0" text-anchor="middle" class="t-main">최종 응답 생성</text><text x="310.0" y="1233.0" text-anchor="middle" class="t-sub">통과한 답 + 근거 청크</text>
+<rect x="190" y="1196" width="240" height="44" rx="9" class="n-have"/><text x="310.0" y="1215.0" text-anchor="middle" class="t-main">최종 응답 생성</text><text x="310.0" y="1233.0" text-anchor="middle" class="t-sub">통과한 답 + 근거 청크</text><text x="176" y="1222" text-anchor="end" class="t-code">코드</text>
 <line x1="310.0" y1="1240" x2="310.0" y2="1264" class="edge" marker-end="url(#a)"/>
 <rect x="180" y="1266" width="260" height="40" rx="20" class="n-pill"/><text x="310.0" y="1291" text-anchor="middle" class="t-pill">출력: 답 + 참조 청크 + 신뢰도</text><circle cx="180" cy="1266" r="13" class="badge"/><text x="180" y="1270.5" text-anchor="middle" class="badge-t">7</text>
 <rect x="490" y="1196" width="190" height="48" rx="9" class="n-stop"/><text x="585.0" y="1217.0" text-anchor="middle" class="t-main">중단·에스컬레이션</text><text x="585.0" y="1235.0" text-anchor="middle" class="t-sub">사람 검수 표시</text><circle cx="490" cy="1196" r="13" class="badge"/><text x="490" y="1200.5" text-anchor="middle" class="badge-t">5</text>
