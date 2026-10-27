@@ -253,22 +253,17 @@ tr.asking td { background: var(--now); }
   <section>
     <h2>전체 흐름: 질문 하나가 답이 되기까지</h2>
     <p>질문 하나가 거치는 열 칸입니다. 노란 칸을 이번 이슈에서 붙이고, 회색 칸은 지금 시스템에 이미 있으며, 흰 점선 칸은 뒤 이슈에서 붙입니다. 빨간 점선은 떨어졌을 때 되돌아가는 길입니다.</p>
-    <div class="field"><span class="lab">2026-10-27 바뀜</span><p>회색 바탕 점선 칸 ② 계획 검사와 ③ 계획 고치기는 재 보고 <b>뺐습니다</b>. 지금 흐름은 <b>① 계획 쓰기 → ④ 첫 검색</b>으로 바로 갑니다. 그림의 ② → "통과?" → ③ 길과 "검사 최대 3번"은 설계 당시의 길로 남겨 둔 것입니다.</p></div>
+    <div class="field"><span class="lab">2026-10-27 바뀜</span><p>회색 바탕 점선 칸 ② 계획 검사와 ③ 계획 고치기는 재 보고 <b>뺐습니다</b>. 지금 흐름은 그림 왼쪽 화살표처럼 <b>① 계획 쓰기 → ④ 첫 검색</b>으로 바로 갑니다. 회색 칸 셋(②, 통과?, ③)은 어디에도 이어지지 않는, 뺀 칸입니다.</p></div>
     <div class="diagram"><svg viewBox="0 0 760 1000" role="img" aria-label="질문 하나가 지나가는 전체 흐름: 1단계 고리와 2단계 고리">
 <defs><marker id="fa" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#5d6b66"/></marker><marker id="fr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9 z" fill="#c9665b"/></marker></defs>
 <rect x="230" y="8" width="140" height="34" rx="17" class="f-pill"/><text x="300" y="30" text-anchor="middle" class="t-p">질문</text>
 <line x1="300" y1="42" x2="300" y2="90" class="e" marker-end="url(#fa)"/>
-<rect x="20" y="64" width="720" height="290" rx="14" class="f-g1"/><rect x="36" y="52" width="330" height="25" rx="6" class="f-g1l"/><text x="201" y="69" text-anchor="middle" class="t-gl">1단계 고리 · 문서 없이 계획 다듬기 · 검색 없음</text>
+<rect x="20" y="64" width="720" height="290" rx="14" class="f-g1"/><rect x="36" y="52" width="330" height="25" rx="6" class="f-g1l"/><text x="201" y="69" text-anchor="middle" class="t-gl">1단계 · 문서 없이 계획 쓰기 · ②③은 10-27 뺌</text>
 <rect x="150" y="92" width="300" height="52" rx="9" class="f-now"/><text x="300" y="114" text-anchor="middle" class="t-m">① 계획 쓰기</text><text x="300" y="133" text-anchor="middle" class="t-s">생성 모델 · 찾을 것, 한국어판, 영어판</text>
-<line x1="300" y1="144" x2="300" y2="164" class="e" marker-end="url(#fa)"/>
 <rect x="150" y="166" width="300" height="52" rx="9" class="f-removed"/><text x="300" y="188" text-anchor="middle" class="t-m">② 계획 검사</text><text x="300" y="207" text-anchor="middle" class="t-s">뺌 (10-27) · 재 보니 효과 없음</text>
-<line x1="300" y1="218" x2="300" y2="236" class="e" marker-end="url(#fa)"/>
 <polygon points="300,238 352,262 300,286 248,262" class="f-dia"/><text x="300" y="267" text-anchor="middle" class="t-s">(뺌)</text>
 <rect x="500" y="238" width="220" height="48" rx="9" class="f-removed"/><text x="610" y="258" text-anchor="middle" class="t-m">③ 계획 고치기</text><text x="610" y="276" text-anchor="middle" class="t-s">뺌 (10-27)</text>
-<line x1="352" y1="262" x2="498" y2="262" class="e-no" marker-end="url(#fr)"/><text x="425" y="254" text-anchor="middle" class="t-no">아니오</text>
-<path d="M610 238 L610 118 L454 118" class="e-no" marker-end="url(#fr)"/>
-<text x="610" y="308" text-anchor="middle" class="t-note">3번째도 떨어지면 마지막 계획으로</text><text x="610" y="325" text-anchor="middle" class="t-note">검색하고 기록에 표시</text>
-<line x1="300" y1="286" x2="300" y2="398" class="e" marker-end="url(#fa)"/><text x="310" y="330" class="t-e">예</text>
+<path d="M150 118 L90 118 L90 426 L148 426" class="e" marker-end="url(#fa)"/><text x="100" y="330" class="t-e">바로 검색</text>
 <rect x="20" y="372" width="720" height="560" rx="14" class="f-g2"/><rect x="36" y="360" width="330" height="25" rx="6" class="f-g2l"/><text x="201" y="377" text-anchor="middle" class="t-gl">2단계 고리 · 검색해서 답하기 (ReAct 루프)</text>
 <rect x="150" y="400" width="300" height="52" rx="9" class="f-now"/><text x="300" y="422" text-anchor="middle" class="t-m">④ 첫 검색</text><text x="300" y="441" text-anchor="middle" class="t-s">원래 질문 · 한국어판 · 영어판으로</text>
 <line x1="300" y1="452" x2="300" y2="472" class="e" marker-end="url(#fa)"/>
