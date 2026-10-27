@@ -75,10 +75,22 @@ def request_body(system_message, user_message, seed):
     return body
 
 
+NO_TIMES = {"prompt_eval_seconds": None, "eval_seconds": None, "load_seconds": None}
+
+
+def times_of(last):
+    """마지막(done) 줄의 prompt_eval_duration(읽기), eval_duration(쓰기), load_duration(모델 올리기)을 나노초에서 초로 바꿔 소수 셋째 자리로 적는다.
+    줄에 없는 값은 None이다. (decisions/stage6.md 2026-10-27 "시간 기록" 줄)"""
+    def seconds(key):
+        return round(last[key] / 1e9, 3) if last.get(key) is not None else None
+    return {"prompt_eval_seconds": seconds("prompt_eval_duration"), "eval_seconds": seconds("eval_duration"), "load_seconds": seconds("load_duration")}
+
+
 def send(body):
-    """Ollama에 stream 요청 본문을 보내 줄마다 읽고 (글, 걸린 시간, eval_count, prompt_eval_count, 끊긴 이유)를 돌려준다.
-    글은 줄마다 온 message.content를 이어 붙인 것이다. 응답 중간에 error 줄이 오고 그 글에 'token repeat limit'가 있으면 멈추지 않고
-    그때까지의 글과 error 글을 돌려준다(eval_count와 prompt_eval_count는 마지막 줄이 없으므로 None). 끊기지 않았으면 끊긴 이유는 None이다.
+    """Ollama에 stream 요청 본문을 보내 줄마다 읽고 (글, 걸린 시간, eval_count, prompt_eval_count, 끊긴 이유, 시간 dict)를 돌려준다.
+    글은 줄마다 온 message.content를 이어 붙인 것이다. 시간 dict는 prompt_eval_seconds, eval_seconds, load_seconds(times_of).
+    응답 중간에 error 줄이 오고 그 글에 'token repeat limit'가 있으면 멈추지 않고 그때까지의 글과 error 글을 돌려준다
+    (eval_count, prompt_eval_count와 시간 dict의 세 값은 마지막 줄이 없으므로 None). 끊기지 않았으면 끊긴 이유는 None이다.
     그 밖의 error와 HTTP 오류(예: 500)는 상태 코드·오류 글과 함께 RuntimeError로 던진다. 재시도하지 않는다."""
     req = urllib.request.Request(URL, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
     t0 = time.time()
@@ -92,18 +104,18 @@ def send(body):
                 if "error" in res:
                     if ABORT_MARK not in res["error"]:
                         raise RuntimeError(f"Ollama 오류: {res['error']}")
-                    return "".join(parts), round(time.time() - t0, 2), None, None, res["error"]
+                    return "".join(parts), round(time.time() - t0, 2), None, None, res["error"], dict(NO_TIMES)
                 parts.append(res["message"]["content"])
                 last = res
     except urllib.error.HTTPError as e:
         raise RuntimeError(f"Ollama HTTP {e.code}: {e.read().decode('utf-8', errors='replace')}") from e
     if last is None or not last.get("done"):
         raise RuntimeError("Ollama 응답이 done 줄 없이 끝남")
-    return "".join(parts), round(time.time() - t0, 2), last.get("eval_count"), last.get("prompt_eval_count"), None
+    return "".join(parts), round(time.time() - t0, 2), last.get("eval_count"), last.get("prompt_eval_count"), None, times_of(last)
 
 
 def chat(system_message, user_message, seed):
-    """생성 모델에 시스템 메시지와 사용자 메시지로 요청 하나를 보낸다. 돌려주는 값과 오류는 send와 같다."""
+    """생성 모델에 시스템 메시지와 사용자 메시지로 요청 하나를 보낸다. 돌려주는 값(여섯 개)과 오류는 send와 같다."""
     return send(request_body(system_message, user_message, seed))
 
 
@@ -195,14 +207,14 @@ def run(questions, path, conn, model, seeds=SEEDS, systems=SYSTEMS):
                         found, search_part = None, NO_RETRIEVAL
                     system_message, user_message = messages_of(system, q, found)
                     try:
-                        output, seconds, tokens, prompt_tokens, abort_reason = chat(system_message, user_message, seed)
+                        output, seconds, tokens, prompt_tokens, abort_reason, times = chat(system_message, user_message, seed)
                     except RuntimeError as e:
                         raise RuntimeError(f'{system} 씨앗{seed} {q["id"]}에서 멈춤: {e}') from e
                     row = {"run_id": run_id, "system": system, "question_id": q["id"], "lang": q["lang"], "branch": q["branch"], "seed": seed,
                            "model": MODEL, "options": request_body(system_message, user_message, seed)["options"],
                            "prompt_version": PROMPT_VERSION[system], "code_commit": commit, "code_dirty": dirty,
                            **search_part, "system_message": system_message, "user_message": user_message, "output": output, "aborted": abort_reason is not None, "abort_reason": abort_reason,
-                           **graded(q, output), "gen_seconds": seconds, "gen_tokens": tokens, "prompt_tokens": prompt_tokens}
+                           **graded(q, output), "gen_seconds": seconds, "gen_tokens": tokens, "prompt_tokens": prompt_tokens, **times}
                     out.write(json.dumps(row, ensure_ascii=False) + "\n")
                     out.flush()
                     n += 1

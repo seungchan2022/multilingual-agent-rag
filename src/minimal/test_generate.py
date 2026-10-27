@@ -26,6 +26,9 @@ import index  # noqa: E402
 ADMIN_DSN = "dbname=multilingual_rag"  # 시험용 데이터베이스를 만들고 지우는 연결(실제 표는 건드리지 않는다)
 TEST_DB = "multilingual_rag_test"
 DIM = 8
+DURATIONS = {"prompt_eval_duration": 1_500_000_000, "eval_duration": 2_345_678_901, "load_duration": 123_456_789}   # 나노초
+TIMES = {"prompt_eval_seconds": 1.5, "eval_seconds": 2.346, "load_seconds": 0.123}
+NO_TIMES = {"prompt_eval_seconds": None, "eval_seconds": None, "load_seconds": None}
 
 
 def found_row(n, doc_id="doc-a", text="청크 글", lines=(3, 4)):
@@ -41,11 +44,12 @@ def question(qid="q01-ko", lang="ko", value=17.7, text="반감기는 몇 시간�
 class FakeResponse:
     """stream 응답 하나. 줄 단위로 읽힌다. 글은 두 조각으로 나눠 오고, 끝에 done 줄이 온다. error를 주면 done 줄 대신 error 줄이 온다."""
 
-    def __init__(self, content, eval_count=12, prompt_eval_count=345, error=None):
+    def __init__(self, content, eval_count=12, prompt_eval_count=345, error=None, durations=None):
         cut = len(content) // 2
         lines = [{"message": {"role": "assistant", "content": piece}, "done": False} for piece in (content[:cut], content[cut:]) if piece]
         lines.append({"error": error} if error else
-                     {"message": {"role": "assistant", "content": ""}, "done": True, "eval_count": eval_count, "prompt_eval_count": prompt_eval_count})
+                     {"message": {"role": "assistant", "content": ""}, "done": True, "eval_count": eval_count, "prompt_eval_count": prompt_eval_count,
+                      **(DURATIONS if durations is None else durations)})
         self.lines = [(json.dumps(line, ensure_ascii=False) + "\n").encode() for line in lines]
 
     def __enter__(self):
@@ -119,8 +123,9 @@ class RequestTest(unittest.TestCase):
     def test_body_matches_spec(self):
         fake = FakeOllama()
         with mock.patch.object(g.urllib.request, "urlopen", fake):
-            content, seconds, tokens, prompt_tokens, abort_reason = g.chat("지시문", "질문", 3)
+            content, seconds, tokens, prompt_tokens, abort_reason, times = g.chat("지시문", "질문", 3)
         self.assertEqual((content, tokens, prompt_tokens, abort_reason), ('{"reason": "계산", "answer": "17.7 시간"}', 12, 345, None))
+        self.assertEqual(times, TIMES)
         body = fake.requests[0]
         self.assertEqual(body["model"], "qwen3:8b")
         self.assertIs(body["think"], False)
@@ -150,15 +155,28 @@ class RequestTest(unittest.TestCase):
 
     def test_stream_pieces_are_joined(self):
         with mock.patch.object(g.urllib.request, "urlopen", FakeOllama("가나다라마바사")):
-            content, _, tokens, prompt_tokens, abort_reason = g.chat("지시문", "질문", 1)
+            content, _, tokens, prompt_tokens, abort_reason, times = g.chat("지시문", "질문", 1)
         self.assertEqual((content, tokens, prompt_tokens, abort_reason), ("가나다라마바사", 12, 345, None))
+
+    def test_send_returns_the_three_durations_in_seconds(self):
+        with mock.patch.object(g.urllib.request, "urlopen", FakeOllama()):
+            result = g.send(g.request_body("지시문", "질문", 1))
+        self.assertEqual(len(result), 6)
+        self.assertEqual(result[5], TIMES)   # 나노초 → 초, 소수 셋째 자리
+
+    def test_missing_durations_are_none(self):
+        fake = FakeOllama(responses={0: FakeResponse("글", durations={"eval_duration": 2_000_000_000})})
+        with mock.patch.object(g.urllib.request, "urlopen", fake):
+            times = g.chat("지시문", "질문", 1)[5]
+        self.assertEqual(times, {"prompt_eval_seconds": None, "eval_seconds": 2.0, "load_seconds": None})
 
     def test_token_repeat_limit_returns_partial_text(self):
         fake = FakeOllama(responses={0: FakeResponse('{"reason": "r", "answer": "0.0000000', error="prediction aborted, token repeat limit reached")})
         with mock.patch.object(g.urllib.request, "urlopen", fake):
-            content, _, tokens, prompt_tokens, abort_reason = g.chat("지시문", "질문", 1)
+            content, _, tokens, prompt_tokens, abort_reason, times = g.chat("지시문", "질문", 1)
         self.assertEqual(content, '{"reason": "r", "answer": "0.0000000')
         self.assertEqual((tokens, prompt_tokens, abort_reason), (None, None, "prediction aborted, token repeat limit reached"))
+        self.assertEqual(times, NO_TIMES)   # 마지막 줄이 없으므로 세 값 모두 None
 
     def test_other_error_line_stops(self):
         fake = FakeOllama(responses={0: FakeResponse("앞 글", error="model runner has unexpectedly stopped")})
@@ -378,6 +396,8 @@ class RunTest(unittest.TestCase):
         self.assertEqual(mini["retrieved_tokens"], sum(r["tokens"] for r in mini["retrieved"]))
         self.assertEqual(mini["retrieved_tokens"], 18)   # 가져온 청크 2개 × 9토큰
         self.assertEqual((base["prompt_tokens"], mini["prompt_tokens"]), (345, 345))
+        for r in (base, mini):
+            self.assertEqual({key: r[key] for key in TIMES}, TIMES)
         self.assertEqual(base["system_message"], g.SYSTEM_EN)
         # 최소판: 질문 글이 검색 쿼리이고, 청크가 순위대로 지시문에 들어 있고, 근거가 든 청크(1위)가 ✔다
         self.assertEqual((mini["chunk_set"], mini["embedding_model"], mini["chunk_size"], mini["title"], mini["k"]),
@@ -421,6 +441,7 @@ class RunTest(unittest.TestCase):
         cut, ok = rows[0], rows[1]
         self.assertEqual((cut["question_id"], cut["output"], cut["aborted"], cut["abort_reason"]), ("q01-ko", partial, True, abort))
         self.assertEqual((cut["gen_tokens"], cut["prompt_tokens"]), (None, None))
+        self.assertEqual({key: cut[key] for key in NO_TIMES}, NO_TIMES)
         self.assertEqual((cut["parsed_ok"], cut["correct"], cut["answer_lang"], cut["reason"], cut["answer"]), (False, False, None, "", ""))
         self.assertEqual((ok["aborted"], ok["abort_reason"], ok["gen_tokens"], ok["prompt_tokens"], ok["correct"]), (False, None, 12, 345, True))
         self.assertIn("q01-ko 틀림 (끊김)", printed)

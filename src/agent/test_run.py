@@ -21,7 +21,7 @@ import generate  # noqa: E402
 import pair_search  # noqa: E402
 import plan  # noqa: E402
 import run  # noqa: E402
-from fakes import FakeOllama, FakeResponse, found_row, judge_output, patched, plan_output, question  # noqa: E402
+from fakes import TIMES, FakeOllama, FakeResponse, found_row, patched, plan_output, question  # noqa: E402
 
 Q1, Q2 = "반감기는 몇 시간인가?", "다른 질문인가?"
 Q1_EN = "What is the half-life in hours?"
@@ -34,9 +34,8 @@ def plan_n(n):
 def searches():
     table = {text: [found_row(f"{tag}{i}", text=f"{tag}{i} 글", evidence=(tag == "a" and i == 3)) for i in range(1, 17)]
              for tag, text in (("o", Q1), ("a", Q2))}
-    for n in (1, 2):
-        table[f"한국어판{n}"] = [found_row(f"k{n}-{i}", text=f"k{n}-{i} 글") for i in range(1, 5)]
-        table[f"english{n}"] = [found_row(f"e{n}-{i}", text=f"e{n}-{i} 글") for i in range(1, 5)]
+    table["한국어판1"] = [found_row(f"k1-{i}", text=f"k1-{i} 글") for i in range(1, 5)]
+    table["english1"] = [found_row(f"e1-{i}", text=f"e1-{i} 글") for i in range(1, 5)]
     return table
 
 
@@ -56,108 +55,91 @@ class RunTest(unittest.TestCase):
         return n, [json.loads(line) for line in self.path.read_text(encoding="utf-8").splitlines()]
 
     def test_warmup_order_and_count(self):
-        ollama = FakeOllama(plans=[plan_n(1)] * 4, judges=[judge_output()] * 4)
+        ollama = FakeOllama(plans=[plan_n(1)] * 4)
         n, rows = self.go(ollama, seeds=(1, 2))
         self.assertEqual((n, len(rows)), (4, 4))
         self.assertEqual([(r["seed"], r["question_id"]) for r in rows], [(1, "q01-ko"), (1, "q02-ko"), (2, "q01-ko"), (2, "q02-ko")])
-        # 두 모델을 내리고, 몸풀기 호출을 모델마다 한 번(씨앗 1): 생성 모델은 PLAN_SYSTEM + 안녕, 판정 모델은 JUDGE_SYSTEM + 안녕
+        # 생성 모델을 내리고, 몸풀기 호출을 한 번(씨앗 1): PLAN_SYSTEM + 안녕. 판정 모델은 없다
         self.assertEqual(ollama.calls[0], (generate.GENERATE_URL, {"model": "qwen3:8b", "keep_alive": 0}))
-        self.assertEqual(ollama.calls[1], (generate.GENERATE_URL, {"model": "gemma3:4b", "keep_alive": 0}))
-        self.assertEqual(ollama.calls[2][1], plan.plan_body("안녕", 1))
-        self.assertEqual(ollama.calls[3][1], plan.judge_body("안녕", 1))
-        self.assertEqual(len(ollama.requests), 2 + 4 * 3)   # 몸풀기 둘 + 실행 4번 × (계획, 판정, 답)
-        self.assertNotIn("안녕", [r["plan_steps"][0]["user_message"] for r in rows])
+        self.assertEqual(ollama.calls[1][1], plan.plan_body("안녕", 1))
+        self.assertEqual(len(ollama.requests), 1 + 4 * 2)   # 몸풀기 하나 + 실행 4번 × (계획, 답)
+        self.assertEqual(len([c for c in ollama.calls if c[0] == generate.GENERATE_URL]), 1)
+        self.assertNotIn("안녕", [r["plan_step"]["user_message"] for r in rows])
         # 요청은 한 번에 하나씩, 씨앗 1의 실행 둘 다음에 씨앗 2의 실행 둘 순서이고 모든 요청이 그 실행의 씨앗을 쓴다
-        self.assertEqual([body["options"]["seed"] for _, body in ollama.requests[2:]], [1] * 6 + [2] * 6)
+        self.assertEqual([body["options"]["seed"] for _, body in ollama.requests[1:]], [1] * 4 + [2] * 4)
         self.assertEqual(len(self.printed.strip().splitlines()), 1 + 4)
         self.assertEqual(len({r["run_id"] for r in rows}), 1)
 
     def test_row_fields(self):
-        ollama = FakeOllama(plans=[plan_n(1)], judges=[judge_output()])
+        ollama = FakeOllama(plans=[plan_n(1)])
         _, rows = self.go(ollama, questions=self.questions[:1])
         r = rows[0]
         self.assertEqual((r["question_id"], r["lang"], r["branch"], r["seed"]), ("q01-ko", "ko", "한국어만", 1))
-        self.assertEqual((r["generate_model"], r["judge_model"]), ("qwen3:8b", "gemma3:4b"))
+        self.assertEqual(r["generate_model"], "qwen3:8b")
         self.assertEqual(r["plan_options"], plan.plan_body("", 1)["options"])
         self.assertEqual(r["plan_options"]["temperature"], 0)
         self.assertEqual(r["answer_options"], generate.request_body("", "", 1)["options"])
-        self.assertEqual(r["judge_options"], plan.judge_body("", 1)["options"])
-        self.assertEqual(r["prompt_version"], {"plan": "plan-en-v1", "judge": "judge-en-v2", "refine": "refine-en-v1", "answer": "en-v1+ctx-en-v1"})
+        self.assertEqual(r["prompt_version"], {"plan": "plan-en-v1", "answer": "en-v1+ctx-en-v1"})
         self.assertEqual(len(r["code_commit"]), 40)
         self.assertIsInstance(r["code_dirty"], bool)
         self.assertRegex(r["langgraph_version"], r"^\d+\.\d+")
-        self.assertEqual((r["n_judgments"], r["n_refinements"], r["plan_passed"], r["shape_error"]), (1, 0, True, None))
-        self.assertEqual((r["first_plan"], r["final_plan"]), (r["plan_steps"][0]["plan"], r["plan_steps"][0]["plan"]))
-        self.assertEqual(r["first_plan"]["reason"], "생각")
-        self.assertEqual((len(r["plan_steps"]), len(r["judgments"])), (1, 1))
+        self.assertIsNone(r["shape_error"])
+        self.assertEqual(r["plan"], r["plan_step"]["plan"])
+        self.assertEqual(r["plan"]["reason"], "생각")
         self.assertEqual((r["search"]["n_chunks"], r["search"]["hit"]), (16, False))
         self.assertEqual([q["name"] for q in r["search"]["queries"]], ["original", "korean", "english"])
         self.assertEqual(len(r["comparison_retrieved"]), 16)
         self.assertEqual([c["chunk_id"] for c in r["comparison_retrieved"][:8]], [c["chunk_id"] for c in r["search"]["merged"][:8]])
-        self.assertEqual((r["first_plan_search"], r["first_plan_answer"]), (None, None))   # 다시 쓰기가 없던 실행
         self.assertEqual((r["answer"]["user_message"], r["answer"]["correct"]), (Q1, True))
         self.assertNotIn("merged_found", r)
+        self.assertNotIn("started_at", r)
+
+    def test_row_has_no_judgment_fields(self):
+        _, rows = self.go(FakeOllama(plans=[plan_n(1)]), questions=self.questions[:1])
+        for key in ("judge_model", "judge_options", "judgments", "n_judgments", "n_refinements", "plan_passed", "first_plan", "final_plan",
+                    "plan_steps", "first_plan_search", "first_plan_answer"):
+            self.assertNotIn(key, rows[0], key)
+
+    def test_row_has_run_seconds_node_times_and_request_times(self):
+        _, rows = self.go(FakeOllama(plans=[plan_n(1)]), questions=self.questions[:1])
+        r = rows[0]
+        self.assertIsInstance(r["run_seconds"], float)
+        self.assertEqual([t["node"] for t in r["node_times"]], ["generate", "search", "answer"])
+        self.assertGreaterEqual(r["run_seconds"], r["node_times"][-1]["end"])   # invoke 한 번이 칸들을 모두 품는다
+        for record in (r["plan_step"], r["answer"]):
+            self.assertEqual({key: record[key] for key in ("prompt_eval_seconds", "eval_seconds", "load_seconds")}, TIMES)
 
     def test_comparison_uses_evidence_of_the_original_question(self):
         # q02의 원래 질문 3등이 근거다. 비교용 16개에 근거 번호가 매겨지고 합친 목록도 hit다
-        ollama = FakeOllama(plans=[plan_n(1)], judges=[judge_output()])
+        ollama = FakeOllama(plans=[plan_n(1)])
         _, rows = self.go(ollama, questions=self.questions[1:])
         r = rows[0]
         self.assertEqual([c["rank"] for c in r["comparison_retrieved"] if c["evidence"]], [3])
         self.assertEqual((r["search"]["hit"], r["search"]["hit_ranks"]), (True, [3]))
 
-    def test_rewritten_run_gets_first_plan_search_and_answer(self):
-        ollama = FakeOllama(plans=[plan_n(1), plan_n(2)], judges=[judge_output(korean_ok=False, problems=["p"]), judge_output()])
-        _, rows = self.go(ollama, questions=self.questions[:1])
-        r = rows[0]
-        self.assertEqual(ollama.roles()[2:], ["plan", "judge", "plan", "judge", "answer", "answer"])
-        self.assertEqual((r["n_refinements"], r["plan_passed"]), (1, True))
-        self.assertEqual(r["first_plan"]["korean_question"], "한국어판1")
-        self.assertEqual(r["final_plan"]["korean_question"], "한국어판2")
-        first, final = r["first_plan_search"], r["search"]
-        self.assertEqual([q["text"] for q in first["queries"]], [Q1, "한국어판1", "english1"])
-        self.assertEqual([q["text"] for q in final["queries"]], [Q1, "한국어판2", "english2"])
-        # 처음 계획의 청크로 같은 답 쓰기를 하고, 시스템의 답이 아니라는 표시가 붙는다
-        answer, first_answer = r["answer"], r["first_plan_answer"]
-        self.assertIs(first_answer["system_answer"], False)
-        self.assertNotIn("system_answer", answer)
-        self.assertIn("k1-1 글", first_answer["system_message"])
-        self.assertNotIn("k2-1 글", first_answer["system_message"])
-        self.assertIn("k2-1 글", answer["system_message"])
-        self.assertEqual(set(first_answer) - {"system_answer"}, set(answer))
-        self.assertEqual({body["options"]["seed"] for _, body in ollama.requests[2:]}, {1})
-        self.assertEqual(len(r["comparison_retrieved"]), 16)
-
     def test_shape_error_run_stops_and_next_run_continues(self):
-        ollama = FakeOllama(plans=["이건 JSON이 아니다", plan_n(1)], judges=[judge_output()])
+        ollama = FakeOllama(plans=["이건 JSON이 아니다", plan_n(1)])
         n, rows = self.go(ollama)
         self.assertEqual(n, 2)
         bad, good = rows
         self.assertEqual((bad["question_id"], bad["shape_error"]["stage"], bad["shape_error"]["output"]), ("q01-ko", "generate", "이건 JSON이 아니다"))
         self.assertEqual(bad["shape_error"]["system_message"], plan.PLAN_SYSTEM)
-        for key in ("search", "answer", "comparison_retrieved", "first_plan_search", "first_plan_answer", "final_plan", "first_plan"):
+        for key in ("search", "answer", "comparison_retrieved", "plan"):
             self.assertIsNone(bad[key], key)
-        self.assertEqual(ollama.roles()[2:], ["plan", "plan", "judge", "answer"])
+        self.assertEqual([t["node"] for t in bad["node_times"]], ["generate"])   # 꼴 오류 실행은 search·answer 칸을 지나가지 않았다
+        self.assertIsInstance(bad["run_seconds"], float)
+        self.assertEqual(ollama.roles()[1:], ["plan", "plan", "answer"])
         self.assertIsNone(good["shape_error"])
         self.assertEqual(len(good["comparison_retrieved"]), 16)
         self.assertEqual([c[0] for c in self.calls], [Q2, "한국어판1", "english1", Q2])   # 꼴 오류 실행은 검색(비교용 포함)을 하지 않았다
         self.assertIn("꼴 오류", self.printed)
 
-    def test_shape_error_after_a_rewrite_has_no_extras(self):
-        ollama = FakeOllama(plans=[plan_n(1), "{}"], judges=[judge_output(korean_ok=False, problems=["p"])])
-        _, rows = self.go(ollama, questions=self.questions[:1])
-        r = rows[0]
-        self.assertEqual((r["n_refinements"], r["shape_error"]["index"]), (1, 2))
-        self.assertEqual((r["first_plan_search"], r["first_plan_answer"], r["comparison_retrieved"], r["search"]), (None, None, None, None))
-        self.assertEqual(r["first_plan"]["korean_question"], "한국어판1")
-        self.assertEqual(self.calls, [])
-
     def test_other_ollama_error_stops_whole_run_with_where(self):
-        ollama = FakeOllama(plans=[plan_n(1), plan_n(1)], judges=[judge_output(), FakeResponse("앞 글", error="model runner has unexpectedly stopped")])
+        ollama = FakeOllama(plans=[plan_n(1), FakeResponse("앞 글", error="model runner has unexpectedly stopped")])
         with self.assertRaises(RuntimeError) as cm:
             self.go(ollama)
         message = str(cm.exception)
-        for part in ("씨앗1", "q02-ko", "judgment 1번째 요청", "model runner has unexpectedly stopped"):
+        for part in ("씨앗1", "q02-ko", "generate에서 멈춤", "model runner has unexpectedly stopped"):
             self.assertIn(part, message)
         rows = self.path.read_text(encoding="utf-8").splitlines()
         self.assertEqual([json.loads(line)["question_id"] for line in rows], ["q01-ko"])   # 끝난 줄은 이미 쓰여 있다
