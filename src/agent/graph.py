@@ -76,7 +76,7 @@ def answer_of(question, found, seed, label="answer"):
 def cite_answer_of(version, question, found, seed, hit_ranks, label="answer"):
     """합친 청크로 근거 칸이 있는 답 쓰기(answer.py의 지시문 판 version)를 하고 기록을 만든다. 요청은 generate.send로 보내고 format만 틀이다."""
     system_message, user_message = answer.messages_of(version, question, found)
-    reply = ask(label, generate.send, answer.request_body(system_message, user_message, seed, len(found)))
+    reply = ask(label, generate.send, answer.request_body(system_message, user_message, seed, len(found), answer.ORDERS[version]))
     return answer.record_of(question, found, hit_ranks, system_message, user_message, reply_fields(*reply))
 
 

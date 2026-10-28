@@ -204,10 +204,10 @@ class RunTest(WorldMixin, unittest.TestCase):
         ollama = FakeOllama(answer=cite_answer([]))
         _, rows = self.go(ollama, version="cite-en-v2")
         _, body = ollama.requests[1]   # 첫 줄: q01-ko 씨앗 1, 처음 계획의 청크 4개
-        self.assertEqual(body["format"], answer.schema(4))
+        self.assertEqual(body["format"], answer.schema(4, answer.ORDERS["cite-en-v2"]))
         system_message, user_message = answer.messages_of("cite-en-v2", self.questions[0], self.items[0]["found"])
         self.assertEqual([m["content"] for m in body["messages"]], [system_message, user_message])
-        self.assertEqual(ollama.requests[2][1]["format"], answer.schema(6))
+        self.assertEqual(ollama.requests[2][1]["format"], answer.schema(6, answer.ORDERS["cite-en-v2"]))
         self.assertEqual(rows[0]["prompt_version"], "cite-en-v2+ctx-en-v1")
 
     def test_row_fields(self):

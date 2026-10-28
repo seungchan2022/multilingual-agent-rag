@@ -32,8 +32,14 @@ LINE_NONE = ("If the reference passages do not contain the facts needed to answe
              "and write [] for citations.")
 LINE_LANG = ("Answer in the same language as the question. If the question is in Korean, write reason, answer, and fact in Korean; "
              "if it is in English, write them in English.")
+# 판 1′·판 2(decisions/stage6.md 2026-10-28 "판 1′을 둔다"): 답 꼴 줄의 칸 순서를 바꾸고 문서 ID 확인 줄을 넣는다
+LINE_2B = ('{"citations": [{"fact": "A fact from the reference passages that you used", "chunks": [the number of the passage that contains it]}], '
+           '"reason": "Write the reasoning that leads to the answer, step by step", "answer": "Write only the final answer, briefly"}')
+LINE_ID = ("Each reference passage starts with its document ID, and the ID contains the English name of what the document is about "
+           "(for example, wiki-ko-<English name>). Before you use a value, check with the ID that the passage is about the same thing the question asks about.")
 V1_TEXT = "\n".join([LINE_1, LINE_2, CALC_V1, LINE_CITATIONS, LINE_NONE, LINE_LANG])
-V2_TEXT = "\n".join([LINE_1, LINE_2, CALC_V2_A, CALC_V2_B, LINE_CITATIONS, LINE_NONE, LINE_LANG])
+V1B_TEXT = "\n".join([LINE_1, LINE_2B, CALC_V1, LINE_CITATIONS, LINE_ID, LINE_NONE, LINE_LANG])
+V2_TEXT = "\n".join([LINE_1, LINE_2B, CALC_V2_A, CALC_V2_B, LINE_CITATIONS, LINE_ID, LINE_NONE, LINE_LANG])
 
 Q = "반감기는 몇 시간인가?"
 SEED = 3
@@ -65,13 +71,23 @@ class InstructionTest(unittest.TestCase):
     def test_v2_text_is_the_decided_text(self):
         self.assertEqual(answer.CITE_V2, V2_TEXT)
 
-    def test_v2_differs_from_v1_only_in_the_calculation_lines(self):
-        v1, v2 = answer.CITE_V1.split("\n"), answer.CITE_V2.split("\n")
-        self.assertEqual((v1[:2], v1[3:]), (v2[:2], v2[4:]))
-        self.assertEqual((len(v1), len(v2)), (6, 7))
+    def test_v1b_text_is_the_decided_text(self):
+        self.assertEqual(answer.CITE_V1B, V1B_TEXT)
+
+    def test_v2_differs_from_v1b_only_in_the_calculation_lines(self):
+        v1b, v2 = answer.CITE_V1B.split("\n"), answer.CITE_V2.split("\n")
+        self.assertEqual((v1b[:2], v1b[3:]), (v2[:2], v2[4:]))
+        self.assertEqual((len(v1b), len(v2)), (7, 8))
+
+    def test_schema_order_follows_the_version(self):
+        self.assertEqual(list(answer.schema(3)["properties"]), ["reason", "answer", "citations"])
+        for version in ("cite-en-v1b", "cite-en-v2"):
+            s = answer.schema(3, answer.ORDERS[version])
+            self.assertEqual((list(s["properties"]), s["required"]), (["citations", "reason", "answer"], ["citations", "reason", "answer"]))
+            self.assertEqual(s["properties"]["citations"], answer.schema(3)["properties"]["citations"])
 
     def test_versions_and_prompt_version(self):
-        self.assertEqual(set(answer.SYSTEMS), {"cite-en-v1", "cite-en-v2"})
+        self.assertEqual(set(answer.SYSTEMS), {"cite-en-v1", "cite-en-v1b", "cite-en-v2"})
         self.assertEqual(answer.prompt_version("cite-en-v1"), "cite-en-v1+ctx-en-v1")
 
     def test_minimal_instruction_is_untouched(self):
@@ -80,7 +96,7 @@ class InstructionTest(unittest.TestCase):
 
     def test_messages_are_version_text_plus_context_and_the_question(self):
         found = found_list()
-        for version, text in (("cite-en-v1", V1_TEXT), ("cite-en-v2", V2_TEXT)):
+        for version, text in (("cite-en-v1", V1_TEXT), ("cite-en-v1b", V1B_TEXT), ("cite-en-v2", V2_TEXT)):
             system_message, user_message = answer.messages_of(version, question(text=Q), found)
             self.assertEqual(system_message, text + generate.CONTEXT_EN.format(passages=generate.passages_of(found)))
             self.assertEqual(user_message, Q)
@@ -285,7 +301,7 @@ class GraphAnswerVersionTest(unittest.TestCase):
         state = run_graph(ollama, "cite-en-v2")
         self.assertEqual(ollama.roles(), ["plan", "answer"])
         _, body = ollama.requests[1]
-        self.assertEqual(body["format"], answer.schema(16))
+        self.assertEqual(body["format"], answer.schema(16, answer.ORDERS["cite-en-v2"]))
         self.assertEqual(body["messages"][0]["content"].split("\n\nAnswer based on")[0], V2_TEXT)
         a = state["answer"]
         self.assertEqual(a["system_message"], body["messages"][0]["content"])

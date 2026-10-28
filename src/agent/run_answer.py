@@ -31,7 +31,7 @@ from index import DSN, QUESTIONS, ROOT  # noqa: E402
 
 BASE_RUNS = ROOT / "data" / "agent" / "plan_search" / "runs.jsonl"
 OUT_DIR = ROOT / "data" / "agent" / "answer_cite"
-RUNS = {"cite-en-v1": OUT_DIR / "runs_v1.jsonl", "cite-en-v2": OUT_DIR / "runs_v2.jsonl"}
+RUNS = {"cite-en-v1": OUT_DIR / "runs_v1.jsonl", "cite-en-v1b": OUT_DIR / "runs_v1b.jsonl", "cite-en-v2": OUT_DIR / "runs_v2.jsonl"}
 BASE_ROWS = 190
 BASE_COMMIT = "369d74d"
 SEEDS = generate.SEEDS

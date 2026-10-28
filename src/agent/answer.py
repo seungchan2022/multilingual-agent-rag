@@ -1,8 +1,10 @@
-"""근거 칸이 있는 답 쓰기의 지시문 두 판, 틀(JSON 스키마), 요청 본문, 답 하나의 기록과 공통 검사(이슈 #15).
+"""근거 칸이 있는 답 쓰기의 지시문 세 판(판 1·판 1′·판 2), 틀(JSON 스키마), 요청 본문, 답 하나의 기록과 공통 검사(이슈 #15).
 
 규칙은 decisions/stage6.md의 2026-10-28 줄(④ 답변 합성의 인용 꼴 / ④ 답 쓰기 지시문 두 판의 전문 / 근거 칸의 공통 검사 /
-판 0 고르기와 근거 칸이 빈 것의 셈)에 있다.
-지시문(CITE_V1, CITE_V2)은 결정 줄의 전문과 글자가 같다. 한 글자도 바꾸지 않는다(test_answer.py가 전문을 따로 적어 견준다).
+판 0 고르기와 근거 칸이 빈 것의 셈 / 판 1′을 둔다)에 있다.
+판 1(cite-en-v1)은 칸 순서가 reason → answer → citations이고, 판 1′(cite-en-v1b)과 판 2(cite-en-v2)는 citations → reason → answer이며
+근거 칸 줄 다음에 문서 ID 확인 줄이 있다. 틀의 칸 순서는 ORDERS가 정하고 답 꼴 줄의 순서와 같다.
+지시문(CITE_V1, CITE_V1B, CITE_V2)은 결정 줄의 전문과 글자가 같다. 한 글자도 바꾸지 않는다(test_answer.py가 전문을 따로 적어 견준다).
 최소판 지시문(generate.SYSTEM_EN, generate.CONTEXT_EN)은 바꾸지 않는다. 시스템 메시지는 그 판의 글 뒤에 CONTEXT_EN으로 참고 글을 붙인 것이다.
 요청 본문은 generate.request_body에서 format만 schema(n)으로 바꾼 것이고, 보내기는 generate.send다. 이 파일은 모델을 부르지 않는다.
 채점은 generate.graded가 answer 칸만 보고 한다(근거 칸은 채점에 들어가지 않는다). 거절인지는 코드가 정하지 않는다(answer 원문을 사람이 본다).
@@ -40,9 +42,21 @@ _CALC_V2 = [
     "Do not only describe the steps in words.",
     "Write the unit conversion (e.g., g → kg) as a step with numbers too, check the calculation once more, and write the final result of the calculation in answer.",
 ]
+# 판 1′·판 2: 답 꼴 줄의 칸 순서를 citations → reason → answer로 바꾸고 근거 칸 줄 다음에 문서 ID 확인 줄을 넣는다(decisions/stage6.md 2026-10-28 "판 1′을 둔다")
+_HEAD_B = [
+    _HEAD[0],
+    '{"citations": [{"fact": "A fact from the reference passages that you used", "chunks": [the number of the passage that contains it]}], '
+    '"reason": "Write the reasoning that leads to the answer, step by step", "answer": "Write only the final answer, briefly"}',
+]
+_ID_CHECK = ("Each reference passage starts with its document ID, and the ID contains the English name of what the document is about "
+             "(for example, wiki-ko-<English name>). Before you use a value, check with the ID that the passage is about the same thing the question asks about.")
+_TAIL_B = [_TAIL[0], _ID_CHECK, *_TAIL[1:]]
 CITE_V1 = "\n".join(_HEAD + _CALC_V1 + _TAIL)
-CITE_V2 = "\n".join(_HEAD + _CALC_V2 + _TAIL)
-SYSTEMS = {"cite-en-v1": CITE_V1, "cite-en-v2": CITE_V2}
+CITE_V1B = "\n".join(_HEAD_B + _CALC_V1 + _TAIL_B)
+CITE_V2 = "\n".join(_HEAD_B + _CALC_V2 + _TAIL_B)
+SYSTEMS = {"cite-en-v1": CITE_V1, "cite-en-v1b": CITE_V1B, "cite-en-v2": CITE_V2}
+ORDERS = {"cite-en-v1": ("reason", "answer", "citations"), "cite-en-v1b": ("citations", "reason", "answer"),
+          "cite-en-v2": ("citations", "reason", "answer")}
 
 
 def prompt_version(version):
@@ -54,20 +68,19 @@ def messages_of(version, question, found):
     return SYSTEMS[version] + generate.CONTEXT_EN.format(passages=generate.passages_of(found)), question["question"]
 
 
-def schema(n):
-    """답 꼴의 틀. 세 칸 모두 필수이고 chunks의 번호는 1부터 n(그 실행에서 넘긴 청크 수)까지만 쓸 수 있다."""
+def schema(n, order=ORDERS["cite-en-v1"]):
+    """답 꼴의 틀. 세 칸 모두 필수이고 chunks의 번호는 1부터 n(그 실행에서 넘긴 청크 수)까지만 쓸 수 있다. 칸은 order의 순서로 둔다(모델이 이 순서로 쓴다)."""
     citation = {"type": "object",
                 "properties": {"fact": {"type": "string"}, "chunks": {"type": "array", "items": {"type": "integer", "enum": list(range(1, n + 1))}}},
                 "required": ["fact", "chunks"]}
-    return {"type": "object",
-            "properties": {"reason": {"type": "string"}, "answer": {"type": "string"}, "citations": {"type": "array", "items": citation}},
-            "required": ["reason", "answer", "citations"]}
+    fields = {"reason": {"type": "string"}, "answer": {"type": "string"}, "citations": {"type": "array", "items": citation}}
+    return {"type": "object", "properties": {key: fields[key] for key in order}, "required": list(order)}
 
 
-def request_body(system_message, user_message, seed, n):
-    """generate.request_body에서 format만 schema(n)으로 바꾼 요청 본문. 생성 설정은 그대로다."""
+def request_body(system_message, user_message, seed, n, order=ORDERS["cite-en-v1"]):
+    """generate.request_body에서 format만 schema(n, order)로 바꾼 요청 본문. 생성 설정은 그대로다."""
     body = generate.request_body(system_message, user_message, seed)
-    body["format"] = schema(n)
+    body["format"] = schema(n, order)
     return body
 
 
