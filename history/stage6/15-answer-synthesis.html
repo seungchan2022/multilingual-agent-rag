@@ -168,7 +168,7 @@ tr.asking td { background: var(--now); }
     <div class="field"><span class="lab">지금 하는 일 (2026-10-28 저녁)</span>
       <p>이슈 #15의 7번째 일(「답 쓰기」에 근거 칸을 붙이고 190번으로 재기) 안에 있습니다. 판 1′까지 돌렸고, 지금 정할 것은 <b>판 1′에 남은 두 가지(아래 "가"·"나")를 고친 판 1″을 만들지</b>입니다.</p>
       <ol class="steps">
-        <li>판 1″ 시험: 판 1′ 지시문에 줄 두 개를 더해, 가·나가 나온 질문과 어븀 질문만 씨앗 5개씩 돌립니다(약 5분, 결과 숫자에 쓰지 않음).</li>
+        <li>판 1″ 시험: 판 1′ 지시문의 두 줄(4번·7번)을 고쳐, 가·나가 나온 질문과 어븀 질문만 씨앗 5개씩 돌립니다(약 5분, 결과 숫자에 쓰지 않음). 고칠 글은 이 칸 끝의 "판 1″ 지시문" 표에 있습니다.</li>
         <li>나아지면 판 1″을 190번 돌려 판 1′과 견줍니다(약 40분). 나빠지거나 그대로면 판 1′을 ④의 판으로 둡니다.</li>
         <li>판 2(계산 지시)는 질문 38개로는 돌리지 않는 쪽으로 여쭌 상태입니다(아래 까닭).</li>
         <li>그다음 이슈를 닫습니다: Codex 닫는 검토 1·2차, 흐름 요약, 사용자 승인.</li>
@@ -253,8 +253,7 @@ tr.asking td { background: var(--now); }
  "reason": "Shin-ichi Miyatake and Shinji Kawabata conducted clinical studies on newly diagnosed glioblastomas … the MST of patients … was 23.5 months …",
  "answer": "23.5"}</div>
       <p class="ko-mean">근거 칸에 영어 청크의 문장을 영어 그대로 옮긴 것은 문제가 아닙니다. 청크가 영어라 그대로 옮기는 것이 자연스럽고, 그대로 옮겨야 코드가 청크 글과 견주기도 쉽습니다. <b>문제는 그다음의 생각 과정(답에 이르는 생각을 적는 칸)과 답이 질문의 언어(한국어)가 아니라 영어로 이어진 것</b>입니다. 같은 질문의 씨앗 1은 생각 과정을 한국어로 썼습니다. 근거 칸을 맨 앞에 둔 뒤 생긴 일입니다.</p>
-      <p><b>고칠 줄(후보)</b>: <span class="en">You may copy the fact in the language of the passage. Write reason and answer in the language of the question, even if the facts are in another language.</span></p>
-      <p class="ko-mean">사실은 참고 글의 언어 그대로 옮겨도 된다. 생각 과정과 답은 사실이 다른 언어여도 질문의 언어로 써라. (지금 판 1′은 "사실도 질문의 언어로"라고 시키는데, 이 줄로 바꿉니다.)</p>
+      <p><b>고치는 법</b>: 아래 "판 1″ 지시문" 표의 7번 줄. 사실은 참고 글의 언어 그대로 옮겨도 되고, 생각 과정과 답은 질문의 언어로 쓰게 합니다.</p>
     </div>
     <div class="field"><span class="lab">나 · 값이 없는 청크의 번호를 적음 (190번 가운데 5번) · q19-ko 씨앗 1</span>
       <div class="model">[2] … Based on incomplete survival data, the MeST was reported as 14.2 months …                           ← 17.7 없음
@@ -264,10 +263,36 @@ tr.asking td { background: var(--now); }
  "reason": "… MeST가 17.7개월로 수정되었다는 사실을 확인할 수 있습니다 …",
  "answer": "17.7개월"}</div>
       <p class="ko-mean">한 문단이 길어 2번·3번 두 청크로 나뉘었습니다. 답의 값 17.7은 3번에만 있는데, 근거 칸에는 2번을 적었습니다. <b>문제는 근거 칸이 가리킨 2번 청크만 읽어서는 답 17.7을 낼 수 없다는 것</b>입니다. 답은 맞았지만, 근거 칸만 보고 답을 확인하려는 사람(나중에는 ⑥ 판정)이 근거를 찾지 못합니다.</p>
-      <p><b>고칠 줄(후보)</b>: <span class="en">For chunks, write the number of the passage that contains the value of the fact.</span></p>
-      <p class="ko-mean">청크 번호는 그 사실의 값(숫자)이 들어 있는 참고 글의 번호를 적어라.</p>
+      <p><b>고치는 법</b>: 아래 "판 1″ 지시문" 표의 4번 줄. 청크 번호를 "사실이 든 참고 글"이 아니라 "사실의 값이 든 참고 글"의 번호로 적게 합니다.</p>
     </div>
-    <div class="field"><span class="lab">판 1″을 확인하는 법</span><p>판 1′에 위 두 줄을 더한 판으로, 가·나가 나온 질문(q07-en, q18-ko, q19-ko)과 어븀 질문(q09-en, 다시 나빠지지 않는지)을 씨앗 5개씩 먼저 짧게 돌립니다(약 5분). 나아지면 190번을 돌려 판 1′과 견줍니다(약 40분).</p></div>
+    <div class="field"><span class="lab">판 1″ 지시문 · 판 1′에서 무엇을 어떻게 바꾸나 (줄 번호는 판 1′의 줄)</span>
+      <div class="tbl"><table>
+        <tr><th style="width:2.5em">줄</th><th>판 1′ (지금)</th><th>판 1″ (바꿀 글)</th><th style="width:9em">고치는 것</th></tr>
+        <tr><td class="n">1~3</td><td colspan="2">그대로: 답하는 도우미, 근거 칸 → 생각 과정 → 답의 답 꼴, 계산 줄</td><td>—</td></tr>
+        <tr><td class="n">4</td>
+          <td><span class="en">In citations, list every fact … one item per fact, with the number of each passage that contains it. Do not write passage numbers in reason or answer.</span><br><span class="ko-mean">근거 칸에 답에 쓴 사실을 모두, 사실마다 <b>그 사실이 든 참고 글</b>의 번호와 함께 적어라.</span></td>
+          <td><span class="en">In citations, list every fact … one item per fact, with the number of each passage that contains <b>the value of that fact</b>. Do not write passage numbers in reason or answer.</span><br><span class="ko-mean">… 사실마다 <b>그 사실의 값(숫자)이 든 참고 글</b>의 번호와 함께 적어라.</span></td>
+          <td>나 · 값이 없는 청크 번호</td></tr>
+        <tr><td class="n">5~6</td><td colspan="2">그대로: 문서 ID 확인 줄, 근거가 없으면 답할 수 없다고 쓰는 줄</td><td>—</td></tr>
+        <tr><td class="n">7</td>
+          <td><span class="en">Answer in the same language as the question. If the question is in Korean, write reason, answer, and fact in Korean; if it is in English, write them in English.</span><br><span class="ko-mean">질문과 같은 언어로 답하라. 질문이 한국어면 생각 과정·답·<b>사실</b>을 한국어로, 영어면 영어로 써라.</span></td>
+          <td><span class="en">Answer in the same language as the question. If the question is in Korean, write reason and answer in Korean; if it is in English, write them in English, <b>even if the passages are in another language. You may copy fact in the language of the passage.</b></span><br><span class="ko-mean">… 생각 과정과 답을 질문의 언어로 써라. <b>참고 글이 다른 언어여도 그렇게 하라. 사실은 참고 글의 언어 그대로 옮겨도 된다.</b></span></td>
+          <td>가 · 생각 과정의 언어</td></tr>
+      </table></div>
+      <p class="ko-mean">바뀌는 것은 4번 줄의 끝 한 구절과 7번 줄 하나입니다. 답 꼴, 틀(서버에 보내는 칸의 꼴), 나머지 줄은 판 1′ 그대로입니다.</p>
+    </div>
+    <div class="field"><span class="lab">판 1″을 확인하는 법</span>
+      <ol class="steps">
+        <li><b>짧은 시험</b>(약 5분, 결과 숫자에 쓰지 않음): 판 1′과 같은 청크로 씨앗 5개씩 돌립니다.
+          <ul class="plain">
+            <li>q18-ko·q19-ko(한국어 질문, 영어 청크)와 q07-en(영어 질문, 한국어 청크): 생각 과정과 답이 질문의 언어로 나오는지 → "가"가 고쳐졌는지</li>
+            <li>q19-ko: 근거 칸이 17.7이 든 3번 청크를 가리키는지 → "나"가 고쳐졌는지</li>
+            <li>q09-en(어븀): 판 1′처럼 5번 모두 맞는지 → 앞서 고친 것이 다시 나빠지지 않는지</li>
+          </ul></li>
+        <li><b>190번</b>: 시험에서 가·나가 나아지고 어븀이 그대로면, 판 1″을 190번 돌려 판 1′과 견줍니다(약 40분). 기준은 판 1′과 같습니다(맞던 답이 틀리게 바뀌면 1번이라도 기록을 읽어 원인을 가름, 공통 검사).</li>
+        <li>시험에서 나아지지 않으면 판 1′을 ④의 판으로 두고, 가·나는 한계로 기록합니다.</li>
+      </ol>
+    </div>
     <p class="src">출처: <code>data/agent/plan_search/runs.jsonl</code>(판 0), <code>data/agent/answer_cite/runs_v1.jsonl</code>(판 1), <code>runs_v1b.jsonl</code>(판 1′), <code>summary_v1.md</code>·<code>summary_v1b.md</code>, <code>research_notes/stage6_answer_tests/README.md</code>, 판단 <code>decisions/judgments.md</code> 2026-10-28</p>
   </section>
 
