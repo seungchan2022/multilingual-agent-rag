@@ -28,7 +28,7 @@ def reply(text, reason="읽는다", lang_ok=True, aborted=False):
 
 def base_row(qid, seed, hit, text, reason="읽는다", first=None, **kw):
     """⑧ 기록 꼴의 줄. first=(hit, 답 글)을 주면 처음 계획 기록(first_plan_search·first_plan_answer)이 따로 있는 줄이다."""
-    row = {"question_id": qid, "seed": seed, "search": {"hit": hit, "hit_ranks": [1] if hit else [], "merged": [{"chunk_id": "c1"}]},
+    row = {"run_id": "r", "question_id": qid, "seed": seed, "search": {"hit": hit, "hit_ranks": [1] if hit else [], "merged": [{"chunk_id": "c1"}]},
            "answer": reply(text, reason, **kw),
            "first_plan_search": None, "first_plan_answer": None}
     if first:
@@ -66,7 +66,7 @@ class SameInputsTest(unittest.TestCase):
         compare_answer.check_same_inputs(self.base, self.new, self.keys)
 
     def test_different_inputs_stop(self):
-        for field, value in (("chunk_ids", ["c2"]), ("hit_ranks", [9]), ("base_kind", "first_plan")):
+        for field, value in (("chunk_ids", ["c2"]), ("hit_ranks", [9]), ("base_kind", "first_plan"), ("source_run", "다른 실행")):
             new = {k: dict(v) for k, v in self.new.items()}
             new[("q01-ko", 1)][field] = value
             with self.assertRaises(ValueError, msg=field):

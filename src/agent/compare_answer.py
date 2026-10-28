@@ -39,11 +39,11 @@ def cells_of(rows):
             raise ValueError(f"(질문 ID, 씨앗)이 겹친다: {key}")
         if "source" in r:
             cells[key] = {"hit": r["hit"], "hit_ranks": r["hit_ranks"], "answer": r["answer"], "base_kind": r["source"]["base_kind"],
-                          "chunk_ids": [c["chunk_id"] for c in r["chunks"]]}
+                          "chunk_ids": [c["chunk_id"] for c in r["chunks"]], "source_run": r["source"]["run_id"]}
         else:
             search, answer, kind = run_answer.pick_base(r)
             cells[key] = {"hit": search["hit"], "hit_ranks": search["hit_ranks"], "answer": answer, "base_kind": kind,
-                          "chunk_ids": [c["chunk_id"] for c in search["merged"]]}
+                          "chunk_ids": [c["chunk_id"] for c in search["merged"]], "source_run": r.get("run_id")}
     return cells
 
 
@@ -57,9 +57,10 @@ def pair_up(base, new, expected=None):
 
 
 def check_same_inputs(base, new, keys):
-    """짝마다 두 쪽의 입력이 같은지 본다: 판 0 고르기(base_kind), 질문 글(답 기록의 user_message), 순서 있는 청크 ID 목록, hit_ranks.
+    """짝마다 두 쪽의 입력이 같은지 본다: 출처 실행(⑧ 기록의 run_id, 이 꼴 기록은 source.run_id), 판 0 고르기(base_kind),
+    질문 글(답 기록의 user_message), 순서 있는 청크 ID 목록, hit_ranks.
     하나라도 다르면 ValueError(decisions/stage6.md 2026-10-28 "④의 실행 방법", "Codex 설계 검토 1차 지적 1·4" 줄: 판끼리 다른 것은 답 쓰기 하나뿐이어야 한다)."""
-    different = [k for k in keys if any(base[k][f] != new[k][f] for f in ("base_kind", "chunk_ids", "hit_ranks"))
+    different = [k for k in keys if any(base[k][f] != new[k][f] for f in ("source_run", "base_kind", "chunk_ids", "hit_ranks"))
                  or base[k]["answer"].get("user_message") != new[k]["answer"].get("user_message")]
     if different:
         raise ValueError(f"입력이 다른 짝이 {len(different)}개 있다: {different[:10]}")

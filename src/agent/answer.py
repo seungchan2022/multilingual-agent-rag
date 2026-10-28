@@ -95,7 +95,8 @@ def shape_ok_of(parsed):
         and all(isinstance(c, int) and not isinstance(c, bool) for c in item["chunks"]) for item in citations)
 
 
-NAME_HYPHEN = re.compile(r"(?<=[A-Za-z가-힣])-(?=\d)")   # 이름과 숫자 사이의 하이픈(Tb-144, 터븀-144). 부호가 아니다
+# 이름과 질량수 사이의 하이픈(Tb-144, 터븀-144). 부호가 아니다. 뒤가 소수(.)로 이어지는 수(계수는-0.05)는 부호로 둔다
+NAME_HYPHEN = re.compile(r"(?<=[A-Za-z가-힣])-(?=\d+(?![\d.]))")
 
 
 def numbers_in(text):

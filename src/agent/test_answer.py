@@ -167,6 +167,11 @@ class CitedTest(unittest.TestCase):
                              graph.reply_fields(cite_output(citations=[{"fact": "온도 계수 0.05%/°C", "chunks": [1]}]), 1.0, 10, 20, None, TIMES))
         self.assertEqual(r["cited"][0]["checks"][0]["missing_numbers"], [0.05])
 
+    def test_minus_right_after_a_word_is_still_a_sign_for_decimals(self):
+        self.assertEqual(answer.numbers_in("계수는-0.05"), [-0.05])
+        self.assertEqual(answer.numbers_in("Tb-144의 반감기"), [144.0])
+        self.assertEqual(answer.numbers_in("-0.05"), [-0.05])
+
     def test_numbers_are_compared_by_value(self):
         r = record(cite_output(citations=[{"fact": "6.1450", "chunks": [1]}]))
         self.assertEqual((r["cited"][0]["numbers"], r["checks"]["wrong_attached"]), ([6.145], 0))
