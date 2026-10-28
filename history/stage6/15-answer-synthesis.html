@@ -236,7 +236,7 @@ Reference passages:
       </div>
       <div>
         <span class="lab">바꾼 뒤</span>
-        <p class="flowline">질문 + 청크 (+ 검색 계획?) → <b>답 쓰기</b> → 생각 과정, 최종 답, <b>근거로 쓴 청크</b> → 코드가 청크를 문서 식별자로 바꿔 기록</p>
+        <p class="flowline">질문 + 청크 → <b>답 쓰기</b> → 생각 과정, 최종 답, <b>근거로 쓴 청크</b> → 코드가 청크를 문서 식별자로 바꿔 기록</p>
       </div>
     </div>
     <div class="field">
@@ -299,10 +299,10 @@ answer: 0.00092175 kg</div></div>
       <div class="stop two">
         <div class="stop-head"><span class="where">2단계 고리</span><span class="stop-name">답 쓰기 · 바꾼 뒤</span><span class="who">생성 모델 qwen3:8b · AI가 쓴 예</span></div>
         <div class="field"><span class="lab">받는 것</span><p>새 지시문 + 청크 9개 + 질문 글. 검색 계획은 넘기지 않습니다. 이 질문에서도 밀도는 이미 청크에서 바르게 찾았고, 틀린 것은 계산이었기 때문입니다. <span class="mark fixed">정함 · 정할 것 3 · 검색 계획 넘기기</span></p></div>
-        <div class="field"><span class="lab">넘기는 것 (예)</span><div class="model">reason: Density of lanthanum at 20 °C is 6.145 g/cm³ [2]. Volume = 3 × 4 × 5 = 60 cm³. Mass = 6.145 × 60 = 368.7 g. 368.7 g = 0.3687 kg.
+        <div class="field"><span class="lab">넘기는 것 (예)</span><div class="model">reason: Density of lanthanum at 20 °C is 6.145 g/cm³. Volume = 3 × 4 × 5 = 60 cm³. Mass = 6.145 × 60 = 368.7 g. 368.7 g = 0.3687 kg.
 answer: 0.3687 kg
-citations: [2]</div></div>
-        <div class="field"><span class="lab">한국어 뜻</span><p class="ko-mean">생각 과정: 20 °C의 란타넘 밀도는 6.145 g/cm³다 [2]. 부피 = 3 × 4 × 5 = 60 cm³. 질량 = 6.145 × 60 = 368.7 g. 368.7 g = 0.3687 kg. 답: 0.3687 kg. 근거로 쓴 청크: 2번</p></div>
+citations: [ fact: Density of lanthanum at 20 °C is 6.145 g/cm³ · chunks: [2] ]</div></div>
+        <div class="field"><span class="lab">한국어 뜻</span><p class="ko-mean">생각 과정: 20 °C의 란타넘 밀도는 6.145 g/cm³다. 부피 = 3 × 4 × 5 = 60 cm³. 질량 = 6.145 × 60 = 368.7 g. 368.7 g = 0.3687 kg. 답: 0.3687 kg. 근거 칸: 사실 "20 °C의 란타넘 밀도는 6.145 g/cm³" · 청크 2번</p></div>
         <div class="field"><span class="lab">인용의 꼴 <span class="mark fixed">정함 · 정할 것 1 · 인용의 꼴</span></span><p>근거 칸 <code>citations</code>에 사실마다 그 사실을 가져온 청크 번호를 적습니다. 생각 과정과 답 칸은 지금 그대로이고, 생각 과정 안에는 번호를 넣지 않습니다. 채점은 답 칸만 보므로 바뀌지 않습니다. 답 글 안에 <code>0.3687 kg [2]</code>처럼 넣는 안은 버렸습니다. 채점이 답의 <b>마지막 숫자</b>를 고르므로 2를 답으로 세기 때문입니다.</p></div>
         <div class="field"><span class="lab">사실이 둘인 질문의 예 (AI가 만든 예)</span><div class="model">질문: 루테튬과 툴륨 가운데 상온 밀도가 더 큰 원소는 무엇이고, 그 차이는 몇 g/cm³인가?
 청크: [1] 「루테튬」 밀도 9.841 g/cm³ · [2] 「툴륨」 밀도 9.32 g/cm³
@@ -328,7 +328,7 @@ Reference passages:
         <div class="field"><span class="lab">판 2 지시문 (판 1의 계산 줄 하나를 이 두 줄로 바꿈)</span><div class="model">✚ If a calculation is needed, do it in reason with the actual numbers from the question and the passages, one step at a time (e.g., 2.5 × 4 = 10). Do not only describe the steps in words.
 ✚ Write the unit conversion (e.g., g → kg) as a step with numbers too, check the calculation once more, and write the final result of the calculation in answer.</div></div>
         <div class="field"><span class="lab">판 2 ✚ 줄의 한국어 뜻</span><ol class="steps ko-mean"><li>계산이 필요하면, 생각 과정에서 질문과 참고 글의 실제 숫자로 한 단계씩 계산하라(예: 2.5 × 4 = 10). 할 일을 말로만 적지 마라.</li><li>단위 바꾸기(예: g → kg)도 숫자로 한 단계로 쓰고, 계산을 한 번 더 확인하고, 계산의 최종 결과를 답에 써라.</li></ol></div>
-        <div class="field"><span class="lab">계산을 건너뛰는 것</span><p>⑧에서 답이 끊긴 2번도 같은 원인이었습니다. 생각 과정에 식만 적고 숫자 계산 없이 답 칸에 <code>0.000000…</code>을 길이 한도까지 썼습니다. 그래서 근거를 찾고도 틀린 8번은 모두 이 문제입니다. 지시문에 "할 일을 말로 적지 말고 숫자를 넣어 실제로 계산하라"는 줄을 넣습니다. 생각 모드(답 전에 길게 생각하는 기능)는 켜지 않고, 지시문으로 되지 않으면 켭니다. <span class="mark fixed">정함 · 정할 것 4 · 계산 실수</span></p></div>
+        <div class="field"><span class="lab">계산을 건너뛰는 것</span><p>⑧에서 답이 끊긴 2번도 같은 원인이었습니다. 생각 과정에 식만 적고 숫자 계산 없이 답 칸에 <code>0.000000…</code>을 길이 한도까지 썼습니다. 그래서 근거를 찾고도 틀린 8번은 모두 이 문제입니다. 지시문에 "할 일을 말로 적지 말고 숫자를 넣어 실제로 계산하라"는 줄을 넣습니다. 생각 모드(답 전에 길게 생각하는 기능)는 켜지 않습니다. 지시문으로 되지 않으면 바로 켜지 않고, 지시문을 더 알맞게 고치는 것 같은 다른 고침을 먼저 찾아 새 판으로 잽니다. 생각 모드는 다른 고침을 찾지 못했을 때만 걸리는 시간과 함께 사용자에게 묻습니다. <span class="mark fixed">정함 · 정할 것 4 · 계산 실수</span></p></div>
       </div>
     </div>
   </section>
@@ -341,7 +341,7 @@ Reference passages:
       <tr><td class="n">1</td><td><b>인용의 꼴</b><br>정함: 근거 칸 <code>citations</code>에 사실마다 청크 번호를 적는다(안 D). 생각 과정·답 칸은 그대로, 생각 과정 안에는 번호를 넣지 않는다. 서버에 칸의 틀(JSON 스키마)을 보내 꼴 오류와 목록에 없는 번호를 막는다. 코드가 번호를 문서 식별자와 줄로 바꾸고, 근거 칸의 숫자가 그 청크 글에 있는지 기록한다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">2</td><td><b>지시문</b><br>정함: 판 1(<code>cite-en-v1</code>)은 최소판 지시문에 근거 칸의 답 꼴과 두 줄(근거 칸 쓰는 법, 근거가 없으면 답할 수 없다고 쓰고 근거 칸을 비움)을 더하고 언어 줄에 fact를 더함. 판 2(<code>cite-en-v2</code>)는 판 1의 계산 줄을 "실제 숫자로 한 단계씩 계산하고, 말로만 적지 말고, 최종 결과를 답에 써라"로 바꿈. 전문은 "질문 하나가 지나가는 길"의 답 쓰기 · 바꾼 뒤 칸(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 승인 (AI가 씀)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">3</td><td><b>검색 계획 넘기기</b><br>정함: 넘기지 않는다(안 A). 답 쓰기는 지금처럼 질문 글과 청크 목록만 받는다. 근거를 찾고도 틀린 8번은 모두 값을 바르게 읽고 계산을 숫자로 하지 않은 것이라, 계획을 넘겨 고쳐질 실패가 없었다. 개발용 질문으로 다시 돌릴 때 찾을 것을 빠뜨려 틀린 답이 나오면 찾을 것 목록만 넘기는 안을 다시 본다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
-      <tr><td class="n">4</td><td><b>계산 실수</b><br>정함: 지시문을 고친다(안 A). 생각 과정에 할 일을 말로 적지 말고 질문과 청크의 숫자를 넣어 실제로 계산하게 한다. 생각 모드는 켜지 않고, 지시문으로 되지 않으면 켠다. 근거: 질량 질문의 근거를 찾은 90번에서 생각 과정에 부피 숫자를 쓴 82번은 모두 맞고, 쓰지 않은 8번(모두 영어)은 모두 틀림(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
+      <tr><td class="n">4</td><td><b>계산 실수</b><br>정함: 지시문을 고친다(안 A). 생각 과정에 할 일을 말로 적지 말고 질문과 청크의 숫자를 넣어 실제로 계산하게 한다. 생각 모드는 켜지 않고, 지시문으로 되지 않으면 다른 고침을 먼저 찾고 생각 모드는 마지막에 사용자에게 묻는다(정할 것 6). 근거: 질량 질문의 근거를 찾은 90번에서 생각 과정에 부피 숫자를 쓴 82번은 모두 맞고, 쓰지 않은 8번(모두 영어)은 모두 틀림(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">5</td><td><b>하나씩 잴지</b><br>정함: 차례로 붙여 따로 잰다(안 B). 판 0(⑧ 기록) → 판 1(㉮ 근거 칸을 더함) → 판 2(㉯ 계산 지시를 더함). 판 1은 판 0과, 판 2는 판 1과 견준다. 두 판의 다른 점이 변경 하나뿐이라 바뀐 것이 어느 변경 때문인지 맞춰진다. ㉮는 인용을 더하는 변경이고 틀린 답을 고치는 변경이 아니다. ㉯가 근거를 찾고도 틀린 8번을 고친다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">6</td><td><b>재는 법과 남길 기준</b><br>정함: 판 1은 꼴 오류 0, 근거를 찾은 실행에서 근거 칸이 근거 청크를 모두 가리킴, 맞던 답이 틀리게 바뀌면 1번이라도 기록을 읽어 원인을 가름, 답 언어가 같은 수(188)가 줄면 원인을 찾음. 판 2는 맞게 바뀐 수가 틀리게 바뀐 수보다 많으면 계산 지시를 남김. 생각 모드는 마지막 수단: 계산하지 않아 틀린 답이 남으면 지시문을 더 알맞게 고치는 것 같은 다른 고침을 먼저 찾아 새 판으로 잰다. 지시문이 바뀌면 무작위로 뒤집히는 답이 있어 "뺀다"가 아니라 "원인을 가른다"로 둠(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI가 안을 냄)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">7</td><td><b>실행 기록 경로와 견주는 프로그램</b><br>정함: 판 1·판 2는 ⑧ 기록의 질문·씨앗마다 답 쓰기에 넘긴 청크 목록을 그대로 다시 써서 「답 쓰기」만 다시 돌린다(190번에 약 30분). 기록은 <code>data/agent/answer_cite/runs_v1.jsonl</code>·<code>runs_v2.jsonl</code>, 견주는 프로그램은 새로 만든다. 그래프 전체가 도는지는 짧은 실제 실행으로 따로 확인한다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>AI가 정해 알림</td><td><span class="st">정함</span></td></tr>
