@@ -158,7 +158,7 @@ tr.asking td { background: var(--now); }
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 Codex 설계 검토를 받고, AI가 만들고 잽니다.</b><br><span class="note">결과는 이 페이지에 "잰 결과"로 더하고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
-    <div class="field"><span class="lab">지금 (2026-10-28)</span><p><b>정할 것 1 · 인용의 꼴을 정했습니다(안 D, 틀과 코드 검사). 다음: 정할 것 3 · 검색 계획 넘기기.</b> 지시문 전문(정할 것 2)은 3·4를 정한 뒤에 씁니다. 지시문이 3·4에 따라 달라지기 때문입니다.</p></div>
+    <div class="field"><span class="lab">지금 (2026-10-28)</span><p><b>정할 것 1 · 인용의 꼴(안 D, 틀과 코드 검사)과 정할 것 3 · 검색 계획 넘기기(넘기지 않음)를 정했습니다. 다음: 정할 것 4 · 계산 실수.</b> 지시문 전문(정할 것 2)은 3·4를 정한 뒤에 씁니다. 지시문이 3·4에 따라 달라지기 때문입니다.</p></div>
   </section>
 
   <section>
@@ -298,7 +298,7 @@ answer: 0.00092175 kg</div></div>
 
       <div class="stop two">
         <div class="stop-head"><span class="where">2단계 고리</span><span class="stop-name">답 쓰기 · 바꾼 뒤</span><span class="who">생성 모델 qwen3:8b · AI가 쓴 예</span></div>
-        <div class="field"><span class="lab">받는 것</span><p>새 지시문 + 청크 9개 + 질문 글. 검색 계획도 함께 줄지는 <span class="mark">정할 것 3 · 검색 계획 넘기기</span></p></div>
+        <div class="field"><span class="lab">받는 것</span><p>새 지시문 + 청크 9개 + 질문 글. 검색 계획은 넘기지 않습니다. 이 질문에서도 밀도는 이미 청크에서 바르게 찾았고, 틀린 것은 계산이었기 때문입니다. <span class="mark fixed">정함 · 정할 것 3 · 검색 계획 넘기기</span></p></div>
         <div class="field"><span class="lab">넘기는 것 (예)</span><div class="model">reason: Density of lanthanum at 20 °C is 6.145 g/cm³ [2]. Volume = 3 × 4 × 5 = 60 cm³. Mass = 6.145 × 60 = 368.7 g. 368.7 g = 0.3687 kg.
 answer: 0.3687 kg
 citations: [2]</div></div>
@@ -326,8 +326,8 @@ citations: [ fact: 루테튬의 밀도 9.841 g/cm³ · chunks: [1] ]
       <tr><th style="width:2.5em">번호</th><th>무엇을 정하나</th><th style="width:7.5em">누가 정하나</th><th style="width:5.5em">상태</th></tr>
       <tr><td class="n">1</td><td><b>인용의 꼴</b><br>정함: 근거 칸 <code>citations</code>에 사실마다 청크 번호를 적는다(안 D). 생각 과정·답 칸은 그대로, 생각 과정 안에는 번호를 넣지 않는다. 서버에 칸의 틀(JSON 스키마)을 보내 꼴 오류와 목록에 없는 번호를 막는다. 코드가 번호를 문서 식별자와 줄로 바꾸고, 근거 칸의 숫자가 그 청크 글에 있는지 기록한다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">2</td><td><b>지시문</b><br>근거가 없을 때 쓸 답을 포함한 답 쓰기 지시문 전문. 최소판 지시문은 그대로 두고 새 판을 따로 둔다</td><td>사용자 승인 (AI가 씀)</td><td><span class="st wait">아직</span></td></tr>
-      <tr class="asking"><td class="n">3</td><td><b>검색 계획 넘기기</b><br>1단계가 쓴 찾을 것·조건·단위를 답 쓰기에 함께 넘길지 (미정 목록 "답을 쓸 때 검색 계획을 질문·청크와 함께 넘겨" 줄)</td><td>사용자 (AI 추천)</td><td><span class="st ask">묻는 중</span></td></tr>
-      <tr><td class="n">4</td><td><b>계산 실수</b><br>지시문을 더 고칠지, 생각 모드를 켤지. 생각 모드는 190번 도는 시간이 크게 늘 수 있다(지금 답 쓰기는 한 번에 평균 9.6초) (미정 목록 "답 쓰는 쪽에서 계산 실수를 더 줄일지와 방법" 줄)</td><td>사용자</td><td><span class="st wait">아직</span></td></tr>
+      <tr><td class="n">3</td><td><b>검색 계획 넘기기</b><br>정함: 넘기지 않는다(안 A). 답 쓰기는 지금처럼 질문 글과 청크 목록만 받는다. 근거를 찾고도 틀린 8번은 모두 값을 바르게 읽고 계산을 숫자로 하지 않은 것이라, 계획을 넘겨 고쳐질 실패가 없었다. 개발용 질문으로 다시 돌릴 때 찾을 것을 빠뜨려 틀린 답이 나오면 찾을 것 목록만 넘기는 안을 다시 본다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
+      <tr class="asking"><td class="n">4</td><td><b>계산 실수</b><br>지시문을 더 고칠지, 생각 모드를 켤지. 생각 모드는 190번 도는 시간이 크게 늘 수 있다(지금 답 쓰기는 한 번에 평균 9.6초) (미정 목록 "답 쓰는 쪽에서 계산 실수를 더 줄일지와 방법" 줄)</td><td>사용자</td><td><span class="st ask">묻는 중</span></td></tr>
       <tr><td class="n">5</td><td><b>하나씩 잴지</b><br>인용·검색 계획·계산을 한 번에 붙여 190번 잴지, 따로 붙여 각각 잴지. 기능은 하나씩 붙이고 따로 확인한다는 규칙과 시간이 걸린다</td><td>사용자</td><td><span class="st wait">아직</span></td></tr>
       <tr><td class="n">6</td><td><b>재는 법과 남길 기준</b><br>인용이 근거 청크를 가리킨 수(코드가 근거 청크 번호와 견줘 셈), 맞은 답 수와 답 언어가 같은 수를 지금 시스템과 견주는 기준. 결과를 보기 전에 정한다</td><td>AI가 안을 내고 사용자가 정함</td><td><span class="st wait">아직</span></td></tr>
       <tr><td class="n">7</td><td><b>실행 기록 경로와 견주는 프로그램</b><br>지금 실행 프로그램의 기본 경로는 ⑧ 기록을 가리켜 새로 돌리면 멈춘다. ④의 기록 경로와 견주는 프로그램을 정한다</td><td>AI가 정해 알림</td><td><span class="st wait">아직</span></td></tr>
