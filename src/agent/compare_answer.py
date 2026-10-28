@@ -84,6 +84,8 @@ def new_checks(new, keys):
             "cites_false": where(lambda a: a["checks"]["cites_evidence"] is False),
             "wrong_attached_sum": sum(n for _, n in wrong), "wrong_attached": wrong,
             "no_number_facts": sum(new[k]["answer"]["checks"]["no_number_facts"] or 0 for k in keys),
+            "facts_without_chunks": [(k, new[k]["answer"]["checks"]["facts_without_chunks"]) for k in keys
+                                     if new[k]["answer"]["checks"].get("facts_without_chunks")],
             "citation_missing": where(lambda a: a["checks"]["citation_missing"]),
             "invalid_chunks": [(k, [c for item in new[k]["answer"]["cited"] for c in item["invalid_chunks"]]) for k in keys
                                if any(item["invalid_chunks"] for item in new[k]["answer"]["cited"] or [])]}
@@ -126,6 +128,8 @@ def render(base, new, base_path, new_path, by_id, expected=None):
            f"- wrong_attached 합: {c['wrong_attached_sum']} ({len(c['wrong_attached'])}개 실행)",
            *([f"- {name(k)}: {count}" for k, count in c["wrong_attached"]] or ["- 없음"]),
            f"- no_number_facts 합: {c['no_number_facts']}",
+           f"- facts_without_chunks(청크 번호가 빈 사실) 합: {sum(n for _, n in c['facts_without_chunks'])} ({len(c['facts_without_chunks'])}개 실행)",
+           *([f"- {name(k)}: {count}" for k, count in c["facts_without_chunks"]] or ["- 없음"]),
            f"- citation_missing인 실행: {len(c['citation_missing'])}개", *lines_of(c["citation_missing"]),
            f"- 목록에 없는 청크 번호(invalid_chunks)가 있는 실행: {len(c['invalid_chunks'])}개",
            *([f"- {name(k)}: {numbers}" for k, numbers in c["invalid_chunks"]] or ["- 없음"]), ""]

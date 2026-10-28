@@ -37,7 +37,7 @@ def base_row(qid, seed, hit, text, reason="읽는다", first=None, **kw):
 
 
 def checks(**kw):
-    return {"shape_ok": True, "cites_evidence": True, "wrong_attached": 0, "no_number_facts": 0, "citation_missing": False, "aborted": False, **kw}
+    return {"shape_ok": True, "cites_evidence": True, "wrong_attached": 0, "no_number_facts": 0, "facts_without_chunks": 0, "citation_missing": False, "aborted": False, **kw}
 
 
 def new_row(qid, seed, hit, text, reason="읽는다", cited=(), base_kind="final", check=None, **kw):
@@ -52,7 +52,7 @@ def base_world():
 
 def new_world():
     return [new_row("q01-ko", 1, True, "17.7 kg", "6.145*60 = 368.7"), new_row("q01-ko", 2, True, "17.7 kg", "2 g × 3"),
-            new_row("q02-ko", 1, False, "5 kg"), new_row("q02-ko", 2, True, "9 kg", check=checks(cites_evidence=False, wrong_attached=2, no_number_facts=1))]
+            new_row("q02-ko", 1, False, "5 kg"), new_row("q02-ko", 2, True, "9 kg", check=checks(cites_evidence=False, wrong_attached=2, no_number_facts=1, facts_without_chunks=1))]
 
 
 class CellsTest(unittest.TestCase):
@@ -133,7 +133,7 @@ class CountsTest(unittest.TestCase):
     def test_new_side_common_checks(self):
         rows = new_world()
         rows[0]["answer"]["checks"] = checks(citation_missing=True)
-        rows[1]["answer"]["checks"] = checks(shape_ok=False, cites_evidence=None, wrong_attached=None, no_number_facts=None, citation_missing=None)
+        rows[1]["answer"]["checks"] = checks(shape_ok=False, cites_evidence=None, wrong_attached=None, no_number_facts=None, facts_without_chunks=None, citation_missing=None)
         rows[2]["answer"]["cited"] = [{"invalid_chunks": [9]}, {"invalid_chunks": []}]
         c = compare_answer.new_checks(compare_answer.cells_of(rows), self.keys)
         self.assertEqual(c["shape_errors"], [("q01-ko", 2)])
@@ -141,6 +141,7 @@ class CountsTest(unittest.TestCase):
         self.assertEqual(c["cites_false"], [("q02-ko", 2)])
         self.assertEqual((c["wrong_attached_sum"], c["wrong_attached"]), (2, [(("q02-ko", 2), 2)]))
         self.assertEqual(c["no_number_facts"], 1)
+        self.assertEqual(c["facts_without_chunks"], [(("q02-ko", 2), 1)])
         self.assertEqual(c["citation_missing"], [("q01-ko", 1)])
         self.assertEqual(c["invalid_chunks"], [(("q02-ko", 1), [9])])
 

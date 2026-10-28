@@ -103,18 +103,21 @@ def cited_of(citations, found):
 
 def checks_of(parsed, cited, hit_ranks, picked, aborted):
     """공통 검사(decisions/stage6.md 2026-10-28 "근거 칸의 공통 검사").
-    shape_ok: 꼴이 맞음. 꼴이 틀리면 근거 칸을 읽을 수 없으므로 cites_evidence·wrong_attached·no_number_facts·citation_missing은 null이다.
+    shape_ok: 꼴이 맞음. 꼴이 틀리면 근거 칸을 읽을 수 없으므로 cites_evidence·wrong_attached·no_number_facts·facts_without_chunks·citation_missing은 null이다.
     cites_evidence: hit_ranks가 비어 있지 않을 때 근거 칸 전체의 청크 번호가 hit_ranks와 겹치면 true, 아니면 false. hit_ranks가 비면 null.
     wrong_attached: (사실, 인용한 청크) 쌍 가운데 사실에 숫자가 있고 그 숫자 하나라도 청크 글에 없는 쌍의 수.
-    no_number_facts: 숫자가 없는 사실의 수. citation_missing: answer에서 숫자를 골랐는데 근거 칸이 빈 목록. aborted: 끊김."""
+    no_number_facts: 숫자가 없는 사실의 수. facts_without_chunks: 청크 번호가 빈 사실의 수(참고 글 밖의 지식, decisions/stage6.md 2026-10-28 "청크가 없는 사실" 줄).
+    citation_missing: answer에서 숫자를 골랐는데 근거 칸이 빈 목록. aborted: 끊김."""
     ok = shape_ok_of(parsed)
     if not ok:
-        return {"shape_ok": False, "cites_evidence": None, "wrong_attached": None, "no_number_facts": None, "citation_missing": None, "aborted": aborted}
+        return {"shape_ok": False, "cites_evidence": None, "wrong_attached": None, "no_number_facts": None, "facts_without_chunks": None,
+                "citation_missing": None, "aborted": aborted}
     cited_ranks = {c for item in cited for c in item["chunks"]}
     return {"shape_ok": True,
             "cites_evidence": bool(cited_ranks & set(hit_ranks)) if hit_ranks else None,
             "wrong_attached": sum(bool(check["missing_numbers"]) for item in cited if item["numbers"] for check in item["checks"]),
             "no_number_facts": sum(not item["numbers"] for item in cited),
+            "facts_without_chunks": sum(not item["chunks"] for item in cited),
             "citation_missing": picked is not None and not cited,
             "aborted": aborted}
 

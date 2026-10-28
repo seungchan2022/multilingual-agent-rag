@@ -153,6 +153,11 @@ class CitedTest(unittest.TestCase):
                                            {"fact": "반감기는 17.7 시간", "chunks": [3]}]))
         self.assertEqual((r["checks"]["no_number_facts"], r["checks"]["wrong_attached"]), (2, 0))
 
+    def test_facts_without_chunks_are_counted(self):
+        # 참고 글 밖의 지식(예: 단위 환산)을 청크 번호 없이 적은 사실
+        r = record(cite_output(citations=[{"fact": "1 g/cm³ = 1000 kg/m³", "chunks": []}, {"fact": "반감기는 17.7 시간", "chunks": [3]}]))
+        self.assertEqual((r["checks"]["facts_without_chunks"], r["checks"]["wrong_attached"]), (1, 0))
+
     def test_citation_missing_when_a_number_was_picked_but_citations_are_empty(self):
         r = record(cite_output(answer_text="17.7 시간", citations=[]))
         self.assertTrue(r["checks"]["citation_missing"])
@@ -192,7 +197,7 @@ class ShapeTest(unittest.TestCase):
     def assert_unreadable(self, r):
         self.assertFalse(r["checks"]["shape_ok"])
         self.assertIsNone(r["cited"])
-        for key in ("cites_evidence", "wrong_attached", "no_number_facts", "citation_missing"):
+        for key in ("cites_evidence", "wrong_attached", "no_number_facts", "facts_without_chunks", "citation_missing"):
             self.assertIsNone(r["checks"][key], key)
 
     def test_not_json(self):
@@ -251,7 +256,7 @@ class RecordFieldsTest(unittest.TestCase):
         for key in ("parsed_ok", "reason", "answer", "numbers", "picked", "value", "correct", "unit", "answer_lang", "hangul", "latin", "lang_ok"):
             self.assertIn(key, r)
         self.assertEqual((r["answer"], r["picked"], r["correct"], r["parsed_ok"]), ("17.7 시간", 17.7, True, True))
-        self.assertEqual(set(r["checks"]), {"shape_ok", "cites_evidence", "wrong_attached", "no_number_facts", "citation_missing", "aborted"})
+        self.assertEqual(set(r["checks"]), {"shape_ok", "cites_evidence", "wrong_attached", "no_number_facts", "facts_without_chunks", "citation_missing", "aborted"})
 
     def test_grading_ignores_citations(self):
         # 근거 칸의 숫자(번호 3)가 있어도 채점은 answer 칸의 마지막 숫자만 본다
