@@ -2,6 +2,7 @@
 
   .venv/bin/python src/agent/run.py     # 38 × 5 = 190번 → data/agent/plan_search/runs.jsonl
   .venv/bin/python src/agent/run.py --questions q01-ko,q03-en --seeds 1 --out <경로>     # 짧은 확인용
+  .venv/bin/python src/agent/run.py --answer-version cite-en-v1 --questions q08-en --seeds 2 --out <경로>     # 근거 칸이 있는 답 쓰기로 그래프 전체 확인(이슈 #15)
 
 규칙은 decisions/stage6.md의 2026-10-26 줄(재는 법의 첫째 / 비교용이 넘기는 청크 수를 실행마다 맞춘다 / 모델 답의 꼴 검사)과
 2026-10-27 줄(저지먼트·리파이먼트를 뺀다 / 시간 기록)에 있다. 그래프는 src/agent/graph.py다.
@@ -24,6 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "minimal"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import answer  # noqa: E402
 import generate  # noqa: E402
 import graph  # noqa: E402
 import merge  # noqa: E402
@@ -55,13 +57,15 @@ def run_one(compiled, conn, model, question, seed):
     return state, extra, run_seconds
 
 
-def run(questions, path, conn, model, seeds=SEEDS):
-    """몸풀기 뒤에 씨앗 → 질문 순서로 하나씩 돌려 한 줄씩 path에 쓴다. 쓴 줄 수를 돌려준다."""
+def run(questions, path, conn, model, seeds=SEEDS, answer_version=None):
+    """몸풀기 뒤에 씨앗 → 질문 순서로 하나씩 돌려 한 줄씩 path에 쓴다. 쓴 줄 수를 돌려준다.
+    answer_version을 주면 답 쓰기가 근거 칸이 있는 판(answer.py)이다. None이면 ⑧의 답 쓰기다."""
     generate.check_new(path)
     commit, dirty = generate.git_state()
     run_id = time.strftime("%Y%m%dT%H%M%S")
     path.parent.mkdir(parents=True, exist_ok=True)
-    compiled = graph.build(conn, model)
+    compiled = graph.build(conn, model, answer_version=answer_version)
+    prompt_version = PROMPT_VERSION if answer_version is None else {**PROMPT_VERSION, "answer": answer.prompt_version(answer_version)}
     warm_up()
     n = 0
     with open(path, "x", encoding="utf-8") as out:
@@ -75,7 +79,7 @@ def run(questions, path, conn, model, seeds=SEEDS):
                 row = {"run_id": run_id, "question_id": q["id"], "lang": q["lang"], "branch": q["branch"], "seed": seed,
                        "generate_model": generate.MODEL, "plan_options": plan.plan_body("", seed)["options"],
                        "answer_options": generate.request_body("", "", seed)["options"],
-                       "prompt_version": PROMPT_VERSION, "code_commit": commit, "code_dirty": dirty, "langgraph_version": version("langgraph"),
+                       "prompt_version": prompt_version, "code_commit": commit, "code_dirty": dirty, "langgraph_version": version("langgraph"),
                        "run_seconds": run_seconds, "node_times": state["node_times"],
                        "plan_step": state["plan_step"], "plan": state["plan"],
                        "shape_error": error, "search": state["search"], **extra, "answer": state["answer"]}
@@ -94,14 +98,15 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="1단계 고리로 질문 38개를 씨앗 1~5로 돌려 실행 기록을 남긴다")
     parser.add_argument("--questions", help="돌릴 질문 ID를 쉼표로 이은 것(짧은 확인용). 주면 --out이 필요하다")
     parser.add_argument("--seeds", help="돌릴 씨앗을 쉼표로 이은 것(짧은 확인용). 주면 --out이 필요하다")
+    parser.add_argument("--answer-version", choices=sorted(answer.SYSTEMS), help="근거 칸이 있는 답 쓰기의 판(짧은 확인용). 주면 --out이 필요하다")
     parser.add_argument("--out", type=Path, help="기록 파일 경로(기본 data/agent/plan_search/runs.jsonl). 기본 경로에는 전체 190번만 쓴다")
     args = parser.parse_args(argv)
-    partial = args.questions is not None or args.seeds is not None
+    partial = args.questions is not None or args.seeds is not None or args.answer_version is not None
     if partial and args.out is None:
-        parser.error("--questions나 --seeds를 주면 --out을 반드시 함께 줘야 한다(짧은 확인이 기본 경로 runs.jsonl에 쓰이지 않게)")
+        parser.error("--questions, --seeds, --answer-version을 주면 --out을 반드시 함께 줘야 한다(짧은 확인이 기본 경로 runs.jsonl에 쓰이지 않게)")
     path = args.out or RUNS
     if partial and path.resolve() == RUNS.resolve():
-        parser.error("--questions나 --seeds를 준 짧은 확인은 기본 경로 runs.jsonl에 쓰지 못한다")
+        parser.error("--questions, --seeds, --answer-version을 준 짧은 확인은 기본 경로 runs.jsonl에 쓰지 못한다")
     generate.check_new(path)
     questions = json.loads(QUESTIONS.read_text(encoding="utf-8"))
     if args.questions is not None:
@@ -118,7 +123,7 @@ def main(argv=None):
     import psycopg
     model = load_model(generate.EMBED_MODEL)
     with psycopg.connect(DSN) as conn:
-        n = run(questions, path, conn, model, seeds=seeds)
+        n = run(questions, path, conn, model, seeds=seeds, answer_version=args.answer_version)
     print(f"\n{n}줄 씀: {path}")
 
 

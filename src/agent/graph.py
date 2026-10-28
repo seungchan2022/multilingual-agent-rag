@@ -19,6 +19,7 @@ from typing import TypedDict
 from langgraph.graph import END, START, StateGraph
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "minimal"))
+import answer  # noqa: E402
 import generate  # noqa: E402
 import merge  # noqa: E402
 import plan  # noqa: E402
@@ -72,6 +73,13 @@ def answer_of(question, found, seed, label="answer"):
     return {"system_message": system_message, "user_message": user_message, **reply_fields(*reply), **generate.graded(question, reply[0])}
 
 
+def cite_answer_of(version, question, found, seed, hit_ranks, label="answer"):
+    """합친 청크로 근거 칸이 있는 답 쓰기(answer.py의 지시문 판 version)를 하고 기록을 만든다. 요청은 generate.send로 보내고 format만 틀이다."""
+    system_message, user_message = answer.messages_of(version, question, found)
+    reply = ask(label, generate.send, answer.request_body(system_message, user_message, seed, len(found)))
+    return answer.record_of(question, found, hit_ranks, system_message, user_message, reply_fields(*reply))
+
+
 def shape_error_of(stage, index, problems, body, output):
     """꼴 오류 기록: 어느 칸(generate)의 몇 번째 요청인지, 까닭 목록, 그 요청의 시스템·사용자 메시지·모델·설정, 받은 원문."""
     system_message, user_message = (m["content"] for m in body["messages"])
@@ -79,8 +87,9 @@ def shape_error_of(stage, index, problems, body, output):
             "model": body["model"], "options": body["options"], "output": output}
 
 
-def build(conn, model):
+def build(conn, model, answer_version=None):
     """conn(데이터베이스 연결)과 model(임베딩 모델)을 쥐고 1단계 고리 그래프를 만들어 컴파일해 돌려준다.
+    answer_version이 None이면 답 쓰기는 최소판(answer_of)이고, 판 이름(answer.SYSTEMS의 키)을 주면 근거 칸이 있는 답 쓰기(cite_answer_of)다.
     graph.invoke(initial_state(질문, 씨앗))이 실행 하나를 돌려 마지막 상태를 돌려준다."""
 
     def generate_node(state):
@@ -103,7 +112,9 @@ def build(conn, model):
         return {"search": record, "merged_found": found}
 
     def answer_node(state):
-        return {"answer": answer_of(state["question"], state["merged_found"], state["seed"])}
+        if answer_version is None:
+            return {"answer": answer_of(state["question"], state["merged_found"], state["seed"])}
+        return {"answer": cite_answer_of(answer_version, state["question"], state["merged_found"], state["seed"], state["search"]["hit_ranks"])}
 
     def after_generate(state):
         return END if state["shape_error"] else "search"

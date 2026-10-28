@@ -179,7 +179,7 @@ class MainTest(unittest.TestCase):
         calls = self.call_main([])
         self.assertEqual([c[0] for c in calls], ["load_model", "connect", "run"])
         _, ids, path, kw = calls[2]
-        self.assertEqual((len(ids), path, kw), (38, self.default, {"seeds": (1, 2, 3, 4, 5)}))
+        self.assertEqual((len(ids), path, kw), (38, self.default, {"seeds": (1, 2, 3, 4, 5), "answer_version": None}))
 
     def test_default_path_is_refused_when_file_exists_before_loading_anything(self):
         self.default.write_text("첫 실행의 기록\n", encoding="utf-8")
@@ -194,7 +194,7 @@ class MainTest(unittest.TestCase):
             self.call_main(["--questions", "q01-ko", "--out", str(out)])
 
     def test_questions_or_seeds_without_out_is_refused(self):
-        for argv in (["--questions", "q01-ko"], ["--seeds", "1"], ["--questions", "q01-ko", "--seeds", "1"]):
+        for argv in (["--questions", "q01-ko"], ["--seeds", "1"], ["--questions", "q01-ko", "--seeds", "1"], ["--answer-version", "cite-en-v1"]):
             with self.assertRaises(SystemExit) as cm:
                 self.call_main(argv)
             self.assertEqual(cm.exception.code, 2, argv)
@@ -202,12 +202,14 @@ class MainTest(unittest.TestCase):
     def test_partial_run_cannot_write_to_the_default_path(self):
         with self.assertRaises(SystemExit):
             self.call_main(["--questions", "q01-ko", "--out", str(self.default)])
+        with self.assertRaises(SystemExit):
+            self.call_main(["--answer-version", "cite-en-v1", "--out", str(self.default)])
 
     def test_partial_run_with_out(self):
         out = Path(self.tmp.name) / "short" / "runs.jsonl"
         calls = self.call_main(["--questions", "q03-en,q01-ko", "--seeds", "1", "--out", str(out)])
         _, ids, path, kw = calls[-1]
-        self.assertEqual((ids, path, kw), (["q01-ko", "q03-en"], out, {"seeds": (1,)}))   # 질문은 파일의 순서
+        self.assertEqual((ids, path, kw), (["q01-ko", "q03-en"], out, {"seeds": (1,), "answer_version": None}))   # 질문은 파일의 순서
 
     def test_unknown_question_and_seed_are_refused(self):
         out = Path(self.tmp.name) / "short.jsonl"
