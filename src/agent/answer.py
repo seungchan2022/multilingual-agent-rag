@@ -95,8 +95,9 @@ def shape_ok_of(parsed):
         and all(isinstance(c, int) and not isinstance(c, bool) for c in item["chunks"]) for item in citations)
 
 
-# 이름과 질량수 사이의 하이픈(Tb-144, 터븀-144). 부호가 아니다. 뒤가 소수(.)로 이어지는 수(계수는-0.05)는 부호로 둔다
-NAME_HYPHEN = re.compile(r"(?<=[A-Za-z가-힣])-(?=\d+(?![\d.]))")
+# 글자에 바로 붙은 하이픈(Tb-144, 터븀-144, lithium-7)은 부호가 아니라 이름과 번호를 잇는 것으로 보고 지운다. 코퍼스(data/corpus/markdown)에서
+# 글자 뒤에 붙은 "-숫자"는 모두 이런 이름과 번호였다(사마륨-149, lutetium-176, SM-2 등). 빈칸이나 줄 처음 뒤의 -는 부호로 둔다(-0.05)
+NAME_HYPHEN = re.compile(r"(?<=[A-Za-z가-힣])-(?=\d)")
 
 
 def numbers_in(text):
