@@ -12,6 +12,11 @@
   v1-norefuse : 판 1에서 "근거가 없으면 답할 수 없다고 써라" 줄만 뺌 + 틀
   v0-citefield: 판 0 지시문의 답 꼴 줄에만 citations 칸을 더함(다른 줄은 판 0 그대로) + 틀
   v1-copy     : 판 1 + "fact는 참고 글의 말을 그대로 옮기고, 그 사실이 무엇의 값인지(참고 글 제목의 이름)를 함께 써라" 한 줄 + 틀
+3차(--round 3, out3.jsonl): 사용자가 안 ㉠(확인 줄을 더함)을 골라, 확인 줄의 효과를 q09-en과 번호를 잘못 적은 q02-en에서 본다.
+  v1-schema    : 판 1 그대로(q02-en의 대조)
+  v1-titlecheck: 판 1의 근거 칸 줄 다음에 "값을 쓰기 전에 그 참고 글의 제목이 질문이 묻는 것과 같은지, 다른 언어여도 확인하라" 한 줄 + 틀
+4차(--round 4, out4.jsonl): 3차의 확인 줄이 q09-en을 고치지 못해, 참고 글 머리의 문서 ID(wiki-ko-<영어 이름>)로 확인하게 하는 줄을 본다.
+  v1-idcheck: 판 1의 근거 칸 줄 다음에 "참고 글은 문서 ID로 시작하고 ID에는 다룬 것의 영어 이름이 있다(예: wiki-ko-<영어 이름>). 값을 쓰기 전에 ID로 질문이 묻는 것과 같은지 확인하라" + 틀
 """
 import json
 import sys
@@ -33,6 +38,12 @@ REFUSE = ("If the reference passages do not contain the facts needed to answer, 
 FORMAT_V0 = '{"reason": "Write the reasoning that leads to the answer, step by step", "answer": "Write only the final answer, briefly"}'
 COPY = ("In fact, copy the words of the passage as they are, and include the name of the thing the fact is about, "
         "as written in the passage title.")
+TITLE_CHECK = ("Before you use a value, check that the title of its passage names the same thing the question asks about, "
+               "even if the passage is in a different language from the question.")
+OUT3 = Path(__file__).resolve().parent / "out3.jsonl"
+OUT4 = Path(__file__).resolve().parent / "out4.jsonl"
+ID_CHECK = ("Each reference passage starts with its document ID, and the ID contains the English name of what the document is about "
+            "(for example, wiki-ko-<English name>). Before you use a value, check with the ID that the passage is about the same thing the question asks about.")
 assert REFUSE in answer.CITE_V1 and FORMAT_V0 in generate.SYSTEM_EN
 LANG_V1 = ("Answer in the same language as the question. If the question is in Korean, write reason, answer, and fact in Korean; "
            "if it is in English, write them in English.")
@@ -60,16 +71,30 @@ def variants2(found):
             "v1-copy": (answer.CITE_V1.replace(REFUSE, REFUSE + "\n" + COPY) + context, answer.schema(n))}
 
 
+def variants3(found):
+    context = generate.CONTEXT_EN.format(passages=generate.passages_of(found))
+    n = len(found)
+    return {"v1-schema": (answer.CITE_V1 + context, answer.schema(n)),
+            "v1-titlecheck": (answer.CITE_V1.replace(REFUSE, TITLE_CHECK + "\n" + REFUSE) + context, answer.schema(n))}
+
+
+def variants4(found):
+    context = generate.CONTEXT_EN.format(passages=generate.passages_of(found))
+    return {"v1-idcheck": (answer.CITE_V1.replace(REFUSE, ID_CHECK + "\n" + REFUSE) + context, answer.schema(len(found)))}
+
+
 def main():
     import psycopg
-    second = "--round" in sys.argv and sys.argv[sys.argv.index("--round") + 1] == "2"
-    out_path, make, names = (OUT2, variants2, ("v1-norefuse", "v0-citefield", "v1-copy")) if second else \
-        (OUT, variants, ("v0-json", "v1-schema", "v1-json", "v1-nofact"))
+    round_ = sys.argv[sys.argv.index("--round") + 1] if "--round" in sys.argv else "1"
+    out_path, make, names, qids = {"1": (OUT, variants, ("v0-json", "v1-schema", "v1-json", "v1-nofact"), (QID,)),
+                                   "2": (OUT2, variants2, ("v1-norefuse", "v0-citefield", "v1-copy"), (QID,)),
+                                   "3": (OUT3, variants3, ("v1-schema", "v1-titlecheck"), ("q09-en", "q02-en")),
+                                   "4": (OUT4, variants4, ("v1-idcheck",), ("q09-en", "q02-en"))}[round_]
     generate.check_new(out_path)
     questions = json.loads(QUESTIONS.read_text(encoding="utf-8"))
     base_rows = run_answer.read_jsonl(run_answer.BASE_RUNS)
     with psycopg.connect(DSN) as conn:
-        items = [i for i in run_answer.prepare(conn, base_rows, questions) if i["row"]["question_id"] == QID]
+        items = [i for i in run_answer.prepare(conn, base_rows, questions) if i["row"]["question_id"] in qids]
     run_answer.warm_up()
     with open(out_path, "x", encoding="utf-8") as out:
         for name in names:
@@ -84,11 +109,13 @@ def main():
                     citations = json.loads(text).get("citations")
                 except (json.JSONDecodeError, AttributeError):
                     citations = None
-                row = {"variant": name, "seed": seed, "answer": graded["answer"], "correct": graded["correct"],
+                cited = answer.cited_of(citations, found) if isinstance(citations, list) and answer.shape_ok_of(json.loads(text)) else None
+                wrong = None if cited is None else sum(bool(c["missing_numbers"]) for item in cited if item["numbers"] for c in item["checks"])
+                row = {"variant": name, "question_id": item["row"]["question_id"], "wrong_attached": wrong, "seed": seed, "answer": graded["answer"], "correct": graded["correct"],
                        "citations": citations, "reason": graded["reason"], "seconds": seconds, "hit_ranks": item["search"]["hit_ranks"]}
                 out.write(json.dumps(row, ensure_ascii=False) + "\n")
                 out.flush()
-                print(name, seed, graded["answer"], "맞음" if graded["correct"] else "틀림", citations, flush=True)
+                print(name, item["row"]["question_id"], seed, "wrong_attached", wrong, graded["answer"], "맞음" if graded["correct"] else "틀림", citations, flush=True)
 
 
 if __name__ == "__main__":
