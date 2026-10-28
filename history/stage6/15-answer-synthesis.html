@@ -158,7 +158,7 @@ tr.asking td { background: var(--now); }
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 Codex 설계 검토를 받고, AI가 만들고 잽니다.</b><br><span class="note">결과는 이 페이지에 "잰 결과"로 더하고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
-    <div class="field"><span class="lab">지금 (2026-10-28)</span><p><b>정할 것 1 · 인용의 꼴(안 D, 틀과 코드 검사), 정할 것 3 · 검색 계획 넘기기(넘기지 않음), 정할 것 4 · 계산 실수(지시문을 고침), 정할 것 5 · 하나씩 잴지(차례로 따로 잼), 정할 것 6 · 재는 법과 남길 기준, 정할 것 7 · 실행 기록 경로를 정했습니다. 다음: 정할 것 2 · 지시문 전문(판 1과 판 2의 두 판).</b></p></div>
+    <div class="field"><span class="lab">지금 (2026-10-28)</span><p><b>정할 것 1 · 인용의 꼴(안 D, 틀과 코드 검사), 정할 것 3 · 검색 계획 넘기기(넘기지 않음), 정할 것 4 · 계산 실수(지시문을 고침), 정할 것 5 · 하나씩 잴지(차례로 따로 잼), 정할 것 6 · 재는 법과 남길 기준, 정할 것 7 · 실행 기록 경로, 정할 것 2 · 지시문 전문(판 1·판 2)을 정해 정할 것 7개를 모두 정했습니다. 다음: Codex 설계 검토 1차.</b></p></div>
   </section>
 
   <section>
@@ -313,7 +313,21 @@ citations: [ fact: 루테튬의 밀도 9.841 g/cm³ · chunks: [1] ]
            [ fact: 툴륨의 밀도 9.32 g/cm³ · chunks: [2] ]</div></div>
         <div class="field"><span class="lab">꼴을 막는 틀</span><p>서버(Ollama)에 칸 이름과 꼴을 적은 틀(JSON 스키마)을 함께 보내, 모델이 그 틀에 맞는 글만 쓰게 합니다. 지금 설정은 괄호와 따옴표가 맞는 JSON만 보장하고 칸의 꼴은 보장하지 않습니다. 틀에는 "번호는 1부터 넘긴 청크 수까지만"도 적습니다. 시험에서 청크 둘을 주고 7번을 인용하라고 시키자, 답 글에는 "chunk 7"이라 썼지만 근거 칸에는 <code>[1]</code>만 썼습니다.</p></div>
         <div class="field"><span class="lab">코드가 하는 일</span><p>청크 번호 2를 그 청크의 문서 식별자와 줄(<code>wiki-en-lanthanum</code>, 15~23번째 줄)로 바꿔 기록에 남깁니다. 번호와 문서는 코드가 이미 쥐고 있으므로 모델이 문서 이름을 옮겨 쓰지 않습니다. 근거 칸의 숫자(예: 6.145)가 인용한 청크 글에 그대로 있는지도 사실마다 기록합니다. 맞지 않을 때 고치는 일은 ⑥ 판정과 ⑨ 답 고치기에서 하고, ④에서는 몇 번 일어나는지 셉니다.</p></div>
-        <div class="field"><span class="lab">근거가 없을 때</span><p>청크에 답할 근거가 없으면 무엇을 쓰게 할지(답할 수 없다고 쓰고 인용을 비움 등) <span class="mark">정할 것 2 · 지시문</span></p></div>
+        <div class="field"><span class="lab">근거가 없을 때 <span class="mark fixed">정함 · 정할 것 2 · 지시문</span></span><p>참고 글에 필요한 사실이 없으면 답할 수 없다고 쓰고 근거 칸을 비웁니다. ⑧에서 근거를 못 찾은 q12-ko는 비슷한 다른 행(터븀-144, 약 1초)의 값을 "같을 것으로 추정"해 답했습니다. 근거 칸이 생기면 이런 답이 다른 행의 청크를 근거로 적어 근거가 있는 답처럼 보일 수 있어 이 줄을 넣습니다.</p></div>
+        <div class="field"><span class="lab">판 1 지시문 (영어, 최소판에서 바뀐 줄에 ✚)</span><div class="model">You are an assistant that answers questions. Answer only in the JSON format below.
+✚ {"reason": "Write the reasoning that leads to the answer, step by step", "answer": "Write only the final answer, briefly", "citations": [{"fact": "A fact from the reference passages that you used", "chunks": [the number of the passage that contains it]}]}
+If a calculation is needed, write the formula in reason, write the unit conversion step (e.g., g → kg) separately, and then check the calculation once more.
+✚ In citations, list every fact from the reference passages that you used for the answer, one item per fact, with the number of each passage that contains it. Do not write passage numbers in reason or answer.
+✚ If the reference passages do not contain the facts needed to answer, write in answer that the question cannot be answered from the passages, and write [] for citations.
+✚ Answer in the same language as the question. If the question is in Korean, write reason, answer, and fact in Korean; if it is in English, write them in English.
+
+Answer based on the reference passages below.
+Reference passages:
+(청크 목록)</div></div>
+        <div class="field"><span class="lab">판 1 ✚ 줄의 한국어 뜻</span><ol class="steps ko-mean"><li>답 꼴: 생각 과정, 최종 답, 근거 칸(참고 글에서 가져와 쓴 사실과 그 사실이 든 참고 글의 번호)</li><li>근거 칸에는 답에 쓴 참고 글의 사실을 모두, 사실 하나에 항목 하나로 적고 그 사실이 든 참고 글의 번호를 적어라. 생각 과정과 답에는 참고 글 번호를 쓰지 마라.</li><li>참고 글에 답하는 데 필요한 사실이 없으면, 답에 참고 글로는 답할 수 없다고 쓰고 근거 칸은 []로 써라.</li><li>언어 줄: 사실(fact)도 질문과 같은 언어로 써라.</li></ol></div>
+        <div class="field"><span class="lab">판 2 지시문 (판 1의 계산 줄 하나를 이 두 줄로 바꿈)</span><div class="model">✚ If a calculation is needed, do it in reason with the actual numbers from the question and the passages, one step at a time (e.g., 2.5 × 4 = 10). Do not only describe the steps in words.
+✚ Write the unit conversion (e.g., g → kg) as a step with numbers too, check the calculation once more, and write the final result of the calculation in answer.</div></div>
+        <div class="field"><span class="lab">판 2 ✚ 줄의 한국어 뜻</span><ol class="steps ko-mean"><li>계산이 필요하면, 생각 과정에서 질문과 참고 글의 실제 숫자로 한 단계씩 계산하라(예: 2.5 × 4 = 10). 할 일을 말로만 적지 마라.</li><li>단위 바꾸기(예: g → kg)도 숫자로 한 단계로 쓰고, 계산을 한 번 더 확인하고, 계산의 최종 결과를 답에 써라.</li></ol></div>
         <div class="field"><span class="lab">계산을 건너뛰는 것</span><p>⑧에서 답이 끊긴 2번도 같은 원인이었습니다. 생각 과정에 식만 적고 숫자 계산 없이 답 칸에 <code>0.000000…</code>을 길이 한도까지 썼습니다. 그래서 근거를 찾고도 틀린 8번은 모두 이 문제입니다. 지시문에 "할 일을 말로 적지 말고 숫자를 넣어 실제로 계산하라"는 줄을 넣습니다. 생각 모드(답 전에 길게 생각하는 기능)는 켜지 않고, 지시문으로 되지 않으면 켭니다. <span class="mark fixed">정함 · 정할 것 4 · 계산 실수</span></p></div>
       </div>
     </div>
@@ -325,7 +339,7 @@ citations: [ fact: 루테튬의 밀도 9.841 g/cm³ · chunks: [1] ]
     <div class="tbl"><table>
       <tr><th style="width:2.5em">번호</th><th>무엇을 정하나</th><th style="width:7.5em">누가 정하나</th><th style="width:5.5em">상태</th></tr>
       <tr><td class="n">1</td><td><b>인용의 꼴</b><br>정함: 근거 칸 <code>citations</code>에 사실마다 청크 번호를 적는다(안 D). 생각 과정·답 칸은 그대로, 생각 과정 안에는 번호를 넣지 않는다. 서버에 칸의 틀(JSON 스키마)을 보내 꼴 오류와 목록에 없는 번호를 막는다. 코드가 번호를 문서 식별자와 줄로 바꾸고, 근거 칸의 숫자가 그 청크 글에 있는지 기록한다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
-      <tr class="asking"><td class="n">2</td><td><b>지시문</b><br>근거가 없을 때 쓸 답을 포함한 답 쓰기 지시문 전문. 최소판 지시문은 그대로 두고 새 판을 따로 둔다</td><td>사용자 승인 (AI가 씀)</td><td><span class="st ask">묻는 중</span></td></tr>
+      <tr><td class="n">2</td><td><b>지시문</b><br>정함: 판 1(<code>cite-en-v1</code>)은 최소판 지시문에 근거 칸의 답 꼴과 두 줄(근거 칸 쓰는 법, 근거가 없으면 답할 수 없다고 쓰고 근거 칸을 비움)을 더하고 언어 줄에 fact를 더함. 판 2(<code>cite-en-v2</code>)는 판 1의 계산 줄을 "실제 숫자로 한 단계씩 계산하고, 말로만 적지 말고, 최종 결과를 답에 써라"로 바꿈. 전문은 "질문 하나가 지나가는 길"의 답 쓰기 · 바꾼 뒤 칸(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 승인 (AI가 씀)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">3</td><td><b>검색 계획 넘기기</b><br>정함: 넘기지 않는다(안 A). 답 쓰기는 지금처럼 질문 글과 청크 목록만 받는다. 근거를 찾고도 틀린 8번은 모두 값을 바르게 읽고 계산을 숫자로 하지 않은 것이라, 계획을 넘겨 고쳐질 실패가 없었다. 개발용 질문으로 다시 돌릴 때 찾을 것을 빠뜨려 틀린 답이 나오면 찾을 것 목록만 넘기는 안을 다시 본다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">4</td><td><b>계산 실수</b><br>정함: 지시문을 고친다(안 A). 생각 과정에 할 일을 말로 적지 말고 질문과 청크의 숫자를 넣어 실제로 계산하게 한다. 생각 모드는 켜지 않고, 지시문으로 되지 않으면 켠다. 근거: 질량 질문의 근거를 찾은 90번에서 생각 과정에 부피 숫자를 쓴 82번은 모두 맞고, 쓰지 않은 8번(모두 영어)은 모두 틀림(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
       <tr><td class="n">5</td><td><b>하나씩 잴지</b><br>정함: 차례로 붙여 따로 잰다(안 B). 판 0(⑧ 기록) → 판 1(㉮ 근거 칸을 더함) → 판 2(㉯ 계산 지시를 더함). 판 1은 판 0과, 판 2는 판 1과 견준다. 두 판의 다른 점이 변경 하나뿐이라 바뀐 것이 어느 변경 때문인지 맞춰진다. ㉮는 인용을 더하는 변경이고 틀린 답을 고치는 변경이 아니다. ㉯가 근거를 찾고도 틀린 8번을 고친다(<code>decisions/stage6.md</code> 2026-10-28)</td><td>사용자 (AI 추천)</td><td><span class="st">정함</span></td></tr>
