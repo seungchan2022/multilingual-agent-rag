@@ -79,7 +79,7 @@ def fetch_chunks(conn, ids):
 
 
 def prepare(conn, base_rows, questions, expected_rows=None):
-    """⑧ 기록을 확인하고 줄마다 판 0의 청크 목록을 데이터베이스에서 다시 만든다. 다시 만든 참고 글(시스템 메시지)이 판 0 답의 것과
+    """⑧ 기록을 확인하고 줄마다 판 0의 청크 목록을 데이터베이스에서 다시 만든다. 다시 만든 참고 글(시스템 메시지)과 질문 글(사용자 메시지)이 판 0 답의 것과
     글자까지 같은 줄 수를 출력하고, 하나라도 다르면 ValueError로 멈춘다. 줄마다 {row, search, base_kind, found, question}를 기록 순서대로 돌려준다."""
     check_base(base_rows, expected_rows)
     by_id = {q["id"]: q for q in questions}
@@ -89,10 +89,11 @@ def prepare(conn, base_rows, questions, expected_rows=None):
     for row, (search, base_answer, kind) in zip(base_rows, picked):
         question = by_id[row["question_id"]]
         found = [chunks[c["chunk_id"]] for c in search["merged"]]
-        if generate.messages_of("minimal", question, found)[0] != base_answer["system_message"]:
+        system_message, user_message = generate.messages_of("minimal", question, found)
+        if system_message != base_answer["system_message"] or user_message != base_answer["user_message"]:
             different.append((row["question_id"], row["seed"]))
         items.append({"row": row, "search": search, "base_kind": kind, "found": found, "question": question})
-    print(f"참고 글 대조: {len(items) - len(different)}/{len(items)}줄이 판 0 답의 system_message와 글자까지 같다", flush=True)
+    print(f"참고 글 대조: {len(items) - len(different)}/{len(items)}줄이 판 0 답의 system_message·user_message(질문 글)와 글자까지 같다", flush=True)
     if different:
         raise ValueError(f"다시 만든 참고 글이 판 0 답과 다른 줄이 {len(different)}개 있어 멈춘다: {different}")
     return items

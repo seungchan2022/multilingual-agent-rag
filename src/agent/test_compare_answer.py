@@ -23,15 +23,16 @@ ORDER = [("q01-ko", 1), ("q01-ko", 2), ("q02-ko", 1), ("q02-ko", 2)]
 
 
 def reply(text, reason="읽는다", lang_ok=True, aborted=False):
-    return {"answer": text, "reason": reason, "lang_ok": lang_ok, "aborted": aborted}
+    return {"answer": text, "reason": reason, "lang_ok": lang_ok, "aborted": aborted, "user_message": "질문 글"}
 
 
 def base_row(qid, seed, hit, text, reason="읽는다", first=None, **kw):
     """⑧ 기록 꼴의 줄. first=(hit, 답 글)을 주면 처음 계획 기록(first_plan_search·first_plan_answer)이 따로 있는 줄이다."""
-    row = {"question_id": qid, "seed": seed, "search": {"hit": hit, "hit_ranks": [1] if hit else []}, "answer": reply(text, reason, **kw),
+    row = {"question_id": qid, "seed": seed, "search": {"hit": hit, "hit_ranks": [1] if hit else [], "merged": [{"chunk_id": "c1"}]},
+           "answer": reply(text, reason, **kw),
            "first_plan_search": None, "first_plan_answer": None}
     if first:
-        row["first_plan_search"] = {"hit": first[0], "hit_ranks": [1] if first[0] else []}
+        row["first_plan_search"] = {"hit": first[0], "hit_ranks": [1] if first[0] else [], "merged": [{"chunk_id": "c1"}]}
         row["first_plan_answer"] = reply(first[1])
     return row
 
@@ -42,6 +43,7 @@ def checks(**kw):
 
 def new_row(qid, seed, hit, text, reason="읽는다", cited=(), base_kind="final", check=None, **kw):
     return {"question_id": qid, "seed": seed, "hit": hit, "hit_ranks": [1] if hit else [], "source": {"path": "x", "run_id": "r", "base_kind": base_kind},
+            "chunks": [{"chunk_id": "c1"}],
             "answer": {**reply(text, reason, **kw), "cited": list(cited), "checks": check or checks()}}
 
 
@@ -53,6 +55,40 @@ def base_world():
 def new_world():
     return [new_row("q01-ko", 1, True, "17.7 kg", "6.145*60 = 368.7"), new_row("q01-ko", 2, True, "17.7 kg", "2 g × 3"),
             new_row("q02-ko", 1, False, "5 kg"), new_row("q02-ko", 2, True, "9 kg", check=checks(cites_evidence=False, wrong_attached=2, no_number_facts=1, facts_without_chunks=1))]
+
+
+class SameInputsTest(unittest.TestCase):
+    def setUp(self):
+        self.base, self.new = compare_answer.cells_of(base_world()), compare_answer.cells_of(new_world())
+        self.keys = compare_answer.pair_up(self.base, self.new, 4)
+
+    def test_same_inputs_pass(self):
+        compare_answer.check_same_inputs(self.base, self.new, self.keys)
+
+    def test_different_inputs_stop(self):
+        for field, value in (("chunk_ids", ["c2"]), ("hit_ranks", [9]), ("base_kind", "first_plan")):
+            new = {k: dict(v) for k, v in self.new.items()}
+            new[("q01-ko", 1)][field] = value
+            with self.assertRaises(ValueError, msg=field):
+                compare_answer.check_same_inputs(self.base, new, self.keys)
+        new = {k: dict(v) for k, v in self.new.items()}
+        new[("q01-ko", 1)]["answer"] = {**new[("q01-ko", 1)]["answer"], "user_message": "다른 질문"}
+        with self.assertRaises(ValueError):
+            compare_answer.check_same_inputs(self.base, new, self.keys)
+
+
+class HitFixedTest(unittest.TestCase):
+    def test_only_wrong_answers_that_had_evidence_are_counted(self):
+        # base: q1s2(근거 찾음, 틀림) → new 맞음은 셈. q2s1(근거 못 찾음, 틀림) → new 맞음이어도 세지 않음
+        base_rows = base_world()
+        new_rows = new_world()
+        new_rows[2] = new_row("q02-ko", 1, False, "17.7 kg")
+        base, new = compare_answer.cells_of(base_rows), compare_answer.cells_of(new_rows)
+        keys = compare_answer.pair_up(base, new, 4)
+        b, w = compare_answer.side_counts(base, keys, QUESTIONS), compare_answer.side_counts(new, keys, QUESTIONS)
+        fixed, _ = compare_answer.changes(base, new, keys, b, w)
+        self.assertEqual(len(fixed), 2)
+        self.assertEqual(compare_answer.hit_fixed(base, keys, b, w), 1)
 
 
 class CellsTest(unittest.TestCase):
@@ -163,11 +199,13 @@ class RenderTest(unittest.TestCase):
     def test_base_kind_counts_are_shown(self):
         rows = base_world()
         rows[0] = base_row("q01-ko", 1, False, "17.7 kg", first=(True, "17.7 kg"))
-        self.assertIn("처음 계획 1줄, 최종 3줄", self.render(base=rows))
+        new = new_world()
+        new[0] = new_row("q01-ko", 1, True, "17.7 kg", base_kind="first_plan")   # 판 0 고르기가 같아야 짝이 된다
+        self.assertIn("처음 계획 1줄, 최종 3줄", self.render(base=rows, new=new))
 
     def test_no_change_prints_none(self):
         text = self.render(base=[base_row(q, s, True, "17.7 kg") for q, s in ORDER], new=[new_row(q, s, True, "17.7 kg") for q, s in ORDER])
-        self.assertIn("## 틀림 → 맞음 (0개)\n\n- 없음", text)
+        self.assertIn("## 틀림 → 맞음 (0개)\n\n- 그 가운데 base에서 근거를 찾고도 틀렸던 답: 0개\n\n- 없음", text)
         self.assertIn("## 맞음 → 틀림 (0개)\n\n- 없음", text)
 
     def test_missing_pair_stops_the_summary(self):
@@ -175,7 +213,7 @@ class RenderTest(unittest.TestCase):
             self.render(new=new_world()[:3])
 
     def test_comparing_two_cite_records_works(self):
-        base = [new_row(q, s, True, "5 kg") for q, s in ORDER]
+        base = [new_row(q, s, h, "5 kg") for (q, s), h in zip(ORDER, (True, True, False, True))]   # 입력(hit_ranks)은 new_world와 같게
         self.assertIn("| 맞음 | 0/4 | 2/4 |", self.render(base=base))
 
     def test_same_records_give_the_same_summary(self):

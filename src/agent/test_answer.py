@@ -160,6 +160,13 @@ class CitedTest(unittest.TestCase):
                              graph.reply_fields(cite_output(citations=[{"fact": "Tb-144의 반감기 1 s", "chunks": [1]}]), 1.0, 10, 20, None, TIMES))
         self.assertEqual(r["cited"][0]["checks"][0]["missing_numbers"], [])
 
+    def test_a_real_minus_sign_is_kept(self):
+        # 청크에는 -0.05인데 사실에 0.05로 적으면 숫자가 없는 것으로 센다
+        found = [("c1", 0.1, "doc-a", [5], "온도 계수는 -0.05%/°C 이다", 9, "ko", 5, 5)]
+        r = answer.record_of(question(), found, [1], "SYS", "USER",
+                             graph.reply_fields(cite_output(citations=[{"fact": "온도 계수 0.05%/°C", "chunks": [1]}]), 1.0, 10, 20, None, TIMES))
+        self.assertEqual(r["cited"][0]["checks"][0]["missing_numbers"], [0.05])
+
     def test_numbers_are_compared_by_value(self):
         r = record(cite_output(citations=[{"fact": "6.1450", "chunks": [1]}]))
         self.assertEqual((r["cited"][0]["numbers"], r["checks"]["wrong_attached"]), ([6.145], 0))

@@ -38,10 +38,12 @@ def cells_of(rows):
         if key in cells:
             raise ValueError(f"(질문 ID, 씨앗)이 겹친다: {key}")
         if "source" in r:
-            cells[key] = {"hit": r["hit"], "hit_ranks": r["hit_ranks"], "answer": r["answer"], "base_kind": r["source"]["base_kind"]}
+            cells[key] = {"hit": r["hit"], "hit_ranks": r["hit_ranks"], "answer": r["answer"], "base_kind": r["source"]["base_kind"],
+                          "chunk_ids": [c["chunk_id"] for c in r["chunks"]]}
         else:
             search, answer, kind = run_answer.pick_base(r)
-            cells[key] = {"hit": search["hit"], "hit_ranks": search["hit_ranks"], "answer": answer, "base_kind": kind}
+            cells[key] = {"hit": search["hit"], "hit_ranks": search["hit_ranks"], "answer": answer, "base_kind": kind,
+                          "chunk_ids": [c["chunk_id"] for c in search["merged"]]}
     return cells
 
 
@@ -52,6 +54,15 @@ def pair_up(base, new, expected=None):
         raise ValueError(f"짝이 맞지 않는다: base {len(base)}개, new {len(new)}개({expected}쌍이어야 한다), "
                          f"base에만 있음 {sorted(set(base) - set(new))}, new에만 있음 {sorted(set(new) - set(base))}")
     return list(base)
+
+
+def check_same_inputs(base, new, keys):
+    """짝마다 두 쪽의 입력이 같은지 본다: 판 0 고르기(base_kind), 질문 글(답 기록의 user_message), 순서 있는 청크 ID 목록, hit_ranks.
+    하나라도 다르면 ValueError(decisions/stage6.md 2026-10-28 "④의 실행 방법", "Codex 설계 검토 1차 지적 1·4" 줄: 판끼리 다른 것은 답 쓰기 하나뿐이어야 한다)."""
+    different = [k for k in keys if any(base[k][f] != new[k][f] for f in ("base_kind", "chunk_ids", "hit_ranks"))
+                 or base[k]["answer"].get("user_message") != new[k]["answer"].get("user_message")]
+    if different:
+        raise ValueError(f"입력이 다른 짝이 {len(different)}개 있다: {different[:10]}")
 
 
 def side_counts(cells, keys, by_id):
@@ -71,6 +82,11 @@ def changes(base, new, keys, base_counts, new_counts):
     fixed = [item(k) for k in keys if not base_counts["correct_by"][k] and new_counts["correct_by"][k]]
     broken = [item(k) for k in keys if base_counts["correct_by"][k] and not new_counts["correct_by"][k]]
     return fixed, broken
+
+
+def hit_fixed(base, keys, base_counts, new_counts):
+    """근거를 찾고도 틀렸던 답(base) 가운데 맞게 바뀐 수. 계산 지시(판 2)를 남기는 기준(decisions/stage6.md 2026-10-28 "④를 잴 때의 기준" ㉡)에 쓴다."""
+    return sum(base[k]["hit"] and not base_counts["correct_by"][k] and new_counts["correct_by"][k] for k in keys)
 
 
 def new_checks(new, keys):
@@ -106,6 +122,7 @@ def change_lines(items):
 def render(base, new, base_path, new_path, by_id, expected=None):
     """요약 마크다운 글. 두 기록(cells_of의 결과)을 짝지어 센다."""
     keys = pair_up(base, new, expected)
+    check_same_inputs(base, new, keys)
     n = len(keys)
     b, w = side_counts(base, keys, by_id), side_counts(new, keys, by_id)
     fixed, broken = changes(base, new, keys, b, w)
@@ -119,7 +136,7 @@ def render(base, new, base_path, new_path, by_id, expected=None):
            f"| 근거를 찾고도 틀림 | {b['hit_wrong']}/{b['hit']} | {w['hit_wrong']}/{w['hit']} |",
            f"| 답 언어가 질문과 같음 | {b['lang_ok']}/{n} | {w['lang_ok']}/{n} |", f"| 끊김 | {b['aborted']}/{n} | {w['aborted']}/{n} |",
            f"| 생각 과정에 숫자 계산을 씀 | {b['calculation']}/{n} | {w['calculation']}/{n} |", "",
-           f"## 틀림 → 맞음 ({len(fixed)}개)", "", *change_lines(fixed), "",
+           f"## 틀림 → 맞음 ({len(fixed)}개)", "", f"- 그 가운데 base에서 근거를 찾고도 틀렸던 답: {hit_fixed(base, keys, b, w)}개", "", *change_lines(fixed), "",
            f"## 맞음 → 틀림 ({len(broken)}개)", "", *change_lines(broken), "",
            "## new의 공통 검사", "",
            f"- 꼴 오류: {len(c['shape_errors'])}개", *lines_of(c["shape_errors"]),

@@ -11,6 +11,7 @@
 번호는 그 실행에서 넘긴 청크 목록의 순위(1부터)다. 코드가 번호를 chunk_id·doc_id·줄로 바꿔 기록하고, 사실의 숫자가 인용한 청크 글에 있는지 값으로 견준다.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -94,6 +95,14 @@ def shape_ok_of(parsed):
         and all(isinstance(c, int) and not isinstance(c, bool) for c in item["chunks"]) for item in citations)
 
 
+NAME_HYPHEN = re.compile(r"(?<=[A-Za-z가-힣])-(?=\d)")   # 이름과 숫자 사이의 하이픈(Tb-144, 터븀-144). 부호가 아니다
+
+
+def numbers_in(text):
+    """글에서 숫자를 값으로 꺼낸다(scoring.numbers_of). 이름 바로 뒤의 하이픈은 지우고 꺼내, Tb-144를 -144로 읽지 않는다. 다른 -는 부호로 둔다."""
+    return numbers_of(NAME_HYPHEN.sub(" ", text))
+
+
 def cited_of(citations, found):
     """사실마다 {fact, chunks, mapped, invalid_chunks, numbers, checks}. 번호는 found(넘긴 청크 목록)의 순위다.
     mapped는 목록에 있는 번호의 rank·chunk_id·doc_id·line_start·line_end, invalid_chunks는 목록에 없는 번호다.
@@ -101,15 +110,15 @@ def cited_of(citations, found):
     cited = []
     for item in citations:
         mapped, checks, invalid = [], [], []
-        numbers = numbers_of(item["fact"])
+        numbers = numbers_in(item["fact"])
         for rank in item["chunks"]:
             if not 1 <= rank <= len(found):
                 invalid.append(rank)
                 continue
             chunk_id, _, doc_id, _, text, _, _, line_start, line_end = found[rank - 1]
             mapped.append({"rank": rank, "chunk_id": chunk_id, "doc_id": doc_id, "line_start": line_start, "line_end": line_end})
-            in_chunk = {abs(x) for x in numbers_of(text)}   # 값의 크기로 견준다: numbers_of는 Tb-144의 -를 음수로 읽는다
-            checks.append({"rank": rank, "missing_numbers": [x for x in numbers if abs(x) not in in_chunk]})
+            in_chunk = set(numbers_in(text))
+            checks.append({"rank": rank, "missing_numbers": [x for x in numbers if x not in in_chunk]})
         cited.append({"fact": item["fact"], "chunks": item["chunks"], "mapped": mapped, "invalid_chunks": invalid, "numbers": numbers, "checks": checks})
     return cited
 
