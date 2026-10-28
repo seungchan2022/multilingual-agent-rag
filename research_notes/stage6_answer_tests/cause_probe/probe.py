@@ -17,6 +17,9 @@
   v1-titlecheck: 판 1의 근거 칸 줄 다음에 "값을 쓰기 전에 그 참고 글의 제목이 질문이 묻는 것과 같은지, 다른 언어여도 확인하라" 한 줄 + 틀
 4차(--round 4, out4.jsonl): 3차의 확인 줄이 q09-en을 고치지 못해, 참고 글 머리의 문서 ID(wiki-ko-<영어 이름>)로 확인하게 하는 줄을 본다.
   v1-idcheck: 판 1의 근거 칸 줄 다음에 "참고 글은 문서 ID로 시작하고 ID에는 다룬 것의 영어 이름이 있다(예: wiki-ko-<영어 이름>). 값을 쓰기 전에 ID로 질문이 묻는 것과 같은지 확인하라" + 틀
+5차(--round 5, out5.jsonl): 사용자가 "근거를 먼저 쓰고 답을 쓰게 하면 결과가 다르다"고 해, 답 꼴과 틀의 칸 순서를 citations → reason → answer로 바꾼다.
+  v1-citefirst   : 판 1에서 답 꼴 줄과 틀의 칸 순서만 바꿈
+  v1-citefirst-id: v1-citefirst + 4차의 문서 ID 확인 줄
 """
 import json
 import sys
@@ -42,6 +45,9 @@ TITLE_CHECK = ("Before you use a value, check that the title of its passage name
                "even if the passage is in a different language from the question.")
 OUT3 = Path(__file__).resolve().parent / "out3.jsonl"
 OUT4 = Path(__file__).resolve().parent / "out4.jsonl"
+OUT5 = Path(__file__).resolve().parent / "out5.jsonl"
+FORMAT_CITE_FIRST = ('{"citations": [{"fact": "A fact from the reference passages that you used", "chunks": [the number of the passage that contains it]}], '
+                     '"reason": "Write the reasoning that leads to the answer, step by step", "answer": "Write only the final answer, briefly"}')
 ID_CHECK = ("Each reference passage starts with its document ID, and the ID contains the English name of what the document is about "
             "(for example, wiki-ko-<English name>). Before you use a value, check with the ID that the passage is about the same thing the question asks about.")
 assert REFUSE in answer.CITE_V1 and FORMAT_V0 in generate.SYSTEM_EN
@@ -83,13 +89,28 @@ def variants4(found):
     return {"v1-idcheck": (answer.CITE_V1.replace(REFUSE, ID_CHECK + "\n" + REFUSE) + context, answer.schema(len(found)))}
 
 
+def schema_cite_first(n):
+    """answer.schema(n)과 같고 칸 순서만 citations → reason → answer."""
+    s = answer.schema(n)
+    return {**s, "properties": {k: s["properties"][k] for k in ("citations", "reason", "answer")}, "required": ["citations", "reason", "answer"]}
+
+
+def variants5(found):
+    context = generate.CONTEXT_EN.format(passages=generate.passages_of(found))
+    n = len(found)
+    first = answer.CITE_V1.replace(answer.CITE_V1.split("\n")[1], FORMAT_CITE_FIRST)
+    return {"v1-citefirst": (first + context, schema_cite_first(n)),
+            "v1-citefirst-id": (first.replace(REFUSE, ID_CHECK + "\n" + REFUSE) + context, schema_cite_first(n))}
+
+
 def main():
     import psycopg
     round_ = sys.argv[sys.argv.index("--round") + 1] if "--round" in sys.argv else "1"
     out_path, make, names, qids = {"1": (OUT, variants, ("v0-json", "v1-schema", "v1-json", "v1-nofact"), (QID,)),
                                    "2": (OUT2, variants2, ("v1-norefuse", "v0-citefield", "v1-copy"), (QID,)),
                                    "3": (OUT3, variants3, ("v1-schema", "v1-titlecheck"), ("q09-en", "q02-en")),
-                                   "4": (OUT4, variants4, ("v1-idcheck",), ("q09-en", "q02-en"))}[round_]
+                                   "4": (OUT4, variants4, ("v1-idcheck",), ("q09-en", "q02-en")),
+                                   "5": (OUT5, variants5, ("v1-citefirst", "v1-citefirst-id"), ("q09-en", "q02-en"))}[round_]
     generate.check_new(out_path)
     questions = json.loads(QUESTIONS.read_text(encoding="utf-8"))
     base_rows = run_answer.read_jsonl(run_answer.BASE_RUNS)
@@ -111,7 +132,8 @@ def main():
                     citations = None
                 cited = answer.cited_of(citations, found) if isinstance(citations, list) and answer.shape_ok_of(json.loads(text)) else None
                 wrong = None if cited is None else sum(bool(c["missing_numbers"]) for item in cited if item["numbers"] for c in item["checks"])
-                row = {"variant": name, "question_id": item["row"]["question_id"], "wrong_attached": wrong, "seed": seed, "answer": graded["answer"], "correct": graded["correct"],
+                keys = list(json.loads(text)) if text.strip().startswith("{") else None
+                row = {"key_order": keys, "variant": name, "question_id": item["row"]["question_id"], "wrong_attached": wrong, "seed": seed, "answer": graded["answer"], "correct": graded["correct"],
                        "citations": citations, "reason": graded["reason"], "seconds": seconds, "hit_ranks": item["search"]["hit_ranks"]}
                 out.write(json.dumps(row, ensure_ascii=False) + "\n")
                 out.flush()
