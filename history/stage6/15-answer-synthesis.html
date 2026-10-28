@@ -158,8 +158,64 @@ tr.asking td { background: var(--now); }
       <li><b>답하시면 이 페이지가 바뀝니다.</b><br><span class="note">"정할 것" 표의 상태가 "정함"이 되고, "질문 하나가 지나가는 길"의 그 자리에 정한 내용이 들어갑니다.</span></li>
       <li><b>다 정하면 Codex 설계 검토를 받고, AI가 만들고 잽니다.</b><br><span class="note">결과는 이 페이지에 "잰 결과"로 더하고, 남길지 뺄지는 채팅에서 여쭙니다.</span></li>
     </ol>
-    <div class="field"><span class="lab">지금 (2026-10-28 오후)</span><p><b>판 1을 돌려 보니 어븀 질문에서 근거 칸이 이웃 청크를 골라, 고친 판 1′을 190번 돌리는 중입니다.</b> 결과와 판 1′을 정한 까닭은 아래 "잰 결과"에 있습니다. 판 1′이 기준에서 걸리는 것이 없으면 판 2(판 1′ + 계산 지시)를 이어서 돌립니다.</p></div>
+    <div class="field"><span class="lab">지금 (2026-10-28 저녁)</span><p><b>판 1′까지 돌리고 바로 아래 "정리"를 만들었습니다. 지금 읽으실 곳은 "정리" 하나입니다.</b> 판 1″(남은 두 가지를 고친 판)을 시험할지는 정리를 보신 뒤 채팅에서 여쭙니다.</p></div>
+    <div class="field"><span class="lab">그 전 (2026-10-28 오후)</span><p><b>판 1을 돌려 보니 어븀 질문에서 근거 칸이 이웃 청크를 골라, 고친 판 1′을 190번 돌리는 중입니다.</b> 결과와 판 1′을 정한 까닭은 아래 "잰 결과"에 있습니다. 판 1′이 기준에서 걸리는 것이 없으면 판 2(판 1′ + 계산 지시)를 이어서 돌립니다.</p></div>
     <div class="field"><span class="lab">그 전 (2026-10-28 오전)</span><p><b>정할 것 1 · 인용의 꼴(안 D, 틀과 코드 검사), 정할 것 3 · 검색 계획 넘기기(넘기지 않음), 정할 것 4 · 계산 실수(지시문을 고침), 정할 것 5 · 하나씩 잴지(차례로 따로 잼), 정할 것 6 · 재는 법과 남길 기준, 정할 것 7 · 실행 기록 경로, 정할 것 2 · 지시문 전문(판 1·판 2)을 정해 정할 것 7개를 모두 정했습니다. 다음: Codex 설계 검토 1차.</b></p></div>
+  </section>
+
+  <section style="border:2px solid var(--nowb)">
+    <h2>정리 · 지금까지 한 실험과 판 1″이 고치려는 것 (2026-10-28 저녁)</h2>
+    <div class="field"><span class="lab">한 줄로</span><p>「답 쓰기」 칸에 근거 칸을 붙였습니다. 처음 판(판 1)은 어븀 질문을 망쳤고, 근거 칸을 맨 앞에 두고 문서 ID로 확인하게 한 판(판 1′)은 맞은 답 175로 지금까지 가장 좋습니다. 판 1′에 남은 작은 실수 두 가지를 고치는 것이 판 1″입니다.</p></div>
+    <div class="field"><span class="lab">읽는 순서</span><p>① 판의 흐름 → ② 판마다 바꾼 것과 결과 → ③ 지금 살아 있는 결정 → ④ 판 1″이 고치려는 것.</p></div>
+
+    <h3>① 판의 흐름</h3>
+    <div class="mini">
+      <div class="row"><span class="chip have">판 0 · ⑧ 기록 (근거 칸 없음)</span> → <span class="chip">판 1 · 근거 칸을 뒤에</span> → <span class="chip have">판 1′ · 근거 칸을 앞에 + 문서 ID 확인</span> → <span class="chip now">판 1″ · 남은 두 가지 고침 (제안)</span></div>
+      <div class="row"><span class="note">판 2(계산 지시)는 판 1′이 같은 문제를 이미 풀어 질문 38개로는 돌리지 않는 쪽으로 여쭌 상태입니다.</span></div>
+    </div>
+    <p class="note">모든 판은 판 0과 같은 청크(⑧ 기록의 청크)로 「답 쓰기」만 다시 돌려, 판끼리 다른 것이 지시문 하나뿐입니다. 질문 38개 × 씨앗 5개 = 190번.</p>
+
+    <h3>② 판마다 바꾼 것과 결과</h3>
+    <div class="tbl"><table>
+      <tr><th style="width:5em">판</th><th>바꾼 것</th><th style="width:5em">맞음</th><th style="width:7em">근거 찾고도 틀림</th><th style="width:6em">답 언어 같음</th><th>판단</th></tr>
+      <tr><td>판 0</td><td>⑧ 그대로. 근거 칸 없음</td><td class="n">167</td><td class="n">8</td><td class="n">188</td><td>틀린 8은 모두 영어 질량 질문에서 계산을 숫자로 하지 않은 것</td></tr>
+      <tr><td>판 1</td><td>답 꼴에 근거 칸(사실마다 청크 번호)을 <b>맨 뒤에</b> 더함, 틀로 꼴을 막음</td><td class="n">163</td><td class="n">12</td><td class="n">188</td><td>기준 미달. 어븀 질문에서 5번 모두 이웃 청크(「이터븀」)를 근거로 골라 4번 틀림. 기록으로 남김</td></tr>
+      <tr><td>판 1′</td><td>판 1에서 근거 칸을 <b>맨 앞에</b> 두고(사용자가 낸 생각), 문서 ID로 확인하는 줄을 더함</td><td class="n"><b>175</b></td><td class="n"><b>0</b></td><td class="n">187</td><td>맞음 → 틀림 0. 근거를 먼저 쓰자 계산도 숫자로 함(82 → 90). 남은 작은 실수 둘(아래 ④)</td></tr>
+    </table></div>
+    <p class="note">원인 시험(어븀 질문, 씨앗 5개): 틀은 원인이 아니었고, 근거 칸 그 자체가 모델의 이름 헷갈림(영어 erbium ↔ 한국어 「어븀」·「이터븀」)을 건드렸습니다. 순서만 바꾸면 0/5, 확인 줄만 넣으면 4/5, 둘 다 넣으면 5/5. 자세한 표는 아래 "잰 결과".</p>
+
+    <h3>③ 지금 살아 있는 결정 (바뀐 것은 → 로)</h3>
+    <div class="tbl"><table>
+      <tr><th style="width:10em">무엇</th><th>지금</th></tr>
+      <tr><td>인용의 꼴</td><td>근거 칸에 사실마다 청크 번호. 틀로 꼴을 막음. 코드가 번호를 문서·줄로 바꿈. 칸 순서: 생각 과정 → 답 → 근거 칸 <b>→ 근거 칸 → 생각 과정 → 답</b>(판 1′)</td></tr>
+      <tr><td>문서 ID 확인 줄</td><td>판 1′에서 새로 넣음: 값을 쓰기 전에 문서 ID(영어 이름)로 질문과 같은 것인지 확인</td></tr>
+      <tr><td>검색 계획 넘기기</td><td>넘기지 않음. 개발용 질문으로 다시 돌릴 때 다시 봄</td></tr>
+      <tr><td>계산 실수</td><td>지시문을 고침(판 2), 생각 모드는 마지막 수단 <b>→ 판 1′이 이미 풀어 판 2는 질문 38개로 돌리지 않는 쪽을 여쭘</b></td></tr>
+      <tr><td>재는 법</td><td>판마다 판 0(또는 앞 판)과 같은 청크로 답 쓰기만 다시 돌려 견줌. 공통 검사: 꼴 오류, 정답 근거 청크 포함, 잘못 붙은 인용, 인용 누락, 답 언어, 끊김, 청크가 없는 사실. 하나라도 걸리면 기록을 읽어 원인을 가름</td></tr>
+      <tr><td>근거가 없을 때</td><td>답할 수 없다고 쓰고 근거 칸을 비움(지시문 줄). 판 1′에서도 근거를 못 찾은 15번 가운데 6번은 비슷한 값으로 답함 → ⑤ 재검색·⑥ 판정의 몫</td></tr>
+      <tr><td>숫자 없는 사실</td><td>코드는 숫자만 대조. 숫자 없는 사실의 근거 확인은 ⑥에서(미정 목록)</td></tr>
+    </table></div>
+
+    <h3>④ 판 1″이 고치려는 것 (판 1′에 남은 두 가지)</h3>
+    <div class="field"><span class="lab">가 · 생각 과정을 참고 글의 언어로 씀 (190번 가운데 3번)</span>
+      <p>근거 칸을 맨 앞에 두자, 모델이 참고 글을 그 언어 그대로 근거 칸에 옮기고 생각 과정도 그 언어로 이어 썼습니다. 답 칸이 숫자뿐이라 맞음이지만, 질문과 다른 언어로 답한 것입니다.</p>
+      <div class="model">질문(한국어) q18-ko 씨앗 2: Miyatake와 Kawabata가 … 중앙 생존 기간은 몇 개월이었는가?
+근거 칸: "A total dose of 20 to 30 Gy was administered … The MST … was 23.5 months …" · 청크 9   ← 영어 청크를 영어 그대로 옮김
+생각 과정: "Shin-ichi Miyatake and Shinji Kawabata conducted clinical studies …"   ← 영어로 이어 씀
+답: 23.5</div>
+      <p class="ko-mean">같은 질문의 씨앗 1은 생각 과정을 한국어로 썼습니다. 지시문에는 "fact도 질문의 언어로"가 있지만, 근거 칸을 먼저 쓰면서 옮겨 적기 쉬워진 것으로 봅니다.</p>
+      <p><b>고침 후보</b>: 근거 칸 줄에 "참고 글이 질문과 다른 언어면, 사실을 질문의 언어로 옮겨 적어라"를 더합니다.</p>
+    </div>
+    <div class="field"><span class="lab">나 · 한 줄이 두 청크로 나뉠 때 값이 없는 쪽 번호를 적음 (190번 가운데 5번, q19-ko)</span>
+      <p>위키백과의 159번째 줄이 길어서 2번·3번 두 청크로 나뉘었습니다. 2번에는 앞부분(14.2개월)만, 3번에는 답의 값(17.7개월)까지 있습니다. 모델은 두 청크에 걸친 글을 근거로 적고 번호는 2번만 적었습니다. 답은 맞습니다.</p>
+      <div class="model">[2] … Based on incomplete survival data, the MeST was reported as 14.2 months …            ← 17.7 없음
+[3] Based on incomplete survival data, … the MeST was 17.7 months compared to 15.5 months …   ← 근거
+근거 칸: "… the MeST was 17.7 months …" · 청크 2   ← 값이 없는 쪽 번호</div>
+      <p><b>고침 후보</b>: "청크 번호는 그 사실의 값(숫자)이 들어 있는 참고 글의 번호를 적어라"를 더합니다.</p>
+    </div>
+    <div class="field"><span class="lab">고치지 않는 것</span><p>두 언어 문서의 값이 조금 다른 것(루테튬 영어 9.840 / 한국어 9.841), 영어 청크의 조건 글을 옮기고 한국어 청크 번호를 적은 것은 근거 청크와 값이 맞아 그대로 둡니다. 근거를 못 찾았을 때 비슷한 값으로 답하는 것은 검색의 일이라 ⑤·⑥에서 다룹니다.</p></div>
+    <div class="field"><span class="lab">확인하는 법</span><p>먼저 q07-en·q18-ko·q19-ko(가·나가 나온 질문)와 어븀 질문 q09-en(앞서 고친 것이 다시 나빠지지 않는지)을 씨앗 5개씩 짧게 돌립니다(약 5분, 결과 숫자에 쓰지 않음). 나아지면 판 1″을 190번 돌려 판 1′과 견줍니다(약 40분).</p></div>
+    <p class="src">출처: <code>decisions/judgments.md</code> 2026-10-28 판 1·판 1′ 줄, <code>data/agent/answer_cite/summary_v1.md</code>·<code>summary_v1b.md</code>, <code>research_notes/stage6_answer_tests/README.md</code>, <code>decisions/stage6.md</code> 2026-10-28 줄들</p>
   </section>
 
   <section>
