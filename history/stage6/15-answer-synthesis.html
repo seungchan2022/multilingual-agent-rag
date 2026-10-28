@@ -164,58 +164,102 @@ tr.asking td { background: var(--now); }
   </section>
 
   <section style="border:2px solid var(--nowb)">
-    <h2>정리 · 지금까지 한 실험과 판 1″이 고치려는 것 (2026-10-28 저녁)</h2>
-    <div class="field"><span class="lab">한 줄로</span><p>「답 쓰기」 칸에 근거 칸을 붙였습니다. 처음 판(판 1)은 어븀 질문을 망쳤고, 근거 칸을 맨 앞에 두고 문서 ID로 확인하게 한 판(판 1′)은 맞은 답 175로 지금까지 가장 좋습니다. 판 1′에 남은 작은 실수 두 가지를 고치는 것이 판 1″입니다.</p></div>
-    <div class="field"><span class="lab">읽는 순서</span><p>① 판의 흐름 → ② 판마다 바꾼 것과 결과 → ③ 지금 살아 있는 결정 → ④ 판 1″이 고치려는 것.</p></div>
+    <h2>정리 · 같은 질문이 판마다 실제로 어떻게 나왔나 (2026-10-28 저녁)</h2>
+    <div class="field"><span class="lab">이 칸에서 보는 것</span><p>「답 쓰기」 칸을 판 0 → 판 1 → 판 1′로 바꿔 왔습니다. 판마다 <b>모델에게 준 지시문에서 바뀐 글</b>, <b>모델이 실제로 돌려준 글</b>, <b>190번 결과</b>를 차례로 놓았습니다. 모델의 글은 실행 기록 그대로이고, 영어 아래 회색 글이 한국어 뜻입니다. 따라가는 질문은 어븀 질문 하나입니다.</p></div>
 
-    <h3>① 판의 흐름</h3>
-    <div class="mini">
-      <div class="row"><span class="chip have">판 0 · ⑧ 기록 (근거 칸 없음)</span> → <span class="chip">판 1 · 근거 칸을 뒤에</span> → <span class="chip have">판 1′ · 근거 칸을 앞에 + 문서 ID 확인</span> → <span class="chip now">판 1″ · 남은 두 가지 고침 (제안)</span></div>
-      <div class="row"><span class="note">판 2(계산 지시)는 판 1′이 같은 문제를 이미 풀어 질문 38개로는 돌리지 않는 쪽으로 여쭌 상태입니다.</span></div>
+    <div class="field"><span class="lab">따라가는 질문 · q09-en, 씨앗 1</span>
+      <p class="en">What is the mass in kg of a rectangular cuboid of erbium that is 3 cm wide, 4 cm long, and 5 cm high? (Use its density near room temperature.)</p>
+      <p class="ko-mean">가로 3 cm, 세로 4 cm, 높이 5 cm인 어븀 직육면체의 질량은 몇 kg인가? (상온 근처의 밀도로) · 정답 0.54396 kg</p>
     </div>
-    <p class="note">모든 판은 판 0과 같은 청크(⑧ 기록의 청크)로 「답 쓰기」만 다시 돌려, 판끼리 다른 것이 지시문 하나뿐입니다. 질문 38개 × 씨앗 5개 = 190번.</p>
-
-    <h3>② 판마다 바꾼 것과 결과</h3>
-    <div class="tbl"><table>
-      <tr><th style="width:5em">판</th><th>바꾼 것</th><th style="width:5em">맞음</th><th style="width:7em">근거 찾고도 틀림</th><th style="width:6em">답 언어 같음</th><th>판단</th></tr>
-      <tr><td>판 0</td><td>⑧ 그대로. 근거 칸 없음</td><td class="n">167</td><td class="n">8</td><td class="n">188</td><td>틀린 8은 모두 영어 질량 질문에서 계산을 숫자로 하지 않은 것</td></tr>
-      <tr><td>판 1</td><td>답 꼴에 근거 칸(사실마다 청크 번호)을 <b>맨 뒤에</b> 더함, 틀로 꼴을 막음</td><td class="n">163</td><td class="n">12</td><td class="n">188</td><td>기준 미달. 어븀 질문에서 5번 모두 이웃 청크(「이터븀」)를 근거로 골라 4번 틀림. 기록으로 남김</td></tr>
-      <tr><td>판 1′</td><td>판 1에서 근거 칸을 <b>맨 앞에</b> 두고(사용자가 낸 생각), 문서 ID로 확인하는 줄을 더함</td><td class="n"><b>175</b></td><td class="n"><b>0</b></td><td class="n">187</td><td>맞음 → 틀림 0. 근거를 먼저 쓰자 계산도 숫자로 함(82 → 90). 남은 작은 실수 둘(아래 ④)</td></tr>
-    </table></div>
-    <p class="note">원인 시험(어븀 질문, 씨앗 5개): 틀은 원인이 아니었고, 근거 칸 그 자체가 모델의 이름 헷갈림(영어 erbium ↔ 한국어 「어븀」·「이터븀」)을 건드렸습니다. 순서만 바꾸면 0/5, 확인 줄만 넣으면 4/5, 둘 다 넣으면 5/5. 자세한 표는 아래 "잰 결과".</p>
-
-    <h3>③ 지금 살아 있는 결정 (바뀐 것은 → 로)</h3>
-    <div class="tbl"><table>
-      <tr><th style="width:10em">무엇</th><th>지금</th></tr>
-      <tr><td>인용의 꼴</td><td>근거 칸에 사실마다 청크 번호. 틀로 꼴을 막음. 코드가 번호를 문서·줄로 바꿈. 칸 순서: 생각 과정 → 답 → 근거 칸 <b>→ 근거 칸 → 생각 과정 → 답</b>(판 1′)</td></tr>
-      <tr><td>문서 ID 확인 줄</td><td>판 1′에서 새로 넣음: 값을 쓰기 전에 문서 ID(영어 이름)로 질문과 같은 것인지 확인</td></tr>
-      <tr><td>검색 계획 넘기기</td><td>넘기지 않음. 개발용 질문으로 다시 돌릴 때 다시 봄</td></tr>
-      <tr><td>계산 실수</td><td>지시문을 고침(판 2), 생각 모드는 마지막 수단 <b>→ 판 1′이 이미 풀어 판 2는 질문 38개로 돌리지 않는 쪽을 여쭘</b></td></tr>
-      <tr><td>재는 법</td><td>판마다 판 0(또는 앞 판)과 같은 청크로 답 쓰기만 다시 돌려 견줌. 공통 검사: 꼴 오류, 정답 근거 청크 포함, 잘못 붙은 인용, 인용 누락, 답 언어, 끊김, 청크가 없는 사실. 하나라도 걸리면 기록을 읽어 원인을 가름</td></tr>
-      <tr><td>근거가 없을 때</td><td>답할 수 없다고 쓰고 근거 칸을 비움(지시문 줄). 판 1′에서도 근거를 못 찾은 15번 가운데 6번은 비슷한 값으로 답함 → ⑤ 재검색·⑥ 판정의 몫</td></tr>
-      <tr><td>숫자 없는 사실</td><td>코드는 숫자만 대조. 숫자 없는 사실의 근거 확인은 ⑥에서(미정 목록)</td></tr>
-    </table></div>
-
-    <h3>④ 판 1″이 고치려는 것 (판 1′에 남은 두 가지)</h3>
-    <div class="field"><span class="lab">가 · 생각 과정을 참고 글의 언어로 씀 (190번 가운데 3번)</span>
-      <p>근거 칸을 맨 앞에 두자, 모델이 참고 글을 그 언어 그대로 근거 칸에 옮기고 생각 과정도 그 언어로 이어 썼습니다. 답 칸이 숫자뿐이라 맞음이지만, 질문과 다른 언어로 답한 것입니다.</p>
-      <div class="model">질문(한국어) q18-ko 씨앗 2: Miyatake와 Kawabata가 … 중앙 생존 기간은 몇 개월이었는가?
-근거 칸: "A total dose of 20 to 30 Gy was administered … The MST … was 23.5 months …" · 청크 9   ← 영어 청크를 영어 그대로 옮김
-생각 과정: "Shin-ichi Miyatake and Shinji Kawabata conducted clinical studies …"   ← 영어로 이어 씀
-답: 23.5</div>
-      <p class="ko-mean">같은 질문의 씨앗 1은 생각 과정을 한국어로 썼습니다. 지시문에는 "fact도 질문의 언어로"가 있지만, 근거 칸을 먼저 쓰면서 옮겨 적기 쉬워진 것으로 봅니다.</p>
-      <p><b>고침 후보</b>: 근거 칸 줄에 "참고 글이 질문과 다른 언어면, 사실을 질문의 언어로 옮겨 적어라"를 더합니다.</p>
+    <div class="field"><span class="lab">모델이 받는 청크 (세 판 모두 같음, 12개 가운데 둘)</span>
+      <div class="model">[10] wiki-ko-ytterbium (lines 14-23)  이터븀 > 물리적 성질  … 밀도 (상온 근처): 6.90 g/cm³
+[11] wiki-ko-erbium (lines 14-23)     어븀 > 물리적 성질    … 밀도 (상온 근처): 9.066 g/cm³   ← 근거</div>
+      <p class="ko-mean">10번은 이터븀(ytterbium), 11번은 어븀(erbium)입니다. 한국어 이름이 비슷해 모델이 헷갈리는 자리입니다.</p>
     </div>
-    <div class="field"><span class="lab">나 · 한 줄이 두 청크로 나뉠 때 값이 없는 쪽 번호를 적음 (190번 가운데 5번, q19-ko)</span>
-      <p>위키백과의 159번째 줄이 길어서 2번·3번 두 청크로 나뉘었습니다. 2번에는 앞부분(14.2개월)만, 3번에는 답의 값(17.7개월)까지 있습니다. 모델은 두 청크에 걸친 글을 근거로 적고 번호는 2번만 적었습니다. 답은 맞습니다.</p>
-      <div class="model">[2] … Based on incomplete survival data, the MeST was reported as 14.2 months …            ← 17.7 없음
+
+    <h3>판 0 · 지금 시스템(⑧)</h3>
+    <div class="field"><span class="lab">모델에게 준 답 꼴</span><div class="model">{"reason": "…", "answer": "…"}</div><p class="ko-mean">생각 과정, 답. 근거 칸이 없습니다.</p></div>
+    <div class="field"><span class="lab">모델이 돌려준 글</span><div class="model">{"reason": "… find the density of erbium near room temperature, which is 9.066 g/cm³ … 60 cm³ × 9.066 g/cm³ = 543.96 g … = 0.54396 kg.",
+ "answer": "0.544 kg"}</div><p class="ko-mean">어븀의 밀도 9.066으로 60 cm³를 곱해 543.96 g = 0.544 kg. <b>맞음</b>. 그러나 9.066을 어느 청크에서 가져왔는지는 남지 않습니다.</p></div>
+    <div class="field"><span class="lab">190번 결과</span><p>맞음 167. 근거 청크를 받고도 틀린 답 8은 모두 영어 질량 질문에서 생각 과정에 숫자 계산 없이 "먼저 부피를 구하고 …"처럼 할 일만 적은 것입니다.</p></div>
+    <div class="down">↓ 근거 칸을 더함</div>
+
+    <h3>판 1 · 근거 칸을 뒤에 더함</h3>
+    <div class="field"><span class="lab">지시문에서 바뀐 글</span><div class="model">답 꼴: {"reason": "…", "answer": "…", "citations": [{"fact": "…", "chunks": [번호]}]}
++ In citations, list every fact from the reference passages that you used for the answer, one item per fact, with the number of each passage that contains it.
++ If the reference passages do not contain the facts needed to answer, write in answer that the question cannot be answered from the passages, and write [] for citations.</div>
+      <p class="ko-mean">답 꼴 맨 뒤에 근거 칸(사실마다 그 사실이 든 청크 번호)을 더했습니다. "답에 쓴 사실을 모두 근거 칸에 청크 번호와 적어라", "근거가 없으면 답할 수 없다고 쓰고 근거 칸을 비워라". 서버에는 이 칸 꼴을 지키게 하는 틀을 함께 보냈습니다.</p></div>
+    <div class="field"><span class="lab">모델이 돌려준 글</span><div class="model">{"reason": "… The density of erbium near room temperature is given as 6.90 g/cm³ … 60 cm³ × 6.90 g/cm³ = 414 g … = 0.414 kg.",
+ "answer": "0.414 kg",
+ "citations": [{"fact": "The density of erbium near room temperature is 6.90 g/cm³.", "chunks": [10]}]}</div><p class="ko-mean">이터븀의 밀도 6.90을 어븀 것으로 읽어 0.414 kg. <b>틀림</b>. 근거 칸에도 이터븀 청크 10번을 적었습니다. 판 0은 같은 청크로 맞혔는데, 근거 칸을 붙이자 고르는 청크가 바뀌었습니다.</p></div>
+    <div class="field"><span class="lab">190번 결과</span><p>맞음 163(판 0보다 4 적음). 줄어든 4는 모두 이 어븀 질문입니다(씨앗 5번 가운데 4번). <b>기준 미달이라 판 1은 기록으로만 남깁니다.</b></p></div>
+    <div class="down">↓ 원인 시험(어븀 질문만, 씨앗 5개)</div>
+
+    <h3>원인 시험 · 무엇을 바꾸면 어븀이 맞나</h3>
+    <div class="tbl"><table>
+      <tr><th>판 1에서 바꾼 것</th><th style="width:7em">5번 가운데 맞음</th></tr>
+      <tr><td>없음(판 1 그대로)</td><td class="n">1</td></tr>
+      <tr><td>서버의 틀을 빼고 지금 방식의 JSON으로</td><td class="n">1 (답 글까지 판 1과 같음 → 틀은 원인이 아님)</td></tr>
+      <tr><td>문서 ID로 확인하라는 줄을 더함</td><td class="n">4</td></tr>
+      <tr><td>근거 칸을 맨 앞으로 옮김(사용자가 낸 생각)</td><td class="n">0</td></tr>
+      <tr><td><b>근거 칸을 맨 앞으로 + 문서 ID 확인 줄 = 판 1′</b></td><td class="n"><b>5</b></td></tr>
+    </table></div>
+    <div class="down">↓</div>
+
+    <h3>판 1′ · 근거 칸을 맨 앞에 + 문서 ID로 확인</h3>
+    <div class="field"><span class="lab">판 1에서 바뀐 글</span><div class="model">답 꼴: {"citations": [{"fact": "…", "chunks": [번호]}], "reason": "…", "answer": "…"}
++ Each reference passage starts with its document ID, and the ID contains the English name of what the document is about (for example, wiki-ko-&lt;English name&gt;). Before you use a value, check with the ID that the passage is about the same thing the question asks about.</div>
+      <p class="ko-mean">근거 칸을 맨 앞으로 옮겨, 모델이 근거를 먼저 고르고 그다음 계산하고 답하게 했습니다(모델은 글을 앞에서부터 쓰고 뒤의 글은 앞의 글을 따릅니다). 그리고 "참고 글은 문서 ID로 시작하고 ID에는 영어 이름이 있다. 값을 쓰기 전에 ID로 질문과 같은 것인지 확인하라"는 줄을 더했습니다.</p></div>
+    <div class="field"><span class="lab">모델이 돌려준 글</span><div class="model">{"citations": [{"fact": "Erbium has a density of 9.066 g/cm³ near room temperature.", "chunks": [11]}],
+ "reason": "… The density of erbium near room temperature is given as 9.066 g/cm³ … 60 cm³ × 9.066 g/cm³ = 543.96 g … = 0.54396 kg.",
+ "answer": "0.544 kg"}</div><p class="ko-mean">근거를 먼저 고르며 11번(wiki-ko-erbium)을 골랐고, 그 값 9.066으로 계산해 0.544 kg. <b>맞음</b>.</p></div>
+    <div class="field"><span class="lab">이 실행에서 남는 것 (나중에 API가 돌려줄 것)</span><div class="model">답:   0.544 kg
+근거: "Erbium has a density of 9.066 g/cm³ near room temperature."
+      → wiki-ko-erbium, 14~23번째 줄 (청크 wiki-ko-erbium#0003)
+검사: 정답 근거 청크를 가리킴 ✓ · 9.066이 그 청크 글에 있음 ✓ · 꼴 오류 없음 ✓</div><p class="ko-mean">판 0은 "0.544 kg"만 남았습니다. 판 1′은 그 답이 어느 문서의 몇 번째 줄에서 왔는지까지 남깁니다. 이것이 ④ 답변 합성으로 바뀐 것입니다. 문서 이름과 줄은 모델이 쓰지 않고, 코드가 청크 번호로 찾아 붙입니다.</p></div>
+    <div class="field"><span class="lab">190번 결과</span>
+      <div class="tbl"><table>
+        <tr><th>무엇</th><th style="width:6em">판 0</th><th style="width:6em">판 1</th><th style="width:6em">판 1′</th></tr>
+        <tr><td>맞음</td><td class="n">167</td><td class="n">163</td><td class="n"><b>175</b></td></tr>
+        <tr><td>근거 청크를 받고도 틀림</td><td class="n">8</td><td class="n">12</td><td class="n"><b>0</b></td></tr>
+        <tr><td>판 0에서 맞았는데 틀리게 바뀜</td><td class="n">—</td><td class="n">9</td><td class="n"><b>0</b></td></tr>
+        <tr><td>답 언어가 질문과 같음</td><td class="n">188</td><td class="n">188</td><td class="n">187</td></tr>
+        <tr><td>근거 칸에 정답 근거 청크가 있음(근거를 받은 175번 가운데)</td><td class="n">—</td><td class="n">169</td><td class="n">170</td></tr>
+      </table></div>
+    </div>
+    <div class="down">↓</div>
+
+    <h3>판 2(계산 지시)를 돌리지 않는 쪽으로 여쭌 까닭</h3>
+    <div class="field"><span class="lab">판 0에서 틀렸던 란타넘 질문 q08-en 씨앗 2</span><div class="model">판 0  reason: "… use the density of lanthanum at room temperature (6.145 g/cm³) to find the mass. Convert grams to kilograms at the end."
+      answer: "0.00092175 kg"     ← 틀림
+판 1′ reason: "… 3 cm × 4 cm × 5 cm = 60 cm³ … 60 cm³ × 6.145 g/cm³ = 368.7 g … 368.7 g ÷ 1000 = 0.3687 kg."
+      answer: "0.3687 kg"         ← 맞음</div>
+      <p class="ko-mean">판 0은 "밀도로 질량을 구하고 마지막에 kg로 바꾼다"고 할 일만 적고 숫자 계산 없이 엉뚱한 답을 썼습니다. 판 1′은 근거 칸에 밀도를 먼저 적은 뒤 숫자로 곱해 맞혔습니다. 판 2의 계산 지시가 고치려던 것이 바로 이 꼴인데, 판 1′에서 이런 답이 0이 되어 질문 38개로는 판 2가 고칠 것이 남지 않았습니다.</p></div>
+    <div class="down">↓</div>
+
+    <h3>판 1′에 남은 두 가지 · 판 1″이 고치려는 것</h3>
+    <div class="field"><span class="lab">가 · 한국어 질문에 영어로 생각 과정을 씀 (190번 가운데 3번) · q18-ko 씨앗 2</span>
+      <p class="ko-mean">질문: Miyatake와 Kawabata가 … 중앙 생존 기간은 몇 개월이었는가? (한국어)</p>
+      <div class="model">{"citations": [{"fact": "… The MST of this group of patients (with newly diagnosed glioblastomas) was 23.5 months …", "chunks": [9]}, …],
+ "reason": "Shin-ichi Miyatake and Shinji Kawabata conducted clinical studies on newly diagnosed glioblastomas … the MST of patients … was 23.5 months …",
+ "answer": "23.5"}</div>
+      <p class="ko-mean">근거 칸에 영어 청크의 문장을 영어 그대로 옮겼고, 이어진 생각 과정도 영어로 썼습니다. 답 23.5는 맞지만 한국어 질문에 영어로 답한 것입니다. 근거 칸을 맨 앞에 둔 뒤 생긴 일입니다.</p>
+      <p><b>고칠 줄(후보)</b>: <span class="en">If a passage is in a different language from the question, write the fact in the language of the question.</span></p>
+      <p class="ko-mean">참고 글이 질문과 다른 언어면, 사실을 질문의 언어로 옮겨 적어라.</p>
+    </div>
+    <div class="field"><span class="lab">나 · 값이 없는 청크의 번호를 적음 (190번 가운데 5번) · q19-ko 씨앗 1</span>
+      <div class="model">[2] … Based on incomplete survival data, the MeST was reported as 14.2 months …                           ← 17.7 없음
 [3] Based on incomplete survival data, … the MeST was 17.7 months compared to 15.5 months …   ← 근거
-근거 칸: "… the MeST was 17.7 months …" · 청크 2   ← 값이 없는 쪽 번호</div>
-      <p><b>고침 후보</b>: "청크 번호는 그 사실의 값(숫자)이 들어 있는 참고 글의 번호를 적어라"를 더합니다.</p>
+
+{"citations": [{"fact": "… the MeST was reported as 14.2 months … the MeST was 17.7 months …", "chunks": [2]}],
+ "reason": "… MeST가 17.7개월로 수정되었다는 사실을 확인할 수 있습니다 …",
+ "answer": "17.7개월"}</div>
+      <p class="ko-mean">한 문단이 길어 2번·3번 두 청크로 나뉘었습니다. 답의 값 17.7은 3번에만 있는데, 근거 칸에는 2번을 적었습니다. 답은 맞지만 근거 칸이 가리키는 청크에 답의 값이 없습니다.</p>
+      <p><b>고칠 줄(후보)</b>: <span class="en">For chunks, write the number of the passage that contains the value of the fact.</span></p>
+      <p class="ko-mean">청크 번호는 그 사실의 값(숫자)이 들어 있는 참고 글의 번호를 적어라.</p>
     </div>
-    <div class="field"><span class="lab">고치지 않는 것</span><p>두 언어 문서의 값이 조금 다른 것(루테튬 영어 9.840 / 한국어 9.841), 영어 청크의 조건 글을 옮기고 한국어 청크 번호를 적은 것은 근거 청크와 값이 맞아 그대로 둡니다. 근거를 못 찾았을 때 비슷한 값으로 답하는 것은 검색의 일이라 ⑤·⑥에서 다룹니다.</p></div>
-    <div class="field"><span class="lab">확인하는 법</span><p>먼저 q07-en·q18-ko·q19-ko(가·나가 나온 질문)와 어븀 질문 q09-en(앞서 고친 것이 다시 나빠지지 않는지)을 씨앗 5개씩 짧게 돌립니다(약 5분, 결과 숫자에 쓰지 않음). 나아지면 판 1″을 190번 돌려 판 1′과 견줍니다(약 40분).</p></div>
-    <p class="src">출처: <code>decisions/judgments.md</code> 2026-10-28 판 1·판 1′ 줄, <code>data/agent/answer_cite/summary_v1.md</code>·<code>summary_v1b.md</code>, <code>research_notes/stage6_answer_tests/README.md</code>, <code>decisions/stage6.md</code> 2026-10-28 줄들</p>
+    <div class="field"><span class="lab">판 1″을 확인하는 법</span><p>판 1′에 위 두 줄을 더한 판으로, 가·나가 나온 질문(q07-en, q18-ko, q19-ko)과 어븀 질문(q09-en, 다시 나빠지지 않는지)을 씨앗 5개씩 먼저 짧게 돌립니다(약 5분). 나아지면 190번을 돌려 판 1′과 견줍니다(약 40분).</p></div>
+    <p class="src">출처: <code>data/agent/plan_search/runs.jsonl</code>(판 0), <code>data/agent/answer_cite/runs_v1.jsonl</code>(판 1), <code>runs_v1b.jsonl</code>(판 1′), <code>summary_v1.md</code>·<code>summary_v1b.md</code>, <code>research_notes/stage6_answer_tests/README.md</code>, 판단 <code>decisions/judgments.md</code> 2026-10-28</p>
   </section>
 
   <section>
